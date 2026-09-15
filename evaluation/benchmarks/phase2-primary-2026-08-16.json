@@ -1,0 +1,16 @@
+{
+  "primary_methods": {
+    "classification": "raw_phase2",
+    "prioritization": "raw_phase2"
+  },
+  "reference_status": "automated_candidate_not_human_validated",
+  "replacement_rule": {
+    "adjusted_alpha": 0.05,
+    "classification_metric": "macro_balanced_accuracy",
+    "correction": "Holm",
+    "prioritization_metric": "macro_average_precision",
+    "required_delta": "positive"
+  },
+  "schema": "vc-clone-benchmark-policy-v1",
+  "scientific_status": "development_benchmark_not_untouched_holdout"
+}

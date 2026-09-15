@@ -1,0 +1,156 @@
+{
+  "schema": "transcript-observed-rationales-v1",
+  "episode_slug": "110-handsdown-the-accelerator-pitch",
+  "transcript_sha256": "2dbb3c818fe02e23df28f0f1956b20905a0c50d180187f10419e1788e4edfa55",
+  "window": {
+    "start_turn": 7,
+    "end_turn": 49
+  },
+  "observed_decision": "Out",
+  "decision_evidence_ids": [
+    "E4"
+  ],
+  "evidence_registry": [
+    {
+      "evidence_id": "E1",
+      "turn_index": 27,
+      "speaker": "Charles",
+      "text": "And why do it on HandsDown as opposed to Linktr.ee or some other link in bio? If you already have an audience, like why do it on HandsDown as opposed to on -"
+    },
+    {
+      "evidence_id": "E2",
+      "turn_index": 29,
+      "speaker": "Charles",
+      "text": "Yeah. I just bring up the link in bio because if the link - especially for people who have decent audience, a lot of them, even within verticals there's a link in bio just designed for beauty, there's ones to - and there is, like, there is certainly like a lot of energy around this, particularly for the people who have audience already."
+    },
+    {
+      "evidence_id": "E3",
+      "turn_index": 33,
+      "speaker": "Charles",
+      "text": "On a related note, I'm curious, like the, the original sort of group chat thing you explained, I was like, oh that feels like a product space where there isn't a good solution today, and this one feels like it's just a much more crowded environment. I'm curious, like the - is the hypothesis that by being, just having used the app, by being on the app, I'm going to get inspired by things that other people who are not in my friends circle have discovered or put on the app and that this browse and discover is going to expand? Because the first product you mentioned to me felt much more contained."
+    },
+    {
+      "evidence_id": "E4",
+      "turn_index": 49,
+      "speaker": "Charles",
+      "text": "I think like Elizabeth, I think I'm out too. But for maybe like a slightly - related but different reason. I think this sort of shop with your friends social - this is in that category of things that should work. It should be something that works, and it - it sort of hasn't yet. And I think it - there's some behavioral insight that's missing around like why none of the products that have been built connect the dots on that behavior, and it's sort of in that, like, people should do this! And I think 'should' is a very dangerous word when you're building a product. And I keep coming back to the fact that the product I'm really excited about was the first one you described. And if the company was like laser focused on that, I would be able to go way down the rabbit hole with you. And that's an experiment I think that hasn't been run, and where we don't have as much data. But a good way to lose money as an investor is to fall in love with something that the founder is not as focused on as you are. So for me, personally, I'm out. But if at any point you decide to go deeper on the sort of small group social sharing, I just think about how many links and pointers to products get shared in my group chat, I would love to have that conversation in the future, but only if that's something you decide you want to make the focus of the company."
+    }
+  ],
+  "rationales": [
+    {
+      "rationale_id": "R1",
+      "rationale_label": "product_differentiation_concern",
+      "utterance_type": "question",
+      "activation": "queried",
+      "direction": "neutral",
+      "salience": "secondary",
+      "confidence": 0.98,
+      "evidence_ids": [
+        "E1"
+      ],
+      "explanation": "Charles asks what distinct value HandsDown provides relative to Linktr.ee and other link-in-bio products for creators who already have an audience.",
+      "decision_link": "none"
+    },
+    {
+      "rationale_id": "R2",
+      "rationale_label": "competitive_intensity_concern",
+      "utterance_type": "assessment",
+      "activation": "evaluated",
+      "direction": "negative",
+      "salience": "secondary",
+      "confidence": 0.97,
+      "evidence_ids": [
+        "E2"
+      ],
+      "explanation": "Charles notes that the target audience already has many link-in-bio alternatives, including vertical-specific options, and that there is substantial activity in the space.",
+      "decision_link": "implicit"
+    },
+    {
+      "rationale_id": "R3",
+      "rationale_label": "market_problem_validation",
+      "utterance_type": "assessment",
+      "activation": "evaluated",
+      "direction": "positive",
+      "salience": "secondary",
+      "confidence": 0.96,
+      "evidence_ids": [
+        "E3"
+      ],
+      "explanation": "Charles views the original group-chat sharing concept as addressing a product space without a good existing solution.",
+      "decision_link": "implicit"
+    },
+    {
+      "rationale_id": "R4",
+      "rationale_label": "competitive_intensity_concern",
+      "utterance_type": "assessment",
+      "activation": "evaluated",
+      "direction": "negative",
+      "salience": "primary",
+      "confidence": 0.98,
+      "evidence_ids": [
+        "E3"
+      ],
+      "explanation": "Charles contrasts the original group-chat concept with HandsDown's broader browse-and-discover direction, which he characterizes as a much more crowded environment.",
+      "decision_link": "explicit"
+    },
+    {
+      "rationale_id": "R5",
+      "rationale_label": "product_success_factor_assessment",
+      "utterance_type": "question",
+      "activation": "queried",
+      "direction": "neutral",
+      "salience": "secondary",
+      "confidence": 0.94,
+      "evidence_ids": [
+        "E3"
+      ],
+      "explanation": "Charles asks whether app usage will cause users to discover recommendations beyond their existing friend circles, probing the product's broader discovery hypothesis.",
+      "decision_link": "none"
+    },
+    {
+      "rationale_id": "R6",
+      "rationale_label": "product_success_factor_assessment",
+      "utterance_type": "assessment",
+      "activation": "evaluated",
+      "direction": "negative",
+      "salience": "primary",
+      "confidence": 0.97,
+      "evidence_ids": [
+        "E4"
+      ],
+      "explanation": "Charles says prior shop-with-your-friends products have not connected the intended behavior to a successful product and identifies a missing behavioral insight.",
+      "decision_link": "explicit"
+    },
+    {
+      "rationale_id": "R7",
+      "rationale_label": "product_appeal_assessment",
+      "utterance_type": "assessment",
+      "activation": "evaluated",
+      "direction": "positive",
+      "salience": "primary",
+      "confidence": 0.99,
+      "evidence_ids": [
+        "E4"
+      ],
+      "explanation": "Charles states that he is particularly excited by the first, small-group social-sharing product described.",
+      "decision_link": "none"
+    },
+    {
+      "rationale_id": "R8",
+      "rationale_label": "founder_investor_vision_alignment",
+      "utterance_type": "assessment",
+      "activation": "evaluated",
+      "direction": "negative",
+      "salience": "primary",
+      "confidence": 0.99,
+      "evidence_ids": [
+        "E4"
+      ],
+      "explanation": "Charles explicitly links his decision to the risk of being more focused on the small-group product than the founder, and says he would only continue the conversation if that became the company's focus.",
+      "decision_link": "explicit"
+    }
+  ],
+  "unmapped_utterances": [],
+  "audit_flags": [],
+  "annotation_summary": "Charles probes differentiation, assesses the broader discovery market as crowded, and exits because he is excited by the original small-group product while the company is pursuing a broader direction that he believes lacks validated behavioral insight and does not align with the founder's current focus."
+}

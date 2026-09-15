@@ -1,0 +1,63 @@
+[run]
+vc_slug = "charles-hudson-precursor-ventures"
+episode_slug = "39-this-pitch-is-damn-near-perfect"
+input_root = "inputs"
+output_root = "outputs/openrouter-luna-charles-v4-bluffworks-v41-diagnostic-attempt-2"
+checkpoint_path = "outputs/openrouter-luna-charles-v4-bluffworks-v41-diagnostic-attempt-2/checkpoints/39-this-pitch-is-damn-near-perfect.sqlite"
+contract_version = "v4"
+
+[provider]
+kind = "openrouter"
+model = "openai/gpt-5.6-luna"
+base_url = "https://openrouter.ai/api/v1"
+api_key_env = "OPENROUTER_API_KEY"
+require_parameters = true
+data_collection = "deny"
+max_output_tokens = 16384
+request_timeout_seconds = 300
+
+[embedding]
+kind = "sentence_transformers"
+model = "nomic-ai/nomic-embed-text-v1.5"
+revision = "e9b6763023c676ca8431644204f50c2b100d9aab"
+device = "auto"
+batch_size = 16
+normalize = true
+document_prefix = "search_document: "
+query_prefix = "search_query: "
+require_complete_index = true
+
+[phase1]
+model = "openai/gpt-5.6-luna"
+reasoning_effort = "high"
+min_iterations = 1
+max_iterations = 4
+max_output_tokens = 16384
+planning_max_output_tokens = 8192
+planning_reasoning_effort = "low"
+max_precedent_searches = 4
+max_precedent_reads = 8
+
+[phase2]
+model = "openai/gpt-5.6-luna"
+reasoning_effort = "high"
+min_iterations = 1
+max_iterations = 4
+max_output_tokens = 16384
+planning_max_output_tokens = 8192
+planning_reasoning_effort = "low"
+max_precedent_searches = 4
+max_precedent_reads = 8
+
+[retrieval]
+top_k = 6
+max_exact_reads = 12
+
+[precedents]
+enabled = true
+corpus_path = "data/investors/charles-hudson-precursor-ventures/precedents"
+allow_full_transcript = true
+selection_policy = "contrastive"
+candidate_pool_k = 30
+in_slots = 2
+out_slots = 2

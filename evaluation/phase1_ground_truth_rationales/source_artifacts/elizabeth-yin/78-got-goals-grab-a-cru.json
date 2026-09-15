@@ -1,0 +1,166 @@
+{
+  "schema": "transcript-observed-rationales-v1",
+  "episode_slug": "78-got-goals-grab-a-cru",
+  "transcript_sha256": "9a83a8eb8dfc6108b7b42acfb434c3c290dd257b724c193892ea04bb2175f808",
+  "window": {
+    "start_turn": 1,
+    "end_turn": 45
+  },
+  "observed_decision": "In",
+  "decision_evidence_ids": [
+    "E5"
+  ],
+  "evidence_registry": [
+    {
+      "evidence_id": "E1",
+      "turn_index": 8,
+      "speaker": "Elizabeth",
+      "text": "Congrats."
+    },
+    {
+      "evidence_id": "E2",
+      "turn_index": 12,
+      "speaker": "Elizabeth",
+      "text": "How do you do the matching?"
+    },
+    {
+      "evidence_id": "E3",
+      "turn_index": 29,
+      "speaker": "Elizabeth",
+      "text": "Actually, Sheel, there are a lot of underground groups. But mostly at the high level where they charge, let’s say, $100,000 a year for an exec. And then there are like 1000 people in it and it’s secret and nobody’s heard of it. But I am kind of curious, what does that look like at the mid-tier for example."
+    },
+    {
+      "evidence_id": "E4",
+      "turn_index": 37,
+      "speaker": "Elizabeth",
+      "text": "And what are the terms of this raise?"
+    },
+    {
+      "evidence_id": "E5",
+      "turn_index": 45,
+      "speaker": "Elizabeth",
+      "text": "So I have a couple of thoughts, one on, from a mission perspective, I love what you’re doing and you are clearly the right person to be doing this. So I absolutely love that. I have a lot of friends who try to ad hoc put together crews, and so I think this is actually amazing and very needed. And then from a monetization aspect, I actually, I really love this, because you are getting people to pay to be in your audience. Most people have to, first be in an audience and then you try to monetize them. I think it’s great that you’re charging 499. And I can see so many ways you can upsell these people if you can retain them over the years. So I’m in for 25k."
+    }
+  ],
+  "rationales": [
+    {
+      "rationale_id": "R1",
+      "rationale_label": "product_success_factor_assessment",
+      "utterance_type": "question",
+      "activation": "queried",
+      "direction": "neutral",
+      "salience": "secondary",
+      "confidence": 0.98,
+      "evidence_ids": [
+        "E2"
+      ],
+      "explanation": "Elizabeth asks how the core matching mechanism works, probing an essential product component without expressing a judgment.",
+      "decision_link": "none"
+    },
+    {
+      "rationale_id": "R2",
+      "rationale_label": "competitive_intensity_concern",
+      "utterance_type": "question",
+      "activation": "queried",
+      "direction": "neutral",
+      "salience": "secondary",
+      "confidence": 0.9,
+      "evidence_ids": [
+        "E3"
+      ],
+      "explanation": "Elizabeth notes existing underground groups and asks about the mid-tier competitive landscape; she does not state a positive or negative conclusion.",
+      "decision_link": "none"
+    },
+    {
+      "rationale_id": "R3",
+      "rationale_label": "deal_terms_complexity_concern",
+      "utterance_type": "question",
+      "activation": "queried",
+      "direction": "neutral",
+      "salience": "secondary",
+      "confidence": 0.99,
+      "evidence_ids": [
+        "E4"
+      ],
+      "explanation": "Elizabeth asks for the terms of the financing round without expressing a judgment about them.",
+      "decision_link": "none"
+    },
+    {
+      "rationale_id": "R4",
+      "rationale_label": "mission_alignment_preference",
+      "utterance_type": "decision_reason",
+      "activation": "evaluated",
+      "direction": "positive",
+      "salience": "primary",
+      "confidence": 0.99,
+      "evidence_ids": [
+        "E5"
+      ],
+      "explanation": "Elizabeth explicitly says she loves what the founder is doing from a mission perspective and uses that positive alignment in her investment decision.",
+      "decision_link": "explicit"
+    },
+    {
+      "rationale_id": "R5",
+      "rationale_label": "founder_market_fit",
+      "utterance_type": "decision_reason",
+      "activation": "evaluated",
+      "direction": "positive",
+      "salience": "primary",
+      "confidence": 0.96,
+      "evidence_ids": [
+        "E5"
+      ],
+      "explanation": "Elizabeth explicitly characterizes the founder as clearly the right person to be doing this, supporting founder-market fit.",
+      "decision_link": "explicit"
+    },
+    {
+      "rationale_id": "R6",
+      "rationale_label": "market_problem_validation",
+      "utterance_type": "decision_reason",
+      "activation": "evaluated",
+      "direction": "positive",
+      "salience": "secondary",
+      "confidence": 0.95,
+      "evidence_ids": [
+        "E5"
+      ],
+      "explanation": "Elizabeth cites friends independently trying to assemble crews and calls the offering very needed, validating the underlying problem.",
+      "decision_link": "explicit"
+    },
+    {
+      "rationale_id": "R7",
+      "rationale_label": "product_appeal_assessment",
+      "utterance_type": "decision_reason",
+      "activation": "evaluated",
+      "direction": "positive",
+      "salience": "secondary",
+      "confidence": 0.94,
+      "evidence_ids": [
+        "E5"
+      ],
+      "explanation": "Elizabeth describes the offering as amazing and says she absolutely loves it, expressing strong product appeal.",
+      "decision_link": "explicit"
+    },
+    {
+      "rationale_id": "R8",
+      "rationale_label": "business_model_assessment",
+      "utterance_type": "decision_reason",
+      "activation": "evaluated",
+      "direction": "positive",
+      "salience": "primary",
+      "confidence": 0.99,
+      "evidence_ids": [
+        "E5"
+      ],
+      "explanation": "Elizabeth explicitly praises the monetization model: customers pay to join the audience, the $499 price is acceptable, and retention could enable upselling.",
+      "decision_link": "explicit"
+    }
+  ],
+  "unmapped_utterances": [
+    "Congrats."
+  ],
+  "audit_flags": [
+    "DETERMINISTIC_TURN_INDEX_REPAIR"
+  ],
+  "annotation_summary": "Elizabeth’s In decision is explicitly supported by mission alignment, founder-market fit, perceived need, product appeal, and a favorable monetization model. Her earlier questions probe matching, competition, and financing terms without stated judgments."
+}

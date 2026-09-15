@@ -1,0 +1,99 @@
+{
+  "schema": "transcript-observed-rationales-v1",
+  "episode_slug": "133-podcast-ai-josh-gets-displaced",
+  "transcript_sha256": "e0bc0a3a8cd155577231f34bb5a55452b318eb154b237baff95cd91243c9a85c",
+  "window": {
+    "start_turn": 9,
+    "end_turn": 104
+  },
+  "observed_decision": "In",
+  "decision_evidence_ids": [
+    "E5"
+  ],
+  "evidence_registry": [
+    {
+      "evidence_id": "E1",
+      "turn_index": 14,
+      "speaker": "Charles",
+      "text": "Can they do it anything? Riverside, Zoom, whatever they want to use?"
+    },
+    {
+      "evidence_id": "E2",
+      "turn_index": 16,
+      "speaker": "Charles",
+      "text": "What tools do they get rid of when they use Podcast AI?"
+    },
+    {
+      "evidence_id": "E3",
+      "turn_index": 48,
+      "speaker": "Charles",
+      "text": "These are all prof - people who are doing it - whether they're directly monetizing it, it could be someone who's like hey, this is - it's a corporate podcast to get our message - these are people who are doing this for commercial purposes, by and large, right?"
+    },
+    {
+      "evidence_id": "E4",
+      "turn_index": 46,
+      "speaker": "Charles",
+      "text": "This is my question, like are these -"
+    },
+    {
+      "evidence_id": "E5",
+      "turn_index": 104,
+      "speaker": "Charles",
+      "text": "I'm in for 50k."
+    }
+  ],
+  "rationales": [
+    {
+      "rationale_id": "R1",
+      "rationale_label": "solution_feasibility_assessment",
+      "utterance_type": "question",
+      "activation": "queried",
+      "direction": "neutral",
+      "salience": "secondary",
+      "confidence": 0.99,
+      "evidence_ids": [
+        "E1"
+      ],
+      "explanation": "Charles asks whether the product accepts recordings from tools such as Riverside and Zoom, querying input compatibility.",
+      "decision_link": "none"
+    },
+    {
+      "rationale_id": "R2",
+      "rationale_label": "competitive_landscape_inertia",
+      "utterance_type": "question",
+      "activation": "queried",
+      "direction": "neutral",
+      "salience": "secondary",
+      "confidence": 0.98,
+      "evidence_ids": [
+        "E2"
+      ],
+      "explanation": "Charles asks which existing tools Podcast AI replaces, querying displacement of incumbent workflow components.",
+      "decision_link": "none"
+    },
+    {
+      "rationale_id": "R3",
+      "rationale_label": "market_entry_path_assessment",
+      "utterance_type": "question",
+      "activation": "queried",
+      "direction": "neutral",
+      "salience": "secondary",
+      "confidence": 0.99,
+      "evidence_ids": [
+        "E3"
+      ],
+      "explanation": "Charles probes whether the target customers are using podcasts for commercial purposes, querying the initial customer segment and its qualification.",
+      "decision_link": "none"
+    }
+  ],
+  "unmapped_utterances": [
+    "Oh yeah.",
+    "Yeah. Reads",
+    "This is my question, like are these -",
+    "Yeah."
+  ],
+  "audit_flags": [
+    "Charles states the investment decision but gives no explicit decision rationale."
+  ],
+  "annotation_summary": "Charles asked about product compatibility, replacement of existing tools, and the commercial nature of the target customer segment. He explicitly invested $50k without stating a reason."
+}

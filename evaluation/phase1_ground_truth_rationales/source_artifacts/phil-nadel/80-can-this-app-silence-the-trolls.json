@@ -1,0 +1,85 @@
+{
+  "schema": "transcript-observed-rationales-v1",
+  "episode_slug": "80-can-this-app-silence-the-trolls",
+  "transcript_sha256": "a68e28b993e001f5868bd175f0112fbb0439839ba2a3fd03c2ae22a1bc8387c7",
+  "window": {
+    "start_turn": 0,
+    "end_turn": 65
+  },
+  "observed_decision": "Out",
+  "decision_evidence_ids": [
+    "E3"
+  ],
+  "evidence_registry": [
+    {
+      "evidence_id": "E1",
+      "turn_index": 32,
+      "speaker": "Phil",
+      "text": "So I understand your philosophy, building audience, building a mass audience before you start to monetize. I get that. But you gotta eventually bring in the revenue. So I want to see how that looks."
+    },
+    {
+      "evidence_id": "E2",
+      "turn_index": 61,
+      "speaker": "Phil",
+      "text": "I never invest in pre-revenue companies but I’m super tempted to do so this time. I always say to people that I would have passed on Twitter and Facebook had they come to me pre-revenue too. You know I’m just not smart enough to know that those are going to be big hits without seeing some early indication that someone’s willing to pay money for something."
+    },
+    {
+      "evidence_id": "E3",
+      "turn_index": 65,
+      "speaker": "Phil",
+      "text": "I know. That’s the problem. I’d love to get in on the next round when you’re monetizing, but it’s probably going to be too late at that point, honestly. Um."
+    }
+  ],
+  "rationales": [
+    {
+      "rationale_id": "R1",
+      "rationale_label": "business_model_assessment",
+      "utterance_type": "assessment",
+      "activation": "evaluated",
+      "direction": "negative",
+      "salience": "primary",
+      "confidence": 0.99,
+      "evidence_ids": [
+        "E1",
+        "E2"
+      ],
+      "explanation": "Phil accepts the audience-building premise but states that the company must eventually generate revenue and that he needs an early willingness-to-pay signal.",
+      "decision_link": "explicit"
+    },
+    {
+      "rationale_id": "R2",
+      "rationale_label": "investment_thesis_constraint",
+      "utterance_type": "assessment",
+      "activation": "evaluated",
+      "direction": "negative",
+      "salience": "primary",
+      "confidence": 0.99,
+      "evidence_ids": [
+        "E2",
+        "E3"
+      ],
+      "explanation": "Phil states that he never invests in pre-revenue companies and says waiting until monetization would likely be too late.",
+      "decision_link": "explicit"
+    },
+    {
+      "rationale_id": "R3",
+      "rationale_label": "investor_domain_knowledge_constraint",
+      "utterance_type": "assessment",
+      "activation": "evaluated",
+      "direction": "negative",
+      "salience": "secondary",
+      "confidence": 0.98,
+      "evidence_ids": [
+        "E2"
+      ],
+      "explanation": "Phil says he is not able to identify a likely breakout company without early evidence that someone will pay for it.",
+      "decision_link": "explicit"
+    }
+  ],
+  "unmapped_utterances": [
+    "Hi Ben!",
+    "Yeah. Yeah. And you know, I."
+  ],
+  "audit_flags": [],
+  "annotation_summary": "Phil’s Out decision is explicitly tied to his pre-revenue investment constraint and need for evidence of willingness to pay; he also expresses concern about the company’s path to monetization."
+}

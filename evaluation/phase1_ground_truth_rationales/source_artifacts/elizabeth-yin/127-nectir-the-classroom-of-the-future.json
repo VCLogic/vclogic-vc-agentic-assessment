@@ -1,0 +1,132 @@
+{
+  "schema": "transcript-observed-rationales-v1",
+  "episode_slug": "127-nectir-the-classroom-of-the-future",
+  "transcript_sha256": "f2333f5ec8d5a5d6ea5325be60e46c0a6e9d331ed9bbbca6ade6ad10639b5015",
+  "window": {
+    "start_turn": 6,
+    "end_turn": 74
+  },
+  "observed_decision": "Out",
+  "decision_evidence_ids": [
+    "E2"
+  ],
+  "evidence_registry": [
+    {
+      "evidence_id": "E1",
+      "turn_index": 71,
+      "speaker": "Elizabeth",
+      "text": "You should definitely not negotiate with yourself."
+    },
+    {
+      "evidence_id": "E2",
+      "turn_index": 74,
+      "speaker": "Elizabeth",
+      "text": "Kavitta, I really like your tenacity and your sales. I feel like at Hustle Fund, we're probably just not the right fit. We're investing in much smaller rounds, much earlier. We also don't really invest in a lot of ed tech. On 500 investments, I think we have one ed tech company, so it's not a space I really know a whole lot about, nor really have honestly a passion for. So I think unfortunately I'm out. But I've absolutely loved, you know, getting to know you in this conversation."
+    }
+  ],
+  "rationales": [
+    {
+      "rationale_id": "R1",
+      "rationale_label": "dilution_concern",
+      "utterance_type": "assessment",
+      "activation": "evaluated",
+      "direction": "negative",
+      "salience": "secondary",
+      "confidence": 0.96,
+      "evidence_ids": [
+        "E1"
+      ],
+      "explanation": "Elizabeth warns against conceding valuation terms unprompted, indicating concern about unnecessarily dilutive negotiation outcomes.",
+      "decision_link": "none"
+    },
+    {
+      "rationale_id": "R2",
+      "rationale_label": "founder_execution",
+      "utterance_type": "assessment",
+      "activation": "evaluated",
+      "direction": "positive",
+      "salience": "secondary",
+      "confidence": 0.97,
+      "evidence_ids": [
+        "E2"
+      ],
+      "explanation": "Elizabeth explicitly praises the founder's tenacity.",
+      "decision_link": "none"
+    },
+    {
+      "rationale_id": "R3",
+      "rationale_label": "founder_skillset",
+      "utterance_type": "assessment",
+      "activation": "evaluated",
+      "direction": "positive",
+      "salience": "secondary",
+      "confidence": 0.98,
+      "evidence_ids": [
+        "E2"
+      ],
+      "explanation": "Elizabeth explicitly praises the founder's sales ability.",
+      "decision_link": "none"
+    },
+    {
+      "rationale_id": "R4",
+      "rationale_label": "fund_economics_constraint",
+      "utterance_type": "decision_reason",
+      "activation": "evaluated",
+      "direction": "negative",
+      "salience": "primary",
+      "confidence": 0.99,
+      "evidence_ids": [
+        "E2"
+      ],
+      "explanation": "Elizabeth directly states that Hustle Fund invests in much smaller, earlier rounds, making the current seed round outside the fund's stage and round-size fit.",
+      "decision_link": "explicit"
+    },
+    {
+      "rationale_id": "R5",
+      "rationale_label": "investment_thesis_constraint",
+      "utterance_type": "decision_reason",
+      "activation": "evaluated",
+      "direction": "negative",
+      "salience": "primary",
+      "confidence": 0.99,
+      "evidence_ids": [
+        "E2"
+      ],
+      "explanation": "Elizabeth directly states that the fund does not invest in much ed tech, which she gives as a reason for being out.",
+      "decision_link": "explicit"
+    },
+    {
+      "rationale_id": "R6",
+      "rationale_label": "investor_domain_knowledge_constraint",
+      "utterance_type": "decision_reason",
+      "activation": "evaluated",
+      "direction": "negative",
+      "salience": "primary",
+      "confidence": 0.99,
+      "evidence_ids": [
+        "E2"
+      ],
+      "explanation": "Elizabeth directly states that ed tech is not a space she knows much about.",
+      "decision_link": "explicit"
+    },
+    {
+      "rationale_id": "R7",
+      "rationale_label": "mission_alignment_preference",
+      "utterance_type": "decision_reason",
+      "activation": "evaluated",
+      "direction": "negative",
+      "salience": "secondary",
+      "confidence": 0.98,
+      "evidence_ids": [
+        "E2"
+      ],
+      "explanation": "Elizabeth directly states that she does not honestly have a passion for the space.",
+      "decision_link": "explicit"
+    }
+  ],
+  "unmapped_utterances": [
+    "Elizabeth. Nice to meet you."
+  ],
+  "audit_flags": [],
+  "annotation_summary": "Elizabeth's explicit Out decision is driven by fund stage and round-size mismatch, limited ed-tech investment thesis and domain knowledge, and lack of passion for the space. She also positively assesses the founder's tenacity and sales and cautions against self-negotiating valuation terms."
+}

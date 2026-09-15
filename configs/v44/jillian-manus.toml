@@ -1,0 +1,79 @@
+[run]
+vc_slug = "jillian-manus-structure-capital"
+episode_slug = "8-hykso"
+input_root = "inputs"
+output_root = "outputs/phase1-v44-canary-2026-08-17/investors/jillian-manus"
+checkpoint_path = "outputs/phase1-v44-canary-2026-08-17/checkpoints/8-hykso.sqlite"
+contract_version = "v4.4"
+mode = "phase1_only"
+
+[provider]
+kind = "openrouter"
+model = "openai/gpt-5.6-luna"
+base_url = "https://openrouter.ai/api/v1"
+api_key_env = "OPENROUTER_API_KEY"
+require_parameters = true
+data_collection = "deny"
+max_output_tokens = 16384
+context_window = 131072
+request_timeout_seconds = 600
+
+[embedding]
+kind = "sentence_transformers"
+model = "nomic-ai/nomic-embed-text-v1.5"
+revision = "e9b6763023c676ca8431644204f50c2b100d9aab"
+device = "auto"
+batch_size = 16
+normalize = true
+document_prefix = "search_document: "
+query_prefix = "search_query: "
+require_complete_index = true
+
+[phase1]
+model = "openai/gpt-5.6-luna"
+reasoning_effort = "high"
+min_iterations = 1
+max_iterations = 4
+max_output_tokens = 16384
+planning_max_output_tokens = 8192
+planning_reasoning_effort = "low"
+max_precedent_searches = 4
+max_precedent_reads = 8
+
+[phase2]
+model = "openai/gpt-5.6-luna"
+reasoning_effort = "high"
+min_iterations = 1
+max_iterations = 4
+max_output_tokens = 16384
+planning_max_output_tokens = 8192
+planning_reasoning_effort = "low"
+max_precedent_searches = 4
+max_precedent_reads = 8
+
+[retrieval]
+top_k = 6
+max_exact_reads = 12
+
+[precedents]
+enabled = true
+corpus_path = "data/investors/jillian-manus-structure-capital/precedents"
+allow_full_transcript = true
+selection_policy = "semantic"
+candidate_pool_k = 30
+in_slots = 2
+out_slots = 2
+
+[portfolio_memory]
+enabled = true
+corpus_path = "data/investors/<vc_slug>/portfolio-memory"
+retrieval_top_k = 5
+candidate_pool_k = 15
+require_complete_embeddings = true
+
+[phase1_v44]
+taxonomy_top_k = 5
+claim_retrieval_top_k = 3
+max_wiki_reads_per_claim = 2
+max_precedent_reads_per_claim = 2
+max_revisits = 1

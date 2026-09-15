@@ -1,0 +1,70 @@
+{
+  "schema": "phase1-rationale-reference-v1",
+  "episode_slug": "164-sundae-ltk-for-groceries",
+  "vc_slug": "charles-hudson",
+  "vc_name": "Charles Hudson",
+  "actual_decision": "In",
+  "reference_kind": "automated_transcript_observed_candidate",
+  "human_validated": false,
+  "source_format": "transcript-observed-rationales-v1",
+  "source_path": "/home/dpasch01/vc-digital-twins/langgraph-vc-clone-framework/evaluation/phase1_ground_truth_rationales/source_artifacts/charles-hudson/164-sundae-ltk-for-groceries.json",
+  "source_sha256": "a200c9844b7157818d4d660ce506dd60f886b5a39d434f7ceb7e309e3db495a9",
+  "rationales": [
+    {
+      "rationale_label": "go_to_market_strategy_assessment",
+      "direction": "neutral",
+      "salience": "secondary",
+      "confidence": 0.97,
+      "activation": "queried",
+      "utterance_type": "question",
+      "decision_link": "none",
+      "evidence": [
+        "Will the model be the same in the US?"
+      ],
+      "source_rationale_id": "R1"
+    },
+    {
+      "rationale_label": "product_adoption",
+      "direction": "neutral",
+      "salience": "secondary",
+      "confidence": 0.98,
+      "activation": "queried",
+      "utterance_type": "question",
+      "decision_link": "none",
+      "evidence": [
+        "How often do people take the order? I'd imagine you get to the cart and you have to decide, I want to order this or, Oh, I already have these ingredients at home. Or I have half of that. Like, I'm just curious, like, how should we think about the, that conversion?"
+      ],
+      "source_rationale_id": "R2"
+    },
+    {
+      "rationale_label": "business_model_assessment",
+      "direction": "neutral",
+      "salience": "secondary",
+      "confidence": 0.99,
+      "activation": "queried",
+      "utterance_type": "question",
+      "decision_link": "none",
+      "evidence": [
+        "I have one other question for you just, at scale, how do you think about the balance between the sort of commissions and the brand deal from - like what does that look like at scale?"
+      ],
+      "source_rationale_id": "R3"
+    },
+    {
+      "rationale_label": "investor_experience_bias",
+      "direction": "positive",
+      "salience": "primary",
+      "confidence": 0.99,
+      "activation": "evaluated",
+      "utterance_type": "decision_reason",
+      "decision_link": "explicit",
+      "evidence": [
+        "So I'm in for 25. But one big diligence -",
+        "We sold, we sold a company to Instacart -",
+        "- a while ago and I have a bunch of friends who are executives of the company. And I do want to better understand this model from their point of view. That would be the one big diligence item, but I would be in for 25k at a minimum, but the potential to do slightly more."
+      ],
+      "source_rationale_id": "R4"
+    }
+  ],
+  "source_tier": "previously_validated",
+  "source_origin_path": "/home/dpasch01/vc-digital-twins/agentic-vc-clone-framework/outputs/charles-observed-rationale-remaining74-r2-2026-08-03/164-sundae-ltk-for-groceries/reference.json"
+}

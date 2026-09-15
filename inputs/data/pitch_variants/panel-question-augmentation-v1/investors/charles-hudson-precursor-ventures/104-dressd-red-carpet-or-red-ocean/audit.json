@@ -1,0 +1,69 @@
+{
+  "actual_decision": "In",
+  "boundary_turn_index": 57,
+  "canonical_pitch_path": "inputs/data/investors/charles-hudson-precursor-ventures/pitches/104-dressd-red-carpet-or-red-ocean.txt",
+  "canonical_pitch_sha256": "35865e7d34cbf2691e517999685c66b0b7341ee9d26fe134f4340585632ac986",
+  "episode_path": "../agentic-vc-clone-framework/data/episodes/104-dressd-red-carpet-or-red-ocean.json",
+  "episode_sha256": "4870344d0cfffca5c114f129fc9d959ba80a15e83270ffa6211b4232dc750f28",
+  "episode_slug": "104-dressd-red-carpet-or-red-ocean",
+  "insertions": [
+    {
+      "answer_turn_index": 25,
+      "canonical_line_index": 7,
+      "original_speaker": "Jillian",
+      "question": "Okay. Is this already launched? How many customers? What are the biggest challenges?",
+      "source_turn_index": 23
+    },
+    {
+      "answer_turn_index": 27,
+      "canonical_line_index": 8,
+      "original_speaker": "Mac",
+      "question": "And so how long have you been working on this?",
+      "source_turn_index": 26
+    },
+    {
+      "answer_turn_index": 31,
+      "canonical_line_index": 12,
+      "original_speaker": "Elizabeth",
+      "question": "What did those numbers typically look like? Like, how much would a rental be?",
+      "source_turn_index": 30
+    },
+    {
+      "answer_turn_index": 37,
+      "canonical_line_index": 15,
+      "original_speaker": "Neal",
+      "question": "So what have you learned in talking to your customers about who's like primed for this, who's likely to convert going forward, and what's your plan for acquisition?",
+      "source_turn_index": 36
+    },
+    {
+      "answer_turn_index": 42,
+      "canonical_line_index": 20,
+      "original_speaker": "Jillian",
+      "question": "Okay. I'm gonna hit you with some cold water. So one of our companies is Style Lend. Are you aware that this is one of the most difficult spaces, with the most failures? And just some data points for you, from the companies in the fashion rental space, literally Le Tote went under, Ycloset went under, CaaStle went under. They raised over $100 million and never were able to make it work. RTR lost two thirds of its stock value since its IPO. This space is one of the most difficult spaces, hands down. What makes you so special that you're going to make this work when so many others, with hundreds of millions of dollars, are unable to?",
+      "source_turn_index": 41
+    }
+  ],
+  "leakage_checklist": {
+    "founder_content_added": false,
+    "other_investor_identity_model_visible": false,
+    "post_boundary_turn_retained": false,
+    "target_investor_turn_retained": false,
+    "verdict_or_offer_turn_retained": false
+  },
+  "neutral_speaker_label": "Panel Investor",
+  "omitted_candidates": [
+    {
+      "original_speaker": "Mac",
+      "reason": "question_already_present",
+      "source_turn_index": 28,
+      "text": "How many rentals have you done so far to date and how do you make money?"
+    }
+  ],
+  "pitch_sha256": "70cf9948cb02536d3a43d066c84cebf7756cada331ebcea37bee71c6f41d0806",
+  "registry_vc_slug": "charles-hudson",
+  "schema": "panel-question-pitch-audit-v1",
+  "source_record_path": "inputs/data/investors/charles-hudson-precursor-ventures/precedents/records/104-dressd-red-carpet-or-red-ocean.json",
+  "source_record_sha256": "7dfe9f9ebe1fc8eacb724e0bb456a2a3968aeeca995bbe8b6474ec132bb6ac5c",
+  "status": "audited",
+  "vc_slug": "charles-hudson-precursor-ventures"
+}

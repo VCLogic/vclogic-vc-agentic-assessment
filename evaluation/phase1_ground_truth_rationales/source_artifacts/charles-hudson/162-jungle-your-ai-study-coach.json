@@ -1,0 +1,205 @@
+{
+  "schema": "transcript-observed-rationales-v1",
+  "episode_slug": "162-jungle-your-ai-study-coach",
+  "transcript_sha256": "95ca2b322c7a3b45d3013bcd53a90333a734be33a788d02249cad5194518d7a6",
+  "window": {
+    "start_turn": 0,
+    "end_turn": 115
+  },
+  "observed_decision": "Out",
+  "decision_evidence_ids": [
+    "E1"
+  ],
+  "evidence_registry": [
+    {
+      "evidence_id": "E1",
+      "turn_index": 115,
+      "speaker": "Charles",
+      "text": "So I'm out. For two reasons."
+    },
+    {
+      "evidence_id": "E2",
+      "turn_index": 115,
+      "speaker": "Charles",
+      "text": "You kind of need to 200 X this business for it to get to the zone of what works."
+    },
+    {
+      "evidence_id": "E3",
+      "turn_index": 115,
+      "speaker": "Charles",
+      "text": "Not because you're not amazing. I was in an EdTech company that was like hit by the chat GPT Chegg wave and what that did for people's perception of the opportunity in study tools."
+    },
+    {
+      "evidence_id": "E4",
+      "turn_index": 115,
+      "speaker": "Charles",
+      "text": "Sometimes the first million people behave really differently than the next five to ten."
+    },
+    {
+      "evidence_id": "E5",
+      "turn_index": 115,
+      "speaker": "Charles",
+      "text": "I was like, okay, you probably need to 200x the business and the incremental, each incremental marginal learner you add, I think it's gonna be tougher."
+    },
+    {
+      "evidence_id": "E6",
+      "turn_index": 115,
+      "speaker": "Charles",
+      "text": "I think it's really hard to jump from the study use case to the non-study use case if the product is constructed as a study case."
+    },
+    {
+      "evidence_id": "E7",
+      "turn_index": 115,
+      "speaker": "Charles",
+      "text": "So, what I'm really saying is, I think this is a 50 to 75 million dollar ARR business led by an amazing founder that gets pretty close to the bar that I want to see, but I have a hard time seeing how you clear it."
+    },
+    {
+      "evidence_id": "E8",
+      "turn_index": 115,
+      "speaker": "Charles",
+      "text": "But when I think about, especially things in EdTech, where I think there's an AI element, I think like, what is AI good at doing today? Where do I think it will be in 12 and 24 months, and what does that do for the opportunity? And in most cases, I think it's compression, not expansion."
+    },
+    {
+      "evidence_id": "E9",
+      "turn_index": 115,
+      "speaker": "Charles",
+      "text": "So, I think you're running at a really fast rate, you're doing all the right things in experimentation, I think you can kind of stay ahead of the pack for a while, but it just wasn't clear to me that there was an opportunity to get to that scale."
+    }
+  ],
+  "rationales": [
+    {
+      "rationale_id": "R1",
+      "rationale_label": "venture_scale_concern",
+      "utterance_type": "decision_reason",
+      "activation": "evaluated",
+      "direction": "negative",
+      "salience": "primary",
+      "confidence": 0.99,
+      "evidence_ids": [
+        "E2",
+        "E7",
+        "E9"
+      ],
+      "explanation": "Charles believes the business would need roughly 200x growth and still does not clearly reach the scale threshold he requires.",
+      "decision_link": "explicit"
+    },
+    {
+      "rationale_id": "R2",
+      "rationale_label": "investor_experience_bias",
+      "utterance_type": "decision_reason",
+      "activation": "evaluated",
+      "direction": "negative",
+      "salience": "secondary",
+      "confidence": 0.98,
+      "evidence_ids": [
+        "E3"
+      ],
+      "explanation": "Charles explicitly references his prior experience in an EdTech company affected by the ChatGPT/Chegg wave as shaping his perception of study-tool opportunities.",
+      "decision_link": "explicit"
+    },
+    {
+      "rationale_id": "R3",
+      "rationale_label": "traction_repeatability_concern",
+      "utterance_type": "decision_reason",
+      "activation": "evaluated",
+      "direction": "negative",
+      "salience": "secondary",
+      "confidence": 0.95,
+      "evidence_ids": [
+        "E4"
+      ],
+      "explanation": "Charles cautions that behavior among the first million users may differ materially from behavior among the next five to ten million.",
+      "decision_link": "explicit"
+    },
+    {
+      "rationale_id": "R4",
+      "rationale_label": "growth_projection_risk",
+      "utterance_type": "decision_reason",
+      "activation": "evaluated",
+      "direction": "negative",
+      "salience": "primary",
+      "confidence": 0.96,
+      "evidence_ids": [
+        "E5"
+      ],
+      "explanation": "Charles expects each additional marginal learner to be harder to acquire or add as the business scales.",
+      "decision_link": "explicit"
+    },
+    {
+      "rationale_id": "R5",
+      "rationale_label": "market_entry_path_assessment",
+      "utterance_type": "decision_reason",
+      "activation": "evaluated",
+      "direction": "negative",
+      "salience": "primary",
+      "confidence": 0.98,
+      "evidence_ids": [
+        "E6"
+      ],
+      "explanation": "Charles sees a difficult expansion path from the study use case to non-study use cases when the product is constructed around studying.",
+      "decision_link": "explicit"
+    },
+    {
+      "rationale_id": "R6",
+      "rationale_label": "market_timing",
+      "utterance_type": "decision_reason",
+      "activation": "evaluated",
+      "direction": "negative",
+      "salience": "secondary",
+      "confidence": 0.94,
+      "evidence_ids": [
+        "E8"
+      ],
+      "explanation": "Charles expects AI's impact over the next 12 to 24 months to compress rather than expand the opportunity in EdTech.",
+      "decision_link": "explicit"
+    },
+    {
+      "rationale_id": "R7",
+      "rationale_label": "founder_qualities",
+      "utterance_type": "assessment",
+      "activation": "evaluated",
+      "direction": "positive",
+      "salience": "secondary",
+      "confidence": 0.99,
+      "evidence_ids": [
+        "E3",
+        "E7"
+      ],
+      "explanation": "Charles describes the founder as amazing while distinguishing the Out decision from a negative founder judgment.",
+      "decision_link": "none"
+    },
+    {
+      "rationale_id": "R8",
+      "rationale_label": "founder_execution",
+      "utterance_type": "assessment",
+      "activation": "evaluated",
+      "direction": "positive",
+      "salience": "secondary",
+      "confidence": 0.98,
+      "evidence_ids": [
+        "E9"
+      ],
+      "explanation": "Charles recognizes the company's fast execution and experimentation pace.",
+      "decision_link": "none"
+    },
+    {
+      "rationale_id": "R9",
+      "rationale_label": "competitive_advantage_assessment",
+      "utterance_type": "assessment",
+      "activation": "evaluated",
+      "direction": "positive",
+      "salience": "secondary",
+      "confidence": 0.9,
+      "evidence_ids": [
+        "E9"
+      ],
+      "explanation": "Charles believes the company may stay ahead of the pack for a while, though not necessarily long enough to reach the required scale.",
+      "decision_link": "none"
+    }
+  ],
+  "unmapped_utterances": [
+    "Turn 113: I feel like I'm the lone dissenter."
+  ],
+  "audit_flags": [],
+  "annotation_summary": "Charles is Out primarily because he does not see a credible path to venture scale: he estimates a roughly 200x requirement, expects harder marginal growth, doubts expansion beyond the study use case, and believes AI will compress the EdTech opportunity. He separately acknowledges the founder's quality and execution speed."
+}

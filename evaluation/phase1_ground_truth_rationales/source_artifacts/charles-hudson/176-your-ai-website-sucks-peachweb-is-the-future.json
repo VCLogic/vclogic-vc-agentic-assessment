@@ -1,0 +1,189 @@
+{
+  "schema": "transcript-observed-rationales-v1",
+  "episode_slug": "176-your-ai-website-sucks-peachweb-is-the-future",
+  "transcript_sha256": "e0392c0913c2ebbb45a9c10641eb31a74fac37f552a9c1cc7b37fb3ece02175b",
+  "window": {
+    "start_turn": 17,
+    "end_turn": 150
+  },
+  "observed_decision": "Out",
+  "decision_evidence_ids": [
+    "E6"
+  ],
+  "evidence_registry": [
+    {
+      "evidence_id": "E1",
+      "turn_index": 29,
+      "speaker": "Charles",
+      "text": "Cool."
+    },
+    {
+      "evidence_id": "E2",
+      "turn_index": 33,
+      "speaker": "Charles",
+      "text": "Oh cool."
+    },
+    {
+      "evidence_id": "E3",
+      "turn_index": 50,
+      "speaker": "Charles",
+      "text": "Are most, are these people who would otherwise have gone to WebFlow? Or a WebFlow agency to get something like this built?"
+    },
+    {
+      "evidence_id": "E4",
+      "turn_index": 60,
+      "speaker": "Charles",
+      "text": "What are the limitations of the product today, like what can't you do with this today that you'd like to enable?"
+    },
+    {
+      "evidence_id": "E5",
+      "turn_index": 75,
+      "speaker": "Charles",
+      "text": "Hm. I'm curious, like it’s clear that you can get to something useful quickly. Do you have a sense of like, how much time people, or do you have, do you have customers who are using it now before you release it or. And I'm just curious how much time they're spending to actually get to the finished product."
+    },
+    {
+      "evidence_id": "E6",
+      "turn_index": 150,
+      "speaker": "Charles",
+      "text": "I think this one isn't quite right for me, so I'm not gonna move forward. I think you're great. and this is more a statement of like, the challenge I have with the category, which is that this is the most beautiful one that I've seen and we've done some things in XR, AR, WebGL. That is not easy to do, what you've built. I just really struggle with the competitive landscape in the, in this category. I think to Elizabeth's point, I think if you keep at it, there's a good chance you're the winner, but I, I have not had much success in picking which of the teams starting from that day zero who have beautiful products are gonna win. So I don't think I trust my instincts in categories like this, but I wish you all the success and I have no doubt that you're gonna keep at it til you're successful."
+    }
+  ],
+  "rationales": [
+    {
+      "rationale_id": "R1",
+      "rationale_label": "product_appeal_assessment",
+      "utterance_type": "assessment",
+      "activation": "evaluated",
+      "direction": "positive",
+      "salience": "secondary",
+      "confidence": 0.98,
+      "evidence_ids": [
+        "E1",
+        "E2",
+        "E6"
+      ],
+      "explanation": "Charles reacts positively to the product and explicitly calls it the most beautiful one he has seen.",
+      "decision_link": "none"
+    },
+    {
+      "rationale_id": "R2",
+      "rationale_label": "market_entry_path_assessment",
+      "utterance_type": "question",
+      "activation": "queried",
+      "direction": "neutral",
+      "salience": "secondary",
+      "confidence": 0.97,
+      "evidence_ids": [
+        "E3"
+      ],
+      "explanation": "Charles asks whether the target users would otherwise use Webflow or a Webflow agency, probing the initial customer and competitive entry path.",
+      "decision_link": "none"
+    },
+    {
+      "rationale_id": "R3",
+      "rationale_label": "solution_feasibility_assessment",
+      "utterance_type": "question",
+      "activation": "queried",
+      "direction": "neutral",
+      "salience": "secondary",
+      "confidence": 0.96,
+      "evidence_ids": [
+        "E4"
+      ],
+      "explanation": "Charles asks about current product limitations and capabilities the company still wants to enable.",
+      "decision_link": "none"
+    },
+    {
+      "rationale_id": "R4",
+      "rationale_label": "solution_feasibility_assessment",
+      "utterance_type": "assessment",
+      "activation": "evaluated",
+      "direction": "positive",
+      "salience": "secondary",
+      "confidence": 0.92,
+      "evidence_ids": [
+        "E5"
+      ],
+      "explanation": "Charles states that users can get to something useful quickly, an explicit positive assessment of the product's operational usefulness.",
+      "decision_link": "none"
+    },
+    {
+      "rationale_id": "R5",
+      "rationale_label": "product_adoption",
+      "utterance_type": "question",
+      "activation": "queried",
+      "direction": "neutral",
+      "salience": "secondary",
+      "confidence": 0.98,
+      "evidence_ids": [
+        "E5"
+      ],
+      "explanation": "Charles asks whether customers are using the product and how much time they spend reaching a finished product.",
+      "decision_link": "none"
+    },
+    {
+      "rationale_id": "R6",
+      "rationale_label": "founder_qualities",
+      "utterance_type": "assessment",
+      "activation": "evaluated",
+      "direction": "positive",
+      "salience": "secondary",
+      "confidence": 0.98,
+      "evidence_ids": [
+        "E6"
+      ],
+      "explanation": "Charles directly says he thinks the founder is great and expresses confidence in his persistence.",
+      "decision_link": "none"
+    },
+    {
+      "rationale_id": "R7",
+      "rationale_label": "founder_execution",
+      "utterance_type": "assessment",
+      "activation": "evaluated",
+      "direction": "positive",
+      "salience": "secondary",
+      "confidence": 0.95,
+      "evidence_ids": [
+        "E6"
+      ],
+      "explanation": "Charles says the product is difficult to build and praises what the founder has built, while expressing confidence that he will keep going.",
+      "decision_link": "none"
+    },
+    {
+      "rationale_id": "R8",
+      "rationale_label": "competitive_intensity_concern",
+      "utterance_type": "decision_reason",
+      "activation": "evaluated",
+      "direction": "negative",
+      "salience": "primary",
+      "confidence": 0.99,
+      "evidence_ids": [
+        "E6"
+      ],
+      "explanation": "Charles directly identifies his struggle with the competitive landscape in the category as the challenge behind not moving forward.",
+      "decision_link": "explicit"
+    },
+    {
+      "rationale_id": "R9",
+      "rationale_label": "investor_experience_bias",
+      "utterance_type": "decision_reason",
+      "activation": "evaluated",
+      "direction": "negative",
+      "salience": "primary",
+      "confidence": 0.99,
+      "evidence_ids": [
+        "E6"
+      ],
+      "explanation": "Charles says he has not had much success identifying which beautiful-product teams will win from day zero and therefore does not trust his instincts in categories like this.",
+      "decision_link": "explicit"
+    }
+  ],
+  "unmapped_utterances": [
+    "Charles: Hello.",
+    "Charles: Charles, nice to meet you.",
+    "Charles: Yeah.",
+    "Charles: Mm-hmm."
+  ],
+  "audit_flags": [],
+  "annotation_summary": "Charles's Out decision is explicitly attributed to difficulty evaluating the competitive landscape and his lack of confidence in picking winners in this category. He also expressed positive views of the product and founder, plus neutral questions about customer entry, product limitations, and adoption."
+}

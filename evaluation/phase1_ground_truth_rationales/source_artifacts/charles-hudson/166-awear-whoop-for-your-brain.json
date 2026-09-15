@@ -1,0 +1,206 @@
+{
+  "schema": "transcript-observed-rationales-v1",
+  "episode_slug": "166-awear-whoop-for-your-brain",
+  "transcript_sha256": "f5e74d7eee449c8b24694016008f2fa00267f2a5e3c98587c54ca39a58e8912e",
+  "window": {
+    "start_turn": 0,
+    "end_turn": 101
+  },
+  "observed_decision": "Out",
+  "decision_evidence_ids": [
+    "E5"
+  ],
+  "evidence_registry": [
+    {
+      "evidence_id": "E1",
+      "turn_index": 27,
+      "speaker": "Charles",
+      "text": "It's essentially, looks like a, if you imagine a C shape clamp. Looks like it would close pretty neatly along an ear. Pretty light. Doesn't feel too heavy"
+    },
+    {
+      "evidence_id": "E2",
+      "turn_index": 58,
+      "speaker": "Charles",
+      "text": "Can you talk more about just like the cost profile of making the, the cuff?"
+    },
+    {
+      "evidence_id": "E3",
+      "turn_index": 76,
+      "speaker": "Charles",
+      "text": "What can you do with the 700K? Like, what does that enable you to do?"
+    },
+    {
+      "evidence_id": "E4",
+      "turn_index": 98,
+      "speaker": "Charles",
+      "text": "A lot. Yeah."
+    },
+    {
+      "evidence_id": "E5",
+      "turn_index": 101,
+      "speaker": "Charles",
+      "text": "So I think I'm out on this one. I just think single variable wearables are really hard now. I was probably more bullish on them five or 10 years ago when we didn't have as many things. And this, I think, is a case where like, I do not doubt the sincerity of your beliefs, and I don't doubt the science behind what you're doing. I just keep asking myself how big of an audience of people do I think will pay the price plus subscription for this to get these insights on a regular basis. And I can't get my arms around a big enough audience doing that at scale to build the scale of business that I'd want to see. So I'm out. But your dedication to solving a really important problem is admirable, and you've clearly got the scientific chops to back it up."
+    }
+  ],
+  "rationales": [
+    {
+      "rationale_id": "R1",
+      "rationale_label": "product_appeal_assessment",
+      "utterance_type": "assessment",
+      "activation": "evaluated",
+      "direction": "positive",
+      "salience": "secondary",
+      "confidence": 0.98,
+      "evidence_ids": [
+        "E1"
+      ],
+      "explanation": "Charles positively assesses the prototype's fit, lightness, and weight.",
+      "decision_link": "none"
+    },
+    {
+      "rationale_id": "R2",
+      "rationale_label": "unit_economics_assessment",
+      "utterance_type": "question",
+      "activation": "queried",
+      "direction": "neutral",
+      "salience": "secondary",
+      "confidence": 0.99,
+      "evidence_ids": [
+        "E2"
+      ],
+      "explanation": "Charles asks about the manufacturing cost profile of the cuff.",
+      "decision_link": "none"
+    },
+    {
+      "rationale_id": "R3",
+      "rationale_label": "capital_intensity_concern",
+      "utterance_type": "question",
+      "activation": "queried",
+      "direction": "neutral",
+      "salience": "secondary",
+      "confidence": 0.9,
+      "evidence_ids": [
+        "E3"
+      ],
+      "explanation": "Charles asks what the proposed $700K enables, probing the financing plan and capital requirements.",
+      "decision_link": "none"
+    },
+    {
+      "rationale_id": "R4",
+      "rationale_label": "product_success_factor_assessment",
+      "utterance_type": "assessment",
+      "activation": "evaluated",
+      "direction": "negative",
+      "salience": "secondary",
+      "confidence": 0.9,
+      "evidence_ids": [
+        "E4"
+      ],
+      "explanation": "Charles affirms that the comparable product alerted users frequently, indicating concern about excessive alerts as a product experience issue.",
+      "decision_link": "none"
+    },
+    {
+      "rationale_id": "R5",
+      "rationale_label": "market_timing",
+      "utterance_type": "decision_reason",
+      "activation": "evaluated",
+      "direction": "negative",
+      "salience": "primary",
+      "confidence": 0.98,
+      "evidence_ids": [
+        "E5"
+      ],
+      "explanation": "Charles says he was more bullish on single-variable wearables five or ten years earlier, when there were fewer competing alternatives.",
+      "decision_link": "explicit"
+    },
+    {
+      "rationale_id": "R6",
+      "rationale_label": "competitive_intensity_concern",
+      "utterance_type": "decision_reason",
+      "activation": "evaluated",
+      "direction": "negative",
+      "salience": "secondary",
+      "confidence": 0.88,
+      "evidence_ids": [
+        "E5"
+      ],
+      "explanation": "Charles characterizes single-variable wearables as difficult in the current environment with more existing devices and alternatives.",
+      "decision_link": "explicit"
+    },
+    {
+      "rationale_id": "R7",
+      "rationale_label": "founder_motivation_authenticity",
+      "utterance_type": "assessment",
+      "activation": "evaluated",
+      "direction": "positive",
+      "salience": "secondary",
+      "confidence": 0.99,
+      "evidence_ids": [
+        "E5"
+      ],
+      "explanation": "Charles explicitly says he does not doubt the founder's sincerity of belief.",
+      "decision_link": "none"
+    },
+    {
+      "rationale_id": "R8",
+      "rationale_label": "solution_feasibility_assessment",
+      "utterance_type": "assessment",
+      "activation": "evaluated",
+      "direction": "positive",
+      "salience": "secondary",
+      "confidence": 0.99,
+      "evidence_ids": [
+        "E5"
+      ],
+      "explanation": "Charles explicitly says he does not doubt the science behind the product.",
+      "decision_link": "none"
+    },
+    {
+      "rationale_id": "R9",
+      "rationale_label": "business_model_assessment",
+      "utterance_type": "decision_reason",
+      "activation": "evaluated",
+      "direction": "negative",
+      "salience": "primary",
+      "confidence": 0.97,
+      "evidence_ids": [
+        "E5"
+      ],
+      "explanation": "Charles questions whether enough people will pay both the product price and subscription for recurring insights.",
+      "decision_link": "explicit"
+    },
+    {
+      "rationale_id": "R10",
+      "rationale_label": "market_size_assessment",
+      "utterance_type": "decision_reason",
+      "activation": "evaluated",
+      "direction": "negative",
+      "salience": "primary",
+      "confidence": 0.99,
+      "evidence_ids": [
+        "E5"
+      ],
+      "explanation": "Charles cannot identify a large enough audience for the product at scale.",
+      "decision_link": "explicit"
+    },
+    {
+      "rationale_id": "R11",
+      "rationale_label": "venture_scale_concern",
+      "utterance_type": "decision_reason",
+      "activation": "evaluated",
+      "direction": "negative",
+      "salience": "primary",
+      "confidence": 0.99,
+      "evidence_ids": [
+        "E5"
+      ],
+      "explanation": "Charles says he cannot see a large enough audience producing the scale of business he would want to back.",
+      "decision_link": "explicit"
+    }
+  ],
+  "unmapped_utterances": [
+    "Turn 4: Hey, Charles, how are you Antonio? Nice to meet you."
+  ],
+  "audit_flags": [],
+  "annotation_summary": "Charles's Out decision is explicitly driven by the difficulty of the current single-variable wearable category and his inability to see a sufficiently large recurring-paying audience capable of supporting venture scale. He separately expresses positive views of the founder's sincerity, the science, and the prototype's physical form."
+}

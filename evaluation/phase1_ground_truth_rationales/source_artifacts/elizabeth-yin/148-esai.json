@@ -1,0 +1,88 @@
+{
+  "schema": "transcript-observed-rationales-v1",
+  "episode_slug": "148-esai",
+  "transcript_sha256": "8a9f0ff78955306d45667a84b25eb9992e75bbec7da0ccc631114bab3eefcbb2",
+  "window": {
+    "start_turn": 2,
+    "end_turn": 33
+  },
+  "observed_decision": "Out",
+  "decision_evidence_ids": [
+    "E2"
+  ],
+  "evidence_registry": [
+    {
+      "evidence_id": "E1",
+      "turn_index": 31,
+      "speaker": "Elizabeth",
+      "text": "Julie, I, I love how your background fits really well with this space and I'm very impressed by you as a marketer."
+    },
+    {
+      "evidence_id": "E2",
+      "turn_index": 33,
+      "speaker": "Elizabeth",
+      "text": "I think, for me, one of the things that I don't like about the mechanics of this model is there's constant churn with the direct to consumer model, right? And it's like, you graduate, okay, I no longer need this. And then now you have to go and get the next cohort of people who are going to graduate soon. So it's like, just to get back up to the level of last year, you have to put in a lot of effort and then - and then some to grow. And for me I - I just feel like that kind of growth pattern is really hard, so I'm out. Thank you."
+    }
+  ],
+  "rationales": [
+    {
+      "rationale_id": "R1",
+      "rationale_label": "founder_market_fit",
+      "utterance_type": "assessment",
+      "activation": "evaluated",
+      "direction": "positive",
+      "salience": "secondary",
+      "confidence": 0.99,
+      "evidence_ids": [
+        "E1"
+      ],
+      "explanation": "Elizabeth positively assesses the founder's background as fitting the college-admissions space.",
+      "decision_link": "none"
+    },
+    {
+      "rationale_id": "R2",
+      "rationale_label": "founder_skillset",
+      "utterance_type": "assessment",
+      "activation": "evaluated",
+      "direction": "positive",
+      "salience": "secondary",
+      "confidence": 0.99,
+      "evidence_ids": [
+        "E1"
+      ],
+      "explanation": "Elizabeth is impressed by the founder's marketing capability.",
+      "decision_link": "none"
+    },
+    {
+      "rationale_id": "R3",
+      "rationale_label": "business_model_assessment",
+      "utterance_type": "decision_reason",
+      "activation": "evaluated",
+      "direction": "negative",
+      "salience": "primary",
+      "confidence": 0.99,
+      "evidence_ids": [
+        "E2"
+      ],
+      "explanation": "Elizabeth explicitly dislikes the direct-to-consumer model's mechanics because customer churn requires continually replacing graduating users.",
+      "decision_link": "explicit"
+    },
+    {
+      "rationale_id": "R4",
+      "rationale_label": "go_to_market_strategy_assessment",
+      "utterance_type": "decision_reason",
+      "activation": "evaluated",
+      "direction": "negative",
+      "salience": "secondary",
+      "confidence": 0.98,
+      "evidence_ids": [
+        "E2"
+      ],
+      "explanation": "Elizabeth identifies the ongoing need to acquire each new cohort and expend substantial effort merely to return to the prior year's level as a difficult growth pattern.",
+      "decision_link": "explicit"
+    }
+  ],
+  "unmapped_utterances": [],
+  "audit_flags": [],
+  "annotation_summary": "Elizabeth positively assessed the founder's market fit and marketing skillset, but explicitly declined because the direct-to-consumer model creates constant cohort churn and requires difficult ongoing customer acquisition to sustain growth."
+}

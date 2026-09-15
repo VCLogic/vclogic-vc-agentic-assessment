@@ -1,0 +1,165 @@
+{
+  "schema": "transcript-observed-rationales-v1",
+  "episode_slug": "84-the-napkin-pitch",
+  "transcript_sha256": "28f4ac234cebe0732f99dbd51818392cc38510ab199cce1c401fc70edaee4210",
+  "window": {
+    "start_turn": 0,
+    "end_turn": 109
+  },
+  "observed_decision": "Out",
+  "decision_evidence_ids": [
+    "E5"
+  ],
+  "evidence_registry": [
+    {
+      "evidence_id": "E1",
+      "turn_index": 14,
+      "speaker": "Charles",
+      "text": "We can make it more conversational."
+    },
+    {
+      "evidence_id": "E2",
+      "turn_index": 42,
+      "speaker": "Charles",
+      "text": "You want to know how does it phone home?"
+    },
+    {
+      "evidence_id": "E3",
+      "turn_index": 75,
+      "speaker": "Charles",
+      "text": "… or we wouldn’t be on this panel. And I am just struggling to figure out, if you only could serve one customer for the next 18 to 24 months, who would you pick? Because I really am struggling to figure out, like, my concern hearing your presentation is you’re going to get 5% of the way with enterprise, 10% of the way with photographers, and you’re going to end up burning through $850k and you’re gonna know a little bit about a lot of customers, instead of a lot about a small number of customers. And to me, that’s like the recipe for startup death."
+    },
+    {
+      "evidence_id": "E4",
+      "turn_index": 77,
+      "speaker": "Charles",
+      "text": "And so like if you could only pick one customer segment, like who would you pick? To the exclusion of everyone else with full knowledge that there are other big opportunities out there."
+    },
+    {
+      "evidence_id": "E5",
+      "turn_index": 109,
+      "speaker": "Charles",
+      "text": "So I’m gonna pass. I'm just really concerned about your team composition, honestly. Typically when we invest in companies at this stage, it’s 2 or 3 people and the question is always, What more can this team do with more resources? You have a rather large team for a company of your stage. And I think, my fear is like you have a team of 5 or 6? That’s already a little amorphous. And like adding more money might actually make the problem worse not better. So, my, I know it’s really hard, it’s a really harsh thing to say, I know. But I really, I would encourage you to like ask yourselves the really hard question, like, do all three of us need to be involved fulltime as cofounders in the business? Because I think it undermines your story right now. And I feel like there’s some good nuggets here, but I can’t get past that. And so for me, this is a pass."
+    }
+  ],
+  "rationales": [
+    {
+      "rationale_id": "R1",
+      "rationale_label": "founder_communication_quality",
+      "utterance_type": "assessment",
+      "activation": "evaluated",
+      "direction": "neutral",
+      "salience": "secondary",
+      "confidence": 0.88,
+      "evidence_ids": [
+        "E1"
+      ],
+      "explanation": "Charles suggests making the interaction more conversational, reflecting an observation about presentation format without explicitly tying it to the investment decision.",
+      "decision_link": "none"
+    },
+    {
+      "rationale_id": "R2",
+      "rationale_label": "solution_feasibility_assessment",
+      "utterance_type": "question",
+      "activation": "queried",
+      "direction": "neutral",
+      "salience": "secondary",
+      "confidence": 0.98,
+      "evidence_ids": [
+        "E2"
+      ],
+      "explanation": "Charles asks how the technology would communicate or detect an image’s use, probing the mechanism of the proposed solution without stating a judgment.",
+      "decision_link": "none"
+    },
+    {
+      "rationale_id": "R3",
+      "rationale_label": "market_entry_path_assessment",
+      "utterance_type": "assessment",
+      "activation": "evaluated",
+      "direction": "negative",
+      "salience": "secondary",
+      "confidence": 0.99,
+      "evidence_ids": [
+        "E3"
+      ],
+      "explanation": "Charles is concerned that the company has not selected a clear initial customer segment and will pursue enterprise and photographer customers too broadly.",
+      "decision_link": "none"
+    },
+    {
+      "rationale_id": "R4",
+      "rationale_label": "go_to_market_strategy_assessment",
+      "utterance_type": "assessment",
+      "activation": "evaluated",
+      "direction": "negative",
+      "salience": "secondary",
+      "confidence": 0.98,
+      "evidence_ids": [
+        "E3"
+      ],
+      "explanation": "Charles worries that spreading effort across multiple customer groups will produce shallow learning across many customers rather than focused validation.",
+      "decision_link": "none"
+    },
+    {
+      "rationale_id": "R5",
+      "rationale_label": "capital_intensity_concern",
+      "utterance_type": "assessment",
+      "activation": "evaluated",
+      "direction": "negative",
+      "salience": "secondary",
+      "confidence": 0.96,
+      "evidence_ids": [
+        "E3"
+      ],
+      "explanation": "Charles explicitly forecasts the company burning through the requested $850k while pursuing an unfocused customer strategy.",
+      "decision_link": "none"
+    },
+    {
+      "rationale_id": "R6",
+      "rationale_label": "business_viability_concern",
+      "utterance_type": "assessment",
+      "activation": "evaluated",
+      "direction": "negative",
+      "salience": "secondary",
+      "confidence": 0.97,
+      "evidence_ids": [
+        "E3"
+      ],
+      "explanation": "Charles characterizes the combination of broad customer pursuit and shallow learning as a potential recipe for startup failure.",
+      "decision_link": "none"
+    },
+    {
+      "rationale_id": "R7",
+      "rationale_label": "market_entry_path_assessment",
+      "utterance_type": "question",
+      "activation": "queried",
+      "direction": "neutral",
+      "salience": "secondary",
+      "confidence": 0.99,
+      "evidence_ids": [
+        "E4"
+      ],
+      "explanation": "Charles asks the founders to identify the single customer segment they would prioritize, explicitly probing focus in the initial market entry path.",
+      "decision_link": "none"
+    },
+    {
+      "rationale_id": "R8",
+      "rationale_label": "execution_risk_assessment",
+      "utterance_type": "decision_reason",
+      "activation": "evaluated",
+      "direction": "negative",
+      "salience": "primary",
+      "confidence": 0.99,
+      "evidence_ids": [
+        "E5"
+      ],
+      "explanation": "Charles directly attributes his pass to concern about the large, amorphous team composition and uncertainty about whether all three founders need to remain full-time cofounders.",
+      "decision_link": "explicit"
+    }
+  ],
+  "unmapped_utterances": [
+    "turn 73: I think everybody here invests in really early stage companies...",
+    "turn 19: All right."
+  ],
+  "audit_flags": [],
+  "annotation_summary": "Charles’s explicit Out rationale is team composition: he views the company as having an unusually large and amorphous team for its stage, with unclear necessity for all three founders to remain full-time. Earlier, he also questioned customer-segment focus, go-to-market breadth, and the risk of burning through $850k."
+}

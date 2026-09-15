@@ -1,0 +1,176 @@
+{
+  "schema": "transcript-observed-rationales-v1",
+  "episode_slug": "172-my-town-ai-chatgpt-meets-simcity",
+  "transcript_sha256": "8870eaa87bb21878d1c17c654bea9fdfb162ce953c8d0ee0d8e97579557a6632",
+  "window": {
+    "start_turn": 18,
+    "end_turn": 154
+  },
+  "observed_decision": "Out",
+  "decision_evidence_ids": [
+    "E10"
+  ],
+  "evidence_registry": [
+    {
+      "evidence_id": "E1",
+      "turn_index": 66,
+      "speaker": "Jesse",
+      "text": "Would you use the same system to, could you mitigate this now? Like could you say, is there an alternative place that we should go"
+    },
+    {
+      "evidence_id": "E2",
+      "turn_index": 68,
+      "speaker": "Jesse",
+      "text": "And it would have that level of-"
+    },
+    {
+      "evidence_id": "E3",
+      "turn_index": 98,
+      "speaker": "Jesse",
+      "text": "What's the amount of towns that fit in your ICP today?"
+    },
+    {
+      "evidence_id": "E4",
+      "turn_index": 108,
+      "speaker": "Jesse",
+      "text": "And you're charging by the town staff who access, not by like a citizen who is directly-"
+    },
+    {
+      "evidence_id": "E5",
+      "turn_index": 110,
+      "speaker": "Jesse",
+      "text": "But a citizen would have access in your example, or they would be asking a staff member to look it up for you."
+    },
+    {
+      "evidence_id": "E6",
+      "turn_index": 126,
+      "speaker": "Jesse",
+      "text": "Who's the team? Who's the we?"
+    },
+    {
+      "evidence_id": "E7",
+      "turn_index": 150,
+      "speaker": "Jesse",
+      "text": "It is."
+    },
+    {
+      "evidence_id": "E8",
+      "turn_index": 152,
+      "speaker": "Jesse",
+      "text": "So I, I was actually gonna say, so I, I, I was racking my brain through your whole pitch. I, they're not doing this yet in the same way, but I have a company in my portfolio that is selling into government, local government, these towns, the same numbers that you're giving, they started from the citizen side. But this is going to be on the roadmap. It is on the roadmap."
+    },
+    {
+      "evidence_id": "E9",
+      "turn_index": 132,
+      "speaker": "Jesse",
+      "text": "Had you raised money before the 435 that you've closed?"
+    },
+    {
+      "evidence_id": "E10",
+      "turn_index": 154,
+      "speaker": "Jesse",
+      "text": "Yeah. I think because of that I probably wouldn't invest in this. if the founder would not consider it a conflict for him, you should talk. 'cause I think there's some work you could do together."
+    }
+  ],
+  "rationales": [
+    {
+      "rationale_id": "R1",
+      "rationale_label": "solution_feasibility_assessment",
+      "utterance_type": "question",
+      "activation": "queried",
+      "direction": "neutral",
+      "salience": "secondary",
+      "confidence": 0.98,
+      "evidence_ids": [
+        "E1",
+        "E2"
+      ],
+      "explanation": "Jesse asks whether the system can mitigate the route problem, identify alternatives, and provide comparable analytical detail.",
+      "decision_link": "none"
+    },
+    {
+      "rationale_id": "R2",
+      "rationale_label": "market_size_assessment",
+      "utterance_type": "question",
+      "activation": "queried",
+      "direction": "neutral",
+      "salience": "secondary",
+      "confidence": 0.99,
+      "evidence_ids": [
+        "E3"
+      ],
+      "explanation": "Jesse asks how many towns fit the stated ideal customer profile.",
+      "decision_link": "none"
+    },
+    {
+      "rationale_id": "R3",
+      "rationale_label": "business_model_assessment",
+      "utterance_type": "question",
+      "activation": "queried",
+      "direction": "neutral",
+      "salience": "secondary",
+      "confidence": 0.98,
+      "evidence_ids": [
+        "E4",
+        "E5"
+      ],
+      "explanation": "Jesse clarifies who pays for access and whether citizens receive direct product access or use staff as intermediaries.",
+      "decision_link": "none"
+    },
+    {
+      "rationale_id": "R4",
+      "rationale_label": "founder_qualities",
+      "utterance_type": "question",
+      "activation": "queried",
+      "direction": "neutral",
+      "salience": "secondary",
+      "confidence": 0.93,
+      "evidence_ids": [
+        "E6"
+      ],
+      "explanation": "Jesse asks for the composition of the founding and operating team.",
+      "decision_link": "none"
+    },
+    {
+      "rationale_id": "R5",
+      "rationale_label": "competitive_advantage_assessment",
+      "utterance_type": "assessment",
+      "activation": "evaluated",
+      "direction": "positive",
+      "salience": "secondary",
+      "confidence": 0.93,
+      "evidence_ids": [
+        "E7"
+      ],
+      "explanation": "Jesse agrees with the claim that the product is sufficiently distinct to qualify as a sole-source purchase.",
+      "decision_link": "none"
+    },
+    {
+      "rationale_id": "R6",
+      "rationale_label": "portfolio_conflict_constraint",
+      "utterance_type": "assessment",
+      "activation": "evaluated",
+      "direction": "negative",
+      "salience": "primary",
+      "confidence": 1.0,
+      "evidence_ids": [
+        "E8",
+        "E10"
+      ],
+      "explanation": "Jesse identifies an existing portfolio company selling into the same local-government market with the same citizen-side starting point and a roadmap including the digital-twin functionality; he directly cites this overlap as why he probably would not invest.",
+      "decision_link": "explicit"
+    }
+  ],
+  "unmapped_utterances": [
+    "Jesse",
+    "I’d vote for you",
+    "Just to be clear for the -",
+    "We, we had to ask",
+    "We, we had to ask how many inches or feet off of the property line it needs to be from your neighbor",
+    "'cause it's gotta be in your property space. Now there is the whole thing.",
+    "Yeah.",
+    "Okay."
+  ],
+  "audit_flags": [],
+  "annotation_summary": "Jesse’s explicit Out decision is attributed to a portfolio conflict: an existing portfolio company targets the same local-government market and plans to add overlapping digital-twin functionality. Other Jesse questions and one positive product-differentiation assessment are recorded as non-decision-linked observations."
+}

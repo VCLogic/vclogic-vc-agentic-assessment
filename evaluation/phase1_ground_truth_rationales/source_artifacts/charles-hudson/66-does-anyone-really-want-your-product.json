@@ -1,0 +1,112 @@
+{
+  "schema": "transcript-observed-rationales-v1",
+  "episode_slug": "66-does-anyone-really-want-your-product",
+  "transcript_sha256": "476cf4f237d82f8804500b4b6b827655ea2109d92a1070e39613ba40a42cc156",
+  "window": {
+    "start_turn": 1,
+    "end_turn": 132
+  },
+  "observed_decision": "Out",
+  "decision_evidence_ids": [
+    "E3"
+  ],
+  "evidence_registry": [
+    {
+      "evidence_id": "E1",
+      "turn_index": 77,
+      "speaker": "Charles",
+      "text": "By the way, you're doing a very good job of controlling the flow of this pitch. Because we're all trying to pull you in different directions and I think you're just doing a really good job of keeping us..."
+    },
+    {
+      "evidence_id": "E2",
+      "turn_index": 79,
+      "speaker": "Charles",
+      "text": "On task. And on schedule. And that doesn't always happen here."
+    },
+    {
+      "evidence_id": "E3",
+      "turn_index": 132,
+      "speaker": "Charles",
+      "text": "This one's really tough for me. I'm not sure if I'm looking at the next SurveyMonkey or MailChimp kind of opportunity that seems really straightforward, excellent execution and ends up being 50 or 100 times bigger at scale than it looks on the surface. Or if I'm looking at a business that's very good and very solid but has some kind of natural cap on scale. And it has all the elements that I like to see. I believe the network effects part of your audience recruitment piece. I believe the software piece. There's something about it, it's like a near fit. The pieces don't exactly fit together for me. And I can't, I've been struggling for the last 15 minutes to figure out what it is. And I don't think I'm going to get there. And I don't think it's anything you didn't say. I think this is one of the clearest, strongest presentations I've seen on The Pitch."
+    }
+  ],
+  "rationales": [
+    {
+      "rationale_id": "R1",
+      "rationale_label": "founder_communication_quality",
+      "utterance_type": "assessment",
+      "activation": "evaluated",
+      "direction": "positive",
+      "salience": "secondary",
+      "confidence": 0.99,
+      "evidence_ids": [
+        "E1",
+        "E2",
+        "E3"
+      ],
+      "explanation": "Charles explicitly praised the founder's ability to control the pitch flow, stay on task and schedule, and deliver one of the clearest, strongest presentations he had seen.",
+      "decision_link": "none"
+    },
+    {
+      "rationale_id": "R2",
+      "rationale_label": "venture_scale_concern",
+      "utterance_type": "decision_reason",
+      "activation": "evaluated",
+      "direction": "negative",
+      "salience": "primary",
+      "confidence": 0.98,
+      "evidence_ids": [
+        "E3"
+      ],
+      "explanation": "Charles was unable to determine whether the company could become dramatically larger or instead faced a natural cap on scale.",
+      "decision_link": "explicit"
+    },
+    {
+      "rationale_id": "R3",
+      "rationale_label": "competitive_advantage_assessment",
+      "utterance_type": "assessment",
+      "activation": "evaluated",
+      "direction": "positive",
+      "salience": "secondary",
+      "confidence": 0.95,
+      "evidence_ids": [
+        "E3"
+      ],
+      "explanation": "Charles stated that he believed the network-effects component of the audience-recruitment business.",
+      "decision_link": "none"
+    },
+    {
+      "rationale_id": "R4",
+      "rationale_label": "product_success_factor_assessment",
+      "utterance_type": "assessment",
+      "activation": "evaluated",
+      "direction": "positive",
+      "salience": "secondary",
+      "confidence": 0.9,
+      "evidence_ids": [
+        "E3"
+      ],
+      "explanation": "Charles stated that he believed the software component and that the opportunity contained the elements he liked to see.",
+      "decision_link": "none"
+    },
+    {
+      "rationale_id": "R5",
+      "rationale_label": "business_viability_concern",
+      "utterance_type": "decision_reason",
+      "activation": "evaluated",
+      "direction": "negative",
+      "salience": "primary",
+      "confidence": 0.97,
+      "evidence_ids": [
+        "E3"
+      ],
+      "explanation": "Charles described the business as a near fit whose pieces did not exactly fit together for him, and said he could not resolve what was missing.",
+      "decision_link": "explicit"
+    }
+  ],
+  "unmapped_utterances": [
+    "turn 35: It sounds like in a lot of ways what you're doing…"
+  ],
+  "audit_flags": [],
+  "annotation_summary": "Charles's Out decision was explicitly driven by unresolved concern about venture-scale potential and the lack of coherence among the business pieces. He simultaneously credited the network effects and software and strongly praised the founder's presentation."
+}

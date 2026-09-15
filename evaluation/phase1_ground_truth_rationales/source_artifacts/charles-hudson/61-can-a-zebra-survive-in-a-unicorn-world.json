@@ -1,0 +1,131 @@
+{
+  "schema": "transcript-observed-rationales-v1",
+  "episode_slug": "61-can-a-zebra-survive-in-a-unicorn-world",
+  "transcript_sha256": "66382118e05c10eae38aa0038b7a66dd08a7836dbb53d8f623cbc58c7a97997e",
+  "window": {
+    "start_turn": 0,
+    "end_turn": 91
+  },
+  "observed_decision": "Out",
+  "decision_evidence_ids": [
+    "E4"
+  ],
+  "evidence_registry": [
+    {
+      "evidence_id": "E1",
+      "turn_index": 44,
+      "speaker": "Charles",
+      "text": "So your tool right now is a bundle of basically consulting best practices and software?"
+    },
+    {
+      "evidence_id": "E2",
+      "turn_index": 46,
+      "speaker": "Charles",
+      "text": "Would the business work better if you just disaggregated that bundle and said, hey there’s a business model transformation piece that’s basically consulting that you have to do before we sell you the license, and then there’s the license."
+    },
+    {
+      "evidence_id": "E3",
+      "turn_index": 48,
+      "speaker": "Charles",
+      "text": "And what would that bundle look like? Because 9k feels dramatically underpriced for that bundle."
+    },
+    {
+      "evidence_id": "E4",
+      "turn_index": 91,
+      "speaker": "Charles",
+      "text": "This one isn't quite right for me as an investment, but I've done probably more news investing than everyone here. And so I've actually run into pockets of people who I think on the spectrum of must make money, must be a nonprofit, they're open to things that are in the middle. And they're passionate about news and they're either independently wealthy or they believe that solving this problem is critical for other businesses that they're investors in. So I'd be happy to plumb my notes and see if I can find a few people who I think, given where you are, could be interested. Maybe not for the whole 3.5 but for making some contribution."
+    }
+  ],
+  "rationales": [
+    {
+      "rationale_id": "R1",
+      "rationale_label": "business_model_assessment",
+      "utterance_type": "question",
+      "activation": "queried",
+      "direction": "neutral",
+      "salience": "primary",
+      "confidence": 0.99,
+      "evidence_ids": [
+        "E1"
+      ],
+      "explanation": "Charles seeks clarification on whether the offering is fundamentally a combination of consulting practices and software.",
+      "decision_link": "none"
+    },
+    {
+      "rationale_id": "R2",
+      "rationale_label": "business_model_assessment",
+      "utterance_type": "question",
+      "activation": "queried",
+      "direction": "neutral",
+      "salience": "primary",
+      "confidence": 0.98,
+      "evidence_ids": [
+        "E2"
+      ],
+      "explanation": "Charles asks whether separating the consulting-led transformation work from the software license would produce a better business model.",
+      "decision_link": "none"
+    },
+    {
+      "rationale_id": "R3",
+      "rationale_label": "business_model_assessment",
+      "utterance_type": "assessment",
+      "activation": "evaluated",
+      "direction": "negative",
+      "salience": "primary",
+      "confidence": 0.99,
+      "evidence_ids": [
+        "E3"
+      ],
+      "explanation": "Charles explicitly assesses the stated $9,000 price as dramatically underpriced for the combined consulting and software bundle.",
+      "decision_link": "none"
+    },
+    {
+      "rationale_id": "R4",
+      "rationale_label": "founder_investor_vision_alignment",
+      "utterance_type": "assessment",
+      "activation": "evaluated",
+      "direction": "negative",
+      "salience": "primary",
+      "confidence": 0.86,
+      "evidence_ids": [
+        "E4"
+      ],
+      "explanation": "Charles directly says the opportunity is not quite right for him as an investment, then describes fit with investors open to companies positioned between conventional profit maximization and nonprofit models.",
+      "decision_link": "explicit"
+    },
+    {
+      "rationale_id": "R5",
+      "rationale_label": "investor_experience_bias",
+      "utterance_type": "assessment",
+      "activation": "evaluated",
+      "direction": "positive",
+      "salience": "secondary",
+      "confidence": 0.99,
+      "evidence_ids": [
+        "E4"
+      ],
+      "explanation": "Charles explicitly invokes his comparatively extensive prior experience investing in news.",
+      "decision_link": "none"
+    },
+    {
+      "rationale_id": "R6",
+      "rationale_label": "investor_value_add_fit",
+      "utterance_type": "assessment",
+      "activation": "evaluated",
+      "direction": "positive",
+      "salience": "secondary",
+      "confidence": 0.99,
+      "evidence_ids": [
+        "E4"
+      ],
+      "explanation": "Charles offers to use his notes to identify potentially interested investors and help locate a contribution, demonstrating a possible network-based value add beyond his own investment.",
+      "decision_link": "none"
+    }
+  ],
+  "unmapped_utterances": [
+    "Hey. Charles. Nice to meet you, Jen.",
+    "Yeah. I..."
+  ],
+  "audit_flags": [],
+  "annotation_summary": "Charles questions and assesses Hearken’s consulting-plus-software business model, explicitly finding the $9,000 bundle underpriced. He passes because the opportunity is not quite right for him as an investment, while offering targeted investor-network help based on his news-investing experience."
+}

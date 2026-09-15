@@ -1,0 +1,157 @@
+{
+  "schema": "transcript-observed-rationales-v1",
+  "episode_slug": "131-flock-ai-model-generated-models",
+  "transcript_sha256": "3c108a7be4edc1dd23617b2d8f38864033abaae1ca2e23269cdef79dfef870ab",
+  "window": {
+    "start_turn": 7,
+    "end_turn": 85
+  },
+  "observed_decision": "Out",
+  "decision_evidence_ids": [
+    "E6"
+  ],
+  "evidence_registry": [
+    {
+      "evidence_id": "E1",
+      "turn_index": 22,
+      "speaker": "Charles",
+      "text": "Yeah. It's really - it's pretty cool. It looks like your normal beauty site with like up close - I'm looking at lips - a lip product here. So it's got some up close pictures of lips in lipstick with different skin tones, different nose shapes. Pretty wide variety."
+    },
+    {
+      "evidence_id": "E2",
+      "turn_index": 24,
+      "speaker": "Charles",
+      "text": "Is that animated one, is that AI-generated too?"
+    },
+    {
+      "evidence_id": "E3",
+      "turn_index": 26,
+      "speaker": "Charles",
+      "text": "Okay. I was gonna say, that would be cool."
+    },
+    {
+      "evidence_id": "E4",
+      "turn_index": 82,
+      "speaker": "Charles",
+      "text": "We're in a slightly different place. We have someone who was an EIR at our firm who was doing something similar but for product imagery."
+    },
+    {
+      "evidence_id": "E5",
+      "turn_index": 84,
+      "speaker": "Charles",
+      "text": "No. It's called Imagine Create, which also probably won't be the final name. But same thing. And I've learned two things. One, I still have some reservations about the deflationary impact. I mean, this is so much cheaper than live, which is the attraction. My current thesis is it's going to be very deflationary and the customers are going to want to recoup and claw back a big chunk of that savings. And now the question is does that cut the price in half? Does it cut the price by 90% So I'm still trying to figure out like what, where does that sort of tug of war between customer value and vendor value land? And for me, a lot of the AI investments I make, it's really like value capture for the service provider and like how much of that savings can you keep for yourself versus will get negotiated away by the customer."
+    },
+    {
+      "evidence_id": "E6",
+      "turn_index": 85,
+      "speaker": "Charles",
+      "text": "But for today, I'm a pass."
+    }
+  ],
+  "rationales": [
+    {
+      "rationale_id": "R1",
+      "rationale_label": "product_appeal_assessment",
+      "utterance_type": "assessment",
+      "activation": "evaluated",
+      "direction": "positive",
+      "salience": "secondary",
+      "confidence": 0.99,
+      "evidence_ids": [
+        "E1"
+      ],
+      "explanation": "Charles positively assesses the product presentation and the breadth of diverse imagery.",
+      "decision_link": "none"
+    },
+    {
+      "rationale_id": "R2",
+      "rationale_label": "product_success_factor_assessment",
+      "utterance_type": "question",
+      "activation": "queried",
+      "direction": "neutral",
+      "salience": "secondary",
+      "confidence": 0.94,
+      "evidence_ids": [
+        "E2"
+      ],
+      "explanation": "Charles asks whether the animated imagery is also AI-generated, probing the product's technical scope.",
+      "decision_link": "none"
+    },
+    {
+      "rationale_id": "R3",
+      "rationale_label": "product_appeal_assessment",
+      "utterance_type": "assessment",
+      "activation": "evaluated",
+      "direction": "positive",
+      "salience": "secondary",
+      "confidence": 0.96,
+      "evidence_ids": [
+        "E3"
+      ],
+      "explanation": "Charles expresses positive interest in the potential addition of AI-generated video.",
+      "decision_link": "none"
+    },
+    {
+      "rationale_id": "R4",
+      "rationale_label": "portfolio_conflict_constraint",
+      "utterance_type": "assessment",
+      "activation": "evaluated",
+      "direction": "negative",
+      "salience": "secondary",
+      "confidence": 0.91,
+      "evidence_ids": [
+        "E4"
+      ],
+      "explanation": "Charles identifies a similar company connected to his firm, indicating a possible portfolio or firm-level conflict.",
+      "decision_link": "implicit"
+    },
+    {
+      "rationale_id": "R5",
+      "rationale_label": "business_viability_concern",
+      "utterance_type": "assessment",
+      "activation": "evaluated",
+      "direction": "negative",
+      "salience": "primary",
+      "confidence": 0.98,
+      "evidence_ids": [
+        "E5"
+      ],
+      "explanation": "Charles is concerned that the product's lower cost will create deflationary pricing pressure and reduce the company's ability to retain savings as value capture.",
+      "decision_link": "implicit"
+    },
+    {
+      "rationale_id": "R6",
+      "rationale_label": "business_model_assessment",
+      "utterance_type": "assessment",
+      "activation": "evaluated",
+      "direction": "neutral",
+      "salience": "primary",
+      "confidence": 0.97,
+      "evidence_ids": [
+        "E5"
+      ],
+      "explanation": "Charles evaluates the unresolved relationship between customer value, vendor value, pricing reductions, and the portion of savings the provider can retain.",
+      "decision_link": "implicit"
+    },
+    {
+      "rationale_id": "R7",
+      "rationale_label": "competitive_advantage_assessment",
+      "utterance_type": "assessment",
+      "activation": "evaluated",
+      "direction": "negative",
+      "salience": "secondary",
+      "confidence": 0.88,
+      "evidence_ids": [
+        "E5"
+      ],
+      "explanation": "Charles questions whether the service provider can sustain value capture when customers negotiate away much of the savings.",
+      "decision_link": "implicit"
+    }
+  ],
+  "unmapped_utterances": [
+    "Charles: Good.",
+    "Charles: Go ahead. Please."
+  ],
+  "audit_flags": [],
+  "annotation_summary": "Charles viewed the product positively and explored its AI capabilities, but identified a similar firm-connected company and primarily passed because he was concerned that the solution's cost savings would drive severe price deflation and weaken provider value capture."
+}

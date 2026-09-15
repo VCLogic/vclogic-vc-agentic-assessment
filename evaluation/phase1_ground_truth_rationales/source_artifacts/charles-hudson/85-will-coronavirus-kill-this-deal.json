@@ -1,0 +1,168 @@
+{
+  "schema": "transcript-observed-rationales-v1",
+  "episode_slug": "85-will-coronavirus-kill-this-deal",
+  "transcript_sha256": "629d2411107a5df7c6ed0f6fafee83879b3c4c9dedf9eb9e723b3eb90fa97e2e",
+  "window": {
+    "start_turn": 1,
+    "end_turn": 82
+  },
+  "observed_decision": "Out",
+  "decision_evidence_ids": [
+    "E5"
+  ],
+  "evidence_registry": [
+    {
+      "evidence_id": "E1",
+      "turn_index": 63,
+      "speaker": "Charles",
+      "text": "You look at Yelp. What is Yelp? You can pay to advertise if you're a restaurant or a business on Yelp to boost your listing, but the product is effectively free to both sides to generate the most activity. And I keep thinking like, wow, well if you have, if I'm a renter and I'm looking at three different buildings and I come to Whose Your Landlord and you help me decide to go to Building A instead of Building B, there is a precedent in that industry for paying for lead gen. And it seems to me that a dollar per building is too little to be worth your trouble, and..."
+    },
+    {
+      "evidence_id": "E2",
+      "turn_index": 65,
+      "speaker": "Charles",
+      "text": "Per unit. Sorry. Per unit. And so I just keep coming back to the point that Michael has which is there's so much money, you, you, you're creating so much value for the landlords. I kind of would be happier if there were a model where you're like hey, it's $5 a unit, $1000 building minimum. And this thing's amazing. Or it's free, but like you gotta get on our lead gen platform and you know, you can advertise your new property that you just built, it doesn't have any..."
+    },
+    {
+      "evidence_id": "E3",
+      "turn_index": 78,
+      "speaker": "Charles",
+      "text": "If every tenant is on it, they'll pay attention. And I keep coming back to something that, it's like a core belief for me, which is there is a very strong relationship between the product you build and your business model. And if you want to charge, if you have a business model, you want, this is... For me, this is why this is so important, this whole conversation. If you really want to build a SaaS business, and you really want to extract money from landlords, that is a totally reasonable way to go. You are going to end up building many more features that increase the value of the product to the landlord so that you can take out more money. If instead you say, hey, we're going to be a marketplace, you're going to pick up the phone and go call Burrow, and you're going to call moving companies, you're going to say, who are all of the ancillary providers around a move..."
+    },
+    {
+      "evidence_id": "E4",
+      "turn_index": 80,
+      "speaker": "Charles",
+      "text": "And you need scale. And you need to build relationships."
+    },
+    {
+      "evidence_id": "E5",
+      "turn_index": 82,
+      "speaker": "Charles",
+      "text": "And you want to do little product features that enhance viral distribution that bring more traffic to the site. And those are two really different businesses. And it's not for me to say which one you should build. And so I'm I'm gonna pass because I think my instincts are around building a business that sounds like it's different than what your instincts are going to lead you to do. Which doesn't mean that I'm right and you're wrong. It's just hard for me to work with entrepreneurs when I feel like we're not totally aligned. And I have to say, I think you have so many insights about what works for both sides of this marketplace that no one else has. I think you're not getting properly compensated for what you've built..."
+    }
+  ],
+  "rationales": [
+    {
+      "rationale_id": "R1",
+      "rationale_label": "business_model_assessment",
+      "utterance_type": "assessment",
+      "activation": "evaluated",
+      "direction": "negative",
+      "salience": "primary",
+      "confidence": 0.99,
+      "evidence_ids": [
+        "E1",
+        "E2"
+      ],
+      "explanation": "Charles judged the current per-unit monetization as too low and preferred either materially higher pricing or a free product monetized through lead generation.",
+      "decision_link": "none"
+    },
+    {
+      "rationale_id": "R2",
+      "rationale_label": "business_viability_concern",
+      "utterance_type": "assessment",
+      "activation": "evaluated",
+      "direction": "negative",
+      "salience": "primary",
+      "confidence": 0.98,
+      "evidence_ids": [
+        "E1",
+        "E2"
+      ],
+      "explanation": "He expressed concern that the existing pricing would not generate enough economic value to justify the business effort despite the value created for landlords.",
+      "decision_link": "none"
+    },
+    {
+      "rationale_id": "R3",
+      "rationale_label": "go_to_market_strategy_assessment",
+      "utterance_type": "assessment",
+      "activation": "evaluated",
+      "direction": "positive",
+      "salience": "secondary",
+      "confidence": 0.96,
+      "evidence_ids": [
+        "E1",
+        "E2"
+      ],
+      "explanation": "Charles supported a free-to-both-sides approach that maximizes activity, traffic, scale, and lead-generation opportunities.",
+      "decision_link": "none"
+    },
+    {
+      "rationale_id": "R4",
+      "rationale_label": "product_success_factor_assessment",
+      "utterance_type": "assessment",
+      "activation": "evaluated",
+      "direction": "neutral",
+      "salience": "secondary",
+      "confidence": 0.94,
+      "evidence_ids": [
+        "E3",
+        "E4"
+      ],
+      "explanation": "He tied success of the marketplace path to tenant participation, viral-distribution features, scale, and relationship building.",
+      "decision_link": "none"
+    },
+    {
+      "rationale_id": "R5",
+      "rationale_label": "business_model_assessment",
+      "utterance_type": "assessment",
+      "activation": "evaluated",
+      "direction": "neutral",
+      "salience": "primary",
+      "confidence": 0.98,
+      "evidence_ids": [
+        "E3"
+      ],
+      "explanation": "Charles explicitly contrasted the product and feature choices implied by a landlord-paid SaaS model with those implied by a marketplace and ancillary-provider model.",
+      "decision_link": "none"
+    },
+    {
+      "rationale_id": "R6",
+      "rationale_label": "founder_investor_vision_alignment",
+      "utterance_type": "decision_reason",
+      "activation": "evaluated",
+      "direction": "negative",
+      "salience": "primary",
+      "confidence": 1.0,
+      "evidence_ids": [
+        "E5"
+      ],
+      "explanation": "Charles directly linked his decision to pass to a perceived mismatch between his instincts about the business direction and the founder's instincts, stating that they were not totally aligned.",
+      "decision_link": "explicit"
+    },
+    {
+      "rationale_id": "R7",
+      "rationale_label": "founder_skillset",
+      "utterance_type": "assessment",
+      "activation": "evaluated",
+      "direction": "positive",
+      "salience": "secondary",
+      "confidence": 0.98,
+      "evidence_ids": [
+        "E5"
+      ],
+      "explanation": "Charles positively assessed the founder's unique insight into what works for both sides of the marketplace.",
+      "decision_link": "none"
+    },
+    {
+      "rationale_id": "R8",
+      "rationale_label": "business_model_assessment",
+      "utterance_type": "assessment",
+      "activation": "evaluated",
+      "direction": "negative",
+      "salience": "secondary",
+      "confidence": 0.93,
+      "evidence_ids": [
+        "E5"
+      ],
+      "explanation": "Charles stated that the founder was not properly compensated for the value already built, indicating under-monetization of that value.",
+      "decision_link": "none"
+    }
+  ],
+  "unmapped_utterances": [
+    "[3] Nice to finally meet you."
+  ],
+  "audit_flags": [],
+  "annotation_summary": "Charles's Out decision is explicitly attributed to founder-investor vision misalignment over the SaaS versus marketplace direction. He also assessed the current pricing as insufficient and favored a scale- and lead-generation-oriented model."
+}

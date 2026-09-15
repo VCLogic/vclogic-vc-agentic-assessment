@@ -1,0 +1,136 @@
+{
+  "schema": "transcript-observed-rationales-v1",
+  "episode_slug": "145-immersioned",
+  "transcript_sha256": "2e69638722bf765923748c09ed69df171dc24c5231346c8cfc8bbf0735d99d4f",
+  "window": {
+    "start_turn": 3,
+    "end_turn": 75
+  },
+  "observed_decision": "Out",
+  "decision_evidence_ids": [
+    "E3"
+  ],
+  "evidence_registry": [
+    {
+      "evidence_id": "E1",
+      "turn_index": 43,
+      "speaker": "Charles",
+      "text": "What does the content pipeline look like for producing each episode or each new game? Like, can you walk us through that?"
+    },
+    {
+      "evidence_id": "E2",
+      "turn_index": 58,
+      "speaker": "Charles",
+      "text": "What's a school worth to you on an annual basis?"
+    },
+    {
+      "evidence_id": "E3",
+      "turn_index": 75,
+      "speaker": "Charles",
+      "text": "I think - I'm stuck on something different and I think it's going to be something I probably can't get past, which is I keep looking at this $1500 per school number. And I think the only way that works is with a partner. And I've had mixed results with startups that have like a big high profile launch partner. Sometimes it ends up, through no one's fault, performing even worse than expected. And at $1500 today, I don't think you can actually deploy your own salespeople to go after individual schools, because the ACV per school is too low. So the thing that makes me nervous is it's really the sort of first phase is really dependent on the success of this partnership. In the event that it comes in lower than expected, I don't see another way to acquire schools. And I think you're right. I think the best way to acquire districts is to go with a handful of their schools in hand. And we've just had such mixed results with these sort of single vector partnerships. If the, if the ACV was higher and say, there's a way you could say, even if the partnership isn't successful, there's enough sort of meat on the bone that you could go in directly. But I don't see that here. So for that reason, I'm going to pass on this round. But I think you have - the one thing that seems to correlate really well with the ed tech founders we've had - and we've had a better experience. We were in, we've been in Clever, ClassDojo. We've been in a handful of companies that have worked out. All of them had really authentic founders that really cared about the educational mission they were trying to enable, and that's what helped them get through the hard times. And you have that in spades. So I really hope you're successful. I am a big history nerd, so I wish more people were as enthusiastic about history as you are. But for me, this is - that's the one thing I couldn't get past. So I'm going to be out for this round."
+    }
+  ],
+  "rationales": [
+    {
+      "rationale_id": "R1",
+      "rationale_label": "solution_feasibility_assessment",
+      "utterance_type": "question",
+      "activation": "queried",
+      "direction": "neutral",
+      "salience": "secondary",
+      "confidence": 0.99,
+      "evidence_ids": [
+        "E1"
+      ],
+      "explanation": "Charles asks about the operational pipeline for producing episodes and games.",
+      "decision_link": "none"
+    },
+    {
+      "rationale_id": "R2",
+      "rationale_label": "business_model_assessment",
+      "utterance_type": "question",
+      "activation": "queried",
+      "direction": "neutral",
+      "salience": "secondary",
+      "confidence": 0.99,
+      "evidence_ids": [
+        "E2"
+      ],
+      "explanation": "Charles asks about the annual economic value of a school.",
+      "decision_link": "none"
+    },
+    {
+      "rationale_id": "R3",
+      "rationale_label": "unit_economics_assessment",
+      "utterance_type": "decision_reason",
+      "activation": "evaluated",
+      "direction": "negative",
+      "salience": "primary",
+      "confidence": 0.99,
+      "evidence_ids": [
+        "E3"
+      ],
+      "explanation": "Charles views the $1,500 school ACV as too low to support deploying salespeople and says a higher ACV would provide enough margin to sell directly.",
+      "decision_link": "explicit"
+    },
+    {
+      "rationale_id": "R4",
+      "rationale_label": "go_to_market_strategy_assessment",
+      "utterance_type": "decision_reason",
+      "activation": "evaluated",
+      "direction": "negative",
+      "salience": "primary",
+      "confidence": 0.99,
+      "evidence_ids": [
+        "E3"
+      ],
+      "explanation": "Charles is concerned that customer acquisition depends on one launch partnership and that there is no alternative acquisition path if it underperforms.",
+      "decision_link": "explicit"
+    },
+    {
+      "rationale_id": "R5",
+      "rationale_label": "investor_experience_bias",
+      "utterance_type": "decision_reason",
+      "activation": "evaluated",
+      "direction": "negative",
+      "salience": "secondary",
+      "confidence": 0.98,
+      "evidence_ids": [
+        "E3"
+      ],
+      "explanation": "Charles cites mixed results from prior startups relying on high-profile launch partners and single-vector partnerships.",
+      "decision_link": "explicit"
+    },
+    {
+      "rationale_id": "R6",
+      "rationale_label": "business_viability_concern",
+      "utterance_type": "decision_reason",
+      "activation": "evaluated",
+      "direction": "negative",
+      "salience": "secondary",
+      "confidence": 0.98,
+      "evidence_ids": [
+        "E3"
+      ],
+      "explanation": "Charles says the partnership-dependent first phase creates a business viability risk because he sees no viable fallback if the partnership performs below expectations.",
+      "decision_link": "explicit"
+    },
+    {
+      "rationale_id": "R7",
+      "rationale_label": "founder_motivation_authenticity",
+      "utterance_type": "assessment",
+      "activation": "evaluated",
+      "direction": "positive",
+      "salience": "secondary",
+      "confidence": 0.99,
+      "evidence_ids": [
+        "E3"
+      ],
+      "explanation": "Charles positively assesses the founder as authentic and genuinely committed to the educational mission.",
+      "decision_link": "none"
+    }
+  ],
+  "unmapped_utterances": [],
+  "audit_flags": [],
+  "annotation_summary": "Charles’s Out decision is explicitly driven by low school ACV and dependence on a single launch partnership, informed by his prior mixed experience with similar partnerships. He also gives a positive assessment of the founder’s authenticity and mission commitment."
+}

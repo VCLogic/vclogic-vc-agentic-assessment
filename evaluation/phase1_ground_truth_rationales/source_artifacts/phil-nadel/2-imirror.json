@@ -1,0 +1,96 @@
+{
+  "schema": "transcript-observed-rationales-v1",
+  "episode_slug": "2-imirror",
+  "transcript_sha256": "d6dc35ab74acef348c4b930e622d682fc9594ca53fb720024a6f2aea86d24d5c",
+  "window": {
+    "start_turn": 14,
+    "end_turn": 97
+  },
+  "observed_decision": "Out",
+  "decision_evidence_ids": [
+    "E3"
+  ],
+  "evidence_registry": [
+    {
+      "evidence_id": "E1",
+      "turn_index": 32,
+      "speaker": "Phil",
+      "text": "So you could do gambling in a hotel room in Vegas?"
+    },
+    {
+      "evidence_id": "E2",
+      "turn_index": 41,
+      "speaker": "Phil",
+      "text": "Go with the salad!"
+    },
+    {
+      "evidence_id": "E3",
+      "turn_index": 97,
+      "speaker": "Phil",
+      "text": "And I really have to agree with you. I have serious concerns because of the form factor. It just doesn't get me that excited. And also, just from your traction standpoint, I mean, having started kind of in retail and now shifting your focus, let’s say, to hotels where you don't yet have a foot in the door. For me, I'm going to pass."
+    }
+  ],
+  "rationales": [
+    {
+      "rationale_id": "R1",
+      "rationale_label": "solution_feasibility_assessment",
+      "utterance_type": "question",
+      "activation": "queried",
+      "direction": "neutral",
+      "salience": "secondary",
+      "confidence": 0.99,
+      "evidence_ids": [
+        "E1"
+      ],
+      "explanation": "Phil asks whether the product could support gambling in a Las Vegas hotel room.",
+      "decision_link": "none"
+    },
+    {
+      "rationale_id": "R2",
+      "rationale_label": "product_appeal_assessment",
+      "utterance_type": "decision_reason",
+      "activation": "evaluated",
+      "direction": "negative",
+      "salience": "primary",
+      "confidence": 0.99,
+      "evidence_ids": [
+        "E3"
+      ],
+      "explanation": "Phil expresses serious concern about the form factor and says it does not excite him.",
+      "decision_link": "explicit"
+    },
+    {
+      "rationale_id": "R3",
+      "rationale_label": "traction_repeatability_concern",
+      "utterance_type": "decision_reason",
+      "activation": "evaluated",
+      "direction": "negative",
+      "salience": "primary",
+      "confidence": 0.98,
+      "evidence_ids": [
+        "E3"
+      ],
+      "explanation": "Phil cites insufficient traction in the hotel market, noting that the company is shifting from retail without an established foothold in hotels.",
+      "decision_link": "explicit"
+    },
+    {
+      "rationale_id": "R4",
+      "rationale_label": "market_entry_path_assessment",
+      "utterance_type": "decision_reason",
+      "activation": "evaluated",
+      "direction": "negative",
+      "salience": "secondary",
+      "confidence": 0.95,
+      "evidence_ids": [
+        "E3"
+      ],
+      "explanation": "Phil views the move into hotels as lacking a clear initial customer foothold.",
+      "decision_link": "explicit"
+    }
+  ],
+  "unmapped_utterances": [
+    "Go with the salad!"
+  ],
+  "audit_flags": [],
+  "annotation_summary": "Phil’s Out decision is explicitly linked to negative product-form-factor appeal and insufficient hotel-market traction or entry foothold."
+}

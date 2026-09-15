@@ -1,0 +1,115 @@
+{
+  "schema": "transcript-observed-rationales-v1",
+  "episode_slug": "149-dopl",
+  "transcript_sha256": "13b664a0af39ad371d7a9a7ed44567f7e2381ad30990fcba5d016ddde2ea13b9",
+  "window": {
+    "start_turn": 6,
+    "end_turn": 103
+  },
+  "observed_decision": "In",
+  "decision_evidence_ids": [
+    "E6"
+  ],
+  "evidence_registry": [
+    {
+      "evidence_id": "E1",
+      "turn_index": 57,
+      "speaker": "Charles",
+      "text": "Yeah. How does pricing work and kind of what do your customers have to believe about efficacy or throughput in order for it to pen and pencil?"
+    },
+    {
+      "evidence_id": "E2",
+      "turn_index": 71,
+      "speaker": "Charles",
+      "text": "That was gonna be my question: who handles all the -"
+    },
+    {
+      "evidence_id": "E3",
+      "turn_index": 73,
+      "speaker": "Charles",
+      "text": "- just the set up and tear down of each patient session?"
+    },
+    {
+      "evidence_id": "E4",
+      "turn_index": 77,
+      "speaker": "Charles",
+      "text": "Can you tell me more about what the four gets you?"
+    },
+    {
+      "evidence_id": "E5",
+      "turn_index": 79,
+      "speaker": "Charles",
+      "text": "And I guess last question: How, how big does the business get just with the ultrasound piece, if you don't move into other categories?"
+    },
+    {
+      "evidence_id": "E6",
+      "turn_index": 103,
+      "speaker": "Charles",
+      "text": "We'll put in 25. I have a bunch of questions, but those'll come out in diligence."
+    }
+  ],
+  "rationales": [
+    {
+      "rationale_id": "R1",
+      "rationale_label": "business_model_assessment",
+      "utterance_type": "question",
+      "activation": "queried",
+      "direction": "neutral",
+      "salience": "secondary",
+      "confidence": 0.99,
+      "evidence_ids": [
+        "E1"
+      ],
+      "explanation": "Charles asks about pricing and the efficacy or throughput assumptions required for the model to pencil.",
+      "decision_link": "none"
+    },
+    {
+      "rationale_id": "R2",
+      "rationale_label": "solution_feasibility_assessment",
+      "utterance_type": "question",
+      "activation": "queried",
+      "direction": "neutral",
+      "salience": "secondary",
+      "confidence": 0.96,
+      "evidence_ids": [
+        "E2",
+        "E3"
+      ],
+      "explanation": "Charles asks who handles patient-session setup and teardown, probing the operational workflow.",
+      "decision_link": "none"
+    },
+    {
+      "rationale_id": "R3",
+      "rationale_label": "capital_intensity_concern",
+      "utterance_type": "question",
+      "activation": "queried",
+      "direction": "neutral",
+      "salience": "secondary",
+      "confidence": 0.95,
+      "evidence_ids": [
+        "E4"
+      ],
+      "explanation": "Charles asks what the requested $4 million financing enables.",
+      "decision_link": "none"
+    },
+    {
+      "rationale_id": "R4",
+      "rationale_label": "market_size_assessment",
+      "utterance_type": "question",
+      "activation": "queried",
+      "direction": "neutral",
+      "salience": "secondary",
+      "confidence": 0.99,
+      "evidence_ids": [
+        "E5"
+      ],
+      "explanation": "Charles asks about the potential size of the business if it remains focused on ultrasound.",
+      "decision_link": "none"
+    }
+  ],
+  "unmapped_utterances": [],
+  "audit_flags": [
+    "Charles states the In decision but gives no explicit decision rationale; further questions are deferred to diligence."
+  ],
+  "annotation_summary": "Charles asked exploratory questions about economics, operating workflow, use of funds, and ultrasound-only market size. The observed In decision is explicit, but no rationale is directly stated."
+}

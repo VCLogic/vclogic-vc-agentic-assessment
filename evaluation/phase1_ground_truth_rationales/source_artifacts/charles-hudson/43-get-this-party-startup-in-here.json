@@ -1,0 +1,80 @@
+{
+  "schema": "transcript-observed-rationales-v1",
+  "episode_slug": "43-get-this-party-startup-in-here",
+  "transcript_sha256": "1b6975c34d22d3acb9ae053fd7ae7cc08636dae31f0bbecfe4bbb43816e92b97",
+  "window": {
+    "start_turn": 0,
+    "end_turn": 100
+  },
+  "observed_decision": "Out",
+  "decision_evidence_ids": [
+    "E3"
+  ],
+  "evidence_registry": [
+    {
+      "evidence_id": "E1",
+      "turn_index": 29,
+      "speaker": "Charles",
+      "text": "If you were to fast-forward to the time when the business is doing 50, 75 million dollars in revenue, what does the mix look like?"
+    },
+    {
+      "evidence_id": "E2",
+      "turn_index": 31,
+      "speaker": "Charles",
+      "text": "Oh no, just the revenue mix. Like where the money comes from?"
+    },
+    {
+      "evidence_id": "E3",
+      "turn_index": 100,
+      "speaker": "Charles",
+      "text": "So I'm a narrow pass now with a caveat. I think the two things that concern me, like Michael, I would... I'd like to better understand the 100k burn in Chicago. We invest all over the country, and typically I see a slightly lower burn, even just adjusted for headcount, in non-Bay Area, non-coastal cities."
+    }
+  ],
+  "rationales": [
+    {
+      "rationale_id": "R1",
+      "rationale_label": "business_model_assessment",
+      "utterance_type": "question",
+      "activation": "queried",
+      "direction": "neutral",
+      "salience": "secondary",
+      "confidence": 0.98,
+      "evidence_ids": [
+        "E1"
+      ],
+      "explanation": "Charles asks how revenue would be distributed at scale, probing the composition of the business model.",
+      "decision_link": "none"
+    },
+    {
+      "rationale_id": "R2",
+      "rationale_label": "business_model_assessment",
+      "utterance_type": "question",
+      "activation": "queried",
+      "direction": "neutral",
+      "salience": "secondary",
+      "confidence": 0.98,
+      "evidence_ids": [
+        "E2"
+      ],
+      "explanation": "Charles clarifies that he is asking where revenue comes from, continuing his examination of the revenue model.",
+      "decision_link": "none"
+    },
+    {
+      "rationale_id": "R3",
+      "rationale_label": "capital_intensity_concern",
+      "utterance_type": "decision_reason",
+      "activation": "evaluated",
+      "direction": "negative",
+      "salience": "primary",
+      "confidence": 0.99,
+      "evidence_ids": [
+        "E3"
+      ],
+      "explanation": "Charles explicitly identifies the $100,000 Chicago burn as a concern and compares it unfavorably with typical burn levels he sees in non-Bay Area, non-coastal cities.",
+      "decision_link": "explicit"
+    }
+  ],
+  "unmapped_utterances": [],
+  "audit_flags": [],
+  "annotation_summary": "Charles probes the revenue mix and explicitly cites relatively high Chicago burn as a concern supporting his narrow pass."
+}

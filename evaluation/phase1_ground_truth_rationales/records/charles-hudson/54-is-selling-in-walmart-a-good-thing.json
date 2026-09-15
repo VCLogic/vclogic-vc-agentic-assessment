@@ -1,0 +1,56 @@
+{
+  "schema": "phase1-rationale-reference-v1",
+  "episode_slug": "54-is-selling-in-walmart-a-good-thing",
+  "vc_slug": "charles-hudson",
+  "vc_name": "Charles Hudson",
+  "actual_decision": "Out",
+  "reference_kind": "automated_transcript_observed_candidate",
+  "human_validated": false,
+  "source_format": "transcript-observed-rationales-v1",
+  "source_path": "/home/dpasch01/vc-digital-twins/langgraph-vc-clone-framework/evaluation/phase1_ground_truth_rationales/source_artifacts/charles-hudson/54-is-selling-in-walmart-a-good-thing.json",
+  "source_sha256": "9f38a61943dca05e00531783afab099e745b8ada0dfd873d405ea240e410e685",
+  "rationales": [
+    {
+      "rationale_label": "business_model_assessment",
+      "direction": "neutral",
+      "salience": "secondary",
+      "confidence": 0.98,
+      "activation": "queried",
+      "utterance_type": "question",
+      "decision_link": "none",
+      "evidence": [
+        "what's the price point per serving..."
+      ],
+      "source_rationale_id": "R1"
+    },
+    {
+      "rationale_label": "product_adoption",
+      "direction": "neutral",
+      "salience": "secondary",
+      "confidence": 0.96,
+      "activation": "queried",
+      "utterance_type": "question",
+      "decision_link": "none",
+      "evidence": [
+        "Do you have a sense in the offices, are people using this as a replacement for K Cup? Or just sort of normal filter coffee? Or is this sort of more like a special treat? How does it play out in the office environment?"
+      ],
+      "source_rationale_id": "R2"
+    },
+    {
+      "rationale_label": "portfolio_conflict_constraint",
+      "direction": "negative",
+      "salience": "primary",
+      "confidence": 1.0,
+      "activation": "evaluated",
+      "utterance_type": "decision_reason",
+      "decision_link": "explicit",
+      "evidence": [
+        "I just have to disclose I'm an investor in DripKit.",
+        "So I'm going to have to be out, but I am a big believer in the category."
+      ],
+      "source_rationale_id": "R3"
+    }
+  ],
+  "source_tier": "previously_validated",
+  "source_origin_path": "/home/dpasch01/vc-digital-twins/agentic-vc-clone-framework/outputs/charles-observed-rationale-repair-canary-2026-08-03/54-is-selling-in-walmart-a-good-thing/reference.json"
+}

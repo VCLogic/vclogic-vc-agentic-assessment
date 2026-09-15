@@ -1,0 +1,69 @@
+{
+  "schema": "transcript-observed-rationales-v1",
+  "episode_slug": "147-partytrick",
+  "transcript_sha256": "1700ada358f0611610a00753f7d3fb75bc019ed8323951fc1757a9d9fdff8d36",
+  "window": {
+    "start_turn": 8,
+    "end_turn": 39
+  },
+  "observed_decision": "Out",
+  "decision_evidence_ids": [
+    "E3"
+  ],
+  "evidence_registry": [
+    {
+      "evidence_id": "E1",
+      "turn_index": 22,
+      "speaker": "Elizabeth",
+      "text": "I think I'm still kind of unclear on what this exactly is. I don't know if you have a demo or -"
+    },
+    {
+      "evidence_id": "E2",
+      "turn_index": 37,
+      "speaker": "Elizabeth",
+      "text": "Mm hmm. I think it might be good to disclose now that you have described this, that I think this is quite similar to a portfolio company of mine called Afterwork."
+    },
+    {
+      "evidence_id": "E3",
+      "turn_index": 39,
+      "speaker": "Elizabeth",
+      "text": "So I think I'm going to have to sit out. Thank you."
+    }
+  ],
+  "rationales": [
+    {
+      "rationale_id": "R1",
+      "rationale_label": "founder_communication_quality",
+      "utterance_type": "assessment",
+      "activation": "evaluated",
+      "direction": "negative",
+      "salience": "secondary",
+      "confidence": 0.94,
+      "evidence_ids": [
+        "E1"
+      ],
+      "explanation": "Elizabeth states that she remains unclear about what the product is, indicating insufficient clarity in the presentation.",
+      "decision_link": "none"
+    },
+    {
+      "rationale_id": "R2",
+      "rationale_label": "portfolio_conflict_constraint",
+      "utterance_type": "decision_reason",
+      "activation": "evaluated",
+      "direction": "negative",
+      "salience": "primary",
+      "confidence": 0.99,
+      "evidence_ids": [
+        "E2",
+        "E3"
+      ],
+      "explanation": "Elizabeth identifies the company as quite similar to her portfolio company Afterwork and then states that she will sit out.",
+      "decision_link": "explicit"
+    }
+  ],
+  "unmapped_utterances": [
+    "Elizabeth. Nice to meet you, Virginia."
+  ],
+  "audit_flags": [],
+  "annotation_summary": "Elizabeth’s Out decision is explicitly attributed to a similarity with her existing portfolio company Afterwork. She also expressed uncertainty about the product’s description."
+}

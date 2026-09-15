@@ -1,0 +1,152 @@
+{
+  "schema": "transcript-observed-rationales-v1",
+  "episode_slug": "115-gemist-the-crown-jewel-of-venture",
+  "transcript_sha256": "3b5078975c559cd139c0b99419e7f749f6a50e692ccddf71e2c0670d043b6501",
+  "window": {
+    "start_turn": 10,
+    "end_turn": 68
+  },
+  "observed_decision": "Out",
+  "decision_evidence_ids": [
+    "E3"
+  ],
+  "evidence_registry": [
+    {
+      "evidence_id": "E1",
+      "turn_index": 27,
+      "speaker": "Charles",
+      "text": "Does this integrate with their web experience? Does it replace it? How does it fit into their current tech stack?"
+    },
+    {
+      "evidence_id": "E2",
+      "turn_index": 29,
+      "speaker": "Charles",
+      "text": "What do you need to do to become the Shopify? Like what level of effort is that to sort of remove the need to have any other platform?"
+    },
+    {
+      "evidence_id": "E3",
+      "turn_index": 68,
+      "speaker": "Charles",
+      "text": "I got pretty close to this one, but I think I'm out. I was just doing some math on the cap table here, and I just - I worry about what it's - to me there's one simple fix which is to give you and your founder more equity in the A, which will come out of the pockets, as it should, of people who invested previously. And I think for me, I'm most excited about the sort of get Shopify out of the mix piece. And I think I see you getting there, I just don't know that it will all come together in time for the A. But it's a very impressive presentation and it sounds like you really are - I mean, we throw around this term 'domain expert' a lot, but you are a domain expert in this. So, very impressive."
+    }
+  ],
+  "rationales": [
+    {
+      "rationale_id": "R1",
+      "rationale_label": "solution_feasibility_assessment",
+      "utterance_type": "question",
+      "activation": "queried",
+      "direction": "neutral",
+      "salience": "secondary",
+      "confidence": 0.99,
+      "evidence_ids": [
+        "E1"
+      ],
+      "explanation": "Charles asks how the product fits into or replaces customers’ existing technology stack, probing technical and operational feasibility.",
+      "decision_link": "none"
+    },
+    {
+      "rationale_id": "R2",
+      "rationale_label": "solution_feasibility_assessment",
+      "utterance_type": "question",
+      "activation": "queried",
+      "direction": "neutral",
+      "salience": "secondary",
+      "confidence": 0.99,
+      "evidence_ids": [
+        "E2"
+      ],
+      "explanation": "Charles asks about the effort required to eliminate dependence on another platform, probing the feasibility of the proposed product evolution.",
+      "decision_link": "none"
+    },
+    {
+      "rationale_id": "R3",
+      "rationale_label": "dilution_concern",
+      "utterance_type": "decision_reason",
+      "activation": "evaluated",
+      "direction": "negative",
+      "salience": "primary",
+      "confidence": 0.99,
+      "evidence_ids": [
+        "E3"
+      ],
+      "explanation": "Charles says he is worried about the cap table and identifies the need to give the founders more equity in the next financing.",
+      "decision_link": "explicit"
+    },
+    {
+      "rationale_id": "R4",
+      "rationale_label": "founder_equity_incentive_alignment",
+      "utterance_type": "decision_reason",
+      "activation": "evaluated",
+      "direction": "negative",
+      "salience": "primary",
+      "confidence": 0.98,
+      "evidence_ids": [
+        "E3"
+      ],
+      "explanation": "Charles indicates that the founders should receive more equity in the Series A, implying concern that their current ownership may not provide sufficient long-term incentive alignment.",
+      "decision_link": "explicit"
+    },
+    {
+      "rationale_id": "R5",
+      "rationale_label": "product_success_factor_assessment",
+      "utterance_type": "assessment",
+      "activation": "evaluated",
+      "direction": "positive",
+      "salience": "secondary",
+      "confidence": 0.94,
+      "evidence_ids": [
+        "E3"
+      ],
+      "explanation": "Charles identifies removing Shopify from the product stack as the aspect of the company that most excites him.",
+      "decision_link": "none"
+    },
+    {
+      "rationale_id": "R6",
+      "rationale_label": "market_timing",
+      "utterance_type": "decision_reason",
+      "activation": "evaluated",
+      "direction": "negative",
+      "salience": "primary",
+      "confidence": 0.97,
+      "evidence_ids": [
+        "E3"
+      ],
+      "explanation": "Charles believes the Shopify-related transition may not come together in time for the Series A.",
+      "decision_link": "explicit"
+    },
+    {
+      "rationale_id": "R7",
+      "rationale_label": "founder_market_fit",
+      "utterance_type": "assessment",
+      "activation": "evaluated",
+      "direction": "positive",
+      "salience": "secondary",
+      "confidence": 0.99,
+      "evidence_ids": [
+        "E3"
+      ],
+      "explanation": "Charles explicitly characterizes the founder as a domain expert in the jewelry industry.",
+      "decision_link": "none"
+    },
+    {
+      "rationale_id": "R8",
+      "rationale_label": "founder_communication_quality",
+      "utterance_type": "assessment",
+      "activation": "evaluated",
+      "direction": "positive",
+      "salience": "secondary",
+      "confidence": 0.98,
+      "evidence_ids": [
+        "E3"
+      ],
+      "explanation": "Charles describes the presentation as very impressive.",
+      "decision_link": "none"
+    }
+  ],
+  "unmapped_utterances": [],
+  "audit_flags": [
+    "Turn 31 is a non-substantive acknowledgment and is excluded from the evidence registry."
+  ],
+  "annotation_summary": "Charles’s explicit reasons for going out are cap-table dilution/equity alignment concerns and uncertainty that the Shopify transition will be completed in time for the Series A. He also expressed positive assessments of the Shopify direction, presentation quality, and founder-market fit."
+}

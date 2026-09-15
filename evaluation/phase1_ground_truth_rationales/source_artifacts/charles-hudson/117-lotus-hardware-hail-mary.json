@@ -1,0 +1,152 @@
+{
+  "schema": "transcript-observed-rationales-v1",
+  "episode_slug": "117-lotus-hardware-hail-mary",
+  "transcript_sha256": "e0444b127be3709fed30feca3971f39705db53891a8d525ffbaa4927a68254c8",
+  "window": {
+    "start_turn": 8,
+    "end_turn": 132
+  },
+  "observed_decision": "Out",
+  "decision_evidence_ids": [
+    "E5"
+  ],
+  "evidence_registry": [
+    {
+      "evidence_id": "E1",
+      "turn_index": 16,
+      "speaker": "Charles",
+      "text": "That’s cool"
+    },
+    {
+      "evidence_id": "E2",
+      "turn_index": 31,
+      "speaker": "Charles",
+      "text": "Do you have to charge the ring?"
+    },
+    {
+      "evidence_id": "E3",
+      "turn_index": 107,
+      "speaker": "Charles",
+      "text": "What's the cost profile?"
+    },
+    {
+      "evidence_id": "E4",
+      "turn_index": 126,
+      "speaker": "Charles",
+      "text": "Is there any way to get to meaningful revenue on the 2 million without a big lumpy contract like NYC?"
+    },
+    {
+      "evidence_id": "E5",
+      "turn_index": 132,
+      "speaker": "Charles",
+      "text": "Just to piggyback on what Elizabeth said, we do a lot of hardware and I don't know why, it always seems to take $7 million to get to a commercial product. We have a next gen walker company. It seems - I don't know why. It seems to take $7 million and it always seems - and sometimes it's technology complexity, and sometimes it's actually the go to market piece just takes longer, and figuring out who's gonna pay and how much. So I always assume that there's gonna be, at a minimum, two seed rounds for a hardware company to actually get to a place where there's meaningful traction. And like Elizabeth, the 14 million number doesn't work for me, with the expectation that there will be another seed round and there has to be some room between the today price and the future price. So I'm out on the current terms. But I would be open to revisiting it at some point in the future if the terms are lower and I have a better sense of the pipeline."
+    }
+  ],
+  "rationales": [
+    {
+      "rationale_id": "R1",
+      "rationale_label": "product_appeal_assessment",
+      "utterance_type": "assessment",
+      "activation": "evaluated",
+      "direction": "positive",
+      "salience": "secondary",
+      "confidence": 0.99,
+      "evidence_ids": [
+        "E1"
+      ],
+      "explanation": "Charles positively assesses the product after the demonstration.",
+      "decision_link": "none"
+    },
+    {
+      "rationale_id": "R2",
+      "rationale_label": "product_success_factor_assessment",
+      "utterance_type": "question",
+      "activation": "queried",
+      "direction": "neutral",
+      "salience": "secondary",
+      "confidence": 0.93,
+      "evidence_ids": [
+        "E2"
+      ],
+      "explanation": "Charles asks about charging requirements, probing a product attribute relevant to usability.",
+      "decision_link": "none"
+    },
+    {
+      "rationale_id": "R3",
+      "rationale_label": "unit_economics_assessment",
+      "utterance_type": "question",
+      "activation": "queried",
+      "direction": "neutral",
+      "salience": "secondary",
+      "confidence": 0.98,
+      "evidence_ids": [
+        "E3"
+      ],
+      "explanation": "Charles asks for the product’s cost profile.",
+      "decision_link": "none"
+    },
+    {
+      "rationale_id": "R4",
+      "rationale_label": "go_to_market_strategy_assessment",
+      "utterance_type": "question",
+      "activation": "queried",
+      "direction": "neutral",
+      "salience": "secondary",
+      "confidence": 0.94,
+      "evidence_ids": [
+        "E4"
+      ],
+      "explanation": "Charles asks whether meaningful revenue can be reached without relying on a large lumpy contract, probing the revenue and sales path.",
+      "decision_link": "none"
+    },
+    {
+      "rationale_id": "R5",
+      "rationale_label": "investor_experience_bias",
+      "utterance_type": "assessment",
+      "activation": "evaluated",
+      "direction": "negative",
+      "salience": "secondary",
+      "confidence": 0.94,
+      "evidence_ids": [
+        "E5"
+      ],
+      "explanation": "Charles draws on repeated experience with hardware investments requiring substantial funding to commercialize the product.",
+      "decision_link": "explicit"
+    },
+    {
+      "rationale_id": "R6",
+      "rationale_label": "capital_intensity_concern",
+      "utterance_type": "decision_reason",
+      "activation": "evaluated",
+      "direction": "negative",
+      "salience": "primary",
+      "confidence": 0.99,
+      "evidence_ids": [
+        "E5"
+      ],
+      "explanation": "Charles expects a hardware company to require about $7 million and at least two seed rounds before meaningful traction, indicating concern about the capital required to reach commercialization.",
+      "decision_link": "explicit"
+    },
+    {
+      "rationale_id": "R7",
+      "rationale_label": "stage_valuation_mismatch",
+      "utterance_type": "decision_reason",
+      "activation": "evaluated",
+      "direction": "negative",
+      "salience": "primary",
+      "confidence": 0.99,
+      "evidence_ids": [
+        "E5"
+      ],
+      "explanation": "Charles says the $14 million valuation does not work given the company’s stage and the expected need for another seed round with room between current and future pricing.",
+      "decision_link": "explicit"
+    }
+  ],
+  "unmapped_utterances": [
+    "Clapper. Yeah."
+  ],
+  "audit_flags": [
+    "Turn 109 is labeled \"harles\" and was excluded from Charles-only evidence."
+  ],
+  "annotation_summary": "Charles’s observed Out decision is explicitly tied to hardware capital intensity and a valuation-stage mismatch. He also asks about charging, costs, and the path to meaningful revenue, and expresses positive product appeal."
+}

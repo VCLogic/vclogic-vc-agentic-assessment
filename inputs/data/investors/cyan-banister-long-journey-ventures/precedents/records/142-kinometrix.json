@@ -1,0 +1,918 @@
+{
+  "decision": {
+    "audit_notes": "Direct pitch-room Out.",
+    "audit_source": "evaluation/labels/cyan_banister_pitch_window_decisions.json",
+    "check_tier": null,
+    "conditions": [],
+    "context": "initial_panel",
+    "evidence": [
+      {
+        "text": "Yeah. Well, I really, really love what you're working on. The big thing for me actually was the answer that you gave about being acquired. I look for companies that are going to be around for 10, 15 years that are aiming for sort of a moonshot outcome. And that's the problem with venture. It doesn't mean that that's a wrong approach. It just means that I'm a venture capitalist and that's what I look for. And so for that reason, I'm out.",
+        "turn_end": 79,
+        "turn_start": 79
+      }
+    ],
+    "status": "Out"
+  },
+  "episode_number": 142,
+  "episode_slug": "142-kinometrix",
+  "investor_aliases": [
+    "Cyan",
+    "Cyan Banister"
+  ],
+  "investor_present": true,
+  "source_path": "sources/142-kinometrix.json",
+  "source_sha256": "829a25be3af416f2c3ce67427d4660cde956e7bc6f260e0112cf14be1eb6976e",
+  "turns": [
+    {
+      "speaker": "Narrator",
+      "text": "I’m Josh Muccio, this is The Pitch, where startup founders raise millions and listeners can invest. The pitch for Kinometrix is coming up right after this.",
+      "turn_index": 0
+    },
+    {
+      "speaker": "Josh",
+      "text": "Pitch #2, Kinometrix\n[clapper]",
+      "turn_index": 1
+    },
+    {
+      "speaker": "Mac",
+      "text": "We need a better clapper here.\nWe’ve all heard the horror stories of people going into the hospital for one reason, and ending up with a whole new issue, that could have been avoided.\nThese preventable harm events should be preventable, right? That’s what Devina Desai thought, too.\nWhen I first met Devina, it felt like she wasn’t trying to impress anyone. She didn’t have your classic bold pitch with a billion dollar vision and a riveting personal backstory.\nBut she had… something else.. A quiet confidence that made me feel if there’s ever a person to solve this problem, it’s her.\nToday, Devina is pitching Cyan Banister",
+      "turn_index": 2
+    },
+    {
+      "speaker": "Devina",
+      "text": "Devina.",
+      "turn_index": 3
+    },
+    {
+      "speaker": "Cyan",
+      "text": "Cyan. Nice to meet you.\nMac Conwell",
+      "turn_index": 4
+    },
+    {
+      "speaker": "Mac",
+      "text": "Mac.",
+      "turn_index": 5
+    },
+    {
+      "speaker": "Devina",
+      "text": "Devina.",
+      "turn_index": 6
+    },
+    {
+      "speaker": "Mac",
+      "text": "Nice to meet you.\nBen Taft",
+      "turn_index": 7
+    },
+    {
+      "speaker": "Ben",
+      "text": "Hi Devina. I'm Ben. Nice to meet you.\nAnd Elizabeth Yin",
+      "turn_index": 8
+    },
+    {
+      "speaker": "Elizabeth",
+      "text": "Elizabeth. Nice to meet you, Devina. [long gap]",
+      "turn_index": 9
+    },
+    {
+      "speaker": "Devina",
+      "text": "Hi, I'm Devina Desai. I'm the CEO of Kinometrix. We like to think hospitals are a safe place for patients, a place for them to heal. In reality, hospitals are extremely dangerous, with one in four patients experiencing some sort of adverse event. Preventable harm events such as falls, pressure injuries, hospital-acquired infections contribute to 17 percent of US deaths each year. Over 1 million patients fall in hospitals each year, and that costs US hospitals over $35 billion. That's where Kinometrix came in. We began with trying to solve the problem of hospital falls from a risk assessment standpoint. How they currently risk assess patients is manual, it's antiquated, and it's additional documentation for nurses, inaccurate and subjective. Our product is a clinical decision support system that leverages existing electronic health record data and machine learning. So far, we've developed our entire platform, and we've also developed our fault risk assessment product on the platform. We have all the APIs connecting it to any electronic health record in the US. We have three signed letters of intent, as well as two large contracts in process with health systems that have some international presence, as well. We are currently raising a $1.5 million round from which we've already closed a little over $1.2 million. Thank you.",
+      "turn_index": 10
+    },
+    {
+      "speaker": "Cyan",
+      "text": "Congrats.",
+      "turn_index": 11
+    },
+    {
+      "speaker": "Mac",
+      "text": "So, help me understand this fall risk assessment, right? So, what does that mean? Does that mean after I've had a surgery, it assess my, you know, levels of falling? Or does it assess like the infrastructure of the hospital? Like Explain to me what that means.",
+      "turn_index": 12
+    },
+    {
+      "speaker": "Devina",
+      "text": "So anytime you're hospitalized, the hospital is required to risk assess all adult patients for falls, because falls are considered to be preventable, never events. Hospitals also don't get reimbursed for any care resulting from a fall. That's why they proactively are required to assess patients for falls. How they currently do it is a checklist The nurse has to manually complete the checklist at least once per shift. It should be done more frequently, every time the patient record is updated, but we all know nurses are overburdened, hospitals are understaffed. So it's really not completed as frequently. It's also a manual checklist, so it's very subjective and inaccurate. It doesn't leverage the breadth of data that is captured in the electronic health record.",
+      "turn_index": 13
+    },
+    {
+      "speaker": "Ben",
+      "text": "So I understand the value of the product, very much so. Could you paint a bit more vivid of a picture in my head of the actual product experience? You mentioned there's an existing checklist system. Are you replacing that checklist system? Is this on an iPad? Like what is literally the UX for the nurse who uses this?",
+      "turn_index": 14
+    },
+    {
+      "speaker": "Devina",
+      "text": "So it is replacing their existing system. As soon as the patient is admitted, Kinometrix gets some data. We get demographics, we get some vitals, we get medications, diagnoses.",
+      "turn_index": 15
+    },
+    {
+      "speaker": "Ben",
+      "text": "Mmm.",
+      "turn_index": 16
+    },
+    {
+      "speaker": "Devina",
+      "text": "So we've already risk assessed the patient. As soon as they get to their fall risk assessment, they will have a risk assessment there. Your patient is moderate fall risk. This is what's driving the patient's risk. This is the intervention we recommend. Then as additional inputs come in, that keeps getting updated. So now it's dynamic. The physician writes a new medication, the patient has surgery, that gets risk assessed again, and it's updated, so now your patient's risk is high, we recommend more frequent rounding.",
+      "turn_index": 17
+    },
+    {
+      "speaker": "Cyan",
+      "text": "So if you increase fall risk You're not allowed to go to the bathroom or walk any place without a nurse coming and assisting you. So that increases staffing in a hospital. Are they prepared to increase their staffing potentially?",
+      "turn_index": 18
+    },
+    {
+      "speaker": "Devina",
+      "text": "So that's what we're trying to change. Not every patient's fall risk requires a nurse to come and take you to the bathroom.",
+      "turn_index": 19
+    },
+    {
+      "speaker": "Cyan",
+      "text": "Okay.",
+      "turn_index": 20
+    },
+    {
+      "speaker": "Devina",
+      "text": "Certain fall risks are driven by behavior, so those patients benefit more from remote video monitoring, or a sitter in the room, depending on what's driving your risk. Your risk could be driven by your blood pressure. That doesn't require additional staffing; that requires a medication to address your blood pressure. So we're truly trying to help them optimize their current resources and deploy them to the right patient.",
+      "turn_index": 21
+    },
+    {
+      "speaker": "Cyan",
+      "text": "Can you walk us through the sales cycle of selling this product as well as pricing and things of that nature?",
+      "turn_index": 22
+    },
+    {
+      "speaker": "Devina",
+      "text": "Sure. So it's usually an enterprise contract of some sort. We do allow for pilots with individual hospitals. And the sales usually starts at a nurse executive level. It goes through IT and security review, because we do integrate directly with their electronic health records. We charge hospitals a licensing fee. $480 per bed per year. That's for the first module. We've started with falls because it's the most prevalent. We're going to add pressure injuries next. We'll follow that with hospital-acquired infections. Truly make it a comprehensive patient safety platform.",
+      "turn_index": 23
+    },
+    {
+      "speaker": "Cyan",
+      "text": "Hm",
+      "turn_index": 24
+    },
+    {
+      "speaker": "Mac",
+      "text": "So, just to recapsulate. So the product's fully built?",
+      "turn_index": 25
+    },
+    {
+      "speaker": "Devina",
+      "text": "The product's fully built.",
+      "turn_index": 26
+    },
+    {
+      "speaker": "Mac",
+      "text": "Okay. And you have the three LOIs and you're working on additional contracts.",
+      "turn_index": 27
+    },
+    {
+      "speaker": "Devina",
+      "text": "So we have two contracts that will go live towards the end of Q3 of this year.",
+      "turn_index": 28
+    },
+    {
+      "speaker": "Mac",
+      "text": "What's the, the average value of those contracts?",
+      "turn_index": 29
+    },
+    {
+      "speaker": "Devina",
+      "text": "So they're starting as a pilot -",
+      "turn_index": 30
+    },
+    {
+      "speaker": "Mac",
+      "text": "That's fine.",
+      "turn_index": 31
+    },
+    {
+      "speaker": "Devina",
+      "text": "- in a region, but the average value for one of them is over 5 million each year. It's the second largest Catholic health system -",
+      "turn_index": 32
+    },
+    {
+      "speaker": "Mac",
+      "text": "That's at scale. That's at scale.",
+      "turn_index": 33
+    },
+    {
+      "speaker": "Devina",
+      "text": "Yeah.",
+      "turn_index": 34
+    },
+    {
+      "speaker": "Mac",
+      "text": "That's at scale of who's on the pilot.",
+      "turn_index": 35
+    },
+    {
+      "speaker": "Devina",
+      "text": "That's at scale.",
+      "turn_index": 36
+    },
+    {
+      "speaker": "Mac",
+      "text": "How much are they doing for the pilot?",
+      "turn_index": 37
+    },
+    {
+      "speaker": "Devina",
+      "text": "For the pilot, they're starting with an entire region. That's a little over a million.",
+      "turn_index": 38
+    },
+    {
+      "speaker": "Mac",
+      "text": "Okay.",
+      "turn_index": 39
+    },
+    {
+      "speaker": "Devina",
+      "text": "The other one is a regional health system. At scale, they will be close to 1.4 million. Currently, they're starting with two hospitals. And so that's a little over 300,000.",
+      "turn_index": 40
+    },
+    {
+      "speaker": "Mac",
+      "text": "And you're raising 1.5 and you've raised 1.2 so far.",
+      "turn_index": 41
+    },
+    {
+      "speaker": "Devina",
+      "text": "Yep.",
+      "turn_index": 42
+    },
+    {
+      "speaker": "Mac",
+      "text": "What valuation is that on?",
+      "turn_index": 43
+    },
+    {
+      "speaker": "Devina",
+      "text": "It's at a $5 million pre money valuation.",
+      "turn_index": 44
+    },
+    {
+      "speaker": "Mac",
+      "text": "5 million pre.",
+      "turn_index": 45
+    },
+    {
+      "speaker": "Devina",
+      "text": "So we do have a lead investor as well.",
+      "turn_index": 46
+    },
+    {
+      "speaker": "Mac",
+      "text": "Okay so 6.5 post.",
+      "turn_index": 47
+    },
+    {
+      "speaker": "Devina",
+      "text": "Yes.",
+      "turn_index": 48
+    },
+    {
+      "speaker": "Elizabeth",
+      "text": "One question I have is how you're thinking about customer acquisition. Like, how did you get these pilots? How'd you get these LOIs? Like, how are you going about doing that?",
+      "turn_index": 49
+    },
+    {
+      "speaker": "Devina",
+      "text": "So we have a very strong network. I came from health systems, our VP of growth and my co-founder, she led physician engagement at the Medical Society of Virginia for over 11 years. But then we also have a reseller agreement with AvaSure. They're a remote video monitoring company and they are actively selling Kinometrix to their 1100 hospital customers. The reason they're doing that is because they are the intervention that comes after a Kinometrix risk assessment.",
+      "turn_index": 50
+    },
+    {
+      "speaker": "Elizabeth",
+      "text": "Yeah, it's very complimentary.",
+      "turn_index": 51
+    },
+    {
+      "speaker": "Devina",
+      "text": "Yeah.",
+      "turn_index": 52
+    },
+    {
+      "speaker": "Mac",
+      "text": "Look, y'all, I know we, we just in here, it's only 11 minutes, but at this point in the proceedings, I want to tell you, this is dope.\n[laughter]",
+      "turn_index": 53
+    },
+    {
+      "speaker": "Mac",
+      "text": "And and at Rare Breed, we invest in dope founders. So, uh I need to figure out how to be a part of this. I see a lot of different companies working with medical systems. Getting pilots is super hard. Getting pilots of this scale, not something you see every day. And sales cycles are really long, but for a problem like this. If you really do reduce the amount of head count and the amount of falls it's not going to be as hard of a sales cycle in the future. So I'd be excited for Rare Breed to participate at minimum 50, maybe more. You know, going over due diligence to timing, but we got this.",
+      "turn_index": 54
+    },
+    {
+      "speaker": "Devina",
+      "text": "Thank you. Appreciate it.",
+      "turn_index": 55
+    },
+    {
+      "speaker": "Elizabeth",
+      "text": "What does success look like in these pilots for the hospitals?",
+      "turn_index": 56
+    },
+    {
+      "speaker": "Devina",
+      "text": "Currently a 10 percent fall rate reduction. It's clean. It's simple. But we're going to try and get additional ROIs around reductions from lawsuits because when you reduce a single lawsuit -",
+      "turn_index": 57
+    },
+    {
+      "speaker": "Elizabeth",
+      "text": "Sure.",
+      "turn_index": 58
+    },
+    {
+      "speaker": "Devina",
+      "text": "- you're saving $500,000 right there. So preventing maybe just one lawsuit helps them recover the costs.",
+      "turn_index": 59
+    },
+    {
+      "speaker": "Ben",
+      "text": "I have a totally different line of questioning for you. Who are you? What's your story? Where are you from? Like, what's age zero to the point where you decided to start the company?",
+      "turn_index": 60
+    },
+    {
+      "speaker": "Devina",
+      "text": "Age zero. Okay. Wow. Age zero.",
+      "turn_index": 61
+    },
+    {
+      "speaker": "Ben",
+      "text": "Like from the start, who are you? I'd love to hear your story.",
+      "turn_index": 62
+    },
+    {
+      "speaker": "Devina",
+      "text": "I am -\nThe Pitch for Kinometrix will be right back.",
+      "turn_index": 63
+    },
+    {
+      "speaker": "Ben",
+      "text": "Who are you? What's your story? Where are you from? Like, what's age zero to the point where you decided to start the company?",
+      "turn_index": 64
+    },
+    {
+      "speaker": "Devina",
+      "text": "Age zero. Okay. Wow. Age zero.",
+      "turn_index": 65
+    },
+    {
+      "speaker": "Ben",
+      "text": "Like from the start, who are you? I'd love to hear your story.",
+      "turn_index": 66
+    },
+    {
+      "speaker": "Devina",
+      "text": "I am - I'm an immigrant founder. I moved here from Kenya. When I followed an older sibling to the US to go to university, then I got into dental school, chose not to go to dental school, It wasn't for me, I tried it, it just.",
+      "turn_index": 67
+    },
+    {
+      "speaker": "Elizabeth",
+      "text": "Teeth are not that interesting?",
+      "turn_index": 68
+    },
+    {
+      "speaker": "Devina",
+      "text": "Well, not - being in someone's mouth for eight hours a day is not that fun. and instead went and got my masters in epidemiology. I just enjoyed understanding health from a population standpoint. Worked at two different health systems and Kinometrix stemmed out of my last job.",
+      "turn_index": 69
+    },
+    {
+      "speaker": "Elizabeth",
+      "text": "Why make the jump?",
+      "turn_index": 70
+    },
+    {
+      "speaker": "Devina",
+      "text": "Because there was a need and I experienced an event, similar events. So it was just a desire to change something that I saw on a daily basis. I worked with nursing, significantly, on their workflows. And every time there's a fall, you then do root cause analysis and you go into it, only to realize, well, the risk assessment said high or said low. So everything that came, resulted from the risk assessment. Your intervention is probably phenomenal. But if your risk assessment is not great, then there's no point of having the best interventions. So that's how Kinometrix came about.",
+      "turn_index": 71
+    },
+    {
+      "speaker": "Ben",
+      "text": "And what's your ultimate ambition with the company? Ten years from now, five years from now, whenever in the future, this thing is fully realized, what does that look and feel like to you?",
+      "turn_index": 72
+    },
+    {
+      "speaker": "Devina",
+      "text": "Five years from now I think we are probably going to be bought out by some medical device, either remote video monitoring, someone that wants that software solution that plugs and plays for their product.",
+      "turn_index": 73
+    },
+    {
+      "speaker": "Ben",
+      "text": "Very nice.",
+      "turn_index": 74
+    },
+    {
+      "speaker": "Elizabeth",
+      "text": "When did you start this business?",
+      "turn_index": 75
+    },
+    {
+      "speaker": "Devina",
+      "text": "2021 is when I started developing it.",
+      "turn_index": 76
+    },
+    {
+      "speaker": "Elizabeth",
+      "text": "Okay.",
+      "turn_index": 77
+    },
+    {
+      "speaker": "Mac",
+      "text": "Cyan, you've been really quiet.",
+      "turn_index": 78
+    },
+    {
+      "speaker": "Cyan",
+      "text": "Yeah. Well, I really, really love what you're working on. The big thing for me actually was the answer that you gave about being acquired. I look for companies that are going to be around for 10, 15 years that are aiming for sort of a moonshot outcome. And that's the problem with venture. It doesn't mean that that's a wrong approach. It just means that I'm a venture capitalist and that's what I look for. And so for that reason, I'm out.",
+      "turn_index": 79
+    },
+    {
+      "speaker": "Devina",
+      "text": "I understand. um we're being realistic. We realize there are much larger players and then -",
+      "turn_index": 80
+    },
+    {
+      "speaker": "Mac",
+      "text": "Don't be realistic in front of investors. It doesn’t help you.\n[laughter]",
+      "turn_index": 81
+    },
+    {
+      "speaker": "Elizabeth",
+      "text": "um you - so - is it okay if I can be an asshole for a moment?",
+      "turn_index": 82
+    },
+    {
+      "speaker": "Devina",
+      "text": "Sure, go for it.",
+      "turn_index": 83
+    },
+    {
+      "speaker": "Elizabeth",
+      "text": "You've been around for three years.",
+      "turn_index": 84
+    },
+    {
+      "speaker": "Devina",
+      "text": "Yes.",
+      "turn_index": 85
+    },
+    {
+      "speaker": "Elizabeth",
+      "text": "And you are just starting with your first pilot?",
+      "turn_index": 86
+    },
+    {
+      "speaker": "Devina",
+      "text": "Yes.",
+      "turn_index": 87
+    },
+    {
+      "speaker": "Elizabeth",
+      "text": "Tell me a little bit about that journey of getting to that first customer.",
+      "turn_index": 88
+    },
+    {
+      "speaker": "Devina",
+      "text": "It's the product development piece that takes long. A lot of solutions out there, especially in healthcare, use synthetic data. Synthetic data does not mimic a true patient. What we wanted was actual patient data to build a platform. We use - built our platform using 3 million inpatient records. Getting actual inpatient records is a painful process and that took a great amount of time, which is why we're just getting started with the pilots. Also the sales cycle. It's a hospital sales cycle.",
+      "turn_index": 89
+    },
+    {
+      "speaker": "Elizabeth",
+      "text": "Yes. I know.",
+      "turn_index": 90
+    },
+    {
+      "speaker": "Devina",
+      "text": "So we realize that we're selling into the hospital, but then we're sticky because we're integrating into their process.",
+      "turn_index": 91
+    },
+    {
+      "speaker": "Elizabeth",
+      "text": "Yes.",
+      "turn_index": 92
+    },
+    {
+      "speaker": "Devina",
+      "text": "So they're not going to come back five years down the road and say, Oh, we'll go back to doing this manually. It's just something that once it's integrated, it stays there for a while.",
+      "turn_index": 93
+    },
+    {
+      "speaker": "Elizabeth",
+      "text": "Mhmm. What does it take for you to onboard them? Like, just from a resourcing perspective?",
+      "turn_index": 94
+    },
+    {
+      "speaker": "Devina",
+      "text": "So 20 hours of their IT team or their informatics team. To get all the data models mapped appropriately. And then we just test it, run data, and we're able to go live.",
+      "turn_index": 95
+    },
+    {
+      "speaker": "Elizabeth",
+      "text": "Mm hmm.\n[silence]",
+      "turn_index": 96
+    },
+    {
+      "speaker": "Elizabeth",
+      "text": "Interesting.",
+      "turn_index": 97
+    },
+    {
+      "speaker": "Mac",
+      "text": "What do you - what's the holdup? You're stewing over something. What are you stewing over, Elizabeth?",
+      "turn_index": 98
+    },
+    {
+      "speaker": "Elizabeth",
+      "text": "Yeah, I'll just put all my cards on the table.\nWe’ll be back right after this.",
+      "turn_index": 99
+    },
+    {
+      "speaker": "Mac",
+      "text": "What do you - what's the holdup? You're stewing over something. What are you stewing over, Elizabeth?",
+      "turn_index": 100
+    },
+    {
+      "speaker": "Elizabeth",
+      "text": "Yeah, I'll just put all my cards on the table. So I very much believe in this problem. I love your background. Normally a long sales cycle would bother me, but you're actually three years in. So that is in many ways to my benefit. Part of the bet would be around once you get these folks going, can your pipeline be primed at this point and you can just keep on just selling. Right. That's what I'm wrestling with a round sort of the sales cycle. Like, how long do I think it will take from this point forward? And then the other thing I'm trying to wrestle with is Cyan's point. I understand your honesty around highest probability of what could happen, a sale. It's just like something investors don't love hearing. And I also know that when things go well, plans change.",
+      "turn_index": 101
+    },
+    {
+      "speaker": "Devina",
+      "text": "Yes.",
+      "turn_index": 102
+    },
+    {
+      "speaker": "Elizabeth",
+      "text": "I've seen that happen a lot with my founders, like if things are going well, nobody wants to sell.",
+      "turn_index": 103
+    },
+    {
+      "speaker": "Devina",
+      "text": "That's fair.",
+      "turn_index": 104
+    },
+    {
+      "speaker": "Elizabeth",
+      "text": "It's actually when things are not going that well or there are issues is when people want to sell. So I think those are the things that I'm kind of wrestling with in my head. Those, those two things: the sales cycle thing and the exit thing.",
+      "turn_index": 105
+    },
+    {
+      "speaker": "Devina",
+      "text": "So, the exit was just being realistic. We have investors that have asked: I hope there's an exit plan. Because they would like to exit. From the sales standpoint, we have a very robust weighted sales pipeline that takes us all the way through 2026. We have over 15 health systems somewhere in that contracting process. So we've primed it. And the exit, like I said, being realistic. If Epic comes in. Would we fight with Epic?",
+      "turn_index": 106
+    },
+    {
+      "speaker": "Elizabeth",
+      "text": "Mhm. Um I'd be in for $50k on this round.",
+      "turn_index": 107
+    },
+    {
+      "speaker": "Mac",
+      "text": "Heyyyyyy.",
+      "turn_index": 108
+    },
+    {
+      "speaker": "Ben",
+      "text": "Woot!",
+      "turn_index": 109
+    },
+    {
+      "speaker": "Devina",
+      "text": "Thank you.",
+      "turn_index": 110
+    },
+    {
+      "speaker": "Elizabeth",
+      "text": "Yeah.",
+      "turn_index": 111
+    },
+    {
+      "speaker": "Ben",
+      "text": "I appreciate your - the exit scenario being realistic, I think is really good. I think the chance of you getting through these pilots and converting them into good, strong paying customers is really high. I think the chance of you getting to multiple million in revenue I think is high. I think the chance of you getting bought by someone or selling a portion of your business to PE, high. For my fund model to work, realistic is not the thing we're optimizing for. It's like the unrealistic things that have some small probability of working and you take that bet. But for that reason, I'm going to be out as well.",
+      "turn_index": 112
+    },
+    {
+      "speaker": "Devina",
+      "text": "Not a problem. Thank you. Of course.",
+      "turn_index": 113
+    },
+    {
+      "speaker": "Cyan",
+      "text": "Thank you so much.",
+      "turn_index": 114
+    },
+    {
+      "speaker": "Elizabeth",
+      "text": "Thank you.\n[yays and woos]",
+      "turn_index": 115
+    },
+    {
+      "speaker": "Ben",
+      "text": "Yay! Nice. Congratulations.",
+      "turn_index": 116
+    },
+    {
+      "speaker": "Cyan",
+      "text": "Congratulations.",
+      "turn_index": 117
+    },
+    {
+      "speaker": "Elizabeth",
+      "text": "Yeah congrats.",
+      "turn_index": 118
+    },
+    {
+      "speaker": "Mac",
+      "text": "So, come on up here, Josh. Let's chat. I just want to say, as an impressive founder who's been through a lot and is super polished and corporate, which works really well in this industry, she messed herself up when she said her exit plan, because that's - She doesn't even know where her actual exit plan is. She's figured out an answer to say for investors. But the problem was she says she sees herself getting acquired by one of these other players in the market, but the players she was talking about aren't players that acquire companies at billion dollar valuations.",
+      "turn_index": 119
+    },
+    {
+      "speaker": "Josh",
+      "text": "Right.",
+      "turn_index": 120
+    },
+    {
+      "speaker": "Mac",
+      "text": "And that's where she tripped herself up at. That's a coaching thing.",
+      "turn_index": 121
+    },
+    {
+      "speaker": "Elizabeth",
+      "text": "Yeah, that's a coaching thing. And that's the part I was trying to unhear in my mind. Right?",
+      "turn_index": 122
+    },
+    {
+      "speaker": "Mac",
+      "text": "I know.",
+      "turn_index": 123
+    },
+    {
+      "speaker": "Elizabeth",
+      "text": "Because the honest answer is she really doesn't know.",
+      "turn_index": 124
+    },
+    {
+      "speaker": "Mac",
+      "text": "Yes. Right. 100%.",
+      "turn_index": 125
+    },
+    {
+      "speaker": "Ben",
+      "text": "I don't think it's a coaching thing. I think, I'm not sure she has the intrinsic drive necessary to build an unreasonably large company for an incredibly long period. Something has to be wrong if you don't want to do that. So I don't know if you can coach that into somebody.",
+      "turn_index": 126
+    },
+    {
+      "speaker": "Elizabeth",
+      "text": "I would -",
+      "turn_index": 127
+    },
+    {
+      "speaker": "Ben",
+      "text": "I know that's kind of a hot take.",
+      "turn_index": 128
+    },
+    {
+      "speaker": "Elizabeth",
+      "text": "- go to the mat on that one. Cause I've just seen so many founders who are, I would say, pragmatic realists. And so if you ask them probably day one, what do you want to do? Oh. I would sell. But then once you get going, if you truly have product market fit, and you're also able to take money off the table, not loads, but a little bit, and you're comfortable, like, why would you give up something that's working? And I've just seen that happen so many times. Like, if this really starts working, she can get into the billion dollars. I don't want to say easily, like it still is work. But it's actually way easier to run a company with product market fit at a high level than it is to just hit your head against glass on something that's not working at seed stage.",
+      "turn_index": 129
+    },
+    {
+      "speaker": "Mac",
+      "text": "So I a hundred percent agree with Elizabeth. I completely disagree with you, Ben. But I understand your viewpoint because when I first got in investing, as a former founder, I used a lot of my former founder lens to evaluate other founders. And I had to learn to unprogram that. Cause there's so many different profiles of people and founders that still make it really big where it's like, I never would have solved that. And so I had to learn to like step back and like completely forget all the stuff I knew and start to reevaluate. People tend to over index on the bombastic founder and less on the more measured. And sometimes the more measured founder's the one who's going to be the better operator. So like, you know, you have to balance that.",
+      "turn_index": 130
+    },
+    {
+      "speaker": "Ben",
+      "text": "Like I hear your point and I agree that I don't think that you have to be bombastic to build a really, really large business. You can be very calculated and level headed, but I still think your, your ambition should be rooted in such, I think.",
+      "turn_index": 131
+    },
+    {
+      "speaker": "Elizabeth",
+      "text": "I disagree.",
+      "turn_index": 132
+    },
+    {
+      "speaker": "Mac",
+      "text": "I do too, but I respect the viewpoint.",
+      "turn_index": 133
+    },
+    {
+      "speaker": "Elizabeth",
+      "text": "Yeah. I know lots of people who have it.",
+      "turn_index": 134
+    },
+    {
+      "speaker": "Mac",
+      "text": "100 percent.",
+      "turn_index": 135
+    },
+    {
+      "speaker": "Cyan",
+      "text": "I think it's a good investment. I mean, I definitely do. And if, if she's coachable, and goes for a moonshot outcome, then great. I have a hard rule. I have very few hard rules and that's just one of them. If I hear that, I'm out.",
+      "turn_index": 136
+    },
+    {
+      "speaker": "Josh",
+      "text": "Wow.",
+      "turn_index": 137
+    },
+    {
+      "speaker": "Cyan",
+      "text": "And the other one's 50/50 partnership. Unless they're brothers or sisters.",
+      "turn_index": 138
+    },
+    {
+      "speaker": "Josh",
+      "text": "You hate that.",
+      "turn_index": 139
+    },
+    {
+      "speaker": "Cyan",
+      "text": "Oh, hate it.",
+      "turn_index": 140
+    },
+    {
+      "speaker": "Mac",
+      "text": "You hate 50/50s?",
+      "turn_index": 141
+    },
+    {
+      "speaker": "Elizabeth",
+      "text": "Really?",
+      "turn_index": 142
+    },
+    {
+      "speaker": "Cyan",
+      "text": "Oh yeah. I hate 50/50s.",
+      "turn_index": 143
+    },
+    {
+      "speaker": "Mac",
+      "text": "I love 50/50s.",
+      "turn_index": 144
+    },
+    {
+      "speaker": "Elizabeth",
+      "text": "I love it.",
+      "turn_index": 145
+    },
+    {
+      "speaker": "Cyan",
+      "text": "So many companies have fallen apart on me with that.",
+      "turn_index": 146
+    },
+    {
+      "speaker": "Josh",
+      "text": "Me and Lisa are 50/50.",
+      "turn_index": 147
+    },
+    {
+      "speaker": "Cyan",
+      "text": "Yeah, well you guys -",
+      "turn_index": 148
+    },
+    {
+      "speaker": "Mac",
+      "text": "You should be.",
+      "turn_index": 149
+    },
+    {
+      "speaker": "Cyan",
+      "text": "- have been around for a long time, and then you're very established. But if you just met like a year ago or at a party and you were 50/50, I'm like, no. Nuh uh. How do you resolve conflicts? There's just a few rules like this and this is just one of 'em.",
+      "turn_index": 150
+    },
+    {
+      "speaker": "Mac",
+      "text": "I gotta learn Cyan's hard rules now.",
+      "turn_index": 151
+    },
+    {
+      "speaker": "Cyan",
+      "text": "Yeah. They have to really convince me that this is their life's mission.",
+      "turn_index": 152
+    },
+    {
+      "speaker": "Mac",
+      "text": "Yeah.",
+      "turn_index": 153
+    },
+    {
+      "speaker": "Josh",
+      "text": "Got a split panel here. It's good.",
+      "turn_index": 154
+    },
+    {
+      "speaker": "Mac",
+      "text": "It's a good panel.",
+      "turn_index": 155
+    },
+    {
+      "speaker": "Ben",
+      "text": "I appreciate you guys rounding out my perspective. It's really good.",
+      "turn_index": 156
+    },
+    {
+      "speaker": "Josh",
+      "text": "I loved your line of questioning, Ben. Just getting to know the founder's story and motivations.",
+      "turn_index": 157
+    },
+    {
+      "speaker": "Mac",
+      "text": "Founders tend to like that line of questioning too, because it's so different.",
+      "turn_index": 158
+    },
+    {
+      "speaker": "Cyan",
+      "text": "Yeah. And if she's willing, it would be great if she went deeper into her fall. Like, what did she experience?",
+      "turn_index": 159
+    },
+    {
+      "speaker": "Elizabeth",
+      "text": "It sounded like she’s holding back on that one.",
+      "turn_index": 160
+    },
+    {
+      "speaker": "Cyan",
+      "text": "She's holding back on it a little bit. And I know that I got one of those bracelets put on me at the hospital and it was awful because like I had to be led around everywhere. It was terrible.",
+      "turn_index": 161
+    },
+    {
+      "speaker": "Mac",
+      "text": "Same.",
+      "turn_index": 162
+    },
+    {
+      "speaker": "Cyan",
+      "text": "So I get the problem. But like I, I think just from a storytelling standpoint, I think it would be really great if she leaned into that more.",
+      "turn_index": 163
+    },
+    {
+      "speaker": "Josh",
+      "text": "Yeah. You guys want to reset? Maybe we'll get closer to getting back on track.",
+      "turn_index": 164
+    },
+    {
+      "speaker": "Mac",
+      "text": "I was trying to help Elizabeth out here.",
+      "turn_index": 165
+    },
+    {
+      "speaker": "Elizabeth",
+      "text": "Yeah. You're a dope founder. We're five minutes in.",
+      "turn_index": 166
+    },
+    {
+      "speaker": "Cyan",
+      "text": "You're dope. We're done.\nPersonally, I love a pragmatic founder. You only need to get fleeced once by a charismatic one to open up your heart to all the other founder archetypes.\nThis pitch comes down to one number for me. $480 dollars. Per bed. For one product.\nBut maybe I’m falling too hard for this deal. After the show, diligence begins.",
+      "turn_index": 167
+    },
+    {
+      "speaker": "Elizabeth",
+      "text": "Is their idea or hope to exit early?",
+      "turn_index": 168
+    },
+    {
+      "speaker": "Devina",
+      "text": "We will probably not be an IPO company, but better suited for someone like, at this point I'm thinking Oracle Health.",
+      "turn_index": 169
+    },
+    {
+      "speaker": "Elizabeth",
+      "text": "Mmm I noticed on your LinkedIn that you started out as an advisor to this company. Was this started by somebody else?\nOh snap! Tune in to our season finale on December 11th to hear the conclusion of this story. We’re hosting a virtual watch party that night at 7pm eastern. More details to come. Some special attendees may be present. You can register right now at pitch.show/party\nNo offer to invest in Kinometrix is being made to the listening audience on today’s show, but you can invest via The Pitch Fund. Learn more and apply to invest at thepitch.fund\nFund I closes to the general public on December 15th.\nExciting news! Founder applications are now open for our next pitch event - January 2025 in Miami.\nSo whether you’re a bombastic or pragmatic founder, apply to pitch at pitch.show/apply\nNext week on The Pitch…",
+      "turn_index": 170
+    },
+    {
+      "speaker": "Nyamitse",
+      "text": "We've developed the technology that takes in human voice and reports heart rate",
+      "turn_index": 171
+    },
+    {
+      "speaker": "Phone",
+      "text": "Hold the tone “ahh” until you hear the next beep",
+      "turn_index": 172
+    },
+    {
+      "speaker": "Josh",
+      "text": "AHHHHHHHHHHHHHHHHHH\nBEEP",
+      "turn_index": 173
+    },
+    {
+      "speaker": "Nyamitse",
+      "text": "A small practice can process anywhere from 3,000 to 10,000 phone calls monthly.",
+      "turn_index": 174
+    },
+    {
+      "speaker": "Mac",
+      "text": "And you'll get $5 every phone call?",
+      "turn_index": 175
+    },
+    {
+      "speaker": "Nyamitse",
+      "text": "Yeah.",
+      "turn_index": 176
+    },
+    {
+      "speaker": "Nyamitse",
+      "text": "I love competing. It's like my sweet spot. When someone says free money, I'm like, I'm right there.\nThat’s next week! Subscribe to The Pitch right now, and turn on notifications so you don’t miss it.\nThis episode was made by me, Josh Muccio, Lisa Muccio, Anna Ladd, Enoch Kim, and Jackie Papanier. With deal sourcing by Peter Liu and John Alvarez.\nMusic in this episode is by The Muse Maker, Breakmaster Cylinder, Our Many Stars, Phantom Sun, Base Collector, and FYRSTYX.\nThe Pitch is made in partnership with the Vox Media Podcast Network.",
+      "turn_index": 177
+    }
+  ]
+}

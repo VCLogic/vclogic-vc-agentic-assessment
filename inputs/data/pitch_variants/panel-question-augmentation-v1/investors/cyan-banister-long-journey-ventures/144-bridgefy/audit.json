@@ -1,0 +1,55 @@
+{
+  "actual_decision": "In",
+  "boundary_turn_index": 53,
+  "canonical_pitch_path": "inputs/data/investors/cyan-banister-long-journey-ventures/pitches/144-bridgefy.txt",
+  "canonical_pitch_sha256": "46d93dda9a04a8f574cf91a0bff3bc6a6b86298b520a79dbfc71e0690bdabef7",
+  "episode_path": "../agentic-vc-clone-framework/data/episodes/144-bridgefy.json",
+  "episode_sha256": "fb13efb461ba6494ac508e616aeda11da38525e598081cdc938df00d81c87b0d",
+  "episode_slug": "144-bridgefy",
+  "insertions": [
+    {
+      "answer_turn_index": 10,
+      "canonical_line_index": 3,
+      "original_speaker": "Jesse",
+      "question": "Doing great. How are you?",
+      "source_turn_index": 9
+    },
+    {
+      "answer_turn_index": 42,
+      "canonical_line_index": 21,
+      "original_speaker": "Charles",
+      "question": "You mentioned a couple of different customers: app developer, cities. Can you talk more about how you work with all these different entities?",
+      "source_turn_index": 41
+    },
+    {
+      "answer_turn_index": 47,
+      "canonical_line_index": 25,
+      "original_speaker": "Charles",
+      "question": "How about for cities? You mentioned a big city pilot, too.",
+      "source_turn_index": 46
+    }
+  ],
+  "leakage_checklist": {
+    "founder_content_added": false,
+    "other_investor_identity_model_visible": false,
+    "post_boundary_turn_retained": false,
+    "target_investor_turn_retained": false,
+    "verdict_or_offer_turn_retained": false
+  },
+  "neutral_speaker_label": "Panel Investor",
+  "omitted_candidates": [
+    {
+      "original_speaker": "Jesse",
+      "reason": "question_already_present",
+      "source_turn_index": 17,
+      "text": "What was your background? What, what brought you to this problem?"
+    }
+  ],
+  "pitch_sha256": "ff807d160d043299b5e9579f2c650ecbbc8f31ba12bd237cc3f09d365e289367",
+  "registry_vc_slug": "cyan-banister",
+  "schema": "panel-question-pitch-audit-v1",
+  "source_record_path": "inputs/data/investors/cyan-banister-long-journey-ventures/precedents/records/144-bridgefy.json",
+  "source_record_sha256": "8079a51b86fc34b395ee797cd76f23beb0d6fc88609fde7a6635f57a8509c8f0",
+  "status": "audited",
+  "vc_slug": "cyan-banister-long-journey-ventures"
+}

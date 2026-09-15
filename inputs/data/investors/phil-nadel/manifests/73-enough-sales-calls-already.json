@@ -1,0 +1,783 @@
+{
+  "episode_slug": "73-enough-sales-calls-already",
+  "files": [
+    {
+      "destination": "data/investors/phil-nadel/audits/73-enough-sales-calls-already.json",
+      "sha256": "b29648c72d4921a8da7e21948ffd58f18a296c7cdee7eb41086b5f4c218be806"
+    },
+    {
+      "destination": "data/investors/phil-nadel/pitches/73-enough-sales-calls-already.txt",
+      "sha256": "e359580391d38f042e98b539dad990b3d5244f94ff2884f89e3c550debb5435a"
+    },
+    {
+      "destination": "data/investors/phil-nadel/portfolio-memory/company-index.json",
+      "sha256": "1b7938d98f9d82e0a1a12a9ad6a53b6a047bfc44125bc30feebbeeb24cba43a8"
+    },
+    {
+      "destination": "data/investors/phil-nadel/portfolio-memory/corpus-manifest.json",
+      "sha256": "0ac6e6a0aa0baa95c29831300e282f42c8b9bc3a9749f3e1dc0bef503ee805cb"
+    },
+    {
+      "destination": "data/investors/phil-nadel/portfolio-memory/disclosure-events.jsonl",
+      "sha256": "8b4ad9d9736b41f4011e4e7a7e50cd780beedeca0297a8c5e415cbdd00aa9602"
+    },
+    {
+      "destination": "data/investors/phil-nadel/portfolio-memory/embedding-index.json",
+      "sha256": "f2a1c79dd5320dc480d9a7a5471f1909c3d11295595d93eeb89c47fda77ff46f"
+    },
+    {
+      "destination": "data/investors/phil-nadel/portfolio-memory/extraction-audit.jsonl",
+      "sha256": "31b262cd7fc64e0d2d85c8c99528a849036e320c694ed43d2e8a59c3d0386ca7"
+    },
+    {
+      "destination": "data/investors/phil-nadel/precedents/chunks.jsonl",
+      "sha256": "12825d9dae255be64c53791872240ea6052c72f8194c6e71c64ae5b2be97e88b"
+    },
+    {
+      "destination": "data/investors/phil-nadel/precedents/corpus-manifest.json",
+      "sha256": "07c82b229cbc4450e1c745ab917a21dc03fb3a8c7e1ea3c2ced285925c3ab59c"
+    },
+    {
+      "destination": "data/investors/phil-nadel/precedents/records/1-babyscripts.json",
+      "sha256": "06bd0a23a62555c5613ee136a4fbae7a3f350798f8751849044c1e762b1a28a7"
+    },
+    {
+      "destination": "data/investors/phil-nadel/precedents/records/101-josh-pitches-the-pitch.json",
+      "sha256": "bc0f73eeae49b8de1b0aa9b30102c24c61fe31a3f55cb63dcf75f11158a59400"
+    },
+    {
+      "destination": "data/investors/phil-nadel/precedents/records/105-teffola-granola-guy-approved.json",
+      "sha256": "b8d319acd3f1842291fa7f6ecd6a01be40e195e8acc443128548713fa305ab6a"
+    },
+    {
+      "destination": "data/investors/phil-nadel/precedents/records/106-the-calendar-wars.json",
+      "sha256": "9b9ec1cef1a47d30a067ce2661817b36cf0853f0fe1e7abff07d028625dc2d10"
+    },
+    {
+      "destination": "data/investors/phil-nadel/precedents/records/109-modern-picnic-surviving-the-adpocalypse.json",
+      "sha256": "8f81ccd0675cad68e94e66fbd6127e0bfdbe46a3b5057c4eadc8fe7abae96724"
+    },
+    {
+      "destination": "data/investors/phil-nadel/precedents/records/11-tesloop.json",
+      "sha256": "4564deef331d3d2dcc89922867ab67c0284d0bd67e22af15552a267bd255744d"
+    },
+    {
+      "destination": "data/investors/phil-nadel/precedents/records/110-handsdown-the-accelerator-pitch.json",
+      "sha256": "5877008c02b9bf2f867f4fd81202f6434a3b30c4196c889bd6982d3d0fa35c95"
+    },
+    {
+      "destination": "data/investors/phil-nadel/precedents/records/112-natrion-the-holy-grail-of-battery-tech.json",
+      "sha256": "0d568b43c67a96953b3f61b56b16701d4c91f7e37938244c4a3c88fb4996b0c4"
+    },
+    {
+      "destination": "data/investors/phil-nadel/precedents/records/113-hilos-is-this-the-perfect-business.json",
+      "sha256": "6bd28dade1fa646de6f6fffa676f90bafda6b68eab944bcffd269a124e1bc73c"
+    },
+    {
+      "destination": "data/investors/phil-nadel/precedents/records/12-i-dont-need-your-money-teamable.json",
+      "sha256": "ef7f6b14cca57bf710ee02425afc1ebeb3b7d0f3cb8dc8bd2604e9a8c9ccbaad"
+    },
+    {
+      "destination": "data/investors/phil-nadel/precedents/records/139-futuremoney.json",
+      "sha256": "b6acd4e3c30cd395096f2bcedb2faec9cfca50f2008e7fb6879c4922c83cb86f"
+    },
+    {
+      "destination": "data/investors/phil-nadel/precedents/records/14-the-ghost-of-startups-past-tushy.json",
+      "sha256": "6a96b5072d191b89d36f9c73e2201a7aebddc23ed6dea890f1a247cb7dc45ee6"
+    },
+    {
+      "destination": "data/investors/phil-nadel/precedents/records/15-a-veteran-starts-a-startup-shift.json",
+      "sha256": "2b6356c15b93eea5cc6c87d86f0e09a7c1a9298fdb1f6476078ce43b16764f0d"
+    },
+    {
+      "destination": "data/investors/phil-nadel/precedents/records/153-season-12-finale.json",
+      "sha256": "fa270fb6f6f97fc71844be5d83f43329f7dc6144ff4988de7542e10d231cb3a1"
+    },
+    {
+      "destination": "data/investors/phil-nadel/precedents/records/16-qleek.json",
+      "sha256": "5b5a6c3a87568da102e4aea1bf59c6d6e5e0d826aa6cb56236390b3534205b7b"
+    },
+    {
+      "destination": "data/investors/phil-nadel/precedents/records/18-rowvigor.json",
+      "sha256": "792cbac768d067e4e99ac9a77f6645435a9e6d8766dc34daa1c1393adf0d5f92"
+    },
+    {
+      "destination": "data/investors/phil-nadel/precedents/records/19-ghosted-sandbox.json",
+      "sha256": "ed1f9d1510b7e8a50d26b6c35fb15a9adfb95265c0f324f11daf129b98a84083"
+    },
+    {
+      "destination": "data/investors/phil-nadel/precedents/records/2-imirror.json",
+      "sha256": "905221032fec80c314da04a2d5f9199db166a23ef1948215a4ebe7990b1d95b6"
+    },
+    {
+      "destination": "data/investors/phil-nadel/precedents/records/20-harper-wilde.json",
+      "sha256": "da5bd935770946cf5e74a0f62b336a9218ab5c9667af3bf9828d1237523861c3"
+    },
+    {
+      "destination": "data/investors/phil-nadel/precedents/records/21-metabrew.json",
+      "sha256": "9b60519f30415e9092dae5280055c92c635820bbe7f145402a5319f3c12dd4d6"
+    },
+    {
+      "destination": "data/investors/phil-nadel/precedents/records/22-investor-fomo-lunar-wireless.json",
+      "sha256": "844b53e2d289d5245af7aba790911ea99626a6b4521fce00998e9b3c70ec8e11"
+    },
+    {
+      "destination": "data/investors/phil-nadel/precedents/records/23-jiobit.json",
+      "sha256": "fbe0041be6296eb5572c77de3151c18c1e93368c1f0443a55e8a0349ae8d0e96"
+    },
+    {
+      "destination": "data/investors/phil-nadel/precedents/records/24-unglue.json",
+      "sha256": "5cf40ab95a29d99d9050b022875593288aa8d76318deb70b1d78f2dc08e9e2d7"
+    },
+    {
+      "destination": "data/investors/phil-nadel/precedents/records/25-rex.json",
+      "sha256": "520b67a91e962bbb8427fa77319e77296810189509fb467e79be54804c28f488"
+    },
+    {
+      "destination": "data/investors/phil-nadel/precedents/records/26-dynofit.json",
+      "sha256": "61f570d4dbdf64affda01875b9979301c398050102653c88d3d7e233ef8d4888"
+    },
+    {
+      "destination": "data/investors/phil-nadel/precedents/records/27-qleek-pt-ii-what-happened-after-the-pitch.json",
+      "sha256": "7f5bf508248eb7ea7b9e9dbbc4430166fcca9f092492a826cb116d246db3fc13"
+    },
+    {
+      "destination": "data/investors/phil-nadel/precedents/records/28-is-this-entrepreneur-ready-to-take-on-facebook.json",
+      "sha256": "11c894b9692797f4a502b4f0b3f74b06f1eaaf41bee3235ea711a6bfff184f77"
+    },
+    {
+      "destination": "data/investors/phil-nadel/precedents/records/29-could-this-be-the-next-airbnb.json",
+      "sha256": "0602869a6746de1073519a9784dfce843c60ba015944c4068e709e715bca4348"
+    },
+    {
+      "destination": "data/investors/phil-nadel/precedents/records/3-industrial-organic.json",
+      "sha256": "566134676dc801a657eba6c6e25854d13e642e722de88fda20b9b909df9e3d78"
+    },
+    {
+      "destination": "data/investors/phil-nadel/precedents/records/30-can-this-founder-reclaim-cocktail-hour.json",
+      "sha256": "88bcbc3fc6547857235e598539f2c8e9e21e36ffff08222a2b34d8e66fff937c"
+    },
+    {
+      "destination": "data/investors/phil-nadel/precedents/records/31-are-vending-machines-the-future-of-retail.json",
+      "sha256": "d70f40a4e734d9219fe71d384cf7b77daa673ededfd291c5a2492040e8a13676"
+    },
+    {
+      "destination": "data/investors/phil-nadel/precedents/records/32-is-immigration-the-next-venture-scale-business.json",
+      "sha256": "3f3cff1f557eb12dc2881a59c3fea9aaf91c99dd8ac6e6ebe7e7fe8816501c08"
+    },
+    {
+      "destination": "data/investors/phil-nadel/precedents/records/33-what-is-a-startup-actually-worth.json",
+      "sha256": "95052dd08cbc9a2247b3090d3da7024523d759ec9f958db4623fb3efbf954ab5"
+    },
+    {
+      "destination": "data/investors/phil-nadel/precedents/records/35-the-proof-is-in-the-pudding.json",
+      "sha256": "72ebe20fc8fa7150aae36438b5ed926628602164dc514727a3b3d59fde09ecaa"
+    },
+    {
+      "destination": "data/investors/phil-nadel/precedents/records/36-when-two-startups-love-each-other-very-much.json",
+      "sha256": "a70ec1894e87bd01daaaba034c82767bdf7449247802b0b4fe1d76281a591cc1"
+    },
+    {
+      "destination": "data/investors/phil-nadel/precedents/records/39-this-pitch-is-damn-near-perfect.json",
+      "sha256": "fd7428b0f9cf562ec0c53213e36d1fe03b439d128af498a67191e78715f878e8"
+    },
+    {
+      "destination": "data/investors/phil-nadel/precedents/records/4-skylights.json",
+      "sha256": "7675590bad393bb3e981e69e3fadc808e2393cc1fecd4261b0c2a9d4a0743faa"
+    },
+    {
+      "destination": "data/investors/phil-nadel/precedents/records/41-can-this-startup-help-retailers-take-on-amazon.json",
+      "sha256": "8ae17878848241a4707ac39b68b608a183737b45beffd92f4f2fefae39a7f5da"
+    },
+    {
+      "destination": "data/investors/phil-nadel/precedents/records/42-how-much-do-you-trust-your-barista.json",
+      "sha256": "c07ef27a074048955e5f1bcba62c6486743de5ee225cedfb08dbb138a56dcb01"
+    },
+    {
+      "destination": "data/investors/phil-nadel/precedents/records/43-get-this-party-startup-in-here.json",
+      "sha256": "ca59ecb3a6d3b04895570a6abbc587455791055055689e6df36473a52c5ade04"
+    },
+    {
+      "destination": "data/investors/phil-nadel/precedents/records/44-is-this-sports-app-the-next-opentable.json",
+      "sha256": "ef358ef831519a95ab363d363c6de135b9151f2b06bcd4d16624fcabc85fffab"
+    },
+    {
+      "destination": "data/investors/phil-nadel/precedents/records/45-whatever-happened-to-virtual-reality.json",
+      "sha256": "e4dbe90767993e986973af55af02f34760f8b747b12d619027687a892720d737"
+    },
+    {
+      "destination": "data/investors/phil-nadel/precedents/records/46-never-get-lost-again.json",
+      "sha256": "dce0b93f6f3095151fec80f19844a663b74cdca30edc74355a83e8fd77b2b206"
+    },
+    {
+      "destination": "data/investors/phil-nadel/precedents/records/47-can-this-tiny-gadget-keep-kids-in-college.json",
+      "sha256": "dbbe1f39c53bde364fc85168b2310c1e7304f7c3fe624085fc281b0a288a4ea9"
+    },
+    {
+      "destination": "data/investors/phil-nadel/precedents/records/48-will-this-space-startup-make-it-off-the-ground.json",
+      "sha256": "dd99bb6a41d683a58a54d4e8ea402cee34958e23c63fb7bb25ed6a5ffc497be3"
+    },
+    {
+      "destination": "data/investors/phil-nadel/precedents/records/49-nuts-can-kill-are-seeds-the-answer.json",
+      "sha256": "ec59d31c4236ed6f60a6b11981ce18328653f4540315ca27f8b2355865a761da"
+    },
+    {
+      "destination": "data/investors/phil-nadel/precedents/records/5-fitguard.json",
+      "sha256": "0fecc24f964ceef7e1734726b1ba082e9f1d43570cecb710848a14e5c793c946"
+    },
+    {
+      "destination": "data/investors/phil-nadel/precedents/records/50-ticket-scalpers-beware-blockchain-is-coming-for-you.json",
+      "sha256": "095fff7fe65e3306c4fe91d6de131aad30a0f66fbf26cf18de1dcab459079c5b"
+    },
+    {
+      "destination": "data/investors/phil-nadel/precedents/records/51-this-bot-can-fight-your-atm-fees.json",
+      "sha256": "25fc55d70409c2ad47050909ef37699d486604428d65e652c72370a0983562dc"
+    },
+    {
+      "destination": "data/investors/phil-nadel/precedents/records/52-fitbit-for-dogs.json",
+      "sha256": "33b96770d4275ff8fef677c1c4a88a3316a0966299a36d3db3d845bceb64d2d2"
+    },
+    {
+      "destination": "data/investors/phil-nadel/precedents/records/53-investors-get-feisty-at-our-philly-pitch-off.json",
+      "sha256": "6b0cfe077a62a7fe0873494df78d10ba12bd39d81c56de54268aad81f22cdca8"
+    },
+    {
+      "destination": "data/investors/phil-nadel/precedents/records/54-is-selling-in-walmart-a-good-thing.json",
+      "sha256": "cfd2a0353e0975e0eb2d537e287ca09489b61ec91344a3b0104459500b7d5738"
+    },
+    {
+      "destination": "data/investors/phil-nadel/precedents/records/55-a-new-spin-on-vr.json",
+      "sha256": "4711926a9fa1ae50cd99717aae9da0aa8168c068d19117bb462bad4952ebf1f5"
+    },
+    {
+      "destination": "data/investors/phil-nadel/precedents/records/56-shark-tank-vs-the-pitch.json",
+      "sha256": "6f134deaefaf31ed27e93bc5717bd82fa2bc0c9df601a7ca342f420b7a05a758"
+    },
+    {
+      "destination": "data/investors/phil-nadel/precedents/records/57-where-losers-go-to-win.json",
+      "sha256": "ab31292d5332d3da9213de00852525c7965fe0e38ec9b18681fab6c485e77a51"
+    },
+    {
+      "destination": "data/investors/phil-nadel/precedents/records/58-park-your-pooch-here.json",
+      "sha256": "bc434248604cb7b0869fcc62c0b53f98d66535ee2cf8c8cf597e772df3dd76dd"
+    },
+    {
+      "destination": "data/investors/phil-nadel/precedents/records/59-disrupting-work-happy-hour.json",
+      "sha256": "97645678f2e1f172d1b4f5e5617a4c25d62a03f490581cca8207ba48d73f6f32"
+    },
+    {
+      "destination": "data/investors/phil-nadel/precedents/records/6-guru-games.json",
+      "sha256": "c289d349284e27b31e8fe090b39f74878c39de86f8a6e1b9c4ae2f4aba041de5"
+    },
+    {
+      "destination": "data/investors/phil-nadel/precedents/records/60-is-this-the-amazon-prime-of-airline-tickets.json",
+      "sha256": "b2935a6371c0ea3c33d32c08a97b6045936e88e72a31ac910544f54c126ff32e"
+    },
+    {
+      "destination": "data/investors/phil-nadel/precedents/records/61-can-a-zebra-survive-in-a-unicorn-world.json",
+      "sha256": "58062a78dc6e5f8558c81db55f6956674c1a4b69103ef49fd2cf2e16c782541d"
+    },
+    {
+      "destination": "data/investors/phil-nadel/precedents/records/62-pivot-or-die.json",
+      "sha256": "b0a02224254a347de892695e167bfe98191be5eb4a7b32af9560849af756ee08"
+    },
+    {
+      "destination": "data/investors/phil-nadel/precedents/records/63-can-a-startup-solve-homelessness.json",
+      "sha256": "eadf1f0aa89553f73dd26163fdbc5bdca6d2500754c6afd207ea1cb5de44574b"
+    },
+    {
+      "destination": "data/investors/phil-nadel/precedents/records/64-startup-sale-80-off.json",
+      "sha256": "b1e01a07230c9266a932ffdba1dea0e11f5b2ad7e1d7a04fe027c4feb72d01ed"
+    },
+    {
+      "destination": "data/investors/phil-nadel/precedents/records/65-wait-your-app-does-what-exactly.json",
+      "sha256": "62dd9cbddce7c691723adc3c46fd643d98b6bd10e3644ec4c6fd5e2fc1cd3b28"
+    },
+    {
+      "destination": "data/investors/phil-nadel/precedents/records/66-does-anyone-really-want-your-product.json",
+      "sha256": "3492a7dbdbee7ea0bdfb8e9e92e4e6580e5afb5f984e763f84ea26ace6873696"
+    },
+    {
+      "destination": "data/investors/phil-nadel/precedents/records/68-dogs-dating-a-match-made-in-heaven.json",
+      "sha256": "cb83b97bcb10cb90ba343d4612f401131a4b8414a0b34f0b530695c02bb36734"
+    },
+    {
+      "destination": "data/investors/phil-nadel/precedents/records/69-when-less-is-not-more.json",
+      "sha256": "705e85b99ebb57ac7d24ed32ddc3808bb365a4ff3a4a0e97bfbfc16fcfbd9e10"
+    },
+    {
+      "destination": "data/investors/phil-nadel/precedents/records/7-shimmur.json",
+      "sha256": "04a3e085982528d06a547a398159f54da0e9ca83db13b3170eb2d45f4660ee52"
+    },
+    {
+      "destination": "data/investors/phil-nadel/precedents/records/70-what-is-michael-phelps-jamming-to-right-now.json",
+      "sha256": "4483ad2c1594ad3961d83875c5cc6d90688d5be19507dfdc625133d57448986a"
+    },
+    {
+      "destination": "data/investors/phil-nadel/precedents/records/71-raising-kids-is-hard-so-is-raising-a-startup.json",
+      "sha256": "2cf1d416c21a2d637374b0d5310a49b67c2aa860befdfd89fb2d4e46c5db3eb3"
+    },
+    {
+      "destination": "data/investors/phil-nadel/precedents/records/73-enough-sales-calls-already.json",
+      "sha256": "46c4f3daa1d1346ea9479faa583b26fc8cef8be0ddda5dd70d4baf4a357fd310"
+    },
+    {
+      "destination": "data/investors/phil-nadel/precedents/records/75-i-want-bro-money-too.json",
+      "sha256": "d713841846430077665bdaec8a6bb9af89e5a88350e78a5dd66d4af13f89cd56"
+    },
+    {
+      "destination": "data/investors/phil-nadel/precedents/records/80-can-this-app-silence-the-trolls.json",
+      "sha256": "681a2b56c7ca66318ace3e7375c8c4e1a8a0b99f58f986db4146d87dd77a3c69"
+    },
+    {
+      "destination": "data/investors/phil-nadel/precedents/records/81-jillian-to-the-rescue.json",
+      "sha256": "7e250b484fce6cda326123631a191bc51c854ce238be122656136b5d5d3e6bcc"
+    },
+    {
+      "destination": "data/investors/phil-nadel/precedents/records/82-a-deal-too-perfect-to-pass-up.json",
+      "sha256": "56af4f59706c3f7b25f9a616e239eeee35a3680745357cb77583c592a7a697b4"
+    },
+    {
+      "destination": "data/investors/phil-nadel/precedents/records/85-will-coronavirus-kill-this-deal.json",
+      "sha256": "8c30f692cf171264a0feae43352a95119e5ef4e540a4bceff7f9619e3f5241fb"
+    },
+    {
+      "destination": "data/investors/phil-nadel/precedents/records/87-uber-for-pets.json",
+      "sha256": "cfc81e3a24e2eb660ad8eac93b82ccf2e1fbeb02a6e290ecdebeaf8b96c21cbd"
+    },
+    {
+      "destination": "data/investors/phil-nadel/precedents/records/9-tuckrbox.json",
+      "sha256": "b58fc49b92c6a8bcff5f35d683a64ad60bcec7a39cd859fb6a68e07d74a90895"
+    },
+    {
+      "destination": "data/investors/phil-nadel/precedents/records/90-how-startups-can-succeed-in-a-pandemic-2.json",
+      "sha256": "0ea69bf5699c5eec6a3d6523cc19cfd4a928e6ad01d94433421f2d588972d2dc"
+    },
+    {
+      "destination": "data/investors/phil-nadel/precedents/records/91-if-we-dont-get-the-money-by-friday.json",
+      "sha256": "874954315d363351b25c916f75f52d844853c83fc2f90da7e69c188a5d034c10"
+    },
+    {
+      "destination": "data/investors/phil-nadel/precedents/records/93-david-vs-godzilla.json",
+      "sha256": "a9afb99736041c0389be0471d98c817671ed50ee152f092352913b6bf94e783e"
+    },
+    {
+      "destination": "data/investors/phil-nadel/precedents/records/94-the-breaking-point.json",
+      "sha256": "1b43103f0055c3b36cfa1bb83768e0b9d1860f3982fa5dff3c1e64ae243db2cc"
+    },
+    {
+      "destination": "data/investors/phil-nadel/precedents/records/95-you-asked-investors-answered-now-what.json",
+      "sha256": "f3d9d4376bb095616d70816b1488bda661347a11e5537ff2344914dfa4b07d42"
+    },
+    {
+      "destination": "data/investors/phil-nadel/precedents/records/96-a-test-of-time.json",
+      "sha256": "510aaa18d6eeca832682118a2590dfca05db5aa9ae304ef19d6d229f56ca8338"
+    },
+    {
+      "destination": "data/investors/phil-nadel/precedents/records/97-secret-sauce-or-snake-oil.json",
+      "sha256": "336cc57f76d01cf4c0771d68692e36f822a45e1ff80124c85558f2c3bbdfe1ed"
+    },
+    {
+      "destination": "data/investors/phil-nadel/precedents/sources/1-babyscripts.json",
+      "sha256": "b892014341c6733d0718b2b8fd423f6e7e1121ee4170ea0c37b709e4dfa21147"
+    },
+    {
+      "destination": "data/investors/phil-nadel/precedents/sources/101-josh-pitches-the-pitch.json",
+      "sha256": "13a3201c6ddb9b4032f88f004a5db6d8fcd2b6a9422a94e30e99ff464264777b"
+    },
+    {
+      "destination": "data/investors/phil-nadel/precedents/sources/105-teffola-granola-guy-approved.json",
+      "sha256": "048f108a9c9e269658a1303ee4a7fade5f02531b3fec49c570c673f055871b54"
+    },
+    {
+      "destination": "data/investors/phil-nadel/precedents/sources/106-the-calendar-wars.json",
+      "sha256": "94fa7e03d6737e5906bd1487945ebdc2ba705ff9e05e9e2d780d85c2f58de32a"
+    },
+    {
+      "destination": "data/investors/phil-nadel/precedents/sources/109-modern-picnic-surviving-the-adpocalypse.json",
+      "sha256": "56689fad7310f7f49febfcd5a5409031602563f611ede5d4c15316e8580e82a0"
+    },
+    {
+      "destination": "data/investors/phil-nadel/precedents/sources/11-tesloop.json",
+      "sha256": "4ea9996e52016d86ea2335abd7c20f5e0763b0d10aff62a58ea298930d341017"
+    },
+    {
+      "destination": "data/investors/phil-nadel/precedents/sources/110-handsdown-the-accelerator-pitch.json",
+      "sha256": "604510bfece1813907a8017790a02d0227ce549d66e908a4e9e124462c2390fe"
+    },
+    {
+      "destination": "data/investors/phil-nadel/precedents/sources/112-natrion-the-holy-grail-of-battery-tech.json",
+      "sha256": "08561889063e53f164a0aa7e409ff11ba676867be0c20b4d6cd0b7f7dc58e994"
+    },
+    {
+      "destination": "data/investors/phil-nadel/precedents/sources/113-hilos-is-this-the-perfect-business.json",
+      "sha256": "9e09179510d37ca667ab0d3f1de8eb02157bfb4ca9043407344b0c5c9c8dcf9b"
+    },
+    {
+      "destination": "data/investors/phil-nadel/precedents/sources/12-i-dont-need-your-money-teamable.json",
+      "sha256": "b3fbdc92bdd8d7157738e612925a65dc7091b43f83232bd580c6dca4e89f8fdf"
+    },
+    {
+      "destination": "data/investors/phil-nadel/precedents/sources/139-futuremoney.json",
+      "sha256": "9f12dd4f1d8ecd2afd26fd5de6c740819930a68b30c8774fc7cacd2b8a446e60"
+    },
+    {
+      "destination": "data/investors/phil-nadel/precedents/sources/14-the-ghost-of-startups-past-tushy.json",
+      "sha256": "852a1c2e84ddb7d1267e94a95abfea28decdcd856a3916c572994690a867f2f6"
+    },
+    {
+      "destination": "data/investors/phil-nadel/precedents/sources/15-a-veteran-starts-a-startup-shift.json",
+      "sha256": "3ec15d421bd11ff21d9fd158a1571689bfcf34f5b6c36cd0b5bf860e2845f07e"
+    },
+    {
+      "destination": "data/investors/phil-nadel/precedents/sources/153-season-12-finale.json",
+      "sha256": "b54dba34a3ed85476a51835bc1c9efa966f581248e7f0dddf1e4103fd4abc7d6"
+    },
+    {
+      "destination": "data/investors/phil-nadel/precedents/sources/16-qleek.json",
+      "sha256": "2967c192f8673ed5bb1c3e1b8464e4d5bf130b28c4d89fe1701ecb52800b8a65"
+    },
+    {
+      "destination": "data/investors/phil-nadel/precedents/sources/18-rowvigor.json",
+      "sha256": "844aee03315b8dbf29a2ecb87224a2e2b3e6d0da9abd8947035bfc5aeaf5cb0d"
+    },
+    {
+      "destination": "data/investors/phil-nadel/precedents/sources/19-ghosted-sandbox.json",
+      "sha256": "40df1644ed9a08e463406a8b7e914c3b1a87fa2fd0491b61e71f2f5822b105ee"
+    },
+    {
+      "destination": "data/investors/phil-nadel/precedents/sources/2-imirror.json",
+      "sha256": "3fe231f1b75e4b78c8b58bfb6acd8c5032f8676ba0bbf510173c2ae18d79e055"
+    },
+    {
+      "destination": "data/investors/phil-nadel/precedents/sources/20-harper-wilde.json",
+      "sha256": "4b0b2ee57bc00e9842042d43c3619c66ed4ccc05794ef5b5bd280a5c8e2ce8be"
+    },
+    {
+      "destination": "data/investors/phil-nadel/precedents/sources/21-metabrew.json",
+      "sha256": "00ab47a3a0027ff16e22b9d4ddf288aa366525ff913f2d0a9643d874ae264f9f"
+    },
+    {
+      "destination": "data/investors/phil-nadel/precedents/sources/22-investor-fomo-lunar-wireless.json",
+      "sha256": "5e7bf1e4bd114674e232d45a5aa4067ff4ac4a2610c50792ffa3150aea9dd34a"
+    },
+    {
+      "destination": "data/investors/phil-nadel/precedents/sources/23-jiobit.json",
+      "sha256": "dccb2436d2bce8dc38e152dfe83effb927b1e1aecd5279cb5db8377cf47ef17d"
+    },
+    {
+      "destination": "data/investors/phil-nadel/precedents/sources/24-unglue.json",
+      "sha256": "d07ac57d8159d0577159a0a49ef66b1c9926e35d44bf91b8bc144a902966a374"
+    },
+    {
+      "destination": "data/investors/phil-nadel/precedents/sources/25-rex.json",
+      "sha256": "20d60f60fef1fdfd3c62f6f762426e1262cf7459d902257be6386377026df927"
+    },
+    {
+      "destination": "data/investors/phil-nadel/precedents/sources/26-dynofit.json",
+      "sha256": "4f2bc8439d7fe9b1698c86471810b837a09b32c8877dba7280c642570249dc7e"
+    },
+    {
+      "destination": "data/investors/phil-nadel/precedents/sources/27-qleek-pt-ii-what-happened-after-the-pitch.json",
+      "sha256": "b8fa27b36dc249145ae71225c5951b3419000744ffbadeafeaba4bfbdd8a9035"
+    },
+    {
+      "destination": "data/investors/phil-nadel/precedents/sources/28-is-this-entrepreneur-ready-to-take-on-facebook.json",
+      "sha256": "ec9f6ec344072fd6de9b34ebbc564b35ec435854f00ee4eadc2d1ec98aa07511"
+    },
+    {
+      "destination": "data/investors/phil-nadel/precedents/sources/29-could-this-be-the-next-airbnb.json",
+      "sha256": "84deaf15ee3344ef525ada605b432b434672d9ece578473e1cfffbbc0cd7df36"
+    },
+    {
+      "destination": "data/investors/phil-nadel/precedents/sources/3-industrial-organic.json",
+      "sha256": "a375814315e484f6417e775610a801ed901e2e269ecbe5391efe41e7e9ec2185"
+    },
+    {
+      "destination": "data/investors/phil-nadel/precedents/sources/30-can-this-founder-reclaim-cocktail-hour.json",
+      "sha256": "83fcef764c07d166373bbaa0fc09b20861775cfa96aab584935386495483c994"
+    },
+    {
+      "destination": "data/investors/phil-nadel/precedents/sources/31-are-vending-machines-the-future-of-retail.json",
+      "sha256": "871892704d688cfea45e0e1942bd9b3dc2beca7e085e599062199aa0d58ac4e9"
+    },
+    {
+      "destination": "data/investors/phil-nadel/precedents/sources/32-is-immigration-the-next-venture-scale-business.json",
+      "sha256": "f34400452cbf04476280a6f7c7dde224717f54e64ceb450a8d9bc520f898c0c3"
+    },
+    {
+      "destination": "data/investors/phil-nadel/precedents/sources/33-what-is-a-startup-actually-worth.json",
+      "sha256": "e6f43e663c9a413fce57cc054f7ed3b2c0b113c56b1d2deb8850ee32627d696e"
+    },
+    {
+      "destination": "data/investors/phil-nadel/precedents/sources/35-the-proof-is-in-the-pudding.json",
+      "sha256": "62451ffef36ff23999e6d8a07c0958a6211bb10cb1421dba9241bf116dc0c622"
+    },
+    {
+      "destination": "data/investors/phil-nadel/precedents/sources/36-when-two-startups-love-each-other-very-much.json",
+      "sha256": "43683c48e11c2ebfd2af49e3022e32d7c4ebb37402e5e04c678be323c111f7ec"
+    },
+    {
+      "destination": "data/investors/phil-nadel/precedents/sources/39-this-pitch-is-damn-near-perfect.json",
+      "sha256": "0435fd79deb552c120947e087cbc5b4fe1cb65c5132d3739eca6ee12c31d2120"
+    },
+    {
+      "destination": "data/investors/phil-nadel/precedents/sources/4-skylights.json",
+      "sha256": "fcec3fb472d2fa69f17cec734e50f9c1a22971f875d909a95b365b4fa9063d98"
+    },
+    {
+      "destination": "data/investors/phil-nadel/precedents/sources/41-can-this-startup-help-retailers-take-on-amazon.json",
+      "sha256": "703d2c372ed5f9db9a1083555f01ce778e015a419952e6dfc316d10131e75943"
+    },
+    {
+      "destination": "data/investors/phil-nadel/precedents/sources/42-how-much-do-you-trust-your-barista.json",
+      "sha256": "cfe3fb1e355f853b3d237ded129bdd18e54397e40f50adec0ecff2c6e4799214"
+    },
+    {
+      "destination": "data/investors/phil-nadel/precedents/sources/43-get-this-party-startup-in-here.json",
+      "sha256": "4c3dc13920ff65149cb4f91fb62117cd80edb9728a19b2ec5a16dd2449519bc6"
+    },
+    {
+      "destination": "data/investors/phil-nadel/precedents/sources/44-is-this-sports-app-the-next-opentable.json",
+      "sha256": "437188ed762f4ae0e2e9f5a5d625f97e869e700e3cb09b40553018ffa688db7f"
+    },
+    {
+      "destination": "data/investors/phil-nadel/precedents/sources/45-whatever-happened-to-virtual-reality.json",
+      "sha256": "8ac3583b4e219b5c0a607809142fef000b4849b036081ca4a2ae6d92f117603f"
+    },
+    {
+      "destination": "data/investors/phil-nadel/precedents/sources/46-never-get-lost-again.json",
+      "sha256": "1abddff6a0463c695ab5a07489f047af01aa3fbf6a67aeaae386435db5d2e200"
+    },
+    {
+      "destination": "data/investors/phil-nadel/precedents/sources/47-can-this-tiny-gadget-keep-kids-in-college.json",
+      "sha256": "1e2858cd1867347759be72de5063b176f799d2ea2292ca375dd93153ef1af847"
+    },
+    {
+      "destination": "data/investors/phil-nadel/precedents/sources/48-will-this-space-startup-make-it-off-the-ground.json",
+      "sha256": "6b682c76410ce5ecd2fd31ee25f81dec4f1032c6c62ddfabef186e4101695cd7"
+    },
+    {
+      "destination": "data/investors/phil-nadel/precedents/sources/49-nuts-can-kill-are-seeds-the-answer.json",
+      "sha256": "0bc4577c91942a10086d21a814ff04ad85b5dd13396c841edbfedfb4eb7e3e58"
+    },
+    {
+      "destination": "data/investors/phil-nadel/precedents/sources/5-fitguard.json",
+      "sha256": "de28e1b1ea98e75bd649e4ee20d1fcf08cca84223b86c4ab4d840557e4e8e9d4"
+    },
+    {
+      "destination": "data/investors/phil-nadel/precedents/sources/50-ticket-scalpers-beware-blockchain-is-coming-for-you.json",
+      "sha256": "142c90825aed7d4759ce403af618985f0643ab1f5ba33394e3301feb68a14b4f"
+    },
+    {
+      "destination": "data/investors/phil-nadel/precedents/sources/51-this-bot-can-fight-your-atm-fees.json",
+      "sha256": "528d348d48b37bb892435df5714c841f0a823d911722701a20df2f92a986a5db"
+    },
+    {
+      "destination": "data/investors/phil-nadel/precedents/sources/52-fitbit-for-dogs.json",
+      "sha256": "349b40bb5f187fa90421eeb396d3c9c603b65b872f9df4ad71a8515b355a5047"
+    },
+    {
+      "destination": "data/investors/phil-nadel/precedents/sources/53-investors-get-feisty-at-our-philly-pitch-off.json",
+      "sha256": "0060572af42a92be8ecabe884aa1f9d1cb17ee492c72e9db063feb80efac16c4"
+    },
+    {
+      "destination": "data/investors/phil-nadel/precedents/sources/54-is-selling-in-walmart-a-good-thing.json",
+      "sha256": "371a56d85f002a4b44d766908dd386d8a67ab9ccb74ec9b666dc39c8eaef02e3"
+    },
+    {
+      "destination": "data/investors/phil-nadel/precedents/sources/55-a-new-spin-on-vr.json",
+      "sha256": "9b314519e1e4d1c52288c2f559dbe8a447633c51f8823c53d31d459bcb5bcf7d"
+    },
+    {
+      "destination": "data/investors/phil-nadel/precedents/sources/56-shark-tank-vs-the-pitch.json",
+      "sha256": "0aae5707bd64ca36c795ac721deb54061b38071a65bdd59326653bbe26404e06"
+    },
+    {
+      "destination": "data/investors/phil-nadel/precedents/sources/57-where-losers-go-to-win.json",
+      "sha256": "6d3bde9731284366d33f7cc08f594f8e0c3d0861330db12e9c1279635b82baa4"
+    },
+    {
+      "destination": "data/investors/phil-nadel/precedents/sources/58-park-your-pooch-here.json",
+      "sha256": "481baa944795d9790c7beeb5389b166b0a1755addb66313083481fe8548e4e91"
+    },
+    {
+      "destination": "data/investors/phil-nadel/precedents/sources/59-disrupting-work-happy-hour.json",
+      "sha256": "84fecc90c9e8633f8dc4baca75a0363f9c13d93411704d797eb38ba15865ec65"
+    },
+    {
+      "destination": "data/investors/phil-nadel/precedents/sources/6-guru-games.json",
+      "sha256": "e1184fc7261837ade59f15fbc0b53ad10a6d4a4ce295a661769a7983b3d21a56"
+    },
+    {
+      "destination": "data/investors/phil-nadel/precedents/sources/60-is-this-the-amazon-prime-of-airline-tickets.json",
+      "sha256": "f11bb28d0ae5a149a27c14f19246453fbd48f85ca81fe4dcddd573e8443daaf7"
+    },
+    {
+      "destination": "data/investors/phil-nadel/precedents/sources/61-can-a-zebra-survive-in-a-unicorn-world.json",
+      "sha256": "7b9380888d508fdb4b87b04eaac2b71459b16926e63764cc2e066a301b4a5493"
+    },
+    {
+      "destination": "data/investors/phil-nadel/precedents/sources/62-pivot-or-die.json",
+      "sha256": "ed7abf45df313593d08c2efa98c042f74248f8c98fbf1fada28dc954d9812e8f"
+    },
+    {
+      "destination": "data/investors/phil-nadel/precedents/sources/63-can-a-startup-solve-homelessness.json",
+      "sha256": "ce0d2c0608b95f24cd16d688c3678b1353d571b44bc2078901024de1e8af1cf8"
+    },
+    {
+      "destination": "data/investors/phil-nadel/precedents/sources/64-startup-sale-80-off.json",
+      "sha256": "5ea05a1b137ad60ff4a11114aa49964748558c0e7326e790c3545aad242a5fb9"
+    },
+    {
+      "destination": "data/investors/phil-nadel/precedents/sources/65-wait-your-app-does-what-exactly.json",
+      "sha256": "4197481ad5d43b608691061a6a0fa4b24c01058c6cc334dd25e1004f0143678c"
+    },
+    {
+      "destination": "data/investors/phil-nadel/precedents/sources/66-does-anyone-really-want-your-product.json",
+      "sha256": "86a79a291243929366a0800f805bf31cd85f5be2c1b9558d08af7dfee29da97d"
+    },
+    {
+      "destination": "data/investors/phil-nadel/precedents/sources/68-dogs-dating-a-match-made-in-heaven.json",
+      "sha256": "38c98fd5c2067ad52fdfd21e9afcd5d991f937d6fe9d9f83e86cdb6857f5e3f3"
+    },
+    {
+      "destination": "data/investors/phil-nadel/precedents/sources/69-when-less-is-not-more.json",
+      "sha256": "1f41c6590fae6582d8cd689fef52791f1fb714b614ea000a2dc1a7d0871d20ba"
+    },
+    {
+      "destination": "data/investors/phil-nadel/precedents/sources/7-shimmur.json",
+      "sha256": "ed6ef9d0e6f5ff47b3f84f802c33383c0647ae1e231dcef0780501fbebfe39c2"
+    },
+    {
+      "destination": "data/investors/phil-nadel/precedents/sources/70-what-is-michael-phelps-jamming-to-right-now.json",
+      "sha256": "7ba91f71a8bd0507400ac139b11d6d01fbab3122921af7f527cc06df3188d477"
+    },
+    {
+      "destination": "data/investors/phil-nadel/precedents/sources/71-raising-kids-is-hard-so-is-raising-a-startup.json",
+      "sha256": "780815e7bd131605e5bb036de8048d7a44788c28270afbd9cfbccdce1042b906"
+    },
+    {
+      "destination": "data/investors/phil-nadel/precedents/sources/73-enough-sales-calls-already.json",
+      "sha256": "59bebfe8f7ead29294085d15cff597d536891768b2df3623feb9aaf168d416cc"
+    },
+    {
+      "destination": "data/investors/phil-nadel/precedents/sources/75-i-want-bro-money-too.json",
+      "sha256": "c9bc692b6d34b5e2175af386f431cb80fbbedec367b1e44ce4d25953651f4c84"
+    },
+    {
+      "destination": "data/investors/phil-nadel/precedents/sources/80-can-this-app-silence-the-trolls.json",
+      "sha256": "acdab28c64d9a9386974bfa8332fe537245cf5458ec5737fd297b2b59e38dcb7"
+    },
+    {
+      "destination": "data/investors/phil-nadel/precedents/sources/81-jillian-to-the-rescue.json",
+      "sha256": "b96a1cf8ca6dcf68839d01d89935b2fd477fa4e14f9f2528af267da44a197749"
+    },
+    {
+      "destination": "data/investors/phil-nadel/precedents/sources/82-a-deal-too-perfect-to-pass-up.json",
+      "sha256": "bbfa6468abeb6b0b297ec5cb587296e2d87eee94f24ab242ed98efa8de00b9c8"
+    },
+    {
+      "destination": "data/investors/phil-nadel/precedents/sources/85-will-coronavirus-kill-this-deal.json",
+      "sha256": "c1da4a7f64e3f0a8a814acf083e3e2a693a62fa9dd049eae3cd23e6c3296c5e4"
+    },
+    {
+      "destination": "data/investors/phil-nadel/precedents/sources/87-uber-for-pets.json",
+      "sha256": "cb66760022f24df0a3e7532ff9191efa9cfd539b7ddbba5499d3798920758e5b"
+    },
+    {
+      "destination": "data/investors/phil-nadel/precedents/sources/9-tuckrbox.json",
+      "sha256": "bfcf1633efa5fa853d3fbaba291baf3162a2a32c8c773ae3f78b3f7e50cf3013"
+    },
+    {
+      "destination": "data/investors/phil-nadel/precedents/sources/90-how-startups-can-succeed-in-a-pandemic-2.json",
+      "sha256": "084805d4d6c8cf75a08093a2787502215b77f75063e5c9ddf20b74b589fe4303"
+    },
+    {
+      "destination": "data/investors/phil-nadel/precedents/sources/91-if-we-dont-get-the-money-by-friday.json",
+      "sha256": "03e5d5316895aa95926392c8f1e9b8efc30740d6bb296d10e8da0dc21016cb29"
+    },
+    {
+      "destination": "data/investors/phil-nadel/precedents/sources/93-david-vs-godzilla.json",
+      "sha256": "19f5137edc0c2b30f1c5a6e80f2dffe8581901c2120bf68edd64e75e3c84826a"
+    },
+    {
+      "destination": "data/investors/phil-nadel/precedents/sources/94-the-breaking-point.json",
+      "sha256": "cdd43099cc01f46635d345e9ad22e722d825a017178371abe865ae3170957d0d"
+    },
+    {
+      "destination": "data/investors/phil-nadel/precedents/sources/95-you-asked-investors-answered-now-what.json",
+      "sha256": "0566ee48117256183e2e57962b1486d0aae8211abb34dd042ee90ba53f56cec9"
+    },
+    {
+      "destination": "data/investors/phil-nadel/precedents/sources/96-a-test-of-time.json",
+      "sha256": "c3b9bb6925cb1851a9b91b07e034113d54fc62e739e64519f558207b685ed3b9"
+    },
+    {
+      "destination": "data/investors/phil-nadel/precedents/sources/97-secret-sauce-or-snake-oil.json",
+      "sha256": "13cde1367962a349cb7d4e072d6d878040cab38cbd1f4dc80bc2f7c69c51103e"
+    },
+    {
+      "destination": "investors/phil-nadel.toml",
+      "sha256": "48f7ac3ceb40debcda3aad93f0cf3f460174f4a59219d75051a5c05e6aae9c78"
+    },
+    {
+      "destination": "taxonomy/codebook_v_final.json",
+      "sha256": "eaa8734819a3ac34dd19ee5f0bf6de925a793a1d25a2d361090dafc9b751e1fc"
+    },
+    {
+      "destination": "wiki/phil-nadel/_manifest.json",
+      "sha256": "f110227ea6ebf915f7b15ff19649f89cae4a31312cae7d243a38a7f9b7e86045"
+    },
+    {
+      "destination": "wiki/phil-nadel/evidence/business_model_economics.md",
+      "sha256": "00048dd0e7b184fac9a5535c7fa63d299534a578e15165173b6fa72b59ebc814"
+    },
+    {
+      "destination": "wiki/phil-nadel/evidence/competition_defensibility.md",
+      "sha256": "abead3933ec63f4fb7f706013fc3a832721daeb2f929aff02b50c45e4685a021"
+    },
+    {
+      "destination": "wiki/phil-nadel/evidence/deal_terms_valuation.md",
+      "sha256": "1ceedcf83e722f72259d849e4373de513707574ee236e17df5feb7f29279d2d9"
+    },
+    {
+      "destination": "wiki/phil-nadel/evidence/founder_team.md",
+      "sha256": "6fd47c39b0caff4d8a7aa454d0813759f589dcb9e1576080bf796ca4c042efc2"
+    },
+    {
+      "destination": "wiki/phil-nadel/evidence/investor_fit_constraints.md",
+      "sha256": "1648f7cbdb2c47f0bfd3234cfbd19cc5b166ce580a32def23ed0cd6acaec6421"
+    },
+    {
+      "destination": "wiki/phil-nadel/evidence/market_opportunity.md",
+      "sha256": "3f3ce067dc5b3c38212ee89f9aa336454c80d10eab0bb6c87b8fd2cda14b003c"
+    },
+    {
+      "destination": "wiki/phil-nadel/evidence/product_solution.md",
+      "sha256": "100e45e268d6728a595295fca7afae847041650fe83d7dae1a4f053a038aef59"
+    },
+    {
+      "destination": "wiki/phil-nadel/evidence/timing.md",
+      "sha256": "89687e911f22048529f007097278eab2a3bbdffcbcb2ac9433db370ab3b42be2"
+    },
+    {
+      "destination": "wiki/phil-nadel/evidence/traction_growth.md",
+      "sha256": "2480f3dcf09a19acbfc33606881a69a75bd86766a6db25a61813d5b6c162f010"
+    },
+    {
+      "destination": "wiki/phil-nadel/persona.md",
+      "sha256": "5f5bcf9eb76abb0049c4718b118f1f72ccb8c5898c7aa9813c8b29aefe9a4202"
+    },
+    {
+      "destination": "wiki/phil-nadel/portfolio_and_constraints.md",
+      "sha256": "77ed14421a1a3c3bb93260d65b5c7e51b5866f7022af6d4dfceb2aff9b9e123a"
+    },
+    {
+      "destination": "wiki/phil-nadel/theses.md",
+      "sha256": "46a40a55f8d8d5f12f8744c31a69f47d0143890a3d802448460bb77b1878259b"
+    }
+  ],
+  "schema": "langgraph-vc-clone-source-manifest-v1",
+  "vc_slug": "phil-nadel"
+}

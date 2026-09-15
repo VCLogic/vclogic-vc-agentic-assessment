@@ -1,0 +1,124 @@
+{
+  "schema": "nectir-auditable-phase2-replay-diagnostic-v1",
+  "episode_slug": "127-nectir-the-classroom-of-the-future",
+  "evaluated_target": {
+    "final_decision": "In",
+    "pitch_window_decision": "Out",
+    "initial_response": "Conditional",
+    "decision_context": "later_diligence",
+    "condition": "portfolio conflict clearance"
+  },
+  "frozen_phase1": {
+    "source": "outputs/openrouter-luna-charles-comparison/127-nectir-the-classroom-of-the-future/phase1",
+    "investigation_sha256": "8a5ba14ad9e86b3d184878d489637944821b5abc960d702d094749fd7eef644f",
+    "status": "accepted",
+    "iterations": 2,
+    "planner_calls": [
+      {
+        "turn": 1,
+        "parsed": false,
+        "output_tokens": 4096,
+        "fallback_queries": ["founder team", "market constraints"]
+      },
+      {
+        "turn": 2,
+        "parsed": false,
+        "output_tokens": 4096,
+        "fallback_queries": ["founder team", "market constraints"]
+      }
+    ],
+    "exact_read_count": 10,
+    "exact_reads": [
+      {"chunk_id": "W-d833d4175cfe48623572", "heading": "founder_team", "rationale_ids": ["R1", "R2"]},
+      {"chunk_id": "W-fe341c6d3b8f8a1b29a2", "heading": "founder_team", "rationale_ids": ["R1", "R2", "R3", "R4"]},
+      {"chunk_id": "W-1164ac1e72794dfb33bb", "heading": "Charles Hudson — Decision Policy (Precursor Ventures, pre-seed/seed)", "rationale_ids": ["R7", "R8", "R10", "R13"]},
+      {"chunk_id": "W-e4602ab892dff010f9a9", "heading": "People-first selection", "rationale_ids": ["R11"]},
+      {"chunk_id": "W-d80754401bbe51c02d45", "heading": "Fund mandate", "rationale_ids": ["R11", "R12"]},
+      {"chunk_id": "W-0f98b325957ef51b5f61", "heading": "Portfolio & Constraints — Charles Hudson / Precursor Ventures", "rationale_ids": []},
+      {"chunk_id": "W-80a5fe65a67c85325957", "heading": "Operating constraints (from persona evidence)", "rationale_ids": ["R9"]},
+      {"chunk_id": "W-57cc3aa9c7a46560ff10", "heading": "investor_fit_constraints", "rationale_ids": ["R12", "R13"]},
+      {"chunk_id": "W-b381c7479d28a9718ce7", "heading": "market_opportunity", "rationale_ids": ["R4", "R5", "R6", "R7", "R8", "R9", "R10"]},
+      {"chunk_id": "W-77b5473ea0f5db63524d", "heading": "competition_defensibility", "rationale_ids": ["R5", "R6"]}
+    ],
+    "rationales": [
+      {"id": "R1", "label": "founder_motivation_authenticity", "direction": "positive", "salience": "primary", "confidence": 0.97},
+      {"id": "R2", "label": "founder_execution", "direction": "positive", "salience": "primary", "confidence": 0.94},
+      {"id": "R3", "label": "founder_skillset", "direction": "positive", "salience": "secondary", "confidence": 0.86},
+      {"id": "R4", "label": "market_problem_validation", "direction": "positive", "salience": "primary", "confidence": 0.91},
+      {"id": "R5", "label": "product_differentiation_concern", "direction": "positive", "salience": "primary", "confidence": 0.87},
+      {"id": "R6", "label": "product_adoption", "direction": "positive", "salience": "secondary", "confidence": 0.9},
+      {"id": "R7", "label": "traction_repeatability_concern", "direction": "negative", "salience": "primary", "confidence": 0.86},
+      {"id": "R8", "label": "growth_projection_risk", "direction": "negative", "salience": "primary", "confidence": 0.92},
+      {"id": "R9", "label": "venture_scale_concern", "direction": "negative", "salience": "primary", "confidence": 0.8},
+      {"id": "R10", "label": "market_timing", "direction": "negative", "salience": "secondary", "confidence": 0.89},
+      {"id": "R11", "label": "fundraising_demand_signal", "direction": "positive", "salience": "secondary", "confidence": 0.9},
+      {"id": "R12", "label": "stage_valuation_mismatch", "direction": "negative", "salience": "primary", "confidence": 0.95},
+      {"id": "R13", "label": "dilution_concern", "direction": "negative", "salience": "secondary", "confidence": 0.88}
+    ]
+  },
+  "auditable_phase2_replay": {
+    "model": "openai/gpt-5.6-luna",
+    "attempts": 1,
+    "status": "accepted",
+    "decision_sha256": "9fba41a94f69c2a2d1e885ee51315c5b23488ba60d0d1156cf0188d27e8f238f",
+    "decision": "Out",
+    "correct": false,
+    "investment_likelihood": 0.38,
+    "decision_confidence": 0.78,
+    "ranking_score": 0.62,
+    "check_tier": "no_check_tier",
+    "controlling_rationale_ids": ["R4", "R7", "R8", "R9", "R10", "R12", "R13"],
+    "rationale_assessments": [
+      {"rationale_id": "R1", "effective_direction": "positive", "decision_weight": "contextual", "assessment": "Personal problem experience and sustained commitment support authenticity but not repeatable sales or scale.", "counterevidence": ["Personal motivation does not establish repeatable institutional sales or durable advantage."]},
+      {"rationale_id": "R2", "effective_direction": "positive", "decision_weight": "supporting", "assessment": "Discovery, deployment, revenue, pipeline creation, and five contracts show founder-led execution.", "counterevidence": ["Execution remains concentrated in the founder and is not proven at larger institutions."]},
+      {"rationale_id": "R3", "effective_direction": "positive", "decision_weight": "supporting", "assessment": "Hands-on discovery, personalized selling, and technical prospecting show useful early-stage skill.", "counterevidence": ["The one-person sales and marketing model creates key-person and scaling risk."]},
+      {"rationale_id": "R4", "effective_direction": "positive", "decision_weight": "decisive", "assessment": "Institutional payment, five campus contracts, renewal, and reported academic improvement are the strongest problem-validation evidence.", "counterevidence": ["Outcome methodology, independent verification, retention, and contract economics are unknown."]},
+      {"rationale_id": "R5", "effective_direction": "positive", "decision_weight": "supporting", "assessment": "LMS integration and 79% direct usage may reduce adoption friction and improve distribution.", "counterevidence": ["The integration may be replicable by incumbents or internal university teams."]},
+      {"rationale_id": "R6", "effective_direction": "positive", "decision_weight": "supporting", "assessment": "Recurring student signup without additional marketing supports institutional distribution and possible network effects.", "counterevidence": ["Signup and usage do not prove renewal, pedagogical impact, monetization, or cross-institution effects."]},
+      {"rationale_id": "R7", "effective_direction": "negative", "decision_weight": "decisive", "assessment": "Nine-to-twelve-month large-contract cycles, four negotiations, and five wins do not establish repeatable conversion or capital efficiency.", "counterevidence": ["Closed contracts and prior large-account navigation show the motion is feasible."]},
+      {"rationale_id": "R8", "effective_direction": "negative", "decision_weight": "decisive", "assessment": "The $35 million pipeline and $2 million ARR forecast lack stages, conversion assumptions, and close dates.", "counterevidence": ["The pipeline could support rapid growth if it is budgeted, qualified, and near close."]},
+      {"rationale_id": "R9", "effective_direction": "negative", "decision_weight": "decisive", "assessment": "Current pricing and revenue require substantial campus, student, pricing, or product expansion that is not demonstrated.", "counterevidence": ["Campus-wide distribution may create a larger installed base, but market and expansion mechanics are unspecified."]},
+      {"rationale_id": "R10", "effective_direction": "negative", "decision_weight": "supporting", "assessment": "Institutional AI governance can delay purchases despite recognized classroom need.", "counterevidence": ["Customer-selected models, controls, and non-AI value may mitigate objections."]},
+      {"rationale_id": "R11", "effective_direction": "positive", "decision_weight": "contextual", "assessment": "Circled capital and diligence with 11 funds indicate fundraising interest.", "counterevidence": ["Commitment firmness and lead-investor status are unclear, and fundraising demand is not customer demand."]},
+      {"rationale_id": "R12", "effective_direction": "negative", "decision_weight": "decisive", "assessment": "The $3 million seed exceeds the stated round-size focus, and the valuation position is inconsistent.", "counterevidence": ["A larger round may suit long enterprise sales cycles but remains a mandate mismatch."]},
+      {"rationale_id": "R13", "effective_direction": "negative", "decision_weight": "supporting", "assessment": "Flat-round willingness raises dilution, cap-table, ownership, and incentive questions.", "counterevidence": ["Financing flexibility can improve the probability of closing the round."]}
+    ],
+    "deliberation_steps": [
+      {"step_id": "D1", "question": "Is there enough evidence that the founder found a real, payable problem and can execute an initial wedge?", "rationale_ids": ["R1", "R2", "R3", "R4", "R6"], "evidence_assessment": "Founder-led discovery, institutional payment, five contracts, and recurring adoption form one credible early-validation block.", "likelihood_before": 0.5, "likelihood_after": 0.65, "effect": "raises", "check_tier_implication": "standard_initial", "decision_update": "Move above threshold while reserving conviction on retention, outcomes, and repeatability."},
+      {"step_id": "D2", "question": "Does product integration create a durable distribution advantage?", "rationale_ids": ["R5"], "evidence_assessment": "The iframe integration supports distribution but does not establish durable defensibility.", "likelihood_before": 0.65, "likelihood_after": 0.67, "effect": "raises", "check_tier_implication": "standard_initial", "decision_update": "Add modest upside without treating integration as a moat."},
+      {"step_id": "D3", "question": "Can observed traction convert predictably enough to support pipeline and ARR claims?", "rationale_ids": ["R7", "R8", "R10"], "evidence_assessment": "Long sales cycles, unqualified pipeline assumptions, and AI governance delays create one major conversion-risk block.", "likelihood_before": 0.67, "likelihood_after": 0.45, "effect": "lowers", "check_tier_implication": "exploratory_lt_100k", "decision_update": "Reduce materially because enterprise conversion and timing remain unverified."},
+      {"step_id": "D4", "question": "Is there a demonstrated path to the required venture-scale outcome?", "rationale_ids": ["R9"], "evidence_assessment": "Current revenue and pricing do not demonstrate required market size, retention, margins, or expansion.", "likelihood_before": 0.45, "likelihood_after": 0.4, "effect": "lowers", "check_tier_implication": "larger_conviction", "decision_update": "Lower conviction because current traction does not underwrite fund-scale returns."},
+      {"step_id": "D5", "question": "Does the strongest opposing case overcome conversion and scale risks?", "rationale_ids": ["R4", "R5", "R6", "R11"], "evidence_assessment": "Paid contracts, renewal, adoption, outcomes, integration, and investor interest create a credible small-check case but overlap with prior validation evidence.", "likelihood_before": 0.4, "likelihood_after": 0.43, "effect": "raises", "check_tier_implication": "exploratory_lt_100k", "decision_update": "Acknowledge small-check optionality, but give limited incremental credit to correlated evidence."},
+      {"step_id": "D6", "question": "Do financing structure and fund-fit issues justify passing?", "rationale_ids": ["R12", "R13"], "evidence_assessment": "The $3 million seed and unresolved valuation, dilution, and ownership structure are independent decision constraints.", "likelihood_before": 0.43, "likelihood_after": 0.38, "effect": "lowers", "check_tier_implication": "no_check_tier", "decision_update": "Pass because likelihood remains below threshold and financing does not fit the standard mandate."}
+    ],
+    "likelihood_path": [
+      {"step": "D1", "before": 0.5, "after": 0.65},
+      {"step": "D2", "before": 0.65, "after": 0.67},
+      {"step": "D3", "before": 0.67, "after": 0.45},
+      {"step": "D4", "before": 0.45, "after": 0.4},
+      {"step": "D5", "before": 0.4, "after": 0.43},
+      {"step": "D6", "before": 0.43, "after": 0.38}
+    ],
+    "usage": {
+      "input_tokens": 4455,
+      "cached_input_tokens": 0,
+      "output_tokens": 3064,
+      "cost_usd": 0.0023952,
+      "elapsed_seconds": 23.123137346934527
+    }
+  },
+  "comparison": {
+    "original_langgraph": {
+      "decision": "Out",
+      "investment_likelihood": 0.36,
+      "decision_confidence": 0.84,
+      "ranking_score": 0.72,
+      "check_tier": "no_check_tier"
+    },
+    "codex_dual_check": {
+      "any_check": {"decision": "In", "likelihood": 0.61, "tier": "exploratory_lt_100k"},
+      "standard_check": {"decision": "Out", "likelihood": 0.22}
+    },
+    "interpretation": "The methods largely agree on the rationale inventory. The decisive difference is that the Codex schema separates any-check optionality from a standard-check commitment, while the LangGraph binary endpoint behaves like the stricter standard-check head."
+  }
+}

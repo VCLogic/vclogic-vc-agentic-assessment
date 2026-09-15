@@ -1,0 +1,277 @@
+{
+  "schema": "transcript-observed-rationales-v1",
+  "episode_slug": "125-locker-the-future-of-online-shopping",
+  "transcript_sha256": "7f361ce966826b92b6e19c30e4701f8ab647cbc36a68667b54f8ab90f46d39b5",
+  "window": {
+    "start_turn": 8,
+    "end_turn": 91
+  },
+  "observed_decision": "Out",
+  "decision_evidence_ids": [
+    "E9"
+  ],
+  "evidence_registry": [
+    {
+      "evidence_id": "E1",
+      "turn_index": 19,
+      "speaker": "Jillian",
+      "text": "Can you talk a little bit about the technology here."
+    },
+    {
+      "evidence_id": "E2",
+      "turn_index": 21,
+      "speaker": "Jillian",
+      "text": "doesn't Pinterest do this?"
+    },
+    {
+      "evidence_id": "E3",
+      "turn_index": 28,
+      "speaker": "Jillian",
+      "text": "100%."
+    },
+    {
+      "evidence_id": "E4",
+      "turn_index": 36,
+      "speaker": "Jillian",
+      "text": "Couldn't Pinterest make theirs 100% shoppable?"
+    },
+    {
+      "evidence_id": "E5",
+      "turn_index": 58,
+      "speaker": "Jillian",
+      "text": "So tell us about your team. So you have this engineer. He's now what? He’s a cofounder?"
+    },
+    {
+      "evidence_id": "E6",
+      "turn_index": 60,
+      "speaker": "Jillian",
+      "text": "Where's the director of growth from?"
+    },
+    {
+      "evidence_id": "E7",
+      "turn_index": 66,
+      "speaker": "Jillian",
+      "text": "So what did you learn from that?"
+    },
+    {
+      "evidence_id": "E8",
+      "turn_index": 74,
+      "speaker": "Jillian",
+      "text": "Come on! Who would invest in a company like that?"
+    },
+    {
+      "evidence_id": "E9",
+      "turn_index": 91,
+      "speaker": "Jillian",
+      "text": "and also raising 3 four years ago is different from raising 3 now. So I'm out. And I'll tell you why. I don't have a grasp of this category, in order to add any value or be able to assess it properly. I think you're an excellent founder. You obviously know what you're all building, but what I can bring to you is not going to be of value. Because I'm that stupid in this space."
+    }
+  ],
+  "rationales": [
+    {
+      "rationale_id": "R1",
+      "rationale_label": "solution_feasibility_assessment",
+      "utterance_type": "question",
+      "activation": "queried",
+      "direction": "neutral",
+      "salience": "secondary",
+      "confidence": 0.98,
+      "evidence_ids": [
+        "E1"
+      ],
+      "explanation": "Requests an explanation of the underlying technology to evaluate the solution.",
+      "decision_link": "none"
+    },
+    {
+      "rationale_id": "R2",
+      "rationale_label": "product_differentiation_concern",
+      "utterance_type": "question",
+      "activation": "queried",
+      "direction": "neutral",
+      "salience": "secondary",
+      "confidence": 0.98,
+      "evidence_ids": [
+        "E2"
+      ],
+      "explanation": "Questions whether Pinterest already provides the same functionality.",
+      "decision_link": "none"
+    },
+    {
+      "rationale_id": "R3",
+      "rationale_label": "product_differentiation_concern",
+      "utterance_type": "assessment",
+      "activation": "evaluated",
+      "direction": "positive",
+      "salience": "secondary",
+      "confidence": 0.84,
+      "evidence_ids": [
+        "E3"
+      ],
+      "explanation": "Confirms the claimed 100% shoppable distinction from Pinterest.",
+      "decision_link": "none"
+    },
+    {
+      "rationale_id": "R4",
+      "rationale_label": "product_differentiation_concern",
+      "utterance_type": "question",
+      "activation": "queried",
+      "direction": "neutral",
+      "salience": "secondary",
+      "confidence": 0.97,
+      "evidence_ids": [
+        "E4"
+      ],
+      "explanation": "Tests whether the incumbent could replicate the product's shoppable functionality.",
+      "decision_link": "none"
+    },
+    {
+      "rationale_id": "R5",
+      "rationale_label": "founder_execution",
+      "utterance_type": "question",
+      "activation": "queried",
+      "direction": "neutral",
+      "salience": "secondary",
+      "confidence": 0.9,
+      "evidence_ids": [
+        "E5"
+      ],
+      "explanation": "Asks about the composition and role of the founding team.",
+      "decision_link": "none"
+    },
+    {
+      "rationale_id": "R6",
+      "rationale_label": "founder_skillset",
+      "utterance_type": "question",
+      "activation": "queried",
+      "direction": "neutral",
+      "salience": "secondary",
+      "confidence": 0.9,
+      "evidence_ids": [
+        "E6"
+      ],
+      "explanation": "Asks about the growth leader's professional background.",
+      "decision_link": "none"
+    },
+    {
+      "rationale_id": "R7",
+      "rationale_label": "founder_execution",
+      "utterance_type": "question",
+      "activation": "queried",
+      "direction": "neutral",
+      "salience": "secondary",
+      "confidence": 0.88,
+      "evidence_ids": [
+        "E7"
+      ],
+      "explanation": "Probes what the team learned from a relevant competitor's failure.",
+      "decision_link": "none"
+    },
+    {
+      "rationale_id": "R8",
+      "rationale_label": "business_viability_concern",
+      "utterance_type": "assessment",
+      "activation": "evaluated",
+      "direction": "negative",
+      "salience": "secondary",
+      "confidence": 0.9,
+      "evidence_ids": [
+        "E8"
+      ],
+      "explanation": "Expresses a negative assessment of the referenced competitor's business model as an investable company.",
+      "decision_link": "none"
+    },
+    {
+      "rationale_id": "R9",
+      "rationale_label": "decision_context_constraint",
+      "utterance_type": "decision_reason",
+      "activation": "evaluated",
+      "direction": "negative",
+      "salience": "primary",
+      "confidence": 0.96,
+      "evidence_ids": [
+        "E9"
+      ],
+      "explanation": "Explicitly notes that the current fundraising environment differs materially from four years earlier and uses that context in explaining the decision to go out.",
+      "decision_link": "explicit"
+    },
+    {
+      "rationale_id": "R10",
+      "rationale_label": "investor_domain_knowledge_constraint",
+      "utterance_type": "decision_reason",
+      "activation": "evaluated",
+      "direction": "negative",
+      "salience": "primary",
+      "confidence": 1,
+      "evidence_ids": [
+        "E9"
+      ],
+      "explanation": "Explicitly states that she lacks sufficient grasp of the category to assess the opportunity properly.",
+      "decision_link": "explicit"
+    },
+    {
+      "rationale_id": "R11",
+      "rationale_label": "investor_value_add_fit",
+      "utterance_type": "decision_reason",
+      "activation": "evaluated",
+      "direction": "negative",
+      "salience": "primary",
+      "confidence": 1,
+      "evidence_ids": [
+        "E9"
+      ],
+      "explanation": "Explicitly states that she cannot add meaningful value to the company.",
+      "decision_link": "explicit"
+    },
+    {
+      "rationale_id": "R12",
+      "rationale_label": "founder_qualities",
+      "utterance_type": "assessment",
+      "activation": "evaluated",
+      "direction": "positive",
+      "salience": "secondary",
+      "confidence": 0.99,
+      "evidence_ids": [
+        "E9"
+      ],
+      "explanation": "Describes the founder as excellent.",
+      "decision_link": "none"
+    },
+    {
+      "rationale_id": "R13",
+      "rationale_label": "founder_communication_quality",
+      "utterance_type": "assessment",
+      "activation": "evaluated",
+      "direction": "positive",
+      "salience": "secondary",
+      "confidence": 0.9,
+      "evidence_ids": [
+        "E9"
+      ],
+      "explanation": "States that the founders clearly know what they are building, indicating command of the company and its direction.",
+      "decision_link": "none"
+    },
+    {
+      "rationale_id": "R14",
+      "rationale_label": "investor_domain_knowledge_constraint",
+      "utterance_type": "decision_reason",
+      "activation": "evaluated",
+      "direction": "negative",
+      "salience": "primary",
+      "confidence": 0.99,
+      "evidence_ids": [
+        "E9"
+      ],
+      "explanation": "Reinforces the explicit category-knowledge constraint by saying she is 'stupid in this space.'",
+      "decision_link": "explicit"
+    }
+  ],
+  "unmapped_utterances": [
+    "My first question.",
+    "Yeah.",
+    "No, I meant - I'm sorry.",
+    "Professionally.",
+    "Uber. Like the early Uber.",
+    "Yes."
+  ],
+  "audit_flags": [],
+  "annotation_summary": "Jillian's explicit Out rationale is investor fit: changed fundraising context, insufficient category knowledge, and inability to add value. She also positively assessed the founder and team command, while asking about technology, differentiation, team background, and lessons from a competitor."
+}

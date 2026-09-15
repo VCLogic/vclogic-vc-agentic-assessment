@@ -1,0 +1,819 @@
+{
+  "audit_date": "2026-08-10",
+  "auditor": "reviewed-ledger-plus-deterministic-renderer",
+  "decision_window_endpoint": 113,
+  "episode_slug": "151-feedback-intelligence",
+  "leakage_checklist": {
+    "actual_label_in_package": false,
+    "complete_transcript_in_package": false,
+    "founder_decision_acknowledgement_retained": false,
+    "investor_evaluation_retained": false,
+    "narrator_evaluation_retained": false,
+    "post_decision_material_retained": false,
+    "prior_episode_inputs_in_package": false,
+    "target_investor_identity_in_pitch": false
+  },
+  "pitch_path": "data/investors/elizabeth-yin-hustle-fund/pitches/151-feedback-intelligence.txt",
+  "pitch_sha256": "89e32178b91aa3c102084da4aec0c84209bf0051ada3c8a45b511257b06c440d",
+  "schema": "pitch-leakage-audit-v1",
+  "segments": [
+    {
+      "action": "removed",
+      "reason": "removed non-founder, evaluative, or unnecessary context",
+      "rendered_text": "",
+      "source_turn_index": 0,
+      "speaker": "Narrator"
+    },
+    {
+      "action": "retained",
+      "reason": "founder pitch or pre-decision factual answer",
+      "rendered_text": "Chinar: Hi. I'm Chinar.",
+      "source_turn_index": 1,
+      "speaker": "Chinar"
+    },
+    {
+      "action": "removed",
+      "reason": "removed non-founder, evaluative, or unnecessary context",
+      "rendered_text": "",
+      "source_turn_index": 2,
+      "speaker": "Cyan"
+    },
+    {
+      "action": "removed",
+      "reason": "removed non-founder, evaluative, or unnecessary context",
+      "rendered_text": "",
+      "source_turn_index": 3,
+      "speaker": "Charles"
+    },
+    {
+      "action": "removed",
+      "reason": "removed non-founder, evaluative, or unnecessary context",
+      "rendered_text": "",
+      "source_turn_index": 4,
+      "speaker": "Elizabeth"
+    },
+    {
+      "action": "removed",
+      "reason": "removed non-founder, evaluative, or unnecessary context",
+      "rendered_text": "",
+      "source_turn_index": 5,
+      "speaker": "Mac"
+    },
+    {
+      "action": "retained",
+      "reason": "founder pitch or pre-decision factual answer",
+      "rendered_text": "Chinar: I'm Chinar. Nice to meet you.",
+      "source_turn_index": 6,
+      "speaker": "Chinar"
+    },
+    {
+      "action": "removed",
+      "reason": "removed non-founder, evaluative, or unnecessary context",
+      "rendered_text": "",
+      "source_turn_index": 7,
+      "speaker": "Jesse"
+    },
+    {
+      "action": "retained",
+      "reason": "founder pitch or pre-decision factual answer",
+      "rendered_text": "Chinar: Okay. Hi, everyone. I'm Chinar. I have been in AI before things got generative, and each time I delivered AI solutions, I was facing the following issue. Even though I had very good accuracy when I developed that AI, I had no insights how end users were using that solution and whether they are happy with the output or not. For mobile apps like classic applications, Google Analytics can be used to handle this issue. There is no solution to handle this for AI slash generative AI. And we have created solutions. It's called Feedback Intelligence. We help AI teams to turn automatically the end user feedback into actionable insights, giving them power to analyze the root causes and prioritize the issues. We've validated this problem solution fit, and we locked three pilot customers. We have also ten customers on the waitlist, and it's growing. We are going to start the paid pilots, 1st of July, aiming to convert them to annual contracts end of this year with 360k ARR. And we are going to onboard 14 more customers, aiming to have 1.5 million ARR by the end of next year.",
+      "source_turn_index": 8,
+      "speaker": "Chinar"
+    },
+    {
+      "action": "removed",
+      "reason": "removed non-founder, evaluative, or unnecessary context",
+      "rendered_text": "",
+      "source_turn_index": 9,
+      "speaker": "Elizabeth"
+    },
+    {
+      "action": "retained",
+      "reason": "founder pitch or pre-decision factual answer",
+      "rendered_text": "Chinar: So while talking to these companies that are delivering LLM-based solutions, like chatbots or conversational AI, we saw that they are getting a lot of feedback messages, explicit feedback, thumbs up, thumbs down, or just a plain text saying, oh, I queried this, I got this result, but I am not happy with the output. Our solution consolidates explicit and implicit feedback to one place. It automatically does the root cause analysis. And then it provides a list of actions to AI teams to resolve that.",
+      "source_turn_index": 10,
+      "speaker": "Chinar"
+    },
+    {
+      "action": "neutralized",
+      "reason": "neutralized investor question",
+      "rendered_text": "Investor question: Have you developed the part of it that actually asks for the input? I know there's a bunch of apps out there that ask for the thumbs up, thumbs down or feedback, or you're embedding into the workflow that's already there?",
+      "source_turn_index": 11,
+      "speaker": "Jesse"
+    },
+    {
+      "action": "retained",
+      "reason": "founder pitch or pre-decision factual answer",
+      "rendered_text": "Chinar: We are embedding for the workflow that is already there. It's just a like integration. And the onboarding takes one hour at this point.",
+      "source_turn_index": 12,
+      "speaker": "Chinar"
+    },
+    {
+      "action": "removed",
+      "reason": "removed non-founder, evaluative, or unnecessary context",
+      "rendered_text": "",
+      "source_turn_index": 13,
+      "speaker": "Elizabeth"
+    },
+    {
+      "action": "retained",
+      "reason": "founder pitch or pre-decision factual answer",
+      "rendered_text": "Chinar: Yeah.",
+      "source_turn_index": 14,
+      "speaker": "Chinar"
+    },
+    {
+      "action": "neutralized",
+      "reason": "neutralized investor question",
+      "rendered_text": "Investor question: How are you helping with this? Like you collect the thumbs down, and then what?",
+      "source_turn_index": 15,
+      "speaker": "Elizabeth"
+    },
+    {
+      "action": "retained",
+      "reason": "founder pitch or pre-decision factual answer",
+      "rendered_text": "Chinar: So one of the pilot customers that we have, they're called Cogniz. They are providing conversational AI, LLM-based solutions to financial institutions. And these like financial analysts are using those like solutions for querying business transaction in Q4 2023. And whenever they are not happy with the output. They have this like thumbs up, thumbs down, or just a plain text saying, well, I expected this. The result is not good. Before they were getting more than thousand feedback messages like this on a daily basis. Manual work to reproduce the issue, analyze what is the root cause, what is the resolution, and then go back to the customer, say, okay, we will fix this, blah, blah. What we do, whenever that financial analyst is not happy with the output, we analyze that behavior. Maybe there is a knowledge hole or retrieval system is not developed well. We analyze all options there and we provide a list of actions to engineers so they can fix it.",
+      "source_turn_index": 16,
+      "speaker": "Chinar"
+    },
+    {
+      "action": "neutralized",
+      "reason": "neutralized investor question",
+      "rendered_text": "Investor question: But I guess how do you analyze it, I suppose?",
+      "source_turn_index": 17,
+      "speaker": "Elizabeth"
+    },
+    {
+      "action": "retained",
+      "reason": "founder pitch or pre-decision factual answer",
+      "rendered_text": "Chinar: We have developed a novel solution. It's an orchestration of LLMs plus unsupervised learning, where we are able to turn this unstructured, thumbs up, thumbs down, to list of actions.",
+      "source_turn_index": 18,
+      "speaker": "Chinar"
+    },
+    {
+      "action": "neutralized",
+      "reason": "neutralized investor question",
+      "rendered_text": "Investor question: Can you tell us a little bit about yourself, your background and what brought you to building this product?",
+      "source_turn_index": 19,
+      "speaker": "Mac"
+    },
+    {
+      "action": "retained",
+      "reason": "founder pitch or pre-decision factual answer",
+      "rendered_text": "Chinar: Mhm. So I started my career from applied mathematics and informatics. Then uh, and then I did my master's in information technologies, then another master's in computer science and systems. And then my PhD was machine learning integration into healthcare. And four years ago, I was working on a generative AI based product, where we were helping doctors for plastic surgery purposes to generate faces as a reference to understand what is the best for their patient. And most recently I was at Vineti, venture-backed startup here in San Francisco. And a couple of other projects I have delivered.",
+      "source_turn_index": 20,
+      "speaker": "Chinar"
+    },
+    {
+      "action": "neutralized",
+      "reason": "neutralized investor question",
+      "rendered_text": "Investor question: Can you talk to me a little bit about your business model?",
+      "source_turn_index": 21,
+      "speaker": "Mac"
+    },
+    {
+      "action": "retained",
+      "reason": "founder pitch or pre-decision factual answer",
+      "rendered_text": "Chinar: So right now it's like on average we charge them 90k annual contract.",
+      "source_turn_index": 22,
+      "speaker": "Chinar"
+    },
+    {
+      "action": "neutralized",
+      "reason": "neutralized investor question",
+      "rendered_text": "Investor question: And you said you have two pilot customers?",
+      "source_turn_index": 23,
+      "speaker": "Mac"
+    },
+    {
+      "action": "retained",
+      "reason": "founder pitch or pre-decision factual answer",
+      "rendered_text": "Chinar: Three pilot customers",
+      "source_turn_index": 24,
+      "speaker": "Chinar"
+    },
+    {
+      "action": "removed",
+      "reason": "removed non-founder, evaluative, or unnecessary context",
+      "rendered_text": "",
+      "source_turn_index": 25,
+      "speaker": "Mac"
+    },
+    {
+      "action": "retained",
+      "reason": "founder pitch or pre-decision factual answer",
+      "rendered_text": "Chinar: Yeah.",
+      "source_turn_index": 26,
+      "speaker": "Chinar"
+    },
+    {
+      "action": "neutralized",
+      "reason": "neutralized investor question",
+      "rendered_text": "Investor question: So how did you find those three customers? And what was that sales cycle and sales process like for you?",
+      "source_turn_index": 27,
+      "speaker": "Mac"
+    },
+    {
+      "action": "retained",
+      "reason": "founder pitch or pre-decision factual answer",
+      "rendered_text": "Chinar: Yeah, so what we did first. My co-founder used to sell to financial institutions and he used to be head of product at Zest AI. And then head of product at Spectral. So these all companies. And we started to just talk to these people, like discovery, use our network, investors, advisors to connect with these people. And after that, we found these pilot customers. And then, eventually we were like, okay, let's start some small product marketing. Just write some Medium articles without any marketing expenses. And after that we got huge inbound. Like people were coming to us, LinkedIn messages saying like, is it available? The validation was overwhelming. Really.",
+      "source_turn_index": 28,
+      "speaker": "Chinar"
+    },
+    {
+      "action": "neutralized",
+      "reason": "neutralized investor question",
+      "rendered_text": "Investor question: As you think about the opportunity within financial services, is the audience sort of anybody that is building their own stuff with gen AI? Or are you looking at the suppliers of that gen AI technology?",
+      "source_turn_index": 29,
+      "speaker": "Jesse"
+    },
+    {
+      "action": "retained",
+      "reason": "founder pitch or pre-decision factual answer",
+      "rendered_text": "Chinar: Any company that utilizes generative AI LLM for different applications. Like from finance to legal AI to home services like this, or like everywhere.",
+      "source_turn_index": 30,
+      "speaker": "Chinar"
+    },
+    {
+      "action": "neutralized",
+      "reason": "neutralized investor question",
+      "rendered_text": "Investor question: How long have you been working on this business?",
+      "source_turn_index": 31,
+      "speaker": "Elizabeth"
+    },
+    {
+      "action": "retained",
+      "reason": "founder pitch or pre-decision factual answer",
+      "rendered_text": "Chinar: A year and a half ago. I started to build computer vision evaluation tool. And then with this generative AI market adaption. Even though I got one of the fortune 500 media companies as a customer, I saw like this is not being scaled as I want. That's why we shifted our focus and we are going after LLM, generative AI based solutions.",
+      "source_turn_index": 32,
+      "speaker": "Chinar"
+    },
+    {
+      "action": "removed",
+      "reason": "removed non-founder, evaluative, or unnecessary context",
+      "rendered_text": "",
+      "source_turn_index": 33,
+      "speaker": "Elizabeth"
+    },
+    {
+      "action": "neutralized",
+      "reason": "neutralized investor question",
+      "rendered_text": "Investor question: Did you raise any money for the company you were doing before?",
+      "source_turn_index": 34,
+      "speaker": "Mac"
+    },
+    {
+      "action": "retained",
+      "reason": "founder pitch or pre-decision factual answer",
+      "rendered_text": "Chinar: Yeah. One million.",
+      "source_turn_index": 35,
+      "speaker": "Chinar"
+    },
+    {
+      "action": "removed",
+      "reason": "removed non-founder, evaluative, or unnecessary context",
+      "rendered_text": "",
+      "source_turn_index": 36,
+      "speaker": "Mac"
+    },
+    {
+      "action": "retained",
+      "reason": "founder pitch or pre-decision factual answer",
+      "rendered_text": "Chinar: Pivot. Pivot.",
+      "source_turn_index": 37,
+      "speaker": "Chinar"
+    },
+    {
+      "action": "neutralized",
+      "reason": "neutralized investor question",
+      "rendered_text": "Investor question: So how much money have you raised to date? And how much equity have you given up to investors to date?",
+      "source_turn_index": 38,
+      "speaker": "Mac"
+    },
+    {
+      "action": "retained",
+      "reason": "founder pitch or pre-decision factual answer",
+      "rendered_text": "Chinar: That's a really good one. We have raised one million so far.",
+      "source_turn_index": 39,
+      "speaker": "Chinar"
+    },
+    {
+      "action": "neutralized",
+      "reason": "neutralized investor question",
+      "rendered_text": "Investor question: That was on the old idea?",
+      "source_turn_index": 40,
+      "speaker": "Elizabeth"
+    },
+    {
+      "action": "retained",
+      "reason": "founder pitch or pre-decision factual answer",
+      "rendered_text": "Chinar: Yes. Yeah.",
+      "source_turn_index": 41,
+      "speaker": "Chinar"
+    },
+    {
+      "action": "removed",
+      "reason": "removed non-founder, evaluative, or unnecessary context",
+      "rendered_text": "",
+      "source_turn_index": 42,
+      "speaker": "Elizabeth"
+    },
+    {
+      "action": "retained",
+      "reason": "founder pitch or pre-decision factual answer",
+      "rendered_text": "Chinar: But still we are using that money for this.",
+      "source_turn_index": 43,
+      "speaker": "Chinar"
+    },
+    {
+      "action": "removed",
+      "reason": "removed non-founder, evaluative, or unnecessary context",
+      "rendered_text": "",
+      "source_turn_index": 44,
+      "speaker": "Elizabeth"
+    },
+    {
+      "action": "neutralized",
+      "reason": "neutralized investor question",
+      "rendered_text": "Investor question: Did you raise that million on a safe?",
+      "source_turn_index": 45,
+      "speaker": "Mac"
+    },
+    {
+      "action": "retained",
+      "reason": "founder pitch or pre-decision factual answer",
+      "rendered_text": "Chinar: Yes.",
+      "source_turn_index": 46,
+      "speaker": "Chinar"
+    },
+    {
+      "action": "neutralized",
+      "reason": "neutralized investor question",
+      "rendered_text": "Investor question: What was the valuation cap on that safe?",
+      "source_turn_index": 47,
+      "speaker": "Mac"
+    },
+    {
+      "action": "retained",
+      "reason": "founder pitch or pre-decision factual answer",
+      "rendered_text": "Chinar: Seven and a half.",
+      "source_turn_index": 48,
+      "speaker": "Chinar"
+    },
+    {
+      "action": "removed",
+      "reason": "removed non-founder, evaluative, or unnecessary context",
+      "rendered_text": "",
+      "source_turn_index": 49,
+      "speaker": "Mac"
+    },
+    {
+      "action": "neutralized",
+      "reason": "neutralized investor question",
+      "rendered_text": "Investor question: And how much are you raising now?",
+      "source_turn_index": 50,
+      "speaker": "Elizabeth"
+    },
+    {
+      "action": "retained",
+      "reason": "founder pitch or pre-decision factual answer",
+      "rendered_text": "Chinar: 2 million.",
+      "source_turn_index": 51,
+      "speaker": "Chinar"
+    },
+    {
+      "action": "neutralized",
+      "reason": "neutralized investor question",
+      "rendered_text": "Investor question: How much is spoken for?",
+      "source_turn_index": 52,
+      "speaker": "Cyan"
+    },
+    {
+      "action": "retained",
+      "reason": "founder pitch or pre-decision factual answer",
+      "rendered_text": "Chinar: We have 1,000,000 soft commitment already.",
+      "source_turn_index": 53,
+      "speaker": "Chinar"
+    },
+    {
+      "action": "neutralized",
+      "reason": "neutralized investor question",
+      "rendered_text": "Investor question: What's the, what’s the price for this round?",
+      "source_turn_index": 54,
+      "speaker": "Mac"
+    },
+    {
+      "action": "retained",
+      "reason": "founder pitch or pre-decision factual answer",
+      "rendered_text": "Chinar: It's not set yet.",
+      "source_turn_index": 55,
+      "speaker": "Chinar"
+    },
+    {
+      "action": "neutralized",
+      "reason": "neutralized investor question",
+      "rendered_text": "Investor question: What would you like the price to be for this round?",
+      "source_turn_index": 56,
+      "speaker": "Mac"
+    },
+    {
+      "action": "retained",
+      "reason": "founder pitch or pre-decision factual answer",
+      "rendered_text": "Chinar: Yeah, I mean, we are comfortable to be diluted, like around 15%. For this 2 million.",
+      "source_turn_index": 57,
+      "speaker": "Chinar"
+    },
+    {
+      "action": "removed",
+      "reason": "removed non-founder, evaluative, or unnecessary context",
+      "rendered_text": "",
+      "source_turn_index": 58,
+      "speaker": "Mac"
+    },
+    {
+      "action": "retained",
+      "reason": "founder pitch or pre-decision factual answer",
+      "rendered_text": "Chinar: We can negotiate.",
+      "source_turn_index": 59,
+      "speaker": "Chinar"
+    },
+    {
+      "action": "removed",
+      "reason": "removed non-founder, evaluative, or unnecessary context",
+      "rendered_text": "",
+      "source_turn_index": 60,
+      "speaker": "Mac"
+    },
+    {
+      "action": "retained",
+      "reason": "founder pitch or pre-decision factual answer",
+      "rendered_text": "Chinar: We are comfortable to be diluted, like around 15%. For this 2 million.",
+      "source_turn_index": 61,
+      "speaker": "Chinar"
+    },
+    {
+      "action": "removed",
+      "reason": "removed non-founder, evaluative, or unnecessary context",
+      "rendered_text": "",
+      "source_turn_index": 62,
+      "speaker": "Mac"
+    },
+    {
+      "action": "retained",
+      "reason": "founder pitch or pre-decision factual answer",
+      "rendered_text": "Chinar: We can negotiate.",
+      "source_turn_index": 63,
+      "speaker": "Chinar"
+    },
+    {
+      "action": "removed",
+      "reason": "removed non-founder, evaluative, or unnecessary context",
+      "rendered_text": "",
+      "source_turn_index": 64,
+      "speaker": "Mac"
+    },
+    {
+      "action": "neutralized",
+      "reason": "neutralized investor question",
+      "rendered_text": "Investor question: How much capital do you have in the bank?",
+      "source_turn_index": 65,
+      "speaker": "Mac"
+    },
+    {
+      "action": "retained",
+      "reason": "founder pitch or pre-decision factual answer",
+      "rendered_text": "Chinar: More than 100k.",
+      "source_turn_index": 66,
+      "speaker": "Chinar"
+    },
+    {
+      "action": "neutralized",
+      "reason": "neutralized investor question",
+      "rendered_text": "Investor question: And what's your current burn rate?",
+      "source_turn_index": 67,
+      "speaker": "Mac"
+    },
+    {
+      "action": "retained",
+      "reason": "founder pitch or pre-decision factual answer",
+      "rendered_text": "Chinar: 15k.",
+      "source_turn_index": 68,
+      "speaker": "Chinar"
+    },
+    {
+      "action": "neutralized",
+      "reason": "neutralized investor question",
+      "rendered_text": "Investor question: How do you think about your burn rate going forward with this new raise?",
+      "source_turn_index": 69,
+      "speaker": "Elizabeth"
+    },
+    {
+      "action": "retained",
+      "reason": "founder pitch or pre-decision factual answer",
+      "rendered_text": "Chinar: Will go up around 100k.",
+      "source_turn_index": 70,
+      "speaker": "Chinar"
+    },
+    {
+      "action": "removed",
+      "reason": "removed non-founder, evaluative, or unnecessary context",
+      "rendered_text": "",
+      "source_turn_index": 71,
+      "speaker": "Mac"
+    },
+    {
+      "action": "neutralized",
+      "reason": "neutralized investor question",
+      "rendered_text": "Investor question: With four degrees?",
+      "source_turn_index": 72,
+      "speaker": "Jesse"
+    },
+    {
+      "action": "removed",
+      "reason": "removed non-founder, evaluative, or unnecessary context",
+      "rendered_text": "",
+      "source_turn_index": 73,
+      "speaker": "Mac"
+    },
+    {
+      "action": "neutralized",
+      "reason": "neutralized investor question",
+      "rendered_text": "Investor question: Can I borrow one?",
+      "source_turn_index": 74,
+      "speaker": "Jesse"
+    },
+    {
+      "action": "removed",
+      "reason": "removed non-founder, evaluative, or unnecessary context",
+      "rendered_text": "",
+      "source_turn_index": 75,
+      "speaker": "Mac"
+    },
+    {
+      "action": "retained",
+      "reason": "founder pitch or pre-decision factual answer",
+      "rendered_text": "Chinar: Right now.",
+      "source_turn_index": 76,
+      "speaker": "Chinar"
+    },
+    {
+      "action": "removed",
+      "reason": "removed non-founder, evaluative, or unnecessary context",
+      "rendered_text": "",
+      "source_turn_index": 77,
+      "speaker": "Mac"
+    },
+    {
+      "action": "retained",
+      "reason": "founder pitch or pre-decision factual answer",
+      "rendered_text": "Chinar: Thank you.",
+      "source_turn_index": 78,
+      "speaker": "Chinar"
+    },
+    {
+      "action": "removed",
+      "reason": "removed non-founder, evaluative, or unnecessary context",
+      "rendered_text": "",
+      "source_turn_index": 79,
+      "speaker": "Jesse"
+    },
+    {
+      "action": "retained",
+      "reason": "founder pitch or pre-decision factual answer",
+      "rendered_text": "Chinar: Awesome.",
+      "source_turn_index": 80,
+      "speaker": "Chinar"
+    },
+    {
+      "action": "neutralized",
+      "reason": "neutralized investor question",
+      "rendered_text": "Investor question: What's your check size?",
+      "source_turn_index": 81,
+      "speaker": "Cyan"
+    },
+    {
+      "action": "removed",
+      "reason": "removed non-founder, evaluative, or unnecessary context",
+      "rendered_text": "",
+      "source_turn_index": 82,
+      "speaker": "Jesse"
+    },
+    {
+      "action": "removed",
+      "reason": "removed non-founder, evaluative, or unnecessary context",
+      "rendered_text": "",
+      "source_turn_index": 83,
+      "speaker": "Mac"
+    },
+    {
+      "action": "retained",
+      "reason": "founder pitch or pre-decision factual answer",
+      "rendered_text": "Chinar: Very good",
+      "source_turn_index": 84,
+      "speaker": "Chinar"
+    },
+    {
+      "action": "removed",
+      "reason": "removed non-founder, evaluative, or unnecessary context",
+      "rendered_text": "",
+      "source_turn_index": 85,
+      "speaker": "Cyan"
+    },
+    {
+      "action": "retained",
+      "reason": "founder pitch or pre-decision factual answer",
+      "rendered_text": "Chinar: Thank you.",
+      "source_turn_index": 86,
+      "speaker": "Chinar"
+    },
+    {
+      "action": "removed",
+      "reason": "removed non-founder, evaluative, or unnecessary context",
+      "rendered_text": "",
+      "source_turn_index": 87,
+      "speaker": "Charles"
+    },
+    {
+      "action": "retained",
+      "reason": "founder pitch or pre-decision factual answer",
+      "rendered_text": "Chinar: Thank you.",
+      "source_turn_index": 88,
+      "speaker": "Chinar"
+    },
+    {
+      "action": "neutralized",
+      "reason": "neutralized investor question",
+      "rendered_text": "Investor question: Can you talk about like, why are you going to increase your burn to something pretty substantial so quickly?",
+      "source_turn_index": 89,
+      "speaker": "Elizabeth"
+    },
+    {
+      "action": "retained",
+      "reason": "founder pitch or pre-decision factual answer",
+      "rendered_text": "Chinar: Yeah, maybe I was not clear. We want to first do these pilot deliveries, perform feedback based iteration with current team, and then start building and adding more features, delivering to these other companies that are on the waitlist. It doesn't mean that after closing this round, we are going to hire everyone. And we have a financial model. Everything is written down before and after this raise. And I'm happy to share it with you.",
+      "source_turn_index": 90,
+      "speaker": "Chinar"
+    },
+    {
+      "action": "removed",
+      "reason": "removed non-founder, evaluative, or unnecessary context",
+      "rendered_text": "",
+      "source_turn_index": 91,
+      "speaker": "Elizabeth"
+    },
+    {
+      "action": "retained",
+      "reason": "founder pitch or pre-decision factual answer",
+      "rendered_text": "Chinar: We are five people right now. We will have one product marketer until end of this year and a full stack engineer. And LLM experts. So three hires are going to join us.",
+      "source_turn_index": 92,
+      "speaker": "Chinar"
+    },
+    {
+      "action": "neutralized",
+      "reason": "neutralized investor question",
+      "rendered_text": "Investor question: And that burn will go up to -?",
+      "source_turn_index": 93,
+      "speaker": "Elizabeth"
+    },
+    {
+      "action": "retained",
+      "reason": "founder pitch or pre-decision factual answer",
+      "rendered_text": "Chinar: Yeah, well, 50k for sure.",
+      "source_turn_index": 94,
+      "speaker": "Chinar"
+    },
+    {
+      "action": "neutralized",
+      "reason": "neutralized investor question",
+      "rendered_text": "Investor question: And then you'll see the pilots through and you're anticipating that the pilots will come through with something like 300k?",
+      "source_turn_index": 95,
+      "speaker": "Elizabeth"
+    },
+    {
+      "action": "retained",
+      "reason": "founder pitch or pre-decision factual answer",
+      "rendered_text": "Chinar: Yes.",
+      "source_turn_index": 96,
+      "speaker": "Chinar"
+    },
+    {
+      "action": "removed",
+      "reason": "removed non-founder, evaluative, or unnecessary context",
+      "rendered_text": "",
+      "source_turn_index": 97,
+      "speaker": "Elizabeth"
+    },
+    {
+      "action": "retained",
+      "reason": "founder pitch or pre-decision factual answer",
+      "rendered_text": "Chinar: Yes. Yes.",
+      "source_turn_index": 98,
+      "speaker": "Chinar"
+    },
+    {
+      "action": "neutralized",
+      "reason": "neutralized investor question",
+      "rendered_text": "Investor question: So that will actually move your burn to a net burn of roughly 20 to 30 by the end of the year? Per month?",
+      "source_turn_index": 99,
+      "speaker": "Elizabeth"
+    },
+    {
+      "action": "retained",
+      "reason": "founder pitch or pre-decision factual answer",
+      "rendered_text": "Chinar: Yeah.",
+      "source_turn_index": 100,
+      "speaker": "Chinar"
+    },
+    {
+      "action": "removed",
+      "reason": "removed non-founder, evaluative, or unnecessary context",
+      "rendered_text": "",
+      "source_turn_index": 101,
+      "speaker": "Elizabeth"
+    },
+    {
+      "action": "retained",
+      "reason": "founder pitch or pre-decision factual answer",
+      "rendered_text": "Chinar: Yeah.",
+      "source_turn_index": 102,
+      "speaker": "Chinar"
+    },
+    {
+      "action": "neutralized",
+      "reason": "neutralized investor question",
+      "rendered_text": "Investor question: And then you're gonna go and convert some of the waitlist folks?",
+      "source_turn_index": 103,
+      "speaker": "Elizabeth"
+    },
+    {
+      "action": "retained",
+      "reason": "founder pitch or pre-decision factual answer",
+      "rendered_text": "Chinar: Yes.",
+      "source_turn_index": 104,
+      "speaker": "Chinar"
+    },
+    {
+      "action": "removed",
+      "reason": "removed non-founder, evaluative, or unnecessary context",
+      "rendered_text": "",
+      "source_turn_index": 105,
+      "speaker": "Elizabeth"
+    },
+    {
+      "action": "retained",
+      "reason": "founder pitch or pre-decision factual answer",
+      "rendered_text": "Chinar: Yeah, yeah.",
+      "source_turn_index": 106,
+      "speaker": "Chinar"
+    },
+    {
+      "action": "removed",
+      "reason": "removed non-founder, evaluative, or unnecessary context",
+      "rendered_text": "",
+      "source_turn_index": 107,
+      "speaker": "Elizabeth"
+    },
+    {
+      "action": "retained",
+      "reason": "founder pitch or pre-decision factual answer",
+      "rendered_text": "Chinar: Yeah, we can be at breakeven. Yeah.",
+      "source_turn_index": 108,
+      "speaker": "Chinar"
+    },
+    {
+      "action": "removed",
+      "reason": "removed non-founder, evaluative, or unnecessary context",
+      "rendered_text": "",
+      "source_turn_index": 109,
+      "speaker": "Elizabeth"
+    },
+    {
+      "action": "neutralized",
+      "reason": "neutralized investor question",
+      "rendered_text": "Investor question: I think - am I the last?",
+      "source_turn_index": 110,
+      "speaker": "Elizabeth"
+    },
+    {
+      "action": "removed",
+      "reason": "removed non-founder, evaluative, or unnecessary context",
+      "rendered_text": "",
+      "source_turn_index": 111,
+      "speaker": "Charles"
+    },
+    {
+      "action": "removed",
+      "reason": "removed non-founder, evaluative, or unnecessary context",
+      "rendered_text": "",
+      "source_turn_index": 112,
+      "speaker": "Elizabeth"
+    }
+  ],
+  "source_audit": "evaluation/labels/elizabeth_yin_pitch_window_decisions.json",
+  "source_transcript_sha256": "cff279fe863ced3a8289b5246ee180b45d906a895128d64815f0f72260a455ca",
+  "status": "audited",
+  "target_company_aliases": [
+    "Feedback Intelligence"
+  ],
+  "vc_slug": "elizabeth-yin-hustle-fund"
+}

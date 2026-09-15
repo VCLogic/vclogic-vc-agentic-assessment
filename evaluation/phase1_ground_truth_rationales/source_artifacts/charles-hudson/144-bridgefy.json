@@ -1,0 +1,215 @@
+{
+  "schema": "transcript-observed-rationales-v1",
+  "episode_slug": "144-bridgefy",
+  "transcript_sha256": "4f2480b6348f0cc9a7ef0432aff127133c4fb4db1f3f66868f7bb17426b59032",
+  "window": {
+    "start_turn": 3,
+    "end_turn": 106
+  },
+  "observed_decision": "Out",
+  "decision_evidence_ids": [
+    "E10"
+  ],
+  "evidence_registry": [
+    {
+      "evidence_id": "E1",
+      "turn_index": 30,
+      "speaker": "Charles",
+      "text": "Yeah. We're getting them right way."
+    },
+    {
+      "evidence_id": "E2",
+      "turn_index": 40,
+      "speaker": "Charles",
+      "text": "You mentioned a couple of different customers: app developer, cities. Can you talk more about how you work with all these different entities?"
+    },
+    {
+      "evidence_id": "E3",
+      "turn_index": 45,
+      "speaker": "Charles",
+      "text": "How about for cities? You mentioned a big city pilot, too."
+    },
+    {
+      "evidence_id": "E4",
+      "turn_index": 92,
+      "speaker": "Charles",
+      "text": "How much of the 3 million have you secured?"
+    },
+    {
+      "evidence_id": "E5",
+      "turn_index": 97,
+      "speaker": "Charles",
+      "text": "I don't know. I mean, it reminds me a lot of GoTenna when I first met them."
+    },
+    {
+      "evidence_id": "E6",
+      "turn_index": 99,
+      "speaker": "Charles",
+      "text": "Yeah. Which turned out to be pretty good business in the end."
+    },
+    {
+      "evidence_id": "E7",
+      "turn_index": 101,
+      "speaker": "Charles",
+      "text": "Yeah, and they were doing hardware. Yeah. Different use case. um."
+    },
+    {
+      "evidence_id": "E8",
+      "turn_index": 102,
+      "speaker": "Charles",
+      "text": "It reminds me a lot of GoTenna when I first met them."
+    },
+    {
+      "evidence_id": "E9",
+      "turn_index": 104,
+      "speaker": "Charles",
+      "text": "Yeah. Which turned out to be pretty good business in the end."
+    },
+    {
+      "evidence_id": "E10",
+      "turn_index": 106,
+      "speaker": "Charles",
+      "text": "Yeah, and they were doing hardware. Yeah. Different use case. um. I don't think I'm going to get there on this round, but I do have someone who I want to introduce you to, who I am quite sure will have a strong interest in what you're building."
+    }
+  ],
+  "rationales": [
+    {
+      "rationale_id": "R1",
+      "rationale_label": "solution_feasibility_assessment",
+      "utterance_type": "assessment",
+      "activation": "evaluated",
+      "direction": "positive",
+      "salience": "secondary",
+      "confidence": 0.93,
+      "evidence_ids": [
+        "E1"
+      ],
+      "explanation": "Charles observes that the demo is working immediately on the devices.",
+      "decision_link": "none"
+    },
+    {
+      "rationale_id": "R2",
+      "rationale_label": "go_to_market_strategy_assessment",
+      "utterance_type": "question",
+      "activation": "queried",
+      "direction": "neutral",
+      "salience": "secondary",
+      "confidence": 0.98,
+      "evidence_ids": [
+        "E2"
+      ],
+      "explanation": "Charles asks how the company works with its different customer and partner types.",
+      "decision_link": "none"
+    },
+    {
+      "rationale_id": "R3",
+      "rationale_label": "market_entry_path_assessment",
+      "utterance_type": "question",
+      "activation": "queried",
+      "direction": "neutral",
+      "salience": "secondary",
+      "confidence": 0.96,
+      "evidence_ids": [
+        "E3"
+      ],
+      "explanation": "Charles asks specifically about the city pilot as a customer-entry path.",
+      "decision_link": "none"
+    },
+    {
+      "rationale_id": "R4",
+      "rationale_label": "fundraising_demand_signal",
+      "utterance_type": "question",
+      "activation": "queried",
+      "direction": "neutral",
+      "salience": "secondary",
+      "confidence": 0.97,
+      "evidence_ids": [
+        "E4"
+      ],
+      "explanation": "Charles asks how much of the current financing has been secured.",
+      "decision_link": "none"
+    },
+    {
+      "rationale_id": "R5",
+      "rationale_label": "investor_experience_bias",
+      "utterance_type": "assessment",
+      "activation": "evaluated",
+      "direction": "neutral",
+      "salience": "secondary",
+      "confidence": 0.98,
+      "evidence_ids": [
+        "E5",
+        "E8"
+      ],
+      "explanation": "Charles explicitly compares BridgeFy with GoTenna based on his prior experience meeting that company.",
+      "decision_link": "none"
+    },
+    {
+      "rationale_id": "R6",
+      "rationale_label": "investor_experience_bias",
+      "utterance_type": "assessment",
+      "activation": "evaluated",
+      "direction": "positive",
+      "salience": "secondary",
+      "confidence": 0.94,
+      "evidence_ids": [
+        "E6",
+        "E9"
+      ],
+      "explanation": "Charles notes that the analogous GoTenna business ultimately performed well; he does not directly claim the same outcome for BridgeFy.",
+      "decision_link": "none"
+    },
+    {
+      "rationale_id": "R7",
+      "rationale_label": "investor_experience_bias",
+      "utterance_type": "assessment",
+      "activation": "evaluated",
+      "direction": "neutral",
+      "salience": "secondary",
+      "confidence": 0.95,
+      "evidence_ids": [
+        "E7",
+        "E10"
+      ],
+      "explanation": "Charles qualifies the GoTenna comparison by noting that GoTenna used hardware and had a different use case.",
+      "decision_link": "none"
+    },
+    {
+      "rationale_id": "R8",
+      "rationale_label": "decision_context_constraint",
+      "utterance_type": "decision_reason",
+      "activation": "evaluated",
+      "direction": "negative",
+      "salience": "primary",
+      "confidence": 0.99,
+      "evidence_ids": [
+        "E10"
+      ],
+      "explanation": "Charles explicitly states that he is not going to invest in this round, giving the round context as the stated basis without naming a company-fundamentals objection.",
+      "decision_link": "explicit"
+    },
+    {
+      "rationale_id": "R9",
+      "rationale_label": "investor_value_add_fit",
+      "utterance_type": "assessment",
+      "activation": "evaluated",
+      "direction": "positive",
+      "salience": "secondary",
+      "confidence": 0.95,
+      "evidence_ids": [
+        "E10"
+      ],
+      "explanation": "Charles offers to make an introduction to someone he believes will have strong interest in the company.",
+      "decision_link": "none"
+    }
+  ],
+  "unmapped_utterances": [
+    "Good.",
+    "Okay. We got a whole bunch of phones on the table.",
+    "Alright, I'll take this one.",
+    "Whoa, he sent like a broadcast alert.",
+    "Yeah."
+  ],
+  "audit_flags": [],
+  "annotation_summary": "Charles validated the demo through direct observation, explored the customer and financing motion, and referenced favorable prior GoTenna experience. He explicitly declined to invest in this round while offering a potentially valuable introduction; no deeper negative company rationale was stated."
+}

@@ -1,0 +1,178 @@
+{
+  "schema": "transcript-observed-rationales-v1",
+  "episode_slug": "139-futuremoney",
+  "transcript_sha256": "5d7fca519b38549cc32dec9e7247f925ae7a1f01ba121f0867abcd0aa64a1ab5",
+  "window": {
+    "start_turn": 7,
+    "end_turn": 87
+  },
+  "observed_decision": "Out",
+  "decision_evidence_ids": [
+    "E5"
+  ],
+  "evidence_registry": [
+    {
+      "evidence_id": "E1",
+      "turn_index": 25,
+      "speaker": "Jesse",
+      "text": "But it has to be after they're 18."
+    },
+    {
+      "evidence_id": "E2",
+      "turn_index": 39,
+      "speaker": "Jesse",
+      "text": "And your special sauce in this is the sort of singular path, create it, put the money in, not have to think about it again. For folks who have 529s today, for their kids, would you take those on board? Or if somebody has that kid turns the age of majority, they can move $7,000 a year themselves."
+    },
+    {
+      "evidence_id": "E3",
+      "turn_index": 43,
+      "speaker": "Jesse",
+      "text": "You mentioned running this playbook before. Walk us through a little bit about how you scaled up that roundup investment platform. Sort of what comes - You don't have to give all the secret sauce, but give us like high level playbook. What was unique about it?"
+    },
+    {
+      "evidence_id": "E4",
+      "turn_index": 63,
+      "speaker": "Jesse",
+      "text": "If you're successful at this, fast forward 5 years, 10 years out, you talked a little bit about sort of this is where you manage all your family's assets. What does that business look like to you? Are you a JP Morgan 2.0? Are you the financial institution? Are you a layer across those and maybe underneath all that is, I'm sort of getting it like, who loses? You know, if you're successful, who loses?"
+    },
+    {
+      "evidence_id": "E5",
+      "turn_index": 87,
+      "speaker": "Jesse",
+      "text": "I fall, I fall in Cyan's - so I don't do a ton of fintech investing. you named a bunch of names. I know Acorns. I don't know any of the others. So I'm like, for me, there's a bit of an education gap. And so I'd love to follow up on whether we could do something now or when you raise more, sort of around whatever, or for the future. I fall into the bucket of like super intrigued. like I think you're multi time founder, product market fit, like you get this. And so if there's somebody who's going to win in this space, I think it's you."
+    }
+  ],
+  "rationales": [
+    {
+      "rationale_id": "R1",
+      "rationale_label": "solution_feasibility_assessment",
+      "utterance_type": "question",
+      "activation": "queried",
+      "direction": "neutral",
+      "salience": "secondary",
+      "confidence": 0.86,
+      "evidence_ids": [
+        "E1"
+      ],
+      "explanation": "Clarifies a timing condition for how the proposed account and rollover work.",
+      "decision_link": "none"
+    },
+    {
+      "rationale_id": "R2",
+      "rationale_label": "product_success_factor_assessment",
+      "utterance_type": "question",
+      "activation": "queried",
+      "direction": "neutral",
+      "salience": "secondary",
+      "confidence": 0.93,
+      "evidence_ids": [
+        "E2"
+      ],
+      "explanation": "Queries whether the automated, low-maintenance account path is the product's key success factor and how it handles existing 529 holders.",
+      "decision_link": "none"
+    },
+    {
+      "rationale_id": "R3",
+      "rationale_label": "founder_execution",
+      "utterance_type": "question",
+      "activation": "queried",
+      "direction": "neutral",
+      "salience": "secondary",
+      "confidence": 0.94,
+      "evidence_ids": [
+        "E3"
+      ],
+      "explanation": "Requests evidence about the founder's prior scaling execution and repeatable growth playbook.",
+      "decision_link": "none"
+    },
+    {
+      "rationale_id": "R4",
+      "rationale_label": "founder_investor_vision_alignment",
+      "utterance_type": "question",
+      "activation": "queried",
+      "direction": "neutral",
+      "salience": "secondary",
+      "confidence": 0.91,
+      "evidence_ids": [
+        "E4"
+      ],
+      "explanation": "Tests the founder's long-term vision for the company's role in managing family finances.",
+      "decision_link": "none"
+    },
+    {
+      "rationale_id": "R5",
+      "rationale_label": "competitive_advantage_assessment",
+      "utterance_type": "question",
+      "activation": "queried",
+      "direction": "neutral",
+      "salience": "secondary",
+      "confidence": 0.84,
+      "evidence_ids": [
+        "E4"
+      ],
+      "explanation": "Asks which incumbent or layer of the financial system would be displaced if the company succeeds.",
+      "decision_link": "none"
+    },
+    {
+      "rationale_id": "R6",
+      "rationale_label": "investor_domain_knowledge_constraint",
+      "utterance_type": "decision_reason",
+      "activation": "evaluated",
+      "direction": "negative",
+      "salience": "primary",
+      "confidence": 0.99,
+      "evidence_ids": [
+        "E5"
+      ],
+      "explanation": "Jesse explicitly states limited fintech investing experience and an education gap, directly connecting that constraint to whether to invest now or follow up later.",
+      "decision_link": "explicit"
+    },
+    {
+      "rationale_id": "R7",
+      "rationale_label": "product_appeal_assessment",
+      "utterance_type": "assessment",
+      "activation": "evaluated",
+      "direction": "positive",
+      "salience": "secondary",
+      "confidence": 0.98,
+      "evidence_ids": [
+        "E5"
+      ],
+      "explanation": "Jesse explicitly describes himself as super intrigued by the opportunity.",
+      "decision_link": "none"
+    },
+    {
+      "rationale_id": "R8",
+      "rationale_label": "product_adoption",
+      "utterance_type": "assessment",
+      "activation": "evaluated",
+      "direction": "positive",
+      "salience": "secondary",
+      "confidence": 0.97,
+      "evidence_ids": [
+        "E5"
+      ],
+      "explanation": "Jesse explicitly cites product-market fit as a positive company attribute.",
+      "decision_link": "none"
+    },
+    {
+      "rationale_id": "R9",
+      "rationale_label": "founder_execution",
+      "utterance_type": "assessment",
+      "activation": "evaluated",
+      "direction": "positive",
+      "salience": "secondary",
+      "confidence": 0.97,
+      "evidence_ids": [
+        "E5"
+      ],
+      "explanation": "Jesse positively assesses the founder as a multi-time founder who understands the business and could win in the space.",
+      "decision_link": "none"
+    }
+  ],
+  "unmapped_utterances": [],
+  "audit_flags": [
+    "The audited Out decision is conditional and accompanied by explicit intrigue and interest in follow-up."
+  ],
+  "annotation_summary": "Jesse's primary stated reason for not investing immediately is a fintech domain-knowledge gap. He simultaneously expresses strong positive views about the product-market fit and founder, with interest in possible future participation."
+}

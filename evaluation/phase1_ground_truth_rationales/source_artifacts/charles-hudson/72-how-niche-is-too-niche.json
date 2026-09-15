@@ -1,0 +1,110 @@
+{
+  "schema": "transcript-observed-rationales-v1",
+  "episode_slug": "72-how-niche-is-too-niche",
+  "transcript_sha256": "5167bcefc3730dde5cfa6d0ac399c1feb48b6f220e72c3c5c1849144aad2bcf5",
+  "window": {
+    "start_turn": 2,
+    "end_turn": 36
+  },
+  "observed_decision": "Out",
+  "decision_evidence_ids": [
+    "E3"
+  ],
+  "evidence_registry": [
+    {
+      "evidence_id": "E1",
+      "turn_index": 11,
+      "speaker": "Charles",
+      "text": "It's a nice size black box we got here."
+    },
+    {
+      "evidence_id": "E2",
+      "turn_index": 19,
+      "speaker": "Charles",
+      "text": "How many, how many trips per item? Like, what's your model? Like should a bar like that last me for? This is a huge issue in our family. So you have me on the market size already in that particular, because this is an issue in our household. I won't say more than that. But um what, what's your model for how often someone should replenish it? And what your customers expect in terms of uses per turn?"
+    },
+    {
+      "evidence_id": "E3",
+      "turn_index": 36,
+      "speaker": "Charles",
+      "text": "So I should just be honest. I have a waterless shampoo company in my portfolio, I have a black travel company in my portfolio, and I also have a natural hair care salon grade product company in my portfolio. So I am probably like triply conflicted out of this. Based on those conflicts, I'm going to have to pass."
+    }
+  ],
+  "rationales": [
+    {
+      "rationale_id": "R1",
+      "rationale_label": "product_appeal_assessment",
+      "utterance_type": "assessment",
+      "activation": "evaluated",
+      "direction": "positive",
+      "salience": "secondary",
+      "confidence": 0.99,
+      "evidence_ids": [
+        "E1"
+      ],
+      "explanation": "Charles positively comments on the product packaging's size.",
+      "decision_link": "none"
+    },
+    {
+      "rationale_id": "R2",
+      "rationale_label": "business_model_assessment",
+      "utterance_type": "question",
+      "activation": "queried",
+      "direction": "neutral",
+      "salience": "secondary",
+      "confidence": 0.98,
+      "evidence_ids": [
+        "E2"
+      ],
+      "explanation": "Charles asks about product usage frequency, replenishment, and the company's repeat-purchase model.",
+      "decision_link": "none"
+    },
+    {
+      "rationale_id": "R3",
+      "rationale_label": "market_problem_validation",
+      "utterance_type": "assessment",
+      "activation": "evaluated",
+      "direction": "positive",
+      "salience": "secondary",
+      "confidence": 0.99,
+      "evidence_ids": [
+        "E2"
+      ],
+      "explanation": "Charles states that the problem is a huge issue in his family and household.",
+      "decision_link": "none"
+    },
+    {
+      "rationale_id": "R4",
+      "rationale_label": "market_size_assessment",
+      "utterance_type": "assessment",
+      "activation": "evaluated",
+      "direction": "positive",
+      "salience": "secondary",
+      "confidence": 0.99,
+      "evidence_ids": [
+        "E2"
+      ],
+      "explanation": "Charles explicitly says the market size has already persuaded him in this particular area.",
+      "decision_link": "none"
+    },
+    {
+      "rationale_id": "R5",
+      "rationale_label": "portfolio_conflict_constraint",
+      "utterance_type": "decision_reason",
+      "activation": "evaluated",
+      "direction": "negative",
+      "salience": "primary",
+      "confidence": 1.0,
+      "evidence_ids": [
+        "E3"
+      ],
+      "explanation": "Charles identifies three overlapping portfolio companies and explicitly attributes his decision to pass to those conflicts.",
+      "decision_link": "explicit"
+    }
+  ],
+  "unmapped_utterances": [
+    "Turn 3: Hi, I'm Charles, nice to meet you."
+  ],
+  "audit_flags": [],
+  "annotation_summary": "Charles expresses positive product and market observations, queries replenishment economics, and explicitly passes because of three portfolio conflicts."
+}

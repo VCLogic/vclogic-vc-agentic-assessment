@@ -1,0 +1,122 @@
+{
+  "actual_decision": "In",
+  "boundary_turn_index": 66,
+  "canonical_pitch_path": "inputs/data/investors/charles-hudson-precursor-ventures/pitches/152-oma-health.txt",
+  "canonical_pitch_sha256": "058ee7080fd5d94b3a3cf9f46402f31f1233ce3d969f4c87f94f2ef46d141d60",
+  "episode_path": "../agentic-vc-clone-framework/data/episodes/152-oma-health.json",
+  "episode_sha256": "7354d6808f2760eb05ddbaedb9464575f80f6d5a3447b886382e8063abc66f3d",
+  "episode_slug": "152-oma-health",
+  "insertions": [
+    {
+      "answer_turn_index": 17,
+      "canonical_line_index": 9,
+      "original_speaker": "Mac",
+      "question": "You mentioned there, but you didn't go into any detail, about your background. Could you please share more? Love the personal story, but love to know more about your professional background.",
+      "source_turn_index": 16
+    },
+    {
+      "answer_turn_index": 19,
+      "canonical_line_index": 10,
+      "original_speaker": "Mac",
+      "question": "I know you're raising a million for this pre seed, but can you tell us what stage of development is the company?",
+      "source_turn_index": 18
+    },
+    {
+      "answer_turn_index": 21,
+      "canonical_line_index": 11,
+      "original_speaker": "Mac",
+      "question": "And what's the timeline for the launch?",
+      "source_turn_index": 20
+    },
+    {
+      "answer_turn_index": 23,
+      "canonical_line_index": 13,
+      "original_speaker": "Cyan",
+      "question": "Can you walk me through the product experience? So I'm signing up with you. I'm a nurse practitioner. I want to open a practice. What is that experience like?",
+      "source_turn_index": 22
+    },
+    {
+      "answer_turn_index": 30,
+      "canonical_line_index": 16,
+      "original_speaker": "Cyan",
+      "question": "And how much of the one million have you raised?",
+      "source_turn_index": 29
+    },
+    {
+      "answer_turn_index": 35,
+      "canonical_line_index": 19,
+      "original_speaker": "Jesse",
+      "question": "First off, in the last couple of weeks, I've seen a few companies that are, that are trying to tackle this massive gap and challenge and I think it's, it's an amazing mission and you clearly are well aligned with that as a founder. There's obviously the out of pocket costs that consumers are facing in this and then there's the insurance side of the healthcare system, which is a mess for, you know, - to not curse. I'm curious about sort of going off of that, sort of how deep are you going with them into this healthcare system? To your point about credentialing, but are you helping them with the payers and the insurance billing if they're doing that, or is it you start with out of pocket?",
+      "source_turn_index": 34
+    },
+    {
+      "answer_turn_index": 39,
+      "canonical_line_index": 21,
+      "original_speaker": "Jesse",
+      "question": "And when, you think about initial revenue streams, business model, are you starting as a service layer for the practitioners? So they pay you -",
+      "source_turn_index": 38
+    },
+    {
+      "answer_turn_index": 41,
+      "canonical_line_index": 22,
+      "original_speaker": "Jesse",
+      "question": "- instead of paying for an office assistant, they pay you?",
+      "source_turn_index": 40
+    },
+    {
+      "answer_turn_index": 52,
+      "canonical_line_index": 30,
+      "original_speaker": "Mac",
+      "question": "And what percentage of them do you think would be, would you, you think would be considered cultural competency?",
+      "source_turn_index": 51
+    },
+    {
+      "answer_turn_index": 61,
+      "canonical_line_index": 35,
+      "original_speaker": "Cyan",
+      "question": "And, you know, nurse practitioners, did they put a cap on how many can get licensed per year? Cause they do that with doctors.",
+      "source_turn_index": 60
+    }
+  ],
+  "leakage_checklist": {
+    "founder_content_added": false,
+    "other_investor_identity_model_visible": false,
+    "post_boundary_turn_retained": false,
+    "target_investor_turn_retained": false,
+    "verdict_or_offer_turn_retained": false
+  },
+  "neutral_speaker_label": "Panel Investor",
+  "omitted_candidates": [
+    {
+      "original_speaker": "Cyan",
+      "reason": "founder_answer_not_in_canonical_pitch",
+      "source_turn_index": 27,
+      "text": "And how much of the one million have you raised?"
+    },
+    {
+      "original_speaker": "Mac",
+      "reason": "question_already_present",
+      "source_turn_index": 42,
+      "text": "What's that take rate? What's the percentage?"
+    },
+    {
+      "original_speaker": "Jesse",
+      "reason": "question_already_present",
+      "source_turn_index": 47,
+      "text": "How do you think about the average revenue in year one for each of these nurse practitioners?"
+    },
+    {
+      "original_speaker": "Mac",
+      "reason": "question_already_present",
+      "source_turn_index": 49,
+      "text": "Can you tell me how many nurse practitioners are there out there today"
+    }
+  ],
+  "pitch_sha256": "7abc9ae977f131707d26386b186b967528df0efda4e46bd7269e1c7247677bb9",
+  "registry_vc_slug": "charles-hudson",
+  "schema": "panel-question-pitch-audit-v1",
+  "source_record_path": "inputs/data/investors/charles-hudson-precursor-ventures/precedents/records/152-oma-health.json",
+  "source_record_sha256": "ba0150967f4eaaa10509768d69e89496a41462d854936dfa07fb740294affcfe",
+  "status": "audited",
+  "vc_slug": "charles-hudson-precursor-ventures"
+}

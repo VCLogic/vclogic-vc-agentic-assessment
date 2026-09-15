@@ -1,0 +1,319 @@
+{
+  "schema": "transcript-observed-rationales-v1",
+  "episode_slug": "51-this-bot-can-fight-your-atm-fees",
+  "transcript_sha256": "6bff70d4f1858c95e875c86b8d12b08073656a8ae1328a5595d716fd341321ef",
+  "window": {
+    "start_turn": 0,
+    "end_turn": 102
+  },
+  "observed_decision": "In",
+  "decision_evidence_ids": [
+    "E12"
+  ],
+  "evidence_registry": [
+    {
+      "evidence_id": "E1",
+      "turn_index": 2,
+      "speaker": "Phil",
+      "text": "Call my parents."
+    },
+    {
+      "evidence_id": "E2",
+      "turn_index": 17,
+      "speaker": "Phil",
+      "text": "You customize it to that degree?"
+    },
+    {
+      "evidence_id": "E3",
+      "turn_index": 19,
+      "speaker": "Phil",
+      "text": "Well, let's say, in your example, I don't have a high balance and I've only had the account for a few months. You'll come up with other good justifications for waiving the fees. I love that."
+    },
+    {
+      "evidence_id": "E4",
+      "turn_index": 28,
+      "speaker": "Phil",
+      "text": "How do you know when the right time is? How do you know what that timing piece is?"
+    },
+    {
+      "evidence_id": "E5",
+      "turn_index": 41,
+      "speaker": "Phil",
+      "text": "And just to make Michael’s point, also, if this gets super, super successful, banks could decide look, we’re not ever going to waive fees anymore. Because this is getting ridiculous."
+    },
+    {
+      "evidence_id": "E6",
+      "turn_index": 45,
+      "speaker": "Phil",
+      "text": "What are the next set..."
+    },
+    {
+      "evidence_id": "E7",
+      "turn_index": 48,
+      "speaker": "Phil",
+      "text": "Do you have the unclaimed assets functionality already working?"
+    },
+    {
+      "evidence_id": "E8",
+      "turn_index": 55,
+      "speaker": "Phil",
+      "text": "So there’s lots of companies that help you get the best credit card."
+    },
+    {
+      "evidence_id": "E9",
+      "turn_index": 68,
+      "speaker": "Phil",
+      "text": "Because you’re using a different aggregator other than Plaid?"
+    },
+    {
+      "evidence_id": "E10",
+      "turn_index": 73,
+      "speaker": "Phil",
+      "text": "When you start charging, how do you think customers will react? Even though they’ll see this as getting their fees waived, getting a refund, when they have to pay 25% to you, how do you think they’ll react to that?"
+    },
+    {
+      "evidence_id": "E11",
+      "turn_index": 75,
+      "speaker": "Phil",
+      "text": "I’m just trying to understand... So the existential risk I’m worried about for the company is that you’ll ultimately get pushback from the banks who will say, we’re not going to work with these, with this company anymore. We’re not going to allow this kind of... And maybe they can’t figure out if it is automated or not. I don’t know. But let’s say they do. I just want to hear from you, what do you think the reason is that they would not pushback like that?"
+    },
+    {
+      "evidence_id": "E12",
+      "turn_index": 102,
+      "speaker": "Phil",
+      "text": "Let me just say, I really like what you're doing. Firstly, I think you do have a clear vision of what you want this company to become. But it is early, right? And normally I don't look at pre-revenue companies. I really like this. I especially think the automation of it is, and the machine learning that you're putting into it, is smart. So I want to invest. I really want to invest. The valuation sort of range that you're talking about is very high, especially for pre-revenue. So for me, I want to see what valuation you arrive at with the lead investor. I want to see who the lead investor is, If the number is reasonable, the terms are reasonable, and it's a good lead investor, then I'm likely in."
+    }
+  ],
+  "rationales": [
+    {
+      "rationale_id": "R1",
+      "rationale_label": "product_success_factor_assessment",
+      "utterance_type": "question",
+      "activation": "queried",
+      "direction": "neutral",
+      "salience": "secondary",
+      "confidence": 0.96,
+      "evidence_ids": [
+        "E2"
+      ],
+      "explanation": "Queries the degree of individualized message customization as a product capability.",
+      "decision_link": "none"
+    },
+    {
+      "rationale_id": "R2",
+      "rationale_label": "product_appeal_assessment",
+      "utterance_type": "assessment",
+      "activation": "evaluated",
+      "direction": "positive",
+      "salience": "secondary",
+      "confidence": 0.99,
+      "evidence_ids": [
+        "E3"
+      ],
+      "explanation": "Expresses strong approval of the bot generating alternative fee-waiver justifications.",
+      "decision_link": "none"
+    },
+    {
+      "rationale_id": "R3",
+      "rationale_label": "solution_feasibility_assessment",
+      "utterance_type": "question",
+      "activation": "queried",
+      "direction": "neutral",
+      "salience": "secondary",
+      "confidence": 0.96,
+      "evidence_ids": [
+        "E4"
+      ],
+      "explanation": "Probes how the system determines the appropriate timing for re-approaching a bank.",
+      "decision_link": "none"
+    },
+    {
+      "rationale_id": "R4",
+      "rationale_label": "business_viability_concern",
+      "utterance_type": "assessment",
+      "activation": "evaluated",
+      "direction": "negative",
+      "salience": "primary",
+      "confidence": 0.99,
+      "evidence_ids": [
+        "E5",
+        "E11"
+      ],
+      "explanation": "Raises the risk that banks could stop cooperating or block the automated fee-refund model, explicitly describing this as an existential company risk.",
+      "decision_link": "none"
+    },
+    {
+      "rationale_id": "R5",
+      "rationale_label": "founder_investor_vision_alignment",
+      "utterance_type": "question",
+      "activation": "queried",
+      "direction": "neutral",
+      "salience": "secondary",
+      "confidence": 0.91,
+      "evidence_ids": [
+        "E6"
+      ],
+      "explanation": "Asks about the founder’s intended next product direction and roadmap.",
+      "decision_link": "none"
+    },
+    {
+      "rationale_id": "R6",
+      "rationale_label": "solution_feasibility_assessment",
+      "utterance_type": "question",
+      "activation": "queried",
+      "direction": "neutral",
+      "salience": "secondary",
+      "confidence": 0.98,
+      "evidence_ids": [
+        "E7"
+      ],
+      "explanation": "Checks whether the proposed unclaimed-assets expansion is already operational.",
+      "decision_link": "none"
+    },
+    {
+      "rationale_id": "R7",
+      "rationale_label": "competitive_intensity_concern",
+      "utterance_type": "assessment",
+      "activation": "evaluated",
+      "direction": "neutral",
+      "salience": "secondary",
+      "confidence": 0.86,
+      "evidence_ids": [
+        "E8"
+      ],
+      "explanation": "Observes that many companies already help consumers choose credit cards; Phil does not state a further judgment in this utterance.",
+      "decision_link": "none"
+    },
+    {
+      "rationale_id": "R8",
+      "rationale_label": "solution_feasibility_assessment",
+      "utterance_type": "question",
+      "activation": "queried",
+      "direction": "neutral",
+      "salience": "secondary",
+      "confidence": 0.94,
+      "evidence_ids": [
+        "E9"
+      ],
+      "explanation": "Queries the technical infrastructure choice underlying the company’s ability to take account actions.",
+      "decision_link": "none"
+    },
+    {
+      "rationale_id": "R9",
+      "rationale_label": "business_model_assessment",
+      "utterance_type": "question",
+      "activation": "queried",
+      "direction": "neutral",
+      "salience": "secondary",
+      "confidence": 0.99,
+      "evidence_ids": [
+        "E10"
+      ],
+      "explanation": "Asks how customers will respond to the 25% performance-based monetization model.",
+      "decision_link": "none"
+    },
+    {
+      "rationale_id": "R10",
+      "rationale_label": "founder_investor_vision_alignment",
+      "utterance_type": "decision_reason",
+      "activation": "evaluated",
+      "direction": "positive",
+      "salience": "primary",
+      "confidence": 0.97,
+      "evidence_ids": [
+        "E12"
+      ],
+      "explanation": "Uses the founder’s clear vision for the company as a positive reason supporting investment.",
+      "decision_link": "explicit"
+    },
+    {
+      "rationale_id": "R11",
+      "rationale_label": "investment_thesis_constraint",
+      "utterance_type": "decision_reason",
+      "activation": "evaluated",
+      "direction": "negative",
+      "salience": "secondary",
+      "confidence": 0.98,
+      "evidence_ids": [
+        "E12"
+      ],
+      "explanation": "States that Phil normally does not invest in pre-revenue companies, identifying an explicit stage-related constraint.",
+      "decision_link": "explicit"
+    },
+    {
+      "rationale_id": "R12",
+      "rationale_label": "product_appeal_assessment",
+      "utterance_type": "decision_reason",
+      "activation": "evaluated",
+      "direction": "positive",
+      "salience": "secondary",
+      "confidence": 0.97,
+      "evidence_ids": [
+        "E12"
+      ],
+      "explanation": "Expresses strong positive reaction to the company and product.",
+      "decision_link": "explicit"
+    },
+    {
+      "rationale_id": "R13",
+      "rationale_label": "product_success_factor_assessment",
+      "utterance_type": "decision_reason",
+      "activation": "evaluated",
+      "direction": "positive",
+      "salience": "primary",
+      "confidence": 0.99,
+      "evidence_ids": [
+        "E12"
+      ],
+      "explanation": "Identifies the automation and machine learning as smart, important product attributes supporting the investment decision.",
+      "decision_link": "explicit"
+    },
+    {
+      "rationale_id": "R14",
+      "rationale_label": "stage_valuation_mismatch",
+      "utterance_type": "decision_reason",
+      "activation": "evaluated",
+      "direction": "negative",
+      "salience": "primary",
+      "confidence": 0.99,
+      "evidence_ids": [
+        "E12"
+      ],
+      "explanation": "Judges the proposed valuation range to be very high relative to the company’s early, pre-revenue stage.",
+      "decision_link": "explicit"
+    },
+    {
+      "rationale_id": "R15",
+      "rationale_label": "investor_value_add_fit",
+      "utterance_type": "decision_reason",
+      "activation": "evaluated",
+      "direction": "positive",
+      "salience": "primary",
+      "confidence": 0.98,
+      "evidence_ids": [
+        "E12"
+      ],
+      "explanation": "Makes investment conditional on seeing a good lead investor, indicating that lead-investor quality matters to the decision.",
+      "decision_link": "explicit"
+    },
+    {
+      "rationale_id": "R16",
+      "rationale_label": "deal_terms_complexity_concern",
+      "utterance_type": "decision_reason",
+      "activation": "evaluated",
+      "direction": "negative",
+      "salience": "secondary",
+      "confidence": 0.91,
+      "evidence_ids": [
+        "E12"
+      ],
+      "explanation": "Conditions investment on the financing terms being reasonable; no specific unfavorable term is named.",
+      "decision_link": "explicit"
+    }
+  ],
+  "unmapped_utterances": [
+    "Call my parents."
+  ],
+  "audit_flags": [],
+  "annotation_summary": "Phil expresses positive views of the product, automation, machine learning, and company vision, while flagging bank pushback and the early pre-revenue stage. His explicit decision is In, conditional on a reasonable valuation, reasonable terms, and a good lead investor."
+}

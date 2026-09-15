@@ -1,0 +1,171 @@
+{
+  "schema": "transcript-observed-rationales-v1",
+  "episode_slug": "140-gecko-materials",
+  "transcript_sha256": "7137c27df00175a7db486bd330450ce36b44845cb6ad1d329648bb8b13d65508",
+  "window": {
+    "start_turn": 3,
+    "end_turn": 76
+  },
+  "observed_decision": "Out",
+  "decision_evidence_ids": [
+    "E8"
+  ],
+  "evidence_registry": [
+    {
+      "evidence_id": "E1",
+      "turn_index": 9,
+      "speaker": "Charles",
+      "text": "That's really trippy."
+    },
+    {
+      "evidence_id": "E2",
+      "turn_index": 11,
+      "speaker": "Charles",
+      "text": "That's super trippy. Wow."
+    },
+    {
+      "evidence_id": "E3",
+      "turn_index": 13,
+      "speaker": "Charles",
+      "text": "That is bullets. It's pretty, pretty amazing."
+    },
+    {
+      "evidence_id": "E4",
+      "turn_index": 14,
+      "speaker": "Charles",
+      "text": "The 'feel me' is cool."
+    },
+    {
+      "evidence_id": "E5",
+      "turn_index": 16,
+      "speaker": "Charles",
+      "text": "No, it feels like rubber."
+    },
+    {
+      "evidence_id": "E6",
+      "turn_index": 18,
+      "speaker": "Charles",
+      "text": "Except this one actually works."
+    },
+    {
+      "evidence_id": "E7",
+      "turn_index": 66,
+      "speaker": "Charles",
+      "text": "Can you just talk a bit about what the $8 million allows you to do and kind of what the company looks like on the other side of that."
+    },
+    {
+      "evidence_id": "E8",
+      "turn_index": 76,
+      "speaker": "Charles",
+      "text": "I think I'm in the same boat as Cyan. It's a bit beyond what we would do at Precursor, but this is super interesting. And I… I have some hardware companies in our portfolio. One in particular that I think could - you could solve some challenges that they've been struggling with."
+    }
+  ],
+  "rationales": [
+    {
+      "rationale_id": "R1",
+      "rationale_label": "product_appeal_assessment",
+      "utterance_type": "assessment",
+      "activation": "evaluated",
+      "direction": "positive",
+      "salience": "secondary",
+      "confidence": 0.98,
+      "evidence_ids": [
+        "E1",
+        "E2",
+        "E3",
+        "E4"
+      ],
+      "explanation": "Charles expresses strong positive reactions to the product demonstration and tactile product experience.",
+      "decision_link": "none"
+    },
+    {
+      "rationale_id": "R2",
+      "rationale_label": "product_appeal_assessment",
+      "utterance_type": "assessment",
+      "activation": "evaluated",
+      "direction": "neutral",
+      "salience": "secondary",
+      "confidence": 0.9,
+      "evidence_ids": [
+        "E5"
+      ],
+      "explanation": "Charles describes the product's physical feel based on his direct experience without expressing a clearly positive or negative judgment.",
+      "decision_link": "none"
+    },
+    {
+      "rationale_id": "R3",
+      "rationale_label": "solution_feasibility_assessment",
+      "utterance_type": "assessment",
+      "activation": "evaluated",
+      "direction": "positive",
+      "salience": "secondary",
+      "confidence": 0.99,
+      "evidence_ids": [
+        "E6"
+      ],
+      "explanation": "Charles explicitly confirms that the product works in practice.",
+      "decision_link": "none"
+    },
+    {
+      "rationale_id": "R4",
+      "rationale_label": "capital_intensity_concern",
+      "utterance_type": "question",
+      "activation": "queried",
+      "direction": "neutral",
+      "salience": "secondary",
+      "confidence": 0.82,
+      "evidence_ids": [
+        "E7"
+      ],
+      "explanation": "Charles asks how the $8 million would be used and what the company would become afterward, querying the funding requirement and resulting scale without stating a negative judgment.",
+      "decision_link": "none"
+    },
+    {
+      "rationale_id": "R5",
+      "rationale_label": "investment_thesis_constraint",
+      "utterance_type": "decision_reason",
+      "activation": "evaluated",
+      "direction": "negative",
+      "salience": "primary",
+      "confidence": 0.99,
+      "evidence_ids": [
+        "E8"
+      ],
+      "explanation": "Charles directly says the opportunity is beyond what Precursor would do, explicitly linking the stage or fit mismatch to the Out decision.",
+      "decision_link": "explicit"
+    },
+    {
+      "rationale_id": "R6",
+      "rationale_label": "product_appeal_assessment",
+      "utterance_type": "assessment",
+      "activation": "evaluated",
+      "direction": "positive",
+      "salience": "secondary",
+      "confidence": 0.98,
+      "evidence_ids": [
+        "E8"
+      ],
+      "explanation": "Charles calls the opportunity super interesting despite deciding it is outside Precursor's scope.",
+      "decision_link": "none"
+    },
+    {
+      "rationale_id": "R7",
+      "rationale_label": "investor_value_add_fit",
+      "utterance_type": "assessment",
+      "activation": "evaluated",
+      "direction": "positive",
+      "salience": "secondary",
+      "confidence": 0.9,
+      "evidence_ids": [
+        "E8"
+      ],
+      "explanation": "Charles identifies a hardware portfolio company facing challenges that the product may help solve, indicating potential portfolio and network fit.",
+      "decision_link": "none"
+    }
+  ],
+  "unmapped_utterances": [
+    "I'm good."
+  ],
+  "audit_flags": [],
+  "annotation_summary": "Charles's Out decision is explicitly attributed to the opportunity being beyond Precursor's investment scope, while his other substantive comments show strong product interest and potential portfolio-company applicability."
+}

@@ -1,0 +1,126 @@
+{
+  "schema": "transcript-observed-rationales-v1",
+  "episode_slug": "168-finnecto-where-deals-dont-die",
+  "transcript_sha256": "3612f55c26c5ab1e828c8b87fd64d6cb3712c56f138b7154a911d35fe204b1b2",
+  "window": {
+    "start_turn": 0,
+    "end_turn": 75
+  },
+  "observed_decision": "Out",
+  "decision_evidence_ids": [
+    "E3"
+  ],
+  "evidence_registry": [
+    {
+      "evidence_id": "E1",
+      "turn_index": 9,
+      "speaker": "Charles",
+      "text": "I think I just made a facial expression which was like, woah, that's where deals go to die."
+    },
+    {
+      "evidence_id": "E2",
+      "turn_index": 27,
+      "speaker": "Charles",
+      "text": "Can you talk more about the business model?"
+    },
+    {
+      "evidence_id": "E3",
+      "turn_index": 75,
+      "speaker": "Charles",
+      "text": "I think you're super impressive and I'm still wrapping my head around how capital efficient and low cost operation is. I think I'm gonna be out just 'cause this is a category where I've had a really hard time finding companies that can scale, but you seem incredibly qualified to go after this and. And getting customers in four countries at this early point. It's something that's really impressive."
+    }
+  ],
+  "rationales": [
+    {
+      "rationale_id": "R1",
+      "rationale_label": "market_problem_validation",
+      "utterance_type": "assessment",
+      "activation": "evaluated",
+      "direction": "positive",
+      "salience": "secondary",
+      "confidence": 0.94,
+      "evidence_ids": [
+        "E1"
+      ],
+      "explanation": "Charles characterizes procurement friction as severe enough for deals to die, recognizing a real and painful underlying problem.",
+      "decision_link": "none"
+    },
+    {
+      "rationale_id": "R2",
+      "rationale_label": "business_model_assessment",
+      "utterance_type": "question",
+      "activation": "queried",
+      "direction": "neutral",
+      "salience": "primary",
+      "confidence": 0.99,
+      "evidence_ids": [
+        "E2"
+      ],
+      "explanation": "Charles requests more information about the company's business model without expressing a judgment.",
+      "decision_link": "none"
+    },
+    {
+      "rationale_id": "R3",
+      "rationale_label": "unit_economics_assessment",
+      "utterance_type": "assessment",
+      "activation": "evaluated",
+      "direction": "positive",
+      "salience": "secondary",
+      "confidence": 0.98,
+      "evidence_ids": [
+        "E3"
+      ],
+      "explanation": "Charles explicitly praises the operation as capital efficient and low cost.",
+      "decision_link": "none"
+    },
+    {
+      "rationale_id": "R4",
+      "rationale_label": "venture_scale_concern",
+      "utterance_type": "decision_reason",
+      "activation": "evaluated",
+      "direction": "negative",
+      "salience": "primary",
+      "confidence": 1.0,
+      "evidence_ids": [
+        "E3"
+      ],
+      "explanation": "Charles directly links his decision to leave out because he has had difficulty finding companies in this category that can scale.",
+      "decision_link": "explicit"
+    },
+    {
+      "rationale_id": "R5",
+      "rationale_label": "founder_qualities",
+      "utterance_type": "assessment",
+      "activation": "evaluated",
+      "direction": "positive",
+      "salience": "secondary",
+      "confidence": 0.97,
+      "evidence_ids": [
+        "E3"
+      ],
+      "explanation": "Charles describes Ariel as super impressive and incredibly qualified to pursue the opportunity.",
+      "decision_link": "none"
+    },
+    {
+      "rationale_id": "R6",
+      "rationale_label": "founder_execution",
+      "utterance_type": "assessment",
+      "activation": "evaluated",
+      "direction": "positive",
+      "salience": "secondary",
+      "confidence": 0.98,
+      "evidence_ids": [
+        "E3"
+      ],
+      "explanation": "Charles finds obtaining customers in four countries at this early stage especially impressive, indicating strong early execution.",
+      "decision_link": "none"
+    }
+  ],
+  "unmapped_utterances": [
+    "Hey, Charles, nice to meet you.",
+    "Jeez",
+    "Okay"
+  ],
+  "audit_flags": [],
+  "annotation_summary": "Charles's explicit Out rationale is concern about the category's ability to scale. He also positively assesses the company's capital efficiency, the founder, and early cross-country customer acquisition, and asks about the business model."
+}

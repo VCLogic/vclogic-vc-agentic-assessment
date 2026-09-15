@@ -1,0 +1,140 @@
+{
+  "schema": "transcript-observed-rationales-v1",
+  "episode_slug": "118-uncovered-the-business-of-true-crime",
+  "transcript_sha256": "01e5c114e5ba52a6a9a5dcbbeb68a546fa842ee61066a5919cac7a12a55dc7ba",
+  "window": {
+    "start_turn": 0,
+    "end_turn": 72
+  },
+  "observed_decision": "Out",
+  "decision_evidence_ids": [
+    "E3"
+  ],
+  "evidence_registry": [
+    {
+      "evidence_id": "E1",
+      "turn_index": 26,
+      "speaker": "Elizabeth",
+      "text": "How does the community end up being able to help?"
+    },
+    {
+      "evidence_id": "E2",
+      "turn_index": 56,
+      "speaker": "Elizabeth",
+      "text": "May I ask you what your revenue is today and what your burn rate is?"
+    },
+    {
+      "evidence_id": "E3",
+      "turn_index": 72,
+      "speaker": "Elizabeth",
+      "text": "I think it's very impressive that you've built this site to, you know, 26,000 subscribers and you have people paying you paid memberships. My background is in ads and media companies. And one of the things that I have learned in building these two companies is that there's often so many things to do. There's selling ads, you're selling memberships, now you're talking about selling API access potentially. And it is often really hard to get growth and do all of these things with a small team. I have felt that personally. The crux actually in building a successful media business is around focusing on just one or two things. But just given all that is going on in the business, I think for me, I'm gonna sit out. I - I know that you will just need so much focus in order to get to the next level."
+    }
+  ],
+  "rationales": [
+    {
+      "rationale_id": "R1",
+      "rationale_label": "solution_feasibility_assessment",
+      "utterance_type": "question",
+      "activation": "queried",
+      "direction": "neutral",
+      "salience": "secondary",
+      "confidence": 0.96,
+      "evidence_ids": [
+        "E1"
+      ],
+      "explanation": "Elizabeth asks how the community can help, probing how the proposed community mechanism works.",
+      "decision_link": "none"
+    },
+    {
+      "rationale_id": "R2",
+      "rationale_label": "business_viability_concern",
+      "utterance_type": "question",
+      "activation": "queried",
+      "direction": "neutral",
+      "salience": "secondary",
+      "confidence": 0.97,
+      "evidence_ids": [
+        "E2"
+      ],
+      "explanation": "Elizabeth asks about current revenue and burn rate to assess the business's financial viability.",
+      "decision_link": "none"
+    },
+    {
+      "rationale_id": "R3",
+      "rationale_label": "product_adoption",
+      "utterance_type": "assessment",
+      "activation": "evaluated",
+      "direction": "positive",
+      "salience": "secondary",
+      "confidence": 0.99,
+      "evidence_ids": [
+        "E3"
+      ],
+      "explanation": "Elizabeth explicitly describes the subscriber base and paid memberships as impressive evidence of adoption.",
+      "decision_link": "none"
+    },
+    {
+      "rationale_id": "R4",
+      "rationale_label": "investor_experience_bias",
+      "utterance_type": "assessment",
+      "activation": "evaluated",
+      "direction": "neutral",
+      "salience": "secondary",
+      "confidence": 0.98,
+      "evidence_ids": [
+        "E3"
+      ],
+      "explanation": "Elizabeth explicitly invokes her background building ads and media companies and says that experience shaped what she learned about operating such businesses.",
+      "decision_link": "explicit"
+    },
+    {
+      "rationale_id": "R5",
+      "rationale_label": "business_model_assessment",
+      "utterance_type": "assessment",
+      "activation": "evaluated",
+      "direction": "negative",
+      "salience": "secondary",
+      "confidence": 0.99,
+      "evidence_ids": [
+        "E3"
+      ],
+      "explanation": "Elizabeth identifies the simultaneous monetization efforts—ads, memberships, and potential API access—as creating too many things to do for a small team.",
+      "decision_link": "explicit"
+    },
+    {
+      "rationale_id": "R6",
+      "rationale_label": "product_success_factor_assessment",
+      "utterance_type": "assessment",
+      "activation": "evaluated",
+      "direction": "negative",
+      "salience": "primary",
+      "confidence": 0.99,
+      "evidence_ids": [
+        "E3"
+      ],
+      "explanation": "Elizabeth states that the crux of building a successful media business is focusing on one or two things, then says the business needs substantial focus to reach the next level.",
+      "decision_link": "explicit"
+    },
+    {
+      "rationale_id": "R7",
+      "rationale_label": "go_to_market_strategy_assessment",
+      "utterance_type": "decision_reason",
+      "activation": "evaluated",
+      "direction": "negative",
+      "salience": "primary",
+      "confidence": 0.99,
+      "evidence_ids": [
+        "E3"
+      ],
+      "explanation": "Elizabeth says it is hard for a small team to achieve growth while pursuing all of the company's activities, and directly connects that concern to sitting out.",
+      "decision_link": "explicit"
+    }
+  ],
+  "unmapped_utterances": [
+    "Morning.",
+    "Hi I’m Elizabeth Yin, general partner at Hustle Fund",
+    "Hi Jim. Elizabeth. Nice to meet you."
+  ],
+  "audit_flags": [],
+  "annotation_summary": "Elizabeth's Out decision is explicitly tied to concern about insufficient focus and the difficulty of growing a media business while pursuing multiple monetization paths with a small team. She also positively acknowledges existing adoption and asks neutral questions about community utility and financials."
+}

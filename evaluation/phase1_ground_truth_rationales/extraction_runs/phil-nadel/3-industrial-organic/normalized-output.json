@@ -1,0 +1,239 @@
+{
+  "schema": "transcript-observed-rationales-v1",
+  "episode_slug": "3-industrial-organic",
+  "transcript_sha256": "06ddf53803300bee68dc0b834e38d4af02a56eb80acb7001d7aecae7a9e5bf80",
+  "window": {
+    "start_turn": 0,
+    "end_turn": 117
+  },
+  "observed_decision": "Out",
+  "decision_evidence_ids": [
+    "E10"
+  ],
+  "evidence_registry": [
+    {
+      "evidence_id": "E1",
+      "turn_index": 4,
+      "speaker": "Phil",
+      "text": "Okay. When you're investing your money, do the right thing. When you're investing my money, pay the minimum you can pay"
+    },
+    {
+      "evidence_id": "E2",
+      "turn_index": 49,
+      "speaker": "Phil",
+      "text": "What's the closest competitor of the technology?"
+    },
+    {
+      "evidence_id": "E3",
+      "turn_index": 51,
+      "speaker": "Phil",
+      "text": "Who’s your first customer?"
+    },
+    {
+      "evidence_id": "E4",
+      "turn_index": 66,
+      "speaker": "Phil",
+      "text": "They're not saving money."
+    },
+    {
+      "evidence_id": "E5",
+      "turn_index": 68,
+      "speaker": "Phil",
+      "text": "I just want to go back to the revenue model because I didn’t finish that off. Because you have this fertilizer as the output. I want to find out..."
+    },
+    {
+      "evidence_id": "E6",
+      "turn_index": 91,
+      "speaker": "Phil",
+      "text": "Why?"
+    },
+    {
+      "evidence_id": "E7",
+      "turn_index": 93,
+      "speaker": "Phil",
+      "text": "Why?"
+    },
+    {
+      "evidence_id": "E8",
+      "turn_index": 98,
+      "speaker": "Phil",
+      "text": "Minimum."
+    },
+    {
+      "evidence_id": "E9",
+      "turn_index": 104,
+      "speaker": "Phil",
+      "text": "I don't see how it's $60,000 a month average."
+    },
+    {
+      "evidence_id": "E10",
+      "turn_index": 117,
+      "speaker": "Phil",
+      "text": "I'm concerned about the operational complexities. I'm concerned about the fact that you're underestimating the amount of capital that you'll need. So for me, for those reasons, I'll pass."
+    }
+  ],
+  "rationales": [
+    {
+      "rationale_id": "R1",
+      "rationale_label": "capital_intensity_concern",
+      "utterance_type": "assessment",
+      "activation": "evaluated",
+      "direction": "negative",
+      "salience": "secondary",
+      "confidence": 0.87,
+      "evidence_ids": [
+        "E1"
+      ],
+      "explanation": "Phil objects to spending investor capital on a higher wage floor.",
+      "decision_link": "none"
+    },
+    {
+      "rationale_id": "R2",
+      "rationale_label": "competitive_advantage_assessment",
+      "utterance_type": "question",
+      "activation": "queried",
+      "direction": "neutral",
+      "salience": "secondary",
+      "confidence": 0.98,
+      "evidence_ids": [
+        "E2"
+      ],
+      "explanation": "Phil probes the competitive context surrounding the technology.",
+      "decision_link": "none"
+    },
+    {
+      "rationale_id": "R3",
+      "rationale_label": "market_entry_path_assessment",
+      "utterance_type": "question",
+      "activation": "queried",
+      "direction": "neutral",
+      "salience": "secondary",
+      "confidence": 0.98,
+      "evidence_ids": [
+        "E3"
+      ],
+      "explanation": "Phil asks about the company’s initial customer path.",
+      "decision_link": "none"
+    },
+    {
+      "rationale_id": "R4",
+      "rationale_label": "business_viability_concern",
+      "utterance_type": "assessment",
+      "activation": "evaluated",
+      "direction": "negative",
+      "salience": "secondary",
+      "confidence": 0.9,
+      "evidence_ids": [
+        "E4"
+      ],
+      "explanation": "Phil identifies a weakness in the customer value proposition: customers are not saving money.",
+      "decision_link": "none"
+    },
+    {
+      "rationale_id": "R5",
+      "rationale_label": "business_model_assessment",
+      "utterance_type": "question",
+      "activation": "queried",
+      "direction": "neutral",
+      "salience": "secondary",
+      "confidence": 0.98,
+      "evidence_ids": [
+        "E5"
+      ],
+      "explanation": "Phil seeks clarification on the revenue model and fertilizer monetization.",
+      "decision_link": "none"
+    },
+    {
+      "rationale_id": "R6",
+      "rationale_label": "capital_intensity_concern",
+      "utterance_type": "question",
+      "activation": "queried",
+      "direction": "neutral",
+      "salience": "secondary",
+      "confidence": 0.93,
+      "evidence_ids": [
+        "E6"
+      ],
+      "explanation": "Phil asks why the proposed wage level is necessary, probing its capital implications.",
+      "decision_link": "none"
+    },
+    {
+      "rationale_id": "R7",
+      "rationale_label": "capital_intensity_concern",
+      "utterance_type": "question",
+      "activation": "queried",
+      "direction": "neutral",
+      "salience": "secondary",
+      "confidence": 0.93,
+      "evidence_ids": [
+        "E7"
+      ],
+      "explanation": "Phil repeats the question about the wage policy and its capital implications.",
+      "decision_link": "none"
+    },
+    {
+      "rationale_id": "R8",
+      "rationale_label": "capital_intensity_concern",
+      "utterance_type": "assessment",
+      "activation": "evaluated",
+      "direction": "negative",
+      "salience": "secondary",
+      "confidence": 0.95,
+      "evidence_ids": [
+        "E8"
+      ],
+      "explanation": "Phil emphasizes that the stated wage is a minimum, reinforcing concern about labor costs.",
+      "decision_link": "none"
+    },
+    {
+      "rationale_id": "R9",
+      "rationale_label": "capital_intensity_concern",
+      "utterance_type": "assessment",
+      "activation": "evaluated",
+      "direction": "negative",
+      "salience": "primary",
+      "confidence": 0.98,
+      "evidence_ids": [
+        "E9"
+      ],
+      "explanation": "Phil rejects the plausibility of the projected average monthly operating cost.",
+      "decision_link": "none"
+    },
+    {
+      "rationale_id": "R10",
+      "rationale_label": "solution_feasibility_assessment",
+      "utterance_type": "decision_reason",
+      "activation": "evaluated",
+      "direction": "negative",
+      "salience": "primary",
+      "confidence": 0.98,
+      "evidence_ids": [
+        "E10"
+      ],
+      "explanation": "Phil explicitly cites operational complexity as a reason to pass.",
+      "decision_link": "explicit"
+    },
+    {
+      "rationale_id": "R11",
+      "rationale_label": "capital_intensity_concern",
+      "utterance_type": "decision_reason",
+      "activation": "evaluated",
+      "direction": "negative",
+      "salience": "primary",
+      "confidence": 0.99,
+      "evidence_ids": [
+        "E10"
+      ],
+      "explanation": "Phil explicitly cites underestimating required capital as a reason to pass.",
+      "decision_link": "explicit"
+    }
+  ],
+  "unmapped_utterances": [
+    "turn 5: I’m Phil Nadel, with Barbara Corcoran Venture Partners",
+    "turn 6: If for some reason, members don’t bite, then the thing falls apart.",
+    "turn 24: We’ll be the judge of that!",
+    "turn 36: If you could turn this stuff into beer, then you got a business."
+  ],
+  "audit_flags": [],
+  "annotation_summary": "Phil’s explicit Out rationale is limited to operational complexity and underestimated capital needs. Earlier supported utterances show related cost and business-model concerns, plus neutral diligence questions."
+}

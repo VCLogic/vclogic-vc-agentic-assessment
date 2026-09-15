@@ -1,0 +1,169 @@
+{
+  "schema": "transcript-observed-rationales-v1",
+  "episode_slug": "168-finnecto-where-deals-dont-die",
+  "transcript_sha256": "3612f55c26c5ab1e828c8b87fd64d6cb3712c56f138b7154a911d35fe204b1b2",
+  "window": {
+    "start_turn": 0,
+    "end_turn": 77
+  },
+  "observed_decision": "Out",
+  "decision_evidence_ids": [
+    "E5"
+  ],
+  "evidence_registry": [
+    {
+      "evidence_id": "E1",
+      "turn_index": 20,
+      "speaker": "Jesse",
+      "text": "Can you talk about sort of how you've approached the sort of integrations in each of these departments, they might use 1, 2, 3, 4 different tools. Every company's a little different. So how do you sort of figure out which integrations you need with which ERPs, has it just been driven by customer demand and, I guess, how many integrations do you think you need to build in order to succeed? Is it hundreds or thousands or are there just like a couple dozen."
+    },
+    {
+      "evidence_id": "E2",
+      "turn_index": 44,
+      "speaker": "Jesse",
+      "text": "Who's the buyer? When, when you're doing those cold calls? Is it the procurement group that's driving this or is it, you were talking about sort of accounting and finance faces the biggest problem here. Have you found that it's just a normal sales process into these or what has that experience been in cold calling."
+    },
+    {
+      "evidence_id": "E3",
+      "turn_index": 46,
+      "speaker": "Jesse",
+      "text": "Have you found that it's just a normal sales process into these or what has that experience been in cold calling."
+    },
+    {
+      "evidence_id": "E4",
+      "turn_index": 48,
+      "speaker": "Jesse",
+      "text": "No budget?"
+    },
+    {
+      "evidence_id": "E5",
+      "turn_index": 77,
+      "speaker": "Jesse",
+      "text": "I am also probably, yeah, we don't do a, a ton in Latin America. We're mostly in the US. We do have an investment in a Latin American company called Fin Cargo. Which is in the sort of payments, debt lending, but for intercountry products. And, and one of the things that they look at is how do they affect procurement processes? We as a firm, I have two other partners and we sort of invest together, but also independently, you know, we make different decisions and I would love to introduce you to my partner who did the Fin Cargo deal. 'cause I feel like he may. Like, click with you better on this. And you're a little on the early side for what we tend to write larger checks in. But I think it'd be good for you to build a relationship and perhaps we get there on this round, but if not, to stay in touch for the next."
+    }
+  ],
+  "rationales": [
+    {
+      "rationale_id": "R1",
+      "rationale_label": "solution_feasibility_assessment",
+      "utterance_type": "question",
+      "activation": "queried",
+      "direction": "neutral",
+      "salience": "secondary",
+      "confidence": 0.98,
+      "evidence_ids": [
+        "E1"
+      ],
+      "explanation": "Jesse asks how the integration burden and ERP coverage will be handled, including the scale of integrations required to succeed.",
+      "decision_link": "none"
+    },
+    {
+      "rationale_id": "R2",
+      "rationale_label": "go_to_market_strategy_assessment",
+      "utterance_type": "question",
+      "activation": "queried",
+      "direction": "neutral",
+      "salience": "secondary",
+      "confidence": 0.99,
+      "evidence_ids": [
+        "E2"
+      ],
+      "explanation": "Jesse asks who the buyer is and what the sales process looks like across procurement, accounting, and finance.",
+      "decision_link": "none"
+    },
+    {
+      "rationale_id": "R3",
+      "rationale_label": "go_to_market_strategy_assessment",
+      "utterance_type": "question",
+      "activation": "queried",
+      "direction": "neutral",
+      "salience": "secondary",
+      "confidence": 0.98,
+      "evidence_ids": [
+        "E3"
+      ],
+      "explanation": "Jesse repeats the question about whether the company has a normal, repeatable sales process.",
+      "decision_link": "none"
+    },
+    {
+      "rationale_id": "R4",
+      "rationale_label": "go_to_market_strategy_assessment",
+      "utterance_type": "question",
+      "activation": "queried",
+      "direction": "neutral",
+      "salience": "secondary",
+      "confidence": 0.96,
+      "evidence_ids": [
+        "E4"
+      ],
+      "explanation": "Jesse probes whether lack of budget explains why purchasing managers expressed interest but did not buy.",
+      "decision_link": "none"
+    },
+    {
+      "rationale_id": "R5",
+      "rationale_label": "investment_thesis_constraint",
+      "utterance_type": "assessment",
+      "activation": "evaluated",
+      "direction": "negative",
+      "salience": "primary",
+      "confidence": 0.99,
+      "evidence_ids": [
+        "E5"
+      ],
+      "explanation": "Jesse states that the firm does little in Latin America and is mostly focused on the US.",
+      "decision_link": "explicit"
+    },
+    {
+      "rationale_id": "R6",
+      "rationale_label": "investor_experience_bias",
+      "utterance_type": "assessment",
+      "activation": "evaluated",
+      "direction": "positive",
+      "salience": "secondary",
+      "confidence": 0.84,
+      "evidence_ids": [
+        "E5"
+      ],
+      "explanation": "Jesse references the firm's existing Latin American investment in Fin Cargo and its relevance to procurement processes as part of assessing the opportunity.",
+      "decision_link": "none"
+    },
+    {
+      "rationale_id": "R7",
+      "rationale_label": "investor_value_add_fit",
+      "utterance_type": "assessment",
+      "activation": "evaluated",
+      "direction": "positive",
+      "salience": "secondary",
+      "confidence": 0.94,
+      "evidence_ids": [
+        "E5"
+      ],
+      "explanation": "Jesse offers an introduction to the partner who led the related Fin Cargo deal because he may be a better fit for the founder.",
+      "decision_link": "none"
+    },
+    {
+      "rationale_id": "R8",
+      "rationale_label": "fund_economics_constraint",
+      "utterance_type": "decision_reason",
+      "activation": "evaluated",
+      "direction": "negative",
+      "salience": "primary",
+      "confidence": 0.99,
+      "evidence_ids": [
+        "E5"
+      ],
+      "explanation": "Jesse directly says the company is too early for the larger checks the firm tends to write.",
+      "decision_link": "explicit"
+    }
+  ],
+  "unmapped_utterances": [
+    "turn 2: Hey, how are you? Great, Jesse.",
+    "turn 14: She's watching.",
+    "turn 22: Got it.",
+    "turn 31: Is your -",
+    "turn 50: Yeah.",
+    "turn 52: Got it."
+  ],
+  "audit_flags": [],
+  "annotation_summary": "Jesse's Out decision is explicitly attributed to the firm's limited Latin America thesis and the company's early stage relative to its typical larger checks. He also asks diligence questions about integration feasibility and go-to-market, while noting relevant partner fit and prior portfolio experience."
+}

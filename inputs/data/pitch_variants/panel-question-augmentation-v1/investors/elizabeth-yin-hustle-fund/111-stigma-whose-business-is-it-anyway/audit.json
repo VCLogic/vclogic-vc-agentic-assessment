@@ -1,0 +1,94 @@
+{
+  "actual_decision": "Out",
+  "boundary_turn_index": 56,
+  "canonical_pitch_path": "inputs/data/investors/elizabeth-yin-hustle-fund/pitches/111-stigma-whose-business-is-it-anyway.txt",
+  "canonical_pitch_sha256": "aedba45f2967ab3a0055f61ac30e7cde95fd8eb893ccca33d582a69a988e86c5",
+  "episode_path": "../agentic-vc-clone-framework/data/episodes/111-stigma-whose-business-is-it-anyway.json",
+  "episode_sha256": "68936de9c6a0f121180606a334acf4ba12de109ffa3865c31ff43ec048d41a29",
+  "episode_slug": "111-stigma-whose-business-is-it-anyway",
+  "insertions": [
+    {
+      "answer_turn_index": 7,
+      "canonical_line_index": 0,
+      "original_speaker": "Neal Sales Griffin",
+      "question": "welcome to the Pitch show, day 2, pitch 4\nBeing a first time founder is tricky\n.\nInvestors want you to be flexible, willing to take their feedback. But not\nSO\nflexible that you follow their vision instead of your own.\nToday\u2019s founder, Ariana Vargas, is trying to figure out\nwhere\nto\ndraw\nthat line.\nWhen Lisa and I first met Ariana, she had built a social mental health app. It allowed strangers to support each other by sending hopeful video messages.\nHowever, when Ariana showed up in The Pitch Room, she was in the middle of Techstars. And the vision for her company had already changed.\nSo the app we were excited about\u2026 was nowhere to be found. Is Ariana\u2019s early pivot the kind of flexibility investors are looking for - or is it a sign that she\u2019ll just change her business for anyone?\nI\u2019m Josh Muccio, welcome to The Pitch. Where real entrepreneurs, pitch to real investors, for real money.",
+      "source_turn_index": 0
+    },
+    {
+      "answer_turn_index": 15,
+      "canonical_line_index": 5,
+      "original_speaker": "Charles",
+      "question": "Yeah. Do you have a demo?",
+      "source_turn_index": 14
+    },
+    {
+      "answer_turn_index": 24,
+      "canonical_line_index": 11,
+      "original_speaker": "Jillian",
+      "question": "Okay. Who wrote that script? //",
+      "source_turn_index": 23
+    },
+    {
+      "answer_turn_index": 28,
+      "canonical_line_index": 14,
+      "original_speaker": "Charles",
+      "question": "I was gonna say, like my impression is that EAPs have historically been underutilized because most people don't want to share the underlying issue they're dealing with with HR out of fear of retribution or consequences, whereas some of these third party services, it gives you this layer in between. Like, hey, I have a company provided therapist, but the company doesn't know what issue I'm dealing with. How do you think about where this product sits in that landscape?",
+      "source_turn_index": 27
+    },
+    {
+      "answer_turn_index": 30,
+      "canonical_line_index": 16,
+      "original_speaker": "Mac",
+      "question": "What's the business model here? How do you make money?//",
+      "source_turn_index": 29
+    },
+    {
+      "answer_turn_index": 34,
+      "canonical_line_index": 20,
+      "original_speaker": "Jillian",
+      "question": "Okay. I invest a lot in this space, and I know that there are a lot of companies like Ginger and Hurdle and a number of other ones that have this content. // Just Kaiser, even the health care system, has a whole library of these. Exactly looking like this.// Why is yours so special?",
+      "source_turn_index": 33
+    }
+  ],
+  "leakage_checklist": {
+    "founder_content_added": false,
+    "other_investor_identity_model_visible": false,
+    "post_boundary_turn_retained": false,
+    "target_investor_turn_retained": false,
+    "verdict_or_offer_turn_retained": false
+  },
+  "neutral_speaker_label": "Panel Investor",
+  "omitted_candidates": [
+    {
+      "original_speaker": "Jillian",
+      "reason": "question_already_present",
+      "source_turn_index": 21,
+      "text": "Was that an actor?"
+    },
+    {
+      "original_speaker": "Jillian",
+      "reason": "question_already_present",
+      "source_turn_index": 31,
+      "text": "So how much are they paying?"
+    },
+    {
+      "original_speaker": "Mac",
+      "reason": "founder_answer_not_in_canonical_pitch",
+      "source_turn_index": 48,
+      "text": "But here's the best example I can give you. The iPod saved Apple. The iPod was nothing but a crappy MP3 player, and there were tons of other MP3 players people could've bought. And somebody would've been like, why would I buy the more expensive crappier MP3 player when there's a wall of better ones I could go to? And you know what? They put it in a package and met people in the place where they wanted that over this. I think that's what she's building."
+    },
+    {
+      "original_speaker": "Jillian",
+      "reason": "question_already_present",
+      "source_turn_index": 49,
+      "text": "You gonna invest in this?"
+    }
+  ],
+  "pitch_sha256": "01bb2035078285eac460a3743723a01e6e0c9253a568027e3fc077a8bb97564d",
+  "registry_vc_slug": "elizabeth-yin",
+  "schema": "panel-question-pitch-audit-v1",
+  "source_record_path": "inputs/data/investors/elizabeth-yin-hustle-fund/precedents/records/111-stigma-whose-business-is-it-anyway.json",
+  "source_record_sha256": "86a6fadf2867ad84c50b68163bd967556126dd28a3c53f158db80997419441c9",
+  "status": "audited",
+  "vc_slug": "elizabeth-yin-hustle-fund"
+}

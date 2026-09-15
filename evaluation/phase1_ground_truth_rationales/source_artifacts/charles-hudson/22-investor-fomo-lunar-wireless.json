@@ -1,0 +1,224 @@
+{
+  "schema": "transcript-observed-rationales-v1",
+  "episode_slug": "22-investor-fomo-lunar-wireless",
+  "transcript_sha256": "a62b6fa2c048cfc6b25599f62394f6188c1f959780c33860551c7acc759ad59b",
+  "window": {
+    "start_turn": 1,
+    "end_turn": 85
+  },
+  "observed_decision": "Out",
+  "decision_evidence_ids": [
+    "E7"
+  ],
+  "evidence_registry": [
+    {
+      "evidence_id": "E1",
+      "turn_index": 25,
+      "speaker": "Charles",
+      "text": "24 hours?"
+    },
+    {
+      "evidence_id": "E2",
+      "turn_index": 29,
+      "speaker": "Charles",
+      "text": "You can’t even get Project Fi for that."
+    },
+    {
+      "evidence_id": "E3",
+      "turn_index": 31,
+      "speaker": "Charles",
+      "text": "I am a Fi subscriber. You can't even get the base rate of Fi for that. The base rate for Fi is 20 bucks."
+    },
+    {
+      "evidence_id": "E4",
+      "turn_index": 33,
+      "speaker": "Charles",
+      "text": "Fi is the happiest, I am the happiest Fi consumer, because you only pay down to the megabyte for what you use, nothing more."
+    },
+    {
+      "evidence_id": "E5",
+      "turn_index": 45,
+      "speaker": "Charles",
+      "text": "Can I ask the questions I think you guys are getting to? Which is if I’m someone who says I’m just going to use YouTube and Spotify, and that’s all I’m going to do. I’m going to watch YouTube videos all day long. 24/7. Does that break the model?"
+    },
+    {
+      "evidence_id": "E6",
+      "turn_index": 83,
+      "speaker": "Charles",
+      "text": "For me it’s just price. I met you at TechStars Mobility."
+    },
+    {
+      "evidence_id": "E7",
+      "turn_index": 85,
+      "speaker": "Charles",
+      "text": "It was a different price back then. That's on me. And honestly, when I met you, I was like there's no way they can pull this off. Like, you can't start a carrier with two people that can't legally drink. It's actually not possible. And you've proven me wrong. For me, it’s just price. I run a small fund, so like entry price matters. But if there’s a way to find a price that works an arrangement, I would love to support you. Being a native Detroiter, this is a problem that really resonates with me. And I think once people learn how to use the phone, your support costs, all the other things that make running a nationwide postpaid carrier, billing fraud, dispute - these are really expensive parts of the business that your model kind of punts on."
+    }
+  ],
+  "rationales": [
+    {
+      "rationale_id": "R1",
+      "rationale_label": "business_model_assessment",
+      "utterance_type": "question",
+      "activation": "queried",
+      "direction": "neutral",
+      "salience": "secondary",
+      "confidence": 0.98,
+      "evidence_ids": [
+        "E1"
+      ],
+      "explanation": "Charles clarifies whether the service provides data access for 24 hours, probing the mechanics of the pricing model.",
+      "decision_link": "none"
+    },
+    {
+      "rationale_id": "R2",
+      "rationale_label": "business_model_assessment",
+      "utterance_type": "assessment",
+      "activation": "evaluated",
+      "direction": "positive",
+      "salience": "secondary",
+      "confidence": 0.97,
+      "evidence_ids": [
+        "E2",
+        "E3"
+      ],
+      "explanation": "Charles favorably compares Lunar’s apparent monthly price with Project Fi’s base rate.",
+      "decision_link": "none"
+    },
+    {
+      "rationale_id": "R3",
+      "rationale_label": "business_model_assessment",
+      "utterance_type": "assessment",
+      "activation": "evaluated",
+      "direction": "positive",
+      "salience": "secondary",
+      "confidence": 0.95,
+      "evidence_ids": [
+        "E4"
+      ],
+      "explanation": "Charles expresses strong approval of usage-based billing, emphasizing that customers pay only for what they use.",
+      "decision_link": "none"
+    },
+    {
+      "rationale_id": "R4",
+      "rationale_label": "business_viability_concern",
+      "utterance_type": "question",
+      "activation": "queried",
+      "direction": "neutral",
+      "salience": "secondary",
+      "confidence": 0.98,
+      "evidence_ids": [
+        "E5"
+      ],
+      "explanation": "Charles tests whether heavy use of a small number of apps, especially continuous YouTube use, would undermine the model.",
+      "decision_link": "none"
+    },
+    {
+      "rationale_id": "R5",
+      "rationale_label": "stage_valuation_mismatch",
+      "utterance_type": "decision_reason",
+      "activation": "evaluated",
+      "direction": "negative",
+      "salience": "primary",
+      "confidence": 0.99,
+      "evidence_ids": [
+        "E6",
+        "E7"
+      ],
+      "explanation": "Charles directly identifies price as the reason for not investing at the current terms and contrasts it with the earlier price.",
+      "decision_link": "explicit"
+    },
+    {
+      "rationale_id": "R6",
+      "rationale_label": "fund_economics_constraint",
+      "utterance_type": "decision_reason",
+      "activation": "evaluated",
+      "direction": "negative",
+      "salience": "primary",
+      "confidence": 0.99,
+      "evidence_ids": [
+        "E7"
+      ],
+      "explanation": "Charles says that operating a small fund makes entry price materially important to his investment decision.",
+      "decision_link": "explicit"
+    },
+    {
+      "rationale_id": "R7",
+      "rationale_label": "founder_execution",
+      "utterance_type": "assessment",
+      "activation": "evaluated",
+      "direction": "positive",
+      "salience": "secondary",
+      "confidence": 0.99,
+      "evidence_ids": [
+        "E7"
+      ],
+      "explanation": "Charles acknowledges that Hunter and his cofounder proved his earlier skepticism about their ability to build a carrier wrong.",
+      "decision_link": "none"
+    },
+    {
+      "rationale_id": "R8",
+      "rationale_label": "solution_feasibility_assessment",
+      "utterance_type": "assessment",
+      "activation": "evaluated",
+      "direction": "positive",
+      "salience": "secondary",
+      "confidence": 0.98,
+      "evidence_ids": [
+        "E7"
+      ],
+      "explanation": "Charles states that the founders have demonstrated that the carrier concept can in fact be executed.",
+      "decision_link": "none"
+    },
+    {
+      "rationale_id": "R9",
+      "rationale_label": "investor_experience_bias",
+      "utterance_type": "assessment",
+      "activation": "evaluated",
+      "direction": "positive",
+      "salience": "secondary",
+      "confidence": 0.95,
+      "evidence_ids": [
+        "E6",
+        "E7"
+      ],
+      "explanation": "Charles explicitly references his prior meeting and earlier negative judgment, noting that subsequent company progress changed his view.",
+      "decision_link": "none"
+    },
+    {
+      "rationale_id": "R10",
+      "rationale_label": "mission_alignment_preference",
+      "utterance_type": "decision_reason",
+      "activation": "evaluated",
+      "direction": "positive",
+      "salience": "secondary",
+      "confidence": 0.99,
+      "evidence_ids": [
+        "E7"
+      ],
+      "explanation": "Charles says the problem resonates with him personally as a native Detroiter, supporting his conditional willingness to invest.",
+      "decision_link": "explicit"
+    },
+    {
+      "rationale_id": "R11",
+      "rationale_label": "business_model_assessment",
+      "utterance_type": "decision_reason",
+      "activation": "evaluated",
+      "direction": "positive",
+      "salience": "secondary",
+      "confidence": 0.94,
+      "evidence_ids": [
+        "E7"
+      ],
+      "explanation": "Charles views Lunar’s model as avoiding or reducing expensive nationwide-carrier support, billing, fraud, and dispute costs.",
+      "decision_link": "explicit"
+    }
+  ],
+  "unmapped_utterances": [
+    "[2] Wait a minute.",
+    "[4] We met at the TechStars Mobility Detroit.",
+    "[6] Yes. I still get your newsletter.",
+    "[8] I was like, wait a minute. I know him."
+  ],
+  "audit_flags": [],
+  "annotation_summary": "Charles’s explicit reason for going Out is price, constrained by his small fund and the entry price. He otherwise expresses positive views of the model, the problem, and the founders’ demonstrated execution, while offering conditional support if pricing can be adjusted."
+}

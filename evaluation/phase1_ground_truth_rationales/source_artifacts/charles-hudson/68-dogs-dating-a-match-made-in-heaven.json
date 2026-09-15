@@ -1,0 +1,175 @@
+{
+  "schema": "transcript-observed-rationales-v1",
+  "episode_slug": "68-dogs-dating-a-match-made-in-heaven",
+  "transcript_sha256": "153cc698a70bfbcc798819328839d5d7634ae11f031f68c4065e5f71d639ed09",
+  "window": {
+    "start_turn": 1,
+    "end_turn": 86
+  },
+  "observed_decision": "In",
+  "decision_evidence_ids": [
+    "E5"
+  ],
+  "evidence_registry": [
+    {
+      "evidence_id": "E1",
+      "turn_index": 9,
+      "speaker": "Charles",
+      "text": "By the way, that's one of the best opens I've seen on The Pitch. In terms of just setting the stage."
+    },
+    {
+      "evidence_id": "E2",
+      "turn_index": 22,
+      "speaker": "Charles",
+      "text": "Oh and they're all."
+    },
+    {
+      "evidence_id": "E3",
+      "turn_index": 69,
+      "speaker": "Charles",
+      "text": "Of the pet parent population, how many of them do you think, what percentage think pet friendliness in a mate is a deal breaker? Obviously they all care. But I’m trying to figure out who’s the enthusiast audience for whom this product is a must-have?"
+    },
+    {
+      "evidence_id": "E4",
+      "turn_index": 69,
+      "speaker": "Charles",
+      "text": "Obviously they all care."
+    },
+    {
+      "evidence_id": "E5",
+      "turn_index": 86,
+      "speaker": "Charles",
+      "text": "So I’m in for 10,000."
+    },
+    {
+      "evidence_id": "E6",
+      "turn_index": 86,
+      "speaker": "Charles",
+      "text": "Dating is a really consolidated industry."
+    },
+    {
+      "evidence_id": "E7",
+      "turn_index": 86,
+      "speaker": "Charles",
+      "text": "I’ll be honest, I’m not sure you can build a huge business here."
+    },
+    {
+      "evidence_id": "E8",
+      "turn_index": 86,
+      "speaker": "Charles",
+      "text": "You’re on to something."
+    },
+    {
+      "evidence_id": "E9",
+      "turn_index": 86,
+      "speaker": "Charles",
+      "text": "And we’re investors in two dog related companies, Fuzzy and Dog Parker."
+    }
+  ],
+  "rationales": [
+    {
+      "rationale_id": "R1",
+      "rationale_label": "founder_communication_quality",
+      "utterance_type": "assessment",
+      "activation": "evaluated",
+      "direction": "positive",
+      "salience": "secondary",
+      "confidence": 0.99,
+      "evidence_ids": [
+        "E1"
+      ],
+      "explanation": "Charles positively assesses the founder's opening and ability to set the stage.",
+      "decision_link": "none"
+    },
+    {
+      "rationale_id": "R2",
+      "rationale_label": "market_problem_validation",
+      "utterance_type": "assessment",
+      "activation": "evaluated",
+      "direction": "positive",
+      "salience": "secondary",
+      "confidence": 0.9,
+      "evidence_ids": [
+        "E3"
+      ],
+      "explanation": "Charles states that pet parents all care about pet friendliness in a mate, indicating perceived problem relevance.",
+      "decision_link": "none"
+    },
+    {
+      "rationale_id": "R3",
+      "rationale_label": "market_size_assessment",
+      "utterance_type": "question",
+      "activation": "queried",
+      "direction": "neutral",
+      "salience": "primary",
+      "confidence": 0.99,
+      "evidence_ids": [
+        "E3"
+      ],
+      "explanation": "Charles asks what percentage of the pet-parent population views pet friendliness as a deal breaker.",
+      "decision_link": "none"
+    },
+    {
+      "rationale_id": "R4",
+      "rationale_label": "market_entry_path_assessment",
+      "utterance_type": "question",
+      "activation": "queried",
+      "direction": "neutral",
+      "salience": "secondary",
+      "confidence": 0.95,
+      "evidence_ids": [
+        "E3"
+      ],
+      "explanation": "Charles asks who the enthusiast audience is for whom the product is a must-have, probing the initial target segment.",
+      "decision_link": "none"
+    },
+    {
+      "rationale_id": "R5",
+      "rationale_label": "competitive_landscape_inertia",
+      "utterance_type": "decision_reason",
+      "activation": "evaluated",
+      "direction": "negative",
+      "salience": "primary",
+      "confidence": 0.96,
+      "evidence_ids": [
+        "E5"
+      ],
+      "explanation": "Charles characterizes dating as a consolidated industry, raising concern about entrenched market structure.",
+      "decision_link": "explicit"
+    },
+    {
+      "rationale_id": "R6",
+      "rationale_label": "venture_scale_concern",
+      "utterance_type": "decision_reason",
+      "activation": "evaluated",
+      "direction": "negative",
+      "salience": "primary",
+      "confidence": 0.99,
+      "evidence_ids": [
+        "E5"
+      ],
+      "explanation": "Charles says he is unsure the company can become a huge business.",
+      "decision_link": "explicit"
+    },
+    {
+      "rationale_id": "R7",
+      "rationale_label": "product_appeal_assessment",
+      "utterance_type": "decision_reason",
+      "activation": "evaluated",
+      "direction": "positive",
+      "salience": "primary",
+      "confidence": 0.92,
+      "evidence_ids": [
+        "E5"
+      ],
+      "explanation": "Charles acknowledges that the company is onto something despite his concerns about industry consolidation and scale.",
+      "decision_link": "explicit"
+    }
+  ],
+  "unmapped_utterances": [
+    "Oh and they're all.",
+    "And we’re investors in two dog related companies, Fuzzy and Dog Parker."
+  ],
+  "audit_flags": [],
+  "annotation_summary": "Charles explicitly invests $10,000 while expressing concern about the consolidated dating market and the company's ability to reach venture scale, balanced by a positive assessment that the company is onto something."
+}

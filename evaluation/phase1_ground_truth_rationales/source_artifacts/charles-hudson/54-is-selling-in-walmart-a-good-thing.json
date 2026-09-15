@@ -1,0 +1,91 @@
+{
+  "schema": "transcript-observed-rationales-v1",
+  "episode_slug": "54-is-selling-in-walmart-a-good-thing",
+  "transcript_sha256": "7c1b0ab4f81e7791558dc806232ab7954dd81f4076aea8703f4b781767f97586",
+  "window": {
+    "start_turn": 5,
+    "end_turn": 64
+  },
+  "observed_decision": "Out",
+  "decision_evidence_ids": [
+    "E4"
+  ],
+  "evidence_registry": [
+    {
+      "evidence_id": "E1",
+      "turn_index": 35,
+      "speaker": "Charles",
+      "text": "what's the price point per serving..."
+    },
+    {
+      "evidence_id": "E2",
+      "turn_index": 51,
+      "speaker": "Charles",
+      "text": "Do you have a sense in the offices, are people using this as a replacement for K Cup? Or just sort of normal filter coffee? Or is this sort of more like a special treat? How does it play out in the office environment?"
+    },
+    {
+      "evidence_id": "E3",
+      "turn_index": 62,
+      "speaker": "Charles",
+      "text": "I just have to disclose I'm an investor in DripKit."
+    },
+    {
+      "evidence_id": "E4",
+      "turn_index": 64,
+      "speaker": "Charles",
+      "text": "So I'm going to have to be out, but I am a big believer in the category."
+    }
+  ],
+  "rationales": [
+    {
+      "rationale_id": "R1",
+      "rationale_label": "business_model_assessment",
+      "utterance_type": "question",
+      "activation": "queried",
+      "direction": "neutral",
+      "salience": "secondary",
+      "confidence": 0.98,
+      "evidence_ids": [
+        "E1"
+      ],
+      "explanation": "Charles asks about the product's per-serving price point, probing the business model and monetization.",
+      "decision_link": "none"
+    },
+    {
+      "rationale_id": "R2",
+      "rationale_label": "product_adoption",
+      "utterance_type": "question",
+      "activation": "queried",
+      "direction": "neutral",
+      "salience": "secondary",
+      "confidence": 0.96,
+      "evidence_ids": [
+        "E2"
+      ],
+      "explanation": "Charles probes how the product is used in offices, including whether it replaces existing coffee formats or functions as a special treat.",
+      "decision_link": "none"
+    },
+    {
+      "rationale_id": "R3",
+      "rationale_label": "portfolio_conflict_constraint",
+      "utterance_type": "decision_reason",
+      "activation": "evaluated",
+      "direction": "negative",
+      "salience": "primary",
+      "confidence": 1.0,
+      "evidence_ids": [
+        "E3",
+        "E4"
+      ],
+      "explanation": "Charles discloses that he is already an investor in DripKit and directly states that this requires him to be out, despite his belief in the category.",
+      "decision_link": "explicit"
+    }
+  ],
+  "unmapped_utterances": [
+    "Turn 21: Thank you."
+  ],
+  "audit_flags": [
+    "Charles expresses category belief but does not state a more specific positive taxonomy rationale."
+  ],
+  "annotation_summary": "Charles's observed Out decision is explicitly attributed to an existing investment in DripKit, a portfolio conflict, while he affirmatively states belief in the category."
+}

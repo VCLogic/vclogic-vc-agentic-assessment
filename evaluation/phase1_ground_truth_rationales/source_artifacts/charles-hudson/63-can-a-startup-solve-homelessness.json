@@ -1,0 +1,247 @@
+{
+  "schema": "transcript-observed-rationales-v1",
+  "episode_slug": "63-can-a-startup-solve-homelessness",
+  "transcript_sha256": "abd9aeb0692a18708bd9412b7c613a6cb32a74fc8457c4ba08389e35ff6d0032",
+  "window": {
+    "start_turn": 0,
+    "end_turn": 78
+  },
+  "observed_decision": "Out",
+  "decision_evidence_ids": [
+    "E7"
+  ],
+  "evidence_registry": [
+    {
+      "evidence_id": "E1",
+      "turn_index": 26,
+      "speaker": "Charles",
+      "text": "What's a meaningful amount of money for a beacon holder to get in a course of a month?"
+    },
+    {
+      "evidence_id": "E2",
+      "turn_index": 34,
+      "speaker": "Charles",
+      "text": "Do you get a full picture of what the person's been up to? If I'm at Salvation Army, do I know, oh, Jonathan went to Red Cross and then he went to the soup kitchen?"
+    },
+    {
+      "evidence_id": "E3",
+      "turn_index": 36,
+      "speaker": "Charles",
+      "text": "Do I get the full care, the full service picture for that individual?"
+    },
+    {
+      "evidence_id": "E4",
+      "turn_index": 47,
+      "speaker": "Charles",
+      "text": "How do consumers find out about the Samaritan app?"
+    },
+    {
+      "evidence_id": "E5",
+      "turn_index": 53,
+      "speaker": "Charles",
+      "text": "It just seems like, if you're successful, the gains so greatly outstrip the licensing fee. Like, cities spend so much money. And I'm from San Francisco. And huge problem where I live. Cities spend hundreds of millions of dollars trying to address a lack of housing. And in a weird way I feel like you're almost too efficient."
+    },
+    {
+      "evidence_id": "E6",
+      "turn_index": 55,
+      "speaker": "Charles",
+      "text": "Yeah. I mean, I guess this is the thing that I'm struck by. This is a keeping, getting one person housed or in a job is worth so much more than the entire value of the license. Like, I'm racking my brain trying to figure out how do you get to have this be a wildly profitable venture, in a way."
+    },
+    {
+      "evidence_id": "E7",
+      "turn_index": 78,
+      "speaker": "Charles",
+      "text": "Jonathan, I think you've addressed a lot of the really important issues here. I do think that this I think the reason at least I'm struggling is I've never seen someone apply such sound business logic and have such a complete solution to something that feels like an intractable social problem. And so if I were an angel investor, I would invest in your company, because from my personal angel investments that I made before I had my fund, I was able to set my own returns threshold. I could say, if I get my money back on this investment and I get a chance to work with an awesome entrepreneur, then I'm happy. For my fund, I don't have the same flexibility. So I'm going to pass. But I have to say, if there's anything I can do to help... In particular help you connect you to capital providers. And there are many people in the business community who are looking for creative solutions like this. So the door is open if I can help you there in anyway."
+    }
+  ],
+  "rationales": [
+    {
+      "rationale_id": "R1",
+      "rationale_label": "business_model_assessment",
+      "utterance_type": "question",
+      "activation": "queried",
+      "direction": "neutral",
+      "salience": "secondary",
+      "confidence": 0.95,
+      "evidence_ids": [
+        "E1"
+      ],
+      "explanation": "Charles probes the monthly amount transferred to a beacon holder, examining the financial mechanics of the model.",
+      "decision_link": "none"
+    },
+    {
+      "rationale_id": "R2",
+      "rationale_label": "product_success_factor_assessment",
+      "utterance_type": "question",
+      "activation": "queried",
+      "direction": "neutral",
+      "salience": "secondary",
+      "confidence": 0.94,
+      "evidence_ids": [
+        "E2"
+      ],
+      "explanation": "Charles asks whether the product provides a cross-organization picture of an individual's activity and care.",
+      "decision_link": "none"
+    },
+    {
+      "rationale_id": "R3",
+      "rationale_label": "product_success_factor_assessment",
+      "utterance_type": "question",
+      "activation": "queried",
+      "direction": "neutral",
+      "salience": "secondary",
+      "confidence": 0.94,
+      "evidence_ids": [
+        "E3"
+      ],
+      "explanation": "Charles further probes whether the system captures the individual's complete care and service history.",
+      "decision_link": "none"
+    },
+    {
+      "rationale_id": "R4",
+      "rationale_label": "go_to_market_strategy_assessment",
+      "utterance_type": "question",
+      "activation": "queried",
+      "direction": "neutral",
+      "salience": "secondary",
+      "confidence": 0.96,
+      "evidence_ids": [
+        "E4"
+      ],
+      "explanation": "Charles asks how consumers will discover the app, probing the customer-acquisition path.",
+      "decision_link": "none"
+    },
+    {
+      "rationale_id": "R5",
+      "rationale_label": "market_problem_validation",
+      "utterance_type": "assessment",
+      "activation": "evaluated",
+      "direction": "positive",
+      "salience": "secondary",
+      "confidence": 0.98,
+      "evidence_ids": [
+        "E5"
+      ],
+      "explanation": "Charles recognizes homelessness and housing as a very large, costly problem for cities.",
+      "decision_link": "none"
+    },
+    {
+      "rationale_id": "R6",
+      "rationale_label": "business_model_assessment",
+      "utterance_type": "assessment",
+      "activation": "evaluated",
+      "direction": "negative",
+      "salience": "primary",
+      "confidence": 0.97,
+      "evidence_ids": [
+        "E5",
+        "E6"
+      ],
+      "explanation": "Charles perceives a mismatch between the large value created by successfully helping someone and the relatively small licensing fee.",
+      "decision_link": "none"
+    },
+    {
+      "rationale_id": "R7",
+      "rationale_label": "business_viability_concern",
+      "utterance_type": "assessment",
+      "activation": "evaluated",
+      "direction": "negative",
+      "salience": "primary",
+      "confidence": 0.98,
+      "evidence_ids": [
+        "E6"
+      ],
+      "explanation": "Charles explicitly struggles to see how the company can become a wildly profitable venture.",
+      "decision_link": "none"
+    },
+    {
+      "rationale_id": "R8",
+      "rationale_label": "venture_scale_concern",
+      "utterance_type": "assessment",
+      "activation": "evaluated",
+      "direction": "negative",
+      "salience": "secondary",
+      "confidence": 0.92,
+      "evidence_ids": [
+        "E6"
+      ],
+      "explanation": "Charles questions whether the economics can support the scale and profitability expected of a venture investment.",
+      "decision_link": "none"
+    },
+    {
+      "rationale_id": "R9",
+      "rationale_label": "founder_communication_quality",
+      "utterance_type": "assessment",
+      "activation": "evaluated",
+      "direction": "positive",
+      "salience": "secondary",
+      "confidence": 0.93,
+      "evidence_ids": [
+        "E7"
+      ],
+      "explanation": "Charles says Jonathan addressed many important issues and applied sound business logic.",
+      "decision_link": "none"
+    },
+    {
+      "rationale_id": "R10",
+      "rationale_label": "solution_feasibility_assessment",
+      "utterance_type": "assessment",
+      "activation": "evaluated",
+      "direction": "positive",
+      "salience": "secondary",
+      "confidence": 0.96,
+      "evidence_ids": [
+        "E7"
+      ],
+      "explanation": "Charles describes the proposed solution as complete despite addressing an intractable social problem.",
+      "decision_link": "none"
+    },
+    {
+      "rationale_id": "R11",
+      "rationale_label": "founder_qualities",
+      "utterance_type": "assessment",
+      "activation": "evaluated",
+      "direction": "positive",
+      "salience": "secondary",
+      "confidence": 0.94,
+      "evidence_ids": [
+        "E7"
+      ],
+      "explanation": "Charles characterizes Jonathan as an entrepreneur he would be happy to work with.",
+      "decision_link": "none"
+    },
+    {
+      "rationale_id": "R12",
+      "rationale_label": "investor_experience_bias",
+      "utterance_type": "assessment",
+      "activation": "evaluated",
+      "direction": "positive",
+      "salience": "secondary",
+      "confidence": 0.96,
+      "evidence_ids": [
+        "E7"
+      ],
+      "explanation": "Charles explains that his prior personal angel investments allowed him to accept a lower or more flexible returns threshold.",
+      "decision_link": "none"
+    },
+    {
+      "rationale_id": "R13",
+      "rationale_label": "fund_economics_constraint",
+      "utterance_type": "decision_reason",
+      "activation": "evaluated",
+      "direction": "negative",
+      "salience": "primary",
+      "confidence": 0.99,
+      "evidence_ids": [
+        "E7"
+      ],
+      "explanation": "Charles states that his fund does not have the same flexibility as his personal angel investing, and directly uses that constraint to explain passing.",
+      "decision_link": "explicit"
+    }
+  ],
+  "unmapped_utterances": [
+    "If you"
+  ],
+  "audit_flags": [],
+  "annotation_summary": "Charles's pass is explicitly attributed to his fund's lack of flexibility relative to his personal angel investments. He positively assesses the founder, solution, and problem, while expressing secondary concerns about value capture and venture profitability."
+}

@@ -1,0 +1,192 @@
+{
+  "schema": "transcript-observed-rationales-v1",
+  "episode_slug": "152-oma-health",
+  "transcript_sha256": "8684c8432eb1a0f549d32ba46f6b1981aab752c67351f54a52fcff8b3d845c22",
+  "window": {
+    "start_turn": 0,
+    "end_turn": 94
+  },
+  "observed_decision": "In",
+  "decision_evidence_ids": [
+    "E7"
+  ],
+  "evidence_registry": [
+    {
+      "evidence_id": "E1",
+      "turn_index": 10,
+      "speaker": "Jesse",
+      "text": "Khaylah. Jesse. Nice to meet you."
+    },
+    {
+      "evidence_id": "E2",
+      "turn_index": 33,
+      "speaker": "Jesse",
+      "text": "First off, in the last couple of weeks, I've seen a few companies that are, that are trying to tackle this massive gap and challenge and I think it's, it's an amazing mission and you clearly are well aligned with that as a founder. There's obviously the out of pocket costs that consumers are facing in this and then there's the insurance side of the healthcare system, which is a mess for, you know, - to not curse. I'm curious about sort of going off of that, sort of how deep are you going with them into this healthcare system? To your point about credentialing, but are you helping them with the payers and the insurance billing if they're doing that, or is it you start with out of pocket?"
+    },
+    {
+      "evidence_id": "E3",
+      "turn_index": 35,
+      "speaker": "Jesse",
+      "text": "And go to the big city."
+    },
+    {
+      "evidence_id": "E4",
+      "turn_index": 37,
+      "speaker": "Jesse",
+      "text": "And when, you think about initial revenue streams, business model, are you starting as a service layer for the practitioners? So they pay you -"
+    },
+    {
+      "evidence_id": "E5",
+      "turn_index": 39,
+      "speaker": "Jesse",
+      "text": "- instead of paying for an office assistant, they pay you?"
+    },
+    {
+      "evidence_id": "E6",
+      "turn_index": 46,
+      "speaker": "Jesse",
+      "text": "How do you think about the average revenue in year one for each of these nurse practitioners?"
+    },
+    {
+      "evidence_id": "E7",
+      "turn_index": 94,
+      "speaker": "Jesse",
+      "text": "The point you were talking about, by the way, Charles, is like, I was sort of doing the math, and by the way, math is not my strong suit, but I think about it, if you're fully saturated in those 8,000 nurse practitioners, 100 percent of them sign up, I hope, and they're all great. You know, you're talking about being able to make, a couple hundred million dollars a year in revenue from your take. And that's a really big business, so that's a lot of assumptions. Most people don't have 100 percent market penetration. So, but even if I discount that, it's hundreds of millions of dollars a year in potential revenue. I would also take a bet on you being able to do this. And so I would be in on this as well."
+    }
+  ],
+  "rationales": [
+    {
+      "rationale_id": "R1",
+      "rationale_label": "mission_alignment_preference",
+      "utterance_type": "assessment",
+      "activation": "evaluated",
+      "direction": "positive",
+      "salience": "secondary",
+      "confidence": 0.97,
+      "evidence_ids": [
+        "E2"
+      ],
+      "explanation": "Jesse calls the mission amazing, expressing positive personal alignment with the company's purpose.",
+      "decision_link": "none"
+    },
+    {
+      "rationale_id": "R2",
+      "rationale_label": "founder_motivation_authenticity",
+      "utterance_type": "assessment",
+      "activation": "evaluated",
+      "direction": "positive",
+      "salience": "secondary",
+      "confidence": 0.92,
+      "evidence_ids": [
+        "E2"
+      ],
+      "explanation": "Jesse says Khaylah is clearly well aligned with the mission as a founder.",
+      "decision_link": "none"
+    },
+    {
+      "rationale_id": "R3",
+      "rationale_label": "business_model_assessment",
+      "utterance_type": "question",
+      "activation": "queried",
+      "direction": "neutral",
+      "salience": "secondary",
+      "confidence": 0.96,
+      "evidence_ids": [
+        "E2"
+      ],
+      "explanation": "Jesse asks whether the company goes deeply into the healthcare system through payer relationships and insurance billing or begins with out-of-pocket care.",
+      "decision_link": "none"
+    },
+    {
+      "rationale_id": "R4",
+      "rationale_label": "business_model_assessment",
+      "utterance_type": "question",
+      "activation": "queried",
+      "direction": "neutral",
+      "salience": "secondary",
+      "confidence": 0.98,
+      "evidence_ids": [
+        "E4",
+        "E5"
+      ],
+      "explanation": "Jesse probes whether the initial revenue model is a service layer paid for by practitioners instead of an office assistant.",
+      "decision_link": "none"
+    },
+    {
+      "rationale_id": "R5",
+      "rationale_label": "business_model_assessment",
+      "utterance_type": "question",
+      "activation": "queried",
+      "direction": "neutral",
+      "salience": "secondary",
+      "confidence": 0.95,
+      "evidence_ids": [
+        "E6"
+      ],
+      "explanation": "Jesse asks about expected average first-year revenue per nurse practitioner.",
+      "decision_link": "none"
+    },
+    {
+      "rationale_id": "R6",
+      "rationale_label": "market_size_assessment",
+      "utterance_type": "assessment",
+      "activation": "evaluated",
+      "direction": "positive",
+      "salience": "secondary",
+      "confidence": 0.94,
+      "evidence_ids": [
+        "E7"
+      ],
+      "explanation": "Jesse evaluates the reachable Alabama nurse-practitioner base and describes the resulting opportunity as a really big business.",
+      "decision_link": "explicit"
+    },
+    {
+      "rationale_id": "R7",
+      "rationale_label": "investment_upside_assessment",
+      "utterance_type": "decision_reason",
+      "activation": "evaluated",
+      "direction": "positive",
+      "salience": "primary",
+      "confidence": 0.99,
+      "evidence_ids": [
+        "E7"
+      ],
+      "explanation": "Jesse identifies hundreds of millions of dollars in potential annual revenue, including after discounting the full-penetration assumption, as a direct reason to invest.",
+      "decision_link": "explicit"
+    },
+    {
+      "rationale_id": "R8",
+      "rationale_label": "growth_projection_risk",
+      "utterance_type": "assessment",
+      "activation": "evaluated",
+      "direction": "negative",
+      "salience": "secondary",
+      "confidence": 0.98,
+      "evidence_ids": [
+        "E7"
+      ],
+      "explanation": "Jesse explicitly notes that the upside depends on many assumptions and that most businesses do not achieve 100 percent market penetration.",
+      "decision_link": "none"
+    },
+    {
+      "rationale_id": "R9",
+      "rationale_label": "founder_execution",
+      "utterance_type": "decision_reason",
+      "activation": "evaluated",
+      "direction": "positive",
+      "salience": "primary",
+      "confidence": 0.99,
+      "evidence_ids": [
+        "E7"
+      ],
+      "explanation": "Jesse says he would take a bet on Khaylah being able to execute the opportunity and directly connects that belief to being in.",
+      "decision_link": "explicit"
+    }
+  ],
+  "unmapped_utterances": [
+    "Khaylah. Jesse. Nice to meet you.",
+    "And go to the big city."
+  ],
+  "audit_flags": [],
+  "annotation_summary": "Jesse expressed positive mission and founder alignment, queried the healthcare-service and revenue model, and explicitly based the In decision on substantial potential revenue and confidence in the founder's ability to execute, while acknowledging market-penetration assumptions."
+}

@@ -1,0 +1,109 @@
+{
+  "schema": "transcript-observed-rationales-v1",
+  "episode_slug": "105-teffola-granola-guy-approved",
+  "transcript_sha256": "651f53b4275bde7b4a602be8719ee3b8b6bdd3f992cea989a3e5955eae4b7940",
+  "window": {
+    "start_turn": 10,
+    "end_turn": 74
+  },
+  "observed_decision": "Out",
+  "decision_evidence_ids": [
+    "E3"
+  ],
+  "evidence_registry": [
+    {
+      "evidence_id": "E1",
+      "turn_index": 16,
+      "speaker": "Charles",
+      "text": "Thank you so much."
+    },
+    {
+      "evidence_id": "E2",
+      "turn_index": 72,
+      "speaker": "Charles",
+      "text": "So I'm an investor in a company that makes crackers where the inputs are all regenerative. And this is mostly just a marketing exercise. They have basically a single vector message which is, we make crackers grown with regenerative practices. And the thing that was surprising to me is there is an emerging consumer who's very, very focused on that one single vector of regenerative - because it's very easy to explain to people why it's a big deal. Like, do you want to strip all the nutrients out of soil and never be able to grow anything ever again? Or do you want sustainable practices?"
+    },
+    {
+      "evidence_id": "E3",
+      "turn_index": 74,
+      "speaker": "Charles",
+      "text": "And just in listening to you, the regenerative is the thing you keep coming back to. So I would - I'm out, just because we've done a handful of food businesses, including that one. Ironically, that company also has a software arm that helps food manufacturers roll out regenerative practices through their supply chain. Turns out that's an easier business to scale than the crackers. But the crackers have done quite well, as a product. So I think the missing ingredient here is a retail marketer, and someone who can really help you kind of figure out - like, what's the one thing you want the company to be known for? And if it's helpful to put you in touch with our cracker company, I'm happy to do that."
+    }
+  ],
+  "rationales": [
+    {
+      "rationale_id": "R1",
+      "rationale_label": "product_differentiation_concern",
+      "utterance_type": "assessment",
+      "activation": "evaluated",
+      "direction": "negative",
+      "salience": "secondary",
+      "confidence": 0.92,
+      "evidence_ids": [
+        "E2"
+      ],
+      "explanation": "Charles characterizes the regenerative positioning of a comparable food company as mostly a marketing exercise, indicating concern that the positioning may not constitute a durable product moat.",
+      "decision_link": "none"
+    },
+    {
+      "rationale_id": "R2",
+      "rationale_label": "market_timing",
+      "utterance_type": "assessment",
+      "activation": "evaluated",
+      "direction": "positive",
+      "salience": "secondary",
+      "confidence": 0.86,
+      "evidence_ids": [
+        "E2"
+      ],
+      "explanation": "Charles observes an emerging consumer segment that is highly focused on regenerative practices, supporting favorable timing for this message.",
+      "decision_link": "none"
+    },
+    {
+      "rationale_id": "R3",
+      "rationale_label": "product_success_factor_assessment",
+      "utterance_type": "assessment",
+      "activation": "evaluated",
+      "direction": "positive",
+      "salience": "primary",
+      "confidence": 0.94,
+      "evidence_ids": [
+        "E2",
+        "E3"
+      ],
+      "explanation": "Charles identifies regenerative practices as a simple, compelling single-vector message and notes that it is the theme the founder repeatedly returns to.",
+      "decision_link": "none"
+    },
+    {
+      "rationale_id": "R4",
+      "rationale_label": "investor_experience_bias",
+      "utterance_type": "decision_reason",
+      "activation": "evaluated",
+      "direction": "negative",
+      "salience": "primary",
+      "confidence": 0.99,
+      "evidence_ids": [
+        "E3"
+      ],
+      "explanation": "Charles directly attributes his decision to being out to having already done a handful of food businesses, including a comparable regenerative-cracker company.",
+      "decision_link": "explicit"
+    },
+    {
+      "rationale_id": "R5",
+      "rationale_label": "go_to_market_strategy_assessment",
+      "utterance_type": "assessment",
+      "activation": "evaluated",
+      "direction": "negative",
+      "salience": "secondary",
+      "confidence": 0.9,
+      "evidence_ids": [
+        "E3"
+      ],
+      "explanation": "Charles says the missing ingredient is a retail marketer who can help determine the single message the company should be known for, indicating a gap in retail positioning and go-to-market execution.",
+      "decision_link": "implicit"
+    }
+  ],
+  "unmapped_utterances": [],
+  "audit_flags": [],
+  "annotation_summary": "Charles’s explicit out decision is attributed to prior food-business investment experience. He also assesses regenerative positioning as a compelling but primarily marketing-led message and identifies a retail-marketing gap."
+}

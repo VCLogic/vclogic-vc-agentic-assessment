@@ -1,0 +1,52 @@
+[run]
+vc_slug = "charles-hudson-precursor-ventures"
+episode_slug = "83-can-small-bras-be-a-big-market"
+input_root = "inputs"
+output_root = "outputs/openrouter-luna-charles-pepper-two-iterations-canary"
+checkpoint_path = "outputs/openrouter-luna-charles-pepper-two-iterations-canary-checkpoints/83-can-small-bras-be-a-big-market.sqlite"
+contract_version = "v3"
+
+[provider]
+kind = "openrouter"
+model = "openai/gpt-5.6-luna"
+base_url = "https://openrouter.ai/api/v1"
+api_key_env = "OPENROUTER_API_KEY"
+require_parameters = true
+data_collection = "deny"
+max_output_tokens = 16384
+
+[embedding]
+kind = "ollama"
+model = "nomic-embed-text"
+base_url = "http://127.0.0.1:11434"
+
+[phase1]
+model = "openai/gpt-5.6-luna"
+reasoning_effort = "high"
+min_iterations = 2
+max_iterations = 2
+max_output_tokens = 16384
+planning_max_output_tokens = 2048
+planning_reasoning_effort = "low"
+max_precedent_searches = 4
+max_precedent_reads = 12
+
+[phase2]
+model = "openai/gpt-5.6-luna"
+reasoning_effort = "high"
+min_iterations = 2
+max_iterations = 2
+max_output_tokens = 16384
+planning_max_output_tokens = 2048
+planning_reasoning_effort = "low"
+max_precedent_searches = 4
+max_precedent_reads = 12
+
+[retrieval]
+top_k = 6
+max_exact_reads = 30
+
+[precedents]
+enabled = true
+corpus_path = "data/investors/charles-hudson-precursor-ventures/precedents"
+allow_full_transcript = true

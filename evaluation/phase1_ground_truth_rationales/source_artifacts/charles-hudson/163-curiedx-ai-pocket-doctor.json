@@ -1,0 +1,120 @@
+{
+  "schema": "transcript-observed-rationales-v1",
+  "episode_slug": "163-curiedx-ai-pocket-doctor",
+  "transcript_sha256": "b22319710adf38dd719ee7039a8ba1dd32a28040f7a24d48af2b25345ede5f61",
+  "window": {
+    "start_turn": 0,
+    "end_turn": 118
+  },
+  "observed_decision": "Out",
+  "decision_evidence_ids": [
+    "E2"
+  ],
+  "evidence_registry": [
+    {
+      "evidence_id": "E1",
+      "turn_index": 116,
+      "speaker": "Charles",
+      "text": "I'd just say like we've done a bunch of FDA things - always takes longer, always costs more money. $4 million is not a, is not a lot in the context of every company we've done that's had to go through meaningful FDA. I assume a hardware company takes seven to $10 million to get the thing done. So this is in spec - I just think you're putting a lot of pressure on the company to finish the product, test out D2C, test out B to B, get the FDA thing done, - it's - I almost want you to do less. I think if you had said, we're not entirely sure which business model we're gonna pursue, that will become clear as we continue to have conversations, I think this conversation would have served you better. I think the truth is, it's hard. It's hard to know."
+    },
+    {
+      "evidence_id": "E2",
+      "turn_index": 118,
+      "speaker": "Charles",
+      "text": "So I'm not in now given the current state of the product and the tech."
+    }
+  ],
+  "rationales": [
+    {
+      "rationale_id": "R1",
+      "rationale_label": "investor_experience_bias",
+      "utterance_type": "assessment",
+      "activation": "evaluated",
+      "direction": "negative",
+      "salience": "secondary",
+      "confidence": 0.98,
+      "evidence_ids": [
+        "E1"
+      ],
+      "explanation": "Charles draws on prior FDA company experience to state that FDA work consistently takes longer and costs more.",
+      "decision_link": "explicit"
+    },
+    {
+      "rationale_id": "R2",
+      "rationale_label": "capital_intensity_concern",
+      "utterance_type": "decision_reason",
+      "activation": "evaluated",
+      "direction": "negative",
+      "salience": "primary",
+      "confidence": 0.99,
+      "evidence_ids": [
+        "E1"
+      ],
+      "explanation": "He assesses the $4 million raise as insufficient for a company pursuing meaningful FDA work, citing higher capital requirements from comparable companies.",
+      "decision_link": "explicit"
+    },
+    {
+      "rationale_id": "R3",
+      "rationale_label": "go_to_market_strategy_assessment",
+      "utterance_type": "decision_reason",
+      "activation": "evaluated",
+      "direction": "negative",
+      "salience": "secondary",
+      "confidence": 0.96,
+      "evidence_ids": [
+        "E1"
+      ],
+      "explanation": "Charles views simultaneously testing D2C and B2B while completing the product and FDA process as excessive operational pressure.",
+      "decision_link": "explicit"
+    },
+    {
+      "rationale_id": "R4",
+      "rationale_label": "founder_investor_vision_alignment",
+      "utterance_type": "decision_reason",
+      "activation": "evaluated",
+      "direction": "negative",
+      "salience": "primary",
+      "confidence": 0.96,
+      "evidence_ids": [
+        "E1"
+      ],
+      "explanation": "He says he almost wants the company to do less, indicating misalignment with the breadth of the current execution plan.",
+      "decision_link": "explicit"
+    },
+    {
+      "rationale_id": "R5",
+      "rationale_label": "founder_communication_quality",
+      "utterance_type": "assessment",
+      "activation": "evaluated",
+      "direction": "negative",
+      "salience": "secondary",
+      "confidence": 0.91,
+      "evidence_ids": [
+        "E1"
+      ],
+      "explanation": "Charles says the conversation would have served the founder better if she had clearly acknowledged uncertainty about which business model to pursue.",
+      "decision_link": "implicit"
+    },
+    {
+      "rationale_id": "R6",
+      "rationale_label": "solution_feasibility_assessment",
+      "utterance_type": "decision_reason",
+      "activation": "evaluated",
+      "direction": "negative",
+      "salience": "primary",
+      "confidence": 0.99,
+      "evidence_ids": [
+        "E2"
+      ],
+      "explanation": "Charles explicitly bases his decision on the current state of the product and technology.",
+      "decision_link": "explicit"
+    }
+  ],
+  "unmapped_utterances": [
+    "That one was solid",
+    "Hey. Charles.",
+    "You got it."
+  ],
+  "audit_flags": [],
+  "annotation_summary": "Charles is Out. His stated rationale centers on insufficient capital for meaningful FDA work, excessive pressure from pursuing multiple priorities simultaneously, uncertainty and communication around the business model, and the current state of the product and technology."
+}

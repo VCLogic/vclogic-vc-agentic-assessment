@@ -1,0 +1,196 @@
+{
+  "schema": "transcript-observed-rationales-v1",
+  "episode_slug": "158-avelo-the-worlds-first-smart-running-shoe",
+  "transcript_sha256": "27414a3436eb8a462f1de438881534a7b27ab3d93673e5d9efbcff5bd7eb22e6",
+  "window": {
+    "start_turn": 0,
+    "end_turn": 84
+  },
+  "observed_decision": "Out",
+  "decision_evidence_ids": [
+    "E8"
+  ],
+  "evidence_registry": [
+    {
+      "evidence_id": "E1",
+      "turn_index": 24,
+      "speaker": "Charles",
+      "text": "I run a fair amount and my experience has been most runners are particular about the shoe brand and they've put some level of thought into - whether it's stability, fit, foot issues. Like, how do you think about getting people to break their habit of maybe, maybe they're a Brooks person or maybe they're whatever their brand, Hoka, whatever their brand of choice might be, those tend to be sticky. How do you think about breaking through with a new brand?"
+    },
+    {
+      "evidence_id": "E2",
+      "turn_index": 83,
+      "speaker": "Charles",
+      "text": "I really liked your answers and your enthusiasm for the category. I've been thinking about something you said that, that I can't seem to shake…"
+    },
+    {
+      "evidence_id": "E3",
+      "turn_index": 84,
+      "speaker": "Charles",
+      "text": "I think it's a consumer behavior mindset issue."
+    },
+    {
+      "evidence_id": "E4",
+      "turn_index": 84,
+      "speaker": "Charles",
+      "text": "I was an early investor in Fitbit and Fitbit really never figured that part of the business out."
+    },
+    {
+      "evidence_id": "E5",
+      "turn_index": 84,
+      "speaker": "Charles",
+      "text": "And my concern is that that's why we don't have a smart shoe yet."
+    },
+    {
+      "evidence_id": "E6",
+      "turn_index": 84,
+      "speaker": "Charles",
+      "text": "And I think part of it is that I just worry that the consumer's not ready to think of a smart shoe as a - whether they're paying for the shoe, paying for the tech in the shoe, paying for access to the app."
+    },
+    {
+      "evidence_id": "E7",
+      "turn_index": 84,
+      "speaker": "Charles",
+      "text": "I just worry that consumers aren't ready to pay for that bundle yet and that that will be an uphill challenge."
+    },
+    {
+      "evidence_id": "E8",
+      "turn_index": 84,
+      "speaker": "Charles",
+      "text": "But that gives me too much pause to go forward now."
+    },
+    {
+      "evidence_id": "E9",
+      "turn_index": 84,
+      "speaker": "Charles",
+      "text": "But I have to say that you, as a fellow runner I think you really are in tune with the community and I wish you nothing but success."
+    }
+  ],
+  "rationales": [
+    {
+      "rationale_id": "R1",
+      "rationale_label": "competitive_landscape_inertia",
+      "utterance_type": "question",
+      "activation": "queried",
+      "direction": "neutral",
+      "salience": "secondary",
+      "confidence": 0.99,
+      "evidence_ids": [
+        "E1"
+      ],
+      "explanation": "Charles asks how Avelo can overcome runners’ sticky brand preferences and established shoe habits.",
+      "decision_link": "none"
+    },
+    {
+      "rationale_id": "R2",
+      "rationale_label": "founder_communication_quality",
+      "utterance_type": "assessment",
+      "activation": "evaluated",
+      "direction": "positive",
+      "salience": "secondary",
+      "confidence": 0.99,
+      "evidence_ids": [
+        "E2"
+      ],
+      "explanation": "Charles explicitly praises the founder’s answers.",
+      "decision_link": "none"
+    },
+    {
+      "rationale_id": "R3",
+      "rationale_label": "founder_qualities",
+      "utterance_type": "assessment",
+      "activation": "evaluated",
+      "direction": "positive",
+      "salience": "secondary",
+      "confidence": 0.97,
+      "evidence_ids": [
+        "E2"
+      ],
+      "explanation": "Charles positively assesses the founder’s enthusiasm for the category.",
+      "decision_link": "none"
+    },
+    {
+      "rationale_id": "R4",
+      "rationale_label": "investor_experience_bias",
+      "utterance_type": "assessment",
+      "activation": "evaluated",
+      "direction": "negative",
+      "salience": "secondary",
+      "confidence": 0.98,
+      "evidence_ids": [
+        "E4",
+        "E5"
+      ],
+      "explanation": "Charles cites his experience as an early Fitbit investor and Fitbit’s failure to solve the analogous payment model as context for his concern.",
+      "decision_link": "implicit"
+    },
+    {
+      "rationale_id": "R5",
+      "rationale_label": "market_timing",
+      "utterance_type": "assessment",
+      "activation": "evaluated",
+      "direction": "negative",
+      "salience": "primary",
+      "confidence": 0.99,
+      "evidence_ids": [
+        "E3",
+        "E6",
+        "E7",
+        "E8"
+      ],
+      "explanation": "Charles worries that consumers are not yet ready to adopt and pay for a smart-shoe bundle, making the category’s timing unfavorable.",
+      "decision_link": "explicit"
+    },
+    {
+      "rationale_id": "R6",
+      "rationale_label": "business_model_assessment",
+      "utterance_type": "assessment",
+      "activation": "evaluated",
+      "direction": "negative",
+      "salience": "primary",
+      "confidence": 0.99,
+      "evidence_ids": [
+        "E6",
+        "E7",
+        "E8"
+      ],
+      "explanation": "Charles is concerned about consumer willingness to pay for the shoe, embedded technology, or app access, viewing the bundled monetization model as an uphill challenge.",
+      "decision_link": "explicit"
+    },
+    {
+      "rationale_id": "R7",
+      "rationale_label": "business_viability_concern",
+      "utterance_type": "decision_reason",
+      "activation": "evaluated",
+      "direction": "negative",
+      "salience": "primary",
+      "confidence": 0.99,
+      "evidence_ids": [
+        "E7",
+        "E8"
+      ],
+      "explanation": "Charles directly states that the payment challenge gives him too much pause to proceed with the investment.",
+      "decision_link": "explicit"
+    },
+    {
+      "rationale_id": "R8",
+      "rationale_label": "founder_market_fit",
+      "utterance_type": "assessment",
+      "activation": "evaluated",
+      "direction": "positive",
+      "salience": "secondary",
+      "confidence": 0.98,
+      "evidence_ids": [
+        "E9"
+      ],
+      "explanation": "As a fellow runner, Charles says the founder is in tune with the running community.",
+      "decision_link": "none"
+    }
+  ],
+  "unmapped_utterances": [
+    "Turn 2: Hey. Charles. Nice to meet you.",
+    "Turn 83: We’ll be right back."
+  ],
+  "audit_flags": [],
+  "annotation_summary": "Charles’s positive founder assessments and concern about entrenched shoe-brand habits did not overcome his primary objection: consumers may not yet be ready to pay for the smart-shoe bundle, creating an uphill business challenge and leading to an Out decision."
+}

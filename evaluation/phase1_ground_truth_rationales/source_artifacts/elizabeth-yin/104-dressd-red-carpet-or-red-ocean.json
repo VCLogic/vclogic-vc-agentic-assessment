@@ -1,0 +1,152 @@
+{
+  "schema": "transcript-observed-rationales-v1",
+  "episode_slug": "104-dressd-red-carpet-or-red-ocean",
+  "transcript_sha256": "26c273cbd6081fb5785ed9a47e299ff5934f7b21c16d827932abc8f17113558d",
+  "window": {
+    "start_turn": 11,
+    "end_turn": 96
+  },
+  "observed_decision": "Out",
+  "decision_evidence_ids": [
+    "E3"
+  ],
+  "evidence_registry": [
+    {
+      "evidence_id": "E1",
+      "turn_index": 31,
+      "speaker": "Elizabeth",
+      "text": "What did those numbers typically look like? Like, how much would a rental be?"
+    },
+    {
+      "evidence_id": "E2",
+      "turn_index": 57,
+      "speaker": "Elizabeth",
+      "text": "And to this point, I think actually this is why people have moved away from the P2P model because it is really hard to get that liquidity and that supply side I think the college market is really interesting and I wonder on the shipping side, because that is a big chunk of the cost, if you have like a liquid marketplace on a given campus, there's more trust, cos it's like, oh, a UCLA student is renting from me, another UCLA student - and also maybe there's no shipping, so that reduces it. So I'm just wondering whether there are things you can play around with the college market specifically, it's often easier to start with existing communities in these pockets that are big enough and maybe the college market in this case might be a good one."
+    },
+    {
+      "evidence_id": "E3",
+      "turn_index": 96,
+      "speaker": "Elizabeth",
+      "text": "I think for me, towards the end of this conversation I got really impressed with you. As well as your team. I think the thing that I'm still mulling over in my mind, even though I think this is great founder market fit is can you get enough turns on these dresses? Can you get that supply? Even with this hyperfocus on the campuses. And I think I'm just not sure I quite have that conviction and so I'm out."
+    }
+  ],
+  "rationales": [
+    {
+      "rationale_id": "R1",
+      "rationale_label": "business_model_assessment",
+      "utterance_type": "question",
+      "activation": "queried",
+      "direction": "neutral",
+      "salience": "secondary",
+      "confidence": 0.99,
+      "evidence_ids": [
+        "E1"
+      ],
+      "explanation": "Elizabeth asks about typical rental pricing, probing the monetization and transaction economics.",
+      "decision_link": "none"
+    },
+    {
+      "rationale_id": "R2",
+      "rationale_label": "business_viability_concern",
+      "utterance_type": "assessment",
+      "activation": "evaluated",
+      "direction": "negative",
+      "salience": "primary",
+      "confidence": 0.96,
+      "evidence_ids": [
+        "E2"
+      ],
+      "explanation": "Elizabeth states that P2P models have moved away from this approach because achieving marketplace liquidity and sufficient supply is difficult.",
+      "decision_link": "none"
+    },
+    {
+      "rationale_id": "R3",
+      "rationale_label": "market_entry_path_assessment",
+      "utterance_type": "assessment",
+      "activation": "evaluated",
+      "direction": "positive",
+      "salience": "secondary",
+      "confidence": 0.98,
+      "evidence_ids": [
+        "E2"
+      ],
+      "explanation": "Elizabeth describes the college market and existing campus communities as interesting, sufficiently concentrated starting pockets.",
+      "decision_link": "none"
+    },
+    {
+      "rationale_id": "R4",
+      "rationale_label": "go_to_market_strategy_assessment",
+      "utterance_type": "question",
+      "activation": "queried",
+      "direction": "neutral",
+      "salience": "secondary",
+      "confidence": 0.95,
+      "evidence_ids": [
+        "E2"
+      ],
+      "explanation": "Elizabeth explores campus-level liquidity, trust, localized transactions, reduced shipping, and experimentation within college communities.",
+      "decision_link": "none"
+    },
+    {
+      "rationale_id": "R5",
+      "rationale_label": "founder_qualities",
+      "utterance_type": "assessment",
+      "activation": "evaluated",
+      "direction": "positive",
+      "salience": "secondary",
+      "confidence": 0.98,
+      "evidence_ids": [
+        "E3"
+      ],
+      "explanation": "Elizabeth says she became impressed with Capri and her team toward the end of the conversation.",
+      "decision_link": "none"
+    },
+    {
+      "rationale_id": "R6",
+      "rationale_label": "founder_market_fit",
+      "utterance_type": "assessment",
+      "activation": "evaluated",
+      "direction": "positive",
+      "salience": "secondary",
+      "confidence": 0.99,
+      "evidence_ids": [
+        "E3"
+      ],
+      "explanation": "Elizabeth explicitly says the company has great founder-market fit.",
+      "decision_link": "none"
+    },
+    {
+      "rationale_id": "R7",
+      "rationale_label": "traction_repeatability_concern",
+      "utterance_type": "question",
+      "activation": "queried",
+      "direction": "neutral",
+      "salience": "primary",
+      "confidence": 0.98,
+      "evidence_ids": [
+        "E3"
+      ],
+      "explanation": "Elizabeth asks whether the company can generate enough rental turns and obtain enough dress supply, including under the campus-focused strategy.",
+      "decision_link": "none"
+    },
+    {
+      "rationale_id": "R8",
+      "rationale_label": "traction_repeatability_concern",
+      "utterance_type": "decision_reason",
+      "activation": "evaluated",
+      "direction": "negative",
+      "salience": "primary",
+      "confidence": 0.99,
+      "evidence_ids": [
+        "E3"
+      ],
+      "explanation": "Elizabeth directly attributes her decision to lacking conviction that the business can achieve sufficient turns and supply.",
+      "decision_link": "explicit"
+    }
+  ],
+  "unmapped_utterances": [
+    "YC. Yeah."
+  ],
+  "audit_flags": [],
+  "annotation_summary": "Elizabeth positively assessed Capri, the team, founder-market fit, and the campus wedge, while identifying marketplace liquidity, rental turns, and supply as the unresolved concern. She explicitly cited insufficient conviction on those points as the reason for going Out."
+}

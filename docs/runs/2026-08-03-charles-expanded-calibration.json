@@ -1,0 +1,71 @@
+{
+  "schema": "charles-expanded-calibration-report-v1",
+  "evaluation": {
+    "outer_protocol": "five_repeats_stratified_five_fold",
+    "inner_selection": "training_only_stratified_cross_validation",
+    "score_calibration": "training_only_platt",
+    "bootstrap_iterations": 2000,
+    "status": "development_not_untouched_holdout"
+  },
+  "rejected_diagnostic": {
+    "method": "rbf_svm_nested_leave_one_out",
+    "observed_average_precision": 0.6430413800808774,
+    "reason": "held_class_was_recoverable_from_outer_training_positive_count_and_fold_specific_configuration_scale",
+    "reportable": false
+  },
+  "strict": {
+    "population": {"episodes": 86, "ins": 17, "outs": 69},
+    "best_classifier": {
+      "method": "legacy_phase1",
+      "balanced_accuracy": 0.5622335890878091,
+      "balanced_accuracy_interval_95": [0.4373401534526854, 0.6943734015345269],
+      "in_precision": 0.23809523809523808,
+      "in_recall": 0.5882352941176471,
+      "in_f1": 0.3389830508474576,
+      "confusion_matrix": {"tn": 37, "fp": 32, "fn": 7, "tp": 10}
+    },
+    "best_learned_ranker": {
+      "method": "phase2",
+      "average_precision": 0.28221189787953543,
+      "average_precision_interval_95": [0.18200144003446173, 0.4627880906938813],
+      "prevalence": 0.19767441860465115,
+      "hits_at_5": 1,
+      "hits_at_10": 1,
+      "hits_at_20": 5
+    },
+    "best_new_complex_classifier": {
+      "method": "rbf_svm",
+      "balanced_accuracy": 0.530690537084399
+    },
+    "best_new_complex_ranker": {
+      "method": "two_stage_diamond",
+      "average_precision": 0.25528178393862866
+    }
+  },
+  "conditional_interest": {
+    "overrides": {
+      "41-can-this-startup-help-retailers-take-on-amazon": "In",
+      "127-nectir-the-classroom-of-the-future": "In"
+    },
+    "population": {"episodes": 86, "ins": 19, "outs": 67},
+    "best_classifier": {
+      "method": "legacy_phase1",
+      "balanced_accuracy": 0.5809112333071484,
+      "balanced_accuracy_interval_95": [0.46072270227808326, 0.7007069913589945],
+      "in_precision": 0.2708333333333333,
+      "in_recall": 0.6842105263157895,
+      "in_f1": 0.3880597014925373,
+      "confusion_matrix": {"tn": 32, "fp": 35, "fn": 6, "tp": 13}
+    },
+    "best_ranker": {
+      "method": "raw_any_check",
+      "average_precision": 0.33088128847919185,
+      "average_precision_interval_95": [0.22513279421755314, 0.5184812527134],
+      "prevalence": 0.22093023255813954,
+      "hits_at_5": 2,
+      "hits_at_10": 4,
+      "hits_at_20": 8
+    }
+  },
+  "conclusion": "No tested complex model improves on the corrected simpler baselines; Phase 2 remains useful primarily for ranking and high-recall screening."
+}

@@ -1,0 +1,234 @@
+{
+  "schema": "transcript-observed-rationales-v1",
+  "episode_slug": "69-when-less-is-not-more",
+  "transcript_sha256": "a808f358ef5558e55101f8e663134073608bab73c4290bfdcfa4c7cfe82436fe",
+  "window": {
+    "start_turn": 4,
+    "end_turn": 119
+  },
+  "observed_decision": "Out",
+  "decision_evidence_ids": [
+    "E7"
+  ],
+  "evidence_registry": [
+    {
+      "evidence_id": "E1",
+      "turn_index": 36,
+      "speaker": "Jillian",
+      "text": "Tell us about your sales thus far"
+    },
+    {
+      "evidence_id": "E2",
+      "turn_index": 38,
+      "speaker": "Jillian",
+      "text": "What happened to the 700?"
+    },
+    {
+      "evidence_id": "E3",
+      "turn_index": 46,
+      "speaker": "Jillian",
+      "text": "And how you can automate that a bit, too."
+    },
+    {
+      "evidence_id": "E4",
+      "turn_index": 80,
+      "speaker": "Jillian",
+      "text": "So talk about the buyers. And talk about how you... You’re raising 100,000, which sounds very, very tiny and I understand why. But it doesn’t, I can’t imagine how that 100,000 is going to actually get you to the 2500 if in fact you’re buying, you also have to pay stylists, So can you…"
+    },
+    {
+      "evidence_id": "E5",
+      "turn_index": 114,
+      "speaker": "Jillian",
+      "text": "Um. So ah... You are unusual because you are coming with here with such a depth of knowledge, and I think your McKinsey background definitely shined bright here for all of us. And I liked the way that you’ve addressed all of our issues. I, I do feel that you need to raise more."
+    },
+    {
+      "evidence_id": "E6",
+      "turn_index": 116,
+      "speaker": "Jillian",
+      "text": "I do think that this is doing you a disservice. Because $100,000 in our world Doesn’t even make sense. Like $100 can’t buy you a cup of coffee. Right. And so..."
+    },
+    {
+      "evidence_id": "E7",
+      "turn_index": 119,
+      "speaker": "Jillian",
+      "text": "So I’m very sad to say that I’m passing because I think you have such grit and potential And I want to see where this goes. I really do want to see where this goes."
+    }
+  ],
+  "rationales": [
+    {
+      "rationale_id": "R1",
+      "rationale_label": "product_adoption",
+      "utterance_type": "question",
+      "activation": "queried",
+      "direction": "neutral",
+      "salience": "secondary",
+      "confidence": 0.98,
+      "evidence_ids": [
+        "E1"
+      ],
+      "explanation": "Jillian asks for evidence of sales and customer adoption to date.",
+      "decision_link": "none"
+    },
+    {
+      "rationale_id": "R2",
+      "rationale_label": "traction_repeatability_concern",
+      "utterance_type": "question",
+      "activation": "queried",
+      "direction": "neutral",
+      "salience": "secondary",
+      "confidence": 0.98,
+      "evidence_ids": [
+        "E2"
+      ],
+      "explanation": "Jillian probes the gap between the reported 700-person list and active customers.",
+      "decision_link": "none"
+    },
+    {
+      "rationale_id": "R3",
+      "rationale_label": "solution_feasibility_assessment",
+      "utterance_type": "question",
+      "activation": "queried",
+      "direction": "neutral",
+      "salience": "secondary",
+      "confidence": 0.96,
+      "evidence_ids": [
+        "E3"
+      ],
+      "explanation": "Jillian asks how the operational process can be automated.",
+      "decision_link": "none"
+    },
+    {
+      "rationale_id": "R4",
+      "rationale_label": "capital_intensity_concern",
+      "utterance_type": "assessment",
+      "activation": "evaluated",
+      "direction": "negative",
+      "salience": "primary",
+      "confidence": 0.99,
+      "evidence_ids": [
+        "E4"
+      ],
+      "explanation": "Jillian says $100,000 sounds very small and questions whether it can fund inventory and stylists while reaching 2,500 customers.",
+      "decision_link": "none"
+    },
+    {
+      "rationale_id": "R5",
+      "rationale_label": "growth_projection_risk",
+      "utterance_type": "assessment",
+      "activation": "evaluated",
+      "direction": "negative",
+      "salience": "secondary",
+      "confidence": 0.97,
+      "evidence_ids": [
+        "E4"
+      ],
+      "explanation": "Jillian cannot imagine a credible path from the proposed $100,000 to 2,500 customers under the stated spending needs.",
+      "decision_link": "none"
+    },
+    {
+      "rationale_id": "R6",
+      "rationale_label": "founder_qualities",
+      "utterance_type": "assessment",
+      "activation": "evaluated",
+      "direction": "positive",
+      "salience": "secondary",
+      "confidence": 0.97,
+      "evidence_ids": [
+        "E5"
+      ],
+      "explanation": "Jillian describes Rahul as unusual.",
+      "decision_link": "none"
+    },
+    {
+      "rationale_id": "R7",
+      "rationale_label": "founder_skillset",
+      "utterance_type": "assessment",
+      "activation": "evaluated",
+      "direction": "positive",
+      "salience": "primary",
+      "confidence": 0.99,
+      "evidence_ids": [
+        "E5"
+      ],
+      "explanation": "Jillian positively assesses Rahul’s depth of knowledge and relevant McKinsey background.",
+      "decision_link": "none"
+    },
+    {
+      "rationale_id": "R8",
+      "rationale_label": "founder_communication_quality",
+      "utterance_type": "assessment",
+      "activation": "evaluated",
+      "direction": "positive",
+      "salience": "secondary",
+      "confidence": 0.96,
+      "evidence_ids": [
+        "E5"
+      ],
+      "explanation": "Jillian says she liked how Rahul addressed all of the investors’ issues.",
+      "decision_link": "none"
+    },
+    {
+      "rationale_id": "R9",
+      "rationale_label": "capital_intensity_concern",
+      "utterance_type": "assessment",
+      "activation": "evaluated",
+      "direction": "negative",
+      "salience": "primary",
+      "confidence": 0.99,
+      "evidence_ids": [
+        "E5"
+      ],
+      "explanation": "Jillian states that Rahul needs to raise more capital.",
+      "decision_link": "none"
+    },
+    {
+      "rationale_id": "R10",
+      "rationale_label": "capital_intensity_concern",
+      "utterance_type": "assessment",
+      "activation": "evaluated",
+      "direction": "negative",
+      "salience": "primary",
+      "confidence": 0.99,
+      "evidence_ids": [
+        "E6"
+      ],
+      "explanation": "Jillian says the $100,000 raise does not make sense in her investing context and is doing Rahul a disservice.",
+      "decision_link": "none"
+    },
+    {
+      "rationale_id": "R11",
+      "rationale_label": "founder_execution",
+      "utterance_type": "decision_reason",
+      "activation": "evaluated",
+      "direction": "positive",
+      "salience": "primary",
+      "confidence": 0.99,
+      "evidence_ids": [
+        "E7"
+      ],
+      "explanation": "Jillian explicitly cites Rahul’s grit while announcing that she is passing.",
+      "decision_link": "explicit"
+    },
+    {
+      "rationale_id": "R12",
+      "rationale_label": "founder_qualities",
+      "utterance_type": "decision_reason",
+      "activation": "evaluated",
+      "direction": "positive",
+      "salience": "secondary",
+      "confidence": 0.99,
+      "evidence_ids": [
+        "E7"
+      ],
+      "explanation": "Jillian explicitly cites Rahul’s potential while announcing that she is passing.",
+      "decision_link": "explicit"
+    }
+  ],
+  "unmapped_utterances": [
+    "Right.",
+    "Yeah.",
+    "Okay. Good. Thank you. Phil. All right."
+  ],
+  "audit_flags": [],
+  "annotation_summary": "Jillian positively assessed Rahul’s knowledge, background, communication, grit, and potential, while questioning traction, operational automation, growth assumptions, and especially the sufficiency of the $100,000 raise. Her only explicit decision-linked evidence is the final statement that she is passing despite his grit and potential."
+}

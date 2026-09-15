@@ -1,0 +1,148 @@
+{
+  "schema": "transcript-observed-rationales-v1",
+  "episode_slug": "79-the-anti-juul",
+  "transcript_sha256": "2bb6d58b3732f468eb68bb8d8670d03e1f6489cec89800a1a457743f47a25545",
+  "window": {
+    "start_turn": 42,
+    "end_turn": 71
+  },
+  "observed_decision": "Out",
+  "decision_evidence_ids": [
+    "E5"
+  ],
+  "evidence_registry": [
+    {
+      "evidence_id": "E1",
+      "turn_index": 55,
+      "speaker": "Charles",
+      "text": "What do you think is the end game path for this company? I mean, given that you sort of are at that intersection of tech where I think the path forward is known and bio, sort of biotech, where the paths a little different. Like what do you can you help me envision what the end state might look like?"
+    },
+    {
+      "evidence_id": "E2",
+      "turn_index": 57,
+      "speaker": "Charles",
+      "text": "It’s insane."
+    },
+    {
+      "evidence_id": "E3",
+      "turn_index": 63,
+      "speaker": "Charles",
+      "text": "Can you tell, are there any restrictions or prohibitions or challenges with marketing this project, this product digitally?"
+    },
+    {
+      "evidence_id": "E4",
+      "turn_index": 69,
+      "speaker": "Charles",
+      "text": "See I’m torn on this one. We’ve had a strict sort of no tobacco, no cannabis policy at Precursor since I started the fund. And I think for the most part I’ve been happy to have sat both of those markets out. This is the first thing I’ve seen where I think it’s not a wink wink cessation product, but like actually interested in addressing the problem."
+    },
+    {
+      "evidence_id": "E5",
+      "turn_index": 71,
+      "speaker": "Charles",
+      "text": "So I’ve never had to sit down and think about under what circumstances would we say yes to a product that I think could actually address… And I have a ton of smokers in my family. So it’s a very personally relevant problem. For now, for now I’m going to pass. But I want to follow up with you and see if I could come up with... Because I’d have to explain sort of to my investors why we’ve decided to change our rules and stance on both of those categories."
+    }
+  ],
+  "rationales": [
+    {
+      "rationale_id": "R1",
+      "rationale_label": "investment_upside_assessment",
+      "utterance_type": "question",
+      "activation": "queried",
+      "direction": "neutral",
+      "salience": "secondary",
+      "confidence": 0.96,
+      "evidence_ids": [
+        "E1"
+      ],
+      "explanation": "Charles asks about the company’s end-game path and possible end state, without expressing a positive or negative judgment.",
+      "decision_link": "none"
+    },
+    {
+      "rationale_id": "R2",
+      "rationale_label": "go_to_market_strategy_assessment",
+      "utterance_type": "question",
+      "activation": "queried",
+      "direction": "neutral",
+      "salience": "secondary",
+      "confidence": 0.95,
+      "evidence_ids": [
+        "E3"
+      ],
+      "explanation": "Charles asks whether digital marketing restrictions or prohibitions could affect the product.",
+      "decision_link": "none"
+    },
+    {
+      "rationale_id": "R3",
+      "rationale_label": "investment_upside_assessment",
+      "utterance_type": "assessment",
+      "activation": "evaluated",
+      "direction": "neutral",
+      "salience": "secondary",
+      "confidence": 0.88,
+      "evidence_ids": [
+        "E2"
+      ],
+      "explanation": "Charles expresses astonishment about the biotech path being discussed, but does not state a directional investment judgment.",
+      "decision_link": "none"
+    },
+    {
+      "rationale_id": "R4",
+      "rationale_label": "investment_thesis_constraint",
+      "utterance_type": "assessment",
+      "activation": "evaluated",
+      "direction": "negative",
+      "salience": "primary",
+      "confidence": 0.99,
+      "evidence_ids": [
+        "E4"
+      ],
+      "explanation": "Charles states that Precursor has maintained a strict no-tobacco, no-cannabis policy and has generally been comfortable excluding those markets.",
+      "decision_link": "implicit"
+    },
+    {
+      "rationale_id": "R5",
+      "rationale_label": "product_appeal_assessment",
+      "utterance_type": "assessment",
+      "activation": "evaluated",
+      "direction": "positive",
+      "salience": "secondary",
+      "confidence": 0.94,
+      "evidence_ids": [
+        "E4"
+      ],
+      "explanation": "Charles positively distinguishes this product from superficial cessation positioning and says it is genuinely interested in addressing the problem.",
+      "decision_link": "none"
+    },
+    {
+      "rationale_id": "R6",
+      "rationale_label": "mission_alignment_preference",
+      "utterance_type": "assessment",
+      "activation": "evaluated",
+      "direction": "positive",
+      "salience": "secondary",
+      "confidence": 0.91,
+      "evidence_ids": [
+        "E5"
+      ],
+      "explanation": "Charles says the smoking problem is personally relevant because he has many smokers in his family.",
+      "decision_link": "none"
+    },
+    {
+      "rationale_id": "R7",
+      "rationale_label": "investment_thesis_constraint",
+      "utterance_type": "decision_reason",
+      "activation": "evaluated",
+      "direction": "negative",
+      "salience": "primary",
+      "confidence": 0.99,
+      "evidence_ids": [
+        "E5"
+      ],
+      "explanation": "Charles directly ties his decision to the need to explain to his investors why the fund would change its rules and stance on tobacco and cannabis.",
+      "decision_link": "explicit"
+    }
+  ],
+  "unmapped_utterances": [],
+  "audit_flags": [],
+  "annotation_summary": "Charles’s explicit pass is attributed to Precursor’s existing tobacco and cannabis investment-thesis rules and the difficulty of justifying a policy change to investors. His positive view of the product and personal relevance of smoking cessation are recorded as secondary, non-decisive observations."
+}

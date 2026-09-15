@@ -1,0 +1,126 @@
+{
+  "schema": "transcript-observed-rationales-v1",
+  "episode_slug": "178-cosmicbrain-ai-how-to-train-your-robot",
+  "transcript_sha256": "eaf6073881a1dc1e0a7b30f295bf000ce11aef5b3552757a03b8e73dd5b0b017",
+  "window": {
+    "start_turn": 24,
+    "end_turn": 136
+  },
+  "observed_decision": "Out",
+  "decision_evidence_ids": [
+    "E3"
+  ],
+  "evidence_registry": [
+    {
+      "evidence_id": "E1",
+      "turn_index": 110,
+      "speaker": "Charles",
+      "text": "Who is responsible for thinking up all the use cases, do those come from you? Like your imagination of like, the, the cleaning robot, the cookie robot? Are you like the idea generator of like this, basically the skills that need to be built?"
+    },
+    {
+      "evidence_id": "E2",
+      "turn_index": 120,
+      "speaker": "Charles",
+      "text": "How many addressable robots are there for you right now?"
+    },
+    {
+      "evidence_id": "E3",
+      "turn_index": 136,
+      "speaker": "Charles",
+      "text": "Yeah. I think for me, I feel like we're on the cusp of all of this stuff happening. It still feels a click too early for me. So I'm out for that reason. But if I were gonna bet on anybody, it'd be somebody with your background. I mean, you've got the cookie robot, you've got all of the primitives you would need. So this for me is more a statement of like, my limited understanding of the market and where it feels like we are, not anything about your capabilities or ability to execute."
+    }
+  ],
+  "rationales": [
+    {
+      "rationale_id": "R1",
+      "rationale_label": "founder_skillset",
+      "utterance_type": "question",
+      "activation": "queried",
+      "direction": "neutral",
+      "salience": "secondary",
+      "confidence": 0.98,
+      "evidence_ids": [
+        "E1"
+      ],
+      "explanation": "Charles asks whether the founder is responsible for generating use cases and identifying the skills that need to be built, without expressing a judgment.",
+      "decision_link": "none"
+    },
+    {
+      "rationale_id": "R2",
+      "rationale_label": "market_size_assessment",
+      "utterance_type": "question",
+      "activation": "queried",
+      "direction": "neutral",
+      "salience": "secondary",
+      "confidence": 0.99,
+      "evidence_ids": [
+        "E2"
+      ],
+      "explanation": "Charles asks about the number of addressable robots, probing the size of the potential market without expressing a judgment.",
+      "decision_link": "none"
+    },
+    {
+      "rationale_id": "R3",
+      "rationale_label": "market_timing",
+      "utterance_type": "decision_reason",
+      "activation": "evaluated",
+      "direction": "negative",
+      "salience": "primary",
+      "confidence": 1,
+      "evidence_ids": [
+        "E3"
+      ],
+      "explanation": "Charles explicitly says the opportunity feels too early and directly states that this is why he is out.",
+      "decision_link": "explicit"
+    },
+    {
+      "rationale_id": "R4",
+      "rationale_label": "investor_domain_knowledge_constraint",
+      "utterance_type": "decision_reason",
+      "activation": "evaluated",
+      "direction": "negative",
+      "salience": "secondary",
+      "confidence": 0.99,
+      "evidence_ids": [
+        "E3"
+      ],
+      "explanation": "Charles attributes his decision to his limited understanding of the market and where the market currently stands.",
+      "decision_link": "explicit"
+    },
+    {
+      "rationale_id": "R5",
+      "rationale_label": "founder_market_fit",
+      "utterance_type": "assessment",
+      "activation": "evaluated",
+      "direction": "positive",
+      "salience": "secondary",
+      "confidence": 0.98,
+      "evidence_ids": [
+        "E3"
+      ],
+      "explanation": "Charles positively assesses the founder's background as strong enough that he would bet on the founder if he were making that bet.",
+      "decision_link": "none"
+    },
+    {
+      "rationale_id": "R6",
+      "rationale_label": "founder_skillset",
+      "utterance_type": "assessment",
+      "activation": "evaluated",
+      "direction": "positive",
+      "salience": "secondary",
+      "confidence": 0.98,
+      "evidence_ids": [
+        "E3"
+      ],
+      "explanation": "Charles positively notes that the founder has the cookie robot and the primitives needed for the opportunity.",
+      "decision_link": "none"
+    }
+  ],
+  "unmapped_utterances": [
+    "Woah",
+    "Mm-hmm",
+    "Yeah"
+  ],
+  "audit_flags": [],
+  "annotation_summary": "Charles's explicit reason for going out is negative market timing: the opportunity feels a click too early. He separately cites limited market understanding as a decision constraint while expressing positive views of the founder's background and relevant capabilities."
+}

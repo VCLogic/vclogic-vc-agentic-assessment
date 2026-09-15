@@ -1,0 +1,120 @@
+{
+  "actual_decision": "Out",
+  "boundary_turn_index": 73,
+  "canonical_pitch_path": "inputs/data/investors/elizabeth-yin-hustle-fund/pitches/118-uncovered-the-business-of-true-crime.txt",
+  "canonical_pitch_sha256": "032d23cd4fb17e89ffb714f11a069d51cf59503a83321a32bb209e764e7f952b",
+  "episode_path": "../agentic-vc-clone-framework/data/episodes/118-uncovered-the-business-of-true-crime.json",
+  "episode_sha256": "7e0b6f2f86d54b42cfd3a5201f4d5a672776206e558dae3038f33f1fd7926f75",
+  "episode_slug": "118-uncovered-the-business-of-true-crime",
+  "insertions": [
+    {
+      "answer_turn_index": 5,
+      "canonical_line_index": 3,
+      "original_speaker": "Erica",
+      "question": "Nice to meet you. I'm Erica.\nThis is a pitch. On my show. What is this?",
+      "source_turn_index": 4
+    },
+    {
+      "answer_turn_index": 14,
+      "canonical_line_index": 6,
+      "original_speaker": "Martin",
+      "question": "MISDIRECTION\nJILLIAN???",
+      "source_turn_index": 7
+    },
+    {
+      "answer_turn_index": 14,
+      "canonical_line_index": 6,
+      "original_speaker": "Jillian",
+      "question": "but no I\u2019m not a murderer\nAll of a sudden, everything shuts off. The neon sign. The mini fridge. My Mac Mini. And when it reboots, there\u2019s a message on the monitor\u2026\nCan a media company produce venture scale returns by\u2026solving murders?\nGuess we\u2019ll find out. I\u2019m Josh Muccio, and this is The Pitch, where real entrepreneurs solve real cold cases for real money.",
+      "source_turn_index": 8
+    },
+    {
+      "answer_turn_index": 40,
+      "canonical_line_index": 23,
+      "original_speaker": "Jillian",
+      "question": "Yeah. How do you get the data?",
+      "source_turn_index": 39
+    },
+    {
+      "answer_turn_index": 44,
+      "canonical_line_index": 26,
+      "original_speaker": "Martin",
+      "question": "You'd mentioned you had quite a bit of traffic on your website, but only a couple hundred paid users. What's your monetization strategy? How are you gonna make money on this?",
+      "source_turn_index": 43
+    },
+    {
+      "answer_turn_index": 50,
+      "canonical_line_index": 30,
+      "original_speaker": "Jillian",
+      "question": "Can you speak a little bit about the technology. How are you building that tech stack, in order to be able to solve these mysteries?",
+      "source_turn_index": 49
+    },
+    {
+      "answer_turn_index": 56,
+      "canonical_line_index": 34,
+      "original_speaker": "Erica",
+      "question": "Reward. Thank you. But if there was this potential big payout, like I think a lot about like you know affiliate marketers and that stuff. If they could work really hard for this potential reward that they split with you guys, it'd maybe a revenue stream for you all, it would maybe be worth someone paying for access to the community cos they felt, oh, if I just solve one case over the next five years, I pay myself back and then some. Is that even a thing? Or did I just come up with it?",
+      "source_turn_index": 55
+    },
+    {
+      "answer_turn_index": 65,
+      "canonical_line_index": 41,
+      "original_speaker": "Erica",
+      "question": "What are people paying you for that they can't get elsewhere? So whenever I hear like, number one, content bucket, I think, okay, they can consume it as a podcast, they can consume it in Netflix, they can consume it on - you know, a newsletter, whatever. What are you - like what's enough for someone to come and pay you money?",
+      "source_turn_index": 64
+    }
+  ],
+  "leakage_checklist": {
+    "founder_content_added": false,
+    "other_investor_identity_model_visible": false,
+    "post_boundary_turn_retained": false,
+    "target_investor_turn_retained": false,
+    "verdict_or_offer_turn_retained": false
+  },
+  "neutral_speaker_label": "Panel Investor",
+  "omitted_candidates": [
+    {
+      "original_speaker": "Erica",
+      "reason": "founder_answer_not_in_canonical_pitch",
+      "source_turn_index": 21,
+      "text": "Uncovered.com/cases?"
+    },
+    {
+      "original_speaker": "Jillian",
+      "reason": "question_already_present",
+      "source_turn_index": 25,
+      "text": "So this is like crowd solving for cold cases?"
+    },
+    {
+      "original_speaker": "Erica",
+      "reason": "question_already_present",
+      "source_turn_index": 38,
+      "text": "Who's uploading these cold cases? Are you guys hooking up to something that the government provides? Or are these like individuals of family members and friends that want to upload?"
+    },
+    {
+      "original_speaker": "Erica",
+      "reason": "verdict_or_offer_language",
+      "source_turn_index": 53,
+      "text": "I just have a quick question on - I don't know this - but if someone solves a cold case, is there some sort of like - I use the word 'referral' cos I'm in tech - bounty, I don't - whatever the word is? Some payout for -"
+    },
+    {
+      "original_speaker": "Charles",
+      "reason": "question_already_present",
+      "source_turn_index": 59,
+      "text": "Where else does this audience hang out online for entertainment content? Like what do you think is sort of their media universe?"
+    },
+    {
+      "original_speaker": "Erica",
+      "reason": "question_already_present",
+      "source_turn_index": 66,
+      "text": "So is that 200 people? Or is that more people that are in that community?"
+    }
+  ],
+  "pitch_sha256": "44d26a97f62a0d772b63b0a1a1c034bf97c8593aa96fad6c208feb2047dbe2a4",
+  "registry_vc_slug": "elizabeth-yin",
+  "schema": "panel-question-pitch-audit-v1",
+  "source_record_path": "inputs/data/investors/elizabeth-yin-hustle-fund/precedents/records/118-uncovered-the-business-of-true-crime.json",
+  "source_record_sha256": "a69b45d21f50f49416ae0154372ad405c23bad999fadc09f9ef99ab0f2fa12f8",
+  "status": "audited",
+  "vc_slug": "elizabeth-yin-hustle-fund"
+}

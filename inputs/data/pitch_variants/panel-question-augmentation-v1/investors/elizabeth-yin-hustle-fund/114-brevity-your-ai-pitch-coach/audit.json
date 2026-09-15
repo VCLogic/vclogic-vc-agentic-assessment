@@ -1,0 +1,147 @@
+{
+  "actual_decision": "Out",
+  "boundary_turn_index": 123,
+  "canonical_pitch_path": "inputs/data/investors/elizabeth-yin-hustle-fund/pitches/114-brevity-your-ai-pitch-coach.txt",
+  "canonical_pitch_sha256": "74b17184616a3647cb2b65ca484f0502615417799636f73e996802753b6594c0",
+  "episode_path": "../agentic-vc-clone-framework/data/episodes/114-brevity-your-ai-pitch-coach.json",
+  "episode_sha256": "40f4a4ba6c01009e8f14d58edf30ad1ef41a94ecba409161200ed987a3ffc9a0",
+  "episode_slug": "114-brevity-your-ai-pitch-coach",
+  "insertions": [
+    {
+      "answer_turn_index": 10,
+      "canonical_line_index": 1,
+      "original_speaker": "Neal",
+      "question": "Good to see you brother. How you been? //",
+      "source_turn_index": 8
+    },
+    {
+      "answer_turn_index": 25,
+      "canonical_line_index": 6,
+      "original_speaker": "Mac",
+      "question": "Good pitch, you know, sounds like an interesting product. Sounds like you've got some traction. But how do you make money? Or how much money have you made to date?",
+      "source_turn_index": 24
+    },
+    {
+      "answer_turn_index": 31,
+      "canonical_line_index": 11,
+      "original_speaker": "Charles",
+      "question": "Is the experience like a Grammarly type experience -",
+      "source_turn_index": 30
+    },
+    {
+      "answer_turn_index": 35,
+      "canonical_line_index": 13,
+      "original_speaker": "Charles",
+      "question": "- where I type some things and it says, hey, tone's off or say it this way.",
+      "source_turn_index": 32
+    },
+    {
+      "answer_turn_index": 54,
+      "canonical_line_index": 19,
+      "original_speaker": "Jillian",
+      "question": "Like, how do you actually categorize that? Because there are many different types of audiences and there are many nuances.",
+      "source_turn_index": 42
+    },
+    {
+      "answer_turn_index": 54,
+      "canonical_line_index": 19,
+      "original_speaker": "Jillian",
+      "question": "So what's the sentiment here? What are we? //",
+      "source_turn_index": 48
+    },
+    {
+      "answer_turn_index": 94,
+      "canonical_line_index": 35,
+      "original_speaker": "Neal",
+      "question": "So help me understand the endgame. So if your like number one, but the hardest one to convert, is the universities, what are we playing towards, you know, in the future? //",
+      "source_turn_index": 93
+    },
+    {
+      "answer_turn_index": 99,
+      "canonical_line_index": 37,
+      "original_speaker": "Jillian",
+      "question": "Won't that be your sweet spot? // I see this more - more towards a tool for sales than I see it for universities. //",
+      "source_turn_index": 95
+    },
+    {
+      "answer_turn_index": 108,
+      "canonical_line_index": 41,
+      "original_speaker": "Charles",
+      "question": "So I was a seed stage investor in DocSend. Which - different - different positioning, but like one of the big unlocks for them was you could actually tell that using DocSend helped you raise money. Like, you actually got the analytics back, and they got the analytics back, at a macro level about slides people were paying attention - so they have a ton of data. My question is, how do you know this works?",
+      "source_turn_index": 104
+    },
+    {
+      "answer_turn_index": 108,
+      "canonical_line_index": 41,
+      "original_speaker": "Charles",
+      "question": "In a pitch - in a pitch competition, you have a very short feedback cycle and it's very easy to collect that data. But in some of these other contexts, like how do you know - how do you capture data to know that like I asked for the raise and I got it? //",
+      "source_turn_index": 106
+    },
+    {
+      "answer_turn_index": 114,
+      "canonical_line_index": 43,
+      "original_speaker": "Jillian",
+      "question": "The feedback? No? //",
+      "source_turn_index": 112
+    }
+  ],
+  "leakage_checklist": {
+    "founder_content_added": false,
+    "other_investor_identity_model_visible": false,
+    "post_boundary_turn_retained": false,
+    "target_investor_turn_retained": false,
+    "verdict_or_offer_turn_retained": false
+  },
+  "neutral_speaker_label": "Panel Investor",
+  "omitted_candidates": [
+    {
+      "original_speaker": "Jillian",
+      "reason": "question_already_present",
+      "source_turn_index": 17,
+      "text": "Did you use your own product to construct this pitch?"
+    },
+    {
+      "original_speaker": "Mac",
+      "reason": "question_already_present",
+      "source_turn_index": 26,
+      "text": "So how much are you charging for that?"
+    },
+    {
+      "original_speaker": "Charles",
+      "reason": "question_already_present",
+      "source_turn_index": 28,
+      "text": "Can you talk about how pitch intelligence works?"
+    },
+    {
+      "original_speaker": "Jillian",
+      "reason": "question_already_present",
+      "source_turn_index": 46,
+      "text": "How do you know that? If you - how do you know the sentiment?"
+    },
+    {
+      "original_speaker": "Neal",
+      "reason": "founder_answer_not_in_canonical_pitch",
+      "source_turn_index": 55,
+      "text": "Elizabeth, was that your question? I just want to be clear."
+    },
+    {
+      "original_speaker": "Neal",
+      "reason": "question_already_present",
+      "source_turn_index": 57,
+      "text": "Did you get your question out?"
+    },
+    {
+      "original_speaker": "Mac",
+      "reason": "question_already_present",
+      "source_turn_index": 78,
+      "text": "Do you have a university as a customer today?"
+    }
+  ],
+  "pitch_sha256": "e5c312fe535901039cc0fbf2e9c10417ee8769e6eff1d13c391aff13b8536e12",
+  "registry_vc_slug": "elizabeth-yin",
+  "schema": "panel-question-pitch-audit-v1",
+  "source_record_path": "inputs/data/investors/elizabeth-yin-hustle-fund/precedents/records/114-brevity-your-ai-pitch-coach.json",
+  "source_record_sha256": "202f689f26f991e57dc19abd6ffdea52dcc51f8e776827a869f7a8e74fabefb3",
+  "status": "audited",
+  "vc_slug": "elizabeth-yin-hustle-fund"
+}

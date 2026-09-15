@@ -1,0 +1,124 @@
+{
+  "schema": "transcript-observed-rationales-v1",
+  "episode_slug": "110-handsdown-the-accelerator-pitch",
+  "transcript_sha256": "2dbb3c818fe02e23df28f0f1956b20905a0c50d180187f10419e1788e4edfa55",
+  "window": {
+    "start_turn": 7,
+    "end_turn": 37
+  },
+  "observed_decision": "Out",
+  "decision_evidence_ids": [
+    "E3"
+  ],
+  "evidence_registry": [
+    {
+      "evidence_id": "E1",
+      "turn_index": 19,
+      "speaker": "Elizabeth",
+      "text": "How many, how many users do you have?"
+    },
+    {
+      "evidence_id": "E2",
+      "turn_index": 25,
+      "speaker": "Elizabeth",
+      "text": "So Jenna, I think, just to be very direct, there have been a number of folks who have tried this type of approach. I'm curious if you have any insights or learnings from either past failings or from talking with other entrepreneurs, or what you think is different here than what others have done."
+    },
+    {
+      "evidence_id": "E3",
+      "turn_index": 37,
+      "speaker": "Elizabeth",
+      "text": "I feel like, and being very direct here, I think it's hard to actually be both of those. I think you are either one or the other. So if you're in the small group, it's all about small groups and then you have to somehow figure out how to take somebody in a small group and have them invite other people into a whole new group. Or you're more in the Pinterest category of, you know, let's get everybody and their mother to see my boards and now I'm trying to show everybody my taste. But I feel like trying to message both is going to be very challenging. And actually that - I think that product in this space matters so much and all these little nuances matter so much and I'm not sure I quite see you in one category or the other, so for that reason I'm out. Thank you."
+    }
+  ],
+  "rationales": [
+    {
+      "rationale_id": "R1",
+      "rationale_label": "product_adoption",
+      "utterance_type": "question",
+      "activation": "queried",
+      "direction": "neutral",
+      "salience": "secondary",
+      "confidence": 0.99,
+      "evidence_ids": [
+        "E1"
+      ],
+      "explanation": "Elizabeth asks about the number of users, querying product adoption and current user scale.",
+      "decision_link": "none"
+    },
+    {
+      "rationale_id": "R2",
+      "rationale_label": "competitive_intensity_concern",
+      "utterance_type": "assessment",
+      "activation": "evaluated",
+      "direction": "negative",
+      "salience": "secondary",
+      "confidence": 0.93,
+      "evidence_ids": [
+        "E2"
+      ],
+      "explanation": "Elizabeth observes that many others have tried a similar approach, indicating concern about competition in the category.",
+      "decision_link": "none"
+    },
+    {
+      "rationale_id": "R3",
+      "rationale_label": "product_differentiation_concern",
+      "utterance_type": "question",
+      "activation": "queried",
+      "direction": "neutral",
+      "salience": "secondary",
+      "confidence": 0.98,
+      "evidence_ids": [
+        "E2"
+      ],
+      "explanation": "Elizabeth asks what is different about HandsDown compared with prior attempts, querying product differentiation.",
+      "decision_link": "none"
+    },
+    {
+      "rationale_id": "R4",
+      "rationale_label": "go_to_market_strategy_assessment",
+      "utterance_type": "assessment",
+      "activation": "evaluated",
+      "direction": "negative",
+      "salience": "primary",
+      "confidence": 0.97,
+      "evidence_ids": [
+        "E3"
+      ],
+      "explanation": "Elizabeth assesses that trying to serve both small private groups and broad Pinterest-like audiences creates a difficult messaging and acquisition challenge.",
+      "decision_link": "implicit"
+    },
+    {
+      "rationale_id": "R5",
+      "rationale_label": "product_success_factor_assessment",
+      "utterance_type": "assessment",
+      "activation": "evaluated",
+      "direction": "neutral",
+      "salience": "secondary",
+      "confidence": 0.96,
+      "evidence_ids": [
+        "E3"
+      ],
+      "explanation": "Elizabeth states that the product and fine-grained nuances are especially important in this category.",
+      "decision_link": "none"
+    },
+    {
+      "rationale_id": "R6",
+      "rationale_label": "product_differentiation_concern",
+      "utterance_type": "decision_reason",
+      "activation": "evaluated",
+      "direction": "negative",
+      "salience": "primary",
+      "confidence": 0.99,
+      "evidence_ids": [
+        "E3"
+      ],
+      "explanation": "Elizabeth says she cannot place the product clearly in either the small-group or broad-discovery category and explicitly connects that uncertainty to her decision to go out.",
+      "decision_link": "explicit"
+    }
+  ],
+  "unmapped_utterances": [
+    "Elizabeth. Nice to meet you."
+  ],
+  "audit_flags": [],
+  "annotation_summary": "Elizabeth’s Out is explicitly based on unclear product positioning between private small-group sharing and broad Pinterest-like discovery, making the combined message challenging."
+}

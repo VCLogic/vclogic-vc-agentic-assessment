@@ -1,0 +1,109 @@
+{
+  "actual_decision": "Out",
+  "boundary_turn_index": 99,
+  "canonical_pitch_path": "inputs/data/investors/jillian-manus-structure-capital/pitches/104-dressd-red-carpet-or-red-ocean.txt",
+  "canonical_pitch_sha256": "627b156a785c8f339a2c3f59558c790535b83c4260dbda49b6a949e829475473",
+  "episode_path": "../agentic-vc-clone-framework/data/episodes/104-dressd-red-carpet-or-red-ocean.json",
+  "episode_sha256": "4870344d0cfffca5c114f129fc9d959ba80a15e83270ffa6211b4232dc750f28",
+  "episode_slug": "104-dressd-red-carpet-or-red-ocean",
+  "insertions": [
+    {
+      "answer_turn_index": 32,
+      "canonical_line_index": 12,
+      "original_speaker": "Elizabeth",
+      "question": "What did those numbers typically look like? Like, how much would a rental be?",
+      "source_turn_index": 31
+    },
+    {
+      "answer_turn_index": 72,
+      "canonical_line_index": 35,
+      "original_speaker": "Neal",
+      "question": "So who's with you on this? And then a little bit more about your background, cos it sounds like you've done some stuff in this space.",
+      "source_turn_index": 71
+    },
+    {
+      "answer_turn_index": 82,
+      "canonical_line_index": 41,
+      "original_speaker": "Mac",
+      "question": "You've mentioned Y Combinator is a current investor - does that mean this is a pivot from Thryft?",
+      "source_turn_index": 81
+    }
+  ],
+  "leakage_checklist": {
+    "founder_content_added": false,
+    "other_investor_identity_model_visible": false,
+    "post_boundary_turn_retained": false,
+    "target_investor_turn_retained": false,
+    "verdict_or_offer_turn_retained": false
+  },
+  "neutral_speaker_label": "Panel Investor",
+  "omitted_candidates": [
+    {
+      "original_speaker": "Charles",
+      "reason": "founder_answer_not_in_canonical_pitch",
+      "source_turn_index": 4,
+      "text": "- it's just been a sea of red.\nSo what happens when a founder walks in The Pitch Room thinking\ntheir\nbusiness is the\none\nthat will succeed where everyone else has failed?\nMaybe she\u2019s right\u2026 or maybe she\u2019ll end up chum in a red ocean.\nI\u2019m Josh Muccio, welcome to The Pitch. Where real entrepreneurs pitch to real investors for real money."
+    },
+    {
+      "original_speaker": "Mac",
+      "reason": "question_already_present",
+      "source_turn_index": 27,
+      "text": "And so how long have you been working on this?"
+    },
+    {
+      "original_speaker": "Mac",
+      "reason": "question_already_present",
+      "source_turn_index": 29,
+      "text": "How many rentals have you done so far to date and how do you make money?"
+    },
+    {
+      "original_speaker": "Neal",
+      "reason": "question_already_present",
+      "source_turn_index": 37,
+      "text": "So what have you learned in talking to your customers about who's like primed for this, who's likely to convert going forward, and what's your plan for acquisition?"
+    },
+    {
+      "original_speaker": "Charles",
+      "reason": "question_already_present",
+      "source_turn_index": 40,
+      "text": "How do you get your sellers to take the time and upload the inventory with a relatively low volume of rentals at the moment?"
+    },
+    {
+      "original_speaker": "Mac",
+      "reason": "question_already_present",
+      "source_turn_index": 64,
+      "text": "So what happened with Thryft?"
+    },
+    {
+      "original_speaker": "Mac",
+      "reason": "question_already_present",
+      "source_turn_index": 66,
+      "text": "So what happened with Thryft?"
+    },
+    {
+      "original_speaker": "Charles",
+      "reason": "question_already_present",
+      "source_turn_index": 73,
+      "text": "What are the terms?"
+    },
+    {
+      "original_speaker": "Neal",
+      "reason": "question_already_present",
+      "source_turn_index": 83,
+      "text": "Where are you financially? What are we currently burning, how much runway do we have? How many commitments do you have for the round you're raising?"
+    },
+    {
+      "original_speaker": "Elizabeth",
+      "reason": "verdict_or_offer_language",
+      "source_turn_index": 96,
+      "text": "I think for me, towards the end of this conversation I got really impressed with you. As well as your team. I think the thing that I'm still mulling over in my mind, even though I think this is great founder market fit is can you get enough turns on these dresses? Can you get that supply? Even with this hyperfocus on the campuses. And I think I'm just not sure I quite have that conviction and so I'm out."
+    }
+  ],
+  "pitch_sha256": "a47d88ea45a9ec93c88974d67791a5f202eb3bc86e5de92b5ab5d06b333560c8",
+  "registry_vc_slug": "jillian-manus",
+  "schema": "panel-question-pitch-audit-v1",
+  "source_record_path": "inputs/data/investors/jillian-manus-structure-capital/precedents/records/104-dressd-red-carpet-or-red-ocean.json",
+  "source_record_sha256": "d4c8a48d7f8747f6c2dfcb2a487ef60a8edb02f201046ede6578b6c655e68220",
+  "status": "audited",
+  "vc_slug": "jillian-manus-structure-capital"
+}

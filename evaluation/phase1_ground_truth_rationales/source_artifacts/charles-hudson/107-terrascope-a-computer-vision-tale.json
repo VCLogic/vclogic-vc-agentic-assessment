@@ -1,0 +1,118 @@
+{
+  "schema": "transcript-observed-rationales-v1",
+  "episode_slug": "107-terrascope-a-computer-vision-tale",
+  "transcript_sha256": "a2ed6216692d3ad2590935a98168d41db9c1ba23ae2ace581cc6c3218d457edc",
+  "window": {
+    "start_turn": 6,
+    "end_turn": 90
+  },
+  "observed_decision": "Out",
+  "decision_evidence_ids": [
+    "E1"
+  ],
+  "evidence_registry": [
+    {
+      "evidence_id": "E1",
+      "turn_index": 90,
+      "speaker": "Charles",
+      "text": "I was just going to say - I'm - I'm out on this one."
+    },
+    {
+      "evidence_id": "E2",
+      "turn_index": 90,
+      "speaker": "Charles",
+      "text": "I really appreciate your clarity and you're one of the most honest founders I've seen about the things that you understand about the business and where you actually are like, hey, I need - you've been very clear, I need help here, we're working on this. For me, it feels like the principal challenge with this business is not technical, it's commercial. And it feels to me like the weight of the company right now is on the technical and I - I'm a big computer vision fan and I was looking at your chart and I was like, that's pretty cool that you're can - that you can extract that many features from an image. I just worry that like there isn't enough weight on the commercial go to market side. And I think you've got to lead [inaudible] without tilting the energy of the company in that direction. Somebody more commercial with a less good product might come to market and beat you to the punch."
+    }
+  ],
+  "rationales": [
+    {
+      "rationale_id": "R1",
+      "rationale_label": "founder_communication_quality",
+      "utterance_type": "assessment",
+      "activation": "evaluated",
+      "direction": "positive",
+      "salience": "secondary",
+      "confidence": 0.99,
+      "evidence_ids": [
+        "E1"
+      ],
+      "explanation": "Charles explicitly praises the founder's clarity and clear articulation of what he understands and where he needs help.",
+      "decision_link": "none"
+    },
+    {
+      "rationale_id": "R2",
+      "rationale_label": "founder_qualities",
+      "utterance_type": "assessment",
+      "activation": "evaluated",
+      "direction": "positive",
+      "salience": "secondary",
+      "confidence": 0.99,
+      "evidence_ids": [
+        "E1"
+      ],
+      "explanation": "Charles describes the founder as one of the most honest founders he has seen.",
+      "decision_link": "none"
+    },
+    {
+      "rationale_id": "R3",
+      "rationale_label": "business_viability_concern",
+      "utterance_type": "assessment",
+      "activation": "evaluated",
+      "direction": "negative",
+      "salience": "primary",
+      "confidence": 0.97,
+      "evidence_ids": [
+        "E1"
+      ],
+      "explanation": "Charles identifies the principal challenge as commercial rather than technical, expressing concern about the business's current viability orientation.",
+      "decision_link": "explicit"
+    },
+    {
+      "rationale_id": "R4",
+      "rationale_label": "go_to_market_strategy_assessment",
+      "utterance_type": "decision_reason",
+      "activation": "evaluated",
+      "direction": "negative",
+      "salience": "primary",
+      "confidence": 0.99,
+      "evidence_ids": [
+        "E1"
+      ],
+      "explanation": "Charles says the company's weight is on the technical side and that there is not enough emphasis on the commercial go-to-market side.",
+      "decision_link": "explicit"
+    },
+    {
+      "rationale_id": "R5",
+      "rationale_label": "product_appeal_assessment",
+      "utterance_type": "assessment",
+      "activation": "evaluated",
+      "direction": "positive",
+      "salience": "secondary",
+      "confidence": 0.98,
+      "evidence_ids": [
+        "E1"
+      ],
+      "explanation": "Charles states that he is a big computer vision fan and calls the ability to extract many image features pretty cool.",
+      "decision_link": "none"
+    },
+    {
+      "rationale_id": "R6",
+      "rationale_label": "competitive_intensity_concern",
+      "utterance_type": "decision_reason",
+      "activation": "evaluated",
+      "direction": "negative",
+      "salience": "primary",
+      "confidence": 0.95,
+      "evidence_ids": [
+        "E1"
+      ],
+      "explanation": "Charles warns that a more commercial competitor with an inferior product might reach the market first and beat Terrascope.",
+      "decision_link": "explicit"
+    }
+  ],
+  "unmapped_utterances": [],
+  "audit_flags": [
+    "Duplicate decision evidence reference retained because the audited decision phrase is the sole explicit decision evidence."
+  ],
+  "annotation_summary": "Charles's explicit Out decision is driven by a commercial go-to-market imbalance: the company is weighted toward technical development, leaving it vulnerable to a more commercially capable competitor, despite his positive assessment of the founder and computer vision product."
+}

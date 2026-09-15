@@ -1,0 +1,116 @@
+{
+  "schema": "transcript-observed-rationales-v1",
+  "episode_slug": "74-stop-killing-your-plants",
+  "transcript_sha256": "aad2bebf04a1272cb4f8e97c3634e0c8da18a1c93553ded89bf4039ca6affed8",
+  "window": {
+    "start_turn": 0,
+    "end_turn": 87
+  },
+  "observed_decision": "Out",
+  "decision_evidence_ids": [
+    "E3"
+  ],
+  "evidence_registry": [
+    {
+      "evidence_id": "E1",
+      "turn_index": 40,
+      "speaker": "Charles",
+      "text": "How are you doing your online sales now? Do you have like a Shopify store or something?"
+    },
+    {
+      "evidence_id": "E2",
+      "turn_index": 85,
+      "speaker": "Charles",
+      "text": "So the last thing you said is the thing I was hoping you would say, which is, the more I listen to your pitch the more I was like, Oh, you need to build, even if you don't go vertically integrate, you need to build software, soup to. And I've invested in a handful of companies, Passport, Shippo, that are all intimately involved with logistics. And ultimately like your customers problems end up being your problem when you're in a logistics business."
+    },
+    {
+      "evidence_id": "E3",
+      "turn_index": 87,
+      "speaker": "Charles",
+      "text": "And so I think this business is going to become far more software dependent and driven. And so I'm going to pass for now for one specific reason. And I think I need to hear a much bigger story about how you use software to make it super, super easy to have from the time the consumer pushes “buy” that a touchless label and preprinted box shows up at the, at the wholesale florist’s shop. And that you've got a way to track fulfilment rate and like."
+    }
+  ],
+  "rationales": [
+    {
+      "rationale_id": "R1",
+      "rationale_label": "go_to_market_strategy_assessment",
+      "utterance_type": "question",
+      "activation": "queried",
+      "direction": "neutral",
+      "salience": "secondary",
+      "confidence": 0.99,
+      "evidence_ids": [
+        "E1"
+      ],
+      "explanation": "Charles asks how Rooted currently conducts online sales and whether it uses a Shopify store.",
+      "decision_link": "none"
+    },
+    {
+      "rationale_id": "R2",
+      "rationale_label": "product_success_factor_assessment",
+      "utterance_type": "assessment",
+      "activation": "evaluated",
+      "direction": "positive",
+      "salience": "secondary",
+      "confidence": 0.98,
+      "evidence_ids": [
+        "E2"
+      ],
+      "explanation": "Charles positively identifies software as an important capability Rooted needs to build.",
+      "decision_link": "none"
+    },
+    {
+      "rationale_id": "R3",
+      "rationale_label": "solution_feasibility_assessment",
+      "utterance_type": "assessment",
+      "activation": "evaluated",
+      "direction": "negative",
+      "salience": "secondary",
+      "confidence": 0.96,
+      "evidence_ids": [
+        "E2"
+      ],
+      "explanation": "Charles warns that operating as a logistics business makes customer problems become Rooted’s problems.",
+      "decision_link": "none"
+    },
+    {
+      "rationale_id": "R4",
+      "rationale_label": "business_model_assessment",
+      "utterance_type": "assessment",
+      "activation": "evaluated",
+      "direction": "neutral",
+      "salience": "secondary",
+      "confidence": 0.95,
+      "evidence_ids": [
+        "E3"
+      ],
+      "explanation": "Charles assesses that the business will become substantially more software-dependent and software-driven.",
+      "decision_link": "implicit"
+    },
+    {
+      "rationale_id": "R5",
+      "rationale_label": "solution_feasibility_assessment",
+      "utterance_type": "decision_reason",
+      "activation": "evaluated",
+      "direction": "negative",
+      "salience": "primary",
+      "confidence": 0.99,
+      "evidence_ids": [
+        "E3"
+      ],
+      "explanation": "Charles explicitly passes because he has not heard a sufficiently developed software story for automating wholesale fulfillment from purchase through labeling, packaging, and fulfillment tracking.",
+      "decision_link": "explicit"
+    }
+  ],
+  "unmapped_utterances": [
+    "Plants!",
+    "Relaxed.",
+    "What?",
+    "Whoa.",
+    "It’s like a poster tube."
+  ],
+  "audit_flags": [
+    "Turn 87 ends mid-sentence, so rationale coverage is limited to the supplied transcript window."
+  ],
+  "annotation_summary": "Charles passes because Rooted’s logistics model requires a much stronger software layer to automate wholesale fulfillment and track performance."
+}

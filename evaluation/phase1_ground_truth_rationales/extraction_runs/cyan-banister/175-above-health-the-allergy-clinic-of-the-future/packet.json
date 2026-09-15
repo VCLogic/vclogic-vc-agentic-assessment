@@ -1,0 +1,376 @@
+{
+  "episode_slug": "175-above-health-the-allergy-clinic-of-the-future",
+  "transcript_sha256": "8e66ca91f7190f44e5aec4916cc67816189e26e3b1e5efb2f88f8eca35502a87",
+  "window_start": 15,
+  "window_end": 153,
+  "window_text": "[15] Matt: Hey everyone\n[16] Monique: I'm Monique.\n[17] Matt: I'm Matt.\n[18] Charles: Hey, I'm Charles.\n[19] Matt: Charles\n[20] Rohit: Rohit. Great to meet you.\n[21] Matt: Oh, sorry\n[22] Immad: Immad\n[23] Matt: It's hard to reach around.\n[24] Cyan: Cyan\n[25] Matt: Great. Well, I'm Matt Truebe. And, I'm starting Above Health. I'm a former CTO of a few nationally recognized health companies. I'd love to take you through the story on why I started Above Health. So last December, my daughter and I are at home. she\u2019s 5 I had just picked her up from school and I gave her a half teaspoon of yogurt, and she's in the living room playing. She's got food allergies. So as a side project, I had built an app for my family to help us monitor her symptoms and do a bunch of other things, and I get an alert on my phone that she's showing signs of elevated heart rate. So I go in to the living room and ask her a few questions and she's saying, yeah, she's fine. You know, she's doing okay. So I'm like, okay. Okay. And about 15 minutes later, I got a critical alert on my phone and it's saying that she's showing signs of anaphylaxis. we had built an AI coughing detection. It triggered. Her HRV spiked and a bunch of other biometrics went south.\nSo I, I rushed in the living room, the lights were off. I turned them on and I'm asking her what's going on? And she's like, looking really nervous I look at her throat and it's swollen she's got full body hives, and she starts crying and screaming. She's like, I don't want a shot. I don't want an EpiPen. And I, I have to give her one, but 10 minutes after the shot her symptoms got worse. Her O2 dropped to 90 which is near critical. She's belaboring, her chest is having trouble breathing. And I start freaking out because I'd never given her a second shot before. I don't know what I'm supposed to do. Can I give her a third or fourth? she's shocked. She doesn't know. I give her a second one. I call the paramedics. we get to the hospital. luckily we didn't have to go into the ICU she's totally fine. And, we came home that night. it was that moment in December of last year that I decided I'm gonna dedicate the next chapter of my life to helping my daughter and families like us who are dealing with allergies, asthma, any really allergic disease. So we started Above Health which is at its core an AI diagnostic platform, with a wraparound care service that includes doctors to help families going through this struggle. We have a few things to show, but I'd love to start with the app that we used last December and go from there. So, if you don't mind I'll pass it around.\n[26] Cyan: And did she have an Apple watch on? Is that -\n[27] Matt: So, she did. And the biometrics there are hit or miss. Heart rate is pretty good, but they don't really give you, heart rate variability, which is a key sign in anaphylaxis. So we got kind of lucky that during that time it actually had triggered heart rate variability for her. but we have an open mic. And that's how we're collecting audio to de tect coughing and things like that. One thing we're doing, because I can't find a clinical grade wearable on the market, is we built our own.\n[28] Cyan: Oh.\n[29] Charles: Oh\n[30] Matt: I'm not showing that today. We've just got our first prototype. It's coming actually today to my home.\n[31] Cyan: Is it a ring or a watch, or-\n[32] Matt: It's a bracelet.\n[33] Cyan: A bracelet.\n[34] Matt: Uh, so what I'm looking to do, the first version is validating a bunch of stuff. V, V2, 2 or 3 will have, there's actually a new form factor You can print the electronic components on actually a liquid thing. Imagine it's just like forms on your arm and that way you can get high grade data because like an Apple watch you go like this-\n[35] Charles: Moves around. Yeah.\n[36] Matt: It's just not good enough.\n[37] Rohit: Hmm.\n[38] Matt: So we're talking with a company that's invented this new material. and that would be, uh, the future iteration.\n[39] Josh: Maybe Cyan, since you have the phone, can you describe the app?\n[40] Cyan: So there's a health summary and then next steps and actions that you can take including, basically tells you exactly what you need to do, if you have an EpiPen, and how to, how to do the procedure. food allergen label reading guides, cross contact, and then emergency action plans for anaphylaxis. Scheduling an appointment, connecting a device.\n[41] Matt: And do you see on there, on the home screen something that says personalized labs?\n[42] Cyan: Yes.\n[43] Matt: If you click that, that is a custom lab panel specific to my daughter. To her exact\n[44] Cyan: Ah, okay.\n[45] Matt: Her exact allergens, her exact triggers and potential triggers. It's not a wide panel. So a lot of other companies they're offering panels and half the stuff is not worth it. Right?\n[46] Cyan: Mm-hmm.\n[47] Matt: Um so what we're doing is we're trying to offer precision health through labs, through questionnaires, through device data to really change someone's outcome for the better.\n[48] Immad: And are you like, laser focused on allergy?\n[49] Matt: Yes.\n[50] Immad: That's the main thing.\n[51] Matt: Yeah. I mean, you know-\n[52] Immad: Because you could see an application for this for lots of chronic conditions, right?\n[53] Matt: So. Yeah. So I mean, that would be long term. I've been at companies that have, you know, started in a single service sector and then scaled over time. But I think you really gotta perfect the allergy and asthma. The market's pretty big. I mean.\n[54] Immad: Yeah, it\u2019s huge.\n[55] Matt: Yeah. 25 million, people have asthma. 25 billion, dollars spent on asthma every year. food allergies and asthma are comorbid. So, one other thing that we have, this one is production ready. We have people using it we're ready to go into mass manufacturing. It's a smart.\n[56] Charles: I was gonna say, it looks like a smart inhaler.\n[57] Matt: It is\n[58] Charles: Yeah.\n[59] Matt: So it's a smart inhaler. What's unique about it and what's patent pending is it's got GPS on device.\n[60] Rohit: Hmm.\n[61] Charles: Oh.\n[62] Matt: So what we do with that is, the kid\u2019s at school, and they use their inhaler. We capture GPS, we store it on device. When they go home, it uploads it at night. And we get the time of day they used it. And we capture within a square km all the information about it. So we get pollen and air quality and even location, like this was industrial, this was near a freeway. Like, the data's really robust. So I think the time is ripe to use a lot of different data. And before it was really hard to build this stuff. One iteration of this cost a thousand dollars. Prototype, delivered to my home. So, I think AI has really helped propel a lot of things. And so what we've done is, Imagine you're using this at the park. And so one of my daughter's friends was usually your go-to would be doing a panel test of 50 allergens and 20% come back high. So what are you supposed to do? Avoid going anywhere? What we do is we look at, okay, Cottonwood was high that day. Now we're gonna offer you a precise lab for Cottonwood, And now you know what your trigger is, and your trigger shows up in the app. And I've already talked to the former president of the Allergy College American Association. He's on my advisory board. He loves it. He said this is game changing. I\u2019ll pass these around.\n[63] Monique: Can you talk a little bit about the wraparound care platform?\n[64] Matt: Yeah. So getting devices into people's hands is challenging So the carrot, what we found is that people are looking for allergists. There's so, such high demand. There's only 4,000 in the country, allergists. 80% of the population doesn't have access on a health plan. So we've done some market testing, we've booked a bunch of visits. CAC is $10. so we're starting with the allergists, potentially as telehealth, as an entry point. So in the beginning, we're not official diagnosis. That is coming from a doctor either asynchronously or through a telehealth call, that way it enables us to not have to go through clinical trials by having a diagnosis. Now, the bracelet I mentioned. Something like anaphylaxis detection warning system. It's on the fence. Likely has to go through some sort of FDA approval. I'll just be pretty open there, but this does not.\n[65] Monique: How much is the telehealth visit?\n[66] Matt: So for insurance it's your copay coinsurance.\n[67] Monique: So it is covered by insurance?\n[68] Matt: Yeah. The doctors are licensed, so we're starting in California. The doctors are licensed in California, Washington, Illinois. The ones we've signed at least. We have a few more in Texas and Arkansas we're talking to\n[69] Rohit: These are GPS or allergists?\n[70] Matt: These are allergists.\n[71] Rohit: Got it.\n[72] Matt: And we have an NP. So one of our goals is to use the platform we built plus the devices to actually unlock allergy across the country with nurse practitioners. For example, in Kern County, Bakersfield. They have 700,000 people without a single allergist.\n[73] Charles: Wow.\n[74] Matt: So we're speaking with the county and the health system. We've got the COO of a major health system already on board. And what they wanna do is remote supervision. So we'd have an NP either through telehealth or if needed on site. And we would have an allergist, like the one in LA reviewing their notes and everything. So we'd be able to take that model and scale across the country.\n[75] Immad: Feels like you're doing a lot. There's this clinical grade wearable that you're making. There's a smart inhaler, there's a telehealth platform, there's personalized labs\u2014do you feel like all of that's necessary in order to deliver this complete solution? Is there like one thing you're doing first, and this is like a more long term plan?\n[76] Matt: Oh yeah. Yeah, so that's a good question. The first things we're working on are telehealth and labs. telehealth starts in October, and that's our core tenet. From there, our long-term goal is value-based care. Where you get paid a subscription effectively from the health system or the government for a, a caseload of patients. We're trying to fast track that. So I know Omada and a bunch of others took five years, et cetera, and eventually they were 90% value-based care. We're trying to get there in two. So to get there in two, we need some sort of proprietary device, something novel to then be awarded that contract. And so we're taking telehealth, plus labs, plus a device like the inhaler to start there. And yeah, the bracelet, I mean, iterations take a while. That's on a slow burn.\n[77] Immad: And you're saying bracelet is the thing that needs FDA approval.\n[78] Matt: Yeah. That's gonna just take a while.\n[79] Immad: But for now, you are gonna use Apple Watch data?\n[80] Matt: Uh, yeah.\n[81] Monique: And so today your revenue comes from CPT codes?\n[82] Matt: CPT codes.\n[83] Monique: Okay.\n[84] Matt: We just, just became first revenue. Like today. Yesterday, actually.\n[85] Monique: Got it. Okay.\n[86] Matt: My wi- my wife, she's like a moderator on these allergy boards. She promoted a free sticker, like where you print at home, like, oh, you're allergic to X, Y, and Z and we got a ton of people signing up and booked all our visits up until the rest of the year. sorry. I know you said there's a lot, so I'm scared to show this. There is one more thing.\n[laughter]\nThis is the thing I'm super excited about. I got it working last night. This has been validated by a few doctors and a nurse practitioner. It\u2019s a stethoscope, and guess how much it costs to make.\n[87] Rohit: $9.99\n[88] Charles: 10 bucks. I was gonna say 10 bucks.\n[89] Matt: Yeah.\n[90] Rohit: The Price is Right.\n[91] Matt: 10 bucks. How did you know?\n[92] Cyan: Wow.\n[93] Matt: 8. $8 maybe. Maybe like 15 at the door at CVS. So my dream is to take these small devices and distribute it, everyone, everywhere. Imagine like everyone had this like a pulse oximeter. Imagine you have a digital stethoscope that records clinical grade audio clips and can upload it to your doctor and even diagnose. So we've got an AI algorithm to diagnose asthma, bronchitis, pneumonia, and COPD, Same thing, to do the diagnosis, we have to go through all these trials that's why we have a wraparound service. We upload it to the doctors, the doctor provides the diagnosis. We work directly with the health plans like LA County, Kern County and more, or the, to then provide the end to end service.\n[94] Charles: Who else is working on this with you?\n[95] Matt: Ha. So we have a few allergists that we've brought on. We have some advisors and I have some contractors, in terms of full-time, like nonclinical?\n[96] Charles: Yeah\n[97] Matt: It's just me. Our burn rate is $3,000 to $4,000 a month. I've been using some of my own money. We've taken a check that's been unspent from Hustle Fund. I\u2019m making sure that we have a good go to market strategy. And that's through the telehealth and through the labs, which is why I'm starting there. But I believe that these devices are our moats long term, and create true clinical outcomes that no one else can match. That will then be the reason we scale.\n[98] Monique: Do you have any idea how much payers spend on asthma and allergies?\n[99] Matt: Yeah. the health system is 25 billion per year. For environmental allergies it's 40. For food allergies, it's growing. It's around 13 to $14,000 per person per year. And some of that's biologics. Biologics are super expensive. It's like $5,000 a shot. You do an injection and it kind of makes it go away. For the most part. Not exactly. It hurts. It's intramuscular. So there's a high interest in finding another path.\n[100] Cyan: You mentioned in the beginning very quickly your background. You said you were the CTO of, a couple of big healthcare platforms.\n[101] Matt: Yeah.\n[102] Cyan: And I was just wondering if you could go into that in a little bit more.\n[103] Matt: Sure. I'll try to do a super quick version.\n[104] Cyan: Yeah.\n[105] Matt: I've been at four VC-backed companies. The first one was pre-revenue. We grew to 25 million. after that I was at Patient Pop. I was, uh, in charge of engineering. They brought me on midway, around 30 million of ARR. We got it up to, I forgot, 70 in a couple years. That sold and merged for a billion dollars. And the two after that, I was at Cerebral and Parsley Health.\n[106] Monique: And you were there as CTO or?\n[107] Matt: The head of product engineering, data security. Yeah. One was VP, one was CTO, helped fundraise, talked to SoftBank, did the whole nine yards. , I think every company but one, raised progressive rounds while I was there, all the metrics improved. The one where I had the most fun was when I was pre-revenue. I mean,\n[108] Cyan: That's always the most fun.\n[109] Matt: And it was wild, you know\n[110] Immad: No customers to think about.\n[111] Matt: You say, it sounds like I have a lot, but what I'm doing is I'm market testing. Because I've learned from growing a business from 0 to 25 million. My first idea was actually a food scale. No one wants it. Even though I use it, no one wants it. And so the inhaler, people are using, they like it. They like finding their triggers. Now, are they gonna pay a subscription fee every single month? Probably not. But are the health plans interested in reducing cost in the system? Definitely what I'm trying to do is find a market wedge to revenue, but then long-term sustainability.\n[112] Cyan: As a parent, I would be interested in getting alerts that my child used an inhaler.\n[113] Immad: Hmm.\n[114] Matt: Yeah.\n[115] Cyan: Um\n[116] Matt: We have that.\n[117] Cyan: Yeah, that would be pretty great. I have an anaphylactic child.\n[118] Matt: Oh, no.\n[119] Cyan: Um, so I, am very close to this issue.\n[120] Matt: I'm sorry to hear that.\n[121] Cyan: And I've just noticed that there's really no, like, no one who owns allergies. Really, like\n[122] Matt: There isn\u2019t\n[123] Cyan: Like with my child it's cashew allergies, pistachios, walnuts, pecans, peanuts, sesame seeds. A lot of those are cross reactive to other weird stuff. And we, we find this stuff out on accident, which is like, well we encountered a pink peppercorn and we didn't realize that that's cross reactive with cashews.\n[124] Matt: Oh no. Yeah.\n[125] Cyan: So I definitely would be a customer of this for sure. And I really like the bracelet idea because, they have to wear an emergency bracelet anyway.\n[126] Matt: Mm-hmm. Mm-hmm.\n[127] Cyan: To let them know that they have an EpiPen.\n[128] Matt: That's one of the things we're gonna market as a free CAC sort of thing.\n[129] Cyan: Yeah, I was about to say, if you market it as the emergency bracelet, and it just happens to be a smart one.\n[130] Matt: Yep.\n[131] Cyan: Like a lot of people haven't made smart emergency bracelets. So, that's pretty clever.\n[132] Matt: That's what\n[133] Cyan: Yeah. Very, very clever.\n[134] Rohit: I gotta say, man, I, I like this. I like that you're just mad scientist just building all this stuff.\n[135] Cyan: Yeah. Right.\n[136] Rohit: Like I'm, I'm, I'm expecting one more like hardware thing.\n[137] Cyan: Wait, there's more.\n[138] Charles: How much are you raising?\n[139] Matt: So we've raised like a SAFE note from Hustle Fund. I've spent probably around 50 to 60. And we're looking to raise a million dollars. Our funding that we\u2019re looking for would be, I would say 95% focused on distribution, sales, not product development. We would hire go to market teams, people to get deals with payers and et cetera.\n[140] Rohit: I was, gonna let the air outta the room, but, I dig this, but I'm, I'm conflicted out.\n[141] Matt: Okay. Conflicted?\n[142] Rohit: I have, I have another company that does AI diagnostics.\n[143] Matt: Okay, no worries.\n[144] Monique: Where does the $1 million get you? What are the milestones that you're trying to reach with the 1 million?\n[145] Matt: So the main milestone would be distribution inside a major retailer And it would also be a completed and successful value-based care contract with a health system like Heritage Health Systems. That's in Kern County, where we could then scale to their other health systems and have line of sight into where those contracts would be, and deals negotiated and hopefully signed.\n[146] Monique: Are those contracts already in pipeline?\n[147] Matt: Which one? Which, Kern County?\n[148] Monique: In Kern County.\n[149] Matt: Yes. LA, Kern County in pipeline, close to home.\n[150] Cyan: Was there, was there a cap on the Hustle Fund note by any chance?\n[151] Matt: Yeah, it was 10\n[152] Matt: 10 million.\n[153] Cyan: I'd like to put in a hundred K at that 10 cap if I can.",
+  "observed_decision": "In",
+  "decision_quote": "I'd like to put in a hundred K at that 10 cap if I can.",
+  "taxonomy": [
+    {
+      "label": "business_model_assessment",
+      "definition": "Rationales related to the investor's perception of the startup\u2019s revenue model, monetization approach, or service/automation mix as a driver of business viability.",
+      "coarse_parent": "business_model_economics",
+      "status": "original",
+      "first_round": "v1"
+    },
+    {
+      "label": "business_viability_concern",
+      "definition": "Rationales related to the investor's concern that the overall business viability, model, or economics are not sufficiently compelling.",
+      "coarse_parent": "business_model_economics",
+      "status": "original",
+      "first_round": "v1"
+    },
+    {
+      "label": "capital_intensity_concern",
+      "definition": "Rationales related to concerns that the startup will require substantial ongoing capital investment, increasing risk or misalignment with the investor\u2019s funding capacity.",
+      "coarse_parent": "business_model_economics",
+      "status": "original",
+      "first_round": "v1"
+    },
+    {
+      "label": "competitive_advantage_assessment",
+      "definition": "Rationales related to the investor\u2019s beliefs about what drives defensibility or sustainable competitive advantage in a market.",
+      "coarse_parent": "competition_defensibility",
+      "status": "original",
+      "first_round": "v1"
+    },
+    {
+      "label": "competitive_intensity_concern",
+      "definition": "Rationales related to concerns that the category is highly competitive, attention\u2010constrained, and requires heavy marketing to win, reducing the likelihood of outsized success.",
+      "coarse_parent": "competition_defensibility",
+      "status": "original",
+      "first_round": "v1"
+    },
+    {
+      "label": "competitive_landscape_inertia",
+      "definition": "Rationales related to the difficulty of displacing or changing behavior of incumbents due to entrenched solutions, habits, or workflows.",
+      "coarse_parent": "competition_defensibility",
+      "status": "original",
+      "first_round": "v1"
+    },
+    {
+      "label": "deal_terms_complexity_concern",
+      "definition": "Rationales related to the investor\u2019s concern that the structure or details of deal terms (e.g., convertibles, SAFEs, preferred terms) may introduce complexity, ambiguity, or unfavorable outcomes.",
+      "coarse_parent": "deal_terms_valuation",
+      "status": "original",
+      "first_round": "v1"
+    },
+    {
+      "label": "decision_context_constraint",
+      "definition": "Rationales related to constraints imposed by the specific evaluation format, environment, or context rather than the startup's fundamentals.",
+      "coarse_parent": "investor_fit_constraints",
+      "status": "original",
+      "first_round": "v1"
+    },
+    {
+      "label": "dilution_concern",
+      "definition": "Rationales related to the investor\u2019s concern that the financing plan will cause excessive dilution relative to their ownership goals or stage fit.",
+      "coarse_parent": "deal_terms_valuation",
+      "status": "original",
+      "first_round": "v1"
+    },
+    {
+      "label": "execution_risk_assessment",
+      "definition": "Rationales related to the investor\u2019s concern that the team may not yet have demonstrated sufficient execution reliability or maturity for the risk level of the round.",
+      "coarse_parent": "founder_team",
+      "status": "original",
+      "first_round": "v1"
+    },
+    {
+      "label": "founder_equity_incentive_alignment",
+      "definition": "Rationales related to ensuring founders retain sufficient ownership to remain properly motivated, aligned, and incentivized for the long-term company\u2010building journey.",
+      "coarse_parent": "founder_team",
+      "status": "original",
+      "first_round": "v1"
+    },
+    {
+      "label": "founder_execution",
+      "definition": "Rationales related to the investor\u2019s perception of the founders' execution ability, resourcefulness, pace, and operational grit.",
+      "coarse_parent": "founder_team",
+      "status": "original",
+      "first_round": "v1"
+    },
+    {
+      "label": "founder_market_fit",
+      "definition": "Rationales based on how well the founder's background, experience, or motivation aligns with the target market.",
+      "coarse_parent": "founder_team",
+      "status": "original",
+      "first_round": "v1"
+    },
+    {
+      "label": "founder_qualities",
+      "definition": "Rationales related to the investor's perception of the founders' personal traits, capabilities, or appeal.",
+      "coarse_parent": "founder_team",
+      "status": "original",
+      "first_round": "v1"
+    },
+    {
+      "label": "founder_skillset",
+      "definition": "Rationales tied to the founder's core skills or functional strengths relevant to company-building.",
+      "coarse_parent": "founder_team",
+      "status": "original",
+      "first_round": "v1"
+    },
+    {
+      "label": "fund_economics_constraint",
+      "definition": "Rationales tied to the investor\u2019s fund size, check size, or ownership goals that constrain how selective they must be when choosing investments.",
+      "coarse_parent": "investor_fit_constraints",
+      "status": "original",
+      "first_round": "v1"
+    },
+    {
+      "label": "fundraising_demand_signal",
+      "definition": "Rationales related to the investor\u2019s perception that the company will attract capital easily due to current or expected investor demand.",
+      "coarse_parent": "deal_terms_valuation",
+      "status": "original",
+      "first_round": "v1"
+    },
+    {
+      "label": "growth_projection_risk",
+      "definition": "Rationales related to concerns that the company\u2019s growth, revenue, or user\u2010scale projections are insufficiently modeled, unrealistic, or lack credible underlying assumptions.",
+      "coarse_parent": "traction_growth",
+      "status": "original",
+      "first_round": "v1"
+    },
+    {
+      "label": "investment_thesis_constraint",
+      "definition": "Rationales related to the investor's predefined investment thesis or mandate that restricts them to specific sectors, business models, or company types.",
+      "coarse_parent": "investor_fit_constraints",
+      "status": "original",
+      "first_round": "v1"
+    },
+    {
+      "label": "investment_upside_assessment",
+      "definition": "Rationales related to the investor's view that the risk\u2010reward profile offers disproportionately large potential returns relative to downside risk.",
+      "coarse_parent": "deal_terms_valuation",
+      "status": "original",
+      "first_round": "v1"
+    },
+    {
+      "label": "investor_domain_knowledge_constraint",
+      "definition": "Rationales related to the investor lacking the necessary domain knowledge to effectively assess the technology, moat, competition, or overall viability of the opportunity.",
+      "coarse_parent": "investor_fit_constraints",
+      "status": "original",
+      "first_round": "v1"
+    },
+    {
+      "label": "investor_experience_bias",
+      "definition": "Rationales related to the investor's prior personal experiences, wins, losses, or operational history that shape their judgment of a new opportunity.",
+      "coarse_parent": "investor_fit_constraints",
+      "status": "original",
+      "first_round": "v1"
+    },
+    {
+      "label": "market_entry_path_assessment",
+      "definition": "Rationales related to the investor\u2019s perception that there is a clear, reachable initial customer segment that can serve as an effective wedge into the larger market.",
+      "coarse_parent": "market_opportunity",
+      "status": "original",
+      "first_round": "v1"
+    },
+    {
+      "label": "market_problem_validation",
+      "definition": "Rationales tied to the investor perceiving the underlying problem as real, important, or painful enough to support a venture-scale solution.",
+      "coarse_parent": "market_opportunity",
+      "status": "original",
+      "first_round": "v1"
+    },
+    {
+      "label": "market_size_assessment",
+      "definition": "Rationales related to the investor\u2019s belief about the absolute or relative size and fluidity of the addressable market.",
+      "coarse_parent": "market_opportunity",
+      "status": "original",
+      "first_round": "v1"
+    },
+    {
+      "label": "market_timing",
+      "definition": "Rationales related to the investor's belief that the timing is favorable or unfavorable for this market, category, or product to emerge or scale.",
+      "coarse_parent": "timing",
+      "status": "original",
+      "first_round": "v1"
+    },
+    {
+      "label": "mission_alignment_preference",
+      "definition": "Rationales related to the investor's personal or emotional alignment with the startup's mission or purpose.",
+      "coarse_parent": "investor_fit_constraints",
+      "status": "original",
+      "first_round": "v1"
+    },
+    {
+      "label": "portfolio_conflict_constraint",
+      "definition": "Rationales related to constraints arising from existing portfolio investments that create competitive conflicts preventing a new investment.",
+      "coarse_parent": "investor_fit_constraints",
+      "status": "original",
+      "first_round": "v1"
+    },
+    {
+      "label": "product_adoption",
+      "definition": "Rationales related to evidence that end users are adopting and using the product meaningfully.",
+      "coarse_parent": "product_solution",
+      "status": "original",
+      "first_round": "v1"
+    },
+    {
+      "label": "product_appeal_assessment",
+      "definition": "Rationales related to the investor\u2019s positive perception of the product\u2019s appeal, quality, or desirability based on their own reaction.",
+      "coarse_parent": "product_solution",
+      "status": "original",
+      "first_round": "v1"
+    },
+    {
+      "label": "product_differentiation_concern",
+      "definition": "Rationales related to how unique, defensible, or hard-to-copy the product or technology is perceived to be.",
+      "coarse_parent": "competition_defensibility",
+      "status": "original",
+      "first_round": "v1"
+    },
+    {
+      "label": "product_success_factor_assessment",
+      "definition": "Rationales related to which product components or attributes are perceived as most essential to the startup's ability to succeed.",
+      "coarse_parent": "product_solution",
+      "status": "original",
+      "first_round": "v1"
+    },
+    {
+      "label": "solution_feasibility_assessment",
+      "definition": "Rationales related to the investor's belief that the proposed product or solution is technically or operationally feasible.",
+      "coarse_parent": "product_solution",
+      "status": "original",
+      "first_round": "v1"
+    },
+    {
+      "label": "stage_valuation_mismatch",
+      "definition": "Rationales related to the investor\u2019s perception of a mismatch between the company\u2019s stage of progress and the valuation being requested.",
+      "coarse_parent": "deal_terms_valuation",
+      "status": "original",
+      "first_round": "v1"
+    },
+    {
+      "label": "traction_repeatability_concern",
+      "definition": "Rationales related to concerns that current traction, usage, or revenue signals are too early or insufficiently repeatable to support scaling.",
+      "coarse_parent": "traction_growth",
+      "status": "original",
+      "first_round": "v1"
+    },
+    {
+      "label": "unit_economics_assessment",
+      "definition": "Rationales related to the investor\u2019s perception that the business benefits from structurally attractive unit economics, such as profitable or self-reinforcing customer acquisition.",
+      "coarse_parent": "business_model_economics",
+      "status": "original",
+      "first_round": "v1"
+    },
+    {
+      "label": "venture_scale_concern",
+      "definition": "Rationales related to concerns that the company\u0019s market dynamics, ceiling, or competitive landscape limit its ability to achieve venture-scale outcomes.",
+      "coarse_parent": "market_opportunity",
+      "status": "original",
+      "first_round": "v1"
+    },
+    {
+      "label": "investor_value_add_fit",
+      "definition": "Rationales about whether the investor can contribute meaningful help, networks, or domain value beyond capital to this specific company.",
+      "coarse_parent": "investor_fit_constraints",
+      "status": "promoted",
+      "first_round": "v_final",
+      "support_episodes": 12,
+      "support_vcs": [
+        "jillian-manus-structure-capital",
+        "elizabeth-yin-hustle-fund",
+        "cyan-banister-long-journey-ventures",
+        "phil-nadel",
+        "jesse-middleton-flybridge"
+      ]
+    },
+    {
+      "label": "founder_coachability_assessment",
+      "definition": "Rationales about how receptive the founder is to feedback, advice, or course-correction and their ability to read and respond to the room.",
+      "coarse_parent": "founder_team",
+      "status": "promoted",
+      "first_round": "v_final",
+      "support_episodes": 6,
+      "support_vcs": [
+        "jillian-manus-structure-capital",
+        "phil-nadel",
+        "charles-hudson-precursor-ventures",
+        "elizabeth-yin-hustle-fund"
+      ]
+    },
+    {
+      "label": "founder_communication_quality",
+      "definition": "Rationales about the founder's clarity, articulation, command of their numbers, and storytelling ability when presenting the business.",
+      "coarse_parent": "founder_team",
+      "status": "promoted",
+      "first_round": "v_final",
+      "support_episodes": 9,
+      "support_vcs": [
+        "jillian-manus-structure-capital",
+        "charles-hudson-precursor-ventures",
+        "elizabeth-yin-hustle-fund",
+        "cyan-banister-long-journey-ventures",
+        "phil-nadel"
+      ]
+    },
+    {
+      "label": "founder_motivation_authenticity",
+      "definition": "Rationales about the genuineness, personal connection, or origin of the founder's drive to work on this particular problem.",
+      "coarse_parent": "founder_team",
+      "status": "promoted",
+      "first_round": "v_final",
+      "support_episodes": 12,
+      "support_vcs": [
+        "cyan-banister-long-journey-ventures",
+        "charles-hudson-precursor-ventures",
+        "elizabeth-yin-hustle-fund",
+        "jesse-middleton-flybridge",
+        "jillian-manus-structure-capital"
+      ]
+    },
+    {
+      "label": "go_to_market_strategy_assessment",
+      "definition": "Rationales about how the company will reach and acquire customers, including sales motion, channel scalability, and cost of acquisition.",
+      "coarse_parent": "business_model_economics",
+      "status": "promoted",
+      "first_round": "v_final",
+      "support_episodes": 12,
+      "support_vcs": [
+        "charles-hudson-precursor-ventures",
+        "elizabeth-yin-hustle-fund",
+        "phil-nadel",
+        "jillian-manus-structure-capital",
+        "jesse-middleton-flybridge"
+      ]
+    },
+    {
+      "label": "founder_investor_vision_alignment",
+      "definition": "Rationales about whether the founder's intended direction or focus for the company aligns with the path the investor believes in or would back.",
+      "coarse_parent": "investor_fit_constraints",
+      "status": "promoted",
+      "first_round": "v_final",
+      "support_episodes": 9,
+      "support_vcs": [
+        "charles-hudson-precursor-ventures",
+        "elizabeth-yin-hustle-fund",
+        "jillian-manus-structure-capital",
+        "phil-nadel"
+      ]
+    },
+    {
+      "label": "corporate_structure_constraint",
+      "definition": "Rationales tied to the company's legal entity, incorporation, jurisdiction, or IP-ownership structure as a barrier or condition to investing.",
+      "coarse_parent": "deal_terms_valuation",
+      "status": "promoted",
+      "first_round": "v_final",
+      "support_episodes": 3,
+      "support_vcs": [
+        "charles-hudson-precursor-ventures",
+        "elizabeth-yin-hustle-fund",
+        "jillian-manus-structure-capital"
+      ]
+    }
+  ],
+  "investor_name": "Cyan",
+  "investor_aliases": [
+    "Cyan",
+    "Cyan Banister"
+  ]
+}

@@ -1,0 +1,88 @@
+{
+  "schema": "transcript-observed-rationales-v1",
+  "episode_slug": "65-wait-your-app-does-what-exactly",
+  "transcript_sha256": "b3c4c8bc9fc4d4d351ea9c4731a24a0fe56109b9fd5df1895213c2b327f4f7f2",
+  "window": {
+    "start_turn": 1,
+    "end_turn": 84
+  },
+  "observed_decision": "Out",
+  "decision_evidence_ids": [
+    "E2"
+  ],
+  "evidence_registry": [
+    {
+      "evidence_id": "E1",
+      "turn_index": 27,
+      "speaker": "Charles",
+      "text": "I’m with you. I think I know. But I’m like, I could be totally wrong."
+    },
+    {
+      "evidence_id": "E2",
+      "turn_index": 84,
+      "speaker": "Charles",
+      "text": "So I totally identify with the problem, but I’m having a really difficult time connecting the problem statement to the product. So for me, this one’s going to be a pass. But I can tell you have real enthusiasm and energy about solving this. But for me, it just doesn’t compute. Right now."
+    }
+  ],
+  "rationales": [
+    {
+      "rationale_id": "R1",
+      "rationale_label": "founder_communication_quality",
+      "utterance_type": "assessment",
+      "activation": "evaluated",
+      "direction": "negative",
+      "salience": "secondary",
+      "confidence": 0.91,
+      "evidence_ids": [
+        "E1"
+      ],
+      "explanation": "Charles expresses uncertainty about understanding the product, indicating that the pitch has not been communicated clearly enough.",
+      "decision_link": "none"
+    },
+    {
+      "rationale_id": "R2",
+      "rationale_label": "market_problem_validation",
+      "utterance_type": "assessment",
+      "activation": "evaluated",
+      "direction": "positive",
+      "salience": "secondary",
+      "confidence": 0.96,
+      "evidence_ids": [
+        "E2"
+      ],
+      "explanation": "Charles explicitly identifies with the underlying problem, validating that the problem resonates with him.",
+      "decision_link": "none"
+    },
+    {
+      "rationale_id": "R3",
+      "rationale_label": "founder_communication_quality",
+      "utterance_type": "decision_reason",
+      "activation": "evaluated",
+      "direction": "negative",
+      "salience": "primary",
+      "confidence": 0.99,
+      "evidence_ids": [
+        "E2"
+      ],
+      "explanation": "Charles directly links his pass decision to difficulty connecting the problem statement to the product and says the opportunity does not compute for him.",
+      "decision_link": "explicit"
+    },
+    {
+      "rationale_id": "R4",
+      "rationale_label": "founder_motivation_authenticity",
+      "utterance_type": "assessment",
+      "activation": "evaluated",
+      "direction": "positive",
+      "salience": "secondary",
+      "confidence": 0.94,
+      "evidence_ids": [
+        "E2"
+      ],
+      "explanation": "Charles recognizes the founder’s real enthusiasm and energy for solving the problem.",
+      "decision_link": "none"
+    }
+  ],
+  "unmapped_utterances": [],
+  "audit_flags": [],
+  "annotation_summary": "Charles resonated with the problem and recognized the founder’s enthusiasm, but could not connect the problem statement to the product and therefore passed."
+}

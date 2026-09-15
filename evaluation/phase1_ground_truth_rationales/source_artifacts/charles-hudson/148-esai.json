@@ -1,0 +1,224 @@
+{
+  "schema": "transcript-observed-rationales-v1",
+  "episode_slug": "148-esai",
+  "transcript_sha256": "8a9f0ff78955306d45667a84b25eb9992e75bbec7da0ccc631114bab3eefcbb2",
+  "window": {
+    "start_turn": 2,
+    "end_turn": 72
+  },
+  "observed_decision": "In",
+  "decision_evidence_ids": [
+    "E8"
+  ],
+  "evidence_registry": [
+    {
+      "evidence_id": "E1",
+      "turn_index": 13,
+      "speaker": "Charles",
+      "text": "Jesse, can tell us what you see?"
+    },
+    {
+      "evidence_id": "E2",
+      "turn_index": 35,
+      "speaker": "Charles",
+      "text": "How early in the cycle of thinking about college do you acquire people? Is it juniors? Is it sophomores? Is seniors scrambling?"
+    },
+    {
+      "evidence_id": "E3",
+      "turn_index": 47,
+      "speaker": "Charles",
+      "text": "I'm curious what does the tech and platform give you over simply going directly to ChatGPT, Anthropic, whatever your favorite flavor or AI is?"
+    },
+    {
+      "evidence_id": "E4",
+      "turn_index": 64,
+      "speaker": "Charles",
+      "text": "Yeah, I was on the board of a college for several years and I was on the marketing and admissions committee."
+    },
+    {
+      "evidence_id": "E5",
+      "turn_index": 66,
+      "speaker": "Charles",
+      "text": "Yeah, I do. I think I have a slightly different take on pricing. Willingness to pay is highly variable domestically, but internationally you could charge significantly more for this product, because those people generally aren't eligible for financial aid."
+    },
+    {
+      "evidence_id": "E6",
+      "turn_index": 68,
+      "speaker": "Charles",
+      "text": "And I think, like, there's something - I mean, the, the equality-minded person in me likes you keeping it inexpensive and accessible, and I guess -"
+    },
+    {
+      "evidence_id": "E7",
+      "turn_index": 70,
+      "speaker": "Charles",
+      "text": "And the right answer might be B2B for people where price is an issue, it's effectively free to them, paid for by the school, and just a higher target price for the people that you charge B2C, and an even higher price -"
+    },
+    {
+      "evidence_id": "E8",
+      "turn_index": 72,
+      "speaker": "Charles",
+      "text": "And then, cause my big learning from this admissions experience was the international students fundamentally don't understand, this personal essay, like I don't have to - in my home country, I give them my test scores and they tell me where I'm going to school. So there's a lot of idiosyncrasies and there are just simply more universities to research. And I think if you could become a tool that helps international students, you will have a secondary business, which is around helping these students discover colleges, universities that weren't on their road map, that based on what you learn about their interests, background, could be - so I want to invest 25k."
+    }
+  ],
+  "rationales": [
+    {
+      "rationale_id": "R1",
+      "rationale_label": "product_success_factor_assessment",
+      "utterance_type": "question",
+      "activation": "queried",
+      "direction": "neutral",
+      "salience": "secondary",
+      "confidence": 0.88,
+      "evidence_ids": [
+        "E1"
+      ],
+      "explanation": "Charles requests a product walkthrough to understand what the solution provides.",
+      "decision_link": "none"
+    },
+    {
+      "rationale_id": "R2",
+      "rationale_label": "go_to_market_strategy_assessment",
+      "utterance_type": "question",
+      "activation": "queried",
+      "direction": "neutral",
+      "salience": "secondary",
+      "confidence": 0.96,
+      "evidence_ids": [
+        "E2"
+      ],
+      "explanation": "Charles probes when and how early the company acquires students in the admissions cycle.",
+      "decision_link": "none"
+    },
+    {
+      "rationale_id": "R3",
+      "rationale_label": "product_differentiation_concern",
+      "utterance_type": "question",
+      "activation": "queried",
+      "direction": "neutral",
+      "salience": "secondary",
+      "confidence": 0.97,
+      "evidence_ids": [
+        "E3"
+      ],
+      "explanation": "Charles asks what differentiates the platform from directly using general-purpose AI tools.",
+      "decision_link": "none"
+    },
+    {
+      "rationale_id": "R4",
+      "rationale_label": "investor_experience_bias",
+      "utterance_type": "assessment",
+      "activation": "evaluated",
+      "direction": "neutral",
+      "salience": "secondary",
+      "confidence": 0.91,
+      "evidence_ids": [
+        "E4"
+      ],
+      "explanation": "Charles states prior college-board and admissions-committee experience that informs his evaluation of the opportunity.",
+      "decision_link": "none"
+    },
+    {
+      "rationale_id": "R5",
+      "rationale_label": "business_model_assessment",
+      "utterance_type": "assessment",
+      "activation": "evaluated",
+      "direction": "positive",
+      "salience": "secondary",
+      "confidence": 0.97,
+      "evidence_ids": [
+        "E5"
+      ],
+      "explanation": "Charles assesses that international customers may support materially higher pricing because they generally lack access to financial aid.",
+      "decision_link": "none"
+    },
+    {
+      "rationale_id": "R6",
+      "rationale_label": "mission_alignment_preference",
+      "utterance_type": "assessment",
+      "activation": "evaluated",
+      "direction": "positive",
+      "salience": "secondary",
+      "confidence": 0.98,
+      "evidence_ids": [
+        "E6"
+      ],
+      "explanation": "Charles expresses positive alignment with keeping the product inexpensive and accessible.",
+      "decision_link": "none"
+    },
+    {
+      "rationale_id": "R7",
+      "rationale_label": "business_model_assessment",
+      "utterance_type": "assessment",
+      "activation": "evaluated",
+      "direction": "positive",
+      "salience": "primary",
+      "confidence": 0.97,
+      "evidence_ids": [
+        "E7"
+      ],
+      "explanation": "Charles proposes a tiered monetization structure combining school-funded B2B access with higher B2C pricing.",
+      "decision_link": "none"
+    },
+    {
+      "rationale_id": "R8",
+      "rationale_label": "go_to_market_strategy_assessment",
+      "utterance_type": "assessment",
+      "activation": "evaluated",
+      "direction": "positive",
+      "salience": "secondary",
+      "confidence": 0.94,
+      "evidence_ids": [
+        "E7"
+      ],
+      "explanation": "Charles identifies schools as a potential payer and distribution channel for users who cannot afford the product directly.",
+      "decision_link": "none"
+    },
+    {
+      "rationale_id": "R9",
+      "rationale_label": "market_problem_validation",
+      "utterance_type": "decision_reason",
+      "activation": "evaluated",
+      "direction": "positive",
+      "salience": "primary",
+      "confidence": 0.99,
+      "evidence_ids": [
+        "E8"
+      ],
+      "explanation": "Charles directly cites his admissions experience and the difficulty international students have understanding personal essays as evidence of a real problem.",
+      "decision_link": "explicit"
+    },
+    {
+      "rationale_id": "R10",
+      "rationale_label": "market_entry_path_assessment",
+      "utterance_type": "decision_reason",
+      "activation": "evaluated",
+      "direction": "positive",
+      "salience": "primary",
+      "confidence": 0.99,
+      "evidence_ids": [
+        "E8"
+      ],
+      "explanation": "Charles directly links investment to an international-student wedge and a secondary college-discovery business based on students' interests and backgrounds.",
+      "decision_link": "explicit"
+    },
+    {
+      "rationale_id": "R11",
+      "rationale_label": "investor_experience_bias",
+      "utterance_type": "decision_reason",
+      "activation": "evaluated",
+      "direction": "positive",
+      "salience": "secondary",
+      "confidence": 0.96,
+      "evidence_ids": [
+        "E8"
+      ],
+      "explanation": "Charles explicitly frames the investment rationale as coming from his prior admissions experience.",
+      "decision_link": "explicit"
+    }
+  ],
+  "unmapped_utterances": [
+    "Turn 4: Hi, I'm Charles. Nice to meet you."
+  ],
+  "audit_flags": [],
+  "annotation_summary": "Charles explicitly decides In in turn 72. The direct rationale is the international-student admissions problem and the opportunity to expand into college discovery, supported by earlier positive views on international pricing and B2B/B2C monetization."
+}

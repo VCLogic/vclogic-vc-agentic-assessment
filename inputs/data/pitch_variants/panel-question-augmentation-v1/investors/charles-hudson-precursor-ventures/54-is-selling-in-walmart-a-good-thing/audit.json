@@ -1,0 +1,252 @@
+{
+  "actual_decision": "Out",
+  "boundary_turn_index": 203,
+  "canonical_pitch_path": "inputs/data/investors/charles-hudson-precursor-ventures/pitches/54-is-selling-in-walmart-a-good-thing.txt",
+  "canonical_pitch_sha256": "72769a8419aa797b6531259501459c2d5d7b498ae0940b3d410783940289d80d",
+  "episode_path": "../agentic-vc-clone-framework/data/episodes/54-is-selling-in-walmart-a-good-thing.json",
+  "episode_sha256": "371a56d85f002a4b44d766908dd386d8a67ab9ccb74ec9b666dc39c8eaef02e3",
+  "episode_slug": "54-is-selling-in-walmart-a-good-thing",
+  "insertions": [
+    {
+      "answer_turn_index": 11,
+      "canonical_line_index": 5,
+      "original_speaker": "Phil",
+      "question": "Great. Tell us a little bit about the product. You said you made it super convenient?",
+      "source_turn_index": 10
+    },
+    {
+      "answer_turn_index": 21,
+      "canonical_line_index": 11,
+      "original_speaker": "Phil",
+      "question": "So is pour over, and again, forgive me, because I'm not a coffee drinker, is that unavailable otherwise? Are you the only one doing pour over for in home use?",
+      "source_turn_index": 20
+    },
+    {
+      "answer_turn_index": 27,
+      "canonical_line_index": 14,
+      "original_speaker": "Alexandra",
+      "question": "So if I\u2019m someone who drinks half a pot of pure espresso in the morning, am I good?",
+      "source_turn_index": 26
+    },
+    {
+      "answer_turn_index": 31,
+      "canonical_line_index": 17,
+      "original_speaker": "Phil",
+      "question": "This is your first rodeo in terms of starting a company? First time founder?",
+      "source_turn_index": 30
+    },
+    {
+      "answer_turn_index": 34,
+      "canonical_line_index": 20,
+      "original_speaker": "Sheel",
+      "question": "And so, and you guys are Vietnamese, so there\u2019s obviously the condensed milk part of it. What percent of your customers are using it just for the coffee versus the Vietnamese coffee? Like the condensed milk add on?",
+      "source_turn_index": 33
+    },
+    {
+      "answer_turn_index": 39,
+      "canonical_line_index": 24,
+      "original_speaker": "Sheel",
+      "question": "Okay. So $2 retail. Can you take us through just the numbers quickly? Like what does it cost you? What do you sell it to the retailer for generally speaking?",
+      "source_turn_index": 38
+    },
+    {
+      "answer_turn_index": 41,
+      "canonical_line_index": 26,
+      "original_speaker": "Sheel",
+      "question": "Makes sense. And what are hearing from the retailers? How do they feel about how sales are going for this category? Are they reordering? Are you at that point yet with Walmart?",
+      "source_turn_index": 40
+    },
+    {
+      "answer_turn_index": 43,
+      "canonical_line_index": 27,
+      "original_speaker": "Alexandra",
+      "question": "In the coffee, not the tea?",
+      "source_turn_index": 42
+    },
+    {
+      "answer_turn_index": 45,
+      "canonical_line_index": 28,
+      "original_speaker": "Alexandra",
+      "question": "Equally?",
+      "source_turn_index": 44
+    },
+    {
+      "answer_turn_index": 49,
+      "canonical_line_index": 31,
+      "original_speaker": "Alexandra",
+      "question": "do you have a sense within offices who is drinking your coffee repeatedly? right? Is it the junior account executives who are 28? Is it the C suite? Who is it?",
+      "source_turn_index": 48
+    },
+    {
+      "answer_turn_index": 51,
+      "canonical_line_index": 32,
+      "original_speaker": "Phil",
+      "question": "Yeah, I was going to say like a narrow... I\u2019m not a coffee drinker, but this sounds like a narrow niche that you\u2019re addressing. So how do you get people to try it for the first time if they\u2019re not familiar with Vietnamese coffee?",
+      "source_turn_index": 50
+    },
+    {
+      "answer_turn_index": 55,
+      "canonical_line_index": 35,
+      "original_speaker": "Phil",
+      "question": "And so what are you doing in terms of revenue so far?",
+      "source_turn_index": 54
+    },
+    {
+      "answer_turn_index": 58,
+      "canonical_line_index": 36,
+      "original_speaker": "Phil",
+      "question": "So Debbie, you're raising $2 million, you said, right?",
+      "source_turn_index": 57
+    },
+    {
+      "answer_turn_index": 62,
+      "canonical_line_index": 38,
+      "original_speaker": "Phil",
+      "question": "And how much of the 2 million has been committed so far?",
+      "source_turn_index": 61
+    }
+  ],
+  "leakage_checklist": {
+    "founder_content_added": false,
+    "other_investor_identity_model_visible": false,
+    "post_boundary_turn_retained": false,
+    "target_investor_turn_retained": false,
+    "verdict_or_offer_turn_retained": false
+  },
+  "neutral_speaker_label": "Panel Investor",
+  "omitted_candidates": [
+    {
+      "original_speaker": "Phil",
+      "reason": "question_already_present",
+      "source_turn_index": 7,
+      "text": "How about now?"
+    },
+    {
+      "original_speaker": "Phil",
+      "reason": "question_already_present",
+      "source_turn_index": 28,
+      "text": "What is your background?"
+    },
+    {
+      "original_speaker": "Phil",
+      "reason": "founder_answer_not_in_canonical_pitch",
+      "source_turn_index": 69,
+      "text": "Does DripKit, I don\u2019t know about DripKit, do they do pour over coffee?"
+    },
+    {
+      "original_speaker": "Phil",
+      "reason": "founder_answer_not_in_canonical_pitch",
+      "source_turn_index": 71,
+      "text": "what\u2019s your differentiation from Dripkit?"
+    },
+    {
+      "original_speaker": "Phil",
+      "reason": "founder_answer_not_in_canonical_pitch",
+      "source_turn_index": 82,
+      "text": "So that\u2019s one of my concerns about this. Is that I still view it as being a real niche. And I wonder, when you say it\u2019s on trend, what informs that decision? Why do you think that it\u2019s on trend?"
+    },
+    {
+      "original_speaker": "Phil",
+      "reason": "founder_answer_not_in_canonical_pitch",
+      "source_turn_index": 84,
+      "text": "I agree with you. So what is it about the product that Walmart and these other retailers are attracted to?"
+    },
+    {
+      "original_speaker": "Phil",
+      "reason": "founder_answer_not_in_canonical_pitch",
+      "source_turn_index": 86,
+      "text": "What percentage of your current revenue, let's say for 2018, is from online and what's, what percentage from office and what percentage from retail?"
+    },
+    {
+      "original_speaker": "Sheel",
+      "reason": "founder_answer_not_in_canonical_pitch",
+      "source_turn_index": 88,
+      "text": "What do you want that to be next year?"
+    },
+    {
+      "original_speaker": "Phil",
+      "reason": "founder_answer_not_in_canonical_pitch",
+      "source_turn_index": 90,
+      "text": "What about online? So what's your current customer acquisition cost and what channels are you using?"
+    },
+    {
+      "original_speaker": "Phil",
+      "reason": "founder_answer_not_in_canonical_pitch",
+      "source_turn_index": 92,
+      "text": "How are they finding you currently? When you say it's organic, so how are they...?"
+    },
+    {
+      "original_speaker": "Alexandra",
+      "reason": "founder_answer_not_in_canonical_pitch",
+      "source_turn_index": 97,
+      "text": "Charles, what has been your experience, obviously leaving out any competitive details, in terms of the arc of a brand like this? And what Debbie may run into."
+    },
+    {
+      "original_speaker": "Phil",
+      "reason": "founder_answer_not_in_canonical_pitch",
+      "source_turn_index": 99,
+      "text": "Why is that?"
+    },
+    {
+      "original_speaker": "Phil",
+      "reason": "founder_answer_not_in_canonical_pitch",
+      "source_turn_index": 101,
+      "text": "Just because it\u2019s easier?"
+    },
+    {
+      "original_speaker": "Alexandra",
+      "reason": "founder_answer_not_in_canonical_pitch",
+      "source_turn_index": 105,
+      "text": "Yeah, seriously?"
+    },
+    {
+      "original_speaker": "Phil",
+      "reason": "founder_answer_not_in_canonical_pitch",
+      "source_turn_index": 111,
+      "text": "But how difficult would it be for Starbucks to offer more pour over options? And make it more of a mainstream part of their product mix?"
+    },
+    {
+      "original_speaker": "Phil",
+      "reason": "founder_answer_not_in_canonical_pitch",
+      "source_turn_index": 135,
+      "text": "What did you... What did you learn from that food experience? What was the primary takeaway?"
+    },
+    {
+      "original_speaker": "Sheel",
+      "reason": "founder_answer_not_in_canonical_pitch",
+      "source_turn_index": 146,
+      "text": "I do think that you guys, seriously, like she built this to a million dollars in revenue all on her own, and you're like, oh, I need to see more proof?"
+    },
+    {
+      "original_speaker": "Phil",
+      "reason": "founder_answer_not_in_canonical_pitch",
+      "source_turn_index": 151,
+      "text": "That's a good argument. Right? But if you're an investor who likes to invest in direct to consumer companies, this is not yet it."
+    },
+    {
+      "original_speaker": "Phil",
+      "reason": "founder_answer_not_in_canonical_pitch",
+      "source_turn_index": 173,
+      "text": "I'm curious, would you, if you didn't have a conflict, would you have invested Charles?"
+    },
+    {
+      "original_speaker": "Phil",
+      "reason": "founder_answer_not_in_canonical_pitch",
+      "source_turn_index": 181,
+      "text": "So here we are talking about the brand, and the importance of building a brand especially in D2C. Do you think that as a young company that her early decision to distribute through a thousand Walmarts is a mistake in terms of brand?"
+    },
+    {
+      "original_speaker": "Alexandra",
+      "reason": "founder_answer_not_in_canonical_pitch",
+      "source_turn_index": 189,
+      "text": "Look, she had an earlier food company and she learned a lot. Phil\u2019s question to her was a good one, what she learned. Right? And she\u2019s going to learn here because she has basically no online experience, no marketing experience, and no one inside on marketing. And she\u2019ll learn and make some mistakes. The Glossier example is a very good one for her, and I did have some questions as to why from jump there wasn\u2019t someone, perhaps not a cofounder if that\u2019s a little hard to imagine, but someone a little more advisory by her side. She could have said, you know, I\u2019ve got this person, we meet twice a week, we take a look, we\u2019re planning stuff. There\u2019s a lot of ways to answer that question, and she didn\u2019t. You can't say I'm shifting to D2C, but I've got no one inside and no one over the course of the first year, and no one advising me."
+    }
+  ],
+  "pitch_sha256": "5ab4d5ecb30df255797b61fa75115c50d44fa988b573eb970377c5754b6544ef",
+  "registry_vc_slug": "charles-hudson",
+  "schema": "panel-question-pitch-audit-v1",
+  "source_record_path": "inputs/data/investors/charles-hudson-precursor-ventures/precedents/records/54-is-selling-in-walmart-a-good-thing.json",
+  "source_record_sha256": "44b3356ff336b1029bfc41787546724d38ece59f235ff60b3998275bf30efa03",
+  "status": "audited",
+  "vc_slug": "charles-hudson-precursor-ventures"
+}

@@ -1,0 +1,48 @@
+{
+  "schema": "transcript-observed-rationales-v1",
+  "episode_slug": "143-vital-audio",
+  "transcript_sha256": "ebd944f807fdd21ef69f7a32355a62c0796f51c079f9ea0928aadce55fa88891",
+  "window": {
+    "start_turn": 0,
+    "end_turn": 117
+  },
+  "observed_decision": "In",
+  "decision_evidence_ids": [
+    "E1"
+  ],
+  "evidence_registry": [
+    {
+      "evidence_id": "E1",
+      "turn_index": 117,
+      "speaker": "Charles",
+      "text": "Yeah. I'd like to do 25k. I have one - we have a company that does in-home cardiac rehab. I'm like 90% sure it's complimentary, not competitive. I just need to double check with them."
+    }
+  ],
+  "rationales": [
+    {
+      "rationale_id": "R1",
+      "rationale_label": "portfolio_conflict_constraint",
+      "utterance_type": "decision_reason",
+      "activation": "evaluated",
+      "direction": "negative",
+      "salience": "primary",
+      "confidence": 0.99,
+      "evidence_ids": [
+        "E1"
+      ],
+      "explanation": "Charles identifies a potential overlap with an existing portfolio company and says he must verify that the opportunity is complementary rather than competitive before proceeding.",
+      "decision_link": "explicit"
+    }
+  ],
+  "unmapped_utterances": [
+    "Good afternoon.",
+    "Hey, I'm Charles.",
+    "Nice to meet you.",
+    "We're watching the screen.",
+    "It's like a little waveform.",
+    "Oh, we got a patient diagnostics.",
+    "It's got a report."
+  ],
+  "audit_flags": [],
+  "annotation_summary": "Charles explicitly decided to invest $25k, subject to checking a potential portfolio conflict. No other Charles utterances express a supported rationale judgment."
+}

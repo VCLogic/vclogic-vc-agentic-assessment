@@ -1,0 +1,211 @@
+{
+  "schema": "transcript-observed-rationales-v1",
+  "episode_slug": "73-enough-sales-calls-already",
+  "transcript_sha256": "a6a0fa6a9ab7e0363b3ebf434662aadae7db0a0d3bff0cf3f9ee5dec389a6945",
+  "window": {
+    "start_turn": 2,
+    "end_turn": 95
+  },
+  "observed_decision": "Out",
+  "decision_evidence_ids": [
+    "E10"
+  ],
+  "evidence_registry": [
+    {
+      "evidence_id": "E1",
+      "turn_index": 18,
+      "speaker": "Phil",
+      "text": "But they do have to worry about vendors paying versus those that don't pay."
+    },
+    {
+      "evidence_id": "E2",
+      "turn_index": 20,
+      "speaker": "Phil",
+      "text": "There's still that distinction."
+    },
+    {
+      "evidence_id": "E3",
+      "turn_index": 24,
+      "speaker": "Phil",
+      "text": "Yeah Why is there a backlog? Why can’t you get them on your platform right away?"
+    },
+    {
+      "evidence_id": "E4",
+      "turn_index": 26,
+      "speaker": "Phil",
+      "text": "When you bring in a community, are you offering them discounts as well?"
+    },
+    {
+      "evidence_id": "E5",
+      "turn_index": 40,
+      "speaker": "Phil",
+      "text": "So now in a sense you're going to the vendors and also saying, hey, in addition to a subscription fee I need a discount from you?"
+    },
+    {
+      "evidence_id": "E6",
+      "turn_index": 42,
+      "speaker": "Phil",
+      "text": "But to Michael's point, doesn't that create that kind of competition among vendors for who's going to provide the biggest discount..."
+    },
+    {
+      "evidence_id": "E7",
+      "turn_index": 45,
+      "speaker": "Phil",
+      "text": "Yeah. No. I was just thinking about whether the vendors want, will want to participate in this marketplace if it's a competitive, a race to the bottom in terms of pricing."
+    },
+    {
+      "evidence_id": "E8",
+      "turn_index": 54,
+      "speaker": "Phil",
+      "text": "Yeah. I am too. We're investors in IT Central Station."
+    },
+    {
+      "evidence_id": "E9",
+      "turn_index": 66,
+      "speaker": "Phil",
+      "text": "So who do you see as your closest competitors?"
+    },
+    {
+      "evidence_id": "E10",
+      "turn_index": 95,
+      "speaker": "Phil",
+      "text": "So I too like it. I have a, I guess... Here's my approach. I need to introduce you to our portfolio companies And then when I understand what the valuation is, when I understand the terms, and see the feedback from my portfolio companies, I think then I'd be willing to invest. so I need to get past those couple of hurdles, and hopefully I'll be in."
+    }
+  ],
+  "rationales": [
+    {
+      "rationale_id": "R1",
+      "rationale_label": "business_model_assessment",
+      "utterance_type": "assessment",
+      "activation": "evaluated",
+      "direction": "negative",
+      "salience": "secondary",
+      "confidence": 0.96,
+      "evidence_ids": [
+        "E1",
+        "E2"
+      ],
+      "explanation": "Phil flags the distinction between vendors that pay and those that do not, questioning the model’s impartiality.",
+      "decision_link": "none"
+    },
+    {
+      "rationale_id": "R2",
+      "rationale_label": "solution_feasibility_assessment",
+      "utterance_type": "question",
+      "activation": "queried",
+      "direction": "neutral",
+      "salience": "secondary",
+      "confidence": 0.84,
+      "evidence_ids": [
+        "E3"
+      ],
+      "explanation": "Phil asks why demand is backlogged and why users cannot be onboarded immediately, probing operational scalability.",
+      "decision_link": "none"
+    },
+    {
+      "rationale_id": "R3",
+      "rationale_label": "business_model_assessment",
+      "utterance_type": "question",
+      "activation": "queried",
+      "direction": "neutral",
+      "salience": "secondary",
+      "confidence": 0.9,
+      "evidence_ids": [
+        "E4",
+        "E5"
+      ],
+      "explanation": "Phil probes the discounting structure offered to communities and vendors alongside subscription fees.",
+      "decision_link": "none"
+    },
+    {
+      "rationale_id": "R4",
+      "rationale_label": "competitive_intensity_concern",
+      "utterance_type": "question",
+      "activation": "queried",
+      "direction": "neutral",
+      "salience": "secondary",
+      "confidence": 0.9,
+      "evidence_ids": [
+        "E6",
+        "E9"
+      ],
+      "explanation": "Phil probes whether vendor competition will become a discount race and asks about the closest competitors.",
+      "decision_link": "none"
+    },
+    {
+      "rationale_id": "R5",
+      "rationale_label": "business_viability_concern",
+      "utterance_type": "assessment",
+      "activation": "evaluated",
+      "direction": "negative",
+      "salience": "secondary",
+      "confidence": 0.94,
+      "evidence_ids": [
+        "E7"
+      ],
+      "explanation": "Phil explicitly questions whether vendors will participate if the marketplace drives pricing toward a race to the bottom.",
+      "decision_link": "none"
+    },
+    {
+      "rationale_id": "R6",
+      "rationale_label": "portfolio_conflict_constraint",
+      "utterance_type": "assessment",
+      "activation": "evaluated",
+      "direction": "neutral",
+      "salience": "secondary",
+      "confidence": 0.82,
+      "evidence_ids": [
+        "E8"
+      ],
+      "explanation": "Phil states that his firm already invests in IT Central Station, establishing relevant portfolio context without explicitly stating that it blocks this investment.",
+      "decision_link": "none"
+    },
+    {
+      "rationale_id": "R7",
+      "rationale_label": "product_appeal_assessment",
+      "utterance_type": "assessment",
+      "activation": "evaluated",
+      "direction": "positive",
+      "salience": "primary",
+      "confidence": 0.98,
+      "evidence_ids": [
+        "E10"
+      ],
+      "explanation": "Phil states that he likes the opportunity.",
+      "decision_link": "none"
+    },
+    {
+      "rationale_id": "R8",
+      "rationale_label": "investor_value_add_fit",
+      "utterance_type": "decision_reason",
+      "activation": "evaluated",
+      "direction": "neutral",
+      "salience": "primary",
+      "confidence": 0.94,
+      "evidence_ids": [
+        "E10"
+      ],
+      "explanation": "Phil requires introductions to his portfolio companies and their feedback before investing, making his portfolio network part of the evaluation hurdle.",
+      "decision_link": "explicit"
+    },
+    {
+      "rationale_id": "R9",
+      "rationale_label": "deal_terms_complexity_concern",
+      "utterance_type": "decision_reason",
+      "activation": "evaluated",
+      "direction": "neutral",
+      "salience": "primary",
+      "confidence": 0.98,
+      "evidence_ids": [
+        "E10"
+      ],
+      "explanation": "Phil says he must understand the valuation and terms before he would be willing to invest.",
+      "decision_link": "explicit"
+    }
+  ],
+  "unmapped_utterances": [],
+  "audit_flags": [
+    "E54 records an existing portfolio investment but does not explicitly assert a competitive conflict; it is annotated neutrally without inferring a blocking constraint."
+  ],
+  "annotation_summary": "Phil expresses positive product appeal but remains Out pending portfolio-company feedback and clarity on valuation and deal terms."
+}

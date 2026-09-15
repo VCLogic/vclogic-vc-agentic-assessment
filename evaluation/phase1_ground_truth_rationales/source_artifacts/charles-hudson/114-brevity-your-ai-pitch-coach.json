@@ -1,0 +1,200 @@
+{
+  "schema": "transcript-observed-rationales-v1",
+  "episode_slug": "114-brevity-your-ai-pitch-coach",
+  "transcript_sha256": "8f5f491fa97f2b2199fb0fcd0e5ce5390fefd6acfdec862e58c6ea5f61c04dd2",
+  "window": {
+    "start_turn": 10,
+    "end_turn": 124
+  },
+  "observed_decision": "Out",
+  "decision_evidence_ids": [
+    "E6"
+  ],
+  "evidence_registry": [
+    {
+      "evidence_id": "E1",
+      "turn_index": 28,
+      "speaker": "Charles",
+      "text": "Can you talk about how pitch intelligence works?"
+    },
+    {
+      "evidence_id": "E2",
+      "turn_index": 30,
+      "speaker": "Charles",
+      "text": "Is the experience like a Grammarly type experience -"
+    },
+    {
+      "evidence_id": "E3",
+      "turn_index": 32,
+      "speaker": "Charles",
+      "text": "- where I type some things and it says, hey, tone's off or say it this way."
+    },
+    {
+      "evidence_id": "E4",
+      "turn_index": 104,
+      "speaker": "Charles",
+      "text": "I was a seed stage investor in DocSend. Which - different - different positioning, but like one of the big unlocks for them was you could actually tell that using DocSend helped you raise money. Like, you actually got the analytics back, and they got the analytics back, at a macro level about slides people were paying attention - so they have a ton of data. My question is, how do you know this works?"
+    },
+    {
+      "evidence_id": "E5",
+      "turn_index": 106,
+      "speaker": "Charles",
+      "text": "In a pitch - in a pitch competition, you have a very short feedback cycle and it's very easy to collect that data. But in some of these other contexts, like how do you know - how do you capture data to know that like I asked for the raise and I got it?"
+    },
+    {
+      "evidence_id": "E6",
+      "turn_index": 124,
+      "speaker": "Charles",
+      "text": "I was just gonna say like, Kelvin, you have a really great presence. And like if I could bottle you and write software that was Kelvin, you could sell anything. And I think where I got stuck was in a different area, which is I've been spending a lot of time with sort of these next generation tools that are very, very good at generating content with prompts. And I think the rate of improvement of those tools is going to make this sort of scaffolding first draft deck generation process relatively commoditized from a language standpoint. I just have a hard time connecting the dots between the value that you create by giving some of this awesome pitch and sort of seeing it all the way through to close. // So I'm out, but I think you - you - I see why you are working on this business, and that's always something I look for in a pitch."
+    }
+  ],
+  "rationales": [
+    {
+      "rationale_id": "R1",
+      "rationale_label": "solution_feasibility_assessment",
+      "utterance_type": "question",
+      "activation": "queried",
+      "direction": "neutral",
+      "salience": "secondary",
+      "confidence": 0.99,
+      "evidence_ids": [
+        "E1"
+      ],
+      "explanation": "Charles asks how the core pitch-intelligence functionality works.",
+      "decision_link": "none"
+    },
+    {
+      "rationale_id": "R2",
+      "rationale_label": "solution_feasibility_assessment",
+      "utterance_type": "question",
+      "activation": "queried",
+      "direction": "neutral",
+      "salience": "secondary",
+      "confidence": 0.98,
+      "evidence_ids": [
+        "E2",
+        "E3"
+      ],
+      "explanation": "Charles probes whether the product delivers an understandable, Grammarly-like user experience.",
+      "decision_link": "none"
+    },
+    {
+      "rationale_id": "R3",
+      "rationale_label": "investor_experience_bias",
+      "utterance_type": "assessment",
+      "activation": "evaluated",
+      "direction": "neutral",
+      "salience": "secondary",
+      "confidence": 0.96,
+      "evidence_ids": [
+        "E4"
+      ],
+      "explanation": "Charles invokes his prior DocSend investing experience as the context for evaluating Brevity's evidence of impact.",
+      "decision_link": "none"
+    },
+    {
+      "rationale_id": "R4",
+      "rationale_label": "product_success_factor_assessment",
+      "utterance_type": "assessment",
+      "activation": "evaluated",
+      "direction": "positive",
+      "salience": "secondary",
+      "confidence": 0.94,
+      "evidence_ids": [
+        "E4"
+      ],
+      "explanation": "Charles identifies outcome analytics showing whether a product helped produce a fundraising result as a major unlock.",
+      "decision_link": "none"
+    },
+    {
+      "rationale_id": "R5",
+      "rationale_label": "product_success_factor_assessment",
+      "utterance_type": "question",
+      "activation": "queried",
+      "direction": "neutral",
+      "salience": "primary",
+      "confidence": 0.99,
+      "evidence_ids": [
+        "E4",
+        "E5"
+      ],
+      "explanation": "Charles asks how Brevity knows it works and how it captures outcome data beyond short-cycle pitch competitions.",
+      "decision_link": "none"
+    },
+    {
+      "rationale_id": "R6",
+      "rationale_label": "founder_qualities",
+      "utterance_type": "assessment",
+      "activation": "evaluated",
+      "direction": "positive",
+      "salience": "secondary",
+      "confidence": 0.99,
+      "evidence_ids": [
+        "E6"
+      ],
+      "explanation": "Charles praises Kelvin's presence and persuasive ability.",
+      "decision_link": "explicit"
+    },
+    {
+      "rationale_id": "R7",
+      "rationale_label": "founder_communication_quality",
+      "utterance_type": "assessment",
+      "activation": "evaluated",
+      "direction": "positive",
+      "salience": "secondary",
+      "confidence": 0.99,
+      "evidence_ids": [
+        "E6"
+      ],
+      "explanation": "Charles says Kelvin could sell anything, directly recognizing strong presentation and communication ability.",
+      "decision_link": "explicit"
+    },
+    {
+      "rationale_id": "R8",
+      "rationale_label": "product_differentiation_concern",
+      "utterance_type": "decision_reason",
+      "activation": "evaluated",
+      "direction": "negative",
+      "salience": "primary",
+      "confidence": 0.99,
+      "evidence_ids": [
+        "E6"
+      ],
+      "explanation": "Charles believes improving prompt-based generation will commoditize the scaffolding and first-draft deck-generation layer from a language standpoint.",
+      "decision_link": "explicit"
+    },
+    {
+      "rationale_id": "R9",
+      "rationale_label": "product_success_factor_assessment",
+      "utterance_type": "decision_reason",
+      "activation": "evaluated",
+      "direction": "negative",
+      "salience": "primary",
+      "confidence": 0.98,
+      "evidence_ids": [
+        "E6"
+      ],
+      "explanation": "Charles cannot connect the value of producing an effective pitch with carrying the user through to the close.",
+      "decision_link": "explicit"
+    },
+    {
+      "rationale_id": "R10",
+      "rationale_label": "founder_motivation_authenticity",
+      "utterance_type": "decision_reason",
+      "activation": "evaluated",
+      "direction": "positive",
+      "salience": "secondary",
+      "confidence": 0.97,
+      "evidence_ids": [
+        "E6"
+      ],
+      "explanation": "Charles says he sees why the founders are working on the business and identifies that motivation as something he looks for in a pitch.",
+      "decision_link": "explicit"
+    }
+  ],
+  "unmapped_utterances": [
+    "turn 16: Nice."
+  ],
+  "audit_flags": [],
+  "annotation_summary": "Charles's Out decision is explicitly tied to concern that the language-focused scaffolding and first-draft generation layer will become commoditized, combined with difficulty connecting pitch creation to measurable value through closing. He simultaneously gives positive feedback on Kelvin's presence, selling ability, and motivation."
+}

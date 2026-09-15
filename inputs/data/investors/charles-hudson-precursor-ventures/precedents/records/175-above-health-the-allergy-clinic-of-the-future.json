@@ -1,0 +1,2143 @@
+{
+  "decision": {
+    "audit_notes": "Pitch-window In disagrees with Final Out after later diligence.",
+    "audit_source": "evaluation/labels/charles_pitch_window_decisions.json",
+    "check_tier": null,
+    "conditions": [],
+    "context": "later_diligence",
+    "evidence": [
+      {
+        "text": "I didn't give a number. Yeah. I'd like to do 50,000.",
+        "turn_end": 219,
+        "turn_start": 219
+      }
+    ],
+    "status": "In"
+  },
+  "episode_number": 175,
+  "episode_slug": "175-above-health-the-allergy-clinic-of-the-future",
+  "investor_aliases": [
+    "Charles",
+    "Charles Hudson"
+  ],
+  "investor_present": true,
+  "source_path": "sources/175-above-health-the-allergy-clinic-of-the-future.json",
+  "source_sha256": "c3c0fd0cb23ae73cf37ac2fe14c149f8794036275d7a1c299b8d4d59a62508fa",
+  "turns": [
+    {
+      "speaker": "Josh",
+      "text": "Welcome to The Pitch, where startup founders raise millions and listeners can invest. I’m Josh Muccio.",
+      "turn_index": 0
+    },
+    {
+      "speaker": "Lisa",
+      "text": "And I’m Lisa Muccio. And before we get to the pitch…\n~~We’re doing a live show!~~",
+      "turn_index": 1
+    },
+    {
+      "speaker": "Josh",
+      "text": "Show… In two weeks in Brooklyn on December 4th. Three founders will pitch three VCs, and perhaps someone will walk away with funding. Grab your tickets before they sell out at pitch.show/live",
+      "turn_index": 2
+    },
+    {
+      "speaker": "Lisa",
+      "text": "On the show\ntoday\nwe have Above Health. And they’re raising $1 million.",
+      "turn_index": 3
+    },
+    {
+      "speaker": "Josh",
+      "text": "Oh my gosh. Today's founder Matt Truebe. I can't believe we met this guy when we did.",
+      "turn_index": 4
+    },
+    {
+      "speaker": "Lisa",
+      "text": "What do you mean?",
+      "turn_index": 5
+    },
+    {
+      "speaker": "Josh",
+      "text": "Matt's pitch is, we're building the allergy clinic of the future. We're speaking to him when he's only raised 150,000 from one investor.",
+      "turn_index": 6
+    },
+    {
+      "speaker": "Lisa",
+      "text": "Mm.",
+      "turn_index": 7
+    },
+    {
+      "speaker": "Josh",
+      "text": "And I think he's a genius in the way he's approaching it.",
+      "turn_index": 8
+    },
+    {
+      "speaker": "Lisa",
+      "text": "I think normally we would look at a company like this and be like, wow, you're doing too much. You need to simplify. But I do think this might be one of the cases where not only is it the way to do it, but he seems to have the capabilities to do it.",
+      "turn_index": 9
+    },
+    {
+      "speaker": "Josh",
+      "text": "Yeah. He's just this crazy like mad scientist, like cooking up like hardware devices in his home for crazy low prices. He's just like spinning out new ideas left and right. But with his background he just might pull it off.",
+      "turn_index": 10
+    },
+    {
+      "speaker": "Lisa",
+      "text": "I definitely think the timing is now for this business and he couldn't have built it sooner",
+      "turn_index": 11
+    },
+    {
+      "speaker": "Josh",
+      "text": "The pitch for Above Health is coming up after this.\nBREAK\nWelcome back to the pitch for Above Health. Let’s meet THE INVESTORS.\nCyan Banister with Long Journey Ventures\nSomeone of his caliber is taking this seriously? I’m just stoked about it\nCharles Hudson with Precursor Ventures\nSometimes a business is what it is, not what you want it to be\nAnd three new investors to the show - Immad Akhund, CEO of Mercury and prolific angel investor.\nI think with one day of coaching, this would be a 20 million valuation\nMonique Woodard with Cake Ventures\nI'm looking for a founder that excites me. And I like weird things.\nAnd Rohit Gupta with Future Communities Capital\nMaybe I'm not charming!",
+      "turn_index": 12
+    },
+    {
+      "speaker": "Immad",
+      "text": "Above Health [clap]",
+      "turn_index": 13
+    },
+    {
+      "speaker": "Lisa",
+      "text": "Matt, ready to go? Alright",
+      "turn_index": 14
+    },
+    {
+      "speaker": "Matt",
+      "text": "Hey everyone",
+      "turn_index": 15
+    },
+    {
+      "speaker": "Monique",
+      "text": "I'm Monique.",
+      "turn_index": 16
+    },
+    {
+      "speaker": "Matt",
+      "text": "I'm Matt.",
+      "turn_index": 17
+    },
+    {
+      "speaker": "Charles",
+      "text": "Hey, I'm Charles.",
+      "turn_index": 18
+    },
+    {
+      "speaker": "Matt",
+      "text": "Charles",
+      "turn_index": 19
+    },
+    {
+      "speaker": "Rohit",
+      "text": "Rohit. Great to meet you.",
+      "turn_index": 20
+    },
+    {
+      "speaker": "Matt",
+      "text": "Oh, sorry",
+      "turn_index": 21
+    },
+    {
+      "speaker": "Immad",
+      "text": "Immad",
+      "turn_index": 22
+    },
+    {
+      "speaker": "Matt",
+      "text": "It's hard to reach around.",
+      "turn_index": 23
+    },
+    {
+      "speaker": "Cyan",
+      "text": "Cyan",
+      "turn_index": 24
+    },
+    {
+      "speaker": "Matt",
+      "text": "Great. Well, I'm Matt Truebe. And, I'm starting Above Health. I'm a former CTO of a few nationally recognized health companies. I'd love to take you through the story on why I started Above Health. So last December, my daughter and I are at home. she’s 5 I had just picked her up from school and I gave her a half teaspoon of yogurt, and she's in the living room playing. She's got food allergies. So as a side project, I had built an app for my family to help us monitor her symptoms and do a bunch of other things, and I get an alert on my phone that she's showing signs of elevated heart rate. So I go in to the living room and ask her a few questions and she's saying, yeah, she's fine. You know, she's doing okay. So I'm like, okay. Okay. And about 15 minutes later, I got a critical alert on my phone and it's saying that she's showing signs of anaphylaxis. we had built an AI coughing detection. It triggered. Her HRV spiked and a bunch of other biometrics went south.\nSo I, I rushed in the living room, the lights were off. I turned them on and I'm asking her what's going on? And she's like, looking really nervous I look at her throat and it's swollen she's got full body hives, and she starts crying and screaming. She's like, I don't want a shot. I don't want an EpiPen. And I, I have to give her one, but 10 minutes after the shot her symptoms got worse. Her O2 dropped to 90 which is near critical. She's belaboring, her chest is having trouble breathing. And I start freaking out because I'd never given her a second shot before. I don't know what I'm supposed to do. Can I give her a third or fourth? she's shocked. She doesn't know. I give her a second one. I call the paramedics. we get to the hospital. luckily we didn't have to go into the ICU she's totally fine. And, we came home that night. it was that moment in December of last year that I decided I'm gonna dedicate the next chapter of my life to helping my daughter and families like us who are dealing with allergies, asthma, any really allergic disease. So we started Above Health which is at its core an AI diagnostic platform, with a wraparound care service that includes doctors to help families going through this struggle. We have a few things to show, but I'd love to start with the app that we used last December and go from there. So, if you don't mind I'll pass it around.",
+      "turn_index": 25
+    },
+    {
+      "speaker": "Cyan",
+      "text": "And did she have an Apple watch on? Is that -",
+      "turn_index": 26
+    },
+    {
+      "speaker": "Matt",
+      "text": "So, she did. And the biometrics there are hit or miss. Heart rate is pretty good, but they don't really give you, heart rate variability, which is a key sign in anaphylaxis. So we got kind of lucky that during that time it actually had triggered heart rate variability for her. but we have an open mic. And that's how we're collecting audio to de tect coughing and things like that. One thing we're doing, because I can't find a clinical grade wearable on the market, is we built our own.",
+      "turn_index": 27
+    },
+    {
+      "speaker": "Cyan",
+      "text": "Oh.",
+      "turn_index": 28
+    },
+    {
+      "speaker": "Charles",
+      "text": "Oh",
+      "turn_index": 29
+    },
+    {
+      "speaker": "Matt",
+      "text": "I'm not showing that today. We've just got our first prototype. It's coming actually today to my home.",
+      "turn_index": 30
+    },
+    {
+      "speaker": "Cyan",
+      "text": "Is it a ring or a watch, or-",
+      "turn_index": 31
+    },
+    {
+      "speaker": "Matt",
+      "text": "It's a bracelet.",
+      "turn_index": 32
+    },
+    {
+      "speaker": "Cyan",
+      "text": "A bracelet.",
+      "turn_index": 33
+    },
+    {
+      "speaker": "Matt",
+      "text": "Uh, so what I'm looking to do, the first version is validating a bunch of stuff. V, V2, 2 or 3 will have, there's actually a new form factor You can print the electronic components on actually a liquid thing. Imagine it's just like forms on your arm and that way you can get high grade data because like an Apple watch you go like this-",
+      "turn_index": 34
+    },
+    {
+      "speaker": "Charles",
+      "text": "Moves around. Yeah.",
+      "turn_index": 35
+    },
+    {
+      "speaker": "Matt",
+      "text": "It's just not good enough.",
+      "turn_index": 36
+    },
+    {
+      "speaker": "Rohit",
+      "text": "Hmm.",
+      "turn_index": 37
+    },
+    {
+      "speaker": "Matt",
+      "text": "So we're talking with a company that's invented this new material. and that would be, uh, the future iteration.",
+      "turn_index": 38
+    },
+    {
+      "speaker": "Josh",
+      "text": "Maybe Cyan, since you have the phone, can you describe the app?",
+      "turn_index": 39
+    },
+    {
+      "speaker": "Cyan",
+      "text": "So there's a health summary and then next steps and actions that you can take including, basically tells you exactly what you need to do, if you have an EpiPen, and how to, how to do the procedure. food allergen label reading guides, cross contact, and then emergency action plans for anaphylaxis. Scheduling an appointment, connecting a device.",
+      "turn_index": 40
+    },
+    {
+      "speaker": "Matt",
+      "text": "And do you see on there, on the home screen something that says personalized labs?",
+      "turn_index": 41
+    },
+    {
+      "speaker": "Cyan",
+      "text": "Yes.",
+      "turn_index": 42
+    },
+    {
+      "speaker": "Matt",
+      "text": "If you click that, that is a custom lab panel specific to my daughter. To her exact",
+      "turn_index": 43
+    },
+    {
+      "speaker": "Cyan",
+      "text": "Ah, okay.",
+      "turn_index": 44
+    },
+    {
+      "speaker": "Matt",
+      "text": "Her exact allergens, her exact triggers and potential triggers. It's not a wide panel. So a lot of other companies they're offering panels and half the stuff is not worth it. Right?",
+      "turn_index": 45
+    },
+    {
+      "speaker": "Cyan",
+      "text": "Mm-hmm.",
+      "turn_index": 46
+    },
+    {
+      "speaker": "Matt",
+      "text": "Um so what we're doing is we're trying to offer precision health through labs, through questionnaires, through device data to really change someone's outcome for the better.",
+      "turn_index": 47
+    },
+    {
+      "speaker": "Immad",
+      "text": "And are you like, laser focused on allergy?",
+      "turn_index": 48
+    },
+    {
+      "speaker": "Matt",
+      "text": "Yes.",
+      "turn_index": 49
+    },
+    {
+      "speaker": "Immad",
+      "text": "That's the main thing.",
+      "turn_index": 50
+    },
+    {
+      "speaker": "Matt",
+      "text": "Yeah. I mean, you know-",
+      "turn_index": 51
+    },
+    {
+      "speaker": "Immad",
+      "text": "Because you could see an application for this for lots of chronic conditions, right?",
+      "turn_index": 52
+    },
+    {
+      "speaker": "Matt",
+      "text": "So. Yeah. So I mean, that would be long term. I've been at companies that have, you know, started in a single service sector and then scaled over time. But I think you really gotta perfect the allergy and asthma. The market's pretty big. I mean.",
+      "turn_index": 53
+    },
+    {
+      "speaker": "Immad",
+      "text": "Yeah, it’s huge.",
+      "turn_index": 54
+    },
+    {
+      "speaker": "Matt",
+      "text": "Yeah. 25 million, people have asthma. 25 billion, dollars spent on asthma every year. food allergies and asthma are comorbid. So, one other thing that we have, this one is production ready. We have people using it we're ready to go into mass manufacturing. It's a smart.",
+      "turn_index": 55
+    },
+    {
+      "speaker": "Charles",
+      "text": "I was gonna say, it looks like a smart inhaler.",
+      "turn_index": 56
+    },
+    {
+      "speaker": "Matt",
+      "text": "It is",
+      "turn_index": 57
+    },
+    {
+      "speaker": "Charles",
+      "text": "Yeah.",
+      "turn_index": 58
+    },
+    {
+      "speaker": "Matt",
+      "text": "So it's a smart inhaler. What's unique about it and what's patent pending is it's got GPS on device.",
+      "turn_index": 59
+    },
+    {
+      "speaker": "Rohit",
+      "text": "Hmm.",
+      "turn_index": 60
+    },
+    {
+      "speaker": "Charles",
+      "text": "Oh.",
+      "turn_index": 61
+    },
+    {
+      "speaker": "Matt",
+      "text": "So what we do with that is, the kid’s at school, and they use their inhaler. We capture GPS, we store it on device. When they go home, it uploads it at night. And we get the time of day they used it. And we capture within a square km all the information about it. So we get pollen and air quality and even location, like this was industrial, this was near a freeway. Like, the data's really robust. So I think the time is ripe to use a lot of different data. And before it was really hard to build this stuff. One iteration of this cost a thousand dollars. Prototype, delivered to my home. So, I think AI has really helped propel a lot of things. And so what we've done is, Imagine you're using this at the park. And so one of my daughter's friends was usually your go-to would be doing a panel test of 50 allergens and 20% come back high. So what are you supposed to do? Avoid going anywhere? What we do is we look at, okay, Cottonwood was high that day. Now we're gonna offer you a precise lab for Cottonwood, And now you know what your trigger is, and your trigger shows up in the app. And I've already talked to the former president of the Allergy College American Association. He's on my advisory board. He loves it. He said this is game changing. I’ll pass these around.",
+      "turn_index": 62
+    },
+    {
+      "speaker": "Monique",
+      "text": "Can you talk a little bit about the wraparound care platform?",
+      "turn_index": 63
+    },
+    {
+      "speaker": "Matt",
+      "text": "Yeah. So getting devices into people's hands is challenging So the carrot, what we found is that people are looking for allergists. There's so, such high demand. There's only 4,000 in the country, allergists. 80% of the population doesn't have access on a health plan. So we've done some market testing, we've booked a bunch of visits. CAC is $10. so we're starting with the allergists, potentially as telehealth, as an entry point. So in the beginning, we're not official diagnosis. That is coming from a doctor either asynchronously or through a telehealth call, that way it enables us to not have to go through clinical trials by having a diagnosis. Now, the bracelet I mentioned. Something like anaphylaxis detection warning system. It's on the fence. Likely has to go through some sort of FDA approval. I'll just be pretty open there, but this does not.",
+      "turn_index": 64
+    },
+    {
+      "speaker": "Monique",
+      "text": "How much is the telehealth visit?",
+      "turn_index": 65
+    },
+    {
+      "speaker": "Matt",
+      "text": "So for insurance it's your copay coinsurance.",
+      "turn_index": 66
+    },
+    {
+      "speaker": "Monique",
+      "text": "So it is covered by insurance?",
+      "turn_index": 67
+    },
+    {
+      "speaker": "Matt",
+      "text": "Yeah. The doctors are licensed, so we're starting in California. The doctors are licensed in California, Washington, Illinois. The ones we've signed at least. We have a few more in Texas and Arkansas we're talking to",
+      "turn_index": 68
+    },
+    {
+      "speaker": "Rohit",
+      "text": "These are GPS or allergists?",
+      "turn_index": 69
+    },
+    {
+      "speaker": "Matt",
+      "text": "These are allergists.",
+      "turn_index": 70
+    },
+    {
+      "speaker": "Rohit",
+      "text": "Got it.",
+      "turn_index": 71
+    },
+    {
+      "speaker": "Matt",
+      "text": "And we have an NP. So one of our goals is to use the platform we built plus the devices to actually unlock allergy across the country with nurse practitioners. For example, in Kern County, Bakersfield. They have 700,000 people without a single allergist.",
+      "turn_index": 72
+    },
+    {
+      "speaker": "Charles",
+      "text": "Wow.",
+      "turn_index": 73
+    },
+    {
+      "speaker": "Matt",
+      "text": "So we're speaking with the county and the health system. We've got the COO of a major health system already on board. And what they wanna do is remote supervision. So we'd have an NP either through telehealth or if needed on site. And we would have an allergist, like the one in LA reviewing their notes and everything. So we'd be able to take that model and scale across the country.",
+      "turn_index": 74
+    },
+    {
+      "speaker": "Immad",
+      "text": "Feels like you're doing a lot. There's this clinical grade wearable that you're making. There's a smart inhaler, there's a telehealth platform, there's personalized labs—do you feel like all of that's necessary in order to deliver this complete solution? Is there like one thing you're doing first, and this is like a more long term plan?",
+      "turn_index": 75
+    },
+    {
+      "speaker": "Matt",
+      "text": "Oh yeah. Yeah, so that's a good question. The first things we're working on are telehealth and labs. telehealth starts in October, and that's our core tenet. From there, our long-term goal is value-based care. Where you get paid a subscription effectively from the health system or the government for a, a caseload of patients. We're trying to fast track that. So I know Omada and a bunch of others took five years, et cetera, and eventually they were 90% value-based care. We're trying to get there in two. So to get there in two, we need some sort of proprietary device, something novel to then be awarded that contract. And so we're taking telehealth, plus labs, plus a device like the inhaler to start there. And yeah, the bracelet, I mean, iterations take a while. That's on a slow burn.",
+      "turn_index": 76
+    },
+    {
+      "speaker": "Immad",
+      "text": "And you're saying bracelet is the thing that needs FDA approval.",
+      "turn_index": 77
+    },
+    {
+      "speaker": "Matt",
+      "text": "Yeah. That's gonna just take a while.",
+      "turn_index": 78
+    },
+    {
+      "speaker": "Immad",
+      "text": "But for now, you are gonna use Apple Watch data?",
+      "turn_index": 79
+    },
+    {
+      "speaker": "Matt",
+      "text": "Uh, yeah.",
+      "turn_index": 80
+    },
+    {
+      "speaker": "Monique",
+      "text": "And so today your revenue comes from CPT codes?",
+      "turn_index": 81
+    },
+    {
+      "speaker": "Matt",
+      "text": "CPT codes.",
+      "turn_index": 82
+    },
+    {
+      "speaker": "Monique",
+      "text": "Okay.",
+      "turn_index": 83
+    },
+    {
+      "speaker": "Matt",
+      "text": "We just, just became first revenue. Like today. Yesterday, actually.",
+      "turn_index": 84
+    },
+    {
+      "speaker": "Monique",
+      "text": "Got it. Okay.",
+      "turn_index": 85
+    },
+    {
+      "speaker": "Matt",
+      "text": "My wi- my wife, she's like a moderator on these allergy boards. She promoted a free sticker, like where you print at home, like, oh, you're allergic to X, Y, and Z and we got a ton of people signing up and booked all our visits up until the rest of the year. sorry. I know you said there's a lot, so I'm scared to show this. There is one more thing.\n[laughter]\nThis is the thing I'm super excited about. I got it working last night. This has been validated by a few doctors and a nurse practitioner. It’s a stethoscope, and guess how much it costs to make.",
+      "turn_index": 86
+    },
+    {
+      "speaker": "Rohit",
+      "text": "$9.99",
+      "turn_index": 87
+    },
+    {
+      "speaker": "Charles",
+      "text": "10 bucks. I was gonna say 10 bucks.",
+      "turn_index": 88
+    },
+    {
+      "speaker": "Matt",
+      "text": "Yeah.",
+      "turn_index": 89
+    },
+    {
+      "speaker": "Rohit",
+      "text": "The Price is Right.",
+      "turn_index": 90
+    },
+    {
+      "speaker": "Matt",
+      "text": "10 bucks. How did you know?",
+      "turn_index": 91
+    },
+    {
+      "speaker": "Cyan",
+      "text": "Wow.",
+      "turn_index": 92
+    },
+    {
+      "speaker": "Matt",
+      "text": "8. $8 maybe. Maybe like 15 at the door at CVS. So my dream is to take these small devices and distribute it, everyone, everywhere. Imagine like everyone had this like a pulse oximeter. Imagine you have a digital stethoscope that records clinical grade audio clips and can upload it to your doctor and even diagnose. So we've got an AI algorithm to diagnose asthma, bronchitis, pneumonia, and COPD, Same thing, to do the diagnosis, we have to go through all these trials that's why we have a wraparound service. We upload it to the doctors, the doctor provides the diagnosis. We work directly with the health plans like LA County, Kern County and more, or the, to then provide the end to end service.",
+      "turn_index": 93
+    },
+    {
+      "speaker": "Charles",
+      "text": "Who else is working on this with you?",
+      "turn_index": 94
+    },
+    {
+      "speaker": "Matt",
+      "text": "Ha. So we have a few allergists that we've brought on. We have some advisors and I have some contractors, in terms of full-time, like nonclinical?",
+      "turn_index": 95
+    },
+    {
+      "speaker": "Charles",
+      "text": "Yeah",
+      "turn_index": 96
+    },
+    {
+      "speaker": "Matt",
+      "text": "It's just me. Our burn rate is $3,000 to $4,000 a month. I've been using some of my own money. We've taken a check that's been unspent from Hustle Fund. I’m making sure that we have a good go to market strategy. And that's through the telehealth and through the labs, which is why I'm starting there. But I believe that these devices are our moats long term, and create true clinical outcomes that no one else can match. That will then be the reason we scale.",
+      "turn_index": 97
+    },
+    {
+      "speaker": "Monique",
+      "text": "Do you have any idea how much payers spend on asthma and allergies?",
+      "turn_index": 98
+    },
+    {
+      "speaker": "Matt",
+      "text": "Yeah. the health system is 25 billion per year. For environmental allergies it's 40. For food allergies, it's growing. It's around 13 to $14,000 per person per year. And some of that's biologics. Biologics are super expensive. It's like $5,000 a shot. You do an injection and it kind of makes it go away. For the most part. Not exactly. It hurts. It's intramuscular. So there's a high interest in finding another path.",
+      "turn_index": 99
+    },
+    {
+      "speaker": "Cyan",
+      "text": "You mentioned in the beginning very quickly your background. You said you were the CTO of, a couple of big healthcare platforms.",
+      "turn_index": 100
+    },
+    {
+      "speaker": "Matt",
+      "text": "Yeah.",
+      "turn_index": 101
+    },
+    {
+      "speaker": "Cyan",
+      "text": "And I was just wondering if you could go into that in a little bit more.",
+      "turn_index": 102
+    },
+    {
+      "speaker": "Matt",
+      "text": "Sure. I'll try to do a super quick version.",
+      "turn_index": 103
+    },
+    {
+      "speaker": "Cyan",
+      "text": "Yeah.",
+      "turn_index": 104
+    },
+    {
+      "speaker": "Matt",
+      "text": "I've been at four VC-backed companies. The first one was pre-revenue. We grew to 25 million. after that I was at Patient Pop. I was, uh, in charge of engineering. They brought me on midway, around 30 million of ARR. We got it up to, I forgot, 70 in a couple years. That sold and merged for a billion dollars. And the two after that, I was at Cerebral and Parsley Health.",
+      "turn_index": 105
+    },
+    {
+      "speaker": "Monique",
+      "text": "And you were there as CTO or?",
+      "turn_index": 106
+    },
+    {
+      "speaker": "Matt",
+      "text": "The head of product engineering, data security. Yeah. One was VP, one was CTO, helped fundraise, talked to SoftBank, did the whole nine yards. , I think every company but one, raised progressive rounds while I was there, all the metrics improved. The one where I had the most fun was when I was pre-revenue. I mean,",
+      "turn_index": 107
+    },
+    {
+      "speaker": "Cyan",
+      "text": "That's always the most fun.",
+      "turn_index": 108
+    },
+    {
+      "speaker": "Matt",
+      "text": "And it was wild, you know",
+      "turn_index": 109
+    },
+    {
+      "speaker": "Immad",
+      "text": "No customers to think about.",
+      "turn_index": 110
+    },
+    {
+      "speaker": "Matt",
+      "text": "You say, it sounds like I have a lot, but what I'm doing is I'm market testing. Because I've learned from growing a business from 0 to 25 million. My first idea was actually a food scale. No one wants it. Even though I use it, no one wants it. And so the inhaler, people are using, they like it. They like finding their triggers. Now, are they gonna pay a subscription fee every single month? Probably not. But are the health plans interested in reducing cost in the system? Definitely what I'm trying to do is find a market wedge to revenue, but then long-term sustainability.",
+      "turn_index": 111
+    },
+    {
+      "speaker": "Cyan",
+      "text": "As a parent, I would be interested in getting alerts that my child used an inhaler.",
+      "turn_index": 112
+    },
+    {
+      "speaker": "Immad",
+      "text": "Hmm.",
+      "turn_index": 113
+    },
+    {
+      "speaker": "Matt",
+      "text": "Yeah.",
+      "turn_index": 114
+    },
+    {
+      "speaker": "Cyan",
+      "text": "Um",
+      "turn_index": 115
+    },
+    {
+      "speaker": "Matt",
+      "text": "We have that.",
+      "turn_index": 116
+    },
+    {
+      "speaker": "Cyan",
+      "text": "Yeah, that would be pretty great. I have an anaphylactic child.",
+      "turn_index": 117
+    },
+    {
+      "speaker": "Matt",
+      "text": "Oh, no.",
+      "turn_index": 118
+    },
+    {
+      "speaker": "Cyan",
+      "text": "Um, so I, am very close to this issue.",
+      "turn_index": 119
+    },
+    {
+      "speaker": "Matt",
+      "text": "I'm sorry to hear that.",
+      "turn_index": 120
+    },
+    {
+      "speaker": "Cyan",
+      "text": "And I've just noticed that there's really no, like, no one who owns allergies. Really, like",
+      "turn_index": 121
+    },
+    {
+      "speaker": "Matt",
+      "text": "There isn’t",
+      "turn_index": 122
+    },
+    {
+      "speaker": "Cyan",
+      "text": "Like with my child it's cashew allergies, pistachios, walnuts, pecans, peanuts, sesame seeds. A lot of those are cross reactive to other weird stuff. And we, we find this stuff out on accident, which is like, well we encountered a pink peppercorn and we didn't realize that that's cross reactive with cashews.",
+      "turn_index": 123
+    },
+    {
+      "speaker": "Matt",
+      "text": "Oh no. Yeah.",
+      "turn_index": 124
+    },
+    {
+      "speaker": "Cyan",
+      "text": "So I definitely would be a customer of this for sure. And I really like the bracelet idea because, they have to wear an emergency bracelet anyway.",
+      "turn_index": 125
+    },
+    {
+      "speaker": "Matt",
+      "text": "Mm-hmm. Mm-hmm.",
+      "turn_index": 126
+    },
+    {
+      "speaker": "Cyan",
+      "text": "To let them know that they have an EpiPen.",
+      "turn_index": 127
+    },
+    {
+      "speaker": "Matt",
+      "text": "That's one of the things we're gonna market as a free CAC sort of thing.",
+      "turn_index": 128
+    },
+    {
+      "speaker": "Cyan",
+      "text": "Yeah, I was about to say, if you market it as the emergency bracelet, and it just happens to be a smart one.",
+      "turn_index": 129
+    },
+    {
+      "speaker": "Matt",
+      "text": "Yep.",
+      "turn_index": 130
+    },
+    {
+      "speaker": "Cyan",
+      "text": "Like a lot of people haven't made smart emergency bracelets. So, that's pretty clever.",
+      "turn_index": 131
+    },
+    {
+      "speaker": "Matt",
+      "text": "That's what",
+      "turn_index": 132
+    },
+    {
+      "speaker": "Cyan",
+      "text": "Yeah. Very, very clever.",
+      "turn_index": 133
+    },
+    {
+      "speaker": "Rohit",
+      "text": "I gotta say, man, I, I like this. I like that you're just mad scientist just building all this stuff.",
+      "turn_index": 134
+    },
+    {
+      "speaker": "Cyan",
+      "text": "Yeah. Right.",
+      "turn_index": 135
+    },
+    {
+      "speaker": "Rohit",
+      "text": "Like I'm, I'm, I'm expecting one more like hardware thing.",
+      "turn_index": 136
+    },
+    {
+      "speaker": "Cyan",
+      "text": "Wait, there's more.",
+      "turn_index": 137
+    },
+    {
+      "speaker": "Charles",
+      "text": "How much are you raising?",
+      "turn_index": 138
+    },
+    {
+      "speaker": "Matt",
+      "text": "So we've raised like a SAFE note from Hustle Fund. I've spent probably around 50 to 60. And we're looking to raise a million dollars. Our funding that we’re looking for would be, I would say 95% focused on distribution, sales, not product development. We would hire go to market teams, people to get deals with payers and et cetera.",
+      "turn_index": 139
+    },
+    {
+      "speaker": "Rohit",
+      "text": "I was, gonna let the air outta the room, but, I dig this, but I'm, I'm conflicted out.",
+      "turn_index": 140
+    },
+    {
+      "speaker": "Matt",
+      "text": "Okay. Conflicted?",
+      "turn_index": 141
+    },
+    {
+      "speaker": "Rohit",
+      "text": "I have, I have another company that does AI diagnostics.",
+      "turn_index": 142
+    },
+    {
+      "speaker": "Matt",
+      "text": "Okay, no worries.",
+      "turn_index": 143
+    },
+    {
+      "speaker": "Monique",
+      "text": "Where does the $1 million get you? What are the milestones that you're trying to reach with the 1 million?",
+      "turn_index": 144
+    },
+    {
+      "speaker": "Matt",
+      "text": "So the main milestone would be distribution inside a major retailer And it would also be a completed and successful value-based care contract with a health system like Heritage Health Systems. That's in Kern County, where we could then scale to their other health systems and have line of sight into where those contracts would be, and deals negotiated and hopefully signed.",
+      "turn_index": 145
+    },
+    {
+      "speaker": "Monique",
+      "text": "Are those contracts already in pipeline?",
+      "turn_index": 146
+    },
+    {
+      "speaker": "Matt",
+      "text": "Which one? Which, Kern County?",
+      "turn_index": 147
+    },
+    {
+      "speaker": "Monique",
+      "text": "In Kern County.",
+      "turn_index": 148
+    },
+    {
+      "speaker": "Matt",
+      "text": "Yes. LA, Kern County in pipeline, close to home.",
+      "turn_index": 149
+    },
+    {
+      "speaker": "Cyan",
+      "text": "Was there, was there a cap on the Hustle Fund note by any chance?",
+      "turn_index": 150
+    },
+    {
+      "speaker": "Matt",
+      "text": "Yeah, it was 10",
+      "turn_index": 151
+    },
+    {
+      "speaker": "Matt",
+      "text": "10 million.",
+      "turn_index": 152
+    },
+    {
+      "speaker": "Cyan",
+      "text": "I'd like to put in a hundred K at that 10 cap if I can.",
+      "turn_index": 153
+    },
+    {
+      "speaker": "Matt",
+      "text": "Yeah?",
+      "turn_index": 154
+    },
+    {
+      "speaker": "Cyan",
+      "text": "With Hustle Fund.",
+      "turn_index": 155
+    },
+    {
+      "speaker": "Matt",
+      "text": "That would be great.",
+      "turn_index": 156
+    },
+    {
+      "speaker": "Cyan",
+      "text": "Awesome.",
+      "turn_index": 157
+    },
+    {
+      "speaker": "Matt",
+      "text": "Thank you.",
+      "turn_index": 158
+    },
+    {
+      "speaker": "Cyan",
+      "text": "Yeah, no, this is, uh, very near and dear to me. And, um, it's much needed and I've been struggling with this for a long time, for 12 years.",
+      "turn_index": 159
+    },
+    {
+      "speaker": "Matt",
+      "text": "12 years",
+      "turn_index": 160
+    },
+    {
+      "speaker": "Cyan",
+      "text": "And I know how hard it is and I know what's available out there. And so you could save a lot of lives.",
+      "turn_index": 161
+    },
+    {
+      "speaker": "Matt",
+      "text": "That is, thank you. That is my goal.",
+      "turn_index": 162
+    },
+    {
+      "speaker": "Immad",
+      "text": "I would like to invest as well",
+      "turn_index": 163
+    },
+    {
+      "speaker": "Monique",
+      "text": "How long have you been working on this by yourself?",
+      "turn_index": 164
+    },
+    {
+      "speaker": "Cyan",
+      "text": "Yes! Yes! Fantastic! I don't think he heard you.\nImmad is in… but Matt didn’t hear him! It’s a hard life, pitching 5 VCs at once. Immad invests, at some point, after the break.",
+      "turn_index": 165
+    },
+    {
+      "speaker": "Immad",
+      "text": "I would like to invest as well",
+      "turn_index": 166
+    },
+    {
+      "speaker": "Monique",
+      "text": "How long have you been working on this",
+      "turn_index": 167
+    },
+    {
+      "speaker": "Cyan",
+      "text": "Yes! Yes! Fantastic! I don't think he heard you.",
+      "turn_index": 168
+    },
+    {
+      "speaker": "Immad",
+      "text": "That's fine. He can keep going",
+      "turn_index": 169
+    },
+    {
+      "speaker": "Matt",
+      "text": "Um I think I first, let’s say seven, eight months.",
+      "turn_index": 170
+    },
+    {
+      "speaker": "Monique",
+      "text": "Okay.",
+      "turn_index": 171
+    },
+    {
+      "speaker": "Rohit",
+      "text": "Wow. Damn.",
+      "turn_index": 172
+    },
+    {
+      "speaker": "Matt",
+      "text": "And I've had, I've had people come… What is that? Good, or?",
+      "turn_index": 173
+    },
+    {
+      "speaker": "Rohit",
+      "text": "Wild, man. You did three devices in a few months.",
+      "turn_index": 174
+    },
+    {
+      "speaker": "Matt",
+      "text": "Yeah, I'm, I'm - I'm wild.",
+      "turn_index": 175
+    },
+    {
+      "speaker": "Rohit",
+      "text": "I can tell.",
+      "turn_index": 176
+    },
+    {
+      "speaker": "Matt",
+      "text": "And you know, I, yeah. Um at the end of the day, like Design is cheap now. Firmware is cheap. All the things that made hardware expensive. It's not there anymore. A thousand dollars iteration. This is our fourth iteration to finally get the components working. 4,000 bucks before half a million.",
+      "turn_index": 177
+    },
+    {
+      "speaker": "Immad",
+      "text": "Wow.",
+      "turn_index": 178
+    },
+    {
+      "speaker": "Matt",
+      "text": "So I think, what I see is the vision for AI is actually getting new data AI doesn't have today and bringing it forward so you can do novel things you never dreamed of. And so that's, that's like the core of our thesis. You can tell I'm really excited about it.",
+      "turn_index": 179
+    },
+    {
+      "speaker": "Cyan",
+      "text": "No, I, I, I love the passion.",
+      "turn_index": 180
+    },
+    {
+      "speaker": "Monique",
+      "text": "I invest in a, a fair amount of healthcare and, I'm always sensitive to point solutions. And I thought this had the potential to be a point solution, but as you've been talking about it, I do realize how broad it is.",
+      "turn_index": 181
+    },
+    {
+      "speaker": "Matt",
+      "text": "Yes",
+      "turn_index": 182
+    },
+    {
+      "speaker": "Monique",
+      "text": "And how big of a problem it is and how much I think payers will want to solve this. And so I’d like to invest 150k.",
+      "turn_index": 183
+    },
+    {
+      "speaker": "Matt",
+      "text": "That’s awesome, thank you so much",
+      "turn_index": 184
+    },
+    {
+      "speaker": "Monique",
+      "text": "Yeah.",
+      "turn_index": 185
+    },
+    {
+      "speaker": "Immad",
+      "text": "So anyway, what I was gonna say is-",
+      "turn_index": 186
+    },
+    {
+      "speaker": "Matt",
+      "text": "Thank you",
+      "turn_index": 187
+    },
+    {
+      "speaker": "Monique",
+      "text": "Absolutely",
+      "turn_index": 188
+    },
+    {
+      "speaker": "Immad",
+      "text": "I would love to invest 150k. I've done a few value-based kind of care investments. Nothing in allergy, but I think that's like the real solution to American's health problem. Like we need to do value based pricing.",
+      "turn_index": 189
+    },
+    {
+      "speaker": "Matt",
+      "text": "Me too.",
+      "turn_index": 190
+    },
+    {
+      "speaker": "Immad",
+      "text": "My wife's brother died from an asthma attack when he was three.",
+      "turn_index": 191
+    },
+    {
+      "speaker": "Matt",
+      "text": "Oh my God. Jeez",
+      "turn_index": 192
+    },
+    {
+      "speaker": "Immad",
+      "text": "And my wife has asthma, so she's always like super paranoid about it and most of the time it's nothing. And she's just got this like, anxiety around it, obviously. so even when there isn't an issue, just having all that data available to her, uh, would be kind of a powerful-",
+      "turn_index": 193
+    },
+    {
+      "speaker": "Matt",
+      "text": "l, I wanna show you something. I really appreciate that. I, I, I, didn't have time to share this with you. Um",
+      "turn_index": 194
+    },
+    {
+      "speaker": "Rohit",
+      "text": "Here comes another device.",
+      "turn_index": 195
+    },
+    {
+      "speaker": "Matt",
+      "text": "No, no. I just have a separate account that's an asthma account.",
+      "turn_index": 196
+    },
+    {
+      "speaker": "Immad",
+      "text": "Yeah",
+      "turn_index": 197
+    },
+    {
+      "speaker": "Matt",
+      "text": "Because I shared the food allergy one. and so we've used the device here just today. and you can see, it's identified and shows you your triggers and it gets the environmental data for the day. And, and so I'm sorry that that happened to, to your wife and her family, but maybe something like this could help.",
+      "turn_index": 198
+    },
+    {
+      "speaker": "Charles",
+      "text": "That's cool.",
+      "turn_index": 199
+    },
+    {
+      "speaker": "Monique",
+      "text": "Yeah.",
+      "turn_index": 200
+    },
+    {
+      "speaker": "Immad",
+      "text": "Yeah. That’s good. I would say, uh, just as a piece of feedback.",
+      "turn_index": 201
+    },
+    {
+      "speaker": "Matt",
+      "text": "Okay.",
+      "turn_index": 202
+    },
+    {
+      "speaker": "Immad",
+      "text": "I feel like you could do with some help around your pitch. I think there's a way to make it like a little tighter and a little bit more like. Bang, bang, bang.",
+      "turn_index": 203
+    },
+    {
+      "speaker": "Cyan",
+      "text": "Like bam.",
+      "turn_index": 204
+    },
+    {
+      "speaker": "Immad",
+      "text": "Yeah. I think there's a bam, bam version of it, but I feel like we're kind of benefiting from having a cheaper valuation because your pitch isn't quite there yet, but once it is, that's easy 2x",
+      "turn_index": 205
+    },
+    {
+      "speaker": "Matt",
+      "text": "Honestly, it was, yeah. I appreciate it. So you think 10 is too low?",
+      "turn_index": 206
+    },
+    {
+      "speaker": "Immad",
+      "text": "No, I think it's great. Tomorrow. Tomorrow it's too low.",
+      "turn_index": 207
+    },
+    {
+      "speaker": "Cyan",
+      "text": "It’s fantastic.",
+      "turn_index": 208
+    },
+    {
+      "speaker": "Immad",
+      "text": "Right now it's just right.",
+      "turn_index": 209
+    },
+    {
+      "speaker": "Matt",
+      "text": "Yeah. Okay.",
+      "turn_index": 210
+    },
+    {
+      "speaker": "Charles",
+      "text": "I'd also like to write a small check. We did something in, allergy a long time ago that was like a, it was a food allergy. It was a physical device, and it was like, too hard. And I think sometimes you just have to wait for the technology stuff. but yeah.",
+      "turn_index": 211
+    },
+    {
+      "speaker": "Matt",
+      "text": "Okay. Well, I appreciate it.",
+      "turn_index": 212
+    },
+    {
+      "speaker": "Charles",
+      "text": "Mm-hmm.",
+      "turn_index": 213
+    },
+    {
+      "speaker": "Matt",
+      "text": "Thank you. Wow. That's amazing.",
+      "turn_index": 214
+    },
+    {
+      "speaker": "Rohit",
+      "text": "Getting real FOMO here, guys.",
+      "turn_index": 215
+    },
+    {
+      "speaker": "Cyan",
+      "text": "We got 400K or was it?",
+      "turn_index": 216
+    },
+    {
+      "speaker": "Charles",
+      "text": "Oh, for me?",
+      "turn_index": 217
+    },
+    {
+      "speaker": "Cyan",
+      "text": "Are you in?",
+      "turn_index": 218
+    },
+    {
+      "speaker": "Charles",
+      "text": "I didn't give a number. Yeah. I'd like to do 50,000.",
+      "turn_index": 219
+    },
+    {
+      "speaker": "Cyan",
+      "text": "Okay.",
+      "turn_index": 220
+    },
+    {
+      "speaker": "Matt",
+      "text": "Okay. Very cool.",
+      "turn_index": 221
+    },
+    {
+      "speaker": "Cyan",
+      "text": "450K. Nice. Not bad. Yeah.",
+      "turn_index": 222
+    },
+    {
+      "speaker": "Matt",
+      "text": "That's not bad for, for a day's work.",
+      "turn_index": 223
+    },
+    {
+      "speaker": "Cyan",
+      "text": "Right?",
+      "turn_index": 224
+    },
+    {
+      "speaker": "Rohit",
+      "text": "Where in LA are you?",
+      "turn_index": 225
+    },
+    {
+      "speaker": "Matt",
+      "text": "I'm based in Marina Del Rey.",
+      "turn_index": 226
+    },
+    {
+      "speaker": "Rohit",
+      "text": "Oh yeah yeah yeah. Nice.",
+      "turn_index": 227
+    },
+    {
+      "speaker": "Immad",
+      "text": "Are you a surfer?",
+      "turn_index": 228
+    },
+    {
+      "speaker": "Matt",
+      "text": "Uh, no, but I come from a family of surfers. I did grow up in Orange County, uh, I'm a nerd.",
+      "turn_index": 229
+    },
+    {
+      "speaker": "Rohit",
+      "text": "Nerds can surf too, man",
+      "turn_index": 230
+    },
+    {
+      "speaker": "Matt",
+      "text": "I build, I build these things that millions of people will use one day. It's just my thing. I'm just, I'm just kidding. I really appreciate the time.",
+      "turn_index": 231
+    },
+    {
+      "speaker": "Charles",
+      "text": "Thank you.",
+      "turn_index": 232
+    },
+    {
+      "speaker": "Monique",
+      "text": "Thank you.",
+      "turn_index": 233
+    },
+    {
+      "speaker": "Matt",
+      "text": "It's good meeting you all and-",
+      "turn_index": 234
+    },
+    {
+      "speaker": "Cyan",
+      "text": "Good to meet you.\n[applause]",
+      "turn_index": 235
+    },
+    {
+      "speaker": "Josh",
+      "text": "Well, that was wild.",
+      "turn_index": 236
+    },
+    {
+      "speaker": "Monique",
+      "text": "All in.",
+      "turn_index": 237
+    },
+    {
+      "speaker": "Josh",
+      "text": "All in",
+      "turn_index": 238
+    },
+    {
+      "speaker": "Monique",
+      "text": "Yeah.",
+      "turn_index": 239
+    },
+    {
+      "speaker": "Cyan",
+      "text": "So he's half raised at this point.",
+      "turn_index": 240
+    },
+    {
+      "speaker": "Immad",
+      "text": "Yeah.",
+      "turn_index": 241
+    },
+    {
+      "speaker": "Cyan",
+      "text": "Not bad.",
+      "turn_index": 242
+    },
+    {
+      "speaker": "Josh",
+      "text": "Not bad.",
+      "turn_index": 243
+    },
+    {
+      "speaker": "Cyan",
+      "text": "Not bad at all.",
+      "turn_index": 244
+    },
+    {
+      "speaker": "Josh",
+      "text": "Gosh, what a good day. I just wanna bask in this moment. I'm curious, Immad, like you wanted more of a bang, bang pitch. What's the bang, bang pitch you would've wanted to hear?",
+      "turn_index": 245
+    },
+    {
+      "speaker": "Immad",
+      "text": "I mean, the story was really like, compelling. I just feel like there's like these entrepreneurs that come up and they just have this like such a tight business that like, you know, we are gonna do value-based care and these are the places we'll do it. This is how much money this will make us. And dot, dot, dot.",
+      "turn_index": 246
+    },
+    {
+      "speaker": "Josh",
+      "text": "Yeah.",
+      "turn_index": 247
+    },
+    {
+      "speaker": "Immad",
+      "text": "Whereas he was much more of this kinda interesting inventor kind of vibe.",
+      "turn_index": 248
+    },
+    {
+      "speaker": "Josh",
+      "text": "Sure",
+      "turn_index": 249
+    },
+    {
+      "speaker": "Immad",
+      "text": "It's like, I made this and I made this and isn't this cool? And like that's cool.",
+      "turn_index": 250
+    },
+    {
+      "speaker": "Josh",
+      "text": "Yeah.",
+      "turn_index": 251
+    },
+    {
+      "speaker": "Immad",
+      "text": "but it didn't like, necessarily paint me a vision for like, this is a $10 billion company. Like I had to do a lot of work myself to do that. Whereas I think he could have painted that a lot better.",
+      "turn_index": 252
+    },
+    {
+      "speaker": "Monique",
+      "text": "We really had to tease out",
+      "turn_index": 253
+    },
+    {
+      "speaker": "Immad",
+      "text": "Yeah.",
+      "turn_index": 254
+    },
+    {
+      "speaker": "Monique",
+      "text": "The information from him. I mean, if I had his background, I would lead with that. Right.",
+      "turn_index": 255
+    },
+    {
+      "speaker": "Rohit",
+      "text": "Yeah.",
+      "turn_index": 256
+    },
+    {
+      "speaker": "Monique",
+      "text": "You know, I was at this health tech company and this health tech company and we were all VC backed and we raised from Softbank. Like unfortunately having those kind of bonafides does, you know, it makes the path a lot.",
+      "turn_index": 257
+    },
+    {
+      "speaker": "Immad",
+      "text": "If he was like, I raised $400 million a lot and sold one company for a billion dollars, like, it took so long to get there. Yeah.",
+      "turn_index": 258
+    },
+    {
+      "speaker": "Josh",
+      "text": "I dunno. I kind of see it differently. Maybe it's 'cause I'm a storyteller, but I almost like it when you tease that stuff out and you're like, oh, it gets better. It gets even better.",
+      "turn_index": 259
+    },
+    {
+      "speaker": "Monique",
+      "text": "Yeah.",
+      "turn_index": 260
+    },
+    {
+      "speaker": "Josh",
+      "text": "And I understand that there's, that can backfire and you could get confused about the business. Maybe like previous-",
+      "turn_index": 261
+    },
+    {
+      "speaker": "Cyan",
+      "text": "Yeah. He runs the risk of it being so confusing and looking like a spork.",
+      "turn_index": 262
+    },
+    {
+      "speaker": "Josh",
+      "text": "Sure.",
+      "turn_index": 263
+    },
+    {
+      "speaker": "Cyan",
+      "text": "So like, you have to be careful with that.",
+      "turn_index": 264
+    },
+    {
+      "speaker": "Josh",
+      "text": "Yeah.",
+      "turn_index": 265
+    },
+    {
+      "speaker": "Cyan",
+      "text": "It's a fine line.",
+      "turn_index": 266
+    },
+    {
+      "speaker": "Monique",
+      "text": "I also think there's a way to sort of refine the edges of what he's doing. I mean, I think the multiple devices that he's sort of working on is interesting and great, but I also think that a lot of VCs who are not in this room, when he pitches them, they'll be like, you know, that’s too many things.",
+      "turn_index": 267
+    },
+    {
+      "speaker": "Charles",
+      "text": "Too many things. Yeah.",
+      "turn_index": 268
+    },
+    {
+      "speaker": "Monique",
+      "text": "Right. And so I think there's a way to like smooth out those edges and make it a little bit more palatable for a lot more people.",
+      "turn_index": 269
+    },
+    {
+      "speaker": "Immad",
+      "text": "I think if he was like, hey, we are building the complete platform for allergy",
+      "turn_index": 270
+    },
+    {
+      "speaker": "Charles",
+      "text": "And you need all these things",
+      "turn_index": 271
+    },
+    {
+      "speaker": "Immad",
+      "text": "Uh, and you need all of them. And this is harder to build, but at the end of it, we have this like unassailable moat.",
+      "turn_index": 272
+    },
+    {
+      "speaker": "Cyan",
+      "text": "Yeah.",
+      "turn_index": 273
+    },
+    {
+      "speaker": "Immad",
+      "text": "Like if he just leaned all the way in, that would be something.",
+      "turn_index": 274
+    },
+    {
+      "speaker": "Josh",
+      "text": "Yeah. But he pitched the, like diagnostics care platform.",
+      "turn_index": 275
+    },
+    {
+      "speaker": "Immad",
+      "text": "It was too like, oh, I'm trying this out and I'm trying this out. It's, it felt too much like we are just trying a bunch of things.",
+      "turn_index": 276
+    },
+    {
+      "speaker": "Josh",
+      "text": "Yeah. Yeah. The pitch I thought it was, and I thought he was going to say up front would've been, we're reinventing the allergy clinic from the ground up, using devices.",
+      "turn_index": 277
+    },
+    {
+      "speaker": "Cyan",
+      "text": "There you go.",
+      "turn_index": 278
+    },
+    {
+      "speaker": "Monique",
+      "text": "Yeah, that's it.",
+      "turn_index": 279
+    },
+    {
+      "speaker": "Cyan",
+      "text": "There you go.",
+      "turn_index": 280
+    },
+    {
+      "speaker": "Charles",
+      "text": "That works.",
+      "turn_index": 281
+    },
+    {
+      "speaker": "Cyan",
+      "text": "And he is right, like it's so hard to get an allergy appointment. It's ridiculous.",
+      "turn_index": 282
+    },
+    {
+      "speaker": "Immad",
+      "text": "Oh, really?",
+      "turn_index": 283
+    },
+    {
+      "speaker": "Cyan",
+      "text": "Yeah. It sucks. And then again, like he said, they'll give you like 20 pricks when you only need one. Or two. And we don't know what that does to the body to expose your body to those proteins.",
+      "turn_index": 284
+    },
+    {
+      "speaker": "Rohit",
+      "text": "Oh, wow.",
+      "turn_index": 285
+    },
+    {
+      "speaker": "Cyan",
+      "text": "So you're potentially priming an immune response.",
+      "turn_index": 286
+    },
+    {
+      "speaker": "Josh",
+      "text": "Hmm.",
+      "turn_index": 287
+    },
+    {
+      "speaker": "Immad",
+      "text": "Hmm",
+      "turn_index": 288
+    },
+    {
+      "speaker": "Cyan",
+      "text": "And, and there's lots of things that are problematic about it. So I like that he's going towards, just test for the one thing that matters.",
+      "turn_index": 289
+    },
+    {
+      "speaker": "Charles",
+      "text": "Yeah.",
+      "turn_index": 290
+    },
+    {
+      "speaker": "Cyan",
+      "text": "You know, 'cause uh, we over test, which could be exacerbating these allergies.",
+      "turn_index": 291
+    },
+    {
+      "speaker": "Monique",
+      "text": "Yeah.",
+      "turn_index": 292
+    },
+    {
+      "speaker": "Cyan",
+      "text": "The other thing is just finding the information, like if you have a specific allergy. Like, what should you avoid? What restaurant should you go to? What labels should you look for? How do you even read the labels? Like it's really tough. 'cause we have to read every single label of every single packaged food item.",
+      "turn_index": 293
+    },
+    {
+      "speaker": "Josh",
+      "text": "Yeah.",
+      "turn_index": 294
+    },
+    {
+      "speaker": "Cyan",
+      "text": "You know, we can't, it's difficult to travel, everything's difficult. It's just like life on hard mode when you have a child like this.",
+      "turn_index": 295
+    },
+    {
+      "speaker": "Josh",
+      "text": "I'm curious like how much of having felt this personally is what gave you the conviction to invest?",
+      "turn_index": 296
+    },
+    {
+      "speaker": "Cyan",
+      "text": "Oh, for sure. For sure. Also, he just, I like him and I like his mad science sort of demeanor. But also I just haven't seen a lot of pitches other than the food allergy testing companies in this space doing anything innovative because it's mostly overlooked. And it does take someone like him who had an experience where he almost lost his child, potentially having anaphylaxis to actually take it seriously. And just having like that device where an inhaler, just knowing and getting alert on my watch that the inhaler was deployed allows me to go to school and be more proactive and be there. Because if you're relying on the school to tell you, good luck. I'm just stoked about it.",
+      "turn_index": 297
+    },
+    {
+      "speaker": "Josh",
+      "text": "Yeah.",
+      "turn_index": 298
+    },
+    {
+      "speaker": "Cyan",
+      "text": "Like if someone's taking, someone of his caliber is taking this seriously, is great, and the price is amazing.",
+      "turn_index": 299
+    },
+    {
+      "speaker": "Monique",
+      "text": "Mm-hmm.",
+      "turn_index": 300
+    },
+    {
+      "speaker": "Cyan",
+      "text": "And, um, it's just so differentiated from most of the companies that I'm seeing right now.",
+      "turn_index": 301
+    },
+    {
+      "speaker": "Josh",
+      "text": "Yeah. It almost seems like it shouldn't be this price.",
+      "turn_index": 302
+    },
+    {
+      "speaker": "Cyan",
+      "text": "Don't tell him that.",
+      "turn_index": 303
+    },
+    {
+      "speaker": "Josh",
+      "text": "Yeah. Right.",
+      "turn_index": 304
+    },
+    {
+      "speaker": "Cyan",
+      "text": "Is he listening?",
+      "turn_index": 305
+    },
+    {
+      "speaker": "Charles",
+      "text": "I think it's reasonable.",
+      "turn_index": 306
+    },
+    {
+      "speaker": "Cyan",
+      "text": "No, it's totally reasonable, especially at this stage, with this many sort of moving parts and no clear sort of cohesion yet.",
+      "turn_index": 307
+    },
+    {
+      "speaker": "Josh",
+      "text": "Yeah.",
+      "turn_index": 308
+    },
+    {
+      "speaker": "Cyan",
+      "text": "I think it's, it's appropriately priced.",
+      "turn_index": 309
+    },
+    {
+      "speaker": "Immad",
+      "text": "I think with one day of coaching, this would be a 20 million valuation, probably.",
+      "turn_index": 310
+    },
+    {
+      "speaker": "Charles",
+      "text": "If Immad did, if Immad did the pitch it would be 20 million",
+      "turn_index": 311
+    },
+    {
+      "speaker": "Immad",
+      "text": "Yeah, I think so.",
+      "turn_index": 312
+    },
+    {
+      "speaker": "Cyan",
+      "text": "it's good that you're on the cap table.",
+      "turn_index": 313
+    },
+    {
+      "speaker": "Josh",
+      "text": "I was gonna say, I want to, I want to record this pitch coaching.",
+      "turn_index": 314
+    },
+    {
+      "speaker": "Charles",
+      "text": "He's like, he’s like top half a percent fundraiser. You know this, I'm being serious. You know this, right?",
+      "turn_index": 315
+    },
+    {
+      "speaker": "Josh",
+      "text": "I didn't know that they, like, had a leaderboard for top fundraising.",
+      "turn_index": 316
+    },
+    {
+      "speaker": "Charles",
+      "text": "No, he, he's an incredible fundraiser for, for Mercury and for his portfolio companies too.",
+      "turn_index": 317
+    },
+    {
+      "speaker": "Josh",
+      "text": "Yeah.",
+      "turn_index": 318
+    },
+    {
+      "speaker": "Charles",
+      "text": "Yeah.",
+      "turn_index": 319
+    },
+    {
+      "speaker": "Josh",
+      "text": "I mean, no, I didn't. I didn't.",
+      "turn_index": 320
+    },
+    {
+      "speaker": "Immad",
+      "text": "Thank you Charles.",
+      "turn_index": 321
+    },
+    {
+      "speaker": "Josh",
+      "text": "I didn’t know that.",
+      "turn_index": 322
+    },
+    {
+      "speaker": "Immad",
+      "text": "Did I persuade you to invest in Mercury?",
+      "turn_index": 323
+    },
+    {
+      "speaker": "Charles",
+      "text": "No. You told me the price and I was like, that's crazy. And you got it anyway, so I was the dumb one. I was the dumb one who didn't, I was the dumb one who didn't do it. So",
+      "turn_index": 324
+    },
+    {
+      "speaker": "Josh",
+      "text": "What round was this?",
+      "turn_index": 325
+    },
+    {
+      "speaker": "Immad",
+      "text": "The seed round, I think.",
+      "turn_index": 326
+    },
+    {
+      "speaker": "Charles",
+      "text": "The seed round. Yeah.",
+      "turn_index": 327
+    },
+    {
+      "speaker": "Immad",
+      "text": "It was a 20 million valuation and all I had was a deck.",
+      "turn_index": 328
+    },
+    {
+      "speaker": "Monique",
+      "text": "Oh",
+      "turn_index": 329
+    },
+    {
+      "speaker": "Charles",
+      "text": "Yeah. For a brand new bank.",
+      "turn_index": 330
+    },
+    {
+      "speaker": "Immad",
+      "text": "And this was 2017",
+      "turn_index": 331
+    },
+    {
+      "speaker": "Charles",
+      "text": "Yeah.",
+      "turn_index": 332
+    },
+    {
+      "speaker": "Immad",
+      "text": "But it was my 4th company",
+      "turn_index": 333
+    },
+    {
+      "speaker": "Charles",
+      "text": "And I have like probably 20 Mercury accounts at Precursor, so I really should have invested, but such is life.",
+      "turn_index": 334
+    },
+    {
+      "speaker": "Josh",
+      "text": "Wow.",
+      "turn_index": 335
+    },
+    {
+      "speaker": "Monique",
+      "text": "Maybe you should do a VC pitch coaching session",
+      "turn_index": 336
+    },
+    {
+      "speaker": "Charles",
+      "text": "How not to be a dummy.",
+      "turn_index": 337
+    },
+    {
+      "speaker": "Josh",
+      "text": "That's great. Reset the room. One more pitch.",
+      "turn_index": 338
+    },
+    {
+      "speaker": "Cyan",
+      "text": "All right.\nMatt walked out of The Pitch room with a 50k commitment from Charles, a 100k commitment from Cyan, and matching 150k commitments from Immad and Monique.\nBut there’s still one more piece of this business they don’t know about yet. After the break… Matt pulls yet another thing out of his pocket.\nBREAK\nWelcome back. Two weeks after The Pitch, Monique and Matt hopped on a diligence call.",
+      "turn_index": 339
+    },
+    {
+      "speaker": "Monique",
+      "text": "Matt, it's good to see you again. How are things going?",
+      "turn_index": 340
+    },
+    {
+      "speaker": "Matt",
+      "text": "Going great.",
+      "turn_index": 341
+    },
+    {
+      "speaker": "Monique",
+      "text": "Thanks for the note that you sent in advance about all of the new things that have been happening with Above Health. I think there are a few things I want to click into. Tell me a little bit about the product rollout and like the sequencing of things, because you do have a lot of moving parts.",
+      "turn_index": 342
+    },
+    {
+      "speaker": "Matt",
+      "text": "Yeah, so we launched ability to create your own custom lab panel. it's like a way to get started with us is, is a potential go-to market strategy. So then we're launching our smart inhaler in order to get buy-in from the payers in order to do a value-based care deal. We're using devices as our sort of moat, but also a way to offer effective specialist care. So now you can trust maybe a nurse practitioner with remote supervision for patients that have a smart inhaler.",
+      "turn_index": 343
+    },
+    {
+      "speaker": "Matt",
+      "text": "So this third launch is telehealth and the fourth is actually a clinic with thousands of patients in LA that we're taking over as a springboard, to then finish our deal with LA County of Public Health, as well as a few other counties in California. We do need a physical presence to do that.",
+      "turn_index": 344
+    },
+    {
+      "speaker": "Monique",
+      "text": "So I would love to dig into that a little bit. I absolutely understand and agree with the need for telehealth, but I'm, I am a little wary of the physical location aspect of the business. First to help me understand the why, why do you have to buy a clinic? That feels like an expensive undertaking and one that is hard to replicate in other markets.",
+      "turn_index": 345
+    },
+    {
+      "speaker": "Matt",
+      "text": "Oh, interesting.",
+      "turn_index": 346
+    },
+    {
+      "speaker": "Monique",
+      "text": "Um. Or tell me that I'm wrong. That's fine too.",
+      "turn_index": 347
+    },
+    {
+      "speaker": "Matt",
+      "text": "$0.",
+      "turn_index": 348
+    },
+    {
+      "speaker": "Monique",
+      "text": "Okay.",
+      "turn_index": 349
+    },
+    {
+      "speaker": "Matt",
+      "text": "Just equity. That's a retiring allergist. They have existing patients. LA County would not do a deal with us unless we have a physical presence.",
+      "turn_index": 350
+    },
+    {
+      "speaker": "Monique",
+      "text": "Why not?",
+      "turn_index": 351
+    },
+    {
+      "speaker": "Matt",
+      "text": "Because their medical team says the conditions can't be treated online. That's what we're trying to prove. What we're trying to do is bridge that gap. Now, this will take a while to convince the payers that we can offer as effective care online as we are in person, but we can only prove that by having both.",
+      "turn_index": 352
+    },
+    {
+      "speaker": "Monique",
+      "text": "Got it. I know that you have a lot of healthcare startup experience in your background. Does any of that experience include physical location strategy the way that it does in this company?",
+      "turn_index": 353
+    },
+    {
+      "speaker": "Matt",
+      "text": "Yeah. My last company.",
+      "turn_index": 354
+    },
+    {
+      "speaker": "Monique",
+      "text": "Okay.",
+      "turn_index": 355
+    },
+    {
+      "speaker": "Matt",
+      "text": "Uh, Parsley Health. I really liked the hybrid approach Parsley had. The data shows retention is way higher, like significantly higher. CAC to LTV is actually profitable. I think-",
+      "turn_index": 356
+    },
+    {
+      "speaker": "Monique",
+      "text": "Well there is, there is a CapEx conundrum when you have physical locations. Right. And I almost think when you bring in sort of a high CapEx strategy, like physical location and real estate, you start moving yourself into a zone where private equity becomes a much better type of capital for that company because they have different expectations versus a VC who is looking for a software business that delivers software margins that scales at the speed of software.",
+      "turn_index": 357
+    },
+    {
+      "speaker": "Matt",
+      "text": "I actually think you’ve described the issue with the market.",
+      "turn_index": 358
+    },
+    {
+      "speaker": "Monique",
+      "text": "Yeah.",
+      "turn_index": 359
+    },
+    {
+      "speaker": "Matt",
+      "text": "In allergy. Because what's happened is about 70% of allergists have been rolled up by private equity. So what's happening is a lot of allergists are doing wide panel testing. 50% are false positive. So they're having patients come in and get shots that they can then upcharge the medication like, so the pharmacy sells them like a hundred dollars. They sell for 200 not allowed in other specialties. And so they upcharge these shots on people that don't need them. And part of the reason this happens is 'cause the way the financial system's built from an investment perspective. So you're right. I think if our long-term play was. A hundred percent brick and mortar. One, we wouldn't reach everyone. But two, it'd be too expensive. And frankly, the, the business I want to create is an at-home care diagnostics company.",
+      "turn_index": 360
+    },
+    {
+      "speaker": "Monique",
+      "text": "Got it. So I think next steps for me, I would love to see the financial model. I'll be really candid that I have a really hard time with physical location. I've looked at other healthcare companies that have a physical location component, and I've also been burned by physical location companies in the past. So that's the thing that I'll be kind of trying to dig into in the next stage of diligence.",
+      "turn_index": 361
+    },
+    {
+      "speaker": "Matt",
+      "text": "Cool. And yeah, you know if it doesn't work out, that's totally fine. A lot of VCs have said the same thing to me. As soon as they hear brick and mortar, they just walk away. I think that's why healthcare hasn't changed, because then you only get private equity and you're stuck in the same flywheel. That’s where-",
+      "turn_index": 362
+    },
+    {
+      "speaker": "Monique",
+      "text": "Right. yeah, I mean, I think this is in some ways it's a healthcare moonshot.",
+      "turn_index": 363
+    },
+    {
+      "speaker": "Matt",
+      "text": "Yeah, it's a moonshot, I’d tell you that. Yeah.",
+      "turn_index": 364
+    },
+    {
+      "speaker": "Monique",
+      "text": "[laughter]\nEwwww physical locations AND hardware? We already thought this business had a lot going on. And that is without buying an allergist. This could totally derail the deal.\nMonique went to do some more diligence of her own. Meanwhile, Matt and Charles got on a call.",
+      "turn_index": 365
+    },
+    {
+      "speaker": "Matt",
+      "text": "Hey Charles.",
+      "turn_index": 366
+    },
+    {
+      "speaker": "Charles",
+      "text": "Matt, how are you",
+      "turn_index": 367
+    },
+    {
+      "speaker": "Matt",
+      "text": "Doing great. How are you?",
+      "turn_index": 368
+    },
+    {
+      "speaker": "Charles",
+      "text": "Cannot complain. Cannot complain. I just, first off, wanna say thanks for making some time, but also wanted to talk a little bit more about what you think the next 12 months of the company looks like. What's the minimum number of the minimum, like min-max for like with capital? Like what could be achieved?",
+      "turn_index": 369
+    },
+    {
+      "speaker": "Matt",
+      "text": "The min max… I mean the min for all startups… Is zero.",
+      "turn_index": 370
+    },
+    {
+      "speaker": "Charles",
+      "text": "Death!",
+      "turn_index": 371
+    },
+    {
+      "speaker": "Matt",
+      "text": "Yeah. The max would be a value based care contract in Kern County.",
+      "turn_index": 372
+    },
+    {
+      "speaker": "Charles",
+      "text": "Mm-hmm.",
+      "turn_index": 373
+    },
+    {
+      "speaker": "Matt",
+      "text": "That is starting to be paid out.",
+      "turn_index": 374
+    },
+    {
+      "speaker": "Charles",
+      "text": "Okay.",
+      "turn_index": 375
+    },
+    {
+      "speaker": "Matt",
+      "text": "In terms of revenue, probably at the multimillions, we'd have proven out the model with or without devices. That's what I believe is the max is that we would have shown.",
+      "turn_index": 376
+    },
+    {
+      "speaker": "Charles",
+      "text": "Can you tell me more about your thought of just the evolution of the team? I'm also just curious, like culturally, like what are you looking for?",
+      "turn_index": 377
+    },
+    {
+      "speaker": "Matt",
+      "text": "Wow. No VCs ever asked me that. I, I want people who want to do good in the world. I don't know if that's what you're talking about.",
+      "turn_index": 378
+    },
+    {
+      "speaker": "Charles",
+      "text": "That's important.",
+      "turn_index": 379
+    },
+    {
+      "speaker": "Matt",
+      "text": "I'm on this mission to not charge a concierge fee.",
+      "turn_index": 380
+    },
+    {
+      "speaker": "Matt",
+      "text": "Okay.",
+      "turn_index": 381
+    },
+    {
+      "speaker": "Matt",
+      "text": "I don't know, this is like shut a lot of doors already on the investment side, but I, I want people who want to go out there and really help people and like believe that we can change things for the better and not have to worry about stomping on what's there, but just say, Hey, we offer something new and something better. And I, I wanna build a place that where people have kids. What I've seen at some telehealth companies is, it's not exactly set that way.",
+      "turn_index": 382
+    },
+    {
+      "speaker": "Charles",
+      "text": "No.",
+      "turn_index": 383
+    },
+    {
+      "speaker": "Matt",
+      "text": "And it's really challenging to pull it back because you feel like you're taking something from people. So that's important for me is flexible working hours, but also meeting where demand the business is as well.",
+      "turn_index": 384
+    },
+    {
+      "speaker": "Charles",
+      "text": "Yeah, I mean, I think on my end, we have like a little DD form I'll send you that starts to process on our end.",
+      "turn_index": 385
+    },
+    {
+      "speaker": "Matt",
+      "text": "Okay,",
+      "turn_index": 386
+    },
+    {
+      "speaker": "Charles",
+      "text": "cool.",
+      "turn_index": 387
+    },
+    {
+      "speaker": "Matt",
+      "text": "Very cool.",
+      "turn_index": 388
+    },
+    {
+      "speaker": "Charles",
+      "text": "Awesome. That's all I had for you today. I dunno if you had anything for me.",
+      "turn_index": 389
+    },
+    {
+      "speaker": "Matt",
+      "text": "The one thing would be I, before the, the pitch I looked up the different people I would be meeting and I was very excited about meeting yourself. Especially being in hardware. Not many people have invested in hardware, so I was curious like your raw feedback actually cause I don't, I don't really get much on the hardware side.",
+      "turn_index": 390
+    },
+    {
+      "speaker": "Charles",
+      "text": "Yeah. Look, I think hardware, not to use the old VC axiom. I do think hardware's hard, but I think everything is hard. And my takeaway is there are different degrees of hard, so we have Navier, which is like an electric autonomous boat company. That's pretty complicated. But ironically, that business works because of a lot of other investments that people have made in electronic drive trains and autonomous stuff. So it's a very hard technical challenge, but all of the primitives exist.",
+      "turn_index": 391
+    },
+    {
+      "speaker": "Matt",
+      "text": "Yeah.",
+      "turn_index": 392
+    },
+    {
+      "speaker": "Charles",
+      "text": "And we've had other companies where they've had to invent quite a few things or the technology wasn't quite ready. Those have been harder companies to make work. And I think based on what you showed us on the show, I was like, those products can be manufactured and built with limited technical risk. Versus some of the other things we've done where I would say like the technical risk is like, we're not even sure if companies… if the thing the person told me about can be built or the cost to find out is 25 million bucks.",
+      "turn_index": 393
+    },
+    {
+      "speaker": "Matt",
+      "text": "Okay. Okay. That's fair. I appreciate that.",
+      "turn_index": 394
+    },
+    {
+      "speaker": "Charles",
+      "text": "Yeah.",
+      "turn_index": 395
+    },
+    {
+      "speaker": "Matt",
+      "text": "Yeah. Cool Charles.",
+      "turn_index": 396
+    },
+    {
+      "speaker": "Charles",
+      "text": "Mm-hmm. Cool. Alright. Good to see you.",
+      "turn_index": 397
+    },
+    {
+      "speaker": "Josh",
+      "text": "So Charles sounds interested.",
+      "turn_index": 398
+    },
+    {
+      "speaker": "Lisa",
+      "text": "Yes, he does.",
+      "turn_index": 399
+    },
+    {
+      "speaker": "Josh",
+      "text": "Like he's not concerned about the hardware piece.",
+      "turn_index": 400
+    },
+    {
+      "speaker": "Lisa",
+      "text": "Yeah. I actually like his feedback on hardware.",
+      "turn_index": 401
+    },
+    {
+      "speaker": "Josh",
+      "text": "But we don't know how he feels about the in-person clinics.",
+      "turn_index": 402
+    },
+    {
+      "speaker": "Lisa",
+      "text": "That is very scary. Physical locations are always scary",
+      "turn_index": 403
+    },
+    {
+      "speaker": "Josh",
+      "text": "All those bricks.",
+      "turn_index": 404
+    },
+    {
+      "speaker": "Lisa",
+      "text": "But. I feel like Matt is a founder who is playing 4D chess right now and he knows what he's doing.",
+      "turn_index": 405
+    },
+    {
+      "speaker": "Josh",
+      "text": "Yeah.",
+      "turn_index": 406
+    },
+    {
+      "speaker": "Lisa",
+      "text": "And we just have to trust him.",
+      "turn_index": 407
+    },
+    {
+      "speaker": "Josh",
+      "text": "He certainly comes off like he has this master plan for sure. I do think like, if he's building a national chain of allergy clinics",
+      "turn_index": 408
+    },
+    {
+      "speaker": "Lisa",
+      "text": "oh!",
+      "turn_index": 409
+    },
+    {
+      "speaker": "Josh",
+      "text": "That's too many bricks, I think his strategy is just to learn from this one clinic and to use that to prove out the model.",
+      "turn_index": 410
+    },
+    {
+      "speaker": "Lisa",
+      "text": "Mm-hmm.",
+      "turn_index": 411
+    },
+    {
+      "speaker": "Josh",
+      "text": "Do what he needs to do to get approved for telehealth.",
+      "turn_index": 412
+    },
+    {
+      "speaker": "Lisa",
+      "text": "Yes.",
+      "turn_index": 413
+    },
+    {
+      "speaker": "Josh",
+      "text": "but like, that's how I think he wants to scale this business.",
+      "turn_index": 414
+    },
+    {
+      "speaker": "Lisa",
+      "text": "But anytime an investor hears physical locations. It's like almost an automatic no, but I think the job of a VC is to back founders with the expertise to steer the ship. And maybe it's not gonna turn out exactly how you think it's gonna turn out, but you know that they have the background and the expertise to get where they need to go.",
+      "turn_index": 415
+    },
+    {
+      "speaker": "Josh",
+      "text": "You either believe in his big vision",
+      "turn_index": 416
+    },
+    {
+      "speaker": "Lisa",
+      "text": "mm-hmm.",
+      "turn_index": 417
+    },
+    {
+      "speaker": "Josh",
+      "text": "Like that he's gonna pull this off, or you don't. And I don't know that the buying of one physical location is gonna kill this deal. I don't think it should.",
+      "turn_index": 418
+    },
+    {
+      "speaker": "Lisa",
+      "text": "Right. And also we've been watching Matt execute behind the scenes for a while now, and I feel like his velocity is impressive.",
+      "turn_index": 419
+    },
+    {
+      "speaker": "Josh",
+      "text": "Yes, he's a velociraptor.",
+      "turn_index": 420
+    },
+    {
+      "speaker": "Lisa",
+      "text": "Okay",
+      "turn_index": 421
+    },
+    {
+      "speaker": "Josh",
+      "text": "We'll see what happens with each of the commitments on the show with Immad, Cyan, Charles, and Monique in the season finale next week.\nNo offer to invest in Above Health is being made to the listening audience on today’s show. But you can become an LP in our fund. Fund I is closed, but in Q1 of next year, we’re doing our first close on Fund II. To learn more, check out thepitch.fund.\nSubscribe to The Pitch on your favorite podcast player so you don’t miss future episodes. You can watch full length versions of every pitch over on our Patreon at The Pitch Uncut.\nAnd if you’re a founder and you want to be on the next season of our show, applications for season 15 are open! Go apply at pitch.show/apply\nWe’ll see you next Wednesday, in the PITCH ROOM.\n–\nThis episode was made by me, Josh Muccio, Lisa Muccio, Anna Ladd, and Enoch Kim. With deal sourcing by Peter Liu, John Alvarez, and Phoebe Sun.\nMusic in this episode is by The Muse Maker, Breakmaster Cylinder, The Firmware Rebels, Greg Jong, Memory Palace, Ønders, Bitters, Imagined Nostalgia, and Peter Jean & The Runaway Queen.\nThe Pitch is made in partnership with the Vox Media Podcast Network.",
+      "turn_index": 422
+    }
+  ]
+}

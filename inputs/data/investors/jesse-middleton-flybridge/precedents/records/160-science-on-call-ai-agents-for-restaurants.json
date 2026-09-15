@@ -1,0 +1,1028 @@
+{
+  "decision": {
+    "audit_notes": "No current check is offered at the fixed pitch-window cutoff.",
+    "audit_source": "evaluation/labels/jesse_middleton_pitch_window_decisions.json",
+    "check_tier": null,
+    "conditions": [],
+    "context": "later_diligence",
+    "evidence": [
+      {
+        "text": "But when it works well, I backed a company called Squire back when they first started. And they've done very well. I've backed many others who are, who have fizzled out some in the restaurant space. I'm really intrigued by this approach that you're taking, in particular what you demoed. I'm less intrigued by like the tech support human powered, although I think it's necessary. And so to me, it feels like this sort of operational efficiency thing is the one that strikes me as both scalable and also a good business. Like the underlying costs will just keep going down. And so I, I personally, I would like to look a little deeper. There's a bunch of people that I'd love to sort of ask questions to, because I do have this question like, who else could do this? Why aren't they doing it? And so I just really want to get underneath that. I just don't know their roadmap. But if we were to invest, typically we're writing sort of one to $2 million checks. Where are you at in the raise?",
+        "turn_end": 68,
+        "turn_start": 68
+      }
+    ],
+    "status": "Out"
+  },
+  "episode_number": 160,
+  "episode_slug": "160-science-on-call-ai-agents-for-restaurants",
+  "investor_aliases": [
+    "Jesse",
+    "Jesse Middleton"
+  ],
+  "investor_present": true,
+  "source_path": "sources/160-science-on-call-ai-agents-for-restaurants.json",
+  "source_sha256": "16f8f0819eea1ac0453c195755bf7743a85fe36a6336ecbfc416b1c80ac5129d",
+  "turns": [
+    {
+      "speaker": "Luisa",
+      "text": "My name's Luisa Castellanos and I'm from Chicago. I am an artist at heart, but artist turned tech founder I did not go to art school. I went to business school. [laughs]\nI’m Josh Muccio and this is The Pitch. Where startup founders raise millions and listeners can invest. Today on the show, Luisa Castellanos serves up a pitch for some AI tech support… for restaurants.",
+      "turn_index": 0
+    },
+    {
+      "speaker": "Luisa",
+      "text": "So I'm a huge foodie I had worked in ice cream shops and worked with several other small businesses. And so we just had a passion for the people in the restaurants and the work that they're doing. and wanted to make their lives easier.\nThe Pitch for Science on Call is coming up after this. And whether you’re watching or listening on YouTube, Patreon or your favorite podcast player - thanks so much for subscribing, and don’t forget to turn on notifications.\nBREAK\nWelcome back to The Pitch for Science on Call. Let’s meet the investors\nPaige Finn Doherty with Behind Genius Ventures\nWhat gets me to that hell yes conviction, it’s a founder that deeply understands both sides of the business\nMark Phillips with 11 Tribes Ventures\nI’m a midwest investor, so we have a different definition of price.\nWill Weisman with KittyHawk\nWe call ourselves generalist frontier technology.\nAnd Jesse Middleton with Flybridge\nI don’t normally like edtech, but I really like you.\n[clap]",
+      "turn_index": 1
+    },
+    {
+      "speaker": "Luisa",
+      "text": "Hi.\n[hellos]",
+      "turn_index": 2
+    },
+    {
+      "speaker": "Jesse",
+      "text": "Hello.",
+      "turn_index": 3
+    },
+    {
+      "speaker": "Luisa",
+      "text": "Try not to mess this up. Okay. Hi everyone, I'm Luisa Castellanos, cofounder and COO of Science on Call. So we're using AI agents to help restaurant operators do their jobs and not get yelled at by customers. So whether it's 86ing items from a menu or pausing online ordering, the staff don't have to wait on hold anymore during the lunch rush. All they have to do is shoot us a text message. This all started back in 2014 when my cofounder Andy and I started a tech support company focused on brick and mortar retail and we started solving problems, and started to see that there was nobody really helping restaurants with this problem and their tech stacks are extremely complicated. It's a really difficult industry. The margins are pretty thin and turnover is really high. The average restaurant employee sticks around for about 59 days. So anything that we can do to help make their jobs easier increases employee satisfaction and also reduces turnover.\nThere are about 850,000 restaurants in the US, but we're ready to expand globally. Our platform is multilingual. We are approaching about 2 million in ARR this year. And we're in about 900 restaurant locations all across the US.\nYou might also be asking, well, how does this scale? We are currently at about 70 percent gross margins, and by starting to automate more problems, we expect this to get up to about 85 percent by the end of next year.\nWe're a pretty scrappy team. Our sales team consists of my cofounder, Andy, and one account executive who've closed about 1.3 million in new revenue last year And so right now we're raising a $2 million velocity round to continue to invest in our go to market strategy, as well as automating more problems for restaurants.\nNow I can show you a little bit of how this works. So that's our web app, very simple, they don't have to log into anything, they can text, WhatsApp. And so it's as easy as sending a text message, and our system receives this request and understands what the problem is, and then it will run a robotic process automation without the need for any human.\nAnd so if you've ever worked in a restaurant in the modern times, this is what it looks like when you have to go and remove an item from a menu. It may seem like a simple thing, but you gotta log in, you gotta do your two factor authentication, you have to scroll through, find that item, find it on every single menu. It's a pretty complicated task. So this is actually a automation that is currently running. It's much faster and much more accurate. And we revert it in the morning. So it'll be back in stock.",
+      "turn_index": 4
+    },
+    {
+      "speaker": "Will",
+      "text": "And is this particularly focused on online ordering, or is it on premise?",
+      "turn_index": 5
+    },
+    {
+      "speaker": "Luisa",
+      "text": "It's any platform. So we've started with some of the common problems, like 86ing items is like 10 percent of the requests we get. As well as, pausing online ordering and changing store hours. So think about, you know, the fires -",
+      "turn_index": 6
+    },
+    {
+      "speaker": "Will",
+      "text": "Are you changing actual menu displays if it's digital?",
+      "turn_index": 7
+    },
+    {
+      "speaker": "Luisa",
+      "text": "Yeah. So if it's integrated with a certain solution, depending on what their tech stack is.",
+      "turn_index": 8
+    },
+    {
+      "speaker": "Jesse",
+      "text": "And, if you can give sort of high level, uh, maybe you have too many of them to list out yourself. But of the tech platforms that are out there, you talked about sort of the menu stuff, the hours. So it's Google, it's Yelp, but it's also Toast. It's -",
+      "turn_index": 9
+    },
+    {
+      "speaker": "Luisa",
+      "text": "Yeah. Yeah.",
+      "turn_index": 10
+    },
+    {
+      "speaker": "Jesse",
+      "text": "So what are the big categories -",
+      "turn_index": 11
+    },
+    {
+      "speaker": "Luisa",
+      "text": "Yeah. So the biggest pain points are usually an online ordering platform because somebody is trying to order. And if you're listed as not online, for some restaurants, that's like 30 percent of their sales. And so, reverting something back in the morning, if it's their hottest item, nobody even knows it's there and they're losing thousands of dollars just from that. But you know, Toast, that's one example, but we're also automating an Olo, as well as DoorDash, Uber Eats, Grubhub, most of the common ones.",
+      "turn_index": 12
+    },
+    {
+      "speaker": "Jesse",
+      "text": "And you showed it as an automation on the screen, obviously some platforms have better APIs than others.",
+      "turn_index": 13
+    },
+    {
+      "speaker": "Luisa",
+      "text": "Yeah.",
+      "turn_index": 14
+    },
+    {
+      "speaker": "Jesse",
+      "text": "What is the relationship that you have with these platforms today?",
+      "turn_index": 15
+    },
+    {
+      "speaker": "Luisa",
+      "text": "Yeah. So as far as we know, we're actually the only people automating processes in Toast right now. But we do have really good relationships with our technology vendors that we work with because they're not calling Toast anymore. They're calling us or texting us. Toast is not gonna solve this for you. They'll tell you how to solve it yourself. And then you go and it takes you an hour to do it.",
+      "turn_index": 16
+    },
+    {
+      "speaker": "Jesse",
+      "text": "And can you paint maybe a sort of picture, five years out from now, 10 years out, you're successful. Is it, maybe you don't wanna say it on camera cause the execs from Toast will hear, but do you want to, do you wanna replace Toast?",
+      "turn_index": 17
+    },
+    {
+      "speaker": "Luisa",
+      "text": "We are starting to see a convergence of the technologies in the restaurant. You're starting to see even some of the mom and pops are implementing Toast, online ordering. And so they're looking for ways to automate a lot of the processes. So you already know about robotics in restaurants. We don't want to remove the need for people or the technology that they're using because we think, you know, they need it to operate. And so it's all about making their jobs easier in using those systems. Because like I said, they're usually in a restaurant for 59 days. They probably have not been trained on that system. By the time they learn how to use it, they're onto the next job. So. It's all about making their training process easier too.",
+      "turn_index": 18
+    },
+    {
+      "speaker": "Will",
+      "text": "Can you talk a little bit about your customer base and are you selling into, you know, right now finding traction with mom and pops and independents or you small chains?",
+      "turn_index": 19
+    },
+    {
+      "speaker": "Luisa",
+      "text": "So we actually started out working mostly with single unit operators, smaller mom and pop shops. But we found that they don't quite have the processes in place to implement something like this. So our focus right now is on operators with between 20 and 150 locations. But we are actually getting interest from larger operators, 500, 800, a thousand unit operators. They see an 86ing tool like this and they see thousands of hours of human effort being saved. It's definitely attractive to them even if it's just one simple automation.",
+      "turn_index": 20
+    },
+    {
+      "speaker": "Paige",
+      "text": "It sounds like one of the advantages, especially for like the larger restaurant chains, if you have like 800 locations, would be like a admin dashboard to like understand the health of the businesses overall. How is that customer discovery journey gone?",
+      "turn_index": 21
+    },
+    {
+      "speaker": "Luisa",
+      "text": "Yeah, so you might think restaurant operators want more dashboards and analytics, but they do not. I will tell you that every time we've tried to offer it, they're just like, tell us what we need to do. And it is still a very human centric, relationship oriented business. And so if we can give them a little bit of advice on something, that's a little harder for us to scale, but since we're working with hundreds of restaurants, we already know, what's the most common point of sale system, what tools integrate together. And so they are asking us questions like that. We have all the data on every platform.",
+      "turn_index": 22
+    },
+    {
+      "speaker": "Jesse",
+      "text": "I've invested personally in a number of restaurants and yes, the amount of times as a technologist, I've been like, we should try this. And they're like, I don't want anything. Like texting is the way I want to solve it. So I think you've hit the nail on the head with the sort of interface. I am curious about, many of these companies are obviously continuing to innovate, right? Toast has lots of developers. They're building new features, Square, all these guys. So maybe they won't go all in and solve for every other platform, but I have to imagine that there's somebody sitting at Toast who's like, it'd be cool if we can use natural language instead of logging in. If that future continues to happen, what is that sort of bigger vision for you? What does that look like? I mean, is it always a layer on top or, do you sort of own the specific aspects of this? I guess I'm just curious about where, where the creativity goes.",
+      "turn_index": 23
+    },
+    {
+      "speaker": "Luisa",
+      "text": "Yeah, sure. So we do market ourselves as a holistic platform, so we're covering every piece of technology in the restaurant, but we are also expanding to other areas such as operational, machinery or, hot water heaters in a restaurant, anything that basically has a user manual, we can ingest that information and provide it back to the employee. So we are actually starting to expand our product offering into more of a workforce management tool. So we actually just launched this like two days ago, with one of our customers, they gave us their entire knowledge base for their employees. And now they can text and ask, you know, what's the dress code, what's my sick time policy?",
+      "turn_index": 24
+    },
+    {
+      "speaker": "Jesse",
+      "text": "Yep.",
+      "turn_index": 25
+    },
+    {
+      "speaker": "Luisa",
+      "text": "Any question that you'd find in a manual. And Toast or Square, you know, they don't have access to their deep fryer user manual or their - they often don't have direct access to their internet dashboard and things like that.",
+      "turn_index": 26
+    },
+    {
+      "speaker": "Jesse",
+      "text": "And on the business model side, I'm curious, because these companies, you know, they charge a reasonable amount of money per month. Many of them are, in my opinion, overpriced for what they do. How are you thinking about it? Is it sort of a, do your customers, I guess, think about it as like a percentage of spend, right? Like, have you found a ceiling where they're like, well, I pay this much for Toast, so I'd pay a little bit for you?",
+      "turn_index": 27
+    },
+    {
+      "speaker": "Luisa",
+      "text": "So the budget is usually coming from their staffing, their IT staffing. So a lot of these larger operators, once you get to five is usually when you start to bring someone in house, but that one person cannot be everywhere. They don't know everything. They take sick time. And so the traditional path they would take is to just add another person, add another person, every time they add, you know, 10, 15 locations. Some of our customers with 50 unit chains, they used to have three people in house, and we were able to reduce them down to one person because we're much more cost effective than bringing additional -",
+      "turn_index": 28
+    },
+    {
+      "speaker": "Will",
+      "text": "And in that type of instance, what do they pay you?",
+      "turn_index": 29
+    },
+    {
+      "speaker": "Luisa",
+      "text": "Our pricing model is based on tiers or modules. So we have our tech tier, which includes troubleshooting, like more on demand support type of model. Our operations tier is purely like tasks, like what I showed you today. And then our workforce model that we just rolled out is knowledge retrieval from their manuals. So if they're going all in, it's going to be about 379 a month per location.",
+      "turn_index": 30
+    },
+    {
+      "speaker": "Jesse",
+      "text": "And on the first one, are you still providing human support where the tech can't answer the question?",
+      "turn_index": 31
+    },
+    {
+      "speaker": "Luisa",
+      "text": "Yeah. So part of being a holistic platform is that restaurants don't want to go somewhere else for that support. And so we're seeing that as almost like a, a separate piece of our business that is increasing our customer stickiness But I think right now about 80 percent of our revenue is something that can either be automated or conversational troubleshooting.",
+      "turn_index": 32
+    },
+    {
+      "speaker": "Jesse",
+      "text": "Got it.",
+      "turn_index": 33
+    },
+    {
+      "speaker": "Will",
+      "text": "Where are your sales coming from? Like how do customers discover you? And is there any kind of word of mouth or eating out at other restaurants?",
+      "turn_index": 34
+    },
+    {
+      "speaker": "Luisa",
+      "text": "So anyone who's sold into a restaurant knows going door to door does not work. They're like, they're going to pawn you off or, you know, say, I'll take your number, but it's very much a relationship business. And so we've had a lot of success with trade shows, industry events, getting on podcasts, industry magazines. It's just about who you know. Andy, my CEO, cofounder, he is head of sales at this point, and he works with one account executive, Maya, they go to trade shows, look them up on LinkedIn, they're just a crazy duo and everybody wants to be their friend. So um, we're getting a lot of referrals as well from our existing customers who are telling, you know, the former CEO of Jimmy John's, like, you gotta use them, and it's kind of blown up from there.",
+      "turn_index": 35
+    },
+    {
+      "speaker": "Mark",
+      "text": "You alluded to international scale on the horizon. Does that same go to market strategy and motion hold as you think about international?",
+      "turn_index": 36
+    },
+    {
+      "speaker": "Luisa",
+      "text": "Yeah. So that's something we're exploring right now. I spent some time in Mexico. My family's actually from there, and starting to talk with some of the smaller chains in Mexico City or Guadalajara. It's still a very much relationship business. But we do actually have team members on our support team who are transitioning into customer success roles. So it'll come into play once we start to expand, to Latin America.",
+      "turn_index": 37
+    },
+    {
+      "speaker": "Mark",
+      "text": "Why is no one else doing this?",
+      "turn_index": 38
+    },
+    {
+      "speaker": "Luisa",
+      "text": "Because restaurants are really hard.",
+      "turn_index": 39
+    },
+    {
+      "speaker": "Mark",
+      "text": "Yeah. Yeah. Man.",
+      "turn_index": 40
+    },
+    {
+      "speaker": "Will",
+      "text": "I used to be in the restaurant business a long time ago and had a 30 unit restaurant chain and it is so hard.",
+      "turn_index": 41
+    },
+    {
+      "speaker": "Luisa",
+      "text": "Yep.",
+      "turn_index": 42
+    },
+    {
+      "speaker": "Will",
+      "text": "Brutal. Yeah",
+      "turn_index": 43
+    },
+    {
+      "speaker": "Luisa",
+      "text": "Yeah. It is.",
+      "turn_index": 44
+    },
+    {
+      "speaker": "Mark",
+      "text": "What's the churn for you?",
+      "turn_index": 45
+    },
+    {
+      "speaker": "Luisa",
+      "text": "So, last year we did churn out a few of our independent operators and so if you talk about logo churn, it was like 12%, but a logo is a single location. So our MRR churn was like three percent.",
+      "turn_index": 46
+    },
+    {
+      "speaker": "Mark",
+      "text": "Got it.",
+      "turn_index": 47
+    },
+    {
+      "speaker": "Will",
+      "text": "And what was the reason for the churn?",
+      "turn_index": 48
+    },
+    {
+      "speaker": "Luisa",
+      "text": "It's usually because, you know, single unit operators, we either fired them because it wasn't a good fit or they're kind of cutting costs, or we had one or two brands that got bought by another brand. So usually it's not a matter of, they don't like us. It's just that a cost savings or, they needed onsite support only.",
+      "turn_index": 49
+    },
+    {
+      "speaker": "Will",
+      "text": "Gotcha",
+      "turn_index": 50
+    },
+    {
+      "speaker": "Paige",
+      "text": "Why are you raising this round right now?",
+      "turn_index": 51
+    },
+    {
+      "speaker": "Luisa",
+      "text": "So we want to continue to accelerate our automations on the product side. So, in the last week we rolled out fully end to end conversational troubleshooting. So there is no human in the loop to respond to a text. So our existing support team is transitioning into product engineering roles. They're the ones writing the documentation that feeds the AI. So you can't have AI without continuing to update that information, We're keeping that team pretty consistent, but we are going to bring on a UX/UI designer, a product manager, and possibly like an AI consultant",
+      "turn_index": 52
+    },
+    {
+      "speaker": "Jesse",
+      "text": "And how much had you raised previously?",
+      "turn_index": 53
+    },
+    {
+      "speaker": "Luisa",
+      "text": "We've raised 4.5 million.",
+      "turn_index": 54
+    },
+    {
+      "speaker": "Jesse",
+      "text": "Okay.",
+      "turn_index": 55
+    },
+    {
+      "speaker": "Luisa",
+      "text": "Across three rounds.",
+      "turn_index": 56
+    },
+    {
+      "speaker": "Jesse",
+      "text": "Got it.",
+      "turn_index": 57
+    },
+    {
+      "speaker": "Will",
+      "text": "What does success look like here? Like, kind of as you think about where you want this to be in five years or 10 years?",
+      "turn_index": 58
+    },
+    {
+      "speaker": "Luisa",
+      "text": "Yeah. I think in the next five years, we want to be at 125 million in ARR, and that'll include going abroad to other countries, Europe and Latin America, as well as convenience stores and retail. And we want to be able to automate 80 percent of what they do in a restaurant.",
+      "turn_index": 59
+    },
+    {
+      "speaker": "Jesse",
+      "text": "What do we have to believe for that 125 million? What does that roughly break down in number of store fronts?",
+      "turn_index": 60
+    },
+    {
+      "speaker": "Luisa",
+      "text": "It's about 25,000.",
+      "turn_index": 61
+    },
+    {
+      "speaker": "Jesse",
+      "text": "Okay.",
+      "turn_index": 62
+    },
+    {
+      "speaker": "Luisa",
+      "text": "There are 175,000 QSRs with 20 to 100 locations. And so we've got a lot of market share left to get in restaurants first.",
+      "turn_index": 63
+    },
+    {
+      "speaker": "Mark",
+      "text": "If you didn't hit that goal, what would have gone wrong?",
+      "turn_index": 64
+    },
+    {
+      "speaker": "Luisa",
+      "text": "That's a good question. I would say growing our sales team. We have Andy and then one account executive. We want to find other people who are kind of heavy hitters in the restaurant space. If we make some wrong moves on that front, that could slow us down a little bit. But we're pretty confident on the potential hires for account executives.",
+      "turn_index": 65
+    },
+    {
+      "speaker": "Jesse",
+      "text": "Well, I've, I've invested in a number of companies that sort of sell into the SMB space and it's been mixed results.",
+      "turn_index": 66
+    },
+    {
+      "speaker": "Luisa",
+      "text": "Oh yeah.",
+      "turn_index": 67
+    },
+    {
+      "speaker": "Jesse",
+      "text": "But when it works well, I backed a company called Squire back when they first started. And they've done very well. I've backed many others who are, who have fizzled out some in the restaurant space. I'm really intrigued by this approach that you're taking, in particular what you demoed. I'm less intrigued by like the tech support human powered, although I think it's necessary. And so to me, it feels like this sort of operational efficiency thing is the one that strikes me as both scalable and also a good business. Like the underlying costs will just keep going down. And so I, I personally, I would like to look a little deeper. There's a bunch of people that I'd love to sort of ask questions to, because I do have this question like, who else could do this? Why aren't they doing it? And so I just really want to get underneath that. I just don't know their roadmap. But if we were to invest, typically we're writing sort of one to $2 million checks. Where are you at in the raise?",
+      "turn_index": 68
+    },
+    {
+      "speaker": "Luisa",
+      "text": "So we are in deep diligence with one fund right now. They, may or may not have a term sheet for us in the next week or so. So, you know, that's still an option. But we have a few other insiders who are willing to come in on this round as well. So if we need to fill the rest of the round, we can.",
+      "turn_index": 69
+    },
+    {
+      "speaker": "Jesse",
+      "text": "And do you have a sense of, like, kind of what this round roughly works out to? It's not in your best interest to give the first offer, obviously, but I'm just, like, are you thinking this is a crazy round or you called it a velocity round. So it sort of sounds like an in between round maybe.",
+      "turn_index": 70
+    },
+    {
+      "speaker": "Luisa",
+      "text": "Yeah. Seed plus round. Yeah.",
+      "turn_index": 71
+    },
+    {
+      "speaker": "Jesse",
+      "text": "Okay. Cool.",
+      "turn_index": 72
+    },
+    {
+      "speaker": "Luisa",
+      "text": "And sorry, were you asking valuation or?\nThe valuation coming up, after this.",
+      "turn_index": 73
+    },
+    {
+      "speaker": "Luisa",
+      "text": "And sorry, were you asking valuation or?",
+      "turn_index": 74
+    },
+    {
+      "speaker": "Jesse",
+      "text": "Yeah, you don't have to say it. If I'm giving you advice, I wouldn't say it out loud. But it was more a sense of where you're, where you're at. And sort of, if you had said to me, like, we're raising our sort of small A, it's like maybe you're ahead of where we think you are",
+      "turn_index": 75
+    },
+    {
+      "speaker": "Luisa",
+      "text": "Yeah. And so with the progress that we've just made over like the last couple weeks, We're looking at probably around 20 million.",
+      "turn_index": 76
+    },
+    {
+      "speaker": "Jesse",
+      "text": "Okay. Cool.",
+      "turn_index": 77
+    },
+    {
+      "speaker": "Will",
+      "text": "I would have loved to have had something like this when I was in the restaurant business way back when.",
+      "turn_index": 78
+    },
+    {
+      "speaker": "Luisa",
+      "text": "We hear that a lot.",
+      "turn_index": 79
+    },
+    {
+      "speaker": "Will",
+      "text": "And I mean, just the amount of churn and employee education. And there's so many challenging parts about the business that this can really add a lot of value, I think. And I love kind of the one stop nature of this I thought it was really interesting. it's not a fit for - Kitty Hawk as a more of a deep tech investor. But I'd love to be helpful. I've got a bunch of friends who have continued in the restaurant space and former heads -",
+      "turn_index": 80
+    },
+    {
+      "speaker": "Luisa",
+      "text": "Yeah, I'd love to hear from them.",
+      "turn_index": 81
+    },
+    {
+      "speaker": "Will",
+      "text": "- of the National, I think, Restaurant Association and people like that who might be able to be helpful.",
+      "turn_index": 82
+    },
+    {
+      "speaker": "Luisa",
+      "text": "Appreciate that.",
+      "turn_index": 83
+    },
+    {
+      "speaker": "Will",
+      "text": "Yeah, of course.",
+      "turn_index": 84
+    },
+    {
+      "speaker": "Mark",
+      "text": "Luisa, what's your title?",
+      "turn_index": 85
+    },
+    {
+      "speaker": "Luisa",
+      "text": "COO.",
+      "turn_index": 86
+    },
+    {
+      "speaker": "Mark",
+      "text": "You're COO?",
+      "turn_index": 87
+    },
+    {
+      "speaker": "Luisa",
+      "text": "Yeah.",
+      "turn_index": 88
+    },
+    {
+      "speaker": "Will",
+      "text": "Interesting.\n[laughter]",
+      "turn_index": 89
+    },
+    {
+      "speaker": "Luisa",
+      "text": "It was actually part of my pitch and I took it out. I was like, I'm the numbers girl, so that's why I'm here, not Andy. Um.",
+      "turn_index": 90
+    },
+    {
+      "speaker": "Mark",
+      "text": "You're the, you're the investor's best friend.\n[laughter]",
+      "turn_index": 91
+    },
+    {
+      "speaker": "Mark",
+      "text": "I understand. And how do you think about profitability within the business?",
+      "turn_index": 92
+    },
+    {
+      "speaker": "Luisa",
+      "text": "Yeah. So we're shooting for September of this year to be profitable. Obviously depending on how this round goes and maybe the next quarter of growth, we might push that out a little bit cause we want to invest more in product.",
+      "turn_index": 93
+    },
+    {
+      "speaker": "Mark",
+      "text": "Got it.",
+      "turn_index": 94
+    },
+    {
+      "speaker": "Jesse",
+      "text": "Did you say this earlier? What's your burn? I can't remember if we asked this question.",
+      "turn_index": 95
+    },
+    {
+      "speaker": "Luisa",
+      "text": "Uh, right now net burn is like a 100k.",
+      "turn_index": 96
+    },
+    {
+      "speaker": "Mark",
+      "text": "yeah [sigh]",
+      "turn_index": 97
+    },
+    {
+      "speaker": "Jesse",
+      "text": "Okay.",
+      "turn_index": 98
+    },
+    {
+      "speaker": "Paige",
+      "text": "Can you talk a little bit about like the key milestones And then like a bit of the rationale on the terms, but it'd be helpful to understand like the key milestones that you're looking at achieving.",
+      "turn_index": 99
+    },
+    {
+      "speaker": "Luisa",
+      "text": "Yeah, yeah. So a big one is profitability. And so getting this round secured allows us to really go full force on sales, get to profitability. And then that gives us a little more optionality for Series A. We don't want to be raising all the time. The other milestones being that we want to get to 4.7 million ARR this year.",
+      "turn_index": 100
+    },
+    {
+      "speaker": "Mark",
+      "text": "Mm That's great. What was the last valuation of the SAFE that you raised?",
+      "turn_index": 101
+    },
+    {
+      "speaker": "Luisa",
+      "text": "Our seed was actually a priced round.",
+      "turn_index": 102
+    },
+    {
+      "speaker": "Mark",
+      "text": "It was.",
+      "turn_index": 103
+    },
+    {
+      "speaker": "Luisa",
+      "text": "So this is going to be on a SAFE.",
+      "turn_index": 104
+    },
+    {
+      "speaker": "Mark",
+      "text": "Got it. And what was that seed price?",
+      "turn_index": 105
+    },
+    {
+      "speaker": "Luisa",
+      "text": "Um, it was 7 million pre.",
+      "turn_index": 106
+    },
+    {
+      "speaker": "Mark",
+      "text": "Got it.",
+      "turn_index": 107
+    },
+    {
+      "speaker": "Jesse",
+      "text": "And does the 4 million plus ARR, 4.7, is that what you said? Does that imply just doubling the number from 900 restaurants to 18 or is there -",
+      "turn_index": 108
+    },
+    {
+      "speaker": "Luisa",
+      "text": "Yeah, I think we're shooting for about 2000.",
+      "turn_index": 109
+    },
+    {
+      "speaker": "Jesse",
+      "text": "Okay. Got it.",
+      "turn_index": 110
+    },
+    {
+      "speaker": "Mark",
+      "text": "This is really fun to hear the story. And I'm really intrigued. I, Josh isn't going to like my answer, but this is absolutely something that I'd like to explore.",
+      "turn_index": 111
+    },
+    {
+      "speaker": "Luisa",
+      "text": "Yeah.",
+      "turn_index": 112
+    },
+    {
+      "speaker": "Mark",
+      "text": "Also, we're both from Chicago, so, like, we've got to stick together, so, you know.",
+      "turn_index": 113
+    },
+    {
+      "speaker": "Luisa",
+      "text": "Makes a lot of sense. We gotta keep Chicago going.",
+      "turn_index": 114
+    },
+    {
+      "speaker": "Mark",
+      "text": "Miami's fine, but don't you want it to be, like, six degrees and snowing every day? So, it, I would really like to jump on a diligence call. If we were to write a check at this stage, it would be, probably half a million to 750,000.",
+      "turn_index": 115
+    },
+    {
+      "speaker": "Luisa",
+      "text": "Okay.",
+      "turn_index": 116
+    },
+    {
+      "speaker": "Mark",
+      "text": "We look for unique founder market fit. I think you guys have tackled that in spades. We look for intense capital efficiency and I think that seems like something that motivates you. And then we look for just those niche markets where there aren't a ton of people playing because it is super difficult. If you can crack that code, there's a ton of opportunity here. So -",
+      "turn_index": 117
+    },
+    {
+      "speaker": "Luisa",
+      "text": "Yeah. Josh might not like the answer, but I like that answer.\n[laughter]",
+      "turn_index": 118
+    },
+    {
+      "speaker": "Luisa",
+      "text": "I was telling him before I was like, you know, depending on what happens with this other investor, like, I don't know how ready we are to -",
+      "turn_index": 119
+    },
+    {
+      "speaker": "Mark",
+      "text": "It sounds like things might move quick or maybe they won't. And that's, that's totally understandable. So. it would be great to get you on a call with our team sometime here in the next couple days.",
+      "turn_index": 120
+    },
+    {
+      "speaker": "Luisa",
+      "text": "Love it.",
+      "turn_index": 121
+    },
+    {
+      "speaker": "Paige",
+      "text": "Cool. Well, yeah, Josh is probably not going to like my answer either.",
+      "turn_index": 122
+    },
+    {
+      "speaker": "Jesse",
+      "text": "So we're breaking the fourth wall here.",
+      "turn_index": 123
+    },
+    {
+      "speaker": "Paige",
+      "text": "Yeah, yeah.",
+      "turn_index": 124
+    },
+    {
+      "speaker": "Luisa",
+      "text": "It's not a no, so it's okay.",
+      "turn_index": 125
+    },
+    {
+      "speaker": "Paige",
+      "text": "No, well, I think it's like, it's interesting. I want to spend more time like understanding the restaurant space as well. I like the approach of looking to get to profitability before an A. Like in the portfolio, we've seen the founders that have the best, easiest time raising right now are like profitable and growing, which is obviously -",
+      "turn_index": 126
+    },
+    {
+      "speaker": "Jesse",
+      "text": "Shocking.\n[laughter and crosstalk]",
+      "turn_index": 127
+    },
+    {
+      "speaker": "Will",
+      "text": "Taking a lot of risk.",
+      "turn_index": 128
+    },
+    {
+      "speaker": "Jesse",
+      "text": "Huge upside. No risk. Build a whole fund off of that.",
+      "turn_index": 129
+    },
+    {
+      "speaker": "Paige",
+      "text": "Yeah. Yeah. But I, I like that approach. We’ve made like a handful of investments at this like seed+ stage. Which is, yeah, I would say gone gone pretty well in my past experience. So I would love to like continue the conversation. my check size range is usually between 150 to 250k.",
+      "turn_index": 130
+    },
+    {
+      "speaker": "Luisa",
+      "text": "Okay.",
+      "turn_index": 131
+    },
+    {
+      "speaker": "Paige",
+      "text": "But yeah, thank you for coming in. Looking forward to continuing the conversation.",
+      "turn_index": 132
+    },
+    {
+      "speaker": "Luisa",
+      "text": "Thank you guys, so much. This was fun.",
+      "turn_index": 133
+    },
+    {
+      "speaker": "Jesse",
+      "text": "Awesome.",
+      "turn_index": 134
+    },
+    {
+      "speaker": "Mark",
+      "text": "Really great to meet you.",
+      "turn_index": 135
+    },
+    {
+      "speaker": "Will",
+      "text": "Yeah, exciting.\n[applause]",
+      "turn_index": 136
+    },
+    {
+      "speaker": "Josh",
+      "text": "I just have like one question and then a part B on that question.",
+      "turn_index": 137
+    },
+    {
+      "speaker": "Mark",
+      "text": "So, two questions",
+      "turn_index": 138
+    },
+    {
+      "speaker": "Josh",
+      "text": "One is, why are you not concerned about the price?",
+      "turn_index": 139
+    },
+    {
+      "speaker": "Mark",
+      "text": "I am.",
+      "turn_index": 140
+    },
+    {
+      "speaker": "Josh",
+      "text": "You didn't say that.",
+      "turn_index": 141
+    },
+    {
+      "speaker": "Jesse",
+      "text": "You mean the round's price?",
+      "turn_index": 142
+    },
+    {
+      "speaker": "Mark",
+      "text": "Well, there's no, there's no price. She just gave us a number. I didn't want to badger her over that.",
+      "turn_index": 143
+    },
+    {
+      "speaker": "Jesse",
+      "text": "She doesn't have a lead. So I think she was saying that's what she's hoping is to sell 10 percent 2 million at 20 post.",
+      "turn_index": 144
+    },
+    {
+      "speaker": "Paige",
+      "text": "I like Jesse's point too. It's kind of like not in her best interest to share.",
+      "turn_index": 145
+    },
+    {
+      "speaker": "Jesse",
+      "text": "I mean, if I'm advising anyone - like sales 101, don't throw out the first number. So, so I'm not concerned because I think there's room in that. They raised at 7 million pre before. If they raised two and a half probably out of the 4.3, they've got plenty of room. So if you brought that to 15 post, that would be okay.",
+      "turn_index": 146
+    },
+    {
+      "speaker": "Mark",
+      "text": "My sense is there's a ton of flexibility. I think she threw out a high number as she should.",
+      "turn_index": 147
+    },
+    {
+      "speaker": "Josh",
+      "text": "Yeah. Yeah. Okay.",
+      "turn_index": 148
+    },
+    {
+      "speaker": "Paige",
+      "text": "It is interesting, too. I feel like having done this show and doing the pre seed, it's usually like uhh faster like turnaround time. But I think for the seed there's like - there's really compelling elements of the business and I want to spend more time like evaluating them, versus with the pre seed, it's more of like you're investing in like the vision and there's less to like really dig into.",
+      "turn_index": 149
+    },
+    {
+      "speaker": "Jesse",
+      "text": "I think the concerns are around how strong the product actually is. Like the demo she gave is great in the video, but like, I want to see that work for 50 different actions and like, make sure it doesn't break. This is like where we're at in AI. And the second one is the sales question. And frankly, if I asked Elisa from Toast, or Dave and Song from Squire, and any of them said, Yep, you could totally do this internationally, the same model. Here's how we did it at Toast. I'd feel a lot better about her conviction that that's so easy. I just don't -",
+      "turn_index": 150
+    },
+    {
+      "speaker": "Josh",
+      "text": "So you got a big question mark around the international expansion.",
+      "turn_index": 151
+    },
+    {
+      "speaker": "Jesse",
+      "text": "Yeah.",
+      "turn_index": 152
+    },
+    {
+      "speaker": "Josh",
+      "text": "Okay.",
+      "turn_index": 153
+    },
+    {
+      "speaker": "Paige",
+      "text": "Especially if that's like a core underpinning of them getting to 125 million. I liked your question around like what are the, what do we need to believe to be true to get to that milestone?",
+      "turn_index": 154
+    },
+    {
+      "speaker": "Jesse",
+      "text": "Yeah.",
+      "turn_index": 155
+    },
+    {
+      "speaker": "Josh",
+      "text": "Yeah. Alright, so just understanding the dynamics here. So we have Jesse potentially leading, your check size one to two million.",
+      "turn_index": 156
+    },
+    {
+      "speaker": "Jesse",
+      "text": "Yeah.",
+      "turn_index": 157
+    },
+    {
+      "speaker": "Josh",
+      "text": "Mark, you could potentially lead, or not write a check at all, between 500k and a million. And then Paige, you're not going to be leading this round, you'd be like a follow on check, correct?",
+      "turn_index": 158
+    },
+    {
+      "speaker": "Paige",
+      "text": "Like participating, yeah. I don't need a lead to build conviction, but I do need terms set.",
+      "turn_index": 159
+    },
+    {
+      "speaker": "Josh",
+      "text": "Okay. Cool. Alright, we'll see where this goes. I'm excited to follow the diligence.",
+      "turn_index": 160
+    },
+    {
+      "speaker": "Josh",
+      "text": "I just, I'm curious if you guys are going to work together or not.",
+      "turn_index": 161
+    },
+    {
+      "speaker": "Mark",
+      "text": "I would love to hear what -",
+      "turn_index": 162
+    },
+    {
+      "speaker": "Will",
+      "text": "The chemistry is rough, though.",
+      "turn_index": 163
+    },
+    {
+      "speaker": "Mark",
+      "text": "Bunch of blowhards. Uh, no, I feel similarly. We've got folks in Chicago here that have restaurant experience and I'm really curious to hear what they have to say about this.",
+      "turn_index": 164
+    },
+    {
+      "speaker": "Josh",
+      "text": "Okay. Let's go ahead and cut and wrap, just cause we gotta get back on track in order for this guy to catch his flight.",
+      "turn_index": 165
+    },
+    {
+      "speaker": "Mark",
+      "text": "Are we just like two minutes and then back, or what?",
+      "turn_index": 166
+    },
+    {
+      "speaker": "Josh",
+      "text": "Ideally. How quickly -",
+      "turn_index": 167
+    },
+    {
+      "speaker": "Mark",
+      "text": "Pretty quick.\nLuisa walked out of the pitch room with three semblances of an offer, and anyone who knows me, knows I do not like semblances. Give me something concrete!\nBut like Luisa said, better than a “NO” – after the break, something concrete.\nActually I could really go for a concrete right now.\nBREAK\nWelcome back. After the show… two calls and a ghosting. Jesse’s the ghost. Jesse, check your email. But Luisa did manage to get on the phone with Paige.\nAfter the call, Luisa said Paige passed because it wasn’t a good fit for her thesis, Science on Call was too late stage.\nWhich leaves Mark Phillips. He got on a call with Luisa and her cofounder Andy.",
+      "turn_index": 168
+    },
+    {
+      "speaker": "Andy",
+      "text": "Who would you like to tell our story? Luisa's great at it and I like to talk too.",
+      "turn_index": 169
+    },
+    {
+      "speaker": "Luisa",
+      "text": "Well, you heard my version already, so.",
+      "turn_index": 170
+    },
+    {
+      "speaker": "Andy",
+      "text": "Yeah, so, I've had a hundred jobs because I'm a hundred years old. I'm still youthful, energetic, good looking.",
+      "turn_index": 171
+    },
+    {
+      "speaker": "Mark",
+      "text": "You look amazing for your age, my friend. Where is the Fountain of Youth?",
+      "turn_index": 172
+    },
+    {
+      "speaker": "Andy",
+      "text": "It's in Oak Park, Illinois.",
+      "turn_index": 173
+    },
+    {
+      "speaker": "Mark",
+      "text": "Okay.",
+      "turn_index": 174
+    },
+    {
+      "speaker": "Andy",
+      "text": "So I, I came up like any kid. So I had paper route, fry cook, dishwasher. I was a barista for a little bit. I taught English in Japan. And then, I set about finding myself.\nThat journey of self discovery eventually led Andy to Luisa. She was building companies, and he was looking for his next thing. So they teamed up.",
+      "turn_index": 175
+    },
+    {
+      "speaker": "Andy",
+      "text": "We launched our first company, which was a boutique IT consultancy. Focus on brick and mortar. And, you know, we started to get lots of inbounds from restaurants during that time. And so, by about 2019, we made the decision to fire all of our non restaurant customers and really focus in on the problem that I had seen since I was a fry cook.",
+      "turn_index": 176
+    },
+    {
+      "speaker": "Luisa",
+      "text": "The pandemic hit three months after we fired all of our non restaurant customers, so revenue went from the measly, I don't know, 3k a month we had to basically zero overnight. But we were really determined to help the businesses that we knew and loved and wanted them to be around longer. So we, we did all sorts of projects like build websites. Transform tech stacks, launch online ordering platforms. We learned basically everything about every system that you can imagine during that time.",
+      "turn_index": 177
+    },
+    {
+      "speaker": "Mark",
+      "text": "You turned into cockroaches. You couldn't be killed.",
+      "turn_index": 178
+    },
+    {
+      "speaker": "Andy",
+      "text": "Yeah, we did.",
+      "turn_index": 179
+    },
+    {
+      "speaker": "Luisa",
+      "text": "We could not be killed.",
+      "turn_index": 180
+    },
+    {
+      "speaker": "Andy",
+      "text": "Yeah. So we set about building a platform that would allow us to solve the problems that we were seeing in restaurants already, which is a giant convoluted tech stack. A bunch of employees behind the counter who don't know how to diagnose or solve these problems, and then operators who want to protect their revenue and hang on to that team.\nThe people in the restaurant are the most valuable asset. That's why we're starting to see inbounds from much larger organizations. We've created these vertical AI agents, these digital workers that can solve the most common issues quickly with automation and conversational AI. And so why people like Chipotle and Wingstop are starting to knock on our door saying, Hey, we've got a massive internal team, but we want to double our footprint in the next five years. How do we do that without adding headcount? And they do that by deploying these digital agents that we've created.",
+      "turn_index": 181
+    },
+    {
+      "speaker": "Mark",
+      "text": "Andy, traction wise, where are you today? You had 120 percent growth ish last year, 2024.",
+      "turn_index": 182
+    },
+    {
+      "speaker": "Andy",
+      "text": "Yeah, so we're at just about 2 million ARR.",
+      "turn_index": 183
+    },
+    {
+      "speaker": "Mark",
+      "text": "Where do you expect to land in 25 revenue wise? What's the growth look like this next 12 months?",
+      "turn_index": 184
+    },
+    {
+      "speaker": "Andy",
+      "text": "We'll close out the year between 4 and 5 million ARR. I'm actually optimistic we'll be between 4.7 and 5.2, provided we make the right expenditures.",
+      "turn_index": 185
+    },
+    {
+      "speaker": "Mark",
+      "text": "And then how do you think about capital efficiency, profitability? What's your desire from a capital perspective to Get to that sustainable point and or raise continued capital over the course of the life of the business.",
+      "turn_index": 186
+    },
+    {
+      "speaker": "Andy",
+      "text": "Yeah, I think, you know, the world has changed a little bit and there's a lot more currency lent to companies that can kind of do it on their own. So we have thought about the idea of just chasing cash positivity. And if we stay on plan, and if we raise the right amount now, we will probably do that by September of 2025. But in June we might say like, damn, we're growing so fast. It would be actually better if we took more capital right now to beef up the go to market team, add some internal marketing, and then address the rest of our development pipeline because every time we add an automation, it increases our gross margins. So the 11 human beings that we had a year ago, who are full time team members, like they can support four times the number of restaurants. So, I think there's going to be a little bit of a crossroads at which we make that determination with our board.",
+      "turn_index": 187
+    },
+    {
+      "speaker": "Mark",
+      "text": "Here's what I'd like to do. Obviously, our team will talk. If you have a data room, it would be great to see that. Where we are today from a fund perspective is. We're really trying to take lead positions. And if we were to come in and and, the check size we're writing right now is probably about a million bucks into an opportunity like this. Let's let's send us a data room. We'll dig in and come back with some questions and let us know as those conversations progress with other investors.",
+      "turn_index": 188
+    },
+    {
+      "speaker": "Andy",
+      "text": "So great to meet all of you. Thank you so much.",
+      "turn_index": 189
+    },
+    {
+      "speaker": "Mark",
+      "text": "Yeah, you both as well\nSo their team dug into the data… room. And one week later, Mark told Luisa that he would not be investing either. For a concrete reason:\nThe relationship between revenue and OpEx! The hottest couple in town. In normal terms, Mark saw in the numbers last year that the $1.3M in growth, all came from, quote, “throwing bodies at the problem.” So he wasn’t convinced that future growth at the company, would be the scalable, SaaSy, high-margin kind he’s looking for. So he decided to pass.\nBut I’m… thinking of taking the counterbet. I actually saw something in the data room that intrigued me… 17% of support requests were handled by AI in 2024. Luisa expects that number to reach 85% by the end of 2025. So I’m going to hit up some diners, drive-ins, and diligence.\nWe’ll catch up with Luisa and Andy in the season finale.\nNo offer to invest in Science on Call is being made to the listening audience on today’s show. But you can join our private investor community on Substack. Where you’ll get access to the deals we’re doing behind the scenes.\nSo, if you’re an accredited investor, you can apply to join at thepitch.fund\nNext week on The Pitch…",
+      "turn_index": 190
+    },
+    {
+      "speaker": "Gabe",
+      "text": "Imagine a world where devices aren't constrained by the size and shape of the batteries used. Drones fly higher. Cars go further. Our manufacturing platform creates conformal batteries, any size, any shape.",
+      "turn_index": 191
+    },
+    {
+      "speaker": "Paige",
+      "text": "Wow that's super cool.",
+      "turn_index": 192
+    },
+    {
+      "speaker": "Mark",
+      "text": "can you talk a little bit about your journey?",
+      "turn_index": 193
+    },
+    {
+      "speaker": "Gabe",
+      "text": "So when I was a kid, all I wanted to do was design cars, specifically Formula One cars. So when I started at Mercedes in 2014 designing a car that goes 230 miles an hour and wins all those championships was truly excellent experience.",
+      "turn_index": 194
+    },
+    {
+      "speaker": "Will",
+      "text": "What type of margins do you generate?",
+      "turn_index": 195
+    },
+    {
+      "speaker": "Gabe",
+      "text": "I'm going to be targeting in the 25 to 30 percent margin",
+      "turn_index": 196
+    },
+    {
+      "speaker": "Paige",
+      "text": "yes, you can drive the cost down to the bottom of the ocean, but like, the margin of the business shouldn't also be dragged down.",
+      "turn_index": 197
+    },
+    {
+      "speaker": "Gabe",
+      "text": "Once people see it and they see what it does and how it changes the products, they're going to shift.",
+      "turn_index": 198
+    },
+    {
+      "speaker": "Paige",
+      "text": "This is like my core hesitation with the business. I want to give you like an ability to really explain your thoughts around like both aspects of that lever.\nThat’s next week! Season 13 is available to watch on YouTube and Patreon,\nOR\nlisten on your favorite podcast player.\nSubscribe to The Pitch right now, and turn on notifications so you don’t miss it. If you enjoyed today’s episode, be sure to hit that like button. We’ll see you next Wednesday, in the PITCH ROOM.\n–\nThis episode was made by me, Josh Muccio, Lisa Muccio, Anna Ladd, Enoch Kim, and Jackie Papanier. With deal sourcing by Peter Liu, John Alvarez, and Phoebe Sun.\nMusic in this episode is by The Muse Maker, Breakmaster Cylinder, Shaky Faces, Aaron Abernathy, Boxwood Orchestra, Theory Hazit, Peter Jean and The Runaway Queen.\nThe Pitch is made in partnership with the Vox Media Podcast Network.",
+      "turn_index": 199
+    }
+  ]
+}

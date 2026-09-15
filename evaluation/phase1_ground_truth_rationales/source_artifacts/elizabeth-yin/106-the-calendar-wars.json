@@ -1,0 +1,56 @@
+{
+  "schema": "transcript-observed-rationales-v1",
+  "episode_slug": "106-the-calendar-wars",
+  "transcript_sha256": "143148e413932a543c09e751f781465a6764cb2598d9f852a57ee210817f48c1",
+  "window": {
+    "start_turn": 6,
+    "end_turn": 41
+  },
+  "observed_decision": "Out",
+  "decision_evidence_ids": [
+    "E1"
+  ],
+  "evidence_registry": [
+    {
+      "evidence_id": "E1",
+      "turn_index": 41,
+      "speaker": "Elizabeth",
+      "text": "I really like some of the innovation that you're doing here and understand these use cases and see how they're very separate from the general booking link use case, but unfortunately I think we're probably going to be too close to this with Vimcal."
+    }
+  ],
+  "rationales": [
+    {
+      "rationale_id": "R1",
+      "rationale_label": "product_appeal_assessment",
+      "utterance_type": "assessment",
+      "activation": "evaluated",
+      "direction": "positive",
+      "salience": "secondary",
+      "confidence": 0.99,
+      "evidence_ids": [
+        "E1"
+      ],
+      "explanation": "Elizabeth explicitly says she really likes some of the innovation and understands the use cases.",
+      "decision_link": "none"
+    },
+    {
+      "rationale_id": "R2",
+      "rationale_label": "portfolio_conflict_constraint",
+      "utterance_type": "decision_reason",
+      "activation": "evaluated",
+      "direction": "negative",
+      "salience": "primary",
+      "confidence": 0.94,
+      "evidence_ids": [
+        "E1"
+      ],
+      "explanation": "Elizabeth directly links the Out decision to the opportunity being too close to Vimcal.",
+      "decision_link": "explicit"
+    }
+  ],
+  "unmapped_utterances": [
+    "Hey David, Elizabeth."
+  ],
+  "audit_flags": [],
+  "annotation_summary": "Elizabeth positively assessed the product innovation but explicitly declined because the opportunity was too close to Vimcal."
+}

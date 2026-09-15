@@ -1,0 +1,28 @@
+[run]
+vc_slug = "elizabeth-yin-hustle-fund"
+episode_slug = "135-thoras-ai-the-twin-effect"
+input_root = "inputs"
+output_root = "outputs/ollama-elizabeth-thoras-tiny-final"
+checkpoint_path = "outputs/ollama-elizabeth-thoras-tiny-final/checkpoints.sqlite"
+
+[provider]
+kind = "ollama"
+model = "qwen3:0.6b"
+base_url = "http://127.0.0.1:11434"
+embedding_model = "nomic-embed-text"
+max_output_tokens = 2048
+enable_thinking = false
+context_window = 8192
+structured_output_mode = "json"
+
+[phase1]
+min_iterations = 1
+max_iterations = 2
+
+[phase2]
+min_iterations = 1
+max_iterations = 2
+
+[retrieval]
+top_k = 5
+max_exact_reads = 16

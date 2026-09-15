@@ -1,0 +1,72 @@
+{
+  "schema": "transcript-observed-rationales-v1",
+  "episode_slug": "62-pivot-or-die",
+  "transcript_sha256": "d5b3de08a009e3870fccce95c6d9e279f98db9a3a924307aecfb0ff0f5e93d7a",
+  "window": {
+    "start_turn": 3,
+    "end_turn": 121
+  },
+  "observed_decision": "Out",
+  "decision_evidence_ids": [
+    "E1"
+  ],
+  "evidence_registry": [
+    {
+      "evidence_id": "E1",
+      "turn_index": 121,
+      "speaker": "Charles",
+      "text": "Umm I really like you. I just want to echo everything that was just said. I think the only thing holding me back from saying yes right now is For me, one of the most important things in early stage SAAS companies that I've learned is you have to be aligned with the founder in terms of where they're going to take the business and how they're going to get there. And I'd like to make sure that you and I have the same view of how much selling can Ben really do in the next 18 months with the Ben only show? And I don't have a point of view on that yet. I'm sure if I spent a little bit more time with you, I could get comfortable on that. And that would be the one thing I would need to do in order to get to a yes."
+    }
+  ],
+  "rationales": [
+    {
+      "rationale_id": "R1",
+      "rationale_label": "founder_qualities",
+      "utterance_type": "assessment",
+      "activation": "evaluated",
+      "direction": "positive",
+      "salience": "secondary",
+      "confidence": 0.99,
+      "evidence_ids": [
+        "E1"
+      ],
+      "explanation": "Charles directly expresses a positive personal assessment of the founder.",
+      "decision_link": "implicit"
+    },
+    {
+      "rationale_id": "R2",
+      "rationale_label": "founder_investor_vision_alignment",
+      "utterance_type": "assessment",
+      "activation": "evaluated",
+      "direction": "neutral",
+      "salience": "primary",
+      "confidence": 0.98,
+      "evidence_ids": [
+        "E1"
+      ],
+      "explanation": "Charles states that alignment with the founder on the company's direction and how to reach it is essential, but says he has not yet established that shared view.",
+      "decision_link": "explicit"
+    },
+    {
+      "rationale_id": "R3",
+      "rationale_label": "go_to_market_strategy_assessment",
+      "utterance_type": "decision_reason",
+      "activation": "evaluated",
+      "direction": "negative",
+      "salience": "primary",
+      "confidence": 0.99,
+      "evidence_ids": [
+        "E1"
+      ],
+      "explanation": "Charles's stated blocker is uncertainty about how much enterprise selling Ben can personally execute over the next 18 months without a broader sales team.",
+      "decision_link": "explicit"
+    }
+  ],
+  "unmapped_utterances": [
+    "Ah. Let’s go with Mixt Greens in San Francisco.",
+    "Yep. Order the same thing, order ahead almost every day.",
+    "It’s about fourteen bucks."
+  ],
+  "audit_flags": [],
+  "annotation_summary": "Charles's Out decision is explicitly held back by unresolved uncertainty about founder-investor alignment and Ben's founder-led sales capacity over the next 18 months."
+}

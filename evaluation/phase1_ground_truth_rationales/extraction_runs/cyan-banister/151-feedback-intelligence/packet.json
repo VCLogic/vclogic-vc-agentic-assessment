@@ -1,0 +1,376 @@
+{
+  "episode_slug": "151-feedback-intelligence",
+  "transcript_sha256": "b41be754028b5a973a8c616dffdec234caa472d99a4e6eb40bed4ddfb8c7dc39",
+  "window_start": 0,
+  "window_end": 84,
+  "window_text": "[0] Chinar: Hi. I'm Chinar.\n[1] Cyan: Cyan. Nice to meet you.\nCharles Hudson\n[2] Charles: Hi, I'm Charles. Nice to meet you.\nElizabeth Yin\n[3] Elizabeth: Elizabeth. Nice to meet you.\nMac Conwell\n[4] Mac: Mac.\n[5] Chinar: I'm Chinar. Nice to meet you.\nAnd Jesse Middleton\n[6] Jesse: Jesse. Nice to meet you.\n[7] Chinar: Okay. Hi, everyone. I'm Chinar. I have been in AI before things got generative, and each time I delivered AI solutions, I was facing the following issue. Even though I had very good accuracy when I developed that AI, I had no insights how end users were using that solution and whether they are happy with the output or not. For mobile apps like classic applications, Google Analytics can be used to handle this issue. There is no solution to handle this for AI slash generative AI. And we have created solutions. It's called Feedback Intelligence. We help AI teams to turn automatically the end user feedback into actionable insights, giving them power to analyze the root causes and prioritize the issues. We've validated this problem solution fit, and we locked three pilot customers. We have also ten customers on the waitlist, and it's growing. We are going to start the paid pilots, 1st of July, aiming to convert them to annual contracts end of this year with 360k ARR. And we are going to onboard 14 more customers, aiming to have 1.5 million ARR by the end of next year.\n[8] Elizabeth: Cool. Thank you. I'd love to better understand how this works.\n[9] Chinar: So while talking to these companies that are delivering LLM-based solutions, like chatbots or conversational AI, we saw that they are getting a lot of feedback messages, explicit feedback, thumbs up, thumbs down, or just a plain text saying, oh, I queried this, I got this result, but I am not happy with the output. Our solution consolidates explicit and implicit feedback to one place. It automatically does the root cause analysis. And then it provides a list of actions to AI teams to resolve that.\n[10] Jesse: Have you developed the part of it that actually asks for the input? I know there's a bunch of apps out there that ask for the thumbs up, thumbs down or feedback, or you're embedding into the workflow that's already there?\n[11] Chinar: We are embedding for the workflow that is already there. It's just a like integration. And the onboarding takes one hour at this point.\n[12] Elizabeth: I want to wrap my head around this better. So maybe we can talk about some concrete examples.\n[13] Chinar: Yeah.\n[14] Elizabeth: There are plenty of, let's say, chatbots where initially they're trained on some level of data and then some customer can ask it a question. And then the chatbot will intelligently try to find the answer from that data and spit out a result. And then the customer may say, okay, thumbs up, thumbs down. Let's say it was thumbs down. Answer was wrong or maybe insufficient. How are you helping with this? Like you collect the thumbs down, and then what?\n[15] Chinar: So one of the pilot customers that we have, they're called Cogniz. They are providing conversational AI, LLM-based solutions to financial institutions. And these like financial analysts are using those like solutions for querying business transaction in Q4 2023. And whenever they are not happy with the output. They have this like thumbs up, thumbs down, or just a plain text saying, well, I expected this. The result is not good. Before they were getting more than thousand feedback messages like this on a daily basis. Manual work to reproduce the issue, analyze what is the root cause, what is the resolution, and then go back to the customer, say, okay, we will fix this, blah, blah. What we do, whenever that financial analyst is not happy with the output, we analyze that behavior. Maybe there is a knowledge hole or retrieval system is not developed well. We analyze all options there and we provide a list of actions to engineers so they can fix it.\n[16] Elizabeth: But I guess how do you analyze it, I suppose?\n[17] Chinar: We have developed a novel solution. It's an orchestration of LLMs plus unsupervised learning, where we are able to turn this unstructured, thumbs up, thumbs down, to list of actions.\n[18] Mac: So, you mentioned that you've been doing AI before it was generative. Can you tell us a little bit about yourself, your background and what brought you to building this product?\n[19] Chinar: Mhm. So I started my career from applied mathematics and informatics. Then uh, and then I did my master's in information technologies, then another master's in computer science and systems. And then my PhD was machine learning integration into healthcare. And four years ago, I was working on a generative AI based product, where we were helping doctors for plastic surgery purposes to generate faces as a reference to understand what is the best for their patient. And most recently I was at Vineti, venture-backed startup here in San Francisco. And a couple of other projects I have delivered.\n[20] Mac: Can you talk to me a little bit about your business model?\n[21] Chinar: So right now it's like on average we charge them 90k annual contract.\n[22] Mac: Okay. And you said you have two pilot customers?\n[23] Chinar: Three pilot customers\n[24] Mac: Three?\n[25] Chinar: Yeah.\n[26] Mac: Okay. So how did you find those three customers? And what was that sales cycle and sales process like for you?\n[27] Chinar: Yeah, so what we did first. My co-founder used to sell to financial institutions and he used to be head of product at Zest AI. And then head of product at Spectral. So these all companies. And we started to just talk to these people, like discovery, use our network, investors, advisors to connect with these people. And after that, we found these pilot customers. And then, eventually we were like, okay, let's start some small product marketing. Just write some Medium articles without any marketing expenses. And after that we got huge inbound. Like people were coming to us, LinkedIn messages saying like, is it available? The validation was overwhelming. Really.\n[28] Jesse: You mentioned this, the contract value you're starting at is this 90,000, which is an awesome starting point, by the way. Most people in this space are hoping to get 9000. So, so I kudos to that. I guess it sounds like you're starting in the financial institution space. As you think about the opportunity within financial services, is the audience sort of anybody that is building their own stuff with gen AI? Or are you looking at the suppliers of that gen AI technology?\n[29] Chinar: Any company that utilizes generative AI LLM for different applications. Like from finance to legal AI to home services like this, or like everywhere.\n[30] Elizabeth: How long have you been working on this business?\n[31] Chinar: A year and a half ago. I started to build computer vision evaluation tool. And then with this generative AI market adaption. Even though I got one of the fortune 500 media companies as a customer, I saw like this is not being scaled as I want. That's why we shifted our focus and we are going after LLM, generative AI based solutions.\n[32] Elizabeth: Mm hmm.\n[33] Mac: Did you raise any money for the company you were doing before?\n[34] Chinar: Yeah. One million.\n[35] Mac: Is this a completely new company or is this a pivot from the -\n[36] Chinar: Pivot. Pivot.\n[37] Mac: So how much money have you raised to date? And how much equity have you given up to investors to date?\n[38] Chinar: That's a really good one. We have raised one million so far.\n[39] Elizabeth: That was on the old idea?\n[40] Chinar: Yes. Yeah.\n[41] Elizabeth: Okay.\n[42] Chinar: But still we are using that money for this.\n[43] Elizabeth: Yeah. Okay.\n[44] Mac: Did you raise that million on a safe?\n[45] Chinar: Yes.\n[46] Mac: What was the valuation cap on that safe?\n[47] Chinar: Seven and a half.\n[48] Mac: Okay.\n[49] Elizabeth: And how much are you raising now?\n[50] Chinar: 2 million.\n[51] Cyan: How much is spoken for?\n[52] Chinar: We have 1,000,000 soft commitment already.\n[53] Mac: What's the, what\u2019s the price for this round?\n[54] Chinar: It's not set yet.\n[55] Mac: What would you like the price to be for this round?\n[56] Chinar: Yeah, I mean, we are comfortable to be diluted, like around 15%. For this 2 million.\n[57] Mac: That is a bit pricey for me.\n[58] Chinar: We can negotiate.\n[laughter]\n[59] Mac: I'm sure.\nWe\u2019ll do the math for you, Chinar\u2019s saying she wants to raise at a $13.5M valuation.\nThe negotiation will continue right after this.\n[60] Chinar: We are comfortable to be diluted, like around 15%. For this 2 million.\n[61] Mac: That is a bit pricey for me.\n[62] Chinar: We can negotiate.\n[laughter]\n[63] Mac: I'm sure.\n[64] Mac: How much capital do you have in the bank?\n[65] Chinar: More than 100k.\n[66] Mac: And what's your current burn rate?\n[67] Chinar: 15k.\n[68] Elizabeth: How do you think about your burn rate going forward with this new raise?\n[69] Chinar: Will go up around 100k.\n[70] Mac: So at this point in the proceedings, your experience is impressive. I always like founders who have been doing AI before AI was cool.\n[71] Jesse: With four degrees?\n[72] Mac: Yes, with four degrees, right.\n[73] Jesse: Can I borrow one? I dropped out, so.\n[74] Mac: This is, this is impressive. The companies you're working with. The amount you're charging; like usually early on, startups want to charge too low and try to figure out how to go up. For an enterprise level solution, 90k is great. Probably get to a point where you might be able to charge more. I believe this is a problem. I can believe this is a problem that not many people are paying as much attention to just yet -\n[75] Chinar: Right now.\n[76] Mac: - but people will. So moving fast is important. So I know enough about the engineering to be comfortable with the tech. I don't know if I know enough about what else is out there, competitive or not competitive. But I'm really intrigued. So I need to do some research, but I would love to have a follow up conversation.\n[77] Chinar: Thank you.\n[78] Jesse: We back a lot of developer platforms and AI technology companies. I think my biggest questions really center around the competitive landscape and I want to understand how some of these customers think about this on their problem stack, and how they would think about implementing it, where that would fall on their priority. So I would love the chance to follow up on this and have you talk with the rest of our team.\n[79] Chinar: Awesome.\n[80] Cyan: What's your check size?\n[81] Jesse: We typically write between sort of one and two million dollar checks, so we would wind up, you know, leading or co leading the round, yeah.\n[82] Mac: Mine would be somewhere between 25 and 75.\n[83] Chinar: Very good\n[84] Cyan: So I'd love to team up with you, because we can co lead. My firm writes checks around that size. And this is one of those things where I would want to look into the insight, which you can't obviously talk about on a podcast, but dig a little deeper in there. Because if you have like a miracle or some sort of something there, it would be good to understand it. That's the thing that I'm interested in, is that moat. You're very, very impressive and I've been mesmerized just like listening to you. So thank you for just being you.",
+  "observed_decision": "Out",
+  "decision_quote": "So I'd love to team up with you, because we can co lead. My firm writes checks around that size. And this is one of those things where I would want to look into the insight, which you can't obviously talk about on a podcast, but dig a little deeper in there. Because if you have like a miracle or some sort of something there, it would be good to understand it. That's the thing that I'm interested in, is that moat. You're very, very impressive and I've been mesmerized just like listening to you. So thank you for just being you.",
+  "taxonomy": [
+    {
+      "label": "business_model_assessment",
+      "definition": "Rationales related to the investor's perception of the startup\u2019s revenue model, monetization approach, or service/automation mix as a driver of business viability.",
+      "coarse_parent": "business_model_economics",
+      "status": "original",
+      "first_round": "v1"
+    },
+    {
+      "label": "business_viability_concern",
+      "definition": "Rationales related to the investor's concern that the overall business viability, model, or economics are not sufficiently compelling.",
+      "coarse_parent": "business_model_economics",
+      "status": "original",
+      "first_round": "v1"
+    },
+    {
+      "label": "capital_intensity_concern",
+      "definition": "Rationales related to concerns that the startup will require substantial ongoing capital investment, increasing risk or misalignment with the investor\u2019s funding capacity.",
+      "coarse_parent": "business_model_economics",
+      "status": "original",
+      "first_round": "v1"
+    },
+    {
+      "label": "competitive_advantage_assessment",
+      "definition": "Rationales related to the investor\u2019s beliefs about what drives defensibility or sustainable competitive advantage in a market.",
+      "coarse_parent": "competition_defensibility",
+      "status": "original",
+      "first_round": "v1"
+    },
+    {
+      "label": "competitive_intensity_concern",
+      "definition": "Rationales related to concerns that the category is highly competitive, attention\u2010constrained, and requires heavy marketing to win, reducing the likelihood of outsized success.",
+      "coarse_parent": "competition_defensibility",
+      "status": "original",
+      "first_round": "v1"
+    },
+    {
+      "label": "competitive_landscape_inertia",
+      "definition": "Rationales related to the difficulty of displacing or changing behavior of incumbents due to entrenched solutions, habits, or workflows.",
+      "coarse_parent": "competition_defensibility",
+      "status": "original",
+      "first_round": "v1"
+    },
+    {
+      "label": "deal_terms_complexity_concern",
+      "definition": "Rationales related to the investor\u2019s concern that the structure or details of deal terms (e.g., convertibles, SAFEs, preferred terms) may introduce complexity, ambiguity, or unfavorable outcomes.",
+      "coarse_parent": "deal_terms_valuation",
+      "status": "original",
+      "first_round": "v1"
+    },
+    {
+      "label": "decision_context_constraint",
+      "definition": "Rationales related to constraints imposed by the specific evaluation format, environment, or context rather than the startup's fundamentals.",
+      "coarse_parent": "investor_fit_constraints",
+      "status": "original",
+      "first_round": "v1"
+    },
+    {
+      "label": "dilution_concern",
+      "definition": "Rationales related to the investor\u2019s concern that the financing plan will cause excessive dilution relative to their ownership goals or stage fit.",
+      "coarse_parent": "deal_terms_valuation",
+      "status": "original",
+      "first_round": "v1"
+    },
+    {
+      "label": "execution_risk_assessment",
+      "definition": "Rationales related to the investor\u2019s concern that the team may not yet have demonstrated sufficient execution reliability or maturity for the risk level of the round.",
+      "coarse_parent": "founder_team",
+      "status": "original",
+      "first_round": "v1"
+    },
+    {
+      "label": "founder_equity_incentive_alignment",
+      "definition": "Rationales related to ensuring founders retain sufficient ownership to remain properly motivated, aligned, and incentivized for the long-term company\u2010building journey.",
+      "coarse_parent": "founder_team",
+      "status": "original",
+      "first_round": "v1"
+    },
+    {
+      "label": "founder_execution",
+      "definition": "Rationales related to the investor\u2019s perception of the founders' execution ability, resourcefulness, pace, and operational grit.",
+      "coarse_parent": "founder_team",
+      "status": "original",
+      "first_round": "v1"
+    },
+    {
+      "label": "founder_market_fit",
+      "definition": "Rationales based on how well the founder's background, experience, or motivation aligns with the target market.",
+      "coarse_parent": "founder_team",
+      "status": "original",
+      "first_round": "v1"
+    },
+    {
+      "label": "founder_qualities",
+      "definition": "Rationales related to the investor's perception of the founders' personal traits, capabilities, or appeal.",
+      "coarse_parent": "founder_team",
+      "status": "original",
+      "first_round": "v1"
+    },
+    {
+      "label": "founder_skillset",
+      "definition": "Rationales tied to the founder's core skills or functional strengths relevant to company-building.",
+      "coarse_parent": "founder_team",
+      "status": "original",
+      "first_round": "v1"
+    },
+    {
+      "label": "fund_economics_constraint",
+      "definition": "Rationales tied to the investor\u2019s fund size, check size, or ownership goals that constrain how selective they must be when choosing investments.",
+      "coarse_parent": "investor_fit_constraints",
+      "status": "original",
+      "first_round": "v1"
+    },
+    {
+      "label": "fundraising_demand_signal",
+      "definition": "Rationales related to the investor\u2019s perception that the company will attract capital easily due to current or expected investor demand.",
+      "coarse_parent": "deal_terms_valuation",
+      "status": "original",
+      "first_round": "v1"
+    },
+    {
+      "label": "growth_projection_risk",
+      "definition": "Rationales related to concerns that the company\u2019s growth, revenue, or user\u2010scale projections are insufficiently modeled, unrealistic, or lack credible underlying assumptions.",
+      "coarse_parent": "traction_growth",
+      "status": "original",
+      "first_round": "v1"
+    },
+    {
+      "label": "investment_thesis_constraint",
+      "definition": "Rationales related to the investor's predefined investment thesis or mandate that restricts them to specific sectors, business models, or company types.",
+      "coarse_parent": "investor_fit_constraints",
+      "status": "original",
+      "first_round": "v1"
+    },
+    {
+      "label": "investment_upside_assessment",
+      "definition": "Rationales related to the investor's view that the risk\u2010reward profile offers disproportionately large potential returns relative to downside risk.",
+      "coarse_parent": "deal_terms_valuation",
+      "status": "original",
+      "first_round": "v1"
+    },
+    {
+      "label": "investor_domain_knowledge_constraint",
+      "definition": "Rationales related to the investor lacking the necessary domain knowledge to effectively assess the technology, moat, competition, or overall viability of the opportunity.",
+      "coarse_parent": "investor_fit_constraints",
+      "status": "original",
+      "first_round": "v1"
+    },
+    {
+      "label": "investor_experience_bias",
+      "definition": "Rationales related to the investor's prior personal experiences, wins, losses, or operational history that shape their judgment of a new opportunity.",
+      "coarse_parent": "investor_fit_constraints",
+      "status": "original",
+      "first_round": "v1"
+    },
+    {
+      "label": "market_entry_path_assessment",
+      "definition": "Rationales related to the investor\u2019s perception that there is a clear, reachable initial customer segment that can serve as an effective wedge into the larger market.",
+      "coarse_parent": "market_opportunity",
+      "status": "original",
+      "first_round": "v1"
+    },
+    {
+      "label": "market_problem_validation",
+      "definition": "Rationales tied to the investor perceiving the underlying problem as real, important, or painful enough to support a venture-scale solution.",
+      "coarse_parent": "market_opportunity",
+      "status": "original",
+      "first_round": "v1"
+    },
+    {
+      "label": "market_size_assessment",
+      "definition": "Rationales related to the investor\u2019s belief about the absolute or relative size and fluidity of the addressable market.",
+      "coarse_parent": "market_opportunity",
+      "status": "original",
+      "first_round": "v1"
+    },
+    {
+      "label": "market_timing",
+      "definition": "Rationales related to the investor's belief that the timing is favorable or unfavorable for this market, category, or product to emerge or scale.",
+      "coarse_parent": "timing",
+      "status": "original",
+      "first_round": "v1"
+    },
+    {
+      "label": "mission_alignment_preference",
+      "definition": "Rationales related to the investor's personal or emotional alignment with the startup's mission or purpose.",
+      "coarse_parent": "investor_fit_constraints",
+      "status": "original",
+      "first_round": "v1"
+    },
+    {
+      "label": "portfolio_conflict_constraint",
+      "definition": "Rationales related to constraints arising from existing portfolio investments that create competitive conflicts preventing a new investment.",
+      "coarse_parent": "investor_fit_constraints",
+      "status": "original",
+      "first_round": "v1"
+    },
+    {
+      "label": "product_adoption",
+      "definition": "Rationales related to evidence that end users are adopting and using the product meaningfully.",
+      "coarse_parent": "product_solution",
+      "status": "original",
+      "first_round": "v1"
+    },
+    {
+      "label": "product_appeal_assessment",
+      "definition": "Rationales related to the investor\u2019s positive perception of the product\u2019s appeal, quality, or desirability based on their own reaction.",
+      "coarse_parent": "product_solution",
+      "status": "original",
+      "first_round": "v1"
+    },
+    {
+      "label": "product_differentiation_concern",
+      "definition": "Rationales related to how unique, defensible, or hard-to-copy the product or technology is perceived to be.",
+      "coarse_parent": "competition_defensibility",
+      "status": "original",
+      "first_round": "v1"
+    },
+    {
+      "label": "product_success_factor_assessment",
+      "definition": "Rationales related to which product components or attributes are perceived as most essential to the startup's ability to succeed.",
+      "coarse_parent": "product_solution",
+      "status": "original",
+      "first_round": "v1"
+    },
+    {
+      "label": "solution_feasibility_assessment",
+      "definition": "Rationales related to the investor's belief that the proposed product or solution is technically or operationally feasible.",
+      "coarse_parent": "product_solution",
+      "status": "original",
+      "first_round": "v1"
+    },
+    {
+      "label": "stage_valuation_mismatch",
+      "definition": "Rationales related to the investor\u2019s perception of a mismatch between the company\u2019s stage of progress and the valuation being requested.",
+      "coarse_parent": "deal_terms_valuation",
+      "status": "original",
+      "first_round": "v1"
+    },
+    {
+      "label": "traction_repeatability_concern",
+      "definition": "Rationales related to concerns that current traction, usage, or revenue signals are too early or insufficiently repeatable to support scaling.",
+      "coarse_parent": "traction_growth",
+      "status": "original",
+      "first_round": "v1"
+    },
+    {
+      "label": "unit_economics_assessment",
+      "definition": "Rationales related to the investor\u2019s perception that the business benefits from structurally attractive unit economics, such as profitable or self-reinforcing customer acquisition.",
+      "coarse_parent": "business_model_economics",
+      "status": "original",
+      "first_round": "v1"
+    },
+    {
+      "label": "venture_scale_concern",
+      "definition": "Rationales related to concerns that the company\u0019s market dynamics, ceiling, or competitive landscape limit its ability to achieve venture-scale outcomes.",
+      "coarse_parent": "market_opportunity",
+      "status": "original",
+      "first_round": "v1"
+    },
+    {
+      "label": "investor_value_add_fit",
+      "definition": "Rationales about whether the investor can contribute meaningful help, networks, or domain value beyond capital to this specific company.",
+      "coarse_parent": "investor_fit_constraints",
+      "status": "promoted",
+      "first_round": "v_final",
+      "support_episodes": 12,
+      "support_vcs": [
+        "jillian-manus-structure-capital",
+        "elizabeth-yin-hustle-fund",
+        "cyan-banister-long-journey-ventures",
+        "phil-nadel",
+        "jesse-middleton-flybridge"
+      ]
+    },
+    {
+      "label": "founder_coachability_assessment",
+      "definition": "Rationales about how receptive the founder is to feedback, advice, or course-correction and their ability to read and respond to the room.",
+      "coarse_parent": "founder_team",
+      "status": "promoted",
+      "first_round": "v_final",
+      "support_episodes": 6,
+      "support_vcs": [
+        "jillian-manus-structure-capital",
+        "phil-nadel",
+        "charles-hudson-precursor-ventures",
+        "elizabeth-yin-hustle-fund"
+      ]
+    },
+    {
+      "label": "founder_communication_quality",
+      "definition": "Rationales about the founder's clarity, articulation, command of their numbers, and storytelling ability when presenting the business.",
+      "coarse_parent": "founder_team",
+      "status": "promoted",
+      "first_round": "v_final",
+      "support_episodes": 9,
+      "support_vcs": [
+        "jillian-manus-structure-capital",
+        "charles-hudson-precursor-ventures",
+        "elizabeth-yin-hustle-fund",
+        "cyan-banister-long-journey-ventures",
+        "phil-nadel"
+      ]
+    },
+    {
+      "label": "founder_motivation_authenticity",
+      "definition": "Rationales about the genuineness, personal connection, or origin of the founder's drive to work on this particular problem.",
+      "coarse_parent": "founder_team",
+      "status": "promoted",
+      "first_round": "v_final",
+      "support_episodes": 12,
+      "support_vcs": [
+        "cyan-banister-long-journey-ventures",
+        "charles-hudson-precursor-ventures",
+        "elizabeth-yin-hustle-fund",
+        "jesse-middleton-flybridge",
+        "jillian-manus-structure-capital"
+      ]
+    },
+    {
+      "label": "go_to_market_strategy_assessment",
+      "definition": "Rationales about how the company will reach and acquire customers, including sales motion, channel scalability, and cost of acquisition.",
+      "coarse_parent": "business_model_economics",
+      "status": "promoted",
+      "first_round": "v_final",
+      "support_episodes": 12,
+      "support_vcs": [
+        "charles-hudson-precursor-ventures",
+        "elizabeth-yin-hustle-fund",
+        "phil-nadel",
+        "jillian-manus-structure-capital",
+        "jesse-middleton-flybridge"
+      ]
+    },
+    {
+      "label": "founder_investor_vision_alignment",
+      "definition": "Rationales about whether the founder's intended direction or focus for the company aligns with the path the investor believes in or would back.",
+      "coarse_parent": "investor_fit_constraints",
+      "status": "promoted",
+      "first_round": "v_final",
+      "support_episodes": 9,
+      "support_vcs": [
+        "charles-hudson-precursor-ventures",
+        "elizabeth-yin-hustle-fund",
+        "jillian-manus-structure-capital",
+        "phil-nadel"
+      ]
+    },
+    {
+      "label": "corporate_structure_constraint",
+      "definition": "Rationales tied to the company's legal entity, incorporation, jurisdiction, or IP-ownership structure as a barrier or condition to investing.",
+      "coarse_parent": "deal_terms_valuation",
+      "status": "promoted",
+      "first_round": "v_final",
+      "support_episodes": 3,
+      "support_vcs": [
+        "charles-hudson-precursor-ventures",
+        "elizabeth-yin-hustle-fund",
+        "jillian-manus-structure-capital"
+      ]
+    }
+  ],
+  "investor_name": "Cyan",
+  "investor_aliases": [
+    "Cyan",
+    "Cyan Banister"
+  ]
+}

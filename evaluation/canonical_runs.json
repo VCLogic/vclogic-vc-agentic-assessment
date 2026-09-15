@@ -1,0 +1,97 @@
+{
+  "schema": "canonical-vc-evaluation-registry-v1",
+  "investors": {
+    "charles-hudson": {
+      "display_name": "Charles Hudson",
+      "label_file": "labels/charles_pitch_window_decisions.json",
+      "eligible_count": 86,
+      "sources": [
+        {
+          "kind": "batch_status",
+          "path": "../outputs/openrouter-luna-charles-v41b-full-round-robin-2026-08-07/batch-status.json"
+        },
+        {
+          "kind": "recovery_status",
+          "path": "../outputs/openrouter-luna-charles-phil-failed-recovery-2026-08-13/status.json",
+          "vc_name": "Charles Hudson"
+        }
+      ]
+    },
+    "elizabeth-yin": {
+      "display_name": "Elizabeth Yin",
+      "label_file": "labels/elizabeth_yin_pitch_window_decisions.json",
+      "eligible_count": 53,
+      "sources": [
+        {
+          "kind": "batch_status",
+          "path": "../outputs/openrouter-luna-elizabeth-v4-contrastive-round-robin-2026-08-11/batch-status.json"
+        }
+      ]
+    },
+    "jillian-manus": {
+      "display_name": "Jillian Manus",
+      "label_file": "labels/jillian_manus_pitch_window_decisions.json",
+      "eligible_count": 59,
+      "sources": [
+        {
+          "kind": "batch_status",
+          "path": "../outputs/openrouter-luna-jillian-v4-full-round-robin-2026-08-11/batch-status.json"
+        }
+      ]
+    },
+    "phil-nadel": {
+      "display_name": "Phil Nadel",
+      "label_file": "labels/phil_nadel_pitch_window_decisions.json",
+      "eligible_count": 55,
+      "sources": [
+        {
+          "kind": "batch_status",
+          "path": "../outputs/openrouter-luna-phil-v4-full-round-robin-2026-08-12/batch-status.json"
+        },
+        {
+          "kind": "recovery_status",
+          "path": "../outputs/openrouter-luna-charles-phil-failed-recovery-2026-08-13/status.json",
+          "vc_name": "Phil Nadel"
+        }
+      ]
+    },
+    "jesse-middleton": {
+      "display_name": "Jesse Middleton",
+      "label_file": "labels/jesse_middleton_pitch_window_decisions.json",
+      "eligible_count": 27,
+      "sources": [
+        {
+          "kind": "summary_glob",
+          "path": "../outputs/openrouter-luna-jesse-v4-1-canary-r2-2026-08-12/*/summary.json"
+        },
+        {
+          "kind": "summary_glob",
+          "path": "../outputs/openrouter-luna-jesse-v4-1-canary-pair2-2026-08-13/*/summary.json"
+        },
+        {
+          "kind": "summary_glob",
+          "path": "../outputs/openrouter-luna-jesse-v4-1-round-robin-remaining-2026-08-13/attempt-1/*/summary.json"
+        }
+      ]
+    },
+    "cyan-banister": {
+      "display_name": "Cyan Banister",
+      "label_file": "labels/cyan_banister_pitch_window_decisions.json",
+      "eligible_count": 21,
+      "sources": [
+        {
+          "kind": "summary_glob",
+          "path": "../outputs/openrouter-luna-cyan-v4-1-canary-r2-2026-08-12/*/summary.json"
+        },
+        {
+          "kind": "summary_glob",
+          "path": "../outputs/openrouter-luna-cyan-v4-1-canary-pair2-2026-08-13/*/summary.json"
+        },
+        {
+          "kind": "summary_glob",
+          "path": "../outputs/openrouter-luna-cyan-v4-1-round-robin-remaining-2026-08-13/attempt-1/*/summary.json"
+        }
+      ]
+    }
+  }
+}

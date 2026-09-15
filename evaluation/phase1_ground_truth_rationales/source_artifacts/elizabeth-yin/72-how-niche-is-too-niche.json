@@ -1,0 +1,122 @@
+{
+  "schema": "transcript-observed-rationales-v1",
+  "episode_slug": "72-how-niche-is-too-niche",
+  "transcript_sha256": "5167bcefc3730dde5cfa6d0ac399c1feb48b6f220e72c3c5c1849144aad2bcf5",
+  "window": {
+    "start_turn": 2,
+    "end_turn": 51
+  },
+  "observed_decision": "Out",
+  "decision_evidence_ids": [
+    "E3"
+  ],
+  "evidence_registry": [
+    {
+      "evidence_id": "E1",
+      "turn_index": 21,
+      "speaker": "Elizabeth",
+      "text": "What are the, the COGS and the price point for this?"
+    },
+    {
+      "evidence_id": "E2",
+      "turn_index": 44,
+      "speaker": "Elizabeth",
+      "text": "And have you done any advertising testing?"
+    },
+    {
+      "evidence_id": "E3",
+      "turn_index": 51,
+      "speaker": "Elizabeth",
+      "text": "I’ve looked at a lot of black hair products. And I know that it can be incredibly competitive. But I love actually how unique your form factor is. I have not seen that. I think the tricky thing then is, well, to Sheel’s point, how do you then target the travel market? It happens so infrequently and people really only think about their trips when they’re about ready to go on their trips and they don’t really plan, you know, months in advance. And for that reason, it feels kind of tight to me, and so I’m a pass."
+    }
+  ],
+  "rationales": [
+    {
+      "rationale_id": "R1",
+      "rationale_label": "business_model_assessment",
+      "utterance_type": "question",
+      "activation": "queried",
+      "direction": "neutral",
+      "salience": "secondary",
+      "confidence": 0.99,
+      "evidence_ids": [
+        "E1"
+      ],
+      "explanation": "Elizabeth asks about COGS and price point to evaluate the business economics.",
+      "decision_link": "none"
+    },
+    {
+      "rationale_id": "R2",
+      "rationale_label": "go_to_market_strategy_assessment",
+      "utterance_type": "question",
+      "activation": "queried",
+      "direction": "neutral",
+      "salience": "secondary",
+      "confidence": 0.99,
+      "evidence_ids": [
+        "E2"
+      ],
+      "explanation": "Elizabeth asks whether advertising has been tested as part of evaluating customer acquisition.",
+      "decision_link": "none"
+    },
+    {
+      "rationale_id": "R3",
+      "rationale_label": "competitive_intensity_concern",
+      "utterance_type": "assessment",
+      "activation": "evaluated",
+      "direction": "negative",
+      "salience": "secondary",
+      "confidence": 0.98,
+      "evidence_ids": [
+        "E3"
+      ],
+      "explanation": "Elizabeth states that black hair products can be incredibly competitive.",
+      "decision_link": "explicit"
+    },
+    {
+      "rationale_id": "R4",
+      "rationale_label": "product_differentiation_concern",
+      "utterance_type": "assessment",
+      "activation": "evaluated",
+      "direction": "positive",
+      "salience": "secondary",
+      "confidence": 0.99,
+      "evidence_ids": [
+        "E3"
+      ],
+      "explanation": "Elizabeth positively assesses the form factor as highly unique and says she has not seen it before.",
+      "decision_link": "none"
+    },
+    {
+      "rationale_id": "R5",
+      "rationale_label": "go_to_market_strategy_assessment",
+      "utterance_type": "decision_reason",
+      "activation": "evaluated",
+      "direction": "negative",
+      "salience": "primary",
+      "confidence": 0.99,
+      "evidence_ids": [
+        "E3"
+      ],
+      "explanation": "Elizabeth questions how the company can target the travel market, given infrequent travel and the lack of advance trip planning.",
+      "decision_link": "explicit"
+    },
+    {
+      "rationale_id": "R6",
+      "rationale_label": "venture_scale_concern",
+      "utterance_type": "decision_reason",
+      "activation": "evaluated",
+      "direction": "negative",
+      "salience": "primary",
+      "confidence": 0.98,
+      "evidence_ids": [
+        "E3"
+      ],
+      "explanation": "Elizabeth views the infrequency of travel and concentrated purchase timing as making the opportunity feel too tight for her to invest.",
+      "decision_link": "explicit"
+    }
+  ],
+  "unmapped_utterances": [],
+  "audit_flags": [],
+  "annotation_summary": "Elizabeth’s questions cover unit economics and advertising testing. She positively recognizes the unique form factor but passes because the travel-focused market is difficult to target and purchase demand is infrequent and poorly planned in advance."
+}

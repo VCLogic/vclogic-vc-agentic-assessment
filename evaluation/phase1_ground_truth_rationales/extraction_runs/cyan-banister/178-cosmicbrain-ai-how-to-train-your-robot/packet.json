@@ -1,0 +1,376 @@
+{
+  "episode_slug": "178-cosmicbrain-ai-how-to-train-your-robot",
+  "transcript_sha256": "eaf6073881a1dc1e0a7b30f295bf000ce11aef5b3552757a03b8e73dd5b0b017",
+  "window_start": 24,
+  "window_end": 142,
+  "window_text": "[24] Anto: Hello guys. Meet my cofounder who will be walking in in a minute.\n[robot walking noises]\nThat stomping you\u2019re hearing is the dirty oven mitt robot, which was supposed to look like a boxer.\n[25] Anto: Alright, Hi guys. I'm Anto, CEO of Cosmic Brain AI. This is my, uh, robot co-founder can you actually wave your hands and greet the VCs for me?\n[26] Charles: Woah\n[27] Rohit: I feel like I should wave.\n[28] Anto: I'll tell you how I actually got inspired in robotics, So I'm seven years old. My mom, she's a physics teacher. I opened her physics textbook and chapter by chapter, I fall in love with physics. From the age of seven, all the way to high school, I ended up building hundreds of robots. A robot dog that can actually guard our house, to a microwave generator that can generate electricity from ocean sea floors. From there I went to engineering school, for electrical engineering and computer science. I almost got kicked out of my dorm room for having a model robot in my room with a lot of equipment, from PCBs to, drillers to grinding irons and stuff, right. I ended up building a smart water bottle that can actually monitor vitals for an athlete, which I ended up selling to the military before graduating my undergrad. From there, I decided to go do my business school at Stanford. Which I dropped out to go work at NASA. I was part of building the largest LLMS in the world, and I still continued my passion for robotics because I believe this is gonna influence the next 50 years of America. So what we are building right now at Cosmic Brain is we are building the Cursor for robotics. This is the future of robot training. If you look at the robotics industry right now most of these companies have to spend millions of dollars, hundreds of expert engineers, and thousands of GPUs just to train their robots on a very specific function. What we are doing is we are making this as simple as possible. So if you're a high school student, developer, or a business owner, we are democratizing the process of robot training into the hands of the public by recording video of you doing different tasks, whether it be cooking, folding your laundry, the robot watches videos and teaches itself on what to do. And we can do all this with just a few clicks and that is what Cosmic Brain is about.\n[29] Immad: So you're making the robot or you're just making the software?\n[30] Anto: No, we are completely the software, the brain behind the robots. So we are robot agnostic\n[31] Immad: And you're selling this software to the robot manufacturers?\n[32] Anto: No. So we are Cursor for robotics. So just like, video format like MP4, MOV format, each robot have their own format system files. So with our software, you can convert that into any software that is adaptable to any brands, whether it be Tesla, Figure, KUKA, or any other off the shelf robotic thing that you're buying\n[33] Immad: Okay. So the world you imagine is like, I buy a robot, this thing can do a little bit of things, like it can walk, but it can't like, fold my laundry and then I'd show it how to fold my laundry. And then I put that on there and I release it, and then it's folding my laundry.\n[34] Anto: Yeah. There is an application for like, in your house, trying to automate your laundry folding, or in your kitchen, putting the trash away, these kind of stuff. Right. But if you look into medium and small scale businesses out there, most of the factory owners have to ship the robotic arms or large machines back to the manufacturers. Wait for two months to get it retrained, reprogrammed to adapt to the new evolving industry, and get it back. This is a huge hurdle for a lot of industries out there. We are enabling that to happen on-prem by the engineers who are present there.\n[35] Monique: How often is it, does this retraining process typically happen?\n[36] Anto: Yeah, anytime you need a new skill set. So let's say you're an Amazon worker, right? You actually want to introduce a new kind of packaging.\n[37] Monique: Hm\n[38] Anto: You don't have to now ship the machine out to a different manufacturer. You can do that on prem within a couple of days rather than waiting for years to happen. We also have like a marketplace of skillset. So let's say you are a developer wanting to build a skillset for the robot and you want other people to use your product, right? Just like apps in an app store. You can actually sell it to people on our marketplace. So if you're a Chipotle owner who wants to automate your kitchens, and we have Chef Robotics VLA in our system, right? So you can just plug and play and the robot will learn how to do it.\n[39] Immad: What does VLA stand for?\n[40] Anto: Vision language action models. It's just like LLMs, it's video, plus language understanding, plus how that can be translated into actions. So just the robot waving the arm. So each and every torque, the motor movement, is fed into the software.\n[41] Cyan: So, if Chipotle, for example, shared their training data, do they get paid for it? Like then people can remix it?\n[42] Anto: Yeah. So there are two parts to the platform, right? One is software as a service for the training itself, just like how you see Cursor or ChatGPT APIs or Grock APIs. So depending on usage, hours of operation training, we will charge you based on that. Then there is a marketplace where the VLAs can be sold as an API, so that every time the actual robot functions in that environment, for example, a kitchen, every time the robot actually dice a carrot or an onion, they're using our VLAs and that's money for us and money for the guy who made the VLAs as well.\n[43] Monique: And how much?\n[44] Anto: The base price, can be like, a hundred dollars per month or per million tokens used per day. It can go up to like $200,000 for large enterprises. For let\u2019s say for large clients, right? Like Amazon or Walmart. we have VLAs that's priced at $500,000 per annum. And based on number of hours of usage, number of robots, the pricing increases up to 2 million, $3 million per annum.\n[45] Rohit: How come manufacturers aren't doing this themselves?\n[46] Anto: It's very complex. So right now it takes a lot of money to do this. You need thousands of GPUs. You need expert robotics team behind the scenes. You need hardware on premise\n[47] Rohit: Or they need you.\n[48] Anto: Exactly\n[49] Rohit: 'cause I'm sure you don't have thousands of GPUs and-\n[50] Anto: Yeah.\n[51] Rohit: I guess what I'm asking is like, if I'm a robot manufacturer, it is in my best interest to shorten these training times, right?\n[52] Anto: Yes, exactly.\n[53] Rohit: So like, I just don't see why they wouldn't do this themselves.\n[54] Anto: Yeah. So that's what we are trying to make it happen. Right? So we are enabling, even if you're not a robotic engineer, you should be able to do that with just a few clicks. Before even thinking about spending millions of dollars into buying in specific hardware, you can collect data either through making people wear Meta RayBan glasses, or the data that we have collected over the years, and enter that into the system, and then train the robots or the VLAs that can be used for the hardware you purchase later on.\n[55] Rohit: How much video does it take to train a new skill?\n[56] Anto: So we do one-to-one transfer, so from a single episode to a single action. The more number of videos, the more autonomous the robots are.\n[57] Rohit: Yeah, one to one is really fast. That's crazy impressive.\n[58] Anto: Yeah\n[59] Immad: I think Rohit's Point was like, Figure is selling a robot.\n[60] Rohit: Yeah.\n[61] Immad: Why wouldn't they go to Amazon and say, hey, you know, give us some videos of like packages and we'll train the Figure robot. Like why would, why would you be required as a software piece?\n[62] Anto: Yeah. So that's an excellent question, right? So most of the, robots, they're trained like large, large foundation models, which require all these complexity. Second thing, it requires teleoperation to train these robots, right? Humans have to wear exoskeletons. You need hardware on premise. There's no way with that methodology, you're going to collect the entire data of the world. So this is the massive data scaling opportunity for us. without even deploying humanoids, or robots into the premise, we can collect egocentric human data and transfer that into robots. So we can deploy glasses across the world from Thailand to China to Middle East, or South America, and capture carpenters, plumbers, electricians, painters or warehouse workers doing their daily task and convert this data into actionable tokens.\n[63] Immad: And do you have your own foundation model that you're training?\n[64] Anto: Yes. So we have our small, foundation models, small VLAs that we used to train the models as well. and the beauty of that, it, it does not require a million dollars to do it, So we have the base functions like the actuator moments, the torque of the robots, the way in the, which the arms work, all this fed into our small foundation models.\n[65] Immad: Do these robots have like a computer in them that you can like drop your software?\n[66] Anto: Yes\n[67] Immad: Like they're smart enough that you can do what you need to do?\n[68] Anto: Yes. So most of the industry is kind of conquered by Nvidia, so they have Jetson chips in it, which makes our task easy, most of the robots are already compatible with a lot of things that we do in the backend Yeah.\n[69] Immad: Is your model on the robot or is it in the cloud?\n[70] Anto: We can do it two, two ways. For large models. It can be on the cloud and it can also be on device. The beauty of small VLA\u2019s is that it can be installed on-prem, on the robot itself, and that's one of the biggest bottlenecks with other industries who are building large foundation models. It can never be on-prem, so there's wifi connectivity issues and when building a lot of robots, they have to tackle that. So a huge amount of pain.\n[71] Cyan: Do you have any customers today?\n[72] Anto: So this is very early for us. So we are pre-revenue right now, but we have some, uh, signed POCs from agriculture, to, hospitality industries, to warehouses. And we are talking to big clients like Amazon, uh, Walmart and all that.\n[73] Cyan: What keeps you up at night?\n[74] Anto: Yeah, so this is a very, very exciting thing that I'm building and, I don't think anyone else have done this before at this, way that I'm doing it. So it requires, me, like coding almost like 10 hours, 17 hours a day, right? The scale at which it has to operate is massive, and I'm looking at how fast I can do it rather than waiting for two years, three years, like a research lab, which most of these companies are right now. We want to deploy this in the market very soon.\n[75] Immad: Do you imagine a world where there's a few big robots, like there's Figure, there's Optimus.\n[76] Anto: Yeah.\n[77] Immad: And and that's like how robots come, or do you imagine a world where there's like thousands of robots that have slightly different form factors?\n[78] Anto: Yeah.\n[79] Immad: You know, they come from China and like, I guess in the former world, I kinda imagine that they will build their own software that does this, in the latter world, which is like, probably closer to like the PC world versus the Mac world. You know, I can imagine there's so many different people, they don't know how to build great software and you deliver like this verticalized software. So is that your bet that like the latter world is the world that exists?\n[80] Anto: Yeah, so we are, our software is very horizontal in nature, right? So any brand, any robotic industry you are, you should be able to use our software. So when you look into the robotics industry. don't think about it as the next Apple iPhone or Google Pixel, right? It's just like the car industry. There's like hundreds of car brands out there and you'll see like, companies in China building robots, companies in Asia, building robots like in South America, in in US. So, uh, we are deciding the software that it can be supportive to any kind of hardware out there, even a 3D printer hardware you're building at home.\n[81] Immad: Hm. So thousands of robots, thousands of different form factors. Thousands of companies building.\n[82] Anto: Exactly.\n[83] Immad: And you are the software intelligence layer.\n[84] Anto: Yeah.\n[85] Monique: You mentioned that you have some signed POCs.\n[86] Anto: Yeah.\n[87] Monique: How long are those POCs? What's the trigger that turns them into full contracts and what do you think or anticipate a full average contract value might look like?\n[88] Anto: Yeah. So right now it's a massive data collection process for us. We are collecting data that's untapped, that no other industry in this world has, not even Figure, right? So we are going on-prem where actual work is happening and collecting that data and training models based on that. And that is the, work we are doing with our POCs right now. And eventually in the next couple of months, they will probably turn into full-time paying clients.\n[89] Rohit: Will you have product in a couple months?\n[90] Anto: Yeah, we already have a functioning prototype. Yes.\n[91] Cyan: I know this is gonna be out there question, but what about toys?\n[92] Anto: Uh, uh, that's an interesting question. Maybe in the future\n[93] Immad: What do you want the toy to do?\n[94] Cyan: I just see that robotic toys with AI are coming and I think everyone's gonna have one in their house.\n[95] Anto: So there is a mini robot that we actually, so like, one of the company, uh, built. Um, we can like probably, teach to write or sign your name or clean your desk or something like that. So at home I have like a cookie feeding robot, which is attached to my desk, and while I'm coding, it feeds me cookies.\n[96] Cyan: No way.\n[97] Anto: Yeah\n[98] Cyan: That's so great. I need to see a video of this\n[99] Immad: I'm impressed you've kept your weight in check.\n[100] Anto: Yeah.\n[101] Immad: What's been like the most impressive thing you've seen a robot do using your technology? Like, what's the most impressive task that you're like, wow, that's cool.\n[102] Anto: Yeah, probably cleaned my desk. So-\n[103] Immad: Why was that impressive?\n[104] Rohit: You haven\u2019t seen his desk.\n[105] Immad: There\u2019s coffee cups everywhere.\n[106] Rohit: There\u2019s cookie crumbs everywhere\n[107] Anto: Definitely one aspect to it. But the fact that robots are able to teach itself just from watching videos, right, which is never possible before\n[108] Immad: Hm\n[109] Anto: And the robots are able to identify, which is a pencil, a pen, and a crumble of paper on the desk and sort it where it belongs. That was thought impossible three years back and now it is possible. So it's massive, massive technology that we are dealing with. So in, for me to see that in real life, that was like, breathtaking.\nA robot cleaning my desk\u2026 would take my breath away\u2026take my breath away [singing]\nWe\u2019ll be right back.\n[110] Charles: Who is responsible for thinking up all the use cases, do those come from you? Like your imagination of like, the, the cleaning robot, the cookie robot? Are you like the idea generator of like this, basically the skills that need to be built?\n[111] Anto: Yeah, so from this time that I started the company, three months ago, four months ago, we interviewed a lot of people, hundreds of manufacturers, professors at Stanford, Berkeley, we understood what the industry actually needs. What are these people trying to solve with robotics, with automation? And what is the lacking factor in the market. Then we got introduced to Agritech. Oh. There's a huge use case in farmlands. There's a huge use case in warehouses, even in homes. Right. So that's how we identified and solved it.\n[112] Cyan: How much have you raised to date?\n[113] Anto: So we have closed some SAFE checks. around 500K. And I got my two other teammates, who worked in Google with Larry and Sergey for the past 20 plus years, who have great experience with robotics and, scaling businesses across the world. So I have a great, phenomenal team. We created the product over the past three months, building every day, coding 10 hours a day. And now we have, in that pace, where this product right now, which we have in house, can be scaled like that. So that's what we needed before the fundraise, and now we are there.\n[114] Immad: And how much are you looking to raise now?\n[115] Anto: Uh, we are looking to raise $5 million.\n[116] Immad: What's the valuation for the 5 million?\n[117] Anto: So, I'm letting you guys put a value on it. Most of the SAFEs that we have raised are uncapped. So we are letting the lead VC put a valuation on us right now.\n[118] Monique: And what do you expect the $5 million to get you to?\n[119] Anto: Yeah, so we are looking at an annual revenue of 10 million, at least with the current, signed POCs that we have. and probably expansion of the team to, we are talking to a couple of like really, really good engineers that we need to hire, and the team, and also buy more robots and GPUs.\n[120] Charles: How many addressable robots are there for you right now?\n[121] Anto: So that's why we are robot agnostic, right?\n[122] Charles: Mm-hmm.\n[123] Anto: So if you look at the world right now, or even the US, almost 60 to 70% of factories have some kind of automation in it.\n[124] Charles: Yeah.\n[125] Anto: Right?\n[126] Charles: Yeah.\n[127] Anto: So robots everywhere from your dishwasher to your robot arm in a pick and place warehouse to every, everything is robotics. So we are aiming those, right? We are not waiting for a humanoid to come out and make that flourish and waiting for them to manufacture. We are going with the legacy industry, legacy, manufacturing hubs and everything.\n[128] Monique: What do you think you need from your investors in the next stage of growth?\n[129] Anto: Yeah, we are looking for strategic investors who can actually introduce us to more industries, more manufacturers. Because, we believe that network is what makes the company scale faster than ever. And that's what we value more.\n[130] Immad: I really like the idea, the bit that I'm struggling with it, a little bit is like, I, I kind of had assumed a robot future where there's like a bunch of humanoid robots and they can basically do anything like a completely horizontal humanoid robot. Whereas your pitch is very much like, oh, there'll be lots of robots and they're like mostly stupid, or many of them are already stupid, and we are gonna go train all these existing robots. Which like, I'm trying to think like 10 years from now, which of the futures is like more realistic and maybe it is amalgamation of all the future, both of these. But that, that's the bit I'm struggling with personally too, like okay. You know, what is the future and like, how does this fit in it?\n[131] Anto: Yeah, that, that's a good question. So, if you look at like, LLMs, right? A generalist model is good for a generalist purpose, or it can like, vaguely understand different niches.\n[132] Immad: But that's true now, right?\n[133] Anto: Yeah.\n[134] Immad: Like don't you think in 10 years the generalist model would do everything?\n[135] Anto: So when it, especially when it comes to the physics, physics world, there's a lot of very precise, highly skilled data that you need to feed to it. So that's why it, it has to be very task specific. Skillset specific VLAs, rather than building a large model that can understand just generalist stuff, right? So if you want to replace a mechanic or a surgeon. Or a painter, right? These are all highly skilled labor, which needs a lot of learning for the robots to do. So the small VLA model is the way to go in this industry.\n[136] Charles: Yeah. I think for me, I feel like we're on the cusp of all of this stuff happening. It still feels a click too early for me. So I'm out for that reason. But if I were gonna bet on anybody, it'd be somebody with your background. I mean, you've got the cookie robot, you've got all of the primitives you would need. So this for me is more a statement of like, my limited understanding of the market and where it feels like we are, not anything about your capabilities or ability to execute.\n[137] Monique: I'm similar. I just feel like I don't understand enough about robotics in order to be super helpful to you as an investor. I love robots though. And so I hope you win.\n[138] Anto: Yeah, absolutely. Hopefully you, you can buy a robot from us.\n[139] Monique: I will buy a robot from you for sure.\n[140] Cyan: Will you be a reseller of robots?\n[141] Anto: Because our platform, we can list VLAs and robotic, brands, we can get commission out of every sale of any robot out there. So not a reseller, but an enabler of the market.\n[142] Cyan: That makes sense. Well. I've been thinking about atoms versus bits right now, especially with, um, just trying to figure out like, where I want to put my attention for the next few years. And I've been thinking about robots and I actually do think about robotics and manufacturing as being a defense aspect of our country, because I think it's really important that we bring manufacturing and, and this stuff back on shore. So I would like to put 100K in. And then bring you in for a larger check to meet the whole team.",
+  "observed_decision": "In",
+  "decision_quote": "That makes sense. Well. I've been thinking about atoms versus bits right now, especially with, um, just trying to figure out like, where I want to put my attention for the next few years. And I've been thinking about robots and I actually do think about robotics and manufacturing as being a defense aspect of our country, because I think it's really important that we bring manufacturing and, and this stuff back on shore. So I would like to put 100K in. And then bring you in for a larger check to meet the whole team.",
+  "taxonomy": [
+    {
+      "label": "business_model_assessment",
+      "definition": "Rationales related to the investor's perception of the startup\u2019s revenue model, monetization approach, or service/automation mix as a driver of business viability.",
+      "coarse_parent": "business_model_economics",
+      "status": "original",
+      "first_round": "v1"
+    },
+    {
+      "label": "business_viability_concern",
+      "definition": "Rationales related to the investor's concern that the overall business viability, model, or economics are not sufficiently compelling.",
+      "coarse_parent": "business_model_economics",
+      "status": "original",
+      "first_round": "v1"
+    },
+    {
+      "label": "capital_intensity_concern",
+      "definition": "Rationales related to concerns that the startup will require substantial ongoing capital investment, increasing risk or misalignment with the investor\u2019s funding capacity.",
+      "coarse_parent": "business_model_economics",
+      "status": "original",
+      "first_round": "v1"
+    },
+    {
+      "label": "competitive_advantage_assessment",
+      "definition": "Rationales related to the investor\u2019s beliefs about what drives defensibility or sustainable competitive advantage in a market.",
+      "coarse_parent": "competition_defensibility",
+      "status": "original",
+      "first_round": "v1"
+    },
+    {
+      "label": "competitive_intensity_concern",
+      "definition": "Rationales related to concerns that the category is highly competitive, attention\u2010constrained, and requires heavy marketing to win, reducing the likelihood of outsized success.",
+      "coarse_parent": "competition_defensibility",
+      "status": "original",
+      "first_round": "v1"
+    },
+    {
+      "label": "competitive_landscape_inertia",
+      "definition": "Rationales related to the difficulty of displacing or changing behavior of incumbents due to entrenched solutions, habits, or workflows.",
+      "coarse_parent": "competition_defensibility",
+      "status": "original",
+      "first_round": "v1"
+    },
+    {
+      "label": "deal_terms_complexity_concern",
+      "definition": "Rationales related to the investor\u2019s concern that the structure or details of deal terms (e.g., convertibles, SAFEs, preferred terms) may introduce complexity, ambiguity, or unfavorable outcomes.",
+      "coarse_parent": "deal_terms_valuation",
+      "status": "original",
+      "first_round": "v1"
+    },
+    {
+      "label": "decision_context_constraint",
+      "definition": "Rationales related to constraints imposed by the specific evaluation format, environment, or context rather than the startup's fundamentals.",
+      "coarse_parent": "investor_fit_constraints",
+      "status": "original",
+      "first_round": "v1"
+    },
+    {
+      "label": "dilution_concern",
+      "definition": "Rationales related to the investor\u2019s concern that the financing plan will cause excessive dilution relative to their ownership goals or stage fit.",
+      "coarse_parent": "deal_terms_valuation",
+      "status": "original",
+      "first_round": "v1"
+    },
+    {
+      "label": "execution_risk_assessment",
+      "definition": "Rationales related to the investor\u2019s concern that the team may not yet have demonstrated sufficient execution reliability or maturity for the risk level of the round.",
+      "coarse_parent": "founder_team",
+      "status": "original",
+      "first_round": "v1"
+    },
+    {
+      "label": "founder_equity_incentive_alignment",
+      "definition": "Rationales related to ensuring founders retain sufficient ownership to remain properly motivated, aligned, and incentivized for the long-term company\u2010building journey.",
+      "coarse_parent": "founder_team",
+      "status": "original",
+      "first_round": "v1"
+    },
+    {
+      "label": "founder_execution",
+      "definition": "Rationales related to the investor\u2019s perception of the founders' execution ability, resourcefulness, pace, and operational grit.",
+      "coarse_parent": "founder_team",
+      "status": "original",
+      "first_round": "v1"
+    },
+    {
+      "label": "founder_market_fit",
+      "definition": "Rationales based on how well the founder's background, experience, or motivation aligns with the target market.",
+      "coarse_parent": "founder_team",
+      "status": "original",
+      "first_round": "v1"
+    },
+    {
+      "label": "founder_qualities",
+      "definition": "Rationales related to the investor's perception of the founders' personal traits, capabilities, or appeal.",
+      "coarse_parent": "founder_team",
+      "status": "original",
+      "first_round": "v1"
+    },
+    {
+      "label": "founder_skillset",
+      "definition": "Rationales tied to the founder's core skills or functional strengths relevant to company-building.",
+      "coarse_parent": "founder_team",
+      "status": "original",
+      "first_round": "v1"
+    },
+    {
+      "label": "fund_economics_constraint",
+      "definition": "Rationales tied to the investor\u2019s fund size, check size, or ownership goals that constrain how selective they must be when choosing investments.",
+      "coarse_parent": "investor_fit_constraints",
+      "status": "original",
+      "first_round": "v1"
+    },
+    {
+      "label": "fundraising_demand_signal",
+      "definition": "Rationales related to the investor\u2019s perception that the company will attract capital easily due to current or expected investor demand.",
+      "coarse_parent": "deal_terms_valuation",
+      "status": "original",
+      "first_round": "v1"
+    },
+    {
+      "label": "growth_projection_risk",
+      "definition": "Rationales related to concerns that the company\u2019s growth, revenue, or user\u2010scale projections are insufficiently modeled, unrealistic, or lack credible underlying assumptions.",
+      "coarse_parent": "traction_growth",
+      "status": "original",
+      "first_round": "v1"
+    },
+    {
+      "label": "investment_thesis_constraint",
+      "definition": "Rationales related to the investor's predefined investment thesis or mandate that restricts them to specific sectors, business models, or company types.",
+      "coarse_parent": "investor_fit_constraints",
+      "status": "original",
+      "first_round": "v1"
+    },
+    {
+      "label": "investment_upside_assessment",
+      "definition": "Rationales related to the investor's view that the risk\u2010reward profile offers disproportionately large potential returns relative to downside risk.",
+      "coarse_parent": "deal_terms_valuation",
+      "status": "original",
+      "first_round": "v1"
+    },
+    {
+      "label": "investor_domain_knowledge_constraint",
+      "definition": "Rationales related to the investor lacking the necessary domain knowledge to effectively assess the technology, moat, competition, or overall viability of the opportunity.",
+      "coarse_parent": "investor_fit_constraints",
+      "status": "original",
+      "first_round": "v1"
+    },
+    {
+      "label": "investor_experience_bias",
+      "definition": "Rationales related to the investor's prior personal experiences, wins, losses, or operational history that shape their judgment of a new opportunity.",
+      "coarse_parent": "investor_fit_constraints",
+      "status": "original",
+      "first_round": "v1"
+    },
+    {
+      "label": "market_entry_path_assessment",
+      "definition": "Rationales related to the investor\u2019s perception that there is a clear, reachable initial customer segment that can serve as an effective wedge into the larger market.",
+      "coarse_parent": "market_opportunity",
+      "status": "original",
+      "first_round": "v1"
+    },
+    {
+      "label": "market_problem_validation",
+      "definition": "Rationales tied to the investor perceiving the underlying problem as real, important, or painful enough to support a venture-scale solution.",
+      "coarse_parent": "market_opportunity",
+      "status": "original",
+      "first_round": "v1"
+    },
+    {
+      "label": "market_size_assessment",
+      "definition": "Rationales related to the investor\u2019s belief about the absolute or relative size and fluidity of the addressable market.",
+      "coarse_parent": "market_opportunity",
+      "status": "original",
+      "first_round": "v1"
+    },
+    {
+      "label": "market_timing",
+      "definition": "Rationales related to the investor's belief that the timing is favorable or unfavorable for this market, category, or product to emerge or scale.",
+      "coarse_parent": "timing",
+      "status": "original",
+      "first_round": "v1"
+    },
+    {
+      "label": "mission_alignment_preference",
+      "definition": "Rationales related to the investor's personal or emotional alignment with the startup's mission or purpose.",
+      "coarse_parent": "investor_fit_constraints",
+      "status": "original",
+      "first_round": "v1"
+    },
+    {
+      "label": "portfolio_conflict_constraint",
+      "definition": "Rationales related to constraints arising from existing portfolio investments that create competitive conflicts preventing a new investment.",
+      "coarse_parent": "investor_fit_constraints",
+      "status": "original",
+      "first_round": "v1"
+    },
+    {
+      "label": "product_adoption",
+      "definition": "Rationales related to evidence that end users are adopting and using the product meaningfully.",
+      "coarse_parent": "product_solution",
+      "status": "original",
+      "first_round": "v1"
+    },
+    {
+      "label": "product_appeal_assessment",
+      "definition": "Rationales related to the investor\u2019s positive perception of the product\u2019s appeal, quality, or desirability based on their own reaction.",
+      "coarse_parent": "product_solution",
+      "status": "original",
+      "first_round": "v1"
+    },
+    {
+      "label": "product_differentiation_concern",
+      "definition": "Rationales related to how unique, defensible, or hard-to-copy the product or technology is perceived to be.",
+      "coarse_parent": "competition_defensibility",
+      "status": "original",
+      "first_round": "v1"
+    },
+    {
+      "label": "product_success_factor_assessment",
+      "definition": "Rationales related to which product components or attributes are perceived as most essential to the startup's ability to succeed.",
+      "coarse_parent": "product_solution",
+      "status": "original",
+      "first_round": "v1"
+    },
+    {
+      "label": "solution_feasibility_assessment",
+      "definition": "Rationales related to the investor's belief that the proposed product or solution is technically or operationally feasible.",
+      "coarse_parent": "product_solution",
+      "status": "original",
+      "first_round": "v1"
+    },
+    {
+      "label": "stage_valuation_mismatch",
+      "definition": "Rationales related to the investor\u2019s perception of a mismatch between the company\u2019s stage of progress and the valuation being requested.",
+      "coarse_parent": "deal_terms_valuation",
+      "status": "original",
+      "first_round": "v1"
+    },
+    {
+      "label": "traction_repeatability_concern",
+      "definition": "Rationales related to concerns that current traction, usage, or revenue signals are too early or insufficiently repeatable to support scaling.",
+      "coarse_parent": "traction_growth",
+      "status": "original",
+      "first_round": "v1"
+    },
+    {
+      "label": "unit_economics_assessment",
+      "definition": "Rationales related to the investor\u2019s perception that the business benefits from structurally attractive unit economics, such as profitable or self-reinforcing customer acquisition.",
+      "coarse_parent": "business_model_economics",
+      "status": "original",
+      "first_round": "v1"
+    },
+    {
+      "label": "venture_scale_concern",
+      "definition": "Rationales related to concerns that the company\u0019s market dynamics, ceiling, or competitive landscape limit its ability to achieve venture-scale outcomes.",
+      "coarse_parent": "market_opportunity",
+      "status": "original",
+      "first_round": "v1"
+    },
+    {
+      "label": "investor_value_add_fit",
+      "definition": "Rationales about whether the investor can contribute meaningful help, networks, or domain value beyond capital to this specific company.",
+      "coarse_parent": "investor_fit_constraints",
+      "status": "promoted",
+      "first_round": "v_final",
+      "support_episodes": 12,
+      "support_vcs": [
+        "jillian-manus-structure-capital",
+        "elizabeth-yin-hustle-fund",
+        "cyan-banister-long-journey-ventures",
+        "phil-nadel",
+        "jesse-middleton-flybridge"
+      ]
+    },
+    {
+      "label": "founder_coachability_assessment",
+      "definition": "Rationales about how receptive the founder is to feedback, advice, or course-correction and their ability to read and respond to the room.",
+      "coarse_parent": "founder_team",
+      "status": "promoted",
+      "first_round": "v_final",
+      "support_episodes": 6,
+      "support_vcs": [
+        "jillian-manus-structure-capital",
+        "phil-nadel",
+        "charles-hudson-precursor-ventures",
+        "elizabeth-yin-hustle-fund"
+      ]
+    },
+    {
+      "label": "founder_communication_quality",
+      "definition": "Rationales about the founder's clarity, articulation, command of their numbers, and storytelling ability when presenting the business.",
+      "coarse_parent": "founder_team",
+      "status": "promoted",
+      "first_round": "v_final",
+      "support_episodes": 9,
+      "support_vcs": [
+        "jillian-manus-structure-capital",
+        "charles-hudson-precursor-ventures",
+        "elizabeth-yin-hustle-fund",
+        "cyan-banister-long-journey-ventures",
+        "phil-nadel"
+      ]
+    },
+    {
+      "label": "founder_motivation_authenticity",
+      "definition": "Rationales about the genuineness, personal connection, or origin of the founder's drive to work on this particular problem.",
+      "coarse_parent": "founder_team",
+      "status": "promoted",
+      "first_round": "v_final",
+      "support_episodes": 12,
+      "support_vcs": [
+        "cyan-banister-long-journey-ventures",
+        "charles-hudson-precursor-ventures",
+        "elizabeth-yin-hustle-fund",
+        "jesse-middleton-flybridge",
+        "jillian-manus-structure-capital"
+      ]
+    },
+    {
+      "label": "go_to_market_strategy_assessment",
+      "definition": "Rationales about how the company will reach and acquire customers, including sales motion, channel scalability, and cost of acquisition.",
+      "coarse_parent": "business_model_economics",
+      "status": "promoted",
+      "first_round": "v_final",
+      "support_episodes": 12,
+      "support_vcs": [
+        "charles-hudson-precursor-ventures",
+        "elizabeth-yin-hustle-fund",
+        "phil-nadel",
+        "jillian-manus-structure-capital",
+        "jesse-middleton-flybridge"
+      ]
+    },
+    {
+      "label": "founder_investor_vision_alignment",
+      "definition": "Rationales about whether the founder's intended direction or focus for the company aligns with the path the investor believes in or would back.",
+      "coarse_parent": "investor_fit_constraints",
+      "status": "promoted",
+      "first_round": "v_final",
+      "support_episodes": 9,
+      "support_vcs": [
+        "charles-hudson-precursor-ventures",
+        "elizabeth-yin-hustle-fund",
+        "jillian-manus-structure-capital",
+        "phil-nadel"
+      ]
+    },
+    {
+      "label": "corporate_structure_constraint",
+      "definition": "Rationales tied to the company's legal entity, incorporation, jurisdiction, or IP-ownership structure as a barrier or condition to investing.",
+      "coarse_parent": "deal_terms_valuation",
+      "status": "promoted",
+      "first_round": "v_final",
+      "support_episodes": 3,
+      "support_vcs": [
+        "charles-hudson-precursor-ventures",
+        "elizabeth-yin-hustle-fund",
+        "jillian-manus-structure-capital"
+      ]
+    }
+  ],
+  "investor_name": "Cyan",
+  "investor_aliases": [
+    "Cyan",
+    "Cyan Banister"
+  ]
+}

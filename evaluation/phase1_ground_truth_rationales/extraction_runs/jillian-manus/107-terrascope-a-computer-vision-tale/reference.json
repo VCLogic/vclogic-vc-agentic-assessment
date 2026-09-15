@@ -1,0 +1,262 @@
+{
+  "schema": "transcript-observed-rationales-v1",
+  "episode_slug": "107-terrascope-a-computer-vision-tale",
+  "transcript_sha256": "a2ed6216692d3ad2590935a98168d41db9c1ba23ae2ace581cc6c3218d457edc",
+  "window": {
+    "start_turn": 6,
+    "end_turn": 112
+  },
+  "observed_decision": "Out",
+  "decision_evidence_ids": [
+    "E8"
+  ],
+  "evidence_registry": [
+    {
+      "evidence_id": "E1",
+      "turn_index": 34,
+      "speaker": "Jillian",
+      "text": "Talk to me a little bit more about this computer visualization"
+    },
+    {
+      "evidence_id": "E2",
+      "turn_index": 50,
+      "speaker": "Jillian",
+      "text": "I don't think they'd have to pivot. I think that they would add this as an option to search for rural properties. No?"
+    },
+    {
+      "evidence_id": "E3",
+      "turn_index": 58,
+      "speaker": "Jillian",
+      "text": "Okay. And how long have you been up -"
+    },
+    {
+      "evidence_id": "E4",
+      "turn_index": 64,
+      "speaker": "Jillian",
+      "text": "What have you been doing wrong? Because you only had one sale."
+    },
+    {
+      "evidence_id": "E5",
+      "turn_index": 80,
+      "speaker": "Jillian",
+      "text": "You hit upon the insurance application, which is very compelling. Obviously this would be able to inform insurance companies of the liabilities of properties. Are you thinking about licensing these capabilities to them?"
+    },
+    {
+      "evidence_id": "E6",
+      "turn_index": 95,
+      "speaker": "Jillian",
+      "text": "100%"
+    },
+    {
+      "evidence_id": "E7",
+      "turn_index": 109,
+      "speaker": "Jillian",
+      "text": "I think, when Airbnb began, Brian actually lived with these hosts. He went and he lived like a host. So I would live like an agent and get into their head. For me, I think the B2B is your bigger sale - I think licensing this to industries that are trying to assess these rural properties from liabilities in terms of for fire liabilities, right, for building road infrastructure, for urban planning, for - I mean, there are just so many different applications for this data. And I think that's really, to me, the big value of this company. I don't see this as selling to a customer looking for a property. I think this could be much, much bigger."
+    },
+    {
+      "evidence_id": "E8",
+      "turn_index": 112,
+      "speaker": "Jillian",
+      "text": "I'm out!"
+    }
+  ],
+  "rationales": [
+    {
+      "rationale_id": "R1",
+      "rationale_label": "solution_feasibility_assessment",
+      "utterance_type": "question",
+      "activation": "queried",
+      "direction": "neutral",
+      "salience": "secondary",
+      "confidence": 0.98,
+      "evidence_ids": [
+        "E1"
+      ],
+      "explanation": "Requests more detail about the computer-vision capability without expressing a judgment.",
+      "decision_link": "none"
+    },
+    {
+      "rationale_id": "R2",
+      "rationale_label": "product_differentiation_concern",
+      "utterance_type": "assessment",
+      "activation": "evaluated",
+      "direction": "negative",
+      "salience": "secondary",
+      "confidence": 0.96,
+      "evidence_ids": [
+        "E2"
+      ],
+      "explanation": "States that Zillow could add rural search as an option, indicating the feature may be relatively easy for the incumbent to replicate.",
+      "decision_link": "none"
+    },
+    {
+      "rationale_id": "R3",
+      "rationale_label": "traction_repeatability_concern",
+      "utterance_type": "question",
+      "activation": "queried",
+      "direction": "neutral",
+      "salience": "secondary",
+      "confidence": 0.96,
+      "evidence_ids": [
+        "E3"
+      ],
+      "explanation": "Asks about the duration of the product's operation while evaluating the limited traction timeline.",
+      "decision_link": "none"
+    },
+    {
+      "rationale_id": "R4",
+      "rationale_label": "go_to_market_strategy_assessment",
+      "utterance_type": "question",
+      "activation": "queried",
+      "direction": "neutral",
+      "salience": "primary",
+      "confidence": 0.98,
+      "evidence_ids": [
+        "E4"
+      ],
+      "explanation": "Questions what the company has been doing wrong in customer acquisition and sales execution.",
+      "decision_link": "none"
+    },
+    {
+      "rationale_id": "R5",
+      "rationale_label": "traction_repeatability_concern",
+      "utterance_type": "question",
+      "activation": "queried",
+      "direction": "neutral",
+      "salience": "primary",
+      "confidence": 0.99,
+      "evidence_ids": [
+        "E4"
+      ],
+      "explanation": "Explicitly focuses on the fact that the company has generated only one sale.",
+      "decision_link": "none"
+    },
+    {
+      "rationale_id": "R6",
+      "rationale_label": "product_appeal_assessment",
+      "utterance_type": "assessment",
+      "activation": "evaluated",
+      "direction": "positive",
+      "salience": "primary",
+      "confidence": 0.99,
+      "evidence_ids": [
+        "E5"
+      ],
+      "explanation": "Describes the insurance application as compelling and highlights its usefulness for assessing property liabilities.",
+      "decision_link": "none"
+    },
+    {
+      "rationale_id": "R7",
+      "rationale_label": "solution_feasibility_assessment",
+      "utterance_type": "assessment",
+      "activation": "evaluated",
+      "direction": "positive",
+      "salience": "secondary",
+      "confidence": 0.97,
+      "evidence_ids": [
+        "E5"
+      ],
+      "explanation": "States that the capability could inform insurance companies about property liabilities.",
+      "decision_link": "none"
+    },
+    {
+      "rationale_id": "R8",
+      "rationale_label": "business_model_assessment",
+      "utterance_type": "question",
+      "activation": "queried",
+      "direction": "neutral",
+      "salience": "secondary",
+      "confidence": 0.98,
+      "evidence_ids": [
+        "E5"
+      ],
+      "explanation": "Asks whether the computer-vision capabilities could be licensed to insurance companies.",
+      "decision_link": "none"
+    },
+    {
+      "rationale_id": "R9",
+      "rationale_label": "go_to_market_strategy_assessment",
+      "utterance_type": "assessment",
+      "activation": "evaluated",
+      "direction": "negative",
+      "salience": "primary",
+      "confidence": 0.91,
+      "evidence_ids": [
+        "E6"
+      ],
+      "explanation": "Agrees with the panel's stated concern about insufficient customer acquisition and closed volume.",
+      "decision_link": "implicit"
+    },
+    {
+      "rationale_id": "R10",
+      "rationale_label": "go_to_market_strategy_assessment",
+      "utterance_type": "assessment",
+      "activation": "evaluated",
+      "direction": "neutral",
+      "salience": "secondary",
+      "confidence": 0.9,
+      "evidence_ids": [
+        "E7"
+      ],
+      "explanation": "Recommends living like an agent and developing direct understanding of agents' perspectives.",
+      "decision_link": "none"
+    },
+    {
+      "rationale_id": "R11",
+      "rationale_label": "market_entry_path_assessment",
+      "utterance_type": "assessment",
+      "activation": "evaluated",
+      "direction": "positive",
+      "salience": "primary",
+      "confidence": 0.98,
+      "evidence_ids": [
+        "E7"
+      ],
+      "explanation": "Identifies B2B licensing to industries assessing rural-property liabilities and infrastructure as the larger commercial opportunity.",
+      "decision_link": "none"
+    },
+    {
+      "rationale_id": "R12",
+      "rationale_label": "market_size_assessment",
+      "utterance_type": "assessment",
+      "activation": "evaluated",
+      "direction": "positive",
+      "salience": "primary",
+      "confidence": 0.97,
+      "evidence_ids": [
+        "E7"
+      ],
+      "explanation": "States that the data has many applications and that the opportunity could be much bigger than consumer property search.",
+      "decision_link": "none"
+    },
+    {
+      "rationale_id": "R13",
+      "rationale_label": "founder_investor_vision_alignment",
+      "utterance_type": "assessment",
+      "activation": "evaluated",
+      "direction": "negative",
+      "salience": "primary",
+      "confidence": 0.98,
+      "evidence_ids": [
+        "E7"
+      ],
+      "explanation": "Rejects the current framing as selling to individual property seekers and favors a B2B-oriented company direction.",
+      "decision_link": "implicit"
+    }
+  ],
+  "unmapped_utterances": [
+    "Fantastic.",
+    "What's your name?",
+    "Kehan! Nice to meet you.",
+    "Yeah.",
+    "Haunted? As in ghostly woo?",
+    "Right.",
+    "- Google.",
+    "I was going to ask that.",
+    "One transaction.",
+    "Okay.",
+    "Yes."
+  ],
+  "audit_flags": [],
+  "annotation_summary": "Jillian's Out decision is explicitly evidenced at turn 112. Her substantive comments identify limited sales and customer-acquisition concerns, possible Zillow replicability, and a stronger preference for B2B licensing and broader industrial applications."
+}

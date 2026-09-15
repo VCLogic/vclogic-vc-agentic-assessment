@@ -1,0 +1,138 @@
+{
+  "schema": "transcript-observed-rationales-v1",
+  "episode_slug": "38-a-beauty-industry-veteran-goes-rogue",
+  "transcript_sha256": "c605076472c373ca32e86f43f02059492174634fc75ef767a4b286810c2d5a15",
+  "window": {
+    "start_turn": 0,
+    "end_turn": 94
+  },
+  "observed_decision": "Out",
+  "decision_evidence_ids": [
+    "E94"
+  ],
+  "evidence_registry": [
+    {
+      "evidence_id": "E76",
+      "turn_index": 76,
+      "speaker": "Charles",
+      "text": "Neutral."
+    },
+    {
+      "evidence_id": "E92",
+      "turn_index": 92,
+      "speaker": "Charles",
+      "text": "So I think some pitches work because the longer the founder talks the more confidence I have that they’ve figured things out, and the more confidence I have that their expertise is becoming apparent to me. And I would say your pitch follows that arc. In the beginning I was like, this sounds interesting but I’m not seeing... It’s not coming out to me sort of how you’re leveraging all the things you learned in the past, and by the midpoint I’m like, she’s an expert. She is at the forefront of a movement. And we just spent a bunch of time internally looking at cosmetics. And to Jillian’s point, the thing that was surprising to me, is that there’s basically, this is not like a software or marketplace winner take all market. These categories just end up with a bunch of winners. Which is why I think you keep seeing whether it’s nail polish or make up, you keep seeing new companies born on Instagram, born on social media, rocketing to huge sales volumes in a fairly short period of time. Well, why is that different? Oh, they had the right spokesperson, they had the right branding, they hit the right nerve, they really spoke to this customer. So I don’t know that you’ll build the global domination brand in this space. But maybe nobody will. Maybe there will be eight or ten that are credible."
+    },
+    {
+      "evidence_id": "E94",
+      "turn_index": 94,
+      "speaker": "Charles",
+      "text": "And so I'm going to pass for now. But I actually believe if we spent some more time together, you could get me to a yes."
+    },
+    {
+      "evidence_id": "E942",
+      "turn_index": 94,
+      "speaker": "Charles",
+      "text": "But cosmetics is a new category for me."
+    },
+    {
+      "evidence_id": "E943",
+      "turn_index": 94,
+      "speaker": "Charles",
+      "text": "And I try to pay attention to momentum of my own feelings in a pitch. And the longer you talked, the more I believed what you were saying. So I'm going to pass for now, but I would like to spend more time with you to see if I could get to a yes."
+    }
+  ],
+  "rationales": [
+    {
+      "rationale_id": "R1",
+      "rationale_label": "founder_communication_quality",
+      "utterance_type": "assessment",
+      "activation": "evaluated",
+      "direction": "positive",
+      "salience": "primary",
+      "confidence": 0.99,
+      "evidence_ids": [
+        "E92",
+        "E943"
+      ],
+      "explanation": "Charles explicitly says the pitch increased his confidence as the founder’s expertise became apparent and that his belief grew the longer she spoke.",
+      "decision_link": "implicit"
+    },
+    {
+      "rationale_id": "R2",
+      "rationale_label": "founder_market_fit",
+      "utterance_type": "assessment",
+      "activation": "evaluated",
+      "direction": "positive",
+      "salience": "secondary",
+      "confidence": 0.96,
+      "evidence_ids": [
+        "E92"
+      ],
+      "explanation": "Charles assesses the founder as an expert at the forefront of the cosmetics movement, directly connecting her experience to the market.",
+      "decision_link": "implicit"
+    },
+    {
+      "rationale_id": "R3",
+      "rationale_label": "competitive_advantage_assessment",
+      "utterance_type": "assessment",
+      "activation": "evaluated",
+      "direction": "positive",
+      "salience": "primary",
+      "confidence": 0.94,
+      "evidence_ids": [
+        "E92"
+      ],
+      "explanation": "Charles says cosmetics is not a winner-take-all category and identifies spokesperson fit, branding, resonance, and customer connection as factors that can produce credible winners.",
+      "decision_link": "implicit"
+    },
+    {
+      "rationale_id": "R4",
+      "rationale_label": "go_to_market_strategy_assessment",
+      "utterance_type": "assessment",
+      "activation": "evaluated",
+      "direction": "positive",
+      "salience": "secondary",
+      "confidence": 0.91,
+      "evidence_ids": [
+        "E92"
+      ],
+      "explanation": "Charles points to companies born on Instagram and social media that reached high sales quickly, highlighting brand and customer-facing execution as viable routes to market.",
+      "decision_link": "implicit"
+    },
+    {
+      "rationale_id": "R5",
+      "rationale_label": "venture_scale_concern",
+      "utterance_type": "assessment",
+      "activation": "evaluated",
+      "direction": "negative",
+      "salience": "secondary",
+      "confidence": 0.9,
+      "evidence_ids": [
+        "E92"
+      ],
+      "explanation": "Charles expresses uncertainty that the company will become a globally dominant brand, while allowing that several credible companies may succeed in the category.",
+      "decision_link": "implicit"
+    },
+    {
+      "rationale_id": "R6",
+      "rationale_label": "investor_domain_knowledge_constraint",
+      "utterance_type": "decision_reason",
+      "activation": "evaluated",
+      "direction": "negative",
+      "salience": "primary",
+      "confidence": 0.99,
+      "evidence_ids": [
+        "E942",
+        "E94"
+      ],
+      "explanation": "Charles directly states that cosmetics is a new category for him and uses that limitation to explain why he is passing for now.",
+      "decision_link": "explicit"
+    }
+  ],
+  "unmapped_utterances": [
+    "Neutral."
+  ],
+  "audit_flags": [],
+  "annotation_summary": "Charles’s Out decision is explicitly tied to cosmetics being a new category for him. His improving confidence in the founder and positive view of the category create openness to a future yes, but do not overcome the immediate domain-knowledge constraint."
+}

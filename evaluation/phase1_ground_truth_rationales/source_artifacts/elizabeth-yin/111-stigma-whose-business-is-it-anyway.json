@@ -1,0 +1,168 @@
+{
+  "schema": "transcript-observed-rationales-v1",
+  "episode_slug": "111-stigma-whose-business-is-it-anyway",
+  "transcript_sha256": "b4e0aba5e8e7b4ee45001b044e9201d20d1883f51ca51f5b098af38eeff21686",
+  "window": {
+    "start_turn": 7,
+    "end_turn": 56
+  },
+  "observed_decision": "Out",
+  "decision_evidence_ids": [
+    "E5",
+    "E6",
+    "E7"
+  ],
+  "evidence_registry": [
+    {
+      "evidence_id": "E1",
+      "turn_index": 13,
+      "speaker": "Elizabeth",
+      "text": "Can you show us a demo?"
+    },
+    {
+      "evidence_id": "E2",
+      "turn_index": 54,
+      "speaker": "Elizabeth",
+      "text": "Can we go back to um the monetization? I think my concern is around, you know, how do you convert these pilots into contracts? Like, what data do you need to show in order for them to be convinced to pay for this? // Is there something you can point to that suggests that watching videos like these leads you to // basically solving a problem such that it costs the employer less?"
+    },
+    {
+      "evidence_id": "E3",
+      "turn_index": 56,
+      "speaker": "Elizabeth",
+      "text": "Ariana, I really love the mission that you have here and I think that you're the right person to do this."
+    },
+    {
+      "evidence_id": "E4",
+      "turn_index": 56,
+      "speaker": "Elizabeth",
+      "text": "I think for me the part that I'm struggling to get conviction on is, you know, employers, when they consider the things they purchase, // it's a tough sell unless there's some strong ROI."
+    },
+    {
+      "evidence_id": "E5",
+      "turn_index": 56,
+      "speaker": "Elizabeth",
+      "text": "And I hear you that there could be some strong ROI, but it feels like there are a few hoops that, you know, one needs to jump through to get that conviction that some people watching certain videos will reduce health care costs in this way."
+    },
+    {
+      "evidence_id": "E6",
+      "turn_index": 56,
+      "speaker": "Elizabeth",
+      "text": "And I feel like I'm not quite there."
+    },
+    {
+      "evidence_id": "E7",
+      "turn_index": 56,
+      "speaker": "Elizabeth",
+      "text": "So for that reason, I’m out."
+    }
+  ],
+  "rationales": [
+    {
+      "rationale_id": "R1",
+      "rationale_label": "product_appeal_assessment",
+      "utterance_type": "question",
+      "activation": "queried",
+      "direction": "neutral",
+      "salience": "secondary",
+      "confidence": 0.98,
+      "evidence_ids": [
+        "E1"
+      ],
+      "explanation": "Elizabeth requested a product demo to evaluate the offering.",
+      "decision_link": "none"
+    },
+    {
+      "rationale_id": "R2",
+      "rationale_label": "business_model_assessment",
+      "utterance_type": "question",
+      "activation": "queried",
+      "direction": "neutral",
+      "salience": "secondary",
+      "confidence": 0.99,
+      "evidence_ids": [
+        "E2"
+      ],
+      "explanation": "Elizabeth asked how pilots would convert into paying contracts and what evidence would support monetization.",
+      "decision_link": "none"
+    },
+    {
+      "rationale_id": "R3",
+      "rationale_label": "go_to_market_strategy_assessment",
+      "utterance_type": "question",
+      "activation": "queried",
+      "direction": "neutral",
+      "salience": "secondary",
+      "confidence": 0.96,
+      "evidence_ids": [
+        "E2"
+      ],
+      "explanation": "Elizabeth questioned the employer sales-conversion path from pilots to contracts.",
+      "decision_link": "none"
+    },
+    {
+      "rationale_id": "R4",
+      "rationale_label": "product_success_factor_assessment",
+      "utterance_type": "question",
+      "activation": "queried",
+      "direction": "neutral",
+      "salience": "secondary",
+      "confidence": 0.95,
+      "evidence_ids": [
+        "E2"
+      ],
+      "explanation": "Elizabeth asked what measurable evidence would demonstrate that watching the videos reduces employer costs.",
+      "decision_link": "none"
+    },
+    {
+      "rationale_id": "R5",
+      "rationale_label": "mission_alignment_preference",
+      "utterance_type": "assessment",
+      "activation": "evaluated",
+      "direction": "positive",
+      "salience": "secondary",
+      "confidence": 0.99,
+      "evidence_ids": [
+        "E3"
+      ],
+      "explanation": "Elizabeth explicitly expressed strong alignment with the mission.",
+      "decision_link": "none"
+    },
+    {
+      "rationale_id": "R6",
+      "rationale_label": "founder_qualities",
+      "utterance_type": "assessment",
+      "activation": "evaluated",
+      "direction": "positive",
+      "salience": "secondary",
+      "confidence": 0.98,
+      "evidence_ids": [
+        "E3"
+      ],
+      "explanation": "Elizabeth positively assessed Ariana as the right person to pursue the mission.",
+      "decision_link": "none"
+    },
+    {
+      "rationale_id": "R7",
+      "rationale_label": "business_viability_concern",
+      "utterance_type": "decision_reason",
+      "activation": "evaluated",
+      "direction": "negative",
+      "salience": "primary",
+      "confidence": 0.99,
+      "evidence_ids": [
+        "E4",
+        "E5",
+        "E6",
+        "E7"
+      ],
+      "explanation": "Elizabeth lacked conviction that employers would buy without strong ROI and that the videos would demonstrably reduce health care costs; she explicitly tied this unresolved concern to her decision to leave the deal.",
+      "decision_link": "explicit"
+    }
+  ],
+  "unmapped_utterances": [
+    "Anything.",
+    "Like in Slack, yeah."
+  ],
+  "audit_flags": [],
+  "annotation_summary": "Elizabeth showed positive mission and founder assessments, but her explicit reason for going out was insufficient conviction that the employer ROI and health-care-cost reduction case was demonstrable."
+}

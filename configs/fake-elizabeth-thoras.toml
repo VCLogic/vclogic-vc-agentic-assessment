@@ -1,0 +1,23 @@
+[run]
+vc_slug = "elizabeth-yin-hustle-fund"
+episode_slug = "135-thoras-ai-the-twin-effect"
+input_root = "inputs"
+output_root = "outputs/fake-elizabeth-thoras"
+checkpoint_path = "outputs/fake-elizabeth-thoras/checkpoints.sqlite"
+
+[provider]
+kind = "fake"
+model = "deterministic-fixture"
+
+[phase1]
+min_iterations = 1
+max_iterations = 2
+
+[phase2]
+min_iterations = 1
+max_iterations = 2
+
+[retrieval]
+top_k = 4
+max_exact_reads = 12
+

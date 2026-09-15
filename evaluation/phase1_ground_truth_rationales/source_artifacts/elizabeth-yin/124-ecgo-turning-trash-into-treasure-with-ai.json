@@ -1,0 +1,249 @@
+{
+  "schema": "transcript-observed-rationales-v1",
+  "episode_slug": "124-ecgo-turning-trash-into-treasure-with-ai",
+  "transcript_sha256": "f62ec8f0d20f6d002bb674588f9031d05bb9bdb69357a5c449072fa79dd9082c",
+  "window": {
+    "start_turn": 3,
+    "end_turn": 97
+  },
+  "observed_decision": "Out",
+  "decision_evidence_ids": [
+    "E12"
+  ],
+  "evidence_registry": [
+    {
+      "evidence_id": "E1",
+      "turn_index": 13,
+      "speaker": "Elizabeth",
+      "text": "Can we try like a quick test? Even let's just take this Starbucks coffee cup. I don't know if it's recyclable. There's the plastic top thing, yeah. Like what - would you app tell me this?"
+    },
+    {
+      "evidence_id": "E2",
+      "turn_index": 15,
+      "speaker": "Elizabeth",
+      "text": "I took a picture and it is thinking about it. And it came up with plastic. Plastic take-out cup is what it says."
+    },
+    {
+      "evidence_id": "E3",
+      "turn_index": 17,
+      "speaker": "Elizabeth",
+      "text": "Everything in green is recyclable?"
+    },
+    {
+      "evidence_id": "E4",
+      "turn_index": 21,
+      "speaker": "Elizabeth",
+      "text": "Well, it's amazing to me just how little I know about recycling, because it's saying that the plastic take-out cup is recyclable, but the paper cup is not."
+    },
+    {
+      "evidence_id": "E5",
+      "turn_index": 34,
+      "speaker": "Elizabeth",
+      "text": "How - how many downloads have you gotten on these campuses?"
+    },
+    {
+      "evidence_id": "E6",
+      "turn_index": 37,
+      "speaker": "Elizabeth",
+      "text": "Does a university benefit in any monetary way by recycling more?"
+    },
+    {
+      "evidence_id": "E7",
+      "turn_index": 40,
+      "speaker": "Elizabeth",
+      "text": "Is it just feel good? Or is - are there other things?"
+    },
+    {
+      "evidence_id": "E8",
+      "turn_index": 42,
+      "speaker": "Elizabeth",
+      "text": "Oh wow."
+    },
+    {
+      "evidence_id": "E9",
+      "turn_index": 62,
+      "speaker": "Elizabeth",
+      "text": "House points."
+    },
+    {
+      "evidence_id": "E10",
+      "turn_index": 87,
+      "speaker": "Elizabeth",
+      "text": "Sprite is owned by Coke."
+    },
+    {
+      "evidence_id": "E11",
+      "turn_index": 95,
+      "speaker": "Elizabeth",
+      "text": "Nicole, I really like what you're doing, and I'm very impressed by your sales to these two campuses and also this corporate. I think that's just honestly really hard to do and I think you should, you know, definitely pat yourself on the back, even though you may not have optimized it or tried to optimize it. The thing I'm trying to really grapple with is the customer acquisition. And there a couple of different customers. It's sort of this B2B2C model, which - it gets a little bit tricky around like how do you get to sort of the next layer of customer of the students. And I think people had some great ideas on how to get there, I just think it's going to be too pricey to try to - like, how do you go from 1500 to a whole campus without increasing that spend? I think I'm having a hard time in my mind kind of reconciling those numbers."
+    },
+    {
+      "evidence_id": "E12",
+      "turn_index": 97,
+      "speaker": "Elizabeth",
+      "text": "So I'm out."
+    }
+  ],
+  "rationales": [
+    {
+      "rationale_id": "R1",
+      "rationale_label": "solution_feasibility_assessment",
+      "utterance_type": "question",
+      "activation": "queried",
+      "direction": "neutral",
+      "salience": "secondary",
+      "confidence": 0.99,
+      "evidence_ids": [
+        "E1"
+      ],
+      "explanation": "Elizabeth asks whether the app can identify the disposal guidance for a coffee cup.",
+      "decision_link": "none"
+    },
+    {
+      "rationale_id": "R2",
+      "rationale_label": "solution_feasibility_assessment",
+      "utterance_type": "assessment",
+      "activation": "evaluated",
+      "direction": "neutral",
+      "salience": "secondary",
+      "confidence": 0.97,
+      "evidence_ids": [
+        "E2"
+      ],
+      "explanation": "Elizabeth reports the app's observed output after photographing the cup.",
+      "decision_link": "none"
+    },
+    {
+      "rationale_id": "R3",
+      "rationale_label": "solution_feasibility_assessment",
+      "utterance_type": "question",
+      "activation": "queried",
+      "direction": "neutral",
+      "salience": "secondary",
+      "confidence": 0.99,
+      "evidence_ids": [
+        "E3"
+      ],
+      "explanation": "Elizabeth asks for clarification about how the app's color coding works.",
+      "decision_link": "none"
+    },
+    {
+      "rationale_id": "R4",
+      "rationale_label": "solution_feasibility_assessment",
+      "utterance_type": "assessment",
+      "activation": "evaluated",
+      "direction": "neutral",
+      "salience": "secondary",
+      "confidence": 0.94,
+      "evidence_ids": [
+        "E4"
+      ],
+      "explanation": "Elizabeth observes the app distinguishing recyclable plastic from a non-recyclable paper cup.",
+      "decision_link": "none"
+    },
+    {
+      "rationale_id": "R5",
+      "rationale_label": "product_adoption",
+      "utterance_type": "question",
+      "activation": "queried",
+      "direction": "neutral",
+      "salience": "secondary",
+      "confidence": 0.99,
+      "evidence_ids": [
+        "E5"
+      ],
+      "explanation": "Elizabeth asks about the number of campus downloads.",
+      "decision_link": "none"
+    },
+    {
+      "rationale_id": "R6",
+      "rationale_label": "business_model_assessment",
+      "utterance_type": "question",
+      "activation": "queried",
+      "direction": "neutral",
+      "salience": "secondary",
+      "confidence": 0.98,
+      "evidence_ids": [
+        "E6"
+      ],
+      "explanation": "Elizabeth asks whether the university customer receives monetary benefit from greater recycling.",
+      "decision_link": "none"
+    },
+    {
+      "rationale_id": "R7",
+      "rationale_label": "business_model_assessment",
+      "utterance_type": "question",
+      "activation": "queried",
+      "direction": "neutral",
+      "salience": "secondary",
+      "confidence": 0.98,
+      "evidence_ids": [
+        "E7"
+      ],
+      "explanation": "Elizabeth asks whether the customer value is limited to a feel-good benefit or includes other benefits.",
+      "decision_link": "none"
+    },
+    {
+      "rationale_id": "R8",
+      "rationale_label": "product_success_factor_assessment",
+      "utterance_type": "assessment",
+      "activation": "evaluated",
+      "direction": "positive",
+      "salience": "secondary",
+      "confidence": 0.9,
+      "evidence_ids": [
+        "E9"
+      ],
+      "explanation": "Elizabeth proposes house points as a social engagement mechanic.",
+      "decision_link": "none"
+    },
+    {
+      "rationale_id": "R9",
+      "rationale_label": "founder_execution",
+      "utterance_type": "assessment",
+      "activation": "evaluated",
+      "direction": "positive",
+      "salience": "secondary",
+      "confidence": 0.99,
+      "evidence_ids": [
+        "E11"
+      ],
+      "explanation": "Elizabeth explicitly says she is impressed by Nicole's sales to two campuses and a corporate customer and describes that as hard to do.",
+      "decision_link": "none"
+    },
+    {
+      "rationale_id": "R10",
+      "rationale_label": "go_to_market_strategy_assessment",
+      "utterance_type": "decision_reason",
+      "activation": "evaluated",
+      "direction": "negative",
+      "salience": "primary",
+      "confidence": 0.99,
+      "evidence_ids": [
+        "E11"
+      ],
+      "explanation": "Elizabeth identifies customer acquisition as the central concern, says the B2B2C model is tricky in reaching students, and doubts the cost of scaling from 1,500 users to a whole campus.",
+      "decision_link": "explicit"
+    },
+    {
+      "rationale_id": "R11",
+      "rationale_label": "unit_economics_assessment",
+      "utterance_type": "decision_reason",
+      "activation": "evaluated",
+      "direction": "negative",
+      "salience": "secondary",
+      "confidence": 0.95,
+      "evidence_ids": [
+        "E11"
+      ],
+      "explanation": "Elizabeth says reaching a whole campus without increasing acquisition spend may be too pricey and that she cannot reconcile the numbers.",
+      "decision_link": "explicit"
+    }
+  ],
+  "unmapped_utterances": [
+    "Oh wow.",
+    "Sprite is owned by Coke."
+  ],
+  "audit_flags": [],
+  "annotation_summary": "Elizabeth's Out decision is explicitly tied to customer-acquisition difficulty and the perceived cost of scaling student adoption within the B2B2C model. She also expressed positive founder-execution feedback."
+}

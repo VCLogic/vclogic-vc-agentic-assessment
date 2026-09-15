@@ -1,0 +1,178 @@
+{
+  "schema": "transcript-observed-rationales-v1",
+  "episode_slug": "52-fitbit-for-dogs",
+  "transcript_sha256": "686b39fb4958e80917d36d6afb28fa0af91513d8f6f52d9e6bd8af5f9be477bc",
+  "window": {
+    "start_turn": 0,
+    "end_turn": 77
+  },
+  "observed_decision": "Out",
+  "decision_evidence_ids": [
+    "E9"
+  ],
+  "evidence_registry": [
+    {
+      "evidence_id": "E1",
+      "turn_index": 28,
+      "speaker": "Charles",
+      "text": "What are the margins like on a product like this?"
+    },
+    {
+      "evidence_id": "E2",
+      "turn_index": 44,
+      "speaker": "Charles",
+      "text": "How do you envision the consumer taking that data and then taking sort of the next step?"
+    },
+    {
+      "evidence_id": "E3",
+      "turn_index": 69,
+      "speaker": "Charles",
+      "text": "Remind me how much you’re raising?"
+    },
+    {
+      "evidence_id": "E4",
+      "turn_index": 77,
+      "speaker": "Charles",
+      "text": "So I’m really active in pet."
+    },
+    {
+      "evidence_id": "E5",
+      "turn_index": 77,
+      "speaker": "Charles",
+      "text": "I’ve learned a ton about the pet space through Fuzzy."
+    },
+    {
+      "evidence_id": "E6",
+      "turn_index": 77,
+      "speaker": "Charles",
+      "text": "Pretty much everything on the high end of pet is doing well."
+    },
+    {
+      "evidence_id": "E7",
+      "turn_index": 77,
+      "speaker": "Charles",
+      "text": "And I think for the trends that you mention that people are spending incredible amounts of money on pet."
+    },
+    {
+      "evidence_id": "E8",
+      "turn_index": 77,
+      "speaker": "Charles",
+      "text": "We’ve also bought, 10% of our investments have a hardware component in them."
+    },
+    {
+      "evidence_id": "E9",
+      "turn_index": 77,
+      "speaker": "Charles",
+      "text": "And so I’m going to pass. But for a really specific reason. Which is I think you’re going to need more money than you’re asking for right now."
+    },
+    {
+      "evidence_id": "E10",
+      "turn_index": 77,
+      "speaker": "Charles",
+      "text": "Because post launch hardware, it never goes the way that you think it will."
+    },
+    {
+      "evidence_id": "E11",
+      "turn_index": 77,
+      "speaker": "Charles",
+      "text": "And so I’m passing, because I’d actually like to talk to you about raising more money."
+    }
+  ],
+  "rationales": [
+    {
+      "rationale_id": "R1",
+      "rationale_label": "unit_economics_assessment",
+      "utterance_type": "question",
+      "activation": "queried",
+      "direction": "neutral",
+      "salience": "secondary",
+      "confidence": 0.99,
+      "evidence_ids": [
+        "E1"
+      ],
+      "explanation": "Charles asks about product margins, probing unit economics without expressing a judgment.",
+      "decision_link": "none"
+    },
+    {
+      "rationale_id": "R2",
+      "rationale_label": "product_success_factor_assessment",
+      "utterance_type": "question",
+      "activation": "queried",
+      "direction": "neutral",
+      "salience": "secondary",
+      "confidence": 0.95,
+      "evidence_ids": [
+        "E2"
+      ],
+      "explanation": "Charles asks how consumers would use the data and what next action it would enable, without stating an assessment.",
+      "decision_link": "none"
+    },
+    {
+      "rationale_id": "R3",
+      "rationale_label": "capital_intensity_concern",
+      "utterance_type": "question",
+      "activation": "queried",
+      "direction": "neutral",
+      "salience": "secondary",
+      "confidence": 0.98,
+      "evidence_ids": [
+        "E3"
+      ],
+      "explanation": "Charles asks for the amount being raised, probing the financing requirement without expressing a judgment.",
+      "decision_link": "none"
+    },
+    {
+      "rationale_id": "R4",
+      "rationale_label": "investor_experience_bias",
+      "utterance_type": "assessment",
+      "activation": "evaluated",
+      "direction": "neutral",
+      "salience": "secondary",
+      "confidence": 0.96,
+      "evidence_ids": [
+        "E4",
+        "E5",
+        "E8"
+      ],
+      "explanation": "Charles cites his pet and hardware investment experience as context for evaluating the opportunity.",
+      "decision_link": "none"
+    },
+    {
+      "rationale_id": "R5",
+      "rationale_label": "market_size_assessment",
+      "utterance_type": "assessment",
+      "activation": "evaluated",
+      "direction": "positive",
+      "salience": "secondary",
+      "confidence": 0.97,
+      "evidence_ids": [
+        "E6",
+        "E7"
+      ],
+      "explanation": "Charles positively assesses spending and performance trends in the high-end pet market.",
+      "decision_link": "none"
+    },
+    {
+      "rationale_id": "R6",
+      "rationale_label": "capital_intensity_concern",
+      "utterance_type": "decision_reason",
+      "activation": "evaluated",
+      "direction": "negative",
+      "salience": "primary",
+      "confidence": 1.0,
+      "evidence_ids": [
+        "E9",
+        "E10",
+        "E11"
+      ],
+      "explanation": "Charles explicitly passes because he expects post-launch hardware execution to require more capital than the current raise.",
+      "decision_link": "explicit"
+    }
+  ],
+  "unmapped_utterances": [
+    "Totally.",
+    "Wow."
+  ],
+  "audit_flags": [],
+  "annotation_summary": "Charles’s explicit reason for passing is expected post-launch hardware capital needs. He also positively notes the pet market and relevant investment experience, while asking neutral questions about margins, data use, and the raise amount."
+}

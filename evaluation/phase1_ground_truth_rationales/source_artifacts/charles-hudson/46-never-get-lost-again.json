@@ -1,0 +1,209 @@
+{
+  "schema": "transcript-observed-rationales-v1",
+  "episode_slug": "46-never-get-lost-again",
+  "transcript_sha256": "d21f8f57b555d5455bb9c745315aa87535003911957dee1e0becd78277b7a234",
+  "window": {
+    "start_turn": 0,
+    "end_turn": 66
+  },
+  "observed_decision": "Out",
+  "decision_evidence_ids": [
+    "E66"
+  ],
+  "evidence_registry": [
+    {
+      "evidence_id": "E9",
+      "turn_index": 9,
+      "speaker": "Charles",
+      "text": "Is the idea that I turn the hotspot on when I need it? But otherwise keep it off? My native impression is that satellite data is prohibitively expensive to access."
+    },
+    {
+      "evidence_id": "E15",
+      "turn_index": 15,
+      "speaker": "Charles",
+      "text": "Yeah, I was going to say, is this like a full on hotspot experience? Like, I'm in the middle of the woods watching YouTube video on my phone?"
+    },
+    {
+      "evidence_id": "E17",
+      "turn_index": 17,
+      "speaker": "Charles",
+      "text": "Can you tell me what that means and when that happens?"
+    },
+    {
+      "evidence_id": "E21",
+      "turn_index": 21,
+      "speaker": "Charles",
+      "text": "So that seems like an EPIRB, yeah."
+    },
+    {
+      "evidence_id": "E23",
+      "turn_index": 23,
+      "speaker": "Charles",
+      "text": "And how does this compare to something like a goTenna? It’s probably the only other thing I can think of that I’ve seen that at least purports to have similar functionality."
+    },
+    {
+      "evidence_id": "E25",
+      "turn_index": 25,
+      "speaker": "Charles",
+      "text": "That’s line of sight too, right?"
+    },
+    {
+      "evidence_id": "E38",
+      "turn_index": 38,
+      "speaker": "Charles",
+      "text": "I was going to ask the same question."
+    },
+    {
+      "evidence_id": "E66",
+      "turn_index": 66,
+      "speaker": "Charles",
+      "text": "So I think I'm going to pass. But it's a tough one. My only concern is... I actually think you'll get people to sign up for annual plans. I think you'll be fine there. For me, it's just a velocity, I don't have a sense of the velocity. I think you convinced me that there's an opportunity to get six digits worth of people eventually. I just don't have a sense for how quickly you can get there. And that's my concern. And so I can see the two end points on the line, but I have no idea about the distance, the time distance between them."
+    }
+  ],
+  "rationales": [
+    {
+      "rationale_id": "R1",
+      "rationale_label": "business_model_assessment",
+      "utterance_type": "question",
+      "activation": "queried",
+      "direction": "neutral",
+      "salience": "secondary",
+      "confidence": 0.98,
+      "evidence_ids": [
+        "E9"
+      ],
+      "explanation": "Charles asks how the hotspot is activated and kept off, probing the operating and usage model.",
+      "decision_link": "none"
+    },
+    {
+      "rationale_id": "R2",
+      "rationale_label": "business_viability_concern",
+      "utterance_type": "assessment",
+      "activation": "evaluated",
+      "direction": "negative",
+      "salience": "secondary",
+      "confidence": 0.99,
+      "evidence_ids": [
+        "E9"
+      ],
+      "explanation": "Charles states the impression that satellite data may be prohibitively expensive to access, expressing an economics concern.",
+      "decision_link": "none"
+    },
+    {
+      "rationale_id": "R3",
+      "rationale_label": "product_success_factor_assessment",
+      "utterance_type": "question",
+      "activation": "queried",
+      "direction": "neutral",
+      "salience": "secondary",
+      "confidence": 0.95,
+      "evidence_ids": [
+        "E15"
+      ],
+      "explanation": "Charles probes whether the product provides a full hotspot experience, including high-bandwidth use cases.",
+      "decision_link": "none"
+    },
+    {
+      "rationale_id": "R4",
+      "rationale_label": "market_timing",
+      "utterance_type": "question",
+      "activation": "queried",
+      "direction": "neutral",
+      "salience": "secondary",
+      "confidence": 0.98,
+      "evidence_ids": [
+        "E17"
+      ],
+      "explanation": "Charles asks what Space 2.0 means and when the described future state will occur, probing timing.",
+      "decision_link": "none"
+    },
+    {
+      "rationale_id": "R5",
+      "rationale_label": "product_differentiation_concern",
+      "utterance_type": "assessment",
+      "activation": "evaluated",
+      "direction": "neutral",
+      "salience": "secondary",
+      "confidence": 0.9,
+      "evidence_ids": [
+        "E21"
+      ],
+      "explanation": "Charles identifies the product as resembling an EPIRB, probing similarity to an existing solution without stating a negative conclusion.",
+      "decision_link": "none"
+    },
+    {
+      "rationale_id": "R6",
+      "rationale_label": "product_differentiation_concern",
+      "utterance_type": "question",
+      "activation": "queried",
+      "direction": "neutral",
+      "salience": "secondary",
+      "confidence": 0.98,
+      "evidence_ids": [
+        "E23",
+        "E25"
+      ],
+      "explanation": "Charles asks how Somewear compares with goTenna and whether the competing functionality also depends on line of sight.",
+      "decision_link": "none"
+    },
+    {
+      "rationale_id": "R7",
+      "rationale_label": "business_model_assessment",
+      "utterance_type": "question",
+      "activation": "queried",
+      "direction": "neutral",
+      "salience": "secondary",
+      "confidence": 0.94,
+      "evidence_ids": [
+        "E38"
+      ],
+      "explanation": "Charles endorses the question about renting the device, continuing the probe of the business model.",
+      "decision_link": "none"
+    },
+    {
+      "rationale_id": "R8",
+      "rationale_label": "business_model_assessment",
+      "utterance_type": "assessment",
+      "activation": "evaluated",
+      "direction": "positive",
+      "salience": "secondary",
+      "confidence": 0.98,
+      "evidence_ids": [
+        "E66"
+      ],
+      "explanation": "Charles says he expects customers to sign up for annual plans and that the company will be fine on that point.",
+      "decision_link": "none"
+    },
+    {
+      "rationale_id": "R9",
+      "rationale_label": "market_size_assessment",
+      "utterance_type": "assessment",
+      "activation": "evaluated",
+      "direction": "positive",
+      "salience": "secondary",
+      "confidence": 0.97,
+      "evidence_ids": [
+        "E66"
+      ],
+      "explanation": "Charles accepts that there is an eventual opportunity to reach six-digit user scale.",
+      "decision_link": "none"
+    },
+    {
+      "rationale_id": "R10",
+      "rationale_label": "growth_projection_risk",
+      "utterance_type": "decision_reason",
+      "activation": "evaluated",
+      "direction": "negative",
+      "salience": "primary",
+      "confidence": 1.0,
+      "evidence_ids": [
+        "E66"
+      ],
+      "explanation": "Charles explicitly links his pass decision to lacking confidence in the company's growth velocity and the time required to reach the projected scale.",
+      "decision_link": "explicit"
+    }
+  ],
+  "unmapped_utterances": [],
+  "audit_flags": [],
+  "annotation_summary": "Charles passes despite accepting the annual-plan model and eventual market opportunity; his explicit concern is uncertainty about the velocity and timing of customer-scale growth."
+}

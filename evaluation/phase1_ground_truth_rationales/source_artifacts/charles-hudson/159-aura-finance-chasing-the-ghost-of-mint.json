@@ -1,0 +1,60 @@
+{
+  "schema": "transcript-observed-rationales-v1",
+  "episode_slug": "159-aura-finance-chasing-the-ghost-of-mint",
+  "transcript_sha256": "deb7d2119846a0d2270249de4d291cc0387b5fdb29bda3876d4df268277f9447",
+  "window": {
+    "start_turn": 0,
+    "end_turn": 64
+  },
+  "observed_decision": "Out",
+  "decision_evidence_ids": [
+    "E2"
+  ],
+  "evidence_registry": [
+    {
+      "evidence_id": "E1",
+      "turn_index": 7,
+      "speaker": "Charles",
+      "text": "What does the coaching program entail?"
+    },
+    {
+      "evidence_id": "E2",
+      "turn_index": 64,
+      "speaker": "Charles",
+      "text": "We have a conflict in our portfolio that you and I've discussed before."
+    }
+  ],
+  "rationales": [
+    {
+      "rationale_id": "R1",
+      "rationale_label": "business_model_assessment",
+      "utterance_type": "question",
+      "activation": "queried",
+      "direction": "neutral",
+      "salience": "secondary",
+      "confidence": 0.98,
+      "evidence_ids": [
+        "E1"
+      ],
+      "explanation": "Charles asks for clarification about the coaching program, probing the company's service and delivery model.",
+      "decision_link": "none"
+    },
+    {
+      "rationale_id": "R2",
+      "rationale_label": "portfolio_conflict_constraint",
+      "utterance_type": "decision_reason",
+      "activation": "evaluated",
+      "direction": "negative",
+      "salience": "primary",
+      "confidence": 1.0,
+      "evidence_ids": [
+        "E2"
+      ],
+      "explanation": "Charles explicitly cites an existing portfolio conflict as the reason for his decision to pass.",
+      "decision_link": "explicit"
+    }
+  ],
+  "unmapped_utterances": [],
+  "audit_flags": [],
+  "annotation_summary": "Charles asks about the coaching program and explicitly attributes the Out decision to a portfolio conflict."
+}

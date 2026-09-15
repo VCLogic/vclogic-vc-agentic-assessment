@@ -1,0 +1,189 @@
+{
+  "schema": "charles-adaptive-comparison-v1",
+  "date": "2026-08-02",
+  "model": "openai/gpt-5.6-luna",
+  "decision_target": "audited pitch-window In/Out",
+  "episodes": [
+    {
+      "episode_slug": "127-nectir-the-classroom-of-the-future",
+      "role": "material-conflict diagnostic",
+      "actual_pitch_window_label": "In",
+      "later_final_label_excluded": null,
+      "actual_basis": "Charles expressed willingness to invest $50K-$100K subject to a conflict check; the project's minor/routine-condition rule retains this as In.",
+      "langgraph": {
+        "any_check_decision": "Out",
+        "any_check_likelihood": 0.24,
+        "any_check_confidence": 0.94,
+        "standard_check_decision": "Out",
+        "standard_check_likelihood": 0.12,
+        "ranking_score": 0.78,
+        "phase1_status": "provisional",
+        "phase2_status": "accepted",
+        "phase1_iterations": 1,
+        "phase2_iterations": 2,
+        "quality_findings": ["PLANNER_FALLBACK_USED"],
+        "input_tokens": 51940,
+        "output_tokens": 12261,
+        "cost_usd": 0.013491495
+      },
+      "historical_codex": {
+        "any_check_decision": "In",
+        "any_check_likelihood": 0.61,
+        "any_check_confidence": 0.70,
+        "standard_check_decision": "Out",
+        "standard_check_likelihood": 0.22,
+        "status": "provisional_nonconvergent"
+      },
+      "interpretation": "The clean-redaction LangGraph run regressed from the historical Codex's correct In to an incorrect Out. Phase 1 treated the edtech portfolio adjacency as routine, but Phase 2 incorrectly made the $3 million seed round a fatal mandate mismatch even though Charles was willing to invest $50,000-$100,000."
+    },
+    {
+      "episode_slug": "68-dogs-dating-a-match-made-in-heaven",
+      "role": "explicit In comparison",
+      "actual_pitch_window_label": "In",
+      "actual_basis": "Charles explicitly committed $10,000.",
+      "langgraph": {
+        "any_check_decision": "In",
+        "any_check_likelihood": 0.53,
+        "any_check_confidence": 0.61,
+        "standard_check_decision": "Out",
+        "standard_check_likelihood": 0.23,
+        "ranking_score": 0.70,
+        "phase1_status": "provisional",
+        "phase2_status": "provisional",
+        "phase1_iterations": 1,
+        "phase2_iterations": 2,
+        "quality_findings": ["PLANNER_FALLBACK_USED", "RISK_LEDGER_COVERAGE_MISMATCH"],
+        "input_tokens_including_failed_phase2_and_replay": 66338,
+        "output_tokens_including_failed_phase2_and_replay": 21610,
+        "cost_usd_including_failed_phase2_and_replay": 0.0212578
+      },
+      "historical_codex": {
+        "any_check_decision": "In",
+        "any_check_likelihood": 0.62,
+        "any_check_confidence": 0.80,
+        "standard_check_decision": "Out",
+        "standard_check_likelihood": 0.31,
+        "status": "frozen"
+      },
+      "interpretation": "Both systems correctly recovered a small-check In. The LangGraph result was preserved as provisional after a non-decisional risk-ledger bookkeeping mismatch."
+    },
+    {
+      "episode_slug": "83-can-small-bras-be-a-big-market",
+      "role": "explicit In comparison",
+      "actual_pitch_window_label": "In",
+      "actual_basis": "Charles explicitly offered a $25,000 investment.",
+      "langgraph": {
+        "any_check_decision": "Out",
+        "any_check_likelihood": 0.22,
+        "any_check_confidence": 0.82,
+        "standard_check_decision": "Out",
+        "standard_check_likelihood": 0.08,
+        "ranking_score": 0.25,
+        "phase1_status": "accepted",
+        "phase2_status": "accepted",
+        "phase1_iterations": 1,
+        "phase2_iterations": 1,
+        "quality_findings": [],
+        "input_tokens": 49602,
+        "output_tokens": 7998,
+        "cost_usd": 0.010998825
+      },
+      "historical_codex": {
+        "any_check_decision": "Out",
+        "any_check_likelihood": 0.34,
+        "any_check_confidence": 0.88,
+        "standard_check_decision": "Out",
+        "standard_check_likelihood": 0.22,
+        "status": "provisional_nonconvergent"
+      },
+      "interpretation": "Both systems missed the In. The new system made the True & Co lingerie adjacency a fatal unresolved portfolio conflict, overpowering Pepper's problem validation, product design, unit economics, and retail signal."
+    },
+    {
+      "episode_slug": "20-harper-wilde",
+      "role": "explicit Out comparison",
+      "actual_pitch_window_label": "Out",
+      "actual_basis": "Charles said that he and the founders did not see the opportunity the same way.",
+      "langgraph": {
+        "any_check_decision": "Out",
+        "any_check_likelihood": 0.10,
+        "any_check_confidence": 0.94,
+        "standard_check_decision": "Out",
+        "standard_check_likelihood": 0.05,
+        "ranking_score": 0.90,
+        "phase1_status": "provisional",
+        "phase2_status": "accepted",
+        "phase1_iterations": 1,
+        "phase2_iterations": 1,
+        "quality_findings": ["PLANNER_FALLBACK_USED"],
+        "input_tokens": 39816,
+        "output_tokens": 6414,
+        "cost_usd": 0.008804475
+      },
+      "historical_codex": {
+        "any_check_decision": "In",
+        "any_check_likelihood": 0.62,
+        "any_check_confidence": 0.80,
+        "standard_check_decision": "Out",
+        "standard_check_likelihood": 0.34,
+        "status": "frozen"
+      },
+      "interpretation": "The new system corrected the historical Codex false positive. Its rationale set added missing-adoption, market-scale, and portfolio-conflict concerns, although it did not reproduce Charles's stated brand-vision reason directly."
+    }
+  ],
+  "requested_three_episode_classification": {
+    "correct": 2,
+    "total": 3,
+    "accuracy": 0.6666666667,
+    "in_recall": 0.5,
+    "out_recall": 1.0,
+    "balanced_accuracy": 0.75
+  },
+  "requested_three_episode_prioritization_by_any_check_likelihood": {
+    "ordered_episodes": [
+      "68-dogs-dating-a-match-made-in-heaven",
+      "83-can-small-bras-be-a-big-market",
+      "20-harper-wilde"
+    ],
+    "top_1_precision": 1.0,
+    "top_1_recall": 0.5,
+    "top_2_precision": 1.0,
+    "top_2_recall": 1.0,
+    "average_precision": 1.0
+  },
+  "all_four_diagnostic_classification": {
+    "correct": 2,
+    "total": 4,
+    "accuracy": 0.5,
+    "in_recall": 0.3333333333,
+    "out_recall": 1.0,
+    "balanced_accuracy": 0.6666666667
+  },
+  "all_four_prioritization_by_any_check_likelihood": {
+    "ordered_episodes": [
+      "68-dogs-dating-a-match-made-in-heaven",
+      "127-nectir-the-classroom-of-the-future",
+      "83-can-small-bras-be-a-big-market",
+      "20-harper-wilde"
+    ],
+    "average_precision": 1.0,
+    "positive_prevalence": 0.75
+  },
+  "representative_live_usage_including_dig_recovery": {
+    "input_tokens": 207696,
+    "output_tokens": 48283,
+    "cost_usd": 0.054552595
+  },
+  "actual_live_usage_including_discarded_marker_redaction_run": {
+    "input_tokens": 253749,
+    "output_tokens": 56711,
+    "cost_usd": 0.065365795
+  },
+  "caveats": [
+    "This four-episode set is diagnostic and is not an aggregate performance estimate.",
+    "The planner hit the 768-token ceiling and used deterministic fallback in Nectir, Dig, and Harper Wilde.",
+    "The separate ranking_score is a review-priority score, not an In probability; it ranked Harper Wilde highest despite a 0.10 any-check likelihood.",
+    "Current portfolio memory is not time-indexed and provides limited descriptions of holdings, making true competitive conflict difficult to distinguish from category adjacency.",
+    "An initial Nectir run was discarded after the visible redaction marker was found to be a side channel; the reported Nectir result is from a fresh marker-free run.",
+    "The historical Codex Nectir run could inspect the unsanitized canonical wiki and is not a fully leakage-safe comparator."
+  ]
+}

@@ -1,0 +1,226 @@
+{
+  "schema": "transcript-observed-rationales-v1",
+  "episode_slug": "61-can-a-zebra-survive-in-a-unicorn-world",
+  "transcript_sha256": "66382118e05c10eae38aa0038b7a66dd08a7836dbb53d8f623cbc58c7a97997e",
+  "window": {
+    "start_turn": 0,
+    "end_turn": 97
+  },
+  "observed_decision": "Out",
+  "decision_evidence_ids": [
+    "E10"
+  ],
+  "evidence_registry": [
+    {
+      "evidence_id": "E1",
+      "turn_index": 23,
+      "speaker": "Jillian",
+      "text": "Can you tell us about the unit economics?"
+    },
+    {
+      "evidence_id": "E2",
+      "turn_index": 71,
+      "speaker": "Jillian",
+      "text": "So question, why didn’t you make this, and just curious, why didn’t you just make this a nonprofit?"
+    },
+    {
+      "evidence_id": "E3",
+      "turn_index": 73,
+      "speaker": "Jillian",
+      "text": "No, it’s difficult."
+    },
+    {
+      "evidence_id": "E4",
+      "turn_index": 75,
+      "speaker": "Jillian",
+      "text": "Yes. Absolutely."
+    },
+    {
+      "evidence_id": "E5",
+      "turn_index": 77,
+      "speaker": "Jillian",
+      "text": "You don’t have to."
+    },
+    {
+      "evidence_id": "E6",
+      "turn_index": 79,
+      "speaker": "Jillian",
+      "text": "No."
+    },
+    {
+      "evidence_id": "E7",
+      "turn_index": 81,
+      "speaker": "Jillian",
+      "text": "So I have to say, I had an ulterior motive for asking this question. I actually know that answer and you gave the right answer."
+    },
+    {
+      "evidence_id": "E8",
+      "turn_index": 83,
+      "speaker": "Jillian",
+      "text": "OK. You have to have it make it a business to make it sustainable."
+    },
+    {
+      "evidence_id": "E9",
+      "turn_index": 95,
+      "speaker": "Jillian",
+      "text": "This is really interesting, because one of the biggest deficits in this country is actually location based reporting. So what’s happening is we’re all getting these big swatches of news that have to do with national news. But we’re not really getting a better understanding. And then therefore connecting to what’s happening in our communities. And I think that’s actually taking chunks out of our democracy."
+    },
+    {
+      "evidence_id": "E10",
+      "turn_index": 97,
+      "speaker": "Jillian",
+      "text": "Absolutely. I come at it from a philanthropic lens. And I definitely support this area. But I do donate rather than invest. But it's actually, it's very much a passion of mine and that's why I invest in this area because it creates transparency, and where there's transparency it lifts every part of society. I am not going to invest in this simply because I just think that I'm already invested enough in this area through my foundation."
+    }
+  ],
+  "rationales": [
+    {
+      "rationale_id": "R1",
+      "rationale_label": "unit_economics_assessment",
+      "utterance_type": "question",
+      "activation": "queried",
+      "direction": "neutral",
+      "salience": "primary",
+      "confidence": 0.99,
+      "evidence_ids": [
+        "E1"
+      ],
+      "explanation": "Jillian explicitly asks about the company’s unit economics.",
+      "decision_link": "none"
+    },
+    {
+      "rationale_id": "R2",
+      "rationale_label": "corporate_structure_constraint",
+      "utterance_type": "question",
+      "activation": "queried",
+      "direction": "neutral",
+      "salience": "primary",
+      "confidence": 0.99,
+      "evidence_ids": [
+        "E2"
+      ],
+      "explanation": "Jillian explicitly questions why the company was not formed as a nonprofit.",
+      "decision_link": "none"
+    },
+    {
+      "rationale_id": "R3",
+      "rationale_label": "corporate_structure_constraint",
+      "utterance_type": "assessment",
+      "activation": "evaluated",
+      "direction": "negative",
+      "salience": "secondary",
+      "confidence": 0.95,
+      "evidence_ids": [
+        "E3"
+      ],
+      "explanation": "Jillian states that the nonprofit path is difficult.",
+      "decision_link": "none"
+    },
+    {
+      "rationale_id": "R4",
+      "rationale_label": "corporate_structure_constraint",
+      "utterance_type": "assessment",
+      "activation": "evaluated",
+      "direction": "positive",
+      "salience": "secondary",
+      "confidence": 0.9,
+      "evidence_ids": [
+        "E4"
+      ],
+      "explanation": "Jillian agrees with the founder’s assessment that capital structures create an either/or choice between profit and mission.",
+      "decision_link": "none"
+    },
+    {
+      "rationale_id": "R5",
+      "rationale_label": "founder_investor_vision_alignment",
+      "utterance_type": "assessment",
+      "activation": "evaluated",
+      "direction": "positive",
+      "salience": "secondary",
+      "confidence": 0.9,
+      "evidence_ids": [
+        "E5",
+        "E6"
+      ],
+      "explanation": "Jillian validates the founder’s decision not to compromise between for-profit and mission goals.",
+      "decision_link": "none"
+    },
+    {
+      "rationale_id": "R6",
+      "rationale_label": "founder_communication_quality",
+      "utterance_type": "assessment",
+      "activation": "evaluated",
+      "direction": "positive",
+      "salience": "secondary",
+      "confidence": 0.98,
+      "evidence_ids": [
+        "E7"
+      ],
+      "explanation": "Jillian says the founder gave the right answer to her test question.",
+      "decision_link": "none"
+    },
+    {
+      "rationale_id": "R7",
+      "rationale_label": "corporate_structure_constraint",
+      "utterance_type": "assessment",
+      "activation": "evaluated",
+      "direction": "positive",
+      "salience": "primary",
+      "confidence": 0.95,
+      "evidence_ids": [
+        "E8"
+      ],
+      "explanation": "Jillian states that operating as a business is necessary for sustainability.",
+      "decision_link": "none"
+    },
+    {
+      "rationale_id": "R8",
+      "rationale_label": "market_problem_validation",
+      "utterance_type": "assessment",
+      "activation": "evaluated",
+      "direction": "positive",
+      "salience": "primary",
+      "confidence": 0.98,
+      "evidence_ids": [
+        "E9"
+      ],
+      "explanation": "Jillian characterizes the lack of location-based reporting as a major national deficit that harms communities and democracy.",
+      "decision_link": "none"
+    },
+    {
+      "rationale_id": "R9",
+      "rationale_label": "mission_alignment_preference",
+      "utterance_type": "assessment",
+      "activation": "evaluated",
+      "direction": "positive",
+      "salience": "secondary",
+      "confidence": 0.98,
+      "evidence_ids": [
+        "E9",
+        "E10"
+      ],
+      "explanation": "Jillian explicitly expresses support and passion for the company’s civic and transparency mission.",
+      "decision_link": "none"
+    },
+    {
+      "rationale_id": "R10",
+      "rationale_label": "investment_thesis_constraint",
+      "utterance_type": "decision_reason",
+      "activation": "evaluated",
+      "direction": "negative",
+      "salience": "primary",
+      "confidence": 0.99,
+      "evidence_ids": [
+        "E10"
+      ],
+      "explanation": "Jillian directly says she approaches the opportunity philanthropically, donates rather than invests, and will not invest because she is already sufficiently invested in the area through her foundation.",
+      "decision_link": "explicit"
+    }
+  ],
+  "unmapped_utterances": [
+    "[5] Oh my god.",
+    "[10] Hi. Jillian. Nice to meet you.",
+    "[20] No way."
+  ],
+  "audit_flags": [],
+  "annotation_summary": "Jillian’s observed Out decision is explicitly attributed to her philanthropic rather than investment orientation and existing foundation commitment. She otherwise expresses strong mission support and validates the need for a sustainable business structure."
+}

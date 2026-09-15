@@ -1,0 +1,216 @@
+{
+  "schema": "transcript-observed-rationales-v1",
+  "episode_slug": "80-can-this-app-silence-the-trolls",
+  "transcript_sha256": "a68e28b993e001f5868bd175f0112fbb0439839ba2a3fd03c2ae22a1bc8387c7",
+  "window": {
+    "start_turn": 0,
+    "end_turn": 49
+  },
+  "observed_decision": "Out",
+  "decision_evidence_ids": [
+    "E11"
+  ],
+  "evidence_registry": [
+    {
+      "evidence_id": "E1",
+      "turn_index": 3,
+      "speaker": "Charles",
+      "text": "About 30 seconds."
+    },
+    {
+      "evidence_id": "E2",
+      "turn_index": 49,
+      "speaker": "Charles",
+      "text": "I think the hypothesis that consumers are open to new experiences in a way that they weren't maybe three years ago"
+    },
+    {
+      "evidence_id": "E3",
+      "turn_index": 49,
+      "speaker": "Charles",
+      "text": "I think people if you ask them are you happy with the triumvirate of Facebook, WhatsApp, Instagram and whatever else people have said, I think all of my needs are met"
+    },
+    {
+      "evidence_id": "E4",
+      "turn_index": 49,
+      "speaker": "Charles",
+      "text": "I think there's opportunities."
+    },
+    {
+      "evidence_id": "E5",
+      "turn_index": 49,
+      "speaker": "Charles",
+      "text": "This one isn't quite right for me."
+    },
+    {
+      "evidence_id": "E6",
+      "turn_index": 49,
+      "speaker": "Charles",
+      "text": "It just feels like you're kind of in between a bunch of big icebergs and I think there's room there."
+    },
+    {
+      "evidence_id": "E7",
+      "turn_index": 49,
+      "speaker": "Charles",
+      "text": "I'm just not sure how much room there is."
+    },
+    {
+      "evidence_id": "E8",
+      "turn_index": 49,
+      "speaker": "Charles",
+      "text": "And I think every time I've gotten excited about a platform that's fundamentally about conversations, whether it was Whale, AMA on Reddit, Quora, it breaks somehow."
+    },
+    {
+      "evidence_id": "E9",
+      "turn_index": 49,
+      "speaker": "Charles",
+      "text": "The conversations become so longtail and esoteric that they can't build an audience."
+    },
+    {
+      "evidence_id": "E10",
+      "turn_index": 49,
+      "speaker": "Charles",
+      "text": "Or the monetization piece ends up being harder than it feels like it ought to be."
+    },
+    {
+      "evidence_id": "E11",
+      "turn_index": 49,
+      "speaker": "Charles",
+      "text": "And I think this one isn't quite right for me yet, so I'm going to pass."
+    }
+  ],
+  "rationales": [
+    {
+      "rationale_id": "R1",
+      "rationale_label": "market_timing",
+      "utterance_type": "assessment",
+      "activation": "evaluated",
+      "direction": "positive",
+      "salience": "secondary",
+      "confidence": 0.86,
+      "evidence_ids": [
+        "E2"
+      ],
+      "explanation": "Charles assesses that consumers may now be more open to new experiences than they were several years earlier.",
+      "decision_link": "implicit"
+    },
+    {
+      "rationale_id": "R2",
+      "rationale_label": "competitive_landscape_inertia",
+      "utterance_type": "assessment",
+      "activation": "evaluated",
+      "direction": "negative",
+      "salience": "primary",
+      "confidence": 0.9,
+      "evidence_ids": [
+        "E3"
+      ],
+      "explanation": "He notes that users may already feel their needs are met by the dominant existing platforms.",
+      "decision_link": "implicit"
+    },
+    {
+      "rationale_id": "R3",
+      "rationale_label": "market_size_assessment",
+      "utterance_type": "assessment",
+      "activation": "evaluated",
+      "direction": "positive",
+      "salience": "secondary",
+      "confidence": 0.72,
+      "evidence_ids": [
+        "E4",
+        "E6"
+      ],
+      "explanation": "Charles acknowledges that opportunities and some market room exist.",
+      "decision_link": "implicit"
+    },
+    {
+      "rationale_id": "R4",
+      "rationale_label": "product_appeal_assessment",
+      "utterance_type": "assessment",
+      "activation": "evaluated",
+      "direction": "negative",
+      "salience": "primary",
+      "confidence": 0.84,
+      "evidence_ids": [
+        "E5"
+      ],
+      "explanation": "He states that the opportunity does not feel sufficiently right for him personally.",
+      "decision_link": "implicit"
+    },
+    {
+      "rationale_id": "R5",
+      "rationale_label": "competitive_intensity_concern",
+      "utterance_type": "assessment",
+      "activation": "evaluated",
+      "direction": "negative",
+      "salience": "primary",
+      "confidence": 0.88,
+      "evidence_ids": [
+        "E6"
+      ],
+      "explanation": "The company appears positioned between very large incumbent platforms, creating a difficult competitive environment.",
+      "decision_link": "implicit"
+    },
+    {
+      "rationale_id": "R6",
+      "rationale_label": "venture_scale_concern",
+      "utterance_type": "assessment",
+      "activation": "evaluated",
+      "direction": "negative",
+      "salience": "primary",
+      "confidence": 0.87,
+      "evidence_ids": [
+        "E7",
+        "E9"
+      ],
+      "explanation": "Charles is uncertain how much room exists and observes that conversation platforms can fail to build a sufficiently large audience.",
+      "decision_link": "implicit"
+    },
+    {
+      "rationale_id": "R7",
+      "rationale_label": "investor_experience_bias",
+      "utterance_type": "assessment",
+      "activation": "evaluated",
+      "direction": "negative",
+      "salience": "secondary",
+      "confidence": 0.91,
+      "evidence_ids": [
+        "E8"
+      ],
+      "explanation": "His prior experience with conversation-focused platforms breaking shapes his skepticism about this opportunity.",
+      "decision_link": "implicit"
+    },
+    {
+      "rationale_id": "R8",
+      "rationale_label": "business_viability_concern",
+      "utterance_type": "assessment",
+      "activation": "evaluated",
+      "direction": "negative",
+      "salience": "primary",
+      "confidence": 0.9,
+      "evidence_ids": [
+        "E10"
+      ],
+      "explanation": "He identifies monetization as a recurring difficulty for conversation platforms.",
+      "decision_link": "implicit"
+    },
+    {
+      "rationale_id": "R9",
+      "rationale_label": "product_appeal_assessment",
+      "utterance_type": "decision_reason",
+      "activation": "evaluated",
+      "direction": "negative",
+      "salience": "primary",
+      "confidence": 0.99,
+      "evidence_ids": [
+        "E11"
+      ],
+      "explanation": "Charles directly links the opportunity not feeling right for him to his decision to pass.",
+      "decision_link": "explicit"
+    }
+  ],
+  "unmapped_utterances": [
+    "About 30 seconds."
+  ],
+  "audit_flags": [],
+  "annotation_summary": "Charles passes. His stated concerns are limited room between dominant platforms, uncertainty about building a large audience, prior failures of conversation platforms, and monetization difficulty; he also says the opportunity is not yet right for him."
+}

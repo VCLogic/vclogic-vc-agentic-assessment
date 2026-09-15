@@ -1,0 +1,27 @@
+[run]
+vc_slug = "charles-hudson-precursor-ventures"
+episode_slug = "68-dogs-dating-a-match-made-in-heaven"
+input_root = "inputs"
+output_root = "outputs/openrouter-luna-charles-adaptive-2026-08-02-phase2-replay"
+checkpoint_path = "outputs/openrouter-luna-charles-adaptive-2026-08-02-phase2-replay/checkpoints/68-dogs-dating-a-match-made-in-heaven.sqlite"
+
+[provider]
+kind = "openrouter"
+model = "openai/gpt-5.6-luna"
+base_url = "https://openrouter.ai/api/v1"
+api_key_env = "OPENROUTER_API_KEY"
+require_parameters = true
+data_collection = "deny"
+max_output_tokens = 8192
+
+[phase1]
+min_iterations = 1
+max_iterations = 3
+
+[phase2]
+min_iterations = 1
+max_iterations = 2
+
+[retrieval]
+top_k = 5
+max_exact_reads = 20

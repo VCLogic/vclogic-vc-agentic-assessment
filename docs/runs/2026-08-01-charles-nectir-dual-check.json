@@ -1,0 +1,103 @@
+{
+  "schema": "nectir-dual-check-phase2-diagnostic-v1",
+  "episode_slug": "127-nectir-the-classroom-of-the-future",
+  "evaluated_target": {
+    "final_decision": "In",
+    "pitch_window_decision": "Out",
+    "initial_response": "Conditional",
+    "decision_context": "later_diligence",
+    "condition": "portfolio conflict clearance"
+  },
+  "frozen_phase1": {
+    "source": "outputs/openrouter-luna-charles-comparison/127-nectir-the-classroom-of-the-future/phase1",
+    "investigation_sha256": "8a5ba14ad9e86b3d184878d489637944821b5abc960d702d094749fd7eef644f",
+    "status": "accepted",
+    "rationale_count": 13
+  },
+  "dual_check_phase2": {
+    "model": "openai/gpt-5.6-luna",
+    "attempts": 1,
+    "status": "accepted",
+    "any_check": {
+      "decision": "In",
+      "likelihood": 0.6,
+      "confidence": 0.67
+    },
+    "standard_check": {
+      "decision": "Out",
+      "likelihood": 0.16,
+      "confidence": 0.84,
+      "market_gate": "negative"
+    },
+    "recommended_check_tier": "exploratory_lt_100k",
+    "ranking_score": 0.78,
+    "usage": {
+      "input_tokens": 5669,
+      "cached_input_tokens": 0,
+      "output_tokens": 4490,
+      "max_output_tokens": 8192,
+      "cost_usd": 0.0034025500000000007,
+      "elapsed_seconds": 29.892424067948014
+    }
+  },
+  "sanitized_trace": {
+    "rationale_assessments": [
+      {"rationale_id": "R1", "effective_direction": "positive", "decision_weight": "contextual"},
+      {"rationale_id": "R2", "effective_direction": "positive", "decision_weight": "supporting"},
+      {"rationale_id": "R3", "effective_direction": "positive", "decision_weight": "contextual"},
+      {"rationale_id": "R4", "effective_direction": "positive", "decision_weight": "decisive"},
+      {"rationale_id": "R5", "effective_direction": "positive", "decision_weight": "supporting"},
+      {"rationale_id": "R6", "effective_direction": "positive", "decision_weight": "supporting"},
+      {"rationale_id": "R7", "effective_direction": "negative", "decision_weight": "decisive"},
+      {"rationale_id": "R8", "effective_direction": "negative", "decision_weight": "decisive"},
+      {"rationale_id": "R9", "effective_direction": "negative", "decision_weight": "decisive"},
+      {"rationale_id": "R10", "effective_direction": "negative", "decision_weight": "supporting"},
+      {"rationale_id": "R11", "effective_direction": "positive", "decision_weight": "contextual"},
+      {"rationale_id": "R12", "effective_direction": "negative", "decision_weight": "decisive"},
+      {"rationale_id": "R13", "effective_direction": "negative", "decision_weight": "supporting"}
+    ],
+    "risk_ledger": [
+      {"rationale_id": "R7", "risk_type": "affirmative_adverse", "controlling_for_any_check": true},
+      {"rationale_id": "R8", "risk_type": "missing_evidence", "controlling_for_any_check": true},
+      {"rationale_id": "R9", "risk_type": "size_limiting", "controlling_for_any_check": true},
+      {"rationale_id": "R10", "risk_type": "affirmative_adverse", "controlling_for_any_check": true},
+      {"rationale_id": "R12", "risk_type": "affirmative_adverse", "controlling_for_any_check": true},
+      {"rationale_id": "R13", "risk_type": "size_limiting", "controlling_for_any_check": true}
+    ],
+    "likelihood_tracks": {
+      "any_check": [
+        {"step_id": "D1", "stage": "assessment", "rationale_ids": ["R1", "R2", "R3"], "likelihood_before": 0.5, "likelihood_after": 0.64, "effect": "raises"},
+        {"step_id": "D2", "stage": "assessment", "rationale_ids": ["R4", "R5", "R6", "R11"], "likelihood_before": 0.64, "likelihood_after": 0.72, "effect": "raises"},
+        {"step_id": "D3", "stage": "opposing_case", "rationale_ids": ["R7", "R8", "R9", "R10", "R12", "R13"], "likelihood_before": 0.72, "likelihood_after": 0.6, "effect": "lowers"},
+        {"step_id": "D4", "stage": "consistency", "rationale_ids": ["R4", "R7", "R8", "R10", "R12"], "likelihood_before": 0.6, "likelihood_after": 0.6, "effect": "no_change"}
+      ],
+      "standard_check": [
+        {"step_id": "D5", "stage": "assessment", "rationale_ids": ["R1", "R2", "R4", "R5", "R6", "R11"], "likelihood_before": 0.5, "likelihood_after": 0.38, "effect": "lowers"},
+        {"step_id": "D6", "stage": "opposing_case", "rationale_ids": ["R7", "R8", "R9", "R10", "R12", "R13"], "likelihood_before": 0.38, "likelihood_after": 0.18, "effect": "lowers"},
+        {"step_id": "D7", "stage": "consistency", "rationale_ids": ["R4", "R5", "R7", "R8", "R9", "R12"], "likelihood_before": 0.18, "likelihood_after": 0.16, "effect": "lowers"}
+      ]
+    }
+  },
+  "comparison": {
+    "original_langgraph_binary": {
+      "decision": "Out",
+      "likelihood": 0.36,
+      "confidence": 0.84,
+      "ranking_score": 0.72,
+      "check_tier": "no_check_tier"
+    },
+    "auditable_langgraph_binary": {
+      "decision": "Out",
+      "likelihood": 0.38,
+      "confidence": 0.78,
+      "ranking_score": 0.62,
+      "check_tier": "no_check_tier"
+    },
+    "codex_dual_check": {
+      "any_check": {"decision": "In", "likelihood": 0.61},
+      "standard_check": {"decision": "Out", "likelihood": 0.22},
+      "recommended_check_tier": "exploratory_lt_100k"
+    }
+  },
+  "interpretation": "The frozen rationales were adequate. Separating any-check optionality from standard-check conviction allowed Luna to express the observed conditional small-check posture without relaxing the standard-check bar. This is a one-case development diagnostic and requires stratified validation."
+}

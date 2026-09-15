@@ -1,0 +1,54 @@
+{
+  "schema": "charles-semantic-calibration-report-v1",
+  "status": "superseded_outer_leave_one_out_class_count_artifact",
+  "superseded_by": "docs/runs/2026-08-03-charles-expanded-calibration.json",
+  "evaluation": "nested_leave_one_out_development_not_untouched_holdout",
+  "strict": {
+    "population": {"episodes": 86, "ins": 17, "outs": 69},
+    "best_learned_classifier": {
+      "method": "phase2",
+      "balanced_accuracy": 0.6112531969309463,
+      "in_precision": 0.4,
+      "in_recall": 0.35294117647058826,
+      "in_f1": 0.375,
+      "confusion_matrix": {"tn": 60, "fp": 9, "fn": 11, "tp": 6}
+    },
+    "best_learned_ranker": {
+      "method": "phase2",
+      "average_precision": 0.36135980263555734,
+      "prevalence": 0.19767441860465115,
+      "hits_at_5": 3,
+      "hits_at_10": 5,
+      "hits_at_20": 6
+    },
+    "fusion_result": "Neither tested Phase 1 plus Phase 2 feature concatenation improves balanced accuracy, average precision, or early-budget hits over the best single-phase method."
+  },
+  "conditional_interest": {
+    "overrides": {
+      "41-can-this-startup-help-retailers-take-on-amazon": "In",
+      "127-nectir-the-classroom-of-the-future": "In"
+    },
+    "population": {"episodes": 86, "ins": 19, "outs": 67},
+    "best_learned_classifier": {
+      "method": "semantic_phase1",
+      "balanced_accuracy": 0.5624509033778475,
+      "in_precision": 0.2545454545454545,
+      "in_recall": 0.7368421052631579,
+      "in_f1": 0.3783783783783784
+    },
+    "best_learned_ranker": {
+      "method": "phase2",
+      "average_precision": 0.3270222923407586,
+      "hits_at_5": 2,
+      "hits_at_10": 4,
+      "hits_at_20": 7
+    },
+    "best_reference_ranker": {
+      "method": "raw_any_check",
+      "average_precision": 0.33088128847919185,
+      "hits_at_5": 2,
+      "hits_at_10": 4,
+      "hits_at_20": 8
+    }
+  }
+}

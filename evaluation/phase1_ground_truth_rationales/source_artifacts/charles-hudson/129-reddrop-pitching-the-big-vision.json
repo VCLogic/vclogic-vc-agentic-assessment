@@ -1,0 +1,88 @@
+{
+  "schema": "transcript-observed-rationales-v1",
+  "episode_slug": "129-reddrop-pitching-the-big-vision",
+  "transcript_sha256": "ecbb3404edc1104cdee749706901a6970a8a17c41c75fe296de7bd0a3b58f9e9",
+  "window": {
+    "start_turn": 8,
+    "end_turn": 71
+  },
+  "observed_decision": "Out",
+  "decision_evidence_ids": [
+    "E2"
+  ],
+  "evidence_registry": [
+    {
+      "evidence_id": "E1",
+      "turn_index": 69,
+      "speaker": "Charles",
+      "text": "I think I - I really believe in this category. I think I'm conflicted. I'm an investor in a company called Aunt Flow that's focused- just on really the B2B and school and it is a huge problem and I'm really happy to see that legislation's moving in a direction to make this mandatory."
+    },
+    {
+      "evidence_id": "E2",
+      "turn_index": 71,
+      "speaker": "Charles",
+      "text": "But I think they're probably too close."
+    }
+  ],
+  "rationales": [
+    {
+      "rationale_id": "R1",
+      "rationale_label": "market_problem_validation",
+      "utterance_type": "assessment",
+      "activation": "evaluated",
+      "direction": "positive",
+      "salience": "secondary",
+      "confidence": 0.99,
+      "evidence_ids": [
+        "E1"
+      ],
+      "explanation": "Charles explicitly says the underlying problem is huge and expresses belief in the category.",
+      "decision_link": "none"
+    },
+    {
+      "rationale_id": "R2",
+      "rationale_label": "market_timing",
+      "utterance_type": "assessment",
+      "activation": "evaluated",
+      "direction": "positive",
+      "salience": "secondary",
+      "confidence": 0.98,
+      "evidence_ids": [
+        "E1"
+      ],
+      "explanation": "Charles views movement toward mandatory feminine-hygiene legislation as favorable market timing.",
+      "decision_link": "none"
+    },
+    {
+      "rationale_id": "R3",
+      "rationale_label": "portfolio_conflict_constraint",
+      "utterance_type": "assessment",
+      "activation": "evaluated",
+      "direction": "negative",
+      "salience": "primary",
+      "confidence": 0.99,
+      "evidence_ids": [
+        "E1"
+      ],
+      "explanation": "Charles identifies a conflict because he already invests in Aunt Flow, a company focused on B2B and schools.",
+      "decision_link": "implicit"
+    },
+    {
+      "rationale_id": "R4",
+      "rationale_label": "portfolio_conflict_constraint",
+      "utterance_type": "decision_reason",
+      "activation": "evaluated",
+      "direction": "negative",
+      "salience": "primary",
+      "confidence": 1,
+      "evidence_ids": [
+        "E2"
+      ],
+      "explanation": "Charles directly justifies the Out decision by saying RedDrop and his existing portfolio company are probably too close.",
+      "decision_link": "explicit"
+    }
+  ],
+  "unmapped_utterances": [],
+  "audit_flags": [],
+  "annotation_summary": "Charles positively assesses the category, problem, and legislative timing, but declines because RedDrop is probably too close to his existing investment in Aunt Flow."
+}

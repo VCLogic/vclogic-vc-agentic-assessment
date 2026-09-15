@@ -1,0 +1,60 @@
+{
+  "schema": "transcript-observed-rationales-v1",
+  "episode_slug": "136-kredfeed-the-next-mexican-unicorn",
+  "transcript_sha256": "aaaf743633e3d3a4bd888a30c4e476cd056a44f762e918c30bdc525aa84e72b2",
+  "window": {
+    "start_turn": 0,
+    "end_turn": 136
+  },
+  "observed_decision": "Out",
+  "decision_evidence_ids": [
+    "E1"
+  ],
+  "evidence_registry": [
+    {
+      "evidence_id": "E1",
+      "turn_index": 136,
+      "speaker": "Charles",
+      "text": "I think I am actually out. We were one of the first investors in ClearBank and went all the way up and then sadly all the way back down. And then we also have another company in our portfolio that you remind me of called Brightflow."
+    }
+  ],
+  "rationales": [
+    {
+      "rationale_id": "R1",
+      "rationale_label": "investor_experience_bias",
+      "utterance_type": "decision_reason",
+      "activation": "evaluated",
+      "direction": "negative",
+      "salience": "primary",
+      "confidence": 0.99,
+      "evidence_ids": [
+        "E1"
+      ],
+      "explanation": "Charles directly cites his prior experience as an early ClearBank investor, including the company’s rise and subsequent decline, as context for being out.",
+      "decision_link": "explicit"
+    },
+    {
+      "rationale_id": "R2",
+      "rationale_label": "portfolio_conflict_constraint",
+      "utterance_type": "decision_reason",
+      "activation": "evaluated",
+      "direction": "negative",
+      "salience": "primary",
+      "confidence": 0.99,
+      "evidence_ids": [
+        "E1"
+      ],
+      "explanation": "Charles directly states that Kredfeed reminds him of another company already in his portfolio, Brightflow, as a reason for being out.",
+      "decision_link": "explicit"
+    }
+  ],
+  "unmapped_utterances": [
+    "I wish that had been your open. That was so good.",
+    "Charles. Nice to meet you.",
+    "Don't have any -",
+    "Yeah.",
+    "Yep"
+  ],
+  "audit_flags": [],
+  "annotation_summary": "Charles is Out. The explicit rationale is prior negative investment experience with ClearBank and an existing portfolio company conflict involving Brightflow."
+}

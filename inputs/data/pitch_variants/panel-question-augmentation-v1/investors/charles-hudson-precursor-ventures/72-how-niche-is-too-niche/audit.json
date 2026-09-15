@@ -1,0 +1,105 @@
+{
+  "actual_decision": "Out",
+  "boundary_turn_index": 50,
+  "canonical_pitch_path": "inputs/data/investors/charles-hudson-precursor-ventures/pitches/72-how-niche-is-too-niche.txt",
+  "canonical_pitch_sha256": "adf5f65274ad51d26f297408a8f6ebed4b2fb13880782254e75d1690a6f11e56",
+  "episode_path": "../agentic-vc-clone-framework/data/episodes/72-how-niche-is-too-niche.json",
+  "episode_sha256": "38c15ee9d752807101324e58cdd807544a02952b8e0ca2f76b32c462317a07ec",
+  "episode_slug": "72-how-niche-is-too-niche",
+  "insertions": [
+    {
+      "answer_turn_index": 12,
+      "canonical_line_index": 4,
+      "original_speaker": "Jenny",
+      "question": "Can we see the box?\nOrion\n: Yes. Yes!",
+      "source_turn_index": 10
+    },
+    {
+      "answer_turn_index": 16,
+      "canonical_line_index": 8,
+      "original_speaker": "David",
+      "question": "So pardon my naivete here. What\u2019s the, what are the issues and pain points with smaller containers of the same product?",
+      "source_turn_index": 15
+    },
+    {
+      "answer_turn_index": 24,
+      "canonical_line_index": 14,
+      "original_speaker": "David",
+      "question": "I'm doing some back of the envelope math. If this lasts three to four turns, let's say. I don't know how many trips the average person goes on, I can't imagine it's many more than that, is someone just buying this once a year?",
+      "source_turn_index": 23
+    },
+    {
+      "answer_turn_index": 26,
+      "canonical_line_index": 15,
+      "original_speaker": "David",
+      "question": "Over what period of time is that?",
+      "source_turn_index": 25
+    },
+    {
+      "answer_turn_index": 28,
+      "canonical_line_index": 16,
+      "original_speaker": "Jenny",
+      "question": "Just a clarifying question about the bar, is that something, is that a product that your um demographic is already used to using? Or is that a change that they\u2019re used to using a liquid?",
+      "source_turn_index": 27
+    }
+  ],
+  "leakage_checklist": {
+    "founder_content_added": false,
+    "other_investor_identity_model_visible": false,
+    "post_boundary_turn_retained": false,
+    "target_investor_turn_retained": false,
+    "verdict_or_offer_turn_retained": false
+  },
+  "neutral_speaker_label": "Panel Investor",
+  "omitted_candidates": [
+    {
+      "original_speaker": "David",
+      "reason": "question_already_present",
+      "source_turn_index": 13,
+      "text": "Are you innovating on product or on form factor and size?"
+    },
+    {
+      "original_speaker": "Elizabeth",
+      "reason": "question_already_present",
+      "source_turn_index": 21,
+      "text": "What are the, the COGS and the price point for this?"
+    },
+    {
+      "original_speaker": "David",
+      "reason": "founder_answer_not_in_canonical_pitch",
+      "source_turn_index": 38,
+      "text": "Are there comps of other brands who have done really well in the travel market? Just my initial concerns are people aren't going to buy enough because they don't travel enough."
+    },
+    {
+      "original_speaker": "Jenny",
+      "reason": "founder_answer_not_in_canonical_pitch",
+      "source_turn_index": 42,
+      "text": "Can you talk us through um your customer acquisition strategy? You know, after the launch, and really how marketing is going to play out."
+    },
+    {
+      "original_speaker": "Elizabeth",
+      "reason": "founder_answer_not_in_canonical_pitch",
+      "source_turn_index": 44,
+      "text": "And have you done any advertising testing?"
+    },
+    {
+      "original_speaker": "David",
+      "reason": "founder_answer_not_in_canonical_pitch",
+      "source_turn_index": 46,
+      "text": "What do you underwrite your average customer in terms of what are you hoping the CAC looks like, what do they purchase? How often do they purchase it? What kind of LTV does that look like?"
+    },
+    {
+      "original_speaker": "David",
+      "reason": "founder_answer_not_in_canonical_pitch",
+      "source_turn_index": 48,
+      "text": "Over what period of time?"
+    }
+  ],
+  "pitch_sha256": "e9d1339b9a26bf50fad507fd3d9df8449d2237692a6c44834183f44360fec0b3",
+  "registry_vc_slug": "charles-hudson",
+  "schema": "panel-question-pitch-audit-v1",
+  "source_record_path": "inputs/data/investors/charles-hudson-precursor-ventures/precedents/records/72-how-niche-is-too-niche.json",
+  "source_record_sha256": "4be44fd9be721881568f6834037a42d67b388a529f3eabf867fb3aa52f82b2f3",
+  "status": "audited",
+  "vc_slug": "charles-hudson-precursor-ventures"
+}

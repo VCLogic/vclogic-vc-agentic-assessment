@@ -1,0 +1,138 @@
+{
+  "schema": "transcript-observed-rationales-v1",
+  "episode_slug": "75-i-want-bro-money-too",
+  "transcript_sha256": "5198f7a831af0fd63a6c6a559f767ef8085efe9d1806705189daca5b3429129c",
+  "window": {
+    "start_turn": 0,
+    "end_turn": 78
+  },
+  "observed_decision": "Out",
+  "decision_evidence_ids": [
+    "E1"
+  ],
+  "evidence_registry": [
+    {
+      "evidence_id": "E1",
+      "turn_index": 78,
+      "speaker": "Charles",
+      "text": "I think for me this one's a pass."
+    },
+    {
+      "evidence_id": "E2",
+      "turn_index": 78,
+      "speaker": "Charles",
+      "text": "I think there's an opportunity here."
+    },
+    {
+      "evidence_id": "E3",
+      "turn_index": 78,
+      "speaker": "Charles",
+      "text": "Part of me feels like if you had told me you were raising 1.5 from investors at a lower valuation I think that would have been an easier for me to digest just given the open questions,"
+    },
+    {
+      "evidence_id": "E4",
+      "turn_index": 78,
+      "speaker": "Charles",
+      "text": "I actually think most of the things you said, I actually believe they're going to pan out the way that you said."
+    },
+    {
+      "evidence_id": "E5",
+      "turn_index": 78,
+      "speaker": "Charles",
+      "text": "It's just for a $5 million infusion, I generally need to see more."
+    },
+    {
+      "evidence_id": "E6",
+      "turn_index": 78,
+      "speaker": "Charles",
+      "text": "And you can't really do much in hardware for less than 5 million bucks, so it's a little bit of a chicken and egg, and I'm sympathetic to that"
+    },
+    {
+      "evidence_id": "E7",
+      "turn_index": 78,
+      "speaker": "Charles",
+      "text": "But I would have liked to see a little bit more for a check of that size."
+    }
+  ],
+  "rationales": [
+    {
+      "rationale_id": "R1",
+      "rationale_label": "investment_upside_assessment",
+      "utterance_type": "assessment",
+      "activation": "evaluated",
+      "direction": "positive",
+      "salience": "secondary",
+      "confidence": 0.84,
+      "evidence_ids": [
+        "E2"
+      ],
+      "explanation": "Charles explicitly recognizes that there is an opportunity in the business.",
+      "decision_link": "none"
+    },
+    {
+      "rationale_id": "R2",
+      "rationale_label": "stage_valuation_mismatch",
+      "utterance_type": "decision_reason",
+      "activation": "evaluated",
+      "direction": "negative",
+      "salience": "primary",
+      "confidence": 0.98,
+      "evidence_ids": [
+        "E1",
+        "E3"
+      ],
+      "explanation": "Charles says a smaller raise at a lower valuation would have been easier to digest because of the open questions, indicating that the requested financing terms were misaligned with the level of demonstrated certainty.",
+      "decision_link": "explicit"
+    },
+    {
+      "rationale_id": "R3",
+      "rationale_label": "solution_feasibility_assessment",
+      "utterance_type": "assessment",
+      "activation": "evaluated",
+      "direction": "positive",
+      "salience": "secondary",
+      "confidence": 0.95,
+      "evidence_ids": [
+        "E4"
+      ],
+      "explanation": "Charles says he believes most of the company's claims will pan out as described, a positive assessment of feasibility.",
+      "decision_link": "none"
+    },
+    {
+      "rationale_id": "R4",
+      "rationale_label": "capital_intensity_concern",
+      "utterance_type": "assessment",
+      "activation": "evaluated",
+      "direction": "neutral",
+      "salience": "secondary",
+      "confidence": 0.93,
+      "evidence_ids": [
+        "E6"
+      ],
+      "explanation": "Charles acknowledges the hardware capital requirement and describes the resulting funding situation as a chicken-and-egg problem, while expressing sympathy for it.",
+      "decision_link": "none"
+    },
+    {
+      "rationale_id": "R5",
+      "rationale_label": "fund_economics_constraint",
+      "utterance_type": "decision_reason",
+      "activation": "evaluated",
+      "direction": "negative",
+      "salience": "primary",
+      "confidence": 0.97,
+      "evidence_ids": [
+        "E5",
+        "E7"
+      ],
+      "explanation": "Charles states that a $5 million infusion or check requires more evidence than was presented, directly tying his pass to the size of the requested investment.",
+      "decision_link": "explicit"
+    }
+  ],
+  "unmapped_utterances": [
+    "And it was hard because I liked a lot of what I heard.",
+    "But I also, we do a lot, about 10% of our investment are in hardware.",
+    "and I'm sympathetic to that"
+  ],
+  "audit_flags": [],
+  "annotation_summary": "Charles is Out. He sees an opportunity and believes the proposed solution may work, but explicitly passes because the requested $5 million check and valuation require more evidence given the remaining open questions."
+}

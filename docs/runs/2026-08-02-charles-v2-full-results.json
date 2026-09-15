@@ -1,0 +1,128 @@
+{
+  "schema": "charles-v2-full-results-v1",
+  "date": "2026-08-02",
+  "scope": {
+    "eligible_episodes": 86,
+    "strict_pitch_window_ins": 17,
+    "strict_pitch_window_outs": 69,
+    "historical_comparison_cohort": 31,
+    "remaining_cohort": 55,
+    "model": "openai/gpt-5.6-luna",
+    "contract_version": "v2"
+  },
+  "raw_classification": {
+    "any_check": {
+      "true_ins": 14,
+      "false_ins": 56,
+      "true_outs": 13,
+      "missed_ins": 3,
+      "accuracy": 0.3139534884,
+      "balanced_accuracy": 0.5059676044,
+      "in_precision": 0.2,
+      "in_recall": 0.8235294118,
+      "in_f1": 0.3218390805
+    },
+    "standard_check": {
+      "true_ins": 0,
+      "false_ins": 0,
+      "true_outs": 69,
+      "missed_ins": 17,
+      "accuracy": 0.8023255814,
+      "balanced_accuracy": 0.5,
+      "in_precision": 0.0,
+      "in_recall": 0.0,
+      "in_f1": 0.0
+    }
+  },
+  "raw_ranking": {
+    "any_check_likelihood": {
+      "roc_auc": 0.5647911338,
+      "tie_aware_average_precision": 0.2694645287,
+      "prevalence": 0.1976744186,
+      "review_at_or_above_0_61": {
+        "queue": 20,
+        "ins": 7,
+        "precision": 0.35,
+        "recall": 0.4117647059
+      }
+    },
+    "standard_check_likelihood": {
+      "roc_auc": 0.5635123615,
+      "tie_aware_average_precision": 0.2308034888
+    },
+    "model_ranking_score": {
+      "roc_auc": 0.4433077579,
+      "tie_aware_average_precision": 0.1860764883
+    }
+  },
+  "posthoc_development_threshold": {
+    "endpoint": "any_check_likelihood",
+    "threshold": 0.6,
+    "true_ins": 8,
+    "false_ins": 17,
+    "true_outs": 52,
+    "missed_ins": 9,
+    "balanced_accuracy": 0.6121057118,
+    "in_precision": 0.32,
+    "in_recall": 0.4705882353,
+    "in_f1": 0.380952381,
+    "warning": "Selected on the full development population; not a holdout estimate."
+  },
+  "conditional_interest_sensitivity": {
+    "relabelled_as_in": [
+      "41-can-this-startup-help-retailers-take-on-amazon",
+      "127-nectir-the-classroom-of-the-future"
+    ],
+    "ins": 19,
+    "outs": 67,
+    "any_check_true_ins": 16,
+    "any_check_false_ins": 54,
+    "any_check_true_outs": 13,
+    "any_check_missed_ins": 3,
+    "any_check_balanced_accuracy": 0.518067557,
+    "any_check_in_precision": 0.2285714286,
+    "any_check_in_recall": 0.8421052632,
+    "any_check_likelihood_roc_auc": 0.586802828,
+    "any_check_likelihood_tie_aware_average_precision": 0.3308812885,
+    "prevalence": 0.2209302326
+  },
+  "missed_ins": [
+    "83-can-small-bras-be-a-big-market",
+    "143-vital-audio",
+    "152-oma-health"
+  ],
+  "operational": {
+    "usable_decisions": 86,
+    "selected_attempt_1": 83,
+    "selected_attempt_2": 3,
+    "phase1_accepted": 27,
+    "phase1_provisional": 59,
+    "phase2_accepted": 55,
+    "phase2_provisional": 31,
+    "phase1_iterations": {"1": 52, "2": 22, "3": 12},
+    "phase2_iterations": {"1": 22, "2": 64},
+    "rationales": 1409,
+    "average_rationales_per_episode": 16.3837209302,
+    "deliberation_steps": 552,
+    "average_deliberation_steps_per_episode": 6.4186046512,
+    "selected_artifact_usage": {
+      "input_tokens": 6673039,
+      "cached_input_tokens": 48404,
+      "output_tokens": 1357383,
+      "cost_usd": 1.642870015
+    },
+    "retry_overhead": {
+      "input_tokens": 368580,
+      "output_tokens": 51316,
+      "cost_usd": 0.07686075
+    }
+  },
+  "artifacts": {
+    "historical_status": "outputs/openrouter-luna-charles-v2-codex36-2026-08-02-fix1/batch-status.json",
+    "remaining_status": "outputs/openrouter-luna-charles-v2-remaining55-2026-08-02/batch-status.json",
+    "strict_labels": "evaluation/labels/charles_pitch_window_decisions.json",
+    "cohort_31": "configs/batches/charles-codex36-v2-development.json",
+    "cohort_55": "configs/batches/charles-remaining55-v2-development.json",
+    "config": "configs/openrouter-luna-charles-v2-batch.toml"
+  }
+}

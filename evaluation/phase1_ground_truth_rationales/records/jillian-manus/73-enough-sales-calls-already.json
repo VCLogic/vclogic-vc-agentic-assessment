@@ -1,0 +1,107 @@
+{
+  "schema": "phase1-rationale-reference-v1",
+  "episode_slug": "73-enough-sales-calls-already",
+  "vc_slug": "jillian-manus",
+  "vc_name": "Jillian Manus",
+  "actual_decision": "Out",
+  "reference_kind": "automated_transcript_observed_candidate",
+  "human_validated": false,
+  "source_format": "transcript-observed-rationales-v1",
+  "source_path": "/home/dpasch01/vc-digital-twins/langgraph-vc-clone-framework/evaluation/phase1_ground_truth_rationales/source_artifacts/jillian-manus/73-enough-sales-calls-already.json",
+  "source_sha256": "26dfe0bb34c6f3fb3d43c6251b18adfc77cb99889519234bcadb015d07a910b7",
+  "rationales": [
+    {
+      "rationale_label": "portfolio_conflict_constraint",
+      "direction": "neutral",
+      "salience": "secondary",
+      "confidence": 0.93,
+      "activation": "queried",
+      "utterance_type": "question",
+      "decision_link": "none",
+      "evidence": [
+        "Are you funding them too?"
+      ],
+      "source_rationale_id": "R1"
+    },
+    {
+      "rationale_label": "fundraising_demand_signal",
+      "direction": "neutral",
+      "salience": "secondary",
+      "confidence": 0.84,
+      "activation": "queried",
+      "utterance_type": "question",
+      "decision_link": "none",
+      "evidence": [
+        "What was it, tell us about the prior funding."
+      ],
+      "source_rationale_id": "R2"
+    },
+    {
+      "rationale_label": "stage_valuation_mismatch",
+      "direction": "neutral",
+      "salience": "secondary",
+      "confidence": 0.86,
+      "activation": "queried",
+      "utterance_type": "question",
+      "decision_link": "none",
+      "evidence": [
+        "At what valuation?"
+      ],
+      "source_rationale_id": "R3"
+    },
+    {
+      "rationale_label": "business_model_assessment",
+      "direction": "neutral",
+      "salience": "secondary",
+      "confidence": 0.9,
+      "activation": "queried",
+      "utterance_type": "question",
+      "decision_link": "none",
+      "evidence": [
+        "What are the revenues?"
+      ],
+      "source_rationale_id": "R4"
+    },
+    {
+      "rationale_label": "product_appeal_assessment",
+      "direction": "positive",
+      "salience": "secondary",
+      "confidence": 0.82,
+      "activation": "evaluated",
+      "utterance_type": "assessment",
+      "decision_link": "none",
+      "evidence": [
+        "Um I'm with everyone, to tell you the truth. I would like to introduce this to our portfolio companies I just need to have a little bit more time to better understand this. So I’m out right now."
+      ],
+      "source_rationale_id": "R5"
+    },
+    {
+      "rationale_label": "investor_domain_knowledge_constraint",
+      "direction": "negative",
+      "salience": "primary",
+      "confidence": 0.99,
+      "activation": "evaluated",
+      "utterance_type": "decision_reason",
+      "decision_link": "explicit",
+      "evidence": [
+        "Um I'm with everyone, to tell you the truth. I would like to introduce this to our portfolio companies I just need to have a little bit more time to better understand this. So I’m out right now."
+      ],
+      "source_rationale_id": "R6"
+    },
+    {
+      "rationale_label": "decision_context_constraint",
+      "direction": "negative",
+      "salience": "secondary",
+      "confidence": 0.91,
+      "activation": "evaluated",
+      "utterance_type": "decision_reason",
+      "decision_link": "explicit",
+      "evidence": [
+        "Um I'm with everyone, to tell you the truth. I would like to introduce this to our portfolio companies I just need to have a little bit more time to better understand this. So I’m out right now."
+      ],
+      "source_rationale_id": "R7"
+    }
+  ],
+  "source_tier": "newly_extracted",
+  "source_origin_path": "/home/dpasch01/vc-digital-twins/langgraph-vc-clone-framework/evaluation/phase1_ground_truth_rationales/extraction_runs/jillian-manus/73-enough-sales-calls-already/reference.json"
+}

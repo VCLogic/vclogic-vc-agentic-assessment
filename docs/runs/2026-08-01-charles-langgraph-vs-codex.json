@@ -1,0 +1,357 @@
+{
+  "aggregate": {
+    "actual_ins": 2,
+    "actual_outs": 1,
+    "cases": 3,
+    "codex_correct": 1,
+    "langgraph_correct": 1,
+    "langgraph_precision_at_2": 1.0,
+    "langgraph_recall_at_2": 1.0,
+    "mean_rationale_jaccard": 0.417,
+    "ranking_order": [
+      "127-nectir-the-classroom-of-the-future",
+      "41-can-this-startup-help-retailers-take-on-amazon",
+      "20-harper-wilde"
+    ],
+    "shared_direction_agreement": 0.714,
+    "shared_direction_agreements": 15,
+    "shared_labels_total": 21,
+    "usage": {
+      "cached_input_tokens": 0,
+      "cost_usd": 0.03502042500000001,
+      "input_tokens": 154764,
+      "output_tokens": 26196
+    }
+  },
+  "episodes": [
+    {
+      "actual_label": "Out",
+      "actual_label_context": "initial_panel",
+      "codex": {
+        "correct": false,
+        "decision": "In",
+        "endpoint": {
+          "name": "direct_decision"
+        },
+        "likelihood": 0.58,
+        "phase1_artifact": "outputs/a-cut-luna-one-off/20-harper-wilde/phase1/frozen-investigation.json",
+        "phase2_artifact": "outputs/a-cut-luna-one-off/20-harper-wilde/phase2/frozen-decision.json",
+        "rationale_count": 12,
+        "rationales": {
+          "business_model_assessment": "neutral",
+          "competitive_landscape_inertia": "negative",
+          "founder_communication_quality": "positive",
+          "founder_execution": "positive",
+          "founder_market_fit": "positive",
+          "founder_motivation_authenticity": "positive",
+          "market_entry_path_assessment": "neutral",
+          "market_problem_validation": "positive",
+          "product_differentiation_concern": "negative",
+          "product_success_factor_assessment": "positive",
+          "traction_repeatability_concern": "neutral",
+          "venture_scale_concern": "negative"
+        }
+      },
+      "comparison": {
+        "codex_only": [
+          "business_model_assessment",
+          "competitive_landscape_inertia",
+          "founder_communication_quality",
+          "founder_market_fit",
+          "market_entry_path_assessment",
+          "product_success_factor_assessment",
+          "traction_repeatability_concern"
+        ],
+        "direction_agreements": [
+          "founder_execution",
+          "founder_motivation_authenticity",
+          "market_problem_validation"
+        ],
+        "direction_disagreements": {
+          "product_differentiation_concern": {
+            "codex": "negative",
+            "langgraph": "neutral"
+          },
+          "venture_scale_concern": {
+            "codex": "negative",
+            "langgraph": "neutral"
+          }
+        },
+        "jaccard": 0.333,
+        "langgraph_only": [
+          "go_to_market_strategy_assessment",
+          "product_adoption",
+          "unit_economics_assessment"
+        ],
+        "shared_count": 5,
+        "shared_labels": [
+          "founder_execution",
+          "founder_motivation_authenticity",
+          "market_problem_validation",
+          "product_differentiation_concern",
+          "venture_scale_concern"
+        ],
+        "union_count": 15
+      },
+      "episode_slug": "20-harper-wilde",
+      "langgraph": {
+        "artifact_root": "outputs/openrouter-luna-charles-comparison/20-harper-wilde",
+        "check_tier": "exploratory_lt_100k",
+        "correct": true,
+        "decision": "Out",
+        "decision_confidence": 0.82,
+        "investment_likelihood": 0.38,
+        "phase1_iterations": 2,
+        "phase1_status": "accepted",
+        "phase2_iterations": 1,
+        "phase2_status": "accepted",
+        "ranking_score": 0.58,
+        "rationale_count": 8,
+        "rationales": {
+          "founder_execution": "positive",
+          "founder_motivation_authenticity": "positive",
+          "go_to_market_strategy_assessment": "neutral",
+          "market_problem_validation": "positive",
+          "product_adoption": "positive",
+          "product_differentiation_concern": "neutral",
+          "unit_economics_assessment": "negative",
+          "venture_scale_concern": "neutral"
+        },
+        "usage": {
+          "cached_input_tokens": 0,
+          "cost_usd": 0.011884750000000003,
+          "input_tokens": 64061,
+          "output_tokens": 6532
+        }
+      }
+    },
+    {
+      "actual_label": "In",
+      "actual_label_context": "later_diligence_after_conditional_panel_interest",
+      "codex": {
+        "correct": false,
+        "decision": "Out",
+        "endpoint": {
+          "name": "direct_decision"
+        },
+        "likelihood": 0.32,
+        "phase1_artifact": "outputs/a-cut-luna-one-off/41-can-this-startup-help-retailers-take-on-amazon/phase1/frozen-investigation.json",
+        "phase2_artifact": "outputs/a-cut-luna-one-off/41-can-this-startup-help-retailers-take-on-amazon/phase2/frozen-decision.json",
+        "rationale_count": 13,
+        "rationales": {
+          "business_model_assessment": "positive",
+          "execution_risk_assessment": "negative",
+          "founder_execution": "positive",
+          "growth_projection_risk": "negative",
+          "market_entry_path_assessment": "positive",
+          "market_problem_validation": "positive",
+          "market_timing": "neutral",
+          "product_adoption": "positive",
+          "product_differentiation_concern": "negative",
+          "solution_feasibility_assessment": "positive",
+          "stage_valuation_mismatch": "neutral",
+          "traction_repeatability_concern": "negative",
+          "unit_economics_assessment": "neutral"
+        }
+      },
+      "comparison": {
+        "codex_only": [
+          "business_model_assessment",
+          "execution_risk_assessment",
+          "market_entry_path_assessment",
+          "market_timing",
+          "product_adoption",
+          "stage_valuation_mismatch"
+        ],
+        "direction_agreements": [
+          "founder_execution",
+          "growth_projection_risk",
+          "market_problem_validation",
+          "solution_feasibility_assessment",
+          "unit_economics_assessment"
+        ],
+        "direction_disagreements": {
+          "product_differentiation_concern": {
+            "codex": "negative",
+            "langgraph": "positive"
+          },
+          "traction_repeatability_concern": {
+            "codex": "negative",
+            "langgraph": "neutral"
+          }
+        },
+        "jaccard": 0.389,
+        "langgraph_only": [
+          "competitive_landscape_inertia",
+          "deal_terms_complexity_concern",
+          "go_to_market_strategy_assessment",
+          "market_size_assessment",
+          "venture_scale_concern"
+        ],
+        "shared_count": 7,
+        "shared_labels": [
+          "founder_execution",
+          "growth_projection_risk",
+          "market_problem_validation",
+          "product_differentiation_concern",
+          "solution_feasibility_assessment",
+          "traction_repeatability_concern",
+          "unit_economics_assessment"
+        ],
+        "union_count": 18
+      },
+      "episode_slug": "41-can-this-startup-help-retailers-take-on-amazon",
+      "langgraph": {
+        "artifact_root": "outputs/openrouter-luna-charles-comparison/41-can-this-startup-help-retailers-take-on-amazon",
+        "check_tier": "no_check_tier",
+        "correct": false,
+        "decision": "Out",
+        "decision_confidence": 0.84,
+        "investment_likelihood": 0.32,
+        "phase1_iterations": 1,
+        "phase1_status": "accepted",
+        "phase2_iterations": 1,
+        "phase2_status": "accepted",
+        "ranking_score": 0.66,
+        "rationale_count": 12,
+        "rationales": {
+          "competitive_landscape_inertia": "negative",
+          "deal_terms_complexity_concern": "neutral",
+          "founder_execution": "positive",
+          "go_to_market_strategy_assessment": "neutral",
+          "growth_projection_risk": "negative",
+          "market_problem_validation": "positive",
+          "market_size_assessment": "neutral",
+          "product_differentiation_concern": "positive",
+          "solution_feasibility_assessment": "positive",
+          "traction_repeatability_concern": "neutral",
+          "unit_economics_assessment": "neutral",
+          "venture_scale_concern": "neutral"
+        },
+        "usage": {
+          "cached_input_tokens": 0,
+          "cost_usd": 0.006447100000000001,
+          "input_tokens": 28745,
+          "output_tokens": 4757
+        }
+      }
+    },
+    {
+      "actual_label": "In",
+      "actual_label_context": "later_diligence_after_conditional_panel_interest",
+      "codex": {
+        "correct": true,
+        "decision": "In",
+        "endpoint": {
+          "name": "any_check",
+          "standard_check_decision": "Out",
+          "standard_check_likelihood": 0.22
+        },
+        "likelihood": 0.61,
+        "phase1_artifact": "outputs/a-cut-sol-luna-dual-check-gated-two-turn-development-2026-07-28/127-nectir-the-classroom-of-the-future/phase1/frozen-investigation.json",
+        "phase2_artifact": "outputs/a-cut-sol-luna-dual-check-gated-two-turn-development-2026-07-28/127-nectir-the-classroom-of-the-future/phase2/output.json",
+        "rationale_count": 13,
+        "rationales": {
+          "business_model_assessment": "neutral",
+          "founder_communication_quality": "positive",
+          "founder_execution": "positive",
+          "founder_market_fit": "positive",
+          "founder_motivation_authenticity": "positive",
+          "go_to_market_strategy_assessment": "neutral",
+          "market_problem_validation": "positive",
+          "market_timing": "neutral",
+          "product_adoption": "positive",
+          "product_differentiation_concern": "negative",
+          "stage_valuation_mismatch": "negative",
+          "traction_repeatability_concern": "negative",
+          "venture_scale_concern": "negative"
+        }
+      },
+      "comparison": {
+        "codex_only": [
+          "business_model_assessment",
+          "founder_communication_quality",
+          "founder_market_fit",
+          "go_to_market_strategy_assessment"
+        ],
+        "direction_agreements": [
+          "founder_execution",
+          "founder_motivation_authenticity",
+          "market_problem_validation",
+          "product_adoption",
+          "stage_valuation_mismatch",
+          "traction_repeatability_concern",
+          "venture_scale_concern"
+        ],
+        "direction_disagreements": {
+          "market_timing": {
+            "codex": "neutral",
+            "langgraph": "negative"
+          },
+          "product_differentiation_concern": {
+            "codex": "negative",
+            "langgraph": "positive"
+          }
+        },
+        "jaccard": 0.529,
+        "langgraph_only": [
+          "dilution_concern",
+          "founder_skillset",
+          "fundraising_demand_signal",
+          "growth_projection_risk"
+        ],
+        "shared_count": 9,
+        "shared_labels": [
+          "founder_execution",
+          "founder_motivation_authenticity",
+          "market_problem_validation",
+          "market_timing",
+          "product_adoption",
+          "product_differentiation_concern",
+          "stage_valuation_mismatch",
+          "traction_repeatability_concern",
+          "venture_scale_concern"
+        ],
+        "union_count": 17
+      },
+      "episode_slug": "127-nectir-the-classroom-of-the-future",
+      "langgraph": {
+        "artifact_root": "outputs/openrouter-luna-charles-comparison/127-nectir-the-classroom-of-the-future",
+        "check_tier": "no_check_tier",
+        "correct": false,
+        "decision": "Out",
+        "decision_confidence": 0.84,
+        "investment_likelihood": 0.36,
+        "phase1_iterations": 2,
+        "phase1_status": "accepted",
+        "phase2_iterations": 1,
+        "phase2_status": "accepted",
+        "ranking_score": 0.72,
+        "rationale_count": 13,
+        "rationales": {
+          "dilution_concern": "negative",
+          "founder_execution": "positive",
+          "founder_motivation_authenticity": "positive",
+          "founder_skillset": "positive",
+          "fundraising_demand_signal": "positive",
+          "growth_projection_risk": "negative",
+          "market_problem_validation": "positive",
+          "market_timing": "negative",
+          "product_adoption": "positive",
+          "product_differentiation_concern": "positive",
+          "stage_valuation_mismatch": "negative",
+          "traction_repeatability_concern": "negative",
+          "venture_scale_concern": "negative"
+        },
+        "usage": {
+          "cached_input_tokens": 0,
+          "cost_usd": 0.016688575000000004,
+          "input_tokens": 61958,
+          "output_tokens": 14907
+        }
+      }
+    }
+  ],
+  "model": "openai/gpt-5.6-luna",
+  "schema": "charles-langgraph-codex-comparison-v1"
+}

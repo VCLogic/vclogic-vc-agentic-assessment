@@ -1,0 +1,94 @@
+{
+  "schema": "transcript-observed-rationales-v1",
+  "episode_slug": "gnara-disrupting-your-pants",
+  "transcript_sha256": "0078f80760fb17eaa856782956aec3d580feeddeacc8200334f719a5453da408",
+  "window": {
+    "start_turn": 5,
+    "end_turn": 113
+  },
+  "observed_decision": "Out",
+  "decision_evidence_ids": [
+    "E4"
+  ],
+  "evidence_registry": [
+    {
+      "evidence_id": "E1",
+      "turn_index": 26,
+      "speaker": "Charles",
+      "text": "Sea green. I kind of like that sea foam."
+    },
+    {
+      "evidence_id": "E2",
+      "turn_index": 77,
+      "speaker": "Charles",
+      "text": "Are there any other alternative approaches to solving this problem that don't violate your patent? Like other people who are working on trying to bring this much needed innovation to the outdoors?"
+    },
+    {
+      "evidence_id": "E3",
+      "turn_index": 111,
+      "speaker": "Charles",
+      "text": "I think I am in a similar position to Mac. We've made a couple of investments in outdoors ski company called Halfdays, we have outdoor products company called Kinfield. I do have one company that makes hiking pants called Alpine Parrot focused on a different dynamic -"
+    },
+    {
+      "evidence_id": "E4",
+      "turn_index": 113,
+      "speaker": "Charles",
+      "text": "Yeah. I would wanna talk to Raquel about this, cos it's a very different use case, but it's a similar product. but I'd want to double check for conflict first."
+    }
+  ],
+  "rationales": [
+    {
+      "rationale_id": "R1",
+      "rationale_label": "product_appeal_assessment",
+      "utterance_type": "assessment",
+      "activation": "evaluated",
+      "direction": "positive",
+      "salience": "secondary",
+      "confidence": 0.99,
+      "evidence_ids": [
+        "E1"
+      ],
+      "explanation": "Charles expressed personal liking for the product color during the pitch.",
+      "decision_link": "none"
+    },
+    {
+      "rationale_id": "R2",
+      "rationale_label": "competitive_advantage_assessment",
+      "utterance_type": "question",
+      "activation": "queried",
+      "direction": "neutral",
+      "salience": "secondary",
+      "confidence": 0.96,
+      "evidence_ids": [
+        "E2"
+      ],
+      "explanation": "Charles asked whether alternative, non-infringing approaches or competitors were addressing the problem.",
+      "decision_link": "none"
+    },
+    {
+      "rationale_id": "R3",
+      "rationale_label": "portfolio_conflict_constraint",
+      "utterance_type": "decision_reason",
+      "activation": "evaluated",
+      "direction": "negative",
+      "salience": "primary",
+      "confidence": 1.0,
+      "evidence_ids": [
+        "E3",
+        "E4"
+      ],
+      "explanation": "Charles identified overlapping portfolio exposure, including a hiking-pants company, and stated that he needed to check for a conflict before investing.",
+      "decision_link": "explicit"
+    }
+  ],
+  "unmapped_utterances": [
+    "Hey, I'm Charles.",
+    "Nice to meet you, Georgia Grace.",
+    "Nice.",
+    "Yeah. Yeah.",
+    "Thank you.",
+    "Yeah."
+  ],
+  "audit_flags": [],
+  "annotation_summary": "Charles showed product appeal and explored competitive alternatives, but his explicit reason for going Out was an unresolved portfolio conflict requiring confirmation with Raquel."
+}

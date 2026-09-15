@@ -1,0 +1,323 @@
+{
+  "schema": "transcript-observed-rationales-v1",
+  "episode_slug": "115-gemist-the-crown-jewel-of-venture",
+  "transcript_sha256": "3b5078975c559cd139c0b99419e7f749f6a50e692ccddf71e2c0670d043b6501",
+  "window": {
+    "start_turn": 10,
+    "end_turn": 70
+  },
+  "observed_decision": "Out",
+  "decision_evidence_ids": [
+    "E12"
+  ],
+  "evidence_registry": [
+    {
+      "evidence_id": "E1",
+      "turn_index": 21,
+      "speaker": "Elizabeth",
+      "text": "How did you get into this?"
+    },
+    {
+      "evidence_id": "E2",
+      "turn_index": 23,
+      "speaker": "Elizabeth",
+      "text": "So originally you built the site to allow people to create their own custom jewelry? Is that what I'm hearing? And then you moved into supporting other jewelers?"
+    },
+    {
+      "evidence_id": "E3",
+      "turn_index": 33,
+      "speaker": "Elizabeth",
+      "text": "You said it takes one to two months to integrate. What is involved in that?"
+    },
+    {
+      "evidence_id": "E4",
+      "turn_index": 37,
+      "speaker": "Elizabeth",
+      "text": "I fully believe that. I have multiple friends who run online jewelry brands that do super well for them, as small businesses. So I believe that the sales cycle's super quick. Actually, this is probably one of the few businesses where I'm not worried about the sales cycle. But the thing I think I'm still hung up about is this integration. Even at scale, three weeks to get a partner onboarded still feels really long to me, and you'll need a big team to start all of a sudden onboarding all these different folks, right. The capital structure on this feels very heavy. Talk about that."
+    },
+    {
+      "evidence_id": "E5",
+      "turn_index": 39,
+      "speaker": "Elizabeth",
+      "text": "So actually if we could just talk about pricing more wholistically and kind of break it down."
+    },
+    {
+      "evidence_id": "E6",
+      "turn_index": 41,
+      "speaker": "Elizabeth",
+      "text": "It sounds like you've got a roughly 1k per month monthly fee, and that has super high margins."
+    },
+    {
+      "evidence_id": "E7",
+      "turn_index": 43,
+      "speaker": "Elizabeth",
+      "text": "And then you have this try-on product, which presumably has near zero margins."
+    },
+    {
+      "evidence_id": "E8",
+      "turn_index": 46,
+      "speaker": "Elizabeth",
+      "text": "Got it. And then you charge 3 to 10% on transaction fees."
+    },
+    {
+      "evidence_id": "E9",
+      "turn_index": 52,
+      "speaker": "Elizabeth",
+      "text": "I believe that."
+    },
+    {
+      "evidence_id": "E10",
+      "turn_index": 58,
+      "speaker": "Elizabeth",
+      "text": "How much money have you raised before on this company?"
+    },
+    {
+      "evidence_id": "E11",
+      "turn_index": 60,
+      "speaker": "Elizabeth",
+      "text": "So you've already raised 4?"
+    },
+    {
+      "evidence_id": "E12",
+      "turn_index": 70,
+      "speaker": "Elizabeth",
+      "text": "So I think you are very impressive. I think you're on to an interesting problem and I completely agree with you on the sales cycle. I think it's gonna be a really good sales cycle for you. I think, you know, given where the business is, like after this round you'll have raised $7 million and you'll - it seems like you're just sort of at the beginning of the customer acquisition cycle, I'm worried about the capitalization and the cap table. I'm also worried about the valuation, given where the company is as well. And so for that reason, I'm out."
+    }
+  ],
+  "rationales": [
+    {
+      "rationale_id": "R1",
+      "rationale_label": "founder_motivation_authenticity",
+      "utterance_type": "question",
+      "activation": "queried",
+      "direction": "neutral",
+      "salience": "secondary",
+      "confidence": 0.97,
+      "evidence_ids": [
+        "E1"
+      ],
+      "explanation": "Elizabeth asked how the founder got into the problem, probing the authenticity and origin of her motivation.",
+      "decision_link": "none"
+    },
+    {
+      "rationale_id": "R2",
+      "rationale_label": "founder_investor_vision_alignment",
+      "utterance_type": "question",
+      "activation": "queried",
+      "direction": "neutral",
+      "salience": "secondary",
+      "confidence": 0.87,
+      "evidence_ids": [
+        "E2"
+      ],
+      "explanation": "Elizabeth asked about the transition from the direct-to-consumer custom jewelry site to supporting other jewelers, probing the company's direction.",
+      "decision_link": "none"
+    },
+    {
+      "rationale_id": "R3",
+      "rationale_label": "solution_feasibility_assessment",
+      "utterance_type": "question",
+      "activation": "queried",
+      "direction": "neutral",
+      "salience": "secondary",
+      "confidence": 0.98,
+      "evidence_ids": [
+        "E3",
+        "E4"
+      ],
+      "explanation": "Elizabeth asked what the integration process involved and said that even a three-week onboarding period felt long at scale.",
+      "decision_link": "none"
+    },
+    {
+      "rationale_id": "R4",
+      "rationale_label": "go_to_market_strategy_assessment",
+      "utterance_type": "assessment",
+      "activation": "evaluated",
+      "direction": "positive",
+      "salience": "secondary",
+      "confidence": 0.99,
+      "evidence_ids": [
+        "E4",
+        "E12"
+      ],
+      "explanation": "Elizabeth explicitly said she was not worried about the sales cycle and believed it would be very good.",
+      "decision_link": "none"
+    },
+    {
+      "rationale_id": "R5",
+      "rationale_label": "go_to_market_strategy_assessment",
+      "utterance_type": "assessment",
+      "activation": "evaluated",
+      "direction": "negative",
+      "salience": "secondary",
+      "confidence": 0.93,
+      "evidence_ids": [
+        "E4"
+      ],
+      "explanation": "Elizabeth was concerned that onboarding partners would take too long and require a large team as the company scaled.",
+      "decision_link": "none"
+    },
+    {
+      "rationale_id": "R6",
+      "rationale_label": "capital_intensity_concern",
+      "utterance_type": "assessment",
+      "activation": "evaluated",
+      "direction": "negative",
+      "salience": "primary",
+      "confidence": 0.98,
+      "evidence_ids": [
+        "E4"
+      ],
+      "explanation": "Elizabeth directly characterized the capital structure as very heavy, in the context of the operational resources required for onboarding.",
+      "decision_link": "none"
+    },
+    {
+      "rationale_id": "R7",
+      "rationale_label": "business_model_assessment",
+      "utterance_type": "question",
+      "activation": "queried",
+      "direction": "neutral",
+      "salience": "secondary",
+      "confidence": 0.97,
+      "evidence_ids": [
+        "E5",
+        "E8"
+      ],
+      "explanation": "Elizabeth requested a holistic breakdown of pricing and confirmed the transaction-fee component.",
+      "decision_link": "none"
+    },
+    {
+      "rationale_id": "R8",
+      "rationale_label": "unit_economics_assessment",
+      "utterance_type": "assessment",
+      "activation": "evaluated",
+      "direction": "positive",
+      "salience": "secondary",
+      "confidence": 0.96,
+      "evidence_ids": [
+        "E6"
+      ],
+      "explanation": "Elizabeth observed that the monthly fee had very high margins.",
+      "decision_link": "none"
+    },
+    {
+      "rationale_id": "R9",
+      "rationale_label": "unit_economics_assessment",
+      "utterance_type": "assessment",
+      "activation": "evaluated",
+      "direction": "negative",
+      "salience": "secondary",
+      "confidence": 0.87,
+      "evidence_ids": [
+        "E7"
+      ],
+      "explanation": "Elizabeth expressed the view that the try-on product presumably had near-zero margins.",
+      "decision_link": "none"
+    },
+    {
+      "rationale_id": "R10",
+      "rationale_label": "market_problem_validation",
+      "utterance_type": "assessment",
+      "activation": "evaluated",
+      "direction": "positive",
+      "salience": "secondary",
+      "confidence": 0.88,
+      "evidence_ids": [
+        "E9"
+      ],
+      "explanation": "Elizabeth agreed with the founder's claim about poor jewelry conversion and bounce rates, supporting the existence of a meaningful problem.",
+      "decision_link": "none"
+    },
+    {
+      "rationale_id": "R11",
+      "rationale_label": "dilution_concern",
+      "utterance_type": "question",
+      "activation": "queried",
+      "direction": "neutral",
+      "salience": "primary",
+      "confidence": 0.97,
+      "evidence_ids": [
+        "E10",
+        "E11"
+      ],
+      "explanation": "Elizabeth asked about the company's prior fundraising and confirmed that $4 million had already been raised, probing capitalization and dilution context.",
+      "decision_link": "none"
+    },
+    {
+      "rationale_id": "R12",
+      "rationale_label": "founder_qualities",
+      "utterance_type": "assessment",
+      "activation": "evaluated",
+      "direction": "positive",
+      "salience": "secondary",
+      "confidence": 0.99,
+      "evidence_ids": [
+        "E12"
+      ],
+      "explanation": "Elizabeth described the founder as very impressive.",
+      "decision_link": "none"
+    },
+    {
+      "rationale_id": "R13",
+      "rationale_label": "market_problem_validation",
+      "utterance_type": "assessment",
+      "activation": "evaluated",
+      "direction": "positive",
+      "salience": "secondary",
+      "confidence": 0.98,
+      "evidence_ids": [
+        "E12"
+      ],
+      "explanation": "Elizabeth said the company was addressing an interesting problem.",
+      "decision_link": "none"
+    },
+    {
+      "rationale_id": "R14",
+      "rationale_label": "traction_repeatability_concern",
+      "utterance_type": "assessment",
+      "activation": "evaluated",
+      "direction": "negative",
+      "salience": "primary",
+      "confidence": 0.9,
+      "evidence_ids": [
+        "E12"
+      ],
+      "explanation": "Elizabeth noted that, despite the capital raised after the round, the company appeared to be only at the beginning of its customer acquisition cycle.",
+      "decision_link": "implicit"
+    },
+    {
+      "rationale_id": "R15",
+      "rationale_label": "dilution_concern",
+      "utterance_type": "decision_reason",
+      "activation": "evaluated",
+      "direction": "negative",
+      "salience": "primary",
+      "confidence": 0.99,
+      "evidence_ids": [
+        "E12"
+      ],
+      "explanation": "Elizabeth explicitly said she was worried about the capitalization and cap table and cited this as part of the reason for going out.",
+      "decision_link": "explicit"
+    },
+    {
+      "rationale_id": "R16",
+      "rationale_label": "stage_valuation_mismatch",
+      "utterance_type": "decision_reason",
+      "activation": "evaluated",
+      "direction": "negative",
+      "salience": "primary",
+      "confidence": 0.99,
+      "evidence_ids": [
+        "E12"
+      ],
+      "explanation": "Elizabeth explicitly said she was worried about the valuation given where the company was and cited this as part of the reason for going out.",
+      "decision_link": "explicit"
+    }
+  ],
+  "unmapped_utterances": [
+    "Wow.",
+    "Ah. Okay."
+  ],
+  "audit_flags": [],
+  "annotation_summary": "Elizabeth positively assessed the problem, founder, and sales cycle, but raised concerns about integration scalability and capital intensity during diligence. Her explicit reasons for going Out were capitalization/cap-table concerns and valuation relative to company stage."
+}

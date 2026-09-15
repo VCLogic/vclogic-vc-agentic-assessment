@@ -1,0 +1,61 @@
+{
+  "actual_decision": "Out",
+  "boundary_turn_index": 40,
+  "canonical_pitch_path": "inputs/data/investors/elizabeth-yin-hustle-fund/pitches/147-partytrick.txt",
+  "canonical_pitch_sha256": "f4b05f1e41fc853fadf36a1a273270fdadb5becad2383961b8d0b2bb05bd5800",
+  "episode_path": "../agentic-vc-clone-framework/data/episodes/147-partytrick.json",
+  "episode_sha256": "a345c6ad4b827fb1bf20724ec723ecd38b0ec68e2548b8fcb3b52fdb392735b0",
+  "episode_slug": "147-partytrick",
+  "insertions": [
+    {
+      "answer_turn_index": 22,
+      "canonical_line_index": 7,
+      "original_speaker": "Mac",
+      "question": "So you mentioned you launched in 2022. How much revenue have you done to date and how do you charge?",
+      "source_turn_index": 21
+    },
+    {
+      "answer_turn_index": 29,
+      "canonical_line_index": 11,
+      "original_speaker": "Ben",
+      "question": "And I'm only at a partial understanding of the blueprint. Would you mind getting me to the full understanding of exactly what the blueprint piece of the present model is?",
+      "source_turn_index": 28
+    },
+    {
+      "answer_turn_index": 33,
+      "canonical_line_index": 15,
+      "original_speaker": "Cyan",
+      "question": "What about insurance and all that stuff? Cause obviously like if you serve alcohol, there's like all these weird things and -",
+      "source_turn_index": 32
+    }
+  ],
+  "leakage_checklist": {
+    "founder_content_added": false,
+    "other_investor_identity_model_visible": false,
+    "post_boundary_turn_retained": false,
+    "target_investor_turn_retained": false,
+    "verdict_or_offer_turn_retained": false
+  },
+  "neutral_speaker_label": "Panel Investor",
+  "omitted_candidates": [
+    {
+      "original_speaker": "Cyan",
+      "reason": "question_already_present",
+      "source_turn_index": 17,
+      "text": "So question, how do you track ROI on events?"
+    },
+    {
+      "original_speaker": "Ben",
+      "reason": "question_already_present",
+      "source_turn_index": 30,
+      "text": "And are you presenting a menu of options for the customer or do you have a team internally that's literally curating those things?"
+    }
+  ],
+  "pitch_sha256": "3cfa3489cadf4d6ae32ce56f12fa0958a8510c67d9bf20fa4458c2f484157b28",
+  "registry_vc_slug": "elizabeth-yin",
+  "schema": "panel-question-pitch-audit-v1",
+  "source_record_path": "inputs/data/investors/elizabeth-yin-hustle-fund/precedents/records/147-partytrick.json",
+  "source_record_sha256": "c269c5b0f01b12ae0e08e4a4d5bc8a8e6d0710d88a60519aea073b32e44f4769",
+  "status": "audited",
+  "vc_slug": "elizabeth-yin-hustle-fund"
+}

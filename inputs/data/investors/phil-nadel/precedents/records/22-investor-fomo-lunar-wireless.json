@@ -1,0 +1,805 @@
+{
+  "decision": {
+    "audit_notes": "The observed pitch-window decision agrees with the source final label.",
+    "audit_source": "evaluation/labels/phil_nadel_pitch_window_decisions.json",
+    "check_tier": "exploratory_lt_100k",
+    "conditions": [
+      "A $25,000 personal investment rather than a Forefront fund or syndicate investment."
+    ],
+    "context": "same_session_reversal",
+    "evidence": [
+      {
+        "text": "So I have, too, after we were talking, I had regrets. This is not, this is not appropriate for our fund, for our syndicate, because of the lack of traction. But you're impressive, I want to personally invest, but I only want to 25 if you could do that. Let me track, let me invest personally $25,000 and that way I'm staying in touch with you and staying on board.",
+        "turn_end": 120,
+        "turn_start": 120
+      }
+    ],
+    "status": "In"
+  },
+  "episode_number": 22,
+  "episode_slug": "22-investor-fomo-lunar-wireless",
+  "investor_aliases": [
+    "Phil",
+    "Phil Nadel"
+  ],
+  "investor_present": true,
+  "source_path": "sources/22-investor-fomo-lunar-wireless.json",
+  "source_sha256": "5e7bf1e4bd114674e232d45a5aa4067ff4ac4a2610c50792ffa3150aea9dd34a",
+  "turns": [
+    {
+      "speaker": "Narrator",
+      "text": "I’m Josh Muccio and from Gimlet Media, this is The Pitch, where real entrepreneurs pitch to real investors.\n[hellos]",
+      "turn_index": 0
+    },
+    {
+      "speaker": "Jillian",
+      "text": "I'm hoping your company is Lunar.",
+      "turn_index": 1
+    },
+    {
+      "speaker": "Hunter",
+      "text": "Yes. Hunter, nice to meet you.",
+      "turn_index": 2
+    },
+    {
+      "speaker": "Charles",
+      "text": "Wait a minute.",
+      "turn_index": 3
+    },
+    {
+      "speaker": "Hunter",
+      "text": "We’ve met a long time ago.",
+      "turn_index": 4
+    },
+    {
+      "speaker": "Charles",
+      "text": "We met at the TechStars Mobility Detroit.",
+      "turn_index": 5
+    },
+    {
+      "speaker": "Hunter",
+      "text": "Yes. Probably first class.",
+      "turn_index": 6
+    },
+    {
+      "speaker": "Charles",
+      "text": "Yes. I still get your newsletter.",
+      "turn_index": 7
+    },
+    {
+      "speaker": "Hunter",
+      "text": "Thank you. I’m glad that you notice it.",
+      "turn_index": 8
+    },
+    {
+      "speaker": "Charles",
+      "text": "I was like, wait a minute. I know him.",
+      "turn_index": 9
+    },
+    {
+      "speaker": "Hunter",
+      "text": "Sweet. [laughs]\nSo it seems Charles Hudson with Precursor Ventures has met today’s founder before…\nbut\nhe has\nyet\nto invest in his company, so we’ll see if this is the meeting that changes things.\nCharles is joined by Jillian Manus from Structure Capital, Phil Nadel with Forefront Venture Partners, and Daniel Gulati with Comcast Ventures.\nOur investors take a seat, and look to Hunter Rosenblume, who’s here today to pitch his startup... Lunar Wireless.",
+      "turn_index": 10
+    },
+    {
+      "speaker": "Hunter",
+      "text": "So we’re Lunar Wireless. And Lunar Wireless is the first bill-free carrier. And so if you’re wondering why I would start a wireless carrier, or why any young person would get into such an old industry, it’s because me and my co-founder honestly, we love phones. In the nerdiest way. My bar mitzvah theme was phone themed. My co-founder… So when I was 13 years old, there are printouts of me with giant blow-ups of iPhones and some of the first Android phones. Engadget logos. You name it. And then my co-founder was basically not even going to class in high school and building VOIP software. We are dweebs at our heart, we love phones.\nHunter calls himself a dweeb, but he’s also putting out a littttttle bit of a tech bro vibe. You know the type: young, overly confident, and has seen The Social Network more times than they can count. The question is: does Hunter have the goods to back up his confidence?",
+      "turn_index": 11
+    },
+    {
+      "speaker": "Hunter",
+      "text": "Basically, we had come across a study from Pew Research, if you have heard of it, they do a lot of studies on internet access across the country. And we found that four in ten people in Detroit don’t have broadband access. And we read this article and we were like, no way. And we started interviewing more and more people. And we found that yeah, it doesn’t just affect the four in ten people in Detroit - which by the way that number is emulated in a lot of American cities, and one in every four US adults is without constant internet access, which is crazy.",
+      "turn_index": 12
+    },
+    {
+      "speaker": "Jillian",
+      "text": "Really?",
+      "turn_index": 13
+    },
+    {
+      "speaker": "Hunter",
+      "text": "Yes. Between the ages of 18 and 65\nTaking a page right out of the tech-preneur playbook, Hunter and his friend-turned-business-partner both dropped out of school.\nBut\n, they didn’t move to Silicon Valley. They moved to\nDetroit\n. And they immediately started pounding the pavement, on a quest to figure out why so many people weren’t yet on 4g.\nAnd what Hunter found is — no surprise — a lot of people were having trouble affording phones. But he and his cofounder realized it was way more complicated than just\nbuying\na phone. It was the\nbills\nthat were really killing them. And it has to do with the\nway\nmost wireless carriers bill their customers — there is no way to be a budget user.",
+      "turn_index": 14
+    },
+    {
+      "speaker": "Hunter",
+      "text": "The bill just doesn’t pay attention to your usage. It doesn’t pay attention to what you actually use. It’s like cable plans. When you buy like a thousand channels but you watch four. What if you could only pay for the channels you watch, you know",
+      "turn_index": 15
+    },
+    {
+      "speaker": "Jillian",
+      "text": "It really pisses me off.",
+      "turn_index": 16
+    },
+    {
+      "speaker": "Hunter",
+      "text": "Yeah, it’s crazy, right?",
+      "turn_index": 17
+    },
+    {
+      "speaker": "Jillian",
+      "text": "It’s crazy.",
+      "turn_index": 18
+    },
+    {
+      "speaker": "Hunter",
+      "text": "And so we said, man, this is crazy. There has to be a better way to do this\nSo they started digging into the pricing models. He noticed the big wireless carriers like Verizon and AT&T billed for a set number of gigabytes of data every month — let’s say 5 gigs — whether or not their customers actually needed that much. Hunter thought: why should they have to pay for loads of data they’re never going to use?",
+      "turn_index": 19
+    },
+    {
+      "speaker": "Hunter",
+      "text": "And we said, what if we charge people per app? People know what apps they’re using. What if we let them pay for unlimited data for only the apps they use on the days they use them and that’s it. And so that’s essentially what Lunar is. We call it a pay what you want model.\nThe next step was putting that model into practice. And this is when Hunter and his partner got\nsuper\nscrappy. They started buying hundreds of phones on one family plan, scratching off the logo on the phones’ sim cards, and then installing their own software. Then they turned around and sold them as Lunar Wireless phones.",
+      "turn_index": 20
+    },
+    {
+      "speaker": "Hunter",
+      "text": "And every month I would go do cash deposits at the back of the store. And we would hack all the phones, and we would literally sell them on the street. And that’s how we got kicked off. And now literally tomorrow we launch nationwide. So you’ll be able to buy a Lunar phone, it’ll come to your door, we don’t have to worry about paying cash in the back of the store.\nHunter is here today asking investors for a million bucks to help turn Lunar Wireless into a household name. To get them — and their money — behind him, he needs to prove that this pay-what-you-want model could actually disrupt the wireless industry.",
+      "turn_index": 21
+    },
+    {
+      "speaker": "Phil",
+      "text": "Explain that model a bit more? It’s per app, and based on your daily usage?",
+      "turn_index": 22
+    },
+    {
+      "speaker": "Hunter",
+      "text": "Yeah. And I can actually give you a demo, if that’s okay. That’s probably the best way to do it. So this is one of the phones that you can buy on Lunar Wireless. It’s a Google Pixel. So the idea is that we basically, you fill up a balance. So you add five bucks on to your Lunar balance. And then when you open up an app, so let’s say I open up I don’t know, Fly Delta, it’ll say hey, you haven’t paid for data today. Please take this online. It’s 25 cents. We charge 25 cents per app, flat rate, no matter what the app is.",
+      "turn_index": 23
+    },
+    {
+      "speaker": "Daniel",
+      "text": "Per app per day?",
+      "turn_index": 24
+    },
+    {
+      "speaker": "Hunter",
+      "text": "Yes. Per app per day. So you get a full day’s worth of data access for that app?",
+      "turn_index": 25
+    },
+    {
+      "speaker": "Charles",
+      "text": "24 hours?",
+      "turn_index": 26
+    },
+    {
+      "speaker": "Hunter",
+      "text": "For 24 hours, yeah.",
+      "turn_index": 27
+    },
+    {
+      "speaker": "Jillian",
+      "text": "And how much would that be? Let's say...",
+      "turn_index": 28
+    },
+    {
+      "speaker": "Hunter",
+      "text": "At the end of the month? So that's the cool part. The average monthly bill that we see is about $15 at the end of the amount. The highest bill we've ever seen is $48. And the American average right now is $73.",
+      "turn_index": 29
+    },
+    {
+      "speaker": "Charles",
+      "text": "You can’t even get Project Fi for that.",
+      "turn_index": 30
+    },
+    {
+      "speaker": "Hunter",
+      "text": "I know. The base rate...",
+      "turn_index": 31
+    },
+    {
+      "speaker": "Charles",
+      "text": "I am a Fi subscriber. You can't even get the base rate of Fi for that. The base rate for Fi is 20 bucks.",
+      "turn_index": 32
+    },
+    {
+      "speaker": "Jillian",
+      "text": "Really?",
+      "turn_index": 33
+    },
+    {
+      "speaker": "Charles",
+      "text": "Fi is the happiest, I am the happiest Fi consumer, because you only pay down to the megabyte for what you use, nothing more.\nCharles is referring to Project Fi — Google’s answer to today’s complicated cell phone plans. With Fi, you start with a base rate of $20 dollars for talk and text, and then pay $10 dollars per gigabyte of data, only paying for the gigabytes you actually use.\nAnd you heard Charles, he loves Fi because it’s simple and reasonably priced. But Hunter is saying that Lunar is even cheaper.",
+      "turn_index": 34
+    },
+    {
+      "speaker": "Phil",
+      "text": "So what do the margins work out to on average, when on an app you're getting 25 cents and paying a variable cost. What's the average margin?",
+      "turn_index": 35
+    },
+    {
+      "speaker": "Hunter",
+      "text": "So it depends on the kind of app On a regular app, we'll do 11 cents on a 25-cent purchase.",
+      "turn_index": 36
+    },
+    {
+      "speaker": "Daniel",
+      "text": "11 cent take?",
+      "turn_index": 37
+    },
+    {
+      "speaker": "Hunter",
+      "text": "Like take, yeah.",
+      "turn_index": 38
+    },
+    {
+      "speaker": "Daniel",
+      "text": "When we look at these unlimited services we think a lot about the profitability of a power user versus a non-power user. And we think a lot about do you make money off of your users that use you the most?",
+      "turn_index": 39
+    },
+    {
+      "speaker": "Phil",
+      "text": "And I'm just going to piggyback on that, because I think where you're going is that over time this kind of model tends to gravitate towards the more power users.",
+      "turn_index": 40
+    },
+    {
+      "speaker": "Daniel",
+      "text": "Because it's such a great service.",
+      "turn_index": 41
+    },
+    {
+      "speaker": "Phil",
+      "text": "It's a great service and power users will gravitate towards it. And so the use case becomes more power users.",
+      "turn_index": 42
+    },
+    {
+      "speaker": "Daniel",
+      "text": "And you just worry that you're giving away...",
+      "turn_index": 43
+    },
+    {
+      "speaker": "Phil",
+      "text": "Your margins decrease over time.",
+      "turn_index": 44
+    },
+    {
+      "speaker": "Hunter",
+      "text": "So power users are not trying to usurp the most amount of data from a single app, necessarily. They're trying to be the most cost-effective at the end of the month. That involves being on Wi-Fi as much as possible, using apps offline, downloading your news in the morning and reading it offline later. Power users from our standpoint are a little bit different from the power users that you think of. And that's the cool part. That's the fun part. When we interview our customers, the thing they say is it's like a secret hack. It's a tool that we can use to get back at the carriers, pay what we want, right?",
+      "turn_index": 45
+    },
+    {
+      "speaker": "Charles",
+      "text": "Can I ask the questions I think you guys are getting to? Which is if I’m someone who says I’m just going to use YouTube and Spotify, and that’s all I’m going to do. I’m going to watch YouTube videos all day long. 24/7. Does that break the model?",
+      "turn_index": 46
+    },
+    {
+      "speaker": "Hunter",
+      "text": "Yeah. So basically...",
+      "turn_index": 47
+    },
+    {
+      "speaker": "Daniel",
+      "text": "Which I assume it does.",
+      "turn_index": 48
+    },
+    {
+      "speaker": "Hunter",
+      "text": "Basically, right now, when you go to a carrier and they say it’s unlimited, it’s not. You hear the fine print. Once you break a certain gigabyte data allowance, uhh then it’ll go ahead and uhh slow down. It’s called throttling. And throttling is a pain in the butt when you have a one gig plan on Metro, and you accidentally watched an HD video in 4K and you used all of your data for the rest of the month, and now every single app is slow. So we do throttle. But there’s two asterisks to our throttling. The first is that, first of all if you’re a good user and you’re barely abusing it every day, why not just let you have the good experience that day, right? You just build a model out of it, right. Make sure that we can take an acceptable amount of loss on certain apps or in certain places. And then the second thing that we do is we throttle on a per app per day basis. So if you’re sitting on YouTube and you’re watching 4k all day, we’re going to slow down YouTube And it’s only throttled for the day. And look, at the end of the day, our average is $15 a month versus the $73. I think the value prop is stronger, the throttling is better than throttling for the whole month for every app. That’s painful.\nSo if you’re a streaming-on-4G junkie, maybe Lunar isn’t going to be the optimal service for you. But the bet Hunter is making is that this isn’t most people. The 200 customers Lunar has signed up so far just want a simple wireless service, one where they can make calls, text, and use the internet. And if occasionally they want to go hog wild on YouTube or Netflix, that’s okay, too. All for the average price of 15 bucks a month.",
+      "turn_index": 49
+    },
+    {
+      "speaker": "Phil",
+      "text": "I think your pricing model is disruptive, and I applaud you for that. I think it's really cool. But what concerns me is usage, because I see this as a phone that people will buy, put it in a drawer and keep it in case they need it for a spare phone. Not have to worry about paying for it each month, which is great, but have it if they need it. But that's not good for your numbers. The 200, yeah, let's say you're going to get $15 a month and you'll break even in six months, and you'll have a customer from many years. But you'll have a lot of people who aren't going to use it at all. So the average numbers aren't there and that's my big concern.",
+      "turn_index": 50
+    },
+    {
+      "speaker": "Hunter",
+      "text": "Not necessarily. I think my answer back is the same thing you guys pointed at me. It's 200, it's small. And like all of it is small. And all of it was just proof points we needed in order to get the deals to be able to scale with no question. And now people can buy a phone from Lunar, it'll ship to their door, we don't have to worry about anything. And now we can focus on building a better model, making sure that we're getting to the right customers, that we're bringing on the right people that it's not going to be a spare phone.",
+      "turn_index": 51
+    },
+    {
+      "speaker": "Daniel",
+      "text": "Why... The 200 subs, I'm just trying to get my head around that. You've got capital, why not keep hacking your way to a thousand, hacking your way to 2,000?",
+      "turn_index": 52
+    },
+    {
+      "speaker": "Hunter",
+      "text": "You know how labor intensive it is to scratch the word, I'm not giving the right name, I'm just going to say one, MetroPCS off a SIM card and then put it in a phone and then manually hack the phone yourselves and then box them.",
+      "turn_index": 53
+    },
+    {
+      "speaker": "Daniel",
+      "text": "But isn't that your whole, like your whole business is go out and get these subscribers, So you've got a scrappy team, and you've got capital, go out and 5x your subscriber base.",
+      "turn_index": 54
+    },
+    {
+      "speaker": "Hunter",
+      "text": "Go tell my team to pack phones and stuff? They have other stuff to do. It's so much logistics. Do any of you really want to get, I mean maybe you do invest in hardware, but do you really want to get in that space if that's not what you know and do? Right like we love phones, we love having great phones, we love understanding the hardware. But we built software for them, we built operating systems for them. And so spending our time doing that and figuring that out would be a temporary solution.\nHunter is\nconfident\n. He’s basically like, Daniel, my friend, we are past scratching off sim cards and going door-to-door. We’re not your kids’ lemonade stand; we’re a\ntech\ncompany\n.\nWe’ve inked deals with wireless carriers and partnered with manufacturers like Blu. This train is leaving the station, and you want to be on it.",
+      "turn_index": 55
+    },
+    {
+      "speaker": "Hunter",
+      "text": "The real solution is this whole innovative model of shipping directly from the OEM. Which, by the way, BLU is not the only who's agreed to it. BLU is the only one I can talk about.",
+      "turn_index": 56
+    },
+    {
+      "speaker": "Daniel",
+      "text": "You've got two, right?",
+      "turn_index": 57
+    },
+    {
+      "speaker": "Hunter",
+      "text": "So, and there aren't that many smartphone manufacturers, so two is a lot.",
+      "turn_index": 58
+    },
+    {
+      "speaker": "Daniel",
+      "text": "So what are the barriers to entry here? So I can go, Jillian and I can go start a Lunar number two, how do you think about the real moat around this business?",
+      "turn_index": 59
+    },
+    {
+      "speaker": "Hunter",
+      "text": "Yeah I mean, the first thing is it's an old and ugly business. This is telco. This is an old business. And it isn't as easy as just getting a deal. They're actually made it as more gatekeepers than anything. So they're not out there sourcing deals. Verizon isn't out there, like please everybody, come do a partnership with us. So these deals are not super common. And like all the whole process of paying per app is patented. And so all of that is our core technology. And then, in terms of the hardware manufacturers, this is notoriously hard.",
+      "turn_index": 60
+    },
+    {
+      "speaker": "Phil",
+      "text": "So I get that you and team are super passionate about this. That comes through loud and clear. But why are you the right team to take on this challenging role, or challenging project?",
+      "turn_index": 61
+    },
+    {
+      "speaker": "Hunter",
+      "text": "So for my co-founder and I, other than just passion, my co-founder has been building VOIP software since he was 14 years old. Voice over IP. Phone software.",
+      "turn_index": 62
+    },
+    {
+      "speaker": "Phil",
+      "text": "He's 16 now?",
+      "turn_index": 63
+    },
+    {
+      "speaker": "Hunter",
+      "text": "Well, he's 19 now. So he's been building VOIP software for a while. And then for me I got kicked out of AP Physics in senior year for literally hacking phones in class. I mean, this is what we live for. We've been building products like this for a while. I've built over 30 consumer products to have gone viral. The rest of our team is also insane. We've built an awesome team of people that just build internet products. We are not a telco company in the traditional sense. We are a bunch of people that build consumer mobile products and internet products. We said, let's take this and apply it to telco.",
+      "turn_index": 64
+    },
+    {
+      "speaker": "Jillian",
+      "text": "So how much have you raised altogether? Because I’m hearing...",
+      "turn_index": 65
+    },
+    {
+      "speaker": "Hunter",
+      "text": "4.1.",
+      "turn_index": 66
+    },
+    {
+      "speaker": "Jillian",
+      "text": "So you’ve raised 4.1 million dollars, you have 200 users. Where did the 4.1 million dollars...?",
+      "turn_index": 67
+    },
+    {
+      "speaker": "Hunter",
+      "text": "We didn’t spend any.",
+      "turn_index": 68
+    },
+    {
+      "speaker": "Jillian",
+      "text": "So how much have you deployed?",
+      "turn_index": 69
+    },
+    {
+      "speaker": "Hunter",
+      "text": "We only spent about a million of it. We’re in Detroit. It’s cheap.",
+      "turn_index": 70
+    },
+    {
+      "speaker": "Daniel",
+      "text": "And how much are you raising at this moment?",
+      "turn_index": 71
+    },
+    {
+      "speaker": "Hunter",
+      "text": "So we have about 2 million in space left open. We’ve kind of said, all right, we’re going to leave 2 million in space open, it’s a million for OEM partners. And we leave another million in space open for VCs that we think are awesome and really could help us push the business forward.",
+      "turn_index": 72
+    },
+    {
+      "speaker": "Jillian",
+      "text": "And what’s the valuation?",
+      "turn_index": 73
+    },
+    {
+      "speaker": "Hunter",
+      "text": "The last valuation cap that we raised on was a 14.",
+      "turn_index": 74
+    },
+    {
+      "speaker": "Jillian",
+      "text": "Was a 14?",
+      "turn_index": 75
+    },
+    {
+      "speaker": "Hunter",
+      "text": "Yeah.",
+      "turn_index": 76
+    },
+    {
+      "speaker": "Jillian",
+      "text": "Right.\nA 14 million dollar valuation is nothing to sneeze at. And Hunter is saying, that’s what the valuation\nwas\n. It’s higher now.\nIt’s time for investors to decide if they think Lunar Wireless is the next big thing in the cellular industry.\nHere’s Jillian.",
+      "turn_index": 77
+    },
+    {
+      "speaker": "Jillian",
+      "text": "I think for me, it's too early and too expensive. To be really honest.",
+      "turn_index": 78
+    },
+    {
+      "speaker": "Hunter",
+      "text": "Yeah, no, that's fine.",
+      "turn_index": 79
+    },
+    {
+      "speaker": "Jillian",
+      "text": "I think you are a rockstar. And I can only imagine what your team looks like. And the fact that you're this young and this switched on, is just blowing me away. I think for me is I do want to see more traction. I do want to understand. But you're on an inflection point. And I just want to see more... I so believe in you, because clearly you believe so much in this product. You're breathing it. It's very... It's really quite wonderful. I'm breathing it with you. I just, I do want to see a bit more.\nJillian is out. Phil is next.",
+      "turn_index": 80
+    },
+    {
+      "speaker": "Phil",
+      "text": "I agree with what you said. And your passion is contagious, it really is. And you get us excited about it, which is great. But for me, it's early and expensive. And also, frankly, you're looking for value added investors. And I get that. You have plenty of cash, you have good runway. You don't need more money, necessarily.",
+      "turn_index": 81
+    },
+    {
+      "speaker": "Hunter",
+      "text": "Exactly. I'm not hungry for cash.",
+      "turn_index": 82
+    },
+    {
+      "speaker": "Phil",
+      "text": "You're looking for a value add investor, and I can't add a lot of value. I just can't.\nCharles is next. He passed on Hunter and Lunar before, will he do it again?",
+      "turn_index": 83
+    },
+    {
+      "speaker": "Charles",
+      "text": "For me it’s just price. I met you at TechStars Mobility.",
+      "turn_index": 84
+    },
+    {
+      "speaker": "Hunter",
+      "text": "It was a different price back then.",
+      "turn_index": 85
+    },
+    {
+      "speaker": "Charles",
+      "text": "It was a different price back then. That's on me. And honestly, when I met you, I was like there's no way they can pull this off. Like, you can't start a carrier with two people that can't legally drink. It's actually not possible. And you've proven me wrong. For me, it’s just price. I run a small fund, so like entry price matters. But if there’s a way to find a price that works an arrangement, I would love to support you. Being a native Detroiter, this is a problem that really resonates with me. And I think once people learn how to use the phone, your support costs, all the other things that make running a nationwide postpaid carrier, billing fraud, dispute - these are really expensive parts of the business that your model kind of punts on.",
+      "turn_index": 86
+    },
+    {
+      "speaker": "Hunter",
+      "text": "Absolutely.",
+      "turn_index": 87
+    },
+    {
+      "speaker": "Charles",
+      "text": "The amount of termination of contracts. All these things, they really add up, and make it really adversarial. And you've simplified that.\nIt looks like Charles is out too, although it sounds like he’s saying if the price were lower, he’d he’d invest. Daniel is the last investor left standing.",
+      "turn_index": 88
+    },
+    {
+      "speaker": "Daniel",
+      "text": "Just at a high level, more than product innovation, more than technology innovation, business model innovation is the true value creator in tech. And in business more generally. So and that's happening here. I think you're turning the wireless model on its head, and making it customer first, and creating this thin layer, next-gen carrier almost. And I think that's really, really exciting. It's really, really disruptive. And I think you're doing it at a price point that could lead to a multibillion dollar outcome. I'm more than happy to stay connected. You can feel me out as a potential value-add, I can kind of get to know you a little bit more. And then I think, the TAM is big enough here that we're okay writing a bigger check for real ownership.",
+      "turn_index": 89
+    },
+    {
+      "speaker": "Phil",
+      "text": "For listeners, that's total addressable market.",
+      "turn_index": 90
+    },
+    {
+      "speaker": "Daniel",
+      "text": "Total addressable market, yeah. I think if this works, it's really big.\n[thank yous]\nAfter Hunter left the room, the investors compare notes.",
+      "turn_index": 91
+    },
+    {
+      "speaker": "Charles",
+      "text": "It's like not actually possible to talk about how not well formed this was when I saw it at Tech Stars Mobility two and a half years ago. They were just like, we're going to build a carrier in Detroit and we're going to sell phones out of the back of our car. And I was like... They didn't have this whole pricing model. Like we're going to find a way to make these phones cheaper and affordable. And I'm like, that sounds like motherhood and apple pie. Like how do you get from there…",
+      "turn_index": 92
+    },
+    {
+      "speaker": "Phil",
+      "text": "This guy today, cos I never met him before, he was so impressive. I mean... Unbelievable.",
+      "turn_index": 93
+    },
+    {
+      "speaker": "Jillian",
+      "text": "My gut was, do I want to put $100,000 into this? I'm thinking, in my head, I keep thinking, maybe I should $100,000...",
+      "turn_index": 94
+    },
+    {
+      "speaker": "Phil",
+      "text": "I'm thinking about just making an investment myself.",
+      "turn_index": 95
+    },
+    {
+      "speaker": "Jillian",
+      "text": "Because it's him.",
+      "turn_index": 96
+    },
+    {
+      "speaker": "Phil",
+      "text": "To me at this point, it’s very, very binary. At this point, right today, tomorrow’s the launch. Like it’s very binary. It’s either going to...",
+      "turn_index": 97
+    },
+    {
+      "speaker": "Daniel",
+      "text": "Totally.",
+      "turn_index": 98
+    },
+    {
+      "speaker": "Phil",
+      "text": "And I told them, I just worry...",
+      "turn_index": 99
+    },
+    {
+      "speaker": "Daniel",
+      "text": "But don’t you want that as a seed investor? You want the binary.",
+      "turn_index": 100
+    },
+    {
+      "speaker": "Charles",
+      "text": "That's what I love. That's what I live for.",
+      "turn_index": 101
+    },
+    {
+      "speaker": "Phil",
+      "text": "Yes, but at this price? It's tough. To have that...",
+      "turn_index": 102
+    },
+    {
+      "speaker": "Daniel",
+      "text": "But I don't think the price... To your point, it's binary, so if it works...",
+      "turn_index": 103
+    },
+    {
+      "speaker": "Charles",
+      "text": "It’s either going to be a massive acquisition or a total failure.",
+      "turn_index": 104
+    },
+    {
+      "speaker": "Daniel",
+      "text": "Totally.",
+      "turn_index": 105
+    },
+    {
+      "speaker": "Charles",
+      "text": "One or the other.",
+      "turn_index": 106
+    },
+    {
+      "speaker": "Phil",
+      "text": "For me, again, and I said this to him, I’m worried that a lot of people are going to buy it and put it in a drawer, and use it as a spare phone. And I could see that happening, and that’s going to destroy their pricing model.",
+      "turn_index": 107
+    },
+    {
+      "speaker": "Charles",
+      "text": "I think for me it's a binary bet. It's either that 50 turns into something really, really interesting. Or 50 is like, I can afford, if tomorrow the whole launch goes terrible, I'm like well that was the fastest 50 any person has lost in the history of the fund.\nSo while the investors try to convince each other they made the right decision, Hunter and I were catching up in another room…",
+      "turn_index": 108
+    },
+    {
+      "speaker": "Hunter",
+      "text": "That hour’s crazy man, what a task. What a task!",
+      "turn_index": 109
+    },
+    {
+      "speaker": "Josh",
+      "text": "Was it more than you expected it would be?",
+      "turn_index": 110
+    },
+    {
+      "speaker": "Hunter",
+      "text": "Yeah for sure. I thought it would be fun, but it was VERY fun. You guys collect an amazing group of investors in the room…that are so different and also so with it, and forward thinking. But honestly, amazing stuff. I’m so hyped this is fun.",
+      "turn_index": 111
+    },
+    {
+      "speaker": "Josh",
+      "text": "Do you think you’ll close em?",
+      "turn_index": 112
+    },
+    {
+      "speaker": "Hunter",
+      "text": "Yunno I don’t like to call shots beforehand, but if they can work on the price I think so. I mean they seem super value add. It’s not just about closing it’s about making sure they’re the right people. Making sure that as we follow up over the next few weeks that I feel we can really work with them and they can be amazing partners in the future. But as the time goes on, we will see.",
+      "turn_index": 113
+    },
+    {
+      "speaker": "Josh",
+      "text": "Yes we will.\nSo while Hunter and I were talking about whether he could one day close these investors, unbeknownst to the two of us, they were back in the control room starting to wonder if they hadn’t just made a huge mistake.\nAs soon as Hunter gathered his stuff to leave, Jillian flagged him down.",
+      "turn_index": 114
+    },
+    {
+      "speaker": "Jillian",
+      "text": "If you had said, at 14 or whatever it was. we all actually would have gone in, and so, and consider it. So what were you valuing it at at?",
+      "turn_index": 115
+    },
+    {
+      "speaker": "Hunter",
+      "text": "I was just gonna see what you guys are comfortable with.\nJust minutes after she passed on his company, Jillian starts wheeling and dealing with Hunter, telling him, listen I’d love to make a deal, but can we get the valuation down a little? And right as she is saying this, Charles comes up and says, you know what? I think I made a mistake. I want to invest $50K in Lunar Wireless. And then Phil starts sniffing around.\nFinally, I’m like, all right, everyone - back into the studio. This pitch obviously isn’t over.",
+      "turn_index": 116
+    },
+    {
+      "speaker": "Jillian",
+      "text": "Okay. So, Hunter, I'm having regrets a bit. Because I really want to track you. I know you Charles, you already are in on this. You already committed 50.",
+      "turn_index": 117
+    },
+    {
+      "speaker": "Charles",
+      "text": "That’s right.",
+      "turn_index": 118
+    },
+    {
+      "speaker": "Jillian",
+      "text": "Right. Because you wanted, you know that this guy is going to win. And here’s the thing, I do too. So I want to do 50. I’m going to give you 50 because I want to track you.",
+      "turn_index": 119
+    },
+    {
+      "speaker": "Phil",
+      "text": "So I have, too, after we were talking, I had regrets. This is not, this is not appropriate for our fund, for our syndicate, because of the lack of traction. But you're impressive, I want to personally invest, but I only want to 25 if you could do that. Let me track, let me invest personally $25,000 and that way I'm staying in touch with you and staying on board.",
+      "turn_index": 120
+    },
+    {
+      "speaker": "Hunter",
+      "text": "So now we're talking about 125?",
+      "turn_index": 121
+    },
+    {
+      "speaker": "Charles",
+      "text": "Can we lock the door so that Daniel can’t come back in?",
+      "turn_index": 122
+    },
+    {
+      "speaker": "Hunter",
+      "text": "Okay. And it was 50 from you, as well? Yeah, I think 125 is acceptable dilution. I always say this, like pending my co-founder's approval.",
+      "turn_index": 123
+    },
+    {
+      "speaker": "Charles",
+      "text": "Of course.",
+      "turn_index": 124
+    },
+    {
+      "speaker": "Hunter",
+      "text": "Thank you everyone. This is like, this is cool.",
+      "turn_index": 125
+    },
+    {
+      "speaker": "Jillian",
+      "text": "Well, thank you again. Thank you again and again. And this is the last time. Maybe next time will be a bigger number.",
+      "turn_index": 126
+    },
+    {
+      "speaker": "Charles",
+      "text": "We’ll get Daniel to pay up ___.",
+      "turn_index": 127
+    },
+    {
+      "speaker": "Jillian",
+      "text": "Yeah. There we go! That’s a great idea. Daniel, we figured out your role.\n[background chatter]\nSo just when we all thought Hunter was going to go 0-for-4 with our investors, he’s instead heading home with 3 investments totalling $125K. Don’t ever underestimate the power of FOMO.\nWhen we come back, I find out from Hunter. How this all played out after the fact.\n[break]\nWelcome back! It’s been two and a half months since Hunter pitched and reeled in three of four investors. So I called him up to hear how things are going, and what he thought about how it all went down in the room.",
+      "turn_index": 128
+    },
+    {
+      "speaker": "Josh",
+      "text": "So after the pitch, when you and I were talking, it looked like no deals were going to happen. And then right when you went to leave, the investors all started reappearing one by one, kind of saying, “Oh, you know what, I think I made a mistake, and I want to invest.” What was going through your mind when that was all happening?",
+      "turn_index": 129
+    },
+    {
+      "speaker": "Hunter",
+      "text": "Um, in that moment, I think it was just like, I'm open to hearing what she had to say. you know, we had said, we take small checks sometimes as a, you know, sort of like a leeway into a bigger check. We'll say, oh, you know, we'll take this small check, we'll kind of keep you updated on the business, I send out that email update every week with what we did last week, what we're doing next week. And all that sort of fun stuff.",
+      "turn_index": 130
+    },
+    {
+      "speaker": "Josh",
+      "text": "Yeah.",
+      "turn_index": 131
+    },
+    {
+      "speaker": "Hunter",
+      "text": "And so I think they wanted to be a part of that update. And also, they wanted to build the personal connection with me. And like, them putting money on the table, like, really shows that they're actually, you know, willing, and that they want to build that relationship.",
+      "turn_index": 132
+    },
+    {
+      "speaker": "Josh",
+      "text": "Yeah. I hadn't thought about it like that, but yeah, that's true. So -- yeah. Yeah. So I mean, it's like, their way of getting their foot in the door. A way of keeping in touch.",
+      "turn_index": 133
+    },
+    {
+      "speaker": "Josh",
+      "text": "So, I mean, it does seem kind of expensive, right, to put in 25,000 or 50,000 dollars for a foot in the door, just for a weekly email. Um... so let's say, going down the road, they don't end up doing a follow on, they don't end up putting in a normal-sized check that they would need to to get the return that their partners are looking for. They -- then it seems like that 25K just isn't worth it, right?",
+      "turn_index": 134
+    },
+    {
+      "speaker": "Hunter",
+      "text": "Yeah, of course. But I guess that's investing, right? You never know what you're gonna do, and like, having put in that check, I think, says a lot. Cause what -- you know, look at it the other way. Look at it other way. Like, when a company becomes a breakout success and everybody wants to invest, right, like, then the company has to decide who was there first, you know, who shared their interest. And there will be a million people who said, oh, I supported you, I totally thought you were awesome, but there's only gonna be a few who actually, you know, pulled out their checkbook --",
+      "turn_index": 135
+    },
+    {
+      "speaker": "Josh",
+      "text": "Who wrote checks --",
+      "turn_index": 136
+    },
+    {
+      "speaker": "Hunter",
+      "text": "-- and said, I really support you. Exactly. And I think it's, like, a real show of courage for an investor to do something like that. And it's a really brave thing to do. And like, yeah, maybe it doesn't work out here and there. But sometimes it does work. And also look at it this way: if, you know, you invest in an entrepreneur, and the company goes under, like, that entrepreneur's not gonna stop being an entrepreneur. And that early show of courage, you know, they'll always remember that. And when they, you know, go on later to start another company, and another company, and another company after that, you were always an early supporter of them.",
+      "turn_index": 137
+    },
+    {
+      "speaker": "Josh",
+      "text": "Alright. So, here's the million-dollar question. Or, I guess, 50,000 dollar question. But, have each of those three investments gone through?",
+      "turn_index": 138
+    },
+    {
+      "speaker": "Hunter",
+      "text": "Yes. All of the investors have come through. They did their diligence, it's awesome, they've written checks. I'm so happy that they were able to do that. I'm excited to be able to work with them.",
+      "turn_index": 139
+    },
+    {
+      "speaker": "Josh",
+      "text": "Awesome!",
+      "turn_index": 140
+    },
+    {
+      "speaker": "Hunter",
+      "text": "Yeah. Yeah. So 25 from Phil, 50 from Charles, and 50 from -- from Jillian.",
+      "turn_index": 141
+    },
+    {
+      "speaker": "Josh",
+      "text": "Got it. Wow. okay. So let's talk about -- let's talk about the rollout. like, you know, you launched with BLU the following day afterwards, um, yeah. Like, give me the -- how are things going?",
+      "turn_index": 142
+    },
+    {
+      "speaker": "Hunter",
+      "text": "It's been great. So we have basically pre-orders of the BLU S-1. We've been receiving many pre-orders daily. It's amazing to see, like, the interest and response. I think you tell anyone that they can have, like, mobile service without a monthly bill and they're at least gonna listen. So it's been really exciting. We've been beefing up the team. we've been hiring illustrators, product designers, copywriters. And now, you know, about to make a big hire for our director of marketing. And really just figuring out how to tell the story has been most of like, what we've been doing.",
+      "turn_index": 143
+    },
+    {
+      "speaker": "Josh",
+      "text": "So on the show, you had 200 customers. And you were about to launch the day after. How many customers do you guys have now? I mean, it's been like two months, I think?",
+      "turn_index": 144
+    },
+    {
+      "speaker": "Hunter",
+      "text": "Yes. So you know, we're not too public about those sort of number, so I'll just kind of have to, you know, say --",
+      "turn_index": 145
+    },
+    {
+      "speaker": "Josh",
+      "text": "Oh, give me something.",
+      "turn_index": 146
+    },
+    {
+      "speaker": "Hunter",
+      "text": "(laughs) A lot more than that, let's put it that way. A lot more -- we're definitely gonna have to beef up our support. Like, we need to get our stuff together and ready to support those customers, so --",
+      "turn_index": 147
+    },
+    {
+      "speaker": "Josh",
+      "text": "I mean, so like, what you're really trying to do is, disrupt, you know, the entire cellular industry with this by saying, okay, you can have an awesome phone and pay less than anybody -- like, it's truly disruptive. But then again, like, you're going up against people like Google, with, you know, Project Fi, and like, Cricket Wireless, which is a household name. Like, what makes you think -- like, you really think you can actually make a dent in a market that's this well-established and has other people kind of already tackling the pricing model anyway?",
+      "turn_index": 148
+    },
+    {
+      "speaker": "Hunter",
+      "text": "Hey, I mean, we've already gotten started, right? Like, this is pure passion driving our team. We love phones. Like, we're a time of people that literally, you know, will bend over backwards for our customers. We've gotten started already. Everyone told us we weren't gonna be able to get deals with the wireless carriers, and we did. You know, hell some of them even invested, right? You know, they said we wouldn't be able to partner with the manufacturers, you know, and we've announced this one with BLU, we have more to come in 2018. Right? You know, we've come out and said, look, like, we don't care, like, if there's an established market. We're gonna do it because people deserve it, because customers deserve it, right? Like, there is a better way to do this, and The point of Lunar, the whole point of pay per app solution is really putting power and control in the customer's hand. And by building out the products we do, you know, we're able to like, enable them to save money, right?",
+      "turn_index": 149
+    },
+    {
+      "speaker": "Josh",
+      "text": "So um, I've been wanting to ask this. Like, you mentioned how crazy you are about phones. You've said -- your team has such a pure passion for this. I like -- I get it, like, I like technology. I think it's great. But I'm not crazy about it like you are. what is it about phones that you like so much, and you seem to like, dedicated your life to it?",
+      "turn_index": 150
+    },
+    {
+      "speaker": "Hunter",
+      "text": "Man, okay. Did you used to watch the Jetsons?",
+      "turn_index": 151
+    },
+    {
+      "speaker": "Josh",
+      "text": "Yeah, I've seen a little bit of them.",
+      "turn_index": 152
+    },
+    {
+      "speaker": "Hunter",
+      "text": "Okay, remember how they used to like, video chat on screens in their kitchen and everyone thought it was the coolest thing in the world, and now you can do that in your pocket, right? Like, you can call anyone in the world from anywhere. You could talk about anything. You could look at any product. You can learn anything from something in your pocket, right? You're late at night, you know, you're getting ready to go to bed, people used to have to take out a book from the library, now I can just Google something and read all about it and stay up all night and become an expert. Right like, I mean, it's not just phones. It's just like, the idea of the internet and connectivity and bringing people online, the fact that anyone can learn anything, do anything, talk to anyone. You know, this is the future. This is the sci-fi we've been reading about since we were kids. Like, this is what we've always wanted, and it's here, and it's in our pocket, and it's with us everywhere we go. I mean, that's crazy. That is just like, it's surreal. It's absolutely surreal.\nWell, it’s hard to argue with that kinda passion.\nLunar Wireless is definitely one of those startups I’d like to keep tabs on. Sans the 25K check of course. And if anything big happens with them, we’ll let you know.",
+      "turn_index": 153
+    },
+    {
+      "speaker": "And we want to hear from you",
+      "text": "Where does your passion come from?\nWhen trying to come up with business ideas, do you look for things that bug you the most in your own personal life? Or do you go out looking for problems that need a solution? Because I’ve heard it both ways: some people swear by the idea that you should scratch your own itch. While others say to take a more data driven approach. Find a need, , do a study, or in Hunter’s case, read a study… and then move to that city to see for yourself… Anyway, I’m curious… how people are coming up with their own business ideas. Join the conversation over at thepitch.show/discuss\nWe’ll be back with a brand new episode next week.\nAnd one last thing, if you’re a startup founder or you know someone who is, you can apply at thepitch.show/apply. Our next recording event is in February in San Francisco. We’re looking for companies in the seed stage, with early traction. We aren’t looking for companies in any specific vertical, our focus is on finding startup founders who have a story to tell.\nOur show is produced by me, Josh Muccio, Kareem Maddox and Molly Donahue. We are edited by Devon Taylor.\nOriginal music composed by The Muse Maker and Bobby Lord. Our Theme Music is by Breakmaster Cylinder. And we are mixed by Enoch Kim.\nLisa Muccio plans our recording events and thanks to Samira Sohail for her reporting on this episode.\nAnd for the intro to Lunar Wireless, we have the fine folks over at Betaworks and specifically Matthew Hartman to thank.\nAnd as a reminder, no offer to invest is being made to or solicited from the listening audience on today’s show.\nAll right -- you’ve been listening to The Pitch from Gimlet Media. See you next week.",
+      "turn_index": 154
+    }
+  ]
+}

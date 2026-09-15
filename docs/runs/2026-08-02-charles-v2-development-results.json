@@ -1,0 +1,150 @@
+{
+  "schema": "charles-v2-development-results-v1",
+  "date": "2026-08-02",
+  "scope": "selected development and error-analysis cases; not holdout",
+  "model": "openai/gpt-5.6-luna",
+  "episodes": [
+    {
+      "episode_slug": "68-dogs-dating-a-match-made-in-heaven",
+      "short_name": "Dig",
+      "actual": "In",
+      "prediction": "In",
+      "any_check_likelihood": 0.62,
+      "any_check_confidence": 0.64,
+      "standard_check_prediction": "Out",
+      "standard_check_likelihood": 0.35,
+      "ranking_score": 0.68,
+      "recommended_check_tier": "exploratory_lt_100k",
+      "phase1_status": "accepted",
+      "phase1_iterations": 2,
+      "phase2_status": "accepted",
+      "phase2_iterations": 1,
+      "phase2_findings": [],
+      "output_root": "outputs/openrouter-luna-charles-v2-development-2026-08-02-r3/68-dogs-dating-a-match-made-in-heaven",
+      "usage": {
+        "input_tokens": 61650,
+        "cached_input_tokens": 2140,
+        "output_tokens": 14220,
+        "cost_usd": 0.015991775
+      }
+    },
+    {
+      "episode_slug": "83-can-small-bras-be-a-big-market",
+      "short_name": "Pepper",
+      "actual": "In",
+      "prediction": "Out",
+      "any_check_likelihood": 0.30,
+      "any_check_confidence": 0.82,
+      "standard_check_prediction": "Out",
+      "standard_check_likelihood": 0.18,
+      "ranking_score": 0.62,
+      "recommended_check_tier": "no_check_tier",
+      "phase1_status": "accepted",
+      "phase1_iterations": 2,
+      "phase2_status": "provisional",
+      "phase2_iterations": 2,
+      "phase2_findings": [
+        "negative assessment requires affirmative adverse Phase 1 evidence"
+      ],
+      "output_root": "outputs/openrouter-luna-charles-v2-development-2026-08-02-r3/83-can-small-bras-be-a-big-market",
+      "usage": {
+        "input_tokens": 76371,
+        "cached_input_tokens": 0,
+        "output_tokens": 19193,
+        "cost_usd": 0.021061725
+      }
+    },
+    {
+      "episode_slug": "20-harper-wilde",
+      "short_name": "Harper Wilde",
+      "actual": "Out",
+      "prediction": "In",
+      "any_check_likelihood": 0.53,
+      "any_check_confidence": 0.68,
+      "standard_check_prediction": "Out",
+      "standard_check_likelihood": 0.16,
+      "ranking_score": 0.75,
+      "recommended_check_tier": "exploratory_lt_100k",
+      "phase1_status": "accepted",
+      "phase1_iterations": 1,
+      "phase2_status": "provisional",
+      "phase2_iterations": 2,
+      "phase2_findings": [
+        "negative assessment requires affirmative adverse Phase 1 evidence"
+      ],
+      "output_root": "outputs/openrouter-luna-charles-v2-development-2026-08-02-r4/20-harper-wilde",
+      "usage": {
+        "input_tokens": 39802,
+        "cached_input_tokens": 0,
+        "output_tokens": 12430,
+        "cost_usd": 0.01241225
+      }
+    },
+    {
+      "episode_slug": "127-nectir-the-classroom-of-the-future",
+      "short_name": "Nectir",
+      "actual": "In",
+      "prediction": "In",
+      "any_check_likelihood": 0.60,
+      "any_check_confidence": 0.68,
+      "standard_check_prediction": "Out",
+      "standard_check_likelihood": 0.30,
+      "ranking_score": 0.74,
+      "recommended_check_tier": "exploratory_lt_100k",
+      "phase1_status": "accepted",
+      "phase1_iterations": 2,
+      "phase2_status": "provisional",
+      "phase2_iterations": 2,
+      "phase2_findings": ["RISK_LEDGER_COVERAGE_MISMATCH"],
+      "output_root": "outputs/openrouter-luna-charles-v2-development-2026-08-02-r4/127-nectir-the-classroom-of-the-future",
+      "usage": {
+        "input_tokens": 127242,
+        "cached_input_tokens": 3107,
+        "output_tokens": 19037,
+        "cost_usd": 0.026969695
+      }
+    }
+  ],
+  "classification": {
+    "true_in": 2,
+    "false_in": 1,
+    "true_out": 0,
+    "missed_in": 1,
+    "accuracy": 0.5,
+    "balanced_accuracy": 0.3333333333,
+    "in_precision": 0.6666666667,
+    "in_recall": 0.6666666667,
+    "in_f1": 0.6666666667
+  },
+  "ranking_by_any_check_likelihood": {
+    "order": ["Dig", "Nectir", "Harper Wilde", "Pepper"],
+    "average_precision": 0.9166666667,
+    "roc_auc": 0.6666666667,
+    "top_1": {"precision": 1.0, "recall": 0.3333333333},
+    "top_2": {"precision": 1.0, "recall": 0.6666666667},
+    "top_3": {"precision": 0.6666666667, "recall": 0.6666666667},
+    "top_4": {"precision": 0.75, "recall": 1.0}
+  },
+  "ranking_by_model_ranking_score": {
+    "order": ["Harper Wilde", "Nectir", "Dig", "Pepper"],
+    "average_precision": 0.6388888889
+  },
+  "successful_run_usage": {
+    "input_tokens": 305065,
+    "cached_input_tokens": 5247,
+    "output_tokens": 64880,
+    "cost_usd": 0.076435445
+  },
+  "failed_development_attempt_usage": {
+    "input_tokens": 430246,
+    "cached_input_tokens": 2140,
+    "output_tokens": 65594,
+    "cost_usd": 0.09281995
+  },
+  "total_live_development_usage": {
+    "input_tokens": 735311,
+    "cached_input_tokens": 7387,
+    "output_tokens": 130474,
+    "cost_usd": 0.169255395
+  }
+}

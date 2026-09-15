@@ -1,0 +1,191 @@
+{
+  "actual_decision": "Out",
+  "boundary_turn_index": 118,
+  "canonical_pitch_path": "inputs/data/investors/jillian-manus-structure-capital/pitches/69-when-less-is-not-more.txt",
+  "canonical_pitch_sha256": "52881069db73b32707fc6d18f89680b765981605456ce44880ffc500a140b107",
+  "episode_path": "../agentic-vc-clone-framework/data/episodes/69-when-less-is-not-more.json",
+  "episode_sha256": "1f41c6590fae6582d8cd689fef52791f1fb714b614ea000a2dc1a7d0871d20ba",
+  "episode_slug": "69-when-less-is-not-more",
+  "insertions": [
+    {
+      "answer_turn_index": 3,
+      "canonical_line_index": 0,
+      "original_speaker": "Michael",
+      "question": "Bite me coming blah blah\nJillian Manus and Michael Hyatt, reunited at last. Get excited, because that dynamic duo and the rest of the investors are about to meet a founder who is throwing the Silicon Valley playbook out the window.\nRahul Jindal is only asking for 100 thousand dollars in the Pitch room today. He has his business down to a science, he knows exactly where he\u2019ll put every venture dollar, and he thinks he can use that humble round of fundraising to build a clothing rental empire.\nAnd a scrappy founder is exactly what vc's are looking for ... right?\nFrom Gimlet, this is The Pitch. I\u2019m Josh Muccio.\nToday\u2019s investors are:\nI\u2019m Phil Nadel\nPhil built companies that sold for hundreds of millions of dollars. Now he manages Forefront Venture Partners, one of the largest syndicates on AngelList.\nI\u2019m Jillian Manus\nJillian is a partner at Structure Capital, where they\u2019ve invested 98 million in high-profile startups like Uber.\nI\u2019m Michael Hyatt\nMichael built and sold two software companies for over $500 million dollars and now he invests for himself.\nI\u2019m Charles Hudson\nCharles started Precursor Ventures where he\u2019s invested $45 million in over 100 startups to date.\nAll right, on with The Pitch.",
+      "source_turn_index": 2
+    },
+    {
+      "answer_turn_index": 8,
+      "canonical_line_index": 4,
+      "original_speaker": "Charles",
+      "question": "So it\u2019s like Rent the Runway Work but for men?",
+      "source_turn_index": 7
+    },
+    {
+      "answer_turn_index": 16,
+      "canonical_line_index": 9,
+      "original_speaker": "Charles",
+      "question": "The $80 offering, is that a week\u2019s worth of clothing? Or is that...",
+      "source_turn_index": 15
+    },
+    {
+      "answer_turn_index": 18,
+      "canonical_line_index": 10,
+      "original_speaker": "Charles",
+      "question": "So it\u2019s a full week\u2019s worth of clothing?",
+      "source_turn_index": 17
+    },
+    {
+      "answer_turn_index": 42,
+      "canonical_line_index": 26,
+      "original_speaker": "Phil",
+      "question": "Can you explain the styling and the inventory? It seems like that becomes a real stumbling point.",
+      "source_turn_index": 41
+    },
+    {
+      "answer_turn_index": 60,
+      "canonical_line_index": 39,
+      "original_speaker": "Michael",
+      "question": "What\u2019s your convertible note terms? Tell me about it.",
+      "source_turn_index": 59
+    },
+    {
+      "answer_turn_index": 68,
+      "canonical_line_index": 46,
+      "original_speaker": "Phil",
+      "question": "The only thing I would say on the marketing is a business like this is going to ultimately come down to how good you are at marketing. I mean, this is a customer acquisition business, right? umm And I don\u2019t know if you\u2019re planning to bring someone in ...",
+      "source_turn_index": 67
+    },
+    {
+      "answer_turn_index": 74,
+      "canonical_line_index": 49,
+      "original_speaker": "Michael",
+      "question": "First off, I really like you. I\u2019d say in a nice way you\u2019re overly honest and straight up and I think realistic about your valuations and stuff. It\u2019s nice. I think you\u2019re offering a very interesting service. This is kind of cool. umm I guess what I\u2019m struggling with is just the simple idea, is this really going to be a big business?",
+      "source_turn_index": 73
+    },
+    {
+      "answer_turn_index": 76,
+      "canonical_line_index": 50,
+      "original_speaker": "Michael",
+      "question": "So estimated monthly revenue would be?",
+      "source_turn_index": 75
+    },
+    {
+      "answer_turn_index": 88,
+      "canonical_line_index": 57,
+      "original_speaker": "Phil",
+      "question": "And then, and what... Finish the... I mean, it just, and then what about inventory?",
+      "source_turn_index": 87
+    },
+    {
+      "answer_turn_index": 96,
+      "canonical_line_index": 61,
+      "original_speaker": "Phil",
+      "question": "And that accounts for all the different size variations?",
+      "source_turn_index": 95
+    },
+    {
+      "answer_turn_index": 98,
+      "canonical_line_index": 62,
+      "original_speaker": "Phil",
+      "question": "And different styles?",
+      "source_turn_index": 97
+    },
+    {
+      "answer_turn_index": 100,
+      "canonical_line_index": 63,
+      "original_speaker": "Michael",
+      "question": "So there\u2019s two things that are always true about starting a business. It always costs more and it always takes longer And I\u2019ve never met an entrepreneur that says, you know what my problem is? I just raised too much money. It doesn\u2019t usually work that way.",
+      "source_turn_index": 99
+    }
+  ],
+  "leakage_checklist": {
+    "founder_content_added": false,
+    "other_investor_identity_model_visible": false,
+    "post_boundary_turn_retained": false,
+    "target_investor_turn_retained": false,
+    "verdict_or_offer_turn_retained": false
+  },
+  "neutral_speaker_label": "Panel Investor",
+  "omitted_candidates": [
+    {
+      "original_speaker": "Phil",
+      "reason": "question_already_present",
+      "source_turn_index": 12,
+      "text": "$50 a week?"
+    },
+    {
+      "original_speaker": "Charles",
+      "reason": "question_already_present",
+      "source_turn_index": 22,
+      "text": "Can you show us?"
+    },
+    {
+      "original_speaker": "Charles",
+      "reason": "question_already_present",
+      "source_turn_index": 24,
+      "text": "Do you want to hand us one? Do you want to show it? What\u2019s easier?"
+    },
+    {
+      "original_speaker": "Michael",
+      "reason": "founder_answer_not_in_canonical_pitch",
+      "source_turn_index": 28,
+      "text": "So everything\u2019s used?"
+    },
+    {
+      "original_speaker": "Phil",
+      "reason": "question_already_present",
+      "source_turn_index": 39,
+      "text": "Well what\u2019s involved with that? Why is that holding you back?"
+    },
+    {
+      "original_speaker": "Michael",
+      "reason": "question_already_present",
+      "source_turn_index": 51,
+      "text": "Have you raised money to date?"
+    },
+    {
+      "original_speaker": "Michael",
+      "reason": "question_already_present",
+      "source_turn_index": 53,
+      "text": "So how much money are you looking for?"
+    },
+    {
+      "original_speaker": "Michael",
+      "reason": "question_already_present",
+      "source_turn_index": 55,
+      "text": "You\u2019re looking for 100 grand?"
+    },
+    {
+      "original_speaker": "Michael",
+      "reason": "question_already_present",
+      "source_turn_index": 57,
+      "text": "Why so little?"
+    },
+    {
+      "original_speaker": "Michael",
+      "reason": "question_already_present",
+      "source_turn_index": 63,
+      "text": "So what\u2019s your revenue? If you sign on those 2500 clients, what\u2019s the revenue?"
+    },
+    {
+      "original_speaker": "Phil",
+      "reason": "question_already_present",
+      "source_turn_index": 65,
+      "text": "And then what\u2019s your acquisition cost?"
+    },
+    {
+      "original_speaker": "Michael",
+      "reason": "question_already_present",
+      "source_turn_index": 77,
+      "text": "Would you have a net margin at that point?"
+    }
+  ],
+  "pitch_sha256": "d29ca70c7593cc1aa0931ebd37cf91933f8c4dd589f0e03d89e68715cccfb52d",
+  "registry_vc_slug": "jillian-manus",
+  "schema": "panel-question-pitch-audit-v1",
+  "source_record_path": "inputs/data/investors/jillian-manus-structure-capital/precedents/records/69-when-less-is-not-more.json",
+  "source_record_sha256": "c35a1002bce671882603a336df998273cf4819ceffa7c17c3ec57c50bb6fef33",
+  "status": "audited",
+  "vc_slug": "jillian-manus-structure-capital"
+}

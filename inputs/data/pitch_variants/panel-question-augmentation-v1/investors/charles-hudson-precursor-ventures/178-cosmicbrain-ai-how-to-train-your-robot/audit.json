@@ -1,0 +1,74 @@
+{
+  "actual_decision": "Out",
+  "boundary_turn_index": 50,
+  "canonical_pitch_path": "inputs/data/investors/charles-hudson-precursor-ventures/pitches/178-cosmicbrain-ai-how-to-train-your-robot.txt",
+  "canonical_pitch_sha256": "27ee1108ef092ca85a536bcc988b9a79dbef90f171c8e6d48434d182035a230f",
+  "episode_path": "../agentic-vc-clone-framework/data/episodes/178-cosmicbrain-ai-how-to-train-your-robot.json",
+  "episode_sha256": "41b3ce8a198f60efc435a1bb37b50ee404340164c0dc372ba2540d14475897ee",
+  "episode_slug": "178-cosmicbrain-ai-how-to-train-your-robot",
+  "insertions": [
+    {
+      "answer_turn_index": 30,
+      "canonical_line_index": 3,
+      "original_speaker": "Immad",
+      "question": "So you're making the robot or you're just making the software?",
+      "source_turn_index": 29
+    },
+    {
+      "answer_turn_index": 32,
+      "canonical_line_index": 4,
+      "original_speaker": "Immad",
+      "question": "And you're selling this software to the robot manufacturers?",
+      "source_turn_index": 31
+    },
+    {
+      "answer_turn_index": 42,
+      "canonical_line_index": 11,
+      "original_speaker": "Cyan",
+      "question": "So, if Chipotle, for example, shared their training data, do they get paid for it? Like then people can remix it?",
+      "source_turn_index": 41
+    },
+    {
+      "answer_turn_index": 44,
+      "canonical_line_index": 12,
+      "original_speaker": "Monique",
+      "question": "And how much?",
+      "source_turn_index": 43
+    }
+  ],
+  "leakage_checklist": {
+    "founder_content_added": false,
+    "other_investor_identity_model_visible": false,
+    "post_boundary_turn_retained": false,
+    "target_investor_turn_retained": false,
+    "verdict_or_offer_turn_retained": false
+  },
+  "neutral_speaker_label": "Panel Investor",
+  "omitted_candidates": [
+    {
+      "original_speaker": "Monique",
+      "reason": "question_already_present",
+      "source_turn_index": 35,
+      "text": "How often is it, does this retraining process typically happen?"
+    },
+    {
+      "original_speaker": "Immad",
+      "reason": "question_already_present",
+      "source_turn_index": 39,
+      "text": "What does VLA stand for?"
+    },
+    {
+      "original_speaker": "Rohit",
+      "reason": "question_already_present",
+      "source_turn_index": 45,
+      "text": "How come manufacturers aren't doing this themselves?"
+    }
+  ],
+  "pitch_sha256": "6937a986c4a912fa5fba0ce3fd44bb520b4eaccb0089e3b84566743f7137e7b3",
+  "registry_vc_slug": "charles-hudson",
+  "schema": "panel-question-pitch-audit-v1",
+  "source_record_path": "inputs/data/investors/charles-hudson-precursor-ventures/precedents/records/178-cosmicbrain-ai-how-to-train-your-robot.json",
+  "source_record_sha256": "e606d41fa8a42ec3d6b3d1518fe71ed7bdb747fd19abf71412b2304674ce06e6",
+  "status": "audited",
+  "vc_slug": "charles-hudson-precursor-ventures"
+}

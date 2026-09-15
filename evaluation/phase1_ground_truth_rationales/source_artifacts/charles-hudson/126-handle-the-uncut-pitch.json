@@ -1,0 +1,276 @@
+{
+  "schema": "transcript-observed-rationales-v1",
+  "episode_slug": "126-handle-the-uncut-pitch",
+  "transcript_sha256": "8670adffec1af41ce978048234e57601a0e98ee65810132c4d937fe0c59831d3",
+  "window": {
+    "start_turn": 8,
+    "end_turn": 274
+  },
+  "observed_decision": "Out",
+  "decision_evidence_ids": [
+    "E9"
+  ],
+  "evidence_registry": [
+    {
+      "evidence_id": "E1",
+      "turn_index": 27,
+      "speaker": "Charles",
+      "text": "Can you - I'm just - I invested in a business that was somewhat similar, it pivoted in something else. I'm just curious, like, I think about Gopuff, and Fridge No More and Gorillas and like that was a story of kind of lighting money on fire -"
+    },
+    {
+      "evidence_id": "E2",
+      "turn_index": 29,
+      "speaker": "Charles",
+      "text": "- with customer acquisition. Can you talk a little bit about - not to steal Elizabeth's normal question, but can we talk a little bit about the unit economics of how the deliveries work and -"
+    },
+    {
+      "evidence_id": "E3",
+      "turn_index": 31,
+      "speaker": "Charles",
+      "text": "100 X."
+    },
+    {
+      "evidence_id": "E4",
+      "turn_index": 33,
+      "speaker": "Charles",
+      "text": "And what's the SKU? Is it all non-perishables? Like, what's the -"
+    },
+    {
+      "evidence_id": "E5",
+      "turn_index": 90,
+      "speaker": "Charles",
+      "text": "Can I ask you, what are like the top five or ten things that people -"
+    },
+    {
+      "evidence_id": "E6",
+      "turn_index": 98,
+      "speaker": "Charles",
+      "text": "No, it's a billion. It's a billion."
+    },
+    {
+      "evidence_id": "E7",
+      "turn_index": 100,
+      "speaker": "Charles",
+      "text": "It's a billion."
+    },
+    {
+      "evidence_id": "E8",
+      "turn_index": 143,
+      "speaker": "Charles",
+      "text": "And how much - just going to that point about speed, how much of it is - to Paige's point, it's just convenient - it's - it's as convenient at 30 minutes as it is at 15 versus the timeliness."
+    },
+    {
+      "evidence_id": "E9",
+      "turn_index": 274,
+      "speaker": "Charles",
+      "text": "I'm basically in the same boat as Elizabeth. It's a little out of spec just for our fund model, which has more to do with like the constraints of our model than what's fair to you. You've got people interested. I think it's hard to argue with legitimate interest, so good for you on managing dilution. Really impressive articulation of the business and I think you're doing everything you can to maximize the hyperlocal nature of the business, and I think it's gonna be super successful."
+    }
+  ],
+  "rationales": [
+    {
+      "rationale_id": "R1",
+      "rationale_label": "investor_experience_bias",
+      "utterance_type": "question",
+      "activation": "queried",
+      "direction": "neutral",
+      "salience": "secondary",
+      "confidence": 0.96,
+      "evidence_ids": [
+        "E1"
+      ],
+      "explanation": "Charles references his prior investment in a similar business and comparable delivery companies while framing his question.",
+      "decision_link": "none"
+    },
+    {
+      "rationale_id": "R2",
+      "rationale_label": "unit_economics_assessment",
+      "utterance_type": "question",
+      "activation": "queried",
+      "direction": "neutral",
+      "salience": "primary",
+      "confidence": 0.99,
+      "evidence_ids": [
+        "E1",
+        "E2"
+      ],
+      "explanation": "Charles asks for the delivery unit economics, specifically in the context of customer-acquisition spending by comparable companies.",
+      "decision_link": "none"
+    },
+    {
+      "rationale_id": "R3",
+      "rationale_label": "unit_economics_assessment",
+      "utterance_type": "assessment",
+      "activation": "evaluated",
+      "direction": "positive",
+      "salience": "secondary",
+      "confidence": 0.98,
+      "evidence_ids": [
+        "E3"
+      ],
+      "explanation": "Charles characterizes the difference in customer-acquisition economics as 100x.",
+      "decision_link": "none"
+    },
+    {
+      "rationale_id": "R4",
+      "rationale_label": "product_success_factor_assessment",
+      "utterance_type": "question",
+      "activation": "queried",
+      "direction": "neutral",
+      "salience": "secondary",
+      "confidence": 0.98,
+      "evidence_ids": [
+        "E4"
+      ],
+      "explanation": "Charles asks about SKU composition and perishability as product and assortment considerations.",
+      "decision_link": "none"
+    },
+    {
+      "rationale_id": "R5",
+      "rationale_label": "product_success_factor_assessment",
+      "utterance_type": "question",
+      "activation": "queried",
+      "direction": "neutral",
+      "salience": "secondary",
+      "confidence": 0.97,
+      "evidence_ids": [
+        "E5"
+      ],
+      "explanation": "Charles asks which products are most frequently purchased, probing product demand and assortment relevance.",
+      "decision_link": "none"
+    },
+    {
+      "rationale_id": "R6",
+      "rationale_label": "market_size_assessment",
+      "utterance_type": "assessment",
+      "activation": "evaluated",
+      "direction": "neutral",
+      "salience": "secondary",
+      "confidence": 0.99,
+      "evidence_ids": [
+        "E6",
+        "E7"
+      ],
+      "explanation": "Charles corrects the market-size arithmetic to a one-billion-dollar figure.",
+      "decision_link": "none"
+    },
+    {
+      "rationale_id": "R7",
+      "rationale_label": "product_success_factor_assessment",
+      "utterance_type": "question",
+      "activation": "queried",
+      "direction": "neutral",
+      "salience": "secondary",
+      "confidence": 0.97,
+      "evidence_ids": [
+        "E8"
+      ],
+      "explanation": "Charles asks whether delivery speed is materially important relative to the underlying convenience benefit.",
+      "decision_link": "none"
+    },
+    {
+      "rationale_id": "R8",
+      "rationale_label": "founder_equity_incentive_alignment",
+      "utterance_type": "assessment",
+      "activation": "evaluated",
+      "direction": "positive",
+      "salience": "secondary",
+      "confidence": 0.94,
+      "evidence_ids": [
+        "E9"
+      ],
+      "explanation": "Charles positively acknowledges the founder's management of dilution.",
+      "decision_link": "none"
+    },
+    {
+      "rationale_id": "R9",
+      "rationale_label": "fund_economics_constraint",
+      "utterance_type": "decision_reason",
+      "activation": "evaluated",
+      "direction": "negative",
+      "salience": "primary",
+      "confidence": 0.99,
+      "evidence_ids": [
+        "E9"
+      ],
+      "explanation": "Charles explicitly says the opportunity is out of spec for his fund model because of the model's constraints.",
+      "decision_link": "explicit"
+    },
+    {
+      "rationale_id": "R10",
+      "rationale_label": "decision_context_constraint",
+      "utterance_type": "decision_reason",
+      "activation": "evaluated",
+      "direction": "negative",
+      "salience": "primary",
+      "confidence": 0.99,
+      "evidence_ids": [
+        "E9"
+      ],
+      "explanation": "Charles explicitly attributes the decision to constraints of the investment context and model rather than to what is fair to the company.",
+      "decision_link": "explicit"
+    },
+    {
+      "rationale_id": "R11",
+      "rationale_label": "fundraising_demand_signal",
+      "utterance_type": "assessment",
+      "activation": "evaluated",
+      "direction": "positive",
+      "salience": "secondary",
+      "confidence": 0.98,
+      "evidence_ids": [
+        "E9"
+      ],
+      "explanation": "Charles notes the legitimate investor interest already present in the round.",
+      "decision_link": "none"
+    },
+    {
+      "rationale_id": "R12",
+      "rationale_label": "founder_communication_quality",
+      "utterance_type": "assessment",
+      "activation": "evaluated",
+      "direction": "positive",
+      "salience": "secondary",
+      "confidence": 0.99,
+      "evidence_ids": [
+        "E9"
+      ],
+      "explanation": "Charles calls the founder's articulation of the business impressive.",
+      "decision_link": "none"
+    },
+    {
+      "rationale_id": "R13",
+      "rationale_label": "go_to_market_strategy_assessment",
+      "utterance_type": "assessment",
+      "activation": "evaluated",
+      "direction": "positive",
+      "salience": "secondary",
+      "confidence": 0.97,
+      "evidence_ids": [
+        "E9"
+      ],
+      "explanation": "Charles positively assesses the effort to maximize the business's hyperlocal operating and market approach.",
+      "decision_link": "none"
+    },
+    {
+      "rationale_id": "R14",
+      "rationale_label": "founder_execution",
+      "utterance_type": "assessment",
+      "activation": "evaluated",
+      "direction": "positive",
+      "salience": "secondary",
+      "confidence": 0.95,
+      "evidence_ids": [
+        "E9"
+      ],
+      "explanation": "Charles says the founder is doing everything possible to maximize the business's hyperlocal nature.",
+      "decision_link": "none"
+    }
+  ],
+  "unmapped_utterances": [
+    "That's a lot for - that's a lot.",
+    "For your - I'd imagine, for your employees, that's a big bonus.",
+    "and I think it's gonna be super successful."
+  ],
+  "audit_flags": [],
+  "annotation_summary": "Charles's explicit Out rationale is fund/model fit: the opportunity is out of spec because of fund constraints, not because of company fairness. He also expressed positive views on the founder's communication, execution, hyperlocal strategy, dilution management, and fundraising demand."
+}

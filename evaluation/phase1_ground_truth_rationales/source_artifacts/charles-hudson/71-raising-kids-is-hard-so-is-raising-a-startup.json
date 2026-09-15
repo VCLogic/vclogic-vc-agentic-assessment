@@ -1,0 +1,96 @@
+{
+  "schema": "transcript-observed-rationales-v1",
+  "episode_slug": "71-raising-kids-is-hard-so-is-raising-a-startup",
+  "transcript_sha256": "6a3b9a22b34ac5d8bd9fabc26d9feb6c772714e7b5f631cc30979f4998e634b5",
+  "window": {
+    "start_turn": 1,
+    "end_turn": 95
+  },
+  "observed_decision": "Out",
+  "decision_evidence_ids": [
+    "E1"
+  ],
+  "evidence_registry": [
+    {
+      "evidence_id": "E1",
+      "turn_index": 95,
+      "speaker": "Charles",
+      "text": "I'm also going to pass for a slightly different reason I just think for this to work I have to be able to believe that that first product sale is a gateway into a larger relationship with the mom. And just my experience has been that parents are picky. But what's it going to take to build a brand that's so trusted that you get, like the thumbtack of\nModern Parenting\n? And I guess I'm just skeptical that that brand can be built cost effectively today. That it's going to be a while before there's a brand that's so trusted that you go, I'm just going to go to them for everything I just think I have reservations about what it would cost to build that brand."
+    }
+  ],
+  "rationales": [
+    {
+      "rationale_id": "R1",
+      "rationale_label": "market_entry_path_assessment",
+      "utterance_type": "decision_reason",
+      "activation": "evaluated",
+      "direction": "negative",
+      "salience": "primary",
+      "confidence": 0.99,
+      "evidence_ids": [
+        "E1"
+      ],
+      "explanation": "Charles requires the initial car-seat purchase to lead into a broader relationship with the mother, and states that this belief is necessary for the business to work.",
+      "decision_link": "explicit"
+    },
+    {
+      "rationale_id": "R2",
+      "rationale_label": "investor_experience_bias",
+      "utterance_type": "decision_reason",
+      "activation": "evaluated",
+      "direction": "negative",
+      "salience": "secondary",
+      "confidence": 0.96,
+      "evidence_ids": [
+        "E1"
+      ],
+      "explanation": "Charles cites his experience that parents are picky as a basis for skepticism about building a trusted, broad-use brand.",
+      "decision_link": "explicit"
+    },
+    {
+      "rationale_id": "R3",
+      "rationale_label": "product_success_factor_assessment",
+      "utterance_type": "question",
+      "activation": "queried",
+      "direction": "neutral",
+      "salience": "secondary",
+      "confidence": 0.94,
+      "evidence_ids": [
+        "E1"
+      ],
+      "explanation": "Charles asks what would be required to build a highly trusted brand comparable to a one-stop destination for modern parenting.",
+      "decision_link": "none"
+    },
+    {
+      "rationale_id": "R4",
+      "rationale_label": "go_to_market_strategy_assessment",
+      "utterance_type": "decision_reason",
+      "activation": "evaluated",
+      "direction": "negative",
+      "salience": "primary",
+      "confidence": 0.99,
+      "evidence_ids": [
+        "E1"
+      ],
+      "explanation": "Charles is skeptical that the company can build the required trusted brand cost-effectively and expresses reservations about the cost of doing so.",
+      "decision_link": "explicit"
+    },
+    {
+      "rationale_id": "R5",
+      "rationale_label": "market_timing",
+      "utterance_type": "decision_reason",
+      "activation": "evaluated",
+      "direction": "negative",
+      "salience": "secondary",
+      "confidence": 0.95,
+      "evidence_ids": [
+        "E1"
+      ],
+      "explanation": "Charles believes it will take a while before the brand reaches the level of trust needed for parents to use it for everything.",
+      "decision_link": "explicit"
+    }
+  ],
+  "unmapped_utterances": [],
+  "audit_flags": [],
+  "annotation_summary": "Charles passes because he doubts the first product sale will expand into a larger customer relationship and questions whether the necessary trusted brand can be built cost-effectively within a reasonable timeframe."
+}

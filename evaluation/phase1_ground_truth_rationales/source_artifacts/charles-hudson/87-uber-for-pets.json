@@ -1,0 +1,239 @@
+{
+  "schema": "transcript-observed-rationales-v1",
+  "episode_slug": "87-uber-for-pets",
+  "transcript_sha256": "b2356bccf2a61afa690adad69c4230c9fcbbe2251f8b591c5f21af9d36c3d447",
+  "window": {
+    "start_turn": 0,
+    "end_turn": 126
+  },
+  "observed_decision": "Out",
+  "decision_evidence_ids": [
+    "E10"
+  ],
+  "evidence_registry": [
+    {
+      "evidence_id": "E1",
+      "turn_index": 71,
+      "speaker": "Charles",
+      "text": "I was just going to say, like, Uber X is a tough business. Uber Black is not a tough business."
+    },
+    {
+      "evidence_id": "E2",
+      "turn_index": 73,
+      "speaker": "Charles",
+      "text": "And so if you're doing Uber Black pricing, you can avoid the bottom-feeding pricing competition…"
+    },
+    {
+      "evidence_id": "E3",
+      "turn_index": 75,
+      "speaker": "Charles",
+      "text": "... behavior that drags down margins in more price-sensitive."
+    },
+    {
+      "evidence_id": "E4",
+      "turn_index": 84,
+      "speaker": "Charles",
+      "text": "My question was going to be what percentage of this is repeat usage? Because like this feels to me the kind of business where if you find, if you tap into those people, it becomes a habit."
+    },
+    {
+      "evidence_id": "E5",
+      "turn_index": 95,
+      "speaker": "Charles",
+      "text": "Can we reframe that a little bit, though. Like it sounds to me like you have a couple of different services. You have, like Michael said, you have the like, it's you and your dog going across town."
+    },
+    {
+      "evidence_id": "E6",
+      "turn_index": 97,
+      "speaker": "Charles",
+      "text": "Maybe Uber can do that easily."
+    },
+    {
+      "evidence_id": "E7",
+      "turn_index": 99,
+      "speaker": "Charles",
+      "text": "But then you've got the unaccompanied pet going to the vet."
+    },
+    {
+      "evidence_id": "E8",
+      "turn_index": 102,
+      "speaker": "Charles",
+      "text": "There it's like a training."
+    },
+    {
+      "evidence_id": "E9",
+      "turn_index": 123,
+      "speaker": "Charles",
+      "text": "I really like the business too. Um, I am not gonna invest yet. Something Michael said I think we need to run down and I don’t think we can do it in this room. Which is, let’s assume that the, Hey, I’m just going from Central Park back to my house with my pet after a fun day out, assuming that business gets commoditized, is the remainder of the business interesting? It might turn out that, like, for the accompanied pet visit, you could charge way more."
+    },
+    {
+      "evidence_id": "E10",
+      "turn_index": 126,
+      "speaker": "Charles",
+      "text": "So I’m going to pass for now. But I would like to spend time with you and see if I could get convinced that assuming that that business gets commoditized, or at a minimum gets more competitive, what models could you use on the higher end things that are more difficult to replicate? And does that yield an interesting company? I think, and my hunch is the answer is probably it does."
+    }
+  ],
+  "rationales": [
+    {
+      "rationale_id": "R1",
+      "rationale_label": "business_model_assessment",
+      "utterance_type": "assessment",
+      "activation": "evaluated",
+      "direction": "positive",
+      "salience": "secondary",
+      "confidence": 0.98,
+      "evidence_ids": [
+        "E1"
+      ],
+      "explanation": "Charles distinguishes premium Uber Black economics from the tougher Uber X model, favorably framing premium pricing.",
+      "decision_link": "implicit"
+    },
+    {
+      "rationale_id": "R2",
+      "rationale_label": "business_model_assessment",
+      "utterance_type": "assessment",
+      "activation": "evaluated",
+      "direction": "positive",
+      "salience": "primary",
+      "confidence": 0.98,
+      "evidence_ids": [
+        "E2",
+        "E3"
+      ],
+      "explanation": "He assesses that Uber Black pricing can avoid price-sensitive competition that compresses margins.",
+      "decision_link": "implicit"
+    },
+    {
+      "rationale_id": "R3",
+      "rationale_label": "traction_repeatability_concern",
+      "utterance_type": "question",
+      "activation": "queried",
+      "direction": "neutral",
+      "salience": "secondary",
+      "confidence": 0.96,
+      "evidence_ids": [
+        "E4"
+      ],
+      "explanation": "Charles asks about repeat usage and whether the service can become habitual.",
+      "decision_link": "none"
+    },
+    {
+      "rationale_id": "R4",
+      "rationale_label": "business_model_assessment",
+      "utterance_type": "question",
+      "activation": "queried",
+      "direction": "neutral",
+      "salience": "secondary",
+      "confidence": 0.93,
+      "evidence_ids": [
+        "E5"
+      ],
+      "explanation": "Charles probes whether the company consists of distinct service models, separating accompanied from unaccompanied pet transport.",
+      "decision_link": "none"
+    },
+    {
+      "rationale_id": "R5",
+      "rationale_label": "product_differentiation_concern",
+      "utterance_type": "assessment",
+      "activation": "evaluated",
+      "direction": "negative",
+      "salience": "primary",
+      "confidence": 0.98,
+      "evidence_ids": [
+        "E6"
+      ],
+      "explanation": "He states that Uber may be able to provide the accompanied pet ride easily, indicating limited differentiation in that segment.",
+      "decision_link": "implicit"
+    },
+    {
+      "rationale_id": "R6",
+      "rationale_label": "product_success_factor_assessment",
+      "utterance_type": "assessment",
+      "activation": "evaluated",
+      "direction": "neutral",
+      "salience": "secondary",
+      "confidence": 0.9,
+      "evidence_ids": [
+        "E7"
+      ],
+      "explanation": "Charles identifies unaccompanied pet transport to the vet as a separate service component.",
+      "decision_link": "implicit"
+    },
+    {
+      "rationale_id": "R7",
+      "rationale_label": "product_differentiation_concern",
+      "utterance_type": "decision_reason",
+      "activation": "evaluated",
+      "direction": "negative",
+      "salience": "primary",
+      "confidence": 0.99,
+      "evidence_ids": [
+        "E9"
+      ],
+      "explanation": "Charles explicitly conditions his decision on whether the accompanied pet ride becomes commoditized and whether the remaining business is still interesting.",
+      "decision_link": "explicit"
+    },
+    {
+      "rationale_id": "R8",
+      "rationale_label": "business_model_assessment",
+      "utterance_type": "decision_reason",
+      "activation": "evaluated",
+      "direction": "positive",
+      "salience": "secondary",
+      "confidence": 0.96,
+      "evidence_ids": [
+        "E9"
+      ],
+      "explanation": "He sees potential for substantially higher pricing on accompanied pet visits, but treats it as an unresolved possibility.",
+      "decision_link": "explicit"
+    },
+    {
+      "rationale_id": "R9",
+      "rationale_label": "competitive_intensity_concern",
+      "utterance_type": "decision_reason",
+      "activation": "evaluated",
+      "direction": "negative",
+      "salience": "primary",
+      "confidence": 0.99,
+      "evidence_ids": [
+        "E10"
+      ],
+      "explanation": "Charles says he needs conviction that the business can remain attractive if the basic service becomes more commoditized or competitive.",
+      "decision_link": "explicit"
+    },
+    {
+      "rationale_id": "R10",
+      "rationale_label": "product_differentiation_concern",
+      "utterance_type": "decision_reason",
+      "activation": "evaluated",
+      "direction": "negative",
+      "salience": "primary",
+      "confidence": 0.99,
+      "evidence_ids": [
+        "E10"
+      ],
+      "explanation": "His pass is tied to uncertainty about which higher-end offerings are difficult for competitors to replicate.",
+      "decision_link": "explicit"
+    },
+    {
+      "rationale_id": "R11",
+      "rationale_label": "business_model_assessment",
+      "utterance_type": "decision_reason",
+      "activation": "evaluated",
+      "direction": "positive",
+      "salience": "secondary",
+      "confidence": 0.97,
+      "evidence_ids": [
+        "E10"
+      ],
+      "explanation": "Charles believes higher-end service models may produce an interesting company, while seeking further evidence before investing.",
+      "decision_link": "explicit"
+    }
+  ],
+  "unmapped_utterances": [
+    "turn 102: There it's like a training."
+  ],
+  "audit_flags": [
+    "Turn 102 is a fragment whose meaning is insufficiently clear for reliable taxonomy mapping."
+  ],
+  "annotation_summary": "Charles is Out for now because he sees the basic accompanied pet ride as vulnerable to commoditization and competition, while remaining conditionally interested in higher-end, harder-to-replicate services."
+}

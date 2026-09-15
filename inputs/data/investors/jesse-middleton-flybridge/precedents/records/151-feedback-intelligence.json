@@ -1,0 +1,908 @@
+{
+  "decision": {
+    "audit_notes": "Follow-up interest is Out at the fixed pitch-window cutoff.",
+    "audit_source": "evaluation/labels/jesse_middleton_pitch_window_decisions.json",
+    "check_tier": null,
+    "conditions": [],
+    "context": "later_diligence",
+    "evidence": [
+      {
+        "text": "We back a lot of developer platforms and AI technology companies. I think my biggest questions really center around the competitive landscape and I want to understand how some of these customers think about this on their problem stack, and how they would think about implementing it, where that would fall on their priority. So I would love the chance to follow up on this and have you talk with the rest of our team.",
+        "turn_end": 79,
+        "turn_start": 79
+      }
+    ],
+    "status": "Out"
+  },
+  "episode_number": 151,
+  "episode_slug": "151-feedback-intelligence",
+  "investor_aliases": [
+    "Jesse",
+    "Jesse Middleton"
+  ],
+  "investor_present": true,
+  "source_path": "sources/151-feedback-intelligence.json",
+  "source_sha256": "cff279fe863ced3a8289b5246ee180b45d906a895128d64815f0f72260a455ca",
+  "turns": [
+    {
+      "speaker": "Narrator",
+      "text": "I’m Josh Muccio, this is The Pitch, where startup founders raise millions and listeners can invest. The pitch for Feedback Intelligence is coming up right after this. And if you’re not following the show already, go ahead and hit that subscribe button. It’s one small thing that you can do, that makes a big difference for us.\n[clap]\nIf you throw a stone in silicon valley, you’ll likely hit an AI founder square in the head. But it’s rare to find someone who was building in AI before the ChatGPT craze. I’m looking for the AI OGs.\nAnd we found one – Chinar Movsisyan. She created her own AI, to solve new problems created by AI. Chinar has four degrees, a passion for math, and we’re fairly certain she’s a supergenius.\nI’m glad the stone we threw hit her. But also sorry about that Chinar.\nToday, Chinar is pitching Cyan Banister",
+      "turn_index": 0
+    },
+    {
+      "speaker": "Chinar",
+      "text": "Hi. I'm Chinar.",
+      "turn_index": 1
+    },
+    {
+      "speaker": "Cyan",
+      "text": "Cyan. Nice to meet you.\nCharles Hudson",
+      "turn_index": 2
+    },
+    {
+      "speaker": "Charles",
+      "text": "Hi, I'm Charles. Nice to meet you.\nElizabeth Yin",
+      "turn_index": 3
+    },
+    {
+      "speaker": "Elizabeth",
+      "text": "Elizabeth. Nice to meet you.\nMac Conwell",
+      "turn_index": 4
+    },
+    {
+      "speaker": "Mac",
+      "text": "Mac.",
+      "turn_index": 5
+    },
+    {
+      "speaker": "Chinar",
+      "text": "I'm Chinar. Nice to meet you.\nAnd Jesse Middleton",
+      "turn_index": 6
+    },
+    {
+      "speaker": "Jesse",
+      "text": "Jesse. Nice to meet you.",
+      "turn_index": 7
+    },
+    {
+      "speaker": "Chinar",
+      "text": "Okay. Hi, everyone. I'm Chinar. I have been in AI before things got generative, and each time I delivered AI solutions, I was facing the following issue. Even though I had very good accuracy when I developed that AI, I had no insights how end users were using that solution and whether they are happy with the output or not. For mobile apps like classic applications, Google Analytics can be used to handle this issue. There is no solution to handle this for AI slash generative AI. And we have created solutions. It's called Feedback Intelligence. We help AI teams to turn automatically the end user feedback into actionable insights, giving them power to analyze the root causes and prioritize the issues. We've validated this problem solution fit, and we locked three pilot customers. We have also ten customers on the waitlist, and it's growing. We are going to start the paid pilots, 1st of July, aiming to convert them to annual contracts end of this year with 360k ARR. And we are going to onboard 14 more customers, aiming to have 1.5 million ARR by the end of next year.",
+      "turn_index": 8
+    },
+    {
+      "speaker": "Elizabeth",
+      "text": "Cool. Thank you. I'd love to better understand how this works.",
+      "turn_index": 9
+    },
+    {
+      "speaker": "Chinar",
+      "text": "So while talking to these companies that are delivering LLM-based solutions, like chatbots or conversational AI, we saw that they are getting a lot of feedback messages, explicit feedback, thumbs up, thumbs down, or just a plain text saying, oh, I queried this, I got this result, but I am not happy with the output. Our solution consolidates explicit and implicit feedback to one place. It automatically does the root cause analysis. And then it provides a list of actions to AI teams to resolve that.",
+      "turn_index": 10
+    },
+    {
+      "speaker": "Jesse",
+      "text": "Have you developed the part of it that actually asks for the input? I know there's a bunch of apps out there that ask for the thumbs up, thumbs down or feedback, or you're embedding into the workflow that's already there?",
+      "turn_index": 11
+    },
+    {
+      "speaker": "Chinar",
+      "text": "We are embedding for the workflow that is already there. It's just a like integration. And the onboarding takes one hour at this point.",
+      "turn_index": 12
+    },
+    {
+      "speaker": "Elizabeth",
+      "text": "I want to wrap my head around this better. So maybe we can talk about some concrete examples.",
+      "turn_index": 13
+    },
+    {
+      "speaker": "Chinar",
+      "text": "Yeah.",
+      "turn_index": 14
+    },
+    {
+      "speaker": "Elizabeth",
+      "text": "There are plenty of, let's say, chatbots where initially they're trained on some level of data and then some customer can ask it a question. And then the chatbot will intelligently try to find the answer from that data and spit out a result. And then the customer may say, okay, thumbs up, thumbs down. Let's say it was thumbs down. Answer was wrong or maybe insufficient. How are you helping with this? Like you collect the thumbs down, and then what?",
+      "turn_index": 15
+    },
+    {
+      "speaker": "Chinar",
+      "text": "So one of the pilot customers that we have, they're called Cogniz. They are providing conversational AI, LLM-based solutions to financial institutions. And these like financial analysts are using those like solutions for querying business transaction in Q4 2023. And whenever they are not happy with the output. They have this like thumbs up, thumbs down, or just a plain text saying, well, I expected this. The result is not good. Before they were getting more than thousand feedback messages like this on a daily basis. Manual work to reproduce the issue, analyze what is the root cause, what is the resolution, and then go back to the customer, say, okay, we will fix this, blah, blah. What we do, whenever that financial analyst is not happy with the output, we analyze that behavior. Maybe there is a knowledge hole or retrieval system is not developed well. We analyze all options there and we provide a list of actions to engineers so they can fix it.",
+      "turn_index": 16
+    },
+    {
+      "speaker": "Elizabeth",
+      "text": "But I guess how do you analyze it, I suppose?",
+      "turn_index": 17
+    },
+    {
+      "speaker": "Chinar",
+      "text": "We have developed a novel solution. It's an orchestration of LLMs plus unsupervised learning, where we are able to turn this unstructured, thumbs up, thumbs down, to list of actions.",
+      "turn_index": 18
+    },
+    {
+      "speaker": "Mac",
+      "text": "So, you mentioned that you've been doing AI before it was generative. Can you tell us a little bit about yourself, your background and what brought you to building this product?",
+      "turn_index": 19
+    },
+    {
+      "speaker": "Chinar",
+      "text": "Mhm. So I started my career from applied mathematics and informatics. Then uh, and then I did my master's in information technologies, then another master's in computer science and systems. And then my PhD was machine learning integration into healthcare. And four years ago, I was working on a generative AI based product, where we were helping doctors for plastic surgery purposes to generate faces as a reference to understand what is the best for their patient. And most recently I was at Vineti, venture-backed startup here in San Francisco. And a couple of other projects I have delivered.",
+      "turn_index": 20
+    },
+    {
+      "speaker": "Mac",
+      "text": "Can you talk to me a little bit about your business model?",
+      "turn_index": 21
+    },
+    {
+      "speaker": "Chinar",
+      "text": "So right now it's like on average we charge them 90k annual contract.",
+      "turn_index": 22
+    },
+    {
+      "speaker": "Mac",
+      "text": "Okay. And you said you have two pilot customers?",
+      "turn_index": 23
+    },
+    {
+      "speaker": "Chinar",
+      "text": "Three pilot customers",
+      "turn_index": 24
+    },
+    {
+      "speaker": "Mac",
+      "text": "Three?",
+      "turn_index": 25
+    },
+    {
+      "speaker": "Chinar",
+      "text": "Yeah.",
+      "turn_index": 26
+    },
+    {
+      "speaker": "Mac",
+      "text": "Okay. So how did you find those three customers? And what was that sales cycle and sales process like for you?",
+      "turn_index": 27
+    },
+    {
+      "speaker": "Chinar",
+      "text": "Yeah, so what we did first. My co-founder used to sell to financial institutions and he used to be head of product at Zest AI. And then head of product at Spectral. So these all companies. And we started to just talk to these people, like discovery, use our network, investors, advisors to connect with these people. And after that, we found these pilot customers. And then, eventually we were like, okay, let's start some small product marketing. Just write some Medium articles without any marketing expenses. And after that we got huge inbound. Like people were coming to us, LinkedIn messages saying like, is it available? The validation was overwhelming. Really.",
+      "turn_index": 28
+    },
+    {
+      "speaker": "Jesse",
+      "text": "You mentioned this, the contract value you're starting at is this 90,000, which is an awesome starting point, by the way. Most people in this space are hoping to get 9000. So, so I kudos to that. I guess it sounds like you're starting in the financial institution space. As you think about the opportunity within financial services, is the audience sort of anybody that is building their own stuff with gen AI? Or are you looking at the suppliers of that gen AI technology?",
+      "turn_index": 29
+    },
+    {
+      "speaker": "Chinar",
+      "text": "Any company that utilizes generative AI LLM for different applications. Like from finance to legal AI to home services like this, or like everywhere.",
+      "turn_index": 30
+    },
+    {
+      "speaker": "Elizabeth",
+      "text": "How long have you been working on this business?",
+      "turn_index": 31
+    },
+    {
+      "speaker": "Chinar",
+      "text": "A year and a half ago. I started to build computer vision evaluation tool. And then with this generative AI market adaption. Even though I got one of the fortune 500 media companies as a customer, I saw like this is not being scaled as I want. That's why we shifted our focus and we are going after LLM, generative AI based solutions.",
+      "turn_index": 32
+    },
+    {
+      "speaker": "Elizabeth",
+      "text": "Mm hmm.",
+      "turn_index": 33
+    },
+    {
+      "speaker": "Mac",
+      "text": "Did you raise any money for the company you were doing before?",
+      "turn_index": 34
+    },
+    {
+      "speaker": "Chinar",
+      "text": "Yeah. One million.",
+      "turn_index": 35
+    },
+    {
+      "speaker": "Mac",
+      "text": "Is this a completely new company or is this a pivot from the -",
+      "turn_index": 36
+    },
+    {
+      "speaker": "Chinar",
+      "text": "Pivot. Pivot.",
+      "turn_index": 37
+    },
+    {
+      "speaker": "Mac",
+      "text": "So how much money have you raised to date? And how much equity have you given up to investors to date?",
+      "turn_index": 38
+    },
+    {
+      "speaker": "Chinar",
+      "text": "That's a really good one. We have raised one million so far.",
+      "turn_index": 39
+    },
+    {
+      "speaker": "Elizabeth",
+      "text": "That was on the old idea?",
+      "turn_index": 40
+    },
+    {
+      "speaker": "Chinar",
+      "text": "Yes. Yeah.",
+      "turn_index": 41
+    },
+    {
+      "speaker": "Elizabeth",
+      "text": "Okay.",
+      "turn_index": 42
+    },
+    {
+      "speaker": "Chinar",
+      "text": "But still we are using that money for this.",
+      "turn_index": 43
+    },
+    {
+      "speaker": "Elizabeth",
+      "text": "Yeah. Okay.",
+      "turn_index": 44
+    },
+    {
+      "speaker": "Mac",
+      "text": "Did you raise that million on a safe?",
+      "turn_index": 45
+    },
+    {
+      "speaker": "Chinar",
+      "text": "Yes.",
+      "turn_index": 46
+    },
+    {
+      "speaker": "Mac",
+      "text": "What was the valuation cap on that safe?",
+      "turn_index": 47
+    },
+    {
+      "speaker": "Chinar",
+      "text": "Seven and a half.",
+      "turn_index": 48
+    },
+    {
+      "speaker": "Mac",
+      "text": "Okay.",
+      "turn_index": 49
+    },
+    {
+      "speaker": "Elizabeth",
+      "text": "And how much are you raising now?",
+      "turn_index": 50
+    },
+    {
+      "speaker": "Chinar",
+      "text": "2 million.",
+      "turn_index": 51
+    },
+    {
+      "speaker": "Cyan",
+      "text": "How much is spoken for?",
+      "turn_index": 52
+    },
+    {
+      "speaker": "Chinar",
+      "text": "We have 1,000,000 soft commitment already.",
+      "turn_index": 53
+    },
+    {
+      "speaker": "Mac",
+      "text": "What's the, what’s the price for this round?",
+      "turn_index": 54
+    },
+    {
+      "speaker": "Chinar",
+      "text": "It's not set yet.",
+      "turn_index": 55
+    },
+    {
+      "speaker": "Mac",
+      "text": "What would you like the price to be for this round?",
+      "turn_index": 56
+    },
+    {
+      "speaker": "Chinar",
+      "text": "Yeah, I mean, we are comfortable to be diluted, like around 15%. For this 2 million.",
+      "turn_index": 57
+    },
+    {
+      "speaker": "Mac",
+      "text": "That is a bit pricey for me.",
+      "turn_index": 58
+    },
+    {
+      "speaker": "Chinar",
+      "text": "We can negotiate.\n[laughter]",
+      "turn_index": 59
+    },
+    {
+      "speaker": "Mac",
+      "text": "I'm sure.\nWe’ll do the math for you, Chinar’s saying she wants to raise at a $13.5M valuation.\nThe negotiation will continue right after this.",
+      "turn_index": 60
+    },
+    {
+      "speaker": "Chinar",
+      "text": "We are comfortable to be diluted, like around 15%. For this 2 million.",
+      "turn_index": 61
+    },
+    {
+      "speaker": "Mac",
+      "text": "That is a bit pricey for me.",
+      "turn_index": 62
+    },
+    {
+      "speaker": "Chinar",
+      "text": "We can negotiate.\n[laughter]",
+      "turn_index": 63
+    },
+    {
+      "speaker": "Mac",
+      "text": "I'm sure.",
+      "turn_index": 64
+    },
+    {
+      "speaker": "Mac",
+      "text": "How much capital do you have in the bank?",
+      "turn_index": 65
+    },
+    {
+      "speaker": "Chinar",
+      "text": "More than 100k.",
+      "turn_index": 66
+    },
+    {
+      "speaker": "Mac",
+      "text": "And what's your current burn rate?",
+      "turn_index": 67
+    },
+    {
+      "speaker": "Chinar",
+      "text": "15k.",
+      "turn_index": 68
+    },
+    {
+      "speaker": "Elizabeth",
+      "text": "How do you think about your burn rate going forward with this new raise?",
+      "turn_index": 69
+    },
+    {
+      "speaker": "Chinar",
+      "text": "Will go up around 100k.",
+      "turn_index": 70
+    },
+    {
+      "speaker": "Mac",
+      "text": "So at this point in the proceedings, your experience is impressive. I always like founders who have been doing AI before AI was cool.",
+      "turn_index": 71
+    },
+    {
+      "speaker": "Jesse",
+      "text": "With four degrees?",
+      "turn_index": 72
+    },
+    {
+      "speaker": "Mac",
+      "text": "Yes, with four degrees, right.",
+      "turn_index": 73
+    },
+    {
+      "speaker": "Jesse",
+      "text": "Can I borrow one? I dropped out, so.",
+      "turn_index": 74
+    },
+    {
+      "speaker": "Mac",
+      "text": "This is, this is impressive. The companies you're working with. The amount you're charging; like usually early on, startups want to charge too low and try to figure out how to go up. For an enterprise level solution, 90k is great. Probably get to a point where you might be able to charge more. I believe this is a problem. I can believe this is a problem that not many people are paying as much attention to just yet -",
+      "turn_index": 75
+    },
+    {
+      "speaker": "Chinar",
+      "text": "Right now.",
+      "turn_index": 76
+    },
+    {
+      "speaker": "Mac",
+      "text": "- but people will. So moving fast is important. So I know enough about the engineering to be comfortable with the tech. I don't know if I know enough about what else is out there, competitive or not competitive. But I'm really intrigued. So I need to do some research, but I would love to have a follow up conversation.",
+      "turn_index": 77
+    },
+    {
+      "speaker": "Chinar",
+      "text": "Thank you.",
+      "turn_index": 78
+    },
+    {
+      "speaker": "Jesse",
+      "text": "We back a lot of developer platforms and AI technology companies. I think my biggest questions really center around the competitive landscape and I want to understand how some of these customers think about this on their problem stack, and how they would think about implementing it, where that would fall on their priority. So I would love the chance to follow up on this and have you talk with the rest of our team.",
+      "turn_index": 79
+    },
+    {
+      "speaker": "Chinar",
+      "text": "Awesome.",
+      "turn_index": 80
+    },
+    {
+      "speaker": "Cyan",
+      "text": "What's your check size?",
+      "turn_index": 81
+    },
+    {
+      "speaker": "Jesse",
+      "text": "We typically write between sort of one and two million dollar checks, so we would wind up, you know, leading or co leading the round, yeah.",
+      "turn_index": 82
+    },
+    {
+      "speaker": "Mac",
+      "text": "Mine would be somewhere between 25 and 75.",
+      "turn_index": 83
+    },
+    {
+      "speaker": "Chinar",
+      "text": "Very good",
+      "turn_index": 84
+    },
+    {
+      "speaker": "Cyan",
+      "text": "So I'd love to team up with you, because we can co lead. My firm writes checks around that size. And this is one of those things where I would want to look into the insight, which you can't obviously talk about on a podcast, but dig a little deeper in there. Because if you have like a miracle or some sort of something there, it would be good to understand it. That's the thing that I'm interested in, is that moat. You're very, very impressive and I've been mesmerized just like listening to you. So thank you for just being you.",
+      "turn_index": 85
+    },
+    {
+      "speaker": "Chinar",
+      "text": "Thank you.",
+      "turn_index": 86
+    },
+    {
+      "speaker": "Charles",
+      "text": "I just think this one's beyond my depth. We don't do that many things on the infrastructure side. And when we do, it's usually like something that I can, where I can understand the value prop as someone who's not deeply technical. And this just wasn't one of those. Which says more about, like, my lack of technical understanding than it does about the value of the product. But it just, for me it was beyond my depth.",
+      "turn_index": 87
+    },
+    {
+      "speaker": "Chinar",
+      "text": "Thank you.",
+      "turn_index": 88
+    },
+    {
+      "speaker": "Elizabeth",
+      "text": "There are so many things I love about this one. But maybe I have one or two more questions. I think one of the concerns I have is around sort of the financing and the burn. I understand, maybe the first product wasn't quite the right product. You burned through most of that capital and now you're raising two million, but you expect the burn to go up to a 100k. So I think my worry is about the runway, along with this increased dilution across both rounds. Can you talk about like, why are you going to increase your burn to something pretty substantial so quickly?",
+      "turn_index": 89
+    },
+    {
+      "speaker": "Chinar",
+      "text": "Yeah, maybe I was not clear. We want to first do these pilot deliveries, perform feedback based iteration with current team, and then start building and adding more features, delivering to these other companies that are on the waitlist. It doesn't mean that after closing this round, we are going to hire everyone. And we have a financial model. Everything is written down before and after this raise. And I'm happy to share it with you.",
+      "turn_index": 90
+    },
+    {
+      "speaker": "Elizabeth",
+      "text": "Sure. I mean, let's just talk off the cuff a bit because I, you know, having been an entrepreneur before I know financial models never really go to plan, one way or the other. So just like roughly speaking, you're thinking about keeping this - the team pretty similar this year.",
+      "turn_index": 91
+    },
+    {
+      "speaker": "Chinar",
+      "text": "We are five people right now. We will have one product marketer until end of this year and a full stack engineer. And LLM experts. So three hires are going to join us.",
+      "turn_index": 92
+    },
+    {
+      "speaker": "Elizabeth",
+      "text": "And that burn will go up to -?",
+      "turn_index": 93
+    },
+    {
+      "speaker": "Chinar",
+      "text": "Yeah, well, 50k for sure.",
+      "turn_index": 94
+    },
+    {
+      "speaker": "Elizabeth",
+      "text": "A-huh. And then you'll see the pilots through and you're anticipating that the pilots will come through with something like 300k?",
+      "turn_index": 95
+    },
+    {
+      "speaker": "Chinar",
+      "text": "Yes.",
+      "turn_index": 96
+    },
+    {
+      "speaker": "Elizabeth",
+      "text": "ARR?",
+      "turn_index": 97
+    },
+    {
+      "speaker": "Chinar",
+      "text": "Yes. Yes.",
+      "turn_index": 98
+    },
+    {
+      "speaker": "Elizabeth",
+      "text": "So that will actually move your burn to a net burn of roughly 20 to 30 by the end of the year? Per month?",
+      "turn_index": 99
+    },
+    {
+      "speaker": "Chinar",
+      "text": "Yeah.",
+      "turn_index": 100
+    },
+    {
+      "speaker": "Elizabeth",
+      "text": "Yeah?",
+      "turn_index": 101
+    },
+    {
+      "speaker": "Chinar",
+      "text": "Yeah.",
+      "turn_index": 102
+    },
+    {
+      "speaker": "Elizabeth",
+      "text": "And then you're gonna go and convert some of the waitlist folks?",
+      "turn_index": 103
+    },
+    {
+      "speaker": "Chinar",
+      "text": "Yes.",
+      "turn_index": 104
+    },
+    {
+      "speaker": "Elizabeth",
+      "text": "And so assuming you can successfully convert a bunch of people from the waitlist, in theory, then it seems like you would actually be on the net break even-ish.",
+      "turn_index": 105
+    },
+    {
+      "speaker": "Chinar",
+      "text": "Yeah, yeah.",
+      "turn_index": 106
+    },
+    {
+      "speaker": "Elizabeth",
+      "text": "Well, I guess where I'm going with this is like, you know, originally you had talked about a 100k net burn and now we're talking about actually you could even be profitable on even this round. Ramen profitable.",
+      "turn_index": 107
+    },
+    {
+      "speaker": "Chinar",
+      "text": "Yeah, we can be at breakeven. Yeah.",
+      "turn_index": 108
+    },
+    {
+      "speaker": "Elizabeth",
+      "text": "Got it. Interesting ….\n[pause]",
+      "turn_index": 109
+    },
+    {
+      "speaker": "Elizabeth",
+      "text": "I think - am I the last? Oh, okay.",
+      "turn_index": 110
+    },
+    {
+      "speaker": "Charles",
+      "text": "Take your time.",
+      "turn_index": 111
+    },
+    {
+      "speaker": "Elizabeth",
+      "text": "Yeah. I - I would like to invest, but not at the valuation you're looking for.\nThe negotiation continuation, after this.",
+      "turn_index": 112
+    },
+    {
+      "speaker": "Elizabeth",
+      "text": "I would like to invest, but not at the valuation you're looking for. So I don't wanna offend you because I am very impressed by you. I think, you know, you're the right person to do this. And I also believe this area will have a lot of market pull. For me, I would want to invest 150k at 10, but I realize that may not be interesting to you.",
+      "turn_index": 113
+    },
+    {
+      "speaker": "Chinar",
+      "text": "We can discuss.",
+      "turn_index": 114
+    },
+    {
+      "speaker": "Elizabeth",
+      "text": "Thank you.",
+      "turn_index": 115
+    },
+    {
+      "speaker": "Chinar",
+      "text": "Thank you.",
+      "turn_index": 116
+    },
+    {
+      "speaker": "Mac",
+      "text": "Alright, well thank you so much.",
+      "turn_index": 117
+    },
+    {
+      "speaker": "Charles",
+      "text": "Thank you.",
+      "turn_index": 118
+    },
+    {
+      "speaker": "Chinar",
+      "text": "Thank you so much. Yeah, this was great.\n[outside applause]",
+      "turn_index": 119
+    },
+    {
+      "speaker": "Cyan",
+      "text": "That was a Shark Tank move there.\n[crosstalk]",
+      "turn_index": 120
+    },
+    {
+      "speaker": "Mac",
+      "text": "That was my number.",
+      "turn_index": 121
+    },
+    {
+      "speaker": "Jesse",
+      "text": "That seems totally fair and reasonable.",
+      "turn_index": 122
+    },
+    {
+      "speaker": "Mac",
+      "text": "Well - I thought her original evaluation was a bit high.",
+      "turn_index": 123
+    },
+    {
+      "speaker": "Elizabeth",
+      "text": "The seven and a half?",
+      "turn_index": 124
+    },
+    {
+      "speaker": "Mac",
+      "text": "The seven and a half.",
+      "turn_index": 125
+    },
+    {
+      "speaker": "Jesse",
+      "text": "It was done a year and a half ago though. So it was like this, like -",
+      "turn_index": 126
+    },
+    {
+      "speaker": "Mac",
+      "text": "Understood. Understood. But then, you burn through it, you realize a pivot, you're running out, and you're like, I'm going to raise it almost double. That caught me off guard at first. I get it from the founder perspective.",
+      "turn_index": 127
+    },
+    {
+      "speaker": "Josh",
+      "text": "You asked for her, what her ideal is. And that's -",
+      "turn_index": 128
+    },
+    {
+      "speaker": "Jesse",
+      "text": "Yeah.",
+      "turn_index": 129
+    },
+    {
+      "speaker": "Josh",
+      "text": "Of course, they're going to say their ideal.",
+      "turn_index": 130
+    },
+    {
+      "speaker": "Elizabeth",
+      "text": "That is the ideal",
+      "turn_index": 131
+    },
+    {
+      "speaker": "Cyan",
+      "text": "Her answer should be, I won't negotiate against myself.",
+      "turn_index": 132
+    },
+    {
+      "speaker": "Jesse",
+      "text": "I just invested in a company, like, where they had raised a lot more than she had in a previous iteration. They had a lot of outstanding safes. And when they came onto a new idea that I loved, I was like, you should go back to all your investors and get them to sign off on basically recapping.",
+      "turn_index": 133
+    },
+    {
+      "speaker": "Elizabeth",
+      "text": "Oh, I was in that deal. I know the one.",
+      "turn_index": 134
+    },
+    {
+      "speaker": "Jesse",
+      "text": "And so, that's the downside of safes, right? They're not getting diluted here. But I think that is a, I think it's very fair.",
+      "turn_index": 135
+    },
+    {
+      "speaker": "Josh",
+      "text": "She only raised one at the seven and a half.",
+      "turn_index": 136
+    },
+    {
+      "speaker": "Jesse",
+      "text": "Yeah. But the safe's compound.",
+      "turn_index": 137
+    },
+    {
+      "speaker": "Elizabeth",
+      "text": "I worry about the burn, though.",
+      "turn_index": 138
+    },
+    {
+      "speaker": "Josh",
+      "text": "There's not enough runway here.",
+      "turn_index": 139
+    },
+    {
+      "speaker": "Elizabeth",
+      "text": "Well, I guess just from historical behavior, she burned through 900k.",
+      "turn_index": 140
+    },
+    {
+      "speaker": "Josh",
+      "text": "Oh, she didn't do enough with that million.",
+      "turn_index": 141
+    },
+    {
+      "speaker": "Elizabeth",
+      "text": "Yeah.",
+      "turn_index": 142
+    },
+    {
+      "speaker": "Charles",
+      "text": "It certainly raises the burden of proof. Like you were given a million and this is what you did. Now I have to believe that two million will be invested differently than the original million.",
+      "turn_index": 143
+    },
+    {
+      "speaker": "Elizabeth",
+      "text": "Right. That's why I was actually pushing her on like, what is her plan? When you've burned through 900k, I want to know more about that.",
+      "turn_index": 144
+    },
+    {
+      "speaker": "Cyan",
+      "text": "She wasn't strong on the numbers.",
+      "turn_index": 145
+    },
+    {
+      "speaker": "Elizabeth",
+      "text": "No.",
+      "turn_index": 146
+    },
+    {
+      "speaker": "Cyan",
+      "text": "I did notice that. But there's so much goodness there that I'm just like, I really want to dig in.",
+      "turn_index": 147
+    },
+    {
+      "speaker": "Josh",
+      "text": "I feel like there's two things that I saw that were interesting here based on your reactions. There's one, really like her, her background. She seems super sharp.",
+      "turn_index": 148
+    },
+    {
+      "speaker": "Cyan",
+      "text": "Oh, yeah.",
+      "turn_index": 149
+    },
+    {
+      "speaker": "Josh",
+      "text": "And then two, 90k in contracts on her pilot customers? Right off the bat?",
+      "turn_index": 150
+    },
+    {
+      "speaker": "Elizabeth",
+      "text": "Yeah.",
+      "turn_index": 151
+    },
+    {
+      "speaker": "Josh",
+      "text": "That's what you're saying when you say the market pull is strong",
+      "turn_index": 152
+    },
+    {
+      "speaker": "Elizabeth",
+      "text": "Yeah. Like if there are a bunch more on the waitlist like that, then she's golden, or at least good for now.",
+      "turn_index": 153
+    },
+    {
+      "speaker": "Cyan",
+      "text": "Well, this moat also has to be strong.",
+      "turn_index": 154
+    },
+    {
+      "speaker": "Jesse",
+      "text": "Yeah, there has to be something that's special there.",
+      "turn_index": 155
+    },
+    {
+      "speaker": "Cyan",
+      "text": "There's got to be a miracle in there because she implied that they have something.",
+      "turn_index": 156
+    },
+    {
+      "speaker": "Jesse",
+      "text": "Yeah.",
+      "turn_index": 157
+    },
+    {
+      "speaker": "Cyan",
+      "text": "She's smart enough to have invented something. I can tell. But now we just have to verify like how much of an edge does she have, because otherwise it could get - this is competitive.",
+      "turn_index": 158
+    },
+    {
+      "speaker": "Josh",
+      "text": "Charles, I don't think I've ever heard you say on the show - I'm in out of my depth.",
+      "turn_index": 159
+    },
+    {
+      "speaker": "Charles",
+      "text": "I just - I really struggle with these things. They all sound amazing. And I hear a hundred of them and I'm like, they all sound amazing.",
+      "turn_index": 160
+    },
+    {
+      "speaker": "Cyan",
+      "text": "It's because it's so frothy, right?",
+      "turn_index": 161
+    },
+    {
+      "speaker": "Charles",
+      "text": "It's so frothy. And so like, just as a firm level, we're just not doing much in AI infra. Just, I don't have the technical ability to analyze them. And I haven't found many interesting categories where I don't instantly meet two dozen very credible teams. So I'm just like, this one is just like probably not for us.",
+      "turn_index": 162
+    },
+    {
+      "speaker": "Josh",
+      "text": "Stay on track.",
+      "turn_index": 163
+    },
+    {
+      "speaker": "Jesse",
+      "text": "Six minutes. Got it.\nChinar walked out of the pitch room with a $150k commitment from Elizabeth, and interest from Cyan and Jesse in co-leading her round. After the pitch, the negotiation that never ends…. it goes on and on my friends…",
+      "turn_index": 164
+    },
+    {
+      "speaker": "Elizabeth",
+      "text": "You essentially need to kind of be in survival mode to get you into when the market really takes off.",
+      "turn_index": 165
+    },
+    {
+      "speaker": "Chinar",
+      "text": "We see that we have this product market fit here. Market is, needs this solution.",
+      "turn_index": 166
+    },
+    {
+      "speaker": "Elizabeth",
+      "text": "I do agree that intuitively the market needs a solution, but I've also seen a lot of people just sign up for things on a wait list and then never convert as well.",
+      "turn_index": 167
+    },
+    {
+      "speaker": "Chinar",
+      "text": "Yeah yeah sure you mentioned about like potential investment and your term. It was 150 K with 10 million valuation cap",
+      "turn_index": 168
+    },
+    {
+      "speaker": "Elizabeth",
+      "text": "Yes. basically I, I kind of put the ball in your court, like, think about it.\nI got a term sheet not knowing what it was. But I’ll continue signing it forever just because… Will Chinar accept Elizabeth’s terms? Find out on our season finale on December 11th at 7pm. You can register for the virtual watch party at pitch.show/party.\nNo offer to invest in Feedback Intelligence is being made to the listening audience on today’s show, but LPs in The Pitch Fund do have access. You can learn more and invest in our debut fund at thepitch.fund\nWe just crossed $4.4M under management in fund I and we only have a few more spots left for new LPs! So if you’re interested in joining, don’t wait til the deadline on December 15th, by then it’ll be too late.\nNext week? … our last pitch before the season finale",
+      "turn_index": 169
+    },
+    {
+      "speaker": "Khayla",
+      "text": "We support those nurse practitioners through an AI-enabled business in a box model. we can build a healthcare system where we keep black women alive.",
+      "turn_index": 170
+    },
+    {
+      "speaker": "Cyan",
+      "text": "And how much of the one million have you raised?",
+      "turn_index": 171
+    },
+    {
+      "speaker": "Khaylah",
+      "text": "Zero.",
+      "turn_index": 172
+    },
+    {
+      "speaker": "Mac",
+      "text": "There is a bit of a game to this, and I don't want you to forget that.",
+      "turn_index": 173
+    },
+    {
+      "speaker": "Charles",
+      "text": "So I have a lot of reservations, Like we've done a bunch of these businesses, and half of the challenge is identifying people who will succeed as entrepreneurs.",
+      "turn_index": 174
+    },
+    {
+      "speaker": "Cyan",
+      "text": "I really like any business that's disrupting a broken system and, and doctors and physicians are such a racket.\nThat’s next week! Subscribe to The Pitch right now, and turn on notifications so you don’t miss it.\nThis episode was made by me, Josh Muccio, Lisa Muccio, Anna Ladd, Enoch Kim, and Jackie Papanier. With deal sourcing by Peter Liu and John Alvarez.\nMusic in this episode is by The Muse Maker, Breakmaster Cylinder, FYRSTYX, Memory Palace, and Onders.\nThe Pitch is made in partnership with the Vox Media Podcast Network.",
+      "turn_index": 175
+    }
+  ]
+}

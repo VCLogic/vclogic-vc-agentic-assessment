@@ -1,0 +1,114 @@
+{
+  "schema": "transcript-observed-rationales-v1",
+  "episode_slug": "164-sundae-ltk-for-groceries",
+  "transcript_sha256": "cc131c743487b4b2e1cb2076b412d6ecef49bcf08584ed6d51f0f5d173abcc5d",
+  "window": {
+    "start_turn": 0,
+    "end_turn": 107
+  },
+  "observed_decision": "In",
+  "decision_evidence_ids": [
+    "E6"
+  ],
+  "evidence_registry": [
+    {
+      "evidence_id": "E1",
+      "turn_index": 63,
+      "speaker": "Charles",
+      "text": "Will the model be the same in the US?"
+    },
+    {
+      "evidence_id": "E2",
+      "turn_index": 82,
+      "speaker": "Charles",
+      "text": "How often do people take the order? I'd imagine you get to the cart and you have to decide, I want to order this or, Oh, I already have these ingredients at home. Or I have half of that. Like, I'm just curious, like, how should we think about the, that conversion?"
+    },
+    {
+      "evidence_id": "E3",
+      "turn_index": 94,
+      "speaker": "Charles",
+      "text": "I have one other question for you just, at scale, how do you think about the balance between the sort of commissions and the brand deal from - like what does that look like at scale?"
+    },
+    {
+      "evidence_id": "E4",
+      "turn_index": 103,
+      "speaker": "Charles",
+      "text": "So I'm in for 25. But one big diligence -"
+    },
+    {
+      "evidence_id": "E5",
+      "turn_index": 105,
+      "speaker": "Charles",
+      "text": "We sold, we sold a company to Instacart -"
+    },
+    {
+      "evidence_id": "E6",
+      "turn_index": 107,
+      "speaker": "Charles",
+      "text": "- a while ago and I have a bunch of friends who are executives of the company. And I do want to better understand this model from their point of view. That would be the one big diligence item, but I would be in for 25k at a minimum, but the potential to do slightly more."
+    }
+  ],
+  "rationales": [
+    {
+      "rationale_id": "R1",
+      "rationale_label": "go_to_market_strategy_assessment",
+      "utterance_type": "question",
+      "activation": "queried",
+      "direction": "neutral",
+      "salience": "secondary",
+      "confidence": 0.97,
+      "evidence_ids": [
+        "E1"
+      ],
+      "explanation": "Charles asks whether the operating model will carry over to the US market, probing the planned market approach.",
+      "decision_link": "none"
+    },
+    {
+      "rationale_id": "R2",
+      "rationale_label": "product_adoption",
+      "utterance_type": "question",
+      "activation": "queried",
+      "direction": "neutral",
+      "salience": "secondary",
+      "confidence": 0.98,
+      "evidence_ids": [
+        "E2"
+      ],
+      "explanation": "Charles asks about order frequency and cart-to-checkout conversion, probing actual user adoption and purchase behavior.",
+      "decision_link": "none"
+    },
+    {
+      "rationale_id": "R3",
+      "rationale_label": "business_model_assessment",
+      "utterance_type": "question",
+      "activation": "queried",
+      "direction": "neutral",
+      "salience": "secondary",
+      "confidence": 0.99,
+      "evidence_ids": [
+        "E3"
+      ],
+      "explanation": "Charles asks how commissions and brand revenue will balance at scale, probing the revenue model and economics.",
+      "decision_link": "none"
+    },
+    {
+      "rationale_id": "R4",
+      "rationale_label": "investor_experience_bias",
+      "utterance_type": "decision_reason",
+      "activation": "evaluated",
+      "direction": "positive",
+      "salience": "primary",
+      "confidence": 0.99,
+      "evidence_ids": [
+        "E4",
+        "E5",
+        "E6"
+      ],
+      "explanation": "Charles cites his prior company sale to Instacart and relationships with its executives as the basis for a diligence check, while explicitly affirming his investment.",
+      "decision_link": "explicit"
+    }
+  ],
+  "unmapped_utterances": [],
+  "audit_flags": [],
+  "annotation_summary": "Charles explicitly invests $25k at minimum, with potential to invest slightly more. His stated diligence focus is understanding the model from Instacart executives' perspective, informed by his prior sale to Instacart and existing relationships."
+}

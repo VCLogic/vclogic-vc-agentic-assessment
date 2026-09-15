@@ -1,0 +1,124 @@
+{
+  "schema": "transcript-observed-rationales-v1",
+  "episode_slug": "146-recraft-beer",
+  "transcript_sha256": "0a5b86074a0c0583f87ca925c564e220f2d83af755f6de1c6e7aa2c880cfb2b4",
+  "window": {
+    "start_turn": 2,
+    "end_turn": 68
+  },
+  "observed_decision": "Out",
+  "decision_evidence_ids": [
+    "E5"
+  ],
+  "evidence_registry": [
+    {
+      "evidence_id": "E1",
+      "turn_index": 31,
+      "speaker": "Charles",
+      "text": "They're both really good. This one, the left one has a little more creaminess to it, like slightly, but they're both very good."
+    },
+    {
+      "evidence_id": "E2",
+      "turn_index": 40,
+      "speaker": "Charles",
+      "text": "How does it compare on a cost basis to their current methodology? if you put aside the waste piece just from a production like price comparison."
+    },
+    {
+      "evidence_id": "E3",
+      "turn_index": 44,
+      "speaker": "Charles",
+      "text": "I was just going to ask you, like, given how concentrated InBev - some of these huge, I imagine they have internal R&D teams that are probably thinking about every element of the process. And how do you think about working with, like, Big Beer, for lack of a better word?"
+    },
+    {
+      "evidence_id": "E4",
+      "turn_index": 66,
+      "speaker": "Charles",
+      "text": "What would a successful outcome for ReCraft look like for you? Like how do you, how do you think about the end state?"
+    },
+    {
+      "evidence_id": "E5",
+      "turn_index": 68,
+      "speaker": "Charles",
+      "text": "I think I'm out for - we have like an internal thing about science things, that we're not science people at Precursor. But I do have two family offices I've gotten to know really well that are both in the brewing business. And they're always asking me if you ever meet anything interesting in the world of beer, please introduce us."
+    }
+  ],
+  "rationales": [
+    {
+      "rationale_id": "R1",
+      "rationale_label": "product_appeal_assessment",
+      "utterance_type": "assessment",
+      "activation": "evaluated",
+      "direction": "positive",
+      "salience": "secondary",
+      "confidence": 0.99,
+      "evidence_ids": [
+        "E1"
+      ],
+      "explanation": "Charles positively assessed the tasted products as very good.",
+      "decision_link": "none"
+    },
+    {
+      "rationale_id": "R2",
+      "rationale_label": "business_model_assessment",
+      "utterance_type": "question",
+      "activation": "queried",
+      "direction": "neutral",
+      "salience": "secondary",
+      "confidence": 0.98,
+      "evidence_ids": [
+        "E2"
+      ],
+      "explanation": "Charles queried the production-price comparison with the current methodology.",
+      "decision_link": "none"
+    },
+    {
+      "rationale_id": "R3",
+      "rationale_label": "competitive_landscape_inertia",
+      "utterance_type": "question",
+      "activation": "queried",
+      "direction": "neutral",
+      "salience": "secondary",
+      "confidence": 0.94,
+      "evidence_ids": [
+        "E3"
+      ],
+      "explanation": "Charles queried how the company would work with concentrated large-beer incumbents and their internal R&D teams.",
+      "decision_link": "none"
+    },
+    {
+      "rationale_id": "R4",
+      "rationale_label": "founder_investor_vision_alignment",
+      "utterance_type": "question",
+      "activation": "queried",
+      "direction": "neutral",
+      "salience": "secondary",
+      "confidence": 0.9,
+      "evidence_ids": [
+        "E4"
+      ],
+      "explanation": "Charles queried the founder's intended successful end state for ReCraft.",
+      "decision_link": "none"
+    },
+    {
+      "rationale_id": "R5",
+      "rationale_label": "investor_domain_knowledge_constraint",
+      "utterance_type": "decision_reason",
+      "activation": "evaluated",
+      "direction": "negative",
+      "salience": "primary",
+      "confidence": 0.99,
+      "evidence_ids": [
+        "E5"
+      ],
+      "explanation": "Charles explicitly said he was out because Precursor is not a science-focused team.",
+      "decision_link": "explicit"
+    }
+  ],
+  "unmapped_utterances": [
+    "6",
+    "46",
+    "48"
+  ],
+  "audit_flags": [],
+  "annotation_summary": "Charles positively assessed the beer and asked substantive questions about economics, incumbents, and the founder's end state. He explicitly declined due to Precursor's lack of science expertise, while offering introductions to brewing-focused family offices."
+}

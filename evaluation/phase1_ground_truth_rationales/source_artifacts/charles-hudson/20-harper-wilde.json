@@ -1,0 +1,112 @@
+{
+  "schema": "transcript-observed-rationales-v1",
+  "episode_slug": "20-harper-wilde",
+  "transcript_sha256": "836aca4a6534a78ee528fc5e33d8089a744be5cf85ee1cc3ca6e819622511054",
+  "window": {
+    "start_turn": 9,
+    "end_turn": 88
+  },
+  "observed_decision": "Out",
+  "decision_evidence_ids": [
+    "E88"
+  ],
+  "evidence_registry": [
+    {
+      "evidence_id": "E54",
+      "turn_index": 54,
+      "speaker": "Charles",
+      "text": "The thing I've always been surprised by is that, and I feel weird saying this as a man, when I've talked to my friends about it, a bra is something you wear every day, but Like There's no objective bra. It's got to work for you. my sense from talking to my friends, you've got to buy a couple of these."
+    },
+    {
+      "evidence_id": "E76",
+      "turn_index": 76,
+      "speaker": "Charles",
+      "text": "Like I actually have the opposite reaction to the Target bra which is that, people are saying well if everything sucks, I'm going for the lowest common denominator, consistent price. It's reliable. It's $20. If I'm going to spend, if I'm going to get something that's kind of a miserable experience, at least let me not spend a whole lot of money on it."
+    },
+    {
+      "evidence_id": "E88",
+      "turn_index": 88,
+      "speaker": "Charles",
+      "text": "For me, I was impressed by your thoughtfulness about the problem. And I think I don’t know if I have the same vision for the brand principles and the brand anchor that you two do. But for me, I’d want to see a bit more sort of feeling of alignment around what the core principles are. But I think in terms of customer pain points, you two are well above what I’m accustomed to seeing, and I think you’re well positioned there. But for me, it’s just that I don’t quite know that we see the opportunity the same way, so it’s not quite right for me."
+    }
+  ],
+  "rationales": [
+    {
+      "rationale_id": "R1",
+      "rationale_label": "product_success_factor_assessment",
+      "utterance_type": "assessment",
+      "activation": "evaluated",
+      "direction": "neutral",
+      "salience": "secondary",
+      "confidence": 0.78,
+      "evidence_ids": [
+        "E54"
+      ],
+      "explanation": "Charles identifies daily wear, individual fit, and the need to buy multiple bras as product-category characteristics, without evaluating them as clearly positive or negative.",
+      "decision_link": "none"
+    },
+    {
+      "rationale_id": "R2",
+      "rationale_label": "business_viability_concern",
+      "utterance_type": "assessment",
+      "activation": "evaluated",
+      "direction": "negative",
+      "salience": "secondary",
+      "confidence": 0.89,
+      "evidence_ids": [
+        "E76"
+      ],
+      "explanation": "Charles frames the fallback behavior as accepting a miserable experience in exchange for a reliable $20 price, indicating a negative assessment of the value proposition and willingness to pay for improvement.",
+      "decision_link": "none"
+    },
+    {
+      "rationale_id": "R3",
+      "rationale_label": "founder_qualities",
+      "utterance_type": "assessment",
+      "activation": "evaluated",
+      "direction": "positive",
+      "salience": "secondary",
+      "confidence": 0.97,
+      "evidence_ids": [
+        "E88"
+      ],
+      "explanation": "Charles positively assesses the founders’ thoughtfulness about the problem.",
+      "decision_link": "none"
+    },
+    {
+      "rationale_id": "R4",
+      "rationale_label": "market_problem_validation",
+      "utterance_type": "assessment",
+      "activation": "evaluated",
+      "direction": "positive",
+      "salience": "secondary",
+      "confidence": 0.96,
+      "evidence_ids": [
+        "E88"
+      ],
+      "explanation": "Charles says the founders are well above what he is accustomed to seeing on customer pain points and are well positioned there.",
+      "decision_link": "none"
+    },
+    {
+      "rationale_id": "R5",
+      "rationale_label": "founder_investor_vision_alignment",
+      "utterance_type": "decision_reason",
+      "activation": "evaluated",
+      "direction": "negative",
+      "salience": "primary",
+      "confidence": 0.99,
+      "evidence_ids": [
+        "E88"
+      ],
+      "explanation": "Charles directly states that he does not share the founders’ vision for the brand principles and anchor, wants more alignment around the core principles, and uses the differing view of the opportunity to explain that it is not right for him.",
+      "decision_link": "explicit"
+    }
+  ],
+  "unmapped_utterances": [
+    "[44] Charles: That’s debatable.",
+    "[46] Charles: It’s really hard to say.",
+    "[78] Charles: For you."
+  ],
+  "audit_flags": [],
+  "annotation_summary": "Charles’s explicit reason for passing is insufficient alignment with the founders’ vision for the brand and opportunity. He also expressed positive views of the founders’ thoughtfulness and customer-pain understanding, alongside a negative assessment of price-driven category behavior."
+}

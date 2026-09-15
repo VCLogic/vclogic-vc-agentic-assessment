@@ -1,0 +1,54 @@
+{
+  "actual_decision": "Out",
+  "boundary_turn_index": 23,
+  "canonical_pitch_path": "inputs/data/investors/charles-hudson-precursor-ventures/pitches/75-i-want-bro-money-too.txt",
+  "canonical_pitch_sha256": "5e6e7811af212ba6b1e6f0709c2c41de8ff853bde66baf253eb5844b63b1f0d7",
+  "episode_path": "../agentic-vc-clone-framework/data/episodes/75-i-want-bro-money-too.json",
+  "episode_sha256": "c9bc692b6d34b5e2175af386f431cb80fbbedec367b1e44ce4d25953651f4c84",
+  "episode_slug": "75-i-want-bro-money-too",
+  "insertions": [
+    {
+      "answer_turn_index": 8,
+      "canonical_line_index": 6,
+      "original_speaker": "Michael",
+      "question": "Well prepared. So how does this work exactly? Tell me how you work with an individual. You're saying it's bespoke for that person? Or is it just saying, hi, I'm this weight, this height and this size and I need this dress? Is that what you're saying? Is that",
+      "source_turn_index": 7
+    },
+    {
+      "answer_turn_index": 17,
+      "canonical_line_index": 12,
+      "original_speaker": "Soraya",
+      "question": "So you\u2019re a modern cut and sew?",
+      "source_turn_index": 16
+    }
+  ],
+  "leakage_checklist": {
+    "founder_content_added": false,
+    "other_investor_identity_model_visible": false,
+    "post_boundary_turn_retained": false,
+    "target_investor_turn_retained": false,
+    "verdict_or_offer_turn_retained": false
+  },
+  "neutral_speaker_label": "Panel Investor",
+  "omitted_candidates": [
+    {
+      "original_speaker": "Phil",
+      "reason": "question_already_present",
+      "source_turn_index": 14,
+      "text": "What part of it are you keeping though?"
+    },
+    {
+      "original_speaker": "Sarah",
+      "reason": "question_already_present",
+      "source_turn_index": 18,
+      "text": "Where are you doing the manufacturing now?"
+    }
+  ],
+  "pitch_sha256": "f18c7e4d70f52712ef03955a267045115059b2d5307e48ea8bfabeae9b0d38c6",
+  "registry_vc_slug": "charles-hudson",
+  "schema": "panel-question-pitch-audit-v1",
+  "source_record_path": "inputs/data/investors/charles-hudson-precursor-ventures/precedents/records/75-i-want-bro-money-too.json",
+  "source_record_sha256": "828c5ca68658f4345014a2b479d5c63a604ab07d46d94678a11c48fb2b4b65fe",
+  "status": "audited",
+  "vc_slug": "charles-hudson-precursor-ventures"
+}

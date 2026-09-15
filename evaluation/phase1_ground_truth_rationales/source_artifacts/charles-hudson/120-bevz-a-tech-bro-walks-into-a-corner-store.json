@@ -1,0 +1,222 @@
+{
+  "schema": "transcript-observed-rationales-v1",
+  "episode_slug": "120-bevz-a-tech-bro-walks-into-a-corner-store",
+  "transcript_sha256": "6f48fd0d8c48587ee1b54e2ef2c7514ec2e3ebc1d9b155bb4318b0240bbc0ff3",
+  "window": {
+    "start_turn": 8,
+    "end_turn": 78
+  },
+  "observed_decision": "Out",
+  "decision_evidence_ids": [
+    "E8"
+  ],
+  "evidence_registry": [
+    {
+      "evidence_id": "E1",
+      "turn_index": 49,
+      "speaker": "Charles",
+      "text": "You mentioned, I think quite clearly, like this is a sales-driven company."
+    },
+    {
+      "evidence_id": "E2",
+      "turn_index": 51,
+      "speaker": "Charles",
+      "text": "Do you envision a world in, is there a future state in which there is more of a self-serve, or is there a bigger role for marketing or do you think just given the nature of the customer, even as you grow your customer base, it's sales is still gonna be like the primary customer acquisition vector?"
+    },
+    {
+      "evidence_id": "E3",
+      "turn_index": 56,
+      "speaker": "Charles",
+      "text": "Is there any difference in selling to the independents and the small chains? Is that sales motion any different?"
+    },
+    {
+      "evidence_id": "E4",
+      "turn_index": 62,
+      "speaker": "Charles",
+      "text": "Thank you. Super complete answer."
+    },
+    {
+      "evidence_id": "E5",
+      "turn_index": 70,
+      "speaker": "Charles",
+      "text": "It's not bad."
+    },
+    {
+      "evidence_id": "E6",
+      "turn_index": 73,
+      "speaker": "Charles",
+      "text": "Oh nice."
+    },
+    {
+      "evidence_id": "E7",
+      "turn_index": 76,
+      "speaker": "Charles",
+      "text": "I really liked this, I rarely meet people with this level of extemporaneous ability to like talk about every facet of their business in like a level of honesty and detail - it's honestly it's quite impressive."
+    },
+    {
+      "evidence_id": "E8",
+      "turn_index": 78,
+      "speaker": "Charles",
+      "text": "Like your command of the business. but I'm gonna be out. I think I visibly winced when I heard about the cap table."
+    },
+    {
+      "evidence_id": "E9",
+      "turn_index": 78,
+      "speaker": "Charles",
+      "text": "Just cos it's clear to me you're doing so much."
+    }
+  ],
+  "rationales": [
+    {
+      "rationale_id": "R1",
+      "rationale_label": "go_to_market_strategy_assessment",
+      "utterance_type": "assessment",
+      "activation": "evaluated",
+      "direction": "neutral",
+      "salience": "secondary",
+      "confidence": 0.95,
+      "evidence_ids": [
+        "E1"
+      ],
+      "explanation": "Charles characterized the company as sales-driven, establishing the central customer-acquisition motion.",
+      "decision_link": "none"
+    },
+    {
+      "rationale_id": "R2",
+      "rationale_label": "go_to_market_strategy_assessment",
+      "utterance_type": "question",
+      "activation": "queried",
+      "direction": "neutral",
+      "salience": "secondary",
+      "confidence": 0.99,
+      "evidence_ids": [
+        "E2"
+      ],
+      "explanation": "Charles queried whether customer acquisition could become more self-serve or marketing-led as the company grows.",
+      "decision_link": "none"
+    },
+    {
+      "rationale_id": "R3",
+      "rationale_label": "go_to_market_strategy_assessment",
+      "utterance_type": "question",
+      "activation": "queried",
+      "direction": "neutral",
+      "salience": "secondary",
+      "confidence": 0.99,
+      "evidence_ids": [
+        "E3"
+      ],
+      "explanation": "Charles queried whether the sales motion differs between independent stores and small chains.",
+      "decision_link": "none"
+    },
+    {
+      "rationale_id": "R4",
+      "rationale_label": "founder_communication_quality",
+      "utterance_type": "assessment",
+      "activation": "evaluated",
+      "direction": "positive",
+      "salience": "secondary",
+      "confidence": 0.99,
+      "evidence_ids": [
+        "E4"
+      ],
+      "explanation": "Charles praised the completeness of the founder's answer.",
+      "decision_link": "none"
+    },
+    {
+      "rationale_id": "R5",
+      "rationale_label": "product_adoption",
+      "utterance_type": "assessment",
+      "activation": "evaluated",
+      "direction": "positive",
+      "salience": "secondary",
+      "confidence": 0.86,
+      "evidence_ids": [
+        "E5"
+      ],
+      "explanation": "Charles gave a positive assessment of the reported store-retention outcome.",
+      "decision_link": "none"
+    },
+    {
+      "rationale_id": "R6",
+      "rationale_label": "fundraising_demand_signal",
+      "utterance_type": "assessment",
+      "activation": "evaluated",
+      "direction": "positive",
+      "salience": "secondary",
+      "confidence": 0.92,
+      "evidence_ids": [
+        "E6"
+      ],
+      "explanation": "Charles reacted positively to the fundraising progress reported by the founder.",
+      "decision_link": "none"
+    },
+    {
+      "rationale_id": "R7",
+      "rationale_label": "founder_communication_quality",
+      "utterance_type": "assessment",
+      "activation": "evaluated",
+      "direction": "positive",
+      "salience": "primary",
+      "confidence": 0.99,
+      "evidence_ids": [
+        "E7"
+      ],
+      "explanation": "Charles explicitly praised the founder's extemporaneous ability, breadth, honesty, detail, and overall presentation quality.",
+      "decision_link": "none"
+    },
+    {
+      "rationale_id": "R8",
+      "rationale_label": "founder_communication_quality",
+      "utterance_type": "assessment",
+      "activation": "evaluated",
+      "direction": "positive",
+      "salience": "secondary",
+      "confidence": 0.95,
+      "evidence_ids": [
+        "E8"
+      ],
+      "explanation": "Charles positively assessed the founder's command of the business.",
+      "decision_link": "none"
+    },
+    {
+      "rationale_id": "R9",
+      "rationale_label": "founder_execution",
+      "utterance_type": "assessment",
+      "activation": "evaluated",
+      "direction": "positive",
+      "salience": "secondary",
+      "confidence": 0.9,
+      "evidence_ids": [
+        "E9"
+      ],
+      "explanation": "Charles stated that it was clear the founder was doing a great deal of work.",
+      "decision_link": "none"
+    },
+    {
+      "rationale_id": "R10",
+      "rationale_label": "founder_equity_incentive_alignment",
+      "utterance_type": "decision_reason",
+      "activation": "evaluated",
+      "direction": "negative",
+      "salience": "primary",
+      "confidence": 0.99,
+      "evidence_ids": [
+        "E8"
+      ],
+      "explanation": "Charles explicitly linked his Out decision to visibly wincing at the cap table.",
+      "decision_link": "explicit"
+    }
+  ],
+  "unmapped_utterances": [
+    "13: Hey. Nice to meet you.",
+    "15: Maybe tap to pay. Maybe.",
+    "41: Drizly.",
+    "53: Okay",
+    "58: Oh.",
+    "60: Yeah.",
+    "65: Get this guy -"
+  ],
+  "audit_flags": [],
+  "annotation_summary": "Charles queried the scalability and segmentation of the sales-led go-to-market motion, praised the founder's communication and business command, and explicitly identified the cap table as the reason for going Out."
+}

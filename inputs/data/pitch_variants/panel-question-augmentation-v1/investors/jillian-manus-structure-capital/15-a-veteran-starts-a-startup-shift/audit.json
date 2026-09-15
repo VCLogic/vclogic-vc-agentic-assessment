@@ -1,0 +1,69 @@
+{
+  "actual_decision": "In",
+  "boundary_turn_index": 32,
+  "canonical_pitch_path": "inputs/data/investors/jillian-manus-structure-capital/pitches/15-a-veteran-starts-a-startup-shift.txt",
+  "canonical_pitch_sha256": "7dbf6abcc07f40a918ae9c69888c2df77dd2588570e3c8b21af0fcfab351db2d",
+  "episode_path": "../agentic-vc-clone-framework/data/episodes/15-a-veteran-starts-a-startup-shift.json",
+  "episode_sha256": "3ec15d421bd11ff21d9fd158a1571689bfcf34f5b6c36cd0b5bf860e2845f07e",
+  "episode_slug": "15-a-veteran-starts-a-startup-shift",
+  "insertions": [
+    {
+      "answer_turn_index": 10,
+      "canonical_line_index": 3,
+      "original_speaker": "James",
+      "question": "I did know that. You represented Mother Teresa, right?",
+      "source_turn_index": 2
+    },
+    {
+      "answer_turn_index": 10,
+      "canonical_line_index": 3,
+      "original_speaker": "Phil",
+      "question": "So on the commercial side, do you have any signed orders? Or is it just verbal commitments at this point?\nJillian Manus is with Structure Capital. She tends to see the best in every entrepreneur \u2014 and encourages them to see it, too.",
+      "source_turn_index": 5
+    },
+    {
+      "answer_turn_index": 17,
+      "canonical_line_index": 7,
+      "original_speaker": "James",
+      "question": "What does the bomb squad mean, they see a potential bomb and you have to go and...",
+      "source_turn_index": 15
+    },
+    {
+      "answer_turn_index": 25,
+      "canonical_line_index": 14,
+      "original_speaker": "Phil",
+      "question": "These are paid internships?",
+      "source_turn_index": 24
+    },
+    {
+      "answer_turn_index": 27,
+      "canonical_line_index": 15,
+      "original_speaker": "Phil",
+      "question": "Paid or unpaid internship?",
+      "source_turn_index": 26
+    }
+  ],
+  "leakage_checklist": {
+    "founder_content_added": false,
+    "other_investor_identity_model_visible": false,
+    "post_boundary_turn_retained": false,
+    "target_investor_turn_retained": false,
+    "verdict_or_offer_turn_retained": false
+  },
+  "neutral_speaker_label": "Panel Investor",
+  "omitted_candidates": [
+    {
+      "original_speaker": "Phil",
+      "reason": "founder_answer_not_in_canonical_pitch",
+      "source_turn_index": 28,
+      "text": "The military is paying and the startup company is not?"
+    }
+  ],
+  "pitch_sha256": "e2a3ff028f561e420f03cdf61ace4158ab46e7f3d578fa3e31a7a935058eb36b",
+  "registry_vc_slug": "jillian-manus",
+  "schema": "panel-question-pitch-audit-v1",
+  "source_record_path": "inputs/data/investors/jillian-manus-structure-capital/precedents/records/15-a-veteran-starts-a-startup-shift.json",
+  "source_record_sha256": "e3b3c521593058bd849f4749e1fd8a6f882d7bd7dd4cc0bf03a8d23a526639e6",
+  "status": "audited",
+  "vc_slug": "jillian-manus-structure-capital"
+}

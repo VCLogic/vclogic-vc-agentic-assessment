@@ -1,0 +1,119 @@
+{
+  "actual_decision": "In",
+  "boundary_turn_index": 95,
+  "canonical_pitch_path": "inputs/data/investors/jesse-middleton-flybridge/pitches/152-oma-health.txt",
+  "canonical_pitch_sha256": "9993e3d787142d81b9570c2be8dbd01f6c7be70c8a4090fdbcb94d609d3f2666",
+  "episode_path": "../agentic-vc-clone-framework/data/episodes/152-oma-health.json",
+  "episode_sha256": "7354d6808f2760eb05ddbaedb9464575f80f6d5a3447b886382e8063abc66f3d",
+  "episode_slug": "152-oma-health",
+  "insertions": [
+    {
+      "answer_turn_index": 17,
+      "canonical_line_index": 9,
+      "original_speaker": "Mac",
+      "question": "You mentioned there, but you didn't go into any detail, about your background. Could you please share more? Love the personal story, but love to know more about your professional background.",
+      "source_turn_index": 16
+    },
+    {
+      "answer_turn_index": 19,
+      "canonical_line_index": 10,
+      "original_speaker": "Mac",
+      "question": "I know you're raising a million for this pre seed, but can you tell us what stage of development is the company?",
+      "source_turn_index": 18
+    },
+    {
+      "answer_turn_index": 23,
+      "canonical_line_index": 14,
+      "original_speaker": "Cyan",
+      "question": "Can you walk me through the product experience? So I'm signing up with you. I'm a nurse practitioner. I want to open a practice. What is that experience like?",
+      "source_turn_index": 22
+    },
+    {
+      "answer_turn_index": 50,
+      "canonical_line_index": 33,
+      "original_speaker": "Mac",
+      "question": "Can you tell me how many nurse practitioners are there out there today",
+      "source_turn_index": 49
+    },
+    {
+      "answer_turn_index": 54,
+      "canonical_line_index": 36,
+      "original_speaker": "Charles",
+      "question": "We invested in a business that I don't think is competitive, it's somewhat similar, called Ease, which helps doctors essentially launch their own. And like the biggest learnings from that investment has been the technology and the systems are one piece but, to your point, these people didn't go to school to be entrepreneurs. So even if you can handle billing, they still have to learn how to market my practice, customer - like, what other things do you have to wrap around the offering to help these people succeed?",
+      "source_turn_index": 53
+    },
+    {
+      "answer_turn_index": 61,
+      "canonical_line_index": 40,
+      "original_speaker": "Cyan",
+      "question": "And, you know, nurse practitioners, did they put a cap on how many can get licensed per year? Cause they do that with doctors.",
+      "source_turn_index": 60
+    },
+    {
+      "answer_turn_index": 90,
+      "canonical_line_index": 51,
+      "original_speaker": "Cyan",
+      "question": "This point in the proceedings\u2026 or do we have more questions?\n[laughter]",
+      "source_turn_index": 88
+    }
+  ],
+  "leakage_checklist": {
+    "founder_content_added": false,
+    "other_investor_identity_model_visible": false,
+    "post_boundary_turn_retained": false,
+    "target_investor_turn_retained": false,
+    "verdict_or_offer_turn_retained": false
+  },
+  "neutral_speaker_label": "Panel Investor",
+  "omitted_candidates": [
+    {
+      "original_speaker": "Mac",
+      "reason": "question_already_present",
+      "source_turn_index": 20,
+      "text": "And what's the timeline for the launch?"
+    },
+    {
+      "original_speaker": "Cyan",
+      "reason": "question_already_present",
+      "source_turn_index": 27,
+      "text": "And how much of the one million have you raised?"
+    },
+    {
+      "original_speaker": "Cyan",
+      "reason": "question_already_present",
+      "source_turn_index": 29,
+      "text": "And how much of the one million have you raised?"
+    },
+    {
+      "original_speaker": "Mac",
+      "reason": "question_already_present",
+      "source_turn_index": 42,
+      "text": "What's that take rate? What's the percentage?"
+    },
+    {
+      "original_speaker": "Mac",
+      "reason": "question_already_present",
+      "source_turn_index": 51,
+      "text": "And what percentage of them do you think would be, would you, you think would be considered cultural competency?"
+    },
+    {
+      "original_speaker": "Charles",
+      "reason": "question_already_present",
+      "source_turn_index": 55,
+      "text": "What will the MVP do?"
+    },
+    {
+      "original_speaker": "Charles",
+      "reason": "founder_answer_not_in_canonical_pitch",
+      "source_turn_index": 85,
+      "text": "Where would you - I mean the South, obviously a big population."
+    }
+  ],
+  "pitch_sha256": "d5862da28a33e9e1a5b8d1ae68c6575a23e2ec2082cd1ae981e7006953d7994c",
+  "registry_vc_slug": "jesse-middleton",
+  "schema": "panel-question-pitch-audit-v1",
+  "source_record_path": "inputs/data/investors/jesse-middleton-flybridge/precedents/records/152-oma-health.json",
+  "source_record_sha256": "f20540be6011a19279ee84a9c8253fca39102300c30159fb76b564b7883f0066",
+  "status": "audited",
+  "vc_slug": "jesse-middleton-flybridge"
+}

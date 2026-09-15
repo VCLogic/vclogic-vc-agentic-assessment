@@ -1,0 +1,40 @@
+{
+  "schema": "transcript-observed-rationales-v1",
+  "episode_slug": "106-the-calendar-wars",
+  "transcript_sha256": "143148e413932a543c09e751f781465a6764cb2598d9f852a57ee210817f48c1",
+  "window": {
+    "start_turn": 6,
+    "end_turn": 34
+  },
+  "observed_decision": "Out",
+  "decision_evidence_ids": [
+    "E1"
+  ],
+  "evidence_registry": [
+    {
+      "evidence_id": "E1",
+      "turn_index": 34,
+      "speaker": "Charles",
+      "text": "Yeah. I think I actually have to be out due to a conflict. I'm an investor in a company called LetsMeet that does the group scheduling thing. But so I just wanted to flag that -"
+    }
+  ],
+  "rationales": [
+    {
+      "rationale_id": "R1",
+      "rationale_label": "portfolio_conflict_constraint",
+      "utterance_type": "decision_reason",
+      "activation": "evaluated",
+      "direction": "negative",
+      "salience": "primary",
+      "confidence": 0.99,
+      "evidence_ids": [
+        "E1"
+      ],
+      "explanation": "Charles directly states that his investment in LetsMeet, which does group scheduling, creates a conflict requiring him to be out.",
+      "decision_link": "explicit"
+    }
+  ],
+  "unmapped_utterances": [],
+  "audit_flags": [],
+  "annotation_summary": "Charles's explicit Out decision is attributed to a portfolio conflict with LetsMeet, a company in group scheduling."
+}

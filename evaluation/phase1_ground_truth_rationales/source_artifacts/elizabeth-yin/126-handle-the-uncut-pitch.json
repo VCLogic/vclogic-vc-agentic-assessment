@@ -1,0 +1,154 @@
+{
+  "schema": "transcript-observed-rationales-v1",
+  "episode_slug": "126-handle-the-uncut-pitch",
+  "transcript_sha256": "8670adffec1af41ce978048234e57601a0e98ee65810132c4d937fe0c59831d3",
+  "window": {
+    "start_turn": 8,
+    "end_turn": 272
+  },
+  "observed_decision": "Out",
+  "decision_evidence_ids": [
+    "E1"
+  ],
+  "evidence_registry": [
+    {
+      "evidence_id": "E1",
+      "turn_index": 272,
+      "speaker": "Elizabeth",
+      "text": "Um - so I really love this business, especially since I've had a seat in the arena before on this. And I think you have an amazing background. You've already gotten a lot of lessons learned from your first business and have done well, so I think you're thinking about everything in the right way. I think you're very crisp and knowledgeable about the levers of the business, and what you need to do, and I like how you think through optionality around the burn versus venture, etc. I think you sound like a fantastic entrepreneur. I think for me the valuation is really pricey. We're pre-seed investors, and I realize you're - you've actually made a lot of progress and are probably not what I would call in pre-seed. So from the perspective of the fund, we'll be out. But I think, you know, given where you are with your fundraise, if you end up, you know, raising a price round or whatever this is with those funds, I would love to see if I might be able to write a very, very small personal check."
+    }
+  ],
+  "rationales": [
+    {
+      "rationale_id": "R1",
+      "rationale_label": "stage_valuation_mismatch",
+      "utterance_type": "decision_reason",
+      "activation": "evaluated",
+      "direction": "negative",
+      "salience": "primary",
+      "confidence": 0.99,
+      "evidence_ids": [
+        "E1"
+      ],
+      "explanation": "Elizabeth directly says the valuation is pricey and that the company is no longer at the fund's pre-seed stage.",
+      "decision_link": "explicit"
+    },
+    {
+      "rationale_id": "R2",
+      "rationale_label": "investment_thesis_constraint",
+      "utterance_type": "decision_reason",
+      "activation": "evaluated",
+      "direction": "negative",
+      "salience": "primary",
+      "confidence": 0.98,
+      "evidence_ids": [
+        "E1"
+      ],
+      "explanation": "Elizabeth explicitly states that the fund is a pre-seed investor and will therefore be out from the fund perspective.",
+      "decision_link": "explicit"
+    },
+    {
+      "rationale_id": "R3",
+      "rationale_label": "product_appeal_assessment",
+      "utterance_type": "assessment",
+      "activation": "evaluated",
+      "direction": "positive",
+      "salience": "secondary",
+      "confidence": 0.98,
+      "evidence_ids": [
+        "E1"
+      ],
+      "explanation": "Elizabeth says she really loves the business.",
+      "decision_link": "none"
+    },
+    {
+      "rationale_id": "R4",
+      "rationale_label": "investor_experience_bias",
+      "utterance_type": "assessment",
+      "activation": "evaluated",
+      "direction": "positive",
+      "salience": "secondary",
+      "confidence": 0.95,
+      "evidence_ids": [
+        "E1"
+      ],
+      "explanation": "She references having prior experience in this category as shaping her view.",
+      "decision_link": "none"
+    },
+    {
+      "rationale_id": "R5",
+      "rationale_label": "founder_qualities",
+      "utterance_type": "assessment",
+      "activation": "evaluated",
+      "direction": "positive",
+      "salience": "secondary",
+      "confidence": 0.98,
+      "evidence_ids": [
+        "E1"
+      ],
+      "explanation": "She describes the founder as having an amazing background and sounding like a fantastic entrepreneur.",
+      "decision_link": "none"
+    },
+    {
+      "rationale_id": "R6",
+      "rationale_label": "founder_execution",
+      "utterance_type": "assessment",
+      "activation": "evaluated",
+      "direction": "positive",
+      "salience": "secondary",
+      "confidence": 0.97,
+      "evidence_ids": [
+        "E1"
+      ],
+      "explanation": "She positively assesses the founder's prior business performance, lessons learned, and practical thinking.",
+      "decision_link": "none"
+    },
+    {
+      "rationale_id": "R7",
+      "rationale_label": "founder_communication_quality",
+      "utterance_type": "assessment",
+      "activation": "evaluated",
+      "direction": "positive",
+      "salience": "secondary",
+      "confidence": 0.97,
+      "evidence_ids": [
+        "E1"
+      ],
+      "explanation": "She calls the founder crisp and knowledgeable about the business levers and required actions.",
+      "decision_link": "none"
+    },
+    {
+      "rationale_id": "R8",
+      "rationale_label": "founder_skillset",
+      "utterance_type": "assessment",
+      "activation": "evaluated",
+      "direction": "positive",
+      "salience": "secondary",
+      "confidence": 0.94,
+      "evidence_ids": [
+        "E1"
+      ],
+      "explanation": "She praises the founder's command of the business levers and ability to think through burn-versus-venture optionality.",
+      "decision_link": "none"
+    }
+  ],
+  "unmapped_utterances": [
+    "[18] Hi Chase, Elizabeth",
+    "[70] Vinovest. Yes.",
+    "[77] Mhm.",
+    "[115] Yep.",
+    "[128] Yeah.",
+    "[133] Yeah.",
+    "[163] That is funny.",
+    "[178] Have ziplines across the dorms.",
+    "[182] You won't be that old!",
+    "[184] Compared to some of us here -",
+    "[188] Sure.",
+    "[227] Oh, okay.",
+    "[230] What do you think -",
+    "[244] But I guess what we're saying is -",
+    "[266] Um - so -"
+  ],
+  "audit_flags": [],
+  "annotation_summary": "Elizabeth's explicit Out rationale is the mismatch between the requested valuation/company stage and the fund's pre-seed mandate. Her other observed comments are positive assessments of the business and founder, including prior-category experience, founder execution, communication, and business command."
+}

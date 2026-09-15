@@ -1,0 +1,96 @@
+{
+  "schema": "transcript-observed-rationales-v1",
+  "episode_slug": "78-got-goals-grab-a-cru",
+  "transcript_sha256": "9a83a8eb8dfc6108b7b42acfb434c3c290dd257b724c193892ea04bb2175f808",
+  "window": {
+    "start_turn": 1,
+    "end_turn": 41
+  },
+  "observed_decision": "In",
+  "decision_evidence_ids": [
+    "E3"
+  ],
+  "evidence_registry": [
+    {
+      "evidence_id": "E1",
+      "turn_index": 2,
+      "speaker": "Charles",
+      "text": "A support system."
+    },
+    {
+      "evidence_id": "E2",
+      "turn_index": 17,
+      "speaker": "Charles",
+      "text": "What do you think is the balance between personal and professional development for the target cru member?"
+    },
+    {
+      "evidence_id": "E3",
+      "turn_index": 41,
+      "speaker": "Charles",
+      "text": "So I've liked the business since I first heard about it. I wish I'd been part of that first wave, but as you and I discussed, timing wasn't ideal. But would like to find a way to at least be a part of the crew, no pun intended but if there's room for us we'd love to find a way to maybe do something small like 10 or 15k out of the fund."
+    }
+  ],
+  "rationales": [
+    {
+      "rationale_id": "R1",
+      "rationale_label": "product_success_factor_assessment",
+      "utterance_type": "assessment",
+      "activation": "evaluated",
+      "direction": "positive",
+      "salience": "secondary",
+      "confidence": 0.98,
+      "evidence_ids": [
+        "E1"
+      ],
+      "explanation": "Identifies a support system as an important mechanism for helping users achieve their goals.",
+      "decision_link": "none"
+    },
+    {
+      "rationale_id": "R2",
+      "rationale_label": "market_problem_validation",
+      "utterance_type": "question",
+      "activation": "queried",
+      "direction": "neutral",
+      "salience": "secondary",
+      "confidence": 0.82,
+      "evidence_ids": [
+        "E2"
+      ],
+      "explanation": "Queries the target member's balance of personal and professional development needs, probing the scope of the customer problem.",
+      "decision_link": "none"
+    },
+    {
+      "rationale_id": "R3",
+      "rationale_label": "product_appeal_assessment",
+      "utterance_type": "decision_reason",
+      "activation": "evaluated",
+      "direction": "positive",
+      "salience": "primary",
+      "confidence": 0.99,
+      "evidence_ids": [
+        "E3"
+      ],
+      "explanation": "States that he has liked the business since first hearing about it and uses that positive view to support participating in the investment.",
+      "decision_link": "explicit"
+    },
+    {
+      "rationale_id": "R4",
+      "rationale_label": "fund_economics_constraint",
+      "utterance_type": "decision_reason",
+      "activation": "evaluated",
+      "direction": "neutral",
+      "salience": "secondary",
+      "confidence": 0.96,
+      "evidence_ids": [
+        "E3"
+      ],
+      "explanation": "Proposes a small $10,000–$15,000 investment from the fund, indicating that fund or check-size considerations shape the form of participation.",
+      "decision_link": "explicit"
+    }
+  ],
+  "unmapped_utterances": [],
+  "audit_flags": [
+    "The reference to timing not being ideal is retained in the evidence but not mapped because it does not clearly indicate company or market timing."
+  ],
+  "annotation_summary": "Charles's substantive utterances support a positive product-success observation, a customer-needs question, positive product appeal, and a fund-size/check-size constraint directly linked to the In decision."
+}

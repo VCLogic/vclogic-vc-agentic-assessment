@@ -1,0 +1,27 @@
+[run]
+vc_slug = "elizabeth-yin-hustle-fund"
+episode_slug = "135-thoras-ai-the-twin-effect"
+input_root = "inputs"
+output_root = "outputs/openai-elizabeth-thoras"
+checkpoint_path = "outputs/openai-elizabeth-thoras/checkpoints.sqlite"
+
+[provider]
+kind = "openai"
+model = "gpt-5.4-mini"
+embedding_model = "text-embedding-3-small"
+max_output_tokens = 4096
+enable_thinking = false
+context_window = 32768
+structured_output_mode = "schema"
+
+[phase1]
+min_iterations = 1
+max_iterations = 2
+
+[phase2]
+min_iterations = 1
+max_iterations = 2
+
+[retrieval]
+top_k = 5
+max_exact_reads = 16

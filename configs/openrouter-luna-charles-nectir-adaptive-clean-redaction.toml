@@ -1,0 +1,32 @@
+[run]
+vc_slug = "charles-hudson-precursor-ventures"
+episode_slug = "127-nectir-the-classroom-of-the-future"
+input_root = "inputs"
+output_root = "outputs/openrouter-luna-charles-adaptive-clean-redaction-2026-08-02"
+checkpoint_path = "outputs/openrouter-luna-charles-adaptive-clean-redaction-2026-08-02/checkpoints/127-nectir-the-classroom-of-the-future.sqlite"
+
+[provider]
+kind = "openrouter"
+model = "openai/gpt-5.6-luna"
+base_url = "https://openrouter.ai/api/v1"
+api_key_env = "OPENROUTER_API_KEY"
+require_parameters = true
+data_collection = "deny"
+max_output_tokens = 8192
+
+[embedding]
+kind = "ollama"
+model = "nomic-embed-text"
+base_url = "http://127.0.0.1:11434"
+
+[phase1]
+min_iterations = 1
+max_iterations = 3
+
+[phase2]
+min_iterations = 1
+max_iterations = 2
+
+[retrieval]
+top_k = 5
+max_exact_reads = 20

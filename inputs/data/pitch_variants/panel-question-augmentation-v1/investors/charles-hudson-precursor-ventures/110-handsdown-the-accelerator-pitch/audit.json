@@ -1,0 +1,54 @@
+{
+  "actual_decision": "Out",
+  "boundary_turn_index": 37,
+  "canonical_pitch_path": "inputs/data/investors/charles-hudson-precursor-ventures/pitches/110-handsdown-the-accelerator-pitch.txt",
+  "canonical_pitch_sha256": "38ba750f8bcec8323b8c0db756921b0dcf618ed8697fa9b0566a39fbaa81e2d3",
+  "episode_path": "../agentic-vc-clone-framework/data/episodes/110-handsdown-the-accelerator-pitch.json",
+  "episode_sha256": "604510bfece1813907a8017790a02d0227ce549d66e908a4e9e124462c2390fe",
+  "episode_slug": "110-handsdown-the-accelerator-pitch",
+  "insertions": [
+    {
+      "answer_turn_index": 18,
+      "canonical_line_index": 3,
+      "original_speaker": "Jillian",
+      "question": "So how much have you raised on the 4 million?",
+      "source_turn_index": 17
+    },
+    {
+      "answer_turn_index": 32,
+      "canonical_line_index": 13,
+      "original_speaker": "Neal",
+      "question": "So who are we up against? Who's doing this right right now that you're learning from?",
+      "source_turn_index": 31
+    }
+  ],
+  "leakage_checklist": {
+    "founder_content_added": false,
+    "other_investor_identity_model_visible": false,
+    "post_boundary_turn_retained": false,
+    "target_investor_turn_retained": false,
+    "verdict_or_offer_turn_retained": false
+  },
+  "neutral_speaker_label": "Panel Investor",
+  "omitted_candidates": [
+    {
+      "original_speaker": "Elizabeth",
+      "reason": "question_already_present",
+      "source_turn_index": 19,
+      "text": "How many, how many users do you have?"
+    },
+    {
+      "original_speaker": "Phil",
+      "reason": "question_already_present",
+      "source_turn_index": 23,
+      "text": "What is the revenue model?"
+    }
+  ],
+  "pitch_sha256": "fec7c873296daa1bd2abb6b0d225dc14d3185bf4b11ff57fd57e82bff28579b4",
+  "registry_vc_slug": "charles-hudson",
+  "schema": "panel-question-pitch-audit-v1",
+  "source_record_path": "inputs/data/investors/charles-hudson-precursor-ventures/precedents/records/110-handsdown-the-accelerator-pitch.json",
+  "source_record_sha256": "fd667fd6586761fb7d211ab58bfd9f082b0921a373a79b2f198922fd2c15fa80",
+  "status": "audited",
+  "vc_slug": "charles-hudson-precursor-ventures"
+}

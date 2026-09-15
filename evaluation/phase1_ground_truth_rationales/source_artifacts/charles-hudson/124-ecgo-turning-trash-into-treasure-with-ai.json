@@ -1,0 +1,152 @@
+{
+  "schema": "transcript-observed-rationales-v1",
+  "episode_slug": "124-ecgo-turning-trash-into-treasure-with-ai",
+  "transcript_sha256": "f62ec8f0d20f6d002bb674588f9031d05bb9bdb69357a5c449072fa79dd9082c",
+  "window": {
+    "start_turn": 3,
+    "end_turn": 78
+  },
+  "observed_decision": "Out",
+  "decision_evidence_ids": [
+    "E3"
+  ],
+  "evidence_registry": [
+    {
+      "evidence_id": "E1",
+      "turn_index": 38,
+      "speaker": "Charles",
+      "text": "Or is there a compliance -"
+    },
+    {
+      "evidence_id": "E2",
+      "turn_index": 76,
+      "speaker": "Charles",
+      "text": "We invested in a business that's kind of analogous called Goodr."
+    },
+    {
+      "evidence_id": "E3",
+      "turn_index": 78,
+      "speaker": "Charles",
+      "text": "Yeah. On the food recovery side. And the one thing I learned is there is a lot more money in these corporations and for Goodr it's a mix of like feel good plus tax credit plus a bunch of other things. And I suspect universities have more money here than is obvious I just don't know how much more money there is here. So I really like this business. I don't think I can get there on the current round, just because I'm not - I think I have in my mind a sense of how big the university tickets would have to be and I'm not sure they're there yet. So I guess my one piece of advice would be I think you could dramatically upsize the impact that this has on campus by leaning into that student to student virality. Because that will get them recycling more things, which will make the universities say, wow, this is like a much bigger thing and then I think with that you could probably unlock much bigger contracts with them."
+    }
+  ],
+  "rationales": [
+    {
+      "rationale_id": "R1",
+      "rationale_label": "market_problem_validation",
+      "utterance_type": "question",
+      "activation": "queried",
+      "direction": "neutral",
+      "salience": "secondary",
+      "confidence": 0.95,
+      "evidence_ids": [
+        "E1"
+      ],
+      "explanation": "Charles probes whether compliance requirements create an institutional driver for the solution.",
+      "decision_link": "none"
+    },
+    {
+      "rationale_id": "R2",
+      "rationale_label": "investor_experience_bias",
+      "utterance_type": "assessment",
+      "activation": "evaluated",
+      "direction": "neutral",
+      "salience": "secondary",
+      "confidence": 0.98,
+      "evidence_ids": [
+        "E2"
+      ],
+      "explanation": "Charles references a prior investment in an analogous company, Goodr, as context for evaluating ECGO.",
+      "decision_link": "none"
+    },
+    {
+      "rationale_id": "R3",
+      "rationale_label": "business_model_assessment",
+      "utterance_type": "assessment",
+      "activation": "evaluated",
+      "direction": "positive",
+      "salience": "primary",
+      "confidence": 0.94,
+      "evidence_ids": [
+        "E3"
+      ],
+      "explanation": "Charles observes that corporations have more money and that Goodr monetizes through multiple value sources, including tax credits and mission-driven spending.",
+      "decision_link": "none"
+    },
+    {
+      "rationale_id": "R4",
+      "rationale_label": "market_size_assessment",
+      "utterance_type": "assessment",
+      "activation": "evaluated",
+      "direction": "neutral",
+      "salience": "secondary",
+      "confidence": 0.93,
+      "evidence_ids": [
+        "E3"
+      ],
+      "explanation": "Charles suspects universities may have more budget available than is currently obvious, while acknowledging uncertainty about the magnitude.",
+      "decision_link": "none"
+    },
+    {
+      "rationale_id": "R5",
+      "rationale_label": "market_size_assessment",
+      "utterance_type": "decision_reason",
+      "activation": "evaluated",
+      "direction": "negative",
+      "salience": "primary",
+      "confidence": 0.99,
+      "evidence_ids": [
+        "E3"
+      ],
+      "explanation": "Charles explicitly says he cannot invest in the current round because the university contract sizes may not be large enough.",
+      "decision_link": "explicit"
+    },
+    {
+      "rationale_id": "R6",
+      "rationale_label": "product_appeal_assessment",
+      "utterance_type": "assessment",
+      "activation": "evaluated",
+      "direction": "positive",
+      "salience": "secondary",
+      "confidence": 0.99,
+      "evidence_ids": [
+        "E3"
+      ],
+      "explanation": "Charles directly states that he likes the business.",
+      "decision_link": "none"
+    },
+    {
+      "rationale_id": "R7",
+      "rationale_label": "go_to_market_strategy_assessment",
+      "utterance_type": "assessment",
+      "activation": "evaluated",
+      "direction": "positive",
+      "salience": "primary",
+      "confidence": 0.96,
+      "evidence_ids": [
+        "E3"
+      ],
+      "explanation": "Charles recommends leaning into student-to-student virality to increase campus impact and usage.",
+      "decision_link": "none"
+    },
+    {
+      "rationale_id": "R8",
+      "rationale_label": "business_model_assessment",
+      "utterance_type": "assessment",
+      "activation": "evaluated",
+      "direction": "positive",
+      "salience": "secondary",
+      "confidence": 0.95,
+      "evidence_ids": [
+        "E3"
+      ],
+      "explanation": "Charles believes stronger campus recycling activity could demonstrate greater institutional value and unlock larger university contracts.",
+      "decision_link": "none"
+    }
+  ],
+  "unmapped_utterances": [],
+  "audit_flags": [
+    "Turn 38 is an incomplete question fragment interrupted by crosstalk and is annotated as a neutral compliance-related query."
+  ],
+  "annotation_summary": "Charles is positive about ECGO and its potential institutional value, but explicitly declines the current round because university contract sizes are not yet clearly large enough. His main suggested path is stronger student-to-student virality to increase impact and support larger university contracts."
+}

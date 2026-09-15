@@ -1,0 +1,136 @@
+{
+  "schema": "transcript-observed-rationales-v1",
+  "episode_slug": "73-enough-sales-calls-already",
+  "transcript_sha256": "a6a0fa6a9ab7e0363b3ebf434662aadae7db0a0d3bff0cf3f9ee5dec389a6945",
+  "window": {
+    "start_turn": 2,
+    "end_turn": 62
+  },
+  "observed_decision": "Out",
+  "decision_evidence_ids": [
+    "E6"
+  ],
+  "evidence_registry": [
+    {
+      "evidence_id": "E1",
+      "turn_index": 38,
+      "speaker": "Charles",
+      "text": "That already exists. We have 150 companies in our portfolio and every time Amazon changes the AWS discount, we go to Google and Google changes the AWS discount. They want the business."
+    },
+    {
+      "evidence_id": "E2",
+      "turn_index": 40,
+      "speaker": "Charles",
+      "text": "No. But they have to. Like, I mean, I guess it's sort of like nobody ever wants to offer discounts unless they have to. But in most of these categories, the customer has, I mean, we all invest in SAAS companies. Name a SAAS category that has one vendor. There isn't one, right? So in all these categories there are many, many, many vendors. Some of whose products are awfully similar."
+    },
+    {
+      "evidence_id": "E3",
+      "turn_index": 42,
+      "speaker": "Charles",
+      "text": "Look I'll be honest. I should probably just be honest. We're talking, we've been talking to them about using Vetd for our platform because I'd say a third of our Slack channel messages are - we're looking at Lever or Greenhouse. What should we use? What did you pay? How did you get a discount? We're looking at Mailchimp versus XYZ thing. What are the pros and cons? And so for us... We have another company in our portfolio, Stackshare, that focuses on the sort of tech..."
+    },
+    {
+      "evidence_id": "E4",
+      "turn_index": 46,
+      "speaker": "Charles",
+      "text": "We have not made an investment decision. We have a company in our portfolio, Stackshare, that does the tech stack piece. I haven't sorted out in my mind whether we can have two of them in the same portfolio."
+    },
+    {
+      "evidence_id": "E5",
+      "turn_index": 49,
+      "speaker": "Charles",
+      "text": "I'm basically interested in taking down G2 Crowd. So I don't know whether I can do that with one bullet or two bullets. I just - and no offence to the G2 Crowd people - I just think… I don't think that's the way we should buy software today."
+    },
+    {
+      "evidence_id": "E6",
+      "turn_index": 62,
+      "speaker": "Charles",
+      "text": "We are. That's the challenge for me. We're in Team Pay* on Stack Share. But I think what you're doing is different. And so I'll just cut to the chase. Like, I'm going to be out for right now. But we're going to roll this out and I'm going to learn a lot and I'm going to talk to Jonas and Andrew at StackShare and TeamPay*. And if the three of you are comfortable, this to me is a no brainer for Precursor. But I need to clear all of those. So in the interest of where I am today, that's where I am."
+    }
+  ],
+  "rationales": [
+    {
+      "rationale_id": "R1",
+      "rationale_label": "competitive_intensity_concern",
+      "utterance_type": "assessment",
+      "activation": "evaluated",
+      "direction": "positive",
+      "salience": "secondary",
+      "confidence": 0.96,
+      "evidence_ids": [
+        "E1",
+        "E2"
+      ],
+      "explanation": "Charles treats vendor competition and discounting as an existing market dynamic and argues that vendors must participate because customers can choose among many similar products.",
+      "decision_link": "none"
+    },
+    {
+      "rationale_id": "R2",
+      "rationale_label": "market_problem_validation",
+      "utterance_type": "assessment",
+      "activation": "evaluated",
+      "direction": "positive",
+      "salience": "secondary",
+      "confidence": 0.98,
+      "evidence_ids": [
+        "E2",
+        "E3",
+        "E5"
+      ],
+      "explanation": "Charles describes recurring internal confusion about software selection, pricing, discounts, and alternatives, and explicitly rejects the prevailing review-site approach to buying software.",
+      "decision_link": "none"
+    },
+    {
+      "rationale_id": "R3",
+      "rationale_label": "portfolio_conflict_constraint",
+      "utterance_type": "decision_reason",
+      "activation": "evaluated",
+      "direction": "negative",
+      "salience": "primary",
+      "confidence": 0.99,
+      "evidence_ids": [
+        "E4",
+        "E6"
+      ],
+      "explanation": "Charles has not made an investment decision because Stackshare is already in the portfolio and he needs to determine whether investing in another company in the same area creates a conflict.",
+      "decision_link": "explicit"
+    },
+    {
+      "rationale_id": "R4",
+      "rationale_label": "product_differentiation_concern",
+      "utterance_type": "assessment",
+      "activation": "evaluated",
+      "direction": "positive",
+      "salience": "secondary",
+      "confidence": 0.97,
+      "evidence_ids": [
+        "E6"
+      ],
+      "explanation": "Charles explicitly says that Vetd's approach is different.",
+      "decision_link": "implicit"
+    },
+    {
+      "rationale_id": "R5",
+      "rationale_label": "product_appeal_assessment",
+      "utterance_type": "decision_reason",
+      "activation": "evaluated",
+      "direction": "positive",
+      "salience": "primary",
+      "confidence": 0.96,
+      "evidence_ids": [
+        "E6"
+      ],
+      "explanation": "Subject to clearing the portfolio conflicts, Charles says the opportunity would be a no-brainer for Precursor.",
+      "decision_link": "explicit"
+    }
+  ],
+  "unmapped_utterances": [
+    "Turn 44: We haven't rolled it out yet. We are part of that 900 backlog. And it's just because...",
+    "Turn 51: It's like a... Think about it like Yelp for software except the nature and how some of those reviews are generated is um...",
+    "Turn 59: 50 bucks"
+  ],
+  "audit_flags": [
+    "Turn 62 contains conditional positive investment language alongside the current observed Out decision."
+  ],
+  "annotation_summary": "The observed Out decision is explicitly driven by an unresolved portfolio conflict involving Stackshare and related investments. Charles also expresses positive assessments of the problem, Vetd's differentiation, and its conditional investment appeal."
+}

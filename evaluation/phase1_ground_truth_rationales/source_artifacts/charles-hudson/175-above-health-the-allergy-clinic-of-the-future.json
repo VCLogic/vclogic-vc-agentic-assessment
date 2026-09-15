@@ -1,0 +1,137 @@
+{
+  "schema": "transcript-observed-rationales-v1",
+  "episode_slug": "175-above-health-the-allergy-clinic-of-the-future",
+  "transcript_sha256": "8e66ca91f7190f44e5aec4916cc67816189e26e3b1e5efb2f88f8eca35502a87",
+  "window": {
+    "start_turn": 15,
+    "end_turn": 219
+  },
+  "observed_decision": "In",
+  "decision_evidence_ids": [
+    "E6"
+  ],
+  "evidence_registry": [
+    {
+      "evidence_id": "E1",
+      "turn_index": 35,
+      "speaker": "Charles",
+      "text": "Moves around. Yeah."
+    },
+    {
+      "evidence_id": "E2",
+      "turn_index": 94,
+      "speaker": "Charles",
+      "text": "Who else is working on this with you?"
+    },
+    {
+      "evidence_id": "E3",
+      "turn_index": 199,
+      "speaker": "Charles",
+      "text": "That's cool."
+    },
+    {
+      "evidence_id": "E4",
+      "turn_index": 211,
+      "speaker": "Charles",
+      "text": "I'd also like to write a small check. We did something in, allergy a long time ago that was like a, it was a food allergy. It was a physical device, and it was like, too hard. And I think sometimes you just have to wait for the technology stuff. but yeah."
+    },
+    {
+      "evidence_id": "E5",
+      "turn_index": 217,
+      "speaker": "Charles",
+      "text": "Oh, for me?"
+    },
+    {
+      "evidence_id": "E6",
+      "turn_index": 219,
+      "speaker": "Charles",
+      "text": "I didn't give a number. Yeah. I'd like to do 50,000."
+    }
+  ],
+  "rationales": [
+    {
+      "rationale_id": "R1",
+      "rationale_label": "solution_feasibility_assessment",
+      "utterance_type": "assessment",
+      "activation": "evaluated",
+      "direction": "negative",
+      "salience": "secondary",
+      "confidence": 0.86,
+      "evidence_ids": [
+        "E1"
+      ],
+      "explanation": "Charles identifies movement as a limitation of the wearable form factor.",
+      "decision_link": "none"
+    },
+    {
+      "rationale_id": "R2",
+      "rationale_label": "founder_execution",
+      "utterance_type": "question",
+      "activation": "queried",
+      "direction": "neutral",
+      "salience": "secondary",
+      "confidence": 0.93,
+      "evidence_ids": [
+        "E2"
+      ],
+      "explanation": "Charles asks who else is working with the founder, probing the execution team.",
+      "decision_link": "none"
+    },
+    {
+      "rationale_id": "R3",
+      "rationale_label": "product_appeal_assessment",
+      "utterance_type": "assessment",
+      "activation": "evaluated",
+      "direction": "positive",
+      "salience": "secondary",
+      "confidence": 0.98,
+      "evidence_ids": [
+        "E3"
+      ],
+      "explanation": "Charles gives a positive reaction to the demonstrated product.",
+      "decision_link": "none"
+    },
+    {
+      "rationale_id": "R4",
+      "rationale_label": "investor_experience_bias",
+      "utterance_type": "decision_reason",
+      "activation": "evaluated",
+      "direction": "neutral",
+      "salience": "secondary",
+      "confidence": 0.95,
+      "evidence_ids": [
+        "E4"
+      ],
+      "explanation": "Charles explicitly references prior experience with a food-allergy physical device that was too difficult, and says that experience informs his view of technology readiness.",
+      "decision_link": "explicit"
+    },
+    {
+      "rationale_id": "R5",
+      "rationale_label": "market_timing",
+      "utterance_type": "decision_reason",
+      "activation": "evaluated",
+      "direction": "positive",
+      "salience": "primary",
+      "confidence": 0.97,
+      "evidence_ids": [
+        "E4"
+      ],
+      "explanation": "Charles directly connects his willingness to write a check with the view that waiting for technology to mature can make this type of opportunity viable.",
+      "decision_link": "explicit"
+    }
+  ],
+  "unmapped_utterances": [
+    "Hey, I'm Charles.",
+    "Oh",
+    "I was gonna say, it looks like a smart inhaler.",
+    "Yeah.",
+    "Oh.",
+    "Wow.",
+    "10 bucks. I was gonna say 10 bucks.",
+    "Yeah",
+    "Mm-hmm.",
+    "How much are you raising?"
+  ],
+  "audit_flags": [],
+  "annotation_summary": "Charles's observed In decision is explicitly supported by his stated willingness to write a small check and by his rationale that technology readiness matters after a prior allergy-device experience was too difficult."
+}

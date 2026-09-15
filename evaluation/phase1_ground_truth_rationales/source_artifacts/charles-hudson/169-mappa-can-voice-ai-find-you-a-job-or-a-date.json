@@ -1,0 +1,121 @@
+{
+  "schema": "transcript-observed-rationales-v1",
+  "episode_slug": "169-mappa-can-voice-ai-find-you-a-job-or-a-date",
+  "transcript_sha256": "2052feb90cee940c914a9b11915d9bcc76dac927534709dca2afbc473a36e05e",
+  "window": {
+    "start_turn": 19,
+    "end_turn": 136
+  },
+  "observed_decision": "Out",
+  "decision_evidence_ids": [
+    "E7"
+  ],
+  "evidence_registry": [
+    {
+      "evidence_id": "E1",
+      "turn_index": 82,
+      "speaker": "Charles",
+      "text": "But you can connect it to an ATS."
+    },
+    {
+      "evidence_id": "E2",
+      "turn_index": 84,
+      "speaker": "Charles",
+      "text": "Like you're gonna have other metadata."
+    },
+    {
+      "evidence_id": "E3",
+      "turn_index": 136,
+      "speaker": "Charles",
+      "text": "We've done a bunch of things in recruiting and I think that the reason they've been hard is that there's very little customer loyalty."
+    },
+    {
+      "evidence_id": "E4",
+      "turn_index": 136,
+      "speaker": "Charles",
+      "text": "Because generally you're like, I will try anything that will deliver a candidate. If this works well, I'll continue to use it, but if something else new comes, and it's just been hard to build really big businesses because the customers are willing to switch providers on a regular basis."
+    },
+    {
+      "evidence_id": "E5",
+      "turn_index": 136,
+      "speaker": "Charles",
+      "text": "Sounds like you don't have that problem to the same degree that others do."
+    },
+    {
+      "evidence_id": "E6",
+      "turn_index": 136,
+      "speaker": "Charles",
+      "text": "You have very good repeat rates, you have very good conversion to hire."
+    },
+    {
+      "evidence_id": "E7",
+      "turn_index": 136,
+      "speaker": "Charles",
+      "text": "Uh, I'm out. Just 'cause like I've, I, we just did an analysis internally. This is the one category where we have consistently been wrong as investors. So that has like, much more to do with like our lived experience -"
+    }
+  ],
+  "rationales": [
+    {
+      "rationale_id": "R1",
+      "rationale_label": "solution_feasibility_assessment",
+      "utterance_type": "question",
+      "activation": "queried",
+      "direction": "neutral",
+      "salience": "secondary",
+      "confidence": 0.95,
+      "evidence_ids": [
+        "E1",
+        "E2"
+      ],
+      "explanation": "Charles asks whether the product can connect to an ATS and use other metadata, without expressing a judgment.",
+      "decision_link": "none"
+    },
+    {
+      "rationale_id": "R2",
+      "rationale_label": "competitive_landscape_inertia",
+      "utterance_type": "assessment",
+      "activation": "evaluated",
+      "direction": "negative",
+      "salience": "secondary",
+      "confidence": 0.96,
+      "evidence_ids": [
+        "E3",
+        "E4"
+      ],
+      "explanation": "Charles assesses recruiting as difficult because customers have low loyalty and readily switch providers.",
+      "decision_link": "none"
+    },
+    {
+      "rationale_id": "R3",
+      "rationale_label": "traction_repeatability_concern",
+      "utterance_type": "assessment",
+      "activation": "evaluated",
+      "direction": "positive",
+      "salience": "secondary",
+      "confidence": 0.94,
+      "evidence_ids": [
+        "E5",
+        "E6"
+      ],
+      "explanation": "Charles positively assesses Mappa's repeat rates and conversion to hire, indicating stronger repeatability than typical recruiting businesses.",
+      "decision_link": "none"
+    },
+    {
+      "rationale_id": "R4",
+      "rationale_label": "investor_experience_bias",
+      "utterance_type": "decision_reason",
+      "activation": "evaluated",
+      "direction": "negative",
+      "salience": "primary",
+      "confidence": 1.0,
+      "evidence_ids": [
+        "E7"
+      ],
+      "explanation": "Charles explicitly says he is out because internal analysis shows this is a category in which they have consistently been wrong as investors, tying the decision to lived experience.",
+      "decision_link": "explicit"
+    }
+  ],
+  "unmapped_utterances": [],
+  "audit_flags": [],
+  "annotation_summary": "Charles's explicit Out decision is attributed to investor experience bias. He also queried ATS and metadata integration, described recruiting-category customer-switching risk, and positively noted Mappa's repeat rates and conversion to hire."
+}

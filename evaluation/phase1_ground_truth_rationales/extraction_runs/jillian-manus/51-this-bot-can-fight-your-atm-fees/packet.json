@@ -1,0 +1,376 @@
+{
+  "episode_slug": "51-this-bot-can-fight-your-atm-fees",
+  "transcript_sha256": "6bff70d4f1858c95e875c86b8d12b08073656a8ae1328a5595d716fd341321ef",
+  "window_start": 0,
+  "window_end": 111,
+  "window_text": "[0] Paul: Unlike other consumer finance companies out there that are just giving you advice, we're actually doing the work\nPaul Kesserwani is here raising money for his company, Cushion. A bot that fights bank and credit card fees for you. And that might sound simple, but Paul says he\u2019s using machine learning to train his bot so that it\u2019s better than anything else out there.\nCan he prove to investors that he\u2019s got something special on his hands? Here\u2019s who he\u2019ll have to convince\u2026\nAs a serial entrepreneur Phil built companies that sold for hundreds of millions of dollars. Now he manages one of the largest syndicates on AngelList.\nJillian is a partner at Structure Capital, where they\u2019ve invested $98 million so far in high-profile startups like Uber.\nHowie is our rockstar investor. No really, he was in a band. And since changing gigs, Howie\u2019s invested in over 50 startups.\nMichael built and sold two software companies for over $500 million dollars and now he invests for himself.\nI\u2019m Josh Muccio and from Gimlet Media, this, is The Pitch.\n[1] Paul: Hey everyone. My name is Paul Kesserwani and I'm the founder of Cushion. And I'd like to start things off today by laying out a little scenario for you. You have $500 worth of bills due at the end of the week. Your bank account only has $300 in it and your paycheck is still ten days out What do you do?\n[2] Phil: Call my parents.\n[3] Paul: You call your parents. It's a good option. But if they're not down to give you the money, you could just overdraft the account. But that's going to end up with some very costly overdraft fees These are the kinds of questions being faced by millions of Americans every single year, and when they make a wrong decision, costly fees can start piling up. And it could take months or even years to get back on track And this is the problem we're solving at Cushion. Our technology understands the nuances of your bank accounts, your cash flows and what you need to do next. And when we figure out the right steps to take, Cushion does them for you automatically. And that's our special sauce Unlike other consumer finance companies out there that are just giving you advice, we're actually doing the work For example, our first product negotiates with banks on your behalf to get back money wasted on fees and credit card interest ... automatically So I'm here today raising $2.3 million to grow Cushion by adding support for more banks and building out our next set of products And I think the best way to showcase what we built is to show you the actual product and then obviously answer any questions that you have along the way\n[4] Michael: Great\nPaul walks over to the investors, pulls out his phone, and opens... the Facebook Messenger app...\n[5] Paul: So this is currently designed in the Facebook Messenger bot, which I will not get too hung up on. This was just to get ourselves up and running as fast as possible. But essentially, we built a little bot called Fee Fighter. It was very adorable. It's full time job was to negotiate with the banks to get your money back.\n[6] Jillian: Fee fighter. I love that.\n[7] Paul: And I think people like our bot more than they actually like the fact that they're getting money back\n[8] Jillian: Yeah but it has personality and I think that's important. Because people have to trust it.\nI can say emphatically, Fee Fighter is pretty cute. It\u2019s a little white cartoon robot. Its head kind of looks like a fluffy marshmallow, and it has big, blue button eyes and a friendly robot smile \u2026 it reminds me of Rosie from the jetsons.\n[9] Michael: Okay. So take us through. What does it do?\n[10] Paul: So the process from a user perspective is very simple. You select the bank that you have. We currently only support three banks: Chase, American Express and Wells Fargo.\nThe robot connects to your bank. It then analyzes your account and shows you a summary of your fees. Interest charges, atm fees, wire transfers.\n[11] Michael: I've been charged a fee for a bank wire. Okay. Now how do you fight it?\n[12] Paul: So now this is the bot tells you, okay, there's two wire fees. I'd like to fight them for you. So I don't know if you can see the 'fight my fees' button? This is the only action the user has to take.\n[13] Jillian: Okay. Fight my fee.\n[14] Paul: So press the button And what's going to happen here is if you have multiple fees, it's going to run an algorithm to find out what's the grouping that I should go after first. If you have 47 fees, it's not going to after all of them\n[15] Michael: So how does it go after that fee?\n[16] Paul: So actually think about it. If you need something from the bank, there's a few different ways to approach them. You can show up at the branch and talk to somebody You call them on the phone. You can send a secure email Or you can do an online chat. We've automated the secure email and the online chat. The bot is going to generate a message that's completely tailored to my situation with the bank. So for example, with these two wire transfer fees, it's going to say something like: \"Hi there Wells Fargo support. I'd like some help with these two wire fees from June 4th and June 6th. As you can see, I actually have four accounts with you. One currently has a high balance and I've been paying my bills on time. I'd really appreciate you returning this money.\"\n[17] Phil: You customize it to that degree?\n[18] Paul: Yeah. It knows everything about your account history, how long you've been a customer...\n[19] Phil: Well, let's say, in your example, I don't have a high balance and I've only had the account for a few months. You'll come up with other good justifications for waiving the fees. I love that.\n[20] Michael: What\u2019s a classic example of you getting money back for me?\n[21] Paul: So one of the easiest is ATM fees We basically say, I\u2019ve been hit with 7 ATM fees for, I don\u2019t know, $20. I\u2019ve been with you for a while now. I have a couple of accounts. I\u2019d really appreciate you crediting this back\n[22] Jillian: And why would they say yes?\n[23] Paul: They say yes because they don\u2019t want to lose you.\n[24] Howie: Success rate. How many times do they say yes?\n[25] Paul: Sure. 80% of the folks who we've fought fees for have gotten money back in some capacity. For every dollar that we're fighting, we're getting 30 cents back right now. But we're being very aggressive because we're trying to train the model and figure out what works and what doesn't\nFor each fee that Fee Fighter fights, it learns. And that\u2019s what Paul means when he says that they\u2019re \u201ctraining the model.\u201d Which also means the bot has to decide what to do when a bank denies a refund request.\n[26] Michael: Does it escalate to another level? Can you phone? Or like what happens?\n[27] Paul: Yeah. So there's a couple of things if the bank pushes back, we have a score internally that says, you know what, I'm pretty sure I should have gotten some money back. Do we want to push back here? And if it does, it'll then push back with another message saying, you know, I'm choosing to bank with you, I have all these accounts, I highly recommend that you give me some of this money back, If you have 47 fees, which by the way is a very common case with our user base, the bot is not going to go out and fight all 47 at once across three accounts. It's going to choose a cluster. Say, I'm going to start with your credit card fees, get these back for you. Comes back and says, listen, I'm going to wait a couple of weeks, I don't want to slam the bank, I'll come back and let you know when is the right time to re-approach them. And then\u2026\n[28] Phil: How do you know when the right time is? How do you know what that timing piece is?\n[29] Paul: That's something that, we initially we'd done so much of this manually that we kind of figured that out. But now we have a machine learning algorithm that the bot's just teaching itself. So what we\u2019re doing is we\u2019re using both data science and automation to find out is there an opportunity to help the user out? And then using out automation to actually do the work for them. Which is usually the thing that stops somebody from actually moving forward. You can give somebody a financial plan, but they\u2019re like, oh, I\u2019m busy, I\u2019m working two jobs, I have to pick up my kids.\n[30] Howie: How big is your client base right now?\n[31] Paul: So we kicked off our private beta in January we\u2019ve built up a waitlist of over 16,000 people We\u2019ve onboarded 3000 users. For those 3000 users, for only three banks, and across only the last three months, $1.2 million in fees that we found.\n[32] Howie: And how much did you get back?\n[33] Paul: So we fought $300,000 of them. We've waived 100,000 out of the 300,000\n[34] Howie: How do you get paid? Sorry Jillian.\n[35] Jillian: Go ahead.\n[36] Howie: How do you get paid?\n[37] Paul: Yeah, so our business model is super simple. We take a 25% cut of the money we\u2019re recouping for our customers\n[38] Jillian: So you said you have 3000 that you onboarded, and you have 16,000 on a waitlist. Why are those 16,000 on a waitlist?\n[39] Paul: Good question. We only support three banks today because we built the brand new technology. There\u2019s no APIs or out of the box way to do this. So we\u2019re having to do integrations bank by bank. We\u2019re not trying to obviously support the top 10,000 banks in the country. We\u2019re just going to try to support the top 15.\n[40] Michael: So let me ask you something that struck me about your business. When we look at companies, you ask yourself, are you a platform, which is a big, big thing, like most successful companies. Are you a product Or are you a feature? Convince us for a second that you\u2019re not a feature. That you\u2019re a product and you have somewhere to go\n[41] Phil: And just to make Michael\u2019s point, also, if this gets super, super successful, banks could decide look, we\u2019re not ever going to waive fees anymore. Because this is getting ridiculous.\n[42] Michael: Or we\u2019re going to waive yes. So how will you..\n[crosstalk]\n[43] Michael: Take us on a journey of your company. How does this become a big business? How does this not get shut down?\n[44] Paul: Okay. These are a lot of questions. I\u2019m going to tackle them in an order that hopefully makes sense. The way we\u2019re updating the product such that the message comes the user, this can\u2019t get shut down. Because essentially, the banks would be blocking their own customers That\u2019s one. Two is that even though the banks might not love this initially we\u2019re surveying a bunch of our users to find out, hey, like how loyal are you to this bank or credit card. And after we get the money back, will you stick with them? And a lot of them are saying, yes. Now that I\u2019ve got this $300 back, I\u2019m probably going to stick around for a while. So as we scale, we can actually show the banks that if you want to potentially work together at some point, we can help you reduce customer support costs and increase retention At the end of the day though, we\u2019re not building a bank fee fighting company. This is our wedge. This is the first thing we decided to go after, because it\u2019s a $200 billion market, there\u2019s no digital solution, because it\u2019s so technically challenging to build this. And then after that we\u2019re already working on the next set of features to build this out to be a massive platform\n[45] Phil: What are the next set...\n[46] Jillian: What are the next set of features? Jinx\n[47] Paul: So there\u2019s a couple of different categories here. One is found money. This is essentially called basically found money. We fight these bank fees. People never expected to get the money back. And so we have actually uncovered there\u2019s $40 billion worth of money sitting around at the state level throughout the US that\u2019s unclaimed We can fully automate that process. No one has ever done that. So that\u2019s a $40 billion market after our $200 billion market that we\u2019re going after now.\nIf you\u2019re like me and this sounds unbelievable that there\u2019s money possibly just sitting around somewhere with your name on it. It\u2019s true! Unclaimed assets is basically your money \u2026 but the government is holding on to it, because they couldn\u2019t find you to give it to you. Undelivered tax refunds, for example is a big one.\n[48] Phil: Do you have the unclaimed assets functionality already working?\n[49] Paul: No. We have part of it We\u2019re trying to get it in the hands of users half baked, and then see if it works That\u2019s one piece. The next side of it is a lot of folks are using the wrong bank accounts and credit cards, and it\u2019s so clear from the data that we\u2019ve found. So this blew my mind. We had a customer who came on board, we waived $75 worth of monthly service charges for him. He emailed me saying, Paul, I love this service, I just signed up and got money back. Why am I getting charged these penalties? And I told him, I was like John, you signed up for a premium Chase account, it requires a minimum of a 15k balance to not get hit with these charges. Your average balance per month is $600. Why are you using this?\n[50] Michael: So it\u2019s more than just trying to get back fees. You can look at my entirety, from credit cards to where I bank to what I pay on everything.\n[51] Paul: Yeah.\n[52] Howie: I'm in a company called Albert. It's a personal financial management.\n[53] Paul: Yeah, I know those guys. They're great.\n[54] Howie: Yeah.\n[55] Phil: So there\u2019s lots of companies that help you get the best credit card.\n[56] Howie: But the thing about Albert that I liked, and why I invested is because it's transactional\n[57] Jillian: Then why couldn\u2019t Albert do this?\n[58] Paul: They can\u2019t.\n[59] Howie: They probably could.\n[60] Paul: No, they cannot.\n[61] Howie: Why?\n[62] Paul: They cannot take actions within the users account\n[63] Howie: Well, not yet.\n[64] Paul: Go for it. This is something that we just, it took 18 months to get here. Sorry, go for it, Jillian.\n[65] Jillian: So I'm out. And it's just because I think it's too early for me to really understand how this is going to scale. I see that it is, but I'm not really quite sure that I'm committed to this first product enough to feel comfortable\n[66] Paul: Okay. That's completely fair feedback\nWhew. That was tense. I'm not sure I've taken a full breath in a while. Breathe in... and out. Let's take a break. When we return \u2026 Paul battles back.\n[break]\nWelcome back \u2026 before Jillian passed on Cushion, the investors were digging in, hoping to find out what makes Paul\u2019s startup different from the competition. So he gets in the weeds to explain.\n[67] Paul: Most folks today, if they want to start a fintech company, a consumer finance company, they connect to Plaid, which is a very popular data aggregator, they get read only access to people\u2019s bank accounts. They cannot take any actions within their accounts. We went a completely different route right of the bat. We partnered with a different aggregator, set up this partnership with a security company, and built all the security infrastructure. It took us 18 months to get our beta out And that is why we\u2019re able to take actions on their behalf.\n[68] Phil: Because you\u2019re using a different aggregator other than Plaid?\n[69] Paul: And we built up all this infrastructure. For example, the concept is kind of crazy. The fact that you can put your bank credentials into Cushion, we never touch or see them, but our bot is able to log into your account and talk to the bank. It\u2019s pretty auto-magical at that point\n[70] Michael: What\u2019s the MRR right now? The monthly.\n[71] Paul: We haven\u2019t started charging.\n[72] Michael: Okay\n[73] Phil: When you start charging, how do you think customers will react? Even though they\u2019ll see this as getting their fees waived, getting a refund, when they have to pay 25% to you, how do you think they\u2019ll react to that?\n[74] Paul: A couple of things there. One is this is free money. This is money they never expected to see again. So they\u2019re not paying for the product out of pocket. We\u2019re actually paying ourselves as we get the money back. Two is we\u2019ve been polling our users and asking them and calling them and saying, how would you feel if we start charging? Some said, no problem, I never thought I\u2019d see this again. Others said, can you make it easier for me to drop that down from 25% to something less. So they\u2019re asking for incentives there.\n[75] Phil: I\u2019m just trying to understand... So the existential risk I\u2019m worried about for the company is that you\u2019ll ultimately get pushback from the banks who will say, we\u2019re not going to work with these, with this company anymore. We\u2019re not going to allow this kind of... And maybe they can\u2019t figure out if it is automated or not. I don\u2019t know. But let\u2019s say they do. I just want to hear from you, what do you think the reason is that they would not pushback like that?\n[76] Paul: If they\u2019d like to push back, they can. But the same way you can give a broker authorization to make trades on your behalf or a finance manager authorization to move money around for you, you can give authorization to a company to do this for you. But I don\u2019t plan on being in this bank fees product for the whole company. This is just our wedge that\u2019s working very, very well for us. And as we add on more services we\u2019ll be less dependent on this. And I promise you, we\u2019re going to be able to help the banks really retain a bunch of customers through this service\n[77] Michael: So tell us a bit about the 2.3 million. It\u2019s a very specific number that you\u2019re raising\n[78] Paul: It is a specific number. I\u2019m trying to get 18 months worth of runway for us. This is a very tech heavy play and just needs engineers.\n[79] Michael: Where are you based?\n[80] Paul: San Francisco\n[81] Michael: So take us through your raises so far\n[82] Paul: Yeah. Absolutely. So we raised a million dollars in angel and pre-seed almost 14 months ago\n[83] Jillian: Who led that?\n[84] Paul: So Afford Capital, the largest pre-seed fund We had the cofounder of NerdWallet and the cofounder of Funding Circle came in very early on; We have angel investors who are security experts from Lifeloc and Symantec, And I built up a lot of my reputation at Twitter. That\u2019s where I helped scale revenue for the company. And that\u2019s where half our cap table is angel investors from the Twitter executive team. Folks I\u2019ve worked for\n[85] Paul: Right now we don't have a valuation set. We have a ballpark of where we want to be. We're raising a priced round, but you're actually the first folks I'm pitching our seed round to.\n[86] Michael: What is your ask?\n[87] Paul: 2.3 million, it's probably going to be 9 or 10 pre-money.\n[88] Howie: Those are San Francisco prices.\n[89] Paul: They are San Francisco prices. But to be honest, the fact that we have this domain expertise, we have this tech, we have a killer team, and we have no competition right now\nThe investors don\u2019t like the price tag Paul just threw out for his company. Everyone knows that in Silicon Valley, prices for everything, housing, burritos, startups. Are sky high. And Paul is based there in San Francisco. So though the investors may not be surprised that they\u2019re being asked to pay more, to own less of his company, that doesn\u2019t mean they have to like it.\n[90] Investor: What I struggle with is that I don\u2019t really know much about the unit economics, I don\u2019t know well it\u2019s going to take off or work, I don\u2019t understand the landscape in detail. And you\u2019re asking me to pay essentially kind of a $10 million valuation for a company that\u2019s pre-launched So help us bridge that differential between you not really being crystal on your product yet, which is okay, because you\u2019re early, and this valuation which is what I call a beautiful Silicon Valley valuation. I don\u2019t blame the Valley, but it is a bit Valley.\n[91] Paul: That\u2019s fair. So I\u2019m going to reiterate a couple of points, one is I\u2019m not going to get too hung up on the actual valuation. I care more about the specific partner at the firm that\u2019s leading the round for us. That\u2019s most important thing for me. Somebody who gets that.\n[92] Michael: I think that\u2019s a good call.\n[93] Paul: That\u2019s one piece. Two is just based on the unit economics of what we have, we\u2019re getting 30 cents back for every dollar that we fight, we\u2019re going to take 25% cut, just our waitlist today, if we were to monetize this, represents a million dollars in revenue. If you were just to scale this out. And so I\u2019m feeling very good about where we at. I could have told you we have 500 users and we\u2019ve monetized them. I\u2019d much rather tell you we have 3000, 16,000 banging down the door and we\u2019re going to blow this up\n[94] Jillian: Can you talk about you?\n[95] Paul: I\u2019ve spent ten years kind of de-risking myself to start a company. I\u2019ve wanted to start a company since I've been a child. I grew up in Lebanon. Tumultuous environment. My parents were entrepreneurs. They started business after business. So I\u2019ve known, this is only a matter of time before I do this. Moved to the US, got a computer engineering degree and knew that, you know what, I\u2019m not ready to start a company. I\u2019m just going to dive face first into tech and startups.\n[96] Michael: Good for you\n[97] Paul: Two IPOs and an acquisition later, I landed at Twitter through that startup acquisition, and that\u2019s where I kind of really made a name for myself\n[98] Howie: What\u2019d you do at Twitter?\n[99] Paul: I founded the revenue operations team, helped them go from $10 million in revenue to over 2.2 within four years. That was my team\u2019s entire focus is how do we generate money? How do we scale it? Which countries do we expand into? And by the time I did that, look ten years back, I was like, I\u2019m ready.\n[100] Michael: So I'd like to do a couple of things. I think, where I sit in this camp I'd like to invest. I really like this space I believe people are going to react really well to getting their money back It's really interesting. So I think there's something here. I'd like to see the quality of the lead. Because I want to know if they can really help bring value and structure to this. And I'm not trying to be a lemming here. I'm trying to understand the market a little better So I'm in if I can get comfortable with the lead and comfortable with the valuation.\n[101] Paul: That sounds totally fair.\n[102] Phil: Let me just say, I really like what you're doing. Firstly, I think you do have a clear vision of what you want this company to become. But it is early, right? And normally I don't look at pre-revenue companies. I really like this. I especially think the automation of it is, and the machine learning that you're putting into it, is smart. So I want to invest. I really want to invest. The valuation sort of range that you're talking about is very high, especially for pre-revenue. So for me, I want to see what valuation you arrive at with the lead investor. I want to see who the lead investor is, If the number is reasonable, the terms are reasonable, and it's a good lead investor, then I'm likely in.\n[103] Paul: Okay. Absolutely. I would love to have you and that all makes total sense.\nBoth Phil and Michael are in \u2026 with conditions. Here\u2019s howie.\n[104] Howie: I\u2019m not super price sensitive whether it\u2019s 6 million... whether you\u2019re raising at 5 million cap or a 6 million cap, or a 10 million dollar cap, right now, if I have that conviction, I\u2019m not too concerned. The way that I\u2019m thinking about it as an investor is, I\u2019m just doing the math in my head, if you got to 100,000 users with this $2.3 million round, conceivably that\u2019s 5 million in top line revenue. And so I can sit back and wait 8 to 12 months, see how this develops, see the new implementations, see how the customers are responding, really get some accurate data here and see what the real numbers are, and then I\u2019ll pay more. I\u2019ll pay double. Especially if you have 100,000 users and $6 million.\n[105] Michael: Because he can understand the unit economics by then.\n[106] Howie: Exactly.\n[107] Michael: so i think you\u2019re doing the right thing so I\u2019m excited to hear where you go and take a deeper dive and see where this is.\n[108] Jillian: I\u2019m going to take back my pass.\nWait, what\u2019s happening, Jillian\u2019s changing her mind? That\u2019s a new on e for the show!\n[109] Jillian: I like hearing about you. I liked hearing about your path. And usually that\u2019s the one question, and that\u2019s usually the first question I ask. And shame on me for not.\n[110] Paul: Probably should have started with that.\n[111] Jillian: Well, actually I should have been mindful enough to ask that, because that, we\u2019re really investing in you. And I like your journey here, and obviously I like the fact that you\u2019ve built this at Twitter. I mean, that speaks volumes to me. I\u2019m going to hop on the bandwagon if this makes sense, of me being an investor and adding value. Which you may at the very end say, you know what, Jillian\u2019s not the right type of investor. She passed on me at first so stuff her!",
+  "observed_decision": "In",
+  "decision_quote": "Well, actually I should have been mindful enough to ask that, because that, we\u2019re really investing in you. And I like your journey here, and obviously I like the fact that you\u2019ve built this at Twitter. I mean, that speaks volumes to me. I\u2019m going to hop on the bandwagon if this makes sense, of me being an investor and adding value. Which you may at the very end say, you know what, Jillian\u2019s not the right type of investor. She passed on me at first so stuff her!",
+  "taxonomy": [
+    {
+      "label": "business_model_assessment",
+      "definition": "Rationales related to the investor's perception of the startup\u2019s revenue model, monetization approach, or service/automation mix as a driver of business viability.",
+      "coarse_parent": "business_model_economics",
+      "status": "original",
+      "first_round": "v1"
+    },
+    {
+      "label": "business_viability_concern",
+      "definition": "Rationales related to the investor's concern that the overall business viability, model, or economics are not sufficiently compelling.",
+      "coarse_parent": "business_model_economics",
+      "status": "original",
+      "first_round": "v1"
+    },
+    {
+      "label": "capital_intensity_concern",
+      "definition": "Rationales related to concerns that the startup will require substantial ongoing capital investment, increasing risk or misalignment with the investor\u2019s funding capacity.",
+      "coarse_parent": "business_model_economics",
+      "status": "original",
+      "first_round": "v1"
+    },
+    {
+      "label": "competitive_advantage_assessment",
+      "definition": "Rationales related to the investor\u2019s beliefs about what drives defensibility or sustainable competitive advantage in a market.",
+      "coarse_parent": "competition_defensibility",
+      "status": "original",
+      "first_round": "v1"
+    },
+    {
+      "label": "competitive_intensity_concern",
+      "definition": "Rationales related to concerns that the category is highly competitive, attention\u2010constrained, and requires heavy marketing to win, reducing the likelihood of outsized success.",
+      "coarse_parent": "competition_defensibility",
+      "status": "original",
+      "first_round": "v1"
+    },
+    {
+      "label": "competitive_landscape_inertia",
+      "definition": "Rationales related to the difficulty of displacing or changing behavior of incumbents due to entrenched solutions, habits, or workflows.",
+      "coarse_parent": "competition_defensibility",
+      "status": "original",
+      "first_round": "v1"
+    },
+    {
+      "label": "deal_terms_complexity_concern",
+      "definition": "Rationales related to the investor\u2019s concern that the structure or details of deal terms (e.g., convertibles, SAFEs, preferred terms) may introduce complexity, ambiguity, or unfavorable outcomes.",
+      "coarse_parent": "deal_terms_valuation",
+      "status": "original",
+      "first_round": "v1"
+    },
+    {
+      "label": "decision_context_constraint",
+      "definition": "Rationales related to constraints imposed by the specific evaluation format, environment, or context rather than the startup's fundamentals.",
+      "coarse_parent": "investor_fit_constraints",
+      "status": "original",
+      "first_round": "v1"
+    },
+    {
+      "label": "dilution_concern",
+      "definition": "Rationales related to the investor\u2019s concern that the financing plan will cause excessive dilution relative to their ownership goals or stage fit.",
+      "coarse_parent": "deal_terms_valuation",
+      "status": "original",
+      "first_round": "v1"
+    },
+    {
+      "label": "execution_risk_assessment",
+      "definition": "Rationales related to the investor\u2019s concern that the team may not yet have demonstrated sufficient execution reliability or maturity for the risk level of the round.",
+      "coarse_parent": "founder_team",
+      "status": "original",
+      "first_round": "v1"
+    },
+    {
+      "label": "founder_equity_incentive_alignment",
+      "definition": "Rationales related to ensuring founders retain sufficient ownership to remain properly motivated, aligned, and incentivized for the long-term company\u2010building journey.",
+      "coarse_parent": "founder_team",
+      "status": "original",
+      "first_round": "v1"
+    },
+    {
+      "label": "founder_execution",
+      "definition": "Rationales related to the investor\u2019s perception of the founders' execution ability, resourcefulness, pace, and operational grit.",
+      "coarse_parent": "founder_team",
+      "status": "original",
+      "first_round": "v1"
+    },
+    {
+      "label": "founder_market_fit",
+      "definition": "Rationales based on how well the founder's background, experience, or motivation aligns with the target market.",
+      "coarse_parent": "founder_team",
+      "status": "original",
+      "first_round": "v1"
+    },
+    {
+      "label": "founder_qualities",
+      "definition": "Rationales related to the investor's perception of the founders' personal traits, capabilities, or appeal.",
+      "coarse_parent": "founder_team",
+      "status": "original",
+      "first_round": "v1"
+    },
+    {
+      "label": "founder_skillset",
+      "definition": "Rationales tied to the founder's core skills or functional strengths relevant to company-building.",
+      "coarse_parent": "founder_team",
+      "status": "original",
+      "first_round": "v1"
+    },
+    {
+      "label": "fund_economics_constraint",
+      "definition": "Rationales tied to the investor\u2019s fund size, check size, or ownership goals that constrain how selective they must be when choosing investments.",
+      "coarse_parent": "investor_fit_constraints",
+      "status": "original",
+      "first_round": "v1"
+    },
+    {
+      "label": "fundraising_demand_signal",
+      "definition": "Rationales related to the investor\u2019s perception that the company will attract capital easily due to current or expected investor demand.",
+      "coarse_parent": "deal_terms_valuation",
+      "status": "original",
+      "first_round": "v1"
+    },
+    {
+      "label": "growth_projection_risk",
+      "definition": "Rationales related to concerns that the company\u2019s growth, revenue, or user\u2010scale projections are insufficiently modeled, unrealistic, or lack credible underlying assumptions.",
+      "coarse_parent": "traction_growth",
+      "status": "original",
+      "first_round": "v1"
+    },
+    {
+      "label": "investment_thesis_constraint",
+      "definition": "Rationales related to the investor's predefined investment thesis or mandate that restricts them to specific sectors, business models, or company types.",
+      "coarse_parent": "investor_fit_constraints",
+      "status": "original",
+      "first_round": "v1"
+    },
+    {
+      "label": "investment_upside_assessment",
+      "definition": "Rationales related to the investor's view that the risk\u2010reward profile offers disproportionately large potential returns relative to downside risk.",
+      "coarse_parent": "deal_terms_valuation",
+      "status": "original",
+      "first_round": "v1"
+    },
+    {
+      "label": "investor_domain_knowledge_constraint",
+      "definition": "Rationales related to the investor lacking the necessary domain knowledge to effectively assess the technology, moat, competition, or overall viability of the opportunity.",
+      "coarse_parent": "investor_fit_constraints",
+      "status": "original",
+      "first_round": "v1"
+    },
+    {
+      "label": "investor_experience_bias",
+      "definition": "Rationales related to the investor's prior personal experiences, wins, losses, or operational history that shape their judgment of a new opportunity.",
+      "coarse_parent": "investor_fit_constraints",
+      "status": "original",
+      "first_round": "v1"
+    },
+    {
+      "label": "market_entry_path_assessment",
+      "definition": "Rationales related to the investor\u2019s perception that there is a clear, reachable initial customer segment that can serve as an effective wedge into the larger market.",
+      "coarse_parent": "market_opportunity",
+      "status": "original",
+      "first_round": "v1"
+    },
+    {
+      "label": "market_problem_validation",
+      "definition": "Rationales tied to the investor perceiving the underlying problem as real, important, or painful enough to support a venture-scale solution.",
+      "coarse_parent": "market_opportunity",
+      "status": "original",
+      "first_round": "v1"
+    },
+    {
+      "label": "market_size_assessment",
+      "definition": "Rationales related to the investor\u2019s belief about the absolute or relative size and fluidity of the addressable market.",
+      "coarse_parent": "market_opportunity",
+      "status": "original",
+      "first_round": "v1"
+    },
+    {
+      "label": "market_timing",
+      "definition": "Rationales related to the investor's belief that the timing is favorable or unfavorable for this market, category, or product to emerge or scale.",
+      "coarse_parent": "timing",
+      "status": "original",
+      "first_round": "v1"
+    },
+    {
+      "label": "mission_alignment_preference",
+      "definition": "Rationales related to the investor's personal or emotional alignment with the startup's mission or purpose.",
+      "coarse_parent": "investor_fit_constraints",
+      "status": "original",
+      "first_round": "v1"
+    },
+    {
+      "label": "portfolio_conflict_constraint",
+      "definition": "Rationales related to constraints arising from existing portfolio investments that create competitive conflicts preventing a new investment.",
+      "coarse_parent": "investor_fit_constraints",
+      "status": "original",
+      "first_round": "v1"
+    },
+    {
+      "label": "product_adoption",
+      "definition": "Rationales related to evidence that end users are adopting and using the product meaningfully.",
+      "coarse_parent": "product_solution",
+      "status": "original",
+      "first_round": "v1"
+    },
+    {
+      "label": "product_appeal_assessment",
+      "definition": "Rationales related to the investor\u2019s positive perception of the product\u2019s appeal, quality, or desirability based on their own reaction.",
+      "coarse_parent": "product_solution",
+      "status": "original",
+      "first_round": "v1"
+    },
+    {
+      "label": "product_differentiation_concern",
+      "definition": "Rationales related to how unique, defensible, or hard-to-copy the product or technology is perceived to be.",
+      "coarse_parent": "competition_defensibility",
+      "status": "original",
+      "first_round": "v1"
+    },
+    {
+      "label": "product_success_factor_assessment",
+      "definition": "Rationales related to which product components or attributes are perceived as most essential to the startup's ability to succeed.",
+      "coarse_parent": "product_solution",
+      "status": "original",
+      "first_round": "v1"
+    },
+    {
+      "label": "solution_feasibility_assessment",
+      "definition": "Rationales related to the investor's belief that the proposed product or solution is technically or operationally feasible.",
+      "coarse_parent": "product_solution",
+      "status": "original",
+      "first_round": "v1"
+    },
+    {
+      "label": "stage_valuation_mismatch",
+      "definition": "Rationales related to the investor\u2019s perception of a mismatch between the company\u2019s stage of progress and the valuation being requested.",
+      "coarse_parent": "deal_terms_valuation",
+      "status": "original",
+      "first_round": "v1"
+    },
+    {
+      "label": "traction_repeatability_concern",
+      "definition": "Rationales related to concerns that current traction, usage, or revenue signals are too early or insufficiently repeatable to support scaling.",
+      "coarse_parent": "traction_growth",
+      "status": "original",
+      "first_round": "v1"
+    },
+    {
+      "label": "unit_economics_assessment",
+      "definition": "Rationales related to the investor\u2019s perception that the business benefits from structurally attractive unit economics, such as profitable or self-reinforcing customer acquisition.",
+      "coarse_parent": "business_model_economics",
+      "status": "original",
+      "first_round": "v1"
+    },
+    {
+      "label": "venture_scale_concern",
+      "definition": "Rationales related to concerns that the company\u0019s market dynamics, ceiling, or competitive landscape limit its ability to achieve venture-scale outcomes.",
+      "coarse_parent": "market_opportunity",
+      "status": "original",
+      "first_round": "v1"
+    },
+    {
+      "label": "investor_value_add_fit",
+      "definition": "Rationales about whether the investor can contribute meaningful help, networks, or domain value beyond capital to this specific company.",
+      "coarse_parent": "investor_fit_constraints",
+      "status": "promoted",
+      "first_round": "v_final",
+      "support_episodes": 12,
+      "support_vcs": [
+        "jillian-manus-structure-capital",
+        "elizabeth-yin-hustle-fund",
+        "cyan-banister-long-journey-ventures",
+        "phil-nadel",
+        "jesse-middleton-flybridge"
+      ]
+    },
+    {
+      "label": "founder_coachability_assessment",
+      "definition": "Rationales about how receptive the founder is to feedback, advice, or course-correction and their ability to read and respond to the room.",
+      "coarse_parent": "founder_team",
+      "status": "promoted",
+      "first_round": "v_final",
+      "support_episodes": 6,
+      "support_vcs": [
+        "jillian-manus-structure-capital",
+        "phil-nadel",
+        "charles-hudson-precursor-ventures",
+        "elizabeth-yin-hustle-fund"
+      ]
+    },
+    {
+      "label": "founder_communication_quality",
+      "definition": "Rationales about the founder's clarity, articulation, command of their numbers, and storytelling ability when presenting the business.",
+      "coarse_parent": "founder_team",
+      "status": "promoted",
+      "first_round": "v_final",
+      "support_episodes": 9,
+      "support_vcs": [
+        "jillian-manus-structure-capital",
+        "charles-hudson-precursor-ventures",
+        "elizabeth-yin-hustle-fund",
+        "cyan-banister-long-journey-ventures",
+        "phil-nadel"
+      ]
+    },
+    {
+      "label": "founder_motivation_authenticity",
+      "definition": "Rationales about the genuineness, personal connection, or origin of the founder's drive to work on this particular problem.",
+      "coarse_parent": "founder_team",
+      "status": "promoted",
+      "first_round": "v_final",
+      "support_episodes": 12,
+      "support_vcs": [
+        "cyan-banister-long-journey-ventures",
+        "charles-hudson-precursor-ventures",
+        "elizabeth-yin-hustle-fund",
+        "jesse-middleton-flybridge",
+        "jillian-manus-structure-capital"
+      ]
+    },
+    {
+      "label": "go_to_market_strategy_assessment",
+      "definition": "Rationales about how the company will reach and acquire customers, including sales motion, channel scalability, and cost of acquisition.",
+      "coarse_parent": "business_model_economics",
+      "status": "promoted",
+      "first_round": "v_final",
+      "support_episodes": 12,
+      "support_vcs": [
+        "charles-hudson-precursor-ventures",
+        "elizabeth-yin-hustle-fund",
+        "phil-nadel",
+        "jillian-manus-structure-capital",
+        "jesse-middleton-flybridge"
+      ]
+    },
+    {
+      "label": "founder_investor_vision_alignment",
+      "definition": "Rationales about whether the founder's intended direction or focus for the company aligns with the path the investor believes in or would back.",
+      "coarse_parent": "investor_fit_constraints",
+      "status": "promoted",
+      "first_round": "v_final",
+      "support_episodes": 9,
+      "support_vcs": [
+        "charles-hudson-precursor-ventures",
+        "elizabeth-yin-hustle-fund",
+        "jillian-manus-structure-capital",
+        "phil-nadel"
+      ]
+    },
+    {
+      "label": "corporate_structure_constraint",
+      "definition": "Rationales tied to the company's legal entity, incorporation, jurisdiction, or IP-ownership structure as a barrier or condition to investing.",
+      "coarse_parent": "deal_terms_valuation",
+      "status": "promoted",
+      "first_round": "v_final",
+      "support_episodes": 3,
+      "support_vcs": [
+        "charles-hudson-precursor-ventures",
+        "elizabeth-yin-hustle-fund",
+        "jillian-manus-structure-capital"
+      ]
+    }
+  ],
+  "investor_name": "Jillian",
+  "investor_aliases": [
+    "Jillian",
+    "Jillian Manus"
+  ]
+}

@@ -1,0 +1,111 @@
+{
+  "schema": "transcript-observed-rationales-v1",
+  "episode_slug": "118-uncovered-the-business-of-true-crime",
+  "transcript_sha256": "01e5c114e5ba52a6a9a5dcbbeb68a546fa842ee61066a5919cac7a12a55dc7ba",
+  "window": {
+    "start_turn": 0,
+    "end_turn": 78
+  },
+  "observed_decision": "Out",
+  "decision_evidence_ids": [
+    "E3"
+  ],
+  "evidence_registry": [
+    {
+      "evidence_id": "E1",
+      "turn_index": 58,
+      "speaker": "Charles",
+      "text": "Where else does this audience hang out online for entertainment content? Like what do you think is sort of their media universe?"
+    },
+    {
+      "evidence_id": "E2",
+      "turn_index": 76,
+      "speaker": "Charles",
+      "text": "Just in thinking about some of the things that Erica brought up too, I think - it's really clear to me that there's a big audience -"
+    },
+    {
+      "evidence_id": "E3",
+      "turn_index": 78,
+      "speaker": "Charles",
+      "text": "- for true crime. And Jillian's mentioned too there that might be some issues with that. I just think in every business there's an easy way and a hard way. And I think just listening to you talk about this category, I'm like, podcast seems like an easy way to grow your - pretty cheap to build, lots of ways to distribute, pretty well established advertising and monetization regimes around those. And I guess what I keep coming back to is like, I'm not sure that there's a straightforward way to monetize a more community-oriented approach here. So I'm out on this one, more just because relative to the other things that are happening in the true crime sort of community, this one just feels like a hard way to build a big business."
+    }
+  ],
+  "rationales": [
+    {
+      "rationale_id": "R1",
+      "rationale_label": "go_to_market_strategy_assessment",
+      "utterance_type": "question",
+      "activation": "queried",
+      "direction": "neutral",
+      "salience": "secondary",
+      "confidence": 0.99,
+      "evidence_ids": [
+        "E1"
+      ],
+      "explanation": "Charles asks where the target audience spends time online and what its broader media universe is, probing audience reach and distribution channels.",
+      "decision_link": "none"
+    },
+    {
+      "rationale_id": "R2",
+      "rationale_label": "market_size_assessment",
+      "utterance_type": "assessment",
+      "activation": "evaluated",
+      "direction": "positive",
+      "salience": "secondary",
+      "confidence": 0.98,
+      "evidence_ids": [
+        "E2",
+        "E3"
+      ],
+      "explanation": "Charles explicitly recognizes that true crime has a large audience.",
+      "decision_link": "none"
+    },
+    {
+      "rationale_id": "R3",
+      "rationale_label": "go_to_market_strategy_assessment",
+      "utterance_type": "assessment",
+      "activation": "evaluated",
+      "direction": "negative",
+      "salience": "primary",
+      "confidence": 0.94,
+      "evidence_ids": [
+        "E3"
+      ],
+      "explanation": "Charles contrasts the community-oriented approach with podcasts, which he views as easier to grow because they are inexpensive to build and have many distribution channels.",
+      "decision_link": "implicit"
+    },
+    {
+      "rationale_id": "R4",
+      "rationale_label": "business_model_assessment",
+      "utterance_type": "decision_reason",
+      "activation": "evaluated",
+      "direction": "negative",
+      "salience": "primary",
+      "confidence": 0.99,
+      "evidence_ids": [
+        "E3"
+      ],
+      "explanation": "Charles says he is not sure there is a straightforward way to monetize a community-oriented true-crime approach and directly connects that concern to being out.",
+      "decision_link": "explicit"
+    },
+    {
+      "rationale_id": "R5",
+      "rationale_label": "venture_scale_concern",
+      "utterance_type": "decision_reason",
+      "activation": "evaluated",
+      "direction": "negative",
+      "salience": "primary",
+      "confidence": 0.99,
+      "evidence_ids": [
+        "E3"
+      ],
+      "explanation": "Charles concludes that, relative to other true-crime opportunities, this approach feels like a hard way to build a big business.",
+      "decision_link": "explicit"
+    }
+  ],
+  "unmapped_utterances": [
+    "Jillian's mentioned too there that might be some issues with that."
+  ],
+  "audit_flags": [],
+  "annotation_summary": "Charles recognizes strong true-crime audience demand but views the community-oriented model as harder to grow and less straightforward to monetize than podcast alternatives, leading to an explicit Out decision."
+}
