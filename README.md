@@ -32,6 +32,18 @@ uv run vc-clone-rehearsal start \
 
 This builds the canonical assessment and starts rehearsal. The grounded configuration uses OpenRouter generation and local semantic retrieval. Set `OPENROUTER_API_KEY` in your environment and prepare the configured embedding indexes before running it. The baseline flag authorizes paid model calls. See [the framework reference](docs/FRAMEWORK_REFERENCE.md) and [rehearsal guide](docs/FOUNDER_REHEARSAL.md) for index preparation, alternate providers, frozen assessments, and session continuation. Historical examples in those references describe the original research workspace.
 
+## View assessment rationales and decision
+
+Run from this repository. For an existing session, one read-only command displays the initial canonical decision, activated rationales, supporting evidence IDs, controlling rationales, and diligence questions:
+
+```bash
+uv run vc-clone-rehearsal assessment \
+  --config configs/investors/mac-conwell/rehearsal.toml \
+  --session mac-shiftpilot-001
+```
+
+The example assumes Mac Conwell has been installed through the onboarding CLI and the `mac-shiftpilot-001` session has been run locally. Investor bundles, indexes, and session outputs are separate from this command. Use the configuration and session name from your run. Add `--format json` to export the complete investigation and decision. This command verifies the saved artifacts, makes no model calls, and works before rehearsal is finished. It shows the frozen initial assessment; `report --format markdown` shows the founder report after rehearsal finishes.
+
 ## Repository boundary
 
 - `src/vc_clone_graph`: assessment, retrieval, validation, providers, rehearsal, and CLI.

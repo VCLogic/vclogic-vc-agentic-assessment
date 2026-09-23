@@ -370,6 +370,62 @@ def _resume(
     print(json.dumps(result, indent=2, sort_keys=True))
 
 
+def command_assessment(
+    config: RehearsalConfig, session_id: str, output_format: str
+) -> None:
+    """Display the frozen canonical assessment without invoking model providers."""
+    root = locate_session(config.resolve_path(config.rehearsal.output_root), session_id)
+    store = RehearsalArtifactStore.open(root)
+    store.verify()
+    metadata = _session_metadata(store)
+    if not metadata.get("canonical_run_path"):
+        raise ValueError("No canonical assessment is available for this session yet")
+    manifest = store.read_json("manifest.json")
+    baseline = load_canonical_baseline_from_run(
+        workspace=config.workspace,
+        run_root=config.resolve_path(metadata["canonical_run_path"]),
+        canonical_vc_slug=manifest["vc_slug"],
+        expected_run_vc_slug=manifest["vc_slug"],
+        expected_episode_slug=metadata["episode_slug"],
+        expected_pitch_sha256=metadata["canonical_pitch_sha256"],
+    )
+    investigation = baseline.investigation.model_dump(mode="json")
+    decision = baseline.decision.model_dump(mode="json")
+    payload = {
+        "session": session_id, "vc_slug": manifest["vc_slug"],
+        "phase1_status": baseline.phase1_status, "phase2_status": baseline.phase2_status,
+        "investigation": investigation, "decision": decision,
+    }
+    if output_format == "json":
+        print(json.dumps(payload, indent=2, sort_keys=True))
+        return
+    lines = [f"# Assessment: {manifest['vc_slug']} / {session_id}",
+             "", "Initial canonical assessment (before rehearsal answers).",
+             f"Phase 1: {baseline.phase1_status}; Phase 2: {baseline.phase2_status}",
+             "", f"## Decision: {decision['decision']}",
+             f"Model-reported confidence: {decision['decision_confidence']:.0%}",
+             f"Check tier: {decision.get('recommended_check_tier', 'Not recorded')}",
+             "", decision.get("decision_justification", ""),
+             "", "## Activated rationales"]
+    controlling = set(decision.get("controlling_rationale_ids", []))
+    for row in investigation.get("rationales", []):
+        marker = " — controlling" if row["rationale_id"] in controlling else ""
+        lines.extend(["", f"### {row['rationale_id']}: {row['taxonomy_label']}{marker}",
+                      f"{row['direction']} | {row['salience']} | confidence {row['confidence']:.0%}",
+                      row.get("justification", "")])
+        for label, key in (("Pitch", "pitch_evidence_ids"), ("Wiki", "wiki_evidence_ids"),
+                           ("Historical", "historical_evidence_ids")):
+            if row.get(key):
+                lines.append(f"{label} evidence: {', '.join(row[key])}")
+    if decision.get("strongest_opposing_case"):
+        lines.extend(["", "## Strongest opposing case", str(decision["strongest_opposing_case"])])
+    if decision.get("constraint_assessment_summary"):
+        lines.extend(["", "## Constraints", decision["constraint_assessment_summary"]])
+    for title, key in (("Diligence questions", "diligence_questions"), ("Reversal conditions", "reversal_conditions")):
+        lines.extend(["", f"## {title}", _bullets(decision.get(key, []))])
+    print("\n".join(lines))
+
+
 def command_report(
     config: RehearsalConfig, session_id: str, output_format: str
 ) -> None:
@@ -444,6 +500,11 @@ def _parser() -> argparse.ArgumentParser:
         command.add_argument("--config", type=Path, required=True)
         command.add_argument("--session", required=True)
 
+    assessment = subparsers.add_parser("assessment", help="View activated rationales and the canonical decision")
+    assessment.add_argument("--config", type=Path, required=True)
+    assessment.add_argument("--session", required=True)
+    assessment.add_argument("--format", choices=("markdown", "json"), default="markdown")
+
     report = subparsers.add_parser("report")
     report.add_argument("--config", type=Path, required=True)
     report.add_argument("--session", required=True)
@@ -469,6 +530,8 @@ def main(argv: list[str] | None = None) -> int:
             _resume(config, args.session, "answer", args.text)
         elif args.command in {"finish", "retry"}:
             _resume(config, args.session, args.command)
+        elif args.command == "assessment":
+            command_assessment(config, args.session, args.format)
         elif args.command == "report":
             command_report(config, args.session, args.format)
         elif args.command == "compare":
