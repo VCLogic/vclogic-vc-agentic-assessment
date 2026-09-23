@@ -1,4 +1,4 @@
-# vcLogicFounderPitchAssessmentPipeline
+# VCLogic Founder Pitch Assessment Pipeline
 
 Reusable Python engine for evidence-grounded founder pitch assessments. Phase 1 investigates investor rationales; Phase 2 synthesizes investment decisions. The package also supplies the grounded rehearsal runtime and command-line tools.
 
