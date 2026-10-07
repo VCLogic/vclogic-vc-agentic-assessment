@@ -4,6 +4,57 @@ Reusable Python engine for evidence-grounded founder pitch assessments. Phase 1 
 
 The React application and FastAPI API live in [vclogic-web-application](https://github.com/VCLogic/vclogic-web-application). This repository has no HTTP server or frontend dependency. Python imports retain the existing `vc_clone_graph` namespace.
 
+## Dependencies Across VCLogic Repositories
+
+This pipeline is the assessment engine in the [VCLogic organization](https://github.com/VCLogic). The related repositories supply investor data or consume the engine:
+
+| Repository | Responsibility | Relationship to This Pipeline |
+|---|---|---|
+| [vclogic-vc-trace-collector](https://github.com/VCLogic/vclogic-vc-trace-collector) | Resolves investor identity and collects articles, interviews, transcripts, and portfolio source pages. | Indirect upstream data source. Its investor exports are processed by investment-memory. |
+| [vclogic-vc-investment-memory](https://github.com/VCLogic/vclogic-vc-investment-memory) | Analyzes collected sources and generates cited investor wikis. | Upstream data producer. Its wikis must be converted by onboarding before assessment use. |
+| [vclogic-vc-inverstor-onboarding](https://github.com/VCLogic/vclogic-vc-inverstor-onboarding) | Validates wikis and prepares investor registrations, configs, retrieval indexes, and optional Pitch Show precedents. | Installs assessment-ready investor bundles into this workspace. Its CLI imports both the investment-memory validator and this engine's builders and validators. |
+| [vclogic-web-application](https://github.com/VCLogic/vclogic-web-application) | Provides the React interface and FastAPI API for assessments and rehearsals. | Downstream package consumer. Imports `vclogic-vc-agentic-assessment` and uses a prepared workspace selected by `--pipeline-workspace`. |
+
+The onboarding GitHub repository currently uses the spelling `inverstor`; its Python package and local checkout use `investor`.
+
+### Data Flow and Package Dependencies
+
+```text
+trace-collector → investment-memory → investor-onboarding → assessment pipeline
+                    cited wiki          prepared bundle          ↑
+                                                           web application
+                                                        invokes the engine
+```
+
+These arrows describe the data and execution flow. The Python package dependencies run as follows:
+
+- **Onboarding imports investment-memory and assessment.** It reuses their validation and asset-building code.
+- **The web application imports assessment.** It also discovers prepared onboarding bundles as files; it does not run onboarding or build missing indexes through the browser.
+- **Assessment imports none of these sibling packages.** Once the required investor assets are prepared, the assessment CLI runs independently of the collector, memory, onboarding, and web processes.
+
+### Local Checkout Layout
+
+For local development across the projects, keep the checkouts beside one another:
+
+```text
+VCLogic/
+├── vclogic-vc-trace-collector/
+├── vclogic-vc-investment-memory/
+├── vclogic-vc-investor-onboarding/
+├── vclogic-vc-agentic-assessment/    # This repository
+└── vclogic-web-application/
+```
+
+The onboarding and web projects configure editable sibling dependencies in their `pyproject.toml` files. When cloning onboarding, explicitly use the expected local directory name:
+
+```bash
+git clone https://github.com/VCLogic/vclogic-vc-inverstor-onboarding.git vclogic-vc-investor-onboarding
+```
+
+For a **new investor**, collect sources, generate the wiki, then prepare, validate, and install the onboarding bundle into this repository. Installed assets include `inputs/investors/<slug>.toml`, `inputs/wiki/<slug>/`, `inputs/indexes/`, and `configs/investors/<slug>/`, plus historical data when available. Follow each linked repository's README for its stage.
+
+For an **already prepared investor**, use this repository's CLI directly. To use the browser interface, start the web application from its own checkout and point `--pipeline-workspace` at this assessment checkout. Investor data, generated indexes, outputs, model downloads, and credentials are separate from Python package installation.
+
 ## Setup and offline verification
 
 Requires Python 3.11–3.13 and uv. From this checkout:
