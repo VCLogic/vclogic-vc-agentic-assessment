@@ -1,0 +1,405 @@
+{
+  "schema": "phase1-rationale-reference-v1",
+  "extraction_version": "pitchshow-rationales-v1",
+  "fingerprint": "22e573d0ee48d134bbbe86b03d948b4e65703fb145797ee7205fd4445c710b1e",
+  "episode_slug": "109-modern-picnic-surviving-the-adpocalypse",
+  "vc_slug": "phil-nadel-forefront-venture-partners",
+  "vc_name": "Phil Nadel",
+  "actual_decision": "Out",
+  "later_decision": "Unknown",
+  "reference_kind": "automated_transcript_observed_candidate",
+  "human_validated": false,
+  "source_format": "transcript-observed-rationales-v1",
+  "source_path": "../source/episodes/109-modern-picnic-surviving-the-adpocalypse.json",
+  "source_sha256": "bc2bf294af2cd5981743db910c5eb956517555e2b9dfae4b037f28fedc467143",
+  "transcript_sha256": "1a21ecd2ea1ccea8fd286ea212fb3e849df98c009edda4c7f9128091623afed3",
+  "taxonomy_sha256": "eaa8734819a3ac34dd19ee5f0bf6de925a793a1d25a2d361090dafc9b751e1fc",
+  "model": "codex:gpt-5.6-luna+gpt-5.6-sol",
+  "generation_stages": [
+    {
+      "phase": "rationale_extract",
+      "backend": "codex",
+      "model": "gpt-5.6-luna"
+    },
+    {
+      "phase": "rationale_verify",
+      "backend": "codex",
+      "model": "gpt-5.6-sol"
+    }
+  ],
+  "source_tier": "newly_extracted_and_independently_model_reviewed",
+  "reviewed_target_turns": [
+    0,
+    3,
+    6,
+    8,
+    10,
+    12,
+    17,
+    25,
+    27,
+    32,
+    64,
+    67,
+    69,
+    71,
+    78,
+    84,
+    106
+  ],
+  "notes": "All supplied target turns were reviewed. The general economics language in turn 78 was not separately labeled because the more specific stated concern is uncertainty about scalable customer-acquisition and wholesale channels.",
+  "receipt_path": "receipts/109-modern-picnic-surviving-the-adpocalypse.json",
+  "scoring_scope": "original_pitch_only",
+  "shared_across_input_modes": true,
+  "rationales": [
+    {
+      "rationale_label": "founder_skillset",
+      "direction": "positive",
+      "salience": "primary",
+      "confidence": 0.97,
+      "utterance_type": "assessment",
+      "decision_link": "explicit",
+      "timing": "original_pitch",
+      "turn_index": 78,
+      "quote": "you're really in touch with this brand and this customer, and you know this space well",
+      "explanation": "Phil identifies Ali's strong command of the brand, customer, and market as the countervailing reason that kept him considering the investment.",
+      "evidence": [
+        "you're really in touch with this brand and this customer, and you know this space well"
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 78,
+          "speaker": "Phil",
+          "quote": "you're really in touch with this brand and this customer, and you know this space well"
+        }
+      ],
+      "activation": "evaluated",
+      "source_rationale_id": "R9",
+      "utterance_kind": "supporting_argument",
+      "decision_support": "supports_in",
+      "all_mention_ids": [
+        "R9"
+      ]
+    },
+    {
+      "rationale_label": "go_to_market_strategy_assessment",
+      "direction": "negative",
+      "salience": "primary",
+      "confidence": 0.99,
+      "utterance_type": "decision_reason",
+      "decision_link": "explicit",
+      "timing": "original_pitch",
+      "turn_index": 78,
+      "quote": "if the wholesale channels take off, that could help, but it's hard to say whether that's going to work.",
+      "explanation": "Phil cites uncertainty about whether future acquisition and wholesale channels will work as the central reason for passing.",
+      "evidence": [
+        "the numbers last year sort of weren't sustainable.",
+        "if the wholesale channels take off, that could help, but it's hard to say whether that's going to work."
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 69,
+          "speaker": "Phil",
+          "quote": "the numbers last year sort of weren't sustainable."
+        },
+        {
+          "turn_index": 78,
+          "speaker": "Phil",
+          "quote": "if the wholesale channels take off, that could help, but it's hard to say whether that's going to work."
+        }
+      ],
+      "activation": "evaluated",
+      "source_rationale_id": "R8",
+      "utterance_kind": "decision_explanation",
+      "decision_support": "supports_out",
+      "all_mention_ids": [
+        "R4",
+        "R6",
+        "R7",
+        "R8"
+      ]
+    },
+    {
+      "rationale_label": "market_size_assessment",
+      "direction": "neutral",
+      "salience": "secondary",
+      "confidence": 0.99,
+      "utterance_type": "question",
+      "decision_link": "none",
+      "timing": "original_pitch",
+      "turn_index": 17,
+      "quote": "Tell us a little bit more about what the market looks like.",
+      "explanation": "Phil asks for information about the addressable market.",
+      "evidence": [
+        "Tell us a little bit more about what the market looks like."
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 17,
+          "speaker": "Phil",
+          "quote": "Tell us a little bit more about what the market looks like."
+        }
+      ],
+      "activation": "queried",
+      "source_rationale_id": "R1",
+      "utterance_kind": "question",
+      "decision_support": "none",
+      "all_mention_ids": [
+        "R1"
+      ]
+    },
+    {
+      "rationale_label": "unit_economics_assessment",
+      "direction": "positive",
+      "salience": "secondary",
+      "confidence": 0.99,
+      "utterance_type": "assessment",
+      "decision_link": "none",
+      "timing": "original_pitch",
+      "turn_index": 64,
+      "quote": "your unit economics are really good for physical product; surprisingly good.",
+      "explanation": "Phil positively assesses the company's first-purchase unit economics.",
+      "evidence": [
+        "your unit economics are really good for physical product; surprisingly good."
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 64,
+          "speaker": "Phil",
+          "quote": "your unit economics are really good for physical product; surprisingly good."
+        }
+      ],
+      "activation": "evaluated",
+      "source_rationale_id": "R5",
+      "utterance_kind": "assessment",
+      "decision_support": "none",
+      "all_mention_ids": [
+        "R2",
+        "R3",
+        "R5"
+      ]
+    }
+  ],
+  "later_rationales": [],
+  "excluded_rationales": [],
+  "rationale_mentions": [
+    {
+      "rationale_label": "market_size_assessment",
+      "direction": "neutral",
+      "salience": "secondary",
+      "confidence": 0.99,
+      "utterance_type": "question",
+      "decision_link": "none",
+      "timing": "original_pitch",
+      "turn_index": 17,
+      "quote": "Tell us a little bit more about what the market looks like.",
+      "explanation": "Phil asks for information about the addressable market.",
+      "evidence": [
+        "Tell us a little bit more about what the market looks like."
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 17,
+          "speaker": "Phil",
+          "quote": "Tell us a little bit more about what the market looks like."
+        }
+      ],
+      "activation": "queried",
+      "source_rationale_id": "R1"
+    },
+    {
+      "rationale_label": "unit_economics_assessment",
+      "direction": "neutral",
+      "salience": "secondary",
+      "confidence": 0.99,
+      "utterance_type": "question",
+      "decision_link": "none",
+      "timing": "original_pitch",
+      "turn_index": 25,
+      "quote": "You said your average price point's like $150?",
+      "explanation": "Phil verifies the selling price as an input to assessing per-unit economics.",
+      "evidence": [
+        "You said your average price point's like $150?"
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 25,
+          "speaker": "Phil",
+          "quote": "You said your average price point's like $150?"
+        }
+      ],
+      "activation": "queried",
+      "source_rationale_id": "R2"
+    },
+    {
+      "rationale_label": "unit_economics_assessment",
+      "direction": "neutral",
+      "salience": "secondary",
+      "confidence": 0.99,
+      "utterance_type": "question",
+      "decision_link": "none",
+      "timing": "original_pitch",
+      "turn_index": 27,
+      "quote": "And your cost is only 15, 20 dollars?",
+      "explanation": "Phil verifies the unit cost relative to the stated selling price.",
+      "evidence": [
+        "And your cost is only 15, 20 dollars?"
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 27,
+          "speaker": "Phil",
+          "quote": "And your cost is only 15, 20 dollars?"
+        }
+      ],
+      "activation": "queried",
+      "source_rationale_id": "R3"
+    },
+    {
+      "rationale_label": "go_to_market_strategy_assessment",
+      "direction": "neutral",
+      "salience": "secondary",
+      "confidence": 0.99,
+      "utterance_type": "question",
+      "decision_link": "none",
+      "timing": "original_pitch",
+      "turn_index": 32,
+      "quote": "has it been all direct to consumer up until now?",
+      "explanation": "Phil asks whether direct-to-consumer has been the company's sole sales channel before its Saks launch.",
+      "evidence": [
+        "has it been all direct to consumer up until now?"
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 32,
+          "speaker": "Phil",
+          "quote": "has it been all direct to consumer up until now?"
+        }
+      ],
+      "activation": "queried",
+      "source_rationale_id": "R4"
+    },
+    {
+      "rationale_label": "unit_economics_assessment",
+      "direction": "positive",
+      "salience": "secondary",
+      "confidence": 0.99,
+      "utterance_type": "assessment",
+      "decision_link": "none",
+      "timing": "original_pitch",
+      "turn_index": 64,
+      "quote": "your unit economics are really good for physical product; surprisingly good.",
+      "explanation": "Phil positively assesses the company's first-purchase unit economics.",
+      "evidence": [
+        "your unit economics are really good for physical product; surprisingly good."
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 64,
+          "speaker": "Phil",
+          "quote": "your unit economics are really good for physical product; surprisingly good."
+        }
+      ],
+      "activation": "evaluated",
+      "source_rationale_id": "R5"
+    },
+    {
+      "rationale_label": "go_to_market_strategy_assessment",
+      "direction": "neutral",
+      "salience": "secondary",
+      "confidence": 0.99,
+      "utterance_type": "question",
+      "decision_link": "none",
+      "timing": "original_pitch",
+      "turn_index": 64,
+      "quote": "if you're covering your CAC and making money on the first purchase, why scale back ads?",
+      "explanation": "Phil asks why the company reduced advertising despite apparently profitable customer acquisition.",
+      "evidence": [
+        "if you're covering your CAC and making money on the first purchase, why scale back ads?"
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 64,
+          "speaker": "Phil",
+          "quote": "if you're covering your CAC and making money on the first purchase, why scale back ads?"
+        }
+      ],
+      "activation": "queried",
+      "source_rationale_id": "R6"
+    },
+    {
+      "rationale_label": "go_to_market_strategy_assessment",
+      "direction": "negative",
+      "salience": "primary",
+      "confidence": 0.98,
+      "utterance_type": "concern",
+      "decision_link": "none",
+      "timing": "original_pitch",
+      "turn_index": 69,
+      "quote": "the numbers last year sort of weren't sustainable.",
+      "explanation": "Phil identifies the prior acquisition economics as unsustainable while probing whether new channels can produce a sustainable CAC.",
+      "evidence": [
+        "the numbers last year sort of weren't sustainable."
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 69,
+          "speaker": "Phil",
+          "quote": "the numbers last year sort of weren't sustainable."
+        }
+      ],
+      "activation": "evaluated",
+      "source_rationale_id": "R7"
+    },
+    {
+      "rationale_label": "go_to_market_strategy_assessment",
+      "direction": "negative",
+      "salience": "primary",
+      "confidence": 0.99,
+      "utterance_type": "decision_explanation",
+      "decision_link": "supports_out",
+      "timing": "original_pitch",
+      "turn_index": 78,
+      "quote": "if the wholesale channels take off, that could help, but it's hard to say whether that's going to work.",
+      "explanation": "Phil cites uncertainty about whether future acquisition and wholesale channels will work as the central reason for passing.",
+      "evidence": [
+        "if the wholesale channels take off, that could help, but it's hard to say whether that's going to work."
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 78,
+          "speaker": "Phil",
+          "quote": "if the wholesale channels take off, that could help, but it's hard to say whether that's going to work."
+        }
+      ],
+      "activation": "evaluated",
+      "source_rationale_id": "R8"
+    },
+    {
+      "rationale_label": "founder_skillset",
+      "direction": "positive",
+      "salience": "primary",
+      "confidence": 0.97,
+      "utterance_type": "supporting_argument",
+      "decision_link": "supports_in",
+      "timing": "original_pitch",
+      "turn_index": 78,
+      "quote": "you're really in touch with this brand and this customer, and you know this space well",
+      "explanation": "Phil identifies Ali's strong command of the brand, customer, and market as the countervailing reason that kept him considering the investment.",
+      "evidence": [
+        "you're really in touch with this brand and this customer, and you know this space well"
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 78,
+          "speaker": "Phil",
+          "quote": "you're really in touch with this brand and this customer, and you know this space well"
+        }
+      ],
+      "activation": "evaluated",
+      "source_rationale_id": "R9"
+    }
+  ],
+  "expanded_quote_evidence": [],
+  "rejected_after_evidence_check": []
+}

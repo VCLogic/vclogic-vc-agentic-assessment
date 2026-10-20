@@ -1,0 +1,646 @@
+{
+  "schema": "phase1-rationale-reference-v1",
+  "extraction_version": "pitchshow-rationales-v1",
+  "fingerprint": "b38014e5dcc8f3a82436ed404cb84fffe2dd4bc3b0ff9ed0d2deab2a671855ed",
+  "episode_slug": "133-podcast-ai-josh-gets-displaced",
+  "vc_slug": "beck-bamberger-bad-ideas-group",
+  "vc_name": "Beck Bamberger",
+  "actual_decision": "Out",
+  "later_decision": "Unknown",
+  "reference_kind": "automated_transcript_observed_candidate",
+  "human_validated": false,
+  "source_format": "transcript-observed-rationales-v1",
+  "source_path": "/home/dpasch01/vclogic-vc-agentic-assessment/evaluation/pitchshow/investors/beck-bamberger-bad-ideas-group/source/episodes/133-podcast-ai-josh-gets-displaced.json",
+  "source_sha256": "29f9f3b805e9d55693bdad54536f56121ce2de033aa27aaf959e83578d7953be",
+  "transcript_sha256": "e0bc0a3a8cd155577231f34bb5a55452b318eb154b237baff95cd91243c9a85c",
+  "taxonomy_sha256": "eaa8734819a3ac34dd19ee5f0bf6de925a793a1d25a2d361090dafc9b751e1fc",
+  "model": "openai/gpt-5.6-luna",
+  "source_tier": "newly_extracted_and_independently_model_reviewed",
+  "reviewed_target_turns": [
+    4,
+    11,
+    28,
+    31,
+    43,
+    45,
+    55,
+    61,
+    63,
+    65,
+    67,
+    71,
+    75,
+    78,
+    84,
+    91,
+    97,
+    99,
+    101,
+    108,
+    110,
+    113,
+    116,
+    118,
+    120,
+    122,
+    124,
+    130,
+    133,
+    138,
+    140,
+    142,
+    145,
+    153,
+    156,
+    157,
+    163,
+    182,
+    185,
+    186,
+    188,
+    278,
+    281,
+    283,
+    286
+  ],
+  "notes": "All supplied target turns were reviewed; target turns without material rationale-bearing content are included only in reviewed_target_turns.",
+  "receipt_path": "/home/dpasch01/vclogic-vc-agentic-assessment/evaluation/pitchshow/investors/beck-bamberger-bad-ideas-group/rationale-references/receipts/133-podcast-ai-josh-gets-displaced.json",
+  "scoring_scope": "original_pitch_only",
+  "shared_across_input_modes": true,
+  "rationales": [
+    {
+      "rationale_label": "business_model_assessment",
+      "direction": "positive",
+      "salience": "secondary",
+      "confidence": 0.94,
+      "utterance_type": "assessment",
+      "decision_link": "none",
+      "timing": "original_pitch",
+      "turn_index": 71,
+      "quote": "That's a lot on the table.",
+      "explanation": "Recognizes the substantial revenue opportunity available through agency customers.",
+      "evidence": [
+        "That's a lot on the table."
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 71,
+          "speaker": "Beck",
+          "quote": "That's a lot on the table."
+        }
+      ],
+      "activation": "evaluated",
+      "source_rationale_id": "R5",
+      "utterance_kind": "assessment",
+      "decision_support": "none",
+      "all_mention_ids": [
+        "R1",
+        "R4",
+        "R5"
+      ]
+    },
+    {
+      "rationale_label": "competitive_advantage_assessment",
+      "direction": "neutral",
+      "salience": "secondary",
+      "confidence": 0.98,
+      "utterance_type": "question",
+      "decision_link": "none",
+      "timing": "original_pitch",
+      "turn_index": 43,
+      "quote": "What's keeping something like a Restream from just going like, yep, we all do this AI stuff too?",
+      "explanation": "Questions what would prevent an established competitor from adding similar AI functionality.",
+      "evidence": [
+        "What's keeping something like a Restream from just going like, yep, we all do this AI stuff too?"
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 43,
+          "speaker": "Beck",
+          "quote": "What's keeping something like a Restream from just going like, yep, we all do this AI stuff too?"
+        }
+      ],
+      "activation": "queried",
+      "source_rationale_id": "R2",
+      "utterance_kind": "question",
+      "decision_support": "none",
+      "all_mention_ids": [
+        "R2"
+      ]
+    },
+    {
+      "rationale_label": "competitive_landscape_inertia",
+      "direction": "negative",
+      "salience": "secondary",
+      "confidence": 0.95,
+      "utterance_type": "assessment",
+      "decision_link": "none",
+      "timing": "original_pitch",
+      "turn_index": 45,
+      "quote": "Restream does three out of five of those things.",
+      "explanation": "Highlights the risk that customers may remain with an incumbent that already covers much of the workflow.",
+      "evidence": [
+        "Restream does three out of five of those things."
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 45,
+          "speaker": "Beck",
+          "quote": "Restream does three out of five of those things."
+        }
+      ],
+      "activation": "evaluated",
+      "source_rationale_id": "R3",
+      "utterance_kind": "concern",
+      "decision_support": "none",
+      "all_mention_ids": [
+        "R3"
+      ]
+    },
+    {
+      "rationale_label": "execution_risk_assessment",
+      "direction": "negative",
+      "salience": "secondary",
+      "confidence": 0.96,
+      "utterance_type": "assessment",
+      "decision_link": "none",
+      "timing": "original_pitch",
+      "turn_index": 91,
+      "quote": "who can actually build and run a company that actually scales it to make it so big",
+      "explanation": "Raises the concern that rapid AI prototyping is insufficient without demonstrated ability to operate and scale a large company.",
+      "evidence": [
+        "who can actually build and run a company that actually scales it to make it so big"
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 91,
+          "speaker": "Beck",
+          "quote": "who can actually build and run a company that actually scales it to make it so big"
+        }
+      ],
+      "activation": "evaluated",
+      "source_rationale_id": "R7",
+      "utterance_kind": "concern",
+      "decision_support": "none",
+      "all_mention_ids": [
+        "R7"
+      ]
+    },
+    {
+      "rationale_label": "founder_execution",
+      "direction": "positive",
+      "salience": "secondary",
+      "confidence": 0.96,
+      "utterance_type": "assessment",
+      "decision_link": "none",
+      "timing": "original_pitch",
+      "turn_index": 75,
+      "quote": "Yeah. It's very fast.",
+      "explanation": "Positively recognizes the founders' rapid product-building pace.",
+      "evidence": [
+        "Yeah. It's very fast."
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 75,
+          "speaker": "Beck",
+          "quote": "Yeah. It's very fast."
+        }
+      ],
+      "activation": "evaluated",
+      "source_rationale_id": "R6",
+      "utterance_kind": "assessment",
+      "decision_support": "none",
+      "all_mention_ids": [
+        "R6"
+      ]
+    },
+    {
+      "rationale_label": "founder_qualities",
+      "direction": "positive",
+      "salience": "secondary",
+      "confidence": 0.95,
+      "utterance_type": "assessment",
+      "decision_link": "none",
+      "timing": "original_pitch",
+      "turn_index": 138,
+      "quote": "And I really just like the super nerd aspect, and you owning that.",
+      "explanation": "Praises the founder's authentic ownership of his technical identity.",
+      "evidence": [
+        "And I really just like the super nerd aspect, and you owning that."
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 138,
+          "speaker": "Beck",
+          "quote": "And I really just like the super nerd aspect, and you owning that."
+        }
+      ],
+      "activation": "evaluated",
+      "source_rationale_id": "R11",
+      "utterance_kind": "assessment",
+      "decision_support": "none",
+      "all_mention_ids": [
+        "R11"
+      ]
+    },
+    {
+      "rationale_label": "investment_thesis_constraint",
+      "direction": "negative",
+      "salience": "primary",
+      "confidence": 0.98,
+      "utterance_type": "decision_reason",
+      "decision_link": "explicit",
+      "timing": "original_pitch",
+      "turn_index": 138,
+      "quote": "I'm out for now. Not my space. Just AI in general.",
+      "explanation": "Explicitly attributes her current refusal to AI being outside her investment focus.",
+      "evidence": [
+        "I'm out for now. Not my space. Just AI in general."
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 138,
+          "speaker": "Beck",
+          "quote": "I'm out for now. Not my space. Just AI in general."
+        }
+      ],
+      "activation": "evaluated",
+      "source_rationale_id": "R8",
+      "utterance_kind": "decision_explanation",
+      "decision_support": "supports_out",
+      "all_mention_ids": [
+        "R8"
+      ]
+    },
+    {
+      "rationale_label": "market_problem_validation",
+      "direction": "positive",
+      "salience": "secondary",
+      "confidence": 0.9,
+      "utterance_type": "assessment",
+      "decision_link": "none",
+      "timing": "original_pitch",
+      "turn_index": 138,
+      "quote": "Because I understand the - several of the pain points you're bringing up where you've done a hundred episodes",
+      "explanation": "Acknowledges that the company addresses concrete workflow and promotion problems.",
+      "evidence": [
+        "Because I understand the - several of the pain points you're bringing up where you've done a hundred episodes"
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 138,
+          "speaker": "Beck",
+          "quote": "Because I understand the - several of the pain points you're bringing up where you've done a hundred episodes"
+        }
+      ],
+      "activation": "evaluated",
+      "source_rationale_id": "R9",
+      "utterance_kind": "assessment",
+      "decision_support": "none",
+      "all_mention_ids": [
+        "R9"
+      ]
+    },
+    {
+      "rationale_label": "product_appeal_assessment",
+      "direction": "positive",
+      "salience": "secondary",
+      "confidence": 0.93,
+      "utterance_type": "assessment",
+      "decision_link": "none",
+      "timing": "original_pitch",
+      "turn_index": 138,
+      "quote": "I'm out for now. Not my space. Just AI in general. But I might be a customer and likely will be. So I want to have a follow up for you. Because I understand the - several of the pain points you're bringing up where you've done a hundred episodes and, you know, where's that original transcript and how do we help the media promote it easily. All these great things. So I do want to follow up. And I really just like the super nerd aspect, and you owning that. Own that. If that's who you are, I - I like that.",
+      "explanation": "Expresses likely personal customer interest despite declining the investment.",
+      "evidence": [
+        "I'm out for now. Not my space. Just AI in general. But I might be a customer and likely will be. So I want to have a follow up for you. Because I understand the - several of the pain points you're bringing up where you've done a hundred episodes and, you know, where's that original transcript and how do we help the media promote it easily. All these great things. So I do want to follow up. And I really just like the super nerd aspect, and you owning that. Own that. If that's who you are, I - I like that."
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 138,
+          "speaker": "Beck",
+          "quote": "I'm out for now. Not my space. Just AI in general. But I might be a customer and likely will be. So I want to have a follow up for you. Because I understand the - several of the pain points you're bringing up where you've done a hundred episodes and, you know, where's that original transcript and how do we help the media promote it easily. All these great things. So I do want to follow up. And I really just like the super nerd aspect, and you owning that. Own that. If that's who you are, I - I like that."
+        }
+      ],
+      "activation": "evaluated",
+      "source_rationale_id": "R10",
+      "utterance_kind": "assessment",
+      "decision_support": "none",
+      "all_mention_ids": [
+        "R10"
+      ]
+    }
+  ],
+  "later_rationales": [],
+  "excluded_rationales": [
+    {
+      "rationale_label": "business_viability_concern",
+      "direction": "negative",
+      "salience": "secondary",
+      "confidence": 0.8,
+      "utterance_type": "concern",
+      "decision_link": "none",
+      "timing": "teaser",
+      "turn_index": 278,
+      "quote": "That sounds expensive.",
+      "explanation": "Expresses concern that counterfeiting and knockoffs may impose meaningful costs on the business.",
+      "evidence": [
+        "That sounds expensive."
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 278,
+          "speaker": "Beck",
+          "quote": "That sounds expensive."
+        }
+      ],
+      "activation": "evaluated",
+      "source_rationale_id": "R12"
+    }
+  ],
+  "rationale_mentions": [
+    {
+      "rationale_label": "business_model_assessment",
+      "direction": "neutral",
+      "salience": "secondary",
+      "confidence": 0.97,
+      "utterance_type": "question",
+      "decision_link": "none",
+      "timing": "original_pitch",
+      "turn_index": 31,
+      "quote": "Mmm. Why did you double?",
+      "explanation": "Asks for the rationale behind the price increase and probes the monetization model.",
+      "evidence": [
+        "Mmm. Why did you double?"
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 31,
+          "speaker": "Beck",
+          "quote": "Mmm. Why did you double?"
+        }
+      ],
+      "activation": "queried",
+      "source_rationale_id": "R1"
+    },
+    {
+      "rationale_label": "competitive_advantage_assessment",
+      "direction": "neutral",
+      "salience": "secondary",
+      "confidence": 0.98,
+      "utterance_type": "question",
+      "decision_link": "none",
+      "timing": "original_pitch",
+      "turn_index": 43,
+      "quote": "What's keeping something like a Restream from just going like, yep, we all do this AI stuff too?",
+      "explanation": "Questions what would prevent an established competitor from adding similar AI functionality.",
+      "evidence": [
+        "What's keeping something like a Restream from just going like, yep, we all do this AI stuff too?"
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 43,
+          "speaker": "Beck",
+          "quote": "What's keeping something like a Restream from just going like, yep, we all do this AI stuff too?"
+        }
+      ],
+      "activation": "queried",
+      "source_rationale_id": "R2"
+    },
+    {
+      "rationale_label": "competitive_landscape_inertia",
+      "direction": "negative",
+      "salience": "secondary",
+      "confidence": 0.95,
+      "utterance_type": "concern",
+      "decision_link": "none",
+      "timing": "original_pitch",
+      "turn_index": 45,
+      "quote": "Restream does three out of five of those things.",
+      "explanation": "Highlights the risk that customers may remain with an incumbent that already covers much of the workflow.",
+      "evidence": [
+        "Restream does three out of five of those things."
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 45,
+          "speaker": "Beck",
+          "quote": "Restream does three out of five of those things."
+        }
+      ],
+      "activation": "evaluated",
+      "source_rationale_id": "R3"
+    },
+    {
+      "rationale_label": "business_model_assessment",
+      "direction": "neutral",
+      "salience": "secondary",
+      "confidence": 0.93,
+      "utterance_type": "question",
+      "decision_link": "none",
+      "timing": "original_pitch",
+      "turn_index": 65,
+      "quote": "So you're saying be more of a Salesforce.",
+      "explanation": "Clarifies whether the company should combine software with a services-oriented business model.",
+      "evidence": [
+        "So you're saying be more of a Salesforce."
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 65,
+          "speaker": "Beck",
+          "quote": "So you're saying be more of a Salesforce."
+        }
+      ],
+      "activation": "queried",
+      "source_rationale_id": "R4"
+    },
+    {
+      "rationale_label": "business_model_assessment",
+      "direction": "positive",
+      "salience": "secondary",
+      "confidence": 0.94,
+      "utterance_type": "assessment",
+      "decision_link": "none",
+      "timing": "original_pitch",
+      "turn_index": 71,
+      "quote": "That's a lot on the table.",
+      "explanation": "Recognizes the substantial revenue opportunity available through agency customers.",
+      "evidence": [
+        "That's a lot on the table."
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 71,
+          "speaker": "Beck",
+          "quote": "That's a lot on the table."
+        }
+      ],
+      "activation": "evaluated",
+      "source_rationale_id": "R5"
+    },
+    {
+      "rationale_label": "founder_execution",
+      "direction": "positive",
+      "salience": "secondary",
+      "confidence": 0.96,
+      "utterance_type": "assessment",
+      "decision_link": "none",
+      "timing": "original_pitch",
+      "turn_index": 75,
+      "quote": "Yeah. It's very fast.",
+      "explanation": "Positively recognizes the founders' rapid product-building pace.",
+      "evidence": [
+        "Yeah. It's very fast."
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 75,
+          "speaker": "Beck",
+          "quote": "Yeah. It's very fast."
+        }
+      ],
+      "activation": "evaluated",
+      "source_rationale_id": "R6"
+    },
+    {
+      "rationale_label": "execution_risk_assessment",
+      "direction": "negative",
+      "salience": "secondary",
+      "confidence": 0.96,
+      "utterance_type": "concern",
+      "decision_link": "none",
+      "timing": "original_pitch",
+      "turn_index": 91,
+      "quote": "who can actually build and run a company that actually scales it to make it so big",
+      "explanation": "Raises the concern that rapid AI prototyping is insufficient without demonstrated ability to operate and scale a large company.",
+      "evidence": [
+        "who can actually build and run a company that actually scales it to make it so big"
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 91,
+          "speaker": "Beck",
+          "quote": "who can actually build and run a company that actually scales it to make it so big"
+        }
+      ],
+      "activation": "evaluated",
+      "source_rationale_id": "R7"
+    },
+    {
+      "rationale_label": "investment_thesis_constraint",
+      "direction": "negative",
+      "salience": "primary",
+      "confidence": 0.98,
+      "utterance_type": "decision_explanation",
+      "decision_link": "supports_out",
+      "timing": "original_pitch",
+      "turn_index": 138,
+      "quote": "I'm out for now. Not my space. Just AI in general.",
+      "explanation": "Explicitly attributes her current refusal to AI being outside her investment focus.",
+      "evidence": [
+        "I'm out for now. Not my space. Just AI in general."
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 138,
+          "speaker": "Beck",
+          "quote": "I'm out for now. Not my space. Just AI in general."
+        }
+      ],
+      "activation": "evaluated",
+      "source_rationale_id": "R8"
+    },
+    {
+      "rationale_label": "market_problem_validation",
+      "direction": "positive",
+      "salience": "secondary",
+      "confidence": 0.9,
+      "utterance_type": "assessment",
+      "decision_link": "none",
+      "timing": "original_pitch",
+      "turn_index": 138,
+      "quote": "Because I understand the - several of the pain points you're bringing up where you've done a hundred episodes",
+      "explanation": "Acknowledges that the company addresses concrete workflow and promotion problems.",
+      "evidence": [
+        "Because I understand the - several of the pain points you're bringing up where you've done a hundred episodes"
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 138,
+          "speaker": "Beck",
+          "quote": "Because I understand the - several of the pain points you're bringing up where you've done a hundred episodes"
+        }
+      ],
+      "activation": "evaluated",
+      "source_rationale_id": "R9"
+    },
+    {
+      "rationale_label": "product_appeal_assessment",
+      "direction": "positive",
+      "salience": "secondary",
+      "confidence": 0.93,
+      "utterance_type": "assessment",
+      "decision_link": "none",
+      "timing": "original_pitch",
+      "turn_index": 138,
+      "quote": "I'm out for now. Not my space. Just AI in general. But I might be a customer and likely will be. So I want to have a follow up for you. Because I understand the - several of the pain points you're bringing up where you've done a hundred episodes and, you know, where's that original transcript and how do we help the media promote it easily. All these great things. So I do want to follow up. And I really just like the super nerd aspect, and you owning that. Own that. If that's who you are, I - I like that.",
+      "explanation": "Expresses likely personal customer interest despite declining the investment.",
+      "evidence": [
+        "I'm out for now. Not my space. Just AI in general. But I might be a customer and likely will be. So I want to have a follow up for you. Because I understand the - several of the pain points you're bringing up where you've done a hundred episodes and, you know, where's that original transcript and how do we help the media promote it easily. All these great things. So I do want to follow up. And I really just like the super nerd aspect, and you owning that. Own that. If that's who you are, I - I like that."
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 138,
+          "speaker": "Beck",
+          "quote": "I'm out for now. Not my space. Just AI in general. But I might be a customer and likely will be. So I want to have a follow up for you. Because I understand the - several of the pain points you're bringing up where you've done a hundred episodes and, you know, where's that original transcript and how do we help the media promote it easily. All these great things. So I do want to follow up. And I really just like the super nerd aspect, and you owning that. Own that. If that's who you are, I - I like that."
+        }
+      ],
+      "activation": "evaluated",
+      "source_rationale_id": "R10"
+    },
+    {
+      "rationale_label": "founder_qualities",
+      "direction": "positive",
+      "salience": "secondary",
+      "confidence": 0.95,
+      "utterance_type": "assessment",
+      "decision_link": "none",
+      "timing": "original_pitch",
+      "turn_index": 138,
+      "quote": "And I really just like the super nerd aspect, and you owning that.",
+      "explanation": "Praises the founder's authentic ownership of his technical identity.",
+      "evidence": [
+        "And I really just like the super nerd aspect, and you owning that."
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 138,
+          "speaker": "Beck",
+          "quote": "And I really just like the super nerd aspect, and you owning that."
+        }
+      ],
+      "activation": "evaluated",
+      "source_rationale_id": "R11"
+    }
+  ],
+  "expanded_quote_evidence": [
+    {
+      "original_annotation": {
+        "rationale_label": "product_appeal_assessment",
+        "direction": "positive",
+        "salience": "secondary",
+        "confidence": 0.93,
+        "utterance_type": "assessment",
+        "decision_link": "none",
+        "timing": "original_pitch",
+        "turn_index": 138,
+        "quote": "I might be a customer and likely will.",
+        "explanation": "Expresses likely personal customer interest despite declining the investment."
+      },
+      "review_reason": "The statement supports a positive secondary assessment of the product through Beck's likely customer interest and acknowledgment of its value, while the rationale is not itself linked to an investment commitment or refusal. The statement is an original in-room decision discussion and is assessment-oriented."
+    }
+  ],
+  "rejected_after_evidence_check": []
+}

@@ -1,0 +1,818 @@
+{
+  "schema": "phase1-rationale-reference-v1",
+  "extraction_version": "pitchshow-rationales-v1",
+  "fingerprint": "3b776a978c4c14c47648ccbb08940e52e9ac4a4f45f85fc98d0398e34bd3287f",
+  "episode_slug": "188-church-ai-deploying-gods-agents",
+  "vc_slug": "elizabeth-yin-hustle-fund",
+  "vc_name": "Elizabeth Yin",
+  "actual_decision": "Out",
+  "later_decision": "Unknown",
+  "reference_kind": "automated_transcript_observed_candidate",
+  "human_validated": false,
+  "source_format": "transcript-observed-rationales-v1",
+  "source_path": "/home/dpasch01/vclogic-vc-agentic-assessment/evaluation/pitchshow/investors/elizabeth-yin-hustle-fund/source/episodes/188-church-ai-deploying-gods-agents.json",
+  "source_sha256": "5d7748e6591ba0f3969b775bfed847a9c07aa5da6eefe6f832df364c8ed8d0f8",
+  "transcript_sha256": "bc208c79de3d6683eaba24bcbe292ddcdbfdab4469d744605334240365457956",
+  "taxonomy_sha256": "eaa8734819a3ac34dd19ee5f0bf6de925a793a1d25a2d361090dafc9b751e1fc",
+  "model": "codex:gpt-5.6-luna+gpt-5.6-sol",
+  "generation_stages": [
+    {
+      "phase": "rationale_extract",
+      "backend": "codex",
+      "model": "gpt-5.6-luna"
+    },
+    {
+      "phase": "rationale_verify",
+      "backend": "codex",
+      "model": "gpt-5.6-sol"
+    }
+  ],
+  "source_tier": "newly_extracted_and_independently_model_reviewed",
+  "reviewed_target_turns": [
+    23,
+    25,
+    30,
+    44,
+    46,
+    48,
+    50,
+    55,
+    57,
+    59,
+    61,
+    69,
+    71,
+    76,
+    88,
+    90,
+    92,
+    98,
+    113,
+    115,
+    117,
+    147,
+    174,
+    176,
+    185,
+    188,
+    190,
+    193,
+    198,
+    210,
+    221,
+    223,
+    234,
+    452
+  ],
+  "notes": "All supplied target turns were reviewed; non-rationale greetings, acknowledgments, reactions, banter, and requests for another person's opinion were omitted.",
+  "receipt_path": "/home/dpasch01/vclogic-vc-agentic-assessment/evaluation/pitchshow/investors/elizabeth-yin-hustle-fund/rationale-references/receipts/188-church-ai-deploying-gods-agents.json",
+  "scoring_scope": "original_pitch_only",
+  "shared_across_input_modes": true,
+  "rationales": [
+    {
+      "rationale_label": "business_model_assessment",
+      "direction": "positive",
+      "salience": "secondary",
+      "confidence": 0.98,
+      "utterance_type": "assessment",
+      "decision_link": "none",
+      "timing": "original_pitch",
+      "turn_index": 90,
+      "quote": "as you build out more, you can probably charge more.",
+      "explanation": "She believes additional product capabilities could support higher pricing.",
+      "evidence": [
+        "as you build out more, you can probably charge more."
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 90,
+          "speaker": "Elizabeth",
+          "quote": "as you build out more, you can probably charge more."
+        }
+      ],
+      "activation": "evaluated",
+      "source_rationale_id": "R11",
+      "utterance_kind": "supporting_argument",
+      "decision_support": "none",
+      "all_mention_ids": [
+        "R10",
+        "R11",
+        "R12"
+      ]
+    },
+    {
+      "rationale_label": "founder_execution",
+      "direction": "positive",
+      "salience": "secondary",
+      "confidence": 0.88,
+      "utterance_type": "assessment",
+      "decision_link": "none",
+      "timing": "original_pitch",
+      "turn_index": 193,
+      "quote": "Because it means he's gonna sell more.",
+      "explanation": "She views the founder's limited capital request as encouraging sales-driven, resourceful execution.",
+      "evidence": [
+        "I really like your growth background, like that you've run businesses before.",
+        "Because it means he's gonna sell more."
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 115,
+          "speaker": "Elizabeth",
+          "quote": "I really like your growth background, like that you've run businesses before."
+        },
+        {
+          "turn_index": 193,
+          "speaker": "Elizabeth",
+          "quote": "Because it means he's gonna sell more."
+        }
+      ],
+      "activation": "evaluated",
+      "source_rationale_id": "R18",
+      "utterance_kind": "supporting_argument",
+      "decision_support": "none",
+      "all_mention_ids": [
+        "R8",
+        "R15",
+        "R18"
+      ]
+    },
+    {
+      "rationale_label": "founder_skillset",
+      "direction": "positive",
+      "salience": "secondary",
+      "confidence": 0.99,
+      "utterance_type": "assessment",
+      "decision_link": "none",
+      "timing": "original_pitch",
+      "turn_index": 115,
+      "quote": "You're ve- very sales oriented",
+      "explanation": "She positively assesses the team's sales capability.",
+      "evidence": [
+        "You're ve- very sales oriented"
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 115,
+          "speaker": "Elizabeth",
+          "quote": "You're ve- very sales oriented"
+        }
+      ],
+      "activation": "evaluated",
+      "source_rationale_id": "R16",
+      "utterance_kind": "supporting_argument",
+      "decision_support": "none",
+      "all_mention_ids": [
+        "R9",
+        "R16"
+      ]
+    },
+    {
+      "rationale_label": "market_problem_validation",
+      "direction": "positive",
+      "salience": "secondary",
+      "confidence": 0.86,
+      "utterance_type": "assessment",
+      "decision_link": "none",
+      "timing": "original_pitch",
+      "turn_index": 44,
+      "quote": "Totally get that. My sister actually runs operations for her church.",
+      "explanation": "Her familiarity with church operations supports her recognition of the administrative problem.",
+      "evidence": [
+        "Totally get that. My sister actually runs operations for her church."
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 44,
+          "speaker": "Elizabeth",
+          "quote": "Totally get that. My sister actually runs operations for her church."
+        }
+      ],
+      "activation": "evaluated",
+      "source_rationale_id": "R2",
+      "utterance_kind": "assessment",
+      "decision_support": "none",
+      "all_mention_ids": [
+        "R2"
+      ]
+    },
+    {
+      "rationale_label": "market_timing",
+      "direction": "positive",
+      "salience": "secondary",
+      "confidence": 0.99,
+      "utterance_type": "assessment",
+      "decision_link": "none",
+      "timing": "original_pitch",
+      "turn_index": 223,
+      "quote": "I think the customer acquisition is the right timing for this.",
+      "explanation": "She believes new church formation and faster technology adoption make the timing favorable for acquiring customers.",
+      "evidence": [
+        "there are two interesting trends that this is riding on",
+        "I think the customer acquisition is the right timing for this."
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 221,
+          "speaker": "Elizabeth",
+          "quote": "there are two interesting trends that this is riding on"
+        },
+        {
+          "turn_index": 223,
+          "speaker": "Elizabeth",
+          "quote": "I think the customer acquisition is the right timing for this."
+        }
+      ],
+      "activation": "evaluated",
+      "source_rationale_id": "R20",
+      "utterance_kind": "supporting_argument",
+      "decision_support": "none",
+      "all_mention_ids": [
+        "R19",
+        "R20"
+      ]
+    },
+    {
+      "rationale_label": "portfolio_conflict_constraint",
+      "direction": "negative",
+      "salience": "primary",
+      "confidence": 1.0,
+      "utterance_type": "decision_reason",
+      "decision_link": "explicit",
+      "timing": "original_pitch",
+      "turn_index": 115,
+      "quote": "I think I have a conflict with Overflow.",
+      "explanation": "She explicitly makes the existing Overflow investment and its expanding church focus the reason for declining.",
+      "evidence": [
+        "which focuses on church donations primarily.",
+        "I think I have a conflict with Overflow."
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 57,
+          "speaker": "Elizabeth",
+          "quote": "which focuses on church donations primarily."
+        },
+        {
+          "turn_index": 115,
+          "speaker": "Elizabeth",
+          "quote": "I think I have a conflict with Overflow."
+        }
+      ],
+      "activation": "evaluated",
+      "source_rationale_id": "R17",
+      "utterance_kind": "decision_explanation",
+      "decision_support": "supports_out",
+      "all_mention_ids": [
+        "R6",
+        "R7",
+        "R14",
+        "R17"
+      ]
+    },
+    {
+      "rationale_label": "solution_feasibility_assessment",
+      "direction": "positive",
+      "salience": "secondary",
+      "confidence": 0.94,
+      "utterance_type": "assessment",
+      "decision_link": "none",
+      "timing": "original_pitch",
+      "turn_index": 98,
+      "quote": "I believe that.",
+      "explanation": "She affirms the feasibility of automating the church administrative work described immediately beforehand.",
+      "evidence": [
+        "I believe that."
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 98,
+          "speaker": "Elizabeth",
+          "quote": "I believe that."
+        }
+      ],
+      "activation": "evaluated",
+      "source_rationale_id": "R13",
+      "utterance_kind": "assessment",
+      "decision_support": "none",
+      "all_mention_ids": [
+        "R1",
+        "R3",
+        "R4",
+        "R5",
+        "R13"
+      ]
+    }
+  ],
+  "later_rationales": [],
+  "excluded_rationales": [
+    {
+      "rationale_label": "founder_execution",
+      "direction": "neutral",
+      "salience": "secondary",
+      "confidence": 0.94,
+      "utterance_type": "question",
+      "decision_link": "none",
+      "timing": "teaser",
+      "turn_index": 452,
+      "quote": "what are you doing differently?",
+      "explanation": "In the next-episode teaser, she probes how the founder will change his company-building approach based on prior outcomes.",
+      "evidence": [
+        "what are you doing differently?"
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 452,
+          "speaker": "Elizabeth",
+          "quote": "what are you doing differently?"
+        }
+      ],
+      "activation": "queried",
+      "source_rationale_id": "R21"
+    }
+  ],
+  "rationale_mentions": [
+    {
+      "rationale_label": "solution_feasibility_assessment",
+      "direction": "neutral",
+      "salience": "secondary",
+      "confidence": 0.99,
+      "utterance_type": "question",
+      "decision_link": "none",
+      "timing": "original_pitch",
+      "turn_index": 30,
+      "quote": "Doesn't that involve, like, physical signals, like whether somebody's coming to church or, like you know, participating in something",
+      "explanation": "Elizabeth probes whether the product can access the real-world signals needed to predict member attrition.",
+      "evidence": [
+        "Doesn't that involve, like, physical signals, like whether somebody's coming to church or, like you know, participating in something"
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 30,
+          "speaker": "Elizabeth",
+          "quote": "Doesn't that involve, like, physical signals, like whether somebody's coming to church or, like you know, participating in something"
+        }
+      ],
+      "activation": "queried",
+      "source_rationale_id": "R1"
+    },
+    {
+      "rationale_label": "market_problem_validation",
+      "direction": "positive",
+      "salience": "secondary",
+      "confidence": 0.86,
+      "utterance_type": "assessment",
+      "decision_link": "none",
+      "timing": "original_pitch",
+      "turn_index": 44,
+      "quote": "Totally get that. My sister actually runs operations for her church.",
+      "explanation": "Her familiarity with church operations supports her recognition of the administrative problem.",
+      "evidence": [
+        "Totally get that. My sister actually runs operations for her church."
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 44,
+          "speaker": "Elizabeth",
+          "quote": "Totally get that. My sister actually runs operations for her church."
+        }
+      ],
+      "activation": "evaluated",
+      "source_rationale_id": "R2"
+    },
+    {
+      "rationale_label": "solution_feasibility_assessment",
+      "direction": "neutral",
+      "salience": "secondary",
+      "confidence": 0.97,
+      "utterance_type": "question",
+      "decision_link": "none",
+      "timing": "original_pitch",
+      "turn_index": 44,
+      "quote": "how does it help with the internal processes?",
+      "explanation": "She asks how the solution operationally improves internal church workflows beyond member engagement.",
+      "evidence": [
+        "how does it help with the internal processes?"
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 44,
+          "speaker": "Elizabeth",
+          "quote": "how does it help with the internal processes?"
+        }
+      ],
+      "activation": "queried",
+      "source_rationale_id": "R3"
+    },
+    {
+      "rationale_label": "solution_feasibility_assessment",
+      "direction": "neutral",
+      "salience": "secondary",
+      "confidence": 0.99,
+      "utterance_type": "question",
+      "decision_link": "none",
+      "timing": "original_pitch",
+      "turn_index": 46,
+      "quote": "And, your system does that?",
+      "explanation": "She checks whether the described scheduling capability actually exists in the product.",
+      "evidence": [
+        "And, your system does that?"
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 46,
+          "speaker": "Elizabeth",
+          "quote": "And, your system does that?"
+        }
+      ],
+      "activation": "queried",
+      "source_rationale_id": "R4"
+    },
+    {
+      "rationale_label": "solution_feasibility_assessment",
+      "direction": "neutral",
+      "salience": "secondary",
+      "confidence": 0.98,
+      "utterance_type": "question",
+      "decision_link": "none",
+      "timing": "original_pitch",
+      "turn_index": 48,
+      "quote": "what does your current solution do?",
+      "explanation": "She probes the scope of the currently functioning product after learning that a described use case is still planned.",
+      "evidence": [
+        "what does your current solution do?"
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 48,
+          "speaker": "Elizabeth",
+          "quote": "what does your current solution do?"
+        }
+      ],
+      "activation": "queried",
+      "source_rationale_id": "R5"
+    },
+    {
+      "rationale_label": "portfolio_conflict_constraint",
+      "direction": "negative",
+      "salience": "secondary",
+      "confidence": 0.96,
+      "utterance_type": "assessment",
+      "decision_link": "none",
+      "timing": "original_pitch",
+      "turn_index": 57,
+      "quote": "which focuses on church donations primarily.",
+      "explanation": "She identifies the church-donation focus of her existing portfolio company, establishing potential competitive overlap.",
+      "evidence": [
+        "which focuses on church donations primarily."
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 57,
+          "speaker": "Elizabeth",
+          "quote": "which focuses on church donations primarily."
+        }
+      ],
+      "activation": "evaluated",
+      "source_rationale_id": "R6"
+    },
+    {
+      "rationale_label": "portfolio_conflict_constraint",
+      "direction": "neutral",
+      "salience": "secondary",
+      "confidence": 0.93,
+      "utterance_type": "question",
+      "decision_link": "none",
+      "timing": "original_pitch",
+      "turn_index": 61,
+      "quote": "And then later you're addressing payments and operations internally.",
+      "explanation": "She confirms that the roadmap will enter payments and broader church operations, the areas relevant to the disclosed portfolio overlap.",
+      "evidence": [
+        "And then later you're addressing payments and operations internally."
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 61,
+          "speaker": "Elizabeth",
+          "quote": "And then later you're addressing payments and operations internally."
+        }
+      ],
+      "activation": "queried",
+      "source_rationale_id": "R7"
+    },
+    {
+      "rationale_label": "founder_execution",
+      "direction": "neutral",
+      "salience": "secondary",
+      "confidence": 0.94,
+      "utterance_type": "question",
+      "decision_link": "none",
+      "timing": "original_pitch",
+      "turn_index": 69,
+      "quote": "Talk a little bit about what you were doing before.",
+      "explanation": "She investigates the founder's prior operating experience.",
+      "evidence": [
+        "Talk a little bit about what you were doing before."
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 69,
+          "speaker": "Elizabeth",
+          "quote": "Talk a little bit about what you were doing before."
+        }
+      ],
+      "activation": "queried",
+      "source_rationale_id": "R8"
+    },
+    {
+      "rationale_label": "founder_skillset",
+      "direction": "neutral",
+      "salience": "secondary",
+      "confidence": 0.95,
+      "utterance_type": "question",
+      "decision_link": "none",
+      "timing": "original_pitch",
+      "turn_index": 71,
+      "quote": "this is, like, with you and your co-founder? Or who was doing kind of what?",
+      "explanation": "She asks how responsibilities and capabilities were divided between the founders in their prior company.",
+      "evidence": [
+        "this is, like, with you and your co-founder? Or who was doing kind of what?"
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 71,
+          "speaker": "Elizabeth",
+          "quote": "this is, like, with you and your co-founder? Or who was doing kind of what?"
+        }
+      ],
+      "activation": "queried",
+      "source_rationale_id": "R9"
+    },
+    {
+      "rationale_label": "business_model_assessment",
+      "direction": "neutral",
+      "salience": "secondary",
+      "confidence": 0.99,
+      "utterance_type": "question",
+      "decision_link": "none",
+      "timing": "original_pitch",
+      "turn_index": 88,
+      "quote": "How much are you charging for your current product?",
+      "explanation": "She asks about the company's current pricing and monetization.",
+      "evidence": [
+        "How much are you charging for your current product?"
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 88,
+          "speaker": "Elizabeth",
+          "quote": "How much are you charging for your current product?"
+        }
+      ],
+      "activation": "queried",
+      "source_rationale_id": "R10"
+    },
+    {
+      "rationale_label": "business_model_assessment",
+      "direction": "positive",
+      "salience": "secondary",
+      "confidence": 0.98,
+      "utterance_type": "supporting_argument",
+      "decision_link": "none",
+      "timing": "original_pitch",
+      "turn_index": 90,
+      "quote": "as you build out more, you can probably charge more.",
+      "explanation": "She believes additional product capabilities could support higher pricing.",
+      "evidence": [
+        "as you build out more, you can probably charge more."
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 90,
+          "speaker": "Elizabeth",
+          "quote": "as you build out more, you can probably charge more."
+        }
+      ],
+      "activation": "evaluated",
+      "source_rationale_id": "R11"
+    },
+    {
+      "rationale_label": "business_model_assessment",
+      "direction": "neutral",
+      "salience": "secondary",
+      "confidence": 0.9,
+      "utterance_type": "question",
+      "decision_link": "none",
+      "timing": "original_pitch",
+      "turn_index": 92,
+      "quote": "But this is what you're currently charging.",
+      "explanation": "She confirms that the quoted pricing reflects present monetization rather than future expanded offerings.",
+      "evidence": [
+        "But this is what you're currently charging."
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 92,
+          "speaker": "Elizabeth",
+          "quote": "But this is what you're currently charging."
+        }
+      ],
+      "activation": "queried",
+      "source_rationale_id": "R12"
+    },
+    {
+      "rationale_label": "solution_feasibility_assessment",
+      "direction": "positive",
+      "salience": "secondary",
+      "confidence": 0.94,
+      "utterance_type": "assessment",
+      "decision_link": "none",
+      "timing": "original_pitch",
+      "turn_index": 98,
+      "quote": "I believe that.",
+      "explanation": "She affirms the feasibility of automating the church administrative work described immediately beforehand.",
+      "evidence": [
+        "I believe that."
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 98,
+          "speaker": "Elizabeth",
+          "quote": "I believe that."
+        }
+      ],
+      "activation": "evaluated",
+      "source_rationale_id": "R13"
+    },
+    {
+      "rationale_label": "portfolio_conflict_constraint",
+      "direction": "neutral",
+      "salience": "secondary",
+      "confidence": 0.98,
+      "utterance_type": "question",
+      "decision_link": "none",
+      "timing": "original_pitch",
+      "turn_index": 113,
+      "quote": "you're planning on going pretty hard on donations?",
+      "explanation": "She directly probes how central the overlapping donations business will be to the company's near-term roadmap.",
+      "evidence": [
+        "you're planning on going pretty hard on donations?"
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 113,
+          "speaker": "Elizabeth",
+          "quote": "you're planning on going pretty hard on donations?"
+        }
+      ],
+      "activation": "queried",
+      "source_rationale_id": "R14"
+    },
+    {
+      "rationale_label": "founder_execution",
+      "direction": "positive",
+      "salience": "secondary",
+      "confidence": 0.99,
+      "utterance_type": "supporting_argument",
+      "decision_link": "none",
+      "timing": "original_pitch",
+      "turn_index": 115,
+      "quote": "I really like your growth background, like that you've run businesses before.",
+      "explanation": "She positively assesses the founders' demonstrated business-building experience.",
+      "evidence": [
+        "I really like your growth background, like that you've run businesses before."
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 115,
+          "speaker": "Elizabeth",
+          "quote": "I really like your growth background, like that you've run businesses before."
+        }
+      ],
+      "activation": "evaluated",
+      "source_rationale_id": "R15"
+    },
+    {
+      "rationale_label": "founder_skillset",
+      "direction": "positive",
+      "salience": "secondary",
+      "confidence": 0.99,
+      "utterance_type": "supporting_argument",
+      "decision_link": "none",
+      "timing": "original_pitch",
+      "turn_index": 115,
+      "quote": "You're ve- very sales oriented",
+      "explanation": "She positively assesses the team's sales capability.",
+      "evidence": [
+        "You're ve- very sales oriented"
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 115,
+          "speaker": "Elizabeth",
+          "quote": "You're ve- very sales oriented"
+        }
+      ],
+      "activation": "evaluated",
+      "source_rationale_id": "R16"
+    },
+    {
+      "rationale_label": "portfolio_conflict_constraint",
+      "direction": "negative",
+      "salience": "primary",
+      "confidence": 1.0,
+      "utterance_type": "decision_explanation",
+      "decision_link": "supports_out",
+      "timing": "original_pitch",
+      "turn_index": 115,
+      "quote": "I think I have a conflict with Overflow.",
+      "explanation": "She explicitly makes the existing Overflow investment and its expanding church focus the reason for declining.",
+      "evidence": [
+        "I think I have a conflict with Overflow."
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 115,
+          "speaker": "Elizabeth",
+          "quote": "I think I have a conflict with Overflow."
+        }
+      ],
+      "activation": "evaluated",
+      "source_rationale_id": "R17"
+    },
+    {
+      "rationale_label": "founder_execution",
+      "direction": "positive",
+      "salience": "secondary",
+      "confidence": 0.88,
+      "utterance_type": "supporting_argument",
+      "decision_link": "none",
+      "timing": "original_pitch",
+      "turn_index": 193,
+      "quote": "Because it means he's gonna sell more.",
+      "explanation": "She views the founder's limited capital request as encouraging sales-driven, resourceful execution.",
+      "evidence": [
+        "Because it means he's gonna sell more."
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 193,
+          "speaker": "Elizabeth",
+          "quote": "Because it means he's gonna sell more."
+        }
+      ],
+      "activation": "evaluated",
+      "source_rationale_id": "R18"
+    },
+    {
+      "rationale_label": "market_timing",
+      "direction": "positive",
+      "salience": "secondary",
+      "confidence": 0.96,
+      "utterance_type": "supporting_argument",
+      "decision_link": "none",
+      "timing": "original_pitch",
+      "turn_index": 221,
+      "quote": "there are two interesting trends that this is riding on",
+      "explanation": "She argues that the company benefits from concurrent AI and church-market trends.",
+      "evidence": [
+        "there are two interesting trends that this is riding on"
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 221,
+          "speaker": "Elizabeth",
+          "quote": "there are two interesting trends that this is riding on"
+        }
+      ],
+      "activation": "evaluated",
+      "source_rationale_id": "R19"
+    },
+    {
+      "rationale_label": "market_timing",
+      "direction": "positive",
+      "salience": "secondary",
+      "confidence": 0.99,
+      "utterance_type": "supporting_argument",
+      "decision_link": "none",
+      "timing": "original_pitch",
+      "turn_index": 223,
+      "quote": "I think the customer acquisition is the right timing for this.",
+      "explanation": "She believes new church formation and faster technology adoption make the timing favorable for acquiring customers.",
+      "evidence": [
+        "I think the customer acquisition is the right timing for this."
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 223,
+          "speaker": "Elizabeth",
+          "quote": "I think the customer acquisition is the right timing for this."
+        }
+      ],
+      "activation": "evaluated",
+      "source_rationale_id": "R20"
+    }
+  ],
+  "expanded_quote_evidence": [],
+  "rejected_after_evidence_check": []
+}

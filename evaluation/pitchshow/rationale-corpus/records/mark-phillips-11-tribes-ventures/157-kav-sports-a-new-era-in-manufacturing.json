@@ -1,0 +1,1035 @@
+{
+  "schema": "phase1-rationale-reference-v1",
+  "extraction_version": "pitchshow-rationales-v1",
+  "fingerprint": "d1f41154c6bcb33fd33b4ca3a217640acaf3c29777b7ea7343d6f1708e1cbf05",
+  "episode_slug": "157-kav-sports-a-new-era-in-manufacturing",
+  "vc_slug": "mark-phillips-11-tribes-ventures",
+  "vc_name": "Mark Phillips",
+  "actual_decision": "Out",
+  "later_decision": "Unknown",
+  "reference_kind": "automated_transcript_observed_candidate",
+  "human_validated": false,
+  "source_format": "transcript-observed-rationales-v1",
+  "source_path": "/home/dpasch01/vclogic-vc-agentic-assessment/evaluation/pitchshow/investors/mark-phillips-11-tribes-ventures/source/episodes/157-kav-sports-a-new-era-in-manufacturing.json",
+  "source_sha256": "470dcaa2ef40119e286386035159982a64523f684082c79e049d1354a3680a56",
+  "transcript_sha256": "09eedfe410e89f25649bc85fb0304c6b05022cc2b4bc62208ff3f60a5a26793d",
+  "taxonomy_sha256": "eaa8734819a3ac34dd19ee5f0bf6de925a793a1d25a2d361090dafc9b751e1fc",
+  "model": "codex:gpt-5.6-luna+gpt-5.6-sol",
+  "generation_stages": [
+    {
+      "phase": "rationale_extract",
+      "backend": "openrouter",
+      "model": "openai/gpt-5.6-luna"
+    },
+    {
+      "phase": "rationale_verify",
+      "backend": "codex",
+      "model": "gpt-5.6-sol"
+    }
+  ],
+  "source_tier": "newly_extracted_and_independently_model_reviewed",
+  "reviewed_target_turns": [
+    2,
+    5,
+    7,
+    24,
+    28,
+    30,
+    33,
+    35,
+    37,
+    44,
+    46,
+    48,
+    50,
+    67,
+    69,
+    71,
+    73,
+    79,
+    81,
+    83,
+    85,
+    86,
+    88,
+    99,
+    101,
+    103,
+    105,
+    107,
+    125,
+    129,
+    134,
+    136,
+    138,
+    143,
+    145,
+    147,
+    151
+  ],
+  "notes": "All supplied target turns were reviewed exactly once; non-material reactions, confirmations, pleasantries, and discussion of other investors’ strategies were omitted.",
+  "receipt_path": "/home/dpasch01/vclogic-vc-agentic-assessment/evaluation/pitchshow/investors/mark-phillips-11-tribes-ventures/rationale-references/receipts/157-kav-sports-a-new-era-in-manufacturing.json",
+  "scoring_scope": "original_pitch_only",
+  "shared_across_input_modes": true,
+  "rationales": [
+    {
+      "rationale_label": "business_viability_concern",
+      "direction": "negative",
+      "salience": "primary",
+      "confidence": 0.98,
+      "utterance_type": "assessment",
+      "decision_link": "none",
+      "timing": "original_pitch",
+      "turn_index": 86,
+      "quote": "because of some of the financing decisions that you make, the business no longer is able to exist",
+      "explanation": "Mark worries that aggressive financing choices could ultimately threaten the company’s continued existence.",
+      "evidence": [
+        "because of some of the financing decisions that you make, the business no longer is able to exist"
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 86,
+          "speaker": "Mark",
+          "quote": "because of some of the financing decisions that you make, the business no longer is able to exist"
+        }
+      ],
+      "activation": "evaluated",
+      "source_rationale_id": "R16",
+      "utterance_kind": "concern",
+      "decision_support": "none",
+      "all_mention_ids": [
+        "R16"
+      ]
+    },
+    {
+      "rationale_label": "capital_intensity_concern",
+      "direction": "neutral",
+      "salience": "secondary",
+      "confidence": 0.97,
+      "utterance_type": "question",
+      "decision_link": "none",
+      "timing": "original_pitch",
+      "turn_index": 73,
+      "quote": "Do you expect to raise more capital down the road?",
+      "explanation": "Mark asks whether the company will need further outside financing after the current round.",
+      "evidence": [
+        "And maybe really the capital needs of the business moving forward.",
+        "Do you expect to raise more capital down the road?"
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 67,
+          "speaker": "Mark",
+          "quote": "And maybe really the capital needs of the business moving forward."
+        },
+        {
+          "turn_index": 73,
+          "speaker": "Mark",
+          "quote": "Do you expect to raise more capital down the road?"
+        }
+      ],
+      "activation": "queried",
+      "source_rationale_id": "R9",
+      "utterance_kind": "question",
+      "decision_support": "none",
+      "all_mention_ids": [
+        "R7",
+        "R9"
+      ]
+    },
+    {
+      "rationale_label": "founder_investor_vision_alignment",
+      "direction": "negative",
+      "salience": "primary",
+      "confidence": 0.88,
+      "utterance_type": "assessment",
+      "decision_link": "explicit",
+      "timing": "original_pitch",
+      "turn_index": 101,
+      "quote": "you have existing investors who have contributed, have certain expectations about growth.",
+      "explanation": "Mark worries that existing investors’ growth expectations may prevent the more conservative company-building path his firm favors.",
+      "evidence": [
+        "this tension between your desire to be big, actually underpinned by what I feel like is your desire to endure and to continue to exist",
+        "you have existing investors who have contributed, have certain expectations about growth."
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 99,
+          "speaker": "Mark",
+          "quote": "this tension between your desire to be big, actually underpinned by what I feel like is your desire to endure and to continue to exist"
+        },
+        {
+          "turn_index": 101,
+          "speaker": "Mark",
+          "quote": "you have existing investors who have contributed, have certain expectations about growth."
+        }
+      ],
+      "activation": "evaluated",
+      "source_rationale_id": "R21",
+      "utterance_kind": "concern",
+      "decision_support": "supports_out",
+      "all_mention_ids": [
+        "R11",
+        "R14",
+        "R20",
+        "R21"
+      ]
+    },
+    {
+      "rationale_label": "founder_motivation_authenticity",
+      "direction": "positive",
+      "salience": "secondary",
+      "confidence": 0.96,
+      "utterance_type": "assessment",
+      "decision_link": "none",
+      "timing": "original_pitch",
+      "turn_index": 101,
+      "quote": "I really love your heart for the work you're doing here.",
+      "explanation": "Mark positively recognizes the founder’s genuine personal commitment to the company’s work.",
+      "evidence": [
+        "I really love your heart for the work you're doing here."
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 101,
+          "speaker": "Mark",
+          "quote": "I really love your heart for the work you're doing here."
+        }
+      ],
+      "activation": "evaluated",
+      "source_rationale_id": "R23",
+      "utterance_kind": "assessment",
+      "decision_support": "none",
+      "all_mention_ids": [
+        "R23"
+      ]
+    },
+    {
+      "rationale_label": "founder_qualities",
+      "direction": "positive",
+      "salience": "secondary",
+      "confidence": 0.98,
+      "utterance_type": "assessment",
+      "decision_link": "none",
+      "timing": "original_pitch",
+      "turn_index": 99,
+      "quote": "I think you're a really exceptional founder and you have a really clear vision.",
+      "explanation": "Mark favorably assesses Whitman’s overall founder quality and clarity of vision.",
+      "evidence": [
+        "I think you're a really exceptional founder and you have a really clear vision."
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 99,
+          "speaker": "Mark",
+          "quote": "I think you're a really exceptional founder and you have a really clear vision."
+        }
+      ],
+      "activation": "evaluated",
+      "source_rationale_id": "R18",
+      "utterance_kind": "assessment",
+      "decision_support": "none",
+      "all_mention_ids": [
+        "R18"
+      ]
+    },
+    {
+      "rationale_label": "growth_projection_risk",
+      "direction": "neutral",
+      "salience": "secondary",
+      "confidence": 0.88,
+      "utterance_type": "question",
+      "decision_link": "none",
+      "timing": "original_pitch",
+      "turn_index": 69,
+      "quote": "Are you intending to get profitability in 25 or 26?",
+      "explanation": "Mark seeks clarification about the projected timeline for reaching profitability.",
+      "evidence": [
+        "Are you intending to get profitability in 25 or 26?"
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 69,
+          "speaker": "Mark",
+          "quote": "Are you intending to get profitability in 25 or 26?"
+        }
+      ],
+      "activation": "queried",
+      "source_rationale_id": "R8",
+      "utterance_kind": "question",
+      "decision_support": "none",
+      "all_mention_ids": [
+        "R8"
+      ]
+    },
+    {
+      "rationale_label": "investment_thesis_constraint",
+      "direction": "negative",
+      "salience": "primary",
+      "confidence": 0.98,
+      "utterance_type": "decision_reason",
+      "decision_link": "explicit",
+      "timing": "original_pitch",
+      "turn_index": 99,
+      "quote": "underwriting the growth of those companies to something that's, I would use the word less volatile, right?",
+      "explanation": "Mark explains that his firm favors less volatile outcomes, making KAV’s aggressive growth path a poor thesis fit.",
+      "evidence": [
+        "underwriting the growth of those companies to something that's, I would use the word less volatile, right?"
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 99,
+          "speaker": "Mark",
+          "quote": "underwriting the growth of those companies to something that's, I would use the word less volatile, right?"
+        }
+      ],
+      "activation": "evaluated",
+      "source_rationale_id": "R19",
+      "utterance_kind": "decision_explanation",
+      "decision_support": "supports_out",
+      "all_mention_ids": [
+        "R10",
+        "R19"
+      ]
+    },
+    {
+      "rationale_label": "market_entry_path_assessment",
+      "direction": "neutral",
+      "salience": "secondary",
+      "confidence": 0.98,
+      "utterance_type": "question",
+      "decision_link": "none",
+      "timing": "original_pitch",
+      "turn_index": 50,
+      "quote": "So what would be next after cycling?",
+      "explanation": "Mark asks which adjacent market the company would enter next.",
+      "evidence": [
+        "Is, is, is football, baseball, like are those kind of other sports in the wheelhouse?",
+        "So what would be next after cycling?"
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 46,
+          "speaker": "Mark",
+          "quote": "Is, is, is football, baseball, like are those kind of other sports in the wheelhouse?"
+        },
+        {
+          "turn_index": 50,
+          "speaker": "Mark",
+          "quote": "So what would be next after cycling?"
+        }
+      ],
+      "activation": "queried",
+      "source_rationale_id": "R6",
+      "utterance_kind": "question",
+      "decision_support": "none",
+      "all_mention_ids": [
+        "R5",
+        "R6"
+      ]
+    },
+    {
+      "rationale_label": "market_timing",
+      "direction": "positive",
+      "salience": "secondary",
+      "confidence": 0.88,
+      "utterance_type": "assessment",
+      "decision_link": "none",
+      "timing": "original_pitch",
+      "turn_index": 44,
+      "quote": "I feel like helmet innovation in the world of football has become kind of all the rage.",
+      "explanation": "Mark observes strong current interest in helmet innovation, indicating favorable category momentum.",
+      "evidence": [
+        "I feel like helmet innovation in the world of football has become kind of all the rage."
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 44,
+          "speaker": "Mark",
+          "quote": "I feel like helmet innovation in the world of football has become kind of all the rage."
+        }
+      ],
+      "activation": "evaluated",
+      "source_rationale_id": "R4",
+      "utterance_kind": "assessment",
+      "decision_support": "none",
+      "all_mention_ids": [
+        "R4"
+      ]
+    },
+    {
+      "rationale_label": "mission_alignment_preference",
+      "direction": "positive",
+      "salience": "secondary",
+      "confidence": 0.93,
+      "utterance_type": "assessment",
+      "decision_link": "none",
+      "timing": "original_pitch",
+      "turn_index": 86,
+      "quote": "I really appreciate what you just said. It's really powerful.",
+      "explanation": "Mark expresses personal and emotional alignment with the company’s life-saving purpose.",
+      "evidence": [
+        "Wow. That's powerful.",
+        "I really appreciate what you just said. It's really powerful."
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 83,
+          "speaker": "Mark",
+          "quote": "Wow. That's powerful."
+        },
+        {
+          "turn_index": 86,
+          "speaker": "Mark",
+          "quote": "I really appreciate what you just said. It's really powerful."
+        }
+      ],
+      "activation": "evaluated",
+      "source_rationale_id": "R15",
+      "utterance_kind": "assessment",
+      "decision_support": "none",
+      "all_mention_ids": [
+        "R12",
+        "R15"
+      ]
+    },
+    {
+      "rationale_label": "product_appeal_assessment",
+      "direction": "positive",
+      "salience": "secondary",
+      "confidence": 0.98,
+      "utterance_type": "assessment",
+      "decision_link": "none",
+      "timing": "original_pitch",
+      "turn_index": 99,
+      "quote": "I'm a customer. I'm gonna be a customer.",
+      "explanation": "Mark’s stated intention to purchase a helmet demonstrates strong personal product appeal.",
+      "evidence": [
+        "Very modern, very slick.",
+        "And I'd say noticeably light.",
+        "Like when you pick it up, you're like, oh, there's almost nothing there.",
+        "I'm a customer. I'm gonna be a customer."
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 33,
+          "speaker": "Mark",
+          "quote": "Very modern, very slick."
+        },
+        {
+          "turn_index": 35,
+          "speaker": "Mark",
+          "quote": "And I'd say noticeably light."
+        },
+        {
+          "turn_index": 37,
+          "speaker": "Mark",
+          "quote": "Like when you pick it up, you're like, oh, there's almost nothing there."
+        },
+        {
+          "turn_index": 99,
+          "speaker": "Mark",
+          "quote": "I'm a customer. I'm gonna be a customer."
+        }
+      ],
+      "activation": "evaluated",
+      "source_rationale_id": "R17",
+      "utterance_kind": "assessment",
+      "decision_support": "none",
+      "all_mention_ids": [
+        "R1",
+        "R2",
+        "R3",
+        "R17"
+      ]
+    },
+    {
+      "rationale_label": "stage_valuation_mismatch",
+      "direction": "negative",
+      "salience": "primary",
+      "confidence": 0.99,
+      "utterance_type": "decision_reason",
+      "decision_link": "explicit",
+      "timing": "original_pitch",
+      "turn_index": 101,
+      "quote": "it's a little bit more expensive than where we see businesses at your current revenue mark.",
+      "explanation": "Mark says the round is priced above comparable businesses at KAV’s revenue stage and links that dynamic to his decision to pass.",
+      "evidence": [
+        "it's a little bit more expensive than where we see businesses at your current revenue mark."
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 101,
+          "speaker": "Mark",
+          "quote": "it's a little bit more expensive than where we see businesses at your current revenue mark."
+        }
+      ],
+      "activation": "evaluated",
+      "source_rationale_id": "R22",
+      "utterance_kind": "decision_explanation",
+      "decision_support": "supports_out",
+      "all_mention_ids": [
+        "R22"
+      ]
+    }
+  ],
+  "later_rationales": [],
+  "excluded_rationales": [
+    {
+      "rationale_label": "founder_investor_vision_alignment",
+      "direction": "neutral",
+      "salience": "secondary",
+      "confidence": 0.98,
+      "utterance_type": "question",
+      "decision_link": "none",
+      "timing": "teaser",
+      "turn_index": 85,
+      "quote": "Do you think there's a difference between going big and building a business that endures?",
+      "explanation": "In the repeated pre-break clip, Mark probes whether the founder prioritizes rapid scale or long-term durability.",
+      "evidence": [
+        "Do you think there's a difference between going big and building a business that endures?"
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 85,
+          "speaker": "Mark",
+          "quote": "Do you think there's a difference between going big and building a business that endures?"
+        }
+      ],
+      "activation": "queried",
+      "source_rationale_id": "R13"
+    }
+  ],
+  "rationale_mentions": [
+    {
+      "rationale_label": "product_appeal_assessment",
+      "direction": "positive",
+      "salience": "secondary",
+      "confidence": 0.98,
+      "utterance_type": "assessment",
+      "decision_link": "none",
+      "timing": "original_pitch",
+      "turn_index": 33,
+      "quote": "Very modern, very slick.",
+      "explanation": "Mark favorably assesses the helmet’s appearance and design.",
+      "evidence": [
+        "Very modern, very slick."
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 33,
+          "speaker": "Mark",
+          "quote": "Very modern, very slick."
+        }
+      ],
+      "activation": "evaluated",
+      "source_rationale_id": "R1"
+    },
+    {
+      "rationale_label": "product_appeal_assessment",
+      "direction": "positive",
+      "salience": "secondary",
+      "confidence": 0.97,
+      "utterance_type": "assessment",
+      "decision_link": "none",
+      "timing": "original_pitch",
+      "turn_index": 35,
+      "quote": "And I'd say noticeably light.",
+      "explanation": "Mark identifies the helmet’s low weight as an appealing product attribute.",
+      "evidence": [
+        "And I'd say noticeably light."
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 35,
+          "speaker": "Mark",
+          "quote": "And I'd say noticeably light."
+        }
+      ],
+      "activation": "evaluated",
+      "source_rationale_id": "R2"
+    },
+    {
+      "rationale_label": "product_appeal_assessment",
+      "direction": "positive",
+      "salience": "secondary",
+      "confidence": 0.96,
+      "utterance_type": "assessment",
+      "decision_link": "none",
+      "timing": "original_pitch",
+      "turn_index": 37,
+      "quote": "Like when you pick it up, you're like, oh, there's almost nothing there.",
+      "explanation": "Mark reiterates his favorable firsthand reaction to the helmet’s lightness.",
+      "evidence": [
+        "Like when you pick it up, you're like, oh, there's almost nothing there."
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 37,
+          "speaker": "Mark",
+          "quote": "Like when you pick it up, you're like, oh, there's almost nothing there."
+        }
+      ],
+      "activation": "evaluated",
+      "source_rationale_id": "R3"
+    },
+    {
+      "rationale_label": "market_timing",
+      "direction": "positive",
+      "salience": "secondary",
+      "confidence": 0.88,
+      "utterance_type": "assessment",
+      "decision_link": "none",
+      "timing": "original_pitch",
+      "turn_index": 44,
+      "quote": "I feel like helmet innovation in the world of football has become kind of all the rage.",
+      "explanation": "Mark observes strong current interest in helmet innovation, indicating favorable category momentum.",
+      "evidence": [
+        "I feel like helmet innovation in the world of football has become kind of all the rage."
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 44,
+          "speaker": "Mark",
+          "quote": "I feel like helmet innovation in the world of football has become kind of all the rage."
+        }
+      ],
+      "activation": "evaluated",
+      "source_rationale_id": "R4"
+    },
+    {
+      "rationale_label": "market_entry_path_assessment",
+      "direction": "neutral",
+      "salience": "secondary",
+      "confidence": 0.95,
+      "utterance_type": "question",
+      "decision_link": "none",
+      "timing": "original_pitch",
+      "turn_index": 46,
+      "quote": "Is, is, is football, baseball, like are those kind of other sports in the wheelhouse?",
+      "explanation": "Mark probes whether adjacent sports could provide expansion paths beyond cycling.",
+      "evidence": [
+        "Is, is, is football, baseball, like are those kind of other sports in the wheelhouse?"
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 46,
+          "speaker": "Mark",
+          "quote": "Is, is, is football, baseball, like are those kind of other sports in the wheelhouse?"
+        }
+      ],
+      "activation": "queried",
+      "source_rationale_id": "R5"
+    },
+    {
+      "rationale_label": "market_entry_path_assessment",
+      "direction": "neutral",
+      "salience": "secondary",
+      "confidence": 0.98,
+      "utterance_type": "question",
+      "decision_link": "none",
+      "timing": "original_pitch",
+      "turn_index": 50,
+      "quote": "So what would be next after cycling?",
+      "explanation": "Mark asks which adjacent market the company would enter next.",
+      "evidence": [
+        "So what would be next after cycling?"
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 50,
+          "speaker": "Mark",
+          "quote": "So what would be next after cycling?"
+        }
+      ],
+      "activation": "queried",
+      "source_rationale_id": "R6"
+    },
+    {
+      "rationale_label": "capital_intensity_concern",
+      "direction": "neutral",
+      "salience": "secondary",
+      "confidence": 0.96,
+      "utterance_type": "question",
+      "decision_link": "none",
+      "timing": "original_pitch",
+      "turn_index": 67,
+      "quote": "And maybe really the capital needs of the business moving forward.",
+      "explanation": "Mark probes the amount of additional capital the business may require as it grows.",
+      "evidence": [
+        "And maybe really the capital needs of the business moving forward."
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 67,
+          "speaker": "Mark",
+          "quote": "And maybe really the capital needs of the business moving forward."
+        }
+      ],
+      "activation": "queried",
+      "source_rationale_id": "R7"
+    },
+    {
+      "rationale_label": "growth_projection_risk",
+      "direction": "neutral",
+      "salience": "secondary",
+      "confidence": 0.88,
+      "utterance_type": "question",
+      "decision_link": "none",
+      "timing": "original_pitch",
+      "turn_index": 69,
+      "quote": "Are you intending to get profitability in 25 or 26?",
+      "explanation": "Mark seeks clarification about the projected timeline for reaching profitability.",
+      "evidence": [
+        "Are you intending to get profitability in 25 or 26?"
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 69,
+          "speaker": "Mark",
+          "quote": "Are you intending to get profitability in 25 or 26?"
+        }
+      ],
+      "activation": "queried",
+      "source_rationale_id": "R8"
+    },
+    {
+      "rationale_label": "capital_intensity_concern",
+      "direction": "neutral",
+      "salience": "secondary",
+      "confidence": 0.97,
+      "utterance_type": "question",
+      "decision_link": "none",
+      "timing": "original_pitch",
+      "turn_index": 73,
+      "quote": "Do you expect to raise more capital down the road?",
+      "explanation": "Mark asks whether the company will need further outside financing after the current round.",
+      "evidence": [
+        "Do you expect to raise more capital down the road?"
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 73,
+          "speaker": "Mark",
+          "quote": "Do you expect to raise more capital down the road?"
+        }
+      ],
+      "activation": "queried",
+      "source_rationale_id": "R9"
+    },
+    {
+      "rationale_label": "investment_thesis_constraint",
+      "direction": "neutral",
+      "salience": "secondary",
+      "confidence": 0.96,
+      "utterance_type": "question",
+      "decision_link": "none",
+      "timing": "original_pitch",
+      "turn_index": 79,
+      "quote": "targeting more niche markets with capital efficient business models, but underwriting the growth of those businesses is something maybe a little bit more conservative than a unicorn outcome.",
+      "explanation": "Mark states his firm’s preference for capital-efficient niche businesses with more conservative outcome assumptions.",
+      "evidence": [
+        "targeting more niche markets with capital efficient business models, but underwriting the growth of those businesses is something maybe a little bit more conservative than a unicorn outcome."
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 79,
+          "speaker": "Mark",
+          "quote": "targeting more niche markets with capital efficient business models, but underwriting the growth of those businesses is something maybe a little bit more conservative than a unicorn outcome."
+        }
+      ],
+      "activation": "queried",
+      "source_rationale_id": "R10"
+    },
+    {
+      "rationale_label": "founder_investor_vision_alignment",
+      "direction": "neutral",
+      "salience": "secondary",
+      "confidence": 0.96,
+      "utterance_type": "question",
+      "decision_link": "none",
+      "timing": "original_pitch",
+      "turn_index": 79,
+      "quote": "was this always, I want this to kind of be the piece de resistance of my startup experience, and that means something really big?",
+      "explanation": "Mark probes whether the founder’s ambition for a very large outcome aligns with his firm’s more conservative investment path.",
+      "evidence": [
+        "was this always, I want this to kind of be the piece de resistance of my startup experience, and that means something really big?"
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 79,
+          "speaker": "Mark",
+          "quote": "was this always, I want this to kind of be the piece de resistance of my startup experience, and that means something really big?"
+        }
+      ],
+      "activation": "queried",
+      "source_rationale_id": "R11"
+    },
+    {
+      "rationale_label": "mission_alignment_preference",
+      "direction": "positive",
+      "salience": "secondary",
+      "confidence": 0.86,
+      "utterance_type": "assessment",
+      "decision_link": "none",
+      "timing": "original_pitch",
+      "turn_index": 83,
+      "quote": "Wow. That's powerful.",
+      "explanation": "Mark responds emotionally to the account of the product saving a customer’s life.",
+      "evidence": [
+        "Wow. That's powerful."
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 83,
+          "speaker": "Mark",
+          "quote": "Wow. That's powerful."
+        }
+      ],
+      "activation": "evaluated",
+      "source_rationale_id": "R12"
+    },
+    {
+      "rationale_label": "founder_investor_vision_alignment",
+      "direction": "neutral",
+      "salience": "secondary",
+      "confidence": 0.98,
+      "utterance_type": "question",
+      "decision_link": "none",
+      "timing": "original_pitch",
+      "turn_index": 86,
+      "quote": "Do you think there's a difference between going big and building a business that endures?",
+      "explanation": "Mark probes the founder’s alignment with a more durable, lower-volatility path for the company.",
+      "evidence": [
+        "Do you think there's a difference between going big and building a business that endures?"
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 86,
+          "speaker": "Mark",
+          "quote": "Do you think there's a difference between going big and building a business that endures?"
+        }
+      ],
+      "activation": "queried",
+      "source_rationale_id": "R14"
+    },
+    {
+      "rationale_label": "mission_alignment_preference",
+      "direction": "positive",
+      "salience": "secondary",
+      "confidence": 0.93,
+      "utterance_type": "assessment",
+      "decision_link": "none",
+      "timing": "original_pitch",
+      "turn_index": 86,
+      "quote": "I really appreciate what you just said. It's really powerful.",
+      "explanation": "Mark expresses personal and emotional alignment with the company’s life-saving purpose.",
+      "evidence": [
+        "I really appreciate what you just said. It's really powerful."
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 86,
+          "speaker": "Mark",
+          "quote": "I really appreciate what you just said. It's really powerful."
+        }
+      ],
+      "activation": "evaluated",
+      "source_rationale_id": "R15"
+    },
+    {
+      "rationale_label": "business_viability_concern",
+      "direction": "negative",
+      "salience": "primary",
+      "confidence": 0.98,
+      "utterance_type": "concern",
+      "decision_link": "none",
+      "timing": "original_pitch",
+      "turn_index": 86,
+      "quote": "because of some of the financing decisions that you make, the business no longer is able to exist",
+      "explanation": "Mark worries that aggressive financing choices could ultimately threaten the company’s continued existence.",
+      "evidence": [
+        "because of some of the financing decisions that you make, the business no longer is able to exist"
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 86,
+          "speaker": "Mark",
+          "quote": "because of some of the financing decisions that you make, the business no longer is able to exist"
+        }
+      ],
+      "activation": "evaluated",
+      "source_rationale_id": "R16"
+    },
+    {
+      "rationale_label": "product_appeal_assessment",
+      "direction": "positive",
+      "salience": "secondary",
+      "confidence": 0.98,
+      "utterance_type": "assessment",
+      "decision_link": "none",
+      "timing": "original_pitch",
+      "turn_index": 99,
+      "quote": "I'm a customer. I'm gonna be a customer.",
+      "explanation": "Mark’s stated intention to purchase a helmet demonstrates strong personal product appeal.",
+      "evidence": [
+        "I'm a customer. I'm gonna be a customer."
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 99,
+          "speaker": "Mark",
+          "quote": "I'm a customer. I'm gonna be a customer."
+        }
+      ],
+      "activation": "evaluated",
+      "source_rationale_id": "R17"
+    },
+    {
+      "rationale_label": "founder_qualities",
+      "direction": "positive",
+      "salience": "secondary",
+      "confidence": 0.98,
+      "utterance_type": "assessment",
+      "decision_link": "none",
+      "timing": "original_pitch",
+      "turn_index": 99,
+      "quote": "I think you're a really exceptional founder and you have a really clear vision.",
+      "explanation": "Mark favorably assesses Whitman’s overall founder quality and clarity of vision.",
+      "evidence": [
+        "I think you're a really exceptional founder and you have a really clear vision."
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 99,
+          "speaker": "Mark",
+          "quote": "I think you're a really exceptional founder and you have a really clear vision."
+        }
+      ],
+      "activation": "evaluated",
+      "source_rationale_id": "R18"
+    },
+    {
+      "rationale_label": "investment_thesis_constraint",
+      "direction": "negative",
+      "salience": "primary",
+      "confidence": 0.98,
+      "utterance_type": "decision_explanation",
+      "decision_link": "supports_out",
+      "timing": "original_pitch",
+      "turn_index": 99,
+      "quote": "underwriting the growth of those companies to something that's, I would use the word less volatile, right?",
+      "explanation": "Mark explains that his firm favors less volatile outcomes, making KAV’s aggressive growth path a poor thesis fit.",
+      "evidence": [
+        "underwriting the growth of those companies to something that's, I would use the word less volatile, right?"
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 99,
+          "speaker": "Mark",
+          "quote": "underwriting the growth of those companies to something that's, I would use the word less volatile, right?"
+        }
+      ],
+      "activation": "evaluated",
+      "source_rationale_id": "R19"
+    },
+    {
+      "rationale_label": "founder_investor_vision_alignment",
+      "direction": "negative",
+      "salience": "primary",
+      "confidence": 0.97,
+      "utterance_type": "decision_explanation",
+      "decision_link": "supports_out",
+      "timing": "original_pitch",
+      "turn_index": 99,
+      "quote": "this tension between your desire to be big, actually underpinned by what I feel like is your desire to endure and to continue to exist",
+      "explanation": "Mark identifies a mismatch between the founder’s drive for scale and the durable, lower-volatility path he would prefer to back.",
+      "evidence": [
+        "this tension between your desire to be big, actually underpinned by what I feel like is your desire to endure and to continue to exist"
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 99,
+          "speaker": "Mark",
+          "quote": "this tension between your desire to be big, actually underpinned by what I feel like is your desire to endure and to continue to exist"
+        }
+      ],
+      "activation": "evaluated",
+      "source_rationale_id": "R20"
+    },
+    {
+      "rationale_label": "founder_investor_vision_alignment",
+      "direction": "negative",
+      "salience": "primary",
+      "confidence": 0.88,
+      "utterance_type": "concern",
+      "decision_link": "supports_out",
+      "timing": "original_pitch",
+      "turn_index": 101,
+      "quote": "you have existing investors who have contributed, have certain expectations about growth.",
+      "explanation": "Mark worries that existing investors’ growth expectations may prevent the more conservative company-building path his firm favors.",
+      "evidence": [
+        "you have existing investors who have contributed, have certain expectations about growth."
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 101,
+          "speaker": "Mark",
+          "quote": "you have existing investors who have contributed, have certain expectations about growth."
+        }
+      ],
+      "activation": "evaluated",
+      "source_rationale_id": "R21"
+    },
+    {
+      "rationale_label": "stage_valuation_mismatch",
+      "direction": "negative",
+      "salience": "primary",
+      "confidence": 0.99,
+      "utterance_type": "decision_explanation",
+      "decision_link": "supports_out",
+      "timing": "original_pitch",
+      "turn_index": 101,
+      "quote": "it's a little bit more expensive than where we see businesses at your current revenue mark.",
+      "explanation": "Mark says the round is priced above comparable businesses at KAV’s revenue stage and links that dynamic to his decision to pass.",
+      "evidence": [
+        "it's a little bit more expensive than where we see businesses at your current revenue mark."
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 101,
+          "speaker": "Mark",
+          "quote": "it's a little bit more expensive than where we see businesses at your current revenue mark."
+        }
+      ],
+      "activation": "evaluated",
+      "source_rationale_id": "R22"
+    },
+    {
+      "rationale_label": "founder_motivation_authenticity",
+      "direction": "positive",
+      "salience": "secondary",
+      "confidence": 0.96,
+      "utterance_type": "assessment",
+      "decision_link": "none",
+      "timing": "original_pitch",
+      "turn_index": 101,
+      "quote": "I really love your heart for the work you're doing here.",
+      "explanation": "Mark positively recognizes the founder’s genuine personal commitment to the company’s work.",
+      "evidence": [
+        "I really love your heart for the work you're doing here."
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 101,
+          "speaker": "Mark",
+          "quote": "I really love your heart for the work you're doing here."
+        }
+      ],
+      "activation": "evaluated",
+      "source_rationale_id": "R23"
+    }
+  ],
+  "expanded_quote_evidence": [],
+  "rejected_after_evidence_check": []
+}

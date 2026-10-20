@@ -1,0 +1,580 @@
+{
+  "schema": "phase1-rationale-reference-v1",
+  "extraction_version": "pitchshow-rationales-v1",
+  "fingerprint": "5c3cbe67dc05880de934ac71f58b0a63e0b7077f1b42646e32709317baeb6111",
+  "episode_slug": "96-a-test-of-time",
+  "vc_slug": "jillian-manus-structure-capital",
+  "vc_name": "Jillian Manus",
+  "actual_decision": "Out",
+  "later_decision": "Unknown",
+  "reference_kind": "automated_transcript_observed_candidate",
+  "human_validated": false,
+  "source_format": "transcript-observed-rationales-v1",
+  "source_path": "../source/episodes/96-a-test-of-time.json",
+  "source_sha256": "b8a1cdbea4fe4b12360bea0bab3bfa89049680277de7c461e68f58fb47e2ffbb",
+  "transcript_sha256": "359765ea6ef0010a227a960e05818d8d8cc3f97928f194f5f5acfdb05651eca1",
+  "taxonomy_sha256": "eaa8734819a3ac34dd19ee5f0bf6de925a793a1d25a2d361090dafc9b751e1fc",
+  "model": "codex:gpt-5.6-luna+gpt-5.6-sol",
+  "generation_stages": [
+    {
+      "phase": "rationale_extract",
+      "backend": "codex",
+      "model": "gpt-5.6-luna"
+    },
+    {
+      "phase": "rationale_verify",
+      "backend": "codex",
+      "model": "gpt-5.6-sol"
+    }
+  ],
+  "source_tier": "newly_extracted_and_independently_model_reviewed",
+  "reviewed_target_turns": [
+    2,
+    7,
+    13,
+    17,
+    20,
+    27,
+    32,
+    35,
+    46,
+    50,
+    52,
+    54,
+    56,
+    58,
+    61,
+    63,
+    65,
+    67,
+    71,
+    73,
+    81,
+    98,
+    106,
+    118,
+    126,
+    128,
+    130
+  ],
+  "notes": "All supplied target turns were reviewed; greetings, jokes, factual explanations, simple confirmations, deal logistics, and courtesies without an investment rationale were omitted.",
+  "receipt_path": "receipts/96-a-test-of-time.json",
+  "scoring_scope": "original_pitch_only",
+  "shared_across_input_modes": true,
+  "rationales": [
+    {
+      "rationale_label": "business_viability_concern",
+      "direction": "negative",
+      "salience": "primary",
+      "confidence": 0.99,
+      "utterance_type": "decision_reason",
+      "decision_link": "explicit",
+      "timing": "original_pitch",
+      "turn_index": 126,
+      "quote": "One is that it's 12% more expensive.",
+      "explanation": "She cites the product's price premium as a major business-model problem supporting her decision to pass.",
+      "evidence": [
+        "One is that it's 12% more expensive."
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 126,
+          "speaker": "Jillian",
+          "quote": "One is that it's 12% more expensive."
+        }
+      ],
+      "activation": "evaluated",
+      "source_rationale_id": "R11",
+      "utterance_kind": "decision_explanation",
+      "decision_support": "supports_out",
+      "all_mention_ids": [
+        "R11"
+      ]
+    },
+    {
+      "rationale_label": "competitive_landscape_inertia",
+      "direction": "neutral",
+      "salience": "secondary",
+      "confidence": 0.88,
+      "utterance_type": "question",
+      "decision_link": "none",
+      "timing": "original_pitch",
+      "turn_index": 46,
+      "quote": "And what have they been doing beforehand?",
+      "explanation": "She asks what existing solution or purchasing practice prospective customers already use.",
+      "evidence": [
+        "And what have they been doing beforehand?"
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 46,
+          "speaker": "Jillian",
+          "quote": "And what have they been doing beforehand?"
+        }
+      ],
+      "activation": "queried",
+      "source_rationale_id": "R5",
+      "utterance_kind": "question",
+      "decision_support": "none",
+      "all_mention_ids": [
+        "R5"
+      ]
+    },
+    {
+      "rationale_label": "go_to_market_strategy_assessment",
+      "direction": "neutral",
+      "salience": "secondary",
+      "confidence": 0.91,
+      "utterance_type": "question",
+      "decision_link": "none",
+      "timing": "original_pitch",
+      "turn_index": 71,
+      "quote": "Why?",
+      "explanation": "She asks why the company stopped marketing its existing product.",
+      "evidence": [
+        "Why?"
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 71,
+          "speaker": "Jillian",
+          "quote": "Why?"
+        }
+      ],
+      "activation": "queried",
+      "source_rationale_id": "R9",
+      "utterance_kind": "question",
+      "decision_support": "none",
+      "all_mention_ids": [
+        "R9"
+      ]
+    },
+    {
+      "rationale_label": "market_problem_validation",
+      "direction": "negative",
+      "salience": "secondary",
+      "confidence": 0.91,
+      "utterance_type": "assessment",
+      "decision_link": "none",
+      "timing": "original_pitch",
+      "turn_index": 20,
+      "quote": "You do. You always carry around.",
+      "explanation": "She initially challenges the claimed unmet need by asserting that women normally carry menstrual products.",
+      "evidence": [
+        "You do. You always carry around."
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 20,
+          "speaker": "Jillian",
+          "quote": "You do. You always carry around."
+        }
+      ],
+      "activation": "evaluated",
+      "source_rationale_id": "R3",
+      "utterance_kind": "assessment",
+      "decision_support": "none",
+      "all_mention_ids": [
+        "R2",
+        "R3",
+        "R4"
+      ]
+    },
+    {
+      "rationale_label": "product_adoption",
+      "direction": "negative",
+      "salience": "primary",
+      "confidence": 0.99,
+      "utterance_type": "decision_reason",
+      "decision_link": "explicit",
+      "timing": "original_pitch",
+      "turn_index": 126,
+      "quote": "women just don't use them as much.",
+      "explanation": "She cites comparatively low use of non-applicator tampons as a major reason for refusing the investment.",
+      "evidence": [
+        "A lot.",
+        "people who have been using tampons actually prefer to have an applicator.",
+        "women just don't use them as much."
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 54,
+          "speaker": "Jillian",
+          "quote": "A lot."
+        },
+        {
+          "turn_index": 61,
+          "speaker": "Jillian",
+          "quote": "people who have been using tampons actually prefer to have an applicator."
+        },
+        {
+          "turn_index": 126,
+          "speaker": "Jillian",
+          "quote": "women just don't use them as much."
+        }
+      ],
+      "activation": "evaluated",
+      "source_rationale_id": "R12",
+      "utterance_kind": "decision_explanation",
+      "decision_support": "supports_out",
+      "all_mention_ids": [
+        "R6",
+        "R7",
+        "R12"
+      ]
+    },
+    {
+      "rationale_label": "product_success_factor_assessment",
+      "direction": "negative",
+      "salience": "secondary",
+      "confidence": 0.95,
+      "utterance_type": "question",
+      "decision_link": "none",
+      "timing": "original_pitch",
+      "turn_index": 73,
+      "quote": "Well, why not just offer both? Can you?",
+      "explanation": "She questions the single-format product strategy and indicates that offering both applicator and non-applicator products would better serve customers.",
+      "evidence": [
+        "Well, why not just offer both? Can you?"
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 73,
+          "speaker": "Jillian",
+          "quote": "Well, why not just offer both? Can you?"
+        }
+      ],
+      "activation": "queried",
+      "source_rationale_id": "R10",
+      "utterance_kind": "question",
+      "decision_support": "none",
+      "all_mention_ids": [
+        "R10"
+      ]
+    },
+    {
+      "rationale_label": "traction_repeatability_concern",
+      "direction": "neutral",
+      "salience": "secondary",
+      "confidence": 0.88,
+      "utterance_type": "question",
+      "decision_link": "none",
+      "timing": "original_pitch",
+      "turn_index": 67,
+      "quote": "And how'd that do?",
+      "explanation": "She asks how the company's initial consumer subscription offering performed.",
+      "evidence": [
+        "And how'd that do?"
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 67,
+          "speaker": "Jillian",
+          "quote": "And how'd that do?"
+        }
+      ],
+      "activation": "queried",
+      "source_rationale_id": "R8",
+      "utterance_kind": "question",
+      "decision_support": "none",
+      "all_mention_ids": [
+        "R8"
+      ]
+    }
+  ],
+  "later_rationales": [],
+  "excluded_rationales": [
+    {
+      "rationale_label": "founder_qualities",
+      "direction": "positive",
+      "salience": "primary",
+      "confidence": 0.98,
+      "utterance_type": "decision_explanation",
+      "decision_link": "supports_in",
+      "timing": "teaser",
+      "turn_index": 2,
+      "quote": "I think you are the real deal.",
+      "explanation": "Jillian cites her strong overall assessment of the founder while expressing a desire to invest.",
+      "evidence": [
+        "I think you are the real deal."
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 2,
+          "speaker": "Jillian",
+          "quote": "I think you are the real deal."
+        }
+      ],
+      "activation": "evaluated",
+      "source_rationale_id": "R1"
+    }
+  ],
+  "rationale_mentions": [
+    {
+      "rationale_label": "market_problem_validation",
+      "direction": "neutral",
+      "salience": "secondary",
+      "confidence": 0.95,
+      "utterance_type": "question",
+      "decision_link": "none",
+      "timing": "original_pitch",
+      "turn_index": 17,
+      "quote": "They leave work?",
+      "explanation": "She queries whether lacking menstrual products actually causes women to leave work.",
+      "evidence": [
+        "They leave work?"
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 17,
+          "speaker": "Jillian",
+          "quote": "They leave work?"
+        }
+      ],
+      "activation": "queried",
+      "source_rationale_id": "R2"
+    },
+    {
+      "rationale_label": "market_problem_validation",
+      "direction": "negative",
+      "salience": "secondary",
+      "confidence": 0.91,
+      "utterance_type": "assessment",
+      "decision_link": "none",
+      "timing": "original_pitch",
+      "turn_index": 20,
+      "quote": "You do. You always carry around.",
+      "explanation": "She initially challenges the claimed unmet need by asserting that women normally carry menstrual products.",
+      "evidence": [
+        "You do. You always carry around."
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 20,
+          "speaker": "Jillian",
+          "quote": "You do. You always carry around."
+        }
+      ],
+      "activation": "evaluated",
+      "source_rationale_id": "R3"
+    },
+    {
+      "rationale_label": "market_problem_validation",
+      "direction": "neutral",
+      "salience": "secondary",
+      "confidence": 0.96,
+      "utterance_type": "question",
+      "decision_link": "none",
+      "timing": "original_pitch",
+      "turn_index": 32,
+      "quote": "How do you get data?",
+      "explanation": "She asks how the founder obtained evidence supporting the stated problem.",
+      "evidence": [
+        "How do you get data?"
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 32,
+          "speaker": "Jillian",
+          "quote": "How do you get data?"
+        }
+      ],
+      "activation": "queried",
+      "source_rationale_id": "R4"
+    },
+    {
+      "rationale_label": "competitive_landscape_inertia",
+      "direction": "neutral",
+      "salience": "secondary",
+      "confidence": 0.88,
+      "utterance_type": "question",
+      "decision_link": "none",
+      "timing": "original_pitch",
+      "turn_index": 46,
+      "quote": "And what have they been doing beforehand?",
+      "explanation": "She asks what existing solution or purchasing practice prospective customers already use.",
+      "evidence": [
+        "And what have they been doing beforehand?"
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 46,
+          "speaker": "Jillian",
+          "quote": "And what have they been doing beforehand?"
+        }
+      ],
+      "activation": "queried",
+      "source_rationale_id": "R5"
+    },
+    {
+      "rationale_label": "product_adoption",
+      "direction": "negative",
+      "salience": "secondary",
+      "confidence": 0.92,
+      "utterance_type": "assessment",
+      "decision_link": "none",
+      "timing": "original_pitch",
+      "turn_index": 54,
+      "quote": "A lot.",
+      "explanation": "She states that many women need or use applicators, signaling limited fit for a non-applicator-only product.",
+      "evidence": [
+        "A lot."
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 54,
+          "speaker": "Jillian",
+          "quote": "A lot."
+        }
+      ],
+      "activation": "evaluated",
+      "source_rationale_id": "R6"
+    },
+    {
+      "rationale_label": "product_adoption",
+      "direction": "negative",
+      "salience": "secondary",
+      "confidence": 0.98,
+      "utterance_type": "assessment",
+      "decision_link": "none",
+      "timing": "original_pitch",
+      "turn_index": 61,
+      "quote": "people who have been using tampons actually prefer to have an applicator.",
+      "explanation": "She identifies established user preference for applicators as an adoption barrier.",
+      "evidence": [
+        "people who have been using tampons actually prefer to have an applicator."
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 61,
+          "speaker": "Jillian",
+          "quote": "people who have been using tampons actually prefer to have an applicator."
+        }
+      ],
+      "activation": "evaluated",
+      "source_rationale_id": "R7"
+    },
+    {
+      "rationale_label": "traction_repeatability_concern",
+      "direction": "neutral",
+      "salience": "secondary",
+      "confidence": 0.88,
+      "utterance_type": "question",
+      "decision_link": "none",
+      "timing": "original_pitch",
+      "turn_index": 67,
+      "quote": "And how'd that do?",
+      "explanation": "She asks how the company's initial consumer subscription offering performed.",
+      "evidence": [
+        "And how'd that do?"
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 67,
+          "speaker": "Jillian",
+          "quote": "And how'd that do?"
+        }
+      ],
+      "activation": "queried",
+      "source_rationale_id": "R8"
+    },
+    {
+      "rationale_label": "go_to_market_strategy_assessment",
+      "direction": "neutral",
+      "salience": "secondary",
+      "confidence": 0.91,
+      "utterance_type": "question",
+      "decision_link": "none",
+      "timing": "original_pitch",
+      "turn_index": 71,
+      "quote": "Why?",
+      "explanation": "She asks why the company stopped marketing its existing product.",
+      "evidence": [
+        "Why?"
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 71,
+          "speaker": "Jillian",
+          "quote": "Why?"
+        }
+      ],
+      "activation": "queried",
+      "source_rationale_id": "R9"
+    },
+    {
+      "rationale_label": "product_success_factor_assessment",
+      "direction": "negative",
+      "salience": "secondary",
+      "confidence": 0.95,
+      "utterance_type": "question",
+      "decision_link": "none",
+      "timing": "original_pitch",
+      "turn_index": 73,
+      "quote": "Well, why not just offer both? Can you?",
+      "explanation": "She questions the single-format product strategy and indicates that offering both applicator and non-applicator products would better serve customers.",
+      "evidence": [
+        "Well, why not just offer both? Can you?"
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 73,
+          "speaker": "Jillian",
+          "quote": "Well, why not just offer both? Can you?"
+        }
+      ],
+      "activation": "queried",
+      "source_rationale_id": "R10"
+    },
+    {
+      "rationale_label": "business_viability_concern",
+      "direction": "negative",
+      "salience": "primary",
+      "confidence": 0.99,
+      "utterance_type": "decision_explanation",
+      "decision_link": "supports_out",
+      "timing": "original_pitch",
+      "turn_index": 126,
+      "quote": "One is that it's 12% more expensive.",
+      "explanation": "She cites the product's price premium as a major business-model problem supporting her decision to pass.",
+      "evidence": [
+        "One is that it's 12% more expensive."
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 126,
+          "speaker": "Jillian",
+          "quote": "One is that it's 12% more expensive."
+        }
+      ],
+      "activation": "evaluated",
+      "source_rationale_id": "R11"
+    },
+    {
+      "rationale_label": "product_adoption",
+      "direction": "negative",
+      "salience": "primary",
+      "confidence": 0.99,
+      "utterance_type": "decision_explanation",
+      "decision_link": "supports_out",
+      "timing": "original_pitch",
+      "turn_index": 126,
+      "quote": "women just don't use them as much.",
+      "explanation": "She cites comparatively low use of non-applicator tampons as a major reason for refusing the investment.",
+      "evidence": [
+        "women just don't use them as much."
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 126,
+          "speaker": "Jillian",
+          "quote": "women just don't use them as much."
+        }
+      ],
+      "activation": "evaluated",
+      "source_rationale_id": "R12"
+    }
+  ],
+  "expanded_quote_evidence": [],
+  "rejected_after_evidence_check": []
+}

@@ -1,0 +1,1071 @@
+{
+  "schema": "phase1-rationale-reference-v1",
+  "extraction_version": "pitchshow-rationales-v1",
+  "fingerprint": "7f35f7938fd71d9eeb09d85252f45ab224fb55348e6c37f6116ba6bb4885d8da",
+  "episode_slug": "126-handle-the-uncut-pitch",
+  "vc_slug": "mark-phillips-11-tribes-ventures",
+  "vc_name": "Mark Phillips",
+  "actual_decision": "Out",
+  "later_decision": "Unknown",
+  "reference_kind": "automated_transcript_observed_candidate",
+  "human_validated": false,
+  "source_format": "transcript-observed-rationales-v1",
+  "source_path": "/home/dpasch01/vclogic-vc-agentic-assessment/evaluation/pitchshow/investors/mark-phillips-11-tribes-ventures/source/episodes/126-handle-the-uncut-pitch.json",
+  "source_sha256": "e0ee3c45a3daf78b50c5fce9f5b0ef6cf21a42346d654d953762547cdb7d75b6",
+  "transcript_sha256": "8670adffec1af41ce978048234e57601a0e98ee65810132c4d937fe0c59831d3",
+  "taxonomy_sha256": "eaa8734819a3ac34dd19ee5f0bf6de925a793a1d25a2d361090dafc9b751e1fc",
+  "model": "codex:gpt-5.6-luna+gpt-5.6-sol",
+  "generation_stages": [
+    {
+      "phase": "rationale_extract",
+      "backend": "openrouter",
+      "model": "openai/gpt-5.6-luna"
+    },
+    {
+      "phase": "rationale_verify",
+      "backend": "openrouter",
+      "model": "openai/gpt-5.6-luna"
+    },
+    {
+      "phase": "rationale_verify",
+      "backend": "codex",
+      "model": "gpt-5.6-sol"
+    }
+  ],
+  "source_tier": "newly_extracted_and_independently_model_reviewed",
+  "reviewed_target_turns": [
+    4,
+    7,
+    9,
+    15,
+    17,
+    35,
+    37,
+    39,
+    41,
+    78,
+    87,
+    93,
+    95,
+    97,
+    101,
+    103,
+    105,
+    107,
+    109,
+    111,
+    114,
+    138,
+    141,
+    192,
+    194,
+    196,
+    198,
+    200,
+    202,
+    204,
+    223,
+    234,
+    236,
+    238,
+    240,
+    246,
+    256,
+    286,
+    288,
+    300,
+    302,
+    305,
+    307,
+    309,
+    313,
+    315,
+    317,
+    328,
+    330,
+    332,
+    334,
+    338,
+    346
+  ],
+  "notes": "All supplied target turns were reviewed; greetings, jokes, simple confirmations, incomplete fragments, and the bare pass without its later explanation were omitted.",
+  "receipt_path": "/home/dpasch01/vclogic-vc-agentic-assessment/evaluation/pitchshow/investors/mark-phillips-11-tribes-ventures/rationale-references/receipts/126-handle-the-uncut-pitch.json",
+  "scoring_scope": "original_pitch_only",
+  "shared_across_input_modes": true,
+  "rationales": [
+    {
+      "rationale_label": "business_model_assessment",
+      "direction": "neutral",
+      "salience": "secondary",
+      "confidence": 0.98,
+      "utterance_type": "question",
+      "decision_link": "none",
+      "timing": "original_pitch",
+      "turn_index": 238,
+      "quote": "what's the take home for Handle? You know, what's the actual revenue?",
+      "explanation": "Mark asks how much of the reported GMV Handle actually recognizes as revenue.",
+      "evidence": [
+        "you mark up on the products themselves and then you charge for delivery. Is that correct?",
+        "so it's a $1.2 million GMV run rate?",
+        "what's the take home for Handle? You know, what's the actual revenue?"
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 39,
+          "speaker": "Mark",
+          "quote": "you mark up on the products themselves and then you charge for delivery. Is that correct?"
+        },
+        {
+          "turn_index": 234,
+          "speaker": "Mark",
+          "quote": "so it's a $1.2 million GMV run rate?"
+        },
+        {
+          "turn_index": 238,
+          "speaker": "Mark",
+          "quote": "what's the take home for Handle? You know, what's the actual revenue?"
+        }
+      ],
+      "activation": "queried",
+      "source_rationale_id": "R14",
+      "utterance_kind": "question",
+      "decision_support": "none",
+      "all_mention_ids": [
+        "R2",
+        "R13",
+        "R14"
+      ]
+    },
+    {
+      "rationale_label": "capital_intensity_concern",
+      "direction": "positive",
+      "salience": "primary",
+      "confidence": 0.89,
+      "utterance_type": "assessment",
+      "decision_link": "none",
+      "timing": "original_pitch",
+      "turn_index": 313,
+      "quote": "I don't think he needs to raise capital.",
+      "explanation": "Mark reiterates that Handle appears capable of operating and growing without relying on venture funding.",
+      "evidence": [
+        "it will grow with or without that capital infusion",
+        "I don't think he needs to raise capital."
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 286,
+          "speaker": "Mark",
+          "quote": "it will grow with or without that capital infusion"
+        },
+        {
+          "turn_index": 313,
+          "speaker": "Mark",
+          "quote": "I don't think he needs to raise capital."
+        }
+      ],
+      "activation": "evaluated",
+      "source_rationale_id": "R21",
+      "utterance_kind": "assessment",
+      "decision_support": "none",
+      "all_mention_ids": [
+        "R9",
+        "R17",
+        "R21"
+      ]
+    },
+    {
+      "rationale_label": "competitive_advantage_assessment",
+      "direction": "positive",
+      "salience": "primary",
+      "confidence": 0.92,
+      "utterance_type": "assessment",
+      "decision_link": "none",
+      "timing": "original_pitch",
+      "turn_index": 286,
+      "quote": "the hyperlocal nature of it, and not growing too fast, is actually what's going to make it most dynamic",
+      "explanation": "Mark identifies Handle's hyperlocal model and disciplined expansion as central sources of distinctiveness.",
+      "evidence": [
+        "the hyperlocal nature of it, and not growing too fast, is actually what's going to make it most dynamic"
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 286,
+          "speaker": "Mark",
+          "quote": "the hyperlocal nature of it, and not growing too fast, is actually what's going to make it most dynamic"
+        }
+      ],
+      "activation": "evaluated",
+      "source_rationale_id": "R18",
+      "utterance_kind": "assessment",
+      "decision_support": "none",
+      "all_mention_ids": [
+        "R18"
+      ]
+    },
+    {
+      "rationale_label": "execution_risk_assessment",
+      "direction": "negative",
+      "salience": "primary",
+      "confidence": 0.97,
+      "utterance_type": "assessment",
+      "decision_link": "none",
+      "timing": "original_pitch",
+      "turn_index": 330,
+      "quote": "I don't think speed leads to quality personnel, either. You have to establish yourself on the campus and find the best individuals to work with.",
+      "explanation": "Mark identifies rapid expansion as a major risk to recruiting strong campus-level personnel.",
+      "evidence": [
+        "So that person's only working 30 hours though.",
+        "I don't think speed leads to quality personnel, either. You have to establish yourself on the campus and find the best individuals to work with."
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 194,
+          "speaker": "Mark",
+          "quote": "So that person's only working 30 hours though."
+        },
+        {
+          "turn_index": 330,
+          "speaker": "Mark",
+          "quote": "I don't think speed leads to quality personnel, either. You have to establish yourself on the campus and find the best individuals to work with."
+        }
+      ],
+      "activation": "evaluated",
+      "source_rationale_id": "R22",
+      "utterance_kind": "concern",
+      "decision_support": "none",
+      "all_mention_ids": [
+        "R10",
+        "R11",
+        "R12",
+        "R22"
+      ]
+    },
+    {
+      "rationale_label": "founder_communication_quality",
+      "direction": "positive",
+      "salience": "secondary",
+      "confidence": 0.94,
+      "utterance_type": "assessment",
+      "decision_link": "none",
+      "timing": "original_pitch",
+      "turn_index": 332,
+      "quote": "great control of the business",
+      "explanation": "Mark again praises the founder's demonstrated command of the company.",
+      "evidence": [
+        "control of your business",
+        "great control of the business"
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 286,
+          "speaker": "Mark",
+          "quote": "control of your business"
+        },
+        {
+          "turn_index": 332,
+          "speaker": "Mark",
+          "quote": "great control of the business"
+        }
+      ],
+      "activation": "evaluated",
+      "source_rationale_id": "R24",
+      "utterance_kind": "assessment",
+      "decision_support": "none",
+      "all_mention_ids": [
+        "R16",
+        "R24"
+      ]
+    },
+    {
+      "rationale_label": "founder_motivation_authenticity",
+      "direction": "neutral",
+      "salience": "secondary",
+      "confidence": 0.98,
+      "utterance_type": "question",
+      "decision_link": "none",
+      "timing": "original_pitch",
+      "turn_index": 111,
+      "quote": "talk to us a little bit about the motivation here for you",
+      "explanation": "Mark probes why the founder is personally driven to pursue this company instead of continuing college.",
+      "evidence": [
+        "talk to us a little bit about the motivation here for you"
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 111,
+          "speaker": "Mark",
+          "quote": "talk to us a little bit about the motivation here for you"
+        }
+      ],
+      "activation": "queried",
+      "source_rationale_id": "R7",
+      "utterance_kind": "question",
+      "decision_support": "none",
+      "all_mention_ids": [
+        "R7"
+      ]
+    },
+    {
+      "rationale_label": "founder_qualities",
+      "direction": "positive",
+      "salience": "secondary",
+      "confidence": 0.96,
+      "utterance_type": "assessment",
+      "decision_link": "none",
+      "timing": "original_pitch",
+      "turn_index": 332,
+      "quote": "Super impressive guy.",
+      "explanation": "Mark positively assesses the founder's overall capabilities and appeal.",
+      "evidence": [
+        "incredible passion",
+        "Super impressive guy."
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 286,
+          "speaker": "Mark",
+          "quote": "incredible passion"
+        },
+        {
+          "turn_index": 332,
+          "speaker": "Mark",
+          "quote": "Super impressive guy."
+        }
+      ],
+      "activation": "evaluated",
+      "source_rationale_id": "R23",
+      "utterance_kind": "assessment",
+      "decision_support": "none",
+      "all_mention_ids": [
+        "R15",
+        "R23"
+      ]
+    },
+    {
+      "rationale_label": "investment_thesis_constraint",
+      "direction": "negative",
+      "salience": "primary",
+      "confidence": 0.99,
+      "utterance_type": "decision_reason",
+      "decision_link": "explicit",
+      "timing": "original_pitch",
+      "turn_index": 305,
+      "quote": "it's off thesis for us in terms of what we're looking to put our money into.",
+      "explanation": "Mark explicitly explains that Handle falls outside his fund's investment thesis.",
+      "evidence": [
+        "it's off thesis for us in terms of what we're looking to put our money into."
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 305,
+          "speaker": "Mark",
+          "quote": "it's off thesis for us in terms of what we're looking to put our money into."
+        }
+      ],
+      "activation": "evaluated",
+      "source_rationale_id": "R20",
+      "utterance_kind": "decision_explanation",
+      "decision_support": "supports_out",
+      "all_mention_ids": [
+        "R20"
+      ]
+    },
+    {
+      "rationale_label": "market_size_assessment",
+      "direction": "neutral",
+      "salience": "secondary",
+      "confidence": 0.97,
+      "utterance_type": "question",
+      "decision_link": "none",
+      "timing": "original_pitch",
+      "turn_index": 97,
+      "quote": "So it's not a billion, right? That's 100 million. Am I doing my math wrong?",
+      "explanation": "Mark checks the arithmetic supporting the stated total addressable market.",
+      "evidence": [
+        "can you unpack what that would look like from a total addressable market perspective?",
+        "500 universities you said?",
+        "At doing $2 million a year?",
+        "So it's not a billion, right? That's 100 million. Am I doing my math wrong?"
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 78,
+          "speaker": "Mark",
+          "quote": "can you unpack what that would look like from a total addressable market perspective?"
+        },
+        {
+          "turn_index": 93,
+          "speaker": "Mark",
+          "quote": "500 universities you said?"
+        },
+        {
+          "turn_index": 95,
+          "speaker": "Mark",
+          "quote": "At doing $2 million a year?"
+        },
+        {
+          "turn_index": 97,
+          "speaker": "Mark",
+          "quote": "So it's not a billion, right? That's 100 million. Am I doing my math wrong?"
+        }
+      ],
+      "activation": "queried",
+      "source_rationale_id": "R6",
+      "utterance_kind": "question",
+      "decision_support": "none",
+      "all_mention_ids": [
+        "R3",
+        "R4",
+        "R5",
+        "R6"
+      ]
+    },
+    {
+      "rationale_label": "solution_feasibility_assessment",
+      "direction": "neutral",
+      "salience": "secondary",
+      "confidence": 0.91,
+      "utterance_type": "question",
+      "decision_link": "none",
+      "timing": "original_pitch",
+      "turn_index": 138,
+      "quote": "Do you have to do any registration with the schools or deal with the schools at all?",
+      "explanation": "Mark asks whether university approvals or relationships create an operational requirement for the service.",
+      "evidence": [
+        "how many suppliers are you sourcing from, and will that change based on the locale of the schools?",
+        "Do you have to do any registration with the schools or deal with the schools at all?"
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 35,
+          "speaker": "Mark",
+          "quote": "how many suppliers are you sourcing from, and will that change based on the locale of the schools?"
+        },
+        {
+          "turn_index": 138,
+          "speaker": "Mark",
+          "quote": "Do you have to do any registration with the schools or deal with the schools at all?"
+        }
+      ],
+      "activation": "queried",
+      "source_rationale_id": "R8",
+      "utterance_kind": "question",
+      "decision_support": "none",
+      "all_mention_ids": [
+        "R1",
+        "R8"
+      ]
+    },
+    {
+      "rationale_label": "stage_valuation_mismatch",
+      "direction": "neutral",
+      "salience": "secondary",
+      "confidence": 0.96,
+      "utterance_type": "question",
+      "decision_link": "none",
+      "timing": "original_pitch",
+      "turn_index": 300,
+      "quote": "How do you think about valuations as a function of GMV versus actual take home?",
+      "explanation": "Mark asks how Handle's valuation should account for the difference between GMV and retained revenue.",
+      "evidence": [
+        "How do you think about valuations as a function of GMV versus actual take home?"
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 300,
+          "speaker": "Mark",
+          "quote": "How do you think about valuations as a function of GMV versus actual take home?"
+        }
+      ],
+      "activation": "queried",
+      "source_rationale_id": "R19",
+      "utterance_kind": "question",
+      "decision_support": "none",
+      "all_mention_ids": [
+        "R19"
+      ]
+    }
+  ],
+  "later_rationales": [],
+  "excluded_rationales": [],
+  "rationale_mentions": [
+    {
+      "rationale_label": "solution_feasibility_assessment",
+      "direction": "neutral",
+      "salience": "secondary",
+      "confidence": 0.88,
+      "utterance_type": "question",
+      "decision_link": "none",
+      "timing": "original_pitch",
+      "turn_index": 35,
+      "quote": "how many suppliers are you sourcing from, and will that change based on the locale of the schools?",
+      "explanation": "Mark probes whether Handle's supplier network can operate across different campus markets.",
+      "evidence": [
+        "how many suppliers are you sourcing from, and will that change based on the locale of the schools?"
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 35,
+          "speaker": "Mark",
+          "quote": "how many suppliers are you sourcing from, and will that change based on the locale of the schools?"
+        }
+      ],
+      "activation": "queried",
+      "source_rationale_id": "R1"
+    },
+    {
+      "rationale_label": "business_model_assessment",
+      "direction": "neutral",
+      "salience": "secondary",
+      "confidence": 0.97,
+      "utterance_type": "question",
+      "decision_link": "none",
+      "timing": "original_pitch",
+      "turn_index": 39,
+      "quote": "you mark up on the products themselves and then you charge for delivery. Is that correct?",
+      "explanation": "Mark clarifies that Handle monetizes through product markups and delivery fees.",
+      "evidence": [
+        "you mark up on the products themselves and then you charge for delivery. Is that correct?"
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 39,
+          "speaker": "Mark",
+          "quote": "you mark up on the products themselves and then you charge for delivery. Is that correct?"
+        }
+      ],
+      "activation": "queried",
+      "source_rationale_id": "R2"
+    },
+    {
+      "rationale_label": "market_size_assessment",
+      "direction": "neutral",
+      "salience": "secondary",
+      "confidence": 0.98,
+      "utterance_type": "question",
+      "decision_link": "none",
+      "timing": "original_pitch",
+      "turn_index": 78,
+      "quote": "can you unpack what that would look like from a total addressable market perspective?",
+      "explanation": "Mark asks the founder to substantiate the domestic college-campus market size.",
+      "evidence": [
+        "can you unpack what that would look like from a total addressable market perspective?"
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 78,
+          "speaker": "Mark",
+          "quote": "can you unpack what that would look like from a total addressable market perspective?"
+        }
+      ],
+      "activation": "queried",
+      "source_rationale_id": "R3"
+    },
+    {
+      "rationale_label": "market_size_assessment",
+      "direction": "neutral",
+      "salience": "secondary",
+      "confidence": 0.94,
+      "utterance_type": "question",
+      "decision_link": "none",
+      "timing": "original_pitch",
+      "turn_index": 93,
+      "quote": "500 universities you said?",
+      "explanation": "Mark verifies the number of potentially addressable U.S. universities.",
+      "evidence": [
+        "500 universities you said?"
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 93,
+          "speaker": "Mark",
+          "quote": "500 universities you said?"
+        }
+      ],
+      "activation": "queried",
+      "source_rationale_id": "R4"
+    },
+    {
+      "rationale_label": "market_size_assessment",
+      "direction": "neutral",
+      "salience": "secondary",
+      "confidence": 0.93,
+      "utterance_type": "question",
+      "decision_link": "none",
+      "timing": "original_pitch",
+      "turn_index": 95,
+      "quote": "At doing $2 million a year?",
+      "explanation": "Mark verifies the per-campus revenue assumption underlying the market estimate.",
+      "evidence": [
+        "At doing $2 million a year?"
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 95,
+          "speaker": "Mark",
+          "quote": "At doing $2 million a year?"
+        }
+      ],
+      "activation": "queried",
+      "source_rationale_id": "R5"
+    },
+    {
+      "rationale_label": "market_size_assessment",
+      "direction": "neutral",
+      "salience": "secondary",
+      "confidence": 0.97,
+      "utterance_type": "question",
+      "decision_link": "none",
+      "timing": "original_pitch",
+      "turn_index": 97,
+      "quote": "So it's not a billion, right? That's 100 million. Am I doing my math wrong?",
+      "explanation": "Mark checks the arithmetic supporting the stated total addressable market.",
+      "evidence": [
+        "So it's not a billion, right? That's 100 million. Am I doing my math wrong?"
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 97,
+          "speaker": "Mark",
+          "quote": "So it's not a billion, right? That's 100 million. Am I doing my math wrong?"
+        }
+      ],
+      "activation": "queried",
+      "source_rationale_id": "R6"
+    },
+    {
+      "rationale_label": "founder_motivation_authenticity",
+      "direction": "neutral",
+      "salience": "secondary",
+      "confidence": 0.98,
+      "utterance_type": "question",
+      "decision_link": "none",
+      "timing": "original_pitch",
+      "turn_index": 111,
+      "quote": "talk to us a little bit about the motivation here for you",
+      "explanation": "Mark probes why the founder is personally driven to pursue this company instead of continuing college.",
+      "evidence": [
+        "talk to us a little bit about the motivation here for you"
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 111,
+          "speaker": "Mark",
+          "quote": "talk to us a little bit about the motivation here for you"
+        }
+      ],
+      "activation": "queried",
+      "source_rationale_id": "R7"
+    },
+    {
+      "rationale_label": "solution_feasibility_assessment",
+      "direction": "neutral",
+      "salience": "secondary",
+      "confidence": 0.91,
+      "utterance_type": "question",
+      "decision_link": "none",
+      "timing": "original_pitch",
+      "turn_index": 138,
+      "quote": "Do you have to do any registration with the schools or deal with the schools at all?",
+      "explanation": "Mark asks whether university approvals or relationships create an operational requirement for the service.",
+      "evidence": [
+        "Do you have to do any registration with the schools or deal with the schools at all?"
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 138,
+          "speaker": "Mark",
+          "quote": "Do you have to do any registration with the schools or deal with the schools at all?"
+        }
+      ],
+      "activation": "queried",
+      "source_rationale_id": "R8"
+    },
+    {
+      "rationale_label": "capital_intensity_concern",
+      "direction": "neutral",
+      "salience": "secondary",
+      "confidence": 0.94,
+      "utterance_type": "question",
+      "decision_link": "none",
+      "timing": "original_pitch",
+      "turn_index": 141,
+      "quote": "if - let's say it all dried up and wasn't there to be had, how would you grow this business over the next 12 to 24 months?",
+      "explanation": "Mark tests whether Handle can continue expanding without access to venture financing.",
+      "evidence": [
+        "if - let's say it all dried up and wasn't there to be had, how would you grow this business over the next 12 to 24 months?"
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 141,
+          "speaker": "Mark",
+          "quote": "if - let's say it all dried up and wasn't there to be had, how would you grow this business over the next 12 to 24 months?"
+        }
+      ],
+      "activation": "queried",
+      "source_rationale_id": "R9"
+    },
+    {
+      "rationale_label": "execution_risk_assessment",
+      "direction": "negative",
+      "salience": "secondary",
+      "confidence": 0.89,
+      "utterance_type": "concern",
+      "decision_link": "none",
+      "timing": "original_pitch",
+      "turn_index": 194,
+      "quote": "So that person's only working 30 hours though.",
+      "explanation": "Mark questions whether the Oregon GM's limited hours are consistent with the importance of the role.",
+      "evidence": [
+        "So that person's only working 30 hours though."
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 194,
+          "speaker": "Mark",
+          "quote": "So that person's only working 30 hours though."
+        }
+      ],
+      "activation": "evaluated",
+      "source_rationale_id": "R10"
+    },
+    {
+      "rationale_label": "execution_risk_assessment",
+      "direction": "neutral",
+      "salience": "secondary",
+      "confidence": 0.92,
+      "utterance_type": "question",
+      "decision_link": "none",
+      "timing": "original_pitch",
+      "turn_index": 198,
+      "quote": "at scale, more than not are going to be students, probably, working those 30 hours?",
+      "explanation": "Mark probes whether scaling will depend predominantly on part-time student managers.",
+      "evidence": [
+        "at scale, more than not are going to be students, probably, working those 30 hours?"
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 198,
+          "speaker": "Mark",
+          "quote": "at scale, more than not are going to be students, probably, working those 30 hours?"
+        }
+      ],
+      "activation": "queried",
+      "source_rationale_id": "R11"
+    },
+    {
+      "rationale_label": "execution_risk_assessment",
+      "direction": "neutral",
+      "salience": "secondary",
+      "confidence": 0.89,
+      "utterance_type": "question",
+      "decision_link": "none",
+      "timing": "original_pitch",
+      "turn_index": 204,
+      "quote": "where do you move up from GMs? Like region? Help open new schools?",
+      "explanation": "Mark asks how Handle's management and advancement structure will develop beyond campus GMs.",
+      "evidence": [
+        "where do you move up from GMs? Like region? Help open new schools?"
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 204,
+          "speaker": "Mark",
+          "quote": "where do you move up from GMs? Like region? Help open new schools?"
+        }
+      ],
+      "activation": "queried",
+      "source_rationale_id": "R12"
+    },
+    {
+      "rationale_label": "business_model_assessment",
+      "direction": "neutral",
+      "salience": "secondary",
+      "confidence": 0.94,
+      "utterance_type": "question",
+      "decision_link": "none",
+      "timing": "original_pitch",
+      "turn_index": 234,
+      "quote": "so it's a $1.2 million GMV run rate?",
+      "explanation": "Mark clarifies whether the reported run rate represents merchandise volume rather than Handle's retained revenue.",
+      "evidence": [
+        "so it's a $1.2 million GMV run rate?"
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 234,
+          "speaker": "Mark",
+          "quote": "so it's a $1.2 million GMV run rate?"
+        }
+      ],
+      "activation": "queried",
+      "source_rationale_id": "R13"
+    },
+    {
+      "rationale_label": "business_model_assessment",
+      "direction": "neutral",
+      "salience": "secondary",
+      "confidence": 0.98,
+      "utterance_type": "question",
+      "decision_link": "none",
+      "timing": "original_pitch",
+      "turn_index": 238,
+      "quote": "what's the take home for Handle? You know, what's the actual revenue?",
+      "explanation": "Mark asks how much of the reported GMV Handle actually recognizes as revenue.",
+      "evidence": [
+        "what's the take home for Handle? You know, what's the actual revenue?"
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 238,
+          "speaker": "Mark",
+          "quote": "what's the take home for Handle? You know, what's the actual revenue?"
+        }
+      ],
+      "activation": "queried",
+      "source_rationale_id": "R14"
+    },
+    {
+      "rationale_label": "founder_qualities",
+      "direction": "positive",
+      "salience": "secondary",
+      "confidence": 0.96,
+      "utterance_type": "assessment",
+      "decision_link": "none",
+      "timing": "original_pitch",
+      "turn_index": 286,
+      "quote": "incredible passion",
+      "explanation": "Mark positively assesses the founder's passion.",
+      "evidence": [
+        "incredible passion"
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 286,
+          "speaker": "Mark",
+          "quote": "incredible passion"
+        }
+      ],
+      "activation": "evaluated",
+      "source_rationale_id": "R15"
+    },
+    {
+      "rationale_label": "founder_communication_quality",
+      "direction": "positive",
+      "salience": "secondary",
+      "confidence": 0.91,
+      "utterance_type": "assessment",
+      "decision_link": "none",
+      "timing": "original_pitch",
+      "turn_index": 286,
+      "quote": "control of your business",
+      "explanation": "Mark praises the founder's demonstrated command of the business during the pitch.",
+      "evidence": [
+        "control of your business"
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 286,
+          "speaker": "Mark",
+          "quote": "control of your business"
+        }
+      ],
+      "activation": "evaluated",
+      "source_rationale_id": "R16"
+    },
+    {
+      "rationale_label": "capital_intensity_concern",
+      "direction": "positive",
+      "salience": "secondary",
+      "confidence": 0.86,
+      "utterance_type": "assessment",
+      "decision_link": "none",
+      "timing": "original_pitch",
+      "turn_index": 286,
+      "quote": "it will grow with or without that capital infusion",
+      "explanation": "Mark views Handle as capable of growing without depending on additional venture capital.",
+      "evidence": [
+        "it will grow with or without that capital infusion"
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 286,
+          "speaker": "Mark",
+          "quote": "it will grow with or without that capital infusion"
+        }
+      ],
+      "activation": "evaluated",
+      "source_rationale_id": "R17"
+    },
+    {
+      "rationale_label": "competitive_advantage_assessment",
+      "direction": "positive",
+      "salience": "primary",
+      "confidence": 0.92,
+      "utterance_type": "assessment",
+      "decision_link": "none",
+      "timing": "original_pitch",
+      "turn_index": 286,
+      "quote": "the hyperlocal nature of it, and not growing too fast, is actually what's going to make it most dynamic",
+      "explanation": "Mark identifies Handle's hyperlocal model and disciplined expansion as central sources of distinctiveness.",
+      "evidence": [
+        "the hyperlocal nature of it, and not growing too fast, is actually what's going to make it most dynamic"
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 286,
+          "speaker": "Mark",
+          "quote": "the hyperlocal nature of it, and not growing too fast, is actually what's going to make it most dynamic"
+        }
+      ],
+      "activation": "evaluated",
+      "source_rationale_id": "R18"
+    },
+    {
+      "rationale_label": "stage_valuation_mismatch",
+      "direction": "neutral",
+      "salience": "secondary",
+      "confidence": 0.96,
+      "utterance_type": "question",
+      "decision_link": "none",
+      "timing": "original_pitch",
+      "turn_index": 300,
+      "quote": "How do you think about valuations as a function of GMV versus actual take home?",
+      "explanation": "Mark asks how Handle's valuation should account for the difference between GMV and retained revenue.",
+      "evidence": [
+        "How do you think about valuations as a function of GMV versus actual take home?"
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 300,
+          "speaker": "Mark",
+          "quote": "How do you think about valuations as a function of GMV versus actual take home?"
+        }
+      ],
+      "activation": "queried",
+      "source_rationale_id": "R19"
+    },
+    {
+      "rationale_label": "investment_thesis_constraint",
+      "direction": "negative",
+      "salience": "primary",
+      "confidence": 0.99,
+      "utterance_type": "decision_explanation",
+      "decision_link": "supports_out",
+      "timing": "original_pitch",
+      "turn_index": 305,
+      "quote": "it's off thesis for us in terms of what we're looking to put our money into.",
+      "explanation": "Mark explicitly explains that Handle falls outside his fund's investment thesis.",
+      "evidence": [
+        "it's off thesis for us in terms of what we're looking to put our money into."
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 305,
+          "speaker": "Mark",
+          "quote": "it's off thesis for us in terms of what we're looking to put our money into."
+        }
+      ],
+      "activation": "evaluated",
+      "source_rationale_id": "R20"
+    },
+    {
+      "rationale_label": "capital_intensity_concern",
+      "direction": "positive",
+      "salience": "primary",
+      "confidence": 0.89,
+      "utterance_type": "assessment",
+      "decision_link": "none",
+      "timing": "original_pitch",
+      "turn_index": 313,
+      "quote": "I don't think he needs to raise capital.",
+      "explanation": "Mark reiterates that Handle appears capable of operating and growing without relying on venture funding.",
+      "evidence": [
+        "I don't think he needs to raise capital."
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 313,
+          "speaker": "Mark",
+          "quote": "I don't think he needs to raise capital."
+        }
+      ],
+      "activation": "evaluated",
+      "source_rationale_id": "R21"
+    },
+    {
+      "rationale_label": "execution_risk_assessment",
+      "direction": "negative",
+      "salience": "primary",
+      "confidence": 0.97,
+      "utterance_type": "concern",
+      "decision_link": "none",
+      "timing": "original_pitch",
+      "turn_index": 330,
+      "quote": "I don't think speed leads to quality personnel, either. You have to establish yourself on the campus and find the best individuals to work with.",
+      "explanation": "Mark identifies rapid expansion as a major risk to recruiting strong campus-level personnel.",
+      "evidence": [
+        "I don't think speed leads to quality personnel, either. You have to establish yourself on the campus and find the best individuals to work with."
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 330,
+          "speaker": "Mark",
+          "quote": "I don't think speed leads to quality personnel, either. You have to establish yourself on the campus and find the best individuals to work with."
+        }
+      ],
+      "activation": "evaluated",
+      "source_rationale_id": "R22"
+    },
+    {
+      "rationale_label": "founder_qualities",
+      "direction": "positive",
+      "salience": "secondary",
+      "confidence": 0.96,
+      "utterance_type": "assessment",
+      "decision_link": "none",
+      "timing": "original_pitch",
+      "turn_index": 332,
+      "quote": "Super impressive guy.",
+      "explanation": "Mark positively assesses the founder's overall capabilities and appeal.",
+      "evidence": [
+        "Super impressive guy."
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 332,
+          "speaker": "Mark",
+          "quote": "Super impressive guy."
+        }
+      ],
+      "activation": "evaluated",
+      "source_rationale_id": "R23"
+    },
+    {
+      "rationale_label": "founder_communication_quality",
+      "direction": "positive",
+      "salience": "secondary",
+      "confidence": 0.94,
+      "utterance_type": "assessment",
+      "decision_link": "none",
+      "timing": "original_pitch",
+      "turn_index": 332,
+      "quote": "great control of the business",
+      "explanation": "Mark again praises the founder's demonstrated command of the company.",
+      "evidence": [
+        "great control of the business"
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 332,
+          "speaker": "Mark",
+          "quote": "great control of the business"
+        }
+      ],
+      "activation": "evaluated",
+      "source_rationale_id": "R24"
+    }
+  ],
+  "expanded_quote_evidence": [],
+  "rejected_after_evidence_check": []
+}

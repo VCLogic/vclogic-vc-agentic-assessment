@@ -1,0 +1,1282 @@
+{
+  "schema": "phase1-rationale-reference-v1",
+  "extraction_version": "pitchshow-rationales-v1",
+  "fingerprint": "06f5bb5633a815b9b7cc1b20ba4edebf3c46a4c24190c3fc76fcc71fe7faea58",
+  "episode_slug": "87-uber-for-pets",
+  "vc_slug": "jillian-manus-structure-capital",
+  "vc_name": "Jillian Manus",
+  "actual_decision": "In",
+  "later_decision": "Out",
+  "reference_kind": "automated_transcript_observed_candidate",
+  "human_validated": false,
+  "source_format": "transcript-observed-rationales-v1",
+  "source_path": "../source/episodes/87-uber-for-pets.json",
+  "source_sha256": "20cfbc94995d8e683fe60d9cc0499cb641fe11fc4635fdccc43f3a6ce5f2f316",
+  "transcript_sha256": "b2356bccf2a61afa690adad69c4230c9fcbbe2251f8b591c5f21af9d36c3d447",
+  "taxonomy_sha256": "eaa8734819a3ac34dd19ee5f0bf6de925a793a1d25a2d361090dafc9b751e1fc",
+  "model": "codex:gpt-5.6-luna+gpt-5.6-sol",
+  "generation_stages": [
+    {
+      "phase": "rationale_extract",
+      "backend": "codex",
+      "model": "gpt-5.6-luna"
+    },
+    {
+      "phase": "rationale_verify",
+      "backend": "codex",
+      "model": "gpt-5.6-sol"
+    }
+  ],
+  "source_tier": "newly_extracted_and_independently_model_reviewed",
+  "reviewed_target_turns": [
+    8,
+    23,
+    25,
+    27,
+    29,
+    31,
+    35,
+    37,
+    39,
+    46,
+    51,
+    53,
+    57,
+    61,
+    63,
+    65,
+    68,
+    72,
+    76,
+    99,
+    101,
+    104,
+    106,
+    111,
+    113,
+    115,
+    121,
+    133,
+    135,
+    140,
+    149,
+    156,
+    158,
+    162,
+    164,
+    166,
+    168,
+    172,
+    173,
+    176,
+    179,
+    184,
+    186,
+    188,
+    197,
+    200,
+    202,
+    204,
+    206,
+    208,
+    211,
+    216,
+    218,
+    221,
+    225,
+    235,
+    237,
+    239,
+    241,
+    243
+  ],
+  "notes": "All supplied target turns were reviewed; simple reactions, confirmations, jokes, bare commitments, and statements lacking a distinct investment rationale were omitted.",
+  "receipt_path": "receipts/87-uber-for-pets.json",
+  "scoring_scope": "original_pitch_only",
+  "shared_across_input_modes": true,
+  "rationales": [
+    {
+      "rationale_label": "business_model_assessment",
+      "direction": "neutral",
+      "salience": "secondary",
+      "confidence": 0.93,
+      "utterance_type": "assessment",
+      "decision_link": "none",
+      "timing": "original_pitch",
+      "turn_index": 149,
+      "quote": "It’s a b2b2c.",
+      "explanation": "She characterizes the model as using business partners to reach end consumers.",
+      "evidence": [
+        "You realize that Uber and Lyft are more like 20, 25%?",
+        "And what does that represent in revenues?",
+        "It’s a b2b2c."
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 46,
+          "speaker": "Jillian",
+          "quote": "You realize that Uber and Lyft are more like 20, 25%?"
+        },
+        {
+          "turn_index": 72,
+          "speaker": "Jillian",
+          "quote": "And what does that represent in revenues?"
+        },
+        {
+          "turn_index": 149,
+          "speaker": "Jillian",
+          "quote": "It’s a b2b2c."
+        }
+      ],
+      "activation": "evaluated",
+      "source_rationale_id": "R14",
+      "utterance_kind": "assessment",
+      "decision_support": "none",
+      "all_mention_ids": [
+        "R5",
+        "R9",
+        "R14"
+      ]
+    },
+    {
+      "rationale_label": "founder_coachability_assessment",
+      "direction": "positive",
+      "salience": "primary",
+      "confidence": 0.99,
+      "utterance_type": "decision_reason",
+      "decision_link": "explicit",
+      "timing": "original_pitch",
+      "turn_index": 202,
+      "quote": "I think that this woman is coachable.",
+      "explanation": "During the same-room debrief, she defends her investment by identifying the founder’s coachability.",
+      "evidence": [
+        "I think that this woman is coachable.",
+        "just in the time that she was here, she was starting to rethink this."
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 202,
+          "speaker": "Jillian",
+          "quote": "I think that this woman is coachable."
+        },
+        {
+          "turn_index": 202,
+          "speaker": "Jillian",
+          "quote": "just in the time that she was here, she was starting to rethink this."
+        }
+      ],
+      "activation": "evaluated",
+      "source_rationale_id": "R21",
+      "utterance_kind": "decision_explanation",
+      "decision_support": "supports_in",
+      "all_mention_ids": [
+        "R16",
+        "R21",
+        "R22"
+      ]
+    },
+    {
+      "rationale_label": "founder_execution",
+      "direction": "positive",
+      "salience": "primary",
+      "confidence": 0.96,
+      "utterance_type": "assessment",
+      "decision_link": "explicit",
+      "timing": "original_pitch",
+      "turn_index": 221,
+      "quote": "And sit outside at the airport.",
+      "explanation": "She highlights the founder’s hands-on customer research as evidence of operational grit supporting the investment.",
+      "evidence": [
+        "But she already does...",
+        "And sit outside at the airport."
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 208,
+          "speaker": "Jillian",
+          "quote": "But she already does..."
+        },
+        {
+          "turn_index": 221,
+          "speaker": "Jillian",
+          "quote": "And sit outside at the airport."
+        }
+      ],
+      "activation": "evaluated",
+      "source_rationale_id": "R26",
+      "utterance_kind": "supporting_argument",
+      "decision_support": "supports_in",
+      "all_mention_ids": [
+        "R24",
+        "R26"
+      ]
+    },
+    {
+      "rationale_label": "founder_qualities",
+      "direction": "positive",
+      "salience": "secondary",
+      "confidence": 0.98,
+      "utterance_type": "assessment",
+      "decision_link": "none",
+      "timing": "original_pitch",
+      "turn_index": 37,
+      "quote": "First of all, I am so impressed by you.",
+      "explanation": "She expresses a strong positive assessment of the founder.",
+      "evidence": [
+        "I like your moxie.",
+        "First of all, I am so impressed by you."
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 35,
+          "speaker": "Jillian",
+          "quote": "I like your moxie."
+        },
+        {
+          "turn_index": 37,
+          "speaker": "Jillian",
+          "quote": "First of all, I am so impressed by you."
+        }
+      ],
+      "activation": "evaluated",
+      "source_rationale_id": "R4",
+      "utterance_kind": "assessment",
+      "decision_support": "none",
+      "all_mention_ids": [
+        "R2",
+        "R3",
+        "R4"
+      ]
+    },
+    {
+      "rationale_label": "go_to_market_strategy_assessment",
+      "direction": "neutral",
+      "salience": "primary",
+      "confidence": 0.98,
+      "utterance_type": "assessment",
+      "decision_link": "none",
+      "timing": "original_pitch",
+      "turn_index": 216,
+      "quote": "before I invest, I want to see what percentage of that $750 they’re going to be using for partnerships, for b2b, and what percentage they’re going to use for consumers.",
+      "explanation": "She makes further investment diligence contingent on understanding how funding will be divided between B2B partnerships and direct consumer acquisition.",
+      "evidence": [
+        "before I invest, I want to see what percentage of that $750 they’re going to be using for partnerships, for b2b, and what percentage they’re going to use for consumers."
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 216,
+          "speaker": "Jillian",
+          "quote": "before I invest, I want to see what percentage of that $750 they’re going to be using for partnerships, for b2b, and what percentage they’re going to use for consumers."
+        }
+      ],
+      "activation": "evaluated",
+      "source_rationale_id": "R25",
+      "utterance_kind": "concern",
+      "decision_support": "unclear",
+      "all_mention_ids": [
+        "R25"
+      ]
+    },
+    {
+      "rationale_label": "investor_value_add_fit",
+      "direction": "positive",
+      "salience": "secondary",
+      "confidence": 0.91,
+      "utterance_type": "assessment",
+      "decision_link": "explicit",
+      "timing": "original_pitch",
+      "turn_index": 206,
+      "quote": "That’s what, one of the things that we do! We evolve, we help...",
+      "explanation": "She argues that helping entrepreneurs evolve is part of the support she can provide after investing.",
+      "evidence": [
+        "That’s what, one of the things that we do! We evolve, we help..."
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 206,
+          "speaker": "Jillian",
+          "quote": "That’s what, one of the things that we do! We evolve, we help..."
+        }
+      ],
+      "activation": "evaluated",
+      "source_rationale_id": "R23",
+      "utterance_kind": "supporting_argument",
+      "decision_support": "supports_in",
+      "all_mention_ids": [
+        "R23"
+      ]
+    },
+    {
+      "rationale_label": "market_entry_path_assessment",
+      "direction": "neutral",
+      "salience": "secondary",
+      "confidence": 0.97,
+      "utterance_type": "question",
+      "decision_link": "none",
+      "timing": "original_pitch",
+      "turn_index": 106,
+      "quote": "Have you talked to them?",
+      "explanation": "She tests whether the proposed groomer and daycare customer segment has actually been engaged.",
+      "evidence": [
+        "Have you talked to them?"
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 106,
+          "speaker": "Jillian",
+          "quote": "Have you talked to them?"
+        }
+      ],
+      "activation": "queried",
+      "source_rationale_id": "R13",
+      "utterance_kind": "question",
+      "decision_support": "none",
+      "all_mention_ids": [
+        "R13"
+      ]
+    },
+    {
+      "rationale_label": "market_problem_validation",
+      "direction": "positive",
+      "salience": "secondary",
+      "confidence": 0.91,
+      "utterance_type": "assessment",
+      "decision_link": "none",
+      "timing": "original_pitch",
+      "turn_index": 57,
+      "quote": "money doesn’t solve all problems. You can’t just hand 20 bucks to someone.",
+      "explanation": "She argues that an extra payment does not reliably solve the pet-transportation problem.",
+      "evidence": [
+        "money doesn’t solve all problems. You can’t just hand 20 bucks to someone."
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 57,
+          "speaker": "Jillian",
+          "quote": "money doesn’t solve all problems. You can’t just hand 20 bucks to someone."
+        }
+      ],
+      "activation": "evaluated",
+      "source_rationale_id": "R7",
+      "utterance_kind": "supporting_argument",
+      "decision_support": "none",
+      "all_mention_ids": [
+        "R6",
+        "R7"
+      ]
+    },
+    {
+      "rationale_label": "market_size_assessment",
+      "direction": "positive",
+      "salience": "secondary",
+      "confidence": 0.91,
+      "utterance_type": "assessment",
+      "decision_link": "none",
+      "timing": "original_pitch",
+      "turn_index": 104,
+      "quote": "Oh, a gazillion.",
+      "explanation": "She characterizes the number of potential daycare and grooming customers as very large.",
+      "evidence": [
+        "Oh, a gazillion."
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 104,
+          "speaker": "Jillian",
+          "quote": "Oh, a gazillion."
+        }
+      ],
+      "activation": "evaluated",
+      "source_rationale_id": "R12",
+      "utterance_kind": "assessment",
+      "decision_support": "none",
+      "all_mention_ids": [
+        "R12"
+      ]
+    },
+    {
+      "rationale_label": "product_differentiation_concern",
+      "direction": "negative",
+      "salience": "secondary",
+      "confidence": 0.98,
+      "utterance_type": "question",
+      "decision_link": "none",
+      "timing": "original_pitch",
+      "turn_index": 65,
+      "quote": "don't you think Uber would then see this as natural?",
+      "explanation": "She questions whether SpotOn’s success would prompt Uber to pursue the same offering.",
+      "evidence": [
+        "don't you think Uber would then see this as natural?"
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 65,
+          "speaker": "Jillian",
+          "quote": "don't you think Uber would then see this as natural?"
+        }
+      ],
+      "activation": "queried",
+      "source_rationale_id": "R8",
+      "utterance_kind": "question",
+      "decision_support": "none",
+      "all_mention_ids": [
+        "R8"
+      ]
+    },
+    {
+      "rationale_label": "product_success_factor_assessment",
+      "direction": "positive",
+      "salience": "primary",
+      "confidence": 0.98,
+      "utterance_type": "decision_reason",
+      "decision_link": "explicit",
+      "timing": "original_pitch",
+      "turn_index": 173,
+      "quote": "they really don’t care about costs, they care about trust.",
+      "explanation": "She believes pet owners prioritize trust over price, supporting SpotOn’s ability to command premium economics.",
+      "evidence": [
+        "Trust.",
+        "You've built trust.",
+        "they really don’t care about costs, they care about trust."
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 99,
+          "speaker": "Jillian",
+          "quote": "Trust."
+        },
+        {
+          "turn_index": 101,
+          "speaker": "Jillian",
+          "quote": "You've built trust."
+        },
+        {
+          "turn_index": 173,
+          "speaker": "Jillian",
+          "quote": "they really don’t care about costs, they care about trust."
+        }
+      ],
+      "activation": "evaluated",
+      "source_rationale_id": "R19",
+      "utterance_kind": "decision_explanation",
+      "decision_support": "supports_in",
+      "all_mention_ids": [
+        "R10",
+        "R11",
+        "R15",
+        "R17",
+        "R19",
+        "R20"
+      ]
+    },
+    {
+      "rationale_label": "solution_feasibility_assessment",
+      "direction": "negative",
+      "salience": "secondary",
+      "confidence": 0.94,
+      "utterance_type": "assessment",
+      "decision_link": "none",
+      "timing": "original_pitch",
+      "turn_index": 25,
+      "quote": "That’s a problem.",
+      "explanation": "She identifies the current two-hour booking window as a material operational limitation of the service.",
+      "evidence": [
+        "That’s a problem."
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 25,
+          "speaker": "Jillian",
+          "quote": "That’s a problem."
+        }
+      ],
+      "activation": "evaluated",
+      "source_rationale_id": "R1",
+      "utterance_kind": "concern",
+      "decision_support": "none",
+      "all_mention_ids": [
+        "R1"
+      ]
+    },
+    {
+      "rationale_label": "unit_economics_assessment",
+      "direction": "positive",
+      "salience": "primary",
+      "confidence": 0.99,
+      "utterance_type": "decision_reason",
+      "decision_link": "explicit",
+      "timing": "original_pitch",
+      "turn_index": 173,
+      "quote": "I actually believe you are going to get big margins.",
+      "explanation": "Immediately after committing capital, she cites expected high margins as a reason for investing.",
+      "evidence": [
+        "I actually believe you are going to get big margins."
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 173,
+          "speaker": "Jillian",
+          "quote": "I actually believe you are going to get big margins."
+        }
+      ],
+      "activation": "evaluated",
+      "source_rationale_id": "R18",
+      "utterance_kind": "decision_explanation",
+      "decision_support": "supports_in",
+      "all_mention_ids": [
+        "R18"
+      ]
+    }
+  ],
+  "later_rationales": [
+    {
+      "rationale_label": "investor_value_add_fit",
+      "direction": "positive",
+      "salience": "secondary",
+      "confidence": 0.95,
+      "utterance_type": "decision_explanation",
+      "decision_link": "supports_in",
+      "timing": "later_commentary",
+      "turn_index": 235,
+      "quote": "Let me see what companies I can get partnered with her.",
+      "explanation": "She describes partnership introductions as a concrete way she could help make the opportunity work.",
+      "evidence": [
+        "Let me see what companies I can get partnered with her."
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 235,
+          "speaker": "Jillian",
+          "quote": "Let me see what companies I can get partnered with her."
+        }
+      ],
+      "activation": "evaluated",
+      "source_rationale_id": "R27"
+    },
+    {
+      "rationale_label": "founder_qualities",
+      "direction": "positive",
+      "salience": "primary",
+      "confidence": 0.94,
+      "utterance_type": "decision_explanation",
+      "decision_link": "supports_in",
+      "timing": "later_commentary",
+      "turn_index": 237,
+      "quote": "Her.",
+      "explanation": "Asked what she could not let go of, she identifies the founder herself as the reason for her renewed interest.",
+      "evidence": [
+        "Her."
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 237,
+          "speaker": "Jillian",
+          "quote": "Her."
+        }
+      ],
+      "activation": "evaluated",
+      "source_rationale_id": "R28"
+    },
+    {
+      "rationale_label": "founder_qualities",
+      "direction": "positive",
+      "salience": "primary",
+      "confidence": 0.99,
+      "utterance_type": "decision_explanation",
+      "decision_link": "supports_in",
+      "timing": "later_commentary",
+      "turn_index": 239,
+      "quote": "I think she has everything a founder needs.",
+      "explanation": "She explicitly identifies the founder’s overall qualities as the basis for continuing to pursue the opportunity.",
+      "evidence": [
+        "I think she has everything a founder needs."
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 239,
+          "speaker": "Jillian",
+          "quote": "I think she has everything a founder needs."
+        }
+      ],
+      "activation": "evaluated",
+      "source_rationale_id": "R29"
+    },
+    {
+      "rationale_label": "investor_value_add_fit",
+      "direction": "positive",
+      "salience": "secondary",
+      "confidence": 0.97,
+      "utterance_type": "supporting_argument",
+      "decision_link": "none",
+      "timing": "later_commentary",
+      "turn_index": 241,
+      "quote": "I could get the best partners for her like Wag",
+      "explanation": "She believes her network can provide valuable strategic partners and pilot opportunities.",
+      "evidence": [
+        "I could get the best partners for her like Wag"
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 241,
+          "speaker": "Jillian",
+          "quote": "I could get the best partners for her like Wag"
+        }
+      ],
+      "activation": "evaluated",
+      "source_rationale_id": "R30"
+    },
+    {
+      "rationale_label": "traction_repeatability_concern",
+      "direction": "neutral",
+      "salience": "secondary",
+      "confidence": 0.86,
+      "utterance_type": "assessment",
+      "decision_link": "none",
+      "timing": "later_commentary",
+      "turn_index": 243,
+      "quote": "That would definitely show some validation.",
+      "explanation": "She views the proposed partner pilots as a way to establish additional evidence that the business works.",
+      "evidence": [
+        "That would definitely show some validation."
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 243,
+          "speaker": "Jillian",
+          "quote": "That would definitely show some validation."
+        }
+      ],
+      "activation": "evaluated",
+      "source_rationale_id": "R31"
+    }
+  ],
+  "excluded_rationales": [],
+  "rationale_mentions": [
+    {
+      "rationale_label": "solution_feasibility_assessment",
+      "direction": "negative",
+      "salience": "secondary",
+      "confidence": 0.94,
+      "utterance_type": "concern",
+      "decision_link": "none",
+      "timing": "original_pitch",
+      "turn_index": 25,
+      "quote": "That’s a problem.",
+      "explanation": "She identifies the current two-hour booking window as a material operational limitation of the service.",
+      "evidence": [
+        "That’s a problem."
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 25,
+          "speaker": "Jillian",
+          "quote": "That’s a problem."
+        }
+      ],
+      "activation": "evaluated",
+      "source_rationale_id": "R1"
+    },
+    {
+      "rationale_label": "founder_qualities",
+      "direction": "neutral",
+      "salience": "secondary",
+      "confidence": 0.94,
+      "utterance_type": "question",
+      "decision_link": "none",
+      "timing": "original_pitch",
+      "turn_index": 29,
+      "quote": "So tell me a little about you, could you please? And your team.",
+      "explanation": "She requests material information about the founder and founding team.",
+      "evidence": [
+        "So tell me a little about you, could you please? And your team."
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 29,
+          "speaker": "Jillian",
+          "quote": "So tell me a little about you, could you please? And your team."
+        }
+      ],
+      "activation": "queried",
+      "source_rationale_id": "R2"
+    },
+    {
+      "rationale_label": "founder_qualities",
+      "direction": "positive",
+      "salience": "secondary",
+      "confidence": 0.98,
+      "utterance_type": "assessment",
+      "decision_link": "none",
+      "timing": "original_pitch",
+      "turn_index": 35,
+      "quote": "I like your moxie.",
+      "explanation": "She positively assesses the founder’s boldness and determination.",
+      "evidence": [
+        "I like your moxie."
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 35,
+          "speaker": "Jillian",
+          "quote": "I like your moxie."
+        }
+      ],
+      "activation": "evaluated",
+      "source_rationale_id": "R3"
+    },
+    {
+      "rationale_label": "founder_qualities",
+      "direction": "positive",
+      "salience": "secondary",
+      "confidence": 0.98,
+      "utterance_type": "assessment",
+      "decision_link": "none",
+      "timing": "original_pitch",
+      "turn_index": 37,
+      "quote": "First of all, I am so impressed by you.",
+      "explanation": "She expresses a strong positive assessment of the founder.",
+      "evidence": [
+        "First of all, I am so impressed by you."
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 37,
+          "speaker": "Jillian",
+          "quote": "First of all, I am so impressed by you."
+        }
+      ],
+      "activation": "evaluated",
+      "source_rationale_id": "R4"
+    },
+    {
+      "rationale_label": "business_model_assessment",
+      "direction": "neutral",
+      "salience": "secondary",
+      "confidence": 0.96,
+      "utterance_type": "question",
+      "decision_link": "none",
+      "timing": "original_pitch",
+      "turn_index": 46,
+      "quote": "You realize that Uber and Lyft are more like 20, 25%?",
+      "explanation": "She examines SpotOn’s 15% take rate against incumbent ride-hailing monetization.",
+      "evidence": [
+        "You realize that Uber and Lyft are more like 20, 25%?"
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 46,
+          "speaker": "Jillian",
+          "quote": "You realize that Uber and Lyft are more like 20, 25%?"
+        }
+      ],
+      "activation": "queried",
+      "source_rationale_id": "R5"
+    },
+    {
+      "rationale_label": "market_problem_validation",
+      "direction": "neutral",
+      "salience": "secondary",
+      "confidence": 0.9,
+      "utterance_type": "assessment",
+      "decision_link": "none",
+      "timing": "original_pitch",
+      "turn_index": 51,
+      "quote": "I, I, I was not aware that they have the right to turn you down if you have a pet.",
+      "explanation": "She expresses uncertainty about the founder’s claim that ordinary ride-hailing drivers may refuse passengers with pets.",
+      "evidence": [
+        "I, I, I was not aware that they have the right to turn you down if you have a pet."
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 51,
+          "speaker": "Jillian",
+          "quote": "I, I, I was not aware that they have the right to turn you down if you have a pet."
+        }
+      ],
+      "activation": "evaluated",
+      "source_rationale_id": "R6"
+    },
+    {
+      "rationale_label": "market_problem_validation",
+      "direction": "positive",
+      "salience": "secondary",
+      "confidence": 0.91,
+      "utterance_type": "supporting_argument",
+      "decision_link": "none",
+      "timing": "original_pitch",
+      "turn_index": 57,
+      "quote": "money doesn’t solve all problems. You can’t just hand 20 bucks to someone.",
+      "explanation": "She argues that an extra payment does not reliably solve the pet-transportation problem.",
+      "evidence": [
+        "money doesn’t solve all problems. You can’t just hand 20 bucks to someone."
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 57,
+          "speaker": "Jillian",
+          "quote": "money doesn’t solve all problems. You can’t just hand 20 bucks to someone."
+        }
+      ],
+      "activation": "evaluated",
+      "source_rationale_id": "R7"
+    },
+    {
+      "rationale_label": "product_differentiation_concern",
+      "direction": "negative",
+      "salience": "secondary",
+      "confidence": 0.98,
+      "utterance_type": "question",
+      "decision_link": "none",
+      "timing": "original_pitch",
+      "turn_index": 65,
+      "quote": "don't you think Uber would then see this as natural?",
+      "explanation": "She questions whether SpotOn’s success would prompt Uber to pursue the same offering.",
+      "evidence": [
+        "don't you think Uber would then see this as natural?"
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 65,
+          "speaker": "Jillian",
+          "quote": "don't you think Uber would then see this as natural?"
+        }
+      ],
+      "activation": "queried",
+      "source_rationale_id": "R8"
+    },
+    {
+      "rationale_label": "business_model_assessment",
+      "direction": "neutral",
+      "salience": "secondary",
+      "confidence": 0.97,
+      "utterance_type": "question",
+      "decision_link": "none",
+      "timing": "original_pitch",
+      "turn_index": 72,
+      "quote": "And what does that represent in revenues?",
+      "explanation": "She asks how the reported ride activity translates into revenue.",
+      "evidence": [
+        "And what does that represent in revenues?"
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 72,
+          "speaker": "Jillian",
+          "quote": "And what does that represent in revenues?"
+        }
+      ],
+      "activation": "queried",
+      "source_rationale_id": "R9"
+    },
+    {
+      "rationale_label": "product_success_factor_assessment",
+      "direction": "positive",
+      "salience": "secondary",
+      "confidence": 0.96,
+      "utterance_type": "assessment",
+      "decision_link": "none",
+      "timing": "original_pitch",
+      "turn_index": 99,
+      "quote": "Trust.",
+      "explanation": "She identifies trust as an essential factor in the service’s success.",
+      "evidence": [
+        "Trust."
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 99,
+          "speaker": "Jillian",
+          "quote": "Trust."
+        }
+      ],
+      "activation": "evaluated",
+      "source_rationale_id": "R10"
+    },
+    {
+      "rationale_label": "product_success_factor_assessment",
+      "direction": "positive",
+      "salience": "secondary",
+      "confidence": 0.98,
+      "utterance_type": "assessment",
+      "decision_link": "none",
+      "timing": "original_pitch",
+      "turn_index": 101,
+      "quote": "You've built trust.",
+      "explanation": "She assesses that SpotOn has established the trust required for customers to entrust it with their pets.",
+      "evidence": [
+        "You've built trust."
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 101,
+          "speaker": "Jillian",
+          "quote": "You've built trust."
+        }
+      ],
+      "activation": "evaluated",
+      "source_rationale_id": "R11"
+    },
+    {
+      "rationale_label": "market_size_assessment",
+      "direction": "positive",
+      "salience": "secondary",
+      "confidence": 0.91,
+      "utterance_type": "assessment",
+      "decision_link": "none",
+      "timing": "original_pitch",
+      "turn_index": 104,
+      "quote": "Oh, a gazillion.",
+      "explanation": "She characterizes the number of potential daycare and grooming customers as very large.",
+      "evidence": [
+        "Oh, a gazillion."
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 104,
+          "speaker": "Jillian",
+          "quote": "Oh, a gazillion."
+        }
+      ],
+      "activation": "evaluated",
+      "source_rationale_id": "R12"
+    },
+    {
+      "rationale_label": "market_entry_path_assessment",
+      "direction": "neutral",
+      "salience": "secondary",
+      "confidence": 0.97,
+      "utterance_type": "question",
+      "decision_link": "none",
+      "timing": "original_pitch",
+      "turn_index": 106,
+      "quote": "Have you talked to them?",
+      "explanation": "She tests whether the proposed groomer and daycare customer segment has actually been engaged.",
+      "evidence": [
+        "Have you talked to them?"
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 106,
+          "speaker": "Jillian",
+          "quote": "Have you talked to them?"
+        }
+      ],
+      "activation": "queried",
+      "source_rationale_id": "R13"
+    },
+    {
+      "rationale_label": "business_model_assessment",
+      "direction": "neutral",
+      "salience": "secondary",
+      "confidence": 0.93,
+      "utterance_type": "assessment",
+      "decision_link": "none",
+      "timing": "original_pitch",
+      "turn_index": 149,
+      "quote": "It’s a b2b2c.",
+      "explanation": "She characterizes the model as using business partners to reach end consumers.",
+      "evidence": [
+        "It’s a b2b2c."
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 149,
+          "speaker": "Jillian",
+          "quote": "It’s a b2b2c."
+        }
+      ],
+      "activation": "evaluated",
+      "source_rationale_id": "R14"
+    },
+    {
+      "rationale_label": "product_success_factor_assessment",
+      "direction": "negative",
+      "salience": "secondary",
+      "confidence": 0.94,
+      "utterance_type": "concern",
+      "decision_link": "none",
+      "timing": "original_pitch",
+      "turn_index": 158,
+      "quote": "But what does it have to do with, with the service?",
+      "explanation": "She believes the SpotOn name does not clearly communicate what the service provides.",
+      "evidence": [
+        "But what does it have to do with, with the service?"
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 158,
+          "speaker": "Jillian",
+          "quote": "But what does it have to do with, with the service?"
+        }
+      ],
+      "activation": "evaluated",
+      "source_rationale_id": "R15"
+    },
+    {
+      "rationale_label": "founder_coachability_assessment",
+      "direction": "neutral",
+      "salience": "secondary",
+      "confidence": 0.94,
+      "utterance_type": "question",
+      "decision_link": "none",
+      "timing": "original_pitch",
+      "turn_index": 164,
+      "quote": "Would you be open to rebranding this",
+      "explanation": "She tests the founder’s receptiveness to changing the brand in response to feedback.",
+      "evidence": [
+        "Would you be open to rebranding this"
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 164,
+          "speaker": "Jillian",
+          "quote": "Would you be open to rebranding this"
+        }
+      ],
+      "activation": "queried",
+      "source_rationale_id": "R16"
+    },
+    {
+      "rationale_label": "product_success_factor_assessment",
+      "direction": "negative",
+      "salience": "secondary",
+      "confidence": 0.91,
+      "utterance_type": "concern",
+      "decision_link": "none",
+      "timing": "original_pitch",
+      "turn_index": 166,
+      "quote": "something that, that people would associate.",
+      "explanation": "She argues that the brand should be more readily associated with pet transportation.",
+      "evidence": [
+        "something that, that people would associate."
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 166,
+          "speaker": "Jillian",
+          "quote": "something that, that people would associate."
+        }
+      ],
+      "activation": "evaluated",
+      "source_rationale_id": "R17"
+    },
+    {
+      "rationale_label": "unit_economics_assessment",
+      "direction": "positive",
+      "salience": "primary",
+      "confidence": 0.99,
+      "utterance_type": "decision_explanation",
+      "decision_link": "supports_in",
+      "timing": "original_pitch",
+      "turn_index": 173,
+      "quote": "I actually believe you are going to get big margins.",
+      "explanation": "Immediately after committing capital, she cites expected high margins as a reason for investing.",
+      "evidence": [
+        "I actually believe you are going to get big margins."
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 173,
+          "speaker": "Jillian",
+          "quote": "I actually believe you are going to get big margins."
+        }
+      ],
+      "activation": "evaluated",
+      "source_rationale_id": "R18"
+    },
+    {
+      "rationale_label": "product_success_factor_assessment",
+      "direction": "positive",
+      "salience": "primary",
+      "confidence": 0.98,
+      "utterance_type": "decision_explanation",
+      "decision_link": "supports_in",
+      "timing": "original_pitch",
+      "turn_index": 173,
+      "quote": "they really don’t care about costs, they care about trust.",
+      "explanation": "She believes pet owners prioritize trust over price, supporting SpotOn’s ability to command premium economics.",
+      "evidence": [
+        "they really don’t care about costs, they care about trust."
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 173,
+          "speaker": "Jillian",
+          "quote": "they really don’t care about costs, they care about trust."
+        }
+      ],
+      "activation": "evaluated",
+      "source_rationale_id": "R19"
+    },
+    {
+      "rationale_label": "product_success_factor_assessment",
+      "direction": "negative",
+      "salience": "secondary",
+      "confidence": 0.9,
+      "utterance_type": "concern",
+      "decision_link": "none",
+      "timing": "original_pitch",
+      "turn_index": 186,
+      "quote": "We have to rethink Spot On, just a little.",
+      "explanation": "She reiterates that the company’s branding needs revision.",
+      "evidence": [
+        "We have to rethink Spot On, just a little."
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 186,
+          "speaker": "Jillian",
+          "quote": "We have to rethink Spot On, just a little."
+        }
+      ],
+      "activation": "evaluated",
+      "source_rationale_id": "R20"
+    },
+    {
+      "rationale_label": "founder_coachability_assessment",
+      "direction": "positive",
+      "salience": "primary",
+      "confidence": 0.99,
+      "utterance_type": "decision_explanation",
+      "decision_link": "supports_in",
+      "timing": "original_pitch",
+      "turn_index": 202,
+      "quote": "I think that this woman is coachable.",
+      "explanation": "During the same-room debrief, she defends her investment by identifying the founder’s coachability.",
+      "evidence": [
+        "I think that this woman is coachable."
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 202,
+          "speaker": "Jillian",
+          "quote": "I think that this woman is coachable."
+        }
+      ],
+      "activation": "evaluated",
+      "source_rationale_id": "R21"
+    },
+    {
+      "rationale_label": "founder_coachability_assessment",
+      "direction": "positive",
+      "salience": "primary",
+      "confidence": 0.98,
+      "utterance_type": "supporting_argument",
+      "decision_link": "supports_in",
+      "timing": "original_pitch",
+      "turn_index": 202,
+      "quote": "just in the time that she was here, she was starting to rethink this.",
+      "explanation": "She cites the founder’s rapid reconsideration of the strategy as evidence of receptiveness to feedback.",
+      "evidence": [
+        "just in the time that she was here, she was starting to rethink this."
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 202,
+          "speaker": "Jillian",
+          "quote": "just in the time that she was here, she was starting to rethink this."
+        }
+      ],
+      "activation": "evaluated",
+      "source_rationale_id": "R22"
+    },
+    {
+      "rationale_label": "investor_value_add_fit",
+      "direction": "positive",
+      "salience": "secondary",
+      "confidence": 0.91,
+      "utterance_type": "supporting_argument",
+      "decision_link": "supports_in",
+      "timing": "original_pitch",
+      "turn_index": 206,
+      "quote": "That’s what, one of the things that we do! We evolve, we help...",
+      "explanation": "She argues that helping entrepreneurs evolve is part of the support she can provide after investing.",
+      "evidence": [
+        "That’s what, one of the things that we do! We evolve, we help..."
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 206,
+          "speaker": "Jillian",
+          "quote": "That’s what, one of the things that we do! We evolve, we help..."
+        }
+      ],
+      "activation": "evaluated",
+      "source_rationale_id": "R23"
+    },
+    {
+      "rationale_label": "founder_execution",
+      "direction": "positive",
+      "salience": "secondary",
+      "confidence": 0.86,
+      "utterance_type": "supporting_argument",
+      "decision_link": "supports_in",
+      "timing": "original_pitch",
+      "turn_index": 208,
+      "quote": "But she already does...",
+      "explanation": "Responding to the assertion that founders must run their companies and possess vision, she maintains that this founder already does so.",
+      "evidence": [
+        "But she already does..."
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 208,
+          "speaker": "Jillian",
+          "quote": "But she already does..."
+        }
+      ],
+      "activation": "evaluated",
+      "source_rationale_id": "R24"
+    },
+    {
+      "rationale_label": "go_to_market_strategy_assessment",
+      "direction": "neutral",
+      "salience": "primary",
+      "confidence": 0.98,
+      "utterance_type": "concern",
+      "decision_link": "unclear",
+      "timing": "original_pitch",
+      "turn_index": 216,
+      "quote": "before I invest, I want to see what percentage of that $750 they’re going to be using for partnerships, for b2b, and what percentage they’re going to use for consumers.",
+      "explanation": "She makes further investment diligence contingent on understanding how funding will be divided between B2B partnerships and direct consumer acquisition.",
+      "evidence": [
+        "before I invest, I want to see what percentage of that $750 they’re going to be using for partnerships, for b2b, and what percentage they’re going to use for consumers."
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 216,
+          "speaker": "Jillian",
+          "quote": "before I invest, I want to see what percentage of that $750 they’re going to be using for partnerships, for b2b, and what percentage they’re going to use for consumers."
+        }
+      ],
+      "activation": "evaluated",
+      "source_rationale_id": "R25"
+    },
+    {
+      "rationale_label": "founder_execution",
+      "direction": "positive",
+      "salience": "primary",
+      "confidence": 0.96,
+      "utterance_type": "supporting_argument",
+      "decision_link": "supports_in",
+      "timing": "original_pitch",
+      "turn_index": 221,
+      "quote": "And sit outside at the airport.",
+      "explanation": "She highlights the founder’s hands-on customer research as evidence of operational grit supporting the investment.",
+      "evidence": [
+        "And sit outside at the airport."
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 221,
+          "speaker": "Jillian",
+          "quote": "And sit outside at the airport."
+        }
+      ],
+      "activation": "evaluated",
+      "source_rationale_id": "R26"
+    }
+  ],
+  "expanded_quote_evidence": [],
+  "rejected_after_evidence_check": []
+}

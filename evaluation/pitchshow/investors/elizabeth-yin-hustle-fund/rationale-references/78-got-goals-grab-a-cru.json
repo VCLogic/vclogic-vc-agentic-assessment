@@ -1,0 +1,819 @@
+{
+  "schema": "phase1-rationale-reference-v1",
+  "extraction_version": "pitchshow-rationales-v1",
+  "fingerprint": "b69099c57cc4d81492f24ea6fd90563cb64278df0dc21a847973b213c76aa56c",
+  "episode_slug": "78-got-goals-grab-a-cru",
+  "vc_slug": "elizabeth-yin-hustle-fund",
+  "vc_name": "Elizabeth Yin",
+  "actual_decision": "In",
+  "later_decision": "In",
+  "reference_kind": "automated_transcript_observed_candidate",
+  "human_validated": false,
+  "source_format": "transcript-observed-rationales-v1",
+  "source_path": "../source/episodes/78-got-goals-grab-a-cru.json",
+  "source_sha256": "ef173b5cd39a806e11e8440f2019db068f59a6f739bc5619dc1bb7bfa593cdfd",
+  "transcript_sha256": "9a83a8eb8dfc6108b7b42acfb434c3c290dd257b724c193892ea04bb2175f808",
+  "taxonomy_sha256": "eaa8734819a3ac34dd19ee5f0bf6de925a793a1d25a2d361090dafc9b751e1fc",
+  "model": "codex:gpt-5.6-luna+gpt-5.6-sol",
+  "generation_stages": [
+    {
+      "phase": "rationale_extract",
+      "backend": "codex",
+      "model": "gpt-5.6-luna"
+    },
+    {
+      "phase": "rationale_verify",
+      "backend": "codex",
+      "model": "gpt-5.6-sol"
+    }
+  ],
+  "source_tier": "newly_extracted_and_independently_model_reviewed",
+  "reviewed_target_turns": [
+    8,
+    12,
+    29,
+    37,
+    45,
+    54,
+    57,
+    61,
+    63,
+    65,
+    69,
+    79,
+    81,
+    83
+  ],
+  "notes": "All target turns were reviewed. The neutral competitive-landscape and financing-terms inquiries at turns 29 and 37 did not express any concern or assessment defined by the supplied taxonomy.",
+  "receipt_path": "receipts/78-got-goals-grab-a-cru.json",
+  "scoring_scope": "original_pitch_only",
+  "shared_across_input_modes": true,
+  "rationales": [
+    {
+      "rationale_label": "business_model_assessment",
+      "direction": "positive",
+      "salience": "primary",
+      "confidence": 0.99,
+      "utterance_type": "decision_reason",
+      "decision_link": "explicit",
+      "timing": "original_pitch",
+      "turn_index": 81,
+      "quote": "she's just amassing an audience that she can upsell all kinds of stuff to",
+      "explanation": "Her investment thesis includes monetizing the accumulated audience through additional offerings.",
+      "evidence": [
+        "you are getting people to pay to be in your audience",
+        "you can upsell these women on so many things",
+        "she's just amassing an audience that she can upsell all kinds of stuff to"
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 45,
+          "speaker": "Elizabeth",
+          "quote": "you are getting people to pay to be in your audience"
+        },
+        {
+          "turn_index": 79,
+          "speaker": "Elizabeth",
+          "quote": "you can upsell these women on so many things"
+        },
+        {
+          "turn_index": 81,
+          "speaker": "Elizabeth",
+          "quote": "she's just amassing an audience that she can upsell all kinds of stuff to"
+        }
+      ],
+      "activation": "evaluated",
+      "source_rationale_id": "R12",
+      "utterance_kind": "decision_explanation",
+      "decision_support": "supports_in",
+      "all_mention_ids": [
+        "R5",
+        "R10",
+        "R12"
+      ]
+    },
+    {
+      "rationale_label": "capital_intensity_concern",
+      "direction": "positive",
+      "salience": "secondary",
+      "confidence": 0.8,
+      "utterance_type": "assessment",
+      "decision_link": "none",
+      "timing": "original_pitch",
+      "turn_index": 61,
+      "quote": "I don't think she needs to.",
+      "explanation": "In the investor debrief, Elizabeth indicates that the company need not raise substantial additional capital.",
+      "evidence": [
+        "I don't think she needs to."
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 61,
+          "speaker": "Elizabeth",
+          "quote": "I don't think she needs to."
+        }
+      ],
+      "activation": "evaluated",
+      "source_rationale_id": "R6",
+      "utterance_kind": "assessment",
+      "decision_support": "none",
+      "all_mention_ids": [
+        "R6"
+      ]
+    },
+    {
+      "rationale_label": "founder_execution",
+      "direction": "positive",
+      "salience": "primary",
+      "confidence": 0.97,
+      "utterance_type": "decision_reason",
+      "decision_link": "explicit",
+      "timing": "original_pitch",
+      "turn_index": 81,
+      "quote": "she will be able to find other people to beta test with and try some other things",
+      "explanation": "She expects Tiffany to recruit testers and iterate effectively if the initial approach is imperfect.",
+      "evidence": [
+        "she will be able to find other people to beta test with and try some other things"
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 81,
+          "speaker": "Elizabeth",
+          "quote": "she will be able to find other people to beta test with and try some other things"
+        }
+      ],
+      "activation": "evaluated",
+      "source_rationale_id": "R14",
+      "utterance_kind": "decision_explanation",
+      "decision_support": "supports_in",
+      "all_mention_ids": [
+        "R14"
+      ]
+    },
+    {
+      "rationale_label": "founder_market_fit",
+      "direction": "positive",
+      "salience": "primary",
+      "confidence": 0.96,
+      "utterance_type": "decision_reason",
+      "decision_link": "explicit",
+      "timing": "original_pitch",
+      "turn_index": 45,
+      "quote": "you are clearly the right person to be doing this",
+      "explanation": "She believes Tiffany is particularly well suited to pursue this market and mission.",
+      "evidence": [
+        "you are clearly the right person to be doing this"
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 45,
+          "speaker": "Elizabeth",
+          "quote": "you are clearly the right person to be doing this"
+        }
+      ],
+      "activation": "evaluated",
+      "source_rationale_id": "R3",
+      "utterance_kind": "decision_explanation",
+      "decision_support": "supports_in",
+      "all_mention_ids": [
+        "R3"
+      ]
+    },
+    {
+      "rationale_label": "founder_qualities",
+      "direction": "positive",
+      "salience": "primary",
+      "confidence": 0.96,
+      "utterance_type": "decision_reason",
+      "decision_link": "explicit",
+      "timing": "original_pitch",
+      "turn_index": 83,
+      "quote": "Betting on her.",
+      "explanation": "Elizabeth explicitly describes confidence in Tiffany herself as part of the investment bet.",
+      "evidence": [
+        "she's very authentic and energetic",
+        "Betting on her."
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 81,
+          "speaker": "Elizabeth",
+          "quote": "she's very authentic and energetic"
+        },
+        {
+          "turn_index": 83,
+          "speaker": "Elizabeth",
+          "quote": "Betting on her."
+        }
+      ],
+      "activation": "evaluated",
+      "source_rationale_id": "R15",
+      "utterance_kind": "decision_explanation",
+      "decision_support": "supports_in",
+      "all_mention_ids": [
+        "R13",
+        "R15"
+      ]
+    },
+    {
+      "rationale_label": "fundraising_demand_signal",
+      "direction": "positive",
+      "salience": "secondary",
+      "confidence": 0.95,
+      "utterance_type": "assessment",
+      "decision_link": "none",
+      "timing": "original_pitch",
+      "turn_index": 65,
+      "quote": "They could be her investors.",
+      "explanation": "She reiterates that Cru members themselves could become future investors.",
+      "evidence": [
+        "I could even see her crowdfunding the next round",
+        "They could be her investors."
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 63,
+          "speaker": "Elizabeth",
+          "quote": "I could even see her crowdfunding the next round"
+        },
+        {
+          "turn_index": 65,
+          "speaker": "Elizabeth",
+          "quote": "They could be her investors."
+        }
+      ],
+      "activation": "evaluated",
+      "source_rationale_id": "R8",
+      "utterance_kind": "supporting_argument",
+      "decision_support": "none",
+      "all_mention_ids": [
+        "R7",
+        "R8"
+      ]
+    },
+    {
+      "rationale_label": "market_problem_validation",
+      "direction": "positive",
+      "salience": "secondary",
+      "confidence": 0.95,
+      "utterance_type": "decision_reason",
+      "decision_link": "explicit",
+      "timing": "original_pitch",
+      "turn_index": 45,
+      "quote": "I think this is actually amazing and very needed",
+      "explanation": "She views the service as addressing a genuine unmet need.",
+      "evidence": [
+        "I think this is actually amazing and very needed"
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 45,
+          "speaker": "Elizabeth",
+          "quote": "I think this is actually amazing and very needed"
+        }
+      ],
+      "activation": "evaluated",
+      "source_rationale_id": "R4",
+      "utterance_kind": "decision_explanation",
+      "decision_support": "supports_in",
+      "all_mention_ids": [
+        "R4"
+      ]
+    },
+    {
+      "rationale_label": "market_size_assessment",
+      "direction": "positive",
+      "salience": "primary",
+      "confidence": 0.99,
+      "utterance_type": "decision_reason",
+      "decision_link": "explicit",
+      "timing": "original_pitch",
+      "turn_index": 83,
+      "quote": "This is a huge market.",
+      "explanation": "She believes the target market of high-earning women is large and commercially attractive.",
+      "evidence": [
+        "This is a huge market."
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 83,
+          "speaker": "Elizabeth",
+          "quote": "This is a huge market."
+        }
+      ],
+      "activation": "evaluated",
+      "source_rationale_id": "R16",
+      "utterance_kind": "decision_explanation",
+      "decision_support": "supports_in",
+      "all_mention_ids": [
+        "R16"
+      ]
+    },
+    {
+      "rationale_label": "mission_alignment_preference",
+      "direction": "positive",
+      "salience": "primary",
+      "confidence": 0.99,
+      "utterance_type": "decision_reason",
+      "decision_link": "explicit",
+      "timing": "original_pitch",
+      "turn_index": 45,
+      "quote": "from a mission perspective, I love what you’re doing",
+      "explanation": "She identifies strong personal alignment with the mission while explaining her investment.",
+      "evidence": [
+        "from a mission perspective, I love what you’re doing"
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 45,
+          "speaker": "Elizabeth",
+          "quote": "from a mission perspective, I love what you’re doing"
+        }
+      ],
+      "activation": "evaluated",
+      "source_rationale_id": "R2",
+      "utterance_kind": "decision_explanation",
+      "decision_support": "supports_in",
+      "all_mention_ids": [
+        "R2"
+      ]
+    },
+    {
+      "rationale_label": "product_success_factor_assessment",
+      "direction": "neutral",
+      "salience": "secondary",
+      "confidence": 0.93,
+      "utterance_type": "assessment",
+      "decision_link": "none",
+      "timing": "original_pitch",
+      "turn_index": 69,
+      "quote": "I think this is a branding and community thing.",
+      "explanation": "She identifies brand and community, rather than deep product development, as central to the company's success.",
+      "evidence": [
+        "I think this is a branding and community thing."
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 69,
+          "speaker": "Elizabeth",
+          "quote": "I think this is a branding and community thing."
+        }
+      ],
+      "activation": "evaluated",
+      "source_rationale_id": "R9",
+      "utterance_kind": "assessment",
+      "decision_support": "none",
+      "all_mention_ids": [
+        "R9"
+      ]
+    },
+    {
+      "rationale_label": "solution_feasibility_assessment",
+      "direction": "neutral",
+      "salience": "secondary",
+      "confidence": 0.98,
+      "utterance_type": "question",
+      "decision_link": "none",
+      "timing": "original_pitch",
+      "turn_index": 12,
+      "quote": "How do you do the matching?",
+      "explanation": "Elizabeth asks how the product's core matching process operates.",
+      "evidence": [
+        "How do you do the matching?"
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 12,
+          "speaker": "Elizabeth",
+          "quote": "How do you do the matching?"
+        }
+      ],
+      "activation": "queried",
+      "source_rationale_id": "R1",
+      "utterance_kind": "question",
+      "decision_support": "none",
+      "all_mention_ids": [
+        "R1"
+      ]
+    },
+    {
+      "rationale_label": "unit_economics_assessment",
+      "direction": "positive",
+      "salience": "primary",
+      "confidence": 0.99,
+      "utterance_type": "decision_reason",
+      "decision_link": "explicit",
+      "timing": "original_pitch",
+      "turn_index": 81,
+      "quote": "she uses the membership fees to pay for her customer acquisition and break even",
+      "explanation": "She believes membership revenue can cover acquisition costs while the company builds its audience.",
+      "evidence": [
+        "she uses the membership fees to pay for her customer acquisition and break even"
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 81,
+          "speaker": "Elizabeth",
+          "quote": "she uses the membership fees to pay for her customer acquisition and break even"
+        }
+      ],
+      "activation": "evaluated",
+      "source_rationale_id": "R11",
+      "utterance_kind": "decision_explanation",
+      "decision_support": "supports_in",
+      "all_mention_ids": [
+        "R11"
+      ]
+    }
+  ],
+  "later_rationales": [],
+  "excluded_rationales": [],
+  "rationale_mentions": [
+    {
+      "rationale_label": "solution_feasibility_assessment",
+      "direction": "neutral",
+      "salience": "secondary",
+      "confidence": 0.98,
+      "utterance_type": "question",
+      "decision_link": "none",
+      "timing": "original_pitch",
+      "turn_index": 12,
+      "quote": "How do you do the matching?",
+      "explanation": "Elizabeth asks how the product's core matching process operates.",
+      "evidence": [
+        "How do you do the matching?"
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 12,
+          "speaker": "Elizabeth",
+          "quote": "How do you do the matching?"
+        }
+      ],
+      "activation": "queried",
+      "source_rationale_id": "R1"
+    },
+    {
+      "rationale_label": "mission_alignment_preference",
+      "direction": "positive",
+      "salience": "primary",
+      "confidence": 0.99,
+      "utterance_type": "decision_explanation",
+      "decision_link": "supports_in",
+      "timing": "original_pitch",
+      "turn_index": 45,
+      "quote": "from a mission perspective, I love what you’re doing",
+      "explanation": "She identifies strong personal alignment with the mission while explaining her investment.",
+      "evidence": [
+        "from a mission perspective, I love what you’re doing"
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 45,
+          "speaker": "Elizabeth",
+          "quote": "from a mission perspective, I love what you’re doing"
+        }
+      ],
+      "activation": "evaluated",
+      "source_rationale_id": "R2"
+    },
+    {
+      "rationale_label": "founder_market_fit",
+      "direction": "positive",
+      "salience": "primary",
+      "confidence": 0.96,
+      "utterance_type": "decision_explanation",
+      "decision_link": "supports_in",
+      "timing": "original_pitch",
+      "turn_index": 45,
+      "quote": "you are clearly the right person to be doing this",
+      "explanation": "She believes Tiffany is particularly well suited to pursue this market and mission.",
+      "evidence": [
+        "you are clearly the right person to be doing this"
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 45,
+          "speaker": "Elizabeth",
+          "quote": "you are clearly the right person to be doing this"
+        }
+      ],
+      "activation": "evaluated",
+      "source_rationale_id": "R3"
+    },
+    {
+      "rationale_label": "market_problem_validation",
+      "direction": "positive",
+      "salience": "secondary",
+      "confidence": 0.95,
+      "utterance_type": "decision_explanation",
+      "decision_link": "supports_in",
+      "timing": "original_pitch",
+      "turn_index": 45,
+      "quote": "I think this is actually amazing and very needed",
+      "explanation": "She views the service as addressing a genuine unmet need.",
+      "evidence": [
+        "I think this is actually amazing and very needed"
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 45,
+          "speaker": "Elizabeth",
+          "quote": "I think this is actually amazing and very needed"
+        }
+      ],
+      "activation": "evaluated",
+      "source_rationale_id": "R4"
+    },
+    {
+      "rationale_label": "business_model_assessment",
+      "direction": "positive",
+      "salience": "primary",
+      "confidence": 0.99,
+      "utterance_type": "decision_explanation",
+      "decision_link": "supports_in",
+      "timing": "original_pitch",
+      "turn_index": 45,
+      "quote": "you are getting people to pay to be in your audience",
+      "explanation": "She considers the paid-audience model attractive because it monetizes users immediately and creates later upsell opportunities.",
+      "evidence": [
+        "you are getting people to pay to be in your audience"
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 45,
+          "speaker": "Elizabeth",
+          "quote": "you are getting people to pay to be in your audience"
+        }
+      ],
+      "activation": "evaluated",
+      "source_rationale_id": "R5"
+    },
+    {
+      "rationale_label": "capital_intensity_concern",
+      "direction": "positive",
+      "salience": "secondary",
+      "confidence": 0.8,
+      "utterance_type": "assessment",
+      "decision_link": "none",
+      "timing": "original_pitch",
+      "turn_index": 61,
+      "quote": "I don't think she needs to.",
+      "explanation": "In the investor debrief, Elizabeth indicates that the company need not raise substantial additional capital.",
+      "evidence": [
+        "I don't think she needs to."
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 61,
+          "speaker": "Elizabeth",
+          "quote": "I don't think she needs to."
+        }
+      ],
+      "activation": "evaluated",
+      "source_rationale_id": "R6"
+    },
+    {
+      "rationale_label": "fundraising_demand_signal",
+      "direction": "positive",
+      "salience": "secondary",
+      "confidence": 0.93,
+      "utterance_type": "assessment",
+      "decision_link": "none",
+      "timing": "original_pitch",
+      "turn_index": 63,
+      "quote": "I could even see her crowdfunding the next round",
+      "explanation": "She expects the company's community could supply demand for a future financing round.",
+      "evidence": [
+        "I could even see her crowdfunding the next round"
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 63,
+          "speaker": "Elizabeth",
+          "quote": "I could even see her crowdfunding the next round"
+        }
+      ],
+      "activation": "evaluated",
+      "source_rationale_id": "R7"
+    },
+    {
+      "rationale_label": "fundraising_demand_signal",
+      "direction": "positive",
+      "salience": "secondary",
+      "confidence": 0.95,
+      "utterance_type": "supporting_argument",
+      "decision_link": "none",
+      "timing": "original_pitch",
+      "turn_index": 65,
+      "quote": "They could be her investors.",
+      "explanation": "She reiterates that Cru members themselves could become future investors.",
+      "evidence": [
+        "They could be her investors."
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 65,
+          "speaker": "Elizabeth",
+          "quote": "They could be her investors."
+        }
+      ],
+      "activation": "evaluated",
+      "source_rationale_id": "R8"
+    },
+    {
+      "rationale_label": "product_success_factor_assessment",
+      "direction": "neutral",
+      "salience": "secondary",
+      "confidence": 0.93,
+      "utterance_type": "assessment",
+      "decision_link": "none",
+      "timing": "original_pitch",
+      "turn_index": 69,
+      "quote": "I think this is a branding and community thing.",
+      "explanation": "She identifies brand and community, rather than deep product development, as central to the company's success.",
+      "evidence": [
+        "I think this is a branding and community thing."
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 69,
+          "speaker": "Elizabeth",
+          "quote": "I think this is a branding and community thing."
+        }
+      ],
+      "activation": "evaluated",
+      "source_rationale_id": "R9"
+    },
+    {
+      "rationale_label": "business_model_assessment",
+      "direction": "positive",
+      "salience": "secondary",
+      "confidence": 0.97,
+      "utterance_type": "supporting_argument",
+      "decision_link": "none",
+      "timing": "original_pitch",
+      "turn_index": 79,
+      "quote": "you can upsell these women on so many things",
+      "explanation": "She sees substantial monetization potential beyond the initial membership fee.",
+      "evidence": [
+        "you can upsell these women on so many things"
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 79,
+          "speaker": "Elizabeth",
+          "quote": "you can upsell these women on so many things"
+        }
+      ],
+      "activation": "evaluated",
+      "source_rationale_id": "R10"
+    },
+    {
+      "rationale_label": "unit_economics_assessment",
+      "direction": "positive",
+      "salience": "primary",
+      "confidence": 0.99,
+      "utterance_type": "decision_explanation",
+      "decision_link": "supports_in",
+      "timing": "original_pitch",
+      "turn_index": 81,
+      "quote": "she uses the membership fees to pay for her customer acquisition and break even",
+      "explanation": "She believes membership revenue can cover acquisition costs while the company builds its audience.",
+      "evidence": [
+        "she uses the membership fees to pay for her customer acquisition and break even"
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 81,
+          "speaker": "Elizabeth",
+          "quote": "she uses the membership fees to pay for her customer acquisition and break even"
+        }
+      ],
+      "activation": "evaluated",
+      "source_rationale_id": "R11"
+    },
+    {
+      "rationale_label": "business_model_assessment",
+      "direction": "positive",
+      "salience": "primary",
+      "confidence": 0.99,
+      "utterance_type": "decision_explanation",
+      "decision_link": "supports_in",
+      "timing": "original_pitch",
+      "turn_index": 81,
+      "quote": "she's just amassing an audience that she can upsell all kinds of stuff to",
+      "explanation": "Her investment thesis includes monetizing the accumulated audience through additional offerings.",
+      "evidence": [
+        "she's just amassing an audience that she can upsell all kinds of stuff to"
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 81,
+          "speaker": "Elizabeth",
+          "quote": "she's just amassing an audience that she can upsell all kinds of stuff to"
+        }
+      ],
+      "activation": "evaluated",
+      "source_rationale_id": "R12"
+    },
+    {
+      "rationale_label": "founder_qualities",
+      "direction": "positive",
+      "salience": "secondary",
+      "confidence": 0.97,
+      "utterance_type": "decision_explanation",
+      "decision_link": "supports_in",
+      "timing": "original_pitch",
+      "turn_index": 81,
+      "quote": "she's very authentic and energetic",
+      "explanation": "She sees Tiffany's authenticity and energy as strengths supporting the investment.",
+      "evidence": [
+        "she's very authentic and energetic"
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 81,
+          "speaker": "Elizabeth",
+          "quote": "she's very authentic and energetic"
+        }
+      ],
+      "activation": "evaluated",
+      "source_rationale_id": "R13"
+    },
+    {
+      "rationale_label": "founder_execution",
+      "direction": "positive",
+      "salience": "primary",
+      "confidence": 0.97,
+      "utterance_type": "decision_explanation",
+      "decision_link": "supports_in",
+      "timing": "original_pitch",
+      "turn_index": 81,
+      "quote": "she will be able to find other people to beta test with and try some other things",
+      "explanation": "She expects Tiffany to recruit testers and iterate effectively if the initial approach is imperfect.",
+      "evidence": [
+        "she will be able to find other people to beta test with and try some other things"
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 81,
+          "speaker": "Elizabeth",
+          "quote": "she will be able to find other people to beta test with and try some other things"
+        }
+      ],
+      "activation": "evaluated",
+      "source_rationale_id": "R14"
+    },
+    {
+      "rationale_label": "founder_qualities",
+      "direction": "positive",
+      "salience": "primary",
+      "confidence": 0.96,
+      "utterance_type": "decision_explanation",
+      "decision_link": "supports_in",
+      "timing": "original_pitch",
+      "turn_index": 83,
+      "quote": "Betting on her.",
+      "explanation": "Elizabeth explicitly describes confidence in Tiffany herself as part of the investment bet.",
+      "evidence": [
+        "Betting on her."
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 83,
+          "speaker": "Elizabeth",
+          "quote": "Betting on her."
+        }
+      ],
+      "activation": "evaluated",
+      "source_rationale_id": "R15"
+    },
+    {
+      "rationale_label": "market_size_assessment",
+      "direction": "positive",
+      "salience": "primary",
+      "confidence": 0.99,
+      "utterance_type": "decision_explanation",
+      "decision_link": "supports_in",
+      "timing": "original_pitch",
+      "turn_index": 83,
+      "quote": "This is a huge market.",
+      "explanation": "She believes the target market of high-earning women is large and commercially attractive.",
+      "evidence": [
+        "This is a huge market."
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 83,
+          "speaker": "Elizabeth",
+          "quote": "This is a huge market."
+        }
+      ],
+      "activation": "evaluated",
+      "source_rationale_id": "R16"
+    }
+  ],
+  "expanded_quote_evidence": [],
+  "rejected_after_evidence_check": []
+}

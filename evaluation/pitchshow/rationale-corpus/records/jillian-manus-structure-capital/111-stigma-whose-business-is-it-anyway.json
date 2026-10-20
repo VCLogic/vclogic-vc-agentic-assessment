@@ -1,0 +1,1313 @@
+{
+  "schema": "phase1-rationale-reference-v1",
+  "extraction_version": "pitchshow-rationales-v1",
+  "fingerprint": "d89f46107db0c625fa711bd0372379c827ed0f5d2a6654827ad7df14a9f334e5",
+  "episode_slug": "111-stigma-whose-business-is-it-anyway",
+  "vc_slug": "jillian-manus-structure-capital",
+  "vc_name": "Jillian Manus",
+  "actual_decision": "Out",
+  "later_decision": "Unknown",
+  "reference_kind": "automated_transcript_observed_candidate",
+  "human_validated": false,
+  "source_format": "transcript-observed-rationales-v1",
+  "source_path": "/home/dpasch01/vclogic-vc-agentic-assessment/evaluation/pitchshow/investors/jillian-manus-structure-capital/source/episodes/111-stigma-whose-business-is-it-anyway.json",
+  "source_sha256": "4ba6022ce3f2f24d1cf97cd5d1f37cb05b405268eea884d3de9958182b3da099",
+  "transcript_sha256": "b4e0aba5e8e7b4ee45001b044e9201d20d1883f51ca51f5b098af38eeff21686",
+  "taxonomy_sha256": "eaa8734819a3ac34dd19ee5f0bf6de925a793a1d25a2d361090dafc9b751e1fc",
+  "model": "codex:gpt-5.6-luna+gpt-5.6-sol",
+  "generation_stages": [
+    {
+      "phase": "rationale_extract",
+      "backend": "codex",
+      "model": "gpt-5.6-luna"
+    },
+    {
+      "phase": "rationale_verify",
+      "backend": "codex",
+      "model": "gpt-5.6-sol"
+    }
+  ],
+  "source_tier": "newly_extracted_and_independently_model_reviewed",
+  "reviewed_target_turns": [
+    4,
+    6,
+    11,
+    21,
+    23,
+    25,
+    31,
+    33,
+    35,
+    37,
+    39,
+    41,
+    43,
+    47,
+    49,
+    52,
+    73,
+    75,
+    77,
+    79,
+    83,
+    85,
+    87,
+    89,
+    91,
+    94,
+    96,
+    102,
+    106,
+    110,
+    112,
+    114,
+    116,
+    118,
+    121,
+    124,
+    126,
+    131,
+    134,
+    136,
+    139,
+    142,
+    162
+  ],
+  "notes": "All supplied target turns were reviewed exactly once. Greetings, confirmations, bare decision statements, incomplete interjections, banter, and the unrelated teaser joke were omitted.",
+  "receipt_path": "/home/dpasch01/vclogic-vc-agentic-assessment/evaluation/pitchshow/investors/jillian-manus-structure-capital/rationale-references/receipts/111-stigma-whose-business-is-it-anyway.json",
+  "scoring_scope": "original_pitch_only",
+  "shared_across_input_modes": true,
+  "rationales": [
+    {
+      "rationale_label": "business_model_assessment",
+      "direction": "neutral",
+      "salience": "secondary",
+      "confidence": 0.98,
+      "utterance_type": "question",
+      "decision_link": "none",
+      "timing": "original_pitch",
+      "turn_index": 31,
+      "quote": "So how much are they paying?",
+      "explanation": "Jillian asks for the customer's payment amount to assess the monetization model.",
+      "evidence": [
+        "So how much are they paying?"
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 31,
+          "speaker": "Jillian",
+          "quote": "So how much are they paying?"
+        }
+      ],
+      "activation": "queried",
+      "source_rationale_id": "R3",
+      "utterance_kind": "question",
+      "decision_support": "none",
+      "all_mention_ids": [
+        "R3"
+      ]
+    },
+    {
+      "rationale_label": "business_viability_concern",
+      "direction": "negative",
+      "salience": "primary",
+      "confidence": 0.99,
+      "utterance_type": "decision_reason",
+      "decision_link": "explicit",
+      "timing": "original_pitch",
+      "turn_index": 85,
+      "quote": "I'm sold on you but not the business model. And for that reason, I'm out.",
+      "explanation": "She directly attributes her refusal to insufficient conviction in the business model.",
+      "evidence": [
+        "I'm sold on you but not the business model. And for that reason, I'm out."
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 85,
+          "speaker": "Jillian",
+          "quote": "I'm sold on you but not the business model. And for that reason, I'm out."
+        }
+      ],
+      "activation": "evaluated",
+      "source_rationale_id": "R15",
+      "utterance_kind": "decision_explanation",
+      "decision_support": "supports_out",
+      "all_mention_ids": [
+        "R15"
+      ]
+    },
+    {
+      "rationale_label": "capital_intensity_concern",
+      "direction": "neutral",
+      "salience": "secondary",
+      "confidence": 0.95,
+      "utterance_type": "question",
+      "decision_link": "none",
+      "timing": "original_pitch",
+      "turn_index": 94,
+      "quote": "I don't know what the burn is presently, which is what?",
+      "explanation": "Jillian asks about the current burn rate to assess the company's capital consumption.",
+      "evidence": [
+        "I don't know what the burn is presently, which is what?"
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 94,
+          "speaker": "Jillian",
+          "quote": "I don't know what the burn is presently, which is what?"
+        }
+      ],
+      "activation": "queried",
+      "source_rationale_id": "R19",
+      "utterance_kind": "question",
+      "decision_support": "none",
+      "all_mention_ids": [
+        "R19"
+      ]
+    },
+    {
+      "rationale_label": "deal_terms_complexity_concern",
+      "direction": "neutral",
+      "salience": "secondary",
+      "confidence": 0.97,
+      "utterance_type": "question",
+      "decision_link": "none",
+      "timing": "original_pitch",
+      "turn_index": 77,
+      "quote": "So what are the terms?",
+      "explanation": "Jillian presses for concrete terms after learning that Mac committed capital.",
+      "evidence": [
+        "Remind me of the terms again. You're raising?",
+        "At?",
+        "So what are the terms?"
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 73,
+          "speaker": "Jillian",
+          "quote": "Remind me of the terms again. You're raising?"
+        },
+        {
+          "turn_index": 75,
+          "speaker": "Jillian",
+          "quote": "At?"
+        },
+        {
+          "turn_index": 77,
+          "speaker": "Jillian",
+          "quote": "So what are the terms?"
+        }
+      ],
+      "activation": "queried",
+      "source_rationale_id": "R12",
+      "utterance_kind": "question",
+      "decision_support": "none",
+      "all_mention_ids": [
+        "R10",
+        "R11",
+        "R12"
+      ]
+    },
+    {
+      "rationale_label": "founder_coachability_assessment",
+      "direction": "negative",
+      "salience": "primary",
+      "confidence": 0.99,
+      "utterance_type": "assessment",
+      "decision_link": "none",
+      "timing": "original_pitch",
+      "turn_index": 116,
+      "quote": "if I change the business model and if I forget the EAPs",
+      "explanation": "She is troubled that Ariana appeared overly willing to change the business direction to accommodate an investor.",
+      "evidence": [
+        "I was worried about the response.",
+        "if I change the business model and if I forget the EAPs",
+        "I would have said, you know what, let me prove this out, right."
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 114,
+          "speaker": "Jillian",
+          "quote": "I was worried about the response."
+        },
+        {
+          "turn_index": 116,
+          "speaker": "Jillian",
+          "quote": "if I change the business model and if I forget the EAPs"
+        },
+        {
+          "turn_index": 118,
+          "speaker": "Jillian",
+          "quote": "I would have said, you know what, let me prove this out, right."
+        }
+      ],
+      "activation": "evaluated",
+      "source_rationale_id": "R24",
+      "utterance_kind": "concern",
+      "decision_support": "none",
+      "all_mention_ids": [
+        "R23",
+        "R24",
+        "R25"
+      ]
+    },
+    {
+      "rationale_label": "founder_communication_quality",
+      "direction": "negative",
+      "salience": "secondary",
+      "confidence": 0.98,
+      "utterance_type": "assessment",
+      "decision_link": "none",
+      "timing": "original_pitch",
+      "turn_index": 131,
+      "quote": "Every founder should know. Every founder should know. Don't say anything. If you don't know something, don't say anything.",
+      "explanation": "Jillian views Ariana's handling of an uncertain financing detail as a basic preparation and communication failure.",
+      "evidence": [
+        "But you should have some sort of answer.",
+        "that's the answer that I didn't want.",
+        "I also didn't like the - when I asked her, you know, what the valuation was -",
+        "She should've done her homework",
+        "Every founder should know. Every founder should know. Don't say anything. If you don't know something, don't say anything."
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 79,
+          "speaker": "Jillian",
+          "quote": "But you should have some sort of answer."
+        },
+        {
+          "turn_index": 96,
+          "speaker": "Jillian",
+          "quote": "that's the answer that I didn't want."
+        },
+        {
+          "turn_index": 121,
+          "speaker": "Jillian",
+          "quote": "I also didn't like the - when I asked her, you know, what the valuation was -"
+        },
+        {
+          "turn_index": 126,
+          "speaker": "Jillian",
+          "quote": "She should've done her homework"
+        },
+        {
+          "turn_index": 131,
+          "speaker": "Jillian",
+          "quote": "Every founder should know. Every founder should know. Don't say anything. If you don't know something, don't say anything."
+        }
+      ],
+      "activation": "evaluated",
+      "source_rationale_id": "R30",
+      "utterance_kind": "assessment",
+      "decision_support": "none",
+      "all_mention_ids": [
+        "R13",
+        "R20",
+        "R26",
+        "R29",
+        "R30"
+      ]
+    },
+    {
+      "rationale_label": "founder_qualities",
+      "direction": "positive",
+      "salience": "secondary",
+      "confidence": 0.99,
+      "utterance_type": "assessment",
+      "decision_link": "explicit",
+      "timing": "original_pitch",
+      "turn_index": 142,
+      "quote": "I'm okay with cocky and confident, which she clearly was confident and I want that, I want to invest in that.",
+      "explanation": "Jillian explicitly identifies Ariana's confidence as a founder quality she wants to invest in, despite her overall decision not to invest.",
+      "evidence": [
+        "I'm sold on you",
+        "I'm okay with cocky and confident, which she clearly was confident and I want that, I want to invest in that."
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 85,
+          "speaker": "Jillian",
+          "quote": "I'm sold on you"
+        },
+        {
+          "turn_index": 142,
+          "speaker": "Jillian",
+          "quote": "I'm okay with cocky and confident, which she clearly was confident and I want that, I want to invest in that."
+        }
+      ],
+      "activation": "evaluated",
+      "source_rationale_id": "R31",
+      "utterance_kind": "supporting_argument",
+      "decision_support": "supports_in",
+      "all_mention_ids": [
+        "R14",
+        "R31"
+      ]
+    },
+    {
+      "rationale_label": "market_problem_validation",
+      "direction": "negative",
+      "salience": "primary",
+      "confidence": 0.99,
+      "utterance_type": "assessment",
+      "decision_link": "none",
+      "timing": "original_pitch",
+      "turn_index": 37,
+      "quote": "This is something nice to have, but I don't see this as necessary to have.",
+      "explanation": "She doubts that the offering addresses a sufficiently urgent need.",
+      "evidence": [
+        "This is something nice to have, but I don't see this as necessary to have."
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 37,
+          "speaker": "Jillian",
+          "quote": "This is something nice to have, but I don't see this as necessary to have."
+        }
+      ],
+      "activation": "evaluated",
+      "source_rationale_id": "R6",
+      "utterance_kind": "assessment",
+      "decision_support": "none",
+      "all_mention_ids": [
+        "R6"
+      ]
+    },
+    {
+      "rationale_label": "product_appeal_assessment",
+      "direction": "negative",
+      "salience": "primary",
+      "confidence": 0.97,
+      "utterance_type": "assessment",
+      "decision_link": "none",
+      "timing": "original_pitch",
+      "turn_index": 110,
+      "quote": "I just didn't find this compelling.",
+      "explanation": "Jillian gives a direct negative assessment of the presented offering's appeal.",
+      "evidence": [
+        "I just didn't find this compelling.",
+        "this didn't rock my socks."
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 110,
+          "speaker": "Jillian",
+          "quote": "I just didn't find this compelling."
+        },
+        {
+          "turn_index": 112,
+          "speaker": "Jillian",
+          "quote": "this didn't rock my socks."
+        }
+      ],
+      "activation": "evaluated",
+      "source_rationale_id": "R21",
+      "utterance_kind": "assessment",
+      "decision_support": "none",
+      "all_mention_ids": [
+        "R21",
+        "R22"
+      ]
+    },
+    {
+      "rationale_label": "product_differentiation_concern",
+      "direction": "negative",
+      "salience": "primary",
+      "confidence": 0.99,
+      "utterance_type": "assessment",
+      "decision_link": "none",
+      "timing": "original_pitch",
+      "turn_index": 47,
+      "quote": "But that's not a company. That's a feature.",
+      "explanation": "Jillian regards the Slack delivery mechanism as an easily replicated feature rather than a defensible standalone company.",
+      "evidence": [
+        "Why is yours so special?",
+        "Everybody has these.",
+        "There are a lot of companies that are doing this. There are a lot of them who generate these videos internally",
+        "- contracts with mental health platforms -",
+        "But that's not a company. That's a feature."
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 33,
+          "speaker": "Jillian",
+          "quote": "Why is yours so special?"
+        },
+        {
+          "turn_index": 37,
+          "speaker": "Jillian",
+          "quote": "Everybody has these."
+        },
+        {
+          "turn_index": 41,
+          "speaker": "Jillian",
+          "quote": "There are a lot of companies that are doing this. There are a lot of them who generate these videos internally"
+        },
+        {
+          "turn_index": 43,
+          "speaker": "Jillian",
+          "quote": "- contracts with mental health platforms -"
+        },
+        {
+          "turn_index": 47,
+          "speaker": "Jillian",
+          "quote": "But that's not a company. That's a feature."
+        }
+      ],
+      "activation": "evaluated",
+      "source_rationale_id": "R9",
+      "utterance_kind": "assessment",
+      "decision_support": "none",
+      "all_mention_ids": [
+        "R4",
+        "R5",
+        "R7",
+        "R8",
+        "R9"
+      ]
+    },
+    {
+      "rationale_label": "product_success_factor_assessment",
+      "direction": "neutral",
+      "salience": "secondary",
+      "confidence": 0.9,
+      "utterance_type": "question",
+      "decision_link": "none",
+      "timing": "original_pitch",
+      "turn_index": 23,
+      "quote": "Who wrote that script?",
+      "explanation": "She asks how the story was created, testing the authenticity and production approach behind the product's content.",
+      "evidence": [
+        "Was that an actor?",
+        "Who wrote that script?"
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 21,
+          "speaker": "Jillian",
+          "quote": "Was that an actor?"
+        },
+        {
+          "turn_index": 23,
+          "speaker": "Jillian",
+          "quote": "Who wrote that script?"
+        }
+      ],
+      "activation": "queried",
+      "source_rationale_id": "R2",
+      "utterance_kind": "question",
+      "decision_support": "none",
+      "all_mention_ids": [
+        "R1",
+        "R2"
+      ]
+    },
+    {
+      "rationale_label": "stage_valuation_mismatch",
+      "direction": "negative",
+      "salience": "primary",
+      "confidence": 0.99,
+      "utterance_type": "decision_reason",
+      "decision_link": "explicit",
+      "timing": "original_pitch",
+      "turn_index": 126,
+      "quote": "I'm out! // You know, she shouldn't have said 9.",
+      "explanation": "Jillian explicitly connects her refusal to the excessive valuation, which she says is inconsistent with comparable companies and constrained capital markets.",
+      "evidence": [
+        "I think that 9 pre is very, very frothy.",
+        "I think you're gonna lose people with that",
+        "Four pre.",
+        "Oh. Nine pre. I mean, that just shows me -",
+        "I'm out! // You know, she shouldn't have said 9."
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 85,
+          "speaker": "Jillian",
+          "quote": "I think that 9 pre is very, very frothy."
+        },
+        {
+          "turn_index": 89,
+          "speaker": "Jillian",
+          "quote": "I think you're gonna lose people with that"
+        },
+        {
+          "turn_index": 91,
+          "speaker": "Jillian",
+          "quote": "Four pre."
+        },
+        {
+          "turn_index": 124,
+          "speaker": "Jillian",
+          "quote": "Oh. Nine pre. I mean, that just shows me -"
+        },
+        {
+          "turn_index": 126,
+          "speaker": "Jillian",
+          "quote": "I'm out! // You know, she shouldn't have said 9."
+        }
+      ],
+      "activation": "evaluated",
+      "source_rationale_id": "R28",
+      "utterance_kind": "decision_explanation",
+      "decision_support": "supports_out",
+      "all_mention_ids": [
+        "R16",
+        "R17",
+        "R18",
+        "R27",
+        "R28"
+      ]
+    }
+  ],
+  "later_rationales": [],
+  "excluded_rationales": [],
+  "rationale_mentions": [
+    {
+      "rationale_label": "product_success_factor_assessment",
+      "direction": "neutral",
+      "salience": "secondary",
+      "confidence": 0.9,
+      "utterance_type": "question",
+      "decision_link": "none",
+      "timing": "original_pitch",
+      "turn_index": 21,
+      "quote": "Was that an actor?",
+      "explanation": "Jillian probes whether the featured storyteller is authentic or performed, an attribute relevant to the content's effectiveness.",
+      "evidence": [
+        "Was that an actor?"
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 21,
+          "speaker": "Jillian",
+          "quote": "Was that an actor?"
+        }
+      ],
+      "activation": "queried",
+      "source_rationale_id": "R1"
+    },
+    {
+      "rationale_label": "product_success_factor_assessment",
+      "direction": "neutral",
+      "salience": "secondary",
+      "confidence": 0.9,
+      "utterance_type": "question",
+      "decision_link": "none",
+      "timing": "original_pitch",
+      "turn_index": 23,
+      "quote": "Who wrote that script?",
+      "explanation": "She asks how the story was created, testing the authenticity and production approach behind the product's content.",
+      "evidence": [
+        "Who wrote that script?"
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 23,
+          "speaker": "Jillian",
+          "quote": "Who wrote that script?"
+        }
+      ],
+      "activation": "queried",
+      "source_rationale_id": "R2"
+    },
+    {
+      "rationale_label": "business_model_assessment",
+      "direction": "neutral",
+      "salience": "secondary",
+      "confidence": 0.98,
+      "utterance_type": "question",
+      "decision_link": "none",
+      "timing": "original_pitch",
+      "turn_index": 31,
+      "quote": "So how much are they paying?",
+      "explanation": "Jillian asks for the customer's payment amount to assess the monetization model.",
+      "evidence": [
+        "So how much are they paying?"
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 31,
+          "speaker": "Jillian",
+          "quote": "So how much are they paying?"
+        }
+      ],
+      "activation": "queried",
+      "source_rationale_id": "R3"
+    },
+    {
+      "rationale_label": "product_differentiation_concern",
+      "direction": "negative",
+      "salience": "primary",
+      "confidence": 0.99,
+      "utterance_type": "question",
+      "decision_link": "none",
+      "timing": "original_pitch",
+      "turn_index": 33,
+      "quote": "Why is yours so special?",
+      "explanation": "Based on her knowledge of numerous comparable offerings, she challenges Stigma to establish meaningful differentiation.",
+      "evidence": [
+        "Why is yours so special?"
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 33,
+          "speaker": "Jillian",
+          "quote": "Why is yours so special?"
+        }
+      ],
+      "activation": "queried",
+      "source_rationale_id": "R4"
+    },
+    {
+      "rationale_label": "product_differentiation_concern",
+      "direction": "negative",
+      "salience": "primary",
+      "confidence": 0.99,
+      "utterance_type": "assessment",
+      "decision_link": "none",
+      "timing": "original_pitch",
+      "turn_index": 37,
+      "quote": "Everybody has these.",
+      "explanation": "Jillian believes similar mental-health content is already widely available.",
+      "evidence": [
+        "Everybody has these."
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 37,
+          "speaker": "Jillian",
+          "quote": "Everybody has these."
+        }
+      ],
+      "activation": "evaluated",
+      "source_rationale_id": "R5"
+    },
+    {
+      "rationale_label": "market_problem_validation",
+      "direction": "negative",
+      "salience": "primary",
+      "confidence": 0.99,
+      "utterance_type": "assessment",
+      "decision_link": "none",
+      "timing": "original_pitch",
+      "turn_index": 37,
+      "quote": "This is something nice to have, but I don't see this as necessary to have.",
+      "explanation": "She doubts that the offering addresses a sufficiently urgent need.",
+      "evidence": [
+        "This is something nice to have, but I don't see this as necessary to have."
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 37,
+          "speaker": "Jillian",
+          "quote": "This is something nice to have, but I don't see this as necessary to have."
+        }
+      ],
+      "activation": "evaluated",
+      "source_rationale_id": "R6"
+    },
+    {
+      "rationale_label": "product_differentiation_concern",
+      "direction": "negative",
+      "salience": "secondary",
+      "confidence": 0.99,
+      "utterance_type": "assessment",
+      "decision_link": "none",
+      "timing": "original_pitch",
+      "turn_index": 41,
+      "quote": "There are a lot of companies that are doing this. There are a lot of them who generate these videos internally",
+      "explanation": "She cites companies producing similar videos internally as evidence against differentiation.",
+      "evidence": [
+        "There are a lot of companies that are doing this. There are a lot of them who generate these videos internally"
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 41,
+          "speaker": "Jillian",
+          "quote": "There are a lot of companies that are doing this. There are a lot of them who generate these videos internally"
+        }
+      ],
+      "activation": "evaluated",
+      "source_rationale_id": "R7"
+    },
+    {
+      "rationale_label": "product_differentiation_concern",
+      "direction": "negative",
+      "salience": "secondary",
+      "confidence": 0.94,
+      "utterance_type": "assessment",
+      "decision_link": "none",
+      "timing": "original_pitch",
+      "turn_index": 43,
+      "quote": "- contracts with mental health platforms -",
+      "explanation": "Continuing her comparison, she notes that companies can obtain similar capabilities through existing mental-health platforms.",
+      "evidence": [
+        "- contracts with mental health platforms -"
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 43,
+          "speaker": "Jillian",
+          "quote": "- contracts with mental health platforms -"
+        }
+      ],
+      "activation": "evaluated",
+      "source_rationale_id": "R8"
+    },
+    {
+      "rationale_label": "product_differentiation_concern",
+      "direction": "negative",
+      "salience": "primary",
+      "confidence": 0.99,
+      "utterance_type": "assessment",
+      "decision_link": "none",
+      "timing": "original_pitch",
+      "turn_index": 47,
+      "quote": "But that's not a company. That's a feature.",
+      "explanation": "Jillian regards the Slack delivery mechanism as an easily replicated feature rather than a defensible standalone company.",
+      "evidence": [
+        "But that's not a company. That's a feature."
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 47,
+          "speaker": "Jillian",
+          "quote": "But that's not a company. That's a feature."
+        }
+      ],
+      "activation": "evaluated",
+      "source_rationale_id": "R9"
+    },
+    {
+      "rationale_label": "deal_terms_complexity_concern",
+      "direction": "neutral",
+      "salience": "secondary",
+      "confidence": 0.94,
+      "utterance_type": "question",
+      "decision_link": "none",
+      "timing": "original_pitch",
+      "turn_index": 73,
+      "quote": "Remind me of the terms again. You're raising?",
+      "explanation": "She asks for the financing amount and terms needed to evaluate the proposed round.",
+      "evidence": [
+        "Remind me of the terms again. You're raising?"
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 73,
+          "speaker": "Jillian",
+          "quote": "Remind me of the terms again. You're raising?"
+        }
+      ],
+      "activation": "queried",
+      "source_rationale_id": "R10"
+    },
+    {
+      "rationale_label": "deal_terms_complexity_concern",
+      "direction": "neutral",
+      "salience": "secondary",
+      "confidence": 0.95,
+      "utterance_type": "question",
+      "decision_link": "none",
+      "timing": "original_pitch",
+      "turn_index": 75,
+      "quote": "At?",
+      "explanation": "She asks for the valuation attached to the proposed raise.",
+      "evidence": [
+        "At?"
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 75,
+          "speaker": "Jillian",
+          "quote": "At?"
+        }
+      ],
+      "activation": "queried",
+      "source_rationale_id": "R11"
+    },
+    {
+      "rationale_label": "deal_terms_complexity_concern",
+      "direction": "neutral",
+      "salience": "secondary",
+      "confidence": 0.97,
+      "utterance_type": "question",
+      "decision_link": "none",
+      "timing": "original_pitch",
+      "turn_index": 77,
+      "quote": "So what are the terms?",
+      "explanation": "Jillian presses for concrete terms after learning that Mac committed capital.",
+      "evidence": [
+        "So what are the terms?"
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 77,
+          "speaker": "Jillian",
+          "quote": "So what are the terms?"
+        }
+      ],
+      "activation": "queried",
+      "source_rationale_id": "R12"
+    },
+    {
+      "rationale_label": "founder_communication_quality",
+      "direction": "negative",
+      "salience": "secondary",
+      "confidence": 0.98,
+      "utterance_type": "concern",
+      "decision_link": "none",
+      "timing": "original_pitch",
+      "turn_index": 79,
+      "quote": "But you should have some sort of answer.",
+      "explanation": "She criticizes Ariana for lacking a prepared answer about the financing terms.",
+      "evidence": [
+        "But you should have some sort of answer."
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 79,
+          "speaker": "Jillian",
+          "quote": "But you should have some sort of answer."
+        }
+      ],
+      "activation": "evaluated",
+      "source_rationale_id": "R13"
+    },
+    {
+      "rationale_label": "founder_qualities",
+      "direction": "positive",
+      "salience": "secondary",
+      "confidence": 0.99,
+      "utterance_type": "assessment",
+      "decision_link": "none",
+      "timing": "original_pitch",
+      "turn_index": 85,
+      "quote": "I'm sold on you",
+      "explanation": "Jillian expresses positive conviction in Ariana personally.",
+      "evidence": [
+        "I'm sold on you"
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 85,
+          "speaker": "Jillian",
+          "quote": "I'm sold on you"
+        }
+      ],
+      "activation": "evaluated",
+      "source_rationale_id": "R14"
+    },
+    {
+      "rationale_label": "business_viability_concern",
+      "direction": "negative",
+      "salience": "primary",
+      "confidence": 0.99,
+      "utterance_type": "decision_explanation",
+      "decision_link": "supports_out",
+      "timing": "original_pitch",
+      "turn_index": 85,
+      "quote": "I'm sold on you but not the business model. And for that reason, I'm out.",
+      "explanation": "She directly attributes her refusal to insufficient conviction in the business model.",
+      "evidence": [
+        "I'm sold on you but not the business model. And for that reason, I'm out."
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 85,
+          "speaker": "Jillian",
+          "quote": "I'm sold on you but not the business model. And for that reason, I'm out."
+        }
+      ],
+      "activation": "evaluated",
+      "source_rationale_id": "R15"
+    },
+    {
+      "rationale_label": "stage_valuation_mismatch",
+      "direction": "negative",
+      "salience": "primary",
+      "confidence": 0.99,
+      "utterance_type": "assessment",
+      "decision_link": "none",
+      "timing": "original_pitch",
+      "turn_index": 85,
+      "quote": "I think that 9 pre is very, very frothy.",
+      "explanation": "She considers the nine-million pre-money valuation excessive for the company's current stage.",
+      "evidence": [
+        "I think that 9 pre is very, very frothy."
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 85,
+          "speaker": "Jillian",
+          "quote": "I think that 9 pre is very, very frothy."
+        }
+      ],
+      "activation": "evaluated",
+      "source_rationale_id": "R16"
+    },
+    {
+      "rationale_label": "stage_valuation_mismatch",
+      "direction": "negative",
+      "salience": "secondary",
+      "confidence": 0.98,
+      "utterance_type": "concern",
+      "decision_link": "none",
+      "timing": "original_pitch",
+      "turn_index": 89,
+      "quote": "I think you're gonna lose people with that",
+      "explanation": "She expects the proposed valuation to deter prospective investors.",
+      "evidence": [
+        "I think you're gonna lose people with that"
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 89,
+          "speaker": "Jillian",
+          "quote": "I think you're gonna lose people with that"
+        }
+      ],
+      "activation": "evaluated",
+      "source_rationale_id": "R17"
+    },
+    {
+      "rationale_label": "stage_valuation_mismatch",
+      "direction": "negative",
+      "salience": "secondary",
+      "confidence": 0.96,
+      "utterance_type": "assessment",
+      "decision_link": "none",
+      "timing": "original_pitch",
+      "turn_index": 91,
+      "quote": "Four pre.",
+      "explanation": "She proposes a substantially lower pre-money valuation as appropriate.",
+      "evidence": [
+        "Four pre."
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 91,
+          "speaker": "Jillian",
+          "quote": "Four pre."
+        }
+      ],
+      "activation": "evaluated",
+      "source_rationale_id": "R18"
+    },
+    {
+      "rationale_label": "capital_intensity_concern",
+      "direction": "neutral",
+      "salience": "secondary",
+      "confidence": 0.95,
+      "utterance_type": "question",
+      "decision_link": "none",
+      "timing": "original_pitch",
+      "turn_index": 94,
+      "quote": "I don't know what the burn is presently, which is what?",
+      "explanation": "Jillian asks about the current burn rate to assess the company's capital consumption.",
+      "evidence": [
+        "I don't know what the burn is presently, which is what?"
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 94,
+          "speaker": "Jillian",
+          "quote": "I don't know what the burn is presently, which is what?"
+        }
+      ],
+      "activation": "queried",
+      "source_rationale_id": "R19"
+    },
+    {
+      "rationale_label": "founder_communication_quality",
+      "direction": "negative",
+      "salience": "secondary",
+      "confidence": 0.98,
+      "utterance_type": "concern",
+      "decision_link": "none",
+      "timing": "original_pitch",
+      "turn_index": 96,
+      "quote": "that's the answer that I didn't want.",
+      "explanation": "She objects to Ariana withholding a standard financial metric rather than answering the burn-rate question.",
+      "evidence": [
+        "that's the answer that I didn't want."
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 96,
+          "speaker": "Jillian",
+          "quote": "that's the answer that I didn't want."
+        }
+      ],
+      "activation": "evaluated",
+      "source_rationale_id": "R20"
+    },
+    {
+      "rationale_label": "product_appeal_assessment",
+      "direction": "negative",
+      "salience": "primary",
+      "confidence": 0.97,
+      "utterance_type": "assessment",
+      "decision_link": "none",
+      "timing": "original_pitch",
+      "turn_index": 110,
+      "quote": "I just didn't find this compelling.",
+      "explanation": "Jillian gives a direct negative assessment of the presented offering's appeal.",
+      "evidence": [
+        "I just didn't find this compelling."
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 110,
+          "speaker": "Jillian",
+          "quote": "I just didn't find this compelling."
+        }
+      ],
+      "activation": "evaluated",
+      "source_rationale_id": "R21"
+    },
+    {
+      "rationale_label": "product_appeal_assessment",
+      "direction": "negative",
+      "salience": "secondary",
+      "confidence": 0.99,
+      "utterance_type": "assessment",
+      "decision_link": "none",
+      "timing": "original_pitch",
+      "turn_index": 112,
+      "quote": "this didn't rock my socks.",
+      "explanation": "She says the demonstrated video did not have a strong impact on her.",
+      "evidence": [
+        "this didn't rock my socks."
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 112,
+          "speaker": "Jillian",
+          "quote": "this didn't rock my socks."
+        }
+      ],
+      "activation": "evaluated",
+      "source_rationale_id": "R22"
+    },
+    {
+      "rationale_label": "founder_coachability_assessment",
+      "direction": "negative",
+      "salience": "primary",
+      "confidence": 0.97,
+      "utterance_type": "concern",
+      "decision_link": "none",
+      "timing": "original_pitch",
+      "turn_index": 114,
+      "quote": "I was worried about the response.",
+      "explanation": "In the debrief, Jillian shares concern about how Ariana responded to Charles's feedback.",
+      "evidence": [
+        "I was worried about the response."
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 114,
+          "speaker": "Jillian",
+          "quote": "I was worried about the response."
+        }
+      ],
+      "activation": "evaluated",
+      "source_rationale_id": "R23"
+    },
+    {
+      "rationale_label": "founder_coachability_assessment",
+      "direction": "negative",
+      "salience": "primary",
+      "confidence": 0.99,
+      "utterance_type": "concern",
+      "decision_link": "none",
+      "timing": "original_pitch",
+      "turn_index": 116,
+      "quote": "if I change the business model and if I forget the EAPs",
+      "explanation": "She is troubled that Ariana appeared overly willing to change the business direction to accommodate an investor.",
+      "evidence": [
+        "if I change the business model and if I forget the EAPs"
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 116,
+          "speaker": "Jillian",
+          "quote": "if I change the business model and if I forget the EAPs"
+        }
+      ],
+      "activation": "evaluated",
+      "source_rationale_id": "R24"
+    },
+    {
+      "rationale_label": "founder_coachability_assessment",
+      "direction": "negative",
+      "salience": "secondary",
+      "confidence": 0.96,
+      "utterance_type": "assessment",
+      "decision_link": "none",
+      "timing": "original_pitch",
+      "turn_index": 118,
+      "quote": "I would have said, you know what, let me prove this out, right.",
+      "explanation": "Jillian says Ariana should have responded to skepticism by offering to validate her approach rather than immediately changing it.",
+      "evidence": [
+        "I would have said, you know what, let me prove this out, right."
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 118,
+          "speaker": "Jillian",
+          "quote": "I would have said, you know what, let me prove this out, right."
+        }
+      ],
+      "activation": "evaluated",
+      "source_rationale_id": "R25"
+    },
+    {
+      "rationale_label": "founder_communication_quality",
+      "direction": "negative",
+      "salience": "secondary",
+      "confidence": 0.95,
+      "utterance_type": "concern",
+      "decision_link": "none",
+      "timing": "original_pitch",
+      "turn_index": 121,
+      "quote": "I also didn't like the - when I asked her, you know, what the valuation was -",
+      "explanation": "She identifies Ariana's handling of the valuation question as a negative part of the pitch.",
+      "evidence": [
+        "I also didn't like the - when I asked her, you know, what the valuation was -"
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 121,
+          "speaker": "Jillian",
+          "quote": "I also didn't like the - when I asked her, you know, what the valuation was -"
+        }
+      ],
+      "activation": "evaluated",
+      "source_rationale_id": "R26"
+    },
+    {
+      "rationale_label": "stage_valuation_mismatch",
+      "direction": "negative",
+      "salience": "secondary",
+      "confidence": 0.94,
+      "utterance_type": "assessment",
+      "decision_link": "none",
+      "timing": "original_pitch",
+      "turn_index": 124,
+      "quote": "Oh. Nine pre. I mean, that just shows me -",
+      "explanation": "Her reaction treats the nine-million pre-money valuation as a negative signal, continued in her subsequent comments.",
+      "evidence": [
+        "Oh. Nine pre. I mean, that just shows me -"
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 124,
+          "speaker": "Jillian",
+          "quote": "Oh. Nine pre. I mean, that just shows me -"
+        }
+      ],
+      "activation": "evaluated",
+      "source_rationale_id": "R27"
+    },
+    {
+      "rationale_label": "stage_valuation_mismatch",
+      "direction": "negative",
+      "salience": "primary",
+      "confidence": 0.99,
+      "utterance_type": "decision_explanation",
+      "decision_link": "supports_out",
+      "timing": "original_pitch",
+      "turn_index": 126,
+      "quote": "I'm out! // You know, she shouldn't have said 9.",
+      "explanation": "Jillian explicitly connects her refusal to the excessive valuation, which she says is inconsistent with comparable companies and constrained capital markets.",
+      "evidence": [
+        "I'm out! // You know, she shouldn't have said 9."
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 126,
+          "speaker": "Jillian",
+          "quote": "I'm out! // You know, she shouldn't have said 9."
+        }
+      ],
+      "activation": "evaluated",
+      "source_rationale_id": "R28"
+    },
+    {
+      "rationale_label": "founder_communication_quality",
+      "direction": "negative",
+      "salience": "secondary",
+      "confidence": 0.98,
+      "utterance_type": "assessment",
+      "decision_link": "none",
+      "timing": "original_pitch",
+      "turn_index": 126,
+      "quote": "She should've done her homework",
+      "explanation": "She criticizes Ariana's preparation and command of appropriate valuation benchmarks.",
+      "evidence": [
+        "She should've done her homework"
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 126,
+          "speaker": "Jillian",
+          "quote": "She should've done her homework"
+        }
+      ],
+      "activation": "evaluated",
+      "source_rationale_id": "R29"
+    },
+    {
+      "rationale_label": "founder_communication_quality",
+      "direction": "negative",
+      "salience": "secondary",
+      "confidence": 0.98,
+      "utterance_type": "assessment",
+      "decision_link": "none",
+      "timing": "original_pitch",
+      "turn_index": 131,
+      "quote": "Every founder should know. Every founder should know. Don't say anything. If you don't know something, don't say anything.",
+      "explanation": "Jillian views Ariana's handling of an uncertain financing detail as a basic preparation and communication failure.",
+      "evidence": [
+        "Every founder should know. Every founder should know. Don't say anything. If you don't know something, don't say anything."
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 131,
+          "speaker": "Jillian",
+          "quote": "Every founder should know. Every founder should know. Don't say anything. If you don't know something, don't say anything."
+        }
+      ],
+      "activation": "evaluated",
+      "source_rationale_id": "R30"
+    },
+    {
+      "rationale_label": "founder_qualities",
+      "direction": "positive",
+      "salience": "secondary",
+      "confidence": 0.99,
+      "utterance_type": "supporting_argument",
+      "decision_link": "supports_in",
+      "timing": "original_pitch",
+      "turn_index": 142,
+      "quote": "I'm okay with cocky and confident, which she clearly was confident and I want that, I want to invest in that.",
+      "explanation": "Jillian explicitly identifies Ariana's confidence as a founder quality she wants to invest in, despite her overall decision not to invest.",
+      "evidence": [
+        "I'm okay with cocky and confident, which she clearly was confident and I want that, I want to invest in that."
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 142,
+          "speaker": "Jillian",
+          "quote": "I'm okay with cocky and confident, which she clearly was confident and I want that, I want to invest in that."
+        }
+      ],
+      "activation": "evaluated",
+      "source_rationale_id": "R31"
+    }
+  ],
+  "expanded_quote_evidence": [],
+  "rejected_after_evidence_check": []
+}

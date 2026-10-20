@@ -1,0 +1,965 @@
+{
+  "schema": "phase1-rationale-reference-v1",
+  "extraction_version": "pitchshow-rationales-v1",
+  "fingerprint": "e626867e345b9752532304fa32237fe594319783bf9226a55ba8148a2c9af97b",
+  "episode_slug": "146-recraft-beer",
+  "vc_slug": "mac-conwell",
+  "vc_name": "Mac Conwell",
+  "actual_decision": "Out",
+  "later_decision": "Unknown",
+  "reference_kind": "automated_transcript_observed_candidate",
+  "human_validated": false,
+  "source_format": "transcript-observed-rationales-v1",
+  "source_path": "../source/episodes/146-recraft-beer.json",
+  "source_sha256": "1b5fe9e4bcdf0b8ebd11d046cdf5d44ca68a6f5039db65b88a903b33478c10e7",
+  "transcript_sha256": "0a5b86074a0c0583f87ca925c564e220f2d83af755f6de1c6e7aa2c880cfb2b4",
+  "taxonomy_sha256": "eaa8734819a3ac34dd19ee5f0bf6de925a793a1d25a2d361090dafc9b751e1fc",
+  "model": "openai/gpt-5.6-luna",
+  "source_tier": "newly_extracted_and_independently_model_reviewed",
+  "reviewed_target_turns": [
+    11,
+    26,
+    28,
+    30,
+    43,
+    74,
+    76,
+    78,
+    79,
+    80,
+    82,
+    85,
+    87,
+    89,
+    93,
+    96,
+    98,
+    106,
+    108,
+    114,
+    118,
+    122,
+    131,
+    138,
+    146,
+    161
+  ],
+  "notes": "All supplied target turns were reviewed; non-rationale turns are represented in reviewed_target_turns without annotations.",
+  "receipt_path": "receipts/146-recraft-beer.json",
+  "scoring_scope": "original_pitch_only",
+  "shared_across_input_modes": true,
+  "rationales": [
+    {
+      "rationale_label": "business_model_assessment",
+      "direction": "positive",
+      "salience": "primary",
+      "confidence": 0.87,
+      "utterance_type": "assessment",
+      "decision_link": "none",
+      "timing": "original_pitch",
+      "turn_index": 108,
+      "quote": "you're gonna give me 50 million a year.",
+      "explanation": "Mac imagines that the technology could support very large recurring licensing payments from a strategic customer.",
+      "evidence": [
+        "it's driving up the price of the licensing",
+        "you're gonna give me 50 million a year."
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 106,
+          "speaker": "Mac",
+          "quote": "it's driving up the price of the licensing"
+        },
+        {
+          "turn_index": 108,
+          "speaker": "Mac",
+          "quote": "you're gonna give me 50 million a year."
+        }
+      ],
+      "activation": "evaluated",
+      "source_rationale_id": "R15",
+      "utterance_kind": "supporting_argument",
+      "decision_support": "none",
+      "all_mention_ids": [
+        "R12",
+        "R15"
+      ]
+    },
+    {
+      "rationale_label": "competitive_advantage_assessment",
+      "direction": "positive",
+      "salience": "primary",
+      "confidence": 0.94,
+      "utterance_type": "assessment",
+      "decision_link": "none",
+      "timing": "original_pitch",
+      "turn_index": 74,
+      "quote": "the process you developed is only going to come from somebody who's not in the beer industry",
+      "explanation": "Mac views the founder's outsider perspective as the source of an unusually novel process.",
+      "evidence": [
+        "the process you developed is only going to come from somebody who's not in the beer industry"
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 74,
+          "speaker": "Mac",
+          "quote": "the process you developed is only going to come from somebody who's not in the beer industry"
+        }
+      ],
+      "activation": "evaluated",
+      "source_rationale_id": "R4",
+      "utterance_kind": "supporting_argument",
+      "decision_support": "none",
+      "all_mention_ids": [
+        "R4"
+      ]
+    },
+    {
+      "rationale_label": "competitive_landscape_inertia",
+      "direction": "positive",
+      "salience": "secondary",
+      "confidence": 0.93,
+      "utterance_type": "assessment",
+      "decision_link": "none",
+      "timing": "original_pitch",
+      "turn_index": 76,
+      "quote": "It's been done for the same way for so long. They're trying to make incremental changes.",
+      "explanation": "Mac sees entrenched industry practices and incremental incumbent behavior as an opening for ReCraft.",
+      "evidence": [
+        "It's been done for the same way for so long. They're trying to make incremental changes."
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 76,
+          "speaker": "Mac",
+          "quote": "It's been done for the same way for so long. They're trying to make incremental changes."
+        }
+      ],
+      "activation": "evaluated",
+      "source_rationale_id": "R5",
+      "utterance_kind": "supporting_argument",
+      "decision_support": "none",
+      "all_mention_ids": [
+        "R5"
+      ]
+    },
+    {
+      "rationale_label": "founder_execution",
+      "direction": "positive",
+      "salience": "primary",
+      "confidence": 0.95,
+      "utterance_type": "assessment",
+      "decision_link": "none",
+      "timing": "original_pitch",
+      "turn_index": 85,
+      "quote": "You've been running successful businesses since the day you graduated college, basically.",
+      "explanation": "Mac cites the founder's sustained history of operating successful businesses.",
+      "evidence": [
+        "You've been running successful businesses since the day you graduated college, basically.",
+        "He's run businesses."
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 85,
+          "speaker": "Mac",
+          "quote": "You've been running successful businesses since the day you graduated college, basically."
+        },
+        {
+          "turn_index": 118,
+          "speaker": "Mac",
+          "quote": "He's run businesses."
+        }
+      ],
+      "activation": "evaluated",
+      "source_rationale_id": "R8",
+      "utterance_kind": "supporting_argument",
+      "decision_support": "none",
+      "all_mention_ids": [
+        "R8",
+        "R17"
+      ]
+    },
+    {
+      "rationale_label": "founder_motivation_authenticity",
+      "direction": "positive",
+      "salience": "primary",
+      "confidence": 0.94,
+      "utterance_type": "assessment",
+      "decision_link": "none",
+      "timing": "original_pitch",
+      "turn_index": 118,
+      "quote": "He just has a chip on his shoulder. Like I want to do something different. Something big.",
+      "explanation": "Mac sees the founder's motivation as a genuine desire to create something larger and different, rather than to gain money or experience.",
+      "evidence": [
+        "you kind of have a clear chip on your shoulder",
+        "He just has a chip on his shoulder. Like I want to do something different. Something big.",
+        "that wasn't big enough for him.",
+        "that chip on his shoulder tells me he wants to go big."
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 85,
+          "speaker": "Mac",
+          "quote": "you kind of have a clear chip on your shoulder"
+        },
+        {
+          "turn_index": 118,
+          "speaker": "Mac",
+          "quote": "He just has a chip on his shoulder. Like I want to do something different. Something big."
+        },
+        {
+          "turn_index": 122,
+          "speaker": "Mac",
+          "quote": "that wasn't big enough for him."
+        },
+        {
+          "turn_index": 131,
+          "speaker": "Mac",
+          "quote": "that chip on his shoulder tells me he wants to go big."
+        }
+      ],
+      "activation": "evaluated",
+      "source_rationale_id": "R16",
+      "utterance_kind": "assessment",
+      "decision_support": "none",
+      "all_mention_ids": [
+        "R9",
+        "R16",
+        "R18",
+        "R20"
+      ]
+    },
+    {
+      "rationale_label": "founder_qualities",
+      "direction": "positive",
+      "salience": "primary",
+      "confidence": 0.94,
+      "utterance_type": "assessment",
+      "decision_link": "none",
+      "timing": "original_pitch",
+      "turn_index": 87,
+      "quote": "when I ask a founder, what's their number? They're like, I don't know, go bigger.",
+      "explanation": "Mac values the founder's ambition and willingness to pursue a larger outcome.",
+      "evidence": [
+        "You fit the exact founder profile that I love",
+        "when I ask a founder, what's their number? They're like, I don't know, go bigger."
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 78,
+          "speaker": "Mac",
+          "quote": "You fit the exact founder profile that I love"
+        },
+        {
+          "turn_index": 79,
+          "speaker": "Mac",
+          "quote": "You fit the exact founder profile that I love"
+        },
+        {
+          "turn_index": 87,
+          "speaker": "Mac",
+          "quote": "when I ask a founder, what's their number? They're like, I don't know, go bigger."
+        }
+      ],
+      "activation": "evaluated",
+      "source_rationale_id": "R10",
+      "utterance_kind": "supporting_argument",
+      "decision_support": "none",
+      "all_mention_ids": [
+        "R6",
+        "R7",
+        "R10"
+      ]
+    },
+    {
+      "rationale_label": "go_to_market_strategy_assessment",
+      "direction": "positive",
+      "salience": "secondary",
+      "confidence": 0.88,
+      "utterance_type": "assessment",
+      "decision_link": "none",
+      "timing": "original_pitch",
+      "turn_index": 108,
+      "quote": "he has a network where he can get in front of the right person",
+      "explanation": "Mac believes the founder can use his network to reach an appropriate strategic customer or decision-maker.",
+      "evidence": [
+        "he has a network where he can get in front of the right person"
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 108,
+          "speaker": "Mac",
+          "quote": "he has a network where he can get in front of the right person"
+        }
+      ],
+      "activation": "evaluated",
+      "source_rationale_id": "R14",
+      "utterance_kind": "supporting_argument",
+      "decision_support": "none",
+      "all_mention_ids": [
+        "R14"
+      ]
+    },
+    {
+      "rationale_label": "investment_thesis_constraint",
+      "direction": "negative",
+      "salience": "primary",
+      "confidence": 0.99,
+      "utterance_type": "decision_reason",
+      "decision_link": "explicit",
+      "timing": "original_pitch",
+      "turn_index": 28,
+      "quote": "purely just for a clause that my LPs forced me to have.",
+      "explanation": "Mac reiterates that the refusal is caused by an LP-imposed fund constraint.",
+      "evidence": [
+        "we have a no vice clause, so I'm not allowed to invest in anything involved with alcohol.",
+        "purely just for a clause that my LPs forced me to have."
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 26,
+          "speaker": "Mac",
+          "quote": "we have a no vice clause, so I'm not allowed to invest in anything involved with alcohol."
+        },
+        {
+          "turn_index": 28,
+          "speaker": "Mac",
+          "quote": "purely just for a clause that my LPs forced me to have."
+        }
+      ],
+      "activation": "evaluated",
+      "source_rationale_id": "R2",
+      "utterance_kind": "decision_explanation",
+      "decision_support": "supports_out",
+      "all_mention_ids": [
+        "R1",
+        "R2"
+      ]
+    },
+    {
+      "rationale_label": "investment_upside_assessment",
+      "direction": "positive",
+      "salience": "primary",
+      "confidence": 0.95,
+      "utterance_type": "assessment",
+      "decision_link": "none",
+      "timing": "original_pitch",
+      "turn_index": 131,
+      "quote": "this is a fund returner. There is a big company somewhere in here.",
+      "explanation": "Mac explicitly assesses the opportunity as capable of producing a fund-level return and supporting a large company.",
+      "evidence": [
+        "this is a fund returner. There is a big company somewhere in here."
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 131,
+          "speaker": "Mac",
+          "quote": "this is a fund returner. There is a big company somewhere in here."
+        }
+      ],
+      "activation": "evaluated",
+      "source_rationale_id": "R19",
+      "utterance_kind": "assessment",
+      "decision_support": "none",
+      "all_mention_ids": [
+        "R19"
+      ]
+    },
+    {
+      "rationale_label": "investor_experience_bias",
+      "direction": "positive",
+      "salience": "secondary",
+      "confidence": 0.94,
+      "utterance_type": "assessment",
+      "decision_link": "none",
+      "timing": "original_pitch",
+      "turn_index": 106,
+      "quote": "we have a company in our portfolio that's created a technology in a beverage space",
+      "explanation": "Mac relies on a relevant portfolio-company experience to support his view of ReCraft's potential.",
+      "evidence": [
+        "we have a company in our portfolio that's created a technology in a beverage space"
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 106,
+          "speaker": "Mac",
+          "quote": "we have a company in our portfolio that's created a technology in a beverage space"
+        }
+      ],
+      "activation": "evaluated",
+      "source_rationale_id": "R13",
+      "utterance_kind": "supporting_argument",
+      "decision_support": "none",
+      "all_mention_ids": [
+        "R13"
+      ]
+    },
+    {
+      "rationale_label": "product_appeal_assessment",
+      "direction": "positive",
+      "salience": "secondary",
+      "confidence": 0.88,
+      "utterance_type": "assessment",
+      "decision_link": "none",
+      "timing": "original_pitch",
+      "turn_index": 96,
+      "quote": "This is pretty good.",
+      "explanation": "After tasting the product, Mac expresses a favorable personal reaction.",
+      "evidence": [
+        "This is pretty good."
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 96,
+          "speaker": "Mac",
+          "quote": "This is pretty good."
+        }
+      ],
+      "activation": "evaluated",
+      "source_rationale_id": "R11",
+      "utterance_kind": "assessment",
+      "decision_support": "none",
+      "all_mention_ids": [
+        "R11"
+      ]
+    },
+    {
+      "rationale_label": "solution_feasibility_assessment",
+      "direction": "neutral",
+      "salience": "secondary",
+      "confidence": 0.9,
+      "utterance_type": "question",
+      "decision_link": "none",
+      "timing": "original_pitch",
+      "turn_index": 43,
+      "quote": "could essentially set up a brewery that's probably slightly smaller with less storage space because I don't have to hold the hops anymore?",
+      "explanation": "Mac asks whether the process enables a smaller brewery footprint and reduced storage requirements.",
+      "evidence": [
+        "could essentially set up a brewery that's probably slightly smaller with less storage space because I don't have to hold the hops anymore?"
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 43,
+          "speaker": "Mac",
+          "quote": "could essentially set up a brewery that's probably slightly smaller with less storage space because I don't have to hold the hops anymore?"
+        }
+      ],
+      "activation": "queried",
+      "source_rationale_id": "R3",
+      "utterance_kind": "question",
+      "decision_support": "none",
+      "all_mention_ids": [
+        "R3"
+      ]
+    }
+  ],
+  "later_rationales": [],
+  "excluded_rationales": [
+    {
+      "rationale_label": "founder_motivation_authenticity",
+      "direction": "neutral",
+      "salience": "secondary",
+      "confidence": 0.9,
+      "utterance_type": "question",
+      "decision_link": "none",
+      "timing": "teaser",
+      "turn_index": 161,
+      "quote": "You had three businesses. You did over $100 million in events. COVID is over. The world's opened up. Why do this?",
+      "explanation": "In a teaser for a later pitch, Mac asks why an already successful founder is pursuing the new company.",
+      "evidence": [
+        "You had three businesses. You did over $100 million in events. COVID is over. The world's opened up. Why do this?"
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 161,
+          "speaker": "Mac",
+          "quote": "You had three businesses. You did over $100 million in events. COVID is over. The world's opened up. Why do this?"
+        }
+      ],
+      "activation": "queried",
+      "source_rationale_id": "R21"
+    }
+  ],
+  "rationale_mentions": [
+    {
+      "rationale_label": "investment_thesis_constraint",
+      "direction": "negative",
+      "salience": "primary",
+      "confidence": 0.99,
+      "utterance_type": "decision_explanation",
+      "decision_link": "supports_out",
+      "timing": "original_pitch",
+      "turn_index": 26,
+      "quote": "we have a no vice clause, so I'm not allowed to invest in anything involved with alcohol.",
+      "explanation": "Mac explains that his fund mandate prohibits investments connected to alcohol.",
+      "evidence": [
+        "we have a no vice clause, so I'm not allowed to invest in anything involved with alcohol."
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 26,
+          "speaker": "Mac",
+          "quote": "we have a no vice clause, so I'm not allowed to invest in anything involved with alcohol."
+        }
+      ],
+      "activation": "evaluated",
+      "source_rationale_id": "R1"
+    },
+    {
+      "rationale_label": "investment_thesis_constraint",
+      "direction": "negative",
+      "salience": "primary",
+      "confidence": 0.99,
+      "utterance_type": "decision_explanation",
+      "decision_link": "supports_out",
+      "timing": "original_pitch",
+      "turn_index": 28,
+      "quote": "purely just for a clause that my LPs forced me to have.",
+      "explanation": "Mac reiterates that the refusal is caused by an LP-imposed fund constraint.",
+      "evidence": [
+        "purely just for a clause that my LPs forced me to have."
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 28,
+          "speaker": "Mac",
+          "quote": "purely just for a clause that my LPs forced me to have."
+        }
+      ],
+      "activation": "evaluated",
+      "source_rationale_id": "R2"
+    },
+    {
+      "rationale_label": "solution_feasibility_assessment",
+      "direction": "neutral",
+      "salience": "secondary",
+      "confidence": 0.9,
+      "utterance_type": "question",
+      "decision_link": "none",
+      "timing": "original_pitch",
+      "turn_index": 43,
+      "quote": "could essentially set up a brewery that's probably slightly smaller with less storage space because I don't have to hold the hops anymore?",
+      "explanation": "Mac asks whether the process enables a smaller brewery footprint and reduced storage requirements.",
+      "evidence": [
+        "could essentially set up a brewery that's probably slightly smaller with less storage space because I don't have to hold the hops anymore?"
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 43,
+          "speaker": "Mac",
+          "quote": "could essentially set up a brewery that's probably slightly smaller with less storage space because I don't have to hold the hops anymore?"
+        }
+      ],
+      "activation": "queried",
+      "source_rationale_id": "R3"
+    },
+    {
+      "rationale_label": "competitive_advantage_assessment",
+      "direction": "positive",
+      "salience": "primary",
+      "confidence": 0.94,
+      "utterance_type": "supporting_argument",
+      "decision_link": "none",
+      "timing": "original_pitch",
+      "turn_index": 74,
+      "quote": "the process you developed is only going to come from somebody who's not in the beer industry",
+      "explanation": "Mac views the founder's outsider perspective as the source of an unusually novel process.",
+      "evidence": [
+        "the process you developed is only going to come from somebody who's not in the beer industry"
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 74,
+          "speaker": "Mac",
+          "quote": "the process you developed is only going to come from somebody who's not in the beer industry"
+        }
+      ],
+      "activation": "evaluated",
+      "source_rationale_id": "R4"
+    },
+    {
+      "rationale_label": "competitive_landscape_inertia",
+      "direction": "positive",
+      "salience": "secondary",
+      "confidence": 0.93,
+      "utterance_type": "supporting_argument",
+      "decision_link": "none",
+      "timing": "original_pitch",
+      "turn_index": 76,
+      "quote": "It's been done for the same way for so long. They're trying to make incremental changes.",
+      "explanation": "Mac sees entrenched industry practices and incremental incumbent behavior as an opening for ReCraft.",
+      "evidence": [
+        "It's been done for the same way for so long. They're trying to make incremental changes."
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 76,
+          "speaker": "Mac",
+          "quote": "It's been done for the same way for so long. They're trying to make incremental changes."
+        }
+      ],
+      "activation": "evaluated",
+      "source_rationale_id": "R5"
+    },
+    {
+      "rationale_label": "founder_qualities",
+      "direction": "positive",
+      "salience": "primary",
+      "confidence": 0.97,
+      "utterance_type": "assessment",
+      "decision_link": "none",
+      "timing": "original_pitch",
+      "turn_index": 78,
+      "quote": "You fit the exact founder profile that I love",
+      "explanation": "Mac explicitly says the founder matches his preferred founder profile.",
+      "evidence": [
+        "You fit the exact founder profile that I love"
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 78,
+          "speaker": "Mac",
+          "quote": "You fit the exact founder profile that I love"
+        }
+      ],
+      "activation": "evaluated",
+      "source_rationale_id": "R6"
+    },
+    {
+      "rationale_label": "founder_qualities",
+      "direction": "positive",
+      "salience": "primary",
+      "confidence": 0.97,
+      "utterance_type": "assessment",
+      "decision_link": "none",
+      "timing": "original_pitch",
+      "turn_index": 79,
+      "quote": "You fit the exact founder profile that I love",
+      "explanation": "Mac repeats that he sees the founder as an ideal fit for his founder preferences.",
+      "evidence": [
+        "You fit the exact founder profile that I love"
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 79,
+          "speaker": "Mac",
+          "quote": "You fit the exact founder profile that I love"
+        }
+      ],
+      "activation": "evaluated",
+      "source_rationale_id": "R7"
+    },
+    {
+      "rationale_label": "founder_execution",
+      "direction": "positive",
+      "salience": "primary",
+      "confidence": 0.95,
+      "utterance_type": "supporting_argument",
+      "decision_link": "none",
+      "timing": "original_pitch",
+      "turn_index": 85,
+      "quote": "You've been running successful businesses since the day you graduated college, basically.",
+      "explanation": "Mac cites the founder's sustained history of operating successful businesses.",
+      "evidence": [
+        "You've been running successful businesses since the day you graduated college, basically."
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 85,
+          "speaker": "Mac",
+          "quote": "You've been running successful businesses since the day you graduated college, basically."
+        }
+      ],
+      "activation": "evaluated",
+      "source_rationale_id": "R8"
+    },
+    {
+      "rationale_label": "founder_motivation_authenticity",
+      "direction": "positive",
+      "salience": "secondary",
+      "confidence": 0.91,
+      "utterance_type": "assessment",
+      "decision_link": "none",
+      "timing": "original_pitch",
+      "turn_index": 85,
+      "quote": "you kind of have a clear chip on your shoulder",
+      "explanation": "Mac perceives a strong personal drive pushing the founder to achieve more.",
+      "evidence": [
+        "you kind of have a clear chip on your shoulder"
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 85,
+          "speaker": "Mac",
+          "quote": "you kind of have a clear chip on your shoulder"
+        }
+      ],
+      "activation": "evaluated",
+      "source_rationale_id": "R9"
+    },
+    {
+      "rationale_label": "founder_qualities",
+      "direction": "positive",
+      "salience": "primary",
+      "confidence": 0.94,
+      "utterance_type": "supporting_argument",
+      "decision_link": "none",
+      "timing": "original_pitch",
+      "turn_index": 87,
+      "quote": "when I ask a founder, what's their number? They're like, I don't know, go bigger.",
+      "explanation": "Mac values the founder's ambition and willingness to pursue a larger outcome.",
+      "evidence": [
+        "when I ask a founder, what's their number? They're like, I don't know, go bigger."
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 87,
+          "speaker": "Mac",
+          "quote": "when I ask a founder, what's their number? They're like, I don't know, go bigger."
+        }
+      ],
+      "activation": "evaluated",
+      "source_rationale_id": "R10"
+    },
+    {
+      "rationale_label": "product_appeal_assessment",
+      "direction": "positive",
+      "salience": "secondary",
+      "confidence": 0.88,
+      "utterance_type": "assessment",
+      "decision_link": "none",
+      "timing": "original_pitch",
+      "turn_index": 96,
+      "quote": "This is pretty good.",
+      "explanation": "After tasting the product, Mac expresses a favorable personal reaction.",
+      "evidence": [
+        "This is pretty good."
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 96,
+          "speaker": "Mac",
+          "quote": "This is pretty good."
+        }
+      ],
+      "activation": "evaluated",
+      "source_rationale_id": "R11"
+    },
+    {
+      "rationale_label": "business_model_assessment",
+      "direction": "positive",
+      "salience": "primary",
+      "confidence": 0.92,
+      "utterance_type": "supporting_argument",
+      "decision_link": "none",
+      "timing": "original_pitch",
+      "turn_index": 106,
+      "quote": "it's driving up the price of the licensing",
+      "explanation": "Mac uses a comparable beverage technology to argue that transformative technology can command substantial licensing economics.",
+      "evidence": [
+        "it's driving up the price of the licensing"
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 106,
+          "speaker": "Mac",
+          "quote": "it's driving up the price of the licensing"
+        }
+      ],
+      "activation": "evaluated",
+      "source_rationale_id": "R12"
+    },
+    {
+      "rationale_label": "investor_experience_bias",
+      "direction": "positive",
+      "salience": "secondary",
+      "confidence": 0.94,
+      "utterance_type": "supporting_argument",
+      "decision_link": "none",
+      "timing": "original_pitch",
+      "turn_index": 106,
+      "quote": "we have a company in our portfolio that's created a technology in a beverage space",
+      "explanation": "Mac relies on a relevant portfolio-company experience to support his view of ReCraft's potential.",
+      "evidence": [
+        "we have a company in our portfolio that's created a technology in a beverage space"
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 106,
+          "speaker": "Mac",
+          "quote": "we have a company in our portfolio that's created a technology in a beverage space"
+        }
+      ],
+      "activation": "evaluated",
+      "source_rationale_id": "R13"
+    },
+    {
+      "rationale_label": "go_to_market_strategy_assessment",
+      "direction": "positive",
+      "salience": "secondary",
+      "confidence": 0.88,
+      "utterance_type": "supporting_argument",
+      "decision_link": "none",
+      "timing": "original_pitch",
+      "turn_index": 108,
+      "quote": "he has a network where he can get in front of the right person",
+      "explanation": "Mac believes the founder can use his network to reach an appropriate strategic customer or decision-maker.",
+      "evidence": [
+        "he has a network where he can get in front of the right person"
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 108,
+          "speaker": "Mac",
+          "quote": "he has a network where he can get in front of the right person"
+        }
+      ],
+      "activation": "evaluated",
+      "source_rationale_id": "R14"
+    },
+    {
+      "rationale_label": "business_model_assessment",
+      "direction": "positive",
+      "salience": "primary",
+      "confidence": 0.87,
+      "utterance_type": "supporting_argument",
+      "decision_link": "none",
+      "timing": "original_pitch",
+      "turn_index": 108,
+      "quote": "you're gonna give me 50 million a year.",
+      "explanation": "Mac imagines that the technology could support very large recurring licensing payments from a strategic customer.",
+      "evidence": [
+        "you're gonna give me 50 million a year."
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 108,
+          "speaker": "Mac",
+          "quote": "you're gonna give me 50 million a year."
+        }
+      ],
+      "activation": "evaluated",
+      "source_rationale_id": "R15"
+    },
+    {
+      "rationale_label": "founder_motivation_authenticity",
+      "direction": "positive",
+      "salience": "primary",
+      "confidence": 0.94,
+      "utterance_type": "assessment",
+      "decision_link": "none",
+      "timing": "original_pitch",
+      "turn_index": 118,
+      "quote": "He just has a chip on his shoulder. Like I want to do something different. Something big.",
+      "explanation": "Mac sees the founder's motivation as a genuine desire to create something larger and different, rather than to gain money or experience.",
+      "evidence": [
+        "He just has a chip on his shoulder. Like I want to do something different. Something big."
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 118,
+          "speaker": "Mac",
+          "quote": "He just has a chip on his shoulder. Like I want to do something different. Something big."
+        }
+      ],
+      "activation": "evaluated",
+      "source_rationale_id": "R16"
+    },
+    {
+      "rationale_label": "founder_execution",
+      "direction": "positive",
+      "salience": "secondary",
+      "confidence": 0.86,
+      "utterance_type": "supporting_argument",
+      "decision_link": "none",
+      "timing": "original_pitch",
+      "turn_index": 118,
+      "quote": "He's run businesses.",
+      "explanation": "Mac points to the founder's prior business operating experience as evidence of execution history.",
+      "evidence": [
+        "He's run businesses."
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 118,
+          "speaker": "Mac",
+          "quote": "He's run businesses."
+        }
+      ],
+      "activation": "evaluated",
+      "source_rationale_id": "R17"
+    },
+    {
+      "rationale_label": "founder_motivation_authenticity",
+      "direction": "positive",
+      "salience": "secondary",
+      "confidence": 0.91,
+      "utterance_type": "assessment",
+      "decision_link": "none",
+      "timing": "original_pitch",
+      "turn_index": 122,
+      "quote": "that wasn't big enough for him.",
+      "explanation": "Mac treats the founder's dissatisfaction with an existing success as evidence of unusually high ambition.",
+      "evidence": [
+        "that wasn't big enough for him."
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 122,
+          "speaker": "Mac",
+          "quote": "that wasn't big enough for him."
+        }
+      ],
+      "activation": "evaluated",
+      "source_rationale_id": "R18"
+    },
+    {
+      "rationale_label": "investment_upside_assessment",
+      "direction": "positive",
+      "salience": "primary",
+      "confidence": 0.95,
+      "utterance_type": "assessment",
+      "decision_link": "none",
+      "timing": "original_pitch",
+      "turn_index": 131,
+      "quote": "this is a fund returner. There is a big company somewhere in here.",
+      "explanation": "Mac explicitly assesses the opportunity as capable of producing a fund-level return and supporting a large company.",
+      "evidence": [
+        "this is a fund returner. There is a big company somewhere in here."
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 131,
+          "speaker": "Mac",
+          "quote": "this is a fund returner. There is a big company somewhere in here."
+        }
+      ],
+      "activation": "evaluated",
+      "source_rationale_id": "R19"
+    },
+    {
+      "rationale_label": "founder_motivation_authenticity",
+      "direction": "positive",
+      "salience": "secondary",
+      "confidence": 0.92,
+      "utterance_type": "supporting_argument",
+      "decision_link": "none",
+      "timing": "original_pitch",
+      "turn_index": 131,
+      "quote": "that chip on his shoulder tells me he wants to go big.",
+      "explanation": "Mac connects the founder's personal drive to the possibility of pursuing a large outcome.",
+      "evidence": [
+        "that chip on his shoulder tells me he wants to go big."
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 131,
+          "speaker": "Mac",
+          "quote": "that chip on his shoulder tells me he wants to go big."
+        }
+      ],
+      "activation": "evaluated",
+      "source_rationale_id": "R20"
+    }
+  ]
+}

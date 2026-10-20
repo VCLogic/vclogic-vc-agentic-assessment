@@ -758,3 +758,40 @@ def test_openrouter_provider_configures_a_bounded_request_timeout(
     OpenRouterProvider("openai/gpt-5.6-luna", request_timeout_seconds=300)
 
     assert captured["timeout"] == 300
+
+
+def test_openrouter_records_truncation_and_rejects_repetitive_format_padding():
+    response = _openrouter_response()
+    response.choices[0].message.content = '{"answer":"' + '\u200b' * 100 + '"}'
+    response.choices[0].finish_reason = 'length'
+    response.usage.completion_tokens = 123
+    client = SimpleNamespace(chat=SimpleNamespace(completions=SimpleNamespace(create=lambda **kwargs: response)))
+    result = OpenRouterProvider('fixture', client=client, max_output_tokens=123).generate(GenerationRequest('phase1', 'prompt', SCHEMA))
+    assert result.parsed is None
+    assert result.raw_metadata['finish_reason'] == 'length'
+    assert result.raw_metadata['output_token_limit_reached'] is True
+    assert 'repetitive_format_characters' in result.raw_metadata['output_quality_findings']
+    assert result.usage.output_tokens == 123
+
+
+def test_openrouter_uses_compatibility_mode_on_next_call_after_malformed_output():
+    captured = []
+    def create(**kwargs):
+        captured.append(kwargs)
+        response = _openrouter_response()
+        if len(captured) == 1:
+            response.choices[0].message.content = '{"answer":'
+            response.choices[0].finish_reason = 'length'
+        return response
+    client = SimpleNamespace(chat=SimpleNamespace(completions=SimpleNamespace(create=create)))
+    provider = OpenRouterProvider('fixture', client=client)
+    request = GenerationRequest('phase1_plan', 'prompt', SCHEMA)
+    first = provider.generate(request)
+    assert first.parsed is None
+    assert len(captured) == 1  # No hidden extra paid request.
+    second = provider.generate(request)
+    assert second.parsed is not None
+    assert captured[0]['response_format']['type'] == 'json_schema'
+    assert captured[1]['response_format']['type'] == 'json_object'
+    assert second.raw_metadata['structured_output_mode'] == 'json_object_fallback'
+    assert second.raw_metadata['physical_attempts'] == 1

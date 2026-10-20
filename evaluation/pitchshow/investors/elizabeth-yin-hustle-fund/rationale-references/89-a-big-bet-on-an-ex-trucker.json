@@ -1,0 +1,542 @@
+{
+  "schema": "phase1-rationale-reference-v1",
+  "extraction_version": "pitchshow-rationales-v1",
+  "fingerprint": "720518af6fa5ee0f29680e1391f700beb44a3db48c594a68ab564b8cda10a840",
+  "episode_slug": "89-a-big-bet-on-an-ex-trucker",
+  "vc_slug": "elizabeth-yin-hustle-fund",
+  "vc_name": "Elizabeth Yin",
+  "actual_decision": "In",
+  "later_decision": "In",
+  "reference_kind": "automated_transcript_observed_candidate",
+  "human_validated": false,
+  "source_format": "transcript-observed-rationales-v1",
+  "source_path": "../source/episodes/89-a-big-bet-on-an-ex-trucker.json",
+  "source_sha256": "1da750b9cad875bd26e4dc0419d327683d43a28f56a9f1a394f2a355b7cdea64",
+  "transcript_sha256": "77cc20272bad1ae08ac5f9bb8cd8b902b556749d0add6df9ed76823dc1e85ccc",
+  "taxonomy_sha256": "eaa8734819a3ac34dd19ee5f0bf6de925a793a1d25a2d361090dafc9b751e1fc",
+  "model": "codex:gpt-5.6-luna+gpt-5.6-sol",
+  "generation_stages": [
+    {
+      "phase": "rationale_extract",
+      "backend": "codex",
+      "model": "gpt-5.6-luna"
+    },
+    {
+      "phase": "rationale_verify",
+      "backend": "codex",
+      "model": "gpt-5.6-sol"
+    }
+  ],
+  "source_tier": "newly_extracted_and_independently_model_reviewed",
+  "reviewed_target_turns": [
+    3,
+    5,
+    7,
+    12,
+    18,
+    24,
+    26,
+    28,
+    30,
+    37,
+    42,
+    48,
+    52,
+    54,
+    56,
+    63,
+    68,
+    94,
+    96,
+    98,
+    100,
+    102,
+    104,
+    106,
+    108,
+    110,
+    112
+  ],
+  "notes": "All target turns were reviewed. Brief acknowledgements, greetings, simple confirmations, the unexplained commitment at turn 56, and the joking fund-name remark at turn 112 were omitted as non-rationales.",
+  "receipt_path": "receipts/89-a-big-bet-on-an-ex-trucker.json",
+  "scoring_scope": "original_pitch_only",
+  "shared_across_input_modes": true,
+  "rationales": [
+    {
+      "rationale_label": "business_model_assessment",
+      "direction": "neutral",
+      "salience": "secondary",
+      "confidence": 0.9,
+      "utterance_type": "question",
+      "decision_link": "none",
+      "timing": "original_pitch",
+      "turn_index": 12,
+      "quote": "how does your pay on an hourly basis compare to what a truck driver could get like as an employee?",
+      "explanation": "She examines the driver-compensation structure underlying the marketplace model.",
+      "evidence": [
+        "how does your pay on an hourly basis compare to what a truck driver could get like as an employee?"
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 12,
+          "speaker": "Elizabeth",
+          "quote": "how does your pay on an hourly basis compare to what a truck driver could get like as an employee?"
+        }
+      ],
+      "activation": "queried",
+      "source_rationale_id": "R2",
+      "utterance_kind": "question",
+      "decision_support": "none",
+      "all_mention_ids": [
+        "R2"
+      ]
+    },
+    {
+      "rationale_label": "deal_terms_complexity_concern",
+      "direction": "neutral",
+      "salience": "secondary",
+      "confidence": 0.9,
+      "utterance_type": "question",
+      "decision_link": "none",
+      "timing": "original_pitch",
+      "turn_index": 54,
+      "quote": "was that on a note or a safe or what was the format?",
+      "explanation": "She asks which financing instrument governed the prior valuation.",
+      "evidence": [
+        "Do you have terms on this round? Any, any details that you can provide.",
+        "was that on a note or a safe or what was the format?"
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 42,
+          "speaker": "Elizabeth",
+          "quote": "Do you have terms on this round? Any, any details that you can provide."
+        },
+        {
+          "turn_index": 54,
+          "speaker": "Elizabeth",
+          "quote": "was that on a note or a safe or what was the format?"
+        }
+      ],
+      "activation": "queried",
+      "source_rationale_id": "R7",
+      "utterance_kind": "question",
+      "decision_support": "none",
+      "all_mention_ids": [
+        "R4",
+        "R7"
+      ]
+    },
+    {
+      "rationale_label": "fund_economics_constraint",
+      "direction": "negative",
+      "salience": "primary",
+      "confidence": 0.97,
+      "utterance_type": "decision_reason",
+      "decision_link": "explicit",
+      "timing": "original_pitch",
+      "turn_index": 52,
+      "quote": "We're a small fund, though, so we would be writing like a 25k check.",
+      "explanation": "She explicitly ties Hustle Fund's limited check size for the prospective investment to the fund's small size.",
+      "evidence": [
+        "We're a small fund, though, so we would be writing like a 25k check."
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 52,
+          "speaker": "Elizabeth",
+          "quote": "We're a small fund, though, so we would be writing like a 25k check."
+        }
+      ],
+      "activation": "evaluated",
+      "source_rationale_id": "R5",
+      "utterance_kind": "decision_explanation",
+      "decision_support": "supports_in",
+      "all_mention_ids": [
+        "R5"
+      ]
+    },
+    {
+      "rationale_label": "market_timing",
+      "direction": "neutral",
+      "salience": "secondary",
+      "confidence": 0.89,
+      "utterance_type": "question",
+      "decision_link": "none",
+      "timing": "original_pitch",
+      "turn_index": 24,
+      "quote": "In the next few years, like with autonomous trucks and all, how do you think about that world?",
+      "explanation": "She asks how the expected emergence of autonomous trucking could affect the company's future.",
+      "evidence": [
+        "In the next few years, like with autonomous trucks and all, how do you think about that world?"
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 24,
+          "speaker": "Elizabeth",
+          "quote": "In the next few years, like with autonomous trucks and all, how do you think about that world?"
+        }
+      ],
+      "activation": "queried",
+      "source_rationale_id": "R3",
+      "utterance_kind": "question",
+      "decision_support": "none",
+      "all_mention_ids": [
+        "R3"
+      ]
+    },
+    {
+      "rationale_label": "solution_feasibility_assessment",
+      "direction": "neutral",
+      "salience": "secondary",
+      "confidence": 0.92,
+      "utterance_type": "question",
+      "decision_link": "none",
+      "timing": "original_pitch",
+      "turn_index": 3,
+      "quote": "So, walk me through the user experience. What does this look like?",
+      "explanation": "Elizabeth asks how the product works operationally for its users.",
+      "evidence": [
+        "So, walk me through the user experience. What does this look like?"
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 3,
+          "speaker": "Elizabeth",
+          "quote": "So, walk me through the user experience. What does this look like?"
+        }
+      ],
+      "activation": "queried",
+      "source_rationale_id": "R1",
+      "utterance_kind": "question",
+      "decision_support": "none",
+      "all_mention_ids": [
+        "R1"
+      ]
+    },
+    {
+      "rationale_label": "stage_valuation_mismatch",
+      "direction": "negative",
+      "salience": "secondary",
+      "confidence": 0.82,
+      "utterance_type": "assessment",
+      "decision_link": "explicit",
+      "timing": "original_pitch",
+      "turn_index": 52,
+      "quote": "we also tend to prefer earlier valuations",
+      "explanation": "She signals that investing would be more attractive at an earlier-stage valuation while discussing a possible offer.",
+      "evidence": [
+        "we also tend to prefer earlier valuations"
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 52,
+          "speaker": "Elizabeth",
+          "quote": "we also tend to prefer earlier valuations"
+        }
+      ],
+      "activation": "evaluated",
+      "source_rationale_id": "R6",
+      "utterance_kind": "assessment",
+      "decision_support": "supports_in",
+      "all_mention_ids": [
+        "R6"
+      ]
+    }
+  ],
+  "later_rationales": [
+    {
+      "rationale_label": "founder_qualities",
+      "direction": "positive",
+      "salience": "primary",
+      "confidence": 0.99,
+      "utterance_type": "decision_explanation",
+      "decision_link": "supports_in",
+      "timing": "later_commentary",
+      "turn_index": 94,
+      "quote": "Pierre has an amazing story of grit. I think that's really what stuck out",
+      "explanation": "She identifies Pierre's exceptional grit as the quality that most strongly distinguished him for her investment.",
+      "evidence": [
+        "Pierre has an amazing story of grit. I think that's really what stuck out"
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 94,
+          "speaker": "Elizabeth",
+          "quote": "Pierre has an amazing story of grit. I think that's really what stuck out"
+        }
+      ],
+      "activation": "evaluated",
+      "source_rationale_id": "R8"
+    },
+    {
+      "rationale_label": "founder_execution",
+      "direction": "positive",
+      "salience": "primary",
+      "confidence": 0.97,
+      "utterance_type": "decision_explanation",
+      "decision_link": "supports_in",
+      "timing": "later_commentary",
+      "turn_index": 96,
+      "quote": "what you need during those times, are founders who will just not give up",
+      "explanation": "She explains that persistence through repeated business crises is the founder signal she sought in Pierre.",
+      "evidence": [
+        "what you need during those times, are founders who will just not give up"
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 96,
+          "speaker": "Elizabeth",
+          "quote": "what you need during those times, are founders who will just not give up"
+        }
+      ],
+      "activation": "evaluated",
+      "source_rationale_id": "R9"
+    },
+    {
+      "rationale_label": "founder_execution",
+      "direction": "positive",
+      "salience": "primary",
+      "confidence": 0.97,
+      "utterance_type": "decision_explanation",
+      "decision_link": "supports_in",
+      "timing": "later_commentary",
+      "turn_index": 106,
+      "quote": "their attitude toward sales",
+      "explanation": "She names the team's aggressive prioritization of sales as a reason for making the larger follow-on investment.",
+      "evidence": [
+        "their attitude toward sales"
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 106,
+          "speaker": "Elizabeth",
+          "quote": "their attitude toward sales"
+        }
+      ],
+      "activation": "evaluated",
+      "source_rationale_id": "R10"
+    },
+    {
+      "rationale_label": "founder_execution",
+      "direction": "positive",
+      "salience": "secondary",
+      "confidence": 0.91,
+      "utterance_type": "supporting_argument",
+      "decision_link": "supports_in",
+      "timing": "later_commentary",
+      "turn_index": 108,
+      "quote": "it seems like that’s just what you should be doing in business",
+      "explanation": "She reinforces that the team's sales focus reflects an execution behavior businesses ought to exhibit.",
+      "evidence": [
+        "it seems like that’s just what you should be doing in business"
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 108,
+          "speaker": "Elizabeth",
+          "quote": "it seems like that’s just what you should be doing in business"
+        }
+      ],
+      "activation": "evaluated",
+      "source_rationale_id": "R11"
+    },
+    {
+      "rationale_label": "founder_execution",
+      "direction": "positive",
+      "salience": "secondary",
+      "confidence": 0.95,
+      "utterance_type": "supporting_argument",
+      "decision_link": "supports_in",
+      "timing": "later_commentary",
+      "turn_index": 110,
+      "quote": "a lot of founders don’t prioritize customer acquisition as much as i think they should",
+      "explanation": "She contrasts the team's customer-acquisition focus with founders who give it insufficient priority.",
+      "evidence": [
+        "a lot of founders don’t prioritize customer acquisition as much as i think they should"
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 110,
+          "speaker": "Elizabeth",
+          "quote": "a lot of founders don’t prioritize customer acquisition as much as i think they should"
+        }
+      ],
+      "activation": "evaluated",
+      "source_rationale_id": "R12"
+    }
+  ],
+  "excluded_rationales": [],
+  "rationale_mentions": [
+    {
+      "rationale_label": "solution_feasibility_assessment",
+      "direction": "neutral",
+      "salience": "secondary",
+      "confidence": 0.92,
+      "utterance_type": "question",
+      "decision_link": "none",
+      "timing": "original_pitch",
+      "turn_index": 3,
+      "quote": "So, walk me through the user experience. What does this look like?",
+      "explanation": "Elizabeth asks how the product works operationally for its users.",
+      "evidence": [
+        "So, walk me through the user experience. What does this look like?"
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 3,
+          "speaker": "Elizabeth",
+          "quote": "So, walk me through the user experience. What does this look like?"
+        }
+      ],
+      "activation": "queried",
+      "source_rationale_id": "R1"
+    },
+    {
+      "rationale_label": "business_model_assessment",
+      "direction": "neutral",
+      "salience": "secondary",
+      "confidence": 0.9,
+      "utterance_type": "question",
+      "decision_link": "none",
+      "timing": "original_pitch",
+      "turn_index": 12,
+      "quote": "how does your pay on an hourly basis compare to what a truck driver could get like as an employee?",
+      "explanation": "She examines the driver-compensation structure underlying the marketplace model.",
+      "evidence": [
+        "how does your pay on an hourly basis compare to what a truck driver could get like as an employee?"
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 12,
+          "speaker": "Elizabeth",
+          "quote": "how does your pay on an hourly basis compare to what a truck driver could get like as an employee?"
+        }
+      ],
+      "activation": "queried",
+      "source_rationale_id": "R2"
+    },
+    {
+      "rationale_label": "market_timing",
+      "direction": "neutral",
+      "salience": "secondary",
+      "confidence": 0.89,
+      "utterance_type": "question",
+      "decision_link": "none",
+      "timing": "original_pitch",
+      "turn_index": 24,
+      "quote": "In the next few years, like with autonomous trucks and all, how do you think about that world?",
+      "explanation": "She asks how the expected emergence of autonomous trucking could affect the company's future.",
+      "evidence": [
+        "In the next few years, like with autonomous trucks and all, how do you think about that world?"
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 24,
+          "speaker": "Elizabeth",
+          "quote": "In the next few years, like with autonomous trucks and all, how do you think about that world?"
+        }
+      ],
+      "activation": "queried",
+      "source_rationale_id": "R3"
+    },
+    {
+      "rationale_label": "deal_terms_complexity_concern",
+      "direction": "neutral",
+      "salience": "secondary",
+      "confidence": 0.86,
+      "utterance_type": "question",
+      "decision_link": "none",
+      "timing": "original_pitch",
+      "turn_index": 42,
+      "quote": "Do you have terms on this round? Any, any details that you can provide.",
+      "explanation": "She queries whether the round has established terms and what those terms are.",
+      "evidence": [
+        "Do you have terms on this round? Any, any details that you can provide."
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 42,
+          "speaker": "Elizabeth",
+          "quote": "Do you have terms on this round? Any, any details that you can provide."
+        }
+      ],
+      "activation": "queried",
+      "source_rationale_id": "R4"
+    },
+    {
+      "rationale_label": "fund_economics_constraint",
+      "direction": "negative",
+      "salience": "primary",
+      "confidence": 0.97,
+      "utterance_type": "decision_explanation",
+      "decision_link": "supports_in",
+      "timing": "original_pitch",
+      "turn_index": 52,
+      "quote": "We're a small fund, though, so we would be writing like a 25k check.",
+      "explanation": "She explicitly ties Hustle Fund's limited check size for the prospective investment to the fund's small size.",
+      "evidence": [
+        "We're a small fund, though, so we would be writing like a 25k check."
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 52,
+          "speaker": "Elizabeth",
+          "quote": "We're a small fund, though, so we would be writing like a 25k check."
+        }
+      ],
+      "activation": "evaluated",
+      "source_rationale_id": "R5"
+    },
+    {
+      "rationale_label": "stage_valuation_mismatch",
+      "direction": "negative",
+      "salience": "secondary",
+      "confidence": 0.82,
+      "utterance_type": "assessment",
+      "decision_link": "supports_in",
+      "timing": "original_pitch",
+      "turn_index": 52,
+      "quote": "we also tend to prefer earlier valuations",
+      "explanation": "She signals that investing would be more attractive at an earlier-stage valuation while discussing a possible offer.",
+      "evidence": [
+        "we also tend to prefer earlier valuations"
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 52,
+          "speaker": "Elizabeth",
+          "quote": "we also tend to prefer earlier valuations"
+        }
+      ],
+      "activation": "evaluated",
+      "source_rationale_id": "R6"
+    },
+    {
+      "rationale_label": "deal_terms_complexity_concern",
+      "direction": "neutral",
+      "salience": "secondary",
+      "confidence": 0.9,
+      "utterance_type": "question",
+      "decision_link": "none",
+      "timing": "original_pitch",
+      "turn_index": 54,
+      "quote": "was that on a note or a safe or what was the format?",
+      "explanation": "She asks which financing instrument governed the prior valuation.",
+      "evidence": [
+        "was that on a note or a safe or what was the format?"
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 54,
+          "speaker": "Elizabeth",
+          "quote": "was that on a note or a safe or what was the format?"
+        }
+      ],
+      "activation": "queried",
+      "source_rationale_id": "R7"
+    }
+  ],
+  "expanded_quote_evidence": [],
+  "rejected_after_evidence_check": []
+}

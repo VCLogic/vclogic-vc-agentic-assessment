@@ -1,0 +1,755 @@
+{
+  "schema": "phase1-rationale-reference-v1",
+  "extraction_version": "pitchshow-rationales-v1",
+  "fingerprint": "af17aff32a7f4b1f2f0ebdee90826d3afb71f6e382048d385089d130531ec712",
+  "episode_slug": "159-aura-finance-chasing-the-ghost-of-mint",
+  "vc_slug": "elizabeth-yin-hustle-fund",
+  "vc_name": "Elizabeth Yin",
+  "actual_decision": "Out",
+  "later_decision": "Unknown",
+  "reference_kind": "automated_transcript_observed_candidate",
+  "human_validated": false,
+  "source_format": "transcript-observed-rationales-v1",
+  "source_path": "../source/episodes/159-aura-finance-chasing-the-ghost-of-mint.json",
+  "source_sha256": "78626aa089a7fcd637f77b8c6d475e92ffec9c5e439157aa56ab1a52f4ccaf85",
+  "transcript_sha256": "deb7d2119846a0d2270249de4d291cc0387b5fdb29bda3876d4df268277f9447",
+  "taxonomy_sha256": "eaa8734819a3ac34dd19ee5f0bf6de925a793a1d25a2d361090dafc9b751e1fc",
+  "model": "openai/gpt-5.6-luna",
+  "source_tier": "newly_extracted_and_independently_model_reviewed",
+  "reviewed_target_turns": [
+    20,
+    30,
+    32,
+    33,
+    39,
+    48,
+    50,
+    52,
+    54,
+    60,
+    73,
+    75,
+    78,
+    80,
+    89,
+    137,
+    139,
+    141,
+    143,
+    156,
+    170
+  ],
+  "notes": "Generic praise and bare confirmations at turns 50, 54, 78, 89, and 139 were reviewed but omitted. Investor-room discussion after the pitch remains original_pitch, including turns 137, 141, 143, 156, and 170.",
+  "receipt_path": "receipts/159-aura-finance-chasing-the-ghost-of-mint.json",
+  "scoring_scope": "original_pitch_only",
+  "shared_across_input_modes": true,
+  "rationales": [
+    {
+      "rationale_label": "business_model_assessment",
+      "direction": "neutral",
+      "salience": "secondary",
+      "confidence": 0.86,
+      "utterance_type": "question",
+      "decision_link": "none",
+      "timing": "original_pitch",
+      "turn_index": 48,
+      "quote": "And so that's across the three years? The 800?",
+      "explanation": "Elizabeth clarifies the time period underlying the reported contracted revenue, testing the basis of the revenue figure.",
+      "evidence": [
+        "And so that's across the three years? The 800?"
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 48,
+          "speaker": "Elizabeth",
+          "quote": "And so that's across the three years? The 800?"
+        }
+      ],
+      "activation": "queried",
+      "source_rationale_id": "R6",
+      "utterance_kind": "question",
+      "decision_support": "none",
+      "all_mention_ids": [
+        "R6"
+      ]
+    },
+    {
+      "rationale_label": "capital_intensity_concern",
+      "direction": "neutral",
+      "salience": "secondary",
+      "confidence": 0.9,
+      "utterance_type": "question",
+      "decision_link": "none",
+      "timing": "original_pitch",
+      "turn_index": 52,
+      "quote": "And what is your burn rate?",
+      "explanation": "She asks about cash consumption to assess the company’s capital requirements and operating efficiency.",
+      "evidence": [
+        "And what is your burn rate?"
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 52,
+          "speaker": "Elizabeth",
+          "quote": "And what is your burn rate?"
+        }
+      ],
+      "activation": "queried",
+      "source_rationale_id": "R7",
+      "utterance_kind": "question",
+      "decision_support": "none",
+      "all_mention_ids": [
+        "R7"
+      ]
+    },
+    {
+      "rationale_label": "deal_terms_complexity_concern",
+      "direction": "neutral",
+      "salience": "secondary",
+      "confidence": 0.92,
+      "utterance_type": "question",
+      "decision_link": "none",
+      "timing": "original_pitch",
+      "turn_index": 60,
+      "quote": "What is the SAFE cap?",
+      "explanation": "Elizabeth requests a key term of the proposed SAFE financing, examining the deal structure.",
+      "evidence": [
+        "What is the SAFE cap?"
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 60,
+          "speaker": "Elizabeth",
+          "quote": "What is the SAFE cap?"
+        }
+      ],
+      "activation": "queried",
+      "source_rationale_id": "R8",
+      "utterance_kind": "question",
+      "decision_support": "none",
+      "all_mention_ids": [
+        "R8"
+      ]
+    },
+    {
+      "rationale_label": "founder_execution",
+      "direction": "positive",
+      "salience": "secondary",
+      "confidence": 0.94,
+      "utterance_type": "assessment",
+      "decision_link": "none",
+      "timing": "original_pitch",
+      "turn_index": 80,
+      "quote": "I've been very impressed by how you've navigated each challenge in figuring out through an experimental mindset",
+      "explanation": "Elizabeth positively assesses the founder’s resourcefulness and execution across changes in market and go-to-market strategy.",
+      "evidence": [
+        "I've been very impressed by how you've navigated each challenge in figuring out through an experimental mindset"
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 80,
+          "speaker": "Elizabeth",
+          "quote": "I've been very impressed by how you've navigated each challenge in figuring out through an experimental mindset"
+        }
+      ],
+      "activation": "evaluated",
+      "source_rationale_id": "R11",
+      "utterance_kind": "assessment",
+      "decision_support": "none",
+      "all_mention_ids": [
+        "R11"
+      ]
+    },
+    {
+      "rationale_label": "founder_market_fit",
+      "direction": "neutral",
+      "salience": "secondary",
+      "confidence": 0.82,
+      "utterance_type": "question",
+      "decision_link": "none",
+      "timing": "original_pitch",
+      "turn_index": 75,
+      "quote": "Oh, so basically you went from graduation to Goldman and then more or less into this?",
+      "explanation": "Elizabeth clarifies the founder’s career path and continuity into building Aura.",
+      "evidence": [
+        "What did you do after Goldman?",
+        "Oh, so basically you went from graduation to Goldman and then more or less into this?"
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 73,
+          "speaker": "Elizabeth",
+          "quote": "What did you do after Goldman?"
+        },
+        {
+          "turn_index": 75,
+          "speaker": "Elizabeth",
+          "quote": "Oh, so basically you went from graduation to Goldman and then more or less into this?"
+        }
+      ],
+      "activation": "queried",
+      "source_rationale_id": "R10",
+      "utterance_kind": "question",
+      "decision_support": "none",
+      "all_mention_ids": [
+        "R9",
+        "R10"
+      ]
+    },
+    {
+      "rationale_label": "founder_qualities",
+      "direction": "positive",
+      "salience": "secondary",
+      "confidence": 0.85,
+      "utterance_type": "assessment",
+      "decision_link": "none",
+      "timing": "original_pitch",
+      "turn_index": 156,
+      "quote": "And she has a story to back that up.",
+      "explanation": "In context, Elizabeth says the founder’s personal story supports the perception that she is unusually persistent.",
+      "evidence": [
+        "And she has a story to back that up."
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 156,
+          "speaker": "Elizabeth",
+          "quote": "And she has a story to back that up."
+        }
+      ],
+      "activation": "evaluated",
+      "source_rationale_id": "R16",
+      "utterance_kind": "supporting_argument",
+      "decision_support": "none",
+      "all_mention_ids": [
+        "R16"
+      ]
+    },
+    {
+      "rationale_label": "product_success_factor_assessment",
+      "direction": "positive",
+      "salience": "secondary",
+      "confidence": 0.88,
+      "utterance_type": "assessment",
+      "decision_link": "none",
+      "timing": "original_pitch",
+      "turn_index": 141,
+      "quote": "sending you rec - like a concrete recommendation of like do this instead",
+      "explanation": "She highlights concrete, actionable financial recommendations as an important product capability.",
+      "evidence": [
+        "the piece that I found really interesting was how you tie this to how HR is able to change their compensation practices",
+        "I think this is where Mint, like, should have gone",
+        "sending you rec - like a concrete recommendation of like do this instead"
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 20,
+          "speaker": "Elizabeth",
+          "quote": "the piece that I found really interesting was how you tie this to how HR is able to change their compensation practices"
+        },
+        {
+          "turn_index": 137,
+          "speaker": "Elizabeth",
+          "quote": "I think this is where Mint, like, should have gone"
+        },
+        {
+          "turn_index": 141,
+          "speaker": "Elizabeth",
+          "quote": "sending you rec - like a concrete recommendation of like do this instead"
+        }
+      ],
+      "activation": "evaluated",
+      "source_rationale_id": "R14",
+      "utterance_kind": "supporting_argument",
+      "decision_support": "none",
+      "all_mention_ids": [
+        "R1",
+        "R13",
+        "R14"
+      ]
+    },
+    {
+      "rationale_label": "solution_feasibility_assessment",
+      "direction": "positive",
+      "salience": "secondary",
+      "confidence": 0.89,
+      "utterance_type": "assessment",
+      "decision_link": "none",
+      "timing": "original_pitch",
+      "turn_index": 143,
+      "quote": "I think we're in the, this day and age where they can do that technically",
+      "explanation": "Elizabeth believes the spending analysis and recommendation functionality is technically achievable, with product build-out remaining.",
+      "evidence": [
+        "I think we're in the, this day and age where they can do that technically"
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 143,
+          "speaker": "Elizabeth",
+          "quote": "I think we're in the, this day and age where they can do that technically"
+        }
+      ],
+      "activation": "evaluated",
+      "source_rationale_id": "R15",
+      "utterance_kind": "assessment",
+      "decision_support": "none",
+      "all_mention_ids": [
+        "R2",
+        "R3",
+        "R4",
+        "R5",
+        "R15"
+      ]
+    },
+    {
+      "rationale_label": "stage_valuation_mismatch",
+      "direction": "negative",
+      "salience": "primary",
+      "confidence": 0.94,
+      "utterance_type": "decision_reason",
+      "decision_link": "explicit",
+      "timing": "original_pitch",
+      "turn_index": 170,
+      "quote": "Oh, yeah.",
+      "explanation": "Her affirmative answer to whether she would invest at a lower price confirms that valuation, rather than the company or founder, was the investment blocker.",
+      "evidence": [
+        "for us, like the valuation is going to be too high",
+        "Oh, yeah."
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 80,
+          "speaker": "Elizabeth",
+          "quote": "for us, like the valuation is going to be too high"
+        },
+        {
+          "turn_index": 170,
+          "speaker": "Elizabeth",
+          "quote": "Oh, yeah."
+        }
+      ],
+      "activation": "evaluated",
+      "source_rationale_id": "R17",
+      "utterance_kind": "decision_explanation",
+      "decision_support": "supports_out",
+      "all_mention_ids": [
+        "R12",
+        "R17"
+      ]
+    }
+  ],
+  "later_rationales": [],
+  "excluded_rationales": [],
+  "rationale_mentions": [
+    {
+      "rationale_label": "product_success_factor_assessment",
+      "direction": "positive",
+      "salience": "secondary",
+      "confidence": 0.9,
+      "utterance_type": "question",
+      "decision_link": "none",
+      "timing": "original_pitch",
+      "turn_index": 20,
+      "quote": "the piece that I found really interesting was how you tie this to how HR is able to change their compensation practices",
+      "explanation": "Elizabeth positively identifies Aura’s employer-facing compensation data as an important product value and asks for concrete evidence of it.",
+      "evidence": [
+        "the piece that I found really interesting was how you tie this to how HR is able to change their compensation practices"
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 20,
+          "speaker": "Elizabeth",
+          "quote": "the piece that I found really interesting was how you tie this to how HR is able to change their compensation practices"
+        }
+      ],
+      "activation": "queried",
+      "source_rationale_id": "R1"
+    },
+    {
+      "rationale_label": "solution_feasibility_assessment",
+      "direction": "neutral",
+      "salience": "secondary",
+      "confidence": 0.88,
+      "utterance_type": "question",
+      "decision_link": "none",
+      "timing": "original_pitch",
+      "turn_index": 30,
+      "quote": "What is the user experience when a person leaves his or her employer?",
+      "explanation": "She probes whether the product and customer assets remain usable and portable when an employee changes jobs.",
+      "evidence": [
+        "What is the user experience when a person leaves his or her employer?"
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 30,
+          "speaker": "Elizabeth",
+          "quote": "What is the user experience when a person leaves his or her employer?"
+        }
+      ],
+      "activation": "queried",
+      "source_rationale_id": "R2"
+    },
+    {
+      "rationale_label": "solution_feasibility_assessment",
+      "direction": "neutral",
+      "salience": "secondary",
+      "confidence": 0.89,
+      "utterance_type": "question",
+      "decision_link": "none",
+      "timing": "original_pitch",
+      "turn_index": 32,
+      "quote": "But let's say that I choose not to pay, like, do I have to offboard? I guess, what happens to my money?",
+      "explanation": "Elizabeth asks how Aura operationally handles customer funds if an employee does not continue paying after leaving the employer.",
+      "evidence": [
+        "But let's say that I choose not to pay, like, do I have to offboard? I guess, what happens to my money?"
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 32,
+          "speaker": "Elizabeth",
+          "quote": "But let's say that I choose not to pay, like, do I have to offboard? I guess, what happens to my money?"
+        }
+      ],
+      "activation": "queried",
+      "source_rationale_id": "R3"
+    },
+    {
+      "rationale_label": "solution_feasibility_assessment",
+      "direction": "neutral",
+      "salience": "secondary",
+      "confidence": 0.89,
+      "utterance_type": "question",
+      "decision_link": "none",
+      "timing": "original_pitch",
+      "turn_index": 33,
+      "quote": "But let's say that I choose not to pay, like, do I have to offboard? I guess, what happens to my money?",
+      "explanation": "This repeated substantive question again probes the operational portability of customer funds after employer coverage ends.",
+      "evidence": [
+        "But let's say that I choose not to pay, like, do I have to offboard? I guess, what happens to my money?"
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 33,
+          "speaker": "Elizabeth",
+          "quote": "But let's say that I choose not to pay, like, do I have to offboard? I guess, what happens to my money?"
+        }
+      ],
+      "activation": "queried",
+      "source_rationale_id": "R4"
+    },
+    {
+      "rationale_label": "solution_feasibility_assessment",
+      "direction": "neutral",
+      "salience": "secondary",
+      "confidence": 0.87,
+      "utterance_type": "question",
+      "decision_link": "none",
+      "timing": "original_pitch",
+      "turn_index": 39,
+      "quote": "how much granular detail do you get to see around spending",
+      "explanation": "She asks about the depth of spending data Aura can access, probing a core product capability.",
+      "evidence": [
+        "how much granular detail do you get to see around spending"
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 39,
+          "speaker": "Elizabeth",
+          "quote": "how much granular detail do you get to see around spending"
+        }
+      ],
+      "activation": "queried",
+      "source_rationale_id": "R5"
+    },
+    {
+      "rationale_label": "business_model_assessment",
+      "direction": "neutral",
+      "salience": "secondary",
+      "confidence": 0.86,
+      "utterance_type": "question",
+      "decision_link": "none",
+      "timing": "original_pitch",
+      "turn_index": 48,
+      "quote": "And so that's across the three years? The 800?",
+      "explanation": "Elizabeth clarifies the time period underlying the reported contracted revenue, testing the basis of the revenue figure.",
+      "evidence": [
+        "And so that's across the three years? The 800?"
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 48,
+          "speaker": "Elizabeth",
+          "quote": "And so that's across the three years? The 800?"
+        }
+      ],
+      "activation": "queried",
+      "source_rationale_id": "R6"
+    },
+    {
+      "rationale_label": "capital_intensity_concern",
+      "direction": "neutral",
+      "salience": "secondary",
+      "confidence": 0.9,
+      "utterance_type": "question",
+      "decision_link": "none",
+      "timing": "original_pitch",
+      "turn_index": 52,
+      "quote": "And what is your burn rate?",
+      "explanation": "She asks about cash consumption to assess the company’s capital requirements and operating efficiency.",
+      "evidence": [
+        "And what is your burn rate?"
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 52,
+          "speaker": "Elizabeth",
+          "quote": "And what is your burn rate?"
+        }
+      ],
+      "activation": "queried",
+      "source_rationale_id": "R7"
+    },
+    {
+      "rationale_label": "deal_terms_complexity_concern",
+      "direction": "neutral",
+      "salience": "secondary",
+      "confidence": 0.92,
+      "utterance_type": "question",
+      "decision_link": "none",
+      "timing": "original_pitch",
+      "turn_index": 60,
+      "quote": "What is the SAFE cap?",
+      "explanation": "Elizabeth requests a key term of the proposed SAFE financing, examining the deal structure.",
+      "evidence": [
+        "What is the SAFE cap?"
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 60,
+          "speaker": "Elizabeth",
+          "quote": "What is the SAFE cap?"
+        }
+      ],
+      "activation": "queried",
+      "source_rationale_id": "R8"
+    },
+    {
+      "rationale_label": "founder_market_fit",
+      "direction": "neutral",
+      "salience": "secondary",
+      "confidence": 0.86,
+      "utterance_type": "question",
+      "decision_link": "none",
+      "timing": "original_pitch",
+      "turn_index": 73,
+      "quote": "What did you do after Goldman?",
+      "explanation": "She asks about the founder’s professional background as part of assessing relevant experience for the market.",
+      "evidence": [
+        "What did you do after Goldman?"
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 73,
+          "speaker": "Elizabeth",
+          "quote": "What did you do after Goldman?"
+        }
+      ],
+      "activation": "queried",
+      "source_rationale_id": "R9"
+    },
+    {
+      "rationale_label": "founder_market_fit",
+      "direction": "neutral",
+      "salience": "secondary",
+      "confidence": 0.82,
+      "utterance_type": "question",
+      "decision_link": "none",
+      "timing": "original_pitch",
+      "turn_index": 75,
+      "quote": "Oh, so basically you went from graduation to Goldman and then more or less into this?",
+      "explanation": "Elizabeth clarifies the founder’s career path and continuity into building Aura.",
+      "evidence": [
+        "Oh, so basically you went from graduation to Goldman and then more or less into this?"
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 75,
+          "speaker": "Elizabeth",
+          "quote": "Oh, so basically you went from graduation to Goldman and then more or less into this?"
+        }
+      ],
+      "activation": "queried",
+      "source_rationale_id": "R10"
+    },
+    {
+      "rationale_label": "founder_execution",
+      "direction": "positive",
+      "salience": "secondary",
+      "confidence": 0.94,
+      "utterance_type": "assessment",
+      "decision_link": "none",
+      "timing": "original_pitch",
+      "turn_index": 80,
+      "quote": "I've been very impressed by how you've navigated each challenge in figuring out through an experimental mindset",
+      "explanation": "Elizabeth positively assesses the founder’s resourcefulness and execution across changes in market and go-to-market strategy.",
+      "evidence": [
+        "I've been very impressed by how you've navigated each challenge in figuring out through an experimental mindset"
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 80,
+          "speaker": "Elizabeth",
+          "quote": "I've been very impressed by how you've navigated each challenge in figuring out through an experimental mindset"
+        }
+      ],
+      "activation": "evaluated",
+      "source_rationale_id": "R11"
+    },
+    {
+      "rationale_label": "stage_valuation_mismatch",
+      "direction": "negative",
+      "salience": "primary",
+      "confidence": 0.98,
+      "utterance_type": "decision_explanation",
+      "decision_link": "supports_out",
+      "timing": "original_pitch",
+      "turn_index": 80,
+      "quote": "for us, like the valuation is going to be too high",
+      "explanation": "Elizabeth explicitly says Hustle Fund’s pre-seed focus makes the requested valuation too high for its investment fit.",
+      "evidence": [
+        "for us, like the valuation is going to be too high"
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 80,
+          "speaker": "Elizabeth",
+          "quote": "for us, like the valuation is going to be too high"
+        }
+      ],
+      "activation": "evaluated",
+      "source_rationale_id": "R12"
+    },
+    {
+      "rationale_label": "product_success_factor_assessment",
+      "direction": "positive",
+      "salience": "secondary",
+      "confidence": 0.88,
+      "utterance_type": "supporting_argument",
+      "decision_link": "none",
+      "timing": "original_pitch",
+      "turn_index": 137,
+      "quote": "I think this is where Mint, like, should have gone",
+      "explanation": "Elizabeth views Aura’s spending-data and recommendation direction as a compelling product path that Mint failed to pursue.",
+      "evidence": [
+        "I think this is where Mint, like, should have gone"
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 137,
+          "speaker": "Elizabeth",
+          "quote": "I think this is where Mint, like, should have gone"
+        }
+      ],
+      "activation": "evaluated",
+      "source_rationale_id": "R13"
+    },
+    {
+      "rationale_label": "product_success_factor_assessment",
+      "direction": "positive",
+      "salience": "secondary",
+      "confidence": 0.88,
+      "utterance_type": "supporting_argument",
+      "decision_link": "none",
+      "timing": "original_pitch",
+      "turn_index": 141,
+      "quote": "sending you rec - like a concrete recommendation of like do this instead",
+      "explanation": "She highlights concrete, actionable financial recommendations as an important product capability.",
+      "evidence": [
+        "sending you rec - like a concrete recommendation of like do this instead"
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 141,
+          "speaker": "Elizabeth",
+          "quote": "sending you rec - like a concrete recommendation of like do this instead"
+        }
+      ],
+      "activation": "evaluated",
+      "source_rationale_id": "R14"
+    },
+    {
+      "rationale_label": "solution_feasibility_assessment",
+      "direction": "positive",
+      "salience": "secondary",
+      "confidence": 0.89,
+      "utterance_type": "assessment",
+      "decision_link": "none",
+      "timing": "original_pitch",
+      "turn_index": 143,
+      "quote": "I think we're in the, this day and age where they can do that technically",
+      "explanation": "Elizabeth believes the spending analysis and recommendation functionality is technically achievable, with product build-out remaining.",
+      "evidence": [
+        "I think we're in the, this day and age where they can do that technically"
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 143,
+          "speaker": "Elizabeth",
+          "quote": "I think we're in the, this day and age where they can do that technically"
+        }
+      ],
+      "activation": "evaluated",
+      "source_rationale_id": "R15"
+    },
+    {
+      "rationale_label": "founder_qualities",
+      "direction": "positive",
+      "salience": "secondary",
+      "confidence": 0.85,
+      "utterance_type": "supporting_argument",
+      "decision_link": "none",
+      "timing": "original_pitch",
+      "turn_index": 156,
+      "quote": "And she has a story to back that up.",
+      "explanation": "In context, Elizabeth says the founder’s personal story supports the perception that she is unusually persistent.",
+      "evidence": [
+        "And she has a story to back that up."
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 156,
+          "speaker": "Elizabeth",
+          "quote": "And she has a story to back that up."
+        }
+      ],
+      "activation": "evaluated",
+      "source_rationale_id": "R16"
+    },
+    {
+      "rationale_label": "stage_valuation_mismatch",
+      "direction": "negative",
+      "salience": "primary",
+      "confidence": 0.94,
+      "utterance_type": "decision_explanation",
+      "decision_link": "supports_out",
+      "timing": "original_pitch",
+      "turn_index": 170,
+      "quote": "Oh, yeah.",
+      "explanation": "Her affirmative answer to whether she would invest at a lower price confirms that valuation, rather than the company or founder, was the investment blocker.",
+      "evidence": [
+        "Oh, yeah."
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 170,
+          "speaker": "Elizabeth",
+          "quote": "Oh, yeah."
+        }
+      ],
+      "activation": "evaluated",
+      "source_rationale_id": "R17"
+    }
+  ],
+  "expanded_quote_evidence": [],
+  "rejected_after_evidence_check": []
+}

@@ -1,0 +1,744 @@
+{
+  "schema": "phase1-rationale-reference-v1",
+  "extraction_version": "pitchshow-rationales-v1",
+  "fingerprint": "f52c5d321b88659c1673d84428b548216134ae7aa36b941e09f7dec085716abe",
+  "episode_slug": "7-shimmur",
+  "vc_slug": "phil-nadel-forefront-venture-partners",
+  "vc_name": "Phil Nadel",
+  "actual_decision": "Out",
+  "later_decision": "Unknown",
+  "reference_kind": "automated_transcript_observed_candidate",
+  "human_validated": false,
+  "source_format": "transcript-observed-rationales-v1",
+  "source_path": "/home/dpasch01/vclogic-vc-agentic-assessment/evaluation/pitchshow/investors/phil-nadel-forefront-venture-partners/source/episodes/7-shimmur.json",
+  "source_sha256": "52c34e9ab27347754617da0774f7f5640aec2f3f53f772c4b510d538a0b181e5",
+  "transcript_sha256": "d55663dd9828a2c75e54068dcf0558115c59f9880081a8afb21b58bae2825891",
+  "taxonomy_sha256": "eaa8734819a3ac34dd19ee5f0bf6de925a793a1d25a2d361090dafc9b751e1fc",
+  "model": "codex:gpt-5.6-luna+gpt-5.6-sol",
+  "generation_stages": [
+    {
+      "phase": "rationale_extract",
+      "backend": "codex",
+      "model": "gpt-5.6-luna"
+    },
+    {
+      "phase": "rationale_verify",
+      "backend": "codex",
+      "model": "gpt-5.6-sol"
+    }
+  ],
+  "source_tier": "newly_extracted_and_independently_model_reviewed",
+  "reviewed_target_turns": [
+    3,
+    7,
+    43,
+    53,
+    55,
+    57,
+    59,
+    84,
+    89,
+    97,
+    117,
+    119,
+    134,
+    136,
+    137,
+    140,
+    141,
+    146,
+    166,
+    168
+  ],
+  "notes": "Turns 84, 97, 117, 119, 136, 166, and 168 contain broad prompts, jokes, or general remarks without a qualifying company-specific investment rationale.",
+  "receipt_path": "/home/dpasch01/vclogic-vc-agentic-assessment/evaluation/pitchshow/investors/phil-nadel-forefront-venture-partners/rationale-references/receipts/7-shimmur.json",
+  "scoring_scope": "original_pitch_only",
+  "shared_across_input_modes": true,
+  "rationales": [
+    {
+      "rationale_label": "business_model_assessment",
+      "direction": "neutral",
+      "salience": "secondary",
+      "confidence": 0.99,
+      "utterance_type": "question",
+      "decision_link": "none",
+      "timing": "original_pitch",
+      "turn_index": 59,
+      "quote": "And you'll get a piece?",
+      "explanation": "Phil asks how Shimmur captures revenue from influencer monetization.",
+      "evidence": [
+        "How are you monetizing it?",
+        "So you'd have to pay or incentivize the influencer in that case to interact with that paid content?",
+        "So you'll give influencers tools to monetize?",
+        "And you'll get a piece?"
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 53,
+          "speaker": "Phil",
+          "quote": "How are you monetizing it?"
+        },
+        {
+          "turn_index": 55,
+          "speaker": "Phil",
+          "quote": "So you'd have to pay or incentivize the influencer in that case to interact with that paid content?"
+        },
+        {
+          "turn_index": 57,
+          "speaker": "Phil",
+          "quote": "So you'll give influencers tools to monetize?"
+        },
+        {
+          "turn_index": 59,
+          "speaker": "Phil",
+          "quote": "And you'll get a piece?"
+        }
+      ],
+      "activation": "queried",
+      "source_rationale_id": "R8",
+      "utterance_kind": "question",
+      "decision_support": "none",
+      "all_mention_ids": [
+        "R5",
+        "R6",
+        "R7",
+        "R8"
+      ]
+    },
+    {
+      "rationale_label": "investment_thesis_constraint",
+      "direction": "negative",
+      "salience": "primary",
+      "confidence": 0.99,
+      "utterance_type": "decision_reason",
+      "decision_link": "explicit",
+      "timing": "original_pitch",
+      "turn_index": 89,
+      "quote": "it's pre-revenue. I've got to pass.",
+      "explanation": "Phil explicitly links his refusal to the company being pre-revenue, consistent with his stated investment policy.",
+      "evidence": [
+        "it's pre-revenue. I've got to pass."
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 89,
+          "speaker": "Phil",
+          "quote": "it's pre-revenue. I've got to pass."
+        }
+      ],
+      "activation": "evaluated",
+      "source_rationale_id": "R9",
+      "utterance_kind": "decision_explanation",
+      "decision_support": "supports_out",
+      "all_mention_ids": [
+        "R9"
+      ]
+    },
+    {
+      "rationale_label": "market_problem_validation",
+      "direction": "neutral",
+      "salience": "secondary",
+      "confidence": 0.98,
+      "utterance_type": "question",
+      "decision_link": "none",
+      "timing": "original_pitch",
+      "turn_index": 43,
+      "quote": "But does that mean a lot to the fans? Just that they liked it?",
+      "explanation": "Phil questions whether acknowledgment from an influencer provides meaningful value to fans.",
+      "evidence": [
+        "But does that mean a lot to the fans? Just that they liked it?"
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 43,
+          "speaker": "Phil",
+          "quote": "But does that mean a lot to the fans? Just that they liked it?"
+        }
+      ],
+      "activation": "queried",
+      "source_rationale_id": "R3",
+      "utterance_kind": "question",
+      "decision_support": "none",
+      "all_mention_ids": [
+        "R3"
+      ]
+    },
+    {
+      "rationale_label": "product_appeal_assessment",
+      "direction": "positive",
+      "salience": "secondary",
+      "confidence": 0.98,
+      "utterance_type": "assessment",
+      "decision_link": "none",
+      "timing": "original_pitch",
+      "turn_index": 89,
+      "quote": "I think it's a cool concept. I really like it.",
+      "explanation": "Phil finds the concept appealing despite declining to invest.",
+      "evidence": [
+        "Sounds very cool.",
+        "I think it's a cool concept. I really like it."
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 53,
+          "speaker": "Phil",
+          "quote": "Sounds very cool."
+        },
+        {
+          "turn_index": 89,
+          "speaker": "Phil",
+          "quote": "I think it's a cool concept. I really like it."
+        }
+      ],
+      "activation": "evaluated",
+      "source_rationale_id": "R10",
+      "utterance_kind": "supporting_argument",
+      "decision_support": "none",
+      "all_mention_ids": [
+        "R4",
+        "R10"
+      ]
+    },
+    {
+      "rationale_label": "traction_repeatability_concern",
+      "direction": "negative",
+      "salience": "secondary",
+      "confidence": 0.95,
+      "utterance_type": "assessment",
+      "decision_link": "none",
+      "timing": "original_pitch",
+      "turn_index": 89,
+      "quote": "I don't know if you can succeed long term.",
+      "explanation": "Phil questions whether the product's current promise can translate into durable long-term success.",
+      "evidence": [
+        "I don't know if you can succeed long term."
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 89,
+          "speaker": "Phil",
+          "quote": "I don't know if you can succeed long term."
+        }
+      ],
+      "activation": "evaluated",
+      "source_rationale_id": "R11",
+      "utterance_kind": "concern",
+      "decision_support": "none",
+      "all_mention_ids": [
+        "R11"
+      ]
+    }
+  ],
+  "later_rationales": [
+    {
+      "rationale_label": "founder_qualities",
+      "direction": "negative",
+      "salience": "secondary",
+      "confidence": 0.99,
+      "utterance_type": "assessment",
+      "decision_link": "unclear",
+      "timing": "later_commentary",
+      "turn_index": 134,
+      "quote": "that’s not very professional and/or he’s not taking this very seriously.",
+      "explanation": "Phil initially interprets Matthew's barefoot appearance as a sign of unprofessionalism or insufficient seriousness.",
+      "evidence": [
+        "that’s not very professional and/or he’s not taking this very seriously."
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 134,
+          "speaker": "Phil",
+          "quote": "that’s not very professional and/or he’s not taking this very seriously."
+        }
+      ],
+      "activation": "evaluated",
+      "source_rationale_id": "R12"
+    },
+    {
+      "rationale_label": "product_differentiation_concern",
+      "direction": "negative",
+      "salience": "secondary",
+      "confidence": 0.99,
+      "utterance_type": "assessment",
+      "decision_link": "unclear",
+      "timing": "later_commentary",
+      "turn_index": 137,
+      "quote": "this does not sound like anything new",
+      "explanation": "Phil perceives the platform as insufficiently novel relative to other products and failures in the category.",
+      "evidence": [
+        "this does not sound like anything new"
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 137,
+          "speaker": "Phil",
+          "quote": "this does not sound like anything new"
+        }
+      ],
+      "activation": "evaluated",
+      "source_rationale_id": "R13"
+    },
+    {
+      "rationale_label": "founder_communication_quality",
+      "direction": "positive",
+      "salience": "secondary",
+      "confidence": 0.99,
+      "utterance_type": "assessment",
+      "decision_link": "none",
+      "timing": "later_commentary",
+      "turn_index": 140,
+      "quote": "he knows his numbers",
+      "explanation": "Phil positively assesses Matthew's command of the company's metrics.",
+      "evidence": [
+        "he knows his numbers"
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 140,
+          "speaker": "Phil",
+          "quote": "he knows his numbers"
+        }
+      ],
+      "activation": "evaluated",
+      "source_rationale_id": "R14"
+    },
+    {
+      "rationale_label": "founder_skillset",
+      "direction": "positive",
+      "salience": "secondary",
+      "confidence": 0.99,
+      "utterance_type": "assessment",
+      "decision_link": "none",
+      "timing": "later_commentary",
+      "turn_index": 141,
+      "quote": "He knows his product very well.",
+      "explanation": "Phil views Matthew as possessing strong product knowledge.",
+      "evidence": [
+        "He knows his product very well."
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 141,
+          "speaker": "Phil",
+          "quote": "He knows his product very well."
+        }
+      ],
+      "activation": "evaluated",
+      "source_rationale_id": "R15"
+    },
+    {
+      "rationale_label": "founder_motivation_authenticity",
+      "direction": "positive",
+      "salience": "secondary",
+      "confidence": 0.99,
+      "utterance_type": "assessment",
+      "decision_link": "none",
+      "timing": "later_commentary",
+      "turn_index": 141,
+      "quote": "He has a real passion for it.",
+      "explanation": "Phil perceives Matthew's commitment to the product as genuine.",
+      "evidence": [
+        "He has a real passion for it."
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 141,
+          "speaker": "Phil",
+          "quote": "He has a real passion for it."
+        }
+      ],
+      "activation": "evaluated",
+      "source_rationale_id": "R16"
+    },
+    {
+      "rationale_label": "founder_qualities",
+      "direction": "positive",
+      "salience": "secondary",
+      "confidence": 0.96,
+      "utterance_type": "assessment",
+      "decision_link": "none",
+      "timing": "later_commentary",
+      "turn_index": 141,
+      "quote": "He has a clear vision.",
+      "explanation": "Phil positively assesses Matthew's clarity of vision for the company.",
+      "evidence": [
+        "He has a clear vision."
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 141,
+          "speaker": "Phil",
+          "quote": "He has a clear vision."
+        }
+      ],
+      "activation": "evaluated",
+      "source_rationale_id": "R17"
+    },
+    {
+      "rationale_label": "founder_market_fit",
+      "direction": "positive",
+      "salience": "secondary",
+      "confidence": 0.94,
+      "utterance_type": "assessment",
+      "decision_link": "none",
+      "timing": "later_commentary",
+      "turn_index": 141,
+      "quote": "Matthew is really, in my view, the embodiment of the product.",
+      "explanation": "Phil sees Matthew's persona as strongly aligned with the product and its intended identity.",
+      "evidence": [
+        "Matthew is really, in my view, the embodiment of the product."
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 141,
+          "speaker": "Phil",
+          "quote": "Matthew is really, in my view, the embodiment of the product."
+        }
+      ],
+      "activation": "evaluated",
+      "source_rationale_id": "R18"
+    },
+    {
+      "rationale_label": "business_model_assessment",
+      "direction": "negative",
+      "salience": "primary",
+      "confidence": 0.99,
+      "utterance_type": "decision_explanation",
+      "decision_link": "supports_out",
+      "timing": "later_commentary",
+      "turn_index": 146,
+      "quote": "that is not really answering my question, in my mind, about monetization.",
+      "explanation": "Phil concludes that the proposed revenue-sharing mechanism fails to establish a credible monetization model.",
+      "evidence": [
+        "that is not really answering my question, in my mind, about monetization."
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 146,
+          "speaker": "Phil",
+          "quote": "that is not really answering my question, in my mind, about monetization."
+        }
+      ],
+      "activation": "evaluated",
+      "source_rationale_id": "R19"
+    },
+    {
+      "rationale_label": "investment_thesis_constraint",
+      "direction": "negative",
+      "salience": "primary",
+      "confidence": 0.99,
+      "utterance_type": "decision_explanation",
+      "decision_link": "supports_out",
+      "timing": "later_commentary",
+      "turn_index": 146,
+      "quote": "Because I don’t invest in pre-revenue companies",
+      "explanation": "Phil explicitly states that his policy against pre-revenue investments prevents him from investing.",
+      "evidence": [
+        "Because I don’t invest in pre-revenue companies"
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 146,
+          "speaker": "Phil",
+          "quote": "Because I don’t invest in pre-revenue companies"
+        }
+      ],
+      "activation": "evaluated",
+      "source_rationale_id": "R20"
+    },
+    {
+      "rationale_label": "traction_repeatability_concern",
+      "direction": "negative",
+      "salience": "secondary",
+      "confidence": 0.97,
+      "utterance_type": "decision_explanation",
+      "decision_link": "supports_out",
+      "timing": "later_commentary",
+      "turn_index": 146,
+      "quote": "I like to see evidence, early evidence, but evidence of product-market fit.",
+      "explanation": "Phil explains that he requires demonstrated product-market-fit evidence before accepting this level of risk.",
+      "evidence": [
+        "I like to see evidence, early evidence, but evidence of product-market fit."
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 146,
+          "speaker": "Phil",
+          "quote": "I like to see evidence, early evidence, but evidence of product-market fit."
+        }
+      ],
+      "activation": "evaluated",
+      "source_rationale_id": "R21"
+    }
+  ],
+  "excluded_rationales": [
+    {
+      "rationale_label": "market_problem_validation",
+      "direction": "neutral",
+      "salience": "secondary",
+      "confidence": 0.98,
+      "utterance_type": "question",
+      "decision_link": "none",
+      "timing": "teaser",
+      "turn_index": 3,
+      "quote": "But does that mean a lot to the fans? Just that they liked it?",
+      "explanation": "Phil probes whether the interaction provides fans with meaningful value.",
+      "evidence": [
+        "But does that mean a lot to the fans? Just that they liked it?"
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 3,
+          "speaker": "Phil Nadel",
+          "quote": "But does that mean a lot to the fans? Just that they liked it?"
+        }
+      ],
+      "activation": "queried",
+      "source_rationale_id": "R1"
+    },
+    {
+      "rationale_label": "business_model_assessment",
+      "direction": "negative",
+      "salience": "primary",
+      "confidence": 0.99,
+      "utterance_type": "assessment",
+      "decision_link": "none",
+      "timing": "teaser",
+      "turn_index": 7,
+      "quote": "I don't like the model. I'm not seeing the path to recurring revenue.",
+      "explanation": "Phil sees no clear recurring-revenue path in the business model.",
+      "evidence": [
+        "I don't like the model. I'm not seeing the path to recurring revenue."
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 7,
+          "speaker": "Phil",
+          "quote": "I don't like the model. I'm not seeing the path to recurring revenue."
+        }
+      ],
+      "activation": "evaluated",
+      "source_rationale_id": "R2"
+    }
+  ],
+  "rationale_mentions": [
+    {
+      "rationale_label": "market_problem_validation",
+      "direction": "neutral",
+      "salience": "secondary",
+      "confidence": 0.98,
+      "utterance_type": "question",
+      "decision_link": "none",
+      "timing": "original_pitch",
+      "turn_index": 43,
+      "quote": "But does that mean a lot to the fans? Just that they liked it?",
+      "explanation": "Phil questions whether acknowledgment from an influencer provides meaningful value to fans.",
+      "evidence": [
+        "But does that mean a lot to the fans? Just that they liked it?"
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 43,
+          "speaker": "Phil",
+          "quote": "But does that mean a lot to the fans? Just that they liked it?"
+        }
+      ],
+      "activation": "queried",
+      "source_rationale_id": "R3"
+    },
+    {
+      "rationale_label": "product_appeal_assessment",
+      "direction": "positive",
+      "salience": "secondary",
+      "confidence": 0.96,
+      "utterance_type": "assessment",
+      "decision_link": "none",
+      "timing": "original_pitch",
+      "turn_index": 53,
+      "quote": "Sounds very cool.",
+      "explanation": "Phil expresses a favorable personal reaction to the product concept.",
+      "evidence": [
+        "Sounds very cool."
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 53,
+          "speaker": "Phil",
+          "quote": "Sounds very cool."
+        }
+      ],
+      "activation": "evaluated",
+      "source_rationale_id": "R4"
+    },
+    {
+      "rationale_label": "business_model_assessment",
+      "direction": "neutral",
+      "salience": "secondary",
+      "confidence": 0.99,
+      "utterance_type": "question",
+      "decision_link": "none",
+      "timing": "original_pitch",
+      "turn_index": 53,
+      "quote": "How are you monetizing it?",
+      "explanation": "Phil asks how the company intends to generate revenue.",
+      "evidence": [
+        "How are you monetizing it?"
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 53,
+          "speaker": "Phil",
+          "quote": "How are you monetizing it?"
+        }
+      ],
+      "activation": "queried",
+      "source_rationale_id": "R5"
+    },
+    {
+      "rationale_label": "business_model_assessment",
+      "direction": "neutral",
+      "salience": "secondary",
+      "confidence": 0.99,
+      "utterance_type": "question",
+      "decision_link": "none",
+      "timing": "original_pitch",
+      "turn_index": 55,
+      "quote": "So you'd have to pay or incentivize the influencer in that case to interact with that paid content?",
+      "explanation": "Phil probes whether monetization requires compensating influencers for their participation.",
+      "evidence": [
+        "So you'd have to pay or incentivize the influencer in that case to interact with that paid content?"
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 55,
+          "speaker": "Phil",
+          "quote": "So you'd have to pay or incentivize the influencer in that case to interact with that paid content?"
+        }
+      ],
+      "activation": "queried",
+      "source_rationale_id": "R6"
+    },
+    {
+      "rationale_label": "business_model_assessment",
+      "direction": "neutral",
+      "salience": "secondary",
+      "confidence": 0.99,
+      "utterance_type": "question",
+      "decision_link": "none",
+      "timing": "original_pitch",
+      "turn_index": 57,
+      "quote": "So you'll give influencers tools to monetize?",
+      "explanation": "Phil clarifies the role of influencer monetization tools in the business model.",
+      "evidence": [
+        "So you'll give influencers tools to monetize?"
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 57,
+          "speaker": "Phil",
+          "quote": "So you'll give influencers tools to monetize?"
+        }
+      ],
+      "activation": "queried",
+      "source_rationale_id": "R7"
+    },
+    {
+      "rationale_label": "business_model_assessment",
+      "direction": "neutral",
+      "salience": "secondary",
+      "confidence": 0.99,
+      "utterance_type": "question",
+      "decision_link": "none",
+      "timing": "original_pitch",
+      "turn_index": 59,
+      "quote": "And you'll get a piece?",
+      "explanation": "Phil asks how Shimmur captures revenue from influencer monetization.",
+      "evidence": [
+        "And you'll get a piece?"
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 59,
+          "speaker": "Phil",
+          "quote": "And you'll get a piece?"
+        }
+      ],
+      "activation": "queried",
+      "source_rationale_id": "R8"
+    },
+    {
+      "rationale_label": "investment_thesis_constraint",
+      "direction": "negative",
+      "salience": "primary",
+      "confidence": 0.99,
+      "utterance_type": "decision_explanation",
+      "decision_link": "supports_out",
+      "timing": "original_pitch",
+      "turn_index": 89,
+      "quote": "it's pre-revenue. I've got to pass.",
+      "explanation": "Phil explicitly links his refusal to the company being pre-revenue, consistent with his stated investment policy.",
+      "evidence": [
+        "it's pre-revenue. I've got to pass."
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 89,
+          "speaker": "Phil",
+          "quote": "it's pre-revenue. I've got to pass."
+        }
+      ],
+      "activation": "evaluated",
+      "source_rationale_id": "R9"
+    },
+    {
+      "rationale_label": "product_appeal_assessment",
+      "direction": "positive",
+      "salience": "secondary",
+      "confidence": 0.98,
+      "utterance_type": "supporting_argument",
+      "decision_link": "none",
+      "timing": "original_pitch",
+      "turn_index": 89,
+      "quote": "I think it's a cool concept. I really like it.",
+      "explanation": "Phil finds the concept appealing despite declining to invest.",
+      "evidence": [
+        "I think it's a cool concept. I really like it."
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 89,
+          "speaker": "Phil",
+          "quote": "I think it's a cool concept. I really like it."
+        }
+      ],
+      "activation": "evaluated",
+      "source_rationale_id": "R10"
+    },
+    {
+      "rationale_label": "traction_repeatability_concern",
+      "direction": "negative",
+      "salience": "secondary",
+      "confidence": 0.95,
+      "utterance_type": "concern",
+      "decision_link": "none",
+      "timing": "original_pitch",
+      "turn_index": 89,
+      "quote": "I don't know if you can succeed long term.",
+      "explanation": "Phil questions whether the product's current promise can translate into durable long-term success.",
+      "evidence": [
+        "I don't know if you can succeed long term."
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 89,
+          "speaker": "Phil",
+          "quote": "I don't know if you can succeed long term."
+        }
+      ],
+      "activation": "evaluated",
+      "source_rationale_id": "R11"
+    }
+  ],
+  "expanded_quote_evidence": [],
+  "rejected_after_evidence_check": []
+}

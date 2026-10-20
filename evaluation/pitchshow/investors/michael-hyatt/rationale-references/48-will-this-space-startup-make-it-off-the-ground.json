@@ -1,0 +1,756 @@
+{
+  "schema": "phase1-rationale-reference-v1",
+  "extraction_version": "pitchshow-rationales-v1",
+  "fingerprint": "2181f579662eceec4079c8ec30aeb83771cbb1619b82b40278ad9a74e4153c51",
+  "episode_slug": "48-will-this-space-startup-make-it-off-the-ground",
+  "vc_slug": "michael-hyatt",
+  "vc_name": "Michael Hyatt",
+  "actual_decision": "Out",
+  "later_decision": "Unknown",
+  "reference_kind": "automated_transcript_observed_candidate",
+  "human_validated": false,
+  "source_format": "transcript-observed-rationales-v1",
+  "source_path": "../source/episodes/48-will-this-space-startup-make-it-off-the-ground.json",
+  "source_sha256": "74f3f963bbc96932d6c0c5988b452fde1adc695ab8131bcb61f21b809391fe0f",
+  "transcript_sha256": "d51bea3c662c6cdfbc5a85d7ff9a3342a9eb18cc0c934b0b4516c126598a753b",
+  "taxonomy_sha256": "eaa8734819a3ac34dd19ee5f0bf6de925a793a1d25a2d361090dafc9b751e1fc",
+  "model": "codex:gpt-5.6-luna+gpt-5.6-sol",
+  "generation_stages": [
+    {
+      "phase": "rationale_extract",
+      "backend": "openrouter",
+      "model": "openai/gpt-5.6-luna"
+    },
+    {
+      "phase": "rationale_verify",
+      "backend": "codex",
+      "model": "gpt-5.6-sol"
+    }
+  ],
+  "source_tier": "newly_extracted_and_independently_model_reviewed",
+  "reviewed_target_turns": [
+    3,
+    8,
+    16,
+    34,
+    51,
+    60,
+    79,
+    81,
+    83,
+    85,
+    87,
+    96,
+    105,
+    122,
+    124,
+    127,
+    131,
+    134,
+    136
+  ],
+  "notes": "All supplied Michael turns were reviewed; names, jokes, incomplete remarks, and non-rationale comments were omitted.",
+  "receipt_path": "receipts/48-will-this-space-startup-make-it-off-the-ground.json",
+  "scoring_scope": "original_pitch_only",
+  "shared_across_input_modes": true,
+  "rationales": [
+    {
+      "rationale_label": "business_viability_concern",
+      "direction": "negative",
+      "salience": "primary",
+      "confidence": 0.99,
+      "utterance_type": "assessment",
+      "decision_link": "none",
+      "timing": "original_pitch",
+      "turn_index": 83,
+      "quote": "I was always get worried when people’s strategy is to get bought.",
+      "explanation": "Michael explicitly identifies reliance on an acquisition as a concern because that strategy often fails.",
+      "evidence": [
+        "That it doesn’t always work out that way, right?",
+        "Let’s say you have to run a company.",
+        "I was always get worried when people’s strategy is to get bought."
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 79,
+          "speaker": "Michael",
+          "quote": "That it doesn’t always work out that way, right?"
+        },
+        {
+          "turn_index": 81,
+          "speaker": "Michael",
+          "quote": "Let’s say you have to run a company."
+        },
+        {
+          "turn_index": 83,
+          "speaker": "Michael",
+          "quote": "I was always get worried when people’s strategy is to get bought."
+        }
+      ],
+      "activation": "evaluated",
+      "source_rationale_id": "R8",
+      "utterance_kind": "concern",
+      "decision_support": "none",
+      "all_mention_ids": [
+        "R5",
+        "R6",
+        "R7",
+        "R8"
+      ]
+    },
+    {
+      "rationale_label": "capital_intensity_concern",
+      "direction": "negative",
+      "salience": "primary",
+      "confidence": 0.98,
+      "utterance_type": "assessment",
+      "decision_link": "none",
+      "timing": "original_pitch",
+      "turn_index": 127,
+      "quote": "Only 160 million!",
+      "explanation": "Michael reacts with alarm to the company's exceptionally large capital requirement during the immediate in-room debrief.",
+      "evidence": [
+        "Only 160 million!"
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 127,
+          "speaker": "Michael",
+          "quote": "Only 160 million!"
+        }
+      ],
+      "activation": "evaluated",
+      "source_rationale_id": "R15",
+      "utterance_kind": "concern",
+      "decision_support": "none",
+      "all_mention_ids": [
+        "R4",
+        "R9",
+        "R10",
+        "R15"
+      ]
+    },
+    {
+      "rationale_label": "competitive_advantage_assessment",
+      "direction": "negative",
+      "salience": "primary",
+      "confidence": 0.94,
+      "utterance_type": "decision_reason",
+      "decision_link": "explicit",
+      "timing": "original_pitch",
+      "turn_index": 105,
+      "quote": "I like to invest in businesses that have a scalable defensible business that I can buy into.",
+      "explanation": "Michael identifies scalable defensibility as an investment requirement he cannot establish here and links his assessment to passing.",
+      "evidence": [
+        "I like to invest in businesses that have a scalable defensible business that I can buy into."
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 105,
+          "speaker": "Michael",
+          "quote": "I like to invest in businesses that have a scalable defensible business that I can buy into."
+        }
+      ],
+      "activation": "evaluated",
+      "source_rationale_id": "R14",
+      "utterance_kind": "decision_explanation",
+      "decision_support": "supports_out",
+      "all_mention_ids": [
+        "R14"
+      ]
+    },
+    {
+      "rationale_label": "execution_risk_assessment",
+      "direction": "neutral",
+      "salience": "secondary",
+      "confidence": 0.86,
+      "utterance_type": "question",
+      "decision_link": "none",
+      "timing": "original_pitch",
+      "turn_index": 8,
+      "quote": "are you doing this? Are you raising money? Is this a PowerPoint?",
+      "explanation": "Michael asks whether the founders have progressed beyond a concept and begun executing the business.",
+      "evidence": [
+        "are you doing this? Are you raising money? Is this a PowerPoint?"
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 8,
+          "speaker": "Michael",
+          "quote": "are you doing this? Are you raising money? Is this a PowerPoint?"
+        }
+      ],
+      "activation": "queried",
+      "source_rationale_id": "R1",
+      "utterance_kind": "question",
+      "decision_support": "none",
+      "all_mention_ids": [
+        "R1"
+      ]
+    },
+    {
+      "rationale_label": "founder_investor_vision_alignment",
+      "direction": "negative",
+      "salience": "primary",
+      "confidence": 0.96,
+      "utterance_type": "decision_reason",
+      "decision_link": "explicit",
+      "timing": "original_pitch",
+      "turn_index": 105,
+      "quote": "I don’t like to invest in companies that kind of have to sell within the next four years",
+      "explanation": "Michael explains that the founders' acquisition-dependent path does not align with the kind of company he wants to back.",
+      "evidence": [
+        "I don’t like to invest in companies that kind of have to sell within the next four years"
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 105,
+          "speaker": "Michael",
+          "quote": "I don’t like to invest in companies that kind of have to sell within the next four years"
+        }
+      ],
+      "activation": "evaluated",
+      "source_rationale_id": "R13",
+      "utterance_kind": "decision_explanation",
+      "decision_support": "supports_out",
+      "all_mention_ids": [
+        "R13"
+      ]
+    },
+    {
+      "rationale_label": "founder_qualities",
+      "direction": "positive",
+      "salience": "secondary",
+      "confidence": 0.99,
+      "utterance_type": "assessment",
+      "decision_link": "none",
+      "timing": "original_pitch",
+      "turn_index": 105,
+      "quote": "You two are very smart and you are very passionate.",
+      "explanation": "Michael positively assesses the founders' intelligence and passion despite declining to invest.",
+      "evidence": [
+        "You two are very smart and you are very passionate."
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 105,
+          "speaker": "Michael",
+          "quote": "You two are very smart and you are very passionate."
+        }
+      ],
+      "activation": "evaluated",
+      "source_rationale_id": "R12",
+      "utterance_kind": "assessment",
+      "decision_support": "none",
+      "all_mention_ids": [
+        "R12"
+      ]
+    },
+    {
+      "rationale_label": "investment_upside_assessment",
+      "direction": "negative",
+      "salience": "primary",
+      "confidence": 0.93,
+      "utterance_type": "decision_reason",
+      "decision_link": "explicit",
+      "timing": "original_pitch",
+      "turn_index": 136,
+      "quote": "I assessed the risk at about a million to one.",
+      "explanation": "Michael characterizes the opportunity's risk-reward odds as overwhelmingly unfavorable, reinforcing his refusal to invest.",
+      "evidence": [
+        "I assessed the risk at about a million to one."
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 136,
+          "speaker": "Michael",
+          "quote": "I assessed the risk at about a million to one."
+        }
+      ],
+      "activation": "evaluated",
+      "source_rationale_id": "R16",
+      "utterance_kind": "decision_explanation",
+      "decision_support": "supports_out",
+      "all_mention_ids": [
+        "R16"
+      ]
+    },
+    {
+      "rationale_label": "investor_domain_knowledge_constraint",
+      "direction": "negative",
+      "salience": "primary",
+      "confidence": 0.99,
+      "utterance_type": "decision_reason",
+      "decision_link": "explicit",
+      "timing": "original_pitch",
+      "turn_index": 105,
+      "quote": "I have no understanding of really what this is.",
+      "explanation": "Michael says his lack of domain understanding prevents him from assessing the opportunity and contributes to his refusal.",
+      "evidence": [
+        "I have no understanding of really what this is."
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 105,
+          "speaker": "Michael",
+          "quote": "I have no understanding of really what this is."
+        }
+      ],
+      "activation": "evaluated",
+      "source_rationale_id": "R11",
+      "utterance_kind": "decision_explanation",
+      "decision_support": "supports_out",
+      "all_mention_ids": [
+        "R11"
+      ]
+    },
+    {
+      "rationale_label": "market_timing",
+      "direction": "positive",
+      "salience": "secondary",
+      "confidence": 0.87,
+      "utterance_type": "assessment",
+      "decision_link": "none",
+      "timing": "original_pitch",
+      "turn_index": 34,
+      "quote": "private companies are coming in now",
+      "explanation": "Michael points to growing private-sector participation as a favorable change in the space market.",
+      "evidence": [
+        "private companies are coming in now"
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 34,
+          "speaker": "Michael",
+          "quote": "private companies are coming in now"
+        }
+      ],
+      "activation": "evaluated",
+      "source_rationale_id": "R3",
+      "utterance_kind": "supporting_argument",
+      "decision_support": "none",
+      "all_mention_ids": [
+        "R3"
+      ]
+    },
+    {
+      "rationale_label": "solution_feasibility_assessment",
+      "direction": "neutral",
+      "salience": "secondary",
+      "confidence": 0.96,
+      "utterance_type": "question",
+      "decision_link": "none",
+      "timing": "original_pitch",
+      "turn_index": 16,
+      "quote": "Have you launched anything yet?",
+      "explanation": "Michael asks whether the company has demonstrated its proposed spacecraft through an actual launch.",
+      "evidence": [
+        "Have you launched anything yet?"
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 16,
+          "speaker": "Michael",
+          "quote": "Have you launched anything yet?"
+        }
+      ],
+      "activation": "queried",
+      "source_rationale_id": "R2",
+      "utterance_kind": "question",
+      "decision_support": "none",
+      "all_mention_ids": [
+        "R2"
+      ]
+    }
+  ],
+  "later_rationales": [],
+  "excluded_rationales": [],
+  "rationale_mentions": [
+    {
+      "rationale_label": "execution_risk_assessment",
+      "direction": "neutral",
+      "salience": "secondary",
+      "confidence": 0.86,
+      "utterance_type": "question",
+      "decision_link": "none",
+      "timing": "original_pitch",
+      "turn_index": 8,
+      "quote": "are you doing this? Are you raising money? Is this a PowerPoint?",
+      "explanation": "Michael asks whether the founders have progressed beyond a concept and begun executing the business.",
+      "evidence": [
+        "are you doing this? Are you raising money? Is this a PowerPoint?"
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 8,
+          "speaker": "Michael",
+          "quote": "are you doing this? Are you raising money? Is this a PowerPoint?"
+        }
+      ],
+      "activation": "queried",
+      "source_rationale_id": "R1"
+    },
+    {
+      "rationale_label": "solution_feasibility_assessment",
+      "direction": "neutral",
+      "salience": "secondary",
+      "confidence": 0.96,
+      "utterance_type": "question",
+      "decision_link": "none",
+      "timing": "original_pitch",
+      "turn_index": 16,
+      "quote": "Have you launched anything yet?",
+      "explanation": "Michael asks whether the company has demonstrated its proposed spacecraft through an actual launch.",
+      "evidence": [
+        "Have you launched anything yet?"
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 16,
+          "speaker": "Michael",
+          "quote": "Have you launched anything yet?"
+        }
+      ],
+      "activation": "queried",
+      "source_rationale_id": "R2"
+    },
+    {
+      "rationale_label": "market_timing",
+      "direction": "positive",
+      "salience": "secondary",
+      "confidence": 0.87,
+      "utterance_type": "supporting_argument",
+      "decision_link": "none",
+      "timing": "original_pitch",
+      "turn_index": 34,
+      "quote": "private companies are coming in now",
+      "explanation": "Michael points to growing private-sector participation as a favorable change in the space market.",
+      "evidence": [
+        "private companies are coming in now"
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 34,
+          "speaker": "Michael",
+          "quote": "private companies are coming in now"
+        }
+      ],
+      "activation": "evaluated",
+      "source_rationale_id": "R3"
+    },
+    {
+      "rationale_label": "capital_intensity_concern",
+      "direction": "neutral",
+      "salience": "secondary",
+      "confidence": 0.96,
+      "utterance_type": "question",
+      "decision_link": "none",
+      "timing": "original_pitch",
+      "turn_index": 51,
+      "quote": "Between now and 2022, you need $35 million dollars?",
+      "explanation": "Michael queries the amount of capital required over the company's near-term development period.",
+      "evidence": [
+        "Between now and 2022, you need $35 million dollars?"
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 51,
+          "speaker": "Michael",
+          "quote": "Between now and 2022, you need $35 million dollars?"
+        }
+      ],
+      "activation": "queried",
+      "source_rationale_id": "R4"
+    },
+    {
+      "rationale_label": "business_viability_concern",
+      "direction": "neutral",
+      "salience": "secondary",
+      "confidence": 0.91,
+      "utterance_type": "question",
+      "decision_link": "none",
+      "timing": "original_pitch",
+      "turn_index": 60,
+      "quote": "is your idea to get acquired before you launch?",
+      "explanation": "Michael probes whether the founders' strategy depends on being acquired before delivering the product.",
+      "evidence": [
+        "is your idea to get acquired before you launch?"
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 60,
+          "speaker": "Michael",
+          "quote": "is your idea to get acquired before you launch?"
+        }
+      ],
+      "activation": "queried",
+      "source_rationale_id": "R5"
+    },
+    {
+      "rationale_label": "business_viability_concern",
+      "direction": "negative",
+      "salience": "primary",
+      "confidence": 0.95,
+      "utterance_type": "concern",
+      "decision_link": "none",
+      "timing": "original_pitch",
+      "turn_index": 79,
+      "quote": "That it doesn’t always work out that way, right?",
+      "explanation": "Michael warns that the anticipated acquisition may not occur and urges the founders to plan for that outcome.",
+      "evidence": [
+        "That it doesn’t always work out that way, right?"
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 79,
+          "speaker": "Michael",
+          "quote": "That it doesn’t always work out that way, right?"
+        }
+      ],
+      "activation": "evaluated",
+      "source_rationale_id": "R6"
+    },
+    {
+      "rationale_label": "business_viability_concern",
+      "direction": "negative",
+      "salience": "secondary",
+      "confidence": 0.87,
+      "utterance_type": "question",
+      "decision_link": "none",
+      "timing": "original_pitch",
+      "turn_index": 81,
+      "quote": "Let’s say you have to run a company.",
+      "explanation": "Michael asks the founders to address the viability of operating the business without an acquisition.",
+      "evidence": [
+        "Let’s say you have to run a company."
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 81,
+          "speaker": "Michael",
+          "quote": "Let’s say you have to run a company."
+        }
+      ],
+      "activation": "queried",
+      "source_rationale_id": "R7"
+    },
+    {
+      "rationale_label": "business_viability_concern",
+      "direction": "negative",
+      "salience": "primary",
+      "confidence": 0.99,
+      "utterance_type": "concern",
+      "decision_link": "none",
+      "timing": "original_pitch",
+      "turn_index": 83,
+      "quote": "I was always get worried when people’s strategy is to get bought.",
+      "explanation": "Michael explicitly identifies reliance on an acquisition as a concern because that strategy often fails.",
+      "evidence": [
+        "I was always get worried when people’s strategy is to get bought."
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 83,
+          "speaker": "Michael",
+          "quote": "I was always get worried when people’s strategy is to get bought."
+        }
+      ],
+      "activation": "evaluated",
+      "source_rationale_id": "R8"
+    },
+    {
+      "rationale_label": "capital_intensity_concern",
+      "direction": "neutral",
+      "salience": "secondary",
+      "confidence": 0.94,
+      "utterance_type": "assessment",
+      "decision_link": "none",
+      "timing": "original_pitch",
+      "turn_index": 85,
+      "quote": "Assuming you need 80 more million dollars.",
+      "explanation": "Michael foregrounds the substantial additional financing required while examining the investor outcome.",
+      "evidence": [
+        "Assuming you need 80 more million dollars."
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 85,
+          "speaker": "Michael",
+          "quote": "Assuming you need 80 more million dollars."
+        }
+      ],
+      "activation": "evaluated",
+      "source_rationale_id": "R9"
+    },
+    {
+      "rationale_label": "capital_intensity_concern",
+      "direction": "neutral",
+      "salience": "secondary",
+      "confidence": 0.88,
+      "utterance_type": "assessment",
+      "decision_link": "none",
+      "timing": "original_pitch",
+      "turn_index": 87,
+      "quote": "Or 160.",
+      "explanation": "Michael corrects the possible total capital requirement upward to $160 million.",
+      "evidence": [
+        "Or 160."
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 87,
+          "speaker": "Michael",
+          "quote": "Or 160."
+        }
+      ],
+      "activation": "evaluated",
+      "source_rationale_id": "R10"
+    },
+    {
+      "rationale_label": "investor_domain_knowledge_constraint",
+      "direction": "negative",
+      "salience": "primary",
+      "confidence": 0.99,
+      "utterance_type": "decision_explanation",
+      "decision_link": "supports_out",
+      "timing": "original_pitch",
+      "turn_index": 105,
+      "quote": "I have no understanding of really what this is.",
+      "explanation": "Michael says his lack of domain understanding prevents him from assessing the opportunity and contributes to his refusal.",
+      "evidence": [
+        "I have no understanding of really what this is."
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 105,
+          "speaker": "Michael",
+          "quote": "I have no understanding of really what this is."
+        }
+      ],
+      "activation": "evaluated",
+      "source_rationale_id": "R11"
+    },
+    {
+      "rationale_label": "founder_qualities",
+      "direction": "positive",
+      "salience": "secondary",
+      "confidence": 0.99,
+      "utterance_type": "assessment",
+      "decision_link": "none",
+      "timing": "original_pitch",
+      "turn_index": 105,
+      "quote": "You two are very smart and you are very passionate.",
+      "explanation": "Michael positively assesses the founders' intelligence and passion despite declining to invest.",
+      "evidence": [
+        "You two are very smart and you are very passionate."
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 105,
+          "speaker": "Michael",
+          "quote": "You two are very smart and you are very passionate."
+        }
+      ],
+      "activation": "evaluated",
+      "source_rationale_id": "R12"
+    },
+    {
+      "rationale_label": "founder_investor_vision_alignment",
+      "direction": "negative",
+      "salience": "primary",
+      "confidence": 0.96,
+      "utterance_type": "decision_explanation",
+      "decision_link": "supports_out",
+      "timing": "original_pitch",
+      "turn_index": 105,
+      "quote": "I don’t like to invest in companies that kind of have to sell within the next four years",
+      "explanation": "Michael explains that the founders' acquisition-dependent path does not align with the kind of company he wants to back.",
+      "evidence": [
+        "I don’t like to invest in companies that kind of have to sell within the next four years"
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 105,
+          "speaker": "Michael",
+          "quote": "I don’t like to invest in companies that kind of have to sell within the next four years"
+        }
+      ],
+      "activation": "evaluated",
+      "source_rationale_id": "R13"
+    },
+    {
+      "rationale_label": "competitive_advantage_assessment",
+      "direction": "negative",
+      "salience": "primary",
+      "confidence": 0.94,
+      "utterance_type": "decision_explanation",
+      "decision_link": "supports_out",
+      "timing": "original_pitch",
+      "turn_index": 105,
+      "quote": "I like to invest in businesses that have a scalable defensible business that I can buy into.",
+      "explanation": "Michael identifies scalable defensibility as an investment requirement he cannot establish here and links his assessment to passing.",
+      "evidence": [
+        "I like to invest in businesses that have a scalable defensible business that I can buy into."
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 105,
+          "speaker": "Michael",
+          "quote": "I like to invest in businesses that have a scalable defensible business that I can buy into."
+        }
+      ],
+      "activation": "evaluated",
+      "source_rationale_id": "R14"
+    },
+    {
+      "rationale_label": "capital_intensity_concern",
+      "direction": "negative",
+      "salience": "primary",
+      "confidence": 0.98,
+      "utterance_type": "concern",
+      "decision_link": "none",
+      "timing": "original_pitch",
+      "turn_index": 127,
+      "quote": "Only 160 million!",
+      "explanation": "Michael reacts with alarm to the company's exceptionally large capital requirement during the immediate in-room debrief.",
+      "evidence": [
+        "Only 160 million!"
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 127,
+          "speaker": "Michael",
+          "quote": "Only 160 million!"
+        }
+      ],
+      "activation": "evaluated",
+      "source_rationale_id": "R15"
+    },
+    {
+      "rationale_label": "investment_upside_assessment",
+      "direction": "negative",
+      "salience": "primary",
+      "confidence": 0.93,
+      "utterance_type": "decision_explanation",
+      "decision_link": "supports_out",
+      "timing": "original_pitch",
+      "turn_index": 136,
+      "quote": "I assessed the risk at about a million to one.",
+      "explanation": "Michael characterizes the opportunity's risk-reward odds as overwhelmingly unfavorable, reinforcing his refusal to invest.",
+      "evidence": [
+        "I assessed the risk at about a million to one."
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 136,
+          "speaker": "Michael",
+          "quote": "I assessed the risk at about a million to one."
+        }
+      ],
+      "activation": "evaluated",
+      "source_rationale_id": "R16"
+    }
+  ],
+  "expanded_quote_evidence": [],
+  "rejected_after_evidence_check": []
+}

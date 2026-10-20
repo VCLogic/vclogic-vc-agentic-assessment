@@ -1,0 +1,1079 @@
+{
+  "schema": "phase1-rationale-reference-v1",
+  "extraction_version": "pitchshow-rationales-v1",
+  "fingerprint": "e02fdb0554669f58dd83a84b5d6d82ae345e3816de0829aa5647769c19058f5d",
+  "episode_slug": "65-wait-your-app-does-what-exactly",
+  "vc_slug": "sheel-mohnot-better-tomorrow-ventures",
+  "vc_name": "Sheel Mohnot",
+  "actual_decision": "Out",
+  "later_decision": "Unknown",
+  "reference_kind": "automated_transcript_observed_candidate",
+  "human_validated": false,
+  "source_format": "transcript-observed-rationales-v1",
+  "source_path": "/home/dpasch01/vclogic-vc-agentic-assessment/evaluation/pitchshow/investors/sheel-mohnot-better-tomorrow-ventures/source/episodes/65-wait-your-app-does-what-exactly.json",
+  "source_sha256": "e20bb2f984cc6ea03e5c35f811d906a3038f70df39184dfbd49357aa4bd99530",
+  "transcript_sha256": "b3c4c8bc9fc4d4d351ea9c4731a24a0fe56109b9fd5df1895213c2b327f4f7f2",
+  "taxonomy_sha256": "eaa8734819a3ac34dd19ee5f0bf6de925a793a1d25a2d361090dafc9b751e1fc",
+  "model": "codex:gpt-5.6-luna+gpt-5.6-sol",
+  "generation_stages": [
+    {
+      "phase": "rationale_extract",
+      "backend": "codex",
+      "model": "gpt-5.6-luna"
+    },
+    {
+      "phase": "rationale_verify",
+      "backend": "codex",
+      "model": "gpt-5.6-sol"
+    }
+  ],
+  "source_tier": "newly_extracted_and_independently_model_reviewed",
+  "reviewed_target_turns": [
+    0,
+    2,
+    4,
+    6,
+    11,
+    16,
+    18,
+    20,
+    22,
+    24,
+    26,
+    28,
+    33,
+    36,
+    42,
+    47,
+    51,
+    53,
+    55,
+    63,
+    73,
+    75,
+    85,
+    103,
+    105,
+    107,
+    109,
+    111,
+    113,
+    119,
+    121,
+    123,
+    125,
+    134,
+    139,
+    145,
+    150,
+    152
+  ],
+  "notes": "All supplied target turns were reviewed exactly once; non-rationale directives, jokes, confirmations, incomplete teaser fragments, and unsupported broad judgments were excluded.",
+  "receipt_path": "/home/dpasch01/vclogic-vc-agentic-assessment/evaluation/pitchshow/investors/sheel-mohnot-better-tomorrow-ventures/rationale-references/receipts/65-wait-your-app-does-what-exactly.json",
+  "scoring_scope": "original_pitch_only",
+  "shared_across_input_modes": true,
+  "rationales": [
+    {
+      "rationale_label": "business_model_assessment",
+      "direction": "negative",
+      "salience": "primary",
+      "confidence": 0.98,
+      "utterance_type": "assessment",
+      "decision_link": "explicit",
+      "timing": "original_pitch",
+      "turn_index": 103,
+      "quote": "charging $5 a month to a consumer ends up... You have to get to a massive scale",
+      "explanation": "Sheel identifies the low consumer subscription price and resulting scale requirement as one of the issues behind his pass.",
+      "evidence": [
+        "charging $5 a month to a consumer ends up... You have to get to a massive scale",
+        "Like, themes!"
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 103,
+          "speaker": "Sheel",
+          "quote": "charging $5 a month to a consumer ends up... You have to get to a massive scale"
+        },
+        {
+          "turn_index": 139,
+          "speaker": "Sheel",
+          "quote": "Like, themes!"
+        }
+      ],
+      "activation": "evaluated",
+      "source_rationale_id": "R12",
+      "utterance_kind": "concern",
+      "decision_support": "supports_out",
+      "all_mention_ids": [
+        "R11",
+        "R12",
+        "R24"
+      ]
+    },
+    {
+      "rationale_label": "founder_communication_quality",
+      "direction": "negative",
+      "salience": "primary",
+      "confidence": 0.99,
+      "utterance_type": "assessment",
+      "decision_link": "explicit",
+      "timing": "original_pitch",
+      "turn_index": 105,
+      "quote": "I didn’t understand what the hell the product was for the first five minutes of this conversation. I still am not sure I really get it.",
+      "explanation": "Sheel identifies his continuing inability to understand the product as his major concern and part of the reasoning behind his pass.",
+      "evidence": [
+        "I'm confused.",
+        "I have no idea what's....",
+        "I didn’t understand what the hell the product was for the first five minutes of this conversation. I still am not sure I really get it.",
+        "you need to spend a lot of time working on that.",
+        "You need to have a very quick and concise way of explaining what you do.",
+        "Showing us that last step that we had to tease out of you was super helpful.",
+        "Would be better than the long...",
+        "A person who could not communicate what his app does",
+        "He never gave it to us."
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 11,
+          "speaker": "Sheel",
+          "quote": "I'm confused."
+        },
+        {
+          "turn_index": 28,
+          "speaker": "Sheel",
+          "quote": "I have no idea what's...."
+        },
+        {
+          "turn_index": 105,
+          "speaker": "Sheel",
+          "quote": "I didn’t understand what the hell the product was for the first five minutes of this conversation. I still am not sure I really get it."
+        },
+        {
+          "turn_index": 107,
+          "speaker": "Sheel",
+          "quote": "you need to spend a lot of time working on that."
+        },
+        {
+          "turn_index": 109,
+          "speaker": "Sheel",
+          "quote": "You need to have a very quick and concise way of explaining what you do."
+        },
+        {
+          "turn_index": 111,
+          "speaker": "Sheel",
+          "quote": "Showing us that last step that we had to tease out of you was super helpful."
+        },
+        {
+          "turn_index": 123,
+          "speaker": "Sheel",
+          "quote": "Would be better than the long..."
+        },
+        {
+          "turn_index": 145,
+          "speaker": "Sheel",
+          "quote": "A person who could not communicate what his app does"
+        },
+        {
+          "turn_index": 152,
+          "speaker": "Sheel",
+          "quote": "He never gave it to us."
+        }
+      ],
+      "activation": "evaluated",
+      "source_rationale_id": "R15",
+      "utterance_kind": "concern",
+      "decision_support": "supports_out",
+      "all_mention_ids": [
+        "R1",
+        "R2",
+        "R3",
+        "R9",
+        "R15",
+        "R17",
+        "R18",
+        "R19",
+        "R21",
+        "R22",
+        "R23",
+        "R25",
+        "R26"
+      ]
+    },
+    {
+      "rationale_label": "investor_experience_bias",
+      "direction": "negative",
+      "salience": "secondary",
+      "confidence": 0.98,
+      "utterance_type": "assessment",
+      "decision_link": "explicit",
+      "timing": "original_pitch",
+      "turn_index": 105,
+      "quote": "I have never had success investing somewhere where I didn’t quickly grasp what the product was.",
+      "explanation": "Sheel uses his prior investing experience to support treating the product-clarity problem as a reason not to invest.",
+      "evidence": [
+        "I have never had success investing somewhere where I didn’t quickly grasp what the product was."
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 105,
+          "speaker": "Sheel",
+          "quote": "I have never had success investing somewhere where I didn’t quickly grasp what the product was."
+        }
+      ],
+      "activation": "evaluated",
+      "source_rationale_id": "R16",
+      "utterance_kind": "supporting_argument",
+      "decision_support": "supports_out",
+      "all_mention_ids": [
+        "R16"
+      ]
+    },
+    {
+      "rationale_label": "market_entry_path_assessment",
+      "direction": "positive",
+      "salience": "secondary",
+      "confidence": 0.95,
+      "utterance_type": "assessment",
+      "decision_link": "none",
+      "timing": "original_pitch",
+      "turn_index": 105,
+      "quote": "education is a great place to start, I think.",
+      "explanation": "Sheel views education as a promising initial customer segment despite doubting its ultimate ceiling.",
+      "evidence": [
+        "education is a great place to start, I think."
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 105,
+          "speaker": "Sheel",
+          "quote": "education is a great place to start, I think."
+        }
+      ],
+      "activation": "evaluated",
+      "source_rationale_id": "R14",
+      "utterance_kind": "assessment",
+      "decision_support": "none",
+      "all_mention_ids": [
+        "R14"
+      ]
+    },
+    {
+      "rationale_label": "market_size_assessment",
+      "direction": "negative",
+      "salience": "secondary",
+      "confidence": 0.94,
+      "utterance_type": "assessment",
+      "decision_link": "explicit",
+      "timing": "original_pitch",
+      "turn_index": 105,
+      "quote": "I think it has to probably expand beyond education",
+      "explanation": "Sheel indicates that the education segment alone may not provide enough scope for the business.",
+      "evidence": [
+        "I think it has to probably expand beyond education"
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 105,
+          "speaker": "Sheel",
+          "quote": "I think it has to probably expand beyond education"
+        }
+      ],
+      "activation": "evaluated",
+      "source_rationale_id": "R13",
+      "utterance_kind": "assessment",
+      "decision_support": "supports_out",
+      "all_mention_ids": [
+        "R13"
+      ]
+    },
+    {
+      "rationale_label": "product_adoption",
+      "direction": "neutral",
+      "salience": "secondary",
+      "confidence": 0.94,
+      "utterance_type": "question",
+      "decision_link": "none",
+      "timing": "original_pitch",
+      "turn_index": 73,
+      "quote": "So how many people is that now?",
+      "explanation": "Sheel requests the current number of paying subscribers.",
+      "evidence": [
+        "And how many users do you have?",
+        "So how many people is that now?"
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 47,
+          "speaker": "Sheel",
+          "quote": "And how many users do you have?"
+        },
+        {
+          "turn_index": 73,
+          "speaker": "Sheel",
+          "quote": "So how many people is that now?"
+        }
+      ],
+      "activation": "queried",
+      "source_rationale_id": "R10",
+      "utterance_kind": "question",
+      "decision_support": "none",
+      "all_mention_ids": [
+        "R5",
+        "R10"
+      ]
+    },
+    {
+      "rationale_label": "product_differentiation_concern",
+      "direction": "negative",
+      "salience": "secondary",
+      "confidence": 0.94,
+      "utterance_type": "assessment",
+      "decision_link": "none",
+      "timing": "original_pitch",
+      "turn_index": 53,
+      "quote": "But there’s another replacement for that. Google calendar.",
+      "explanation": "Sheel reiterates that an established product already offers a digital replacement for paper planning.",
+      "evidence": [
+        "In between that, there’s any number of other calendaring apps. Google calendar, etc.",
+        "But there’s another replacement for that. Google calendar."
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 51,
+          "speaker": "Sheel",
+          "quote": "In between that, there’s any number of other calendaring apps. Google calendar, etc."
+        },
+        {
+          "turn_index": 53,
+          "speaker": "Sheel",
+          "quote": "But there’s another replacement for that. Google calendar."
+        }
+      ],
+      "activation": "evaluated",
+      "source_rationale_id": "R7",
+      "utterance_kind": "supporting_argument",
+      "decision_support": "none",
+      "all_mention_ids": [
+        "R6",
+        "R7"
+      ]
+    },
+    {
+      "rationale_label": "product_success_factor_assessment",
+      "direction": "neutral",
+      "salience": "secondary",
+      "confidence": 0.9,
+      "utterance_type": "question",
+      "decision_link": "none",
+      "timing": "original_pitch",
+      "turn_index": 42,
+      "quote": "What’s actionable?",
+      "explanation": "Sheel probes whether the product produces insights that users can act upon.",
+      "evidence": [
+        "What’s actionable?"
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 42,
+          "speaker": "Sheel",
+          "quote": "What’s actionable?"
+        }
+      ],
+      "activation": "queried",
+      "source_rationale_id": "R4",
+      "utterance_kind": "question",
+      "decision_support": "none",
+      "all_mention_ids": [
+        "R4"
+      ]
+    },
+    {
+      "rationale_label": "solution_feasibility_assessment",
+      "direction": "neutral",
+      "salience": "secondary",
+      "confidence": 0.93,
+      "utterance_type": "question",
+      "decision_link": "none",
+      "timing": "original_pitch",
+      "turn_index": 55,
+      "quote": "So how do you know what they’re doing when they’re doing it?",
+      "explanation": "Sheel asks how the product can reliably obtain timely information about users’ activities.",
+      "evidence": [
+        "So how do you know what they’re doing when they’re doing it?"
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 55,
+          "speaker": "Sheel",
+          "quote": "So how do you know what they’re doing when they’re doing it?"
+        }
+      ],
+      "activation": "queried",
+      "source_rationale_id": "R8",
+      "utterance_kind": "question",
+      "decision_support": "none",
+      "all_mention_ids": [
+        "R8"
+      ]
+    },
+    {
+      "rationale_label": "venture_scale_concern",
+      "direction": "negative",
+      "salience": "primary",
+      "confidence": 0.99,
+      "utterance_type": "decision_reason",
+      "decision_link": "explicit",
+      "timing": "original_pitch",
+      "turn_index": 113,
+      "quote": "I really struggle with how this becomes a massive business as well. So for those reasons I'm going to pass.",
+      "explanation": "Sheel explicitly links his doubt that the company can become massive to his decision to pass.",
+      "evidence": [
+        "I really struggle with how this becomes a massive business as well. So for those reasons I'm going to pass."
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 113,
+          "speaker": "Sheel",
+          "quote": "I really struggle with how this becomes a massive business as well. So for those reasons I'm going to pass."
+        }
+      ],
+      "activation": "evaluated",
+      "source_rationale_id": "R20",
+      "utterance_kind": "decision_explanation",
+      "decision_support": "supports_out",
+      "all_mention_ids": [
+        "R20"
+      ]
+    }
+  ],
+  "later_rationales": [],
+  "excluded_rationales": [],
+  "rationale_mentions": [
+    {
+      "rationale_label": "founder_communication_quality",
+      "direction": "negative",
+      "salience": "primary",
+      "confidence": 0.98,
+      "utterance_type": "assessment",
+      "decision_link": "none",
+      "timing": "original_pitch",
+      "turn_index": 11,
+      "quote": "I'm confused.",
+      "explanation": "Sheel signals that the pitch has not made the product understandable.",
+      "evidence": [
+        "I'm confused."
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 11,
+          "speaker": "Sheel",
+          "quote": "I'm confused."
+        }
+      ],
+      "activation": "evaluated",
+      "source_rationale_id": "R1"
+    },
+    {
+      "rationale_label": "founder_communication_quality",
+      "direction": "neutral",
+      "salience": "secondary",
+      "confidence": 0.92,
+      "utterance_type": "question",
+      "decision_link": "none",
+      "timing": "original_pitch",
+      "turn_index": 16,
+      "quote": "So is this an app?",
+      "explanation": "Sheel seeks basic clarification about what the product is.",
+      "evidence": [
+        "So is this an app?"
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 16,
+          "speaker": "Sheel",
+          "quote": "So is this an app?"
+        }
+      ],
+      "activation": "queried",
+      "source_rationale_id": "R2"
+    },
+    {
+      "rationale_label": "founder_communication_quality",
+      "direction": "negative",
+      "salience": "primary",
+      "confidence": 0.97,
+      "utterance_type": "assessment",
+      "decision_link": "none",
+      "timing": "original_pitch",
+      "turn_index": 28,
+      "quote": "I have no idea what's....",
+      "explanation": "While the founder retrieves his phone, Sheel says he still cannot understand the offering.",
+      "evidence": [
+        "I have no idea what's...."
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 28,
+          "speaker": "Sheel",
+          "quote": "I have no idea what's...."
+        }
+      ],
+      "activation": "evaluated",
+      "source_rationale_id": "R3"
+    },
+    {
+      "rationale_label": "product_success_factor_assessment",
+      "direction": "neutral",
+      "salience": "secondary",
+      "confidence": 0.9,
+      "utterance_type": "question",
+      "decision_link": "none",
+      "timing": "original_pitch",
+      "turn_index": 42,
+      "quote": "What’s actionable?",
+      "explanation": "Sheel probes whether the product produces insights that users can act upon.",
+      "evidence": [
+        "What’s actionable?"
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 42,
+          "speaker": "Sheel",
+          "quote": "What’s actionable?"
+        }
+      ],
+      "activation": "queried",
+      "source_rationale_id": "R4"
+    },
+    {
+      "rationale_label": "product_adoption",
+      "direction": "neutral",
+      "salience": "secondary",
+      "confidence": 0.95,
+      "utterance_type": "question",
+      "decision_link": "none",
+      "timing": "original_pitch",
+      "turn_index": 47,
+      "quote": "And how many users do you have?",
+      "explanation": "Sheel requests a material measure of current product adoption.",
+      "evidence": [
+        "And how many users do you have?"
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 47,
+          "speaker": "Sheel",
+          "quote": "And how many users do you have?"
+        }
+      ],
+      "activation": "queried",
+      "source_rationale_id": "R5"
+    },
+    {
+      "rationale_label": "product_differentiation_concern",
+      "direction": "negative",
+      "salience": "secondary",
+      "confidence": 0.94,
+      "utterance_type": "supporting_argument",
+      "decision_link": "none",
+      "timing": "original_pitch",
+      "turn_index": 51,
+      "quote": "In between that, there’s any number of other calendaring apps. Google calendar, etc.",
+      "explanation": "Sheel challenges the claimed gap by pointing to numerous existing calendar alternatives.",
+      "evidence": [
+        "In between that, there’s any number of other calendaring apps. Google calendar, etc."
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 51,
+          "speaker": "Sheel",
+          "quote": "In between that, there’s any number of other calendaring apps. Google calendar, etc."
+        }
+      ],
+      "activation": "evaluated",
+      "source_rationale_id": "R6"
+    },
+    {
+      "rationale_label": "product_differentiation_concern",
+      "direction": "negative",
+      "salience": "secondary",
+      "confidence": 0.94,
+      "utterance_type": "supporting_argument",
+      "decision_link": "none",
+      "timing": "original_pitch",
+      "turn_index": 53,
+      "quote": "But there’s another replacement for that. Google calendar.",
+      "explanation": "Sheel reiterates that an established product already offers a digital replacement for paper planning.",
+      "evidence": [
+        "But there’s another replacement for that. Google calendar."
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 53,
+          "speaker": "Sheel",
+          "quote": "But there’s another replacement for that. Google calendar."
+        }
+      ],
+      "activation": "evaluated",
+      "source_rationale_id": "R7"
+    },
+    {
+      "rationale_label": "solution_feasibility_assessment",
+      "direction": "neutral",
+      "salience": "secondary",
+      "confidence": 0.93,
+      "utterance_type": "question",
+      "decision_link": "none",
+      "timing": "original_pitch",
+      "turn_index": 55,
+      "quote": "So how do you know what they’re doing when they’re doing it?",
+      "explanation": "Sheel asks how the product can reliably obtain timely information about users’ activities.",
+      "evidence": [
+        "So how do you know what they’re doing when they’re doing it?"
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 55,
+          "speaker": "Sheel",
+          "quote": "So how do you know what they’re doing when they’re doing it?"
+        }
+      ],
+      "activation": "queried",
+      "source_rationale_id": "R8"
+    },
+    {
+      "rationale_label": "founder_communication_quality",
+      "direction": "neutral",
+      "salience": "secondary",
+      "confidence": 0.95,
+      "utterance_type": "question",
+      "decision_link": "none",
+      "timing": "original_pitch",
+      "turn_index": 63,
+      "quote": "What would you say the problem is? Just a quick concise definition of the problem.",
+      "explanation": "Sheel asks the founder to state the core problem clearly and concisely.",
+      "evidence": [
+        "What would you say the problem is? Just a quick concise definition of the problem."
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 63,
+          "speaker": "Sheel",
+          "quote": "What would you say the problem is? Just a quick concise definition of the problem."
+        }
+      ],
+      "activation": "queried",
+      "source_rationale_id": "R9"
+    },
+    {
+      "rationale_label": "product_adoption",
+      "direction": "neutral",
+      "salience": "secondary",
+      "confidence": 0.94,
+      "utterance_type": "question",
+      "decision_link": "none",
+      "timing": "original_pitch",
+      "turn_index": 73,
+      "quote": "So how many people is that now?",
+      "explanation": "Sheel requests the current number of paying subscribers.",
+      "evidence": [
+        "So how many people is that now?"
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 73,
+          "speaker": "Sheel",
+          "quote": "So how many people is that now?"
+        }
+      ],
+      "activation": "queried",
+      "source_rationale_id": "R10"
+    },
+    {
+      "rationale_label": "business_model_assessment",
+      "direction": "neutral",
+      "salience": "secondary",
+      "confidence": 0.95,
+      "utterance_type": "question",
+      "decision_link": "none",
+      "timing": "original_pitch",
+      "turn_index": 75,
+      "quote": "And how much are they paying?",
+      "explanation": "Sheel asks for the subscription price to evaluate monetization.",
+      "evidence": [
+        "And how much are they paying?"
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 75,
+          "speaker": "Sheel",
+          "quote": "And how much are they paying?"
+        }
+      ],
+      "activation": "queried",
+      "source_rationale_id": "R11"
+    },
+    {
+      "rationale_label": "business_model_assessment",
+      "direction": "negative",
+      "salience": "primary",
+      "confidence": 0.98,
+      "utterance_type": "concern",
+      "decision_link": "supports_out",
+      "timing": "original_pitch",
+      "turn_index": 103,
+      "quote": "charging $5 a month to a consumer ends up... You have to get to a massive scale",
+      "explanation": "Sheel identifies the low consumer subscription price and resulting scale requirement as one of the issues behind his pass.",
+      "evidence": [
+        "charging $5 a month to a consumer ends up... You have to get to a massive scale"
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 103,
+          "speaker": "Sheel",
+          "quote": "charging $5 a month to a consumer ends up... You have to get to a massive scale"
+        }
+      ],
+      "activation": "evaluated",
+      "source_rationale_id": "R12"
+    },
+    {
+      "rationale_label": "market_size_assessment",
+      "direction": "negative",
+      "salience": "secondary",
+      "confidence": 0.94,
+      "utterance_type": "assessment",
+      "decision_link": "supports_out",
+      "timing": "original_pitch",
+      "turn_index": 105,
+      "quote": "I think it has to probably expand beyond education",
+      "explanation": "Sheel indicates that the education segment alone may not provide enough scope for the business.",
+      "evidence": [
+        "I think it has to probably expand beyond education"
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 105,
+          "speaker": "Sheel",
+          "quote": "I think it has to probably expand beyond education"
+        }
+      ],
+      "activation": "evaluated",
+      "source_rationale_id": "R13"
+    },
+    {
+      "rationale_label": "market_entry_path_assessment",
+      "direction": "positive",
+      "salience": "secondary",
+      "confidence": 0.95,
+      "utterance_type": "assessment",
+      "decision_link": "none",
+      "timing": "original_pitch",
+      "turn_index": 105,
+      "quote": "education is a great place to start, I think.",
+      "explanation": "Sheel views education as a promising initial customer segment despite doubting its ultimate ceiling.",
+      "evidence": [
+        "education is a great place to start, I think."
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 105,
+          "speaker": "Sheel",
+          "quote": "education is a great place to start, I think."
+        }
+      ],
+      "activation": "evaluated",
+      "source_rationale_id": "R14"
+    },
+    {
+      "rationale_label": "founder_communication_quality",
+      "direction": "negative",
+      "salience": "primary",
+      "confidence": 0.99,
+      "utterance_type": "concern",
+      "decision_link": "supports_out",
+      "timing": "original_pitch",
+      "turn_index": 105,
+      "quote": "I didn’t understand what the hell the product was for the first five minutes of this conversation. I still am not sure I really get it.",
+      "explanation": "Sheel identifies his continuing inability to understand the product as his major concern and part of the reasoning behind his pass.",
+      "evidence": [
+        "I didn’t understand what the hell the product was for the first five minutes of this conversation. I still am not sure I really get it."
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 105,
+          "speaker": "Sheel",
+          "quote": "I didn’t understand what the hell the product was for the first five minutes of this conversation. I still am not sure I really get it."
+        }
+      ],
+      "activation": "evaluated",
+      "source_rationale_id": "R15"
+    },
+    {
+      "rationale_label": "investor_experience_bias",
+      "direction": "negative",
+      "salience": "secondary",
+      "confidence": 0.98,
+      "utterance_type": "supporting_argument",
+      "decision_link": "supports_out",
+      "timing": "original_pitch",
+      "turn_index": 105,
+      "quote": "I have never had success investing somewhere where I didn’t quickly grasp what the product was.",
+      "explanation": "Sheel uses his prior investing experience to support treating the product-clarity problem as a reason not to invest.",
+      "evidence": [
+        "I have never had success investing somewhere where I didn’t quickly grasp what the product was."
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 105,
+          "speaker": "Sheel",
+          "quote": "I have never had success investing somewhere where I didn’t quickly grasp what the product was."
+        }
+      ],
+      "activation": "evaluated",
+      "source_rationale_id": "R16"
+    },
+    {
+      "rationale_label": "founder_communication_quality",
+      "direction": "negative",
+      "salience": "secondary",
+      "confidence": 0.96,
+      "utterance_type": "supporting_argument",
+      "decision_link": "none",
+      "timing": "original_pitch",
+      "turn_index": 107,
+      "quote": "you need to spend a lot of time working on that.",
+      "explanation": "Sheel says the founder needs substantial work on explaining the product to investors and consumers.",
+      "evidence": [
+        "you need to spend a lot of time working on that."
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 107,
+          "speaker": "Sheel",
+          "quote": "you need to spend a lot of time working on that."
+        }
+      ],
+      "activation": "evaluated",
+      "source_rationale_id": "R17"
+    },
+    {
+      "rationale_label": "founder_communication_quality",
+      "direction": "negative",
+      "salience": "secondary",
+      "confidence": 0.97,
+      "utterance_type": "supporting_argument",
+      "decision_link": "none",
+      "timing": "original_pitch",
+      "turn_index": 109,
+      "quote": "You need to have a very quick and concise way of explaining what you do.",
+      "explanation": "Sheel argues that the founder lacks the concise product explanation needed for future investors and consumers.",
+      "evidence": [
+        "You need to have a very quick and concise way of explaining what you do."
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 109,
+          "speaker": "Sheel",
+          "quote": "You need to have a very quick and concise way of explaining what you do."
+        }
+      ],
+      "activation": "evaluated",
+      "source_rationale_id": "R18"
+    },
+    {
+      "rationale_label": "founder_communication_quality",
+      "direction": "negative",
+      "salience": "secondary",
+      "confidence": 0.94,
+      "utterance_type": "supporting_argument",
+      "decision_link": "none",
+      "timing": "original_pitch",
+      "turn_index": 111,
+      "quote": "Showing us that last step that we had to tease out of you was super helpful.",
+      "explanation": "Sheel notes that a clarifying and valuable part of the product emerged only after the investors extracted it from the founder.",
+      "evidence": [
+        "Showing us that last step that we had to tease out of you was super helpful."
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 111,
+          "speaker": "Sheel",
+          "quote": "Showing us that last step that we had to tease out of you was super helpful."
+        }
+      ],
+      "activation": "evaluated",
+      "source_rationale_id": "R19"
+    },
+    {
+      "rationale_label": "venture_scale_concern",
+      "direction": "negative",
+      "salience": "primary",
+      "confidence": 0.99,
+      "utterance_type": "decision_explanation",
+      "decision_link": "supports_out",
+      "timing": "original_pitch",
+      "turn_index": 113,
+      "quote": "I really struggle with how this becomes a massive business as well. So for those reasons I'm going to pass.",
+      "explanation": "Sheel explicitly links his doubt that the company can become massive to his decision to pass.",
+      "evidence": [
+        "I really struggle with how this becomes a massive business as well. So for those reasons I'm going to pass."
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 113,
+          "speaker": "Sheel",
+          "quote": "I really struggle with how this becomes a massive business as well. So for those reasons I'm going to pass."
+        }
+      ],
+      "activation": "evaluated",
+      "source_rationale_id": "R20"
+    },
+    {
+      "rationale_label": "founder_communication_quality",
+      "direction": "neutral",
+      "salience": "secondary",
+      "confidence": 0.92,
+      "utterance_type": "supporting_argument",
+      "decision_link": "none",
+      "timing": "original_pitch",
+      "turn_index": 119,
+      "quote": "I think you could say, we're a personal wellness assistant in your pocket.",
+      "explanation": "Sheel proposes a clearer one-line description to address the founder's communication problem.",
+      "evidence": [
+        "I think you could say, we're a personal wellness assistant in your pocket."
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 119,
+          "speaker": "Sheel",
+          "quote": "I think you could say, we're a personal wellness assistant in your pocket."
+        }
+      ],
+      "activation": "evaluated",
+      "source_rationale_id": "R21"
+    },
+    {
+      "rationale_label": "founder_communication_quality",
+      "direction": "neutral",
+      "salience": "secondary",
+      "confidence": 0.9,
+      "utterance_type": "supporting_argument",
+      "decision_link": "none",
+      "timing": "original_pitch",
+      "turn_index": 121,
+      "quote": "Something simple to start us off.",
+      "explanation": "Sheel recommends opening with a simple explanation of the product.",
+      "evidence": [
+        "Something simple to start us off."
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 121,
+          "speaker": "Sheel",
+          "quote": "Something simple to start us off."
+        }
+      ],
+      "activation": "evaluated",
+      "source_rationale_id": "R22"
+    },
+    {
+      "rationale_label": "founder_communication_quality",
+      "direction": "negative",
+      "salience": "secondary",
+      "confidence": 0.89,
+      "utterance_type": "supporting_argument",
+      "decision_link": "none",
+      "timing": "original_pitch",
+      "turn_index": 123,
+      "quote": "Would be better than the long...",
+      "explanation": "Sheel contrasts the proposed concise framing favorably with the founder's lengthy opening explanation.",
+      "evidence": [
+        "Would be better than the long..."
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 123,
+          "speaker": "Sheel",
+          "quote": "Would be better than the long..."
+        }
+      ],
+      "activation": "evaluated",
+      "source_rationale_id": "R23"
+    },
+    {
+      "rationale_label": "business_model_assessment",
+      "direction": "negative",
+      "salience": "secondary",
+      "confidence": 0.93,
+      "utterance_type": "assessment",
+      "decision_link": "none",
+      "timing": "original_pitch",
+      "turn_index": 139,
+      "quote": "Like, themes!",
+      "explanation": "Sheel sarcastically highlights themes as an unconvincing premium subscription benefit.",
+      "evidence": [
+        "Like, themes!"
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 139,
+          "speaker": "Sheel",
+          "quote": "Like, themes!"
+        }
+      ],
+      "activation": "evaluated",
+      "source_rationale_id": "R24"
+    },
+    {
+      "rationale_label": "founder_communication_quality",
+      "direction": "negative",
+      "salience": "primary",
+      "confidence": 0.99,
+      "utterance_type": "assessment",
+      "decision_link": "none",
+      "timing": "original_pitch",
+      "turn_index": 145,
+      "quote": "A person who could not communicate what his app does",
+      "explanation": "In the immediate debrief, Sheel identifies the founder's inability to explain the app as the central problem.",
+      "evidence": [
+        "A person who could not communicate what his app does"
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 145,
+          "speaker": "Sheel",
+          "quote": "A person who could not communicate what his app does"
+        }
+      ],
+      "activation": "evaluated",
+      "source_rationale_id": "R25"
+    },
+    {
+      "rationale_label": "founder_communication_quality",
+      "direction": "negative",
+      "salience": "secondary",
+      "confidence": 0.97,
+      "utterance_type": "supporting_argument",
+      "decision_link": "none",
+      "timing": "original_pitch",
+      "turn_index": 152,
+      "quote": "He never gave it to us.",
+      "explanation": "Sheel says the founder never provided the clear product framing that Alexandra subsequently articulated.",
+      "evidence": [
+        "He never gave it to us."
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 152,
+          "speaker": "Sheel",
+          "quote": "He never gave it to us."
+        }
+      ],
+      "activation": "evaluated",
+      "source_rationale_id": "R26"
+    }
+  ],
+  "expanded_quote_evidence": [],
+  "rejected_after_evidence_check": []
+}

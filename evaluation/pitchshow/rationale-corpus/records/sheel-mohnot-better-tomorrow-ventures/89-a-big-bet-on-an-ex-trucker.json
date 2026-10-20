@@ -1,0 +1,454 @@
+{
+  "schema": "phase1-rationale-reference-v1",
+  "extraction_version": "pitchshow-rationales-v1",
+  "fingerprint": "818f70727214b4690b37abc7154dad270a4963b6eec5aeeda884a2677dea51d1",
+  "episode_slug": "89-a-big-bet-on-an-ex-trucker",
+  "vc_slug": "sheel-mohnot-better-tomorrow-ventures",
+  "vc_name": "Sheel Mohnot",
+  "actual_decision": "Out",
+  "later_decision": "Unknown",
+  "reference_kind": "automated_transcript_observed_candidate",
+  "human_validated": false,
+  "source_format": "transcript-observed-rationales-v1",
+  "source_path": "/home/dpasch01/vclogic-vc-agentic-assessment/evaluation/pitchshow/investors/sheel-mohnot-better-tomorrow-ventures/source/episodes/89-a-big-bet-on-an-ex-trucker.json",
+  "source_sha256": "d4219170442f2759f27be477addeb276322f69cffbc3455e7ae7a6928220703e",
+  "transcript_sha256": "77cc20272bad1ae08ac5f9bb8cd8b902b556749d0add6df9ed76823dc1e85ccc",
+  "taxonomy_sha256": "eaa8734819a3ac34dd19ee5f0bf6de925a793a1d25a2d361090dafc9b751e1fc",
+  "model": "codex:gpt-5.6-luna+gpt-5.6-sol",
+  "generation_stages": [
+    {
+      "phase": "rationale_extract",
+      "backend": "codex",
+      "model": "gpt-5.6-luna"
+    },
+    {
+      "phase": "rationale_verify",
+      "backend": "codex",
+      "model": "gpt-5.6-sol"
+    }
+  ],
+  "source_tier": "newly_extracted_and_independently_model_reviewed",
+  "reviewed_target_turns": [
+    16,
+    21,
+    33,
+    35,
+    38,
+    44,
+    49,
+    65,
+    69,
+    72
+  ],
+  "notes": "Turns 21, 33, 35, 44, 49, and 65 contain only laughter, confirmations, brief praise without a sufficiently specific taxonomy rationale, or a farewell.",
+  "receipt_path": "/home/dpasch01/vclogic-vc-agentic-assessment/evaluation/pitchshow/investors/sheel-mohnot-better-tomorrow-ventures/rationale-references/receipts/89-a-big-bet-on-an-ex-trucker.json",
+  "scoring_scope": "original_pitch_only",
+  "shared_across_input_modes": true,
+  "rationales": [
+    {
+      "rationale_label": "founder_communication_quality",
+      "direction": "positive",
+      "salience": "secondary",
+      "confidence": 0.89,
+      "utterance_type": "assessment",
+      "decision_link": "none",
+      "timing": "original_pitch",
+      "turn_index": 72,
+      "quote": "his answer was great.",
+      "explanation": "Sheel positively assesses Pierre’s explanation of how Fleeting would operate alongside autonomous trucking.",
+      "evidence": [
+        "you've had amazing answers to all the questions we've asked. I've learned from you.",
+        "his answer was great."
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 38,
+          "speaker": "Sheel",
+          "quote": "you've had amazing answers to all the questions we've asked. I've learned from you."
+        },
+        {
+          "turn_index": 72,
+          "speaker": "Sheel",
+          "quote": "his answer was great."
+        }
+      ],
+      "activation": "evaluated",
+      "source_rationale_id": "R9",
+      "utterance_kind": "assessment",
+      "decision_support": "none",
+      "all_mention_ids": [
+        "R3",
+        "R9"
+      ]
+    },
+    {
+      "rationale_label": "founder_execution",
+      "direction": "positive",
+      "salience": "primary",
+      "confidence": 0.99,
+      "utterance_type": "assessment",
+      "decision_link": "none",
+      "timing": "original_pitch",
+      "turn_index": 38,
+      "quote": "you're clearly like a hustler. You're gonna make this thing work, which I love.",
+      "explanation": "Sheel believes Pierre has the drive and resourcefulness required to execute.",
+      "evidence": [
+        "you're clearly like a hustler. You're gonna make this thing work, which I love."
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 38,
+          "speaker": "Sheel",
+          "quote": "you're clearly like a hustler. You're gonna make this thing work, which I love."
+        }
+      ],
+      "activation": "evaluated",
+      "source_rationale_id": "R6",
+      "utterance_kind": "supporting_argument",
+      "decision_support": "none",
+      "all_mention_ids": [
+        "R6"
+      ]
+    },
+    {
+      "rationale_label": "founder_qualities",
+      "direction": "positive",
+      "salience": "primary",
+      "confidence": 0.99,
+      "utterance_type": "assessment",
+      "decision_link": "none",
+      "timing": "original_pitch",
+      "turn_index": 38,
+      "quote": "people are attracted to you, and that's one of the most important things I look for.",
+      "explanation": "Sheel identifies Pierre’s ability to attract strong people as an especially important positive founder trait.",
+      "evidence": [
+        "people are attracted to you, and that's one of the most important things I look for."
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 38,
+          "speaker": "Sheel",
+          "quote": "people are attracted to you, and that's one of the most important things I look for."
+        }
+      ],
+      "activation": "evaluated",
+      "source_rationale_id": "R5",
+      "utterance_kind": "supporting_argument",
+      "decision_support": "none",
+      "all_mention_ids": [
+        "R5"
+      ]
+    },
+    {
+      "rationale_label": "founder_skillset",
+      "direction": "positive",
+      "salience": "primary",
+      "confidence": 0.97,
+      "utterance_type": "assessment",
+      "decision_link": "none",
+      "timing": "original_pitch",
+      "turn_index": 38,
+      "quote": "You've clearly built this really strong team around you of folks who have built technology companies before.",
+      "explanation": "Sheel views the experienced technology team surrounding Pierre as a major company-building strength.",
+      "evidence": [
+        "You've clearly built this really strong team around you of folks who have built technology companies before."
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 38,
+          "speaker": "Sheel",
+          "quote": "You've clearly built this really strong team around you of folks who have built technology companies before."
+        }
+      ],
+      "activation": "evaluated",
+      "source_rationale_id": "R4",
+      "utterance_kind": "supporting_argument",
+      "decision_support": "none",
+      "all_mention_ids": [
+        "R1",
+        "R2",
+        "R4"
+      ]
+    },
+    {
+      "rationale_label": "market_timing",
+      "direction": "positive",
+      "salience": "secondary",
+      "confidence": 0.9,
+      "utterance_type": "assessment",
+      "decision_link": "none",
+      "timing": "original_pitch",
+      "turn_index": 69,
+      "quote": "I think I earlier would have been more worried about it. And I'm kind of less concerned about it.",
+      "explanation": "After hearing Pierre’s response, Sheel considers the future threat from autonomous trucking less concerning.",
+      "evidence": [
+        "I think I earlier would have been more worried about it. And I'm kind of less concerned about it."
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 69,
+          "speaker": "Sheel",
+          "quote": "I think I earlier would have been more worried about it. And I'm kind of less concerned about it."
+        }
+      ],
+      "activation": "evaluated",
+      "source_rationale_id": "R8",
+      "utterance_kind": "assessment",
+      "decision_support": "none",
+      "all_mention_ids": [
+        "R8"
+      ]
+    },
+    {
+      "rationale_label": "portfolio_conflict_constraint",
+      "direction": "negative",
+      "salience": "primary",
+      "confidence": 1.0,
+      "utterance_type": "decision_reason",
+      "decision_link": "explicit",
+      "timing": "original_pitch",
+      "turn_index": 38,
+      "quote": "there's a lot of similarities between what the two companies are doing. So for that reason I'm gonna pass.",
+      "explanation": "Sheel explicitly passes because Fleeting overlaps too closely with an existing portfolio company.",
+      "evidence": [
+        "there's a lot of similarities between what the two companies are doing. So for that reason I'm gonna pass."
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 38,
+          "speaker": "Sheel",
+          "quote": "there's a lot of similarities between what the two companies are doing. So for that reason I'm gonna pass."
+        }
+      ],
+      "activation": "evaluated",
+      "source_rationale_id": "R7",
+      "utterance_kind": "decision_explanation",
+      "decision_support": "supports_out",
+      "all_mention_ids": [
+        "R7"
+      ]
+    }
+  ],
+  "later_rationales": [],
+  "excluded_rationales": [],
+  "rationale_mentions": [
+    {
+      "rationale_label": "founder_skillset",
+      "direction": "neutral",
+      "salience": "secondary",
+      "confidence": 0.92,
+      "utterance_type": "question",
+      "decision_link": "none",
+      "timing": "original_pitch",
+      "turn_index": 16,
+      "quote": "Can you talk about your team members and how long you been working together?",
+      "explanation": "Sheel asks about the team’s composition and experience working together to assess its company-building capabilities.",
+      "evidence": [
+        "Can you talk about your team members and how long you been working together?"
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 16,
+          "speaker": "Sheel",
+          "quote": "Can you talk about your team members and how long you been working together?"
+        }
+      ],
+      "activation": "queried",
+      "source_rationale_id": "R1"
+    },
+    {
+      "rationale_label": "founder_skillset",
+      "direction": "negative",
+      "salience": "secondary",
+      "confidence": 0.95,
+      "utterance_type": "assessment",
+      "decision_link": "none",
+      "timing": "original_pitch",
+      "turn_index": 38,
+      "quote": "I was prepared for you to like not be what I'm looking for in a technology CEO.",
+      "explanation": "Sheel describes his initial concern that Pierre might lack the profile or skills he seeks in a technology CEO.",
+      "evidence": [
+        "I was prepared for you to like not be what I'm looking for in a technology CEO."
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 38,
+          "speaker": "Sheel",
+          "quote": "I was prepared for you to like not be what I'm looking for in a technology CEO."
+        }
+      ],
+      "activation": "evaluated",
+      "source_rationale_id": "R2"
+    },
+    {
+      "rationale_label": "founder_communication_quality",
+      "direction": "positive",
+      "salience": "secondary",
+      "confidence": 0.98,
+      "utterance_type": "assessment",
+      "decision_link": "none",
+      "timing": "original_pitch",
+      "turn_index": 38,
+      "quote": "you've had amazing answers to all the questions we've asked. I've learned from you.",
+      "explanation": "Sheel positively assesses Pierre’s answers and ability to convey useful knowledge during the pitch.",
+      "evidence": [
+        "you've had amazing answers to all the questions we've asked. I've learned from you."
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 38,
+          "speaker": "Sheel",
+          "quote": "you've had amazing answers to all the questions we've asked. I've learned from you."
+        }
+      ],
+      "activation": "evaluated",
+      "source_rationale_id": "R3"
+    },
+    {
+      "rationale_label": "founder_skillset",
+      "direction": "positive",
+      "salience": "primary",
+      "confidence": 0.97,
+      "utterance_type": "supporting_argument",
+      "decision_link": "none",
+      "timing": "original_pitch",
+      "turn_index": 38,
+      "quote": "You've clearly built this really strong team around you of folks who have built technology companies before.",
+      "explanation": "Sheel views the experienced technology team surrounding Pierre as a major company-building strength.",
+      "evidence": [
+        "You've clearly built this really strong team around you of folks who have built technology companies before."
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 38,
+          "speaker": "Sheel",
+          "quote": "You've clearly built this really strong team around you of folks who have built technology companies before."
+        }
+      ],
+      "activation": "evaluated",
+      "source_rationale_id": "R4"
+    },
+    {
+      "rationale_label": "founder_qualities",
+      "direction": "positive",
+      "salience": "primary",
+      "confidence": 0.99,
+      "utterance_type": "supporting_argument",
+      "decision_link": "none",
+      "timing": "original_pitch",
+      "turn_index": 38,
+      "quote": "people are attracted to you, and that's one of the most important things I look for.",
+      "explanation": "Sheel identifies Pierre’s ability to attract strong people as an especially important positive founder trait.",
+      "evidence": [
+        "people are attracted to you, and that's one of the most important things I look for."
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 38,
+          "speaker": "Sheel",
+          "quote": "people are attracted to you, and that's one of the most important things I look for."
+        }
+      ],
+      "activation": "evaluated",
+      "source_rationale_id": "R5"
+    },
+    {
+      "rationale_label": "founder_execution",
+      "direction": "positive",
+      "salience": "primary",
+      "confidence": 0.99,
+      "utterance_type": "supporting_argument",
+      "decision_link": "none",
+      "timing": "original_pitch",
+      "turn_index": 38,
+      "quote": "you're clearly like a hustler. You're gonna make this thing work, which I love.",
+      "explanation": "Sheel believes Pierre has the drive and resourcefulness required to execute.",
+      "evidence": [
+        "you're clearly like a hustler. You're gonna make this thing work, which I love."
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 38,
+          "speaker": "Sheel",
+          "quote": "you're clearly like a hustler. You're gonna make this thing work, which I love."
+        }
+      ],
+      "activation": "evaluated",
+      "source_rationale_id": "R6"
+    },
+    {
+      "rationale_label": "portfolio_conflict_constraint",
+      "direction": "negative",
+      "salience": "primary",
+      "confidence": 1.0,
+      "utterance_type": "decision_explanation",
+      "decision_link": "supports_out",
+      "timing": "original_pitch",
+      "turn_index": 38,
+      "quote": "there's a lot of similarities between what the two companies are doing. So for that reason I'm gonna pass.",
+      "explanation": "Sheel explicitly passes because Fleeting overlaps too closely with an existing portfolio company.",
+      "evidence": [
+        "there's a lot of similarities between what the two companies are doing. So for that reason I'm gonna pass."
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 38,
+          "speaker": "Sheel",
+          "quote": "there's a lot of similarities between what the two companies are doing. So for that reason I'm gonna pass."
+        }
+      ],
+      "activation": "evaluated",
+      "source_rationale_id": "R7"
+    },
+    {
+      "rationale_label": "market_timing",
+      "direction": "positive",
+      "salience": "secondary",
+      "confidence": 0.9,
+      "utterance_type": "assessment",
+      "decision_link": "none",
+      "timing": "original_pitch",
+      "turn_index": 69,
+      "quote": "I think I earlier would have been more worried about it. And I'm kind of less concerned about it.",
+      "explanation": "After hearing Pierre’s response, Sheel considers the future threat from autonomous trucking less concerning.",
+      "evidence": [
+        "I think I earlier would have been more worried about it. And I'm kind of less concerned about it."
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 69,
+          "speaker": "Sheel",
+          "quote": "I think I earlier would have been more worried about it. And I'm kind of less concerned about it."
+        }
+      ],
+      "activation": "evaluated",
+      "source_rationale_id": "R8"
+    },
+    {
+      "rationale_label": "founder_communication_quality",
+      "direction": "positive",
+      "salience": "secondary",
+      "confidence": 0.89,
+      "utterance_type": "assessment",
+      "decision_link": "none",
+      "timing": "original_pitch",
+      "turn_index": 72,
+      "quote": "his answer was great.",
+      "explanation": "Sheel positively assesses Pierre’s explanation of how Fleeting would operate alongside autonomous trucking.",
+      "evidence": [
+        "his answer was great."
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 72,
+          "speaker": "Sheel",
+          "quote": "his answer was great."
+        }
+      ],
+      "activation": "evaluated",
+      "source_rationale_id": "R9"
+    }
+  ],
+  "expanded_quote_evidence": [],
+  "rejected_after_evidence_check": []
+}

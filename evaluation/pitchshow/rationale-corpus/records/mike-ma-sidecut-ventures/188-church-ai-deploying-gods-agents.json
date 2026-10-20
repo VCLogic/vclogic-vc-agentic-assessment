@@ -1,0 +1,609 @@
+{
+  "schema": "phase1-rationale-reference-v1",
+  "extraction_version": "pitchshow-rationales-v1",
+  "fingerprint": "b97cbc0938b968a34c4ef29345a94c0593f393edc4d175c6ca85035773909f8f",
+  "episode_slug": "188-church-ai-deploying-gods-agents",
+  "vc_slug": "mike-ma-sidecut-ventures",
+  "vc_name": "Mike Ma",
+  "actual_decision": "In",
+  "later_decision": "Out",
+  "reference_kind": "automated_transcript_observed_candidate",
+  "human_validated": false,
+  "source_format": "transcript-observed-rationales-v1",
+  "source_path": "/home/dpasch01/vclogic-vc-agentic-assessment/evaluation/pitchshow/investors/mike-ma-sidecut-ventures/source/episodes/188-church-ai-deploying-gods-agents.json",
+  "source_sha256": "4d33e3a5a3c38d0fe558c2010ddb9c4b6c6dc60a7128c6aa97c39eaaef9f9806",
+  "transcript_sha256": "bc208c79de3d6683eaba24bcbe292ddcdbfdab4469d744605334240365457956",
+  "taxonomy_sha256": "eaa8734819a3ac34dd19ee5f0bf6de925a793a1d25a2d361090dafc9b751e1fc",
+  "model": "codex:gpt-5.6-luna+gpt-5.6-sol",
+  "generation_stages": [
+    {
+      "phase": "rationale_extract",
+      "backend": "codex",
+      "model": "gpt-5.6-luna"
+    },
+    {
+      "phase": "rationale_verify",
+      "backend": "codex",
+      "model": "gpt-5.6-sol"
+    }
+  ],
+  "source_tier": "newly_extracted_and_independently_model_reviewed",
+  "reviewed_target_turns": [
+    17,
+    21,
+    34,
+    36,
+    38,
+    42,
+    53,
+    63,
+    65,
+    67,
+    73,
+    74,
+    99,
+    101,
+    103,
+    145,
+    152,
+    154,
+    158,
+    160,
+    162,
+    165,
+    175,
+    177,
+    179,
+    181,
+    183,
+    201,
+    224,
+    227,
+    229,
+    232,
+    375,
+    376,
+    377,
+    378,
+    380
+  ],
+  "notes": "All supplied target turns were reviewed. Bare commitments, acknowledgments, jokes, and comments lacking a taxonomy-grounded reason were excluded.",
+  "receipt_path": "/home/dpasch01/vclogic-vc-agentic-assessment/evaluation/pitchshow/investors/mike-ma-sidecut-ventures/rationale-references/receipts/188-church-ai-deploying-gods-agents.json",
+  "scoring_scope": "original_pitch_only",
+  "shared_across_input_modes": true,
+  "rationales": [
+    {
+      "rationale_label": "founder_communication_quality",
+      "direction": "positive",
+      "salience": "primary",
+      "confidence": 0.98,
+      "utterance_type": "decision_reason",
+      "decision_link": "explicit",
+      "timing": "original_pitch",
+      "turn_index": 74,
+      "quote": "I love how you're thinking about it, and every time I've tried to write my next question, you just gave me the answer",
+      "explanation": "Mike links his commitment to the founder's command of the business and ability to anticipate his questions.",
+      "evidence": [
+        "I love how you're thinking about it, and every time I've tried to write my next question, you just gave me the answer"
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 74,
+          "speaker": "Mike",
+          "quote": "I love how you're thinking about it, and every time I've tried to write my next question, you just gave me the answer"
+        }
+      ],
+      "activation": "evaluated",
+      "source_rationale_id": "R6",
+      "utterance_kind": "decision_explanation",
+      "decision_support": "supports_in",
+      "all_mention_ids": [
+        "R6"
+      ]
+    },
+    {
+      "rationale_label": "go_to_market_strategy_assessment",
+      "direction": "neutral",
+      "salience": "secondary",
+      "confidence": 0.98,
+      "utterance_type": "question",
+      "decision_link": "none",
+      "timing": "original_pitch",
+      "turn_index": 65,
+      "quote": "Are there any parts of the segmentation that can give you efficiency",
+      "explanation": "Mike asks whether customer segmentation can improve the efficiency of the sales funnel.",
+      "evidence": [
+        "can you talk about the sales and go-to-market? 18 clients. where's the footprint? How are you acquiring them and where are you going with that?",
+        "Are there any parts of the segmentation that can give you efficiency"
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 63,
+          "speaker": "Mike",
+          "quote": "can you talk about the sales and go-to-market? 18 clients. where's the footprint? How are you acquiring them and where are you going with that?"
+        },
+        {
+          "turn_index": 65,
+          "speaker": "Mike",
+          "quote": "Are there any parts of the segmentation that can give you efficiency"
+        }
+      ],
+      "activation": "queried",
+      "source_rationale_id": "R5",
+      "utterance_kind": "question",
+      "decision_support": "none",
+      "all_mention_ids": [
+        "R4",
+        "R5"
+      ]
+    },
+    {
+      "rationale_label": "market_timing",
+      "direction": "positive",
+      "salience": "primary",
+      "confidence": 0.98,
+      "utterance_type": "decision_reason",
+      "decision_link": "explicit",
+      "timing": "original_pitch",
+      "turn_index": 224,
+      "quote": "I think we're craving real human connection. And if I and my investors can profit off that, shoot, I'm in.",
+      "explanation": "Mike links his investment interest to a timely shift toward in-person connection and community.",
+      "evidence": [
+        "I think we're craving real human connection. And if I and my investors can profit off that, shoot, I'm in."
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 224,
+          "speaker": "Mike",
+          "quote": "I think we're craving real human connection. And if I and my investors can profit off that, shoot, I'm in."
+        }
+      ],
+      "activation": "evaluated",
+      "source_rationale_id": "R8",
+      "utterance_kind": "decision_explanation",
+      "decision_support": "supports_in",
+      "all_mention_ids": [
+        "R8"
+      ]
+    },
+    {
+      "rationale_label": "mission_alignment_preference",
+      "direction": "neutral",
+      "salience": "secondary",
+      "confidence": 0.76,
+      "utterance_type": "question",
+      "decision_link": "none",
+      "timing": "original_pitch",
+      "turn_index": 101,
+      "quote": "I’m curious about your thoughts about what the impact is for both the church, the membership, and communities that you work in",
+      "explanation": "Mike probes the mission-level impact the company could have on churches, members, and their communities.",
+      "model_quote_before_typography_repair": "I'm curious about your thoughts about what the impact is for both the church, the membership, and communities that you work in",
+      "evidence": [
+        "I’m curious about your thoughts about what the impact is for both the church, the membership, and communities that you work in"
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 101,
+          "speaker": "Mike",
+          "quote": "I’m curious about your thoughts about what the impact is for both the church, the membership, and communities that you work in"
+        }
+      ],
+      "activation": "queried",
+      "source_rationale_id": "R7",
+      "utterance_kind": "question",
+      "decision_support": "none",
+      "all_mention_ids": [
+        "R7"
+      ]
+    },
+    {
+      "rationale_label": "product_differentiation_concern",
+      "direction": "neutral",
+      "salience": "secondary",
+      "confidence": 0.89,
+      "utterance_type": "question",
+      "decision_link": "none",
+      "timing": "original_pitch",
+      "turn_index": 42,
+      "quote": "What does it look like today, and what would it look like, in Church AI,",
+      "explanation": "Mike requests a concrete comparison between the existing workflow and the Church AI experience.",
+      "evidence": [
+        "What's the data that populate that I couldn't use HubSpot for?",
+        "What does it look like today, and what would it look like, in Church AI,"
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 36,
+          "speaker": "Mike",
+          "quote": "What's the data that populate that I couldn't use HubSpot for?"
+        },
+        {
+          "turn_index": 42,
+          "speaker": "Mike",
+          "quote": "What does it look like today, and what would it look like, in Church AI,"
+        }
+      ],
+      "activation": "queried",
+      "source_rationale_id": "R3",
+      "utterance_kind": "question",
+      "decision_support": "none",
+      "all_mention_ids": [
+        "R2",
+        "R3"
+      ]
+    },
+    {
+      "rationale_label": "solution_feasibility_assessment",
+      "direction": "neutral",
+      "salience": "secondary",
+      "confidence": 0.93,
+      "utterance_type": "question",
+      "decision_link": "none",
+      "timing": "original_pitch",
+      "turn_index": 34,
+      "quote": "In this church management, what are the inputs? Is it contact information, dollar amounts, email, and attendance?",
+      "explanation": "Mike probes the data inputs needed for the product to operate.",
+      "evidence": [
+        "In this church management, what are the inputs? Is it contact information, dollar amounts, email, and attendance?"
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 34,
+          "speaker": "Mike",
+          "quote": "In this church management, what are the inputs? Is it contact information, dollar amounts, email, and attendance?"
+        }
+      ],
+      "activation": "queried",
+      "source_rationale_id": "R1",
+      "utterance_kind": "question",
+      "decision_support": "none",
+      "all_mention_ids": [
+        "R1"
+      ]
+    }
+  ],
+  "later_rationales": [
+    {
+      "rationale_label": "founder_execution",
+      "direction": "positive",
+      "salience": "secondary",
+      "confidence": 0.98,
+      "utterance_type": "assessment",
+      "decision_link": "none",
+      "timing": "later_commentary",
+      "turn_index": 375,
+      "quote": "You guys are incredibly lean. Your financial statements are very detailed, and you've thought through all, everything you're spending.",
+      "explanation": "Mike positively assesses the team's capital discipline and detailed financial management.",
+      "evidence": [
+        "You guys are incredibly lean. Your financial statements are very detailed, and you've thought through all, everything you're spending."
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 375,
+          "speaker": "Mike",
+          "quote": "You guys are incredibly lean. Your financial statements are very detailed, and you've thought through all, everything you're spending."
+        }
+      ],
+      "activation": "evaluated",
+      "source_rationale_id": "R9"
+    },
+    {
+      "rationale_label": "execution_risk_assessment",
+      "direction": "negative",
+      "salience": "secondary",
+      "confidence": 0.91,
+      "utterance_type": "concern",
+      "decision_link": "none",
+      "timing": "later_commentary",
+      "turn_index": 375,
+      "quote": "What I'm asking for is the same level of detail thinking through the next round, because the worst thing possible is for you to run out of money.",
+      "explanation": "Mike expresses concern that the team's planning for its next financing and runway lacks the detail shown in its current spending plan.",
+      "evidence": [
+        "What I'm asking for is the same level of detail thinking through the next round, because the worst thing possible is for you to run out of money."
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 375,
+          "speaker": "Mike",
+          "quote": "What I'm asking for is the same level of detail thinking through the next round, because the worst thing possible is for you to run out of money."
+        }
+      ],
+      "activation": "evaluated",
+      "source_rationale_id": "R10"
+    },
+    {
+      "rationale_label": "go_to_market_strategy_assessment",
+      "direction": "neutral",
+      "salience": "secondary",
+      "confidence": 0.96,
+      "utterance_type": "question",
+      "decision_link": "none",
+      "timing": "later_commentary",
+      "turn_index": 376,
+      "quote": "Why is it dialing for dollars? And what's the plan to make it more efficient?",
+      "explanation": "Mike probes why the company relies on outbound calling and how it intends to improve that acquisition motion.",
+      "evidence": [
+        "Why is it dialing for dollars? And what's the plan to make it more efficient?"
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 376,
+          "speaker": "Mike",
+          "quote": "Why is it dialing for dollars? And what's the plan to make it more efficient?"
+        }
+      ],
+      "activation": "queried",
+      "source_rationale_id": "R11"
+    },
+    {
+      "rationale_label": "go_to_market_strategy_assessment",
+      "direction": "negative",
+      "salience": "secondary",
+      "confidence": 0.98,
+      "utterance_type": "concern",
+      "decision_link": "none",
+      "timing": "later_commentary",
+      "turn_index": 377,
+      "quote": "this is a really high friction outbound sales motion, right?",
+      "explanation": "Mike explicitly characterizes the current outbound sales process as high friction.",
+      "evidence": [
+        "this is a really high friction outbound sales motion, right?"
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 377,
+          "speaker": "Mike",
+          "quote": "this is a really high friction outbound sales motion, right?"
+        }
+      ],
+      "activation": "evaluated",
+      "source_rationale_id": "R12"
+    },
+    {
+      "rationale_label": "market_size_assessment",
+      "direction": "neutral",
+      "salience": "secondary",
+      "confidence": 0.98,
+      "utterance_type": "question",
+      "decision_link": "none",
+      "timing": "later_commentary",
+      "turn_index": 378,
+      "quote": "Are you only targeting Christian churches? How do you think about TAM and other faiths?",
+      "explanation": "Mike probes the size and scope of the addressable market, including expansion beyond Christian churches.",
+      "evidence": [
+        "Are you only targeting Christian churches? How do you think about TAM and other faiths?"
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 378,
+          "speaker": "Mike",
+          "quote": "Are you only targeting Christian churches? How do you think about TAM and other faiths?"
+        }
+      ],
+      "activation": "queried",
+      "source_rationale_id": "R13"
+    },
+    {
+      "rationale_label": "founder_investor_vision_alignment",
+      "direction": "neutral",
+      "salience": "secondary",
+      "confidence": 0.84,
+      "utterance_type": "question",
+      "decision_link": "none",
+      "timing": "later_commentary",
+      "turn_index": 380,
+      "quote": "Is that a business decision or is that a faith decision?",
+      "explanation": "Mike tests whether the founder's intended market focus follows commercial strategy or a faith-based limitation.",
+      "evidence": [
+        "Is that a business decision or is that a faith decision?"
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 380,
+          "speaker": "Mike",
+          "quote": "Is that a business decision or is that a faith decision?"
+        }
+      ],
+      "activation": "queried",
+      "source_rationale_id": "R14"
+    }
+  ],
+  "excluded_rationales": [],
+  "rationale_mentions": [
+    {
+      "rationale_label": "solution_feasibility_assessment",
+      "direction": "neutral",
+      "salience": "secondary",
+      "confidence": 0.93,
+      "utterance_type": "question",
+      "decision_link": "none",
+      "timing": "original_pitch",
+      "turn_index": 34,
+      "quote": "In this church management, what are the inputs? Is it contact information, dollar amounts, email, and attendance?",
+      "explanation": "Mike probes the data inputs needed for the product to operate.",
+      "evidence": [
+        "In this church management, what are the inputs? Is it contact information, dollar amounts, email, and attendance?"
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 34,
+          "speaker": "Mike",
+          "quote": "In this church management, what are the inputs? Is it contact information, dollar amounts, email, and attendance?"
+        }
+      ],
+      "activation": "queried",
+      "source_rationale_id": "R1"
+    },
+    {
+      "rationale_label": "product_differentiation_concern",
+      "direction": "neutral",
+      "salience": "secondary",
+      "confidence": 0.97,
+      "utterance_type": "question",
+      "decision_link": "none",
+      "timing": "original_pitch",
+      "turn_index": 36,
+      "quote": "What's the data that populate that I couldn't use HubSpot for?",
+      "explanation": "Mike asks what distinguishes the product's data requirements from those of a general-purpose CRM.",
+      "evidence": [
+        "What's the data that populate that I couldn't use HubSpot for?"
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 36,
+          "speaker": "Mike",
+          "quote": "What's the data that populate that I couldn't use HubSpot for?"
+        }
+      ],
+      "activation": "queried",
+      "source_rationale_id": "R2"
+    },
+    {
+      "rationale_label": "product_differentiation_concern",
+      "direction": "neutral",
+      "salience": "secondary",
+      "confidence": 0.89,
+      "utterance_type": "question",
+      "decision_link": "none",
+      "timing": "original_pitch",
+      "turn_index": 42,
+      "quote": "What does it look like today, and what would it look like, in Church AI,",
+      "explanation": "Mike requests a concrete comparison between the existing workflow and the Church AI experience.",
+      "evidence": [
+        "What does it look like today, and what would it look like, in Church AI,"
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 42,
+          "speaker": "Mike",
+          "quote": "What does it look like today, and what would it look like, in Church AI,"
+        }
+      ],
+      "activation": "queried",
+      "source_rationale_id": "R3"
+    },
+    {
+      "rationale_label": "go_to_market_strategy_assessment",
+      "direction": "neutral",
+      "salience": "secondary",
+      "confidence": 0.98,
+      "utterance_type": "question",
+      "decision_link": "none",
+      "timing": "original_pitch",
+      "turn_index": 63,
+      "quote": "can you talk about the sales and go-to-market? 18 clients. where's the footprint? How are you acquiring them and where are you going with that?",
+      "explanation": "Mike probes the current acquisition motion, customer footprint, and expansion plan.",
+      "evidence": [
+        "can you talk about the sales and go-to-market? 18 clients. where's the footprint? How are you acquiring them and where are you going with that?"
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 63,
+          "speaker": "Mike",
+          "quote": "can you talk about the sales and go-to-market? 18 clients. where's the footprint? How are you acquiring them and where are you going with that?"
+        }
+      ],
+      "activation": "queried",
+      "source_rationale_id": "R4"
+    },
+    {
+      "rationale_label": "go_to_market_strategy_assessment",
+      "direction": "neutral",
+      "salience": "secondary",
+      "confidence": 0.98,
+      "utterance_type": "question",
+      "decision_link": "none",
+      "timing": "original_pitch",
+      "turn_index": 65,
+      "quote": "Are there any parts of the segmentation that can give you efficiency",
+      "explanation": "Mike asks whether customer segmentation can improve the efficiency of the sales funnel.",
+      "evidence": [
+        "Are there any parts of the segmentation that can give you efficiency"
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 65,
+          "speaker": "Mike",
+          "quote": "Are there any parts of the segmentation that can give you efficiency"
+        }
+      ],
+      "activation": "queried",
+      "source_rationale_id": "R5"
+    },
+    {
+      "rationale_label": "founder_communication_quality",
+      "direction": "positive",
+      "salience": "primary",
+      "confidence": 0.98,
+      "utterance_type": "decision_explanation",
+      "decision_link": "supports_in",
+      "timing": "original_pitch",
+      "turn_index": 74,
+      "quote": "I love how you're thinking about it, and every time I've tried to write my next question, you just gave me the answer",
+      "explanation": "Mike links his commitment to the founder's command of the business and ability to anticipate his questions.",
+      "evidence": [
+        "I love how you're thinking about it, and every time I've tried to write my next question, you just gave me the answer"
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 74,
+          "speaker": "Mike",
+          "quote": "I love how you're thinking about it, and every time I've tried to write my next question, you just gave me the answer"
+        }
+      ],
+      "activation": "evaluated",
+      "source_rationale_id": "R6"
+    },
+    {
+      "rationale_label": "mission_alignment_preference",
+      "direction": "neutral",
+      "salience": "secondary",
+      "confidence": 0.76,
+      "utterance_type": "question",
+      "decision_link": "none",
+      "timing": "original_pitch",
+      "turn_index": 101,
+      "quote": "I’m curious about your thoughts about what the impact is for both the church, the membership, and communities that you work in",
+      "explanation": "Mike probes the mission-level impact the company could have on churches, members, and their communities.",
+      "model_quote_before_typography_repair": "I'm curious about your thoughts about what the impact is for both the church, the membership, and communities that you work in",
+      "evidence": [
+        "I’m curious about your thoughts about what the impact is for both the church, the membership, and communities that you work in"
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 101,
+          "speaker": "Mike",
+          "quote": "I’m curious about your thoughts about what the impact is for both the church, the membership, and communities that you work in"
+        }
+      ],
+      "activation": "queried",
+      "source_rationale_id": "R7"
+    },
+    {
+      "rationale_label": "market_timing",
+      "direction": "positive",
+      "salience": "primary",
+      "confidence": 0.98,
+      "utterance_type": "decision_explanation",
+      "decision_link": "supports_in",
+      "timing": "original_pitch",
+      "turn_index": 224,
+      "quote": "I think we're craving real human connection. And if I and my investors can profit off that, shoot, I'm in.",
+      "explanation": "Mike links his investment interest to a timely shift toward in-person connection and community.",
+      "evidence": [
+        "I think we're craving real human connection. And if I and my investors can profit off that, shoot, I'm in."
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 224,
+          "speaker": "Mike",
+          "quote": "I think we're craving real human connection. And if I and my investors can profit off that, shoot, I'm in."
+        }
+      ],
+      "activation": "evaluated",
+      "source_rationale_id": "R8"
+    }
+  ],
+  "expanded_quote_evidence": [],
+  "rejected_after_evidence_check": []
+}

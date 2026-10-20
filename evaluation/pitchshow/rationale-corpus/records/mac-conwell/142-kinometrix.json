@@ -1,0 +1,684 @@
+{
+  "schema": "phase1-rationale-reference-v1",
+  "extraction_version": "pitchshow-rationales-v1",
+  "fingerprint": "2b85766588ea0b008689649d2d7ff008bf512a67d2d8aae805cd60515b427c1d",
+  "episode_slug": "142-kinometrix",
+  "vc_slug": "mac-conwell",
+  "vc_name": "Mac Conwell",
+  "actual_decision": "In",
+  "later_decision": "Unknown",
+  "reference_kind": "automated_transcript_observed_candidate",
+  "human_validated": false,
+  "source_format": "transcript-observed-rationales-v1",
+  "source_path": "/home/dpasch01/vclogic-vc-agentic-assessment/evaluation/pitchshow/investors/mac-conwell/source/episodes/142-kinometrix.json",
+  "source_sha256": "d72479d48c1effae6d18b048d76afa46a67065ca0e0c9bc4a39291381afb7dde",
+  "transcript_sha256": "f1b4e69f03c4a846ed749740c53b42a5a13e2e6d2ea2fb8d090df4d65b00043e",
+  "taxonomy_sha256": "eaa8734819a3ac34dd19ee5f0bf6de925a793a1d25a2d361090dafc9b751e1fc",
+  "model": "openai/gpt-5.6-luna",
+  "source_tier": "newly_extracted_and_independently_model_reviewed",
+  "reviewed_target_turns": [
+    2,
+    5,
+    7,
+    12,
+    25,
+    27,
+    29,
+    31,
+    33,
+    35,
+    37,
+    39,
+    41,
+    43,
+    45,
+    47,
+    53,
+    54,
+    78,
+    81,
+    98,
+    100,
+    108,
+    119,
+    121,
+    123,
+    125,
+    130,
+    133,
+    135,
+    141,
+    144,
+    149,
+    151,
+    153,
+    155,
+    158,
+    162,
+    165,
+    175
+  ],
+  "notes": "Reviewed every supplied Mac turn; omitted greetings, jokes, simple confirmations, generic panel banter, unsupported valuation questions, and questions that did not express a taxonomy-grounded rationale.",
+  "receipt_path": "/home/dpasch01/vclogic-vc-agentic-assessment/evaluation/pitchshow/investors/mac-conwell/rationale-references/receipts/142-kinometrix.json",
+  "scoring_scope": "original_pitch_only",
+  "shared_across_input_modes": true,
+  "rationales": [
+    {
+      "rationale_label": "business_model_assessment",
+      "direction": "positive",
+      "salience": "secondary",
+      "confidence": 0.89,
+      "utterance_type": "assessment",
+      "decision_link": "none",
+      "timing": "original_pitch",
+      "turn_index": 33,
+      "quote": "That's at scale. That's at scale.",
+      "explanation": "Mac recognizes the stated contract opportunity as commercially substantial.",
+      "evidence": [
+        "That's at scale. That's at scale."
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 33,
+          "speaker": "Mac",
+          "quote": "That's at scale. That's at scale."
+        }
+      ],
+      "activation": "evaluated",
+      "source_rationale_id": "R3",
+      "utterance_kind": "assessment",
+      "decision_support": "none",
+      "all_mention_ids": [
+        "R2",
+        "R3",
+        "R4"
+      ]
+    },
+    {
+      "rationale_label": "founder_communication_quality",
+      "direction": "negative",
+      "salience": "secondary",
+      "confidence": 0.91,
+      "utterance_type": "assessment",
+      "decision_link": "none",
+      "timing": "original_pitch",
+      "turn_index": 81,
+      "quote": "Don't be realistic in front of investors. It doesn’t help you.",
+      "explanation": "Mac criticizes the founder's realistic framing as ineffective investor communication.",
+      "evidence": [
+        "Don't be realistic in front of investors. It doesn’t help you."
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 81,
+          "speaker": "Mac",
+          "quote": "Don't be realistic in front of investors. It doesn’t help you."
+        }
+      ],
+      "activation": "evaluated",
+      "source_rationale_id": "R8",
+      "utterance_kind": "assessment",
+      "decision_support": "none",
+      "all_mention_ids": [
+        "R8"
+      ]
+    },
+    {
+      "rationale_label": "go_to_market_strategy_assessment",
+      "direction": "positive",
+      "salience": "primary",
+      "confidence": 0.92,
+      "utterance_type": "assessment",
+      "decision_link": "explicit",
+      "timing": "original_pitch",
+      "turn_index": 54,
+      "quote": "If you really do reduce the amount of head count and the amount of falls it's not going to be as hard of a sales cycle in the future.",
+      "explanation": "Mac believes measurable operational impact can make future hospital sales easier despite long current cycles.",
+      "evidence": [
+        "If you really do reduce the amount of head count and the amount of falls it's not going to be as hard of a sales cycle in the future."
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 54,
+          "speaker": "Mac",
+          "quote": "If you really do reduce the amount of head count and the amount of falls it's not going to be as hard of a sales cycle in the future."
+        }
+      ],
+      "activation": "evaluated",
+      "source_rationale_id": "R7",
+      "utterance_kind": "supporting_argument",
+      "decision_support": "supports_in",
+      "all_mention_ids": [
+        "R7"
+      ]
+    },
+    {
+      "rationale_label": "product_adoption",
+      "direction": "positive",
+      "salience": "primary",
+      "confidence": 0.89,
+      "utterance_type": "assessment",
+      "decision_link": "explicit",
+      "timing": "original_pitch",
+      "turn_index": 54,
+      "quote": "Getting pilots is super hard. Getting pilots of this scale, not something you see every day.",
+      "explanation": "Mac treats the unusually large pilots as strong early customer traction.",
+      "evidence": [
+        "Getting pilots is super hard. Getting pilots of this scale, not something you see every day."
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 54,
+          "speaker": "Mac",
+          "quote": "Getting pilots is super hard. Getting pilots of this scale, not something you see every day."
+        }
+      ],
+      "activation": "evaluated",
+      "source_rationale_id": "R6",
+      "utterance_kind": "supporting_argument",
+      "decision_support": "supports_in",
+      "all_mention_ids": [
+        "R6"
+      ]
+    },
+    {
+      "rationale_label": "product_appeal_assessment",
+      "direction": "positive",
+      "salience": "secondary",
+      "confidence": 0.9,
+      "utterance_type": "assessment",
+      "decision_link": "none",
+      "timing": "original_pitch",
+      "turn_index": 53,
+      "quote": "this is dope",
+      "explanation": "Mac gives an explicitly positive reaction to the opportunity.",
+      "evidence": [
+        "this is dope"
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 53,
+          "speaker": "Mac",
+          "quote": "this is dope"
+        }
+      ],
+      "activation": "evaluated",
+      "source_rationale_id": "R5",
+      "utterance_kind": "assessment",
+      "decision_support": "none",
+      "all_mention_ids": [
+        "R5"
+      ]
+    },
+    {
+      "rationale_label": "solution_feasibility_assessment",
+      "direction": "neutral",
+      "salience": "secondary",
+      "confidence": 0.93,
+      "utterance_type": "question",
+      "decision_link": "none",
+      "timing": "original_pitch",
+      "turn_index": 25,
+      "quote": "So, just to recapsulate. So the product's fully built?",
+      "explanation": "Mac checks whether the product is complete and operationally ready.",
+      "evidence": [
+        "So, just to recapsulate. So the product's fully built?"
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 25,
+          "speaker": "Mac",
+          "quote": "So, just to recapsulate. So the product's fully built?"
+        }
+      ],
+      "activation": "queried",
+      "source_rationale_id": "R1",
+      "utterance_kind": "question",
+      "decision_support": "none",
+      "all_mention_ids": [
+        "R1"
+      ]
+    }
+  ],
+  "later_rationales": [
+    {
+      "rationale_label": "founder_qualities",
+      "direction": "positive",
+      "salience": "secondary",
+      "confidence": 0.95,
+      "utterance_type": "assessment",
+      "decision_link": "none",
+      "timing": "later_commentary",
+      "turn_index": 119,
+      "quote": "as an impressive founder who's been through a lot",
+      "explanation": "Mac positively assesses the founder's overall quality and resilience.",
+      "evidence": [
+        "as an impressive founder who's been through a lot"
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 119,
+          "speaker": "Mac",
+          "quote": "as an impressive founder who's been through a lot"
+        }
+      ],
+      "activation": "evaluated",
+      "source_rationale_id": "R9"
+    },
+    {
+      "rationale_label": "founder_communication_quality",
+      "direction": "positive",
+      "salience": "secondary",
+      "confidence": 0.92,
+      "utterance_type": "assessment",
+      "decision_link": "none",
+      "timing": "later_commentary",
+      "turn_index": 119,
+      "quote": "super polished and corporate, which works really well in this industry",
+      "explanation": "Mac views the founder's polished, corporate presentation style as well suited to healthcare.",
+      "evidence": [
+        "super polished and corporate, which works really well in this industry"
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 119,
+          "speaker": "Mac",
+          "quote": "super polished and corporate, which works really well in this industry"
+        }
+      ],
+      "activation": "evaluated",
+      "source_rationale_id": "R10"
+    },
+    {
+      "rationale_label": "founder_communication_quality",
+      "direction": "negative",
+      "salience": "primary",
+      "confidence": 0.94,
+      "utterance_type": "assessment",
+      "decision_link": "none",
+      "timing": "later_commentary",
+      "turn_index": 119,
+      "quote": "She's figured out an answer to say for investors.",
+      "explanation": "Mac believes the founder supplied a prepared investor-facing answer rather than clearly communicating an actual plan.",
+      "evidence": [
+        "She's figured out an answer to say for investors."
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 119,
+          "speaker": "Mac",
+          "quote": "She's figured out an answer to say for investors."
+        }
+      ],
+      "activation": "evaluated",
+      "source_rationale_id": "R11"
+    },
+    {
+      "rationale_label": "founder_investor_vision_alignment",
+      "direction": "negative",
+      "salience": "primary",
+      "confidence": 0.9,
+      "utterance_type": "assessment",
+      "decision_link": "none",
+      "timing": "later_commentary",
+      "turn_index": 119,
+      "quote": "She doesn't even know where her actual exit plan is.",
+      "explanation": "Mac sees the founder as lacking clarity about the company's intended exit direction.",
+      "evidence": [
+        "She doesn't even know where her actual exit plan is."
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 119,
+          "speaker": "Mac",
+          "quote": "She doesn't even know where her actual exit plan is."
+        }
+      ],
+      "activation": "evaluated",
+      "source_rationale_id": "R12"
+    },
+    {
+      "rationale_label": "venture_scale_concern",
+      "direction": "negative",
+      "salience": "primary",
+      "confidence": 0.92,
+      "utterance_type": "supporting_argument",
+      "decision_link": "none",
+      "timing": "later_commentary",
+      "turn_index": 119,
+      "quote": "the players she was talking about aren't players that acquire companies at billion dollar valuations",
+      "explanation": "Mac questions whether the proposed acquirers could support a billion-dollar venture outcome.",
+      "evidence": [
+        "the players she was talking about aren't players that acquire companies at billion dollar valuations"
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 119,
+          "speaker": "Mac",
+          "quote": "the players she was talking about aren't players that acquire companies at billion dollar valuations"
+        }
+      ],
+      "activation": "evaluated",
+      "source_rationale_id": "R13"
+    },
+    {
+      "rationale_label": "founder_coachability_assessment",
+      "direction": "positive",
+      "salience": "secondary",
+      "confidence": 0.88,
+      "utterance_type": "assessment",
+      "decision_link": "none",
+      "timing": "later_commentary",
+      "turn_index": 121,
+      "quote": "That's a coaching thing.",
+      "explanation": "Mac characterizes the exit-plan problem as correctable through coaching rather than as a fixed deficiency.",
+      "evidence": [
+        "That's a coaching thing."
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 121,
+          "speaker": "Mac",
+          "quote": "That's a coaching thing."
+        }
+      ],
+      "activation": "evaluated",
+      "source_rationale_id": "R14"
+    },
+    {
+      "rationale_label": "investor_experience_bias",
+      "direction": "neutral",
+      "salience": "secondary",
+      "confidence": 0.98,
+      "utterance_type": "assessment",
+      "decision_link": "none",
+      "timing": "later_commentary",
+      "turn_index": 130,
+      "quote": "as a former founder, I used a lot of my former founder lens to evaluate other founders. And I had to learn to unprogram that.",
+      "explanation": "Mac explicitly describes how his prior founder experience shaped and required recalibration of his investment judgment.",
+      "evidence": [
+        "as a former founder, I used a lot of my former founder lens to evaluate other founders. And I had to learn to unprogram that."
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 130,
+          "speaker": "Mac",
+          "quote": "as a former founder, I used a lot of my former founder lens to evaluate other founders. And I had to learn to unprogram that."
+        }
+      ],
+      "activation": "evaluated",
+      "source_rationale_id": "R15"
+    },
+    {
+      "rationale_label": "founder_qualities",
+      "direction": "positive",
+      "salience": "secondary",
+      "confidence": 0.9,
+      "utterance_type": "supporting_argument",
+      "decision_link": "none",
+      "timing": "later_commentary",
+      "turn_index": 130,
+      "quote": "People tend to over index on the bombastic founder and less on the more measured.",
+      "explanation": "Mac argues that measured founders should not be discounted relative to bombastic personalities.",
+      "evidence": [
+        "People tend to over index on the bombastic founder and less on the more measured."
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 130,
+          "speaker": "Mac",
+          "quote": "People tend to over index on the bombastic founder and less on the more measured."
+        }
+      ],
+      "activation": "evaluated",
+      "source_rationale_id": "R16"
+    },
+    {
+      "rationale_label": "founder_execution",
+      "direction": "positive",
+      "salience": "secondary",
+      "confidence": 0.9,
+      "utterance_type": "supporting_argument",
+      "decision_link": "none",
+      "timing": "later_commentary",
+      "turn_index": 130,
+      "quote": "sometimes the more measured founder's the one who's going to be the better operator.",
+      "explanation": "Mac connects a measured founder profile with potentially stronger operating ability.",
+      "model_quote_before_typography_repair": "Sometimes the more measured founder's the one who's going to be the better operator.",
+      "evidence": [
+        "sometimes the more measured founder's the one who's going to be the better operator."
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 130,
+          "speaker": "Mac",
+          "quote": "sometimes the more measured founder's the one who's going to be the better operator."
+        }
+      ],
+      "activation": "evaluated",
+      "source_rationale_id": "R17"
+    }
+  ],
+  "excluded_rationales": [
+    {
+      "rationale_label": "business_model_assessment",
+      "direction": "neutral",
+      "salience": "secondary",
+      "confidence": 0.95,
+      "utterance_type": "question",
+      "decision_link": "none",
+      "timing": "teaser",
+      "turn_index": 175,
+      "quote": "And you'll get $5 every phone call?",
+      "explanation": "Mac asks a factual question about the featured company's per-call monetization.",
+      "evidence": [
+        "And you'll get $5 every phone call?"
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 175,
+          "speaker": "Mac",
+          "quote": "And you'll get $5 every phone call?"
+        }
+      ],
+      "activation": "queried",
+      "source_rationale_id": "R18"
+    }
+  ],
+  "rationale_mentions": [
+    {
+      "rationale_label": "solution_feasibility_assessment",
+      "direction": "neutral",
+      "salience": "secondary",
+      "confidence": 0.93,
+      "utterance_type": "question",
+      "decision_link": "none",
+      "timing": "original_pitch",
+      "turn_index": 25,
+      "quote": "So, just to recapsulate. So the product's fully built?",
+      "explanation": "Mac checks whether the product is complete and operationally ready.",
+      "evidence": [
+        "So, just to recapsulate. So the product's fully built?"
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 25,
+          "speaker": "Mac",
+          "quote": "So, just to recapsulate. So the product's fully built?"
+        }
+      ],
+      "activation": "queried",
+      "source_rationale_id": "R1"
+    },
+    {
+      "rationale_label": "business_model_assessment",
+      "direction": "neutral",
+      "salience": "secondary",
+      "confidence": 0.94,
+      "utterance_type": "question",
+      "decision_link": "none",
+      "timing": "original_pitch",
+      "turn_index": 29,
+      "quote": "What's the, the average value of those contracts?",
+      "explanation": "Mac asks about contract value to assess the commercial opportunity.",
+      "evidence": [
+        "What's the, the average value of those contracts?"
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 29,
+          "speaker": "Mac",
+          "quote": "What's the, the average value of those contracts?"
+        }
+      ],
+      "activation": "queried",
+      "source_rationale_id": "R2"
+    },
+    {
+      "rationale_label": "business_model_assessment",
+      "direction": "positive",
+      "salience": "secondary",
+      "confidence": 0.89,
+      "utterance_type": "assessment",
+      "decision_link": "none",
+      "timing": "original_pitch",
+      "turn_index": 33,
+      "quote": "That's at scale. That's at scale.",
+      "explanation": "Mac recognizes the stated contract opportunity as commercially substantial.",
+      "evidence": [
+        "That's at scale. That's at scale."
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 33,
+          "speaker": "Mac",
+          "quote": "That's at scale. That's at scale."
+        }
+      ],
+      "activation": "evaluated",
+      "source_rationale_id": "R3"
+    },
+    {
+      "rationale_label": "business_model_assessment",
+      "direction": "neutral",
+      "salience": "secondary",
+      "confidence": 0.9,
+      "utterance_type": "question",
+      "decision_link": "none",
+      "timing": "original_pitch",
+      "turn_index": 37,
+      "quote": "How much are they doing for the pilot?",
+      "explanation": "Mac asks about the size or scope of the pilot commitment.",
+      "evidence": [
+        "How much are they doing for the pilot?"
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 37,
+          "speaker": "Mac",
+          "quote": "How much are they doing for the pilot?"
+        }
+      ],
+      "activation": "queried",
+      "source_rationale_id": "R4"
+    },
+    {
+      "rationale_label": "product_appeal_assessment",
+      "direction": "positive",
+      "salience": "secondary",
+      "confidence": 0.9,
+      "utterance_type": "assessment",
+      "decision_link": "none",
+      "timing": "original_pitch",
+      "turn_index": 53,
+      "quote": "this is dope",
+      "explanation": "Mac gives an explicitly positive reaction to the opportunity.",
+      "evidence": [
+        "this is dope"
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 53,
+          "speaker": "Mac",
+          "quote": "this is dope"
+        }
+      ],
+      "activation": "evaluated",
+      "source_rationale_id": "R5"
+    },
+    {
+      "rationale_label": "product_adoption",
+      "direction": "positive",
+      "salience": "primary",
+      "confidence": 0.89,
+      "utterance_type": "supporting_argument",
+      "decision_link": "supports_in",
+      "timing": "original_pitch",
+      "turn_index": 54,
+      "quote": "Getting pilots is super hard. Getting pilots of this scale, not something you see every day.",
+      "explanation": "Mac treats the unusually large pilots as strong early customer traction.",
+      "evidence": [
+        "Getting pilots is super hard. Getting pilots of this scale, not something you see every day."
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 54,
+          "speaker": "Mac",
+          "quote": "Getting pilots is super hard. Getting pilots of this scale, not something you see every day."
+        }
+      ],
+      "activation": "evaluated",
+      "source_rationale_id": "R6"
+    },
+    {
+      "rationale_label": "go_to_market_strategy_assessment",
+      "direction": "positive",
+      "salience": "primary",
+      "confidence": 0.92,
+      "utterance_type": "supporting_argument",
+      "decision_link": "supports_in",
+      "timing": "original_pitch",
+      "turn_index": 54,
+      "quote": "If you really do reduce the amount of head count and the amount of falls it's not going to be as hard of a sales cycle in the future.",
+      "explanation": "Mac believes measurable operational impact can make future hospital sales easier despite long current cycles.",
+      "evidence": [
+        "If you really do reduce the amount of head count and the amount of falls it's not going to be as hard of a sales cycle in the future."
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 54,
+          "speaker": "Mac",
+          "quote": "If you really do reduce the amount of head count and the amount of falls it's not going to be as hard of a sales cycle in the future."
+        }
+      ],
+      "activation": "evaluated",
+      "source_rationale_id": "R7"
+    },
+    {
+      "rationale_label": "founder_communication_quality",
+      "direction": "negative",
+      "salience": "secondary",
+      "confidence": 0.91,
+      "utterance_type": "assessment",
+      "decision_link": "none",
+      "timing": "original_pitch",
+      "turn_index": 81,
+      "quote": "Don't be realistic in front of investors. It doesn’t help you.",
+      "explanation": "Mac criticizes the founder's realistic framing as ineffective investor communication.",
+      "evidence": [
+        "Don't be realistic in front of investors. It doesn’t help you."
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 81,
+          "speaker": "Mac",
+          "quote": "Don't be realistic in front of investors. It doesn’t help you."
+        }
+      ],
+      "activation": "evaluated",
+      "source_rationale_id": "R8"
+    }
+  ],
+  "expanded_quote_evidence": [],
+  "rejected_after_evidence_check": []
+}

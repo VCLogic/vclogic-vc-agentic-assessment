@@ -1,23 +1,36 @@
-# Investment Theses — Jillian Manus / Structure Capital
+# Jillian Manus — Investment Theses
 
-Source: `data/investors/jillian-manus-structure-capital.json` → `investment_theses` (quotes retained; episode references are provenance metadata only, and no Pitch transcript was read).
+## Direct venture investment
 
-## Values before price
+- **Explicit — learned failure as an asset:** Manus prefers founders, and in one formulation companies, with failure experience because they should better understand which mistakes not to repeat. The thesis requires evidence of learning; the record does not support treating failure alone as sufficient. [ev:jillian-manus-structure-capital-0008] [ev:jillian-manus-structure-capital-0009] [ev:jillian-manus-structure-capital-0018]
+- **Explicit — people before static product:** she says failure is more often attributable to people than products, while reports of her 2025 masterclass emphasize teams, execution, and vision when metrics remain unproven. [ev:jillian-manus-structure-capital-0010] [ctx:jillian-manus-structure-capital-0042] [ctx:jillian-manus-structure-capital-0045]
+- **Explicit / inferred boundary — values-led underwriting:** integrity is explicitly weighted above competence; trust, transparency, humility, and honor are repeatedly praised. Applying the latter operating values as universal investment gates is **Inferred**, although they clearly shape her conception of high-quality leadership. [ev:jillian-manus-structure-capital-0011] [ev:jillian-manus-structure-capital-0012] [ev:jillian-manus-structure-capital-0013] [ev:jillian-manus-structure-capital-0015] [ev:jillian-manus-structure-capital-0019]
+- **Explicit — founder–market fit and differentiation:** founders should explain a qualified problem, why their team is uniquely capable, and their UVP. [ev:jillian-manus-structure-capital-0020] [ev:jillian-manus-structure-capital-0021] [ev:jillian-manus-structure-capital-0022]
+- **Inferred from operating advice — customer immersion:** Manus says product–market fit follows deep understanding of the issue and immersion in customers’ worlds. This supports diligence on problem discovery but is not recorded as a universal prerequisite for investment. [ev:jillian-manus-structure-capital-0016]
+- **Explicit — emotional product connection:** she values customers’ and funders’ emotional connection to the product and distinguishes product ownership from mere purchase. [ev:jillian-manus-structure-capital-0001] [ev:jillian-manus-structure-capital-0023]
+- **Source-reported firm thesis — zero-waste economics:** Structure Capital is repeatedly characterized as investing in early-stage businesses that create value from waste, underutilized assets, or excess capacity. [ctx:jillian-manus-structure-capital-0013] [ctx:jillian-manus-structure-capital-0032] [ctx:jillian-manus-structure-capital-0038] [ctx:jillian-manus-structure-capital-0070]
+- **Explicit, historical — substance and governance in token financing:** in 2018 she warned that white-paper-only ICOs could be scams, while SEC filings, diligence packages, and a real product made an opportunity more interesting. [ev:jillian-manus-structure-capital-0002] [ev:jillian-manus-structure-capital-0003] [ev:jillian-manus-structure-capital-0004] [ev:jillian-manus-structure-capital-0005]
+- **Explicit, 2025 European outlook — broad innovation sectors:** she named AI, biotech, climate/clean tech, fintech, healthtech, quantum, advanced robotics, semiconductors, defence, and dual use as prospective European return areas through 2030. [ev:jillian-manus-structure-capital-0024] [ev:jillian-manus-structure-capital-0025]
+- **Mandate-specific — national-security frontier technology:** profiles of her SHIELD role report an early-stage focus on commercial/national-security dual use, particularly cyber, AI, autonomy, and space. [ctx:jillian-manus-structure-capital-0030] [ctx:jillian-manus-structure-capital-0049]
+- **Mission dimension — employment:** source summaries attribute her venture motivation to job creation rather than personal enrichment and connect her reported investment in The Shift with veteran employment. This is mission context, not a demonstrated return concession. [ctx:jillian-manus-structure-capital-0025] [ctx:jillian-manus-structure-capital-0026] [ctx:jillian-manus-structure-capital-0063]
+- **Inclusion with equal standards:** source summaries say Manus widens women’s opportunity to pitch but does not invest merely because a founder is a woman and expects the same proof standard. [ctx:jillian-manus-structure-capital-0023] [ctx:jillian-manus-structure-capital-0024] [ctx:jillian-manus-structure-capital-0062]
 
-- **“We invest in values, not just valuations.”** *(S3 Ep2)*
-  - Founder and company values are treated as operating discipline and a predictor of leadership quality.
+## Evolution and tension
 
-## Communication accelerates product
+- **2015–2022 core:** appearances and profiles consistently place her in early-stage venture, sharing-economy or zero-waste discussions, with Structure Capital focused on underused resources and very-early-stage investing. [ctx:jillian-manus-structure-capital-0066] [ctx:jillian-manus-structure-capital-0029] [ctx:jillian-manus-structure-capital-0038]
+- **2018 caution versus innovation:** she warned about irresponsible ICOs and fraud while also observing that genuine innovations are often criticized early and that volatility persists until applications become understood. [ev:jillian-manus-structure-capital-0002] [ev:jillian-manus-structure-capital-0007]
+- **2025 outlook and separately reported mandate:** the zero-waste thesis remained source-reported, but her public outlook expanded across European deep tech and defence. An undated profile separately describes a SHIELD dual-use mandate; it does not establish a SHIELD role by 2025. The evidence supports coexistence, not replacement of the original thesis. [ctx:jillian-manus-structure-capital-0051] [ev:jillian-manus-structure-capital-0024] [ev:jillian-manus-structure-capital-0025] [ctx:jillian-manus-structure-capital-0049]
+- **Validation tension:** source reports contrast Europe’s validated technologies with a U.S. willingness to back vision and execution before proven metrics. Manus’s own product comments still demand substance in the ICO context, so early-stage openness should not be read as tolerance for empty promotion. [ctx:jillian-manus-structure-capital-0041] [ctx:jillian-manus-structure-capital-0042] [ev:jillian-manus-structure-capital-0004] [ev:jillian-manus-structure-capital-0005]
 
-- **“You can have the most incredible product, but if you don't know how to talk about it, you're going to have a problem accelerating it.”** *(S1 Ep1)*
-  - Narrative clarity affects customers, employees, partners, and investors.
+## Fund allocation and ecosystem strategy
 
-## Fanatical markets
+- **Investor-access thesis:** Manus is reported to support a hybrid of reforming incumbent venture investors and building a separate funding ecosystem, with more onramps for women to make small seed investments after learning diligence and business fundamentals. [ctx:jillian-manus-structure-capital-0021] [ctx:jillian-manus-structure-capital-0022] [ctx:jillian-manus-structure-capital-0065]
+- **European institutional allocation:** she argued that 2% of European pension capital—described by her as €300 billion—directed to venture scale-up could change Europe’s innovation position. This is her reported policy thesis, not independently verified arithmetic. [ctx:jillian-manus-structure-capital-0072]
+- **Cross-border capital:** she views defence as an entry point for U.S. investors joining European venture markets and characterizes the EU pipeline as robust but much more slowly and lightly funded than the U.S. pipeline. [ev:jillian-manus-structure-capital-0026] [ctx:jillian-manus-structure-capital-0071]
 
-- **“I look for a fanatical audience. If you have a fanatical market, you can sell them anything.”** *(S10 Ep7)*
-  - Intense customer identity and loyalty can provide an expandable commercial wedge.
+## Public markets, real estate, and operating-company strategy
 
-## Focus before expansion
-
-- **“Don't boil the ocean. Hit one thing, do it well, and then expand from there.”** *(S1 Ep9)*
-  - Prove a narrow wedge before broadening product or market scope.
+- **Public markets:** no supported recurring public-equity selection thesis appears in the packet; discussion of European pension allocation concerns venture funds or entities, not listed-stock investing. [ctx:jillian-manus-structure-capital-0072]
+- **Real estate:** no direct real-estate investment thesis is documented. References to underutilized assets and excess capacity describe a broader venture model and should not be narrowed into property investing. [ctx:jillian-manus-structure-capital-0013] [ctx:jillian-manus-structure-capital-0034]
+- **Operating-company strategy, explicitly distinguished:** customer immersion, values-led culture, broad thinking with focused execution, and awareness that builders embed bias in AI are operating principles. Their use as company-selection rules is **Inferred** unless separately expressed as an investment criterion. [ev:jillian-manus-structure-capital-0011] [ev:jillian-manus-structure-capital-0014] [ev:jillian-manus-structure-capital-0016] [ev:jillian-manus-structure-capital-0017]
+- **Operating support model:** sources report that she provides strategic support to founding teams and that Structure Capital supplies capital and marketing strategy, but they do not define a formal operating-partner service package. [ctx:jillian-manus-structure-capital-0019] [ctx:jillian-manus-structure-capital-0082]

@@ -1,0 +1,824 @@
+{
+  "schema": "phase1-rationale-reference-v1",
+  "extraction_version": "pitchshow-rationales-v1",
+  "fingerprint": "d4e86d50720688576ab617de9ea6133f56e2acee987e08ada9d56c656e969121",
+  "episode_slug": "170-original-sunshine-the-best-bagel-youve-never-heard-of",
+  "vc_slug": "charles-hudson-precursor-ventures",
+  "vc_name": "Charles Hudson",
+  "actual_decision": "In",
+  "later_decision": "In",
+  "reference_kind": "automated_transcript_observed_candidate",
+  "human_validated": false,
+  "source_format": "transcript-observed-rationales-v1",
+  "source_path": "/home/dpasch01/vclogic-vc-agentic-assessment/evaluation/pitchshow/investors/charles-hudson-precursor-ventures/source/episodes/170-original-sunshine-the-best-bagel-youve-never-heard-of.json",
+  "source_sha256": "6fc70480d24cb23dcf88aaf7ff60c52af082ed11d1af12b82a0c79f3a1f91227",
+  "transcript_sha256": "57a08dd655efe7e85613b69ad81a3218f11dde94073ca41ecceee646ea3c276a",
+  "taxonomy_sha256": "eaa8734819a3ac34dd19ee5f0bf6de925a793a1d25a2d361090dafc9b751e1fc",
+  "model": "openai/gpt-5.6-luna",
+  "source_tier": "newly_extracted_and_independently_model_reviewed",
+  "reviewed_target_turns": [
+    20,
+    123,
+    166,
+    190,
+    216,
+    224,
+    257,
+    259,
+    262,
+    264,
+    266,
+    268,
+    270,
+    272,
+    274,
+    276,
+    278,
+    280,
+    282,
+    287,
+    346,
+    358,
+    364,
+    395,
+    397,
+    417,
+    424,
+    478,
+    480,
+    483,
+    485,
+    487,
+    489,
+    491,
+    493,
+    495,
+    498,
+    500,
+    502,
+    504,
+    506,
+    508,
+    510,
+    512
+  ],
+  "notes": "Reviewed every supplied Charles turn. Non-rationale confirmations, greetings, jokes, incomplete portfolio-context fragments, and bare investment-status statements were omitted.",
+  "receipt_path": "/home/dpasch01/vclogic-vc-agentic-assessment/evaluation/pitchshow/investors/charles-hudson-precursor-ventures/rationale-references/receipts/170-original-sunshine-the-best-bagel-youve-never-heard-of.json",
+  "scoring_scope": "original_pitch_only",
+  "shared_across_input_modes": true,
+  "rationales": [
+    {
+      "rationale_label": "founder_qualities",
+      "direction": "positive",
+      "salience": "secondary",
+      "confidence": 0.91,
+      "utterance_type": "assessment",
+      "decision_link": "none",
+      "timing": "original_pitch",
+      "turn_index": 276,
+      "quote": "that goes a long way when you're dealing with the ups and downs",
+      "explanation": "Charles believes the founders' relationship will help them manage the company's difficulties.",
+      "evidence": [
+        "you two have a genuine affection for each other.",
+        "that goes a long way when you're dealing with the ups and downs"
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 274,
+          "speaker": "Charles",
+          "quote": "you two have a genuine affection for each other."
+        },
+        {
+          "turn_index": 276,
+          "speaker": "Charles",
+          "quote": "that goes a long way when you're dealing with the ups and downs"
+        }
+      ],
+      "activation": "evaluated",
+      "source_rationale_id": "R11",
+      "utterance_kind": "supporting_argument",
+      "decision_support": "none",
+      "all_mention_ids": [
+        "R10",
+        "R11"
+      ]
+    },
+    {
+      "rationale_label": "founder_skillset",
+      "direction": "neutral",
+      "salience": "secondary",
+      "confidence": 0.86,
+      "utterance_type": "question",
+      "decision_link": "none",
+      "timing": "original_pitch",
+      "turn_index": 166,
+      "quote": "What's the current team makeup?",
+      "explanation": "Charles asks who makes up the team, a material question for identifying the available company-building skills.",
+      "evidence": [
+        "What's the current team makeup?"
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 166,
+          "speaker": "Charles",
+          "quote": "What's the current team makeup?"
+        }
+      ],
+      "activation": "queried",
+      "source_rationale_id": "R1",
+      "utterance_kind": "question",
+      "decision_support": "none",
+      "all_mention_ids": [
+        "R1"
+      ]
+    },
+    {
+      "rationale_label": "investor_experience_bias",
+      "direction": "positive",
+      "salience": "primary",
+      "confidence": 0.97,
+      "utterance_type": "assessment",
+      "decision_link": "explicit",
+      "timing": "original_pitch",
+      "turn_index": 264,
+      "quote": "We've done manufactured products, so those don't scare me.",
+      "explanation": "Charles says prior experience with manufactured products removes a concern and directly precedes his commitment to invest.",
+      "evidence": [
+        "We've done manufactured products, so those don't scare me."
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 264,
+          "speaker": "Charles",
+          "quote": "We've done manufactured products, so those don't scare me."
+        }
+      ],
+      "activation": "evaluated",
+      "source_rationale_id": "R5",
+      "utterance_kind": "supporting_argument",
+      "decision_support": "supports_in",
+      "all_mention_ids": [
+        "R3",
+        "R5"
+      ]
+    },
+    {
+      "rationale_label": "investor_value_add_fit",
+      "direction": "neutral",
+      "salience": "secondary",
+      "confidence": 0.95,
+      "utterance_type": "question",
+      "decision_link": "none",
+      "timing": "original_pitch",
+      "turn_index": 216,
+      "quote": "What are you guys looking for beyond capital? Like what could investors do to help you?",
+      "explanation": "Charles asks what non-capital support the company needs from investors.",
+      "evidence": [
+        "What are you guys looking for beyond capital? Like what could investors do to help you?"
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 216,
+          "speaker": "Charles",
+          "quote": "What are you guys looking for beyond capital? Like what could investors do to help you?"
+        }
+      ],
+      "activation": "queried",
+      "source_rationale_id": "R2",
+      "utterance_kind": "question",
+      "decision_support": "none",
+      "all_mention_ids": [
+        "R2"
+      ]
+    },
+    {
+      "rationale_label": "market_problem_validation",
+      "direction": "positive",
+      "salience": "secondary",
+      "confidence": 0.93,
+      "utterance_type": "assessment",
+      "decision_link": "none",
+      "timing": "original_pitch",
+      "turn_index": 282,
+      "quote": "there are many times where we're having meals or meetings and we have to think about how to accommodate her out of respect.",
+      "explanation": "Charles describes a recurring, concrete need to accommodate gluten-free people.",
+      "evidence": [
+        "there are many times where we're having meals or meetings and we have to think about how to accommodate her out of respect."
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 282,
+          "speaker": "Charles",
+          "quote": "there are many times where we're having meals or meetings and we have to think about how to accommodate her out of respect."
+        }
+      ],
+      "activation": "evaluated",
+      "source_rationale_id": "R13",
+      "utterance_kind": "supporting_argument",
+      "decision_support": "none",
+      "all_mention_ids": [
+        "R13"
+      ]
+    },
+    {
+      "rationale_label": "product_appeal_assessment",
+      "direction": "positive",
+      "salience": "secondary",
+      "confidence": 0.95,
+      "utterance_type": "assessment",
+      "decision_link": "none",
+      "timing": "original_pitch",
+      "turn_index": 280,
+      "quote": "It's very good.",
+      "explanation": "Charles gives another direct positive assessment of the product.",
+      "evidence": [
+        "frozen bread can only be so good, and then you have that product.",
+        "it’s a good bagel!",
+        "I was like, it was a good bagel.",
+        "It's very good."
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 259,
+          "speaker": "Charles",
+          "quote": "frozen bread can only be so good, and then you have that product."
+        },
+        {
+          "turn_index": 264,
+          "speaker": "Charles",
+          "quote": "it’s a good bagel!"
+        },
+        {
+          "turn_index": 266,
+          "speaker": "Charles",
+          "quote": "I was like, it was a good bagel."
+        },
+        {
+          "turn_index": 280,
+          "speaker": "Charles",
+          "quote": "It's very good."
+        }
+      ],
+      "activation": "evaluated",
+      "source_rationale_id": "R12",
+      "utterance_kind": "assessment",
+      "decision_support": "none",
+      "all_mention_ids": [
+        "R4",
+        "R6",
+        "R7",
+        "R12"
+      ]
+    },
+    {
+      "rationale_label": "product_success_factor_assessment",
+      "direction": "neutral",
+      "salience": "primary",
+      "confidence": 0.96,
+      "utterance_type": "decision_reason",
+      "decision_link": "none",
+      "timing": "original_pitch",
+      "turn_index": 270,
+      "quote": "my rule with food-based investments is the product has to taste good.",
+      "explanation": "Charles states taste as a central criterion for evaluating food investments.",
+      "evidence": [
+        "my rule with food-based investments is the product has to taste good.",
+        "nobody will eat or buy this."
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 270,
+          "speaker": "Charles",
+          "quote": "my rule with food-based investments is the product has to taste good."
+        },
+        {
+          "turn_index": 272,
+          "speaker": "Charles",
+          "quote": "nobody will eat or buy this."
+        }
+      ],
+      "activation": "evaluated",
+      "source_rationale_id": "R8",
+      "utterance_kind": "decision_explanation",
+      "decision_support": "none",
+      "all_mention_ids": [
+        "R8",
+        "R9"
+      ]
+    },
+    {
+      "rationale_label": "solution_feasibility_assessment",
+      "direction": "positive",
+      "salience": "secondary",
+      "confidence": 0.78,
+      "utterance_type": "assessment",
+      "decision_link": "none",
+      "timing": "original_pitch",
+      "turn_index": 282,
+      "quote": "everybody could just eat this and this would solve her problem.",
+      "explanation": "Charles sees the product as a practical solution that can be shared by both gluten-free and non-gluten-free diners.",
+      "evidence": [
+        "everybody could just eat this and this would solve her problem."
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 282,
+          "speaker": "Charles",
+          "quote": "everybody could just eat this and this would solve her problem."
+        }
+      ],
+      "activation": "evaluated",
+      "source_rationale_id": "R14",
+      "utterance_kind": "supporting_argument",
+      "decision_support": "none",
+      "all_mention_ids": [
+        "R14"
+      ]
+    }
+  ],
+  "later_rationales": [
+    {
+      "rationale_label": "business_model_assessment",
+      "direction": "negative",
+      "salience": "secondary",
+      "confidence": 0.87,
+      "utterance_type": "concern",
+      "decision_link": "none",
+      "timing": "later_commentary",
+      "turn_index": 397,
+      "quote": "you pay for it in other ways.",
+      "explanation": "Charles cautions that food service's apparent lack of marketing cost entails other economic tradeoffs.",
+      "evidence": [
+        "you pay for it in other ways."
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 397,
+          "speaker": "Charles",
+          "quote": "you pay for it in other ways."
+        }
+      ],
+      "activation": "evaluated",
+      "source_rationale_id": "R15"
+    },
+    {
+      "rationale_label": "execution_risk_assessment",
+      "direction": "neutral",
+      "salience": "secondary",
+      "confidence": 0.86,
+      "utterance_type": "question",
+      "decision_link": "none",
+      "timing": "later_commentary",
+      "turn_index": 483,
+      "quote": "talk through like the sequencing of the things that you guys will do once you have the money.",
+      "explanation": "Charles asks the founders to explain the sequence of post-financing execution.",
+      "evidence": [
+        "talk through like the sequencing of the things that you guys will do once you have the money."
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 483,
+          "speaker": "Charles",
+          "quote": "talk through like the sequencing of the things that you guys will do once you have the money."
+        }
+      ],
+      "activation": "queried",
+      "source_rationale_id": "R16"
+    },
+    {
+      "rationale_label": "go_to_market_strategy_assessment",
+      "direction": "neutral",
+      "salience": "secondary",
+      "confidence": 0.9,
+      "utterance_type": "question",
+      "decision_link": "none",
+      "timing": "later_commentary",
+      "turn_index": 491,
+      "quote": "How does it change your day to day?",
+      "explanation": "Charles asks how adding DOT changes the company's distribution operations.",
+      "evidence": [
+        "How does it change your day to day?"
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 491,
+          "speaker": "Charles",
+          "quote": "How does it change your day to day?"
+        }
+      ],
+      "activation": "queried",
+      "source_rationale_id": "R17"
+    },
+    {
+      "rationale_label": "go_to_market_strategy_assessment",
+      "direction": "neutral",
+      "salience": "secondary",
+      "confidence": 0.91,
+      "utterance_type": "question",
+      "decision_link": "none",
+      "timing": "later_commentary",
+      "turn_index": 493,
+      "quote": "Is it really just the, is it just the volume or is it more to it than that?",
+      "explanation": "Charles probes whether DOT changes only volume or also other aspects of the distribution model.",
+      "evidence": [
+        "Is it really just the, is it just the volume or is it more to it than that?"
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 493,
+          "speaker": "Charles",
+          "quote": "Is it really just the, is it just the volume or is it more to it than that?"
+        }
+      ],
+      "activation": "queried",
+      "source_rationale_id": "R18"
+    },
+    {
+      "rationale_label": "execution_risk_assessment",
+      "direction": "neutral",
+      "salience": "secondary",
+      "confidence": 0.9,
+      "utterance_type": "question",
+      "decision_link": "none",
+      "timing": "later_commentary",
+      "turn_index": 504,
+      "quote": "what's the most important thing for you guys to get done in the context of this round?",
+      "explanation": "Charles asks the founders to identify their highest-priority execution objective for the financing.",
+      "evidence": [
+        "what's the most important thing for you guys to get done in the context of this round?"
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 504,
+          "speaker": "Charles",
+          "quote": "what's the most important thing for you guys to get done in the context of this round?"
+        }
+      ],
+      "activation": "queried",
+      "source_rationale_id": "R19"
+    },
+    {
+      "rationale_label": "founder_investor_vision_alignment",
+      "direction": "neutral",
+      "salience": "secondary",
+      "confidence": 0.88,
+      "utterance_type": "supporting_argument",
+      "decision_link": "none",
+      "timing": "later_commentary",
+      "turn_index": 506,
+      "quote": "to be in agreement with the founders",
+      "explanation": "Charles says he wants alignment with the founders on the key priority for the round.",
+      "evidence": [
+        "to be in agreement with the founders"
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 506,
+          "speaker": "Charles",
+          "quote": "to be in agreement with the founders"
+        }
+      ],
+      "activation": "evaluated",
+      "source_rationale_id": "R20"
+    }
+  ],
+  "excluded_rationales": [],
+  "rationale_mentions": [
+    {
+      "rationale_label": "founder_skillset",
+      "direction": "neutral",
+      "salience": "secondary",
+      "confidence": 0.86,
+      "utterance_type": "question",
+      "decision_link": "none",
+      "timing": "original_pitch",
+      "turn_index": 166,
+      "quote": "What's the current team makeup?",
+      "explanation": "Charles asks who makes up the team, a material question for identifying the available company-building skills.",
+      "evidence": [
+        "What's the current team makeup?"
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 166,
+          "speaker": "Charles",
+          "quote": "What's the current team makeup?"
+        }
+      ],
+      "activation": "queried",
+      "source_rationale_id": "R1"
+    },
+    {
+      "rationale_label": "investor_value_add_fit",
+      "direction": "neutral",
+      "salience": "secondary",
+      "confidence": 0.95,
+      "utterance_type": "question",
+      "decision_link": "none",
+      "timing": "original_pitch",
+      "turn_index": 216,
+      "quote": "What are you guys looking for beyond capital? Like what could investors do to help you?",
+      "explanation": "Charles asks what non-capital support the company needs from investors.",
+      "evidence": [
+        "What are you guys looking for beyond capital? Like what could investors do to help you?"
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 216,
+          "speaker": "Charles",
+          "quote": "What are you guys looking for beyond capital? Like what could investors do to help you?"
+        }
+      ],
+      "activation": "queried",
+      "source_rationale_id": "R2"
+    },
+    {
+      "rationale_label": "investor_experience_bias",
+      "direction": "neutral",
+      "salience": "secondary",
+      "confidence": 0.82,
+      "utterance_type": "supporting_argument",
+      "decision_link": "none",
+      "timing": "original_pitch",
+      "turn_index": 262,
+      "quote": "We do some food investing at Precursor and, and so, we're in Bobbie Baby, we're in Partake Foods.",
+      "explanation": "Charles identifies Precursor's existing food-investment exposure as relevant category experience.",
+      "evidence": [
+        "We do some food investing at Precursor and, and so, we're in Bobbie Baby, we're in Partake Foods."
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 262,
+          "speaker": "Charles",
+          "quote": "We do some food investing at Precursor and, and so, we're in Bobbie Baby, we're in Partake Foods."
+        }
+      ],
+      "activation": "evaluated",
+      "source_rationale_id": "R3"
+    },
+    {
+      "rationale_label": "product_appeal_assessment",
+      "direction": "positive",
+      "salience": "secondary",
+      "confidence": 0.88,
+      "utterance_type": "assessment",
+      "decision_link": "none",
+      "timing": "original_pitch",
+      "turn_index": 259,
+      "quote": "frozen bread can only be so good, and then you have that product.",
+      "explanation": "Charles contrasts the product favorably with the perceived quality ceiling of ordinary frozen bread.",
+      "evidence": [
+        "frozen bread can only be so good, and then you have that product."
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 259,
+          "speaker": "Charles",
+          "quote": "frozen bread can only be so good, and then you have that product."
+        }
+      ],
+      "activation": "evaluated",
+      "source_rationale_id": "R4"
+    },
+    {
+      "rationale_label": "investor_experience_bias",
+      "direction": "positive",
+      "salience": "primary",
+      "confidence": 0.97,
+      "utterance_type": "supporting_argument",
+      "decision_link": "supports_in",
+      "timing": "original_pitch",
+      "turn_index": 264,
+      "quote": "We've done manufactured products, so those don't scare me.",
+      "explanation": "Charles says prior experience with manufactured products removes a concern and directly precedes his commitment to invest.",
+      "evidence": [
+        "We've done manufactured products, so those don't scare me."
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 264,
+          "speaker": "Charles",
+          "quote": "We've done manufactured products, so those don't scare me."
+        }
+      ],
+      "activation": "evaluated",
+      "source_rationale_id": "R5"
+    },
+    {
+      "rationale_label": "product_appeal_assessment",
+      "direction": "positive",
+      "salience": "secondary",
+      "confidence": 0.93,
+      "utterance_type": "assessment",
+      "decision_link": "none",
+      "timing": "original_pitch",
+      "turn_index": 264,
+      "quote": "it’s a good bagel!",
+      "explanation": "Charles reports a favorable direct taste reaction to the product.",
+      "evidence": [
+        "it’s a good bagel!"
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 264,
+          "speaker": "Charles",
+          "quote": "it’s a good bagel!"
+        }
+      ],
+      "activation": "evaluated",
+      "source_rationale_id": "R6"
+    },
+    {
+      "rationale_label": "product_appeal_assessment",
+      "direction": "positive",
+      "salience": "secondary",
+      "confidence": 0.9,
+      "utterance_type": "assessment",
+      "decision_link": "none",
+      "timing": "original_pitch",
+      "turn_index": 266,
+      "quote": "I was like, it was a good bagel.",
+      "explanation": "Charles reiterates that the product met his quality and taste standard.",
+      "evidence": [
+        "I was like, it was a good bagel."
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 266,
+          "speaker": "Charles",
+          "quote": "I was like, it was a good bagel."
+        }
+      ],
+      "activation": "evaluated",
+      "source_rationale_id": "R7"
+    },
+    {
+      "rationale_label": "product_success_factor_assessment",
+      "direction": "neutral",
+      "salience": "primary",
+      "confidence": 0.96,
+      "utterance_type": "decision_explanation",
+      "decision_link": "none",
+      "timing": "original_pitch",
+      "turn_index": 270,
+      "quote": "my rule with food-based investments is the product has to taste good.",
+      "explanation": "Charles states taste as a central criterion for evaluating food investments.",
+      "evidence": [
+        "my rule with food-based investments is the product has to taste good."
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 270,
+          "speaker": "Charles",
+          "quote": "my rule with food-based investments is the product has to taste good."
+        }
+      ],
+      "activation": "evaluated",
+      "source_rationale_id": "R8"
+    },
+    {
+      "rationale_label": "product_success_factor_assessment",
+      "direction": "neutral",
+      "salience": "secondary",
+      "confidence": 0.9,
+      "utterance_type": "supporting_argument",
+      "decision_link": "none",
+      "timing": "original_pitch",
+      "turn_index": 272,
+      "quote": "nobody will eat or buy this.",
+      "explanation": "Charles cites the commercial consequence of poor taste to reinforce why taste matters.",
+      "evidence": [
+        "nobody will eat or buy this."
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 272,
+          "speaker": "Charles",
+          "quote": "nobody will eat or buy this."
+        }
+      ],
+      "activation": "evaluated",
+      "source_rationale_id": "R9"
+    },
+    {
+      "rationale_label": "founder_qualities",
+      "direction": "positive",
+      "salience": "secondary",
+      "confidence": 0.94,
+      "utterance_type": "assessment",
+      "decision_link": "none",
+      "timing": "original_pitch",
+      "turn_index": 274,
+      "quote": "you two have a genuine affection for each other.",
+      "explanation": "Charles positively assesses the founders' relationship.",
+      "evidence": [
+        "you two have a genuine affection for each other."
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 274,
+          "speaker": "Charles",
+          "quote": "you two have a genuine affection for each other."
+        }
+      ],
+      "activation": "evaluated",
+      "source_rationale_id": "R10"
+    },
+    {
+      "rationale_label": "founder_qualities",
+      "direction": "positive",
+      "salience": "secondary",
+      "confidence": 0.91,
+      "utterance_type": "supporting_argument",
+      "decision_link": "none",
+      "timing": "original_pitch",
+      "turn_index": 276,
+      "quote": "that goes a long way when you're dealing with the ups and downs",
+      "explanation": "Charles believes the founders' relationship will help them manage the company's difficulties.",
+      "evidence": [
+        "that goes a long way when you're dealing with the ups and downs"
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 276,
+          "speaker": "Charles",
+          "quote": "that goes a long way when you're dealing with the ups and downs"
+        }
+      ],
+      "activation": "evaluated",
+      "source_rationale_id": "R11"
+    },
+    {
+      "rationale_label": "product_appeal_assessment",
+      "direction": "positive",
+      "salience": "secondary",
+      "confidence": 0.95,
+      "utterance_type": "assessment",
+      "decision_link": "none",
+      "timing": "original_pitch",
+      "turn_index": 280,
+      "quote": "It's very good.",
+      "explanation": "Charles gives another direct positive assessment of the product.",
+      "evidence": [
+        "It's very good."
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 280,
+          "speaker": "Charles",
+          "quote": "It's very good."
+        }
+      ],
+      "activation": "evaluated",
+      "source_rationale_id": "R12"
+    },
+    {
+      "rationale_label": "market_problem_validation",
+      "direction": "positive",
+      "salience": "secondary",
+      "confidence": 0.93,
+      "utterance_type": "supporting_argument",
+      "decision_link": "none",
+      "timing": "original_pitch",
+      "turn_index": 282,
+      "quote": "there are many times where we're having meals or meetings and we have to think about how to accommodate her out of respect.",
+      "explanation": "Charles describes a recurring, concrete need to accommodate gluten-free people.",
+      "evidence": [
+        "there are many times where we're having meals or meetings and we have to think about how to accommodate her out of respect."
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 282,
+          "speaker": "Charles",
+          "quote": "there are many times where we're having meals or meetings and we have to think about how to accommodate her out of respect."
+        }
+      ],
+      "activation": "evaluated",
+      "source_rationale_id": "R13"
+    },
+    {
+      "rationale_label": "solution_feasibility_assessment",
+      "direction": "positive",
+      "salience": "secondary",
+      "confidence": 0.78,
+      "utterance_type": "supporting_argument",
+      "decision_link": "none",
+      "timing": "original_pitch",
+      "turn_index": 282,
+      "quote": "everybody could just eat this and this would solve her problem.",
+      "explanation": "Charles sees the product as a practical solution that can be shared by both gluten-free and non-gluten-free diners.",
+      "evidence": [
+        "everybody could just eat this and this would solve her problem."
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 282,
+          "speaker": "Charles",
+          "quote": "everybody could just eat this and this would solve her problem."
+        }
+      ],
+      "activation": "evaluated",
+      "source_rationale_id": "R14"
+    }
+  ]
+}

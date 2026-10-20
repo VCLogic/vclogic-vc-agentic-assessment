@@ -1,13 +1,8 @@
 # timing
 
-[ev:jillian-0048] label=market_timing direction=positive source=website:structure_capital
-> "People expect instant gratification."
+Verbatim transcript excerpts; whitespace normalized. Labels describe the cited statement.
 
-[ev:jillian-0049] label=market_timing direction=positive source=website:structure_capital
-> "If something cannot be done on a smart phone then it cannot be done."
+[ev:jillian-manus-structure-capital-0007] label=market_timing direction=neutral source=full:592bcbab6c9bca34bdc4db0d
+> "Until we have some sort of understanding of the applications — of course there's going to be volatility. But coming from Silicon Valley, everything that's innovative is criticized at first."
 
-[ev:jillian-0050] label=market_timing direction=positive source=website:structure_capital
-> "Social connections and ratings provide reputation and trust."
-
-[ev:jillian-0051] label=market_timing direction=positive source=website:structure_capital
-> "It’s now easy to connect based on specific mobile location."
+Support: explicit. Interpretation: She expects volatility while applications remain unclear but cautions that early criticism can accompany genuine innovation.

@@ -1,0 +1,591 @@
+{
+  "schema": "phase1-rationale-reference-v1",
+  "extraction_version": "pitchshow-rationales-v1",
+  "fingerprint": "8276fc759512de98a8c1d95f941f7157ae2c1b75819a82301a1ca764dd4e04ea",
+  "episode_slug": "26-dynofit",
+  "vc_slug": "phil-nadel-forefront-venture-partners",
+  "vc_name": "Phil Nadel",
+  "actual_decision": "Out",
+  "later_decision": "Unknown",
+  "reference_kind": "automated_transcript_observed_candidate",
+  "human_validated": false,
+  "source_format": "transcript-observed-rationales-v1",
+  "source_path": "../source/episodes/26-dynofit.json",
+  "source_sha256": "f4991c03f2ac60c5d8b2c7dc9ac68959332d4d74afb0ac26e98ef13d6396a8d2",
+  "transcript_sha256": "4aa019657a1e61b6de02f2d78a9cea53c5ba9426708ae2d06309694135e049ad",
+  "taxonomy_sha256": "eaa8734819a3ac34dd19ee5f0bf6de925a793a1d25a2d361090dafc9b751e1fc",
+  "model": "codex:gpt-5.6-luna+gpt-5.6-sol",
+  "generation_stages": [
+    {
+      "phase": "rationale_extract",
+      "backend": "codex",
+      "model": "gpt-5.6-luna"
+    },
+    {
+      "phase": "rationale_verify",
+      "backend": "codex",
+      "model": "gpt-5.6-sol"
+    }
+  ],
+  "source_tier": "newly_extracted_and_independently_model_reviewed",
+  "reviewed_target_turns": [
+    2,
+    5,
+    28,
+    35,
+    49,
+    52,
+    62,
+    65,
+    67,
+    72,
+    73,
+    76,
+    78
+  ],
+  "notes": "All supplied target turns were reviewed. The immediate same-room investor debrief remains original_pitch; turn 78's generic statement about potential was not specific enough for the narrower investment-upside taxonomy.",
+  "receipt_path": "receipts/26-dynofit.json",
+  "scoring_scope": "original_pitch_only",
+  "shared_across_input_modes": true,
+  "rationales": [
+    {
+      "rationale_label": "business_model_assessment",
+      "direction": "neutral",
+      "salience": "secondary",
+      "confidence": 0.98,
+      "utterance_type": "question",
+      "decision_link": "none",
+      "timing": "original_pitch",
+      "turn_index": 35,
+      "quote": "So if you can reduce the amount of time and service that they provide to each patient, they're going to make more money.",
+      "explanation": "Phil checks his understanding of the economic incentive created by bundled payments.",
+      "evidence": [
+        "So if you can reduce the amount of time and service that they provide to each patient, they're going to make more money."
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 35,
+          "speaker": "Phil",
+          "quote": "So if you can reduce the amount of time and service that they provide to each patient, they're going to make more money."
+        }
+      ],
+      "activation": "queried",
+      "source_rationale_id": "R2",
+      "utterance_kind": "question",
+      "decision_support": "none",
+      "all_mention_ids": [
+        "R2"
+      ]
+    },
+    {
+      "rationale_label": "founder_execution",
+      "direction": "negative",
+      "salience": "primary",
+      "confidence": 0.91,
+      "utterance_type": "decision_reason",
+      "decision_link": "explicit",
+      "timing": "original_pitch",
+      "turn_index": 65,
+      "quote": "once you flex your sales muscle, then I'm a little bit, then I'm definitely more interested.",
+      "explanation": "Phil conditions greater investment interest on Maria first demonstrating sales execution.",
+      "evidence": [
+        "once you flex your sales muscle, then I'm a little bit, then I'm definitely more interested."
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 65,
+          "speaker": "Phil",
+          "quote": "once you flex your sales muscle, then I'm a little bit, then I'm definitely more interested."
+        }
+      ],
+      "activation": "evaluated",
+      "source_rationale_id": "R8",
+      "utterance_kind": "decision_explanation",
+      "decision_support": "supports_out",
+      "all_mention_ids": [
+        "R6",
+        "R8"
+      ]
+    },
+    {
+      "rationale_label": "founder_qualities",
+      "direction": "positive",
+      "salience": "secondary",
+      "confidence": 0.97,
+      "utterance_type": "assessment",
+      "decision_link": "none",
+      "timing": "original_pitch",
+      "turn_index": 73,
+      "quote": "But I really liked her",
+      "explanation": "During the immediate debrief, Phil reiterates his favorable personal assessment of Maria.",
+      "evidence": [
+        "I think she'd be a great CEO.",
+        "But I really liked her"
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 52,
+          "speaker": "Phil",
+          "quote": "I think she'd be a great CEO."
+        },
+        {
+          "turn_index": 73,
+          "speaker": "Phil",
+          "quote": "But I really liked her"
+        }
+      ],
+      "activation": "evaluated",
+      "source_rationale_id": "R9",
+      "utterance_kind": "assessment",
+      "decision_support": "none",
+      "all_mention_ids": [
+        "R4",
+        "R9"
+      ]
+    },
+    {
+      "rationale_label": "founder_skillset",
+      "direction": "neutral",
+      "salience": "secondary",
+      "confidence": 0.99,
+      "utterance_type": "question",
+      "decision_link": "none",
+      "timing": "original_pitch",
+      "turn_index": 49,
+      "quote": "Do you personally have the sales and marketing skills to get the company to that point where you could bring in a more experienced CEO?",
+      "explanation": "Phil probes whether Maria has the sales and marketing skills needed to advance the company.",
+      "evidence": [
+        "Do you personally have the sales and marketing skills to get the company to that point where you could bring in a more experienced CEO?"
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 49,
+          "speaker": "Phil",
+          "quote": "Do you personally have the sales and marketing skills to get the company to that point where you could bring in a more experienced CEO?"
+        }
+      ],
+      "activation": "queried",
+      "source_rationale_id": "R3",
+      "utterance_kind": "question",
+      "decision_support": "none",
+      "all_mention_ids": [
+        "R3"
+      ]
+    },
+    {
+      "rationale_label": "go_to_market_strategy_assessment",
+      "direction": "neutral",
+      "salience": "secondary",
+      "confidence": 0.99,
+      "utterance_type": "question",
+      "decision_link": "none",
+      "timing": "original_pitch",
+      "turn_index": 28,
+      "quote": "But you're selling it to physical therapists, not to in-home...",
+      "explanation": "Phil asks for clarification about the intended customer and sales channel.",
+      "evidence": [
+        "But you're selling it to physical therapists, not to in-home..."
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 28,
+          "speaker": "Phil",
+          "quote": "But you're selling it to physical therapists, not to in-home..."
+        }
+      ],
+      "activation": "queried",
+      "source_rationale_id": "R1",
+      "utterance_kind": "question",
+      "decision_support": "none",
+      "all_mention_ids": [
+        "R1"
+      ]
+    },
+    {
+      "rationale_label": "investor_domain_knowledge_constraint",
+      "direction": "negative",
+      "salience": "primary",
+      "confidence": 1.0,
+      "utterance_type": "decision_reason",
+      "decision_link": "explicit",
+      "timing": "original_pitch",
+      "turn_index": 76,
+      "quote": "I'm just, I don't know the space well enough.",
+      "explanation": "Phil says his limited domain knowledge makes him uncomfortable investing without a specialized VC leading the round.",
+      "evidence": [
+        "I'm just, I don't know the space well enough."
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 76,
+          "speaker": "Phil",
+          "quote": "I'm just, I don't know the space well enough."
+        }
+      ],
+      "activation": "evaluated",
+      "source_rationale_id": "R11",
+      "utterance_kind": "decision_explanation",
+      "decision_support": "supports_out",
+      "all_mention_ids": [
+        "R11"
+      ]
+    },
+    {
+      "rationale_label": "product_appeal_assessment",
+      "direction": "positive",
+      "salience": "secondary",
+      "confidence": 0.98,
+      "utterance_type": "assessment",
+      "decision_link": "none",
+      "timing": "original_pitch",
+      "turn_index": 73,
+      "quote": "really liked the product.",
+      "explanation": "During the immediate debrief, Phil reiterates his positive reaction to the product.",
+      "evidence": [
+        "really liked the product."
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 73,
+          "speaker": "Phil",
+          "quote": "really liked the product."
+        }
+      ],
+      "activation": "evaluated",
+      "source_rationale_id": "R10",
+      "utterance_kind": "assessment",
+      "decision_support": "none",
+      "all_mention_ids": [
+        "R10"
+      ]
+    },
+    {
+      "rationale_label": "product_differentiation_concern",
+      "direction": "positive",
+      "salience": "secondary",
+      "confidence": 0.97,
+      "utterance_type": "assessment",
+      "decision_link": "none",
+      "timing": "original_pitch",
+      "turn_index": 62,
+      "quote": "I agree with you about the product, how disruptive it is",
+      "explanation": "Phil regards the product as disruptive and differentiated.",
+      "evidence": [
+        "I agree with you about the product, how disruptive it is"
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 62,
+          "speaker": "Phil",
+          "quote": "I agree with you about the product, how disruptive it is"
+        }
+      ],
+      "activation": "evaluated",
+      "source_rationale_id": "R5",
+      "utterance_kind": "assessment",
+      "decision_support": "none",
+      "all_mention_ids": [
+        "R5"
+      ]
+    },
+    {
+      "rationale_label": "traction_repeatability_concern",
+      "direction": "negative",
+      "salience": "primary",
+      "confidence": 1.0,
+      "utterance_type": "decision_reason",
+      "decision_link": "explicit",
+      "timing": "original_pitch",
+      "turn_index": 62,
+      "quote": "I think it's just a little too early. I want to see some more positive feedback and some traction in that regard.",
+      "explanation": "Phil identifies insufficient feedback and traction as the principal reason he is passing on the current round.",
+      "evidence": [
+        "I think it's just a little too early. I want to see some more positive feedback and some traction in that regard."
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 62,
+          "speaker": "Phil",
+          "quote": "I think it's just a little too early. I want to see some more positive feedback and some traction in that regard."
+        }
+      ],
+      "activation": "evaluated",
+      "source_rationale_id": "R7",
+      "utterance_kind": "decision_explanation",
+      "decision_support": "supports_out",
+      "all_mention_ids": [
+        "R7"
+      ]
+    }
+  ],
+  "later_rationales": [],
+  "excluded_rationales": [],
+  "rationale_mentions": [
+    {
+      "rationale_label": "go_to_market_strategy_assessment",
+      "direction": "neutral",
+      "salience": "secondary",
+      "confidence": 0.99,
+      "utterance_type": "question",
+      "decision_link": "none",
+      "timing": "original_pitch",
+      "turn_index": 28,
+      "quote": "But you're selling it to physical therapists, not to in-home...",
+      "explanation": "Phil asks for clarification about the intended customer and sales channel.",
+      "evidence": [
+        "But you're selling it to physical therapists, not to in-home..."
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 28,
+          "speaker": "Phil",
+          "quote": "But you're selling it to physical therapists, not to in-home..."
+        }
+      ],
+      "activation": "queried",
+      "source_rationale_id": "R1"
+    },
+    {
+      "rationale_label": "business_model_assessment",
+      "direction": "neutral",
+      "salience": "secondary",
+      "confidence": 0.98,
+      "utterance_type": "question",
+      "decision_link": "none",
+      "timing": "original_pitch",
+      "turn_index": 35,
+      "quote": "So if you can reduce the amount of time and service that they provide to each patient, they're going to make more money.",
+      "explanation": "Phil checks his understanding of the economic incentive created by bundled payments.",
+      "evidence": [
+        "So if you can reduce the amount of time and service that they provide to each patient, they're going to make more money."
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 35,
+          "speaker": "Phil",
+          "quote": "So if you can reduce the amount of time and service that they provide to each patient, they're going to make more money."
+        }
+      ],
+      "activation": "queried",
+      "source_rationale_id": "R2"
+    },
+    {
+      "rationale_label": "founder_skillset",
+      "direction": "neutral",
+      "salience": "secondary",
+      "confidence": 0.99,
+      "utterance_type": "question",
+      "decision_link": "none",
+      "timing": "original_pitch",
+      "turn_index": 49,
+      "quote": "Do you personally have the sales and marketing skills to get the company to that point where you could bring in a more experienced CEO?",
+      "explanation": "Phil probes whether Maria has the sales and marketing skills needed to advance the company.",
+      "evidence": [
+        "Do you personally have the sales and marketing skills to get the company to that point where you could bring in a more experienced CEO?"
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 49,
+          "speaker": "Phil",
+          "quote": "Do you personally have the sales and marketing skills to get the company to that point where you could bring in a more experienced CEO?"
+        }
+      ],
+      "activation": "queried",
+      "source_rationale_id": "R3"
+    },
+    {
+      "rationale_label": "founder_qualities",
+      "direction": "positive",
+      "salience": "secondary",
+      "confidence": 0.98,
+      "utterance_type": "assessment",
+      "decision_link": "none",
+      "timing": "original_pitch",
+      "turn_index": 52,
+      "quote": "I think she'd be a great CEO.",
+      "explanation": "Phil positively assesses Maria's suitability to lead the company.",
+      "evidence": [
+        "I think she'd be a great CEO."
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 52,
+          "speaker": "Phil",
+          "quote": "I think she'd be a great CEO."
+        }
+      ],
+      "activation": "evaluated",
+      "source_rationale_id": "R4"
+    },
+    {
+      "rationale_label": "product_differentiation_concern",
+      "direction": "positive",
+      "salience": "secondary",
+      "confidence": 0.97,
+      "utterance_type": "assessment",
+      "decision_link": "none",
+      "timing": "original_pitch",
+      "turn_index": 62,
+      "quote": "I agree with you about the product, how disruptive it is",
+      "explanation": "Phil regards the product as disruptive and differentiated.",
+      "evidence": [
+        "I agree with you about the product, how disruptive it is"
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 62,
+          "speaker": "Phil",
+          "quote": "I agree with you about the product, how disruptive it is"
+        }
+      ],
+      "activation": "evaluated",
+      "source_rationale_id": "R5"
+    },
+    {
+      "rationale_label": "founder_execution",
+      "direction": "positive",
+      "salience": "secondary",
+      "confidence": 0.98,
+      "utterance_type": "assessment",
+      "decision_link": "none",
+      "timing": "original_pitch",
+      "turn_index": 62,
+      "quote": "if anyone can make this happen I think it's you.",
+      "explanation": "Phil expresses confidence in Maria's ability to execute successfully.",
+      "evidence": [
+        "if anyone can make this happen I think it's you."
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 62,
+          "speaker": "Phil",
+          "quote": "if anyone can make this happen I think it's you."
+        }
+      ],
+      "activation": "evaluated",
+      "source_rationale_id": "R6"
+    },
+    {
+      "rationale_label": "traction_repeatability_concern",
+      "direction": "negative",
+      "salience": "primary",
+      "confidence": 1.0,
+      "utterance_type": "decision_explanation",
+      "decision_link": "supports_out",
+      "timing": "original_pitch",
+      "turn_index": 62,
+      "quote": "I think it's just a little too early. I want to see some more positive feedback and some traction in that regard.",
+      "explanation": "Phil identifies insufficient feedback and traction as the principal reason he is passing on the current round.",
+      "evidence": [
+        "I think it's just a little too early. I want to see some more positive feedback and some traction in that regard."
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 62,
+          "speaker": "Phil",
+          "quote": "I think it's just a little too early. I want to see some more positive feedback and some traction in that regard."
+        }
+      ],
+      "activation": "evaluated",
+      "source_rationale_id": "R7"
+    },
+    {
+      "rationale_label": "founder_execution",
+      "direction": "negative",
+      "salience": "primary",
+      "confidence": 0.91,
+      "utterance_type": "decision_explanation",
+      "decision_link": "supports_out",
+      "timing": "original_pitch",
+      "turn_index": 65,
+      "quote": "once you flex your sales muscle, then I'm a little bit, then I'm definitely more interested.",
+      "explanation": "Phil conditions greater investment interest on Maria first demonstrating sales execution.",
+      "evidence": [
+        "once you flex your sales muscle, then I'm a little bit, then I'm definitely more interested."
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 65,
+          "speaker": "Phil",
+          "quote": "once you flex your sales muscle, then I'm a little bit, then I'm definitely more interested."
+        }
+      ],
+      "activation": "evaluated",
+      "source_rationale_id": "R8"
+    },
+    {
+      "rationale_label": "founder_qualities",
+      "direction": "positive",
+      "salience": "secondary",
+      "confidence": 0.97,
+      "utterance_type": "assessment",
+      "decision_link": "none",
+      "timing": "original_pitch",
+      "turn_index": 73,
+      "quote": "But I really liked her",
+      "explanation": "During the immediate debrief, Phil reiterates his favorable personal assessment of Maria.",
+      "evidence": [
+        "But I really liked her"
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 73,
+          "speaker": "Phil",
+          "quote": "But I really liked her"
+        }
+      ],
+      "activation": "evaluated",
+      "source_rationale_id": "R9"
+    },
+    {
+      "rationale_label": "product_appeal_assessment",
+      "direction": "positive",
+      "salience": "secondary",
+      "confidence": 0.98,
+      "utterance_type": "assessment",
+      "decision_link": "none",
+      "timing": "original_pitch",
+      "turn_index": 73,
+      "quote": "really liked the product.",
+      "explanation": "During the immediate debrief, Phil reiterates his positive reaction to the product.",
+      "evidence": [
+        "really liked the product."
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 73,
+          "speaker": "Phil",
+          "quote": "really liked the product."
+        }
+      ],
+      "activation": "evaluated",
+      "source_rationale_id": "R10"
+    },
+    {
+      "rationale_label": "investor_domain_knowledge_constraint",
+      "direction": "negative",
+      "salience": "primary",
+      "confidence": 1.0,
+      "utterance_type": "decision_explanation",
+      "decision_link": "supports_out",
+      "timing": "original_pitch",
+      "turn_index": 76,
+      "quote": "I'm just, I don't know the space well enough.",
+      "explanation": "Phil says his limited domain knowledge makes him uncomfortable investing without a specialized VC leading the round.",
+      "evidence": [
+        "I'm just, I don't know the space well enough."
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 76,
+          "speaker": "Phil",
+          "quote": "I'm just, I don't know the space well enough."
+        }
+      ],
+      "activation": "evaluated",
+      "source_rationale_id": "R11"
+    }
+  ],
+  "expanded_quote_evidence": [],
+  "rejected_after_evidence_check": []
+}

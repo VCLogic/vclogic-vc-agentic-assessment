@@ -1,0 +1,575 @@
+{
+  "schema": "phase1-rationale-reference-v1",
+  "extraction_version": "pitchshow-rationales-v1",
+  "fingerprint": "56d744f033a73343719d6a2e86b6788d3e345f5b3f34a9950cb08e5b130385b7",
+  "episode_slug": "155-folio-the-12b-opportunity-nobody-saw",
+  "vc_slug": "mark-phillips-11-tribes-ventures",
+  "vc_name": "Mark Phillips",
+  "actual_decision": "Out",
+  "later_decision": "Unknown",
+  "reference_kind": "automated_transcript_observed_candidate",
+  "human_validated": false,
+  "source_format": "transcript-observed-rationales-v1",
+  "source_path": "../source/episodes/155-folio-the-12b-opportunity-nobody-saw.json",
+  "source_sha256": "1477c118384e2868bb83a726adbf03e076e959b83470b386f10f93a1aa85dfa5",
+  "transcript_sha256": "407ccb3f86b620fac111c89ffebc59917a0c81fe76a12073679e9d38d582f6c8",
+  "taxonomy_sha256": "eaa8734819a3ac34dd19ee5f0bf6de925a793a1d25a2d361090dafc9b751e1fc",
+  "model": "openai/gpt-5.6-luna",
+  "source_tier": "newly_extracted_and_independently_model_reviewed",
+  "reviewed_target_turns": [
+    3,
+    5,
+    19,
+    22,
+    23,
+    27,
+    29,
+    31,
+    34,
+    36,
+    62,
+    64,
+    66,
+    96,
+    98,
+    107,
+    109,
+    129,
+    131,
+    133,
+    135,
+    137,
+    139,
+    149,
+    151,
+    153,
+    156,
+    165,
+    167,
+    169,
+    171,
+    174,
+    175,
+    180
+  ],
+  "notes": "Neutral questions are retained when they materially target a taxonomy concept; greetings, reactions, jokes, bare comments, and redundant praise are omitted.",
+  "receipt_path": "receipts/155-folio-the-12b-opportunity-nobody-saw.json",
+  "scoring_scope": "original_pitch_only",
+  "shared_across_input_modes": true,
+  "rationales": [
+    {
+      "rationale_label": "founder_execution",
+      "direction": "positive",
+      "salience": "secondary",
+      "confidence": 0.96,
+      "utterance_type": "assessment",
+      "decision_link": "none",
+      "timing": "original_pitch",
+      "turn_index": 133,
+      "quote": "the willingness to make those hard decisions",
+      "explanation": "Mark cites the founder's willingness to make hard decisions as a positive execution trait.",
+      "evidence": [
+        "You've been making some hard decisions the last six months.",
+        "the willingness to make those hard decisions"
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 109,
+          "speaker": "Mark",
+          "quote": "You've been making some hard decisions the last six months."
+        },
+        {
+          "turn_index": 133,
+          "speaker": "Mark",
+          "quote": "the willingness to make those hard decisions"
+        }
+      ],
+      "activation": "evaluated",
+      "source_rationale_id": "R9",
+      "utterance_kind": "assessment",
+      "decision_support": "none",
+      "all_mention_ids": [
+        "R6",
+        "R7",
+        "R9"
+      ]
+    },
+    {
+      "rationale_label": "founder_qualities",
+      "direction": "positive",
+      "salience": "secondary",
+      "confidence": 0.94,
+      "utterance_type": "assessment",
+      "decision_link": "none",
+      "timing": "original_pitch",
+      "turn_index": 175,
+      "quote": "she's really impressive",
+      "explanation": "Mark gives a direct positive assessment of the founder after the investment discussion.",
+      "evidence": [
+        "the authenticity",
+        "she is a force of nature",
+        "she's really impressive"
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 133,
+          "speaker": "Mark",
+          "quote": "the authenticity"
+        },
+        {
+          "turn_index": 167,
+          "speaker": "Mark",
+          "quote": "she is a force of nature"
+        },
+        {
+          "turn_index": 175,
+          "speaker": "Mark",
+          "quote": "she's really impressive"
+        }
+      ],
+      "activation": "evaluated",
+      "source_rationale_id": "R13",
+      "utterance_kind": "assessment",
+      "decision_support": "none",
+      "all_mention_ids": [
+        "R8",
+        "R12",
+        "R13"
+      ]
+    },
+    {
+      "rationale_label": "fund_economics_constraint",
+      "direction": "negative",
+      "salience": "primary",
+      "confidence": 0.99,
+      "utterance_type": "decision_reason",
+      "decision_link": "explicit",
+      "timing": "original_pitch",
+      "turn_index": 133,
+      "quote": "being able to put a check in at that valuation that allows us to hit our ownership targets is going to be challenging",
+      "explanation": "Mark says the valuation and round dynamics make it difficult for 11 Tribes to meet its ownership target.",
+      "evidence": [
+        "being able to put a check in at that valuation that allows us to hit our ownership targets is going to be challenging"
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 133,
+          "speaker": "Mark",
+          "quote": "being able to put a check in at that valuation that allows us to hit our ownership targets is going to be challenging"
+        }
+      ],
+      "activation": "evaluated",
+      "source_rationale_id": "R10",
+      "utterance_kind": "decision_explanation",
+      "decision_support": "supports_out",
+      "all_mention_ids": [
+        "R10"
+      ]
+    },
+    {
+      "rationale_label": "go_to_market_strategy_assessment",
+      "direction": "neutral",
+      "salience": "secondary",
+      "confidence": 0.94,
+      "utterance_type": "question",
+      "decision_link": "none",
+      "timing": "original_pitch",
+      "turn_index": 66,
+      "quote": "Can you talk about the pilot, some of the enterprise companies that you're getting closer with? Just, what are they excited about? What are they concerned about?",
+      "explanation": "Mark asks about enterprise pilot progress and customer reactions to the sales motion.",
+      "evidence": [
+        "Can you talk about the pilot, some of the enterprise companies that you're getting closer with? Just, what are they excited about? What are they concerned about?"
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 66,
+          "speaker": "Mark",
+          "quote": "Can you talk about the pilot, some of the enterprise companies that you're getting closer with? Just, what are they excited about? What are they concerned about?"
+        }
+      ],
+      "activation": "queried",
+      "source_rationale_id": "R4",
+      "utterance_kind": "question",
+      "decision_support": "none",
+      "all_mention_ids": [
+        "R4"
+      ]
+    },
+    {
+      "rationale_label": "growth_projection_risk",
+      "direction": "neutral",
+      "salience": "secondary",
+      "confidence": 0.91,
+      "utterance_type": "question",
+      "decision_link": "none",
+      "timing": "original_pitch",
+      "turn_index": 96,
+      "quote": "revenue for 24 and then how that's going to shift",
+      "explanation": "Mark asks about historical revenue and the expected future revenue mix.",
+      "evidence": [
+        "revenue for 24 and then how that's going to shift"
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 96,
+          "speaker": "Mark",
+          "quote": "revenue for 24 and then how that's going to shift"
+        }
+      ],
+      "activation": "queried",
+      "source_rationale_id": "R5",
+      "utterance_kind": "question",
+      "decision_support": "none",
+      "all_mention_ids": [
+        "R5"
+      ]
+    },
+    {
+      "rationale_label": "traction_repeatability_concern",
+      "direction": "negative",
+      "salience": "primary",
+      "confidence": 0.98,
+      "utterance_type": "decision_reason",
+      "decision_link": "explicit",
+      "timing": "original_pitch",
+      "turn_index": 133,
+      "quote": "would want to see more traction along the enterprise side of things",
+      "explanation": "Mark identifies insufficient enterprise traction as an additional reason the investment is probably not a fit.",
+      "evidence": [
+        "would want to see more traction along the enterprise side of things"
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 133,
+          "speaker": "Mark",
+          "quote": "would want to see more traction along the enterprise side of things"
+        }
+      ],
+      "activation": "evaluated",
+      "source_rationale_id": "R11",
+      "utterance_kind": "decision_explanation",
+      "decision_support": "supports_out",
+      "all_mention_ids": [
+        "R3",
+        "R11"
+      ]
+    }
+  ],
+  "later_rationales": [],
+  "excluded_rationales": [
+    {
+      "rationale_label": "traction_repeatability_concern",
+      "direction": "neutral",
+      "salience": "secondary",
+      "confidence": 0.98,
+      "utterance_type": "question",
+      "decision_link": "none",
+      "timing": "teaser",
+      "turn_index": 3,
+      "quote": "Can you talk about traction, Cathy?",
+      "explanation": "Mark requests traction evidence as part of evaluating the opportunity.",
+      "evidence": [
+        "Can you talk about traction, Cathy?"
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 3,
+          "speaker": "Mark",
+          "quote": "Can you talk about traction, Cathy?"
+        }
+      ],
+      "activation": "queried",
+      "source_rationale_id": "R1"
+    },
+    {
+      "rationale_label": "investor_experience_bias",
+      "direction": "neutral",
+      "salience": "secondary",
+      "confidence": 0.84,
+      "utterance_type": "assessment",
+      "decision_link": "none",
+      "timing": "teaser",
+      "turn_index": 19,
+      "quote": "I’m a midwest investor, so we have a different definition of price.",
+      "explanation": "Mark states that his regional investing perspective shapes how he evaluates price.",
+      "evidence": [
+        "I’m a midwest investor, so we have a different definition of price."
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 19,
+          "speaker": "Mark",
+          "quote": "I’m a midwest investor, so we have a different definition of price."
+        }
+      ],
+      "activation": "evaluated",
+      "source_rationale_id": "R2"
+    }
+  ],
+  "rationale_mentions": [
+    {
+      "rationale_label": "traction_repeatability_concern",
+      "direction": "neutral",
+      "salience": "secondary",
+      "confidence": 0.97,
+      "utterance_type": "question",
+      "decision_link": "none",
+      "timing": "original_pitch",
+      "turn_index": 62,
+      "quote": "Can you talk about traction, Cathy, just maybe a couple examples of enterprises that you're working with?",
+      "explanation": "Mark seeks concrete enterprise traction examples.",
+      "evidence": [
+        "Can you talk about traction, Cathy, just maybe a couple examples of enterprises that you're working with?"
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 62,
+          "speaker": "Mark",
+          "quote": "Can you talk about traction, Cathy, just maybe a couple examples of enterprises that you're working with?"
+        }
+      ],
+      "activation": "queried",
+      "source_rationale_id": "R3"
+    },
+    {
+      "rationale_label": "go_to_market_strategy_assessment",
+      "direction": "neutral",
+      "salience": "secondary",
+      "confidence": 0.94,
+      "utterance_type": "question",
+      "decision_link": "none",
+      "timing": "original_pitch",
+      "turn_index": 66,
+      "quote": "Can you talk about the pilot, some of the enterprise companies that you're getting closer with? Just, what are they excited about? What are they concerned about?",
+      "explanation": "Mark asks about enterprise pilot progress and customer reactions to the sales motion.",
+      "evidence": [
+        "Can you talk about the pilot, some of the enterprise companies that you're getting closer with? Just, what are they excited about? What are they concerned about?"
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 66,
+          "speaker": "Mark",
+          "quote": "Can you talk about the pilot, some of the enterprise companies that you're getting closer with? Just, what are they excited about? What are they concerned about?"
+        }
+      ],
+      "activation": "queried",
+      "source_rationale_id": "R4"
+    },
+    {
+      "rationale_label": "growth_projection_risk",
+      "direction": "neutral",
+      "salience": "secondary",
+      "confidence": 0.91,
+      "utterance_type": "question",
+      "decision_link": "none",
+      "timing": "original_pitch",
+      "turn_index": 96,
+      "quote": "revenue for 24 and then how that's going to shift",
+      "explanation": "Mark asks about historical revenue and the expected future revenue mix.",
+      "evidence": [
+        "revenue for 24 and then how that's going to shift"
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 96,
+          "speaker": "Mark",
+          "quote": "revenue for 24 and then how that's going to shift"
+        }
+      ],
+      "activation": "queried",
+      "source_rationale_id": "R5"
+    },
+    {
+      "rationale_label": "founder_execution",
+      "direction": "neutral",
+      "salience": "secondary",
+      "confidence": 0.95,
+      "utterance_type": "question",
+      "decision_link": "none",
+      "timing": "original_pitch",
+      "turn_index": 107,
+      "quote": "what you've learned in the other two companies you've started and how that's informing the way that you're building Folio",
+      "explanation": "Mark asks how prior operating experience is informing current execution.",
+      "evidence": [
+        "what you've learned in the other two companies you've started and how that's informing the way that you're building Folio"
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 107,
+          "speaker": "Mark",
+          "quote": "what you've learned in the other two companies you've started and how that's informing the way that you're building Folio"
+        }
+      ],
+      "activation": "queried",
+      "source_rationale_id": "R6"
+    },
+    {
+      "rationale_label": "founder_execution",
+      "direction": "positive",
+      "salience": "secondary",
+      "confidence": 0.95,
+      "utterance_type": "assessment",
+      "decision_link": "none",
+      "timing": "original_pitch",
+      "turn_index": 109,
+      "quote": "You've been making some hard decisions the last six months.",
+      "explanation": "Mark positively recognizes the founder's willingness to make difficult operating decisions.",
+      "evidence": [
+        "You've been making some hard decisions the last six months."
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 109,
+          "speaker": "Mark",
+          "quote": "You've been making some hard decisions the last six months."
+        }
+      ],
+      "activation": "evaluated",
+      "source_rationale_id": "R7"
+    },
+    {
+      "rationale_label": "founder_qualities",
+      "direction": "positive",
+      "salience": "secondary",
+      "confidence": 0.96,
+      "utterance_type": "assessment",
+      "decision_link": "none",
+      "timing": "original_pitch",
+      "turn_index": 133,
+      "quote": "the authenticity",
+      "explanation": "Mark explicitly praises the founder's authenticity.",
+      "evidence": [
+        "the authenticity"
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 133,
+          "speaker": "Mark",
+          "quote": "the authenticity"
+        }
+      ],
+      "activation": "evaluated",
+      "source_rationale_id": "R8"
+    },
+    {
+      "rationale_label": "founder_execution",
+      "direction": "positive",
+      "salience": "secondary",
+      "confidence": 0.96,
+      "utterance_type": "assessment",
+      "decision_link": "none",
+      "timing": "original_pitch",
+      "turn_index": 133,
+      "quote": "the willingness to make those hard decisions",
+      "explanation": "Mark cites the founder's willingness to make hard decisions as a positive execution trait.",
+      "evidence": [
+        "the willingness to make those hard decisions"
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 133,
+          "speaker": "Mark",
+          "quote": "the willingness to make those hard decisions"
+        }
+      ],
+      "activation": "evaluated",
+      "source_rationale_id": "R9"
+    },
+    {
+      "rationale_label": "fund_economics_constraint",
+      "direction": "negative",
+      "salience": "primary",
+      "confidence": 0.99,
+      "utterance_type": "decision_explanation",
+      "decision_link": "supports_out",
+      "timing": "original_pitch",
+      "turn_index": 133,
+      "quote": "being able to put a check in at that valuation that allows us to hit our ownership targets is going to be challenging",
+      "explanation": "Mark says the valuation and round dynamics make it difficult for 11 Tribes to meet its ownership target.",
+      "evidence": [
+        "being able to put a check in at that valuation that allows us to hit our ownership targets is going to be challenging"
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 133,
+          "speaker": "Mark",
+          "quote": "being able to put a check in at that valuation that allows us to hit our ownership targets is going to be challenging"
+        }
+      ],
+      "activation": "evaluated",
+      "source_rationale_id": "R10"
+    },
+    {
+      "rationale_label": "traction_repeatability_concern",
+      "direction": "negative",
+      "salience": "primary",
+      "confidence": 0.98,
+      "utterance_type": "decision_explanation",
+      "decision_link": "supports_out",
+      "timing": "original_pitch",
+      "turn_index": 133,
+      "quote": "would want to see more traction along the enterprise side of things",
+      "explanation": "Mark identifies insufficient enterprise traction as an additional reason the investment is probably not a fit.",
+      "evidence": [
+        "would want to see more traction along the enterprise side of things"
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 133,
+          "speaker": "Mark",
+          "quote": "would want to see more traction along the enterprise side of things"
+        }
+      ],
+      "activation": "evaluated",
+      "source_rationale_id": "R11"
+    },
+    {
+      "rationale_label": "founder_qualities",
+      "direction": "positive",
+      "salience": "secondary",
+      "confidence": 0.95,
+      "utterance_type": "assessment",
+      "decision_link": "none",
+      "timing": "original_pitch",
+      "turn_index": 167,
+      "quote": "she is a force of nature",
+      "explanation": "Mark characterizes the founder as exceptionally forceful and capable.",
+      "evidence": [
+        "she is a force of nature"
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 167,
+          "speaker": "Mark",
+          "quote": "she is a force of nature"
+        }
+      ],
+      "activation": "evaluated",
+      "source_rationale_id": "R12"
+    },
+    {
+      "rationale_label": "founder_qualities",
+      "direction": "positive",
+      "salience": "secondary",
+      "confidence": 0.94,
+      "utterance_type": "assessment",
+      "decision_link": "none",
+      "timing": "original_pitch",
+      "turn_index": 175,
+      "quote": "she's really impressive",
+      "explanation": "Mark gives a direct positive assessment of the founder after the investment discussion.",
+      "evidence": [
+        "she's really impressive"
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 175,
+          "speaker": "Mark",
+          "quote": "she's really impressive"
+        }
+      ],
+      "activation": "evaluated",
+      "source_rationale_id": "R13"
+    }
+  ]
+}

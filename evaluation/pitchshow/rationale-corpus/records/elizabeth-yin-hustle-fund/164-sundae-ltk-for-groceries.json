@@ -1,0 +1,953 @@
+{
+  "schema": "phase1-rationale-reference-v1",
+  "extraction_version": "pitchshow-rationales-v1",
+  "fingerprint": "d2ad2a536982ff0d5ed775aefb11eca9aaddfb3b47db160088793dedb58b0bfd",
+  "episode_slug": "164-sundae-ltk-for-groceries",
+  "vc_slug": "elizabeth-yin-hustle-fund",
+  "vc_name": "Elizabeth Yin",
+  "actual_decision": "In",
+  "later_decision": "Out",
+  "reference_kind": "automated_transcript_observed_candidate",
+  "human_validated": false,
+  "source_format": "transcript-observed-rationales-v1",
+  "source_path": "/home/dpasch01/vclogic-vc-agentic-assessment/evaluation/pitchshow/investors/elizabeth-yin-hustle-fund/source/episodes/164-sundae-ltk-for-groceries.json",
+  "source_sha256": "f8fe10ce3427b378fb3ed1ddd7075dcb8fff5821b1ab0933fc86379280cab64d",
+  "transcript_sha256": "cc131c743487b4b2e1cb2076b412d6ecef49bcf08584ed6d51f0f5d173abcc5d",
+  "taxonomy_sha256": "eaa8734819a3ac34dd19ee5f0bf6de925a793a1d25a2d361090dafc9b751e1fc",
+  "model": "openai/gpt-5.6-luna",
+  "source_tier": "newly_extracted_and_independently_model_reviewed",
+  "reviewed_target_turns": [
+    9,
+    14,
+    16,
+    19,
+    21,
+    38,
+    40,
+    42,
+    52,
+    54,
+    56,
+    58,
+    61,
+    71,
+    74,
+    77,
+    86,
+    96,
+    99,
+    101,
+    118,
+    120,
+    125,
+    132,
+    134,
+    136,
+    140,
+    154,
+    156,
+    158,
+    160,
+    162,
+    164,
+    166,
+    168
+  ],
+  "notes": "All supplied Elizabeth Yin target turns were reviewed; non-rationale greetings, confirmations, transitions, jokes, and bare responses were omitted.",
+  "receipt_path": "/home/dpasch01/vclogic-vc-agentic-assessment/evaluation/pitchshow/investors/elizabeth-yin-hustle-fund/rationale-references/receipts/164-sundae-ltk-for-groceries.json",
+  "scoring_scope": "original_pitch_only",
+  "shared_across_input_modes": true,
+  "rationales": [
+    {
+      "rationale_label": "business_model_assessment",
+      "direction": "positive",
+      "salience": "secondary",
+      "confidence": 0.93,
+      "utterance_type": "assessment",
+      "decision_link": "none",
+      "timing": "original_pitch",
+      "turn_index": 96,
+      "quote": "That's my hypothesis.",
+      "explanation": "She states agreement with the view that CPG brands will become the majority revenue source.",
+      "evidence": [
+        "That's my hypothesis."
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 96,
+          "speaker": "Elizabeth",
+          "quote": "That's my hypothesis."
+        }
+      ],
+      "activation": "evaluated",
+      "source_rationale_id": "R13",
+      "utterance_kind": "supporting_argument",
+      "decision_support": "none",
+      "all_mention_ids": [
+        "R3",
+        "R5",
+        "R13"
+      ]
+    },
+    {
+      "rationale_label": "business_viability_concern",
+      "direction": "negative",
+      "salience": "primary",
+      "confidence": 0.98,
+      "utterance_type": "assessment",
+      "decision_link": "explicit",
+      "timing": "original_pitch",
+      "turn_index": 99,
+      "quote": "there's a lot of components that need to come together to make this work.",
+      "explanation": "She identifies structural complexity and interdependence across influencers, retailers, data, and CPG customers as a business risk underlying her lower-valued offer.",
+      "evidence": [
+        "there's a lot of components that need to come together to make this work."
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 99,
+          "speaker": "Elizabeth",
+          "quote": "there's a lot of components that need to come together to make this work."
+        }
+      ],
+      "activation": "evaluated",
+      "source_rationale_id": "R16",
+      "utterance_kind": "concern",
+      "decision_support": "supports_in",
+      "all_mention_ids": [
+        "R16"
+      ]
+    },
+    {
+      "rationale_label": "deal_terms_complexity_concern",
+      "direction": "neutral",
+      "salience": "secondary",
+      "confidence": 0.92,
+      "utterance_type": "question",
+      "decision_link": "none",
+      "timing": "original_pitch",
+      "turn_index": 86,
+      "quote": "Have terms been set on this round?",
+      "explanation": "She seeks clarification about the round's financing terms.",
+      "evidence": [
+        "Have terms been set on this round?"
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 86,
+          "speaker": "Elizabeth",
+          "quote": "Have terms been set on this round?"
+        }
+      ],
+      "activation": "queried",
+      "source_rationale_id": "R12",
+      "utterance_kind": "question",
+      "decision_support": "none",
+      "all_mention_ids": [
+        "R12"
+      ]
+    },
+    {
+      "rationale_label": "founder_communication_quality",
+      "direction": "positive",
+      "salience": "secondary",
+      "confidence": 0.98,
+      "utterance_type": "assessment",
+      "decision_link": "none",
+      "timing": "original_pitch",
+      "turn_index": 99,
+      "quote": "you're very clear, you're very dynamic, you know your stuff",
+      "explanation": "She positively assesses the founder's clarity, command, and presentation quality.",
+      "evidence": [
+        "you're very clear, you're very dynamic, you know your stuff"
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 99,
+          "speaker": "Elizabeth",
+          "quote": "you're very clear, you're very dynamic, you know your stuff"
+        }
+      ],
+      "activation": "evaluated",
+      "source_rationale_id": "R15",
+      "utterance_kind": "assessment",
+      "decision_support": "none",
+      "all_mention_ids": [
+        "R15"
+      ]
+    },
+    {
+      "rationale_label": "founder_execution",
+      "direction": "positive",
+      "salience": "secondary",
+      "confidence": 0.98,
+      "utterance_type": "assessment",
+      "decision_link": "none",
+      "timing": "original_pitch",
+      "turn_index": 99,
+      "quote": "it's amazing you've been able to get these partnerships cold.",
+      "explanation": "Elizabeth praises the founder's resourcefulness in securing partnerships through cold outreach.",
+      "evidence": [
+        "that's impressive.",
+        "it's amazing you've been able to get these partnerships cold."
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 58,
+          "speaker": "Elizabeth",
+          "quote": "that's impressive."
+        },
+        {
+          "turn_index": 99,
+          "speaker": "Elizabeth",
+          "quote": "it's amazing you've been able to get these partnerships cold."
+        }
+      ],
+      "activation": "evaluated",
+      "source_rationale_id": "R14",
+      "utterance_kind": "assessment",
+      "decision_support": "none",
+      "all_mention_ids": [
+        "R8",
+        "R14"
+      ]
+    },
+    {
+      "rationale_label": "go_to_market_strategy_assessment",
+      "direction": "neutral",
+      "salience": "secondary",
+      "confidence": 0.94,
+      "utterance_type": "question",
+      "decision_link": "none",
+      "timing": "original_pitch",
+      "turn_index": 56,
+      "quote": "So mostly cold -",
+      "explanation": "She probes whether the founder's business development has mainly relied on cold outreach.",
+      "evidence": [
+        "you need the food influencers to partner with you?",
+        "you basically gave out your link to all the influencers they were working with.",
+        "When you come to the US, how are you thinking about approaching brands, retailers, etc?",
+        "So mostly cold -"
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 21,
+          "speaker": "Elizabeth",
+          "quote": "you need the food influencers to partner with you?"
+        },
+        {
+          "turn_index": 40,
+          "speaker": "Elizabeth",
+          "quote": "you basically gave out your link to all the influencers they were working with."
+        },
+        {
+          "turn_index": 52,
+          "speaker": "Elizabeth",
+          "quote": "When you come to the US, how are you thinking about approaching brands, retailers, etc?"
+        },
+        {
+          "turn_index": 56,
+          "speaker": "Elizabeth",
+          "quote": "So mostly cold -"
+        }
+      ],
+      "activation": "queried",
+      "source_rationale_id": "R7",
+      "utterance_kind": "question",
+      "decision_support": "none",
+      "all_mention_ids": [
+        "R2",
+        "R4",
+        "R6",
+        "R7"
+      ]
+    },
+    {
+      "rationale_label": "growth_projection_risk",
+      "direction": "negative",
+      "salience": "primary",
+      "confidence": 0.97,
+      "utterance_type": "assessment",
+      "decision_link": "explicit",
+      "timing": "original_pitch",
+      "turn_index": 99,
+      "quote": "there is drop off at sort of every step of the way.",
+      "explanation": "She questions whether large follower counts will reliably convert through each stage of the funnel, contributing to her lower-valued offer.",
+      "evidence": [
+        "there is drop off at sort of every step of the way."
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 99,
+          "speaker": "Elizabeth",
+          "quote": "there is drop off at sort of every step of the way."
+        }
+      ],
+      "activation": "evaluated",
+      "source_rationale_id": "R17",
+      "utterance_kind": "concern",
+      "decision_support": "supports_in",
+      "all_mention_ids": [
+        "R17"
+      ]
+    },
+    {
+      "rationale_label": "market_problem_validation",
+      "direction": "positive",
+      "salience": "secondary",
+      "confidence": 0.91,
+      "utterance_type": "assessment",
+      "decision_link": "none",
+      "timing": "original_pitch",
+      "turn_index": 61,
+      "quote": "They're waiting for it.",
+      "explanation": "She expresses a positive belief that influencers already want this type of solution.",
+      "evidence": [
+        "They're waiting for it."
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 61,
+          "speaker": "Elizabeth",
+          "quote": "They're waiting for it."
+        }
+      ],
+      "activation": "evaluated",
+      "source_rationale_id": "R9",
+      "utterance_kind": "assessment",
+      "decision_support": "none",
+      "all_mention_ids": [
+        "R9"
+      ]
+    },
+    {
+      "rationale_label": "solution_feasibility_assessment",
+      "direction": "neutral",
+      "salience": "secondary",
+      "confidence": 0.96,
+      "utterance_type": "question",
+      "decision_link": "none",
+      "timing": "original_pitch",
+      "turn_index": 71,
+      "quote": "There is a grocery retailer you're already integrated with who could plausibly serve that order.",
+      "explanation": "She verifies whether the proposed workflow can operationally fulfill a consumer order.",
+      "evidence": [
+        "I'm just trying to understand the user experience.",
+        "There is a grocery retailer you're already integrated with who could plausibly serve that order."
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 19,
+          "speaker": "Elizabeth",
+          "quote": "I'm just trying to understand the user experience."
+        },
+        {
+          "turn_index": 71,
+          "speaker": "Elizabeth",
+          "quote": "There is a grocery retailer you're already integrated with who could plausibly serve that order."
+        }
+      ],
+      "activation": "queried",
+      "source_rationale_id": "R10",
+      "utterance_kind": "question",
+      "decision_support": "none",
+      "all_mention_ids": [
+        "R1",
+        "R10"
+      ]
+    },
+    {
+      "rationale_label": "stage_valuation_mismatch",
+      "direction": "negative",
+      "salience": "primary",
+      "confidence": 0.99,
+      "utterance_type": "decision_reason",
+      "decision_link": "explicit",
+      "timing": "original_pitch",
+      "turn_index": 99,
+      "quote": "I unfortunately can't get behind the 10.",
+      "explanation": "She rejects the requested $10 million valuation but immediately ties her concerns to an investment offer at a lower valuation.",
+      "evidence": [
+        "I unfortunately can't get behind the 10."
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 99,
+          "speaker": "Elizabeth",
+          "quote": "I unfortunately can't get behind the 10."
+        }
+      ],
+      "activation": "evaluated",
+      "source_rationale_id": "R18",
+      "utterance_kind": "decision_explanation",
+      "decision_support": "supports_in",
+      "all_mention_ids": [
+        "R18"
+      ]
+    },
+    {
+      "rationale_label": "traction_repeatability_concern",
+      "direction": "neutral",
+      "salience": "secondary",
+      "confidence": 0.93,
+      "utterance_type": "question",
+      "decision_link": "none",
+      "timing": "original_pitch",
+      "turn_index": 77,
+      "quote": "How much revenue have you done in Sweden?",
+      "explanation": "She requests a concrete traction figure without asserting that the existing traction is inadequate.",
+      "evidence": [
+        "How much revenue have you done in Sweden?"
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 77,
+          "speaker": "Elizabeth",
+          "quote": "How much revenue have you done in Sweden?"
+        }
+      ],
+      "activation": "queried",
+      "source_rationale_id": "R11",
+      "utterance_kind": "question",
+      "decision_support": "none",
+      "all_mention_ids": [
+        "R11"
+      ]
+    }
+  ],
+  "later_rationales": [
+    {
+      "rationale_label": "market_timing",
+      "direction": "positive",
+      "salience": "secondary",
+      "confidence": 0.98,
+      "utterance_type": "assessment",
+      "decision_link": "none",
+      "timing": "later_commentary",
+      "turn_index": 132,
+      "quote": "I think she's right about timing.",
+      "explanation": "Elizabeth agrees that current market conditions make the opportunity timely.",
+      "evidence": [
+        "I think she's right about timing."
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 132,
+          "speaker": "Elizabeth",
+          "quote": "I think she's right about timing."
+        }
+      ],
+      "activation": "evaluated",
+      "source_rationale_id": "R19"
+    },
+    {
+      "rationale_label": "founder_skillset",
+      "direction": "positive",
+      "salience": "primary",
+      "confidence": 0.97,
+      "utterance_type": "assessment",
+      "decision_link": "none",
+      "timing": "later_commentary",
+      "turn_index": 134,
+      "quote": "she seems to knock that out of the park.",
+      "explanation": "She believes the founder has the partnership and sales skills central to this business.",
+      "evidence": [
+        "she seems to knock that out of the park."
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 134,
+          "speaker": "Elizabeth",
+          "quote": "she seems to knock that out of the park."
+        }
+      ],
+      "activation": "evaluated",
+      "source_rationale_id": "R20"
+    },
+    {
+      "rationale_label": "stage_valuation_mismatch",
+      "direction": "negative",
+      "salience": "primary",
+      "confidence": 0.98,
+      "utterance_type": "decision_explanation",
+      "decision_link": "supports_in",
+      "timing": "later_commentary",
+      "turn_index": 160,
+      "quote": "this is fairly early",
+      "explanation": "Elizabeth explains that the company's early stage supports her valuation-sensitive investment offer.",
+      "evidence": [
+        "this is fairly early"
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 160,
+          "speaker": "Elizabeth",
+          "quote": "this is fairly early"
+        }
+      ],
+      "activation": "evaluated",
+      "source_rationale_id": "R21"
+    },
+    {
+      "rationale_label": "fund_economics_constraint",
+      "direction": "neutral",
+      "salience": "primary",
+      "confidence": 0.99,
+      "utterance_type": "decision_explanation",
+      "decision_link": "supports_in",
+      "timing": "later_commentary",
+      "turn_index": 166,
+      "quote": "We write small checks, so we have to kind of make it count",
+      "explanation": "She explains that Hustle Fund's small-check economics require investing at a valuation that makes the ownership outcome worthwhile.",
+      "evidence": [
+        "We write small checks, so we have to kind of make it count"
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 166,
+          "speaker": "Elizabeth",
+          "quote": "We write small checks, so we have to kind of make it count"
+        }
+      ],
+      "activation": "evaluated",
+      "source_rationale_id": "R22"
+    }
+  ],
+  "excluded_rationales": [],
+  "rationale_mentions": [
+    {
+      "rationale_label": "solution_feasibility_assessment",
+      "direction": "neutral",
+      "salience": "secondary",
+      "confidence": 0.98,
+      "utterance_type": "question",
+      "decision_link": "none",
+      "timing": "original_pitch",
+      "turn_index": 19,
+      "quote": "I'm just trying to understand the user experience.",
+      "explanation": "Elizabeth seeks clarification about how the product operates within Instagram.",
+      "evidence": [
+        "I'm just trying to understand the user experience."
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 19,
+          "speaker": "Elizabeth",
+          "quote": "I'm just trying to understand the user experience."
+        }
+      ],
+      "activation": "queried",
+      "source_rationale_id": "R1"
+    },
+    {
+      "rationale_label": "go_to_market_strategy_assessment",
+      "direction": "neutral",
+      "salience": "secondary",
+      "confidence": 0.97,
+      "utterance_type": "question",
+      "decision_link": "none",
+      "timing": "original_pitch",
+      "turn_index": 21,
+      "quote": "you need the food influencers to partner with you?",
+      "explanation": "She probes whether influencer partnerships are required for the distribution strategy.",
+      "evidence": [
+        "you need the food influencers to partner with you?"
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 21,
+          "speaker": "Elizabeth",
+          "quote": "you need the food influencers to partner with you?"
+        }
+      ],
+      "activation": "queried",
+      "source_rationale_id": "R2"
+    },
+    {
+      "rationale_label": "business_model_assessment",
+      "direction": "neutral",
+      "salience": "secondary",
+      "confidence": 0.96,
+      "utterance_type": "question",
+      "decision_link": "none",
+      "timing": "original_pitch",
+      "turn_index": 38,
+      "quote": "you are already selling that data, or what - what is sort of the minimum amount of data you need to be interesting?",
+      "explanation": "She asks about the current commercialization and scale threshold for the data business.",
+      "evidence": [
+        "you are already selling that data, or what - what is sort of the minimum amount of data you need to be interesting?"
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 38,
+          "speaker": "Elizabeth",
+          "quote": "you are already selling that data, or what - what is sort of the minimum amount of data you need to be interesting?"
+        }
+      ],
+      "activation": "queried",
+      "source_rationale_id": "R3"
+    },
+    {
+      "rationale_label": "go_to_market_strategy_assessment",
+      "direction": "neutral",
+      "salience": "secondary",
+      "confidence": 0.95,
+      "utterance_type": "question",
+      "decision_link": "none",
+      "timing": "original_pitch",
+      "turn_index": 40,
+      "quote": "you basically gave out your link to all the influencers they were working with.",
+      "explanation": "She clarifies how the company distributed its product during the pilot.",
+      "evidence": [
+        "you basically gave out your link to all the influencers they were working with."
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 40,
+          "speaker": "Elizabeth",
+          "quote": "you basically gave out your link to all the influencers they were working with."
+        }
+      ],
+      "activation": "queried",
+      "source_rationale_id": "R4"
+    },
+    {
+      "rationale_label": "business_model_assessment",
+      "direction": "neutral",
+      "salience": "secondary",
+      "confidence": 0.95,
+      "utterance_type": "question",
+      "decision_link": "none",
+      "timing": "original_pitch",
+      "turn_index": 42,
+      "quote": "that helped them see, Oh, this influencer was great. That one was not so great or whatever.",
+      "explanation": "She verifies the value the data product provided to the brand customer.",
+      "evidence": [
+        "that helped them see, Oh, this influencer was great. That one was not so great or whatever."
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 42,
+          "speaker": "Elizabeth",
+          "quote": "that helped them see, Oh, this influencer was great. That one was not so great or whatever."
+        }
+      ],
+      "activation": "queried",
+      "source_rationale_id": "R5"
+    },
+    {
+      "rationale_label": "go_to_market_strategy_assessment",
+      "direction": "neutral",
+      "salience": "secondary",
+      "confidence": 0.98,
+      "utterance_type": "question",
+      "decision_link": "none",
+      "timing": "original_pitch",
+      "turn_index": 52,
+      "quote": "When you come to the US, how are you thinking about approaching brands, retailers, etc?",
+      "explanation": "She asks how the company plans to enter and sell into the US market.",
+      "evidence": [
+        "When you come to the US, how are you thinking about approaching brands, retailers, etc?"
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 52,
+          "speaker": "Elizabeth",
+          "quote": "When you come to the US, how are you thinking about approaching brands, retailers, etc?"
+        }
+      ],
+      "activation": "queried",
+      "source_rationale_id": "R6"
+    },
+    {
+      "rationale_label": "go_to_market_strategy_assessment",
+      "direction": "neutral",
+      "salience": "secondary",
+      "confidence": 0.94,
+      "utterance_type": "question",
+      "decision_link": "none",
+      "timing": "original_pitch",
+      "turn_index": 56,
+      "quote": "So mostly cold -",
+      "explanation": "She probes whether the founder's business development has mainly relied on cold outreach.",
+      "evidence": [
+        "So mostly cold -"
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 56,
+          "speaker": "Elizabeth",
+          "quote": "So mostly cold -"
+        }
+      ],
+      "activation": "queried",
+      "source_rationale_id": "R7"
+    },
+    {
+      "rationale_label": "founder_execution",
+      "direction": "positive",
+      "salience": "secondary",
+      "confidence": 0.97,
+      "utterance_type": "assessment",
+      "decision_link": "none",
+      "timing": "original_pitch",
+      "turn_index": 58,
+      "quote": "that's impressive.",
+      "explanation": "Elizabeth positively assesses the founder's ability to build relationships and close opportunities without an established network.",
+      "evidence": [
+        "that's impressive."
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 58,
+          "speaker": "Elizabeth",
+          "quote": "that's impressive."
+        }
+      ],
+      "activation": "evaluated",
+      "source_rationale_id": "R8"
+    },
+    {
+      "rationale_label": "market_problem_validation",
+      "direction": "positive",
+      "salience": "secondary",
+      "confidence": 0.91,
+      "utterance_type": "assessment",
+      "decision_link": "none",
+      "timing": "original_pitch",
+      "turn_index": 61,
+      "quote": "They're waiting for it.",
+      "explanation": "She expresses a positive belief that influencers already want this type of solution.",
+      "evidence": [
+        "They're waiting for it."
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 61,
+          "speaker": "Elizabeth",
+          "quote": "They're waiting for it."
+        }
+      ],
+      "activation": "evaluated",
+      "source_rationale_id": "R9"
+    },
+    {
+      "rationale_label": "solution_feasibility_assessment",
+      "direction": "neutral",
+      "salience": "secondary",
+      "confidence": 0.96,
+      "utterance_type": "question",
+      "decision_link": "none",
+      "timing": "original_pitch",
+      "turn_index": 71,
+      "quote": "There is a grocery retailer you're already integrated with who could plausibly serve that order.",
+      "explanation": "She verifies whether the proposed workflow can operationally fulfill a consumer order.",
+      "evidence": [
+        "There is a grocery retailer you're already integrated with who could plausibly serve that order."
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 71,
+          "speaker": "Elizabeth",
+          "quote": "There is a grocery retailer you're already integrated with who could plausibly serve that order."
+        }
+      ],
+      "activation": "queried",
+      "source_rationale_id": "R10"
+    },
+    {
+      "rationale_label": "traction_repeatability_concern",
+      "direction": "neutral",
+      "salience": "secondary",
+      "confidence": 0.93,
+      "utterance_type": "question",
+      "decision_link": "none",
+      "timing": "original_pitch",
+      "turn_index": 77,
+      "quote": "How much revenue have you done in Sweden?",
+      "explanation": "She requests a concrete traction figure without asserting that the existing traction is inadequate.",
+      "evidence": [
+        "How much revenue have you done in Sweden?"
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 77,
+          "speaker": "Elizabeth",
+          "quote": "How much revenue have you done in Sweden?"
+        }
+      ],
+      "activation": "queried",
+      "source_rationale_id": "R11"
+    },
+    {
+      "rationale_label": "deal_terms_complexity_concern",
+      "direction": "neutral",
+      "salience": "secondary",
+      "confidence": 0.92,
+      "utterance_type": "question",
+      "decision_link": "none",
+      "timing": "original_pitch",
+      "turn_index": 86,
+      "quote": "Have terms been set on this round?",
+      "explanation": "She seeks clarification about the round's financing terms.",
+      "evidence": [
+        "Have terms been set on this round?"
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 86,
+          "speaker": "Elizabeth",
+          "quote": "Have terms been set on this round?"
+        }
+      ],
+      "activation": "queried",
+      "source_rationale_id": "R12"
+    },
+    {
+      "rationale_label": "business_model_assessment",
+      "direction": "positive",
+      "salience": "secondary",
+      "confidence": 0.93,
+      "utterance_type": "supporting_argument",
+      "decision_link": "none",
+      "timing": "original_pitch",
+      "turn_index": 96,
+      "quote": "That's my hypothesis.",
+      "explanation": "She states agreement with the view that CPG brands will become the majority revenue source.",
+      "evidence": [
+        "That's my hypothesis."
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 96,
+          "speaker": "Elizabeth",
+          "quote": "That's my hypothesis."
+        }
+      ],
+      "activation": "evaluated",
+      "source_rationale_id": "R13"
+    },
+    {
+      "rationale_label": "founder_execution",
+      "direction": "positive",
+      "salience": "secondary",
+      "confidence": 0.98,
+      "utterance_type": "assessment",
+      "decision_link": "none",
+      "timing": "original_pitch",
+      "turn_index": 99,
+      "quote": "it's amazing you've been able to get these partnerships cold.",
+      "explanation": "Elizabeth praises the founder's resourcefulness in securing partnerships through cold outreach.",
+      "evidence": [
+        "it's amazing you've been able to get these partnerships cold."
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 99,
+          "speaker": "Elizabeth",
+          "quote": "it's amazing you've been able to get these partnerships cold."
+        }
+      ],
+      "activation": "evaluated",
+      "source_rationale_id": "R14"
+    },
+    {
+      "rationale_label": "founder_communication_quality",
+      "direction": "positive",
+      "salience": "secondary",
+      "confidence": 0.98,
+      "utterance_type": "assessment",
+      "decision_link": "none",
+      "timing": "original_pitch",
+      "turn_index": 99,
+      "quote": "you're very clear, you're very dynamic, you know your stuff",
+      "explanation": "She positively assesses the founder's clarity, command, and presentation quality.",
+      "evidence": [
+        "you're very clear, you're very dynamic, you know your stuff"
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 99,
+          "speaker": "Elizabeth",
+          "quote": "you're very clear, you're very dynamic, you know your stuff"
+        }
+      ],
+      "activation": "evaluated",
+      "source_rationale_id": "R15"
+    },
+    {
+      "rationale_label": "business_viability_concern",
+      "direction": "negative",
+      "salience": "primary",
+      "confidence": 0.98,
+      "utterance_type": "concern",
+      "decision_link": "supports_in",
+      "timing": "original_pitch",
+      "turn_index": 99,
+      "quote": "there's a lot of components that need to come together to make this work.",
+      "explanation": "She identifies structural complexity and interdependence across influencers, retailers, data, and CPG customers as a business risk underlying her lower-valued offer.",
+      "evidence": [
+        "there's a lot of components that need to come together to make this work."
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 99,
+          "speaker": "Elizabeth",
+          "quote": "there's a lot of components that need to come together to make this work."
+        }
+      ],
+      "activation": "evaluated",
+      "source_rationale_id": "R16"
+    },
+    {
+      "rationale_label": "growth_projection_risk",
+      "direction": "negative",
+      "salience": "primary",
+      "confidence": 0.97,
+      "utterance_type": "concern",
+      "decision_link": "supports_in",
+      "timing": "original_pitch",
+      "turn_index": 99,
+      "quote": "there is drop off at sort of every step of the way.",
+      "explanation": "She questions whether large follower counts will reliably convert through each stage of the funnel, contributing to her lower-valued offer.",
+      "evidence": [
+        "there is drop off at sort of every step of the way."
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 99,
+          "speaker": "Elizabeth",
+          "quote": "there is drop off at sort of every step of the way."
+        }
+      ],
+      "activation": "evaluated",
+      "source_rationale_id": "R17"
+    },
+    {
+      "rationale_label": "stage_valuation_mismatch",
+      "direction": "negative",
+      "salience": "primary",
+      "confidence": 0.99,
+      "utterance_type": "decision_explanation",
+      "decision_link": "supports_in",
+      "timing": "original_pitch",
+      "turn_index": 99,
+      "quote": "I unfortunately can't get behind the 10.",
+      "explanation": "She rejects the requested $10 million valuation but immediately ties her concerns to an investment offer at a lower valuation.",
+      "evidence": [
+        "I unfortunately can't get behind the 10."
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 99,
+          "speaker": "Elizabeth",
+          "quote": "I unfortunately can't get behind the 10."
+        }
+      ],
+      "activation": "evaluated",
+      "source_rationale_id": "R18"
+    }
+  ],
+  "expanded_quote_evidence": [],
+  "rejected_after_evidence_check": []
+}

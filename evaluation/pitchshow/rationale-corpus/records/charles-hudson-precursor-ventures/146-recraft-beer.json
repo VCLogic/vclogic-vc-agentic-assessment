@@ -1,0 +1,367 @@
+{
+  "schema": "phase1-rationale-reference-v1",
+  "extraction_version": "pitchshow-rationales-v1",
+  "fingerprint": "ee7890be881b6b10e432f2204ff176ae45f1f025f6b40692458b4f360b0cd2e3",
+  "episode_slug": "146-recraft-beer",
+  "vc_slug": "charles-hudson-precursor-ventures",
+  "vc_name": "Charles Hudson",
+  "actual_decision": "Out",
+  "later_decision": "Unknown",
+  "reference_kind": "automated_transcript_observed_candidate",
+  "human_validated": false,
+  "source_format": "transcript-observed-rationales-v1",
+  "source_path": "/home/dpasch01/vclogic-vc-agentic-assessment/evaluation/pitchshow/investors/charles-hudson-precursor-ventures/source/episodes/146-recraft-beer.json",
+  "source_sha256": "44dca3a5ecd9a8e53e076891800a3a11899290e43df09671affc160d01bd9061",
+  "transcript_sha256": "0a5b86074a0c0583f87ca925c564e220f2d83af755f6de1c6e7aa2c880cfb2b4",
+  "taxonomy_sha256": "eaa8734819a3ac34dd19ee5f0bf6de925a793a1d25a2d361090dafc9b751e1fc",
+  "model": "openai/gpt-5.6-luna",
+  "source_tier": "newly_extracted_and_independently_model_reviewed",
+  "reviewed_target_turns": [
+    2,
+    7,
+    32,
+    41,
+    45,
+    47,
+    49,
+    67,
+    69,
+    71,
+    73,
+    92,
+    101,
+    129,
+    144
+  ],
+  "notes": "Reviewed every supplied Charles turn. Turns 2, 7, 47, 49, 67, 73, 92, 101, and 144 contain no sufficiently taxonomy-grounded rationale; turn 67 is an end-state question without an expressed alignment assessment, and turn 73 is a generic success prediction rather than an investment-upside rationale.",
+  "receipt_path": "/home/dpasch01/vclogic-vc-agentic-assessment/evaluation/pitchshow/investors/charles-hudson-precursor-ventures/rationale-references/receipts/146-recraft-beer.json",
+  "scoring_scope": "original_pitch_only",
+  "shared_across_input_modes": true,
+  "rationales": [
+    {
+      "rationale_label": "business_model_assessment",
+      "direction": "neutral",
+      "salience": "secondary",
+      "confidence": 0.98,
+      "utterance_type": "question",
+      "decision_link": "none",
+      "timing": "original_pitch",
+      "turn_index": 41,
+      "quote": "How does it compare on a cost basis to their current methodology?",
+      "explanation": "Charles asks for a production-cost comparison with the incumbent process, probing the business economics.",
+      "evidence": [
+        "How does it compare on a cost basis to their current methodology?"
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 41,
+          "speaker": "Charles",
+          "quote": "How does it compare on a cost basis to their current methodology?"
+        }
+      ],
+      "activation": "queried",
+      "source_rationale_id": "R2",
+      "utterance_kind": "question",
+      "decision_support": "none",
+      "all_mention_ids": [
+        "R2"
+      ]
+    },
+    {
+      "rationale_label": "competitive_landscape_inertia",
+      "direction": "neutral",
+      "salience": "secondary",
+      "confidence": 0.91,
+      "utterance_type": "question",
+      "decision_link": "none",
+      "timing": "original_pitch",
+      "turn_index": 45,
+      "quote": "given how concentrated InBev - some of these huge, I imagine they have internal R&D teams that are probably thinking about every element of the process",
+      "explanation": "Charles probes the challenge of selling into large, concentrated incumbents that may have relevant internal R&D capabilities.",
+      "evidence": [
+        "given how concentrated InBev - some of these huge, I imagine they have internal R&D teams that are probably thinking about every element of the process"
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 45,
+          "speaker": "Charles",
+          "quote": "given how concentrated InBev - some of these huge, I imagine they have internal R&D teams that are probably thinking about every element of the process"
+        }
+      ],
+      "activation": "queried",
+      "source_rationale_id": "R3",
+      "utterance_kind": "question",
+      "decision_support": "none",
+      "all_mention_ids": [
+        "R3"
+      ]
+    },
+    {
+      "rationale_label": "investment_thesis_constraint",
+      "direction": "negative",
+      "salience": "primary",
+      "confidence": 0.99,
+      "utterance_type": "decision_reason",
+      "decision_link": "explicit",
+      "timing": "original_pitch",
+      "turn_index": 69,
+      "quote": "we have like an internal thing about science things",
+      "explanation": "Charles explicitly attributes his decision to an internal Precursor constraint against science-focused opportunities.",
+      "evidence": [
+        "we have like an internal thing about science things"
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 69,
+          "speaker": "Charles",
+          "quote": "we have like an internal thing about science things"
+        }
+      ],
+      "activation": "evaluated",
+      "source_rationale_id": "R4",
+      "utterance_kind": "decision_explanation",
+      "decision_support": "supports_out",
+      "all_mention_ids": [
+        "R4"
+      ]
+    },
+    {
+      "rationale_label": "investor_domain_knowledge_constraint",
+      "direction": "negative",
+      "salience": "secondary",
+      "confidence": 0.96,
+      "utterance_type": "decision_reason",
+      "decision_link": "explicit",
+      "timing": "original_pitch",
+      "turn_index": 69,
+      "quote": "we're not science people at Precursor",
+      "explanation": "Charles also cites the firm's lack of scientific expertise as a constraint on evaluating or investing in the company.",
+      "evidence": [
+        "we're not science people at Precursor"
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 69,
+          "speaker": "Charles",
+          "quote": "we're not science people at Precursor"
+        }
+      ],
+      "activation": "evaluated",
+      "source_rationale_id": "R5",
+      "utterance_kind": "decision_explanation",
+      "decision_support": "supports_out",
+      "all_mention_ids": [
+        "R5"
+      ]
+    },
+    {
+      "rationale_label": "product_appeal_assessment",
+      "direction": "positive",
+      "salience": "secondary",
+      "confidence": 0.98,
+      "utterance_type": "assessment",
+      "decision_link": "none",
+      "timing": "original_pitch",
+      "turn_index": 71,
+      "quote": "this is a really well made beer",
+      "explanation": "Charles gives a favorable personal assessment of the product's quality.",
+      "evidence": [
+        "They're both really good.",
+        "this is a really well made beer"
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 32,
+          "speaker": "Charles",
+          "quote": "They're both really good."
+        },
+        {
+          "turn_index": 71,
+          "speaker": "Charles",
+          "quote": "this is a really well made beer"
+        }
+      ],
+      "activation": "evaluated",
+      "source_rationale_id": "R6",
+      "utterance_kind": "assessment",
+      "decision_support": "none",
+      "all_mention_ids": [
+        "R1",
+        "R6"
+      ]
+    }
+  ],
+  "later_rationales": [
+    {
+      "rationale_label": "venture_scale_concern",
+      "direction": "negative",
+      "salience": "primary",
+      "confidence": 0.97,
+      "utterance_type": "concern",
+      "decision_link": "none",
+      "timing": "later_commentary",
+      "turn_index": 129,
+      "quote": "You might only get one customer though.",
+      "explanation": "Charles raises the possibility that customer concentration could limit the company's ability to achieve venture-scale outcomes.",
+      "evidence": [
+        "You might only get one customer though."
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 129,
+          "speaker": "Charles",
+          "quote": "You might only get one customer though."
+        }
+      ],
+      "activation": "evaluated",
+      "source_rationale_id": "R7"
+    }
+  ],
+  "excluded_rationales": [],
+  "rationale_mentions": [
+    {
+      "rationale_label": "product_appeal_assessment",
+      "direction": "positive",
+      "salience": "secondary",
+      "confidence": 0.99,
+      "utterance_type": "assessment",
+      "decision_link": "none",
+      "timing": "original_pitch",
+      "turn_index": 32,
+      "quote": "They're both really good.",
+      "explanation": "Charles favorably assesses the quality of the tasted beers.",
+      "evidence": [
+        "They're both really good."
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 32,
+          "speaker": "Charles",
+          "quote": "They're both really good."
+        }
+      ],
+      "activation": "evaluated",
+      "source_rationale_id": "R1"
+    },
+    {
+      "rationale_label": "business_model_assessment",
+      "direction": "neutral",
+      "salience": "secondary",
+      "confidence": 0.98,
+      "utterance_type": "question",
+      "decision_link": "none",
+      "timing": "original_pitch",
+      "turn_index": 41,
+      "quote": "How does it compare on a cost basis to their current methodology?",
+      "explanation": "Charles asks for a production-cost comparison with the incumbent process, probing the business economics.",
+      "evidence": [
+        "How does it compare on a cost basis to their current methodology?"
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 41,
+          "speaker": "Charles",
+          "quote": "How does it compare on a cost basis to their current methodology?"
+        }
+      ],
+      "activation": "queried",
+      "source_rationale_id": "R2"
+    },
+    {
+      "rationale_label": "competitive_landscape_inertia",
+      "direction": "neutral",
+      "salience": "secondary",
+      "confidence": 0.91,
+      "utterance_type": "question",
+      "decision_link": "none",
+      "timing": "original_pitch",
+      "turn_index": 45,
+      "quote": "given how concentrated InBev - some of these huge, I imagine they have internal R&D teams that are probably thinking about every element of the process",
+      "explanation": "Charles probes the challenge of selling into large, concentrated incumbents that may have relevant internal R&D capabilities.",
+      "evidence": [
+        "given how concentrated InBev - some of these huge, I imagine they have internal R&D teams that are probably thinking about every element of the process"
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 45,
+          "speaker": "Charles",
+          "quote": "given how concentrated InBev - some of these huge, I imagine they have internal R&D teams that are probably thinking about every element of the process"
+        }
+      ],
+      "activation": "queried",
+      "source_rationale_id": "R3"
+    },
+    {
+      "rationale_label": "investment_thesis_constraint",
+      "direction": "negative",
+      "salience": "primary",
+      "confidence": 0.99,
+      "utterance_type": "decision_explanation",
+      "decision_link": "supports_out",
+      "timing": "original_pitch",
+      "turn_index": 69,
+      "quote": "we have like an internal thing about science things",
+      "explanation": "Charles explicitly attributes his decision to an internal Precursor constraint against science-focused opportunities.",
+      "evidence": [
+        "we have like an internal thing about science things"
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 69,
+          "speaker": "Charles",
+          "quote": "we have like an internal thing about science things"
+        }
+      ],
+      "activation": "evaluated",
+      "source_rationale_id": "R4"
+    },
+    {
+      "rationale_label": "investor_domain_knowledge_constraint",
+      "direction": "negative",
+      "salience": "secondary",
+      "confidence": 0.96,
+      "utterance_type": "decision_explanation",
+      "decision_link": "supports_out",
+      "timing": "original_pitch",
+      "turn_index": 69,
+      "quote": "we're not science people at Precursor",
+      "explanation": "Charles also cites the firm's lack of scientific expertise as a constraint on evaluating or investing in the company.",
+      "evidence": [
+        "we're not science people at Precursor"
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 69,
+          "speaker": "Charles",
+          "quote": "we're not science people at Precursor"
+        }
+      ],
+      "activation": "evaluated",
+      "source_rationale_id": "R5"
+    },
+    {
+      "rationale_label": "product_appeal_assessment",
+      "direction": "positive",
+      "salience": "secondary",
+      "confidence": 0.98,
+      "utterance_type": "assessment",
+      "decision_link": "none",
+      "timing": "original_pitch",
+      "turn_index": 71,
+      "quote": "this is a really well made beer",
+      "explanation": "Charles gives a favorable personal assessment of the product's quality.",
+      "evidence": [
+        "this is a really well made beer"
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 71,
+          "speaker": "Charles",
+          "quote": "this is a really well made beer"
+        }
+      ],
+      "activation": "evaluated",
+      "source_rationale_id": "R6"
+    }
+  ]
+}

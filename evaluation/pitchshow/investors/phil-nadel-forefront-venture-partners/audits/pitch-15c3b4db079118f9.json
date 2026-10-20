@@ -1,0 +1,42 @@
+{
+  "episode_slug": "27-qleek-pt-ii-what-happened-after-the-pitch",
+  "vc_slug": "phil-nadel-forefront-venture-partners",
+  "review_status": "unobserved_or_disputed",
+  "evaluation_eligible": false,
+  "source_sha256": "69c4c42a75c623b4be85ae5179a413585a725fcf45d4c31b0127dfac56724180",
+  "pitch_sha256": null,
+  "review_receipt": "../../../reviews/27-qleek-pt-ii-what-happened-after-the-pitch.json",
+  "boundary": {
+    "pitch_start_turn": 6,
+    "pitch_end_turn": 25,
+    "boundary_reason": "Turns 0-5 are the intro and retrospective teaser. The original pitch begins at turn 6. Turn 25 is Daniel's first refusal and includes outcome-revealing commentary that the other investors followed suit, so the exclusive pitch endpoint is 25; subsequent turns are decision recap, followup, or outro."
+  },
+  "segments": [],
+  "removed_candidate_lines": [],
+  "semantic_review": {
+    "boundary_supported": false,
+    "remove_lines": [],
+    "safe_after_removal": false,
+    "reason": "The proposed start at turn 6 is supported, but the proposed exclusive end at turn 25 is not conservative: turn 24 already reveals that the investors made their decisions and introduces Daniel's decision. The original pitch should end before turn 24, at exclusive boundary 24. No candidate pitch lines were provided for removal, and the proposed interval would still contain outcome leakage.",
+    "decisions": [
+      {
+        "vc_slug": "jillian-manus-structure-capital",
+        "pitch_decision_supported": false,
+        "later_decision_supported": false,
+        "pitch_evidence": [],
+        "later_evidence": [],
+        "condition": null,
+        "reason": "Jillian expresses doubts about the market and says they could be horribly wrong, but she never explicitly commits to investing or refuses. The collective statements that the investors did not go for Qleek and that no one invested do not establish Jillian's individual pitch decision. No later Jillian investment or non-investment is reported."
+      },
+      {
+        "vc_slug": "phil-nadel-forefront-venture-partners",
+        "pitch_decision_supported": false,
+        "later_decision_supported": false,
+        "pitch_evidence": [],
+        "later_evidence": [],
+        "condition": null,
+        "reason": "Phil only says, \"It was a pleasure meeting you both,\" which is not an investment decision. The collective statements about the investors do not establish Phil's individual pitch decision, and no later Phil investment or non-investment is reported."
+      }
+    ]
+  }
+}

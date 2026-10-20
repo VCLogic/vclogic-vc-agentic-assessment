@@ -1,0 +1,966 @@
+{
+  "schema": "phase1-rationale-reference-v1",
+  "extraction_version": "pitchshow-rationales-v1",
+  "fingerprint": "ebd4950dcbdc37c61a8ffc288e8650cbdcb8933fb9f8de21e2e17563b5166e38",
+  "episode_slug": "50-ticket-scalpers-beware-blockchain-is-coming-for-you",
+  "vc_slug": "phil-nadel-forefront-venture-partners",
+  "vc_name": "Phil Nadel",
+  "actual_decision": "Out",
+  "later_decision": "Unknown",
+  "reference_kind": "automated_transcript_observed_candidate",
+  "human_validated": false,
+  "source_format": "transcript-observed-rationales-v1",
+  "source_path": "../source/episodes/50-ticket-scalpers-beware-blockchain-is-coming-for-you.json",
+  "source_sha256": "b86a8f87d0e3425038a22a950d843d4ecdcfc578d72601ec27fc4328bfb72175",
+  "transcript_sha256": "deed3598db58829f9fc4412ab1b3c7eff356470777cbb268a9eec8bccdc0dcc5",
+  "taxonomy_sha256": "eaa8734819a3ac34dd19ee5f0bf6de925a793a1d25a2d361090dafc9b751e1fc",
+  "model": "codex:gpt-5.6-luna+gpt-5.6-sol",
+  "generation_stages": [
+    {
+      "phase": "rationale_extract",
+      "backend": "codex",
+      "model": "gpt-5.6-luna"
+    },
+    {
+      "phase": "rationale_verify",
+      "backend": "codex",
+      "model": "gpt-5.6-sol"
+    }
+  ],
+  "source_tier": "newly_extracted_and_independently_model_reviewed",
+  "reviewed_target_turns": [
+    3,
+    12,
+    14,
+    16,
+    18,
+    20,
+    22,
+    24,
+    34,
+    48,
+    60,
+    65,
+    67,
+    69,
+    71,
+    92,
+    98,
+    99,
+    101,
+    103,
+    105,
+    117,
+    118,
+    122,
+    124,
+    126
+  ],
+  "notes": "Reviewed every supplied target turn; biographical identification, jokes, acknowledgments, simple confirmations, and farewells were omitted as non-rationales.",
+  "receipt_path": "receipts/50-ticket-scalpers-beware-blockchain-is-coming-for-you.json",
+  "scoring_scope": "original_pitch_only",
+  "shared_across_input_modes": true,
+  "rationales": [
+    {
+      "rationale_label": "business_model_assessment",
+      "direction": "negative",
+      "salience": "primary",
+      "confidence": 0.98,
+      "utterance_type": "assessment",
+      "decision_link": "none",
+      "timing": "original_pitch",
+      "turn_index": 122,
+      "quote": "If he can make a business just out of selling the teams, without having to sell the... And if they’re content with getting some of those other benefits, just the 30% or whatever, then fine. But I don’t know that that’s doable.",
+      "explanation": "Questions whether a simplified team-only business model based on ancillary benefits would be viable.",
+      "evidence": [
+        "If he can make a business just out of selling the teams, without having to sell the... And if they’re content with getting some of those other benefits, just the 30% or whatever, then fine. But I don’t know that that’s doable."
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 122,
+          "speaker": "Phil",
+          "quote": "If he can make a business just out of selling the teams, without having to sell the... And if they’re content with getting some of those other benefits, just the 30% or whatever, then fine. But I don’t know that that’s doable."
+        }
+      ],
+      "activation": "evaluated",
+      "source_rationale_id": "R21",
+      "utterance_kind": "assessment",
+      "decision_support": "none",
+      "all_mention_ids": [
+        "R7",
+        "R8",
+        "R21"
+      ]
+    },
+    {
+      "rationale_label": "business_viability_concern",
+      "direction": "negative",
+      "salience": "primary",
+      "confidence": 0.98,
+      "utterance_type": "decision_reason",
+      "decision_link": "explicit",
+      "timing": "original_pitch",
+      "turn_index": 118,
+      "quote": "It's just there's so much uncertainty at this point.",
+      "explanation": "Summarizes unresolved business uncertainty as the overriding reason for not investing despite liking the concept and founder.",
+      "evidence": [
+        "It's just there's so much uncertainty at this point."
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 118,
+          "speaker": "Phil",
+          "quote": "It's just there's so much uncertainty at this point."
+        }
+      ],
+      "activation": "evaluated",
+      "source_rationale_id": "R20",
+      "utterance_kind": "decision_explanation",
+      "decision_support": "supports_out",
+      "all_mention_ids": [
+        "R20"
+      ]
+    },
+    {
+      "rationale_label": "capital_intensity_concern",
+      "direction": "negative",
+      "salience": "primary",
+      "confidence": 0.99,
+      "utterance_type": "decision_reason",
+      "decision_link": "explicit",
+      "timing": "original_pitch",
+      "turn_index": 101,
+      "quote": "your burn's going to go up, your runway's going to go down. I just feel like, for me, there's so much uncertainty at this stage that I'm going to have to pass for right now.",
+      "explanation": "Directly links the capital demands and shrinking runway created by the required sales effort to his decision to pass.",
+      "evidence": [
+        "your burn's going to go up, your runway's going to go down. I just feel like, for me, there's so much uncertainty at this stage that I'm going to have to pass for right now."
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 101,
+          "speaker": "Phil",
+          "quote": "your burn's going to go up, your runway's going to go down. I just feel like, for me, there's so much uncertainty at this stage that I'm going to have to pass for right now."
+        }
+      ],
+      "activation": "evaluated",
+      "source_rationale_id": "R16",
+      "utterance_kind": "decision_explanation",
+      "decision_support": "supports_out",
+      "all_mention_ids": [
+        "R13",
+        "R16"
+      ]
+    },
+    {
+      "rationale_label": "competitive_intensity_concern",
+      "direction": "negative",
+      "salience": "secondary",
+      "confidence": 0.98,
+      "utterance_type": "assessment",
+      "decision_link": "explicit",
+      "timing": "original_pitch",
+      "turn_index": 101,
+      "quote": "if Howie's right and there's another company doing this, you've got to move fast.",
+      "explanation": "Says the presence of a competing company creates urgency that contributes to the investment risk.",
+      "evidence": [
+        "if Howie's right and there's another company doing this, you've got to move fast."
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 101,
+          "speaker": "Phil",
+          "quote": "if Howie's right and there's another company doing this, you've got to move fast."
+        }
+      ],
+      "activation": "evaluated",
+      "source_rationale_id": "R15",
+      "utterance_kind": "assessment",
+      "decision_support": "supports_out",
+      "all_mention_ids": [
+        "R15"
+      ]
+    },
+    {
+      "rationale_label": "founder_execution",
+      "direction": "positive",
+      "salience": "secondary",
+      "confidence": 0.97,
+      "utterance_type": "assessment",
+      "decision_link": "none",
+      "timing": "original_pitch",
+      "turn_index": 105,
+      "quote": "I actually believe you.",
+      "explanation": "Expresses confidence in the founder's claim that he and his team can execute the difficult sales plan.",
+      "evidence": [
+        "I actually believe you."
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 105,
+          "speaker": "Phil",
+          "quote": "I actually believe you."
+        }
+      ],
+      "activation": "evaluated",
+      "source_rationale_id": "R17",
+      "utterance_kind": "assessment",
+      "decision_support": "none",
+      "all_mention_ids": [
+        "R17"
+      ]
+    },
+    {
+      "rationale_label": "founder_qualities",
+      "direction": "positive",
+      "salience": "secondary",
+      "confidence": 0.99,
+      "utterance_type": "assessment",
+      "decision_link": "none",
+      "timing": "original_pitch",
+      "turn_index": 118,
+      "quote": "He's great.",
+      "explanation": "Expresses a positive personal assessment of the founder.",
+      "evidence": [
+        "He's great."
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 118,
+          "speaker": "Phil",
+          "quote": "He's great."
+        }
+      ],
+      "activation": "evaluated",
+      "source_rationale_id": "R19",
+      "utterance_kind": "assessment",
+      "decision_support": "none",
+      "all_mention_ids": [
+        "R19"
+      ]
+    },
+    {
+      "rationale_label": "go_to_market_strategy_assessment",
+      "direction": "negative",
+      "salience": "primary",
+      "confidence": 0.99,
+      "utterance_type": "assessment",
+      "decision_link": "explicit",
+      "timing": "original_pitch",
+      "turn_index": 99,
+      "quote": "it's a little bit of a chicken and egg problem. And there are a lot of sales you have to make and that's what really concerns me.",
+      "explanation": "Identifies the need to win several interdependent stakeholder groups through difficult sales as a central concern leading into the pass.",
+      "evidence": [
+        "it's a little bit of a chicken and egg problem. And there are a lot of sales you have to make and that's what really concerns me."
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 99,
+          "speaker": "Phil",
+          "quote": "it's a little bit of a chicken and egg problem. And there are a lot of sales you have to make and that's what really concerns me."
+        }
+      ],
+      "activation": "evaluated",
+      "source_rationale_id": "R14",
+      "utterance_kind": "concern",
+      "decision_support": "supports_out",
+      "all_mention_ids": [
+        "R1",
+        "R4",
+        "R9",
+        "R10",
+        "R11",
+        "R12",
+        "R14"
+      ]
+    },
+    {
+      "rationale_label": "investment_thesis_constraint",
+      "direction": "neutral",
+      "salience": "secondary",
+      "confidence": 0.99,
+      "utterance_type": "assessment",
+      "decision_link": "none",
+      "timing": "original_pitch",
+      "turn_index": 124,
+      "quote": "I don't want to necessarily invest in blockchain. I want to invest in a company that has a cool application that happens to be using blockchain to enable it.",
+      "explanation": "States a preference for application-driven companies that use blockchain as enabling technology rather than blockchain investments in themselves.",
+      "evidence": [
+        "I don't want to necessarily invest in blockchain. I want to invest in a company that has a cool application that happens to be using blockchain to enable it."
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 124,
+          "speaker": "Phil",
+          "quote": "I don't want to necessarily invest in blockchain. I want to invest in a company that has a cool application that happens to be using blockchain to enable it."
+        }
+      ],
+      "activation": "evaluated",
+      "source_rationale_id": "R22",
+      "utterance_kind": "assessment",
+      "decision_support": "none",
+      "all_mention_ids": [
+        "R22"
+      ]
+    },
+    {
+      "rationale_label": "market_problem_validation",
+      "direction": "positive",
+      "salience": "secondary",
+      "confidence": 0.94,
+      "utterance_type": "assessment",
+      "decision_link": "none",
+      "timing": "original_pitch",
+      "turn_index": 22,
+      "quote": "That seems like a higher value add.",
+      "explanation": "Assesses the solution as providing stronger value to the secondary-ticketing platform.",
+      "evidence": [
+        "That seems like a higher value add."
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 22,
+          "speaker": "Phil",
+          "quote": "That seems like a higher value add."
+        }
+      ],
+      "activation": "evaluated",
+      "source_rationale_id": "R6",
+      "utterance_kind": "assessment",
+      "decision_support": "none",
+      "all_mention_ids": [
+        "R5",
+        "R6"
+      ]
+    },
+    {
+      "rationale_label": "product_appeal_assessment",
+      "direction": "positive",
+      "salience": "secondary",
+      "confidence": 0.97,
+      "utterance_type": "assessment",
+      "decision_link": "none",
+      "timing": "original_pitch",
+      "turn_index": 126,
+      "quote": "Right. It has business value.",
+      "explanation": "Affirms that the company's blockchain application provides practical business value.",
+      "evidence": [
+        "The concept is great.",
+        "Right. It has business value."
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 118,
+          "speaker": "Phil",
+          "quote": "The concept is great."
+        },
+        {
+          "turn_index": 126,
+          "speaker": "Phil",
+          "quote": "Right. It has business value."
+        }
+      ],
+      "activation": "evaluated",
+      "source_rationale_id": "R23",
+      "utterance_kind": "assessment",
+      "decision_support": "none",
+      "all_mention_ids": [
+        "R18",
+        "R23"
+      ]
+    },
+    {
+      "rationale_label": "solution_feasibility_assessment",
+      "direction": "neutral",
+      "salience": "secondary",
+      "confidence": 0.94,
+      "utterance_type": "question",
+      "decision_link": "none",
+      "timing": "original_pitch",
+      "turn_index": 16,
+      "quote": "No, but with your technology?",
+      "explanation": "Clarifies whether the proposed technology would provide the tracking capability under discussion.",
+      "evidence": [
+        "the Warriors can still track the ticket and make sure it's legit?",
+        "No, but with your technology?"
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 14,
+          "speaker": "Phil",
+          "quote": "the Warriors can still track the ticket and make sure it's legit?"
+        },
+        {
+          "turn_index": 16,
+          "speaker": "Phil",
+          "quote": "No, but with your technology?"
+        }
+      ],
+      "activation": "queried",
+      "source_rationale_id": "R3",
+      "utterance_kind": "question",
+      "decision_support": "none",
+      "all_mention_ids": [
+        "R2",
+        "R3"
+      ]
+    }
+  ],
+  "later_rationales": [],
+  "excluded_rationales": [],
+  "rationale_mentions": [
+    {
+      "rationale_label": "go_to_market_strategy_assessment",
+      "direction": "neutral",
+      "salience": "secondary",
+      "confidence": 0.98,
+      "utterance_type": "question",
+      "decision_link": "none",
+      "timing": "original_pitch",
+      "turn_index": 12,
+      "quote": "Can you just give me your pitch to a team.",
+      "explanation": "Asks how the company would present its value proposition to a prospective team customer.",
+      "evidence": [
+        "Can you just give me your pitch to a team."
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 12,
+          "speaker": "Phil",
+          "quote": "Can you just give me your pitch to a team."
+        }
+      ],
+      "activation": "queried",
+      "source_rationale_id": "R1"
+    },
+    {
+      "rationale_label": "solution_feasibility_assessment",
+      "direction": "neutral",
+      "salience": "secondary",
+      "confidence": 0.98,
+      "utterance_type": "question",
+      "decision_link": "none",
+      "timing": "original_pitch",
+      "turn_index": 14,
+      "quote": "the Warriors can still track the ticket and make sure it's legit?",
+      "explanation": "Probes whether the technology can authenticate a ticket sold through an independent secondary market.",
+      "evidence": [
+        "the Warriors can still track the ticket and make sure it's legit?"
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 14,
+          "speaker": "Phil",
+          "quote": "the Warriors can still track the ticket and make sure it's legit?"
+        }
+      ],
+      "activation": "queried",
+      "source_rationale_id": "R2"
+    },
+    {
+      "rationale_label": "solution_feasibility_assessment",
+      "direction": "neutral",
+      "salience": "secondary",
+      "confidence": 0.94,
+      "utterance_type": "question",
+      "decision_link": "none",
+      "timing": "original_pitch",
+      "turn_index": 16,
+      "quote": "No, but with your technology?",
+      "explanation": "Clarifies whether the proposed technology would provide the tracking capability under discussion.",
+      "evidence": [
+        "No, but with your technology?"
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 16,
+          "speaker": "Phil",
+          "quote": "No, but with your technology?"
+        }
+      ],
+      "activation": "queried",
+      "source_rationale_id": "R3"
+    },
+    {
+      "rationale_label": "go_to_market_strategy_assessment",
+      "direction": "neutral",
+      "salience": "secondary",
+      "confidence": 0.98,
+      "utterance_type": "question",
+      "decision_link": "none",
+      "timing": "original_pitch",
+      "turn_index": 18,
+      "quote": "the secondary partner, let's say StubHub would have to also be on board and use the API",
+      "explanation": "Identifies the need to secure and integrate secondary-ticketing partners for the model to work.",
+      "evidence": [
+        "the secondary partner, let's say StubHub would have to also be on board and use the API"
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 18,
+          "speaker": "Phil",
+          "quote": "the secondary partner, let's say StubHub would have to also be on board and use the API"
+        }
+      ],
+      "activation": "queried",
+      "source_rationale_id": "R4"
+    },
+    {
+      "rationale_label": "market_problem_validation",
+      "direction": "negative",
+      "salience": "secondary",
+      "confidence": 0.96,
+      "utterance_type": "question",
+      "decision_link": "none",
+      "timing": "original_pitch",
+      "turn_index": 20,
+      "quote": "Seems like they wouldn't care as much as StubHub would care?",
+      "explanation": "Questions whether teams experience the problem strongly enough to value the solution as much as secondary platforms do.",
+      "evidence": [
+        "Seems like they wouldn't care as much as StubHub would care?"
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 20,
+          "speaker": "Phil",
+          "quote": "Seems like they wouldn't care as much as StubHub would care?"
+        }
+      ],
+      "activation": "queried",
+      "source_rationale_id": "R5"
+    },
+    {
+      "rationale_label": "market_problem_validation",
+      "direction": "positive",
+      "salience": "secondary",
+      "confidence": 0.94,
+      "utterance_type": "assessment",
+      "decision_link": "none",
+      "timing": "original_pitch",
+      "turn_index": 22,
+      "quote": "That seems like a higher value add.",
+      "explanation": "Assesses the solution as providing stronger value to the secondary-ticketing platform.",
+      "evidence": [
+        "That seems like a higher value add."
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 22,
+          "speaker": "Phil",
+          "quote": "That seems like a higher value add."
+        }
+      ],
+      "activation": "evaluated",
+      "source_rationale_id": "R6"
+    },
+    {
+      "rationale_label": "business_model_assessment",
+      "direction": "neutral",
+      "salience": "secondary",
+      "confidence": 0.91,
+      "utterance_type": "question",
+      "decision_link": "none",
+      "timing": "original_pitch",
+      "turn_index": 34,
+      "quote": "You share that with the team.",
+      "explanation": "Clarifies that transaction revenue would be shared with the team.",
+      "evidence": [
+        "You share that with the team."
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 34,
+          "speaker": "Phil",
+          "quote": "You share that with the team."
+        }
+      ],
+      "activation": "queried",
+      "source_rationale_id": "R7"
+    },
+    {
+      "rationale_label": "business_model_assessment",
+      "direction": "neutral",
+      "salience": "secondary",
+      "confidence": 0.98,
+      "utterance_type": "question",
+      "decision_link": "none",
+      "timing": "original_pitch",
+      "turn_index": 60,
+      "quote": "What's the breakdown of that?",
+      "explanation": "Requests the revenue-component breakdown behind the projected per-stadium revenue.",
+      "evidence": [
+        "What's the breakdown of that?"
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 60,
+          "speaker": "Phil",
+          "quote": "What's the breakdown of that?"
+        }
+      ],
+      "activation": "queried",
+      "source_rationale_id": "R8"
+    },
+    {
+      "rationale_label": "go_to_market_strategy_assessment",
+      "direction": "neutral",
+      "salience": "secondary",
+      "confidence": 0.99,
+      "utterance_type": "question",
+      "decision_link": "none",
+      "timing": "original_pitch",
+      "turn_index": 65,
+      "quote": "How many of them have you talked to? How many have you pitched? And what’s your success rate?",
+      "explanation": "Probes the extent and effectiveness of customer outreach to secondary ticket markets.",
+      "evidence": [
+        "How many of them have you talked to? How many have you pitched? And what’s your success rate?"
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 65,
+          "speaker": "Phil",
+          "quote": "How many of them have you talked to? How many have you pitched? And what’s your success rate?"
+        }
+      ],
+      "activation": "queried",
+      "source_rationale_id": "R9"
+    },
+    {
+      "rationale_label": "go_to_market_strategy_assessment",
+      "direction": "neutral",
+      "salience": "secondary",
+      "confidence": 0.98,
+      "utterance_type": "question",
+      "decision_link": "none",
+      "timing": "original_pitch",
+      "turn_index": 67,
+      "quote": "So of those six, how many said yeah, I’m in.",
+      "explanation": "Asks whether outreach has produced commitments from prospective platform partners.",
+      "evidence": [
+        "So of those six, how many said yeah, I’m in."
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 67,
+          "speaker": "Phil",
+          "quote": "So of those six, how many said yeah, I’m in."
+        }
+      ],
+      "activation": "queried",
+      "source_rationale_id": "R10"
+    },
+    {
+      "rationale_label": "go_to_market_strategy_assessment",
+      "direction": "neutral",
+      "salience": "secondary",
+      "confidence": 0.99,
+      "utterance_type": "question",
+      "decision_link": "none",
+      "timing": "original_pitch",
+      "turn_index": 69,
+      "quote": "What’s Ticketmaster's role in this and how do they participate?",
+      "explanation": "Probes the role of a critical primary-ticketing participant in the company's market strategy.",
+      "evidence": [
+        "What’s Ticketmaster's role in this and how do they participate?"
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 69,
+          "speaker": "Phil",
+          "quote": "What’s Ticketmaster's role in this and how do they participate?"
+        }
+      ],
+      "activation": "queried",
+      "source_rationale_id": "R11"
+    },
+    {
+      "rationale_label": "go_to_market_strategy_assessment",
+      "direction": "neutral",
+      "salience": "secondary",
+      "confidence": 0.97,
+      "utterance_type": "question",
+      "decision_link": "none",
+      "timing": "original_pitch",
+      "turn_index": 71,
+      "quote": "So but what’s their participation?",
+      "explanation": "Continues seeking clarity about the participation required from Ticketmaster.",
+      "evidence": [
+        "So but what’s their participation?"
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 71,
+          "speaker": "Phil",
+          "quote": "So but what’s their participation?"
+        }
+      ],
+      "activation": "queried",
+      "source_rationale_id": "R12"
+    },
+    {
+      "rationale_label": "capital_intensity_concern",
+      "direction": "neutral",
+      "salience": "secondary",
+      "confidence": 0.95,
+      "utterance_type": "question",
+      "decision_link": "none",
+      "timing": "original_pitch",
+      "turn_index": 92,
+      "quote": "How much runway does that give you?",
+      "explanation": "Probes how long the requested financing would support the company's operations.",
+      "evidence": [
+        "How much runway does that give you?"
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 92,
+          "speaker": "Phil",
+          "quote": "How much runway does that give you?"
+        }
+      ],
+      "activation": "queried",
+      "source_rationale_id": "R13"
+    },
+    {
+      "rationale_label": "go_to_market_strategy_assessment",
+      "direction": "negative",
+      "salience": "primary",
+      "confidence": 0.99,
+      "utterance_type": "concern",
+      "decision_link": "supports_out",
+      "timing": "original_pitch",
+      "turn_index": 99,
+      "quote": "it's a little bit of a chicken and egg problem. And there are a lot of sales you have to make and that's what really concerns me.",
+      "explanation": "Identifies the need to win several interdependent stakeholder groups through difficult sales as a central concern leading into the pass.",
+      "evidence": [
+        "it's a little bit of a chicken and egg problem. And there are a lot of sales you have to make and that's what really concerns me."
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 99,
+          "speaker": "Phil",
+          "quote": "it's a little bit of a chicken and egg problem. And there are a lot of sales you have to make and that's what really concerns me."
+        }
+      ],
+      "activation": "evaluated",
+      "source_rationale_id": "R14"
+    },
+    {
+      "rationale_label": "competitive_intensity_concern",
+      "direction": "negative",
+      "salience": "secondary",
+      "confidence": 0.98,
+      "utterance_type": "assessment",
+      "decision_link": "supports_out",
+      "timing": "original_pitch",
+      "turn_index": 101,
+      "quote": "if Howie's right and there's another company doing this, you've got to move fast.",
+      "explanation": "Says the presence of a competing company creates urgency that contributes to the investment risk.",
+      "evidence": [
+        "if Howie's right and there's another company doing this, you've got to move fast."
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 101,
+          "speaker": "Phil",
+          "quote": "if Howie's right and there's another company doing this, you've got to move fast."
+        }
+      ],
+      "activation": "evaluated",
+      "source_rationale_id": "R15"
+    },
+    {
+      "rationale_label": "capital_intensity_concern",
+      "direction": "negative",
+      "salience": "primary",
+      "confidence": 0.99,
+      "utterance_type": "decision_explanation",
+      "decision_link": "supports_out",
+      "timing": "original_pitch",
+      "turn_index": 101,
+      "quote": "your burn's going to go up, your runway's going to go down. I just feel like, for me, there's so much uncertainty at this stage that I'm going to have to pass for right now.",
+      "explanation": "Directly links the capital demands and shrinking runway created by the required sales effort to his decision to pass.",
+      "evidence": [
+        "your burn's going to go up, your runway's going to go down. I just feel like, for me, there's so much uncertainty at this stage that I'm going to have to pass for right now."
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 101,
+          "speaker": "Phil",
+          "quote": "your burn's going to go up, your runway's going to go down. I just feel like, for me, there's so much uncertainty at this stage that I'm going to have to pass for right now."
+        }
+      ],
+      "activation": "evaluated",
+      "source_rationale_id": "R16"
+    },
+    {
+      "rationale_label": "founder_execution",
+      "direction": "positive",
+      "salience": "secondary",
+      "confidence": 0.97,
+      "utterance_type": "assessment",
+      "decision_link": "none",
+      "timing": "original_pitch",
+      "turn_index": 105,
+      "quote": "I actually believe you.",
+      "explanation": "Expresses confidence in the founder's claim that he and his team can execute the difficult sales plan.",
+      "evidence": [
+        "I actually believe you."
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 105,
+          "speaker": "Phil",
+          "quote": "I actually believe you."
+        }
+      ],
+      "activation": "evaluated",
+      "source_rationale_id": "R17"
+    },
+    {
+      "rationale_label": "product_appeal_assessment",
+      "direction": "positive",
+      "salience": "secondary",
+      "confidence": 0.99,
+      "utterance_type": "assessment",
+      "decision_link": "none",
+      "timing": "original_pitch",
+      "turn_index": 118,
+      "quote": "The concept is great.",
+      "explanation": "Positively assesses the startup's core concept.",
+      "evidence": [
+        "The concept is great."
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 118,
+          "speaker": "Phil",
+          "quote": "The concept is great."
+        }
+      ],
+      "activation": "evaluated",
+      "source_rationale_id": "R18"
+    },
+    {
+      "rationale_label": "founder_qualities",
+      "direction": "positive",
+      "salience": "secondary",
+      "confidence": 0.99,
+      "utterance_type": "assessment",
+      "decision_link": "none",
+      "timing": "original_pitch",
+      "turn_index": 118,
+      "quote": "He's great.",
+      "explanation": "Expresses a positive personal assessment of the founder.",
+      "evidence": [
+        "He's great."
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 118,
+          "speaker": "Phil",
+          "quote": "He's great."
+        }
+      ],
+      "activation": "evaluated",
+      "source_rationale_id": "R19"
+    },
+    {
+      "rationale_label": "business_viability_concern",
+      "direction": "negative",
+      "salience": "primary",
+      "confidence": 0.98,
+      "utterance_type": "decision_explanation",
+      "decision_link": "supports_out",
+      "timing": "original_pitch",
+      "turn_index": 118,
+      "quote": "It's just there's so much uncertainty at this point.",
+      "explanation": "Summarizes unresolved business uncertainty as the overriding reason for not investing despite liking the concept and founder.",
+      "evidence": [
+        "It's just there's so much uncertainty at this point."
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 118,
+          "speaker": "Phil",
+          "quote": "It's just there's so much uncertainty at this point."
+        }
+      ],
+      "activation": "evaluated",
+      "source_rationale_id": "R20"
+    },
+    {
+      "rationale_label": "business_model_assessment",
+      "direction": "negative",
+      "salience": "primary",
+      "confidence": 0.98,
+      "utterance_type": "assessment",
+      "decision_link": "none",
+      "timing": "original_pitch",
+      "turn_index": 122,
+      "quote": "If he can make a business just out of selling the teams, without having to sell the... And if they’re content with getting some of those other benefits, just the 30% or whatever, then fine. But I don’t know that that’s doable.",
+      "explanation": "Questions whether a simplified team-only business model based on ancillary benefits would be viable.",
+      "evidence": [
+        "If he can make a business just out of selling the teams, without having to sell the... And if they’re content with getting some of those other benefits, just the 30% or whatever, then fine. But I don’t know that that’s doable."
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 122,
+          "speaker": "Phil",
+          "quote": "If he can make a business just out of selling the teams, without having to sell the... And if they’re content with getting some of those other benefits, just the 30% or whatever, then fine. But I don’t know that that’s doable."
+        }
+      ],
+      "activation": "evaluated",
+      "source_rationale_id": "R21"
+    },
+    {
+      "rationale_label": "investment_thesis_constraint",
+      "direction": "neutral",
+      "salience": "secondary",
+      "confidence": 0.99,
+      "utterance_type": "assessment",
+      "decision_link": "none",
+      "timing": "original_pitch",
+      "turn_index": 124,
+      "quote": "I don't want to necessarily invest in blockchain. I want to invest in a company that has a cool application that happens to be using blockchain to enable it.",
+      "explanation": "States a preference for application-driven companies that use blockchain as enabling technology rather than blockchain investments in themselves.",
+      "evidence": [
+        "I don't want to necessarily invest in blockchain. I want to invest in a company that has a cool application that happens to be using blockchain to enable it."
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 124,
+          "speaker": "Phil",
+          "quote": "I don't want to necessarily invest in blockchain. I want to invest in a company that has a cool application that happens to be using blockchain to enable it."
+        }
+      ],
+      "activation": "evaluated",
+      "source_rationale_id": "R22"
+    },
+    {
+      "rationale_label": "product_appeal_assessment",
+      "direction": "positive",
+      "salience": "secondary",
+      "confidence": 0.97,
+      "utterance_type": "assessment",
+      "decision_link": "none",
+      "timing": "original_pitch",
+      "turn_index": 126,
+      "quote": "Right. It has business value.",
+      "explanation": "Affirms that the company's blockchain application provides practical business value.",
+      "evidence": [
+        "Right. It has business value."
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 126,
+          "speaker": "Phil",
+          "quote": "Right. It has business value."
+        }
+      ],
+      "activation": "evaluated",
+      "source_rationale_id": "R23"
+    }
+  ],
+  "expanded_quote_evidence": [],
+  "rejected_after_evidence_check": []
+}

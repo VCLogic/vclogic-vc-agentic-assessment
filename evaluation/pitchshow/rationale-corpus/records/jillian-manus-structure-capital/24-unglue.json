@@ -1,0 +1,611 @@
+{
+  "schema": "phase1-rationale-reference-v1",
+  "extraction_version": "pitchshow-rationales-v1",
+  "fingerprint": "292b0b96eb89c07b06bc593cb61f8dbe25063b9ab6f9f3bb143ddeee169e1767",
+  "episode_slug": "24-unglue",
+  "vc_slug": "jillian-manus-structure-capital",
+  "vc_name": "Jillian Manus",
+  "actual_decision": "Out",
+  "later_decision": "Out",
+  "reference_kind": "automated_transcript_observed_candidate",
+  "human_validated": false,
+  "source_format": "transcript-observed-rationales-v1",
+  "source_path": "/home/dpasch01/vclogic-vc-agentic-assessment/evaluation/pitchshow/investors/jillian-manus-structure-capital/source/episodes/24-unglue.json",
+  "source_sha256": "9bdbadd594b345965b150b2444977adfe8f094df4747c4ba974bee8afaa0933d",
+  "transcript_sha256": "c5389ff7463276afb46fa7132fc96ee21e8ae9f5ecda318a276180e8fced8715",
+  "taxonomy_sha256": "eaa8734819a3ac34dd19ee5f0bf6de925a793a1d25a2d361090dafc9b751e1fc",
+  "model": "codex:gpt-5.6-luna+gpt-5.6-sol",
+  "generation_stages": [
+    {
+      "phase": "rationale_extract",
+      "backend": "codex",
+      "model": "gpt-5.6-luna"
+    },
+    {
+      "phase": "rationale_verify",
+      "backend": "codex",
+      "model": "gpt-5.6-sol"
+    }
+  ],
+  "source_tier": "newly_extracted_and_independently_model_reviewed",
+  "reviewed_target_turns": [
+    2,
+    5,
+    12,
+    21,
+    25,
+    27,
+    38,
+    49,
+    53,
+    60,
+    63,
+    67,
+    68,
+    70,
+    74,
+    76,
+    78,
+    81,
+    82,
+    87,
+    89
+  ],
+  "notes": "",
+  "receipt_path": "/home/dpasch01/vclogic-vc-agentic-assessment/evaluation/pitchshow/investors/jillian-manus-structure-capital/rationale-references/receipts/24-unglue.json",
+  "scoring_scope": "original_pitch_only",
+  "shared_across_input_modes": true,
+  "rationales": [
+    {
+      "rationale_label": "founder_investor_vision_alignment",
+      "direction": "negative",
+      "salience": "secondary",
+      "confidence": 0.97,
+      "utterance_type": "decision_reason",
+      "decision_link": "explicit",
+      "timing": "original_pitch",
+      "turn_index": 60,
+      "quote": "I perhaps I disagree that this is for kids to manage and budget their time over a long period of time.",
+      "explanation": "She rejects the founder's proposed long-term direction for the product as part of her explanation for passing.",
+      "evidence": [
+        "I perhaps I disagree that this is for kids to manage and budget their time over a long period of time."
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 60,
+          "speaker": "Jillian",
+          "quote": "I perhaps I disagree that this is for kids to manage and budget their time over a long period of time."
+        }
+      ],
+      "activation": "evaluated",
+      "source_rationale_id": "R7",
+      "utterance_kind": "decision_explanation",
+      "decision_support": "supports_out",
+      "all_mention_ids": [
+        "R7"
+      ]
+    },
+    {
+      "rationale_label": "founder_qualities",
+      "direction": "positive",
+      "salience": "secondary",
+      "confidence": 0.97,
+      "utterance_type": "assessment",
+      "decision_link": "none",
+      "timing": "original_pitch",
+      "turn_index": 89,
+      "quote": "I need a him. I have two companies right now, I need him. Absolutely.",
+      "explanation": "Her desire to recruit him for portfolio companies conveys a strong positive assessment of his capabilities.",
+      "evidence": [
+        "a perfect founder, and a perfect team",
+        "I loved the way he pushed back.",
+        "I need a him. I have two companies right now, I need him. Absolutely."
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 68,
+          "speaker": "Jillian",
+          "quote": "a perfect founder, and a perfect team"
+        },
+        {
+          "turn_index": 82,
+          "speaker": "Jillian",
+          "quote": "I loved the way he pushed back."
+        },
+        {
+          "turn_index": 89,
+          "speaker": "Jillian",
+          "quote": "I need a him. I have two companies right now, I need him. Absolutely."
+        }
+      ],
+      "activation": "evaluated",
+      "source_rationale_id": "R13",
+      "utterance_kind": "assessment",
+      "decision_support": "none",
+      "all_mention_ids": [
+        "R8",
+        "R11",
+        "R13"
+      ]
+    },
+    {
+      "rationale_label": "founder_skillset",
+      "direction": "neutral",
+      "salience": "secondary",
+      "confidence": 0.98,
+      "utterance_type": "question",
+      "decision_link": "none",
+      "timing": "original_pitch",
+      "turn_index": 38,
+      "quote": "Are you an engineer?",
+      "explanation": "Jillian asks whether the founder has the technical skills relevant to building the product.",
+      "evidence": [
+        "Are you an engineer?"
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 38,
+          "speaker": "Jillian",
+          "quote": "Are you an engineer?"
+        }
+      ],
+      "activation": "queried",
+      "source_rationale_id": "R4",
+      "utterance_kind": "question",
+      "decision_support": "none",
+      "all_mention_ids": [
+        "R4"
+      ]
+    },
+    {
+      "rationale_label": "product_adoption",
+      "direction": "negative",
+      "salience": "primary",
+      "confidence": 0.99,
+      "utterance_type": "assessment",
+      "decision_link": "none",
+      "timing": "original_pitch",
+      "turn_index": 27,
+      "quote": "I don’t see a teenager buying into this.",
+      "explanation": "She doubts teenagers will accept and meaningfully adopt a product they may perceive as punitive.",
+      "evidence": [
+        "I don’t see a teenager buying into this."
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 27,
+          "speaker": "Jillian",
+          "quote": "I don’t see a teenager buying into this."
+        }
+      ],
+      "activation": "evaluated",
+      "source_rationale_id": "R3",
+      "utterance_kind": "concern",
+      "decision_support": "none",
+      "all_mention_ids": [
+        "R1",
+        "R2",
+        "R3"
+      ]
+    },
+    {
+      "rationale_label": "product_appeal_assessment",
+      "direction": "positive",
+      "salience": "secondary",
+      "confidence": 0.98,
+      "utterance_type": "assessment",
+      "decision_link": "none",
+      "timing": "original_pitch",
+      "turn_index": 60,
+      "quote": "I see this as very intriguing. And interestingly enough, I probably will use it.",
+      "explanation": "She finds the product personally appealing and says she would probably use it.",
+      "evidence": [
+        "I see this as very intriguing. And interestingly enough, I probably will use it."
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 60,
+          "speaker": "Jillian",
+          "quote": "I see this as very intriguing. And interestingly enough, I probably will use it."
+        }
+      ],
+      "activation": "evaluated",
+      "source_rationale_id": "R5",
+      "utterance_kind": "assessment",
+      "decision_support": "none",
+      "all_mention_ids": [
+        "R5"
+      ]
+    },
+    {
+      "rationale_label": "product_differentiation_concern",
+      "direction": "negative",
+      "salience": "secondary",
+      "confidence": 0.99,
+      "utterance_type": "assessment",
+      "decision_link": "none",
+      "timing": "original_pitch",
+      "turn_index": 87,
+      "quote": "I think this can be replicated pretty fast.",
+      "explanation": "She believes competitors could copy the product quickly, indicating weak defensibility.",
+      "evidence": [
+        "I think this can be replicated pretty fast."
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 87,
+          "speaker": "Jillian",
+          "quote": "I think this can be replicated pretty fast."
+        }
+      ],
+      "activation": "evaluated",
+      "source_rationale_id": "R12",
+      "utterance_kind": "concern",
+      "decision_support": "none",
+      "all_mention_ids": [
+        "R12"
+      ]
+    },
+    {
+      "rationale_label": "venture_scale_concern",
+      "direction": "negative",
+      "salience": "primary",
+      "confidence": 0.98,
+      "utterance_type": "decision_reason",
+      "decision_link": "explicit",
+      "timing": "original_pitch",
+      "turn_index": 74,
+      "quote": "Maybe you want to do a 10 million dollar or a 20 million dollar, and that’s good for you.",
+      "explanation": "She frames the likely outcome as too small for a venture-scale investment while continuing to explain the pass.",
+      "evidence": [
+        "I don't see the long tail.",
+        "I don’t think unGlue is big enough for you.",
+        "Maybe you want to do a 10 million dollar or a 20 million dollar, and that’s good for you."
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 60,
+          "speaker": "Jillian",
+          "quote": "I don't see the long tail."
+        },
+        {
+          "turn_index": 68,
+          "speaker": "Jillian",
+          "quote": "I don’t think unGlue is big enough for you."
+        },
+        {
+          "turn_index": 74,
+          "speaker": "Jillian",
+          "quote": "Maybe you want to do a 10 million dollar or a 20 million dollar, and that’s good for you."
+        }
+      ],
+      "activation": "evaluated",
+      "source_rationale_id": "R10",
+      "utterance_kind": "decision_explanation",
+      "decision_support": "supports_out",
+      "all_mention_ids": [
+        "R6",
+        "R9",
+        "R10"
+      ]
+    }
+  ],
+  "later_rationales": [],
+  "excluded_rationales": [],
+  "rationale_mentions": [
+    {
+      "rationale_label": "product_adoption",
+      "direction": "neutral",
+      "salience": "secondary",
+      "confidence": 0.99,
+      "utterance_type": "question",
+      "decision_link": "none",
+      "timing": "original_pitch",
+      "turn_index": 21,
+      "quote": "How many active users?",
+      "explanation": "Jillian asks for the active-user count to assess the product's adoption.",
+      "evidence": [
+        "How many active users?"
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 21,
+          "speaker": "Jillian",
+          "quote": "How many active users?"
+        }
+      ],
+      "activation": "queried",
+      "source_rationale_id": "R1"
+    },
+    {
+      "rationale_label": "product_adoption",
+      "direction": "neutral",
+      "salience": "secondary",
+      "confidence": 0.99,
+      "utterance_type": "question",
+      "decision_link": "none",
+      "timing": "original_pitch",
+      "turn_index": 25,
+      "quote": "How many active users?",
+      "explanation": "She repeats the question to obtain the actual adoption figure behind the conversion rate.",
+      "evidence": [
+        "How many active users?"
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 25,
+          "speaker": "Jillian",
+          "quote": "How many active users?"
+        }
+      ],
+      "activation": "queried",
+      "source_rationale_id": "R2"
+    },
+    {
+      "rationale_label": "product_adoption",
+      "direction": "negative",
+      "salience": "primary",
+      "confidence": 0.99,
+      "utterance_type": "concern",
+      "decision_link": "none",
+      "timing": "original_pitch",
+      "turn_index": 27,
+      "quote": "I don’t see a teenager buying into this.",
+      "explanation": "She doubts teenagers will accept and meaningfully adopt a product they may perceive as punitive.",
+      "evidence": [
+        "I don’t see a teenager buying into this."
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 27,
+          "speaker": "Jillian",
+          "quote": "I don’t see a teenager buying into this."
+        }
+      ],
+      "activation": "evaluated",
+      "source_rationale_id": "R3"
+    },
+    {
+      "rationale_label": "founder_skillset",
+      "direction": "neutral",
+      "salience": "secondary",
+      "confidence": 0.98,
+      "utterance_type": "question",
+      "decision_link": "none",
+      "timing": "original_pitch",
+      "turn_index": 38,
+      "quote": "Are you an engineer?",
+      "explanation": "Jillian asks whether the founder has the technical skills relevant to building the product.",
+      "evidence": [
+        "Are you an engineer?"
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 38,
+          "speaker": "Jillian",
+          "quote": "Are you an engineer?"
+        }
+      ],
+      "activation": "queried",
+      "source_rationale_id": "R4"
+    },
+    {
+      "rationale_label": "product_appeal_assessment",
+      "direction": "positive",
+      "salience": "secondary",
+      "confidence": 0.98,
+      "utterance_type": "assessment",
+      "decision_link": "none",
+      "timing": "original_pitch",
+      "turn_index": 60,
+      "quote": "I see this as very intriguing. And interestingly enough, I probably will use it.",
+      "explanation": "She finds the product personally appealing and says she would probably use it.",
+      "evidence": [
+        "I see this as very intriguing. And interestingly enough, I probably will use it."
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 60,
+          "speaker": "Jillian",
+          "quote": "I see this as very intriguing. And interestingly enough, I probably will use it."
+        }
+      ],
+      "activation": "evaluated",
+      "source_rationale_id": "R5"
+    },
+    {
+      "rationale_label": "venture_scale_concern",
+      "direction": "negative",
+      "salience": "primary",
+      "confidence": 0.99,
+      "utterance_type": "decision_explanation",
+      "decision_link": "supports_out",
+      "timing": "original_pitch",
+      "turn_index": 60,
+      "quote": "I don't see the long tail.",
+      "explanation": "She links limited expected usage duration and the absence of a larger roadmap to her decision to pass.",
+      "evidence": [
+        "I don't see the long tail."
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 60,
+          "speaker": "Jillian",
+          "quote": "I don't see the long tail."
+        }
+      ],
+      "activation": "evaluated",
+      "source_rationale_id": "R6"
+    },
+    {
+      "rationale_label": "founder_investor_vision_alignment",
+      "direction": "negative",
+      "salience": "secondary",
+      "confidence": 0.97,
+      "utterance_type": "decision_explanation",
+      "decision_link": "supports_out",
+      "timing": "original_pitch",
+      "turn_index": 60,
+      "quote": "I perhaps I disagree that this is for kids to manage and budget their time over a long period of time.",
+      "explanation": "She rejects the founder's proposed long-term direction for the product as part of her explanation for passing.",
+      "evidence": [
+        "I perhaps I disagree that this is for kids to manage and budget their time over a long period of time."
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 60,
+          "speaker": "Jillian",
+          "quote": "I perhaps I disagree that this is for kids to manage and budget their time over a long period of time."
+        }
+      ],
+      "activation": "evaluated",
+      "source_rationale_id": "R7"
+    },
+    {
+      "rationale_label": "founder_qualities",
+      "direction": "positive",
+      "salience": "secondary",
+      "confidence": 0.9,
+      "utterance_type": "assessment",
+      "decision_link": "none",
+      "timing": "original_pitch",
+      "turn_index": 68,
+      "quote": "a perfect founder, and a perfect team",
+      "explanation": "In contrasting the strong team with the opportunity, she characterizes the founder and team as exceptionally strong.",
+      "evidence": [
+        "a perfect founder, and a perfect team"
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 68,
+          "speaker": "Jillian",
+          "quote": "a perfect founder, and a perfect team"
+        }
+      ],
+      "activation": "evaluated",
+      "source_rationale_id": "R8"
+    },
+    {
+      "rationale_label": "venture_scale_concern",
+      "direction": "negative",
+      "salience": "primary",
+      "confidence": 0.99,
+      "utterance_type": "decision_explanation",
+      "decision_link": "supports_out",
+      "timing": "original_pitch",
+      "turn_index": 68,
+      "quote": "I don’t think unGlue is big enough for you.",
+      "explanation": "She reiterates that unGlue's opportunity is not large enough to warrant backing this founder and team.",
+      "evidence": [
+        "I don’t think unGlue is big enough for you."
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 68,
+          "speaker": "Jillian",
+          "quote": "I don’t think unGlue is big enough for you."
+        }
+      ],
+      "activation": "evaluated",
+      "source_rationale_id": "R9"
+    },
+    {
+      "rationale_label": "venture_scale_concern",
+      "direction": "negative",
+      "salience": "primary",
+      "confidence": 0.98,
+      "utterance_type": "decision_explanation",
+      "decision_link": "supports_out",
+      "timing": "original_pitch",
+      "turn_index": 74,
+      "quote": "Maybe you want to do a 10 million dollar or a 20 million dollar, and that’s good for you.",
+      "explanation": "She frames the likely outcome as too small for a venture-scale investment while continuing to explain the pass.",
+      "evidence": [
+        "Maybe you want to do a 10 million dollar or a 20 million dollar, and that’s good for you."
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 74,
+          "speaker": "Jillian",
+          "quote": "Maybe you want to do a 10 million dollar or a 20 million dollar, and that’s good for you."
+        }
+      ],
+      "activation": "evaluated",
+      "source_rationale_id": "R10"
+    },
+    {
+      "rationale_label": "founder_qualities",
+      "direction": "positive",
+      "salience": "secondary",
+      "confidence": 0.96,
+      "utterance_type": "assessment",
+      "decision_link": "none",
+      "timing": "original_pitch",
+      "turn_index": 82,
+      "quote": "I loved the way he pushed back.",
+      "explanation": "Jillian positively evaluates the founder's conviction and manner of responding to the investors.",
+      "evidence": [
+        "I loved the way he pushed back."
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 82,
+          "speaker": "Jillian",
+          "quote": "I loved the way he pushed back."
+        }
+      ],
+      "activation": "evaluated",
+      "source_rationale_id": "R11"
+    },
+    {
+      "rationale_label": "product_differentiation_concern",
+      "direction": "negative",
+      "salience": "secondary",
+      "confidence": 0.99,
+      "utterance_type": "concern",
+      "decision_link": "none",
+      "timing": "original_pitch",
+      "turn_index": 87,
+      "quote": "I think this can be replicated pretty fast.",
+      "explanation": "She believes competitors could copy the product quickly, indicating weak defensibility.",
+      "evidence": [
+        "I think this can be replicated pretty fast."
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 87,
+          "speaker": "Jillian",
+          "quote": "I think this can be replicated pretty fast."
+        }
+      ],
+      "activation": "evaluated",
+      "source_rationale_id": "R12"
+    },
+    {
+      "rationale_label": "founder_qualities",
+      "direction": "positive",
+      "salience": "secondary",
+      "confidence": 0.97,
+      "utterance_type": "assessment",
+      "decision_link": "none",
+      "timing": "original_pitch",
+      "turn_index": 89,
+      "quote": "I need a him. I have two companies right now, I need him. Absolutely.",
+      "explanation": "Her desire to recruit him for portfolio companies conveys a strong positive assessment of his capabilities.",
+      "evidence": [
+        "I need a him. I have two companies right now, I need him. Absolutely."
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 89,
+          "speaker": "Jillian",
+          "quote": "I need a him. I have two companies right now, I need him. Absolutely."
+        }
+      ],
+      "activation": "evaluated",
+      "source_rationale_id": "R13"
+    }
+  ],
+  "expanded_quote_evidence": [],
+  "rejected_after_evidence_check": []
+}

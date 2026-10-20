@@ -1,0 +1,715 @@
+{
+  "schema": "phase1-rationale-reference-v1",
+  "extraction_version": "pitchshow-rationales-v1",
+  "fingerprint": "0a8ca3ac0153770d490dff6b38b6bf81b40fe92aa76c02deab5edd8559af76c5",
+  "episode_slug": "161-material-f1-engineer-3d-prints-batteries",
+  "vc_slug": "mark-phillips-11-tribes-ventures",
+  "vc_name": "Mark Phillips",
+  "actual_decision": "Out",
+  "later_decision": "Unknown",
+  "reference_kind": "automated_transcript_observed_candidate",
+  "human_validated": false,
+  "source_format": "transcript-observed-rationales-v1",
+  "source_path": "../source/episodes/161-material-f1-engineer-3d-prints-batteries.json",
+  "source_sha256": "c5e164b922c8bfc291f18dc7ff4b7f719194399aea97285eb28c182d639150bc",
+  "transcript_sha256": "8eabeeb652b19b7fdf1b88b6a38eb122249471417bf5ab6f6a9bc7ae83fa7908",
+  "taxonomy_sha256": "eaa8734819a3ac34dd19ee5f0bf6de925a793a1d25a2d361090dafc9b751e1fc",
+  "model": "openai/gpt-5.6-luna",
+  "source_tier": "newly_extracted_and_independently_model_reviewed",
+  "reviewed_target_turns": [
+    5,
+    12,
+    14,
+    16,
+    20,
+    24,
+    32,
+    34,
+    36,
+    40,
+    55,
+    57,
+    70,
+    72,
+    76,
+    78,
+    82,
+    84,
+    86,
+    88,
+    101,
+    103,
+    114,
+    116,
+    129,
+    131,
+    142
+  ],
+  "notes": "Reviewed every supplied Mark turn; non-rationale turns were omitted.",
+  "receipt_path": "receipts/161-material-f1-engineer-3d-prints-batteries.json",
+  "scoring_scope": "original_pitch_only",
+  "shared_across_input_modes": true,
+  "rationales": [
+    {
+      "rationale_label": "capital_intensity_concern",
+      "direction": "negative",
+      "salience": "primary",
+      "confidence": 0.99,
+      "utterance_type": "decision_reason",
+      "decision_link": "explicit",
+      "timing": "original_pitch",
+      "turn_index": 86,
+      "quote": "From an Eleven Tribes perspective, what we're looking for are businesses that require significantly less capital. But it's the only way to make a business like Material successful.",
+      "explanation": "Mark explains that Material's required capital conflicts with Eleven Tribes' capital-light fund fit.",
+      "evidence": [
+        "From an Eleven Tribes perspective, what we're looking for are businesses that require significantly less capital. But it's the only way to make a business like Material successful."
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 86,
+          "speaker": "Mark",
+          "quote": "From an Eleven Tribes perspective, what we're looking for are businesses that require significantly less capital. But it's the only way to make a business like Material successful."
+        }
+      ],
+      "activation": "evaluated",
+      "source_rationale_id": "R12",
+      "utterance_kind": "decision_explanation",
+      "decision_support": "supports_out",
+      "all_mention_ids": [
+        "R5",
+        "R12"
+      ]
+    },
+    {
+      "rationale_label": "competitive_landscape_inertia",
+      "direction": "neutral",
+      "salience": "secondary",
+      "confidence": 0.92,
+      "utterance_type": "question",
+      "decision_link": "none",
+      "timing": "original_pitch",
+      "turn_index": 57,
+      "quote": "the current infrastructure and the current challenges you believe will not be an issue.",
+      "explanation": "Mark tests whether the value proposition can overcome entrenched infrastructure and industry barriers.",
+      "evidence": [
+        "And why are they beholden to those?",
+        "the current infrastructure and the current challenges you believe will not be an issue."
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 24,
+          "speaker": "Mark",
+          "quote": "And why are they beholden to those?"
+        },
+        {
+          "turn_index": 57,
+          "speaker": "Mark",
+          "quote": "the current infrastructure and the current challenges you believe will not be an issue."
+        }
+      ],
+      "activation": "queried",
+      "source_rationale_id": "R4",
+      "utterance_kind": "question",
+      "decision_support": "none",
+      "all_mention_ids": [
+        "R1",
+        "R4"
+      ]
+    },
+    {
+      "rationale_label": "founder_execution",
+      "direction": "neutral",
+      "salience": "secondary",
+      "confidence": 0.92,
+      "utterance_type": "question",
+      "decision_link": "none",
+      "timing": "original_pitch",
+      "turn_index": 76,
+      "quote": "Your experience in F1, you touched on it. How is that informing how you’re, you're building Material?",
+      "explanation": "Mark probes how the founder's prior experience translates into company-building execution.",
+      "evidence": [
+        "lessons learned working in some pretty high intensity, highly competitive industries and how that's helping you shape Material.",
+        "Your experience in F1, you touched on it. How is that informing how you’re, you're building Material?"
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 34,
+          "speaker": "Mark",
+          "quote": "lessons learned working in some pretty high intensity, highly competitive industries and how that's helping you shape Material."
+        },
+        {
+          "turn_index": 76,
+          "speaker": "Mark",
+          "quote": "Your experience in F1, you touched on it. How is that informing how you’re, you're building Material?"
+        }
+      ],
+      "activation": "queried",
+      "source_rationale_id": "R7",
+      "utterance_kind": "question",
+      "decision_support": "none",
+      "all_mention_ids": [
+        "R2",
+        "R7"
+      ]
+    },
+    {
+      "rationale_label": "founder_market_fit",
+      "direction": "positive",
+      "salience": "secondary",
+      "confidence": 0.98,
+      "utterance_type": "assessment",
+      "decision_link": "none",
+      "timing": "original_pitch",
+      "turn_index": 86,
+      "quote": "I talk about founder market fit a lot, Gabe, in the sense of the people who are building something and their experience. And I think you personify that, I really do.",
+      "explanation": "Mark explicitly assesses the founder's experience as a strong fit for the market and company being built.",
+      "evidence": [
+        "I talk about founder market fit a lot, Gabe, in the sense of the people who are building something and their experience. And I think you personify that, I really do."
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 86,
+          "speaker": "Mark",
+          "quote": "I talk about founder market fit a lot, Gabe, in the sense of the people who are building something and their experience. And I think you personify that, I really do."
+        }
+      ],
+      "activation": "evaluated",
+      "source_rationale_id": "R10",
+      "utterance_kind": "assessment",
+      "decision_support": "none",
+      "all_mention_ids": [
+        "R10"
+      ]
+    },
+    {
+      "rationale_label": "founder_motivation_authenticity",
+      "direction": "neutral",
+      "salience": "secondary",
+      "confidence": 0.86,
+      "utterance_type": "question",
+      "decision_link": "none",
+      "timing": "original_pitch",
+      "turn_index": 72,
+      "quote": "how do you define success, Gabe? both from a business perspective but also for you as the founder",
+      "explanation": "Mark asks about the founder's personal and business definition of success, probing his underlying motivation.",
+      "evidence": [
+        "how do you define success, Gabe? both from a business perspective but also for you as the founder"
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 72,
+          "speaker": "Mark",
+          "quote": "how do you define success, Gabe? both from a business perspective but also for you as the founder"
+        }
+      ],
+      "activation": "queried",
+      "source_rationale_id": "R6",
+      "utterance_kind": "question",
+      "decision_support": "none",
+      "all_mention_ids": [
+        "R6"
+      ]
+    },
+    {
+      "rationale_label": "founder_qualities",
+      "direction": "positive",
+      "salience": "secondary",
+      "confidence": 0.94,
+      "utterance_type": "assessment",
+      "decision_link": "none",
+      "timing": "original_pitch",
+      "turn_index": 86,
+      "quote": "The cultures we look for are the ones that are highly challenging, but highly supportive. And it sounds like you've experienced that",
+      "explanation": "Mark positively connects the founder's prior experience to the challenging and supportive culture his firm values.",
+      "evidence": [
+        "The cultures we look for are the ones that are highly challenging, but highly supportive. And it sounds like you've experienced that"
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 86,
+          "speaker": "Mark",
+          "quote": "The cultures we look for are the ones that are highly challenging, but highly supportive. And it sounds like you've experienced that"
+        }
+      ],
+      "activation": "evaluated",
+      "source_rationale_id": "R9",
+      "utterance_kind": "assessment",
+      "decision_support": "none",
+      "all_mention_ids": [
+        "R8",
+        "R9"
+      ]
+    },
+    {
+      "rationale_label": "founder_skillset",
+      "direction": "positive",
+      "salience": "secondary",
+      "confidence": 0.94,
+      "utterance_type": "assessment",
+      "decision_link": "none",
+      "timing": "original_pitch",
+      "turn_index": 86,
+      "quote": "you are, you're bringing just an incredible wealth of knowledge and experience to a business",
+      "explanation": "Mark positively assesses the founder's relevant knowledge and experience.",
+      "evidence": [
+        "you are, you're bringing just an incredible wealth of knowledge and experience to a business"
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 86,
+          "speaker": "Mark",
+          "quote": "you are, you're bringing just an incredible wealth of knowledge and experience to a business"
+        }
+      ],
+      "activation": "evaluated",
+      "source_rationale_id": "R11",
+      "utterance_kind": "assessment",
+      "decision_support": "none",
+      "all_mention_ids": [
+        "R11"
+      ]
+    },
+    {
+      "rationale_label": "go_to_market_strategy_assessment",
+      "direction": "neutral",
+      "salience": "secondary",
+      "confidence": 0.97,
+      "utterance_type": "question",
+      "decision_link": "none",
+      "timing": "original_pitch",
+      "turn_index": 55,
+      "quote": "Can you just give us a little bit of a macro perspective on the go to market",
+      "explanation": "Mark requests the company's customer-acquisition strategy for overcoming industry challenges.",
+      "evidence": [
+        "Can you just give us a little bit of a macro perspective on the go to market"
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 55,
+          "speaker": "Mark",
+          "quote": "Can you just give us a little bit of a macro perspective on the go to market"
+        }
+      ],
+      "activation": "queried",
+      "source_rationale_id": "R3",
+      "utterance_kind": "question",
+      "decision_support": "none",
+      "all_mention_ids": [
+        "R3"
+      ]
+    }
+  ],
+  "later_rationales": [
+    {
+      "rationale_label": "business_model_assessment",
+      "direction": "neutral",
+      "salience": "secondary",
+      "confidence": 0.9,
+      "utterance_type": "question",
+      "decision_link": "none",
+      "timing": "later_commentary",
+      "turn_index": 116,
+      "quote": "Does it speak to the customer's willingness to pay?",
+      "explanation": "Mark asks whether the company's margin difficulty reflects limited customer willingness to pay.",
+      "evidence": [
+        "Does it speak to the customer's willingness to pay?"
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 116,
+          "speaker": "Mark",
+          "quote": "Does it speak to the customer's willingness to pay?"
+        }
+      ],
+      "activation": "queried",
+      "source_rationale_id": "R13"
+    },
+    {
+      "rationale_label": "founder_motivation_authenticity",
+      "direction": "positive",
+      "salience": "secondary",
+      "confidence": 0.95,
+      "utterance_type": "assessment",
+      "decision_link": "none",
+      "timing": "later_commentary",
+      "turn_index": 129,
+      "quote": "It's the empathy. He wants to be part of the energy transfer.",
+      "explanation": "Mark attributes the founder's direction to genuine empathy and personal commitment to the energy transition.",
+      "evidence": [
+        "It's the empathy. He wants to be part of the energy transfer."
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 129,
+          "speaker": "Mark",
+          "quote": "It's the empathy. He wants to be part of the energy transfer."
+        }
+      ],
+      "activation": "evaluated",
+      "source_rationale_id": "R14"
+    },
+    {
+      "rationale_label": "founder_motivation_authenticity",
+      "direction": "positive",
+      "salience": "secondary",
+      "confidence": 0.95,
+      "utterance_type": "assessment",
+      "decision_link": "none",
+      "timing": "later_commentary",
+      "turn_index": 131,
+      "quote": "He wants to change the world, which is amazing.",
+      "explanation": "Mark describes the founder's desire to create broad positive change as a genuine motivation.",
+      "evidence": [
+        "He wants to change the world, which is amazing."
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 131,
+          "speaker": "Mark",
+          "quote": "He wants to change the world, which is amazing."
+        }
+      ],
+      "activation": "evaluated",
+      "source_rationale_id": "R15"
+    },
+    {
+      "rationale_label": "business_viability_concern",
+      "direction": "negative",
+      "salience": "secondary",
+      "confidence": 0.88,
+      "utterance_type": "assessment",
+      "decision_link": "none",
+      "timing": "later_commentary",
+      "turn_index": 131,
+      "quote": "I think he's willing to sacrifice on margins to be a part of that.",
+      "explanation": "Mark perceives the founder's mission commitment as leading him to accept weaker margins.",
+      "evidence": [
+        "I think he's willing to sacrifice on margins to be a part of that."
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 131,
+          "speaker": "Mark",
+          "quote": "I think he's willing to sacrifice on margins to be a part of that."
+        }
+      ],
+      "activation": "evaluated",
+      "source_rationale_id": "R16"
+    },
+    {
+      "rationale_label": "founder_qualities",
+      "direction": "positive",
+      "salience": "secondary",
+      "confidence": 0.9,
+      "utterance_type": "assessment",
+      "decision_link": "none",
+      "timing": "later_commentary",
+      "turn_index": 142,
+      "quote": "I think he's a special guy, special founder.",
+      "explanation": "Mark gives a positive overall assessment of the founder's personal qualities.",
+      "evidence": [
+        "I think he's a special guy, special founder."
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 142,
+          "speaker": "Mark",
+          "quote": "I think he's a special guy, special founder."
+        }
+      ],
+      "activation": "evaluated",
+      "source_rationale_id": "R17"
+    }
+  ],
+  "excluded_rationales": [],
+  "rationale_mentions": [
+    {
+      "rationale_label": "competitive_landscape_inertia",
+      "direction": "neutral",
+      "salience": "secondary",
+      "confidence": 0.94,
+      "utterance_type": "question",
+      "decision_link": "none",
+      "timing": "original_pitch",
+      "turn_index": 24,
+      "quote": "And why are they beholden to those?",
+      "explanation": "Mark probes why incumbent battery manufacturers remain tied to conventional manufacturing methods.",
+      "evidence": [
+        "And why are they beholden to those?"
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 24,
+          "speaker": "Mark",
+          "quote": "And why are they beholden to those?"
+        }
+      ],
+      "activation": "queried",
+      "source_rationale_id": "R1"
+    },
+    {
+      "rationale_label": "founder_execution",
+      "direction": "neutral",
+      "salience": "secondary",
+      "confidence": 0.9,
+      "utterance_type": "question",
+      "decision_link": "none",
+      "timing": "original_pitch",
+      "turn_index": 34,
+      "quote": "lessons learned working in some pretty high intensity, highly competitive industries and how that's helping you shape Material.",
+      "explanation": "Mark asks how the founder's prior high-performance experience informs execution at Material.",
+      "evidence": [
+        "lessons learned working in some pretty high intensity, highly competitive industries and how that's helping you shape Material."
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 34,
+          "speaker": "Mark",
+          "quote": "lessons learned working in some pretty high intensity, highly competitive industries and how that's helping you shape Material."
+        }
+      ],
+      "activation": "queried",
+      "source_rationale_id": "R2"
+    },
+    {
+      "rationale_label": "go_to_market_strategy_assessment",
+      "direction": "neutral",
+      "salience": "secondary",
+      "confidence": 0.97,
+      "utterance_type": "question",
+      "decision_link": "none",
+      "timing": "original_pitch",
+      "turn_index": 55,
+      "quote": "Can you just give us a little bit of a macro perspective on the go to market",
+      "explanation": "Mark requests the company's customer-acquisition strategy for overcoming industry challenges.",
+      "evidence": [
+        "Can you just give us a little bit of a macro perspective on the go to market"
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 55,
+          "speaker": "Mark",
+          "quote": "Can you just give us a little bit of a macro perspective on the go to market"
+        }
+      ],
+      "activation": "queried",
+      "source_rationale_id": "R3"
+    },
+    {
+      "rationale_label": "competitive_landscape_inertia",
+      "direction": "neutral",
+      "salience": "secondary",
+      "confidence": 0.92,
+      "utterance_type": "question",
+      "decision_link": "none",
+      "timing": "original_pitch",
+      "turn_index": 57,
+      "quote": "the current infrastructure and the current challenges you believe will not be an issue.",
+      "explanation": "Mark tests whether the value proposition can overcome entrenched infrastructure and industry barriers.",
+      "evidence": [
+        "the current infrastructure and the current challenges you believe will not be an issue."
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 57,
+          "speaker": "Mark",
+          "quote": "the current infrastructure and the current challenges you believe will not be an issue."
+        }
+      ],
+      "activation": "queried",
+      "source_rationale_id": "R4"
+    },
+    {
+      "rationale_label": "capital_intensity_concern",
+      "direction": "neutral",
+      "salience": "secondary",
+      "confidence": 0.96,
+      "utterance_type": "question",
+      "decision_link": "none",
+      "timing": "original_pitch",
+      "turn_index": 70,
+      "quote": "What will the capital needs of the business be moving forward in addition to this $3 million round?",
+      "explanation": "Mark asks about future financing requirements, probing the company's capital intensity.",
+      "evidence": [
+        "What will the capital needs of the business be moving forward in addition to this $3 million round?"
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 70,
+          "speaker": "Mark",
+          "quote": "What will the capital needs of the business be moving forward in addition to this $3 million round?"
+        }
+      ],
+      "activation": "queried",
+      "source_rationale_id": "R5"
+    },
+    {
+      "rationale_label": "founder_motivation_authenticity",
+      "direction": "neutral",
+      "salience": "secondary",
+      "confidence": 0.86,
+      "utterance_type": "question",
+      "decision_link": "none",
+      "timing": "original_pitch",
+      "turn_index": 72,
+      "quote": "how do you define success, Gabe? both from a business perspective but also for you as the founder",
+      "explanation": "Mark asks about the founder's personal and business definition of success, probing his underlying motivation.",
+      "evidence": [
+        "how do you define success, Gabe? both from a business perspective but also for you as the founder"
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 72,
+          "speaker": "Mark",
+          "quote": "how do you define success, Gabe? both from a business perspective but also for you as the founder"
+        }
+      ],
+      "activation": "queried",
+      "source_rationale_id": "R6"
+    },
+    {
+      "rationale_label": "founder_execution",
+      "direction": "neutral",
+      "salience": "secondary",
+      "confidence": 0.92,
+      "utterance_type": "question",
+      "decision_link": "none",
+      "timing": "original_pitch",
+      "turn_index": 76,
+      "quote": "Your experience in F1, you touched on it. How is that informing how you’re, you're building Material?",
+      "explanation": "Mark probes how the founder's prior experience translates into company-building execution.",
+      "evidence": [
+        "Your experience in F1, you touched on it. How is that informing how you’re, you're building Material?"
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 76,
+          "speaker": "Mark",
+          "quote": "Your experience in F1, you touched on it. How is that informing how you’re, you're building Material?"
+        }
+      ],
+      "activation": "queried",
+      "source_rationale_id": "R7"
+    },
+    {
+      "rationale_label": "founder_qualities",
+      "direction": "neutral",
+      "salience": "secondary",
+      "confidence": 0.9,
+      "utterance_type": "question",
+      "decision_link": "none",
+      "timing": "original_pitch",
+      "turn_index": 82,
+      "quote": "How do you perceive failure in the context of a healthy, demanding culture?",
+      "explanation": "Mark probes the founder's leadership qualities and approach to failure within a demanding team culture.",
+      "evidence": [
+        "How do you perceive failure in the context of a healthy, demanding culture?"
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 82,
+          "speaker": "Mark",
+          "quote": "How do you perceive failure in the context of a healthy, demanding culture?"
+        }
+      ],
+      "activation": "queried",
+      "source_rationale_id": "R8"
+    },
+    {
+      "rationale_label": "founder_qualities",
+      "direction": "positive",
+      "salience": "secondary",
+      "confidence": 0.94,
+      "utterance_type": "assessment",
+      "decision_link": "none",
+      "timing": "original_pitch",
+      "turn_index": 86,
+      "quote": "The cultures we look for are the ones that are highly challenging, but highly supportive. And it sounds like you've experienced that",
+      "explanation": "Mark positively connects the founder's prior experience to the challenging and supportive culture his firm values.",
+      "evidence": [
+        "The cultures we look for are the ones that are highly challenging, but highly supportive. And it sounds like you've experienced that"
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 86,
+          "speaker": "Mark",
+          "quote": "The cultures we look for are the ones that are highly challenging, but highly supportive. And it sounds like you've experienced that"
+        }
+      ],
+      "activation": "evaluated",
+      "source_rationale_id": "R9"
+    },
+    {
+      "rationale_label": "founder_market_fit",
+      "direction": "positive",
+      "salience": "secondary",
+      "confidence": 0.98,
+      "utterance_type": "assessment",
+      "decision_link": "none",
+      "timing": "original_pitch",
+      "turn_index": 86,
+      "quote": "I talk about founder market fit a lot, Gabe, in the sense of the people who are building something and their experience. And I think you personify that, I really do.",
+      "explanation": "Mark explicitly assesses the founder's experience as a strong fit for the market and company being built.",
+      "evidence": [
+        "I talk about founder market fit a lot, Gabe, in the sense of the people who are building something and their experience. And I think you personify that, I really do."
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 86,
+          "speaker": "Mark",
+          "quote": "I talk about founder market fit a lot, Gabe, in the sense of the people who are building something and their experience. And I think you personify that, I really do."
+        }
+      ],
+      "activation": "evaluated",
+      "source_rationale_id": "R10"
+    },
+    {
+      "rationale_label": "founder_skillset",
+      "direction": "positive",
+      "salience": "secondary",
+      "confidence": 0.94,
+      "utterance_type": "assessment",
+      "decision_link": "none",
+      "timing": "original_pitch",
+      "turn_index": 86,
+      "quote": "you are, you're bringing just an incredible wealth of knowledge and experience to a business",
+      "explanation": "Mark positively assesses the founder's relevant knowledge and experience.",
+      "evidence": [
+        "you are, you're bringing just an incredible wealth of knowledge and experience to a business"
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 86,
+          "speaker": "Mark",
+          "quote": "you are, you're bringing just an incredible wealth of knowledge and experience to a business"
+        }
+      ],
+      "activation": "evaluated",
+      "source_rationale_id": "R11"
+    },
+    {
+      "rationale_label": "capital_intensity_concern",
+      "direction": "negative",
+      "salience": "primary",
+      "confidence": 0.99,
+      "utterance_type": "decision_explanation",
+      "decision_link": "supports_out",
+      "timing": "original_pitch",
+      "turn_index": 86,
+      "quote": "From an Eleven Tribes perspective, what we're looking for are businesses that require significantly less capital. But it's the only way to make a business like Material successful.",
+      "explanation": "Mark explains that Material's required capital conflicts with Eleven Tribes' capital-light fund fit.",
+      "evidence": [
+        "From an Eleven Tribes perspective, what we're looking for are businesses that require significantly less capital. But it's the only way to make a business like Material successful."
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 86,
+          "speaker": "Mark",
+          "quote": "From an Eleven Tribes perspective, what we're looking for are businesses that require significantly less capital. But it's the only way to make a business like Material successful."
+        }
+      ],
+      "activation": "evaluated",
+      "source_rationale_id": "R12"
+    }
+  ]
+}

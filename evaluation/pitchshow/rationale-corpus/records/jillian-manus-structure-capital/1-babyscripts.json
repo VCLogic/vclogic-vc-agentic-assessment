@@ -1,0 +1,777 @@
+{
+  "schema": "phase1-rationale-reference-v1",
+  "extraction_version": "pitchshow-rationales-v1",
+  "fingerprint": "5b68d467fc90723f163457848c238ede1d0b2f5d1fc4f40c78ab38257b628646",
+  "episode_slug": "1-babyscripts",
+  "vc_slug": "jillian-manus-structure-capital",
+  "vc_name": "Jillian Manus",
+  "actual_decision": "In",
+  "later_decision": "Out",
+  "reference_kind": "automated_transcript_observed_candidate",
+  "human_validated": false,
+  "source_format": "transcript-observed-rationales-v1",
+  "source_path": "/home/dpasch01/vclogic-vc-agentic-assessment/evaluation/pitchshow/investors/jillian-manus-structure-capital/source/episodes/1-babyscripts.json",
+  "source_sha256": "7cdee1a9bd620bcd0f30d13ba5daacd4c594d264913eb01a82f423af3eb3deeb",
+  "transcript_sha256": "b214b4e92090374bb2a194bef02e8c703b8c15ee7e76e2e7a582087876fd1c38",
+  "taxonomy_sha256": "eaa8734819a3ac34dd19ee5f0bf6de925a793a1d25a2d361090dafc9b751e1fc",
+  "model": "codex:gpt-5.6-luna+gpt-5.6-sol",
+  "generation_stages": [
+    {
+      "phase": "rationale_extract",
+      "backend": "codex",
+      "model": "gpt-5.6-luna"
+    },
+    {
+      "phase": "rationale_verify",
+      "backend": "codex",
+      "model": "gpt-5.6-sol"
+    }
+  ],
+  "source_tier": "newly_extracted_and_independently_model_reviewed",
+  "reviewed_target_turns": [
+    3,
+    5,
+    8,
+    9,
+    25,
+    27,
+    30,
+    32,
+    34,
+    37,
+    40,
+    42,
+    47,
+    49,
+    51,
+    55,
+    57,
+    69,
+    85,
+    87,
+    89,
+    91,
+    93,
+    101,
+    103,
+    105,
+    114,
+    116,
+    167
+  ],
+  "notes": "All supplied target turns were reviewed; generic commentary, bare confirmations, financing-information requests without an expressed concern, and the unrelated next-episode teaser were omitted.",
+  "receipt_path": "/home/dpasch01/vclogic-vc-agentic-assessment/evaluation/pitchshow/investors/jillian-manus-structure-capital/rationale-references/receipts/1-babyscripts.json",
+  "scoring_scope": "original_pitch_only",
+  "shared_across_input_modes": true,
+  "rationales": [
+    {
+      "rationale_label": "investor_value_add_fit",
+      "direction": "positive",
+      "salience": "primary",
+      "confidence": 0.87,
+      "utterance_type": "decision_reason",
+      "decision_link": "explicit",
+      "timing": "original_pitch",
+      "turn_index": 116,
+      "quote": "I will make sure that your investment is very, very good. I would put a million in if I could, to tell you the truth.",
+      "explanation": "Connects her confidence in improving the investment's outcome with a stated desire to invest even more.",
+      "evidence": [
+        "I could do so much with this.",
+        "I will make sure that your investment is very, very good. I would put a million in if I could, to tell you the truth."
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 114,
+          "speaker": "Jillian",
+          "quote": "I could do so much with this."
+        },
+        {
+          "turn_index": 116,
+          "speaker": "Jillian",
+          "quote": "I will make sure that your investment is very, very good. I would put a million in if I could, to tell you the truth."
+        }
+      ],
+      "activation": "evaluated",
+      "source_rationale_id": "R18",
+      "utterance_kind": "decision_explanation",
+      "decision_support": "supports_in",
+      "all_mention_ids": [
+        "R17",
+        "R18"
+      ]
+    },
+    {
+      "rationale_label": "mission_alignment_preference",
+      "direction": "positive",
+      "salience": "primary",
+      "confidence": 0.96,
+      "utterance_type": "decision_reason",
+      "decision_link": "explicit",
+      "timing": "original_pitch",
+      "turn_index": 101,
+      "quote": "I'm personally and professionally connected to this. So what I'd like to do is I'd like to do $500,000.",
+      "explanation": "Directly links her personal and professional connection to the opportunity with her investment commitment.",
+      "evidence": [
+        "I'm personally and professionally connected to this. So what I'd like to do is I'd like to do $500,000."
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 101,
+          "speaker": "Jillian",
+          "quote": "I'm personally and professionally connected to this. So what I'd like to do is I'd like to do $500,000."
+        }
+      ],
+      "activation": "evaluated",
+      "source_rationale_id": "R16",
+      "utterance_kind": "decision_explanation",
+      "decision_support": "supports_in",
+      "all_mention_ids": [
+        "R16"
+      ]
+    },
+    {
+      "rationale_label": "product_adoption",
+      "direction": "neutral",
+      "salience": "secondary",
+      "confidence": 0.95,
+      "utterance_type": "question",
+      "decision_link": "none",
+      "timing": "original_pitch",
+      "turn_index": 69,
+      "quote": "So what does that represent in terms of patients?",
+      "explanation": "Asks for the actual number of patients represented by the reported health-system presence.",
+      "evidence": [
+        "So what does that represent in terms of patients?"
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 69,
+          "speaker": "Jillian",
+          "quote": "So what does that represent in terms of patients?"
+        }
+      ],
+      "activation": "queried",
+      "source_rationale_id": "R14",
+      "utterance_kind": "question",
+      "decision_support": "none",
+      "all_mention_ids": [
+        "R3",
+        "R14"
+      ]
+    },
+    {
+      "rationale_label": "product_appeal_assessment",
+      "direction": "negative",
+      "salience": "primary",
+      "confidence": 0.99,
+      "utterance_type": "assessment",
+      "decision_link": "none",
+      "timing": "original_pitch",
+      "turn_index": 30,
+      "quote": "I would have a problem with that, actually.",
+      "explanation": "Expresses strong personal discomfort with a kit replacing half of the prenatal visits.",
+      "evidence": [
+        "You actually look forward to going to the doctor",
+        "I would have a problem with that, actually."
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 27,
+          "speaker": "Jillian",
+          "quote": "You actually look forward to going to the doctor"
+        },
+        {
+          "turn_index": 30,
+          "speaker": "Jillian",
+          "quote": "I would have a problem with that, actually."
+        }
+      ],
+      "activation": "evaluated",
+      "source_rationale_id": "R5",
+      "utterance_kind": "concern",
+      "decision_support": "none",
+      "all_mention_ids": [
+        "R4",
+        "R5"
+      ]
+    },
+    {
+      "rationale_label": "product_differentiation_concern",
+      "direction": "negative",
+      "salience": "secondary",
+      "confidence": 0.96,
+      "utterance_type": "assessment",
+      "decision_link": "none",
+      "timing": "original_pitch",
+      "turn_index": 55,
+      "quote": "Well there's no data. You take your weight, you take your blood pressure, done.",
+      "explanation": "Argues that the product handles too little information for its data-processing layer to be meaningfully differentiated.",
+      "evidence": [
+        "a doctor's visit would have found that out as well",
+        "Why can't the woman just have a cuff and step on the scale and put it into the app?",
+        "Well there's no data. You take your weight, you take your blood pressure, done."
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 47,
+          "speaker": "Jillian",
+          "quote": "a doctor's visit would have found that out as well"
+        },
+        {
+          "turn_index": 51,
+          "speaker": "Jillian",
+          "quote": "Why can't the woman just have a cuff and step on the scale and put it into the app?"
+        },
+        {
+          "turn_index": 55,
+          "speaker": "Jillian",
+          "quote": "Well there's no data. You take your weight, you take your blood pressure, done."
+        }
+      ],
+      "activation": "evaluated",
+      "source_rationale_id": "R13",
+      "utterance_kind": "concern",
+      "decision_support": "none",
+      "all_mention_ids": [
+        "R11",
+        "R12",
+        "R13"
+      ]
+    },
+    {
+      "rationale_label": "product_success_factor_assessment",
+      "direction": "negative",
+      "salience": "primary",
+      "confidence": 0.99,
+      "utterance_type": "assessment",
+      "decision_link": "none",
+      "timing": "original_pitch",
+      "turn_index": 42,
+      "quote": "I'm a little concerned that it's not just the blood pressure, and it's not just the weight.",
+      "explanation": "States a central concern that successful prenatal care requires more than the two measurements offered.",
+      "evidence": [
+        "And listens to the baby, you listen to the baby's heart.",
+        "I'm a little concerned that it's not just the blood pressure, and it's not just the weight."
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 40,
+          "speaker": "Jillian",
+          "quote": "And listens to the baby, you listen to the baby's heart."
+        },
+        {
+          "turn_index": 42,
+          "speaker": "Jillian",
+          "quote": "I'm a little concerned that it's not just the blood pressure, and it's not just the weight."
+        }
+      ],
+      "activation": "evaluated",
+      "source_rationale_id": "R10",
+      "utterance_kind": "concern",
+      "decision_support": "none",
+      "all_mention_ids": [
+        "R9",
+        "R10"
+      ]
+    },
+    {
+      "rationale_label": "solution_feasibility_assessment",
+      "direction": "negative",
+      "salience": "secondary",
+      "confidence": 0.96,
+      "utterance_type": "question",
+      "decision_link": "none",
+      "timing": "original_pitch",
+      "turn_index": 37,
+      "quote": "But how can you generate that much data just from a scale and a cuff?",
+      "explanation": "Challenges whether the limited devices can feasibly produce the claimed volume of useful data.",
+      "evidence": [
+        "But how can you generate that much data just from a scale and a cuff?"
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 37,
+          "speaker": "Jillian",
+          "quote": "But how can you generate that much data just from a scale and a cuff?"
+        }
+      ],
+      "activation": "queried",
+      "source_rationale_id": "R8",
+      "utterance_kind": "question",
+      "decision_support": "none",
+      "all_mention_ids": [
+        "R8"
+      ]
+    },
+    {
+      "rationale_label": "traction_repeatability_concern",
+      "direction": "negative",
+      "salience": "secondary",
+      "confidence": 0.99,
+      "utterance_type": "assessment",
+      "decision_link": "none",
+      "timing": "original_pitch",
+      "turn_index": 34,
+      "quote": "Okay, it's only 50 women.",
+      "explanation": "Regards the 50-person study as limited evidence for the claimed patient response.",
+      "evidence": [
+        "Okay, it's only 50 women."
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 34,
+          "speaker": "Jillian",
+          "quote": "Okay, it's only 50 women."
+        }
+      ],
+      "activation": "evaluated",
+      "source_rationale_id": "R7",
+      "utterance_kind": "assessment",
+      "decision_support": "none",
+      "all_mention_ids": [
+        "R6",
+        "R7",
+        "R15"
+      ]
+    }
+  ],
+  "later_rationales": [],
+  "excluded_rationales": [
+    {
+      "rationale_label": "traction_repeatability_concern",
+      "direction": "neutral",
+      "salience": "secondary",
+      "confidence": 0.94,
+      "utterance_type": "question",
+      "decision_link": "none",
+      "timing": "teaser",
+      "turn_index": 3,
+      "quote": "How many women did you study?",
+      "explanation": "Asks how large the study was to assess the strength and repeatability of its early evidence.",
+      "evidence": [
+        "How many women did you study?"
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 3,
+          "speaker": "Jillian Manus",
+          "quote": "How many women did you study?"
+        }
+      ],
+      "activation": "queried",
+      "source_rationale_id": "R1"
+    },
+    {
+      "rationale_label": "traction_repeatability_concern",
+      "direction": "negative",
+      "salience": "secondary",
+      "confidence": 0.98,
+      "utterance_type": "assessment",
+      "decision_link": "none",
+      "timing": "teaser",
+      "turn_index": 5,
+      "quote": "Okay, it's only 50 women.",
+      "explanation": "Characterizes the study sample as too limited to provide strong evidence.",
+      "evidence": [
+        "Okay, it's only 50 women."
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 5,
+          "speaker": "Jillian",
+          "quote": "Okay, it's only 50 women."
+        }
+      ],
+      "activation": "evaluated",
+      "source_rationale_id": "R2"
+    }
+  ],
+  "rationale_mentions": [
+    {
+      "rationale_label": "product_adoption",
+      "direction": "negative",
+      "salience": "secondary",
+      "confidence": 0.96,
+      "utterance_type": "question",
+      "decision_link": "none",
+      "timing": "original_pitch",
+      "turn_index": 25,
+      "quote": "Do patients mind not having as many doctor's appointments? Because, I mean, there's, I know, I've been pregnant four times. The thought is, is that, you worry every time, right?",
+      "explanation": "Questions whether worried expectant mothers will accept replacing some reassuring in-person visits.",
+      "evidence": [
+        "Do patients mind not having as many doctor's appointments? Because, I mean, there's, I know, I've been pregnant four times. The thought is, is that, you worry every time, right?"
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 25,
+          "speaker": "Jillian",
+          "quote": "Do patients mind not having as many doctor's appointments? Because, I mean, there's, I know, I've been pregnant four times. The thought is, is that, you worry every time, right?"
+        }
+      ],
+      "activation": "queried",
+      "source_rationale_id": "R3"
+    },
+    {
+      "rationale_label": "product_appeal_assessment",
+      "direction": "negative",
+      "salience": "secondary",
+      "confidence": 0.97,
+      "utterance_type": "supporting_argument",
+      "decision_link": "none",
+      "timing": "original_pitch",
+      "turn_index": 27,
+      "quote": "You actually look forward to going to the doctor",
+      "explanation": "Argues from personal experience that expectant mothers value and desire in-person appointments.",
+      "evidence": [
+        "You actually look forward to going to the doctor"
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 27,
+          "speaker": "Jillian",
+          "quote": "You actually look forward to going to the doctor"
+        }
+      ],
+      "activation": "evaluated",
+      "source_rationale_id": "R4"
+    },
+    {
+      "rationale_label": "product_appeal_assessment",
+      "direction": "negative",
+      "salience": "primary",
+      "confidence": 0.99,
+      "utterance_type": "concern",
+      "decision_link": "none",
+      "timing": "original_pitch",
+      "turn_index": 30,
+      "quote": "I would have a problem with that, actually.",
+      "explanation": "Expresses strong personal discomfort with a kit replacing half of the prenatal visits.",
+      "evidence": [
+        "I would have a problem with that, actually."
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 30,
+          "speaker": "Jillian",
+          "quote": "I would have a problem with that, actually."
+        }
+      ],
+      "activation": "evaluated",
+      "source_rationale_id": "R5"
+    },
+    {
+      "rationale_label": "traction_repeatability_concern",
+      "direction": "neutral",
+      "salience": "secondary",
+      "confidence": 0.95,
+      "utterance_type": "question",
+      "decision_link": "none",
+      "timing": "original_pitch",
+      "turn_index": 32,
+      "quote": "How many women did you study?",
+      "explanation": "Asks how large the study was to evaluate the strength of its early evidence.",
+      "evidence": [
+        "How many women did you study?"
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 32,
+          "speaker": "Jillian",
+          "quote": "How many women did you study?"
+        }
+      ],
+      "activation": "queried",
+      "source_rationale_id": "R6"
+    },
+    {
+      "rationale_label": "traction_repeatability_concern",
+      "direction": "negative",
+      "salience": "secondary",
+      "confidence": 0.99,
+      "utterance_type": "assessment",
+      "decision_link": "none",
+      "timing": "original_pitch",
+      "turn_index": 34,
+      "quote": "Okay, it's only 50 women.",
+      "explanation": "Regards the 50-person study as limited evidence for the claimed patient response.",
+      "evidence": [
+        "Okay, it's only 50 women."
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 34,
+          "speaker": "Jillian",
+          "quote": "Okay, it's only 50 women."
+        }
+      ],
+      "activation": "evaluated",
+      "source_rationale_id": "R7"
+    },
+    {
+      "rationale_label": "solution_feasibility_assessment",
+      "direction": "negative",
+      "salience": "secondary",
+      "confidence": 0.96,
+      "utterance_type": "question",
+      "decision_link": "none",
+      "timing": "original_pitch",
+      "turn_index": 37,
+      "quote": "But how can you generate that much data just from a scale and a cuff?",
+      "explanation": "Challenges whether the limited devices can feasibly produce the claimed volume of useful data.",
+      "evidence": [
+        "But how can you generate that much data just from a scale and a cuff?"
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 37,
+          "speaker": "Jillian",
+          "quote": "But how can you generate that much data just from a scale and a cuff?"
+        }
+      ],
+      "activation": "queried",
+      "source_rationale_id": "R8"
+    },
+    {
+      "rationale_label": "product_success_factor_assessment",
+      "direction": "negative",
+      "salience": "secondary",
+      "confidence": 0.96,
+      "utterance_type": "supporting_argument",
+      "decision_link": "none",
+      "timing": "original_pitch",
+      "turn_index": 40,
+      "quote": "And listens to the baby, you listen to the baby's heart.",
+      "explanation": "Identifies fetal-heart monitoring as an important component of prenatal visits that the proposed measurements omit.",
+      "evidence": [
+        "And listens to the baby, you listen to the baby's heart."
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 40,
+          "speaker": "Jillian",
+          "quote": "And listens to the baby, you listen to the baby's heart."
+        }
+      ],
+      "activation": "evaluated",
+      "source_rationale_id": "R9"
+    },
+    {
+      "rationale_label": "product_success_factor_assessment",
+      "direction": "negative",
+      "salience": "primary",
+      "confidence": 0.99,
+      "utterance_type": "concern",
+      "decision_link": "none",
+      "timing": "original_pitch",
+      "turn_index": 42,
+      "quote": "I'm a little concerned that it's not just the blood pressure, and it's not just the weight.",
+      "explanation": "States a central concern that successful prenatal care requires more than the two measurements offered.",
+      "evidence": [
+        "I'm a little concerned that it's not just the blood pressure, and it's not just the weight."
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 42,
+          "speaker": "Jillian",
+          "quote": "I'm a little concerned that it's not just the blood pressure, and it's not just the weight."
+        }
+      ],
+      "activation": "evaluated",
+      "source_rationale_id": "R10"
+    },
+    {
+      "rationale_label": "product_differentiation_concern",
+      "direction": "negative",
+      "salience": "secondary",
+      "confidence": 0.97,
+      "utterance_type": "supporting_argument",
+      "decision_link": "none",
+      "timing": "original_pitch",
+      "turn_index": 47,
+      "quote": "a doctor's visit would have found that out as well",
+      "explanation": "Challenges whether the cited detection demonstrates an advantage over ordinary prenatal visits.",
+      "evidence": [
+        "a doctor's visit would have found that out as well"
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 47,
+          "speaker": "Jillian",
+          "quote": "a doctor's visit would have found that out as well"
+        }
+      ],
+      "activation": "evaluated",
+      "source_rationale_id": "R11"
+    },
+    {
+      "rationale_label": "product_differentiation_concern",
+      "direction": "negative",
+      "salience": "secondary",
+      "confidence": 0.98,
+      "utterance_type": "question",
+      "decision_link": "none",
+      "timing": "original_pitch",
+      "turn_index": 51,
+      "quote": "Why can't the woman just have a cuff and step on the scale and put it into the app?",
+      "explanation": "Questions whether a much simpler self-entry workflow could reproduce the product's core function.",
+      "evidence": [
+        "Why can't the woman just have a cuff and step on the scale and put it into the app?"
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 51,
+          "speaker": "Jillian",
+          "quote": "Why can't the woman just have a cuff and step on the scale and put it into the app?"
+        }
+      ],
+      "activation": "queried",
+      "source_rationale_id": "R12"
+    },
+    {
+      "rationale_label": "product_differentiation_concern",
+      "direction": "negative",
+      "salience": "secondary",
+      "confidence": 0.96,
+      "utterance_type": "concern",
+      "decision_link": "none",
+      "timing": "original_pitch",
+      "turn_index": 55,
+      "quote": "Well there's no data. You take your weight, you take your blood pressure, done.",
+      "explanation": "Argues that the product handles too little information for its data-processing layer to be meaningfully differentiated.",
+      "evidence": [
+        "Well there's no data. You take your weight, you take your blood pressure, done."
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 55,
+          "speaker": "Jillian",
+          "quote": "Well there's no data. You take your weight, you take your blood pressure, done."
+        }
+      ],
+      "activation": "evaluated",
+      "source_rationale_id": "R13"
+    },
+    {
+      "rationale_label": "product_adoption",
+      "direction": "neutral",
+      "salience": "secondary",
+      "confidence": 0.95,
+      "utterance_type": "question",
+      "decision_link": "none",
+      "timing": "original_pitch",
+      "turn_index": 69,
+      "quote": "So what does that represent in terms of patients?",
+      "explanation": "Asks for the actual number of patients represented by the reported health-system presence.",
+      "evidence": [
+        "So what does that represent in terms of patients?"
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 69,
+          "speaker": "Jillian",
+          "quote": "So what does that represent in terms of patients?"
+        }
+      ],
+      "activation": "queried",
+      "source_rationale_id": "R14"
+    },
+    {
+      "rationale_label": "traction_repeatability_concern",
+      "direction": "neutral",
+      "salience": "secondary",
+      "confidence": 0.9,
+      "utterance_type": "question",
+      "decision_link": "none",
+      "timing": "original_pitch",
+      "turn_index": 85,
+      "quote": "In the last...? Because you've launched over the last year.",
+      "explanation": "Clarifies the period covered by the reported revenue so the company's early traction can be assessed.",
+      "evidence": [
+        "In the last...? Because you've launched over the last year."
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 85,
+          "speaker": "Jillian",
+          "quote": "In the last...? Because you've launched over the last year."
+        }
+      ],
+      "activation": "queried",
+      "source_rationale_id": "R15"
+    },
+    {
+      "rationale_label": "mission_alignment_preference",
+      "direction": "positive",
+      "salience": "primary",
+      "confidence": 0.96,
+      "utterance_type": "decision_explanation",
+      "decision_link": "supports_in",
+      "timing": "original_pitch",
+      "turn_index": 101,
+      "quote": "I'm personally and professionally connected to this. So what I'd like to do is I'd like to do $500,000.",
+      "explanation": "Directly links her personal and professional connection to the opportunity with her investment commitment.",
+      "evidence": [
+        "I'm personally and professionally connected to this. So what I'd like to do is I'd like to do $500,000."
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 101,
+          "speaker": "Jillian",
+          "quote": "I'm personally and professionally connected to this. So what I'd like to do is I'd like to do $500,000."
+        }
+      ],
+      "activation": "evaluated",
+      "source_rationale_id": "R16"
+    },
+    {
+      "rationale_label": "investor_value_add_fit",
+      "direction": "positive",
+      "salience": "secondary",
+      "confidence": 0.9,
+      "utterance_type": "supporting_argument",
+      "decision_link": "none",
+      "timing": "original_pitch",
+      "turn_index": 114,
+      "quote": "I could do so much with this.",
+      "explanation": "Expresses confidence that she can contribute substantial value to the company beyond capital.",
+      "evidence": [
+        "I could do so much with this."
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 114,
+          "speaker": "Jillian",
+          "quote": "I could do so much with this."
+        }
+      ],
+      "activation": "evaluated",
+      "source_rationale_id": "R17"
+    },
+    {
+      "rationale_label": "investor_value_add_fit",
+      "direction": "positive",
+      "salience": "primary",
+      "confidence": 0.87,
+      "utterance_type": "decision_explanation",
+      "decision_link": "supports_in",
+      "timing": "original_pitch",
+      "turn_index": 116,
+      "quote": "I will make sure that your investment is very, very good. I would put a million in if I could, to tell you the truth.",
+      "explanation": "Connects her confidence in improving the investment's outcome with a stated desire to invest even more.",
+      "evidence": [
+        "I will make sure that your investment is very, very good. I would put a million in if I could, to tell you the truth."
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 116,
+          "speaker": "Jillian",
+          "quote": "I will make sure that your investment is very, very good. I would put a million in if I could, to tell you the truth."
+        }
+      ],
+      "activation": "evaluated",
+      "source_rationale_id": "R18"
+    }
+  ],
+  "expanded_quote_evidence": [],
+  "rejected_after_evidence_check": []
+}

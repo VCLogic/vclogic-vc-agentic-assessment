@@ -1,0 +1,465 @@
+{
+  "schema": "phase1-rationale-reference-v1",
+  "extraction_version": "pitchshow-rationales-v1",
+  "fingerprint": "a1fcb5325fcda7cea8d1cb864ce0b1d95a278c3939a8112830aaa7b329fd50d3",
+  "episode_slug": "ive-looked-death-in-the-eye",
+  "vc_slug": "jillian-manus-structure-capital",
+  "vc_name": "Jillian Manus",
+  "actual_decision": "In",
+  "later_decision": "Out",
+  "reference_kind": "automated_transcript_observed_candidate",
+  "human_validated": false,
+  "source_format": "transcript-observed-rationales-v1",
+  "source_path": "/home/dpasch01/vclogic-vc-agentic-assessment/evaluation/pitchshow/investors/jillian-manus-structure-capital/source/episodes/ive-looked-death-in-the-eye.json",
+  "source_sha256": "49563edbc6423dc1bbc098d50c1aafec752e59b276f084aa58068aee06168549",
+  "transcript_sha256": "6fbb3b7c39cb3f214e67d9a2cede586cb5132ed32bdefa43c502366e2653e3c9",
+  "taxonomy_sha256": "eaa8734819a3ac34dd19ee5f0bf6de925a793a1d25a2d361090dafc9b751e1fc",
+  "model": "codex:gpt-5.6-luna+gpt-5.6-sol",
+  "generation_stages": [
+    {
+      "phase": "rationale_extract",
+      "backend": "codex",
+      "model": "gpt-5.6-luna"
+    },
+    {
+      "phase": "rationale_verify",
+      "backend": "codex",
+      "model": "gpt-5.6-sol"
+    }
+  ],
+  "source_tier": "newly_extracted_and_independently_model_reviewed",
+  "reviewed_target_turns": [
+    2,
+    12,
+    17,
+    20,
+    28,
+    30,
+    42,
+    56,
+    58,
+    61,
+    65,
+    67,
+    82,
+    87,
+    92,
+    94,
+    97,
+    99,
+    101,
+    103,
+    106
+  ],
+  "notes": "All supplied target turns were reviewed; product clarifications, incomplete fragments, reactions, confirmations, and the bare SaaS classification were not treated as distinct investment rationales.",
+  "receipt_path": "/home/dpasch01/vclogic-vc-agentic-assessment/evaluation/pitchshow/investors/jillian-manus-structure-capital/rationale-references/receipts/ive-looked-death-in-the-eye.json",
+  "scoring_scope": "original_pitch_only",
+  "shared_across_input_modes": true,
+  "rationales": [
+    {
+      "rationale_label": "business_model_assessment",
+      "direction": "positive",
+      "salience": "primary",
+      "confidence": 0.94,
+      "utterance_type": "assessment",
+      "decision_link": "explicit",
+      "timing": "original_pitch",
+      "turn_index": 87,
+      "quote": "I like the fact that you were developing and developing products that would make money",
+      "explanation": "She positively evaluates the focus on monetizable products as a reason supporting her investment.",
+      "evidence": [
+        "I like the fact that you were developing and developing products that would make money"
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 87,
+          "speaker": "Jillian",
+          "quote": "I like the fact that you were developing and developing products that would make money"
+        }
+      ],
+      "activation": "evaluated",
+      "source_rationale_id": "R6",
+      "utterance_kind": "supporting_argument",
+      "decision_support": "supports_in",
+      "all_mention_ids": [
+        "R2",
+        "R3",
+        "R6"
+      ]
+    },
+    {
+      "rationale_label": "founder_execution",
+      "direction": "positive",
+      "salience": "primary",
+      "confidence": 0.96,
+      "utterance_type": "assessment",
+      "decision_link": "explicit",
+      "timing": "original_pitch",
+      "turn_index": 87,
+      "quote": "But you did hire Eric to do that.",
+      "explanation": "She treats the founder's hiring of a business operator to remedy his identified weakness as evidence of resourceful execution supporting her commitment.",
+      "evidence": [
+        "But you did hire Eric to do that."
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 87,
+          "speaker": "Jillian",
+          "quote": "But you did hire Eric to do that."
+        }
+      ],
+      "activation": "evaluated",
+      "source_rationale_id": "R5",
+      "utterance_kind": "supporting_argument",
+      "decision_support": "supports_in",
+      "all_mention_ids": [
+        "R5"
+      ]
+    },
+    {
+      "rationale_label": "founder_qualities",
+      "direction": "positive",
+      "salience": "secondary",
+      "confidence": 0.8,
+      "utterance_type": "assessment",
+      "decision_link": "none",
+      "timing": "original_pitch",
+      "turn_index": 99,
+      "quote": "I’ve no doubt that it is",
+      "explanation": "She expresses confidence that the founder's representations are truthful, indicating perceived credibility.",
+      "evidence": [
+        "I’ve no doubt that it is"
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 99,
+          "speaker": "Jillian",
+          "quote": "I’ve no doubt that it is"
+        }
+      ],
+      "activation": "evaluated",
+      "source_rationale_id": "R7",
+      "utterance_kind": "assessment",
+      "decision_support": "none",
+      "all_mention_ids": [
+        "R7"
+      ]
+    },
+    {
+      "rationale_label": "investment_upside_assessment",
+      "direction": "positive",
+      "salience": "primary",
+      "confidence": 0.96,
+      "utterance_type": "assessment",
+      "decision_link": "none",
+      "timing": "original_pitch",
+      "turn_index": 103,
+      "quote": "I think that he is going to get to a point where people are going to want to buy this.",
+      "explanation": "She identifies likely acquisition demand as a compelling prospective return path.",
+      "evidence": [
+        "It’s huge!",
+        "I think that he is going to get to a point where people are going to want to buy this."
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 101,
+          "speaker": "Jillian",
+          "quote": "It’s huge!"
+        },
+        {
+          "turn_index": 103,
+          "speaker": "Jillian",
+          "quote": "I think that he is going to get to a point where people are going to want to buy this."
+        }
+      ],
+      "activation": "evaluated",
+      "source_rationale_id": "R9",
+      "utterance_kind": "assessment",
+      "decision_support": "none",
+      "all_mention_ids": [
+        "R8",
+        "R9"
+      ]
+    },
+    {
+      "rationale_label": "investor_domain_knowledge_constraint",
+      "direction": "negative",
+      "salience": "secondary",
+      "confidence": 0.9,
+      "utterance_type": "assessment",
+      "decision_link": "none",
+      "timing": "original_pitch",
+      "turn_index": 87,
+      "quote": "I actually do know a little bit about genomics, I do very, very little, and I put that into a thimble",
+      "explanation": "She identifies her limited genomics knowledge while describing why she remains uncertain and conflicted.",
+      "evidence": [
+        "I actually do know a little bit about genomics, I do very, very little, and I put that into a thimble"
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 87,
+          "speaker": "Jillian",
+          "quote": "I actually do know a little bit about genomics, I do very, very little, and I put that into a thimble"
+        }
+      ],
+      "activation": "evaluated",
+      "source_rationale_id": "R4",
+      "utterance_kind": "assessment",
+      "decision_support": "none",
+      "all_mention_ids": [
+        "R4"
+      ]
+    },
+    {
+      "rationale_label": "market_problem_validation",
+      "direction": "positive",
+      "salience": "secondary",
+      "confidence": 0.87,
+      "utterance_type": "assessment",
+      "decision_link": "none",
+      "timing": "original_pitch",
+      "turn_index": 20,
+      "quote": "And mad cow disease. Years ago.",
+      "explanation": "She adds a well-known livestock epidemic as evidence that the animal-health problem is real.",
+      "evidence": [
+        "And mad cow disease. Years ago."
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 20,
+          "speaker": "Jillian",
+          "quote": "And mad cow disease. Years ago."
+        }
+      ],
+      "activation": "evaluated",
+      "source_rationale_id": "R1",
+      "utterance_kind": "supporting_argument",
+      "decision_support": "none",
+      "all_mention_ids": [
+        "R1"
+      ]
+    }
+  ],
+  "later_rationales": [],
+  "excluded_rationales": [],
+  "rationale_mentions": [
+    {
+      "rationale_label": "market_problem_validation",
+      "direction": "positive",
+      "salience": "secondary",
+      "confidence": 0.87,
+      "utterance_type": "supporting_argument",
+      "decision_link": "none",
+      "timing": "original_pitch",
+      "turn_index": 20,
+      "quote": "And mad cow disease. Years ago.",
+      "explanation": "She adds a well-known livestock epidemic as evidence that the animal-health problem is real.",
+      "evidence": [
+        "And mad cow disease. Years ago."
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 20,
+          "speaker": "Jillian",
+          "quote": "And mad cow disease. Years ago."
+        }
+      ],
+      "activation": "evaluated",
+      "source_rationale_id": "R1"
+    },
+    {
+      "rationale_label": "business_model_assessment",
+      "direction": "neutral",
+      "salience": "secondary",
+      "confidence": 0.94,
+      "utterance_type": "question",
+      "decision_link": "none",
+      "timing": "original_pitch",
+      "turn_index": 28,
+      "quote": "Which is?",
+      "explanation": "She asks what the upfront customer charge is, probing the pricing model.",
+      "evidence": [
+        "Which is?"
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 28,
+          "speaker": "Jillian",
+          "quote": "Which is?"
+        }
+      ],
+      "activation": "queried",
+      "source_rationale_id": "R2"
+    },
+    {
+      "rationale_label": "business_model_assessment",
+      "direction": "neutral",
+      "salience": "secondary",
+      "confidence": 0.95,
+      "utterance_type": "question",
+      "decision_link": "none",
+      "timing": "original_pitch",
+      "turn_index": 30,
+      "quote": "Give me a sort of a range.",
+      "explanation": "She requests a pricing range to clarify the monetization model.",
+      "evidence": [
+        "Give me a sort of a range."
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 30,
+          "speaker": "Jillian",
+          "quote": "Give me a sort of a range."
+        }
+      ],
+      "activation": "queried",
+      "source_rationale_id": "R3"
+    },
+    {
+      "rationale_label": "investor_domain_knowledge_constraint",
+      "direction": "negative",
+      "salience": "secondary",
+      "confidence": 0.9,
+      "utterance_type": "assessment",
+      "decision_link": "none",
+      "timing": "original_pitch",
+      "turn_index": 87,
+      "quote": "I actually do know a little bit about genomics, I do very, very little, and I put that into a thimble",
+      "explanation": "She identifies her limited genomics knowledge while describing why she remains uncertain and conflicted.",
+      "evidence": [
+        "I actually do know a little bit about genomics, I do very, very little, and I put that into a thimble"
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 87,
+          "speaker": "Jillian",
+          "quote": "I actually do know a little bit about genomics, I do very, very little, and I put that into a thimble"
+        }
+      ],
+      "activation": "evaluated",
+      "source_rationale_id": "R4"
+    },
+    {
+      "rationale_label": "founder_execution",
+      "direction": "positive",
+      "salience": "primary",
+      "confidence": 0.96,
+      "utterance_type": "supporting_argument",
+      "decision_link": "supports_in",
+      "timing": "original_pitch",
+      "turn_index": 87,
+      "quote": "But you did hire Eric to do that.",
+      "explanation": "She treats the founder's hiring of a business operator to remedy his identified weakness as evidence of resourceful execution supporting her commitment.",
+      "evidence": [
+        "But you did hire Eric to do that."
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 87,
+          "speaker": "Jillian",
+          "quote": "But you did hire Eric to do that."
+        }
+      ],
+      "activation": "evaluated",
+      "source_rationale_id": "R5"
+    },
+    {
+      "rationale_label": "business_model_assessment",
+      "direction": "positive",
+      "salience": "primary",
+      "confidence": 0.94,
+      "utterance_type": "supporting_argument",
+      "decision_link": "supports_in",
+      "timing": "original_pitch",
+      "turn_index": 87,
+      "quote": "I like the fact that you were developing and developing products that would make money",
+      "explanation": "She positively evaluates the focus on monetizable products as a reason supporting her investment.",
+      "evidence": [
+        "I like the fact that you were developing and developing products that would make money"
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 87,
+          "speaker": "Jillian",
+          "quote": "I like the fact that you were developing and developing products that would make money"
+        }
+      ],
+      "activation": "evaluated",
+      "source_rationale_id": "R6"
+    },
+    {
+      "rationale_label": "founder_qualities",
+      "direction": "positive",
+      "salience": "secondary",
+      "confidence": 0.8,
+      "utterance_type": "assessment",
+      "decision_link": "none",
+      "timing": "original_pitch",
+      "turn_index": 99,
+      "quote": "I’ve no doubt that it is",
+      "explanation": "She expresses confidence that the founder's representations are truthful, indicating perceived credibility.",
+      "evidence": [
+        "I’ve no doubt that it is"
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 99,
+          "speaker": "Jillian",
+          "quote": "I’ve no doubt that it is"
+        }
+      ],
+      "activation": "evaluated",
+      "source_rationale_id": "R7"
+    },
+    {
+      "rationale_label": "investment_upside_assessment",
+      "direction": "positive",
+      "salience": "primary",
+      "confidence": 0.83,
+      "utterance_type": "assessment",
+      "decision_link": "none",
+      "timing": "original_pitch",
+      "turn_index": 101,
+      "quote": "It’s huge!",
+      "explanation": "In the immediate investor debrief, she characterizes the opportunity's potential upside as very large.",
+      "evidence": [
+        "It’s huge!"
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 101,
+          "speaker": "Jillian",
+          "quote": "It’s huge!"
+        }
+      ],
+      "activation": "evaluated",
+      "source_rationale_id": "R8"
+    },
+    {
+      "rationale_label": "investment_upside_assessment",
+      "direction": "positive",
+      "salience": "primary",
+      "confidence": 0.96,
+      "utterance_type": "assessment",
+      "decision_link": "none",
+      "timing": "original_pitch",
+      "turn_index": 103,
+      "quote": "I think that he is going to get to a point where people are going to want to buy this.",
+      "explanation": "She identifies likely acquisition demand as a compelling prospective return path.",
+      "evidence": [
+        "I think that he is going to get to a point where people are going to want to buy this."
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 103,
+          "speaker": "Jillian",
+          "quote": "I think that he is going to get to a point where people are going to want to buy this."
+        }
+      ],
+      "activation": "evaluated",
+      "source_rationale_id": "R9"
+    }
+  ],
+  "expanded_quote_evidence": [],
+  "rejected_after_evidence_check": []
+}

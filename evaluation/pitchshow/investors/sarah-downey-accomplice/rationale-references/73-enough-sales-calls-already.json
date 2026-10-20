@@ -1,0 +1,379 @@
+{
+  "schema": "phase1-rationale-reference-v1",
+  "extraction_version": "pitchshow-rationales-v1",
+  "fingerprint": "627b2d5ec71165a79f064f714273647cdb54b71a72a7fe1904a58c623f5b0503",
+  "episode_slug": "73-enough-sales-calls-already",
+  "vc_slug": "sarah-downey-accomplice",
+  "vc_name": "Sarah Downey",
+  "actual_decision": "Out",
+  "later_decision": "Unknown",
+  "reference_kind": "automated_transcript_observed_candidate",
+  "human_validated": false,
+  "source_format": "transcript-observed-rationales-v1",
+  "source_path": "../source/episodes/73-enough-sales-calls-already.json",
+  "source_sha256": "6b626b94633c15c8a1a24a874fb3aa91389dfb7b075c893325516e56f10fcdfc",
+  "transcript_sha256": "a6a0fa6a9ab7e0363b3ebf434662aadae7db0a0d3bff0cf3f9ee5dec389a6945",
+  "taxonomy_sha256": "eaa8734819a3ac34dd19ee5f0bf6de925a793a1d25a2d361090dafc9b751e1fc",
+  "model": "codex:gpt-5.6-luna+gpt-5.6-sol",
+  "generation_stages": [
+    {
+      "phase": "rationale_extract",
+      "backend": "codex",
+      "model": "gpt-5.6-luna"
+    },
+    {
+      "phase": "rationale_verify",
+      "backend": "codex",
+      "model": "gpt-5.6-sol"
+    }
+  ],
+  "source_tier": "newly_extracted_and_independently_model_reviewed",
+  "reviewed_target_turns": [
+    6,
+    8,
+    28,
+    53,
+    63,
+    97,
+    101
+  ],
+  "notes": "Turns 63 and 101 contain no material investment rationale.",
+  "receipt_path": "receipts/73-enough-sales-calls-already.json",
+  "scoring_scope": "original_pitch_only",
+  "shared_across_input_modes": true,
+  "rationales": [
+    {
+      "rationale_label": "investor_experience_bias",
+      "direction": "negative",
+      "salience": "primary",
+      "confidence": 0.98,
+      "utterance_type": "decision_reason",
+      "decision_link": "explicit",
+      "timing": "original_pitch",
+      "turn_index": 97,
+      "quote": "I have one company that has some scar tissue around it in this area",
+      "explanation": "Sarah explicitly links adverse experience with an existing company in this category to her decision not to invest.",
+      "evidence": [
+        "I have one company that has some scar tissue around it in this area"
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 97,
+          "speaker": "Sarah",
+          "quote": "I have one company that has some scar tissue around it in this area"
+        }
+      ],
+      "activation": "evaluated",
+      "source_rationale_id": "R6",
+      "utterance_kind": "decision_explanation",
+      "decision_support": "supports_out",
+      "all_mention_ids": [
+        "R6"
+      ]
+    },
+    {
+      "rationale_label": "market_problem_validation",
+      "direction": "positive",
+      "salience": "secondary",
+      "confidence": 0.98,
+      "utterance_type": "assessment",
+      "decision_link": "none",
+      "timing": "original_pitch",
+      "turn_index": 6,
+      "quote": "And I hate the talking to people aspect of all this.",
+      "explanation": "Sarah's personal experience supports that dealing directly with software vendors is a genuine customer pain point.",
+      "evidence": [
+        "And I hate the talking to people aspect of all this."
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 6,
+          "speaker": "Sarah",
+          "quote": "And I hate the talking to people aspect of all this."
+        }
+      ],
+      "activation": "evaluated",
+      "source_rationale_id": "R1",
+      "utterance_kind": "supporting_argument",
+      "decision_support": "none",
+      "all_mention_ids": [
+        "R1"
+      ]
+    },
+    {
+      "rationale_label": "portfolio_conflict_constraint",
+      "direction": "negative",
+      "salience": "primary",
+      "confidence": 0.99,
+      "utterance_type": "decision_reason",
+      "decision_link": "explicit",
+      "timing": "original_pitch",
+      "turn_index": 97,
+      "quote": "and then another that may be a conflict.",
+      "explanation": "Sarah identifies a separate potential portfolio conflict as an explicit reason for declining the investment.",
+      "evidence": [
+        "So it's called Venture App and it started off trying to do this but more on the services side.",
+        "and then another that may be a conflict."
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 53,
+          "speaker": "Sarah",
+          "quote": "So it's called Venture App and it started off trying to do this but more on the services side."
+        },
+        {
+          "turn_index": 97,
+          "speaker": "Sarah",
+          "quote": "and then another that may be a conflict."
+        }
+      ],
+      "activation": "evaluated",
+      "source_rationale_id": "R7",
+      "utterance_kind": "decision_explanation",
+      "decision_support": "supports_out",
+      "all_mention_ids": [
+        "R5",
+        "R7"
+      ]
+    },
+    {
+      "rationale_label": "product_adoption",
+      "direction": "neutral",
+      "salience": "secondary",
+      "confidence": 0.99,
+      "utterance_type": "question",
+      "decision_link": "none",
+      "timing": "original_pitch",
+      "turn_index": 28,
+      "quote": "How many of those portfolio companies, like have they actually rolled it out to those companies?",
+      "explanation": "Sarah asks whether the cited portfolio companies have actually received and begun using the product.",
+      "evidence": [
+        "How many of those portfolio companies, like have they actually rolled it out to those companies?"
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 28,
+          "speaker": "Sarah",
+          "quote": "How many of those portfolio companies, like have they actually rolled it out to those companies?"
+        }
+      ],
+      "activation": "queried",
+      "source_rationale_id": "R4",
+      "utterance_kind": "question",
+      "decision_support": "none",
+      "all_mention_ids": [
+        "R4"
+      ]
+    },
+    {
+      "rationale_label": "solution_feasibility_assessment",
+      "direction": "neutral",
+      "salience": "secondary",
+      "confidence": 0.98,
+      "utterance_type": "question",
+      "decision_link": "none",
+      "timing": "original_pitch",
+      "turn_index": 8,
+      "quote": "But can't you like, can't you just skip it?",
+      "explanation": "Sarah again asks whether Vetd can eliminate the vendor-conversation step entirely.",
+      "evidence": [
+        "Like, I refuse to talk to anybody.",
+        "But can't you like, can't you just skip it?"
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 6,
+          "speaker": "Sarah",
+          "quote": "Like, I refuse to talk to anybody."
+        },
+        {
+          "turn_index": 8,
+          "speaker": "Sarah",
+          "quote": "But can't you like, can't you just skip it?"
+        }
+      ],
+      "activation": "queried",
+      "source_rationale_id": "R3",
+      "utterance_kind": "question",
+      "decision_support": "none",
+      "all_mention_ids": [
+        "R2",
+        "R3"
+      ]
+    }
+  ],
+  "later_rationales": [],
+  "excluded_rationales": [],
+  "rationale_mentions": [
+    {
+      "rationale_label": "market_problem_validation",
+      "direction": "positive",
+      "salience": "secondary",
+      "confidence": 0.98,
+      "utterance_type": "supporting_argument",
+      "decision_link": "none",
+      "timing": "original_pitch",
+      "turn_index": 6,
+      "quote": "And I hate the talking to people aspect of all this.",
+      "explanation": "Sarah's personal experience supports that dealing directly with software vendors is a genuine customer pain point.",
+      "evidence": [
+        "And I hate the talking to people aspect of all this."
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 6,
+          "speaker": "Sarah",
+          "quote": "And I hate the talking to people aspect of all this."
+        }
+      ],
+      "activation": "evaluated",
+      "source_rationale_id": "R1"
+    },
+    {
+      "rationale_label": "solution_feasibility_assessment",
+      "direction": "neutral",
+      "salience": "secondary",
+      "confidence": 0.96,
+      "utterance_type": "question",
+      "decision_link": "none",
+      "timing": "original_pitch",
+      "turn_index": 6,
+      "quote": "Like, I refuse to talk to anybody.",
+      "explanation": "Sarah questions whether the service can operationally enable buyers to complete a purchase without speaking to vendors.",
+      "evidence": [
+        "Like, I refuse to talk to anybody."
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 6,
+          "speaker": "Sarah",
+          "quote": "Like, I refuse to talk to anybody."
+        }
+      ],
+      "activation": "queried",
+      "source_rationale_id": "R2"
+    },
+    {
+      "rationale_label": "solution_feasibility_assessment",
+      "direction": "neutral",
+      "salience": "secondary",
+      "confidence": 0.98,
+      "utterance_type": "question",
+      "decision_link": "none",
+      "timing": "original_pitch",
+      "turn_index": 8,
+      "quote": "But can't you like, can't you just skip it?",
+      "explanation": "Sarah again asks whether Vetd can eliminate the vendor-conversation step entirely.",
+      "evidence": [
+        "But can't you like, can't you just skip it?"
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 8,
+          "speaker": "Sarah",
+          "quote": "But can't you like, can't you just skip it?"
+        }
+      ],
+      "activation": "queried",
+      "source_rationale_id": "R3"
+    },
+    {
+      "rationale_label": "product_adoption",
+      "direction": "neutral",
+      "salience": "secondary",
+      "confidence": 0.99,
+      "utterance_type": "question",
+      "decision_link": "none",
+      "timing": "original_pitch",
+      "turn_index": 28,
+      "quote": "How many of those portfolio companies, like have they actually rolled it out to those companies?",
+      "explanation": "Sarah asks whether the cited portfolio companies have actually received and begun using the product.",
+      "evidence": [
+        "How many of those portfolio companies, like have they actually rolled it out to those companies?"
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 28,
+          "speaker": "Sarah",
+          "quote": "How many of those portfolio companies, like have they actually rolled it out to those companies?"
+        }
+      ],
+      "activation": "queried",
+      "source_rationale_id": "R4"
+    },
+    {
+      "rationale_label": "portfolio_conflict_constraint",
+      "direction": "negative",
+      "salience": "secondary",
+      "confidence": 0.96,
+      "utterance_type": "concern",
+      "decision_link": "none",
+      "timing": "original_pitch",
+      "turn_index": 53,
+      "quote": "So it's called Venture App and it started off trying to do this but more on the services side.",
+      "explanation": "Sarah identifies an existing portfolio company with an overlapping offering as a potential investment conflict.",
+      "evidence": [
+        "So it's called Venture App and it started off trying to do this but more on the services side."
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 53,
+          "speaker": "Sarah",
+          "quote": "So it's called Venture App and it started off trying to do this but more on the services side."
+        }
+      ],
+      "activation": "evaluated",
+      "source_rationale_id": "R5"
+    },
+    {
+      "rationale_label": "investor_experience_bias",
+      "direction": "negative",
+      "salience": "primary",
+      "confidence": 0.98,
+      "utterance_type": "decision_explanation",
+      "decision_link": "supports_out",
+      "timing": "original_pitch",
+      "turn_index": 97,
+      "quote": "I have one company that has some scar tissue around it in this area",
+      "explanation": "Sarah explicitly links adverse experience with an existing company in this category to her decision not to invest.",
+      "evidence": [
+        "I have one company that has some scar tissue around it in this area"
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 97,
+          "speaker": "Sarah",
+          "quote": "I have one company that has some scar tissue around it in this area"
+        }
+      ],
+      "activation": "evaluated",
+      "source_rationale_id": "R6"
+    },
+    {
+      "rationale_label": "portfolio_conflict_constraint",
+      "direction": "negative",
+      "salience": "primary",
+      "confidence": 0.99,
+      "utterance_type": "decision_explanation",
+      "decision_link": "supports_out",
+      "timing": "original_pitch",
+      "turn_index": 97,
+      "quote": "and then another that may be a conflict.",
+      "explanation": "Sarah identifies a separate potential portfolio conflict as an explicit reason for declining the investment.",
+      "evidence": [
+        "and then another that may be a conflict."
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 97,
+          "speaker": "Sarah",
+          "quote": "and then another that may be a conflict."
+        }
+      ],
+      "activation": "evaluated",
+      "source_rationale_id": "R7"
+    }
+  ],
+  "expanded_quote_evidence": [],
+  "rejected_after_evidence_check": []
+}

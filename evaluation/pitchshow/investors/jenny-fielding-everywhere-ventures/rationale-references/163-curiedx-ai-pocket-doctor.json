@@ -1,0 +1,1114 @@
+{
+  "schema": "phase1-rationale-reference-v1",
+  "extraction_version": "pitchshow-rationales-v1",
+  "fingerprint": "ec123d3e00871988f65cbc37d4320ecda88a44c1145ffc612e3656bc89d1abc7",
+  "episode_slug": "163-curiedx-ai-pocket-doctor",
+  "vc_slug": "jenny-fielding-everywhere-ventures",
+  "vc_name": "Jenny Fielding",
+  "actual_decision": "Out",
+  "later_decision": "Unknown",
+  "reference_kind": "automated_transcript_observed_candidate",
+  "human_validated": false,
+  "source_format": "transcript-observed-rationales-v1",
+  "source_path": "../source/episodes/163-curiedx-ai-pocket-doctor.json",
+  "source_sha256": "239282484cc775b455034ebaf2c844c2f1577ee3292b9e806df5e04dbceea199",
+  "transcript_sha256": "b22319710adf38dd719ee7039a8ba1dd32a28040f7a24d48af2b25345ede5f61",
+  "taxonomy_sha256": "eaa8734819a3ac34dd19ee5f0bf6de925a793a1d25a2d361090dafc9b751e1fc",
+  "model": "codex:gpt-5.6-luna+gpt-5.6-sol",
+  "generation_stages": [
+    {
+      "phase": "rationale_extract",
+      "backend": "codex",
+      "model": "gpt-5.6-luna"
+    },
+    {
+      "phase": "rationale_verify",
+      "backend": "codex",
+      "model": "gpt-5.6-sol"
+    }
+  ],
+  "source_tier": "newly_extracted_and_independently_model_reviewed",
+  "reviewed_target_turns": [
+    33,
+    35,
+    37,
+    51,
+    52,
+    54,
+    56,
+    58,
+    84,
+    87,
+    113,
+    115,
+    136,
+    144,
+    148,
+    152,
+    160,
+    162,
+    166,
+    168,
+    170,
+    178,
+    186,
+    188,
+    190,
+    192,
+    196,
+    208
+  ],
+  "notes": "All supplied target turns were reviewed; bare confirmations, jokes, and non-rationale interjections were excluded.",
+  "receipt_path": "receipts/163-curiedx-ai-pocket-doctor.json",
+  "scoring_scope": "original_pitch_only",
+  "shared_across_input_modes": true,
+  "rationales": [
+    {
+      "rationale_label": "business_model_assessment",
+      "direction": "negative",
+      "salience": "primary",
+      "confidence": 0.97,
+      "utterance_type": "decision_reason",
+      "decision_link": "explicit",
+      "timing": "original_pitch",
+      "turn_index": 113,
+      "quote": "with multiple business models",
+      "explanation": "Jenny identifies the simultaneous business-model paths as a central source of complexity behind her decision to decline.",
+      "evidence": [
+        "with multiple business models"
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 113,
+          "speaker": "Jenny",
+          "quote": "with multiple business models"
+        }
+      ],
+      "activation": "evaluated",
+      "source_rationale_id": "R12",
+      "utterance_kind": "decision_explanation",
+      "decision_support": "supports_out",
+      "all_mention_ids": [
+        "R12",
+        "R17",
+        "R21"
+      ]
+    },
+    {
+      "rationale_label": "capital_intensity_concern",
+      "direction": "positive",
+      "salience": "secondary",
+      "confidence": 0.88,
+      "utterance_type": "assessment",
+      "decision_link": "none",
+      "timing": "original_pitch",
+      "turn_index": 37,
+      "quote": "So that's going to be shorter and less expensive.",
+      "explanation": "Before being corrected, Jenny assesses the stated pathway as favorable because she believes it will require less time and capital.",
+      "evidence": [
+        "So that's going to be shorter and less expensive."
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 37,
+          "speaker": "Jenny",
+          "quote": "So that's going to be shorter and less expensive."
+        }
+      ],
+      "activation": "evaluated",
+      "source_rationale_id": "R3",
+      "utterance_kind": "assessment",
+      "decision_support": "none",
+      "all_mention_ids": [
+        "R3",
+        "R4"
+      ]
+    },
+    {
+      "rationale_label": "decision_context_constraint",
+      "direction": "neutral",
+      "salience": "secondary",
+      "confidence": 0.92,
+      "utterance_type": "assessment",
+      "decision_link": "none",
+      "timing": "original_pitch",
+      "turn_index": 152,
+      "quote": "Not for us to project, though.",
+      "explanation": "Jenny says the investors should not construct or project a revised plan for the founder within the pitch-room discussion.",
+      "evidence": [
+        "I don't think you need to decide today.",
+        "Not for us to project, though."
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 148,
+          "speaker": "Jenny",
+          "quote": "I don't think you need to decide today."
+        },
+        {
+          "turn_index": 152,
+          "speaker": "Jenny",
+          "quote": "Not for us to project, though."
+        }
+      ],
+      "activation": "evaluated",
+      "source_rationale_id": "R16",
+      "utterance_kind": "supporting_argument",
+      "decision_support": "none",
+      "all_mention_ids": [
+        "R15",
+        "R16"
+      ]
+    },
+    {
+      "rationale_label": "execution_risk_assessment",
+      "direction": "negative",
+      "salience": "primary",
+      "confidence": 0.93,
+      "utterance_type": "decision_reason",
+      "decision_link": "explicit",
+      "timing": "original_pitch",
+      "turn_index": 162,
+      "quote": "Too many things.",
+      "explanation": "Jenny views the number of simultaneous initiatives in the proposed plan as excessive execution scope.",
+      "evidence": [
+        "Too many things."
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 162,
+          "speaker": "Jenny",
+          "quote": "Too many things."
+        }
+      ],
+      "activation": "evaluated",
+      "source_rationale_id": "R19",
+      "utterance_kind": "decision_explanation",
+      "decision_support": "supports_out",
+      "all_mention_ids": [
+        "R19"
+      ]
+    },
+    {
+      "rationale_label": "founder_communication_quality",
+      "direction": "negative",
+      "salience": "primary",
+      "confidence": 0.97,
+      "utterance_type": "decision_reason",
+      "decision_link": "explicit",
+      "timing": "original_pitch",
+      "turn_index": 160,
+      "quote": "she reversed the order and that confused us",
+      "explanation": "Jenny says the founder's sequencing of the story obscured the stronger business narrative and contributed to investor confusion.",
+      "evidence": [
+        "she reversed the order and that confused us",
+        "she didn't have all our numbers"
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 160,
+          "speaker": "Jenny",
+          "quote": "she reversed the order and that confused us"
+        },
+        {
+          "turn_index": 166,
+          "speaker": "Jenny",
+          "quote": "she didn't have all our numbers"
+        }
+      ],
+      "activation": "evaluated",
+      "source_rationale_id": "R18",
+      "utterance_kind": "decision_explanation",
+      "decision_support": "supports_out",
+      "all_mention_ids": [
+        "R18",
+        "R20"
+      ]
+    },
+    {
+      "rationale_label": "founder_execution",
+      "direction": "negative",
+      "salience": "secondary",
+      "confidence": 0.88,
+      "utterance_type": "assessment",
+      "decision_link": "none",
+      "timing": "original_pitch",
+      "turn_index": 192,
+      "quote": "toughen up there lady that's health care",
+      "explanation": "Jenny criticizes the founder's response to ordinary healthcare sales friction and signals that greater operational persistence is needed.",
+      "evidence": [
+        "she's not talking to enough healthcare founders",
+        "toughen up there lady that's health care"
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 190,
+          "speaker": "Jenny",
+          "quote": "she's not talking to enough healthcare founders"
+        },
+        {
+          "turn_index": 192,
+          "speaker": "Jenny",
+          "quote": "toughen up there lady that's health care"
+        }
+      ],
+      "activation": "evaluated",
+      "source_rationale_id": "R25",
+      "utterance_kind": "assessment",
+      "decision_support": "none",
+      "all_mention_ids": [
+        "R11",
+        "R23",
+        "R25"
+      ]
+    },
+    {
+      "rationale_label": "founder_market_fit",
+      "direction": "positive",
+      "salience": "secondary",
+      "confidence": 0.91,
+      "utterance_type": "decision_reason",
+      "decision_link": "none",
+      "timing": "original_pitch",
+      "turn_index": 113,
+      "quote": "I love your background",
+      "explanation": "Jenny favorably assesses the founder's relevant professional background.",
+      "evidence": [
+        "I love your background"
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 113,
+          "speaker": "Jenny",
+          "quote": "I love your background"
+        }
+      ],
+      "activation": "evaluated",
+      "source_rationale_id": "R10",
+      "utterance_kind": "decision_explanation",
+      "decision_support": "none",
+      "all_mention_ids": [
+        "R10"
+      ]
+    },
+    {
+      "rationale_label": "fund_economics_constraint",
+      "direction": "negative",
+      "salience": "primary",
+      "confidence": 0.99,
+      "utterance_type": "decision_reason",
+      "decision_link": "explicit",
+      "timing": "original_pitch",
+      "turn_index": 113,
+      "quote": "a $4 million raise, which is, you know, quite high for me as a pre-seed",
+      "explanation": "Jenny explicitly says the round is large relative to her pre-seed investment parameters and links that constraint to opting out.",
+      "evidence": [
+        "a $4 million raise, which is, you know, quite high for me as a pre-seed"
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 113,
+          "speaker": "Jenny",
+          "quote": "a $4 million raise, which is, you know, quite high for me as a pre-seed"
+        }
+      ],
+      "activation": "evaluated",
+      "source_rationale_id": "R13",
+      "utterance_kind": "decision_explanation",
+      "decision_support": "supports_out",
+      "all_mention_ids": [
+        "R13"
+      ]
+    },
+    {
+      "rationale_label": "fundraising_demand_signal",
+      "direction": "neutral",
+      "salience": "secondary",
+      "confidence": 0.94,
+      "utterance_type": "question",
+      "decision_link": "none",
+      "timing": "original_pitch",
+      "turn_index": 56,
+      "quote": "Are you looking for a lead investor? Or how are you putting the round together?",
+      "explanation": "Jenny probes whether the round has or needs a lead and how its commitments are being assembled.",
+      "evidence": [
+        "And how's the fundraise going?",
+        "Are you looking for a lead investor? Or how are you putting the round together?"
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 54,
+          "speaker": "Jenny",
+          "quote": "And how's the fundraise going?"
+        },
+        {
+          "turn_index": 56,
+          "speaker": "Jenny",
+          "quote": "Are you looking for a lead investor? Or how are you putting the round together?"
+        }
+      ],
+      "activation": "queried",
+      "source_rationale_id": "R7",
+      "utterance_kind": "question",
+      "decision_support": "none",
+      "all_mention_ids": [
+        "R6",
+        "R7"
+      ]
+    },
+    {
+      "rationale_label": "go_to_market_strategy_assessment",
+      "direction": "negative",
+      "salience": "primary",
+      "confidence": 0.98,
+      "utterance_type": "decision_reason",
+      "decision_link": "explicit",
+      "timing": "original_pitch",
+      "turn_index": 188,
+      "quote": "this is the best way to accumulate the data. And I think we all just don't believe that.",
+      "explanation": "Jenny rejects the founder's justification that the proposed channel strategy is the best way to gather data, explaining the investors' lack of conviction.",
+      "evidence": [
+        "This is not going to change.",
+        "this is the best way to accumulate the data. And I think we all just don't believe that."
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 87,
+          "speaker": "Jenny",
+          "quote": "This is not going to change."
+        },
+        {
+          "turn_index": 188,
+          "speaker": "Jenny",
+          "quote": "this is the best way to accumulate the data. And I think we all just don't believe that."
+        }
+      ],
+      "activation": "evaluated",
+      "source_rationale_id": "R22",
+      "utterance_kind": "decision_explanation",
+      "decision_support": "supports_out",
+      "all_mention_ids": [
+        "R8",
+        "R9",
+        "R22",
+        "R24",
+        "R26"
+      ]
+    },
+    {
+      "rationale_label": "growth_projection_risk",
+      "direction": "neutral",
+      "salience": "secondary",
+      "confidence": 0.89,
+      "utterance_type": "question",
+      "decision_link": "none",
+      "timing": "original_pitch",
+      "turn_index": 52,
+      "quote": "what the metrics you hope to get to?",
+      "explanation": "Jenny asks what measurable progress the proposed financing is expected to produce.",
+      "evidence": [
+        "what the metrics you hope to get to?"
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 52,
+          "speaker": "Jenny",
+          "quote": "what the metrics you hope to get to?"
+        }
+      ],
+      "activation": "queried",
+      "source_rationale_id": "R5",
+      "utterance_kind": "question",
+      "decision_support": "none",
+      "all_mention_ids": [
+        "R5"
+      ]
+    },
+    {
+      "rationale_label": "solution_feasibility_assessment",
+      "direction": "negative",
+      "salience": "primary",
+      "confidence": 0.87,
+      "utterance_type": "decision_reason",
+      "decision_link": "explicit",
+      "timing": "original_pitch",
+      "turn_index": 113,
+      "quote": "the FDA path, I think that's going to be just a complicated one for me to get my head around",
+      "explanation": "Jenny identifies the operational complexity of the FDA pathway as another reason she cannot commit.",
+      "evidence": [
+        "the FDA path, I think that's going to be just a complicated one for me to get my head around"
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 113,
+          "speaker": "Jenny",
+          "quote": "the FDA path, I think that's going to be just a complicated one for me to get my head around"
+        }
+      ],
+      "activation": "evaluated",
+      "source_rationale_id": "R14",
+      "utterance_kind": "decision_explanation",
+      "decision_support": "supports_out",
+      "all_mention_ids": [
+        "R1",
+        "R2",
+        "R14"
+      ]
+    }
+  ],
+  "later_rationales": [],
+  "excluded_rationales": [
+    {
+      "rationale_label": "product_adoption",
+      "direction": "neutral",
+      "salience": "secondary",
+      "confidence": 0.96,
+      "utterance_type": "question",
+      "decision_link": "none",
+      "timing": "teaser",
+      "turn_index": 208,
+      "quote": "do they feel like they're being tracked in some way that makes them uncomfortable?",
+      "explanation": "Jenny asks whether perceived surveillance causes user resistance that could impede adoption.",
+      "evidence": [
+        "do they feel like they're being tracked in some way that makes them uncomfortable?"
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 208,
+          "speaker": "Jenny",
+          "quote": "do they feel like they're being tracked in some way that makes them uncomfortable?"
+        }
+      ],
+      "activation": "queried",
+      "source_rationale_id": "R27"
+    }
+  ],
+  "rationale_mentions": [
+    {
+      "rationale_label": "solution_feasibility_assessment",
+      "direction": "neutral",
+      "salience": "secondary",
+      "confidence": 0.92,
+      "utterance_type": "question",
+      "decision_link": "none",
+      "timing": "original_pitch",
+      "turn_index": 33,
+      "quote": "So you have to go through FDA, meaning that you're considered a medical device?",
+      "explanation": "Jenny asks whether the product's regulatory classification requires it to be treated as a medical device.",
+      "evidence": [
+        "So you have to go through FDA, meaning that you're considered a medical device?"
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 33,
+          "speaker": "Jenny",
+          "quote": "So you have to go through FDA, meaning that you're considered a medical device?"
+        }
+      ],
+      "activation": "queried",
+      "source_rationale_id": "R1"
+    },
+    {
+      "rationale_label": "solution_feasibility_assessment",
+      "direction": "neutral",
+      "salience": "secondary",
+      "confidence": 0.91,
+      "utterance_type": "question",
+      "decision_link": "none",
+      "timing": "original_pitch",
+      "turn_index": 35,
+      "quote": "So does that mean the FDA is like a 510 or it's a, it's one of these lesser -",
+      "explanation": "Jenny asks which FDA pathway the product must navigate, probing the operational burden of approval.",
+      "evidence": [
+        "So does that mean the FDA is like a 510 or it's a, it's one of these lesser -"
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 35,
+          "speaker": "Jenny",
+          "quote": "So does that mean the FDA is like a 510 or it's a, it's one of these lesser -"
+        }
+      ],
+      "activation": "queried",
+      "source_rationale_id": "R2"
+    },
+    {
+      "rationale_label": "capital_intensity_concern",
+      "direction": "positive",
+      "salience": "secondary",
+      "confidence": 0.88,
+      "utterance_type": "assessment",
+      "decision_link": "none",
+      "timing": "original_pitch",
+      "turn_index": 37,
+      "quote": "So that's going to be shorter and less expensive.",
+      "explanation": "Before being corrected, Jenny assesses the stated pathway as favorable because she believes it will require less time and capital.",
+      "evidence": [
+        "So that's going to be shorter and less expensive."
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 37,
+          "speaker": "Jenny",
+          "quote": "So that's going to be shorter and less expensive."
+        }
+      ],
+      "activation": "evaluated",
+      "source_rationale_id": "R3"
+    },
+    {
+      "rationale_label": "capital_intensity_concern",
+      "direction": "negative",
+      "salience": "secondary",
+      "confidence": 0.95,
+      "utterance_type": "question",
+      "decision_link": "none",
+      "timing": "original_pitch",
+      "turn_index": 52,
+      "quote": "four million, it's a lot of money",
+      "explanation": "Jenny flags the requested capital as substantial before asking how it will be deployed.",
+      "evidence": [
+        "four million, it's a lot of money"
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 52,
+          "speaker": "Jenny",
+          "quote": "four million, it's a lot of money"
+        }
+      ],
+      "activation": "queried",
+      "source_rationale_id": "R4"
+    },
+    {
+      "rationale_label": "growth_projection_risk",
+      "direction": "neutral",
+      "salience": "secondary",
+      "confidence": 0.89,
+      "utterance_type": "question",
+      "decision_link": "none",
+      "timing": "original_pitch",
+      "turn_index": 52,
+      "quote": "what the metrics you hope to get to?",
+      "explanation": "Jenny asks what measurable progress the proposed financing is expected to produce.",
+      "evidence": [
+        "what the metrics you hope to get to?"
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 52,
+          "speaker": "Jenny",
+          "quote": "what the metrics you hope to get to?"
+        }
+      ],
+      "activation": "queried",
+      "source_rationale_id": "R5"
+    },
+    {
+      "rationale_label": "fundraising_demand_signal",
+      "direction": "neutral",
+      "salience": "secondary",
+      "confidence": 0.95,
+      "utterance_type": "question",
+      "decision_link": "none",
+      "timing": "original_pitch",
+      "turn_index": 54,
+      "quote": "And how's the fundraise going?",
+      "explanation": "Jenny asks about current investor demand for the round.",
+      "evidence": [
+        "And how's the fundraise going?"
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 54,
+          "speaker": "Jenny",
+          "quote": "And how's the fundraise going?"
+        }
+      ],
+      "activation": "queried",
+      "source_rationale_id": "R6"
+    },
+    {
+      "rationale_label": "fundraising_demand_signal",
+      "direction": "neutral",
+      "salience": "secondary",
+      "confidence": 0.94,
+      "utterance_type": "question",
+      "decision_link": "none",
+      "timing": "original_pitch",
+      "turn_index": 56,
+      "quote": "Are you looking for a lead investor? Or how are you putting the round together?",
+      "explanation": "Jenny probes whether the round has or needs a lead and how its commitments are being assembled.",
+      "evidence": [
+        "Are you looking for a lead investor? Or how are you putting the round together?"
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 56,
+          "speaker": "Jenny",
+          "quote": "Are you looking for a lead investor? Or how are you putting the round together?"
+        }
+      ],
+      "activation": "queried",
+      "source_rationale_id": "R7"
+    },
+    {
+      "rationale_label": "go_to_market_strategy_assessment",
+      "direction": "positive",
+      "salience": "secondary",
+      "confidence": 0.96,
+      "utterance_type": "supporting_argument",
+      "decision_link": "none",
+      "timing": "original_pitch",
+      "turn_index": 84,
+      "quote": "I think that's just healthcare. That's not you.",
+      "explanation": "Jenny argues that the slow sales cycle is normal for healthcare rather than evidence of founder-specific execution weakness.",
+      "evidence": [
+        "I think that's just healthcare. That's not you."
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 84,
+          "speaker": "Jenny",
+          "quote": "I think that's just healthcare. That's not you."
+        }
+      ],
+      "activation": "evaluated",
+      "source_rationale_id": "R8"
+    },
+    {
+      "rationale_label": "go_to_market_strategy_assessment",
+      "direction": "negative",
+      "salience": "secondary",
+      "confidence": 0.94,
+      "utterance_type": "assessment",
+      "decision_link": "none",
+      "timing": "original_pitch",
+      "turn_index": 87,
+      "quote": "This is not going to change.",
+      "explanation": "Jenny emphasizes that long healthcare sales cycles will remain a persistent constraint on the sales motion.",
+      "evidence": [
+        "This is not going to change."
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 87,
+          "speaker": "Jenny",
+          "quote": "This is not going to change."
+        }
+      ],
+      "activation": "evaluated",
+      "source_rationale_id": "R9"
+    },
+    {
+      "rationale_label": "founder_market_fit",
+      "direction": "positive",
+      "salience": "secondary",
+      "confidence": 0.91,
+      "utterance_type": "decision_explanation",
+      "decision_link": "none",
+      "timing": "original_pitch",
+      "turn_index": 113,
+      "quote": "I love your background",
+      "explanation": "Jenny favorably assesses the founder's relevant professional background.",
+      "evidence": [
+        "I love your background"
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 113,
+          "speaker": "Jenny",
+          "quote": "I love your background"
+        }
+      ],
+      "activation": "evaluated",
+      "source_rationale_id": "R10"
+    },
+    {
+      "rationale_label": "founder_execution",
+      "direction": "positive",
+      "salience": "secondary",
+      "confidence": 0.97,
+      "utterance_type": "decision_explanation",
+      "decision_link": "none",
+      "timing": "original_pitch",
+      "turn_index": 113,
+      "quote": "you have just like hustled, you know, the hell out of this business",
+      "explanation": "Jenny credits the founder's resourcefulness and effort in advancing the company.",
+      "evidence": [
+        "you have just like hustled, you know, the hell out of this business"
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 113,
+          "speaker": "Jenny",
+          "quote": "you have just like hustled, you know, the hell out of this business"
+        }
+      ],
+      "activation": "evaluated",
+      "source_rationale_id": "R11"
+    },
+    {
+      "rationale_label": "business_model_assessment",
+      "direction": "negative",
+      "salience": "primary",
+      "confidence": 0.97,
+      "utterance_type": "decision_explanation",
+      "decision_link": "supports_out",
+      "timing": "original_pitch",
+      "turn_index": 113,
+      "quote": "with multiple business models",
+      "explanation": "Jenny identifies the simultaneous business-model paths as a central source of complexity behind her decision to decline.",
+      "evidence": [
+        "with multiple business models"
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 113,
+          "speaker": "Jenny",
+          "quote": "with multiple business models"
+        }
+      ],
+      "activation": "evaluated",
+      "source_rationale_id": "R12"
+    },
+    {
+      "rationale_label": "fund_economics_constraint",
+      "direction": "negative",
+      "salience": "primary",
+      "confidence": 0.99,
+      "utterance_type": "decision_explanation",
+      "decision_link": "supports_out",
+      "timing": "original_pitch",
+      "turn_index": 113,
+      "quote": "a $4 million raise, which is, you know, quite high for me as a pre-seed",
+      "explanation": "Jenny explicitly says the round is large relative to her pre-seed investment parameters and links that constraint to opting out.",
+      "evidence": [
+        "a $4 million raise, which is, you know, quite high for me as a pre-seed"
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 113,
+          "speaker": "Jenny",
+          "quote": "a $4 million raise, which is, you know, quite high for me as a pre-seed"
+        }
+      ],
+      "activation": "evaluated",
+      "source_rationale_id": "R13"
+    },
+    {
+      "rationale_label": "solution_feasibility_assessment",
+      "direction": "negative",
+      "salience": "primary",
+      "confidence": 0.87,
+      "utterance_type": "decision_explanation",
+      "decision_link": "supports_out",
+      "timing": "original_pitch",
+      "turn_index": 113,
+      "quote": "the FDA path, I think that's going to be just a complicated one for me to get my head around",
+      "explanation": "Jenny identifies the operational complexity of the FDA pathway as another reason she cannot commit.",
+      "evidence": [
+        "the FDA path, I think that's going to be just a complicated one for me to get my head around"
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 113,
+          "speaker": "Jenny",
+          "quote": "the FDA path, I think that's going to be just a complicated one for me to get my head around"
+        }
+      ],
+      "activation": "evaluated",
+      "source_rationale_id": "R14"
+    },
+    {
+      "rationale_label": "decision_context_constraint",
+      "direction": "neutral",
+      "salience": "secondary",
+      "confidence": 0.91,
+      "utterance_type": "supporting_argument",
+      "decision_link": "none",
+      "timing": "original_pitch",
+      "turn_index": 148,
+      "quote": "I don't think you need to decide today.",
+      "explanation": "Jenny argues that the founder should not be required to revise the financing plan on the spot during the pitch.",
+      "evidence": [
+        "I don't think you need to decide today."
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 148,
+          "speaker": "Jenny",
+          "quote": "I don't think you need to decide today."
+        }
+      ],
+      "activation": "evaluated",
+      "source_rationale_id": "R15"
+    },
+    {
+      "rationale_label": "decision_context_constraint",
+      "direction": "neutral",
+      "salience": "secondary",
+      "confidence": 0.92,
+      "utterance_type": "supporting_argument",
+      "decision_link": "none",
+      "timing": "original_pitch",
+      "turn_index": 152,
+      "quote": "Not for us to project, though.",
+      "explanation": "Jenny says the investors should not construct or project a revised plan for the founder within the pitch-room discussion.",
+      "evidence": [
+        "Not for us to project, though."
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 152,
+          "speaker": "Jenny",
+          "quote": "Not for us to project, though."
+        }
+      ],
+      "activation": "evaluated",
+      "source_rationale_id": "R16"
+    },
+    {
+      "rationale_label": "business_model_assessment",
+      "direction": "positive",
+      "salience": "secondary",
+      "confidence": 0.96,
+      "utterance_type": "assessment",
+      "decision_link": "none",
+      "timing": "original_pitch",
+      "turn_index": 160,
+      "quote": "I have a business here. Oh. And I can make my business even bigger down the road when we get there.",
+      "explanation": "Jenny believes the company can operate before FDA approval and use approval later to expand the business.",
+      "evidence": [
+        "I have a business here. Oh. And I can make my business even bigger down the road when we get there."
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 160,
+          "speaker": "Jenny",
+          "quote": "I have a business here. Oh. And I can make my business even bigger down the road when we get there."
+        }
+      ],
+      "activation": "evaluated",
+      "source_rationale_id": "R17"
+    },
+    {
+      "rationale_label": "founder_communication_quality",
+      "direction": "negative",
+      "salience": "primary",
+      "confidence": 0.97,
+      "utterance_type": "decision_explanation",
+      "decision_link": "supports_out",
+      "timing": "original_pitch",
+      "turn_index": 160,
+      "quote": "she reversed the order and that confused us",
+      "explanation": "Jenny says the founder's sequencing of the story obscured the stronger business narrative and contributed to investor confusion.",
+      "evidence": [
+        "she reversed the order and that confused us"
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 160,
+          "speaker": "Jenny",
+          "quote": "she reversed the order and that confused us"
+        }
+      ],
+      "activation": "evaluated",
+      "source_rationale_id": "R18"
+    },
+    {
+      "rationale_label": "execution_risk_assessment",
+      "direction": "negative",
+      "salience": "primary",
+      "confidence": 0.93,
+      "utterance_type": "decision_explanation",
+      "decision_link": "supports_out",
+      "timing": "original_pitch",
+      "turn_index": 162,
+      "quote": "Too many things.",
+      "explanation": "Jenny views the number of simultaneous initiatives in the proposed plan as excessive execution scope.",
+      "evidence": [
+        "Too many things."
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 162,
+          "speaker": "Jenny",
+          "quote": "Too many things."
+        }
+      ],
+      "activation": "evaluated",
+      "source_rationale_id": "R19"
+    },
+    {
+      "rationale_label": "founder_communication_quality",
+      "direction": "negative",
+      "salience": "secondary",
+      "confidence": 0.95,
+      "utterance_type": "assessment",
+      "decision_link": "none",
+      "timing": "original_pitch",
+      "turn_index": 166,
+      "quote": "she didn't have all our numbers",
+      "explanation": "Jenny agrees that the founder did not demonstrate adequate command of the financial figures during the pitch.",
+      "evidence": [
+        "she didn't have all our numbers"
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 166,
+          "speaker": "Jenny",
+          "quote": "she didn't have all our numbers"
+        }
+      ],
+      "activation": "evaluated",
+      "source_rationale_id": "R20"
+    },
+    {
+      "rationale_label": "business_model_assessment",
+      "direction": "positive",
+      "salience": "secondary",
+      "confidence": 0.9,
+      "utterance_type": "assessment",
+      "decision_link": "none",
+      "timing": "original_pitch",
+      "turn_index": 168,
+      "quote": "This is pretty cool.",
+      "explanation": "In context, Jenny favorably reacts to the company's ability to have a business even before completing FDA approval.",
+      "evidence": [
+        "This is pretty cool."
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 168,
+          "speaker": "Jenny",
+          "quote": "This is pretty cool."
+        }
+      ],
+      "activation": "evaluated",
+      "source_rationale_id": "R21"
+    },
+    {
+      "rationale_label": "go_to_market_strategy_assessment",
+      "direction": "negative",
+      "salience": "primary",
+      "confidence": 0.98,
+      "utterance_type": "decision_explanation",
+      "decision_link": "supports_out",
+      "timing": "original_pitch",
+      "turn_index": 188,
+      "quote": "this is the best way to accumulate the data. And I think we all just don't believe that.",
+      "explanation": "Jenny rejects the founder's justification that the proposed channel strategy is the best way to gather data, explaining the investors' lack of conviction.",
+      "evidence": [
+        "this is the best way to accumulate the data. And I think we all just don't believe that."
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 188,
+          "speaker": "Jenny",
+          "quote": "this is the best way to accumulate the data. And I think we all just don't believe that."
+        }
+      ],
+      "activation": "evaluated",
+      "source_rationale_id": "R22"
+    },
+    {
+      "rationale_label": "founder_execution",
+      "direction": "negative",
+      "salience": "secondary",
+      "confidence": 0.93,
+      "utterance_type": "assessment",
+      "decision_link": "none",
+      "timing": "original_pitch",
+      "turn_index": 190,
+      "quote": "she's not talking to enough healthcare founders",
+      "explanation": "Jenny believes the founder has not done enough peer learning to calibrate expectations about healthcare sales.",
+      "evidence": [
+        "she's not talking to enough healthcare founders"
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 190,
+          "speaker": "Jenny",
+          "quote": "she's not talking to enough healthcare founders"
+        }
+      ],
+      "activation": "evaluated",
+      "source_rationale_id": "R23"
+    },
+    {
+      "rationale_label": "go_to_market_strategy_assessment",
+      "direction": "positive",
+      "salience": "secondary",
+      "confidence": 0.96,
+      "utterance_type": "supporting_argument",
+      "decision_link": "none",
+      "timing": "original_pitch",
+      "turn_index": 190,
+      "quote": "these deals can take six months. I'm like, that's health care, and that's not bad.",
+      "explanation": "Jenny assesses a six-month healthcare sales cycle as normal rather than an adverse signal about the channel.",
+      "evidence": [
+        "these deals can take six months. I'm like, that's health care, and that's not bad."
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 190,
+          "speaker": "Jenny",
+          "quote": "these deals can take six months. I'm like, that's health care, and that's not bad."
+        }
+      ],
+      "activation": "evaluated",
+      "source_rationale_id": "R24"
+    },
+    {
+      "rationale_label": "founder_execution",
+      "direction": "negative",
+      "salience": "secondary",
+      "confidence": 0.88,
+      "utterance_type": "assessment",
+      "decision_link": "none",
+      "timing": "original_pitch",
+      "turn_index": 192,
+      "quote": "toughen up there lady that's health care",
+      "explanation": "Jenny criticizes the founder's response to ordinary healthcare sales friction and signals that greater operational persistence is needed.",
+      "evidence": [
+        "toughen up there lady that's health care"
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 192,
+          "speaker": "Jenny",
+          "quote": "toughen up there lady that's health care"
+        }
+      ],
+      "activation": "evaluated",
+      "source_rationale_id": "R25"
+    },
+    {
+      "rationale_label": "go_to_market_strategy_assessment",
+      "direction": "neutral",
+      "salience": "secondary",
+      "confidence": 0.93,
+      "utterance_type": "assessment",
+      "decision_link": "none",
+      "timing": "original_pitch",
+      "turn_index": 192,
+      "quote": "it can take a very long time",
+      "explanation": "Jenny reiterates that lengthy sales cycles are an inherent feature of the healthcare market.",
+      "evidence": [
+        "it can take a very long time"
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 192,
+          "speaker": "Jenny",
+          "quote": "it can take a very long time"
+        }
+      ],
+      "activation": "evaluated",
+      "source_rationale_id": "R26"
+    }
+  ],
+  "expanded_quote_evidence": [],
+  "rejected_after_evidence_check": []
+}

@@ -96,17 +96,19 @@ def _fixture(tmp_path: Path) -> tuple[RehearsalConfig, str]:
     return config, vc_slug
 
 
-def test_all_six_investors_are_discovered() -> None:
+def test_all_installed_investors_are_discovered() -> None:
     investors = list_investors(ROOT / "inputs")
-
-    assert {row.vc_slug for row in investors} == {
+    discovered = {row.vc_slug for row in investors}
+    assert {
         "charles-hudson-precursor-ventures",
         "cyan-banister-long-journey-ventures",
         "elizabeth-yin-hustle-fund",
         "jesse-middleton-flybridge",
         "jillian-manus-structure-capital",
         "phil-nadel",
-    }
+    } <= discovered
+    assert {path.parent.name for path in (ROOT / "configs/investors").glob("*/canonical.toml")} <= discovered
+    assert discovered == {path.stem for path in (ROOT / "inputs/investors").glob("*.toml")}
 
 
 def test_runtime_filters_target_company_from_wiki(tmp_path: Path, monkeypatch) -> None:

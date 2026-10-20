@@ -1,0 +1,332 @@
+{
+  "schema": "phase1-rationale-reference-v1",
+  "extraction_version": "pitchshow-rationales-v1",
+  "fingerprint": "9f9b715560e8ae40d2da8111906467e6755c126b864a3e20031320f3807d09d2",
+  "episode_slug": "111-stigma-whose-business-is-it-anyway",
+  "vc_slug": "charles-hudson-precursor-ventures",
+  "vc_name": "Charles Hudson",
+  "actual_decision": "Out",
+  "later_decision": "Unknown",
+  "reference_kind": "automated_transcript_observed_candidate",
+  "human_validated": false,
+  "source_format": "transcript-observed-rationales-v1",
+  "source_path": "/home/dpasch01/vclogic-vc-agentic-assessment/evaluation/pitchshow/investors/charles-hudson-precursor-ventures/source/episodes/111-stigma-whose-business-is-it-anyway.json",
+  "source_sha256": "ef0ae44949a8db372d986b1d01f7044eeb6eb85de8e402e75447787cd36e49d8",
+  "transcript_sha256": "b4e0aba5e8e7b4ee45001b044e9201d20d1883f51ca51f5b098af38eeff21686",
+  "taxonomy_sha256": "eaa8734819a3ac34dd19ee5f0bf6de925a793a1d25a2d361090dafc9b751e1fc",
+  "model": "openai/gpt-5.6-luna",
+  "source_tier": "newly_extracted_and_independently_model_reviewed",
+  "reviewed_target_turns": [
+    2,
+    8,
+    14,
+    27,
+    58,
+    61,
+    63,
+    65,
+    68,
+    107,
+    120
+  ],
+  "notes": "Turns 2, 8, 63, 68, 107, and 120 contain only introductions, confirmations, or commentary without a rationale-bearing investment assessment.",
+  "receipt_path": "/home/dpasch01/vclogic-vc-agentic-assessment/evaluation/pitchshow/investors/charles-hudson-precursor-ventures/rationale-references/receipts/111-stigma-whose-business-is-it-anyway.json",
+  "scoring_scope": "original_pitch_only",
+  "shared_across_input_modes": true,
+  "rationales": [
+    {
+      "rationale_label": "business_model_assessment",
+      "direction": "negative",
+      "salience": "primary",
+      "confidence": 0.96,
+      "utterance_type": "decision_reason",
+      "decision_link": "explicit",
+      "timing": "original_pitch",
+      "turn_index": 65,
+      "quote": "understanding the business model's important",
+      "explanation": "He says he cannot commit while the business model lacks sufficient clarity, while indicating that a well-understood, high-confidence model could support a future investment.",
+      "evidence": [
+        "understanding the business model's important"
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 65,
+          "speaker": "Charles",
+          "quote": "understanding the business model's important"
+        }
+      ],
+      "activation": "evaluated",
+      "source_rationale_id": "R6",
+      "utterance_kind": "decision_explanation",
+      "decision_support": "supports_out",
+      "all_mention_ids": [
+        "R3",
+        "R6"
+      ]
+    },
+    {
+      "rationale_label": "competitive_landscape_inertia",
+      "direction": "negative",
+      "salience": "primary",
+      "confidence": 0.95,
+      "utterance_type": "decision_reason",
+      "decision_link": "explicit",
+      "timing": "original_pitch",
+      "turn_index": 61,
+      "quote": "I think that's a very difficult dynamic to change, because I think it comes from a // place of mistrust.",
+      "explanation": "He believes entrenched mistrust makes the EAP dynamic difficult to change, and gives this as his specific reason for not investing.",
+      "evidence": [
+        "I think that's a very difficult dynamic to change, because I think it comes from a // place of mistrust."
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 61,
+          "speaker": "Charles",
+          "quote": "I think that's a very difficult dynamic to change, because I think it comes from a // place of mistrust."
+        }
+      ],
+      "activation": "evaluated",
+      "source_rationale_id": "R4",
+      "utterance_kind": "decision_explanation",
+      "decision_support": "supports_out",
+      "all_mention_ids": [
+        "R4"
+      ]
+    },
+    {
+      "rationale_label": "investor_experience_bias",
+      "direction": "negative",
+      "salience": "secondary",
+      "confidence": 0.92,
+      "utterance_type": "decision_reason",
+      "decision_link": "explicit",
+      "timing": "original_pitch",
+      "turn_index": 61,
+      "quote": "we've done // a lot in mental health. And we've also a ton in the employer benefits channel.",
+      "explanation": "Charles explicitly grounds his avoidance of EAP opportunities in his prior experience with mental health and employer-benefits companies.",
+      "evidence": [
+        "we've done // a lot in mental health. And we've also a ton in the employer benefits channel."
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 61,
+          "speaker": "Charles",
+          "quote": "we've done // a lot in mental health. And we've also a ton in the employer benefits channel."
+        }
+      ],
+      "activation": "evaluated",
+      "source_rationale_id": "R5",
+      "utterance_kind": "decision_explanation",
+      "decision_support": "supports_out",
+      "all_mention_ids": [
+        "R5"
+      ]
+    },
+    {
+      "rationale_label": "market_problem_validation",
+      "direction": "neutral",
+      "salience": "secondary",
+      "confidence": 0.89,
+      "utterance_type": "question",
+      "decision_link": "none",
+      "timing": "original_pitch",
+      "turn_index": 27,
+      "quote": "EAPs have historically been underutilized because most people don't want to share the underlying issue they're dealing with with HR out of fear of retribution or consequences",
+      "explanation": "He identifies employee privacy and trust concerns as a cause of EAP underuse, then asks how Stigma fits that landscape.",
+      "evidence": [
+        "EAPs have historically been underutilized because most people don't want to share the underlying issue they're dealing with with HR out of fear of retribution or consequences"
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 27,
+          "speaker": "Charles",
+          "quote": "EAPs have historically been underutilized because most people don't want to share the underlying issue they're dealing with with HR out of fear of retribution or consequences"
+        }
+      ],
+      "activation": "queried",
+      "source_rationale_id": "R2",
+      "utterance_kind": "question",
+      "decision_support": "none",
+      "all_mention_ids": [
+        "R2"
+      ]
+    },
+    {
+      "rationale_label": "solution_feasibility_assessment",
+      "direction": "neutral",
+      "salience": "secondary",
+      "confidence": 0.91,
+      "utterance_type": "question",
+      "decision_link": "none",
+      "timing": "original_pitch",
+      "turn_index": 14,
+      "quote": "Do you have a demo?",
+      "explanation": "Charles requests a demonstration to assess the proposed solution, without expressing a positive or negative investment view.",
+      "evidence": [
+        "Do you have a demo?"
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 14,
+          "speaker": "Charles",
+          "quote": "Do you have a demo?"
+        }
+      ],
+      "activation": "queried",
+      "source_rationale_id": "R1",
+      "utterance_kind": "question",
+      "decision_support": "none",
+      "all_mention_ids": [
+        "R1"
+      ]
+    }
+  ],
+  "later_rationales": [],
+  "excluded_rationales": [],
+  "rationale_mentions": [
+    {
+      "rationale_label": "solution_feasibility_assessment",
+      "direction": "neutral",
+      "salience": "secondary",
+      "confidence": 0.91,
+      "utterance_type": "question",
+      "decision_link": "none",
+      "timing": "original_pitch",
+      "turn_index": 14,
+      "quote": "Do you have a demo?",
+      "explanation": "Charles requests a demonstration to assess the proposed solution, without expressing a positive or negative investment view.",
+      "evidence": [
+        "Do you have a demo?"
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 14,
+          "speaker": "Charles",
+          "quote": "Do you have a demo?"
+        }
+      ],
+      "activation": "queried",
+      "source_rationale_id": "R1"
+    },
+    {
+      "rationale_label": "market_problem_validation",
+      "direction": "neutral",
+      "salience": "secondary",
+      "confidence": 0.89,
+      "utterance_type": "question",
+      "decision_link": "none",
+      "timing": "original_pitch",
+      "turn_index": 27,
+      "quote": "EAPs have historically been underutilized because most people don't want to share the underlying issue they're dealing with with HR out of fear of retribution or consequences",
+      "explanation": "He identifies employee privacy and trust concerns as a cause of EAP underuse, then asks how Stigma fits that landscape.",
+      "evidence": [
+        "EAPs have historically been underutilized because most people don't want to share the underlying issue they're dealing with with HR out of fear of retribution or consequences"
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 27,
+          "speaker": "Charles",
+          "quote": "EAPs have historically been underutilized because most people don't want to share the underlying issue they're dealing with with HR out of fear of retribution or consequences"
+        }
+      ],
+      "activation": "queried",
+      "source_rationale_id": "R2"
+    },
+    {
+      "rationale_label": "business_model_assessment",
+      "direction": "positive",
+      "salience": "secondary",
+      "confidence": 0.95,
+      "utterance_type": "assessment",
+      "decision_link": "none",
+      "timing": "original_pitch",
+      "turn_index": 58,
+      "quote": "That to me just seems like a easier business model than trying to spin this up as something you sell directly.",
+      "explanation": "Charles assesses licensing through organizations with existing audiences as a more straightforward model than direct sales.",
+      "evidence": [
+        "That to me just seems like a easier business model than trying to spin this up as something you sell directly."
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 58,
+          "speaker": "Charles",
+          "quote": "That to me just seems like a easier business model than trying to spin this up as something you sell directly."
+        }
+      ],
+      "activation": "evaluated",
+      "source_rationale_id": "R3"
+    },
+    {
+      "rationale_label": "competitive_landscape_inertia",
+      "direction": "negative",
+      "salience": "primary",
+      "confidence": 0.95,
+      "utterance_type": "decision_explanation",
+      "decision_link": "supports_out",
+      "timing": "original_pitch",
+      "turn_index": 61,
+      "quote": "I think that's a very difficult dynamic to change, because I think it comes from a // place of mistrust.",
+      "explanation": "He believes entrenched mistrust makes the EAP dynamic difficult to change, and gives this as his specific reason for not investing.",
+      "evidence": [
+        "I think that's a very difficult dynamic to change, because I think it comes from a // place of mistrust."
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 61,
+          "speaker": "Charles",
+          "quote": "I think that's a very difficult dynamic to change, because I think it comes from a // place of mistrust."
+        }
+      ],
+      "activation": "evaluated",
+      "source_rationale_id": "R4"
+    },
+    {
+      "rationale_label": "investor_experience_bias",
+      "direction": "negative",
+      "salience": "secondary",
+      "confidence": 0.92,
+      "utterance_type": "decision_explanation",
+      "decision_link": "supports_out",
+      "timing": "original_pitch",
+      "turn_index": 61,
+      "quote": "we've done // a lot in mental health. And we've also a ton in the employer benefits channel.",
+      "explanation": "Charles explicitly grounds his avoidance of EAP opportunities in his prior experience with mental health and employer-benefits companies.",
+      "evidence": [
+        "we've done // a lot in mental health. And we've also a ton in the employer benefits channel."
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 61,
+          "speaker": "Charles",
+          "quote": "we've done // a lot in mental health. And we've also a ton in the employer benefits channel."
+        }
+      ],
+      "activation": "evaluated",
+      "source_rationale_id": "R5"
+    },
+    {
+      "rationale_label": "business_model_assessment",
+      "direction": "negative",
+      "salience": "primary",
+      "confidence": 0.96,
+      "utterance_type": "decision_explanation",
+      "decision_link": "supports_out",
+      "timing": "original_pitch",
+      "turn_index": 65,
+      "quote": "understanding the business model's important",
+      "explanation": "He says he cannot commit while the business model lacks sufficient clarity, while indicating that a well-understood, high-confidence model could support a future investment.",
+      "evidence": [
+        "understanding the business model's important"
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 65,
+          "speaker": "Charles",
+          "quote": "understanding the business model's important"
+        }
+      ],
+      "activation": "evaluated",
+      "source_rationale_id": "R6"
+    }
+  ]
+}

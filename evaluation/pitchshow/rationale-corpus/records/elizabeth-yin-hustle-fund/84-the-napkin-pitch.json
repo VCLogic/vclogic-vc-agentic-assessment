@@ -1,0 +1,849 @@
+{
+  "schema": "phase1-rationale-reference-v1",
+  "extraction_version": "pitchshow-rationales-v1",
+  "fingerprint": "2ce4bebbb1a2f92c401ab99141c9c4ffcf32be6c33a9dedad078b6db8c747ee7",
+  "episode_slug": "84-the-napkin-pitch",
+  "vc_slug": "elizabeth-yin-hustle-fund",
+  "vc_name": "Elizabeth Yin",
+  "actual_decision": "Out",
+  "later_decision": "Unknown",
+  "reference_kind": "automated_transcript_observed_candidate",
+  "human_validated": false,
+  "source_format": "transcript-observed-rationales-v1",
+  "source_path": "/home/dpasch01/vclogic-vc-agentic-assessment/evaluation/pitchshow/investors/elizabeth-yin-hustle-fund/source/episodes/84-the-napkin-pitch.json",
+  "source_sha256": "ef42878ae06dfe12257b201445663bc743b855e35e80ac1332b2be8e6c25cb32",
+  "transcript_sha256": "28f4ac234cebe0732f99dbd51818392cc38510ab199cce1c401fc70edaee4210",
+  "taxonomy_sha256": "eaa8734819a3ac34dd19ee5f0bf6de925a793a1d25a2d361090dafc9b751e1fc",
+  "model": "codex:gpt-5.6-luna+gpt-5.6-sol",
+  "generation_stages": [
+    {
+      "phase": "rationale_extract",
+      "backend": "codex",
+      "model": "gpt-5.6-luna"
+    },
+    {
+      "phase": "rationale_verify",
+      "backend": "codex",
+      "model": "gpt-5.6-sol"
+    }
+  ],
+  "source_tier": "newly_extracted_and_independently_model_reviewed",
+  "reviewed_target_turns": [
+    16,
+    18,
+    31,
+    38,
+    40,
+    52,
+    54,
+    56,
+    58,
+    60,
+    63,
+    66,
+    90,
+    92,
+    94,
+    100,
+    102,
+    125,
+    127,
+    130,
+    132,
+    139,
+    148,
+    150,
+    152,
+    154,
+    156,
+    168,
+    171,
+    173,
+    175,
+    177
+  ],
+  "notes": "All supplied Elizabeth Yin turns were reviewed; non-rationale acknowledgments, fragments, pleasantries, biography, and generic observations about early-stage pitching were omitted.",
+  "receipt_path": "/home/dpasch01/vclogic-vc-agentic-assessment/evaluation/pitchshow/investors/elizabeth-yin-hustle-fund/rationale-references/receipts/84-the-napkin-pitch.json",
+  "scoring_scope": "original_pitch_only",
+  "shared_across_input_modes": true,
+  "rationales": [
+    {
+      "rationale_label": "business_model_assessment",
+      "direction": "neutral",
+      "salience": "secondary",
+      "confidence": 0.99,
+      "utterance_type": "question",
+      "decision_link": "none",
+      "timing": "original_pitch",
+      "turn_index": 63,
+      "quote": "How much are they gonna pay?",
+      "explanation": "She asks about the intended customer pricing.",
+      "evidence": [
+        "How do you make money in this model?",
+        "I would pay some monthly subscription to use this?",
+        "How much are they gonna pay?"
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 58,
+          "speaker": "Elizabeth",
+          "quote": "How do you make money in this model?"
+        },
+        {
+          "turn_index": 60,
+          "speaker": "Elizabeth",
+          "quote": "I would pay some monthly subscription to use this?"
+        },
+        {
+          "turn_index": 63,
+          "speaker": "Elizabeth",
+          "quote": "How much are they gonna pay?"
+        }
+      ],
+      "activation": "queried",
+      "source_rationale_id": "R6",
+      "utterance_kind": "question",
+      "decision_support": "none",
+      "all_mention_ids": [
+        "R4",
+        "R5",
+        "R6"
+      ]
+    },
+    {
+      "rationale_label": "founder_execution",
+      "direction": "negative",
+      "salience": "secondary",
+      "confidence": 0.96,
+      "utterance_type": "assessment",
+      "decision_link": "none",
+      "timing": "original_pitch",
+      "turn_index": 125,
+      "quote": "I would actually recommend that you guys just like step up and own some things.",
+      "explanation": "She indicates that the founders need clearer ownership of core company functions.",
+      "evidence": [
+        "I would actually recommend that you guys just like step up and own some things."
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 125,
+          "speaker": "Elizabeth",
+          "quote": "I would actually recommend that you guys just like step up and own some things."
+        }
+      ],
+      "activation": "evaluated",
+      "source_rationale_id": "R15",
+      "utterance_kind": "assessment",
+      "decision_support": "none",
+      "all_mention_ids": [
+        "R14",
+        "R15"
+      ]
+    },
+    {
+      "rationale_label": "go_to_market_strategy_assessment",
+      "direction": "negative",
+      "salience": "primary",
+      "confidence": 0.99,
+      "utterance_type": "decision_reason",
+      "decision_link": "explicit",
+      "timing": "original_pitch",
+      "turn_index": 94,
+      "quote": "do everything you can to de-risk go to market first, and so I’m going to be a pass.",
+      "explanation": "Elizabeth explicitly links her refusal to the company's insufficiently de-risked go-to-market path.",
+      "evidence": [
+        "the biggest struggle actually has been on the customer acquisition side. Getting people to pay for this.",
+        "do everything you can to de-risk go to market first, and so I’m going to be a pass."
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 90,
+          "speaker": "Elizabeth",
+          "quote": "the biggest struggle actually has been on the customer acquisition side. Getting people to pay for this."
+        },
+        {
+          "turn_index": 94,
+          "speaker": "Elizabeth",
+          "quote": "do everything you can to de-risk go to market first, and so I’m going to be a pass."
+        }
+      ],
+      "activation": "evaluated",
+      "source_rationale_id": "R13",
+      "utterance_kind": "decision_explanation",
+      "decision_support": "supports_out",
+      "all_mention_ids": [
+        "R7",
+        "R10",
+        "R13",
+        "R17"
+      ]
+    },
+    {
+      "rationale_label": "investor_experience_bias",
+      "direction": "negative",
+      "salience": "secondary",
+      "confidence": 0.97,
+      "utterance_type": "assessment",
+      "decision_link": "none",
+      "timing": "original_pitch",
+      "turn_index": 90,
+      "quote": "I’ve actually seen a lot of businesses try and go after this same opportunity",
+      "explanation": "Her assessment is informed by observing other companies pursue the same opportunity.",
+      "evidence": [
+        "I’ve actually seen a lot of businesses try and go after this same opportunity"
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 90,
+          "speaker": "Elizabeth",
+          "quote": "I’ve actually seen a lot of businesses try and go after this same opportunity"
+        }
+      ],
+      "activation": "evaluated",
+      "source_rationale_id": "R8",
+      "utterance_kind": "supporting_argument",
+      "decision_support": "none",
+      "all_mention_ids": [
+        "R8"
+      ]
+    },
+    {
+      "rationale_label": "market_entry_path_assessment",
+      "direction": "positive",
+      "salience": "secondary",
+      "confidence": 0.98,
+      "utterance_type": "assessment",
+      "decision_link": "none",
+      "timing": "original_pitch",
+      "turn_index": 127,
+      "quote": "you guys have a lot of strong relationships with photographers",
+      "explanation": "She views the founders' trusted photographer relationships as an accessible initial customer base.",
+      "evidence": [
+        "you guys have a lot of strong relationships with photographers"
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 127,
+          "speaker": "Elizabeth",
+          "quote": "you guys have a lot of strong relationships with photographers"
+        }
+      ],
+      "activation": "evaluated",
+      "source_rationale_id": "R16",
+      "utterance_kind": "supporting_argument",
+      "decision_support": "none",
+      "all_mention_ids": [
+        "R11",
+        "R12",
+        "R16"
+      ]
+    },
+    {
+      "rationale_label": "market_problem_validation",
+      "direction": "positive",
+      "salience": "primary",
+      "confidence": 0.99,
+      "utterance_type": "assessment",
+      "decision_link": "none",
+      "timing": "original_pitch",
+      "turn_index": 90,
+      "quote": "I fully believe that there’s a big, big problem here.",
+      "explanation": "Elizabeth explicitly validates the importance of the underlying problem.",
+      "evidence": [
+        "I fully believe that there’s a big, big problem here."
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 90,
+          "speaker": "Elizabeth",
+          "quote": "I fully believe that there’s a big, big problem here."
+        }
+      ],
+      "activation": "evaluated",
+      "source_rationale_id": "R9",
+      "utterance_kind": "assessment",
+      "decision_support": "none",
+      "all_mention_ids": [
+        "R9"
+      ]
+    },
+    {
+      "rationale_label": "solution_feasibility_assessment",
+      "direction": "neutral",
+      "salience": "secondary",
+      "confidence": 0.99,
+      "utterance_type": "question",
+      "decision_link": "none",
+      "timing": "original_pitch",
+      "turn_index": 56,
+      "quote": "there isn’t any form of a product built today?",
+      "explanation": "She verifies whether any working product currently exists.",
+      "evidence": [
+        "So you're saying of we took a screenshot of that, we would see a picture that has, like...",
+        "Where are you in terms of your development?",
+        "there isn’t any form of a product built today?"
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 38,
+          "speaker": "Elizabeth",
+          "quote": "So you're saying of we took a screenshot of that, we would see a picture that has, like..."
+        },
+        {
+          "turn_index": 54,
+          "speaker": "Elizabeth",
+          "quote": "Where are you in terms of your development?"
+        },
+        {
+          "turn_index": 56,
+          "speaker": "Elizabeth",
+          "quote": "there isn’t any form of a product built today?"
+        }
+      ],
+      "activation": "queried",
+      "source_rationale_id": "R3",
+      "utterance_kind": "question",
+      "decision_support": "none",
+      "all_mention_ids": [
+        "R1",
+        "R2",
+        "R3"
+      ]
+    }
+  ],
+  "later_rationales": [
+    {
+      "rationale_label": "market_entry_path_assessment",
+      "direction": "negative",
+      "salience": "primary",
+      "confidence": 0.99,
+      "utterance_type": "assessment",
+      "decision_link": "none",
+      "timing": "later_commentary",
+      "turn_index": 168,
+      "quote": "So really understanding, I think even at a detailed level of who is the niche within those larger groups? And that was something that Tiffany could not articulate, or at least she didn't.",
+      "explanation": "Elizabeth says the founder failed to identify and explain a sufficiently specific initial customer niche.",
+      "evidence": [
+        "So really understanding, I think even at a detailed level of who is the niche within those larger groups? And that was something that Tiffany could not articulate, or at least she didn't."
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 168,
+          "speaker": "Elizabeth",
+          "quote": "So really understanding, I think even at a detailed level of who is the niche within those larger groups? And that was something that Tiffany could not articulate, or at least she didn't."
+        }
+      ],
+      "activation": "evaluated",
+      "source_rationale_id": "R18"
+    },
+    {
+      "rationale_label": "market_problem_validation",
+      "direction": "negative",
+      "salience": "primary",
+      "confidence": 0.99,
+      "utterance_type": "assessment",
+      "decision_link": "none",
+      "timing": "later_commentary",
+      "turn_index": 171,
+      "quote": "I'm not actually convinced that this is a real need.",
+      "explanation": "She states that the underlying customer need remained unvalidated.",
+      "evidence": [
+        "I'm not actually convinced that this is a real need."
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 171,
+          "speaker": "Elizabeth",
+          "quote": "I'm not actually convinced that this is a real need."
+        }
+      ],
+      "activation": "evaluated",
+      "source_rationale_id": "R19"
+    },
+    {
+      "rationale_label": "market_problem_validation",
+      "direction": "negative",
+      "salience": "primary",
+      "confidence": 0.99,
+      "utterance_type": "concern",
+      "decision_link": "none",
+      "timing": "later_commentary",
+      "turn_index": 173,
+      "quote": "Her product doesn’t go up against an incumbent. So to me, there is a big market risk here that people will not pay for this.",
+      "explanation": "She sees substantial demand risk because there is no incumbent demonstrating that customers already pay for this solution.",
+      "evidence": [
+        "Her product doesn’t go up against an incumbent. So to me, there is a big market risk here that people will not pay for this."
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 173,
+          "speaker": "Elizabeth",
+          "quote": "Her product doesn’t go up against an incumbent. So to me, there is a big market risk here that people will not pay for this."
+        }
+      ],
+      "activation": "evaluated",
+      "source_rationale_id": "R20"
+    },
+    {
+      "rationale_label": "founder_coachability_assessment",
+      "direction": "negative",
+      "salience": "primary",
+      "confidence": 0.98,
+      "utterance_type": "assessment",
+      "decision_link": "none",
+      "timing": "later_commentary",
+      "turn_index": 175,
+      "quote": "But I didn't get the sense from her response that that was something she wanted to do.",
+      "explanation": "Elizabeth perceived Tiffany as insufficiently receptive to correcting course through customer development and follow-up evidence.",
+      "evidence": [
+        "But I didn't get the sense from her response that that was something she wanted to do."
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 175,
+          "speaker": "Elizabeth",
+          "quote": "But I didn't get the sense from her response that that was something she wanted to do."
+        }
+      ],
+      "activation": "evaluated",
+      "source_rationale_id": "R21"
+    },
+    {
+      "rationale_label": "founder_coachability_assessment",
+      "direction": "negative",
+      "salience": "secondary",
+      "confidence": 0.99,
+      "utterance_type": "assessment",
+      "decision_link": "none",
+      "timing": "later_commentary",
+      "turn_index": 177,
+      "quote": "And she didn't come back and do that.",
+      "explanation": "She notes that Tiffany did not subsequently act on the feedback and return with customer validation.",
+      "evidence": [
+        "And she didn't come back and do that."
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 177,
+          "speaker": "Elizabeth",
+          "quote": "And she didn't come back and do that."
+        }
+      ],
+      "activation": "evaluated",
+      "source_rationale_id": "R22"
+    }
+  ],
+  "excluded_rationales": [],
+  "rationale_mentions": [
+    {
+      "rationale_label": "solution_feasibility_assessment",
+      "direction": "neutral",
+      "salience": "secondary",
+      "confidence": 0.98,
+      "utterance_type": "question",
+      "decision_link": "none",
+      "timing": "original_pitch",
+      "turn_index": 38,
+      "quote": "So you're saying of we took a screenshot of that, we would see a picture that has, like...",
+      "explanation": "Elizabeth seeks clarification about how the proposed technology would behave after a screenshot.",
+      "evidence": [
+        "So you're saying of we took a screenshot of that, we would see a picture that has, like..."
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 38,
+          "speaker": "Elizabeth",
+          "quote": "So you're saying of we took a screenshot of that, we would see a picture that has, like..."
+        }
+      ],
+      "activation": "queried",
+      "source_rationale_id": "R1"
+    },
+    {
+      "rationale_label": "solution_feasibility_assessment",
+      "direction": "neutral",
+      "salience": "secondary",
+      "confidence": 0.99,
+      "utterance_type": "question",
+      "decision_link": "none",
+      "timing": "original_pitch",
+      "turn_index": 54,
+      "quote": "Where are you in terms of your development?",
+      "explanation": "She asks how far product development has progressed.",
+      "evidence": [
+        "Where are you in terms of your development?"
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 54,
+          "speaker": "Elizabeth",
+          "quote": "Where are you in terms of your development?"
+        }
+      ],
+      "activation": "queried",
+      "source_rationale_id": "R2"
+    },
+    {
+      "rationale_label": "solution_feasibility_assessment",
+      "direction": "neutral",
+      "salience": "secondary",
+      "confidence": 0.99,
+      "utterance_type": "question",
+      "decision_link": "none",
+      "timing": "original_pitch",
+      "turn_index": 56,
+      "quote": "there isn’t any form of a product built today?",
+      "explanation": "She verifies whether any working product currently exists.",
+      "evidence": [
+        "there isn’t any form of a product built today?"
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 56,
+          "speaker": "Elizabeth",
+          "quote": "there isn’t any form of a product built today?"
+        }
+      ],
+      "activation": "queried",
+      "source_rationale_id": "R3"
+    },
+    {
+      "rationale_label": "business_model_assessment",
+      "direction": "neutral",
+      "salience": "secondary",
+      "confidence": 0.99,
+      "utterance_type": "question",
+      "decision_link": "none",
+      "timing": "original_pitch",
+      "turn_index": 58,
+      "quote": "How do you make money in this model?",
+      "explanation": "She asks how the company intends to generate revenue.",
+      "evidence": [
+        "How do you make money in this model?"
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 58,
+          "speaker": "Elizabeth",
+          "quote": "How do you make money in this model?"
+        }
+      ],
+      "activation": "queried",
+      "source_rationale_id": "R4"
+    },
+    {
+      "rationale_label": "business_model_assessment",
+      "direction": "neutral",
+      "salience": "secondary",
+      "confidence": 0.99,
+      "utterance_type": "question",
+      "decision_link": "none",
+      "timing": "original_pitch",
+      "turn_index": 60,
+      "quote": "I would pay some monthly subscription to use this?",
+      "explanation": "She tests whether photographers would pay through a subscription model.",
+      "evidence": [
+        "I would pay some monthly subscription to use this?"
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 60,
+          "speaker": "Elizabeth",
+          "quote": "I would pay some monthly subscription to use this?"
+        }
+      ],
+      "activation": "queried",
+      "source_rationale_id": "R5"
+    },
+    {
+      "rationale_label": "business_model_assessment",
+      "direction": "neutral",
+      "salience": "secondary",
+      "confidence": 0.99,
+      "utterance_type": "question",
+      "decision_link": "none",
+      "timing": "original_pitch",
+      "turn_index": 63,
+      "quote": "How much are they gonna pay?",
+      "explanation": "She asks about the intended customer pricing.",
+      "evidence": [
+        "How much are they gonna pay?"
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 63,
+          "speaker": "Elizabeth",
+          "quote": "How much are they gonna pay?"
+        }
+      ],
+      "activation": "queried",
+      "source_rationale_id": "R6"
+    },
+    {
+      "rationale_label": "go_to_market_strategy_assessment",
+      "direction": "neutral",
+      "salience": "secondary",
+      "confidence": 0.98,
+      "utterance_type": "question",
+      "decision_link": "none",
+      "timing": "original_pitch",
+      "turn_index": 66,
+      "quote": "are you guys actively selling ah this product?",
+      "explanation": "She asks whether the founders have begun a sales motion.",
+      "evidence": [
+        "are you guys actively selling ah this product?"
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 66,
+          "speaker": "Elizabeth",
+          "quote": "are you guys actively selling ah this product?"
+        }
+      ],
+      "activation": "queried",
+      "source_rationale_id": "R7"
+    },
+    {
+      "rationale_label": "investor_experience_bias",
+      "direction": "negative",
+      "salience": "secondary",
+      "confidence": 0.97,
+      "utterance_type": "supporting_argument",
+      "decision_link": "none",
+      "timing": "original_pitch",
+      "turn_index": 90,
+      "quote": "I’ve actually seen a lot of businesses try and go after this same opportunity",
+      "explanation": "Her assessment is informed by observing other companies pursue the same opportunity.",
+      "evidence": [
+        "I’ve actually seen a lot of businesses try and go after this same opportunity"
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 90,
+          "speaker": "Elizabeth",
+          "quote": "I’ve actually seen a lot of businesses try and go after this same opportunity"
+        }
+      ],
+      "activation": "evaluated",
+      "source_rationale_id": "R8"
+    },
+    {
+      "rationale_label": "market_problem_validation",
+      "direction": "positive",
+      "salience": "primary",
+      "confidence": 0.99,
+      "utterance_type": "assessment",
+      "decision_link": "none",
+      "timing": "original_pitch",
+      "turn_index": 90,
+      "quote": "I fully believe that there’s a big, big problem here.",
+      "explanation": "Elizabeth explicitly validates the importance of the underlying problem.",
+      "evidence": [
+        "I fully believe that there’s a big, big problem here."
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 90,
+          "speaker": "Elizabeth",
+          "quote": "I fully believe that there’s a big, big problem here."
+        }
+      ],
+      "activation": "evaluated",
+      "source_rationale_id": "R9"
+    },
+    {
+      "rationale_label": "go_to_market_strategy_assessment",
+      "direction": "negative",
+      "salience": "primary",
+      "confidence": 0.99,
+      "utterance_type": "concern",
+      "decision_link": "none",
+      "timing": "original_pitch",
+      "turn_index": 90,
+      "quote": "the biggest struggle actually has been on the customer acquisition side. Getting people to pay for this.",
+      "explanation": "She identifies acquiring paying customers as the opportunity's principal challenge.",
+      "evidence": [
+        "the biggest struggle actually has been on the customer acquisition side. Getting people to pay for this."
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 90,
+          "speaker": "Elizabeth",
+          "quote": "the biggest struggle actually has been on the customer acquisition side. Getting people to pay for this."
+        }
+      ],
+      "activation": "evaluated",
+      "source_rationale_id": "R10"
+    },
+    {
+      "rationale_label": "market_entry_path_assessment",
+      "direction": "neutral",
+      "salience": "secondary",
+      "confidence": 0.96,
+      "utterance_type": "question",
+      "decision_link": "none",
+      "timing": "original_pitch",
+      "turn_index": 90,
+      "quote": "You have a community of photographers who are in your network, can you pre-sell some of this?",
+      "explanation": "She proposes testing the founders' photographer network as an initial customer segment.",
+      "evidence": [
+        "You have a community of photographers who are in your network, can you pre-sell some of this?"
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 90,
+          "speaker": "Elizabeth",
+          "quote": "You have a community of photographers who are in your network, can you pre-sell some of this?"
+        }
+      ],
+      "activation": "queried",
+      "source_rationale_id": "R11"
+    },
+    {
+      "rationale_label": "market_entry_path_assessment",
+      "direction": "neutral",
+      "salience": "secondary",
+      "confidence": 0.97,
+      "utterance_type": "assessment",
+      "decision_link": "none",
+      "timing": "original_pitch",
+      "turn_index": 92,
+      "quote": "from there you can then later sell to enterprises, if that looks promising.",
+      "explanation": "She describes photographers as a possible wedge before an enterprise expansion.",
+      "evidence": [
+        "from there you can then later sell to enterprises, if that looks promising."
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 92,
+          "speaker": "Elizabeth",
+          "quote": "from there you can then later sell to enterprises, if that looks promising."
+        }
+      ],
+      "activation": "evaluated",
+      "source_rationale_id": "R12"
+    },
+    {
+      "rationale_label": "go_to_market_strategy_assessment",
+      "direction": "negative",
+      "salience": "primary",
+      "confidence": 0.99,
+      "utterance_type": "decision_explanation",
+      "decision_link": "supports_out",
+      "timing": "original_pitch",
+      "turn_index": 94,
+      "quote": "do everything you can to de-risk go to market first, and so I’m going to be a pass.",
+      "explanation": "Elizabeth explicitly links her refusal to the company's insufficiently de-risked go-to-market path.",
+      "evidence": [
+        "do everything you can to de-risk go to market first, and so I’m going to be a pass."
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 94,
+          "speaker": "Elizabeth",
+          "quote": "do everything you can to de-risk go to market first, and so I’m going to be a pass."
+        }
+      ],
+      "activation": "evaluated",
+      "source_rationale_id": "R13"
+    },
+    {
+      "rationale_label": "founder_execution",
+      "direction": "neutral",
+      "salience": "secondary",
+      "confidence": 0.96,
+      "utterance_type": "question",
+      "decision_link": "none",
+      "timing": "original_pitch",
+      "turn_index": 102,
+      "quote": "what is that the three of you as co-founders are working on?",
+      "explanation": "She probes the founders' operational responsibilities given the presence of developers and an external CEO.",
+      "evidence": [
+        "what is that the three of you as co-founders are working on?"
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 102,
+          "speaker": "Elizabeth",
+          "quote": "what is that the three of you as co-founders are working on?"
+        }
+      ],
+      "activation": "queried",
+      "source_rationale_id": "R14"
+    },
+    {
+      "rationale_label": "founder_execution",
+      "direction": "negative",
+      "salience": "secondary",
+      "confidence": 0.96,
+      "utterance_type": "assessment",
+      "decision_link": "none",
+      "timing": "original_pitch",
+      "turn_index": 125,
+      "quote": "I would actually recommend that you guys just like step up and own some things.",
+      "explanation": "She indicates that the founders need clearer ownership of core company functions.",
+      "evidence": [
+        "I would actually recommend that you guys just like step up and own some things."
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 125,
+          "speaker": "Elizabeth",
+          "quote": "I would actually recommend that you guys just like step up and own some things."
+        }
+      ],
+      "activation": "evaluated",
+      "source_rationale_id": "R15"
+    },
+    {
+      "rationale_label": "market_entry_path_assessment",
+      "direction": "positive",
+      "salience": "secondary",
+      "confidence": 0.98,
+      "utterance_type": "supporting_argument",
+      "decision_link": "none",
+      "timing": "original_pitch",
+      "turn_index": 127,
+      "quote": "you guys have a lot of strong relationships with photographers",
+      "explanation": "She views the founders' trusted photographer relationships as an accessible initial customer base.",
+      "evidence": [
+        "you guys have a lot of strong relationships with photographers"
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 127,
+          "speaker": "Elizabeth",
+          "quote": "you guys have a lot of strong relationships with photographers"
+        }
+      ],
+      "activation": "evaluated",
+      "source_rationale_id": "R16"
+    },
+    {
+      "rationale_label": "go_to_market_strategy_assessment",
+      "direction": "neutral",
+      "salience": "secondary",
+      "confidence": 0.98,
+      "utterance_type": "assessment",
+      "decision_link": "none",
+      "timing": "original_pitch",
+      "turn_index": 132,
+      "quote": "start charging today, pre-product. Or get them on a waitlist.",
+      "explanation": "She recommends validating demand immediately through pre-sales or a waitlist.",
+      "evidence": [
+        "start charging today, pre-product. Or get them on a waitlist."
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 132,
+          "speaker": "Elizabeth",
+          "quote": "start charging today, pre-product. Or get them on a waitlist."
+        }
+      ],
+      "activation": "evaluated",
+      "source_rationale_id": "R17"
+    }
+  ],
+  "expanded_quote_evidence": [],
+  "rejected_after_evidence_check": []
+}

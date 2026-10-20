@@ -1,0 +1,649 @@
+{
+  "schema": "phase1-rationale-reference-v1",
+  "extraction_version": "pitchshow-rationales-v1",
+  "fingerprint": "82ed7c00177bee1f4c40b81dead8b031441a03c4d398db0d593d8d4ef5acd59e",
+  "episode_slug": "120-bevz-a-tech-bro-walks-into-a-corner-store",
+  "vc_slug": "charles-hudson-precursor-ventures",
+  "vc_name": "Charles Hudson",
+  "actual_decision": "Out",
+  "later_decision": "Out",
+  "reference_kind": "automated_transcript_observed_candidate",
+  "human_validated": false,
+  "source_format": "transcript-observed-rationales-v1",
+  "source_path": "/home/dpasch01/vclogic-vc-agentic-assessment/evaluation/pitchshow/investors/charles-hudson-precursor-ventures/source/episodes/120-bevz-a-tech-bro-walks-into-a-corner-store.json",
+  "source_sha256": "9bbaa6adb3ad08d489b210a4b8a1e3682e72544bc3ba0930b0aa9f40aafc607c",
+  "transcript_sha256": "6f48fd0d8c48587ee1b54e2ef2c7514ec2e3ebc1d9b155bb4318b0240bbc0ff3",
+  "taxonomy_sha256": "eaa8734819a3ac34dd19ee5f0bf6de925a793a1d25a2d361090dafc9b751e1fc",
+  "model": "openai/gpt-5.6-luna",
+  "source_tier": "newly_extracted_and_independently_model_reviewed",
+  "reviewed_target_turns": [
+    1,
+    6,
+    12,
+    14,
+    40,
+    48,
+    50,
+    52,
+    55,
+    57,
+    59,
+    61,
+    69,
+    73,
+    76,
+    78,
+    80,
+    82,
+    84,
+    86,
+    88,
+    90,
+    112,
+    115,
+    117,
+    121,
+    126,
+    130,
+    133,
+    135
+  ],
+  "notes": "Reviewed every supplied target turn; non-rationale turns were omitted from the rationale list.",
+  "receipt_path": "/home/dpasch01/vclogic-vc-agentic-assessment/evaluation/pitchshow/investors/charles-hudson-precursor-ventures/rationale-references/receipts/120-bevz-a-tech-bro-walks-into-a-corner-store.json",
+  "scoring_scope": "original_pitch_only",
+  "shared_across_input_modes": true,
+  "rationales": [
+    {
+      "rationale_label": "capital_intensity_concern",
+      "direction": "negative",
+      "salience": "primary",
+      "confidence": 0.98,
+      "utterance_type": "decision_reason",
+      "decision_link": "explicit",
+      "timing": "original_pitch",
+      "turn_index": 80,
+      "quote": "what I think the business is gonna need on the capital side",
+      "explanation": "Charles expects the business to require substantial additional capital, increasing the risk associated with the current ownership structure.",
+      "evidence": [
+        "what I think the business is gonna need on the capital side"
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 80,
+          "speaker": "Charles",
+          "quote": "what I think the business is gonna need on the capital side"
+        }
+      ],
+      "activation": "evaluated",
+      "source_rationale_id": "R8",
+      "utterance_kind": "decision_explanation",
+      "decision_support": "supports_out",
+      "all_mention_ids": [
+        "R8"
+      ]
+    },
+    {
+      "rationale_label": "decision_context_constraint",
+      "direction": "neutral",
+      "salience": "secondary",
+      "confidence": 0.9,
+      "utterance_type": "decision_reason",
+      "decision_link": "none",
+      "timing": "original_pitch",
+      "turn_index": 115,
+      "quote": "Especially given what you have left.",
+      "explanation": "Charles explains the proposed check size partly by the remaining amount in the company’s round.",
+      "evidence": [
+        "Especially given what you have left."
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 115,
+          "speaker": "Charles",
+          "quote": "Especially given what you have left."
+        }
+      ],
+      "activation": "evaluated",
+      "source_rationale_id": "R13",
+      "utterance_kind": "decision_explanation",
+      "decision_support": "none",
+      "all_mention_ids": [
+        "R13"
+      ]
+    },
+    {
+      "rationale_label": "dilution_concern",
+      "direction": "negative",
+      "salience": "secondary",
+      "confidence": 0.98,
+      "utterance_type": "assessment",
+      "decision_link": "explicit",
+      "timing": "original_pitch",
+      "turn_index": 126,
+      "quote": "cos he's gonna get more dilution",
+      "explanation": "Charles expects future fundraising to further dilute the founder, reinforcing his ownership concern.",
+      "evidence": [
+        "cos he's gonna get more dilution"
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 126,
+          "speaker": "Charles",
+          "quote": "cos he's gonna get more dilution"
+        }
+      ],
+      "activation": "evaluated",
+      "source_rationale_id": "R14",
+      "utterance_kind": "supporting_argument",
+      "decision_support": "supports_out",
+      "all_mention_ids": [
+        "R14"
+      ]
+    },
+    {
+      "rationale_label": "founder_communication_quality",
+      "direction": "positive",
+      "salience": "secondary",
+      "confidence": 0.96,
+      "utterance_type": "assessment",
+      "decision_link": "none",
+      "timing": "original_pitch",
+      "turn_index": 78,
+      "quote": "your command of the business",
+      "explanation": "Charles positively assesses the founder’s command of the business, separate from his cap-table objection.",
+      "evidence": [
+        "Super complete answer.",
+        "level of honesty and detail",
+        "your command of the business"
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 61,
+          "speaker": "Charles",
+          "quote": "Super complete answer."
+        },
+        {
+          "turn_index": 76,
+          "speaker": "Charles",
+          "quote": "level of honesty and detail"
+        },
+        {
+          "turn_index": 78,
+          "speaker": "Charles",
+          "quote": "your command of the business"
+        }
+      ],
+      "activation": "evaluated",
+      "source_rationale_id": "R5",
+      "utterance_kind": "assessment",
+      "decision_support": "none",
+      "all_mention_ids": [
+        "R3",
+        "R4",
+        "R5"
+      ]
+    },
+    {
+      "rationale_label": "founder_equity_incentive_alignment",
+      "direction": "positive",
+      "salience": "primary",
+      "confidence": 0.99,
+      "utterance_type": "decision_reason",
+      "decision_link": "explicit",
+      "timing": "original_pitch",
+      "turn_index": 133,
+      "quote": "I'd probably do it at 20.",
+      "explanation": "Charles indicates he would likely invest if the founder’s ownership were increased to roughly 20 percent.",
+      "evidence": [
+        "that adjustment would change my decision",
+        "I'd probably do it at 20."
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 90,
+          "speaker": "Charles",
+          "quote": "that adjustment would change my decision"
+        },
+        {
+          "turn_index": 133,
+          "speaker": "Charles",
+          "quote": "I'd probably do it at 20."
+        }
+      ],
+      "activation": "evaluated",
+      "source_rationale_id": "R16",
+      "utterance_kind": "decision_explanation",
+      "decision_support": "supports_in",
+      "all_mention_ids": [
+        "R6",
+        "R7",
+        "R10",
+        "R11",
+        "R12",
+        "R15",
+        "R16"
+      ]
+    },
+    {
+      "rationale_label": "go_to_market_strategy_assessment",
+      "direction": "negative",
+      "salience": "secondary",
+      "confidence": 0.95,
+      "utterance_type": "decision_reason",
+      "decision_link": "explicit",
+      "timing": "original_pitch",
+      "turn_index": 82,
+      "quote": "what it's gonna take in the intermediate period to get your customers on board",
+      "explanation": "Charles believes the near-term customer-acquisition effort will be substantial and resource-intensive.",
+      "evidence": [
+        "what it's gonna take in the intermediate period to get your customers on board"
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 82,
+          "speaker": "Charles",
+          "quote": "what it's gonna take in the intermediate period to get your customers on board"
+        }
+      ],
+      "activation": "evaluated",
+      "source_rationale_id": "R9",
+      "utterance_kind": "decision_explanation",
+      "decision_support": "supports_out",
+      "all_mention_ids": [
+        "R1",
+        "R2",
+        "R9"
+      ]
+    }
+  ],
+  "later_rationales": [],
+  "excluded_rationales": [],
+  "rationale_mentions": [
+    {
+      "rationale_label": "go_to_market_strategy_assessment",
+      "direction": "neutral",
+      "salience": "secondary",
+      "confidence": 0.99,
+      "utterance_type": "question",
+      "decision_link": "none",
+      "timing": "original_pitch",
+      "turn_index": 50,
+      "quote": "it's sales is still gonna be like the primary customer acquisition vector?",
+      "explanation": "Charles asks whether the company can eventually move beyond its current sales-led customer acquisition motion.",
+      "evidence": [
+        "it's sales is still gonna be like the primary customer acquisition vector?"
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 50,
+          "speaker": "Charles",
+          "quote": "it's sales is still gonna be like the primary customer acquisition vector?"
+        }
+      ],
+      "activation": "queried",
+      "source_rationale_id": "R1"
+    },
+    {
+      "rationale_label": "go_to_market_strategy_assessment",
+      "direction": "neutral",
+      "salience": "secondary",
+      "confidence": 0.98,
+      "utterance_type": "question",
+      "decision_link": "none",
+      "timing": "original_pitch",
+      "turn_index": 55,
+      "quote": "Is that sales motion any different?",
+      "explanation": "Charles asks whether selling to independent stores and small chains requires different sales motions.",
+      "evidence": [
+        "Is that sales motion any different?"
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 55,
+          "speaker": "Charles",
+          "quote": "Is that sales motion any different?"
+        }
+      ],
+      "activation": "queried",
+      "source_rationale_id": "R2"
+    },
+    {
+      "rationale_label": "founder_communication_quality",
+      "direction": "positive",
+      "salience": "secondary",
+      "confidence": 0.96,
+      "utterance_type": "assessment",
+      "decision_link": "none",
+      "timing": "original_pitch",
+      "turn_index": 61,
+      "quote": "Super complete answer.",
+      "explanation": "Charles positively assesses the completeness of the founder’s response.",
+      "evidence": [
+        "Super complete answer."
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 61,
+          "speaker": "Charles",
+          "quote": "Super complete answer."
+        }
+      ],
+      "activation": "evaluated",
+      "source_rationale_id": "R3"
+    },
+    {
+      "rationale_label": "founder_communication_quality",
+      "direction": "positive",
+      "salience": "secondary",
+      "confidence": 0.99,
+      "utterance_type": "assessment",
+      "decision_link": "none",
+      "timing": "original_pitch",
+      "turn_index": 76,
+      "quote": "level of honesty and detail",
+      "explanation": "Charles praises the founder’s unusually detailed and candid explanation of the business.",
+      "evidence": [
+        "level of honesty and detail"
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 76,
+          "speaker": "Charles",
+          "quote": "level of honesty and detail"
+        }
+      ],
+      "activation": "evaluated",
+      "source_rationale_id": "R4"
+    },
+    {
+      "rationale_label": "founder_communication_quality",
+      "direction": "positive",
+      "salience": "secondary",
+      "confidence": 0.96,
+      "utterance_type": "assessment",
+      "decision_link": "none",
+      "timing": "original_pitch",
+      "turn_index": 78,
+      "quote": "your command of the business",
+      "explanation": "Charles positively assesses the founder’s command of the business, separate from his cap-table objection.",
+      "evidence": [
+        "your command of the business"
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 78,
+          "speaker": "Charles",
+          "quote": "your command of the business"
+        }
+      ],
+      "activation": "evaluated",
+      "source_rationale_id": "R5"
+    },
+    {
+      "rationale_label": "founder_equity_incentive_alignment",
+      "direction": "negative",
+      "salience": "primary",
+      "confidence": 0.99,
+      "utterance_type": "decision_explanation",
+      "decision_link": "supports_out",
+      "timing": "original_pitch",
+      "turn_index": 78,
+      "quote": "I think I visibly winced when I heard about the cap table.",
+      "explanation": "Charles identifies the cap table as a major reason he is declining to invest.",
+      "evidence": [
+        "I think I visibly winced when I heard about the cap table."
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 78,
+          "speaker": "Charles",
+          "quote": "I think I visibly winced when I heard about the cap table."
+        }
+      ],
+      "activation": "evaluated",
+      "source_rationale_id": "R6"
+    },
+    {
+      "rationale_label": "founder_equity_incentive_alignment",
+      "direction": "negative",
+      "salience": "primary",
+      "confidence": 0.99,
+      "utterance_type": "decision_explanation",
+      "decision_link": "supports_out",
+      "timing": "original_pitch",
+      "turn_index": 80,
+      "quote": "amount of ownership combined with what I think the business is gonna need on the capital side",
+      "explanation": "Charles is concerned that the founder’s ownership is too low relative to the capital the business will require.",
+      "evidence": [
+        "amount of ownership combined with what I think the business is gonna need on the capital side"
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 80,
+          "speaker": "Charles",
+          "quote": "amount of ownership combined with what I think the business is gonna need on the capital side"
+        }
+      ],
+      "activation": "evaluated",
+      "source_rationale_id": "R7"
+    },
+    {
+      "rationale_label": "capital_intensity_concern",
+      "direction": "negative",
+      "salience": "primary",
+      "confidence": 0.98,
+      "utterance_type": "decision_explanation",
+      "decision_link": "supports_out",
+      "timing": "original_pitch",
+      "turn_index": 80,
+      "quote": "what I think the business is gonna need on the capital side",
+      "explanation": "Charles expects the business to require substantial additional capital, increasing the risk associated with the current ownership structure.",
+      "evidence": [
+        "what I think the business is gonna need on the capital side"
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 80,
+          "speaker": "Charles",
+          "quote": "what I think the business is gonna need on the capital side"
+        }
+      ],
+      "activation": "evaluated",
+      "source_rationale_id": "R8"
+    },
+    {
+      "rationale_label": "go_to_market_strategy_assessment",
+      "direction": "negative",
+      "salience": "secondary",
+      "confidence": 0.95,
+      "utterance_type": "decision_explanation",
+      "decision_link": "supports_out",
+      "timing": "original_pitch",
+      "turn_index": 82,
+      "quote": "what it's gonna take in the intermediate period to get your customers on board",
+      "explanation": "Charles believes the near-term customer-acquisition effort will be substantial and resource-intensive.",
+      "evidence": [
+        "what it's gonna take in the intermediate period to get your customers on board"
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 82,
+          "speaker": "Charles",
+          "quote": "what it's gonna take in the intermediate period to get your customers on board"
+        }
+      ],
+      "activation": "evaluated",
+      "source_rationale_id": "R9"
+    },
+    {
+      "rationale_label": "founder_equity_incentive_alignment",
+      "direction": "negative",
+      "salience": "primary",
+      "confidence": 0.99,
+      "utterance_type": "decision_explanation",
+      "decision_link": "supports_out",
+      "timing": "original_pitch",
+      "turn_index": 82,
+      "quote": "given the current level of ownership",
+      "explanation": "Charles worries that the founder’s current ownership will not fairly reward the effort required to build the company.",
+      "evidence": [
+        "given the current level of ownership"
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 82,
+          "speaker": "Charles",
+          "quote": "given the current level of ownership"
+        }
+      ],
+      "activation": "evaluated",
+      "source_rationale_id": "R10"
+    },
+    {
+      "rationale_label": "founder_equity_incentive_alignment",
+      "direction": "neutral",
+      "salience": "secondary",
+      "confidence": 0.97,
+      "utterance_type": "supporting_argument",
+      "decision_link": "none",
+      "timing": "original_pitch",
+      "turn_index": 88,
+      "quote": "Victor put in real money.",
+      "explanation": "Charles notes that any ownership adjustment must account for the cofounder’s actual cash contribution.",
+      "evidence": [
+        "Victor put in real money."
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 88,
+          "speaker": "Charles",
+          "quote": "Victor put in real money."
+        }
+      ],
+      "activation": "evaluated",
+      "source_rationale_id": "R11"
+    },
+    {
+      "rationale_label": "founder_equity_incentive_alignment",
+      "direction": "positive",
+      "salience": "primary",
+      "confidence": 0.99,
+      "utterance_type": "decision_explanation",
+      "decision_link": "supports_in",
+      "timing": "original_pitch",
+      "turn_index": 90,
+      "quote": "that adjustment would change my decision",
+      "explanation": "Charles explicitly says that improving the ownership balance could change his investment decision.",
+      "evidence": [
+        "that adjustment would change my decision"
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 90,
+          "speaker": "Charles",
+          "quote": "that adjustment would change my decision"
+        }
+      ],
+      "activation": "evaluated",
+      "source_rationale_id": "R12"
+    },
+    {
+      "rationale_label": "decision_context_constraint",
+      "direction": "neutral",
+      "salience": "secondary",
+      "confidence": 0.9,
+      "utterance_type": "decision_explanation",
+      "decision_link": "none",
+      "timing": "original_pitch",
+      "turn_index": 115,
+      "quote": "Especially given what you have left.",
+      "explanation": "Charles explains the proposed check size partly by the remaining amount in the company’s round.",
+      "evidence": [
+        "Especially given what you have left."
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 115,
+          "speaker": "Charles",
+          "quote": "Especially given what you have left."
+        }
+      ],
+      "activation": "evaluated",
+      "source_rationale_id": "R13"
+    },
+    {
+      "rationale_label": "dilution_concern",
+      "direction": "negative",
+      "salience": "secondary",
+      "confidence": 0.98,
+      "utterance_type": "supporting_argument",
+      "decision_link": "supports_out",
+      "timing": "original_pitch",
+      "turn_index": 126,
+      "quote": "cos he's gonna get more dilution",
+      "explanation": "Charles expects future fundraising to further dilute the founder, reinforcing his ownership concern.",
+      "evidence": [
+        "cos he's gonna get more dilution"
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 126,
+          "speaker": "Charles",
+          "quote": "cos he's gonna get more dilution"
+        }
+      ],
+      "activation": "evaluated",
+      "source_rationale_id": "R14"
+    },
+    {
+      "rationale_label": "founder_equity_incentive_alignment",
+      "direction": "neutral",
+      "salience": "secondary",
+      "confidence": 0.97,
+      "utterance_type": "supporting_argument",
+      "decision_link": "none",
+      "timing": "original_pitch",
+      "turn_index": 130,
+      "quote": "that was a real sacrifice and I think that has to be respected.",
+      "explanation": "Charles says the cofounder’s meaningful financial sacrifice should be respected when considering an ownership adjustment.",
+      "evidence": [
+        "that was a real sacrifice and I think that has to be respected."
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 130,
+          "speaker": "Charles",
+          "quote": "that was a real sacrifice and I think that has to be respected."
+        }
+      ],
+      "activation": "evaluated",
+      "source_rationale_id": "R15"
+    },
+    {
+      "rationale_label": "founder_equity_incentive_alignment",
+      "direction": "positive",
+      "salience": "primary",
+      "confidence": 0.99,
+      "utterance_type": "decision_explanation",
+      "decision_link": "supports_in",
+      "timing": "original_pitch",
+      "turn_index": 133,
+      "quote": "I'd probably do it at 20.",
+      "explanation": "Charles indicates he would likely invest if the founder’s ownership were increased to roughly 20 percent.",
+      "evidence": [
+        "I'd probably do it at 20."
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 133,
+          "speaker": "Charles",
+          "quote": "I'd probably do it at 20."
+        }
+      ],
+      "activation": "evaluated",
+      "source_rationale_id": "R16"
+    }
+  ],
+  "expanded_quote_evidence": [],
+  "rejected_after_evidence_check": []
+}

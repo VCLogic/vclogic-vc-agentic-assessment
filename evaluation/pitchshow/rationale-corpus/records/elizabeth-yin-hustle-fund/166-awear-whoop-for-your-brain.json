@@ -1,0 +1,1090 @@
+{
+  "schema": "phase1-rationale-reference-v1",
+  "extraction_version": "pitchshow-rationales-v1",
+  "fingerprint": "04068b0d4a411ddd1179b03f3265e30891438e9370a0f4d90840ac6db3607045",
+  "episode_slug": "166-awear-whoop-for-your-brain",
+  "vc_slug": "elizabeth-yin-hustle-fund",
+  "vc_name": "Elizabeth Yin",
+  "actual_decision": "In",
+  "later_decision": "In",
+  "reference_kind": "automated_transcript_observed_candidate",
+  "human_validated": false,
+  "source_format": "transcript-observed-rationales-v1",
+  "source_path": "/home/dpasch01/vclogic-vc-agentic-assessment/evaluation/pitchshow/investors/elizabeth-yin-hustle-fund/source/episodes/166-awear-whoop-for-your-brain.json",
+  "source_sha256": "53066ffe4cfb5a24a2dc00c3a4823798bb28d1bc2737907b3911eff4f361c72e",
+  "transcript_sha256": "f5e74d7eee449c8b24694016008f2fa00267f2a5e3c98587c54ca39a58e8912e",
+  "taxonomy_sha256": "eaa8734819a3ac34dd19ee5f0bf6de925a793a1d25a2d361090dafc9b751e1fc",
+  "model": "openai/gpt-5.6-luna",
+  "source_tier": "newly_extracted_and_independently_model_reviewed",
+  "reviewed_target_turns": [
+    6,
+    15,
+    17,
+    19,
+    21,
+    46,
+    50,
+    52,
+    54,
+    56,
+    78,
+    79,
+    81,
+    83,
+    97,
+    99,
+    111,
+    113,
+    115,
+    117,
+    119,
+    128,
+    137,
+    145,
+    158,
+    162,
+    164,
+    171,
+    173,
+    175,
+    177,
+    180,
+    182,
+    184,
+    186,
+    188,
+    190,
+    192,
+    194
+  ],
+  "notes": "Quotes use only attributed_text. Neutral confirmations, greetings, procedural fundraising questions without an expressed belief, and later acknowledgments are omitted. The repeated turn 79 is classified as a teaser rather than original-pitch discussion.",
+  "receipt_path": "/home/dpasch01/vclogic-vc-agentic-assessment/evaluation/pitchshow/investors/elizabeth-yin-hustle-fund/rationale-references/receipts/166-awear-whoop-for-your-brain.json",
+  "scoring_scope": "original_pitch_only",
+  "shared_across_input_modes": true,
+  "rationales": [
+    {
+      "rationale_label": "execution_risk_assessment",
+      "direction": "negative",
+      "salience": "primary",
+      "confidence": 0.98,
+      "utterance_type": "assessment",
+      "decision_link": "none",
+      "timing": "original_pitch",
+      "turn_index": 171,
+      "quote": "I think his production road is gonna be a lot harder 'cause he doesn't have that experience.",
+      "explanation": "She believes the founder's lack of directly relevant production experience will make manufacturing execution harder.",
+      "evidence": [
+        "I think his production road is gonna be a lot harder 'cause he doesn't have that experience.",
+        "wherever, it's not the same."
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 171,
+          "speaker": "Elizabeth",
+          "quote": "I think his production road is gonna be a lot harder 'cause he doesn't have that experience."
+        },
+        {
+          "turn_index": 173,
+          "speaker": "Elizabeth",
+          "quote": "wherever, it's not the same."
+        }
+      ],
+      "activation": "evaluated",
+      "source_rationale_id": "R21",
+      "utterance_kind": "assessment",
+      "decision_support": "none",
+      "all_mention_ids": [
+        "R21",
+        "R22"
+      ]
+    },
+    {
+      "rationale_label": "founder_qualities",
+      "direction": "positive",
+      "salience": "secondary",
+      "confidence": 0.94,
+      "utterance_type": "decision_reason",
+      "decision_link": "explicit",
+      "timing": "original_pitch",
+      "turn_index": 115,
+      "quote": "I really like you.",
+      "explanation": "Elizabeth explicitly expresses positive personal regard for the founder while making her offer.",
+      "evidence": [
+        "I really like you."
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 115,
+          "speaker": "Elizabeth",
+          "quote": "I really like you."
+        }
+      ],
+      "activation": "evaluated",
+      "source_rationale_id": "R16",
+      "utterance_kind": "decision_explanation",
+      "decision_support": "supports_in",
+      "all_mention_ids": [
+        "R16"
+      ]
+    },
+    {
+      "rationale_label": "founder_skillset",
+      "direction": "negative",
+      "salience": "secondary",
+      "confidence": 0.95,
+      "utterance_type": "assessment",
+      "decision_link": "none",
+      "timing": "original_pitch",
+      "turn_index": 158,
+      "quote": "He doesn’t have like an industrial design background",
+      "explanation": "Elizabeth identifies a missing industrial-design skill relevant to the product.",
+      "evidence": [
+        "He doesn’t have like an industrial design background"
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 158,
+          "speaker": "Elizabeth",
+          "quote": "He doesn’t have like an industrial design background"
+        }
+      ],
+      "activation": "evaluated",
+      "source_rationale_id": "R20",
+      "utterance_kind": "assessment",
+      "decision_support": "none",
+      "all_mention_ids": [
+        "R5",
+        "R6",
+        "R20"
+      ]
+    },
+    {
+      "rationale_label": "investor_experience_bias",
+      "direction": "negative",
+      "salience": "secondary",
+      "confidence": 0.94,
+      "utterance_type": "assessment",
+      "decision_link": "none",
+      "timing": "original_pitch",
+      "turn_index": 97,
+      "quote": "the reason I stopped using it is, it was actually alerting me a lot.",
+      "explanation": "Her experience abandoning a comparable device informs her concern about the proposed product's user experience.",
+      "evidence": [
+        "I was a customer of a product a few years ago",
+        "the reason I stopped using it is, it was actually alerting me a lot."
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 78,
+          "speaker": "Elizabeth",
+          "quote": "I was a customer of a product a few years ago"
+        },
+        {
+          "turn_index": 97,
+          "speaker": "Elizabeth",
+          "quote": "the reason I stopped using it is, it was actually alerting me a lot."
+        }
+      ],
+      "activation": "evaluated",
+      "source_rationale_id": "R13",
+      "utterance_kind": "concern",
+      "decision_support": "none",
+      "all_mention_ids": [
+        "R8",
+        "R13"
+      ]
+    },
+    {
+      "rationale_label": "market_timing",
+      "direction": "positive",
+      "salience": "primary",
+      "confidence": 0.96,
+      "utterance_type": "decision_reason",
+      "decision_link": "explicit",
+      "timing": "original_pitch",
+      "turn_index": 115,
+      "quote": "people are becoming much more aware of their mental health",
+      "explanation": "She views increasing mental-health awareness as favorable timing for the category.",
+      "evidence": [
+        "people are becoming much more aware of their mental health",
+        "there's a lot of market pull on the trend."
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 115,
+          "speaker": "Elizabeth",
+          "quote": "people are becoming much more aware of their mental health"
+        },
+        {
+          "turn_index": 180,
+          "speaker": "Elizabeth",
+          "quote": "there's a lot of market pull on the trend."
+        }
+      ],
+      "activation": "evaluated",
+      "source_rationale_id": "R17",
+      "utterance_kind": "decision_explanation",
+      "decision_support": "supports_in",
+      "all_mention_ids": [
+        "R17",
+        "R25"
+      ]
+    },
+    {
+      "rationale_label": "product_appeal_assessment",
+      "direction": "positive",
+      "salience": "primary",
+      "confidence": 0.96,
+      "utterance_type": "decision_reason",
+      "decision_link": "explicit",
+      "timing": "original_pitch",
+      "turn_index": 115,
+      "quote": "I like your approach and the form factor.",
+      "explanation": "She positively assesses the product concept and its separate-device form factor.",
+      "evidence": [
+        "I like your approach and the form factor.",
+        "it looked kind of interesting.",
+        "I think people would buy it in a rough form factor if it worked also",
+        "people for crying out loud wore Google Glass."
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 115,
+          "speaker": "Elizabeth",
+          "quote": "I like your approach and the form factor."
+        },
+        {
+          "turn_index": 177,
+          "speaker": "Elizabeth",
+          "quote": "it looked kind of interesting."
+        },
+        {
+          "turn_index": 182,
+          "speaker": "Elizabeth",
+          "quote": "I think people would buy it in a rough form factor if it worked also"
+        },
+        {
+          "turn_index": 184,
+          "speaker": "Elizabeth",
+          "quote": "people for crying out loud wore Google Glass."
+        }
+      ],
+      "activation": "evaluated",
+      "source_rationale_id": "R18",
+      "utterance_kind": "decision_explanation",
+      "decision_support": "supports_in",
+      "all_mention_ids": [
+        "R18",
+        "R24",
+        "R26",
+        "R27"
+      ]
+    },
+    {
+      "rationale_label": "product_success_factor_assessment",
+      "direction": "negative",
+      "salience": "primary",
+      "confidence": 0.98,
+      "utterance_type": "assessment",
+      "decision_link": "none",
+      "timing": "original_pitch",
+      "turn_index": 99,
+      "quote": "how do you signal enough to the user that they're stressed but not too much such that it's actually not useful?",
+      "explanation": "She highlights the need to balance useful stress feedback against alert overload.",
+      "evidence": [
+        "what is that final step?",
+        "I don't wear it anymore 'cause it doesn't actually solve a problem.",
+        "how do you actually solve the problem of stress, depression, mental health, et cetera?",
+        "it was actually alerting me a lot.",
+        "how do you signal enough to the user that they're stressed but not too much such that it's actually not useful?",
+        "it also depends on the app. Like it comes back to the user experience of the app, which I haven't seen."
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 78,
+          "speaker": "Elizabeth",
+          "quote": "what is that final step?"
+        },
+        {
+          "turn_index": 78,
+          "speaker": "Elizabeth",
+          "quote": "I don't wear it anymore 'cause it doesn't actually solve a problem."
+        },
+        {
+          "turn_index": 81,
+          "speaker": "Elizabeth",
+          "quote": "how do you actually solve the problem of stress, depression, mental health, et cetera?"
+        },
+        {
+          "turn_index": 97,
+          "speaker": "Elizabeth",
+          "quote": "it was actually alerting me a lot."
+        },
+        {
+          "turn_index": 99,
+          "speaker": "Elizabeth",
+          "quote": "how do you signal enough to the user that they're stressed but not too much such that it's actually not useful?"
+        },
+        {
+          "turn_index": 175,
+          "speaker": "Elizabeth",
+          "quote": "it also depends on the app. Like it comes back to the user experience of the app, which I haven't seen."
+        }
+      ],
+      "activation": "evaluated",
+      "source_rationale_id": "R15",
+      "utterance_kind": "concern",
+      "decision_support": "none",
+      "all_mention_ids": [
+        "R2",
+        "R3",
+        "R4",
+        "R7",
+        "R9",
+        "R12",
+        "R14",
+        "R15",
+        "R23"
+      ]
+    },
+    {
+      "rationale_label": "solution_feasibility_assessment",
+      "direction": "neutral",
+      "salience": "secondary",
+      "confidence": 0.96,
+      "utterance_type": "question",
+      "decision_link": "none",
+      "timing": "original_pitch",
+      "turn_index": 15,
+      "quote": "So how does this work exactly?",
+      "explanation": "Elizabeth asks about the basic operating mechanics of the proposed product.",
+      "evidence": [
+        "So how does this work exactly?"
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 15,
+          "speaker": "Elizabeth",
+          "quote": "So how does this work exactly?"
+        }
+      ],
+      "activation": "queried",
+      "source_rationale_id": "R1",
+      "utterance_kind": "question",
+      "decision_support": "none",
+      "all_mention_ids": [
+        "R1"
+      ]
+    },
+    {
+      "rationale_label": "stage_valuation_mismatch",
+      "direction": "negative",
+      "salience": "primary",
+      "confidence": 0.98,
+      "utterance_type": "decision_reason",
+      "decision_link": "explicit",
+      "timing": "original_pitch",
+      "turn_index": 115,
+      "quote": "Seven is gonna be too high for me",
+      "explanation": "She considers the requested cap too high and conditions her investment on a lower cap.",
+      "evidence": [
+        "Seven is gonna be too high for me"
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 115,
+          "speaker": "Elizabeth",
+          "quote": "Seven is gonna be too high for me"
+        }
+      ],
+      "activation": "evaluated",
+      "source_rationale_id": "R19",
+      "utterance_kind": "decision_explanation",
+      "decision_support": "supports_in",
+      "all_mention_ids": [
+        "R19"
+      ]
+    }
+  ],
+  "later_rationales": [
+    {
+      "rationale_label": "solution_feasibility_assessment",
+      "direction": "neutral",
+      "salience": "secondary",
+      "confidence": 0.94,
+      "utterance_type": "question",
+      "decision_link": "none",
+      "timing": "later_commentary",
+      "turn_index": 186,
+      "quote": "I don't know if you have like a demo or something.",
+      "explanation": "During later diligence, she requests a product demonstration to assess the solution directly.",
+      "evidence": [
+        "I don't know if you have like a demo or something."
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 186,
+          "speaker": "Elizabeth",
+          "quote": "I don't know if you have like a demo or something."
+        }
+      ],
+      "activation": "queried",
+      "source_rationale_id": "R28"
+    }
+  ],
+  "excluded_rationales": [
+    {
+      "rationale_label": "product_success_factor_assessment",
+      "direction": "negative",
+      "salience": "primary",
+      "confidence": 0.97,
+      "utterance_type": "concern",
+      "decision_link": "none",
+      "timing": "teaser",
+      "turn_index": 79,
+      "quote": "what is that final step?",
+      "explanation": "In the repeated clip, she reiterates that stress detection must lead to an effective intervention.",
+      "evidence": [
+        "what is that final step?"
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 79,
+          "speaker": "Elizabeth",
+          "quote": "what is that final step?"
+        }
+      ],
+      "activation": "evaluated",
+      "source_rationale_id": "R10"
+    },
+    {
+      "rationale_label": "product_success_factor_assessment",
+      "direction": "negative",
+      "salience": "secondary",
+      "confidence": 0.97,
+      "utterance_type": "concern",
+      "decision_link": "none",
+      "timing": "teaser",
+      "turn_index": 79,
+      "quote": "I don't wear it anymore 'cause it doesn't actually solve a problem.",
+      "explanation": "The repeated clip reiterates her concern that comparable products fail to sustain use when they do not solve the underlying problem.",
+      "evidence": [
+        "I don't wear it anymore 'cause it doesn't actually solve a problem."
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 79,
+          "speaker": "Elizabeth",
+          "quote": "I don't wear it anymore 'cause it doesn't actually solve a problem."
+        }
+      ],
+      "activation": "evaluated",
+      "source_rationale_id": "R11"
+    }
+  ],
+  "rationale_mentions": [
+    {
+      "rationale_label": "solution_feasibility_assessment",
+      "direction": "neutral",
+      "salience": "secondary",
+      "confidence": 0.96,
+      "utterance_type": "question",
+      "decision_link": "none",
+      "timing": "original_pitch",
+      "turn_index": 15,
+      "quote": "So how does this work exactly?",
+      "explanation": "Elizabeth asks about the basic operating mechanics of the proposed product.",
+      "evidence": [
+        "So how does this work exactly?"
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 15,
+          "speaker": "Elizabeth",
+          "quote": "So how does this work exactly?"
+        }
+      ],
+      "activation": "queried",
+      "source_rationale_id": "R1"
+    },
+    {
+      "rationale_label": "product_success_factor_assessment",
+      "direction": "neutral",
+      "salience": "secondary",
+      "confidence": 0.95,
+      "utterance_type": "question",
+      "decision_link": "none",
+      "timing": "original_pitch",
+      "turn_index": 17,
+      "quote": "How does that help you, I guess, become less stressed?",
+      "explanation": "She asks how sensing stress translates into a beneficial user outcome.",
+      "evidence": [
+        "How does that help you, I guess, become less stressed?"
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 17,
+          "speaker": "Elizabeth",
+          "quote": "How does that help you, I guess, become less stressed?"
+        }
+      ],
+      "activation": "queried",
+      "source_rationale_id": "R2"
+    },
+    {
+      "rationale_label": "product_success_factor_assessment",
+      "direction": "neutral",
+      "salience": "secondary",
+      "confidence": 0.94,
+      "utterance_type": "question",
+      "decision_link": "none",
+      "timing": "original_pitch",
+      "turn_index": 19,
+      "quote": "Like it tells you you're too stressed, like calm down or -",
+      "explanation": "She probes whether the product provides actionable feedback rather than merely detecting stress.",
+      "evidence": [
+        "Like it tells you you're too stressed, like calm down or -"
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 19,
+          "speaker": "Elizabeth",
+          "quote": "Like it tells you you're too stressed, like calm down or -"
+        }
+      ],
+      "activation": "queried",
+      "source_rationale_id": "R3"
+    },
+    {
+      "rationale_label": "product_success_factor_assessment",
+      "direction": "neutral",
+      "salience": "secondary",
+      "confidence": 0.93,
+      "utterance_type": "question",
+      "decision_link": "none",
+      "timing": "original_pitch",
+      "turn_index": 21,
+      "quote": "And it's talking to you or you look at an app?",
+      "explanation": "She asks how the product delivers feedback to the user.",
+      "evidence": [
+        "And it's talking to you or you look at an app?"
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 21,
+          "speaker": "Elizabeth",
+          "quote": "And it's talking to you or you look at an app?"
+        }
+      ],
+      "activation": "queried",
+      "source_rationale_id": "R4"
+    },
+    {
+      "rationale_label": "founder_skillset",
+      "direction": "neutral",
+      "salience": "secondary",
+      "confidence": 0.95,
+      "utterance_type": "question",
+      "decision_link": "none",
+      "timing": "original_pitch",
+      "turn_index": 50,
+      "quote": "Were you working at a company before? What kinds of devices?",
+      "explanation": "Elizabeth asks about the founder's prior device-building experience.",
+      "evidence": [
+        "Were you working at a company before? What kinds of devices?"
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 50,
+          "speaker": "Elizabeth",
+          "quote": "Were you working at a company before? What kinds of devices?"
+        }
+      ],
+      "activation": "queried",
+      "source_rationale_id": "R5"
+    },
+    {
+      "rationale_label": "founder_skillset",
+      "direction": "neutral",
+      "salience": "secondary",
+      "confidence": 0.96,
+      "utterance_type": "question",
+      "decision_link": "none",
+      "timing": "original_pitch",
+      "turn_index": 54,
+      "quote": "have you built any hardware devices at any of these companies before?",
+      "explanation": "She specifically tests whether the founder has previously built hardware.",
+      "model_quote_before_typography_repair": "Have you built any hardware devices at any of these companies before?",
+      "evidence": [
+        "have you built any hardware devices at any of these companies before?"
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 54,
+          "speaker": "Elizabeth",
+          "quote": "have you built any hardware devices at any of these companies before?"
+        }
+      ],
+      "activation": "queried",
+      "source_rationale_id": "R6"
+    },
+    {
+      "rationale_label": "product_success_factor_assessment",
+      "direction": "negative",
+      "salience": "primary",
+      "confidence": 0.97,
+      "utterance_type": "concern",
+      "decision_link": "none",
+      "timing": "original_pitch",
+      "turn_index": 78,
+      "quote": "what is that final step?",
+      "explanation": "Her prior experience suggests that measuring stress does not by itself provide an effective intervention.",
+      "evidence": [
+        "what is that final step?"
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 78,
+          "speaker": "Elizabeth",
+          "quote": "what is that final step?"
+        }
+      ],
+      "activation": "evaluated",
+      "source_rationale_id": "R7"
+    },
+    {
+      "rationale_label": "investor_experience_bias",
+      "direction": "negative",
+      "salience": "secondary",
+      "confidence": 0.94,
+      "utterance_type": "concern",
+      "decision_link": "none",
+      "timing": "original_pitch",
+      "turn_index": 78,
+      "quote": "I was a customer of a product a few years ago",
+      "explanation": "She uses her prior experience as a customer of a comparable stress product to shape her assessment of this opportunity.",
+      "evidence": [
+        "I was a customer of a product a few years ago"
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 78,
+          "speaker": "Elizabeth",
+          "quote": "I was a customer of a product a few years ago"
+        }
+      ],
+      "activation": "evaluated",
+      "source_rationale_id": "R8"
+    },
+    {
+      "rationale_label": "product_success_factor_assessment",
+      "direction": "negative",
+      "salience": "secondary",
+      "confidence": 0.97,
+      "utterance_type": "concern",
+      "decision_link": "none",
+      "timing": "original_pitch",
+      "turn_index": 78,
+      "quote": "I don't wear it anymore 'cause it doesn't actually solve a problem.",
+      "explanation": "She identifies sustained usefulness and retention as unresolved requirements for a comparable product.",
+      "evidence": [
+        "I don't wear it anymore 'cause it doesn't actually solve a problem."
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 78,
+          "speaker": "Elizabeth",
+          "quote": "I don't wear it anymore 'cause it doesn't actually solve a problem."
+        }
+      ],
+      "activation": "evaluated",
+      "source_rationale_id": "R9"
+    },
+    {
+      "rationale_label": "product_success_factor_assessment",
+      "direction": "negative",
+      "salience": "primary",
+      "confidence": 0.98,
+      "utterance_type": "question",
+      "decision_link": "none",
+      "timing": "original_pitch",
+      "turn_index": 81,
+      "quote": "how do you actually solve the problem of stress, depression, mental health, et cetera?",
+      "explanation": "She asks whether the product addresses the underlying mental-health problem rather than merely interpreting signals.",
+      "evidence": [
+        "how do you actually solve the problem of stress, depression, mental health, et cetera?"
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 81,
+          "speaker": "Elizabeth",
+          "quote": "how do you actually solve the problem of stress, depression, mental health, et cetera?"
+        }
+      ],
+      "activation": "queried",
+      "source_rationale_id": "R12"
+    },
+    {
+      "rationale_label": "investor_experience_bias",
+      "direction": "negative",
+      "salience": "secondary",
+      "confidence": 0.94,
+      "utterance_type": "concern",
+      "decision_link": "none",
+      "timing": "original_pitch",
+      "turn_index": 97,
+      "quote": "the reason I stopped using it is, it was actually alerting me a lot.",
+      "explanation": "Her experience abandoning a comparable device informs her concern about the proposed product's user experience.",
+      "evidence": [
+        "the reason I stopped using it is, it was actually alerting me a lot."
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 97,
+          "speaker": "Elizabeth",
+          "quote": "the reason I stopped using it is, it was actually alerting me a lot."
+        }
+      ],
+      "activation": "evaluated",
+      "source_rationale_id": "R13"
+    },
+    {
+      "rationale_label": "product_success_factor_assessment",
+      "direction": "negative",
+      "salience": "secondary",
+      "confidence": 0.96,
+      "utterance_type": "concern",
+      "decision_link": "none",
+      "timing": "original_pitch",
+      "turn_index": 97,
+      "quote": "it was actually alerting me a lot.",
+      "explanation": "She identifies excessive alerts as a product-design problem that can undermine continued use.",
+      "evidence": [
+        "it was actually alerting me a lot."
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 97,
+          "speaker": "Elizabeth",
+          "quote": "it was actually alerting me a lot."
+        }
+      ],
+      "activation": "evaluated",
+      "source_rationale_id": "R14"
+    },
+    {
+      "rationale_label": "product_success_factor_assessment",
+      "direction": "negative",
+      "salience": "primary",
+      "confidence": 0.98,
+      "utterance_type": "concern",
+      "decision_link": "none",
+      "timing": "original_pitch",
+      "turn_index": 99,
+      "quote": "how do you signal enough to the user that they're stressed but not too much such that it's actually not useful?",
+      "explanation": "She highlights the need to balance useful stress feedback against alert overload.",
+      "evidence": [
+        "how do you signal enough to the user that they're stressed but not too much such that it's actually not useful?"
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 99,
+          "speaker": "Elizabeth",
+          "quote": "how do you signal enough to the user that they're stressed but not too much such that it's actually not useful?"
+        }
+      ],
+      "activation": "evaluated",
+      "source_rationale_id": "R15"
+    },
+    {
+      "rationale_label": "founder_qualities",
+      "direction": "positive",
+      "salience": "secondary",
+      "confidence": 0.94,
+      "utterance_type": "decision_explanation",
+      "decision_link": "supports_in",
+      "timing": "original_pitch",
+      "turn_index": 115,
+      "quote": "I really like you.",
+      "explanation": "Elizabeth explicitly expresses positive personal regard for the founder while making her offer.",
+      "evidence": [
+        "I really like you."
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 115,
+          "speaker": "Elizabeth",
+          "quote": "I really like you."
+        }
+      ],
+      "activation": "evaluated",
+      "source_rationale_id": "R16"
+    },
+    {
+      "rationale_label": "market_timing",
+      "direction": "positive",
+      "salience": "primary",
+      "confidence": 0.96,
+      "utterance_type": "decision_explanation",
+      "decision_link": "supports_in",
+      "timing": "original_pitch",
+      "turn_index": 115,
+      "quote": "people are becoming much more aware of their mental health",
+      "explanation": "She views increasing mental-health awareness as favorable timing for the category.",
+      "evidence": [
+        "people are becoming much more aware of their mental health"
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 115,
+          "speaker": "Elizabeth",
+          "quote": "people are becoming much more aware of their mental health"
+        }
+      ],
+      "activation": "evaluated",
+      "source_rationale_id": "R17"
+    },
+    {
+      "rationale_label": "product_appeal_assessment",
+      "direction": "positive",
+      "salience": "primary",
+      "confidence": 0.96,
+      "utterance_type": "decision_explanation",
+      "decision_link": "supports_in",
+      "timing": "original_pitch",
+      "turn_index": 115,
+      "quote": "I like your approach and the form factor.",
+      "explanation": "She positively assesses the product concept and its separate-device form factor.",
+      "evidence": [
+        "I like your approach and the form factor."
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 115,
+          "speaker": "Elizabeth",
+          "quote": "I like your approach and the form factor."
+        }
+      ],
+      "activation": "evaluated",
+      "source_rationale_id": "R18"
+    },
+    {
+      "rationale_label": "stage_valuation_mismatch",
+      "direction": "negative",
+      "salience": "primary",
+      "confidence": 0.98,
+      "utterance_type": "decision_explanation",
+      "decision_link": "supports_in",
+      "timing": "original_pitch",
+      "turn_index": 115,
+      "quote": "Seven is gonna be too high for me",
+      "explanation": "She considers the requested cap too high and conditions her investment on a lower cap.",
+      "evidence": [
+        "Seven is gonna be too high for me"
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 115,
+          "speaker": "Elizabeth",
+          "quote": "Seven is gonna be too high for me"
+        }
+      ],
+      "activation": "evaluated",
+      "source_rationale_id": "R19"
+    },
+    {
+      "rationale_label": "founder_skillset",
+      "direction": "negative",
+      "salience": "secondary",
+      "confidence": 0.95,
+      "utterance_type": "assessment",
+      "decision_link": "none",
+      "timing": "original_pitch",
+      "turn_index": 158,
+      "quote": "He doesn’t have like an industrial design background",
+      "explanation": "Elizabeth identifies a missing industrial-design skill relevant to the product.",
+      "evidence": [
+        "He doesn’t have like an industrial design background"
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 158,
+          "speaker": "Elizabeth",
+          "quote": "He doesn’t have like an industrial design background"
+        }
+      ],
+      "activation": "evaluated",
+      "source_rationale_id": "R20"
+    },
+    {
+      "rationale_label": "execution_risk_assessment",
+      "direction": "negative",
+      "salience": "primary",
+      "confidence": 0.98,
+      "utterance_type": "assessment",
+      "decision_link": "none",
+      "timing": "original_pitch",
+      "turn_index": 171,
+      "quote": "I think his production road is gonna be a lot harder 'cause he doesn't have that experience.",
+      "explanation": "She believes the founder's lack of directly relevant production experience will make manufacturing execution harder.",
+      "evidence": [
+        "I think his production road is gonna be a lot harder 'cause he doesn't have that experience."
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 171,
+          "speaker": "Elizabeth",
+          "quote": "I think his production road is gonna be a lot harder 'cause he doesn't have that experience."
+        }
+      ],
+      "activation": "evaluated",
+      "source_rationale_id": "R21"
+    },
+    {
+      "rationale_label": "execution_risk_assessment",
+      "direction": "negative",
+      "salience": "secondary",
+      "confidence": 0.97,
+      "utterance_type": "assessment",
+      "decision_link": "none",
+      "timing": "original_pitch",
+      "turn_index": 173,
+      "quote": "wherever, it's not the same.",
+      "explanation": "She distinguishes the founder's prior telecom experience from the experience required for this production path.",
+      "evidence": [
+        "wherever, it's not the same."
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 173,
+          "speaker": "Elizabeth",
+          "quote": "wherever, it's not the same."
+        }
+      ],
+      "activation": "evaluated",
+      "source_rationale_id": "R22"
+    },
+    {
+      "rationale_label": "product_success_factor_assessment",
+      "direction": "negative",
+      "salience": "secondary",
+      "confidence": 0.96,
+      "utterance_type": "assessment",
+      "decision_link": "none",
+      "timing": "original_pitch",
+      "turn_index": 175,
+      "quote": "it also depends on the app. Like it comes back to the user experience of the app, which I haven't seen.",
+      "explanation": "She views the unseen app experience as an important unresolved determinant of product success.",
+      "evidence": [
+        "it also depends on the app. Like it comes back to the user experience of the app, which I haven't seen."
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 175,
+          "speaker": "Elizabeth",
+          "quote": "it also depends on the app. Like it comes back to the user experience of the app, which I haven't seen."
+        }
+      ],
+      "activation": "evaluated",
+      "source_rationale_id": "R23"
+    },
+    {
+      "rationale_label": "product_appeal_assessment",
+      "direction": "positive",
+      "salience": "secondary",
+      "confidence": 0.91,
+      "utterance_type": "assessment",
+      "decision_link": "none",
+      "timing": "original_pitch",
+      "turn_index": 177,
+      "quote": "it looked kind of interesting.",
+      "explanation": "After briefly seeing the product, she expresses a positive preliminary reaction.",
+      "evidence": [
+        "it looked kind of interesting."
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 177,
+          "speaker": "Elizabeth",
+          "quote": "it looked kind of interesting."
+        }
+      ],
+      "activation": "evaluated",
+      "source_rationale_id": "R24"
+    },
+    {
+      "rationale_label": "market_timing",
+      "direction": "positive",
+      "salience": "secondary",
+      "confidence": 0.94,
+      "utterance_type": "assessment",
+      "decision_link": "none",
+      "timing": "original_pitch",
+      "turn_index": 180,
+      "quote": "there's a lot of market pull on the trend.",
+      "explanation": "She perceives favorable market pull from the broader mental-wellness trend.",
+      "evidence": [
+        "there's a lot of market pull on the trend."
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 180,
+          "speaker": "Elizabeth",
+          "quote": "there's a lot of market pull on the trend."
+        }
+      ],
+      "activation": "evaluated",
+      "source_rationale_id": "R25"
+    },
+    {
+      "rationale_label": "product_appeal_assessment",
+      "direction": "positive",
+      "salience": "secondary",
+      "confidence": 0.94,
+      "utterance_type": "supporting_argument",
+      "decision_link": "none",
+      "timing": "original_pitch",
+      "turn_index": 182,
+      "quote": "I think people would buy it in a rough form factor if it worked also",
+      "explanation": "She believes customers could accept an unfinished form factor if the product works.",
+      "evidence": [
+        "I think people would buy it in a rough form factor if it worked also"
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 182,
+          "speaker": "Elizabeth",
+          "quote": "I think people would buy it in a rough form factor if it worked also"
+        }
+      ],
+      "activation": "evaluated",
+      "source_rationale_id": "R26"
+    },
+    {
+      "rationale_label": "product_appeal_assessment",
+      "direction": "positive",
+      "salience": "secondary",
+      "confidence": 0.93,
+      "utterance_type": "supporting_argument",
+      "decision_link": "none",
+      "timing": "original_pitch",
+      "turn_index": 184,
+      "quote": "people for crying out loud wore Google Glass.",
+      "explanation": "She uses Google Glass adoption as evidence that consumers may tolerate an unusual wearable form factor.",
+      "evidence": [
+        "people for crying out loud wore Google Glass."
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 184,
+          "speaker": "Elizabeth",
+          "quote": "people for crying out loud wore Google Glass."
+        }
+      ],
+      "activation": "evaluated",
+      "source_rationale_id": "R27"
+    }
+  ],
+  "expanded_quote_evidence": [],
+  "rejected_after_evidence_check": []
+}

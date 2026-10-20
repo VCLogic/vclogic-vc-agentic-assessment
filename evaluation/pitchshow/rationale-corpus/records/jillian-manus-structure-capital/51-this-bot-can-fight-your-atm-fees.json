@@ -1,0 +1,889 @@
+{
+  "schema": "phase1-rationale-reference-v1",
+  "extraction_version": "pitchshow-rationales-v1",
+  "fingerprint": "a99b6d097e085363a865b8fb1a276aaa1fc3d8d1bc98cdfef462ed494da20f1a",
+  "episode_slug": "51-this-bot-can-fight-your-atm-fees",
+  "vc_slug": "jillian-manus-structure-capital",
+  "vc_name": "Jillian Manus",
+  "actual_decision": "In",
+  "later_decision": "Unknown",
+  "reference_kind": "automated_transcript_observed_candidate",
+  "human_validated": false,
+  "source_format": "transcript-observed-rationales-v1",
+  "source_path": "/home/dpasch01/vclogic-vc-agentic-assessment/evaluation/pitchshow/investors/jillian-manus-structure-capital/source/episodes/51-this-bot-can-fight-your-atm-fees.json",
+  "source_sha256": "6a08de1ba0bb01b56fd332a9b80b139c5811e7b890539a22db88934abe88200a",
+  "transcript_sha256": "6bff70d4f1858c95e875c86b8d12b08073656a8ae1328a5595d716fd341321ef",
+  "taxonomy_sha256": "eaa8734819a3ac34dd19ee5f0bf6de925a793a1d25a2d361090dafc9b751e1fc",
+  "model": "codex:gpt-5.6-luna+gpt-5.6-sol",
+  "generation_stages": [
+    {
+      "phase": "rationale_extract",
+      "backend": "codex",
+      "model": "gpt-5.6-luna"
+    },
+    {
+      "phase": "rationale_verify",
+      "backend": "codex",
+      "model": "gpt-5.6-sol"
+    }
+  ],
+  "source_tier": "newly_extracted_and_independently_model_reviewed",
+  "reviewed_target_turns": [
+    7,
+    9,
+    14,
+    23,
+    36,
+    39,
+    47,
+    58,
+    66,
+    84,
+    95,
+    109,
+    110,
+    112,
+    114,
+    123,
+    126,
+    129
+  ],
+  "notes": "All supplied target turns were reviewed. Procedural responses and bare decision statements without reasons were omitted.",
+  "receipt_path": "/home/dpasch01/vclogic-vc-agentic-assessment/evaluation/pitchshow/investors/jillian-manus-structure-capital/rationale-references/receipts/51-this-bot-can-fight-your-atm-fees.json",
+  "scoring_scope": "original_pitch_only",
+  "shared_across_input_modes": true,
+  "rationales": [
+    {
+      "rationale_label": "decision_context_constraint",
+      "direction": "positive",
+      "salience": "primary",
+      "confidence": 0.96,
+      "utterance_type": "decision_reason",
+      "decision_link": "explicit",
+      "timing": "original_pitch",
+      "turn_index": 114,
+      "quote": "I’m not going to pass because I’ve learnt so much more, and I’ve learned that you don’t pass prematurely when some of the key parts which was your background had been omitted",
+      "explanation": "She reverses her pass because the earlier decision was made before important founder-background information emerged.",
+      "evidence": [
+        "I’m not going to pass because I’ve learnt so much more, and I’ve learned that you don’t pass prematurely when some of the key parts which was your background had been omitted"
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 114,
+          "speaker": "Jillian",
+          "quote": "I’m not going to pass because I’ve learnt so much more, and I’ve learned that you don’t pass prematurely when some of the key parts which was your background had been omitted"
+        }
+      ],
+      "activation": "evaluated",
+      "source_rationale_id": "R16",
+      "utterance_kind": "decision_explanation",
+      "decision_support": "supports_in",
+      "all_mention_ids": [
+        "R16"
+      ]
+    },
+    {
+      "rationale_label": "founder_execution",
+      "direction": "positive",
+      "salience": "primary",
+      "confidence": 0.98,
+      "utterance_type": "decision_reason",
+      "decision_link": "explicit",
+      "timing": "original_pitch",
+      "turn_index": 112,
+      "quote": "I like the fact that you’ve built this at Twitter. I mean, that speaks volumes to me.",
+      "explanation": "The founder’s prior execution experience at Twitter materially strengthens her willingness to invest.",
+      "evidence": [
+        "I like the fact that you’ve built this at Twitter. I mean, that speaks volumes to me."
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 112,
+          "speaker": "Jillian",
+          "quote": "I like the fact that you’ve built this at Twitter. I mean, that speaks volumes to me."
+        }
+      ],
+      "activation": "evaluated",
+      "source_rationale_id": "R13",
+      "utterance_kind": "decision_explanation",
+      "decision_support": "supports_in",
+      "all_mention_ids": [
+        "R13"
+      ]
+    },
+    {
+      "rationale_label": "founder_qualities",
+      "direction": "positive",
+      "salience": "primary",
+      "confidence": 0.97,
+      "utterance_type": "decision_reason",
+      "decision_link": "explicit",
+      "timing": "original_pitch",
+      "turn_index": 112,
+      "quote": "we’re really investing in you. And I like your journey here",
+      "explanation": "She treats her positive assessment of the founder and his journey as central to investing.",
+      "evidence": [
+        "I like hearing about you. I liked hearing about your path.",
+        "we’re really investing in you. And I like your journey here",
+        "I think he is a winner. Absolutely."
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 110,
+          "speaker": "Jillian",
+          "quote": "I like hearing about you. I liked hearing about your path."
+        },
+        {
+          "turn_index": 112,
+          "speaker": "Jillian",
+          "quote": "we’re really investing in you. And I like your journey here"
+        },
+        {
+          "turn_index": 126,
+          "speaker": "Jillian",
+          "quote": "I think he is a winner. Absolutely."
+        }
+      ],
+      "activation": "evaluated",
+      "source_rationale_id": "R12",
+      "utterance_kind": "decision_explanation",
+      "decision_support": "supports_in",
+      "all_mention_ids": [
+        "R10",
+        "R11",
+        "R12",
+        "R18"
+      ]
+    },
+    {
+      "rationale_label": "fundraising_demand_signal",
+      "direction": "neutral",
+      "salience": "primary",
+      "confidence": 0.88,
+      "utterance_type": "decision_reason",
+      "decision_link": "explicit",
+      "timing": "original_pitch",
+      "turn_index": 114,
+      "quote": "But I would like to see the lead.",
+      "explanation": "Her prospective participation remains conditional on the company securing and identifying a lead investor.",
+      "evidence": [
+        "Who led that?",
+        "But I would like to see the lead."
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 84,
+          "speaker": "Jillian",
+          "quote": "Who led that?"
+        },
+        {
+          "turn_index": 114,
+          "speaker": "Jillian",
+          "quote": "But I would like to see the lead."
+        }
+      ],
+      "activation": "evaluated",
+      "source_rationale_id": "R15",
+      "utterance_kind": "decision_explanation",
+      "decision_support": "supports_in",
+      "all_mention_ids": [
+        "R9",
+        "R15"
+      ]
+    },
+    {
+      "rationale_label": "growth_projection_risk",
+      "direction": "negative",
+      "salience": "primary",
+      "confidence": 0.95,
+      "utterance_type": "decision_reason",
+      "decision_link": "explicit",
+      "timing": "original_pitch",
+      "turn_index": 66,
+      "quote": "I think it's too early for me to really understand how this is going to scale.",
+      "explanation": "She initially passes because the company is too early for her to evaluate its scaling path confidently.",
+      "evidence": [
+        "I think it's too early for me to really understand how this is going to scale."
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 66,
+          "speaker": "Jillian",
+          "quote": "I think it's too early for me to really understand how this is going to scale."
+        }
+      ],
+      "activation": "evaluated",
+      "source_rationale_id": "R7",
+      "utterance_kind": "decision_explanation",
+      "decision_support": "supports_out",
+      "all_mention_ids": [
+        "R7"
+      ]
+    },
+    {
+      "rationale_label": "investor_value_add_fit",
+      "direction": "neutral",
+      "salience": "secondary",
+      "confidence": 0.95,
+      "utterance_type": "decision_reason",
+      "decision_link": "explicit",
+      "timing": "original_pitch",
+      "turn_index": 112,
+      "quote": "if this makes sense, of me being an investor and adding value",
+      "explanation": "She makes her prospective participation conditional on being an appropriate investor who can add value.",
+      "evidence": [
+        "if this makes sense, of me being an investor and adding value"
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 112,
+          "speaker": "Jillian",
+          "quote": "if this makes sense, of me being an investor and adding value"
+        }
+      ],
+      "activation": "evaluated",
+      "source_rationale_id": "R14",
+      "utterance_kind": "decision_explanation",
+      "decision_support": "supports_in",
+      "all_mention_ids": [
+        "R14"
+      ]
+    },
+    {
+      "rationale_label": "product_adoption",
+      "direction": "neutral",
+      "salience": "secondary",
+      "confidence": 0.93,
+      "utterance_type": "question",
+      "decision_link": "none",
+      "timing": "original_pitch",
+      "turn_index": 39,
+      "quote": "Why are those 16,000 on a waitlist?",
+      "explanation": "She investigates why substantial expressed demand has not yet converted into onboarded users.",
+      "evidence": [
+        "Why are those 16,000 on a waitlist?"
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 39,
+          "speaker": "Jillian",
+          "quote": "Why are those 16,000 on a waitlist?"
+        }
+      ],
+      "activation": "queried",
+      "source_rationale_id": "R4",
+      "utterance_kind": "question",
+      "decision_support": "none",
+      "all_mention_ids": [
+        "R4"
+      ]
+    },
+    {
+      "rationale_label": "product_appeal_assessment",
+      "direction": "negative",
+      "salience": "secondary",
+      "confidence": 0.94,
+      "utterance_type": "decision_reason",
+      "decision_link": "explicit",
+      "timing": "original_pitch",
+      "turn_index": 66,
+      "quote": "I'm not really quite sure that I'm committed to this first product enough to feel comfortable",
+      "explanation": "Her lack of conviction in the initial product also contributes to her initial refusal.",
+      "evidence": [
+        "I'm not really quite sure that I'm committed to this first product enough to feel comfortable"
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 66,
+          "speaker": "Jillian",
+          "quote": "I'm not really quite sure that I'm committed to this first product enough to feel comfortable"
+        }
+      ],
+      "activation": "evaluated",
+      "source_rationale_id": "R8",
+      "utterance_kind": "decision_explanation",
+      "decision_support": "supports_out",
+      "all_mention_ids": [
+        "R1",
+        "R8",
+        "R17",
+        "R19"
+      ]
+    },
+    {
+      "rationale_label": "product_differentiation_concern",
+      "direction": "neutral",
+      "salience": "secondary",
+      "confidence": 0.98,
+      "utterance_type": "question",
+      "decision_link": "none",
+      "timing": "original_pitch",
+      "turn_index": 58,
+      "quote": "Then why couldn’t Albert do this?",
+      "explanation": "She probes whether an established personal-finance competitor could replicate the product.",
+      "evidence": [
+        "Then why couldn’t Albert do this?"
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 58,
+          "speaker": "Jillian",
+          "quote": "Then why couldn’t Albert do this?"
+        }
+      ],
+      "activation": "queried",
+      "source_rationale_id": "R6",
+      "utterance_kind": "question",
+      "decision_support": "none",
+      "all_mention_ids": [
+        "R6"
+      ]
+    },
+    {
+      "rationale_label": "product_success_factor_assessment",
+      "direction": "positive",
+      "salience": "secondary",
+      "confidence": 0.98,
+      "utterance_type": "assessment",
+      "decision_link": "none",
+      "timing": "original_pitch",
+      "turn_index": 9,
+      "quote": "it has personality and I think that's important. Because people have to trust it.",
+      "explanation": "She identifies the bot’s personality as a valuable attribute for earning users’ trust.",
+      "evidence": [
+        "it has personality and I think that's important. Because people have to trust it."
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 9,
+          "speaker": "Jillian",
+          "quote": "it has personality and I think that's important. Because people have to trust it."
+        }
+      ],
+      "activation": "evaluated",
+      "source_rationale_id": "R2",
+      "utterance_kind": "supporting_argument",
+      "decision_support": "none",
+      "all_mention_ids": [
+        "R2",
+        "R5"
+      ]
+    },
+    {
+      "rationale_label": "solution_feasibility_assessment",
+      "direction": "neutral",
+      "salience": "secondary",
+      "confidence": 0.94,
+      "utterance_type": "question",
+      "decision_link": "none",
+      "timing": "original_pitch",
+      "turn_index": 23,
+      "quote": "And why would they say yes?",
+      "explanation": "She probes whether the proposed service can actually persuade banks to refund fees.",
+      "evidence": [
+        "And why would they say yes?"
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 23,
+          "speaker": "Jillian",
+          "quote": "And why would they say yes?"
+        }
+      ],
+      "activation": "queried",
+      "source_rationale_id": "R3",
+      "utterance_kind": "question",
+      "decision_support": "none",
+      "all_mention_ids": [
+        "R3"
+      ]
+    }
+  ],
+  "later_rationales": [
+    {
+      "rationale_label": "product_differentiation_concern",
+      "direction": "neutral",
+      "salience": "secondary",
+      "confidence": 0.98,
+      "utterance_type": "question",
+      "decision_link": "none",
+      "timing": "later_commentary",
+      "turn_index": 129,
+      "quote": "Then why couldn’t Albert do this?",
+      "explanation": "In a post-pitch replay, her original question probes whether an established competitor could reproduce the product.",
+      "evidence": [
+        "Then why couldn’t Albert do this?"
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 129,
+          "speaker": "Jillian",
+          "quote": "Then why couldn’t Albert do this?"
+        }
+      ],
+      "activation": "queried",
+      "source_rationale_id": "R20"
+    }
+  ],
+  "excluded_rationales": [],
+  "rationale_mentions": [
+    {
+      "rationale_label": "product_appeal_assessment",
+      "direction": "positive",
+      "salience": "secondary",
+      "confidence": 0.93,
+      "utterance_type": "assessment",
+      "decision_link": "none",
+      "timing": "original_pitch",
+      "turn_index": 7,
+      "quote": "Fee fighter. I love that.",
+      "explanation": "She expresses a positive personal reaction to the product’s name and presentation.",
+      "evidence": [
+        "Fee fighter. I love that."
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 7,
+          "speaker": "Jillian",
+          "quote": "Fee fighter. I love that."
+        }
+      ],
+      "activation": "evaluated",
+      "source_rationale_id": "R1"
+    },
+    {
+      "rationale_label": "product_success_factor_assessment",
+      "direction": "positive",
+      "salience": "secondary",
+      "confidence": 0.98,
+      "utterance_type": "supporting_argument",
+      "decision_link": "none",
+      "timing": "original_pitch",
+      "turn_index": 9,
+      "quote": "it has personality and I think that's important. Because people have to trust it.",
+      "explanation": "She identifies the bot’s personality as a valuable attribute for earning users’ trust.",
+      "evidence": [
+        "it has personality and I think that's important. Because people have to trust it."
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 9,
+          "speaker": "Jillian",
+          "quote": "it has personality and I think that's important. Because people have to trust it."
+        }
+      ],
+      "activation": "evaluated",
+      "source_rationale_id": "R2"
+    },
+    {
+      "rationale_label": "solution_feasibility_assessment",
+      "direction": "neutral",
+      "salience": "secondary",
+      "confidence": 0.94,
+      "utterance_type": "question",
+      "decision_link": "none",
+      "timing": "original_pitch",
+      "turn_index": 23,
+      "quote": "And why would they say yes?",
+      "explanation": "She probes whether the proposed service can actually persuade banks to refund fees.",
+      "evidence": [
+        "And why would they say yes?"
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 23,
+          "speaker": "Jillian",
+          "quote": "And why would they say yes?"
+        }
+      ],
+      "activation": "queried",
+      "source_rationale_id": "R3"
+    },
+    {
+      "rationale_label": "product_adoption",
+      "direction": "neutral",
+      "salience": "secondary",
+      "confidence": 0.93,
+      "utterance_type": "question",
+      "decision_link": "none",
+      "timing": "original_pitch",
+      "turn_index": 39,
+      "quote": "Why are those 16,000 on a waitlist?",
+      "explanation": "She investigates why substantial expressed demand has not yet converted into onboarded users.",
+      "evidence": [
+        "Why are those 16,000 on a waitlist?"
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 39,
+          "speaker": "Jillian",
+          "quote": "Why are those 16,000 on a waitlist?"
+        }
+      ],
+      "activation": "queried",
+      "source_rationale_id": "R4"
+    },
+    {
+      "rationale_label": "product_success_factor_assessment",
+      "direction": "neutral",
+      "salience": "secondary",
+      "confidence": 0.87,
+      "utterance_type": "question",
+      "decision_link": "none",
+      "timing": "original_pitch",
+      "turn_index": 47,
+      "quote": "What are the next set of features?",
+      "explanation": "She asks which additional product capabilities will support expansion beyond the initial feature.",
+      "evidence": [
+        "What are the next set of features?"
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 47,
+          "speaker": "Jillian",
+          "quote": "What are the next set of features?"
+        }
+      ],
+      "activation": "queried",
+      "source_rationale_id": "R5"
+    },
+    {
+      "rationale_label": "product_differentiation_concern",
+      "direction": "neutral",
+      "salience": "secondary",
+      "confidence": 0.98,
+      "utterance_type": "question",
+      "decision_link": "none",
+      "timing": "original_pitch",
+      "turn_index": 58,
+      "quote": "Then why couldn’t Albert do this?",
+      "explanation": "She probes whether an established personal-finance competitor could replicate the product.",
+      "evidence": [
+        "Then why couldn’t Albert do this?"
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 58,
+          "speaker": "Jillian",
+          "quote": "Then why couldn’t Albert do this?"
+        }
+      ],
+      "activation": "queried",
+      "source_rationale_id": "R6"
+    },
+    {
+      "rationale_label": "growth_projection_risk",
+      "direction": "negative",
+      "salience": "primary",
+      "confidence": 0.95,
+      "utterance_type": "decision_explanation",
+      "decision_link": "supports_out",
+      "timing": "original_pitch",
+      "turn_index": 66,
+      "quote": "I think it's too early for me to really understand how this is going to scale.",
+      "explanation": "She initially passes because the company is too early for her to evaluate its scaling path confidently.",
+      "evidence": [
+        "I think it's too early for me to really understand how this is going to scale."
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 66,
+          "speaker": "Jillian",
+          "quote": "I think it's too early for me to really understand how this is going to scale."
+        }
+      ],
+      "activation": "evaluated",
+      "source_rationale_id": "R7"
+    },
+    {
+      "rationale_label": "product_appeal_assessment",
+      "direction": "negative",
+      "salience": "secondary",
+      "confidence": 0.94,
+      "utterance_type": "decision_explanation",
+      "decision_link": "supports_out",
+      "timing": "original_pitch",
+      "turn_index": 66,
+      "quote": "I'm not really quite sure that I'm committed to this first product enough to feel comfortable",
+      "explanation": "Her lack of conviction in the initial product also contributes to her initial refusal.",
+      "evidence": [
+        "I'm not really quite sure that I'm committed to this first product enough to feel comfortable"
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 66,
+          "speaker": "Jillian",
+          "quote": "I'm not really quite sure that I'm committed to this first product enough to feel comfortable"
+        }
+      ],
+      "activation": "evaluated",
+      "source_rationale_id": "R8"
+    },
+    {
+      "rationale_label": "fundraising_demand_signal",
+      "direction": "neutral",
+      "salience": "secondary",
+      "confidence": 0.8,
+      "utterance_type": "question",
+      "decision_link": "none",
+      "timing": "original_pitch",
+      "turn_index": 84,
+      "quote": "Who led that?",
+      "explanation": "She asks whether the prior financing had support from a lead investor.",
+      "evidence": [
+        "Who led that?"
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 84,
+          "speaker": "Jillian",
+          "quote": "Who led that?"
+        }
+      ],
+      "activation": "queried",
+      "source_rationale_id": "R9"
+    },
+    {
+      "rationale_label": "founder_qualities",
+      "direction": "neutral",
+      "salience": "secondary",
+      "confidence": 0.96,
+      "utterance_type": "question",
+      "decision_link": "none",
+      "timing": "original_pitch",
+      "turn_index": 95,
+      "quote": "Can you talk about you?",
+      "explanation": "She requests the founder background she considers important to evaluating the opportunity.",
+      "evidence": [
+        "Can you talk about you?"
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 95,
+          "speaker": "Jillian",
+          "quote": "Can you talk about you?"
+        }
+      ],
+      "activation": "queried",
+      "source_rationale_id": "R10"
+    },
+    {
+      "rationale_label": "founder_qualities",
+      "direction": "positive",
+      "salience": "primary",
+      "confidence": 0.98,
+      "utterance_type": "decision_explanation",
+      "decision_link": "supports_in",
+      "timing": "original_pitch",
+      "turn_index": 110,
+      "quote": "I like hearing about you. I liked hearing about your path.",
+      "explanation": "Her positive reaction to the founder’s personal path helps explain her reversal of the pass.",
+      "evidence": [
+        "I like hearing about you. I liked hearing about your path."
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 110,
+          "speaker": "Jillian",
+          "quote": "I like hearing about you. I liked hearing about your path."
+        }
+      ],
+      "activation": "evaluated",
+      "source_rationale_id": "R11"
+    },
+    {
+      "rationale_label": "founder_qualities",
+      "direction": "positive",
+      "salience": "primary",
+      "confidence": 0.97,
+      "utterance_type": "decision_explanation",
+      "decision_link": "supports_in",
+      "timing": "original_pitch",
+      "turn_index": 112,
+      "quote": "we’re really investing in you. And I like your journey here",
+      "explanation": "She treats her positive assessment of the founder and his journey as central to investing.",
+      "evidence": [
+        "we’re really investing in you. And I like your journey here"
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 112,
+          "speaker": "Jillian",
+          "quote": "we’re really investing in you. And I like your journey here"
+        }
+      ],
+      "activation": "evaluated",
+      "source_rationale_id": "R12"
+    },
+    {
+      "rationale_label": "founder_execution",
+      "direction": "positive",
+      "salience": "primary",
+      "confidence": 0.98,
+      "utterance_type": "decision_explanation",
+      "decision_link": "supports_in",
+      "timing": "original_pitch",
+      "turn_index": 112,
+      "quote": "I like the fact that you’ve built this at Twitter. I mean, that speaks volumes to me.",
+      "explanation": "The founder’s prior execution experience at Twitter materially strengthens her willingness to invest.",
+      "evidence": [
+        "I like the fact that you’ve built this at Twitter. I mean, that speaks volumes to me."
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 112,
+          "speaker": "Jillian",
+          "quote": "I like the fact that you’ve built this at Twitter. I mean, that speaks volumes to me."
+        }
+      ],
+      "activation": "evaluated",
+      "source_rationale_id": "R13"
+    },
+    {
+      "rationale_label": "investor_value_add_fit",
+      "direction": "neutral",
+      "salience": "secondary",
+      "confidence": 0.95,
+      "utterance_type": "decision_explanation",
+      "decision_link": "supports_in",
+      "timing": "original_pitch",
+      "turn_index": 112,
+      "quote": "if this makes sense, of me being an investor and adding value",
+      "explanation": "She makes her prospective participation conditional on being an appropriate investor who can add value.",
+      "evidence": [
+        "if this makes sense, of me being an investor and adding value"
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 112,
+          "speaker": "Jillian",
+          "quote": "if this makes sense, of me being an investor and adding value"
+        }
+      ],
+      "activation": "evaluated",
+      "source_rationale_id": "R14"
+    },
+    {
+      "rationale_label": "fundraising_demand_signal",
+      "direction": "neutral",
+      "salience": "primary",
+      "confidence": 0.88,
+      "utterance_type": "decision_explanation",
+      "decision_link": "supports_in",
+      "timing": "original_pitch",
+      "turn_index": 114,
+      "quote": "But I would like to see the lead.",
+      "explanation": "Her prospective participation remains conditional on the company securing and identifying a lead investor.",
+      "evidence": [
+        "But I would like to see the lead."
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 114,
+          "speaker": "Jillian",
+          "quote": "But I would like to see the lead."
+        }
+      ],
+      "activation": "evaluated",
+      "source_rationale_id": "R15"
+    },
+    {
+      "rationale_label": "decision_context_constraint",
+      "direction": "positive",
+      "salience": "primary",
+      "confidence": 0.96,
+      "utterance_type": "decision_explanation",
+      "decision_link": "supports_in",
+      "timing": "original_pitch",
+      "turn_index": 114,
+      "quote": "I’m not going to pass because I’ve learnt so much more, and I’ve learned that you don’t pass prematurely when some of the key parts which was your background had been omitted",
+      "explanation": "She reverses her pass because the earlier decision was made before important founder-background information emerged.",
+      "evidence": [
+        "I’m not going to pass because I’ve learnt so much more, and I’ve learned that you don’t pass prematurely when some of the key parts which was your background had been omitted"
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 114,
+          "speaker": "Jillian",
+          "quote": "I’m not going to pass because I’ve learnt so much more, and I’ve learned that you don’t pass prematurely when some of the key parts which was your background had been omitted"
+        }
+      ],
+      "activation": "evaluated",
+      "source_rationale_id": "R16"
+    },
+    {
+      "rationale_label": "product_appeal_assessment",
+      "direction": "positive",
+      "salience": "secondary",
+      "confidence": 0.97,
+      "utterance_type": "assessment",
+      "decision_link": "none",
+      "timing": "original_pitch",
+      "turn_index": 123,
+      "quote": "I like the unclaimed assets.",
+      "explanation": "During the same-room debrief, she expresses positive interest in the unclaimed-assets product direction.",
+      "evidence": [
+        "I like the unclaimed assets."
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 123,
+          "speaker": "Jillian",
+          "quote": "I like the unclaimed assets."
+        }
+      ],
+      "activation": "evaluated",
+      "source_rationale_id": "R17"
+    },
+    {
+      "rationale_label": "founder_qualities",
+      "direction": "positive",
+      "salience": "primary",
+      "confidence": 0.98,
+      "utterance_type": "assessment",
+      "decision_link": "none",
+      "timing": "original_pitch",
+      "turn_index": 126,
+      "quote": "I think he is a winner. Absolutely.",
+      "explanation": "She gives the founder a strongly positive personal assessment.",
+      "evidence": [
+        "I think he is a winner. Absolutely."
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 126,
+          "speaker": "Jillian",
+          "quote": "I think he is a winner. Absolutely."
+        }
+      ],
+      "activation": "evaluated",
+      "source_rationale_id": "R18"
+    },
+    {
+      "rationale_label": "product_appeal_assessment",
+      "direction": "neutral",
+      "salience": "secondary",
+      "confidence": 0.94,
+      "utterance_type": "assessment",
+      "decision_link": "none",
+      "timing": "original_pitch",
+      "turn_index": 126,
+      "quote": "I'm going to take a look and see if the product is a winner as well.",
+      "explanation": "She distinguishes her confidence in the founder from her still-open evaluation of the product.",
+      "evidence": [
+        "I'm going to take a look and see if the product is a winner as well."
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 126,
+          "speaker": "Jillian",
+          "quote": "I'm going to take a look and see if the product is a winner as well."
+        }
+      ],
+      "activation": "evaluated",
+      "source_rationale_id": "R19"
+    }
+  ],
+  "expanded_quote_evidence": [],
+  "rejected_after_evidence_check": []
+}

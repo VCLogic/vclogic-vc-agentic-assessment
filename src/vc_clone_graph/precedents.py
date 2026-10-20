@@ -444,7 +444,10 @@ class PrecedentCorpus:
             if self.embedding_index.get(field) != actual[field]:
                 raise ValueError("precedent embedding index metadata is inconsistent")
         if self.require_complete_embeddings:
-            if actual["coverage"] != 1.0 or actual["dimension"] == 0:
+            # Holding out the last usable episode leaves a valid empty view.
+            # An unfiltered canonical index still requires actual embeddings.
+            empty_held_out_view = self.target_slug is not None and not self._episodes and not self._chunks
+            if not empty_held_out_view and (actual["coverage"] != 1.0 or actual["dimension"] == 0):
                 raise ValueError("complete precedent embedding index is required")
             identity_fields = (
                 "backend", "model", "revision", "normalize",

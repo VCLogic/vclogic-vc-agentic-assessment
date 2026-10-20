@@ -1,0 +1,737 @@
+{
+  "schema": "phase1-rationale-reference-v1",
+  "extraction_version": "pitchshow-rationales-v1",
+  "fingerprint": "1f5f34b8e07a0d92b33ff7c822aac40b14998b784adf92ef6c8190072e3c6fd4",
+  "episode_slug": "64-startup-sale-80-off",
+  "vc_slug": "sarah-downey-accomplice",
+  "vc_name": "Sarah Downey",
+  "actual_decision": "Out",
+  "later_decision": "Unknown",
+  "reference_kind": "automated_transcript_observed_candidate",
+  "human_validated": false,
+  "source_format": "transcript-observed-rationales-v1",
+  "source_path": "../source/episodes/64-startup-sale-80-off.json",
+  "source_sha256": "12d045ef3b50f1525b56c2efb6f70ef28fbb3563235a9540464b1d2bf94a4f6a",
+  "transcript_sha256": "bbd88e305ee94dd6d5f6ab1a34ec8cfc034a1193b6cdaf31b592e0d581e23a00",
+  "taxonomy_sha256": "eaa8734819a3ac34dd19ee5f0bf6de925a793a1d25a2d361090dafc9b751e1fc",
+  "model": "codex:gpt-5.6-luna+gpt-5.6-sol",
+  "generation_stages": [
+    {
+      "phase": "rationale_extract",
+      "backend": "codex",
+      "model": "gpt-5.6-luna"
+    },
+    {
+      "phase": "rationale_verify",
+      "backend": "codex",
+      "model": "gpt-5.6-sol"
+    }
+  ],
+  "source_tier": "newly_extracted_and_independently_model_reviewed",
+  "reviewed_target_turns": [
+    0,
+    4,
+    21,
+    23,
+    45,
+    115,
+    117,
+    136,
+    139,
+    141,
+    144,
+    156,
+    174,
+    176,
+    178,
+    180,
+    182,
+    184,
+    186,
+    188,
+    190,
+    192
+  ],
+  "notes": "All supplied target turns were reviewed; only exact substrings of attributed_text were used as evidence.",
+  "receipt_path": "receipts/64-startup-sale-80-off.json",
+  "scoring_scope": "original_pitch_only",
+  "shared_across_input_modes": true,
+  "rationales": [
+    {
+      "rationale_label": "business_model_assessment",
+      "direction": "neutral",
+      "salience": "secondary",
+      "confidence": 0.9,
+      "utterance_type": "question",
+      "decision_link": "none",
+      "timing": "original_pitch",
+      "turn_index": 23,
+      "quote": "What does the rev share look like with them?",
+      "explanation": "She probes the economics of the company’s data-provider arrangement.",
+      "evidence": [
+        "What does the rev share look like with them?"
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 23,
+          "speaker": "Sarah",
+          "quote": "What does the rev share look like with them?"
+        }
+      ],
+      "activation": "queried",
+      "source_rationale_id": "R2",
+      "utterance_kind": "question",
+      "decision_support": "none",
+      "all_mention_ids": [
+        "R2"
+      ]
+    },
+    {
+      "rationale_label": "founder_qualities",
+      "direction": "negative",
+      "salience": "primary",
+      "confidence": 0.99,
+      "utterance_type": "assessment",
+      "decision_link": "none",
+      "timing": "original_pitch",
+      "turn_index": 144,
+      "quote": "It’s just poor judgment.",
+      "explanation": "She treats the founders’ valuation and equity posture as evidence of poor judgment.",
+      "evidence": [
+        "Signal.",
+        "It’s just poor judgment."
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 141,
+          "speaker": "Sarah",
+          "quote": "Signal."
+        },
+        {
+          "turn_index": 144,
+          "speaker": "Sarah",
+          "quote": "It’s just poor judgment."
+        }
+      ],
+      "activation": "evaluated",
+      "source_rationale_id": "R8",
+      "utterance_kind": "assessment",
+      "decision_support": "none",
+      "all_mention_ids": [
+        "R5",
+        "R7",
+        "R8"
+      ]
+    },
+    {
+      "rationale_label": "founder_skillset",
+      "direction": "positive",
+      "salience": "secondary",
+      "confidence": 0.96,
+      "utterance_type": "assessment",
+      "decision_link": "none",
+      "timing": "original_pitch",
+      "turn_index": 115,
+      "quote": "I love seeing two female founders who are technical",
+      "explanation": "She positively assesses the founders’ technical capabilities.",
+      "evidence": [
+        "I love seeing two female founders who are technical"
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 115,
+          "speaker": "Sarah",
+          "quote": "I love seeing two female founders who are technical"
+        }
+      ],
+      "activation": "evaluated",
+      "source_rationale_id": "R4",
+      "utterance_kind": "assessment",
+      "decision_support": "none",
+      "all_mention_ids": [
+        "R4"
+      ]
+    },
+    {
+      "rationale_label": "go_to_market_strategy_assessment",
+      "direction": "negative",
+      "salience": "primary",
+      "confidence": 0.98,
+      "utterance_type": "assessment",
+      "decision_link": "none",
+      "timing": "original_pitch",
+      "turn_index": 45,
+      "quote": "to build an enterprise sales model, you need to have a machine, and that’s a really complicated in depth thing",
+      "explanation": "She is concerned that success depends on constructing a complex enterprise-sales operation.",
+      "evidence": [
+        "to build an enterprise sales model, you need to have a machine, and that’s a really complicated in depth thing"
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 45,
+          "speaker": "Sarah",
+          "quote": "to build an enterprise sales model, you need to have a machine, and that’s a really complicated in depth thing"
+        }
+      ],
+      "activation": "evaluated",
+      "source_rationale_id": "R3",
+      "utterance_kind": "concern",
+      "decision_support": "none",
+      "all_mention_ids": [
+        "R3"
+      ]
+    },
+    {
+      "rationale_label": "solution_feasibility_assessment",
+      "direction": "neutral",
+      "salience": "secondary",
+      "confidence": 0.86,
+      "utterance_type": "question",
+      "decision_link": "none",
+      "timing": "original_pitch",
+      "turn_index": 21,
+      "quote": "Can you get a little bit more into the data sources that you’re aggregating",
+      "explanation": "She requests factual detail about the data inputs underlying the product.",
+      "evidence": [
+        "Can you get a little bit more into the data sources that you’re aggregating"
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 21,
+          "speaker": "Sarah",
+          "quote": "Can you get a little bit more into the data sources that you’re aggregating"
+        }
+      ],
+      "activation": "queried",
+      "source_rationale_id": "R1",
+      "utterance_kind": "question",
+      "decision_support": "none",
+      "all_mention_ids": [
+        "R1"
+      ]
+    },
+    {
+      "rationale_label": "stage_valuation_mismatch",
+      "direction": "negative",
+      "salience": "primary",
+      "confidence": 0.94,
+      "utterance_type": "assessment",
+      "decision_link": "none",
+      "timing": "original_pitch",
+      "turn_index": 139,
+      "quote": "time stopped in this room and it was like matrix bullet timing. And we were like whaaaaat?",
+      "explanation": "She describes the room’s shocked negative reaction to the requested valuation.",
+      "evidence": [
+        "time stopped in this room and it was like matrix bullet timing. And we were like whaaaaat?",
+        "you still have to have facts or patterns or things to point to in the market"
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 139,
+          "speaker": "Sarah",
+          "quote": "time stopped in this room and it was like matrix bullet timing. And we were like whaaaaat?"
+        },
+        {
+          "turn_index": 156,
+          "speaker": "Sarah",
+          "quote": "you still have to have facts or patterns or things to point to in the market"
+        }
+      ],
+      "activation": "evaluated",
+      "source_rationale_id": "R6",
+      "utterance_kind": "assessment",
+      "decision_support": "none",
+      "all_mention_ids": [
+        "R6",
+        "R9"
+      ]
+    }
+  ],
+  "later_rationales": [
+    {
+      "rationale_label": "stage_valuation_mismatch",
+      "direction": "negative",
+      "salience": "primary",
+      "confidence": 0.99,
+      "utterance_type": "assessment",
+      "decision_link": "none",
+      "timing": "later_commentary",
+      "turn_index": 176,
+      "quote": "that $30 million ask was so big and so crazy",
+      "explanation": "She retrospectively characterizes the requested valuation as extraordinarily high.",
+      "evidence": [
+        "that $30 million ask was so big and so crazy"
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 176,
+          "speaker": "Sarah",
+          "quote": "that $30 million ask was so big and so crazy"
+        }
+      ],
+      "activation": "evaluated",
+      "source_rationale_id": "R10"
+    },
+    {
+      "rationale_label": "execution_risk_assessment",
+      "direction": "negative",
+      "salience": "secondary",
+      "confidence": 0.84,
+      "utterance_type": "assessment",
+      "decision_link": "none",
+      "timing": "later_commentary",
+      "turn_index": 176,
+      "quote": "they’re first-time founders. They were lawyers, so they weren’t really from the startup world",
+      "explanation": "She identifies the founders’ limited startup experience as context for their major valuation mistake.",
+      "evidence": [
+        "they’re first-time founders. They were lawyers, so they weren’t really from the startup world"
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 176,
+          "speaker": "Sarah",
+          "quote": "they’re first-time founders. They were lawyers, so they weren’t really from the startup world"
+        }
+      ],
+      "activation": "evaluated",
+      "source_rationale_id": "R11"
+    },
+    {
+      "rationale_label": "founder_coachability_assessment",
+      "direction": "positive",
+      "salience": "primary",
+      "confidence": 0.94,
+      "utterance_type": "assessment",
+      "decision_link": "none",
+      "timing": "later_commentary",
+      "turn_index": 180,
+      "quote": "a grittiness and a willingness to learn",
+      "explanation": "She identifies resilience and willingness to learn from mistakes as especially important founder attributes.",
+      "evidence": [
+        "a grittiness and a willingness to learn"
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 180,
+          "speaker": "Sarah",
+          "quote": "a grittiness and a willingness to learn"
+        }
+      ],
+      "activation": "evaluated",
+      "source_rationale_id": "R12"
+    },
+    {
+      "rationale_label": "founder_coachability_assessment",
+      "direction": "positive",
+      "salience": "secondary",
+      "confidence": 0.9,
+      "utterance_type": "assessment",
+      "decision_link": "none",
+      "timing": "later_commentary",
+      "turn_index": 182,
+      "quote": "coachability is good and learning is good",
+      "explanation": "She acknowledges responsiveness to feedback and learning as favorable founder traits.",
+      "evidence": [
+        "coachability is good and learning is good"
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 182,
+          "speaker": "Sarah",
+          "quote": "coachability is good and learning is good"
+        }
+      ],
+      "activation": "evaluated",
+      "source_rationale_id": "R13"
+    },
+    {
+      "rationale_label": "founder_qualities",
+      "direction": "negative",
+      "salience": "primary",
+      "confidence": 0.98,
+      "utterance_type": "assessment",
+      "decision_link": "none",
+      "timing": "later_commentary",
+      "turn_index": 182,
+      "quote": "going from 30 to six is such a big gap that you’re like, whoa, whoa, whoa. That doesn’t show good judgment either",
+      "explanation": "She views the founders’ immediate and drastic valuation reversal as further evidence of poor judgment.",
+      "evidence": [
+        "going from 30 to six is such a big gap that you’re like, whoa, whoa, whoa. That doesn’t show good judgment either"
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 182,
+          "speaker": "Sarah",
+          "quote": "going from 30 to six is such a big gap that you’re like, whoa, whoa, whoa. That doesn’t show good judgment either"
+        }
+      ],
+      "activation": "evaluated",
+      "source_rationale_id": "R14"
+    },
+    {
+      "rationale_label": "stage_valuation_mismatch",
+      "direction": "negative",
+      "salience": "secondary",
+      "confidence": 0.95,
+      "utterance_type": "assessment",
+      "decision_link": "none",
+      "timing": "later_commentary",
+      "turn_index": 184,
+      "quote": "that 30 million felt like, hey, we talked to some people and they said this number, and here it is",
+      "explanation": "She criticizes the valuation as adopted from others without a thoughtful, evidence-based rationale.",
+      "evidence": [
+        "that 30 million felt like, hey, we talked to some people and they said this number, and here it is"
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 184,
+          "speaker": "Sarah",
+          "quote": "that 30 million felt like, hey, we talked to some people and they said this number, and here it is"
+        }
+      ],
+      "activation": "evaluated",
+      "source_rationale_id": "R15"
+    },
+    {
+      "rationale_label": "stage_valuation_mismatch",
+      "direction": "negative",
+      "salience": "primary",
+      "confidence": 0.96,
+      "utterance_type": "concern",
+      "decision_link": "none",
+      "timing": "later_commentary",
+      "turn_index": 186,
+      "quote": "you have to create value to increase that over the next 12 to 18 months when you go out and fundraise again",
+      "explanation": "She explains that beginning at an excessive valuation creates a difficult value hurdle for the next financing round.",
+      "evidence": [
+        "you have to create value to increase that over the next 12 to 18 months when you go out and fundraise again"
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 186,
+          "speaker": "Sarah",
+          "quote": "you have to create value to increase that over the next 12 to 18 months when you go out and fundraise again"
+        }
+      ],
+      "activation": "evaluated",
+      "source_rationale_id": "R16"
+    },
+    {
+      "rationale_label": "fund_economics_constraint",
+      "direction": "negative",
+      "salience": "primary",
+      "confidence": 0.97,
+      "utterance_type": "concern",
+      "decision_link": "none",
+      "timing": "later_commentary",
+      "turn_index": 190,
+      "quote": "if I was gonna put 2 million bucks on a $30 million valuation, like I’m not getting a significant ownership piece of that",
+      "explanation": "She says the valuation prevents an investor’s check from securing enough ownership to sustain meaningful investment alignment.",
+      "evidence": [
+        "if I was gonna put 2 million bucks on a $30 million valuation, like I’m not getting a significant ownership piece of that"
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 190,
+          "speaker": "Sarah",
+          "quote": "if I was gonna put 2 million bucks on a $30 million valuation, like I’m not getting a significant ownership piece of that"
+        }
+      ],
+      "activation": "evaluated",
+      "source_rationale_id": "R17"
+    },
+    {
+      "rationale_label": "stage_valuation_mismatch",
+      "direction": "negative",
+      "salience": "primary",
+      "confidence": 0.99,
+      "utterance_type": "assessment",
+      "decision_link": "none",
+      "timing": "later_commentary",
+      "turn_index": 190,
+      "quote": "this is a pre-seed level company in terms of number of people and product development, and yet they’re asking for seed or more valuations",
+      "explanation": "She identifies a direct mismatch between the company’s development stage and its requested valuation.",
+      "evidence": [
+        "this is a pre-seed level company in terms of number of people and product development, and yet they’re asking for seed or more valuations"
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 190,
+          "speaker": "Sarah",
+          "quote": "this is a pre-seed level company in terms of number of people and product development, and yet they’re asking for seed or more valuations"
+        }
+      ],
+      "activation": "evaluated",
+      "source_rationale_id": "R18"
+    },
+    {
+      "rationale_label": "investor_value_add_fit",
+      "direction": "positive",
+      "salience": "secondary",
+      "confidence": 0.9,
+      "utterance_type": "supporting_argument",
+      "decision_link": "none",
+      "timing": "later_commentary",
+      "turn_index": 192,
+      "quote": "We’ve seen a lot of companies, we have pattern matching around crises",
+      "explanation": "She argues that experienced investors can help the company navigate difficult situations based on prior company experience.",
+      "evidence": [
+        "We’ve seen a lot of companies, we have pattern matching around crises"
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 192,
+          "speaker": "Sarah",
+          "quote": "We’ve seen a lot of companies, we have pattern matching around crises"
+        }
+      ],
+      "activation": "evaluated",
+      "source_rationale_id": "R19"
+    },
+    {
+      "rationale_label": "founder_coachability_assessment",
+      "direction": "negative",
+      "salience": "secondary",
+      "confidence": 0.82,
+      "utterance_type": "concern",
+      "decision_link": "none",
+      "timing": "later_commentary",
+      "turn_index": 192,
+      "quote": "you don’t trust us to help you in those situations, it’s just not a good relationship",
+      "explanation": "She says founders’ unwillingness to accept investor help or engage transparently undermines the investor relationship.",
+      "evidence": [
+        "you don’t trust us to help you in those situations, it’s just not a good relationship"
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 192,
+          "speaker": "Sarah",
+          "quote": "you don’t trust us to help you in those situations, it’s just not a good relationship"
+        }
+      ],
+      "activation": "evaluated",
+      "source_rationale_id": "R20"
+    }
+  ],
+  "excluded_rationales": [],
+  "rationale_mentions": [
+    {
+      "rationale_label": "solution_feasibility_assessment",
+      "direction": "neutral",
+      "salience": "secondary",
+      "confidence": 0.86,
+      "utterance_type": "question",
+      "decision_link": "none",
+      "timing": "original_pitch",
+      "turn_index": 21,
+      "quote": "Can you get a little bit more into the data sources that you’re aggregating",
+      "explanation": "She requests factual detail about the data inputs underlying the product.",
+      "evidence": [
+        "Can you get a little bit more into the data sources that you’re aggregating"
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 21,
+          "speaker": "Sarah",
+          "quote": "Can you get a little bit more into the data sources that you’re aggregating"
+        }
+      ],
+      "activation": "queried",
+      "source_rationale_id": "R1"
+    },
+    {
+      "rationale_label": "business_model_assessment",
+      "direction": "neutral",
+      "salience": "secondary",
+      "confidence": 0.9,
+      "utterance_type": "question",
+      "decision_link": "none",
+      "timing": "original_pitch",
+      "turn_index": 23,
+      "quote": "What does the rev share look like with them?",
+      "explanation": "She probes the economics of the company’s data-provider arrangement.",
+      "evidence": [
+        "What does the rev share look like with them?"
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 23,
+          "speaker": "Sarah",
+          "quote": "What does the rev share look like with them?"
+        }
+      ],
+      "activation": "queried",
+      "source_rationale_id": "R2"
+    },
+    {
+      "rationale_label": "go_to_market_strategy_assessment",
+      "direction": "negative",
+      "salience": "primary",
+      "confidence": 0.98,
+      "utterance_type": "concern",
+      "decision_link": "none",
+      "timing": "original_pitch",
+      "turn_index": 45,
+      "quote": "to build an enterprise sales model, you need to have a machine, and that’s a really complicated in depth thing",
+      "explanation": "She is concerned that success depends on constructing a complex enterprise-sales operation.",
+      "evidence": [
+        "to build an enterprise sales model, you need to have a machine, and that’s a really complicated in depth thing"
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 45,
+          "speaker": "Sarah",
+          "quote": "to build an enterprise sales model, you need to have a machine, and that’s a really complicated in depth thing"
+        }
+      ],
+      "activation": "evaluated",
+      "source_rationale_id": "R3"
+    },
+    {
+      "rationale_label": "founder_skillset",
+      "direction": "positive",
+      "salience": "secondary",
+      "confidence": 0.96,
+      "utterance_type": "assessment",
+      "decision_link": "none",
+      "timing": "original_pitch",
+      "turn_index": 115,
+      "quote": "I love seeing two female founders who are technical",
+      "explanation": "She positively assesses the founders’ technical capabilities.",
+      "evidence": [
+        "I love seeing two female founders who are technical"
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 115,
+          "speaker": "Sarah",
+          "quote": "I love seeing two female founders who are technical"
+        }
+      ],
+      "activation": "evaluated",
+      "source_rationale_id": "R4"
+    },
+    {
+      "rationale_label": "founder_qualities",
+      "direction": "positive",
+      "salience": "secondary",
+      "confidence": 0.94,
+      "utterance_type": "assessment",
+      "decision_link": "none",
+      "timing": "original_pitch",
+      "turn_index": 117,
+      "quote": "I love that you’re super confident",
+      "explanation": "She views the founders’ confidence favorably.",
+      "evidence": [
+        "I love that you’re super confident"
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 117,
+          "speaker": "Sarah",
+          "quote": "I love that you’re super confident"
+        }
+      ],
+      "activation": "evaluated",
+      "source_rationale_id": "R5"
+    },
+    {
+      "rationale_label": "stage_valuation_mismatch",
+      "direction": "negative",
+      "salience": "primary",
+      "confidence": 0.94,
+      "utterance_type": "assessment",
+      "decision_link": "none",
+      "timing": "original_pitch",
+      "turn_index": 139,
+      "quote": "time stopped in this room and it was like matrix bullet timing. And we were like whaaaaat?",
+      "explanation": "She describes the room’s shocked negative reaction to the requested valuation.",
+      "evidence": [
+        "time stopped in this room and it was like matrix bullet timing. And we were like whaaaaat?"
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 139,
+          "speaker": "Sarah",
+          "quote": "time stopped in this room and it was like matrix bullet timing. And we were like whaaaaat?"
+        }
+      ],
+      "activation": "evaluated",
+      "source_rationale_id": "R6"
+    },
+    {
+      "rationale_label": "founder_qualities",
+      "direction": "negative",
+      "salience": "secondary",
+      "confidence": 0.84,
+      "utterance_type": "assessment",
+      "decision_link": "none",
+      "timing": "original_pitch",
+      "turn_index": 141,
+      "quote": "Signal.",
+      "explanation": "She says the central concern was what the valuation request signaled about the founders, rather than only the number itself.",
+      "evidence": [
+        "Signal."
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 141,
+          "speaker": "Sarah",
+          "quote": "Signal."
+        }
+      ],
+      "activation": "evaluated",
+      "source_rationale_id": "R7"
+    },
+    {
+      "rationale_label": "founder_qualities",
+      "direction": "negative",
+      "salience": "primary",
+      "confidence": 0.99,
+      "utterance_type": "assessment",
+      "decision_link": "none",
+      "timing": "original_pitch",
+      "turn_index": 144,
+      "quote": "It’s just poor judgment.",
+      "explanation": "She treats the founders’ valuation and equity posture as evidence of poor judgment.",
+      "evidence": [
+        "It’s just poor judgment."
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 144,
+          "speaker": "Sarah",
+          "quote": "It’s just poor judgment."
+        }
+      ],
+      "activation": "evaluated",
+      "source_rationale_id": "R8"
+    },
+    {
+      "rationale_label": "stage_valuation_mismatch",
+      "direction": "negative",
+      "salience": "secondary",
+      "confidence": 0.95,
+      "utterance_type": "assessment",
+      "decision_link": "none",
+      "timing": "original_pitch",
+      "turn_index": 156,
+      "quote": "you still have to have facts or patterns or things to point to in the market",
+      "explanation": "She says a valuation must be supported by observable facts, comparable patterns, or market evidence.",
+      "evidence": [
+        "you still have to have facts or patterns or things to point to in the market"
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 156,
+          "speaker": "Sarah",
+          "quote": "you still have to have facts or patterns or things to point to in the market"
+        }
+      ],
+      "activation": "evaluated",
+      "source_rationale_id": "R9"
+    }
+  ],
+  "expanded_quote_evidence": [],
+  "rejected_after_evidence_check": []
+}

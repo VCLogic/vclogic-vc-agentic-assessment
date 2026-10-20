@@ -1,0 +1,1497 @@
+{
+  "schema": "phase1-rationale-reference-v1",
+  "extraction_version": "pitchshow-rationales-v1",
+  "fingerprint": "171d6391ad44fb6e6daca754b7270f009a3e9975ce6e989f4d11734c5890aa3f",
+  "episode_slug": "62-pivot-or-die",
+  "vc_slug": "michael-hyatt",
+  "vc_name": "Michael Hyatt",
+  "actual_decision": "In",
+  "later_decision": "Out",
+  "reference_kind": "automated_transcript_observed_candidate",
+  "human_validated": false,
+  "source_format": "transcript-observed-rationales-v1",
+  "source_path": "/home/dpasch01/vclogic-vc-agentic-assessment/evaluation/pitchshow/investors/michael-hyatt/source/episodes/62-pivot-or-die.json",
+  "source_sha256": "1eb042c0bd4055490da85c4d22b6e0499348675062cfdd159e5a31cb86029f6f",
+  "transcript_sha256": "d5b3de08a009e3870fccce95c6d9e279f98db9a3a924307aecfb0ff0f5e93d7a",
+  "taxonomy_sha256": "eaa8734819a3ac34dd19ee5f0bf6de925a793a1d25a2d361090dafc9b751e1fc",
+  "model": "codex:gpt-5.6-luna+gpt-5.6-sol",
+  "generation_stages": [
+    {
+      "phase": "rationale_extract",
+      "backend": "openrouter",
+      "model": "openai/gpt-5.6-luna"
+    },
+    {
+      "phase": "rationale_verify",
+      "backend": "openrouter",
+      "model": "openai/gpt-5.6-luna"
+    },
+    {
+      "phase": "rationale_verify",
+      "backend": "codex",
+      "model": "gpt-5.6-sol"
+    }
+  ],
+  "source_tier": "newly_extracted_and_independently_model_reviewed",
+  "reviewed_target_turns": [
+    0,
+    3,
+    23,
+    27,
+    29,
+    32,
+    34,
+    42,
+    44,
+    48,
+    50,
+    52,
+    54,
+    61,
+    64,
+    66,
+    68,
+    70,
+    81,
+    83,
+    86,
+    90,
+    92,
+    94,
+    96,
+    102,
+    104,
+    122,
+    128,
+    131,
+    134,
+    136,
+    138,
+    140,
+    142,
+    145,
+    147,
+    163
+  ],
+  "notes": "All supplied target turns were reviewed; jokes, simple confirmations, incomplete remarks, bare praise, and financing questions without a fitting taxonomy rationale were omitted.",
+  "receipt_path": "/home/dpasch01/vclogic-vc-agentic-assessment/evaluation/pitchshow/investors/michael-hyatt/rationale-references/receipts/62-pivot-or-die.json",
+  "scoring_scope": "original_pitch_only",
+  "shared_across_input_modes": true,
+  "rationales": [
+    {
+      "rationale_label": "business_model_assessment",
+      "direction": "neutral",
+      "salience": "secondary",
+      "confidence": 0.91,
+      "utterance_type": "question",
+      "decision_link": "none",
+      "timing": "original_pitch",
+      "turn_index": 48,
+      "quote": "And you’re just starting to charge the $99?",
+      "explanation": "Michael asks whether monetization of the SaaS offering has only just begun.",
+      "evidence": [
+        "Can you give us some unit economics behind it?",
+        "You’re going to go into a restaurant and change them $99 a month for a SAAS product",
+        "And they’re going to get a lot more than $99?",
+        "So they just pass through $99 to you?",
+        "And you’re just starting to charge the $99?"
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 27,
+          "speaker": "Michael",
+          "quote": "Can you give us some unit economics behind it?"
+        },
+        {
+          "turn_index": 32,
+          "speaker": "Michael",
+          "quote": "You’re going to go into a restaurant and change them $99 a month for a SAAS product"
+        },
+        {
+          "turn_index": 34,
+          "speaker": "Michael",
+          "quote": "And they’re going to get a lot more than $99?"
+        },
+        {
+          "turn_index": 44,
+          "speaker": "Michael",
+          "quote": "So they just pass through $99 to you?"
+        },
+        {
+          "turn_index": 48,
+          "speaker": "Michael",
+          "quote": "And you’re just starting to charge the $99?"
+        }
+      ],
+      "activation": "queried",
+      "source_rationale_id": "R8",
+      "utterance_kind": "question",
+      "decision_support": "none",
+      "all_mention_ids": [
+        "R3",
+        "R4",
+        "R5",
+        "R7",
+        "R8"
+      ]
+    },
+    {
+      "rationale_label": "business_viability_concern",
+      "direction": "negative",
+      "salience": "secondary",
+      "confidence": 0.97,
+      "utterance_type": "assessment",
+      "decision_link": "none",
+      "timing": "original_pitch",
+      "turn_index": 136,
+      "quote": "The problem is there wasn't margin, it wasn't working.",
+      "explanation": "Michael recalls that the company's original model lacked margin and was not economically viable.",
+      "evidence": [
+        "The problem is there wasn't margin, it wasn't working."
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 136,
+          "speaker": "Michael",
+          "quote": "The problem is there wasn't margin, it wasn't working."
+        }
+      ],
+      "activation": "evaluated",
+      "source_rationale_id": "R27",
+      "utterance_kind": "assessment",
+      "decision_support": "none",
+      "all_mention_ids": [
+        "R27"
+      ]
+    },
+    {
+      "rationale_label": "founder_coachability_assessment",
+      "direction": "positive",
+      "salience": "secondary",
+      "confidence": 0.99,
+      "utterance_type": "decision_reason",
+      "decision_link": "explicit",
+      "timing": "original_pitch",
+      "turn_index": 122,
+      "quote": "I think you're coachable",
+      "explanation": "Michael cites Ben's coachability among the reasons for his investment commitment.",
+      "evidence": [
+        "I think you're coachable"
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 122,
+          "speaker": "Michael",
+          "quote": "I think you're coachable"
+        }
+      ],
+      "activation": "evaluated",
+      "source_rationale_id": "R25",
+      "utterance_kind": "decision_explanation",
+      "decision_support": "supports_in",
+      "all_mention_ids": [
+        "R25"
+      ]
+    },
+    {
+      "rationale_label": "founder_communication_quality",
+      "direction": "positive",
+      "salience": "secondary",
+      "confidence": 0.98,
+      "utterance_type": "assessment",
+      "decision_link": "none",
+      "timing": "original_pitch",
+      "turn_index": 102,
+      "quote": "That's one of the best answers I've ever seen on this show.",
+      "explanation": "Michael praises the exceptional quality of the founder's candid response.",
+      "evidence": [
+        "That's one of the best answers I've ever seen on this show."
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 102,
+          "speaker": "Michael",
+          "quote": "That's one of the best answers I've ever seen on this show."
+        }
+      ],
+      "activation": "evaluated",
+      "source_rationale_id": "R21",
+      "utterance_kind": "assessment",
+      "decision_support": "none",
+      "all_mention_ids": [
+        "R21"
+      ]
+    },
+    {
+      "rationale_label": "founder_investor_vision_alignment",
+      "direction": "neutral",
+      "salience": "secondary",
+      "confidence": 0.9,
+      "utterance_type": "question",
+      "decision_link": "none",
+      "timing": "original_pitch",
+      "turn_index": 92,
+      "quote": "Would that be something that you would commit to?",
+      "explanation": "Michael tests whether the founder will commit to the sales-team direction Michael believes is necessary.",
+      "evidence": [
+        "Would that be something that you would commit to?"
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 92,
+          "speaker": "Michael",
+          "quote": "Would that be something that you would commit to?"
+        }
+      ],
+      "activation": "queried",
+      "source_rationale_id": "R17",
+      "utterance_kind": "question",
+      "decision_support": "none",
+      "all_mention_ids": [
+        "R17"
+      ]
+    },
+    {
+      "rationale_label": "founder_qualities",
+      "direction": "positive",
+      "salience": "primary",
+      "confidence": 0.99,
+      "utterance_type": "decision_reason",
+      "decision_link": "explicit",
+      "timing": "original_pitch",
+      "turn_index": 122,
+      "quote": "I think you are a five star entrepreneur.",
+      "explanation": "Michael directly cites his exceptionally positive assessment of Ben as a reason for investing.",
+      "evidence": [
+        "you the visionary, which clearly you are",
+        "it's a very brave pivot you're making.",
+        "I think you are a five star entrepreneur.",
+        "You've never given me BS."
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 94,
+          "speaker": "Michael",
+          "quote": "you the visionary, which clearly you are"
+        },
+        {
+          "turn_index": 102,
+          "speaker": "Michael",
+          "quote": "it's a very brave pivot you're making."
+        },
+        {
+          "turn_index": 122,
+          "speaker": "Michael",
+          "quote": "I think you are a five star entrepreneur."
+        },
+        {
+          "turn_index": 122,
+          "speaker": "Michael",
+          "quote": "You've never given me BS."
+        }
+      ],
+      "activation": "evaluated",
+      "source_rationale_id": "R24",
+      "utterance_kind": "decision_explanation",
+      "decision_support": "supports_in",
+      "all_mention_ids": [
+        "R19",
+        "R22",
+        "R24",
+        "R26"
+      ]
+    },
+    {
+      "rationale_label": "fundraising_demand_signal",
+      "direction": "neutral",
+      "salience": "secondary",
+      "confidence": 0.96,
+      "utterance_type": "question",
+      "decision_link": "none",
+      "timing": "original_pitch",
+      "turn_index": 86,
+      "quote": "And do you have any of the 800 filled out right now?",
+      "explanation": "Michael checks how much investor demand has already materialized for the round.",
+      "evidence": [
+        "And do you have any of the 800 filled out right now?"
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 86,
+          "speaker": "Michael",
+          "quote": "And do you have any of the 800 filled out right now?"
+        }
+      ],
+      "activation": "queried",
+      "source_rationale_id": "R15",
+      "utterance_kind": "question",
+      "decision_support": "none",
+      "all_mention_ids": [
+        "R15"
+      ]
+    },
+    {
+      "rationale_label": "go_to_market_strategy_assessment",
+      "direction": "negative",
+      "salience": "primary",
+      "confidence": 0.99,
+      "utterance_type": "assessment",
+      "decision_link": "none",
+      "timing": "original_pitch",
+      "turn_index": 122,
+      "quote": "Because my fear is that you don't accelerate sales fast enough to do our next raise at 8, 9 or 10 or 12 million.",
+      "explanation": "Michael identifies insufficient sales acceleration as his principal concern and conditions further discussion on funding a sales leader.",
+      "evidence": [
+        "Because you can’t do it alone.",
+        "Because my fear is that you don't accelerate sales fast enough to do our next raise at 8, 9 or 10 or 12 million."
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 96,
+          "speaker": "Michael",
+          "quote": "Because you can’t do it alone."
+        },
+        {
+          "turn_index": 122,
+          "speaker": "Michael",
+          "quote": "Because my fear is that you don't accelerate sales fast enough to do our next raise at 8, 9 or 10 or 12 million."
+        }
+      ],
+      "activation": "evaluated",
+      "source_rationale_id": "R23",
+      "utterance_kind": "concern",
+      "decision_support": "unclear",
+      "all_mention_ids": [
+        "R10",
+        "R16",
+        "R18",
+        "R20",
+        "R23"
+      ]
+    },
+    {
+      "rationale_label": "growth_projection_risk",
+      "direction": "neutral",
+      "salience": "secondary",
+      "confidence": 0.94,
+      "utterance_type": "question",
+      "decision_link": "none",
+      "timing": "original_pitch",
+      "turn_index": 50,
+      "quote": "And so 12 months from now, what do you think the monthly, the MRR would be?",
+      "explanation": "Michael requests the company's projected recurring revenue after twelve months.",
+      "evidence": [
+        "And so 12 months from now, what do you think the monthly, the MRR would be?"
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 50,
+          "speaker": "Michael",
+          "quote": "And so 12 months from now, what do you think the monthly, the MRR would be?"
+        }
+      ],
+      "activation": "queried",
+      "source_rationale_id": "R9",
+      "utterance_kind": "question",
+      "decision_support": "none",
+      "all_mention_ids": [
+        "R9"
+      ]
+    },
+    {
+      "rationale_label": "investment_upside_assessment",
+      "direction": "positive",
+      "salience": "secondary",
+      "confidence": 0.94,
+      "utterance_type": "assessment",
+      "decision_link": "none",
+      "timing": "original_pitch",
+      "turn_index": 138,
+      "quote": "why wouldn't an app like Ritual want to have dynamic pricing, and just take these data scientists and go",
+      "explanation": "Michael argues that the technology and data-science team could be strategically attractive to an acquirer.",
+      "evidence": [
+        "why wouldn't an app like Ritual want to have dynamic pricing, and just take these data scientists and go"
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 138,
+          "speaker": "Michael",
+          "quote": "why wouldn't an app like Ritual want to have dynamic pricing, and just take these data scientists and go"
+        }
+      ],
+      "activation": "evaluated",
+      "source_rationale_id": "R30",
+      "utterance_kind": "supporting_argument",
+      "decision_support": "none",
+      "all_mention_ids": [
+        "R29",
+        "R30"
+      ]
+    },
+    {
+      "rationale_label": "market_problem_validation",
+      "direction": "positive",
+      "salience": "secondary",
+      "confidence": 0.87,
+      "utterance_type": "assessment",
+      "decision_link": "none",
+      "timing": "original_pitch",
+      "turn_index": 145,
+      "quote": "We've been pricing food the same way for 2000 years. Literally.",
+      "explanation": "Michael presents the exceptionally old pricing status quo as support for modernizing restaurant pricing.",
+      "evidence": [
+        "Yeah. It's been around for a thousand years.",
+        "We've been pricing food the same way for 2000 years. Literally."
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 70,
+          "speaker": "Michael",
+          "quote": "Yeah. It's been around for a thousand years."
+        },
+        {
+          "turn_index": 145,
+          "speaker": "Michael",
+          "quote": "We've been pricing food the same way for 2000 years. Literally."
+        }
+      ],
+      "activation": "evaluated",
+      "source_rationale_id": "R32",
+      "utterance_kind": "supporting_argument",
+      "decision_support": "none",
+      "all_mention_ids": [
+        "R14",
+        "R32"
+      ]
+    },
+    {
+      "rationale_label": "market_timing",
+      "direction": "positive",
+      "salience": "primary",
+      "confidence": 0.99,
+      "utterance_type": "decision_reason",
+      "decision_link": "explicit",
+      "timing": "original_pitch",
+      "turn_index": 136,
+      "quote": "Dynamic pricing is happening, I just don't know how it's going to happen. I'd like to be part of it.",
+      "explanation": "Michael explicitly links his belief in the emerging dynamic-pricing category to his desire to participate.",
+      "evidence": [
+        "Because everyone's going to be dynamic pricing.",
+        "Dynamic pricing is happening, I just don't know how it's going to happen. I'd like to be part of it."
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 68,
+          "speaker": "Michael",
+          "quote": "Because everyone's going to be dynamic pricing."
+        },
+        {
+          "turn_index": 136,
+          "speaker": "Michael",
+          "quote": "Dynamic pricing is happening, I just don't know how it's going to happen. I'd like to be part of it."
+        }
+      ],
+      "activation": "evaluated",
+      "source_rationale_id": "R28",
+      "utterance_kind": "decision_explanation",
+      "decision_support": "supports_in",
+      "all_mention_ids": [
+        "R13",
+        "R28"
+      ]
+    },
+    {
+      "rationale_label": "product_adoption",
+      "direction": "neutral",
+      "salience": "secondary",
+      "confidence": 0.91,
+      "utterance_type": "question",
+      "decision_link": "none",
+      "timing": "original_pitch",
+      "turn_index": 27,
+      "quote": "Can you walk us through a real case example of someone in Toronto who is using this?",
+      "explanation": "Michael requests a concrete example demonstrating actual customer use.",
+      "evidence": [
+        "Can you walk us through a real case example of someone in Toronto who is using this?"
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 27,
+          "speaker": "Michael",
+          "quote": "Can you walk us through a real case example of someone in Toronto who is using this?"
+        }
+      ],
+      "activation": "queried",
+      "source_rationale_id": "R2",
+      "utterance_kind": "question",
+      "decision_support": "none",
+      "all_mention_ids": [
+        "R2"
+      ]
+    },
+    {
+      "rationale_label": "product_appeal_assessment",
+      "direction": "positive",
+      "salience": "secondary",
+      "confidence": 0.96,
+      "utterance_type": "assessment",
+      "decision_link": "none",
+      "timing": "original_pitch",
+      "turn_index": 142,
+      "quote": "Dynamic pricing just makes sense.",
+      "explanation": "Michael expresses a strongly positive personal assessment of the core product concept.",
+      "evidence": [
+        "Dynamic pricing just makes sense."
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 142,
+          "speaker": "Michael",
+          "quote": "Dynamic pricing just makes sense."
+        }
+      ],
+      "activation": "evaluated",
+      "source_rationale_id": "R31",
+      "utterance_kind": "assessment",
+      "decision_support": "none",
+      "all_mention_ids": [
+        "R31"
+      ]
+    },
+    {
+      "rationale_label": "product_success_factor_assessment",
+      "direction": "neutral",
+      "salience": "secondary",
+      "confidence": 0.91,
+      "utterance_type": "question",
+      "decision_link": "none",
+      "timing": "original_pitch",
+      "turn_index": 66,
+      "quote": "But isn't the holy grail you and the dynamic board at the top?",
+      "explanation": "Michael identifies dynamic in-store menu boards as what he sees as the product's key endpoint.",
+      "evidence": [
+        "But isn't the holy grail you and the dynamic board at the top?"
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 66,
+          "speaker": "Michael",
+          "quote": "But isn't the holy grail you and the dynamic board at the top?"
+        }
+      ],
+      "activation": "queried",
+      "source_rationale_id": "R12",
+      "utterance_kind": "question",
+      "decision_support": "none",
+      "all_mention_ids": [
+        "R12"
+      ]
+    },
+    {
+      "rationale_label": "solution_feasibility_assessment",
+      "direction": "neutral",
+      "salience": "secondary",
+      "confidence": 0.95,
+      "utterance_type": "question",
+      "decision_link": "none",
+      "timing": "original_pitch",
+      "turn_index": 64,
+      "quote": "How would they push out dynamic pricing to 400 Freshiis?",
+      "explanation": "Michael asks how the solution could be operationally deployed across a large restaurant chain.",
+      "evidence": [
+        "How would they push out dynamic pricing to 400 Freshiis?"
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 64,
+          "speaker": "Michael",
+          "quote": "How would they push out dynamic pricing to 400 Freshiis?"
+        }
+      ],
+      "activation": "queried",
+      "source_rationale_id": "R11",
+      "utterance_kind": "question",
+      "decision_support": "none",
+      "all_mention_ids": [
+        "R11"
+      ]
+    },
+    {
+      "rationale_label": "unit_economics_assessment",
+      "direction": "neutral",
+      "salience": "secondary",
+      "confidence": 0.97,
+      "utterance_type": "question",
+      "decision_link": "none",
+      "timing": "original_pitch",
+      "turn_index": 42,
+      "quote": "What happens to your gross margin, though",
+      "explanation": "Michael probes how the distribution partnership affects the company's gross margin.",
+      "evidence": [
+        "What happens to your gross margin, though"
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 42,
+          "speaker": "Michael",
+          "quote": "What happens to your gross margin, though"
+        }
+      ],
+      "activation": "queried",
+      "source_rationale_id": "R6",
+      "utterance_kind": "question",
+      "decision_support": "none",
+      "all_mention_ids": [
+        "R6"
+      ]
+    }
+  ],
+  "later_rationales": [
+    {
+      "rationale_label": "investor_experience_bias",
+      "direction": "negative",
+      "salience": "secondary",
+      "confidence": 0.96,
+      "utterance_type": "assessment",
+      "decision_link": "unclear",
+      "timing": "later_commentary",
+      "turn_index": 163,
+      "quote": "Full disclosure I've known Ben before the pitch and and so I've been watching him for a while and he's pivoted a few times.",
+      "explanation": "Michael frames his later judgment through his prior history watching Ben and the company's repeated pivots.",
+      "evidence": [
+        "Full disclosure I've known Ben before the pitch and and so I've been watching him for a while and he's pivoted a few times."
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 163,
+          "speaker": "Michael",
+          "quote": "Full disclosure I've known Ben before the pitch and and so I've been watching him for a while and he's pivoted a few times."
+        }
+      ],
+      "activation": "evaluated",
+      "source_rationale_id": "R33"
+    },
+    {
+      "rationale_label": "traction_repeatability_concern",
+      "direction": "negative",
+      "salience": "primary",
+      "confidence": 0.98,
+      "utterance_type": "decision_explanation",
+      "decision_link": "supports_out",
+      "timing": "later_commentary",
+      "turn_index": 163,
+      "quote": "he's not really picking up the client basis as he could",
+      "explanation": "Michael identifies insufficient customer acquisition as evidence that the new direction has not gained adequate traction.",
+      "evidence": [
+        "he's not really picking up the client basis as he could"
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 163,
+          "speaker": "Michael",
+          "quote": "he's not really picking up the client basis as he could"
+        }
+      ],
+      "activation": "evaluated",
+      "source_rationale_id": "R34"
+    },
+    {
+      "rationale_label": "business_viability_concern",
+      "direction": "negative",
+      "salience": "primary",
+      "confidence": 1.0,
+      "utterance_type": "decision_explanation",
+      "decision_link": "supports_out",
+      "timing": "later_commentary",
+      "turn_index": 163,
+      "quote": "It sounds like what he's doing isn't working yet. That's fundamentally why I haven't invested.",
+      "explanation": "Michael explicitly says the business has not demonstrated that it works and identifies this as the fundamental reason he did not invest.",
+      "evidence": [
+        "It sounds like what he's doing isn't working yet. That's fundamentally why I haven't invested."
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 163,
+          "speaker": "Michael",
+          "quote": "It sounds like what he's doing isn't working yet. That's fundamentally why I haven't invested."
+        }
+      ],
+      "activation": "evaluated",
+      "source_rationale_id": "R35"
+    }
+  ],
+  "excluded_rationales": [
+    {
+      "rationale_label": "founder_communication_quality",
+      "direction": "positive",
+      "salience": "secondary",
+      "confidence": 0.97,
+      "utterance_type": "assessment",
+      "decision_link": "none",
+      "timing": "teaser",
+      "turn_index": 0,
+      "quote": "That's one of the best answers I've ever seen on this show.",
+      "explanation": "Michael praises the quality of the founder's answer in the opening preview.",
+      "evidence": [
+        "That's one of the best answers I've ever seen on this show."
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 0,
+          "speaker": "Michael",
+          "quote": "That's one of the best answers I've ever seen on this show."
+        }
+      ],
+      "activation": "evaluated",
+      "source_rationale_id": "R1"
+    }
+  ],
+  "rationale_mentions": [
+    {
+      "rationale_label": "product_adoption",
+      "direction": "neutral",
+      "salience": "secondary",
+      "confidence": 0.91,
+      "utterance_type": "question",
+      "decision_link": "none",
+      "timing": "original_pitch",
+      "turn_index": 27,
+      "quote": "Can you walk us through a real case example of someone in Toronto who is using this?",
+      "explanation": "Michael requests a concrete example demonstrating actual customer use.",
+      "evidence": [
+        "Can you walk us through a real case example of someone in Toronto who is using this?"
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 27,
+          "speaker": "Michael",
+          "quote": "Can you walk us through a real case example of someone in Toronto who is using this?"
+        }
+      ],
+      "activation": "queried",
+      "source_rationale_id": "R2"
+    },
+    {
+      "rationale_label": "business_model_assessment",
+      "direction": "neutral",
+      "salience": "secondary",
+      "confidence": 0.95,
+      "utterance_type": "question",
+      "decision_link": "none",
+      "timing": "original_pitch",
+      "turn_index": 27,
+      "quote": "Can you give us some unit economics behind it?",
+      "explanation": "Michael asks how the company makes money and what its underlying economics look like.",
+      "evidence": [
+        "Can you give us some unit economics behind it?"
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 27,
+          "speaker": "Michael",
+          "quote": "Can you give us some unit economics behind it?"
+        }
+      ],
+      "activation": "queried",
+      "source_rationale_id": "R3"
+    },
+    {
+      "rationale_label": "business_model_assessment",
+      "direction": "neutral",
+      "salience": "secondary",
+      "confidence": 0.96,
+      "utterance_type": "question",
+      "decision_link": "none",
+      "timing": "original_pitch",
+      "turn_index": 32,
+      "quote": "You’re going to go into a restaurant and change them $99 a month for a SAAS product",
+      "explanation": "Michael clarifies the proposed SaaS pricing and monetization model.",
+      "evidence": [
+        "You’re going to go into a restaurant and change them $99 a month for a SAAS product"
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 32,
+          "speaker": "Michael",
+          "quote": "You’re going to go into a restaurant and change them $99 a month for a SAAS product"
+        }
+      ],
+      "activation": "queried",
+      "source_rationale_id": "R4"
+    },
+    {
+      "rationale_label": "business_model_assessment",
+      "direction": "neutral",
+      "salience": "secondary",
+      "confidence": 0.94,
+      "utterance_type": "question",
+      "decision_link": "none",
+      "timing": "original_pitch",
+      "turn_index": 34,
+      "quote": "And they’re going to get a lot more than $99?",
+      "explanation": "Michael tests whether the customer value created substantially exceeds the subscription price.",
+      "evidence": [
+        "And they’re going to get a lot more than $99?"
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 34,
+          "speaker": "Michael",
+          "quote": "And they’re going to get a lot more than $99?"
+        }
+      ],
+      "activation": "queried",
+      "source_rationale_id": "R5"
+    },
+    {
+      "rationale_label": "unit_economics_assessment",
+      "direction": "neutral",
+      "salience": "secondary",
+      "confidence": 0.97,
+      "utterance_type": "question",
+      "decision_link": "none",
+      "timing": "original_pitch",
+      "turn_index": 42,
+      "quote": "What happens to your gross margin, though",
+      "explanation": "Michael probes how the distribution partnership affects the company's gross margin.",
+      "evidence": [
+        "What happens to your gross margin, though"
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 42,
+          "speaker": "Michael",
+          "quote": "What happens to your gross margin, though"
+        }
+      ],
+      "activation": "queried",
+      "source_rationale_id": "R6"
+    },
+    {
+      "rationale_label": "business_model_assessment",
+      "direction": "neutral",
+      "salience": "secondary",
+      "confidence": 0.96,
+      "utterance_type": "question",
+      "decision_link": "none",
+      "timing": "original_pitch",
+      "turn_index": 44,
+      "quote": "So they just pass through $99 to you?",
+      "explanation": "Michael clarifies whether Feedback retains all subscription revenue from the partner channel.",
+      "evidence": [
+        "So they just pass through $99 to you?"
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 44,
+          "speaker": "Michael",
+          "quote": "So they just pass through $99 to you?"
+        }
+      ],
+      "activation": "queried",
+      "source_rationale_id": "R7"
+    },
+    {
+      "rationale_label": "business_model_assessment",
+      "direction": "neutral",
+      "salience": "secondary",
+      "confidence": 0.91,
+      "utterance_type": "question",
+      "decision_link": "none",
+      "timing": "original_pitch",
+      "turn_index": 48,
+      "quote": "And you’re just starting to charge the $99?",
+      "explanation": "Michael asks whether monetization of the SaaS offering has only just begun.",
+      "evidence": [
+        "And you’re just starting to charge the $99?"
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 48,
+          "speaker": "Michael",
+          "quote": "And you’re just starting to charge the $99?"
+        }
+      ],
+      "activation": "queried",
+      "source_rationale_id": "R8"
+    },
+    {
+      "rationale_label": "growth_projection_risk",
+      "direction": "neutral",
+      "salience": "secondary",
+      "confidence": 0.94,
+      "utterance_type": "question",
+      "decision_link": "none",
+      "timing": "original_pitch",
+      "turn_index": 50,
+      "quote": "And so 12 months from now, what do you think the monthly, the MRR would be?",
+      "explanation": "Michael requests the company's projected recurring revenue after twelve months.",
+      "evidence": [
+        "And so 12 months from now, what do you think the monthly, the MRR would be?"
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 50,
+          "speaker": "Michael",
+          "quote": "And so 12 months from now, what do you think the monthly, the MRR would be?"
+        }
+      ],
+      "activation": "queried",
+      "source_rationale_id": "R9"
+    },
+    {
+      "rationale_label": "go_to_market_strategy_assessment",
+      "direction": "neutral",
+      "salience": "secondary",
+      "confidence": 0.98,
+      "utterance_type": "question",
+      "decision_link": "none",
+      "timing": "original_pitch",
+      "turn_index": 61,
+      "quote": "How do you physically sign a restaurant?",
+      "explanation": "Michael probes the practical customer-acquisition and enterprise sales motion.",
+      "evidence": [
+        "How do you physically sign a restaurant?"
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 61,
+          "speaker": "Michael",
+          "quote": "How do you physically sign a restaurant?"
+        }
+      ],
+      "activation": "queried",
+      "source_rationale_id": "R10"
+    },
+    {
+      "rationale_label": "solution_feasibility_assessment",
+      "direction": "neutral",
+      "salience": "secondary",
+      "confidence": 0.95,
+      "utterance_type": "question",
+      "decision_link": "none",
+      "timing": "original_pitch",
+      "turn_index": 64,
+      "quote": "How would they push out dynamic pricing to 400 Freshiis?",
+      "explanation": "Michael asks how the solution could be operationally deployed across a large restaurant chain.",
+      "evidence": [
+        "How would they push out dynamic pricing to 400 Freshiis?"
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 64,
+          "speaker": "Michael",
+          "quote": "How would they push out dynamic pricing to 400 Freshiis?"
+        }
+      ],
+      "activation": "queried",
+      "source_rationale_id": "R11"
+    },
+    {
+      "rationale_label": "product_success_factor_assessment",
+      "direction": "neutral",
+      "salience": "secondary",
+      "confidence": 0.91,
+      "utterance_type": "question",
+      "decision_link": "none",
+      "timing": "original_pitch",
+      "turn_index": 66,
+      "quote": "But isn't the holy grail you and the dynamic board at the top?",
+      "explanation": "Michael identifies dynamic in-store menu boards as what he sees as the product's key endpoint.",
+      "evidence": [
+        "But isn't the holy grail you and the dynamic board at the top?"
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 66,
+          "speaker": "Michael",
+          "quote": "But isn't the holy grail you and the dynamic board at the top?"
+        }
+      ],
+      "activation": "queried",
+      "source_rationale_id": "R12"
+    },
+    {
+      "rationale_label": "market_timing",
+      "direction": "positive",
+      "salience": "secondary",
+      "confidence": 0.91,
+      "utterance_type": "supporting_argument",
+      "decision_link": "none",
+      "timing": "original_pitch",
+      "turn_index": 68,
+      "quote": "Because everyone's going to be dynamic pricing.",
+      "explanation": "Michael expresses confidence that dynamic pricing will become widespread.",
+      "evidence": [
+        "Because everyone's going to be dynamic pricing."
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 68,
+          "speaker": "Michael",
+          "quote": "Because everyone's going to be dynamic pricing."
+        }
+      ],
+      "activation": "evaluated",
+      "source_rationale_id": "R13"
+    },
+    {
+      "rationale_label": "market_problem_validation",
+      "direction": "positive",
+      "salience": "secondary",
+      "confidence": 0.82,
+      "utterance_type": "supporting_argument",
+      "decision_link": "none",
+      "timing": "original_pitch",
+      "turn_index": 70,
+      "quote": "Yeah. It's been around for a thousand years.",
+      "explanation": "Michael affirms that the existing restaurant-pricing convention is extremely longstanding, supporting the case for changing it.",
+      "evidence": [
+        "Yeah. It's been around for a thousand years."
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 70,
+          "speaker": "Michael",
+          "quote": "Yeah. It's been around for a thousand years."
+        }
+      ],
+      "activation": "evaluated",
+      "source_rationale_id": "R14"
+    },
+    {
+      "rationale_label": "fundraising_demand_signal",
+      "direction": "neutral",
+      "salience": "secondary",
+      "confidence": 0.96,
+      "utterance_type": "question",
+      "decision_link": "none",
+      "timing": "original_pitch",
+      "turn_index": 86,
+      "quote": "And do you have any of the 800 filled out right now?",
+      "explanation": "Michael checks how much investor demand has already materialized for the round.",
+      "evidence": [
+        "And do you have any of the 800 filled out right now?"
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 86,
+          "speaker": "Michael",
+          "quote": "And do you have any of the 800 filled out right now?"
+        }
+      ],
+      "activation": "queried",
+      "source_rationale_id": "R15"
+    },
+    {
+      "rationale_label": "go_to_market_strategy_assessment",
+      "direction": "neutral",
+      "salience": "secondary",
+      "confidence": 0.97,
+      "utterance_type": "question",
+      "decision_link": "none",
+      "timing": "original_pitch",
+      "turn_index": 90,
+      "quote": "would you be open to hiring a strong sales leader who could help you accelerate things faster?",
+      "explanation": "Michael asks whether the company would add experienced sales leadership to accelerate growth.",
+      "evidence": [
+        "would you be open to hiring a strong sales leader who could help you accelerate things faster?"
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 90,
+          "speaker": "Michael",
+          "quote": "would you be open to hiring a strong sales leader who could help you accelerate things faster?"
+        }
+      ],
+      "activation": "queried",
+      "source_rationale_id": "R16"
+    },
+    {
+      "rationale_label": "founder_investor_vision_alignment",
+      "direction": "neutral",
+      "salience": "secondary",
+      "confidence": 0.9,
+      "utterance_type": "question",
+      "decision_link": "none",
+      "timing": "original_pitch",
+      "turn_index": 92,
+      "quote": "Would that be something that you would commit to?",
+      "explanation": "Michael tests whether the founder will commit to the sales-team direction Michael believes is necessary.",
+      "evidence": [
+        "Would that be something that you would commit to?"
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 92,
+          "speaker": "Michael",
+          "quote": "Would that be something that you would commit to?"
+        }
+      ],
+      "activation": "queried",
+      "source_rationale_id": "R17"
+    },
+    {
+      "rationale_label": "go_to_market_strategy_assessment",
+      "direction": "neutral",
+      "salience": "secondary",
+      "confidence": 0.96,
+      "utterance_type": "question",
+      "decision_link": "none",
+      "timing": "original_pitch",
+      "turn_index": 94,
+      "quote": "would you bring someone on who maybe has a lot of restaurant connections and can accelerate?",
+      "explanation": "Michael asks whether the founder will recruit someone whose restaurant network can accelerate enterprise sales.",
+      "evidence": [
+        "would you bring someone on who maybe has a lot of restaurant connections and can accelerate?"
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 94,
+          "speaker": "Michael",
+          "quote": "would you bring someone on who maybe has a lot of restaurant connections and can accelerate?"
+        }
+      ],
+      "activation": "queried",
+      "source_rationale_id": "R18"
+    },
+    {
+      "rationale_label": "founder_qualities",
+      "direction": "positive",
+      "salience": "secondary",
+      "confidence": 0.96,
+      "utterance_type": "assessment",
+      "decision_link": "none",
+      "timing": "original_pitch",
+      "turn_index": 94,
+      "quote": "you the visionary, which clearly you are",
+      "explanation": "Michael positively assesses Ben as a visionary founder.",
+      "evidence": [
+        "you the visionary, which clearly you are"
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 94,
+          "speaker": "Michael",
+          "quote": "you the visionary, which clearly you are"
+        }
+      ],
+      "activation": "evaluated",
+      "source_rationale_id": "R19"
+    },
+    {
+      "rationale_label": "go_to_market_strategy_assessment",
+      "direction": "negative",
+      "salience": "secondary",
+      "confidence": 0.97,
+      "utterance_type": "concern",
+      "decision_link": "none",
+      "timing": "original_pitch",
+      "turn_index": 96,
+      "quote": "Because you can’t do it alone.",
+      "explanation": "Michael states that the founder cannot execute the necessary sales expansion without additional help.",
+      "evidence": [
+        "Because you can’t do it alone."
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 96,
+          "speaker": "Michael",
+          "quote": "Because you can’t do it alone."
+        }
+      ],
+      "activation": "evaluated",
+      "source_rationale_id": "R20"
+    },
+    {
+      "rationale_label": "founder_communication_quality",
+      "direction": "positive",
+      "salience": "secondary",
+      "confidence": 0.98,
+      "utterance_type": "assessment",
+      "decision_link": "none",
+      "timing": "original_pitch",
+      "turn_index": 102,
+      "quote": "That's one of the best answers I've ever seen on this show.",
+      "explanation": "Michael praises the exceptional quality of the founder's candid response.",
+      "evidence": [
+        "That's one of the best answers I've ever seen on this show."
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 102,
+          "speaker": "Michael",
+          "quote": "That's one of the best answers I've ever seen on this show."
+        }
+      ],
+      "activation": "evaluated",
+      "source_rationale_id": "R21"
+    },
+    {
+      "rationale_label": "founder_qualities",
+      "direction": "positive",
+      "salience": "secondary",
+      "confidence": 0.97,
+      "utterance_type": "assessment",
+      "decision_link": "none",
+      "timing": "original_pitch",
+      "turn_index": 102,
+      "quote": "it's a very brave pivot you're making.",
+      "explanation": "Michael praises the founder's courage in undertaking the pivot.",
+      "evidence": [
+        "it's a very brave pivot you're making."
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 102,
+          "speaker": "Michael",
+          "quote": "it's a very brave pivot you're making."
+        }
+      ],
+      "activation": "evaluated",
+      "source_rationale_id": "R22"
+    },
+    {
+      "rationale_label": "go_to_market_strategy_assessment",
+      "direction": "negative",
+      "salience": "primary",
+      "confidence": 0.99,
+      "utterance_type": "concern",
+      "decision_link": "unclear",
+      "timing": "original_pitch",
+      "turn_index": 122,
+      "quote": "Because my fear is that you don't accelerate sales fast enough to do our next raise at 8, 9 or 10 or 12 million.",
+      "explanation": "Michael identifies insufficient sales acceleration as his principal concern and conditions further discussion on funding a sales leader.",
+      "evidence": [
+        "Because my fear is that you don't accelerate sales fast enough to do our next raise at 8, 9 or 10 or 12 million."
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 122,
+          "speaker": "Michael",
+          "quote": "Because my fear is that you don't accelerate sales fast enough to do our next raise at 8, 9 or 10 or 12 million."
+        }
+      ],
+      "activation": "evaluated",
+      "source_rationale_id": "R23"
+    },
+    {
+      "rationale_label": "founder_qualities",
+      "direction": "positive",
+      "salience": "primary",
+      "confidence": 0.99,
+      "utterance_type": "decision_explanation",
+      "decision_link": "supports_in",
+      "timing": "original_pitch",
+      "turn_index": 122,
+      "quote": "I think you are a five star entrepreneur.",
+      "explanation": "Michael directly cites his exceptionally positive assessment of Ben as a reason for investing.",
+      "evidence": [
+        "I think you are a five star entrepreneur."
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 122,
+          "speaker": "Michael",
+          "quote": "I think you are a five star entrepreneur."
+        }
+      ],
+      "activation": "evaluated",
+      "source_rationale_id": "R24"
+    },
+    {
+      "rationale_label": "founder_coachability_assessment",
+      "direction": "positive",
+      "salience": "secondary",
+      "confidence": 0.99,
+      "utterance_type": "decision_explanation",
+      "decision_link": "supports_in",
+      "timing": "original_pitch",
+      "turn_index": 122,
+      "quote": "I think you're coachable",
+      "explanation": "Michael cites Ben's coachability among the reasons for his investment commitment.",
+      "evidence": [
+        "I think you're coachable"
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 122,
+          "speaker": "Michael",
+          "quote": "I think you're coachable"
+        }
+      ],
+      "activation": "evaluated",
+      "source_rationale_id": "R25"
+    },
+    {
+      "rationale_label": "founder_qualities",
+      "direction": "positive",
+      "salience": "secondary",
+      "confidence": 0.98,
+      "utterance_type": "decision_explanation",
+      "decision_link": "supports_in",
+      "timing": "original_pitch",
+      "turn_index": 122,
+      "quote": "You've never given me BS.",
+      "explanation": "Michael identifies Ben's candor and straightforwardness as a positive investment factor.",
+      "evidence": [
+        "You've never given me BS."
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 122,
+          "speaker": "Michael",
+          "quote": "You've never given me BS."
+        }
+      ],
+      "activation": "evaluated",
+      "source_rationale_id": "R26"
+    },
+    {
+      "rationale_label": "business_viability_concern",
+      "direction": "negative",
+      "salience": "secondary",
+      "confidence": 0.97,
+      "utterance_type": "assessment",
+      "decision_link": "none",
+      "timing": "original_pitch",
+      "turn_index": 136,
+      "quote": "The problem is there wasn't margin, it wasn't working.",
+      "explanation": "Michael recalls that the company's original model lacked margin and was not economically viable.",
+      "evidence": [
+        "The problem is there wasn't margin, it wasn't working."
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 136,
+          "speaker": "Michael",
+          "quote": "The problem is there wasn't margin, it wasn't working."
+        }
+      ],
+      "activation": "evaluated",
+      "source_rationale_id": "R27"
+    },
+    {
+      "rationale_label": "market_timing",
+      "direction": "positive",
+      "salience": "primary",
+      "confidence": 0.99,
+      "utterance_type": "decision_explanation",
+      "decision_link": "supports_in",
+      "timing": "original_pitch",
+      "turn_index": 136,
+      "quote": "Dynamic pricing is happening, I just don't know how it's going to happen. I'd like to be part of it.",
+      "explanation": "Michael explicitly links his belief in the emerging dynamic-pricing category to his desire to participate.",
+      "evidence": [
+        "Dynamic pricing is happening, I just don't know how it's going to happen. I'd like to be part of it."
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 136,
+          "speaker": "Michael",
+          "quote": "Dynamic pricing is happening, I just don't know how it's going to happen. I'd like to be part of it."
+        }
+      ],
+      "activation": "evaluated",
+      "source_rationale_id": "R28"
+    },
+    {
+      "rationale_label": "investment_upside_assessment",
+      "direction": "neutral",
+      "salience": "secondary",
+      "confidence": 0.92,
+      "utterance_type": "question",
+      "decision_link": "none",
+      "timing": "original_pitch",
+      "turn_index": 136,
+      "quote": "which company, do you think a Ritual or somebody would acquire these guys?",
+      "explanation": "Michael explores a potential strategic-acquisition outcome for the investment.",
+      "evidence": [
+        "which company, do you think a Ritual or somebody would acquire these guys?"
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 136,
+          "speaker": "Michael",
+          "quote": "which company, do you think a Ritual or somebody would acquire these guys?"
+        }
+      ],
+      "activation": "queried",
+      "source_rationale_id": "R29"
+    },
+    {
+      "rationale_label": "investment_upside_assessment",
+      "direction": "positive",
+      "salience": "secondary",
+      "confidence": 0.94,
+      "utterance_type": "supporting_argument",
+      "decision_link": "none",
+      "timing": "original_pitch",
+      "turn_index": 138,
+      "quote": "why wouldn't an app like Ritual want to have dynamic pricing, and just take these data scientists and go",
+      "explanation": "Michael argues that the technology and data-science team could be strategically attractive to an acquirer.",
+      "evidence": [
+        "why wouldn't an app like Ritual want to have dynamic pricing, and just take these data scientists and go"
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 138,
+          "speaker": "Michael",
+          "quote": "why wouldn't an app like Ritual want to have dynamic pricing, and just take these data scientists and go"
+        }
+      ],
+      "activation": "evaluated",
+      "source_rationale_id": "R30"
+    },
+    {
+      "rationale_label": "product_appeal_assessment",
+      "direction": "positive",
+      "salience": "secondary",
+      "confidence": 0.96,
+      "utterance_type": "assessment",
+      "decision_link": "none",
+      "timing": "original_pitch",
+      "turn_index": 142,
+      "quote": "Dynamic pricing just makes sense.",
+      "explanation": "Michael expresses a strongly positive personal assessment of the core product concept.",
+      "evidence": [
+        "Dynamic pricing just makes sense."
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 142,
+          "speaker": "Michael",
+          "quote": "Dynamic pricing just makes sense."
+        }
+      ],
+      "activation": "evaluated",
+      "source_rationale_id": "R31"
+    },
+    {
+      "rationale_label": "market_problem_validation",
+      "direction": "positive",
+      "salience": "secondary",
+      "confidence": 0.87,
+      "utterance_type": "supporting_argument",
+      "decision_link": "none",
+      "timing": "original_pitch",
+      "turn_index": 145,
+      "quote": "We've been pricing food the same way for 2000 years. Literally.",
+      "explanation": "Michael presents the exceptionally old pricing status quo as support for modernizing restaurant pricing.",
+      "evidence": [
+        "We've been pricing food the same way for 2000 years. Literally."
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 145,
+          "speaker": "Michael",
+          "quote": "We've been pricing food the same way for 2000 years. Literally."
+        }
+      ],
+      "activation": "evaluated",
+      "source_rationale_id": "R32"
+    }
+  ],
+  "expanded_quote_evidence": [],
+  "rejected_after_evidence_check": []
+}

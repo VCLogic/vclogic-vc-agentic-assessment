@@ -1,0 +1,646 @@
+{
+  "schema": "phase1-rationale-reference-v1",
+  "extraction_version": "pitchshow-rationales-v1",
+  "fingerprint": "20954b38b1e1b6dffdc16ffef36163fe62242716b8f6732c253ac7a066393e80",
+  "episode_slug": "28-is-this-entrepreneur-ready-to-take-on-facebook",
+  "vc_slug": "phil-nadel-forefront-venture-partners",
+  "vc_name": "Phil Nadel",
+  "actual_decision": "Out",
+  "later_decision": "Unknown",
+  "reference_kind": "automated_transcript_observed_candidate",
+  "human_validated": false,
+  "source_format": "transcript-observed-rationales-v1",
+  "source_path": "/home/dpasch01/vclogic-vc-agentic-assessment/evaluation/pitchshow/investors/phil-nadel-forefront-venture-partners/source/episodes/28-is-this-entrepreneur-ready-to-take-on-facebook.json",
+  "source_sha256": "a33493766ef3387fe63921fe49dd00f60fa1b4480d8448b0352c3eed37eb7120",
+  "transcript_sha256": "d3c9d97b945756e6f32a6d3bbb9a5958558e47b1a4ec8b2dca24bd0b090a539d",
+  "taxonomy_sha256": "eaa8734819a3ac34dd19ee5f0bf6de925a793a1d25a2d361090dafc9b751e1fc",
+  "model": "codex:gpt-5.6-luna+gpt-5.6-sol",
+  "generation_stages": [
+    {
+      "phase": "rationale_extract",
+      "backend": "codex",
+      "model": "gpt-5.6-luna"
+    },
+    {
+      "phase": "rationale_verify",
+      "backend": "codex",
+      "model": "gpt-5.6-sol"
+    }
+  ],
+  "source_tier": "newly_extracted_and_independently_model_reviewed",
+  "reviewed_target_turns": [
+    3,
+    7,
+    52,
+    55,
+    61,
+    63,
+    65,
+    69,
+    82,
+    88,
+    90,
+    93,
+    95
+  ],
+  "notes": "",
+  "receipt_path": "/home/dpasch01/vclogic-vc-agentic-assessment/evaluation/pitchshow/investors/phil-nadel-forefront-venture-partners/rationale-references/receipts/28-is-this-entrepreneur-ready-to-take-on-facebook.json",
+  "scoring_scope": "original_pitch_only",
+  "shared_across_input_modes": true,
+  "rationales": [
+    {
+      "rationale_label": "business_model_assessment",
+      "direction": "negative",
+      "salience": "primary",
+      "confidence": 0.99,
+      "utterance_type": "decision_reason",
+      "decision_link": "explicit",
+      "timing": "original_pitch",
+      "turn_index": 69,
+      "quote": "you should prove out the subscription model first, then make that decision",
+      "explanation": "He says an investment decision should wait until the subscription monetization model is proven.",
+      "evidence": [
+        "isn’t that the type of experiment that you should do before taking on outside money?",
+        "Isn’t that the type of experiment that you should complete",
+        "Let’s experiment, make sure the subscription thing works.",
+        "you should prove out the subscription model first, then make that decision",
+        "I think he should take six months or so and try to prove out the..."
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 61,
+          "speaker": "Phil",
+          "quote": "isn’t that the type of experiment that you should do before taking on outside money?"
+        },
+        {
+          "turn_index": 63,
+          "speaker": "Phil",
+          "quote": "Isn’t that the type of experiment that you should complete"
+        },
+        {
+          "turn_index": 65,
+          "speaker": "Phil",
+          "quote": "Let’s experiment, make sure the subscription thing works."
+        },
+        {
+          "turn_index": 69,
+          "speaker": "Phil",
+          "quote": "you should prove out the subscription model first, then make that decision"
+        },
+        {
+          "turn_index": 95,
+          "speaker": "Phil",
+          "quote": "I think he should take six months or so and try to prove out the..."
+        }
+      ],
+      "activation": "evaluated",
+      "source_rationale_id": "R7",
+      "utterance_kind": "decision_explanation",
+      "decision_support": "supports_out",
+      "all_mention_ids": [
+        "R2",
+        "R3",
+        "R4",
+        "R7",
+        "R14"
+      ]
+    },
+    {
+      "rationale_label": "competitive_advantage_assessment",
+      "direction": "neutral",
+      "salience": "secondary",
+      "confidence": 0.98,
+      "utterance_type": "question",
+      "decision_link": "none",
+      "timing": "original_pitch",
+      "turn_index": 52,
+      "quote": "How do you build any kind of moat here?",
+      "explanation": "Phil asks how the company can establish a defensible competitive advantage.",
+      "evidence": [
+        "How do you build any kind of moat here?"
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 52,
+          "speaker": "Phil",
+          "quote": "How do you build any kind of moat here?"
+        }
+      ],
+      "activation": "queried",
+      "source_rationale_id": "R1",
+      "utterance_kind": "question",
+      "decision_support": "none",
+      "all_mention_ids": [
+        "R1"
+      ]
+    },
+    {
+      "rationale_label": "founder_execution",
+      "direction": "positive",
+      "salience": "secondary",
+      "confidence": 0.97,
+      "utterance_type": "assessment",
+      "decision_link": "none",
+      "timing": "original_pitch",
+      "turn_index": 69,
+      "quote": "I have great respect for the fact that you’ve built a good sized profitable company.",
+      "explanation": "He praises Cesar's demonstrated ability to build a substantial profitable company.",
+      "evidence": [
+        "I have great respect for the fact that you’ve built a good sized profitable company."
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 69,
+          "speaker": "Phil",
+          "quote": "I have great respect for the fact that you’ve built a good sized profitable company."
+        }
+      ],
+      "activation": "evaluated",
+      "source_rationale_id": "R10",
+      "utterance_kind": "assessment",
+      "decision_support": "none",
+      "all_mention_ids": [
+        "R10"
+      ]
+    },
+    {
+      "rationale_label": "founder_investor_vision_alignment",
+      "direction": "negative",
+      "salience": "primary",
+      "confidence": 0.93,
+      "utterance_type": "decision_reason",
+      "decision_link": "explicit",
+      "timing": "original_pitch",
+      "turn_index": 69,
+      "quote": "I don’t know that you should ever take venture money.",
+      "explanation": "Phil questions whether the founder's desired path is compatible with venture backing when explaining why investing may be a disservice.",
+      "evidence": [
+        "I don’t know that you should ever take venture money."
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 69,
+          "speaker": "Phil",
+          "quote": "I don’t know that you should ever take venture money."
+        }
+      ],
+      "activation": "evaluated",
+      "source_rationale_id": "R6",
+      "utterance_kind": "decision_explanation",
+      "decision_support": "supports_out",
+      "all_mention_ids": [
+        "R6"
+      ]
+    },
+    {
+      "rationale_label": "product_appeal_assessment",
+      "direction": "positive",
+      "salience": "secondary",
+      "confidence": 0.98,
+      "utterance_type": "assessment",
+      "decision_link": "none",
+      "timing": "original_pitch",
+      "turn_index": 69,
+      "quote": "I think it’s a great idea. I really like it.",
+      "explanation": "Phil expresses a favorable personal reaction to the idea despite declining to invest.",
+      "evidence": [
+        "I think it’s a great idea. I really like it."
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 69,
+          "speaker": "Phil",
+          "quote": "I think it’s a great idea. I really like it."
+        }
+      ],
+      "activation": "evaluated",
+      "source_rationale_id": "R9",
+      "utterance_kind": "assessment",
+      "decision_support": "none",
+      "all_mention_ids": [
+        "R9"
+      ]
+    },
+    {
+      "rationale_label": "product_differentiation_concern",
+      "direction": "negative",
+      "salience": "primary",
+      "confidence": 0.99,
+      "utterance_type": "decision_reason",
+      "decision_link": "explicit",
+      "timing": "original_pitch",
+      "turn_index": 69,
+      "quote": "Facebook could do this so easily and once you become significant, then turn it on and it’s free",
+      "explanation": "He believes Facebook could easily copy and give away the product, a competitive threat he explicitly links to declining the investment.",
+      "evidence": [
+        "Facebook could do this so easily and once you become significant, then turn it on and it’s free",
+        "it’s not going to prevent Facebook and Snapchat...",
+        "he’ll build a little bit more of a moat, get some more traction, and then they’ll introduce it and they’ll crush him.",
+        "Why would they buy it? It’s so easy for them to turn it on."
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 69,
+          "speaker": "Phil",
+          "quote": "Facebook could do this so easily and once you become significant, then turn it on and it’s free"
+        },
+        {
+          "turn_index": 88,
+          "speaker": "Phil",
+          "quote": "it’s not going to prevent Facebook and Snapchat..."
+        },
+        {
+          "turn_index": 90,
+          "speaker": "Phil",
+          "quote": "he’ll build a little bit more of a moat, get some more traction, and then they’ll introduce it and they’ll crush him."
+        },
+        {
+          "turn_index": 93,
+          "speaker": "Phil",
+          "quote": "Why would they buy it? It’s so easy for them to turn it on."
+        }
+      ],
+      "activation": "evaluated",
+      "source_rationale_id": "R8",
+      "utterance_kind": "decision_explanation",
+      "decision_support": "supports_out",
+      "all_mention_ids": [
+        "R8",
+        "R11",
+        "R12",
+        "R13"
+      ]
+    },
+    {
+      "rationale_label": "unit_economics_assessment",
+      "direction": "negative",
+      "salience": "secondary",
+      "confidence": 0.91,
+      "utterance_type": "assessment",
+      "decision_link": "none",
+      "timing": "original_pitch",
+      "turn_index": 65,
+      "quote": "You’re profitable already, you have the cash, you could do it.",
+      "explanation": "He argues that the company's profitability and available cash allow it to fund the experiment without an investment.",
+      "evidence": [
+        "You’re profitable already, you have the cash, you could do it."
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 65,
+          "speaker": "Phil",
+          "quote": "You’re profitable already, you have the cash, you could do it."
+        }
+      ],
+      "activation": "evaluated",
+      "source_rationale_id": "R5",
+      "utterance_kind": "supporting_argument",
+      "decision_support": "none",
+      "all_mention_ids": [
+        "R5"
+      ]
+    }
+  ],
+  "later_rationales": [],
+  "excluded_rationales": [],
+  "rationale_mentions": [
+    {
+      "rationale_label": "competitive_advantage_assessment",
+      "direction": "neutral",
+      "salience": "secondary",
+      "confidence": 0.98,
+      "utterance_type": "question",
+      "decision_link": "none",
+      "timing": "original_pitch",
+      "turn_index": 52,
+      "quote": "How do you build any kind of moat here?",
+      "explanation": "Phil asks how the company can establish a defensible competitive advantage.",
+      "evidence": [
+        "How do you build any kind of moat here?"
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 52,
+          "speaker": "Phil",
+          "quote": "How do you build any kind of moat here?"
+        }
+      ],
+      "activation": "queried",
+      "source_rationale_id": "R1"
+    },
+    {
+      "rationale_label": "business_model_assessment",
+      "direction": "negative",
+      "salience": "secondary",
+      "confidence": 0.93,
+      "utterance_type": "question",
+      "decision_link": "none",
+      "timing": "original_pitch",
+      "turn_index": 61,
+      "quote": "isn’t that the type of experiment that you should do before taking on outside money?",
+      "explanation": "He questions raising outside capital before testing the proposed business-model change.",
+      "evidence": [
+        "isn’t that the type of experiment that you should do before taking on outside money?"
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 61,
+          "speaker": "Phil",
+          "quote": "isn’t that the type of experiment that you should do before taking on outside money?"
+        }
+      ],
+      "activation": "queried",
+      "source_rationale_id": "R2"
+    },
+    {
+      "rationale_label": "business_model_assessment",
+      "direction": "negative",
+      "salience": "secondary",
+      "confidence": 0.93,
+      "utterance_type": "question",
+      "decision_link": "none",
+      "timing": "original_pitch",
+      "turn_index": 63,
+      "quote": "Isn’t that the type of experiment that you should complete",
+      "explanation": "He reiterates that the business-model experiment should be completed before fundraising.",
+      "evidence": [
+        "Isn’t that the type of experiment that you should complete"
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 63,
+          "speaker": "Phil",
+          "quote": "Isn’t that the type of experiment that you should complete"
+        }
+      ],
+      "activation": "queried",
+      "source_rationale_id": "R3"
+    },
+    {
+      "rationale_label": "business_model_assessment",
+      "direction": "negative",
+      "salience": "primary",
+      "confidence": 0.98,
+      "utterance_type": "supporting_argument",
+      "decision_link": "none",
+      "timing": "original_pitch",
+      "turn_index": 65,
+      "quote": "Let’s experiment, make sure the subscription thing works.",
+      "explanation": "Phil argues that the subscription revenue model should be validated before the company raises capital.",
+      "evidence": [
+        "Let’s experiment, make sure the subscription thing works."
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 65,
+          "speaker": "Phil",
+          "quote": "Let’s experiment, make sure the subscription thing works."
+        }
+      ],
+      "activation": "evaluated",
+      "source_rationale_id": "R4"
+    },
+    {
+      "rationale_label": "unit_economics_assessment",
+      "direction": "negative",
+      "salience": "secondary",
+      "confidence": 0.91,
+      "utterance_type": "supporting_argument",
+      "decision_link": "none",
+      "timing": "original_pitch",
+      "turn_index": 65,
+      "quote": "You’re profitable already, you have the cash, you could do it.",
+      "explanation": "He argues that the company's profitability and available cash allow it to fund the experiment without an investment.",
+      "evidence": [
+        "You’re profitable already, you have the cash, you could do it."
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 65,
+          "speaker": "Phil",
+          "quote": "You’re profitable already, you have the cash, you could do it."
+        }
+      ],
+      "activation": "evaluated",
+      "source_rationale_id": "R5"
+    },
+    {
+      "rationale_label": "founder_investor_vision_alignment",
+      "direction": "negative",
+      "salience": "primary",
+      "confidence": 0.93,
+      "utterance_type": "decision_explanation",
+      "decision_link": "supports_out",
+      "timing": "original_pitch",
+      "turn_index": 69,
+      "quote": "I don’t know that you should ever take venture money.",
+      "explanation": "Phil questions whether the founder's desired path is compatible with venture backing when explaining why investing may be a disservice.",
+      "evidence": [
+        "I don’t know that you should ever take venture money."
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 69,
+          "speaker": "Phil",
+          "quote": "I don’t know that you should ever take venture money."
+        }
+      ],
+      "activation": "evaluated",
+      "source_rationale_id": "R6"
+    },
+    {
+      "rationale_label": "business_model_assessment",
+      "direction": "negative",
+      "salience": "primary",
+      "confidence": 0.99,
+      "utterance_type": "decision_explanation",
+      "decision_link": "supports_out",
+      "timing": "original_pitch",
+      "turn_index": 69,
+      "quote": "you should prove out the subscription model first, then make that decision",
+      "explanation": "He says an investment decision should wait until the subscription monetization model is proven.",
+      "evidence": [
+        "you should prove out the subscription model first, then make that decision"
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 69,
+          "speaker": "Phil",
+          "quote": "you should prove out the subscription model first, then make that decision"
+        }
+      ],
+      "activation": "evaluated",
+      "source_rationale_id": "R7"
+    },
+    {
+      "rationale_label": "product_differentiation_concern",
+      "direction": "negative",
+      "salience": "primary",
+      "confidence": 0.99,
+      "utterance_type": "decision_explanation",
+      "decision_link": "supports_out",
+      "timing": "original_pitch",
+      "turn_index": 69,
+      "quote": "Facebook could do this so easily and once you become significant, then turn it on and it’s free",
+      "explanation": "He believes Facebook could easily copy and give away the product, a competitive threat he explicitly links to declining the investment.",
+      "evidence": [
+        "Facebook could do this so easily and once you become significant, then turn it on and it’s free"
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 69,
+          "speaker": "Phil",
+          "quote": "Facebook could do this so easily and once you become significant, then turn it on and it’s free"
+        }
+      ],
+      "activation": "evaluated",
+      "source_rationale_id": "R8"
+    },
+    {
+      "rationale_label": "product_appeal_assessment",
+      "direction": "positive",
+      "salience": "secondary",
+      "confidence": 0.98,
+      "utterance_type": "assessment",
+      "decision_link": "none",
+      "timing": "original_pitch",
+      "turn_index": 69,
+      "quote": "I think it’s a great idea. I really like it.",
+      "explanation": "Phil expresses a favorable personal reaction to the idea despite declining to invest.",
+      "evidence": [
+        "I think it’s a great idea. I really like it."
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 69,
+          "speaker": "Phil",
+          "quote": "I think it’s a great idea. I really like it."
+        }
+      ],
+      "activation": "evaluated",
+      "source_rationale_id": "R9"
+    },
+    {
+      "rationale_label": "founder_execution",
+      "direction": "positive",
+      "salience": "secondary",
+      "confidence": 0.97,
+      "utterance_type": "assessment",
+      "decision_link": "none",
+      "timing": "original_pitch",
+      "turn_index": 69,
+      "quote": "I have great respect for the fact that you’ve built a good sized profitable company.",
+      "explanation": "He praises Cesar's demonstrated ability to build a substantial profitable company.",
+      "evidence": [
+        "I have great respect for the fact that you’ve built a good sized profitable company."
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 69,
+          "speaker": "Phil",
+          "quote": "I have great respect for the fact that you’ve built a good sized profitable company."
+        }
+      ],
+      "activation": "evaluated",
+      "source_rationale_id": "R10"
+    },
+    {
+      "rationale_label": "product_differentiation_concern",
+      "direction": "negative",
+      "salience": "primary",
+      "confidence": 0.98,
+      "utterance_type": "concern",
+      "decision_link": "none",
+      "timing": "original_pitch",
+      "turn_index": 88,
+      "quote": "it’s not going to prevent Facebook and Snapchat...",
+      "explanation": "Phil remains concerned that raising money cannot prevent dominant platforms from copying or competing with the product.",
+      "evidence": [
+        "it’s not going to prevent Facebook and Snapchat..."
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 88,
+          "speaker": "Phil",
+          "quote": "it’s not going to prevent Facebook and Snapchat..."
+        }
+      ],
+      "activation": "evaluated",
+      "source_rationale_id": "R11"
+    },
+    {
+      "rationale_label": "product_differentiation_concern",
+      "direction": "negative",
+      "salience": "primary",
+      "confidence": 0.99,
+      "utterance_type": "assessment",
+      "decision_link": "none",
+      "timing": "original_pitch",
+      "turn_index": 90,
+      "quote": "he’ll build a little bit more of a moat, get some more traction, and then they’ll introduce it and they’ll crush him.",
+      "explanation": "He believes additional defensibility and traction would only delay an overwhelming response from incumbents.",
+      "evidence": [
+        "he’ll build a little bit more of a moat, get some more traction, and then they’ll introduce it and they’ll crush him."
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 90,
+          "speaker": "Phil",
+          "quote": "he’ll build a little bit more of a moat, get some more traction, and then they’ll introduce it and they’ll crush him."
+        }
+      ],
+      "activation": "evaluated",
+      "source_rationale_id": "R12"
+    },
+    {
+      "rationale_label": "product_differentiation_concern",
+      "direction": "negative",
+      "salience": "primary",
+      "confidence": 0.99,
+      "utterance_type": "question",
+      "decision_link": "none",
+      "timing": "original_pitch",
+      "turn_index": 93,
+      "quote": "Why would they buy it? It’s so easy for them to turn it on.",
+      "explanation": "Phil argues that incumbents would have little reason to acquire the company because they could easily replicate its product.",
+      "evidence": [
+        "Why would they buy it? It’s so easy for them to turn it on."
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 93,
+          "speaker": "Phil",
+          "quote": "Why would they buy it? It’s so easy for them to turn it on."
+        }
+      ],
+      "activation": "queried",
+      "source_rationale_id": "R13"
+    },
+    {
+      "rationale_label": "business_model_assessment",
+      "direction": "negative",
+      "salience": "primary",
+      "confidence": 0.88,
+      "utterance_type": "supporting_argument",
+      "decision_link": "none",
+      "timing": "original_pitch",
+      "turn_index": 95,
+      "quote": "I think he should take six months or so and try to prove out the...",
+      "explanation": "In the continuing debrief, Phil again recommends allowing time to validate the previously discussed subscription model.",
+      "evidence": [
+        "I think he should take six months or so and try to prove out the..."
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 95,
+          "speaker": "Phil",
+          "quote": "I think he should take six months or so and try to prove out the..."
+        }
+      ],
+      "activation": "evaluated",
+      "source_rationale_id": "R14"
+    }
+  ],
+  "expanded_quote_evidence": [],
+  "rejected_after_evidence_check": []
+}

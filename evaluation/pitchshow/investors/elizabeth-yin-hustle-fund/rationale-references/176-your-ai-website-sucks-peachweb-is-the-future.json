@@ -1,0 +1,1000 @@
+{
+  "schema": "phase1-rationale-reference-v1",
+  "extraction_version": "pitchshow-rationales-v1",
+  "fingerprint": "5e89639e2fe062ccc7fc7fdd7baa7351db1cebf17cf823b794266b322bb8990e",
+  "episode_slug": "176-your-ai-website-sucks-peachweb-is-the-future",
+  "vc_slug": "elizabeth-yin-hustle-fund",
+  "vc_name": "Elizabeth Yin",
+  "actual_decision": "Out",
+  "later_decision": "Unknown",
+  "reference_kind": "automated_transcript_observed_candidate",
+  "human_validated": false,
+  "source_format": "transcript-observed-rationales-v1",
+  "source_path": "../source/episodes/176-your-ai-website-sucks-peachweb-is-the-future.json",
+  "source_sha256": "e16ad993b8335d2441464c9a4ef8145cc1689ec94666232eee5463dc2f6a8491",
+  "transcript_sha256": "e0392c0913c2ebbb45a9c10641eb31a74fac37f552a9c1cc7b37fb3ece02175b",
+  "taxonomy_sha256": "eaa8734819a3ac34dd19ee5f0bf6de925a793a1d25a2d361090dafc9b751e1fc",
+  "model": "codex:gpt-5.6-luna+gpt-5.6-sol",
+  "generation_stages": [
+    {
+      "phase": "rationale_extract",
+      "backend": "openrouter",
+      "model": "openai/gpt-5.6-luna"
+    },
+    {
+      "phase": "rationale_verify",
+      "backend": "codex",
+      "model": "gpt-5.6-sol"
+    }
+  ],
+  "source_tier": "newly_extracted_and_independently_model_reviewed",
+  "reviewed_target_turns": [
+    18,
+    22,
+    25,
+    30,
+    35,
+    37,
+    58,
+    105,
+    127,
+    130,
+    132,
+    134,
+    136,
+    138,
+    140,
+    142,
+    144,
+    165,
+    175,
+    177,
+    179,
+    201,
+    205,
+    207,
+    209,
+    211,
+    245,
+    247
+  ],
+  "notes": "All supplied target turns were reviewed. The investor-only debrief remains original_pitch because it occurs immediately after the founder exits; the final two turns are teaser material for the next episode.",
+  "receipt_path": "receipts/176-your-ai-website-sucks-peachweb-is-the-future.json",
+  "scoring_scope": "original_pitch_only",
+  "shared_across_input_modes": true,
+  "rationales": [
+    {
+      "rationale_label": "competitive_advantage_assessment",
+      "direction": "negative",
+      "salience": "secondary",
+      "confidence": 0.88,
+      "utterance_type": "assessment",
+      "decision_link": "none",
+      "timing": "original_pitch",
+      "turn_index": 175,
+      "quote": "Luck",
+      "explanation": "In the investor debrief, she characterizes luck as a driver of which website builders break out, indicating that a predictable winning advantage is difficult to identify.",
+      "evidence": [
+        "Luck"
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 175,
+          "speaker": "Elizabeth",
+          "quote": "Luck"
+        }
+      ],
+      "activation": "evaluated",
+      "source_rationale_id": "R13",
+      "utterance_kind": "assessment",
+      "decision_support": "none",
+      "all_mention_ids": [
+        "R13"
+      ]
+    },
+    {
+      "rationale_label": "competitive_intensity_concern",
+      "direction": "negative",
+      "salience": "primary",
+      "confidence": 0.99,
+      "utterance_type": "assessment",
+      "decision_link": "explicit",
+      "timing": "original_pitch",
+      "turn_index": 211,
+      "quote": "that's what he's competing with and it's just so competitive.",
+      "explanation": "She concludes that PeachWeb operates in an intensely competitive field encompassing AI and non-AI alternatives.",
+      "evidence": [
+        "even if there isn't a competitor today, there'll be one tomorrow who is gonna be faster and will, you know, run circles around you.",
+        "there'll be tons of competitors like nipping on their heels.",
+        "No credit. It's a dog eat dog world out there Josh.",
+        "He's competing with anybody who is offering a website alternative.",
+        "that's what he's competing with and it's just so competitive."
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 201,
+          "speaker": "Elizabeth",
+          "quote": "even if there isn't a competitor today, there'll be one tomorrow who is gonna be faster and will, you know, run circles around you."
+        },
+        {
+          "turn_index": 205,
+          "speaker": "Elizabeth",
+          "quote": "there'll be tons of competitors like nipping on their heels."
+        },
+        {
+          "turn_index": 207,
+          "speaker": "Elizabeth",
+          "quote": "No credit. It's a dog eat dog world out there Josh."
+        },
+        {
+          "turn_index": 209,
+          "speaker": "Elizabeth",
+          "quote": "He's competing with anybody who is offering a website alternative."
+        },
+        {
+          "turn_index": 211,
+          "speaker": "Elizabeth",
+          "quote": "that's what he's competing with and it's just so competitive."
+        }
+      ],
+      "activation": "evaluated",
+      "source_rationale_id": "R22",
+      "utterance_kind": "assessment",
+      "decision_support": "supports_out",
+      "all_mention_ids": [
+        "R18",
+        "R19",
+        "R20",
+        "R21",
+        "R22"
+      ]
+    },
+    {
+      "rationale_label": "founder_execution",
+      "direction": "negative",
+      "salience": "primary",
+      "confidence": 0.99,
+      "utterance_type": "decision_reason",
+      "decision_link": "explicit",
+      "timing": "original_pitch",
+      "turn_index": 201,
+      "quote": "No, it's too slow.",
+      "explanation": "Asked whether she would invest absent the portfolio conflict, Elizabeth explicitly refuses because PeachWeb is executing too slowly.",
+      "evidence": [
+        "These people haven't launched in two years. You know, there's a pretty big delta on that.",
+        "No, it's too slow."
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 179,
+          "speaker": "Elizabeth",
+          "quote": "These people haven't launched in two years. You know, there's a pretty big delta on that."
+        },
+        {
+          "turn_index": 201,
+          "speaker": "Elizabeth",
+          "quote": "No, it's too slow."
+        }
+      ],
+      "activation": "evaluated",
+      "source_rationale_id": "R16",
+      "utterance_kind": "decision_explanation",
+      "decision_support": "supports_out",
+      "all_mention_ids": [
+        "R6",
+        "R7",
+        "R9",
+        "R14",
+        "R15",
+        "R16"
+      ]
+    },
+    {
+      "rationale_label": "founder_motivation_authenticity",
+      "direction": "neutral",
+      "salience": "primary",
+      "confidence": 0.92,
+      "utterance_type": "assessment",
+      "decision_link": "none",
+      "timing": "original_pitch",
+      "turn_index": 134,
+      "quote": "you love this so much, you keep on pounding.",
+      "explanation": "Elizabeth presents genuine attachment to the problem as what sustains founders through prolonged adversity.",
+      "evidence": [
+        "you love this so much, you keep on pounding."
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 134,
+          "speaker": "Elizabeth",
+          "quote": "you love this so much, you keep on pounding."
+        }
+      ],
+      "activation": "evaluated",
+      "source_rationale_id": "R8",
+      "utterance_kind": "supporting_argument",
+      "decision_support": "none",
+      "all_mention_ids": [
+        "R8"
+      ]
+    },
+    {
+      "rationale_label": "investment_upside_assessment",
+      "direction": "positive",
+      "salience": "primary",
+      "confidence": 0.93,
+      "utterance_type": "assessment",
+      "decision_link": "none",
+      "timing": "original_pitch",
+      "turn_index": 142,
+      "quote": "I think you'll be a big company if that, if you just keep going.",
+      "explanation": "She sees substantial company-building upside if the team continues executing persistently.",
+      "evidence": [
+        "I think you'll be a big company if that, if you just keep going."
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 142,
+          "speaker": "Elizabeth",
+          "quote": "I think you'll be a big company if that, if you just keep going."
+        }
+      ],
+      "activation": "evaluated",
+      "source_rationale_id": "R10",
+      "utterance_kind": "assessment",
+      "decision_support": "none",
+      "all_mention_ids": [
+        "R10"
+      ]
+    },
+    {
+      "rationale_label": "market_size_assessment",
+      "direction": "positive",
+      "salience": "primary",
+      "confidence": 0.99,
+      "utterance_type": "assessment",
+      "decision_link": "none",
+      "timing": "original_pitch",
+      "turn_index": 144,
+      "quote": "Because this is a huge space.",
+      "explanation": "Elizabeth assesses the addressable market as large.",
+      "evidence": [
+        "Because this is a huge space."
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 144,
+          "speaker": "Elizabeth",
+          "quote": "Because this is a huge space."
+        }
+      ],
+      "activation": "evaluated",
+      "source_rationale_id": "R11",
+      "utterance_kind": "assessment",
+      "decision_support": "none",
+      "all_mention_ids": [
+        "R11"
+      ]
+    },
+    {
+      "rationale_label": "market_timing",
+      "direction": "negative",
+      "salience": "secondary",
+      "confidence": 0.96,
+      "utterance_type": "decision_reason",
+      "decision_link": "explicit",
+      "timing": "original_pitch",
+      "turn_index": 201,
+      "quote": "Webflow was built in a different time where there was not as much competition",
+      "explanation": "She argues that today’s market is less forgiving than the era in which Webflow developed.",
+      "evidence": [
+        "Webflow was built in a different time where there was not as much competition"
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 201,
+          "speaker": "Elizabeth",
+          "quote": "Webflow was built in a different time where there was not as much competition"
+        }
+      ],
+      "activation": "evaluated",
+      "source_rationale_id": "R17",
+      "utterance_kind": "decision_explanation",
+      "decision_support": "supports_out",
+      "all_mention_ids": [
+        "R17"
+      ]
+    },
+    {
+      "rationale_label": "portfolio_conflict_constraint",
+      "direction": "negative",
+      "salience": "primary",
+      "confidence": 0.99,
+      "utterance_type": "decision_reason",
+      "decision_link": "explicit",
+      "timing": "original_pitch",
+      "turn_index": 58,
+      "quote": "I think we are conflicted out or over indexed, one of the two.",
+      "explanation": "She says overlapping portfolio exposure prevents or strongly constrains an investment.",
+      "evidence": [
+        "I think we are conflicted out or over indexed, one of the two.",
+        "Also a portfolio company."
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 58,
+          "speaker": "Elizabeth",
+          "quote": "I think we are conflicted out or over indexed, one of the two."
+        },
+        {
+          "turn_index": 127,
+          "speaker": "Elizabeth",
+          "quote": "Also a portfolio company."
+        }
+      ],
+      "activation": "evaluated",
+      "source_rationale_id": "R3",
+      "utterance_kind": "decision_explanation",
+      "decision_support": "supports_out",
+      "all_mention_ids": [
+        "R3",
+        "R5"
+      ]
+    },
+    {
+      "rationale_label": "product_appeal_assessment",
+      "direction": "positive",
+      "salience": "primary",
+      "confidence": 0.99,
+      "utterance_type": "assessment",
+      "decision_link": "none",
+      "timing": "original_pitch",
+      "turn_index": 144,
+      "quote": "And you have an incredible product.",
+      "explanation": "She directly assesses the product as exceptionally appealing and high quality.",
+      "evidence": [
+        "This is super cool",
+        "I think it is interesting in capturing attention as opposed to the sort of traditional static fill out a form here kind of page.",
+        "And you have an incredible product."
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 58,
+          "speaker": "Elizabeth",
+          "quote": "This is super cool"
+        },
+        {
+          "turn_index": 105,
+          "speaker": "Elizabeth",
+          "quote": "I think it is interesting in capturing attention as opposed to the sort of traditional static fill out a form here kind of page."
+        },
+        {
+          "turn_index": 144,
+          "speaker": "Elizabeth",
+          "quote": "And you have an incredible product."
+        }
+      ],
+      "activation": "evaluated",
+      "source_rationale_id": "R12",
+      "utterance_kind": "assessment",
+      "decision_support": "none",
+      "all_mention_ids": [
+        "R2",
+        "R4",
+        "R12"
+      ]
+    },
+    {
+      "rationale_label": "solution_feasibility_assessment",
+      "direction": "neutral",
+      "salience": "secondary",
+      "confidence": 0.98,
+      "utterance_type": "question",
+      "decision_link": "none",
+      "timing": "original_pitch",
+      "turn_index": 35,
+      "quote": "Can that be incorporated in this or not quite?",
+      "explanation": "Elizabeth probes whether the product can accommodate a company’s existing visual assets and branding.",
+      "evidence": [
+        "Can that be incorporated in this or not quite?"
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 35,
+          "speaker": "Elizabeth",
+          "quote": "Can that be incorporated in this or not quite?"
+        }
+      ],
+      "activation": "queried",
+      "source_rationale_id": "R1",
+      "utterance_kind": "question",
+      "decision_support": "none",
+      "all_mention_ids": [
+        "R1"
+      ]
+    }
+  ],
+  "later_rationales": [],
+  "excluded_rationales": [
+    {
+      "rationale_label": "product_adoption",
+      "direction": "neutral",
+      "salience": "secondary",
+      "confidence": 0.98,
+      "utterance_type": "question",
+      "decision_link": "none",
+      "timing": "teaser",
+      "turn_index": 245,
+      "quote": "Where are you in the process of customers and pilots and",
+      "explanation": "Elizabeth asks about customer and pilot progress to assess adoption.",
+      "evidence": [
+        "Where are you in the process of customers and pilots and"
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 245,
+          "speaker": "Elizabeth",
+          "quote": "Where are you in the process of customers and pilots and"
+        }
+      ],
+      "activation": "queried",
+      "source_rationale_id": "R23"
+    },
+    {
+      "rationale_label": "business_model_assessment",
+      "direction": "neutral",
+      "salience": "secondary",
+      "confidence": 0.99,
+      "utterance_type": "question",
+      "decision_link": "none",
+      "timing": "teaser",
+      "turn_index": 247,
+      "quote": "Have you suggested paid contracts to anybody?",
+      "explanation": "She probes whether the company has attempted to convert its customer engagements into paid contracts.",
+      "evidence": [
+        "Have you suggested paid contracts to anybody?"
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 247,
+          "speaker": "Elizabeth",
+          "quote": "Have you suggested paid contracts to anybody?"
+        }
+      ],
+      "activation": "queried",
+      "source_rationale_id": "R24"
+    }
+  ],
+  "rationale_mentions": [
+    {
+      "rationale_label": "solution_feasibility_assessment",
+      "direction": "neutral",
+      "salience": "secondary",
+      "confidence": 0.98,
+      "utterance_type": "question",
+      "decision_link": "none",
+      "timing": "original_pitch",
+      "turn_index": 35,
+      "quote": "Can that be incorporated in this or not quite?",
+      "explanation": "Elizabeth probes whether the product can accommodate a company’s existing visual assets and branding.",
+      "evidence": [
+        "Can that be incorporated in this or not quite?"
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 35,
+          "speaker": "Elizabeth",
+          "quote": "Can that be incorporated in this or not quite?"
+        }
+      ],
+      "activation": "queried",
+      "source_rationale_id": "R1"
+    },
+    {
+      "rationale_label": "product_appeal_assessment",
+      "direction": "positive",
+      "salience": "secondary",
+      "confidence": 0.9,
+      "utterance_type": "assessment",
+      "decision_link": "none",
+      "timing": "original_pitch",
+      "turn_index": 58,
+      "quote": "This is super cool",
+      "explanation": "She expresses a positive personal reaction to the product.",
+      "evidence": [
+        "This is super cool"
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 58,
+          "speaker": "Elizabeth",
+          "quote": "This is super cool"
+        }
+      ],
+      "activation": "evaluated",
+      "source_rationale_id": "R2"
+    },
+    {
+      "rationale_label": "portfolio_conflict_constraint",
+      "direction": "negative",
+      "salience": "primary",
+      "confidence": 0.99,
+      "utterance_type": "decision_explanation",
+      "decision_link": "supports_out",
+      "timing": "original_pitch",
+      "turn_index": 58,
+      "quote": "I think we are conflicted out or over indexed, one of the two.",
+      "explanation": "She says overlapping portfolio exposure prevents or strongly constrains an investment.",
+      "evidence": [
+        "I think we are conflicted out or over indexed, one of the two."
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 58,
+          "speaker": "Elizabeth",
+          "quote": "I think we are conflicted out or over indexed, one of the two."
+        }
+      ],
+      "activation": "evaluated",
+      "source_rationale_id": "R3"
+    },
+    {
+      "rationale_label": "product_appeal_assessment",
+      "direction": "positive",
+      "salience": "secondary",
+      "confidence": 0.97,
+      "utterance_type": "assessment",
+      "decision_link": "none",
+      "timing": "original_pitch",
+      "turn_index": 105,
+      "quote": "I think it is interesting in capturing attention as opposed to the sort of traditional static fill out a form here kind of page.",
+      "explanation": "Elizabeth positively assesses the product’s ability to capture attention compared with conventional static landing pages.",
+      "evidence": [
+        "I think it is interesting in capturing attention as opposed to the sort of traditional static fill out a form here kind of page."
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 105,
+          "speaker": "Elizabeth",
+          "quote": "I think it is interesting in capturing attention as opposed to the sort of traditional static fill out a form here kind of page."
+        }
+      ],
+      "activation": "evaluated",
+      "source_rationale_id": "R4"
+    },
+    {
+      "rationale_label": "portfolio_conflict_constraint",
+      "direction": "negative",
+      "salience": "secondary",
+      "confidence": 0.99,
+      "utterance_type": "supporting_argument",
+      "decision_link": "supports_out",
+      "timing": "original_pitch",
+      "turn_index": 127,
+      "quote": "Also a portfolio company.",
+      "explanation": "She identifies Spline as another portfolio company, reinforcing her previously stated conflict.",
+      "evidence": [
+        "Also a portfolio company."
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 127,
+          "speaker": "Elizabeth",
+          "quote": "Also a portfolio company."
+        }
+      ],
+      "activation": "evaluated",
+      "source_rationale_id": "R5"
+    },
+    {
+      "rationale_label": "founder_execution",
+      "direction": "neutral",
+      "salience": "primary",
+      "confidence": 0.96,
+      "utterance_type": "assessment",
+      "decision_link": "none",
+      "timing": "original_pitch",
+      "turn_index": 130,
+      "quote": "The founders have to be willing to, I call it eat glass for a few years because there is so much to build",
+      "explanation": "She identifies exceptional persistence and sustained building as necessary founder execution in this category.",
+      "evidence": [
+        "The founders have to be willing to, I call it eat glass for a few years because there is so much to build"
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 130,
+          "speaker": "Elizabeth",
+          "quote": "The founders have to be willing to, I call it eat glass for a few years because there is so much to build"
+        }
+      ],
+      "activation": "evaluated",
+      "source_rationale_id": "R6"
+    },
+    {
+      "rationale_label": "founder_execution",
+      "direction": "neutral",
+      "salience": "secondary",
+      "confidence": 0.94,
+      "utterance_type": "supporting_argument",
+      "decision_link": "none",
+      "timing": "original_pitch",
+      "turn_index": 132,
+      "quote": "It was like a crazy five to seven year journey of, at pre-seed or seed, uh, before they really took off.",
+      "explanation": "She uses Webflow’s long pre-takeoff journey to illustrate the sustained execution this category can require.",
+      "evidence": [
+        "It was like a crazy five to seven year journey of, at pre-seed or seed, uh, before they really took off."
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 132,
+          "speaker": "Elizabeth",
+          "quote": "It was like a crazy five to seven year journey of, at pre-seed or seed, uh, before they really took off."
+        }
+      ],
+      "activation": "evaluated",
+      "source_rationale_id": "R7"
+    },
+    {
+      "rationale_label": "founder_motivation_authenticity",
+      "direction": "neutral",
+      "salience": "primary",
+      "confidence": 0.92,
+      "utterance_type": "supporting_argument",
+      "decision_link": "none",
+      "timing": "original_pitch",
+      "turn_index": 134,
+      "quote": "you love this so much, you keep on pounding.",
+      "explanation": "Elizabeth presents genuine attachment to the problem as what sustains founders through prolonged adversity.",
+      "evidence": [
+        "you love this so much, you keep on pounding."
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 134,
+          "speaker": "Elizabeth",
+          "quote": "you love this so much, you keep on pounding."
+        }
+      ],
+      "activation": "evaluated",
+      "source_rationale_id": "R8"
+    },
+    {
+      "rationale_label": "founder_execution",
+      "direction": "neutral",
+      "salience": "primary",
+      "confidence": 0.96,
+      "utterance_type": "assessment",
+      "decision_link": "none",
+      "timing": "original_pitch",
+      "turn_index": 136,
+      "quote": "that's what it takes to win in this kind of general space.",
+      "explanation": "She concludes that the persistence just described is a critical execution requirement for winning the category.",
+      "evidence": [
+        "that's what it takes to win in this kind of general space."
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 136,
+          "speaker": "Elizabeth",
+          "quote": "that's what it takes to win in this kind of general space."
+        }
+      ],
+      "activation": "evaluated",
+      "source_rationale_id": "R9"
+    },
+    {
+      "rationale_label": "investment_upside_assessment",
+      "direction": "positive",
+      "salience": "primary",
+      "confidence": 0.93,
+      "utterance_type": "assessment",
+      "decision_link": "none",
+      "timing": "original_pitch",
+      "turn_index": 142,
+      "quote": "I think you'll be a big company if that, if you just keep going.",
+      "explanation": "She sees substantial company-building upside if the team continues executing persistently.",
+      "evidence": [
+        "I think you'll be a big company if that, if you just keep going."
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 142,
+          "speaker": "Elizabeth",
+          "quote": "I think you'll be a big company if that, if you just keep going."
+        }
+      ],
+      "activation": "evaluated",
+      "source_rationale_id": "R10"
+    },
+    {
+      "rationale_label": "market_size_assessment",
+      "direction": "positive",
+      "salience": "primary",
+      "confidence": 0.99,
+      "utterance_type": "assessment",
+      "decision_link": "none",
+      "timing": "original_pitch",
+      "turn_index": 144,
+      "quote": "Because this is a huge space.",
+      "explanation": "Elizabeth assesses the addressable market as large.",
+      "evidence": [
+        "Because this is a huge space."
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 144,
+          "speaker": "Elizabeth",
+          "quote": "Because this is a huge space."
+        }
+      ],
+      "activation": "evaluated",
+      "source_rationale_id": "R11"
+    },
+    {
+      "rationale_label": "product_appeal_assessment",
+      "direction": "positive",
+      "salience": "primary",
+      "confidence": 0.99,
+      "utterance_type": "assessment",
+      "decision_link": "none",
+      "timing": "original_pitch",
+      "turn_index": 144,
+      "quote": "And you have an incredible product.",
+      "explanation": "She directly assesses the product as exceptionally appealing and high quality.",
+      "evidence": [
+        "And you have an incredible product."
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 144,
+          "speaker": "Elizabeth",
+          "quote": "And you have an incredible product."
+        }
+      ],
+      "activation": "evaluated",
+      "source_rationale_id": "R12"
+    },
+    {
+      "rationale_label": "competitive_advantage_assessment",
+      "direction": "negative",
+      "salience": "secondary",
+      "confidence": 0.88,
+      "utterance_type": "assessment",
+      "decision_link": "none",
+      "timing": "original_pitch",
+      "turn_index": 175,
+      "quote": "Luck",
+      "explanation": "In the investor debrief, she characterizes luck as a driver of which website builders break out, indicating that a predictable winning advantage is difficult to identify.",
+      "evidence": [
+        "Luck"
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 175,
+          "speaker": "Elizabeth",
+          "quote": "Luck"
+        }
+      ],
+      "activation": "evaluated",
+      "source_rationale_id": "R13"
+    },
+    {
+      "rationale_label": "founder_execution",
+      "direction": "neutral",
+      "salience": "secondary",
+      "confidence": 0.94,
+      "utterance_type": "assessment",
+      "decision_link": "none",
+      "timing": "original_pitch",
+      "turn_index": 177,
+      "quote": "the ones who are making it, they ship so fast.",
+      "explanation": "She identifies rapid product shipping as a defining execution trait of successful companies in the category.",
+      "evidence": [
+        "the ones who are making it, they ship so fast."
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 177,
+          "speaker": "Elizabeth",
+          "quote": "the ones who are making it, they ship so fast."
+        }
+      ],
+      "activation": "evaluated",
+      "source_rationale_id": "R14"
+    },
+    {
+      "rationale_label": "founder_execution",
+      "direction": "negative",
+      "salience": "primary",
+      "confidence": 0.99,
+      "utterance_type": "concern",
+      "decision_link": "none",
+      "timing": "original_pitch",
+      "turn_index": 179,
+      "quote": "These people haven't launched in two years. You know, there's a pretty big delta on that.",
+      "explanation": "She contrasts PeachWeb’s two-year pre-launch period with much faster successful builders and flags a substantial execution-speed gap.",
+      "evidence": [
+        "These people haven't launched in two years. You know, there's a pretty big delta on that."
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 179,
+          "speaker": "Elizabeth",
+          "quote": "These people haven't launched in two years. You know, there's a pretty big delta on that."
+        }
+      ],
+      "activation": "evaluated",
+      "source_rationale_id": "R15"
+    },
+    {
+      "rationale_label": "founder_execution",
+      "direction": "negative",
+      "salience": "primary",
+      "confidence": 0.99,
+      "utterance_type": "decision_explanation",
+      "decision_link": "supports_out",
+      "timing": "original_pitch",
+      "turn_index": 201,
+      "quote": "No, it's too slow.",
+      "explanation": "Asked whether she would invest absent the portfolio conflict, Elizabeth explicitly refuses because PeachWeb is executing too slowly.",
+      "evidence": [
+        "No, it's too slow."
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 201,
+          "speaker": "Elizabeth",
+          "quote": "No, it's too slow."
+        }
+      ],
+      "activation": "evaluated",
+      "source_rationale_id": "R16"
+    },
+    {
+      "rationale_label": "market_timing",
+      "direction": "negative",
+      "salience": "secondary",
+      "confidence": 0.96,
+      "utterance_type": "decision_explanation",
+      "decision_link": "supports_out",
+      "timing": "original_pitch",
+      "turn_index": 201,
+      "quote": "Webflow was built in a different time where there was not as much competition",
+      "explanation": "She argues that today’s market is less forgiving than the era in which Webflow developed.",
+      "evidence": [
+        "Webflow was built in a different time where there was not as much competition"
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 201,
+          "speaker": "Elizabeth",
+          "quote": "Webflow was built in a different time where there was not as much competition"
+        }
+      ],
+      "activation": "evaluated",
+      "source_rationale_id": "R17"
+    },
+    {
+      "rationale_label": "competitive_intensity_concern",
+      "direction": "negative",
+      "salience": "primary",
+      "confidence": 0.99,
+      "utterance_type": "decision_explanation",
+      "decision_link": "supports_out",
+      "timing": "original_pitch",
+      "turn_index": 201,
+      "quote": "even if there isn't a competitor today, there'll be one tomorrow who is gonna be faster and will, you know, run circles around you.",
+      "explanation": "She expects faster entrants to emerge quickly and overtake a slow-moving company.",
+      "evidence": [
+        "even if there isn't a competitor today, there'll be one tomorrow who is gonna be faster and will, you know, run circles around you."
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 201,
+          "speaker": "Elizabeth",
+          "quote": "even if there isn't a competitor today, there'll be one tomorrow who is gonna be faster and will, you know, run circles around you."
+        }
+      ],
+      "activation": "evaluated",
+      "source_rationale_id": "R18"
+    },
+    {
+      "rationale_label": "competitive_intensity_concern",
+      "direction": "negative",
+      "salience": "secondary",
+      "confidence": 0.98,
+      "utterance_type": "supporting_argument",
+      "decision_link": "supports_out",
+      "timing": "original_pitch",
+      "turn_index": 205,
+      "quote": "there'll be tons of competitors like nipping on their heels.",
+      "explanation": "She expects a successful launch to attract numerous close competitors.",
+      "evidence": [
+        "there'll be tons of competitors like nipping on their heels."
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 205,
+          "speaker": "Elizabeth",
+          "quote": "there'll be tons of competitors like nipping on their heels."
+        }
+      ],
+      "activation": "evaluated",
+      "source_rationale_id": "R19"
+    },
+    {
+      "rationale_label": "competitive_intensity_concern",
+      "direction": "negative",
+      "salience": "secondary",
+      "confidence": 0.95,
+      "utterance_type": "supporting_argument",
+      "decision_link": "supports_out",
+      "timing": "original_pitch",
+      "turn_index": 207,
+      "quote": "No credit. It's a dog eat dog world out there Josh.",
+      "explanation": "She rejects giving investment credit for the forthcoming AI launch because the competitive environment is exceptionally unforgiving.",
+      "evidence": [
+        "No credit. It's a dog eat dog world out there Josh."
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 207,
+          "speaker": "Elizabeth",
+          "quote": "No credit. It's a dog eat dog world out there Josh."
+        }
+      ],
+      "activation": "evaluated",
+      "source_rationale_id": "R20"
+    },
+    {
+      "rationale_label": "competitive_intensity_concern",
+      "direction": "negative",
+      "salience": "secondary",
+      "confidence": 0.98,
+      "utterance_type": "assessment",
+      "decision_link": "supports_out",
+      "timing": "original_pitch",
+      "turn_index": 209,
+      "quote": "He's competing with anybody who is offering a website alternative.",
+      "explanation": "Elizabeth defines PeachWeb’s competitive set broadly to include every alternative way of producing a website.",
+      "evidence": [
+        "He's competing with anybody who is offering a website alternative."
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 209,
+          "speaker": "Elizabeth",
+          "quote": "He's competing with anybody who is offering a website alternative."
+        }
+      ],
+      "activation": "evaluated",
+      "source_rationale_id": "R21"
+    },
+    {
+      "rationale_label": "competitive_intensity_concern",
+      "direction": "negative",
+      "salience": "primary",
+      "confidence": 0.99,
+      "utterance_type": "assessment",
+      "decision_link": "supports_out",
+      "timing": "original_pitch",
+      "turn_index": 211,
+      "quote": "that's what he's competing with and it's just so competitive.",
+      "explanation": "She concludes that PeachWeb operates in an intensely competitive field encompassing AI and non-AI alternatives.",
+      "evidence": [
+        "that's what he's competing with and it's just so competitive."
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 211,
+          "speaker": "Elizabeth",
+          "quote": "that's what he's competing with and it's just so competitive."
+        }
+      ],
+      "activation": "evaluated",
+      "source_rationale_id": "R22"
+    }
+  ],
+  "expanded_quote_evidence": [],
+  "rejected_after_evidence_check": []
+}

@@ -1,0 +1,885 @@
+{
+  "schema": "phase1-rationale-reference-v1",
+  "extraction_version": "pitchshow-rationales-v1",
+  "fingerprint": "efe7474ab20f590549da7967ce20375b2c93e61de75cef97a80b11ae628b3f1d",
+  "episode_slug": "8-hykso",
+  "vc_slug": "jake-chapman-marque-ventures",
+  "vc_name": "Jake Chapman",
+  "actual_decision": "In",
+  "later_decision": "In",
+  "reference_kind": "automated_transcript_observed_candidate",
+  "human_validated": false,
+  "source_format": "transcript-observed-rationales-v1",
+  "source_path": "/home/dpasch01/vclogic-vc-agentic-assessment/evaluation/pitchshow/investors/jake-chapman-marque-ventures/source/episodes/8-hykso.json",
+  "source_sha256": "f5b1676d622bda8849ced8f142c6704bf67cc50b2c25459b7c346b3b1bb96e58",
+  "transcript_sha256": "a52334502bd183b3f349b732378c670cbb97ab007eab6e91961985501f908142",
+  "taxonomy_sha256": "eaa8734819a3ac34dd19ee5f0bf6de925a793a1d25a2d361090dafc9b751e1fc",
+  "model": "codex:gpt-5.6-luna+gpt-5.6-sol",
+  "generation_stages": [
+    {
+      "phase": "rationale_extract",
+      "backend": "codex",
+      "model": "gpt-5.6-luna"
+    },
+    {
+      "phase": "rationale_verify",
+      "backend": "codex",
+      "model": "gpt-5.6-sol"
+    }
+  ],
+  "source_tier": "newly_extracted_and_independently_model_reviewed",
+  "reviewed_target_turns": [
+    7,
+    23,
+    25,
+    33,
+    37,
+    67,
+    109,
+    113,
+    116,
+    120,
+    134,
+    135,
+    138,
+    203,
+    205,
+    207,
+    209,
+    219,
+    222,
+    230,
+    232,
+    245,
+    247,
+    249,
+    251,
+    252,
+    254,
+    256
+  ],
+  "notes": "All supplied target turns were reviewed; jokes, confirmations, deal logistics, and non-substantive remarks were omitted.",
+  "receipt_path": "/home/dpasch01/vclogic-vc-agentic-assessment/evaluation/pitchshow/investors/jake-chapman-marque-ventures/rationale-references/receipts/8-hykso.json",
+  "scoring_scope": "original_pitch_only",
+  "shared_across_input_modes": true,
+  "rationales": [
+    {
+      "rationale_label": "founder_execution",
+      "direction": "positive",
+      "salience": "secondary",
+      "confidence": 0.97,
+      "utterance_type": "assessment",
+      "decision_link": "none",
+      "timing": "original_pitch",
+      "turn_index": 120,
+      "quote": "You guys are kind of scrappy with the cash flow.",
+      "explanation": "Jake positively assesses the founders' resourcefulness in financing development and production.",
+      "evidence": [
+        "You guys are kind of scrappy with the cash flow."
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 120,
+          "speaker": "Jake",
+          "quote": "You guys are kind of scrappy with the cash flow."
+        }
+      ],
+      "activation": "evaluated",
+      "source_rationale_id": "R5",
+      "utterance_kind": "assessment",
+      "decision_support": "none",
+      "all_mention_ids": [
+        "R5"
+      ]
+    },
+    {
+      "rationale_label": "fund_economics_constraint",
+      "direction": "neutral",
+      "salience": "secondary",
+      "confidence": 0.98,
+      "utterance_type": "decision_reason",
+      "decision_link": "explicit",
+      "timing": "original_pitch",
+      "turn_index": 138,
+      "quote": "We're a smaller fund, but I definitely want to be in. I think probably a $25k commitment from us.",
+      "explanation": "Jake links his fund's smaller size to the amount of his investment commitment.",
+      "evidence": [
+        "We're a smaller fund, but I definitely want to be in. I think probably a $25k commitment from us."
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 138,
+          "speaker": "Jake",
+          "quote": "We're a smaller fund, but I definitely want to be in. I think probably a $25k commitment from us."
+        }
+      ],
+      "activation": "evaluated",
+      "source_rationale_id": "R10",
+      "utterance_kind": "decision_explanation",
+      "decision_support": "supports_in",
+      "all_mention_ids": [
+        "R10"
+      ]
+    },
+    {
+      "rationale_label": "go_to_market_strategy_assessment",
+      "direction": "positive",
+      "salience": "secondary",
+      "confidence": 0.84,
+      "utterance_type": "assessment",
+      "decision_link": "explicit",
+      "timing": "original_pitch",
+      "turn_index": 135,
+      "quote": "I know that's not the market you're going for because you want, sort of, the gyms to buy it. I think it could work.",
+      "explanation": "Jake assesses the gym-focused sales strategy as viable despite describing demand from individual users.",
+      "evidence": [
+        "I know that's not the market you're going for because you want, sort of, the gyms to buy it. I think it could work."
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 135,
+          "speaker": "Jake",
+          "quote": "I know that's not the market you're going for because you want, sort of, the gyms to buy it. I think it could work."
+        }
+      ],
+      "activation": "evaluated",
+      "source_rationale_id": "R9",
+      "utterance_kind": "supporting_argument",
+      "decision_support": "supports_in",
+      "all_mention_ids": [
+        "R9"
+      ]
+    },
+    {
+      "rationale_label": "investment_upside_assessment",
+      "direction": "positive",
+      "salience": "primary",
+      "confidence": 0.97,
+      "utterance_type": "decision_reason",
+      "decision_link": "explicit",
+      "timing": "original_pitch",
+      "turn_index": 138,
+      "quote": "I think there's a future here. I think you can become something like a Strava or a Peloton.",
+      "explanation": "Jake supports investing because he sees potential for the company to become a major fitness platform.",
+      "evidence": [
+        "I think there's a future here. I think you can become something like a Strava or a Peloton.",
+        "Howie's going to lose out on this one.",
+        "$3 million is a great price, too."
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 138,
+          "speaker": "Jake",
+          "quote": "I think there's a future here. I think you can become something like a Strava or a Peloton."
+        },
+        {
+          "turn_index": 222,
+          "speaker": "Jake",
+          "quote": "Howie's going to lose out on this one."
+        },
+        {
+          "turn_index": 230,
+          "speaker": "Jake",
+          "quote": "$3 million is a great price, too."
+        }
+      ],
+      "activation": "evaluated",
+      "source_rationale_id": "R11",
+      "utterance_kind": "decision_explanation",
+      "decision_support": "supports_in",
+      "all_mention_ids": [
+        "R11",
+        "R12",
+        "R13"
+      ]
+    },
+    {
+      "rationale_label": "investor_experience_bias",
+      "direction": "positive",
+      "salience": "secondary",
+      "confidence": 0.98,
+      "utterance_type": "assessment",
+      "decision_link": "explicit",
+      "timing": "original_pitch",
+      "turn_index": 135,
+      "quote": "I do box for fitness. I think it's an enormous amount of fun.",
+      "explanation": "Jake's personal experience with boxing fitness informs his favorable judgment of the opportunity.",
+      "evidence": [
+        "I do box for fitness. I think it's an enormous amount of fun."
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 135,
+          "speaker": "Jake",
+          "quote": "I do box for fitness. I think it's an enormous amount of fun."
+        }
+      ],
+      "activation": "evaluated",
+      "source_rationale_id": "R6",
+      "utterance_kind": "supporting_argument",
+      "decision_support": "supports_in",
+      "all_mention_ids": [
+        "R6"
+      ]
+    },
+    {
+      "rationale_label": "market_timing",
+      "direction": "positive",
+      "salience": "primary",
+      "confidence": 0.97,
+      "utterance_type": "assessment",
+      "decision_link": "explicit",
+      "timing": "original_pitch",
+      "turn_index": 135,
+      "quote": "I don't think it's a fad.",
+      "explanation": "Jake believes demand for boxing fitness is durable rather than fleeting.",
+      "evidence": [
+        "I don't think it's a fad."
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 135,
+          "speaker": "Jake",
+          "quote": "I don't think it's a fad."
+        }
+      ],
+      "activation": "evaluated",
+      "source_rationale_id": "R7",
+      "utterance_kind": "supporting_argument",
+      "decision_support": "supports_in",
+      "all_mention_ids": [
+        "R7"
+      ]
+    },
+    {
+      "rationale_label": "product_adoption",
+      "direction": "neutral",
+      "salience": "secondary",
+      "confidence": 0.97,
+      "utterance_type": "question",
+      "decision_link": "none",
+      "timing": "original_pitch",
+      "turn_index": 109,
+      "quote": "How many did you sell?",
+      "explanation": "Jake asks for a concrete measure of sales adoption.",
+      "evidence": [
+        "How many did you sell?"
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 109,
+          "speaker": "Jake",
+          "quote": "How many did you sell?"
+        }
+      ],
+      "activation": "queried",
+      "source_rationale_id": "R2",
+      "utterance_kind": "question",
+      "decision_support": "none",
+      "all_mention_ids": [
+        "R2"
+      ]
+    },
+    {
+      "rationale_label": "product_appeal_assessment",
+      "direction": "positive",
+      "salience": "primary",
+      "confidence": 0.96,
+      "utterance_type": "assessment",
+      "decision_link": "explicit",
+      "timing": "original_pitch",
+      "turn_index": 135,
+      "quote": "if I had these at my gym and I were doing it and I showed someone an app, other people would want the sensors.",
+      "explanation": "Jake expects the product to attract other gym users through visible use and demonstration.",
+      "model_quote_before_typography_repair": "If I had these at my gym and I were doing it and I showed someone an app, other people would want the sensors.",
+      "evidence": [
+        "if I had these at my gym and I were doing it and I showed someone an app, other people would want the sensors."
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 135,
+          "speaker": "Jake",
+          "quote": "if I had these at my gym and I were doing it and I showed someone an app, other people would want the sensors."
+        }
+      ],
+      "activation": "evaluated",
+      "source_rationale_id": "R8",
+      "utterance_kind": "supporting_argument",
+      "decision_support": "supports_in",
+      "all_mention_ids": [
+        "R8"
+      ]
+    },
+    {
+      "rationale_label": "solution_feasibility_assessment",
+      "direction": "neutral",
+      "salience": "secondary",
+      "confidence": 0.95,
+      "utterance_type": "question",
+      "decision_link": "none",
+      "timing": "original_pitch",
+      "turn_index": 116,
+      "quote": "In terms of hardware development, it's basically done, right?",
+      "explanation": "Jake checks whether the hardware has reached production readiness.",
+      "evidence": [
+        "In terms of hardware development, it's basically done, right?"
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 116,
+          "speaker": "Jake",
+          "quote": "In terms of hardware development, it's basically done, right?"
+        }
+      ],
+      "activation": "queried",
+      "source_rationale_id": "R4",
+      "utterance_kind": "question",
+      "decision_support": "none",
+      "all_mention_ids": [
+        "R4"
+      ]
+    },
+    {
+      "rationale_label": "unit_economics_assessment",
+      "direction": "neutral",
+      "salience": "secondary",
+      "confidence": 0.97,
+      "utterance_type": "question",
+      "decision_link": "none",
+      "timing": "original_pitch",
+      "turn_index": 113,
+      "quote": "And what's your cost to make a pair of sensors?",
+      "explanation": "Jake queries the per-unit manufacturing cost.",
+      "evidence": [
+        "And what's your cost to make a pair of sensors?"
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 113,
+          "speaker": "Jake",
+          "quote": "And what's your cost to make a pair of sensors?"
+        }
+      ],
+      "activation": "queried",
+      "source_rationale_id": "R3",
+      "utterance_kind": "question",
+      "decision_support": "none",
+      "all_mention_ids": [
+        "R3"
+      ]
+    }
+  ],
+  "later_rationales": [
+    {
+      "rationale_label": "product_adoption",
+      "direction": "positive",
+      "salience": "secondary",
+      "confidence": 0.91,
+      "utterance_type": "assessment",
+      "decision_link": "none",
+      "timing": "later_commentary",
+      "turn_index": 245,
+      "quote": "they've just been growing like gangbusters so their direct sales through their website.",
+      "explanation": "Jake reports rapid growth in direct website sales following his investment.",
+      "evidence": [
+        "they've just been growing like gangbusters so their direct sales through their website."
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 245,
+          "speaker": "Jake",
+          "quote": "they've just been growing like gangbusters so their direct sales through their website."
+        }
+      ],
+      "activation": "evaluated",
+      "source_rationale_id": "R14"
+    },
+    {
+      "rationale_label": "solution_feasibility_assessment",
+      "direction": "positive",
+      "salience": "primary",
+      "confidence": 0.98,
+      "utterance_type": "assessment",
+      "decision_link": "none",
+      "timing": "later_commentary",
+      "turn_index": 245,
+      "quote": "the product came through -- very very few complaints from customers almost nobody shipping it back.",
+      "explanation": "Jake reports that the shipped hardware performed reliably and generated very few complaints or returns.",
+      "evidence": [
+        "the product came through -- very very few complaints from customers almost nobody shipping it back."
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 245,
+          "speaker": "Jake",
+          "quote": "the product came through -- very very few complaints from customers almost nobody shipping it back."
+        }
+      ],
+      "activation": "evaluated",
+      "source_rationale_id": "R15"
+    },
+    {
+      "rationale_label": "solution_feasibility_assessment",
+      "direction": "positive",
+      "salience": "primary",
+      "confidence": 0.97,
+      "utterance_type": "assessment",
+      "decision_link": "none",
+      "timing": "later_commentary",
+      "turn_index": 249,
+      "quote": "Very very few quality control issues once they sort of shipping.",
+      "explanation": "Jake reports that the production hardware had very few quality-control problems.",
+      "evidence": [
+        "Very very few quality control issues once they sort of shipping."
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 249,
+          "speaker": "Jake",
+          "quote": "Very very few quality control issues once they sort of shipping."
+        }
+      ],
+      "activation": "evaluated",
+      "source_rationale_id": "R16"
+    },
+    {
+      "rationale_label": "founder_execution",
+      "direction": "positive",
+      "salience": "secondary",
+      "confidence": 0.96,
+      "utterance_type": "assessment",
+      "decision_link": "none",
+      "timing": "later_commentary",
+      "turn_index": 249,
+      "quote": "they work really hard at the factory to get it right.",
+      "explanation": "Jake credits the founders' intensive factory work for achieving the strong production outcome.",
+      "evidence": [
+        "they work really hard at the factory to get it right."
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 249,
+          "speaker": "Jake",
+          "quote": "they work really hard at the factory to get it right."
+        }
+      ],
+      "activation": "evaluated",
+      "source_rationale_id": "R17"
+    },
+    {
+      "rationale_label": "product_adoption",
+      "direction": "positive",
+      "salience": "primary",
+      "confidence": 0.98,
+      "utterance_type": "assessment",
+      "decision_link": "none",
+      "timing": "later_commentary",
+      "turn_index": 251,
+      "quote": "Their sales have been growing incredibly fast. They started rolling out to gyms the gym members love it.",
+      "explanation": "Jake reports rapid sales growth and strong adoption among gym users.",
+      "evidence": [
+        "Their sales have been growing incredibly fast. They started rolling out to gyms the gym members love it."
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 251,
+          "speaker": "Jake",
+          "quote": "Their sales have been growing incredibly fast. They started rolling out to gyms the gym members love it."
+        }
+      ],
+      "activation": "evaluated",
+      "source_rationale_id": "R18"
+    },
+    {
+      "rationale_label": "market_entry_path_assessment",
+      "direction": "positive",
+      "salience": "primary",
+      "confidence": 0.97,
+      "utterance_type": "assessment",
+      "decision_link": "none",
+      "timing": "later_commentary",
+      "turn_index": 251,
+      "quote": "those pilots that he talked about had started expanding into larger pilots or full blown contracts.",
+      "explanation": "Jake says the initial gym pilots successfully became a wedge into larger deployments and contracts.",
+      "evidence": [
+        "those pilots that he talked about had started expanding into larger pilots or full blown contracts."
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 251,
+          "speaker": "Jake",
+          "quote": "those pilots that he talked about had started expanding into larger pilots or full blown contracts."
+        }
+      ],
+      "activation": "evaluated",
+      "source_rationale_id": "R19"
+    },
+    {
+      "rationale_label": "investment_upside_assessment",
+      "direction": "positive",
+      "salience": "primary",
+      "confidence": 0.9,
+      "utterance_type": "decision_explanation",
+      "decision_link": "supports_in",
+      "timing": "later_commentary",
+      "turn_index": 252,
+      "quote": "based on all this progress we decided to increase our investment",
+      "explanation": "Jake explicitly links the company's subsequent progress to the decision to make a substantially larger follow-on investment.",
+      "evidence": [
+        "based on all this progress we decided to increase our investment"
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 252,
+          "speaker": "Jake",
+          "quote": "based on all this progress we decided to increase our investment"
+        }
+      ],
+      "activation": "evaluated",
+      "source_rationale_id": "R20"
+    },
+    {
+      "rationale_label": "investment_upside_assessment",
+      "direction": "positive",
+      "salience": "primary",
+      "confidence": 0.95,
+      "utterance_type": "decision_explanation",
+      "decision_link": "supports_in",
+      "timing": "later_commentary",
+      "turn_index": 256,
+      "quote": "this thing that you thought was great is like mind blowingly great.",
+      "explanation": "Jake says the company exceeded his already-positive expectations, explaining why increasing the investment was attractive.",
+      "evidence": [
+        "this thing that you thought was great is like mind blowingly great."
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 256,
+          "speaker": "Jake",
+          "quote": "this thing that you thought was great is like mind blowingly great."
+        }
+      ],
+      "activation": "evaluated",
+      "source_rationale_id": "R21"
+    }
+  ],
+  "excluded_rationales": [
+    {
+      "rationale_label": "execution_risk_assessment",
+      "direction": "negative",
+      "salience": "primary",
+      "confidence": 0.98,
+      "utterance_type": "assessment",
+      "decision_link": "none",
+      "timing": "teaser",
+      "turn_index": 7,
+      "quote": "There are a ton, a ton of operational issues that you haven't had to address yet.",
+      "explanation": "Jake says significant operational challenges remain unaddressed and the team has not yet demonstrated it can handle them.",
+      "evidence": [
+        "There are a ton, a ton of operational issues that you haven't had to address yet."
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 7,
+          "speaker": "Jake",
+          "quote": "There are a ton, a ton of operational issues that you haven't had to address yet."
+        }
+      ],
+      "activation": "evaluated",
+      "source_rationale_id": "R1"
+    }
+  ],
+  "rationale_mentions": [
+    {
+      "rationale_label": "product_adoption",
+      "direction": "neutral",
+      "salience": "secondary",
+      "confidence": 0.97,
+      "utterance_type": "question",
+      "decision_link": "none",
+      "timing": "original_pitch",
+      "turn_index": 109,
+      "quote": "How many did you sell?",
+      "explanation": "Jake asks for a concrete measure of sales adoption.",
+      "evidence": [
+        "How many did you sell?"
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 109,
+          "speaker": "Jake",
+          "quote": "How many did you sell?"
+        }
+      ],
+      "activation": "queried",
+      "source_rationale_id": "R2"
+    },
+    {
+      "rationale_label": "unit_economics_assessment",
+      "direction": "neutral",
+      "salience": "secondary",
+      "confidence": 0.97,
+      "utterance_type": "question",
+      "decision_link": "none",
+      "timing": "original_pitch",
+      "turn_index": 113,
+      "quote": "And what's your cost to make a pair of sensors?",
+      "explanation": "Jake queries the per-unit manufacturing cost.",
+      "evidence": [
+        "And what's your cost to make a pair of sensors?"
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 113,
+          "speaker": "Jake",
+          "quote": "And what's your cost to make a pair of sensors?"
+        }
+      ],
+      "activation": "queried",
+      "source_rationale_id": "R3"
+    },
+    {
+      "rationale_label": "solution_feasibility_assessment",
+      "direction": "neutral",
+      "salience": "secondary",
+      "confidence": 0.95,
+      "utterance_type": "question",
+      "decision_link": "none",
+      "timing": "original_pitch",
+      "turn_index": 116,
+      "quote": "In terms of hardware development, it's basically done, right?",
+      "explanation": "Jake checks whether the hardware has reached production readiness.",
+      "evidence": [
+        "In terms of hardware development, it's basically done, right?"
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 116,
+          "speaker": "Jake",
+          "quote": "In terms of hardware development, it's basically done, right?"
+        }
+      ],
+      "activation": "queried",
+      "source_rationale_id": "R4"
+    },
+    {
+      "rationale_label": "founder_execution",
+      "direction": "positive",
+      "salience": "secondary",
+      "confidence": 0.97,
+      "utterance_type": "assessment",
+      "decision_link": "none",
+      "timing": "original_pitch",
+      "turn_index": 120,
+      "quote": "You guys are kind of scrappy with the cash flow.",
+      "explanation": "Jake positively assesses the founders' resourcefulness in financing development and production.",
+      "evidence": [
+        "You guys are kind of scrappy with the cash flow."
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 120,
+          "speaker": "Jake",
+          "quote": "You guys are kind of scrappy with the cash flow."
+        }
+      ],
+      "activation": "evaluated",
+      "source_rationale_id": "R5"
+    },
+    {
+      "rationale_label": "investor_experience_bias",
+      "direction": "positive",
+      "salience": "secondary",
+      "confidence": 0.98,
+      "utterance_type": "supporting_argument",
+      "decision_link": "supports_in",
+      "timing": "original_pitch",
+      "turn_index": 135,
+      "quote": "I do box for fitness. I think it's an enormous amount of fun.",
+      "explanation": "Jake's personal experience with boxing fitness informs his favorable judgment of the opportunity.",
+      "evidence": [
+        "I do box for fitness. I think it's an enormous amount of fun."
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 135,
+          "speaker": "Jake",
+          "quote": "I do box for fitness. I think it's an enormous amount of fun."
+        }
+      ],
+      "activation": "evaluated",
+      "source_rationale_id": "R6"
+    },
+    {
+      "rationale_label": "market_timing",
+      "direction": "positive",
+      "salience": "primary",
+      "confidence": 0.97,
+      "utterance_type": "supporting_argument",
+      "decision_link": "supports_in",
+      "timing": "original_pitch",
+      "turn_index": 135,
+      "quote": "I don't think it's a fad.",
+      "explanation": "Jake believes demand for boxing fitness is durable rather than fleeting.",
+      "evidence": [
+        "I don't think it's a fad."
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 135,
+          "speaker": "Jake",
+          "quote": "I don't think it's a fad."
+        }
+      ],
+      "activation": "evaluated",
+      "source_rationale_id": "R7"
+    },
+    {
+      "rationale_label": "product_appeal_assessment",
+      "direction": "positive",
+      "salience": "primary",
+      "confidence": 0.96,
+      "utterance_type": "supporting_argument",
+      "decision_link": "supports_in",
+      "timing": "original_pitch",
+      "turn_index": 135,
+      "quote": "if I had these at my gym and I were doing it and I showed someone an app, other people would want the sensors.",
+      "explanation": "Jake expects the product to attract other gym users through visible use and demonstration.",
+      "model_quote_before_typography_repair": "If I had these at my gym and I were doing it and I showed someone an app, other people would want the sensors.",
+      "evidence": [
+        "if I had these at my gym and I were doing it and I showed someone an app, other people would want the sensors."
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 135,
+          "speaker": "Jake",
+          "quote": "if I had these at my gym and I were doing it and I showed someone an app, other people would want the sensors."
+        }
+      ],
+      "activation": "evaluated",
+      "source_rationale_id": "R8"
+    },
+    {
+      "rationale_label": "go_to_market_strategy_assessment",
+      "direction": "positive",
+      "salience": "secondary",
+      "confidence": 0.84,
+      "utterance_type": "supporting_argument",
+      "decision_link": "supports_in",
+      "timing": "original_pitch",
+      "turn_index": 135,
+      "quote": "I know that's not the market you're going for because you want, sort of, the gyms to buy it. I think it could work.",
+      "explanation": "Jake assesses the gym-focused sales strategy as viable despite describing demand from individual users.",
+      "evidence": [
+        "I know that's not the market you're going for because you want, sort of, the gyms to buy it. I think it could work."
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 135,
+          "speaker": "Jake",
+          "quote": "I know that's not the market you're going for because you want, sort of, the gyms to buy it. I think it could work."
+        }
+      ],
+      "activation": "evaluated",
+      "source_rationale_id": "R9"
+    },
+    {
+      "rationale_label": "fund_economics_constraint",
+      "direction": "neutral",
+      "salience": "secondary",
+      "confidence": 0.98,
+      "utterance_type": "decision_explanation",
+      "decision_link": "supports_in",
+      "timing": "original_pitch",
+      "turn_index": 138,
+      "quote": "We're a smaller fund, but I definitely want to be in. I think probably a $25k commitment from us.",
+      "explanation": "Jake links his fund's smaller size to the amount of his investment commitment.",
+      "evidence": [
+        "We're a smaller fund, but I definitely want to be in. I think probably a $25k commitment from us."
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 138,
+          "speaker": "Jake",
+          "quote": "We're a smaller fund, but I definitely want to be in. I think probably a $25k commitment from us."
+        }
+      ],
+      "activation": "evaluated",
+      "source_rationale_id": "R10"
+    },
+    {
+      "rationale_label": "investment_upside_assessment",
+      "direction": "positive",
+      "salience": "primary",
+      "confidence": 0.97,
+      "utterance_type": "decision_explanation",
+      "decision_link": "supports_in",
+      "timing": "original_pitch",
+      "turn_index": 138,
+      "quote": "I think there's a future here. I think you can become something like a Strava or a Peloton.",
+      "explanation": "Jake supports investing because he sees potential for the company to become a major fitness platform.",
+      "evidence": [
+        "I think there's a future here. I think you can become something like a Strava or a Peloton."
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 138,
+          "speaker": "Jake",
+          "quote": "I think there's a future here. I think you can become something like a Strava or a Peloton."
+        }
+      ],
+      "activation": "evaluated",
+      "source_rationale_id": "R11"
+    },
+    {
+      "rationale_label": "investment_upside_assessment",
+      "direction": "positive",
+      "salience": "secondary",
+      "confidence": 0.89,
+      "utterance_type": "assessment",
+      "decision_link": "none",
+      "timing": "original_pitch",
+      "turn_index": 222,
+      "quote": "Howie's going to lose out on this one.",
+      "explanation": "Jake indicates that passing on the company means missing a valuable investment outcome.",
+      "evidence": [
+        "Howie's going to lose out on this one."
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 222,
+          "speaker": "Jake",
+          "quote": "Howie's going to lose out on this one."
+        }
+      ],
+      "activation": "evaluated",
+      "source_rationale_id": "R12"
+    },
+    {
+      "rationale_label": "investment_upside_assessment",
+      "direction": "positive",
+      "salience": "secondary",
+      "confidence": 0.93,
+      "utterance_type": "assessment",
+      "decision_link": "none",
+      "timing": "original_pitch",
+      "turn_index": 230,
+      "quote": "$3 million is a great price, too.",
+      "explanation": "Jake considers the negotiated valuation financially attractive.",
+      "evidence": [
+        "$3 million is a great price, too."
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 230,
+          "speaker": "Jake",
+          "quote": "$3 million is a great price, too."
+        }
+      ],
+      "activation": "evaluated",
+      "source_rationale_id": "R13"
+    }
+  ],
+  "expanded_quote_evidence": [],
+  "rejected_after_evidence_check": []
+}

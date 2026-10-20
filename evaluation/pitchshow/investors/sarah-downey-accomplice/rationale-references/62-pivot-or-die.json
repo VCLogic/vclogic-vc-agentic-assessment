@@ -1,0 +1,299 @@
+{
+  "schema": "phase1-rationale-reference-v1",
+  "extraction_version": "pitchshow-rationales-v1",
+  "fingerprint": "907d1d595c1088c725757a5c421f75d57767839524fb54fa5096d16e7062f50f",
+  "episode_slug": "62-pivot-or-die",
+  "vc_slug": "sarah-downey-accomplice",
+  "vc_name": "Sarah Downey",
+  "actual_decision": "In",
+  "later_decision": "In",
+  "reference_kind": "automated_transcript_observed_candidate",
+  "human_validated": false,
+  "source_format": "transcript-observed-rationales-v1",
+  "source_path": "../source/episodes/62-pivot-or-die.json",
+  "source_sha256": "c4100293b51ffb3bc1b9dc28aba4a13c2e2f3f3c78bac16056b31baec146567f",
+  "transcript_sha256": "d5b3de08a009e3870fccce95c6d9e279f98db9a3a924307aecfb0ff0f5e93d7a",
+  "taxonomy_sha256": "eaa8734819a3ac34dd19ee5f0bf6de925a793a1d25a2d361090dafc9b751e1fc",
+  "model": "codex:gpt-5.6-luna+gpt-5.6-sol",
+  "generation_stages": [
+    {
+      "phase": "rationale_extract",
+      "backend": "codex",
+      "model": "gpt-5.6-luna"
+    },
+    {
+      "phase": "rationale_verify",
+      "backend": "codex",
+      "model": "gpt-5.6-sol"
+    }
+  ],
+  "source_tier": "newly_extracted_and_independently_model_reviewed",
+  "reviewed_target_turns": [
+    15,
+    17,
+    19,
+    21,
+    24,
+    60,
+    98,
+    106,
+    108,
+    114,
+    118
+  ],
+  "notes": "Turn 19 requests a UX demonstration but does not itself express the positive product perception required by product_appeal_assessment. Turn 60 is a teaser repetition of the broad risk question later asked in turn 98; neither question identifies a taxonomy-specific risk. Turns 106 and 108 generally normalize difficult pivots without assessing Ben's execution ability, while turns 21, 24, and 114 are non-rationale reactions or jokes.",
+  "receipt_path": "receipts/62-pivot-or-die.json",
+  "scoring_scope": "original_pitch_only",
+  "shared_across_input_modes": true,
+  "rationales": [
+    {
+      "rationale_label": "founder_communication_quality",
+      "direction": "positive",
+      "salience": "secondary",
+      "confidence": 0.98,
+      "utterance_type": "assessment",
+      "decision_link": "none",
+      "timing": "original_pitch",
+      "turn_index": 98,
+      "quote": "You're super strong, the way that you're selling this.",
+      "explanation": "Sarah positively assesses Ben's ability to present and sell the business.",
+      "evidence": [
+        "You're super strong, the way that you're selling this."
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 98,
+          "speaker": "Sarah",
+          "quote": "You're super strong, the way that you're selling this."
+        }
+      ],
+      "activation": "evaluated",
+      "source_rationale_id": "R3",
+      "utterance_kind": "assessment",
+      "decision_support": "none",
+      "all_mention_ids": [
+        "R3"
+      ]
+    },
+    {
+      "rationale_label": "founder_qualities",
+      "direction": "positive",
+      "salience": "primary",
+      "confidence": 0.99,
+      "utterance_type": "decision_reason",
+      "decision_link": "explicit",
+      "timing": "original_pitch",
+      "turn_index": 118,
+      "quote": "You remind me of some of the best founders that I've worked with, because you're visionary on this.",
+      "explanation": "Sarah compares Ben with exceptional founders and identifies his vision as a major reason for investing.",
+      "evidence": [
+        "You remind me of some of the best founders that I've worked with, because you're visionary on this."
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 118,
+          "speaker": "Sarah",
+          "quote": "You remind me of some of the best founders that I've worked with, because you're visionary on this."
+        }
+      ],
+      "activation": "evaluated",
+      "source_rationale_id": "R4",
+      "utterance_kind": "decision_explanation",
+      "decision_support": "supports_in",
+      "all_mention_ids": [
+        "R4"
+      ]
+    },
+    {
+      "rationale_label": "market_timing",
+      "direction": "positive",
+      "salience": "primary",
+      "confidence": 0.97,
+      "utterance_type": "decision_reason",
+      "decision_link": "explicit",
+      "timing": "original_pitch",
+      "turn_index": 118,
+      "quote": "in the next couple of years this is going to be a dumb conversation, because everything is going to be dynamically priced in restaurants, I saw the future then.",
+      "explanation": "Sarah endorses a near-term future in which restaurant dynamic pricing becomes widespread, supporting her investment.",
+      "evidence": [
+        "in the next couple of years this is going to be a dumb conversation, because everything is going to be dynamically priced in restaurants, I saw the future then."
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 118,
+          "speaker": "Sarah",
+          "quote": "in the next couple of years this is going to be a dumb conversation, because everything is going to be dynamically priced in restaurants, I saw the future then."
+        }
+      ],
+      "activation": "evaluated",
+      "source_rationale_id": "R5",
+      "utterance_kind": "decision_explanation",
+      "decision_support": "supports_in",
+      "all_mention_ids": [
+        "R5"
+      ]
+    },
+    {
+      "rationale_label": "product_adoption",
+      "direction": "neutral",
+      "salience": "secondary",
+      "confidence": 0.95,
+      "utterance_type": "question",
+      "decision_link": "none",
+      "timing": "original_pitch",
+      "turn_index": 17,
+      "quote": "do you have any early learnings about what those reactions are like?",
+      "explanation": "Sarah seeks early evidence of consumers' reactions to dynamic pricing.",
+      "evidence": [
+        "have you looked yet at consumer, the end consumer behavior?",
+        "do you have any early learnings about what those reactions are like?"
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 15,
+          "speaker": "Sarah",
+          "quote": "have you looked yet at consumer, the end consumer behavior?"
+        },
+        {
+          "turn_index": 17,
+          "speaker": "Sarah",
+          "quote": "do you have any early learnings about what those reactions are like?"
+        }
+      ],
+      "activation": "queried",
+      "source_rationale_id": "R2",
+      "utterance_kind": "question",
+      "decision_support": "none",
+      "all_mention_ids": [
+        "R1",
+        "R2"
+      ]
+    }
+  ],
+  "later_rationales": [],
+  "excluded_rationales": [],
+  "rationale_mentions": [
+    {
+      "rationale_label": "product_adoption",
+      "direction": "neutral",
+      "salience": "secondary",
+      "confidence": 0.95,
+      "utterance_type": "question",
+      "decision_link": "none",
+      "timing": "original_pitch",
+      "turn_index": 15,
+      "quote": "have you looked yet at consumer, the end consumer behavior?",
+      "explanation": "Sarah asks for evidence about how consumers behave when restaurant prices change dynamically.",
+      "evidence": [
+        "have you looked yet at consumer, the end consumer behavior?"
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 15,
+          "speaker": "Sarah",
+          "quote": "have you looked yet at consumer, the end consumer behavior?"
+        }
+      ],
+      "activation": "queried",
+      "source_rationale_id": "R1"
+    },
+    {
+      "rationale_label": "product_adoption",
+      "direction": "neutral",
+      "salience": "secondary",
+      "confidence": 0.95,
+      "utterance_type": "question",
+      "decision_link": "none",
+      "timing": "original_pitch",
+      "turn_index": 17,
+      "quote": "do you have any early learnings about what those reactions are like?",
+      "explanation": "Sarah seeks early evidence of consumers' reactions to dynamic pricing.",
+      "evidence": [
+        "do you have any early learnings about what those reactions are like?"
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 17,
+          "speaker": "Sarah",
+          "quote": "do you have any early learnings about what those reactions are like?"
+        }
+      ],
+      "activation": "queried",
+      "source_rationale_id": "R2"
+    },
+    {
+      "rationale_label": "founder_communication_quality",
+      "direction": "positive",
+      "salience": "secondary",
+      "confidence": 0.98,
+      "utterance_type": "assessment",
+      "decision_link": "none",
+      "timing": "original_pitch",
+      "turn_index": 98,
+      "quote": "You're super strong, the way that you're selling this.",
+      "explanation": "Sarah positively assesses Ben's ability to present and sell the business.",
+      "evidence": [
+        "You're super strong, the way that you're selling this."
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 98,
+          "speaker": "Sarah",
+          "quote": "You're super strong, the way that you're selling this."
+        }
+      ],
+      "activation": "evaluated",
+      "source_rationale_id": "R3"
+    },
+    {
+      "rationale_label": "founder_qualities",
+      "direction": "positive",
+      "salience": "primary",
+      "confidence": 0.99,
+      "utterance_type": "decision_explanation",
+      "decision_link": "supports_in",
+      "timing": "original_pitch",
+      "turn_index": 118,
+      "quote": "You remind me of some of the best founders that I've worked with, because you're visionary on this.",
+      "explanation": "Sarah compares Ben with exceptional founders and identifies his vision as a major reason for investing.",
+      "evidence": [
+        "You remind me of some of the best founders that I've worked with, because you're visionary on this."
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 118,
+          "speaker": "Sarah",
+          "quote": "You remind me of some of the best founders that I've worked with, because you're visionary on this."
+        }
+      ],
+      "activation": "evaluated",
+      "source_rationale_id": "R4"
+    },
+    {
+      "rationale_label": "market_timing",
+      "direction": "positive",
+      "salience": "primary",
+      "confidence": 0.97,
+      "utterance_type": "decision_explanation",
+      "decision_link": "supports_in",
+      "timing": "original_pitch",
+      "turn_index": 118,
+      "quote": "in the next couple of years this is going to be a dumb conversation, because everything is going to be dynamically priced in restaurants, I saw the future then.",
+      "explanation": "Sarah endorses a near-term future in which restaurant dynamic pricing becomes widespread, supporting her investment.",
+      "evidence": [
+        "in the next couple of years this is going to be a dumb conversation, because everything is going to be dynamically priced in restaurants, I saw the future then."
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 118,
+          "speaker": "Sarah",
+          "quote": "in the next couple of years this is going to be a dumb conversation, because everything is going to be dynamically priced in restaurants, I saw the future then."
+        }
+      ],
+      "activation": "evaluated",
+      "source_rationale_id": "R5"
+    }
+  ],
+  "expanded_quote_evidence": [],
+  "rejected_after_evidence_check": []
+}

@@ -1,0 +1,310 @@
+{
+  "schema": "phase1-rationale-reference-v1",
+  "extraction_version": "pitchshow-rationales-v1",
+  "fingerprint": "64bdb5ed553ec8a9ab09ea6d79717f5e95facca499096dc62b6702ff4fe5fb5b",
+  "episode_slug": "178-cosmicbrain-ai-how-to-train-your-robot",
+  "vc_slug": "charles-hudson-precursor-ventures",
+  "vc_name": "Charles Hudson",
+  "actual_decision": "Out",
+  "later_decision": "Unknown",
+  "reference_kind": "automated_transcript_observed_candidate",
+  "human_validated": false,
+  "source_format": "transcript-observed-rationales-v1",
+  "source_path": "../source/episodes/178-cosmicbrain-ai-how-to-train-your-robot.json",
+  "source_sha256": "0b580aa46746f792b8c438dfb3a28d9b018342fa53988964e789ef69ca3d1c3a",
+  "transcript_sha256": "eaf6073881a1dc1e0a7b30f295bf000ce11aef5b3552757a03b8e73dd5b0b017",
+  "taxonomy_sha256": "eaa8734819a3ac34dd19ee5f0bf6de925a793a1d25a2d361090dafc9b751e1fc",
+  "model": "openai/gpt-5.6-luna",
+  "source_tier": "newly_extracted_and_independently_model_reviewed",
+  "reviewed_target_turns": [
+    26,
+    110,
+    120,
+    122,
+    124,
+    126,
+    136,
+    179,
+    280,
+    282
+  ],
+  "notes": "Target turns without material rationales were reviewed and omitted.",
+  "receipt_path": "receipts/178-cosmicbrain-ai-how-to-train-your-robot.json",
+  "scoring_scope": "original_pitch_only",
+  "shared_across_input_modes": true,
+  "rationales": [
+    {
+      "rationale_label": "founder_market_fit",
+      "direction": "positive",
+      "salience": "secondary",
+      "confidence": 0.95,
+      "utterance_type": "decision_reason",
+      "decision_link": "none",
+      "timing": "original_pitch",
+      "turn_index": 136,
+      "quote": "if I were gonna bet on anybody, it'd be somebody with your background.",
+      "explanation": "Charles expresses confidence in the founder’s relevant robotics background, while clarifying that his refusal is not based on the founder’s capabilities.",
+      "model_quote_before_typography_repair": "If I were gonna bet on anybody, it'd be somebody with your background.",
+      "evidence": [
+        "if I were gonna bet on anybody, it'd be somebody with your background."
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 136,
+          "speaker": "Charles",
+          "quote": "if I were gonna bet on anybody, it'd be somebody with your background."
+        }
+      ],
+      "activation": "evaluated",
+      "source_rationale_id": "R5",
+      "utterance_kind": "decision_explanation",
+      "decision_support": "none",
+      "all_mention_ids": [
+        "R5"
+      ]
+    },
+    {
+      "rationale_label": "founder_skillset",
+      "direction": "neutral",
+      "salience": "secondary",
+      "confidence": 0.95,
+      "utterance_type": "question",
+      "decision_link": "none",
+      "timing": "original_pitch",
+      "turn_index": 110,
+      "quote": "Are you like the idea generator of like this, basically the skills that need to be built?",
+      "explanation": "Charles asks whether the founder personally identifies the use cases and robotic skills the company should build.",
+      "evidence": [
+        "Are you like the idea generator of like this, basically the skills that need to be built?"
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 110,
+          "speaker": "Charles",
+          "quote": "Are you like the idea generator of like this, basically the skills that need to be built?"
+        }
+      ],
+      "activation": "queried",
+      "source_rationale_id": "R1",
+      "utterance_kind": "question",
+      "decision_support": "none",
+      "all_mention_ids": [
+        "R1"
+      ]
+    },
+    {
+      "rationale_label": "investor_domain_knowledge_constraint",
+      "direction": "negative",
+      "salience": "secondary",
+      "confidence": 0.97,
+      "utterance_type": "decision_reason",
+      "decision_link": "explicit",
+      "timing": "original_pitch",
+      "turn_index": 136,
+      "quote": "my limited understanding of the market and where it feels like we are",
+      "explanation": "Charles says his limited understanding of the market’s current position contributes to his decision not to invest.",
+      "evidence": [
+        "my limited understanding of the market and where it feels like we are"
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 136,
+          "speaker": "Charles",
+          "quote": "my limited understanding of the market and where it feels like we are"
+        }
+      ],
+      "activation": "evaluated",
+      "source_rationale_id": "R4",
+      "utterance_kind": "decision_explanation",
+      "decision_support": "supports_out",
+      "all_mention_ids": [
+        "R4"
+      ]
+    },
+    {
+      "rationale_label": "market_size_assessment",
+      "direction": "neutral",
+      "salience": "secondary",
+      "confidence": 0.99,
+      "utterance_type": "question",
+      "decision_link": "none",
+      "timing": "original_pitch",
+      "turn_index": 120,
+      "quote": "How many addressable robots are there for you right now?",
+      "explanation": "Charles asks about the current size of the company’s addressable robot market.",
+      "evidence": [
+        "How many addressable robots are there for you right now?"
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 120,
+          "speaker": "Charles",
+          "quote": "How many addressable robots are there for you right now?"
+        }
+      ],
+      "activation": "queried",
+      "source_rationale_id": "R2",
+      "utterance_kind": "question",
+      "decision_support": "none",
+      "all_mention_ids": [
+        "R2"
+      ]
+    },
+    {
+      "rationale_label": "market_timing",
+      "direction": "negative",
+      "salience": "primary",
+      "confidence": 0.99,
+      "utterance_type": "decision_reason",
+      "decision_link": "explicit",
+      "timing": "original_pitch",
+      "turn_index": 136,
+      "quote": "It still feels a click too early for me.",
+      "explanation": "Charles explicitly cites the market being too early as the reason he is out.",
+      "evidence": [
+        "It still feels a click too early for me."
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 136,
+          "speaker": "Charles",
+          "quote": "It still feels a click too early for me."
+        }
+      ],
+      "activation": "evaluated",
+      "source_rationale_id": "R3",
+      "utterance_kind": "decision_explanation",
+      "decision_support": "supports_out",
+      "all_mention_ids": [
+        "R3"
+      ]
+    }
+  ],
+  "later_rationales": [],
+  "excluded_rationales": [],
+  "rationale_mentions": [
+    {
+      "rationale_label": "founder_skillset",
+      "direction": "neutral",
+      "salience": "secondary",
+      "confidence": 0.95,
+      "utterance_type": "question",
+      "decision_link": "none",
+      "timing": "original_pitch",
+      "turn_index": 110,
+      "quote": "Are you like the idea generator of like this, basically the skills that need to be built?",
+      "explanation": "Charles asks whether the founder personally identifies the use cases and robotic skills the company should build.",
+      "evidence": [
+        "Are you like the idea generator of like this, basically the skills that need to be built?"
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 110,
+          "speaker": "Charles",
+          "quote": "Are you like the idea generator of like this, basically the skills that need to be built?"
+        }
+      ],
+      "activation": "queried",
+      "source_rationale_id": "R1"
+    },
+    {
+      "rationale_label": "market_size_assessment",
+      "direction": "neutral",
+      "salience": "secondary",
+      "confidence": 0.99,
+      "utterance_type": "question",
+      "decision_link": "none",
+      "timing": "original_pitch",
+      "turn_index": 120,
+      "quote": "How many addressable robots are there for you right now?",
+      "explanation": "Charles asks about the current size of the company’s addressable robot market.",
+      "evidence": [
+        "How many addressable robots are there for you right now?"
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 120,
+          "speaker": "Charles",
+          "quote": "How many addressable robots are there for you right now?"
+        }
+      ],
+      "activation": "queried",
+      "source_rationale_id": "R2"
+    },
+    {
+      "rationale_label": "market_timing",
+      "direction": "negative",
+      "salience": "primary",
+      "confidence": 0.99,
+      "utterance_type": "decision_explanation",
+      "decision_link": "supports_out",
+      "timing": "original_pitch",
+      "turn_index": 136,
+      "quote": "It still feels a click too early for me.",
+      "explanation": "Charles explicitly cites the market being too early as the reason he is out.",
+      "evidence": [
+        "It still feels a click too early for me."
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 136,
+          "speaker": "Charles",
+          "quote": "It still feels a click too early for me."
+        }
+      ],
+      "activation": "evaluated",
+      "source_rationale_id": "R3"
+    },
+    {
+      "rationale_label": "investor_domain_knowledge_constraint",
+      "direction": "negative",
+      "salience": "secondary",
+      "confidence": 0.97,
+      "utterance_type": "decision_explanation",
+      "decision_link": "supports_out",
+      "timing": "original_pitch",
+      "turn_index": 136,
+      "quote": "my limited understanding of the market and where it feels like we are",
+      "explanation": "Charles says his limited understanding of the market’s current position contributes to his decision not to invest.",
+      "evidence": [
+        "my limited understanding of the market and where it feels like we are"
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 136,
+          "speaker": "Charles",
+          "quote": "my limited understanding of the market and where it feels like we are"
+        }
+      ],
+      "activation": "evaluated",
+      "source_rationale_id": "R4"
+    },
+    {
+      "rationale_label": "founder_market_fit",
+      "direction": "positive",
+      "salience": "secondary",
+      "confidence": 0.95,
+      "utterance_type": "decision_explanation",
+      "decision_link": "none",
+      "timing": "original_pitch",
+      "turn_index": 136,
+      "quote": "if I were gonna bet on anybody, it'd be somebody with your background.",
+      "explanation": "Charles expresses confidence in the founder’s relevant robotics background, while clarifying that his refusal is not based on the founder’s capabilities.",
+      "model_quote_before_typography_repair": "If I were gonna bet on anybody, it'd be somebody with your background.",
+      "evidence": [
+        "if I were gonna bet on anybody, it'd be somebody with your background."
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 136,
+          "speaker": "Charles",
+          "quote": "if I were gonna bet on anybody, it'd be somebody with your background."
+        }
+      ],
+      "activation": "evaluated",
+      "source_rationale_id": "R5"
+    }
+  ],
+  "expanded_quote_evidence": [],
+  "rejected_after_evidence_check": []
+}

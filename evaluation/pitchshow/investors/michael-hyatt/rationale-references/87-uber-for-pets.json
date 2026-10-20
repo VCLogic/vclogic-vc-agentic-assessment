@@ -1,0 +1,1547 @@
+{
+  "schema": "phase1-rationale-reference-v1",
+  "extraction_version": "pitchshow-rationales-v1",
+  "fingerprint": "c577ad8b6e089e08b5cc06b0cde996c42d1e1ce627f80d4644083b584e261dbc",
+  "episode_slug": "87-uber-for-pets",
+  "vc_slug": "michael-hyatt",
+  "vc_name": "Michael Hyatt",
+  "actual_decision": "Out",
+  "later_decision": "Unknown",
+  "reference_kind": "automated_transcript_observed_candidate",
+  "human_validated": false,
+  "source_format": "transcript-observed-rationales-v1",
+  "source_path": "../source/episodes/87-uber-for-pets.json",
+  "source_sha256": "46e514ee1a3c514adeeb7a25c94eac0bf4834d0bc0f9e7bedef8c6386f90cbe8",
+  "transcript_sha256": "b2356bccf2a61afa690adad69c4230c9fcbbe2251f8b591c5f21af9d36c3d447",
+  "taxonomy_sha256": "eaa8734819a3ac34dd19ee5f0bf6de925a793a1d25a2d361090dafc9b751e1fc",
+  "model": "codex:gpt-5.6-luna+gpt-5.6-sol",
+  "generation_stages": [
+    {
+      "phase": "rationale_extract",
+      "backend": "codex",
+      "model": "gpt-5.6-luna"
+    },
+    {
+      "phase": "rationale_verify",
+      "backend": "codex",
+      "model": "gpt-5.6-sol"
+    }
+  ],
+  "source_tier": "newly_extracted_and_independently_model_reviewed",
+  "reviewed_target_turns": [
+    3,
+    10,
+    12,
+    22,
+    40,
+    42,
+    44,
+    48,
+    50,
+    55,
+    58,
+    67,
+    69,
+    71,
+    74,
+    77,
+    79,
+    81,
+    84,
+    86,
+    89,
+    91,
+    93,
+    95,
+    102,
+    119,
+    127,
+    129,
+    131,
+    143,
+    145,
+    153,
+    155,
+    157,
+    160,
+    165,
+    170,
+    183,
+    187,
+    189,
+    192,
+    195,
+    199,
+    203,
+    205,
+    207,
+    209,
+    212,
+    214,
+    222,
+    224
+  ],
+  "notes": "All supplied Michael Hyatt turns were reviewed. Same-room post-founder discussion is classified as original_pitch; generic financing queries, acknowledgments, jokes, thanks, and bare naming suggestions without an expressed rationale were not annotated.",
+  "receipt_path": "receipts/87-uber-for-pets.json",
+  "scoring_scope": "original_pitch_only",
+  "shared_across_input_modes": true,
+  "rationales": [
+    {
+      "rationale_label": "business_model_assessment",
+      "direction": "positive",
+      "salience": "secondary",
+      "confidence": 0.85,
+      "utterance_type": "assessment",
+      "decision_link": "none",
+      "timing": "original_pitch",
+      "turn_index": 195,
+      "quote": "has a premium.",
+      "explanation": "Acknowledges premium pricing as a favorable feature of SpotOn's business model, though not enough to overcome his concerns.",
+      "evidence": [
+        "which kind of got me off of the Uber X and on to the Uber Blacks.",
+        "has a premium."
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 102,
+          "speaker": "Michael",
+          "quote": "which kind of got me off of the Uber X and on to the Uber Blacks."
+        },
+        {
+          "turn_index": 195,
+          "speaker": "Michael",
+          "quote": "has a premium."
+        }
+      ],
+      "activation": "evaluated",
+      "source_rationale_id": "R30",
+      "utterance_kind": "assessment",
+      "decision_support": "none",
+      "all_mention_ids": [
+        "R2",
+        "R3",
+        "R11",
+        "R12",
+        "R13",
+        "R14",
+        "R18",
+        "R30"
+      ]
+    },
+    {
+      "rationale_label": "business_viability_concern",
+      "direction": "negative",
+      "salience": "primary",
+      "confidence": 0.99,
+      "utterance_type": "assessment",
+      "decision_link": "explicit",
+      "timing": "original_pitch",
+      "turn_index": 224,
+      "quote": "There's no money in it.",
+      "explanation": "Repeats his assessment that the opportunity cannot produce sufficient financial returns.",
+      "evidence": [
+        "Does it strike anybody that Uber and Lyft struggle?",
+        "No! To make any money!",
+        "if you're 35 bucks a ride, that's what you said, and you get a 15%, I don't know, 5 bucks to you.",
+        "The biggest companies on the planet that are into ride sharing struggle with unit economics.",
+        "There's no money in this.",
+        "There's no money in it."
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 67,
+          "speaker": "Michael",
+          "quote": "Does it strike anybody that Uber and Lyft struggle?"
+        },
+        {
+          "turn_index": 69,
+          "speaker": "Michael",
+          "quote": "No! To make any money!"
+        },
+        {
+          "turn_index": 71,
+          "speaker": "Michael",
+          "quote": "if you're 35 bucks a ride, that's what you said, and you get a 15%, I don't know, 5 bucks to you."
+        },
+        {
+          "turn_index": 195,
+          "speaker": "Michael",
+          "quote": "The biggest companies on the planet that are into ride sharing struggle with unit economics."
+        },
+        {
+          "turn_index": 222,
+          "speaker": "Michael",
+          "quote": "There's no money in this."
+        },
+        {
+          "turn_index": 224,
+          "speaker": "Michael",
+          "quote": "There's no money in it."
+        }
+      ],
+      "activation": "evaluated",
+      "source_rationale_id": "R39",
+      "utterance_kind": "assessment",
+      "decision_support": "supports_out",
+      "all_mention_ids": [
+        "R8",
+        "R9",
+        "R10",
+        "R31",
+        "R38",
+        "R39"
+      ]
+    },
+    {
+      "rationale_label": "capital_intensity_concern",
+      "direction": "negative",
+      "salience": "primary",
+      "confidence": 0.99,
+      "utterance_type": "decision_reason",
+      "decision_link": "explicit",
+      "timing": "original_pitch",
+      "turn_index": 170,
+      "quote": "you will drink capital marketing this business.",
+      "explanation": "Concludes that scaling the B2C business will consume substantial marketing capital and explicitly uses this concern to pass.",
+      "evidence": [
+        "you will drink capital marketing this business."
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 170,
+          "speaker": "Michael",
+          "quote": "you will drink capital marketing this business."
+        }
+      ],
+      "activation": "evaluated",
+      "source_rationale_id": "R29",
+      "utterance_kind": "decision_explanation",
+      "decision_support": "supports_out",
+      "all_mention_ids": [
+        "R29"
+      ]
+    },
+    {
+      "rationale_label": "founder_investor_vision_alignment",
+      "direction": "positive",
+      "salience": "secondary",
+      "confidence": 0.96,
+      "utterance_type": "assessment",
+      "decision_link": "none",
+      "timing": "original_pitch",
+      "turn_index": 214,
+      "quote": "That’s more attractive.",
+      "explanation": "Endorses the hypothetical B2B-focused vision as more appealing than the founder's stated B2C direction.",
+      "evidence": [
+        "That’s more attractive."
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 214,
+          "speaker": "Michael",
+          "quote": "That’s more attractive."
+        }
+      ],
+      "activation": "evaluated",
+      "source_rationale_id": "R37",
+      "utterance_kind": "supporting_argument",
+      "decision_support": "none",
+      "all_mention_ids": [
+        "R33",
+        "R37"
+      ]
+    },
+    {
+      "rationale_label": "founder_qualities",
+      "direction": "positive",
+      "salience": "secondary",
+      "confidence": 0.88,
+      "utterance_type": "assessment",
+      "decision_link": "none",
+      "timing": "original_pitch",
+      "turn_index": 170,
+      "quote": "I think you’re great.",
+      "explanation": "Expresses a favorable personal assessment of the founder despite declining the investment.",
+      "evidence": [
+        "I like you",
+        "I think you’re great."
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 102,
+          "speaker": "Michael",
+          "quote": "I like you"
+        },
+        {
+          "turn_index": 170,
+          "speaker": "Michael",
+          "quote": "I think you’re great."
+        }
+      ],
+      "activation": "evaluated",
+      "source_rationale_id": "R27",
+      "utterance_kind": "assessment",
+      "decision_support": "none",
+      "all_mention_ids": [
+        "R17",
+        "R27"
+      ]
+    },
+    {
+      "rationale_label": "go_to_market_strategy_assessment",
+      "direction": "negative",
+      "salience": "primary",
+      "confidence": 0.99,
+      "utterance_type": "assessment",
+      "decision_link": "explicit",
+      "timing": "original_pitch",
+      "turn_index": 195,
+      "quote": "she’s going to find it very, very expensive to add clients.",
+      "explanation": "Expects customer acquisition to be prohibitively expensive as the company expands.",
+      "evidence": [
+        "she’s going to find it very, very expensive to add clients."
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 195,
+          "speaker": "Michael",
+          "quote": "she’s going to find it very, very expensive to add clients."
+        }
+      ],
+      "activation": "evaluated",
+      "source_rationale_id": "R32",
+      "utterance_kind": "concern",
+      "decision_support": "supports_out",
+      "all_mention_ids": [
+        "R15",
+        "R16",
+        "R24",
+        "R32"
+      ]
+    },
+    {
+      "rationale_label": "investor_experience_bias",
+      "direction": "negative",
+      "salience": "secondary",
+      "confidence": 0.96,
+      "utterance_type": "question",
+      "decision_link": "none",
+      "timing": "original_pitch",
+      "turn_index": 48,
+      "quote": "Why do you say they're not gonna take you? I've been in those a ton of times with animals.",
+      "explanation": "Uses his own experience taking animals in existing rideshares to challenge the claimed service gap.",
+      "evidence": [
+        "Why do you say they're not gonna take you? I've been in those a ton of times with animals."
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 48,
+          "speaker": "Michael",
+          "quote": "Why do you say they're not gonna take you? I've been in those a ton of times with animals."
+        }
+      ],
+      "activation": "queried",
+      "source_rationale_id": "R4",
+      "utterance_kind": "question",
+      "decision_support": "none",
+      "all_mention_ids": [
+        "R4"
+      ]
+    },
+    {
+      "rationale_label": "investor_value_add_fit",
+      "direction": "negative",
+      "salience": "secondary",
+      "confidence": 0.95,
+      "utterance_type": "assessment",
+      "decision_link": "none",
+      "timing": "original_pitch",
+      "turn_index": 209,
+      "quote": "I’m not into the taking them to the school thing.",
+      "explanation": "Reiterates that hands-on instruction of the entrepreneur is not the investor role he wants.",
+      "evidence": [
+        "I don’t want to be in the business of teaching entrepreneurs.",
+        "I want them to run the company and have vision and I want to support them.",
+        "I’m not into the taking them to the school thing."
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 203,
+          "speaker": "Michael",
+          "quote": "I don’t want to be in the business of teaching entrepreneurs."
+        },
+        {
+          "turn_index": 207,
+          "speaker": "Michael",
+          "quote": "I want them to run the company and have vision and I want to support them."
+        },
+        {
+          "turn_index": 209,
+          "speaker": "Michael",
+          "quote": "I’m not into the taking them to the school thing."
+        }
+      ],
+      "activation": "evaluated",
+      "source_rationale_id": "R36",
+      "utterance_kind": "assessment",
+      "decision_support": "none",
+      "all_mention_ids": [
+        "R34",
+        "R35",
+        "R36"
+      ]
+    },
+    {
+      "rationale_label": "market_size_assessment",
+      "direction": "negative",
+      "salience": "primary",
+      "confidence": 0.99,
+      "utterance_type": "assessment",
+      "decision_link": "none",
+      "timing": "original_pitch",
+      "turn_index": 129,
+      "quote": "She's not common. Who has a vet coming to their home?",
+      "explanation": "Argues that the customer example is unusual rather than representative of widespread demand.",
+      "evidence": [
+        "But aren’t you the edge case?",
+        "She's not common. Who has a vet coming to their home?"
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 127,
+          "speaker": "Michael",
+          "quote": "But aren’t you the edge case?"
+        },
+        {
+          "turn_index": 129,
+          "speaker": "Michael",
+          "quote": "She's not common. Who has a vet coming to their home?"
+        }
+      ],
+      "activation": "evaluated",
+      "source_rationale_id": "R22",
+      "utterance_kind": "concern",
+      "decision_support": "none",
+      "all_mention_ids": [
+        "R21",
+        "R22"
+      ]
+    },
+    {
+      "rationale_label": "product_appeal_assessment",
+      "direction": "negative",
+      "salience": "secondary",
+      "confidence": 0.9,
+      "utterance_type": "assessment",
+      "decision_link": "none",
+      "timing": "original_pitch",
+      "turn_index": 153,
+      "quote": "Why did you call the company Spot On? It sounds like they're a carpet cleaning.",
+      "explanation": "Criticizes the company name because it does not clearly evoke the pet-transport service.",
+      "evidence": [
+        "Why did you call the company Spot On? It sounds like they're a carpet cleaning.",
+        "Why wouldn't it be Pet Ride? Like what you do."
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 153,
+          "speaker": "Michael",
+          "quote": "Why did you call the company Spot On? It sounds like they're a carpet cleaning."
+        },
+        {
+          "turn_index": 155,
+          "speaker": "Michael",
+          "quote": "Why wouldn't it be Pet Ride? Like what you do."
+        }
+      ],
+      "activation": "evaluated",
+      "source_rationale_id": "R25",
+      "utterance_kind": "concern",
+      "decision_support": "none",
+      "all_mention_ids": [
+        "R20",
+        "R25",
+        "R26"
+      ]
+    },
+    {
+      "rationale_label": "product_differentiation_concern",
+      "direction": "negative",
+      "salience": "secondary",
+      "confidence": 0.99,
+      "utterance_type": "assessment",
+      "decision_link": "none",
+      "timing": "original_pitch",
+      "turn_index": 58,
+      "quote": "For, for Uber drivers with a dog it does.",
+      "explanation": "States that extra payment can solve the pet-acceptance problem with existing Uber drivers.",
+      "evidence": [
+        "But don't you just get into an Uber and hand the guy $20 or $50 extra and he'll just say, Okay, I'll take it.",
+        "Doesn't money solve that problem?",
+        "For, for Uber drivers with a dog it does."
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 50,
+          "speaker": "Michael",
+          "quote": "But don't you just get into an Uber and hand the guy $20 or $50 extra and he'll just say, Okay, I'll take it."
+        },
+        {
+          "turn_index": 55,
+          "speaker": "Michael",
+          "quote": "Doesn't money solve that problem?"
+        },
+        {
+          "turn_index": 58,
+          "speaker": "Michael",
+          "quote": "For, for Uber drivers with a dog it does."
+        }
+      ],
+      "activation": "evaluated",
+      "source_rationale_id": "R7",
+      "utterance_kind": "supporting_argument",
+      "decision_support": "none",
+      "all_mention_ids": [
+        "R5",
+        "R6",
+        "R7"
+      ]
+    },
+    {
+      "rationale_label": "product_success_factor_assessment",
+      "direction": "neutral",
+      "salience": "secondary",
+      "confidence": 0.89,
+      "utterance_type": "question",
+      "decision_link": "none",
+      "timing": "original_pitch",
+      "turn_index": 143,
+      "quote": "What’s the biggest thing you need to do with this product?",
+      "explanation": "Asks which next product or business milestone is most important to success.",
+      "evidence": [
+        "What’s the biggest thing you need to do with this product?"
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 143,
+          "speaker": "Michael",
+          "quote": "What’s the biggest thing you need to do with this product?"
+        }
+      ],
+      "activation": "queried",
+      "source_rationale_id": "R23",
+      "utterance_kind": "question",
+      "decision_support": "none",
+      "all_mention_ids": [
+        "R23"
+      ]
+    },
+    {
+      "rationale_label": "solution_feasibility_assessment",
+      "direction": "neutral",
+      "salience": "secondary",
+      "confidence": 0.8,
+      "utterance_type": "question",
+      "decision_link": "none",
+      "timing": "original_pitch",
+      "turn_index": 22,
+      "quote": "You have a two hour booking window?",
+      "explanation": "Checks the service's operational requirement that customers book two hours in advance.",
+      "evidence": [
+        "You have a two hour booking window?"
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 22,
+          "speaker": "Michael",
+          "quote": "You have a two hour booking window?"
+        }
+      ],
+      "activation": "queried",
+      "source_rationale_id": "R1",
+      "utterance_kind": "question",
+      "decision_support": "none",
+      "all_mention_ids": [
+        "R1"
+      ]
+    },
+    {
+      "rationale_label": "venture_scale_concern",
+      "direction": "negative",
+      "salience": "primary",
+      "confidence": 0.98,
+      "utterance_type": "decision_reason",
+      "decision_link": "explicit",
+      "timing": "original_pitch",
+      "turn_index": 170,
+      "quote": "I think this is a very cool niche business.",
+      "explanation": "Characterizes SpotOn as appealing but constrained to a niche, limiting its venture-scale potential.",
+      "evidence": [
+        "how does it become not a niche-y business, how is this a business business?",
+        "I think this is a very cool niche business."
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 102,
+          "speaker": "Michael",
+          "quote": "how does it become not a niche-y business, how is this a business business?"
+        },
+        {
+          "turn_index": 170,
+          "speaker": "Michael",
+          "quote": "I think this is a very cool niche business."
+        }
+      ],
+      "activation": "evaluated",
+      "source_rationale_id": "R28",
+      "utterance_kind": "decision_explanation",
+      "decision_support": "supports_out",
+      "all_mention_ids": [
+        "R19",
+        "R28"
+      ]
+    }
+  ],
+  "later_rationales": [],
+  "excluded_rationales": [],
+  "rationale_mentions": [
+    {
+      "rationale_label": "solution_feasibility_assessment",
+      "direction": "neutral",
+      "salience": "secondary",
+      "confidence": 0.8,
+      "utterance_type": "question",
+      "decision_link": "none",
+      "timing": "original_pitch",
+      "turn_index": 22,
+      "quote": "You have a two hour booking window?",
+      "explanation": "Checks the service's operational requirement that customers book two hours in advance.",
+      "evidence": [
+        "You have a two hour booking window?"
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 22,
+          "speaker": "Michael",
+          "quote": "You have a two hour booking window?"
+        }
+      ],
+      "activation": "queried",
+      "source_rationale_id": "R1"
+    },
+    {
+      "rationale_label": "business_model_assessment",
+      "direction": "neutral",
+      "salience": "secondary",
+      "confidence": 0.98,
+      "utterance_type": "question",
+      "decision_link": "none",
+      "timing": "original_pitch",
+      "turn_index": 40,
+      "quote": "Give us an example of a ride and how much money do you get paid.",
+      "explanation": "Requests the revenue generated from a representative ride.",
+      "evidence": [
+        "Give us an example of a ride and how much money do you get paid."
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 40,
+          "speaker": "Michael",
+          "quote": "Give us an example of a ride and how much money do you get paid."
+        }
+      ],
+      "activation": "queried",
+      "source_rationale_id": "R2"
+    },
+    {
+      "rationale_label": "business_model_assessment",
+      "direction": "neutral",
+      "salience": "secondary",
+      "confidence": 0.99,
+      "utterance_type": "question",
+      "decision_link": "none",
+      "timing": "original_pitch",
+      "turn_index": 42,
+      "quote": "What would they pay with you? What's your cut?",
+      "explanation": "Queries customer pricing and the company's share of each fare.",
+      "evidence": [
+        "What would they pay with you? What's your cut?"
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 42,
+          "speaker": "Michael",
+          "quote": "What would they pay with you? What's your cut?"
+        }
+      ],
+      "activation": "queried",
+      "source_rationale_id": "R3"
+    },
+    {
+      "rationale_label": "investor_experience_bias",
+      "direction": "negative",
+      "salience": "secondary",
+      "confidence": 0.96,
+      "utterance_type": "question",
+      "decision_link": "none",
+      "timing": "original_pitch",
+      "turn_index": 48,
+      "quote": "Why do you say they're not gonna take you? I've been in those a ton of times with animals.",
+      "explanation": "Uses his own experience taking animals in existing rideshares to challenge the claimed service gap.",
+      "evidence": [
+        "Why do you say they're not gonna take you? I've been in those a ton of times with animals."
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 48,
+          "speaker": "Michael",
+          "quote": "Why do you say they're not gonna take you? I've been in those a ton of times with animals."
+        }
+      ],
+      "activation": "queried",
+      "source_rationale_id": "R4"
+    },
+    {
+      "rationale_label": "product_differentiation_concern",
+      "direction": "negative",
+      "salience": "secondary",
+      "confidence": 0.98,
+      "utterance_type": "question",
+      "decision_link": "none",
+      "timing": "original_pitch",
+      "turn_index": 50,
+      "quote": "But don't you just get into an Uber and hand the guy $20 or $50 extra and he'll just say, Okay, I'll take it.",
+      "explanation": "Questions whether riders can solve the pet-acceptance problem through an existing rideshare driver.",
+      "evidence": [
+        "But don't you just get into an Uber and hand the guy $20 or $50 extra and he'll just say, Okay, I'll take it."
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 50,
+          "speaker": "Michael",
+          "quote": "But don't you just get into an Uber and hand the guy $20 or $50 extra and he'll just say, Okay, I'll take it."
+        }
+      ],
+      "activation": "queried",
+      "source_rationale_id": "R5"
+    },
+    {
+      "rationale_label": "product_differentiation_concern",
+      "direction": "negative",
+      "salience": "secondary",
+      "confidence": 0.98,
+      "utterance_type": "question",
+      "decision_link": "none",
+      "timing": "original_pitch",
+      "turn_index": 55,
+      "quote": "Doesn't money solve that problem?",
+      "explanation": "Questions whether extra compensation removes the need for a dedicated pet-ride service.",
+      "evidence": [
+        "Doesn't money solve that problem?"
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 55,
+          "speaker": "Michael",
+          "quote": "Doesn't money solve that problem?"
+        }
+      ],
+      "activation": "queried",
+      "source_rationale_id": "R6"
+    },
+    {
+      "rationale_label": "product_differentiation_concern",
+      "direction": "negative",
+      "salience": "secondary",
+      "confidence": 0.99,
+      "utterance_type": "supporting_argument",
+      "decision_link": "none",
+      "timing": "original_pitch",
+      "turn_index": 58,
+      "quote": "For, for Uber drivers with a dog it does.",
+      "explanation": "States that extra payment can solve the pet-acceptance problem with existing Uber drivers.",
+      "evidence": [
+        "For, for Uber drivers with a dog it does."
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 58,
+          "speaker": "Michael",
+          "quote": "For, for Uber drivers with a dog it does."
+        }
+      ],
+      "activation": "evaluated",
+      "source_rationale_id": "R7"
+    },
+    {
+      "rationale_label": "business_viability_concern",
+      "direction": "negative",
+      "salience": "primary",
+      "confidence": 0.97,
+      "utterance_type": "question",
+      "decision_link": "none",
+      "timing": "original_pitch",
+      "turn_index": 67,
+      "quote": "Does it strike anybody that Uber and Lyft struggle?",
+      "explanation": "Raises the economics of incumbent ridesharing businesses as a warning for SpotOn.",
+      "evidence": [
+        "Does it strike anybody that Uber and Lyft struggle?"
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 67,
+          "speaker": "Michael",
+          "quote": "Does it strike anybody that Uber and Lyft struggle?"
+        }
+      ],
+      "activation": "queried",
+      "source_rationale_id": "R8"
+    },
+    {
+      "rationale_label": "business_viability_concern",
+      "direction": "negative",
+      "salience": "primary",
+      "confidence": 0.99,
+      "utterance_type": "assessment",
+      "decision_link": "none",
+      "timing": "original_pitch",
+      "turn_index": 69,
+      "quote": "No! To make any money!",
+      "explanation": "Emphasizes that even major rideshare incumbents struggle to generate profits.",
+      "evidence": [
+        "No! To make any money!"
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 69,
+          "speaker": "Michael",
+          "quote": "No! To make any money!"
+        }
+      ],
+      "activation": "evaluated",
+      "source_rationale_id": "R9"
+    },
+    {
+      "rationale_label": "business_viability_concern",
+      "direction": "negative",
+      "salience": "primary",
+      "confidence": 0.99,
+      "utterance_type": "concern",
+      "decision_link": "none",
+      "timing": "original_pitch",
+      "turn_index": 71,
+      "quote": "if you're 35 bucks a ride, that's what you said, and you get a 15%, I don't know, 5 bucks to you.",
+      "explanation": "Questions whether roughly five dollars of company revenue per ride can sustain the business.",
+      "evidence": [
+        "if you're 35 bucks a ride, that's what you said, and you get a 15%, I don't know, 5 bucks to you."
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 71,
+          "speaker": "Michael",
+          "quote": "if you're 35 bucks a ride, that's what you said, and you get a 15%, I don't know, 5 bucks to you."
+        }
+      ],
+      "activation": "evaluated",
+      "source_rationale_id": "R10"
+    },
+    {
+      "rationale_label": "business_model_assessment",
+      "direction": "neutral",
+      "salience": "secondary",
+      "confidence": 0.82,
+      "utterance_type": "question",
+      "decision_link": "none",
+      "timing": "original_pitch",
+      "turn_index": 74,
+      "quote": "In?",
+      "explanation": "Seeks clarification about the basis of the reported monthly revenue figure.",
+      "evidence": [
+        "In?"
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 74,
+          "speaker": "Michael",
+          "quote": "In?"
+        }
+      ],
+      "activation": "queried",
+      "source_rationale_id": "R11"
+    },
+    {
+      "rationale_label": "business_model_assessment",
+      "direction": "neutral",
+      "salience": "secondary",
+      "confidence": 0.95,
+      "utterance_type": "assessment",
+      "decision_link": "none",
+      "timing": "original_pitch",
+      "turn_index": 77,
+      "quote": "So you're 15% of that.",
+      "explanation": "Clarifies that SpotOn retains only 15 percent of the reported gross bookings.",
+      "evidence": [
+        "So you're 15% of that."
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 77,
+          "speaker": "Michael",
+          "quote": "So you're 15% of that."
+        }
+      ],
+      "activation": "evaluated",
+      "source_rationale_id": "R12"
+    },
+    {
+      "rationale_label": "business_model_assessment",
+      "direction": "neutral",
+      "salience": "secondary",
+      "confidence": 0.98,
+      "utterance_type": "question",
+      "decision_link": "none",
+      "timing": "original_pitch",
+      "turn_index": 79,
+      "quote": "Can you move that 15% to 25?",
+      "explanation": "Tests whether the company can increase its share of each fare.",
+      "evidence": [
+        "Can you move that 15% to 25?"
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 79,
+          "speaker": "Michael",
+          "quote": "Can you move that 15% to 25?"
+        }
+      ],
+      "activation": "queried",
+      "source_rationale_id": "R13"
+    },
+    {
+      "rationale_label": "business_model_assessment",
+      "direction": "neutral",
+      "salience": "secondary",
+      "confidence": 0.96,
+      "utterance_type": "question",
+      "decision_link": "none",
+      "timing": "original_pitch",
+      "turn_index": 81,
+      "quote": "Can you make more money?",
+      "explanation": "Asks whether the monetization model can generate greater revenue.",
+      "evidence": [
+        "Can you make more money?"
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 81,
+          "speaker": "Michael",
+          "quote": "Can you make more money?"
+        }
+      ],
+      "activation": "queried",
+      "source_rationale_id": "R14"
+    },
+    {
+      "rationale_label": "go_to_market_strategy_assessment",
+      "direction": "neutral",
+      "salience": "secondary",
+      "confidence": 0.99,
+      "utterance_type": "question",
+      "decision_link": "none",
+      "timing": "original_pitch",
+      "turn_index": 91,
+      "quote": "What's your customer acquisition cost? If you make 5 bucks?",
+      "explanation": "Queries acquisition cost relative to the company's limited revenue per ride.",
+      "evidence": [
+        "What's your customer acquisition cost? If you make 5 bucks?"
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 91,
+          "speaker": "Michael",
+          "quote": "What's your customer acquisition cost? If you make 5 bucks?"
+        }
+      ],
+      "activation": "queried",
+      "source_rationale_id": "R15"
+    },
+    {
+      "rationale_label": "go_to_market_strategy_assessment",
+      "direction": "neutral",
+      "salience": "secondary",
+      "confidence": 0.91,
+      "utterance_type": "question",
+      "decision_link": "none",
+      "timing": "original_pitch",
+      "turn_index": 95,
+      "quote": "Who's that?",
+      "explanation": "Requests identification of the business partners supplying customers through the company's B2B acquisition strategy.",
+      "evidence": [
+        "Who's that?"
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 95,
+          "speaker": "Michael",
+          "quote": "Who's that?"
+        }
+      ],
+      "activation": "queried",
+      "source_rationale_id": "R16"
+    },
+    {
+      "rationale_label": "founder_qualities",
+      "direction": "positive",
+      "salience": "secondary",
+      "confidence": 0.86,
+      "utterance_type": "assessment",
+      "decision_link": "none",
+      "timing": "original_pitch",
+      "turn_index": 102,
+      "quote": "I like you",
+      "explanation": "Expresses positive personal appeal toward the founder.",
+      "evidence": [
+        "I like you"
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 102,
+          "speaker": "Michael",
+          "quote": "I like you"
+        }
+      ],
+      "activation": "evaluated",
+      "source_rationale_id": "R17"
+    },
+    {
+      "rationale_label": "business_model_assessment",
+      "direction": "positive",
+      "salience": "secondary",
+      "confidence": 0.94,
+      "utterance_type": "assessment",
+      "decision_link": "none",
+      "timing": "original_pitch",
+      "turn_index": 102,
+      "quote": "which kind of got me off of the Uber X and on to the Uber Blacks.",
+      "explanation": "Says the premium Uber Black comparison improved his view of the business model.",
+      "evidence": [
+        "which kind of got me off of the Uber X and on to the Uber Blacks."
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 102,
+          "speaker": "Michael",
+          "quote": "which kind of got me off of the Uber X and on to the Uber Blacks."
+        }
+      ],
+      "activation": "evaluated",
+      "source_rationale_id": "R18"
+    },
+    {
+      "rationale_label": "venture_scale_concern",
+      "direction": "negative",
+      "salience": "primary",
+      "confidence": 0.99,
+      "utterance_type": "concern",
+      "decision_link": "none",
+      "timing": "original_pitch",
+      "turn_index": 102,
+      "quote": "how does it become not a niche-y business, how is this a business business?",
+      "explanation": "Questions whether SpotOn can grow beyond a niche into a venture-scale company.",
+      "evidence": [
+        "how does it become not a niche-y business, how is this a business business?"
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 102,
+          "speaker": "Michael",
+          "quote": "how does it become not a niche-y business, how is this a business business?"
+        }
+      ],
+      "activation": "evaluated",
+      "source_rationale_id": "R19"
+    },
+    {
+      "rationale_label": "product_appeal_assessment",
+      "direction": "positive",
+      "salience": "secondary",
+      "confidence": 0.97,
+      "utterance_type": "assessment",
+      "decision_link": "none",
+      "timing": "original_pitch",
+      "turn_index": 119,
+      "quote": "That's a cool service by the way.",
+      "explanation": "Expresses personal enthusiasm for the unaccompanied-pet service.",
+      "evidence": [
+        "That's a cool service by the way."
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 119,
+          "speaker": "Michael",
+          "quote": "That's a cool service by the way."
+        }
+      ],
+      "activation": "evaluated",
+      "source_rationale_id": "R20"
+    },
+    {
+      "rationale_label": "market_size_assessment",
+      "direction": "negative",
+      "salience": "primary",
+      "confidence": 0.98,
+      "utterance_type": "question",
+      "decision_link": "none",
+      "timing": "original_pitch",
+      "turn_index": 127,
+      "quote": "But aren’t you the edge case?",
+      "explanation": "Questions whether the example customer represents a sufficiently broad market.",
+      "evidence": [
+        "But aren’t you the edge case?"
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 127,
+          "speaker": "Michael",
+          "quote": "But aren’t you the edge case?"
+        }
+      ],
+      "activation": "queried",
+      "source_rationale_id": "R21"
+    },
+    {
+      "rationale_label": "market_size_assessment",
+      "direction": "negative",
+      "salience": "primary",
+      "confidence": 0.99,
+      "utterance_type": "concern",
+      "decision_link": "none",
+      "timing": "original_pitch",
+      "turn_index": 129,
+      "quote": "She's not common. Who has a vet coming to their home?",
+      "explanation": "Argues that the customer example is unusual rather than representative of widespread demand.",
+      "evidence": [
+        "She's not common. Who has a vet coming to their home?"
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 129,
+          "speaker": "Michael",
+          "quote": "She's not common. Who has a vet coming to their home?"
+        }
+      ],
+      "activation": "evaluated",
+      "source_rationale_id": "R22"
+    },
+    {
+      "rationale_label": "product_success_factor_assessment",
+      "direction": "neutral",
+      "salience": "secondary",
+      "confidence": 0.89,
+      "utterance_type": "question",
+      "decision_link": "none",
+      "timing": "original_pitch",
+      "turn_index": 143,
+      "quote": "What’s the biggest thing you need to do with this product?",
+      "explanation": "Asks which next product or business milestone is most important to success.",
+      "evidence": [
+        "What’s the biggest thing you need to do with this product?"
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 143,
+          "speaker": "Michael",
+          "quote": "What’s the biggest thing you need to do with this product?"
+        }
+      ],
+      "activation": "queried",
+      "source_rationale_id": "R23"
+    },
+    {
+      "rationale_label": "go_to_market_strategy_assessment",
+      "direction": "neutral",
+      "salience": "secondary",
+      "confidence": 0.96,
+      "utterance_type": "question",
+      "decision_link": "none",
+      "timing": "original_pitch",
+      "turn_index": 145,
+      "quote": "How do you do that?",
+      "explanation": "Requests the plan for expanding the New York footprint and demonstrating scalability.",
+      "evidence": [
+        "How do you do that?"
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 145,
+          "speaker": "Michael",
+          "quote": "How do you do that?"
+        }
+      ],
+      "activation": "queried",
+      "source_rationale_id": "R24"
+    },
+    {
+      "rationale_label": "product_appeal_assessment",
+      "direction": "negative",
+      "salience": "secondary",
+      "confidence": 0.9,
+      "utterance_type": "concern",
+      "decision_link": "none",
+      "timing": "original_pitch",
+      "turn_index": 153,
+      "quote": "Why did you call the company Spot On? It sounds like they're a carpet cleaning.",
+      "explanation": "Criticizes the company name because it does not clearly evoke the pet-transport service.",
+      "evidence": [
+        "Why did you call the company Spot On? It sounds like they're a carpet cleaning."
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 153,
+          "speaker": "Michael",
+          "quote": "Why did you call the company Spot On? It sounds like they're a carpet cleaning."
+        }
+      ],
+      "activation": "evaluated",
+      "source_rationale_id": "R25"
+    },
+    {
+      "rationale_label": "product_appeal_assessment",
+      "direction": "negative",
+      "salience": "secondary",
+      "confidence": 0.86,
+      "utterance_type": "question",
+      "decision_link": "none",
+      "timing": "original_pitch",
+      "turn_index": 155,
+      "quote": "Why wouldn't it be Pet Ride? Like what you do.",
+      "explanation": "Continues questioning the existing brand's clarity by proposing a descriptive alternative.",
+      "evidence": [
+        "Why wouldn't it be Pet Ride? Like what you do."
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 155,
+          "speaker": "Michael",
+          "quote": "Why wouldn't it be Pet Ride? Like what you do."
+        }
+      ],
+      "activation": "queried",
+      "source_rationale_id": "R26"
+    },
+    {
+      "rationale_label": "founder_qualities",
+      "direction": "positive",
+      "salience": "secondary",
+      "confidence": 0.88,
+      "utterance_type": "assessment",
+      "decision_link": "none",
+      "timing": "original_pitch",
+      "turn_index": 170,
+      "quote": "I think you’re great.",
+      "explanation": "Expresses a favorable personal assessment of the founder despite declining the investment.",
+      "evidence": [
+        "I think you’re great."
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 170,
+          "speaker": "Michael",
+          "quote": "I think you’re great."
+        }
+      ],
+      "activation": "evaluated",
+      "source_rationale_id": "R27"
+    },
+    {
+      "rationale_label": "venture_scale_concern",
+      "direction": "negative",
+      "salience": "primary",
+      "confidence": 0.98,
+      "utterance_type": "decision_explanation",
+      "decision_link": "supports_out",
+      "timing": "original_pitch",
+      "turn_index": 170,
+      "quote": "I think this is a very cool niche business.",
+      "explanation": "Characterizes SpotOn as appealing but constrained to a niche, limiting its venture-scale potential.",
+      "evidence": [
+        "I think this is a very cool niche business."
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 170,
+          "speaker": "Michael",
+          "quote": "I think this is a very cool niche business."
+        }
+      ],
+      "activation": "evaluated",
+      "source_rationale_id": "R28"
+    },
+    {
+      "rationale_label": "capital_intensity_concern",
+      "direction": "negative",
+      "salience": "primary",
+      "confidence": 0.99,
+      "utterance_type": "decision_explanation",
+      "decision_link": "supports_out",
+      "timing": "original_pitch",
+      "turn_index": 170,
+      "quote": "you will drink capital marketing this business.",
+      "explanation": "Concludes that scaling the B2C business will consume substantial marketing capital and explicitly uses this concern to pass.",
+      "evidence": [
+        "you will drink capital marketing this business."
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 170,
+          "speaker": "Michael",
+          "quote": "you will drink capital marketing this business."
+        }
+      ],
+      "activation": "evaluated",
+      "source_rationale_id": "R29"
+    },
+    {
+      "rationale_label": "business_model_assessment",
+      "direction": "positive",
+      "salience": "secondary",
+      "confidence": 0.85,
+      "utterance_type": "assessment",
+      "decision_link": "none",
+      "timing": "original_pitch",
+      "turn_index": 195,
+      "quote": "has a premium.",
+      "explanation": "Acknowledges premium pricing as a favorable feature of SpotOn's business model, though not enough to overcome his concerns.",
+      "evidence": [
+        "has a premium."
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 195,
+          "speaker": "Michael",
+          "quote": "has a premium."
+        }
+      ],
+      "activation": "evaluated",
+      "source_rationale_id": "R30"
+    },
+    {
+      "rationale_label": "business_viability_concern",
+      "direction": "negative",
+      "salience": "primary",
+      "confidence": 0.99,
+      "utterance_type": "assessment",
+      "decision_link": "supports_out",
+      "timing": "original_pitch",
+      "turn_index": 195,
+      "quote": "The biggest companies on the planet that are into ride sharing struggle with unit economics.",
+      "explanation": "Uses incumbent rideshare economics to reinforce his conclusion that SpotOn is financially unattractive.",
+      "evidence": [
+        "The biggest companies on the planet that are into ride sharing struggle with unit economics."
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 195,
+          "speaker": "Michael",
+          "quote": "The biggest companies on the planet that are into ride sharing struggle with unit economics."
+        }
+      ],
+      "activation": "evaluated",
+      "source_rationale_id": "R31"
+    },
+    {
+      "rationale_label": "go_to_market_strategy_assessment",
+      "direction": "negative",
+      "salience": "primary",
+      "confidence": 0.99,
+      "utterance_type": "concern",
+      "decision_link": "supports_out",
+      "timing": "original_pitch",
+      "turn_index": 195,
+      "quote": "she’s going to find it very, very expensive to add clients.",
+      "explanation": "Expects customer acquisition to be prohibitively expensive as the company expands.",
+      "evidence": [
+        "she’s going to find it very, very expensive to add clients."
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 195,
+          "speaker": "Michael",
+          "quote": "she’s going to find it very, very expensive to add clients."
+        }
+      ],
+      "activation": "evaluated",
+      "source_rationale_id": "R32"
+    },
+    {
+      "rationale_label": "founder_investor_vision_alignment",
+      "direction": "negative",
+      "salience": "secondary",
+      "confidence": 0.97,
+      "utterance_type": "assessment",
+      "decision_link": "none",
+      "timing": "original_pitch",
+      "turn_index": 199,
+      "quote": "That’s not where she’s gonna go.",
+      "explanation": "Believes the founder will not pursue the B2B-focused direction he considers preferable.",
+      "evidence": [
+        "That’s not where she’s gonna go."
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 199,
+          "speaker": "Michael",
+          "quote": "That’s not where she’s gonna go."
+        }
+      ],
+      "activation": "evaluated",
+      "source_rationale_id": "R33"
+    },
+    {
+      "rationale_label": "investor_value_add_fit",
+      "direction": "negative",
+      "salience": "secondary",
+      "confidence": 0.96,
+      "utterance_type": "assessment",
+      "decision_link": "none",
+      "timing": "original_pitch",
+      "turn_index": 203,
+      "quote": "I don’t want to be in the business of teaching entrepreneurs.",
+      "explanation": "Says an investment requiring him to teach the founder would not fit his preferred investor role.",
+      "evidence": [
+        "I don’t want to be in the business of teaching entrepreneurs."
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 203,
+          "speaker": "Michael",
+          "quote": "I don’t want to be in the business of teaching entrepreneurs."
+        }
+      ],
+      "activation": "evaluated",
+      "source_rationale_id": "R34"
+    },
+    {
+      "rationale_label": "investor_value_add_fit",
+      "direction": "negative",
+      "salience": "secondary",
+      "confidence": 0.94,
+      "utterance_type": "assessment",
+      "decision_link": "none",
+      "timing": "original_pitch",
+      "turn_index": 207,
+      "quote": "I want them to run the company and have vision and I want to support them.",
+      "explanation": "Defines his preferred role as supporting founders who already possess and execute their own vision.",
+      "evidence": [
+        "I want them to run the company and have vision and I want to support them."
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 207,
+          "speaker": "Michael",
+          "quote": "I want them to run the company and have vision and I want to support them."
+        }
+      ],
+      "activation": "evaluated",
+      "source_rationale_id": "R35"
+    },
+    {
+      "rationale_label": "investor_value_add_fit",
+      "direction": "negative",
+      "salience": "secondary",
+      "confidence": 0.95,
+      "utterance_type": "assessment",
+      "decision_link": "none",
+      "timing": "original_pitch",
+      "turn_index": 209,
+      "quote": "I’m not into the taking them to the school thing.",
+      "explanation": "Reiterates that hands-on instruction of the entrepreneur is not the investor role he wants.",
+      "evidence": [
+        "I’m not into the taking them to the school thing."
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 209,
+          "speaker": "Michael",
+          "quote": "I’m not into the taking them to the school thing."
+        }
+      ],
+      "activation": "evaluated",
+      "source_rationale_id": "R36"
+    },
+    {
+      "rationale_label": "founder_investor_vision_alignment",
+      "direction": "positive",
+      "salience": "secondary",
+      "confidence": 0.96,
+      "utterance_type": "supporting_argument",
+      "decision_link": "none",
+      "timing": "original_pitch",
+      "turn_index": 214,
+      "quote": "That’s more attractive.",
+      "explanation": "Endorses the hypothetical B2B-focused vision as more appealing than the founder's stated B2C direction.",
+      "evidence": [
+        "That’s more attractive."
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 214,
+          "speaker": "Michael",
+          "quote": "That’s more attractive."
+        }
+      ],
+      "activation": "evaluated",
+      "source_rationale_id": "R37"
+    },
+    {
+      "rationale_label": "business_viability_concern",
+      "direction": "negative",
+      "salience": "primary",
+      "confidence": 0.99,
+      "utterance_type": "assessment",
+      "decision_link": "supports_out",
+      "timing": "original_pitch",
+      "turn_index": 222,
+      "quote": "There's no money in this.",
+      "explanation": "Restates his conclusion that SpotOn lacks financially attractive economics.",
+      "evidence": [
+        "There's no money in this."
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 222,
+          "speaker": "Michael",
+          "quote": "There's no money in this."
+        }
+      ],
+      "activation": "evaluated",
+      "source_rationale_id": "R38"
+    },
+    {
+      "rationale_label": "business_viability_concern",
+      "direction": "negative",
+      "salience": "primary",
+      "confidence": 0.99,
+      "utterance_type": "assessment",
+      "decision_link": "supports_out",
+      "timing": "original_pitch",
+      "turn_index": 224,
+      "quote": "There's no money in it.",
+      "explanation": "Repeats his assessment that the opportunity cannot produce sufficient financial returns.",
+      "evidence": [
+        "There's no money in it."
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 224,
+          "speaker": "Michael",
+          "quote": "There's no money in it."
+        }
+      ],
+      "activation": "evaluated",
+      "source_rationale_id": "R39"
+    }
+  ],
+  "expanded_quote_evidence": [],
+  "rejected_after_evidence_check": []
+}

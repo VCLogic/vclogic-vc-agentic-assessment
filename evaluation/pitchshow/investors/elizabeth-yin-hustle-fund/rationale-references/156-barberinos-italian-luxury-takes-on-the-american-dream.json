@@ -1,0 +1,1211 @@
+{
+  "schema": "phase1-rationale-reference-v1",
+  "extraction_version": "pitchshow-rationales-v1",
+  "fingerprint": "142d9190d3e2dab674696b9332d49e596f524375f7e82cb7d154b4c4e56bcaa2",
+  "episode_slug": "156-barberinos-italian-luxury-takes-on-the-american-dream",
+  "vc_slug": "elizabeth-yin-hustle-fund",
+  "vc_name": "Elizabeth Yin",
+  "actual_decision": "Out",
+  "later_decision": "Unknown",
+  "reference_kind": "automated_transcript_observed_candidate",
+  "human_validated": false,
+  "source_format": "transcript-observed-rationales-v1",
+  "source_path": "../source/episodes/156-barberinos-italian-luxury-takes-on-the-american-dream.json",
+  "source_sha256": "6ad11aa003e6d0b59c53423fc3df2d412392a2569fab930d37bcbf9d1255113a",
+  "transcript_sha256": "9e0690ceda23b7661f50853ef5db957b602c03c572566832051a33c411e28b37",
+  "taxonomy_sha256": "eaa8734819a3ac34dd19ee5f0bf6de925a793a1d25a2d361090dafc9b751e1fc",
+  "model": "openai/gpt-5.6-luna",
+  "source_tier": "newly_extracted_and_independently_model_reviewed",
+  "reviewed_target_turns": [
+    8,
+    12,
+    14,
+    16,
+    20,
+    37,
+    39,
+    41,
+    43,
+    46,
+    79,
+    81,
+    87,
+    89,
+    91,
+    93,
+    95,
+    97,
+    99,
+    101,
+    103,
+    104,
+    106,
+    119,
+    122,
+    123,
+    132,
+    142,
+    144,
+    146,
+    148,
+    154,
+    157,
+    159,
+    162,
+    166,
+    169,
+    171,
+    179,
+    187,
+    205,
+    211
+  ],
+  "notes": "All supplied target turns were reviewed. Non-rationale turns, including greetings, confirmations, fragments, jokes, and factual comments without an expressed investment rationale, are omitted.",
+  "receipt_path": "receipts/156-barberinos-italian-luxury-takes-on-the-american-dream.json",
+  "scoring_scope": "original_pitch_only",
+  "shared_across_input_modes": true,
+  "rationales": [
+    {
+      "rationale_label": "business_model_assessment",
+      "direction": "neutral",
+      "salience": "secondary",
+      "confidence": 0.9,
+      "utterance_type": "question",
+      "decision_link": "none",
+      "timing": "original_pitch",
+      "turn_index": 132,
+      "quote": "What percentage is coming from the products and what percentage is coming from stores?",
+      "explanation": "She seeks to understand the company's service-versus-product revenue mix.",
+      "evidence": [
+        "What percentage is coming from the products and what percentage is coming from stores?"
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 132,
+          "speaker": "Elizabeth",
+          "quote": "What percentage is coming from the products and what percentage is coming from stores?"
+        }
+      ],
+      "activation": "queried",
+      "source_rationale_id": "R13",
+      "utterance_kind": "question",
+      "decision_support": "none",
+      "all_mention_ids": [
+        "R13"
+      ]
+    },
+    {
+      "rationale_label": "capital_intensity_concern",
+      "direction": "negative",
+      "salience": "primary",
+      "confidence": 0.98,
+      "utterance_type": "decision_reason",
+      "decision_link": "explicit",
+      "timing": "original_pitch",
+      "turn_index": 146,
+      "quote": "at sort of this 10 million plan it feels too much",
+      "explanation": "She views the proposed equity capital plan as excessive and cites it as a reason to decline.",
+      "evidence": [
+        "stores, are they capital intensive and what does it take to open a store?",
+        "my worry is that this is very capital intensive",
+        "at sort of this 10 million plan it feels too much",
+        "a plan that was less capital intensive"
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 95,
+          "speaker": "Elizabeth",
+          "quote": "stores, are they capital intensive and what does it take to open a store?"
+        },
+        {
+          "turn_index": 142,
+          "speaker": "Elizabeth",
+          "quote": "my worry is that this is very capital intensive"
+        },
+        {
+          "turn_index": 146,
+          "speaker": "Elizabeth",
+          "quote": "at sort of this 10 million plan it feels too much"
+        },
+        {
+          "turn_index": 171,
+          "speaker": "Elizabeth",
+          "quote": "a plan that was less capital intensive"
+        }
+      ],
+      "activation": "evaluated",
+      "source_rationale_id": "R20",
+      "utterance_kind": "decision_explanation",
+      "decision_support": "supports_out",
+      "all_mention_ids": [
+        "R7",
+        "R9",
+        "R10",
+        "R11",
+        "R14",
+        "R15",
+        "R20",
+        "R24",
+        "R28"
+      ]
+    },
+    {
+      "rationale_label": "dilution_concern",
+      "direction": "negative",
+      "salience": "secondary",
+      "confidence": 0.93,
+      "utterance_type": "decision_reason",
+      "decision_link": "explicit",
+      "timing": "original_pitch",
+      "turn_index": 146,
+      "quote": "you can open these stores in a less dilutive way",
+      "explanation": "She believes the planned store rollout could be financed with less dilution.",
+      "evidence": [
+        "you can open these stores in a less dilutive way"
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 146,
+          "speaker": "Elizabeth",
+          "quote": "you can open these stores in a less dilutive way"
+        }
+      ],
+      "activation": "evaluated",
+      "source_rationale_id": "R21",
+      "utterance_kind": "decision_explanation",
+      "decision_support": "supports_out",
+      "all_mention_ids": [
+        "R21"
+      ]
+    },
+    {
+      "rationale_label": "founder_execution",
+      "direction": "positive",
+      "salience": "secondary",
+      "confidence": 0.95,
+      "utterance_type": "assessment",
+      "decision_link": "none",
+      "timing": "original_pitch",
+      "turn_index": 146,
+      "quote": "you have learned all about this industry and just have been able to execute very quickly and find great people",
+      "explanation": "She praises the founder's rapid learning, execution, and ability to recruit strong people.",
+      "evidence": [
+        "very impressive, I think when founders don't have a particular background in an industry and yet somehow are able to learn to not only enter the industry, but also really excel in it",
+        "you have learned all about this industry and just have been able to execute very quickly and find great people"
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 39,
+          "speaker": "Elizabeth",
+          "quote": "very impressive, I think when founders don't have a particular background in an industry and yet somehow are able to learn to not only enter the industry, but also really excel in it"
+        },
+        {
+          "turn_index": 146,
+          "speaker": "Elizabeth",
+          "quote": "you have learned all about this industry and just have been able to execute very quickly and find great people"
+        }
+      ],
+      "activation": "evaluated",
+      "source_rationale_id": "R17",
+      "utterance_kind": "assessment",
+      "decision_support": "none",
+      "all_mention_ids": [
+        "R3",
+        "R17"
+      ]
+    },
+    {
+      "rationale_label": "founder_market_fit",
+      "direction": "neutral",
+      "salience": "secondary",
+      "confidence": 0.84,
+      "utterance_type": "question",
+      "decision_link": "none",
+      "timing": "original_pitch",
+      "turn_index": 37,
+      "quote": "tell us a little bit about your background",
+      "explanation": "She seeks background information relevant to assessing the founders' fit for the market.",
+      "evidence": [
+        "tell us a little bit about your background"
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 37,
+          "speaker": "Elizabeth",
+          "quote": "tell us a little bit about your background"
+        }
+      ],
+      "activation": "queried",
+      "source_rationale_id": "R2",
+      "utterance_kind": "question",
+      "decision_support": "none",
+      "all_mention_ids": [
+        "R2"
+      ]
+    },
+    {
+      "rationale_label": "founder_motivation_authenticity",
+      "direction": "neutral",
+      "salience": "secondary",
+      "confidence": 0.91,
+      "utterance_type": "question",
+      "decision_link": "none",
+      "timing": "original_pitch",
+      "turn_index": 37,
+      "quote": "How did you decide to start this company?",
+      "explanation": "She asks about the founder's motivation and origin for building the company.",
+      "evidence": [
+        "How did you decide to start this company?"
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 37,
+          "speaker": "Elizabeth",
+          "quote": "How did you decide to start this company?"
+        }
+      ],
+      "activation": "queried",
+      "source_rationale_id": "R1",
+      "utterance_kind": "question",
+      "decision_support": "none",
+      "all_mention_ids": [
+        "R1"
+      ]
+    },
+    {
+      "rationale_label": "founder_skillset",
+      "direction": "neutral",
+      "salience": "secondary",
+      "confidence": 0.86,
+      "utterance_type": "question",
+      "decision_link": "none",
+      "timing": "original_pitch",
+      "turn_index": 39,
+      "quote": "Is that, is that something that you guys kind of learned how to do as a team?",
+      "explanation": "She probes whether the founders developed the skills needed to shape formulas, scent, and presentation.",
+      "evidence": [
+        "Is that, is that something that you guys kind of learned how to do as a team?"
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 39,
+          "speaker": "Elizabeth",
+          "quote": "Is that, is that something that you guys kind of learned how to do as a team?"
+        }
+      ],
+      "activation": "queried",
+      "source_rationale_id": "R4",
+      "utterance_kind": "question",
+      "decision_support": "none",
+      "all_mention_ids": [
+        "R4"
+      ]
+    },
+    {
+      "rationale_label": "go_to_market_strategy_assessment",
+      "direction": "positive",
+      "salience": "secondary",
+      "confidence": 0.88,
+      "utterance_type": "assessment",
+      "decision_link": "none",
+      "timing": "original_pitch",
+      "turn_index": 171,
+      "quote": "had more partnerships like this to create experiences at a lower capital cost for you",
+      "explanation": "She supports expanding the partnership-based experience model as a more efficient route to market.",
+      "evidence": [
+        "But you have the store and that sounds like that is the aha moment.",
+        "I 100 percent believe in your strategy of make the store an experience",
+        "may be an interesting idea for, for you",
+        "So that's much more interesting.",
+        "That's much more interesting.",
+        "had more partnerships like this to create experiences at a lower capital cost for you"
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 95,
+          "speaker": "Elizabeth",
+          "quote": "But you have the store and that sounds like that is the aha moment."
+        },
+        {
+          "turn_index": 146,
+          "speaker": "Elizabeth",
+          "quote": "I 100 percent believe in your strategy of make the store an experience"
+        },
+        {
+          "turn_index": 154,
+          "speaker": "Elizabeth",
+          "quote": "may be an interesting idea for, for you"
+        },
+        {
+          "turn_index": 162,
+          "speaker": "Elizabeth",
+          "quote": "So that's much more interesting."
+        },
+        {
+          "turn_index": 169,
+          "speaker": "Elizabeth",
+          "quote": "That's much more interesting."
+        },
+        {
+          "turn_index": 171,
+          "speaker": "Elizabeth",
+          "quote": "had more partnerships like this to create experiences at a lower capital cost for you"
+        }
+      ],
+      "activation": "evaluated",
+      "source_rationale_id": "R29",
+      "utterance_kind": "supporting_argument",
+      "decision_support": "none",
+      "all_mention_ids": [
+        "R5",
+        "R6",
+        "R8",
+        "R18",
+        "R22",
+        "R25",
+        "R26",
+        "R27",
+        "R29"
+      ]
+    },
+    {
+      "rationale_label": "investment_thesis_constraint",
+      "direction": "negative",
+      "salience": "primary",
+      "confidence": 0.99,
+      "utterance_type": "decision_reason",
+      "decision_link": "explicit",
+      "timing": "original_pitch",
+      "turn_index": 146,
+      "quote": "For HustleFund, we only invest in software, so HustleFund just automatically is out.",
+      "explanation": "She states that Hustle Fund's software-only mandate independently rules out the investment.",
+      "evidence": [
+        "For HustleFund, we only invest in software, so HustleFund just automatically is out."
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 146,
+          "speaker": "Elizabeth",
+          "quote": "For HustleFund, we only invest in software, so HustleFund just automatically is out."
+        }
+      ],
+      "activation": "evaluated",
+      "source_rationale_id": "R16",
+      "utterance_kind": "decision_explanation",
+      "decision_support": "supports_out",
+      "all_mention_ids": [
+        "R16"
+      ]
+    },
+    {
+      "rationale_label": "stage_valuation_mismatch",
+      "direction": "neutral",
+      "salience": "secondary",
+      "confidence": 0.91,
+      "utterance_type": "question",
+      "decision_link": "none",
+      "timing": "original_pitch",
+      "turn_index": 123,
+      "quote": "This is a relatively new company. How do you think about this?",
+      "explanation": "She questions how to assess valuation when the investment is in a relatively new US entity rather than the established parent.",
+      "evidence": [
+        "This is a relatively new company. How do you think about this?"
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 123,
+          "speaker": "Elizabeth",
+          "quote": "This is a relatively new company. How do you think about this?"
+        }
+      ],
+      "activation": "queried",
+      "source_rationale_id": "R12",
+      "utterance_kind": "question",
+      "decision_support": "none",
+      "all_mention_ids": [
+        "R12"
+      ]
+    },
+    {
+      "rationale_label": "unit_economics_assessment",
+      "direction": "positive",
+      "salience": "secondary",
+      "confidence": 0.93,
+      "utterance_type": "assessment",
+      "decision_link": "none",
+      "timing": "original_pitch",
+      "turn_index": 146,
+      "quote": "It's a profitable experience that allows us to acquire customers where they're paying us to be the customer",
+      "explanation": "She identifies a structurally attractive acquisition model in which the customer pays for a profitable experience.",
+      "evidence": [
+        "It's a profitable experience that allows us to acquire customers where they're paying us to be the customer"
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 146,
+          "speaker": "Elizabeth",
+          "quote": "It's a profitable experience that allows us to acquire customers where they're paying us to be the customer"
+        }
+      ],
+      "activation": "evaluated",
+      "source_rationale_id": "R19",
+      "utterance_kind": "supporting_argument",
+      "decision_support": "none",
+      "all_mention_ids": [
+        "R19"
+      ]
+    }
+  ],
+  "later_rationales": [
+    {
+      "rationale_label": "investor_experience_bias",
+      "direction": "positive",
+      "salience": "secondary",
+      "confidence": 0.94,
+      "utterance_type": "assessment",
+      "decision_link": "none",
+      "timing": "later_commentary",
+      "turn_index": 205,
+      "quote": "I've had really good success with Milan entrepreneurs",
+      "explanation": "She explicitly connects her prior success with Milan entrepreneurs to her assessment of this founder.",
+      "evidence": [
+        "I've had really good success with Milan entrepreneurs"
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 205,
+          "speaker": "Elizabeth",
+          "quote": "I've had really good success with Milan entrepreneurs"
+        }
+      ],
+      "activation": "evaluated",
+      "source_rationale_id": "R30"
+    },
+    {
+      "rationale_label": "founder_execution",
+      "direction": "positive",
+      "salience": "secondary",
+      "confidence": 0.93,
+      "utterance_type": "assessment",
+      "decision_link": "none",
+      "timing": "later_commentary",
+      "turn_index": 205,
+      "quote": "he clearly knows, has thought a lot about the business aspects of this business",
+      "explanation": "She positively assesses the founder's business judgment and operational understanding.",
+      "evidence": [
+        "he clearly knows, has thought a lot about the business aspects of this business"
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 205,
+          "speaker": "Elizabeth",
+          "quote": "he clearly knows, has thought a lot about the business aspects of this business"
+        }
+      ],
+      "activation": "evaluated",
+      "source_rationale_id": "R31"
+    }
+  ],
+  "excluded_rationales": [
+    {
+      "rationale_label": "go_to_market_strategy_assessment",
+      "direction": "positive",
+      "salience": "secondary",
+      "confidence": 0.8,
+      "utterance_type": "supporting_argument",
+      "decision_link": "none",
+      "timing": "teaser",
+      "turn_index": 157,
+      "quote": "may be an interesting idea for, for you",
+      "explanation": "In the repeated clip, she again presents the barber-corner model as a potentially attractive channel approach.",
+      "evidence": [
+        "may be an interesting idea for, for you"
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 157,
+          "speaker": "Elizabeth",
+          "quote": "may be an interesting idea for, for you"
+        }
+      ],
+      "activation": "evaluated",
+      "source_rationale_id": "R23"
+    }
+  ],
+  "rationale_mentions": [
+    {
+      "rationale_label": "founder_motivation_authenticity",
+      "direction": "neutral",
+      "salience": "secondary",
+      "confidence": 0.91,
+      "utterance_type": "question",
+      "decision_link": "none",
+      "timing": "original_pitch",
+      "turn_index": 37,
+      "quote": "How did you decide to start this company?",
+      "explanation": "She asks about the founder's motivation and origin for building the company.",
+      "evidence": [
+        "How did you decide to start this company?"
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 37,
+          "speaker": "Elizabeth",
+          "quote": "How did you decide to start this company?"
+        }
+      ],
+      "activation": "queried",
+      "source_rationale_id": "R1"
+    },
+    {
+      "rationale_label": "founder_market_fit",
+      "direction": "neutral",
+      "salience": "secondary",
+      "confidence": 0.84,
+      "utterance_type": "question",
+      "decision_link": "none",
+      "timing": "original_pitch",
+      "turn_index": 37,
+      "quote": "tell us a little bit about your background",
+      "explanation": "She seeks background information relevant to assessing the founders' fit for the market.",
+      "evidence": [
+        "tell us a little bit about your background"
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 37,
+          "speaker": "Elizabeth",
+          "quote": "tell us a little bit about your background"
+        }
+      ],
+      "activation": "queried",
+      "source_rationale_id": "R2"
+    },
+    {
+      "rationale_label": "founder_execution",
+      "direction": "positive",
+      "salience": "secondary",
+      "confidence": 0.94,
+      "utterance_type": "assessment",
+      "decision_link": "none",
+      "timing": "original_pitch",
+      "turn_index": 39,
+      "quote": "very impressive, I think when founders don't have a particular background in an industry and yet somehow are able to learn to not only enter the industry, but also really excel in it",
+      "explanation": "She positively assesses the founders' ability to learn an unfamiliar industry and execute successfully.",
+      "evidence": [
+        "very impressive, I think when founders don't have a particular background in an industry and yet somehow are able to learn to not only enter the industry, but also really excel in it"
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 39,
+          "speaker": "Elizabeth",
+          "quote": "very impressive, I think when founders don't have a particular background in an industry and yet somehow are able to learn to not only enter the industry, but also really excel in it"
+        }
+      ],
+      "activation": "evaluated",
+      "source_rationale_id": "R3"
+    },
+    {
+      "rationale_label": "founder_skillset",
+      "direction": "neutral",
+      "salience": "secondary",
+      "confidence": 0.86,
+      "utterance_type": "question",
+      "decision_link": "none",
+      "timing": "original_pitch",
+      "turn_index": 39,
+      "quote": "Is that, is that something that you guys kind of learned how to do as a team?",
+      "explanation": "She probes whether the founders developed the skills needed to shape formulas, scent, and presentation.",
+      "evidence": [
+        "Is that, is that something that you guys kind of learned how to do as a team?"
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 39,
+          "speaker": "Elizabeth",
+          "quote": "Is that, is that something that you guys kind of learned how to do as a team?"
+        }
+      ],
+      "activation": "queried",
+      "source_rationale_id": "R4"
+    },
+    {
+      "rationale_label": "go_to_market_strategy_assessment",
+      "direction": "neutral",
+      "salience": "secondary",
+      "confidence": 0.93,
+      "utterance_type": "question",
+      "decision_link": "none",
+      "timing": "original_pitch",
+      "turn_index": 87,
+      "quote": "What is sort of the funnel for how people end up becoming customers?",
+      "explanation": "She asks how the store experience converts people into recurring product customers.",
+      "evidence": [
+        "What is sort of the funnel for how people end up becoming customers?"
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 87,
+          "speaker": "Elizabeth",
+          "quote": "What is sort of the funnel for how people end up becoming customers?"
+        }
+      ],
+      "activation": "queried",
+      "source_rationale_id": "R5"
+    },
+    {
+      "rationale_label": "go_to_market_strategy_assessment",
+      "direction": "positive",
+      "salience": "secondary",
+      "confidence": 0.9,
+      "utterance_type": "supporting_argument",
+      "decision_link": "none",
+      "timing": "original_pitch",
+      "turn_index": 95,
+      "quote": "But you have the store and that sounds like that is the aha moment.",
+      "explanation": "She views the physical store experience as the key mechanism for communicating the brand and acquiring customers.",
+      "evidence": [
+        "But you have the store and that sounds like that is the aha moment."
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 95,
+          "speaker": "Elizabeth",
+          "quote": "But you have the store and that sounds like that is the aha moment."
+        }
+      ],
+      "activation": "evaluated",
+      "source_rationale_id": "R6"
+    },
+    {
+      "rationale_label": "capital_intensity_concern",
+      "direction": "negative",
+      "salience": "secondary",
+      "confidence": 0.94,
+      "utterance_type": "concern",
+      "decision_link": "none",
+      "timing": "original_pitch",
+      "turn_index": 95,
+      "quote": "stores, are they capital intensive and what does it take to open a store?",
+      "explanation": "She identifies store expansion and its capital requirements as a potential scaling problem.",
+      "evidence": [
+        "stores, are they capital intensive and what does it take to open a store?"
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 95,
+          "speaker": "Elizabeth",
+          "quote": "stores, are they capital intensive and what does it take to open a store?"
+        }
+      ],
+      "activation": "evaluated",
+      "source_rationale_id": "R7"
+    },
+    {
+      "rationale_label": "go_to_market_strategy_assessment",
+      "direction": "neutral",
+      "salience": "secondary",
+      "confidence": 0.92,
+      "utterance_type": "question",
+      "decision_link": "none",
+      "timing": "original_pitch",
+      "turn_index": 97,
+      "quote": "And how do, how do you get your customers? Just by location?",
+      "explanation": "She asks about the customer-acquisition mechanism for the stores.",
+      "evidence": [
+        "And how do, how do you get your customers? Just by location?"
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 97,
+          "speaker": "Elizabeth",
+          "quote": "And how do, how do you get your customers? Just by location?"
+        }
+      ],
+      "activation": "queried",
+      "source_rationale_id": "R8"
+    },
+    {
+      "rationale_label": "capital_intensity_concern",
+      "direction": "neutral",
+      "salience": "secondary",
+      "confidence": 0.86,
+      "utterance_type": "question",
+      "decision_link": "none",
+      "timing": "original_pitch",
+      "turn_index": 99,
+      "quote": "To open these stores, are you essentially taking out loans or?",
+      "explanation": "She probes how the store rollout will be financed.",
+      "evidence": [
+        "To open these stores, are you essentially taking out loans or?"
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 99,
+          "speaker": "Elizabeth",
+          "quote": "To open these stores, are you essentially taking out loans or?"
+        }
+      ],
+      "activation": "queried",
+      "source_rationale_id": "R9"
+    },
+    {
+      "rationale_label": "capital_intensity_concern",
+      "direction": "neutral",
+      "salience": "secondary",
+      "confidence": 0.8,
+      "utterance_type": "question",
+      "decision_link": "none",
+      "timing": "original_pitch",
+      "turn_index": 101,
+      "quote": "And how much have you raised so far?",
+      "explanation": "She asks about the capital already required for the business.",
+      "evidence": [
+        "And how much have you raised so far?"
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 101,
+          "speaker": "Elizabeth",
+          "quote": "And how much have you raised so far?"
+        }
+      ],
+      "activation": "queried",
+      "source_rationale_id": "R10"
+    },
+    {
+      "rationale_label": "capital_intensity_concern",
+      "direction": "neutral",
+      "salience": "secondary",
+      "confidence": 0.8,
+      "utterance_type": "question",
+      "decision_link": "none",
+      "timing": "original_pitch",
+      "turn_index": 104,
+      "quote": "And how much have you raised so far?",
+      "explanation": "She repeats the funding-history question to clarify the company's capital requirements.",
+      "evidence": [
+        "And how much have you raised so far?"
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 104,
+          "speaker": "Elizabeth",
+          "quote": "And how much have you raised so far?"
+        }
+      ],
+      "activation": "queried",
+      "source_rationale_id": "R11"
+    },
+    {
+      "rationale_label": "stage_valuation_mismatch",
+      "direction": "neutral",
+      "salience": "secondary",
+      "confidence": 0.91,
+      "utterance_type": "question",
+      "decision_link": "none",
+      "timing": "original_pitch",
+      "turn_index": 123,
+      "quote": "This is a relatively new company. How do you think about this?",
+      "explanation": "She questions how to assess valuation when the investment is in a relatively new US entity rather than the established parent.",
+      "evidence": [
+        "This is a relatively new company. How do you think about this?"
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 123,
+          "speaker": "Elizabeth",
+          "quote": "This is a relatively new company. How do you think about this?"
+        }
+      ],
+      "activation": "queried",
+      "source_rationale_id": "R12"
+    },
+    {
+      "rationale_label": "business_model_assessment",
+      "direction": "neutral",
+      "salience": "secondary",
+      "confidence": 0.9,
+      "utterance_type": "question",
+      "decision_link": "none",
+      "timing": "original_pitch",
+      "turn_index": 132,
+      "quote": "What percentage is coming from the products and what percentage is coming from stores?",
+      "explanation": "She seeks to understand the company's service-versus-product revenue mix.",
+      "evidence": [
+        "What percentage is coming from the products and what percentage is coming from stores?"
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 132,
+          "speaker": "Elizabeth",
+          "quote": "What percentage is coming from the products and what percentage is coming from stores?"
+        }
+      ],
+      "activation": "queried",
+      "source_rationale_id": "R13"
+    },
+    {
+      "rationale_label": "capital_intensity_concern",
+      "direction": "negative",
+      "salience": "primary",
+      "confidence": 0.98,
+      "utterance_type": "concern",
+      "decision_link": "none",
+      "timing": "original_pitch",
+      "turn_index": 142,
+      "quote": "my worry is that this is very capital intensive",
+      "explanation": "She explicitly worries that the business requires substantial capital relative to the revenue generated.",
+      "evidence": [
+        "my worry is that this is very capital intensive"
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 142,
+          "speaker": "Elizabeth",
+          "quote": "my worry is that this is very capital intensive"
+        }
+      ],
+      "activation": "evaluated",
+      "source_rationale_id": "R14"
+    },
+    {
+      "rationale_label": "capital_intensity_concern",
+      "direction": "neutral",
+      "salience": "secondary",
+      "confidence": 0.91,
+      "utterance_type": "question",
+      "decision_link": "none",
+      "timing": "original_pitch",
+      "turn_index": 144,
+      "quote": "you think you need roughly 10 million US dollars in equity?",
+      "explanation": "She confirms the scale of equity funding required beyond the current round.",
+      "evidence": [
+        "you think you need roughly 10 million US dollars in equity?"
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 144,
+          "speaker": "Elizabeth",
+          "quote": "you think you need roughly 10 million US dollars in equity?"
+        }
+      ],
+      "activation": "queried",
+      "source_rationale_id": "R15"
+    },
+    {
+      "rationale_label": "investment_thesis_constraint",
+      "direction": "negative",
+      "salience": "primary",
+      "confidence": 0.99,
+      "utterance_type": "decision_explanation",
+      "decision_link": "supports_out",
+      "timing": "original_pitch",
+      "turn_index": 146,
+      "quote": "For HustleFund, we only invest in software, so HustleFund just automatically is out.",
+      "explanation": "She states that Hustle Fund's software-only mandate independently rules out the investment.",
+      "evidence": [
+        "For HustleFund, we only invest in software, so HustleFund just automatically is out."
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 146,
+          "speaker": "Elizabeth",
+          "quote": "For HustleFund, we only invest in software, so HustleFund just automatically is out."
+        }
+      ],
+      "activation": "evaluated",
+      "source_rationale_id": "R16"
+    },
+    {
+      "rationale_label": "founder_execution",
+      "direction": "positive",
+      "salience": "secondary",
+      "confidence": 0.95,
+      "utterance_type": "assessment",
+      "decision_link": "none",
+      "timing": "original_pitch",
+      "turn_index": 146,
+      "quote": "you have learned all about this industry and just have been able to execute very quickly and find great people",
+      "explanation": "She praises the founder's rapid learning, execution, and ability to recruit strong people.",
+      "evidence": [
+        "you have learned all about this industry and just have been able to execute very quickly and find great people"
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 146,
+          "speaker": "Elizabeth",
+          "quote": "you have learned all about this industry and just have been able to execute very quickly and find great people"
+        }
+      ],
+      "activation": "evaluated",
+      "source_rationale_id": "R17"
+    },
+    {
+      "rationale_label": "go_to_market_strategy_assessment",
+      "direction": "positive",
+      "salience": "secondary",
+      "confidence": 0.96,
+      "utterance_type": "supporting_argument",
+      "decision_link": "none",
+      "timing": "original_pitch",
+      "turn_index": 146,
+      "quote": "I 100 percent believe in your strategy of make the store an experience",
+      "explanation": "She strongly endorses the store-as-experience strategy and its customer-acquisition logic.",
+      "evidence": [
+        "I 100 percent believe in your strategy of make the store an experience"
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 146,
+          "speaker": "Elizabeth",
+          "quote": "I 100 percent believe in your strategy of make the store an experience"
+        }
+      ],
+      "activation": "evaluated",
+      "source_rationale_id": "R18"
+    },
+    {
+      "rationale_label": "unit_economics_assessment",
+      "direction": "positive",
+      "salience": "secondary",
+      "confidence": 0.93,
+      "utterance_type": "supporting_argument",
+      "decision_link": "none",
+      "timing": "original_pitch",
+      "turn_index": 146,
+      "quote": "It's a profitable experience that allows us to acquire customers where they're paying us to be the customer",
+      "explanation": "She identifies a structurally attractive acquisition model in which the customer pays for a profitable experience.",
+      "evidence": [
+        "It's a profitable experience that allows us to acquire customers where they're paying us to be the customer"
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 146,
+          "speaker": "Elizabeth",
+          "quote": "It's a profitable experience that allows us to acquire customers where they're paying us to be the customer"
+        }
+      ],
+      "activation": "evaluated",
+      "source_rationale_id": "R19"
+    },
+    {
+      "rationale_label": "capital_intensity_concern",
+      "direction": "negative",
+      "salience": "primary",
+      "confidence": 0.98,
+      "utterance_type": "decision_explanation",
+      "decision_link": "supports_out",
+      "timing": "original_pitch",
+      "turn_index": 146,
+      "quote": "at sort of this 10 million plan it feels too much",
+      "explanation": "She views the proposed equity capital plan as excessive and cites it as a reason to decline.",
+      "evidence": [
+        "at sort of this 10 million plan it feels too much"
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 146,
+          "speaker": "Elizabeth",
+          "quote": "at sort of this 10 million plan it feels too much"
+        }
+      ],
+      "activation": "evaluated",
+      "source_rationale_id": "R20"
+    },
+    {
+      "rationale_label": "dilution_concern",
+      "direction": "negative",
+      "salience": "secondary",
+      "confidence": 0.93,
+      "utterance_type": "decision_explanation",
+      "decision_link": "supports_out",
+      "timing": "original_pitch",
+      "turn_index": 146,
+      "quote": "you can open these stores in a less dilutive way",
+      "explanation": "She believes the planned store rollout could be financed with less dilution.",
+      "evidence": [
+        "you can open these stores in a less dilutive way"
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 146,
+          "speaker": "Elizabeth",
+          "quote": "you can open these stores in a less dilutive way"
+        }
+      ],
+      "activation": "evaluated",
+      "source_rationale_id": "R21"
+    },
+    {
+      "rationale_label": "go_to_market_strategy_assessment",
+      "direction": "positive",
+      "salience": "secondary",
+      "confidence": 0.83,
+      "utterance_type": "supporting_argument",
+      "decision_link": "none",
+      "timing": "original_pitch",
+      "turn_index": 154,
+      "quote": "may be an interesting idea for, for you",
+      "explanation": "She flags the department-store barber-corner model as a potentially attractive channel approach.",
+      "evidence": [
+        "may be an interesting idea for, for you"
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 154,
+          "speaker": "Elizabeth",
+          "quote": "may be an interesting idea for, for you"
+        }
+      ],
+      "activation": "evaluated",
+      "source_rationale_id": "R22"
+    },
+    {
+      "rationale_label": "capital_intensity_concern",
+      "direction": "neutral",
+      "salience": "secondary",
+      "confidence": 0.92,
+      "utterance_type": "question",
+      "decision_link": "none",
+      "timing": "original_pitch",
+      "turn_index": 159,
+      "quote": "Like in a less capital intensive way",
+      "explanation": "She frames the partnership alternative around reducing the capital required for expansion.",
+      "evidence": [
+        "Like in a less capital intensive way"
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 159,
+          "speaker": "Elizabeth",
+          "quote": "Like in a less capital intensive way"
+        }
+      ],
+      "activation": "queried",
+      "source_rationale_id": "R24"
+    },
+    {
+      "rationale_label": "go_to_market_strategy_assessment",
+      "direction": "neutral",
+      "salience": "secondary",
+      "confidence": 0.9,
+      "utterance_type": "question",
+      "decision_link": "none",
+      "timing": "original_pitch",
+      "turn_index": 159,
+      "quote": "can you do a partnership with another luxury brand store and have a Barberino area?",
+      "explanation": "She asks whether partnerships could provide a scalable alternative channel for delivering the experience.",
+      "evidence": [
+        "can you do a partnership with another luxury brand store and have a Barberino area?"
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 159,
+          "speaker": "Elizabeth",
+          "quote": "can you do a partnership with another luxury brand store and have a Barberino area?"
+        }
+      ],
+      "activation": "queried",
+      "source_rationale_id": "R25"
+    },
+    {
+      "rationale_label": "go_to_market_strategy_assessment",
+      "direction": "positive",
+      "salience": "secondary",
+      "confidence": 0.9,
+      "utterance_type": "assessment",
+      "decision_link": "none",
+      "timing": "original_pitch",
+      "turn_index": 162,
+      "quote": "So that's much more interesting.",
+      "explanation": "She reacts positively to the partnership-based retail model.",
+      "evidence": [
+        "So that's much more interesting."
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 162,
+          "speaker": "Elizabeth",
+          "quote": "So that's much more interesting."
+        }
+      ],
+      "activation": "evaluated",
+      "source_rationale_id": "R26"
+    },
+    {
+      "rationale_label": "go_to_market_strategy_assessment",
+      "direction": "positive",
+      "salience": "secondary",
+      "confidence": 0.86,
+      "utterance_type": "assessment",
+      "decision_link": "none",
+      "timing": "original_pitch",
+      "turn_index": 169,
+      "quote": "That's much more interesting.",
+      "explanation": "She reiterates that the lower-cost partnership approach is more attractive.",
+      "evidence": [
+        "That's much more interesting."
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 169,
+          "speaker": "Elizabeth",
+          "quote": "That's much more interesting."
+        }
+      ],
+      "activation": "evaluated",
+      "source_rationale_id": "R27"
+    },
+    {
+      "rationale_label": "capital_intensity_concern",
+      "direction": "negative",
+      "salience": "primary",
+      "confidence": 0.97,
+      "utterance_type": "concern",
+      "decision_link": "none",
+      "timing": "original_pitch",
+      "turn_index": 171,
+      "quote": "a plan that was less capital intensive",
+      "explanation": "She makes further interest conditional on replacing the capital-heavy rollout with a lower-cost plan.",
+      "evidence": [
+        "a plan that was less capital intensive"
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 171,
+          "speaker": "Elizabeth",
+          "quote": "a plan that was less capital intensive"
+        }
+      ],
+      "activation": "evaluated",
+      "source_rationale_id": "R28"
+    },
+    {
+      "rationale_label": "go_to_market_strategy_assessment",
+      "direction": "positive",
+      "salience": "secondary",
+      "confidence": 0.88,
+      "utterance_type": "supporting_argument",
+      "decision_link": "none",
+      "timing": "original_pitch",
+      "turn_index": 171,
+      "quote": "had more partnerships like this to create experiences at a lower capital cost for you",
+      "explanation": "She supports expanding the partnership-based experience model as a more efficient route to market.",
+      "evidence": [
+        "had more partnerships like this to create experiences at a lower capital cost for you"
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 171,
+          "speaker": "Elizabeth",
+          "quote": "had more partnerships like this to create experiences at a lower capital cost for you"
+        }
+      ],
+      "activation": "evaluated",
+      "source_rationale_id": "R29"
+    }
+  ],
+  "expanded_quote_evidence": [],
+  "rejected_after_evidence_check": []
+}

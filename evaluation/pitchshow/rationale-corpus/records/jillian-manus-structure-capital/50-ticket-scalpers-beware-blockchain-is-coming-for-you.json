@@ -1,0 +1,798 @@
+{
+  "schema": "phase1-rationale-reference-v1",
+  "extraction_version": "pitchshow-rationales-v1",
+  "fingerprint": "c0779aa9ea5b68d8bb78252debb2e6178f93c5f1087631eb26d4069879b0f21e",
+  "episode_slug": "50-ticket-scalpers-beware-blockchain-is-coming-for-you",
+  "vc_slug": "jillian-manus-structure-capital",
+  "vc_name": "Jillian Manus",
+  "actual_decision": "Out",
+  "later_decision": "Unknown",
+  "reference_kind": "automated_transcript_observed_candidate",
+  "human_validated": false,
+  "source_format": "transcript-observed-rationales-v1",
+  "source_path": "/home/dpasch01/vclogic-vc-agentic-assessment/evaluation/pitchshow/investors/jillian-manus-structure-capital/source/episodes/50-ticket-scalpers-beware-blockchain-is-coming-for-you.json",
+  "source_sha256": "11ebc871d8524b1b5b59d4be9a6987572c645d8ded0b9851f82c8afb483a27c1",
+  "transcript_sha256": "deed3598db58829f9fc4412ab1b3c7eff356470777cbb268a9eec8bccdc0dcc5",
+  "taxonomy_sha256": "eaa8734819a3ac34dd19ee5f0bf6de925a793a1d25a2d361090dafc9b751e1fc",
+  "model": "codex:gpt-5.6-luna+gpt-5.6-sol",
+  "generation_stages": [
+    {
+      "phase": "rationale_extract",
+      "backend": "codex",
+      "model": "gpt-5.6-luna"
+    },
+    {
+      "phase": "rationale_verify",
+      "backend": "codex",
+      "model": "gpt-5.6-sol"
+    }
+  ],
+  "source_tier": "newly_extracted_and_independently_model_reviewed",
+  "reviewed_target_turns": [
+    2,
+    31,
+    32,
+    52,
+    54,
+    73,
+    75,
+    84,
+    96,
+    109,
+    111,
+    113,
+    115
+  ],
+  "notes": "All supplied target turns were reviewed. The valuation question, brief confirmations, introduction, repeated one-word clarification, and generic expression of affection were omitted because they do not independently express a taxonomy-supported investment rationale.",
+  "receipt_path": "/home/dpasch01/vclogic-vc-agentic-assessment/evaluation/pitchshow/investors/jillian-manus-structure-capital/rationale-references/receipts/50-ticket-scalpers-beware-blockchain-is-coming-for-you.json",
+  "scoring_scope": "original_pitch_only",
+  "shared_across_input_modes": true,
+  "rationales": [
+    {
+      "rationale_label": "execution_risk_assessment",
+      "direction": "negative",
+      "salience": "primary",
+      "confidence": 0.98,
+      "utterance_type": "assessment",
+      "decision_link": "explicit",
+      "timing": "original_pitch",
+      "turn_index": 109,
+      "quote": "I’m not quite sure you truly understand the sales cycle on these.",
+      "explanation": "She doubts that the founder fully appreciates the execution demands of the relevant sales cycles.",
+      "evidence": [
+        "I’m not quite sure you truly understand the sales cycle on these."
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 109,
+          "speaker": "Jillian",
+          "quote": "I’m not quite sure you truly understand the sales cycle on these."
+        }
+      ],
+      "activation": "evaluated",
+      "source_rationale_id": "R11",
+      "utterance_kind": "concern",
+      "decision_support": "supports_out",
+      "all_mention_ids": [
+        "R11"
+      ]
+    },
+    {
+      "rationale_label": "founder_qualities",
+      "direction": "positive",
+      "salience": "secondary",
+      "confidence": 0.94,
+      "utterance_type": "assessment",
+      "decision_link": "none",
+      "timing": "original_pitch",
+      "turn_index": 113,
+      "quote": "you are so the real deal.",
+      "explanation": "She positively assesses the founder's credibility and overall personal quality.",
+      "evidence": [
+        "Like the confidence.",
+        "I believe you have the confidence to really, to be able to take these hurdles.",
+        "you are so the real deal."
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 96,
+          "speaker": "Jillian",
+          "quote": "Like the confidence."
+        },
+        {
+          "turn_index": 109,
+          "speaker": "Jillian",
+          "quote": "I believe you have the confidence to really, to be able to take these hurdles."
+        },
+        {
+          "turn_index": 113,
+          "speaker": "Jillian",
+          "quote": "you are so the real deal."
+        }
+      ],
+      "activation": "evaluated",
+      "source_rationale_id": "R16",
+      "utterance_kind": "assessment",
+      "decision_support": "none",
+      "all_mention_ids": [
+        "R8",
+        "R10",
+        "R16"
+      ]
+    },
+    {
+      "rationale_label": "go_to_market_strategy_assessment",
+      "direction": "negative",
+      "salience": "primary",
+      "confidence": 0.99,
+      "utterance_type": "assessment",
+      "decision_link": "explicit",
+      "timing": "original_pitch",
+      "turn_index": 109,
+      "quote": "The teams are not easy. They get pitched so many different types of opportunities that they shut down. Probably 99.9%.",
+      "explanation": "She expects severe customer-acquisition friction because teams reject nearly all opportunities pitched to them.",
+      "evidence": [
+        "It's a long sales cycle, Ticketmaster, it's a very arduous partnership, a long journey",
+        "It’s hard to integrate into their system, it’s hard to gain their trust. It’s a long sales cycle, it’s a long integration cycle, there’s a lot ahead.",
+        "The teams are not easy. They get pitched so many different types of opportunities that they shut down. Probably 99.9%."
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 31,
+          "speaker": "Jillian",
+          "quote": "It's a long sales cycle, Ticketmaster, it's a very arduous partnership, a long journey"
+        },
+        {
+          "turn_index": 73,
+          "speaker": "Jillian",
+          "quote": "It’s hard to integrate into their system, it’s hard to gain their trust. It’s a long sales cycle, it’s a long integration cycle, there’s a lot ahead."
+        },
+        {
+          "turn_index": 109,
+          "speaker": "Jillian",
+          "quote": "The teams are not easy. They get pitched so many different types of opportunities that they shut down. Probably 99.9%."
+        }
+      ],
+      "activation": "evaluated",
+      "source_rationale_id": "R12",
+      "utterance_kind": "concern",
+      "decision_support": "supports_out",
+      "all_mention_ids": [
+        "R3",
+        "R6",
+        "R12"
+      ]
+    },
+    {
+      "rationale_label": "investor_experience_bias",
+      "direction": "negative",
+      "salience": "secondary",
+      "confidence": 0.99,
+      "utterance_type": "decision_reason",
+      "decision_link": "explicit",
+      "timing": "original_pitch",
+      "turn_index": 109,
+      "quote": "I’ve been down this road before. That’s the problem. I know what’s ahead of you.",
+      "explanation": "Her prior experience with this market makes her more cautious because she anticipates the difficulties ahead.",
+      "evidence": [
+        "we deal with professional sports teams all the time.",
+        "I’ve been down this road before. That’s the problem. I know what’s ahead of you."
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 31,
+          "speaker": "Jillian",
+          "quote": "we deal with professional sports teams all the time."
+        },
+        {
+          "turn_index": 109,
+          "speaker": "Jillian",
+          "quote": "I’ve been down this road before. That’s the problem. I know what’s ahead of you."
+        }
+      ],
+      "activation": "evaluated",
+      "source_rationale_id": "R9",
+      "utterance_kind": "decision_explanation",
+      "decision_support": "supports_out",
+      "all_mention_ids": [
+        "R2",
+        "R9"
+      ]
+    },
+    {
+      "rationale_label": "market_entry_path_assessment",
+      "direction": "negative",
+      "salience": "primary",
+      "confidence": 0.98,
+      "utterance_type": "assessment",
+      "decision_link": "none",
+      "timing": "original_pitch",
+      "turn_index": 73,
+      "quote": "I really feel that you need to have one partnership that is not a team, that’s one of these other platforms.",
+      "explanation": "She believes the company needs a platform partner as a more credible initial market-entry wedge.",
+      "evidence": [
+        "I really feel that you need to have one partnership that is not a team, that’s one of these other platforms."
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 73,
+          "speaker": "Jillian",
+          "quote": "I really feel that you need to have one partnership that is not a team, that’s one of these other platforms."
+        }
+      ],
+      "activation": "evaluated",
+      "source_rationale_id": "R7",
+      "utterance_kind": "supporting_argument",
+      "decision_support": "none",
+      "all_mention_ids": [
+        "R7"
+      ]
+    },
+    {
+      "rationale_label": "market_problem_validation",
+      "direction": "negative",
+      "salience": "primary",
+      "confidence": 0.95,
+      "utterance_type": "assessment",
+      "decision_link": "none",
+      "timing": "original_pitch",
+      "turn_index": 32,
+      "quote": "I don't see this as a big value to the teams, to tell you the truth.",
+      "explanation": "She doubts that the problem and proposed benefits are valuable enough to motivate teams to adopt the product.",
+      "evidence": [
+        "I don't see this as a big value to the teams, to tell you the truth."
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 32,
+          "speaker": "Jillian",
+          "quote": "I don't see this as a big value to the teams, to tell you the truth."
+        }
+      ],
+      "activation": "evaluated",
+      "source_rationale_id": "R4",
+      "utterance_kind": "assessment",
+      "decision_support": "none",
+      "all_mention_ids": [
+        "R4"
+      ]
+    },
+    {
+      "rationale_label": "market_timing",
+      "direction": "negative",
+      "salience": "secondary",
+      "confidence": 0.91,
+      "utterance_type": "assessment",
+      "decision_link": "explicit",
+      "timing": "original_pitch",
+      "turn_index": 109,
+      "quote": "because it is blockchain, there’s a frenzy about this, an excitement about this, but there’s also that big unknown piece of it.",
+      "explanation": "She sees the current enthusiasm around blockchain as accompanied by uncertainty that makes adoption especially risky.",
+      "model_quote_before_typography_repair": "Because it is blockchain, there’s a frenzy about this, an excitement about this, but there’s also that big unknown piece of it.",
+      "evidence": [
+        "because it is blockchain, there’s a frenzy about this, an excitement about this, but there’s also that big unknown piece of it."
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 109,
+          "speaker": "Jillian",
+          "quote": "because it is blockchain, there’s a frenzy about this, an excitement about this, but there’s also that big unknown piece of it."
+        }
+      ],
+      "activation": "evaluated",
+      "source_rationale_id": "R13",
+      "utterance_kind": "concern",
+      "decision_support": "supports_out",
+      "all_mention_ids": [
+        "R13"
+      ]
+    },
+    {
+      "rationale_label": "product_differentiation_concern",
+      "direction": "negative",
+      "salience": "secondary",
+      "confidence": 0.98,
+      "utterance_type": "assessment",
+      "decision_link": "none",
+      "timing": "original_pitch",
+      "turn_index": 31,
+      "quote": "Ticketmaster has all that as well. And most of the teams already have this.",
+      "explanation": "She believes incumbent systems and teams already possess similar capabilities, weakening the product's differentiation.",
+      "evidence": [
+        "Ticketmaster has all that as well. And most of the teams already have this."
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 31,
+          "speaker": "Jillian",
+          "quote": "Ticketmaster has all that as well. And most of the teams already have this."
+        }
+      ],
+      "activation": "evaluated",
+      "source_rationale_id": "R1",
+      "utterance_kind": "concern",
+      "decision_support": "none",
+      "all_mention_ids": [
+        "R1"
+      ]
+    },
+    {
+      "rationale_label": "solution_feasibility_assessment",
+      "direction": "neutral",
+      "salience": "secondary",
+      "confidence": 0.86,
+      "utterance_type": "question",
+      "decision_link": "none",
+      "timing": "original_pitch",
+      "turn_index": 52,
+      "quote": "So you're decoupling it from crypto?",
+      "explanation": "She asks for material clarification about whether the technical solution operates independently of cryptocurrency.",
+      "evidence": [
+        "So you're decoupling it from crypto?"
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 52,
+          "speaker": "Jillian",
+          "quote": "So you're decoupling it from crypto?"
+        }
+      ],
+      "activation": "queried",
+      "source_rationale_id": "R5",
+      "utterance_kind": "question",
+      "decision_support": "none",
+      "all_mention_ids": [
+        "R5"
+      ]
+    },
+    {
+      "rationale_label": "stage_valuation_mismatch",
+      "direction": "negative",
+      "salience": "secondary",
+      "confidence": 0.99,
+      "utterance_type": "decision_reason",
+      "decision_link": "explicit",
+      "timing": "original_pitch",
+      "turn_index": 109,
+      "quote": "I’m going to pass, a little bit because the valuation is too high.",
+      "explanation": "She explicitly identifies the requested valuation as one reason for passing, while describing it as the lesser factor.",
+      "evidence": [
+        "I’m going to pass, a little bit because the valuation is too high."
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 109,
+          "speaker": "Jillian",
+          "quote": "I’m going to pass, a little bit because the valuation is too high."
+        }
+      ],
+      "activation": "evaluated",
+      "source_rationale_id": "R14",
+      "utterance_kind": "decision_explanation",
+      "decision_support": "supports_out",
+      "all_mention_ids": [
+        "R14"
+      ]
+    },
+    {
+      "rationale_label": "traction_repeatability_concern",
+      "direction": "negative",
+      "salience": "primary",
+      "confidence": 0.99,
+      "utterance_type": "decision_reason",
+      "decision_link": "explicit",
+      "timing": "original_pitch",
+      "turn_index": 109,
+      "quote": "But also I really like for you to have one anchor partner for me to feel that this is going to be able to scale.",
+      "explanation": "She needs an anchor partnership as evidence that the company's early traction can translate into scalable adoption.",
+      "evidence": [
+        "But also I really like for you to have one anchor partner for me to feel that this is going to be able to scale."
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 109,
+          "speaker": "Jillian",
+          "quote": "But also I really like for you to have one anchor partner for me to feel that this is going to be able to scale."
+        }
+      ],
+      "activation": "evaluated",
+      "source_rationale_id": "R15",
+      "utterance_kind": "decision_explanation",
+      "decision_support": "supports_out",
+      "all_mention_ids": [
+        "R15"
+      ]
+    }
+  ],
+  "later_rationales": [],
+  "excluded_rationales": [],
+  "rationale_mentions": [
+    {
+      "rationale_label": "product_differentiation_concern",
+      "direction": "negative",
+      "salience": "secondary",
+      "confidence": 0.98,
+      "utterance_type": "concern",
+      "decision_link": "none",
+      "timing": "original_pitch",
+      "turn_index": 31,
+      "quote": "Ticketmaster has all that as well. And most of the teams already have this.",
+      "explanation": "She believes incumbent systems and teams already possess similar capabilities, weakening the product's differentiation.",
+      "evidence": [
+        "Ticketmaster has all that as well. And most of the teams already have this."
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 31,
+          "speaker": "Jillian",
+          "quote": "Ticketmaster has all that as well. And most of the teams already have this."
+        }
+      ],
+      "activation": "evaluated",
+      "source_rationale_id": "R1"
+    },
+    {
+      "rationale_label": "investor_experience_bias",
+      "direction": "negative",
+      "salience": "secondary",
+      "confidence": 0.93,
+      "utterance_type": "supporting_argument",
+      "decision_link": "none",
+      "timing": "original_pitch",
+      "turn_index": 31,
+      "quote": "we deal with professional sports teams all the time.",
+      "explanation": "She grounds her skepticism in her own experience working with professional sports teams.",
+      "evidence": [
+        "we deal with professional sports teams all the time."
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 31,
+          "speaker": "Jillian",
+          "quote": "we deal with professional sports teams all the time."
+        }
+      ],
+      "activation": "evaluated",
+      "source_rationale_id": "R2"
+    },
+    {
+      "rationale_label": "go_to_market_strategy_assessment",
+      "direction": "negative",
+      "salience": "primary",
+      "confidence": 0.99,
+      "utterance_type": "concern",
+      "decision_link": "none",
+      "timing": "original_pitch",
+      "turn_index": 31,
+      "quote": "It's a long sales cycle, Ticketmaster, it's a very arduous partnership, a long journey",
+      "explanation": "She views the required Ticketmaster partnership and sales process as lengthy and difficult.",
+      "evidence": [
+        "It's a long sales cycle, Ticketmaster, it's a very arduous partnership, a long journey"
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 31,
+          "speaker": "Jillian",
+          "quote": "It's a long sales cycle, Ticketmaster, it's a very arduous partnership, a long journey"
+        }
+      ],
+      "activation": "evaluated",
+      "source_rationale_id": "R3"
+    },
+    {
+      "rationale_label": "market_problem_validation",
+      "direction": "negative",
+      "salience": "primary",
+      "confidence": 0.95,
+      "utterance_type": "assessment",
+      "decision_link": "none",
+      "timing": "original_pitch",
+      "turn_index": 32,
+      "quote": "I don't see this as a big value to the teams, to tell you the truth.",
+      "explanation": "She doubts that the problem and proposed benefits are valuable enough to motivate teams to adopt the product.",
+      "evidence": [
+        "I don't see this as a big value to the teams, to tell you the truth."
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 32,
+          "speaker": "Jillian",
+          "quote": "I don't see this as a big value to the teams, to tell you the truth."
+        }
+      ],
+      "activation": "evaluated",
+      "source_rationale_id": "R4"
+    },
+    {
+      "rationale_label": "solution_feasibility_assessment",
+      "direction": "neutral",
+      "salience": "secondary",
+      "confidence": 0.86,
+      "utterance_type": "question",
+      "decision_link": "none",
+      "timing": "original_pitch",
+      "turn_index": 52,
+      "quote": "So you're decoupling it from crypto?",
+      "explanation": "She asks for material clarification about whether the technical solution operates independently of cryptocurrency.",
+      "evidence": [
+        "So you're decoupling it from crypto?"
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 52,
+          "speaker": "Jillian",
+          "quote": "So you're decoupling it from crypto?"
+        }
+      ],
+      "activation": "queried",
+      "source_rationale_id": "R5"
+    },
+    {
+      "rationale_label": "go_to_market_strategy_assessment",
+      "direction": "negative",
+      "salience": "primary",
+      "confidence": 0.99,
+      "utterance_type": "concern",
+      "decision_link": "none",
+      "timing": "original_pitch",
+      "turn_index": 73,
+      "quote": "It’s hard to integrate into their system, it’s hard to gain their trust. It’s a long sales cycle, it’s a long integration cycle, there’s a lot ahead.",
+      "explanation": "She expects substantial integration, trust-building, and sales friction in winning Ticketmaster.",
+      "evidence": [
+        "It’s hard to integrate into their system, it’s hard to gain their trust. It’s a long sales cycle, it’s a long integration cycle, there’s a lot ahead."
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 73,
+          "speaker": "Jillian",
+          "quote": "It’s hard to integrate into their system, it’s hard to gain their trust. It’s a long sales cycle, it’s a long integration cycle, there’s a lot ahead."
+        }
+      ],
+      "activation": "evaluated",
+      "source_rationale_id": "R6"
+    },
+    {
+      "rationale_label": "market_entry_path_assessment",
+      "direction": "negative",
+      "salience": "primary",
+      "confidence": 0.98,
+      "utterance_type": "supporting_argument",
+      "decision_link": "none",
+      "timing": "original_pitch",
+      "turn_index": 73,
+      "quote": "I really feel that you need to have one partnership that is not a team, that’s one of these other platforms.",
+      "explanation": "She believes the company needs a platform partner as a more credible initial market-entry wedge.",
+      "evidence": [
+        "I really feel that you need to have one partnership that is not a team, that’s one of these other platforms."
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 73,
+          "speaker": "Jillian",
+          "quote": "I really feel that you need to have one partnership that is not a team, that’s one of these other platforms."
+        }
+      ],
+      "activation": "evaluated",
+      "source_rationale_id": "R7"
+    },
+    {
+      "rationale_label": "founder_qualities",
+      "direction": "positive",
+      "salience": "secondary",
+      "confidence": 0.96,
+      "utterance_type": "assessment",
+      "decision_link": "none",
+      "timing": "original_pitch",
+      "turn_index": 96,
+      "quote": "Like the confidence.",
+      "explanation": "She positively assesses the founder's confidence in confronting the competition.",
+      "evidence": [
+        "Like the confidence."
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 96,
+          "speaker": "Jillian",
+          "quote": "Like the confidence."
+        }
+      ],
+      "activation": "evaluated",
+      "source_rationale_id": "R8"
+    },
+    {
+      "rationale_label": "investor_experience_bias",
+      "direction": "negative",
+      "salience": "secondary",
+      "confidence": 0.99,
+      "utterance_type": "decision_explanation",
+      "decision_link": "supports_out",
+      "timing": "original_pitch",
+      "turn_index": 109,
+      "quote": "I’ve been down this road before. That’s the problem. I know what’s ahead of you.",
+      "explanation": "Her prior experience with this market makes her more cautious because she anticipates the difficulties ahead.",
+      "evidence": [
+        "I’ve been down this road before. That’s the problem. I know what’s ahead of you."
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 109,
+          "speaker": "Jillian",
+          "quote": "I’ve been down this road before. That’s the problem. I know what’s ahead of you."
+        }
+      ],
+      "activation": "evaluated",
+      "source_rationale_id": "R9"
+    },
+    {
+      "rationale_label": "founder_qualities",
+      "direction": "positive",
+      "salience": "secondary",
+      "confidence": 0.97,
+      "utterance_type": "assessment",
+      "decision_link": "none",
+      "timing": "original_pitch",
+      "turn_index": 109,
+      "quote": "I believe you have the confidence to really, to be able to take these hurdles.",
+      "explanation": "She believes the founder has the confidence needed to confront the anticipated obstacles.",
+      "evidence": [
+        "I believe you have the confidence to really, to be able to take these hurdles."
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 109,
+          "speaker": "Jillian",
+          "quote": "I believe you have the confidence to really, to be able to take these hurdles."
+        }
+      ],
+      "activation": "evaluated",
+      "source_rationale_id": "R10"
+    },
+    {
+      "rationale_label": "execution_risk_assessment",
+      "direction": "negative",
+      "salience": "primary",
+      "confidence": 0.98,
+      "utterance_type": "concern",
+      "decision_link": "supports_out",
+      "timing": "original_pitch",
+      "turn_index": 109,
+      "quote": "I’m not quite sure you truly understand the sales cycle on these.",
+      "explanation": "She doubts that the founder fully appreciates the execution demands of the relevant sales cycles.",
+      "evidence": [
+        "I’m not quite sure you truly understand the sales cycle on these."
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 109,
+          "speaker": "Jillian",
+          "quote": "I’m not quite sure you truly understand the sales cycle on these."
+        }
+      ],
+      "activation": "evaluated",
+      "source_rationale_id": "R11"
+    },
+    {
+      "rationale_label": "go_to_market_strategy_assessment",
+      "direction": "negative",
+      "salience": "primary",
+      "confidence": 0.99,
+      "utterance_type": "concern",
+      "decision_link": "supports_out",
+      "timing": "original_pitch",
+      "turn_index": 109,
+      "quote": "The teams are not easy. They get pitched so many different types of opportunities that they shut down. Probably 99.9%.",
+      "explanation": "She expects severe customer-acquisition friction because teams reject nearly all opportunities pitched to them.",
+      "evidence": [
+        "The teams are not easy. They get pitched so many different types of opportunities that they shut down. Probably 99.9%."
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 109,
+          "speaker": "Jillian",
+          "quote": "The teams are not easy. They get pitched so many different types of opportunities that they shut down. Probably 99.9%."
+        }
+      ],
+      "activation": "evaluated",
+      "source_rationale_id": "R12"
+    },
+    {
+      "rationale_label": "market_timing",
+      "direction": "negative",
+      "salience": "secondary",
+      "confidence": 0.91,
+      "utterance_type": "concern",
+      "decision_link": "supports_out",
+      "timing": "original_pitch",
+      "turn_index": 109,
+      "quote": "because it is blockchain, there’s a frenzy about this, an excitement about this, but there’s also that big unknown piece of it.",
+      "explanation": "She sees the current enthusiasm around blockchain as accompanied by uncertainty that makes adoption especially risky.",
+      "model_quote_before_typography_repair": "Because it is blockchain, there’s a frenzy about this, an excitement about this, but there’s also that big unknown piece of it.",
+      "evidence": [
+        "because it is blockchain, there’s a frenzy about this, an excitement about this, but there’s also that big unknown piece of it."
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 109,
+          "speaker": "Jillian",
+          "quote": "because it is blockchain, there’s a frenzy about this, an excitement about this, but there’s also that big unknown piece of it."
+        }
+      ],
+      "activation": "evaluated",
+      "source_rationale_id": "R13"
+    },
+    {
+      "rationale_label": "stage_valuation_mismatch",
+      "direction": "negative",
+      "salience": "secondary",
+      "confidence": 0.99,
+      "utterance_type": "decision_explanation",
+      "decision_link": "supports_out",
+      "timing": "original_pitch",
+      "turn_index": 109,
+      "quote": "I’m going to pass, a little bit because the valuation is too high.",
+      "explanation": "She explicitly identifies the requested valuation as one reason for passing, while describing it as the lesser factor.",
+      "evidence": [
+        "I’m going to pass, a little bit because the valuation is too high."
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 109,
+          "speaker": "Jillian",
+          "quote": "I’m going to pass, a little bit because the valuation is too high."
+        }
+      ],
+      "activation": "evaluated",
+      "source_rationale_id": "R14"
+    },
+    {
+      "rationale_label": "traction_repeatability_concern",
+      "direction": "negative",
+      "salience": "primary",
+      "confidence": 0.99,
+      "utterance_type": "decision_explanation",
+      "decision_link": "supports_out",
+      "timing": "original_pitch",
+      "turn_index": 109,
+      "quote": "But also I really like for you to have one anchor partner for me to feel that this is going to be able to scale.",
+      "explanation": "She needs an anchor partnership as evidence that the company's early traction can translate into scalable adoption.",
+      "evidence": [
+        "But also I really like for you to have one anchor partner for me to feel that this is going to be able to scale."
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 109,
+          "speaker": "Jillian",
+          "quote": "But also I really like for you to have one anchor partner for me to feel that this is going to be able to scale."
+        }
+      ],
+      "activation": "evaluated",
+      "source_rationale_id": "R15"
+    },
+    {
+      "rationale_label": "founder_qualities",
+      "direction": "positive",
+      "salience": "secondary",
+      "confidence": 0.94,
+      "utterance_type": "assessment",
+      "decision_link": "none",
+      "timing": "original_pitch",
+      "turn_index": 113,
+      "quote": "you are so the real deal.",
+      "explanation": "She positively assesses the founder's credibility and overall personal quality.",
+      "evidence": [
+        "you are so the real deal."
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 113,
+          "speaker": "Jillian",
+          "quote": "you are so the real deal."
+        }
+      ],
+      "activation": "evaluated",
+      "source_rationale_id": "R16"
+    }
+  ],
+  "expanded_quote_evidence": [],
+  "rejected_after_evidence_check": []
+}

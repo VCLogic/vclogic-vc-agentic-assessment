@@ -1,0 +1,808 @@
+{
+  "schema": "phase1-rationale-reference-v1",
+  "extraction_version": "pitchshow-rationales-v1",
+  "fingerprint": "5b50c22c481ee373ab8a877ded2a658b5e59d9691529abf5abaebf9b20565f92",
+  "episode_slug": "from-startup-novice-to-veteran",
+  "vc_slug": "phil-nadel-forefront-venture-partners",
+  "vc_name": "Phil Nadel",
+  "actual_decision": "In",
+  "later_decision": "In",
+  "reference_kind": "automated_transcript_observed_candidate",
+  "human_validated": false,
+  "source_format": "transcript-observed-rationales-v1",
+  "source_path": "/home/dpasch01/vclogic-vc-agentic-assessment/evaluation/pitchshow/investors/phil-nadel-forefront-venture-partners/source/episodes/from-startup-novice-to-veteran.json",
+  "source_sha256": "0ce71c648b8be3b4373ec0794899572783e3eb209aa9214b896617d2717a7c31",
+  "transcript_sha256": "1b916f942655c7087da32f4ca763125b5c33c70e5d7c45b8bf798b3aa814fa5d",
+  "taxonomy_sha256": "eaa8734819a3ac34dd19ee5f0bf6de925a793a1d25a2d361090dafc9b751e1fc",
+  "model": "codex:gpt-5.6-luna+gpt-5.6-sol",
+  "generation_stages": [
+    {
+      "phase": "rationale_extract",
+      "backend": "codex",
+      "model": "gpt-5.6-luna"
+    },
+    {
+      "phase": "rationale_verify",
+      "backend": "codex",
+      "model": "gpt-5.6-sol"
+    }
+  ],
+  "source_tier": "newly_extracted_and_independently_model_reviewed",
+  "reviewed_target_turns": [
+    1,
+    21,
+    25,
+    27,
+    47,
+    50,
+    52,
+    59,
+    67,
+    69,
+    71,
+    73,
+    75,
+    77,
+    79,
+    81,
+    82,
+    96,
+    98,
+    100,
+    102,
+    104,
+    139,
+    148,
+    160
+  ],
+  "notes": "All supplied target turns were reviewed. Turns 25 and 160 are simple acknowledgments, while turn 139 is an investment proposal without an expressed rationale.",
+  "receipt_path": "/home/dpasch01/vclogic-vc-agentic-assessment/evaluation/pitchshow/investors/phil-nadel-forefront-venture-partners/rationale-references/receipts/from-startup-novice-to-veteran.json",
+  "scoring_scope": "original_pitch_only",
+  "shared_across_input_modes": true,
+  "rationales": [
+    {
+      "rationale_label": "business_model_assessment",
+      "direction": "negative",
+      "salience": "primary",
+      "confidence": 0.99,
+      "utterance_type": "assessment",
+      "decision_link": "none",
+      "timing": "original_pitch",
+      "turn_index": 98,
+      "quote": "You can't just rely on the services for that transition period.",
+      "explanation": "Phil identifies dependence on one-time transition services as a major limitation of the current model.",
+      "evidence": [
+        "One of the challenges is that every year you have a new crop of 300,000 people",
+        "You can't just rely on the services for that transition period.",
+        "There has to be some continuum of services so that you can tap into the ongoing value of the email list beyond just that transition."
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 96,
+          "speaker": "Phil",
+          "quote": "One of the challenges is that every year you have a new crop of 300,000 people"
+        },
+        {
+          "turn_index": 98,
+          "speaker": "Phil",
+          "quote": "You can't just rely on the services for that transition period."
+        },
+        {
+          "turn_index": 100,
+          "speaker": "Phil",
+          "quote": "There has to be some continuum of services so that you can tap into the ongoing value of the email list beyond just that transition."
+        }
+      ],
+      "activation": "evaluated",
+      "source_rationale_id": "R18",
+      "utterance_kind": "concern",
+      "decision_support": "none",
+      "all_mention_ids": [
+        "R2",
+        "R3",
+        "R4",
+        "R5",
+        "R6",
+        "R7",
+        "R17",
+        "R18",
+        "R19",
+        "R20"
+      ]
+    },
+    {
+      "rationale_label": "market_problem_validation",
+      "direction": "positive",
+      "salience": "secondary",
+      "confidence": 0.95,
+      "utterance_type": "assessment",
+      "decision_link": "none",
+      "timing": "original_pitch",
+      "turn_index": 81,
+      "quote": "- a new pool of talent.",
+      "explanation": "Phil completes his argument that Shift gives employers access to a new source of candidates.",
+      "evidence": [
+        "They're hard to get to, hard to access.",
+        "Hard to translate. They don’t know what their experience was.",
+        "beyond the sort of like the goodwill that comes out of hiring service members, they're - selfishly, this helps them access a whole -",
+        "- a new pool of talent."
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 73,
+          "speaker": "Phil",
+          "quote": "They're hard to get to, hard to access."
+        },
+        {
+          "turn_index": 75,
+          "speaker": "Phil",
+          "quote": "Hard to translate. They don’t know what their experience was."
+        },
+        {
+          "turn_index": 79,
+          "speaker": "Phil",
+          "quote": "beyond the sort of like the goodwill that comes out of hiring service members, they're - selfishly, this helps them access a whole -"
+        },
+        {
+          "turn_index": 81,
+          "speaker": "Phil",
+          "quote": "- a new pool of talent."
+        }
+      ],
+      "activation": "evaluated",
+      "source_rationale_id": "R15",
+      "utterance_kind": "supporting_argument",
+      "decision_support": "none",
+      "all_mention_ids": [
+        "R10",
+        "R11",
+        "R12",
+        "R14",
+        "R15"
+      ]
+    },
+    {
+      "rationale_label": "mission_alignment_preference",
+      "direction": "positive",
+      "salience": "secondary",
+      "confidence": 0.98,
+      "utterance_type": "assessment",
+      "decision_link": "none",
+      "timing": "original_pitch",
+      "turn_index": 148,
+      "quote": "It's a great mission.",
+      "explanation": "Phil expresses personal support for Shift's mission of helping service members, without explicitly identifying it as the reason for his investment.",
+      "evidence": [
+        "It's a great mission."
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 148,
+          "speaker": "Phil",
+          "quote": "It's a great mission."
+        }
+      ],
+      "activation": "evaluated",
+      "source_rationale_id": "R22",
+      "utterance_kind": "assessment",
+      "decision_support": "none",
+      "all_mention_ids": [
+        "R22"
+      ]
+    },
+    {
+      "rationale_label": "product_success_factor_assessment",
+      "direction": "positive",
+      "salience": "primary",
+      "confidence": 0.94,
+      "utterance_type": "assessment",
+      "decision_link": "none",
+      "timing": "original_pitch",
+      "turn_index": 104,
+      "quote": "that's the key thing. If you build that data set out, could be very, very valuable.",
+      "explanation": "Phil identifies the developed data set as a particularly important and valuable component of Shift's opportunity.",
+      "evidence": [
+        "that's the key thing. If you build that data set out, could be very, very valuable."
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 104,
+          "speaker": "Phil",
+          "quote": "that's the key thing. If you build that data set out, could be very, very valuable."
+        }
+      ],
+      "activation": "evaluated",
+      "source_rationale_id": "R21",
+      "utterance_kind": "assessment",
+      "decision_support": "none",
+      "all_mention_ids": [
+        "R21"
+      ]
+    },
+    {
+      "rationale_label": "solution_feasibility_assessment",
+      "direction": "neutral",
+      "salience": "secondary",
+      "confidence": 0.99,
+      "utterance_type": "question",
+      "decision_link": "none",
+      "timing": "original_pitch",
+      "turn_index": 82,
+      "quote": "How built out is the tech, though?",
+      "explanation": "Phil asks how far the enabling technology has progressed.",
+      "evidence": [
+        "Are you able to decipher that?",
+        "How do you get that information from, from the service member or from his resume?",
+        "Uber's going, We don't have bombs to dismantle. So how do you help us?",
+        "How built out is the tech, though?"
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 67,
+          "speaker": "Phil",
+          "quote": "Are you able to decipher that?"
+        },
+        {
+          "turn_index": 69,
+          "speaker": "Phil",
+          "quote": "How do you get that information from, from the service member or from his resume?"
+        },
+        {
+          "turn_index": 77,
+          "speaker": "Phil",
+          "quote": "Uber's going, We don't have bombs to dismantle. So how do you help us?"
+        },
+        {
+          "turn_index": 82,
+          "speaker": "Phil",
+          "quote": "How built out is the tech, though?"
+        }
+      ],
+      "activation": "queried",
+      "source_rationale_id": "R16",
+      "utterance_kind": "question",
+      "decision_support": "none",
+      "all_mention_ids": [
+        "R8",
+        "R9",
+        "R13",
+        "R16"
+      ]
+    }
+  ],
+  "later_rationales": [],
+  "excluded_rationales": [
+    {
+      "rationale_label": "traction_repeatability_concern",
+      "direction": "neutral",
+      "salience": "secondary",
+      "confidence": 0.98,
+      "utterance_type": "question",
+      "decision_link": "none",
+      "timing": "teaser",
+      "turn_index": 1,
+      "quote": "do you have any signed orders, or is it just verbal commitments at this point?",
+      "explanation": "Phil asks whether the apparent commercial traction consists of firm orders or only preliminary commitments.",
+      "evidence": [
+        "do you have any signed orders, or is it just verbal commitments at this point?"
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 1,
+          "speaker": "Phil",
+          "quote": "do you have any signed orders, or is it just verbal commitments at this point?"
+        }
+      ],
+      "activation": "queried",
+      "source_rationale_id": "R1"
+    }
+  ],
+  "rationale_mentions": [
+    {
+      "rationale_label": "business_model_assessment",
+      "direction": "neutral",
+      "salience": "secondary",
+      "confidence": 0.97,
+      "utterance_type": "question",
+      "decision_link": "none",
+      "timing": "original_pitch",
+      "turn_index": 21,
+      "quote": "These are paid internships?",
+      "explanation": "Phil clarifies the compensation structure of the internship offering.",
+      "evidence": [
+        "These are paid internships?"
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 21,
+          "speaker": "Phil",
+          "quote": "These are paid internships?"
+        }
+      ],
+      "activation": "queried",
+      "source_rationale_id": "R2"
+    },
+    {
+      "rationale_label": "business_model_assessment",
+      "direction": "neutral",
+      "salience": "secondary",
+      "confidence": 0.96,
+      "utterance_type": "assessment",
+      "decision_link": "none",
+      "timing": "original_pitch",
+      "turn_index": 27,
+      "quote": "The military's paying the – and the startup company, the startup company’s not.",
+      "explanation": "Phil restates the model's unusual cost allocation, in which the military rather than the employer pays the intern.",
+      "evidence": [
+        "The military's paying the – and the startup company, the startup company’s not."
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 27,
+          "speaker": "Phil",
+          "quote": "The military's paying the – and the startup company, the startup company’s not."
+        }
+      ],
+      "activation": "evaluated",
+      "source_rationale_id": "R3"
+    },
+    {
+      "rationale_label": "business_model_assessment",
+      "direction": "neutral",
+      "salience": "secondary",
+      "confidence": 0.99,
+      "utterance_type": "question",
+      "decision_link": "none",
+      "timing": "original_pitch",
+      "turn_index": 47,
+      "quote": "the companies, the tech companies, the startups, are paying you to do the search?",
+      "explanation": "Phil investigates which party pays for Shift's recruiting service.",
+      "evidence": [
+        "the companies, the tech companies, the startups, are paying you to do the search?"
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 47,
+          "speaker": "Phil",
+          "quote": "the companies, the tech companies, the startups, are paying you to do the search?"
+        }
+      ],
+      "activation": "queried",
+      "source_rationale_id": "R4"
+    },
+    {
+      "rationale_label": "business_model_assessment",
+      "direction": "neutral",
+      "salience": "secondary",
+      "confidence": 0.99,
+      "utterance_type": "question",
+      "decision_link": "none",
+      "timing": "original_pitch",
+      "turn_index": 50,
+      "quote": "How much are they paying you to do the search?",
+      "explanation": "Phil asks about the price charged for the initial search.",
+      "evidence": [
+        "How much are they paying you to do the search?"
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 50,
+          "speaker": "Phil",
+          "quote": "How much are they paying you to do the search?"
+        }
+      ],
+      "activation": "queried",
+      "source_rationale_id": "R5"
+    },
+    {
+      "rationale_label": "business_model_assessment",
+      "direction": "neutral",
+      "salience": "secondary",
+      "confidence": 0.98,
+      "utterance_type": "question",
+      "decision_link": "none",
+      "timing": "original_pitch",
+      "turn_index": 52,
+      "quote": "Per position?",
+      "explanation": "Phil clarifies the unit on which the search fee is charged.",
+      "evidence": [
+        "Per position?"
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 52,
+          "speaker": "Phil",
+          "quote": "Per position?"
+        }
+      ],
+      "activation": "queried",
+      "source_rationale_id": "R6"
+    },
+    {
+      "rationale_label": "business_model_assessment",
+      "direction": "neutral",
+      "salience": "secondary",
+      "confidence": 0.92,
+      "utterance_type": "question",
+      "decision_link": "none",
+      "timing": "original_pitch",
+      "turn_index": 59,
+      "quote": "I'd like to understand why.",
+      "explanation": "In context, Phil asks why employers will pay Shift's premium recruiting fee.",
+      "evidence": [
+        "I'd like to understand why."
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 59,
+          "speaker": "Phil",
+          "quote": "I'd like to understand why."
+        }
+      ],
+      "activation": "queried",
+      "source_rationale_id": "R7"
+    },
+    {
+      "rationale_label": "solution_feasibility_assessment",
+      "direction": "neutral",
+      "salience": "secondary",
+      "confidence": 0.99,
+      "utterance_type": "question",
+      "decision_link": "none",
+      "timing": "original_pitch",
+      "turn_index": 67,
+      "quote": "Are you able to decipher that?",
+      "explanation": "Phil tests whether Shift can operationally translate military experience into employer-relevant capabilities.",
+      "evidence": [
+        "Are you able to decipher that?"
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 67,
+          "speaker": "Phil",
+          "quote": "Are you able to decipher that?"
+        }
+      ],
+      "activation": "queried",
+      "source_rationale_id": "R8"
+    },
+    {
+      "rationale_label": "solution_feasibility_assessment",
+      "direction": "neutral",
+      "salience": "secondary",
+      "confidence": 0.98,
+      "utterance_type": "question",
+      "decision_link": "none",
+      "timing": "original_pitch",
+      "turn_index": 69,
+      "quote": "How do you get that information from, from the service member or from his resume?",
+      "explanation": "Phil asks how Shift obtains the information needed to perform its skills translation.",
+      "evidence": [
+        "How do you get that information from, from the service member or from his resume?"
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 69,
+          "speaker": "Phil",
+          "quote": "How do you get that information from, from the service member or from his resume?"
+        }
+      ],
+      "activation": "queried",
+      "source_rationale_id": "R9"
+    },
+    {
+      "rationale_label": "market_problem_validation",
+      "direction": "neutral",
+      "salience": "secondary",
+      "confidence": 0.93,
+      "utterance_type": "question",
+      "decision_link": "none",
+      "timing": "original_pitch",
+      "turn_index": 71,
+      "quote": "the companies you're working with see this as sort of a pool of untapped, unaccessible, inaccessible talent that they don't have access to",
+      "explanation": "Phil checks whether employers perceive inaccessible veteran talent and misunderstood skill sets as a real problem.",
+      "evidence": [
+        "the companies you're working with see this as sort of a pool of untapped, unaccessible, inaccessible talent that they don't have access to"
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 71,
+          "speaker": "Phil",
+          "quote": "the companies you're working with see this as sort of a pool of untapped, unaccessible, inaccessible talent that they don't have access to"
+        }
+      ],
+      "activation": "queried",
+      "source_rationale_id": "R10"
+    },
+    {
+      "rationale_label": "market_problem_validation",
+      "direction": "positive",
+      "salience": "secondary",
+      "confidence": 0.96,
+      "utterance_type": "supporting_argument",
+      "decision_link": "none",
+      "timing": "original_pitch",
+      "turn_index": 73,
+      "quote": "They're hard to get to, hard to access.",
+      "explanation": "Phil reinforces that employers face genuine difficulty reaching the target talent pool.",
+      "evidence": [
+        "They're hard to get to, hard to access."
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 73,
+          "speaker": "Phil",
+          "quote": "They're hard to get to, hard to access."
+        }
+      ],
+      "activation": "evaluated",
+      "source_rationale_id": "R11"
+    },
+    {
+      "rationale_label": "market_problem_validation",
+      "direction": "positive",
+      "salience": "secondary",
+      "confidence": 0.97,
+      "utterance_type": "supporting_argument",
+      "decision_link": "none",
+      "timing": "original_pitch",
+      "turn_index": 75,
+      "quote": "Hard to translate. They don’t know what their experience was.",
+      "explanation": "Phil identifies employers' inability to interpret veterans' experience as an important market problem.",
+      "evidence": [
+        "Hard to translate. They don’t know what their experience was."
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 75,
+          "speaker": "Phil",
+          "quote": "Hard to translate. They don’t know what their experience was."
+        }
+      ],
+      "activation": "evaluated",
+      "source_rationale_id": "R12"
+    },
+    {
+      "rationale_label": "solution_feasibility_assessment",
+      "direction": "neutral",
+      "salience": "secondary",
+      "confidence": 0.94,
+      "utterance_type": "question",
+      "decision_link": "none",
+      "timing": "original_pitch",
+      "turn_index": 77,
+      "quote": "Uber's going, We don't have bombs to dismantle. So how do you help us?",
+      "explanation": "Phil asks how Shift makes specialized military experience useful to a civilian employer.",
+      "evidence": [
+        "Uber's going, We don't have bombs to dismantle. So how do you help us?"
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 77,
+          "speaker": "Phil",
+          "quote": "Uber's going, We don't have bombs to dismantle. So how do you help us?"
+        }
+      ],
+      "activation": "queried",
+      "source_rationale_id": "R13"
+    },
+    {
+      "rationale_label": "market_problem_validation",
+      "direction": "positive",
+      "salience": "secondary",
+      "confidence": 0.96,
+      "utterance_type": "supporting_argument",
+      "decision_link": "none",
+      "timing": "original_pitch",
+      "turn_index": 79,
+      "quote": "beyond the sort of like the goodwill that comes out of hiring service members, they're - selfishly, this helps them access a whole -",
+      "explanation": "Phil argues that employers receive a practical talent-access benefit beyond the goodwill of hiring veterans.",
+      "evidence": [
+        "beyond the sort of like the goodwill that comes out of hiring service members, they're - selfishly, this helps them access a whole -"
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 79,
+          "speaker": "Phil",
+          "quote": "beyond the sort of like the goodwill that comes out of hiring service members, they're - selfishly, this helps them access a whole -"
+        }
+      ],
+      "activation": "evaluated",
+      "source_rationale_id": "R14"
+    },
+    {
+      "rationale_label": "market_problem_validation",
+      "direction": "positive",
+      "salience": "secondary",
+      "confidence": 0.95,
+      "utterance_type": "supporting_argument",
+      "decision_link": "none",
+      "timing": "original_pitch",
+      "turn_index": 81,
+      "quote": "- a new pool of talent.",
+      "explanation": "Phil completes his argument that Shift gives employers access to a new source of candidates.",
+      "evidence": [
+        "- a new pool of talent."
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 81,
+          "speaker": "Phil",
+          "quote": "- a new pool of talent."
+        }
+      ],
+      "activation": "evaluated",
+      "source_rationale_id": "R15"
+    },
+    {
+      "rationale_label": "solution_feasibility_assessment",
+      "direction": "neutral",
+      "salience": "secondary",
+      "confidence": 0.99,
+      "utterance_type": "question",
+      "decision_link": "none",
+      "timing": "original_pitch",
+      "turn_index": 82,
+      "quote": "How built out is the tech, though?",
+      "explanation": "Phil asks how far the enabling technology has progressed.",
+      "evidence": [
+        "How built out is the tech, though?"
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 82,
+          "speaker": "Phil",
+          "quote": "How built out is the tech, though?"
+        }
+      ],
+      "activation": "queried",
+      "source_rationale_id": "R16"
+    },
+    {
+      "rationale_label": "business_model_assessment",
+      "direction": "negative",
+      "salience": "secondary",
+      "confidence": 0.98,
+      "utterance_type": "concern",
+      "decision_link": "none",
+      "timing": "original_pitch",
+      "turn_index": 96,
+      "quote": "One of the challenges is that every year you have a new crop of 300,000 people",
+      "explanation": "Phil flags that Shift's core transition audience continually turns over as prior cohorts find jobs.",
+      "evidence": [
+        "One of the challenges is that every year you have a new crop of 300,000 people"
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 96,
+          "speaker": "Phil",
+          "quote": "One of the challenges is that every year you have a new crop of 300,000 people"
+        }
+      ],
+      "activation": "evaluated",
+      "source_rationale_id": "R17"
+    },
+    {
+      "rationale_label": "business_model_assessment",
+      "direction": "negative",
+      "salience": "primary",
+      "confidence": 0.99,
+      "utterance_type": "concern",
+      "decision_link": "none",
+      "timing": "original_pitch",
+      "turn_index": 98,
+      "quote": "You can't just rely on the services for that transition period.",
+      "explanation": "Phil identifies dependence on one-time transition services as a major limitation of the current model.",
+      "evidence": [
+        "You can't just rely on the services for that transition period."
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 98,
+          "speaker": "Phil",
+          "quote": "You can't just rely on the services for that transition period."
+        }
+      ],
+      "activation": "evaluated",
+      "source_rationale_id": "R18"
+    },
+    {
+      "rationale_label": "business_model_assessment",
+      "direction": "negative",
+      "salience": "secondary",
+      "confidence": 0.96,
+      "utterance_type": "concern",
+      "decision_link": "none",
+      "timing": "original_pitch",
+      "turn_index": 100,
+      "quote": "There has to be some continuum of services so that you can tap into the ongoing value of the email list beyond just that transition.",
+      "explanation": "Phil says the model needs continuing services to retain value after each user's transition period.",
+      "evidence": [
+        "There has to be some continuum of services so that you can tap into the ongoing value of the email list beyond just that transition."
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 100,
+          "speaker": "Phil",
+          "quote": "There has to be some continuum of services so that you can tap into the ongoing value of the email list beyond just that transition."
+        }
+      ],
+      "activation": "evaluated",
+      "source_rationale_id": "R19"
+    },
+    {
+      "rationale_label": "business_model_assessment",
+      "direction": "positive",
+      "salience": "secondary",
+      "confidence": 0.98,
+      "utterance_type": "supporting_argument",
+      "decision_link": "none",
+      "timing": "original_pitch",
+      "turn_index": 102,
+      "quote": "you can build a rich database about these folks and really market to them a whole range of services.",
+      "explanation": "Phil identifies a broader recurring-services model built around Shift's veteran database.",
+      "evidence": [
+        "you can build a rich database about these folks and really market to them a whole range of services."
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 102,
+          "speaker": "Phil",
+          "quote": "you can build a rich database about these folks and really market to them a whole range of services."
+        }
+      ],
+      "activation": "evaluated",
+      "source_rationale_id": "R20"
+    },
+    {
+      "rationale_label": "product_success_factor_assessment",
+      "direction": "positive",
+      "salience": "primary",
+      "confidence": 0.94,
+      "utterance_type": "assessment",
+      "decision_link": "none",
+      "timing": "original_pitch",
+      "turn_index": 104,
+      "quote": "that's the key thing. If you build that data set out, could be very, very valuable.",
+      "explanation": "Phil identifies the developed data set as a particularly important and valuable component of Shift's opportunity.",
+      "evidence": [
+        "that's the key thing. If you build that data set out, could be very, very valuable."
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 104,
+          "speaker": "Phil",
+          "quote": "that's the key thing. If you build that data set out, could be very, very valuable."
+        }
+      ],
+      "activation": "evaluated",
+      "source_rationale_id": "R21"
+    },
+    {
+      "rationale_label": "mission_alignment_preference",
+      "direction": "positive",
+      "salience": "secondary",
+      "confidence": 0.98,
+      "utterance_type": "assessment",
+      "decision_link": "none",
+      "timing": "original_pitch",
+      "turn_index": 148,
+      "quote": "It's a great mission.",
+      "explanation": "Phil expresses personal support for Shift's mission of helping service members, without explicitly identifying it as the reason for his investment.",
+      "evidence": [
+        "It's a great mission."
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 148,
+          "speaker": "Phil",
+          "quote": "It's a great mission."
+        }
+      ],
+      "activation": "evaluated",
+      "source_rationale_id": "R22"
+    }
+  ],
+  "expanded_quote_evidence": [],
+  "rejected_after_evidence_check": []
+}

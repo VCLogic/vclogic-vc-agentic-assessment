@@ -1,0 +1,744 @@
+{
+  "schema": "phase1-rationale-reference-v1",
+  "extraction_version": "pitchshow-rationales-v1",
+  "fingerprint": "cb48426d511225888389b3791c8f618e29ca547d2217b1d0282dae019d174a5c",
+  "episode_slug": "51-this-bot-can-fight-your-atm-fees",
+  "vc_slug": "michael-hyatt",
+  "vc_name": "Michael Hyatt",
+  "actual_decision": "In",
+  "later_decision": "Unknown",
+  "reference_kind": "automated_transcript_observed_candidate",
+  "human_validated": false,
+  "source_format": "transcript-observed-rationales-v1",
+  "source_path": "../source/episodes/51-this-bot-can-fight-your-atm-fees.json",
+  "source_sha256": "4395c1f35334888ed56cf7e8e12a35f9d7b401a13bfc2ab5c3a313dd39ce41ed",
+  "transcript_sha256": "6bff70d4f1858c95e875c86b8d12b08073656a8ae1328a5595d716fd341321ef",
+  "taxonomy_sha256": "eaa8734819a3ac34dd19ee5f0bf6de925a793a1d25a2d361090dafc9b751e1fc",
+  "model": "openai/gpt-5.6-luna",
+  "source_tier": "newly_extracted_and_independently_model_reviewed",
+  "reviewed_target_turns": [
+    5,
+    10,
+    12,
+    16,
+    21,
+    27,
+    41,
+    43,
+    44,
+    51,
+    71,
+    73,
+    78,
+    80,
+    82,
+    87,
+    93,
+    97,
+    101,
+    106,
+    108,
+    115,
+    117,
+    121,
+    125
+  ],
+  "notes": "All supplied target turns were reviewed. Turns 106, 108, and 121 were not treated as Michael’s own investment rationales; the remaining unannotated turns were non-rationale questions, confirmations, or brief commentary.",
+  "receipt_path": "receipts/51-this-bot-can-fight-your-atm-fees.json",
+  "scoring_scope": "original_pitch_only",
+  "shared_across_input_modes": true,
+  "rationales": [
+    {
+      "rationale_label": "business_model_assessment",
+      "direction": "neutral",
+      "salience": "secondary",
+      "confidence": 0.87,
+      "utterance_type": "question",
+      "decision_link": "none",
+      "timing": "original_pitch",
+      "turn_index": 71,
+      "quote": "What’s the MRR right now? The monthly.",
+      "explanation": "Michael asks about current recurring revenue to assess the company’s monetization status.",
+      "evidence": [
+        "What’s the MRR right now? The monthly."
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 71,
+          "speaker": "Michael",
+          "quote": "What’s the MRR right now? The monthly."
+        }
+      ],
+      "activation": "queried",
+      "source_rationale_id": "R9",
+      "utterance_kind": "question",
+      "decision_support": "none",
+      "all_mention_ids": [
+        "R9"
+      ]
+    },
+    {
+      "rationale_label": "business_viability_concern",
+      "direction": "negative",
+      "salience": "primary",
+      "confidence": 0.93,
+      "utterance_type": "question",
+      "decision_link": "none",
+      "timing": "original_pitch",
+      "turn_index": 44,
+      "quote": "How does this not get shut down?",
+      "explanation": "He raises an existential concern about whether the business can continue operating.",
+      "evidence": [
+        "How does this not get shut down?"
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 44,
+          "speaker": "Michael",
+          "quote": "How does this not get shut down?"
+        }
+      ],
+      "activation": "queried",
+      "source_rationale_id": "R8",
+      "utterance_kind": "question",
+      "decision_support": "none",
+      "all_mention_ids": [
+        "R8"
+      ]
+    },
+    {
+      "rationale_label": "capital_intensity_concern",
+      "direction": "neutral",
+      "salience": "secondary",
+      "confidence": 0.82,
+      "utterance_type": "question",
+      "decision_link": "none",
+      "timing": "original_pitch",
+      "turn_index": 78,
+      "quote": "So tell us a bit about the 2.3 million. It’s a very specific number that you’re raising",
+      "explanation": "He asks for the rationale behind the specific amount of capital being requested.",
+      "evidence": [
+        "So tell us a bit about the 2.3 million. It’s a very specific number that you’re raising"
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 78,
+          "speaker": "Michael",
+          "quote": "So tell us a bit about the 2.3 million. It’s a very specific number that you’re raising"
+        }
+      ],
+      "activation": "queried",
+      "source_rationale_id": "R10",
+      "utterance_kind": "question",
+      "decision_support": "none",
+      "all_mention_ids": [
+        "R10"
+      ]
+    },
+    {
+      "rationale_label": "founder_qualities",
+      "direction": "positive",
+      "salience": "secondary",
+      "confidence": 0.8,
+      "utterance_type": "assessment",
+      "decision_link": "none",
+      "timing": "original_pitch",
+      "turn_index": 117,
+      "quote": "Great guy.",
+      "explanation": "Michael gives a positive assessment of the founder’s personal appeal after the pitch.",
+      "evidence": [
+        "Great guy."
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 117,
+          "speaker": "Michael",
+          "quote": "Great guy."
+        }
+      ],
+      "activation": "evaluated",
+      "source_rationale_id": "R14",
+      "utterance_kind": "assessment",
+      "decision_support": "none",
+      "all_mention_ids": [
+        "R14"
+      ]
+    },
+    {
+      "rationale_label": "investor_domain_knowledge_constraint",
+      "direction": "negative",
+      "salience": "secondary",
+      "confidence": 0.86,
+      "utterance_type": "decision_reason",
+      "decision_link": "explicit",
+      "timing": "original_pitch",
+      "turn_index": 101,
+      "quote": "I'm trying to understand the market a little better",
+      "explanation": "Michael identifies incomplete market understanding as a remaining condition before committing.",
+      "evidence": [
+        "I'm trying to understand the market a little better"
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 101,
+          "speaker": "Michael",
+          "quote": "I'm trying to understand the market a little better"
+        }
+      ],
+      "activation": "evaluated",
+      "source_rationale_id": "R13",
+      "utterance_kind": "decision_explanation",
+      "decision_support": "supports_in",
+      "all_mention_ids": [
+        "R13"
+      ]
+    },
+    {
+      "rationale_label": "investor_value_add_fit",
+      "direction": "neutral",
+      "salience": "primary",
+      "confidence": 0.94,
+      "utterance_type": "decision_reason",
+      "decision_link": "explicit",
+      "timing": "original_pitch",
+      "turn_index": 101,
+      "quote": "I'd like to see the quality of the lead. Because I want to know if they can really help bring value and structure to this.",
+      "explanation": "His investment interest is conditional on a lead investor being able to provide meaningful value and structure.",
+      "evidence": [
+        "I'd like to see the quality of the lead. Because I want to know if they can really help bring value and structure to this."
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 101,
+          "speaker": "Michael",
+          "quote": "I'd like to see the quality of the lead. Because I want to know if they can really help bring value and structure to this."
+        }
+      ],
+      "activation": "evaluated",
+      "source_rationale_id": "R12",
+      "utterance_kind": "decision_explanation",
+      "decision_support": "supports_in",
+      "all_mention_ids": [
+        "R12",
+        "R16"
+      ]
+    },
+    {
+      "rationale_label": "product_appeal_assessment",
+      "direction": "positive",
+      "salience": "primary",
+      "confidence": 0.94,
+      "utterance_type": "assessment",
+      "decision_link": "explicit",
+      "timing": "original_pitch",
+      "turn_index": 101,
+      "quote": "I believe people are going to react really well to getting their money back",
+      "explanation": "Michael believes the product’s direct financial benefit will resonate strongly with users and supports his interest in investing.",
+      "evidence": [
+        "I believe people are going to react really well to getting their money back",
+        "I like the credit card switching. I like all of it."
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 101,
+          "speaker": "Michael",
+          "quote": "I believe people are going to react really well to getting their money back"
+        },
+        {
+          "turn_index": 125,
+          "speaker": "Michael",
+          "quote": "I like the credit card switching. I like all of it."
+        }
+      ],
+      "activation": "evaluated",
+      "source_rationale_id": "R11",
+      "utterance_kind": "supporting_argument",
+      "decision_support": "supports_in",
+      "all_mention_ids": [
+        "R11",
+        "R15"
+      ]
+    },
+    {
+      "rationale_label": "solution_feasibility_assessment",
+      "direction": "neutral",
+      "salience": "secondary",
+      "confidence": 0.94,
+      "utterance_type": "question",
+      "decision_link": "none",
+      "timing": "original_pitch",
+      "turn_index": 27,
+      "quote": "Does it escalate to another level? Can you phone? Or like what happens?",
+      "explanation": "He probes whether the automated process can escalate when an initial request fails.",
+      "evidence": [
+        "What does it do?",
+        "Now how do you fight it?",
+        "So how does it go after that fee?",
+        "What’s a classic example of you getting money back for me?",
+        "Does it escalate to another level? Can you phone? Or like what happens?"
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 10,
+          "speaker": "Michael",
+          "quote": "What does it do?"
+        },
+        {
+          "turn_index": 12,
+          "speaker": "Michael",
+          "quote": "Now how do you fight it?"
+        },
+        {
+          "turn_index": 16,
+          "speaker": "Michael",
+          "quote": "So how does it go after that fee?"
+        },
+        {
+          "turn_index": 21,
+          "speaker": "Michael",
+          "quote": "What’s a classic example of you getting money back for me?"
+        },
+        {
+          "turn_index": 27,
+          "speaker": "Michael",
+          "quote": "Does it escalate to another level? Can you phone? Or like what happens?"
+        }
+      ],
+      "activation": "queried",
+      "source_rationale_id": "R5",
+      "utterance_kind": "question",
+      "decision_support": "none",
+      "all_mention_ids": [
+        "R1",
+        "R2",
+        "R3",
+        "R4",
+        "R5"
+      ]
+    },
+    {
+      "rationale_label": "venture_scale_concern",
+      "direction": "negative",
+      "salience": "primary",
+      "confidence": 0.95,
+      "utterance_type": "question",
+      "decision_link": "none",
+      "timing": "original_pitch",
+      "turn_index": 44,
+      "quote": "How does this become a big business?",
+      "explanation": "He directly questions whether the opportunity can grow into a large business.",
+      "evidence": [
+        "Convince us for a second that you’re not a feature. That you’re a product and you have somewhere to go",
+        "How does this become a big business?"
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 41,
+          "speaker": "Michael",
+          "quote": "Convince us for a second that you’re not a feature. That you’re a product and you have somewhere to go"
+        },
+        {
+          "turn_index": 44,
+          "speaker": "Michael",
+          "quote": "How does this become a big business?"
+        }
+      ],
+      "activation": "queried",
+      "source_rationale_id": "R7",
+      "utterance_kind": "question",
+      "decision_support": "none",
+      "all_mention_ids": [
+        "R6",
+        "R7"
+      ]
+    }
+  ],
+  "later_rationales": [],
+  "excluded_rationales": [],
+  "rationale_mentions": [
+    {
+      "rationale_label": "solution_feasibility_assessment",
+      "direction": "neutral",
+      "salience": "secondary",
+      "confidence": 0.95,
+      "utterance_type": "question",
+      "decision_link": "none",
+      "timing": "original_pitch",
+      "turn_index": 10,
+      "quote": "What does it do?",
+      "explanation": "Michael asks for a basic explanation of how the product operates.",
+      "evidence": [
+        "What does it do?"
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 10,
+          "speaker": "Michael",
+          "quote": "What does it do?"
+        }
+      ],
+      "activation": "queried",
+      "source_rationale_id": "R1"
+    },
+    {
+      "rationale_label": "solution_feasibility_assessment",
+      "direction": "neutral",
+      "salience": "secondary",
+      "confidence": 0.94,
+      "utterance_type": "question",
+      "decision_link": "none",
+      "timing": "original_pitch",
+      "turn_index": 12,
+      "quote": "Now how do you fight it?",
+      "explanation": "He asks how the product operationally addresses a bank fee.",
+      "evidence": [
+        "Now how do you fight it?"
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 12,
+          "speaker": "Michael",
+          "quote": "Now how do you fight it?"
+        }
+      ],
+      "activation": "queried",
+      "source_rationale_id": "R2"
+    },
+    {
+      "rationale_label": "solution_feasibility_assessment",
+      "direction": "neutral",
+      "salience": "secondary",
+      "confidence": 0.93,
+      "utterance_type": "question",
+      "decision_link": "none",
+      "timing": "original_pitch",
+      "turn_index": 16,
+      "quote": "So how does it go after that fee?",
+      "explanation": "He asks for the concrete mechanism by which Cushion pursues reimbursement.",
+      "evidence": [
+        "So how does it go after that fee?"
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 16,
+          "speaker": "Michael",
+          "quote": "So how does it go after that fee?"
+        }
+      ],
+      "activation": "queried",
+      "source_rationale_id": "R3"
+    },
+    {
+      "rationale_label": "solution_feasibility_assessment",
+      "direction": "neutral",
+      "salience": "secondary",
+      "confidence": 0.88,
+      "utterance_type": "question",
+      "decision_link": "none",
+      "timing": "original_pitch",
+      "turn_index": 21,
+      "quote": "What’s a classic example of you getting money back for me?",
+      "explanation": "He asks for a concrete example of the solution producing its intended outcome.",
+      "evidence": [
+        "What’s a classic example of you getting money back for me?"
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 21,
+          "speaker": "Michael",
+          "quote": "What’s a classic example of you getting money back for me?"
+        }
+      ],
+      "activation": "queried",
+      "source_rationale_id": "R4"
+    },
+    {
+      "rationale_label": "solution_feasibility_assessment",
+      "direction": "neutral",
+      "salience": "secondary",
+      "confidence": 0.94,
+      "utterance_type": "question",
+      "decision_link": "none",
+      "timing": "original_pitch",
+      "turn_index": 27,
+      "quote": "Does it escalate to another level? Can you phone? Or like what happens?",
+      "explanation": "He probes whether the automated process can escalate when an initial request fails.",
+      "evidence": [
+        "Does it escalate to another level? Can you phone? Or like what happens?"
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 27,
+          "speaker": "Michael",
+          "quote": "Does it escalate to another level? Can you phone? Or like what happens?"
+        }
+      ],
+      "activation": "queried",
+      "source_rationale_id": "R5"
+    },
+    {
+      "rationale_label": "venture_scale_concern",
+      "direction": "negative",
+      "salience": "primary",
+      "confidence": 0.95,
+      "utterance_type": "question",
+      "decision_link": "none",
+      "timing": "original_pitch",
+      "turn_index": 41,
+      "quote": "Convince us for a second that you’re not a feature. That you’re a product and you have somewhere to go",
+      "explanation": "Michael questions whether Cushion has sufficient scope beyond a single feature to support a larger company.",
+      "evidence": [
+        "Convince us for a second that you’re not a feature. That you’re a product and you have somewhere to go"
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 41,
+          "speaker": "Michael",
+          "quote": "Convince us for a second that you’re not a feature. That you’re a product and you have somewhere to go"
+        }
+      ],
+      "activation": "queried",
+      "source_rationale_id": "R6"
+    },
+    {
+      "rationale_label": "venture_scale_concern",
+      "direction": "negative",
+      "salience": "primary",
+      "confidence": 0.95,
+      "utterance_type": "question",
+      "decision_link": "none",
+      "timing": "original_pitch",
+      "turn_index": 44,
+      "quote": "How does this become a big business?",
+      "explanation": "He directly questions whether the opportunity can grow into a large business.",
+      "evidence": [
+        "How does this become a big business?"
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 44,
+          "speaker": "Michael",
+          "quote": "How does this become a big business?"
+        }
+      ],
+      "activation": "queried",
+      "source_rationale_id": "R7"
+    },
+    {
+      "rationale_label": "business_viability_concern",
+      "direction": "negative",
+      "salience": "primary",
+      "confidence": 0.93,
+      "utterance_type": "question",
+      "decision_link": "none",
+      "timing": "original_pitch",
+      "turn_index": 44,
+      "quote": "How does this not get shut down?",
+      "explanation": "He raises an existential concern about whether the business can continue operating.",
+      "evidence": [
+        "How does this not get shut down?"
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 44,
+          "speaker": "Michael",
+          "quote": "How does this not get shut down?"
+        }
+      ],
+      "activation": "queried",
+      "source_rationale_id": "R8"
+    },
+    {
+      "rationale_label": "business_model_assessment",
+      "direction": "neutral",
+      "salience": "secondary",
+      "confidence": 0.87,
+      "utterance_type": "question",
+      "decision_link": "none",
+      "timing": "original_pitch",
+      "turn_index": 71,
+      "quote": "What’s the MRR right now? The monthly.",
+      "explanation": "Michael asks about current recurring revenue to assess the company’s monetization status.",
+      "evidence": [
+        "What’s the MRR right now? The monthly."
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 71,
+          "speaker": "Michael",
+          "quote": "What’s the MRR right now? The monthly."
+        }
+      ],
+      "activation": "queried",
+      "source_rationale_id": "R9"
+    },
+    {
+      "rationale_label": "capital_intensity_concern",
+      "direction": "neutral",
+      "salience": "secondary",
+      "confidence": 0.82,
+      "utterance_type": "question",
+      "decision_link": "none",
+      "timing": "original_pitch",
+      "turn_index": 78,
+      "quote": "So tell us a bit about the 2.3 million. It’s a very specific number that you’re raising",
+      "explanation": "He asks for the rationale behind the specific amount of capital being requested.",
+      "evidence": [
+        "So tell us a bit about the 2.3 million. It’s a very specific number that you’re raising"
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 78,
+          "speaker": "Michael",
+          "quote": "So tell us a bit about the 2.3 million. It’s a very specific number that you’re raising"
+        }
+      ],
+      "activation": "queried",
+      "source_rationale_id": "R10"
+    },
+    {
+      "rationale_label": "product_appeal_assessment",
+      "direction": "positive",
+      "salience": "primary",
+      "confidence": 0.94,
+      "utterance_type": "supporting_argument",
+      "decision_link": "supports_in",
+      "timing": "original_pitch",
+      "turn_index": 101,
+      "quote": "I believe people are going to react really well to getting their money back",
+      "explanation": "Michael believes the product’s direct financial benefit will resonate strongly with users and supports his interest in investing.",
+      "evidence": [
+        "I believe people are going to react really well to getting their money back"
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 101,
+          "speaker": "Michael",
+          "quote": "I believe people are going to react really well to getting their money back"
+        }
+      ],
+      "activation": "evaluated",
+      "source_rationale_id": "R11"
+    },
+    {
+      "rationale_label": "investor_value_add_fit",
+      "direction": "neutral",
+      "salience": "primary",
+      "confidence": 0.94,
+      "utterance_type": "decision_explanation",
+      "decision_link": "supports_in",
+      "timing": "original_pitch",
+      "turn_index": 101,
+      "quote": "I'd like to see the quality of the lead. Because I want to know if they can really help bring value and structure to this.",
+      "explanation": "His investment interest is conditional on a lead investor being able to provide meaningful value and structure.",
+      "evidence": [
+        "I'd like to see the quality of the lead. Because I want to know if they can really help bring value and structure to this."
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 101,
+          "speaker": "Michael",
+          "quote": "I'd like to see the quality of the lead. Because I want to know if they can really help bring value and structure to this."
+        }
+      ],
+      "activation": "evaluated",
+      "source_rationale_id": "R12"
+    },
+    {
+      "rationale_label": "investor_domain_knowledge_constraint",
+      "direction": "negative",
+      "salience": "secondary",
+      "confidence": 0.86,
+      "utterance_type": "decision_explanation",
+      "decision_link": "supports_in",
+      "timing": "original_pitch",
+      "turn_index": 101,
+      "quote": "I'm trying to understand the market a little better",
+      "explanation": "Michael identifies incomplete market understanding as a remaining condition before committing.",
+      "evidence": [
+        "I'm trying to understand the market a little better"
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 101,
+          "speaker": "Michael",
+          "quote": "I'm trying to understand the market a little better"
+        }
+      ],
+      "activation": "evaluated",
+      "source_rationale_id": "R13"
+    },
+    {
+      "rationale_label": "founder_qualities",
+      "direction": "positive",
+      "salience": "secondary",
+      "confidence": 0.8,
+      "utterance_type": "assessment",
+      "decision_link": "none",
+      "timing": "original_pitch",
+      "turn_index": 117,
+      "quote": "Great guy.",
+      "explanation": "Michael gives a positive assessment of the founder’s personal appeal after the pitch.",
+      "evidence": [
+        "Great guy."
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 117,
+          "speaker": "Michael",
+          "quote": "Great guy."
+        }
+      ],
+      "activation": "evaluated",
+      "source_rationale_id": "R14"
+    },
+    {
+      "rationale_label": "product_appeal_assessment",
+      "direction": "positive",
+      "salience": "secondary",
+      "confidence": 0.92,
+      "utterance_type": "assessment",
+      "decision_link": "none",
+      "timing": "original_pitch",
+      "turn_index": 125,
+      "quote": "I like the credit card switching. I like all of it.",
+      "explanation": "Michael expresses a positive reaction to the product’s broader financial features.",
+      "evidence": [
+        "I like the credit card switching. I like all of it."
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 125,
+          "speaker": "Michael",
+          "quote": "I like the credit card switching. I like all of it."
+        }
+      ],
+      "activation": "evaluated",
+      "source_rationale_id": "R15"
+    },
+    {
+      "rationale_label": "investor_value_add_fit",
+      "direction": "positive",
+      "salience": "secondary",
+      "confidence": 0.94,
+      "utterance_type": "decision_explanation",
+      "decision_link": "none",
+      "timing": "original_pitch",
+      "turn_index": 125,
+      "quote": "I'm going to introduce him to a couple of banks in New York that I work with.",
+      "explanation": "Michael identifies concrete value he can add through introductions to potential banking partners and related diligence.",
+      "evidence": [
+        "I'm going to introduce him to a couple of banks in New York that I work with."
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 125,
+          "speaker": "Michael",
+          "quote": "I'm going to introduce him to a couple of banks in New York that I work with."
+        }
+      ],
+      "activation": "evaluated",
+      "source_rationale_id": "R16"
+    }
+  ]
+}

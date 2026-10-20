@@ -83,6 +83,25 @@ uv run vc-clone-rehearsal start \
 
 This builds the canonical assessment and starts rehearsal. The grounded configuration uses OpenRouter generation and local semantic retrieval. Set `OPENROUTER_API_KEY` in your environment and prepare the configured embedding indexes before running it. The baseline flag authorizes paid model calls. See [the framework reference](docs/FRAMEWORK_REFERENCE.md) and [rehearsal guide](docs/FOUNDER_REHEARSAL.md) for index preparation, alternate providers, frozen assessments, and session continuation. Historical examples in those references describe the original research workspace.
 
+## Investor Policy Settings
+
+The v4.1 assessment uses three shared settings, enabled by default for every investor. Existing investor TOML files inherit these defaults; you do not need to create new files or add a section to each VC.
+
+```toml
+[assessment]
+policy_summary = true
+fact_policy_comparison = true
+exception_evidence = true
+```
+
+- **`policy_summary`** supplies cited policy evidence independently of relevance search, so core investment criteria are available during assessment.
+- **`fact_policy_comparison`** asks the assessment to compare the pitch facts with the investor's criteria, including conflicts and missing information.
+- **`exception_evidence`** requires supporting evidence when the assessment relies on an exception to an investor constraint.
+
+Set an individual value to `false` in the run configuration to disable that safeguard. Policies come from the target-excluded wiki and retain their qualifications: a preference is not automatically a hard veto, and missing or undated guidance is not a confirmed rule. These settings do not change the configured model provider.
+
+New runs save `assessment-policy.json` in the run directory with the effective settings and selected evidence. Fact comparisons remain in the investigation's `constraint_assessments` and the decision's `constraint_assessment_summary`. Citation checks enforce structural coverage; the model still has to interpret the evidence correctly. Existing saved assessments are not rewritten.
+
 ## View assessment rationales and decision
 
 Run from this repository. For an existing session, one read-only command displays the initial canonical decision, activated rationales, supporting evidence IDs, controlling rationales, and diligence questions:
@@ -94,6 +113,32 @@ uv run vc-clone-rehearsal assessment \
 ```
 
 The example assumes Mac Conwell has been installed through the onboarding CLI and the `mac-shiftpilot-001` session has been run locally. Investor bundles, indexes, and session outputs are separate from this command. Use the configuration and session name from your run. Add `--format json` to export the complete investigation and decision. This command verifies the saved artifacts, makes no model calls, and works before rehearsal is finished. It shows the frozen initial assessment; `report --format markdown` shows the founder report after rehearsal finishes.
+
+## Historical Pitch Evaluation Dataset
+
+Historical retrieval now uses reviewed founder–VC dialogue, including historical in-room decisions. It removes show intros, host narration, recaps, follow-ups, and detected episode commentary. Records with unverifiable boundaries or decision evidence are excluded. Raw transcripts and previous runs are preserved. See [historical dialogue cleanup](evaluation/pitchshow/HISTORICAL-DIALOGUE.md) for coverage and limitations; this does not yet resolve the separate [wiki leakage findings](evaluation/pitchshow/results/LEAKAGE-AUDIT-36.md).
+
+The [assessment repair](docs/ASSESSMENT_REPAIR.md) restores verified history from both review formats, checks policy applicability before accepting hard vetoes, strengthens exception comparisons, and reports output/search failures. Regression reruns are stored as a separate cohort rather than counted as new benchmark cases.
+
+See [Pitch Show evaluation data](evaluation/pitchshow/README.md) for per-investor original transcripts, source-linked in-episode and later investment annotations, redacted pitch inputs, and review audits. [Coverage](evaluation/pitchshow/SUMMARY.md) separates available transcripts, observed decisions, and eligible inputs. Labels are machine-reviewed and independently model-verified; they are not human-audited ground truth. Keep original transcripts and annotations outside inference inputs, and exclude each held-out episode from historical retrieval before scoring.
+
+### Context Checks and Result Scoring
+
+Prepare context audits and the separate, optional restored input variant without model calls:
+
+```bash
+uv run python scripts/prepare_pitchshow_variants.py --restore-context
+```
+
+Each input gets a `context-quality.json` beside `pitch.txt`. The original `founders-only` and `founders-and-other-vcs` inputs remain unchanged. The additional `founders-context-restored` mode inserts neutral topic labels from reviewed, pre-decision questions. It does not insert investor speech, investment stance, or guessed quantities. Context detection is heuristic; ambiguous answers remain flagged for review. Batch `--mode both` still means the original two variants.
+
+Batch execution automatically scores saved results. To refresh the catalog and score existing results offline:
+
+```bash
+uv run python scripts/index_pitchshow_results.py
+```
+
+Find the report through `evaluation/pitchshow/results/automated-evaluation/latest.json`. Reports compare in-episode decisions and rationale labels, with separate scores requiring matching rationale direction. They identify execution failures, unresolved convergence, input-context review, decision mismatches, and rationale mismatches. Results stay grouped by investor, input variant, historical cohort, provider, and model. Reference labels remain automated candidates; a mismatch is a review cue, not proof that the assessment is wrong.
 
 ## Repository boundary
 
@@ -107,3 +152,13 @@ Run commands from this checkout so relative configuration paths resolve here. Th
 ## Provenance
 
 Extracted from the current working tree of `vc-digital-twins/langgraph-vc-clone-framework`, including uncommitted source changes. The original workspace is preserved. This is a new repository history.
+
+For target-specific historical inputs, use the two [speaker-filtered evaluation modes](evaluation/pitchshow/README.md#target-specific-input-modes), organized as `investors/<vc>/cases/<episode>/<mode>/pitch.txt`. The accompanying command prepares a verified package with episode/company exclusions and can execute it with `--run`.
+
+Run `uv run python scripts/run_pitchshow_batch.py --mode both` to validate the full historical selection without assessment calls. Add `--execute` to start or continue the paid batch; see [alias verification and batch execution](evaluation/pitchshow/README.md#company-aliases-and-resumable-batch-execution).
+
+The [preserved legacy results and new test](evaluation/pitchshow/results/README.md) retain the six-VC historical cohorts and describe which input variants and output schemas can be compared.
+
+### Commitment Calibration
+
+See [commitment calibration and live-pitch evaluation](docs/COMMITMENT_CALIBRATION.md) for affirmative investment support, same-risk exception checks, versioned reference timing, and separate rationale-stage diagnostics. Previous executions and reference files remain preserved.

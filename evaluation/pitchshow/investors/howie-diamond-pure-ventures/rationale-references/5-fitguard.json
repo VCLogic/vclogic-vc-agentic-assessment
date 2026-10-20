@@ -1,0 +1,974 @@
+{
+  "schema": "phase1-rationale-reference-v1",
+  "extraction_version": "pitchshow-rationales-v1",
+  "fingerprint": "6309713e6bc1e58847b28cab16ec52b147b63f5a3315d46cb55d7e4ff2b4a186",
+  "episode_slug": "5-fitguard",
+  "vc_slug": "howie-diamond-pure-ventures",
+  "vc_name": "Howie Diamond",
+  "actual_decision": "Out",
+  "later_decision": "Unknown",
+  "reference_kind": "automated_transcript_observed_candidate",
+  "human_validated": false,
+  "source_format": "transcript-observed-rationales-v1",
+  "source_path": "../source/episodes/5-fitguard.json",
+  "source_sha256": "9d76d1a3ce9f7c1a1403f25b820b9ad4de56e4800e2d73a6cd1095655856099a",
+  "transcript_sha256": "e2edd8995c61509b788fe9b87cd4663b7d593a6759ed6a65e7b8c23e611dd7e9",
+  "taxonomy_sha256": "eaa8734819a3ac34dd19ee5f0bf6de925a793a1d25a2d361090dafc9b751e1fc",
+  "model": "codex:gpt-5.6-luna+gpt-5.6-sol",
+  "generation_stages": [
+    {
+      "phase": "rationale_extract",
+      "backend": "codex",
+      "model": "gpt-5.6-luna"
+    },
+    {
+      "phase": "rationale_verify",
+      "backend": "codex",
+      "model": "gpt-5.6-sol"
+    }
+  ],
+  "source_tier": "newly_extracted_and_independently_model_reviewed",
+  "reviewed_target_turns": [
+    2,
+    12,
+    14,
+    16,
+    27,
+    42,
+    49,
+    56,
+    58,
+    78,
+    80,
+    95,
+    103,
+    113,
+    115,
+    117,
+    119,
+    121,
+    125,
+    154,
+    157,
+    158,
+    160,
+    212
+  ],
+  "notes": "All supplied target turns were reviewed; turns containing only factual setup, humor, or non-rationale remarks were omitted.",
+  "receipt_path": "receipts/5-fitguard.json",
+  "scoring_scope": "original_pitch_only",
+  "shared_across_input_modes": true,
+  "rationales": [
+    {
+      "rationale_label": "execution_risk_assessment",
+      "direction": "negative",
+      "salience": "primary",
+      "confidence": 0.99,
+      "utterance_type": "decision_reason",
+      "decision_link": "explicit",
+      "timing": "original_pitch",
+      "turn_index": 121,
+      "quote": "I want to know that you can build something that's actually functional. So I'm going to pass right now.",
+      "explanation": "Howie directly links insufficient evidence of the team's ability to build a functional product to his refusal.",
+      "evidence": [
+        "Four and a half years seems like a while.",
+        "three and a half years under your belt to finally make a non-working prototype",
+        "I want to know that you can build something that's actually functional. So I'm going to pass right now.",
+        "three and a half years? I feel like he should be further along.",
+        "you come up with every excuse. It's been three and a half years and you still don't have a working prototype."
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 14,
+          "speaker": "Howie",
+          "quote": "Four and a half years seems like a while."
+        },
+        {
+          "turn_index": 117,
+          "speaker": "Howie",
+          "quote": "three and a half years under your belt to finally make a non-working prototype"
+        },
+        {
+          "turn_index": 121,
+          "speaker": "Howie",
+          "quote": "I want to know that you can build something that's actually functional. So I'm going to pass right now."
+        },
+        {
+          "turn_index": 158,
+          "speaker": "Howie",
+          "quote": "three and a half years? I feel like he should be further along."
+        },
+        {
+          "turn_index": 160,
+          "speaker": "Howie",
+          "quote": "you come up with every excuse. It's been three and a half years and you still don't have a working prototype."
+        }
+      ],
+      "activation": "evaluated",
+      "source_rationale_id": "R19",
+      "utterance_kind": "decision_explanation",
+      "decision_support": "supports_out",
+      "all_mention_ids": [
+        "R2",
+        "R3",
+        "R16",
+        "R19",
+        "R22",
+        "R23"
+      ]
+    },
+    {
+      "rationale_label": "founder_communication_quality",
+      "direction": "positive",
+      "salience": "secondary",
+      "confidence": 0.91,
+      "utterance_type": "assessment",
+      "decision_link": "none",
+      "timing": "original_pitch",
+      "turn_index": 117,
+      "quote": "you're saying all the right things, you've researched it",
+      "explanation": "Howie positively assesses the founder's presentation and demonstrated command of the subject.",
+      "evidence": [
+        "you're saying all the right things, you've researched it"
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 117,
+          "speaker": "Howie",
+          "quote": "you're saying all the right things, you've researched it"
+        }
+      ],
+      "activation": "evaluated",
+      "source_rationale_id": "R13",
+      "utterance_kind": "assessment",
+      "decision_support": "none",
+      "all_mention_ids": [
+        "R13"
+      ]
+    },
+    {
+      "rationale_label": "founder_motivation_authenticity",
+      "direction": "positive",
+      "salience": "secondary",
+      "confidence": 0.97,
+      "utterance_type": "assessment",
+      "decision_link": "none",
+      "timing": "original_pitch",
+      "turn_index": 117,
+      "quote": "you have clearly the passion for this",
+      "explanation": "Howie recognizes the founder's authentic commitment to the problem.",
+      "evidence": [
+        "you have clearly the passion for this"
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 117,
+          "speaker": "Howie",
+          "quote": "you have clearly the passion for this"
+        }
+      ],
+      "activation": "evaluated",
+      "source_rationale_id": "R14",
+      "utterance_kind": "assessment",
+      "decision_support": "none",
+      "all_mention_ids": [
+        "R14"
+      ]
+    },
+    {
+      "rationale_label": "go_to_market_strategy_assessment",
+      "direction": "neutral",
+      "salience": "secondary",
+      "confidence": 0.93,
+      "utterance_type": "assessment",
+      "decision_link": "none",
+      "timing": "original_pitch",
+      "turn_index": 103,
+      "quote": "Or sell the leagues.",
+      "explanation": "Howie suggests direct league sales as an alternative customer-acquisition path.",
+      "evidence": [
+        "So you're selling the league? So you want it to be mandated by the leagues?",
+        "Or sell the leagues."
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 80,
+          "speaker": "Howie",
+          "quote": "So you're selling the league? So you want it to be mandated by the leagues?"
+        },
+        {
+          "turn_index": 103,
+          "speaker": "Howie",
+          "quote": "Or sell the leagues."
+        }
+      ],
+      "activation": "evaluated",
+      "source_rationale_id": "R11",
+      "utterance_kind": "supporting_argument",
+      "decision_support": "none",
+      "all_mention_ids": [
+        "R9",
+        "R11"
+      ]
+    },
+    {
+      "rationale_label": "market_entry_path_assessment",
+      "direction": "neutral",
+      "salience": "secondary",
+      "confidence": 0.94,
+      "utterance_type": "question",
+      "decision_link": "none",
+      "timing": "original_pitch",
+      "turn_index": 78,
+      "quote": "who is going to be most receptive to getting this into the players' mouths?",
+      "explanation": "Howie asks which initial stakeholder is most likely to adopt and champion the product.",
+      "evidence": [
+        "who is going to be most receptive to getting this into the players' mouths?"
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 78,
+          "speaker": "Howie",
+          "quote": "who is going to be most receptive to getting this into the players' mouths?"
+        }
+      ],
+      "activation": "queried",
+      "source_rationale_id": "R8",
+      "utterance_kind": "question",
+      "decision_support": "none",
+      "all_mention_ids": [
+        "R8"
+      ]
+    },
+    {
+      "rationale_label": "market_problem_validation",
+      "direction": "positive",
+      "salience": "secondary",
+      "confidence": 0.96,
+      "utterance_type": "assessment",
+      "decision_link": "none",
+      "timing": "original_pitch",
+      "turn_index": 27,
+      "quote": "I know concussions are a problem in football.",
+      "explanation": "Howie acknowledges that football concussions are a genuine underlying problem.",
+      "evidence": [
+        "I know concussions are a problem in football."
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 27,
+          "speaker": "Howie",
+          "quote": "I know concussions are a problem in football."
+        }
+      ],
+      "activation": "evaluated",
+      "source_rationale_id": "R4",
+      "utterance_kind": "assessment",
+      "decision_support": "none",
+      "all_mention_ids": [
+        "R4"
+      ]
+    },
+    {
+      "rationale_label": "market_timing",
+      "direction": "positive",
+      "salience": "secondary",
+      "confidence": 0.98,
+      "utterance_type": "assessment",
+      "decision_link": "none",
+      "timing": "original_pitch",
+      "turn_index": 117,
+      "quote": "I think the timing is right for this",
+      "explanation": "Howie believes conditions are favorable for the product category.",
+      "evidence": [
+        "I think the timing is right for this"
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 117,
+          "speaker": "Howie",
+          "quote": "I think the timing is right for this"
+        }
+      ],
+      "activation": "evaluated",
+      "source_rationale_id": "R15",
+      "utterance_kind": "assessment",
+      "decision_support": "none",
+      "all_mention_ids": [
+        "R15"
+      ]
+    },
+    {
+      "rationale_label": "product_adoption",
+      "direction": "negative",
+      "salience": "secondary",
+      "confidence": 0.86,
+      "utterance_type": "assessment",
+      "decision_link": "none",
+      "timing": "original_pitch",
+      "turn_index": 95,
+      "quote": "You're a wuss.",
+      "explanation": "In context, Howie identifies the social stigma a player could face for using a mouthguard that signals an injury.",
+      "evidence": [
+        "You're a wuss."
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 95,
+          "speaker": "Howie",
+          "quote": "You're a wuss."
+        }
+      ],
+      "activation": "evaluated",
+      "source_rationale_id": "R10",
+      "utterance_kind": "concern",
+      "decision_support": "none",
+      "all_mention_ids": [
+        "R10"
+      ]
+    },
+    {
+      "rationale_label": "solution_feasibility_assessment",
+      "direction": "negative",
+      "salience": "primary",
+      "confidence": 0.99,
+      "utterance_type": "decision_reason",
+      "decision_link": "explicit",
+      "timing": "original_pitch",
+      "turn_index": 121,
+      "quote": "I want to see something working.",
+      "explanation": "Howie explicitly makes the absence of a working product part of his reason for passing.",
+      "evidence": [
+        "we can't solve the root of the problem, unless we just stop playing football.",
+        "I like seeing working prototypes, personally.",
+        "I can't put it in my mouth, I can't feel it, I can't see it light up.",
+        "I want to see something working.",
+        "No. You can't."
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 49,
+          "speaker": "Howie",
+          "quote": "we can't solve the root of the problem, unless we just stop playing football."
+        },
+        {
+          "turn_index": 113,
+          "speaker": "Howie",
+          "quote": "I like seeing working prototypes, personally."
+        },
+        {
+          "turn_index": 117,
+          "speaker": "Howie",
+          "quote": "I can't put it in my mouth, I can't feel it, I can't see it light up."
+        },
+        {
+          "turn_index": 121,
+          "speaker": "Howie",
+          "quote": "I want to see something working."
+        },
+        {
+          "turn_index": 154,
+          "speaker": "Howie",
+          "quote": "No. You can't."
+        }
+      ],
+      "activation": "evaluated",
+      "source_rationale_id": "R18",
+      "utterance_kind": "decision_explanation",
+      "decision_support": "supports_out",
+      "all_mention_ids": [
+        "R5",
+        "R6",
+        "R7",
+        "R12",
+        "R17",
+        "R18",
+        "R20",
+        "R21"
+      ]
+    }
+  ],
+  "later_rationales": [],
+  "excluded_rationales": [
+    {
+      "rationale_label": "solution_feasibility_assessment",
+      "direction": "neutral",
+      "salience": "secondary",
+      "confidence": 0.98,
+      "utterance_type": "question",
+      "decision_link": "none",
+      "timing": "teaser",
+      "turn_index": 2,
+      "quote": "is this the way to solve the problem? Or is helmet technology the way to solve the problem?",
+      "explanation": "Howie questions whether the mouthguard or an alternative technology is the appropriate solution.",
+      "evidence": [
+        "is this the way to solve the problem? Or is helmet technology the way to solve the problem?"
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 2,
+          "speaker": "Howie",
+          "quote": "is this the way to solve the problem? Or is helmet technology the way to solve the problem?"
+        }
+      ],
+      "activation": "queried",
+      "source_rationale_id": "R1"
+    },
+    {
+      "rationale_label": "business_model_assessment",
+      "direction": "neutral",
+      "salience": "secondary",
+      "confidence": 0.96,
+      "utterance_type": "question",
+      "decision_link": "none",
+      "timing": "teaser",
+      "turn_index": 212,
+      "quote": "you're going to partner with casinos? Or you're going to start your own casino?",
+      "explanation": "Howie asks whether the company's operating model is based on casino partnerships or owning a casino directly.",
+      "evidence": [
+        "you're going to partner with casinos? Or you're going to start your own casino?"
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 212,
+          "speaker": "Howie",
+          "quote": "you're going to partner with casinos? Or you're going to start your own casino?"
+        }
+      ],
+      "activation": "queried",
+      "source_rationale_id": "R24"
+    }
+  ],
+  "rationale_mentions": [
+    {
+      "rationale_label": "execution_risk_assessment",
+      "direction": "negative",
+      "salience": "secondary",
+      "confidence": 0.97,
+      "utterance_type": "concern",
+      "decision_link": "none",
+      "timing": "original_pitch",
+      "turn_index": 14,
+      "quote": "Four and a half years seems like a while.",
+      "explanation": "Howie flags the lengthy development period as a concern about the team's progress.",
+      "evidence": [
+        "Four and a half years seems like a while."
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 14,
+          "speaker": "Howie",
+          "quote": "Four and a half years seems like a while."
+        }
+      ],
+      "activation": "evaluated",
+      "source_rationale_id": "R2"
+    },
+    {
+      "rationale_label": "execution_risk_assessment",
+      "direction": "neutral",
+      "salience": "secondary",
+      "confidence": 0.96,
+      "utterance_type": "question",
+      "decision_link": "none",
+      "timing": "original_pitch",
+      "turn_index": 16,
+      "quote": "Is it a timing issue do you think? Or has it just taken that long to come up with a product?",
+      "explanation": "Howie probes whether the company's slow progress resulted from external timing or product-development execution.",
+      "evidence": [
+        "Is it a timing issue do you think? Or has it just taken that long to come up with a product?"
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 16,
+          "speaker": "Howie",
+          "quote": "Is it a timing issue do you think? Or has it just taken that long to come up with a product?"
+        }
+      ],
+      "activation": "queried",
+      "source_rationale_id": "R3"
+    },
+    {
+      "rationale_label": "market_problem_validation",
+      "direction": "positive",
+      "salience": "secondary",
+      "confidence": 0.96,
+      "utterance_type": "assessment",
+      "decision_link": "none",
+      "timing": "original_pitch",
+      "turn_index": 27,
+      "quote": "I know concussions are a problem in football.",
+      "explanation": "Howie acknowledges that football concussions are a genuine underlying problem.",
+      "evidence": [
+        "I know concussions are a problem in football."
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 27,
+          "speaker": "Howie",
+          "quote": "I know concussions are a problem in football."
+        }
+      ],
+      "activation": "evaluated",
+      "source_rationale_id": "R4"
+    },
+    {
+      "rationale_label": "solution_feasibility_assessment",
+      "direction": "neutral",
+      "salience": "secondary",
+      "confidence": 0.98,
+      "utterance_type": "question",
+      "decision_link": "none",
+      "timing": "original_pitch",
+      "turn_index": 42,
+      "quote": "is this the way to solve the problem? Or is helmet technology the way to solve the problem?",
+      "explanation": "Howie questions whether the mouthguard is the right solution compared with helmet technology.",
+      "evidence": [
+        "is this the way to solve the problem? Or is helmet technology the way to solve the problem?"
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 42,
+          "speaker": "Howie",
+          "quote": "is this the way to solve the problem? Or is helmet technology the way to solve the problem?"
+        }
+      ],
+      "activation": "queried",
+      "source_rationale_id": "R5"
+    },
+    {
+      "rationale_label": "solution_feasibility_assessment",
+      "direction": "negative",
+      "salience": "secondary",
+      "confidence": 0.94,
+      "utterance_type": "concern",
+      "decision_link": "none",
+      "timing": "original_pitch",
+      "turn_index": 49,
+      "quote": "we can't solve the root of the problem, unless we just stop playing football.",
+      "explanation": "Howie doubts that a product can address the underlying cause while athletes continue playing football.",
+      "evidence": [
+        "we can't solve the root of the problem, unless we just stop playing football."
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 49,
+          "speaker": "Howie",
+          "quote": "we can't solve the root of the problem, unless we just stop playing football."
+        }
+      ],
+      "activation": "evaluated",
+      "source_rationale_id": "R6"
+    },
+    {
+      "rationale_label": "solution_feasibility_assessment",
+      "direction": "neutral",
+      "salience": "secondary",
+      "confidence": 0.96,
+      "utterance_type": "question",
+      "decision_link": "none",
+      "timing": "original_pitch",
+      "turn_index": 58,
+      "quote": "The data you're receiving from the teeth or the jaw or from where? Where is it coming?",
+      "explanation": "Howie probes how the mouthguard obtains its measurements and whether the technical mechanism is credible.",
+      "evidence": [
+        "The data you're receiving from the teeth or the jaw or from where? Where is it coming?"
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 58,
+          "speaker": "Howie",
+          "quote": "The data you're receiving from the teeth or the jaw or from where? Where is it coming?"
+        }
+      ],
+      "activation": "queried",
+      "source_rationale_id": "R7"
+    },
+    {
+      "rationale_label": "market_entry_path_assessment",
+      "direction": "neutral",
+      "salience": "secondary",
+      "confidence": 0.94,
+      "utterance_type": "question",
+      "decision_link": "none",
+      "timing": "original_pitch",
+      "turn_index": 78,
+      "quote": "who is going to be most receptive to getting this into the players' mouths?",
+      "explanation": "Howie asks which initial stakeholder is most likely to adopt and champion the product.",
+      "evidence": [
+        "who is going to be most receptive to getting this into the players' mouths?"
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 78,
+          "speaker": "Howie",
+          "quote": "who is going to be most receptive to getting this into the players' mouths?"
+        }
+      ],
+      "activation": "queried",
+      "source_rationale_id": "R8"
+    },
+    {
+      "rationale_label": "go_to_market_strategy_assessment",
+      "direction": "neutral",
+      "salience": "secondary",
+      "confidence": 0.98,
+      "utterance_type": "question",
+      "decision_link": "none",
+      "timing": "original_pitch",
+      "turn_index": 80,
+      "quote": "So you're selling the league? So you want it to be mandated by the leagues?",
+      "explanation": "Howie clarifies whether league sales and mandates constitute the company's distribution strategy.",
+      "evidence": [
+        "So you're selling the league? So you want it to be mandated by the leagues?"
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 80,
+          "speaker": "Howie",
+          "quote": "So you're selling the league? So you want it to be mandated by the leagues?"
+        }
+      ],
+      "activation": "queried",
+      "source_rationale_id": "R9"
+    },
+    {
+      "rationale_label": "product_adoption",
+      "direction": "negative",
+      "salience": "secondary",
+      "confidence": 0.86,
+      "utterance_type": "concern",
+      "decision_link": "none",
+      "timing": "original_pitch",
+      "turn_index": 95,
+      "quote": "You're a wuss.",
+      "explanation": "In context, Howie identifies the social stigma a player could face for using a mouthguard that signals an injury.",
+      "evidence": [
+        "You're a wuss."
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 95,
+          "speaker": "Howie",
+          "quote": "You're a wuss."
+        }
+      ],
+      "activation": "evaluated",
+      "source_rationale_id": "R10"
+    },
+    {
+      "rationale_label": "go_to_market_strategy_assessment",
+      "direction": "neutral",
+      "salience": "secondary",
+      "confidence": 0.93,
+      "utterance_type": "supporting_argument",
+      "decision_link": "none",
+      "timing": "original_pitch",
+      "turn_index": 103,
+      "quote": "Or sell the leagues.",
+      "explanation": "Howie suggests direct league sales as an alternative customer-acquisition path.",
+      "evidence": [
+        "Or sell the leagues."
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 103,
+          "speaker": "Howie",
+          "quote": "Or sell the leagues."
+        }
+      ],
+      "activation": "evaluated",
+      "source_rationale_id": "R11"
+    },
+    {
+      "rationale_label": "solution_feasibility_assessment",
+      "direction": "negative",
+      "salience": "primary",
+      "confidence": 0.97,
+      "utterance_type": "assessment",
+      "decision_link": "none",
+      "timing": "original_pitch",
+      "turn_index": 113,
+      "quote": "I like seeing working prototypes, personally.",
+      "explanation": "Howie identifies a working demonstration—absent from the pitch—as important evidence that the product is viable.",
+      "evidence": [
+        "I like seeing working prototypes, personally."
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 113,
+          "speaker": "Howie",
+          "quote": "I like seeing working prototypes, personally."
+        }
+      ],
+      "activation": "evaluated",
+      "source_rationale_id": "R12"
+    },
+    {
+      "rationale_label": "founder_communication_quality",
+      "direction": "positive",
+      "salience": "secondary",
+      "confidence": 0.91,
+      "utterance_type": "assessment",
+      "decision_link": "none",
+      "timing": "original_pitch",
+      "turn_index": 117,
+      "quote": "you're saying all the right things, you've researched it",
+      "explanation": "Howie positively assesses the founder's presentation and demonstrated command of the subject.",
+      "evidence": [
+        "you're saying all the right things, you've researched it"
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 117,
+          "speaker": "Howie",
+          "quote": "you're saying all the right things, you've researched it"
+        }
+      ],
+      "activation": "evaluated",
+      "source_rationale_id": "R13"
+    },
+    {
+      "rationale_label": "founder_motivation_authenticity",
+      "direction": "positive",
+      "salience": "secondary",
+      "confidence": 0.97,
+      "utterance_type": "assessment",
+      "decision_link": "none",
+      "timing": "original_pitch",
+      "turn_index": 117,
+      "quote": "you have clearly the passion for this",
+      "explanation": "Howie recognizes the founder's authentic commitment to the problem.",
+      "evidence": [
+        "you have clearly the passion for this"
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 117,
+          "speaker": "Howie",
+          "quote": "you have clearly the passion for this"
+        }
+      ],
+      "activation": "evaluated",
+      "source_rationale_id": "R14"
+    },
+    {
+      "rationale_label": "market_timing",
+      "direction": "positive",
+      "salience": "secondary",
+      "confidence": 0.98,
+      "utterance_type": "assessment",
+      "decision_link": "none",
+      "timing": "original_pitch",
+      "turn_index": 117,
+      "quote": "I think the timing is right for this",
+      "explanation": "Howie believes conditions are favorable for the product category.",
+      "evidence": [
+        "I think the timing is right for this"
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 117,
+          "speaker": "Howie",
+          "quote": "I think the timing is right for this"
+        }
+      ],
+      "activation": "evaluated",
+      "source_rationale_id": "R15"
+    },
+    {
+      "rationale_label": "execution_risk_assessment",
+      "direction": "negative",
+      "salience": "primary",
+      "confidence": 0.99,
+      "utterance_type": "decision_explanation",
+      "decision_link": "supports_out",
+      "timing": "original_pitch",
+      "turn_index": 117,
+      "quote": "three and a half years under your belt to finally make a non-working prototype",
+      "explanation": "Howie treats the long development period without a working prototype as evidence of inadequate execution.",
+      "evidence": [
+        "three and a half years under your belt to finally make a non-working prototype"
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 117,
+          "speaker": "Howie",
+          "quote": "three and a half years under your belt to finally make a non-working prototype"
+        }
+      ],
+      "activation": "evaluated",
+      "source_rationale_id": "R16"
+    },
+    {
+      "rationale_label": "solution_feasibility_assessment",
+      "direction": "negative",
+      "salience": "primary",
+      "confidence": 0.99,
+      "utterance_type": "decision_explanation",
+      "decision_link": "supports_out",
+      "timing": "original_pitch",
+      "turn_index": 117,
+      "quote": "I can't put it in my mouth, I can't feel it, I can't see it light up.",
+      "explanation": "Howie's inability to experience or verify the product's functionality is a central reason for not investing.",
+      "evidence": [
+        "I can't put it in my mouth, I can't feel it, I can't see it light up."
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 117,
+          "speaker": "Howie",
+          "quote": "I can't put it in my mouth, I can't feel it, I can't see it light up."
+        }
+      ],
+      "activation": "evaluated",
+      "source_rationale_id": "R17"
+    },
+    {
+      "rationale_label": "solution_feasibility_assessment",
+      "direction": "negative",
+      "salience": "primary",
+      "confidence": 0.99,
+      "utterance_type": "decision_explanation",
+      "decision_link": "supports_out",
+      "timing": "original_pitch",
+      "turn_index": 121,
+      "quote": "I want to see something working.",
+      "explanation": "Howie explicitly makes the absence of a working product part of his reason for passing.",
+      "evidence": [
+        "I want to see something working."
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 121,
+          "speaker": "Howie",
+          "quote": "I want to see something working."
+        }
+      ],
+      "activation": "evaluated",
+      "source_rationale_id": "R18"
+    },
+    {
+      "rationale_label": "execution_risk_assessment",
+      "direction": "negative",
+      "salience": "primary",
+      "confidence": 0.99,
+      "utterance_type": "decision_explanation",
+      "decision_link": "supports_out",
+      "timing": "original_pitch",
+      "turn_index": 121,
+      "quote": "I want to know that you can build something that's actually functional. So I'm going to pass right now.",
+      "explanation": "Howie directly links insufficient evidence of the team's ability to build a functional product to his refusal.",
+      "evidence": [
+        "I want to know that you can build something that's actually functional. So I'm going to pass right now."
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 121,
+          "speaker": "Howie",
+          "quote": "I want to know that you can build something that's actually functional. So I'm going to pass right now."
+        }
+      ],
+      "activation": "evaluated",
+      "source_rationale_id": "R19"
+    },
+    {
+      "rationale_label": "solution_feasibility_assessment",
+      "direction": "negative",
+      "salience": "secondary",
+      "confidence": 0.9,
+      "utterance_type": "assessment",
+      "decision_link": "none",
+      "timing": "original_pitch",
+      "turn_index": 154,
+      "quote": "No. You can't.",
+      "explanation": "In the immediate debrief, Howie states that preventing the initial concussion is not feasible.",
+      "evidence": [
+        "No. You can't."
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 154,
+          "speaker": "Howie",
+          "quote": "No. You can't."
+        }
+      ],
+      "activation": "evaluated",
+      "source_rationale_id": "R20"
+    },
+    {
+      "rationale_label": "solution_feasibility_assessment",
+      "direction": "neutral",
+      "salience": "secondary",
+      "confidence": 0.97,
+      "utterance_type": "question",
+      "decision_link": "none",
+      "timing": "original_pitch",
+      "turn_index": 157,
+      "quote": "But do you need a mouthguard to solve that?",
+      "explanation": "Howie questions whether a mouthguard is necessary or appropriate for addressing repeated head impacts.",
+      "evidence": [
+        "But do you need a mouthguard to solve that?"
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 157,
+          "speaker": "Howie",
+          "quote": "But do you need a mouthguard to solve that?"
+        }
+      ],
+      "activation": "queried",
+      "source_rationale_id": "R21"
+    },
+    {
+      "rationale_label": "execution_risk_assessment",
+      "direction": "negative",
+      "salience": "primary",
+      "confidence": 0.99,
+      "utterance_type": "concern",
+      "decision_link": "none",
+      "timing": "original_pitch",
+      "turn_index": 158,
+      "quote": "three and a half years? I feel like he should be further along.",
+      "explanation": "Howie believes the company has made insufficient progress for the amount of time spent developing it.",
+      "evidence": [
+        "three and a half years? I feel like he should be further along."
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 158,
+          "speaker": "Howie",
+          "quote": "three and a half years? I feel like he should be further along."
+        }
+      ],
+      "activation": "evaluated",
+      "source_rationale_id": "R22"
+    },
+    {
+      "rationale_label": "execution_risk_assessment",
+      "direction": "negative",
+      "salience": "primary",
+      "confidence": 0.99,
+      "utterance_type": "concern",
+      "decision_link": "none",
+      "timing": "original_pitch",
+      "turn_index": 160,
+      "quote": "you come up with every excuse. It's been three and a half years and you still don't have a working prototype.",
+      "explanation": "Howie interprets the founder's explanations and continued lack of a working prototype as evidence of weak execution.",
+      "evidence": [
+        "you come up with every excuse. It's been three and a half years and you still don't have a working prototype."
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 160,
+          "speaker": "Howie",
+          "quote": "you come up with every excuse. It's been three and a half years and you still don't have a working prototype."
+        }
+      ],
+      "activation": "evaluated",
+      "source_rationale_id": "R23"
+    }
+  ],
+  "expanded_quote_evidence": [],
+  "rejected_after_evidence_check": []
+}

@@ -1,0 +1,706 @@
+{
+  "schema": "phase1-rationale-reference-v1",
+  "extraction_version": "pitchshow-rationales-v1",
+  "fingerprint": "222e6cad11db23a4e540d38610df4b26331e69c6d48194d20b46cff20eca1371",
+  "episode_slug": "96-a-test-of-time",
+  "vc_slug": "phil-nadel-forefront-venture-partners",
+  "vc_name": "Phil Nadel",
+  "actual_decision": "Out",
+  "later_decision": "Unknown",
+  "reference_kind": "automated_transcript_observed_candidate",
+  "human_validated": false,
+  "source_format": "transcript-observed-rationales-v1",
+  "source_path": "/home/dpasch01/vclogic-vc-agentic-assessment/evaluation/pitchshow/investors/phil-nadel-forefront-venture-partners/source/episodes/96-a-test-of-time.json",
+  "source_sha256": "d37c8f805faf10e44760f26846640676f1645ddb2cf0b9639798c759ceee3369",
+  "transcript_sha256": "359765ea6ef0010a227a960e05818d8d8cc3f97928f194f5f5acfdb05651eca1",
+  "taxonomy_sha256": "eaa8734819a3ac34dd19ee5f0bf6de925a793a1d25a2d361090dafc9b751e1fc",
+  "model": "codex:gpt-5.6-luna+gpt-5.6-sol",
+  "generation_stages": [
+    {
+      "phase": "rationale_extract",
+      "backend": "codex",
+      "model": "gpt-5.6-luna"
+    },
+    {
+      "phase": "rationale_verify",
+      "backend": "codex",
+      "model": "gpt-5.6-sol"
+    }
+  ],
+  "source_tier": "newly_extracted_and_independently_model_reviewed",
+  "reviewed_target_turns": [
+    1,
+    6,
+    10,
+    12,
+    15,
+    24,
+    29,
+    43,
+    45,
+    55,
+    57,
+    60,
+    69,
+    80,
+    82,
+    84,
+    86,
+    95,
+    97,
+    120,
+    122,
+    124
+  ],
+  "notes": "All supplied target turns were reviewed. Greetings, jokes, name questions, simple recaps or confirmations, and other non-rationale utterances were excluded.",
+  "receipt_path": "/home/dpasch01/vclogic-vc-agentic-assessment/evaluation/pitchshow/investors/phil-nadel-forefront-venture-partners/rationale-references/receipts/96-a-test-of-time.json",
+  "scoring_scope": "original_pitch_only",
+  "shared_across_input_modes": true,
+  "rationales": [
+    {
+      "rationale_label": "business_model_assessment",
+      "direction": "negative",
+      "salience": "primary",
+      "confidence": 0.99,
+      "utterance_type": "assessment",
+      "decision_link": "explicit",
+      "timing": "original_pitch",
+      "turn_index": 122,
+      "quote": "I’m not totally buying into the value proposition from, on the B2B side.",
+      "explanation": "During his decision explanation, Phil says the B2B value proposition does not convince him.",
+      "evidence": [
+        "I'm having trouble understanding the value proposition for the customer.",
+        "I’m not totally buying into the value proposition from, on the B2B side."
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 80,
+          "speaker": "Phil",
+          "quote": "I'm having trouble understanding the value proposition for the customer."
+        },
+        {
+          "turn_index": 122,
+          "speaker": "Phil",
+          "quote": "I’m not totally buying into the value proposition from, on the B2B side."
+        }
+      ],
+      "activation": "evaluated",
+      "source_rationale_id": "R14",
+      "utterance_kind": "concern",
+      "decision_support": "supports_out",
+      "all_mention_ids": [
+        "R8",
+        "R14"
+      ]
+    },
+    {
+      "rationale_label": "competitive_advantage_assessment",
+      "direction": "neutral",
+      "salience": "secondary",
+      "confidence": 0.98,
+      "utterance_type": "question",
+      "decision_link": "none",
+      "timing": "original_pitch",
+      "turn_index": 86,
+      "quote": "why through Aunt Flow as opposed to buying tampons at Amazon or Costco",
+      "explanation": "He again asks what competitive advantage makes Aunt Flow preferable to established procurement options.",
+      "evidence": [
+        "Why would they buy the tampons from you instead of from Walmart or Costco?",
+        "why through Aunt Flow as opposed to buying tampons at Amazon or Costco"
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 43,
+          "speaker": "Phil",
+          "quote": "Why would they buy the tampons from you instead of from Walmart or Costco?"
+        },
+        {
+          "turn_index": 86,
+          "speaker": "Phil",
+          "quote": "why through Aunt Flow as opposed to buying tampons at Amazon or Costco"
+        }
+      ],
+      "activation": "queried",
+      "source_rationale_id": "R10",
+      "utterance_kind": "question",
+      "decision_support": "none",
+      "all_mention_ids": [
+        "R2",
+        "R10"
+      ]
+    },
+    {
+      "rationale_label": "founder_qualities",
+      "direction": "positive",
+      "salience": "secondary",
+      "confidence": 0.99,
+      "utterance_type": "assessment",
+      "decision_link": "none",
+      "timing": "original_pitch",
+      "turn_index": 120,
+      "quote": "Love your energy, love your attitude.",
+      "explanation": "Phil positively assesses Claire's personal energy and attitude.",
+      "evidence": [
+        "Love your energy, love your attitude."
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 120,
+          "speaker": "Phil",
+          "quote": "Love your energy, love your attitude."
+        }
+      ],
+      "activation": "evaluated",
+      "source_rationale_id": "R13",
+      "utterance_kind": "assessment",
+      "decision_support": "none",
+      "all_mention_ids": [
+        "R13"
+      ]
+    },
+    {
+      "rationale_label": "go_to_market_strategy_assessment",
+      "direction": "negative",
+      "salience": "primary",
+      "confidence": 0.99,
+      "utterance_type": "assessment",
+      "decision_link": "explicit",
+      "timing": "original_pitch",
+      "turn_index": 122,
+      "quote": "I don’t want to be in that business of having to educate all these businesses",
+      "explanation": "He identifies the need for extensive customer education as an unattractive sales motion supporting his refusal.",
+      "evidence": [
+        "I don’t want to be in that business of having to educate all these businesses"
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 122,
+          "speaker": "Phil",
+          "quote": "I don’t want to be in that business of having to educate all these businesses"
+        }
+      ],
+      "activation": "evaluated",
+      "source_rationale_id": "R15",
+      "utterance_kind": "concern",
+      "decision_support": "supports_out",
+      "all_mention_ids": [
+        "R3",
+        "R9",
+        "R12",
+        "R15",
+        "R16"
+      ]
+    },
+    {
+      "rationale_label": "product_adoption",
+      "direction": "neutral",
+      "salience": "secondary",
+      "confidence": 0.87,
+      "utterance_type": "question",
+      "decision_link": "none",
+      "timing": "original_pitch",
+      "turn_index": 60,
+      "quote": "Why? Why is that?",
+      "explanation": "In context, he asks why adoption of non-applicator tampons is much lower in the United States than in Europe.",
+      "evidence": [
+        "Why? Why is that?"
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 60,
+          "speaker": "Phil",
+          "quote": "Why? Why is that?"
+        }
+      ],
+      "activation": "queried",
+      "source_rationale_id": "R6",
+      "utterance_kind": "question",
+      "decision_support": "none",
+      "all_mention_ids": [
+        "R6"
+      ]
+    },
+    {
+      "rationale_label": "product_differentiation_concern",
+      "direction": "negative",
+      "salience": "primary",
+      "confidence": 0.99,
+      "utterance_type": "assessment",
+      "decision_link": "explicit",
+      "timing": "original_pitch",
+      "turn_index": 124,
+      "quote": "But then I’m worried about the competition. Because a company like Tampax, or if they want the eco solution, OB, can crush her in terms of price.",
+      "explanation": "He concludes that powerful incumbent alternatives can undercut Aunt Flow, a defensibility concern explicitly supporting his pass.",
+      "evidence": [
+        "I don't get it still for Chase. They can, I mean, they could buy OB non-applicator tampons in bulk.",
+        "But then I’m worried about the competition. Because a company like Tampax, or if they want the eco solution, OB, can crush her in terms of price."
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 95,
+          "speaker": "Phil",
+          "quote": "I don't get it still for Chase. They can, I mean, they could buy OB non-applicator tampons in bulk."
+        },
+        {
+          "turn_index": 124,
+          "speaker": "Phil",
+          "quote": "But then I’m worried about the competition. Because a company like Tampax, or if they want the eco solution, OB, can crush her in terms of price."
+        }
+      ],
+      "activation": "evaluated",
+      "source_rationale_id": "R17",
+      "utterance_kind": "concern",
+      "decision_support": "supports_out",
+      "all_mention_ids": [
+        "R4",
+        "R5",
+        "R11",
+        "R17"
+      ]
+    },
+    {
+      "rationale_label": "traction_repeatability_concern",
+      "direction": "neutral",
+      "salience": "secondary",
+      "confidence": 0.9,
+      "utterance_type": "question",
+      "decision_link": "none",
+      "timing": "original_pitch",
+      "turn_index": 69,
+      "quote": "How much revenue are you generating?",
+      "explanation": "He requests the company's current revenue level as a concrete traction signal.",
+      "evidence": [
+        "How much revenue are you generating?"
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 69,
+          "speaker": "Phil",
+          "quote": "How much revenue are you generating?"
+        }
+      ],
+      "activation": "queried",
+      "source_rationale_id": "R7",
+      "utterance_kind": "question",
+      "decision_support": "none",
+      "all_mention_ids": [
+        "R7"
+      ]
+    }
+  ],
+  "later_rationales": [],
+  "excluded_rationales": [
+    {
+      "rationale_label": "investment_thesis_constraint",
+      "direction": "neutral",
+      "salience": "primary",
+      "confidence": 0.94,
+      "utterance_type": "assessment",
+      "decision_link": "none",
+      "timing": "teaser",
+      "turn_index": 1,
+      "quote": "I wanna to invest in a company where you have a scalable way of acquiring customers",
+      "explanation": "Phil states a general investment-selection criterion requiring scalable customer acquisition, without asserting that Aunt Flow satisfies it.",
+      "evidence": [
+        "I wanna to invest in a company where you have a scalable way of acquiring customers"
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 1,
+          "speaker": "Phil",
+          "quote": "I wanna to invest in a company where you have a scalable way of acquiring customers"
+        }
+      ],
+      "activation": "evaluated",
+      "source_rationale_id": "R1"
+    }
+  ],
+  "rationale_mentions": [
+    {
+      "rationale_label": "competitive_advantage_assessment",
+      "direction": "neutral",
+      "salience": "secondary",
+      "confidence": 0.97,
+      "utterance_type": "question",
+      "decision_link": "none",
+      "timing": "original_pitch",
+      "turn_index": 43,
+      "quote": "Why would they buy the tampons from you instead of from Walmart or Costco?",
+      "explanation": "He probes what competitive advantage would cause customers to choose Aunt Flow over established purchasing alternatives.",
+      "evidence": [
+        "Why would they buy the tampons from you instead of from Walmart or Costco?"
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 43,
+          "speaker": "Phil",
+          "quote": "Why would they buy the tampons from you instead of from Walmart or Costco?"
+        }
+      ],
+      "activation": "queried",
+      "source_rationale_id": "R2"
+    },
+    {
+      "rationale_label": "go_to_market_strategy_assessment",
+      "direction": "neutral",
+      "salience": "secondary",
+      "confidence": 0.97,
+      "utterance_type": "question",
+      "decision_link": "none",
+      "timing": "original_pitch",
+      "turn_index": 45,
+      "quote": "What's the buying decision for a company like Viacom",
+      "explanation": "He asks what drives the enterprise customer's purchasing decision and therefore the company's sales motion.",
+      "evidence": [
+        "What's the buying decision for a company like Viacom"
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 45,
+          "speaker": "Phil",
+          "quote": "What's the buying decision for a company like Viacom"
+        }
+      ],
+      "activation": "queried",
+      "source_rationale_id": "R3"
+    },
+    {
+      "rationale_label": "product_differentiation_concern",
+      "direction": "neutral",
+      "salience": "secondary",
+      "confidence": 0.97,
+      "utterance_type": "question",
+      "decision_link": "none",
+      "timing": "original_pitch",
+      "turn_index": 55,
+      "quote": "But aren’t there other non-applicator tampons out on the market?",
+      "explanation": "Phil tests whether the non-applicator product is meaningfully unique.",
+      "evidence": [
+        "But aren’t there other non-applicator tampons out on the market?"
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 55,
+          "speaker": "Phil",
+          "quote": "But aren’t there other non-applicator tampons out on the market?"
+        }
+      ],
+      "activation": "queried",
+      "source_rationale_id": "R4"
+    },
+    {
+      "rationale_label": "product_differentiation_concern",
+      "direction": "neutral",
+      "salience": "secondary",
+      "confidence": 0.96,
+      "utterance_type": "question",
+      "decision_link": "none",
+      "timing": "original_pitch",
+      "turn_index": 57,
+      "quote": "can you buy them from Amazon?",
+      "explanation": "He checks whether customers can readily obtain an equivalent product through an incumbent channel.",
+      "evidence": [
+        "can you buy them from Amazon?"
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 57,
+          "speaker": "Phil",
+          "quote": "can you buy them from Amazon?"
+        }
+      ],
+      "activation": "queried",
+      "source_rationale_id": "R5"
+    },
+    {
+      "rationale_label": "product_adoption",
+      "direction": "neutral",
+      "salience": "secondary",
+      "confidence": 0.87,
+      "utterance_type": "question",
+      "decision_link": "none",
+      "timing": "original_pitch",
+      "turn_index": 60,
+      "quote": "Why? Why is that?",
+      "explanation": "In context, he asks why adoption of non-applicator tampons is much lower in the United States than in Europe.",
+      "evidence": [
+        "Why? Why is that?"
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 60,
+          "speaker": "Phil",
+          "quote": "Why? Why is that?"
+        }
+      ],
+      "activation": "queried",
+      "source_rationale_id": "R6"
+    },
+    {
+      "rationale_label": "traction_repeatability_concern",
+      "direction": "neutral",
+      "salience": "secondary",
+      "confidence": 0.9,
+      "utterance_type": "question",
+      "decision_link": "none",
+      "timing": "original_pitch",
+      "turn_index": 69,
+      "quote": "How much revenue are you generating?",
+      "explanation": "He requests the company's current revenue level as a concrete traction signal.",
+      "evidence": [
+        "How much revenue are you generating?"
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 69,
+          "speaker": "Phil",
+          "quote": "How much revenue are you generating?"
+        }
+      ],
+      "activation": "queried",
+      "source_rationale_id": "R7"
+    },
+    {
+      "rationale_label": "business_model_assessment",
+      "direction": "negative",
+      "salience": "primary",
+      "confidence": 0.99,
+      "utterance_type": "concern",
+      "decision_link": "none",
+      "timing": "original_pitch",
+      "turn_index": 80,
+      "quote": "I'm having trouble understanding the value proposition for the customer.",
+      "explanation": "Phil explicitly states that the business customer's value proposition is unclear to him.",
+      "evidence": [
+        "I'm having trouble understanding the value proposition for the customer."
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 80,
+          "speaker": "Phil",
+          "quote": "I'm having trouble understanding the value proposition for the customer."
+        }
+      ],
+      "activation": "evaluated",
+      "source_rationale_id": "R8"
+    },
+    {
+      "rationale_label": "go_to_market_strategy_assessment",
+      "direction": "neutral",
+      "salience": "secondary",
+      "confidence": 0.98,
+      "utterance_type": "question",
+      "decision_link": "none",
+      "timing": "original_pitch",
+      "turn_index": 82,
+      "quote": "What is the value proposition? Is she focused more on price? Is she focused on the green aspect? On the convenience of the delivery?",
+      "explanation": "He probes which benefit actually motivates the buyer and anchors the enterprise sales pitch.",
+      "evidence": [
+        "What is the value proposition? Is she focused more on price? Is she focused on the green aspect? On the convenience of the delivery?"
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 82,
+          "speaker": "Phil",
+          "quote": "What is the value proposition? Is she focused more on price? Is she focused on the green aspect? On the convenience of the delivery?"
+        }
+      ],
+      "activation": "queried",
+      "source_rationale_id": "R9"
+    },
+    {
+      "rationale_label": "competitive_advantage_assessment",
+      "direction": "neutral",
+      "salience": "secondary",
+      "confidence": 0.98,
+      "utterance_type": "question",
+      "decision_link": "none",
+      "timing": "original_pitch",
+      "turn_index": 86,
+      "quote": "why through Aunt Flow as opposed to buying tampons at Amazon or Costco",
+      "explanation": "He again asks what competitive advantage makes Aunt Flow preferable to established procurement options.",
+      "evidence": [
+        "why through Aunt Flow as opposed to buying tampons at Amazon or Costco"
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 86,
+          "speaker": "Phil",
+          "quote": "why through Aunt Flow as opposed to buying tampons at Amazon or Costco"
+        }
+      ],
+      "activation": "queried",
+      "source_rationale_id": "R10"
+    },
+    {
+      "rationale_label": "product_differentiation_concern",
+      "direction": "negative",
+      "salience": "primary",
+      "confidence": 0.99,
+      "utterance_type": "concern",
+      "decision_link": "none",
+      "timing": "original_pitch",
+      "turn_index": 95,
+      "quote": "I don't get it still for Chase. They can, I mean, they could buy OB non-applicator tampons in bulk.",
+      "explanation": "He remains unconvinced that Aunt Flow offers a sufficiently differentiated product or purchasing proposition.",
+      "evidence": [
+        "I don't get it still for Chase. They can, I mean, they could buy OB non-applicator tampons in bulk."
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 95,
+          "speaker": "Phil",
+          "quote": "I don't get it still for Chase. They can, I mean, they could buy OB non-applicator tampons in bulk."
+        }
+      ],
+      "activation": "evaluated",
+      "source_rationale_id": "R11"
+    },
+    {
+      "rationale_label": "go_to_market_strategy_assessment",
+      "direction": "neutral",
+      "salience": "secondary",
+      "confidence": 0.96,
+      "utterance_type": "question",
+      "decision_link": "none",
+      "timing": "original_pitch",
+      "turn_index": 97,
+      "quote": "That's the reason they're giving you the business? They want to align with you because you've been published, you've had some articles about you?",
+      "explanation": "Phil tests whether brand alignment and publicity genuinely drive Chase's buying decision.",
+      "evidence": [
+        "That's the reason they're giving you the business? They want to align with you because you've been published, you've had some articles about you?"
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 97,
+          "speaker": "Phil",
+          "quote": "That's the reason they're giving you the business? They want to align with you because you've been published, you've had some articles about you?"
+        }
+      ],
+      "activation": "queried",
+      "source_rationale_id": "R12"
+    },
+    {
+      "rationale_label": "founder_qualities",
+      "direction": "positive",
+      "salience": "secondary",
+      "confidence": 0.99,
+      "utterance_type": "assessment",
+      "decision_link": "none",
+      "timing": "original_pitch",
+      "turn_index": 120,
+      "quote": "Love your energy, love your attitude.",
+      "explanation": "Phil positively assesses Claire's personal energy and attitude.",
+      "evidence": [
+        "Love your energy, love your attitude."
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 120,
+          "speaker": "Phil",
+          "quote": "Love your energy, love your attitude."
+        }
+      ],
+      "activation": "evaluated",
+      "source_rationale_id": "R13"
+    },
+    {
+      "rationale_label": "business_model_assessment",
+      "direction": "negative",
+      "salience": "primary",
+      "confidence": 0.99,
+      "utterance_type": "concern",
+      "decision_link": "supports_out",
+      "timing": "original_pitch",
+      "turn_index": 122,
+      "quote": "I’m not totally buying into the value proposition from, on the B2B side.",
+      "explanation": "During his decision explanation, Phil says the B2B value proposition does not convince him.",
+      "evidence": [
+        "I’m not totally buying into the value proposition from, on the B2B side."
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 122,
+          "speaker": "Phil",
+          "quote": "I’m not totally buying into the value proposition from, on the B2B side."
+        }
+      ],
+      "activation": "evaluated",
+      "source_rationale_id": "R14"
+    },
+    {
+      "rationale_label": "go_to_market_strategy_assessment",
+      "direction": "negative",
+      "salience": "primary",
+      "confidence": 0.99,
+      "utterance_type": "concern",
+      "decision_link": "supports_out",
+      "timing": "original_pitch",
+      "turn_index": 122,
+      "quote": "I don’t want to be in that business of having to educate all these businesses",
+      "explanation": "He identifies the need for extensive customer education as an unattractive sales motion supporting his refusal.",
+      "evidence": [
+        "I don’t want to be in that business of having to educate all these businesses"
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 122,
+          "speaker": "Phil",
+          "quote": "I don’t want to be in that business of having to educate all these businesses"
+        }
+      ],
+      "activation": "evaluated",
+      "source_rationale_id": "R15"
+    },
+    {
+      "rationale_label": "go_to_market_strategy_assessment",
+      "direction": "positive",
+      "salience": "secondary",
+      "confidence": 0.95,
+      "utterance_type": "supporting_argument",
+      "decision_link": "none",
+      "timing": "original_pitch",
+      "turn_index": 124,
+      "quote": "I think that that’s a better way to go.",
+      "explanation": "Phil says positioning the offering around productivity would be a better sales approach.",
+      "evidence": [
+        "I think that that’s a better way to go."
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 124,
+          "speaker": "Phil",
+          "quote": "I think that that’s a better way to go."
+        }
+      ],
+      "activation": "evaluated",
+      "source_rationale_id": "R16"
+    },
+    {
+      "rationale_label": "product_differentiation_concern",
+      "direction": "negative",
+      "salience": "primary",
+      "confidence": 0.99,
+      "utterance_type": "concern",
+      "decision_link": "supports_out",
+      "timing": "original_pitch",
+      "turn_index": 124,
+      "quote": "But then I’m worried about the competition. Because a company like Tampax, or if they want the eco solution, OB, can crush her in terms of price.",
+      "explanation": "He concludes that powerful incumbent alternatives can undercut Aunt Flow, a defensibility concern explicitly supporting his pass.",
+      "evidence": [
+        "But then I’m worried about the competition. Because a company like Tampax, or if they want the eco solution, OB, can crush her in terms of price."
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 124,
+          "speaker": "Phil",
+          "quote": "But then I’m worried about the competition. Because a company like Tampax, or if they want the eco solution, OB, can crush her in terms of price."
+        }
+      ],
+      "activation": "evaluated",
+      "source_rationale_id": "R17"
+    }
+  ],
+  "expanded_quote_evidence": [],
+  "rejected_after_evidence_check": []
+}

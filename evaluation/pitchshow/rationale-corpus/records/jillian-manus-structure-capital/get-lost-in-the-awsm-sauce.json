@@ -1,0 +1,2756 @@
+{
+  "schema": "phase1-rationale-reference-v1",
+  "extraction_version": "pitchshow-rationales-v1",
+  "fingerprint": "70aa2efa924e166804b385a40b1206de77f3971c2757608b2d1dbdbf6fcc830b",
+  "episode_slug": "get-lost-in-the-awsm-sauce",
+  "vc_slug": "jillian-manus-structure-capital",
+  "vc_name": "Jillian Manus",
+  "actual_decision": "Out",
+  "later_decision": "Unknown",
+  "reference_kind": "automated_transcript_observed_candidate",
+  "human_validated": false,
+  "source_format": "transcript-observed-rationales-v1",
+  "source_path": "/home/dpasch01/vclogic-vc-agentic-assessment/evaluation/pitchshow/investors/jillian-manus-structure-capital/source/episodes/get-lost-in-the-awsm-sauce.json",
+  "source_sha256": "4799391c7d21eec8e71e243bfcb38c422a2d297a36c90ca043a6c1296b913336",
+  "transcript_sha256": "9d8ff46968075965922f68503db0fee611f00848b064d7631d0ee6a3384a6b52",
+  "taxonomy_sha256": "eaa8734819a3ac34dd19ee5f0bf6de925a793a1d25a2d361090dafc9b751e1fc",
+  "model": "codex:gpt-5.6-luna+gpt-5.6-sol",
+  "generation_stages": [
+    {
+      "phase": "rationale_extract",
+      "backend": "codex",
+      "model": "gpt-5.6-luna"
+    },
+    {
+      "phase": "rationale_verify",
+      "backend": "codex",
+      "model": "gpt-5.6-sol"
+    }
+  ],
+  "source_tier": "newly_extracted_and_independently_model_reviewed",
+  "reviewed_target_turns": [
+    6,
+    8,
+    9,
+    11,
+    13,
+    18,
+    20,
+    23,
+    37,
+    39,
+    41,
+    43,
+    57,
+    59,
+    62,
+    67,
+    69,
+    71,
+    77,
+    107,
+    109,
+    114,
+    117,
+    125,
+    129,
+    143,
+    187,
+    195,
+    197,
+    200,
+    211,
+    213,
+    215,
+    217,
+    219,
+    221,
+    223,
+    225,
+    227,
+    229,
+    231,
+    232,
+    237,
+    239,
+    241,
+    244,
+    252,
+    286,
+    292,
+    294,
+    295,
+    297,
+    299,
+    304,
+    306,
+    309,
+    323,
+    325,
+    327,
+    329,
+    343,
+    345,
+    348,
+    353,
+    355,
+    357,
+    363,
+    393,
+    395,
+    400,
+    403,
+    411,
+    415,
+    429,
+    473,
+    481,
+    483,
+    486,
+    497,
+    499,
+    501,
+    503,
+    505,
+    507,
+    509,
+    511,
+    513,
+    515,
+    517,
+    518,
+    523,
+    525,
+    527,
+    530,
+    538,
+    572,
+    578,
+    580,
+    581,
+    583,
+    585,
+    590,
+    592,
+    595,
+    609,
+    611,
+    613,
+    615,
+    629,
+    631,
+    634,
+    639,
+    641,
+    643,
+    649,
+    679,
+    681,
+    686,
+    689,
+    697,
+    701,
+    715,
+    759,
+    767,
+    769,
+    772,
+    783,
+    785,
+    787,
+    789,
+    791,
+    793,
+    795,
+    797,
+    799,
+    801,
+    803,
+    804,
+    809,
+    811,
+    813,
+    816,
+    824,
+    858
+  ],
+  "notes": "The source repeats the episode three times, so repeated indexed evidence is retained. Bare acknowledgments, jokes, incomplete fragments, and advice without an observable investment rationale were omitted.",
+  "receipt_path": "/home/dpasch01/vclogic-vc-agentic-assessment/evaluation/pitchshow/investors/jillian-manus-structure-capital/rationale-references/receipts/get-lost-in-the-awsm-sauce.json",
+  "scoring_scope": "original_pitch_only",
+  "shared_across_input_modes": true,
+  "rationales": [
+    {
+      "rationale_label": "business_model_assessment",
+      "direction": "negative",
+      "salience": "secondary",
+      "confidence": 0.99,
+      "utterance_type": "assessment",
+      "decision_link": "none",
+      "timing": "original_pitch",
+      "turn_index": 681,
+      "quote": "I think that's expensive, unreliable",
+      "explanation": "She considers the proposed manual-staffing model costly and unreliable.",
+      "evidence": [
+        "I think that's expensive, unreliable"
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 109,
+          "speaker": "Jillian",
+          "quote": "I think that's expensive, unreliable"
+        },
+        {
+          "turn_index": 395,
+          "speaker": "Jillian",
+          "quote": "I think that's expensive, unreliable"
+        },
+        {
+          "turn_index": 681,
+          "speaker": "Jillian",
+          "quote": "I think that's expensive, unreliable"
+        }
+      ],
+      "activation": "evaluated",
+      "source_rationale_id": "R59",
+      "utterance_kind": "concern",
+      "decision_support": "none",
+      "all_mention_ids": [
+        "R6",
+        "R7",
+        "R32",
+        "R33",
+        "R58",
+        "R59"
+      ]
+    },
+    {
+      "rationale_label": "capital_intensity_concern",
+      "direction": "neutral",
+      "salience": "secondary",
+      "confidence": 0.92,
+      "utterance_type": "question",
+      "decision_link": "none",
+      "timing": "original_pitch",
+      "turn_index": 649,
+      "quote": "a week?",
+      "explanation": "She clarifies whether the stated stadium-servicing expense is a recurring weekly cost.",
+      "evidence": [
+        "How many dispensers?",
+        "Cost of the dispensers?",
+        "a week?"
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 69,
+          "speaker": "Jillian",
+          "quote": "How many dispensers?"
+        },
+        {
+          "turn_index": 71,
+          "speaker": "Jillian",
+          "quote": "Cost of the dispensers?"
+        },
+        {
+          "turn_index": 77,
+          "speaker": "Jillian",
+          "quote": "a week?"
+        },
+        {
+          "turn_index": 355,
+          "speaker": "Jillian",
+          "quote": "How many dispensers?"
+        },
+        {
+          "turn_index": 357,
+          "speaker": "Jillian",
+          "quote": "Cost of the dispensers?"
+        },
+        {
+          "turn_index": 363,
+          "speaker": "Jillian",
+          "quote": "a week?"
+        },
+        {
+          "turn_index": 641,
+          "speaker": "Jillian",
+          "quote": "How many dispensers?"
+        },
+        {
+          "turn_index": 643,
+          "speaker": "Jillian",
+          "quote": "Cost of the dispensers?"
+        },
+        {
+          "turn_index": 649,
+          "speaker": "Jillian",
+          "quote": "a week?"
+        }
+      ],
+      "activation": "queried",
+      "source_rationale_id": "R57",
+      "utterance_kind": "question",
+      "decision_support": "none",
+      "all_mention_ids": [
+        "R3",
+        "R4",
+        "R5",
+        "R29",
+        "R30",
+        "R31",
+        "R55",
+        "R56",
+        "R57"
+      ]
+    },
+    {
+      "rationale_label": "competitive_landscape_inertia",
+      "direction": "negative",
+      "salience": "secondary",
+      "confidence": 0.98,
+      "utterance_type": "assessment",
+      "decision_link": "none",
+      "timing": "original_pitch",
+      "turn_index": 799,
+      "quote": "But they're still paying Heinz for the product.",
+      "explanation": "She highlights the concessionaire's continuing commercial relationship with the incumbent.",
+      "evidence": [
+        "they're only allowed to carry one ketchup, one type of mustard",
+        "I'm not sure about that either",
+        "But they're still paying Heinz for the product."
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 117,
+          "speaker": "Jillian",
+          "quote": "they're only allowed to carry one ketchup, one type of mustard"
+        },
+        {
+          "turn_index": 217,
+          "speaker": "Jillian",
+          "quote": "I'm not sure about that either"
+        },
+        {
+          "turn_index": 227,
+          "speaker": "Jillian",
+          "quote": "But they're still paying Heinz for the product."
+        },
+        {
+          "turn_index": 403,
+          "speaker": "Jillian",
+          "quote": "they're only allowed to carry one ketchup, one type of mustard"
+        },
+        {
+          "turn_index": 503,
+          "speaker": "Jillian",
+          "quote": "I'm not sure about that either"
+        },
+        {
+          "turn_index": 513,
+          "speaker": "Jillian",
+          "quote": "But they're still paying Heinz for the product."
+        },
+        {
+          "turn_index": 689,
+          "speaker": "Jillian",
+          "quote": "they're only allowed to carry one ketchup, one type of mustard"
+        },
+        {
+          "turn_index": 789,
+          "speaker": "Jillian",
+          "quote": "I'm not sure about that either"
+        },
+        {
+          "turn_index": 799,
+          "speaker": "Jillian",
+          "quote": "But they're still paying Heinz for the product."
+        }
+      ],
+      "activation": "evaluated",
+      "source_rationale_id": "R73",
+      "utterance_kind": "concern",
+      "decision_support": "none",
+      "all_mention_ids": [
+        "R8",
+        "R9",
+        "R10",
+        "R18",
+        "R21",
+        "R34",
+        "R35",
+        "R36",
+        "R44",
+        "R47",
+        "R60",
+        "R61",
+        "R62",
+        "R70",
+        "R73"
+      ]
+    },
+    {
+      "rationale_label": "founder_communication_quality",
+      "direction": "negative",
+      "salience": "secondary",
+      "confidence": 0.95,
+      "utterance_type": "assessment",
+      "decision_link": "none",
+      "timing": "original_pitch",
+      "turn_index": 787,
+      "quote": "That's a little bit of a worry.",
+      "explanation": "In context, she agrees that the founders' weak command of their numbers is concerning.",
+      "evidence": [
+        "That's a little bit of a worry."
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 215,
+          "speaker": "Jillian",
+          "quote": "That's a little bit of a worry."
+        },
+        {
+          "turn_index": 501,
+          "speaker": "Jillian",
+          "quote": "That's a little bit of a worry."
+        },
+        {
+          "turn_index": 787,
+          "speaker": "Jillian",
+          "quote": "That's a little bit of a worry."
+        }
+      ],
+      "activation": "evaluated",
+      "source_rationale_id": "R69",
+      "utterance_kind": "concern",
+      "decision_support": "none",
+      "all_mention_ids": [
+        "R17",
+        "R43",
+        "R69"
+      ]
+    },
+    {
+      "rationale_label": "founder_qualities",
+      "direction": "positive",
+      "salience": "secondary",
+      "confidence": 0.97,
+      "utterance_type": "assessment",
+      "decision_link": "none",
+      "timing": "original_pitch",
+      "turn_index": 772,
+      "quote": "I do think you two are awesome.",
+      "explanation": "She expresses a positive personal assessment of the founders.",
+      "evidence": [
+        "I do think you two are awesome."
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 200,
+          "speaker": "Jillian",
+          "quote": "I do think you two are awesome."
+        },
+        {
+          "turn_index": 486,
+          "speaker": "Jillian",
+          "quote": "I do think you two are awesome."
+        },
+        {
+          "turn_index": 772,
+          "speaker": "Jillian",
+          "quote": "I do think you two are awesome."
+        }
+      ],
+      "activation": "evaluated",
+      "source_rationale_id": "R67",
+      "utterance_kind": "supporting_argument",
+      "decision_support": "none",
+      "all_mention_ids": [
+        "R15",
+        "R41",
+        "R67"
+      ]
+    },
+    {
+      "rationale_label": "investment_upside_assessment",
+      "direction": "positive",
+      "salience": "secondary",
+      "confidence": 0.88,
+      "utterance_type": "assessment",
+      "decision_link": "none",
+      "timing": "original_pitch",
+      "turn_index": 824,
+      "quote": "Or maybe Heinz buys them.",
+      "explanation": "She identifies acquisition by Heinz as a possible positive exit path.",
+      "evidence": [
+        "Or maybe Heinz buys them."
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 252,
+          "speaker": "Jillian",
+          "quote": "Or maybe Heinz buys them."
+        },
+        {
+          "turn_index": 538,
+          "speaker": "Jillian",
+          "quote": "Or maybe Heinz buys them."
+        },
+        {
+          "turn_index": 824,
+          "speaker": "Jillian",
+          "quote": "Or maybe Heinz buys them."
+        }
+      ],
+      "activation": "evaluated",
+      "source_rationale_id": "R76",
+      "utterance_kind": "supporting_argument",
+      "decision_support": "none",
+      "all_mention_ids": [
+        "R24",
+        "R50",
+        "R76"
+      ]
+    },
+    {
+      "rationale_label": "investor_domain_knowledge_constraint",
+      "direction": "negative",
+      "salience": "primary",
+      "confidence": 1.0,
+      "utterance_type": "decision_reason",
+      "decision_link": "explicit",
+      "timing": "original_pitch",
+      "turn_index": 769,
+      "quote": "I'm out because I know nothing about this space.",
+      "explanation": "She explicitly attributes her refusal to lacking knowledge of the sector.",
+      "evidence": [
+        "I'm out because I know nothing about this space."
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 197,
+          "speaker": "Jillian",
+          "quote": "I'm out because I know nothing about this space."
+        },
+        {
+          "turn_index": 483,
+          "speaker": "Jillian",
+          "quote": "I'm out because I know nothing about this space."
+        },
+        {
+          "turn_index": 769,
+          "speaker": "Jillian",
+          "quote": "I'm out because I know nothing about this space."
+        }
+      ],
+      "activation": "evaluated",
+      "source_rationale_id": "R65",
+      "utterance_kind": "decision_explanation",
+      "decision_support": "supports_out",
+      "all_mention_ids": [
+        "R13",
+        "R39",
+        "R65"
+      ]
+    },
+    {
+      "rationale_label": "market_problem_validation",
+      "direction": "positive",
+      "salience": "secondary",
+      "confidence": 0.85,
+      "utterance_type": "assessment",
+      "decision_link": "none",
+      "timing": "original_pitch",
+      "turn_index": 701,
+      "quote": "No, no, those are important points.",
+      "explanation": "She endorses the founders' point that stadiums spend heavily on free sauce while receiving little value.",
+      "evidence": [
+        "No, no, those are important points."
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 129,
+          "speaker": "Jillian",
+          "quote": "No, no, those are important points."
+        },
+        {
+          "turn_index": 415,
+          "speaker": "Jillian",
+          "quote": "No, no, those are important points."
+        },
+        {
+          "turn_index": 701,
+          "speaker": "Jillian",
+          "quote": "No, no, those are important points."
+        }
+      ],
+      "activation": "evaluated",
+      "source_rationale_id": "R63",
+      "utterance_kind": "supporting_argument",
+      "decision_support": "none",
+      "all_mention_ids": [
+        "R11",
+        "R37",
+        "R63"
+      ]
+    },
+    {
+      "rationale_label": "product_adoption",
+      "direction": "neutral",
+      "salience": "secondary",
+      "confidence": 0.98,
+      "utterance_type": "question",
+      "decision_link": "none",
+      "timing": "original_pitch",
+      "turn_index": 631,
+      "quote": "And how'd that go?",
+      "explanation": "She asks how the stadium pilot performed.",
+      "evidence": [
+        "You have the Minnesota Twins, is that - or you you just have the stadium? The whole stadium?",
+        "And how'd that go?"
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 57,
+          "speaker": "Jillian",
+          "quote": "You have the Minnesota Twins, is that - or you you just have the stadium? The whole stadium?"
+        },
+        {
+          "turn_index": 59,
+          "speaker": "Jillian",
+          "quote": "And how'd that go?"
+        },
+        {
+          "turn_index": 343,
+          "speaker": "Jillian",
+          "quote": "You have the Minnesota Twins, is that - or you you just have the stadium? The whole stadium?"
+        },
+        {
+          "turn_index": 345,
+          "speaker": "Jillian",
+          "quote": "And how'd that go?"
+        },
+        {
+          "turn_index": 629,
+          "speaker": "Jillian",
+          "quote": "You have the Minnesota Twins, is that - or you you just have the stadium? The whole stadium?"
+        },
+        {
+          "turn_index": 631,
+          "speaker": "Jillian",
+          "quote": "And how'd that go?"
+        }
+      ],
+      "activation": "queried",
+      "source_rationale_id": "R54",
+      "utterance_kind": "question",
+      "decision_support": "none",
+      "all_mention_ids": [
+        "R1",
+        "R2",
+        "R27",
+        "R28",
+        "R53",
+        "R54"
+      ]
+    },
+    {
+      "rationale_label": "product_appeal_assessment",
+      "direction": "positive",
+      "salience": "secondary",
+      "confidence": 0.99,
+      "utterance_type": "assessment",
+      "decision_link": "none",
+      "timing": "original_pitch",
+      "turn_index": 769,
+      "quote": "all the sauces were just absolutely extraordinary",
+      "explanation": "She gives the sauces a strongly positive personal assessment.",
+      "evidence": [
+        "all the sauces were just absolutely extraordinary"
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 197,
+          "speaker": "Jillian",
+          "quote": "all the sauces were just absolutely extraordinary"
+        },
+        {
+          "turn_index": 483,
+          "speaker": "Jillian",
+          "quote": "all the sauces were just absolutely extraordinary"
+        },
+        {
+          "turn_index": 769,
+          "speaker": "Jillian",
+          "quote": "all the sauces were just absolutely extraordinary"
+        }
+      ],
+      "activation": "evaluated",
+      "source_rationale_id": "R66",
+      "utterance_kind": "supporting_argument",
+      "decision_support": "none",
+      "all_mention_ids": [
+        "R14",
+        "R40",
+        "R66"
+      ]
+    },
+    {
+      "rationale_label": "product_differentiation_concern",
+      "direction": "neutral",
+      "salience": "secondary",
+      "confidence": 0.94,
+      "utterance_type": "question",
+      "decision_link": "none",
+      "timing": "original_pitch",
+      "turn_index": 813,
+      "quote": "Would it be a diversion or would it be a a need to rebrand their company and say, let's try this out, it's not gonna cost much to us",
+      "explanation": "She explores whether an incumbent could cheaply imitate the sustainability-oriented offering.",
+      "evidence": [
+        "Do you have a patent?",
+        "Why couldn't Heinz or any of the other ketchup companies say, you know what, we're gonna have a powdered form too?",
+        "Would it be a diversion or would it be a a need to rebrand their company and say, let's try this out, it's not gonna cost much to us"
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 143,
+          "speaker": "Jillian",
+          "quote": "Do you have a patent?"
+        },
+        {
+          "turn_index": 232,
+          "speaker": "Jillian",
+          "quote": "Why couldn't Heinz or any of the other ketchup companies say, you know what, we're gonna have a powdered form too?"
+        },
+        {
+          "turn_index": 241,
+          "speaker": "Jillian",
+          "quote": "Would it be a diversion or would it be a a need to rebrand their company and say, let's try this out, it's not gonna cost much to us"
+        },
+        {
+          "turn_index": 429,
+          "speaker": "Jillian",
+          "quote": "Do you have a patent?"
+        },
+        {
+          "turn_index": 518,
+          "speaker": "Jillian",
+          "quote": "Why couldn't Heinz or any of the other ketchup companies say, you know what, we're gonna have a powdered form too?"
+        },
+        {
+          "turn_index": 527,
+          "speaker": "Jillian",
+          "quote": "Would it be a diversion or would it be a a need to rebrand their company and say, let's try this out, it's not gonna cost much to us"
+        },
+        {
+          "turn_index": 715,
+          "speaker": "Jillian",
+          "quote": "Do you have a patent?"
+        },
+        {
+          "turn_index": 804,
+          "speaker": "Jillian",
+          "quote": "Why couldn't Heinz or any of the other ketchup companies say, you know what, we're gonna have a powdered form too?"
+        },
+        {
+          "turn_index": 813,
+          "speaker": "Jillian",
+          "quote": "Would it be a diversion or would it be a a need to rebrand their company and say, let's try this out, it's not gonna cost much to us"
+        }
+      ],
+      "activation": "queried",
+      "source_rationale_id": "R75",
+      "utterance_kind": "question",
+      "decision_support": "none",
+      "all_mention_ids": [
+        "R12",
+        "R22",
+        "R23",
+        "R38",
+        "R48",
+        "R49",
+        "R64",
+        "R74",
+        "R75"
+      ]
+    },
+    {
+      "rationale_label": "solution_feasibility_assessment",
+      "direction": "negative",
+      "salience": "primary",
+      "confidence": 0.99,
+      "utterance_type": "assessment",
+      "decision_link": "none",
+      "timing": "original_pitch",
+      "turn_index": 783,
+      "quote": "There are a lot of unknowns. The machine to me is definitely the biggest one.",
+      "explanation": "She identifies the unproven machine as the largest unresolved feasibility risk.",
+      "evidence": [
+        "There are a lot of unknowns. The machine to me is definitely the biggest one."
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 211,
+          "speaker": "Jillian",
+          "quote": "There are a lot of unknowns. The machine to me is definitely the biggest one."
+        },
+        {
+          "turn_index": 497,
+          "speaker": "Jillian",
+          "quote": "There are a lot of unknowns. The machine to me is definitely the biggest one."
+        },
+        {
+          "turn_index": 783,
+          "speaker": "Jillian",
+          "quote": "There are a lot of unknowns. The machine to me is definitely the biggest one."
+        }
+      ],
+      "activation": "evaluated",
+      "source_rationale_id": "R68",
+      "utterance_kind": "assessment",
+      "decision_support": "none",
+      "all_mention_ids": [
+        "R16",
+        "R42",
+        "R68"
+      ]
+    },
+    {
+      "rationale_label": "traction_repeatability_concern",
+      "direction": "negative",
+      "salience": "secondary",
+      "confidence": 0.99,
+      "utterance_type": "assessment",
+      "decision_link": "none",
+      "timing": "original_pitch",
+      "turn_index": 795,
+      "quote": "it was not meaningful for - but what happens when the concessionaire says, we want to do this in six arenas",
+      "explanation": "She questions whether the small pilot meaningfully validates repeatable deployment across several arenas.",
+      "evidence": [
+        "But they did it very small.",
+        "it was not meaningful for - but what happens when the concessionaire says, we want to do this in six arenas"
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 221,
+          "speaker": "Jillian",
+          "quote": "But they did it very small."
+        },
+        {
+          "turn_index": 223,
+          "speaker": "Jillian",
+          "quote": "it was not meaningful for - but what happens when the concessionaire says, we want to do this in six arenas"
+        },
+        {
+          "turn_index": 507,
+          "speaker": "Jillian",
+          "quote": "But they did it very small."
+        },
+        {
+          "turn_index": 509,
+          "speaker": "Jillian",
+          "quote": "it was not meaningful for - but what happens when the concessionaire says, we want to do this in six arenas"
+        },
+        {
+          "turn_index": 793,
+          "speaker": "Jillian",
+          "quote": "But they did it very small."
+        },
+        {
+          "turn_index": 795,
+          "speaker": "Jillian",
+          "quote": "it was not meaningful for - but what happens when the concessionaire says, we want to do this in six arenas"
+        }
+      ],
+      "activation": "evaluated",
+      "source_rationale_id": "R72",
+      "utterance_kind": "concern",
+      "decision_support": "none",
+      "all_mention_ids": [
+        "R19",
+        "R20",
+        "R45",
+        "R46",
+        "R71",
+        "R72"
+      ]
+    }
+  ],
+  "later_rationales": [],
+  "excluded_rationales": [
+    {
+      "rationale_label": "business_viability_concern",
+      "direction": "negative",
+      "salience": "primary",
+      "confidence": 0.98,
+      "utterance_type": "question",
+      "decision_link": "none",
+      "timing": "teaser",
+      "turn_index": 286,
+      "quote": "this is one of the most difficult spaces, with the most failures",
+      "explanation": "She characterizes the teased company's category as unusually difficult and failure-prone.",
+      "evidence": [
+        "this is one of the most difficult spaces, with the most failures"
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 286,
+          "speaker": "Jillian",
+          "quote": "this is one of the most difficult spaces, with the most failures"
+        }
+      ],
+      "activation": "queried",
+      "source_rationale_id": "R25"
+    },
+    {
+      "rationale_label": "competitive_advantage_assessment",
+      "direction": "neutral",
+      "salience": "primary",
+      "confidence": 0.95,
+      "utterance_type": "question",
+      "decision_link": "none",
+      "timing": "teaser",
+      "turn_index": 286,
+      "quote": "What makes you so special that you're going to make this work when so many others, with hundreds of millions of dollars, are unable to?",
+      "explanation": "She asks what advantage would enable the teased company to succeed where well-funded alternatives failed.",
+      "evidence": [
+        "What makes you so special that you're going to make this work when so many others, with hundreds of millions of dollars, are unable to?"
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 286,
+          "speaker": "Jillian",
+          "quote": "What makes you so special that you're going to make this work when so many others, with hundreds of millions of dollars, are unable to?"
+        }
+      ],
+      "activation": "queried",
+      "source_rationale_id": "R26"
+    },
+    {
+      "rationale_label": "business_viability_concern",
+      "direction": "negative",
+      "salience": "primary",
+      "confidence": 0.98,
+      "utterance_type": "question",
+      "decision_link": "none",
+      "timing": "teaser",
+      "turn_index": 572,
+      "quote": "this is one of the most difficult spaces, with the most failures",
+      "explanation": "She characterizes the teased company's category as unusually difficult and failure-prone.",
+      "evidence": [
+        "this is one of the most difficult spaces, with the most failures"
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 572,
+          "speaker": "Jillian",
+          "quote": "this is one of the most difficult spaces, with the most failures"
+        }
+      ],
+      "activation": "queried",
+      "source_rationale_id": "R51"
+    },
+    {
+      "rationale_label": "competitive_advantage_assessment",
+      "direction": "neutral",
+      "salience": "primary",
+      "confidence": 0.95,
+      "utterance_type": "question",
+      "decision_link": "none",
+      "timing": "teaser",
+      "turn_index": 572,
+      "quote": "What makes you so special that you're going to make this work when so many others, with hundreds of millions of dollars, are unable to?",
+      "explanation": "She asks what advantage would enable the teased company to succeed where well-funded alternatives failed.",
+      "evidence": [
+        "What makes you so special that you're going to make this work when so many others, with hundreds of millions of dollars, are unable to?"
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 572,
+          "speaker": "Jillian",
+          "quote": "What makes you so special that you're going to make this work when so many others, with hundreds of millions of dollars, are unable to?"
+        }
+      ],
+      "activation": "queried",
+      "source_rationale_id": "R52"
+    },
+    {
+      "rationale_label": "business_viability_concern",
+      "direction": "negative",
+      "salience": "primary",
+      "confidence": 0.98,
+      "utterance_type": "question",
+      "decision_link": "none",
+      "timing": "teaser",
+      "turn_index": 858,
+      "quote": "this is one of the most difficult spaces, with the most failures",
+      "explanation": "She characterizes the teased company's category as unusually difficult and failure-prone.",
+      "evidence": [
+        "this is one of the most difficult spaces, with the most failures"
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 858,
+          "speaker": "Jillian",
+          "quote": "this is one of the most difficult spaces, with the most failures"
+        }
+      ],
+      "activation": "queried",
+      "source_rationale_id": "R77"
+    },
+    {
+      "rationale_label": "competitive_advantage_assessment",
+      "direction": "neutral",
+      "salience": "primary",
+      "confidence": 0.95,
+      "utterance_type": "question",
+      "decision_link": "none",
+      "timing": "teaser",
+      "turn_index": 858,
+      "quote": "What makes you so special that you're going to make this work when so many others, with hundreds of millions of dollars, are unable to?",
+      "explanation": "She asks what advantage would enable the teased company to succeed where well-funded alternatives failed.",
+      "evidence": [
+        "What makes you so special that you're going to make this work when so many others, with hundreds of millions of dollars, are unable to?"
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 858,
+          "speaker": "Jillian",
+          "quote": "What makes you so special that you're going to make this work when so many others, with hundreds of millions of dollars, are unable to?"
+        }
+      ],
+      "activation": "queried",
+      "source_rationale_id": "R78"
+    }
+  ],
+  "rationale_mentions": [
+    {
+      "rationale_label": "product_adoption",
+      "direction": "neutral",
+      "salience": "secondary",
+      "confidence": 0.98,
+      "utterance_type": "question",
+      "decision_link": "none",
+      "timing": "original_pitch",
+      "turn_index": 57,
+      "quote": "You have the Minnesota Twins, is that - or you you just have the stadium? The whole stadium?",
+      "explanation": "She asks how broadly the Minnesota Twins pilot was deployed.",
+      "evidence": [
+        "You have the Minnesota Twins, is that - or you you just have the stadium? The whole stadium?"
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 57,
+          "speaker": "Jillian",
+          "quote": "You have the Minnesota Twins, is that - or you you just have the stadium? The whole stadium?"
+        }
+      ],
+      "activation": "queried",
+      "source_rationale_id": "R1"
+    },
+    {
+      "rationale_label": "product_adoption",
+      "direction": "neutral",
+      "salience": "secondary",
+      "confidence": 0.98,
+      "utterance_type": "question",
+      "decision_link": "none",
+      "timing": "original_pitch",
+      "turn_index": 59,
+      "quote": "And how'd that go?",
+      "explanation": "She asks how the stadium pilot performed.",
+      "evidence": [
+        "And how'd that go?"
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 59,
+          "speaker": "Jillian",
+          "quote": "And how'd that go?"
+        }
+      ],
+      "activation": "queried",
+      "source_rationale_id": "R2"
+    },
+    {
+      "rationale_label": "capital_intensity_concern",
+      "direction": "neutral",
+      "salience": "secondary",
+      "confidence": 0.94,
+      "utterance_type": "question",
+      "decision_link": "none",
+      "timing": "original_pitch",
+      "turn_index": 69,
+      "quote": "How many dispensers?",
+      "explanation": "She probes the amount of hardware required for a stadium deployment.",
+      "evidence": [
+        "How many dispensers?"
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 69,
+          "speaker": "Jillian",
+          "quote": "How many dispensers?"
+        }
+      ],
+      "activation": "queried",
+      "source_rationale_id": "R3"
+    },
+    {
+      "rationale_label": "capital_intensity_concern",
+      "direction": "neutral",
+      "salience": "secondary",
+      "confidence": 0.98,
+      "utterance_type": "question",
+      "decision_link": "none",
+      "timing": "original_pitch",
+      "turn_index": 71,
+      "quote": "Cost of the dispensers?",
+      "explanation": "She asks about the capital cost of the dispensing hardware.",
+      "evidence": [
+        "Cost of the dispensers?"
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 71,
+          "speaker": "Jillian",
+          "quote": "Cost of the dispensers?"
+        }
+      ],
+      "activation": "queried",
+      "source_rationale_id": "R4"
+    },
+    {
+      "rationale_label": "capital_intensity_concern",
+      "direction": "neutral",
+      "salience": "secondary",
+      "confidence": 0.92,
+      "utterance_type": "question",
+      "decision_link": "none",
+      "timing": "original_pitch",
+      "turn_index": 77,
+      "quote": "a week?",
+      "explanation": "She clarifies whether the stated stadium-servicing expense is a recurring weekly cost.",
+      "evidence": [
+        "a week?"
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 77,
+          "speaker": "Jillian",
+          "quote": "a week?"
+        }
+      ],
+      "activation": "queried",
+      "source_rationale_id": "R5"
+    },
+    {
+      "rationale_label": "business_model_assessment",
+      "direction": "positive",
+      "salience": "secondary",
+      "confidence": 0.99,
+      "utterance_type": "supporting_argument",
+      "decision_link": "none",
+      "timing": "original_pitch",
+      "turn_index": 107,
+      "quote": "it's much more cost-effective regardless for you to have those machines, rather than have to staff this manually",
+      "explanation": "She assesses automation as more economical than a labor-intensive service model.",
+      "evidence": [
+        "it's much more cost-effective regardless for you to have those machines, rather than have to staff this manually"
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 107,
+          "speaker": "Jillian",
+          "quote": "it's much more cost-effective regardless for you to have those machines, rather than have to staff this manually"
+        }
+      ],
+      "activation": "evaluated",
+      "source_rationale_id": "R6"
+    },
+    {
+      "rationale_label": "business_model_assessment",
+      "direction": "negative",
+      "salience": "secondary",
+      "confidence": 0.99,
+      "utterance_type": "concern",
+      "decision_link": "none",
+      "timing": "original_pitch",
+      "turn_index": 109,
+      "quote": "I think that's expensive, unreliable",
+      "explanation": "She considers the proposed manual-staffing model costly and unreliable.",
+      "evidence": [
+        "I think that's expensive, unreliable"
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 109,
+          "speaker": "Jillian",
+          "quote": "I think that's expensive, unreliable"
+        }
+      ],
+      "activation": "evaluated",
+      "source_rationale_id": "R7"
+    },
+    {
+      "rationale_label": "competitive_landscape_inertia",
+      "direction": "neutral",
+      "salience": "secondary",
+      "confidence": 0.99,
+      "utterance_type": "question",
+      "decision_link": "none",
+      "timing": "original_pitch",
+      "turn_index": 114,
+      "quote": "Don't those concessionaires, don't they have exclusivity contracts with Heinz and some of the others?",
+      "explanation": "She asks whether incumbent contracts block access to concessionaires.",
+      "evidence": [
+        "Don't those concessionaires, don't they have exclusivity contracts with Heinz and some of the others?"
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 114,
+          "speaker": "Jillian",
+          "quote": "Don't those concessionaires, don't they have exclusivity contracts with Heinz and some of the others?"
+        }
+      ],
+      "activation": "queried",
+      "source_rationale_id": "R8"
+    },
+    {
+      "rationale_label": "competitive_landscape_inertia",
+      "direction": "negative",
+      "salience": "secondary",
+      "confidence": 0.98,
+      "utterance_type": "assessment",
+      "decision_link": "none",
+      "timing": "original_pitch",
+      "turn_index": 117,
+      "quote": "they're only allowed to carry one ketchup, one type of mustard",
+      "explanation": "She describes category restrictions that could protect incumbent suppliers.",
+      "evidence": [
+        "they're only allowed to carry one ketchup, one type of mustard"
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 117,
+          "speaker": "Jillian",
+          "quote": "they're only allowed to carry one ketchup, one type of mustard"
+        }
+      ],
+      "activation": "evaluated",
+      "source_rationale_id": "R9"
+    },
+    {
+      "rationale_label": "competitive_landscape_inertia",
+      "direction": "positive",
+      "salience": "secondary",
+      "confidence": 0.87,
+      "utterance_type": "assessment",
+      "decision_link": "none",
+      "timing": "original_pitch",
+      "turn_index": 125,
+      "quote": "That's right. They're not selling it.",
+      "explanation": "She accepts that sauces being given away rather than sold may mitigate the incumbent-contract obstacle.",
+      "evidence": [
+        "That's right. They're not selling it."
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 125,
+          "speaker": "Jillian",
+          "quote": "That's right. They're not selling it."
+        }
+      ],
+      "activation": "evaluated",
+      "source_rationale_id": "R10"
+    },
+    {
+      "rationale_label": "market_problem_validation",
+      "direction": "positive",
+      "salience": "secondary",
+      "confidence": 0.85,
+      "utterance_type": "supporting_argument",
+      "decision_link": "none",
+      "timing": "original_pitch",
+      "turn_index": 129,
+      "quote": "No, no, those are important points.",
+      "explanation": "She endorses the founders' point that stadiums spend heavily on free sauce while receiving little value.",
+      "evidence": [
+        "No, no, those are important points."
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 129,
+          "speaker": "Jillian",
+          "quote": "No, no, those are important points."
+        }
+      ],
+      "activation": "evaluated",
+      "source_rationale_id": "R11"
+    },
+    {
+      "rationale_label": "product_differentiation_concern",
+      "direction": "neutral",
+      "salience": "secondary",
+      "confidence": 0.98,
+      "utterance_type": "question",
+      "decision_link": "none",
+      "timing": "original_pitch",
+      "turn_index": 143,
+      "quote": "Do you have a patent?",
+      "explanation": "She asks whether the powder process has protection against copying.",
+      "evidence": [
+        "Do you have a patent?"
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 143,
+          "speaker": "Jillian",
+          "quote": "Do you have a patent?"
+        }
+      ],
+      "activation": "queried",
+      "source_rationale_id": "R12"
+    },
+    {
+      "rationale_label": "investor_domain_knowledge_constraint",
+      "direction": "negative",
+      "salience": "primary",
+      "confidence": 1.0,
+      "utterance_type": "decision_explanation",
+      "decision_link": "supports_out",
+      "timing": "original_pitch",
+      "turn_index": 197,
+      "quote": "I'm out because I know nothing about this space.",
+      "explanation": "She explicitly attributes her refusal to lacking knowledge of the sector.",
+      "evidence": [
+        "I'm out because I know nothing about this space."
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 197,
+          "speaker": "Jillian",
+          "quote": "I'm out because I know nothing about this space."
+        }
+      ],
+      "activation": "evaluated",
+      "source_rationale_id": "R13"
+    },
+    {
+      "rationale_label": "product_appeal_assessment",
+      "direction": "positive",
+      "salience": "secondary",
+      "confidence": 0.99,
+      "utterance_type": "supporting_argument",
+      "decision_link": "none",
+      "timing": "original_pitch",
+      "turn_index": 197,
+      "quote": "all the sauces were just absolutely extraordinary",
+      "explanation": "She gives the sauces a strongly positive personal assessment.",
+      "evidence": [
+        "all the sauces were just absolutely extraordinary"
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 197,
+          "speaker": "Jillian",
+          "quote": "all the sauces were just absolutely extraordinary"
+        }
+      ],
+      "activation": "evaluated",
+      "source_rationale_id": "R14"
+    },
+    {
+      "rationale_label": "founder_qualities",
+      "direction": "positive",
+      "salience": "secondary",
+      "confidence": 0.97,
+      "utterance_type": "supporting_argument",
+      "decision_link": "none",
+      "timing": "original_pitch",
+      "turn_index": 200,
+      "quote": "I do think you two are awesome.",
+      "explanation": "She expresses a positive personal assessment of the founders.",
+      "evidence": [
+        "I do think you two are awesome."
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 200,
+          "speaker": "Jillian",
+          "quote": "I do think you two are awesome."
+        }
+      ],
+      "activation": "evaluated",
+      "source_rationale_id": "R15"
+    },
+    {
+      "rationale_label": "solution_feasibility_assessment",
+      "direction": "negative",
+      "salience": "primary",
+      "confidence": 0.99,
+      "utterance_type": "assessment",
+      "decision_link": "none",
+      "timing": "original_pitch",
+      "turn_index": 211,
+      "quote": "There are a lot of unknowns. The machine to me is definitely the biggest one.",
+      "explanation": "She identifies the unproven machine as the largest unresolved feasibility risk.",
+      "evidence": [
+        "There are a lot of unknowns. The machine to me is definitely the biggest one."
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 211,
+          "speaker": "Jillian",
+          "quote": "There are a lot of unknowns. The machine to me is definitely the biggest one."
+        }
+      ],
+      "activation": "evaluated",
+      "source_rationale_id": "R16"
+    },
+    {
+      "rationale_label": "founder_communication_quality",
+      "direction": "negative",
+      "salience": "secondary",
+      "confidence": 0.95,
+      "utterance_type": "concern",
+      "decision_link": "none",
+      "timing": "original_pitch",
+      "turn_index": 215,
+      "quote": "That's a little bit of a worry.",
+      "explanation": "In context, she agrees that the founders' weak command of their numbers is concerning.",
+      "evidence": [
+        "That's a little bit of a worry."
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 215,
+          "speaker": "Jillian",
+          "quote": "That's a little bit of a worry."
+        }
+      ],
+      "activation": "evaluated",
+      "source_rationale_id": "R17"
+    },
+    {
+      "rationale_label": "competitive_landscape_inertia",
+      "direction": "negative",
+      "salience": "secondary",
+      "confidence": 0.98,
+      "utterance_type": "concern",
+      "decision_link": "none",
+      "timing": "original_pitch",
+      "turn_index": 217,
+      "quote": "I'm not sure about that either",
+      "explanation": "She remains uncertain that concessionaires can bypass their incumbent sauce contracts.",
+      "evidence": [
+        "I'm not sure about that either"
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 217,
+          "speaker": "Jillian",
+          "quote": "I'm not sure about that either"
+        }
+      ],
+      "activation": "evaluated",
+      "source_rationale_id": "R18"
+    },
+    {
+      "rationale_label": "traction_repeatability_concern",
+      "direction": "negative",
+      "salience": "secondary",
+      "confidence": 0.99,
+      "utterance_type": "assessment",
+      "decision_link": "none",
+      "timing": "original_pitch",
+      "turn_index": 221,
+      "quote": "But they did it very small.",
+      "explanation": "She notes that the demonstrated stadium deployment was limited in scale.",
+      "evidence": [
+        "But they did it very small."
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 221,
+          "speaker": "Jillian",
+          "quote": "But they did it very small."
+        }
+      ],
+      "activation": "evaluated",
+      "source_rationale_id": "R19"
+    },
+    {
+      "rationale_label": "traction_repeatability_concern",
+      "direction": "negative",
+      "salience": "secondary",
+      "confidence": 0.99,
+      "utterance_type": "concern",
+      "decision_link": "none",
+      "timing": "original_pitch",
+      "turn_index": 223,
+      "quote": "it was not meaningful for - but what happens when the concessionaire says, we want to do this in six arenas",
+      "explanation": "She questions whether the small pilot meaningfully validates repeatable deployment across several arenas.",
+      "evidence": [
+        "it was not meaningful for - but what happens when the concessionaire says, we want to do this in six arenas"
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 223,
+          "speaker": "Jillian",
+          "quote": "it was not meaningful for - but what happens when the concessionaire says, we want to do this in six arenas"
+        }
+      ],
+      "activation": "evaluated",
+      "source_rationale_id": "R20"
+    },
+    {
+      "rationale_label": "competitive_landscape_inertia",
+      "direction": "negative",
+      "salience": "secondary",
+      "confidence": 0.98,
+      "utterance_type": "concern",
+      "decision_link": "none",
+      "timing": "original_pitch",
+      "turn_index": 227,
+      "quote": "But they're still paying Heinz for the product.",
+      "explanation": "She highlights the concessionaire's continuing commercial relationship with the incumbent.",
+      "evidence": [
+        "But they're still paying Heinz for the product."
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 227,
+          "speaker": "Jillian",
+          "quote": "But they're still paying Heinz for the product."
+        }
+      ],
+      "activation": "evaluated",
+      "source_rationale_id": "R21"
+    },
+    {
+      "rationale_label": "product_differentiation_concern",
+      "direction": "neutral",
+      "salience": "secondary",
+      "confidence": 0.99,
+      "utterance_type": "question",
+      "decision_link": "none",
+      "timing": "original_pitch",
+      "turn_index": 232,
+      "quote": "Why couldn't Heinz or any of the other ketchup companies say, you know what, we're gonna have a powdered form too?",
+      "explanation": "She questions whether established sauce companies could copy the powdered format.",
+      "evidence": [
+        "Why couldn't Heinz or any of the other ketchup companies say, you know what, we're gonna have a powdered form too?"
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 232,
+          "speaker": "Jillian",
+          "quote": "Why couldn't Heinz or any of the other ketchup companies say, you know what, we're gonna have a powdered form too?"
+        }
+      ],
+      "activation": "queried",
+      "source_rationale_id": "R22"
+    },
+    {
+      "rationale_label": "product_differentiation_concern",
+      "direction": "neutral",
+      "salience": "secondary",
+      "confidence": 0.94,
+      "utterance_type": "question",
+      "decision_link": "none",
+      "timing": "original_pitch",
+      "turn_index": 241,
+      "quote": "Would it be a diversion or would it be a a need to rebrand their company and say, let's try this out, it's not gonna cost much to us",
+      "explanation": "She explores whether an incumbent could cheaply imitate the sustainability-oriented offering.",
+      "evidence": [
+        "Would it be a diversion or would it be a a need to rebrand their company and say, let's try this out, it's not gonna cost much to us"
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 241,
+          "speaker": "Jillian",
+          "quote": "Would it be a diversion or would it be a a need to rebrand their company and say, let's try this out, it's not gonna cost much to us"
+        }
+      ],
+      "activation": "queried",
+      "source_rationale_id": "R23"
+    },
+    {
+      "rationale_label": "investment_upside_assessment",
+      "direction": "positive",
+      "salience": "secondary",
+      "confidence": 0.88,
+      "utterance_type": "supporting_argument",
+      "decision_link": "none",
+      "timing": "original_pitch",
+      "turn_index": 252,
+      "quote": "Or maybe Heinz buys them.",
+      "explanation": "She identifies acquisition by Heinz as a possible positive exit path.",
+      "evidence": [
+        "Or maybe Heinz buys them."
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 252,
+          "speaker": "Jillian",
+          "quote": "Or maybe Heinz buys them."
+        }
+      ],
+      "activation": "evaluated",
+      "source_rationale_id": "R24"
+    },
+    {
+      "rationale_label": "product_adoption",
+      "direction": "neutral",
+      "salience": "secondary",
+      "confidence": 0.98,
+      "utterance_type": "question",
+      "decision_link": "none",
+      "timing": "original_pitch",
+      "turn_index": 343,
+      "quote": "You have the Minnesota Twins, is that - or you you just have the stadium? The whole stadium?",
+      "explanation": "She asks how broadly the Minnesota Twins pilot was deployed.",
+      "evidence": [
+        "You have the Minnesota Twins, is that - or you you just have the stadium? The whole stadium?"
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 343,
+          "speaker": "Jillian",
+          "quote": "You have the Minnesota Twins, is that - or you you just have the stadium? The whole stadium?"
+        }
+      ],
+      "activation": "queried",
+      "source_rationale_id": "R27"
+    },
+    {
+      "rationale_label": "product_adoption",
+      "direction": "neutral",
+      "salience": "secondary",
+      "confidence": 0.98,
+      "utterance_type": "question",
+      "decision_link": "none",
+      "timing": "original_pitch",
+      "turn_index": 345,
+      "quote": "And how'd that go?",
+      "explanation": "She asks how the stadium pilot performed.",
+      "evidence": [
+        "And how'd that go?"
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 345,
+          "speaker": "Jillian",
+          "quote": "And how'd that go?"
+        }
+      ],
+      "activation": "queried",
+      "source_rationale_id": "R28"
+    },
+    {
+      "rationale_label": "capital_intensity_concern",
+      "direction": "neutral",
+      "salience": "secondary",
+      "confidence": 0.94,
+      "utterance_type": "question",
+      "decision_link": "none",
+      "timing": "original_pitch",
+      "turn_index": 355,
+      "quote": "How many dispensers?",
+      "explanation": "She probes the amount of hardware required for a stadium deployment.",
+      "evidence": [
+        "How many dispensers?"
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 355,
+          "speaker": "Jillian",
+          "quote": "How many dispensers?"
+        }
+      ],
+      "activation": "queried",
+      "source_rationale_id": "R29"
+    },
+    {
+      "rationale_label": "capital_intensity_concern",
+      "direction": "neutral",
+      "salience": "secondary",
+      "confidence": 0.98,
+      "utterance_type": "question",
+      "decision_link": "none",
+      "timing": "original_pitch",
+      "turn_index": 357,
+      "quote": "Cost of the dispensers?",
+      "explanation": "She asks about the capital cost of the dispensing hardware.",
+      "evidence": [
+        "Cost of the dispensers?"
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 357,
+          "speaker": "Jillian",
+          "quote": "Cost of the dispensers?"
+        }
+      ],
+      "activation": "queried",
+      "source_rationale_id": "R30"
+    },
+    {
+      "rationale_label": "capital_intensity_concern",
+      "direction": "neutral",
+      "salience": "secondary",
+      "confidence": 0.92,
+      "utterance_type": "question",
+      "decision_link": "none",
+      "timing": "original_pitch",
+      "turn_index": 363,
+      "quote": "a week?",
+      "explanation": "She clarifies whether the stated stadium-servicing expense is a recurring weekly cost.",
+      "evidence": [
+        "a week?"
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 363,
+          "speaker": "Jillian",
+          "quote": "a week?"
+        }
+      ],
+      "activation": "queried",
+      "source_rationale_id": "R31"
+    },
+    {
+      "rationale_label": "business_model_assessment",
+      "direction": "positive",
+      "salience": "secondary",
+      "confidence": 0.99,
+      "utterance_type": "supporting_argument",
+      "decision_link": "none",
+      "timing": "original_pitch",
+      "turn_index": 393,
+      "quote": "it's much more cost-effective regardless for you to have those machines, rather than have to staff this manually",
+      "explanation": "She assesses automation as more economical than a labor-intensive service model.",
+      "evidence": [
+        "it's much more cost-effective regardless for you to have those machines, rather than have to staff this manually"
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 393,
+          "speaker": "Jillian",
+          "quote": "it's much more cost-effective regardless for you to have those machines, rather than have to staff this manually"
+        }
+      ],
+      "activation": "evaluated",
+      "source_rationale_id": "R32"
+    },
+    {
+      "rationale_label": "business_model_assessment",
+      "direction": "negative",
+      "salience": "secondary",
+      "confidence": 0.99,
+      "utterance_type": "concern",
+      "decision_link": "none",
+      "timing": "original_pitch",
+      "turn_index": 395,
+      "quote": "I think that's expensive, unreliable",
+      "explanation": "She considers the proposed manual-staffing model costly and unreliable.",
+      "evidence": [
+        "I think that's expensive, unreliable"
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 395,
+          "speaker": "Jillian",
+          "quote": "I think that's expensive, unreliable"
+        }
+      ],
+      "activation": "evaluated",
+      "source_rationale_id": "R33"
+    },
+    {
+      "rationale_label": "competitive_landscape_inertia",
+      "direction": "neutral",
+      "salience": "secondary",
+      "confidence": 0.99,
+      "utterance_type": "question",
+      "decision_link": "none",
+      "timing": "original_pitch",
+      "turn_index": 400,
+      "quote": "Don't those concessionaires, don't they have exclusivity contracts with Heinz and some of the others?",
+      "explanation": "She asks whether incumbent contracts block access to concessionaires.",
+      "evidence": [
+        "Don't those concessionaires, don't they have exclusivity contracts with Heinz and some of the others?"
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 400,
+          "speaker": "Jillian",
+          "quote": "Don't those concessionaires, don't they have exclusivity contracts with Heinz and some of the others?"
+        }
+      ],
+      "activation": "queried",
+      "source_rationale_id": "R34"
+    },
+    {
+      "rationale_label": "competitive_landscape_inertia",
+      "direction": "negative",
+      "salience": "secondary",
+      "confidence": 0.98,
+      "utterance_type": "assessment",
+      "decision_link": "none",
+      "timing": "original_pitch",
+      "turn_index": 403,
+      "quote": "they're only allowed to carry one ketchup, one type of mustard",
+      "explanation": "She describes category restrictions that could protect incumbent suppliers.",
+      "evidence": [
+        "they're only allowed to carry one ketchup, one type of mustard"
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 403,
+          "speaker": "Jillian",
+          "quote": "they're only allowed to carry one ketchup, one type of mustard"
+        }
+      ],
+      "activation": "evaluated",
+      "source_rationale_id": "R35"
+    },
+    {
+      "rationale_label": "competitive_landscape_inertia",
+      "direction": "positive",
+      "salience": "secondary",
+      "confidence": 0.87,
+      "utterance_type": "assessment",
+      "decision_link": "none",
+      "timing": "original_pitch",
+      "turn_index": 411,
+      "quote": "That's right. They're not selling it.",
+      "explanation": "She accepts that sauces being given away rather than sold may mitigate the incumbent-contract obstacle.",
+      "evidence": [
+        "That's right. They're not selling it."
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 411,
+          "speaker": "Jillian",
+          "quote": "That's right. They're not selling it."
+        }
+      ],
+      "activation": "evaluated",
+      "source_rationale_id": "R36"
+    },
+    {
+      "rationale_label": "market_problem_validation",
+      "direction": "positive",
+      "salience": "secondary",
+      "confidence": 0.85,
+      "utterance_type": "supporting_argument",
+      "decision_link": "none",
+      "timing": "original_pitch",
+      "turn_index": 415,
+      "quote": "No, no, those are important points.",
+      "explanation": "She endorses the founders' point that stadiums spend heavily on free sauce while receiving little value.",
+      "evidence": [
+        "No, no, those are important points."
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 415,
+          "speaker": "Jillian",
+          "quote": "No, no, those are important points."
+        }
+      ],
+      "activation": "evaluated",
+      "source_rationale_id": "R37"
+    },
+    {
+      "rationale_label": "product_differentiation_concern",
+      "direction": "neutral",
+      "salience": "secondary",
+      "confidence": 0.98,
+      "utterance_type": "question",
+      "decision_link": "none",
+      "timing": "original_pitch",
+      "turn_index": 429,
+      "quote": "Do you have a patent?",
+      "explanation": "She asks whether the powder process has protection against copying.",
+      "evidence": [
+        "Do you have a patent?"
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 429,
+          "speaker": "Jillian",
+          "quote": "Do you have a patent?"
+        }
+      ],
+      "activation": "queried",
+      "source_rationale_id": "R38"
+    },
+    {
+      "rationale_label": "investor_domain_knowledge_constraint",
+      "direction": "negative",
+      "salience": "primary",
+      "confidence": 1.0,
+      "utterance_type": "decision_explanation",
+      "decision_link": "supports_out",
+      "timing": "original_pitch",
+      "turn_index": 483,
+      "quote": "I'm out because I know nothing about this space.",
+      "explanation": "She explicitly attributes her refusal to lacking knowledge of the sector.",
+      "evidence": [
+        "I'm out because I know nothing about this space."
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 483,
+          "speaker": "Jillian",
+          "quote": "I'm out because I know nothing about this space."
+        }
+      ],
+      "activation": "evaluated",
+      "source_rationale_id": "R39"
+    },
+    {
+      "rationale_label": "product_appeal_assessment",
+      "direction": "positive",
+      "salience": "secondary",
+      "confidence": 0.99,
+      "utterance_type": "supporting_argument",
+      "decision_link": "none",
+      "timing": "original_pitch",
+      "turn_index": 483,
+      "quote": "all the sauces were just absolutely extraordinary",
+      "explanation": "She gives the sauces a strongly positive personal assessment.",
+      "evidence": [
+        "all the sauces were just absolutely extraordinary"
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 483,
+          "speaker": "Jillian",
+          "quote": "all the sauces were just absolutely extraordinary"
+        }
+      ],
+      "activation": "evaluated",
+      "source_rationale_id": "R40"
+    },
+    {
+      "rationale_label": "founder_qualities",
+      "direction": "positive",
+      "salience": "secondary",
+      "confidence": 0.97,
+      "utterance_type": "supporting_argument",
+      "decision_link": "none",
+      "timing": "original_pitch",
+      "turn_index": 486,
+      "quote": "I do think you two are awesome.",
+      "explanation": "She expresses a positive personal assessment of the founders.",
+      "evidence": [
+        "I do think you two are awesome."
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 486,
+          "speaker": "Jillian",
+          "quote": "I do think you two are awesome."
+        }
+      ],
+      "activation": "evaluated",
+      "source_rationale_id": "R41"
+    },
+    {
+      "rationale_label": "solution_feasibility_assessment",
+      "direction": "negative",
+      "salience": "primary",
+      "confidence": 0.99,
+      "utterance_type": "assessment",
+      "decision_link": "none",
+      "timing": "original_pitch",
+      "turn_index": 497,
+      "quote": "There are a lot of unknowns. The machine to me is definitely the biggest one.",
+      "explanation": "She identifies the unproven machine as the largest unresolved feasibility risk.",
+      "evidence": [
+        "There are a lot of unknowns. The machine to me is definitely the biggest one."
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 497,
+          "speaker": "Jillian",
+          "quote": "There are a lot of unknowns. The machine to me is definitely the biggest one."
+        }
+      ],
+      "activation": "evaluated",
+      "source_rationale_id": "R42"
+    },
+    {
+      "rationale_label": "founder_communication_quality",
+      "direction": "negative",
+      "salience": "secondary",
+      "confidence": 0.95,
+      "utterance_type": "concern",
+      "decision_link": "none",
+      "timing": "original_pitch",
+      "turn_index": 501,
+      "quote": "That's a little bit of a worry.",
+      "explanation": "In context, she agrees that the founders' weak command of their numbers is concerning.",
+      "evidence": [
+        "That's a little bit of a worry."
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 501,
+          "speaker": "Jillian",
+          "quote": "That's a little bit of a worry."
+        }
+      ],
+      "activation": "evaluated",
+      "source_rationale_id": "R43"
+    },
+    {
+      "rationale_label": "competitive_landscape_inertia",
+      "direction": "negative",
+      "salience": "secondary",
+      "confidence": 0.98,
+      "utterance_type": "concern",
+      "decision_link": "none",
+      "timing": "original_pitch",
+      "turn_index": 503,
+      "quote": "I'm not sure about that either",
+      "explanation": "She remains uncertain that concessionaires can bypass their incumbent sauce contracts.",
+      "evidence": [
+        "I'm not sure about that either"
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 503,
+          "speaker": "Jillian",
+          "quote": "I'm not sure about that either"
+        }
+      ],
+      "activation": "evaluated",
+      "source_rationale_id": "R44"
+    },
+    {
+      "rationale_label": "traction_repeatability_concern",
+      "direction": "negative",
+      "salience": "secondary",
+      "confidence": 0.99,
+      "utterance_type": "assessment",
+      "decision_link": "none",
+      "timing": "original_pitch",
+      "turn_index": 507,
+      "quote": "But they did it very small.",
+      "explanation": "She notes that the demonstrated stadium deployment was limited in scale.",
+      "evidence": [
+        "But they did it very small."
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 507,
+          "speaker": "Jillian",
+          "quote": "But they did it very small."
+        }
+      ],
+      "activation": "evaluated",
+      "source_rationale_id": "R45"
+    },
+    {
+      "rationale_label": "traction_repeatability_concern",
+      "direction": "negative",
+      "salience": "secondary",
+      "confidence": 0.99,
+      "utterance_type": "concern",
+      "decision_link": "none",
+      "timing": "original_pitch",
+      "turn_index": 509,
+      "quote": "it was not meaningful for - but what happens when the concessionaire says, we want to do this in six arenas",
+      "explanation": "She questions whether the small pilot meaningfully validates repeatable deployment across several arenas.",
+      "evidence": [
+        "it was not meaningful for - but what happens when the concessionaire says, we want to do this in six arenas"
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 509,
+          "speaker": "Jillian",
+          "quote": "it was not meaningful for - but what happens when the concessionaire says, we want to do this in six arenas"
+        }
+      ],
+      "activation": "evaluated",
+      "source_rationale_id": "R46"
+    },
+    {
+      "rationale_label": "competitive_landscape_inertia",
+      "direction": "negative",
+      "salience": "secondary",
+      "confidence": 0.98,
+      "utterance_type": "concern",
+      "decision_link": "none",
+      "timing": "original_pitch",
+      "turn_index": 513,
+      "quote": "But they're still paying Heinz for the product.",
+      "explanation": "She highlights the concessionaire's continuing commercial relationship with the incumbent.",
+      "evidence": [
+        "But they're still paying Heinz for the product."
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 513,
+          "speaker": "Jillian",
+          "quote": "But they're still paying Heinz for the product."
+        }
+      ],
+      "activation": "evaluated",
+      "source_rationale_id": "R47"
+    },
+    {
+      "rationale_label": "product_differentiation_concern",
+      "direction": "neutral",
+      "salience": "secondary",
+      "confidence": 0.99,
+      "utterance_type": "question",
+      "decision_link": "none",
+      "timing": "original_pitch",
+      "turn_index": 518,
+      "quote": "Why couldn't Heinz or any of the other ketchup companies say, you know what, we're gonna have a powdered form too?",
+      "explanation": "She questions whether established sauce companies could copy the powdered format.",
+      "evidence": [
+        "Why couldn't Heinz or any of the other ketchup companies say, you know what, we're gonna have a powdered form too?"
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 518,
+          "speaker": "Jillian",
+          "quote": "Why couldn't Heinz or any of the other ketchup companies say, you know what, we're gonna have a powdered form too?"
+        }
+      ],
+      "activation": "queried",
+      "source_rationale_id": "R48"
+    },
+    {
+      "rationale_label": "product_differentiation_concern",
+      "direction": "neutral",
+      "salience": "secondary",
+      "confidence": 0.94,
+      "utterance_type": "question",
+      "decision_link": "none",
+      "timing": "original_pitch",
+      "turn_index": 527,
+      "quote": "Would it be a diversion or would it be a a need to rebrand their company and say, let's try this out, it's not gonna cost much to us",
+      "explanation": "She explores whether an incumbent could cheaply imitate the sustainability-oriented offering.",
+      "evidence": [
+        "Would it be a diversion or would it be a a need to rebrand their company and say, let's try this out, it's not gonna cost much to us"
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 527,
+          "speaker": "Jillian",
+          "quote": "Would it be a diversion or would it be a a need to rebrand their company and say, let's try this out, it's not gonna cost much to us"
+        }
+      ],
+      "activation": "queried",
+      "source_rationale_id": "R49"
+    },
+    {
+      "rationale_label": "investment_upside_assessment",
+      "direction": "positive",
+      "salience": "secondary",
+      "confidence": 0.88,
+      "utterance_type": "supporting_argument",
+      "decision_link": "none",
+      "timing": "original_pitch",
+      "turn_index": 538,
+      "quote": "Or maybe Heinz buys them.",
+      "explanation": "She identifies acquisition by Heinz as a possible positive exit path.",
+      "evidence": [
+        "Or maybe Heinz buys them."
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 538,
+          "speaker": "Jillian",
+          "quote": "Or maybe Heinz buys them."
+        }
+      ],
+      "activation": "evaluated",
+      "source_rationale_id": "R50"
+    },
+    {
+      "rationale_label": "product_adoption",
+      "direction": "neutral",
+      "salience": "secondary",
+      "confidence": 0.98,
+      "utterance_type": "question",
+      "decision_link": "none",
+      "timing": "original_pitch",
+      "turn_index": 629,
+      "quote": "You have the Minnesota Twins, is that - or you you just have the stadium? The whole stadium?",
+      "explanation": "She asks how broadly the Minnesota Twins pilot was deployed.",
+      "evidence": [
+        "You have the Minnesota Twins, is that - or you you just have the stadium? The whole stadium?"
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 629,
+          "speaker": "Jillian",
+          "quote": "You have the Minnesota Twins, is that - or you you just have the stadium? The whole stadium?"
+        }
+      ],
+      "activation": "queried",
+      "source_rationale_id": "R53"
+    },
+    {
+      "rationale_label": "product_adoption",
+      "direction": "neutral",
+      "salience": "secondary",
+      "confidence": 0.98,
+      "utterance_type": "question",
+      "decision_link": "none",
+      "timing": "original_pitch",
+      "turn_index": 631,
+      "quote": "And how'd that go?",
+      "explanation": "She asks how the stadium pilot performed.",
+      "evidence": [
+        "And how'd that go?"
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 631,
+          "speaker": "Jillian",
+          "quote": "And how'd that go?"
+        }
+      ],
+      "activation": "queried",
+      "source_rationale_id": "R54"
+    },
+    {
+      "rationale_label": "capital_intensity_concern",
+      "direction": "neutral",
+      "salience": "secondary",
+      "confidence": 0.94,
+      "utterance_type": "question",
+      "decision_link": "none",
+      "timing": "original_pitch",
+      "turn_index": 641,
+      "quote": "How many dispensers?",
+      "explanation": "She probes the amount of hardware required for a stadium deployment.",
+      "evidence": [
+        "How many dispensers?"
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 641,
+          "speaker": "Jillian",
+          "quote": "How many dispensers?"
+        }
+      ],
+      "activation": "queried",
+      "source_rationale_id": "R55"
+    },
+    {
+      "rationale_label": "capital_intensity_concern",
+      "direction": "neutral",
+      "salience": "secondary",
+      "confidence": 0.98,
+      "utterance_type": "question",
+      "decision_link": "none",
+      "timing": "original_pitch",
+      "turn_index": 643,
+      "quote": "Cost of the dispensers?",
+      "explanation": "She asks about the capital cost of the dispensing hardware.",
+      "evidence": [
+        "Cost of the dispensers?"
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 643,
+          "speaker": "Jillian",
+          "quote": "Cost of the dispensers?"
+        }
+      ],
+      "activation": "queried",
+      "source_rationale_id": "R56"
+    },
+    {
+      "rationale_label": "capital_intensity_concern",
+      "direction": "neutral",
+      "salience": "secondary",
+      "confidence": 0.92,
+      "utterance_type": "question",
+      "decision_link": "none",
+      "timing": "original_pitch",
+      "turn_index": 649,
+      "quote": "a week?",
+      "explanation": "She clarifies whether the stated stadium-servicing expense is a recurring weekly cost.",
+      "evidence": [
+        "a week?"
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 649,
+          "speaker": "Jillian",
+          "quote": "a week?"
+        }
+      ],
+      "activation": "queried",
+      "source_rationale_id": "R57"
+    },
+    {
+      "rationale_label": "business_model_assessment",
+      "direction": "positive",
+      "salience": "secondary",
+      "confidence": 0.99,
+      "utterance_type": "supporting_argument",
+      "decision_link": "none",
+      "timing": "original_pitch",
+      "turn_index": 679,
+      "quote": "it's much more cost-effective regardless for you to have those machines, rather than have to staff this manually",
+      "explanation": "She assesses automation as more economical than a labor-intensive service model.",
+      "evidence": [
+        "it's much more cost-effective regardless for you to have those machines, rather than have to staff this manually"
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 679,
+          "speaker": "Jillian",
+          "quote": "it's much more cost-effective regardless for you to have those machines, rather than have to staff this manually"
+        }
+      ],
+      "activation": "evaluated",
+      "source_rationale_id": "R58"
+    },
+    {
+      "rationale_label": "business_model_assessment",
+      "direction": "negative",
+      "salience": "secondary",
+      "confidence": 0.99,
+      "utterance_type": "concern",
+      "decision_link": "none",
+      "timing": "original_pitch",
+      "turn_index": 681,
+      "quote": "I think that's expensive, unreliable",
+      "explanation": "She considers the proposed manual-staffing model costly and unreliable.",
+      "evidence": [
+        "I think that's expensive, unreliable"
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 681,
+          "speaker": "Jillian",
+          "quote": "I think that's expensive, unreliable"
+        }
+      ],
+      "activation": "evaluated",
+      "source_rationale_id": "R59"
+    },
+    {
+      "rationale_label": "competitive_landscape_inertia",
+      "direction": "neutral",
+      "salience": "secondary",
+      "confidence": 0.99,
+      "utterance_type": "question",
+      "decision_link": "none",
+      "timing": "original_pitch",
+      "turn_index": 686,
+      "quote": "Don't those concessionaires, don't they have exclusivity contracts with Heinz and some of the others?",
+      "explanation": "She asks whether incumbent contracts block access to concessionaires.",
+      "evidence": [
+        "Don't those concessionaires, don't they have exclusivity contracts with Heinz and some of the others?"
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 686,
+          "speaker": "Jillian",
+          "quote": "Don't those concessionaires, don't they have exclusivity contracts with Heinz and some of the others?"
+        }
+      ],
+      "activation": "queried",
+      "source_rationale_id": "R60"
+    },
+    {
+      "rationale_label": "competitive_landscape_inertia",
+      "direction": "negative",
+      "salience": "secondary",
+      "confidence": 0.98,
+      "utterance_type": "assessment",
+      "decision_link": "none",
+      "timing": "original_pitch",
+      "turn_index": 689,
+      "quote": "they're only allowed to carry one ketchup, one type of mustard",
+      "explanation": "She describes category restrictions that could protect incumbent suppliers.",
+      "evidence": [
+        "they're only allowed to carry one ketchup, one type of mustard"
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 689,
+          "speaker": "Jillian",
+          "quote": "they're only allowed to carry one ketchup, one type of mustard"
+        }
+      ],
+      "activation": "evaluated",
+      "source_rationale_id": "R61"
+    },
+    {
+      "rationale_label": "competitive_landscape_inertia",
+      "direction": "positive",
+      "salience": "secondary",
+      "confidence": 0.87,
+      "utterance_type": "assessment",
+      "decision_link": "none",
+      "timing": "original_pitch",
+      "turn_index": 697,
+      "quote": "That's right. They're not selling it.",
+      "explanation": "She accepts that sauces being given away rather than sold may mitigate the incumbent-contract obstacle.",
+      "evidence": [
+        "That's right. They're not selling it."
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 697,
+          "speaker": "Jillian",
+          "quote": "That's right. They're not selling it."
+        }
+      ],
+      "activation": "evaluated",
+      "source_rationale_id": "R62"
+    },
+    {
+      "rationale_label": "market_problem_validation",
+      "direction": "positive",
+      "salience": "secondary",
+      "confidence": 0.85,
+      "utterance_type": "supporting_argument",
+      "decision_link": "none",
+      "timing": "original_pitch",
+      "turn_index": 701,
+      "quote": "No, no, those are important points.",
+      "explanation": "She endorses the founders' point that stadiums spend heavily on free sauce while receiving little value.",
+      "evidence": [
+        "No, no, those are important points."
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 701,
+          "speaker": "Jillian",
+          "quote": "No, no, those are important points."
+        }
+      ],
+      "activation": "evaluated",
+      "source_rationale_id": "R63"
+    },
+    {
+      "rationale_label": "product_differentiation_concern",
+      "direction": "neutral",
+      "salience": "secondary",
+      "confidence": 0.98,
+      "utterance_type": "question",
+      "decision_link": "none",
+      "timing": "original_pitch",
+      "turn_index": 715,
+      "quote": "Do you have a patent?",
+      "explanation": "She asks whether the powder process has protection against copying.",
+      "evidence": [
+        "Do you have a patent?"
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 715,
+          "speaker": "Jillian",
+          "quote": "Do you have a patent?"
+        }
+      ],
+      "activation": "queried",
+      "source_rationale_id": "R64"
+    },
+    {
+      "rationale_label": "investor_domain_knowledge_constraint",
+      "direction": "negative",
+      "salience": "primary",
+      "confidence": 1.0,
+      "utterance_type": "decision_explanation",
+      "decision_link": "supports_out",
+      "timing": "original_pitch",
+      "turn_index": 769,
+      "quote": "I'm out because I know nothing about this space.",
+      "explanation": "She explicitly attributes her refusal to lacking knowledge of the sector.",
+      "evidence": [
+        "I'm out because I know nothing about this space."
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 769,
+          "speaker": "Jillian",
+          "quote": "I'm out because I know nothing about this space."
+        }
+      ],
+      "activation": "evaluated",
+      "source_rationale_id": "R65"
+    },
+    {
+      "rationale_label": "product_appeal_assessment",
+      "direction": "positive",
+      "salience": "secondary",
+      "confidence": 0.99,
+      "utterance_type": "supporting_argument",
+      "decision_link": "none",
+      "timing": "original_pitch",
+      "turn_index": 769,
+      "quote": "all the sauces were just absolutely extraordinary",
+      "explanation": "She gives the sauces a strongly positive personal assessment.",
+      "evidence": [
+        "all the sauces were just absolutely extraordinary"
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 769,
+          "speaker": "Jillian",
+          "quote": "all the sauces were just absolutely extraordinary"
+        }
+      ],
+      "activation": "evaluated",
+      "source_rationale_id": "R66"
+    },
+    {
+      "rationale_label": "founder_qualities",
+      "direction": "positive",
+      "salience": "secondary",
+      "confidence": 0.97,
+      "utterance_type": "supporting_argument",
+      "decision_link": "none",
+      "timing": "original_pitch",
+      "turn_index": 772,
+      "quote": "I do think you two are awesome.",
+      "explanation": "She expresses a positive personal assessment of the founders.",
+      "evidence": [
+        "I do think you two are awesome."
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 772,
+          "speaker": "Jillian",
+          "quote": "I do think you two are awesome."
+        }
+      ],
+      "activation": "evaluated",
+      "source_rationale_id": "R67"
+    },
+    {
+      "rationale_label": "solution_feasibility_assessment",
+      "direction": "negative",
+      "salience": "primary",
+      "confidence": 0.99,
+      "utterance_type": "assessment",
+      "decision_link": "none",
+      "timing": "original_pitch",
+      "turn_index": 783,
+      "quote": "There are a lot of unknowns. The machine to me is definitely the biggest one.",
+      "explanation": "She identifies the unproven machine as the largest unresolved feasibility risk.",
+      "evidence": [
+        "There are a lot of unknowns. The machine to me is definitely the biggest one."
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 783,
+          "speaker": "Jillian",
+          "quote": "There are a lot of unknowns. The machine to me is definitely the biggest one."
+        }
+      ],
+      "activation": "evaluated",
+      "source_rationale_id": "R68"
+    },
+    {
+      "rationale_label": "founder_communication_quality",
+      "direction": "negative",
+      "salience": "secondary",
+      "confidence": 0.95,
+      "utterance_type": "concern",
+      "decision_link": "none",
+      "timing": "original_pitch",
+      "turn_index": 787,
+      "quote": "That's a little bit of a worry.",
+      "explanation": "In context, she agrees that the founders' weak command of their numbers is concerning.",
+      "evidence": [
+        "That's a little bit of a worry."
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 787,
+          "speaker": "Jillian",
+          "quote": "That's a little bit of a worry."
+        }
+      ],
+      "activation": "evaluated",
+      "source_rationale_id": "R69"
+    },
+    {
+      "rationale_label": "competitive_landscape_inertia",
+      "direction": "negative",
+      "salience": "secondary",
+      "confidence": 0.98,
+      "utterance_type": "concern",
+      "decision_link": "none",
+      "timing": "original_pitch",
+      "turn_index": 789,
+      "quote": "I'm not sure about that either",
+      "explanation": "She remains uncertain that concessionaires can bypass their incumbent sauce contracts.",
+      "evidence": [
+        "I'm not sure about that either"
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 789,
+          "speaker": "Jillian",
+          "quote": "I'm not sure about that either"
+        }
+      ],
+      "activation": "evaluated",
+      "source_rationale_id": "R70"
+    },
+    {
+      "rationale_label": "traction_repeatability_concern",
+      "direction": "negative",
+      "salience": "secondary",
+      "confidence": 0.99,
+      "utterance_type": "assessment",
+      "decision_link": "none",
+      "timing": "original_pitch",
+      "turn_index": 793,
+      "quote": "But they did it very small.",
+      "explanation": "She notes that the demonstrated stadium deployment was limited in scale.",
+      "evidence": [
+        "But they did it very small."
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 793,
+          "speaker": "Jillian",
+          "quote": "But they did it very small."
+        }
+      ],
+      "activation": "evaluated",
+      "source_rationale_id": "R71"
+    },
+    {
+      "rationale_label": "traction_repeatability_concern",
+      "direction": "negative",
+      "salience": "secondary",
+      "confidence": 0.99,
+      "utterance_type": "concern",
+      "decision_link": "none",
+      "timing": "original_pitch",
+      "turn_index": 795,
+      "quote": "it was not meaningful for - but what happens when the concessionaire says, we want to do this in six arenas",
+      "explanation": "She questions whether the small pilot meaningfully validates repeatable deployment across several arenas.",
+      "evidence": [
+        "it was not meaningful for - but what happens when the concessionaire says, we want to do this in six arenas"
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 795,
+          "speaker": "Jillian",
+          "quote": "it was not meaningful for - but what happens when the concessionaire says, we want to do this in six arenas"
+        }
+      ],
+      "activation": "evaluated",
+      "source_rationale_id": "R72"
+    },
+    {
+      "rationale_label": "competitive_landscape_inertia",
+      "direction": "negative",
+      "salience": "secondary",
+      "confidence": 0.98,
+      "utterance_type": "concern",
+      "decision_link": "none",
+      "timing": "original_pitch",
+      "turn_index": 799,
+      "quote": "But they're still paying Heinz for the product.",
+      "explanation": "She highlights the concessionaire's continuing commercial relationship with the incumbent.",
+      "evidence": [
+        "But they're still paying Heinz for the product."
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 799,
+          "speaker": "Jillian",
+          "quote": "But they're still paying Heinz for the product."
+        }
+      ],
+      "activation": "evaluated",
+      "source_rationale_id": "R73"
+    },
+    {
+      "rationale_label": "product_differentiation_concern",
+      "direction": "neutral",
+      "salience": "secondary",
+      "confidence": 0.99,
+      "utterance_type": "question",
+      "decision_link": "none",
+      "timing": "original_pitch",
+      "turn_index": 804,
+      "quote": "Why couldn't Heinz or any of the other ketchup companies say, you know what, we're gonna have a powdered form too?",
+      "explanation": "She questions whether established sauce companies could copy the powdered format.",
+      "evidence": [
+        "Why couldn't Heinz or any of the other ketchup companies say, you know what, we're gonna have a powdered form too?"
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 804,
+          "speaker": "Jillian",
+          "quote": "Why couldn't Heinz or any of the other ketchup companies say, you know what, we're gonna have a powdered form too?"
+        }
+      ],
+      "activation": "queried",
+      "source_rationale_id": "R74"
+    },
+    {
+      "rationale_label": "product_differentiation_concern",
+      "direction": "neutral",
+      "salience": "secondary",
+      "confidence": 0.94,
+      "utterance_type": "question",
+      "decision_link": "none",
+      "timing": "original_pitch",
+      "turn_index": 813,
+      "quote": "Would it be a diversion or would it be a a need to rebrand their company and say, let's try this out, it's not gonna cost much to us",
+      "explanation": "She explores whether an incumbent could cheaply imitate the sustainability-oriented offering.",
+      "evidence": [
+        "Would it be a diversion or would it be a a need to rebrand their company and say, let's try this out, it's not gonna cost much to us"
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 813,
+          "speaker": "Jillian",
+          "quote": "Would it be a diversion or would it be a a need to rebrand their company and say, let's try this out, it's not gonna cost much to us"
+        }
+      ],
+      "activation": "queried",
+      "source_rationale_id": "R75"
+    },
+    {
+      "rationale_label": "investment_upside_assessment",
+      "direction": "positive",
+      "salience": "secondary",
+      "confidence": 0.88,
+      "utterance_type": "supporting_argument",
+      "decision_link": "none",
+      "timing": "original_pitch",
+      "turn_index": 824,
+      "quote": "Or maybe Heinz buys them.",
+      "explanation": "She identifies acquisition by Heinz as a possible positive exit path.",
+      "evidence": [
+        "Or maybe Heinz buys them."
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 824,
+          "speaker": "Jillian",
+          "quote": "Or maybe Heinz buys them."
+        }
+      ],
+      "activation": "evaluated",
+      "source_rationale_id": "R76"
+    }
+  ],
+  "expanded_quote_evidence": [],
+  "rejected_after_evidence_check": []
+}

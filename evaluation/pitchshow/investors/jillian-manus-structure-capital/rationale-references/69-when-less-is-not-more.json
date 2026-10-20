@@ -1,0 +1,597 @@
+{
+  "schema": "phase1-rationale-reference-v1",
+  "extraction_version": "pitchshow-rationales-v1",
+  "fingerprint": "60de3e3fe41b3ef23f82a879a547404082ec5946f34c9fb28240b2abcea82658",
+  "episode_slug": "69-when-less-is-not-more",
+  "vc_slug": "jillian-manus-structure-capital",
+  "vc_name": "Jillian Manus",
+  "actual_decision": "Out",
+  "later_decision": "Unknown",
+  "reference_kind": "automated_transcript_observed_candidate",
+  "human_validated": false,
+  "source_format": "transcript-observed-rationales-v1",
+  "source_path": "../source/episodes/69-when-less-is-not-more.json",
+  "source_sha256": "3cfedbfb7b1474678f1af2edfca0afa3e8023bef9cdcca9c32b9af54434fc831",
+  "transcript_sha256": "a808f358ef5558e55101f8e663134073608bab73c4290bfdcfa4c7cfe82436fe",
+  "taxonomy_sha256": "eaa8734819a3ac34dd19ee5f0bf6de925a793a1d25a2d361090dafc9b751e1fc",
+  "model": "codex:gpt-5.6-luna+gpt-5.6-sol",
+  "generation_stages": [
+    {
+      "phase": "rationale_extract",
+      "backend": "codex",
+      "model": "gpt-5.6-luna"
+    },
+    {
+      "phase": "rationale_verify",
+      "backend": "codex",
+      "model": "gpt-5.6-sol"
+    }
+  ],
+  "source_tier": "newly_extracted_and_independently_model_reviewed",
+  "reviewed_target_turns": [
+    1,
+    11,
+    35,
+    37,
+    45,
+    79,
+    111,
+    113,
+    115,
+    117,
+    118,
+    124,
+    143
+  ],
+  "notes": "Turns 1, 11, 111, and 117 contain only banter, simple agreement, or conversational acknowledgment and therefore do not independently express rationales.",
+  "receipt_path": "receipts/69-when-less-is-not-more.json",
+  "scoring_scope": "original_pitch_only",
+  "shared_across_input_modes": true,
+  "rationales": [
+    {
+      "rationale_label": "capital_intensity_concern",
+      "direction": "negative",
+      "salience": "primary",
+      "confidence": 0.99,
+      "utterance_type": "decision_reason",
+      "decision_link": "explicit",
+      "timing": "original_pitch",
+      "turn_index": 113,
+      "quote": "I do feel that you need to raise more",
+      "explanation": "During her closing decision explanation, Jillian identifies the undersized capital raise as a principal concern supporting her pass.",
+      "evidence": [
+        "I can’t imagine how that 100,000 is going to actually get you to the 2500 if in fact you’re buying, you also have to pay stylists",
+        "I do feel that you need to raise more"
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 79,
+          "speaker": "Jillian",
+          "quote": "I can’t imagine how that 100,000 is going to actually get you to the 2500 if in fact you’re buying, you also have to pay stylists"
+        },
+        {
+          "turn_index": 113,
+          "speaker": "Jillian",
+          "quote": "I do feel that you need to raise more"
+        }
+      ],
+      "activation": "evaluated",
+      "source_rationale_id": "R7",
+      "utterance_kind": "decision_explanation",
+      "decision_support": "supports_out",
+      "all_mention_ids": [
+        "R4",
+        "R7"
+      ]
+    },
+    {
+      "rationale_label": "founder_communication_quality",
+      "direction": "positive",
+      "salience": "secondary",
+      "confidence": 0.94,
+      "utterance_type": "assessment",
+      "decision_link": "none",
+      "timing": "original_pitch",
+      "turn_index": 113,
+      "quote": "I liked the way that you’ve addressed all of our issues",
+      "explanation": "Jillian praises Rahul’s command and clarity in responding to the investors’ concerns.",
+      "evidence": [
+        "I liked the way that you’ve addressed all of our issues"
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 113,
+          "speaker": "Jillian",
+          "quote": "I liked the way that you’ve addressed all of our issues"
+        }
+      ],
+      "activation": "evaluated",
+      "source_rationale_id": "R6",
+      "utterance_kind": "supporting_argument",
+      "decision_support": "none",
+      "all_mention_ids": [
+        "R6"
+      ]
+    },
+    {
+      "rationale_label": "founder_investor_vision_alignment",
+      "direction": "negative",
+      "salience": "primary",
+      "confidence": 0.97,
+      "utterance_type": "decision_reason",
+      "decision_link": "explicit",
+      "timing": "original_pitch",
+      "turn_index": 124,
+      "quote": "By asking for 100,000, we don’t see that you’re really reaching for the stars here.",
+      "explanation": "Jillian explains that Rahul’s modest financing plan does not align with the ambitious company-building path these investors expect to back.",
+      "evidence": [
+        "By asking for 100,000, we don’t see that you’re really reaching for the stars here."
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 124,
+          "speaker": "Jillian",
+          "quote": "By asking for 100,000, we don’t see that you’re really reaching for the stars here."
+        }
+      ],
+      "activation": "evaluated",
+      "source_rationale_id": "R10",
+      "utterance_kind": "decision_explanation",
+      "decision_support": "supports_out",
+      "all_mention_ids": [
+        "R10"
+      ]
+    },
+    {
+      "rationale_label": "founder_qualities",
+      "direction": "positive",
+      "salience": "secondary",
+      "confidence": 0.98,
+      "utterance_type": "assessment",
+      "decision_link": "none",
+      "timing": "original_pitch",
+      "turn_index": 143,
+      "quote": "I think there’s something very special about him.",
+      "explanation": "In the immediate same-room debrief, Jillian expresses a strongly positive assessment of Rahul’s personal qualities.",
+      "evidence": [
+        "you have such grit and potential",
+        "I think there’s something very special about him."
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 118,
+          "speaker": "Jillian",
+          "quote": "you have such grit and potential"
+        },
+        {
+          "turn_index": 143,
+          "speaker": "Jillian",
+          "quote": "I think there’s something very special about him."
+        }
+      ],
+      "activation": "evaluated",
+      "source_rationale_id": "R11",
+      "utterance_kind": "assessment",
+      "decision_support": "none",
+      "all_mention_ids": [
+        "R9",
+        "R11"
+      ]
+    },
+    {
+      "rationale_label": "founder_skillset",
+      "direction": "positive",
+      "salience": "secondary",
+      "confidence": 0.97,
+      "utterance_type": "assessment",
+      "decision_link": "none",
+      "timing": "original_pitch",
+      "turn_index": 113,
+      "quote": "you are coming with here with such a depth of knowledge",
+      "explanation": "Jillian positively assesses Rahul’s knowledge and professionally developed capabilities.",
+      "evidence": [
+        "you are coming with here with such a depth of knowledge"
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 113,
+          "speaker": "Jillian",
+          "quote": "you are coming with here with such a depth of knowledge"
+        }
+      ],
+      "activation": "evaluated",
+      "source_rationale_id": "R5",
+      "utterance_kind": "supporting_argument",
+      "decision_support": "none",
+      "all_mention_ids": [
+        "R5"
+      ]
+    },
+    {
+      "rationale_label": "fund_economics_constraint",
+      "direction": "negative",
+      "salience": "primary",
+      "confidence": 0.97,
+      "utterance_type": "decision_reason",
+      "decision_link": "explicit",
+      "timing": "original_pitch",
+      "turn_index": 115,
+      "quote": "Because $100,000 in our world Doesn’t even make sense.",
+      "explanation": "Jillian says the proposed round is too small for the investors’ venture-fund context, continuing the explanation for her refusal.",
+      "evidence": [
+        "Because $100,000 in our world Doesn’t even make sense."
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 115,
+          "speaker": "Jillian",
+          "quote": "Because $100,000 in our world Doesn’t even make sense."
+        }
+      ],
+      "activation": "evaluated",
+      "source_rationale_id": "R8",
+      "utterance_kind": "decision_explanation",
+      "decision_support": "supports_out",
+      "all_mention_ids": [
+        "R8"
+      ]
+    },
+    {
+      "rationale_label": "product_adoption",
+      "direction": "neutral",
+      "salience": "secondary",
+      "confidence": 0.98,
+      "utterance_type": "question",
+      "decision_link": "none",
+      "timing": "original_pitch",
+      "turn_index": 35,
+      "quote": "Tell us about your sales thus far",
+      "explanation": "Jillian asks about current sales as evidence of paying-customer adoption without expressing a directional conclusion.",
+      "evidence": [
+        "Tell us about your sales thus far"
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 35,
+          "speaker": "Jillian",
+          "quote": "Tell us about your sales thus far"
+        }
+      ],
+      "activation": "queried",
+      "source_rationale_id": "R1",
+      "utterance_kind": "question",
+      "decision_support": "none",
+      "all_mention_ids": [
+        "R1"
+      ]
+    },
+    {
+      "rationale_label": "solution_feasibility_assessment",
+      "direction": "neutral",
+      "salience": "secondary",
+      "confidence": 0.94,
+      "utterance_type": "question",
+      "decision_link": "none",
+      "timing": "original_pitch",
+      "turn_index": 45,
+      "quote": "And how you can automate that a bit, too.",
+      "explanation": "Jillian asks how the inventory and styling operation can be automated, probing its operational feasibility.",
+      "evidence": [
+        "And how you can automate that a bit, too."
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 45,
+          "speaker": "Jillian",
+          "quote": "And how you can automate that a bit, too."
+        }
+      ],
+      "activation": "queried",
+      "source_rationale_id": "R3",
+      "utterance_kind": "question",
+      "decision_support": "none",
+      "all_mention_ids": [
+        "R3"
+      ]
+    },
+    {
+      "rationale_label": "traction_repeatability_concern",
+      "direction": "neutral",
+      "salience": "secondary",
+      "confidence": 0.96,
+      "utterance_type": "question",
+      "decision_link": "none",
+      "timing": "original_pitch",
+      "turn_index": 37,
+      "quote": "What happened to the 700?",
+      "explanation": "Jillian probes why the larger signup list produced far fewer active clients, testing the quality and repeatability of the early traction.",
+      "evidence": [
+        "What happened to the 700?"
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 37,
+          "speaker": "Jillian",
+          "quote": "What happened to the 700?"
+        }
+      ],
+      "activation": "queried",
+      "source_rationale_id": "R2",
+      "utterance_kind": "question",
+      "decision_support": "none",
+      "all_mention_ids": [
+        "R2"
+      ]
+    }
+  ],
+  "later_rationales": [],
+  "excluded_rationales": [],
+  "rationale_mentions": [
+    {
+      "rationale_label": "product_adoption",
+      "direction": "neutral",
+      "salience": "secondary",
+      "confidence": 0.98,
+      "utterance_type": "question",
+      "decision_link": "none",
+      "timing": "original_pitch",
+      "turn_index": 35,
+      "quote": "Tell us about your sales thus far",
+      "explanation": "Jillian asks about current sales as evidence of paying-customer adoption without expressing a directional conclusion.",
+      "evidence": [
+        "Tell us about your sales thus far"
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 35,
+          "speaker": "Jillian",
+          "quote": "Tell us about your sales thus far"
+        }
+      ],
+      "activation": "queried",
+      "source_rationale_id": "R1"
+    },
+    {
+      "rationale_label": "traction_repeatability_concern",
+      "direction": "neutral",
+      "salience": "secondary",
+      "confidence": 0.96,
+      "utterance_type": "question",
+      "decision_link": "none",
+      "timing": "original_pitch",
+      "turn_index": 37,
+      "quote": "What happened to the 700?",
+      "explanation": "Jillian probes why the larger signup list produced far fewer active clients, testing the quality and repeatability of the early traction.",
+      "evidence": [
+        "What happened to the 700?"
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 37,
+          "speaker": "Jillian",
+          "quote": "What happened to the 700?"
+        }
+      ],
+      "activation": "queried",
+      "source_rationale_id": "R2"
+    },
+    {
+      "rationale_label": "solution_feasibility_assessment",
+      "direction": "neutral",
+      "salience": "secondary",
+      "confidence": 0.94,
+      "utterance_type": "question",
+      "decision_link": "none",
+      "timing": "original_pitch",
+      "turn_index": 45,
+      "quote": "And how you can automate that a bit, too.",
+      "explanation": "Jillian asks how the inventory and styling operation can be automated, probing its operational feasibility.",
+      "evidence": [
+        "And how you can automate that a bit, too."
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 45,
+          "speaker": "Jillian",
+          "quote": "And how you can automate that a bit, too."
+        }
+      ],
+      "activation": "queried",
+      "source_rationale_id": "R3"
+    },
+    {
+      "rationale_label": "capital_intensity_concern",
+      "direction": "negative",
+      "salience": "primary",
+      "confidence": 0.99,
+      "utterance_type": "concern",
+      "decision_link": "none",
+      "timing": "original_pitch",
+      "turn_index": 79,
+      "quote": "I can’t imagine how that 100,000 is going to actually get you to the 2500 if in fact you’re buying, you also have to pay stylists",
+      "explanation": "Jillian doubts that the proposed capital can cover the inventory and staffing required to reach the customer target, but she does not yet explicitly link this concern to her decision.",
+      "evidence": [
+        "I can’t imagine how that 100,000 is going to actually get you to the 2500 if in fact you’re buying, you also have to pay stylists"
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 79,
+          "speaker": "Jillian",
+          "quote": "I can’t imagine how that 100,000 is going to actually get you to the 2500 if in fact you’re buying, you also have to pay stylists"
+        }
+      ],
+      "activation": "evaluated",
+      "source_rationale_id": "R4"
+    },
+    {
+      "rationale_label": "founder_skillset",
+      "direction": "positive",
+      "salience": "secondary",
+      "confidence": 0.97,
+      "utterance_type": "supporting_argument",
+      "decision_link": "none",
+      "timing": "original_pitch",
+      "turn_index": 113,
+      "quote": "you are coming with here with such a depth of knowledge",
+      "explanation": "Jillian positively assesses Rahul’s knowledge and professionally developed capabilities.",
+      "evidence": [
+        "you are coming with here with such a depth of knowledge"
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 113,
+          "speaker": "Jillian",
+          "quote": "you are coming with here with such a depth of knowledge"
+        }
+      ],
+      "activation": "evaluated",
+      "source_rationale_id": "R5"
+    },
+    {
+      "rationale_label": "founder_communication_quality",
+      "direction": "positive",
+      "salience": "secondary",
+      "confidence": 0.94,
+      "utterance_type": "supporting_argument",
+      "decision_link": "none",
+      "timing": "original_pitch",
+      "turn_index": 113,
+      "quote": "I liked the way that you’ve addressed all of our issues",
+      "explanation": "Jillian praises Rahul’s command and clarity in responding to the investors’ concerns.",
+      "evidence": [
+        "I liked the way that you’ve addressed all of our issues"
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 113,
+          "speaker": "Jillian",
+          "quote": "I liked the way that you’ve addressed all of our issues"
+        }
+      ],
+      "activation": "evaluated",
+      "source_rationale_id": "R6"
+    },
+    {
+      "rationale_label": "capital_intensity_concern",
+      "direction": "negative",
+      "salience": "primary",
+      "confidence": 0.99,
+      "utterance_type": "decision_explanation",
+      "decision_link": "supports_out",
+      "timing": "original_pitch",
+      "turn_index": 113,
+      "quote": "I do feel that you need to raise more",
+      "explanation": "During her closing decision explanation, Jillian identifies the undersized capital raise as a principal concern supporting her pass.",
+      "evidence": [
+        "I do feel that you need to raise more"
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 113,
+          "speaker": "Jillian",
+          "quote": "I do feel that you need to raise more"
+        }
+      ],
+      "activation": "evaluated",
+      "source_rationale_id": "R7"
+    },
+    {
+      "rationale_label": "fund_economics_constraint",
+      "direction": "negative",
+      "salience": "primary",
+      "confidence": 0.97,
+      "utterance_type": "decision_explanation",
+      "decision_link": "supports_out",
+      "timing": "original_pitch",
+      "turn_index": 115,
+      "quote": "Because $100,000 in our world Doesn’t even make sense.",
+      "explanation": "Jillian says the proposed round is too small for the investors’ venture-fund context, continuing the explanation for her refusal.",
+      "evidence": [
+        "Because $100,000 in our world Doesn’t even make sense."
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 115,
+          "speaker": "Jillian",
+          "quote": "Because $100,000 in our world Doesn’t even make sense."
+        }
+      ],
+      "activation": "evaluated",
+      "source_rationale_id": "R8"
+    },
+    {
+      "rationale_label": "founder_qualities",
+      "direction": "positive",
+      "salience": "secondary",
+      "confidence": 0.97,
+      "utterance_type": "assessment",
+      "decision_link": "none",
+      "timing": "original_pitch",
+      "turn_index": 118,
+      "quote": "you have such grit and potential",
+      "explanation": "While announcing her pass, Jillian positively assesses Rahul’s personal grit and potential rather than presenting those qualities as a reason to refuse.",
+      "evidence": [
+        "you have such grit and potential"
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 118,
+          "speaker": "Jillian",
+          "quote": "you have such grit and potential"
+        }
+      ],
+      "activation": "evaluated",
+      "source_rationale_id": "R9"
+    },
+    {
+      "rationale_label": "founder_investor_vision_alignment",
+      "direction": "negative",
+      "salience": "primary",
+      "confidence": 0.97,
+      "utterance_type": "decision_explanation",
+      "decision_link": "supports_out",
+      "timing": "original_pitch",
+      "turn_index": 124,
+      "quote": "By asking for 100,000, we don’t see that you’re really reaching for the stars here.",
+      "explanation": "Jillian explains that Rahul’s modest financing plan does not align with the ambitious company-building path these investors expect to back.",
+      "evidence": [
+        "By asking for 100,000, we don’t see that you’re really reaching for the stars here."
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 124,
+          "speaker": "Jillian",
+          "quote": "By asking for 100,000, we don’t see that you’re really reaching for the stars here."
+        }
+      ],
+      "activation": "evaluated",
+      "source_rationale_id": "R10"
+    },
+    {
+      "rationale_label": "founder_qualities",
+      "direction": "positive",
+      "salience": "secondary",
+      "confidence": 0.98,
+      "utterance_type": "assessment",
+      "decision_link": "none",
+      "timing": "original_pitch",
+      "turn_index": 143,
+      "quote": "I think there’s something very special about him.",
+      "explanation": "In the immediate same-room debrief, Jillian expresses a strongly positive assessment of Rahul’s personal qualities.",
+      "evidence": [
+        "I think there’s something very special about him."
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 143,
+          "speaker": "Jillian",
+          "quote": "I think there’s something very special about him."
+        }
+      ],
+      "activation": "evaluated",
+      "source_rationale_id": "R11"
+    }
+  ],
+  "expanded_quote_evidence": [],
+  "rejected_after_evidence_check": []
+}

@@ -315,6 +315,28 @@ class HybridWikiIndex:
             raise ValueError("at least one target company alias is required")
         ordered_aliases = sorted(normalized, key=lambda value: len(value.casefold()), reverse=True)
 
+        # A name-only replacement leaves amounts, outcomes and derived claims
+        # behind. Exclude whole source sections, then their citation dependants.
+        excluded = {
+            chunk.chunk_id for chunk in self.chunks
+            if any(_contains_casefold_alias(value, alias)
+                   for alias in normalized
+                   for value in (chunk.text, chunk.heading, chunk.source_path))
+        }
+        reference_pattern = re.compile(r"\[(?:ev|ctx):[^\]]+\]")
+        tainted_references: set[str] = set()
+        while True:
+            for chunk in self.chunks:
+                if chunk.chunk_id in excluded:
+                    tainted_references.update(reference_pattern.findall(chunk.text + "\n" + chunk.heading))
+            dependants = {
+                chunk.chunk_id for chunk in self.chunks
+                if tainted_references.intersection(reference_pattern.findall(chunk.text + "\n" + chunk.heading))
+            }
+            if dependants <= excluded:
+                break
+            excluded.update(dependants)
+
         sentinel = "[__PITCH_TARGET_ALIAS__]"
         changed_rows: list[tuple[WikiChunk, str, str, str]] = []
         unchanged: list[WikiChunk] = []
@@ -322,6 +344,9 @@ class HybridWikiIndex:
             text = chunk.text
             heading = chunk.heading
             source_path = chunk.source_path
+            if chunk.chunk_id in excluded:
+                text = "[Source section excluded for held-out evaluation.]"
+                heading = "Excluded source section"
             for alias in ordered_aliases:
                 text = _replace_casefold_alias(text, alias, sentinel)
                 heading = _replace_casefold_alias(heading, alias, sentinel)

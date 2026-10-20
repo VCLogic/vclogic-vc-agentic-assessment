@@ -1,0 +1,608 @@
+{
+  "schema": "phase1-rationale-reference-v1",
+  "extraction_version": "pitchshow-rationales-v1",
+  "fingerprint": "277052722d9410ec2de31dff37369b5b6f64bd78dc3190e4ab5917a9794a3328",
+  "episode_slug": "148-esai",
+  "vc_slug": "elizabeth-yin-hustle-fund",
+  "vc_name": "Elizabeth Yin",
+  "actual_decision": "Out",
+  "later_decision": "Unknown",
+  "reference_kind": "automated_transcript_observed_candidate",
+  "human_validated": false,
+  "source_format": "transcript-observed-rationales-v1",
+  "source_path": "/home/dpasch01/vclogic-vc-agentic-assessment/evaluation/pitchshow/investors/elizabeth-yin-hustle-fund/source/episodes/148-esai.json",
+  "source_sha256": "9b2c07b220cf6b36b13fa480e36d8cbd1ddd02929e4229e01b3552e592eae5aa",
+  "transcript_sha256": "8a9f0ff78955306d45667a84b25eb9992e75bbec7da0ccc631114bab3eefcbb2",
+  "taxonomy_sha256": "eaa8734819a3ac34dd19ee5f0bf6de925a793a1d25a2d361090dafc9b751e1fc",
+  "model": "openai/gpt-5.6-luna",
+  "source_tier": "newly_extracted_and_independently_model_reviewed",
+  "reviewed_target_turns": [
+    1,
+    6,
+    32,
+    34,
+    40,
+    72,
+    82,
+    92,
+    110,
+    112,
+    113,
+    115,
+    117,
+    122,
+    124,
+    126,
+    128,
+    130,
+    134,
+    137,
+    139,
+    142,
+    155,
+    157
+  ],
+  "notes": "All supplied Elizabeth turns were reviewed; greetings, confirmations, bare reactions, and the biographical question were omitted.",
+  "receipt_path": "/home/dpasch01/vclogic-vc-agentic-assessment/evaluation/pitchshow/investors/elizabeth-yin-hustle-fund/rationale-references/receipts/148-esai.json",
+  "scoring_scope": "original_pitch_only",
+  "shared_across_input_modes": true,
+  "rationales": [
+    {
+      "rationale_label": "business_model_assessment",
+      "direction": "negative",
+      "salience": "primary",
+      "confidence": 0.99,
+      "utterance_type": "decision_reason",
+      "decision_link": "explicit",
+      "timing": "original_pitch",
+      "turn_index": 34,
+      "quote": "that kind of growth pattern is really hard, so I'm out.",
+      "explanation": "Elizabeth objects to recurring direct-to-consumer churn and the effort required to replace each graduating cohort, explicitly linking this concern to her refusal.",
+      "evidence": [
+        "that kind of growth pattern is really hard, so I'm out."
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 34,
+          "speaker": "Elizabeth",
+          "quote": "that kind of growth pattern is really hard, so I'm out."
+        }
+      ],
+      "activation": "evaluated",
+      "source_rationale_id": "R3",
+      "utterance_kind": "decision_explanation",
+      "decision_support": "supports_out",
+      "all_mention_ids": [
+        "R3",
+        "R5"
+      ]
+    },
+    {
+      "rationale_label": "founder_market_fit",
+      "direction": "positive",
+      "salience": "secondary",
+      "confidence": 0.98,
+      "utterance_type": "assessment",
+      "decision_link": "none",
+      "timing": "original_pitch",
+      "turn_index": 32,
+      "quote": "your background fits really well with this space",
+      "explanation": "Elizabeth sees the founder’s background as well aligned with the college-admissions market.",
+      "evidence": [
+        "your background fits really well with this space"
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 32,
+          "speaker": "Elizabeth",
+          "quote": "your background fits really well with this space"
+        }
+      ],
+      "activation": "evaluated",
+      "source_rationale_id": "R1",
+      "utterance_kind": "assessment",
+      "decision_support": "none",
+      "all_mention_ids": [
+        "R1"
+      ]
+    },
+    {
+      "rationale_label": "founder_skillset",
+      "direction": "positive",
+      "salience": "secondary",
+      "confidence": 0.98,
+      "utterance_type": "assessment",
+      "decision_link": "none",
+      "timing": "original_pitch",
+      "turn_index": 32,
+      "quote": "I'm very impressed by you as a marketer.",
+      "explanation": "She positively assesses the founder’s marketing capability.",
+      "evidence": [
+        "I'm very impressed by you as a marketer."
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 32,
+          "speaker": "Elizabeth",
+          "quote": "I'm very impressed by you as a marketer."
+        }
+      ],
+      "activation": "evaluated",
+      "source_rationale_id": "R2",
+      "utterance_kind": "assessment",
+      "decision_support": "none",
+      "all_mention_ids": [
+        "R2"
+      ]
+    },
+    {
+      "rationale_label": "market_size_assessment",
+      "direction": "positive",
+      "salience": "secondary",
+      "confidence": 0.92,
+      "utterance_type": "assessment",
+      "decision_link": "none",
+      "timing": "original_pitch",
+      "turn_index": 40,
+      "quote": "That's the big money.",
+      "explanation": "She reacts positively to the large pool of higher-education applicants described as the market.",
+      "evidence": [
+        "That's the big money."
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 40,
+          "speaker": "Elizabeth",
+          "quote": "That's the big money."
+        }
+      ],
+      "activation": "evaluated",
+      "source_rationale_id": "R4",
+      "utterance_kind": "assessment",
+      "decision_support": "none",
+      "all_mention_ids": [
+        "R4"
+      ]
+    }
+  ],
+  "later_rationales": [
+    {
+      "rationale_label": "business_model_assessment",
+      "direction": "positive",
+      "salience": "secondary",
+      "confidence": 0.9,
+      "utterance_type": "assessment",
+      "decision_link": "none",
+      "timing": "later_commentary",
+      "turn_index": 113,
+      "quote": "This is very lucrative",
+      "explanation": "In the repeated post-pitch commentary, Elizabeth again acknowledges the opportunity’s financial attractiveness.",
+      "evidence": [
+        "This is very lucrative"
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 113,
+          "speaker": "Elizabeth",
+          "quote": "This is very lucrative"
+        }
+      ],
+      "activation": "evaluated",
+      "source_rationale_id": "R9"
+    },
+    {
+      "rationale_label": "mission_alignment_preference",
+      "direction": "negative",
+      "salience": "primary",
+      "confidence": 0.98,
+      "utterance_type": "assessment",
+      "decision_link": "none",
+      "timing": "later_commentary",
+      "turn_index": 113,
+      "quote": "I hate the helicopter-iness of all of this.",
+      "explanation": "The repeated commentary reiterates her personal discomfort with the product’s role in helicopter parenting.",
+      "evidence": [
+        "I hate the helicopter-iness of all of this."
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 113,
+          "speaker": "Elizabeth",
+          "quote": "I hate the helicopter-iness of all of this."
+        }
+      ],
+      "activation": "evaluated",
+      "source_rationale_id": "R10"
+    },
+    {
+      "rationale_label": "mission_alignment_preference",
+      "direction": "negative",
+      "salience": "primary",
+      "confidence": 0.96,
+      "utterance_type": "concern",
+      "decision_link": "none",
+      "timing": "later_commentary",
+      "turn_index": 115,
+      "quote": "do you include more people in the existing system? Or do you try to take down the system?",
+      "explanation": "Elizabeth describes a philosophical conflict between expanding access to the existing college system and replacing it.",
+      "evidence": [
+        "do you include more people in the existing system? Or do you try to take down the system?"
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 115,
+          "speaker": "Elizabeth",
+          "quote": "do you include more people in the existing system? Or do you try to take down the system?"
+        }
+      ],
+      "activation": "evaluated",
+      "source_rationale_id": "R11"
+    },
+    {
+      "rationale_label": "founder_investor_vision_alignment",
+      "direction": "negative",
+      "salience": "primary",
+      "confidence": 0.94,
+      "utterance_type": "concern",
+      "decision_link": "none",
+      "timing": "later_commentary",
+      "turn_index": 117,
+      "quote": "she can't change ultimately, like, the college thing",
+      "explanation": "Elizabeth doubts that the company’s approach can change the underlying college system, including its cost and debt burden.",
+      "evidence": [
+        "she can't change ultimately, like, the college thing"
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 117,
+          "speaker": "Elizabeth",
+          "quote": "she can't change ultimately, like, the college thing"
+        }
+      ],
+      "activation": "evaluated",
+      "source_rationale_id": "R12"
+    },
+    {
+      "rationale_label": "business_model_assessment",
+      "direction": "positive",
+      "salience": "secondary",
+      "confidence": 0.94,
+      "utterance_type": "assessment",
+      "decision_link": "none",
+      "timing": "later_commentary",
+      "turn_index": 124,
+      "quote": "there is a great business in here somewhere",
+      "explanation": "She believes the opportunity contains a potentially strong business despite her reservations.",
+      "evidence": [
+        "there is a great business in here somewhere"
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 124,
+          "speaker": "Elizabeth",
+          "quote": "there is a great business in here somewhere"
+        }
+      ],
+      "activation": "evaluated",
+      "source_rationale_id": "R13"
+    },
+    {
+      "rationale_label": "mission_alignment_preference",
+      "direction": "negative",
+      "salience": "primary",
+      "confidence": 0.94,
+      "utterance_type": "concern",
+      "decision_link": "none",
+      "timing": "later_commentary",
+      "turn_index": 124,
+      "quote": "do I want this?",
+      "explanation": "Elizabeth questions her personal desire to support this particular educational vision.",
+      "evidence": [
+        "do I want this?"
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 124,
+          "speaker": "Elizabeth",
+          "quote": "do I want this?"
+        }
+      ],
+      "activation": "evaluated",
+      "source_rationale_id": "R14"
+    },
+    {
+      "rationale_label": "business_model_assessment",
+      "direction": "negative",
+      "salience": "primary",
+      "confidence": 0.98,
+      "utterance_type": "concern",
+      "decision_link": "none",
+      "timing": "later_commentary",
+      "turn_index": 126,
+      "quote": "the concern about the 100% churn every year, pretty much.",
+      "explanation": "She reiterates that near-total annual customer churn remains a material business-model concern.",
+      "evidence": [
+        "the concern about the 100% churn every year, pretty much."
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 126,
+          "speaker": "Elizabeth",
+          "quote": "the concern about the 100% churn every year, pretty much."
+        }
+      ],
+      "activation": "evaluated",
+      "source_rationale_id": "R15"
+    },
+    {
+      "rationale_label": "mission_alignment_preference",
+      "direction": "negative",
+      "salience": "primary",
+      "confidence": 0.96,
+      "utterance_type": "assessment",
+      "decision_link": "none",
+      "timing": "later_commentary",
+      "turn_index": 128,
+      "quote": "philosophically, I'm less excited.",
+      "explanation": "Elizabeth states that her philosophical discomfort reduces her enthusiasm for the opportunity.",
+      "evidence": [
+        "philosophically, I'm less excited."
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 128,
+          "speaker": "Elizabeth",
+          "quote": "philosophically, I'm less excited."
+        }
+      ],
+      "activation": "evaluated",
+      "source_rationale_id": "R16"
+    },
+    {
+      "rationale_label": "founder_investor_vision_alignment",
+      "direction": "negative",
+      "salience": "primary",
+      "confidence": 0.96,
+      "utterance_type": "assessment",
+      "decision_link": "none",
+      "timing": "later_commentary",
+      "turn_index": 130,
+      "quote": "I would prefer somebody coming here and saying, we're going to build this new school.",
+      "explanation": "She prefers a founder pursuing a new educational institution rather than helping students navigate the existing college system.",
+      "evidence": [
+        "I would prefer somebody coming here and saying, we're going to build this new school."
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 130,
+          "speaker": "Elizabeth",
+          "quote": "I would prefer somebody coming here and saying, we're going to build this new school."
+        }
+      ],
+      "activation": "evaluated",
+      "source_rationale_id": "R17"
+    },
+    {
+      "rationale_label": "founder_investor_vision_alignment",
+      "direction": "negative",
+      "salience": "primary",
+      "confidence": 0.92,
+      "utterance_type": "concern",
+      "decision_link": "none",
+      "timing": "later_commentary",
+      "turn_index": 139,
+      "quote": "Are we trying to solve education? Or are we trying to solve credentialing?",
+      "explanation": "Elizabeth questions the company’s problem framing and argues that education and credentialing should be treated as separate goals.",
+      "evidence": [
+        "Are we trying to solve education? Or are we trying to solve credentialing?"
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 139,
+          "speaker": "Elizabeth",
+          "quote": "Are we trying to solve education? Or are we trying to solve credentialing?"
+        }
+      ],
+      "activation": "evaluated",
+      "source_rationale_id": "R18"
+    }
+  ],
+  "excluded_rationales": [
+    {
+      "rationale_label": "business_model_assessment",
+      "direction": "positive",
+      "salience": "secondary",
+      "confidence": 0.9,
+      "utterance_type": "assessment",
+      "decision_link": "none",
+      "timing": "teaser",
+      "turn_index": 110,
+      "quote": "This is very lucrative",
+      "explanation": "Elizabeth acknowledges that the opportunity could be financially attractive.",
+      "evidence": [
+        "This is very lucrative"
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 110,
+          "speaker": "Elizabeth",
+          "quote": "This is very lucrative"
+        }
+      ],
+      "activation": "evaluated",
+      "source_rationale_id": "R6"
+    },
+    {
+      "rationale_label": "mission_alignment_preference",
+      "direction": "negative",
+      "salience": "primary",
+      "confidence": 0.98,
+      "utterance_type": "assessment",
+      "decision_link": "none",
+      "timing": "teaser",
+      "turn_index": 110,
+      "quote": "I hate the helicopter-iness of all of this.",
+      "explanation": "She expresses personal discomfort with the product’s role in intensive, parent-driven college guidance.",
+      "evidence": [
+        "I hate the helicopter-iness of all of this."
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 110,
+          "speaker": "Elizabeth",
+          "quote": "I hate the helicopter-iness of all of this."
+        }
+      ],
+      "activation": "evaluated",
+      "source_rationale_id": "R7"
+    },
+    {
+      "rationale_label": "mission_alignment_preference",
+      "direction": "negative",
+      "salience": "primary",
+      "confidence": 0.98,
+      "utterance_type": "concern",
+      "decision_link": "none",
+      "timing": "teaser",
+      "turn_index": 112,
+      "quote": "we're funneling people through the gauntlet.",
+      "explanation": "She characterizes the company as funneling students through an existing system she finds objectionable.",
+      "evidence": [
+        "we're funneling people through the gauntlet."
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 112,
+          "speaker": "Elizabeth",
+          "quote": "we're funneling people through the gauntlet."
+        }
+      ],
+      "activation": "evaluated",
+      "source_rationale_id": "R8"
+    }
+  ],
+  "rationale_mentions": [
+    {
+      "rationale_label": "founder_market_fit",
+      "direction": "positive",
+      "salience": "secondary",
+      "confidence": 0.98,
+      "utterance_type": "assessment",
+      "decision_link": "none",
+      "timing": "original_pitch",
+      "turn_index": 32,
+      "quote": "your background fits really well with this space",
+      "explanation": "Elizabeth sees the founder’s background as well aligned with the college-admissions market.",
+      "evidence": [
+        "your background fits really well with this space"
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 32,
+          "speaker": "Elizabeth",
+          "quote": "your background fits really well with this space"
+        }
+      ],
+      "activation": "evaluated",
+      "source_rationale_id": "R1"
+    },
+    {
+      "rationale_label": "founder_skillset",
+      "direction": "positive",
+      "salience": "secondary",
+      "confidence": 0.98,
+      "utterance_type": "assessment",
+      "decision_link": "none",
+      "timing": "original_pitch",
+      "turn_index": 32,
+      "quote": "I'm very impressed by you as a marketer.",
+      "explanation": "She positively assesses the founder’s marketing capability.",
+      "evidence": [
+        "I'm very impressed by you as a marketer."
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 32,
+          "speaker": "Elizabeth",
+          "quote": "I'm very impressed by you as a marketer."
+        }
+      ],
+      "activation": "evaluated",
+      "source_rationale_id": "R2"
+    },
+    {
+      "rationale_label": "business_model_assessment",
+      "direction": "negative",
+      "salience": "primary",
+      "confidence": 0.99,
+      "utterance_type": "decision_explanation",
+      "decision_link": "supports_out",
+      "timing": "original_pitch",
+      "turn_index": 34,
+      "quote": "that kind of growth pattern is really hard, so I'm out.",
+      "explanation": "Elizabeth objects to recurring direct-to-consumer churn and the effort required to replace each graduating cohort, explicitly linking this concern to her refusal.",
+      "evidence": [
+        "that kind of growth pattern is really hard, so I'm out."
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 34,
+          "speaker": "Elizabeth",
+          "quote": "that kind of growth pattern is really hard, so I'm out."
+        }
+      ],
+      "activation": "evaluated",
+      "source_rationale_id": "R3"
+    },
+    {
+      "rationale_label": "market_size_assessment",
+      "direction": "positive",
+      "salience": "secondary",
+      "confidence": 0.92,
+      "utterance_type": "assessment",
+      "decision_link": "none",
+      "timing": "original_pitch",
+      "turn_index": 40,
+      "quote": "That's the big money.",
+      "explanation": "She reacts positively to the large pool of higher-education applicants described as the market.",
+      "evidence": [
+        "That's the big money."
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 40,
+          "speaker": "Elizabeth",
+          "quote": "That's the big money."
+        }
+      ],
+      "activation": "evaluated",
+      "source_rationale_id": "R4"
+    },
+    {
+      "rationale_label": "business_model_assessment",
+      "direction": "positive",
+      "salience": "secondary",
+      "confidence": 0.95,
+      "utterance_type": "supporting_argument",
+      "decision_link": "none",
+      "timing": "original_pitch",
+      "turn_index": 82,
+      "quote": "schools may be another revenue source",
+      "explanation": "Elizabeth identifies schools’ potential willingness to pay for early student-recruiting information as an additional monetization path.",
+      "evidence": [
+        "schools may be another revenue source"
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 82,
+          "speaker": "Elizabeth",
+          "quote": "schools may be another revenue source"
+        }
+      ],
+      "activation": "evaluated",
+      "source_rationale_id": "R5"
+    }
+  ],
+  "expanded_quote_evidence": [],
+  "rejected_after_evidence_check": []
+}

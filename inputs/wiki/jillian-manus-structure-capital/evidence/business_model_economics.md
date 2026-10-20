@@ -1,19 +1,13 @@
 # business_model_economics
 
-[ev:jillian-0035] label=business_model_assessment direction=positive source=talk:7y_bYh2k2ME
-> "This social distancing has played very well into this into this company but not into their present business model."
+Verbatim transcript excerpts; whitespace normalized. Labels describe the cited statement.
 
-[ev:jillian-0036] label=capital_intensity_concern direction=negative source=talk:MITj7RtflgY
-> "One of the biggest problems is that they run out of the money because they're not focusing on prioritizing deployment of that."
+[ev:jillian-manus-structure-capital-0002] label=business_viability_concern direction=negative source=full:592bcbab6c9bca34bdc4db0d
+> "It's dangerous, it's very dangerous. On one hand, we want to be supportive of this, because this gives opportunities, definitely, to fuel new companies. But on the other hand, there's a lot of irresponsibilities that go with this. There's a lot of fraud that's being created"
 
-[ev:jillian-0037] label=business_viability_concern direction=negative source=talk:MITj7RtflgY
-> "They do not understand their product market fit or they don't have a product market fit and they have to pivot the company."
+Support: explicit. Interpretation: She views unregulated ICO fundraising as dangerous because it enables irresponsibility and fraud despite providing startup capital.
 
-[ev:jillian-0038] label=go_to_market_strategy_assessment direction=positive source=talk:i41etCu7zSk
-> "If you can't message your company from the very beginning, be able to distill it down to its essence, you're going to have a problem."
+[ev:jillian-manus-structure-capital-0003] label=business_viability_concern direction=negative source=full:592bcbab6c9bca34bdc4db0d
+> "I think this is the Wild West without a sheriff"
 
-[ev:jillian-0039] label=unit_economics_assessment direction=positive source=website:structure_capital
-> "The sharing economy helps people and companies do more with less."
-
-[ev:jillian-0040] label=business_model_assessment direction=positive source=website:structure_capital
-> "We see the potential in an idle car or tow truck, an empty stadium seat, a drawer full of outgrown kids clothes, or a vacant workspace."
+Support: explicit. Interpretation: She considers the then-unregulated ICO environment inadequately governed and therefore risky.

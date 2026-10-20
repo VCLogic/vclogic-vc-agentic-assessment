@@ -1,0 +1,728 @@
+{
+  "schema": "phase1-rationale-reference-v1",
+  "extraction_version": "pitchshow-rationales-v1",
+  "fingerprint": "fb403d08522c432973d154db4d594c3a81f8eaaff97b5479488e3286846ecf76",
+  "episode_slug": "107-terrascope-a-computer-vision-tale",
+  "vc_slug": "elizabeth-yin-hustle-fund",
+  "vc_name": "Elizabeth Yin",
+  "actual_decision": "Out",
+  "later_decision": "Unknown",
+  "reference_kind": "automated_transcript_observed_candidate",
+  "human_validated": false,
+  "source_format": "transcript-observed-rationales-v1",
+  "source_path": "/home/dpasch01/vclogic-vc-agentic-assessment/evaluation/pitchshow/investors/elizabeth-yin-hustle-fund/source/episodes/107-terrascope-a-computer-vision-tale.json",
+  "source_sha256": "221eb922f70588f3e13e50ffef17ecc07ba73bf8dd9f007d76e70421847070c3",
+  "transcript_sha256": "a2ed6216692d3ad2590935a98168d41db9c1ba23ae2ace581cc6c3218d457edc",
+  "taxonomy_sha256": "eaa8734819a3ac34dd19ee5f0bf6de925a793a1d25a2d361090dafc9b751e1fc",
+  "model": "openai/gpt-5.6-luna",
+  "source_tier": "newly_extracted_and_independently_model_reviewed",
+  "reviewed_target_turns": [
+    3,
+    13,
+    22,
+    26,
+    30,
+    32,
+    52,
+    54,
+    69,
+    76,
+    78,
+    88,
+    92,
+    96,
+    126,
+    135,
+    138,
+    144,
+    146
+  ],
+  "notes": "Reviewed every supplied target turn. Brief reactions, greetings, wordplay, and the simple confirmation at turn 135 were omitted.",
+  "receipt_path": "/home/dpasch01/vclogic-vc-agentic-assessment/evaluation/pitchshow/investors/elizabeth-yin-hustle-fund/rationale-references/receipts/107-terrascope-a-computer-vision-tale.json",
+  "scoring_scope": "original_pitch_only",
+  "shared_across_input_modes": true,
+  "rationales": [
+    {
+      "rationale_label": "business_model_assessment",
+      "direction": "neutral",
+      "salience": "secondary",
+      "confidence": 0.93,
+      "utterance_type": "question",
+      "decision_link": "none",
+      "timing": "original_pitch",
+      "turn_index": 69,
+      "quote": "you don't get paid for all 500 leads?",
+      "explanation": "She probes the gap between lead generation and monetization under the current model.",
+      "evidence": [
+        "What is your business model?",
+        "Can we go back to the business model for a second?",
+        "And have you gotten any commission to date?",
+        "you don't get paid for all 500 leads?"
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 22,
+          "speaker": "Elizabeth",
+          "quote": "What is your business model?"
+        },
+        {
+          "turn_index": 52,
+          "speaker": "Elizabeth",
+          "quote": "Can we go back to the business model for a second?"
+        },
+        {
+          "turn_index": 54,
+          "speaker": "Elizabeth",
+          "quote": "And have you gotten any commission to date?"
+        },
+        {
+          "turn_index": 69,
+          "speaker": "Elizabeth",
+          "quote": "you don't get paid for all 500 leads?"
+        }
+      ],
+      "activation": "queried",
+      "source_rationale_id": "R5",
+      "utterance_kind": "question",
+      "decision_support": "none",
+      "all_mention_ids": [
+        "R1",
+        "R3",
+        "R4",
+        "R5"
+      ]
+    },
+    {
+      "rationale_label": "competitive_advantage_assessment",
+      "direction": "positive",
+      "salience": "secondary",
+      "confidence": 0.93,
+      "utterance_type": "assessment",
+      "decision_link": "none",
+      "timing": "original_pitch",
+      "turn_index": 88,
+      "quote": "on a relative basis actually I think what you have is - is good enough to stay ahead of those, at least for now",
+      "explanation": "She assesses Terrascope as sufficiently ahead of the poor-quality land-search platforms to compete for now.",
+      "evidence": [
+        "It's terrible. I've used it.",
+        "on a relative basis actually I think what you have is - is good enough to stay ahead of those, at least for now"
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 76,
+          "speaker": "Elizabeth",
+          "quote": "It's terrible. I've used it."
+        },
+        {
+          "turn_index": 88,
+          "speaker": "Elizabeth",
+          "quote": "on a relative basis actually I think what you have is - is good enough to stay ahead of those, at least for now"
+        }
+      ],
+      "activation": "evaluated",
+      "source_rationale_id": "R8",
+      "utterance_kind": "assessment",
+      "decision_support": "none",
+      "all_mention_ids": [
+        "R6",
+        "R8"
+      ]
+    },
+    {
+      "rationale_label": "founder_execution",
+      "direction": "negative",
+      "salience": "primary",
+      "confidence": 0.95,
+      "utterance_type": "assessment",
+      "decision_link": "none",
+      "timing": "original_pitch",
+      "turn_index": 146,
+      "quote": "the speed is not now - where I would like it to be",
+      "explanation": "She says the founder's execution pace is below her expectation.",
+      "evidence": [
+        "He needs to hit the pavement more and talk with more people.",
+        "He doesn't have hustle.",
+        "he's not aggressively following up on these little bits",
+        "the speed is not now - where I would like it to be"
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 126,
+          "speaker": "Elizabeth",
+          "quote": "He needs to hit the pavement more and talk with more people."
+        },
+        {
+          "turn_index": 138,
+          "speaker": "Elizabeth",
+          "quote": "He doesn't have hustle."
+        },
+        {
+          "turn_index": 144,
+          "speaker": "Elizabeth",
+          "quote": "he's not aggressively following up on these little bits"
+        },
+        {
+          "turn_index": 146,
+          "speaker": "Elizabeth",
+          "quote": "the speed is not now - where I would like it to be"
+        }
+      ],
+      "activation": "evaluated",
+      "source_rationale_id": "R17",
+      "utterance_kind": "assessment",
+      "decision_support": "none",
+      "all_mention_ids": [
+        "R14",
+        "R15",
+        "R16",
+        "R17"
+      ]
+    },
+    {
+      "rationale_label": "go_to_market_strategy_assessment",
+      "direction": "negative",
+      "salience": "primary",
+      "confidence": 0.99,
+      "utterance_type": "decision_reason",
+      "decision_link": "explicit",
+      "timing": "original_pitch",
+      "turn_index": 96,
+      "quote": "I'm going to be out because I think I would want to see more direction, at least, in something customer acquisition",
+      "explanation": "Elizabeth explicitly links her refusal to the lack of demonstrated direction in customer acquisition.",
+      "evidence": [
+        "I would be spending all of my energy on customer acquisition",
+        "understanding who your customers are, why are they not closing, how can you close them",
+        "I'm going to be out because I think I would want to see more direction, at least, in something customer acquisition"
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 88,
+          "speaker": "Elizabeth",
+          "quote": "I would be spending all of my energy on customer acquisition"
+        },
+        {
+          "turn_index": 92,
+          "speaker": "Elizabeth",
+          "quote": "understanding who your customers are, why are they not closing, how can you close them"
+        },
+        {
+          "turn_index": 96,
+          "speaker": "Elizabeth",
+          "quote": "I'm going to be out because I think I would want to see more direction, at least, in something customer acquisition"
+        }
+      ],
+      "activation": "evaluated",
+      "source_rationale_id": "R13",
+      "utterance_kind": "decision_explanation",
+      "decision_support": "supports_out",
+      "all_mention_ids": [
+        "R9",
+        "R11",
+        "R13"
+      ]
+    },
+    {
+      "rationale_label": "market_entry_path_assessment",
+      "direction": "positive",
+      "salience": "secondary",
+      "confidence": 0.9,
+      "utterance_type": "assessment",
+      "decision_link": "none",
+      "timing": "original_pitch",
+      "turn_index": 92,
+      "quote": "The further up the chain you can go with developers or people who do this on a recurring basis",
+      "explanation": "She identifies recurring professional users such as developers as a potentially stronger customer segment.",
+      "evidence": [
+        "The further up the chain you can go with developers or people who do this on a recurring basis"
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 92,
+          "speaker": "Elizabeth",
+          "quote": "The further up the chain you can go with developers or people who do this on a recurring basis"
+        }
+      ],
+      "activation": "evaluated",
+      "source_rationale_id": "R12",
+      "utterance_kind": "supporting_argument",
+      "decision_support": "none",
+      "all_mention_ids": [
+        "R7",
+        "R12"
+      ]
+    },
+    {
+      "rationale_label": "product_appeal_assessment",
+      "direction": "positive",
+      "salience": "secondary",
+      "confidence": 0.88,
+      "utterance_type": "assessment",
+      "decision_link": "none",
+      "timing": "original_pitch",
+      "turn_index": 30,
+      "quote": "I need to check this out because I want to be a hermit.",
+      "explanation": "She expresses personal interest in using the product for rural-property discovery.",
+      "evidence": [
+        "I need to check this out because I want to be a hermit."
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 30,
+          "speaker": "Elizabeth",
+          "quote": "I need to check this out because I want to be a hermit."
+        }
+      ],
+      "activation": "evaluated",
+      "source_rationale_id": "R2",
+      "utterance_kind": "assessment",
+      "decision_support": "none",
+      "all_mention_ids": [
+        "R2"
+      ]
+    },
+    {
+      "rationale_label": "traction_repeatability_concern",
+      "direction": "negative",
+      "salience": "primary",
+      "confidence": 0.97,
+      "utterance_type": "assessment",
+      "decision_link": "none",
+      "timing": "original_pitch",
+      "turn_index": 88,
+      "quote": "you have one transaction",
+      "explanation": "She treats the single completed transaction despite sustained activity as insufficient evidence of repeatable commercial traction.",
+      "evidence": [
+        "you have one transaction"
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 88,
+          "speaker": "Elizabeth",
+          "quote": "you have one transaction"
+        }
+      ],
+      "activation": "evaluated",
+      "source_rationale_id": "R10",
+      "utterance_kind": "assessment",
+      "decision_support": "none",
+      "all_mention_ids": [
+        "R10"
+      ]
+    }
+  ],
+  "later_rationales": [],
+  "excluded_rationales": [],
+  "rationale_mentions": [
+    {
+      "rationale_label": "business_model_assessment",
+      "direction": "neutral",
+      "salience": "secondary",
+      "confidence": 0.99,
+      "utterance_type": "question",
+      "decision_link": "none",
+      "timing": "original_pitch",
+      "turn_index": 22,
+      "quote": "What is your business model?",
+      "explanation": "Elizabeth asks about the company's revenue and monetization model.",
+      "evidence": [
+        "What is your business model?"
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 22,
+          "speaker": "Elizabeth",
+          "quote": "What is your business model?"
+        }
+      ],
+      "activation": "queried",
+      "source_rationale_id": "R1"
+    },
+    {
+      "rationale_label": "product_appeal_assessment",
+      "direction": "positive",
+      "salience": "secondary",
+      "confidence": 0.88,
+      "utterance_type": "assessment",
+      "decision_link": "none",
+      "timing": "original_pitch",
+      "turn_index": 30,
+      "quote": "I need to check this out because I want to be a hermit.",
+      "explanation": "She expresses personal interest in using the product for rural-property discovery.",
+      "evidence": [
+        "I need to check this out because I want to be a hermit."
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 30,
+          "speaker": "Elizabeth",
+          "quote": "I need to check this out because I want to be a hermit."
+        }
+      ],
+      "activation": "evaluated",
+      "source_rationale_id": "R2"
+    },
+    {
+      "rationale_label": "business_model_assessment",
+      "direction": "neutral",
+      "salience": "secondary",
+      "confidence": 0.98,
+      "utterance_type": "question",
+      "decision_link": "none",
+      "timing": "original_pitch",
+      "turn_index": 52,
+      "quote": "Can we go back to the business model for a second?",
+      "explanation": "Elizabeth returns to the company's monetization model for clarification.",
+      "evidence": [
+        "Can we go back to the business model for a second?"
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 52,
+          "speaker": "Elizabeth",
+          "quote": "Can we go back to the business model for a second?"
+        }
+      ],
+      "activation": "queried",
+      "source_rationale_id": "R3"
+    },
+    {
+      "rationale_label": "business_model_assessment",
+      "direction": "neutral",
+      "salience": "secondary",
+      "confidence": 0.96,
+      "utterance_type": "question",
+      "decision_link": "none",
+      "timing": "original_pitch",
+      "turn_index": 54,
+      "quote": "And have you gotten any commission to date?",
+      "explanation": "She asks whether the commission-based model has generated revenue yet.",
+      "evidence": [
+        "And have you gotten any commission to date?"
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 54,
+          "speaker": "Elizabeth",
+          "quote": "And have you gotten any commission to date?"
+        }
+      ],
+      "activation": "queried",
+      "source_rationale_id": "R4"
+    },
+    {
+      "rationale_label": "business_model_assessment",
+      "direction": "neutral",
+      "salience": "secondary",
+      "confidence": 0.93,
+      "utterance_type": "question",
+      "decision_link": "none",
+      "timing": "original_pitch",
+      "turn_index": 69,
+      "quote": "you don't get paid for all 500 leads?",
+      "explanation": "She probes the gap between lead generation and monetization under the current model.",
+      "evidence": [
+        "you don't get paid for all 500 leads?"
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 69,
+          "speaker": "Elizabeth",
+          "quote": "you don't get paid for all 500 leads?"
+        }
+      ],
+      "activation": "queried",
+      "source_rationale_id": "R5"
+    },
+    {
+      "rationale_label": "competitive_advantage_assessment",
+      "direction": "positive",
+      "salience": "secondary",
+      "confidence": 0.75,
+      "utterance_type": "supporting_argument",
+      "decision_link": "none",
+      "timing": "original_pitch",
+      "turn_index": 76,
+      "quote": "It's terrible. I've used it.",
+      "explanation": "Her firsthand negative assessment of the incumbent supports the view that the relevant competitive opening is favorable.",
+      "evidence": [
+        "It's terrible. I've used it."
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 76,
+          "speaker": "Elizabeth",
+          "quote": "It's terrible. I've used it."
+        }
+      ],
+      "activation": "evaluated",
+      "source_rationale_id": "R6"
+    },
+    {
+      "rationale_label": "market_entry_path_assessment",
+      "direction": "neutral",
+      "salience": "secondary",
+      "confidence": 0.96,
+      "utterance_type": "question",
+      "decision_link": "none",
+      "timing": "original_pitch",
+      "turn_index": 78,
+      "quote": "what kind of people are searching?",
+      "explanation": "Elizabeth asks the founder to clarify the initial customer segment, distinguishing individual buyers from commercial users.",
+      "model_quote_before_typography_repair": "What kind of people are searching?",
+      "evidence": [
+        "what kind of people are searching?"
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 78,
+          "speaker": "Elizabeth",
+          "quote": "what kind of people are searching?"
+        }
+      ],
+      "activation": "queried",
+      "source_rationale_id": "R7"
+    },
+    {
+      "rationale_label": "competitive_advantage_assessment",
+      "direction": "positive",
+      "salience": "secondary",
+      "confidence": 0.93,
+      "utterance_type": "assessment",
+      "decision_link": "none",
+      "timing": "original_pitch",
+      "turn_index": 88,
+      "quote": "on a relative basis actually I think what you have is - is good enough to stay ahead of those, at least for now",
+      "explanation": "She assesses Terrascope as sufficiently ahead of the poor-quality land-search platforms to compete for now.",
+      "evidence": [
+        "on a relative basis actually I think what you have is - is good enough to stay ahead of those, at least for now"
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 88,
+          "speaker": "Elizabeth",
+          "quote": "on a relative basis actually I think what you have is - is good enough to stay ahead of those, at least for now"
+        }
+      ],
+      "activation": "evaluated",
+      "source_rationale_id": "R8"
+    },
+    {
+      "rationale_label": "go_to_market_strategy_assessment",
+      "direction": "negative",
+      "salience": "primary",
+      "confidence": 0.97,
+      "utterance_type": "assessment",
+      "decision_link": "none",
+      "timing": "original_pitch",
+      "turn_index": 88,
+      "quote": "I would be spending all of my energy on customer acquisition",
+      "explanation": "She identifies customer acquisition as the company's central unresolved go-to-market priority.",
+      "evidence": [
+        "I would be spending all of my energy on customer acquisition"
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 88,
+          "speaker": "Elizabeth",
+          "quote": "I would be spending all of my energy on customer acquisition"
+        }
+      ],
+      "activation": "evaluated",
+      "source_rationale_id": "R9"
+    },
+    {
+      "rationale_label": "traction_repeatability_concern",
+      "direction": "negative",
+      "salience": "primary",
+      "confidence": 0.97,
+      "utterance_type": "assessment",
+      "decision_link": "none",
+      "timing": "original_pitch",
+      "turn_index": 88,
+      "quote": "you have one transaction",
+      "explanation": "She treats the single completed transaction despite sustained activity as insufficient evidence of repeatable commercial traction.",
+      "evidence": [
+        "you have one transaction"
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 88,
+          "speaker": "Elizabeth",
+          "quote": "you have one transaction"
+        }
+      ],
+      "activation": "evaluated",
+      "source_rationale_id": "R10"
+    },
+    {
+      "rationale_label": "go_to_market_strategy_assessment",
+      "direction": "negative",
+      "salience": "primary",
+      "confidence": 0.96,
+      "utterance_type": "assessment",
+      "decision_link": "none",
+      "timing": "original_pitch",
+      "turn_index": 92,
+      "quote": "understanding who your customers are, why are they not closing, how can you close them",
+      "explanation": "She says the company needs deeper customer understanding and more active involvement in the conversion process.",
+      "evidence": [
+        "understanding who your customers are, why are they not closing, how can you close them"
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 92,
+          "speaker": "Elizabeth",
+          "quote": "understanding who your customers are, why are they not closing, how can you close them"
+        }
+      ],
+      "activation": "evaluated",
+      "source_rationale_id": "R11"
+    },
+    {
+      "rationale_label": "market_entry_path_assessment",
+      "direction": "positive",
+      "salience": "secondary",
+      "confidence": 0.9,
+      "utterance_type": "supporting_argument",
+      "decision_link": "none",
+      "timing": "original_pitch",
+      "turn_index": 92,
+      "quote": "The further up the chain you can go with developers or people who do this on a recurring basis",
+      "explanation": "She identifies recurring professional users such as developers as a potentially stronger customer segment.",
+      "evidence": [
+        "The further up the chain you can go with developers or people who do this on a recurring basis"
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 92,
+          "speaker": "Elizabeth",
+          "quote": "The further up the chain you can go with developers or people who do this on a recurring basis"
+        }
+      ],
+      "activation": "evaluated",
+      "source_rationale_id": "R12"
+    },
+    {
+      "rationale_label": "go_to_market_strategy_assessment",
+      "direction": "negative",
+      "salience": "primary",
+      "confidence": 0.99,
+      "utterance_type": "decision_explanation",
+      "decision_link": "supports_out",
+      "timing": "original_pitch",
+      "turn_index": 96,
+      "quote": "I'm going to be out because I think I would want to see more direction, at least, in something customer acquisition",
+      "explanation": "Elizabeth explicitly links her refusal to the lack of demonstrated direction in customer acquisition.",
+      "evidence": [
+        "I'm going to be out because I think I would want to see more direction, at least, in something customer acquisition"
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 96,
+          "speaker": "Elizabeth",
+          "quote": "I'm going to be out because I think I would want to see more direction, at least, in something customer acquisition"
+        }
+      ],
+      "activation": "evaluated",
+      "source_rationale_id": "R13"
+    },
+    {
+      "rationale_label": "founder_execution",
+      "direction": "negative",
+      "salience": "primary",
+      "confidence": 0.94,
+      "utterance_type": "assessment",
+      "decision_link": "none",
+      "timing": "original_pitch",
+      "turn_index": 126,
+      "quote": "He needs to hit the pavement more and talk with more people.",
+      "explanation": "She says the founder needs more direct customer and market engagement.",
+      "evidence": [
+        "He needs to hit the pavement more and talk with more people."
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 126,
+          "speaker": "Elizabeth",
+          "quote": "He needs to hit the pavement more and talk with more people."
+        }
+      ],
+      "activation": "evaluated",
+      "source_rationale_id": "R14"
+    },
+    {
+      "rationale_label": "founder_execution",
+      "direction": "negative",
+      "salience": "primary",
+      "confidence": 0.98,
+      "utterance_type": "assessment",
+      "decision_link": "none",
+      "timing": "original_pitch",
+      "turn_index": 138,
+      "quote": "He doesn't have hustle.",
+      "explanation": "She assesses the founder as lacking the operational drive needed to advance the business.",
+      "evidence": [
+        "He doesn't have hustle."
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 138,
+          "speaker": "Elizabeth",
+          "quote": "He doesn't have hustle."
+        }
+      ],
+      "activation": "evaluated",
+      "source_rationale_id": "R15"
+    },
+    {
+      "rationale_label": "founder_execution",
+      "direction": "negative",
+      "salience": "primary",
+      "confidence": 0.96,
+      "utterance_type": "assessment",
+      "decision_link": "none",
+      "timing": "original_pitch",
+      "turn_index": 144,
+      "quote": "he's not aggressively following up on these little bits",
+      "explanation": "She criticizes the founder's insufficient follow-through on customer and lead feedback.",
+      "evidence": [
+        "he's not aggressively following up on these little bits"
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 144,
+          "speaker": "Elizabeth",
+          "quote": "he's not aggressively following up on these little bits"
+        }
+      ],
+      "activation": "evaluated",
+      "source_rationale_id": "R16"
+    },
+    {
+      "rationale_label": "founder_execution",
+      "direction": "negative",
+      "salience": "primary",
+      "confidence": 0.95,
+      "utterance_type": "assessment",
+      "decision_link": "none",
+      "timing": "original_pitch",
+      "turn_index": 146,
+      "quote": "the speed is not now - where I would like it to be",
+      "explanation": "She says the founder's execution pace is below her expectation.",
+      "evidence": [
+        "the speed is not now - where I would like it to be"
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 146,
+          "speaker": "Elizabeth",
+          "quote": "the speed is not now - where I would like it to be"
+        }
+      ],
+      "activation": "evaluated",
+      "source_rationale_id": "R17"
+    }
+  ],
+  "expanded_quote_evidence": [],
+  "rejected_after_evidence_check": []
+}

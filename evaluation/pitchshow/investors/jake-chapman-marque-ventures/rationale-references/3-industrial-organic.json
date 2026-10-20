@@ -1,0 +1,317 @@
+{
+  "schema": "phase1-rationale-reference-v1",
+  "extraction_version": "pitchshow-rationales-v1",
+  "fingerprint": "58ce2baa2c35fc5064ae44268e2a24c440127d0b8a5c3ffca1e85b9a2f5a5603",
+  "episode_slug": "3-industrial-organic",
+  "vc_slug": "jake-chapman-marque-ventures",
+  "vc_name": "Jake Chapman",
+  "actual_decision": "Out",
+  "later_decision": "Unknown",
+  "reference_kind": "automated_transcript_observed_candidate",
+  "human_validated": false,
+  "source_format": "transcript-observed-rationales-v1",
+  "source_path": "../source/episodes/3-industrial-organic.json",
+  "source_sha256": "feb56167d6f36fdacd888b7615afe772add2ebd3343dec8f543742a8d8cdcc8a",
+  "transcript_sha256": "06ddf53803300bee68dc0b834e38d4af02a56eb80acb7001d7aecae7a9e5bf80",
+  "taxonomy_sha256": "eaa8734819a3ac34dd19ee5f0bf6de925a793a1d25a2d361090dafc9b751e1fc",
+  "model": "codex:gpt-5.6-luna+gpt-5.6-sol",
+  "generation_stages": [
+    {
+      "phase": "rationale_extract",
+      "backend": "codex",
+      "model": "gpt-5.6-luna"
+    },
+    {
+      "phase": "rationale_verify",
+      "backend": "codex",
+      "model": "gpt-5.6-sol"
+    }
+  ],
+  "source_tier": "newly_extracted_and_independently_model_reviewed",
+  "reviewed_target_turns": [
+    10,
+    11,
+    37,
+    38,
+    88,
+    108,
+    109,
+    112,
+    119,
+    130
+  ],
+  "notes": "",
+  "receipt_path": "receipts/3-industrial-organic.json",
+  "scoring_scope": "original_pitch_only",
+  "shared_across_input_modes": true,
+  "rationales": [
+    {
+      "rationale_label": "business_model_assessment",
+      "direction": "negative",
+      "salience": "primary",
+      "confidence": 0.96,
+      "utterance_type": "assessment",
+      "decision_link": "none",
+      "timing": "original_pitch",
+      "turn_index": 109,
+      "quote": "the operational complexity in your business, like what Sheel was talking about, is all the logistics of getting trash into the business.",
+      "explanation": "Jake views self-operated waste collection as an unnecessarily complex part of the service model, especially because it is intended to be temporary.",
+      "evidence": [
+        "the operational complexity in your business, like what Sheel was talking about, is all the logistics of getting trash into the business."
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 109,
+          "speaker": "Jake",
+          "quote": "the operational complexity in your business, like what Sheel was talking about, is all the logistics of getting trash into the business."
+        }
+      ],
+      "activation": "evaluated",
+      "source_rationale_id": "R4",
+      "utterance_kind": "concern",
+      "decision_support": "none",
+      "all_mention_ids": [
+        "R3",
+        "R4"
+      ]
+    },
+    {
+      "rationale_label": "execution_risk_assessment",
+      "direction": "negative",
+      "salience": "primary",
+      "confidence": 0.99,
+      "utterance_type": "decision_reason",
+      "decision_link": "explicit",
+      "timing": "original_pitch",
+      "turn_index": 119,
+      "quote": "We'd want to see some progress on making these things work operationally. And for that reason I'm going to pass.",
+      "explanation": "Jake passes because the company has not yet demonstrated that its logistics and operations can be executed.",
+      "evidence": [
+        "We'd want to see some progress on making these things work operationally. And for that reason I'm going to pass."
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 119,
+          "speaker": "Jake",
+          "quote": "We'd want to see some progress on making these things work operationally. And for that reason I'm going to pass."
+        }
+      ],
+      "activation": "evaluated",
+      "source_rationale_id": "R6",
+      "utterance_kind": "decision_explanation",
+      "decision_support": "supports_out",
+      "all_mention_ids": [
+        "R6"
+      ]
+    },
+    {
+      "rationale_label": "mission_alignment_preference",
+      "direction": "positive",
+      "salience": "secondary",
+      "confidence": 0.98,
+      "utterance_type": "assessment",
+      "decision_link": "none",
+      "timing": "original_pitch",
+      "turn_index": 119,
+      "quote": "I love the social good angle.",
+      "explanation": "Jake expresses personal alignment with the company's social-impact mission.",
+      "evidence": [
+        "I love the social good angle."
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 119,
+          "speaker": "Jake",
+          "quote": "I love the social good angle."
+        }
+      ],
+      "activation": "evaluated",
+      "source_rationale_id": "R5",
+      "utterance_kind": "assessment",
+      "decision_support": "none",
+      "all_mention_ids": [
+        "R5"
+      ]
+    },
+    {
+      "rationale_label": "solution_feasibility_assessment",
+      "direction": "neutral",
+      "salience": "secondary",
+      "confidence": 0.93,
+      "utterance_type": "question",
+      "decision_link": "none",
+      "timing": "original_pitch",
+      "turn_index": 38,
+      "quote": "What is your process?",
+      "explanation": "Jake asks how the waste-processing solution operates.",
+      "evidence": [
+        "What is your process?"
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 38,
+          "speaker": "Jake",
+          "quote": "What is your process?"
+        }
+      ],
+      "activation": "queried",
+      "source_rationale_id": "R2",
+      "utterance_kind": "question",
+      "decision_support": "none",
+      "all_mention_ids": [
+        "R2"
+      ]
+    }
+  ],
+  "later_rationales": [],
+  "excluded_rationales": [
+    {
+      "rationale_label": "corporate_structure_constraint",
+      "direction": "negative",
+      "salience": "secondary",
+      "confidence": 0.86,
+      "utterance_type": "concern",
+      "decision_link": "none",
+      "timing": "teaser",
+      "turn_index": 11,
+      "quote": "They're going to shut you down on that name. It's definitely trademark infringement.",
+      "explanation": "Jake identifies the startup's lack of rights to its proposed name as a potentially prohibitive IP issue.",
+      "evidence": [
+        "They're going to shut you down on that name. It's definitely trademark infringement."
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 11,
+          "speaker": "Jake",
+          "quote": "They're going to shut you down on that name. It's definitely trademark infringement."
+        }
+      ],
+      "activation": "evaluated",
+      "source_rationale_id": "R1"
+    }
+  ],
+  "rationale_mentions": [
+    {
+      "rationale_label": "solution_feasibility_assessment",
+      "direction": "neutral",
+      "salience": "secondary",
+      "confidence": 0.93,
+      "utterance_type": "question",
+      "decision_link": "none",
+      "timing": "original_pitch",
+      "turn_index": 38,
+      "quote": "What is your process?",
+      "explanation": "Jake asks how the waste-processing solution operates.",
+      "evidence": [
+        "What is your process?"
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 38,
+          "speaker": "Jake",
+          "quote": "What is your process?"
+        }
+      ],
+      "activation": "queried",
+      "source_rationale_id": "R2"
+    },
+    {
+      "rationale_label": "business_model_assessment",
+      "direction": "neutral",
+      "salience": "primary",
+      "confidence": 0.89,
+      "utterance_type": "question",
+      "decision_link": "none",
+      "timing": "original_pitch",
+      "turn_index": 108,
+      "quote": "Could you skip the middle stage and process a ton very inexpensively.",
+      "explanation": "Jake explores a leaner processing-first model that would avoid building a temporary collection operation.",
+      "evidence": [
+        "Could you skip the middle stage and process a ton very inexpensively."
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 108,
+          "speaker": "Jake",
+          "quote": "Could you skip the middle stage and process a ton very inexpensively."
+        }
+      ],
+      "activation": "queried",
+      "source_rationale_id": "R3"
+    },
+    {
+      "rationale_label": "business_model_assessment",
+      "direction": "negative",
+      "salience": "primary",
+      "confidence": 0.96,
+      "utterance_type": "concern",
+      "decision_link": "none",
+      "timing": "original_pitch",
+      "turn_index": 109,
+      "quote": "the operational complexity in your business, like what Sheel was talking about, is all the logistics of getting trash into the business.",
+      "explanation": "Jake views self-operated waste collection as an unnecessarily complex part of the service model, especially because it is intended to be temporary.",
+      "evidence": [
+        "the operational complexity in your business, like what Sheel was talking about, is all the logistics of getting trash into the business."
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 109,
+          "speaker": "Jake",
+          "quote": "the operational complexity in your business, like what Sheel was talking about, is all the logistics of getting trash into the business."
+        }
+      ],
+      "activation": "evaluated",
+      "source_rationale_id": "R4"
+    },
+    {
+      "rationale_label": "mission_alignment_preference",
+      "direction": "positive",
+      "salience": "secondary",
+      "confidence": 0.98,
+      "utterance_type": "assessment",
+      "decision_link": "none",
+      "timing": "original_pitch",
+      "turn_index": 119,
+      "quote": "I love the social good angle.",
+      "explanation": "Jake expresses personal alignment with the company's social-impact mission.",
+      "evidence": [
+        "I love the social good angle."
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 119,
+          "speaker": "Jake",
+          "quote": "I love the social good angle."
+        }
+      ],
+      "activation": "evaluated",
+      "source_rationale_id": "R5"
+    },
+    {
+      "rationale_label": "execution_risk_assessment",
+      "direction": "negative",
+      "salience": "primary",
+      "confidence": 0.99,
+      "utterance_type": "decision_explanation",
+      "decision_link": "supports_out",
+      "timing": "original_pitch",
+      "turn_index": 119,
+      "quote": "We'd want to see some progress on making these things work operationally. And for that reason I'm going to pass.",
+      "explanation": "Jake passes because the company has not yet demonstrated that its logistics and operations can be executed.",
+      "evidence": [
+        "We'd want to see some progress on making these things work operationally. And for that reason I'm going to pass."
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 119,
+          "speaker": "Jake",
+          "quote": "We'd want to see some progress on making these things work operationally. And for that reason I'm going to pass."
+        }
+      ],
+      "activation": "evaluated",
+      "source_rationale_id": "R6"
+    }
+  ],
+  "expanded_quote_evidence": [],
+  "rejected_after_evidence_check": []
+}

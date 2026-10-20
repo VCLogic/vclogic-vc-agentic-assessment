@@ -1,0 +1,283 @@
+{
+  "schema": "phase1-rationale-reference-v1",
+  "extraction_version": "pitchshow-rationales-v1",
+  "fingerprint": "af113f9c4d651cfbde4c4b278b25fba6261646623876111044553d64b5ca37d6",
+  "episode_slug": "145-immersioned",
+  "vc_slug": "jesse-middleton-flybridge",
+  "vc_name": "Jesse Middleton",
+  "actual_decision": "Out",
+  "later_decision": "Unknown",
+  "reference_kind": "automated_transcript_observed_candidate",
+  "human_validated": false,
+  "source_format": "transcript-observed-rationales-v1",
+  "source_path": "../source/episodes/145-immersioned.json",
+  "source_sha256": "473b42839aa1ac9b057d99dc8ea9adfcb70105da70d9034a42196b6f391b4062",
+  "transcript_sha256": "2e69638722bf765923748c09ed69df171dc24c5231346c8cfc8bbf0735d99d4f",
+  "taxonomy_sha256": "eaa8734819a3ac34dd19ee5f0bf6de925a793a1d25a2d361090dafc9b751e1fc",
+  "model": "codex:gpt-5.6-luna+gpt-5.6-sol",
+  "generation_stages": [
+    {
+      "phase": "rationale_extract",
+      "backend": "codex",
+      "model": "gpt-5.6-luna"
+    },
+    {
+      "phase": "rationale_verify",
+      "backend": "codex",
+      "model": "gpt-5.6-sol"
+    }
+  ],
+  "source_tier": "newly_extracted_and_independently_model_reviewed",
+  "reviewed_target_turns": [
+    15,
+    17,
+    25,
+    27,
+    29,
+    46,
+    51,
+    53,
+    99,
+    101,
+    103,
+    113,
+    120,
+    122,
+    124,
+    127,
+    131
+  ],
+  "notes": "Non-rationale greetings, conversational prompts, jokes, acknowledgments, and disclaimers were excluded.",
+  "receipt_path": "receipts/145-immersioned.json",
+  "scoring_scope": "original_pitch_only",
+  "shared_across_input_modes": true,
+  "rationales": [
+    {
+      "rationale_label": "business_model_assessment",
+      "direction": "neutral",
+      "salience": "secondary",
+      "confidence": 0.96,
+      "utterance_type": "question",
+      "decision_link": "none",
+      "timing": "original_pitch",
+      "turn_index": 51,
+      "quote": "What does this business look like at scale?",
+      "explanation": "Jesse asks whether the scaled company would operate as a publisher, high-volume content producer, or studio and how that model would create long-term value.",
+      "evidence": [
+        "Can you talk a little bit about the business model and the dollars you're going after.",
+        "What does this business look like at scale?"
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 46,
+          "speaker": "Jesse",
+          "quote": "Can you talk a little bit about the business model and the dollars you're going after."
+        },
+        {
+          "turn_index": 51,
+          "speaker": "Jesse",
+          "quote": "What does this business look like at scale?"
+        }
+      ],
+      "activation": "queried",
+      "source_rationale_id": "R2",
+      "utterance_kind": "question",
+      "decision_support": "none",
+      "all_mention_ids": [
+        "R1",
+        "R2"
+      ]
+    },
+    {
+      "rationale_label": "go_to_market_strategy_assessment",
+      "direction": "negative",
+      "salience": "primary",
+      "confidence": 1.0,
+      "utterance_type": "decision_reason",
+      "decision_link": "explicit",
+      "timing": "original_pitch",
+      "turn_index": 101,
+      "quote": "My fear is that it doesn't - the uptake isn't as strong as you hope. And if that happens, I fall in the same bucket where I don't know how you go direct.",
+      "explanation": "Jesse declines because weak channel uptake would leave the company without a credible direct-sales path for acquiring schools.",
+      "evidence": [
+        "you will have states that may say, yeah, you can make it. My teachers can't buy it.",
+        "My fear is that it doesn't - the uptake isn't as strong as you hope. And if that happens, I fall in the same bucket where I don't know how you go direct."
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 99,
+          "speaker": "Jesse",
+          "quote": "you will have states that may say, yeah, you can make it. My teachers can't buy it."
+        },
+        {
+          "turn_index": 101,
+          "speaker": "Jesse",
+          "quote": "My fear is that it doesn't - the uptake isn't as strong as you hope. And if that happens, I fall in the same bucket where I don't know how you go direct."
+        }
+      ],
+      "activation": "evaluated",
+      "source_rationale_id": "R5",
+      "utterance_kind": "decision_explanation",
+      "decision_support": "supports_out",
+      "all_mention_ids": [
+        "R3",
+        "R5"
+      ]
+    },
+    {
+      "rationale_label": "investor_experience_bias",
+      "direction": "negative",
+      "salience": "secondary",
+      "confidence": 0.98,
+      "utterance_type": "decision_reason",
+      "decision_link": "explicit",
+      "timing": "original_pitch",
+      "turn_index": 101,
+      "quote": "Codeacademy was one of the larger ones and tried selling into education. It was mostly to consumer. But selling into educational systems is just so hard.",
+      "explanation": "Jesse draws on his fund’s prior edtech experience to support his skepticism about selling through educational systems.",
+      "evidence": [
+        "Codeacademy was one of the larger ones and tried selling into education. It was mostly to consumer. But selling into educational systems is just so hard."
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 101,
+          "speaker": "Jesse",
+          "quote": "Codeacademy was one of the larger ones and tried selling into education. It was mostly to consumer. But selling into educational systems is just so hard."
+        }
+      ],
+      "activation": "evaluated",
+      "source_rationale_id": "R4",
+      "utterance_kind": "decision_explanation",
+      "decision_support": "supports_out",
+      "all_mention_ids": [
+        "R4"
+      ]
+    }
+  ],
+  "later_rationales": [],
+  "excluded_rationales": [],
+  "rationale_mentions": [
+    {
+      "rationale_label": "business_model_assessment",
+      "direction": "neutral",
+      "salience": "secondary",
+      "confidence": 0.99,
+      "utterance_type": "question",
+      "decision_link": "none",
+      "timing": "original_pitch",
+      "turn_index": 46,
+      "quote": "Can you talk a little bit about the business model and the dollars you're going after.",
+      "explanation": "Jesse asks how the company monetizes and fits its offering into schools’ available purchasing budgets.",
+      "evidence": [
+        "Can you talk a little bit about the business model and the dollars you're going after."
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 46,
+          "speaker": "Jesse",
+          "quote": "Can you talk a little bit about the business model and the dollars you're going after."
+        }
+      ],
+      "activation": "queried",
+      "source_rationale_id": "R1"
+    },
+    {
+      "rationale_label": "business_model_assessment",
+      "direction": "neutral",
+      "salience": "secondary",
+      "confidence": 0.96,
+      "utterance_type": "question",
+      "decision_link": "none",
+      "timing": "original_pitch",
+      "turn_index": 51,
+      "quote": "What does this business look like at scale?",
+      "explanation": "Jesse asks whether the scaled company would operate as a publisher, high-volume content producer, or studio and how that model would create long-term value.",
+      "evidence": [
+        "What does this business look like at scale?"
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 51,
+          "speaker": "Jesse",
+          "quote": "What does this business look like at scale?"
+        }
+      ],
+      "activation": "queried",
+      "source_rationale_id": "R2"
+    },
+    {
+      "rationale_label": "go_to_market_strategy_assessment",
+      "direction": "negative",
+      "salience": "secondary",
+      "confidence": 0.96,
+      "utterance_type": "concern",
+      "decision_link": "supports_out",
+      "timing": "original_pitch",
+      "turn_index": 99,
+      "quote": "you will have states that may say, yeah, you can make it. My teachers can't buy it.",
+      "explanation": "Jesse identifies state-level purchasing restrictions as a barrier to reaching and converting school customers, a concern he carries into his refusal.",
+      "evidence": [
+        "you will have states that may say, yeah, you can make it. My teachers can't buy it."
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 99,
+          "speaker": "Jesse",
+          "quote": "you will have states that may say, yeah, you can make it. My teachers can't buy it."
+        }
+      ],
+      "activation": "evaluated",
+      "source_rationale_id": "R3"
+    },
+    {
+      "rationale_label": "investor_experience_bias",
+      "direction": "negative",
+      "salience": "secondary",
+      "confidence": 0.98,
+      "utterance_type": "decision_explanation",
+      "decision_link": "supports_out",
+      "timing": "original_pitch",
+      "turn_index": 101,
+      "quote": "Codeacademy was one of the larger ones and tried selling into education. It was mostly to consumer. But selling into educational systems is just so hard.",
+      "explanation": "Jesse draws on his fund’s prior edtech experience to support his skepticism about selling through educational systems.",
+      "evidence": [
+        "Codeacademy was one of the larger ones and tried selling into education. It was mostly to consumer. But selling into educational systems is just so hard."
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 101,
+          "speaker": "Jesse",
+          "quote": "Codeacademy was one of the larger ones and tried selling into education. It was mostly to consumer. But selling into educational systems is just so hard."
+        }
+      ],
+      "activation": "evaluated",
+      "source_rationale_id": "R4"
+    },
+    {
+      "rationale_label": "go_to_market_strategy_assessment",
+      "direction": "negative",
+      "salience": "primary",
+      "confidence": 1.0,
+      "utterance_type": "decision_explanation",
+      "decision_link": "supports_out",
+      "timing": "original_pitch",
+      "turn_index": 101,
+      "quote": "My fear is that it doesn't - the uptake isn't as strong as you hope. And if that happens, I fall in the same bucket where I don't know how you go direct.",
+      "explanation": "Jesse declines because weak channel uptake would leave the company without a credible direct-sales path for acquiring schools.",
+      "evidence": [
+        "My fear is that it doesn't - the uptake isn't as strong as you hope. And if that happens, I fall in the same bucket where I don't know how you go direct."
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 101,
+          "speaker": "Jesse",
+          "quote": "My fear is that it doesn't - the uptake isn't as strong as you hope. And if that happens, I fall in the same bucket where I don't know how you go direct."
+        }
+      ],
+      "activation": "evaluated",
+      "source_rationale_id": "R5"
+    }
+  ],
+  "expanded_quote_evidence": [],
+  "rejected_after_evidence_check": []
+}

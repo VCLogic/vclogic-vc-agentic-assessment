@@ -1,0 +1,65 @@
+{
+  "episode_slug": "100-when-investors-take-the-hot-seat",
+  "vc_slug": "jake-chapman-marque-ventures",
+  "review_status": "unobserved_or_disputed",
+  "evaluation_eligible": false,
+  "source_sha256": "ce617393fd14dc51d9f71837295f2378625c2146fb1669d39b1e52046922c8bb",
+  "pitch_sha256": null,
+  "review_receipt": "../../../reviews/100-when-investors-take-the-hot-seat.json",
+  "boundary": {
+    "pitch_start_turn": 11,
+    "pitch_end_turn": 68,
+    "boundary_reason": "The original fund pitch begins after the teaser, introductions, and setup at turn 11. The window ends exclusively at turn 68, before Jillian's investor-response and diligence negotiation segment. Turns 86 onward are follow-up interviews and outro; turn 74 contains the explicit refusal used as decision evidence."
+  },
+  "segments": [],
+  "removed_candidate_lines": [],
+  "semantic_review": {
+    "boundary_supported": true,
+    "remove_lines": [],
+    "safe_after_removal": true,
+    "reason": "The proposed window starts at turn 11, after the teaser, introductions, and setup, and ends before turn 68, where investor-specific response and diligence/negotiation begins. The explicit refusal at turn 74 is correctly outside the factual pitch window. No candidate lines were supplied for removal, and no target-specific later outcome is established by the generic statement that there were no takers.",
+    "decisions": [
+      {
+        "vc_slug": "charles-hudson-precursor-ventures",
+        "pitch_decision_supported": false,
+        "later_decision_supported": false,
+        "pitch_evidence": [],
+        "later_evidence": [],
+        "condition": null,
+        "reason": "Charles provides strategy feedback and skepticism but never explicitly commits to or refuses an investment during the pitch. The later statement that Jake and Howie got no takers does not identify Charles, so no later decision can be attributed to him."
+      },
+      {
+        "vc_slug": "howie-diamond-pure-ventures",
+        "pitch_decision_supported": false,
+        "later_decision_supported": false,
+        "pitch_evidence": [],
+        "later_evidence": [],
+        "condition": null,
+        "reason": "Howie is one of the founders pitching Alpha Bridge Ventures, not an LP investor deciding whether to invest in it. His later statements concern operating and fundraising for his own fund and do not establish a target-VC decision."
+      },
+      {
+        "vc_slug": "jake-chapman-marque-ventures",
+        "pitch_decision_supported": false,
+        "later_decision_supported": false,
+        "pitch_evidence": [],
+        "later_evidence": [],
+        "condition": null,
+        "reason": "Jake is one of the founders pitching Alpha Bridge Ventures, not an LP investor deciding whether to invest in it. His later statements concern the fund's fundraising and portfolio, not a target-VC decision about this pitch."
+      },
+      {
+        "vc_slug": "jillian-manus-structure-capital",
+        "pitch_decision_supported": true,
+        "later_decision_supported": false,
+        "pitch_evidence": [
+          {
+            "turn_index": 74,
+            "quote": "But I would never invest in this if your selling point is a bridge."
+          }
+        ],
+        "later_evidence": [],
+        "condition": "Jillian refuses if the fund's selling point remains a bridge; she does not make an unconditional commitment to invest if the positioning changes.",
+        "reason": "Jillian explicitly refuses investment on the stated bridge positioning during the original pitch. The proposed Out classification is supported, but its null condition was incomplete. No later investment or investor-specific non-investment report identifies Jillian; the generic statement that there were no takers is insufficient."
+      }
+    ]
+  }
+}

@@ -1,16 +1,13 @@
 # timing
 
-[ev:cyan-0050] label=market_timing direction=neutral source=talk:GE6ZHzQZxjk
-> "Sometimes you get the timing. It was the right idea but the wrong company."
+Verbatim transcript excerpts; whitespace normalized. Labels describe the cited statement.
 
-[ev:cyan-0051] label=market_timing direction=negative source=talk:bnp10ggOxao
-> "I learned a big lesson, which is you could have the best idea in the world, but enter the market at the wrong time."
+[ev:cyan-banister-long-journey-ventures-0025] label=market_timing direction=positive source=full:8ee5ebf743de964542c588c3
+> "I’m really excited about AI being a new paintbrush and a new tool to unlock all the creativity in this world that has been dormant."
 
-[ev:cyan-0052] label=market_timing direction=neutral source=talk:ajW2yv3Zxys
-> "It's just the time to strike as an investor that's a timing issue. Uh, You know, it's very, very difficult to figure out."
+Support: inferred. Interpretation: Banister sees AI as enabling a new wave of previously constrained creative production.
 
-[ev:cyan-0053] label=market_timing direction=negative source=talk:ajW2yv3Zxys
-> "A lot of people put a ton of money into VR thinking it was going to have its moment. And its breakout success stories were Beat Saber, Gorilla Tag. And that's about it."
+[ev:cyan-banister-long-journey-ventures-0027] label=market_timing direction=neutral source=full:8ee5ebf743de964542c588c3
+> "I tend to not play in the why now space. I tend to play in the what’s coming space."
 
-[ev:cyan-0054] label=market_timing direction=positive source=talk:0Fls8LScXQ8
-> "I believe we're moving towards that future of a 1099 future. I recently met with Intuit and they believe that too. I think more and more people want flexibility and they want to work in multiple different companies and that's just the way that we're heading."
+Support: explicit. Interpretation: Banister explicitly favors anticipating emerging categories over investing from conventional present-tense timing arguments.

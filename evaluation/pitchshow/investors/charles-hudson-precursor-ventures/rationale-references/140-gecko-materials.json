@@ -1,0 +1,414 @@
+{
+  "schema": "phase1-rationale-reference-v1",
+  "extraction_version": "pitchshow-rationales-v1",
+  "fingerprint": "a4e2b69d522ed50f5143a642fc5ce8ba183c169e693d67fd5b51a6252e55fb40",
+  "episode_slug": "140-gecko-materials",
+  "vc_slug": "charles-hudson-precursor-ventures",
+  "vc_name": "Charles Hudson",
+  "actual_decision": "Out",
+  "later_decision": "Unknown",
+  "reference_kind": "automated_transcript_observed_candidate",
+  "human_validated": false,
+  "source_format": "transcript-observed-rationales-v1",
+  "source_path": "../source/episodes/140-gecko-materials.json",
+  "source_sha256": "055a494b509a9e2f1ee7b2499534a1a2db59f1b3dc4a2f3fab6b75593d2dfb6d",
+  "transcript_sha256": "7137c27df00175a7db486bd330450ce36b44845cb6ad1d329648bb8b13d65508",
+  "taxonomy_sha256": "eaa8734819a3ac34dd19ee5f0bf6de925a793a1d25a2d361090dafc9b751e1fc",
+  "model": "openai/gpt-5.6-luna",
+  "source_tier": "newly_extracted_and_independently_model_reviewed",
+  "reviewed_target_turns": [
+    1,
+    4,
+    9,
+    11,
+    13,
+    14,
+    16,
+    18,
+    66,
+    76,
+    78,
+    98,
+    145,
+    147,
+    149,
+    157
+  ],
+  "notes": "The greetings, neutral sensory comment, material but purely information-seeking funding question, closing thanks, later commentary about the product's apparent simplicity, and bare confirmation did not independently express a taxonomy-defined rationale.",
+  "receipt_path": "receipts/140-gecko-materials.json",
+  "scoring_scope": "original_pitch_only",
+  "shared_across_input_modes": true,
+  "rationales": [
+    {
+      "rationale_label": "investment_thesis_constraint",
+      "direction": "negative",
+      "salience": "primary",
+      "confidence": 0.98,
+      "utterance_type": "decision_reason",
+      "decision_link": "explicit",
+      "timing": "original_pitch",
+      "turn_index": 76,
+      "quote": "It's a bit beyond what we would do at Precursor",
+      "explanation": "Charles identifies the opportunity as outside Precursor's normal investment scope.",
+      "evidence": [
+        "It's a bit beyond what we would do at Precursor"
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 76,
+          "speaker": "Charles",
+          "quote": "It's a bit beyond what we would do at Precursor"
+        }
+      ],
+      "activation": "evaluated",
+      "source_rationale_id": "R6",
+      "utterance_kind": "decision_explanation",
+      "decision_support": "supports_out",
+      "all_mention_ids": [
+        "R6"
+      ]
+    },
+    {
+      "rationale_label": "investor_value_add_fit",
+      "direction": "positive",
+      "salience": "secondary",
+      "confidence": 0.96,
+      "utterance_type": "assessment",
+      "decision_link": "none",
+      "timing": "original_pitch",
+      "turn_index": 78,
+      "quote": "I have a few of my investors, too, who are very involved in the world of industrials, who I think have use cases I can't even imagine or articulate. So we'd love to be of help.",
+      "explanation": "Charles identifies relevant industrial connections and offers help beyond capital.",
+      "evidence": [
+        "One in particular that I think could - you could solve some challenges that they've been struggling with.",
+        "I have a few of my investors, too, who are very involved in the world of industrials, who I think have use cases I can't even imagine or articulate. So we'd love to be of help."
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 76,
+          "speaker": "Charles",
+          "quote": "One in particular that I think could - you could solve some challenges that they've been struggling with."
+        },
+        {
+          "turn_index": 78,
+          "speaker": "Charles",
+          "quote": "I have a few of my investors, too, who are very involved in the world of industrials, who I think have use cases I can't even imagine or articulate. So we'd love to be of help."
+        }
+      ],
+      "activation": "evaluated",
+      "source_rationale_id": "R9",
+      "utterance_kind": "supporting_argument",
+      "decision_support": "none",
+      "all_mention_ids": [
+        "R8",
+        "R9"
+      ]
+    },
+    {
+      "rationale_label": "product_appeal_assessment",
+      "direction": "positive",
+      "salience": "secondary",
+      "confidence": 0.92,
+      "utterance_type": "assessment",
+      "decision_link": "none",
+      "timing": "original_pitch",
+      "turn_index": 76,
+      "quote": "but this is super interesting.",
+      "explanation": "Charles expresses strong positive interest in the opportunity despite the firm's scope constraint.",
+      "evidence": [
+        "That's really trippy.",
+        "That's super trippy. Wow.",
+        "It's pretty, pretty amazing.",
+        "The 'feel me' is cool.",
+        "but this is super interesting."
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 9,
+          "speaker": "Charles",
+          "quote": "That's really trippy."
+        },
+        {
+          "turn_index": 11,
+          "speaker": "Charles",
+          "quote": "That's super trippy. Wow."
+        },
+        {
+          "turn_index": 13,
+          "speaker": "Charles",
+          "quote": "It's pretty, pretty amazing."
+        },
+        {
+          "turn_index": 14,
+          "speaker": "Charles",
+          "quote": "The 'feel me' is cool."
+        },
+        {
+          "turn_index": 76,
+          "speaker": "Charles",
+          "quote": "but this is super interesting."
+        }
+      ],
+      "activation": "evaluated",
+      "source_rationale_id": "R7",
+      "utterance_kind": "assessment",
+      "decision_support": "none",
+      "all_mention_ids": [
+        "R1",
+        "R2",
+        "R3",
+        "R4",
+        "R7"
+      ]
+    },
+    {
+      "rationale_label": "solution_feasibility_assessment",
+      "direction": "positive",
+      "salience": "secondary",
+      "confidence": 0.98,
+      "utterance_type": "assessment",
+      "decision_link": "none",
+      "timing": "original_pitch",
+      "turn_index": 18,
+      "quote": "Except this one actually works.",
+      "explanation": "Charles confirms that the product functions unlike the ineffective alternatives being discussed.",
+      "evidence": [
+        "Except this one actually works."
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 18,
+          "speaker": "Charles",
+          "quote": "Except this one actually works."
+        }
+      ],
+      "activation": "evaluated",
+      "source_rationale_id": "R5",
+      "utterance_kind": "supporting_argument",
+      "decision_support": "none",
+      "all_mention_ids": [
+        "R5"
+      ]
+    }
+  ],
+  "later_rationales": [],
+  "excluded_rationales": [],
+  "rationale_mentions": [
+    {
+      "rationale_label": "product_appeal_assessment",
+      "direction": "positive",
+      "salience": "secondary",
+      "confidence": 0.9,
+      "utterance_type": "assessment",
+      "decision_link": "none",
+      "timing": "original_pitch",
+      "turn_index": 9,
+      "quote": "That's really trippy.",
+      "explanation": "Charles reacts positively to the hands-on product demonstration.",
+      "evidence": [
+        "That's really trippy."
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 9,
+          "speaker": "Charles",
+          "quote": "That's really trippy."
+        }
+      ],
+      "activation": "evaluated",
+      "source_rationale_id": "R1"
+    },
+    {
+      "rationale_label": "product_appeal_assessment",
+      "direction": "positive",
+      "salience": "secondary",
+      "confidence": 0.9,
+      "utterance_type": "assessment",
+      "decision_link": "none",
+      "timing": "original_pitch",
+      "turn_index": 11,
+      "quote": "That's super trippy. Wow.",
+      "explanation": "Charles expresses enthusiastic approval of the demonstrated product.",
+      "evidence": [
+        "That's super trippy. Wow."
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 11,
+          "speaker": "Charles",
+          "quote": "That's super trippy. Wow."
+        }
+      ],
+      "activation": "evaluated",
+      "source_rationale_id": "R2"
+    },
+    {
+      "rationale_label": "product_appeal_assessment",
+      "direction": "positive",
+      "salience": "secondary",
+      "confidence": 0.95,
+      "utterance_type": "assessment",
+      "decision_link": "none",
+      "timing": "original_pitch",
+      "turn_index": 13,
+      "quote": "It's pretty, pretty amazing.",
+      "explanation": "Charles describes the product demonstration as impressive.",
+      "evidence": [
+        "It's pretty, pretty amazing."
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 13,
+          "speaker": "Charles",
+          "quote": "It's pretty, pretty amazing."
+        }
+      ],
+      "activation": "evaluated",
+      "source_rationale_id": "R3"
+    },
+    {
+      "rationale_label": "product_appeal_assessment",
+      "direction": "positive",
+      "salience": "secondary",
+      "confidence": 0.9,
+      "utterance_type": "assessment",
+      "decision_link": "none",
+      "timing": "original_pitch",
+      "turn_index": 14,
+      "quote": "The 'feel me' is cool.",
+      "explanation": "Charles positively assesses the product's tactile demonstration.",
+      "evidence": [
+        "The 'feel me' is cool."
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 14,
+          "speaker": "Charles",
+          "quote": "The 'feel me' is cool."
+        }
+      ],
+      "activation": "evaluated",
+      "source_rationale_id": "R4"
+    },
+    {
+      "rationale_label": "solution_feasibility_assessment",
+      "direction": "positive",
+      "salience": "secondary",
+      "confidence": 0.98,
+      "utterance_type": "supporting_argument",
+      "decision_link": "none",
+      "timing": "original_pitch",
+      "turn_index": 18,
+      "quote": "Except this one actually works.",
+      "explanation": "Charles confirms that the product functions unlike the ineffective alternatives being discussed.",
+      "evidence": [
+        "Except this one actually works."
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 18,
+          "speaker": "Charles",
+          "quote": "Except this one actually works."
+        }
+      ],
+      "activation": "evaluated",
+      "source_rationale_id": "R5"
+    },
+    {
+      "rationale_label": "investment_thesis_constraint",
+      "direction": "negative",
+      "salience": "primary",
+      "confidence": 0.98,
+      "utterance_type": "decision_explanation",
+      "decision_link": "supports_out",
+      "timing": "original_pitch",
+      "turn_index": 76,
+      "quote": "It's a bit beyond what we would do at Precursor",
+      "explanation": "Charles identifies the opportunity as outside Precursor's normal investment scope.",
+      "evidence": [
+        "It's a bit beyond what we would do at Precursor"
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 76,
+          "speaker": "Charles",
+          "quote": "It's a bit beyond what we would do at Precursor"
+        }
+      ],
+      "activation": "evaluated",
+      "source_rationale_id": "R6"
+    },
+    {
+      "rationale_label": "product_appeal_assessment",
+      "direction": "positive",
+      "salience": "secondary",
+      "confidence": 0.92,
+      "utterance_type": "assessment",
+      "decision_link": "none",
+      "timing": "original_pitch",
+      "turn_index": 76,
+      "quote": "but this is super interesting.",
+      "explanation": "Charles expresses strong positive interest in the opportunity despite the firm's scope constraint.",
+      "evidence": [
+        "but this is super interesting."
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 76,
+          "speaker": "Charles",
+          "quote": "but this is super interesting."
+        }
+      ],
+      "activation": "evaluated",
+      "source_rationale_id": "R7"
+    },
+    {
+      "rationale_label": "investor_value_add_fit",
+      "direction": "positive",
+      "salience": "secondary",
+      "confidence": 0.94,
+      "utterance_type": "supporting_argument",
+      "decision_link": "none",
+      "timing": "original_pitch",
+      "turn_index": 76,
+      "quote": "One in particular that I think could - you could solve some challenges that they've been struggling with.",
+      "explanation": "Charles sees potential value for an existing hardware portfolio company from the product.",
+      "evidence": [
+        "One in particular that I think could - you could solve some challenges that they've been struggling with."
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 76,
+          "speaker": "Charles",
+          "quote": "One in particular that I think could - you could solve some challenges that they've been struggling with."
+        }
+      ],
+      "activation": "evaluated",
+      "source_rationale_id": "R8"
+    },
+    {
+      "rationale_label": "investor_value_add_fit",
+      "direction": "positive",
+      "salience": "secondary",
+      "confidence": 0.96,
+      "utterance_type": "supporting_argument",
+      "decision_link": "none",
+      "timing": "original_pitch",
+      "turn_index": 78,
+      "quote": "I have a few of my investors, too, who are very involved in the world of industrials, who I think have use cases I can't even imagine or articulate. So we'd love to be of help.",
+      "explanation": "Charles identifies relevant industrial connections and offers help beyond capital.",
+      "evidence": [
+        "I have a few of my investors, too, who are very involved in the world of industrials, who I think have use cases I can't even imagine or articulate. So we'd love to be of help."
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 78,
+          "speaker": "Charles",
+          "quote": "I have a few of my investors, too, who are very involved in the world of industrials, who I think have use cases I can't even imagine or articulate. So we'd love to be of help."
+        }
+      ],
+      "activation": "evaluated",
+      "source_rationale_id": "R9"
+    }
+  ]
+}

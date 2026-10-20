@@ -1,0 +1,861 @@
+{
+  "schema": "phase1-rationale-reference-v1",
+  "extraction_version": "pitchshow-rationales-v1",
+  "fingerprint": "6d0c7a79ff82e7327a2b43c33e4a4d2235b51fae72399af0836fab593246d883",
+  "episode_slug": "7-shimmur",
+  "vc_slug": "howie-diamond-pure-ventures",
+  "vc_name": "Howie Diamond",
+  "actual_decision": "Out",
+  "later_decision": "Unknown",
+  "reference_kind": "automated_transcript_observed_candidate",
+  "human_validated": false,
+  "source_format": "transcript-observed-rationales-v1",
+  "source_path": "../source/episodes/7-shimmur.json",
+  "source_sha256": "f378c3ab039f2fe216536f14a30a57bffdf37001c39fcb9b95e216620fa16424",
+  "transcript_sha256": "d55663dd9828a2c75e54068dcf0558115c59f9880081a8afb21b58bae2825891",
+  "taxonomy_sha256": "eaa8734819a3ac34dd19ee5f0bf6de925a793a1d25a2d361090dafc9b751e1fc",
+  "model": "codex:gpt-5.6-luna+gpt-5.6-sol",
+  "generation_stages": [
+    {
+      "phase": "rationale_extract",
+      "backend": "codex",
+      "model": "gpt-5.6-luna"
+    },
+    {
+      "phase": "rationale_verify",
+      "backend": "codex",
+      "model": "gpt-5.6-sol"
+    }
+  ],
+  "source_tier": "newly_extracted_and_independently_model_reviewed",
+  "reviewed_target_turns": [
+    2,
+    5,
+    10,
+    14,
+    22,
+    25,
+    27,
+    29,
+    34,
+    41,
+    47,
+    49,
+    51,
+    62,
+    100,
+    102,
+    104,
+    107,
+    109,
+    111,
+    114,
+    116,
+    118,
+    120,
+    123,
+    128
+  ],
+  "notes": "",
+  "receipt_path": "receipts/7-shimmur.json",
+  "scoring_scope": "original_pitch_only",
+  "shared_across_input_modes": true,
+  "rationales": [
+    {
+      "rationale_label": "business_model_assessment",
+      "direction": "neutral",
+      "salience": "secondary",
+      "confidence": 0.98,
+      "utterance_type": "question",
+      "decision_link": "none",
+      "timing": "original_pitch",
+      "turn_index": 62,
+      "quote": "Some kind of affiliate model?",
+      "explanation": "Tests whether affiliate revenue is part of the proposed monetization model.",
+      "evidence": [
+        "Some kind of affiliate model?"
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 62,
+          "speaker": "Howie",
+          "quote": "Some kind of affiliate model?"
+        }
+      ],
+      "activation": "queried",
+      "source_rationale_id": "R9",
+      "utterance_kind": "question",
+      "decision_support": "none",
+      "all_mention_ids": [
+        "R9"
+      ]
+    },
+    {
+      "rationale_label": "founder_execution",
+      "direction": "positive",
+      "salience": "secondary",
+      "confidence": 0.96,
+      "utterance_type": "assessment",
+      "decision_link": "none",
+      "timing": "original_pitch",
+      "turn_index": 123,
+      "quote": "I think you're already executing against it, so it's awesome.",
+      "explanation": "Credits the founder with already executing effectively on the opportunity.",
+      "evidence": [
+        "I think you're already executing against it, so it's awesome."
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 123,
+          "speaker": "Howie",
+          "quote": "I think you're already executing against it, so it's awesome."
+        }
+      ],
+      "activation": "evaluated",
+      "source_rationale_id": "R18",
+      "utterance_kind": "supporting_argument",
+      "decision_support": "none",
+      "all_mention_ids": [
+        "R18"
+      ]
+    },
+    {
+      "rationale_label": "founder_qualities",
+      "direction": "positive",
+      "salience": "secondary",
+      "confidence": 0.94,
+      "utterance_type": "assessment",
+      "decision_link": "none",
+      "timing": "original_pitch",
+      "turn_index": 123,
+      "quote": "you exemplify that energy in a really good way",
+      "explanation": "Praises the founder's personal fit with the energy of that ecosystem.",
+      "evidence": [
+        "I dig your mojo, man.",
+        "You're thinking about things in the right way.",
+        "you exemplify that energy in a really good way"
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 100,
+          "speaker": "Howie",
+          "quote": "I dig your mojo, man."
+        },
+        {
+          "turn_index": 102,
+          "speaker": "Howie",
+          "quote": "You're thinking about things in the right way."
+        },
+        {
+          "turn_index": 123,
+          "speaker": "Howie",
+          "quote": "you exemplify that energy in a really good way"
+        }
+      ],
+      "activation": "evaluated",
+      "source_rationale_id": "R16",
+      "utterance_kind": "supporting_argument",
+      "decision_support": "none",
+      "all_mention_ids": [
+        "R10",
+        "R11",
+        "R16"
+      ]
+    },
+    {
+      "rationale_label": "investment_thesis_constraint",
+      "direction": "negative",
+      "salience": "primary",
+      "confidence": 1.0,
+      "utterance_type": "decision_reason",
+      "decision_link": "explicit",
+      "timing": "original_pitch",
+      "turn_index": 123,
+      "quote": "just because it doesn't fit my fund I'm going to pass for now",
+      "explanation": "Explicitly links his refusal to the company's mismatch with his fund's mandate.",
+      "evidence": [
+        "this just doesn't fit really my, the thesis of what my fund, Ranch Ventures, is doing",
+        "just because it doesn't fit my fund I'm going to pass for now"
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 116,
+          "speaker": "Howie",
+          "quote": "this just doesn't fit really my, the thesis of what my fund, Ranch Ventures, is doing"
+        },
+        {
+          "turn_index": 123,
+          "speaker": "Howie",
+          "quote": "just because it doesn't fit my fund I'm going to pass for now"
+        }
+      ],
+      "activation": "evaluated",
+      "source_rationale_id": "R19",
+      "utterance_kind": "decision_explanation",
+      "decision_support": "supports_out",
+      "all_mention_ids": [
+        "R13",
+        "R19"
+      ]
+    },
+    {
+      "rationale_label": "investor_experience_bias",
+      "direction": "positive",
+      "salience": "secondary",
+      "confidence": 0.94,
+      "utterance_type": "assessment",
+      "decision_link": "none",
+      "timing": "original_pitch",
+      "turn_index": 123,
+      "quote": "I lived in LA for eight or nine years; I was in the music industry for a long time; I still have friends in Silicon Beach.",
+      "explanation": "Invokes his personal experience in Los Angeles and the music industry as context for his favorable assessment.",
+      "evidence": [
+        "I lived in LA for eight or nine years; I was in the music industry for a long time; I still have friends in Silicon Beach."
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 123,
+          "speaker": "Howie",
+          "quote": "I lived in LA for eight or nine years; I was in the music industry for a long time; I still have friends in Silicon Beach."
+        }
+      ],
+      "activation": "evaluated",
+      "source_rationale_id": "R14",
+      "utterance_kind": "supporting_argument",
+      "decision_support": "none",
+      "all_mention_ids": [
+        "R14"
+      ]
+    },
+    {
+      "rationale_label": "market_size_assessment",
+      "direction": "neutral",
+      "salience": "secondary",
+      "confidence": 0.99,
+      "utterance_type": "question",
+      "decision_link": "none",
+      "timing": "original_pitch",
+      "turn_index": 51,
+      "quote": "How many influencers are there out there in the market right now?",
+      "explanation": "Asks about the size of the potential influencer market.",
+      "evidence": [
+        "What qualifies someone as an influencer?",
+        "How many influencers are there out there in the market right now?"
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 29,
+          "speaker": "Howie",
+          "quote": "What qualifies someone as an influencer?"
+        },
+        {
+          "turn_index": 51,
+          "speaker": "Howie",
+          "quote": "How many influencers are there out there in the market right now?"
+        }
+      ],
+      "activation": "queried",
+      "source_rationale_id": "R8",
+      "utterance_kind": "question",
+      "decision_support": "none",
+      "all_mention_ids": [
+        "R4",
+        "R8"
+      ]
+    },
+    {
+      "rationale_label": "market_timing",
+      "direction": "positive",
+      "salience": "secondary",
+      "confidence": 0.85,
+      "utterance_type": "assessment",
+      "decision_link": "none",
+      "timing": "original_pitch",
+      "turn_index": 123,
+      "quote": "I know that's like a thriving up and coming ecosystem.",
+      "explanation": "Views the Los Angeles ecosystem surrounding the opportunity as favorably emerging.",
+      "evidence": [
+        "I know that's like a thriving up and coming ecosystem."
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 123,
+          "speaker": "Howie",
+          "quote": "I know that's like a thriving up and coming ecosystem."
+        }
+      ],
+      "activation": "evaluated",
+      "source_rationale_id": "R15",
+      "utterance_kind": "supporting_argument",
+      "decision_support": "none",
+      "all_mention_ids": [
+        "R15"
+      ]
+    },
+    {
+      "rationale_label": "product_adoption",
+      "direction": "neutral",
+      "salience": "secondary",
+      "confidence": 0.98,
+      "utterance_type": "question",
+      "decision_link": "none",
+      "timing": "original_pitch",
+      "turn_index": 49,
+      "quote": "So these are 166,000 registered users?",
+      "explanation": "Clarifies whether the reported traction represents registered users.",
+      "evidence": [
+        "What are your numbers?",
+        "So these are 166,000 registered users?"
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 47,
+          "speaker": "Howie",
+          "quote": "What are your numbers?"
+        },
+        {
+          "turn_index": 49,
+          "speaker": "Howie",
+          "quote": "So these are 166,000 registered users?"
+        }
+      ],
+      "activation": "queried",
+      "source_rationale_id": "R7",
+      "utterance_kind": "question",
+      "decision_support": "none",
+      "all_mention_ids": [
+        "R6",
+        "R7"
+      ]
+    },
+    {
+      "rationale_label": "product_appeal_assessment",
+      "direction": "positive",
+      "salience": "secondary",
+      "confidence": 0.91,
+      "utterance_type": "assessment",
+      "decision_link": "none",
+      "timing": "original_pitch",
+      "turn_index": 123,
+      "quote": "I think this idea is perfect for that type of environment",
+      "explanation": "Assesses the product concept as especially well suited to its surrounding environment.",
+      "evidence": [
+        "I like this idea of nurturing these influencer-to-fan relationships.",
+        "I think this idea is perfect for that type of environment"
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 102,
+          "speaker": "Howie",
+          "quote": "I like this idea of nurturing these influencer-to-fan relationships."
+        },
+        {
+          "turn_index": 123,
+          "speaker": "Howie",
+          "quote": "I think this idea is perfect for that type of environment"
+        }
+      ],
+      "activation": "evaluated",
+      "source_rationale_id": "R17",
+      "utterance_kind": "supporting_argument",
+      "decision_support": "none",
+      "all_mention_ids": [
+        "R12",
+        "R17"
+      ]
+    },
+    {
+      "rationale_label": "solution_feasibility_assessment",
+      "direction": "negative",
+      "salience": "secondary",
+      "confidence": 0.99,
+      "utterance_type": "assessment",
+      "decision_link": "none",
+      "timing": "original_pitch",
+      "turn_index": 41,
+      "quote": "as an influencer, me as a person, I don't scale",
+      "explanation": "Argues that an influencer's finite attention may prevent the engagement model from scaling.",
+      "evidence": [
+        "as an influencer, me as a person, I don't scale"
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 41,
+          "speaker": "Howie",
+          "quote": "as an influencer, me as a person, I don't scale"
+        }
+      ],
+      "activation": "evaluated",
+      "source_rationale_id": "R5",
+      "utterance_kind": "concern",
+      "decision_support": "none",
+      "all_mention_ids": [
+        "R3",
+        "R5"
+      ]
+    }
+  ],
+  "later_rationales": [],
+  "excluded_rationales": [
+    {
+      "rationale_label": "solution_feasibility_assessment",
+      "direction": "neutral",
+      "salience": "secondary",
+      "confidence": 0.96,
+      "utterance_type": "question",
+      "decision_link": "none",
+      "timing": "teaser",
+      "turn_index": 2,
+      "quote": "How do you address every comment, every fan, on a daily basis when there's hundreds and thousands of messages coming in?",
+      "explanation": "Asks how influencer engagement can remain operationally manageable at high message volumes.",
+      "evidence": [
+        "How do you address every comment, every fan, on a daily basis when there's hundreds and thousands of messages coming in?"
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 2,
+          "speaker": "Howie Diamond",
+          "quote": "How do you address every comment, every fan, on a daily basis when there's hundreds and thousands of messages coming in?"
+        }
+      ],
+      "activation": "queried",
+      "source_rationale_id": "R1"
+    },
+    {
+      "rationale_label": "solution_feasibility_assessment",
+      "direction": "neutral",
+      "salience": "secondary",
+      "confidence": 0.94,
+      "utterance_type": "assessment",
+      "decision_link": "none",
+      "timing": "teaser",
+      "turn_index": 10,
+      "quote": "I want to know that you can build something that's like, actually functional.",
+      "explanation": "States product functionality as an investment-evaluation criterion.",
+      "evidence": [
+        "I want to know that you can build something that's like, actually functional."
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 10,
+          "speaker": "Howie",
+          "quote": "I want to know that you can build something that's like, actually functional."
+        }
+      ],
+      "activation": "evaluated",
+      "source_rationale_id": "R2"
+    }
+  ],
+  "rationale_mentions": [
+    {
+      "rationale_label": "solution_feasibility_assessment",
+      "direction": "neutral",
+      "salience": "secondary",
+      "confidence": 0.86,
+      "utterance_type": "question",
+      "decision_link": "none",
+      "timing": "original_pitch",
+      "turn_index": 25,
+      "quote": "I click into one of my tribes and this is content that's being produced from other tribe members?",
+      "explanation": "Clarifies the operation of the product's user-generated content mechanism.",
+      "evidence": [
+        "I click into one of my tribes and this is content that's being produced from other tribe members?"
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 25,
+          "speaker": "Howie",
+          "quote": "I click into one of my tribes and this is content that's being produced from other tribe members?"
+        }
+      ],
+      "activation": "queried",
+      "source_rationale_id": "R3"
+    },
+    {
+      "rationale_label": "market_size_assessment",
+      "direction": "neutral",
+      "salience": "secondary",
+      "confidence": 0.82,
+      "utterance_type": "question",
+      "decision_link": "none",
+      "timing": "original_pitch",
+      "turn_index": 29,
+      "quote": "What qualifies someone as an influencer?",
+      "explanation": "Probes how the company defines the population constituting its target market.",
+      "evidence": [
+        "What qualifies someone as an influencer?"
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 29,
+          "speaker": "Howie",
+          "quote": "What qualifies someone as an influencer?"
+        }
+      ],
+      "activation": "queried",
+      "source_rationale_id": "R4"
+    },
+    {
+      "rationale_label": "solution_feasibility_assessment",
+      "direction": "negative",
+      "salience": "secondary",
+      "confidence": 0.99,
+      "utterance_type": "concern",
+      "decision_link": "none",
+      "timing": "original_pitch",
+      "turn_index": 41,
+      "quote": "as an influencer, me as a person, I don't scale",
+      "explanation": "Argues that an influencer's finite attention may prevent the engagement model from scaling.",
+      "evidence": [
+        "as an influencer, me as a person, I don't scale"
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 41,
+          "speaker": "Howie",
+          "quote": "as an influencer, me as a person, I don't scale"
+        }
+      ],
+      "activation": "evaluated",
+      "source_rationale_id": "R5"
+    },
+    {
+      "rationale_label": "product_adoption",
+      "direction": "neutral",
+      "salience": "secondary",
+      "confidence": 0.95,
+      "utterance_type": "question",
+      "decision_link": "none",
+      "timing": "original_pitch",
+      "turn_index": 47,
+      "quote": "What are your numbers?",
+      "explanation": "Requests the company's user and traction metrics.",
+      "evidence": [
+        "What are your numbers?"
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 47,
+          "speaker": "Howie",
+          "quote": "What are your numbers?"
+        }
+      ],
+      "activation": "queried",
+      "source_rationale_id": "R6"
+    },
+    {
+      "rationale_label": "product_adoption",
+      "direction": "neutral",
+      "salience": "secondary",
+      "confidence": 0.98,
+      "utterance_type": "question",
+      "decision_link": "none",
+      "timing": "original_pitch",
+      "turn_index": 49,
+      "quote": "So these are 166,000 registered users?",
+      "explanation": "Clarifies whether the reported traction represents registered users.",
+      "evidence": [
+        "So these are 166,000 registered users?"
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 49,
+          "speaker": "Howie",
+          "quote": "So these are 166,000 registered users?"
+        }
+      ],
+      "activation": "queried",
+      "source_rationale_id": "R7"
+    },
+    {
+      "rationale_label": "market_size_assessment",
+      "direction": "neutral",
+      "salience": "secondary",
+      "confidence": 0.99,
+      "utterance_type": "question",
+      "decision_link": "none",
+      "timing": "original_pitch",
+      "turn_index": 51,
+      "quote": "How many influencers are there out there in the market right now?",
+      "explanation": "Asks about the size of the potential influencer market.",
+      "evidence": [
+        "How many influencers are there out there in the market right now?"
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 51,
+          "speaker": "Howie",
+          "quote": "How many influencers are there out there in the market right now?"
+        }
+      ],
+      "activation": "queried",
+      "source_rationale_id": "R8"
+    },
+    {
+      "rationale_label": "business_model_assessment",
+      "direction": "neutral",
+      "salience": "secondary",
+      "confidence": 0.98,
+      "utterance_type": "question",
+      "decision_link": "none",
+      "timing": "original_pitch",
+      "turn_index": 62,
+      "quote": "Some kind of affiliate model?",
+      "explanation": "Tests whether affiliate revenue is part of the proposed monetization model.",
+      "evidence": [
+        "Some kind of affiliate model?"
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 62,
+          "speaker": "Howie",
+          "quote": "Some kind of affiliate model?"
+        }
+      ],
+      "activation": "queried",
+      "source_rationale_id": "R9"
+    },
+    {
+      "rationale_label": "founder_qualities",
+      "direction": "positive",
+      "salience": "secondary",
+      "confidence": 0.89,
+      "utterance_type": "supporting_argument",
+      "decision_link": "none",
+      "timing": "original_pitch",
+      "turn_index": 100,
+      "quote": "I dig your mojo, man.",
+      "explanation": "Expresses a favorable personal impression of the founder.",
+      "evidence": [
+        "I dig your mojo, man."
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 100,
+          "speaker": "Howie",
+          "quote": "I dig your mojo, man."
+        }
+      ],
+      "activation": "evaluated",
+      "source_rationale_id": "R10"
+    },
+    {
+      "rationale_label": "founder_qualities",
+      "direction": "positive",
+      "salience": "secondary",
+      "confidence": 0.93,
+      "utterance_type": "supporting_argument",
+      "decision_link": "none",
+      "timing": "original_pitch",
+      "turn_index": 102,
+      "quote": "You're thinking about things in the right way.",
+      "explanation": "Assesses the founder's thinking and approach favorably.",
+      "evidence": [
+        "You're thinking about things in the right way."
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 102,
+          "speaker": "Howie",
+          "quote": "You're thinking about things in the right way."
+        }
+      ],
+      "activation": "evaluated",
+      "source_rationale_id": "R11"
+    },
+    {
+      "rationale_label": "product_appeal_assessment",
+      "direction": "positive",
+      "salience": "secondary",
+      "confidence": 0.95,
+      "utterance_type": "supporting_argument",
+      "decision_link": "none",
+      "timing": "original_pitch",
+      "turn_index": 102,
+      "quote": "I like this idea of nurturing these influencer-to-fan relationships.",
+      "explanation": "Expresses personal enthusiasm for the product's relationship-building concept.",
+      "evidence": [
+        "I like this idea of nurturing these influencer-to-fan relationships."
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 102,
+          "speaker": "Howie",
+          "quote": "I like this idea of nurturing these influencer-to-fan relationships."
+        }
+      ],
+      "activation": "evaluated",
+      "source_rationale_id": "R12"
+    },
+    {
+      "rationale_label": "investment_thesis_constraint",
+      "direction": "negative",
+      "salience": "primary",
+      "confidence": 0.99,
+      "utterance_type": "concern",
+      "decision_link": "none",
+      "timing": "original_pitch",
+      "turn_index": 116,
+      "quote": "this just doesn't fit really my, the thesis of what my fund, Ranch Ventures, is doing",
+      "explanation": "Identifies the company's mismatch with his fund's mandate as his principal concern.",
+      "evidence": [
+        "this just doesn't fit really my, the thesis of what my fund, Ranch Ventures, is doing"
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 116,
+          "speaker": "Howie",
+          "quote": "this just doesn't fit really my, the thesis of what my fund, Ranch Ventures, is doing"
+        }
+      ],
+      "activation": "evaluated",
+      "source_rationale_id": "R13"
+    },
+    {
+      "rationale_label": "investor_experience_bias",
+      "direction": "positive",
+      "salience": "secondary",
+      "confidence": 0.94,
+      "utterance_type": "supporting_argument",
+      "decision_link": "none",
+      "timing": "original_pitch",
+      "turn_index": 123,
+      "quote": "I lived in LA for eight or nine years; I was in the music industry for a long time; I still have friends in Silicon Beach.",
+      "explanation": "Invokes his personal experience in Los Angeles and the music industry as context for his favorable assessment.",
+      "evidence": [
+        "I lived in LA for eight or nine years; I was in the music industry for a long time; I still have friends in Silicon Beach."
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 123,
+          "speaker": "Howie",
+          "quote": "I lived in LA for eight or nine years; I was in the music industry for a long time; I still have friends in Silicon Beach."
+        }
+      ],
+      "activation": "evaluated",
+      "source_rationale_id": "R14"
+    },
+    {
+      "rationale_label": "market_timing",
+      "direction": "positive",
+      "salience": "secondary",
+      "confidence": 0.85,
+      "utterance_type": "supporting_argument",
+      "decision_link": "none",
+      "timing": "original_pitch",
+      "turn_index": 123,
+      "quote": "I know that's like a thriving up and coming ecosystem.",
+      "explanation": "Views the Los Angeles ecosystem surrounding the opportunity as favorably emerging.",
+      "evidence": [
+        "I know that's like a thriving up and coming ecosystem."
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 123,
+          "speaker": "Howie",
+          "quote": "I know that's like a thriving up and coming ecosystem."
+        }
+      ],
+      "activation": "evaluated",
+      "source_rationale_id": "R15"
+    },
+    {
+      "rationale_label": "founder_qualities",
+      "direction": "positive",
+      "salience": "secondary",
+      "confidence": 0.94,
+      "utterance_type": "supporting_argument",
+      "decision_link": "none",
+      "timing": "original_pitch",
+      "turn_index": 123,
+      "quote": "you exemplify that energy in a really good way",
+      "explanation": "Praises the founder's personal fit with the energy of that ecosystem.",
+      "evidence": [
+        "you exemplify that energy in a really good way"
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 123,
+          "speaker": "Howie",
+          "quote": "you exemplify that energy in a really good way"
+        }
+      ],
+      "activation": "evaluated",
+      "source_rationale_id": "R16"
+    },
+    {
+      "rationale_label": "product_appeal_assessment",
+      "direction": "positive",
+      "salience": "secondary",
+      "confidence": 0.91,
+      "utterance_type": "supporting_argument",
+      "decision_link": "none",
+      "timing": "original_pitch",
+      "turn_index": 123,
+      "quote": "I think this idea is perfect for that type of environment",
+      "explanation": "Assesses the product concept as especially well suited to its surrounding environment.",
+      "evidence": [
+        "I think this idea is perfect for that type of environment"
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 123,
+          "speaker": "Howie",
+          "quote": "I think this idea is perfect for that type of environment"
+        }
+      ],
+      "activation": "evaluated",
+      "source_rationale_id": "R17"
+    },
+    {
+      "rationale_label": "founder_execution",
+      "direction": "positive",
+      "salience": "secondary",
+      "confidence": 0.96,
+      "utterance_type": "supporting_argument",
+      "decision_link": "none",
+      "timing": "original_pitch",
+      "turn_index": 123,
+      "quote": "I think you're already executing against it, so it's awesome.",
+      "explanation": "Credits the founder with already executing effectively on the opportunity.",
+      "evidence": [
+        "I think you're already executing against it, so it's awesome."
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 123,
+          "speaker": "Howie",
+          "quote": "I think you're already executing against it, so it's awesome."
+        }
+      ],
+      "activation": "evaluated",
+      "source_rationale_id": "R18"
+    },
+    {
+      "rationale_label": "investment_thesis_constraint",
+      "direction": "negative",
+      "salience": "primary",
+      "confidence": 1.0,
+      "utterance_type": "decision_explanation",
+      "decision_link": "supports_out",
+      "timing": "original_pitch",
+      "turn_index": 123,
+      "quote": "just because it doesn't fit my fund I'm going to pass for now",
+      "explanation": "Explicitly links his refusal to the company's mismatch with his fund's mandate.",
+      "evidence": [
+        "just because it doesn't fit my fund I'm going to pass for now"
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 123,
+          "speaker": "Howie",
+          "quote": "just because it doesn't fit my fund I'm going to pass for now"
+        }
+      ],
+      "activation": "evaluated",
+      "source_rationale_id": "R19"
+    }
+  ],
+  "expanded_quote_evidence": [],
+  "rejected_after_evidence_check": []
+}

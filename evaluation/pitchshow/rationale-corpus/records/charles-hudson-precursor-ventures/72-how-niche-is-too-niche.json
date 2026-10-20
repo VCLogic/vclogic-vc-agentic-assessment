@@ -1,0 +1,303 @@
+{
+  "schema": "phase1-rationale-reference-v1",
+  "extraction_version": "pitchshow-rationales-v1",
+  "fingerprint": "023668621fd6bd544613c5c205600992dc5d79ad19acdd999d9f74358e5698cc",
+  "episode_slug": "72-how-niche-is-too-niche",
+  "vc_slug": "charles-hudson-precursor-ventures",
+  "vc_name": "Charles Hudson",
+  "actual_decision": "Out",
+  "later_decision": "Unknown",
+  "reference_kind": "automated_transcript_observed_candidate",
+  "human_validated": false,
+  "source_format": "transcript-observed-rationales-v1",
+  "source_path": "/home/dpasch01/vclogic-vc-agentic-assessment/evaluation/pitchshow/investors/charles-hudson-precursor-ventures/source/episodes/72-how-niche-is-too-niche.json",
+  "source_sha256": "f44996855a0e1722fa9dc154ad24f863fc465065b208772552100679883214d3",
+  "transcript_sha256": "5167bcefc3730dde5cfa6d0ac399c1feb48b6f220e72c3c5c1849144aad2bcf5",
+  "taxonomy_sha256": "eaa8734819a3ac34dd19ee5f0bf6de925a793a1d25a2d361090dafc9b751e1fc",
+  "model": "openai/gpt-5.6-luna",
+  "source_tier": "newly_extracted_and_independently_model_reviewed",
+  "reviewed_target_turns": [
+    3,
+    13,
+    23,
+    40,
+    83
+  ],
+  "notes": "Turns 3 and 83 contain no rationale-bearing content.",
+  "receipt_path": "/home/dpasch01/vclogic-vc-agentic-assessment/evaluation/pitchshow/investors/charles-hudson-precursor-ventures/rationale-references/receipts/72-how-niche-is-too-niche.json",
+  "scoring_scope": "original_pitch_only",
+  "shared_across_input_modes": true,
+  "rationales": [
+    {
+      "rationale_label": "business_model_assessment",
+      "direction": "neutral",
+      "salience": "secondary",
+      "confidence": 0.98,
+      "utterance_type": "question",
+      "decision_link": "none",
+      "timing": "original_pitch",
+      "turn_index": 23,
+      "quote": "what's your model for how often someone should replenish it?",
+      "explanation": "He asks about replenishment frequency and expected usage to understand the repeat-purchase model.",
+      "evidence": [
+        "what's your model for how often someone should replenish it?"
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 23,
+          "speaker": "Charles",
+          "quote": "what's your model for how often someone should replenish it?"
+        }
+      ],
+      "activation": "queried",
+      "source_rationale_id": "R2",
+      "utterance_kind": "question",
+      "decision_support": "none",
+      "all_mention_ids": [
+        "R2"
+      ]
+    },
+    {
+      "rationale_label": "market_problem_validation",
+      "direction": "positive",
+      "salience": "secondary",
+      "confidence": 0.97,
+      "utterance_type": "assessment",
+      "decision_link": "none",
+      "timing": "original_pitch",
+      "turn_index": 23,
+      "quote": "This is a huge issue in our family.",
+      "explanation": "Charles uses personal experience to affirm that the underlying problem is real.",
+      "evidence": [
+        "This is a huge issue in our family."
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 23,
+          "speaker": "Charles",
+          "quote": "This is a huge issue in our family."
+        }
+      ],
+      "activation": "evaluated",
+      "source_rationale_id": "R3",
+      "utterance_kind": "supporting_argument",
+      "decision_support": "none",
+      "all_mention_ids": [
+        "R3"
+      ]
+    },
+    {
+      "rationale_label": "market_size_assessment",
+      "direction": "positive",
+      "salience": "primary",
+      "confidence": 0.98,
+      "utterance_type": "assessment",
+      "decision_link": "none",
+      "timing": "original_pitch",
+      "turn_index": 23,
+      "quote": "you have me on the market size already in that particular",
+      "explanation": "He states that the opportunity’s market size for this segment has already persuaded him.",
+      "evidence": [
+        "you have me on the market size already in that particular"
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 23,
+          "speaker": "Charles",
+          "quote": "you have me on the market size already in that particular"
+        }
+      ],
+      "activation": "evaluated",
+      "source_rationale_id": "R4",
+      "utterance_kind": "supporting_argument",
+      "decision_support": "none",
+      "all_mention_ids": [
+        "R4"
+      ]
+    },
+    {
+      "rationale_label": "portfolio_conflict_constraint",
+      "direction": "negative",
+      "salience": "primary",
+      "confidence": 0.99,
+      "utterance_type": "decision_reason",
+      "decision_link": "explicit",
+      "timing": "original_pitch",
+      "turn_index": 40,
+      "quote": "I am probably like triply conflicted out of this. Based on those conflicts, I'm going to have to pass.",
+      "explanation": "Charles says overlapping companies in his existing portfolio create conflicts that require him to pass.",
+      "evidence": [
+        "I am probably like triply conflicted out of this. Based on those conflicts, I'm going to have to pass."
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 40,
+          "speaker": "Charles",
+          "quote": "I am probably like triply conflicted out of this. Based on those conflicts, I'm going to have to pass."
+        }
+      ],
+      "activation": "evaluated",
+      "source_rationale_id": "R5",
+      "utterance_kind": "decision_explanation",
+      "decision_support": "supports_out",
+      "all_mention_ids": [
+        "R5"
+      ]
+    },
+    {
+      "rationale_label": "product_appeal_assessment",
+      "direction": "positive",
+      "salience": "secondary",
+      "confidence": 0.86,
+      "utterance_type": "assessment",
+      "decision_link": "none",
+      "timing": "original_pitch",
+      "turn_index": 13,
+      "quote": "It's a nice size black box we got here.",
+      "explanation": "Charles expresses a positive reaction to the product’s packaging size.",
+      "evidence": [
+        "It's a nice size black box we got here."
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 13,
+          "speaker": "Charles",
+          "quote": "It's a nice size black box we got here."
+        }
+      ],
+      "activation": "evaluated",
+      "source_rationale_id": "R1",
+      "utterance_kind": "assessment",
+      "decision_support": "none",
+      "all_mention_ids": [
+        "R1"
+      ]
+    }
+  ],
+  "later_rationales": [],
+  "excluded_rationales": [],
+  "rationale_mentions": [
+    {
+      "rationale_label": "product_appeal_assessment",
+      "direction": "positive",
+      "salience": "secondary",
+      "confidence": 0.86,
+      "utterance_type": "assessment",
+      "decision_link": "none",
+      "timing": "original_pitch",
+      "turn_index": 13,
+      "quote": "It's a nice size black box we got here.",
+      "explanation": "Charles expresses a positive reaction to the product’s packaging size.",
+      "evidence": [
+        "It's a nice size black box we got here."
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 13,
+          "speaker": "Charles",
+          "quote": "It's a nice size black box we got here."
+        }
+      ],
+      "activation": "evaluated",
+      "source_rationale_id": "R1"
+    },
+    {
+      "rationale_label": "business_model_assessment",
+      "direction": "neutral",
+      "salience": "secondary",
+      "confidence": 0.98,
+      "utterance_type": "question",
+      "decision_link": "none",
+      "timing": "original_pitch",
+      "turn_index": 23,
+      "quote": "what's your model for how often someone should replenish it?",
+      "explanation": "He asks about replenishment frequency and expected usage to understand the repeat-purchase model.",
+      "evidence": [
+        "what's your model for how often someone should replenish it?"
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 23,
+          "speaker": "Charles",
+          "quote": "what's your model for how often someone should replenish it?"
+        }
+      ],
+      "activation": "queried",
+      "source_rationale_id": "R2"
+    },
+    {
+      "rationale_label": "market_problem_validation",
+      "direction": "positive",
+      "salience": "secondary",
+      "confidence": 0.97,
+      "utterance_type": "supporting_argument",
+      "decision_link": "none",
+      "timing": "original_pitch",
+      "turn_index": 23,
+      "quote": "This is a huge issue in our family.",
+      "explanation": "Charles uses personal experience to affirm that the underlying problem is real.",
+      "evidence": [
+        "This is a huge issue in our family."
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 23,
+          "speaker": "Charles",
+          "quote": "This is a huge issue in our family."
+        }
+      ],
+      "activation": "evaluated",
+      "source_rationale_id": "R3"
+    },
+    {
+      "rationale_label": "market_size_assessment",
+      "direction": "positive",
+      "salience": "primary",
+      "confidence": 0.98,
+      "utterance_type": "supporting_argument",
+      "decision_link": "none",
+      "timing": "original_pitch",
+      "turn_index": 23,
+      "quote": "you have me on the market size already in that particular",
+      "explanation": "He states that the opportunity’s market size for this segment has already persuaded him.",
+      "evidence": [
+        "you have me on the market size already in that particular"
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 23,
+          "speaker": "Charles",
+          "quote": "you have me on the market size already in that particular"
+        }
+      ],
+      "activation": "evaluated",
+      "source_rationale_id": "R4"
+    },
+    {
+      "rationale_label": "portfolio_conflict_constraint",
+      "direction": "negative",
+      "salience": "primary",
+      "confidence": 0.99,
+      "utterance_type": "decision_explanation",
+      "decision_link": "supports_out",
+      "timing": "original_pitch",
+      "turn_index": 40,
+      "quote": "I am probably like triply conflicted out of this. Based on those conflicts, I'm going to have to pass.",
+      "explanation": "Charles says overlapping companies in his existing portfolio create conflicts that require him to pass.",
+      "evidence": [
+        "I am probably like triply conflicted out of this. Based on those conflicts, I'm going to have to pass."
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 40,
+          "speaker": "Charles",
+          "quote": "I am probably like triply conflicted out of this. Based on those conflicts, I'm going to have to pass."
+        }
+      ],
+      "activation": "evaluated",
+      "source_rationale_id": "R5"
+    }
+  ],
+  "expanded_quote_evidence": [],
+  "rejected_after_evidence_check": []
+}

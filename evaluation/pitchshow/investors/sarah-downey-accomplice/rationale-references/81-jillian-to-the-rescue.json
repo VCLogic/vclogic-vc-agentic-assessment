@@ -1,0 +1,215 @@
+{
+  "schema": "phase1-rationale-reference-v1",
+  "extraction_version": "pitchshow-rationales-v1",
+  "fingerprint": "2744feaa988030426a56132d5446dc6e8d75b9ad676528a4db870fed9f7900d5",
+  "episode_slug": "81-jillian-to-the-rescue",
+  "vc_slug": "sarah-downey-accomplice",
+  "vc_name": "Sarah Downey",
+  "actual_decision": "Out",
+  "later_decision": "Unknown",
+  "reference_kind": "automated_transcript_observed_candidate",
+  "human_validated": false,
+  "source_format": "transcript-observed-rationales-v1",
+  "source_path": "../source/episodes/81-jillian-to-the-rescue.json",
+  "source_sha256": "063e50198a0858c95127ff3021ec63e048bfa287d0850f40fa023b81f403b7b0",
+  "transcript_sha256": "f8d829d480f2c28e1233eb52c993396ec24ef976a864c01b376ee777a04ea964",
+  "taxonomy_sha256": "eaa8734819a3ac34dd19ee5f0bf6de925a793a1d25a2d361090dafc9b751e1fc",
+  "model": "codex:gpt-5.6-luna+gpt-5.6-sol",
+  "generation_stages": [
+    {
+      "phase": "rationale_extract",
+      "backend": "codex",
+      "model": "gpt-5.6-luna"
+    },
+    {
+      "phase": "rationale_verify",
+      "backend": "codex",
+      "model": "gpt-5.6-sol"
+    }
+  ],
+  "source_tier": "newly_extracted_and_independently_model_reviewed",
+  "reviewed_target_turns": [
+    2,
+    5,
+    58,
+    106,
+    111,
+    150,
+    152,
+    159,
+    161,
+    186,
+    188
+  ],
+  "notes": "Turn 161 explicitly links the preceding reasons to Sarah's decision but adds no distinct rationale; the remaining omitted target turns are factual context, reactions, or jokes.",
+  "receipt_path": "receipts/81-jillian-to-the-rescue.json",
+  "scoring_scope": "original_pitch_only",
+  "shared_across_input_modes": true,
+  "rationales": [
+    {
+      "rationale_label": "competitive_intensity_concern",
+      "direction": "neutral",
+      "salience": "secondary",
+      "confidence": 0.98,
+      "utterance_type": "question",
+      "decision_link": "none",
+      "timing": "original_pitch",
+      "turn_index": 150,
+      "quote": "who’s out there, how well funded are they?",
+      "explanation": "Sarah neutrally probes the number and funding strength of competitors without expressing a conclusion.",
+      "evidence": [
+        "who’s out there, how well funded are they?"
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 150,
+          "speaker": "Sarah",
+          "quote": "who’s out there, how well funded are they?"
+        }
+      ],
+      "activation": "queried",
+      "source_rationale_id": "R1",
+      "utterance_kind": "question",
+      "decision_support": "none",
+      "all_mention_ids": [
+        "R1"
+      ]
+    },
+    {
+      "rationale_label": "investment_thesis_constraint",
+      "direction": "negative",
+      "salience": "primary",
+      "confidence": 0.99,
+      "utterance_type": "decision_reason",
+      "decision_link": "explicit",
+      "timing": "original_pitch",
+      "turn_index": 159,
+      "quote": "tech is basically forefront of what I do and how I invest",
+      "explanation": "Sarah explains that her technology-centered investment approach makes the company's insufficiently developed technology a reason not to invest now.",
+      "evidence": [
+        "tech is basically forefront of what I do and how I invest"
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 159,
+          "speaker": "Sarah",
+          "quote": "tech is basically forefront of what I do and how I invest"
+        }
+      ],
+      "activation": "evaluated",
+      "source_rationale_id": "R2",
+      "utterance_kind": "decision_explanation",
+      "decision_support": "supports_out",
+      "all_mention_ids": [
+        "R2"
+      ]
+    },
+    {
+      "rationale_label": "product_success_factor_assessment",
+      "direction": "negative",
+      "salience": "primary",
+      "confidence": 0.98,
+      "utterance_type": "decision_reason",
+      "decision_link": "explicit",
+      "timing": "original_pitch",
+      "turn_index": 159,
+      "quote": "it feels a bit early and I’d like to see that skills marketplace built up too",
+      "explanation": "Sarah considers a more developed skills marketplace an essential product component and regards its current maturity as too early for investment.",
+      "evidence": [
+        "it feels a bit early and I’d like to see that skills marketplace built up too"
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 159,
+          "speaker": "Sarah",
+          "quote": "it feels a bit early and I’d like to see that skills marketplace built up too"
+        }
+      ],
+      "activation": "evaluated",
+      "source_rationale_id": "R3",
+      "utterance_kind": "decision_explanation",
+      "decision_support": "supports_out",
+      "all_mention_ids": [
+        "R3"
+      ]
+    }
+  ],
+  "later_rationales": [],
+  "excluded_rationales": [],
+  "rationale_mentions": [
+    {
+      "rationale_label": "competitive_intensity_concern",
+      "direction": "neutral",
+      "salience": "secondary",
+      "confidence": 0.98,
+      "utterance_type": "question",
+      "decision_link": "none",
+      "timing": "original_pitch",
+      "turn_index": 150,
+      "quote": "who’s out there, how well funded are they?",
+      "explanation": "Sarah neutrally probes the number and funding strength of competitors without expressing a conclusion.",
+      "evidence": [
+        "who’s out there, how well funded are they?"
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 150,
+          "speaker": "Sarah",
+          "quote": "who’s out there, how well funded are they?"
+        }
+      ],
+      "activation": "queried",
+      "source_rationale_id": "R1"
+    },
+    {
+      "rationale_label": "investment_thesis_constraint",
+      "direction": "negative",
+      "salience": "primary",
+      "confidence": 0.99,
+      "utterance_type": "decision_explanation",
+      "decision_link": "supports_out",
+      "timing": "original_pitch",
+      "turn_index": 159,
+      "quote": "tech is basically forefront of what I do and how I invest",
+      "explanation": "Sarah explains that her technology-centered investment approach makes the company's insufficiently developed technology a reason not to invest now.",
+      "evidence": [
+        "tech is basically forefront of what I do and how I invest"
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 159,
+          "speaker": "Sarah",
+          "quote": "tech is basically forefront of what I do and how I invest"
+        }
+      ],
+      "activation": "evaluated",
+      "source_rationale_id": "R2"
+    },
+    {
+      "rationale_label": "product_success_factor_assessment",
+      "direction": "negative",
+      "salience": "primary",
+      "confidence": 0.98,
+      "utterance_type": "decision_explanation",
+      "decision_link": "supports_out",
+      "timing": "original_pitch",
+      "turn_index": 159,
+      "quote": "it feels a bit early and I’d like to see that skills marketplace built up too",
+      "explanation": "Sarah considers a more developed skills marketplace an essential product component and regards its current maturity as too early for investment.",
+      "evidence": [
+        "it feels a bit early and I’d like to see that skills marketplace built up too"
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 159,
+          "speaker": "Sarah",
+          "quote": "it feels a bit early and I’d like to see that skills marketplace built up too"
+        }
+      ],
+      "activation": "evaluated",
+      "source_rationale_id": "R3"
+    }
+  ],
+  "expanded_quote_evidence": [],
+  "rejected_after_evidence_check": []
+}

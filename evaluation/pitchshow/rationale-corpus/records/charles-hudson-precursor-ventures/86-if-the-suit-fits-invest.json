@@ -1,0 +1,306 @@
+{
+  "schema": "phase1-rationale-reference-v1",
+  "extraction_version": "pitchshow-rationales-v1",
+  "fingerprint": "38b8fdabf4d88bc449cc94fd1187709dc009df9ce0c85eec028b85a8ca6d6a08",
+  "episode_slug": "86-if-the-suit-fits-invest",
+  "vc_slug": "charles-hudson-precursor-ventures",
+  "vc_name": "Charles Hudson",
+  "actual_decision": "Out",
+  "later_decision": "Unknown",
+  "reference_kind": "automated_transcript_observed_candidate",
+  "human_validated": false,
+  "source_format": "transcript-observed-rationales-v1",
+  "source_path": "/home/dpasch01/vclogic-vc-agentic-assessment/evaluation/pitchshow/investors/charles-hudson-precursor-ventures/source/episodes/86-if-the-suit-fits-invest.json",
+  "source_sha256": "e0364bc28ed8f093b7e06ecf2f1716b1b803954da1d3f91e479a66fd0f1f6e38",
+  "transcript_sha256": "ed86d6ab704d04f7b4fc65319a1f44a4b6795fb8d6d83763f3a4f1b64178f208",
+  "taxonomy_sha256": "eaa8734819a3ac34dd19ee5f0bf6de925a793a1d25a2d361090dafc9b751e1fc",
+  "model": "openai/gpt-5.6-luna",
+  "source_tier": "newly_extracted_and_independently_model_reviewed",
+  "reviewed_target_turns": [
+    24,
+    26,
+    34,
+    38,
+    66,
+    77,
+    91,
+    105
+  ],
+  "notes": "Turns 26, 34, 38, 91, and 105 contain no independently attributable rationale under the taxonomy; turn 105 refers to another brand’s fit rather than explicitly assessing Sene.",
+  "receipt_path": "/home/dpasch01/vclogic-vc-agentic-assessment/evaluation/pitchshow/investors/charles-hudson-precursor-ventures/rationale-references/receipts/86-if-the-suit-fits-invest.json",
+  "scoring_scope": "original_pitch_only",
+  "shared_across_input_modes": true,
+  "rationales": [
+    {
+      "rationale_label": "competitive_advantage_assessment",
+      "direction": "neutral",
+      "salience": "secondary",
+      "confidence": 0.84,
+      "utterance_type": "assessment",
+      "decision_link": "none",
+      "timing": "original_pitch",
+      "turn_index": 77,
+      "quote": "if you're so great at supply chain like, just like, dominate the supply chain and build a company around that",
+      "explanation": "Charles frames supply-chain strength as a possible foundation for the company while discussing his initial interpretation of the business.",
+      "evidence": [
+        "if you're so great at supply chain like, just like, dominate the supply chain and build a company around that"
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 77,
+          "speaker": "Charles",
+          "quote": "if you're so great at supply chain like, just like, dominate the supply chain and build a company around that"
+        }
+      ],
+      "activation": "evaluated",
+      "source_rationale_id": "R5",
+      "utterance_kind": "assessment",
+      "decision_support": "none",
+      "all_mention_ids": [
+        "R5"
+      ]
+    },
+    {
+      "rationale_label": "founder_qualities",
+      "direction": "positive",
+      "salience": "secondary",
+      "confidence": 0.97,
+      "utterance_type": "assessment",
+      "decision_link": "none",
+      "timing": "original_pitch",
+      "turn_index": 66,
+      "quote": "I think you’re super impressive.",
+      "explanation": "Charles explicitly evaluates the founder favorably despite passing on the investment.",
+      "evidence": [
+        "I think you’re super impressive."
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 66,
+          "speaker": "Charles",
+          "quote": "I think you’re super impressive."
+        }
+      ],
+      "activation": "evaluated",
+      "source_rationale_id": "R2",
+      "utterance_kind": "assessment",
+      "decision_support": "none",
+      "all_mention_ids": [
+        "R2"
+      ]
+    },
+    {
+      "rationale_label": "market_size_assessment",
+      "direction": "positive",
+      "salience": "secondary",
+      "confidence": 0.93,
+      "utterance_type": "assessment",
+      "decision_link": "none",
+      "timing": "original_pitch",
+      "turn_index": 66,
+      "quote": "the market is huge",
+      "explanation": "Charles acknowledges that the company operates in a very large market.",
+      "evidence": [
+        "the market is huge"
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 66,
+          "speaker": "Charles",
+          "quote": "the market is huge"
+        }
+      ],
+      "activation": "evaluated",
+      "source_rationale_id": "R3",
+      "utterance_kind": "assessment",
+      "decision_support": "none",
+      "all_mention_ids": [
+        "R3"
+      ]
+    },
+    {
+      "rationale_label": "product_appeal_assessment",
+      "direction": "positive",
+      "salience": "secondary",
+      "confidence": 0.95,
+      "utterance_type": "assessment",
+      "decision_link": "none",
+      "timing": "original_pitch",
+      "turn_index": 24,
+      "quote": "Looks good!",
+      "explanation": "Charles reacts positively to the demonstrated suit’s appearance.",
+      "evidence": [
+        "Looks good!"
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 24,
+          "speaker": "Charles",
+          "quote": "Looks good!"
+        }
+      ],
+      "activation": "evaluated",
+      "source_rationale_id": "R1",
+      "utterance_kind": "assessment",
+      "decision_support": "none",
+      "all_mention_ids": [
+        "R1"
+      ]
+    },
+    {
+      "rationale_label": "venture_scale_concern",
+      "direction": "negative",
+      "salience": "primary",
+      "confidence": 0.99,
+      "utterance_type": "decision_reason",
+      "decision_link": "explicit",
+      "timing": "original_pitch",
+      "turn_index": 66,
+      "quote": "the number of shots that you’ll have to hit in a row to get to the size of company that makes sense for me, it’s, it’s a, it’s a difficult lift",
+      "explanation": "Charles believes reaching an investable scale would require too many successful products, making the outcome difficult to achieve.",
+      "evidence": [
+        "the number of shots that you’ll have to hit in a row to get to the size of company that makes sense for me, it’s, it’s a, it’s a difficult lift"
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 66,
+          "speaker": "Charles",
+          "quote": "the number of shots that you’ll have to hit in a row to get to the size of company that makes sense for me, it’s, it’s a, it’s a difficult lift"
+        }
+      ],
+      "activation": "evaluated",
+      "source_rationale_id": "R4",
+      "utterance_kind": "decision_explanation",
+      "decision_support": "supports_out",
+      "all_mention_ids": [
+        "R4"
+      ]
+    }
+  ],
+  "later_rationales": [],
+  "excluded_rationales": [],
+  "rationale_mentions": [
+    {
+      "rationale_label": "product_appeal_assessment",
+      "direction": "positive",
+      "salience": "secondary",
+      "confidence": 0.95,
+      "utterance_type": "assessment",
+      "decision_link": "none",
+      "timing": "original_pitch",
+      "turn_index": 24,
+      "quote": "Looks good!",
+      "explanation": "Charles reacts positively to the demonstrated suit’s appearance.",
+      "evidence": [
+        "Looks good!"
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 24,
+          "speaker": "Charles",
+          "quote": "Looks good!"
+        }
+      ],
+      "activation": "evaluated",
+      "source_rationale_id": "R1"
+    },
+    {
+      "rationale_label": "founder_qualities",
+      "direction": "positive",
+      "salience": "secondary",
+      "confidence": 0.97,
+      "utterance_type": "assessment",
+      "decision_link": "none",
+      "timing": "original_pitch",
+      "turn_index": 66,
+      "quote": "I think you’re super impressive.",
+      "explanation": "Charles explicitly evaluates the founder favorably despite passing on the investment.",
+      "evidence": [
+        "I think you’re super impressive."
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 66,
+          "speaker": "Charles",
+          "quote": "I think you’re super impressive."
+        }
+      ],
+      "activation": "evaluated",
+      "source_rationale_id": "R2"
+    },
+    {
+      "rationale_label": "market_size_assessment",
+      "direction": "positive",
+      "salience": "secondary",
+      "confidence": 0.93,
+      "utterance_type": "assessment",
+      "decision_link": "none",
+      "timing": "original_pitch",
+      "turn_index": 66,
+      "quote": "the market is huge",
+      "explanation": "Charles acknowledges that the company operates in a very large market.",
+      "evidence": [
+        "the market is huge"
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 66,
+          "speaker": "Charles",
+          "quote": "the market is huge"
+        }
+      ],
+      "activation": "evaluated",
+      "source_rationale_id": "R3"
+    },
+    {
+      "rationale_label": "venture_scale_concern",
+      "direction": "negative",
+      "salience": "primary",
+      "confidence": 0.99,
+      "utterance_type": "decision_explanation",
+      "decision_link": "supports_out",
+      "timing": "original_pitch",
+      "turn_index": 66,
+      "quote": "the number of shots that you’ll have to hit in a row to get to the size of company that makes sense for me, it’s, it’s a, it’s a difficult lift",
+      "explanation": "Charles believes reaching an investable scale would require too many successful products, making the outcome difficult to achieve.",
+      "evidence": [
+        "the number of shots that you’ll have to hit in a row to get to the size of company that makes sense for me, it’s, it’s a, it’s a difficult lift"
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 66,
+          "speaker": "Charles",
+          "quote": "the number of shots that you’ll have to hit in a row to get to the size of company that makes sense for me, it’s, it’s a, it’s a difficult lift"
+        }
+      ],
+      "activation": "evaluated",
+      "source_rationale_id": "R4"
+    },
+    {
+      "rationale_label": "competitive_advantage_assessment",
+      "direction": "neutral",
+      "salience": "secondary",
+      "confidence": 0.84,
+      "utterance_type": "assessment",
+      "decision_link": "none",
+      "timing": "original_pitch",
+      "turn_index": 77,
+      "quote": "if you're so great at supply chain like, just like, dominate the supply chain and build a company around that",
+      "explanation": "Charles frames supply-chain strength as a possible foundation for the company while discussing his initial interpretation of the business.",
+      "evidence": [
+        "if you're so great at supply chain like, just like, dominate the supply chain and build a company around that"
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 77,
+          "speaker": "Charles",
+          "quote": "if you're so great at supply chain like, just like, dominate the supply chain and build a company around that"
+        }
+      ],
+      "activation": "evaluated",
+      "source_rationale_id": "R5"
+    }
+  ],
+  "expanded_quote_evidence": [],
+  "rejected_after_evidence_check": []
+}

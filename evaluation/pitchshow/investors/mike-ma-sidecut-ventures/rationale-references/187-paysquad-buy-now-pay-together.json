@@ -1,0 +1,1429 @@
+{
+  "schema": "phase1-rationale-reference-v1",
+  "extraction_version": "pitchshow-rationales-v1",
+  "fingerprint": "496d56edc671135fbbb049f3174a39d33158689661dd0be37ee9ff27be150f9c",
+  "episode_slug": "187-paysquad-buy-now-pay-together",
+  "vc_slug": "mike-ma-sidecut-ventures",
+  "vc_name": "Mike Ma",
+  "actual_decision": "Out",
+  "later_decision": "Unknown",
+  "reference_kind": "automated_transcript_observed_candidate",
+  "human_validated": false,
+  "source_format": "transcript-observed-rationales-v1",
+  "source_path": "../source/episodes/187-paysquad-buy-now-pay-together.json",
+  "source_sha256": "c721e746ea87f7fbc95ae51b64b2671548b61f6595de81fdd7224001e5615ad6",
+  "transcript_sha256": "f95bf722a24dbc27e093b7cb0aa8372dae0f81ac225c7800c29a68a8588b0651",
+  "taxonomy_sha256": "eaa8734819a3ac34dd19ee5f0bf6de925a793a1d25a2d361090dafc9b751e1fc",
+  "model": "codex:gpt-5.6-luna+gpt-5.6-sol",
+  "generation_stages": [
+    {
+      "phase": "rationale_extract",
+      "backend": "codex",
+      "model": "gpt-5.6-luna"
+    },
+    {
+      "phase": "rationale_verify",
+      "backend": "codex",
+      "model": "gpt-5.6-sol"
+    }
+  ],
+  "source_tier": "newly_extracted_and_independently_model_reviewed",
+  "reviewed_target_turns": [
+    49,
+    54,
+    68,
+    70,
+    73,
+    75,
+    77,
+    79,
+    91,
+    93,
+    95,
+    110,
+    112,
+    117,
+    119,
+    121,
+    123,
+    125,
+    127,
+    129,
+    131,
+    133,
+    135,
+    158,
+    160,
+    162,
+    164,
+    166,
+    168,
+    170,
+    181,
+    183,
+    185,
+    190,
+    192,
+    194,
+    202,
+    204,
+    206,
+    222,
+    224,
+    228,
+    230,
+    233,
+    235,
+    238,
+    241,
+    244,
+    246,
+    251,
+    273,
+    275,
+    279,
+    281,
+    285,
+    293,
+    473
+  ],
+  "notes": "All supplied Mike turns were reviewed. The same-room investor debrief remains original_pitch; turn 473 is a next-episode teaser and is therefore classified as teaser.",
+  "receipt_path": "receipts/187-paysquad-buy-now-pay-together.json",
+  "scoring_scope": "original_pitch_only",
+  "shared_across_input_modes": true,
+  "rationales": [
+    {
+      "rationale_label": "business_viability_concern",
+      "direction": "negative",
+      "salience": "secondary",
+      "confidence": 0.97,
+      "utterance_type": "assessment",
+      "decision_link": "none",
+      "timing": "original_pitch",
+      "turn_index": 228,
+      "quote": "The payments business is not an optimistic area of fintech. It's not.",
+      "explanation": "Mike expresses broad skepticism about the viability and economic outlook of payments businesses.",
+      "evidence": [
+        "The payments business is not an optimistic area of fintech. It's not."
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 228,
+          "speaker": "Mike",
+          "quote": "The payments business is not an optimistic area of fintech. It's not."
+        }
+      ],
+      "activation": "evaluated",
+      "source_rationale_id": "R30",
+      "utterance_kind": "assessment",
+      "decision_support": "none",
+      "all_mention_ids": [
+        "R30"
+      ]
+    },
+    {
+      "rationale_label": "competitive_advantage_assessment",
+      "direction": "negative",
+      "salience": "primary",
+      "confidence": 0.99,
+      "utterance_type": "decision_reason",
+      "decision_link": "explicit",
+      "timing": "original_pitch",
+      "turn_index": 135,
+      "quote": "it's really simple. It's like, like happened every day in the payment things just to cancel your MSA and move on.",
+      "explanation": "Mike says merchants can easily cancel the agreement, making its exclusivity an inadequate defense against competitors.",
+      "evidence": [
+        "But they could just terminate your MSA, right?",
+        "So reconcile this moat for me-",
+        "it's really simple. It's like, like happened every day in the payment things just to cancel your MSA and move on.",
+        "The worry is, you spent our capital to make a market for a firm to sit on, right?",
+        "my worry is like it's a problem he solves, and another firm's like, \"Cool.\""
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 93,
+          "speaker": "Mike",
+          "quote": "But they could just terminate your MSA, right?"
+        },
+        {
+          "turn_index": 119,
+          "speaker": "Mike",
+          "quote": "So reconcile this moat for me-"
+        },
+        {
+          "turn_index": 135,
+          "speaker": "Mike",
+          "quote": "it's really simple. It's like, like happened every day in the payment things just to cancel your MSA and move on."
+        },
+        {
+          "turn_index": 192,
+          "speaker": "Mike",
+          "quote": "The worry is, you spent our capital to make a market for a firm to sit on, right?"
+        },
+        {
+          "turn_index": 285,
+          "speaker": "Mike",
+          "quote": "my worry is like it's a problem he solves, and another firm's like, \"Cool.\""
+        }
+      ],
+      "activation": "evaluated",
+      "source_rationale_id": "R20",
+      "utterance_kind": "decision_explanation",
+      "decision_support": "supports_out",
+      "all_mention_ids": [
+        "R6",
+        "R7",
+        "R13",
+        "R20",
+        "R26",
+        "R34"
+      ]
+    },
+    {
+      "rationale_label": "competitive_intensity_concern",
+      "direction": "negative",
+      "salience": "primary",
+      "confidence": 0.99,
+      "utterance_type": "decision_reason",
+      "decision_link": "explicit",
+      "timing": "original_pitch",
+      "turn_index": 131,
+      "quote": "I think your competition risk is, is so high.",
+      "explanation": "Mike identifies high competitive risk as a principal reason for passing.",
+      "evidence": [
+        "how do you beat this race to the bottom, that pervades the space",
+        "I think your competition risk is, is so high."
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 73,
+          "speaker": "Mike",
+          "quote": "how do you beat this race to the bottom, that pervades the space"
+        },
+        {
+          "turn_index": 131,
+          "speaker": "Mike",
+          "quote": "I think your competition risk is, is so high."
+        }
+      ],
+      "activation": "evaluated",
+      "source_rationale_id": "R17",
+      "utterance_kind": "decision_explanation",
+      "decision_support": "supports_out",
+      "all_mention_ids": [
+        "R3",
+        "R17"
+      ]
+    },
+    {
+      "rationale_label": "founder_communication_quality",
+      "direction": "negative",
+      "salience": "primary",
+      "confidence": 0.99,
+      "utterance_type": "assessment",
+      "decision_link": "explicit",
+      "timing": "original_pitch",
+      "turn_index": 166,
+      "quote": "if you work in this space it's not credible.",
+      "explanation": "Mike says the way the metrics were presented undermined the founder's credibility as a payments operator.",
+      "evidence": [
+        "if you're gonna sell a payments business, like you're in bps. You're not in percents.",
+        "he, almost lost me out, out the jump",
+        "if you work in this space it's not credible.",
+        "if it is, then it's a mark.",
+        "Being optimistic",
+        "he has Afterpay, he has industry execs working.",
+        "There is a frame of reference that has to be, in bounds, right?"
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 158,
+          "speaker": "Mike",
+          "quote": "if you're gonna sell a payments business, like you're in bps. You're not in percents."
+        },
+        {
+          "turn_index": 160,
+          "speaker": "Mike",
+          "quote": "he, almost lost me out, out the jump"
+        },
+        {
+          "turn_index": 166,
+          "speaker": "Mike",
+          "quote": "if you work in this space it's not credible."
+        },
+        {
+          "turn_index": 170,
+          "speaker": "Mike",
+          "quote": "if it is, then it's a mark."
+        },
+        {
+          "turn_index": 222,
+          "speaker": "Mike",
+          "quote": "Being optimistic"
+        },
+        {
+          "turn_index": 230,
+          "speaker": "Mike",
+          "quote": "he has Afterpay, he has industry execs working."
+        },
+        {
+          "turn_index": 238,
+          "speaker": "Mike",
+          "quote": "There is a frame of reference that has to be, in bounds, right?"
+        }
+      ],
+      "activation": "evaluated",
+      "source_rationale_id": "R23",
+      "utterance_kind": "assessment",
+      "decision_support": "supports_out",
+      "all_mention_ids": [
+        "R21",
+        "R22",
+        "R23",
+        "R24",
+        "R29",
+        "R31",
+        "R32"
+      ]
+    },
+    {
+      "rationale_label": "founder_execution",
+      "direction": "neutral",
+      "salience": "secondary",
+      "confidence": 0.93,
+      "utterance_type": "question",
+      "decision_link": "none",
+      "timing": "original_pitch",
+      "turn_index": 73,
+      "quote": "how are you executing against this?",
+      "explanation": "Mike asks how the team is executing its growth strategy against that competitive pressure.",
+      "evidence": [
+        "how are you executing against this?"
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 73,
+          "speaker": "Mike",
+          "quote": "how are you executing against this?"
+        }
+      ],
+      "activation": "queried",
+      "source_rationale_id": "R4",
+      "utterance_kind": "question",
+      "decision_support": "none",
+      "all_mention_ids": [
+        "R4"
+      ]
+    },
+    {
+      "rationale_label": "go_to_market_strategy_assessment",
+      "direction": "negative",
+      "salience": "primary",
+      "confidence": 0.98,
+      "utterance_type": "question",
+      "decision_link": "none",
+      "timing": "original_pitch",
+      "turn_index": 123,
+      "quote": "how do you, do you go to market in a way that you can actually leverage your feasible moat?",
+      "explanation": "Mike questions whether the go-to-market strategy can turn the proposed moat into an effective advantage.",
+      "evidence": [
+        "how do you, do you go to market in a way that you can actually leverage your feasible moat?"
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 123,
+          "speaker": "Mike",
+          "quote": "how do you, do you go to market in a way that you can actually leverage your feasible moat?"
+        }
+      ],
+      "activation": "queried",
+      "source_rationale_id": "R15",
+      "utterance_kind": "question",
+      "decision_support": "none",
+      "all_mention_ids": [
+        "R15"
+      ]
+    },
+    {
+      "rationale_label": "investor_experience_bias",
+      "direction": "negative",
+      "salience": "primary",
+      "confidence": 0.99,
+      "utterance_type": "decision_reason",
+      "decision_link": "explicit",
+      "timing": "original_pitch",
+      "turn_index": 129,
+      "quote": "I'm gonna say I'm, I'm gonna pass. just having spent my life in this area.",
+      "explanation": "Mike explicitly connects his extensive payments experience to his decision to pass.",
+      "evidence": [
+        "I was at Betterment, and we launched, Betterment Gifts as part of registry.",
+        "I'm gonna say I'm, I'm gonna pass. just having spent my life in this area.",
+        "maybe I'm just like, grizzled, grizzled, like, fintech person"
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 110,
+          "speaker": "Mike",
+          "quote": "I was at Betterment, and we launched, Betterment Gifts as part of registry."
+        },
+        {
+          "turn_index": 129,
+          "speaker": "Mike",
+          "quote": "I'm gonna say I'm, I'm gonna pass. just having spent my life in this area."
+        },
+        {
+          "turn_index": 183,
+          "speaker": "Mike",
+          "quote": "maybe I'm just like, grizzled, grizzled, like, fintech person"
+        }
+      ],
+      "activation": "evaluated",
+      "source_rationale_id": "R16",
+      "utterance_kind": "decision_explanation",
+      "decision_support": "supports_out",
+      "all_mention_ids": [
+        "R9",
+        "R16",
+        "R25"
+      ]
+    },
+    {
+      "rationale_label": "market_entry_path_assessment",
+      "direction": "positive",
+      "salience": "secondary",
+      "confidence": 0.96,
+      "utterance_type": "assessment",
+      "decision_link": "none",
+      "timing": "original_pitch",
+      "turn_index": 133,
+      "quote": "and then that can move into other industries.",
+      "explanation": "Mike argues that a successful travel wedge could support later expansion into other industries.",
+      "evidence": [
+        "I could see a wedge in this idea of the social commerce platform.",
+        "I could see travel being a wedge market where you can kind of own that",
+        "and then that can move into other industries."
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 110,
+          "speaker": "Mike",
+          "quote": "I could see a wedge in this idea of the social commerce platform."
+        },
+        {
+          "turn_index": 131,
+          "speaker": "Mike",
+          "quote": "I could see travel being a wedge market where you can kind of own that"
+        },
+        {
+          "turn_index": 133,
+          "speaker": "Mike",
+          "quote": "and then that can move into other industries."
+        }
+      ],
+      "activation": "evaluated",
+      "source_rationale_id": "R19",
+      "utterance_kind": "supporting_argument",
+      "decision_support": "none",
+      "all_mention_ids": [
+        "R5",
+        "R8",
+        "R14",
+        "R18",
+        "R19"
+      ]
+    },
+    {
+      "rationale_label": "market_problem_validation",
+      "direction": "positive",
+      "salience": "secondary",
+      "confidence": 0.99,
+      "utterance_type": "assessment",
+      "decision_link": "none",
+      "timing": "original_pitch",
+      "turn_index": 285,
+      "quote": "I do think it's a problem.",
+      "explanation": "Mike explicitly agrees that group purchasing presents a real underlying problem.",
+      "evidence": [
+        "I do think it's a problem."
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 285,
+          "speaker": "Mike",
+          "quote": "I do think it's a problem."
+        }
+      ],
+      "activation": "evaluated",
+      "source_rationale_id": "R33",
+      "utterance_kind": "supporting_argument",
+      "decision_support": "none",
+      "all_mention_ids": [
+        "R33"
+      ]
+    },
+    {
+      "rationale_label": "traction_repeatability_concern",
+      "direction": "negative",
+      "salience": "primary",
+      "confidence": 0.99,
+      "utterance_type": "assessment",
+      "decision_link": "none",
+      "timing": "original_pitch",
+      "turn_index": 202,
+      "quote": "a big one-time purchase",
+      "explanation": "Mike reiterates that the baby category centers on large but infrequent purchases.",
+      "evidence": [
+        "The problem is they're one time.",
+        "baby brand, it's not like travel or restaurants where there's a high volume.",
+        "you need transaction volume, right? You need repetition to build this.",
+        "a big one-time purchase",
+        "taking a trip every year"
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 110,
+          "speaker": "Mike",
+          "quote": "The problem is they're one time."
+        },
+        {
+          "turn_index": 112,
+          "speaker": "Mike",
+          "quote": "baby brand, it's not like travel or restaurants where there's a high volume."
+        },
+        {
+          "turn_index": 117,
+          "speaker": "Mike",
+          "quote": "you need transaction volume, right? You need repetition to build this."
+        },
+        {
+          "turn_index": 202,
+          "speaker": "Mike",
+          "quote": "a big one-time purchase"
+        },
+        {
+          "turn_index": 206,
+          "speaker": "Mike",
+          "quote": "taking a trip every year"
+        }
+      ],
+      "activation": "evaluated",
+      "source_rationale_id": "R27",
+      "utterance_kind": "concern",
+      "decision_support": "none",
+      "all_mention_ids": [
+        "R10",
+        "R11",
+        "R12",
+        "R27",
+        "R28"
+      ]
+    },
+    {
+      "rationale_label": "unit_economics_assessment",
+      "direction": "neutral",
+      "salience": "secondary",
+      "confidence": 0.96,
+      "utterance_type": "question",
+      "decision_link": "none",
+      "timing": "original_pitch",
+      "turn_index": 70,
+      "quote": "This coming into bps, right?",
+      "explanation": "Mike clarifies how the payment economics should be measured.",
+      "evidence": [
+        "Can you walk me through the unit economics?",
+        "This coming into bps, right?"
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 54,
+          "speaker": "Mike",
+          "quote": "Can you walk me through the unit economics?"
+        },
+        {
+          "turn_index": 70,
+          "speaker": "Mike",
+          "quote": "This coming into bps, right?"
+        }
+      ],
+      "activation": "queried",
+      "source_rationale_id": "R2",
+      "utterance_kind": "question",
+      "decision_support": "none",
+      "all_mention_ids": [
+        "R1",
+        "R2"
+      ]
+    }
+  ],
+  "later_rationales": [],
+  "excluded_rationales": [
+    {
+      "rationale_label": "mission_alignment_preference",
+      "direction": "positive",
+      "salience": "primary",
+      "confidence": 0.96,
+      "utterance_type": "decision_explanation",
+      "decision_link": "supports_in",
+      "timing": "teaser",
+      "turn_index": 473,
+      "quote": "one of the most important social fabrics that binds community together",
+      "explanation": "In the next-episode teaser, Mike links his commitment to the appeal of supporting an institution central to community life.",
+      "evidence": [
+        "one of the most important social fabrics that binds community together"
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 473,
+          "speaker": "Mike",
+          "quote": "one of the most important social fabrics that binds community together"
+        }
+      ],
+      "activation": "evaluated",
+      "source_rationale_id": "R35"
+    },
+    {
+      "rationale_label": "market_size_assessment",
+      "direction": "positive",
+      "salience": "primary",
+      "confidence": 0.97,
+      "utterance_type": "decision_explanation",
+      "decision_link": "supports_in",
+      "timing": "teaser",
+      "turn_index": 473,
+      "quote": "holds a crap ton of assets, real estate shoot, I'm in.",
+      "explanation": "Mike explicitly links the substantial assets held by the teaser's target market to his decision to invest.",
+      "evidence": [
+        "holds a crap ton of assets, real estate shoot, I'm in."
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 473,
+          "speaker": "Mike",
+          "quote": "holds a crap ton of assets, real estate shoot, I'm in."
+        }
+      ],
+      "activation": "evaluated",
+      "source_rationale_id": "R36"
+    }
+  ],
+  "rationale_mentions": [
+    {
+      "rationale_label": "unit_economics_assessment",
+      "direction": "neutral",
+      "salience": "secondary",
+      "confidence": 0.99,
+      "utterance_type": "question",
+      "decision_link": "none",
+      "timing": "original_pitch",
+      "turn_index": 54,
+      "quote": "Can you walk me through the unit economics?",
+      "explanation": "Mike asks for the economics of each transaction.",
+      "evidence": [
+        "Can you walk me through the unit economics?"
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 54,
+          "speaker": "Mike",
+          "quote": "Can you walk me through the unit economics?"
+        }
+      ],
+      "activation": "queried",
+      "source_rationale_id": "R1"
+    },
+    {
+      "rationale_label": "unit_economics_assessment",
+      "direction": "neutral",
+      "salience": "secondary",
+      "confidence": 0.96,
+      "utterance_type": "question",
+      "decision_link": "none",
+      "timing": "original_pitch",
+      "turn_index": 70,
+      "quote": "This coming into bps, right?",
+      "explanation": "Mike clarifies how the payment economics should be measured.",
+      "evidence": [
+        "This coming into bps, right?"
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 70,
+          "speaker": "Mike",
+          "quote": "This coming into bps, right?"
+        }
+      ],
+      "activation": "queried",
+      "source_rationale_id": "R2"
+    },
+    {
+      "rationale_label": "competitive_intensity_concern",
+      "direction": "negative",
+      "salience": "primary",
+      "confidence": 0.99,
+      "utterance_type": "question",
+      "decision_link": "none",
+      "timing": "original_pitch",
+      "turn_index": 73,
+      "quote": "how do you beat this race to the bottom, that pervades the space",
+      "explanation": "Mike challenges how PaySquad will withstand the payments sector's intense price competition.",
+      "evidence": [
+        "how do you beat this race to the bottom, that pervades the space"
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 73,
+          "speaker": "Mike",
+          "quote": "how do you beat this race to the bottom, that pervades the space"
+        }
+      ],
+      "activation": "queried",
+      "source_rationale_id": "R3"
+    },
+    {
+      "rationale_label": "founder_execution",
+      "direction": "neutral",
+      "salience": "secondary",
+      "confidence": 0.93,
+      "utterance_type": "question",
+      "decision_link": "none",
+      "timing": "original_pitch",
+      "turn_index": 73,
+      "quote": "how are you executing against this?",
+      "explanation": "Mike asks how the team is executing its growth strategy against that competitive pressure.",
+      "evidence": [
+        "how are you executing against this?"
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 73,
+          "speaker": "Mike",
+          "quote": "how are you executing against this?"
+        }
+      ],
+      "activation": "queried",
+      "source_rationale_id": "R4"
+    },
+    {
+      "rationale_label": "market_entry_path_assessment",
+      "direction": "neutral",
+      "salience": "secondary",
+      "confidence": 0.97,
+      "utterance_type": "question",
+      "decision_link": "none",
+      "timing": "original_pitch",
+      "turn_index": 75,
+      "quote": "Can you say more about those sector... Like, so we heard it's not furniture.",
+      "explanation": "Mike asks which industry segments offer a viable initial entry path.",
+      "evidence": [
+        "Can you say more about those sector... Like, so we heard it's not furniture."
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 75,
+          "speaker": "Mike",
+          "quote": "Can you say more about those sector... Like, so we heard it's not furniture."
+        }
+      ],
+      "activation": "queried",
+      "source_rationale_id": "R5"
+    },
+    {
+      "rationale_label": "competitive_advantage_assessment",
+      "direction": "neutral",
+      "salience": "secondary",
+      "confidence": 0.99,
+      "utterance_type": "question",
+      "decision_link": "none",
+      "timing": "original_pitch",
+      "turn_index": 91,
+      "quote": "what the extent and range of this exclusivity that you've built in.",
+      "explanation": "Mike investigates whether merchant exclusivity creates meaningful competitive protection.",
+      "evidence": [
+        "what the extent and range of this exclusivity that you've built in."
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 91,
+          "speaker": "Mike",
+          "quote": "what the extent and range of this exclusivity that you've built in."
+        }
+      ],
+      "activation": "queried",
+      "source_rationale_id": "R6"
+    },
+    {
+      "rationale_label": "competitive_advantage_assessment",
+      "direction": "negative",
+      "salience": "secondary",
+      "confidence": 0.99,
+      "utterance_type": "question",
+      "decision_link": "none",
+      "timing": "original_pitch",
+      "turn_index": 93,
+      "quote": "But they could just terminate your MSA, right?",
+      "explanation": "Mike questions the durability of exclusivity when a merchant can terminate the agreement.",
+      "evidence": [
+        "But they could just terminate your MSA, right?"
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 93,
+          "speaker": "Mike",
+          "quote": "But they could just terminate your MSA, right?"
+        }
+      ],
+      "activation": "queried",
+      "source_rationale_id": "R7"
+    },
+    {
+      "rationale_label": "market_entry_path_assessment",
+      "direction": "positive",
+      "salience": "secondary",
+      "confidence": 0.98,
+      "utterance_type": "supporting_argument",
+      "decision_link": "none",
+      "timing": "original_pitch",
+      "turn_index": 110,
+      "quote": "I could see a wedge in this idea of the social commerce platform.",
+      "explanation": "Mike sees social commerce as a plausible initial wedge.",
+      "evidence": [
+        "I could see a wedge in this idea of the social commerce platform."
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 110,
+          "speaker": "Mike",
+          "quote": "I could see a wedge in this idea of the social commerce platform."
+        }
+      ],
+      "activation": "evaluated",
+      "source_rationale_id": "R8"
+    },
+    {
+      "rationale_label": "investor_experience_bias",
+      "direction": "negative",
+      "salience": "secondary",
+      "confidence": 0.97,
+      "utterance_type": "supporting_argument",
+      "decision_link": "none",
+      "timing": "original_pitch",
+      "turn_index": 110,
+      "quote": "I was at Betterment, and we launched, Betterment Gifts as part of registry.",
+      "explanation": "Mike draws on his prior experience launching a gifting product to assess the opportunity.",
+      "evidence": [
+        "I was at Betterment, and we launched, Betterment Gifts as part of registry."
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 110,
+          "speaker": "Mike",
+          "quote": "I was at Betterment, and we launched, Betterment Gifts as part of registry."
+        }
+      ],
+      "activation": "evaluated",
+      "source_rationale_id": "R9"
+    },
+    {
+      "rationale_label": "traction_repeatability_concern",
+      "direction": "negative",
+      "salience": "secondary",
+      "confidence": 0.98,
+      "utterance_type": "concern",
+      "decision_link": "none",
+      "timing": "original_pitch",
+      "turn_index": 110,
+      "quote": "The problem is they're one time.",
+      "explanation": "Mike identifies the one-time nature of registry and gift transactions as a repeatability problem.",
+      "evidence": [
+        "The problem is they're one time."
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 110,
+          "speaker": "Mike",
+          "quote": "The problem is they're one time."
+        }
+      ],
+      "activation": "evaluated",
+      "source_rationale_id": "R10"
+    },
+    {
+      "rationale_label": "traction_repeatability_concern",
+      "direction": "negative",
+      "salience": "primary",
+      "confidence": 0.99,
+      "utterance_type": "question",
+      "decision_link": "none",
+      "timing": "original_pitch",
+      "turn_index": 112,
+      "quote": "baby brand, it's not like travel or restaurants where there's a high volume.",
+      "explanation": "Mike questions whether the baby category can provide sufficient transaction frequency.",
+      "evidence": [
+        "baby brand, it's not like travel or restaurants where there's a high volume."
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 112,
+          "speaker": "Mike",
+          "quote": "baby brand, it's not like travel or restaurants where there's a high volume."
+        }
+      ],
+      "activation": "queried",
+      "source_rationale_id": "R11"
+    },
+    {
+      "rationale_label": "traction_repeatability_concern",
+      "direction": "negative",
+      "salience": "primary",
+      "confidence": 0.99,
+      "utterance_type": "concern",
+      "decision_link": "none",
+      "timing": "original_pitch",
+      "turn_index": 117,
+      "quote": "you need transaction volume, right? You need repetition to build this.",
+      "explanation": "Mike states that high volume and repeat usage are necessary to build the business.",
+      "evidence": [
+        "you need transaction volume, right? You need repetition to build this."
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 117,
+          "speaker": "Mike",
+          "quote": "you need transaction volume, right? You need repetition to build this."
+        }
+      ],
+      "activation": "evaluated",
+      "source_rationale_id": "R12"
+    },
+    {
+      "rationale_label": "competitive_advantage_assessment",
+      "direction": "negative",
+      "salience": "secondary",
+      "confidence": 0.97,
+      "utterance_type": "question",
+      "decision_link": "none",
+      "timing": "original_pitch",
+      "turn_index": 119,
+      "quote": "So reconcile this moat for me-",
+      "explanation": "Mike challenges whether the proposed moat is internally coherent.",
+      "evidence": [
+        "So reconcile this moat for me-"
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 119,
+          "speaker": "Mike",
+          "quote": "So reconcile this moat for me-"
+        }
+      ],
+      "activation": "queried",
+      "source_rationale_id": "R13"
+    },
+    {
+      "rationale_label": "market_entry_path_assessment",
+      "direction": "negative",
+      "salience": "secondary",
+      "confidence": 0.96,
+      "utterance_type": "question",
+      "decision_link": "none",
+      "timing": "original_pitch",
+      "turn_index": 121,
+      "quote": "against your wedge market is baby-",
+      "explanation": "Mike highlights a mismatch between the proposed moat and the low-frequency baby-market wedge.",
+      "evidence": [
+        "against your wedge market is baby-"
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 121,
+          "speaker": "Mike",
+          "quote": "against your wedge market is baby-"
+        }
+      ],
+      "activation": "queried",
+      "source_rationale_id": "R14"
+    },
+    {
+      "rationale_label": "go_to_market_strategy_assessment",
+      "direction": "negative",
+      "salience": "primary",
+      "confidence": 0.98,
+      "utterance_type": "question",
+      "decision_link": "none",
+      "timing": "original_pitch",
+      "turn_index": 123,
+      "quote": "how do you, do you go to market in a way that you can actually leverage your feasible moat?",
+      "explanation": "Mike questions whether the go-to-market strategy can turn the proposed moat into an effective advantage.",
+      "evidence": [
+        "how do you, do you go to market in a way that you can actually leverage your feasible moat?"
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 123,
+          "speaker": "Mike",
+          "quote": "how do you, do you go to market in a way that you can actually leverage your feasible moat?"
+        }
+      ],
+      "activation": "queried",
+      "source_rationale_id": "R15"
+    },
+    {
+      "rationale_label": "investor_experience_bias",
+      "direction": "negative",
+      "salience": "primary",
+      "confidence": 0.99,
+      "utterance_type": "decision_explanation",
+      "decision_link": "supports_out",
+      "timing": "original_pitch",
+      "turn_index": 129,
+      "quote": "I'm gonna say I'm, I'm gonna pass. just having spent my life in this area.",
+      "explanation": "Mike explicitly connects his extensive payments experience to his decision to pass.",
+      "evidence": [
+        "I'm gonna say I'm, I'm gonna pass. just having spent my life in this area."
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 129,
+          "speaker": "Mike",
+          "quote": "I'm gonna say I'm, I'm gonna pass. just having spent my life in this area."
+        }
+      ],
+      "activation": "evaluated",
+      "source_rationale_id": "R16"
+    },
+    {
+      "rationale_label": "competitive_intensity_concern",
+      "direction": "negative",
+      "salience": "primary",
+      "confidence": 0.99,
+      "utterance_type": "decision_explanation",
+      "decision_link": "supports_out",
+      "timing": "original_pitch",
+      "turn_index": 131,
+      "quote": "I think your competition risk is, is so high.",
+      "explanation": "Mike identifies high competitive risk as a principal reason for passing.",
+      "evidence": [
+        "I think your competition risk is, is so high."
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 131,
+          "speaker": "Mike",
+          "quote": "I think your competition risk is, is so high."
+        }
+      ],
+      "activation": "evaluated",
+      "source_rationale_id": "R17"
+    },
+    {
+      "rationale_label": "market_entry_path_assessment",
+      "direction": "positive",
+      "salience": "secondary",
+      "confidence": 0.99,
+      "utterance_type": "supporting_argument",
+      "decision_link": "none",
+      "timing": "original_pitch",
+      "turn_index": 131,
+      "quote": "I could see travel being a wedge market where you can kind of own that",
+      "explanation": "Mike considers travel a more promising initial market that PaySquad could potentially own.",
+      "evidence": [
+        "I could see travel being a wedge market where you can kind of own that"
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 131,
+          "speaker": "Mike",
+          "quote": "I could see travel being a wedge market where you can kind of own that"
+        }
+      ],
+      "activation": "evaluated",
+      "source_rationale_id": "R18"
+    },
+    {
+      "rationale_label": "market_entry_path_assessment",
+      "direction": "positive",
+      "salience": "secondary",
+      "confidence": 0.96,
+      "utterance_type": "supporting_argument",
+      "decision_link": "none",
+      "timing": "original_pitch",
+      "turn_index": 133,
+      "quote": "and then that can move into other industries.",
+      "explanation": "Mike argues that a successful travel wedge could support later expansion into other industries.",
+      "evidence": [
+        "and then that can move into other industries."
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 133,
+          "speaker": "Mike",
+          "quote": "and then that can move into other industries."
+        }
+      ],
+      "activation": "evaluated",
+      "source_rationale_id": "R19"
+    },
+    {
+      "rationale_label": "competitive_advantage_assessment",
+      "direction": "negative",
+      "salience": "primary",
+      "confidence": 0.99,
+      "utterance_type": "decision_explanation",
+      "decision_link": "supports_out",
+      "timing": "original_pitch",
+      "turn_index": 135,
+      "quote": "it's really simple. It's like, like happened every day in the payment things just to cancel your MSA and move on.",
+      "explanation": "Mike says merchants can easily cancel the agreement, making its exclusivity an inadequate defense against competitors.",
+      "evidence": [
+        "it's really simple. It's like, like happened every day in the payment things just to cancel your MSA and move on."
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 135,
+          "speaker": "Mike",
+          "quote": "it's really simple. It's like, like happened every day in the payment things just to cancel your MSA and move on."
+        }
+      ],
+      "activation": "evaluated",
+      "source_rationale_id": "R20"
+    },
+    {
+      "rationale_label": "founder_communication_quality",
+      "direction": "negative",
+      "salience": "secondary",
+      "confidence": 0.99,
+      "utterance_type": "assessment",
+      "decision_link": "none",
+      "timing": "original_pitch",
+      "turn_index": 158,
+      "quote": "if you're gonna sell a payments business, like you're in bps. You're not in percents.",
+      "explanation": "Mike criticizes the founder's use of percentages rather than standard payments-industry basis-point framing.",
+      "evidence": [
+        "if you're gonna sell a payments business, like you're in bps. You're not in percents."
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 158,
+          "speaker": "Mike",
+          "quote": "if you're gonna sell a payments business, like you're in bps. You're not in percents."
+        }
+      ],
+      "activation": "evaluated",
+      "source_rationale_id": "R21"
+    },
+    {
+      "rationale_label": "founder_communication_quality",
+      "direction": "negative",
+      "salience": "primary",
+      "confidence": 0.99,
+      "utterance_type": "decision_explanation",
+      "decision_link": "supports_out",
+      "timing": "original_pitch",
+      "turn_index": 160,
+      "quote": "he, almost lost me out, out the jump",
+      "explanation": "Mike says the founder's initial framing nearly eliminated his interest immediately.",
+      "evidence": [
+        "he, almost lost me out, out the jump"
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 160,
+          "speaker": "Mike",
+          "quote": "he, almost lost me out, out the jump"
+        }
+      ],
+      "activation": "evaluated",
+      "source_rationale_id": "R22"
+    },
+    {
+      "rationale_label": "founder_communication_quality",
+      "direction": "negative",
+      "salience": "primary",
+      "confidence": 0.99,
+      "utterance_type": "assessment",
+      "decision_link": "supports_out",
+      "timing": "original_pitch",
+      "turn_index": 166,
+      "quote": "if you work in this space it's not credible.",
+      "explanation": "Mike says the way the metrics were presented undermined the founder's credibility as a payments operator.",
+      "evidence": [
+        "if you work in this space it's not credible."
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 166,
+          "speaker": "Mike",
+          "quote": "if you work in this space it's not credible."
+        }
+      ],
+      "activation": "evaluated",
+      "source_rationale_id": "R23"
+    },
+    {
+      "rationale_label": "founder_communication_quality",
+      "direction": "negative",
+      "salience": "secondary",
+      "confidence": 0.98,
+      "utterance_type": "assessment",
+      "decision_link": "none",
+      "timing": "original_pitch",
+      "turn_index": 170,
+      "quote": "if it is, then it's a mark.",
+      "explanation": "Mike says that even an honest mistake in presenting the metrics counts against the founder.",
+      "evidence": [
+        "if it is, then it's a mark."
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 170,
+          "speaker": "Mike",
+          "quote": "if it is, then it's a mark."
+        }
+      ],
+      "activation": "evaluated",
+      "source_rationale_id": "R24"
+    },
+    {
+      "rationale_label": "investor_experience_bias",
+      "direction": "negative",
+      "salience": "secondary",
+      "confidence": 0.92,
+      "utterance_type": "assessment",
+      "decision_link": "none",
+      "timing": "original_pitch",
+      "turn_index": 183,
+      "quote": "maybe I'm just like, grizzled, grizzled, like, fintech person",
+      "explanation": "Mike acknowledges that his extensive fintech experience contributes to his skeptical assessment.",
+      "evidence": [
+        "maybe I'm just like, grizzled, grizzled, like, fintech person"
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 183,
+          "speaker": "Mike",
+          "quote": "maybe I'm just like, grizzled, grizzled, like, fintech person"
+        }
+      ],
+      "activation": "evaluated",
+      "source_rationale_id": "R25"
+    },
+    {
+      "rationale_label": "competitive_advantage_assessment",
+      "direction": "negative",
+      "salience": "primary",
+      "confidence": 0.99,
+      "utterance_type": "concern",
+      "decision_link": "none",
+      "timing": "original_pitch",
+      "turn_index": 192,
+      "quote": "The worry is, you spent our capital to make a market for a firm to sit on, right?",
+      "explanation": "Mike worries that PaySquad would spend investor capital developing a market that a larger payments firm could capture.",
+      "evidence": [
+        "The worry is, you spent our capital to make a market for a firm to sit on, right?"
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 192,
+          "speaker": "Mike",
+          "quote": "The worry is, you spent our capital to make a market for a firm to sit on, right?"
+        }
+      ],
+      "activation": "evaluated",
+      "source_rationale_id": "R26"
+    },
+    {
+      "rationale_label": "traction_repeatability_concern",
+      "direction": "negative",
+      "salience": "primary",
+      "confidence": 0.99,
+      "utterance_type": "concern",
+      "decision_link": "none",
+      "timing": "original_pitch",
+      "turn_index": 202,
+      "quote": "a big one-time purchase",
+      "explanation": "Mike reiterates that the baby category centers on large but infrequent purchases.",
+      "evidence": [
+        "a big one-time purchase"
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 202,
+          "speaker": "Mike",
+          "quote": "a big one-time purchase"
+        }
+      ],
+      "activation": "evaluated",
+      "source_rationale_id": "R27"
+    },
+    {
+      "rationale_label": "traction_repeatability_concern",
+      "direction": "negative",
+      "salience": "secondary",
+      "confidence": 0.95,
+      "utterance_type": "supporting_argument",
+      "decision_link": "none",
+      "timing": "original_pitch",
+      "turn_index": 206,
+      "quote": "taking a trip every year",
+      "explanation": "Mike contrasts a potentially recurring travel purchase with the one-time baby purchase category.",
+      "evidence": [
+        "taking a trip every year"
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 206,
+          "speaker": "Mike",
+          "quote": "taking a trip every year"
+        }
+      ],
+      "activation": "evaluated",
+      "source_rationale_id": "R28"
+    },
+    {
+      "rationale_label": "founder_communication_quality",
+      "direction": "negative",
+      "salience": "secondary",
+      "confidence": 0.92,
+      "utterance_type": "assessment",
+      "decision_link": "none",
+      "timing": "original_pitch",
+      "turn_index": 222,
+      "quote": "Being optimistic",
+      "explanation": "Mike characterizes the founder's presentation of the business as optimistic in the ongoing discussion of its overly favorable framing.",
+      "evidence": [
+        "Being optimistic"
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 222,
+          "speaker": "Mike",
+          "quote": "Being optimistic"
+        }
+      ],
+      "activation": "evaluated",
+      "source_rationale_id": "R29"
+    },
+    {
+      "rationale_label": "business_viability_concern",
+      "direction": "negative",
+      "salience": "secondary",
+      "confidence": 0.97,
+      "utterance_type": "assessment",
+      "decision_link": "none",
+      "timing": "original_pitch",
+      "turn_index": 228,
+      "quote": "The payments business is not an optimistic area of fintech. It's not.",
+      "explanation": "Mike expresses broad skepticism about the viability and economic outlook of payments businesses.",
+      "evidence": [
+        "The payments business is not an optimistic area of fintech. It's not."
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 228,
+          "speaker": "Mike",
+          "quote": "The payments business is not an optimistic area of fintech. It's not."
+        }
+      ],
+      "activation": "evaluated",
+      "source_rationale_id": "R30"
+    },
+    {
+      "rationale_label": "founder_communication_quality",
+      "direction": "negative",
+      "salience": "secondary",
+      "confidence": 0.94,
+      "utterance_type": "assessment",
+      "decision_link": "none",
+      "timing": "original_pitch",
+      "turn_index": 230,
+      "quote": "he has Afterpay, he has industry execs working.",
+      "explanation": "Mike argues that the presence of experienced payments executives makes the unrealistic framing less excusable.",
+      "evidence": [
+        "he has Afterpay, he has industry execs working."
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 230,
+          "speaker": "Mike",
+          "quote": "he has Afterpay, he has industry execs working."
+        }
+      ],
+      "activation": "evaluated",
+      "source_rationale_id": "R31"
+    },
+    {
+      "rationale_label": "founder_communication_quality",
+      "direction": "negative",
+      "salience": "secondary",
+      "confidence": 0.97,
+      "utterance_type": "assessment",
+      "decision_link": "none",
+      "timing": "original_pitch",
+      "turn_index": 238,
+      "quote": "There is a frame of reference that has to be, in bounds, right?",
+      "explanation": "Mike says the pitch's framing needs to remain grounded in credible payments-industry parameters.",
+      "evidence": [
+        "There is a frame of reference that has to be, in bounds, right?"
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 238,
+          "speaker": "Mike",
+          "quote": "There is a frame of reference that has to be, in bounds, right?"
+        }
+      ],
+      "activation": "evaluated",
+      "source_rationale_id": "R32"
+    },
+    {
+      "rationale_label": "market_problem_validation",
+      "direction": "positive",
+      "salience": "secondary",
+      "confidence": 0.99,
+      "utterance_type": "supporting_argument",
+      "decision_link": "none",
+      "timing": "original_pitch",
+      "turn_index": 285,
+      "quote": "I do think it's a problem.",
+      "explanation": "Mike explicitly agrees that group purchasing presents a real underlying problem.",
+      "evidence": [
+        "I do think it's a problem."
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 285,
+          "speaker": "Mike",
+          "quote": "I do think it's a problem."
+        }
+      ],
+      "activation": "evaluated",
+      "source_rationale_id": "R33"
+    },
+    {
+      "rationale_label": "competitive_advantage_assessment",
+      "direction": "negative",
+      "salience": "primary",
+      "confidence": 0.99,
+      "utterance_type": "concern",
+      "decision_link": "none",
+      "timing": "original_pitch",
+      "turn_index": 285,
+      "quote": "my worry is like it's a problem he solves, and another firm's like, \"Cool.\"",
+      "explanation": "Mike worries that another firm could appropriate the market after PaySquad establishes the solution.",
+      "evidence": [
+        "my worry is like it's a problem he solves, and another firm's like, \"Cool.\""
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 285,
+          "speaker": "Mike",
+          "quote": "my worry is like it's a problem he solves, and another firm's like, \"Cool.\""
+        }
+      ],
+      "activation": "evaluated",
+      "source_rationale_id": "R34"
+    }
+  ],
+  "expanded_quote_evidence": [],
+  "rejected_after_evidence_check": []
+}

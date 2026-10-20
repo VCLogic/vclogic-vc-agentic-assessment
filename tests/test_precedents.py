@@ -1126,3 +1126,14 @@ def test_for_target_short_aliases_use_token_boundaries_not_substrings() -> None:
         "20-xavier",
         "22-oxford",
     ]
+
+
+def test_complete_index_can_have_empty_held_out_view():
+    corpus = PrecedentCorpus(
+        (episode('99-target'),), embedder=MetadataEmbedder(),
+        require_complete_embeddings=True,
+    )
+    view = corpus.for_target('99-target')
+    assert view.list_episodes() == ()
+    with pytest.raises(PermissionError):
+        view.open_transcript('99-target')

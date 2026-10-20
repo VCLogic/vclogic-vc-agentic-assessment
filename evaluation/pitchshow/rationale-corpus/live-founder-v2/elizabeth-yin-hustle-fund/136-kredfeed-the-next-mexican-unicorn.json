@@ -1,0 +1,1246 @@
+{
+  "schema": "phase1-rationale-reference-v1",
+  "extraction_version": "pitchshow-rationales-v1",
+  "fingerprint": "416217eb400f42465a5a52f4bf983650db7cbef1e2bb63fa5722aa9065609c71",
+  "episode_slug": "136-kredfeed-the-next-mexican-unicorn",
+  "vc_slug": "elizabeth-yin-hustle-fund",
+  "vc_name": "Elizabeth Yin",
+  "actual_decision": "Out",
+  "later_decision": "Unknown",
+  "reference_kind": "automated_transcript_observed_candidate",
+  "human_validated": false,
+  "source_format": "transcript-observed-rationales-v1",
+  "source_path": "../source/episodes/136-kredfeed-the-next-mexican-unicorn.json",
+  "source_sha256": "8b329db773c01705cb2fb28048ed46350cc31a42a569c970c0dd339924a84cb5",
+  "transcript_sha256": "aaaf743633e3d3a4bd888a30c4e476cd056a44f762e918c30bdc525aa84e72b2",
+  "taxonomy_sha256": "eaa8734819a3ac34dd19ee5f0bf6de925a793a1d25a2d361090dafc9b751e1fc",
+  "model": "openai/gpt-5.6-luna",
+  "source_tier": "newly_extracted_and_independently_model_reviewed",
+  "reviewed_target_turns": [
+    2,
+    7,
+    16,
+    55,
+    57,
+    69,
+    78,
+    80,
+    87,
+    91,
+    95,
+    97,
+    99,
+    106,
+    108,
+    110,
+    121,
+    129,
+    131,
+    140,
+    162,
+    164,
+    166,
+    168,
+    170,
+    174,
+    177,
+    179,
+    181,
+    183,
+    256,
+    260
+  ],
+  "notes": "Turns 16, 55, 87, 91, 95, 99, 106, 170 and 174 contain no distinct rationale. The final two target turns concern a separate teaser pitch and are annotated with teaser timing.",
+  "receipt_path": "receipts/136-kredfeed-the-next-mexican-unicorn.json",
+  "scoring_scope": "live_founder_present_v2",
+  "shared_across_input_modes": true,
+  "rationales": [
+    {
+      "rationale_label": "capital_intensity_concern",
+      "direction": "neutral",
+      "salience": "secondary",
+      "confidence": 0.93,
+      "utterance_type": "question",
+      "decision_link": "none",
+      "timing": "original_pitch",
+      "turn_index": 57,
+      "quote": "Can you talk about that and any lines of credit you may have or whatnot?",
+      "explanation": "She probes the lending model's dependence on capital and credit facilities.",
+      "evidence": [
+        "Can you talk about that and any lines of credit you may have or whatnot?"
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 57,
+          "speaker": "Elizabeth",
+          "quote": "Can you talk about that and any lines of credit you may have or whatnot?"
+        }
+      ],
+      "activation": "queried",
+      "source_rationale_id": "R3",
+      "utterance_kind": "question",
+      "decision_support": "none",
+      "all_mention_ids": [
+        "R3"
+      ]
+    },
+    {
+      "rationale_label": "deal_terms_complexity_concern",
+      "direction": "neutral",
+      "salience": "secondary",
+      "confidence": 0.95,
+      "utterance_type": "question",
+      "decision_link": "none",
+      "timing": "original_pitch",
+      "turn_index": 121,
+      "quote": "And what are the terms on that?",
+      "explanation": "She requests the financing terms for evaluating the proposed deal.",
+      "evidence": [
+        "And what are the terms on that?"
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 121,
+          "speaker": "Elizabeth",
+          "quote": "And what are the terms on that?"
+        }
+      ],
+      "activation": "queried",
+      "source_rationale_id": "R12",
+      "utterance_kind": "question",
+      "decision_support": "none",
+      "all_mention_ids": [
+        "R12"
+      ]
+    },
+    {
+      "rationale_label": "decision_context_constraint",
+      "direction": "neutral",
+      "salience": "secondary",
+      "confidence": 0.93,
+      "utterance_type": "assessment",
+      "decision_link": "none",
+      "timing": "original_pitch",
+      "turn_index": 7,
+      "quote": "I don't go to any more demo days.",
+      "explanation": "She states a preference or constraint concerning the evaluation context rather than the company fundamentals.",
+      "evidence": [
+        "I don't go to any more demo days."
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 7,
+          "speaker": "Elizabeth",
+          "quote": "I don't go to any more demo days."
+        }
+      ],
+      "activation": "evaluated",
+      "source_rationale_id": "R2",
+      "utterance_kind": "assessment",
+      "decision_support": "none",
+      "all_mention_ids": [
+        "R2"
+      ]
+    },
+    {
+      "rationale_label": "founder_investor_vision_alignment",
+      "direction": "negative",
+      "salience": "secondary",
+      "confidence": 0.94,
+      "utterance_type": "assessment",
+      "decision_link": "explicit",
+      "timing": "original_pitch",
+      "turn_index": 140,
+      "quote": "still don't quite understand that vision",
+      "explanation": "She says the planned expansion beyond the current manufacturing-lending focus is not sufficiently clear to her.",
+      "evidence": [
+        "still don't quite understand that vision"
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 140,
+          "speaker": "Elizabeth",
+          "quote": "still don't quite understand that vision"
+        }
+      ],
+      "activation": "evaluated",
+      "source_rationale_id": "R18",
+      "utterance_kind": "assessment",
+      "decision_support": "supports_out",
+      "all_mention_ids": [
+        "R18"
+      ]
+    },
+    {
+      "rationale_label": "founder_market_fit",
+      "direction": "negative",
+      "salience": "secondary",
+      "confidence": 0.88,
+      "utterance_type": "assessment",
+      "decision_link": "none",
+      "timing": "original_pitch",
+      "turn_index": 108,
+      "quote": "it sounds like you sort of stumbled a bit into this by talking with manufacturers",
+      "explanation": "She suggests the founder's connection to the manufacturing market may have been incidental.",
+      "evidence": [
+        "it sounds like you sort of stumbled a bit into this by talking with manufacturers"
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 108,
+          "speaker": "Elizabeth",
+          "quote": "it sounds like you sort of stumbled a bit into this by talking with manufacturers"
+        }
+      ],
+      "activation": "evaluated",
+      "source_rationale_id": "R9",
+      "utterance_kind": "assessment",
+      "decision_support": "none",
+      "all_mention_ids": [
+        "R5",
+        "R8",
+        "R9",
+        "R10"
+      ]
+    },
+    {
+      "rationale_label": "founder_motivation_authenticity",
+      "direction": "neutral",
+      "salience": "secondary",
+      "confidence": 0.98,
+      "utterance_type": "question",
+      "decision_link": "none",
+      "timing": "original_pitch",
+      "turn_index": 110,
+      "quote": "Do you love the problem you're working on?",
+      "explanation": "She tests whether the founder's motivation is authentic despite his lack of manufacturing experience.",
+      "evidence": [
+        "Do you love the problem you're working on?",
+        "How did you end up doing, you know, factoring for manufacturing"
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 2,
+          "speaker": "Elizabeth",
+          "quote": "Do you love the problem you're working on?"
+        },
+        {
+          "turn_index": 97,
+          "speaker": "Elizabeth",
+          "quote": "How did you end up doing, you know, factoring for manufacturing"
+        },
+        {
+          "turn_index": 110,
+          "speaker": "Elizabeth",
+          "quote": "Do you love the problem you're working on?"
+        }
+      ],
+      "activation": "queried",
+      "source_rationale_id": "R11",
+      "utterance_kind": "question",
+      "decision_support": "none",
+      "all_mention_ids": [
+        "R1",
+        "R7",
+        "R11"
+      ]
+    },
+    {
+      "rationale_label": "founder_qualities",
+      "direction": "neutral",
+      "salience": "secondary",
+      "confidence": 0.94,
+      "utterance_type": "question",
+      "decision_link": "none",
+      "timing": "original_pitch",
+      "turn_index": 80,
+      "quote": "And your team, also.",
+      "explanation": "She asks to assess the broader founding team.",
+      "evidence": [
+        "And your team, also."
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 80,
+          "speaker": "Elizabeth",
+          "quote": "And your team, also."
+        }
+      ],
+      "activation": "queried",
+      "source_rationale_id": "R6",
+      "utterance_kind": "question",
+      "decision_support": "none",
+      "all_mention_ids": [
+        "R6"
+      ]
+    },
+    {
+      "rationale_label": "founder_skillset",
+      "direction": "positive",
+      "salience": "secondary",
+      "confidence": 0.96,
+      "utterance_type": "assessment",
+      "decision_link": "none",
+      "timing": "original_pitch",
+      "turn_index": 140,
+      "quote": "you seem like you have a great cash management background",
+      "explanation": "She positively assesses the founder's financial-management capability.",
+      "evidence": [
+        "you seem like you have a great cash management background"
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 140,
+          "speaker": "Elizabeth",
+          "quote": "you seem like you have a great cash management background"
+        }
+      ],
+      "activation": "evaluated",
+      "source_rationale_id": "R17",
+      "utterance_kind": "assessment",
+      "decision_support": "none",
+      "all_mention_ids": [
+        "R17"
+      ]
+    },
+    {
+      "rationale_label": "investor_experience_bias",
+      "direction": "negative",
+      "salience": "secondary",
+      "confidence": 0.9,
+      "utterance_type": "assessment",
+      "decision_link": "none",
+      "timing": "original_pitch",
+      "turn_index": 140,
+      "quote": "Hustle Fund has previously also had a credit fund.",
+      "explanation": "She invokes Hustle Fund's prior credit-fund experience as context for her skepticism about the model.",
+      "evidence": [
+        "Hustle Fund has previously also had a credit fund."
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 140,
+          "speaker": "Elizabeth",
+          "quote": "Hustle Fund has previously also had a credit fund."
+        }
+      ],
+      "activation": "evaluated",
+      "source_rationale_id": "R15",
+      "utterance_kind": "assessment",
+      "decision_support": "none",
+      "all_mention_ids": [
+        "R15"
+      ]
+    },
+    {
+      "rationale_label": "product_adoption",
+      "direction": "neutral",
+      "salience": "secondary",
+      "confidence": 0.96,
+      "utterance_type": "question",
+      "decision_link": "none",
+      "timing": "original_pitch",
+      "turn_index": 131,
+      "quote": "What does that mean? Are you talking about dollars retained? Number of customers retained?",
+      "explanation": "She clarifies whether the retention metric reflects customer or revenue retention.",
+      "evidence": [
+        "Tell me a little bit about the retention.",
+        "What does that mean? Are you talking about dollars retained? Number of customers retained?"
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 129,
+          "speaker": "Elizabeth",
+          "quote": "Tell me a little bit about the retention."
+        },
+        {
+          "turn_index": 131,
+          "speaker": "Elizabeth",
+          "quote": "What does that mean? Are you talking about dollars retained? Number of customers retained?"
+        }
+      ],
+      "activation": "queried",
+      "source_rationale_id": "R14",
+      "utterance_kind": "question",
+      "decision_support": "none",
+      "all_mention_ids": [
+        "R13",
+        "R14"
+      ]
+    },
+    {
+      "rationale_label": "solution_feasibility_assessment",
+      "direction": "neutral",
+      "salience": "secondary",
+      "confidence": 0.94,
+      "utterance_type": "question",
+      "decision_link": "none",
+      "timing": "original_pitch",
+      "turn_index": 69,
+      "quote": "Can you talk about collections? How do you collect?",
+      "explanation": "She asks how the company operationally collects financed receivables.",
+      "evidence": [
+        "Can you talk about collections? How do you collect?"
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 69,
+          "speaker": "Elizabeth",
+          "quote": "Can you talk about collections? How do you collect?"
+        }
+      ],
+      "activation": "queried",
+      "source_rationale_id": "R4",
+      "utterance_kind": "question",
+      "decision_support": "none",
+      "all_mention_ids": [
+        "R4"
+      ]
+    },
+    {
+      "rationale_label": "stage_valuation_mismatch",
+      "direction": "negative",
+      "salience": "primary",
+      "confidence": 0.97,
+      "utterance_type": "decision_reason",
+      "decision_link": "explicit",
+      "timing": "original_pitch",
+      "turn_index": 140,
+      "quote": "challenging per the terms for us to get involved at the eight post",
+      "explanation": "She links the eight-million post-money valuation and terms to the difficulty of investing.",
+      "evidence": [
+        "challenging per the terms for us to get involved at the eight post"
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 140,
+          "speaker": "Elizabeth",
+          "quote": "challenging per the terms for us to get involved at the eight post"
+        }
+      ],
+      "activation": "evaluated",
+      "source_rationale_id": "R19",
+      "utterance_kind": "decision_explanation",
+      "decision_support": "supports_out",
+      "all_mention_ids": [
+        "R19"
+      ]
+    },
+    {
+      "rationale_label": "venture_scale_concern",
+      "direction": "negative",
+      "salience": "primary",
+      "confidence": 0.97,
+      "utterance_type": "decision_reason",
+      "decision_link": "explicit",
+      "timing": "original_pitch",
+      "turn_index": 140,
+      "quote": "lending companies have a hard time getting to scale as a VC backed business",
+      "explanation": "Elizabeth identifies structural difficulty scaling VC-backed lending businesses without creating pressure for bad loans.",
+      "evidence": [
+        "lending companies have a hard time getting to scale as a VC backed business"
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 140,
+          "speaker": "Elizabeth",
+          "quote": "lending companies have a hard time getting to scale as a VC backed business"
+        }
+      ],
+      "activation": "evaluated",
+      "source_rationale_id": "R16",
+      "utterance_kind": "decision_explanation",
+      "decision_support": "supports_out",
+      "all_mention_ids": [
+        "R16"
+      ]
+    }
+  ],
+  "later_rationales": [
+    {
+      "rationale_label": "stage_valuation_mismatch",
+      "direction": "negative",
+      "salience": "primary",
+      "confidence": 0.98,
+      "utterance_type": "decision_explanation",
+      "decision_link": "supports_out",
+      "timing": "later_commentary",
+      "turn_index": 162,
+      "quote": "I thought the valuation was frothy.",
+      "explanation": "In later commentary, she explicitly characterizes the valuation as too high.",
+      "evidence": [
+        "I thought the valuation was frothy."
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 162,
+          "speaker": "Elizabeth",
+          "quote": "I thought the valuation was frothy."
+        }
+      ],
+      "activation": "evaluated",
+      "source_rationale_id": "R20"
+    },
+    {
+      "rationale_label": "stage_valuation_mismatch",
+      "direction": "negative",
+      "salience": "primary",
+      "confidence": 0.99,
+      "utterance_type": "decision_explanation",
+      "decision_link": "supports_out",
+      "timing": "later_commentary",
+      "turn_index": 164,
+      "quote": "if the valuation had been cut in half, I would've done it",
+      "explanation": "She states that a substantially lower valuation would have changed her investment decision.",
+      "evidence": [
+        "if the valuation had been cut in half, I would've done it"
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 164,
+          "speaker": "Elizabeth",
+          "quote": "if the valuation had been cut in half, I would've done it"
+        }
+      ],
+      "activation": "evaluated",
+      "source_rationale_id": "R21"
+    },
+    {
+      "rationale_label": "fundraising_demand_signal",
+      "direction": "negative",
+      "salience": "secondary",
+      "confidence": 0.93,
+      "utterance_type": "assessment",
+      "decision_link": "none",
+      "timing": "later_commentary",
+      "turn_index": 166,
+      "quote": "Geography matters because it matters on M&A, it matters on how many people can fund you.",
+      "explanation": "She views the company's geography as limiting exit options and the pool of potential funders.",
+      "evidence": [
+        "Geography matters because it matters on M&A, it matters on how many people can fund you."
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 166,
+          "speaker": "Elizabeth",
+          "quote": "Geography matters because it matters on M&A, it matters on how many people can fund you."
+        }
+      ],
+      "activation": "evaluated",
+      "source_rationale_id": "R22"
+    },
+    {
+      "rationale_label": "fundraising_demand_signal",
+      "direction": "negative",
+      "salience": "secondary",
+      "confidence": 0.96,
+      "utterance_type": "assessment",
+      "decision_link": "none",
+      "timing": "later_commentary",
+      "turn_index": 168,
+      "quote": "there are just not that many investors who invest in LatAm",
+      "explanation": "She identifies limited investor availability in Latin America as a fundraising constraint.",
+      "evidence": [
+        "there are just not that many investors who invest in LatAm"
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 168,
+          "speaker": "Elizabeth",
+          "quote": "there are just not that many investors who invest in LatAm"
+        }
+      ],
+      "activation": "evaluated",
+      "source_rationale_id": "R23"
+    },
+    {
+      "rationale_label": "venture_scale_concern",
+      "direction": "negative",
+      "salience": "primary",
+      "confidence": 0.98,
+      "utterance_type": "decision_explanation",
+      "decision_link": "supports_out",
+      "timing": "later_commentary",
+      "turn_index": 168,
+      "quote": "I don't think that's a billion dollar business",
+      "explanation": "She doubts that factoring for manufacturing in Mexico alone can support a venture-scale outcome.",
+      "evidence": [
+        "I don't think that's a billion dollar business"
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 168,
+          "speaker": "Elizabeth",
+          "quote": "I don't think that's a billion dollar business"
+        }
+      ],
+      "activation": "evaluated",
+      "source_rationale_id": "R24"
+    },
+    {
+      "rationale_label": "competitive_advantage_assessment",
+      "direction": "negative",
+      "salience": "primary",
+      "confidence": 0.97,
+      "utterance_type": "assessment",
+      "decision_link": "none",
+      "timing": "later_commentary",
+      "turn_index": 177,
+      "quote": "you have no loyalty. People always want the best rate.",
+      "explanation": "She argues that lending customers have little loyalty, weakening defensibility.",
+      "evidence": [
+        "you have no loyalty. People always want the best rate."
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 177,
+          "speaker": "Elizabeth",
+          "quote": "you have no loyalty. People always want the best rate."
+        }
+      ],
+      "activation": "evaluated",
+      "source_rationale_id": "R25"
+    },
+    {
+      "rationale_label": "competitive_advantage_assessment",
+      "direction": "negative",
+      "salience": "secondary",
+      "confidence": 0.96,
+      "utterance_type": "assessment",
+      "decision_link": "none",
+      "timing": "later_commentary",
+      "turn_index": 179,
+      "quote": "they're not necessarily incentivized to stick with you",
+      "explanation": "She reiterates that customers may switch providers when better pricing is available.",
+      "evidence": [
+        "they're not necessarily incentivized to stick with you"
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 179,
+          "speaker": "Elizabeth",
+          "quote": "they're not necessarily incentivized to stick with you"
+        }
+      ],
+      "activation": "evaluated",
+      "source_rationale_id": "R26"
+    },
+    {
+      "rationale_label": "competitive_intensity_concern",
+      "direction": "negative",
+      "salience": "primary",
+      "confidence": 0.97,
+      "utterance_type": "assessment",
+      "decision_link": "none",
+      "timing": "later_commentary",
+      "turn_index": 181,
+      "quote": "other folks out there were willing to lend at way less profitable rates and we couldn't compete on that",
+      "explanation": "She describes direct pricing competition that made scaling her prior lending fund difficult.",
+      "evidence": [
+        "other folks out there were willing to lend at way less profitable rates and we couldn't compete on that"
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 181,
+          "speaker": "Elizabeth",
+          "quote": "other folks out there were willing to lend at way less profitable rates and we couldn't compete on that"
+        }
+      ],
+      "activation": "evaluated",
+      "source_rationale_id": "R27"
+    },
+    {
+      "rationale_label": "investor_experience_bias",
+      "direction": "negative",
+      "salience": "secondary",
+      "confidence": 0.95,
+      "utterance_type": "assessment",
+      "decision_link": "none",
+      "timing": "later_commentary",
+      "turn_index": 181,
+      "quote": "we had problems scaling it",
+      "explanation": "She uses her prior revenue-based-financing experience as evidence informing her judgment of the current opportunity.",
+      "evidence": [
+        "we had problems scaling it"
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 181,
+          "speaker": "Elizabeth",
+          "quote": "we had problems scaling it"
+        }
+      ],
+      "activation": "evaluated",
+      "source_rationale_id": "R28"
+    },
+    {
+      "rationale_label": "competitive_intensity_concern",
+      "direction": "negative",
+      "salience": "secondary",
+      "confidence": 0.95,
+      "utterance_type": "assessment",
+      "decision_link": "none",
+      "timing": "later_commentary",
+      "turn_index": 183,
+      "quote": "So we would lose deals",
+      "explanation": "She explains that pricing competition caused her prior fund to lose lending opportunities.",
+      "evidence": [
+        "So we would lose deals"
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 183,
+          "speaker": "Elizabeth",
+          "quote": "So we would lose deals"
+        }
+      ],
+      "activation": "evaluated",
+      "source_rationale_id": "R29"
+    },
+    {
+      "rationale_label": "venture_scale_concern",
+      "direction": "negative",
+      "salience": "primary",
+      "confidence": 0.98,
+      "utterance_type": "decision_explanation",
+      "decision_link": "supports_out",
+      "timing": "later_commentary",
+      "turn_index": 183,
+      "quote": "I cannot imagine building that into a billion dollar business",
+      "explanation": "She concludes from her lending experience that this model is unlikely to become a billion-dollar business.",
+      "evidence": [
+        "I cannot imagine building that into a billion dollar business"
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 183,
+          "speaker": "Elizabeth",
+          "quote": "I cannot imagine building that into a billion dollar business"
+        }
+      ],
+      "activation": "evaluated",
+      "source_rationale_id": "R30"
+    }
+  ],
+  "excluded_rationales": [
+    {
+      "rationale_label": "solution_feasibility_assessment",
+      "direction": "neutral",
+      "salience": "secondary",
+      "confidence": 0.94,
+      "utterance_type": "question",
+      "decision_link": "none",
+      "timing": "teaser",
+      "turn_index": 256,
+      "quote": "could you explain what this tech is? Is it the zipper?",
+      "explanation": "In the teaser for a separate pitch, she asks for clarification of the product technology.",
+      "evidence": [
+        "could you explain what this tech is? Is it the zipper?"
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 256,
+          "speaker": "Elizabeth",
+          "quote": "could you explain what this tech is? Is it the zipper?"
+        }
+      ],
+      "activation": "queried",
+      "source_rationale_id": "R31"
+    },
+    {
+      "rationale_label": "product_appeal_assessment",
+      "direction": "positive",
+      "salience": "secondary",
+      "confidence": 0.95,
+      "utterance_type": "assessment",
+      "decision_link": "none",
+      "timing": "teaser",
+      "turn_index": 260,
+      "quote": "Sheertex is amazing.",
+      "explanation": "In the separate teaser, she expresses a positive personal reaction to the product.",
+      "evidence": [
+        "Sheertex is amazing."
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 260,
+          "speaker": "Elizabeth",
+          "quote": "Sheertex is amazing."
+        }
+      ],
+      "activation": "evaluated",
+      "source_rationale_id": "R32"
+    }
+  ],
+  "rationale_mentions": [
+    {
+      "rationale_label": "founder_motivation_authenticity",
+      "direction": "neutral",
+      "salience": "secondary",
+      "confidence": 0.98,
+      "utterance_type": "question",
+      "decision_link": "none",
+      "timing": "original_pitch",
+      "turn_index": 2,
+      "quote": "Do you love the problem you're working on?",
+      "explanation": "Elizabeth probes whether the founder has genuine commitment to the problem.",
+      "evidence": [
+        "Do you love the problem you're working on?"
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 2,
+          "speaker": "Elizabeth",
+          "quote": "Do you love the problem you're working on?"
+        }
+      ],
+      "activation": "queried",
+      "source_rationale_id": "R1"
+    },
+    {
+      "rationale_label": "decision_context_constraint",
+      "direction": "neutral",
+      "salience": "secondary",
+      "confidence": 0.93,
+      "utterance_type": "assessment",
+      "decision_link": "none",
+      "timing": "original_pitch",
+      "turn_index": 7,
+      "quote": "I don't go to any more demo days.",
+      "explanation": "She states a preference or constraint concerning the evaluation context rather than the company fundamentals.",
+      "evidence": [
+        "I don't go to any more demo days."
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 7,
+          "speaker": "Elizabeth",
+          "quote": "I don't go to any more demo days."
+        }
+      ],
+      "activation": "evaluated",
+      "source_rationale_id": "R2"
+    },
+    {
+      "rationale_label": "capital_intensity_concern",
+      "direction": "neutral",
+      "salience": "secondary",
+      "confidence": 0.93,
+      "utterance_type": "question",
+      "decision_link": "none",
+      "timing": "original_pitch",
+      "turn_index": 57,
+      "quote": "Can you talk about that and any lines of credit you may have or whatnot?",
+      "explanation": "She probes the lending model's dependence on capital and credit facilities.",
+      "evidence": [
+        "Can you talk about that and any lines of credit you may have or whatnot?"
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 57,
+          "speaker": "Elizabeth",
+          "quote": "Can you talk about that and any lines of credit you may have or whatnot?"
+        }
+      ],
+      "activation": "queried",
+      "source_rationale_id": "R3"
+    },
+    {
+      "rationale_label": "solution_feasibility_assessment",
+      "direction": "neutral",
+      "salience": "secondary",
+      "confidence": 0.94,
+      "utterance_type": "question",
+      "decision_link": "none",
+      "timing": "original_pitch",
+      "turn_index": 69,
+      "quote": "Can you talk about collections? How do you collect?",
+      "explanation": "She asks how the company operationally collects financed receivables.",
+      "evidence": [
+        "Can you talk about collections? How do you collect?"
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 69,
+          "speaker": "Elizabeth",
+          "quote": "Can you talk about collections? How do you collect?"
+        }
+      ],
+      "activation": "queried",
+      "source_rationale_id": "R4"
+    },
+    {
+      "rationale_label": "founder_market_fit",
+      "direction": "neutral",
+      "salience": "secondary",
+      "confidence": 0.95,
+      "utterance_type": "question",
+      "decision_link": "none",
+      "timing": "original_pitch",
+      "turn_index": 78,
+      "quote": "Can you talk a little bit about your background?",
+      "explanation": "She requests background information relevant to the founder's fit for the opportunity.",
+      "evidence": [
+        "Can you talk a little bit about your background?"
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 78,
+          "speaker": "Elizabeth",
+          "quote": "Can you talk a little bit about your background?"
+        }
+      ],
+      "activation": "queried",
+      "source_rationale_id": "R5"
+    },
+    {
+      "rationale_label": "founder_qualities",
+      "direction": "neutral",
+      "salience": "secondary",
+      "confidence": 0.94,
+      "utterance_type": "question",
+      "decision_link": "none",
+      "timing": "original_pitch",
+      "turn_index": 80,
+      "quote": "And your team, also.",
+      "explanation": "She asks to assess the broader founding team.",
+      "evidence": [
+        "And your team, also."
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 80,
+          "speaker": "Elizabeth",
+          "quote": "And your team, also."
+        }
+      ],
+      "activation": "queried",
+      "source_rationale_id": "R6"
+    },
+    {
+      "rationale_label": "founder_motivation_authenticity",
+      "direction": "neutral",
+      "salience": "secondary",
+      "confidence": 0.94,
+      "utterance_type": "question",
+      "decision_link": "none",
+      "timing": "original_pitch",
+      "turn_index": 97,
+      "quote": "How did you end up doing, you know, factoring for manufacturing",
+      "explanation": "She asks about the founder's path and motivation for pursuing this specific problem.",
+      "model_quote_before_typography_repair": "how did you end up doing, you know, factoring for manufacturing",
+      "evidence": [
+        "How did you end up doing, you know, factoring for manufacturing"
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 97,
+          "speaker": "Elizabeth",
+          "quote": "How did you end up doing, you know, factoring for manufacturing"
+        }
+      ],
+      "activation": "queried",
+      "source_rationale_id": "R7"
+    },
+    {
+      "rationale_label": "founder_market_fit",
+      "direction": "neutral",
+      "salience": "secondary",
+      "confidence": 0.97,
+      "utterance_type": "question",
+      "decision_link": "none",
+      "timing": "original_pitch",
+      "turn_index": 97,
+      "quote": "Do you have a manufacturing background?",
+      "explanation": "She directly probes whether the founder has relevant experience in the target market.",
+      "evidence": [
+        "Do you have a manufacturing background?"
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 97,
+          "speaker": "Elizabeth",
+          "quote": "Do you have a manufacturing background?"
+        }
+      ],
+      "activation": "queried",
+      "source_rationale_id": "R8"
+    },
+    {
+      "rationale_label": "founder_market_fit",
+      "direction": "negative",
+      "salience": "secondary",
+      "confidence": 0.88,
+      "utterance_type": "assessment",
+      "decision_link": "none",
+      "timing": "original_pitch",
+      "turn_index": 108,
+      "quote": "it sounds like you sort of stumbled a bit into this by talking with manufacturers",
+      "explanation": "She suggests the founder's connection to the manufacturing market may have been incidental.",
+      "evidence": [
+        "it sounds like you sort of stumbled a bit into this by talking with manufacturers"
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 108,
+          "speaker": "Elizabeth",
+          "quote": "it sounds like you sort of stumbled a bit into this by talking with manufacturers"
+        }
+      ],
+      "activation": "evaluated",
+      "source_rationale_id": "R9"
+    },
+    {
+      "rationale_label": "founder_market_fit",
+      "direction": "neutral",
+      "salience": "secondary",
+      "confidence": 0.96,
+      "utterance_type": "question",
+      "decision_link": "none",
+      "timing": "original_pitch",
+      "turn_index": 110,
+      "quote": "given your background is not in any sort of manufacturing",
+      "explanation": "She highlights the founder's lack of direct manufacturing background as a fit issue to investigate.",
+      "evidence": [
+        "given your background is not in any sort of manufacturing"
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 110,
+          "speaker": "Elizabeth",
+          "quote": "given your background is not in any sort of manufacturing"
+        }
+      ],
+      "activation": "queried",
+      "source_rationale_id": "R10"
+    },
+    {
+      "rationale_label": "founder_motivation_authenticity",
+      "direction": "neutral",
+      "salience": "secondary",
+      "confidence": 0.98,
+      "utterance_type": "question",
+      "decision_link": "none",
+      "timing": "original_pitch",
+      "turn_index": 110,
+      "quote": "Do you love the problem you're working on?",
+      "explanation": "She tests whether the founder's motivation is authentic despite his lack of manufacturing experience.",
+      "evidence": [
+        "Do you love the problem you're working on?"
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 110,
+          "speaker": "Elizabeth",
+          "quote": "Do you love the problem you're working on?"
+        }
+      ],
+      "activation": "queried",
+      "source_rationale_id": "R11"
+    },
+    {
+      "rationale_label": "deal_terms_complexity_concern",
+      "direction": "neutral",
+      "salience": "secondary",
+      "confidence": 0.95,
+      "utterance_type": "question",
+      "decision_link": "none",
+      "timing": "original_pitch",
+      "turn_index": 121,
+      "quote": "And what are the terms on that?",
+      "explanation": "She requests the financing terms for evaluating the proposed deal.",
+      "evidence": [
+        "And what are the terms on that?"
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 121,
+          "speaker": "Elizabeth",
+          "quote": "And what are the terms on that?"
+        }
+      ],
+      "activation": "queried",
+      "source_rationale_id": "R12"
+    },
+    {
+      "rationale_label": "product_adoption",
+      "direction": "neutral",
+      "salience": "secondary",
+      "confidence": 0.95,
+      "utterance_type": "question",
+      "decision_link": "none",
+      "timing": "original_pitch",
+      "turn_index": 129,
+      "quote": "Tell me a little bit about the retention.",
+      "explanation": "She asks for retention evidence as an indicator of customer adoption.",
+      "evidence": [
+        "Tell me a little bit about the retention."
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 129,
+          "speaker": "Elizabeth",
+          "quote": "Tell me a little bit about the retention."
+        }
+      ],
+      "activation": "queried",
+      "source_rationale_id": "R13"
+    },
+    {
+      "rationale_label": "product_adoption",
+      "direction": "neutral",
+      "salience": "secondary",
+      "confidence": 0.96,
+      "utterance_type": "question",
+      "decision_link": "none",
+      "timing": "original_pitch",
+      "turn_index": 131,
+      "quote": "What does that mean? Are you talking about dollars retained? Number of customers retained?",
+      "explanation": "She clarifies whether the retention metric reflects customer or revenue retention.",
+      "evidence": [
+        "What does that mean? Are you talking about dollars retained? Number of customers retained?"
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 131,
+          "speaker": "Elizabeth",
+          "quote": "What does that mean? Are you talking about dollars retained? Number of customers retained?"
+        }
+      ],
+      "activation": "queried",
+      "source_rationale_id": "R14"
+    },
+    {
+      "rationale_label": "investor_experience_bias",
+      "direction": "negative",
+      "salience": "secondary",
+      "confidence": 0.9,
+      "utterance_type": "assessment",
+      "decision_link": "none",
+      "timing": "original_pitch",
+      "turn_index": 140,
+      "quote": "Hustle Fund has previously also had a credit fund.",
+      "explanation": "She invokes Hustle Fund's prior credit-fund experience as context for her skepticism about the model.",
+      "evidence": [
+        "Hustle Fund has previously also had a credit fund."
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 140,
+          "speaker": "Elizabeth",
+          "quote": "Hustle Fund has previously also had a credit fund."
+        }
+      ],
+      "activation": "evaluated",
+      "source_rationale_id": "R15"
+    },
+    {
+      "rationale_label": "venture_scale_concern",
+      "direction": "negative",
+      "salience": "primary",
+      "confidence": 0.97,
+      "utterance_type": "decision_explanation",
+      "decision_link": "supports_out",
+      "timing": "original_pitch",
+      "turn_index": 140,
+      "quote": "lending companies have a hard time getting to scale as a VC backed business",
+      "explanation": "Elizabeth identifies structural difficulty scaling VC-backed lending businesses without creating pressure for bad loans.",
+      "evidence": [
+        "lending companies have a hard time getting to scale as a VC backed business"
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 140,
+          "speaker": "Elizabeth",
+          "quote": "lending companies have a hard time getting to scale as a VC backed business"
+        }
+      ],
+      "activation": "evaluated",
+      "source_rationale_id": "R16"
+    },
+    {
+      "rationale_label": "founder_skillset",
+      "direction": "positive",
+      "salience": "secondary",
+      "confidence": 0.96,
+      "utterance_type": "assessment",
+      "decision_link": "none",
+      "timing": "original_pitch",
+      "turn_index": 140,
+      "quote": "you seem like you have a great cash management background",
+      "explanation": "She positively assesses the founder's financial-management capability.",
+      "evidence": [
+        "you seem like you have a great cash management background"
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 140,
+          "speaker": "Elizabeth",
+          "quote": "you seem like you have a great cash management background"
+        }
+      ],
+      "activation": "evaluated",
+      "source_rationale_id": "R17"
+    },
+    {
+      "rationale_label": "founder_investor_vision_alignment",
+      "direction": "negative",
+      "salience": "secondary",
+      "confidence": 0.94,
+      "utterance_type": "assessment",
+      "decision_link": "supports_out",
+      "timing": "original_pitch",
+      "turn_index": 140,
+      "quote": "still don't quite understand that vision",
+      "explanation": "She says the planned expansion beyond the current manufacturing-lending focus is not sufficiently clear to her.",
+      "evidence": [
+        "still don't quite understand that vision"
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 140,
+          "speaker": "Elizabeth",
+          "quote": "still don't quite understand that vision"
+        }
+      ],
+      "activation": "evaluated",
+      "source_rationale_id": "R18"
+    },
+    {
+      "rationale_label": "stage_valuation_mismatch",
+      "direction": "negative",
+      "salience": "primary",
+      "confidence": 0.97,
+      "utterance_type": "decision_explanation",
+      "decision_link": "supports_out",
+      "timing": "original_pitch",
+      "turn_index": 140,
+      "quote": "challenging per the terms for us to get involved at the eight post",
+      "explanation": "She links the eight-million post-money valuation and terms to the difficulty of investing.",
+      "evidence": [
+        "challenging per the terms for us to get involved at the eight post"
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 140,
+          "speaker": "Elizabeth",
+          "quote": "challenging per the terms for us to get involved at the eight post"
+        }
+      ],
+      "activation": "evaluated",
+      "source_rationale_id": "R19"
+    }
+  ],
+  "expanded_quote_evidence": [],
+  "rejected_after_evidence_check": [],
+  "timing_review": {
+    "reviewer": "codex_source_inspection",
+    "human_validated": false,
+    "first_post_founder_turn": 158,
+    "original_path": "evaluation/pitchshow/investors/elizabeth-yin-hustle-fund/rationale-references/136-kredfeed-the-next-mexican-unicorn.json",
+    "original_sha256": "de1a47f84c0e47c05db12c8d124eae76d2307c0afc4da45bf89068e05a08754b",
+    "source_path": "evaluation/pitchshow/investors/elizabeth-yin-hustle-fund/source/episodes/136-kredfeed-the-next-mexican-unicorn.json",
+    "source_sha256": "8b329db773c01705cb2fb28048ed46350cc31a42a569c970c0dd339924a84cb5",
+    "reason": "Reviewed farewell/exit and following panel or host transition. Includes live decision discussion and reversals; excludes investor-only debrief. Borderline farewell banter conservatively ends at reviewed boundary."
+  }
+}

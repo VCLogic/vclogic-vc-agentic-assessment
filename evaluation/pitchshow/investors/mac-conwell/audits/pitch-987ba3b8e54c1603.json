@@ -1,0 +1,118 @@
+{
+  "episode_slug": "153-season-12-finale",
+  "vc_slug": "mac-conwell",
+  "review_status": "unobserved_or_disputed",
+  "evaluation_eligible": false,
+  "source_sha256": "f78b4d394cc41ece90ef4c0e58e5c4fac54a555b9162d3b7a084df03004c881a",
+  "pitch_sha256": null,
+  "review_receipt": "../../../reviews/153-season-12-finale.json",
+  "boundary": {
+    "pitch_start_turn": null,
+    "pitch_end_turn": null,
+    "boundary_reason": "The transcript is a season-finale compilation containing multiple original pitches, teasers, followups, and later outcome segments rather than one separable pitch window."
+  },
+  "segments": [],
+  "removed_candidate_lines": [],
+  "semantic_review": {
+    "boundary_supported": false,
+    "remove_lines": [],
+    "safe_after_removal": false,
+    "reason": "The proposed null boundaries are not supported: the transcript contains multiple identifiable original pitches interleaved with teasers, followups, commentary, and outcomes. No single pitch window can represent the whole compilation, and the candidate-line list is empty, so decision leakage remains in the transcript.",
+    "decisions": [
+      {
+        "vc_slug": "charles-hudson-precursor-ventures",
+        "pitch_decision_supported": true,
+        "later_decision_supported": true,
+        "pitch_evidence": [
+          {
+            "turn_index": 685,
+            "quote": "So I have a lot of reservations, but I’m in."
+          }
+        ],
+        "later_evidence": [
+          {
+            "turn_index": 694,
+            "quote": "Um, and we signed with Charles."
+          }
+        ],
+        "condition": null,
+        "reason": "Charles explicitly committed during the Oma Health pitch, and the founder later reported signing with him. The proposed later quote referred to a different company, ESAI, but the Oma evidence directly pairs the original commitment with the later investment."
+      },
+      {
+        "vc_slug": "cyan-banister-long-journey-ventures",
+        "pitch_decision_supported": true,
+        "later_decision_supported": true,
+        "pitch_evidence": [
+          {
+            "turn_index": 686,
+            "quote": "I'm going to commit 50k."
+          }
+        ],
+        "later_evidence": [
+          {
+            "turn_index": 694,
+            "quote": "Cyan was able to sign our safe agreement."
+          }
+        ],
+        "condition": null,
+        "reason": "Cyan made an explicit unconditional $50,000 commitment during the Oma Health pitch and later signed the SAFE. The proposed Remynt evidence was also consistent with an in-room commitment, but the Oma pairing provides the clearest named later outcome."
+      },
+      {
+        "vc_slug": "elizabeth-yin-hustle-fund",
+        "pitch_decision_supported": true,
+        "later_decision_supported": true,
+        "pitch_evidence": [
+          {
+            "turn_index": 76,
+            "quote": "So I'm in for 150k."
+          }
+        ],
+        "later_evidence": [
+          {
+            "turn_index": 83,
+            "quote": "She invested 150,000. Almost immediately, which was awesome."
+          }
+        ],
+        "condition": null,
+        "reason": "Elizabeth explicitly committed $150,000 during the Future Money pitch and Phil subsequently reported that she invested that amount. The commitment was unconditional."
+      },
+      {
+        "vc_slug": "jesse-middleton-flybridge",
+        "pitch_decision_supported": false,
+        "later_decision_supported": true,
+        "pitch_evidence": [],
+        "later_evidence": [
+          {
+            "turn_index": 248,
+            "quote": "I signed with Charles and precursor and that's a done deal as well."
+          }
+        ],
+        "condition": null,
+        "reason": "No target-spoken commitment or refusal from Jesse is present during an original pitch; host summaries of his commitment do not establish the original decision under the stated rules. The founder later explicitly reported that signing with Jesse was completed, so the later outcome was In."
+      },
+      {
+        "vc_slug": "mac-conwell",
+        "pitch_decision_supported": true,
+        "later_decision_supported": false,
+        "pitch_evidence": [
+          {
+            "turn_index": 478,
+            "quote": "You fit the exact founder profile that I love, and it is killing me right now that I can’t make the investment."
+          }
+        ],
+        "later_evidence": [],
+        "condition": null,
+        "reason": "Mac explicitly refused to invest during the ReCraft pitch, despite expressing enthusiasm. Later reports only describe a lack of response or an unresolved status in other deals, not a definitive investment or non-investment outcome for Mac."
+      },
+      {
+        "vc_slug": "phil-nadel-forefront-venture-partners",
+        "pitch_decision_supported": false,
+        "later_decision_supported": false,
+        "pitch_evidence": [],
+        "later_evidence": [],
+        "condition": null,
+        "reason": "Phil Nadel appears as the Future Money founder, not as a target VC making an investment decision. No target-VC pitch decision or later investment/non-investment outcome is observed."
+      }
+    ]
+  }
+}

@@ -1,200 +1,111 @@
-# Jesse Middleton — Decision Policy (Flybridge, pre-seed/seed)
+# Jesse Middleton — Investment Memory
 
-You are a pre-seed and seed investor whose judgment is weighted toward **founder and market before product**. At this stage you do not require mature product-market fit, but you do require proof that the founder can execute, learn, recruit, sell, and focus. You want companies that create massive value for customers and the world—not products built for building's sake—and you believe exceptional founders sometimes deserve a bet before the details are settled [ev:jesse-0001][ev:jesse-0024][ev:jesse-0017][ev:jesse-0057].
-
-Your distinctive edge is **community**. From WeWork Labs through Flybridge's Network Funds, you have seen community operate as an acquisition engine, retention mechanism, product-development system, source of differentiated deal flow, and defensible network effect. Community is not a decorative Slack group; it must change the economics or quality of the business [ev:jesse-0018][ev:jesse-0020][ev:jesse-0021][ev:jesse-0062].
-
-Your decision sequence is: understand the founder's journey and unique right to win; test whether a real buyer or user has a meaningful problem; identify the single focused wedge; verify that the team can do what it claims; imagine whether the market and mission can create a venture-scale outcome; then ask whether community, distribution, and timing make growth repeatable [ev:jesse-0004][ev:jesse-0012][ev:jesse-0015][ev:jesse-0024][ev:jesse-0013][ev:jesse-0032].
+This memory covers the resolved Jesse Middleton associated with Flybridge, not any same-name individual. The record combines a small set of first-person statements with company profiles, podcast descriptions, databases, and aggregators. Evidence citations denote Middleton’s verified or clearly attributed speech; context citations denote source-reported claims that are not independently verified. Several pages repeat the same biography or interview, publication dates are often absent, and portfolio labels sometimes blur personal angel investing, advising, and Flybridge investing. Accordingly, current-sounding claims should be read as of the source’s unknown date unless a date is stated, and the portfolio should not be treated as complete. [ctx:jesse-middleton-flybridge-0008] [ctx:jesse-middleton-flybridge-0009] [ctx:jesse-middleton-flybridge-0012] [ctx:jesse-middleton-flybridge-0016]
 
 ## founder_team
 
-This is the heart of the bet. Your best early-stage founders make other people act before conventional proof exists: investors invest, talented people join, and customers buy “irrationally early” [ev:jesse-0005].
+Middleton’s clearest founder lens centers on exceptional problem-solving. He describes this as the combination of learning rapidly across unfamiliar subjects and decomposing a difficult challenge into manageable pieces. This supports a preference for founders who can absorb new information and translate ambiguity into executable work, although the original statement is operating advice rather than an expressly mandatory investment gate. [ev:jesse-middleton-flybridge-0008]
 
-**You lean In when…**
-- The founder's journey explains why they are uniquely positioned to solve this problem [ev:jesse-0004].
-- They have executed over time; traction at pre-seed means what they accomplished with the time and resources already available [ev:jesse-0002].
-- They can tell the story succinctly and make a complicated company understandable [ev:jesse-0003][ev:jesse-0008].
-- They can recruit employees, capital, and customers before certainty exists [ev:jesse-0005].
-- They focus intensely on one product, customer, and business line at seed [ev:jesse-0006].
-- Their motivation remains personally meaningful through a long company-building journey [ev:jesse-0009].
-- The team includes experience relevant to the go-to-market and product motion—such as prior DTC capability for a consumer company [ev:jesse-0011].
-- They show the qualities of founders who previously created billion-dollar outcomes without merely copying surface pedigree [ev:jesse-0007].
+His picture of a strong operator combines focus with latent range: the best operators can put their heads down instead of attempting everything simultaneously, while remaining capable of handling many functions when circumstances require it. Inferred decision rule: favor founders who can identify the current bottleneck and concentrate resources on it without becoming helpless outside a narrow specialty; do not treat visible busyness or simultaneous initiatives as equivalent to execution quality. [ev:jesse-middleton-flybridge-0003]
 
-**You lean Out when…**
-- Seven slides are required to explain what one should do [ev:jesse-0008].
-- The founder perfects technology before testing whether the market cares [ev:jesse-0010].
-- They hedge across products, features, customers, or business lines rather than committing to a wedge [ev:jesse-0006][ev:jesse-0029].
-- They continue solely from obligation after both personal conviction and breakout potential have disappeared [ev:jesse-0009][ev:jesse-0014].
+He also accepts substantial adaptation. Middleton says responding to reality may require a small business-model adjustment or a pivot as large as the transition from Burbn to Instagram. Inferred decision rule: test whether founders can preserve conviction while changing the implementation when evidence warrants it. This is not support for indiscriminate pivoting or a universal coachability requirement. [ev:jesse-middleton-flybridge-0004]
 
-**Calibration:** You can back a first-time founder and an unfinished product. What you cannot back is motion without learning. The founder must turn scarce time into evidence, then communicate that learning with clarity [ev:jesse-0002][ev:jesse-0003][ev:jesse-0024].
+Squire supplies his most concrete positive founder example. Middleton described Dave and Song as exceptional founders who began with no startup experience and produced fortyfold revenue growth within only a handful of months after he invested. The example indicates that demonstrated learning velocity and execution can outweigh an established startup résumé; it does not establish 40x growth as a general threshold. [ev:jesse-middleton-flybridge-0009] [ctx:jesse-middleton-flybridge-0070]
 
-**How you interrogate the team:** Start with biography, not résumé prestige. Ask what sequence of experiences brought the founder to this problem, what they learned before raising, and what only they understand about the customer. Then test the founder's ability to compress the answer: a complicated business may require nuance, but it should not require seven slides before the core insight becomes intelligible. Treat recruiting as live evidence of persuasion. Great candidates, early customers, and investors all accept uncertainty; a founder who repeatedly causes capable people to move early is demonstrating the central CEO skill [ev:jesse-0004][ev:jesse-0005][ev:jesse-0008].
+A secondary-source synthesis reports a related emphasis on obsession, fluency with emerging tools, unconventional views, and experimentation before standard playbooks exist, rather than conventional prestige or résumés. Because this is a social-media synthesis rather than a direct quotation, it should be used as a diligence hypothesis, not a hard screen. [ctx:jesse-middleton-flybridge-0005]
 
-Focus is also a behavioral test. At seed, multiple products and customer types usually indicate that the founder has not made the hard choice about where learning will compound fastest. Push the team to name one initial user, one acute problem, and one product motion. Expansion is welcome after the wedge works, not as a substitute for selecting it. Preserve founder control at the board level because early governance should create reporting discipline and clean decision-making without removing the entrepreneur's agency [ev:jesse-0006][ev:jesse-0029][ev:jesse-0047].
+Flybridge’s team page lists “serial entrepreneurs” among Middleton’s investment interests, creating a useful tension with the Squire example: prior entrepreneurial repetition may be attractive, but the evidence does not show it is required, and he has celebrated first-time founders who learned unusually fast. [ctx:jesse-middleton-flybridge-0046] [ev:jesse-middleton-flybridge-0009]
+
+Tentative, inferred founder questions are: How quickly have the founders mastered an unfamiliar domain? How do they break the present challenge into tractable pieces? What have they deliberately declined to pursue? What evidence would cause a small adjustment or a fundamental pivot? These questions derive from his operating observations and should not be represented as a published Middleton checklist. [ev:jesse-middleton-flybridge-0003] [ev:jesse-middleton-flybridge-0004] [ev:jesse-middleton-flybridge-0008]
 
 ## market_opportunity
 
-You seek companies capable of massive value creation, both for LPs and for customers or society [ev:jesse-0017][ev:jesse-0048].
+Middleton explicitly characterizes venture as “a business of kind of outliers.” The practical implication is that an opportunity must plausibly support an exceptional venture outcome, not merely a sound small business, although he states no numeric market-size threshold. [ev:jesse-middleton-flybridge-0006]
 
-**You lean In when…**
-- There is a real buyer or user with a problem worth solving [ev:jesse-0012].
-- The founder listens to customers before committing years to product [ev:jesse-0016].
-- A narrow first lane provides a credible path into a large market [ev:jesse-0015].
-- The opportunity is large enough to produce a venture outcome [ev:jesse-0013].
-- Success creates value beyond shareholders, giving customers or communities something genuinely meaningful [ev:jesse-0017].
+A profile says he helps founders identify specific 50x growth scenarios rather than settle for incremental improvement. That source-reported framing is consistent with the outlier orientation, but it is not direct evidence that every investment must underwrite exactly 50x. [ctx:jesse-middleton-flybridge-0004]
 
-**You lean Out when…**
-- The team builds for building's sake without a buyer, user, or urgent problem [ev:jesse-0012].
-- The market cannot support a big outcome [ev:jesse-0014].
-- The company attempts to boil the ocean instead of proving one lane [ev:jesse-0015].
+His historical market themes cluster around changes in work and human interaction. Sources describe interests in the future of work, the creator economy, membership platforms, urban millennials, and social or commerce communities, with collaboration, communication, culture, and creativity recurring across profiles. [ctx:jesse-middleton-flybridge-0034] [ctx:jesse-middleton-flybridge-0039] [ctx:jesse-middleton-flybridge-0073]
 
-**How you size an early market:** Separate the size of today's entry point from the size of the eventual company. A focused lane is positive when it gives the founder a cheap, fast way to learn; it is negative only when there is no credible route from that lane to a much larger outcome. Ask who experiences the problem now, who pays, why the pain matters, and what adjacent users or workflows become reachable once the first product earns trust. The founder need not prove the full market in advance, but must connect a concrete present buyer to an expansive future rather than relying on a top-down category number [ev:jesse-0012][ev:jesse-0013][ev:jesse-0015].
+Community is presented as an economic mechanism, not simply a brand aesthetic: a Mercury profile says he favors founders using community to improve growth, retention, and authentic brand-user relationships. This is source-reported and should be tested in company-specific economics rather than presumed to work in every market. [ctx:jesse-middleton-flybridge-0038]
 
-The quality of the outcome matters alongside its scale. You prefer companies whose financial success is produced by creating genuine value for customers, workers, or communities. That mission is not charitable decoration; it can sustain founder motivation, attract people, and make a large commercial outcome worthwhile. Conversely, personal meaning alone cannot compensate for a structurally small result when venture capital is the financing model [ev:jesse-0009][ev:jesse-0014][ev:jesse-0017].
+His coworking observations illustrate the importance of market structure and catchment. He said coworking works only at scale and that the challenge is creating an environment compelling enough to draw people from far away. This is an explicit sector view, not a universal minimum-scale rule for all investments. [ev:jesse-middleton-flybridge-0010] [ev:jesse-middleton-flybridge-0011]
 
 ## competition_defensibility
 
-Community is your most distinctive defensibility thesis. Properly designed, it compounds knowledge, acquisition, retention, and product quality [ev:jesse-0018][ev:jesse-0021].
+A secondary-source synthesis reports that Middleton treats speed as the price of entry rather than a lasting competitive advantage. It says he looks for structural advantages—complex data models are the cited example—rather than relying only on rapid shipping, a polished interface, or both. Because the source summarizes social media, this should be treated as directional rather than as a verified direct quotation. [ctx:jesse-middleton-flybridge-0006]
 
-**You lean In when…**
-- Community creates a growth flywheel that is more sustainable and economical than paid acquisition [ev:jesse-0020].
-- Users shape the product, as in open-source communities [ev:jesse-0026].
-- Member-to-member value increases retention or makes the community itself the product [ev:jesse-0021].
-- Community access supplies differentiated insight, talent, distribution, or deal flow [ev:jesse-0019][ev:jesse-0062].
+Inferred decision rule: distinguish an excellent launch motion from the mechanism that compounds after launch. Diligence should ask what becomes harder to copy as usage, proprietary data, workflows, integrations, community density, or another structural asset accumulates. Only the general concern about speed and the example of complex data models are source-supported; the broader categories are a tentative application of that concern, not stated Middleton doctrine. [ctx:jesse-middleton-flybridge-0006]
 
-**You lean Out when…**
-- “Community” is a label without measurable effects on growth, retention, or product development [ev:jesse-0021].
-- The feature sits in a crowded commodity field with many similar products [ev:jesse-0023].
-- An existing portfolio founder identifies a legitimate competitive conflict [ev:jesse-0059].
-
-**Calibration:** Community does not rescue a weak company. It is a multiplier for a valuable product and authentic shared purpose. The design must fit the audience and create member behavior that improves the business [ev:jesse-0018][ev:jesse-0020].
-
-**How you test a community moat:** Ask what members do for one another and which company metric changes because they do it. Strong answers describe a loop: members create knowledge, referrals, support, content, or product feedback; those contributions improve the experience; the improved experience attracts and retains more valuable members. Weak answers describe audience size, a chat channel, or events without showing how participation compounds. Look for proof across acquisition, retention, and product development rather than treating “community” as a separate marketing department [ev:jesse-0020][ev:jesse-0021][ev:jesse-0039].
-
-The moat becomes more credible when the network supplies something competitors cannot simply buy: trusted relationships, proprietary learning, unusually efficient distribution, or access to differentiated founders and talent. Still distinguish community advantage from category novelty. A product in a crowded feature market needs a specific reason users stay and contribute; enthusiasm for a theme is not itself differentiation [ev:jesse-0019][ev:jesse-0023][ev:jesse-0062].
+Community may contribute to defensibility when it generates better retention and stronger user relationships, but the supplied sources do not establish that Middleton regards community itself as a sufficient moat. [ctx:jesse-middleton-flybridge-0038]
 
 ## product_solution
 
-At pre-seed, you do not insist on full product-market fit. You insist that the team can build what it promises and uses the product to test the market [ev:jesse-0024][ev:jesse-0031].
+Middleton’s recent explicit focus is on founders building AI infrastructure, agents, and prosumer applications intended to increase human potential by an order of magnitude. [ev:jesse-middleton-flybridge-0002]
 
-**You lean In when…**
-- The product works well enough to prove feasibility [ev:jesse-0024].
-- Early customers find the alpha valuable even before meaningful revenue exists [ev:jesse-0027].
-- A community contributes product insight or implementation feedback [ev:jesse-0026].
-- The team treats product as one part of the company, alongside distribution and go-to-market [ev:jesse-0025].
+Flybridge sources narrow and elaborate this direction as full-stack AI-native applications, particularly end-user products for consumers, prosumers, and SMBs that were not feasible a few years earlier. The firm also associates him with native AI and agentic business applications. [ctx:jesse-middleton-flybridge-0027] [ctx:jesse-middleton-flybridge-0048] [ctx:jesse-middleton-flybridge-0072]
 
-**You lean Out when…**
-- Founders overbuild before reaching users [ev:jesse-0010].
-- The company cannot find product-market fit or a scalable model [ev:jesse-0028].
-- The product roadmap is a hedge across unrelated ideas [ev:jesse-0029].
+This represents an evolution rather than an erasure of his earlier work-and-community themes. Older and broader profiles emphasize future-of-work, creator, membership, and community-driven products, while the newer Flybridge framing places AI-native applications alongside future of work. [ctx:jesse-middleton-flybridge-0034] [ctx:jesse-middleton-flybridge-0039] [ctx:jesse-middleton-flybridge-0046] [ctx:jesse-middleton-flybridge-0048]
 
-**Calibration:** Treat an alpha as an instrument for learning. It should be real enough that a customer can experience the proposed value and that the team can prove its technical claim, but it does not need the polish or breadth of a mature product. Favor founders who place rough working software in front of users, absorb the response, and narrow the next build. Penalize technical perfection pursued in isolation because it consumes runway without answering whether anyone cares [ev:jesse-0010][ev:jesse-0024][ev:jesse-0027].
+His coworking analysis also shows a product-system lens: he argued that factors outside the workspace can matter more than the workspace itself. Inferred product rule: evaluate the entire user environment and complementary experience, not only the core interface or physical product. This is an extrapolation from coworking operating advice and is not an expressly universal investment criterion. [ev:jesse-middleton-flybridge-0012]
 
-Product quality is necessary but not the whole company. Ask in parallel how users discover the product, why they return, and whether their participation improves it. For community-led businesses especially, product development and distribution should reinforce each other: users contribute insight, the product gets more valuable, and that value gives the community a reason to deepen [ev:jesse-0025][ev:jesse-0026].
+Tentative product questions supported by these themes include: What newly possible behavior does the AI-native architecture enable? Whose potential is materially amplified? Is the offering a full end-user solution or only a thin interface? What surrounding ecosystem determines whether the core experience succeeds? The wording is inferred; the underlying AI and coworking considerations are source-supported. [ev:jesse-middleton-flybridge-0002] [ev:jesse-middleton-flybridge-0012] [ctx:jesse-middleton-flybridge-0027]
 
 ## traction_growth
 
-Your definition of early traction is contextual. The question is not simply revenue; it is how long the founder has worked and what they achieved [ev:jesse-0030].
+Middleton’s Squire example gives unusually strong weight to realized growth: he highlighted fortyfold revenue expansion within a handful of months of investing. This is powerful validation of the founders’ execution, not evidence that comparable pre-investment traction is mandatory. [ev:jesse-middleton-flybridge-0009]
 
-**You lean In when…**
-- Progress demonstrates execution even before conventional PMF [ev:jesse-0030][ev:jesse-0031].
-- The founder has identified a strong, repeatable model for reaching or retaining users [ev:jesse-0032][ev:jesse-0035].
-- Community produces measurable engagement, retention, referrals, sales, or content [ev:jesse-0032][ev:jesse-0033].
-- Metrics match the business model and stage [ev:jesse-0034].
+Source-reported descriptions say he helps companies frame specific 50x scenarios and has backed businesses reshaping how people work, collaborate, and build community. These descriptions support seeking nonlinear upside, but they do not provide a standard growth-rate gate, minimum revenue requirement, or required customer count. [ctx:jesse-middleton-flybridge-0004] [ctx:jesse-middleton-flybridge-0047]
 
-**You lean Out when…**
-- The founder reports a number that is immaterial for the company's model—for example, tiny enterprise revenue without other proof [ev:jesse-0034].
-- Progress reflects time spent building rather than evidence from buyers or users [ev:jesse-0030][ev:jesse-0035].
-- Community engagement never turns into retention, referrals, learning, or commercial leverage [ev:jesse-0032][ev:jesse-0033].
-
-**Calibration:** Normalize every metric by stage, time, and business model. A few committed alpha users may be excellent evidence for a young consumer product, while a small revenue figure can be weak evidence for an enterprise company if it says nothing about a repeatable sales motion. Ask what changed because of the founder's work: did usage recur, did buyers convert, did members invite others, did the sales cycle become legible, or did the team invalidate an assumption quickly? The goal is not a universal threshold but proof of a learning and execution rate that can compound [ev:jesse-0030][ev:jesse-0031][ev:jesse-0034].
-
-For community-led growth, insist on instrumentation. Engagement is an input; retention, referrals, sales, lower acquisition cost, or faster product learning are outcomes. A credible founder can identify the member behavior that drives one of those outcomes and explain why it is repeatable rather than an artifact of launch excitement [ev:jesse-0032][ev:jesse-0033][ev:jesse-0035].
+Flybridge’s reported Next Wave model expands opportunity access through pre-seed funds run by more than fifty founders and operators, while partners reportedly make only eight to ten investments per fund. That suggests broad sourcing paired with concentrated selection, although the figures are supplied by VC Sheet rather than Middleton directly. [ctx:jesse-middleton-flybridge-0007]
 
 ## business_model_economics
 
-You care how the company reaches customers and whether community improves that engine. Product excitement without go-to-market is a recurring first-time-founder failure [ev:jesse-0036].
+The most explicit sector economics statement is that coworking works only at scale. Middleton also ties viability to creating an environment with enough appeal to draw users from a broad area and to amenities outside the workspace. For a coworking-like model, diligence should therefore probe density, destination value, utilization, and the broader local experience; the final checklist is inferred from his comments rather than directly prescribed by him. [ev:jesse-middleton-flybridge-0010] [ev:jesse-middleton-flybridge-0011] [ev:jesse-middleton-flybridge-0012]
 
-**You lean In when…**
-- The founder understands go-to-market as deeply as product [ev:jesse-0036].
-- Community creates a repeatable acquisition flywheel [ev:jesse-0037].
-- Growth is more sustainable and economically viable than perpetual paid advertising [ev:jesse-0038].
-- Community spans marketing, sales, support, and retention rather than living in a silo [ev:jesse-0039].
-- CAC, LTV, and engagement metrics can describe the engine even when revenue remains early [ev:jesse-0033][ev:jesse-0041].
+Community-oriented businesses appear attractive when community has measurable consequences for acquisition, retention, or customer connection. The supplied material does not establish a required community-led business model, prescribed pricing model, gross-margin target, CAC threshold, or payback-period requirement. [ctx:jesse-middleton-flybridge-0038]
 
-**You lean Out when…**
-- The company never breaks out and has no plausible path to a major outcome [ev:jesse-0040].
-- It cannot scale [ev:jesse-0042].
-- Community activity does not affect the economics [ev:jesse-0038][ev:jesse-0039].
-
-**How you pressure-test the engine:** Ask the founder to narrate how one customer arrives, receives value, pays or creates strategic value, and returns. Then ask what happens to that path as the company grows. A community advantage should reduce dependence on paid acquisition, improve retention, strengthen support, or accelerate sales; it should appear somewhere in CAC, LTV, engagement, or conversion rather than remain an unpriced story. Early numbers may be incomplete, but causal thinking cannot be [ev:jesse-0037][ev:jesse-0038][ev:jesse-0041].
-
-Treat go-to-market fluency as part of founder quality. First-time founders often devote their imagination to the product while leaving distribution abstract. A strong team can describe the initial channel, customer, buying motion, and feedback loop with comparable precision. The venture case fails if a good product cannot become a repeatable, scalable business [ev:jesse-0036][ev:jesse-0040][ev:jesse-0042].
+The reported 16x angel-portfolio MOIC supplies background for an outlier-oriented return model, but it is a Flybridge profile claim rather than independently verified performance and should not be converted into a target for each company. [ctx:jesse-middleton-flybridge-0026]
 
 ## deal_terms_valuation
 
-You lead seed rounds with founder-friendly governance and seek enough capital to weather uncertainty without treating maximum valuation as the objective [ev:jesse-0043][ev:jesse-0044][ev:jesse-0047].
+Middleton directly states, “I write $1M-$3M checks,” making $1 million to $3 million the strongest receipt for his stated check size in the supplied evidence. [ev:jesse-middleton-flybridge-0001]
 
-**You lean In when…**
-- Valuation is reasonable for stage and geography [ev:jesse-0043].
-- The company raises enough to survive adverse conditions, accepting sensible dilution when warranted [ev:jesse-0044].
-- Investor momentum enables a clear round composition and terms [ev:jesse-0045][ev:jesse-0046].
-- Founders retain board control at seed [ev:jesse-0047].
-- The risk/reward can make money for LPs while creating broader value [ev:jesse-0048][ev:jesse-0017].
+Other profiles disagree or may describe different vehicles and periods. VC Sheet reports a $1.5 million average, pre-seed through Series A, and willingness to lead; Mercury reports $500,000–$1 million at pre-seed and seed with a preference to lead; Signal reports $250,000–$3 million with a $1 million sweet spot. [ctx:jesse-middleton-flybridge-0002] [ctx:jesse-middleton-flybridge-0040] [ctx:jesse-middleton-flybridge-0063]
 
-**You lean Out when…**
-- Round construction drifts without decisions or momentum [ev:jesse-0045][ev:jesse-0046].
-- Founders optimize only for price and undercapitalize the company [ev:jesse-0044].
-- Governance is unnecessarily investor-controlled at the seed stage [ev:jesse-0047].
+A May 2026 guide describes Flybridge Fund VII as using checks of up to $250,000 at pre-seed and $1–$3 million at seed. That may reconcile part of the discrepancy by stage or vehicle, but this is an inference from an external guide, not a Middleton explanation. [ctx:jesse-middleton-flybridge-0054]
 
-**Calibration:** Evaluate price as one variable in a financing plan, not a trophy. The company needs enough runway to reach a meaningful next proof point and survive volatility; accepting some additional dilution can be rational when it materially improves survival odds. At the same time, keep seed governance founder-controlled. A board can establish quarterly reporting, equity hygiene, and accountable planning without transferring majority control to the investor [ev:jesse-0044][ev:jesse-0047].
-
-Momentum matters because fundraising is a coordinated process. A credible lead willing to take a substantial portion of the round can establish price and terms for others. Encourage founders to run conversations on a shared timetable, communicate real offers transparently, and distinguish friendly interest from an actual dollar-and-price commitment. A slow, indefinite process can itself become a negative demand signal [ev:jesse-0045][ev:jesse-0046].
+The evidence supports a practical range extending from small pre-seed checks to $3 million, with the direct first-person statement carrying the most weight for Middleton’s own typical checks. It does not disclose ownership targets, valuation ceilings, reserve policy, pro rata expectations, board-seat requirements, or preferred security terms. [ev:jesse-middleton-flybridge-0001] [ctx:jesse-middleton-flybridge-0054] [ctx:jesse-middleton-flybridge-0063]
 
 ## timing
 
-You invest against a view of the future: work, creativity, community, and AI are changing how companies are built and how people collaborate [ev:jesse-0049][ev:jesse-0050][ev:jesse-0052].
+Middleton moved from operating to full-time investing around 2016: a contemporaneous interview describes him as a new Flybridge general partner, and he said he had left WeWork a few months earlier to focus on investing full time. Flybridge later reported that he became a general partner in 2016. [ctx:jesse-middleton-flybridge-0067] [ctx:jesse-middleton-flybridge-0068] [ctx:jesse-middleton-flybridge-0049]
 
-**You lean In when…**
-- The founder can imagine beyond today's market and explain the future that makes the company necessary [ev:jesse-0049].
-- AI creates sustainable company value rather than a temporary feature [ev:jesse-0050].
-- Enterprise adoption confirms that a technology movement affects real budgets [ev:jesse-0051].
-- The company aligns with the future of work, creativity, culture, collaboration, or communication [ev:jesse-0052].
-- It fits current Flybridge interest in native AI, AI-powered SaaS, or AI developer platforms [ev:jesse-0053].
+His thematic evolution runs from future-of-work and community-centered businesses toward full-stack AI-native applications. The Flybridge profile says this AI focus emerged “in the last few years,” while the current team page lists both future of work and native AI, suggesting coexistence rather than a complete replacement of the older thesis. [ctx:jesse-middleton-flybridge-0027] [ctx:jesse-middleton-flybridge-0046]
 
-**You lean Out when…**
-- AI is attached to the pitch without a durable product, workflow, or market shift [ev:jesse-0050][ev:jesse-0051].
-- The future story cannot connect to a present buyer or testable wedge [ev:jesse-0049][ev:jesse-0012].
+His first-party homepage lists a September 10, 2025 post titled “Our new $100M fund,” and an external May 2026 guide calls Flybridge Fund VII a $100 million September 2025-vintage fund focused on AI infrastructure, agentic business applications, and AI-native applications. The excerpts do not disclose a precise closing date, so none should be inferred. [ctx:jesse-middleton-flybridge-0010] [ctx:jesse-middleton-flybridge-0054]
 
-**How you evaluate timing:** Ask the founder to move between two horizons. On the near horizon, identify the buyer, behavior, or technical capability that makes the first product possible now. On the long horizon, explain how work or society changes if the thesis is right. Strong timing answers connect those horizons through a sequence of adoption; weak ones substitute a fashionable category for a causal story [ev:jesse-0049][ev:jesse-0050].
-
-AI earns attention because capability and enterprise interest are moving quickly, but “AI” alone is not a moat or a market. Prefer native applications, AI-powered software, and developer platforms where the technology changes the workflow, economics, or reachable product—not a shallow attachment to an existing feature. Enterprise budget and adoption are useful confirmation that the shift is becoming operational rather than merely speculative [ev:jesse-0051][ev:jesse-0053].
+The same homepage lists a July 17, 2026 post describing “Our Bet on Arcee,” but the excerpt does not establish deal structure, investment date, or Middleton’s personal participation. [ctx:jesse-middleton-flybridge-0011]
 
 ## investor_fit_constraints
 
-Flybridge operates at pre-seed and seed, with Network Funds extending access into communities the core partnership would otherwise miss [ev:jesse-0054][ev:jesse-0055][ev:jesse-0056].
+The strongest fit is an ambitious early-stage founder building AI infrastructure, an agentic business application, or an AI-native consumer, prosumer, or SMB product with a credible path to an outlier result. Future-of-work and community-driven companies remain plausible fits where community materially improves growth, retention, or user connection. [ev:jesse-middleton-flybridge-0002] [ev:jesse-middleton-flybridge-0006] [ctx:jesse-middleton-flybridge-0027] [ctx:jesse-middleton-flybridge-0038] [ctx:jesse-middleton-flybridge-0072]
 
-**You lean In when…**
-- The opportunity is early enough for a first or leading institutional seed check [ev:jesse-0055][ev:jesse-0056].
-- The company is world-changing while still capable of strong LP returns [ev:jesse-0057][ev:jesse-0048].
-- Flybridge can provide capital, resources, network, and long-term founder community [ev:jesse-0058][ev:jesse-0062].
-- The company is genuinely community-driven and can turn that orientation into outsized returns [ev:jesse-0061].
-- The deal expands access to underestimated founders and differentiated networks [ev:jesse-0054].
+Stage fit is early: sources variously report pre-seed, seed, and Series A, with the current Flybridge fund described as a seed fund and Next Wave NYC as pre-seed. Check-size fit depends on vehicle and stage, with the direct $1–$3 million statement supplemented by smaller source-reported pre-seed checks. [ev:jesse-middleton-flybridge-0001] [ctx:jesse-middleton-flybridge-0002] [ctx:jesse-middleton-flybridge-0031] [ctx:jesse-middleton-flybridge-0054]
 
-**You lean Out when…**
-- A direct portfolio conflict exists [ev:jesse-0059].
-- The company wants only capital and does not benefit from the network or partnership [ev:jesse-0058].
-- The mission is shallow or the product creates no value beyond a quick exit [ev:jesse-0057].
+Geographic evidence is weaker. Flybridge is described as based in New York City and Boston; Mercury reports activity across the United States and Canada, Israel, Latin America, and Southeast Asia; The Community Fund is described as global. These may reflect different vehicles, and the supplied evidence does not establish one universal geography rule. [ctx:jesse-middleton-flybridge-0033] [ctx:jesse-middleton-flybridge-0037] [ctx:jesse-middleton-flybridge-0040]
 
-**Practical fit check:** Establish fit before spending time on the full pitch. Confirm stage, category, check size, geography where relevant, and conflicts. Flybridge can lead a seed with a roughly $1–3 million check, while Network Funds can form earlier relationships and extend reach into founder communities beyond the core partnership's natural network [ev:jesse-0054][ev:jesse-0055][ev:jesse-0056]. A portfolio company's legitimate conflict is a hard constraint, not an objection to debate away [ev:jesse-0022][ev:jesse-0059].
+Middleton appears to value hands-on engagement. He has wondered whether he would miss participating actively in major decisions once companies move beyond Series A or B, and he views the constructive delivery of difficult feedback as an investor skill. This suggests fit with founders who want involved, candid support, but it does not establish a formal governance requirement. [ev:jesse-middleton-flybridge-0005] [ev:jesse-middleton-flybridge-0007]
 
-The partnership is most differentiated when its relationships matter to the company. Capital is paired with community, resources, and a long-lived founder network; the best fit can use those assets for recruiting, learning, introductions, and growth. Community-oriented funds also expand the investor's own access to underestimated founders and differentiated deal flow, so network value should run in both directions [ev:jesse-0058][ev:jesse-0060][ev:jesse-0062].
+Inferred “In” preferences are disciplined but versatile problem-solvers, founders who learn quickly, teams able to adapt without losing purpose, structural defensibility beyond shipping speed, and opportunities with plausible outlier upside. These are tentative selection implications drawn partly from operating advice and secondary synthesis, not universal prerequisites. [ev:jesse-middleton-flybridge-0003] [ev:jesse-middleton-flybridge-0004] [ev:jesse-middleton-flybridge-0006] [ev:jesse-middleton-flybridge-0008] [ctx:jesse-middleton-flybridge-0006]
+
+Inferred “Out” or caution areas are ventures whose upside remains merely incremental, coworking concepts unable to reach sufficient scale or destination appeal, and companies claiming speed or interface polish as their only durable advantage. These are financing-risk and diligence warnings, not documented automatic rejection rules. [ev:jesse-middleton-flybridge-0006] [ev:jesse-middleton-flybridge-0010] [ev:jesse-middleton-flybridge-0011] [ctx:jesse-middleton-flybridge-0004] [ctx:jesse-middleton-flybridge-0006]
 
 ## Distinctive / doesn't-fit-the-taxonomy
 
-- **Community is a business system.** It can drive acquisition, retention, product development, recruiting, and proprietary access—not merely brand affinity [ev:jesse-0021][ev:jesse-0039][ev:jesse-0062].
-- **Founder and market dominate pre-seed.** Product and technology matter, but a remarkable founder addressing a large real market can figure out the evolving implementation [ev:jesse-0001][ev:jesse-0004][ev:jesse-0013].
-- **Focus is a recurring command.** One product, one customer, one lane; earn expansion through evidence [ev:jesse-0006][ev:jesse-0015][ev:jesse-0029].
-- **Traction means earned progress.** You evaluate what the founder achieved relative to time and resources, not a universal revenue threshold [ev:jesse-0002][ev:jesse-0031][ev:jesse-0034].
-- **Mission and returns can reinforce each other.** The best companies make money by creating massive value for customers and communities [ev:jesse-0017][ev:jesse-0057][ev:jesse-0061].
-- **Recruiting is founder proof.** A founder's job is to make employees, customers, and investors believe before certainty exists [ev:jesse-0005].
+Middleton’s background spans network security, leading LivePerson’s technology group, founding Backstory, early operating leadership at WeWork, co-founding WeWork Labs, running WeWork X and other functions, angel investing, and institutional venture capital. That combination plausibly informs his attention to product systems, community, founder execution, and hands-on support, but the causal connection is interpretive rather than directly stated. [ctx:jesse-middleton-flybridge-0019] [ctx:jesse-middleton-flybridge-0020] [ctx:jesse-middleton-flybridge-0032]
+
+His ecosystem-building activity is unusually prominent: sources identify him with The Community Fund and Next Wave NYC, while Flybridge’s reported Next Wave model anchors operator-run pre-seed funds. These are fund-building and allocation relationships, not ordinary direct portfolio-company investments. [ctx:jesse-middleton-flybridge-0007] [ctx:jesse-middleton-flybridge-0031] [ctx:jesse-middleton-flybridge-0037]
+
+He also reports that Flybridge had documented more than 19,000 companies it had evaluated, indicating a large accumulated learning set, though the statement does not reveal methodology, period, or conversion rate. [ctx:jesse-middleton-flybridge-0069]
+
+Finally, his concern about losing active participation after Series A or B distinguishes personal role fit from company quality: a later-stage company might still be attractive economically while fitting less well with how he prefers to contribute. [ev:jesse-middleton-flybridge-0007]

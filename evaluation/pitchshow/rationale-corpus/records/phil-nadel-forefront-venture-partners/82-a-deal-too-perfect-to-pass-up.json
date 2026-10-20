@@ -1,0 +1,525 @@
+{
+  "schema": "phase1-rationale-reference-v1",
+  "extraction_version": "pitchshow-rationales-v1",
+  "fingerprint": "529b67e9e8d64013a49f7b4d97334dc0b6e25ef9e37af92a08b3720257288531",
+  "episode_slug": "82-a-deal-too-perfect-to-pass-up",
+  "vc_slug": "phil-nadel-forefront-venture-partners",
+  "vc_name": "Phil Nadel",
+  "actual_decision": "Out",
+  "later_decision": "Unknown",
+  "reference_kind": "automated_transcript_observed_candidate",
+  "human_validated": false,
+  "source_format": "transcript-observed-rationales-v1",
+  "source_path": "/home/dpasch01/vclogic-vc-agentic-assessment/evaluation/pitchshow/investors/phil-nadel-forefront-venture-partners/source/episodes/82-a-deal-too-perfect-to-pass-up.json",
+  "source_sha256": "7d1cd04d10008eebf60865b03135e432032960fdd9453bbcff584526dc5ac34b",
+  "transcript_sha256": "77c3155579950c45a7d40a0a2acf034821a736c5823861e594bed95b552c5a71",
+  "taxonomy_sha256": "eaa8734819a3ac34dd19ee5f0bf6de925a793a1d25a2d361090dafc9b751e1fc",
+  "model": "codex:gpt-5.6-luna+gpt-5.6-sol",
+  "generation_stages": [
+    {
+      "phase": "rationale_extract",
+      "backend": "codex",
+      "model": "gpt-5.6-luna"
+    },
+    {
+      "phase": "rationale_verify",
+      "backend": "codex",
+      "model": "gpt-5.6-sol"
+    }
+  ],
+  "source_tier": "newly_extracted_and_independently_model_reviewed",
+  "reviewed_target_turns": [
+    3,
+    10,
+    31,
+    47,
+    49,
+    67,
+    69,
+    104,
+    130,
+    132,
+    140,
+    146,
+    154,
+    155,
+    157,
+    159
+  ],
+  "notes": "All supplied Phil Nadel turns were reviewed; greetings, jokes, bare affirmations, and non-rationale remarks were omitted.",
+  "receipt_path": "/home/dpasch01/vclogic-vc-agentic-assessment/evaluation/pitchshow/investors/phil-nadel-forefront-venture-partners/rationale-references/receipts/82-a-deal-too-perfect-to-pass-up.json",
+  "scoring_scope": "original_pitch_only",
+  "shared_across_input_modes": true,
+  "rationales": [
+    {
+      "rationale_label": "business_model_assessment",
+      "direction": "negative",
+      "salience": "secondary",
+      "confidence": 0.99,
+      "utterance_type": "assessment",
+      "decision_link": "explicit",
+      "timing": "original_pitch",
+      "turn_index": 104,
+      "quote": "But it's time consuming. It's manual. And hard to scale while bringing costs down.",
+      "explanation": "Phil links the labor-intensive service model to difficulty scaling economically before announcing his pass.",
+      "evidence": [
+        "But it's time consuming. It's manual. And hard to scale while bringing costs down.",
+        "No, they don't.",
+        "It's a service company."
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 104,
+          "speaker": "Phil",
+          "quote": "But it's time consuming. It's manual. And hard to scale while bringing costs down."
+        },
+        {
+          "turn_index": 140,
+          "speaker": "Phil",
+          "quote": "No, they don't."
+        },
+        {
+          "turn_index": 146,
+          "speaker": "Phil",
+          "quote": "It's a service company."
+        }
+      ],
+      "activation": "evaluated",
+      "source_rationale_id": "R7",
+      "utterance_kind": "concern",
+      "decision_support": "supports_out",
+      "all_mention_ids": [
+        "R1",
+        "R7",
+        "R10",
+        "R11",
+        "R12"
+      ]
+    },
+    {
+      "rationale_label": "go_to_market_strategy_assessment",
+      "direction": "neutral",
+      "salience": "secondary",
+      "confidence": 0.99,
+      "utterance_type": "question",
+      "decision_link": "none",
+      "timing": "original_pitch",
+      "turn_index": 49,
+      "quote": "It's just word of mouth?",
+      "explanation": "Phil seeks confirmation that customer acquisition primarily comes through word of mouth.",
+      "evidence": [
+        "Generally speaking, how are you, how are you marketing?",
+        "It's just word of mouth?"
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 47,
+          "speaker": "Phil",
+          "quote": "Generally speaking, how are you, how are you marketing?"
+        },
+        {
+          "turn_index": 49,
+          "speaker": "Phil",
+          "quote": "It's just word of mouth?"
+        }
+      ],
+      "activation": "queried",
+      "source_rationale_id": "R3",
+      "utterance_kind": "question",
+      "decision_support": "none",
+      "all_mention_ids": [
+        "R2",
+        "R3"
+      ]
+    },
+    {
+      "rationale_label": "investor_experience_bias",
+      "direction": "negative",
+      "salience": "secondary",
+      "confidence": 0.99,
+      "utterance_type": "decision_reason",
+      "decision_link": "explicit",
+      "timing": "original_pitch",
+      "turn_index": 104,
+      "quote": "I was an early investor in Zirtual. And it didn't do well.",
+      "explanation": "Phil explicitly says a prior unsuccessful investment in a similar company contributes to his concern and pass.",
+      "evidence": [
+        "I was an early investor in Zirtual. And it didn't do well."
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 104,
+          "speaker": "Phil",
+          "quote": "I was an early investor in Zirtual. And it didn't do well."
+        }
+      ],
+      "activation": "evaluated",
+      "source_rationale_id": "R9",
+      "utterance_kind": "decision_explanation",
+      "decision_support": "supports_out",
+      "all_mention_ids": [
+        "R9"
+      ]
+    },
+    {
+      "rationale_label": "product_appeal_assessment",
+      "direction": "positive",
+      "salience": "secondary",
+      "confidence": 0.9,
+      "utterance_type": "assessment",
+      "decision_link": "none",
+      "timing": "original_pitch",
+      "turn_index": 104,
+      "quote": "spending time with the client on the phone to understand their needs, I mean, that's, that's what you want as a client",
+      "explanation": "Phil recognizes that personalized conversations provide a desirable client experience.",
+      "evidence": [
+        "spending time with the client on the phone to understand their needs, I mean, that's, that's what you want as a client"
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 104,
+          "speaker": "Phil",
+          "quote": "spending time with the client on the phone to understand their needs, I mean, that's, that's what you want as a client"
+        }
+      ],
+      "activation": "evaluated",
+      "source_rationale_id": "R6",
+      "utterance_kind": "assessment",
+      "decision_support": "none",
+      "all_mention_ids": [
+        "R6"
+      ]
+    },
+    {
+      "rationale_label": "product_differentiation_concern",
+      "direction": "negative",
+      "salience": "primary",
+      "confidence": 0.99,
+      "utterance_type": "decision_reason",
+      "decision_link": "explicit",
+      "timing": "original_pitch",
+      "turn_index": 104,
+      "quote": "My only concern here is is product differentiation.",
+      "explanation": "Phil identifies insufficient product differentiation as his principal concern supporting the decision to pass.",
+      "evidence": [
+        "I'm not really getting that there's a true differentiation here",
+        "My only concern here is is product differentiation."
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 67,
+          "speaker": "Phil",
+          "quote": "I'm not really getting that there's a true differentiation here"
+        },
+        {
+          "turn_index": 104,
+          "speaker": "Phil",
+          "quote": "My only concern here is is product differentiation."
+        }
+      ],
+      "activation": "evaluated",
+      "source_rationale_id": "R8",
+      "utterance_kind": "decision_explanation",
+      "decision_support": "supports_out",
+      "all_mention_ids": [
+        "R4",
+        "R5",
+        "R8"
+      ]
+    }
+  ],
+  "later_rationales": [],
+  "excluded_rationales": [],
+  "rationale_mentions": [
+    {
+      "rationale_label": "business_model_assessment",
+      "direction": "neutral",
+      "salience": "secondary",
+      "confidence": 0.96,
+      "utterance_type": "assessment",
+      "decision_link": "none",
+      "timing": "original_pitch",
+      "turn_index": 31,
+      "quote": "It sounds like you're doing it very manually now.",
+      "explanation": "Phil observes and seeks confirmation that the current vetting process relies heavily on manual work.",
+      "evidence": [
+        "It sounds like you're doing it very manually now."
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 31,
+          "speaker": "Phil",
+          "quote": "It sounds like you're doing it very manually now."
+        }
+      ],
+      "activation": "evaluated",
+      "source_rationale_id": "R1"
+    },
+    {
+      "rationale_label": "go_to_market_strategy_assessment",
+      "direction": "neutral",
+      "salience": "secondary",
+      "confidence": 0.99,
+      "utterance_type": "question",
+      "decision_link": "none",
+      "timing": "original_pitch",
+      "turn_index": 47,
+      "quote": "Generally speaking, how are you, how are you marketing?",
+      "explanation": "Phil asks how the company markets itself and acquires customers.",
+      "evidence": [
+        "Generally speaking, how are you, how are you marketing?"
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 47,
+          "speaker": "Phil",
+          "quote": "Generally speaking, how are you, how are you marketing?"
+        }
+      ],
+      "activation": "queried",
+      "source_rationale_id": "R2"
+    },
+    {
+      "rationale_label": "go_to_market_strategy_assessment",
+      "direction": "neutral",
+      "salience": "secondary",
+      "confidence": 0.99,
+      "utterance_type": "question",
+      "decision_link": "none",
+      "timing": "original_pitch",
+      "turn_index": 49,
+      "quote": "It's just word of mouth?",
+      "explanation": "Phil seeks confirmation that customer acquisition primarily comes through word of mouth.",
+      "evidence": [
+        "It's just word of mouth?"
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 49,
+          "speaker": "Phil",
+          "quote": "It's just word of mouth?"
+        }
+      ],
+      "activation": "queried",
+      "source_rationale_id": "R3"
+    },
+    {
+      "rationale_label": "product_differentiation_concern",
+      "direction": "negative",
+      "salience": "primary",
+      "confidence": 0.99,
+      "utterance_type": "concern",
+      "decision_link": "none",
+      "timing": "original_pitch",
+      "turn_index": 67,
+      "quote": "I'm not really getting that there's a true differentiation here",
+      "explanation": "Phil questions whether the offering is meaningfully differentiated from virtual-assistant companies and freelance marketplaces.",
+      "evidence": [
+        "I'm not really getting that there's a true differentiation here"
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 67,
+          "speaker": "Phil",
+          "quote": "I'm not really getting that there's a true differentiation here"
+        }
+      ],
+      "activation": "evaluated",
+      "source_rationale_id": "R4"
+    },
+    {
+      "rationale_label": "product_differentiation_concern",
+      "direction": "neutral",
+      "salience": "secondary",
+      "confidence": 0.98,
+      "utterance_type": "question",
+      "decision_link": "none",
+      "timing": "original_pitch",
+      "turn_index": 69,
+      "quote": "you're higher quality? And that's what's setting you apart?",
+      "explanation": "Phil asks whether higher service quality is the company's distinguishing feature.",
+      "evidence": [
+        "you're higher quality? And that's what's setting you apart?"
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 69,
+          "speaker": "Phil",
+          "quote": "you're higher quality? And that's what's setting you apart?"
+        }
+      ],
+      "activation": "queried",
+      "source_rationale_id": "R5"
+    },
+    {
+      "rationale_label": "product_appeal_assessment",
+      "direction": "positive",
+      "salience": "secondary",
+      "confidence": 0.9,
+      "utterance_type": "assessment",
+      "decision_link": "none",
+      "timing": "original_pitch",
+      "turn_index": 104,
+      "quote": "spending time with the client on the phone to understand their needs, I mean, that's, that's what you want as a client",
+      "explanation": "Phil recognizes that personalized conversations provide a desirable client experience.",
+      "evidence": [
+        "spending time with the client on the phone to understand their needs, I mean, that's, that's what you want as a client"
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 104,
+          "speaker": "Phil",
+          "quote": "spending time with the client on the phone to understand their needs, I mean, that's, that's what you want as a client"
+        }
+      ],
+      "activation": "evaluated",
+      "source_rationale_id": "R6"
+    },
+    {
+      "rationale_label": "business_model_assessment",
+      "direction": "negative",
+      "salience": "secondary",
+      "confidence": 0.99,
+      "utterance_type": "concern",
+      "decision_link": "supports_out",
+      "timing": "original_pitch",
+      "turn_index": 104,
+      "quote": "But it's time consuming. It's manual. And hard to scale while bringing costs down.",
+      "explanation": "Phil links the labor-intensive service model to difficulty scaling economically before announcing his pass.",
+      "evidence": [
+        "But it's time consuming. It's manual. And hard to scale while bringing costs down."
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 104,
+          "speaker": "Phil",
+          "quote": "But it's time consuming. It's manual. And hard to scale while bringing costs down."
+        }
+      ],
+      "activation": "evaluated",
+      "source_rationale_id": "R7"
+    },
+    {
+      "rationale_label": "product_differentiation_concern",
+      "direction": "negative",
+      "salience": "primary",
+      "confidence": 0.99,
+      "utterance_type": "decision_explanation",
+      "decision_link": "supports_out",
+      "timing": "original_pitch",
+      "turn_index": 104,
+      "quote": "My only concern here is is product differentiation.",
+      "explanation": "Phil identifies insufficient product differentiation as his principal concern supporting the decision to pass.",
+      "evidence": [
+        "My only concern here is is product differentiation."
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 104,
+          "speaker": "Phil",
+          "quote": "My only concern here is is product differentiation."
+        }
+      ],
+      "activation": "evaluated",
+      "source_rationale_id": "R8"
+    },
+    {
+      "rationale_label": "investor_experience_bias",
+      "direction": "negative",
+      "salience": "secondary",
+      "confidence": 0.99,
+      "utterance_type": "decision_explanation",
+      "decision_link": "supports_out",
+      "timing": "original_pitch",
+      "turn_index": 104,
+      "quote": "I was an early investor in Zirtual. And it didn't do well.",
+      "explanation": "Phil explicitly says a prior unsuccessful investment in a similar company contributes to his concern and pass.",
+      "evidence": [
+        "I was an early investor in Zirtual. And it didn't do well."
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 104,
+          "speaker": "Phil",
+          "quote": "I was an early investor in Zirtual. And it didn't do well."
+        }
+      ],
+      "activation": "evaluated",
+      "source_rationale_id": "R9"
+    },
+    {
+      "rationale_label": "business_model_assessment",
+      "direction": "negative",
+      "salience": "secondary",
+      "confidence": 0.9,
+      "utterance_type": "assessment",
+      "decision_link": "none",
+      "timing": "original_pitch",
+      "turn_index": 140,
+      "quote": "No, they don't.",
+      "explanation": "Phil disputes the assertion that the company currently has technology, reinforcing his assessment of its manual service model.",
+      "evidence": [
+        "No, they don't."
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 140,
+          "speaker": "Phil",
+          "quote": "No, they don't."
+        }
+      ],
+      "activation": "evaluated",
+      "source_rationale_id": "R10"
+    },
+    {
+      "rationale_label": "business_model_assessment",
+      "direction": "negative",
+      "salience": "secondary",
+      "confidence": 0.96,
+      "utterance_type": "assessment",
+      "decision_link": "none",
+      "timing": "original_pitch",
+      "turn_index": 146,
+      "quote": "It's a service company.",
+      "explanation": "Phil characterizes the company as a services business during the same-room post-pitch discussion.",
+      "evidence": [
+        "It's a service company."
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 146,
+          "speaker": "Phil",
+          "quote": "It's a service company."
+        }
+      ],
+      "activation": "evaluated",
+      "source_rationale_id": "R11"
+    },
+    {
+      "rationale_label": "business_model_assessment",
+      "direction": "positive",
+      "salience": "secondary",
+      "confidence": 0.94,
+      "utterance_type": "assessment",
+      "decision_link": "none",
+      "timing": "original_pitch",
+      "turn_index": 154,
+      "quote": "Very good business.",
+      "explanation": "Phil positively assesses the underlying business despite having declined the investment.",
+      "evidence": [
+        "Very good business."
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 154,
+          "speaker": "Phil",
+          "quote": "Very good business."
+        }
+      ],
+      "activation": "evaluated",
+      "source_rationale_id": "R12"
+    }
+  ],
+  "expanded_quote_evidence": [],
+  "rejected_after_evidence_check": []
+}

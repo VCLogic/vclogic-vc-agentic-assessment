@@ -1,0 +1,470 @@
+{
+  "schema": "phase1-rationale-reference-v1",
+  "extraction_version": "pitchshow-rationales-v1",
+  "fingerprint": "529db57d3f188bbc297a02d8a1b4201ef671a6e6f36d753e5b320972686fc11b",
+  "episode_slug": "4-skylights",
+  "vc_slug": "jake-chapman-marque-ventures",
+  "vc_name": "Jake Chapman",
+  "actual_decision": "Out",
+  "later_decision": "Unknown",
+  "reference_kind": "automated_transcript_observed_candidate",
+  "human_validated": false,
+  "source_format": "transcript-observed-rationales-v1",
+  "source_path": "../source/episodes/4-skylights.json",
+  "source_sha256": "bb390a5fb071b3462a3160f361b15147916e1ca937b1be312a4da7e43dbf87ff",
+  "transcript_sha256": "adcd2402f4afb40a30a6e331153632b29e09881bbb902d15c6e600bf9bd2d3bd",
+  "taxonomy_sha256": "eaa8734819a3ac34dd19ee5f0bf6de925a793a1d25a2d361090dafc9b751e1fc",
+  "model": "codex:gpt-5.6-luna+gpt-5.6-sol",
+  "generation_stages": [
+    {
+      "phase": "rationale_extract",
+      "backend": "codex",
+      "model": "gpt-5.6-luna"
+    },
+    {
+      "phase": "rationale_verify",
+      "backend": "codex",
+      "model": "gpt-5.6-sol"
+    }
+  ],
+  "source_tier": "newly_extracted_and_independently_model_reviewed",
+  "reviewed_target_turns": [
+    11,
+    12,
+    41,
+    66,
+    98,
+    108,
+    110,
+    118,
+    129,
+    131
+  ],
+  "notes": "All supplied target turns were reviewed. Turn 12's trademark-name warning does not fit the narrowly defined corporate-structure label; the remaining unextracted turns are an introduction, status question, or joke without a qualifying rationale.",
+  "receipt_path": "receipts/4-skylights.json",
+  "scoring_scope": "live_founder_present_v2",
+  "shared_across_input_modes": true,
+  "rationales": [
+    {
+      "rationale_label": "founder_communication_quality",
+      "direction": "positive",
+      "salience": "secondary",
+      "confidence": 0.98,
+      "utterance_type": "assessment",
+      "decision_link": "none",
+      "timing": "original_pitch",
+      "turn_index": 108,
+      "quote": "I thought your presentation was excellent.",
+      "explanation": "Jake positively assesses David's presentation quality.",
+      "evidence": [
+        "I thought your presentation was excellent.",
+        "you answered all of our questions really, really well."
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 108,
+          "speaker": "Jake",
+          "quote": "I thought your presentation was excellent."
+        },
+        {
+          "turn_index": 108,
+          "speaker": "Jake",
+          "quote": "you answered all of our questions really, really well."
+        }
+      ],
+      "activation": "evaluated",
+      "source_rationale_id": "R4",
+      "utterance_kind": "assessment",
+      "decision_support": "none",
+      "all_mention_ids": [
+        "R4",
+        "R6"
+      ]
+    },
+    {
+      "rationale_label": "founder_skillset",
+      "direction": "positive",
+      "salience": "secondary",
+      "confidence": 0.93,
+      "utterance_type": "assessment",
+      "decision_link": "none",
+      "timing": "original_pitch",
+      "turn_index": 108,
+      "quote": "I think you know the business exceptionally well",
+      "explanation": "Jake credits David with strong knowledge of the business and its domain.",
+      "evidence": [
+        "I think you know the business exceptionally well"
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 108,
+          "speaker": "Jake",
+          "quote": "I think you know the business exceptionally well"
+        }
+      ],
+      "activation": "evaluated",
+      "source_rationale_id": "R5",
+      "utterance_kind": "assessment",
+      "decision_support": "none",
+      "all_mention_ids": [
+        "R5"
+      ]
+    },
+    {
+      "rationale_label": "market_entry_path_assessment",
+      "direction": "neutral",
+      "salience": "secondary",
+      "confidence": 0.76,
+      "utterance_type": "question",
+      "decision_link": "none",
+      "timing": "original_pitch",
+      "turn_index": 98,
+      "quote": "Self-driving cars?",
+      "explanation": "Jake probes whether self-driving cars could become another distribution setting for the product.",
+      "evidence": [
+        "Self-driving cars?"
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 98,
+          "speaker": "Jake",
+          "quote": "Self-driving cars?"
+        }
+      ],
+      "activation": "queried",
+      "source_rationale_id": "R3",
+      "utterance_kind": "question",
+      "decision_support": "none",
+      "all_mention_ids": [
+        "R3"
+      ]
+    },
+    {
+      "rationale_label": "market_problem_validation",
+      "direction": "negative",
+      "salience": "primary",
+      "confidence": 0.99,
+      "utterance_type": "assessment",
+      "decision_link": "explicit",
+      "timing": "original_pitch",
+      "turn_index": 110,
+      "quote": "I'm not sure what you're solving in the plane is a real problem.",
+      "explanation": "Jake identifies insufficient consumer pain and incremental benefit over seatback screens as a principal reason for passing.",
+      "evidence": [
+        "I'm not sure what you're solving in the plane is a real problem."
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 110,
+          "speaker": "Jake",
+          "quote": "I'm not sure what you're solving in the plane is a real problem."
+        }
+      ],
+      "activation": "evaluated",
+      "source_rationale_id": "R7",
+      "utterance_kind": "concern",
+      "decision_support": "supports_out",
+      "all_mention_ids": [
+        "R7"
+      ]
+    },
+    {
+      "rationale_label": "product_appeal_assessment",
+      "direction": "positive",
+      "salience": "secondary",
+      "confidence": 0.92,
+      "utterance_type": "assessment",
+      "decision_link": "none",
+      "timing": "original_pitch",
+      "turn_index": 41,
+      "quote": "It's very light.",
+      "explanation": "Jake positively assesses the headset's physical comfort and appeal during the product demonstration.",
+      "evidence": [
+        "It's very light."
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 41,
+          "speaker": "Jake",
+          "quote": "It's very light."
+        }
+      ],
+      "activation": "evaluated",
+      "source_rationale_id": "R1",
+      "utterance_kind": "assessment",
+      "decision_support": "none",
+      "all_mention_ids": [
+        "R1"
+      ]
+    },
+    {
+      "rationale_label": "product_differentiation_concern",
+      "direction": "negative",
+      "salience": "secondary",
+      "confidence": 0.98,
+      "utterance_type": "assessment",
+      "decision_link": "explicit",
+      "timing": "original_pitch",
+      "turn_index": 110,
+      "quote": "there are these other people who are handing out iPads on the plane, who already have the stuff in place, and they could do the business too if it took off.",
+      "explanation": "Jake cites the ease with which providers possessing existing airline infrastructure could enter the business as an additional, explicitly minor reason for passing.",
+      "evidence": [
+        "what stops them from using their own VR hardware?",
+        "there are these other people who are handing out iPads on the plane, who already have the stuff in place, and they could do the business too if it took off."
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 66,
+          "speaker": "Jake",
+          "quote": "what stops them from using their own VR hardware?"
+        },
+        {
+          "turn_index": 110,
+          "speaker": "Jake",
+          "quote": "there are these other people who are handing out iPads on the plane, who already have the stuff in place, and they could do the business too if it took off."
+        }
+      ],
+      "activation": "evaluated",
+      "source_rationale_id": "R8",
+      "utterance_kind": "concern",
+      "decision_support": "supports_out",
+      "all_mention_ids": [
+        "R2",
+        "R8"
+      ]
+    }
+  ],
+  "later_rationales": [
+    {
+      "rationale_label": "founder_communication_quality",
+      "direction": "negative",
+      "salience": "secondary",
+      "confidence": 0.78,
+      "utterance_type": "assessment",
+      "decision_link": "none",
+      "timing": "later_commentary",
+      "turn_index": 131,
+      "quote": "I saw you at YC, and I totally zoned out\u2026",
+      "explanation": "Jake indicates that an earlier presentation by David failed to hold his attention.",
+      "evidence": [
+        "I saw you at YC, and I totally zoned out\u2026"
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 131,
+          "speaker": "Jake",
+          "quote": "I saw you at YC, and I totally zoned out\u2026"
+        }
+      ],
+      "activation": "evaluated",
+      "source_rationale_id": "R9"
+    }
+  ],
+  "excluded_rationales": [],
+  "rationale_mentions": [
+    {
+      "rationale_label": "product_appeal_assessment",
+      "direction": "positive",
+      "salience": "secondary",
+      "confidence": 0.92,
+      "utterance_type": "assessment",
+      "decision_link": "none",
+      "timing": "original_pitch",
+      "turn_index": 41,
+      "quote": "It's very light.",
+      "explanation": "Jake positively assesses the headset's physical comfort and appeal during the product demonstration.",
+      "evidence": [
+        "It's very light."
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 41,
+          "speaker": "Jake",
+          "quote": "It's very light."
+        }
+      ],
+      "activation": "evaluated",
+      "source_rationale_id": "R1"
+    },
+    {
+      "rationale_label": "product_differentiation_concern",
+      "direction": "negative",
+      "salience": "secondary",
+      "confidence": 0.97,
+      "utterance_type": "question",
+      "decision_link": "none",
+      "timing": "original_pitch",
+      "turn_index": 66,
+      "quote": "what stops them from using their own VR hardware?",
+      "explanation": "Jake questions what would prevent an established provider with airline relationships and licensing infrastructure from replicating the offering.",
+      "evidence": [
+        "what stops them from using their own VR hardware?"
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 66,
+          "speaker": "Jake",
+          "quote": "what stops them from using their own VR hardware?"
+        }
+      ],
+      "activation": "queried",
+      "source_rationale_id": "R2"
+    },
+    {
+      "rationale_label": "market_entry_path_assessment",
+      "direction": "neutral",
+      "salience": "secondary",
+      "confidence": 0.76,
+      "utterance_type": "question",
+      "decision_link": "none",
+      "timing": "original_pitch",
+      "turn_index": 98,
+      "quote": "Self-driving cars?",
+      "explanation": "Jake probes whether self-driving cars could become another distribution setting for the product.",
+      "evidence": [
+        "Self-driving cars?"
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 98,
+          "speaker": "Jake",
+          "quote": "Self-driving cars?"
+        }
+      ],
+      "activation": "queried",
+      "source_rationale_id": "R3"
+    },
+    {
+      "rationale_label": "founder_communication_quality",
+      "direction": "positive",
+      "salience": "secondary",
+      "confidence": 0.98,
+      "utterance_type": "assessment",
+      "decision_link": "none",
+      "timing": "original_pitch",
+      "turn_index": 108,
+      "quote": "I thought your presentation was excellent.",
+      "explanation": "Jake positively assesses David's presentation quality.",
+      "evidence": [
+        "I thought your presentation was excellent."
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 108,
+          "speaker": "Jake",
+          "quote": "I thought your presentation was excellent."
+        }
+      ],
+      "activation": "evaluated",
+      "source_rationale_id": "R4"
+    },
+    {
+      "rationale_label": "founder_skillset",
+      "direction": "positive",
+      "salience": "secondary",
+      "confidence": 0.93,
+      "utterance_type": "assessment",
+      "decision_link": "none",
+      "timing": "original_pitch",
+      "turn_index": 108,
+      "quote": "I think you know the business exceptionally well",
+      "explanation": "Jake credits David with strong knowledge of the business and its domain.",
+      "evidence": [
+        "I think you know the business exceptionally well"
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 108,
+          "speaker": "Jake",
+          "quote": "I think you know the business exceptionally well"
+        }
+      ],
+      "activation": "evaluated",
+      "source_rationale_id": "R5"
+    },
+    {
+      "rationale_label": "founder_communication_quality",
+      "direction": "positive",
+      "salience": "secondary",
+      "confidence": 0.96,
+      "utterance_type": "assessment",
+      "decision_link": "none",
+      "timing": "original_pitch",
+      "turn_index": 108,
+      "quote": "you answered all of our questions really, really well.",
+      "explanation": "Jake positively assesses David's command and clarity during investor questioning.",
+      "evidence": [
+        "you answered all of our questions really, really well."
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 108,
+          "speaker": "Jake",
+          "quote": "you answered all of our questions really, really well."
+        }
+      ],
+      "activation": "evaluated",
+      "source_rationale_id": "R6"
+    },
+    {
+      "rationale_label": "market_problem_validation",
+      "direction": "negative",
+      "salience": "primary",
+      "confidence": 0.99,
+      "utterance_type": "concern",
+      "decision_link": "supports_out",
+      "timing": "original_pitch",
+      "turn_index": 110,
+      "quote": "I'm not sure what you're solving in the plane is a real problem.",
+      "explanation": "Jake identifies insufficient consumer pain and incremental benefit over seatback screens as a principal reason for passing.",
+      "evidence": [
+        "I'm not sure what you're solving in the plane is a real problem."
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 110,
+          "speaker": "Jake",
+          "quote": "I'm not sure what you're solving in the plane is a real problem."
+        }
+      ],
+      "activation": "evaluated",
+      "source_rationale_id": "R7"
+    },
+    {
+      "rationale_label": "product_differentiation_concern",
+      "direction": "negative",
+      "salience": "secondary",
+      "confidence": 0.98,
+      "utterance_type": "concern",
+      "decision_link": "supports_out",
+      "timing": "original_pitch",
+      "turn_index": 110,
+      "quote": "there are these other people who are handing out iPads on the plane, who already have the stuff in place, and they could do the business too if it took off.",
+      "explanation": "Jake cites the ease with which providers possessing existing airline infrastructure could enter the business as an additional, explicitly minor reason for passing.",
+      "evidence": [
+        "there are these other people who are handing out iPads on the plane, who already have the stuff in place, and they could do the business too if it took off."
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 110,
+          "speaker": "Jake",
+          "quote": "there are these other people who are handing out iPads on the plane, who already have the stuff in place, and they could do the business too if it took off."
+        }
+      ],
+      "activation": "evaluated",
+      "source_rationale_id": "R8"
+    }
+  ],
+  "expanded_quote_evidence": [],
+  "rejected_after_evidence_check": [],
+  "timing_review": {
+    "reviewer": "codex_source_inspection",
+    "human_validated": false,
+    "first_post_founder_turn": 128,
+    "original_path": "evaluation/pitchshow/investors/jake-chapman-marque-ventures/rationale-references/4-skylights.json",
+    "original_sha256": "c78764ac485c43fcfaeec33240cde58798e67e72e0cd7f2b200cbbe1746ad60d",
+    "source_path": "evaluation/pitchshow/investors/jake-chapman-marque-ventures/source/episodes/4-skylights.json",
+    "source_sha256": "bb390a5fb071b3462a3160f361b15147916e1ca937b1be312a4da7e43dbf87ff",
+    "reason": "Reviewed farewell/exit and following panel or host transition. Includes live decision discussion and reversals; excludes investor-only debrief. Borderline farewell banter conservatively ends at reviewed boundary."
+  }
+}

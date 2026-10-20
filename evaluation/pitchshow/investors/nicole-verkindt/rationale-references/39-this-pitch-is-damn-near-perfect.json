@@ -1,0 +1,932 @@
+{
+  "schema": "phase1-rationale-reference-v1",
+  "extraction_version": "pitchshow-rationales-v1",
+  "fingerprint": "270297fafb459c6d739b4c61fef544a6619ae43e9e84241f849ce9ced9de5837",
+  "episode_slug": "39-this-pitch-is-damn-near-perfect",
+  "vc_slug": "nicole-verkindt",
+  "vc_name": "Nicole Verkindt",
+  "actual_decision": "Out",
+  "later_decision": "Out",
+  "reference_kind": "automated_transcript_observed_candidate",
+  "human_validated": false,
+  "source_format": "transcript-observed-rationales-v1",
+  "source_path": "../source/episodes/39-this-pitch-is-damn-near-perfect.json",
+  "source_sha256": "ec756d0aef8ce1a01e8715e8869ab9fd2acccd0fb0391730454e7c990b2b22ad",
+  "transcript_sha256": "1482e661846c06e9e8edef9a89590d5a43fd11c4a3b9339c963be4c92fceeb2d",
+  "taxonomy_sha256": "eaa8734819a3ac34dd19ee5f0bf6de925a793a1d25a2d361090dafc9b751e1fc",
+  "model": "codex:gpt-5.6-luna+gpt-5.6-sol",
+  "generation_stages": [
+    {
+      "phase": "rationale_extract",
+      "backend": "codex",
+      "model": "gpt-5.6-luna"
+    },
+    {
+      "phase": "rationale_verify",
+      "backend": "codex",
+      "model": "gpt-5.6-sol"
+    }
+  ],
+  "source_tier": "newly_extracted_and_independently_model_reviewed",
+  "reviewed_target_turns": [
+    13,
+    16,
+    20,
+    22,
+    25,
+    29,
+    42,
+    49,
+    60,
+    71,
+    78,
+    81,
+    84,
+    90,
+    93,
+    102,
+    106,
+    110,
+    119,
+    121,
+    124
+  ],
+  "notes": "All supplied target turns were reviewed. Jokes, simple confirmations, incomplete reactions, and broad praise without a sufficiently specific taxonomy concept were omitted.",
+  "receipt_path": "receipts/39-this-pitch-is-damn-near-perfect.json",
+  "scoring_scope": "original_pitch_only",
+  "shared_across_input_modes": true,
+  "rationales": [
+    {
+      "rationale_label": "competitive_intensity_concern",
+      "direction": "negative",
+      "salience": "primary",
+      "confidence": 0.99,
+      "utterance_type": "decision_reason",
+      "decision_link": "explicit",
+      "timing": "original_pitch",
+      "turn_index": 106,
+      "quote": "because it’s so saturated",
+      "explanation": "Nicole explicitly cites the saturated apparel category as a reason she cannot invest immediately.",
+      "evidence": [
+        "because it’s so saturated"
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 106,
+          "speaker": "Nicole",
+          "quote": "because it’s so saturated"
+        }
+      ],
+      "activation": "evaluated",
+      "source_rationale_id": "R14",
+      "utterance_kind": "decision_explanation",
+      "decision_support": "supports_out",
+      "all_mention_ids": [
+        "R14"
+      ]
+    },
+    {
+      "rationale_label": "founder_communication_quality",
+      "direction": "positive",
+      "salience": "secondary",
+      "confidence": 0.97,
+      "utterance_type": "assessment",
+      "decision_link": "none",
+      "timing": "original_pitch",
+      "turn_index": 124,
+      "quote": "I think that was one of my favorite, I think that was my favorite pitch.",
+      "explanation": "Nicole strongly praises Stefan’s pitch performance.",
+      "evidence": [
+        "This guy’s good!",
+        "I think that was one of my favorite, I think that was my favorite pitch."
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 42,
+          "speaker": "Nicole",
+          "quote": "This guy’s good!"
+        },
+        {
+          "turn_index": 124,
+          "speaker": "Nicole",
+          "quote": "I think that was one of my favorite, I think that was my favorite pitch."
+        }
+      ],
+      "activation": "evaluated",
+      "source_rationale_id": "R18",
+      "utterance_kind": "assessment",
+      "decision_support": "none",
+      "all_mention_ids": [
+        "R4",
+        "R18"
+      ]
+    },
+    {
+      "rationale_label": "founder_market_fit",
+      "direction": "positive",
+      "salience": "secondary",
+      "confidence": 0.93,
+      "utterance_type": "assessment",
+      "decision_link": "none",
+      "timing": "original_pitch",
+      "turn_index": 49,
+      "quote": "You need the Vietnam story in there. It gives you so much street cred.",
+      "explanation": "Nicole sees Stefan’s personal travel experience as credibility for the travel-oriented brand.",
+      "evidence": [
+        "You need the Vietnam story in there. It gives you so much street cred."
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 49,
+          "speaker": "Nicole",
+          "quote": "You need the Vietnam story in there. It gives you so much street cred."
+        }
+      ],
+      "activation": "evaluated",
+      "source_rationale_id": "R5",
+      "utterance_kind": "supporting_argument",
+      "decision_support": "none",
+      "all_mention_ids": [
+        "R5"
+      ]
+    },
+    {
+      "rationale_label": "founder_qualities",
+      "direction": "positive",
+      "salience": "secondary",
+      "confidence": 0.97,
+      "utterance_type": "assessment",
+      "decision_link": "none",
+      "timing": "original_pitch",
+      "turn_index": 106,
+      "quote": "I’ve bought into you for sure.",
+      "explanation": "Nicole expresses strong confidence in Stefan personally.",
+      "evidence": [
+        "I’ve bought into you for sure."
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 106,
+          "speaker": "Nicole",
+          "quote": "I’ve bought into you for sure."
+        }
+      ],
+      "activation": "evaluated",
+      "source_rationale_id": "R10",
+      "utterance_kind": "assessment",
+      "decision_support": "none",
+      "all_mention_ids": [
+        "R10"
+      ]
+    },
+    {
+      "rationale_label": "go_to_market_strategy_assessment",
+      "direction": "negative",
+      "salience": "secondary",
+      "confidence": 0.95,
+      "utterance_type": "assessment",
+      "decision_link": "none",
+      "timing": "original_pitch",
+      "turn_index": 78,
+      "quote": "But I don't google lightweight blazer.",
+      "explanation": "Nicole challenges whether the proposed search-based acquisition behavior matches how customers discover such products.",
+      "evidence": [
+        "But I don't google lightweight blazer."
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 78,
+          "speaker": "Nicole",
+          "quote": "But I don't google lightweight blazer."
+        }
+      ],
+      "activation": "evaluated",
+      "source_rationale_id": "R7",
+      "utterance_kind": "concern",
+      "decision_support": "none",
+      "all_mention_ids": [
+        "R7"
+      ]
+    },
+    {
+      "rationale_label": "growth_projection_risk",
+      "direction": "neutral",
+      "salience": "secondary",
+      "confidence": 0.79,
+      "utterance_type": "question",
+      "decision_link": "none",
+      "timing": "original_pitch",
+      "turn_index": 71,
+      "quote": "So it’s more products and then...",
+      "explanation": "Nicole probes what will drive growth beyond expanding the product assortment.",
+      "evidence": [
+        "So it’s more products and then..."
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 71,
+          "speaker": "Nicole",
+          "quote": "So it’s more products and then..."
+        }
+      ],
+      "activation": "queried",
+      "source_rationale_id": "R6",
+      "utterance_kind": "question",
+      "decision_support": "none",
+      "all_mention_ids": [
+        "R6"
+      ]
+    },
+    {
+      "rationale_label": "investment_thesis_constraint",
+      "direction": "negative",
+      "salience": "primary",
+      "confidence": 0.98,
+      "utterance_type": "assessment",
+      "decision_link": "none",
+      "timing": "original_pitch",
+      "turn_index": 93,
+      "quote": "I hate clothes and I hate food when it comes to investments.",
+      "explanation": "Nicole states a strong sector-level aversion to apparel investments.",
+      "evidence": [
+        "I hate clothes and I hate food when it comes to investments."
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 93,
+          "speaker": "Nicole",
+          "quote": "I hate clothes and I hate food when it comes to investments."
+        }
+      ],
+      "activation": "evaluated",
+      "source_rationale_id": "R9",
+      "utterance_kind": "assessment",
+      "decision_support": "none",
+      "all_mention_ids": [
+        "R9"
+      ]
+    },
+    {
+      "rationale_label": "investment_upside_assessment",
+      "direction": "neutral",
+      "salience": "secondary",
+      "confidence": 0.87,
+      "utterance_type": "question",
+      "decision_link": "none",
+      "timing": "original_pitch",
+      "turn_index": 90,
+      "quote": "50 million in revenue you have to get to?",
+      "explanation": "Nicole confirms the revenue scale required for the founder’s projected investor-return scenario.",
+      "evidence": [
+        "50 million in revenue you have to get to?"
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 90,
+          "speaker": "Nicole",
+          "quote": "50 million in revenue you have to get to?"
+        }
+      ],
+      "activation": "queried",
+      "source_rationale_id": "R8",
+      "utterance_kind": "question",
+      "decision_support": "none",
+      "all_mention_ids": [
+        "R8"
+      ]
+    },
+    {
+      "rationale_label": "investor_domain_knowledge_constraint",
+      "direction": "negative",
+      "salience": "primary",
+      "confidence": 0.99,
+      "utterance_type": "decision_reason",
+      "decision_link": "explicit",
+      "timing": "original_pitch",
+      "turn_index": 106,
+      "quote": "because I don’t understand it",
+      "explanation": "Nicole explicitly links her lack of apparel expertise to her inability to commit immediately.",
+      "evidence": [
+        "because I don’t understand it"
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 106,
+          "speaker": "Nicole",
+          "quote": "because I don’t understand it"
+        }
+      ],
+      "activation": "evaluated",
+      "source_rationale_id": "R13",
+      "utterance_kind": "decision_explanation",
+      "decision_support": "supports_out",
+      "all_mention_ids": [
+        "R13"
+      ]
+    },
+    {
+      "rationale_label": "market_problem_validation",
+      "direction": "positive",
+      "salience": "secondary",
+      "confidence": 0.96,
+      "utterance_type": "assessment",
+      "decision_link": "none",
+      "timing": "original_pitch",
+      "turn_index": 121,
+      "quote": "I'm always hanging it on that stupid little nub on the chair in front of me.",
+      "explanation": "Nicole describes her own recurring travel inconvenience, validating the problem addressed by the jacket.",
+      "evidence": [
+        "I actually feel this very personal connection to the problem you’re trying to solve.",
+        "I'm always hanging it on that stupid little nub on the chair in front of me."
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 106,
+          "speaker": "Nicole",
+          "quote": "I actually feel this very personal connection to the problem you’re trying to solve."
+        },
+        {
+          "turn_index": 121,
+          "speaker": "Nicole",
+          "quote": "I'm always hanging it on that stupid little nub on the chair in front of me."
+        }
+      ],
+      "activation": "evaluated",
+      "source_rationale_id": "R17",
+      "utterance_kind": "supporting_argument",
+      "decision_support": "none",
+      "all_mention_ids": [
+        "R11",
+        "R17"
+      ]
+    },
+    {
+      "rationale_label": "product_adoption",
+      "direction": "neutral",
+      "salience": "secondary",
+      "confidence": 0.84,
+      "utterance_type": "assessment",
+      "decision_link": "none",
+      "timing": "original_pitch",
+      "turn_index": 106,
+      "quote": "I want to see them being used.",
+      "explanation": "Nicole wants further evidence of the products being used before reaching an investment conclusion.",
+      "evidence": [
+        "I want to see them being used."
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 106,
+          "speaker": "Nicole",
+          "quote": "I want to see them being used."
+        }
+      ],
+      "activation": "evaluated",
+      "source_rationale_id": "R12",
+      "utterance_kind": "concern",
+      "decision_support": "none",
+      "all_mention_ids": [
+        "R12"
+      ]
+    },
+    {
+      "rationale_label": "product_appeal_assessment",
+      "direction": "positive",
+      "salience": "secondary",
+      "confidence": 0.96,
+      "utterance_type": "assessment",
+      "decision_link": "none",
+      "timing": "original_pitch",
+      "turn_index": 106,
+      "quote": "it feels like a cool catchy brand",
+      "explanation": "Nicole finds the brand appealing and memorable despite her investment reservations.",
+      "evidence": [
+        "It's nice looking.",
+        "it feels like a cool catchy brand",
+        "Jillian, don’t you wish he had women’s jackets right now."
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 29,
+          "speaker": "Nicole",
+          "quote": "It's nice looking."
+        },
+        {
+          "turn_index": 106,
+          "speaker": "Nicole",
+          "quote": "it feels like a cool catchy brand"
+        },
+        {
+          "turn_index": 119,
+          "speaker": "Nicole",
+          "quote": "Jillian, don’t you wish he had women’s jackets right now."
+        }
+      ],
+      "activation": "evaluated",
+      "source_rationale_id": "R15",
+      "utterance_kind": "assessment",
+      "decision_support": "none",
+      "all_mention_ids": [
+        "R3",
+        "R15",
+        "R16"
+      ]
+    },
+    {
+      "rationale_label": "product_differentiation_concern",
+      "direction": "neutral",
+      "salience": "secondary",
+      "confidence": 0.97,
+      "utterance_type": "question",
+      "decision_link": "none",
+      "timing": "original_pitch",
+      "turn_index": 20,
+      "quote": "And what’s the innovation?",
+      "explanation": "Nicole asks what distinguishes the clothing from conventional alternatives.",
+      "evidence": [
+        "And what’s the innovation?"
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 20,
+          "speaker": "Nicole",
+          "quote": "And what’s the innovation?"
+        }
+      ],
+      "activation": "queried",
+      "source_rationale_id": "R2",
+      "utterance_kind": "question",
+      "decision_support": "none",
+      "all_mention_ids": [
+        "R2"
+      ]
+    },
+    {
+      "rationale_label": "solution_feasibility_assessment",
+      "direction": "neutral",
+      "salience": "secondary",
+      "confidence": 0.82,
+      "utterance_type": "question",
+      "decision_link": "none",
+      "timing": "original_pitch",
+      "turn_index": 16,
+      "quote": "How does it work?",
+      "explanation": "Nicole asks how the product functions, seeking basic evidence about the proposed solution.",
+      "evidence": [
+        "How does it work?"
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 16,
+          "speaker": "Nicole",
+          "quote": "How does it work?"
+        }
+      ],
+      "activation": "queried",
+      "source_rationale_id": "R1",
+      "utterance_kind": "question",
+      "decision_support": "none",
+      "all_mention_ids": [
+        "R1"
+      ]
+    }
+  ],
+  "later_rationales": [],
+  "excluded_rationales": [],
+  "rationale_mentions": [
+    {
+      "rationale_label": "solution_feasibility_assessment",
+      "direction": "neutral",
+      "salience": "secondary",
+      "confidence": 0.82,
+      "utterance_type": "question",
+      "decision_link": "none",
+      "timing": "original_pitch",
+      "turn_index": 16,
+      "quote": "How does it work?",
+      "explanation": "Nicole asks how the product functions, seeking basic evidence about the proposed solution.",
+      "evidence": [
+        "How does it work?"
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 16,
+          "speaker": "Nicole",
+          "quote": "How does it work?"
+        }
+      ],
+      "activation": "queried",
+      "source_rationale_id": "R1"
+    },
+    {
+      "rationale_label": "product_differentiation_concern",
+      "direction": "neutral",
+      "salience": "secondary",
+      "confidence": 0.97,
+      "utterance_type": "question",
+      "decision_link": "none",
+      "timing": "original_pitch",
+      "turn_index": 20,
+      "quote": "And what’s the innovation?",
+      "explanation": "Nicole asks what distinguishes the clothing from conventional alternatives.",
+      "evidence": [
+        "And what’s the innovation?"
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 20,
+          "speaker": "Nicole",
+          "quote": "And what’s the innovation?"
+        }
+      ],
+      "activation": "queried",
+      "source_rationale_id": "R2"
+    },
+    {
+      "rationale_label": "product_appeal_assessment",
+      "direction": "positive",
+      "salience": "secondary",
+      "confidence": 0.98,
+      "utterance_type": "assessment",
+      "decision_link": "none",
+      "timing": "original_pitch",
+      "turn_index": 29,
+      "quote": "It's nice looking.",
+      "explanation": "Nicole positively assesses the jacket’s appearance.",
+      "evidence": [
+        "It's nice looking."
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 29,
+          "speaker": "Nicole",
+          "quote": "It's nice looking."
+        }
+      ],
+      "activation": "evaluated",
+      "source_rationale_id": "R3"
+    },
+    {
+      "rationale_label": "founder_communication_quality",
+      "direction": "positive",
+      "salience": "secondary",
+      "confidence": 0.88,
+      "utterance_type": "assessment",
+      "decision_link": "none",
+      "timing": "original_pitch",
+      "turn_index": 42,
+      "quote": "This guy’s good!",
+      "explanation": "Nicole positively reacts to Stefan’s skillful handling of the pitch discussion.",
+      "evidence": [
+        "This guy’s good!"
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 42,
+          "speaker": "Nicole",
+          "quote": "This guy’s good!"
+        }
+      ],
+      "activation": "evaluated",
+      "source_rationale_id": "R4"
+    },
+    {
+      "rationale_label": "founder_market_fit",
+      "direction": "positive",
+      "salience": "secondary",
+      "confidence": 0.93,
+      "utterance_type": "supporting_argument",
+      "decision_link": "none",
+      "timing": "original_pitch",
+      "turn_index": 49,
+      "quote": "You need the Vietnam story in there. It gives you so much street cred.",
+      "explanation": "Nicole sees Stefan’s personal travel experience as credibility for the travel-oriented brand.",
+      "evidence": [
+        "You need the Vietnam story in there. It gives you so much street cred."
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 49,
+          "speaker": "Nicole",
+          "quote": "You need the Vietnam story in there. It gives you so much street cred."
+        }
+      ],
+      "activation": "evaluated",
+      "source_rationale_id": "R5"
+    },
+    {
+      "rationale_label": "growth_projection_risk",
+      "direction": "neutral",
+      "salience": "secondary",
+      "confidence": 0.79,
+      "utterance_type": "question",
+      "decision_link": "none",
+      "timing": "original_pitch",
+      "turn_index": 71,
+      "quote": "So it’s more products and then...",
+      "explanation": "Nicole probes what will drive growth beyond expanding the product assortment.",
+      "evidence": [
+        "So it’s more products and then..."
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 71,
+          "speaker": "Nicole",
+          "quote": "So it’s more products and then..."
+        }
+      ],
+      "activation": "queried",
+      "source_rationale_id": "R6"
+    },
+    {
+      "rationale_label": "go_to_market_strategy_assessment",
+      "direction": "negative",
+      "salience": "secondary",
+      "confidence": 0.95,
+      "utterance_type": "concern",
+      "decision_link": "none",
+      "timing": "original_pitch",
+      "turn_index": 78,
+      "quote": "But I don't google lightweight blazer.",
+      "explanation": "Nicole challenges whether the proposed search-based acquisition behavior matches how customers discover such products.",
+      "evidence": [
+        "But I don't google lightweight blazer."
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 78,
+          "speaker": "Nicole",
+          "quote": "But I don't google lightweight blazer."
+        }
+      ],
+      "activation": "evaluated",
+      "source_rationale_id": "R7"
+    },
+    {
+      "rationale_label": "investment_upside_assessment",
+      "direction": "neutral",
+      "salience": "secondary",
+      "confidence": 0.87,
+      "utterance_type": "question",
+      "decision_link": "none",
+      "timing": "original_pitch",
+      "turn_index": 90,
+      "quote": "50 million in revenue you have to get to?",
+      "explanation": "Nicole confirms the revenue scale required for the founder’s projected investor-return scenario.",
+      "evidence": [
+        "50 million in revenue you have to get to?"
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 90,
+          "speaker": "Nicole",
+          "quote": "50 million in revenue you have to get to?"
+        }
+      ],
+      "activation": "queried",
+      "source_rationale_id": "R8"
+    },
+    {
+      "rationale_label": "investment_thesis_constraint",
+      "direction": "negative",
+      "salience": "primary",
+      "confidence": 0.98,
+      "utterance_type": "assessment",
+      "decision_link": "none",
+      "timing": "original_pitch",
+      "turn_index": 93,
+      "quote": "I hate clothes and I hate food when it comes to investments.",
+      "explanation": "Nicole states a strong sector-level aversion to apparel investments.",
+      "evidence": [
+        "I hate clothes and I hate food when it comes to investments."
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 93,
+          "speaker": "Nicole",
+          "quote": "I hate clothes and I hate food when it comes to investments."
+        }
+      ],
+      "activation": "evaluated",
+      "source_rationale_id": "R9"
+    },
+    {
+      "rationale_label": "founder_qualities",
+      "direction": "positive",
+      "salience": "secondary",
+      "confidence": 0.97,
+      "utterance_type": "assessment",
+      "decision_link": "none",
+      "timing": "original_pitch",
+      "turn_index": 106,
+      "quote": "I’ve bought into you for sure.",
+      "explanation": "Nicole expresses strong confidence in Stefan personally.",
+      "evidence": [
+        "I’ve bought into you for sure."
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 106,
+          "speaker": "Nicole",
+          "quote": "I’ve bought into you for sure."
+        }
+      ],
+      "activation": "evaluated",
+      "source_rationale_id": "R10"
+    },
+    {
+      "rationale_label": "market_problem_validation",
+      "direction": "positive",
+      "salience": "secondary",
+      "confidence": 0.96,
+      "utterance_type": "supporting_argument",
+      "decision_link": "none",
+      "timing": "original_pitch",
+      "turn_index": 106,
+      "quote": "I actually feel this very personal connection to the problem you’re trying to solve.",
+      "explanation": "Nicole’s personal identification with the problem supports its relevance and importance.",
+      "evidence": [
+        "I actually feel this very personal connection to the problem you’re trying to solve."
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 106,
+          "speaker": "Nicole",
+          "quote": "I actually feel this very personal connection to the problem you’re trying to solve."
+        }
+      ],
+      "activation": "evaluated",
+      "source_rationale_id": "R11"
+    },
+    {
+      "rationale_label": "product_adoption",
+      "direction": "neutral",
+      "salience": "secondary",
+      "confidence": 0.84,
+      "utterance_type": "concern",
+      "decision_link": "none",
+      "timing": "original_pitch",
+      "turn_index": 106,
+      "quote": "I want to see them being used.",
+      "explanation": "Nicole wants further evidence of the products being used before reaching an investment conclusion.",
+      "evidence": [
+        "I want to see them being used."
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 106,
+          "speaker": "Nicole",
+          "quote": "I want to see them being used."
+        }
+      ],
+      "activation": "evaluated",
+      "source_rationale_id": "R12"
+    },
+    {
+      "rationale_label": "investor_domain_knowledge_constraint",
+      "direction": "negative",
+      "salience": "primary",
+      "confidence": 0.99,
+      "utterance_type": "decision_explanation",
+      "decision_link": "supports_out",
+      "timing": "original_pitch",
+      "turn_index": 106,
+      "quote": "because I don’t understand it",
+      "explanation": "Nicole explicitly links her lack of apparel expertise to her inability to commit immediately.",
+      "evidence": [
+        "because I don’t understand it"
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 106,
+          "speaker": "Nicole",
+          "quote": "because I don’t understand it"
+        }
+      ],
+      "activation": "evaluated",
+      "source_rationale_id": "R13"
+    },
+    {
+      "rationale_label": "competitive_intensity_concern",
+      "direction": "negative",
+      "salience": "primary",
+      "confidence": 0.99,
+      "utterance_type": "decision_explanation",
+      "decision_link": "supports_out",
+      "timing": "original_pitch",
+      "turn_index": 106,
+      "quote": "because it’s so saturated",
+      "explanation": "Nicole explicitly cites the saturated apparel category as a reason she cannot invest immediately.",
+      "evidence": [
+        "because it’s so saturated"
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 106,
+          "speaker": "Nicole",
+          "quote": "because it’s so saturated"
+        }
+      ],
+      "activation": "evaluated",
+      "source_rationale_id": "R14"
+    },
+    {
+      "rationale_label": "product_appeal_assessment",
+      "direction": "positive",
+      "salience": "secondary",
+      "confidence": 0.96,
+      "utterance_type": "assessment",
+      "decision_link": "none",
+      "timing": "original_pitch",
+      "turn_index": 106,
+      "quote": "it feels like a cool catchy brand",
+      "explanation": "Nicole finds the brand appealing and memorable despite her investment reservations.",
+      "evidence": [
+        "it feels like a cool catchy brand"
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 106,
+          "speaker": "Nicole",
+          "quote": "it feels like a cool catchy brand"
+        }
+      ],
+      "activation": "evaluated",
+      "source_rationale_id": "R15"
+    },
+    {
+      "rationale_label": "product_appeal_assessment",
+      "direction": "positive",
+      "salience": "secondary",
+      "confidence": 0.91,
+      "utterance_type": "question",
+      "decision_link": "none",
+      "timing": "original_pitch",
+      "turn_index": 119,
+      "quote": "Jillian, don’t you wish he had women’s jackets right now.",
+      "explanation": "Nicole expresses immediate interest in a women’s version of the product.",
+      "evidence": [
+        "Jillian, don’t you wish he had women’s jackets right now."
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 119,
+          "speaker": "Nicole",
+          "quote": "Jillian, don’t you wish he had women’s jackets right now."
+        }
+      ],
+      "activation": "queried",
+      "source_rationale_id": "R16"
+    },
+    {
+      "rationale_label": "market_problem_validation",
+      "direction": "positive",
+      "salience": "secondary",
+      "confidence": 0.96,
+      "utterance_type": "supporting_argument",
+      "decision_link": "none",
+      "timing": "original_pitch",
+      "turn_index": 121,
+      "quote": "I'm always hanging it on that stupid little nub on the chair in front of me.",
+      "explanation": "Nicole describes her own recurring travel inconvenience, validating the problem addressed by the jacket.",
+      "evidence": [
+        "I'm always hanging it on that stupid little nub on the chair in front of me."
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 121,
+          "speaker": "Nicole",
+          "quote": "I'm always hanging it on that stupid little nub on the chair in front of me."
+        }
+      ],
+      "activation": "evaluated",
+      "source_rationale_id": "R17"
+    },
+    {
+      "rationale_label": "founder_communication_quality",
+      "direction": "positive",
+      "salience": "secondary",
+      "confidence": 0.97,
+      "utterance_type": "assessment",
+      "decision_link": "none",
+      "timing": "original_pitch",
+      "turn_index": 124,
+      "quote": "I think that was one of my favorite, I think that was my favorite pitch.",
+      "explanation": "Nicole strongly praises Stefan’s pitch performance.",
+      "evidence": [
+        "I think that was one of my favorite, I think that was my favorite pitch."
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 124,
+          "speaker": "Nicole",
+          "quote": "I think that was one of my favorite, I think that was my favorite pitch."
+        }
+      ],
+      "activation": "evaluated",
+      "source_rationale_id": "R18"
+    }
+  ],
+  "expanded_quote_evidence": [],
+  "rejected_after_evidence_check": []
+}

@@ -535,49 +535,36 @@ def test_cli_requires_arguments_and_accepts_repeatable_aliases(
 
 
 def test_audited_charles_corpus_is_complete_exact_and_self_contained() -> None:
-    ledger_path = ROOT / "evaluation/labels/charles_pitch_window_decisions.json"
-    corpus_root = (
-        ROOT
-        / "inputs/data/investors/charles-hudson-precursor-ventures/precedents"
-    )
-    ledger = json.loads(ledger_path.read_text(encoding="utf-8"))
-    manifest = json.loads(
-        (corpus_root / "corpus-manifest.json").read_text(encoding="utf-8")
-    )
-
-    assert len(ledger) == len(manifest["records"]) == 113
-    assert {
-        status: sum(row["pitch_window_decision"] == status for row in ledger)
-        for status in ("In", "Out", "Unobserved")
-    } == {"In": 19, "Out": 67, "Unobserved": 27}
-    assert sum(
-        1
-        for line in (corpus_root / "chunks.jsonl").read_text().splitlines()
-        if line
-    ) == 2515
-
+    corpus_root = ROOT / "inputs/data/investors/charles-hudson-precursor-ventures/precedents"
+    manifest = json.loads((corpus_root / "corpus-manifest.json").read_text())
+    # The installed corpus is a verified dialogue subset, not the old raw ledger.
+    assert manifest["records"]
     validated_files = validate_precedent_corpus(corpus_root)
-    assert len(validated_files) == 228
+    assert len(validated_files) == 2 + 2 * len(manifest["records"])
     corpus = PrecedentCorpus.build(corpus_root)
-    assert len(corpus.list_episodes()) == 113
+    assert len(corpus.list_episodes()) == len(manifest["records"])
     records = {
         summary.episode_slug: json.loads(
             (corpus_root / f"records/{summary.episode_slug}.json").read_text()
         )
         for summary in corpus.list_episodes()
     }
-
-    for slug in (
-        "41-can-this-startup-help-retailers-take-on-amazon",
-        "127-nectir-the-classroom-of-the-future",
-    ):
-        assert records[slug]["decision"]["status"] == "In"
-        assert records[slug]["decision"]["conditions"] == [
-            "portfolio de-confliction"
-        ]
-    nectir = records["127-nectir-the-classroom-of-the-future"]
-    assert "50 to 100k" in nectir["decision"]["evidence"][0]["text"]
-    assert records["gnara-disrupting-your-pants"]["episode_number"] is None
+    for slug, record in records.items():
+        review = json.loads((ROOT / "evaluation/pitchshow/reviews" / f"{slug}.json").read_text())
+        annotation = next(a for a in review["annotations"]
+                          if a["vc_slug"] == "charles-hudson-precursor-ventures")
+        assert record["decision"]["status"].casefold() == annotation["pitch_window_decision"].casefold()
+        if record["decision"]["status"] != "unobserved":
+            if 'pitch_evidence_verified' in annotation:
+                assert annotation['pitch_evidence_verified'] is True
+            else:
+                verdict = next(v for v in review['verification']['decisions']
+                               if v['vc_slug'] == 'charles-hudson-precursor-ventures')
+                assert verdict['pitch_decision_supported'] is True
+                assert verdict['pitch_evidence'] == annotation['pitch_evidence']
+        source = json.loads((corpus_root / record["source_path"]).read_text())
+        assert set(source) == {"slug", "transcript"}
+        assert [turn.model_dump() for turn in parse_speaker_turns(source["transcript"])] == record["turns"]
 
     for record in records.values():
         source = corpus_root / record["source_path"]

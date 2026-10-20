@@ -1,0 +1,335 @@
+Rich: Day 3 pitch 6
+The cloud. It’s practically magic! Servers in the sky! Does anyone actually know what it is? No.
+But if the cloud goes down, you
+notice
+. In fact, it’s major news.
+News clips: Netflix users had some trouble viewing shows this weekend, the website apparently was down for several hours last night. Slack went down all across the world today. Facebook and Instagram service is being restored across the country
+Who’s frantically running around to patch things up when the cloud goes down? It’s people! People called SRE’s - site reliability engineers.
+Today’s twin founders Nilo & Jen want to use AI to automate site reliability. Which might sound pretty niche. But it’s not. Cloud monitoring companies like Data Dog, New Relic, and Splunk are all worth billions.
+It’s the type of thing VCs love. Can these sisters bring AI to the cloud? Or will one of the big dogs steal their thunder?
+I’m Josh Muccio, welcome to The Pitch. Where real founders pitch real investors for real money. Let’s meet the investors.
+Charles Hudson with Precursor Ventures
+Charles:I wish that had been your open. That was so good.
+Elizabeth Yin with HustleFund
+Elizabeth: Do you love the problem you're working on?
+Paige Finn Doherty with Behind Genius Ventures
+Paige: Actually I gained so much respect for her when she said that she did that.
+And Cyan Banister with Long Journey Ventures
+Cyan:That is the definition of a dope founder.
+The Pitch for Thoras AI is coming up after the break. And if you’re not following the show already, subscribe to The Pitch on the Castro podcast app. Remember when podcast apps were simple and they just worked? Yeah, Castro is bringing that back. Also, the owner of Castro is a pitch listener! What’s up Dustin!
+Anyway. You can also find the uncut version of this pitch at patreon.com/thepitch
+[break]
+Nilo: Hi.
+Paige: Hi.
+Nilo: Hey you guys.
+Charles: Hello.
+[hellos and intros]
+Nilo: Hi. I'm Nilo Rahmani, CEO and cofounder of Thoras AI.
+Jen: And I'm Jen Rahmani, COO and cofounder of Thoras AI.
+Nilo: We're here today to talk to you about the importance of reliability. Now, we've all seen that dreaded webpage that apologizes for an outage. It looks something like, "sorry, we're currently experiencing issues. Please try again later." And that's very frustrating for both customers and the businesses. So who gets called when that problem arises?
+Jen: We do. Dev ops and site reliability engineers have a ton of responsibilities. We deploy cloud resources based on how we perceive demand to avoid the apology webpage. We also - we also -
+Nilo: We have to also work on ensuring that we keep cloud costs at a minimum, and we have to do this kind of based on our tuition.
+Jen: We also need to make sure we optimize on speed and performance.
+Nilo: And the problem is, we can't predict the future. So enter Thoras AI. We provide an AI-driven utility that forecasts cloud consumption and scales infrastructure in real time. This empowers enterprises to be able to be efficient and reliable in terms of when there's high demand, and so that they're preventing outages and performance issues as well. This also kind of doubles as a cost optimization platform. Our studies have shown that we can increase reliability and efficiency by up to 50% for a cloud-based system while decreasing cloud costs by up to 50% as well. And so currently we have five design partnerships and we have a very large and fast growing customer pipeline as well.
+Jen: We're raising a million dollars to tackle diverse cloud workloads and position Thoras AI to rapidly attack - rapidly scale the market.
+Elizabeth: Cool. Thank you.
+Charles: Are your clients using like Datadog, New Relic - like, is this like a replacement for kind of Gen 1 network performance management systems? Just - how does this fit into the stack of tech products that -
+Nilo: That's a great question. So when you're paying for something like Datadog, I like to say you're just paying for your insights and graphs. And people pay a lot of money for that.
+Charles: A lot.
+Elizabeth: Yeah.
+Nilo: We want to reinvent that. You know, since we're gonna be grabbing utilization metrics, we - we give them these dashboards, these insights anyway, so they can stop paying for them. We also act as that proactive anomaly detection, so not only are we going to give you recommendations, eventually, we want to get to a point where they trust us to kind of autonomously scale. So if you think about like two in the morning, you're not really having a lot of usage. What we can do is bring down your servers or your - any services, not just servers - in the cloud to a minimum, so that you're sort of allocating your resources properly.
+Paige: Can you talk a little bit more about your design partnerships? Like what do - what form does that take and how did you meet those companies?
+Jen: Sure. So a lot of them has been from cold outreach. We just reached out to a lot of these customers and kind of explained the problem, and a lot of them were very interested. We have been playing around with different industries: streaming, ecommerce, trying to make sure that we're building a product that is able to address all of these industries, and we're going through a three-month pilot with them.
+Paige: Okay. And how - is it a paid pilot?
+Jen: They're paid pilots. They range between 500 and $1500.
+Elizabeth: Flat fee?
+Jen: Per month.
+Elizabeth: Oh, per month.
+Charles: Can you talk more about - I mean, SRE is a - I had the pleasure of sitting next to some SREs at a job for a while and I could never do what they do. Can you talk a little bit more about your backgrounds and like familiarity with the problem?
+Jen: Sure. I can start. So my background has been in the federal space. um I most recently deployed mission critical AI applications on the cloud. And so this is kind of where I dealt with this unpredictability reliability problem, right. And I'll let Nilo talk about her problem -
+Nilo: So I worked as a site reliability engineer. I've worked at a local cybersecurity startup in Northern Virginia, which went unicorn. And I also worked at Slack. And so when you have that many users, it really does teach you about scalability and building for resiliency. I also went back to do my masters at Georgia Tech, where I focused on interactive intelligence kind of before AI blew up. And I remember, that was kind of my aha moment. The same principles apply to server utilization. And when I would kind of present this, before, everyone was like, no, it can never do what a human can do. So I think now, there's a timing aspect to this, right. Customers and enterprises really are more inclined than ever to be able to transform workloads using AI. Now everyone's kind of racing to use AI.
+Charles: I - I wish that had been your open. That was so good.
+Nilo: Oh.
+Charles: That was like so good. I was like, oh, Slack, federal government. She's been an SRE. Like, total credibility establisher.
+Nilo: I mean, we've been engineers the last ten years. Like, the storytelling piece is something you just have to learn.
+Charles: Yeah.
+Nilo: I'm still learning as a founder.
+Charles: I think hearing that, it puts you in the position, in my mind, of like these people are experts. They're authority - like, they've experienced these problems firsthand, and I think the sooner you can get that out in your story, pitch the -
+Elizabeth: The better.
+Charles: It slows my heart rate down.
+Elizabeth: Especially for something like this.
+Charles: Yeah.
+Elizabeth: Where are you with the product right now?
+Nilo: We initially started, like every founder, building the product that we thought everybody needed. And so we very quickly decided to kind of put the customers first. So we started seeking out, essentially, different customers in different industries because the cloud industry, as you know, is so vast, and this is something that really could affect everyone. So up until this point, we have been sort of running this kind of with our own synthetic data. We're now getting to the point with these pilots where we're gonna be integrating into a customer's environment and working very closely with them to tailor it for their needs.
+Elizabeth: Mhm.
+Charles: Is it mostly about uptime? Because you - I feel like you've mentioned a couple of things. One is sort of uptime reliability. The other one is sort of the cost savings of like not using a bunch of instances when you don't have the traffic. Like, for your customers, is there a balance? Do they sort of skew one way or the other? Like how you do think about just the - the value prop that's most important in the product?
+Nilo: Yeah. Um, I think years ago, reliability was always the priority. It was always more important to make sure you can make money than save money. But then, you know, we're kind of seeing trends where, you know, these big companies are trying to cut costs all the time. So it's really just trying to find that balance. And I think that's the big value proposition, is that we've landed on the technology that acts as that double-edged sword that not only right-sizes your environment so you're reliable, but then you're not spending more than what you actually need.
+Cyan: Have you raised any money to date?
+Nilo: We have soft commits for about 800,000 of the million. And so we're going through diligence with the lead investor who's offered to lead the round, and then we are also working with angel investors and a small family office.
+Elizabeth: Sorry, the lead is included in the 800k?
+Jen: Mhm.
+Elizabeth: Oh. Okay.
+Nilo: Yep.
+Elizabeth: Can you share terms on the round?
+Nilo: So it's one on a $6 million post money val cap.
+Cyan: How big is the team?
+Jen: It's just us. Well, we have a team of three.
+Cyan: Okay.
+Jen: We're looking to hire an additional machine learning engineer as well.
+Nilo: Yeah. And we have us and a founding engineer.
+Charles: What do you think's the important thing to validate or solve in the context of the million?
+Nilo: I think, the question is can the machine learning based-scaling outperform the human approach. To me, it's so obvious. And then we've done our own studies on this. But the number one question is well, have you been able to do it for a customer?
+Charles: Yeah.
+Nilo: So I think what we're really excited about this quarter is getting into the customers' environments and validating that approach.
+Elizabeth: And maybe I'm - I'm just naive, but I guess I would imagine your model would way outperform like in the weird hours of the night?
+Nilo: A hundred percent. And that's why it's always so interesting when people are like, well, can you trust the model? um To me, I feel that there is so much less trust with the engineer, right. There's so many factors of like, did they look at the right metrics to make that decision, are they having a bad day? Models usually don't have a bad day.
+Jen: And your models can't quit and put in their two weeks' notice.
+Nilo: Yeah. Yeah. And that's another thing, right. Like, the average turnover for engineers like us is one to two years. We experience a lot of burnout, you know, we have this on call rotation where I've been doing it for years whether it's Christmas, like, weekends, if you get paged, you're the one that goes online to try to figure out the issue. A lot of times, you know, there's ways to make it work. But it's not - it's not the most optimal way to just rely on the humans.
+Those darn humans. All that sleeping and eating. It’s definitely suboptimal.
+Juuust kidding. I actually like this use case for AI. Let those SRE’s sleep in peace!
+When we come back, it’s time to visit the pricing page.
+[break]
+Welcome back. Besides a little stumble up top, Nilo and Jen’s pitch seems to be going well. And Charles Hudson, known for doing more thinking than talking on our show, is quite chatty. Which I’m sure has everything to do with Thoras AI, and nothing to do with the tequila shots… we took just before the pitch.
+Charles: Can you talk a little bit about like what you think the price point will be for the product? And sort of who I should think of as the ideal customer.
+Nilo: So I think, with these pilots, we'll have a better idea on what metrics to take into consideration. There are so many different value propositions. The site reliability engineer is one of the most expensive engineers. We're not saying we're replacing them, but you have sort of better resource allocation when they can actually innovate for your company and not fight fires all the time -
+Charles: Yeah.
+Nilo: - which is what it felt like we did for years. And so there's that value add. There's the value add of bringing down cloud costs. And then reliability. Downtime - in just the industrial industries, Siemens came out with a report last year that it cost up to 11 trillion. And that's just - like, think of your manufacturing power companies, right. So all of those value propositions is something we're gonna have to continue to explore to understand what we can offer at the market. So what I envision it to be is two different levels based on the size of the company.
+Charles: Okay.
+Nilo: But we want to do like a standard enterprise software fee.
+Charles: Okay.
+Elizabeth: I guess maybe flipped around, just based on the five design pilots you have, maybe you could talk a little bit more about what kinds of companies, what are their sizes? Why are they using this? That kind of thing.
+Nilo: So initially we started targeting enterprises. We realized that the barrier to entry was higher. They have less of an appetite for experimentation. They're like, who are you? You're here to build something? [laughs] But when it comes to finding the folks that will build it with us, series A seems to be the sweet spot. And this is pretty much applicable in every industry. So we have pilots with an ecommerce platform, edtech, a private data center. And it's all these cool different opportunities we're finding within different sectors and industries.
+Elizabeth: Mhm.
+Charles: What are you all looking for out of the investors that you bring on board?
+Nilo: So like we mentioned, we're engineers. That's what we've been doing for the past ten years. And so when - we've learned a lot through this experience. I call it like a MBA boot camp. But I think what we want the most is, perspective and maybe if someone's like, hey, did you think about this? Have you considered this industry, have you reached out to this enterprise? Just some guidance on the organizational side and kind of how to quickly and rapidly capture the market as fast as we can
+Charles: How have you two divided up your own responsibilities in the company?
+Jen: I have been mostly in the engineering side, as you can tell.
+[laughter]
+Jen: But -
+Charles: I didn’t want to make any assumptions!
+Jen: - I'm getting more involved in the pitching as well. Also, I've been focusing a lot on getting a lot of the customers. That is one of my favorite things to do, put my engineering hat and really get into those learning and discovery conversations and figure out how best we can build a solution that addresses their needs.
+Elizabeth: And by the way, sorry, not to interrupt, but there have been multiple people who have sat there and have just like gone totally blank. So, it's like very normal.
+Charles: Yeah.
+Nilo: Yeah. I usually do all the pitching. But yeah, so I think for me, all of it. I try to work more on the investor side, and then we both also work on the technology as well.
+Cyan: How do you solve disputes?
+Jen: Well, we're twins, so.
+Cyan: I was wondering, but I didn't want to presume!
+[laughter]
+Jen: We have really good communication.
+Cyan: I figured. Yeah.
+Jen: And we have different strengths and weaknesses, so we kind of know how to play on that. So naturally, when we come across these disputes, we're pretty good at resolving them.
+Nilo: We put a sister agreement together at the beginning of this, because we wanted it to not ruin our sister relationship.
+Elizabeth: That's great.
+Charles: That's important.
+Elizabeth: That's really important.
+Nilo: Yeah. So it's - I think I couldn't do this with anyone else, personally.
+Jen: Same.
+Cyan: How do you spell Thoras?
+Nilo: T-h-o-r-a-s. So -
+Cyan: What does it mean?
+Nilo: Yeah. So Thoras means thunder -
+Jen: In Scandinavian.
+Nilo: Yeah. And the reason why we picked that is we're really big on branding for developer enthusiasm, right. You can build a really cool product, but if developers don't want to use it, it's out of there. So while you're selling to the executive buyer, it's important to brand for them. So because we're doing forecasting, we're using the like weather forecasting metaphor. We want to make like a very fun, playful platform that they can consistently interact with.
+Elizabeth: What do you think your burn rate will go up to after this round?
+Nilo: We are trying to figure out a way if we can kind of not pay ourselves continuously. At first, we were only raising half a million, but then we kind of got overcommitted. And so we want to raise the full million just to have the two years of runway. So, we - we estimate that like this next month it will start to be around 20k. It could go up once we get to a point where we feel like, okay, we should start paying ourselves.
+Cyan: Why aren't you going to pay yourself?
+Nilo: I think, to be honest, with the current fundraising environment, we want to ensure we're as lean as possible while we validate the problem.
+Elizabeth: Hm
+Charles: I generally am a fan of founders paying themselves. I find that like when people don't pay themselves, the external money issues sometimes creep into like company decision making in a way that's suboptimal, so I generally - I also think it's the goal - the startup should be able to support you financially, and so having a burn rate that actually reflects like, what do we need to clear -
+Nilo: Yep.
+Charles: - to have it. So that's - for what it's worth, I generally prefer founders pay themselves, so we have an accurate picture of -
+Elizabeth: Yeah.
+Charles: - what it really costs to run the business.
+Cyan: Even if it's like the minimum amount.
+Charles: Yeah.
+Elizabeth: Yeah.
+Cyan: Yeah.
+Nilo: That makes sense.
+Elizabeth: Mhm. I think you all are very impressive and I like actually - it's funny, you keep on saying over and over you're engineers, but you know, I guess like the stereotypical archetype of an engineer like is very focused on product and doesn't think about customers, but I love actually how you've gotten five design partners to work with and make sure that you're hitting their needs in a solution. If you would have me on this seemingly oversubscribed round, I would be in on these terms for 50k.
+Nilo: Awesome. Thank you so much.
+Jen: Thank you.
+Charles: Same here. I appreciate that you've been pretty honest about like where you are on the commercial side. I actually would really like to know what this product could command, but I know what people already pay for this, so while I didn't get what I thought was a clear answer on pricing, I know what the status quo is for products in this category, and there are multiple multi-billion dollar public companies in this space, and um I think it'd be really interesting to go on this journey with you at the same level that Elizabeth mentioned.
+Jen: Thank you.
+Nilo: That's exciting. Yeah. I'm always intentionally vague with pricing.
+Charles: I noticed. Yeah no. I noticed.
+[laughter]
+Nilo: You know, it's like, it's so difficult. You have ideas in your head, but I think it's a discovery kind of evolving process at this point.
+Paige: I really enjoyed your presentation. I'm an engineer, but I have less experience with the SRE side, and as I was listening to your presentation I was really impressed by both of you as founders. This space isn't one I've spent a ton of time in and I don't think I'm the best fit as an investor based on that. But I really enjoyed your pitch and it's cool. I think, like, most of us are engineers then?
+Charles: No, not me. Definitely not me.
+Nilo: Oh wow. You asked such good technical questions, I was like, he must be an SRE!
+Charles: I've worked with a lot - I've worked with -
+Cyan: He's worked with many tech companies.
+Nilo: Okay.
+Charles: Yeah.
+Paige: But I really appreciate your pitch I just don't think I could like add the value that I want to. yeah
+Nilo: Okay. We appreciate that. Appreciate your consideration.
+Cyan: So I'm gonna throw in as well. I'm interested. I am a former SRE before the cloud. So I used to have to hand build Unix servers and do site reliability and then the cloud sort of displaced me, but I know what it's like to be paged in the middle of dinner and , if we can get rid of that I can't believe it's still a problem.
+Elizabeth: Yeah.
+Cyan: That's part of what I'm kind of shocked by. I'm like, wait, people are still being woken up at night?
+Charles: Yeah.
+Cyan: To scale servers? What?
+Elizabeth: Yeah.
+Cyan: So yeah. I'm in.
+Nilo: Wow. And you're -
+Cyan: For 50k as well.
+Nilo: - former SRE. That's amazing.
+Cyan: Yes.
+Cyan: I also love investing in siblings.
+Charles: Yeah. Same.
+Cyan: I have never gone wrong there, and I just really love the dynamic between siblings. I didn't want to presume. I was like, you look similar, you have the same last name.
+Nilo: Last name. Yeah.
+Cyan: But I'm not gonna assume that you're twins. But I think that gives you kind of an interesting psychic ability with each other that is pretty profound in every founder twin pairing I've ever seen or sibling pairing. It's something that no one can compete with.
+Nilo: Yeah. Exactly. We think we're a force together.
+Jen: Absolutely.
+Cyan: So I think you only have 50k left to raise.
+[laughter]
+Nilo: Well, uh -
+Elizabeth: - behind you.
+Cyan: Oh, behind you.
+Nilo: Here we go.
+Elizabeth: All right. You're done.
+Nilo: Finished the round.
+Cyan: There you go. So I think you finished your round.
+Nilo: That's so exciting. This is awesome.
+Paige: Perfect.
+Nilo: Thank you, so much.
+Elizabeth: Great.
+Nilo: Wow, this is so exciting.
+Charles: Thank you both so much.
+[more thank yous]
+Charles: I feel like the end of the day -
+Cyan: That's addictive.
+Charles: I think the end of the day - it cuts - it cuts both ways. Some days I feel like, I'm like, oh this poor person's going last. We're like, done.
+Elizabeth: Well, we ended well.
+Charles: And today we ended well.
+Paige: We ended well.
+Josh: It's the tequila effect.
+Elizabeth: We just feel so happy to invest. Like, woo!
+Josh: I have noticed that you talk a lot more after a shot, Charles.
+Charles: That's generally true in life. That's generally true in life.
+Elizabeth: Or if you want a check from Charles, give him a shot first.
+Charles: That's right. it will not decrease your odds.
+Josh: Okay. So excellent cofounders with the twin effect. Deep industry background. But then why are you not worried about competition here?
+Cyan: I just think that when you've got two people like what we just saw who are incredibly dedicated. I get the feeling, I don't know them, but that this is what they do night and day. If you get woken up in the middle of the night, like they do, and you want to solve this problem, they're heavily motivated to solve it. And, I just - I was really impressed with them. So yes, there could be competition out there, but, are they like them? Are they twins? Do they have those psychic abilities? You know, I don't know if you noticed, but when she stopped talking, the sister just -
+[crosstalk]
+Charles: Jumped -
+Josh: Jumped right in.
+[crosstalk]
+Charles: She's like, I got you.
+Cyan: And that's the kind of cofounder you want, when they see that, and they just pick it up.
+Charles: Yeah.
+Cyan: That's the pairing that you're looking for, when you're looking for cofounders.
+Elizabeth: Yeah, this is going to be a competitive space. But like, if there is any team that I feel is, you know, knows a lot about it, that pair is a real -
+Cyan: Well, also, they can sell under federal. They have federal experience. That's hard, is - if you've got any experience selling into government, it's difficult. The fact that she has experience working there, working at Slack, They both are writing code, which I think is incredible. They probably will have a product-led sales, which I - is obviously very attractive. So if it starts - to the point where, you know, dev ops teams and SREs are just signing up for this, and it just sells itself, that's incredible.
+Charles: There's also just a lot of customer spend in this category. I mean, I usually don't like it when people don't give me a direct answer about like pricing and stuff. But I was like this is a category where I have an intuition about customer spend. There is money to be made here. This isn't one of those categories where you're like, will the customer pay? The customer's already spending a lot of money on this.
+Josh: Just on the analytics piece.
+Cyan: Well, they don't want downtime. They want 9 9s. That landing page they're talking about is a kiss of death for a lot of people.
+Paige: Wait, I have a question. How did you guys feel about the valuation, as well.
+Cyan: Oh, the valuation was amazing!
+Elizabeth: Yeah.
+Charles: The fact that it was six, I was like, well, this is what you get for six. Like, really good people and like not a lot of data.
+Elizabeth: Yeah.
+Charles: That's kind of what I expect.
+Cyan: Yeah. Right where we wanna be.
+Josh: Wow. This was just like so easy. Your guys were just all like, yep. This is right in the sweet spot.
+Elizabeth: Yeah.
+Cyan: It was very exciting.
+Josh: And thank you, Cyan. Welcome to The Pitch.
+Cyan: Yeah. Thank you. This was a lot of fun. I enjoy it.
+[crosstalk]
+Elizabeth: I really love this one.
+Cyan: Yeah. This was great.
+Paige: Yeah. That was awesome.
+Cyan: I love the name, too. Thoras.
+Triple 50’s in The Pitch Room today. This cloud company certainly made it rain.
+When we come back,
+another
+pitch investor wants in on this deal! Which one… that’s for me to know and you to find out, after the break.
+[Break]
+Welcome back. After the pitch Nilo and Jen had their heads in the cloud. 150 thousand from three investors in the room, plus another $50k from The Pitch Fund. But did they take that to the bank? A few months later, we caught up with our favorite site reliability engineers to find out.
+Josh: You guys were invited on the show, kind of last minute So tell me, what was your experience like pitching on the show?
+Nilo: it blew away our expectations. We were actually in San Francisco when we got the email and we didn't even question it, we started looking at flights. We were super excited that we had the chance to be on the show And I think Jen and I agree when we say that we can attest a lot of the success of our recent round and momentum to you guys for giving us the ability to be on the show and to pitch to everyone.
+Josh: Yeah, you guys certainly took advantage of the opportunity. It was really, really cool so Nilo, you normally do most of the pitching for Thoras. What was it like to pitch together?
+Jen: I think the nerves started taking over and, I think our, our chemistry and our, our founder chemistry really did help here. It speaks to how good of a team we are in terms of covering each other. but I also learned that I think I want to be stronger in the pitching side. So it's something I've been working on.
+Josh: Since the show, have you been more involved with the pitches, Jen?
+Jen: I have been, yeah. I've been trying to pitch a little bit more. I still enjoy talking to customers more.
+Nilo: Yeah
+Josh: Why is that?
+Jen: Because I think I'm just very much an engineer. So I love talking about the tech. I'm very passionate about it.
+Josh: Yeah
+Jen: and I think with me, that's just more of like where I shine.
+Josh: So you ended up with three 50,000 commitments in the room from Elizabeth, Charles, and Cyan. And within a few weeks after the show, you had had diligence calls with all three. Did they invest?
+Nilo: Yeah, everybody, everybody invested. It was, it was just an amazing feeling. And then our lead investors were so happy to hear their names in the round. I think that gave them. The extra confidence to proceed.
+Josh: Okay. So from what I understand the same week you were pitching on our show, you met with another pitch investor Pascal Unger. And as it turns out, he was one of the lead investors you were talking about. Did you meet with Pascal while you were in Miami?
+Nilo: No, actually
+Josh: No?
+Nilo: We have yet to meet in person.
+Josh: But Pascal, did end up leading your round or co-leading your round?
+Jen: That's correct.
+Nilo: Yeah, it's so crazy how everything happened so quickly.
+There once was an investor who told me, keep me in the loop because things happened to change overnight. I was like, how do they change overnight? I feel like it goes so slow and literally things changed overnight.
+Jen: We ended up being oversubscribed on our round, which is exciting.
+Josh: No way! You guys were raising a million?
+Nilo: Yup, We were just raising a million. We were about to close without even getting all the way there
+Josh: Well, yeah, that's the, that's the trick. As soon as you say you're going to close, then all of a sudden everybody's like, but wait, I want to invest too.
+Nilo: We actually still are getting calls for, for that now
+Nilo: But we had to call it and we ended up settling on about 1. 5 million.
+Josh: That’s awesome. So I want to talk about the twin effect. In the pitch room, Cyan was like, I didn't want to presume that you were twins But then when she found out you were, she was even more excited to invest. And she said I've never gone wrong investing in siblings. Were you surprised to hear that from an investor or is that typical?
+Nilo: Definitely a surprise. and maybe you guys can resonate with this, but there's so many questions with respect to working together as family, you know, we've had people question, well, what if one doesn't want to be in this anymore, which I would argue could happen in any co founder relationship, or what if there's like a sister fight. But it is like a superpower. We have established how to communicate with one another. We don't need to walk on eggshells if there's something that somebody has top of mind, we know our strengths and weaknesses. And I don't know, it's, it's such a powerful feeling to be unified as a family when you're working towards a common goal together. And so for us, it's been an incredible experience.
+Jen: Nilo and I joke about this sometimes. There's a little bit of like telepathy between each other. We can kind of read each other's emotions It's uncanny. I would think probably because we shared the womb together, but we can usually kind of, Guess what the other person's thinking or feeling for the most part. So it lends itself pretty well, I think, to the startup.
+Nilo: I think she has more telepathy than I do.
+Jen: That part’s true
+Josh: Jen's a better listener
+Nilo: Probably, [laughs] probably.
+Josh: Something you guys mentioned on the show is that you have put together, I think, a sister contract?
+Nilo: I think the main inspiration behind the sister agreement really was for us to not lose out on our sisterhood through the business. there are times where it's easy to forget that piece. Like we can't just sit and chill together. There's always like a million thoughts in our head. Like, did we do this? Did we do that? Jen and I realized we haven't watched a movie together in so long. I don't know. Is that the same for you guys?
+Josh: Yes. Yeah.
+Lisa: Yes, absolutely. Our kids literally like, will be like, stop talking about the pitch. All the time. Like they get mad at us. And so there's definitely been times when we'll be like, okay, we need to go just be Josh and Lisa for a little bit. You know?
+Nilo: Jen and I realized we haven't watched a movie together in so long. That was something we would, we would watch shows together and we're like, oh we We haven't done that and I also think we come from a big family. There's four sisters total, And I think the other two sisters probably are starting to get tired of us talking about the business.
+Josh: What do your other sisters do for work?
+Nilo: Our oldest sister is an engineer, of course, she Is Deploys AI technology to wearable tech. And our second sister is an IT project manager
+Josh: So have you spoken to your other sisters about joining Thoras or is that just something for twins?
+Lisa: Josh!
+Nilo: It's a great question. Um, so they, they definitely like to help in ways like, you know, give us advice, mentorship, But I don't think they have FOMO with working with us. I think they want us to stop talking about work.
+Josh: You said something to me. I remember during the casting process. I asked you, like, why do you guys want to come on the show? And I remember, Nilo, you said, because we want to show that women can build tech companies too. Am I remembering that correctly?
+Nilo: Yep. overall, you try to remain optimistic and think about the positives, but there are a lot of negatives to looking and sounding different while you're building an AI ML based company. We've had like funny questions like, Hey, are you guys the PR here?
+Josh: No!
+Nilo: Or can you actually code?
+Josh: No!
+Nilo: Yeah.
+Lisa: Stop
+Nilo: Oh, we could go, we could write a book, Lisa
+Jen: There's so many.
+Lisa: Ahhh
+Nilo: But I think it's a testament to the fact that there's not enough outward representation of, female, daughters of immigrants, especially building software we hope that even if there's just one girl out there that might think, Hey, I like writing code. I like doing all this, but I don't usually see other girls in this industry being that representation for them so that they know that they can too would mean a lot to me.
+Josh: mhm
+Nilo: We always tell people this, we never set out to be entrepreneurs. you know, we found that there's a way we can make an impact. It's not like we were like, oh, we want to be our own bosses and work for ourselves. It was more like there is something that we know we can contribute into this space and we know we're the right fit to do it. And that's kind of how we got here.
+Josh: like you saw the opportunity and you're like this opportunity needs some entrepreneurs to pursue it. Okay, I guess we can be those entrepreneurs.
+Nilo: Yeah. I guess we'll do it.
+Jen: If you insist
+Josh: So this is the part of the show where we would say the pitch fund would love to invest in your company except we already invested because we didn't want to miss out on this one. And things were moving quick.
+Nilo: Yeah
+Josh: So thanks for letting us invest.
+Lisa: Yeah!
+Jen: We're so excited to have you guys on board.
+Twin founders! How fun! Double the trouble, double the returns!?
+Speaking of families… we’ve been hearing that a lot of you listen to the show with your family. Mac the VC watches with his on Wednesday nights. And Lisa and I watch with ours too! Even though our oldest gets really mad when the VCs don’t invest.
+If you watch with your family, we’d love to hear from you. Post a picture or video clip on social and tag @thepitchshow
+For the investors listening, you probably figured out that we weren’t able to do a syndicate for Thoras. A lot of the deals this season were so competitive we could only invest out of the fund.
+We have 18 companies in the portfolio so far, and we’re halfway through fund 1! So we’ve got room for just a few more LPs to join before we close. If you want to learn more about what we’re building at The Pitch Fund, go to thepitch.fund
+Next week on The Pitch… we’re going south of the border.
+Luis: Did you know that 70% of all SMBs in Mexico are actually profitable when they go bankrupt?
+Beck: Hm
+Luis: I saw this happen first hand at the last startup that I was a part of,
+Mac: You said that company didn't work out. What was the biggest learning you took away from the failure of that company?
+Luis: Everybody wants money.
+Pascal: We know that. Yeah.
+Pascal: In the US, right, some of the hottest companies were the revenue-based financing companies. They're all struggling now in this interest rate environment.
+Luis: Mexico and Latin America have always suffered of really high interest rates.
+Luis: Our corporate business card charges 81% -
+Beck: What??!!
+Elizabeth: Do you love the problem you're working on?
+That’s next week on The Pitch. Subscribe now and turn on notifications so you don’t miss it.
+This episode was made by me, Josh Muccio, Lisa Muccio, Anna Ladd, Enoch Kim, Jackie Paapanair and Alma Langshaw. With casting help from Peter Liu and John Alvarez.
+Music in this episode is by The Muse Maker, Breakmaster Cylinder, FYRSTYX, Boxwood Orchestra, Imagined Nostalgia, and The Brow
+The Pitch is made in partnership with the Vox Media Podcast Network.

@@ -1,0 +1,729 @@
+{
+  "schema": "phase1-rationale-reference-v1",
+  "extraction_version": "pitchshow-rationales-v1",
+  "fingerprint": "1ea9f78d8111c63b5cc2cb8eda67ae5ce634ce37be031fa24a7c6bd80dea5100",
+  "episode_slug": "104-dressd-red-carpet-or-red-ocean",
+  "vc_slug": "mac-conwell",
+  "vc_name": "Mac Conwell",
+  "actual_decision": "Out",
+  "later_decision": "Unknown",
+  "reference_kind": "automated_transcript_observed_candidate",
+  "human_validated": false,
+  "source_format": "transcript-observed-rationales-v1",
+  "source_path": "../source/episodes/104-dressd-red-carpet-or-red-ocean.json",
+  "source_sha256": "bd5a903444268f44ef49831de4ccb302dd639c4053db2489a6d8079c7eabef4e",
+  "transcript_sha256": "26c273cbd6081fb5785ed9a47e299ff5934f7b21c16d827932abc8f17113558d",
+  "taxonomy_sha256": "eaa8734819a3ac34dd19ee5f0bf6de925a793a1d25a2d361090dafc9b751e1fc",
+  "model": "openai/gpt-5.6-luna",
+  "source_tier": "newly_extracted_and_independently_model_reviewed",
+  "reviewed_target_turns": [
+    9,
+    16,
+    18,
+    27,
+    29,
+    58,
+    60,
+    64,
+    66,
+    79,
+    81,
+    98,
+    113,
+    115,
+    117,
+    120,
+    123,
+    127,
+    132,
+    134,
+    138,
+    141,
+    145,
+    147,
+    153,
+    155,
+    160
+  ],
+  "notes": "Reviewed every supplied target turn; greetings, confirmations, fragments, and non-rationale commentary are omitted from the rationale list.",
+  "receipt_path": "receipts/104-dressd-red-carpet-or-red-ocean.json",
+  "scoring_scope": "original_pitch_only",
+  "shared_across_input_modes": true,
+  "rationales": [
+    {
+      "rationale_label": "business_model_assessment",
+      "direction": "neutral",
+      "salience": "secondary",
+      "confidence": 0.98,
+      "utterance_type": "question",
+      "decision_link": "none",
+      "timing": "original_pitch",
+      "turn_index": 29,
+      "quote": "how do you make money?",
+      "explanation": "Mac asks how the company monetizes its transactions.",
+      "evidence": [
+        "how do you make money?"
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 29,
+          "speaker": "Mac",
+          "quote": "how do you make money?"
+        }
+      ],
+      "activation": "queried",
+      "source_rationale_id": "R3",
+      "utterance_kind": "question",
+      "decision_support": "none",
+      "all_mention_ids": [
+        "R3"
+      ]
+    },
+    {
+      "rationale_label": "competitive_intensity_concern",
+      "direction": "negative",
+      "salience": "primary",
+      "confidence": 0.99,
+      "utterance_type": "decision_reason",
+      "decision_link": "explicit",
+      "timing": "original_pitch",
+      "turn_index": 160,
+      "quote": "It was just the freaking industry.",
+      "explanation": "Mac explicitly states that the industry, rather than the founder's presentation, drove his refusal.",
+      "evidence": [
+        "We've seen a bunch of these fail.",
+        "I have a hard time investing in super competitive industries.",
+        "in crowded spaces, always start with your competitive landscape",
+        "that's the only thing I’m going to care about",
+        "It was just the freaking industry."
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 58,
+          "speaker": "Mac",
+          "quote": "We've seen a bunch of these fail."
+        },
+        {
+          "turn_index": 60,
+          "speaker": "Mac",
+          "quote": "I have a hard time investing in super competitive industries."
+        },
+        {
+          "turn_index": 132,
+          "speaker": "Mac",
+          "quote": "in crowded spaces, always start with your competitive landscape"
+        },
+        {
+          "turn_index": 134,
+          "speaker": "Mac",
+          "quote": "that's the only thing I’m going to care about"
+        },
+        {
+          "turn_index": 160,
+          "speaker": "Mac",
+          "quote": "It was just the freaking industry."
+        }
+      ],
+      "activation": "evaluated",
+      "source_rationale_id": "R17",
+      "utterance_kind": "decision_explanation",
+      "decision_support": "supports_out",
+      "all_mention_ids": [
+        "R4",
+        "R5",
+        "R12",
+        "R13",
+        "R17"
+      ]
+    },
+    {
+      "rationale_label": "deal_terms_complexity_concern",
+      "direction": "negative",
+      "salience": "secondary",
+      "confidence": 0.95,
+      "utterance_type": "assessment",
+      "decision_link": "none",
+      "timing": "original_pitch",
+      "turn_index": 117,
+      "quote": "her cap table's gonna be messed up if she doesn't",
+      "explanation": "Mac is concerned that the pivot and legacy financing create a problematic cap-table situation.",
+      "evidence": [
+        "those are not investors in this company, those are investors in Thryft",
+        "her cap table's gonna be messed up if she doesn't"
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 115,
+          "speaker": "Mac",
+          "quote": "those are not investors in this company, those are investors in Thryft"
+        },
+        {
+          "turn_index": 117,
+          "speaker": "Mac",
+          "quote": "her cap table's gonna be messed up if she doesn't"
+        }
+      ],
+      "activation": "evaluated",
+      "source_rationale_id": "R10",
+      "utterance_kind": "assessment",
+      "decision_support": "none",
+      "all_mention_ids": [
+        "R9",
+        "R10"
+      ]
+    },
+    {
+      "rationale_label": "execution_risk_assessment",
+      "direction": "neutral",
+      "salience": "secondary",
+      "confidence": 0.9,
+      "utterance_type": "question",
+      "decision_link": "none",
+      "timing": "original_pitch",
+      "turn_index": 81,
+      "quote": "does that mean this is a pivot from Thryft?",
+      "explanation": "Mac seeks clarification about whether the current company is a pivot from the founder's prior venture.",
+      "evidence": [
+        "how long have you been working on this?",
+        "So what happened with Thryft?",
+        "does that mean this is a pivot from Thryft?"
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 27,
+          "speaker": "Mac",
+          "quote": "how long have you been working on this?"
+        },
+        {
+          "turn_index": 64,
+          "speaker": "Mac",
+          "quote": "So what happened with Thryft?"
+        },
+        {
+          "turn_index": 81,
+          "speaker": "Mac",
+          "quote": "does that mean this is a pivot from Thryft?"
+        }
+      ],
+      "activation": "queried",
+      "source_rationale_id": "R8",
+      "utterance_kind": "question",
+      "decision_support": "none",
+      "all_mention_ids": [
+        "R1",
+        "R6",
+        "R8"
+      ]
+    },
+    {
+      "rationale_label": "founder_communication_quality",
+      "direction": "negative",
+      "salience": "secondary",
+      "confidence": 0.97,
+      "utterance_type": "assessment",
+      "decision_link": "none",
+      "timing": "original_pitch",
+      "turn_index": 120,
+      "quote": "she wasn't forthcoming with that",
+      "explanation": "Mac criticizes the founder's disclosure about which company her investors funded.",
+      "evidence": [
+        "she wasn't forthcoming with that"
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 120,
+          "speaker": "Mac",
+          "quote": "she wasn't forthcoming with that"
+        }
+      ],
+      "activation": "evaluated",
+      "source_rationale_id": "R11",
+      "utterance_kind": "assessment",
+      "decision_support": "none",
+      "all_mention_ids": [
+        "R11"
+      ]
+    },
+    {
+      "rationale_label": "founder_qualities",
+      "direction": "neutral",
+      "salience": "secondary",
+      "confidence": 0.94,
+      "utterance_type": "decision_reason",
+      "decision_link": "none",
+      "timing": "original_pitch",
+      "turn_index": 160,
+      "quote": "her being timid didn't bother me",
+      "explanation": "Mac clarifies that the founder's timidity was not the reason for his negative investment view.",
+      "evidence": [
+        "her being timid didn't bother me"
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 160,
+          "speaker": "Mac",
+          "quote": "her being timid didn't bother me"
+        }
+      ],
+      "activation": "evaluated",
+      "source_rationale_id": "R16",
+      "utterance_kind": "decision_explanation",
+      "decision_support": "none",
+      "all_mention_ids": [
+        "R14",
+        "R15",
+        "R16"
+      ]
+    },
+    {
+      "rationale_label": "product_adoption",
+      "direction": "neutral",
+      "salience": "secondary",
+      "confidence": 0.96,
+      "utterance_type": "question",
+      "decision_link": "none",
+      "timing": "original_pitch",
+      "turn_index": 29,
+      "quote": "How many rentals have you done so far to date",
+      "explanation": "Mac asks for evidence of realized product usage through completed rentals.",
+      "evidence": [
+        "How many rentals have you done so far to date"
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 29,
+          "speaker": "Mac",
+          "quote": "How many rentals have you done so far to date"
+        }
+      ],
+      "activation": "queried",
+      "source_rationale_id": "R2",
+      "utterance_kind": "question",
+      "decision_support": "none",
+      "all_mention_ids": [
+        "R2"
+      ]
+    }
+  ],
+  "later_rationales": [],
+  "excluded_rationales": [
+    {
+      "rationale_label": "execution_risk_assessment",
+      "direction": "neutral",
+      "salience": "secondary",
+      "confidence": 0.94,
+      "utterance_type": "question",
+      "decision_link": "none",
+      "timing": "teaser",
+      "turn_index": 66,
+      "quote": "So what happened with Thryft?",
+      "explanation": "This repeated clip asks about the outcome of the founder's prior company and her execution history.",
+      "evidence": [
+        "So what happened with Thryft?"
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 66,
+          "speaker": "Mac",
+          "quote": "So what happened with Thryft?"
+        }
+      ],
+      "activation": "queried",
+      "source_rationale_id": "R7"
+    }
+  ],
+  "rationale_mentions": [
+    {
+      "rationale_label": "execution_risk_assessment",
+      "direction": "neutral",
+      "salience": "secondary",
+      "confidence": 0.93,
+      "utterance_type": "question",
+      "decision_link": "none",
+      "timing": "original_pitch",
+      "turn_index": 27,
+      "quote": "how long have you been working on this?",
+      "explanation": "Mac asks about the duration of the founder's work on the company as a neutral execution-history question.",
+      "evidence": [
+        "how long have you been working on this?"
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 27,
+          "speaker": "Mac",
+          "quote": "how long have you been working on this?"
+        }
+      ],
+      "activation": "queried",
+      "source_rationale_id": "R1"
+    },
+    {
+      "rationale_label": "product_adoption",
+      "direction": "neutral",
+      "salience": "secondary",
+      "confidence": 0.96,
+      "utterance_type": "question",
+      "decision_link": "none",
+      "timing": "original_pitch",
+      "turn_index": 29,
+      "quote": "How many rentals have you done so far to date",
+      "explanation": "Mac asks for evidence of realized product usage through completed rentals.",
+      "evidence": [
+        "How many rentals have you done so far to date"
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 29,
+          "speaker": "Mac",
+          "quote": "How many rentals have you done so far to date"
+        }
+      ],
+      "activation": "queried",
+      "source_rationale_id": "R2"
+    },
+    {
+      "rationale_label": "business_model_assessment",
+      "direction": "neutral",
+      "salience": "secondary",
+      "confidence": 0.98,
+      "utterance_type": "question",
+      "decision_link": "none",
+      "timing": "original_pitch",
+      "turn_index": 29,
+      "quote": "how do you make money?",
+      "explanation": "Mac asks how the company monetizes its transactions.",
+      "evidence": [
+        "how do you make money?"
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 29,
+          "speaker": "Mac",
+          "quote": "how do you make money?"
+        }
+      ],
+      "activation": "queried",
+      "source_rationale_id": "R3"
+    },
+    {
+      "rationale_label": "competitive_intensity_concern",
+      "direction": "negative",
+      "salience": "primary",
+      "confidence": 0.98,
+      "utterance_type": "decision_explanation",
+      "decision_link": "supports_out",
+      "timing": "original_pitch",
+      "turn_index": 58,
+      "quote": "We've seen a bunch of these fail.",
+      "explanation": "Mac connects his refusal to the repeated failures he has seen in this category.",
+      "evidence": [
+        "We've seen a bunch of these fail."
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 58,
+          "speaker": "Mac",
+          "quote": "We've seen a bunch of these fail."
+        }
+      ],
+      "activation": "evaluated",
+      "source_rationale_id": "R4"
+    },
+    {
+      "rationale_label": "competitive_intensity_concern",
+      "direction": "negative",
+      "salience": "primary",
+      "confidence": 0.99,
+      "utterance_type": "decision_explanation",
+      "decision_link": "supports_out",
+      "timing": "original_pitch",
+      "turn_index": 60,
+      "quote": "I have a hard time investing in super competitive industries.",
+      "explanation": "Mac explicitly identifies the category's intense competition as a reason he is unwilling to invest.",
+      "evidence": [
+        "I have a hard time investing in super competitive industries."
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 60,
+          "speaker": "Mac",
+          "quote": "I have a hard time investing in super competitive industries."
+        }
+      ],
+      "activation": "evaluated",
+      "source_rationale_id": "R5"
+    },
+    {
+      "rationale_label": "execution_risk_assessment",
+      "direction": "neutral",
+      "salience": "secondary",
+      "confidence": 0.94,
+      "utterance_type": "question",
+      "decision_link": "none",
+      "timing": "original_pitch",
+      "turn_index": 64,
+      "quote": "So what happened with Thryft?",
+      "explanation": "Mac asks about the outcome of the founder's prior company to assess her prior execution history.",
+      "evidence": [
+        "So what happened with Thryft?"
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 64,
+          "speaker": "Mac",
+          "quote": "So what happened with Thryft?"
+        }
+      ],
+      "activation": "queried",
+      "source_rationale_id": "R6"
+    },
+    {
+      "rationale_label": "execution_risk_assessment",
+      "direction": "neutral",
+      "salience": "secondary",
+      "confidence": 0.9,
+      "utterance_type": "question",
+      "decision_link": "none",
+      "timing": "original_pitch",
+      "turn_index": 81,
+      "quote": "does that mean this is a pivot from Thryft?",
+      "explanation": "Mac seeks clarification about whether the current company is a pivot from the founder's prior venture.",
+      "evidence": [
+        "does that mean this is a pivot from Thryft?"
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 81,
+          "speaker": "Mac",
+          "quote": "does that mean this is a pivot from Thryft?"
+        }
+      ],
+      "activation": "queried",
+      "source_rationale_id": "R8"
+    },
+    {
+      "rationale_label": "deal_terms_complexity_concern",
+      "direction": "negative",
+      "salience": "secondary",
+      "confidence": 0.84,
+      "utterance_type": "assessment",
+      "decision_link": "none",
+      "timing": "original_pitch",
+      "turn_index": 115,
+      "quote": "those are not investors in this company, those are investors in Thryft",
+      "explanation": "Mac flags a financing and ownership mismatch between the prior venture and the company now being built.",
+      "evidence": [
+        "those are not investors in this company, those are investors in Thryft"
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 115,
+          "speaker": "Mac",
+          "quote": "those are not investors in this company, those are investors in Thryft"
+        }
+      ],
+      "activation": "evaluated",
+      "source_rationale_id": "R9"
+    },
+    {
+      "rationale_label": "deal_terms_complexity_concern",
+      "direction": "negative",
+      "salience": "secondary",
+      "confidence": 0.95,
+      "utterance_type": "assessment",
+      "decision_link": "none",
+      "timing": "original_pitch",
+      "turn_index": 117,
+      "quote": "her cap table's gonna be messed up if she doesn't",
+      "explanation": "Mac is concerned that the pivot and legacy financing create a problematic cap-table situation.",
+      "evidence": [
+        "her cap table's gonna be messed up if she doesn't"
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 117,
+          "speaker": "Mac",
+          "quote": "her cap table's gonna be messed up if she doesn't"
+        }
+      ],
+      "activation": "evaluated",
+      "source_rationale_id": "R10"
+    },
+    {
+      "rationale_label": "founder_communication_quality",
+      "direction": "negative",
+      "salience": "secondary",
+      "confidence": 0.97,
+      "utterance_type": "assessment",
+      "decision_link": "none",
+      "timing": "original_pitch",
+      "turn_index": 120,
+      "quote": "she wasn't forthcoming with that",
+      "explanation": "Mac criticizes the founder's disclosure about which company her investors funded.",
+      "evidence": [
+        "she wasn't forthcoming with that"
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 120,
+          "speaker": "Mac",
+          "quote": "she wasn't forthcoming with that"
+        }
+      ],
+      "activation": "evaluated",
+      "source_rationale_id": "R11"
+    },
+    {
+      "rationale_label": "competitive_intensity_concern",
+      "direction": "negative",
+      "salience": "secondary",
+      "confidence": 0.9,
+      "utterance_type": "assessment",
+      "decision_link": "none",
+      "timing": "original_pitch",
+      "turn_index": 132,
+      "quote": "in crowded spaces, always start with your competitive landscape",
+      "explanation": "Mac identifies the crowded competitive landscape as the central issue founders in this category must address.",
+      "evidence": [
+        "in crowded spaces, always start with your competitive landscape"
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 132,
+          "speaker": "Mac",
+          "quote": "in crowded spaces, always start with your competitive landscape"
+        }
+      ],
+      "activation": "evaluated",
+      "source_rationale_id": "R12"
+    },
+    {
+      "rationale_label": "competitive_intensity_concern",
+      "direction": "negative",
+      "salience": "primary",
+      "confidence": 0.91,
+      "utterance_type": "assessment",
+      "decision_link": "none",
+      "timing": "original_pitch",
+      "turn_index": 134,
+      "quote": "that's the only thing I’m going to care about",
+      "explanation": "Mac says competitive positioning is his decisive focus when evaluating a company in a crowded space.",
+      "evidence": [
+        "that's the only thing I’m going to care about"
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 134,
+          "speaker": "Mac",
+          "quote": "that's the only thing I’m going to care about"
+        }
+      ],
+      "activation": "evaluated",
+      "source_rationale_id": "R13"
+    },
+    {
+      "rationale_label": "founder_qualities",
+      "direction": "negative",
+      "salience": "secondary",
+      "confidence": 0.86,
+      "utterance_type": "assessment",
+      "decision_link": "none",
+      "timing": "original_pitch",
+      "turn_index": 138,
+      "quote": "I could feel that",
+      "explanation": "Mac affirms the preceding assessment that the founder came across as lacking confidence or tenacity.",
+      "evidence": [
+        "I could feel that"
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 138,
+          "speaker": "Mac",
+          "quote": "I could feel that"
+        }
+      ],
+      "activation": "evaluated",
+      "source_rationale_id": "R14"
+    },
+    {
+      "rationale_label": "founder_qualities",
+      "direction": "positive",
+      "salience": "secondary",
+      "confidence": 0.9,
+      "utterance_type": "assessment",
+      "decision_link": "none",
+      "timing": "original_pitch",
+      "turn_index": 145,
+      "quote": "that doesn't mean she's not a good founder",
+      "explanation": "Mac distinguishes the founder's timid presentation from his assessment of her underlying quality as a founder.",
+      "evidence": [
+        "that doesn't mean she's not a good founder"
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 145,
+          "speaker": "Mac",
+          "quote": "that doesn't mean she's not a good founder"
+        }
+      ],
+      "activation": "evaluated",
+      "source_rationale_id": "R15"
+    },
+    {
+      "rationale_label": "founder_qualities",
+      "direction": "neutral",
+      "salience": "secondary",
+      "confidence": 0.94,
+      "utterance_type": "decision_explanation",
+      "decision_link": "none",
+      "timing": "original_pitch",
+      "turn_index": 160,
+      "quote": "her being timid didn't bother me",
+      "explanation": "Mac clarifies that the founder's timidity was not the reason for his negative investment view.",
+      "evidence": [
+        "her being timid didn't bother me"
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 160,
+          "speaker": "Mac",
+          "quote": "her being timid didn't bother me"
+        }
+      ],
+      "activation": "evaluated",
+      "source_rationale_id": "R16"
+    },
+    {
+      "rationale_label": "competitive_intensity_concern",
+      "direction": "negative",
+      "salience": "primary",
+      "confidence": 0.99,
+      "utterance_type": "decision_explanation",
+      "decision_link": "supports_out",
+      "timing": "original_pitch",
+      "turn_index": 160,
+      "quote": "It was just the freaking industry.",
+      "explanation": "Mac explicitly states that the industry, rather than the founder's presentation, drove his refusal.",
+      "evidence": [
+        "It was just the freaking industry."
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 160,
+          "speaker": "Mac",
+          "quote": "It was just the freaking industry."
+        }
+      ],
+      "activation": "evaluated",
+      "source_rationale_id": "R17"
+    }
+  ],
+  "timing_review_overrides": [
+    {
+      "start_turn": 110,
+      "end_turn": 171,
+      "timing": "original_pitch",
+      "reason": "Agent source review: founder exits at turns 107–109; turns 110–171 are the immediate in-room investor debrief. Turn 171 continuation introduces an interview months later; the separate interview begins at turn 172."
+    }
+  ]
+}

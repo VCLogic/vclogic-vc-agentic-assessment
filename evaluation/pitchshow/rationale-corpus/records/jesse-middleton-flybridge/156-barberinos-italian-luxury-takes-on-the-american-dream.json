@@ -1,0 +1,849 @@
+{
+  "schema": "phase1-rationale-reference-v1",
+  "extraction_version": "pitchshow-rationales-v1",
+  "fingerprint": "fe6c1f9d86f2c99eab7d9b0430f87a4e789f1e25b7f6f94d004bee61c4cebf72",
+  "episode_slug": "156-barberinos-italian-luxury-takes-on-the-american-dream",
+  "vc_slug": "jesse-middleton-flybridge",
+  "vc_name": "Jesse Middleton",
+  "actual_decision": "Out",
+  "later_decision": "Out",
+  "reference_kind": "automated_transcript_observed_candidate",
+  "human_validated": false,
+  "source_format": "transcript-observed-rationales-v1",
+  "source_path": "/home/dpasch01/vclogic-vc-agentic-assessment/evaluation/pitchshow/investors/jesse-middleton-flybridge/source/episodes/156-barberinos-italian-luxury-takes-on-the-american-dream.json",
+  "source_sha256": "10924ecf371ae101f5d1ac2c50a438ae3cf8e301f3768ce5502f846d4c5cdac2",
+  "transcript_sha256": "9e0690ceda23b7661f50853ef5db957b602c03c572566832051a33c411e28b37",
+  "taxonomy_sha256": "eaa8734819a3ac34dd19ee5f0bf6de925a793a1d25a2d361090dafc9b751e1fc",
+  "model": "codex:gpt-5.6-luna+gpt-5.6-sol",
+  "generation_stages": [
+    {
+      "phase": "rationale_extract",
+      "backend": "codex",
+      "model": "gpt-5.6-luna"
+    },
+    {
+      "phase": "rationale_verify",
+      "backend": "codex",
+      "model": "gpt-5.6-sol"
+    }
+  ],
+  "source_tier": "newly_extracted_and_independently_model_reviewed",
+  "reviewed_target_turns": [
+    3,
+    5,
+    7,
+    22,
+    26,
+    28,
+    32,
+    49,
+    51,
+    68,
+    72,
+    85,
+    108,
+    110,
+    121,
+    134,
+    136,
+    155,
+    158,
+    176,
+    181,
+    184,
+    186,
+    189,
+    197,
+    199,
+    202,
+    204,
+    213,
+    219,
+    221,
+    223
+  ],
+  "notes": "All supplied target turns were reviewed. Turn 184 and the immediate investor-room debrief remain original_pitch; the later store-visit turns contain no explicit investment rationale.",
+  "receipt_path": "/home/dpasch01/vclogic-vc-agentic-assessment/evaluation/pitchshow/investors/jesse-middleton-flybridge/rationale-references/receipts/156-barberinos-italian-luxury-takes-on-the-american-dream.json",
+  "scoring_scope": "original_pitch_only",
+  "shared_across_input_modes": true,
+  "rationales": [
+    {
+      "rationale_label": "business_model_assessment",
+      "direction": "neutral",
+      "salience": "secondary",
+      "confidence": 0.97,
+      "utterance_type": "question",
+      "decision_link": "none",
+      "timing": "original_pitch",
+      "turn_index": 68,
+      "quote": "Is it a price problem? Is it a brand problem?",
+      "explanation": "Jesse probes whether pricing or brand positioning explains the gap in the affluent market.",
+      "evidence": [
+        "Is it a price problem? Is it a brand problem?"
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 68,
+          "speaker": "Jesse",
+          "quote": "Is it a price problem? Is it a brand problem?"
+        }
+      ],
+      "activation": "queried",
+      "source_rationale_id": "R4",
+      "utterance_kind": "question",
+      "decision_support": "none",
+      "all_mention_ids": [
+        "R4"
+      ]
+    },
+    {
+      "rationale_label": "corporate_structure_constraint",
+      "direction": "positive",
+      "salience": "secondary",
+      "confidence": 0.97,
+      "utterance_type": "assessment",
+      "decision_link": "none",
+      "timing": "original_pitch",
+      "turn_index": 202,
+      "quote": "It's a bit of a unique opportunity because they have this clean entity that does have history.",
+      "explanation": "In the immediate in-room debrief, he views the separate US entity with inherited operating history as advantageous.",
+      "evidence": [
+        "It's a bit of a unique opportunity because they have this clean entity that does have history."
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 202,
+          "speaker": "Jesse",
+          "quote": "It's a bit of a unique opportunity because they have this clean entity that does have history."
+        }
+      ],
+      "activation": "evaluated",
+      "source_rationale_id": "R15",
+      "utterance_kind": "supporting_argument",
+      "decision_support": "none",
+      "all_mention_ids": [
+        "R11",
+        "R15"
+      ]
+    },
+    {
+      "rationale_label": "founder_skillset",
+      "direction": "positive",
+      "salience": "secondary",
+      "confidence": 0.96,
+      "utterance_type": "assessment",
+      "decision_link": "none",
+      "timing": "original_pitch",
+      "turn_index": 202,
+      "quote": "they know how to sell and market product",
+      "explanation": "He credits the team with demonstrated sales and marketing capabilities.",
+      "evidence": [
+        "they know how to sell and market product"
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 202,
+          "speaker": "Jesse",
+          "quote": "they know how to sell and market product"
+        }
+      ],
+      "activation": "evaluated",
+      "source_rationale_id": "R16",
+      "utterance_kind": "supporting_argument",
+      "decision_support": "none",
+      "all_mention_ids": [
+        "R16"
+      ]
+    },
+    {
+      "rationale_label": "investment_thesis_constraint",
+      "direction": "negative",
+      "salience": "primary",
+      "confidence": 1.0,
+      "utterance_type": "decision_reason",
+      "decision_link": "explicit",
+      "timing": "original_pitch",
+      "turn_index": 85,
+      "quote": "we don't really invest in consumer products and packaged goods.",
+      "explanation": "He explicitly identifies the firm's category focus as the reason he is not investing.",
+      "evidence": [
+        "we don't really invest in consumer products and packaged goods."
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 85,
+          "speaker": "Jesse",
+          "quote": "we don't really invest in consumer products and packaged goods."
+        }
+      ],
+      "activation": "evaluated",
+      "source_rationale_id": "R10",
+      "utterance_kind": "decision_explanation",
+      "decision_support": "supports_out",
+      "all_mention_ids": [
+        "R10"
+      ]
+    },
+    {
+      "rationale_label": "investment_upside_assessment",
+      "direction": "positive",
+      "salience": "secondary",
+      "confidence": 0.95,
+      "utterance_type": "assessment",
+      "decision_link": "none",
+      "timing": "original_pitch",
+      "turn_index": 204,
+      "quote": "you get to come in and borrow all of that, but not pay for it, which that's an advantage.",
+      "explanation": "He sees favorable investor economics in gaining the benefit of the prior company's experience without bearing its earlier financing basis.",
+      "evidence": [
+        "you get to come in and borrow all of that, but not pay for it, which that's an advantage."
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 204,
+          "speaker": "Jesse",
+          "quote": "you get to come in and borrow all of that, but not pay for it, which that's an advantage."
+        }
+      ],
+      "activation": "evaluated",
+      "source_rationale_id": "R17",
+      "utterance_kind": "supporting_argument",
+      "decision_support": "none",
+      "all_mention_ids": [
+        "R17"
+      ]
+    },
+    {
+      "rationale_label": "market_problem_validation",
+      "direction": "positive",
+      "salience": "secondary",
+      "confidence": 0.95,
+      "utterance_type": "assessment",
+      "decision_link": "none",
+      "timing": "original_pitch",
+      "turn_index": 85,
+      "quote": "I certainly think categorically, like I agree with your take.",
+      "explanation": "He agrees with the founder's view that the men's grooming category contains an unmet opportunity.",
+      "evidence": [
+        "I certainly think categorically, like I agree with your take."
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 85,
+          "speaker": "Jesse",
+          "quote": "I certainly think categorically, like I agree with your take."
+        }
+      ],
+      "activation": "evaluated",
+      "source_rationale_id": "R5",
+      "utterance_kind": "supporting_argument",
+      "decision_support": "none",
+      "all_mention_ids": [
+        "R2",
+        "R5"
+      ]
+    },
+    {
+      "rationale_label": "market_size_assessment",
+      "direction": "negative",
+      "salience": "secondary",
+      "confidence": 0.99,
+      "utterance_type": "assessment",
+      "decision_link": "none",
+      "timing": "original_pitch",
+      "turn_index": 85,
+      "quote": "is there a big enough audience over the next 10 years",
+      "explanation": "He questions whether the long-term addressable audience will be sufficiently large.",
+      "evidence": [
+        "is there a big enough audience over the next 10 years"
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 85,
+          "speaker": "Jesse",
+          "quote": "is there a big enough audience over the next 10 years"
+        }
+      ],
+      "activation": "evaluated",
+      "source_rationale_id": "R7",
+      "utterance_kind": "concern",
+      "decision_support": "none",
+      "all_mention_ids": [
+        "R7"
+      ]
+    },
+    {
+      "rationale_label": "product_adoption",
+      "direction": "negative",
+      "salience": "secondary",
+      "confidence": 0.98,
+      "utterance_type": "assessment",
+      "decision_link": "none",
+      "timing": "original_pitch",
+      "turn_index": 85,
+      "quote": "we don't have the same affinity to a beauty brand yet.",
+      "explanation": "He worries that men have not yet demonstrated strong attachment to beauty brands.",
+      "evidence": [
+        "we don't have the same affinity to a beauty brand yet."
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 85,
+          "speaker": "Jesse",
+          "quote": "we don't have the same affinity to a beauty brand yet."
+        }
+      ],
+      "activation": "evaluated",
+      "source_rationale_id": "R6",
+      "utterance_kind": "concern",
+      "decision_support": "none",
+      "all_mention_ids": [
+        "R6"
+      ]
+    },
+    {
+      "rationale_label": "product_appeal_assessment",
+      "direction": "positive",
+      "salience": "secondary",
+      "confidence": 0.99,
+      "utterance_type": "assessment",
+      "decision_link": "none",
+      "timing": "original_pitch",
+      "turn_index": 184,
+      "quote": "the scent from the one that you had was really nice. I like that.",
+      "explanation": "During the same-session product discussion, Jesse favorably assesses the fragrance.",
+      "model_quote_before_typography_repair": "The scent from the one that you had was really nice. I like that.",
+      "evidence": [
+        "I like that one.",
+        "As a consumer, I, I will buy this product and probably switch right over to it.",
+        "the scent from the one that you had was really nice. I like that."
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 28,
+          "speaker": "Jesse",
+          "quote": "I like that one."
+        },
+        {
+          "turn_index": 85,
+          "speaker": "Jesse",
+          "quote": "As a consumer, I, I will buy this product and probably switch right over to it."
+        },
+        {
+          "turn_index": 184,
+          "speaker": "Jesse",
+          "quote": "the scent from the one that you had was really nice. I like that."
+        }
+      ],
+      "activation": "evaluated",
+      "source_rationale_id": "R14",
+      "utterance_kind": "assessment",
+      "decision_support": "none",
+      "all_mention_ids": [
+        "R1",
+        "R9",
+        "R14"
+      ]
+    },
+    {
+      "rationale_label": "solution_feasibility_assessment",
+      "direction": "neutral",
+      "salience": "secondary",
+      "confidence": 0.98,
+      "utterance_type": "question",
+      "decision_link": "none",
+      "timing": "original_pitch",
+      "turn_index": 51,
+      "quote": "how do you both combine the growth of what you want to do and sort of keeping that craft and quality and high touch.",
+      "explanation": "He asks whether the company can operationally preserve its high-touch quality while scaling.",
+      "evidence": [
+        "how do you both combine the growth of what you want to do and sort of keeping that craft and quality and high touch."
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 51,
+          "speaker": "Jesse",
+          "quote": "how do you both combine the growth of what you want to do and sort of keeping that craft and quality and high touch."
+        }
+      ],
+      "activation": "queried",
+      "source_rationale_id": "R3",
+      "utterance_kind": "question",
+      "decision_support": "none",
+      "all_mention_ids": [
+        "R3"
+      ]
+    },
+    {
+      "rationale_label": "traction_repeatability_concern",
+      "direction": "negative",
+      "salience": "secondary",
+      "confidence": 0.99,
+      "utterance_type": "assessment",
+      "decision_link": "none",
+      "timing": "original_pitch",
+      "turn_index": 204,
+      "quote": "Madison Avenue is very different than most of the rest of the country",
+      "explanation": "He doubts whether the first location's success will repeat at a second store or in broader US markets.",
+      "evidence": [
+        "Madison Avenue is very different than most of the rest of the country"
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 204,
+          "speaker": "Jesse",
+          "quote": "Madison Avenue is very different than most of the rest of the country"
+        }
+      ],
+      "activation": "evaluated",
+      "source_rationale_id": "R18",
+      "utterance_kind": "concern",
+      "decision_support": "none",
+      "all_mention_ids": [
+        "R8",
+        "R12",
+        "R13",
+        "R18"
+      ]
+    }
+  ],
+  "later_rationales": [],
+  "excluded_rationales": [],
+  "rationale_mentions": [
+    {
+      "rationale_label": "product_appeal_assessment",
+      "direction": "positive",
+      "salience": "secondary",
+      "confidence": 0.99,
+      "utterance_type": "assessment",
+      "decision_link": "none",
+      "timing": "original_pitch",
+      "turn_index": 28,
+      "quote": "I like that one.",
+      "explanation": "Jesse expresses a favorable personal reaction to one of the products.",
+      "evidence": [
+        "I like that one."
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 28,
+          "speaker": "Jesse",
+          "quote": "I like that one."
+        }
+      ],
+      "activation": "evaluated",
+      "source_rationale_id": "R1"
+    },
+    {
+      "rationale_label": "market_problem_validation",
+      "direction": "negative",
+      "salience": "secondary",
+      "confidence": 0.96,
+      "utterance_type": "concern",
+      "decision_link": "none",
+      "timing": "original_pitch",
+      "turn_index": 49,
+      "quote": "the category seems to work really well for women, but not for men.",
+      "explanation": "He raises prior category performance as a concern about whether comparable demand exists among men.",
+      "evidence": [
+        "the category seems to work really well for women, but not for men."
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 49,
+          "speaker": "Jesse",
+          "quote": "the category seems to work really well for women, but not for men."
+        }
+      ],
+      "activation": "evaluated",
+      "source_rationale_id": "R2"
+    },
+    {
+      "rationale_label": "solution_feasibility_assessment",
+      "direction": "neutral",
+      "salience": "secondary",
+      "confidence": 0.98,
+      "utterance_type": "question",
+      "decision_link": "none",
+      "timing": "original_pitch",
+      "turn_index": 51,
+      "quote": "how do you both combine the growth of what you want to do and sort of keeping that craft and quality and high touch.",
+      "explanation": "He asks whether the company can operationally preserve its high-touch quality while scaling.",
+      "evidence": [
+        "how do you both combine the growth of what you want to do and sort of keeping that craft and quality and high touch."
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 51,
+          "speaker": "Jesse",
+          "quote": "how do you both combine the growth of what you want to do and sort of keeping that craft and quality and high touch."
+        }
+      ],
+      "activation": "queried",
+      "source_rationale_id": "R3"
+    },
+    {
+      "rationale_label": "business_model_assessment",
+      "direction": "neutral",
+      "salience": "secondary",
+      "confidence": 0.97,
+      "utterance_type": "question",
+      "decision_link": "none",
+      "timing": "original_pitch",
+      "turn_index": 68,
+      "quote": "Is it a price problem? Is it a brand problem?",
+      "explanation": "Jesse probes whether pricing or brand positioning explains the gap in the affluent market.",
+      "evidence": [
+        "Is it a price problem? Is it a brand problem?"
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 68,
+          "speaker": "Jesse",
+          "quote": "Is it a price problem? Is it a brand problem?"
+        }
+      ],
+      "activation": "queried",
+      "source_rationale_id": "R4"
+    },
+    {
+      "rationale_label": "market_problem_validation",
+      "direction": "positive",
+      "salience": "secondary",
+      "confidence": 0.95,
+      "utterance_type": "supporting_argument",
+      "decision_link": "none",
+      "timing": "original_pitch",
+      "turn_index": 85,
+      "quote": "I certainly think categorically, like I agree with your take.",
+      "explanation": "He agrees with the founder's view that the men's grooming category contains an unmet opportunity.",
+      "evidence": [
+        "I certainly think categorically, like I agree with your take."
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 85,
+          "speaker": "Jesse",
+          "quote": "I certainly think categorically, like I agree with your take."
+        }
+      ],
+      "activation": "evaluated",
+      "source_rationale_id": "R5"
+    },
+    {
+      "rationale_label": "product_adoption",
+      "direction": "negative",
+      "salience": "secondary",
+      "confidence": 0.98,
+      "utterance_type": "concern",
+      "decision_link": "none",
+      "timing": "original_pitch",
+      "turn_index": 85,
+      "quote": "we don't have the same affinity to a beauty brand yet.",
+      "explanation": "He worries that men have not yet demonstrated strong attachment to beauty brands.",
+      "evidence": [
+        "we don't have the same affinity to a beauty brand yet."
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 85,
+          "speaker": "Jesse",
+          "quote": "we don't have the same affinity to a beauty brand yet."
+        }
+      ],
+      "activation": "evaluated",
+      "source_rationale_id": "R6"
+    },
+    {
+      "rationale_label": "market_size_assessment",
+      "direction": "negative",
+      "salience": "secondary",
+      "confidence": 0.99,
+      "utterance_type": "concern",
+      "decision_link": "none",
+      "timing": "original_pitch",
+      "turn_index": 85,
+      "quote": "is there a big enough audience over the next 10 years",
+      "explanation": "He questions whether the long-term addressable audience will be sufficiently large.",
+      "evidence": [
+        "is there a big enough audience over the next 10 years"
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 85,
+          "speaker": "Jesse",
+          "quote": "is there a big enough audience over the next 10 years"
+        }
+      ],
+      "activation": "evaluated",
+      "source_rationale_id": "R7"
+    },
+    {
+      "rationale_label": "traction_repeatability_concern",
+      "direction": "positive",
+      "salience": "secondary",
+      "confidence": 0.93,
+      "utterance_type": "supporting_argument",
+      "decision_link": "none",
+      "timing": "original_pitch",
+      "turn_index": 85,
+      "quote": "you certainly have proven something in Italy.",
+      "explanation": "He acknowledges that the Italian business provides some evidence that the model can work.",
+      "evidence": [
+        "you certainly have proven something in Italy."
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 85,
+          "speaker": "Jesse",
+          "quote": "you certainly have proven something in Italy."
+        }
+      ],
+      "activation": "evaluated",
+      "source_rationale_id": "R8"
+    },
+    {
+      "rationale_label": "product_appeal_assessment",
+      "direction": "positive",
+      "salience": "secondary",
+      "confidence": 0.99,
+      "utterance_type": "assessment",
+      "decision_link": "none",
+      "timing": "original_pitch",
+      "turn_index": 85,
+      "quote": "As a consumer, I, I will buy this product and probably switch right over to it.",
+      "explanation": "Jesse says the product is personally appealing enough for him to adopt it.",
+      "evidence": [
+        "As a consumer, I, I will buy this product and probably switch right over to it."
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 85,
+          "speaker": "Jesse",
+          "quote": "As a consumer, I, I will buy this product and probably switch right over to it."
+        }
+      ],
+      "activation": "evaluated",
+      "source_rationale_id": "R9"
+    },
+    {
+      "rationale_label": "investment_thesis_constraint",
+      "direction": "negative",
+      "salience": "primary",
+      "confidence": 1.0,
+      "utterance_type": "decision_explanation",
+      "decision_link": "supports_out",
+      "timing": "original_pitch",
+      "turn_index": 85,
+      "quote": "we don't really invest in consumer products and packaged goods.",
+      "explanation": "He explicitly identifies the firm's category focus as the reason he is not investing.",
+      "evidence": [
+        "we don't really invest in consumer products and packaged goods."
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 85,
+          "speaker": "Jesse",
+          "quote": "we don't really invest in consumer products and packaged goods."
+        }
+      ],
+      "activation": "evaluated",
+      "source_rationale_id": "R10"
+    },
+    {
+      "rationale_label": "corporate_structure_constraint",
+      "direction": "neutral",
+      "salience": "secondary",
+      "confidence": 0.97,
+      "utterance_type": "question",
+      "decision_link": "none",
+      "timing": "original_pitch",
+      "turn_index": 108,
+      "quote": "And the US thing is a new entity not owned by the Italian entity?",
+      "explanation": "He asks how ownership of the US legal entity relates to the Italian company.",
+      "evidence": [
+        "And the US thing is a new entity not owned by the Italian entity?"
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 108,
+          "speaker": "Jesse",
+          "quote": "And the US thing is a new entity not owned by the Italian entity?"
+        }
+      ],
+      "activation": "queried",
+      "source_rationale_id": "R11"
+    },
+    {
+      "rationale_label": "traction_repeatability_concern",
+      "direction": "neutral",
+      "salience": "secondary",
+      "confidence": 0.96,
+      "utterance_type": "question",
+      "decision_link": "none",
+      "timing": "original_pitch",
+      "turn_index": 134,
+      "quote": "When did that store open in the US?",
+      "explanation": "He asks how long the sole US location has operated to contextualize its traction.",
+      "evidence": [
+        "When did that store open in the US?"
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 134,
+          "speaker": "Jesse",
+          "quote": "When did that store open in the US?"
+        }
+      ],
+      "activation": "queried",
+      "source_rationale_id": "R12"
+    },
+    {
+      "rationale_label": "traction_repeatability_concern",
+      "direction": "neutral",
+      "salience": "secondary",
+      "confidence": 0.96,
+      "utterance_type": "question",
+      "decision_link": "none",
+      "timing": "original_pitch",
+      "turn_index": 136,
+      "quote": "And that was a million dollar revenue?",
+      "explanation": "He verifies the revenue achieved by the initial US store as a traction data point.",
+      "evidence": [
+        "And that was a million dollar revenue?"
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 136,
+          "speaker": "Jesse",
+          "quote": "And that was a million dollar revenue?"
+        }
+      ],
+      "activation": "queried",
+      "source_rationale_id": "R13"
+    },
+    {
+      "rationale_label": "product_appeal_assessment",
+      "direction": "positive",
+      "salience": "secondary",
+      "confidence": 0.99,
+      "utterance_type": "assessment",
+      "decision_link": "none",
+      "timing": "original_pitch",
+      "turn_index": 184,
+      "quote": "the scent from the one that you had was really nice. I like that.",
+      "explanation": "During the same-session product discussion, Jesse favorably assesses the fragrance.",
+      "model_quote_before_typography_repair": "The scent from the one that you had was really nice. I like that.",
+      "evidence": [
+        "the scent from the one that you had was really nice. I like that."
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 184,
+          "speaker": "Jesse",
+          "quote": "the scent from the one that you had was really nice. I like that."
+        }
+      ],
+      "activation": "evaluated",
+      "source_rationale_id": "R14"
+    },
+    {
+      "rationale_label": "corporate_structure_constraint",
+      "direction": "positive",
+      "salience": "secondary",
+      "confidence": 0.97,
+      "utterance_type": "supporting_argument",
+      "decision_link": "none",
+      "timing": "original_pitch",
+      "turn_index": 202,
+      "quote": "It's a bit of a unique opportunity because they have this clean entity that does have history.",
+      "explanation": "In the immediate in-room debrief, he views the separate US entity with inherited operating history as advantageous.",
+      "evidence": [
+        "It's a bit of a unique opportunity because they have this clean entity that does have history."
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 202,
+          "speaker": "Jesse",
+          "quote": "It's a bit of a unique opportunity because they have this clean entity that does have history."
+        }
+      ],
+      "activation": "evaluated",
+      "source_rationale_id": "R15"
+    },
+    {
+      "rationale_label": "founder_skillset",
+      "direction": "positive",
+      "salience": "secondary",
+      "confidence": 0.96,
+      "utterance_type": "supporting_argument",
+      "decision_link": "none",
+      "timing": "original_pitch",
+      "turn_index": 202,
+      "quote": "they know how to sell and market product",
+      "explanation": "He credits the team with demonstrated sales and marketing capabilities.",
+      "evidence": [
+        "they know how to sell and market product"
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 202,
+          "speaker": "Jesse",
+          "quote": "they know how to sell and market product"
+        }
+      ],
+      "activation": "evaluated",
+      "source_rationale_id": "R16"
+    },
+    {
+      "rationale_label": "investment_upside_assessment",
+      "direction": "positive",
+      "salience": "secondary",
+      "confidence": 0.95,
+      "utterance_type": "supporting_argument",
+      "decision_link": "none",
+      "timing": "original_pitch",
+      "turn_index": 204,
+      "quote": "you get to come in and borrow all of that, but not pay for it, which that's an advantage.",
+      "explanation": "He sees favorable investor economics in gaining the benefit of the prior company's experience without bearing its earlier financing basis.",
+      "evidence": [
+        "you get to come in and borrow all of that, but not pay for it, which that's an advantage."
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 204,
+          "speaker": "Jesse",
+          "quote": "you get to come in and borrow all of that, but not pay for it, which that's an advantage."
+        }
+      ],
+      "activation": "evaluated",
+      "source_rationale_id": "R17"
+    },
+    {
+      "rationale_label": "traction_repeatability_concern",
+      "direction": "negative",
+      "salience": "secondary",
+      "confidence": 0.99,
+      "utterance_type": "concern",
+      "decision_link": "none",
+      "timing": "original_pitch",
+      "turn_index": 204,
+      "quote": "Madison Avenue is very different than most of the rest of the country",
+      "explanation": "He doubts whether the first location's success will repeat at a second store or in broader US markets.",
+      "evidence": [
+        "Madison Avenue is very different than most of the rest of the country"
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 204,
+          "speaker": "Jesse",
+          "quote": "Madison Avenue is very different than most of the rest of the country"
+        }
+      ],
+      "activation": "evaluated",
+      "source_rationale_id": "R18"
+    }
+  ],
+  "expanded_quote_evidence": [],
+  "rejected_after_evidence_check": []
+}

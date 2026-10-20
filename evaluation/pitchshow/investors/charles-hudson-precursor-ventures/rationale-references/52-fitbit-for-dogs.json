@@ -1,0 +1,502 @@
+{
+  "schema": "phase1-rationale-reference-v1",
+  "extraction_version": "pitchshow-rationales-v1",
+  "fingerprint": "5595a4aba9fe3ed12ff6847df089b6534a7913e03dc6bbc1ff066c44f4fa6e04",
+  "episode_slug": "52-fitbit-for-dogs",
+  "vc_slug": "charles-hudson-precursor-ventures",
+  "vc_name": "Charles Hudson",
+  "actual_decision": "Out",
+  "later_decision": "Unknown",
+  "reference_kind": "automated_transcript_observed_candidate",
+  "human_validated": false,
+  "source_format": "transcript-observed-rationales-v1",
+  "source_path": "../source/episodes/52-fitbit-for-dogs.json",
+  "source_sha256": "7b6a11ef2dea9b8cce3a5c2555d1077ac190a2bd75b69b67b2ef496cad731d61",
+  "transcript_sha256": "686b39fb4958e80917d36d6afb28fa0af91513d8f6f52d9e6bd8af5f9be477bc",
+  "taxonomy_sha256": "eaa8734819a3ac34dd19ee5f0bf6de925a793a1d25a2d361090dafc9b751e1fc",
+  "model": "openai/gpt-5.6-luna",
+  "source_tier": "newly_extracted_and_independently_model_reviewed",
+  "reviewed_target_turns": [
+    3,
+    8,
+    13,
+    28,
+    30,
+    44,
+    69,
+    77,
+    80,
+    82,
+    84,
+    86
+  ],
+  "notes": "Brief acknowledgments and the fundraising-amount question contained no standalone rationale. Turn 84 concerned the on-demand model of another pet company rather than Waggit.",
+  "receipt_path": "receipts/52-fitbit-for-dogs.json",
+  "scoring_scope": "original_pitch_only",
+  "shared_across_input_modes": true,
+  "rationales": [
+    {
+      "rationale_label": "business_model_assessment",
+      "direction": "neutral",
+      "salience": "secondary",
+      "confidence": 0.97,
+      "utterance_type": "question",
+      "decision_link": "none",
+      "timing": "original_pitch",
+      "turn_index": 28,
+      "quote": "What are the margins like on a product like this?",
+      "explanation": "Charles probes the product’s margin economics as part of evaluating the business model.",
+      "evidence": [
+        "What are the margins like on a product like this?"
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 28,
+          "speaker": "Charles",
+          "quote": "What are the margins like on a product like this?"
+        }
+      ],
+      "activation": "queried",
+      "source_rationale_id": "R1",
+      "utterance_kind": "question",
+      "decision_support": "none",
+      "all_mention_ids": [
+        "R1"
+      ]
+    },
+    {
+      "rationale_label": "capital_intensity_concern",
+      "direction": "negative",
+      "salience": "primary",
+      "confidence": 0.99,
+      "utterance_type": "decision_reason",
+      "decision_link": "explicit",
+      "timing": "original_pitch",
+      "turn_index": 77,
+      "quote": "I think you’re going to need more money than you’re asking for right now.",
+      "explanation": "Charles passes because post-launch hardware uncertainty may require substantially more capital than the proposed raise.",
+      "evidence": [
+        "I think you’re going to need more money than you’re asking for right now."
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 77,
+          "speaker": "Charles",
+          "quote": "I think you’re going to need more money than you’re asking for right now."
+        }
+      ],
+      "activation": "evaluated",
+      "source_rationale_id": "R5",
+      "utterance_kind": "decision_explanation",
+      "decision_support": "supports_out",
+      "all_mention_ids": [
+        "R5"
+      ]
+    },
+    {
+      "rationale_label": "competitive_advantage_assessment",
+      "direction": "positive",
+      "salience": "secondary",
+      "confidence": 0.86,
+      "utterance_type": "assessment",
+      "decision_link": "none",
+      "timing": "original_pitch",
+      "turn_index": 86,
+      "quote": "Going from steps or activity to vitals is like, it's real R&D and engineering.",
+      "explanation": "Charles assesses that moving from basic activity tracking to vitals requires substantial engineering, which can make replication more difficult.",
+      "model_quote_before_typography_repair": "Going from steps or activity to vitals is like, it’s real R&D and engineering.",
+      "evidence": [
+        "Going from steps or activity to vitals is like, it's real R&D and engineering."
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 86,
+          "speaker": "Charles",
+          "quote": "Going from steps or activity to vitals is like, it's real R&D and engineering."
+        }
+      ],
+      "activation": "evaluated",
+      "source_rationale_id": "R7",
+      "utterance_kind": "assessment",
+      "decision_support": "none",
+      "all_mention_ids": [
+        "R7"
+      ]
+    },
+    {
+      "rationale_label": "investor_experience_bias",
+      "direction": "neutral",
+      "salience": "secondary",
+      "confidence": 0.94,
+      "utterance_type": "assessment",
+      "decision_link": "none",
+      "timing": "original_pitch",
+      "turn_index": 86,
+      "quote": "we learned this from our investment in Fitbit",
+      "explanation": "He explicitly bases his technical assessment on lessons from a prior Fitbit investment.",
+      "evidence": [
+        "I’ve learned a ton about the pet space through Fuzzy.",
+        "we learned this from our investment in Fitbit"
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 77,
+          "speaker": "Charles",
+          "quote": "I’ve learned a ton about the pet space through Fuzzy."
+        },
+        {
+          "turn_index": 86,
+          "speaker": "Charles",
+          "quote": "we learned this from our investment in Fitbit"
+        }
+      ],
+      "activation": "evaluated",
+      "source_rationale_id": "R9",
+      "utterance_kind": "assessment",
+      "decision_support": "none",
+      "all_mention_ids": [
+        "R3",
+        "R9"
+      ]
+    },
+    {
+      "rationale_label": "market_problem_validation",
+      "direction": "positive",
+      "salience": "secondary",
+      "confidence": 0.82,
+      "utterance_type": "assessment",
+      "decision_link": "none",
+      "timing": "original_pitch",
+      "turn_index": 80,
+      "quote": "no one wants to take their pet to the vet",
+      "explanation": "He identifies a real inconvenience in pet healthcare, offering related validation of a meaningful pet-health problem.",
+      "evidence": [
+        "no one wants to take their pet to the vet"
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 80,
+          "speaker": "Charles",
+          "quote": "no one wants to take their pet to the vet"
+        }
+      ],
+      "activation": "evaluated",
+      "source_rationale_id": "R6",
+      "utterance_kind": "assessment",
+      "decision_support": "none",
+      "all_mention_ids": [
+        "R6"
+      ]
+    },
+    {
+      "rationale_label": "market_size_assessment",
+      "direction": "positive",
+      "salience": "secondary",
+      "confidence": 0.88,
+      "utterance_type": "assessment",
+      "decision_link": "none",
+      "timing": "original_pitch",
+      "turn_index": 77,
+      "quote": "people are spending incredible amounts of money on pet",
+      "explanation": "He sees substantial consumer spending in the pet category, supporting a favorable market opportunity assessment.",
+      "evidence": [
+        "people are spending incredible amounts of money on pet"
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 77,
+          "speaker": "Charles",
+          "quote": "people are spending incredible amounts of money on pet"
+        }
+      ],
+      "activation": "evaluated",
+      "source_rationale_id": "R4",
+      "utterance_kind": "supporting_argument",
+      "decision_support": "none",
+      "all_mention_ids": [
+        "R4"
+      ]
+    },
+    {
+      "rationale_label": "product_success_factor_assessment",
+      "direction": "neutral",
+      "salience": "secondary",
+      "confidence": 0.91,
+      "utterance_type": "question",
+      "decision_link": "none",
+      "timing": "original_pitch",
+      "turn_index": 44,
+      "quote": "How do you envision the consumer taking that data and then taking sort of the next step?",
+      "explanation": "He asks how consumers will act on the data, probing a key part of the product’s value and adoption pathway.",
+      "evidence": [
+        "How do you envision the consumer taking that data and then taking sort of the next step?"
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 44,
+          "speaker": "Charles",
+          "quote": "How do you envision the consumer taking that data and then taking sort of the next step?"
+        }
+      ],
+      "activation": "queried",
+      "source_rationale_id": "R2",
+      "utterance_kind": "question",
+      "decision_support": "none",
+      "all_mention_ids": [
+        "R2"
+      ]
+    },
+    {
+      "rationale_label": "solution_feasibility_assessment",
+      "direction": "positive",
+      "salience": "secondary",
+      "confidence": 0.89,
+      "utterance_type": "assessment",
+      "decision_link": "none",
+      "timing": "original_pitch",
+      "turn_index": 86,
+      "quote": "But not impossible, to your point.",
+      "explanation": "Despite the engineering burden, he explicitly considers the addition of vital monitoring technically feasible.",
+      "evidence": [
+        "But not impossible, to your point."
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 86,
+          "speaker": "Charles",
+          "quote": "But not impossible, to your point."
+        }
+      ],
+      "activation": "evaluated",
+      "source_rationale_id": "R8",
+      "utterance_kind": "assessment",
+      "decision_support": "none",
+      "all_mention_ids": [
+        "R8"
+      ]
+    }
+  ],
+  "later_rationales": [],
+  "excluded_rationales": [],
+  "rationale_mentions": [
+    {
+      "rationale_label": "business_model_assessment",
+      "direction": "neutral",
+      "salience": "secondary",
+      "confidence": 0.97,
+      "utterance_type": "question",
+      "decision_link": "none",
+      "timing": "original_pitch",
+      "turn_index": 28,
+      "quote": "What are the margins like on a product like this?",
+      "explanation": "Charles probes the product’s margin economics as part of evaluating the business model.",
+      "evidence": [
+        "What are the margins like on a product like this?"
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 28,
+          "speaker": "Charles",
+          "quote": "What are the margins like on a product like this?"
+        }
+      ],
+      "activation": "queried",
+      "source_rationale_id": "R1"
+    },
+    {
+      "rationale_label": "product_success_factor_assessment",
+      "direction": "neutral",
+      "salience": "secondary",
+      "confidence": 0.91,
+      "utterance_type": "question",
+      "decision_link": "none",
+      "timing": "original_pitch",
+      "turn_index": 44,
+      "quote": "How do you envision the consumer taking that data and then taking sort of the next step?",
+      "explanation": "He asks how consumers will act on the data, probing a key part of the product’s value and adoption pathway.",
+      "evidence": [
+        "How do you envision the consumer taking that data and then taking sort of the next step?"
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 44,
+          "speaker": "Charles",
+          "quote": "How do you envision the consumer taking that data and then taking sort of the next step?"
+        }
+      ],
+      "activation": "queried",
+      "source_rationale_id": "R2"
+    },
+    {
+      "rationale_label": "investor_experience_bias",
+      "direction": "neutral",
+      "salience": "secondary",
+      "confidence": 0.9,
+      "utterance_type": "assessment",
+      "decision_link": "none",
+      "timing": "original_pitch",
+      "turn_index": 77,
+      "quote": "I’ve learned a ton about the pet space through Fuzzy.",
+      "explanation": "Charles grounds his pet-market judgment in experience from his existing investment in Fuzzy.",
+      "evidence": [
+        "I’ve learned a ton about the pet space through Fuzzy."
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 77,
+          "speaker": "Charles",
+          "quote": "I’ve learned a ton about the pet space through Fuzzy."
+        }
+      ],
+      "activation": "evaluated",
+      "source_rationale_id": "R3"
+    },
+    {
+      "rationale_label": "market_size_assessment",
+      "direction": "positive",
+      "salience": "secondary",
+      "confidence": 0.88,
+      "utterance_type": "supporting_argument",
+      "decision_link": "none",
+      "timing": "original_pitch",
+      "turn_index": 77,
+      "quote": "people are spending incredible amounts of money on pet",
+      "explanation": "He sees substantial consumer spending in the pet category, supporting a favorable market opportunity assessment.",
+      "evidence": [
+        "people are spending incredible amounts of money on pet"
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 77,
+          "speaker": "Charles",
+          "quote": "people are spending incredible amounts of money on pet"
+        }
+      ],
+      "activation": "evaluated",
+      "source_rationale_id": "R4"
+    },
+    {
+      "rationale_label": "capital_intensity_concern",
+      "direction": "negative",
+      "salience": "primary",
+      "confidence": 0.99,
+      "utterance_type": "decision_explanation",
+      "decision_link": "supports_out",
+      "timing": "original_pitch",
+      "turn_index": 77,
+      "quote": "I think you’re going to need more money than you’re asking for right now.",
+      "explanation": "Charles passes because post-launch hardware uncertainty may require substantially more capital than the proposed raise.",
+      "evidence": [
+        "I think you’re going to need more money than you’re asking for right now."
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 77,
+          "speaker": "Charles",
+          "quote": "I think you’re going to need more money than you’re asking for right now."
+        }
+      ],
+      "activation": "evaluated",
+      "source_rationale_id": "R5"
+    },
+    {
+      "rationale_label": "market_problem_validation",
+      "direction": "positive",
+      "salience": "secondary",
+      "confidence": 0.82,
+      "utterance_type": "assessment",
+      "decision_link": "none",
+      "timing": "original_pitch",
+      "turn_index": 80,
+      "quote": "no one wants to take their pet to the vet",
+      "explanation": "He identifies a real inconvenience in pet healthcare, offering related validation of a meaningful pet-health problem.",
+      "evidence": [
+        "no one wants to take their pet to the vet"
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 80,
+          "speaker": "Charles",
+          "quote": "no one wants to take their pet to the vet"
+        }
+      ],
+      "activation": "evaluated",
+      "source_rationale_id": "R6"
+    },
+    {
+      "rationale_label": "competitive_advantage_assessment",
+      "direction": "positive",
+      "salience": "secondary",
+      "confidence": 0.86,
+      "utterance_type": "assessment",
+      "decision_link": "none",
+      "timing": "original_pitch",
+      "turn_index": 86,
+      "quote": "Going from steps or activity to vitals is like, it's real R&D and engineering.",
+      "explanation": "Charles assesses that moving from basic activity tracking to vitals requires substantial engineering, which can make replication more difficult.",
+      "model_quote_before_typography_repair": "Going from steps or activity to vitals is like, it’s real R&D and engineering.",
+      "evidence": [
+        "Going from steps or activity to vitals is like, it's real R&D and engineering."
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 86,
+          "speaker": "Charles",
+          "quote": "Going from steps or activity to vitals is like, it's real R&D and engineering."
+        }
+      ],
+      "activation": "evaluated",
+      "source_rationale_id": "R7"
+    },
+    {
+      "rationale_label": "solution_feasibility_assessment",
+      "direction": "positive",
+      "salience": "secondary",
+      "confidence": 0.89,
+      "utterance_type": "assessment",
+      "decision_link": "none",
+      "timing": "original_pitch",
+      "turn_index": 86,
+      "quote": "But not impossible, to your point.",
+      "explanation": "Despite the engineering burden, he explicitly considers the addition of vital monitoring technically feasible.",
+      "evidence": [
+        "But not impossible, to your point."
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 86,
+          "speaker": "Charles",
+          "quote": "But not impossible, to your point."
+        }
+      ],
+      "activation": "evaluated",
+      "source_rationale_id": "R8"
+    },
+    {
+      "rationale_label": "investor_experience_bias",
+      "direction": "neutral",
+      "salience": "secondary",
+      "confidence": 0.94,
+      "utterance_type": "assessment",
+      "decision_link": "none",
+      "timing": "original_pitch",
+      "turn_index": 86,
+      "quote": "we learned this from our investment in Fitbit",
+      "explanation": "He explicitly bases his technical assessment on lessons from a prior Fitbit investment.",
+      "evidence": [
+        "we learned this from our investment in Fitbit"
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 86,
+          "speaker": "Charles",
+          "quote": "we learned this from our investment in Fitbit"
+        }
+      ],
+      "activation": "evaluated",
+      "source_rationale_id": "R9"
+    }
+  ],
+  "expanded_quote_evidence": [],
+  "rejected_after_evidence_check": []
+}

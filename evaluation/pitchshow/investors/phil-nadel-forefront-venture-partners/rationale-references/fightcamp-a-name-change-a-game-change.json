@@ -1,0 +1,1105 @@
+{
+  "schema": "phase1-rationale-reference-v1",
+  "extraction_version": "pitchshow-rationales-v1",
+  "fingerprint": "7c6a9ee712c48f3fc97fcc688b01ee9f369e3fec8d0e1e5d7769ab527598fb0c",
+  "episode_slug": "fightcamp-a-name-change-a-game-change",
+  "vc_slug": "phil-nadel-forefront-venture-partners",
+  "vc_name": "Phil Nadel",
+  "actual_decision": "In",
+  "later_decision": "Out",
+  "reference_kind": "automated_transcript_observed_candidate",
+  "human_validated": false,
+  "source_format": "transcript-observed-rationales-v1",
+  "source_path": "../source/episodes/fightcamp-a-name-change-a-game-change.json",
+  "source_sha256": "914cc8c08bcb8c1a5fdcaa73642950cdc92703fa995f4da97fad9ffe27682e5c",
+  "transcript_sha256": "c1f92253bd560efd6668eb1a05b92b110f7e3450d251047193fb18bc8d3db5b5",
+  "taxonomy_sha256": "eaa8734819a3ac34dd19ee5f0bf6de925a793a1d25a2d361090dafc9b751e1fc",
+  "model": "codex:gpt-5.6-luna+gpt-5.6-sol",
+  "generation_stages": [
+    {
+      "phase": "rationale_extract",
+      "backend": "codex",
+      "model": "gpt-5.6-luna"
+    },
+    {
+      "phase": "rationale_verify",
+      "backend": "codex",
+      "model": "gpt-5.6-sol"
+    }
+  ],
+  "source_tier": "newly_extracted_and_independently_model_reviewed",
+  "reviewed_target_turns": [
+    3,
+    5,
+    39,
+    41,
+    43,
+    45,
+    47,
+    49,
+    59,
+    61,
+    63,
+    65,
+    68,
+    70,
+    72,
+    74,
+    86,
+    104,
+    107,
+    112,
+    114,
+    116,
+    118,
+    120,
+    122,
+    126,
+    128,
+    147,
+    163,
+    165,
+    168,
+    170,
+    175,
+    180,
+    183,
+    185,
+    189,
+    191,
+    193,
+    194,
+    196,
+    199,
+    201,
+    204,
+    206,
+    208,
+    210,
+    212,
+    214,
+    216,
+    218,
+    222,
+    224,
+    227,
+    230,
+    232,
+    234,
+    236,
+    239,
+    241,
+    247,
+    249,
+    251,
+    253,
+    255,
+    256,
+    258,
+    260,
+    262,
+    265,
+    272,
+    279
+  ],
+  "notes": "Reviewed every supplied target turn exactly once. Demo banter, semantic asides, simple confirmations, unsupported valuation inferences, negotiation mechanics, and bare commitments were excluded.",
+  "receipt_path": "receipts/fightcamp-a-name-change-a-game-change.json",
+  "scoring_scope": "original_pitch_only",
+  "shared_across_input_modes": true,
+  "rationales": [
+    {
+      "rationale_label": "business_model_assessment",
+      "direction": "positive",
+      "salience": "primary",
+      "confidence": 0.98,
+      "utterance_type": "assessment",
+      "decision_link": "none",
+      "timing": "original_pitch",
+      "turn_index": 68,
+      "quote": "To me, that makes a lot more sense than even having to go to the gym.",
+      "explanation": "He considers an interactive at-home model more compelling than requiring customers to visit a gym.",
+      "evidence": [
+        "To me, that makes a lot more sense than even having to go to the gym.",
+        "That's smart. I really like that idea because well, firstly, Pelotons killing it."
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 68,
+          "speaker": "Phil",
+          "quote": "To me, that makes a lot more sense than even having to go to the gym."
+        },
+        {
+          "turn_index": 70,
+          "speaker": "Phil",
+          "quote": "That's smart. I really like that idea because well, firstly, Pelotons killing it."
+        }
+      ],
+      "activation": "evaluated",
+      "source_rationale_id": "R4",
+      "utterance_kind": "assessment",
+      "decision_support": "none",
+      "all_mention_ids": [
+        "R3",
+        "R4",
+        "R5"
+      ]
+    },
+    {
+      "rationale_label": "founder_investor_vision_alignment",
+      "direction": "negative",
+      "salience": "secondary",
+      "confidence": 0.96,
+      "utterance_type": "assessment",
+      "decision_link": "none",
+      "timing": "original_pitch",
+      "turn_index": 183,
+      "quote": "I really like the idea of the Peloton model. But that's not what you're targeting right now.",
+      "explanation": "His preferred at-home direction does not match the company's current focus.",
+      "evidence": [
+        "I really like the idea of the Peloton model. But that's not what you're targeting right now."
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 183,
+          "speaker": "Phil",
+          "quote": "I really like the idea of the Peloton model. But that's not what you're targeting right now."
+        }
+      ],
+      "activation": "evaluated",
+      "source_rationale_id": "R15",
+      "utterance_kind": "concern",
+      "decision_support": "none",
+      "all_mention_ids": [
+        "R15"
+      ]
+    },
+    {
+      "rationale_label": "fundraising_demand_signal",
+      "direction": "neutral",
+      "salience": "secondary",
+      "confidence": 0.96,
+      "utterance_type": "question",
+      "decision_link": "none",
+      "timing": "original_pitch",
+      "turn_index": 170,
+      "quote": "From whom?",
+      "explanation": "He asks who supplied the existing commitments to evaluate the fundraising signal.",
+      "evidence": [
+        "How much of that has been committed so far?",
+        "From whom?"
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 168,
+          "speaker": "Phil",
+          "quote": "How much of that has been committed so far?"
+        },
+        {
+          "turn_index": 170,
+          "speaker": "Phil",
+          "quote": "From whom?"
+        }
+      ],
+      "activation": "queried",
+      "source_rationale_id": "R14",
+      "utterance_kind": "question",
+      "decision_support": "none",
+      "all_mention_ids": [
+        "R13",
+        "R14"
+      ]
+    },
+    {
+      "rationale_label": "go_to_market_strategy_assessment",
+      "direction": "positive",
+      "salience": "secondary",
+      "confidence": 0.91,
+      "utterance_type": "assessment",
+      "decision_link": "none",
+      "timing": "original_pitch",
+      "turn_index": 183,
+      "quote": "what you're targeting makes a lot of sense",
+      "explanation": "Despite preferring the Peloton direction, he acknowledges that the current target-market strategy is sensible.",
+      "evidence": [
+        "what you're targeting makes a lot of sense"
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 183,
+          "speaker": "Phil",
+          "quote": "what you're targeting makes a lot of sense"
+        }
+      ],
+      "activation": "evaluated",
+      "source_rationale_id": "R16",
+      "utterance_kind": "assessment",
+      "decision_support": "none",
+      "all_mention_ids": [
+        "R16"
+      ]
+    },
+    {
+      "rationale_label": "market_timing",
+      "direction": "positive",
+      "salience": "secondary",
+      "confidence": 0.87,
+      "utterance_type": "assessment",
+      "decision_link": "none",
+      "timing": "original_pitch",
+      "turn_index": 128,
+      "quote": "That's picked up the slack more than anything.",
+      "explanation": "He argues that MMA's increased popularity supports continuing interest in combat sports.",
+      "evidence": [
+        "That's picked up the slack more than anything."
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 128,
+          "speaker": "Phil",
+          "quote": "That's picked up the slack more than anything."
+        }
+      ],
+      "activation": "evaluated",
+      "source_rationale_id": "R10",
+      "utterance_kind": "supporting_argument",
+      "decision_support": "none",
+      "all_mention_ids": [
+        "R9",
+        "R10"
+      ]
+    },
+    {
+      "rationale_label": "product_appeal_assessment",
+      "direction": "positive",
+      "salience": "secondary",
+      "confidence": 0.97,
+      "utterance_type": "assessment",
+      "decision_link": "none",
+      "timing": "original_pitch",
+      "turn_index": 74,
+      "quote": "And they can get a great workout and still have that interactive training. And you have leaderboards and the whole thing. So that's smart.",
+      "explanation": "He positively evaluates the combination of workout value, interactive training, and leaderboards.",
+      "evidence": [
+        "they don't have to buy expensive hardware. They have to buy sensors that are a hell of a lot cheaper.",
+        "And they can get a great workout and still have that interactive training. And you have leaderboards and the whole thing. So that's smart."
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 72,
+          "speaker": "Phil",
+          "quote": "they don't have to buy expensive hardware. They have to buy sensors that are a hell of a lot cheaper."
+        },
+        {
+          "turn_index": 74,
+          "speaker": "Phil",
+          "quote": "And they can get a great workout and still have that interactive training. And you have leaderboards and the whole thing. So that's smart."
+        }
+      ],
+      "activation": "evaluated",
+      "source_rationale_id": "R7",
+      "utterance_kind": "assessment",
+      "decision_support": "none",
+      "all_mention_ids": [
+        "R6",
+        "R7"
+      ]
+    },
+    {
+      "rationale_label": "product_differentiation_concern",
+      "direction": "neutral",
+      "salience": "secondary",
+      "confidence": 0.99,
+      "utterance_type": "question",
+      "decision_link": "none",
+      "timing": "original_pitch",
+      "turn_index": 63,
+      "quote": "What’s proprietary?",
+      "explanation": "He asks what proprietary element would protect the product from imitation.",
+      "evidence": [
+        "What’s proprietary?"
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 63,
+          "speaker": "Phil",
+          "quote": "What’s proprietary?"
+        }
+      ],
+      "activation": "queried",
+      "source_rationale_id": "R2",
+      "utterance_kind": "question",
+      "decision_support": "none",
+      "all_mention_ids": [
+        "R2"
+      ]
+    },
+    {
+      "rationale_label": "solution_feasibility_assessment",
+      "direction": "negative",
+      "salience": "primary",
+      "confidence": 0.99,
+      "utterance_type": "assessment",
+      "decision_link": "none",
+      "timing": "original_pitch",
+      "turn_index": 193,
+      "quote": "Well, that's my doubt, too.",
+      "explanation": "He explicitly shares the prospective customers' doubt that the product will work as required.",
+      "evidence": [
+        "Well, that's my doubt, too."
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 193,
+          "speaker": "Phil",
+          "quote": "Well, that's my doubt, too."
+        }
+      ],
+      "activation": "evaluated",
+      "source_rationale_id": "R22",
+      "utterance_kind": "concern",
+      "decision_support": "none",
+      "all_mention_ids": [
+        "R22",
+        "R23",
+        "R24",
+        "R25"
+      ]
+    },
+    {
+      "rationale_label": "traction_repeatability_concern",
+      "direction": "negative",
+      "salience": "primary",
+      "confidence": 0.99,
+      "utterance_type": "decision_reason",
+      "decision_link": "explicit",
+      "timing": "original_pitch",
+      "turn_index": 206,
+      "quote": "Pre shipping is a little early.",
+      "explanation": "He explains that the company's pre-shipping stage is too early for him to invest at that point.",
+      "evidence": [
+        "it also requires sell through. And that's why, you know, for a sort of early stage like this, where it's pre-delivery of the product, there's so much more risk.",
+        "Yeah, but - I mean, you can have a contract now.",
+        "I'm gonna pass for now. In four-and-a-half months, if there are contracts, I'm in",
+        "Pre shipping is a little early."
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 183,
+          "speaker": "Phil",
+          "quote": "it also requires sell through. And that's why, you know, for a sort of early stage like this, where it's pre-delivery of the product, there's so much more risk."
+        },
+        {
+          "turn_index": 191,
+          "speaker": "Phil",
+          "quote": "Yeah, but - I mean, you can have a contract now."
+        },
+        {
+          "turn_index": 204,
+          "speaker": "Phil",
+          "quote": "I'm gonna pass for now. In four-and-a-half months, if there are contracts, I'm in"
+        },
+        {
+          "turn_index": 206,
+          "speaker": "Phil",
+          "quote": "Pre shipping is a little early."
+        }
+      ],
+      "activation": "evaluated",
+      "source_rationale_id": "R28",
+      "utterance_kind": "decision_explanation",
+      "decision_support": "supports_out",
+      "all_mention_ids": [
+        "R8",
+        "R11",
+        "R12",
+        "R17",
+        "R18",
+        "R19",
+        "R20",
+        "R21",
+        "R26",
+        "R27",
+        "R28"
+      ]
+    }
+  ],
+  "later_rationales": [],
+  "excluded_rationales": [
+    {
+      "rationale_label": "business_model_assessment",
+      "direction": "negative",
+      "salience": "primary",
+      "confidence": 0.99,
+      "utterance_type": "assessment",
+      "decision_link": "none",
+      "timing": "teaser",
+      "turn_index": 5,
+      "quote": "I don't like the model. I'm not seeing the path to recurring revenue.",
+      "explanation": "Phil criticizes the model because he cannot identify a recurring-revenue path.",
+      "evidence": [
+        "I don't like the model. I'm not seeing the path to recurring revenue."
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 5,
+          "speaker": "Phil",
+          "quote": "I don't like the model. I'm not seeing the path to recurring revenue."
+        }
+      ],
+      "activation": "evaluated",
+      "source_rationale_id": "R1"
+    }
+  ],
+  "rationale_mentions": [
+    {
+      "rationale_label": "product_differentiation_concern",
+      "direction": "neutral",
+      "salience": "secondary",
+      "confidence": 0.99,
+      "utterance_type": "question",
+      "decision_link": "none",
+      "timing": "original_pitch",
+      "turn_index": 63,
+      "quote": "What’s proprietary?",
+      "explanation": "He asks what proprietary element would protect the product from imitation.",
+      "evidence": [
+        "What’s proprietary?"
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 63,
+          "speaker": "Phil",
+          "quote": "What’s proprietary?"
+        }
+      ],
+      "activation": "queried",
+      "source_rationale_id": "R2"
+    },
+    {
+      "rationale_label": "business_model_assessment",
+      "direction": "neutral",
+      "salience": "secondary",
+      "confidence": 0.96,
+      "utterance_type": "question",
+      "decision_link": "none",
+      "timing": "original_pitch",
+      "turn_index": 65,
+      "quote": "Are you thinking of doing like a Peloton for boxing?",
+      "explanation": "He asks whether the company intends to pursue a Peloton-like at-home model.",
+      "evidence": [
+        "Are you thinking of doing like a Peloton for boxing?"
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 65,
+          "speaker": "Phil",
+          "quote": "Are you thinking of doing like a Peloton for boxing?"
+        }
+      ],
+      "activation": "queried",
+      "source_rationale_id": "R3"
+    },
+    {
+      "rationale_label": "business_model_assessment",
+      "direction": "positive",
+      "salience": "primary",
+      "confidence": 0.98,
+      "utterance_type": "assessment",
+      "decision_link": "none",
+      "timing": "original_pitch",
+      "turn_index": 68,
+      "quote": "To me, that makes a lot more sense than even having to go to the gym.",
+      "explanation": "He considers an interactive at-home model more compelling than requiring customers to visit a gym.",
+      "evidence": [
+        "To me, that makes a lot more sense than even having to go to the gym."
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 68,
+          "speaker": "Phil",
+          "quote": "To me, that makes a lot more sense than even having to go to the gym."
+        }
+      ],
+      "activation": "evaluated",
+      "source_rationale_id": "R4"
+    },
+    {
+      "rationale_label": "business_model_assessment",
+      "direction": "positive",
+      "salience": "secondary",
+      "confidence": 0.97,
+      "utterance_type": "supporting_argument",
+      "decision_link": "none",
+      "timing": "original_pitch",
+      "turn_index": 70,
+      "quote": "That's smart. I really like that idea because well, firstly, Pelotons killing it.",
+      "explanation": "He supports the proposed model by citing the success of the analogous Peloton model.",
+      "evidence": [
+        "That's smart. I really like that idea because well, firstly, Pelotons killing it."
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 70,
+          "speaker": "Phil",
+          "quote": "That's smart. I really like that idea because well, firstly, Pelotons killing it."
+        }
+      ],
+      "activation": "evaluated",
+      "source_rationale_id": "R5"
+    },
+    {
+      "rationale_label": "product_appeal_assessment",
+      "direction": "positive",
+      "salience": "secondary",
+      "confidence": 0.93,
+      "utterance_type": "supporting_argument",
+      "decision_link": "none",
+      "timing": "original_pitch",
+      "turn_index": 72,
+      "quote": "they don't have to buy expensive hardware. They have to buy sensors that are a hell of a lot cheaper.",
+      "explanation": "He identifies the relatively inexpensive required hardware as an advantage for customers.",
+      "evidence": [
+        "they don't have to buy expensive hardware. They have to buy sensors that are a hell of a lot cheaper."
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 72,
+          "speaker": "Phil",
+          "quote": "they don't have to buy expensive hardware. They have to buy sensors that are a hell of a lot cheaper."
+        }
+      ],
+      "activation": "evaluated",
+      "source_rationale_id": "R6"
+    },
+    {
+      "rationale_label": "product_appeal_assessment",
+      "direction": "positive",
+      "salience": "secondary",
+      "confidence": 0.97,
+      "utterance_type": "assessment",
+      "decision_link": "none",
+      "timing": "original_pitch",
+      "turn_index": 74,
+      "quote": "And they can get a great workout and still have that interactive training. And you have leaderboards and the whole thing. So that's smart.",
+      "explanation": "He positively evaluates the combination of workout value, interactive training, and leaderboards.",
+      "evidence": [
+        "And they can get a great workout and still have that interactive training. And you have leaderboards and the whole thing. So that's smart."
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 74,
+          "speaker": "Phil",
+          "quote": "And they can get a great workout and still have that interactive training. And you have leaderboards and the whole thing. So that's smart."
+        }
+      ],
+      "activation": "evaluated",
+      "source_rationale_id": "R7"
+    },
+    {
+      "rationale_label": "traction_repeatability_concern",
+      "direction": "neutral",
+      "salience": "secondary",
+      "confidence": 0.94,
+      "utterance_type": "question",
+      "decision_link": "none",
+      "timing": "original_pitch",
+      "turn_index": 104,
+      "quote": "What do you think the value of that LOI is?",
+      "explanation": "He asks for the expected commercial value represented by the letter of intent.",
+      "evidence": [
+        "What do you think the value of that LOI is?"
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 104,
+          "speaker": "Phil",
+          "quote": "What do you think the value of that LOI is?"
+        }
+      ],
+      "activation": "queried",
+      "source_rationale_id": "R8"
+    },
+    {
+      "rationale_label": "market_timing",
+      "direction": "neutral",
+      "salience": "secondary",
+      "confidence": 0.98,
+      "utterance_type": "question",
+      "decision_link": "none",
+      "timing": "original_pitch",
+      "turn_index": 114,
+      "quote": "Are you talking about a fad that's gonna come and go?",
+      "explanation": "He asks whether demand for the category may be short-lived rather than durable.",
+      "evidence": [
+        "Are you talking about a fad that's gonna come and go?"
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 114,
+          "speaker": "Phil",
+          "quote": "Are you talking about a fad that's gonna come and go?"
+        }
+      ],
+      "activation": "queried",
+      "source_rationale_id": "R9"
+    },
+    {
+      "rationale_label": "market_timing",
+      "direction": "positive",
+      "salience": "secondary",
+      "confidence": 0.87,
+      "utterance_type": "supporting_argument",
+      "decision_link": "none",
+      "timing": "original_pitch",
+      "turn_index": 128,
+      "quote": "That's picked up the slack more than anything.",
+      "explanation": "He argues that MMA's increased popularity supports continuing interest in combat sports.",
+      "evidence": [
+        "That's picked up the slack more than anything."
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 128,
+          "speaker": "Phil",
+          "quote": "That's picked up the slack more than anything."
+        }
+      ],
+      "activation": "evaluated",
+      "source_rationale_id": "R10"
+    },
+    {
+      "rationale_label": "traction_repeatability_concern",
+      "direction": "neutral",
+      "salience": "secondary",
+      "confidence": 0.97,
+      "utterance_type": "question",
+      "decision_link": "none",
+      "timing": "original_pitch",
+      "turn_index": 147,
+      "quote": "How many did you sell?",
+      "explanation": "He asks for the number of presold units as evidence of customer demand.",
+      "evidence": [
+        "How many did you sell?"
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 147,
+          "speaker": "Phil",
+          "quote": "How many did you sell?"
+        }
+      ],
+      "activation": "queried",
+      "source_rationale_id": "R11"
+    },
+    {
+      "rationale_label": "traction_repeatability_concern",
+      "direction": "neutral",
+      "salience": "secondary",
+      "confidence": 0.96,
+      "utterance_type": "question",
+      "decision_link": "none",
+      "timing": "original_pitch",
+      "turn_index": 163,
+      "quote": "So total revenues, how much?",
+      "explanation": "He asks for current revenue to assess the strength of the company's early traction.",
+      "evidence": [
+        "So total revenues, how much?"
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 163,
+          "speaker": "Phil",
+          "quote": "So total revenues, how much?"
+        }
+      ],
+      "activation": "queried",
+      "source_rationale_id": "R12"
+    },
+    {
+      "rationale_label": "fundraising_demand_signal",
+      "direction": "neutral",
+      "salience": "secondary",
+      "confidence": 0.98,
+      "utterance_type": "question",
+      "decision_link": "none",
+      "timing": "original_pitch",
+      "turn_index": 168,
+      "quote": "How much of that has been committed so far?",
+      "explanation": "He asks how much of the financing round has already attracted commitments.",
+      "evidence": [
+        "How much of that has been committed so far?"
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 168,
+          "speaker": "Phil",
+          "quote": "How much of that has been committed so far?"
+        }
+      ],
+      "activation": "queried",
+      "source_rationale_id": "R13"
+    },
+    {
+      "rationale_label": "fundraising_demand_signal",
+      "direction": "neutral",
+      "salience": "secondary",
+      "confidence": 0.96,
+      "utterance_type": "question",
+      "decision_link": "none",
+      "timing": "original_pitch",
+      "turn_index": 170,
+      "quote": "From whom?",
+      "explanation": "He asks who supplied the existing commitments to evaluate the fundraising signal.",
+      "evidence": [
+        "From whom?"
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 170,
+          "speaker": "Phil",
+          "quote": "From whom?"
+        }
+      ],
+      "activation": "queried",
+      "source_rationale_id": "R14"
+    },
+    {
+      "rationale_label": "founder_investor_vision_alignment",
+      "direction": "negative",
+      "salience": "secondary",
+      "confidence": 0.96,
+      "utterance_type": "concern",
+      "decision_link": "none",
+      "timing": "original_pitch",
+      "turn_index": 183,
+      "quote": "I really like the idea of the Peloton model. But that's not what you're targeting right now.",
+      "explanation": "His preferred at-home direction does not match the company's current focus.",
+      "evidence": [
+        "I really like the idea of the Peloton model. But that's not what you're targeting right now."
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 183,
+          "speaker": "Phil",
+          "quote": "I really like the idea of the Peloton model. But that's not what you're targeting right now."
+        }
+      ],
+      "activation": "evaluated",
+      "source_rationale_id": "R15"
+    },
+    {
+      "rationale_label": "go_to_market_strategy_assessment",
+      "direction": "positive",
+      "salience": "secondary",
+      "confidence": 0.91,
+      "utterance_type": "assessment",
+      "decision_link": "none",
+      "timing": "original_pitch",
+      "turn_index": 183,
+      "quote": "what you're targeting makes a lot of sense",
+      "explanation": "Despite preferring the Peloton direction, he acknowledges that the current target-market strategy is sensible.",
+      "evidence": [
+        "what you're targeting makes a lot of sense"
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 183,
+          "speaker": "Phil",
+          "quote": "what you're targeting makes a lot of sense"
+        }
+      ],
+      "activation": "evaluated",
+      "source_rationale_id": "R16"
+    },
+    {
+      "rationale_label": "traction_repeatability_concern",
+      "direction": "negative",
+      "salience": "primary",
+      "confidence": 0.99,
+      "utterance_type": "concern",
+      "decision_link": "none",
+      "timing": "original_pitch",
+      "turn_index": 183,
+      "quote": "it also requires sell through. And that's why, you know, for a sort of early stage like this, where it's pre-delivery of the product, there's so much more risk.",
+      "explanation": "He sees substantial risk because the product has not shipped and customer sell-through remains unproven.",
+      "evidence": [
+        "it also requires sell through. And that's why, you know, for a sort of early stage like this, where it's pre-delivery of the product, there's so much more risk."
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 183,
+          "speaker": "Phil",
+          "quote": "it also requires sell through. And that's why, you know, for a sort of early stage like this, where it's pre-delivery of the product, there's so much more risk."
+        }
+      ],
+      "activation": "evaluated",
+      "source_rationale_id": "R17"
+    },
+    {
+      "rationale_label": "traction_repeatability_concern",
+      "direction": "neutral",
+      "salience": "secondary",
+      "confidence": 0.98,
+      "utterance_type": "question",
+      "decision_link": "none",
+      "timing": "original_pitch",
+      "turn_index": 183,
+      "quote": "on the two big LOIs, is the hardware component of those set in stone? Is that guaranteed?",
+      "explanation": "He asks whether the major customer commitments are firm and guaranteed.",
+      "evidence": [
+        "on the two big LOIs, is the hardware component of those set in stone? Is that guaranteed?"
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 183,
+          "speaker": "Phil",
+          "quote": "on the two big LOIs, is the hardware component of those set in stone? Is that guaranteed?"
+        }
+      ],
+      "activation": "queried",
+      "source_rationale_id": "R18"
+    },
+    {
+      "rationale_label": "traction_repeatability_concern",
+      "direction": "neutral",
+      "salience": "secondary",
+      "confidence": 0.98,
+      "utterance_type": "question",
+      "decision_link": "none",
+      "timing": "original_pitch",
+      "turn_index": 185,
+      "quote": "they can cancel at any time at this point?",
+      "explanation": "He probes whether the nonbinding LOIs can be canceled before becoming contracts.",
+      "evidence": [
+        "they can cancel at any time at this point?"
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 185,
+          "speaker": "Phil",
+          "quote": "they can cancel at any time at this point?"
+        }
+      ],
+      "activation": "queried",
+      "source_rationale_id": "R19"
+    },
+    {
+      "rationale_label": "traction_repeatability_concern",
+      "direction": "neutral",
+      "salience": "secondary",
+      "confidence": 0.98,
+      "utterance_type": "question",
+      "decision_link": "none",
+      "timing": "original_pitch",
+      "turn_index": 189,
+      "quote": "So why isn't it a contract?",
+      "explanation": "He asks why the preliminary customer commitment has not become a binding contract.",
+      "evidence": [
+        "So why isn't it a contract?"
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 189,
+          "speaker": "Phil",
+          "quote": "So why isn't it a contract?"
+        }
+      ],
+      "activation": "queried",
+      "source_rationale_id": "R20"
+    },
+    {
+      "rationale_label": "traction_repeatability_concern",
+      "direction": "negative",
+      "salience": "secondary",
+      "confidence": 0.97,
+      "utterance_type": "supporting_argument",
+      "decision_link": "none",
+      "timing": "original_pitch",
+      "turn_index": 191,
+      "quote": "Yeah, but - I mean, you can have a contract now.",
+      "explanation": "He challenges the suggestion that shipment must occur before customers can sign binding contracts.",
+      "evidence": [
+        "Yeah, but - I mean, you can have a contract now."
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 191,
+          "speaker": "Phil",
+          "quote": "Yeah, but - I mean, you can have a contract now."
+        }
+      ],
+      "activation": "evaluated",
+      "source_rationale_id": "R21"
+    },
+    {
+      "rationale_label": "solution_feasibility_assessment",
+      "direction": "negative",
+      "salience": "primary",
+      "confidence": 0.99,
+      "utterance_type": "concern",
+      "decision_link": "none",
+      "timing": "original_pitch",
+      "turn_index": 193,
+      "quote": "Well, that's my doubt, too.",
+      "explanation": "He explicitly shares the prospective customers' doubt that the product will work as required.",
+      "evidence": [
+        "Well, that's my doubt, too."
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 193,
+          "speaker": "Phil",
+          "quote": "Well, that's my doubt, too."
+        }
+      ],
+      "activation": "evaluated",
+      "source_rationale_id": "R22"
+    },
+    {
+      "rationale_label": "solution_feasibility_assessment",
+      "direction": "neutral",
+      "salience": "secondary",
+      "confidence": 0.93,
+      "utterance_type": "question",
+      "decision_link": "none",
+      "timing": "original_pitch",
+      "turn_index": 194,
+      "quote": "So you've shown them this demonstration that you showed us.",
+      "explanation": "He verifies whether prospective customers saw the same working demonstration.",
+      "evidence": [
+        "So you've shown them this demonstration that you showed us."
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 194,
+          "speaker": "Phil",
+          "quote": "So you've shown them this demonstration that you showed us."
+        }
+      ],
+      "activation": "queried",
+      "source_rationale_id": "R23"
+    },
+    {
+      "rationale_label": "solution_feasibility_assessment",
+      "direction": "neutral",
+      "salience": "secondary",
+      "confidence": 0.98,
+      "utterance_type": "question",
+      "decision_link": "none",
+      "timing": "original_pitch",
+      "turn_index": 196,
+      "quote": "So what are they concerned about? That it won't get up on the TV screen?",
+      "explanation": "He asks which unresolved technical or operational capability is preventing customer commitment.",
+      "evidence": [
+        "So what are they concerned about? That it won't get up on the TV screen?"
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 196,
+          "speaker": "Phil",
+          "quote": "So what are they concerned about? That it won't get up on the TV screen?"
+        }
+      ],
+      "activation": "queried",
+      "source_rationale_id": "R24"
+    },
+    {
+      "rationale_label": "solution_feasibility_assessment",
+      "direction": "neutral",
+      "salience": "secondary",
+      "confidence": 0.96,
+      "utterance_type": "question",
+      "decision_link": "none",
+      "timing": "original_pitch",
+      "turn_index": 199,
+      "quote": "We're not sure you're gonna get that information up on the phone? Up on the TV, I mean.",
+      "explanation": "He tests whether prospective customers' uncertainty concerns displaying the data on a television.",
+      "evidence": [
+        "We're not sure you're gonna get that information up on the phone? Up on the TV, I mean."
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 199,
+          "speaker": "Phil",
+          "quote": "We're not sure you're gonna get that information up on the phone? Up on the TV, I mean."
+        }
+      ],
+      "activation": "queried",
+      "source_rationale_id": "R25"
+    },
+    {
+      "rationale_label": "traction_repeatability_concern",
+      "direction": "neutral",
+      "salience": "secondary",
+      "confidence": 0.99,
+      "utterance_type": "question",
+      "decision_link": "none",
+      "timing": "original_pitch",
+      "turn_index": 201,
+      "quote": "what's the timing for getting these LOIs to contract?",
+      "explanation": "He asks when the preliminary customer commitments are expected to become binding contracts.",
+      "evidence": [
+        "what's the timing for getting these LOIs to contract?"
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 201,
+          "speaker": "Phil",
+          "quote": "what's the timing for getting these LOIs to contract?"
+        }
+      ],
+      "activation": "queried",
+      "source_rationale_id": "R26"
+    },
+    {
+      "rationale_label": "traction_repeatability_concern",
+      "direction": "negative",
+      "salience": "primary",
+      "confidence": 1.0,
+      "utterance_type": "decision_explanation",
+      "decision_link": "supports_out",
+      "timing": "original_pitch",
+      "turn_index": 204,
+      "quote": "I'm gonna pass for now. In four-and-a-half months, if there are contracts, I'm in",
+      "explanation": "He explicitly passes because contracts are not yet secured and conditions a future investment on obtaining them.",
+      "evidence": [
+        "I'm gonna pass for now. In four-and-a-half months, if there are contracts, I'm in"
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 204,
+          "speaker": "Phil",
+          "quote": "I'm gonna pass for now. In four-and-a-half months, if there are contracts, I'm in"
+        }
+      ],
+      "activation": "evaluated",
+      "source_rationale_id": "R27"
+    },
+    {
+      "rationale_label": "traction_repeatability_concern",
+      "direction": "negative",
+      "salience": "primary",
+      "confidence": 0.99,
+      "utterance_type": "decision_explanation",
+      "decision_link": "supports_out",
+      "timing": "original_pitch",
+      "turn_index": 206,
+      "quote": "Pre shipping is a little early.",
+      "explanation": "He explains that the company's pre-shipping stage is too early for him to invest at that point.",
+      "evidence": [
+        "Pre shipping is a little early."
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 206,
+          "speaker": "Phil",
+          "quote": "Pre shipping is a little early."
+        }
+      ],
+      "activation": "evaluated",
+      "source_rationale_id": "R28"
+    }
+  ],
+  "expanded_quote_evidence": [],
+  "rejected_after_evidence_check": []
+}

@@ -1,0 +1,410 @@
+{
+  "schema": "phase1-rationale-reference-v1",
+  "extraction_version": "pitchshow-rationales-v1",
+  "fingerprint": "6bf1f926ebdda5c9ed31dedf63cbcce3b22b73a407c9294598ac1ddcd8cd932b",
+  "episode_slug": "80-can-this-app-silence-the-trolls",
+  "vc_slug": "phil-nadel-forefront-venture-partners",
+  "vc_name": "Phil Nadel",
+  "actual_decision": "Out",
+  "later_decision": "Unknown",
+  "reference_kind": "automated_transcript_observed_candidate",
+  "human_validated": false,
+  "source_format": "transcript-observed-rationales-v1",
+  "source_path": "/home/dpasch01/vclogic-vc-agentic-assessment/evaluation/pitchshow/investors/phil-nadel-forefront-venture-partners/source/episodes/80-can-this-app-silence-the-trolls.json",
+  "source_sha256": "3e46a6cd8bd159753b5b61b5500f325074c7b44624c5dc3c889bbd3213102317",
+  "transcript_sha256": "a68e28b993e001f5868bd175f0112fbb0439839ba2a3fd03c2ae22a1bc8387c7",
+  "taxonomy_sha256": "eaa8734819a3ac34dd19ee5f0bf6de925a793a1d25a2d361090dafc9b751e1fc",
+  "model": "codex:gpt-5.6-luna+gpt-5.6-sol",
+  "generation_stages": [
+    {
+      "phase": "rationale_extract",
+      "backend": "codex",
+      "model": "gpt-5.6-luna"
+    },
+    {
+      "phase": "rationale_verify",
+      "backend": "codex",
+      "model": "gpt-5.6-sol"
+    }
+  ],
+  "source_tier": "newly_extracted_and_independently_model_reviewed",
+  "reviewed_target_turns": [
+    3,
+    33,
+    62,
+    64,
+    66,
+    68,
+    76,
+    79,
+    82,
+    91,
+    100,
+    103,
+    105
+  ],
+  "notes": "",
+  "receipt_path": "/home/dpasch01/vclogic-vc-agentic-assessment/evaluation/pitchshow/investors/phil-nadel-forefront-venture-partners/rationale-references/receipts/80-can-this-app-silence-the-trolls.json",
+  "scoring_scope": "original_pitch_only",
+  "shared_across_input_modes": true,
+  "rationales": [
+    {
+      "rationale_label": "business_model_assessment",
+      "direction": "negative",
+      "salience": "primary",
+      "confidence": 0.98,
+      "utterance_type": "decision_reason",
+      "decision_link": "explicit",
+      "timing": "original_pitch",
+      "turn_index": 62,
+      "quote": "without seeing some early indication that someone’s willing to pay money for something",
+      "explanation": "Phil requires evidence of willingness to pay before he can judge a pre-revenue company investable.",
+      "evidence": [
+        "without seeing some early indication that someone’s willing to pay money for something"
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 62,
+          "speaker": "Phil",
+          "quote": "without seeing some early indication that someone’s willing to pay money for something"
+        }
+      ],
+      "activation": "evaluated",
+      "source_rationale_id": "R3",
+      "utterance_kind": "decision_explanation",
+      "decision_support": "supports_out",
+      "all_mention_ids": [
+        "R1",
+        "R3"
+      ]
+    },
+    {
+      "rationale_label": "go_to_market_strategy_assessment",
+      "direction": "neutral",
+      "salience": "secondary",
+      "confidence": 0.84,
+      "utterance_type": "assessment",
+      "decision_link": "none",
+      "timing": "original_pitch",
+      "turn_index": 82,
+      "quote": "I mean, that’s it. That’s all you need.",
+      "explanation": "In response to the suggested Kardashian-driven breakout, Phil identifies prominent-user adoption as the pivotal launch catalyst.",
+      "evidence": [
+        "I mean, that’s it. That’s all you need."
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 82,
+          "speaker": "Phil",
+          "quote": "I mean, that’s it. That’s all you need."
+        }
+      ],
+      "activation": "evaluated",
+      "source_rationale_id": "R6",
+      "utterance_kind": "assessment",
+      "decision_support": "none",
+      "all_mention_ids": [
+        "R6"
+      ]
+    },
+    {
+      "rationale_label": "investment_thesis_constraint",
+      "direction": "negative",
+      "salience": "primary",
+      "confidence": 0.97,
+      "utterance_type": "decision_reason",
+      "decision_link": "explicit",
+      "timing": "original_pitch",
+      "turn_index": 66,
+      "quote": "I’d love to get in on the next round when you’re monetizing",
+      "explanation": "Phil reiterates that monetization would be the condition for his participation, excluding the current pre-revenue round.",
+      "evidence": [
+        "I never invest in pre-revenue companies",
+        "I’d love to get in on the next round when you’re monetizing"
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 62,
+          "speaker": "Phil",
+          "quote": "I never invest in pre-revenue companies"
+        },
+        {
+          "turn_index": 66,
+          "speaker": "Phil",
+          "quote": "I’d love to get in on the next round when you’re monetizing"
+        }
+      ],
+      "activation": "evaluated",
+      "source_rationale_id": "R4",
+      "utterance_kind": "decision_explanation",
+      "decision_support": "supports_out",
+      "all_mention_ids": [
+        "R2",
+        "R4"
+      ]
+    },
+    {
+      "rationale_label": "product_adoption",
+      "direction": "neutral",
+      "salience": "secondary",
+      "confidence": 0.95,
+      "utterance_type": "question",
+      "decision_link": "none",
+      "timing": "original_pitch",
+      "turn_index": 91,
+      "quote": "if there were a conversation going on that you were truly interested in?",
+      "explanation": "Phil probes whether sufficiently relevant conversations could motivate recurring product use.",
+      "evidence": [
+        "if there were a conversation going on that you were truly interested in?"
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 91,
+          "speaker": "Phil",
+          "quote": "if there were a conversation going on that you were truly interested in?"
+        }
+      ],
+      "activation": "queried",
+      "source_rationale_id": "R7",
+      "utterance_kind": "question",
+      "decision_support": "none",
+      "all_mention_ids": [
+        "R7"
+      ]
+    },
+    {
+      "rationale_label": "product_appeal_assessment",
+      "direction": "positive",
+      "salience": "secondary",
+      "confidence": 0.88,
+      "utterance_type": "assessment",
+      "decision_link": "none",
+      "timing": "original_pitch",
+      "turn_index": 103,
+      "quote": "That’s interesting. That would be cool.",
+      "explanation": "Phil reacts favorably to using Goodtalk for live commentary about The Pitch.",
+      "evidence": [
+        "I really think it’s very cool.",
+        "That’s interesting. That would be cool."
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 68,
+          "speaker": "Phil",
+          "quote": "I really think it’s very cool."
+        },
+        {
+          "turn_index": 103,
+          "speaker": "Phil",
+          "quote": "That’s interesting. That would be cool."
+        }
+      ],
+      "activation": "evaluated",
+      "source_rationale_id": "R8",
+      "utterance_kind": "assessment",
+      "decision_support": "none",
+      "all_mention_ids": [
+        "R5",
+        "R8"
+      ]
+    }
+  ],
+  "later_rationales": [],
+  "excluded_rationales": [],
+  "rationale_mentions": [
+    {
+      "rationale_label": "business_model_assessment",
+      "direction": "neutral",
+      "salience": "secondary",
+      "confidence": 0.99,
+      "utterance_type": "question",
+      "decision_link": "none",
+      "timing": "original_pitch",
+      "turn_index": 33,
+      "quote": "But you gotta eventually bring in the revenue. So I want to see how that looks.",
+      "explanation": "Phil asks to understand the eventual revenue model after the audience-building phase.",
+      "evidence": [
+        "But you gotta eventually bring in the revenue. So I want to see how that looks."
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 33,
+          "speaker": "Phil",
+          "quote": "But you gotta eventually bring in the revenue. So I want to see how that looks."
+        }
+      ],
+      "activation": "queried",
+      "source_rationale_id": "R1"
+    },
+    {
+      "rationale_label": "investment_thesis_constraint",
+      "direction": "negative",
+      "salience": "primary",
+      "confidence": 0.99,
+      "utterance_type": "decision_explanation",
+      "decision_link": "supports_out",
+      "timing": "original_pitch",
+      "turn_index": 62,
+      "quote": "I never invest in pre-revenue companies",
+      "explanation": "Phil identifies his standing restriction against investing in companies before they generate revenue.",
+      "evidence": [
+        "I never invest in pre-revenue companies"
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 62,
+          "speaker": "Phil",
+          "quote": "I never invest in pre-revenue companies"
+        }
+      ],
+      "activation": "evaluated",
+      "source_rationale_id": "R2"
+    },
+    {
+      "rationale_label": "business_model_assessment",
+      "direction": "negative",
+      "salience": "primary",
+      "confidence": 0.98,
+      "utterance_type": "decision_explanation",
+      "decision_link": "supports_out",
+      "timing": "original_pitch",
+      "turn_index": 62,
+      "quote": "without seeing some early indication that someone’s willing to pay money for something",
+      "explanation": "Phil requires evidence of willingness to pay before he can judge a pre-revenue company investable.",
+      "evidence": [
+        "without seeing some early indication that someone’s willing to pay money for something"
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 62,
+          "speaker": "Phil",
+          "quote": "without seeing some early indication that someone’s willing to pay money for something"
+        }
+      ],
+      "activation": "evaluated",
+      "source_rationale_id": "R3"
+    },
+    {
+      "rationale_label": "investment_thesis_constraint",
+      "direction": "negative",
+      "salience": "primary",
+      "confidence": 0.97,
+      "utterance_type": "decision_explanation",
+      "decision_link": "supports_out",
+      "timing": "original_pitch",
+      "turn_index": 66,
+      "quote": "I’d love to get in on the next round when you’re monetizing",
+      "explanation": "Phil reiterates that monetization would be the condition for his participation, excluding the current pre-revenue round.",
+      "evidence": [
+        "I’d love to get in on the next round when you’re monetizing"
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 66,
+          "speaker": "Phil",
+          "quote": "I’d love to get in on the next round when you’re monetizing"
+        }
+      ],
+      "activation": "evaluated",
+      "source_rationale_id": "R4"
+    },
+    {
+      "rationale_label": "product_appeal_assessment",
+      "direction": "positive",
+      "salience": "secondary",
+      "confidence": 0.91,
+      "utterance_type": "assessment",
+      "decision_link": "none",
+      "timing": "original_pitch",
+      "turn_index": 68,
+      "quote": "I really think it’s very cool.",
+      "explanation": "Phil expresses a favorable personal reaction to the product despite not investing.",
+      "evidence": [
+        "I really think it’s very cool."
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 68,
+          "speaker": "Phil",
+          "quote": "I really think it’s very cool."
+        }
+      ],
+      "activation": "evaluated",
+      "source_rationale_id": "R5"
+    },
+    {
+      "rationale_label": "go_to_market_strategy_assessment",
+      "direction": "neutral",
+      "salience": "secondary",
+      "confidence": 0.84,
+      "utterance_type": "assessment",
+      "decision_link": "none",
+      "timing": "original_pitch",
+      "turn_index": 82,
+      "quote": "I mean, that’s it. That’s all you need.",
+      "explanation": "In response to the suggested Kardashian-driven breakout, Phil identifies prominent-user adoption as the pivotal launch catalyst.",
+      "evidence": [
+        "I mean, that’s it. That’s all you need."
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 82,
+          "speaker": "Phil",
+          "quote": "I mean, that’s it. That’s all you need."
+        }
+      ],
+      "activation": "evaluated",
+      "source_rationale_id": "R6"
+    },
+    {
+      "rationale_label": "product_adoption",
+      "direction": "neutral",
+      "salience": "secondary",
+      "confidence": 0.95,
+      "utterance_type": "question",
+      "decision_link": "none",
+      "timing": "original_pitch",
+      "turn_index": 91,
+      "quote": "if there were a conversation going on that you were truly interested in?",
+      "explanation": "Phil probes whether sufficiently relevant conversations could motivate recurring product use.",
+      "evidence": [
+        "if there were a conversation going on that you were truly interested in?"
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 91,
+          "speaker": "Phil",
+          "quote": "if there were a conversation going on that you were truly interested in?"
+        }
+      ],
+      "activation": "queried",
+      "source_rationale_id": "R7"
+    },
+    {
+      "rationale_label": "product_appeal_assessment",
+      "direction": "positive",
+      "salience": "secondary",
+      "confidence": 0.88,
+      "utterance_type": "assessment",
+      "decision_link": "none",
+      "timing": "original_pitch",
+      "turn_index": 103,
+      "quote": "That’s interesting. That would be cool.",
+      "explanation": "Phil reacts favorably to using Goodtalk for live commentary about The Pitch.",
+      "evidence": [
+        "That’s interesting. That would be cool."
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 103,
+          "speaker": "Phil",
+          "quote": "That’s interesting. That would be cool."
+        }
+      ],
+      "activation": "evaluated",
+      "source_rationale_id": "R8"
+    }
+  ],
+  "expanded_quote_evidence": [],
+  "rejected_after_evidence_check": []
+}

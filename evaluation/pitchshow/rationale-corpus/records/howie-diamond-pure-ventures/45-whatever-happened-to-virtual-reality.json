@@ -1,0 +1,1294 @@
+{
+  "schema": "phase1-rationale-reference-v1",
+  "extraction_version": "pitchshow-rationales-v1",
+  "fingerprint": "8e2c96e04e198589776237c63a18543268b0d30aeec74fdb2945d8da07a2d07e",
+  "episode_slug": "45-whatever-happened-to-virtual-reality",
+  "vc_slug": "howie-diamond-pure-ventures",
+  "vc_name": "Howie Diamond",
+  "actual_decision": "Out",
+  "later_decision": "In",
+  "reference_kind": "automated_transcript_observed_candidate",
+  "human_validated": false,
+  "source_format": "transcript-observed-rationales-v1",
+  "source_path": "/home/dpasch01/vclogic-vc-agentic-assessment/evaluation/pitchshow/investors/howie-diamond-pure-ventures/source/episodes/45-whatever-happened-to-virtual-reality.json",
+  "source_sha256": "2547f5dbf314c114d46ec991eb95dfa9a4a51ff2a0f80ea599960a13419c5778",
+  "transcript_sha256": "7759118769143eb2219921b2049a6a536632df2535bcf9e7bf7a9753c0d12254",
+  "taxonomy_sha256": "eaa8734819a3ac34dd19ee5f0bf6de925a793a1d25a2d361090dafc9b751e1fc",
+  "model": "codex:gpt-5.6-luna+gpt-5.6-sol",
+  "generation_stages": [
+    {
+      "phase": "rationale_extract",
+      "backend": "codex",
+      "model": "gpt-5.6-luna"
+    },
+    {
+      "phase": "rationale_verify",
+      "backend": "codex",
+      "model": "gpt-5.6-sol"
+    }
+  ],
+  "source_tier": "newly_extracted_and_independently_model_reviewed",
+  "reviewed_target_turns": [
+    0,
+    3,
+    17,
+    19,
+    25,
+    40,
+    42,
+    44,
+    59,
+    85,
+    96,
+    98,
+    100,
+    103,
+    106,
+    110,
+    112,
+    121,
+    122,
+    124,
+    129,
+    132,
+    138,
+    140,
+    142,
+    144,
+    146,
+    148,
+    150,
+    152,
+    154,
+    156,
+    158,
+    160,
+    162,
+    164,
+    166
+  ],
+  "notes": "",
+  "receipt_path": "/home/dpasch01/vclogic-vc-agentic-assessment/evaluation/pitchshow/investors/howie-diamond-pure-ventures/rationale-references/receipts/45-whatever-happened-to-virtual-reality.json",
+  "scoring_scope": "original_pitch_only",
+  "shared_across_input_modes": true,
+  "rationales": [
+    {
+      "rationale_label": "business_model_assessment",
+      "direction": "neutral",
+      "salience": "secondary",
+      "confidence": 0.98,
+      "utterance_type": "question",
+      "decision_link": "none",
+      "timing": "original_pitch",
+      "turn_index": 59,
+      "quote": "Sponsored posts are the only source of monetization?",
+      "explanation": "Howie questions the reliance on sponsored posts and probes whether licensing could provide another revenue stream.",
+      "evidence": [
+        "Is it a licensing type of deal?",
+        "Sponsored posts are the only source of monetization?"
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 44,
+          "speaker": "Howie",
+          "quote": "Is it a licensing type of deal?"
+        },
+        {
+          "turn_index": 59,
+          "speaker": "Howie",
+          "quote": "Sponsored posts are the only source of monetization?"
+        }
+      ],
+      "activation": "queried",
+      "source_rationale_id": "R7",
+      "utterance_kind": "question",
+      "decision_support": "none",
+      "all_mention_ids": [
+        "R6",
+        "R7"
+      ]
+    },
+    {
+      "rationale_label": "founder_communication_quality",
+      "direction": "positive",
+      "salience": "secondary",
+      "confidence": 0.98,
+      "utterance_type": "assessment",
+      "decision_link": "none",
+      "timing": "original_pitch",
+      "turn_index": 122,
+      "quote": "And then she completely turned it around.",
+      "explanation": "Howie credits Sophia with recovering successfully from the pitch's poor opening.",
+      "evidence": [
+        "And then she completely turned it around."
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 122,
+          "speaker": "Howie",
+          "quote": "And then she completely turned it around."
+        }
+      ],
+      "activation": "evaluated",
+      "source_rationale_id": "R19",
+      "utterance_kind": "assessment",
+      "decision_support": "none",
+      "all_mention_ids": [
+        "R19"
+      ]
+    },
+    {
+      "rationale_label": "founder_qualities",
+      "direction": "positive",
+      "salience": "secondary",
+      "confidence": 0.94,
+      "utterance_type": "assessment",
+      "decision_link": "none",
+      "timing": "original_pitch",
+      "turn_index": 110,
+      "quote": "I really like you",
+      "explanation": "Howie expresses a positive personal assessment of Sophia despite declining the current round.",
+      "evidence": [
+        "I really like you"
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 110,
+          "speaker": "Howie",
+          "quote": "I really like you"
+        }
+      ],
+      "activation": "evaluated",
+      "source_rationale_id": "R16",
+      "utterance_kind": "assessment",
+      "decision_support": "none",
+      "all_mention_ids": [
+        "R16"
+      ]
+    },
+    {
+      "rationale_label": "go_to_market_strategy_assessment",
+      "direction": "neutral",
+      "salience": "secondary",
+      "confidence": 0.94,
+      "utterance_type": "question",
+      "decision_link": "none",
+      "timing": "original_pitch",
+      "turn_index": 98,
+      "quote": "Do you have partnerships on that?",
+      "explanation": "Howie asks whether partnerships support the company's path into practical AR and VR applications.",
+      "evidence": [
+        "are you selling your API to Instagram?",
+        "Give me an example.",
+        "Do you have partnerships on that?"
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 40,
+          "speaker": "Howie",
+          "quote": "are you selling your API to Instagram?"
+        },
+        {
+          "turn_index": 42,
+          "speaker": "Howie",
+          "quote": "Give me an example."
+        },
+        {
+          "turn_index": 98,
+          "speaker": "Howie",
+          "quote": "Do you have partnerships on that?"
+        }
+      ],
+      "activation": "queried",
+      "source_rationale_id": "R11",
+      "utterance_kind": "question",
+      "decision_support": "none",
+      "all_mention_ids": [
+        "R4",
+        "R5",
+        "R11"
+      ]
+    },
+    {
+      "rationale_label": "investment_thesis_constraint",
+      "direction": "negative",
+      "salience": "primary",
+      "confidence": 0.94,
+      "utterance_type": "decision_reason",
+      "decision_link": "explicit",
+      "timing": "original_pitch",
+      "turn_index": 110,
+      "quote": "I usually like to swim in the post-seed waters; probably the round that would be coming after this.",
+      "explanation": "Howie explains that his preferred investment stage is later than SVRF's current round.",
+      "evidence": [
+        "I usually like to swim in the post-seed waters; probably the round that would be coming after this."
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 110,
+          "speaker": "Howie",
+          "quote": "I usually like to swim in the post-seed waters; probably the round that would be coming after this."
+        }
+      ],
+      "activation": "evaluated",
+      "source_rationale_id": "R14",
+      "utterance_kind": "decision_explanation",
+      "decision_support": "supports_out",
+      "all_mention_ids": [
+        "R14"
+      ]
+    },
+    {
+      "rationale_label": "investment_upside_assessment",
+      "direction": "negative",
+      "salience": "primary",
+      "confidence": 0.99,
+      "utterance_type": "decision_reason",
+      "decision_link": "explicit",
+      "timing": "original_pitch",
+      "turn_index": 110,
+      "quote": "I don't know how big the upside is",
+      "explanation": "Howie's uncertainty about the potential return is a major reason not to invest in the current round.",
+      "evidence": [
+        "I don't know how big the upside is"
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 110,
+          "speaker": "Howie",
+          "quote": "I don't know how big the upside is"
+        }
+      ],
+      "activation": "evaluated",
+      "source_rationale_id": "R13",
+      "utterance_kind": "decision_explanation",
+      "decision_support": "supports_out",
+      "all_mention_ids": [
+        "R13",
+        "R21"
+      ]
+    },
+    {
+      "rationale_label": "investor_experience_bias",
+      "direction": "positive",
+      "salience": "primary",
+      "confidence": 0.98,
+      "utterance_type": "assessment",
+      "decision_link": "none",
+      "timing": "original_pitch",
+      "turn_index": 110,
+      "quote": "I don't want to miss the boat on this",
+      "explanation": "Howie's imagined regret about passing on Snapchat makes him wary of overlooking another generational shift.",
+      "evidence": [
+        "I don't want to miss the boat on this"
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 110,
+          "speaker": "Howie",
+          "quote": "I don't want to miss the boat on this"
+        }
+      ],
+      "activation": "evaluated",
+      "source_rationale_id": "R18",
+      "utterance_kind": "supporting_argument",
+      "decision_support": "none",
+      "all_mention_ids": [
+        "R18"
+      ]
+    },
+    {
+      "rationale_label": "market_size_assessment",
+      "direction": "positive",
+      "salience": "primary",
+      "confidence": 0.98,
+      "utterance_type": "assessment",
+      "decision_link": "none",
+      "timing": "original_pitch",
+      "turn_index": 129,
+      "quote": "Because that's going to be a big, that's a big market.",
+      "explanation": "Howie argues that AR should remain prominent in the pitch because it represents a large market.",
+      "evidence": [
+        "Because that's going to be a big, that's a big market."
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 129,
+          "speaker": "Howie",
+          "quote": "Because that's going to be a big, that's a big market."
+        }
+      ],
+      "activation": "evaluated",
+      "source_rationale_id": "R20",
+      "utterance_kind": "supporting_argument",
+      "decision_support": "none",
+      "all_mention_ids": [
+        "R20"
+      ]
+    },
+    {
+      "rationale_label": "market_timing",
+      "direction": "positive",
+      "salience": "primary",
+      "confidence": 0.99,
+      "utterance_type": "assessment",
+      "decision_link": "none",
+      "timing": "original_pitch",
+      "turn_index": 98,
+      "quote": "this is a great time to invest in this type of sector",
+      "explanation": "Howie explicitly argues that the sector is at a favorable point for investment.",
+      "evidence": [
+        "AR seems to be more on the path with some market viability.",
+        "this is a great time to invest in this type of sector"
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 96,
+          "speaker": "Howie",
+          "quote": "AR seems to be more on the path with some market viability."
+        },
+        {
+          "turn_index": 98,
+          "speaker": "Howie",
+          "quote": "this is a great time to invest in this type of sector"
+        }
+      ],
+      "activation": "evaluated",
+      "source_rationale_id": "R9",
+      "utterance_kind": "supporting_argument",
+      "decision_support": "none",
+      "all_mention_ids": [
+        "R8",
+        "R9"
+      ]
+    },
+    {
+      "rationale_label": "product_adoption",
+      "direction": "positive",
+      "salience": "secondary",
+      "confidence": 0.84,
+      "utterance_type": "assessment",
+      "decision_link": "none",
+      "timing": "original_pitch",
+      "turn_index": 103,
+      "quote": "That is the new normal.",
+      "explanation": "Howie characterizes the use of transformed identities and immersive filters as normalized consumer behavior.",
+      "evidence": [
+        "That is the new normal."
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 103,
+          "speaker": "Howie",
+          "quote": "That is the new normal."
+        }
+      ],
+      "activation": "evaluated",
+      "source_rationale_id": "R12",
+      "utterance_kind": "assessment",
+      "decision_support": "none",
+      "all_mention_ids": [
+        "R12"
+      ]
+    },
+    {
+      "rationale_label": "product_appeal_assessment",
+      "direction": "positive",
+      "salience": "secondary",
+      "confidence": 0.92,
+      "utterance_type": "assessment",
+      "decision_link": "none",
+      "timing": "original_pitch",
+      "turn_index": 110,
+      "quote": "I like this.",
+      "explanation": "Howie states that the product and opportunity appeal to him.",
+      "evidence": [
+        "I like this."
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 110,
+          "speaker": "Howie",
+          "quote": "I like this."
+        }
+      ],
+      "activation": "evaluated",
+      "source_rationale_id": "R17",
+      "utterance_kind": "assessment",
+      "decision_support": "none",
+      "all_mention_ids": [
+        "R17"
+      ]
+    },
+    {
+      "rationale_label": "product_differentiation_concern",
+      "direction": "neutral",
+      "salience": "secondary",
+      "confidence": 0.88,
+      "utterance_type": "assessment",
+      "decision_link": "none",
+      "timing": "original_pitch",
+      "turn_index": 40,
+      "quote": "So Apple, Instagram, Snapchat, they're already doing this.",
+      "explanation": "Howie notes that major platforms already provide related functionality, raising the question of SVRF's distinct role.",
+      "evidence": [
+        "they’re starting to do that on Instagram",
+        "So Apple, Instagram, Snapchat, they're already doing this."
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 25,
+          "speaker": "Howie",
+          "quote": "they’re starting to do that on Instagram"
+        },
+        {
+          "turn_index": 40,
+          "speaker": "Howie",
+          "quote": "So Apple, Instagram, Snapchat, they're already doing this."
+        }
+      ],
+      "activation": "evaluated",
+      "source_rationale_id": "R3",
+      "utterance_kind": "assessment",
+      "decision_support": "none",
+      "all_mention_ids": [
+        "R2",
+        "R3"
+      ]
+    },
+    {
+      "rationale_label": "solution_feasibility_assessment",
+      "direction": "neutral",
+      "salience": "secondary",
+      "confidence": 0.87,
+      "utterance_type": "question",
+      "decision_link": "none",
+      "timing": "original_pitch",
+      "turn_index": 98,
+      "quote": "can you talk about any of the exciting things of how this content could be practically applied or implemented through AR/VR?",
+      "explanation": "Howie asks about practical ways the content can be implemented through AR and VR.",
+      "evidence": [
+        "can you talk about any of the exciting things of how this content could be practically applied or implemented through AR/VR?"
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 98,
+          "speaker": "Howie",
+          "quote": "can you talk about any of the exciting things of how this content could be practically applied or implemented through AR/VR?"
+        }
+      ],
+      "activation": "queried",
+      "source_rationale_id": "R10",
+      "utterance_kind": "question",
+      "decision_support": "none",
+      "all_mention_ids": [
+        "R10"
+      ]
+    },
+    {
+      "rationale_label": "traction_repeatability_concern",
+      "direction": "negative",
+      "salience": "primary",
+      "confidence": 0.99,
+      "utterance_type": "decision_reason",
+      "decision_link": "explicit",
+      "timing": "original_pitch",
+      "turn_index": 110,
+      "quote": "have more metrics to really understand how people are engaging, are they re-engaging",
+      "explanation": "Howie wants stronger evidence of engagement and repeat usage before investing.",
+      "evidence": [
+        "have more metrics to really understand how people are engaging, are they re-engaging"
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 110,
+          "speaker": "Howie",
+          "quote": "have more metrics to really understand how people are engaging, are they re-engaging"
+        }
+      ],
+      "activation": "evaluated",
+      "source_rationale_id": "R15",
+      "utterance_kind": "decision_explanation",
+      "decision_support": "supports_out",
+      "all_mention_ids": [
+        "R15"
+      ]
+    }
+  ],
+  "later_rationales": [
+    {
+      "rationale_label": "market_timing",
+      "direction": "positive",
+      "salience": "primary",
+      "confidence": 0.99,
+      "utterance_type": "decision_explanation",
+      "decision_link": "supports_in",
+      "timing": "later_commentary",
+      "turn_index": 138,
+      "quote": "it is at a low uh point, which is a good thing for investment",
+      "explanation": "Howie explains that the sector's post-hype low creates a favorable investment window.",
+      "evidence": [
+        "it is at a low uh point, which is a good thing for investment"
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 138,
+          "speaker": "Howie",
+          "quote": "it is at a low uh point, which is a good thing for investment"
+        }
+      ],
+      "activation": "evaluated",
+      "source_rationale_id": "R22"
+    },
+    {
+      "rationale_label": "investment_upside_assessment",
+      "direction": "positive",
+      "salience": "secondary",
+      "confidence": 0.96,
+      "utterance_type": "decision_explanation",
+      "decision_link": "supports_in",
+      "timing": "later_commentary",
+      "turn_index": 138,
+      "quote": "I can get great prices into",
+      "explanation": "Howie views the market correction as allowing investments at attractive entry prices.",
+      "evidence": [
+        "I can get great prices into"
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 138,
+          "speaker": "Howie",
+          "quote": "I can get great prices into"
+        }
+      ],
+      "activation": "evaluated",
+      "source_rationale_id": "R23"
+    },
+    {
+      "rationale_label": "market_timing",
+      "direction": "positive",
+      "salience": "primary",
+      "confidence": 0.98,
+      "utterance_type": "decision_explanation",
+      "decision_link": "supports_in",
+      "timing": "later_commentary",
+      "turn_index": 140,
+      "quote": "going to be built in a more sustainable manner",
+      "explanation": "Howie believes AR and VR are entering a more sustainable phase after the earlier hype and correction.",
+      "evidence": [
+        "going to be built in a more sustainable manner"
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 140,
+          "speaker": "Howie",
+          "quote": "going to be built in a more sustainable manner"
+        }
+      ],
+      "activation": "evaluated",
+      "source_rationale_id": "R24"
+    },
+    {
+      "rationale_label": "competitive_advantage_assessment",
+      "direction": "positive",
+      "salience": "secondary",
+      "confidence": 0.92,
+      "utterance_type": "decision_explanation",
+      "decision_link": "supports_in",
+      "timing": "later_commentary",
+      "turn_index": 140,
+      "quote": "SVRF is at the forefront of that",
+      "explanation": "Howie views SVRF as an early leader in the sector's more sustainable development phase.",
+      "evidence": [
+        "SVRF is at the forefront of that"
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 140,
+          "speaker": "Howie",
+          "quote": "SVRF is at the forefront of that"
+        }
+      ],
+      "activation": "evaluated",
+      "source_rationale_id": "R25"
+    },
+    {
+      "rationale_label": "market_timing",
+      "direction": "positive",
+      "salience": "secondary",
+      "confidence": 0.97,
+      "utterance_type": "supporting_argument",
+      "decision_link": "none",
+      "timing": "later_commentary",
+      "turn_index": 142,
+      "quote": "it’s become more mature",
+      "explanation": "Howie believes immersive technology has matured into a substantially more developed category.",
+      "evidence": [
+        "it’s become more mature"
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 142,
+          "speaker": "Howie",
+          "quote": "it’s become more mature"
+        }
+      ],
+      "activation": "evaluated",
+      "source_rationale_id": "R26"
+    },
+    {
+      "rationale_label": "market_timing",
+      "direction": "positive",
+      "salience": "secondary",
+      "confidence": 0.95,
+      "utterance_type": "supporting_argument",
+      "decision_link": "none",
+      "timing": "later_commentary",
+      "turn_index": 144,
+      "quote": "then it starts to grow um more incrementally and more sustainably",
+      "explanation": "Howie uses the hype-cycle framework to argue that a post-correction technology can enter sustainable growth.",
+      "evidence": [
+        "then it starts to grow um more incrementally and more sustainably"
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 144,
+          "speaker": "Howie",
+          "quote": "then it starts to grow um more incrementally and more sustainably"
+        }
+      ],
+      "activation": "evaluated",
+      "source_rationale_id": "R27"
+    },
+    {
+      "rationale_label": "market_timing",
+      "direction": "positive",
+      "salience": "secondary",
+      "confidence": 0.86,
+      "utterance_type": "supporting_argument",
+      "decision_link": "none",
+      "timing": "later_commentary",
+      "turn_index": 148,
+      "quote": "a lot of, a lot of technologies have to go through this cycle",
+      "explanation": "Howie argues that the category's boom-and-correction cycle is a normal part of technological maturation.",
+      "evidence": [
+        "a lot of, a lot of technologies have to go through this cycle"
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 148,
+          "speaker": "Howie",
+          "quote": "a lot of, a lot of technologies have to go through this cycle"
+        }
+      ],
+      "activation": "evaluated",
+      "source_rationale_id": "R28"
+    },
+    {
+      "rationale_label": "market_timing",
+      "direction": "positive",
+      "salience": "primary",
+      "confidence": 0.98,
+      "utterance_type": "assessment",
+      "decision_link": "none",
+      "timing": "later_commentary",
+      "turn_index": 150,
+      "quote": "AR/VR is, is on the upward slope of enlightenment right now",
+      "explanation": "Howie believes AR and VR have moved into a favorable phase of renewed, sustainable development.",
+      "evidence": [
+        "AR/VR is, is on the upward slope of enlightenment right now"
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 150,
+          "speaker": "Howie",
+          "quote": "AR/VR is, is on the upward slope of enlightenment right now"
+        }
+      ],
+      "activation": "evaluated",
+      "source_rationale_id": "R29"
+    },
+    {
+      "rationale_label": "market_timing",
+      "direction": "positive",
+      "salience": "secondary",
+      "confidence": 0.9,
+      "utterance_type": "supporting_argument",
+      "decision_link": "none",
+      "timing": "later_commentary",
+      "turn_index": 154,
+      "quote": "It’s a new way for us to consume and, you know, dive into these worlds",
+      "explanation": "Howie sees smartphone-enabled immersive media as an emerging form of consumer experience.",
+      "evidence": [
+        "It’s a new way for us to consume and, you know, dive into these worlds"
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 154,
+          "speaker": "Howie",
+          "quote": "It’s a new way for us to consume and, you know, dive into these worlds"
+        }
+      ],
+      "activation": "evaluated",
+      "source_rationale_id": "R30"
+    },
+    {
+      "rationale_label": "founder_execution",
+      "direction": "positive",
+      "salience": "primary",
+      "confidence": 0.99,
+      "utterance_type": "decision_explanation",
+      "decision_link": "supports_in",
+      "timing": "later_commentary",
+      "turn_index": 160,
+      "quote": "we don’t just invest in ideas and speculation, we invest in executions",
+      "explanation": "Howie explains that SVRF's demonstrated execution, rather than a merely speculative idea, drove the investment.",
+      "evidence": [
+        "we don’t just invest in ideas and speculation, we invest in executions"
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 160,
+          "speaker": "Howie",
+          "quote": "we don’t just invest in ideas and speculation, we invest in executions"
+        }
+      ],
+      "activation": "evaluated",
+      "source_rationale_id": "R31"
+    },
+    {
+      "rationale_label": "investment_upside_assessment",
+      "direction": "positive",
+      "salience": "primary",
+      "confidence": 0.97,
+      "utterance_type": "decision_explanation",
+      "decision_link": "supports_in",
+      "timing": "later_commentary",
+      "turn_index": 160,
+      "quote": "we have conviction that SVRF is going to be the search engine for immersives",
+      "explanation": "Howie believes SVRF can become the category-defining search platform for immersive content.",
+      "evidence": [
+        "we have conviction that SVRF is going to be the search engine for immersives"
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 160,
+          "speaker": "Howie",
+          "quote": "we have conviction that SVRF is going to be the search engine for immersives"
+        }
+      ],
+      "activation": "evaluated",
+      "source_rationale_id": "R32"
+    }
+  ],
+  "excluded_rationales": [
+    {
+      "rationale_label": "founder_communication_quality",
+      "direction": "negative",
+      "salience": "secondary",
+      "confidence": 0.96,
+      "utterance_type": "assessment",
+      "decision_link": "none",
+      "timing": "teaser",
+      "turn_index": 0,
+      "quote": "I saw the flames, and I saw it going down",
+      "explanation": "Howie characterizes the pitch's opening delivery as failing badly.",
+      "evidence": [
+        "I saw the flames, and I saw it going down"
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 0,
+          "speaker": "Howie",
+          "quote": "I saw the flames, and I saw it going down"
+        }
+      ],
+      "activation": "evaluated",
+      "source_rationale_id": "R1"
+    }
+  ],
+  "rationale_mentions": [
+    {
+      "rationale_label": "product_differentiation_concern",
+      "direction": "neutral",
+      "salience": "secondary",
+      "confidence": 0.77,
+      "utterance_type": "assessment",
+      "decision_link": "none",
+      "timing": "original_pitch",
+      "turn_index": 25,
+      "quote": "they’re starting to do that on Instagram",
+      "explanation": "Howie observes that a major incumbent is introducing a similar immersive-content feature.",
+      "evidence": [
+        "they’re starting to do that on Instagram"
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 25,
+          "speaker": "Howie",
+          "quote": "they’re starting to do that on Instagram"
+        }
+      ],
+      "activation": "evaluated",
+      "source_rationale_id": "R2"
+    },
+    {
+      "rationale_label": "product_differentiation_concern",
+      "direction": "neutral",
+      "salience": "secondary",
+      "confidence": 0.88,
+      "utterance_type": "assessment",
+      "decision_link": "none",
+      "timing": "original_pitch",
+      "turn_index": 40,
+      "quote": "So Apple, Instagram, Snapchat, they're already doing this.",
+      "explanation": "Howie notes that major platforms already provide related functionality, raising the question of SVRF's distinct role.",
+      "evidence": [
+        "So Apple, Instagram, Snapchat, they're already doing this."
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 40,
+          "speaker": "Howie",
+          "quote": "So Apple, Instagram, Snapchat, they're already doing this."
+        }
+      ],
+      "activation": "evaluated",
+      "source_rationale_id": "R3"
+    },
+    {
+      "rationale_label": "go_to_market_strategy_assessment",
+      "direction": "neutral",
+      "salience": "secondary",
+      "confidence": 0.96,
+      "utterance_type": "question",
+      "decision_link": "none",
+      "timing": "original_pitch",
+      "turn_index": 40,
+      "quote": "are you selling your API to Instagram?",
+      "explanation": "Howie asks whether major social platforms are customers for SVRF's API.",
+      "evidence": [
+        "are you selling your API to Instagram?"
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 40,
+          "speaker": "Howie",
+          "quote": "are you selling your API to Instagram?"
+        }
+      ],
+      "activation": "queried",
+      "source_rationale_id": "R4"
+    },
+    {
+      "rationale_label": "go_to_market_strategy_assessment",
+      "direction": "neutral",
+      "salience": "secondary",
+      "confidence": 0.88,
+      "utterance_type": "question",
+      "decision_link": "none",
+      "timing": "original_pitch",
+      "turn_index": 42,
+      "quote": "Give me an example.",
+      "explanation": "In context, Howie asks for a concrete example of an API distribution partnership.",
+      "evidence": [
+        "Give me an example."
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 42,
+          "speaker": "Howie",
+          "quote": "Give me an example."
+        }
+      ],
+      "activation": "queried",
+      "source_rationale_id": "R5"
+    },
+    {
+      "rationale_label": "business_model_assessment",
+      "direction": "neutral",
+      "salience": "secondary",
+      "confidence": 0.97,
+      "utterance_type": "question",
+      "decision_link": "none",
+      "timing": "original_pitch",
+      "turn_index": 44,
+      "quote": "Is it a licensing type of deal?",
+      "explanation": "Howie probes whether the partnership has a licensing-based commercial structure.",
+      "evidence": [
+        "Is it a licensing type of deal?"
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 44,
+          "speaker": "Howie",
+          "quote": "Is it a licensing type of deal?"
+        }
+      ],
+      "activation": "queried",
+      "source_rationale_id": "R6"
+    },
+    {
+      "rationale_label": "business_model_assessment",
+      "direction": "neutral",
+      "salience": "secondary",
+      "confidence": 0.98,
+      "utterance_type": "question",
+      "decision_link": "none",
+      "timing": "original_pitch",
+      "turn_index": 59,
+      "quote": "Sponsored posts are the only source of monetization?",
+      "explanation": "Howie questions the reliance on sponsored posts and probes whether licensing could provide another revenue stream.",
+      "evidence": [
+        "Sponsored posts are the only source of monetization?"
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 59,
+          "speaker": "Howie",
+          "quote": "Sponsored posts are the only source of monetization?"
+        }
+      ],
+      "activation": "queried",
+      "source_rationale_id": "R7"
+    },
+    {
+      "rationale_label": "market_timing",
+      "direction": "positive",
+      "salience": "secondary",
+      "confidence": 0.96,
+      "utterance_type": "assessment",
+      "decision_link": "none",
+      "timing": "original_pitch",
+      "turn_index": 96,
+      "quote": "AR seems to be more on the path with some market viability.",
+      "explanation": "Howie believes AR is showing greater current market viability than VR.",
+      "evidence": [
+        "AR seems to be more on the path with some market viability."
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 96,
+          "speaker": "Howie",
+          "quote": "AR seems to be more on the path with some market viability."
+        }
+      ],
+      "activation": "evaluated",
+      "source_rationale_id": "R8"
+    },
+    {
+      "rationale_label": "market_timing",
+      "direction": "positive",
+      "salience": "primary",
+      "confidence": 0.99,
+      "utterance_type": "supporting_argument",
+      "decision_link": "none",
+      "timing": "original_pitch",
+      "turn_index": 98,
+      "quote": "this is a great time to invest in this type of sector",
+      "explanation": "Howie explicitly argues that the sector is at a favorable point for investment.",
+      "evidence": [
+        "this is a great time to invest in this type of sector"
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 98,
+          "speaker": "Howie",
+          "quote": "this is a great time to invest in this type of sector"
+        }
+      ],
+      "activation": "evaluated",
+      "source_rationale_id": "R9"
+    },
+    {
+      "rationale_label": "solution_feasibility_assessment",
+      "direction": "neutral",
+      "salience": "secondary",
+      "confidence": 0.87,
+      "utterance_type": "question",
+      "decision_link": "none",
+      "timing": "original_pitch",
+      "turn_index": 98,
+      "quote": "can you talk about any of the exciting things of how this content could be practically applied or implemented through AR/VR?",
+      "explanation": "Howie asks about practical ways the content can be implemented through AR and VR.",
+      "evidence": [
+        "can you talk about any of the exciting things of how this content could be practically applied or implemented through AR/VR?"
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 98,
+          "speaker": "Howie",
+          "quote": "can you talk about any of the exciting things of how this content could be practically applied or implemented through AR/VR?"
+        }
+      ],
+      "activation": "queried",
+      "source_rationale_id": "R10"
+    },
+    {
+      "rationale_label": "go_to_market_strategy_assessment",
+      "direction": "neutral",
+      "salience": "secondary",
+      "confidence": 0.94,
+      "utterance_type": "question",
+      "decision_link": "none",
+      "timing": "original_pitch",
+      "turn_index": 98,
+      "quote": "Do you have partnerships on that?",
+      "explanation": "Howie asks whether partnerships support the company's path into practical AR and VR applications.",
+      "evidence": [
+        "Do you have partnerships on that?"
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 98,
+          "speaker": "Howie",
+          "quote": "Do you have partnerships on that?"
+        }
+      ],
+      "activation": "queried",
+      "source_rationale_id": "R11"
+    },
+    {
+      "rationale_label": "product_adoption",
+      "direction": "positive",
+      "salience": "secondary",
+      "confidence": 0.84,
+      "utterance_type": "assessment",
+      "decision_link": "none",
+      "timing": "original_pitch",
+      "turn_index": 103,
+      "quote": "That is the new normal.",
+      "explanation": "Howie characterizes the use of transformed identities and immersive filters as normalized consumer behavior.",
+      "evidence": [
+        "That is the new normal."
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 103,
+          "speaker": "Howie",
+          "quote": "That is the new normal."
+        }
+      ],
+      "activation": "evaluated",
+      "source_rationale_id": "R12"
+    },
+    {
+      "rationale_label": "investment_upside_assessment",
+      "direction": "negative",
+      "salience": "primary",
+      "confidence": 0.99,
+      "utterance_type": "decision_explanation",
+      "decision_link": "supports_out",
+      "timing": "original_pitch",
+      "turn_index": 110,
+      "quote": "I don't know how big the upside is",
+      "explanation": "Howie's uncertainty about the potential return is a major reason not to invest in the current round.",
+      "evidence": [
+        "I don't know how big the upside is"
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 110,
+          "speaker": "Howie",
+          "quote": "I don't know how big the upside is"
+        }
+      ],
+      "activation": "evaluated",
+      "source_rationale_id": "R13"
+    },
+    {
+      "rationale_label": "investment_thesis_constraint",
+      "direction": "negative",
+      "salience": "primary",
+      "confidence": 0.94,
+      "utterance_type": "decision_explanation",
+      "decision_link": "supports_out",
+      "timing": "original_pitch",
+      "turn_index": 110,
+      "quote": "I usually like to swim in the post-seed waters; probably the round that would be coming after this.",
+      "explanation": "Howie explains that his preferred investment stage is later than SVRF's current round.",
+      "evidence": [
+        "I usually like to swim in the post-seed waters; probably the round that would be coming after this."
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 110,
+          "speaker": "Howie",
+          "quote": "I usually like to swim in the post-seed waters; probably the round that would be coming after this."
+        }
+      ],
+      "activation": "evaluated",
+      "source_rationale_id": "R14"
+    },
+    {
+      "rationale_label": "traction_repeatability_concern",
+      "direction": "negative",
+      "salience": "primary",
+      "confidence": 0.99,
+      "utterance_type": "decision_explanation",
+      "decision_link": "supports_out",
+      "timing": "original_pitch",
+      "turn_index": 110,
+      "quote": "have more metrics to really understand how people are engaging, are they re-engaging",
+      "explanation": "Howie wants stronger evidence of engagement and repeat usage before investing.",
+      "evidence": [
+        "have more metrics to really understand how people are engaging, are they re-engaging"
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 110,
+          "speaker": "Howie",
+          "quote": "have more metrics to really understand how people are engaging, are they re-engaging"
+        }
+      ],
+      "activation": "evaluated",
+      "source_rationale_id": "R15"
+    },
+    {
+      "rationale_label": "founder_qualities",
+      "direction": "positive",
+      "salience": "secondary",
+      "confidence": 0.94,
+      "utterance_type": "assessment",
+      "decision_link": "none",
+      "timing": "original_pitch",
+      "turn_index": 110,
+      "quote": "I really like you",
+      "explanation": "Howie expresses a positive personal assessment of Sophia despite declining the current round.",
+      "evidence": [
+        "I really like you"
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 110,
+          "speaker": "Howie",
+          "quote": "I really like you"
+        }
+      ],
+      "activation": "evaluated",
+      "source_rationale_id": "R16"
+    },
+    {
+      "rationale_label": "product_appeal_assessment",
+      "direction": "positive",
+      "salience": "secondary",
+      "confidence": 0.92,
+      "utterance_type": "assessment",
+      "decision_link": "none",
+      "timing": "original_pitch",
+      "turn_index": 110,
+      "quote": "I like this.",
+      "explanation": "Howie states that the product and opportunity appeal to him.",
+      "evidence": [
+        "I like this."
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 110,
+          "speaker": "Howie",
+          "quote": "I like this."
+        }
+      ],
+      "activation": "evaluated",
+      "source_rationale_id": "R17"
+    },
+    {
+      "rationale_label": "investor_experience_bias",
+      "direction": "positive",
+      "salience": "primary",
+      "confidence": 0.98,
+      "utterance_type": "supporting_argument",
+      "decision_link": "none",
+      "timing": "original_pitch",
+      "turn_index": 110,
+      "quote": "I don't want to miss the boat on this",
+      "explanation": "Howie's imagined regret about passing on Snapchat makes him wary of overlooking another generational shift.",
+      "evidence": [
+        "I don't want to miss the boat on this"
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 110,
+          "speaker": "Howie",
+          "quote": "I don't want to miss the boat on this"
+        }
+      ],
+      "activation": "evaluated",
+      "source_rationale_id": "R18"
+    },
+    {
+      "rationale_label": "founder_communication_quality",
+      "direction": "positive",
+      "salience": "secondary",
+      "confidence": 0.98,
+      "utterance_type": "assessment",
+      "decision_link": "none",
+      "timing": "original_pitch",
+      "turn_index": 122,
+      "quote": "And then she completely turned it around.",
+      "explanation": "Howie credits Sophia with recovering successfully from the pitch's poor opening.",
+      "evidence": [
+        "And then she completely turned it around."
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 122,
+          "speaker": "Howie",
+          "quote": "And then she completely turned it around."
+        }
+      ],
+      "activation": "evaluated",
+      "source_rationale_id": "R19"
+    },
+    {
+      "rationale_label": "market_size_assessment",
+      "direction": "positive",
+      "salience": "primary",
+      "confidence": 0.98,
+      "utterance_type": "supporting_argument",
+      "decision_link": "none",
+      "timing": "original_pitch",
+      "turn_index": 129,
+      "quote": "Because that's going to be a big, that's a big market.",
+      "explanation": "Howie argues that AR should remain prominent in the pitch because it represents a large market.",
+      "evidence": [
+        "Because that's going to be a big, that's a big market."
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 129,
+          "speaker": "Howie",
+          "quote": "Because that's going to be a big, that's a big market."
+        }
+      ],
+      "activation": "evaluated",
+      "source_rationale_id": "R20"
+    },
+    {
+      "rationale_label": "investment_upside_assessment",
+      "direction": "neutral",
+      "salience": "secondary",
+      "confidence": 0.89,
+      "utterance_type": "question",
+      "decision_link": "none",
+      "timing": "original_pitch",
+      "turn_index": 132,
+      "quote": "What’s the valuation of Giphy?",
+      "explanation": "Howie seeks the valuation of a comparable content-search company as a benchmark for SVRF's potential upside.",
+      "evidence": [
+        "What’s the valuation of Giphy?"
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 132,
+          "speaker": "Howie",
+          "quote": "What’s the valuation of Giphy?"
+        }
+      ],
+      "activation": "queried",
+      "source_rationale_id": "R21"
+    }
+  ],
+  "expanded_quote_evidence": [],
+  "rejected_after_evidence_check": []
+}

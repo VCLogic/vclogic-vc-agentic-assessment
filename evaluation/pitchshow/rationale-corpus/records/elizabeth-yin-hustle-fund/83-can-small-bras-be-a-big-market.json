@@ -1,0 +1,1184 @@
+{
+  "schema": "phase1-rationale-reference-v1",
+  "extraction_version": "pitchshow-rationales-v1",
+  "fingerprint": "a95da910a2a5743045d0990a42838b1a4113b4a42e62b6ec6d77a802b546deae",
+  "episode_slug": "83-can-small-bras-be-a-big-market",
+  "vc_slug": "elizabeth-yin-hustle-fund",
+  "vc_name": "Elizabeth Yin",
+  "actual_decision": "Out",
+  "later_decision": "Out",
+  "reference_kind": "automated_transcript_observed_candidate",
+  "human_validated": false,
+  "source_format": "transcript-observed-rationales-v1",
+  "source_path": "/home/dpasch01/vclogic-vc-agentic-assessment/evaluation/pitchshow/investors/elizabeth-yin-hustle-fund/source/episodes/83-can-small-bras-be-a-big-market.json",
+  "source_sha256": "5f43014f0694f315503f19a12892aab44a236e13eca5c103ed356be3f84698d0",
+  "transcript_sha256": "1d6b8df3bed742b891424b4967fa677276bcec38a8bbf5c429c68cdc5dc74608",
+  "taxonomy_sha256": "eaa8734819a3ac34dd19ee5f0bf6de925a793a1d25a2d361090dafc9b751e1fc",
+  "model": "codex:gpt-5.6-luna+gpt-5.6-sol",
+  "generation_stages": [
+    {
+      "phase": "rationale_extract",
+      "backend": "codex",
+      "model": "gpt-5.6-luna"
+    },
+    {
+      "phase": "rationale_verify",
+      "backend": "codex",
+      "model": "gpt-5.6-sol"
+    }
+  ],
+  "source_tier": "newly_extracted_and_independently_model_reviewed",
+  "reviewed_target_turns": [
+    11,
+    15,
+    21,
+    23,
+    30,
+    39,
+    41,
+    43,
+    57,
+    64,
+    66,
+    68,
+    70,
+    71,
+    72,
+    73,
+    75,
+    77,
+    79,
+    81,
+    83,
+    88,
+    90,
+    93,
+    95,
+    108,
+    109,
+    111,
+    113,
+    118,
+    120
+  ],
+  "notes": "Turn 71 is a previewed future clip and is therefore marked teaser. Turn 118 is the immediate same-room investor debrief and remains original_pitch. Generic reactions, simple confirmations, descriptive handling of the product, logistical next steps, and the repeated pass at turn 109 without its substantive reason were not treated as separate rationales.",
+  "receipt_path": "/home/dpasch01/vclogic-vc-agentic-assessment/evaluation/pitchshow/investors/elizabeth-yin-hustle-fund/rationale-references/receipts/83-can-small-bras-be-a-big-market.json",
+  "scoring_scope": "original_pitch_only",
+  "shared_across_input_modes": true,
+  "rationales": [
+    {
+      "rationale_label": "business_model_assessment",
+      "direction": "positive",
+      "salience": "primary",
+      "confidence": 0.9,
+      "utterance_type": "decision_reason",
+      "decision_link": "explicit",
+      "timing": "original_pitch",
+      "turn_index": 118,
+      "quote": "I just have to believe, can she pay me back with interest. And I would take that bet any day.",
+      "explanation": "She considers Pepper capable of supporting a revenue-based financing arrangement and explicitly says she would take that financing bet.",
+      "evidence": [
+        "Yeah. It’s fine.",
+        "for like a pretty everyday casual bra, this is like in line",
+        "I believe there are a lot of upsell opportunities",
+        "I just have to believe, can she pay me back with interest. And I would take that bet any day."
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 57,
+          "speaker": "Elizabeth",
+          "quote": "Yeah. It’s fine."
+        },
+        {
+          "turn_index": 68,
+          "speaker": "Elizabeth",
+          "quote": "for like a pretty everyday casual bra, this is like in line"
+        },
+        {
+          "turn_index": 90,
+          "speaker": "Elizabeth",
+          "quote": "I believe there are a lot of upsell opportunities"
+        },
+        {
+          "turn_index": 118,
+          "speaker": "Elizabeth",
+          "quote": "I just have to believe, can she pay me back with interest. And I would take that bet any day."
+        }
+      ],
+      "activation": "evaluated",
+      "source_rationale_id": "R27",
+      "utterance_kind": "decision_explanation",
+      "decision_support": "supports_in",
+      "all_mention_ids": [
+        "R1",
+        "R4",
+        "R5",
+        "R21",
+        "R27"
+      ]
+    },
+    {
+      "rationale_label": "business_viability_concern",
+      "direction": "negative",
+      "salience": "secondary",
+      "confidence": 0.93,
+      "utterance_type": "assessment",
+      "decision_link": "none",
+      "timing": "original_pitch",
+      "turn_index": 83,
+      "quote": "ecommerce scares me as a category because there are just so many additional challenges that pure software doesn't have",
+      "explanation": "She views ecommerce as carrying significant operational and economic challenges compared with software.",
+      "evidence": [
+        "ecommerce scares me as a category because there are just so many additional challenges that pure software doesn't have"
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 83,
+          "speaker": "Elizabeth",
+          "quote": "ecommerce scares me as a category because there are just so many additional challenges that pure software doesn't have"
+        }
+      ],
+      "activation": "evaluated",
+      "source_rationale_id": "R15",
+      "utterance_kind": "concern",
+      "decision_support": "none",
+      "all_mention_ids": [
+        "R15"
+      ]
+    },
+    {
+      "rationale_label": "competitive_advantage_assessment",
+      "direction": "positive",
+      "salience": "secondary",
+      "confidence": 0.94,
+      "utterance_type": "assessment",
+      "decision_link": "none",
+      "timing": "original_pitch",
+      "turn_index": 95,
+      "quote": "You’re like first thought for this audience.",
+      "explanation": "She sees Pepper's potential to become the target audience's top-of-mind brand as a competitive advantage.",
+      "evidence": [
+        "this is like a first-mover, hustle advantage",
+        "You’re like first thought for this audience."
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 83,
+          "speaker": "Elizabeth",
+          "quote": "this is like a first-mover, hustle advantage"
+        },
+        {
+          "turn_index": 95,
+          "speaker": "Elizabeth",
+          "quote": "You’re like first thought for this audience."
+        }
+      ],
+      "activation": "evaluated",
+      "source_rationale_id": "R22",
+      "utterance_kind": "assessment",
+      "decision_support": "none",
+      "all_mention_ids": [
+        "R19",
+        "R22"
+      ]
+    },
+    {
+      "rationale_label": "competitive_intensity_concern",
+      "direction": "negative",
+      "salience": "primary",
+      "confidence": 0.99,
+      "utterance_type": "assessment",
+      "decision_link": "none",
+      "timing": "original_pitch",
+      "turn_index": 83,
+      "quote": "Competition. So competition's a big one.",
+      "explanation": "She explicitly identifies competition as a major concern.",
+      "evidence": [
+        "you have people kind of going after this demographic",
+        "But they're in the space.",
+        "Competition. So competition's a big one."
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 77,
+          "speaker": "Elizabeth",
+          "quote": "you have people kind of going after this demographic"
+        },
+        {
+          "turn_index": 79,
+          "speaker": "Elizabeth",
+          "quote": "But they're in the space."
+        },
+        {
+          "turn_index": 83,
+          "speaker": "Elizabeth",
+          "quote": "Competition. So competition's a big one."
+        }
+      ],
+      "activation": "evaluated",
+      "source_rationale_id": "R14",
+      "utterance_kind": "concern",
+      "decision_support": "none",
+      "all_mention_ids": [
+        "R11",
+        "R12",
+        "R14"
+      ]
+    },
+    {
+      "rationale_label": "founder_communication_quality",
+      "direction": "positive",
+      "salience": "secondary",
+      "confidence": 0.96,
+      "utterance_type": "assessment",
+      "decision_link": "none",
+      "timing": "original_pitch",
+      "turn_index": 108,
+      "quote": "I think you answered everything perfectly.",
+      "explanation": "She positively assesses the founder's responses during the pitch.",
+      "evidence": [
+        "I think you answered everything perfectly."
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 108,
+          "speaker": "Elizabeth",
+          "quote": "I think you answered everything perfectly."
+        }
+      ],
+      "activation": "evaluated",
+      "source_rationale_id": "R23",
+      "utterance_kind": "assessment",
+      "decision_support": "none",
+      "all_mention_ids": [
+        "R23"
+      ]
+    },
+    {
+      "rationale_label": "founder_execution",
+      "direction": "positive",
+      "salience": "primary",
+      "confidence": 0.97,
+      "utterance_type": "decision_reason",
+      "decision_link": "explicit",
+      "timing": "original_pitch",
+      "turn_index": 118,
+      "quote": "She seems like she’s operating her business well.",
+      "explanation": "She cites the founder's sound operation of the business as support for offering revenue-based financing.",
+      "evidence": [
+        "I love the hustle and the scrappiness. Of course, you've done a lot with very little.",
+        "She seems like she’s operating her business well."
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 108,
+          "speaker": "Elizabeth",
+          "quote": "I love the hustle and the scrappiness. Of course, you've done a lot with very little."
+        },
+        {
+          "turn_index": 118,
+          "speaker": "Elizabeth",
+          "quote": "She seems like she’s operating her business well."
+        }
+      ],
+      "activation": "evaluated",
+      "source_rationale_id": "R28",
+      "utterance_kind": "decision_explanation",
+      "decision_support": "supports_in",
+      "all_mention_ids": [
+        "R24",
+        "R28"
+      ]
+    },
+    {
+      "rationale_label": "go_to_market_strategy_assessment",
+      "direction": "negative",
+      "salience": "secondary",
+      "confidence": 0.98,
+      "utterance_type": "assessment",
+      "decision_link": "none",
+      "timing": "original_pitch",
+      "turn_index": 83,
+      "quote": "go-to-market is expensive",
+      "explanation": "She flags the expense of reaching and acquiring customers.",
+      "evidence": [
+        "go-to-market is expensive"
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 83,
+          "speaker": "Elizabeth",
+          "quote": "go-to-market is expensive"
+        }
+      ],
+      "activation": "evaluated",
+      "source_rationale_id": "R16",
+      "utterance_kind": "concern",
+      "decision_support": "none",
+      "all_mention_ids": [
+        "R2",
+        "R3",
+        "R16"
+      ]
+    },
+    {
+      "rationale_label": "market_problem_validation",
+      "direction": "positive",
+      "salience": "secondary",
+      "confidence": 0.78,
+      "utterance_type": "assessment",
+      "decision_link": "none",
+      "timing": "original_pitch",
+      "turn_index": 81,
+      "quote": "There is an opportunity here.",
+      "explanation": "After hearing that existing alternatives do not properly fit the segment, she acknowledges an opportunity to address the gap.",
+      "evidence": [
+        "There is an opportunity here."
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 81,
+          "speaker": "Elizabeth",
+          "quote": "There is an opportunity here."
+        }
+      ],
+      "activation": "evaluated",
+      "source_rationale_id": "R13",
+      "utterance_kind": "assessment",
+      "decision_support": "none",
+      "all_mention_ids": [
+        "R13"
+      ]
+    },
+    {
+      "rationale_label": "market_size_assessment",
+      "direction": "positive",
+      "salience": "secondary",
+      "confidence": 0.89,
+      "utterance_type": "assessment",
+      "decision_link": "none",
+      "timing": "original_pitch",
+      "turn_index": 108,
+      "quote": "I also think that there is a big opportunity here.",
+      "explanation": "She believes the company is pursuing a substantial market opportunity.",
+      "evidence": [
+        "Bras are a good market.",
+        "I also believe in the market sizing",
+        "I also think that there is a big opportunity here."
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 70,
+          "speaker": "Elizabeth",
+          "quote": "Bras are a good market."
+        },
+        {
+          "turn_index": 88,
+          "speaker": "Elizabeth",
+          "quote": "I also believe in the market sizing"
+        },
+        {
+          "turn_index": 108,
+          "speaker": "Elizabeth",
+          "quote": "I also think that there is a big opportunity here."
+        }
+      ],
+      "activation": "evaluated",
+      "source_rationale_id": "R25",
+      "utterance_kind": "assessment",
+      "decision_support": "none",
+      "all_mention_ids": [
+        "R6",
+        "R20",
+        "R25"
+      ]
+    },
+    {
+      "rationale_label": "product_differentiation_concern",
+      "direction": "negative",
+      "salience": "primary",
+      "confidence": 0.98,
+      "utterance_type": "assessment",
+      "decision_link": "none",
+      "timing": "original_pitch",
+      "turn_index": 83,
+      "quote": "if you start to do well, I’m pretty certain that other people will, will crack the nut",
+      "explanation": "She believes competitors will reproduce the solution if Pepper proves successful.",
+      "evidence": [
+        "What, what is different about these bras other than the size?",
+        "Why is it that they cannot just extend into these cup sizes as well?",
+        "I cannot wrap my head around how hard is it to make a new bra for this audience?",
+        "if you start to do well, I’m pretty certain that other people will, will crack the nut"
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 72,
+          "speaker": "Elizabeth",
+          "quote": "What, what is different about these bras other than the size?"
+        },
+        {
+          "turn_index": 73,
+          "speaker": "Elizabeth",
+          "quote": "Why is it that they cannot just extend into these cup sizes as well?"
+        },
+        {
+          "turn_index": 75,
+          "speaker": "Elizabeth",
+          "quote": "I cannot wrap my head around how hard is it to make a new bra for this audience?"
+        },
+        {
+          "turn_index": 83,
+          "speaker": "Elizabeth",
+          "quote": "if you start to do well, I’m pretty certain that other people will, will crack the nut"
+        }
+      ],
+      "activation": "evaluated",
+      "source_rationale_id": "R18",
+      "utterance_kind": "concern",
+      "decision_support": "none",
+      "all_mention_ids": [
+        "R8",
+        "R9",
+        "R10",
+        "R18"
+      ]
+    },
+    {
+      "rationale_label": "stage_valuation_mismatch",
+      "direction": "negative",
+      "salience": "primary",
+      "confidence": 0.96,
+      "utterance_type": "decision_reason",
+      "decision_link": "explicit",
+      "timing": "original_pitch",
+      "turn_index": 108,
+      "quote": "The valuation for me is really pricey, to be honest. Like this is where we come in with Hustle Fund. Um. For that reason I'm a pass.",
+      "explanation": "She explicitly links the valuation being too expensive for Hustle Fund's entry point to declining the equity investment.",
+      "evidence": [
+        "The valuation for me is really pricey, to be honest. Like this is where we come in with Hustle Fund. Um. For that reason I'm a pass."
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 108,
+          "speaker": "Elizabeth",
+          "quote": "The valuation for me is really pricey, to be honest. Like this is where we come in with Hustle Fund. Um. For that reason I'm a pass."
+        }
+      ],
+      "activation": "evaluated",
+      "source_rationale_id": "R26",
+      "utterance_kind": "decision_explanation",
+      "decision_support": "supports_out",
+      "all_mention_ids": [
+        "R26"
+      ]
+    },
+    {
+      "rationale_label": "unit_economics_assessment",
+      "direction": "positive",
+      "salience": "secondary",
+      "confidence": 0.96,
+      "utterance_type": "assessment",
+      "decision_link": "none",
+      "timing": "original_pitch",
+      "turn_index": 83,
+      "quote": "your cost structure’s actually really good",
+      "explanation": "She positively assesses the company's cost structure.",
+      "evidence": [
+        "your cost structure’s actually really good"
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 83,
+          "speaker": "Elizabeth",
+          "quote": "your cost structure’s actually really good"
+        }
+      ],
+      "activation": "evaluated",
+      "source_rationale_id": "R17",
+      "utterance_kind": "assessment",
+      "decision_support": "none",
+      "all_mention_ids": [
+        "R17"
+      ]
+    }
+  ],
+  "later_rationales": [],
+  "excluded_rationales": [
+    {
+      "rationale_label": "product_differentiation_concern",
+      "direction": "negative",
+      "salience": "secondary",
+      "confidence": 0.97,
+      "utterance_type": "question",
+      "decision_link": "none",
+      "timing": "teaser",
+      "turn_index": 71,
+      "quote": "how hard is it to make a new bra for this audience?",
+      "explanation": "In a previewed clip, she questions whether the product is difficult for competitors to reproduce.",
+      "evidence": [
+        "how hard is it to make a new bra for this audience?"
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 71,
+          "speaker": "Elizabeth",
+          "quote": "how hard is it to make a new bra for this audience?"
+        }
+      ],
+      "activation": "queried",
+      "source_rationale_id": "R7"
+    }
+  ],
+  "rationale_mentions": [
+    {
+      "rationale_label": "business_model_assessment",
+      "direction": "neutral",
+      "salience": "secondary",
+      "confidence": 0.95,
+      "utterance_type": "question",
+      "decision_link": "none",
+      "timing": "original_pitch",
+      "turn_index": 23,
+      "quote": "And what do you sell these for?",
+      "explanation": "She asks about the product's selling price and monetization.",
+      "evidence": [
+        "And what do you sell these for?"
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 23,
+          "speaker": "Elizabeth",
+          "quote": "And what do you sell these for?"
+        }
+      ],
+      "activation": "queried",
+      "source_rationale_id": "R1"
+    },
+    {
+      "rationale_label": "go_to_market_strategy_assessment",
+      "direction": "neutral",
+      "salience": "secondary",
+      "confidence": 0.97,
+      "utterance_type": "question",
+      "decision_link": "none",
+      "timing": "original_pitch",
+      "turn_index": 30,
+      "quote": "if you are using paid acquisition, what does that look like right now?",
+      "explanation": "She queries the company's current paid customer-acquisition approach.",
+      "evidence": [
+        "if you are using paid acquisition, what does that look like right now?"
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 30,
+          "speaker": "Elizabeth",
+          "quote": "if you are using paid acquisition, what does that look like right now?"
+        }
+      ],
+      "activation": "queried",
+      "source_rationale_id": "R2"
+    },
+    {
+      "rationale_label": "go_to_market_strategy_assessment",
+      "direction": "neutral",
+      "salience": "secondary",
+      "confidence": 0.95,
+      "utterance_type": "question",
+      "decision_link": "none",
+      "timing": "original_pitch",
+      "turn_index": 39,
+      "quote": "roughly how much are you thinking that might be?",
+      "explanation": "She asks how much capital the company plans to deploy through paid acquisition.",
+      "evidence": [
+        "roughly how much are you thinking that might be?"
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 39,
+          "speaker": "Elizabeth",
+          "quote": "roughly how much are you thinking that might be?"
+        }
+      ],
+      "activation": "queried",
+      "source_rationale_id": "R3"
+    },
+    {
+      "rationale_label": "business_model_assessment",
+      "direction": "positive",
+      "salience": "secondary",
+      "confidence": 0.84,
+      "utterance_type": "assessment",
+      "decision_link": "none",
+      "timing": "original_pitch",
+      "turn_index": 57,
+      "quote": "Yeah. It’s fine.",
+      "explanation": "In response to a price-versus-quality question, she finds the product's price positioning acceptable.",
+      "evidence": [
+        "Yeah. It’s fine."
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 57,
+          "speaker": "Elizabeth",
+          "quote": "Yeah. It’s fine."
+        }
+      ],
+      "activation": "evaluated",
+      "source_rationale_id": "R4"
+    },
+    {
+      "rationale_label": "business_model_assessment",
+      "direction": "positive",
+      "salience": "secondary",
+      "confidence": 0.92,
+      "utterance_type": "assessment",
+      "decision_link": "none",
+      "timing": "original_pitch",
+      "turn_index": 68,
+      "quote": "for like a pretty everyday casual bra, this is like in line",
+      "explanation": "She considers the price consistent with an everyday casual bra.",
+      "evidence": [
+        "for like a pretty everyday casual bra, this is like in line"
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 68,
+          "speaker": "Elizabeth",
+          "quote": "for like a pretty everyday casual bra, this is like in line"
+        }
+      ],
+      "activation": "evaluated",
+      "source_rationale_id": "R5"
+    },
+    {
+      "rationale_label": "market_size_assessment",
+      "direction": "positive",
+      "salience": "secondary",
+      "confidence": 0.92,
+      "utterance_type": "supporting_argument",
+      "decision_link": "none",
+      "timing": "original_pitch",
+      "turn_index": 70,
+      "quote": "Bras are a good market.",
+      "explanation": "She assesses the broader bra market favorably.",
+      "evidence": [
+        "Bras are a good market."
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 70,
+          "speaker": "Elizabeth",
+          "quote": "Bras are a good market."
+        }
+      ],
+      "activation": "evaluated",
+      "source_rationale_id": "R6"
+    },
+    {
+      "rationale_label": "product_differentiation_concern",
+      "direction": "negative",
+      "salience": "secondary",
+      "confidence": 0.98,
+      "utterance_type": "question",
+      "decision_link": "none",
+      "timing": "original_pitch",
+      "turn_index": 72,
+      "quote": "What, what is different about these bras other than the size?",
+      "explanation": "She questions what differentiates the product beyond its targeted sizing.",
+      "evidence": [
+        "What, what is different about these bras other than the size?"
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 72,
+          "speaker": "Elizabeth",
+          "quote": "What, what is different about these bras other than the size?"
+        }
+      ],
+      "activation": "queried",
+      "source_rationale_id": "R8"
+    },
+    {
+      "rationale_label": "product_differentiation_concern",
+      "direction": "negative",
+      "salience": "secondary",
+      "confidence": 0.97,
+      "utterance_type": "question",
+      "decision_link": "none",
+      "timing": "original_pitch",
+      "turn_index": 73,
+      "quote": "Why is it that they cannot just extend into these cup sizes as well?",
+      "explanation": "She questions what would prevent an established competitor from entering Pepper's segment.",
+      "evidence": [
+        "Why is it that they cannot just extend into these cup sizes as well?"
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 73,
+          "speaker": "Elizabeth",
+          "quote": "Why is it that they cannot just extend into these cup sizes as well?"
+        }
+      ],
+      "activation": "queried",
+      "source_rationale_id": "R9"
+    },
+    {
+      "rationale_label": "product_differentiation_concern",
+      "direction": "negative",
+      "salience": "secondary",
+      "confidence": 0.98,
+      "utterance_type": "concern",
+      "decision_link": "none",
+      "timing": "original_pitch",
+      "turn_index": 75,
+      "quote": "I cannot wrap my head around how hard is it to make a new bra for this audience?",
+      "explanation": "She reiterates her concern that the product may not be difficult to replicate.",
+      "evidence": [
+        "I cannot wrap my head around how hard is it to make a new bra for this audience?"
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 75,
+          "speaker": "Elizabeth",
+          "quote": "I cannot wrap my head around how hard is it to make a new bra for this audience?"
+        }
+      ],
+      "activation": "evaluated",
+      "source_rationale_id": "R10"
+    },
+    {
+      "rationale_label": "competitive_intensity_concern",
+      "direction": "negative",
+      "salience": "secondary",
+      "confidence": 0.96,
+      "utterance_type": "assessment",
+      "decision_link": "none",
+      "timing": "original_pitch",
+      "turn_index": 77,
+      "quote": "you have people kind of going after this demographic",
+      "explanation": "She observes that other bra companies already address the target demographic.",
+      "evidence": [
+        "you have people kind of going after this demographic"
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 77,
+          "speaker": "Elizabeth",
+          "quote": "you have people kind of going after this demographic"
+        }
+      ],
+      "activation": "evaluated",
+      "source_rationale_id": "R11"
+    },
+    {
+      "rationale_label": "competitive_intensity_concern",
+      "direction": "negative",
+      "salience": "secondary",
+      "confidence": 0.93,
+      "utterance_type": "assessment",
+      "decision_link": "none",
+      "timing": "original_pitch",
+      "turn_index": 79,
+      "quote": "But they're in the space.",
+      "explanation": "She emphasizes that the cited competitors already operate in the relevant category.",
+      "evidence": [
+        "But they're in the space."
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 79,
+          "speaker": "Elizabeth",
+          "quote": "But they're in the space."
+        }
+      ],
+      "activation": "evaluated",
+      "source_rationale_id": "R12"
+    },
+    {
+      "rationale_label": "market_problem_validation",
+      "direction": "positive",
+      "salience": "secondary",
+      "confidence": 0.78,
+      "utterance_type": "assessment",
+      "decision_link": "none",
+      "timing": "original_pitch",
+      "turn_index": 81,
+      "quote": "There is an opportunity here.",
+      "explanation": "After hearing that existing alternatives do not properly fit the segment, she acknowledges an opportunity to address the gap.",
+      "evidence": [
+        "There is an opportunity here."
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 81,
+          "speaker": "Elizabeth",
+          "quote": "There is an opportunity here."
+        }
+      ],
+      "activation": "evaluated",
+      "source_rationale_id": "R13"
+    },
+    {
+      "rationale_label": "competitive_intensity_concern",
+      "direction": "negative",
+      "salience": "primary",
+      "confidence": 0.99,
+      "utterance_type": "concern",
+      "decision_link": "none",
+      "timing": "original_pitch",
+      "turn_index": 83,
+      "quote": "Competition. So competition's a big one.",
+      "explanation": "She explicitly identifies competition as a major concern.",
+      "evidence": [
+        "Competition. So competition's a big one."
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 83,
+          "speaker": "Elizabeth",
+          "quote": "Competition. So competition's a big one."
+        }
+      ],
+      "activation": "evaluated",
+      "source_rationale_id": "R14"
+    },
+    {
+      "rationale_label": "business_viability_concern",
+      "direction": "negative",
+      "salience": "secondary",
+      "confidence": 0.93,
+      "utterance_type": "concern",
+      "decision_link": "none",
+      "timing": "original_pitch",
+      "turn_index": 83,
+      "quote": "ecommerce scares me as a category because there are just so many additional challenges that pure software doesn't have",
+      "explanation": "She views ecommerce as carrying significant operational and economic challenges compared with software.",
+      "evidence": [
+        "ecommerce scares me as a category because there are just so many additional challenges that pure software doesn't have"
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 83,
+          "speaker": "Elizabeth",
+          "quote": "ecommerce scares me as a category because there are just so many additional challenges that pure software doesn't have"
+        }
+      ],
+      "activation": "evaluated",
+      "source_rationale_id": "R15"
+    },
+    {
+      "rationale_label": "go_to_market_strategy_assessment",
+      "direction": "negative",
+      "salience": "secondary",
+      "confidence": 0.98,
+      "utterance_type": "concern",
+      "decision_link": "none",
+      "timing": "original_pitch",
+      "turn_index": 83,
+      "quote": "go-to-market is expensive",
+      "explanation": "She flags the expense of reaching and acquiring customers.",
+      "evidence": [
+        "go-to-market is expensive"
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 83,
+          "speaker": "Elizabeth",
+          "quote": "go-to-market is expensive"
+        }
+      ],
+      "activation": "evaluated",
+      "source_rationale_id": "R16"
+    },
+    {
+      "rationale_label": "unit_economics_assessment",
+      "direction": "positive",
+      "salience": "secondary",
+      "confidence": 0.96,
+      "utterance_type": "assessment",
+      "decision_link": "none",
+      "timing": "original_pitch",
+      "turn_index": 83,
+      "quote": "your cost structure’s actually really good",
+      "explanation": "She positively assesses the company's cost structure.",
+      "evidence": [
+        "your cost structure’s actually really good"
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 83,
+          "speaker": "Elizabeth",
+          "quote": "your cost structure’s actually really good"
+        }
+      ],
+      "activation": "evaluated",
+      "source_rationale_id": "R17"
+    },
+    {
+      "rationale_label": "product_differentiation_concern",
+      "direction": "negative",
+      "salience": "primary",
+      "confidence": 0.98,
+      "utterance_type": "concern",
+      "decision_link": "none",
+      "timing": "original_pitch",
+      "turn_index": 83,
+      "quote": "if you start to do well, I’m pretty certain that other people will, will crack the nut",
+      "explanation": "She believes competitors will reproduce the solution if Pepper proves successful.",
+      "evidence": [
+        "if you start to do well, I’m pretty certain that other people will, will crack the nut"
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 83,
+          "speaker": "Elizabeth",
+          "quote": "if you start to do well, I’m pretty certain that other people will, will crack the nut"
+        }
+      ],
+      "activation": "evaluated",
+      "source_rationale_id": "R18"
+    },
+    {
+      "rationale_label": "competitive_advantage_assessment",
+      "direction": "positive",
+      "salience": "secondary",
+      "confidence": 0.95,
+      "utterance_type": "assessment",
+      "decision_link": "none",
+      "timing": "original_pitch",
+      "turn_index": 83,
+      "quote": "this is like a first-mover, hustle advantage",
+      "explanation": "She identifies first-mover speed and hustle as Pepper's present competitive advantage.",
+      "evidence": [
+        "this is like a first-mover, hustle advantage"
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 83,
+          "speaker": "Elizabeth",
+          "quote": "this is like a first-mover, hustle advantage"
+        }
+      ],
+      "activation": "evaluated",
+      "source_rationale_id": "R19"
+    },
+    {
+      "rationale_label": "market_size_assessment",
+      "direction": "positive",
+      "salience": "secondary",
+      "confidence": 0.98,
+      "utterance_type": "supporting_argument",
+      "decision_link": "none",
+      "timing": "original_pitch",
+      "turn_index": 88,
+      "quote": "I also believe in the market sizing",
+      "explanation": "She accepts the claimed market size and supports it with a demographic spending argument.",
+      "evidence": [
+        "I also believe in the market sizing"
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 88,
+          "speaker": "Elizabeth",
+          "quote": "I also believe in the market sizing"
+        }
+      ],
+      "activation": "evaluated",
+      "source_rationale_id": "R20"
+    },
+    {
+      "rationale_label": "business_model_assessment",
+      "direction": "positive",
+      "salience": "secondary",
+      "confidence": 0.96,
+      "utterance_type": "supporting_argument",
+      "decision_link": "none",
+      "timing": "original_pitch",
+      "turn_index": 90,
+      "quote": "I believe there are a lot of upsell opportunities",
+      "explanation": "She sees substantial potential to earn additional revenue from customers after acquiring the audience.",
+      "evidence": [
+        "I believe there are a lot of upsell opportunities"
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 90,
+          "speaker": "Elizabeth",
+          "quote": "I believe there are a lot of upsell opportunities"
+        }
+      ],
+      "activation": "evaluated",
+      "source_rationale_id": "R21"
+    },
+    {
+      "rationale_label": "competitive_advantage_assessment",
+      "direction": "positive",
+      "salience": "secondary",
+      "confidence": 0.94,
+      "utterance_type": "assessment",
+      "decision_link": "none",
+      "timing": "original_pitch",
+      "turn_index": 95,
+      "quote": "You’re like first thought for this audience.",
+      "explanation": "She sees Pepper's potential to become the target audience's top-of-mind brand as a competitive advantage.",
+      "evidence": [
+        "You’re like first thought for this audience."
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 95,
+          "speaker": "Elizabeth",
+          "quote": "You’re like first thought for this audience."
+        }
+      ],
+      "activation": "evaluated",
+      "source_rationale_id": "R22"
+    },
+    {
+      "rationale_label": "founder_communication_quality",
+      "direction": "positive",
+      "salience": "secondary",
+      "confidence": 0.96,
+      "utterance_type": "assessment",
+      "decision_link": "none",
+      "timing": "original_pitch",
+      "turn_index": 108,
+      "quote": "I think you answered everything perfectly.",
+      "explanation": "She positively assesses the founder's responses during the pitch.",
+      "evidence": [
+        "I think you answered everything perfectly."
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 108,
+          "speaker": "Elizabeth",
+          "quote": "I think you answered everything perfectly."
+        }
+      ],
+      "activation": "evaluated",
+      "source_rationale_id": "R23"
+    },
+    {
+      "rationale_label": "founder_execution",
+      "direction": "positive",
+      "salience": "secondary",
+      "confidence": 0.98,
+      "utterance_type": "supporting_argument",
+      "decision_link": "none",
+      "timing": "original_pitch",
+      "turn_index": 108,
+      "quote": "I love the hustle and the scrappiness. Of course, you've done a lot with very little.",
+      "explanation": "She praises the founders' resourcefulness and execution with limited resources.",
+      "evidence": [
+        "I love the hustle and the scrappiness. Of course, you've done a lot with very little."
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 108,
+          "speaker": "Elizabeth",
+          "quote": "I love the hustle and the scrappiness. Of course, you've done a lot with very little."
+        }
+      ],
+      "activation": "evaluated",
+      "source_rationale_id": "R24"
+    },
+    {
+      "rationale_label": "market_size_assessment",
+      "direction": "positive",
+      "salience": "secondary",
+      "confidence": 0.89,
+      "utterance_type": "assessment",
+      "decision_link": "none",
+      "timing": "original_pitch",
+      "turn_index": 108,
+      "quote": "I also think that there is a big opportunity here.",
+      "explanation": "She believes the company is pursuing a substantial market opportunity.",
+      "evidence": [
+        "I also think that there is a big opportunity here."
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 108,
+          "speaker": "Elizabeth",
+          "quote": "I also think that there is a big opportunity here."
+        }
+      ],
+      "activation": "evaluated",
+      "source_rationale_id": "R25"
+    },
+    {
+      "rationale_label": "stage_valuation_mismatch",
+      "direction": "negative",
+      "salience": "primary",
+      "confidence": 0.96,
+      "utterance_type": "decision_explanation",
+      "decision_link": "supports_out",
+      "timing": "original_pitch",
+      "turn_index": 108,
+      "quote": "The valuation for me is really pricey, to be honest. Like this is where we come in with Hustle Fund. Um. For that reason I'm a pass.",
+      "explanation": "She explicitly links the valuation being too expensive for Hustle Fund's entry point to declining the equity investment.",
+      "evidence": [
+        "The valuation for me is really pricey, to be honest. Like this is where we come in with Hustle Fund. Um. For that reason I'm a pass."
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 108,
+          "speaker": "Elizabeth",
+          "quote": "The valuation for me is really pricey, to be honest. Like this is where we come in with Hustle Fund. Um. For that reason I'm a pass."
+        }
+      ],
+      "activation": "evaluated",
+      "source_rationale_id": "R26"
+    },
+    {
+      "rationale_label": "business_model_assessment",
+      "direction": "positive",
+      "salience": "primary",
+      "confidence": 0.9,
+      "utterance_type": "decision_explanation",
+      "decision_link": "supports_in",
+      "timing": "original_pitch",
+      "turn_index": 118,
+      "quote": "I just have to believe, can she pay me back with interest. And I would take that bet any day.",
+      "explanation": "She considers Pepper capable of supporting a revenue-based financing arrangement and explicitly says she would take that financing bet.",
+      "evidence": [
+        "I just have to believe, can she pay me back with interest. And I would take that bet any day."
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 118,
+          "speaker": "Elizabeth",
+          "quote": "I just have to believe, can she pay me back with interest. And I would take that bet any day."
+        }
+      ],
+      "activation": "evaluated",
+      "source_rationale_id": "R27"
+    },
+    {
+      "rationale_label": "founder_execution",
+      "direction": "positive",
+      "salience": "primary",
+      "confidence": 0.97,
+      "utterance_type": "decision_explanation",
+      "decision_link": "supports_in",
+      "timing": "original_pitch",
+      "turn_index": 118,
+      "quote": "She seems like she’s operating her business well.",
+      "explanation": "She cites the founder's sound operation of the business as support for offering revenue-based financing.",
+      "evidence": [
+        "She seems like she’s operating her business well."
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 118,
+          "speaker": "Elizabeth",
+          "quote": "She seems like she’s operating her business well."
+        }
+      ],
+      "activation": "evaluated",
+      "source_rationale_id": "R28"
+    }
+  ],
+  "expanded_quote_evidence": [],
+  "rejected_after_evidence_check": []
+}

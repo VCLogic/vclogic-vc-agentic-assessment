@@ -1,0 +1,510 @@
+{
+  "schema": "phase1-rationale-reference-v1",
+  "extraction_version": "pitchshow-rationales-v1",
+  "fingerprint": "3d02956b97d29c2d6afb30252f3d1460420a52805b39f3dab9ff718f886ae862",
+  "episode_slug": "121-ride-iq-peloton-for-horses",
+  "vc_slug": "beck-bamberger-bad-ideas-group",
+  "vc_name": "Beck Bamberger",
+  "actual_decision": "Out",
+  "later_decision": "Unknown",
+  "reference_kind": "automated_transcript_observed_candidate",
+  "human_validated": false,
+  "source_format": "transcript-observed-rationales-v1",
+  "source_path": "/home/dpasch01/vclogic-vc-agentic-assessment/evaluation/pitchshow/investors/beck-bamberger-bad-ideas-group/source/episodes/121-ride-iq-peloton-for-horses.json",
+  "source_sha256": "d0a3ada23fad6b1230bb5d16cde946fccfddd1f960ebb7a0e072bb8a66324c01",
+  "transcript_sha256": "41a257324db68da43b2e9eaadb333a342bdea295263b5896868452a3f0fdc41e",
+  "taxonomy_sha256": "eaa8734819a3ac34dd19ee5f0bf6de925a793a1d25a2d361090dafc9b751e1fc",
+  "model": "openai/gpt-5.6-luna",
+  "source_tier": "newly_extracted_and_independently_model_reviewed",
+  "reviewed_target_turns": [
+    1,
+    14,
+    20,
+    22,
+    29,
+    33,
+    36,
+    44,
+    46,
+    48,
+    64,
+    69,
+    71,
+    74,
+    76,
+    82,
+    86,
+    90,
+    92,
+    94,
+    127,
+    134,
+    136,
+    146,
+    150,
+    152,
+    156
+  ],
+  "notes": "All supplied target turns were reviewed. Target turns without rationale-bearing content are included only in reviewed_target_turns.",
+  "receipt_path": "/home/dpasch01/vclogic-vc-agentic-assessment/evaluation/pitchshow/investors/beck-bamberger-bad-ideas-group/rationale-references/receipts/121-ride-iq-peloton-for-horses.json",
+  "scoring_scope": "original_pitch_only",
+  "shared_across_input_modes": true,
+  "rationales": [
+    {
+      "rationale_label": "founder_investor_vision_alignment",
+      "direction": "negative",
+      "salience": "primary",
+      "confidence": 0.99,
+      "utterance_type": "decision_reason",
+      "decision_link": "explicit",
+      "timing": "original_pitch",
+      "turn_index": 86,
+      "quote": "I think you're too horse-focused.",
+      "explanation": "Beck says the founders' current narrow focus does not align with the broader multi-market direction she would back.",
+      "evidence": [
+        "I think you're too horse-focused."
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 86,
+          "speaker": "Beck",
+          "quote": "I think you're too horse-focused."
+        }
+      ],
+      "activation": "evaluated",
+      "source_rationale_id": "R9",
+      "utterance_kind": "decision_explanation",
+      "decision_support": "supports_out",
+      "all_mention_ids": [
+        "R9"
+      ]
+    },
+    {
+      "rationale_label": "market_size_assessment",
+      "direction": "positive",
+      "salience": "secondary",
+      "confidence": 0.91,
+      "utterance_type": "question",
+      "decision_link": "none",
+      "timing": "original_pitch",
+      "turn_index": 44,
+      "quote": "I'm seeing it in multiple applications",
+      "explanation": "Beck perceives potential for the audio-learning concept to apply across multiple markets beyond equestrian.",
+      "evidence": [
+        "I'm seeing it in multiple applications"
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 44,
+          "speaker": "Beck",
+          "quote": "I'm seeing it in multiple applications"
+        }
+      ],
+      "activation": "queried",
+      "source_rationale_id": "R4",
+      "utterance_kind": "question",
+      "decision_support": "none",
+      "all_mention_ids": [
+        "R1",
+        "R4"
+      ]
+    },
+    {
+      "rationale_label": "market_timing",
+      "direction": "positive",
+      "salience": "secondary",
+      "confidence": 0.95,
+      "utterance_type": "assessment",
+      "decision_link": "none",
+      "timing": "original_pitch",
+      "turn_index": 86,
+      "quote": "audio learning is about to take off",
+      "explanation": "Beck expresses the view that the broader audio-learning category is entering a favorable growth period.",
+      "evidence": [
+        "audio learning is about to take off"
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 86,
+          "speaker": "Beck",
+          "quote": "audio learning is about to take off"
+        }
+      ],
+      "activation": "evaluated",
+      "source_rationale_id": "R8",
+      "utterance_kind": "assessment",
+      "decision_support": "none",
+      "all_mention_ids": [
+        "R8"
+      ]
+    },
+    {
+      "rationale_label": "product_adoption",
+      "direction": "neutral",
+      "salience": "secondary",
+      "confidence": 0.94,
+      "utterance_type": "question",
+      "decision_link": "none",
+      "timing": "original_pitch",
+      "turn_index": 82,
+      "quote": "Permanent tattoos?",
+      "explanation": "Beck verifies whether the tattoos are genuine evidence of unusually strong user engagement.",
+      "evidence": [
+        "Permanent tattoos?"
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 82,
+          "speaker": "Beck",
+          "quote": "Permanent tattoos?"
+        }
+      ],
+      "activation": "queried",
+      "source_rationale_id": "R7",
+      "utterance_kind": "question",
+      "decision_support": "none",
+      "all_mention_ids": [
+        "R7"
+      ]
+    },
+    {
+      "rationale_label": "solution_feasibility_assessment",
+      "direction": "negative",
+      "salience": "secondary",
+      "confidence": 0.95,
+      "utterance_type": "question",
+      "decision_link": "none",
+      "timing": "original_pitch",
+      "turn_index": 29,
+      "quote": "Where's the research or where's the conviction around audio learning",
+      "explanation": "Beck questions whether audio can deliver effective coaching compared with visual or in-person instruction.",
+      "evidence": [
+        "Where's the research or where's the conviction around audio learning"
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 29,
+          "speaker": "Beck",
+          "quote": "Where's the research or where's the conviction around audio learning"
+        }
+      ],
+      "activation": "queried",
+      "source_rationale_id": "R2",
+      "utterance_kind": "question",
+      "decision_support": "none",
+      "all_mention_ids": [
+        "R2"
+      ]
+    },
+    {
+      "rationale_label": "unit_economics_assessment",
+      "direction": "positive",
+      "salience": "secondary",
+      "confidence": 0.84,
+      "utterance_type": "assessment",
+      "decision_link": "none",
+      "timing": "original_pitch",
+      "turn_index": 33,
+      "quote": "that sounds exceptionally cheap",
+      "explanation": "Beck views the low content-production cost as a favorable operating-cost signal.",
+      "evidence": [
+        "that sounds exceptionally cheap"
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 33,
+          "speaker": "Beck",
+          "quote": "that sounds exceptionally cheap"
+        }
+      ],
+      "activation": "evaluated",
+      "source_rationale_id": "R3",
+      "utterance_kind": "assessment",
+      "decision_support": "none",
+      "all_mention_ids": [
+        "R3"
+      ]
+    },
+    {
+      "rationale_label": "venture_scale_concern",
+      "direction": "negative",
+      "salience": "primary",
+      "confidence": 0.99,
+      "utterance_type": "decision_reason",
+      "decision_link": "explicit",
+      "timing": "original_pitch",
+      "turn_index": 86,
+      "quote": "here are the next five ones so I can paint you the picture of how this is a multi-billion dollar company",
+      "explanation": "Beck passes because the founders have not presented a sufficiently credible path from the initial market to a multi-billion-dollar outcome.",
+      "evidence": [
+        "where are those other ones that are as sticky and small as horse",
+        "here are the next five ones so I can paint you the picture of how this is a multi-billion dollar company"
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 69,
+          "speaker": "Beck",
+          "quote": "where are those other ones that are as sticky and small as horse"
+        },
+        {
+          "turn_index": 86,
+          "speaker": "Beck",
+          "quote": "here are the next five ones so I can paint you the picture of how this is a multi-billion dollar company"
+        }
+      ],
+      "activation": "evaluated",
+      "source_rationale_id": "R10",
+      "utterance_kind": "decision_explanation",
+      "decision_support": "supports_out",
+      "all_mention_ids": [
+        "R5",
+        "R6",
+        "R10"
+      ]
+    }
+  ],
+  "later_rationales": [],
+  "excluded_rationales": [],
+  "rationale_mentions": [
+    {
+      "rationale_label": "market_size_assessment",
+      "direction": "neutral",
+      "salience": "secondary",
+      "confidence": 0.99,
+      "utterance_type": "question",
+      "decision_link": "none",
+      "timing": "original_pitch",
+      "turn_index": 20,
+      "quote": "But that's 8 million in the US? 8 million globally?",
+      "explanation": "Beck clarifies whether the claimed equestrian market size is domestic or global.",
+      "evidence": [
+        "But that's 8 million in the US? 8 million globally?"
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 20,
+          "speaker": "Beck",
+          "quote": "But that's 8 million in the US? 8 million globally?"
+        }
+      ],
+      "activation": "queried",
+      "source_rationale_id": "R1"
+    },
+    {
+      "rationale_label": "solution_feasibility_assessment",
+      "direction": "negative",
+      "salience": "secondary",
+      "confidence": 0.95,
+      "utterance_type": "question",
+      "decision_link": "none",
+      "timing": "original_pitch",
+      "turn_index": 29,
+      "quote": "Where's the research or where's the conviction around audio learning",
+      "explanation": "Beck questions whether audio can deliver effective coaching compared with visual or in-person instruction.",
+      "evidence": [
+        "Where's the research or where's the conviction around audio learning"
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 29,
+          "speaker": "Beck",
+          "quote": "Where's the research or where's the conviction around audio learning"
+        }
+      ],
+      "activation": "queried",
+      "source_rationale_id": "R2"
+    },
+    {
+      "rationale_label": "unit_economics_assessment",
+      "direction": "positive",
+      "salience": "secondary",
+      "confidence": 0.84,
+      "utterance_type": "assessment",
+      "decision_link": "none",
+      "timing": "original_pitch",
+      "turn_index": 33,
+      "quote": "that sounds exceptionally cheap",
+      "explanation": "Beck views the low content-production cost as a favorable operating-cost signal.",
+      "evidence": [
+        "that sounds exceptionally cheap"
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 33,
+          "speaker": "Beck",
+          "quote": "that sounds exceptionally cheap"
+        }
+      ],
+      "activation": "evaluated",
+      "source_rationale_id": "R3"
+    },
+    {
+      "rationale_label": "market_size_assessment",
+      "direction": "positive",
+      "salience": "secondary",
+      "confidence": 0.91,
+      "utterance_type": "question",
+      "decision_link": "none",
+      "timing": "original_pitch",
+      "turn_index": 44,
+      "quote": "I'm seeing it in multiple applications",
+      "explanation": "Beck perceives potential for the audio-learning concept to apply across multiple markets beyond equestrian.",
+      "evidence": [
+        "I'm seeing it in multiple applications"
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 44,
+          "speaker": "Beck",
+          "quote": "I'm seeing it in multiple applications"
+        }
+      ],
+      "activation": "queried",
+      "source_rationale_id": "R4"
+    },
+    {
+      "rationale_label": "venture_scale_concern",
+      "direction": "negative",
+      "salience": "primary",
+      "confidence": 0.97,
+      "utterance_type": "question",
+      "decision_link": "none",
+      "timing": "original_pitch",
+      "turn_index": 69,
+      "quote": "where are those other ones that are as sticky and small as horse",
+      "explanation": "Beck is concerned that the company may not find equally compelling adjacent markets to support venture-scale expansion.",
+      "evidence": [
+        "where are those other ones that are as sticky and small as horse"
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 69,
+          "speaker": "Beck",
+          "quote": "where are those other ones that are as sticky and small as horse"
+        }
+      ],
+      "activation": "queried",
+      "source_rationale_id": "R5"
+    },
+    {
+      "rationale_label": "venture_scale_concern",
+      "direction": "neutral",
+      "salience": "secondary",
+      "confidence": 0.9,
+      "utterance_type": "question",
+      "decision_link": "none",
+      "timing": "original_pitch",
+      "turn_index": 74,
+      "quote": "I wanna hear like where do you see that?",
+      "explanation": "Beck asks the founders to identify and substantiate the next viable expansion markets.",
+      "evidence": [
+        "I wanna hear like where do you see that?"
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 74,
+          "speaker": "Beck",
+          "quote": "I wanna hear like where do you see that?"
+        }
+      ],
+      "activation": "queried",
+      "source_rationale_id": "R6"
+    },
+    {
+      "rationale_label": "product_adoption",
+      "direction": "neutral",
+      "salience": "secondary",
+      "confidence": 0.94,
+      "utterance_type": "question",
+      "decision_link": "none",
+      "timing": "original_pitch",
+      "turn_index": 82,
+      "quote": "Permanent tattoos?",
+      "explanation": "Beck verifies whether the tattoos are genuine evidence of unusually strong user engagement.",
+      "evidence": [
+        "Permanent tattoos?"
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 82,
+          "speaker": "Beck",
+          "quote": "Permanent tattoos?"
+        }
+      ],
+      "activation": "queried",
+      "source_rationale_id": "R7"
+    },
+    {
+      "rationale_label": "market_timing",
+      "direction": "positive",
+      "salience": "secondary",
+      "confidence": 0.95,
+      "utterance_type": "assessment",
+      "decision_link": "none",
+      "timing": "original_pitch",
+      "turn_index": 86,
+      "quote": "audio learning is about to take off",
+      "explanation": "Beck expresses the view that the broader audio-learning category is entering a favorable growth period.",
+      "evidence": [
+        "audio learning is about to take off"
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 86,
+          "speaker": "Beck",
+          "quote": "audio learning is about to take off"
+        }
+      ],
+      "activation": "evaluated",
+      "source_rationale_id": "R8"
+    },
+    {
+      "rationale_label": "founder_investor_vision_alignment",
+      "direction": "negative",
+      "salience": "primary",
+      "confidence": 0.99,
+      "utterance_type": "decision_explanation",
+      "decision_link": "supports_out",
+      "timing": "original_pitch",
+      "turn_index": 86,
+      "quote": "I think you're too horse-focused.",
+      "explanation": "Beck says the founders' current narrow focus does not align with the broader multi-market direction she would back.",
+      "evidence": [
+        "I think you're too horse-focused."
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 86,
+          "speaker": "Beck",
+          "quote": "I think you're too horse-focused."
+        }
+      ],
+      "activation": "evaluated",
+      "source_rationale_id": "R9"
+    },
+    {
+      "rationale_label": "venture_scale_concern",
+      "direction": "negative",
+      "salience": "primary",
+      "confidence": 0.99,
+      "utterance_type": "decision_explanation",
+      "decision_link": "supports_out",
+      "timing": "original_pitch",
+      "turn_index": 86,
+      "quote": "here are the next five ones so I can paint you the picture of how this is a multi-billion dollar company",
+      "explanation": "Beck passes because the founders have not presented a sufficiently credible path from the initial market to a multi-billion-dollar outcome.",
+      "evidence": [
+        "here are the next five ones so I can paint you the picture of how this is a multi-billion dollar company"
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 86,
+          "speaker": "Beck",
+          "quote": "here are the next five ones so I can paint you the picture of how this is a multi-billion dollar company"
+        }
+      ],
+      "activation": "evaluated",
+      "source_rationale_id": "R10"
+    }
+  ]
+}

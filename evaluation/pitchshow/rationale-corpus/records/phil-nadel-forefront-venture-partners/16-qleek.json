@@ -1,0 +1,1172 @@
+{
+  "schema": "phase1-rationale-reference-v1",
+  "extraction_version": "pitchshow-rationales-v1",
+  "fingerprint": "aad776662807a36eaf4dcac584810648d057788254aaf5ce9682776e53a9bfa0",
+  "episode_slug": "16-qleek",
+  "vc_slug": "phil-nadel-forefront-venture-partners",
+  "vc_name": "Phil Nadel",
+  "actual_decision": "Out",
+  "later_decision": "Unknown",
+  "reference_kind": "automated_transcript_observed_candidate",
+  "human_validated": false,
+  "source_format": "transcript-observed-rationales-v1",
+  "source_path": "/home/dpasch01/vclogic-vc-agentic-assessment/evaluation/pitchshow/investors/phil-nadel-forefront-venture-partners/source/episodes/16-qleek.json",
+  "source_sha256": "0e2f3f47b4cd32ae56779141581ef9b32ec94cb6c71b2a78dca661383feb0056",
+  "transcript_sha256": "6ccebbf4fa0c388673e826ce0ec339a64b906f465b84e864f0b2e8cba39a5e72",
+  "taxonomy_sha256": "eaa8734819a3ac34dd19ee5f0bf6de925a793a1d25a2d361090dafc9b751e1fc",
+  "model": "codex:gpt-5.6-luna+gpt-5.6-sol",
+  "generation_stages": [
+    {
+      "phase": "rationale_extract",
+      "backend": "codex",
+      "model": "gpt-5.6-luna"
+    },
+    {
+      "phase": "rationale_verify",
+      "backend": "codex",
+      "model": "gpt-5.6-sol"
+    }
+  ],
+  "source_tier": "newly_extracted_and_independently_model_reviewed",
+  "reviewed_target_turns": [
+    1,
+    8,
+    28,
+    33,
+    36,
+    42,
+    44,
+    52,
+    65,
+    68,
+    70,
+    76,
+    78,
+    81,
+    95,
+    97,
+    102,
+    120,
+    126,
+    128,
+    132,
+    136,
+    138,
+    153,
+    155,
+    157,
+    168,
+    170,
+    177,
+    180,
+    182,
+    184,
+    186,
+    190,
+    193,
+    195,
+    198,
+    200,
+    202,
+    205
+  ],
+  "notes": "All supplied target turns were reviewed. Greetings, jokes, simple confirmations, fragments, pronunciation exchanges, and the founder-attributed claim in turn 193 were omitted.",
+  "receipt_path": "/home/dpasch01/vclogic-vc-agentic-assessment/evaluation/pitchshow/investors/phil-nadel-forefront-venture-partners/rationale-references/receipts/16-qleek.json",
+  "scoring_scope": "original_pitch_only",
+  "shared_across_input_modes": true,
+  "rationales": [
+    {
+      "rationale_label": "business_model_assessment",
+      "direction": "neutral",
+      "salience": "secondary",
+      "confidence": 0.95,
+      "utterance_type": "question",
+      "decision_link": "none",
+      "timing": "original_pitch",
+      "turn_index": 120,
+      "quote": "199 includes the player and a bunch of Qleeks?",
+      "explanation": "Phil clarifies what the company's principal priced bundle includes.",
+      "evidence": [
+        "199 includes the player and a bunch of Qleeks?"
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 120,
+          "speaker": "Phil",
+          "quote": "199 includes the player and a bunch of Qleeks?"
+        }
+      ],
+      "activation": "queried",
+      "source_rationale_id": "R13",
+      "utterance_kind": "question",
+      "decision_support": "none",
+      "all_mention_ids": [
+        "R13"
+      ]
+    },
+    {
+      "rationale_label": "capital_intensity_concern",
+      "direction": "neutral",
+      "salience": "secondary",
+      "confidence": 0.9,
+      "utterance_type": "question",
+      "decision_link": "none",
+      "timing": "original_pitch",
+      "turn_index": 153,
+      "quote": "So let's say you raise $800,000 in this round, how much runway will that give you?",
+      "explanation": "Phil assesses how long the requested capital can sustain the company.",
+      "evidence": [
+        "So let's say you raise $800,000 in this round, how much runway will that give you?"
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 153,
+          "speaker": "Phil",
+          "quote": "So let's say you raise $800,000 in this round, how much runway will that give you?"
+        }
+      ],
+      "activation": "queried",
+      "source_rationale_id": "R16",
+      "utterance_kind": "question",
+      "decision_support": "none",
+      "all_mention_ids": [
+        "R16"
+      ]
+    },
+    {
+      "rationale_label": "go_to_market_strategy_assessment",
+      "direction": "neutral",
+      "salience": "secondary",
+      "confidence": 0.98,
+      "utterance_type": "question",
+      "decision_link": "none",
+      "timing": "original_pitch",
+      "turn_index": 102,
+      "quote": "What are your, the channels that you’re pursuing currently?",
+      "explanation": "Phil asks which channels the company is using to reach customers.",
+      "evidence": [
+        "What are your, the channels that you’re pursuing currently?"
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 102,
+          "speaker": "Phil",
+          "quote": "What are your, the channels that you’re pursuing currently?"
+        }
+      ],
+      "activation": "queried",
+      "source_rationale_id": "R12",
+      "utterance_kind": "question",
+      "decision_support": "none",
+      "all_mention_ids": [
+        "R12"
+      ]
+    },
+    {
+      "rationale_label": "investor_domain_knowledge_constraint",
+      "direction": "neutral",
+      "salience": "secondary",
+      "confidence": 0.98,
+      "utterance_type": "assessment",
+      "decision_link": "none",
+      "timing": "original_pitch",
+      "turn_index": 195,
+      "quote": "I don't know enough to say. I'm not an audiophile or a millennial.",
+      "explanation": "Phil acknowledges that he lacks the relevant consumer and audio perspective to resolve the vinyl-demand debate.",
+      "evidence": [
+        "I don't know enough to say. I'm not an audiophile or a millennial."
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 195,
+          "speaker": "Phil",
+          "quote": "I don't know enough to say. I'm not an audiophile or a millennial."
+        }
+      ],
+      "activation": "evaluated",
+      "source_rationale_id": "R25",
+      "utterance_kind": "assessment",
+      "decision_support": "none",
+      "all_mention_ids": [
+        "R25"
+      ]
+    },
+    {
+      "rationale_label": "market_size_assessment",
+      "direction": "neutral",
+      "salience": "secondary",
+      "confidence": 0.97,
+      "utterance_type": "question",
+      "decision_link": "none",
+      "timing": "original_pitch",
+      "turn_index": 65,
+      "quote": "You’re saying that 50% of Americans gifted music in 2016, and of that, 75% of it was physical, and most of that 75% was CDs?",
+      "explanation": "Phil verifies the founders' material claim about the size of physical music gifting.",
+      "evidence": [
+        "You’re saying that 50% of Americans gifted music in 2016, and of that, 75% of it was physical, and most of that 75% was CDs?"
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 65,
+          "speaker": "Phil",
+          "quote": "You’re saying that 50% of Americans gifted music in 2016, and of that, 75% of it was physical, and most of that 75% was CDs?"
+        }
+      ],
+      "activation": "queried",
+      "source_rationale_id": "R7",
+      "utterance_kind": "question",
+      "decision_support": "none",
+      "all_mention_ids": [
+        "R7"
+      ]
+    },
+    {
+      "rationale_label": "market_timing",
+      "direction": "positive",
+      "salience": "secondary",
+      "confidence": 0.9,
+      "utterance_type": "assessment",
+      "decision_link": "none",
+      "timing": "original_pitch",
+      "turn_index": 186,
+      "quote": "if you look at the vinyl thing as an indicator.",
+      "explanation": "Phil cites vinyl's resurgence as a possible indicator of favorable demand for a physical music format.",
+      "evidence": [
+        "if you look at the vinyl thing as an indicator."
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 186,
+          "speaker": "Phil",
+          "quote": "if you look at the vinyl thing as an indicator."
+        }
+      ],
+      "activation": "evaluated",
+      "source_rationale_id": "R23",
+      "utterance_kind": "supporting_argument",
+      "decision_support": "none",
+      "all_mention_ids": [
+        "R23"
+      ]
+    },
+    {
+      "rationale_label": "product_adoption",
+      "direction": "neutral",
+      "salience": "secondary",
+      "confidence": 0.98,
+      "utterance_type": "question",
+      "decision_link": "none",
+      "timing": "original_pitch",
+      "turn_index": 102,
+      "quote": "So what is your traction as of now.",
+      "explanation": "Phil requests evidence that customers are adopting the product.",
+      "evidence": [
+        "So what is your traction as of now."
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 102,
+          "speaker": "Phil",
+          "quote": "So what is your traction as of now."
+        }
+      ],
+      "activation": "queried",
+      "source_rationale_id": "R11",
+      "utterance_kind": "question",
+      "decision_support": "none",
+      "all_mention_ids": [
+        "R11"
+      ]
+    },
+    {
+      "rationale_label": "product_appeal_assessment",
+      "direction": "positive",
+      "salience": "secondary",
+      "confidence": 0.97,
+      "utterance_type": "assessment",
+      "decision_link": "none",
+      "timing": "original_pitch",
+      "turn_index": 190,
+      "quote": "this would have that same cool factor.",
+      "explanation": "Phil argues that Qleek could share vinyl's cultural appeal.",
+      "evidence": [
+        "This is an elegant way of gifting music. Or content.",
+        "you’d give a mix tape to someone like on a cassette tape.",
+        "That’s an inelegant way of gifting it, right.",
+        "It's a very interesting product.",
+        "this would have that same cool factor."
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 52,
+          "speaker": "Phil",
+          "quote": "This is an elegant way of gifting music. Or content."
+        },
+        {
+          "turn_index": 76,
+          "speaker": "Phil",
+          "quote": "you’d give a mix tape to someone like on a cassette tape."
+        },
+        {
+          "turn_index": 81,
+          "speaker": "Phil",
+          "quote": "That’s an inelegant way of gifting it, right."
+        },
+        {
+          "turn_index": 168,
+          "speaker": "Phil",
+          "quote": "It's a very interesting product."
+        },
+        {
+          "turn_index": 190,
+          "speaker": "Phil",
+          "quote": "this would have that same cool factor."
+        }
+      ],
+      "activation": "evaluated",
+      "source_rationale_id": "R24",
+      "utterance_kind": "supporting_argument",
+      "decision_support": "none",
+      "all_mention_ids": [
+        "R6",
+        "R8",
+        "R10",
+        "R18",
+        "R24"
+      ]
+    },
+    {
+      "rationale_label": "product_differentiation_concern",
+      "direction": "negative",
+      "salience": "secondary",
+      "confidence": 0.98,
+      "utterance_type": "assessment",
+      "decision_link": "none",
+      "timing": "original_pitch",
+      "turn_index": 44,
+      "quote": "you could just use the app and play it connected to your speaker.",
+      "explanation": "Phil further identifies an app and speaker as a substitute for the physical product.",
+      "evidence": [
+        "But you could do it literally on a piece of paper",
+        "you could just use the app and play it connected to your speaker."
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 42,
+          "speaker": "Phil",
+          "quote": "But you could do it literally on a piece of paper"
+        },
+        {
+          "turn_index": 44,
+          "speaker": "Phil",
+          "quote": "you could just use the app and play it connected to your speaker."
+        }
+      ],
+      "activation": "evaluated",
+      "source_rationale_id": "R5",
+      "utterance_kind": "supporting_argument",
+      "decision_support": "none",
+      "all_mention_ids": [
+        "R4",
+        "R5",
+        "R9"
+      ]
+    },
+    {
+      "rationale_label": "product_success_factor_assessment",
+      "direction": "negative",
+      "salience": "secondary",
+      "confidence": 0.96,
+      "utterance_type": "assessment",
+      "decision_link": "none",
+      "timing": "original_pitch",
+      "turn_index": 180,
+      "quote": "I see it as an extra step",
+      "explanation": "In the immediate debrief, Phil identifies added user friction as a product weakness.",
+      "evidence": [
+        "I see it as an extra step"
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 180,
+          "speaker": "Phil",
+          "quote": "I see it as an extra step"
+        }
+      ],
+      "activation": "evaluated",
+      "source_rationale_id": "R21",
+      "utterance_kind": "concern",
+      "decision_support": "none",
+      "all_mention_ids": [
+        "R3",
+        "R21"
+      ]
+    },
+    {
+      "rationale_label": "solution_feasibility_assessment",
+      "direction": "neutral",
+      "salience": "secondary",
+      "confidence": 0.98,
+      "utterance_type": "question",
+      "decision_link": "none",
+      "timing": "original_pitch",
+      "turn_index": 33,
+      "quote": "And does it connect with the speaker? A Bluetooth?",
+      "explanation": "Phil checks how the product technically connects to speakers.",
+      "evidence": [
+        "And does it connect with the speaker? A Bluetooth?"
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 33,
+          "speaker": "Phil",
+          "quote": "And does it connect with the speaker? A Bluetooth?"
+        }
+      ],
+      "activation": "queried",
+      "source_rationale_id": "R2",
+      "utterance_kind": "question",
+      "decision_support": "none",
+      "all_mention_ids": [
+        "R2"
+      ]
+    },
+    {
+      "rationale_label": "traction_repeatability_concern",
+      "direction": "negative",
+      "salience": "primary",
+      "confidence": 0.99,
+      "utterance_type": "decision_reason",
+      "decision_link": "explicit",
+      "timing": "original_pitch",
+      "turn_index": 170,
+      "quote": "Because at that point I think you’ve demonstrated a lot more product market fit and adoption and traction, certainly.",
+      "explanation": "Phil explains that he would reconsider only after additional milestones demonstrate stronger adoption and traction.",
+      "evidence": [
+        "you haven't proven product market fit yet",
+        "Because at that point I think you’ve demonstrated a lot more product market fit and adoption and traction, certainly."
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 168,
+          "speaker": "Phil",
+          "quote": "you haven't proven product market fit yet"
+        },
+        {
+          "turn_index": 170,
+          "speaker": "Phil",
+          "quote": "Because at that point I think you’ve demonstrated a lot more product market fit and adoption and traction, certainly."
+        }
+      ],
+      "activation": "evaluated",
+      "source_rationale_id": "R20",
+      "utterance_kind": "decision_explanation",
+      "decision_support": "supports_out",
+      "all_mention_ids": [
+        "R14",
+        "R15",
+        "R17",
+        "R19",
+        "R20"
+      ]
+    },
+    {
+      "rationale_label": "venture_scale_concern",
+      "direction": "negative",
+      "salience": "primary",
+      "confidence": 0.99,
+      "utterance_type": "assessment",
+      "decision_link": "none",
+      "timing": "original_pitch",
+      "turn_index": 198,
+      "quote": "That’s why I said this is a niche business at best.",
+      "explanation": "Phil explicitly limits the company's likely outcome to a niche business.",
+      "evidence": [
+        "It will have maybe a niche.",
+        "That’s why I said this is a niche business at best.",
+        "I think it could be a nice niche business."
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 182,
+          "speaker": "Phil",
+          "quote": "It will have maybe a niche."
+        },
+        {
+          "turn_index": 198,
+          "speaker": "Phil",
+          "quote": "That’s why I said this is a niche business at best."
+        },
+        {
+          "turn_index": 200,
+          "speaker": "Phil",
+          "quote": "I think it could be a nice niche business."
+        }
+      ],
+      "activation": "evaluated",
+      "source_rationale_id": "R26",
+      "utterance_kind": "assessment",
+      "decision_support": "none",
+      "all_mention_ids": [
+        "R22",
+        "R26",
+        "R27"
+      ]
+    }
+  ],
+  "later_rationales": [],
+  "excluded_rationales": [
+    {
+      "rationale_label": "go_to_market_strategy_assessment",
+      "direction": "positive",
+      "salience": "primary",
+      "confidence": 0.97,
+      "utterance_type": "assessment",
+      "decision_link": "none",
+      "timing": "teaser",
+      "turn_index": 1,
+      "quote": "Where you have a scalable way of acquiring customers and I can add money to it that’ll let you explode that.",
+      "explanation": "Phil identifies scalable customer acquisition as a central condition for an attractive investment.",
+      "evidence": [
+        "Where you have a scalable way of acquiring customers and I can add money to it that’ll let you explode that."
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 1,
+          "speaker": "Phil",
+          "quote": "Where you have a scalable way of acquiring customers and I can add money to it that’ll let you explode that."
+        }
+      ],
+      "activation": "evaluated",
+      "source_rationale_id": "R1"
+    }
+  ],
+  "rationale_mentions": [
+    {
+      "rationale_label": "solution_feasibility_assessment",
+      "direction": "neutral",
+      "salience": "secondary",
+      "confidence": 0.98,
+      "utterance_type": "question",
+      "decision_link": "none",
+      "timing": "original_pitch",
+      "turn_index": 33,
+      "quote": "And does it connect with the speaker? A Bluetooth?",
+      "explanation": "Phil checks how the product technically connects to speakers.",
+      "evidence": [
+        "And does it connect with the speaker? A Bluetooth?"
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 33,
+          "speaker": "Phil",
+          "quote": "And does it connect with the speaker? A Bluetooth?"
+        }
+      ],
+      "activation": "queried",
+      "source_rationale_id": "R2"
+    },
+    {
+      "rationale_label": "product_success_factor_assessment",
+      "direction": "neutral",
+      "salience": "secondary",
+      "confidence": 0.97,
+      "utterance_type": "question",
+      "decision_link": "none",
+      "timing": "original_pitch",
+      "turn_index": 36,
+      "quote": "So if people can play it from the app, why do you need that player?",
+      "explanation": "Phil probes whether the physical player is necessary to the product experience.",
+      "evidence": [
+        "So if people can play it from the app, why do you need that player?"
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 36,
+          "speaker": "Phil",
+          "quote": "So if people can play it from the app, why do you need that player?"
+        }
+      ],
+      "activation": "queried",
+      "source_rationale_id": "R3"
+    },
+    {
+      "rationale_label": "product_differentiation_concern",
+      "direction": "negative",
+      "salience": "secondary",
+      "confidence": 0.99,
+      "utterance_type": "concern",
+      "decision_link": "none",
+      "timing": "original_pitch",
+      "turn_index": 42,
+      "quote": "But you could do it literally on a piece of paper",
+      "explanation": "Phil argues that a basic paper QR code could reproduce the product's core functionality.",
+      "evidence": [
+        "But you could do it literally on a piece of paper"
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 42,
+          "speaker": "Phil",
+          "quote": "But you could do it literally on a piece of paper"
+        }
+      ],
+      "activation": "evaluated",
+      "source_rationale_id": "R4"
+    },
+    {
+      "rationale_label": "product_differentiation_concern",
+      "direction": "negative",
+      "salience": "secondary",
+      "confidence": 0.98,
+      "utterance_type": "supporting_argument",
+      "decision_link": "none",
+      "timing": "original_pitch",
+      "turn_index": 44,
+      "quote": "you could just use the app and play it connected to your speaker.",
+      "explanation": "Phil further identifies an app and speaker as a substitute for the physical product.",
+      "evidence": [
+        "you could just use the app and play it connected to your speaker."
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 44,
+          "speaker": "Phil",
+          "quote": "you could just use the app and play it connected to your speaker."
+        }
+      ],
+      "activation": "evaluated",
+      "source_rationale_id": "R5"
+    },
+    {
+      "rationale_label": "product_appeal_assessment",
+      "direction": "positive",
+      "salience": "secondary",
+      "confidence": 0.99,
+      "utterance_type": "assessment",
+      "decision_link": "none",
+      "timing": "original_pitch",
+      "turn_index": 52,
+      "quote": "This is an elegant way of gifting music. Or content.",
+      "explanation": "Phil positively assesses Qleek as an appealing physical format for gifting content.",
+      "evidence": [
+        "This is an elegant way of gifting music. Or content."
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 52,
+          "speaker": "Phil",
+          "quote": "This is an elegant way of gifting music. Or content."
+        }
+      ],
+      "activation": "evaluated",
+      "source_rationale_id": "R6"
+    },
+    {
+      "rationale_label": "market_size_assessment",
+      "direction": "neutral",
+      "salience": "secondary",
+      "confidence": 0.97,
+      "utterance_type": "question",
+      "decision_link": "none",
+      "timing": "original_pitch",
+      "turn_index": 65,
+      "quote": "You’re saying that 50% of Americans gifted music in 2016, and of that, 75% of it was physical, and most of that 75% was CDs?",
+      "explanation": "Phil verifies the founders' material claim about the size of physical music gifting.",
+      "evidence": [
+        "You’re saying that 50% of Americans gifted music in 2016, and of that, 75% of it was physical, and most of that 75% was CDs?"
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 65,
+          "speaker": "Phil",
+          "quote": "You’re saying that 50% of Americans gifted music in 2016, and of that, 75% of it was physical, and most of that 75% was CDs?"
+        }
+      ],
+      "activation": "queried",
+      "source_rationale_id": "R7"
+    },
+    {
+      "rationale_label": "product_appeal_assessment",
+      "direction": "positive",
+      "salience": "secondary",
+      "confidence": 0.96,
+      "utterance_type": "supporting_argument",
+      "decision_link": "none",
+      "timing": "original_pitch",
+      "turn_index": 76,
+      "quote": "you’d give a mix tape to someone like on a cassette tape.",
+      "explanation": "Phil invokes the personalized mixtape experience as an appealing precedent for Qleek's gifting use case.",
+      "evidence": [
+        "you’d give a mix tape to someone like on a cassette tape."
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 76,
+          "speaker": "Phil",
+          "quote": "you’d give a mix tape to someone like on a cassette tape."
+        }
+      ],
+      "activation": "evaluated",
+      "source_rationale_id": "R8"
+    },
+    {
+      "rationale_label": "product_differentiation_concern",
+      "direction": "neutral",
+      "salience": "secondary",
+      "confidence": 0.94,
+      "utterance_type": "question",
+      "decision_link": "none",
+      "timing": "original_pitch",
+      "turn_index": 78,
+      "quote": "So how would you do that today?",
+      "explanation": "Phil probes how consumers currently accomplish the same behavior, testing available substitutes.",
+      "evidence": [
+        "So how would you do that today?"
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 78,
+          "speaker": "Phil",
+          "quote": "So how would you do that today?"
+        }
+      ],
+      "activation": "queried",
+      "source_rationale_id": "R9"
+    },
+    {
+      "rationale_label": "product_appeal_assessment",
+      "direction": "positive",
+      "salience": "secondary",
+      "confidence": 0.98,
+      "utterance_type": "supporting_argument",
+      "decision_link": "none",
+      "timing": "original_pitch",
+      "turn_index": 81,
+      "quote": "That’s an inelegant way of gifting it, right.",
+      "explanation": "Phil argues that ordinary playlist sharing is less appealing as a gift than a physical mixtape-like presentation.",
+      "evidence": [
+        "That’s an inelegant way of gifting it, right."
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 81,
+          "speaker": "Phil",
+          "quote": "That’s an inelegant way of gifting it, right."
+        }
+      ],
+      "activation": "evaluated",
+      "source_rationale_id": "R10"
+    },
+    {
+      "rationale_label": "product_adoption",
+      "direction": "neutral",
+      "salience": "secondary",
+      "confidence": 0.98,
+      "utterance_type": "question",
+      "decision_link": "none",
+      "timing": "original_pitch",
+      "turn_index": 102,
+      "quote": "So what is your traction as of now.",
+      "explanation": "Phil requests evidence that customers are adopting the product.",
+      "evidence": [
+        "So what is your traction as of now."
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 102,
+          "speaker": "Phil",
+          "quote": "So what is your traction as of now."
+        }
+      ],
+      "activation": "queried",
+      "source_rationale_id": "R11"
+    },
+    {
+      "rationale_label": "go_to_market_strategy_assessment",
+      "direction": "neutral",
+      "salience": "secondary",
+      "confidence": 0.98,
+      "utterance_type": "question",
+      "decision_link": "none",
+      "timing": "original_pitch",
+      "turn_index": 102,
+      "quote": "What are your, the channels that you’re pursuing currently?",
+      "explanation": "Phil asks which channels the company is using to reach customers.",
+      "evidence": [
+        "What are your, the channels that you’re pursuing currently?"
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 102,
+          "speaker": "Phil",
+          "quote": "What are your, the channels that you’re pursuing currently?"
+        }
+      ],
+      "activation": "queried",
+      "source_rationale_id": "R12"
+    },
+    {
+      "rationale_label": "business_model_assessment",
+      "direction": "neutral",
+      "salience": "secondary",
+      "confidence": 0.95,
+      "utterance_type": "question",
+      "decision_link": "none",
+      "timing": "original_pitch",
+      "turn_index": 120,
+      "quote": "199 includes the player and a bunch of Qleeks?",
+      "explanation": "Phil clarifies what the company's principal priced bundle includes.",
+      "evidence": [
+        "199 includes the player and a bunch of Qleeks?"
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 120,
+          "speaker": "Phil",
+          "quote": "199 includes the player and a bunch of Qleeks?"
+        }
+      ],
+      "activation": "queried",
+      "source_rationale_id": "R13"
+    },
+    {
+      "rationale_label": "traction_repeatability_concern",
+      "direction": "neutral",
+      "salience": "secondary",
+      "confidence": 0.98,
+      "utterance_type": "question",
+      "decision_link": "none",
+      "timing": "original_pitch",
+      "turn_index": 126,
+      "quote": "what happened when, you shipped the 500, and then you waited to see if they'd come back and order",
+      "explanation": "Phil investigates whether the initial customers returned to make repeat purchases.",
+      "evidence": [
+        "what happened when, you shipped the 500, and then you waited to see if they'd come back and order"
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 126,
+          "speaker": "Phil",
+          "quote": "what happened when, you shipped the 500, and then you waited to see if they'd come back and order"
+        }
+      ],
+      "activation": "queried",
+      "source_rationale_id": "R14"
+    },
+    {
+      "rationale_label": "traction_repeatability_concern",
+      "direction": "neutral",
+      "salience": "secondary",
+      "confidence": 0.99,
+      "utterance_type": "question",
+      "decision_link": "none",
+      "timing": "original_pitch",
+      "turn_index": 128,
+      "quote": "What was the reorder rate?",
+      "explanation": "Phil requests a quantitative measure of repeat purchasing.",
+      "evidence": [
+        "What was the reorder rate?"
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 128,
+          "speaker": "Phil",
+          "quote": "What was the reorder rate?"
+        }
+      ],
+      "activation": "queried",
+      "source_rationale_id": "R15"
+    },
+    {
+      "rationale_label": "capital_intensity_concern",
+      "direction": "neutral",
+      "salience": "secondary",
+      "confidence": 0.9,
+      "utterance_type": "question",
+      "decision_link": "none",
+      "timing": "original_pitch",
+      "turn_index": 153,
+      "quote": "So let's say you raise $800,000 in this round, how much runway will that give you?",
+      "explanation": "Phil assesses how long the requested capital can sustain the company.",
+      "evidence": [
+        "So let's say you raise $800,000 in this round, how much runway will that give you?"
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 153,
+          "speaker": "Phil",
+          "quote": "So let's say you raise $800,000 in this round, how much runway will that give you?"
+        }
+      ],
+      "activation": "queried",
+      "source_rationale_id": "R16"
+    },
+    {
+      "rationale_label": "traction_repeatability_concern",
+      "direction": "neutral",
+      "salience": "secondary",
+      "confidence": 0.93,
+      "utterance_type": "question",
+      "decision_link": "none",
+      "timing": "original_pitch",
+      "turn_index": 155,
+      "quote": "And what do you see as the milestones to the next round?",
+      "explanation": "Phil asks what evidence of progress the company expects to establish before another financing.",
+      "evidence": [
+        "And what do you see as the milestones to the next round?"
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 155,
+          "speaker": "Phil",
+          "quote": "And what do you see as the milestones to the next round?"
+        }
+      ],
+      "activation": "queried",
+      "source_rationale_id": "R17"
+    },
+    {
+      "rationale_label": "product_appeal_assessment",
+      "direction": "positive",
+      "salience": "secondary",
+      "confidence": 0.96,
+      "utterance_type": "assessment",
+      "decision_link": "none",
+      "timing": "original_pitch",
+      "turn_index": 168,
+      "quote": "It's a very interesting product.",
+      "explanation": "Phil expresses a favorable reaction to the product despite ultimately declining the investment.",
+      "evidence": [
+        "It's a very interesting product."
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 168,
+          "speaker": "Phil",
+          "quote": "It's a very interesting product."
+        }
+      ],
+      "activation": "evaluated",
+      "source_rationale_id": "R18"
+    },
+    {
+      "rationale_label": "traction_repeatability_concern",
+      "direction": "negative",
+      "salience": "primary",
+      "confidence": 0.99,
+      "utterance_type": "decision_explanation",
+      "decision_link": "supports_out",
+      "timing": "original_pitch",
+      "turn_index": 168,
+      "quote": "you haven't proven product market fit yet",
+      "explanation": "Phil explicitly makes the lack of demonstrated product-market fit the reason for passing at this stage.",
+      "evidence": [
+        "you haven't proven product market fit yet"
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 168,
+          "speaker": "Phil",
+          "quote": "you haven't proven product market fit yet"
+        }
+      ],
+      "activation": "evaluated",
+      "source_rationale_id": "R19"
+    },
+    {
+      "rationale_label": "traction_repeatability_concern",
+      "direction": "negative",
+      "salience": "primary",
+      "confidence": 0.99,
+      "utterance_type": "decision_explanation",
+      "decision_link": "supports_out",
+      "timing": "original_pitch",
+      "turn_index": 170,
+      "quote": "Because at that point I think you’ve demonstrated a lot more product market fit and adoption and traction, certainly.",
+      "explanation": "Phil explains that he would reconsider only after additional milestones demonstrate stronger adoption and traction.",
+      "evidence": [
+        "Because at that point I think you’ve demonstrated a lot more product market fit and adoption and traction, certainly."
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 170,
+          "speaker": "Phil",
+          "quote": "Because at that point I think you’ve demonstrated a lot more product market fit and adoption and traction, certainly."
+        }
+      ],
+      "activation": "evaluated",
+      "source_rationale_id": "R20"
+    },
+    {
+      "rationale_label": "product_success_factor_assessment",
+      "direction": "negative",
+      "salience": "secondary",
+      "confidence": 0.96,
+      "utterance_type": "concern",
+      "decision_link": "none",
+      "timing": "original_pitch",
+      "turn_index": 180,
+      "quote": "I see it as an extra step",
+      "explanation": "In the immediate debrief, Phil identifies added user friction as a product weakness.",
+      "evidence": [
+        "I see it as an extra step"
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 180,
+          "speaker": "Phil",
+          "quote": "I see it as an extra step"
+        }
+      ],
+      "activation": "evaluated",
+      "source_rationale_id": "R21"
+    },
+    {
+      "rationale_label": "venture_scale_concern",
+      "direction": "negative",
+      "salience": "primary",
+      "confidence": 0.99,
+      "utterance_type": "assessment",
+      "decision_link": "none",
+      "timing": "original_pitch",
+      "turn_index": 182,
+      "quote": "It will have maybe a niche.",
+      "explanation": "Phil believes the product may appeal to only a limited segment.",
+      "evidence": [
+        "It will have maybe a niche."
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 182,
+          "speaker": "Phil",
+          "quote": "It will have maybe a niche."
+        }
+      ],
+      "activation": "evaluated",
+      "source_rationale_id": "R22"
+    },
+    {
+      "rationale_label": "market_timing",
+      "direction": "positive",
+      "salience": "secondary",
+      "confidence": 0.9,
+      "utterance_type": "supporting_argument",
+      "decision_link": "none",
+      "timing": "original_pitch",
+      "turn_index": 186,
+      "quote": "if you look at the vinyl thing as an indicator.",
+      "explanation": "Phil cites vinyl's resurgence as a possible indicator of favorable demand for a physical music format.",
+      "evidence": [
+        "if you look at the vinyl thing as an indicator."
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 186,
+          "speaker": "Phil",
+          "quote": "if you look at the vinyl thing as an indicator."
+        }
+      ],
+      "activation": "evaluated",
+      "source_rationale_id": "R23"
+    },
+    {
+      "rationale_label": "product_appeal_assessment",
+      "direction": "positive",
+      "salience": "secondary",
+      "confidence": 0.97,
+      "utterance_type": "supporting_argument",
+      "decision_link": "none",
+      "timing": "original_pitch",
+      "turn_index": 190,
+      "quote": "this would have that same cool factor.",
+      "explanation": "Phil argues that Qleek could share vinyl's cultural appeal.",
+      "evidence": [
+        "this would have that same cool factor."
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 190,
+          "speaker": "Phil",
+          "quote": "this would have that same cool factor."
+        }
+      ],
+      "activation": "evaluated",
+      "source_rationale_id": "R24"
+    },
+    {
+      "rationale_label": "investor_domain_knowledge_constraint",
+      "direction": "neutral",
+      "salience": "secondary",
+      "confidence": 0.98,
+      "utterance_type": "assessment",
+      "decision_link": "none",
+      "timing": "original_pitch",
+      "turn_index": 195,
+      "quote": "I don't know enough to say. I'm not an audiophile or a millennial.",
+      "explanation": "Phil acknowledges that he lacks the relevant consumer and audio perspective to resolve the vinyl-demand debate.",
+      "evidence": [
+        "I don't know enough to say. I'm not an audiophile or a millennial."
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 195,
+          "speaker": "Phil",
+          "quote": "I don't know enough to say. I'm not an audiophile or a millennial."
+        }
+      ],
+      "activation": "evaluated",
+      "source_rationale_id": "R25"
+    },
+    {
+      "rationale_label": "venture_scale_concern",
+      "direction": "negative",
+      "salience": "primary",
+      "confidence": 0.99,
+      "utterance_type": "assessment",
+      "decision_link": "none",
+      "timing": "original_pitch",
+      "turn_index": 198,
+      "quote": "That’s why I said this is a niche business at best.",
+      "explanation": "Phil explicitly limits the company's likely outcome to a niche business.",
+      "evidence": [
+        "That’s why I said this is a niche business at best."
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 198,
+          "speaker": "Phil",
+          "quote": "That’s why I said this is a niche business at best."
+        }
+      ],
+      "activation": "evaluated",
+      "source_rationale_id": "R26"
+    },
+    {
+      "rationale_label": "venture_scale_concern",
+      "direction": "negative",
+      "salience": "secondary",
+      "confidence": 0.98,
+      "utterance_type": "assessment",
+      "decision_link": "none",
+      "timing": "original_pitch",
+      "turn_index": 200,
+      "quote": "I think it could be a nice niche business.",
+      "explanation": "Phil reiterates that the company may be viable but limited in scale.",
+      "evidence": [
+        "I think it could be a nice niche business."
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 200,
+          "speaker": "Phil",
+          "quote": "I think it could be a nice niche business."
+        }
+      ],
+      "activation": "evaluated",
+      "source_rationale_id": "R27"
+    }
+  ],
+  "expanded_quote_evidence": [],
+  "rejected_after_evidence_check": []
+}

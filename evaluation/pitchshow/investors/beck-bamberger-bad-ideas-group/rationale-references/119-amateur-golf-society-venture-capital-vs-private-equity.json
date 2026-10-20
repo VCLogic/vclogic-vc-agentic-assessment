@@ -1,0 +1,341 @@
+{
+  "schema": "phase1-rationale-reference-v1",
+  "extraction_version": "pitchshow-rationales-v1",
+  "fingerprint": "6c6f63f258b4bfa06845d5bdcdee4552e2b24fc167518eeb93a9ccebca997e25",
+  "episode_slug": "119-amateur-golf-society-venture-capital-vs-private-equity",
+  "vc_slug": "beck-bamberger-bad-ideas-group",
+  "vc_name": "Beck Bamberger",
+  "actual_decision": "Out",
+  "later_decision": "Unknown",
+  "reference_kind": "automated_transcript_observed_candidate",
+  "human_validated": false,
+  "source_format": "transcript-observed-rationales-v1",
+  "source_path": "../source/episodes/119-amateur-golf-society-venture-capital-vs-private-equity.json",
+  "source_sha256": "00dbb243dbcbfeda58eafaf5ff3310c84050e77d3478a7483a35462b7db15de7",
+  "transcript_sha256": "4580a5536f9895e9e7acfacf8f679b6dea6c0028bf69bd49fb691819b3ca5a43",
+  "taxonomy_sha256": "eaa8734819a3ac34dd19ee5f0bf6de925a793a1d25a2d361090dafc9b751e1fc",
+  "model": "openai/gpt-5.6-luna",
+  "source_tier": "newly_extracted_and_independently_model_reviewed",
+  "reviewed_target_turns": [
+    2,
+    4,
+    15,
+    21,
+    31,
+    33,
+    42,
+    44,
+    51,
+    53,
+    57,
+    79,
+    90,
+    108,
+    110,
+    133,
+    151
+  ],
+  "notes": "All supplied target turns were reviewed. Greetings, brief reactions, analogies without an investment-relevant assessment, confirmations, and thanks were omitted.",
+  "receipt_path": "receipts/119-amateur-golf-society-venture-capital-vs-private-equity.json",
+  "scoring_scope": "original_pitch_only",
+  "shared_across_input_modes": true,
+  "rationales": [
+    {
+      "rationale_label": "business_model_assessment",
+      "direction": "negative",
+      "salience": "primary",
+      "confidence": 0.98,
+      "utterance_type": "decision_reason",
+      "decision_link": "explicit",
+      "timing": "original_pitch",
+      "turn_index": 108,
+      "quote": "So I see it less of a tech play.",
+      "explanation": "She views the company as less technology-driven than the type of opportunity she wants to back.",
+      "evidence": [
+        "So I see it less of a tech play."
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 108,
+          "speaker": "Beck",
+          "quote": "So I see it less of a tech play."
+        }
+      ],
+      "activation": "evaluated",
+      "source_rationale_id": "R6",
+      "utterance_kind": "decision_explanation",
+      "decision_support": "supports_out",
+      "all_mention_ids": [
+        "R1",
+        "R6"
+      ]
+    },
+    {
+      "rationale_label": "deal_terms_complexity_concern",
+      "direction": "negative",
+      "salience": "primary",
+      "confidence": 0.99,
+      "utterance_type": "decision_reason",
+      "decision_link": "explicit",
+      "timing": "original_pitch",
+      "turn_index": 108,
+      "quote": "the second thing that's a bit of a problem for me is just the cap table and just all the other people involved",
+      "explanation": "Beck explicitly identifies the ownership structure and number of stakeholders as a problem contributing to her decision not to invest.",
+      "evidence": [
+        "the second thing that's a bit of a problem for me is just the cap table and just all the other people involved"
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 108,
+          "speaker": "Beck",
+          "quote": "the second thing that's a bit of a problem for me is just the cap table and just all the other people involved"
+        }
+      ],
+      "activation": "evaluated",
+      "source_rationale_id": "R7",
+      "utterance_kind": "decision_explanation",
+      "decision_support": "supports_out",
+      "all_mention_ids": [
+        "R7"
+      ]
+    },
+    {
+      "rationale_label": "go_to_market_strategy_assessment",
+      "direction": "negative",
+      "salience": "primary",
+      "confidence": 0.99,
+      "utterance_type": "decision_reason",
+      "decision_link": "explicit",
+      "timing": "original_pitch",
+      "turn_index": 108,
+      "quote": "I have problems with like the event space and how much it takes to be like on the ground.",
+      "explanation": "Beck explicitly links her refusal to the operational burden she associates with an on-the-ground event business.",
+      "evidence": [
+        "I don't need anything.",
+        "I have problems with like the event space and how much it takes to be like on the ground."
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 44,
+          "speaker": "Beck",
+          "quote": "I don't need anything."
+        },
+        {
+          "turn_index": 108,
+          "speaker": "Beck",
+          "quote": "I have problems with like the event space and how much it takes to be like on the ground."
+        }
+      ],
+      "activation": "evaluated",
+      "source_rationale_id": "R5",
+      "utterance_kind": "decision_explanation",
+      "decision_support": "supports_out",
+      "all_mention_ids": [
+        "R2",
+        "R4",
+        "R5"
+      ]
+    },
+    {
+      "rationale_label": "investor_experience_bias",
+      "direction": "negative",
+      "salience": "secondary",
+      "confidence": 0.98,
+      "utterance_type": "assessment",
+      "decision_link": "none",
+      "timing": "original_pitch",
+      "turn_index": 51,
+      "quote": "the big finding was, oh, you need to be on the ground and very local in order to do that",
+      "explanation": "Beck uses her prior food-tour expansion experience to flag local, on-the-ground operations as a potential barrier to geographic scaling.",
+      "evidence": [
+        "the big finding was, oh, you need to be on the ground and very local in order to do that"
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 51,
+          "speaker": "Beck",
+          "quote": "the big finding was, oh, you need to be on the ground and very local in order to do that"
+        }
+      ],
+      "activation": "evaluated",
+      "source_rationale_id": "R3",
+      "utterance_kind": "supporting_argument",
+      "decision_support": "none",
+      "all_mention_ids": [
+        "R3"
+      ]
+    }
+  ],
+  "later_rationales": [],
+  "excluded_rationales": [],
+  "rationale_mentions": [
+    {
+      "rationale_label": "business_model_assessment",
+      "direction": "neutral",
+      "salience": "secondary",
+      "confidence": 0.98,
+      "utterance_type": "question",
+      "decision_link": "none",
+      "timing": "original_pitch",
+      "turn_index": 21,
+      "quote": "So is it - is it an app? Is it an event company? Is it a partner organization?",
+      "explanation": "Beck seeks to clarify whether the company is primarily a technology product, event business, or partner-based organization.",
+      "evidence": [
+        "So is it - is it an app? Is it an event company? Is it a partner organization?"
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 21,
+          "speaker": "Beck",
+          "quote": "So is it - is it an app? Is it an event company? Is it a partner organization?"
+        }
+      ],
+      "activation": "queried",
+      "source_rationale_id": "R1"
+    },
+    {
+      "rationale_label": "go_to_market_strategy_assessment",
+      "direction": "negative",
+      "salience": "secondary",
+      "confidence": 0.93,
+      "utterance_type": "concern",
+      "decision_link": "none",
+      "timing": "original_pitch",
+      "turn_index": 44,
+      "quote": "I don't need anything.",
+      "explanation": "In the role-played course-owner objection, Beck surfaces a customer-value obstacle to persuading full courses to allocate tee times.",
+      "evidence": [
+        "I don't need anything."
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 44,
+          "speaker": "Beck",
+          "quote": "I don't need anything."
+        }
+      ],
+      "activation": "evaluated",
+      "source_rationale_id": "R2"
+    },
+    {
+      "rationale_label": "investor_experience_bias",
+      "direction": "negative",
+      "salience": "secondary",
+      "confidence": 0.98,
+      "utterance_type": "supporting_argument",
+      "decision_link": "none",
+      "timing": "original_pitch",
+      "turn_index": 51,
+      "quote": "the big finding was, oh, you need to be on the ground and very local in order to do that",
+      "explanation": "Beck uses her prior food-tour expansion experience to flag local, on-the-ground operations as a potential barrier to geographic scaling.",
+      "evidence": [
+        "the big finding was, oh, you need to be on the ground and very local in order to do that"
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 51,
+          "speaker": "Beck",
+          "quote": "the big finding was, oh, you need to be on the ground and very local in order to do that"
+        }
+      ],
+      "activation": "evaluated",
+      "source_rationale_id": "R3"
+    },
+    {
+      "rationale_label": "go_to_market_strategy_assessment",
+      "direction": "neutral",
+      "salience": "secondary",
+      "confidence": 0.96,
+      "utterance_type": "question",
+      "decision_link": "none",
+      "timing": "original_pitch",
+      "turn_index": 51,
+      "quote": "Does that hinge upon local people on the ground?",
+      "explanation": "She asks whether expansion depends on local personnel, probing the scalability of the company's operating and customer-acquisition model.",
+      "evidence": [
+        "Does that hinge upon local people on the ground?"
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 51,
+          "speaker": "Beck",
+          "quote": "Does that hinge upon local people on the ground?"
+        }
+      ],
+      "activation": "queried",
+      "source_rationale_id": "R4"
+    },
+    {
+      "rationale_label": "go_to_market_strategy_assessment",
+      "direction": "negative",
+      "salience": "primary",
+      "confidence": 0.99,
+      "utterance_type": "decision_explanation",
+      "decision_link": "supports_out",
+      "timing": "original_pitch",
+      "turn_index": 108,
+      "quote": "I have problems with like the event space and how much it takes to be like on the ground.",
+      "explanation": "Beck explicitly links her refusal to the operational burden she associates with an on-the-ground event business.",
+      "evidence": [
+        "I have problems with like the event space and how much it takes to be like on the ground."
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 108,
+          "speaker": "Beck",
+          "quote": "I have problems with like the event space and how much it takes to be like on the ground."
+        }
+      ],
+      "activation": "evaluated",
+      "source_rationale_id": "R5"
+    },
+    {
+      "rationale_label": "business_model_assessment",
+      "direction": "negative",
+      "salience": "primary",
+      "confidence": 0.98,
+      "utterance_type": "decision_explanation",
+      "decision_link": "supports_out",
+      "timing": "original_pitch",
+      "turn_index": 108,
+      "quote": "So I see it less of a tech play.",
+      "explanation": "She views the company as less technology-driven than the type of opportunity she wants to back.",
+      "evidence": [
+        "So I see it less of a tech play."
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 108,
+          "speaker": "Beck",
+          "quote": "So I see it less of a tech play."
+        }
+      ],
+      "activation": "evaluated",
+      "source_rationale_id": "R6"
+    },
+    {
+      "rationale_label": "deal_terms_complexity_concern",
+      "direction": "negative",
+      "salience": "primary",
+      "confidence": 0.99,
+      "utterance_type": "decision_explanation",
+      "decision_link": "supports_out",
+      "timing": "original_pitch",
+      "turn_index": 108,
+      "quote": "the second thing that's a bit of a problem for me is just the cap table and just all the other people involved",
+      "explanation": "Beck explicitly identifies the ownership structure and number of stakeholders as a problem contributing to her decision not to invest.",
+      "evidence": [
+        "the second thing that's a bit of a problem for me is just the cap table and just all the other people involved"
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 108,
+          "speaker": "Beck",
+          "quote": "the second thing that's a bit of a problem for me is just the cap table and just all the other people involved"
+        }
+      ],
+      "activation": "evaluated",
+      "source_rationale_id": "R7"
+    }
+  ]
+}

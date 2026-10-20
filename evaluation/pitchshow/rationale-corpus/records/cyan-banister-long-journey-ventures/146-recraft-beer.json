@@ -1,0 +1,536 @@
+{
+  "schema": "phase1-rationale-reference-v1",
+  "extraction_version": "pitchshow-rationales-v1",
+  "fingerprint": "a0a0a0302edc9c3a04c061f3d7972b8f4dead7fdb2b896555620a6831854e94e",
+  "episode_slug": "146-recraft-beer",
+  "vc_slug": "cyan-banister-long-journey-ventures",
+  "vc_name": "Cyan Banister",
+  "actual_decision": "Out",
+  "later_decision": "Unknown",
+  "reference_kind": "automated_transcript_observed_candidate",
+  "human_validated": false,
+  "source_format": "transcript-observed-rationales-v1",
+  "source_path": "/home/dpasch01/vclogic-vc-agentic-assessment/evaluation/pitchshow/investors/cyan-banister-long-journey-ventures/source/episodes/146-recraft-beer.json",
+  "source_sha256": "28338eef312f3ca1c5bb3203aef4e81f34755b0ac096f70e21f5c82f4856eaf6",
+  "transcript_sha256": "0a5b86074a0c0583f87ca925c564e220f2d83af755f6de1c6e7aa2c880cfb2b4",
+  "taxonomy_sha256": "eaa8734819a3ac34dd19ee5f0bf6de925a793a1d25a2d361090dafc9b751e1fc",
+  "model": "openai/gpt-5.6-luna",
+  "source_tier": "newly_extracted_and_independently_model_reviewed",
+  "reviewed_target_turns": [
+    4,
+    6,
+    58,
+    60,
+    63,
+    81,
+    91,
+    104,
+    110,
+    116,
+    120,
+    124,
+    136,
+    160
+  ],
+  "notes": "All supplied target turns were reviewed. Turn 160 is a teaser about a different company and was excluded; greetings, confirmations, generic remarks, and the unrelated teaser contained no target-company rationale.",
+  "receipt_path": "/home/dpasch01/vclogic-vc-agentic-assessment/evaluation/pitchshow/investors/cyan-banister-long-journey-ventures/rationale-references/receipts/146-recraft-beer.json",
+  "scoring_scope": "original_pitch_only",
+  "shared_across_input_modes": true,
+  "rationales": [
+    {
+      "rationale_label": "founder_motivation_authenticity",
+      "direction": "positive",
+      "salience": "secondary",
+      "confidence": 0.88,
+      "utterance_type": "assessment",
+      "decision_link": "none",
+      "timing": "original_pitch",
+      "turn_index": 120,
+      "quote": "Something that's his.",
+      "explanation": "Cyan affirms that the founder is personally motivated to build something of his own.",
+      "evidence": [
+        "Something that's his."
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 120,
+          "speaker": "Cyan",
+          "quote": "Something that's his."
+        }
+      ],
+      "activation": "evaluated",
+      "source_rationale_id": "R9",
+      "utterance_kind": "supporting_argument",
+      "decision_support": "none",
+      "all_mention_ids": [
+        "R9"
+      ]
+    },
+    {
+      "rationale_label": "founder_qualities",
+      "direction": "positive",
+      "salience": "secondary",
+      "confidence": 0.9,
+      "utterance_type": "assessment",
+      "decision_link": "none",
+      "timing": "original_pitch",
+      "turn_index": 116,
+      "quote": "He's so super cool.",
+      "explanation": "Cyan expresses positive personal approval of the founder.",
+      "evidence": [
+        "He's so super cool."
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 116,
+          "speaker": "Cyan",
+          "quote": "He's so super cool."
+        }
+      ],
+      "activation": "evaluated",
+      "source_rationale_id": "R8",
+      "utterance_kind": "assessment",
+      "decision_support": "none",
+      "all_mention_ids": [
+        "R8"
+      ]
+    },
+    {
+      "rationale_label": "fundraising_demand_signal",
+      "direction": "positive",
+      "salience": "secondary",
+      "confidence": 0.9,
+      "utterance_type": "assessment",
+      "decision_link": "none",
+      "timing": "original_pitch",
+      "turn_index": 124,
+      "quote": "might be interested.",
+      "explanation": "Cyan suggests that a relevant partner may have investment interest in the company.",
+      "evidence": [
+        "might be interested."
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 124,
+          "speaker": "Cyan",
+          "quote": "might be interested."
+        }
+      ],
+      "activation": "evaluated",
+      "source_rationale_id": "R11",
+      "utterance_kind": "assessment",
+      "decision_support": "none",
+      "all_mention_ids": [
+        "R1",
+        "R11"
+      ]
+    },
+    {
+      "rationale_label": "investment_upside_assessment",
+      "direction": "positive",
+      "salience": "secondary",
+      "confidence": 0.93,
+      "utterance_type": "assessment",
+      "decision_link": "none",
+      "timing": "original_pitch",
+      "turn_index": 110,
+      "quote": "I think it might make a great angel investment.",
+      "explanation": "Cyan positively assesses the opportunity as potentially attractive for an angel investment.",
+      "evidence": [
+        "if the round gets priced, you do it.",
+        "I think it might make a great angel investment."
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 104,
+          "speaker": "Cyan",
+          "quote": "if the round gets priced, you do it."
+        },
+        {
+          "turn_index": 110,
+          "speaker": "Cyan",
+          "quote": "I think it might make a great angel investment."
+        }
+      ],
+      "activation": "evaluated",
+      "source_rationale_id": "R7",
+      "utterance_kind": "assessment",
+      "decision_support": "none",
+      "all_mention_ids": [
+        "R6",
+        "R7"
+      ]
+    },
+    {
+      "rationale_label": "investor_domain_knowledge_constraint",
+      "direction": "negative",
+      "salience": "primary",
+      "confidence": 0.99,
+      "utterance_type": "decision_reason",
+      "decision_link": "explicit",
+      "timing": "original_pitch",
+      "turn_index": 63,
+      "quote": "I'm just the wrong partner at the fund and I just, I'm outta my wheelhouse too.",
+      "explanation": "Cyan says the opportunity falls outside her fund role and domain expertise, limiting her ability to invest directly.",
+      "evidence": [
+        "I'm just the wrong partner at the fund and I just, I'm outta my wheelhouse too."
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 63,
+          "speaker": "Cyan",
+          "quote": "I'm just the wrong partner at the fund and I just, I'm outta my wheelhouse too."
+        }
+      ],
+      "activation": "evaluated",
+      "source_rationale_id": "R2",
+      "utterance_kind": "decision_explanation",
+      "decision_support": "supports_out",
+      "all_mention_ids": [
+        "R2"
+      ]
+    },
+    {
+      "rationale_label": "investor_experience_bias",
+      "direction": "negative",
+      "salience": "secondary",
+      "confidence": 0.98,
+      "utterance_type": "decision_reason",
+      "decision_link": "explicit",
+      "timing": "original_pitch",
+      "turn_index": 63,
+      "quote": "I don't drink beer at all, and I don't really like hops because of a previous beer incident when I was younger.",
+      "explanation": "Cyan identifies a prior negative beer experience and resulting hop aversion as part of her poor fit with the opportunity.",
+      "evidence": [
+        "I don't drink beer at all, and I don't really like hops because of a previous beer incident when I was younger."
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 63,
+          "speaker": "Cyan",
+          "quote": "I don't drink beer at all, and I don't really like hops because of a previous beer incident when I was younger."
+        }
+      ],
+      "activation": "evaluated",
+      "source_rationale_id": "R3",
+      "utterance_kind": "decision_explanation",
+      "decision_support": "supports_out",
+      "all_mention_ids": [
+        "R3"
+      ]
+    },
+    {
+      "rationale_label": "investor_value_add_fit",
+      "direction": "positive",
+      "salience": "secondary",
+      "confidence": 0.93,
+      "utterance_type": "assessment",
+      "decision_link": "none",
+      "timing": "original_pitch",
+      "turn_index": 124,
+      "quote": "who does angel investments in this space",
+      "explanation": "Cyan identifies a fund partner with direct angel-investing experience in the relevant sector.",
+      "evidence": [
+        "he's really into this space.",
+        "open up our Rolodex.",
+        "who does angel investments in this space"
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 63,
+          "speaker": "Cyan",
+          "quote": "he's really into this space."
+        },
+        {
+          "turn_index": 81,
+          "speaker": "Cyan",
+          "quote": "open up our Rolodex."
+        },
+        {
+          "turn_index": 124,
+          "speaker": "Cyan",
+          "quote": "who does angel investments in this space"
+        }
+      ],
+      "activation": "evaluated",
+      "source_rationale_id": "R10",
+      "utterance_kind": "supporting_argument",
+      "decision_support": "none",
+      "all_mention_ids": [
+        "R4",
+        "R5",
+        "R10"
+      ]
+    }
+  ],
+  "later_rationales": [],
+  "excluded_rationales": [],
+  "rationale_mentions": [
+    {
+      "rationale_label": "fundraising_demand_signal",
+      "direction": "neutral",
+      "salience": "secondary",
+      "confidence": 0.98,
+      "utterance_type": "question",
+      "decision_link": "none",
+      "timing": "original_pitch",
+      "turn_index": 58,
+      "quote": "Did you just kick off your fundraise? Or have you - do you have commitments.",
+      "explanation": "Cyan asks whether the company has begun fundraising and secured commitments, probing current investor demand.",
+      "evidence": [
+        "Did you just kick off your fundraise? Or have you - do you have commitments."
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 58,
+          "speaker": "Cyan",
+          "quote": "Did you just kick off your fundraise? Or have you - do you have commitments."
+        }
+      ],
+      "activation": "queried",
+      "source_rationale_id": "R1"
+    },
+    {
+      "rationale_label": "investor_domain_knowledge_constraint",
+      "direction": "negative",
+      "salience": "primary",
+      "confidence": 0.99,
+      "utterance_type": "decision_explanation",
+      "decision_link": "supports_out",
+      "timing": "original_pitch",
+      "turn_index": 63,
+      "quote": "I'm just the wrong partner at the fund and I just, I'm outta my wheelhouse too.",
+      "explanation": "Cyan says the opportunity falls outside her fund role and domain expertise, limiting her ability to invest directly.",
+      "evidence": [
+        "I'm just the wrong partner at the fund and I just, I'm outta my wheelhouse too."
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 63,
+          "speaker": "Cyan",
+          "quote": "I'm just the wrong partner at the fund and I just, I'm outta my wheelhouse too."
+        }
+      ],
+      "activation": "evaluated",
+      "source_rationale_id": "R2"
+    },
+    {
+      "rationale_label": "investor_experience_bias",
+      "direction": "negative",
+      "salience": "secondary",
+      "confidence": 0.98,
+      "utterance_type": "decision_explanation",
+      "decision_link": "supports_out",
+      "timing": "original_pitch",
+      "turn_index": 63,
+      "quote": "I don't drink beer at all, and I don't really like hops because of a previous beer incident when I was younger.",
+      "explanation": "Cyan identifies a prior negative beer experience and resulting hop aversion as part of her poor fit with the opportunity.",
+      "evidence": [
+        "I don't drink beer at all, and I don't really like hops because of a previous beer incident when I was younger."
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 63,
+          "speaker": "Cyan",
+          "quote": "I don't drink beer at all, and I don't really like hops because of a previous beer incident when I was younger."
+        }
+      ],
+      "activation": "evaluated",
+      "source_rationale_id": "R3"
+    },
+    {
+      "rationale_label": "investor_value_add_fit",
+      "direction": "positive",
+      "salience": "secondary",
+      "confidence": 0.95,
+      "utterance_type": "supporting_argument",
+      "decision_link": "none",
+      "timing": "original_pitch",
+      "turn_index": 63,
+      "quote": "he's really into this space.",
+      "explanation": "Cyan points to a fund partner with relevant beverage-sector interest who could be a better-fit evaluator or investor.",
+      "evidence": [
+        "he's really into this space."
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 63,
+          "speaker": "Cyan",
+          "quote": "he's really into this space."
+        }
+      ],
+      "activation": "evaluated",
+      "source_rationale_id": "R4"
+    },
+    {
+      "rationale_label": "investor_value_add_fit",
+      "direction": "positive",
+      "salience": "secondary",
+      "confidence": 0.94,
+      "utterance_type": "supporting_argument",
+      "decision_link": "none",
+      "timing": "original_pitch",
+      "turn_index": 81,
+      "quote": "open up our Rolodex.",
+      "explanation": "Cyan indicates that the investors can provide useful introductions beyond capital.",
+      "evidence": [
+        "open up our Rolodex."
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 81,
+          "speaker": "Cyan",
+          "quote": "open up our Rolodex."
+        }
+      ],
+      "activation": "evaluated",
+      "source_rationale_id": "R5"
+    },
+    {
+      "rationale_label": "investment_upside_assessment",
+      "direction": "positive",
+      "salience": "secondary",
+      "confidence": 0.86,
+      "utterance_type": "assessment",
+      "decision_link": "none",
+      "timing": "original_pitch",
+      "turn_index": 104,
+      "quote": "if the round gets priced, you do it.",
+      "explanation": "Cyan gives a positive, conditional recommendation to invest if the company raises a priced round.",
+      "evidence": [
+        "if the round gets priced, you do it."
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 104,
+          "speaker": "Cyan",
+          "quote": "if the round gets priced, you do it."
+        }
+      ],
+      "activation": "evaluated",
+      "source_rationale_id": "R6"
+    },
+    {
+      "rationale_label": "investment_upside_assessment",
+      "direction": "positive",
+      "salience": "secondary",
+      "confidence": 0.93,
+      "utterance_type": "assessment",
+      "decision_link": "none",
+      "timing": "original_pitch",
+      "turn_index": 110,
+      "quote": "I think it might make a great angel investment.",
+      "explanation": "Cyan positively assesses the opportunity as potentially attractive for an angel investment.",
+      "evidence": [
+        "I think it might make a great angel investment."
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 110,
+          "speaker": "Cyan",
+          "quote": "I think it might make a great angel investment."
+        }
+      ],
+      "activation": "evaluated",
+      "source_rationale_id": "R7"
+    },
+    {
+      "rationale_label": "founder_qualities",
+      "direction": "positive",
+      "salience": "secondary",
+      "confidence": 0.9,
+      "utterance_type": "assessment",
+      "decision_link": "none",
+      "timing": "original_pitch",
+      "turn_index": 116,
+      "quote": "He's so super cool.",
+      "explanation": "Cyan expresses positive personal approval of the founder.",
+      "evidence": [
+        "He's so super cool."
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 116,
+          "speaker": "Cyan",
+          "quote": "He's so super cool."
+        }
+      ],
+      "activation": "evaluated",
+      "source_rationale_id": "R8"
+    },
+    {
+      "rationale_label": "founder_motivation_authenticity",
+      "direction": "positive",
+      "salience": "secondary",
+      "confidence": 0.88,
+      "utterance_type": "supporting_argument",
+      "decision_link": "none",
+      "timing": "original_pitch",
+      "turn_index": 120,
+      "quote": "Something that's his.",
+      "explanation": "Cyan affirms that the founder is personally motivated to build something of his own.",
+      "evidence": [
+        "Something that's his."
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 120,
+          "speaker": "Cyan",
+          "quote": "Something that's his."
+        }
+      ],
+      "activation": "evaluated",
+      "source_rationale_id": "R9"
+    },
+    {
+      "rationale_label": "investor_value_add_fit",
+      "direction": "positive",
+      "salience": "secondary",
+      "confidence": 0.93,
+      "utterance_type": "supporting_argument",
+      "decision_link": "none",
+      "timing": "original_pitch",
+      "turn_index": 124,
+      "quote": "who does angel investments in this space",
+      "explanation": "Cyan identifies a fund partner with direct angel-investing experience in the relevant sector.",
+      "evidence": [
+        "who does angel investments in this space"
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 124,
+          "speaker": "Cyan",
+          "quote": "who does angel investments in this space"
+        }
+      ],
+      "activation": "evaluated",
+      "source_rationale_id": "R10"
+    },
+    {
+      "rationale_label": "fundraising_demand_signal",
+      "direction": "positive",
+      "salience": "secondary",
+      "confidence": 0.9,
+      "utterance_type": "assessment",
+      "decision_link": "none",
+      "timing": "original_pitch",
+      "turn_index": 124,
+      "quote": "might be interested.",
+      "explanation": "Cyan suggests that a relevant partner may have investment interest in the company.",
+      "evidence": [
+        "might be interested."
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 124,
+          "speaker": "Cyan",
+          "quote": "might be interested."
+        }
+      ],
+      "activation": "evaluated",
+      "source_rationale_id": "R11"
+    }
+  ],
+  "expanded_quote_evidence": [],
+  "rejected_after_evidence_check": []
+}

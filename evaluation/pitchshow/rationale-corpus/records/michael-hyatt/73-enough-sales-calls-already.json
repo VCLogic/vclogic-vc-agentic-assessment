@@ -1,0 +1,1369 @@
+{
+  "schema": "phase1-rationale-reference-v1",
+  "extraction_version": "pitchshow-rationales-v1",
+  "fingerprint": "f125a45e7d89d22b8f4d847cae589f4293b6a2ef82ef21b57b050e6ade43698d",
+  "episode_slug": "73-enough-sales-calls-already",
+  "vc_slug": "michael-hyatt",
+  "vc_name": "Michael Hyatt",
+  "actual_decision": "In",
+  "later_decision": "Unknown",
+  "reference_kind": "automated_transcript_observed_candidate",
+  "human_validated": false,
+  "source_format": "transcript-observed-rationales-v1",
+  "source_path": "/home/dpasch01/vclogic-vc-agentic-assessment/evaluation/pitchshow/investors/michael-hyatt/source/episodes/73-enough-sales-calls-already.json",
+  "source_sha256": "3de9445f481be7c17e2d36017014d34436b9a41c46170a2afe4d97427edbee33",
+  "transcript_sha256": "a6a0fa6a9ab7e0363b3ebf434662aadae7db0a0d3bff0cf3f9ee5dec389a6945",
+  "taxonomy_sha256": "eaa8734819a3ac34dd19ee5f0bf6de925a793a1d25a2d361090dafc9b751e1fc",
+  "model": "codex:gpt-5.6-luna+gpt-5.6-sol",
+  "generation_stages": [
+    {
+      "phase": "rationale_extract",
+      "backend": "codex",
+      "model": "gpt-5.6-luna"
+    },
+    {
+      "phase": "rationale_verify",
+      "backend": "codex",
+      "model": "gpt-5.6-sol"
+    }
+  ],
+  "source_tier": "newly_extracted_and_independently_model_reviewed",
+  "reviewed_target_turns": [
+    4,
+    10,
+    12,
+    14,
+    16,
+    22,
+    30,
+    32,
+    34,
+    36,
+    38,
+    47,
+    49,
+    56,
+    69,
+    71,
+    77,
+    79,
+    81,
+    85,
+    87,
+    89,
+    91,
+    93,
+    102,
+    103,
+    105,
+    107,
+    108,
+    110,
+    112,
+    114,
+    116,
+    118,
+    120
+  ],
+  "notes": "All supplied target turns were reviewed. The immediate same-room debrief after the founder exited remains classified as original_pitch; turns containing only clarifications, jokes, congratulations, incomplete questions, or valuation/fundraising queries without a taxonomy-supported assessment were not forced into labels.",
+  "receipt_path": "/home/dpasch01/vclogic-vc-agentic-assessment/evaluation/pitchshow/investors/michael-hyatt/rationale-references/receipts/73-enough-sales-calls-already.json",
+  "scoring_scope": "original_pitch_only",
+  "shared_across_input_modes": true,
+  "rationales": [
+    {
+      "rationale_label": "business_model_assessment",
+      "direction": "positive",
+      "salience": "primary",
+      "confidence": 0.99,
+      "utterance_type": "assessment",
+      "decision_link": "explicit",
+      "timing": "original_pitch",
+      "turn_index": 114,
+      "quote": "recurring revenue",
+      "explanation": "Identifies recurring revenue as an attractive feature of the business model.",
+      "evidence": [
+        "recurring revenue"
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 114,
+          "speaker": "Michael",
+          "quote": "recurring revenue"
+        }
+      ],
+      "activation": "evaluated",
+      "source_rationale_id": "R28",
+      "utterance_kind": "supporting_argument",
+      "decision_support": "supports_in",
+      "all_mention_ids": [
+        "R2",
+        "R3",
+        "R4",
+        "R28"
+      ]
+    },
+    {
+      "rationale_label": "competitive_landscape_inertia",
+      "direction": "negative",
+      "salience": "primary",
+      "confidence": 0.95,
+      "utterance_type": "assessment",
+      "decision_link": "none",
+      "timing": "original_pitch",
+      "turn_index": 34,
+      "quote": "Eventually a lot of us vendors and stuff in the software world said, we're not even going to participate in this.",
+      "explanation": "Warns that established vendor behavior could make suppliers resist participation in a price-pressuring marketplace.",
+      "evidence": [
+        "Eventually a lot of us vendors and stuff in the software world said, we're not even going to participate in this."
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 34,
+          "speaker": "Michael",
+          "quote": "Eventually a lot of us vendors and stuff in the software world said, we're not even going to participate in this."
+        }
+      ],
+      "activation": "evaluated",
+      "source_rationale_id": "R8",
+      "utterance_kind": "concern",
+      "decision_support": "none",
+      "all_mention_ids": [
+        "R8"
+      ]
+    },
+    {
+      "rationale_label": "deal_terms_complexity_concern",
+      "direction": "negative",
+      "salience": "primary",
+      "confidence": 0.98,
+      "utterance_type": "assessment",
+      "decision_link": "none",
+      "timing": "original_pitch",
+      "turn_index": 91,
+      "quote": "I don't know who your lead is. It's actually not a good sales answer because I don't know what your valuation is",
+      "explanation": "Explains that the unidentified lead and unknown valuation prevent him from defining the contemplated investment.",
+      "evidence": [
+        "what do you want? I mean, you have five investors here today.",
+        "I don't know what I'm in for",
+        "I don't know who your lead is. It's actually not a good sales answer because I don't know what your valuation is"
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 81,
+          "speaker": "Michael",
+          "quote": "what do you want? I mean, you have five investors here today."
+        },
+        {
+          "turn_index": 89,
+          "speaker": "Michael",
+          "quote": "I don't know what I'm in for"
+        },
+        {
+          "turn_index": 91,
+          "speaker": "Michael",
+          "quote": "I don't know who your lead is. It's actually not a good sales answer because I don't know what your valuation is"
+        }
+      ],
+      "activation": "evaluated",
+      "source_rationale_id": "R17",
+      "utterance_kind": "concern",
+      "decision_support": "none",
+      "all_mention_ids": [
+        "R13",
+        "R15",
+        "R17"
+      ]
+    },
+    {
+      "rationale_label": "founder_communication_quality",
+      "direction": "negative",
+      "salience": "secondary",
+      "confidence": 0.98,
+      "utterance_type": "assessment",
+      "decision_link": "none",
+      "timing": "original_pitch",
+      "turn_index": 120,
+      "quote": "I got it. So answer my question.",
+      "explanation": "Explains that the founder's sales-heavy communication impeded direct answers to questions.",
+      "evidence": [
+        "Like start giving us the facts.",
+        "That's a good sales answer, but what do you want?",
+        "I got it. So answer my question."
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 32,
+          "speaker": "Michael",
+          "quote": "Like start giving us the facts."
+        },
+        {
+          "turn_index": 81,
+          "speaker": "Michael",
+          "quote": "That's a good sales answer, but what do you want?"
+        },
+        {
+          "turn_index": 120,
+          "speaker": "Michael",
+          "quote": "I got it. So answer my question."
+        }
+      ],
+      "activation": "evaluated",
+      "source_rationale_id": "R32",
+      "utterance_kind": "concern",
+      "decision_support": "none",
+      "all_mention_ids": [
+        "R6",
+        "R12",
+        "R32"
+      ]
+    },
+    {
+      "rationale_label": "founder_execution",
+      "direction": "positive",
+      "salience": "primary",
+      "confidence": 0.97,
+      "utterance_type": "assessment",
+      "decision_link": "explicit",
+      "timing": "original_pitch",
+      "turn_index": 116,
+      "quote": "I believe this guy's going to solve it.",
+      "explanation": "Expresses confidence that the founder can execute successfully against the problem.",
+      "evidence": [
+        "I believe this guy's going to solve it."
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 116,
+          "speaker": "Michael",
+          "quote": "I believe this guy's going to solve it."
+        }
+      ],
+      "activation": "evaluated",
+      "source_rationale_id": "R30",
+      "utterance_kind": "supporting_argument",
+      "decision_support": "supports_in",
+      "all_mention_ids": [
+        "R30"
+      ]
+    },
+    {
+      "rationale_label": "founder_qualities",
+      "direction": "positive",
+      "salience": "secondary",
+      "confidence": 0.95,
+      "utterance_type": "assessment",
+      "decision_link": "explicit",
+      "timing": "original_pitch",
+      "turn_index": 107,
+      "quote": "And I liked him.",
+      "explanation": "Expresses a favorable personal assessment of the founder during the investment debrief.",
+      "evidence": [
+        "And I liked him."
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 107,
+          "speaker": "Michael",
+          "quote": "And I liked him."
+        }
+      ],
+      "activation": "evaluated",
+      "source_rationale_id": "R23",
+      "utterance_kind": "assessment",
+      "decision_support": "supports_in",
+      "all_mention_ids": [
+        "R23"
+      ]
+    },
+    {
+      "rationale_label": "founder_skillset",
+      "direction": "positive",
+      "salience": "primary",
+      "confidence": 0.98,
+      "utterance_type": "assessment",
+      "decision_link": "explicit",
+      "timing": "original_pitch",
+      "turn_index": 120,
+      "quote": "He’s so good at it, he can’t stop himself.",
+      "explanation": "Treats the founder's relentless selling instinct as evidence of exceptional sales ability despite its presentation drawback.",
+      "evidence": [
+        "He is a quintessential AAA sales guy.",
+        "This guy is going to sell himself right the way through",
+        "He’s so good at it, he can’t stop himself."
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 105,
+          "speaker": "Michael",
+          "quote": "He is a quintessential AAA sales guy."
+        },
+        {
+          "turn_index": 118,
+          "speaker": "Michael",
+          "quote": "This guy is going to sell himself right the way through"
+        },
+        {
+          "turn_index": 120,
+          "speaker": "Michael",
+          "quote": "He’s so good at it, he can’t stop himself."
+        }
+      ],
+      "activation": "evaluated",
+      "source_rationale_id": "R33",
+      "utterance_kind": "supporting_argument",
+      "decision_support": "supports_in",
+      "all_mention_ids": [
+        "R22",
+        "R31",
+        "R33"
+      ]
+    },
+    {
+      "rationale_label": "investment_upside_assessment",
+      "direction": "positive",
+      "salience": "primary",
+      "confidence": 0.92,
+      "utterance_type": "assessment",
+      "decision_link": "explicit",
+      "timing": "original_pitch",
+      "turn_index": 112,
+      "quote": "I think it's a winner chicken dinner at that number",
+      "explanation": "Characterizes the opportunity as an attractive investment at the valuation under discussion.",
+      "evidence": [
+        "If these guys get any traction, the valuation is going to be at 40 or 50 million.",
+        "I think it's a winner chicken dinner at that number"
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 110,
+          "speaker": "Michael",
+          "quote": "If these guys get any traction, the valuation is going to be at 40 or 50 million."
+        },
+        {
+          "turn_index": 112,
+          "speaker": "Michael",
+          "quote": "I think it's a winner chicken dinner at that number"
+        }
+      ],
+      "activation": "evaluated",
+      "source_rationale_id": "R26",
+      "utterance_kind": "assessment",
+      "decision_support": "supports_in",
+      "all_mention_ids": [
+        "R24",
+        "R26"
+      ]
+    },
+    {
+      "rationale_label": "investor_experience_bias",
+      "direction": "positive",
+      "salience": "primary",
+      "confidence": 0.97,
+      "utterance_type": "assessment",
+      "decision_link": "explicit",
+      "timing": "original_pitch",
+      "turn_index": 103,
+      "quote": "I really understand enterprise sales.",
+      "explanation": "Reiterates his enterprise-sales experience as the basis for his favorable assessment.",
+      "evidence": [
+        "I'm an enterprise software guy. I get this problem.",
+        "I really understand enterprise sales.",
+        "I know these enterprise companies."
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 93,
+          "speaker": "Michael",
+          "quote": "I'm an enterprise software guy. I get this problem."
+        },
+        {
+          "turn_index": 103,
+          "speaker": "Michael",
+          "quote": "I really understand enterprise sales."
+        },
+        {
+          "turn_index": 110,
+          "speaker": "Michael",
+          "quote": "I know these enterprise companies."
+        }
+      ],
+      "activation": "evaluated",
+      "source_rationale_id": "R20",
+      "utterance_kind": "supporting_argument",
+      "decision_support": "supports_in",
+      "all_mention_ids": [
+        "R7",
+        "R18",
+        "R20",
+        "R25"
+      ]
+    },
+    {
+      "rationale_label": "investor_value_add_fit",
+      "direction": "positive",
+      "salience": "secondary",
+      "confidence": 0.95,
+      "utterance_type": "assessment",
+      "decision_link": "none",
+      "timing": "original_pitch",
+      "turn_index": 93,
+      "quote": "I'll give you a handful of VCs who I think could lead it.",
+      "explanation": "Identifies relevant investor introductions as a concrete way he can help beyond providing capital.",
+      "evidence": [
+        "I'll give you a handful of VCs who I think could lead it."
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 93,
+          "speaker": "Michael",
+          "quote": "I'll give you a handful of VCs who I think could lead it."
+        }
+      ],
+      "activation": "evaluated",
+      "source_rationale_id": "R19",
+      "utterance_kind": "supporting_argument",
+      "decision_support": "none",
+      "all_mention_ids": [
+        "R14",
+        "R16",
+        "R19"
+      ]
+    },
+    {
+      "rationale_label": "market_problem_validation",
+      "direction": "positive",
+      "salience": "primary",
+      "confidence": 0.99,
+      "utterance_type": "assessment",
+      "decision_link": "explicit",
+      "timing": "original_pitch",
+      "turn_index": 114,
+      "quote": "It’s solving a big problem.",
+      "explanation": "States that Vetd addresses a large and meaningful market problem.",
+      "evidence": [
+        "It’s solving a big problem."
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 114,
+          "speaker": "Michael",
+          "quote": "It’s solving a big problem."
+        }
+      ],
+      "activation": "evaluated",
+      "source_rationale_id": "R29",
+      "utterance_kind": "supporting_argument",
+      "decision_support": "supports_in",
+      "all_mention_ids": [
+        "R29"
+      ]
+    },
+    {
+      "rationale_label": "product_adoption",
+      "direction": "neutral",
+      "salience": "secondary",
+      "confidence": 0.97,
+      "utterance_type": "question",
+      "decision_link": "none",
+      "timing": "original_pitch",
+      "turn_index": 49,
+      "quote": "You started to use them? Vetd.",
+      "explanation": "Asks whether Charles's portfolio has begun using Vetd, probing actual adoption.",
+      "evidence": [
+        "You started to use them? Vetd."
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 49,
+          "speaker": "Michael",
+          "quote": "You started to use them? Vetd."
+        }
+      ],
+      "activation": "queried",
+      "source_rationale_id": "R11",
+      "utterance_kind": "question",
+      "decision_support": "none",
+      "all_mention_ids": [
+        "R11"
+      ]
+    },
+    {
+      "rationale_label": "solution_feasibility_assessment",
+      "direction": "neutral",
+      "salience": "secondary",
+      "confidence": 0.84,
+      "utterance_type": "assessment",
+      "decision_link": "none",
+      "timing": "original_pitch",
+      "turn_index": 105,
+      "quote": "if what he’s saying works, this is great.",
+      "explanation": "Describes the opportunity as attractive while explicitly conditioning that view on whether the proposed approach works.",
+      "evidence": [
+        "can you give us a real example of what you’re doing?",
+        "How long will that take to build?",
+        "And you guys step to the side then?",
+        "if what he’s saying works, this is great."
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 4,
+          "speaker": "Michael",
+          "quote": "can you give us a real example of what you’re doing?"
+        },
+        {
+          "turn_index": 30,
+          "speaker": "Michael",
+          "quote": "How long will that take to build?"
+        },
+        {
+          "turn_index": 36,
+          "speaker": "Michael",
+          "quote": "And you guys step to the side then?"
+        },
+        {
+          "turn_index": 105,
+          "speaker": "Michael",
+          "quote": "if what he’s saying works, this is great."
+        }
+      ],
+      "activation": "evaluated",
+      "source_rationale_id": "R21",
+      "utterance_kind": "assessment",
+      "decision_support": "none",
+      "all_mention_ids": [
+        "R1",
+        "R5",
+        "R9",
+        "R10",
+        "R21"
+      ]
+    },
+    {
+      "rationale_label": "unit_economics_assessment",
+      "direction": "positive",
+      "salience": "primary",
+      "confidence": 0.99,
+      "utterance_type": "assessment",
+      "decision_link": "explicit",
+      "timing": "original_pitch",
+      "turn_index": 114,
+      "quote": "Big fat margins",
+      "explanation": "Highlights high margins as a structurally attractive economic characteristic.",
+      "evidence": [
+        "Big fat margins"
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 114,
+          "speaker": "Michael",
+          "quote": "Big fat margins"
+        }
+      ],
+      "activation": "evaluated",
+      "source_rationale_id": "R27",
+      "utterance_kind": "supporting_argument",
+      "decision_support": "supports_in",
+      "all_mention_ids": [
+        "R27"
+      ]
+    }
+  ],
+  "later_rationales": [],
+  "excluded_rationales": [],
+  "rationale_mentions": [
+    {
+      "rationale_label": "solution_feasibility_assessment",
+      "direction": "neutral",
+      "salience": "secondary",
+      "confidence": 0.88,
+      "utterance_type": "question",
+      "decision_link": "none",
+      "timing": "original_pitch",
+      "turn_index": 4,
+      "quote": "can you give us a real example of what you’re doing?",
+      "explanation": "Requests a concrete example to understand how the solution operates in practice.",
+      "evidence": [
+        "can you give us a real example of what you’re doing?"
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 4,
+          "speaker": "Michael",
+          "quote": "can you give us a real example of what you’re doing?"
+        }
+      ],
+      "activation": "queried",
+      "source_rationale_id": "R1"
+    },
+    {
+      "rationale_label": "business_model_assessment",
+      "direction": "neutral",
+      "salience": "secondary",
+      "confidence": 0.98,
+      "utterance_type": "question",
+      "decision_link": "none",
+      "timing": "original_pitch",
+      "turn_index": 10,
+      "quote": "And how are you paid?",
+      "explanation": "Asks how the company monetizes its service.",
+      "evidence": [
+        "And how are you paid?"
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 10,
+          "speaker": "Michael",
+          "quote": "And how are you paid?"
+        }
+      ],
+      "activation": "queried",
+      "source_rationale_id": "R2"
+    },
+    {
+      "rationale_label": "business_model_assessment",
+      "direction": "negative",
+      "salience": "secondary",
+      "confidence": 0.96,
+      "utterance_type": "concern",
+      "decision_link": "none",
+      "timing": "original_pitch",
+      "turn_index": 12,
+      "quote": "But if they don't pay you, they don't get on your platform and you don't recommend them.",
+      "explanation": "Raises a concern that vendor payments could determine platform inclusion and recommendations.",
+      "evidence": [
+        "But if they don't pay you, they don't get on your platform and you don't recommend them."
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 12,
+          "speaker": "Michael",
+          "quote": "But if they don't pay you, they don't get on your platform and you don't recommend them."
+        }
+      ],
+      "activation": "evaluated",
+      "source_rationale_id": "R3"
+    },
+    {
+      "rationale_label": "business_model_assessment",
+      "direction": "neutral",
+      "salience": "secondary",
+      "confidence": 0.96,
+      "utterance_type": "question",
+      "decision_link": "none",
+      "timing": "original_pitch",
+      "turn_index": 14,
+      "quote": "So how much do I pay to come on to your platform?",
+      "explanation": "Asks about the vendor-side pricing model.",
+      "evidence": [
+        "So how much do I pay to come on to your platform?"
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 14,
+          "speaker": "Michael",
+          "quote": "So how much do I pay to come on to your platform?"
+        }
+      ],
+      "activation": "queried",
+      "source_rationale_id": "R4"
+    },
+    {
+      "rationale_label": "solution_feasibility_assessment",
+      "direction": "neutral",
+      "salience": "secondary",
+      "confidence": 0.95,
+      "utterance_type": "question",
+      "decision_link": "none",
+      "timing": "original_pitch",
+      "turn_index": 30,
+      "quote": "How long will that take to build?",
+      "explanation": "Tests the operational feasibility and delivery timeline of the proposed self-service product.",
+      "evidence": [
+        "How long will that take to build?"
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 30,
+          "speaker": "Michael",
+          "quote": "How long will that take to build?"
+        }
+      ],
+      "activation": "queried",
+      "source_rationale_id": "R5"
+    },
+    {
+      "rationale_label": "founder_communication_quality",
+      "direction": "negative",
+      "salience": "secondary",
+      "confidence": 0.98,
+      "utterance_type": "concern",
+      "decision_link": "none",
+      "timing": "original_pitch",
+      "turn_index": 32,
+      "quote": "Like start giving us the facts.",
+      "explanation": "Criticizes the founder's sales-heavy presentation for not providing sufficiently direct factual answers.",
+      "evidence": [
+        "Like start giving us the facts."
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 32,
+          "speaker": "Michael",
+          "quote": "Like start giving us the facts."
+        }
+      ],
+      "activation": "evaluated",
+      "source_rationale_id": "R6"
+    },
+    {
+      "rationale_label": "investor_experience_bias",
+      "direction": "negative",
+      "salience": "secondary",
+      "confidence": 0.97,
+      "utterance_type": "supporting_argument",
+      "decision_link": "none",
+      "timing": "original_pitch",
+      "turn_index": 34,
+      "quote": "This reminds me of Commerce One way back in the days, like in the 90s.",
+      "explanation": "Uses his recollection of an earlier software marketplace to frame his concern about Vetd.",
+      "evidence": [
+        "This reminds me of Commerce One way back in the days, like in the 90s."
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 34,
+          "speaker": "Michael",
+          "quote": "This reminds me of Commerce One way back in the days, like in the 90s."
+        }
+      ],
+      "activation": "evaluated",
+      "source_rationale_id": "R7"
+    },
+    {
+      "rationale_label": "competitive_landscape_inertia",
+      "direction": "negative",
+      "salience": "primary",
+      "confidence": 0.95,
+      "utterance_type": "concern",
+      "decision_link": "none",
+      "timing": "original_pitch",
+      "turn_index": 34,
+      "quote": "Eventually a lot of us vendors and stuff in the software world said, we're not even going to participate in this.",
+      "explanation": "Warns that established vendor behavior could make suppliers resist participation in a price-pressuring marketplace.",
+      "evidence": [
+        "Eventually a lot of us vendors and stuff in the software world said, we're not even going to participate in this."
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 34,
+          "speaker": "Michael",
+          "quote": "Eventually a lot of us vendors and stuff in the software world said, we're not even going to participate in this."
+        }
+      ],
+      "activation": "evaluated",
+      "source_rationale_id": "R8"
+    },
+    {
+      "rationale_label": "solution_feasibility_assessment",
+      "direction": "neutral",
+      "salience": "secondary",
+      "confidence": 0.91,
+      "utterance_type": "question",
+      "decision_link": "none",
+      "timing": "original_pitch",
+      "turn_index": 36,
+      "quote": "And you guys step to the side then?",
+      "explanation": "Clarifies Vetd's operational role once a buyer begins dealing with a vendor.",
+      "evidence": [
+        "And you guys step to the side then?"
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 36,
+          "speaker": "Michael",
+          "quote": "And you guys step to the side then?"
+        }
+      ],
+      "activation": "queried",
+      "source_rationale_id": "R9"
+    },
+    {
+      "rationale_label": "solution_feasibility_assessment",
+      "direction": "positive",
+      "salience": "secondary",
+      "confidence": 0.89,
+      "utterance_type": "assessment",
+      "decision_link": "none",
+      "timing": "original_pitch",
+      "turn_index": 38,
+      "quote": "Oh yeah, that sounds a little better.",
+      "explanation": "Responds favorably after learning that Vetd steps aside rather than operating a bidding process.",
+      "evidence": [
+        "Oh yeah, that sounds a little better."
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 38,
+          "speaker": "Michael",
+          "quote": "Oh yeah, that sounds a little better."
+        }
+      ],
+      "activation": "evaluated",
+      "source_rationale_id": "R10"
+    },
+    {
+      "rationale_label": "product_adoption",
+      "direction": "neutral",
+      "salience": "secondary",
+      "confidence": 0.97,
+      "utterance_type": "question",
+      "decision_link": "none",
+      "timing": "original_pitch",
+      "turn_index": 49,
+      "quote": "You started to use them? Vetd.",
+      "explanation": "Asks whether Charles's portfolio has begun using Vetd, probing actual adoption.",
+      "evidence": [
+        "You started to use them? Vetd."
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 49,
+          "speaker": "Michael",
+          "quote": "You started to use them? Vetd."
+        }
+      ],
+      "activation": "queried",
+      "source_rationale_id": "R11"
+    },
+    {
+      "rationale_label": "founder_communication_quality",
+      "direction": "negative",
+      "salience": "secondary",
+      "confidence": 0.96,
+      "utterance_type": "concern",
+      "decision_link": "none",
+      "timing": "original_pitch",
+      "turn_index": 81,
+      "quote": "That's a good sales answer, but what do you want?",
+      "explanation": "Challenges the founder's evasive answer and asks him to state his desired deal directly.",
+      "evidence": [
+        "That's a good sales answer, but what do you want?"
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 81,
+          "speaker": "Michael",
+          "quote": "That's a good sales answer, but what do you want?"
+        }
+      ],
+      "activation": "evaluated",
+      "source_rationale_id": "R12"
+    },
+    {
+      "rationale_label": "deal_terms_complexity_concern",
+      "direction": "negative",
+      "salience": "secondary",
+      "confidence": 0.89,
+      "utterance_type": "concern",
+      "decision_link": "none",
+      "timing": "original_pitch",
+      "turn_index": 81,
+      "quote": "what do you want? I mean, you have five investors here today.",
+      "explanation": "Expresses frustration that the company has not supplied a sufficiently concrete investment ask.",
+      "evidence": [
+        "what do you want? I mean, you have five investors here today."
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 81,
+          "speaker": "Michael",
+          "quote": "what do you want? I mean, you have five investors here today."
+        }
+      ],
+      "activation": "evaluated",
+      "source_rationale_id": "R13"
+    },
+    {
+      "rationale_label": "investor_value_add_fit",
+      "direction": "neutral",
+      "salience": "secondary",
+      "confidence": 0.94,
+      "utterance_type": "question",
+      "decision_link": "none",
+      "timing": "original_pitch",
+      "turn_index": 87,
+      "quote": "What's a lead investor for you?",
+      "explanation": "Asks what role and noncapital contribution the founder expects from a lead investor.",
+      "evidence": [
+        "What's a lead investor for you?"
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 87,
+          "speaker": "Michael",
+          "quote": "What's a lead investor for you?"
+        }
+      ],
+      "activation": "queried",
+      "source_rationale_id": "R14"
+    },
+    {
+      "rationale_label": "deal_terms_complexity_concern",
+      "direction": "negative",
+      "salience": "secondary",
+      "confidence": 0.94,
+      "utterance_type": "concern",
+      "decision_link": "none",
+      "timing": "original_pitch",
+      "turn_index": 89,
+      "quote": "I don't know what I'm in for",
+      "explanation": "Qualifies his stated interest because the investment amount and terms remain undefined.",
+      "evidence": [
+        "I don't know what I'm in for"
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 89,
+          "speaker": "Michael",
+          "quote": "I don't know what I'm in for"
+        }
+      ],
+      "activation": "evaluated",
+      "source_rationale_id": "R15"
+    },
+    {
+      "rationale_label": "investor_value_add_fit",
+      "direction": "negative",
+      "salience": "secondary",
+      "confidence": 0.84,
+      "utterance_type": "assessment",
+      "decision_link": "none",
+      "timing": "original_pitch",
+      "turn_index": 91,
+      "quote": "I don't have a portfolio",
+      "explanation": "Notes that he lacks the portfolio-company community the founder had just described as an expected contribution from a lead investor.",
+      "evidence": [
+        "I don't have a portfolio"
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 91,
+          "speaker": "Michael",
+          "quote": "I don't have a portfolio"
+        }
+      ],
+      "activation": "evaluated",
+      "source_rationale_id": "R16"
+    },
+    {
+      "rationale_label": "deal_terms_complexity_concern",
+      "direction": "negative",
+      "salience": "primary",
+      "confidence": 0.98,
+      "utterance_type": "concern",
+      "decision_link": "none",
+      "timing": "original_pitch",
+      "turn_index": 91,
+      "quote": "I don't know who your lead is. It's actually not a good sales answer because I don't know what your valuation is",
+      "explanation": "Explains that the unidentified lead and unknown valuation prevent him from defining the contemplated investment.",
+      "evidence": [
+        "I don't know who your lead is. It's actually not a good sales answer because I don't know what your valuation is"
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 91,
+          "speaker": "Michael",
+          "quote": "I don't know who your lead is. It's actually not a good sales answer because I don't know what your valuation is"
+        }
+      ],
+      "activation": "evaluated",
+      "source_rationale_id": "R17"
+    },
+    {
+      "rationale_label": "investor_experience_bias",
+      "direction": "positive",
+      "salience": "primary",
+      "confidence": 0.98,
+      "utterance_type": "decision_explanation",
+      "decision_link": "supports_in",
+      "timing": "original_pitch",
+      "turn_index": 93,
+      "quote": "I'm an enterprise software guy. I get this problem.",
+      "explanation": "Links his enterprise-software experience and familiarity with the problem to his decision to invest.",
+      "evidence": [
+        "I'm an enterprise software guy. I get this problem."
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 93,
+          "speaker": "Michael",
+          "quote": "I'm an enterprise software guy. I get this problem."
+        }
+      ],
+      "activation": "evaluated",
+      "source_rationale_id": "R18"
+    },
+    {
+      "rationale_label": "investor_value_add_fit",
+      "direction": "positive",
+      "salience": "secondary",
+      "confidence": 0.95,
+      "utterance_type": "supporting_argument",
+      "decision_link": "none",
+      "timing": "original_pitch",
+      "turn_index": 93,
+      "quote": "I'll give you a handful of VCs who I think could lead it.",
+      "explanation": "Identifies relevant investor introductions as a concrete way he can help beyond providing capital.",
+      "evidence": [
+        "I'll give you a handful of VCs who I think could lead it."
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 93,
+          "speaker": "Michael",
+          "quote": "I'll give you a handful of VCs who I think could lead it."
+        }
+      ],
+      "activation": "evaluated",
+      "source_rationale_id": "R19"
+    },
+    {
+      "rationale_label": "investor_experience_bias",
+      "direction": "positive",
+      "salience": "primary",
+      "confidence": 0.97,
+      "utterance_type": "supporting_argument",
+      "decision_link": "supports_in",
+      "timing": "original_pitch",
+      "turn_index": 103,
+      "quote": "I really understand enterprise sales.",
+      "explanation": "Reiterates his enterprise-sales experience as the basis for his favorable assessment.",
+      "evidence": [
+        "I really understand enterprise sales."
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 103,
+          "speaker": "Michael",
+          "quote": "I really understand enterprise sales."
+        }
+      ],
+      "activation": "evaluated",
+      "source_rationale_id": "R20"
+    },
+    {
+      "rationale_label": "solution_feasibility_assessment",
+      "direction": "neutral",
+      "salience": "secondary",
+      "confidence": 0.84,
+      "utterance_type": "assessment",
+      "decision_link": "none",
+      "timing": "original_pitch",
+      "turn_index": 105,
+      "quote": "if what he’s saying works, this is great.",
+      "explanation": "Describes the opportunity as attractive while explicitly conditioning that view on whether the proposed approach works.",
+      "evidence": [
+        "if what he’s saying works, this is great."
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 105,
+          "speaker": "Michael",
+          "quote": "if what he’s saying works, this is great."
+        }
+      ],
+      "activation": "evaluated",
+      "source_rationale_id": "R21"
+    },
+    {
+      "rationale_label": "founder_skillset",
+      "direction": "positive",
+      "salience": "primary",
+      "confidence": 0.99,
+      "utterance_type": "supporting_argument",
+      "decision_link": "supports_in",
+      "timing": "original_pitch",
+      "turn_index": 105,
+      "quote": "He is a quintessential AAA sales guy.",
+      "explanation": "Identifies exceptional selling ability as a central founder strength supporting the investment.",
+      "evidence": [
+        "He is a quintessential AAA sales guy."
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 105,
+          "speaker": "Michael",
+          "quote": "He is a quintessential AAA sales guy."
+        }
+      ],
+      "activation": "evaluated",
+      "source_rationale_id": "R22"
+    },
+    {
+      "rationale_label": "founder_qualities",
+      "direction": "positive",
+      "salience": "secondary",
+      "confidence": 0.95,
+      "utterance_type": "assessment",
+      "decision_link": "supports_in",
+      "timing": "original_pitch",
+      "turn_index": 107,
+      "quote": "And I liked him.",
+      "explanation": "Expresses a favorable personal assessment of the founder during the investment debrief.",
+      "evidence": [
+        "And I liked him."
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 107,
+          "speaker": "Michael",
+          "quote": "And I liked him."
+        }
+      ],
+      "activation": "evaluated",
+      "source_rationale_id": "R23"
+    },
+    {
+      "rationale_label": "investment_upside_assessment",
+      "direction": "positive",
+      "salience": "primary",
+      "confidence": 0.99,
+      "utterance_type": "supporting_argument",
+      "decision_link": "supports_in",
+      "timing": "original_pitch",
+      "turn_index": 110,
+      "quote": "If these guys get any traction, the valuation is going to be at 40 or 50 million.",
+      "explanation": "Predicts substantial valuation upside if the company establishes traction.",
+      "evidence": [
+        "If these guys get any traction, the valuation is going to be at 40 or 50 million."
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 110,
+          "speaker": "Michael",
+          "quote": "If these guys get any traction, the valuation is going to be at 40 or 50 million."
+        }
+      ],
+      "activation": "evaluated",
+      "source_rationale_id": "R24"
+    },
+    {
+      "rationale_label": "investor_experience_bias",
+      "direction": "positive",
+      "salience": "secondary",
+      "confidence": 0.93,
+      "utterance_type": "supporting_argument",
+      "decision_link": "supports_in",
+      "timing": "original_pitch",
+      "turn_index": 110,
+      "quote": "I know these enterprise companies.",
+      "explanation": "Cites his experience with enterprise companies as support for his bullish valuation forecast.",
+      "evidence": [
+        "I know these enterprise companies."
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 110,
+          "speaker": "Michael",
+          "quote": "I know these enterprise companies."
+        }
+      ],
+      "activation": "evaluated",
+      "source_rationale_id": "R25"
+    },
+    {
+      "rationale_label": "investment_upside_assessment",
+      "direction": "positive",
+      "salience": "primary",
+      "confidence": 0.92,
+      "utterance_type": "assessment",
+      "decision_link": "supports_in",
+      "timing": "original_pitch",
+      "turn_index": 112,
+      "quote": "I think it's a winner chicken dinner at that number",
+      "explanation": "Characterizes the opportunity as an attractive investment at the valuation under discussion.",
+      "evidence": [
+        "I think it's a winner chicken dinner at that number"
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 112,
+          "speaker": "Michael",
+          "quote": "I think it's a winner chicken dinner at that number"
+        }
+      ],
+      "activation": "evaluated",
+      "source_rationale_id": "R26"
+    },
+    {
+      "rationale_label": "unit_economics_assessment",
+      "direction": "positive",
+      "salience": "primary",
+      "confidence": 0.99,
+      "utterance_type": "supporting_argument",
+      "decision_link": "supports_in",
+      "timing": "original_pitch",
+      "turn_index": 114,
+      "quote": "Big fat margins",
+      "explanation": "Highlights high margins as a structurally attractive economic characteristic.",
+      "evidence": [
+        "Big fat margins"
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 114,
+          "speaker": "Michael",
+          "quote": "Big fat margins"
+        }
+      ],
+      "activation": "evaluated",
+      "source_rationale_id": "R27"
+    },
+    {
+      "rationale_label": "business_model_assessment",
+      "direction": "positive",
+      "salience": "primary",
+      "confidence": 0.99,
+      "utterance_type": "supporting_argument",
+      "decision_link": "supports_in",
+      "timing": "original_pitch",
+      "turn_index": 114,
+      "quote": "recurring revenue",
+      "explanation": "Identifies recurring revenue as an attractive feature of the business model.",
+      "evidence": [
+        "recurring revenue"
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 114,
+          "speaker": "Michael",
+          "quote": "recurring revenue"
+        }
+      ],
+      "activation": "evaluated",
+      "source_rationale_id": "R28"
+    },
+    {
+      "rationale_label": "market_problem_validation",
+      "direction": "positive",
+      "salience": "primary",
+      "confidence": 0.99,
+      "utterance_type": "supporting_argument",
+      "decision_link": "supports_in",
+      "timing": "original_pitch",
+      "turn_index": 114,
+      "quote": "It’s solving a big problem.",
+      "explanation": "States that Vetd addresses a large and meaningful market problem.",
+      "evidence": [
+        "It’s solving a big problem."
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 114,
+          "speaker": "Michael",
+          "quote": "It’s solving a big problem."
+        }
+      ],
+      "activation": "evaluated",
+      "source_rationale_id": "R29"
+    },
+    {
+      "rationale_label": "founder_execution",
+      "direction": "positive",
+      "salience": "primary",
+      "confidence": 0.97,
+      "utterance_type": "supporting_argument",
+      "decision_link": "supports_in",
+      "timing": "original_pitch",
+      "turn_index": 116,
+      "quote": "I believe this guy's going to solve it.",
+      "explanation": "Expresses confidence that the founder can execute successfully against the problem.",
+      "evidence": [
+        "I believe this guy's going to solve it."
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 116,
+          "speaker": "Michael",
+          "quote": "I believe this guy's going to solve it."
+        }
+      ],
+      "activation": "evaluated",
+      "source_rationale_id": "R30"
+    },
+    {
+      "rationale_label": "founder_skillset",
+      "direction": "positive",
+      "salience": "primary",
+      "confidence": 0.98,
+      "utterance_type": "decision_explanation",
+      "decision_link": "supports_in",
+      "timing": "original_pitch",
+      "turn_index": 118,
+      "quote": "This guy is going to sell himself right the way through",
+      "explanation": "Explicitly bases his bet on the founder's ability to sell his way through obstacles.",
+      "evidence": [
+        "This guy is going to sell himself right the way through"
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 118,
+          "speaker": "Michael",
+          "quote": "This guy is going to sell himself right the way through"
+        }
+      ],
+      "activation": "evaluated",
+      "source_rationale_id": "R31"
+    },
+    {
+      "rationale_label": "founder_communication_quality",
+      "direction": "negative",
+      "salience": "secondary",
+      "confidence": 0.98,
+      "utterance_type": "concern",
+      "decision_link": "none",
+      "timing": "original_pitch",
+      "turn_index": 120,
+      "quote": "I got it. So answer my question.",
+      "explanation": "Explains that the founder's sales-heavy communication impeded direct answers to questions.",
+      "evidence": [
+        "I got it. So answer my question."
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 120,
+          "speaker": "Michael",
+          "quote": "I got it. So answer my question."
+        }
+      ],
+      "activation": "evaluated",
+      "source_rationale_id": "R32"
+    },
+    {
+      "rationale_label": "founder_skillset",
+      "direction": "positive",
+      "salience": "primary",
+      "confidence": 0.98,
+      "utterance_type": "supporting_argument",
+      "decision_link": "supports_in",
+      "timing": "original_pitch",
+      "turn_index": 120,
+      "quote": "He’s so good at it, he can’t stop himself.",
+      "explanation": "Treats the founder's relentless selling instinct as evidence of exceptional sales ability despite its presentation drawback.",
+      "evidence": [
+        "He’s so good at it, he can’t stop himself."
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 120,
+          "speaker": "Michael",
+          "quote": "He’s so good at it, he can’t stop himself."
+        }
+      ],
+      "activation": "evaluated",
+      "source_rationale_id": "R33"
+    }
+  ],
+  "expanded_quote_evidence": [],
+  "rejected_after_evidence_check": []
+}

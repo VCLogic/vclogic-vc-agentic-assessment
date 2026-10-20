@@ -1,0 +1,352 @@
+{
+  "schema": "phase1-rationale-reference-v1",
+  "extraction_version": "pitchshow-rationales-v1",
+  "fingerprint": "49276cf72c4bf21b712cffb9eb86e9df5b6bae11b8611f94f2db100f8b44f809",
+  "episode_slug": "18-rowvigor",
+  "vc_slug": "jillian-manus-structure-capital",
+  "vc_name": "Jillian Manus",
+  "actual_decision": "Out",
+  "later_decision": "Unknown",
+  "reference_kind": "automated_transcript_observed_candidate",
+  "human_validated": false,
+  "source_format": "transcript-observed-rationales-v1",
+  "source_path": "../source/episodes/18-rowvigor.json",
+  "source_sha256": "70d74e16340363e241e3c3c712b2fd5713fb63490322f4b13d174263b918600c",
+  "transcript_sha256": "5f9479ea4c75d765cebdc34c4287d2c2a3245de0376b63cd48671e093b2bd47c",
+  "taxonomy_sha256": "eaa8734819a3ac34dd19ee5f0bf6de925a793a1d25a2d361090dafc9b751e1fc",
+  "model": "codex:gpt-5.6-luna+gpt-5.6-sol",
+  "generation_stages": [
+    {
+      "phase": "rationale_extract",
+      "backend": "codex",
+      "model": "gpt-5.6-luna"
+    },
+    {
+      "phase": "rationale_verify",
+      "backend": "codex",
+      "model": "gpt-5.6-sol"
+    }
+  ],
+  "source_tier": "newly_extracted_and_independently_model_reviewed",
+  "reviewed_target_turns": [
+    2,
+    10,
+    16,
+    19,
+    21,
+    25,
+    27,
+    41,
+    43,
+    45,
+    47,
+    49,
+    76,
+    78,
+    95,
+    98,
+    99,
+    107,
+    110,
+    141
+  ],
+  "notes": "All supplied target turns were reviewed; jokes, simple confirmations, redirections, and fundraising suggestions without an investment rationale were omitted.",
+  "receipt_path": "receipts/18-rowvigor.json",
+  "scoring_scope": "original_pitch_only",
+  "shared_across_input_modes": true,
+  "rationales": [
+    {
+      "rationale_label": "capital_intensity_concern",
+      "direction": "positive",
+      "salience": "secondary",
+      "confidence": 0.96,
+      "utterance_type": "assessment",
+      "decision_link": "none",
+      "timing": "original_pitch",
+      "turn_index": 95,
+      "quote": "the content creation around the rowing is not as costly, it’s not as capital intense.",
+      "explanation": "She views the content-focused path as relatively inexpensive and capital-light.",
+      "evidence": [
+        "the content creation around the rowing is not as costly, it’s not as capital intense."
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 95,
+          "speaker": "Jillian",
+          "quote": "the content creation around the rowing is not as costly, it’s not as capital intense."
+        }
+      ],
+      "activation": "evaluated",
+      "source_rationale_id": "R6",
+      "utterance_kind": "supporting_argument",
+      "decision_support": "none",
+      "all_mention_ids": [
+        "R6"
+      ]
+    },
+    {
+      "rationale_label": "founder_qualities",
+      "direction": "positive",
+      "salience": "secondary",
+      "confidence": 0.97,
+      "utterance_type": "assessment",
+      "decision_link": "none",
+      "timing": "original_pitch",
+      "turn_index": 107,
+      "quote": "Liked him, though. Really, really liked him. I like Moses.",
+      "explanation": "During the immediate in-room debrief, Jillian expresses strong positive regard for both founders.",
+      "evidence": [
+        "Liked him, though. Really, really liked him. I like Moses."
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 107,
+          "speaker": "Jillian",
+          "quote": "Liked him, though. Really, really liked him. I like Moses."
+        }
+      ],
+      "activation": "evaluated",
+      "source_rationale_id": "R7",
+      "utterance_kind": "assessment",
+      "decision_support": "none",
+      "all_mention_ids": [
+        "R7"
+      ]
+    },
+    {
+      "rationale_label": "product_appeal_assessment",
+      "direction": "positive",
+      "salience": "secondary",
+      "confidence": 0.96,
+      "utterance_type": "assessment",
+      "decision_link": "none",
+      "timing": "original_pitch",
+      "turn_index": 19,
+      "quote": "Oh I like this.",
+      "explanation": "Jillian reacts positively to the demonstrated fitness content.",
+      "evidence": [
+        "Oh I like this."
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 19,
+          "speaker": "Jillian",
+          "quote": "Oh I like this."
+        }
+      ],
+      "activation": "evaluated",
+      "source_rationale_id": "R2",
+      "utterance_kind": "assessment",
+      "decision_support": "none",
+      "all_mention_ids": [
+        "R2"
+      ]
+    },
+    {
+      "rationale_label": "traction_repeatability_concern",
+      "direction": "negative",
+      "salience": "primary",
+      "confidence": 0.95,
+      "utterance_type": "decision_reason",
+      "decision_link": "explicit",
+      "timing": "original_pitch",
+      "turn_index": 95,
+      "quote": "see if you can get some traction in that way",
+      "explanation": "Jillian indicates that the content-led approach still needs demonstrated traction before she will invest.",
+      "evidence": [
+        "see if you can get some traction in that way"
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 95,
+          "speaker": "Jillian",
+          "quote": "see if you can get some traction in that way"
+        }
+      ],
+      "activation": "evaluated",
+      "source_rationale_id": "R5",
+      "utterance_kind": "decision_explanation",
+      "decision_support": "supports_out",
+      "all_mention_ids": [
+        "R3",
+        "R4",
+        "R5"
+      ]
+    }
+  ],
+  "later_rationales": [],
+  "excluded_rationales": [
+    {
+      "rationale_label": "founder_qualities",
+      "direction": "positive",
+      "salience": "secondary",
+      "confidence": 0.87,
+      "utterance_type": "assessment",
+      "decision_link": "none",
+      "timing": "teaser",
+      "turn_index": 2,
+      "quote": "you are a breath of fresh air.",
+      "explanation": "Jillian expresses a favorable personal impression of the founder in an opening preview clip.",
+      "evidence": [
+        "you are a breath of fresh air."
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 2,
+          "speaker": "Jillian",
+          "quote": "you are a breath of fresh air."
+        }
+      ],
+      "activation": "evaluated",
+      "source_rationale_id": "R1"
+    }
+  ],
+  "rationale_mentions": [
+    {
+      "rationale_label": "product_appeal_assessment",
+      "direction": "positive",
+      "salience": "secondary",
+      "confidence": 0.96,
+      "utterance_type": "assessment",
+      "decision_link": "none",
+      "timing": "original_pitch",
+      "turn_index": 19,
+      "quote": "Oh I like this.",
+      "explanation": "Jillian reacts positively to the demonstrated fitness content.",
+      "evidence": [
+        "Oh I like this."
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 19,
+          "speaker": "Jillian",
+          "quote": "Oh I like this."
+        }
+      ],
+      "activation": "evaluated",
+      "source_rationale_id": "R2"
+    },
+    {
+      "rationale_label": "traction_repeatability_concern",
+      "direction": "neutral",
+      "salience": "secondary",
+      "confidence": 0.91,
+      "utterance_type": "question",
+      "decision_link": "none",
+      "timing": "original_pitch",
+      "turn_index": 76,
+      "quote": "How much?",
+      "explanation": "She asks for the amount of revenue generated, probing the company's early traction.",
+      "evidence": [
+        "How much?"
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 76,
+          "speaker": "Jillian",
+          "quote": "How much?"
+        }
+      ],
+      "activation": "queried",
+      "source_rationale_id": "R3"
+    },
+    {
+      "rationale_label": "traction_repeatability_concern",
+      "direction": "neutral",
+      "salience": "secondary",
+      "confidence": 0.95,
+      "utterance_type": "question",
+      "decision_link": "none",
+      "timing": "original_pitch",
+      "turn_index": 78,
+      "quote": "How much have you made?",
+      "explanation": "She repeats her request for a concrete measure of the company's revenue traction.",
+      "evidence": [
+        "How much have you made?"
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 78,
+          "speaker": "Jillian",
+          "quote": "How much have you made?"
+        }
+      ],
+      "activation": "queried",
+      "source_rationale_id": "R4"
+    },
+    {
+      "rationale_label": "traction_repeatability_concern",
+      "direction": "negative",
+      "salience": "primary",
+      "confidence": 0.95,
+      "utterance_type": "decision_explanation",
+      "decision_link": "supports_out",
+      "timing": "original_pitch",
+      "turn_index": 95,
+      "quote": "see if you can get some traction in that way",
+      "explanation": "Jillian indicates that the content-led approach still needs demonstrated traction before she will invest.",
+      "evidence": [
+        "see if you can get some traction in that way"
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 95,
+          "speaker": "Jillian",
+          "quote": "see if you can get some traction in that way"
+        }
+      ],
+      "activation": "evaluated",
+      "source_rationale_id": "R5"
+    },
+    {
+      "rationale_label": "capital_intensity_concern",
+      "direction": "positive",
+      "salience": "secondary",
+      "confidence": 0.96,
+      "utterance_type": "supporting_argument",
+      "decision_link": "none",
+      "timing": "original_pitch",
+      "turn_index": 95,
+      "quote": "the content creation around the rowing is not as costly, it’s not as capital intense.",
+      "explanation": "She views the content-focused path as relatively inexpensive and capital-light.",
+      "evidence": [
+        "the content creation around the rowing is not as costly, it’s not as capital intense."
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 95,
+          "speaker": "Jillian",
+          "quote": "the content creation around the rowing is not as costly, it’s not as capital intense."
+        }
+      ],
+      "activation": "evaluated",
+      "source_rationale_id": "R6"
+    },
+    {
+      "rationale_label": "founder_qualities",
+      "direction": "positive",
+      "salience": "secondary",
+      "confidence": 0.97,
+      "utterance_type": "assessment",
+      "decision_link": "none",
+      "timing": "original_pitch",
+      "turn_index": 107,
+      "quote": "Liked him, though. Really, really liked him. I like Moses.",
+      "explanation": "During the immediate in-room debrief, Jillian expresses strong positive regard for both founders.",
+      "evidence": [
+        "Liked him, though. Really, really liked him. I like Moses."
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 107,
+          "speaker": "Jillian",
+          "quote": "Liked him, though. Really, really liked him. I like Moses."
+        }
+      ],
+      "activation": "evaluated",
+      "source_rationale_id": "R7"
+    }
+  ],
+  "expanded_quote_evidence": [],
+  "rejected_after_evidence_check": []
+}

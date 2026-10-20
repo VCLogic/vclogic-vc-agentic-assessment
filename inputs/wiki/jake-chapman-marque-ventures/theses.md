@@ -1,0 +1,73 @@
+# Jake Chapman — Recurring Investment Theses
+
+### Direct company investing
+
+- **Current explicit core—national security:** Marque invests at the early stage in technology relevant to national security, generally serving government needs and intended for the United States and allies; Chapman calls the firm industry-focused on defense rather than sector-focused on one technology. [ev:jake-chapman-marque-ventures-0038] [ev:jake-chapman-marque-ventures-0239] [ev:jake-chapman-marque-ventures-0278] [ev:jake-chapman-marque-ventures-0279] [ctx:jake-chapman-marque-ventures-0247]
+
+- **Defense-first over parallel dual use:** Chapman prefers pure-play defense and argues that separate commercial and government products, engineering teams, and sales motions are normally unaffordable at seed. If dual use is pursued, his preferred sequence is one market first and the second around Series B, not both in parallel. [ev:jake-chapman-marque-ventures-0157] [ev:jake-chapman-marque-ventures-0158] [ev:jake-chapman-marque-ventures-0241] [ev:jake-chapman-marque-ventures-0242] [ev:jake-chapman-marque-ventures-0243]
+
+- **Exception—dual-use industrial inputs:** Although skeptical of dual-use company positioning, he is positive on manufacturing capacity that can switch between commercial and defense production during mobilization. [ev:jake-chapman-marque-ventures-0251] [ev:jake-chapman-marque-ventures-0457]
+
+- **Manufacturing and industrial resilience:** Domestic manufacturing, supply-chain security, critical minerals, advanced manufacturing, and a neutral production layer serving multiple defense startups recur as favored problems. He sees reshoring as an underfunded multidecade effort rather than a short cycle. [ev:jake-chapman-marque-ventures-0003] [ev:jake-chapman-marque-ventures-0056] [ev:jake-chapman-marque-ventures-0057] [ev:jake-chapman-marque-ventures-0124] [ev:jake-chapman-marque-ventures-0163]
+
+- **Underowned strategic and kinetic capability:** He sees small drones and other tactical technologies as crowded, while strategic systems, energetics, kinetic technologies, alternative PNT, and mobilization infrastructure receive less capital partly because some investors will not or cannot participate. [ev:jake-chapman-marque-ventures-0039] [ev:jake-chapman-marque-ventures-0123] [ev:jake-chapman-marque-ventures-0125] [ev:jake-chapman-marque-ventures-0254] [ev:jake-chapman-marque-ventures-0459]
+
+- **Frontier/deep technology:** Before Marque’s defense-only specialization, Chapman consistently favored technologies recently impossible or confined to laboratories: energy, aerospace, autonomy, robotics, applied AI, synthetic biology, advanced sensors, brain-machine interfaces, and limited biotech. The defense mandate is the narrower later expression of this future-building orientation. [ev:jake-chapman-marque-ventures-0002] [ev:jake-chapman-marque-ventures-0147] [ev:jake-chapman-marque-ventures-0171] [ev:jake-chapman-marque-ventures-0172] [ev:jake-chapman-marque-ventures-0211]
+
+- **Hardware meets software:** Most later investments are described as some combination of hardware and software; a source-reported estimate put one portfolio at roughly 75% hardware. Chapman nevertheless recognizes that software can be the capability and value layer on top of constrained hardware. [ev:jake-chapman-marque-ventures-0161] [ev:jake-chapman-marque-ventures-0167] [ev:jake-chapman-marque-ventures-0253] [ctx:jake-chapman-marque-ventures-0010]
+
+- **Applied AI, not AI labeling:** AI is compelling where it produces measurable workflow, compliance, or operational gains, but he is skeptical of companies whose claimed AI is a commodity algorithm or superficial deck language. [ev:jake-chapman-marque-ventures-0005] [ev:jake-chapman-marque-ventures-0029] [ev:jake-chapman-marque-ventures-0083] [ev:jake-chapman-marque-ventures-0084]
+
+- **Founder-market fit in defense:** He prefers veterans and former government civilians who directly experienced the problem, while explicitly stating this is a bias rather than an absolute prerequisite. Otherwise, firsthand military and procurement expertise should be represented by a co-founder or very early hire. [ev:jake-chapman-marque-ventures-0129] [ev:jake-chapman-marque-ventures-0180] [ev:jake-chapman-marque-ventures-0281] [ev:jake-chapman-marque-ventures-0302]
+
+- **Requirement-backed customer demand:** Defense opportunity is validated through the intersection of user demand, formal requirements, budgets, contracting authority, and congressional support. A grant, pilot, prestigious adviser, or enthusiastic warfighter alone does not establish scalable procurement. [ev:jake-chapman-marque-ventures-0008] [ev:jake-chapman-marque-ventures-0009] [ev:jake-chapman-marque-ventures-0033] [ev:jake-chapman-marque-ventures-0330] [ev:jake-chapman-marque-ventures-0336]
+
+- **Product wedge before platform:** Chapman does not try to identify “the next Anduril” directly; he seeks a strong product and credible wedge, then underwrites whether the team can expand into a platform. His operating advice favors one committed initial customer and later adjacency expansion. [ev:jake-chapman-marque-ventures-0050] [ev:jake-chapman-marque-ventures-0122] [ev:jake-chapman-marque-ventures-0126]
+
+- **Integrated capability:** The DoD buys integrated solutions, creating value for companies that combine components into deployable capability and for neutral integrators or manufacturers that help startups move from R&D to production. [ev:jake-chapman-marque-ventures-0044] [ev:jake-chapman-marque-ventures-0162] [ev:jake-chapman-marque-ventures-0163]
+
+- **Mission plus venture-scale economics:** He wants companies that materially improve the world and can create very large financial outcomes. Mission without a sound business is insufficient, while a good but personally uninteresting business became a reason for him to narrow his career focus. [ev:jake-chapman-marque-ventures-0144] [ev:jake-chapman-marque-ventures-0200] [ev:jake-chapman-marque-ventures-0397] [ev:jake-chapman-marque-ventures-0399] [ev:jake-chapman-marque-ventures-0406]
+
+- **Ethics follow intent and customer:** He evaluates defense products through their builders, intended customers, and intended use, rather than categorically rejecting kinetic technology. Companies proposing dubious customers or uses can be removed from diligence. [ev:jake-chapman-marque-ventures-0132] [ev:jake-chapman-marque-ventures-0293] [ev:jake-chapman-marque-ventures-0294] [ev:jake-chapman-marque-ventures-0295]
+
+- **Geopolitical alignment:** He opposes investment in China and Marque reports limiting emerging capabilities to U.S. and allied use; this is a values and national-security constraint rather than a general emerging-markets thesis. [ev:jake-chapman-marque-ventures-0277] [ctx:jake-chapman-marque-ventures-0247] [ctx:jake-chapman-marque-ventures-0270]
+
+### Fund allocation and venture-firm strategy
+
+- **Power-law construction:** Chapman says outliers drive venture and that a successful portfolio needs the possibility of a 50x–100x company. Alpha Bridge’s model separately described underwriting opportunities to potential 15x–20x net outcomes and returning 3x net through several moderate exits or one unicorn. [ev:jake-chapman-marque-ventures-0060] [ev:jake-chapman-marque-ventures-0061] [ev:jake-chapman-marque-ventures-0382] [ev:jake-chapman-marque-ventures-0409]
+
+- **Concentration over faux diversification:** He favors a somewhat concentrated fund because sophisticated LPs can diversify across managers, and he rejects raw deal-flow counts and “proprietary deal flow” as meaningful advantages without quality or a repeatable edge. [ev:jake-chapman-marque-ventures-0062] [ev:jake-chapman-marque-ventures-0063] [ev:jake-chapman-marque-ventures-0215] [ev:jake-chapman-marque-ventures-0402]
+
+- **Specialization as edge:** Defense clearances, user access, Washington relationships, acquisition knowledge, and shared legislative or product support are presented as Marque’s repeatable advantage. Large multistage firms may possess expertise but have limited internal capacity for defense deals. [ev:jake-chapman-marque-ventures-0042] [ev:jake-chapman-marque-ventures-0043] [ev:jake-chapman-marque-ventures-0128] [ev:jake-chapman-marque-ventures-0136] [ev:jake-chapman-marque-ventures-0331]
+
+- **Capital-risk underwriting:** A small fund may finance one round but not the next, making later fundraising capacity a present underwriting issue. The desired company is contrarian today but likely recognizable to Series B capital after milestone achievement. [ev:jake-chapman-marque-ventures-0023] [ev:jake-chapman-marque-ventures-0024] [ev:jake-chapman-marque-ventures-0025]
+
+- **Follow-on access as fund risk:** Small funds risk being excluded from later rounds in their best companies; Chapman’s Alpha Bridge response was to become sufficiently useful to founders that the fund retained access. [ev:jake-chapman-marque-ventures-0155] [ev:jake-chapman-marque-ventures-0156] [ev:jake-chapman-marque-ventures-0209]
+
+- **Value beyond commodity capital:** Across Alpha Bridge and Marque, he argues that money is undifferentiated. Alpha Bridge offered customized founder support; Marque offers government navigation, fellowships, legislative help, and strategic partnerships. [ev:jake-chapman-marque-ventures-0013] [ev:jake-chapman-marque-ventures-0014] [ev:jake-chapman-marque-ventures-0154] [ev:jake-chapman-marque-ventures-0208] [ev:jake-chapman-marque-ventures-0410]
+
+- **Defense as portfolio allocation:** He treats defense as countercyclical and therefore potentially diversifying, while separately arguing that venture can lower total-portfolio risk through low correlation despite high standalone risk. These are allocation arguments, not claims that individual defense startups are low risk. [ev:jake-chapman-marque-ventures-0138] [ev:jake-chapman-marque-ventures-0320] [ev:jake-chapman-marque-ventures-0323]
+
+### Evolution and tensions
+
+- **Sector-agnostic seed to mission-led frontier tech:** Earlier Gelt and Alpha Bridge materials describe seed or post-seed investing, sector agnosticism, consumer exposure, and founder wellness. Chapman later said he stopped investing in businesses that were good but personally uninteresting and moved toward frontier technology and national security. [ev:jake-chapman-marque-ventures-0081] [ev:jake-chapman-marque-ventures-0091] [ev:jake-chapman-marque-ventures-0199] [ev:jake-chapman-marque-ventures-0200] [ev:jake-chapman-marque-ventures-0207] [ev:jake-chapman-marque-ventures-0222]
+
+- **Stage evolution:** Gelt was described as seed-stage; Alpha Bridge’s sweet spot was post-seed/pre-Series A with occasional tiny earlier checks; Marque Fund One was pre-seed through Series A, while a proposed next fund would move mostly to Series A. Later Marque materials state Seed-to-Series A. [ev:jake-chapman-marque-ventures-0169] [ev:jake-chapman-marque-ventures-0207] [ev:jake-chapman-marque-ventures-0210] [ev:jake-chapman-marque-ventures-0037] [ev:jake-chapman-marque-ventures-0040] [ctx:jake-chapman-marque-ventures-0246]
+
+- **Consumer tension is institutional, not necessarily contradictory:** At Alpha Bridge, Chapman evaluated consumer companies while partner Howie drove the category; older profiles exclude purely consumer-facing, e-commerce, game studios, and ad tech. Marque’s later defense-only mandate supersedes the broader firm-level exposure for current fit. [ev:jake-chapman-marque-ventures-0091] [ev:jake-chapman-marque-ventures-0265] [ev:jake-chapman-marque-ventures-0430] [ctx:jake-chapman-marque-ventures-0089]
+
+- **Dual-use source tension:** Some source descriptions call Marque a defense-and-dual-use investor, and Chapman says the firm also makes dual-use investments; his own repeated policy is nonetheless that parallel dual-use execution is usually a mistake and pure-play defense is preferred. [ctx:jake-chapman-marque-ventures-0066] [ctx:jake-chapman-marque-ventures-0274] [ev:jake-chapman-marque-ventures-0157] [ev:jake-chapman-marque-ventures-0158] [ev:jake-chapman-marque-ventures-0243]
+
+- **Validation versus speed:** Repeated independent exposure to a company can raise his interest, but waiting for broad triangulation can make an investor too late. His Roam example illustrates the cost of waiting until social proof is obvious. [ev:jake-chapman-marque-ventures-0085] [ev:jake-chapman-marque-ventures-0086] [ev:jake-chapman-marque-ventures-0096]
+
+- **Defense opportunity versus froth:** He expects a generational budget shift and large five- to ten-year returns, but warns that hot valuations, inexperienced capital, weak exits, and a possible Series A gap can punish undisciplined entrants. [ev:jake-chapman-marque-ventures-0041] [ev:jake-chapman-marque-ventures-0047] [ev:jake-chapman-marque-ventures-0048] [ev:jake-chapman-marque-ventures-0325] [ev:jake-chapman-marque-ventures-0329]
+
+### Public markets, real estate, and operating-company strategy
+
+- **Public markets:** The supplied evidence contains no developed public-equity security-selection thesis. References to IPOs concern venture exits, and his statement that early private shares may remain illiquid for a decade is a venture-fund constraint rather than public-market advice. [ev:jake-chapman-marque-ventures-0067] [ev:jake-chapman-marque-ventures-0166]
+
+- **Real estate:** No real-estate investment thesis is supported. Mentions of mortgages, offices, or physical locations concern founder liquidity, operating costs, or capital intensity—not property allocation. [ev:jake-chapman-marque-ventures-0090] [ctx:jake-chapman-marque-ventures-0095] [ev:jake-chapman-marque-ventures-0380]
+
+- **Operating-company strategy:** Inferred, not direct investment gates: focus a startup on one urgent customer and one sales motion; prove completed execution; use non-dilutive grants only when aligned with the roadmap and available bandwidth; convert pilots into paid deployments; and add adjacent markets after the core works. [ev:jake-chapman-marque-ventures-0050] [ev:jake-chapman-marque-ventures-0334] [ev:jake-chapman-marque-ventures-0335] [ev:jake-chapman-marque-ventures-0359] [ev:jake-chapman-marque-ventures-0418]
+
+- **Operating-company procurement strategy:** Inferred, not universal gates: work requirements, budgets, contracting, congressional education, and product development concurrently; distinguish user from buyer; and consider a prime or systems partner for earlier revenue without mistaking that bridge for scaled demand. [ev:jake-chapman-marque-ventures-0035] [ev:jake-chapman-marque-ventures-0284] [ev:jake-chapman-marque-ventures-0285] [ev:jake-chapman-marque-ventures-0286] [ev:jake-chapman-marque-ventures-0336]

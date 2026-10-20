@@ -1,0 +1,511 @@
+{
+  "schema": "phase1-rationale-reference-v1",
+  "extraction_version": "pitchshow-rationales-v1",
+  "fingerprint": "2883c26e0466454d9aea4e4988d4158da86c6f34fa20e0a742c3e632573cb665",
+  "episode_slug": "149-dopl",
+  "vc_slug": "charles-hudson-precursor-ventures",
+  "vc_name": "Charles Hudson",
+  "actual_decision": "In",
+  "later_decision": "Unknown",
+  "reference_kind": "automated_transcript_observed_candidate",
+  "human_validated": false,
+  "source_format": "transcript-observed-rationales-v1",
+  "source_path": "../source/episodes/149-dopl.json",
+  "source_sha256": "f278f0a75af3bfa8ac64886abfec85d5c80da7590d40d1de46fc1d8c6f2eb0ef",
+  "transcript_sha256": "13b664a0af39ad371d7a9a7ed44567f7e2381ad30990fcba5d016ddde2ea13b9",
+  "taxonomy_sha256": "eaa8734819a3ac34dd19ee5f0bf6de925a793a1d25a2d361090dafc9b751e1fc",
+  "model": "openai/gpt-5.6-luna",
+  "source_tier": "newly_extracted_and_independently_model_reviewed",
+  "reviewed_target_turns": [
+    4,
+    9,
+    12,
+    58,
+    72,
+    74,
+    78,
+    80,
+    104,
+    106,
+    108,
+    110,
+    118,
+    121,
+    123,
+    131,
+    135,
+    146,
+    148,
+    151,
+    153,
+    155
+  ],
+  "notes": "The remaining indexed target turns contained greetings, jokes, confirmations, fragmentary continuation without a complete rationale, bare commitment language, or closing remarks.",
+  "receipt_path": "receipts/149-dopl.json",
+  "scoring_scope": "original_pitch_only",
+  "shared_across_input_modes": true,
+  "rationales": [
+    {
+      "rationale_label": "business_model_assessment",
+      "direction": "neutral",
+      "salience": "secondary",
+      "confidence": 0.91,
+      "utterance_type": "question",
+      "decision_link": "none",
+      "timing": "original_pitch",
+      "turn_index": 74,
+      "quote": "- just the set up and tear down of each patient session?",
+      "explanation": "He asks how the staffing and service workflow for preparing and resetting each patient session will work.",
+      "evidence": [
+        "How does pricing work and kind of what do your customers have to believe about efficacy or throughput in order for it to pen and pencil?",
+        "- just the set up and tear down of each patient session?"
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 58,
+          "speaker": "Charles",
+          "quote": "How does pricing work and kind of what do your customers have to believe about efficacy or throughput in order for it to pen and pencil?"
+        },
+        {
+          "turn_index": 74,
+          "speaker": "Charles",
+          "quote": "- just the set up and tear down of each patient session?"
+        }
+      ],
+      "activation": "queried",
+      "source_rationale_id": "R2",
+      "utterance_kind": "question",
+      "decision_support": "none",
+      "all_mention_ids": [
+        "R1",
+        "R2"
+      ]
+    },
+    {
+      "rationale_label": "business_viability_concern",
+      "direction": "negative",
+      "salience": "primary",
+      "confidence": 0.97,
+      "utterance_type": "assessment",
+      "decision_link": "none",
+      "timing": "original_pitch",
+      "turn_index": 108,
+      "quote": "you make one mistake, you're out of business",
+      "explanation": "He identifies the potentially existential business consequences of a single error in the procedure.",
+      "evidence": [
+        "you make one mistake, you're out of business"
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 108,
+          "speaker": "Charles",
+          "quote": "you make one mistake, you're out of business"
+        }
+      ],
+      "activation": "evaluated",
+      "source_rationale_id": "R6",
+      "utterance_kind": "assessment",
+      "decision_support": "none",
+      "all_mention_ids": [
+        "R6"
+      ]
+    },
+    {
+      "rationale_label": "investment_upside_assessment",
+      "direction": "positive",
+      "salience": "secondary",
+      "confidence": 0.89,
+      "utterance_type": "assessment",
+      "decision_link": "none",
+      "timing": "original_pitch",
+      "turn_index": 106,
+      "quote": "incredibly, incredibly lucrative businesses",
+      "explanation": "Charles points to the strong financial outcomes of hospital-robotics businesses as favorable context for the opportunity.",
+      "evidence": [
+        "incredibly, incredibly lucrative businesses"
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 106,
+          "speaker": "Charles",
+          "quote": "incredibly, incredibly lucrative businesses"
+        }
+      ],
+      "activation": "evaluated",
+      "source_rationale_id": "R4",
+      "utterance_kind": "supporting_argument",
+      "decision_support": "none",
+      "all_mention_ids": [
+        "R4"
+      ]
+    },
+    {
+      "rationale_label": "investor_experience_bias",
+      "direction": "negative",
+      "salience": "secondary",
+      "confidence": 0.86,
+      "utterance_type": "assessment",
+      "decision_link": "none",
+      "timing": "original_pitch",
+      "turn_index": 131,
+      "quote": "I did not realize what the state of the art was until I spent a bunch of time with them.",
+      "explanation": "Charles invokes prior exposure to surgical robotics as context for how he evaluates the current opportunity.",
+      "evidence": [
+        "I did not realize what the state of the art was until I spent a bunch of time with them."
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 131,
+          "speaker": "Charles",
+          "quote": "I did not realize what the state of the art was until I spent a bunch of time with them."
+        }
+      ],
+      "activation": "evaluated",
+      "source_rationale_id": "R8",
+      "utterance_kind": "supporting_argument",
+      "decision_support": "none",
+      "all_mention_ids": [
+        "R8"
+      ]
+    },
+    {
+      "rationale_label": "market_size_assessment",
+      "direction": "neutral",
+      "salience": "secondary",
+      "confidence": 0.98,
+      "utterance_type": "question",
+      "decision_link": "none",
+      "timing": "original_pitch",
+      "turn_index": 80,
+      "quote": "How, how big does the business get just with the ultrasound piece, if you don't move into other categories?",
+      "explanation": "Charles tests the standalone scale of the ultrasound opportunity without expansion into other procedure categories.",
+      "evidence": [
+        "How, how big does the business get just with the ultrasound piece, if you don't move into other categories?"
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 80,
+          "speaker": "Charles",
+          "quote": "How, how big does the business get just with the ultrasound piece, if you don't move into other categories?"
+        }
+      ],
+      "activation": "queried",
+      "source_rationale_id": "R3",
+      "utterance_kind": "question",
+      "decision_support": "none",
+      "all_mention_ids": [
+        "R3"
+      ]
+    },
+    {
+      "rationale_label": "product_appeal_assessment",
+      "direction": "positive",
+      "salience": "secondary",
+      "confidence": 0.94,
+      "utterance_type": "assessment",
+      "decision_link": "none",
+      "timing": "original_pitch",
+      "turn_index": 131,
+      "quote": "this is a really cool idea",
+      "explanation": "Charles expresses a positive personal reaction to the robotics concept.",
+      "evidence": [
+        "this is a really cool idea"
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 131,
+          "speaker": "Charles",
+          "quote": "this is a really cool idea"
+        }
+      ],
+      "activation": "evaluated",
+      "source_rationale_id": "R7",
+      "utterance_kind": "assessment",
+      "decision_support": "none",
+      "all_mention_ids": [
+        "R7"
+      ]
+    },
+    {
+      "rationale_label": "solution_feasibility_assessment",
+      "direction": "negative",
+      "salience": "primary",
+      "confidence": 0.94,
+      "utterance_type": "assessment",
+      "decision_link": "none",
+      "timing": "original_pitch",
+      "turn_index": 131,
+      "quote": "This like initial use case like terrifies me.",
+      "explanation": "He expresses a serious operational concern about the riskiness of the company's initial use case.",
+      "evidence": [
+        "it's going to be very hard to build",
+        "This like initial use case like terrifies me."
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 108,
+          "speaker": "Charles",
+          "quote": "it's going to be very hard to build"
+        },
+        {
+          "turn_index": 131,
+          "speaker": "Charles",
+          "quote": "This like initial use case like terrifies me."
+        }
+      ],
+      "activation": "evaluated",
+      "source_rationale_id": "R9",
+      "utterance_kind": "assessment",
+      "decision_support": "none",
+      "all_mention_ids": [
+        "R5",
+        "R9"
+      ]
+    }
+  ],
+  "later_rationales": [],
+  "excluded_rationales": [
+    {
+      "rationale_label": "capital_intensity_concern",
+      "direction": "negative",
+      "salience": "primary",
+      "confidence": 0.98,
+      "utterance_type": "decision_explanation",
+      "decision_link": "supports_out",
+      "timing": "teaser",
+      "turn_index": 155,
+      "quote": "A small million dollar round doesn't really do much for the company. the number required to get to the other side will be somewhere in the five to six range",
+      "explanation": "Charles indicates that the proposed $1 million round is insufficient and that roughly $5–6 million is needed to reach the next stage.",
+      "evidence": [
+        "A small million dollar round doesn't really do much for the company. the number required to get to the other side will be somewhere in the five to six range"
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 155,
+          "speaker": "Charles",
+          "quote": "A small million dollar round doesn't really do much for the company. the number required to get to the other side will be somewhere in the five to six range"
+        }
+      ],
+      "activation": "evaluated",
+      "source_rationale_id": "R10"
+    }
+  ],
+  "rationale_mentions": [
+    {
+      "rationale_label": "business_model_assessment",
+      "direction": "neutral",
+      "salience": "secondary",
+      "confidence": 0.96,
+      "utterance_type": "question",
+      "decision_link": "none",
+      "timing": "original_pitch",
+      "turn_index": 58,
+      "quote": "How does pricing work and kind of what do your customers have to believe about efficacy or throughput in order for it to pen and pencil?",
+      "explanation": "Charles probes the pricing model and the efficacy or throughput customers would need to justify purchasing the system.",
+      "evidence": [
+        "How does pricing work and kind of what do your customers have to believe about efficacy or throughput in order for it to pen and pencil?"
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 58,
+          "speaker": "Charles",
+          "quote": "How does pricing work and kind of what do your customers have to believe about efficacy or throughput in order for it to pen and pencil?"
+        }
+      ],
+      "activation": "queried",
+      "source_rationale_id": "R1"
+    },
+    {
+      "rationale_label": "business_model_assessment",
+      "direction": "neutral",
+      "salience": "secondary",
+      "confidence": 0.91,
+      "utterance_type": "question",
+      "decision_link": "none",
+      "timing": "original_pitch",
+      "turn_index": 74,
+      "quote": "- just the set up and tear down of each patient session?",
+      "explanation": "He asks how the staffing and service workflow for preparing and resetting each patient session will work.",
+      "evidence": [
+        "- just the set up and tear down of each patient session?"
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 74,
+          "speaker": "Charles",
+          "quote": "- just the set up and tear down of each patient session?"
+        }
+      ],
+      "activation": "queried",
+      "source_rationale_id": "R2"
+    },
+    {
+      "rationale_label": "market_size_assessment",
+      "direction": "neutral",
+      "salience": "secondary",
+      "confidence": 0.98,
+      "utterance_type": "question",
+      "decision_link": "none",
+      "timing": "original_pitch",
+      "turn_index": 80,
+      "quote": "How, how big does the business get just with the ultrasound piece, if you don't move into other categories?",
+      "explanation": "Charles tests the standalone scale of the ultrasound opportunity without expansion into other procedure categories.",
+      "evidence": [
+        "How, how big does the business get just with the ultrasound piece, if you don't move into other categories?"
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 80,
+          "speaker": "Charles",
+          "quote": "How, how big does the business get just with the ultrasound piece, if you don't move into other categories?"
+        }
+      ],
+      "activation": "queried",
+      "source_rationale_id": "R3"
+    },
+    {
+      "rationale_label": "investment_upside_assessment",
+      "direction": "positive",
+      "salience": "secondary",
+      "confidence": 0.89,
+      "utterance_type": "supporting_argument",
+      "decision_link": "none",
+      "timing": "original_pitch",
+      "turn_index": 106,
+      "quote": "incredibly, incredibly lucrative businesses",
+      "explanation": "Charles points to the strong financial outcomes of hospital-robotics businesses as favorable context for the opportunity.",
+      "evidence": [
+        "incredibly, incredibly lucrative businesses"
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 106,
+          "speaker": "Charles",
+          "quote": "incredibly, incredibly lucrative businesses"
+        }
+      ],
+      "activation": "evaluated",
+      "source_rationale_id": "R4"
+    },
+    {
+      "rationale_label": "solution_feasibility_assessment",
+      "direction": "negative",
+      "salience": "primary",
+      "confidence": 0.97,
+      "utterance_type": "assessment",
+      "decision_link": "none",
+      "timing": "original_pitch",
+      "turn_index": 108,
+      "quote": "it's going to be very hard to build",
+      "explanation": "Charles recalls viewing the earlier robotic-procedure concept as technically difficult to build.",
+      "evidence": [
+        "it's going to be very hard to build"
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 108,
+          "speaker": "Charles",
+          "quote": "it's going to be very hard to build"
+        }
+      ],
+      "activation": "evaluated",
+      "source_rationale_id": "R5"
+    },
+    {
+      "rationale_label": "business_viability_concern",
+      "direction": "negative",
+      "salience": "primary",
+      "confidence": 0.97,
+      "utterance_type": "assessment",
+      "decision_link": "none",
+      "timing": "original_pitch",
+      "turn_index": 108,
+      "quote": "you make one mistake, you're out of business",
+      "explanation": "He identifies the potentially existential business consequences of a single error in the procedure.",
+      "evidence": [
+        "you make one mistake, you're out of business"
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 108,
+          "speaker": "Charles",
+          "quote": "you make one mistake, you're out of business"
+        }
+      ],
+      "activation": "evaluated",
+      "source_rationale_id": "R6"
+    },
+    {
+      "rationale_label": "product_appeal_assessment",
+      "direction": "positive",
+      "salience": "secondary",
+      "confidence": 0.94,
+      "utterance_type": "assessment",
+      "decision_link": "none",
+      "timing": "original_pitch",
+      "turn_index": 131,
+      "quote": "this is a really cool idea",
+      "explanation": "Charles expresses a positive personal reaction to the robotics concept.",
+      "evidence": [
+        "this is a really cool idea"
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 131,
+          "speaker": "Charles",
+          "quote": "this is a really cool idea"
+        }
+      ],
+      "activation": "evaluated",
+      "source_rationale_id": "R7"
+    },
+    {
+      "rationale_label": "investor_experience_bias",
+      "direction": "negative",
+      "salience": "secondary",
+      "confidence": 0.86,
+      "utterance_type": "supporting_argument",
+      "decision_link": "none",
+      "timing": "original_pitch",
+      "turn_index": 131,
+      "quote": "I did not realize what the state of the art was until I spent a bunch of time with them.",
+      "explanation": "Charles invokes prior exposure to surgical robotics as context for how he evaluates the current opportunity.",
+      "evidence": [
+        "I did not realize what the state of the art was until I spent a bunch of time with them."
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 131,
+          "speaker": "Charles",
+          "quote": "I did not realize what the state of the art was until I spent a bunch of time with them."
+        }
+      ],
+      "activation": "evaluated",
+      "source_rationale_id": "R8"
+    },
+    {
+      "rationale_label": "solution_feasibility_assessment",
+      "direction": "negative",
+      "salience": "primary",
+      "confidence": 0.94,
+      "utterance_type": "assessment",
+      "decision_link": "none",
+      "timing": "original_pitch",
+      "turn_index": 131,
+      "quote": "This like initial use case like terrifies me.",
+      "explanation": "He expresses a serious operational concern about the riskiness of the company's initial use case.",
+      "evidence": [
+        "This like initial use case like terrifies me."
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 131,
+          "speaker": "Charles",
+          "quote": "This like initial use case like terrifies me."
+        }
+      ],
+      "activation": "evaluated",
+      "source_rationale_id": "R9"
+    }
+  ]
+}

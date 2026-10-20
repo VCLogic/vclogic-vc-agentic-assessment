@@ -1,0 +1,835 @@
+{
+  "schema": "phase1-rationale-reference-v1",
+  "extraction_version": "pitchshow-rationales-v1",
+  "fingerprint": "44663cc5c451d93adb3e688d67593e342cd0a93cb8483627cfe0ce3b9315505e",
+  "episode_slug": "162-jungle-your-ai-study-coach",
+  "vc_slug": "elizabeth-yin-hustle-fund",
+  "vc_name": "Elizabeth Yin",
+  "actual_decision": "Out",
+  "later_decision": "Unknown",
+  "reference_kind": "automated_transcript_observed_candidate",
+  "human_validated": false,
+  "source_format": "transcript-observed-rationales-v1",
+  "source_path": "../source/episodes/162-jungle-your-ai-study-coach.json",
+  "source_sha256": "ee8a8038650082560128b6a9515ceaea750e6e9c85ae8791a18547821db4a513",
+  "transcript_sha256": "95ca2b322c7a3b45d3013bcd53a90333a734be33a788d02249cad5194518d7a6",
+  "taxonomy_sha256": "eaa8734819a3ac34dd19ee5f0bf6de925a793a1d25a2d361090dafc9b751e1fc",
+  "model": "openai/gpt-5.6-luna",
+  "source_tier": "newly_extracted_and_independently_model_reviewed",
+  "reviewed_target_turns": [
+    8,
+    13,
+    25,
+    27,
+    30,
+    40,
+    48,
+    52,
+    62,
+    89,
+    91,
+    93,
+    123,
+    124,
+    131,
+    134,
+    224,
+    232,
+    234,
+    236
+  ],
+  "notes": "Turns 8, 27, 40, 124, and 236 contain no retained rationale.",
+  "receipt_path": "receipts/162-jungle-your-ai-study-coach.json",
+  "scoring_scope": "original_pitch_only",
+  "shared_across_input_modes": true,
+  "rationales": [
+    {
+      "rationale_label": "founder_execution",
+      "direction": "positive",
+      "salience": "secondary",
+      "confidence": 0.9,
+      "utterance_type": "decision_reason",
+      "decision_link": "none",
+      "timing": "original_pitch",
+      "turn_index": 123,
+      "quote": "I absolutely love you and your experimental nature.",
+      "explanation": "Elizabeth positively assesses the founder’s experimentation-oriented approach to execution.",
+      "evidence": [
+        "I absolutely love you and your experimental nature."
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 123,
+          "speaker": "Elizabeth",
+          "quote": "I absolutely love you and your experimental nature."
+        }
+      ],
+      "activation": "evaluated",
+      "source_rationale_id": "R10",
+      "utterance_kind": "decision_explanation",
+      "decision_support": "none",
+      "all_mention_ids": [
+        "R10"
+      ]
+    },
+    {
+      "rationale_label": "founder_market_fit",
+      "direction": "neutral",
+      "salience": "secondary",
+      "confidence": 0.84,
+      "utterance_type": "question",
+      "decision_link": "none",
+      "timing": "original_pitch",
+      "turn_index": 13,
+      "quote": "Can you talk a little bit about your background? Like, what were you doing before this.",
+      "explanation": "Elizabeth asks about the founder’s prior background as part of assessing his fit for the market and company.",
+      "evidence": [
+        "Can you talk a little bit about your background? Like, what were you doing before this."
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 13,
+          "speaker": "Elizabeth",
+          "quote": "Can you talk a little bit about your background? Like, what were you doing before this."
+        }
+      ],
+      "activation": "queried",
+      "source_rationale_id": "R1",
+      "utterance_kind": "question",
+      "decision_support": "none",
+      "all_mention_ids": [
+        "R1"
+      ]
+    },
+    {
+      "rationale_label": "founder_qualities",
+      "direction": "positive",
+      "salience": "secondary",
+      "confidence": 0.94,
+      "utterance_type": "decision_reason",
+      "decision_link": "none",
+      "timing": "original_pitch",
+      "turn_index": 123,
+      "quote": "You're an A plus founder.",
+      "explanation": "She gives an explicit highly positive assessment of the founder’s overall qualities.",
+      "evidence": [
+        "You're an A plus founder."
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 123,
+          "speaker": "Elizabeth",
+          "quote": "You're an A plus founder."
+        }
+      ],
+      "activation": "evaluated",
+      "source_rationale_id": "R11",
+      "utterance_kind": "decision_explanation",
+      "decision_support": "none",
+      "all_mention_ids": [
+        "R4",
+        "R11"
+      ]
+    },
+    {
+      "rationale_label": "investment_upside_assessment",
+      "direction": "negative",
+      "salience": "primary",
+      "confidence": 0.94,
+      "utterance_type": "decision_reason",
+      "decision_link": "explicit",
+      "timing": "original_pitch",
+      "turn_index": 123,
+      "quote": "We have to believe that the outcomes can be super big. Not just big, but super big.",
+      "explanation": "While joining Charles’s camp, Elizabeth states that the opportunity must support exceptionally large outcomes and indicates it does not clear that bar.",
+      "evidence": [
+        "We have to believe that the outcomes can be super big. Not just big, but super big."
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 123,
+          "speaker": "Elizabeth",
+          "quote": "We have to believe that the outcomes can be super big. Not just big, but super big."
+        }
+      ],
+      "activation": "evaluated",
+      "source_rationale_id": "R12",
+      "utterance_kind": "decision_explanation",
+      "decision_support": "supports_out",
+      "all_mention_ids": [
+        "R12"
+      ]
+    },
+    {
+      "rationale_label": "market_entry_path_assessment",
+      "direction": "neutral",
+      "salience": "secondary",
+      "confidence": 0.76,
+      "utterance_type": "question",
+      "decision_link": "none",
+      "timing": "original_pitch",
+      "turn_index": 25,
+      "quote": "what is sort of the use case - in studying",
+      "explanation": "She seeks to clarify the concrete initial use case through which the product reaches users.",
+      "evidence": [
+        "what is sort of the use case - in studying"
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 25,
+          "speaker": "Elizabeth",
+          "quote": "what is sort of the use case - in studying"
+        }
+      ],
+      "activation": "queried",
+      "source_rationale_id": "R2",
+      "utterance_kind": "question",
+      "decision_support": "none",
+      "all_mention_ids": [
+        "R2"
+      ]
+    },
+    {
+      "rationale_label": "market_size_assessment",
+      "direction": "negative",
+      "salience": "primary",
+      "confidence": 0.94,
+      "utterance_type": "decision_reason",
+      "decision_link": "explicit",
+      "timing": "original_pitch",
+      "turn_index": 123,
+      "quote": "that ultimately kind of limits the user base if you can't get beyond that.",
+      "explanation": "She believes the student-specific product experience may constrain the company’s broader addressable user base.",
+      "evidence": [
+        "that ultimately kind of limits the user base if you can't get beyond that."
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 123,
+          "speaker": "Elizabeth",
+          "quote": "that ultimately kind of limits the user base if you can't get beyond that."
+        }
+      ],
+      "activation": "evaluated",
+      "source_rationale_id": "R14",
+      "utterance_kind": "decision_explanation",
+      "decision_support": "supports_out",
+      "all_mention_ids": [
+        "R3",
+        "R9",
+        "R14"
+      ]
+    },
+    {
+      "rationale_label": "product_differentiation_concern",
+      "direction": "negative",
+      "salience": "primary",
+      "confidence": 0.96,
+      "utterance_type": "decision_reason",
+      "decision_link": "explicit",
+      "timing": "original_pitch",
+      "turn_index": 123,
+      "quote": "there really is no moat in many cases.",
+      "explanation": "She identifies weak defensibility in AI-enabled study tools as a reason not to invest.",
+      "evidence": [
+        "there really is no moat in many cases."
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 123,
+          "speaker": "Elizabeth",
+          "quote": "there really is no moat in many cases."
+        }
+      ],
+      "activation": "evaluated",
+      "source_rationale_id": "R13",
+      "utterance_kind": "decision_explanation",
+      "decision_support": "supports_out",
+      "all_mention_ids": [
+        "R13"
+      ]
+    },
+    {
+      "rationale_label": "stage_valuation_mismatch",
+      "direction": "neutral",
+      "salience": "secondary",
+      "confidence": 0.79,
+      "utterance_type": "question",
+      "decision_link": "none",
+      "timing": "original_pitch",
+      "turn_index": 62,
+      "quote": "What are you looking for here in terms of valuation?",
+      "explanation": "She asks about the requested valuation as part of evaluating the financing relative to the company’s stage.",
+      "evidence": [
+        "What are you looking for here in terms of valuation?"
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 62,
+          "speaker": "Elizabeth",
+          "quote": "What are you looking for here in terms of valuation?"
+        }
+      ],
+      "activation": "queried",
+      "source_rationale_id": "R6",
+      "utterance_kind": "question",
+      "decision_support": "none",
+      "all_mention_ids": [
+        "R6"
+      ]
+    },
+    {
+      "rationale_label": "traction_repeatability_concern",
+      "direction": "neutral",
+      "salience": "secondary",
+      "confidence": 0.88,
+      "utterance_type": "question",
+      "decision_link": "none",
+      "timing": "original_pitch",
+      "turn_index": 52,
+      "quote": "Can you talk a little bit about your paid retention?",
+      "explanation": "She requests retention data to assess the durability of paid usage.",
+      "evidence": [
+        "Can you talk a little bit about your paid retention?"
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 52,
+          "speaker": "Elizabeth",
+          "quote": "Can you talk a little bit about your paid retention?"
+        }
+      ],
+      "activation": "queried",
+      "source_rationale_id": "R5",
+      "utterance_kind": "question",
+      "decision_support": "none",
+      "all_mention_ids": [
+        "R5"
+      ]
+    },
+    {
+      "rationale_label": "venture_scale_concern",
+      "direction": "negative",
+      "salience": "primary",
+      "confidence": 0.95,
+      "utterance_type": "assessment",
+      "decision_link": "none",
+      "timing": "original_pitch",
+      "turn_index": 89,
+      "quote": "the big problem is sort of that hurdle of even if you create a really good experience, you're not a student forever.",
+      "explanation": "Elizabeth worries that users leaving school could limit the company’s ability to sustain engagement and reach venture scale.",
+      "evidence": [
+        "the big problem is sort of that hurdle of even if you create a really good experience, you're not a student forever.",
+        "Why do I continue using this?"
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 89,
+          "speaker": "Elizabeth",
+          "quote": "the big problem is sort of that hurdle of even if you create a really good experience, you're not a student forever."
+        },
+        {
+          "turn_index": 91,
+          "speaker": "Elizabeth",
+          "quote": "Why do I continue using this?"
+        }
+      ],
+      "activation": "evaluated",
+      "source_rationale_id": "R7",
+      "utterance_kind": "assessment",
+      "decision_support": "none",
+      "all_mention_ids": [
+        "R7",
+        "R8"
+      ]
+    }
+  ],
+  "later_rationales": [
+    {
+      "rationale_label": "founder_execution",
+      "direction": "positive",
+      "salience": "secondary",
+      "confidence": 0.84,
+      "utterance_type": "assessment",
+      "decision_link": "none",
+      "timing": "later_commentary",
+      "turn_index": 131,
+      "quote": "50 to a hundred experiments per month.",
+      "explanation": "Elizabeth reiterates the high experimentation rate as evidence of the founder’s execution approach.",
+      "evidence": [
+        "50 to a hundred experiments per month."
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 131,
+          "speaker": "Elizabeth",
+          "quote": "50 to a hundred experiments per month."
+        }
+      ],
+      "activation": "evaluated",
+      "source_rationale_id": "R15"
+    },
+    {
+      "rationale_label": "founder_qualities",
+      "direction": "positive",
+      "salience": "secondary",
+      "confidence": 0.92,
+      "utterance_type": "assessment",
+      "decision_link": "none",
+      "timing": "later_commentary",
+      "turn_index": 134,
+      "quote": "You're backing an amazing founder.",
+      "explanation": "She explicitly characterizes the founder as exceptional during the later investment discussion.",
+      "evidence": [
+        "You're backing an amazing founder."
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 134,
+          "speaker": "Elizabeth",
+          "quote": "You're backing an amazing founder."
+        }
+      ],
+      "activation": "evaluated",
+      "source_rationale_id": "R16"
+    }
+  ],
+  "excluded_rationales": [
+    {
+      "rationale_label": "mission_alignment_preference",
+      "direction": "positive",
+      "salience": "secondary",
+      "confidence": 0.86,
+      "utterance_type": "assessment",
+      "decision_link": "none",
+      "timing": "teaser",
+      "turn_index": 224,
+      "quote": "I definitely resonate with this",
+      "explanation": "Elizabeth expresses personal resonance with the problem addressed by the next startup.",
+      "evidence": [
+        "I definitely resonate with this"
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 224,
+          "speaker": "Elizabeth",
+          "quote": "I definitely resonate with this"
+        }
+      ],
+      "activation": "evaluated",
+      "source_rationale_id": "R17"
+    },
+    {
+      "rationale_label": "solution_feasibility_assessment",
+      "direction": "neutral",
+      "salience": "secondary",
+      "confidence": 0.9,
+      "utterance_type": "question",
+      "decision_link": "none",
+      "timing": "teaser",
+      "turn_index": 224,
+      "quote": "How do you even get like a clear picture in someone's mouth?",
+      "explanation": "She asks about the practical feasibility of obtaining the image required for the diagnostic solution.",
+      "evidence": [
+        "How do you even get like a clear picture in someone's mouth?"
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 224,
+          "speaker": "Elizabeth",
+          "quote": "How do you even get like a clear picture in someone's mouth?"
+        }
+      ],
+      "activation": "queried",
+      "source_rationale_id": "R18"
+    },
+    {
+      "rationale_label": "go_to_market_strategy_assessment",
+      "direction": "negative",
+      "salience": "secondary",
+      "confidence": 0.77,
+      "utterance_type": "assessment",
+      "decision_link": "none",
+      "timing": "teaser",
+      "turn_index": 232,
+      "quote": "it just feels like you are spreading your energies across a couple of channels",
+      "explanation": "Elizabeth expresses concern that pursuing multiple channels could dilute the company’s focus.",
+      "evidence": [
+        "it just feels like you are spreading your energies across a couple of channels"
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 232,
+          "speaker": "Elizabeth",
+          "quote": "it just feels like you are spreading your energies across a couple of channels"
+        }
+      ],
+      "activation": "evaluated",
+      "source_rationale_id": "R19"
+    },
+    {
+      "rationale_label": "go_to_market_strategy_assessment",
+      "direction": "negative",
+      "salience": "secondary",
+      "confidence": 0.78,
+      "utterance_type": "assessment",
+      "decision_link": "none",
+      "timing": "teaser",
+      "turn_index": 234,
+      "quote": "All in parallel, in one raise.",
+      "explanation": "She emphasizes that the dispersed channel strategy would be pursued simultaneously within one financing round.",
+      "evidence": [
+        "All in parallel, in one raise."
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 234,
+          "speaker": "Elizabeth",
+          "quote": "All in parallel, in one raise."
+        }
+      ],
+      "activation": "evaluated",
+      "source_rationale_id": "R20"
+    }
+  ],
+  "rationale_mentions": [
+    {
+      "rationale_label": "founder_market_fit",
+      "direction": "neutral",
+      "salience": "secondary",
+      "confidence": 0.84,
+      "utterance_type": "question",
+      "decision_link": "none",
+      "timing": "original_pitch",
+      "turn_index": 13,
+      "quote": "Can you talk a little bit about your background? Like, what were you doing before this.",
+      "explanation": "Elizabeth asks about the founder’s prior background as part of assessing his fit for the market and company.",
+      "evidence": [
+        "Can you talk a little bit about your background? Like, what were you doing before this."
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 13,
+          "speaker": "Elizabeth",
+          "quote": "Can you talk a little bit about your background? Like, what were you doing before this."
+        }
+      ],
+      "activation": "queried",
+      "source_rationale_id": "R1"
+    },
+    {
+      "rationale_label": "market_entry_path_assessment",
+      "direction": "neutral",
+      "salience": "secondary",
+      "confidence": 0.76,
+      "utterance_type": "question",
+      "decision_link": "none",
+      "timing": "original_pitch",
+      "turn_index": 25,
+      "quote": "what is sort of the use case - in studying",
+      "explanation": "She seeks to clarify the concrete initial use case through which the product reaches users.",
+      "evidence": [
+        "what is sort of the use case - in studying"
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 25,
+          "speaker": "Elizabeth",
+          "quote": "what is sort of the use case - in studying"
+        }
+      ],
+      "activation": "queried",
+      "source_rationale_id": "R2"
+    },
+    {
+      "rationale_label": "market_size_assessment",
+      "direction": "positive",
+      "salience": "secondary",
+      "confidence": 0.9,
+      "utterance_type": "assessment",
+      "decision_link": "none",
+      "timing": "original_pitch",
+      "turn_index": 30,
+      "quote": "Well, Quizlet is huge.",
+      "explanation": "Elizabeth cites Quizlet’s large scale as evidence that the study-tools market can be substantial.",
+      "evidence": [
+        "Well, Quizlet is huge."
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 30,
+          "speaker": "Elizabeth",
+          "quote": "Well, Quizlet is huge."
+        }
+      ],
+      "activation": "evaluated",
+      "source_rationale_id": "R3"
+    },
+    {
+      "rationale_label": "founder_qualities",
+      "direction": "neutral",
+      "salience": "secondary",
+      "confidence": 0.72,
+      "utterance_type": "question",
+      "decision_link": "none",
+      "timing": "original_pitch",
+      "turn_index": 48,
+      "quote": "How do you know your cofounder?",
+      "explanation": "She asks about the founders’ relationship as part of assessing the team.",
+      "evidence": [
+        "How do you know your cofounder?"
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 48,
+          "speaker": "Elizabeth",
+          "quote": "How do you know your cofounder?"
+        }
+      ],
+      "activation": "queried",
+      "source_rationale_id": "R4"
+    },
+    {
+      "rationale_label": "traction_repeatability_concern",
+      "direction": "neutral",
+      "salience": "secondary",
+      "confidence": 0.88,
+      "utterance_type": "question",
+      "decision_link": "none",
+      "timing": "original_pitch",
+      "turn_index": 52,
+      "quote": "Can you talk a little bit about your paid retention?",
+      "explanation": "She requests retention data to assess the durability of paid usage.",
+      "evidence": [
+        "Can you talk a little bit about your paid retention?"
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 52,
+          "speaker": "Elizabeth",
+          "quote": "Can you talk a little bit about your paid retention?"
+        }
+      ],
+      "activation": "queried",
+      "source_rationale_id": "R5"
+    },
+    {
+      "rationale_label": "stage_valuation_mismatch",
+      "direction": "neutral",
+      "salience": "secondary",
+      "confidence": 0.79,
+      "utterance_type": "question",
+      "decision_link": "none",
+      "timing": "original_pitch",
+      "turn_index": 62,
+      "quote": "What are you looking for here in terms of valuation?",
+      "explanation": "She asks about the requested valuation as part of evaluating the financing relative to the company’s stage.",
+      "evidence": [
+        "What are you looking for here in terms of valuation?"
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 62,
+          "speaker": "Elizabeth",
+          "quote": "What are you looking for here in terms of valuation?"
+        }
+      ],
+      "activation": "queried",
+      "source_rationale_id": "R6"
+    },
+    {
+      "rationale_label": "venture_scale_concern",
+      "direction": "negative",
+      "salience": "primary",
+      "confidence": 0.95,
+      "utterance_type": "assessment",
+      "decision_link": "none",
+      "timing": "original_pitch",
+      "turn_index": 89,
+      "quote": "the big problem is sort of that hurdle of even if you create a really good experience, you're not a student forever.",
+      "explanation": "Elizabeth worries that users leaving school could limit the company’s ability to sustain engagement and reach venture scale.",
+      "evidence": [
+        "the big problem is sort of that hurdle of even if you create a really good experience, you're not a student forever."
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 89,
+          "speaker": "Elizabeth",
+          "quote": "the big problem is sort of that hurdle of even if you create a really good experience, you're not a student forever."
+        }
+      ],
+      "activation": "evaluated",
+      "source_rationale_id": "R7"
+    },
+    {
+      "rationale_label": "venture_scale_concern",
+      "direction": "negative",
+      "salience": "secondary",
+      "confidence": 0.94,
+      "utterance_type": "question",
+      "decision_link": "none",
+      "timing": "original_pitch",
+      "turn_index": 91,
+      "quote": "Why do I continue using this?",
+      "explanation": "She probes whether the product can retain users after they complete their formal studies.",
+      "evidence": [
+        "Why do I continue using this?"
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 91,
+          "speaker": "Elizabeth",
+          "quote": "Why do I continue using this?"
+        }
+      ],
+      "activation": "queried",
+      "source_rationale_id": "R8"
+    },
+    {
+      "rationale_label": "market_size_assessment",
+      "direction": "positive",
+      "salience": "secondary",
+      "confidence": 0.84,
+      "utterance_type": "supporting_argument",
+      "decision_link": "none",
+      "timing": "original_pitch",
+      "turn_index": 93,
+      "quote": "there are many things you may want to learn or remember.",
+      "explanation": "She identifies broader learning and memory use cases that could expand the addressable market beyond students.",
+      "evidence": [
+        "there are many things you may want to learn or remember."
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 93,
+          "speaker": "Elizabeth",
+          "quote": "there are many things you may want to learn or remember."
+        }
+      ],
+      "activation": "evaluated",
+      "source_rationale_id": "R9"
+    },
+    {
+      "rationale_label": "founder_execution",
+      "direction": "positive",
+      "salience": "secondary",
+      "confidence": 0.9,
+      "utterance_type": "decision_explanation",
+      "decision_link": "none",
+      "timing": "original_pitch",
+      "turn_index": 123,
+      "quote": "I absolutely love you and your experimental nature.",
+      "explanation": "Elizabeth positively assesses the founder’s experimentation-oriented approach to execution.",
+      "evidence": [
+        "I absolutely love you and your experimental nature."
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 123,
+          "speaker": "Elizabeth",
+          "quote": "I absolutely love you and your experimental nature."
+        }
+      ],
+      "activation": "evaluated",
+      "source_rationale_id": "R10"
+    },
+    {
+      "rationale_label": "founder_qualities",
+      "direction": "positive",
+      "salience": "secondary",
+      "confidence": 0.94,
+      "utterance_type": "decision_explanation",
+      "decision_link": "none",
+      "timing": "original_pitch",
+      "turn_index": 123,
+      "quote": "You're an A plus founder.",
+      "explanation": "She gives an explicit highly positive assessment of the founder’s overall qualities.",
+      "evidence": [
+        "You're an A plus founder."
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 123,
+          "speaker": "Elizabeth",
+          "quote": "You're an A plus founder."
+        }
+      ],
+      "activation": "evaluated",
+      "source_rationale_id": "R11"
+    },
+    {
+      "rationale_label": "investment_upside_assessment",
+      "direction": "negative",
+      "salience": "primary",
+      "confidence": 0.94,
+      "utterance_type": "decision_explanation",
+      "decision_link": "supports_out",
+      "timing": "original_pitch",
+      "turn_index": 123,
+      "quote": "We have to believe that the outcomes can be super big. Not just big, but super big.",
+      "explanation": "While joining Charles’s camp, Elizabeth states that the opportunity must support exceptionally large outcomes and indicates it does not clear that bar.",
+      "evidence": [
+        "We have to believe that the outcomes can be super big. Not just big, but super big."
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 123,
+          "speaker": "Elizabeth",
+          "quote": "We have to believe that the outcomes can be super big. Not just big, but super big."
+        }
+      ],
+      "activation": "evaluated",
+      "source_rationale_id": "R12"
+    },
+    {
+      "rationale_label": "product_differentiation_concern",
+      "direction": "negative",
+      "salience": "primary",
+      "confidence": 0.96,
+      "utterance_type": "decision_explanation",
+      "decision_link": "supports_out",
+      "timing": "original_pitch",
+      "turn_index": 123,
+      "quote": "there really is no moat in many cases.",
+      "explanation": "She identifies weak defensibility in AI-enabled study tools as a reason not to invest.",
+      "evidence": [
+        "there really is no moat in many cases."
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 123,
+          "speaker": "Elizabeth",
+          "quote": "there really is no moat in many cases."
+        }
+      ],
+      "activation": "evaluated",
+      "source_rationale_id": "R13"
+    },
+    {
+      "rationale_label": "market_size_assessment",
+      "direction": "negative",
+      "salience": "primary",
+      "confidence": 0.94,
+      "utterance_type": "decision_explanation",
+      "decision_link": "supports_out",
+      "timing": "original_pitch",
+      "turn_index": 123,
+      "quote": "that ultimately kind of limits the user base if you can't get beyond that.",
+      "explanation": "She believes the student-specific product experience may constrain the company’s broader addressable user base.",
+      "evidence": [
+        "that ultimately kind of limits the user base if you can't get beyond that."
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 123,
+          "speaker": "Elizabeth",
+          "quote": "that ultimately kind of limits the user base if you can't get beyond that."
+        }
+      ],
+      "activation": "evaluated",
+      "source_rationale_id": "R14"
+    }
+  ],
+  "expanded_quote_evidence": [],
+  "rejected_after_evidence_check": []
+}

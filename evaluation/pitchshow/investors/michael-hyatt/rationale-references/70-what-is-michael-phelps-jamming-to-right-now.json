@@ -1,0 +1,949 @@
+{
+  "schema": "phase1-rationale-reference-v1",
+  "extraction_version": "pitchshow-rationales-v1",
+  "fingerprint": "72609b670f5e42bfa30bb1ebff7ad9e83d2e885b0c43b95951f57e9cb2cd294d",
+  "episode_slug": "70-what-is-michael-phelps-jamming-to-right-now",
+  "vc_slug": "michael-hyatt",
+  "vc_name": "Michael Hyatt",
+  "actual_decision": "In",
+  "later_decision": "Out",
+  "reference_kind": "automated_transcript_observed_candidate",
+  "human_validated": false,
+  "source_format": "transcript-observed-rationales-v1",
+  "source_path": "../source/episodes/70-what-is-michael-phelps-jamming-to-right-now.json",
+  "source_sha256": "31d9b9762706f064af078d20729e2b20730c207ba1307b7b097762eb06d798c8",
+  "transcript_sha256": "465048c56d83af2c9f677228c02ab5353fff3b31717889104ab76becaba51805",
+  "taxonomy_sha256": "eaa8734819a3ac34dd19ee5f0bf6de925a793a1d25a2d361090dafc9b751e1fc",
+  "model": "codex:gpt-5.6-luna+gpt-5.6-sol",
+  "generation_stages": [
+    {
+      "phase": "rationale_extract",
+      "backend": "codex",
+      "model": "gpt-5.6-luna"
+    },
+    {
+      "phase": "rationale_verify",
+      "backend": "codex",
+      "model": "gpt-5.6-sol"
+    }
+  ],
+  "source_tier": "newly_extracted_and_independently_model_reviewed",
+  "reviewed_target_turns": [
+    2,
+    6,
+    19,
+    22,
+    24,
+    28,
+    32,
+    34,
+    35,
+    39,
+    49,
+    57,
+    58,
+    62,
+    67,
+    81,
+    87,
+    89,
+    95,
+    101,
+    103,
+    112,
+    120,
+    124,
+    127,
+    132,
+    135,
+    138,
+    141,
+    143,
+    152,
+    156
+  ],
+  "notes": "",
+  "receipt_path": "receipts/70-what-is-michael-phelps-jamming-to-right-now.json",
+  "scoring_scope": "original_pitch_only",
+  "shared_across_input_modes": true,
+  "rationales": [
+    {
+      "rationale_label": "business_model_assessment",
+      "direction": "neutral",
+      "salience": "secondary",
+      "confidence": 0.98,
+      "utterance_type": "question",
+      "decision_link": "none",
+      "timing": "original_pitch",
+      "turn_index": 35,
+      "quote": "Would they sell the ability to broadcast the music?",
+      "explanation": "Probes whether influencers could monetize their broadcasts as part of the business model.",
+      "evidence": [
+        "Would they sell the ability to broadcast the music?"
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 35,
+          "speaker": "Michael",
+          "quote": "Would they sell the ability to broadcast the music?"
+        }
+      ],
+      "activation": "queried",
+      "source_rationale_id": "R1",
+      "utterance_kind": "question",
+      "decision_support": "none",
+      "all_mention_ids": [
+        "R1"
+      ]
+    },
+    {
+      "rationale_label": "competitive_advantage_assessment",
+      "direction": "neutral",
+      "salience": "primary",
+      "confidence": 0.99,
+      "utterance_type": "assessment",
+      "decision_link": "none",
+      "timing": "original_pitch",
+      "turn_index": 58,
+      "quote": "the winner of this space will have a moat, and the moat is really simple: who got the stars on and using it.",
+      "explanation": "Reiterates that securing star users is the principal source of defensibility.",
+      "evidence": [
+        "the winner of this space will have a moat, and the moat is really simple: who got the stars on and using it."
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 58,
+          "speaker": "Michael",
+          "quote": "the winner of this space will have a moat, and the moat is really simple: who got the stars on and using it."
+        }
+      ],
+      "activation": "evaluated",
+      "source_rationale_id": "R5",
+      "utterance_kind": "assessment",
+      "decision_support": "none",
+      "all_mention_ids": [
+        "R5"
+      ]
+    },
+    {
+      "rationale_label": "deal_terms_complexity_concern",
+      "direction": "neutral",
+      "salience": "secondary",
+      "confidence": 0.9,
+      "utterance_type": "question",
+      "decision_link": "none",
+      "timing": "original_pitch",
+      "turn_index": 89,
+      "quote": "What’s the cap?",
+      "explanation": "Requests the convertible note's central valuation term before assessing the deal.",
+      "evidence": [
+        "What’s the cap?"
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 89,
+          "speaker": "Michael",
+          "quote": "What’s the cap?"
+        }
+      ],
+      "activation": "queried",
+      "source_rationale_id": "R9",
+      "utterance_kind": "question",
+      "decision_support": "none",
+      "all_mention_ids": [
+        "R9"
+      ]
+    },
+    {
+      "rationale_label": "founder_market_fit",
+      "direction": "positive",
+      "salience": "primary",
+      "confidence": 0.98,
+      "utterance_type": "decision_reason",
+      "decision_link": "explicit",
+      "timing": "original_pitch",
+      "turn_index": 152,
+      "quote": "That’s it.",
+      "explanation": "Confirms that the former NFL player's relevant influencer network was the decisive reason supporting the investment decision.",
+      "evidence": [
+        "That’s it."
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 152,
+          "speaker": "Michael",
+          "quote": "That’s it."
+        }
+      ],
+      "activation": "evaluated",
+      "source_rationale_id": "R19",
+      "utterance_kind": "decision_explanation",
+      "decision_support": "supports_in",
+      "all_mention_ids": [
+        "R19"
+      ]
+    },
+    {
+      "rationale_label": "go_to_market_strategy_assessment",
+      "direction": "neutral",
+      "salience": "primary",
+      "confidence": 0.99,
+      "utterance_type": "question",
+      "decision_link": "none",
+      "timing": "original_pitch",
+      "turn_index": 67,
+      "quote": "What is your acquisition strategy to make this really big?",
+      "explanation": "Probes whether influencer acquisition can scale beyond the founder's football network.",
+      "evidence": [
+        "What’s your star acquisition strategy?",
+        "What is your acquisition strategy to make this really big?"
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 58,
+          "speaker": "Michael",
+          "quote": "What’s your star acquisition strategy?"
+        },
+        {
+          "turn_index": 67,
+          "speaker": "Michael",
+          "quote": "What is your acquisition strategy to make this really big?"
+        }
+      ],
+      "activation": "queried",
+      "source_rationale_id": "R8",
+      "utterance_kind": "question",
+      "decision_support": "none",
+      "all_mention_ids": [
+        "R6",
+        "R8"
+      ]
+    },
+    {
+      "rationale_label": "investment_upside_assessment",
+      "direction": "positive",
+      "salience": "primary",
+      "confidence": 0.99,
+      "utterance_type": "assessment",
+      "decision_link": "none",
+      "timing": "original_pitch",
+      "turn_index": 135,
+      "quote": "I’m either looking at a zero or a billion dollar play.",
+      "explanation": "Characterizes the investment as highly risky but capable of an exceptionally large outcome.",
+      "evidence": [
+        "I’m either looking at a zero or a billion dollar play."
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 135,
+          "speaker": "Michael",
+          "quote": "I’m either looking at a zero or a billion dollar play."
+        }
+      ],
+      "activation": "evaluated",
+      "source_rationale_id": "R14",
+      "utterance_kind": "assessment",
+      "decision_support": "none",
+      "all_mention_ids": [
+        "R14"
+      ]
+    },
+    {
+      "rationale_label": "investor_value_add_fit",
+      "direction": "positive",
+      "salience": "secondary",
+      "confidence": 0.96,
+      "utterance_type": "assessment",
+      "decision_link": "none",
+      "timing": "original_pitch",
+      "turn_index": 127,
+      "quote": "See that’s what you want.",
+      "explanation": "Affirms that access to an investor network representing professional athletes is particularly valuable to the company.",
+      "evidence": [
+        "See that’s what you want."
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 127,
+          "speaker": "Michael",
+          "quote": "See that’s what you want."
+        }
+      ],
+      "activation": "evaluated",
+      "source_rationale_id": "R13",
+      "utterance_kind": "assessment",
+      "decision_support": "none",
+      "all_mention_ids": [
+        "R13"
+      ]
+    },
+    {
+      "rationale_label": "product_adoption",
+      "direction": "neutral",
+      "salience": "secondary",
+      "confidence": 0.98,
+      "utterance_type": "question",
+      "decision_link": "none",
+      "timing": "original_pitch",
+      "turn_index": 39,
+      "quote": "Are you measuring active users?",
+      "explanation": "Requests evidence of current user adoption.",
+      "evidence": [
+        "Are you measuring active users?"
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 39,
+          "speaker": "Michael",
+          "quote": "Are you measuring active users?"
+        }
+      ],
+      "activation": "queried",
+      "source_rationale_id": "R2",
+      "utterance_kind": "question",
+      "decision_support": "none",
+      "all_mention_ids": [
+        "R2"
+      ]
+    },
+    {
+      "rationale_label": "product_appeal_assessment",
+      "direction": "positive",
+      "salience": "secondary",
+      "confidence": 0.99,
+      "utterance_type": "assessment",
+      "decision_link": "none",
+      "timing": "original_pitch",
+      "turn_index": 143,
+      "quote": "I would use it.",
+      "explanation": "States that he personally finds the product desirable enough to use.",
+      "evidence": [
+        "I think it’s great.",
+        "Oh, I’d do it.",
+        "But I love it!",
+        "This is so interesting!",
+        "I would use it."
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 67,
+          "speaker": "Michael",
+          "quote": "I think it’s great."
+        },
+        {
+          "turn_index": 112,
+          "speaker": "Michael",
+          "quote": "Oh, I’d do it."
+        },
+        {
+          "turn_index": 135,
+          "speaker": "Michael",
+          "quote": "But I love it!"
+        },
+        {
+          "turn_index": 141,
+          "speaker": "Michael",
+          "quote": "This is so interesting!"
+        },
+        {
+          "turn_index": 143,
+          "speaker": "Michael",
+          "quote": "I would use it."
+        }
+      ],
+      "activation": "evaluated",
+      "source_rationale_id": "R18",
+      "utterance_kind": "assessment",
+      "decision_support": "none",
+      "all_mention_ids": [
+        "R7",
+        "R12",
+        "R15",
+        "R17",
+        "R18"
+      ]
+    },
+    {
+      "rationale_label": "product_differentiation_concern",
+      "direction": "negative",
+      "salience": "primary",
+      "confidence": 0.99,
+      "utterance_type": "assessment",
+      "decision_link": "none",
+      "timing": "original_pitch",
+      "turn_index": 49,
+      "quote": "Why doesn’t Spotify shut you out and do this?",
+      "explanation": "Raises the core defensibility risk that a powerful platform could block or reproduce the product.",
+      "evidence": [
+        "Why doesn’t Spotify shut you out and do this?"
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 49,
+          "speaker": "Michael",
+          "quote": "Why doesn’t Spotify shut you out and do this?"
+        }
+      ],
+      "activation": "evaluated",
+      "source_rationale_id": "R3",
+      "utterance_kind": "concern",
+      "decision_support": "none",
+      "all_mention_ids": [
+        "R3"
+      ]
+    },
+    {
+      "rationale_label": "product_success_factor_assessment",
+      "direction": "positive",
+      "salience": "primary",
+      "confidence": 0.99,
+      "utterance_type": "assessment",
+      "decision_link": "none",
+      "timing": "original_pitch",
+      "turn_index": 156,
+      "quote": "If he gets the stars, this thing takes off.",
+      "explanation": "Identifies recruiting star users as the decisive condition for the product's growth.",
+      "evidence": [
+        "If he gets the stars, this thing takes off."
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 156,
+          "speaker": "Michael",
+          "quote": "If he gets the stars, this thing takes off."
+        }
+      ],
+      "activation": "evaluated",
+      "source_rationale_id": "R20",
+      "utterance_kind": "assessment",
+      "decision_support": "none",
+      "all_mention_ids": [
+        "R20"
+      ]
+    },
+    {
+      "rationale_label": "stage_valuation_mismatch",
+      "direction": "negative",
+      "salience": "primary",
+      "confidence": 0.99,
+      "utterance_type": "decision_reason",
+      "decision_link": "explicit",
+      "timing": "original_pitch",
+      "turn_index": 101,
+      "quote": "I tell you, I’m in at a lower number.",
+      "explanation": "Makes his willingness to invest conditional on a lower valuation.",
+      "evidence": [
+        "I tell you, I’m in at a lower number.",
+        "I just need to peg for the risk, right?"
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 101,
+          "speaker": "Michael",
+          "quote": "I tell you, I’m in at a lower number."
+        },
+        {
+          "turn_index": 138,
+          "speaker": "Michael",
+          "quote": "I just need to peg for the risk, right?"
+        }
+      ],
+      "activation": "evaluated",
+      "source_rationale_id": "R11",
+      "utterance_kind": "decision_explanation",
+      "decision_support": "supports_in",
+      "all_mention_ids": [
+        "R10",
+        "R11",
+        "R16"
+      ]
+    }
+  ],
+  "later_rationales": [],
+  "excluded_rationales": [
+    {
+      "rationale_label": "competitive_advantage_assessment",
+      "direction": "neutral",
+      "salience": "primary",
+      "confidence": 0.99,
+      "utterance_type": "assessment",
+      "decision_link": "none",
+      "timing": "teaser",
+      "turn_index": 57,
+      "quote": "The winner of this space will have a moat, and the moat is really simple: who got the stars on and using it.",
+      "explanation": "Identifies celebrity participation as the category's essential competitive moat.",
+      "evidence": [
+        "The winner of this space will have a moat, and the moat is really simple: who got the stars on and using it."
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 57,
+          "speaker": "Michael",
+          "quote": "The winner of this space will have a moat, and the moat is really simple: who got the stars on and using it."
+        }
+      ],
+      "activation": "evaluated",
+      "source_rationale_id": "R4"
+    }
+  ],
+  "rationale_mentions": [
+    {
+      "rationale_label": "business_model_assessment",
+      "direction": "neutral",
+      "salience": "secondary",
+      "confidence": 0.98,
+      "utterance_type": "question",
+      "decision_link": "none",
+      "timing": "original_pitch",
+      "turn_index": 35,
+      "quote": "Would they sell the ability to broadcast the music?",
+      "explanation": "Probes whether influencers could monetize their broadcasts as part of the business model.",
+      "evidence": [
+        "Would they sell the ability to broadcast the music?"
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 35,
+          "speaker": "Michael",
+          "quote": "Would they sell the ability to broadcast the music?"
+        }
+      ],
+      "activation": "queried",
+      "source_rationale_id": "R1"
+    },
+    {
+      "rationale_label": "product_adoption",
+      "direction": "neutral",
+      "salience": "secondary",
+      "confidence": 0.98,
+      "utterance_type": "question",
+      "decision_link": "none",
+      "timing": "original_pitch",
+      "turn_index": 39,
+      "quote": "Are you measuring active users?",
+      "explanation": "Requests evidence of current user adoption.",
+      "evidence": [
+        "Are you measuring active users?"
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 39,
+          "speaker": "Michael",
+          "quote": "Are you measuring active users?"
+        }
+      ],
+      "activation": "queried",
+      "source_rationale_id": "R2"
+    },
+    {
+      "rationale_label": "product_differentiation_concern",
+      "direction": "negative",
+      "salience": "primary",
+      "confidence": 0.99,
+      "utterance_type": "concern",
+      "decision_link": "none",
+      "timing": "original_pitch",
+      "turn_index": 49,
+      "quote": "Why doesn’t Spotify shut you out and do this?",
+      "explanation": "Raises the core defensibility risk that a powerful platform could block or reproduce the product.",
+      "evidence": [
+        "Why doesn’t Spotify shut you out and do this?"
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 49,
+          "speaker": "Michael",
+          "quote": "Why doesn’t Spotify shut you out and do this?"
+        }
+      ],
+      "activation": "evaluated",
+      "source_rationale_id": "R3"
+    },
+    {
+      "rationale_label": "competitive_advantage_assessment",
+      "direction": "neutral",
+      "salience": "primary",
+      "confidence": 0.99,
+      "utterance_type": "assessment",
+      "decision_link": "none",
+      "timing": "original_pitch",
+      "turn_index": 58,
+      "quote": "the winner of this space will have a moat, and the moat is really simple: who got the stars on and using it.",
+      "explanation": "Reiterates that securing star users is the principal source of defensibility.",
+      "evidence": [
+        "the winner of this space will have a moat, and the moat is really simple: who got the stars on and using it."
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 58,
+          "speaker": "Michael",
+          "quote": "the winner of this space will have a moat, and the moat is really simple: who got the stars on and using it."
+        }
+      ],
+      "activation": "evaluated",
+      "source_rationale_id": "R5"
+    },
+    {
+      "rationale_label": "go_to_market_strategy_assessment",
+      "direction": "neutral",
+      "salience": "primary",
+      "confidence": 0.99,
+      "utterance_type": "question",
+      "decision_link": "none",
+      "timing": "original_pitch",
+      "turn_index": 58,
+      "quote": "What’s your star acquisition strategy?",
+      "explanation": "Requests the concrete strategy for recruiting the influential users needed to drive adoption.",
+      "evidence": [
+        "What’s your star acquisition strategy?"
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 58,
+          "speaker": "Michael",
+          "quote": "What’s your star acquisition strategy?"
+        }
+      ],
+      "activation": "queried",
+      "source_rationale_id": "R6"
+    },
+    {
+      "rationale_label": "product_appeal_assessment",
+      "direction": "positive",
+      "salience": "secondary",
+      "confidence": 0.9,
+      "utterance_type": "assessment",
+      "decision_link": "none",
+      "timing": "original_pitch",
+      "turn_index": 67,
+      "quote": "I think it’s great.",
+      "explanation": "Expresses a favorable personal reaction to the proposed product and approach.",
+      "evidence": [
+        "I think it’s great."
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 67,
+          "speaker": "Michael",
+          "quote": "I think it’s great."
+        }
+      ],
+      "activation": "evaluated",
+      "source_rationale_id": "R7"
+    },
+    {
+      "rationale_label": "go_to_market_strategy_assessment",
+      "direction": "neutral",
+      "salience": "primary",
+      "confidence": 0.99,
+      "utterance_type": "question",
+      "decision_link": "none",
+      "timing": "original_pitch",
+      "turn_index": 67,
+      "quote": "What is your acquisition strategy to make this really big?",
+      "explanation": "Probes whether influencer acquisition can scale beyond the founder's football network.",
+      "evidence": [
+        "What is your acquisition strategy to make this really big?"
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 67,
+          "speaker": "Michael",
+          "quote": "What is your acquisition strategy to make this really big?"
+        }
+      ],
+      "activation": "queried",
+      "source_rationale_id": "R8"
+    },
+    {
+      "rationale_label": "deal_terms_complexity_concern",
+      "direction": "neutral",
+      "salience": "secondary",
+      "confidence": 0.9,
+      "utterance_type": "question",
+      "decision_link": "none",
+      "timing": "original_pitch",
+      "turn_index": 89,
+      "quote": "What’s the cap?",
+      "explanation": "Requests the convertible note's central valuation term before assessing the deal.",
+      "evidence": [
+        "What’s the cap?"
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 89,
+          "speaker": "Michael",
+          "quote": "What’s the cap?"
+        }
+      ],
+      "activation": "queried",
+      "source_rationale_id": "R9"
+    },
+    {
+      "rationale_label": "stage_valuation_mismatch",
+      "direction": "neutral",
+      "salience": "secondary",
+      "confidence": 0.97,
+      "utterance_type": "question",
+      "decision_link": "none",
+      "timing": "original_pitch",
+      "turn_index": 95,
+      "quote": "Would you revisit that?",
+      "explanation": "Asks whether the founder would reconsider the valuation after another investor described it as too high for the company's stage.",
+      "evidence": [
+        "Would you revisit that?"
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 95,
+          "speaker": "Michael",
+          "quote": "Would you revisit that?"
+        }
+      ],
+      "activation": "queried",
+      "source_rationale_id": "R10"
+    },
+    {
+      "rationale_label": "stage_valuation_mismatch",
+      "direction": "negative",
+      "salience": "primary",
+      "confidence": 0.99,
+      "utterance_type": "decision_explanation",
+      "decision_link": "supports_in",
+      "timing": "original_pitch",
+      "turn_index": 101,
+      "quote": "I tell you, I’m in at a lower number.",
+      "explanation": "Makes his willingness to invest conditional on a lower valuation.",
+      "evidence": [
+        "I tell you, I’m in at a lower number."
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 101,
+          "speaker": "Michael",
+          "quote": "I tell you, I’m in at a lower number."
+        }
+      ],
+      "activation": "evaluated",
+      "source_rationale_id": "R11"
+    },
+    {
+      "rationale_label": "product_appeal_assessment",
+      "direction": "positive",
+      "salience": "secondary",
+      "confidence": 0.94,
+      "utterance_type": "assessment",
+      "decision_link": "none",
+      "timing": "original_pitch",
+      "turn_index": 112,
+      "quote": "Oh, I’d do it.",
+      "explanation": "Indicates that he personally would use the product's shared-listening experience.",
+      "evidence": [
+        "Oh, I’d do it."
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 112,
+          "speaker": "Michael",
+          "quote": "Oh, I’d do it."
+        }
+      ],
+      "activation": "evaluated",
+      "source_rationale_id": "R12"
+    },
+    {
+      "rationale_label": "investor_value_add_fit",
+      "direction": "positive",
+      "salience": "secondary",
+      "confidence": 0.96,
+      "utterance_type": "assessment",
+      "decision_link": "none",
+      "timing": "original_pitch",
+      "turn_index": 127,
+      "quote": "See that’s what you want.",
+      "explanation": "Affirms that access to an investor network representing professional athletes is particularly valuable to the company.",
+      "evidence": [
+        "See that’s what you want."
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 127,
+          "speaker": "Michael",
+          "quote": "See that’s what you want."
+        }
+      ],
+      "activation": "evaluated",
+      "source_rationale_id": "R13"
+    },
+    {
+      "rationale_label": "investment_upside_assessment",
+      "direction": "positive",
+      "salience": "primary",
+      "confidence": 0.99,
+      "utterance_type": "assessment",
+      "decision_link": "none",
+      "timing": "original_pitch",
+      "turn_index": 135,
+      "quote": "I’m either looking at a zero or a billion dollar play.",
+      "explanation": "Characterizes the investment as highly risky but capable of an exceptionally large outcome.",
+      "evidence": [
+        "I’m either looking at a zero or a billion dollar play."
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 135,
+          "speaker": "Michael",
+          "quote": "I’m either looking at a zero or a billion dollar play."
+        }
+      ],
+      "activation": "evaluated",
+      "source_rationale_id": "R14"
+    },
+    {
+      "rationale_label": "product_appeal_assessment",
+      "direction": "positive",
+      "salience": "secondary",
+      "confidence": 0.93,
+      "utterance_type": "assessment",
+      "decision_link": "none",
+      "timing": "original_pitch",
+      "turn_index": 135,
+      "quote": "But I love it!",
+      "explanation": "Expresses strong personal enthusiasm for the opportunity despite its risk.",
+      "evidence": [
+        "But I love it!"
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 135,
+          "speaker": "Michael",
+          "quote": "But I love it!"
+        }
+      ],
+      "activation": "evaluated",
+      "source_rationale_id": "R15"
+    },
+    {
+      "rationale_label": "stage_valuation_mismatch",
+      "direction": "negative",
+      "salience": "primary",
+      "confidence": 0.96,
+      "utterance_type": "concern",
+      "decision_link": "none",
+      "timing": "original_pitch",
+      "turn_index": 138,
+      "quote": "I just need to peg for the risk, right?",
+      "explanation": "States that the deal price must account for the opportunity's substantial risk.",
+      "evidence": [
+        "I just need to peg for the risk, right?"
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 138,
+          "speaker": "Michael",
+          "quote": "I just need to peg for the risk, right?"
+        }
+      ],
+      "activation": "evaluated",
+      "source_rationale_id": "R16"
+    },
+    {
+      "rationale_label": "product_appeal_assessment",
+      "direction": "positive",
+      "salience": "secondary",
+      "confidence": 0.88,
+      "utterance_type": "assessment",
+      "decision_link": "none",
+      "timing": "original_pitch",
+      "turn_index": 141,
+      "quote": "This is so interesting!",
+      "explanation": "Expresses a strongly favorable reaction to the opportunity during the in-room debrief.",
+      "evidence": [
+        "This is so interesting!"
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 141,
+          "speaker": "Michael",
+          "quote": "This is so interesting!"
+        }
+      ],
+      "activation": "evaluated",
+      "source_rationale_id": "R17"
+    },
+    {
+      "rationale_label": "product_appeal_assessment",
+      "direction": "positive",
+      "salience": "secondary",
+      "confidence": 0.99,
+      "utterance_type": "assessment",
+      "decision_link": "none",
+      "timing": "original_pitch",
+      "turn_index": 143,
+      "quote": "I would use it.",
+      "explanation": "States that he personally finds the product desirable enough to use.",
+      "evidence": [
+        "I would use it."
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 143,
+          "speaker": "Michael",
+          "quote": "I would use it."
+        }
+      ],
+      "activation": "evaluated",
+      "source_rationale_id": "R18"
+    },
+    {
+      "rationale_label": "founder_market_fit",
+      "direction": "positive",
+      "salience": "primary",
+      "confidence": 0.98,
+      "utterance_type": "decision_explanation",
+      "decision_link": "supports_in",
+      "timing": "original_pitch",
+      "turn_index": 152,
+      "quote": "That’s it.",
+      "explanation": "Confirms that the former NFL player's relevant influencer network was the decisive reason supporting the investment decision.",
+      "evidence": [
+        "That’s it."
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 152,
+          "speaker": "Michael",
+          "quote": "That’s it."
+        }
+      ],
+      "activation": "evaluated",
+      "source_rationale_id": "R19"
+    },
+    {
+      "rationale_label": "product_success_factor_assessment",
+      "direction": "positive",
+      "salience": "primary",
+      "confidence": 0.99,
+      "utterance_type": "assessment",
+      "decision_link": "none",
+      "timing": "original_pitch",
+      "turn_index": 156,
+      "quote": "If he gets the stars, this thing takes off.",
+      "explanation": "Identifies recruiting star users as the decisive condition for the product's growth.",
+      "evidence": [
+        "If he gets the stars, this thing takes off."
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 156,
+          "speaker": "Michael",
+          "quote": "If he gets the stars, this thing takes off."
+        }
+      ],
+      "activation": "evaluated",
+      "source_rationale_id": "R20"
+    }
+  ],
+  "expanded_quote_evidence": [],
+  "rejected_after_evidence_check": []
+}

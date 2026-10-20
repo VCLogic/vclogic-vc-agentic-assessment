@@ -1,0 +1,44 @@
+{
+  "experiment": "mac-two-errors-regression-v2",
+  "updated_at": "2026-10-19T19:32:05.119771+00:00",
+  "counts": {
+    "pending": 0,
+    "running": 0,
+    "completed": 2,
+    "failed": 0
+  },
+  "cases": [
+    {
+      "vc_slug": "mac-conwell",
+      "episode_slug": "129-reddrop-pitching-the-big-vision",
+      "actual_decision": "In",
+      "previous_predicted_decision": "Out",
+      "previous_job_id": "f4e41d19e3a1a68fbcb68dceea40132e1dad6c9657f8a8ef99ffd0da63d2b9b1",
+      "job_id": "4d539a6ddfeca7f915ac66133714cceae2df025c34370cdbbe82315a29cc00bf",
+      "status": "completed",
+      "summary_path": "/home/dpasch01/vclogic-vc-agentic-assessment/outputs/pitchshow-evaluation/mac-conwell/129-reddrop-pitching-the-big-vision/founders-only/4d539a6ddfeca7f915ac66133714cceae2df025c34370cdbbe82315a29cc00bf/attempt-1/runs/129-reddrop-pitching-the-big-vision/summary.json",
+      "predicted_decision": "In",
+      "phase1_status": "provisional",
+      "phase2_status": "accepted",
+      "stop_reason": "freeze_accepted",
+      "cost_usd": 0.08193755
+    },
+    {
+      "vc_slug": "mac-conwell",
+      "episode_slug": "128-churchspace-airbnb-for-churches",
+      "actual_decision": "Out",
+      "previous_predicted_decision": "In",
+      "previous_job_id": "89878372d50794cbd48a11ed0f235dd776e100dc2c89ae4b9728734c6c7f94ac",
+      "job_id": "fee2f11e83616b27361d6b9342ba59fefd05bb3b8cb6e88d0ec82c337838c0ce",
+      "status": "completed",
+      "summary_path": "/home/dpasch01/vclogic-vc-agentic-assessment/outputs/pitchshow-evaluation/mac-conwell/128-churchspace-airbnb-for-churches/founders-only/fee2f11e83616b27361d6b9342ba59fefd05bb3b8cb6e88d0ec82c337838c0ce/attempt-1/runs/128-churchspace-airbnb-for-churches/summary.json",
+      "predicted_decision": "Out",
+      "phase1_status": "provisional",
+      "phase2_status": "provisional",
+      "stop_reason": "corpus_search_exhausted",
+      "cost_usd": 0.14072865
+    }
+  ],
+  "completed_cost_usd": 0.2226662,
+  "warning": "Known-case diagnostic regression, not new independent benchmark cases; wiki lineage/aggregate risks remain."
+}

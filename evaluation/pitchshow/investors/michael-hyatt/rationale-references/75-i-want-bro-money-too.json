@@ -1,0 +1,1005 @@
+{
+  "schema": "phase1-rationale-reference-v1",
+  "extraction_version": "pitchshow-rationales-v1",
+  "fingerprint": "ed3b1ed630a025cfce559651161b29f57a9236cda182c3eff128b62385828df4",
+  "episode_slug": "75-i-want-bro-money-too",
+  "vc_slug": "michael-hyatt",
+  "vc_name": "Michael Hyatt",
+  "actual_decision": "Out",
+  "later_decision": "Unknown",
+  "reference_kind": "automated_transcript_observed_candidate",
+  "human_validated": false,
+  "source_format": "transcript-observed-rationales-v1",
+  "source_path": "../source/episodes/75-i-want-bro-money-too.json",
+  "source_sha256": "071028024b12d5eb151343300e4110f19ca8b479dde201198cf236203b32c3b2",
+  "transcript_sha256": "5198f7a831af0fd63a6c6a559f767ef8085efe9d1806705189daca5b3429129c",
+  "taxonomy_sha256": "eaa8734819a3ac34dd19ee5f0bf6de925a793a1d25a2d361090dafc9b751e1fc",
+  "model": "openai/gpt-5.6-luna",
+  "source_tier": "newly_extracted_and_independently_model_reviewed",
+  "reviewed_target_turns": [
+    5,
+    7,
+    9,
+    11,
+    13,
+    29,
+    31,
+    34,
+    36,
+    38,
+    45,
+    47,
+    49,
+    51,
+    53,
+    55,
+    57,
+    59,
+    61,
+    63,
+    65,
+    67,
+    87,
+    89,
+    91
+  ],
+  "notes": "All supplied target turns were reviewed; turns without a distinct material rationale were omitted.",
+  "receipt_path": "receipts/75-i-want-bro-money-too.json",
+  "scoring_scope": "original_pitch_only",
+  "shared_across_input_modes": true,
+  "rationales": [
+    {
+      "rationale_label": "business_model_assessment",
+      "direction": "neutral",
+      "salience": "secondary",
+      "confidence": 0.94,
+      "utterance_type": "question",
+      "decision_link": "none",
+      "timing": "original_pitch",
+      "turn_index": 13,
+      "quote": "And how do you work with a brand?",
+      "explanation": "Michael seeks clarification on the company’s operating relationship with its brand customers.",
+      "evidence": [
+        "And how do you work with a brand?"
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 13,
+          "speaker": "Michael",
+          "quote": "And how do you work with a brand?"
+        }
+      ],
+      "activation": "queried",
+      "source_rationale_id": "R2",
+      "utterance_kind": "question",
+      "decision_support": "none",
+      "all_mention_ids": [
+        "R2"
+      ]
+    },
+    {
+      "rationale_label": "business_viability_concern",
+      "direction": "negative",
+      "salience": "primary",
+      "confidence": 0.99,
+      "utterance_type": "decision_reason",
+      "decision_link": "explicit",
+      "timing": "original_pitch",
+      "turn_index": 87,
+      "quote": "I don't think the business model makes a lot of sense",
+      "explanation": "Michael identifies the business model itself as a reason for being out.",
+      "evidence": [
+        "I don't think the business model makes a lot of sense"
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 87,
+          "speaker": "Michael",
+          "quote": "I don't think the business model makes a lot of sense"
+        }
+      ],
+      "activation": "evaluated",
+      "source_rationale_id": "R21",
+      "utterance_kind": "decision_explanation",
+      "decision_support": "supports_out",
+      "all_mention_ids": [
+        "R21"
+      ]
+    },
+    {
+      "rationale_label": "capital_intensity_concern",
+      "direction": "negative",
+      "salience": "primary",
+      "confidence": 0.98,
+      "utterance_type": "assessment",
+      "decision_link": "none",
+      "timing": "original_pitch",
+      "turn_index": 57,
+      "quote": "that’s a huge number for a retail startup",
+      "explanation": "Michael views the requested $5 million as unusually large for the company’s described stage and category.",
+      "evidence": [
+        "that’s a huge number for a retail startup"
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 57,
+          "speaker": "Michael",
+          "quote": "that’s a huge number for a retail startup"
+        }
+      ],
+      "activation": "evaluated",
+      "source_rationale_id": "R11",
+      "utterance_kind": "concern",
+      "decision_support": "none",
+      "all_mention_ids": [
+        "R10",
+        "R11"
+      ]
+    },
+    {
+      "rationale_label": "founder_skillset",
+      "direction": "positive",
+      "salience": "secondary",
+      "confidence": 0.95,
+      "utterance_type": "assessment",
+      "decision_link": "none",
+      "timing": "original_pitch",
+      "turn_index": 87,
+      "quote": "you are such a good salesperson",
+      "explanation": "Michael positively assesses Andrea’s sales ability as a founder capability.",
+      "evidence": [
+        "you are such a good salesperson"
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 87,
+          "speaker": "Michael",
+          "quote": "you are such a good salesperson"
+        }
+      ],
+      "activation": "evaluated",
+      "source_rationale_id": "R17",
+      "utterance_kind": "assessment",
+      "decision_support": "none",
+      "all_mention_ids": [
+        "R17"
+      ]
+    },
+    {
+      "rationale_label": "fundraising_demand_signal",
+      "direction": "positive",
+      "salience": "secondary",
+      "confidence": 0.9,
+      "utterance_type": "assessment",
+      "decision_link": "none",
+      "timing": "original_pitch",
+      "turn_index": 87,
+      "quote": "I think somehow you're going to raise this money at some kind of big valuation",
+      "explanation": "Michael predicts that Andrea’s fundraising ability will attract capital despite his own refusal.",
+      "evidence": [
+        "I think somehow you're going to raise this money at some kind of big valuation"
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 87,
+          "speaker": "Michael",
+          "quote": "I think somehow you're going to raise this money at some kind of big valuation"
+        }
+      ],
+      "activation": "evaluated",
+      "source_rationale_id": "R23",
+      "utterance_kind": "assessment",
+      "decision_support": "none",
+      "all_mention_ids": [
+        "R23"
+      ]
+    },
+    {
+      "rationale_label": "market_problem_validation",
+      "direction": "positive",
+      "salience": "secondary",
+      "confidence": 0.97,
+      "utterance_type": "assessment",
+      "decision_link": "none",
+      "timing": "original_pitch",
+      "turn_index": 87,
+      "quote": "you've outlined a problem which is real. And huge",
+      "explanation": "Despite refusing to invest, Michael acknowledges that the underlying problem is substantial and real.",
+      "evidence": [
+        "you've outlined a problem which is real. And huge"
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 87,
+          "speaker": "Michael",
+          "quote": "you've outlined a problem which is real. And huge"
+        }
+      ],
+      "activation": "evaluated",
+      "source_rationale_id": "R22",
+      "utterance_kind": "assessment",
+      "decision_support": "none",
+      "all_mention_ids": [
+        "R22"
+      ]
+    },
+    {
+      "rationale_label": "market_size_assessment",
+      "direction": "negative",
+      "salience": "primary",
+      "confidence": 0.98,
+      "utterance_type": "assessment",
+      "decision_link": "none",
+      "timing": "original_pitch",
+      "turn_index": 34,
+      "quote": "most Americans cannot afford any of the type of the clothes you're talking about",
+      "explanation": "Michael questions whether the practically affordable customer segment supports the claimed market size.",
+      "evidence": [
+        "most Americans cannot afford any of the type of the clothes you're talking about",
+        "most Americans don't spend $400 on an item of clothes"
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 34,
+          "speaker": "Michael",
+          "quote": "most Americans cannot afford any of the type of the clothes you're talking about"
+        },
+        {
+          "turn_index": 36,
+          "speaker": "Michael",
+          "quote": "most Americans don't spend $400 on an item of clothes"
+        }
+      ],
+      "activation": "evaluated",
+      "source_rationale_id": "R3",
+      "utterance_kind": "concern",
+      "decision_support": "none",
+      "all_mention_ids": [
+        "R3",
+        "R4",
+        "R5"
+      ]
+    },
+    {
+      "rationale_label": "solution_feasibility_assessment",
+      "direction": "neutral",
+      "salience": "secondary",
+      "confidence": 0.91,
+      "utterance_type": "question",
+      "decision_link": "none",
+      "timing": "original_pitch",
+      "turn_index": 47,
+      "quote": "What kind of hardware are you buying?",
+      "explanation": "Michael asks for specifics about the hardware required to implement the proposed manufacturing solution.",
+      "evidence": [
+        "So how does this work exactly?",
+        "What kind of hardware are you buying?"
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 7,
+          "speaker": "Michael",
+          "quote": "So how does this work exactly?"
+        },
+        {
+          "turn_index": 47,
+          "speaker": "Michael",
+          "quote": "What kind of hardware are you buying?"
+        }
+      ],
+      "activation": "queried",
+      "source_rationale_id": "R7",
+      "utterance_kind": "question",
+      "decision_support": "none",
+      "all_mention_ids": [
+        "R1",
+        "R7"
+      ]
+    },
+    {
+      "rationale_label": "stage_valuation_mismatch",
+      "direction": "negative",
+      "salience": "primary",
+      "confidence": 0.99,
+      "utterance_type": "decision_reason",
+      "decision_link": "explicit",
+      "timing": "original_pitch",
+      "turn_index": 87,
+      "quote": "I've actually rarely ever seen anybody come in with this kind of valuation and be at the kind of stage you are",
+      "explanation": "Michael explicitly ties his refusal to the unusually high valuation relative to the company’s unproven stage.",
+      "evidence": [
+        "You're getting started and you would like a valuation of 16.5 million?",
+        "it's a big difference between saying we're $16.5 million already because we have 31 companies ready to pilot",
+        "I've actually rarely ever seen anybody come in with this kind of valuation and be at the kind of stage you are"
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 63,
+          "speaker": "Michael",
+          "quote": "You're getting started and you would like a valuation of 16.5 million?"
+        },
+        {
+          "turn_index": 67,
+          "speaker": "Michael",
+          "quote": "it's a big difference between saying we're $16.5 million already because we have 31 companies ready to pilot"
+        },
+        {
+          "turn_index": 87,
+          "speaker": "Michael",
+          "quote": "I've actually rarely ever seen anybody come in with this kind of valuation and be at the kind of stage you are"
+        }
+      ],
+      "activation": "evaluated",
+      "source_rationale_id": "R18",
+      "utterance_kind": "decision_explanation",
+      "decision_support": "supports_out",
+      "all_mention_ids": [
+        "R12",
+        "R13",
+        "R16",
+        "R18"
+      ]
+    },
+    {
+      "rationale_label": "traction_repeatability_concern",
+      "direction": "negative",
+      "salience": "primary",
+      "confidence": 0.98,
+      "utterance_type": "decision_reason",
+      "decision_link": "explicit",
+      "timing": "original_pitch",
+      "turn_index": 87,
+      "quote": "not really proven out yet",
+      "explanation": "Michael says the business lacks sufficient proof and maturity for the proposed investment.",
+      "evidence": [
+        "you’re painting this dream, but you’re pre-revenue. You’re not actually doing it",
+        "they're kind of these verbal non-committals",
+        "not really proven out yet",
+        "I don't think where you are with the 31 brands makes a lot of sense"
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 45,
+          "speaker": "Michael",
+          "quote": "you’re painting this dream, but you’re pre-revenue. You’re not actually doing it"
+        },
+        {
+          "turn_index": 67,
+          "speaker": "Michael",
+          "quote": "they're kind of these verbal non-committals"
+        },
+        {
+          "turn_index": 87,
+          "speaker": "Michael",
+          "quote": "not really proven out yet"
+        },
+        {
+          "turn_index": 87,
+          "speaker": "Michael",
+          "quote": "I don't think where you are with the 31 brands makes a lot of sense"
+        }
+      ],
+      "activation": "evaluated",
+      "source_rationale_id": "R19",
+      "utterance_kind": "decision_explanation",
+      "decision_support": "supports_out",
+      "all_mention_ids": [
+        "R6",
+        "R8",
+        "R9",
+        "R14",
+        "R15",
+        "R19",
+        "R20"
+      ]
+    }
+  ],
+  "later_rationales": [
+    {
+      "rationale_label": "execution_risk_assessment",
+      "direction": "negative",
+      "salience": "primary",
+      "confidence": 0.97,
+      "utterance_type": "assessment",
+      "decision_link": "supports_out",
+      "timing": "later_commentary",
+      "turn_index": 91,
+      "quote": "There’s no equipment yet, there’s no proof in the pudding, there’s no real work through",
+      "explanation": "In retrospective commentary, Michael cites the lack of equipment and demonstrated work-through as evidence of insufficiently demonstrated execution.",
+      "evidence": [
+        "There’s no equipment yet, there’s no proof in the pudding, there’s no real work through"
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 91,
+          "speaker": "Michael",
+          "quote": "There’s no equipment yet, there’s no proof in the pudding, there’s no real work through"
+        }
+      ],
+      "activation": "evaluated",
+      "source_rationale_id": "R24"
+    },
+    {
+      "rationale_label": "founder_communication_quality",
+      "direction": "negative",
+      "salience": "secondary",
+      "confidence": 0.96,
+      "utterance_type": "assessment",
+      "decision_link": "supports_out",
+      "timing": "later_commentary",
+      "turn_index": 91,
+      "quote": "it’s so salesmanship, it’s lack of being credible",
+      "explanation": "Michael says the presentation felt overly sales-driven and insufficiently credible.",
+      "evidence": [
+        "it’s so salesmanship, it’s lack of being credible"
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 91,
+          "speaker": "Michael",
+          "quote": "it’s so salesmanship, it’s lack of being credible"
+        }
+      ],
+      "activation": "evaluated",
+      "source_rationale_id": "R25"
+    }
+  ],
+  "excluded_rationales": [],
+  "rationale_mentions": [
+    {
+      "rationale_label": "solution_feasibility_assessment",
+      "direction": "neutral",
+      "salience": "secondary",
+      "confidence": 0.94,
+      "utterance_type": "question",
+      "decision_link": "none",
+      "timing": "original_pitch",
+      "turn_index": 7,
+      "quote": "So how does this work exactly?",
+      "explanation": "Michael asks for the operational details of how individualized clothing is produced and delivered.",
+      "evidence": [
+        "So how does this work exactly?"
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 7,
+          "speaker": "Michael",
+          "quote": "So how does this work exactly?"
+        }
+      ],
+      "activation": "queried",
+      "source_rationale_id": "R1"
+    },
+    {
+      "rationale_label": "business_model_assessment",
+      "direction": "neutral",
+      "salience": "secondary",
+      "confidence": 0.94,
+      "utterance_type": "question",
+      "decision_link": "none",
+      "timing": "original_pitch",
+      "turn_index": 13,
+      "quote": "And how do you work with a brand?",
+      "explanation": "Michael seeks clarification on the company’s operating relationship with its brand customers.",
+      "evidence": [
+        "And how do you work with a brand?"
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 13,
+          "speaker": "Michael",
+          "quote": "And how do you work with a brand?"
+        }
+      ],
+      "activation": "queried",
+      "source_rationale_id": "R2"
+    },
+    {
+      "rationale_label": "market_size_assessment",
+      "direction": "negative",
+      "salience": "primary",
+      "confidence": 0.98,
+      "utterance_type": "concern",
+      "decision_link": "none",
+      "timing": "original_pitch",
+      "turn_index": 34,
+      "quote": "most Americans cannot afford any of the type of the clothes you're talking about",
+      "explanation": "Michael questions whether the practically affordable customer segment supports the claimed market size.",
+      "evidence": [
+        "most Americans cannot afford any of the type of the clothes you're talking about"
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 34,
+          "speaker": "Michael",
+          "quote": "most Americans cannot afford any of the type of the clothes you're talking about"
+        }
+      ],
+      "activation": "evaluated",
+      "source_rationale_id": "R3"
+    },
+    {
+      "rationale_label": "market_size_assessment",
+      "direction": "negative",
+      "salience": "secondary",
+      "confidence": 0.97,
+      "utterance_type": "supporting_argument",
+      "decision_link": "none",
+      "timing": "original_pitch",
+      "turn_index": 36,
+      "quote": "most Americans don't spend $400 on an item of clothes",
+      "explanation": "He reinforces the concern that the price point sharply limits the reachable market.",
+      "evidence": [
+        "most Americans don't spend $400 on an item of clothes"
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 36,
+          "speaker": "Michael",
+          "quote": "most Americans don't spend $400 on an item of clothes"
+        }
+      ],
+      "activation": "evaluated",
+      "source_rationale_id": "R4"
+    },
+    {
+      "rationale_label": "market_size_assessment",
+      "direction": "neutral",
+      "salience": "secondary",
+      "confidence": 0.96,
+      "utterance_type": "question",
+      "decision_link": "none",
+      "timing": "original_pitch",
+      "turn_index": 38,
+      "quote": "do you think that's an $80 billion market?",
+      "explanation": "Michael directly asks whether the claimed market-size figure is credible.",
+      "evidence": [
+        "do you think that's an $80 billion market?"
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 38,
+          "speaker": "Michael",
+          "quote": "do you think that's an $80 billion market?"
+        }
+      ],
+      "activation": "queried",
+      "source_rationale_id": "R5"
+    },
+    {
+      "rationale_label": "traction_repeatability_concern",
+      "direction": "negative",
+      "salience": "primary",
+      "confidence": 0.98,
+      "utterance_type": "concern",
+      "decision_link": "none",
+      "timing": "original_pitch",
+      "turn_index": 45,
+      "quote": "you’re painting this dream, but you’re pre-revenue. You’re not actually doing it",
+      "explanation": "Michael highlights that the company has not yet demonstrated commercial operation or revenue traction.",
+      "evidence": [
+        "you’re painting this dream, but you’re pre-revenue. You’re not actually doing it"
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 45,
+          "speaker": "Michael",
+          "quote": "you’re painting this dream, but you’re pre-revenue. You’re not actually doing it"
+        }
+      ],
+      "activation": "evaluated",
+      "source_rationale_id": "R6"
+    },
+    {
+      "rationale_label": "solution_feasibility_assessment",
+      "direction": "neutral",
+      "salience": "secondary",
+      "confidence": 0.91,
+      "utterance_type": "question",
+      "decision_link": "none",
+      "timing": "original_pitch",
+      "turn_index": 47,
+      "quote": "What kind of hardware are you buying?",
+      "explanation": "Michael asks for specifics about the hardware required to implement the proposed manufacturing solution.",
+      "evidence": [
+        "What kind of hardware are you buying?"
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 47,
+          "speaker": "Michael",
+          "quote": "What kind of hardware are you buying?"
+        }
+      ],
+      "activation": "queried",
+      "source_rationale_id": "R7"
+    },
+    {
+      "rationale_label": "traction_repeatability_concern",
+      "direction": "neutral",
+      "salience": "secondary",
+      "confidence": 0.9,
+      "utterance_type": "question",
+      "decision_link": "none",
+      "timing": "original_pitch",
+      "turn_index": 51,
+      "quote": "Ten what?",
+      "explanation": "Michael clarifies what the claimed ten completed units represent as evidence of progress.",
+      "evidence": [
+        "Ten what?"
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 51,
+          "speaker": "Michael",
+          "quote": "Ten what?"
+        }
+      ],
+      "activation": "queried",
+      "source_rationale_id": "R8"
+    },
+    {
+      "rationale_label": "traction_repeatability_concern",
+      "direction": "neutral",
+      "salience": "secondary",
+      "confidence": 0.95,
+      "utterance_type": "question",
+      "decision_link": "none",
+      "timing": "original_pitch",
+      "turn_index": 53,
+      "quote": "So you have massive purchase orders right now from these brands?",
+      "explanation": "Michael probes whether the stated brand interest has become concrete commercial traction.",
+      "evidence": [
+        "So you have massive purchase orders right now from these brands?"
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 53,
+          "speaker": "Michael",
+          "quote": "So you have massive purchase orders right now from these brands?"
+        }
+      ],
+      "activation": "queried",
+      "source_rationale_id": "R9"
+    },
+    {
+      "rationale_label": "capital_intensity_concern",
+      "direction": "neutral",
+      "salience": "secondary",
+      "confidence": 0.94,
+      "utterance_type": "question",
+      "decision_link": "none",
+      "timing": "original_pitch",
+      "turn_index": 55,
+      "quote": "where’s it going to? What’s it going to?",
+      "explanation": "Michael asks how the substantial funding request will be allocated.",
+      "evidence": [
+        "where’s it going to? What’s it going to?"
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 55,
+          "speaker": "Michael",
+          "quote": "where’s it going to? What’s it going to?"
+        }
+      ],
+      "activation": "queried",
+      "source_rationale_id": "R10"
+    },
+    {
+      "rationale_label": "capital_intensity_concern",
+      "direction": "negative",
+      "salience": "primary",
+      "confidence": 0.98,
+      "utterance_type": "concern",
+      "decision_link": "none",
+      "timing": "original_pitch",
+      "turn_index": 57,
+      "quote": "that’s a huge number for a retail startup",
+      "explanation": "Michael views the requested $5 million as unusually large for the company’s described stage and category.",
+      "evidence": [
+        "that’s a huge number for a retail startup"
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 57,
+          "speaker": "Michael",
+          "quote": "that’s a huge number for a retail startup"
+        }
+      ],
+      "activation": "evaluated",
+      "source_rationale_id": "R11"
+    },
+    {
+      "rationale_label": "stage_valuation_mismatch",
+      "direction": "neutral",
+      "salience": "secondary",
+      "confidence": 0.96,
+      "utterance_type": "question",
+      "decision_link": "none",
+      "timing": "original_pitch",
+      "turn_index": 59,
+      "quote": "What kind of valuation do you have at the 5 million raise?",
+      "explanation": "Michael asks for the valuation attached to the financing request.",
+      "evidence": [
+        "What kind of valuation do you have at the 5 million raise?"
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 59,
+          "speaker": "Michael",
+          "quote": "What kind of valuation do you have at the 5 million raise?"
+        }
+      ],
+      "activation": "queried",
+      "source_rationale_id": "R12"
+    },
+    {
+      "rationale_label": "stage_valuation_mismatch",
+      "direction": "negative",
+      "salience": "primary",
+      "confidence": 0.99,
+      "utterance_type": "concern",
+      "decision_link": "none",
+      "timing": "original_pitch",
+      "turn_index": 63,
+      "quote": "You're getting started and you would like a valuation of 16.5 million?",
+      "explanation": "Michael questions the fit between the company’s very early stage and its $16.5 million pre-money valuation.",
+      "evidence": [
+        "You're getting started and you would like a valuation of 16.5 million?"
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 63,
+          "speaker": "Michael",
+          "quote": "You're getting started and you would like a valuation of 16.5 million?"
+        }
+      ],
+      "activation": "evaluated",
+      "source_rationale_id": "R13"
+    },
+    {
+      "rationale_label": "traction_repeatability_concern",
+      "direction": "neutral",
+      "salience": "secondary",
+      "confidence": 0.97,
+      "utterance_type": "question",
+      "decision_link": "none",
+      "timing": "original_pitch",
+      "turn_index": 65,
+      "quote": "Do you have like LOIs? Do you have purchase orders?",
+      "explanation": "Michael asks whether the claimed pilot interest is supported by binding or concrete customer commitments.",
+      "evidence": [
+        "Do you have like LOIs? Do you have purchase orders?"
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 65,
+          "speaker": "Michael",
+          "quote": "Do you have like LOIs? Do you have purchase orders?"
+        }
+      ],
+      "activation": "queried",
+      "source_rationale_id": "R14"
+    },
+    {
+      "rationale_label": "traction_repeatability_concern",
+      "direction": "negative",
+      "salience": "primary",
+      "confidence": 0.99,
+      "utterance_type": "concern",
+      "decision_link": "none",
+      "timing": "original_pitch",
+      "turn_index": 67,
+      "quote": "they're kind of these verbal non-committals",
+      "explanation": "Michael concludes that the 31-brand claim reflects weak, non-binding evidence of demand.",
+      "evidence": [
+        "they're kind of these verbal non-committals"
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 67,
+          "speaker": "Michael",
+          "quote": "they're kind of these verbal non-committals"
+        }
+      ],
+      "activation": "evaluated",
+      "source_rationale_id": "R15"
+    },
+    {
+      "rationale_label": "stage_valuation_mismatch",
+      "direction": "negative",
+      "salience": "primary",
+      "confidence": 0.97,
+      "utterance_type": "concern",
+      "decision_link": "none",
+      "timing": "original_pitch",
+      "turn_index": 67,
+      "quote": "it's a big difference between saying we're $16.5 million already because we have 31 companies ready to pilot",
+      "explanation": "Michael objects to using tentative pilot interest as support for the requested valuation.",
+      "model_quote_before_typography_repair": "It's a big difference between saying we're $16.5 million already because we have 31 companies ready to pilot",
+      "evidence": [
+        "it's a big difference between saying we're $16.5 million already because we have 31 companies ready to pilot"
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 67,
+          "speaker": "Michael",
+          "quote": "it's a big difference between saying we're $16.5 million already because we have 31 companies ready to pilot"
+        }
+      ],
+      "activation": "evaluated",
+      "source_rationale_id": "R16"
+    },
+    {
+      "rationale_label": "founder_skillset",
+      "direction": "positive",
+      "salience": "secondary",
+      "confidence": 0.95,
+      "utterance_type": "assessment",
+      "decision_link": "none",
+      "timing": "original_pitch",
+      "turn_index": 87,
+      "quote": "you are such a good salesperson",
+      "explanation": "Michael positively assesses Andrea’s sales ability as a founder capability.",
+      "evidence": [
+        "you are such a good salesperson"
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 87,
+          "speaker": "Michael",
+          "quote": "you are such a good salesperson"
+        }
+      ],
+      "activation": "evaluated",
+      "source_rationale_id": "R17"
+    },
+    {
+      "rationale_label": "stage_valuation_mismatch",
+      "direction": "negative",
+      "salience": "primary",
+      "confidence": 0.99,
+      "utterance_type": "decision_explanation",
+      "decision_link": "supports_out",
+      "timing": "original_pitch",
+      "turn_index": 87,
+      "quote": "I've actually rarely ever seen anybody come in with this kind of valuation and be at the kind of stage you are",
+      "explanation": "Michael explicitly ties his refusal to the unusually high valuation relative to the company’s unproven stage.",
+      "evidence": [
+        "I've actually rarely ever seen anybody come in with this kind of valuation and be at the kind of stage you are"
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 87,
+          "speaker": "Michael",
+          "quote": "I've actually rarely ever seen anybody come in with this kind of valuation and be at the kind of stage you are"
+        }
+      ],
+      "activation": "evaluated",
+      "source_rationale_id": "R18"
+    },
+    {
+      "rationale_label": "traction_repeatability_concern",
+      "direction": "negative",
+      "salience": "primary",
+      "confidence": 0.98,
+      "utterance_type": "decision_explanation",
+      "decision_link": "supports_out",
+      "timing": "original_pitch",
+      "turn_index": 87,
+      "quote": "not really proven out yet",
+      "explanation": "Michael says the business lacks sufficient proof and maturity for the proposed investment.",
+      "evidence": [
+        "not really proven out yet"
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 87,
+          "speaker": "Michael",
+          "quote": "not really proven out yet"
+        }
+      ],
+      "activation": "evaluated",
+      "source_rationale_id": "R19"
+    },
+    {
+      "rationale_label": "traction_repeatability_concern",
+      "direction": "negative",
+      "salience": "primary",
+      "confidence": 0.97,
+      "utterance_type": "decision_explanation",
+      "decision_link": "supports_out",
+      "timing": "original_pitch",
+      "turn_index": 87,
+      "quote": "I don't think where you are with the 31 brands makes a lot of sense",
+      "explanation": "Michael rejects the evidentiary strength of the company’s claimed brand traction.",
+      "evidence": [
+        "I don't think where you are with the 31 brands makes a lot of sense"
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 87,
+          "speaker": "Michael",
+          "quote": "I don't think where you are with the 31 brands makes a lot of sense"
+        }
+      ],
+      "activation": "evaluated",
+      "source_rationale_id": "R20"
+    },
+    {
+      "rationale_label": "business_viability_concern",
+      "direction": "negative",
+      "salience": "primary",
+      "confidence": 0.99,
+      "utterance_type": "decision_explanation",
+      "decision_link": "supports_out",
+      "timing": "original_pitch",
+      "turn_index": 87,
+      "quote": "I don't think the business model makes a lot of sense",
+      "explanation": "Michael identifies the business model itself as a reason for being out.",
+      "evidence": [
+        "I don't think the business model makes a lot of sense"
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 87,
+          "speaker": "Michael",
+          "quote": "I don't think the business model makes a lot of sense"
+        }
+      ],
+      "activation": "evaluated",
+      "source_rationale_id": "R21"
+    },
+    {
+      "rationale_label": "market_problem_validation",
+      "direction": "positive",
+      "salience": "secondary",
+      "confidence": 0.97,
+      "utterance_type": "assessment",
+      "decision_link": "none",
+      "timing": "original_pitch",
+      "turn_index": 87,
+      "quote": "you've outlined a problem which is real. And huge",
+      "explanation": "Despite refusing to invest, Michael acknowledges that the underlying problem is substantial and real.",
+      "evidence": [
+        "you've outlined a problem which is real. And huge"
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 87,
+          "speaker": "Michael",
+          "quote": "you've outlined a problem which is real. And huge"
+        }
+      ],
+      "activation": "evaluated",
+      "source_rationale_id": "R22"
+    },
+    {
+      "rationale_label": "fundraising_demand_signal",
+      "direction": "positive",
+      "salience": "secondary",
+      "confidence": 0.9,
+      "utterance_type": "assessment",
+      "decision_link": "none",
+      "timing": "original_pitch",
+      "turn_index": 87,
+      "quote": "I think somehow you're going to raise this money at some kind of big valuation",
+      "explanation": "Michael predicts that Andrea’s fundraising ability will attract capital despite his own refusal.",
+      "evidence": [
+        "I think somehow you're going to raise this money at some kind of big valuation"
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 87,
+          "speaker": "Michael",
+          "quote": "I think somehow you're going to raise this money at some kind of big valuation"
+        }
+      ],
+      "activation": "evaluated",
+      "source_rationale_id": "R23"
+    }
+  ],
+  "expanded_quote_evidence": [],
+  "rejected_after_evidence_check": []
+}

@@ -1,0 +1,560 @@
+{
+  "schema": "phase1-rationale-reference-v1",
+  "extraction_version": "pitchshow-rationales-v1",
+  "fingerprint": "03f129fd91ca650e977ef3e7fd4d6fd03ec86c1f758e77d735caf255dcdf1903",
+  "episode_slug": "142-kinometrix",
+  "vc_slug": "cyan-banister-long-journey-ventures",
+  "vc_name": "Cyan Banister",
+  "actual_decision": "Out",
+  "later_decision": "Unknown",
+  "reference_kind": "automated_transcript_observed_candidate",
+  "human_validated": false,
+  "source_format": "transcript-observed-rationales-v1",
+  "source_path": "/home/dpasch01/vclogic-vc-agentic-assessment/evaluation/pitchshow/investors/cyan-banister-long-journey-ventures/source/episodes/142-kinometrix.json",
+  "source_sha256": "d4a89f4433bee985ea673dc114440575a7ff4f6b21f49345ef27a0c9965c2a4e",
+  "transcript_sha256": "f1b4e69f03c4a846ed749740c53b42a5a13e2e6d2ea2fb8d090df4d65b00043e",
+  "taxonomy_sha256": "eaa8734819a3ac34dd19ee5f0bf6de925a793a1d25a2d361090dafc9b751e1fc",
+  "model": "openai/gpt-5.6-luna",
+  "source_tier": "newly_extracted_and_independently_model_reviewed",
+  "reviewed_target_turns": [
+    4,
+    11,
+    18,
+    20,
+    22,
+    24,
+    79,
+    114,
+    117,
+    136,
+    138,
+    140,
+    143,
+    146,
+    148,
+    150,
+    152,
+    159,
+    161,
+    163,
+    167
+  ],
+  "notes": "All supplied target turns were reviewed. Greetings, confirmations, repeated bare reactions, and the teaser text outside turn 167's attributed_text were not annotated.",
+  "receipt_path": "/home/dpasch01/vclogic-vc-agentic-assessment/evaluation/pitchshow/investors/cyan-banister-long-journey-ventures/rationale-references/receipts/142-kinometrix.json",
+  "scoring_scope": "original_pitch_only",
+  "shared_across_input_modes": true,
+  "rationales": [
+    {
+      "rationale_label": "business_model_assessment",
+      "direction": "neutral",
+      "salience": "secondary",
+      "confidence": 0.98,
+      "utterance_type": "question",
+      "decision_link": "none",
+      "timing": "original_pitch",
+      "turn_index": 22,
+      "quote": "pricing and things of that nature",
+      "explanation": "Cyan asked for information about the product's pricing and monetization.",
+      "evidence": [
+        "pricing and things of that nature"
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 22,
+          "speaker": "Cyan",
+          "quote": "pricing and things of that nature"
+        }
+      ],
+      "activation": "queried",
+      "source_rationale_id": "R3",
+      "utterance_kind": "question",
+      "decision_support": "none",
+      "all_mention_ids": [
+        "R3"
+      ]
+    },
+    {
+      "rationale_label": "go_to_market_strategy_assessment",
+      "direction": "neutral",
+      "salience": "secondary",
+      "confidence": 0.99,
+      "utterance_type": "question",
+      "decision_link": "none",
+      "timing": "original_pitch",
+      "turn_index": 22,
+      "quote": "Can you walk us through the sales cycle of selling this product",
+      "explanation": "Cyan sought details about the company's enterprise sales process.",
+      "evidence": [
+        "Can you walk us through the sales cycle of selling this product"
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 22,
+          "speaker": "Cyan",
+          "quote": "Can you walk us through the sales cycle of selling this product"
+        }
+      ],
+      "activation": "queried",
+      "source_rationale_id": "R2",
+      "utterance_kind": "question",
+      "decision_support": "none",
+      "all_mention_ids": [
+        "R2"
+      ]
+    },
+    {
+      "rationale_label": "investment_thesis_constraint",
+      "direction": "negative",
+      "salience": "primary",
+      "confidence": 0.99,
+      "utterance_type": "decision_reason",
+      "decision_link": "explicit",
+      "timing": "original_pitch",
+      "turn_index": 79,
+      "quote": "I look for companies that are going to be around for 10, 15 years that are aiming for sort of a moonshot outcome.",
+      "explanation": "Cyan said her long-duration, moonshot-oriented investment mandate conflicted with the founder's acquisition-oriented ambition, leading her to decline.",
+      "evidence": [
+        "I look for companies that are going to be around for 10, 15 years that are aiming for sort of a moonshot outcome."
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 79,
+          "speaker": "Cyan",
+          "quote": "I look for companies that are going to be around for 10, 15 years that are aiming for sort of a moonshot outcome."
+        }
+      ],
+      "activation": "evaluated",
+      "source_rationale_id": "R5",
+      "utterance_kind": "decision_explanation",
+      "decision_support": "supports_out",
+      "all_mention_ids": [
+        "R5"
+      ]
+    },
+    {
+      "rationale_label": "product_appeal_assessment",
+      "direction": "positive",
+      "salience": "secondary",
+      "confidence": 0.95,
+      "utterance_type": "assessment",
+      "decision_link": "none",
+      "timing": "original_pitch",
+      "turn_index": 79,
+      "quote": "I really, really love what you're working on.",
+      "explanation": "Cyan expressed a strongly favorable reaction to the company and product.",
+      "evidence": [
+        "I really, really love what you're working on."
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 79,
+          "speaker": "Cyan",
+          "quote": "I really, really love what you're working on."
+        }
+      ],
+      "activation": "evaluated",
+      "source_rationale_id": "R4",
+      "utterance_kind": "assessment",
+      "decision_support": "none",
+      "all_mention_ids": [
+        "R4"
+      ]
+    },
+    {
+      "rationale_label": "solution_feasibility_assessment",
+      "direction": "neutral",
+      "salience": "secondary",
+      "confidence": 0.96,
+      "utterance_type": "question",
+      "decision_link": "none",
+      "timing": "original_pitch",
+      "turn_index": 18,
+      "quote": "So that increases staffing in a hospital. Are they prepared to increase their staffing potentially?",
+      "explanation": "Cyan asked whether hospitals could operationally accommodate the staffing implications of the product's risk recommendations.",
+      "evidence": [
+        "So that increases staffing in a hospital. Are they prepared to increase their staffing potentially?"
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 18,
+          "speaker": "Cyan",
+          "quote": "So that increases staffing in a hospital. Are they prepared to increase their staffing potentially?"
+        }
+      ],
+      "activation": "queried",
+      "source_rationale_id": "R1",
+      "utterance_kind": "question",
+      "decision_support": "none",
+      "all_mention_ids": [
+        "R1"
+      ]
+    }
+  ],
+  "later_rationales": [
+    {
+      "rationale_label": "investment_thesis_constraint",
+      "direction": "negative",
+      "salience": "primary",
+      "confidence": 0.98,
+      "utterance_type": "decision_explanation",
+      "decision_link": "supports_out",
+      "timing": "later_commentary",
+      "turn_index": 136,
+      "quote": "goes for a moonshot outcome",
+      "explanation": "Cyan reiterated that pursuing a moonshot outcome was a hard requirement for her investment decisions.",
+      "evidence": [
+        "goes for a moonshot outcome"
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 136,
+          "speaker": "Cyan",
+          "quote": "goes for a moonshot outcome"
+        }
+      ],
+      "activation": "evaluated",
+      "source_rationale_id": "R6"
+    },
+    {
+      "rationale_label": "investment_thesis_constraint",
+      "direction": "negative",
+      "salience": "primary",
+      "confidence": 0.96,
+      "utterance_type": "assessment",
+      "decision_link": "none",
+      "timing": "later_commentary",
+      "turn_index": 138,
+      "quote": "the other one's 50/50 partnership. Unless they're brothers or sisters.",
+      "explanation": "Cyan described a hard investment rule against equal founder partnerships unless the founders have an unusually strong preexisting relationship.",
+      "evidence": [
+        "the other one's 50/50 partnership. Unless they're brothers or sisters."
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 138,
+          "speaker": "Cyan",
+          "quote": "the other one's 50/50 partnership. Unless they're brothers or sisters."
+        }
+      ],
+      "activation": "evaluated",
+      "source_rationale_id": "R7"
+    },
+    {
+      "rationale_label": "investor_experience_bias",
+      "direction": "negative",
+      "salience": "secondary",
+      "confidence": 0.97,
+      "utterance_type": "assessment",
+      "decision_link": "none",
+      "timing": "later_commentary",
+      "turn_index": 146,
+      "quote": "So many companies have fallen apart on me with that.",
+      "explanation": "Cyan cited prior failures involving 50/50 partnerships as the basis for her negative view.",
+      "evidence": [
+        "So many companies have fallen apart on me with that."
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 146,
+          "speaker": "Cyan",
+          "quote": "So many companies have fallen apart on me with that."
+        }
+      ],
+      "activation": "evaluated",
+      "source_rationale_id": "R8"
+    },
+    {
+      "rationale_label": "investment_thesis_constraint",
+      "direction": "negative",
+      "salience": "secondary",
+      "confidence": 0.95,
+      "utterance_type": "assessment",
+      "decision_link": "none",
+      "timing": "later_commentary",
+      "turn_index": 150,
+      "quote": "if you just met like a year ago or at a party and you were 50/50, I'm like, no. Nuh uh.",
+      "explanation": "Cyan extended her hard rule to recently acquainted cofounders with an equal split because she viewed the structure as problematic.",
+      "evidence": [
+        "if you just met like a year ago or at a party and you were 50/50, I'm like, no. Nuh uh."
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 150,
+          "speaker": "Cyan",
+          "quote": "if you just met like a year ago or at a party and you were 50/50, I'm like, no. Nuh uh."
+        }
+      ],
+      "activation": "evaluated",
+      "source_rationale_id": "R9"
+    },
+    {
+      "rationale_label": "founder_motivation_authenticity",
+      "direction": "neutral",
+      "salience": "secondary",
+      "confidence": 0.93,
+      "utterance_type": "assessment",
+      "decision_link": "none",
+      "timing": "later_commentary",
+      "turn_index": 152,
+      "quote": "They have to really convince me that this is their life's mission.",
+      "explanation": "Cyan described requiring evidence of a founder's genuine, deeply personal commitment to the company.",
+      "evidence": [
+        "They have to really convince me that this is their life's mission."
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 152,
+          "speaker": "Cyan",
+          "quote": "They have to really convince me that this is their life's mission."
+        }
+      ],
+      "activation": "evaluated",
+      "source_rationale_id": "R10"
+    },
+    {
+      "rationale_label": "founder_motivation_authenticity",
+      "direction": "neutral",
+      "salience": "secondary",
+      "confidence": 0.95,
+      "utterance_type": "question",
+      "decision_link": "none",
+      "timing": "later_commentary",
+      "turn_index": 159,
+      "quote": "it would be great if she went deeper into her fall. Like, what did she experience?",
+      "explanation": "Cyan wanted more detail about the founder's personal experience with the problem to evaluate the authenticity of her motivation.",
+      "evidence": [
+        "it would be great if she went deeper into her fall. Like, what did she experience?"
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 159,
+          "speaker": "Cyan",
+          "quote": "it would be great if she went deeper into her fall. Like, what did she experience?"
+        }
+      ],
+      "activation": "queried",
+      "source_rationale_id": "R11"
+    },
+    {
+      "rationale_label": "founder_communication_quality",
+      "direction": "negative",
+      "salience": "secondary",
+      "confidence": 0.97,
+      "utterance_type": "assessment",
+      "decision_link": "none",
+      "timing": "later_commentary",
+      "turn_index": 161,
+      "quote": "She's holding back on it a little bit.",
+      "explanation": "Cyan assessed that the founder was not fully communicating the personal story behind the problem.",
+      "evidence": [
+        "She's holding back on it a little bit."
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 161,
+          "speaker": "Cyan",
+          "quote": "She's holding back on it a little bit."
+        }
+      ],
+      "activation": "evaluated",
+      "source_rationale_id": "R12"
+    },
+    {
+      "rationale_label": "investor_experience_bias",
+      "direction": "positive",
+      "salience": "secondary",
+      "confidence": 0.94,
+      "utterance_type": "supporting_argument",
+      "decision_link": "none",
+      "timing": "later_commentary",
+      "turn_index": 161,
+      "quote": "I know that I got one of those bracelets put on me at the hospital and it was awful",
+      "explanation": "Cyan drew on her own unpleasant hospital experience to explain why she understood the patient burden involved.",
+      "evidence": [
+        "I know that I got one of those bracelets put on me at the hospital and it was awful"
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 161,
+          "speaker": "Cyan",
+          "quote": "I know that I got one of those bracelets put on me at the hospital and it was awful"
+        }
+      ],
+      "activation": "evaluated",
+      "source_rationale_id": "R13"
+    },
+    {
+      "rationale_label": "market_problem_validation",
+      "direction": "positive",
+      "salience": "secondary",
+      "confidence": 0.95,
+      "utterance_type": "assessment",
+      "decision_link": "none",
+      "timing": "later_commentary",
+      "turn_index": 163,
+      "quote": "So I get the problem.",
+      "explanation": "Cyan explicitly affirmed that she understood and recognized the underlying problem.",
+      "evidence": [
+        "So I get the problem."
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 163,
+          "speaker": "Cyan",
+          "quote": "So I get the problem."
+        }
+      ],
+      "activation": "evaluated",
+      "source_rationale_id": "R14"
+    },
+    {
+      "rationale_label": "founder_communication_quality",
+      "direction": "negative",
+      "salience": "secondary",
+      "confidence": 0.98,
+      "utterance_type": "assessment",
+      "decision_link": "none",
+      "timing": "later_commentary",
+      "turn_index": 163,
+      "quote": "from a storytelling standpoint, I think it would be really great if she leaned into that more.",
+      "explanation": "Cyan believed the founder's presentation would be stronger if she emphasized the personal story more.",
+      "evidence": [
+        "from a storytelling standpoint, I think it would be really great if she leaned into that more."
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 163,
+          "speaker": "Cyan",
+          "quote": "from a storytelling standpoint, I think it would be really great if she leaned into that more."
+        }
+      ],
+      "activation": "evaluated",
+      "source_rationale_id": "R15"
+    }
+  ],
+  "excluded_rationales": [],
+  "rationale_mentions": [
+    {
+      "rationale_label": "solution_feasibility_assessment",
+      "direction": "neutral",
+      "salience": "secondary",
+      "confidence": 0.96,
+      "utterance_type": "question",
+      "decision_link": "none",
+      "timing": "original_pitch",
+      "turn_index": 18,
+      "quote": "So that increases staffing in a hospital. Are they prepared to increase their staffing potentially?",
+      "explanation": "Cyan asked whether hospitals could operationally accommodate the staffing implications of the product's risk recommendations.",
+      "evidence": [
+        "So that increases staffing in a hospital. Are they prepared to increase their staffing potentially?"
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 18,
+          "speaker": "Cyan",
+          "quote": "So that increases staffing in a hospital. Are they prepared to increase their staffing potentially?"
+        }
+      ],
+      "activation": "queried",
+      "source_rationale_id": "R1"
+    },
+    {
+      "rationale_label": "go_to_market_strategy_assessment",
+      "direction": "neutral",
+      "salience": "secondary",
+      "confidence": 0.99,
+      "utterance_type": "question",
+      "decision_link": "none",
+      "timing": "original_pitch",
+      "turn_index": 22,
+      "quote": "Can you walk us through the sales cycle of selling this product",
+      "explanation": "Cyan sought details about the company's enterprise sales process.",
+      "evidence": [
+        "Can you walk us through the sales cycle of selling this product"
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 22,
+          "speaker": "Cyan",
+          "quote": "Can you walk us through the sales cycle of selling this product"
+        }
+      ],
+      "activation": "queried",
+      "source_rationale_id": "R2"
+    },
+    {
+      "rationale_label": "business_model_assessment",
+      "direction": "neutral",
+      "salience": "secondary",
+      "confidence": 0.98,
+      "utterance_type": "question",
+      "decision_link": "none",
+      "timing": "original_pitch",
+      "turn_index": 22,
+      "quote": "pricing and things of that nature",
+      "explanation": "Cyan asked for information about the product's pricing and monetization.",
+      "evidence": [
+        "pricing and things of that nature"
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 22,
+          "speaker": "Cyan",
+          "quote": "pricing and things of that nature"
+        }
+      ],
+      "activation": "queried",
+      "source_rationale_id": "R3"
+    },
+    {
+      "rationale_label": "product_appeal_assessment",
+      "direction": "positive",
+      "salience": "secondary",
+      "confidence": 0.95,
+      "utterance_type": "assessment",
+      "decision_link": "none",
+      "timing": "original_pitch",
+      "turn_index": 79,
+      "quote": "I really, really love what you're working on.",
+      "explanation": "Cyan expressed a strongly favorable reaction to the company and product.",
+      "evidence": [
+        "I really, really love what you're working on."
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 79,
+          "speaker": "Cyan",
+          "quote": "I really, really love what you're working on."
+        }
+      ],
+      "activation": "evaluated",
+      "source_rationale_id": "R4"
+    },
+    {
+      "rationale_label": "investment_thesis_constraint",
+      "direction": "negative",
+      "salience": "primary",
+      "confidence": 0.99,
+      "utterance_type": "decision_explanation",
+      "decision_link": "supports_out",
+      "timing": "original_pitch",
+      "turn_index": 79,
+      "quote": "I look for companies that are going to be around for 10, 15 years that are aiming for sort of a moonshot outcome.",
+      "explanation": "Cyan said her long-duration, moonshot-oriented investment mandate conflicted with the founder's acquisition-oriented ambition, leading her to decline.",
+      "evidence": [
+        "I look for companies that are going to be around for 10, 15 years that are aiming for sort of a moonshot outcome."
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 79,
+          "speaker": "Cyan",
+          "quote": "I look for companies that are going to be around for 10, 15 years that are aiming for sort of a moonshot outcome."
+        }
+      ],
+      "activation": "evaluated",
+      "source_rationale_id": "R5"
+    }
+  ],
+  "expanded_quote_evidence": [],
+  "rejected_after_evidence_check": []
+}

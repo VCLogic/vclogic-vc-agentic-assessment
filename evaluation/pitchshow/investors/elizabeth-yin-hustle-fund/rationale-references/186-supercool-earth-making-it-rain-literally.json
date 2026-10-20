@@ -1,0 +1,1098 @@
+{
+  "schema": "phase1-rationale-reference-v1",
+  "extraction_version": "pitchshow-rationales-v1",
+  "fingerprint": "cd87200addd2b14eec8b9e4c293e7664f69454103fbc0e78a2031d8b2b4807d4",
+  "episode_slug": "186-supercool-earth-making-it-rain-literally",
+  "vc_slug": "elizabeth-yin-hustle-fund",
+  "vc_name": "Elizabeth Yin",
+  "actual_decision": "Out",
+  "later_decision": "Unknown",
+  "reference_kind": "automated_transcript_observed_candidate",
+  "human_validated": false,
+  "source_format": "transcript-observed-rationales-v1",
+  "source_path": "../source/episodes/186-supercool-earth-making-it-rain-literally.json",
+  "source_sha256": "2a3ff0649fb8cce800734b167cc45499a2313eef19487fc28c1d7d578052d7bc",
+  "transcript_sha256": "871699b9027926ecdcab4a963abb25f939b250d78c35ac836b7c78f0ca7f2058",
+  "taxonomy_sha256": "eaa8734819a3ac34dd19ee5f0bf6de925a793a1d25a2d361090dafc9b751e1fc",
+  "model": "codex:gpt-5.6-luna+gpt-5.6-sol",
+  "generation_stages": [
+    {
+      "phase": "rationale_extract",
+      "backend": "codex",
+      "model": "gpt-5.6-luna"
+    },
+    {
+      "phase": "rationale_verify",
+      "backend": "codex",
+      "model": "gpt-5.6-sol"
+    }
+  ],
+  "source_tier": "newly_extracted_and_independently_model_reviewed",
+  "reviewed_target_turns": [
+    27,
+    34,
+    42,
+    44,
+    62,
+    64,
+    66,
+    68,
+    70,
+    72,
+    74,
+    76,
+    78,
+    80,
+    89,
+    101,
+    124,
+    126,
+    128,
+    130,
+    135,
+    137,
+    139,
+    141,
+    143,
+    145,
+    160,
+    170,
+    184,
+    190,
+    195,
+    205,
+    208,
+    226,
+    229,
+    231,
+    233,
+    246,
+    250,
+    252,
+    254,
+    260,
+    262
+  ],
+  "notes": "All supplied target turns were reviewed. Customer-pilot contract questions were classified as go-to-market or traction evidence rather than investor deal-terms complexity; greetings, acknowledgments, fragments, and joking exchanges without a material investment rationale were omitted.",
+  "receipt_path": "receipts/186-supercool-earth-making-it-rain-literally.json",
+  "scoring_scope": "original_pitch_only",
+  "shared_across_input_modes": true,
+  "rationales": [
+    {
+      "rationale_label": "business_model_assessment",
+      "direction": "neutral",
+      "salience": "secondary",
+      "confidence": 0.95,
+      "utterance_type": "question",
+      "decision_link": "none",
+      "timing": "original_pitch",
+      "turn_index": 72,
+      "quote": "how many missions would they need for their whole resort?",
+      "explanation": "Tests the purchase volume and resulting revenue available from a resort customer.",
+      "evidence": [
+        "I didn't quite get how you're selling this or where the revenue comes from.",
+        "how many missions would they need for their whole resort?"
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 70,
+          "speaker": "Elizabeth",
+          "quote": "I didn't quite get how you're selling this or where the revenue comes from."
+        },
+        {
+          "turn_index": 72,
+          "speaker": "Elizabeth",
+          "quote": "how many missions would they need for their whole resort?"
+        }
+      ],
+      "activation": "queried",
+      "source_rationale_id": "R7",
+      "utterance_kind": "question",
+      "decision_support": "none",
+      "all_mention_ids": [
+        "R6",
+        "R7"
+      ]
+    },
+    {
+      "rationale_label": "founder_market_fit",
+      "direction": "neutral",
+      "salience": "secondary",
+      "confidence": 0.95,
+      "utterance_type": "question",
+      "decision_link": "none",
+      "timing": "original_pitch",
+      "turn_index": 42,
+      "quote": "Can you talk a little bit about your background and how you got into this?",
+      "explanation": "Seeks evidence that the founder’s background fits the scientific opportunity.",
+      "evidence": [
+        "Can you talk a little bit about your background and how you got into this?"
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 42,
+          "speaker": "Elizabeth",
+          "quote": "Can you talk a little bit about your background and how you got into this?"
+        }
+      ],
+      "activation": "queried",
+      "source_rationale_id": "R1",
+      "utterance_kind": "question",
+      "decision_support": "none",
+      "all_mention_ids": [
+        "R1"
+      ]
+    },
+    {
+      "rationale_label": "founder_motivation_authenticity",
+      "direction": "neutral",
+      "salience": "secondary",
+      "confidence": 0.96,
+      "utterance_type": "question",
+      "decision_link": "none",
+      "timing": "original_pitch",
+      "turn_index": 44,
+      "quote": "how did you land on this problem set?",
+      "explanation": "Probes the founder’s personal path to choosing this problem.",
+      "evidence": [
+        "how did you land on this problem set?"
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 44,
+          "speaker": "Elizabeth",
+          "quote": "how did you land on this problem set?"
+        }
+      ],
+      "activation": "queried",
+      "source_rationale_id": "R2",
+      "utterance_kind": "question",
+      "decision_support": "none",
+      "all_mention_ids": [
+        "R2"
+      ]
+    },
+    {
+      "rationale_label": "founder_skillset",
+      "direction": "positive",
+      "salience": "secondary",
+      "confidence": 0.98,
+      "utterance_type": "assessment",
+      "decision_link": "none",
+      "timing": "original_pitch",
+      "turn_index": 145,
+      "quote": "it sounds like you have a, a really sharp scientific team",
+      "explanation": "Positively assesses the team’s scientific capabilities.",
+      "evidence": [
+        "it sounds like you have a, a really sharp scientific team"
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 145,
+          "speaker": "Elizabeth",
+          "quote": "it sounds like you have a, a really sharp scientific team"
+        }
+      ],
+      "activation": "evaluated",
+      "source_rationale_id": "R19",
+      "utterance_kind": "assessment",
+      "decision_support": "none",
+      "all_mention_ids": [
+        "R19"
+      ]
+    },
+    {
+      "rationale_label": "go_to_market_strategy_assessment",
+      "direction": "negative",
+      "salience": "primary",
+      "confidence": 0.99,
+      "utterance_type": "decision_reason",
+      "decision_link": "explicit",
+      "timing": "original_pitch",
+      "turn_index": 145,
+      "quote": "it feels a little bit like a long cycle.",
+      "explanation": "Cites the apparently lengthy ski-resort customer-acquisition cycle as a major reason for declining.",
+      "evidence": [
+        "it feels a little bit like a long cycle.",
+        "ag, it gives me a headache. Government, it gives me a headache."
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 145,
+          "speaker": "Elizabeth",
+          "quote": "it feels a little bit like a long cycle."
+        },
+        {
+          "turn_index": 250,
+          "speaker": "Elizabeth",
+          "quote": "ag, it gives me a headache. Government, it gives me a headache."
+        }
+      ],
+      "activation": "evaluated",
+      "source_rationale_id": "R21",
+      "utterance_kind": "decision_explanation",
+      "decision_support": "supports_out",
+      "all_mention_ids": [
+        "R14",
+        "R15",
+        "R17",
+        "R21",
+        "R25",
+        "R26"
+      ]
+    },
+    {
+      "rationale_label": "market_entry_path_assessment",
+      "direction": "negative",
+      "salience": "primary",
+      "confidence": 0.99,
+      "utterance_type": "decision_reason",
+      "decision_link": "explicit",
+      "timing": "original_pitch",
+      "turn_index": 145,
+      "quote": "even if you unlock that, unlocking the other markets is like starting over.",
+      "explanation": "Cites the lack of a transferable path from the initial ski market into larger markets as a major reason for declining.",
+      "evidence": [
+        "even if you unlock that, unlocking the other markets is like starting over."
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 145,
+          "speaker": "Elizabeth",
+          "quote": "even if you unlock that, unlocking the other markets is like starting over."
+        }
+      ],
+      "activation": "evaluated",
+      "source_rationale_id": "R22",
+      "utterance_kind": "decision_explanation",
+      "decision_support": "supports_out",
+      "all_mention_ids": [
+        "R22",
+        "R23",
+        "R24"
+      ]
+    },
+    {
+      "rationale_label": "product_adoption",
+      "direction": "neutral",
+      "salience": "secondary",
+      "confidence": 0.97,
+      "utterance_type": "question",
+      "decision_link": "none",
+      "timing": "original_pitch",
+      "turn_index": 130,
+      "quote": "you've done this already or you have not done it?",
+      "explanation": "Clarifies whether the resort pilot and associated usage validation have occurred.",
+      "evidence": [
+        "So you are working with three resorts?",
+        "What does the pilot look like?",
+        "you've done this already or you have not done it?"
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 124,
+          "speaker": "Elizabeth",
+          "quote": "So you are working with three resorts?"
+        },
+        {
+          "turn_index": 128,
+          "speaker": "Elizabeth",
+          "quote": "What does the pilot look like?"
+        },
+        {
+          "turn_index": 130,
+          "speaker": "Elizabeth",
+          "quote": "you've done this already or you have not done it?"
+        }
+      ],
+      "activation": "queried",
+      "source_rationale_id": "R13",
+      "utterance_kind": "question",
+      "decision_support": "none",
+      "all_mention_ids": [
+        "R10",
+        "R11",
+        "R13"
+      ]
+    },
+    {
+      "rationale_label": "product_appeal_assessment",
+      "direction": "positive",
+      "salience": "secondary",
+      "confidence": 0.96,
+      "utterance_type": "assessment",
+      "decision_link": "none",
+      "timing": "original_pitch",
+      "turn_index": 145,
+      "quote": "I'm very impressed by what you guys have built.",
+      "explanation": "Expresses a favorable personal assessment of the product developed so far.",
+      "evidence": [
+        "I'm very impressed by what you guys have built."
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 145,
+          "speaker": "Elizabeth",
+          "quote": "I'm very impressed by what you guys have built."
+        }
+      ],
+      "activation": "evaluated",
+      "source_rationale_id": "R20",
+      "utterance_kind": "assessment",
+      "decision_support": "none",
+      "all_mention_ids": [
+        "R20"
+      ]
+    },
+    {
+      "rationale_label": "product_differentiation_concern",
+      "direction": "neutral",
+      "salience": "secondary",
+      "confidence": 0.98,
+      "utterance_type": "question",
+      "decision_link": "none",
+      "timing": "original_pitch",
+      "turn_index": 62,
+      "quote": "where in here is your IP?",
+      "explanation": "Questions which part of the technology is proprietary and defensible.",
+      "evidence": [
+        "where in here is your IP?"
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 62,
+          "speaker": "Elizabeth",
+          "quote": "where in here is your IP?"
+        }
+      ],
+      "activation": "queried",
+      "source_rationale_id": "R3",
+      "utterance_kind": "question",
+      "decision_support": "none",
+      "all_mention_ids": [
+        "R3"
+      ]
+    },
+    {
+      "rationale_label": "product_success_factor_assessment",
+      "direction": "neutral",
+      "salience": "secondary",
+      "confidence": 0.94,
+      "utterance_type": "question",
+      "decision_link": "none",
+      "timing": "original_pitch",
+      "turn_index": 139,
+      "quote": "what does success look like for them?",
+      "explanation": "Asks which product outcomes resorts require before adopting it.",
+      "evidence": [
+        "what does success look like for them?"
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 139,
+          "speaker": "Elizabeth",
+          "quote": "what does success look like for them?"
+        }
+      ],
+      "activation": "queried",
+      "source_rationale_id": "R16",
+      "utterance_kind": "question",
+      "decision_support": "none",
+      "all_mention_ids": [
+        "R16"
+      ]
+    },
+    {
+      "rationale_label": "traction_repeatability_concern",
+      "direction": "negative",
+      "salience": "secondary",
+      "confidence": 0.95,
+      "utterance_type": "assessment",
+      "decision_link": "none",
+      "timing": "original_pitch",
+      "turn_index": 143,
+      "quote": "But no numbers.",
+      "explanation": "Flags that the early customer commitments lack quantified commercial terms.",
+      "evidence": [
+        "But no numbers."
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 143,
+          "speaker": "Elizabeth",
+          "quote": "But no numbers."
+        }
+      ],
+      "activation": "evaluated",
+      "source_rationale_id": "R18",
+      "utterance_kind": "concern",
+      "decision_support": "none",
+      "all_mention_ids": [
+        "R12",
+        "R18"
+      ]
+    },
+    {
+      "rationale_label": "unit_economics_assessment",
+      "direction": "negative",
+      "salience": "secondary",
+      "confidence": 0.99,
+      "utterance_type": "assessment",
+      "decision_link": "none",
+      "timing": "original_pitch",
+      "turn_index": 101,
+      "quote": "you make 5K per mission and you need three people for each mission.",
+      "explanation": "Worries that the staffing required for each mission may undermine its economics.",
+      "evidence": [
+        "you make 5K per mission and you need three people for each mission."
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 101,
+          "speaker": "Elizabeth",
+          "quote": "you make 5K per mission and you need three people for each mission."
+        }
+      ],
+      "activation": "evaluated",
+      "source_rationale_id": "R9",
+      "utterance_kind": "concern",
+      "decision_support": "none",
+      "all_mention_ids": [
+        "R4",
+        "R5",
+        "R8",
+        "R9"
+      ]
+    }
+  ],
+  "later_rationales": [],
+  "excluded_rationales": [],
+  "rationale_mentions": [
+    {
+      "rationale_label": "founder_market_fit",
+      "direction": "neutral",
+      "salience": "secondary",
+      "confidence": 0.95,
+      "utterance_type": "question",
+      "decision_link": "none",
+      "timing": "original_pitch",
+      "turn_index": 42,
+      "quote": "Can you talk a little bit about your background and how you got into this?",
+      "explanation": "Seeks evidence that the founder’s background fits the scientific opportunity.",
+      "evidence": [
+        "Can you talk a little bit about your background and how you got into this?"
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 42,
+          "speaker": "Elizabeth",
+          "quote": "Can you talk a little bit about your background and how you got into this?"
+        }
+      ],
+      "activation": "queried",
+      "source_rationale_id": "R1"
+    },
+    {
+      "rationale_label": "founder_motivation_authenticity",
+      "direction": "neutral",
+      "salience": "secondary",
+      "confidence": 0.96,
+      "utterance_type": "question",
+      "decision_link": "none",
+      "timing": "original_pitch",
+      "turn_index": 44,
+      "quote": "how did you land on this problem set?",
+      "explanation": "Probes the founder’s personal path to choosing this problem.",
+      "evidence": [
+        "how did you land on this problem set?"
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 44,
+          "speaker": "Elizabeth",
+          "quote": "how did you land on this problem set?"
+        }
+      ],
+      "activation": "queried",
+      "source_rationale_id": "R2"
+    },
+    {
+      "rationale_label": "product_differentiation_concern",
+      "direction": "neutral",
+      "salience": "secondary",
+      "confidence": 0.98,
+      "utterance_type": "question",
+      "decision_link": "none",
+      "timing": "original_pitch",
+      "turn_index": 62,
+      "quote": "where in here is your IP?",
+      "explanation": "Questions which part of the technology is proprietary and defensible.",
+      "evidence": [
+        "where in here is your IP?"
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 62,
+          "speaker": "Elizabeth",
+          "quote": "where in here is your IP?"
+        }
+      ],
+      "activation": "queried",
+      "source_rationale_id": "R3"
+    },
+    {
+      "rationale_label": "unit_economics_assessment",
+      "direction": "neutral",
+      "salience": "secondary",
+      "confidence": 0.98,
+      "utterance_type": "question",
+      "decision_link": "none",
+      "timing": "original_pitch",
+      "turn_index": 68,
+      "quote": "maybe you could spell that out?",
+      "explanation": "Requests a detailed account of the company’s unit economics.",
+      "evidence": [
+        "maybe you could spell that out?"
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 68,
+          "speaker": "Elizabeth",
+          "quote": "maybe you could spell that out?"
+        }
+      ],
+      "activation": "queried",
+      "source_rationale_id": "R4"
+    },
+    {
+      "rationale_label": "unit_economics_assessment",
+      "direction": "neutral",
+      "salience": "secondary",
+      "confidence": 0.98,
+      "utterance_type": "question",
+      "decision_link": "none",
+      "timing": "original_pitch",
+      "turn_index": 70,
+      "quote": "the costs that go into this at the different stages",
+      "explanation": "Seeks the cost structure across the product’s operating stages.",
+      "evidence": [
+        "the costs that go into this at the different stages"
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 70,
+          "speaker": "Elizabeth",
+          "quote": "the costs that go into this at the different stages"
+        }
+      ],
+      "activation": "queried",
+      "source_rationale_id": "R5"
+    },
+    {
+      "rationale_label": "business_model_assessment",
+      "direction": "neutral",
+      "salience": "secondary",
+      "confidence": 0.98,
+      "utterance_type": "question",
+      "decision_link": "none",
+      "timing": "original_pitch",
+      "turn_index": 70,
+      "quote": "I didn't quite get how you're selling this or where the revenue comes from.",
+      "explanation": "Requests clarification of the sales and monetization model.",
+      "evidence": [
+        "I didn't quite get how you're selling this or where the revenue comes from."
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 70,
+          "speaker": "Elizabeth",
+          "quote": "I didn't quite get how you're selling this or where the revenue comes from."
+        }
+      ],
+      "activation": "queried",
+      "source_rationale_id": "R6"
+    },
+    {
+      "rationale_label": "business_model_assessment",
+      "direction": "neutral",
+      "salience": "secondary",
+      "confidence": 0.95,
+      "utterance_type": "question",
+      "decision_link": "none",
+      "timing": "original_pitch",
+      "turn_index": 72,
+      "quote": "how many missions would they need for their whole resort?",
+      "explanation": "Tests the purchase volume and resulting revenue available from a resort customer.",
+      "evidence": [
+        "how many missions would they need for their whole resort?"
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 72,
+          "speaker": "Elizabeth",
+          "quote": "how many missions would they need for their whole resort?"
+        }
+      ],
+      "activation": "queried",
+      "source_rationale_id": "R7"
+    },
+    {
+      "rationale_label": "unit_economics_assessment",
+      "direction": "positive",
+      "salience": "secondary",
+      "confidence": 0.99,
+      "utterance_type": "supporting_argument",
+      "decision_link": "none",
+      "timing": "original_pitch",
+      "turn_index": 78,
+      "quote": "So it's a no-brainer to them if they pay 5,000 to make 4 million.",
+      "explanation": "Concludes that the proposed price offers a compelling return for resort customers.",
+      "evidence": [
+        "So it's a no-brainer to them if they pay 5,000 to make 4 million."
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 78,
+          "speaker": "Elizabeth",
+          "quote": "So it's a no-brainer to them if they pay 5,000 to make 4 million."
+        }
+      ],
+      "activation": "evaluated",
+      "source_rationale_id": "R8"
+    },
+    {
+      "rationale_label": "unit_economics_assessment",
+      "direction": "negative",
+      "salience": "secondary",
+      "confidence": 0.99,
+      "utterance_type": "concern",
+      "decision_link": "none",
+      "timing": "original_pitch",
+      "turn_index": 101,
+      "quote": "you make 5K per mission and you need three people for each mission.",
+      "explanation": "Worries that the staffing required for each mission may undermine its economics.",
+      "evidence": [
+        "you make 5K per mission and you need three people for each mission."
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 101,
+          "speaker": "Elizabeth",
+          "quote": "you make 5K per mission and you need three people for each mission."
+        }
+      ],
+      "activation": "evaluated",
+      "source_rationale_id": "R9"
+    },
+    {
+      "rationale_label": "product_adoption",
+      "direction": "neutral",
+      "salience": "secondary",
+      "confidence": 0.93,
+      "utterance_type": "question",
+      "decision_link": "none",
+      "timing": "original_pitch",
+      "turn_index": 124,
+      "quote": "So you are working with three resorts?",
+      "explanation": "Clarifies the number of resorts currently engaged with the product.",
+      "evidence": [
+        "So you are working with three resorts?"
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 124,
+          "speaker": "Elizabeth",
+          "quote": "So you are working with three resorts?"
+        }
+      ],
+      "activation": "queried",
+      "source_rationale_id": "R10"
+    },
+    {
+      "rationale_label": "product_adoption",
+      "direction": "neutral",
+      "salience": "secondary",
+      "confidence": 0.97,
+      "utterance_type": "question",
+      "decision_link": "none",
+      "timing": "original_pitch",
+      "turn_index": 128,
+      "quote": "What does the pilot look like?",
+      "explanation": "Seeks concrete details about how resorts will test and use the product.",
+      "evidence": [
+        "What does the pilot look like?"
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 128,
+          "speaker": "Elizabeth",
+          "quote": "What does the pilot look like?"
+        }
+      ],
+      "activation": "queried",
+      "source_rationale_id": "R11"
+    },
+    {
+      "rationale_label": "traction_repeatability_concern",
+      "direction": "neutral",
+      "salience": "secondary",
+      "confidence": 0.95,
+      "utterance_type": "question",
+      "decision_link": "none",
+      "timing": "original_pitch",
+      "turn_index": 128,
+      "quote": "Are they paying you?",
+      "explanation": "Tests whether the pilot interest represents paid commercial traction.",
+      "evidence": [
+        "Are they paying you?"
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 128,
+          "speaker": "Elizabeth",
+          "quote": "Are they paying you?"
+        }
+      ],
+      "activation": "queried",
+      "source_rationale_id": "R12"
+    },
+    {
+      "rationale_label": "product_adoption",
+      "direction": "neutral",
+      "salience": "secondary",
+      "confidence": 0.97,
+      "utterance_type": "question",
+      "decision_link": "none",
+      "timing": "original_pitch",
+      "turn_index": 130,
+      "quote": "you've done this already or you have not done it?",
+      "explanation": "Clarifies whether the resort pilot and associated usage validation have occurred.",
+      "evidence": [
+        "you've done this already or you have not done it?"
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 130,
+          "speaker": "Elizabeth",
+          "quote": "you've done this already or you have not done it?"
+        }
+      ],
+      "activation": "queried",
+      "source_rationale_id": "R13"
+    },
+    {
+      "rationale_label": "go_to_market_strategy_assessment",
+      "direction": "neutral",
+      "salience": "secondary",
+      "confidence": 0.97,
+      "utterance_type": "question",
+      "decision_link": "none",
+      "timing": "original_pitch",
+      "turn_index": 135,
+      "quote": "what happens if they're successful? Do you convert immediately into a contract?",
+      "explanation": "Probes the path from a successful pilot to a commercial contract.",
+      "evidence": [
+        "what happens if they're successful? Do you convert immediately into a contract?"
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 135,
+          "speaker": "Elizabeth",
+          "quote": "what happens if they're successful? Do you convert immediately into a contract?"
+        }
+      ],
+      "activation": "queried",
+      "source_rationale_id": "R14"
+    },
+    {
+      "rationale_label": "go_to_market_strategy_assessment",
+      "direction": "neutral",
+      "salience": "secondary",
+      "confidence": 0.89,
+      "utterance_type": "question",
+      "decision_link": "none",
+      "timing": "original_pitch",
+      "turn_index": 137,
+      "quote": "For that same season.",
+      "explanation": "Clarifies how quickly a successful pilot can convert into revenue.",
+      "evidence": [
+        "For that same season."
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 137,
+          "speaker": "Elizabeth",
+          "quote": "For that same season."
+        }
+      ],
+      "activation": "queried",
+      "source_rationale_id": "R15"
+    },
+    {
+      "rationale_label": "product_success_factor_assessment",
+      "direction": "neutral",
+      "salience": "secondary",
+      "confidence": 0.94,
+      "utterance_type": "question",
+      "decision_link": "none",
+      "timing": "original_pitch",
+      "turn_index": 139,
+      "quote": "what does success look like for them?",
+      "explanation": "Asks which product outcomes resorts require before adopting it.",
+      "evidence": [
+        "what does success look like for them?"
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 139,
+          "speaker": "Elizabeth",
+          "quote": "what does success look like for them?"
+        }
+      ],
+      "activation": "queried",
+      "source_rationale_id": "R16"
+    },
+    {
+      "rationale_label": "go_to_market_strategy_assessment",
+      "direction": "neutral",
+      "salience": "secondary",
+      "confidence": 0.96,
+      "utterance_type": "question",
+      "decision_link": "none",
+      "timing": "original_pitch",
+      "turn_index": 141,
+      "quote": "what does that, design partnership to contract look like?",
+      "explanation": "Investigates how design partnerships progress into commercial customer relationships.",
+      "evidence": [
+        "what does that, design partnership to contract look like?"
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 141,
+          "speaker": "Elizabeth",
+          "quote": "what does that, design partnership to contract look like?"
+        }
+      ],
+      "activation": "queried",
+      "source_rationale_id": "R17"
+    },
+    {
+      "rationale_label": "traction_repeatability_concern",
+      "direction": "negative",
+      "salience": "secondary",
+      "confidence": 0.95,
+      "utterance_type": "concern",
+      "decision_link": "none",
+      "timing": "original_pitch",
+      "turn_index": 143,
+      "quote": "But no numbers.",
+      "explanation": "Flags that the early customer commitments lack quantified commercial terms.",
+      "evidence": [
+        "But no numbers."
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 143,
+          "speaker": "Elizabeth",
+          "quote": "But no numbers."
+        }
+      ],
+      "activation": "evaluated",
+      "source_rationale_id": "R18"
+    },
+    {
+      "rationale_label": "founder_skillset",
+      "direction": "positive",
+      "salience": "secondary",
+      "confidence": 0.98,
+      "utterance_type": "assessment",
+      "decision_link": "none",
+      "timing": "original_pitch",
+      "turn_index": 145,
+      "quote": "it sounds like you have a, a really sharp scientific team",
+      "explanation": "Positively assesses the team’s scientific capabilities.",
+      "evidence": [
+        "it sounds like you have a, a really sharp scientific team"
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 145,
+          "speaker": "Elizabeth",
+          "quote": "it sounds like you have a, a really sharp scientific team"
+        }
+      ],
+      "activation": "evaluated",
+      "source_rationale_id": "R19"
+    },
+    {
+      "rationale_label": "product_appeal_assessment",
+      "direction": "positive",
+      "salience": "secondary",
+      "confidence": 0.96,
+      "utterance_type": "assessment",
+      "decision_link": "none",
+      "timing": "original_pitch",
+      "turn_index": 145,
+      "quote": "I'm very impressed by what you guys have built.",
+      "explanation": "Expresses a favorable personal assessment of the product developed so far.",
+      "evidence": [
+        "I'm very impressed by what you guys have built."
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 145,
+          "speaker": "Elizabeth",
+          "quote": "I'm very impressed by what you guys have built."
+        }
+      ],
+      "activation": "evaluated",
+      "source_rationale_id": "R20"
+    },
+    {
+      "rationale_label": "go_to_market_strategy_assessment",
+      "direction": "negative",
+      "salience": "primary",
+      "confidence": 0.99,
+      "utterance_type": "decision_explanation",
+      "decision_link": "supports_out",
+      "timing": "original_pitch",
+      "turn_index": 145,
+      "quote": "it feels a little bit like a long cycle.",
+      "explanation": "Cites the apparently lengthy ski-resort customer-acquisition cycle as a major reason for declining.",
+      "evidence": [
+        "it feels a little bit like a long cycle."
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 145,
+          "speaker": "Elizabeth",
+          "quote": "it feels a little bit like a long cycle."
+        }
+      ],
+      "activation": "evaluated",
+      "source_rationale_id": "R21"
+    },
+    {
+      "rationale_label": "market_entry_path_assessment",
+      "direction": "negative",
+      "salience": "primary",
+      "confidence": 0.99,
+      "utterance_type": "decision_explanation",
+      "decision_link": "supports_out",
+      "timing": "original_pitch",
+      "turn_index": 145,
+      "quote": "even if you unlock that, unlocking the other markets is like starting over.",
+      "explanation": "Cites the lack of a transferable path from the initial ski market into larger markets as a major reason for declining.",
+      "evidence": [
+        "even if you unlock that, unlocking the other markets is like starting over."
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 145,
+          "speaker": "Elizabeth",
+          "quote": "even if you unlock that, unlocking the other markets is like starting over."
+        }
+      ],
+      "activation": "evaluated",
+      "source_rationale_id": "R22"
+    },
+    {
+      "rationale_label": "market_entry_path_assessment",
+      "direction": "positive",
+      "salience": "secondary",
+      "confidence": 0.9,
+      "utterance_type": "supporting_argument",
+      "decision_link": "none",
+      "timing": "original_pitch",
+      "turn_index": 246,
+      "quote": "I actually think rich people would want to use this.",
+      "explanation": "Identifies affluent consumers as a potentially reachable alternative customer segment.",
+      "evidence": [
+        "I actually think rich people would want to use this."
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 246,
+          "speaker": "Elizabeth",
+          "quote": "I actually think rich people would want to use this."
+        }
+      ],
+      "activation": "evaluated",
+      "source_rationale_id": "R23"
+    },
+    {
+      "rationale_label": "market_entry_path_assessment",
+      "direction": "positive",
+      "salience": "secondary",
+      "confidence": 0.92,
+      "utterance_type": "supporting_argument",
+      "decision_link": "none",
+      "timing": "original_pitch",
+      "turn_index": 250,
+      "quote": "some of these other markets are easier to sell into",
+      "explanation": "Argues that alternative customer segments may offer a more accessible entry path.",
+      "evidence": [
+        "some of these other markets are easier to sell into"
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 250,
+          "speaker": "Elizabeth",
+          "quote": "some of these other markets are easier to sell into"
+        }
+      ],
+      "activation": "evaluated",
+      "source_rationale_id": "R24"
+    },
+    {
+      "rationale_label": "go_to_market_strategy_assessment",
+      "direction": "negative",
+      "salience": "secondary",
+      "confidence": 0.96,
+      "utterance_type": "assessment",
+      "decision_link": "none",
+      "timing": "original_pitch",
+      "turn_index": 250,
+      "quote": "ag, it gives me a headache. Government, it gives me a headache.",
+      "explanation": "Views agricultural and government customers as difficult sales channels.",
+      "evidence": [
+        "ag, it gives me a headache. Government, it gives me a headache."
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 250,
+          "speaker": "Elizabeth",
+          "quote": "ag, it gives me a headache. Government, it gives me a headache."
+        }
+      ],
+      "activation": "evaluated",
+      "source_rationale_id": "R25"
+    },
+    {
+      "rationale_label": "go_to_market_strategy_assessment",
+      "direction": "positive",
+      "salience": "secondary",
+      "confidence": 0.86,
+      "utterance_type": "assessment",
+      "decision_link": "none",
+      "timing": "original_pitch",
+      "turn_index": 260,
+      "quote": "I think it could be a good press opportunity.",
+      "explanation": "Identifies publicity as a potentially useful way to generate market attention.",
+      "evidence": [
+        "I think it could be a good press opportunity."
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 260,
+          "speaker": "Elizabeth",
+          "quote": "I think it could be a good press opportunity."
+        }
+      ],
+      "activation": "evaluated",
+      "source_rationale_id": "R26"
+    }
+  ],
+  "expanded_quote_evidence": [],
+  "rejected_after_evidence_check": []
+}

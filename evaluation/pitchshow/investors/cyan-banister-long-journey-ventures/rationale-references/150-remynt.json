@@ -1,0 +1,815 @@
+{
+  "schema": "phase1-rationale-reference-v1",
+  "extraction_version": "pitchshow-rationales-v1",
+  "fingerprint": "5c4a72de35a19dff920e1aa9fdca909dcbfa83380c1d67587fe93ca218cbf2af",
+  "episode_slug": "150-remynt",
+  "vc_slug": "cyan-banister-long-journey-ventures",
+  "vc_name": "Cyan Banister",
+  "actual_decision": "In",
+  "later_decision": "In",
+  "reference_kind": "automated_transcript_observed_candidate",
+  "human_validated": false,
+  "source_format": "transcript-observed-rationales-v1",
+  "source_path": "../source/episodes/150-remynt.json",
+  "source_sha256": "60fab16e40d6f918ab1fc0c5bf6ba843d91324d1908988de104db05b5fc0e51b",
+  "transcript_sha256": "97227bcaf66631e24d2905e5e2bf39d63563ea45d0dc0abddb5aede92c857914",
+  "taxonomy_sha256": "eaa8734819a3ac34dd19ee5f0bf6de925a793a1d25a2d361090dafc9b751e1fc",
+  "model": "openai/gpt-5.6-luna",
+  "source_tier": "newly_extracted_and_independently_model_reviewed",
+  "reviewed_target_turns": [
+    2,
+    12,
+    22,
+    24,
+    26,
+    32,
+    55,
+    57,
+    59,
+    61,
+    63,
+    65,
+    67,
+    77,
+    83,
+    87,
+    93,
+    100,
+    102,
+    104,
+    109,
+    116,
+    118,
+    120,
+    122,
+    125,
+    127,
+    130,
+    132,
+    140,
+    143
+  ],
+  "notes": "Reviewed every supplied Cyan turn exactly once. Turns 104 onward are treated as original_pitch because they are part of the same in-room post-pitch deliberation; no target turn contains later commentary. Neutral pricing inquiry, bare commitment statements, fragments, confirmations, jokes, and generic enthusiasm without a taxonomy-grounded rationale were omitted.",
+  "receipt_path": "receipts/150-remynt.json",
+  "scoring_scope": "original_pitch_only",
+  "shared_across_input_modes": true,
+  "rationales": [
+    {
+      "rationale_label": "execution_risk_assessment",
+      "direction": "negative",
+      "salience": "secondary",
+      "confidence": 0.97,
+      "utterance_type": "assessment",
+      "decision_link": "none",
+      "timing": "original_pitch",
+      "turn_index": 122,
+      "quote": "just burnout. You know, just, that's a lot of weight to carry",
+      "explanation": "Cyan specifically identifies burnout risk from the founder’s personal and company-related burdens.",
+      "evidence": [
+        "let's derisk it so that we can get everybody else in",
+        "This is a napkin idea really",
+        "Her health",
+        "just burnout. You know, just, that's a lot of weight to carry"
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 77,
+          "speaker": "Cyan",
+          "quote": "let's derisk it so that we can get everybody else in"
+        },
+        {
+          "turn_index": 104,
+          "speaker": "Cyan",
+          "quote": "This is a napkin idea really"
+        },
+        {
+          "turn_index": 118,
+          "speaker": "Cyan",
+          "quote": "Her health"
+        },
+        {
+          "turn_index": 122,
+          "speaker": "Cyan",
+          "quote": "just burnout. You know, just, that's a lot of weight to carry"
+        }
+      ],
+      "activation": "evaluated",
+      "source_rationale_id": "R16",
+      "utterance_kind": "concern",
+      "decision_support": "none",
+      "all_mention_ids": [
+        "R11",
+        "R14",
+        "R15",
+        "R16"
+      ]
+    },
+    {
+      "rationale_label": "founder_communication_quality",
+      "direction": "positive",
+      "salience": "secondary",
+      "confidence": 0.93,
+      "utterance_type": "assessment",
+      "decision_link": "explicit",
+      "timing": "original_pitch",
+      "turn_index": 77,
+      "quote": "you are just so well versed in your business, and you know what you're talking about",
+      "explanation": "Cyan positively assesses the founder’s command of the business and subject matter.",
+      "evidence": [
+        "you are just so well versed in your business, and you know what you're talking about"
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 77,
+          "speaker": "Cyan",
+          "quote": "you are just so well versed in your business, and you know what you're talking about"
+        }
+      ],
+      "activation": "evaluated",
+      "source_rationale_id": "R9",
+      "utterance_kind": "assessment",
+      "decision_support": "supports_in",
+      "all_mention_ids": [
+        "R9",
+        "R17",
+        "R18"
+      ]
+    },
+    {
+      "rationale_label": "founder_motivation_authenticity",
+      "direction": "positive",
+      "salience": "secondary",
+      "confidence": 0.95,
+      "utterance_type": "assessment",
+      "decision_link": "none",
+      "timing": "original_pitch",
+      "turn_index": 93,
+      "quote": "The passion is definitely there",
+      "explanation": "Cyan positively assesses the founder’s visible passion and motivation.",
+      "evidence": [
+        "The passion is definitely there"
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 93,
+          "speaker": "Cyan",
+          "quote": "The passion is definitely there"
+        }
+      ],
+      "activation": "evaluated",
+      "source_rationale_id": "R12",
+      "utterance_kind": "assessment",
+      "decision_support": "none",
+      "all_mention_ids": [
+        "R12"
+      ]
+    },
+    {
+      "rationale_label": "founder_qualities",
+      "direction": "positive",
+      "salience": "primary",
+      "confidence": 0.96,
+      "utterance_type": "assessment",
+      "decision_link": "explicit",
+      "timing": "original_pitch",
+      "turn_index": 77,
+      "quote": "I would take a bet on someone like you all day long",
+      "explanation": "Cyan explicitly says the founder’s personal qualities make her someone Cyan would back.",
+      "evidence": [
+        "I would take a bet on someone like you all day long",
+        "I love her",
+        "I just really like her"
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 77,
+          "speaker": "Cyan",
+          "quote": "I would take a bet on someone like you all day long"
+        },
+        {
+          "turn_index": 104,
+          "speaker": "Cyan",
+          "quote": "I love her"
+        },
+        {
+          "turn_index": 140,
+          "speaker": "Cyan",
+          "quote": "I just really like her"
+        }
+      ],
+      "activation": "evaluated",
+      "source_rationale_id": "R10",
+      "utterance_kind": "assessment",
+      "decision_support": "supports_in",
+      "all_mention_ids": [
+        "R10",
+        "R13",
+        "R19"
+      ]
+    },
+    {
+      "rationale_label": "investor_experience_bias",
+      "direction": "positive",
+      "salience": "primary",
+      "confidence": 0.98,
+      "utterance_type": "assessment",
+      "decision_link": "none",
+      "timing": "original_pitch",
+      "turn_index": 63,
+      "quote": "My life was wrecked for about ten years",
+      "explanation": "Cyan connects the opportunity to a severe personal experience with the same financial problem.",
+      "evidence": [
+        "I had to go through this",
+        "My life was wrecked for about ten years"
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 22,
+          "speaker": "Cyan",
+          "quote": "I had to go through this"
+        },
+        {
+          "turn_index": 63,
+          "speaker": "Cyan",
+          "quote": "My life was wrecked for about ten years"
+        }
+      ],
+      "activation": "evaluated",
+      "source_rationale_id": "R5",
+      "utterance_kind": "supporting_argument",
+      "decision_support": "none",
+      "all_mention_ids": [
+        "R1",
+        "R5"
+      ]
+    },
+    {
+      "rationale_label": "market_problem_validation",
+      "direction": "positive",
+      "salience": "secondary",
+      "confidence": 0.94,
+      "utterance_type": "assessment",
+      "decision_link": "none",
+      "timing": "original_pitch",
+      "turn_index": 65,
+      "quote": "It was really painful and it is filled with stigma",
+      "explanation": "Cyan describes the problem as materially painful and stigmatizing based on her own experience.",
+      "evidence": [
+        "this is a very important thing to work on",
+        "It was really painful and it is filled with stigma"
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 26,
+          "speaker": "Cyan",
+          "quote": "this is a very important thing to work on"
+        },
+        {
+          "turn_index": 65,
+          "speaker": "Cyan",
+          "quote": "It was really painful and it is filled with stigma"
+        }
+      ],
+      "activation": "evaluated",
+      "source_rationale_id": "R7",
+      "utterance_kind": "supporting_argument",
+      "decision_support": "none",
+      "all_mention_ids": [
+        "R3",
+        "R7"
+      ]
+    },
+    {
+      "rationale_label": "mission_alignment_preference",
+      "direction": "positive",
+      "salience": "primary",
+      "confidence": 0.98,
+      "utterance_type": "assessment",
+      "decision_link": "none",
+      "timing": "original_pitch",
+      "turn_index": 63,
+      "quote": "This is a problem that's near and dear to me",
+      "explanation": "Cyan states that the company’s problem and purpose have strong personal significance for her.",
+      "evidence": [
+        "I identify strongly with this product",
+        "This is a problem that's near and dear to me",
+        "I want to be by your side and I want to help you with this"
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 26,
+          "speaker": "Cyan",
+          "quote": "I identify strongly with this product"
+        },
+        {
+          "turn_index": 63,
+          "speaker": "Cyan",
+          "quote": "This is a problem that's near and dear to me"
+        },
+        {
+          "turn_index": 67,
+          "speaker": "Cyan",
+          "quote": "I want to be by your side and I want to help you with this"
+        }
+      ],
+      "activation": "evaluated",
+      "source_rationale_id": "R6",
+      "utterance_kind": "supporting_argument",
+      "decision_support": "none",
+      "all_mention_ids": [
+        "R2",
+        "R6",
+        "R8"
+      ]
+    },
+    {
+      "rationale_label": "product_adoption",
+      "direction": "neutral",
+      "salience": "secondary",
+      "confidence": 0.96,
+      "utterance_type": "question",
+      "decision_link": "none",
+      "timing": "original_pitch",
+      "turn_index": 32,
+      "quote": "What part of the process of the business so far have you beta tested?",
+      "explanation": "Cyan asks for evidence that users have been taken through the product process, without stating a negative conclusion.",
+      "evidence": [
+        "What part of the process of the business so far have you beta tested?"
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 32,
+          "speaker": "Cyan",
+          "quote": "What part of the process of the business so far have you beta tested?"
+        }
+      ],
+      "activation": "queried",
+      "source_rationale_id": "R4",
+      "utterance_kind": "question",
+      "decision_support": "none",
+      "all_mention_ids": [
+        "R4"
+      ]
+    }
+  ],
+  "later_rationales": [],
+  "excluded_rationales": [],
+  "rationale_mentions": [
+    {
+      "rationale_label": "investor_experience_bias",
+      "direction": "positive",
+      "salience": "secondary",
+      "confidence": 0.94,
+      "utterance_type": "supporting_argument",
+      "decision_link": "none",
+      "timing": "original_pitch",
+      "turn_index": 22,
+      "quote": "I had to go through this",
+      "explanation": "Cyan discloses directly relevant personal experience with the problem, shaping her positive reaction to the opportunity.",
+      "evidence": [
+        "I had to go through this"
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 22,
+          "speaker": "Cyan",
+          "quote": "I had to go through this"
+        }
+      ],
+      "activation": "evaluated",
+      "source_rationale_id": "R1"
+    },
+    {
+      "rationale_label": "mission_alignment_preference",
+      "direction": "positive",
+      "salience": "secondary",
+      "confidence": 0.97,
+      "utterance_type": "supporting_argument",
+      "decision_link": "none",
+      "timing": "original_pitch",
+      "turn_index": 26,
+      "quote": "I identify strongly with this product",
+      "explanation": "Cyan expresses strong personal alignment with the product and its purpose.",
+      "evidence": [
+        "I identify strongly with this product"
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 26,
+          "speaker": "Cyan",
+          "quote": "I identify strongly with this product"
+        }
+      ],
+      "activation": "evaluated",
+      "source_rationale_id": "R2"
+    },
+    {
+      "rationale_label": "market_problem_validation",
+      "direction": "positive",
+      "salience": "secondary",
+      "confidence": 0.96,
+      "utterance_type": "supporting_argument",
+      "decision_link": "none",
+      "timing": "original_pitch",
+      "turn_index": 26,
+      "quote": "this is a very important thing to work on",
+      "explanation": "Cyan explicitly validates the importance of the underlying problem.",
+      "evidence": [
+        "this is a very important thing to work on"
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 26,
+          "speaker": "Cyan",
+          "quote": "this is a very important thing to work on"
+        }
+      ],
+      "activation": "evaluated",
+      "source_rationale_id": "R3"
+    },
+    {
+      "rationale_label": "product_adoption",
+      "direction": "neutral",
+      "salience": "secondary",
+      "confidence": 0.96,
+      "utterance_type": "question",
+      "decision_link": "none",
+      "timing": "original_pitch",
+      "turn_index": 32,
+      "quote": "What part of the process of the business so far have you beta tested?",
+      "explanation": "Cyan asks for evidence that users have been taken through the product process, without stating a negative conclusion.",
+      "evidence": [
+        "What part of the process of the business so far have you beta tested?"
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 32,
+          "speaker": "Cyan",
+          "quote": "What part of the process of the business so far have you beta tested?"
+        }
+      ],
+      "activation": "queried",
+      "source_rationale_id": "R4"
+    },
+    {
+      "rationale_label": "investor_experience_bias",
+      "direction": "positive",
+      "salience": "primary",
+      "confidence": 0.98,
+      "utterance_type": "supporting_argument",
+      "decision_link": "none",
+      "timing": "original_pitch",
+      "turn_index": 63,
+      "quote": "My life was wrecked for about ten years",
+      "explanation": "Cyan connects the opportunity to a severe personal experience with the same financial problem.",
+      "evidence": [
+        "My life was wrecked for about ten years"
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 63,
+          "speaker": "Cyan",
+          "quote": "My life was wrecked for about ten years"
+        }
+      ],
+      "activation": "evaluated",
+      "source_rationale_id": "R5"
+    },
+    {
+      "rationale_label": "mission_alignment_preference",
+      "direction": "positive",
+      "salience": "primary",
+      "confidence": 0.98,
+      "utterance_type": "supporting_argument",
+      "decision_link": "none",
+      "timing": "original_pitch",
+      "turn_index": 63,
+      "quote": "This is a problem that's near and dear to me",
+      "explanation": "Cyan states that the company’s problem and purpose have strong personal significance for her.",
+      "evidence": [
+        "This is a problem that's near and dear to me"
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 63,
+          "speaker": "Cyan",
+          "quote": "This is a problem that's near and dear to me"
+        }
+      ],
+      "activation": "evaluated",
+      "source_rationale_id": "R6"
+    },
+    {
+      "rationale_label": "market_problem_validation",
+      "direction": "positive",
+      "salience": "secondary",
+      "confidence": 0.94,
+      "utterance_type": "supporting_argument",
+      "decision_link": "none",
+      "timing": "original_pitch",
+      "turn_index": 65,
+      "quote": "It was really painful and it is filled with stigma",
+      "explanation": "Cyan describes the problem as materially painful and stigmatizing based on her own experience.",
+      "evidence": [
+        "It was really painful and it is filled with stigma"
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 65,
+          "speaker": "Cyan",
+          "quote": "It was really painful and it is filled with stigma"
+        }
+      ],
+      "activation": "evaluated",
+      "source_rationale_id": "R7"
+    },
+    {
+      "rationale_label": "mission_alignment_preference",
+      "direction": "positive",
+      "salience": "secondary",
+      "confidence": 0.92,
+      "utterance_type": "supporting_argument",
+      "decision_link": "none",
+      "timing": "original_pitch",
+      "turn_index": 67,
+      "quote": "I want to be by your side and I want to help you with this",
+      "explanation": "Cyan expresses strong personal commitment to supporting the company’s mission.",
+      "evidence": [
+        "I want to be by your side and I want to help you with this"
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 67,
+          "speaker": "Cyan",
+          "quote": "I want to be by your side and I want to help you with this"
+        }
+      ],
+      "activation": "evaluated",
+      "source_rationale_id": "R8"
+    },
+    {
+      "rationale_label": "founder_communication_quality",
+      "direction": "positive",
+      "salience": "secondary",
+      "confidence": 0.93,
+      "utterance_type": "assessment",
+      "decision_link": "supports_in",
+      "timing": "original_pitch",
+      "turn_index": 77,
+      "quote": "you are just so well versed in your business, and you know what you're talking about",
+      "explanation": "Cyan positively assesses the founder’s command of the business and subject matter.",
+      "evidence": [
+        "you are just so well versed in your business, and you know what you're talking about"
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 77,
+          "speaker": "Cyan",
+          "quote": "you are just so well versed in your business, and you know what you're talking about"
+        }
+      ],
+      "activation": "evaluated",
+      "source_rationale_id": "R9"
+    },
+    {
+      "rationale_label": "founder_qualities",
+      "direction": "positive",
+      "salience": "primary",
+      "confidence": 0.96,
+      "utterance_type": "assessment",
+      "decision_link": "supports_in",
+      "timing": "original_pitch",
+      "turn_index": 77,
+      "quote": "I would take a bet on someone like you all day long",
+      "explanation": "Cyan explicitly says the founder’s personal qualities make her someone Cyan would back.",
+      "evidence": [
+        "I would take a bet on someone like you all day long"
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 77,
+          "speaker": "Cyan",
+          "quote": "I would take a bet on someone like you all day long"
+        }
+      ],
+      "activation": "evaluated",
+      "source_rationale_id": "R10"
+    },
+    {
+      "rationale_label": "execution_risk_assessment",
+      "direction": "negative",
+      "salience": "secondary",
+      "confidence": 0.88,
+      "utterance_type": "concern",
+      "decision_link": "none",
+      "timing": "original_pitch",
+      "turn_index": 77,
+      "quote": "let's derisk it so that we can get everybody else in",
+      "explanation": "Cyan indicates that further proof is needed to reduce the opportunity’s execution or validation risk for other investors.",
+      "evidence": [
+        "let's derisk it so that we can get everybody else in"
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 77,
+          "speaker": "Cyan",
+          "quote": "let's derisk it so that we can get everybody else in"
+        }
+      ],
+      "activation": "evaluated",
+      "source_rationale_id": "R11"
+    },
+    {
+      "rationale_label": "founder_motivation_authenticity",
+      "direction": "positive",
+      "salience": "secondary",
+      "confidence": 0.95,
+      "utterance_type": "assessment",
+      "decision_link": "none",
+      "timing": "original_pitch",
+      "turn_index": 93,
+      "quote": "The passion is definitely there",
+      "explanation": "Cyan positively assesses the founder’s visible passion and motivation.",
+      "evidence": [
+        "The passion is definitely there"
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 93,
+          "speaker": "Cyan",
+          "quote": "The passion is definitely there"
+        }
+      ],
+      "activation": "evaluated",
+      "source_rationale_id": "R12"
+    },
+    {
+      "rationale_label": "founder_qualities",
+      "direction": "positive",
+      "salience": "secondary",
+      "confidence": 0.91,
+      "utterance_type": "assessment",
+      "decision_link": "none",
+      "timing": "original_pitch",
+      "turn_index": 104,
+      "quote": "I love her",
+      "explanation": "Cyan expresses a strong positive personal assessment of the founder.",
+      "evidence": [
+        "I love her"
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 104,
+          "speaker": "Cyan",
+          "quote": "I love her"
+        }
+      ],
+      "activation": "evaluated",
+      "source_rationale_id": "R13"
+    },
+    {
+      "rationale_label": "execution_risk_assessment",
+      "direction": "negative",
+      "salience": "secondary",
+      "confidence": 0.88,
+      "utterance_type": "assessment",
+      "decision_link": "none",
+      "timing": "original_pitch",
+      "turn_index": 104,
+      "quote": "This is a napkin idea really",
+      "explanation": "Cyan characterizes the company as extremely early and still substantially unproven.",
+      "evidence": [
+        "This is a napkin idea really"
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 104,
+          "speaker": "Cyan",
+          "quote": "This is a napkin idea really"
+        }
+      ],
+      "activation": "evaluated",
+      "source_rationale_id": "R14"
+    },
+    {
+      "rationale_label": "execution_risk_assessment",
+      "direction": "negative",
+      "salience": "secondary",
+      "confidence": 0.94,
+      "utterance_type": "concern",
+      "decision_link": "none",
+      "timing": "original_pitch",
+      "turn_index": 118,
+      "quote": "Her health",
+      "explanation": "Cyan identifies the founder’s health as a potential constraint on sustained company execution.",
+      "evidence": [
+        "Her health"
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 118,
+          "speaker": "Cyan",
+          "quote": "Her health"
+        }
+      ],
+      "activation": "evaluated",
+      "source_rationale_id": "R15"
+    },
+    {
+      "rationale_label": "execution_risk_assessment",
+      "direction": "negative",
+      "salience": "secondary",
+      "confidence": 0.97,
+      "utterance_type": "concern",
+      "decision_link": "none",
+      "timing": "original_pitch",
+      "turn_index": 122,
+      "quote": "just burnout. You know, just, that's a lot of weight to carry",
+      "explanation": "Cyan specifically identifies burnout risk from the founder’s personal and company-related burdens.",
+      "evidence": [
+        "just burnout. You know, just, that's a lot of weight to carry"
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 122,
+          "speaker": "Cyan",
+          "quote": "just burnout. You know, just, that's a lot of weight to carry"
+        }
+      ],
+      "activation": "evaluated",
+      "source_rationale_id": "R16"
+    },
+    {
+      "rationale_label": "founder_communication_quality",
+      "direction": "negative",
+      "salience": "secondary",
+      "confidence": 0.92,
+      "utterance_type": "assessment",
+      "decision_link": "none",
+      "timing": "original_pitch",
+      "turn_index": 125,
+      "quote": "Here's a lot of things I don't know",
+      "explanation": "Cyan suggests that openly acknowledging uncertainty and explaining how the money will prove the model would have made the founder’s communication stronger.",
+      "evidence": [
+        "Here's a lot of things I don't know"
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 125,
+          "speaker": "Cyan",
+          "quote": "Here's a lot of things I don't know"
+        }
+      ],
+      "activation": "evaluated",
+      "source_rationale_id": "R17"
+    },
+    {
+      "rationale_label": "founder_communication_quality",
+      "direction": "negative",
+      "salience": "secondary",
+      "confidence": 0.94,
+      "utterance_type": "assessment",
+      "decision_link": "none",
+      "timing": "original_pitch",
+      "turn_index": 132,
+      "quote": "And it's also honest",
+      "explanation": "Cyan favors candidly stating what remains unknown, implicitly contrasting that with the founder’s overly certain presentation.",
+      "evidence": [
+        "And it's also honest"
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 132,
+          "speaker": "Cyan",
+          "quote": "And it's also honest"
+        }
+      ],
+      "activation": "evaluated",
+      "source_rationale_id": "R18"
+    },
+    {
+      "rationale_label": "founder_qualities",
+      "direction": "positive",
+      "salience": "secondary",
+      "confidence": 0.88,
+      "utterance_type": "assessment",
+      "decision_link": "none",
+      "timing": "original_pitch",
+      "turn_index": 140,
+      "quote": "I just really like her",
+      "explanation": "Cyan reiterates a strong positive personal assessment of the founder.",
+      "evidence": [
+        "I just really like her"
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 140,
+          "speaker": "Cyan",
+          "quote": "I just really like her"
+        }
+      ],
+      "activation": "evaluated",
+      "source_rationale_id": "R19"
+    }
+  ]
+}

@@ -1,0 +1,538 @@
+{
+  "schema": "phase1-rationale-reference-v1",
+  "extraction_version": "pitchshow-rationales-v1",
+  "fingerprint": "0eb1f1273f02d5b4b56f3ec4dbcce9863f975d88cfa839da83aabcbef4417a00",
+  "episode_slug": "119-amateur-golf-society-venture-capital-vs-private-equity",
+  "vc_slug": "jillian-manus-structure-capital",
+  "vc_name": "Jillian Manus",
+  "actual_decision": "In",
+  "later_decision": "Out",
+  "reference_kind": "automated_transcript_observed_candidate",
+  "human_validated": false,
+  "source_format": "transcript-observed-rationales-v1",
+  "source_path": "/home/dpasch01/vclogic-vc-agentic-assessment/evaluation/pitchshow/investors/jillian-manus-structure-capital/source/episodes/119-amateur-golf-society-venture-capital-vs-private-equity.json",
+  "source_sha256": "fdb58b7edac566b2e0314f19c4902e0ae877443fd7a258b00698b2911357f769",
+  "transcript_sha256": "4580a5536f9895e9e7acfacf8f679b6dea6c0028bf69bd49fb691819b3ca5a43",
+  "taxonomy_sha256": "eaa8734819a3ac34dd19ee5f0bf6de925a793a1d25a2d361090dafc9b751e1fc",
+  "model": "codex:gpt-5.6-luna+gpt-5.6-sol",
+  "generation_stages": [
+    {
+      "phase": "rationale_extract",
+      "backend": "codex",
+      "model": "gpt-5.6-luna"
+    },
+    {
+      "phase": "rationale_verify",
+      "backend": "codex",
+      "model": "gpt-5.6-sol"
+    }
+  ],
+  "source_tier": "newly_extracted_and_independently_model_reviewed",
+  "reviewed_target_turns": [
+    9,
+    13,
+    16,
+    18,
+    23,
+    29,
+    34,
+    36,
+    40,
+    45,
+    55,
+    58,
+    60,
+    62,
+    75,
+    137,
+    139,
+    140,
+    142,
+    144,
+    146,
+    159,
+    163,
+    172,
+    178,
+    182,
+    187,
+    193,
+    195,
+    198,
+    200,
+    203,
+    205,
+    210,
+    216
+  ],
+  "notes": "Turn 75 was excluded because the brief exclamation does not establish whether the valuation was favorable, unfavorable, or mismatched. Other excluded turns were greetings, jokes, repetitions, confirmations, incomplete fragments without a discernible rationale, or bare investment/coordination statements without a reason.",
+  "receipt_path": "/home/dpasch01/vclogic-vc-agentic-assessment/evaluation/pitchshow/investors/jillian-manus-structure-capital/rationale-references/receipts/119-amateur-golf-society-venture-capital-vs-private-equity.json",
+  "scoring_scope": "original_pitch_only",
+  "shared_across_input_modes": true,
+  "rationales": [
+    {
+      "rationale_label": "business_model_assessment",
+      "direction": "neutral",
+      "salience": "secondary",
+      "confidence": 0.98,
+      "utterance_type": "question",
+      "decision_link": "none",
+      "timing": "original_pitch",
+      "turn_index": 40,
+      "quote": "Remind me of the membership fee.",
+      "explanation": "Requests the core price charged under the membership model.",
+      "evidence": [
+        "So what does that guarantee with that membership? X number of games, x courses.",
+        "So you mentioned one event per course. One event per month? One event per year?",
+        "Remind me of the membership fee."
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 23,
+          "speaker": "Jillian",
+          "quote": "So what does that guarantee with that membership? X number of games, x courses."
+        },
+        {
+          "turn_index": 34,
+          "speaker": "Jillian",
+          "quote": "So you mentioned one event per course. One event per month? One event per year?"
+        },
+        {
+          "turn_index": 40,
+          "speaker": "Jillian",
+          "quote": "Remind me of the membership fee."
+        }
+      ],
+      "activation": "queried",
+      "source_rationale_id": "R3",
+      "utterance_kind": "question",
+      "decision_support": "none",
+      "all_mention_ids": [
+        "R1",
+        "R2",
+        "R3"
+      ]
+    },
+    {
+      "rationale_label": "corporate_structure_constraint",
+      "direction": "negative",
+      "salience": "primary",
+      "confidence": 0.99,
+      "utterance_type": "assessment",
+      "decision_link": "explicit",
+      "timing": "original_pitch",
+      "turn_index": 163,
+      "quote": "But they shouldn't have control of the company.",
+      "explanation": "Objects to the private-equity owners retaining control while the investors are determining the governance conditions of their commitment.",
+      "evidence": [
+        "Well, we need a board seat - like a board seat.",
+        "But they shouldn't have control of the company.",
+        "Well, if he doesn't have control, that's a big -"
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 159,
+          "speaker": "Jillian",
+          "quote": "Well, we need a board seat - like a board seat."
+        },
+        {
+          "turn_index": 163,
+          "speaker": "Jillian",
+          "quote": "But they shouldn't have control of the company."
+        },
+        {
+          "turn_index": 178,
+          "speaker": "Jillian",
+          "quote": "Well, if he doesn't have control, that's a big -"
+        }
+      ],
+      "activation": "evaluated",
+      "source_rationale_id": "R8",
+      "utterance_kind": "concern",
+      "decision_support": "supports_out",
+      "all_mention_ids": [
+        "R5",
+        "R7",
+        "R8",
+        "R9"
+      ]
+    },
+    {
+      "rationale_label": "founder_qualities",
+      "direction": "positive",
+      "salience": "primary",
+      "confidence": 0.99,
+      "utterance_type": "decision_reason",
+      "decision_link": "explicit",
+      "timing": "original_pitch",
+      "turn_index": 140,
+      "quote": "You could be selling me toilet brushes, and I'd invest in it, because you're that good.",
+      "explanation": "Explicitly makes her willingness to invest depend on the founder's persuasive ability and personal appeal.",
+      "evidence": [
+        "You could be selling me toilet brushes, and I'd invest in it, because you're that good."
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 140,
+          "speaker": "Jillian",
+          "quote": "You could be selling me toilet brushes, and I'd invest in it, because you're that good."
+        }
+      ],
+      "activation": "evaluated",
+      "source_rationale_id": "R6",
+      "utterance_kind": "decision_explanation",
+      "decision_support": "supports_in",
+      "all_mention_ids": [
+        "R6"
+      ]
+    },
+    {
+      "rationale_label": "solution_feasibility_assessment",
+      "direction": "neutral",
+      "salience": "secondary",
+      "confidence": 0.9,
+      "utterance_type": "question",
+      "decision_link": "none",
+      "timing": "original_pitch",
+      "turn_index": 55,
+      "quote": "Who's building the tech?",
+      "explanation": "Probes whether a capable party is responsible for delivering the technology supporting the solution.",
+      "evidence": [
+        "Who's building the tech?"
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 55,
+          "speaker": "Jillian",
+          "quote": "Who's building the tech?"
+        }
+      ],
+      "activation": "queried",
+      "source_rationale_id": "R4",
+      "utterance_kind": "question",
+      "decision_support": "none",
+      "all_mention_ids": [
+        "R4"
+      ]
+    }
+  ],
+  "later_rationales": [
+    {
+      "rationale_label": "corporate_structure_constraint",
+      "direction": "neutral",
+      "salience": "secondary",
+      "confidence": 0.97,
+      "utterance_type": "question",
+      "decision_link": "none",
+      "timing": "later_commentary",
+      "turn_index": 198,
+      "quote": "have you guys spent more time talking to the blokes on the board?",
+      "explanation": "Asks about subsequent diligence with the controlling board members regarding the governance problem.",
+      "evidence": [
+        "have you guys spent more time talking to the blokes on the board?"
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 198,
+          "speaker": "Jillian",
+          "quote": "have you guys spent more time talking to the blokes on the board?"
+        }
+      ],
+      "activation": "queried",
+      "source_rationale_id": "R10"
+    },
+    {
+      "rationale_label": "corporate_structure_constraint",
+      "direction": "negative",
+      "salience": "primary",
+      "confidence": 0.99,
+      "utterance_type": "concern",
+      "decision_link": "none",
+      "timing": "later_commentary",
+      "turn_index": 200,
+      "quote": "I'm concerned on why they won't allow one of us on the board",
+      "explanation": "Expresses concern that the controlling owners refuse to grant the new investors voting board representation.",
+      "evidence": [
+        "I'm concerned on why they won't allow one of us on the board"
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 200,
+          "speaker": "Jillian",
+          "quote": "I'm concerned on why they won't allow one of us on the board"
+        }
+      ],
+      "activation": "evaluated",
+      "source_rationale_id": "R11"
+    },
+    {
+      "rationale_label": "corporate_structure_constraint",
+      "direction": "negative",
+      "salience": "primary",
+      "confidence": 0.99,
+      "utterance_type": "decision_explanation",
+      "decision_link": "supports_out",
+      "timing": "later_commentary",
+      "turn_index": 203,
+      "quote": "it's not a partnership. And Dan should just try to get himself out of this and go start another company.",
+      "explanation": "Concludes that the existing ownership relationship is unacceptable and that the founder should leave it rather than continue with the current investable entity.",
+      "evidence": [
+        "it's not a partnership. And Dan should just try to get himself out of this and go start another company."
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 203,
+          "speaker": "Jillian",
+          "quote": "it's not a partnership. And Dan should just try to get himself out of this and go start another company."
+        }
+      ],
+      "activation": "evaluated",
+      "source_rationale_id": "R12"
+    },
+    {
+      "rationale_label": "founder_qualities",
+      "direction": "positive",
+      "salience": "secondary",
+      "confidence": 0.93,
+      "utterance_type": "supporting_argument",
+      "decision_link": "none",
+      "timing": "later_commentary",
+      "turn_index": 216,
+      "quote": "They can't do this without you. Hard stop.",
+      "explanation": "Assesses the founder as indispensable to the company, supporting her argument that he has leverage to renegotiate the structure.",
+      "evidence": [
+        "They can't do this without you. Hard stop."
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 216,
+          "speaker": "Jillian",
+          "quote": "They can't do this without you. Hard stop."
+        }
+      ],
+      "activation": "evaluated",
+      "source_rationale_id": "R13"
+    }
+  ],
+  "excluded_rationales": [],
+  "rationale_mentions": [
+    {
+      "rationale_label": "business_model_assessment",
+      "direction": "neutral",
+      "salience": "secondary",
+      "confidence": 0.97,
+      "utterance_type": "question",
+      "decision_link": "none",
+      "timing": "original_pitch",
+      "turn_index": 23,
+      "quote": "So what does that guarantee with that membership? X number of games, x courses.",
+      "explanation": "Probes what customers receive for the membership fee and therefore how the membership model works.",
+      "evidence": [
+        "So what does that guarantee with that membership? X number of games, x courses."
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 23,
+          "speaker": "Jillian",
+          "quote": "So what does that guarantee with that membership? X number of games, x courses."
+        }
+      ],
+      "activation": "queried",
+      "source_rationale_id": "R1"
+    },
+    {
+      "rationale_label": "business_model_assessment",
+      "direction": "neutral",
+      "salience": "secondary",
+      "confidence": 0.96,
+      "utterance_type": "question",
+      "decision_link": "none",
+      "timing": "original_pitch",
+      "turn_index": 34,
+      "quote": "So you mentioned one event per course. One event per month? One event per year?",
+      "explanation": "Clarifies the event cadence underlying the operating and revenue model.",
+      "evidence": [
+        "So you mentioned one event per course. One event per month? One event per year?"
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 34,
+          "speaker": "Jillian",
+          "quote": "So you mentioned one event per course. One event per month? One event per year?"
+        }
+      ],
+      "activation": "queried",
+      "source_rationale_id": "R2"
+    },
+    {
+      "rationale_label": "business_model_assessment",
+      "direction": "neutral",
+      "salience": "secondary",
+      "confidence": 0.98,
+      "utterance_type": "question",
+      "decision_link": "none",
+      "timing": "original_pitch",
+      "turn_index": 40,
+      "quote": "Remind me of the membership fee.",
+      "explanation": "Requests the core price charged under the membership model.",
+      "evidence": [
+        "Remind me of the membership fee."
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 40,
+          "speaker": "Jillian",
+          "quote": "Remind me of the membership fee."
+        }
+      ],
+      "activation": "queried",
+      "source_rationale_id": "R3"
+    },
+    {
+      "rationale_label": "solution_feasibility_assessment",
+      "direction": "neutral",
+      "salience": "secondary",
+      "confidence": 0.9,
+      "utterance_type": "question",
+      "decision_link": "none",
+      "timing": "original_pitch",
+      "turn_index": 55,
+      "quote": "Who's building the tech?",
+      "explanation": "Probes whether a capable party is responsible for delivering the technology supporting the solution.",
+      "evidence": [
+        "Who's building the tech?"
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 55,
+          "speaker": "Jillian",
+          "quote": "Who's building the tech?"
+        }
+      ],
+      "activation": "queried",
+      "source_rationale_id": "R4"
+    },
+    {
+      "rationale_label": "corporate_structure_constraint",
+      "direction": "neutral",
+      "salience": "secondary",
+      "confidence": 0.86,
+      "utterance_type": "question",
+      "decision_link": "none",
+      "timing": "original_pitch",
+      "turn_index": 58,
+      "quote": "So how much does Golf Genius own of the company?",
+      "explanation": "Seeks clarification about the company's ownership structure and the technology provider's possible stake.",
+      "evidence": [
+        "So how much does Golf Genius own of the company?"
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 58,
+          "speaker": "Jillian",
+          "quote": "So how much does Golf Genius own of the company?"
+        }
+      ],
+      "activation": "queried",
+      "source_rationale_id": "R5"
+    },
+    {
+      "rationale_label": "founder_qualities",
+      "direction": "positive",
+      "salience": "primary",
+      "confidence": 0.99,
+      "utterance_type": "decision_explanation",
+      "decision_link": "supports_in",
+      "timing": "original_pitch",
+      "turn_index": 140,
+      "quote": "You could be selling me toilet brushes, and I'd invest in it, because you're that good.",
+      "explanation": "Explicitly makes her willingness to invest depend on the founder's persuasive ability and personal appeal.",
+      "evidence": [
+        "You could be selling me toilet brushes, and I'd invest in it, because you're that good."
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 140,
+          "speaker": "Jillian",
+          "quote": "You could be selling me toilet brushes, and I'd invest in it, because you're that good."
+        }
+      ],
+      "activation": "evaluated",
+      "source_rationale_id": "R6"
+    },
+    {
+      "rationale_label": "corporate_structure_constraint",
+      "direction": "negative",
+      "salience": "primary",
+      "confidence": 0.99,
+      "utterance_type": "decision_explanation",
+      "decision_link": "supports_out",
+      "timing": "original_pitch",
+      "turn_index": 159,
+      "quote": "Well, we need a board seat - like a board seat.",
+      "explanation": "Makes actual board representation a condition of proceeding under the existing governance arrangement.",
+      "evidence": [
+        "Well, we need a board seat - like a board seat."
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 159,
+          "speaker": "Jillian",
+          "quote": "Well, we need a board seat - like a board seat."
+        }
+      ],
+      "activation": "evaluated",
+      "source_rationale_id": "R7"
+    },
+    {
+      "rationale_label": "corporate_structure_constraint",
+      "direction": "negative",
+      "salience": "primary",
+      "confidence": 0.99,
+      "utterance_type": "concern",
+      "decision_link": "supports_out",
+      "timing": "original_pitch",
+      "turn_index": 163,
+      "quote": "But they shouldn't have control of the company.",
+      "explanation": "Objects to the private-equity owners retaining control while the investors are determining the governance conditions of their commitment.",
+      "evidence": [
+        "But they shouldn't have control of the company."
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 163,
+          "speaker": "Jillian",
+          "quote": "But they shouldn't have control of the company."
+        }
+      ],
+      "activation": "evaluated",
+      "source_rationale_id": "R8"
+    },
+    {
+      "rationale_label": "corporate_structure_constraint",
+      "direction": "negative",
+      "salience": "primary",
+      "confidence": 0.93,
+      "utterance_type": "concern",
+      "decision_link": "none",
+      "timing": "original_pitch",
+      "turn_index": 178,
+      "quote": "Well, if he doesn't have control, that's a big -",
+      "explanation": "Identifies the founder's lack of control as a major governance concern, although the interrupted statement does not itself state an investment decision.",
+      "evidence": [
+        "Well, if he doesn't have control, that's a big -"
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 178,
+          "speaker": "Jillian",
+          "quote": "Well, if he doesn't have control, that's a big -"
+        }
+      ],
+      "activation": "evaluated",
+      "source_rationale_id": "R9"
+    }
+  ],
+  "expanded_quote_evidence": [],
+  "rejected_after_evidence_check": []
+}

@@ -1,0 +1,317 @@
+{
+  "schema": "phase1-rationale-reference-v1",
+  "extraction_version": "pitchshow-rationales-v1",
+  "fingerprint": "8fa5cd75c38aee5eab1177a3e0d6add7f0a1792441a7e347b7c33e953114c572",
+  "episode_slug": "43-get-this-party-startup-in-here",
+  "vc_slug": "charles-hudson-precursor-ventures",
+  "vc_name": "Charles Hudson",
+  "actual_decision": "Out",
+  "later_decision": "Unknown",
+  "reference_kind": "automated_transcript_observed_candidate",
+  "human_validated": false,
+  "source_format": "transcript-observed-rationales-v1",
+  "source_path": "../source/episodes/43-get-this-party-startup-in-here.json",
+  "source_sha256": "9fdb38bf418a2945c7d2c968880bd9c17e7695354a9b547a7249cbfd16a87f2a",
+  "transcript_sha256": "1b6975c34d22d3acb9ae053fd7ae7cc08636dae31f0bbecfe4bbb43816e92b97",
+  "taxonomy_sha256": "eaa8734819a3ac34dd19ee5f0bf6de925a793a1d25a2d361090dafc9b751e1fc",
+  "model": "openai/gpt-5.6-luna",
+  "source_tier": "newly_extracted_and_independently_model_reviewed",
+  "reviewed_target_turns": [
+    3,
+    30,
+    32,
+    101,
+    103,
+    116
+  ],
+  "notes": "Turn 3 is only a biographical introduction and contains no investment rationale.",
+  "receipt_path": "receipts/43-get-this-party-startup-in-here.json",
+  "scoring_scope": "live_founder_present_v2",
+  "shared_across_input_modes": true,
+  "rationales": [
+    {
+      "rationale_label": "business_model_assessment",
+      "direction": "neutral",
+      "salience": "secondary",
+      "confidence": 0.99,
+      "utterance_type": "question",
+      "decision_link": "none",
+      "timing": "original_pitch",
+      "turn_index": 32,
+      "quote": "Oh no, just the revenue mix. Like where the money comes from?",
+      "explanation": "Charles clarifies that he is asking about the sources of future revenue.",
+      "evidence": [
+        "If you were to fast-forward to the time when the business is doing 50, 75 million dollars in revenue, what does the mix look like?",
+        "Oh no, just the revenue mix. Like where the money comes from?"
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 30,
+          "speaker": "Charles",
+          "quote": "If you were to fast-forward to the time when the business is doing 50, 75 million dollars in revenue, what does the mix look like?"
+        },
+        {
+          "turn_index": 32,
+          "speaker": "Charles",
+          "quote": "Oh no, just the revenue mix. Like where the money comes from?"
+        }
+      ],
+      "activation": "queried",
+      "source_rationale_id": "R2",
+      "utterance_kind": "question",
+      "decision_support": "none",
+      "all_mention_ids": [
+        "R1",
+        "R2"
+      ]
+    },
+    {
+      "rationale_label": "business_viability_concern",
+      "direction": "negative",
+      "salience": "primary",
+      "confidence": 0.98,
+      "utterance_type": "assessment",
+      "decision_link": "explicit",
+      "timing": "original_pitch",
+      "turn_index": 103,
+      "quote": "I don't yet in my mind have a clear notion for how all the pieces of your business model fit together.",
+      "explanation": "Charles says the business model lacks a clear, straightforward path to scale, which contributes to his reluctance to invest.",
+      "evidence": [
+        "I don't yet in my mind have a clear notion for how all the pieces of your business model fit together."
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 103,
+          "speaker": "Charles",
+          "quote": "I don't yet in my mind have a clear notion for how all the pieces of your business model fit together."
+        }
+      ],
+      "activation": "evaluated",
+      "source_rationale_id": "R4",
+      "utterance_kind": "concern",
+      "decision_support": "supports_out",
+      "all_mention_ids": [
+        "R4"
+      ]
+    },
+    {
+      "rationale_label": "capital_intensity_concern",
+      "direction": "negative",
+      "salience": "primary",
+      "confidence": 0.99,
+      "utterance_type": "assessment",
+      "decision_link": "explicit",
+      "timing": "original_pitch",
+      "turn_index": 101,
+      "quote": "I'd like to better understand the 100k burn in Chicago.",
+      "explanation": "Charles flags the company\u2019s $100,000 burn in Chicago as a concern and compares it unfavorably with typical burn in similar non-coastal markets.",
+      "evidence": [
+        "I'd like to better understand the 100k burn in Chicago."
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 101,
+          "speaker": "Charles",
+          "quote": "I'd like to better understand the 100k burn in Chicago."
+        }
+      ],
+      "activation": "evaluated",
+      "source_rationale_id": "R3",
+      "utterance_kind": "concern",
+      "decision_support": "supports_out",
+      "all_mention_ids": [
+        "R3"
+      ]
+    },
+    {
+      "rationale_label": "founder_market_fit",
+      "direction": "positive",
+      "salience": "secondary",
+      "confidence": 0.98,
+      "utterance_type": "assessment",
+      "decision_link": "none",
+      "timing": "original_pitch",
+      "turn_index": 103,
+      "quote": "you're definitely a subject matter expert in this category",
+      "explanation": "Charles positively assesses Julie\u2019s expertise and alignment with the event-industry market.",
+      "evidence": [
+        "you're definitely a subject matter expert in this category"
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 103,
+          "speaker": "Charles",
+          "quote": "you're definitely a subject matter expert in this category"
+        }
+      ],
+      "activation": "evaluated",
+      "source_rationale_id": "R5",
+      "utterance_kind": "assessment",
+      "decision_support": "none",
+      "all_mention_ids": [
+        "R5"
+      ]
+    }
+  ],
+  "later_rationales": [
+    {
+      "rationale_label": "business_viability_concern",
+      "direction": "negative",
+      "salience": "primary",
+      "confidence": 0.98,
+      "utterance_type": "concern",
+      "decision_link": "supports_out",
+      "timing": "later_commentary",
+      "turn_index": 116,
+      "quote": "I just feel like there were too many moving pieces.",
+      "explanation": "In the original decision discussion, Charles reiterates that the business is too complex and interconnected for him to have conviction.",
+      "evidence": [
+        "I just feel like there were too many moving pieces."
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 116,
+          "speaker": "Charles",
+          "quote": "I just feel like there were too many moving pieces."
+        }
+      ],
+      "activation": "evaluated",
+      "source_rationale_id": "R6"
+    }
+  ],
+  "excluded_rationales": [],
+  "rationale_mentions": [
+    {
+      "rationale_label": "business_model_assessment",
+      "direction": "neutral",
+      "salience": "secondary",
+      "confidence": 0.99,
+      "utterance_type": "question",
+      "decision_link": "none",
+      "timing": "original_pitch",
+      "turn_index": 30,
+      "quote": "If you were to fast-forward to the time when the business is doing 50, 75 million dollars in revenue, what does the mix look like?",
+      "explanation": "Charles asks how revenue would be composed when the company reaches substantial scale, probing its future monetization mix.",
+      "evidence": [
+        "If you were to fast-forward to the time when the business is doing 50, 75 million dollars in revenue, what does the mix look like?"
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 30,
+          "speaker": "Charles",
+          "quote": "If you were to fast-forward to the time when the business is doing 50, 75 million dollars in revenue, what does the mix look like?"
+        }
+      ],
+      "activation": "queried",
+      "source_rationale_id": "R1"
+    },
+    {
+      "rationale_label": "business_model_assessment",
+      "direction": "neutral",
+      "salience": "secondary",
+      "confidence": 0.99,
+      "utterance_type": "question",
+      "decision_link": "none",
+      "timing": "original_pitch",
+      "turn_index": 32,
+      "quote": "Oh no, just the revenue mix. Like where the money comes from?",
+      "explanation": "Charles clarifies that he is asking about the sources of future revenue.",
+      "evidence": [
+        "Oh no, just the revenue mix. Like where the money comes from?"
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 32,
+          "speaker": "Charles",
+          "quote": "Oh no, just the revenue mix. Like where the money comes from?"
+        }
+      ],
+      "activation": "queried",
+      "source_rationale_id": "R2"
+    },
+    {
+      "rationale_label": "capital_intensity_concern",
+      "direction": "negative",
+      "salience": "primary",
+      "confidence": 0.99,
+      "utterance_type": "concern",
+      "decision_link": "supports_out",
+      "timing": "original_pitch",
+      "turn_index": 101,
+      "quote": "I'd like to better understand the 100k burn in Chicago.",
+      "explanation": "Charles flags the company\u2019s $100,000 burn in Chicago as a concern and compares it unfavorably with typical burn in similar non-coastal markets.",
+      "evidence": [
+        "I'd like to better understand the 100k burn in Chicago."
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 101,
+          "speaker": "Charles",
+          "quote": "I'd like to better understand the 100k burn in Chicago."
+        }
+      ],
+      "activation": "evaluated",
+      "source_rationale_id": "R3"
+    },
+    {
+      "rationale_label": "business_viability_concern",
+      "direction": "negative",
+      "salience": "primary",
+      "confidence": 0.98,
+      "utterance_type": "concern",
+      "decision_link": "supports_out",
+      "timing": "original_pitch",
+      "turn_index": 103,
+      "quote": "I don't yet in my mind have a clear notion for how all the pieces of your business model fit together.",
+      "explanation": "Charles says the business model lacks a clear, straightforward path to scale, which contributes to his reluctance to invest.",
+      "evidence": [
+        "I don't yet in my mind have a clear notion for how all the pieces of your business model fit together."
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 103,
+          "speaker": "Charles",
+          "quote": "I don't yet in my mind have a clear notion for how all the pieces of your business model fit together."
+        }
+      ],
+      "activation": "evaluated",
+      "source_rationale_id": "R4"
+    },
+    {
+      "rationale_label": "founder_market_fit",
+      "direction": "positive",
+      "salience": "secondary",
+      "confidence": 0.98,
+      "utterance_type": "assessment",
+      "decision_link": "none",
+      "timing": "original_pitch",
+      "turn_index": 103,
+      "quote": "you're definitely a subject matter expert in this category",
+      "explanation": "Charles positively assesses Julie\u2019s expertise and alignment with the event-industry market.",
+      "evidence": [
+        "you're definitely a subject matter expert in this category"
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 103,
+          "speaker": "Charles",
+          "quote": "you're definitely a subject matter expert in this category"
+        }
+      ],
+      "activation": "evaluated",
+      "source_rationale_id": "R5"
+    }
+  ],
+  "expanded_quote_evidence": [],
+  "rejected_after_evidence_check": [],
+  "timing_review": {
+    "reviewer": "codex_source_inspection",
+    "human_validated": false,
+    "first_post_founder_turn": 113,
+    "original_path": "evaluation/pitchshow/investors/charles-hudson-precursor-ventures/rationale-references/43-get-this-party-startup-in-here.json",
+    "original_sha256": "ac7e429be3b120222acd24841d7ee3498f40a740ccf927e53d4e9c04626de42c",
+    "source_path": "evaluation/pitchshow/investors/charles-hudson-precursor-ventures/source/episodes/43-get-this-party-startup-in-here.json",
+    "source_sha256": "9fdb38bf418a2945c7d2c968880bd9c17e7695354a9b547a7249cbfd16a87f2a",
+    "reason": "Reviewed farewell/exit and following panel or host transition. Includes live decision discussion and reversals; excludes investor-only debrief. Borderline farewell banter conservatively ends at reviewed boundary."
+  }
+}

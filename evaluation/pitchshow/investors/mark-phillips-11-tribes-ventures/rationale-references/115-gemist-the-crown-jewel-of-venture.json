@@ -1,0 +1,782 @@
+{
+  "schema": "phase1-rationale-reference-v1",
+  "extraction_version": "pitchshow-rationales-v1",
+  "fingerprint": "f1fa9797251499c4543c171626b81295d40fa3086b03dbd261f79e14b8b87bfb",
+  "episode_slug": "115-gemist-the-crown-jewel-of-venture",
+  "vc_slug": "mark-phillips-11-tribes-ventures",
+  "vc_name": "Mark Phillips",
+  "actual_decision": "In",
+  "later_decision": "In",
+  "reference_kind": "automated_transcript_observed_candidate",
+  "human_validated": false,
+  "source_format": "transcript-observed-rationales-v1",
+  "source_path": "../source/episodes/115-gemist-the-crown-jewel-of-venture.json",
+  "source_sha256": "429ce05b46398b6f999f8404c613e3bac38503352cfc2b1c555eacdc8ebae655",
+  "transcript_sha256": "3b5078975c559cd139c0b99419e7f749f6a50e692ccddf71e2c0670d043b6501",
+  "taxonomy_sha256": "eaa8734819a3ac34dd19ee5f0bf6de925a793a1d25a2d361090dafc9b751e1fc",
+  "model": "openai/gpt-5.6-luna",
+  "source_tier": "newly_extracted_and_independently_model_reviewed",
+  "reviewed_target_turns": [
+    4,
+    9,
+    17,
+    35,
+    45,
+    49,
+    64,
+    66,
+    74,
+    76,
+    78,
+    80,
+    82,
+    90,
+    92,
+    106,
+    108,
+    109,
+    119,
+    123,
+    125,
+    127,
+    129,
+    131,
+    133,
+    135,
+    137,
+    140,
+    196,
+    198
+  ],
+  "notes": "Same-session investor discussion at turns 109–140 is classified as original_pitch. Bare greetings, reactions, confirmations, closings, and the redundant fragment at turn 137 were reviewed but not annotated.",
+  "receipt_path": "receipts/115-gemist-the-crown-jewel-of-venture.json",
+  "scoring_scope": "original_pitch_only",
+  "shared_across_input_modes": true,
+  "rationales": [
+    {
+      "rationale_label": "business_model_assessment",
+      "direction": "neutral",
+      "salience": "secondary",
+      "confidence": 0.97,
+      "utterance_type": "question",
+      "decision_link": "none",
+      "timing": "original_pitch",
+      "turn_index": 49,
+      "quote": "So you make money at every turn,",
+      "explanation": "Mark checks his understanding of Gemist’s transaction-based monetization model.",
+      "evidence": [
+        "So you make money at every turn,"
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 49,
+          "speaker": "Mark",
+          "quote": "So you make money at every turn,"
+        }
+      ],
+      "activation": "queried",
+      "source_rationale_id": "R3",
+      "utterance_kind": "question",
+      "decision_support": "none",
+      "all_mention_ids": [
+        "R3"
+      ]
+    },
+    {
+      "rationale_label": "business_viability_concern",
+      "direction": "neutral",
+      "salience": "secondary",
+      "confidence": 0.96,
+      "utterance_type": "question",
+      "decision_link": "none",
+      "timing": "original_pitch",
+      "turn_index": 76,
+      "quote": "Where do you see profitability on the roadmap?",
+      "explanation": "Mark asks when the business expects to reach profitability, a material viability milestone.",
+      "evidence": [
+        "Where do you see profitability on the roadmap?"
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 76,
+          "speaker": "Mark",
+          "quote": "Where do you see profitability on the roadmap?"
+        }
+      ],
+      "activation": "queried",
+      "source_rationale_id": "R7",
+      "utterance_kind": "question",
+      "decision_support": "none",
+      "all_mention_ids": [
+        "R7"
+      ]
+    },
+    {
+      "rationale_label": "dilution_concern",
+      "direction": "negative",
+      "salience": "secondary",
+      "confidence": 0.96,
+      "utterance_type": "assessment",
+      "decision_link": "none",
+      "timing": "original_pitch",
+      "turn_index": 135,
+      "quote": "if she didn't have to ever raise again, then these issues that we're talking about from a cap table perspective -",
+      "explanation": "Mark agrees that the cap-table issues are driven by the possibility of another financing round.",
+      "evidence": [
+        "if she didn't have to ever raise again, then these issues that we're talking about from a cap table perspective -"
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 135,
+          "speaker": "Mark",
+          "quote": "if she didn't have to ever raise again, then these issues that we're talking about from a cap table perspective -"
+        }
+      ],
+      "activation": "evaluated",
+      "source_rationale_id": "R12",
+      "utterance_kind": "supporting_argument",
+      "decision_support": "none",
+      "all_mention_ids": [
+        "R6",
+        "R9",
+        "R11",
+        "R12"
+      ]
+    },
+    {
+      "rationale_label": "fundraising_demand_signal",
+      "direction": "positive",
+      "salience": "secondary",
+      "confidence": 0.96,
+      "utterance_type": "assessment",
+      "decision_link": "none",
+      "timing": "original_pitch",
+      "turn_index": 119,
+      "quote": "They've got a solid round. I think she says she's got two out of the three committed.",
+      "explanation": "Mark assesses the company as having strong existing investor commitment.",
+      "evidence": [
+        "They've got a solid round. I think she says she's got two out of the three committed."
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 119,
+          "speaker": "Mark",
+          "quote": "They've got a solid round. I think she says she's got two out of the three committed."
+        }
+      ],
+      "activation": "evaluated",
+      "source_rationale_id": "R10",
+      "utterance_kind": "assessment",
+      "decision_support": "none",
+      "all_mention_ids": [
+        "R10"
+      ]
+    },
+    {
+      "rationale_label": "go_to_market_strategy_assessment",
+      "direction": "neutral",
+      "salience": "secondary",
+      "confidence": 0.99,
+      "utterance_type": "question",
+      "decision_link": "none",
+      "timing": "original_pitch",
+      "turn_index": 35,
+      "quote": "Can you talk about the sales process with Greenwich?",
+      "explanation": "Mark requests concrete details about customer acquisition, introductions, and the sales cycle.",
+      "evidence": [
+        "Can you talk about the sales process with Greenwich?"
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 35,
+          "speaker": "Mark",
+          "quote": "Can you talk about the sales process with Greenwich?"
+        }
+      ],
+      "activation": "queried",
+      "source_rationale_id": "R2",
+      "utterance_kind": "question",
+      "decision_support": "none",
+      "all_mention_ids": [
+        "R2"
+      ]
+    },
+    {
+      "rationale_label": "growth_projection_risk",
+      "direction": "neutral",
+      "salience": "secondary",
+      "confidence": 0.94,
+      "utterance_type": "question",
+      "decision_link": "none",
+      "timing": "original_pitch",
+      "turn_index": 66,
+      "quote": "You think that's a 2024 goal?",
+      "explanation": "Mark tests the timing of the company’s projected ARR milestone.",
+      "evidence": [
+        "You think that's a 2024 goal?"
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 66,
+          "speaker": "Mark",
+          "quote": "You think that's a 2024 goal?"
+        }
+      ],
+      "activation": "queried",
+      "source_rationale_id": "R5",
+      "utterance_kind": "question",
+      "decision_support": "none",
+      "all_mention_ids": [
+        "R5"
+      ]
+    },
+    {
+      "rationale_label": "product_appeal_assessment",
+      "direction": "positive",
+      "salience": "primary",
+      "confidence": 0.88,
+      "utterance_type": "decision_reason",
+      "decision_link": "explicit",
+      "timing": "original_pitch",
+      "turn_index": 80,
+      "quote": "I like it so much that I want to invest 100,000.",
+      "explanation": "Mark explicitly connects his strong positive reaction to the decision to invest.",
+      "evidence": [
+        "I like it so much that I want to invest 100,000."
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 80,
+          "speaker": "Mark",
+          "quote": "I like it so much that I want to invest 100,000."
+        }
+      ],
+      "activation": "evaluated",
+      "source_rationale_id": "R8",
+      "utterance_kind": "decision_explanation",
+      "decision_support": "supports_in",
+      "all_mention_ids": [
+        "R8"
+      ]
+    },
+    {
+      "rationale_label": "solution_feasibility_assessment",
+      "direction": "neutral",
+      "salience": "secondary",
+      "confidence": 0.99,
+      "utterance_type": "question",
+      "decision_link": "none",
+      "timing": "original_pitch",
+      "turn_index": 17,
+      "quote": "Does Gemist enable the replica production?",
+      "explanation": "Mark asks whether Gemist operationally enables the replica-production component of the solution.",
+      "evidence": [
+        "Does Gemist enable the replica production?"
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 17,
+          "speaker": "Mark",
+          "quote": "Does Gemist enable the replica production?"
+        }
+      ],
+      "activation": "queried",
+      "source_rationale_id": "R1",
+      "utterance_kind": "question",
+      "decision_support": "none",
+      "all_mention_ids": [
+        "R1"
+      ]
+    },
+    {
+      "rationale_label": "traction_repeatability_concern",
+      "direction": "neutral",
+      "salience": "secondary",
+      "confidence": 0.94,
+      "utterance_type": "question",
+      "decision_link": "none",
+      "timing": "original_pitch",
+      "turn_index": 64,
+      "quote": "Can you be specific about where are you at from a revenue perspective?",
+      "explanation": "Mark asks for current revenue and MRR details to assess the company’s present traction.",
+      "evidence": [
+        "Can you be specific about where are you at from a revenue perspective?"
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 64,
+          "speaker": "Mark",
+          "quote": "Can you be specific about where are you at from a revenue perspective?"
+        }
+      ],
+      "activation": "queried",
+      "source_rationale_id": "R4",
+      "utterance_kind": "question",
+      "decision_support": "none",
+      "all_mention_ids": [
+        "R4"
+      ]
+    }
+  ],
+  "later_rationales": [
+    {
+      "rationale_label": "product_appeal_assessment",
+      "direction": "positive",
+      "salience": "secondary",
+      "confidence": 0.95,
+      "utterance_type": "assessment",
+      "decision_link": "none",
+      "timing": "later_commentary",
+      "turn_index": 196,
+      "quote": "a really nice vertical SaaS solution",
+      "explanation": "Mark retrospectively describes the proposed solution in strongly positive terms.",
+      "evidence": [
+        "a really nice vertical SaaS solution"
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 196,
+          "speaker": "Mark",
+          "quote": "a really nice vertical SaaS solution"
+        }
+      ],
+      "activation": "evaluated",
+      "source_rationale_id": "R13"
+    },
+    {
+      "rationale_label": "product_adoption",
+      "direction": "positive",
+      "salience": "secondary",
+      "confidence": 0.92,
+      "utterance_type": "supporting_argument",
+      "decision_link": "none",
+      "timing": "later_commentary",
+      "turn_index": 196,
+      "quote": "she's got customers.",
+      "explanation": "Mark cites the company’s existing customers as evidence of market adoption.",
+      "evidence": [
+        "she's got customers."
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 196,
+          "speaker": "Mark",
+          "quote": "she's got customers."
+        }
+      ],
+      "activation": "evaluated",
+      "source_rationale_id": "R14"
+    },
+    {
+      "rationale_label": "founder_qualities",
+      "direction": "positive",
+      "salience": "secondary",
+      "confidence": 0.98,
+      "utterance_type": "assessment",
+      "decision_link": "none",
+      "timing": "later_commentary",
+      "turn_index": 196,
+      "quote": "Founding team is really compelling.",
+      "explanation": "Mark identifies the founding team as a compelling positive factor.",
+      "evidence": [
+        "Founding team is really compelling."
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 196,
+          "speaker": "Mark",
+          "quote": "Founding team is really compelling."
+        }
+      ],
+      "activation": "evaluated",
+      "source_rationale_id": "R15"
+    },
+    {
+      "rationale_label": "market_size_assessment",
+      "direction": "positive",
+      "salience": "primary",
+      "confidence": 0.98,
+      "utterance_type": "assessment",
+      "decision_link": "supports_in",
+      "timing": "later_commentary",
+      "turn_index": 196,
+      "quote": "the opportunity and the size of the opportunity became more and more apparent to us.",
+      "explanation": "Mark says diligence increased his conviction in the scale of the opportunity and led them to increase ownership.",
+      "evidence": [
+        "the opportunity and the size of the opportunity became more and more apparent to us."
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 196,
+          "speaker": "Mark",
+          "quote": "the opportunity and the size of the opportunity became more and more apparent to us."
+        }
+      ],
+      "activation": "evaluated",
+      "source_rationale_id": "R16"
+    },
+    {
+      "rationale_label": "investment_upside_assessment",
+      "direction": "positive",
+      "salience": "primary",
+      "confidence": 0.99,
+      "utterance_type": "decision_explanation",
+      "decision_link": "supports_in",
+      "timing": "later_commentary",
+      "turn_index": 196,
+      "quote": "Gemist has a very clear path to a 10x exit on this type of business, but that's just the baseline. We think, you know, even Entrada will say they think the opportunity is probably closer to 100x here.",
+      "explanation": "Mark explains the increased investment conviction through a potentially outsized 10x-to-100x return profile.",
+      "evidence": [
+        "Gemist has a very clear path to a 10x exit on this type of business, but that's just the baseline. We think, you know, even Entrada will say they think the opportunity is probably closer to 100x here."
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 196,
+          "speaker": "Mark",
+          "quote": "Gemist has a very clear path to a 10x exit on this type of business, but that's just the baseline. We think, you know, even Entrada will say they think the opportunity is probably closer to 100x here."
+        }
+      ],
+      "activation": "evaluated",
+      "source_rationale_id": "R17"
+    },
+    {
+      "rationale_label": "fund_economics_constraint",
+      "direction": "positive",
+      "salience": "primary",
+      "confidence": 0.97,
+      "utterance_type": "decision_explanation",
+      "decision_link": "supports_in",
+      "timing": "later_commentary",
+      "turn_index": 198,
+      "quote": "as we looked at our portfolio construction, we've been looking for more businesses that have sort of that upward potential",
+      "explanation": "Mark links the larger allocation to portfolio-construction goals and the fund’s preference for high-upside businesses.",
+      "evidence": [
+        "as we looked at our portfolio construction, we've been looking for more businesses that have sort of that upward potential"
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 198,
+          "speaker": "Mark",
+          "quote": "as we looked at our portfolio construction, we've been looking for more businesses that have sort of that upward potential"
+        }
+      ],
+      "activation": "evaluated",
+      "source_rationale_id": "R18"
+    },
+    {
+      "rationale_label": "investment_upside_assessment",
+      "direction": "positive",
+      "salience": "primary",
+      "confidence": 0.97,
+      "utterance_type": "decision_explanation",
+      "decision_link": "supports_in",
+      "timing": "later_commentary",
+      "turn_index": 198,
+      "quote": "that upward potential that I think Gemist really does to be the Toast of the jewelry industry.",
+      "explanation": "Mark reiterates that Gemist’s potential to become a category leader supports increasing the investment.",
+      "evidence": [
+        "that upward potential that I think Gemist really does to be the Toast of the jewelry industry."
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 198,
+          "speaker": "Mark",
+          "quote": "that upward potential that I think Gemist really does to be the Toast of the jewelry industry."
+        }
+      ],
+      "activation": "evaluated",
+      "source_rationale_id": "R19"
+    }
+  ],
+  "excluded_rationales": [],
+  "rationale_mentions": [
+    {
+      "rationale_label": "solution_feasibility_assessment",
+      "direction": "neutral",
+      "salience": "secondary",
+      "confidence": 0.99,
+      "utterance_type": "question",
+      "decision_link": "none",
+      "timing": "original_pitch",
+      "turn_index": 17,
+      "quote": "Does Gemist enable the replica production?",
+      "explanation": "Mark asks whether Gemist operationally enables the replica-production component of the solution.",
+      "evidence": [
+        "Does Gemist enable the replica production?"
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 17,
+          "speaker": "Mark",
+          "quote": "Does Gemist enable the replica production?"
+        }
+      ],
+      "activation": "queried",
+      "source_rationale_id": "R1"
+    },
+    {
+      "rationale_label": "go_to_market_strategy_assessment",
+      "direction": "neutral",
+      "salience": "secondary",
+      "confidence": 0.99,
+      "utterance_type": "question",
+      "decision_link": "none",
+      "timing": "original_pitch",
+      "turn_index": 35,
+      "quote": "Can you talk about the sales process with Greenwich?",
+      "explanation": "Mark requests concrete details about customer acquisition, introductions, and the sales cycle.",
+      "evidence": [
+        "Can you talk about the sales process with Greenwich?"
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 35,
+          "speaker": "Mark",
+          "quote": "Can you talk about the sales process with Greenwich?"
+        }
+      ],
+      "activation": "queried",
+      "source_rationale_id": "R2"
+    },
+    {
+      "rationale_label": "business_model_assessment",
+      "direction": "neutral",
+      "salience": "secondary",
+      "confidence": 0.97,
+      "utterance_type": "question",
+      "decision_link": "none",
+      "timing": "original_pitch",
+      "turn_index": 49,
+      "quote": "So you make money at every turn,",
+      "explanation": "Mark checks his understanding of Gemist’s transaction-based monetization model.",
+      "evidence": [
+        "So you make money at every turn,"
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 49,
+          "speaker": "Mark",
+          "quote": "So you make money at every turn,"
+        }
+      ],
+      "activation": "queried",
+      "source_rationale_id": "R3"
+    },
+    {
+      "rationale_label": "traction_repeatability_concern",
+      "direction": "neutral",
+      "salience": "secondary",
+      "confidence": 0.94,
+      "utterance_type": "question",
+      "decision_link": "none",
+      "timing": "original_pitch",
+      "turn_index": 64,
+      "quote": "Can you be specific about where are you at from a revenue perspective?",
+      "explanation": "Mark asks for current revenue and MRR details to assess the company’s present traction.",
+      "evidence": [
+        "Can you be specific about where are you at from a revenue perspective?"
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 64,
+          "speaker": "Mark",
+          "quote": "Can you be specific about where are you at from a revenue perspective?"
+        }
+      ],
+      "activation": "queried",
+      "source_rationale_id": "R4"
+    },
+    {
+      "rationale_label": "growth_projection_risk",
+      "direction": "neutral",
+      "salience": "secondary",
+      "confidence": 0.94,
+      "utterance_type": "question",
+      "decision_link": "none",
+      "timing": "original_pitch",
+      "turn_index": 66,
+      "quote": "You think that's a 2024 goal?",
+      "explanation": "Mark tests the timing of the company’s projected ARR milestone.",
+      "evidence": [
+        "You think that's a 2024 goal?"
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 66,
+          "speaker": "Mark",
+          "quote": "You think that's a 2024 goal?"
+        }
+      ],
+      "activation": "queried",
+      "source_rationale_id": "R5"
+    },
+    {
+      "rationale_label": "dilution_concern",
+      "direction": "neutral",
+      "salience": "secondary",
+      "confidence": 0.99,
+      "utterance_type": "question",
+      "decision_link": "none",
+      "timing": "original_pitch",
+      "turn_index": 74,
+      "quote": "Can you share your perspective on the cap table?",
+      "explanation": "Mark asks directly about the company’s capitalization and potential dilution.",
+      "evidence": [
+        "Can you share your perspective on the cap table?"
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 74,
+          "speaker": "Mark",
+          "quote": "Can you share your perspective on the cap table?"
+        }
+      ],
+      "activation": "queried",
+      "source_rationale_id": "R6"
+    },
+    {
+      "rationale_label": "business_viability_concern",
+      "direction": "neutral",
+      "salience": "secondary",
+      "confidence": 0.96,
+      "utterance_type": "question",
+      "decision_link": "none",
+      "timing": "original_pitch",
+      "turn_index": 76,
+      "quote": "Where do you see profitability on the roadmap?",
+      "explanation": "Mark asks when the business expects to reach profitability, a material viability milestone.",
+      "evidence": [
+        "Where do you see profitability on the roadmap?"
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 76,
+          "speaker": "Mark",
+          "quote": "Where do you see profitability on the roadmap?"
+        }
+      ],
+      "activation": "queried",
+      "source_rationale_id": "R7"
+    },
+    {
+      "rationale_label": "product_appeal_assessment",
+      "direction": "positive",
+      "salience": "primary",
+      "confidence": 0.88,
+      "utterance_type": "decision_explanation",
+      "decision_link": "supports_in",
+      "timing": "original_pitch",
+      "turn_index": 80,
+      "quote": "I like it so much that I want to invest 100,000.",
+      "explanation": "Mark explicitly connects his strong positive reaction to the decision to invest.",
+      "evidence": [
+        "I like it so much that I want to invest 100,000."
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 80,
+          "speaker": "Mark",
+          "quote": "I like it so much that I want to invest 100,000."
+        }
+      ],
+      "activation": "evaluated",
+      "source_rationale_id": "R8"
+    },
+    {
+      "rationale_label": "dilution_concern",
+      "direction": "neutral",
+      "salience": "secondary",
+      "confidence": 0.98,
+      "utterance_type": "question",
+      "decision_link": "none",
+      "timing": "original_pitch",
+      "turn_index": 109,
+      "quote": "give us the horror stories that you've seen of overly diluted cap tables at a seed plus round.",
+      "explanation": "Mark asks for comparative evidence about excessive dilution in seed-plus financing rounds.",
+      "evidence": [
+        "give us the horror stories that you've seen of overly diluted cap tables at a seed plus round."
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 109,
+          "speaker": "Mark",
+          "quote": "give us the horror stories that you've seen of overly diluted cap tables at a seed plus round."
+        }
+      ],
+      "activation": "queried",
+      "source_rationale_id": "R9"
+    },
+    {
+      "rationale_label": "fundraising_demand_signal",
+      "direction": "positive",
+      "salience": "secondary",
+      "confidence": 0.96,
+      "utterance_type": "assessment",
+      "decision_link": "none",
+      "timing": "original_pitch",
+      "turn_index": 119,
+      "quote": "They've got a solid round. I think she says she's got two out of the three committed.",
+      "explanation": "Mark assesses the company as having strong existing investor commitment.",
+      "evidence": [
+        "They've got a solid round. I think she says she's got two out of the three committed."
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 119,
+          "speaker": "Mark",
+          "quote": "They've got a solid round. I think she says she's got two out of the three committed."
+        }
+      ],
+      "activation": "evaluated",
+      "source_rationale_id": "R10"
+    },
+    {
+      "rationale_label": "dilution_concern",
+      "direction": "neutral",
+      "salience": "secondary",
+      "confidence": 0.97,
+      "utterance_type": "question",
+      "decision_link": "none",
+      "timing": "original_pitch",
+      "turn_index": 123,
+      "quote": "Does what she's saying about, hey, I wanna raise an A and then go profitable change your perspective?",
+      "explanation": "Mark asks whether the founder’s financing and profitability plan changes the cap-table assessment.",
+      "evidence": [
+        "Does what she's saying about, hey, I wanna raise an A and then go profitable change your perspective?"
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 123,
+          "speaker": "Mark",
+          "quote": "Does what she's saying about, hey, I wanna raise an A and then go profitable change your perspective?"
+        }
+      ],
+      "activation": "queried",
+      "source_rationale_id": "R11"
+    },
+    {
+      "rationale_label": "dilution_concern",
+      "direction": "negative",
+      "salience": "secondary",
+      "confidence": 0.96,
+      "utterance_type": "supporting_argument",
+      "decision_link": "none",
+      "timing": "original_pitch",
+      "turn_index": 135,
+      "quote": "if she didn't have to ever raise again, then these issues that we're talking about from a cap table perspective -",
+      "explanation": "Mark agrees that the cap-table issues are driven by the possibility of another financing round.",
+      "evidence": [
+        "if she didn't have to ever raise again, then these issues that we're talking about from a cap table perspective -"
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 135,
+          "speaker": "Mark",
+          "quote": "if she didn't have to ever raise again, then these issues that we're talking about from a cap table perspective -"
+        }
+      ],
+      "activation": "evaluated",
+      "source_rationale_id": "R12"
+    }
+  ]
+}

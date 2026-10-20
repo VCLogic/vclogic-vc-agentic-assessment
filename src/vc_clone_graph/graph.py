@@ -133,6 +133,9 @@ class WorkflowSettings:
     portfolio_retrieval_top_k: int = 5
     portfolio_candidate_pool_k: int = 15
     precedent_out_slots: int = 2
+    policy_summary: bool = True
+    fact_policy_comparison: bool = True
+    exception_evidence: bool = True
 
 
 def _usage(state: WorkflowState, result: Any) -> dict[str, int | float]:

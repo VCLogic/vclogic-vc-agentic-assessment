@@ -1,0 +1,643 @@
+{
+  "schema": "phase1-rationale-reference-v1",
+  "extraction_version": "pitchshow-rationales-v1",
+  "fingerprint": "423cd2b0114583f2e803258117d0910adfcdfb707191f24c2973df24b6aa9f24",
+  "episode_slug": "24-unglue",
+  "vc_slug": "phil-nadel-forefront-venture-partners",
+  "vc_name": "Phil Nadel",
+  "actual_decision": "Out",
+  "later_decision": "Out",
+  "reference_kind": "automated_transcript_observed_candidate",
+  "human_validated": false,
+  "source_format": "transcript-observed-rationales-v1",
+  "source_path": "../source/episodes/24-unglue.json",
+  "source_sha256": "d07e0dea7250c3e3db48b847580202acb679d36aedf03d8df2a74fafffd590d3",
+  "transcript_sha256": "c5389ff7463276afb46fa7132fc96ee21e8ae9f5ecda318a276180e8fced8715",
+  "taxonomy_sha256": "eaa8734819a3ac34dd19ee5f0bf6de925a793a1d25a2d361090dafc9b751e1fc",
+  "model": "codex:gpt-5.6-luna+gpt-5.6-sol",
+  "generation_stages": [
+    {
+      "phase": "rationale_extract",
+      "backend": "codex",
+      "model": "gpt-5.6-luna"
+    },
+    {
+      "phase": "rationale_verify",
+      "backend": "codex",
+      "model": "gpt-5.6-sol"
+    }
+  ],
+  "source_tier": "newly_extracted_and_independently_model_reviewed",
+  "reviewed_target_turns": [
+    19,
+    23,
+    30,
+    32,
+    34,
+    36,
+    52,
+    61,
+    66,
+    69,
+    72,
+    73,
+    79,
+    84,
+    86,
+    88
+  ],
+  "notes": "All supplied target turns were reviewed. Simple completions, vague fragments, contextual agreements, and encouragement without an independently expressed rationale were omitted.",
+  "receipt_path": "receipts/24-unglue.json",
+  "scoring_scope": "original_pitch_only",
+  "shared_across_input_modes": true,
+  "rationales": [
+    {
+      "rationale_label": "business_model_assessment",
+      "direction": "negative",
+      "salience": "secondary",
+      "confidence": 0.96,
+      "utterance_type": "assessment",
+      "decision_link": "none",
+      "timing": "original_pitch",
+      "turn_index": 86,
+      "quote": "Close to zero.",
+      "explanation": "Phil explicitly characterizes the likely competitive price level as nearly zero, indicating weak monetization prospects.",
+      "evidence": [
+        "That’s a pretty big discount that you’re giving them for the annual.",
+        "It won't be zero. Because they've got to pay him a few pennies to...",
+        "Close to zero."
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 32,
+          "speaker": "Phil",
+          "quote": "That’s a pretty big discount that you’re giving them for the annual."
+        },
+        {
+          "turn_index": 84,
+          "speaker": "Phil",
+          "quote": "It won't be zero. Because they've got to pay him a few pennies to..."
+        },
+        {
+          "turn_index": 86,
+          "speaker": "Phil",
+          "quote": "Close to zero."
+        }
+      ],
+      "activation": "evaluated",
+      "source_rationale_id": "R13",
+      "utterance_kind": "assessment",
+      "decision_support": "none",
+      "all_mention_ids": [
+        "R1",
+        "R3",
+        "R12",
+        "R13"
+      ]
+    },
+    {
+      "rationale_label": "business_viability_concern",
+      "direction": "negative",
+      "salience": "primary",
+      "confidence": 0.98,
+      "utterance_type": "decision_reason",
+      "decision_link": "explicit",
+      "timing": "original_pitch",
+      "turn_index": 61,
+      "quote": "I just see it too much as a feature and not a product.",
+      "explanation": "Phil explains his decision to pass by saying he does not view unGlue as a sufficiently standalone product or business.",
+      "evidence": [
+        "I just see it too much as a feature and not a product."
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 61,
+          "speaker": "Phil",
+          "quote": "I just see it too much as a feature and not a product."
+        }
+      ],
+      "activation": "evaluated",
+      "source_rationale_id": "R6",
+      "utterance_kind": "decision_explanation",
+      "decision_support": "supports_out",
+      "all_mention_ids": [
+        "R6"
+      ]
+    },
+    {
+      "rationale_label": "founder_communication_quality",
+      "direction": "positive",
+      "salience": "secondary",
+      "confidence": 0.99,
+      "utterance_type": "assessment",
+      "decision_link": "none",
+      "timing": "original_pitch",
+      "turn_index": 66,
+      "quote": "you’re very well spoken",
+      "explanation": "Phil positively assesses Alon's presentation and communication ability.",
+      "evidence": [
+        "you’re very well spoken"
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 66,
+          "speaker": "Phil",
+          "quote": "you’re very well spoken"
+        }
+      ],
+      "activation": "evaluated",
+      "source_rationale_id": "R7",
+      "utterance_kind": "supporting_argument",
+      "decision_support": "none",
+      "all_mention_ids": [
+        "R7"
+      ]
+    },
+    {
+      "rationale_label": "founder_execution",
+      "direction": "positive",
+      "salience": "secondary",
+      "confidence": 0.97,
+      "utterance_type": "assessment",
+      "decision_link": "none",
+      "timing": "original_pitch",
+      "turn_index": 66,
+      "quote": "you have the experience, you have previous exits",
+      "explanation": "Phil cites Alon's experience and prior exits as evidence of demonstrated execution ability.",
+      "evidence": [
+        "you have the experience, you have previous exits"
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 66,
+          "speaker": "Phil",
+          "quote": "you have the experience, you have previous exits"
+        }
+      ],
+      "activation": "evaluated",
+      "source_rationale_id": "R8",
+      "utterance_kind": "supporting_argument",
+      "decision_support": "none",
+      "all_mention_ids": [
+        "R8"
+      ]
+    },
+    {
+      "rationale_label": "founder_qualities",
+      "direction": "positive",
+      "salience": "secondary",
+      "confidence": 0.97,
+      "utterance_type": "assessment",
+      "decision_link": "none",
+      "timing": "original_pitch",
+      "turn_index": 88,
+      "quote": "Next time one of my portfolio companies needs a CEO, I’m going to try and persuade him to drop this, and go join us.",
+      "explanation": "Phil's desire to recruit Alon as a portfolio-company CEO reflects a strongly positive assessment of him personally.",
+      "evidence": [
+        "You’re a great founder, I’m sure you have a great team.",
+        "Next time one of my portfolio companies needs a CEO, I’m going to try and persuade him to drop this, and go join us."
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 72,
+          "speaker": "Phil",
+          "quote": "You’re a great founder, I’m sure you have a great team."
+        },
+        {
+          "turn_index": 88,
+          "speaker": "Phil",
+          "quote": "Next time one of my portfolio companies needs a CEO, I’m going to try and persuade him to drop this, and go join us."
+        }
+      ],
+      "activation": "evaluated",
+      "source_rationale_id": "R14",
+      "utterance_kind": "assessment",
+      "decision_support": "none",
+      "all_mention_ids": [
+        "R10",
+        "R14"
+      ]
+    },
+    {
+      "rationale_label": "traction_repeatability_concern",
+      "direction": "neutral",
+      "salience": "secondary",
+      "confidence": 0.96,
+      "utterance_type": "question",
+      "decision_link": "none",
+      "timing": "original_pitch",
+      "turn_index": 36,
+      "quote": "So 15% of the monthly subscribers?",
+      "explanation": "Phil clarifies the scale of monthly-subscriber churn without asserting a negative conclusion.",
+      "evidence": [
+        "what kind of churn do you see?",
+        "So what about the churn?",
+        "So 15% of the monthly subscribers?"
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 30,
+          "speaker": "Phil",
+          "quote": "what kind of churn do you see?"
+        },
+        {
+          "turn_index": 34,
+          "speaker": "Phil",
+          "quote": "So what about the churn?"
+        },
+        {
+          "turn_index": 36,
+          "speaker": "Phil",
+          "quote": "So 15% of the monthly subscribers?"
+        }
+      ],
+      "activation": "queried",
+      "source_rationale_id": "R5",
+      "utterance_kind": "question",
+      "decision_support": "none",
+      "all_mention_ids": [
+        "R2",
+        "R4",
+        "R5"
+      ]
+    },
+    {
+      "rationale_label": "venture_scale_concern",
+      "direction": "negative",
+      "salience": "primary",
+      "confidence": 0.99,
+      "utterance_type": "decision_reason",
+      "decision_link": "explicit",
+      "timing": "original_pitch",
+      "turn_index": 73,
+      "quote": "the scale of that will be relatively small from our perspectives",
+      "explanation": "Phil expects a potentially successful but insufficiently large outcome, reinforcing his decision not to invest.",
+      "evidence": [
+        "I would love to see you tackling a bigger...",
+        "the scale of that will be relatively small from our perspectives"
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 66,
+          "speaker": "Phil",
+          "quote": "I would love to see you tackling a bigger..."
+        },
+        {
+          "turn_index": 73,
+          "speaker": "Phil",
+          "quote": "the scale of that will be relatively small from our perspectives"
+        }
+      ],
+      "activation": "evaluated",
+      "source_rationale_id": "R11",
+      "utterance_kind": "decision_explanation",
+      "decision_support": "supports_out",
+      "all_mention_ids": [
+        "R9",
+        "R11"
+      ]
+    }
+  ],
+  "later_rationales": [],
+  "excluded_rationales": [],
+  "rationale_mentions": [
+    {
+      "rationale_label": "business_model_assessment",
+      "direction": "neutral",
+      "salience": "secondary",
+      "confidence": 0.94,
+      "utterance_type": "question",
+      "decision_link": "none",
+      "timing": "original_pitch",
+      "turn_index": 19,
+      "quote": "Just define that a bit better. 12 - 15%?",
+      "explanation": "Phil requests clarification of the subscription-conversion metric without expressing a conclusion about it.",
+      "evidence": [
+        "Just define that a bit better. 12 - 15%?"
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 19,
+          "speaker": "Phil",
+          "quote": "Just define that a bit better. 12 - 15%?"
+        }
+      ],
+      "activation": "queried",
+      "source_rationale_id": "R1"
+    },
+    {
+      "rationale_label": "traction_repeatability_concern",
+      "direction": "neutral",
+      "salience": "secondary",
+      "confidence": 0.97,
+      "utterance_type": "question",
+      "decision_link": "none",
+      "timing": "original_pitch",
+      "turn_index": 30,
+      "quote": "what kind of churn do you see?",
+      "explanation": "Phil asks for churn data to assess whether customer retention is repeatable.",
+      "evidence": [
+        "what kind of churn do you see?"
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 30,
+          "speaker": "Phil",
+          "quote": "what kind of churn do you see?"
+        }
+      ],
+      "activation": "queried",
+      "source_rationale_id": "R2"
+    },
+    {
+      "rationale_label": "business_model_assessment",
+      "direction": "negative",
+      "salience": "secondary",
+      "confidence": 0.93,
+      "utterance_type": "concern",
+      "decision_link": "none",
+      "timing": "original_pitch",
+      "turn_index": 32,
+      "quote": "That’s a pretty big discount that you’re giving them for the annual.",
+      "explanation": "Phil negatively assesses the substantial annual-subscription discount within the monetization model.",
+      "evidence": [
+        "That’s a pretty big discount that you’re giving them for the annual."
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 32,
+          "speaker": "Phil",
+          "quote": "That’s a pretty big discount that you’re giving them for the annual."
+        }
+      ],
+      "activation": "evaluated",
+      "source_rationale_id": "R3"
+    },
+    {
+      "rationale_label": "traction_repeatability_concern",
+      "direction": "neutral",
+      "salience": "secondary",
+      "confidence": 0.97,
+      "utterance_type": "question",
+      "decision_link": "none",
+      "timing": "original_pitch",
+      "turn_index": 34,
+      "quote": "So what about the churn?",
+      "explanation": "Phil again requests the missing churn information needed to evaluate retention.",
+      "evidence": [
+        "So what about the churn?"
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 34,
+          "speaker": "Phil",
+          "quote": "So what about the churn?"
+        }
+      ],
+      "activation": "queried",
+      "source_rationale_id": "R4"
+    },
+    {
+      "rationale_label": "traction_repeatability_concern",
+      "direction": "neutral",
+      "salience": "secondary",
+      "confidence": 0.96,
+      "utterance_type": "question",
+      "decision_link": "none",
+      "timing": "original_pitch",
+      "turn_index": 36,
+      "quote": "So 15% of the monthly subscribers?",
+      "explanation": "Phil clarifies the scale of monthly-subscriber churn without asserting a negative conclusion.",
+      "evidence": [
+        "So 15% of the monthly subscribers?"
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 36,
+          "speaker": "Phil",
+          "quote": "So 15% of the monthly subscribers?"
+        }
+      ],
+      "activation": "queried",
+      "source_rationale_id": "R5"
+    },
+    {
+      "rationale_label": "business_viability_concern",
+      "direction": "negative",
+      "salience": "primary",
+      "confidence": 0.98,
+      "utterance_type": "decision_explanation",
+      "decision_link": "supports_out",
+      "timing": "original_pitch",
+      "turn_index": 61,
+      "quote": "I just see it too much as a feature and not a product.",
+      "explanation": "Phil explains his decision to pass by saying he does not view unGlue as a sufficiently standalone product or business.",
+      "evidence": [
+        "I just see it too much as a feature and not a product."
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 61,
+          "speaker": "Phil",
+          "quote": "I just see it too much as a feature and not a product."
+        }
+      ],
+      "activation": "evaluated",
+      "source_rationale_id": "R6"
+    },
+    {
+      "rationale_label": "founder_communication_quality",
+      "direction": "positive",
+      "salience": "secondary",
+      "confidence": 0.99,
+      "utterance_type": "supporting_argument",
+      "decision_link": "none",
+      "timing": "original_pitch",
+      "turn_index": 66,
+      "quote": "you’re very well spoken",
+      "explanation": "Phil positively assesses Alon's presentation and communication ability.",
+      "evidence": [
+        "you’re very well spoken"
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 66,
+          "speaker": "Phil",
+          "quote": "you’re very well spoken"
+        }
+      ],
+      "activation": "evaluated",
+      "source_rationale_id": "R7"
+    },
+    {
+      "rationale_label": "founder_execution",
+      "direction": "positive",
+      "salience": "secondary",
+      "confidence": 0.97,
+      "utterance_type": "supporting_argument",
+      "decision_link": "none",
+      "timing": "original_pitch",
+      "turn_index": 66,
+      "quote": "you have the experience, you have previous exits",
+      "explanation": "Phil cites Alon's experience and prior exits as evidence of demonstrated execution ability.",
+      "evidence": [
+        "you have the experience, you have previous exits"
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 66,
+          "speaker": "Phil",
+          "quote": "you have the experience, you have previous exits"
+        }
+      ],
+      "activation": "evaluated",
+      "source_rationale_id": "R8"
+    },
+    {
+      "rationale_label": "venture_scale_concern",
+      "direction": "negative",
+      "salience": "primary",
+      "confidence": 0.94,
+      "utterance_type": "decision_explanation",
+      "decision_link": "supports_out",
+      "timing": "original_pitch",
+      "turn_index": 66,
+      "quote": "I would love to see you tackling a bigger...",
+      "explanation": "In explaining the difficult pass, Phil indicates that he would prefer this strong founder to pursue a larger opportunity.",
+      "evidence": [
+        "I would love to see you tackling a bigger..."
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 66,
+          "speaker": "Phil",
+          "quote": "I would love to see you tackling a bigger..."
+        }
+      ],
+      "activation": "evaluated",
+      "source_rationale_id": "R9"
+    },
+    {
+      "rationale_label": "founder_qualities",
+      "direction": "positive",
+      "salience": "secondary",
+      "confidence": 0.98,
+      "utterance_type": "assessment",
+      "decision_link": "none",
+      "timing": "original_pitch",
+      "turn_index": 72,
+      "quote": "You’re a great founder, I’m sure you have a great team.",
+      "explanation": "Phil positively assesses Alon and his team despite declining the investment.",
+      "evidence": [
+        "You’re a great founder, I’m sure you have a great team."
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 72,
+          "speaker": "Phil",
+          "quote": "You’re a great founder, I’m sure you have a great team."
+        }
+      ],
+      "activation": "evaluated",
+      "source_rationale_id": "R10"
+    },
+    {
+      "rationale_label": "venture_scale_concern",
+      "direction": "negative",
+      "salience": "primary",
+      "confidence": 0.99,
+      "utterance_type": "decision_explanation",
+      "decision_link": "supports_out",
+      "timing": "original_pitch",
+      "turn_index": 73,
+      "quote": "the scale of that will be relatively small from our perspectives",
+      "explanation": "Phil expects a potentially successful but insufficiently large outcome, reinforcing his decision not to invest.",
+      "evidence": [
+        "the scale of that will be relatively small from our perspectives"
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 73,
+          "speaker": "Phil",
+          "quote": "the scale of that will be relatively small from our perspectives"
+        }
+      ],
+      "activation": "evaluated",
+      "source_rationale_id": "R11"
+    },
+    {
+      "rationale_label": "business_model_assessment",
+      "direction": "negative",
+      "salience": "secondary",
+      "confidence": 0.86,
+      "utterance_type": "assessment",
+      "decision_link": "none",
+      "timing": "original_pitch",
+      "turn_index": 84,
+      "quote": "It won't be zero. Because they've got to pay him a few pennies to...",
+      "explanation": "During the immediate debrief, Phil suggests that price competition could leave the product generating only a negligible amount.",
+      "evidence": [
+        "It won't be zero. Because they've got to pay him a few pennies to..."
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 84,
+          "speaker": "Phil",
+          "quote": "It won't be zero. Because they've got to pay him a few pennies to..."
+        }
+      ],
+      "activation": "evaluated",
+      "source_rationale_id": "R12"
+    },
+    {
+      "rationale_label": "business_model_assessment",
+      "direction": "negative",
+      "salience": "secondary",
+      "confidence": 0.96,
+      "utterance_type": "assessment",
+      "decision_link": "none",
+      "timing": "original_pitch",
+      "turn_index": 86,
+      "quote": "Close to zero.",
+      "explanation": "Phil explicitly characterizes the likely competitive price level as nearly zero, indicating weak monetization prospects.",
+      "evidence": [
+        "Close to zero."
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 86,
+          "speaker": "Phil",
+          "quote": "Close to zero."
+        }
+      ],
+      "activation": "evaluated",
+      "source_rationale_id": "R13"
+    },
+    {
+      "rationale_label": "founder_qualities",
+      "direction": "positive",
+      "salience": "secondary",
+      "confidence": 0.97,
+      "utterance_type": "assessment",
+      "decision_link": "none",
+      "timing": "original_pitch",
+      "turn_index": 88,
+      "quote": "Next time one of my portfolio companies needs a CEO, I’m going to try and persuade him to drop this, and go join us.",
+      "explanation": "Phil's desire to recruit Alon as a portfolio-company CEO reflects a strongly positive assessment of him personally.",
+      "evidence": [
+        "Next time one of my portfolio companies needs a CEO, I’m going to try and persuade him to drop this, and go join us."
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 88,
+          "speaker": "Phil",
+          "quote": "Next time one of my portfolio companies needs a CEO, I’m going to try and persuade him to drop this, and go join us."
+        }
+      ],
+      "activation": "evaluated",
+      "source_rationale_id": "R14"
+    }
+  ],
+  "expanded_quote_evidence": [],
+  "rejected_after_evidence_check": []
+}

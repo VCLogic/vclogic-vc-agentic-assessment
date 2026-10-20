@@ -1,0 +1,706 @@
+{
+  "schema": "phase1-rationale-reference-v1",
+  "extraction_version": "pitchshow-rationales-v1",
+  "fingerprint": "5824908f41bcfc6254515d2ba167bb4875004259d3f8b8c1478d117797f1fb5b",
+  "episode_slug": "144-bridgefy",
+  "vc_slug": "cyan-banister-long-journey-ventures",
+  "vc_name": "Cyan Banister",
+  "actual_decision": "In",
+  "later_decision": "Unknown",
+  "reference_kind": "automated_transcript_observed_candidate",
+  "human_validated": false,
+  "source_format": "transcript-observed-rationales-v1",
+  "source_path": "../source/episodes/144-bridgefy.json",
+  "source_sha256": "580c60c76a0064c1454c1ad596a7f645da364882a26f04846a25cfd3a79aa3c7",
+  "transcript_sha256": "4f2480b6348f0cc9a7ef0432aff127133c4fb4db1f3f66868f7bb17426b59032",
+  "taxonomy_sha256": "eaa8734819a3ac34dd19ee5f0bf6de925a793a1d25a2d361090dafc9b751e1fc",
+  "model": "openai/gpt-5.6-luna",
+  "source_tier": "newly_extracted_and_independently_model_reviewed",
+  "reviewed_target_turns": [
+    1,
+    14,
+    16,
+    19,
+    22,
+    26,
+    36,
+    38,
+    50,
+    52,
+    53,
+    55,
+    57,
+    59,
+    95,
+    122,
+    124,
+    128,
+    130,
+    133,
+    135,
+    137,
+    140,
+    142,
+    145,
+    149,
+    150,
+    152,
+    154,
+    159
+  ],
+  "notes": "Target turns without listed rationales contained greetings, confirmations, logistical remarks, bare positive statements, or non-rationale process comments.",
+  "receipt_path": "receipts/144-bridgefy.json",
+  "scoring_scope": "original_pitch_only",
+  "shared_across_input_modes": true,
+  "rationales": [
+    {
+      "rationale_label": "investor_value_add_fit",
+      "direction": "positive",
+      "salience": "secondary",
+      "confidence": 0.94,
+      "utterance_type": "assessment",
+      "decision_link": "none",
+      "timing": "original_pitch",
+      "turn_index": 128,
+      "quote": "I have so many companies I want to introduce him to.",
+      "explanation": "Cyan presents her network as a source of potential company introductions.",
+      "evidence": [
+        "I would like to introduce you to them.",
+        "I want to put you in touch with him.",
+        "I have so many companies I want to introduce him to."
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 122,
+          "speaker": "Cyan",
+          "quote": "I would like to introduce you to them."
+        },
+        {
+          "turn_index": 124,
+          "speaker": "Cyan",
+          "quote": "I want to put you in touch with him."
+        },
+        {
+          "turn_index": 128,
+          "speaker": "Cyan",
+          "quote": "I have so many companies I want to introduce him to."
+        }
+      ],
+      "activation": "evaluated",
+      "source_rationale_id": "R11",
+      "utterance_kind": "supporting_argument",
+      "decision_support": "none",
+      "all_mention_ids": [
+        "R8",
+        "R10",
+        "R11"
+      ]
+    },
+    {
+      "rationale_label": "market_entry_path_assessment",
+      "direction": "positive",
+      "salience": "secondary",
+      "confidence": 0.89,
+      "utterance_type": "assessment",
+      "decision_link": "none",
+      "timing": "original_pitch",
+      "turn_index": 137,
+      "quote": "if he gets a couple of these, like Citizen, Pokémon Go, maybe like United Airlines",
+      "explanation": "Cyan identifies recognizable potential customers that could provide an initial path into the market.",
+      "evidence": [
+        "if he gets a couple of these, like Citizen, Pokémon Go, maybe like United Airlines"
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 137,
+          "speaker": "Cyan",
+          "quote": "if he gets a couple of these, like Citizen, Pokémon Go, maybe like United Airlines"
+        }
+      ],
+      "activation": "evaluated",
+      "source_rationale_id": "R15",
+      "utterance_kind": "supporting_argument",
+      "decision_support": "none",
+      "all_mention_ids": [
+        "R15"
+      ]
+    },
+    {
+      "rationale_label": "market_problem_validation",
+      "direction": "positive",
+      "salience": "primary",
+      "confidence": 0.98,
+      "utterance_type": "assessment",
+      "decision_link": "none",
+      "timing": "original_pitch",
+      "turn_index": 133,
+      "quote": "It's definitely a true pain point.",
+      "explanation": "Cyan explicitly validates the underlying connectivity problem as important to customers.",
+      "evidence": [
+        "Because sometimes the cell networks can't keep up with all of the players",
+        "It's definitely a true pain point.",
+        "when you have lost revenue and then your CEO is yelling at you"
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 124,
+          "speaker": "Cyan",
+          "quote": "Because sometimes the cell networks can't keep up with all of the players"
+        },
+        {
+          "turn_index": 133,
+          "speaker": "Cyan",
+          "quote": "It's definitely a true pain point."
+        },
+        {
+          "turn_index": 135,
+          "speaker": "Cyan",
+          "quote": "when you have lost revenue and then your CEO is yelling at you"
+        }
+      ],
+      "activation": "evaluated",
+      "source_rationale_id": "R13",
+      "utterance_kind": "assessment",
+      "decision_support": "none",
+      "all_mention_ids": [
+        "R9",
+        "R13",
+        "R14"
+      ]
+    },
+    {
+      "rationale_label": "mission_alignment_preference",
+      "direction": "positive",
+      "salience": "primary",
+      "confidence": 0.97,
+      "utterance_type": "decision_reason",
+      "decision_link": "explicit",
+      "timing": "original_pitch",
+      "turn_index": 137,
+      "quote": "it just also just fits with my freedom of speech work that I do",
+      "explanation": "Cyan explicitly connects her interest in a larger check to alignment with her free-speech work.",
+      "evidence": [
+        "Because of that answer.",
+        "everyone deserves the right to communicate, no matter what side you're on",
+        "it's a great cause",
+        "it just also just fits with my freedom of speech work that I do"
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 52,
+          "speaker": "Cyan",
+          "quote": "Because of that answer."
+        },
+        {
+          "turn_index": 55,
+          "speaker": "Cyan",
+          "quote": "everyone deserves the right to communicate, no matter what side you're on"
+        },
+        {
+          "turn_index": 59,
+          "speaker": "Cyan",
+          "quote": "it's a great cause"
+        },
+        {
+          "turn_index": 137,
+          "speaker": "Cyan",
+          "quote": "it just also just fits with my freedom of speech work that I do"
+        }
+      ],
+      "activation": "evaluated",
+      "source_rationale_id": "R16",
+      "utterance_kind": "decision_explanation",
+      "decision_support": "supports_in",
+      "all_mention_ids": [
+        "R3",
+        "R4",
+        "R6",
+        "R7",
+        "R16"
+      ]
+    },
+    {
+      "rationale_label": "solution_feasibility_assessment",
+      "direction": "neutral",
+      "salience": "secondary",
+      "confidence": 0.87,
+      "utterance_type": "assessment",
+      "decision_link": "none",
+      "timing": "original_pitch",
+      "turn_index": 130,
+      "quote": "The Apple approval program, that you have to get your app updated.",
+      "explanation": "Cyan identifies an app-store approval and update requirement affecting implementation.",
+      "evidence": [
+        "So does one person have to have access to a connection or none?",
+        "What are the transfer speeds?",
+        "The Apple approval program, that you have to get your app updated."
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 19,
+          "speaker": "Cyan",
+          "quote": "So does one person have to have access to a connection or none?"
+        },
+        {
+          "turn_index": 36,
+          "speaker": "Cyan",
+          "quote": "What are the transfer speeds?"
+        },
+        {
+          "turn_index": 130,
+          "speaker": "Cyan",
+          "quote": "The Apple approval program, that you have to get your app updated."
+        }
+      ],
+      "activation": "evaluated",
+      "source_rationale_id": "R12",
+      "utterance_kind": "assessment",
+      "decision_support": "none",
+      "all_mention_ids": [
+        "R1",
+        "R2",
+        "R12"
+      ]
+    }
+  ],
+  "later_rationales": [
+    {
+      "rationale_label": "product_differentiation_concern",
+      "direction": "negative",
+      "salience": "secondary",
+      "confidence": 0.92,
+      "utterance_type": "concern",
+      "decision_link": "none",
+      "timing": "later_commentary",
+      "turn_index": 150,
+      "quote": "There's some uncertainty around the competitive landscape",
+      "explanation": "Cyan expresses uncertainty about the company's claim that it is the only provider of this technology.",
+      "evidence": [
+        "There's some uncertainty around the competitive landscape"
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 150,
+          "speaker": "Cyan",
+          "quote": "There's some uncertainty around the competitive landscape"
+        }
+      ],
+      "activation": "evaluated",
+      "source_rationale_id": "R17"
+    },
+    {
+      "rationale_label": "decision_context_constraint",
+      "direction": "neutral",
+      "salience": "secondary",
+      "confidence": 0.93,
+      "utterance_type": "decision_explanation",
+      "decision_link": "supports_in",
+      "timing": "later_commentary",
+      "turn_index": 154,
+      "quote": "once you get Scott, if you can convince him, you can convince the fund",
+      "explanation": "Cyan explains that Scott's view is a practical gate for the fund's investment decision.",
+      "evidence": [
+        "once you get Scott, if you can convince him, you can convince the fund"
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 154,
+          "speaker": "Cyan",
+          "quote": "once you get Scott, if you can convince him, you can convince the fund"
+        }
+      ],
+      "activation": "evaluated",
+      "source_rationale_id": "R18"
+    }
+  ],
+  "excluded_rationales": [
+    {
+      "rationale_label": "mission_alignment_preference",
+      "direction": "positive",
+      "salience": "primary",
+      "confidence": 0.98,
+      "utterance_type": "decision_explanation",
+      "decision_link": "supports_in",
+      "timing": "teaser",
+      "turn_index": 53,
+      "quote": "Because of that answer.",
+      "explanation": "This repeated commitment clip again links Cyan's investment to alignment with the free-speech stance.",
+      "evidence": [
+        "Because of that answer."
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 53,
+          "speaker": "Cyan",
+          "quote": "Because of that answer."
+        }
+      ],
+      "activation": "evaluated",
+      "source_rationale_id": "R5"
+    }
+  ],
+  "rationale_mentions": [
+    {
+      "rationale_label": "solution_feasibility_assessment",
+      "direction": "neutral",
+      "salience": "secondary",
+      "confidence": 0.94,
+      "utterance_type": "question",
+      "decision_link": "none",
+      "timing": "original_pitch",
+      "turn_index": 19,
+      "quote": "So does one person have to have access to a connection or none?",
+      "explanation": "Cyan asks about a core technical operating requirement of the solution.",
+      "evidence": [
+        "So does one person have to have access to a connection or none?"
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 19,
+          "speaker": "Cyan",
+          "quote": "So does one person have to have access to a connection or none?"
+        }
+      ],
+      "activation": "queried",
+      "source_rationale_id": "R1"
+    },
+    {
+      "rationale_label": "solution_feasibility_assessment",
+      "direction": "neutral",
+      "salience": "secondary",
+      "confidence": 0.95,
+      "utterance_type": "question",
+      "decision_link": "none",
+      "timing": "original_pitch",
+      "turn_index": 36,
+      "quote": "What are the transfer speeds?",
+      "explanation": "Cyan probes the product's technical performance.",
+      "evidence": [
+        "What are the transfer speeds?"
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 36,
+          "speaker": "Cyan",
+          "quote": "What are the transfer speeds?"
+        }
+      ],
+      "activation": "queried",
+      "source_rationale_id": "R2"
+    },
+    {
+      "rationale_label": "mission_alignment_preference",
+      "direction": "neutral",
+      "salience": "secondary",
+      "confidence": 0.88,
+      "utterance_type": "question",
+      "decision_link": "none",
+      "timing": "original_pitch",
+      "turn_index": 50,
+      "quote": "Are you just into free speech?",
+      "explanation": "Cyan asks whether the company's geographic and commercial stance is tied to a free-speech mission.",
+      "evidence": [
+        "Are you just into free speech?"
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 50,
+          "speaker": "Cyan",
+          "quote": "Are you just into free speech?"
+        }
+      ],
+      "activation": "queried",
+      "source_rationale_id": "R3"
+    },
+    {
+      "rationale_label": "mission_alignment_preference",
+      "direction": "positive",
+      "salience": "primary",
+      "confidence": 0.99,
+      "utterance_type": "decision_explanation",
+      "decision_link": "supports_in",
+      "timing": "original_pitch",
+      "turn_index": 52,
+      "quote": "Because of that answer.",
+      "explanation": "Cyan explicitly ties her $50,000 commitment to the founder's free-speech answer.",
+      "evidence": [
+        "Because of that answer."
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 52,
+          "speaker": "Cyan",
+          "quote": "Because of that answer."
+        }
+      ],
+      "activation": "evaluated",
+      "source_rationale_id": "R4"
+    },
+    {
+      "rationale_label": "mission_alignment_preference",
+      "direction": "positive",
+      "salience": "primary",
+      "confidence": 0.98,
+      "utterance_type": "decision_explanation",
+      "decision_link": "supports_in",
+      "timing": "original_pitch",
+      "turn_index": 55,
+      "quote": "everyone deserves the right to communicate, no matter what side you're on",
+      "explanation": "Cyan explains her support through her strong personal commitment to free speech.",
+      "evidence": [
+        "everyone deserves the right to communicate, no matter what side you're on"
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 55,
+          "speaker": "Cyan",
+          "quote": "everyone deserves the right to communicate, no matter what side you're on"
+        }
+      ],
+      "activation": "evaluated",
+      "source_rationale_id": "R6"
+    },
+    {
+      "rationale_label": "mission_alignment_preference",
+      "direction": "positive",
+      "salience": "secondary",
+      "confidence": 0.95,
+      "utterance_type": "supporting_argument",
+      "decision_link": "supports_in",
+      "timing": "original_pitch",
+      "turn_index": 59,
+      "quote": "it's a great cause",
+      "explanation": "Cyan identifies the company's social purpose as an additional reason to support it.",
+      "evidence": [
+        "it's a great cause"
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 59,
+          "speaker": "Cyan",
+          "quote": "it's a great cause"
+        }
+      ],
+      "activation": "evaluated",
+      "source_rationale_id": "R7"
+    },
+    {
+      "rationale_label": "investor_value_add_fit",
+      "direction": "positive",
+      "salience": "secondary",
+      "confidence": 0.94,
+      "utterance_type": "supporting_argument",
+      "decision_link": "none",
+      "timing": "original_pitch",
+      "turn_index": 122,
+      "quote": "I would like to introduce you to them.",
+      "explanation": "Cyan offers a relevant network introduction that could help the company reach a potential customer.",
+      "evidence": [
+        "I would like to introduce you to them."
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 122,
+          "speaker": "Cyan",
+          "quote": "I would like to introduce you to them."
+        }
+      ],
+      "activation": "evaluated",
+      "source_rationale_id": "R8"
+    },
+    {
+      "rationale_label": "market_problem_validation",
+      "direction": "positive",
+      "salience": "secondary",
+      "confidence": 0.93,
+      "utterance_type": "supporting_argument",
+      "decision_link": "none",
+      "timing": "original_pitch",
+      "turn_index": 124,
+      "quote": "Because sometimes the cell networks can't keep up with all of the players",
+      "explanation": "Cyan identifies a concrete connectivity problem during large Pokémon Go events.",
+      "evidence": [
+        "Because sometimes the cell networks can't keep up with all of the players"
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 124,
+          "speaker": "Cyan",
+          "quote": "Because sometimes the cell networks can't keep up with all of the players"
+        }
+      ],
+      "activation": "evaluated",
+      "source_rationale_id": "R9"
+    },
+    {
+      "rationale_label": "investor_value_add_fit",
+      "direction": "positive",
+      "salience": "secondary",
+      "confidence": 0.95,
+      "utterance_type": "supporting_argument",
+      "decision_link": "none",
+      "timing": "original_pitch",
+      "turn_index": 124,
+      "quote": "I want to put you in touch with him.",
+      "explanation": "Cyan offers access to the Pokémon Go founder as a potential customer or partner.",
+      "evidence": [
+        "I want to put you in touch with him."
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 124,
+          "speaker": "Cyan",
+          "quote": "I want to put you in touch with him."
+        }
+      ],
+      "activation": "evaluated",
+      "source_rationale_id": "R10"
+    },
+    {
+      "rationale_label": "investor_value_add_fit",
+      "direction": "positive",
+      "salience": "secondary",
+      "confidence": 0.94,
+      "utterance_type": "supporting_argument",
+      "decision_link": "none",
+      "timing": "original_pitch",
+      "turn_index": 128,
+      "quote": "I have so many companies I want to introduce him to.",
+      "explanation": "Cyan presents her network as a source of potential company introductions.",
+      "evidence": [
+        "I have so many companies I want to introduce him to."
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 128,
+          "speaker": "Cyan",
+          "quote": "I have so many companies I want to introduce him to."
+        }
+      ],
+      "activation": "evaluated",
+      "source_rationale_id": "R11"
+    },
+    {
+      "rationale_label": "solution_feasibility_assessment",
+      "direction": "neutral",
+      "salience": "secondary",
+      "confidence": 0.87,
+      "utterance_type": "assessment",
+      "decision_link": "none",
+      "timing": "original_pitch",
+      "turn_index": 130,
+      "quote": "The Apple approval program, that you have to get your app updated.",
+      "explanation": "Cyan identifies an app-store approval and update requirement affecting implementation.",
+      "evidence": [
+        "The Apple approval program, that you have to get your app updated."
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 130,
+          "speaker": "Cyan",
+          "quote": "The Apple approval program, that you have to get your app updated."
+        }
+      ],
+      "activation": "evaluated",
+      "source_rationale_id": "R12"
+    },
+    {
+      "rationale_label": "market_problem_validation",
+      "direction": "positive",
+      "salience": "primary",
+      "confidence": 0.98,
+      "utterance_type": "assessment",
+      "decision_link": "none",
+      "timing": "original_pitch",
+      "turn_index": 133,
+      "quote": "It's definitely a true pain point.",
+      "explanation": "Cyan explicitly validates the underlying connectivity problem as important to customers.",
+      "evidence": [
+        "It's definitely a true pain point."
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 133,
+          "speaker": "Cyan",
+          "quote": "It's definitely a true pain point."
+        }
+      ],
+      "activation": "evaluated",
+      "source_rationale_id": "R13"
+    },
+    {
+      "rationale_label": "market_problem_validation",
+      "direction": "positive",
+      "salience": "secondary",
+      "confidence": 0.94,
+      "utterance_type": "supporting_argument",
+      "decision_link": "none",
+      "timing": "original_pitch",
+      "turn_index": 135,
+      "quote": "when you have lost revenue and then your CEO is yelling at you",
+      "explanation": "Cyan explains how outages create urgent economic and organizational pain for customers.",
+      "evidence": [
+        "when you have lost revenue and then your CEO is yelling at you"
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 135,
+          "speaker": "Cyan",
+          "quote": "when you have lost revenue and then your CEO is yelling at you"
+        }
+      ],
+      "activation": "evaluated",
+      "source_rationale_id": "R14"
+    },
+    {
+      "rationale_label": "market_entry_path_assessment",
+      "direction": "positive",
+      "salience": "secondary",
+      "confidence": 0.89,
+      "utterance_type": "supporting_argument",
+      "decision_link": "none",
+      "timing": "original_pitch",
+      "turn_index": 137,
+      "quote": "if he gets a couple of these, like Citizen, Pokémon Go, maybe like United Airlines",
+      "explanation": "Cyan identifies recognizable potential customers that could provide an initial path into the market.",
+      "evidence": [
+        "if he gets a couple of these, like Citizen, Pokémon Go, maybe like United Airlines"
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 137,
+          "speaker": "Cyan",
+          "quote": "if he gets a couple of these, like Citizen, Pokémon Go, maybe like United Airlines"
+        }
+      ],
+      "activation": "evaluated",
+      "source_rationale_id": "R15"
+    },
+    {
+      "rationale_label": "mission_alignment_preference",
+      "direction": "positive",
+      "salience": "primary",
+      "confidence": 0.97,
+      "utterance_type": "decision_explanation",
+      "decision_link": "supports_in",
+      "timing": "original_pitch",
+      "turn_index": 137,
+      "quote": "it just also just fits with my freedom of speech work that I do",
+      "explanation": "Cyan explicitly connects her interest in a larger check to alignment with her free-speech work.",
+      "evidence": [
+        "it just also just fits with my freedom of speech work that I do"
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 137,
+          "speaker": "Cyan",
+          "quote": "it just also just fits with my freedom of speech work that I do"
+        }
+      ],
+      "activation": "evaluated",
+      "source_rationale_id": "R16"
+    }
+  ],
+  "expanded_quote_evidence": [],
+  "rejected_after_evidence_check": []
+}

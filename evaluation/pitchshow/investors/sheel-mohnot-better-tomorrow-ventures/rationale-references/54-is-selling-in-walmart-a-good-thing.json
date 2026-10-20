@@ -1,0 +1,792 @@
+{
+  "schema": "phase1-rationale-reference-v1",
+  "extraction_version": "pitchshow-rationales-v1",
+  "fingerprint": "ba07fcb9f2d7ce4a88c26d2441e0f2dcc08ca50f097b5c3c41de579fb1967c4b",
+  "episode_slug": "54-is-selling-in-walmart-a-good-thing",
+  "vc_slug": "sheel-mohnot-better-tomorrow-ventures",
+  "vc_name": "Sheel Mohnot",
+  "actual_decision": "Out",
+  "later_decision": "Unknown",
+  "reference_kind": "automated_transcript_observed_candidate",
+  "human_validated": false,
+  "source_format": "transcript-observed-rationales-v1",
+  "source_path": "../source/episodes/54-is-selling-in-walmart-a-good-thing.json",
+  "source_sha256": "ca02c039c7ae4f2dbb914ad10e76283b9648f345cdfec3f39539b805565ccd2a",
+  "transcript_sha256": "7c1b0ab4f81e7791558dc806232ab7954dd81f4076aea8703f4b781767f97586",
+  "taxonomy_sha256": "eaa8734819a3ac34dd19ee5f0bf6de925a793a1d25a2d361090dafc9b751e1fc",
+  "model": "codex:gpt-5.6-luna+gpt-5.6-sol",
+  "generation_stages": [
+    {
+      "phase": "rationale_extract",
+      "backend": "codex",
+      "model": "gpt-5.6-luna"
+    },
+    {
+      "phase": "rationale_verify",
+      "backend": "codex",
+      "model": "gpt-5.6-sol"
+    }
+  ],
+  "source_tier": "newly_extracted_and_independently_model_reviewed",
+  "reviewed_target_turns": [
+    5,
+    33,
+    35,
+    38,
+    40,
+    88,
+    119,
+    140,
+    146,
+    148,
+    150,
+    152,
+    155,
+    165,
+    169,
+    172,
+    179,
+    188
+  ],
+  "notes": "Turn 150's seed-stage argument was treated as an execution-risk assessment rather than an evaluation-format constraint. Bare introductions, acknowledgments, echoes, and simple agreements at turns 5, 35, 148, 152, 165, and 169 were not annotated. The immediate post-founder debrief remains original_pitch.",
+  "receipt_path": "receipts/54-is-selling-in-walmart-a-good-thing.json",
+  "scoring_scope": "original_pitch_only",
+  "shared_across_input_modes": true,
+  "rationales": [
+    {
+      "rationale_label": "competitive_advantage_assessment",
+      "direction": "positive",
+      "salience": "secondary",
+      "confidence": 0.92,
+      "utterance_type": "assessment",
+      "decision_link": "none",
+      "timing": "original_pitch",
+      "turn_index": 119,
+      "quote": "The acquisition was not about how many stores they had. It was about the brand that they built.",
+      "explanation": "Sheel argues that brand strength, rather than store count, can drive strategic value in the coffee market.",
+      "evidence": [
+        "The acquisition was not about how many stores they had. It was about the brand that they built."
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 119,
+          "speaker": "Sheel",
+          "quote": "The acquisition was not about how many stores they had. It was about the brand that they built."
+        }
+      ],
+      "activation": "evaluated",
+      "source_rationale_id": "R5",
+      "utterance_kind": "supporting_argument",
+      "decision_support": "none",
+      "all_mention_ids": [
+        "R5"
+      ]
+    },
+    {
+      "rationale_label": "execution_risk_assessment",
+      "direction": "positive",
+      "salience": "secondary",
+      "confidence": 0.94,
+      "utterance_type": "assessment",
+      "decision_link": "none",
+      "timing": "original_pitch",
+      "turn_index": 150,
+      "quote": "I don't think that she needs that skill set as a cofounder. Like, and this is a seed deal.",
+      "explanation": "Sheel argues that lacking a growth-marketing cofounder is not disqualifying at the company's seed stage.",
+      "evidence": [
+        "I don't think that she needs that skill set as a cofounder. Like, and this is a seed deal."
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 150,
+          "speaker": "Sheel",
+          "quote": "I don't think that she needs that skill set as a cofounder. Like, and this is a seed deal."
+        }
+      ],
+      "activation": "evaluated",
+      "source_rationale_id": "R11",
+      "utterance_kind": "supporting_argument",
+      "decision_support": "none",
+      "all_mention_ids": [
+        "R11"
+      ]
+    },
+    {
+      "rationale_label": "founder_execution",
+      "direction": "positive",
+      "salience": "primary",
+      "confidence": 0.98,
+      "utterance_type": "assessment",
+      "decision_link": "none",
+      "timing": "original_pitch",
+      "turn_index": 146,
+      "quote": "she built this to a million dollars in revenue all on her own",
+      "explanation": "Sheel argues that Debbie's independently achieved revenue already demonstrates substantial execution.",
+      "evidence": [
+        "the fact that you’ve built this and got it in 3000 stores basically all by yourself is incredible",
+        "she built this to a million dollars in revenue all on her own"
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 140,
+          "speaker": "Sheel",
+          "quote": "the fact that you’ve built this and got it in 3000 stores basically all by yourself is incredible"
+        },
+        {
+          "turn_index": 146,
+          "speaker": "Sheel",
+          "quote": "she built this to a million dollars in revenue all on her own"
+        }
+      ],
+      "activation": "evaluated",
+      "source_rationale_id": "R9",
+      "utterance_kind": "supporting_argument",
+      "decision_support": "none",
+      "all_mention_ids": [
+        "R6",
+        "R9"
+      ]
+    },
+    {
+      "rationale_label": "go_to_market_strategy_assessment",
+      "direction": "negative",
+      "salience": "secondary",
+      "confidence": 0.89,
+      "utterance_type": "assessment",
+      "decision_link": "none",
+      "timing": "original_pitch",
+      "turn_index": 188,
+      "quote": "It feels off.",
+      "explanation": "In the discussion of Walmart's fit with a premium coffee brand, Sheel expresses concern that the channel-brand alignment is wrong.",
+      "evidence": [
+        "But it's not there yet.",
+        "It feels off."
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 155,
+          "speaker": "Sheel",
+          "quote": "But it's not there yet."
+        },
+        {
+          "turn_index": 188,
+          "speaker": "Sheel",
+          "quote": "It feels off."
+        }
+      ],
+      "activation": "evaluated",
+      "source_rationale_id": "R17",
+      "utterance_kind": "assessment",
+      "decision_support": "none",
+      "all_mention_ids": [
+        "R4",
+        "R12",
+        "R16",
+        "R17"
+      ]
+    },
+    {
+      "rationale_label": "investor_domain_knowledge_constraint",
+      "direction": "negative",
+      "salience": "primary",
+      "confidence": 1.0,
+      "utterance_type": "decision_reason",
+      "decision_link": "explicit",
+      "timing": "original_pitch",
+      "turn_index": 140,
+      "quote": "For me, it’s just a category I don’t know well enough to make an investment",
+      "explanation": "Sheel explicitly makes his insufficient knowledge of the coffee category the reason for passing.",
+      "evidence": [
+        "For me, it’s just a category I don’t know well enough to make an investment",
+        "I don't know coffee, so I thought it was a super niche product."
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 140,
+          "speaker": "Sheel",
+          "quote": "For me, it’s just a category I don’t know well enough to make an investment"
+        },
+        {
+          "turn_index": 172,
+          "speaker": "Sheel",
+          "quote": "I don't know coffee, so I thought it was a super niche product."
+        }
+      ],
+      "activation": "evaluated",
+      "source_rationale_id": "R8",
+      "utterance_kind": "decision_explanation",
+      "decision_support": "supports_out",
+      "all_mention_ids": [
+        "R8",
+        "R15"
+      ]
+    },
+    {
+      "rationale_label": "investor_experience_bias",
+      "direction": "positive",
+      "salience": "secondary",
+      "confidence": 0.91,
+      "utterance_type": "assessment",
+      "decision_link": "none",
+      "timing": "original_pitch",
+      "turn_index": 150,
+      "quote": "I've hired growth markets. She could hire a growth marketer.",
+      "explanation": "Sheel draws on his own hiring experience to argue that the missing growth-marketing capability can be recruited.",
+      "evidence": [
+        "I've hired growth markets. She could hire a growth marketer."
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 150,
+          "speaker": "Sheel",
+          "quote": "I've hired growth markets. She could hire a growth marketer."
+        }
+      ],
+      "activation": "evaluated",
+      "source_rationale_id": "R10",
+      "utterance_kind": "supporting_argument",
+      "decision_support": "none",
+      "all_mention_ids": [
+        "R10"
+      ]
+    },
+    {
+      "rationale_label": "market_size_assessment",
+      "direction": "positive",
+      "salience": "primary",
+      "confidence": 0.97,
+      "utterance_type": "assessment",
+      "decision_link": "none",
+      "timing": "original_pitch",
+      "turn_index": 172,
+      "quote": "But it is mainstream",
+      "explanation": "Sheel reverses his earlier niche-market view and concludes that the product has mainstream reach.",
+      "evidence": [
+        "But it is mainstream"
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 172,
+          "speaker": "Sheel",
+          "quote": "But it is mainstream"
+        }
+      ],
+      "activation": "evaluated",
+      "source_rationale_id": "R13",
+      "utterance_kind": "assessment",
+      "decision_support": "none",
+      "all_mention_ids": [
+        "R13"
+      ]
+    },
+    {
+      "rationale_label": "product_adoption",
+      "direction": "positive",
+      "salience": "secondary",
+      "confidence": 0.97,
+      "utterance_type": "assessment",
+      "decision_link": "none",
+      "timing": "original_pitch",
+      "turn_index": 172,
+      "quote": "I've started to see it in offices everywhere in San Francisco. And I see people loving it.",
+      "explanation": "Sheel cites widespread office presence and enthusiastic use as evidence of adoption.",
+      "evidence": [
+        "My fiancée, by the way, is addicted to your product. She, every single day, and like when we go on trips, she takes it with her.",
+        "I've started to see it in offices everywhere in San Francisco. And I see people loving it."
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 140,
+          "speaker": "Sheel",
+          "quote": "My fiancée, by the way, is addicted to your product. She, every single day, and like when we go on trips, she takes it with her."
+        },
+        {
+          "turn_index": 172,
+          "speaker": "Sheel",
+          "quote": "I've started to see it in offices everywhere in San Francisco. And I see people loving it."
+        }
+      ],
+      "activation": "evaluated",
+      "source_rationale_id": "R14",
+      "utterance_kind": "supporting_argument",
+      "decision_support": "none",
+      "all_mention_ids": [
+        "R1",
+        "R7",
+        "R14"
+      ]
+    },
+    {
+      "rationale_label": "traction_repeatability_concern",
+      "direction": "neutral",
+      "salience": "secondary",
+      "confidence": 0.95,
+      "utterance_type": "question",
+      "decision_link": "none",
+      "timing": "original_pitch",
+      "turn_index": 40,
+      "quote": "Are they reordering? Are you at that point yet with Walmart?",
+      "explanation": "Sheel probes whether retail traction is producing repeat orders, without yet expressing a negative conclusion.",
+      "evidence": [
+        "Are they reordering? Are you at that point yet with Walmart?"
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 40,
+          "speaker": "Sheel",
+          "quote": "Are they reordering? Are you at that point yet with Walmart?"
+        }
+      ],
+      "activation": "queried",
+      "source_rationale_id": "R3",
+      "utterance_kind": "question",
+      "decision_support": "none",
+      "all_mention_ids": [
+        "R3"
+      ]
+    },
+    {
+      "rationale_label": "unit_economics_assessment",
+      "direction": "neutral",
+      "salience": "secondary",
+      "confidence": 0.98,
+      "utterance_type": "question",
+      "decision_link": "none",
+      "timing": "original_pitch",
+      "turn_index": 38,
+      "quote": "Like what does it cost you? What do you sell it to the retailer for generally speaking?",
+      "explanation": "Sheel requests cost and wholesale-price data to assess per-unit economics.",
+      "evidence": [
+        "Like what does it cost you? What do you sell it to the retailer for generally speaking?"
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 38,
+          "speaker": "Sheel",
+          "quote": "Like what does it cost you? What do you sell it to the retailer for generally speaking?"
+        }
+      ],
+      "activation": "queried",
+      "source_rationale_id": "R2",
+      "utterance_kind": "question",
+      "decision_support": "none",
+      "all_mention_ids": [
+        "R2"
+      ]
+    }
+  ],
+  "later_rationales": [],
+  "excluded_rationales": [],
+  "rationale_mentions": [
+    {
+      "rationale_label": "product_adoption",
+      "direction": "neutral",
+      "salience": "secondary",
+      "confidence": 0.94,
+      "utterance_type": "question",
+      "decision_link": "none",
+      "timing": "original_pitch",
+      "turn_index": 33,
+      "quote": "What percent of your customers are using it just for the coffee versus the Vietnamese coffee? Like the condensed milk add on?",
+      "explanation": "Sheel asks how customers use the coffee and condensed-milk components, probing actual product usage.",
+      "evidence": [
+        "What percent of your customers are using it just for the coffee versus the Vietnamese coffee? Like the condensed milk add on?"
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 33,
+          "speaker": "Sheel",
+          "quote": "What percent of your customers are using it just for the coffee versus the Vietnamese coffee? Like the condensed milk add on?"
+        }
+      ],
+      "activation": "queried",
+      "source_rationale_id": "R1"
+    },
+    {
+      "rationale_label": "unit_economics_assessment",
+      "direction": "neutral",
+      "salience": "secondary",
+      "confidence": 0.98,
+      "utterance_type": "question",
+      "decision_link": "none",
+      "timing": "original_pitch",
+      "turn_index": 38,
+      "quote": "Like what does it cost you? What do you sell it to the retailer for generally speaking?",
+      "explanation": "Sheel requests cost and wholesale-price data to assess per-unit economics.",
+      "evidence": [
+        "Like what does it cost you? What do you sell it to the retailer for generally speaking?"
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 38,
+          "speaker": "Sheel",
+          "quote": "Like what does it cost you? What do you sell it to the retailer for generally speaking?"
+        }
+      ],
+      "activation": "queried",
+      "source_rationale_id": "R2"
+    },
+    {
+      "rationale_label": "traction_repeatability_concern",
+      "direction": "neutral",
+      "salience": "secondary",
+      "confidence": 0.95,
+      "utterance_type": "question",
+      "decision_link": "none",
+      "timing": "original_pitch",
+      "turn_index": 40,
+      "quote": "Are they reordering? Are you at that point yet with Walmart?",
+      "explanation": "Sheel probes whether retail traction is producing repeat orders, without yet expressing a negative conclusion.",
+      "evidence": [
+        "Are they reordering? Are you at that point yet with Walmart?"
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 40,
+          "speaker": "Sheel",
+          "quote": "Are they reordering? Are you at that point yet with Walmart?"
+        }
+      ],
+      "activation": "queried",
+      "source_rationale_id": "R3"
+    },
+    {
+      "rationale_label": "go_to_market_strategy_assessment",
+      "direction": "neutral",
+      "salience": "secondary",
+      "confidence": 0.94,
+      "utterance_type": "question",
+      "decision_link": "none",
+      "timing": "original_pitch",
+      "turn_index": 88,
+      "quote": "What do you want that to be next year?",
+      "explanation": "In context, Sheel asks about the planned future mix of retail, online, and office channels.",
+      "evidence": [
+        "What do you want that to be next year?"
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 88,
+          "speaker": "Sheel",
+          "quote": "What do you want that to be next year?"
+        }
+      ],
+      "activation": "queried",
+      "source_rationale_id": "R4"
+    },
+    {
+      "rationale_label": "competitive_advantage_assessment",
+      "direction": "positive",
+      "salience": "secondary",
+      "confidence": 0.92,
+      "utterance_type": "supporting_argument",
+      "decision_link": "none",
+      "timing": "original_pitch",
+      "turn_index": 119,
+      "quote": "The acquisition was not about how many stores they had. It was about the brand that they built.",
+      "explanation": "Sheel argues that brand strength, rather than store count, can drive strategic value in the coffee market.",
+      "evidence": [
+        "The acquisition was not about how many stores they had. It was about the brand that they built."
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 119,
+          "speaker": "Sheel",
+          "quote": "The acquisition was not about how many stores they had. It was about the brand that they built."
+        }
+      ],
+      "activation": "evaluated",
+      "source_rationale_id": "R5"
+    },
+    {
+      "rationale_label": "founder_execution",
+      "direction": "positive",
+      "salience": "primary",
+      "confidence": 0.99,
+      "utterance_type": "supporting_argument",
+      "decision_link": "none",
+      "timing": "original_pitch",
+      "turn_index": 140,
+      "quote": "the fact that you’ve built this and got it in 3000 stores basically all by yourself is incredible",
+      "explanation": "Sheel identifies Debbie's largely solo achievement of broad retail distribution as exceptional execution.",
+      "evidence": [
+        "the fact that you’ve built this and got it in 3000 stores basically all by yourself is incredible"
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 140,
+          "speaker": "Sheel",
+          "quote": "the fact that you’ve built this and got it in 3000 stores basically all by yourself is incredible"
+        }
+      ],
+      "activation": "evaluated",
+      "source_rationale_id": "R6"
+    },
+    {
+      "rationale_label": "product_adoption",
+      "direction": "positive",
+      "salience": "secondary",
+      "confidence": 0.97,
+      "utterance_type": "supporting_argument",
+      "decision_link": "none",
+      "timing": "original_pitch",
+      "turn_index": 140,
+      "quote": "My fiancée, by the way, is addicted to your product. She, every single day, and like when we go on trips, she takes it with her.",
+      "explanation": "Sheel cites frequent, persistent use by his fiancée as direct evidence of strong product adoption.",
+      "evidence": [
+        "My fiancée, by the way, is addicted to your product. She, every single day, and like when we go on trips, she takes it with her."
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 140,
+          "speaker": "Sheel",
+          "quote": "My fiancée, by the way, is addicted to your product. She, every single day, and like when we go on trips, she takes it with her."
+        }
+      ],
+      "activation": "evaluated",
+      "source_rationale_id": "R7"
+    },
+    {
+      "rationale_label": "investor_domain_knowledge_constraint",
+      "direction": "negative",
+      "salience": "primary",
+      "confidence": 1.0,
+      "utterance_type": "decision_explanation",
+      "decision_link": "supports_out",
+      "timing": "original_pitch",
+      "turn_index": 140,
+      "quote": "For me, it’s just a category I don’t know well enough to make an investment",
+      "explanation": "Sheel explicitly makes his insufficient knowledge of the coffee category the reason for passing.",
+      "evidence": [
+        "For me, it’s just a category I don’t know well enough to make an investment"
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 140,
+          "speaker": "Sheel",
+          "quote": "For me, it’s just a category I don’t know well enough to make an investment"
+        }
+      ],
+      "activation": "evaluated",
+      "source_rationale_id": "R8"
+    },
+    {
+      "rationale_label": "founder_execution",
+      "direction": "positive",
+      "salience": "primary",
+      "confidence": 0.98,
+      "utterance_type": "supporting_argument",
+      "decision_link": "none",
+      "timing": "original_pitch",
+      "turn_index": 146,
+      "quote": "she built this to a million dollars in revenue all on her own",
+      "explanation": "Sheel argues that Debbie's independently achieved revenue already demonstrates substantial execution.",
+      "evidence": [
+        "she built this to a million dollars in revenue all on her own"
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 146,
+          "speaker": "Sheel",
+          "quote": "she built this to a million dollars in revenue all on her own"
+        }
+      ],
+      "activation": "evaluated",
+      "source_rationale_id": "R9"
+    },
+    {
+      "rationale_label": "investor_experience_bias",
+      "direction": "positive",
+      "salience": "secondary",
+      "confidence": 0.91,
+      "utterance_type": "supporting_argument",
+      "decision_link": "none",
+      "timing": "original_pitch",
+      "turn_index": 150,
+      "quote": "I've hired growth markets. She could hire a growth marketer.",
+      "explanation": "Sheel draws on his own hiring experience to argue that the missing growth-marketing capability can be recruited.",
+      "evidence": [
+        "I've hired growth markets. She could hire a growth marketer."
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 150,
+          "speaker": "Sheel",
+          "quote": "I've hired growth markets. She could hire a growth marketer."
+        }
+      ],
+      "activation": "evaluated",
+      "source_rationale_id": "R10"
+    },
+    {
+      "rationale_label": "execution_risk_assessment",
+      "direction": "positive",
+      "salience": "secondary",
+      "confidence": 0.94,
+      "utterance_type": "supporting_argument",
+      "decision_link": "none",
+      "timing": "original_pitch",
+      "turn_index": 150,
+      "quote": "I don't think that she needs that skill set as a cofounder. Like, and this is a seed deal.",
+      "explanation": "Sheel argues that lacking a growth-marketing cofounder is not disqualifying at the company's seed stage.",
+      "evidence": [
+        "I don't think that she needs that skill set as a cofounder. Like, and this is a seed deal."
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 150,
+          "speaker": "Sheel",
+          "quote": "I don't think that she needs that skill set as a cofounder. Like, and this is a seed deal."
+        }
+      ],
+      "activation": "evaluated",
+      "source_rationale_id": "R11"
+    },
+    {
+      "rationale_label": "go_to_market_strategy_assessment",
+      "direction": "negative",
+      "salience": "secondary",
+      "confidence": 0.86,
+      "utterance_type": "assessment",
+      "decision_link": "none",
+      "timing": "original_pitch",
+      "turn_index": 155,
+      "quote": "But it's not there yet.",
+      "explanation": "Sheel assesses that the company has not yet reached the direct-to-consumer profile being discussed.",
+      "evidence": [
+        "But it's not there yet."
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 155,
+          "speaker": "Sheel",
+          "quote": "But it's not there yet."
+        }
+      ],
+      "activation": "evaluated",
+      "source_rationale_id": "R12"
+    },
+    {
+      "rationale_label": "market_size_assessment",
+      "direction": "positive",
+      "salience": "primary",
+      "confidence": 0.97,
+      "utterance_type": "assessment",
+      "decision_link": "none",
+      "timing": "original_pitch",
+      "turn_index": 172,
+      "quote": "But it is mainstream",
+      "explanation": "Sheel reverses his earlier niche-market view and concludes that the product has mainstream reach.",
+      "evidence": [
+        "But it is mainstream"
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 172,
+          "speaker": "Sheel",
+          "quote": "But it is mainstream"
+        }
+      ],
+      "activation": "evaluated",
+      "source_rationale_id": "R13"
+    },
+    {
+      "rationale_label": "product_adoption",
+      "direction": "positive",
+      "salience": "secondary",
+      "confidence": 0.97,
+      "utterance_type": "supporting_argument",
+      "decision_link": "none",
+      "timing": "original_pitch",
+      "turn_index": 172,
+      "quote": "I've started to see it in offices everywhere in San Francisco. And I see people loving it.",
+      "explanation": "Sheel cites widespread office presence and enthusiastic use as evidence of adoption.",
+      "evidence": [
+        "I've started to see it in offices everywhere in San Francisco. And I see people loving it."
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 172,
+          "speaker": "Sheel",
+          "quote": "I've started to see it in offices everywhere in San Francisco. And I see people loving it."
+        }
+      ],
+      "activation": "evaluated",
+      "source_rationale_id": "R14"
+    },
+    {
+      "rationale_label": "investor_domain_knowledge_constraint",
+      "direction": "negative",
+      "salience": "secondary",
+      "confidence": 0.94,
+      "utterance_type": "assessment",
+      "decision_link": "none",
+      "timing": "original_pitch",
+      "turn_index": 172,
+      "quote": "I don't know coffee, so I thought it was a super niche product.",
+      "explanation": "Sheel says his limited coffee knowledge shaped his earlier assessment that the product was excessively niche.",
+      "evidence": [
+        "I don't know coffee, so I thought it was a super niche product."
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 172,
+          "speaker": "Sheel",
+          "quote": "I don't know coffee, so I thought it was a super niche product."
+        }
+      ],
+      "activation": "evaluated",
+      "source_rationale_id": "R15"
+    },
+    {
+      "rationale_label": "go_to_market_strategy_assessment",
+      "direction": "positive",
+      "salience": "secondary",
+      "confidence": 0.96,
+      "utterance_type": "supporting_argument",
+      "decision_link": "none",
+      "timing": "original_pitch",
+      "turn_index": 179,
+      "quote": "I've seen people who literally saw it at retail and then ordered it online.",
+      "explanation": "Sheel offers observed evidence that retail discovery can acquire customers who subsequently purchase online.",
+      "evidence": [
+        "I've seen people who literally saw it at retail and then ordered it online."
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 179,
+          "speaker": "Sheel",
+          "quote": "I've seen people who literally saw it at retail and then ordered it online."
+        }
+      ],
+      "activation": "evaluated",
+      "source_rationale_id": "R16"
+    },
+    {
+      "rationale_label": "go_to_market_strategy_assessment",
+      "direction": "negative",
+      "salience": "secondary",
+      "confidence": 0.89,
+      "utterance_type": "assessment",
+      "decision_link": "none",
+      "timing": "original_pitch",
+      "turn_index": 188,
+      "quote": "It feels off.",
+      "explanation": "In the discussion of Walmart's fit with a premium coffee brand, Sheel expresses concern that the channel-brand alignment is wrong.",
+      "evidence": [
+        "It feels off."
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 188,
+          "speaker": "Sheel",
+          "quote": "It feels off."
+        }
+      ],
+      "activation": "evaluated",
+      "source_rationale_id": "R17"
+    }
+  ],
+  "expanded_quote_evidence": [],
+  "rejected_after_evidence_check": []
+}

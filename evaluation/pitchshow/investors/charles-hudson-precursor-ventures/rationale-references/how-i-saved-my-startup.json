@@ -1,0 +1,608 @@
+{
+  "schema": "phase1-rationale-reference-v1",
+  "extraction_version": "pitchshow-rationales-v1",
+  "fingerprint": "1e0c4df2c782c894fef688758a6eb93a2934f4da1e3a06feae911b8a79c6f919",
+  "episode_slug": "how-i-saved-my-startup",
+  "vc_slug": "charles-hudson-precursor-ventures",
+  "vc_name": "Charles Hudson",
+  "actual_decision": "Out",
+  "later_decision": "Unknown",
+  "reference_kind": "automated_transcript_observed_candidate",
+  "human_validated": false,
+  "source_format": "transcript-observed-rationales-v1",
+  "source_path": "../source/episodes/how-i-saved-my-startup.json",
+  "source_sha256": "e7792596e3d7347f9629e4ef64810cb768613a575c5f02048e2fc630c0ab92bf",
+  "transcript_sha256": "0a7aae5e7dc7a57bbe2055d3a43aaf0322334e9277a923e94625634ef8a9b7f8",
+  "taxonomy_sha256": "eaa8734819a3ac34dd19ee5f0bf6de925a793a1d25a2d361090dafc9b751e1fc",
+  "model": "openai/gpt-5.6-luna",
+  "source_tier": "newly_extracted_and_independently_model_reviewed",
+  "reviewed_target_turns": [
+    17,
+    23,
+    29,
+    31,
+    33,
+    47,
+    49,
+    51,
+    53,
+    56,
+    61,
+    63,
+    65,
+    69,
+    101
+  ],
+  "notes": "",
+  "receipt_path": "receipts/how-i-saved-my-startup.json",
+  "scoring_scope": "original_pitch_only",
+  "shared_across_input_modes": true,
+  "rationales": [
+    {
+      "rationale_label": "business_model_assessment",
+      "direction": "positive",
+      "salience": "secondary",
+      "confidence": 0.89,
+      "utterance_type": "assessment",
+      "decision_link": "none",
+      "timing": "original_pitch",
+      "turn_index": 53,
+      "quote": "a good cup of pour over coffee in New York or San Francisco is going to run you 4 or $5 in a coffee shop.",
+      "explanation": "Charles gives a high-priced coffee-shop benchmark that supports the product's value and pricing context.",
+      "evidence": [
+        "a good cup of pour over coffee in New York or San Francisco is going to run you 4 or $5 in a coffee shop."
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 53,
+          "speaker": "Charles",
+          "quote": "a good cup of pour over coffee in New York or San Francisco is going to run you 4 or $5 in a coffee shop."
+        }
+      ],
+      "activation": "evaluated",
+      "source_rationale_id": "R9",
+      "utterance_kind": "supporting_argument",
+      "decision_support": "none",
+      "all_mention_ids": [
+        "R1",
+        "R9"
+      ]
+    },
+    {
+      "rationale_label": "investment_upside_assessment",
+      "direction": "positive",
+      "salience": "secondary",
+      "confidence": 0.96,
+      "utterance_type": "assessment",
+      "decision_link": "none",
+      "timing": "original_pitch",
+      "turn_index": 69,
+      "quote": "The multiples are fantastic.",
+      "explanation": "Charles positively assesses the financial outcomes available in coffee-company acquisitions.",
+      "evidence": [
+        "Blue Bottle was a $700 million outcome with maybe 30 or 40 retail locations at the time that they sold.",
+        "The multiples are fantastic."
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 65,
+          "speaker": "Charles",
+          "quote": "Blue Bottle was a $700 million outcome with maybe 30 or 40 retail locations at the time that they sold."
+        },
+        {
+          "turn_index": 69,
+          "speaker": "Charles",
+          "quote": "The multiples are fantastic."
+        }
+      ],
+      "activation": "evaluated",
+      "source_rationale_id": "R13",
+      "utterance_kind": "assessment",
+      "decision_support": "none",
+      "all_mention_ids": [
+        "R12",
+        "R13"
+      ]
+    },
+    {
+      "rationale_label": "investor_experience_bias",
+      "direction": "positive",
+      "salience": "secondary",
+      "confidence": 0.9,
+      "utterance_type": "assessment",
+      "decision_link": "none",
+      "timing": "original_pitch",
+      "turn_index": 51,
+      "quote": "I used to carry a filter and an electric kettle in my suitcase",
+      "explanation": "Charles draws on his own prior behavior to support the relevance of portable pour-over coffee.",
+      "evidence": [
+        "I used to carry a filter and an electric kettle in my suitcase"
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 51,
+          "speaker": "Charles",
+          "quote": "I used to carry a filter and an electric kettle in my suitcase"
+        }
+      ],
+      "activation": "evaluated",
+      "source_rationale_id": "R8",
+      "utterance_kind": "supporting_argument",
+      "decision_support": "none",
+      "all_mention_ids": [
+        "R8"
+      ]
+    },
+    {
+      "rationale_label": "portfolio_conflict_constraint",
+      "direction": "negative",
+      "salience": "primary",
+      "confidence": 0.99,
+      "utterance_type": "decision_reason",
+      "decision_link": "explicit",
+      "timing": "original_pitch",
+      "turn_index": 31,
+      "quote": "I'm going to have to be out",
+      "explanation": "Charles explicitly says he will not invest in the company in the context of his existing investment in DripKit.",
+      "evidence": [
+        "I'm an investor in DripKit.",
+        "I'm going to have to be out"
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 29,
+          "speaker": "Charles",
+          "quote": "I'm an investor in DripKit."
+        },
+        {
+          "turn_index": 31,
+          "speaker": "Charles",
+          "quote": "I'm going to have to be out"
+        }
+      ],
+      "activation": "evaluated",
+      "source_rationale_id": "R3",
+      "utterance_kind": "decision_explanation",
+      "decision_support": "supports_out",
+      "all_mention_ids": [
+        "R2",
+        "R3"
+      ]
+    },
+    {
+      "rationale_label": "product_appeal_assessment",
+      "direction": "positive",
+      "salience": "secondary",
+      "confidence": 0.95,
+      "utterance_type": "assessment",
+      "decision_link": "none",
+      "timing": "original_pitch",
+      "turn_index": 101,
+      "quote": "You've built a great product.",
+      "explanation": "Charles gives a direct positive assessment of Copper Cow's product.",
+      "evidence": [
+        "It is very good coffee.",
+        "It’s a better coffee experience than French press.",
+        "I think this is excellent.",
+        "You've built a great product."
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 33,
+          "speaker": "Charles",
+          "quote": "It is very good coffee."
+        },
+        {
+          "turn_index": 51,
+          "speaker": "Charles",
+          "quote": "It’s a better coffee experience than French press."
+        },
+        {
+          "turn_index": 63,
+          "speaker": "Charles",
+          "quote": "I think this is excellent."
+        },
+        {
+          "turn_index": 101,
+          "speaker": "Charles",
+          "quote": "You've built a great product."
+        }
+      ],
+      "activation": "evaluated",
+      "source_rationale_id": "R14",
+      "utterance_kind": "assessment",
+      "decision_support": "none",
+      "all_mention_ids": [
+        "R4",
+        "R7",
+        "R11",
+        "R14"
+      ]
+    },
+    {
+      "rationale_label": "product_success_factor_assessment",
+      "direction": "positive",
+      "salience": "secondary",
+      "confidence": 0.93,
+      "utterance_type": "assessment",
+      "decision_link": "none",
+      "timing": "original_pitch",
+      "turn_index": 56,
+      "quote": "once you become a pour over person, it's what you want to drink.",
+      "explanation": "Charles reiterates that habitual preference for pour-over coffee can support ongoing demand.",
+      "evidence": [
+        "once you become a pour over person, it’s kind of the only kind of coffee you want to drink",
+        "It’s a lifestyle.",
+        "once you become a pour over person, it's what you want to drink."
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 47,
+          "speaker": "Charles",
+          "quote": "once you become a pour over person, it’s kind of the only kind of coffee you want to drink"
+        },
+        {
+          "turn_index": 49,
+          "speaker": "Charles",
+          "quote": "It’s a lifestyle."
+        },
+        {
+          "turn_index": 56,
+          "speaker": "Charles",
+          "quote": "once you become a pour over person, it's what you want to drink."
+        }
+      ],
+      "activation": "evaluated",
+      "source_rationale_id": "R10",
+      "utterance_kind": "supporting_argument",
+      "decision_support": "none",
+      "all_mention_ids": [
+        "R5",
+        "R6",
+        "R10"
+      ]
+    }
+  ],
+  "later_rationales": [],
+  "excluded_rationales": [],
+  "rationale_mentions": [
+    {
+      "rationale_label": "business_model_assessment",
+      "direction": "neutral",
+      "salience": "secondary",
+      "confidence": 0.98,
+      "utterance_type": "question",
+      "decision_link": "none",
+      "timing": "original_pitch",
+      "turn_index": 23,
+      "quote": "What's the price point per serving?",
+      "explanation": "Charles asks about per-serving pricing to assess the product's monetization model.",
+      "evidence": [
+        "What's the price point per serving?"
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 23,
+          "speaker": "Charles",
+          "quote": "What's the price point per serving?"
+        }
+      ],
+      "activation": "queried",
+      "source_rationale_id": "R1"
+    },
+    {
+      "rationale_label": "portfolio_conflict_constraint",
+      "direction": "negative",
+      "salience": "secondary",
+      "confidence": 0.91,
+      "utterance_type": "concern",
+      "decision_link": "none",
+      "timing": "original_pitch",
+      "turn_index": 29,
+      "quote": "I'm an investor in DripKit.",
+      "explanation": "Charles discloses an existing investment in a competing coffee company, creating a relevant investment constraint.",
+      "evidence": [
+        "I'm an investor in DripKit."
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 29,
+          "speaker": "Charles",
+          "quote": "I'm an investor in DripKit."
+        }
+      ],
+      "activation": "evaluated",
+      "source_rationale_id": "R2"
+    },
+    {
+      "rationale_label": "portfolio_conflict_constraint",
+      "direction": "negative",
+      "salience": "primary",
+      "confidence": 0.99,
+      "utterance_type": "decision_explanation",
+      "decision_link": "supports_out",
+      "timing": "original_pitch",
+      "turn_index": 31,
+      "quote": "I'm going to have to be out",
+      "explanation": "Charles explicitly says he will not invest in the company in the context of his existing investment in DripKit.",
+      "evidence": [
+        "I'm going to have to be out"
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 31,
+          "speaker": "Charles",
+          "quote": "I'm going to have to be out"
+        }
+      ],
+      "activation": "evaluated",
+      "source_rationale_id": "R3"
+    },
+    {
+      "rationale_label": "product_appeal_assessment",
+      "direction": "positive",
+      "salience": "secondary",
+      "confidence": 0.97,
+      "utterance_type": "assessment",
+      "decision_link": "none",
+      "timing": "original_pitch",
+      "turn_index": 33,
+      "quote": "It is very good coffee.",
+      "explanation": "After tasting the product, Charles positively assesses its coffee quality.",
+      "evidence": [
+        "It is very good coffee."
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 33,
+          "speaker": "Charles",
+          "quote": "It is very good coffee."
+        }
+      ],
+      "activation": "evaluated",
+      "source_rationale_id": "R4"
+    },
+    {
+      "rationale_label": "product_success_factor_assessment",
+      "direction": "positive",
+      "salience": "secondary",
+      "confidence": 0.94,
+      "utterance_type": "supporting_argument",
+      "decision_link": "none",
+      "timing": "original_pitch",
+      "turn_index": 47,
+      "quote": "once you become a pour over person, it’s kind of the only kind of coffee you want to drink",
+      "explanation": "Charles identifies strong repeat preference for pour-over coffee as a favorable demand driver.",
+      "evidence": [
+        "once you become a pour over person, it’s kind of the only kind of coffee you want to drink"
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 47,
+          "speaker": "Charles",
+          "quote": "once you become a pour over person, it’s kind of the only kind of coffee you want to drink"
+        }
+      ],
+      "activation": "evaluated",
+      "source_rationale_id": "R5"
+    },
+    {
+      "rationale_label": "product_success_factor_assessment",
+      "direction": "positive",
+      "salience": "secondary",
+      "confidence": 0.92,
+      "utterance_type": "supporting_argument",
+      "decision_link": "none",
+      "timing": "original_pitch",
+      "turn_index": 49,
+      "quote": "It’s a lifestyle.",
+      "explanation": "Charles characterizes pour-over consumption as a lifestyle, supporting the possibility of durable customer attachment.",
+      "evidence": [
+        "It’s a lifestyle."
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 49,
+          "speaker": "Charles",
+          "quote": "It’s a lifestyle."
+        }
+      ],
+      "activation": "evaluated",
+      "source_rationale_id": "R6"
+    },
+    {
+      "rationale_label": "product_appeal_assessment",
+      "direction": "positive",
+      "salience": "secondary",
+      "confidence": 0.97,
+      "utterance_type": "assessment",
+      "decision_link": "none",
+      "timing": "original_pitch",
+      "turn_index": 51,
+      "quote": "It’s a better coffee experience than French press.",
+      "explanation": "Charles positively compares the pour-over experience with another brewing method.",
+      "evidence": [
+        "It’s a better coffee experience than French press."
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 51,
+          "speaker": "Charles",
+          "quote": "It’s a better coffee experience than French press."
+        }
+      ],
+      "activation": "evaluated",
+      "source_rationale_id": "R7"
+    },
+    {
+      "rationale_label": "investor_experience_bias",
+      "direction": "positive",
+      "salience": "secondary",
+      "confidence": 0.9,
+      "utterance_type": "supporting_argument",
+      "decision_link": "none",
+      "timing": "original_pitch",
+      "turn_index": 51,
+      "quote": "I used to carry a filter and an electric kettle in my suitcase",
+      "explanation": "Charles draws on his own prior behavior to support the relevance of portable pour-over coffee.",
+      "evidence": [
+        "I used to carry a filter and an electric kettle in my suitcase"
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 51,
+          "speaker": "Charles",
+          "quote": "I used to carry a filter and an electric kettle in my suitcase"
+        }
+      ],
+      "activation": "evaluated",
+      "source_rationale_id": "R8"
+    },
+    {
+      "rationale_label": "business_model_assessment",
+      "direction": "positive",
+      "salience": "secondary",
+      "confidence": 0.89,
+      "utterance_type": "supporting_argument",
+      "decision_link": "none",
+      "timing": "original_pitch",
+      "turn_index": 53,
+      "quote": "a good cup of pour over coffee in New York or San Francisco is going to run you 4 or $5 in a coffee shop.",
+      "explanation": "Charles gives a high-priced coffee-shop benchmark that supports the product's value and pricing context.",
+      "evidence": [
+        "a good cup of pour over coffee in New York or San Francisco is going to run you 4 or $5 in a coffee shop."
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 53,
+          "speaker": "Charles",
+          "quote": "a good cup of pour over coffee in New York or San Francisco is going to run you 4 or $5 in a coffee shop."
+        }
+      ],
+      "activation": "evaluated",
+      "source_rationale_id": "R9"
+    },
+    {
+      "rationale_label": "product_success_factor_assessment",
+      "direction": "positive",
+      "salience": "secondary",
+      "confidence": 0.93,
+      "utterance_type": "supporting_argument",
+      "decision_link": "none",
+      "timing": "original_pitch",
+      "turn_index": 56,
+      "quote": "once you become a pour over person, it's what you want to drink.",
+      "explanation": "Charles reiterates that habitual preference for pour-over coffee can support ongoing demand.",
+      "evidence": [
+        "once you become a pour over person, it's what you want to drink."
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 56,
+          "speaker": "Charles",
+          "quote": "once you become a pour over person, it's what you want to drink."
+        }
+      ],
+      "activation": "evaluated",
+      "source_rationale_id": "R10"
+    },
+    {
+      "rationale_label": "product_appeal_assessment",
+      "direction": "positive",
+      "salience": "secondary",
+      "confidence": 0.98,
+      "utterance_type": "assessment",
+      "decision_link": "none",
+      "timing": "original_pitch",
+      "turn_index": 63,
+      "quote": "I think this is excellent.",
+      "explanation": "Charles gives a direct positive assessment of the tasted product.",
+      "evidence": [
+        "I think this is excellent."
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 63,
+          "speaker": "Charles",
+          "quote": "I think this is excellent."
+        }
+      ],
+      "activation": "evaluated",
+      "source_rationale_id": "R11"
+    },
+    {
+      "rationale_label": "investment_upside_assessment",
+      "direction": "positive",
+      "salience": "secondary",
+      "confidence": 0.94,
+      "utterance_type": "supporting_argument",
+      "decision_link": "none",
+      "timing": "original_pitch",
+      "turn_index": 65,
+      "quote": "Blue Bottle was a $700 million outcome with maybe 30 or 40 retail locations at the time that they sold.",
+      "explanation": "Charles uses Blue Bottle's large outcome and focused retail footprint to support the upside of a loyal coffee brand.",
+      "evidence": [
+        "Blue Bottle was a $700 million outcome with maybe 30 or 40 retail locations at the time that they sold."
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 65,
+          "speaker": "Charles",
+          "quote": "Blue Bottle was a $700 million outcome with maybe 30 or 40 retail locations at the time that they sold."
+        }
+      ],
+      "activation": "evaluated",
+      "source_rationale_id": "R12"
+    },
+    {
+      "rationale_label": "investment_upside_assessment",
+      "direction": "positive",
+      "salience": "secondary",
+      "confidence": 0.96,
+      "utterance_type": "assessment",
+      "decision_link": "none",
+      "timing": "original_pitch",
+      "turn_index": 69,
+      "quote": "The multiples are fantastic.",
+      "explanation": "Charles positively assesses the financial outcomes available in coffee-company acquisitions.",
+      "evidence": [
+        "The multiples are fantastic."
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 69,
+          "speaker": "Charles",
+          "quote": "The multiples are fantastic."
+        }
+      ],
+      "activation": "evaluated",
+      "source_rationale_id": "R13"
+    },
+    {
+      "rationale_label": "product_appeal_assessment",
+      "direction": "positive",
+      "salience": "secondary",
+      "confidence": 0.95,
+      "utterance_type": "assessment",
+      "decision_link": "none",
+      "timing": "original_pitch",
+      "turn_index": 101,
+      "quote": "You've built a great product.",
+      "explanation": "Charles gives a direct positive assessment of Copper Cow's product.",
+      "evidence": [
+        "You've built a great product."
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 101,
+          "speaker": "Charles",
+          "quote": "You've built a great product."
+        }
+      ],
+      "activation": "evaluated",
+      "source_rationale_id": "R14"
+    }
+  ],
+  "expanded_quote_evidence": [],
+  "rejected_after_evidence_check": []
+}

@@ -1,0 +1,1619 @@
+{
+  "scope": "Saved outputs only; no new inference calls or pipeline changes.",
+  "reference_warning": "Automated, not human-validated references. PaySquad has post-founder panel remarks mislabeled original_pitch; exact-label metrics are diagnostic only.",
+  "rationale_micro_scores": {
+    "label_scores": {
+      "tp": 101,
+      "fp": 177,
+      "fn": 105,
+      "precision": 0.36330935251798563,
+      "recall": 0.49029126213592233,
+      "f1": 0.41735537190082644
+    },
+    "label_direction_scores": {
+      "tp": 49,
+      "fp": 229,
+      "fn": 157,
+      "precision": 0.17625899280575538,
+      "recall": 0.23786407766990292,
+      "f1": 0.2024793388429752
+    }
+  },
+  "cases": [
+    {
+      "vc_slug": "beck-bamberger-bad-ideas-group",
+      "episode_slug": "136-kredfeed-the-next-mexican-unicorn",
+      "actual_decision": "In",
+      "job_id": "de758ef09c65c718cab1d7a6f9f832e8e37bff92bdbcb25b5884927ae6738af4",
+      "status": "completed",
+      "summary_path": "/home/dpasch01/vclogic-vc-agentic-assessment/outputs/pitchshow-evaluation/beck-bamberger-bad-ideas-group/136-kredfeed-the-next-mexican-unicorn/founders-only/de758ef09c65c718cab1d7a6f9f832e8e37bff92bdbcb25b5884927ae6738af4/attempt-1/runs/136-kredfeed-the-next-mexican-unicorn/summary.json",
+      "predicted_decision": "In",
+      "phase1_status": "provisional",
+      "phase2_status": "provisional",
+      "stop_reason": "corpus_search_exhausted",
+      "cost_usd": 0.12541770000000002,
+      "correct": true,
+      "decision_path": "conventional_fit",
+      "check_tier": "exploratory_lt_100k",
+      "decision_justification": "I would make an exploratory small commitment to Kredfeed, subject to ordinary verification. The company addresses a severe cash-flow and credit-access problem for Mexican SMBs, has financed more than 3,700 invoices for over 150 companies, and provides financing in four to six hours through an automated underwriting product (P-001,P-002,P-003,P-009). The reported economics are attractive: 0.5% write-offs, a 36.14% average APR, 15.97% cost of capital, an approximately 20% spread, and break-even operations (P-005,P-016,P-018,P-030). These figures require verification, especially by cohort and accounting method, but they fit Beck's preference for commercially viable solutions to consequential problems rather than mission alone (W-6ad4360f0ea8c1dd80ca,W-041a72b16cd300c6063e). Luis also has unusually direct founder-market fit through CFO experience with long enterprise payment cycles, personal experience of the problem, customer immersion, and a technically capable cofounder (P-028,P-029,P-035,P-040). The $1.2 million pre-seed round at an $8 million post-money cap is numerically compatible with Beck's observed early-stage check context, although allocation, ownership, governance, and SAFE terms remain unresolved (P-042,P-043,P-045,W-f570545284938d605905,W-5017cc3fe37704832967). The main reservations are dependence on a proposed increase from a $1 million to a $10 million debt facility, conflicting six-month and 18-month ARR timelines, incomplete loss accounting, and unverified collection outcomes. Those are material diligence risks but do not establish a hard pitch-stage veto. The pitch more closely resembles the observed In in ChurchSpace, where Beck accepted a specialized-domain mismatch in favor of a consequential problem and expansion thesis, than the observed Outs in Flock and Ride IQ, where she emphasized insufficient traction or an inadequately demonstrated expansion path (H-2cb77280dede11d98ae3,H-7b159ffd714731a2e1f7,H-67c2cf2a55bdc26e1cd0,H-08f2370d40d32936472e).",
+      "exception_comparison": "Controlling concern: The relevant concern is imperfect domain fit and unresolved conventional diligence, particularly Kredfeed's dependence on debt capacity, reported loss performance, and collection mechanics. Precedent evidence: In ChurchSpace, Beck explicitly said she was not in the faith space but still made a concrete commitment after responding to the company's specialized marketplace and broader connectivity thesis (H-2cb77280dede11d98ae3,H-7b159ffd714731a2e1f7). Similarity: Both companies use a focused specialized wedge to address a consequential customer problem and present a broader expansion opportunity before every routine diligence question is closed; Kredfeed also supplies substantial operating volume and direct founder-market evidence (P-003,P-028,P-035). Difference: ChurchSpace supports tolerance for domain mismatch and incomplete conventional proof, but it does not show Beck tolerating the same lending-specific risks of uncertain loss accounting, debt-facility terms, collection enforceability, or conflicting growth timelines. The precedent therefore supports openness to Kredfeed but is not being used to override a hard constraint or activate an exception; the conventional fit case is sufficient for the current In.",
+      "historical_coverage": {
+        "In": 2,
+        "Out": 7,
+        "accessible": 9
+      },
+      "reference_path": "evaluation/pitchshow/investors/beck-bamberger-bad-ideas-group/rationale-references/136-kredfeed-the-next-mexican-unicorn.json",
+      "reference_human_validated": false,
+      "explicit_reason_comparison": [
+        {
+          "reference_label": "founder_qualities",
+          "reference_direction": "positive",
+          "source_turn_index": 185,
+          "quote": "I think he's the one to bet on, if there was one.",
+          "predicted_direction": "positive",
+          "controlling": false
+        },
+        {
+          "reference_label": "investment_upside_assessment",
+          "reference_direction": "positive",
+          "source_turn_index": 187,
+          "quote": "I'm willing to bet on that.",
+          "predicted_direction": null,
+          "controlling": false
+        }
+      ],
+      "phase1_findings": [
+        "PHASE1_PLAN_INVALID_ATTEMPT_1: 1 validation error for RetrievalPlanV4\n  Input should be a valid dictionary or instance of RetrievalPlanV4 [type=model_type, input_value=None, input_type=NoneType]\n    For further information visit https://errors.pydantic.dev/2.13/v/model_type",
+        "NORMALIZED_QUESTION_EVIDENCE:1:removed=3",
+        "NORMALIZED_QUESTION_EVIDENCE:2:removed=5",
+        "NORMALIZED_QUESTION_EVIDENCE:3:removed=5",
+        "NORMALIZED_DECISION_DIMENSION:go_to_market->other",
+        "NORMALIZED_DECISION_DIMENSION:founder_market_fit->other",
+        "SUFFICIENT_WITH_SEARCHABLE_QUESTIONS",
+        "SUFFICIENT_WITH_NEXT_SEARCH_OBJECTIVES",
+        "POLICY_COMPARISON_MISSING:traction_economics",
+        "PHASE1_NO_NOVELTY_STOP"
+      ],
+      "phase2_findings": [
+        "PHASE2_NO_NOVELTY_STOP",
+        "PHASE2_CORPUS_SEARCH_EXHAUSTED"
+      ]
+    },
+    {
+      "vc_slug": "beck-bamberger-bad-ideas-group",
+      "episode_slug": "129-reddrop-pitching-the-big-vision",
+      "actual_decision": "Out",
+      "job_id": "f8c6014885e93f5a02bd3410c3685eb321b07ffa41c02e94285ac268b9419248",
+      "status": "completed",
+      "summary_path": "/home/dpasch01/vclogic-vc-agentic-assessment/outputs/pitchshow-evaluation/beck-bamberger-bad-ideas-group/129-reddrop-pitching-the-big-vision/founders-only/f8c6014885e93f5a02bd3410c3685eb321b07ffa41c02e94285ac268b9419248/attempt-1/runs/129-reddrop-pitching-the-big-vision/summary.json",
+      "predicted_decision": "In",
+      "phase1_status": "accepted",
+      "phase2_status": "accepted",
+      "stop_reason": "freeze_accepted",
+      "cost_usd": 0.07694179999999999,
+      "correct": false,
+      "decision_path": "conventional_fit",
+      "check_tier": "exploratory_lt_100k",
+      "decision_justification": "In, on an exploratory small-check basis subject to ordinary verification. RedDrop presents a painful and clearly understandable problem, a relevant educator cofounder, meaningful operating traction, attractive reported unit economics, and a venture-scale ambition. The $6 billion category and $100 million target fit Beck's preference for large outcomes, while the $3 million in last-year revenue, approximately 65% gross margin, approximately $20 CAC, and approximately $40 AOV provide more commercial substance than mission alone (P-003, P-013, P-018; W-616f1ad54106fabf13a1, W-6ad4360f0ea8c1dd80ca). The main weaknesses are that subscription retention is newly launching, the 40% repeat figure is tied to sale events, and the bridge from $3 million to $100 million is not modeled (P-022; W-97453e96e1414b50fefa). Those are material diligence questions, but no frozen hard constraint is triggered. The $500,000 round is larger than Beck's observed $25,000-$50,000 typical check range, yet no evidence establishes that a larger round prevents a small participation, and valuation, ownership, and governance terms remain open rather than contradictory (P-003; W-f570545284938d605905, W-5017cc3fe37704832967). The closest positive precedent is Outlines: a consumer physical-product company with D2C economics received an In despite category and sustainability concerns (H-94a0f28e80fdc4467202, H-99df8b490ce79885032f). ChurchSpace also shows Beck committing despite not being in the faith space when the problem, broader impact, and unusual premise became compelling (H-2cb77280dede11d98ae3, H-7b159ffd714731a2e1f7). The closest negative precedent is RobeCurls: strong commercial results were not enough when Beck felt the company was outside her space and the larger vision was underdeveloped (H-6a1f55c4c484c387aacd, H-20fe4f20fa7803e72a9d). RedDrop is closer to the In precedents because it supplies both a larger societal and venture case and concrete economics, although its repeatability evidence is weaker than KredFeed's quantified retention and net dollar revenue retention (H-50221126a832a23692f9, H-5dad6e72e783a61b870a).",
+      "exception_comparison": "Not controlling because the decision follows the conventional-fit route rather than a founder-conviction exception. The closest relevant observed In precedents are Outlines (H-94a0f28e80fdc4467202, H-99df8b490ce79885032f), which tolerated a physical consumer-product and D2C model, and ChurchSpace (H-2cb77280dede11d98ae3, H-7b159ffd714731a2e1f7), which tolerated category distance when broader problem impact was compelling. RedDrop is similar on consumer-product economics, unconventional problem framing, and broader human benefit, but differs because subscription retention, scale modeling, and deal terms are less developed. Those differences support a small exploratory check rather than an exception-based commitment.",
+      "historical_coverage": {
+        "In": 3,
+        "Out": 6,
+        "accessible": 9
+      },
+      "reference_path": "evaluation/pitchshow/investors/beck-bamberger-bad-ideas-group/rationale-references/129-reddrop-pitching-the-big-vision.json",
+      "reference_human_validated": false,
+      "explicit_reason_comparison": [
+        {
+          "reference_label": "competitive_intensity_concern",
+          "reference_direction": "negative",
+          "source_turn_index": 125,
+          "quote": "It's a crowded space for me",
+          "predicted_direction": null,
+          "controlling": false
+        },
+        {
+          "reference_label": "investment_thesis_constraint",
+          "reference_direction": "negative",
+          "source_turn_index": 125,
+          "quote": "a little outside of what we do",
+          "predicted_direction": null,
+          "controlling": false
+        }
+      ],
+      "phase1_findings": [
+        "PHASE1_PLAN_INVALID_ATTEMPT_1: 2 validation errors for RetrievalPlanV4\nquestions.5\n  String should have at most 300 characters [type=string_too_long, input_value='What durable differentia...tiation_concern]\u3010x\u3011', input_type=str]\n    For further information visit https://errors.pydantic.dev/2.13/v/string_too_long\ncontinuation_focus\n  String should have at most 600 characters [type=string_too_long, input_value='No prior investigation e...ssigning any rationale.', input_type=str]\n    For further information visit https://errors.pydantic.dev/2.13/v/string_too_long",
+        "PHASE1_PLAN_INVALID_ATTEMPT_2: 1 validation error for RetrievalPlanV4\nquestions.5\n  String should have at most 300 characters [type=string_too_long, input_value='What is the founder\u2019s ...or IP structure issues.', input_type=str]\n    For further information visit https://errors.pydantic.dev/2.13/v/string_too_long",
+        "PHASE1_PLAN_FALLBACK_USED",
+        "NORMALIZED_QUESTION_EVIDENCE:1:removed=4",
+        "NORMALIZED_QUESTION_EVIDENCE:2:removed=4",
+        "NORMALIZED_QUESTION_EVIDENCE:3:removed=1",
+        "NORMALIZED_DECISION_DIMENSION:founder_communication->other",
+        "PHASE1_CANDIDATE_INVALID: 1 validation error for InvestigationV41\n  Value error, material statement pitch evidence IDs must be unique [type=value_error, input_value={'schema_version': 'inves...verlap_assessments': []}, input_type=dict]\n    For further information visit https://errors.pydantic.dev/2.13/v/value_error",
+        "PHASE1_PLAN_INVALID_ATTEMPT_1: 1 validation error for RetrievalPlanV4\n  Input should be a valid dictionary or instance of RetrievalPlanV4 [type=model_type, input_value=None, input_type=NoneType]\n    For further information visit https://errors.pydantic.dev/2.13/v/model_type",
+        "NORMALIZED_QUESTION_EVIDENCE:1:removed=3",
+        "NORMALIZED_QUESTION_EVIDENCE:2:removed=1",
+        "NORMALIZED_QUESTION_EVIDENCE:3:removed=4",
+        "SUFFICIENT_WITH_SEARCHABLE_QUESTIONS",
+        "SUFFICIENT_WITH_NEXT_SEARCH_OBJECTIVES",
+        "POLICY_COMPARISON_MISSING:traction_economics"
+      ],
+      "phase2_findings": [
+        "SUFFICIENT_WITH_SEARCHABLE_QUESTIONS"
+      ]
+    },
+    {
+      "vc_slug": "charles-hudson-precursor-ventures",
+      "episode_slug": "189-wonderade-juice-protein-or-a-brand",
+      "actual_decision": "Out",
+      "job_id": "9984fb4d2c2b3651249ce779c1494f8081804cf4674aecaec56f32a3035c8a36",
+      "status": "completed",
+      "summary_path": "/home/dpasch01/vclogic-vc-agentic-assessment/outputs/pitchshow-evaluation/charles-hudson-precursor-ventures/189-wonderade-juice-protein-or-a-brand/founders-only/9984fb4d2c2b3651249ce779c1494f8081804cf4674aecaec56f32a3035c8a36/attempt-1/runs/189-wonderade-juice-protein-or-a-brand/summary.json",
+      "predicted_decision": "In",
+      "phase1_status": "accepted",
+      "phase2_status": "accepted",
+      "stop_reason": "freeze_accepted",
+      "cost_usd": 0.05111425,
+      "correct": false,
+      "decision_path": "founder_conviction_exception",
+      "check_tier": "exploratory_lt_100k",
+      "decision_justification": "The conventional case is mixed: Wonderade has a credible family-nutrition wedge, a founder with relevant beverage and brand experience, and unusually clear awareness of retail trade spend, inventory, sampling, and loss costs (P-002, P-026, P-028, P-029, P-034, P-041). However, repeat purchase, CAC, retail velocity, and realized margins are still future proof points rather than demonstrated results (P-048, P-049, P-090). The proposed financing is $1M, with $400K-$500K for inventory and $200K for content and advertising, while the company has raised $550K on an $8M SAFE cap (P-071, P-090). I would therefore not make a conventional full-conviction CPG commitment. I would nevertheless make an exploratory small first check, subject to ordinary verification, because the founder has prior operating experience, has learned from concrete brand and governance failures, and is directly addressing the principal retail risks rather than ignoring them (P-026, P-028, P-029, P-056, P-057). This is closer to the small-check In precedents that tolerated unresolved channel or execution questions than to an ordinary standard check.",
+      "exception_comparison": "Controlling concern: Wonderade has incomplete traction and retail proof, meaningful inventory and marketing capital needs, and a food-distribution risk that could make the stated margins and $8M cap unattractive (P-048, P-071, P-090). Precedent evidence: In the snack precedent, Hudson acknowledged a competitive category and uncertainty around the corporate channel but still offered a small investment (H-cfb80488685e07e63066, H-d7d006c4714c5f11a079). In the tangible-goods brand precedent, he invested while leaving marketing and team execution as open diligence items (H-8e60a2eafba507ddfde8). Similarity: Those In decisions tolerated the same controlling class of risk\u2014a consumer brand before full channel validation, with unresolved distribution or execution questions\u2014because the founder showed authentic customer understanding and a credible brand path. Wonderade likewise has a clear parent-child problem, iterative product learning, staged D2C-to-retail plans, and a founder with directly relevant prior operating experience (P-017, P-026, P-041, P-056). Difference: Wonderade is more inventory- and working-capital-intensive than the closest In examples, explicitly allocates $400K-$500K to inventory and $200K to content, and presents an $8M cap without complete ownership mechanics (P-071, P-090). The food-distribution risk also resembles the Out sauce precedent (H-af85935b10d756a927ee). Those differences defeat a conventional commitment but do not defeat a small, exploratory founder-conviction check.",
+      "historical_coverage": {
+        "In": 15,
+        "Out": 58,
+        "accessible": 85
+      },
+      "reference_path": "evaluation/pitchshow/investors/charles-hudson-precursor-ventures/rationale-references/189-wonderade-juice-protein-or-a-brand.json",
+      "reference_human_validated": false,
+      "explicit_reason_comparison": [
+        {
+          "reference_label": "competitive_landscape_inertia",
+          "reference_direction": "negative",
+          "source_turn_index": 237,
+          "quote": "people come to the table with so many feelings about juice",
+          "predicted_direction": null,
+          "controlling": false
+        },
+        {
+          "reference_label": "go_to_market_strategy_assessment",
+          "reference_direction": "negative",
+          "source_turn_index": 237,
+          "quote": "it doesn't sound to me like that's really the marketing strategy here",
+          "predicted_direction": "neutral",
+          "controlling": true
+        }
+      ],
+      "phase1_findings": [
+        "PHASE1_PLAN_INVALID_ATTEMPT_1: 1 validation error for RetrievalPlanV4\n  Input should be a valid dictionary or instance of RetrievalPlanV4 [type=model_type, input_value=None, input_type=NoneType]\n    For further information visit https://errors.pydantic.dev/2.13/v/model_type",
+        "NORMALIZED_QUESTION_EVIDENCE:1:removed=5",
+        "NORMALIZED_QUESTION_EVIDENCE:2:removed=3",
+        "NORMALIZED_QUESTION_EVIDENCE:3:removed=6",
+        "NORMALIZED_QUESTION_EVIDENCE:4:removed=8",
+        "NORMALIZED_QUESTION_EVIDENCE:5:removed=7",
+        "NORMALIZED_QUESTION_EVIDENCE:6:removed=2",
+        "NORMALIZED_FILTERED_MAPPED_IDS:material_statement:removed=1",
+        "SUFFICIENT_WITH_SEARCHABLE_QUESTIONS"
+      ],
+      "phase2_findings": [
+        "SUFFICIENT_WITH_SEARCHABLE_QUESTIONS"
+      ]
+    },
+    {
+      "vc_slug": "elizabeth-yin-hustle-fund",
+      "episode_slug": "187-paysquad-buy-now-pay-together",
+      "actual_decision": "Out",
+      "job_id": "c1e9afbdeae490ce8f4b5defc2e651c4f7be0e9922bc5197864e9407b486761b",
+      "status": "completed",
+      "summary_path": "/home/dpasch01/vclogic-vc-agentic-assessment/outputs/pitchshow-evaluation/elizabeth-yin-hustle-fund/187-paysquad-buy-now-pay-together/founders-only/c1e9afbdeae490ce8f4b5defc2e651c4f7be0e9922bc5197864e9407b486761b/attempt-1/runs/187-paysquad-buy-now-pay-together/summary.json",
+      "predicted_decision": "In",
+      "phase1_status": "provisional",
+      "phase2_status": "provisional",
+      "stop_reason": "corpus_search_exhausted",
+      "cost_usd": 0.16130915,
+      "correct": false,
+      "decision_path": "conventional_fit",
+      "check_tier": "exploratory_lt_100k",
+      "decision_justification": "I predict an exploratory In: a small first check would be plausible, subject to ordinary verification and acceptable financing terms. The conventional thesis-fit case is strong enough because PaySquad addresses a personally experienced problem (P-001), has a founder with omni-channel retail and payments experience, a full-time commitment, and a team with relevant Afterpay, enterprise-retail, and e-commerce backgrounds (P-005). The company also reports inbound merchant demand, rapid integrations, over-90% completion, $4 million of PaySquads created, approximately $20,000 of May revenue, and a $2\u20133 million next-12-month forecast (P-002, P-007, P-010). Merchant-led distribution, five-to-seven participants per sale, Shopify deployment in under 20 minutes, and payment-orchestration access create a credible early go-to-market path (P-011, P-022, P-024, P-025). These facts activate R1, R3, R4, R7, R8, and R9. R10, R11, R12, and R13 remain important concerns because defensibility, repeatability, valuation, ownership, and venture-scale economics are not yet established, but no hard constraint is triggered. The closest observed Ins are Lotus Hardware, where Elizabeth expressed willingness to invest despite a non-software thesis mismatch and pricing concern (H-498e1b1373f2e479e006; H-8076c1a7df4e36a56919), and the ex-trucker company, where she made a concrete small-check commitment while financing and valuation details were still being discussed (H-5489850e53bea34389da; H-f0642d7c768702786f01). PaySquad more closely resembles those cases than the valuation-driven Out in H-7bb09661aa63408e16f4 or the limited-traction and pricing-sensitive Out in H-51e2fd93eefa85611846. The founder-conviction route was also evaluated, but it is not controlling because the case already has conventional fit. I would not specify an exact check amount: the current pitch does not provide an ask or valuation, and the supplied policy evidence does not establish a current exact check for this role and era.",
+      "exception_comparison": "Controlling concern: The possible exception would need to overcome incomplete traction repeatability, unresolved defensibility, and uncertain financing or valuation fit, especially R10, R11, R12, and R13; it would not be used to override a confirmed category, fund, ownership, governance, regulatory, or ambition conflict. Precedent evidence: H-498e1b1373f2e479e006 records Elizabeth's willingness to make a concrete small commitment despite a non-software thesis mismatch and a price she considered high. H-5489850e53bea34389da records a concrete small early-stage commitment while valuation and financing details were still being discussed. Similarity: PaySquad likewise combines an emerging category, early but credible traction, strong founder execution, relevant payments expertise, and unresolved conventional diligence. Those precedents show tolerance for incomplete proof and some policy or price tension at the pitch stage, rather than requiring full post-diligence certainty. Difference: the precedents had clearer financing context and explicit check terms, while PaySquad provides no valuation, ask, cap table, or target-role certainty. The precedents therefore support the exploratory posture but do not independently justify an exact check, overcome a hard mandate conflict, or establish that PaySquad's future underwriting risk and venture economics are acceptable.",
+      "historical_coverage": {
+        "In": 12,
+        "Out": 36,
+        "accessible": 53
+      },
+      "reference_path": "evaluation/pitchshow/investors/elizabeth-yin-hustle-fund/rationale-references/187-paysquad-buy-now-pay-together.json",
+      "reference_human_validated": false,
+      "explicit_reason_comparison": [
+        {
+          "reference_label": "business_viability_concern",
+          "reference_direction": "negative",
+          "source_turn_index": 139,
+          "quote": "maybe 10% of the transactions, if we're generous, go through this group thing, and then, like, whittle it down even more on your take",
+          "predicted_direction": null,
+          "controlling": false
+        },
+        {
+          "reference_label": "go_to_market_strategy_assessment",
+          "reference_direction": "negative",
+          "source_turn_index": 263,
+          "quote": "that's very hard to prove, and I actually think that is probably the problem with why is it so hard to do BD",
+          "predicted_direction": "positive",
+          "controlling": true
+        },
+        {
+          "reference_label": "investor_experience_bias",
+          "reference_direction": "negative",
+          "source_turn_index": 255,
+          "quote": "I, I think about things, like, from the founder perspective, having been a founder for a long time.",
+          "predicted_direction": null,
+          "controlling": false
+        },
+        {
+          "reference_label": "market_entry_path_assessment",
+          "reference_direction": "negative",
+          "source_turn_index": 257,
+          "quote": "In travel, there's probably five companies.",
+          "predicted_direction": "positive",
+          "controlling": false
+        },
+        {
+          "reference_label": "market_problem_validation",
+          "reference_direction": "negative",
+          "source_turn_index": 265,
+          "quote": "with your friends even if it's hard.",
+          "predicted_direction": "positive",
+          "controlling": true
+        },
+        {
+          "reference_label": "market_timing",
+          "reference_direction": "negative",
+          "source_turn_index": 197,
+          "quote": "why now is better than when all these other people tried it",
+          "predicted_direction": null,
+          "controlling": false
+        },
+        {
+          "reference_label": "venture_scale_concern",
+          "reference_direction": "negative",
+          "source_turn_index": 259,
+          "quote": "So maybe this is a 10 million a year company.",
+          "predicted_direction": "neutral",
+          "controlling": true
+        }
+      ],
+      "phase1_findings": [
+        "NORMALIZED_QUESTION_EVIDENCE:1:removed=3",
+        "NORMALIZED_QUESTION_EVIDENCE:2:removed=2",
+        "NORMALIZED_QUESTION_EVIDENCE:3:removed=4",
+        "NORMALIZED_QUESTION_EVIDENCE:4:removed=2",
+        "NORMALIZED_QUESTION_EVIDENCE:5:removed=5",
+        "NORMALIZED_QUESTION_EVIDENCE:6:removed=2",
+        "NORMALIZED_QUESTION_EVIDENCE:7:removed=1",
+        "NORMALIZED_QUESTION_EVIDENCE:8:removed=2",
+        "NORMALIZED_FILTERED_MAPPED_IDS:material_statement:removed=2",
+        "SUFFICIENT_WITH_SEARCHABLE_QUESTIONS",
+        "SUFFICIENT_WITH_NEXT_SEARCH_OBJECTIVES",
+        "POLICY_COMPARISON_MISSING:sector_geography",
+        "PHASE1_PLAN_INVALID_ATTEMPT_1: 2 validation errors for RetrievalPlanV4\nquestions.5\n  String should have at most 300 characters [type=string_too_long, input_value='What historical evidence...nture-scale rationales.', input_type=str]\n    For further information visit https://errors.pydantic.dev/2.13/v/string_too_long\ncontinuation_focus\n  String should have at most 600 characters [type=string_too_long, input_value='Run a deliberate decisio...estor vision alignment.', input_type=str]\n    For further information visit https://errors.pydantic.dev/2.13/v/string_too_long",
+        "NORMALIZED_DROPPED_INACCESSIBLE_QUESTION_EVIDENCE:2:W-ca0bfeaa999e89",
+        "NORMALIZED_QUESTION_EVIDENCE:4:removed=3",
+        "NORMALIZED_QUESTION_EVIDENCE:5:removed=4",
+        "PHASE1_NO_NOVELTY_STOP"
+      ],
+      "phase2_findings": [
+        "PHASE2_NO_NOVELTY_STOP",
+        "PHASE2_CORPUS_SEARCH_EXHAUSTED"
+      ]
+    },
+    {
+      "vc_slug": "howie-diamond-pure-ventures",
+      "episode_slug": "119-amateur-golf-society-venture-capital-vs-private-equity",
+      "actual_decision": "In",
+      "job_id": "40ed581973e9de5dc15d8995c747fa0ed5e3f1af9cac518ac0164f3d0a193c85",
+      "status": "completed",
+      "summary_path": "/home/dpasch01/vclogic-vc-agentic-assessment/outputs/pitchshow-evaluation/howie-diamond-pure-ventures/119-amateur-golf-society-venture-capital-vs-private-equity/founders-only/40ed581973e9de5dc15d8995c747fa0ed5e3f1af9cac518ac0164f3d0a193c85/attempt-1/runs/119-amateur-golf-society-venture-capital-vs-private-equity/summary.json",
+      "predicted_decision": "In",
+      "phase1_status": "provisional",
+      "phase2_status": "accepted",
+      "stop_reason": "freeze_accepted",
+      "cost_usd": 0.08831270000000001,
+      "correct": true,
+      "decision_path": "conventional_fit",
+      "check_tier": "exploratory_lt_100k",
+      "decision_justification": "I would make an exploratory small-check commitment. The conventional fit is stronger than the opposing case: AGS is a consumer business in Diamond's stated area, has a launched product with two years of operating proof, and reports growth from roughly 175 to 450 to 620 members while average weekly fields grew from about 35 to 160 (P-015, P-006; R1, R2). The model has identifiable monetization through $65-$100 annual memberships, a $5 greens-fee share, sponsorship, and course-partner services (P-012, P-014; R3). That is materially different from the pre-revenue, unproven businesses in the Tuckrbox Out precedent, where Diamond specifically objected to unit economics and customer acquisition evidence (H-bca043cc0edbe5e76bae). The founder also shows practical operating experience, resourcefulness, clear communication, and coachability (P-015, P-027, P-039; R6, R9, R10), traits that were decisive in the Teamable In precedent despite valuation concerns (H-81fdc601af2e5b9909c0). The principal reservation is that $200,000 projected annual revenue does not yet validate the bridge to the proposed $30 million cash-flow scenario, which requires approximately 80,000 members across 35 markets (P-016, P-036, P-037, P-038; R13). The current decision therefore supports only exploratory capital subject to ordinary verification, not a conclusion that national economics are proven. The pitch is closer overall to Teamable's in-market, traction-bearing, coachable-founder profile than to Ride IQ's Out profile, although AGS shares Ride IQ's unresolved expansion and venture-scale concerns (H-7eb77abcafda4623ee2d).",
+      "exception_comparison": "Controlling concern: The possible exception would concern incomplete venture-scale economics and an unusually complex ownership structure, not product launch or category fit. Precedent evidence: Teamable is an observed In where Diamond acknowledged valuation concerns but committed based on traction, founder hustle, coachability, and demonstrated execution (H-81fdc601af2e5b9909c0). Similarity: AGS likewise has a hands-on founder, reported operating traction, a launched consumer product, and an explicit willingness to learn and accept support (P-015, P-039). Difference: Teamable had materially stronger recurring-revenue evidence and does not supply the same 35% PE ownership or explicit build-and-flip structure; the observed Space In also involved a different frontier-technology policy context (H-56d657b3e22e7635c514). Because those differences prevent a clean same-risk exception, the founder exception is not activated as the controlling route; the decision rests on conventional consumer fit plus a small-check posture.",
+      "historical_coverage": {
+        "In": 3,
+        "Out": 16,
+        "accessible": 21
+      },
+      "reference_path": "evaluation/pitchshow/investors/howie-diamond-pure-ventures/rationale-references/119-amateur-golf-society-venture-capital-vs-private-equity.json",
+      "reference_human_validated": false,
+      "explicit_reason_comparison": [
+        {
+          "reference_label": "corporate_structure_constraint",
+          "reference_direction": "negative",
+          "source_turn_index": 164,
+          "quote": "they can vote you out tomorrow. And this is what concerns us.",
+          "predicted_direction": null,
+          "controlling": false
+        },
+        {
+          "reference_label": "deal_terms_complexity_concern",
+          "reference_direction": "negative",
+          "source_turn_index": 162,
+          "quote": "Or a key man clause. We can talk about something to put in.",
+          "predicted_direction": null,
+          "controlling": false
+        },
+        {
+          "reference_label": "founder_investor_vision_alignment",
+          "reference_direction": "negative",
+          "source_turn_index": 126,
+          "quote": "Typically if someone says they're looking to build something really quickly and flip it, I would be out.",
+          "predicted_direction": null,
+          "controlling": false
+        },
+        {
+          "reference_label": "founder_motivation_authenticity",
+          "reference_direction": "positive",
+          "source_turn_index": 122,
+          "quote": "I think you're trying to prove yourself. Like you're on your growth edge right now. Like you wanna show something to the world.",
+          "predicted_direction": "neutral",
+          "controlling": false
+        },
+        {
+          "reference_label": "founder_qualities",
+          "reference_direction": "positive",
+          "source_turn_index": 162,
+          "quote": "wanting to invest in you and believing in you.",
+          "predicted_direction": "positive",
+          "controlling": false
+        },
+        {
+          "reference_label": "fund_economics_constraint",
+          "reference_direction": "positive",
+          "source_turn_index": 126,
+          "quote": "that would be the minimum that I would want to come in at, and it seems like there's room.",
+          "predicted_direction": null,
+          "controlling": false
+        },
+        {
+          "reference_label": "investment_upside_assessment",
+          "reference_direction": "positive",
+          "source_turn_index": 134,
+          "quote": "At a $3 million post money valuation. Like, I am very excited about that.",
+          "predicted_direction": "positive",
+          "controlling": true
+        },
+        {
+          "reference_label": "investor_value_add_fit",
+          "reference_direction": "positive",
+          "source_turn_index": 132,
+          "quote": "which I will help you get to",
+          "predicted_direction": null,
+          "controlling": false
+        },
+        {
+          "reference_label": "market_problem_validation",
+          "reference_direction": "positive",
+          "source_turn_index": 122,
+          "quote": "I am a golfer. and I want to play more.",
+          "predicted_direction": "positive",
+          "controlling": true
+        },
+        {
+          "reference_label": "solution_feasibility_assessment",
+          "reference_direction": "positive",
+          "source_turn_index": 122,
+          "quote": "all this seems doable.",
+          "predicted_direction": null,
+          "controlling": false
+        }
+      ],
+      "phase1_findings": [
+        "PHASE1_PLAN_INVALID_ATTEMPT_1: 1 validation error for RetrievalPlanV4\nquestions.5\n  String should have at most 300 characters [type=string_too_long, input_value='What exactly is propriet... the eventual decision.', input_type=str]\n    For further information visit https://errors.pydantic.dev/2.13/v/string_too_long",
+        "NORMALIZED_QUESTION_EVIDENCE:5:removed=6",
+        "NORMALIZED_QUESTION_EVIDENCE:6:removed=2",
+        "NORMALIZED_DECISION_DIMENSION:founder_coachability->other",
+        "SUFFICIENT_WITH_SEARCHABLE_QUESTIONS",
+        "POLICY_COMPARISON_MISSING:sector_geography",
+        "NORMALIZED_QUESTION_EVIDENCE:1:removed=3",
+        "NORMALIZED_QUESTION_EVIDENCE:2:removed=3",
+        "NORMALIZED_QUESTION_EVIDENCE:3:removed=3",
+        "NORMALIZED_QUESTION_EVIDENCE:4:removed=7",
+        "NORMALIZED_QUESTION_EVIDENCE:5:removed=1",
+        "NORMALIZED_QUESTION_EVIDENCE:6:removed=4",
+        "NORMALIZED_DROPPED_INACCESSIBLE_RATIONALE_EVIDENCE:R2:W-9cc27a4d85cc78396da",
+        "NORMALIZED_DROPPED_INACCESSIBLE_RATIONALE_EVIDENCE:R3:W-9cc27a4d85cc78396da",
+        "NORMALIZED_DROPPED_INACCESSIBLE_RATIONALE_EVIDENCE:R4:W-9cc27a4d85cc78396da",
+        "NORMALIZED_DROPPED_INACCESSIBLE_RATIONALE_EVIDENCE:R13:W-9cc27a4d85cc78396da",
+        "NORMALIZED_QUESTION_EVIDENCE:1:removed=4",
+        "NORMALIZED_QUESTION_EVIDENCE:2:removed=4",
+        "NORMALIZED_QUESTION_EVIDENCE:4:removed=6",
+        "PHASE1_NO_NOVELTY_STOP"
+      ],
+      "phase2_findings": [
+        "SUFFICIENT_WITH_SEARCHABLE_QUESTIONS"
+      ]
+    },
+    {
+      "vc_slug": "howie-diamond-pure-ventures",
+      "episode_slug": "4-skylights",
+      "actual_decision": "Out",
+      "job_id": "5fa25a6e6856ac82160d85fbcc207b0eaf24bce0ed88c63dd362548a1f3ec265",
+      "status": "completed",
+      "summary_path": "/home/dpasch01/vclogic-vc-agentic-assessment/outputs/pitchshow-evaluation/howie-diamond-pure-ventures/4-skylights/founders-only/5fa25a6e6856ac82160d85fbcc207b0eaf24bce0ed88c63dd362548a1f3ec265/attempt-1/runs/4-skylights/summary.json",
+      "predicted_decision": "In",
+      "phase1_status": "provisional",
+      "phase2_status": "provisional",
+      "stop_reason": "iteration_limit",
+      "cost_usd": 0.15107994000000002,
+      "correct": false,
+      "decision_path": "founder_conviction_exception",
+      "check_tier": "exploratory_lt_100k",
+      "decision_justification": "I would make an exploratory In, subject to ordinary verification. The conventional thesis-fit route leans Out because Skylights has not demonstrated paid repeatability, pricing, contribution margins, renewal, or a quantified path from 100 completed flights to 100 flights per day (P-003, P-006, P-019; W-9cc27a4d85cc78396da4). Those concerns resemble Out precedents where a working concept or strong enthusiasm did not overcome unresolved economics and customer-acquisition proof, particularly Tuckrbox (H-e2c0c4a5dc57cd4c48ae; H-bca043cc0edbe5e76bae) and the other economics- or category-fit-related Outs (H-2a4a9e9e78916ea3e57d; H-44ed77aeabe74d3d8d9a). The founder-conviction route changes the observable commitment prediction: David has unusually direct airline-market fit, authentic motivation, four-airline deployment experience, meaningful passenger engagement, and a complementary content-licensing cofounder (P-001, P-007, P-015, P-028, P-029). That makes Skylights materially closer to the specialized aerospace In, where Diamond committed before full commercialization and launch proof, than to the cited Outs (H-cfb5e7ef36dff00eda8a; H-56d657b3e22e7635c514). No frozen constraint is a hard veto: the financing, economics, ownership, expertise, ambition, and exit issues are unresolved or ordinary risks rather than established incompatibilities. I would therefore make a small exploratory commitment rather than endorse the full $1.8 million plan or the projected scale. I do not infer an exact check amount from the historical quote; W-ec7d260f09a2e06edbec is only contextual evidence that small on-show checks were possible.",
+      "exception_comparison": "Controlling concern: Skylights has specialized institutional-adoption risk, long airline and content-integration cycles, unresolved paid economics, and an ambitious commercialization plan from 100 completed flights to 100 flights per day (P-003, P-006, P-019). The concern is whether strong technical and founder evidence can justify a pitch-stage commitment before scalable commercial proof. Precedent evidence: In H-cfb5e7ef36dff00eda8a, Diamond invested in an aerospace startup before launch while its acquisition path and future customer base were still being discussed. H-56d657b3e22e7635c514 records the associated concrete small commitment. Similarity: Both ventures require specialized founder knowledge, technical or systems execution, and institutional adoption before full commercialization. Skylights has completed four-airline deployments, achieved roughly four hours of passenger engagement, secured studio relationships, and recruited a 15-year content-licensing specialist (P-007, P-015, P-028). The aerospace precedent therefore supports tolerance for unresolved commercialization and customer-development risk, not merely admiration for a founder. Difference: The aerospace precedent had explicit customer discussions and a clearer industry acquisition path, while Skylights does not quantify paid airline contracts, pricing, margins, or ownership terms. Skylights also faces entrenched airline-entertainment intermediaries and must prove positive unit economics. Conversely, Skylights has real operating deployments rather than a pre-launch proposition. The later reported $25,000-$30,000 on-show range is policy context only and does not establish an exact check for this deal (W-ec7d260f09a2e06edbec).",
+      "historical_coverage": {
+        "In": 3,
+        "Out": 15,
+        "accessible": 20
+      },
+      "reference_path": "evaluation/pitchshow/investors/howie-diamond-pure-ventures/rationale-references/4-skylights.json",
+      "reference_human_validated": false,
+      "explicit_reason_comparison": [
+        {
+          "reference_label": "traction_repeatability_concern",
+          "reference_direction": "negative",
+          "source_turn_index": 107,
+          "quote": "It's a little too early for me.",
+          "predicted_direction": "negative",
+          "controlling": true
+        }
+      ],
+      "phase1_findings": [
+        "PHASE1_PLAN_INVALID_ATTEMPT_1: 1 validation error for RetrievalPlanV4\ncontinuation_focus\n  String should have at most 600 characters [type=string_too_long, input_value='Deliberately scan for de...s positive or negative.', input_type=str]\n    For further information visit https://errors.pydantic.dev/2.13/v/string_too_long",
+        "NORMALIZED_QUESTION_EVIDENCE:1:removed=1",
+        "NORMALIZED_QUESTION_EVIDENCE:2:removed=5",
+        "NORMALIZED_QUESTION_EVIDENCE:3:removed=4",
+        "NORMALIZED_QUESTION_EVIDENCE:4:removed=3",
+        "NORMALIZED_QUESTION_EVIDENCE:5:removed=1",
+        "NORMALIZED_QUESTION_EVIDENCE:6:removed=3",
+        "NORMALIZED_DECISION_DIMENSION:execution->other",
+        "NORMALIZED_FILTERED_MAPPED_IDS:material_statement:removed=2",
+        "NORMALIZED_DROPPED_CONSTRAINT:C6:investor_evidence",
+        "SUFFICIENT_WITH_SEARCHABLE_QUESTIONS",
+        "SUFFICIENT_WITH_NEXT_SEARCH_OBJECTIVES",
+        "POLICY_COMPARISON_MISSING:sector_geography",
+        "NORMALIZED_DROPPED_CONSTRAINT:C7:investor_evidence",
+        "PHASE1_CANDIDATE_INVALID: 6 validation errors for InvestigationV41\nconstraint_assessments.0.assessment\n  Field required [type=missing, input_value={'constraint_id': 'C1', '...pped_ids': ['R1', 'R5']}, input_type=dict]\n    For further information visit https://errors.pydantic.dev/2.13/v/missing\nconstraint_assessments.1.assessment\n  Field required [type=missing, input_value={'constraint_id': 'C2', '..., 'mapped_ids': ['R12']}, input_type=dict]\n    For further information visit https://errors.pydantic.dev/2.13/v/missing\nconstraint_assessments.2.assessment\n  Field required [type=missing, input_value={'constraint_id': 'C3', '..., 'mapped_ids': ['R12']}, input_type=dict]\n    For further information visit https://errors.pydantic.dev/2.13/v/missing\nconstraint_assessments.3.assessment\n  Field required [type=missing, input_value={'constraint_id': 'C4', '...': ['R7', 'R11', 'R13']}, input_type=dict]\n    For further information visit https://errors.pydantic.dev/2.13/v/missing\nconstraint_assessments.4.assessment\n  Field required [type=missing, input_value={'constraint_id': 'C5', '...ed_ids': ['R12', 'R15']}, input_type=dict]\n    For further information visit https://errors.pydantic.dev/2.13/v/missing\nconstraint_assessments.5.assessment\n  Field required [type=missing, input_value={'constraint_id': 'C6', '...: ['R12', 'R13', 'R15']}, input_type=dict]\n    For further information visit https://errors.pydantic.dev/2.13/v/missing",
+        "NORMALIZED_QUESTION_EVIDENCE:3:removed=5",
+        "NORMALIZED_QUESTION_EVIDENCE:5:removed=3",
+        "NORMALIZED_QUESTION_EVIDENCE:6:removed=1",
+        "NORMALIZED_QUESTION_EVIDENCE:7:removed=3",
+        "PHASE2_ITERATION_LIMIT"
+      ],
+      "phase2_findings": [
+        "PHASE2_CANDIDATE_INVALID: 1 validation error for DecisionV41\n  Value error, decision path and final decision disagree [type=value_error, input_value={'schema_version': 'decis...ctivate the exception.\"}, input_type=dict]\n    For further information visit https://errors.pydantic.dev/2.13/v/value_error",
+        "PHASE2_ITERATION_LIMIT"
+      ]
+    },
+    {
+      "vc_slug": "jake-chapman-marque-ventures",
+      "episode_slug": "5-fitguard",
+      "actual_decision": "Out",
+      "job_id": "783f8925258fbb3cb3c6194aab8e37c6f13d0e4a3206f277e28dde0adc20d849",
+      "status": "completed",
+      "summary_path": "/home/dpasch01/vclogic-vc-agentic-assessment/outputs/pitchshow-evaluation/jake-chapman-marque-ventures/5-fitguard/founders-only/783f8925258fbb3cb3c6194aab8e37c6f13d0e4a3206f277e28dde0adc20d849/attempt-1/runs/5-fitguard/summary.json",
+      "predicted_decision": "Out",
+      "phase1_status": "provisional",
+      "phase2_status": "provisional",
+      "stop_reason": "iteration_limit",
+      "cost_usd": 0.13914905000000002,
+      "correct": true,
+      "decision_path": "out",
+      "check_tier": "none",
+      "decision_justification": "I would not make a concrete pitch-stage capital commitment. The conventional thesis-fit case has meaningful positives: Anthony has direct athletic experience, relevant electronics and supply-chain background, several years of persistence, accelerator experience, and a serious youth-sports safety mission [P-002][P-003][P-004][P-006][P-010][P-016][P-036]. The company also reports a paid research deployment, active validation programs, and conditional letters of intent [P-039][P-040][P-041][P-042][P-043].\n\nThe controlling concern is product and operating readiness. The prototype explicitly does not work [P-028][P-029]. The proposed safety workflow depends on accurate impact sensing, a persistent on-device alert, offline Bluetooth synchronization, and reliable enforcement by leagues, coaches, or referees; none of that is demonstrated in the pitch [P-023][P-024][P-025][P-026][P-027]. The claimed 5,000-unit demand is unpaid and contingent on successful validation [P-043]. The stated $129 initial price and projected sub-$100 scaled price do not establish bill of materials cost, gross margin, replacement economics, channel costs, or obtainable revenue [P-030][W-6f734fd9187b99d4f59c][W-05c774f3efbe4eaa6524].\n\nThe closest observed In is the early hardware precedent in H-28cce7007007ae2eaabb. Chapman tolerated uncertainty about that company's eventual market and made a small-check commitment, but the associated evidence shows materially greater operational readiness, including final designs, manufacturing progress, and production financing [H-d0761b3c410fcd0d44ad]. FIT is more advanced than the idea-stage Out in H-5a31ad85d3333547d069, but its nonfunctional safety product and unproven operating workflow are closer to the operational-maturity concern in H-fd82785a47fec52fc5ee than to that hardware In.\n\nThe founder-conviction route was considered after the conventional route. The mission, persistence, personal connection, and relevant technical experience are real positives, but the accessible In precedent supports tolerance for market uncertainty in a more production-ready hardware company; it does not support this combination of nonfunctional product, unresolved safety validation, contingent unpaid demand, and unmodeled hardware economics. Sector and check fit remain uncertainties rather than hard vetoes because the target role and era are not independently established, and the supplied mandate and check-size sources span different historical contexts [W-33fabb0a38f29e0a478c][W-47cec6aaf229ebc149b5][W-4f686f19169d117b593d][W-3e247a0e40d947a88f16].",
+      "exception_comparison": "Controlling concern: The relevant exception would need to overcome the nonfunctional safety prototype, unresolved clinical and workflow validation, contingent unpaid demand, and missing hardware economics, not merely uncertainty about the eventual market.\n\nPrecedent evidence: H-28cce7007007ae2eaabb is an observed In in early hardware where Chapman believed the founder could work through market uncertainty. H-d0761b3c410fcd0d44ad shows that the associated company had final designs, manufacturing underway, and production financing.\n\nSimilarity: FIT is also founder-led hardware with a mission-oriented use case, strong founder-market connection, and unresolved market proof [P-002][P-006][P-016][P-023]. FIT additionally has a paid research deployment and active validation programs [P-040][P-041], so it is more advanced than a pure idea.\n\nDifference: H-28 tolerated unresolved market direction, not the same unresolved product-operation risk. FIT's prototype is explicitly nonfunctional [P-028], its 5,000-unit demand is unpaid and conditional [P-043], and its margins and replacement economics are absent [P-030]. The precedent therefore does not support overriding the current constraint profile. Its small-check behavior also cannot establish an exact check amount or prove applicability to the unresolved target role and era.",
+      "historical_coverage": {
+        "In": 3,
+        "Out": 9,
+        "accessible": 15
+      },
+      "reference_path": "evaluation/pitchshow/investors/jake-chapman-marque-ventures/rationale-references/5-fitguard.json",
+      "reference_human_validated": false,
+      "explicit_reason_comparison": [
+        {
+          "reference_label": "business_model_assessment",
+          "reference_direction": "negative",
+          "source_turn_index": 135,
+          "quote": "I don't think you can build a really great business on just these hardware sales.",
+          "predicted_direction": "negative",
+          "controlling": true
+        },
+        {
+          "reference_label": "competitive_landscape_inertia",
+          "reference_direction": "negative",
+          "source_turn_index": 135,
+          "quote": "I don't think you'll be able to get piecemeal adoption, because I think the kids are going to rebel against it.",
+          "predicted_direction": null,
+          "controlling": false
+        },
+        {
+          "reference_label": "solution_feasibility_assessment",
+          "reference_direction": "negative",
+          "source_turn_index": 137,
+          "quote": "But for now, for the product you've got, for where you're at, I think I'm going to pass.",
+          "predicted_direction": "negative",
+          "controlling": true
+        }
+      ],
+      "phase1_findings": [
+        "NORMALIZED_QUESTION_EVIDENCE:1:removed=4",
+        "NORMALIZED_QUESTION_EVIDENCE:2:removed=3",
+        "NORMALIZED_QUESTION_EVIDENCE:3:removed=6",
+        "NORMALIZED_QUESTION_EVIDENCE:4:removed=2",
+        "NORMALIZED_QUESTION_EVIDENCE:5:removed=5",
+        "NORMALIZED_QUESTION_EVIDENCE:6:removed=2",
+        "NORMALIZED_DECISION_DIMENSION:founder_market_fit->other",
+        "NORMALIZED_DECISION_DIMENSION:founder_communication->other",
+        "NORMALIZED_DROPPED_INACCESSIBLE_RATIONALE_EVIDENCE:R4:W-a8a26dea976c46ce507b8",
+        "PHASE1_CANDIDATE_INVALID: 1 validation error for InvestigationV41\n  Value error, material statement pitch evidence IDs must be unique [type=value_error, input_value={'schema_version': 'inves...verlap_assessments': []}, input_type=dict]\n    For further information visit https://errors.pydantic.dev/2.13/v/value_error",
+        "PHASE1_PLAN_INVALID_ATTEMPT_1: 1 validation error for RetrievalPlanV4\ncontinuation_focus\n  String should have at most 600 characters [type=string_too_long, input_value='First conduct a delibera...positives or negatives.', input_type=str]\n    For further information visit https://errors.pydantic.dev/2.13/v/string_too_long",
+        "NORMALIZED_QUESTION_EVIDENCE:1:removed=9",
+        "NORMALIZED_QUESTION_EVIDENCE:3:removed=4",
+        "NORMALIZED_QUESTION_EVIDENCE:4:removed=5",
+        "NORMALIZED_FILTERED_MAPPED_IDS:material_statement:removed=1",
+        "SUFFICIENT_WITH_SEARCHABLE_QUESTIONS",
+        "SUFFICIENT_WITH_NEXT_SEARCH_OBJECTIVES",
+        "POLICY_COMPARISON_MISSING:price_valuation",
+        "POLICY_COMPARISON_MISSING:traction_economics",
+        "POLICY_COMPARISON_MISSING:founder_exceptions",
+        "PHASE1_PLAN_INVALID_ATTEMPT_1: 1 validation error for RetrievalPlanV4\nquestions.5\n  String should have at most 300 characters [type=string_too_long, input_value='What founder ownership, ...economics framework?\"],', input_type=str]\n    For further information visit https://errors.pydantic.dev/2.13/v/string_too_long",
+        "NORMALIZED_QUESTION_EVIDENCE:2:removed=5",
+        "NORMALIZED_QUESTION_EVIDENCE:3:removed=7",
+        "NORMALIZED_QUESTION_EVIDENCE:4:removed=4",
+        "PHASE1_NO_NOVELTY_STOP"
+      ],
+      "phase2_findings": [
+        "PHASE2_ITERATION_LIMIT"
+      ]
+    },
+    {
+      "vc_slug": "jenny-fielding-everywhere-ventures",
+      "episode_slug": "163-curiedx-ai-pocket-doctor",
+      "actual_decision": "Out",
+      "job_id": "49dcb0221070bcdf71ae7977c7b2197a464fdb8d4346bfbe81d100186ca499d6",
+      "status": "completed",
+      "summary_path": "/home/dpasch01/vclogic-vc-agentic-assessment/outputs/pitchshow-evaluation/jenny-fielding-everywhere-ventures/163-curiedx-ai-pocket-doctor/founders-only/49dcb0221070bcdf71ae7977c7b2197a464fdb8d4346bfbe81d100186ca499d6/attempt-1/runs/163-curiedx-ai-pocket-doctor/summary.json",
+      "predicted_decision": "Out",
+      "phase1_status": "provisional",
+      "phase2_status": "provisional",
+      "stop_reason": "iteration_limit",
+      "cost_usd": 0.17368455000000002,
+      "correct": true,
+      "decision_path": "out",
+      "check_tier": "none",
+      "decision_justification": "The conventional thesis-fit case is attractive but does not clear the pitch-stage commitment bar. Dr. Therese Canares has strong founder-market fit as a pediatric emergency physician, a concrete clinical problem, a launched product with live image guidance, two pilot customers, eight practice partnerships, improving accuracy, and more than $1.5 million in prior grant and investment support (P-001, P-007, P-018, P-022). Healthcare and healthcare automation are plausibly within Fielding's interests, although target-role and target-era applicability are not independently established (W-156be864b49ef5e70394, W-fc1e7c425b42e389e0cf, W-4b1c0758ca6599f155b0). The main concerns are financing format, capital intensity, channel execution, and repeatable economics. CurieDx is raising $4 million, versus a documented pre-seed format of approximately $500,000-$2 million with checks commonly around $250,000; the requested round is twice the cited upper range and materially larger than the common check size (P-019, P-036; W-c888be75a57b2d241517, W-3590138e576ab001083b). Because those policies are later or undated relative to the target episode, this is a material preference mismatch rather than a hard veto. The $6 million SAFE cap is more compatible with the cited roughly $10 million pre-seed ceiling, but ownership, dilution, governance, and pro rata terms remain unresolved (P-024; W-c0023935be3c2b0a128a, W-ccd36f0acc882b44b168). The financing must support clinical trials, a de novo FDA pathway, DTC acquisition and data generation, product expansion, and a later return to B2B before repeatable commercial proof exists (P-010, P-013, P-019, P-031, P-036). The founder candidly reports slower-than-expected B2B sales cycles, experimental DTC pricing, and payer requests for real-patient data (P-029, P-033, P-035, P-039, P-045). The closest observed Out precedent is Aura Finance: Fielding praised founder-market fit, traction, and acquisition but still passed because the financing fit was wrong (H-f4fa9dd983a263cfe178). The other observed Out involved insufficiently large ambition and is less comparable because CurieDx presents substantial global and multi-disease ambition (H-53a409531b49b8457ed2). No observed In precedent is available in the supplied accessible coverage, so there is no evidence supporting an exception to the financing and capital-intensity concerns. The founder-conviction route was considered, but the conventional Out path remains the better prediction.",
+      "exception_comparison": "Controlling concern: The proposed exception would need to overcome the mismatch between CurieDx's $4 million financing plan and the documented small collaborative pre-seed format, together with de novo FDA, clinical-validation, DTC, and B2B execution risk (P-010, P-013, P-019, P-036; W-c888be75a57b2d241517). Precedent evidence: No observed In H-ID is available in the supplied accessible coverage; the historical set contains two observed Outs and no observed Ins. Similarity: The closest observed Out, H-f4fa9dd983a263cfe178, shows Fielding praising founder-market fit and traction while declining because financing fit was wrong. CurieDx similarly combines an appealing founder and credible early progress with a financing-model concern. Difference: Aura's explicit issue was price, while CurieDx's $6 million cap is below the cited ceiling; CurieDx instead adds substantial de novo regulatory, clinical-validation, capital-intensity, and unvalidated channel risk. H-f4fa9dd983a263cfe178 is therefore a caution against assuming founder quality alone creates a commitment, not evidence sufficient to activate an exception.",
+      "historical_coverage": {
+        "In": 0,
+        "Out": 2,
+        "accessible": 4
+      },
+      "reference_path": "evaluation/pitchshow/investors/jenny-fielding-everywhere-ventures/rationale-references/163-curiedx-ai-pocket-doctor.json",
+      "reference_human_validated": false,
+      "explicit_reason_comparison": [
+        {
+          "reference_label": "business_model_assessment",
+          "reference_direction": "negative",
+          "source_turn_index": 113,
+          "quote": "with multiple business models",
+          "predicted_direction": null,
+          "controlling": false
+        },
+        {
+          "reference_label": "execution_risk_assessment",
+          "reference_direction": "negative",
+          "source_turn_index": 162,
+          "quote": "Too many things.",
+          "predicted_direction": null,
+          "controlling": false
+        },
+        {
+          "reference_label": "founder_communication_quality",
+          "reference_direction": "negative",
+          "source_turn_index": 160,
+          "quote": "she reversed the order and that confused us",
+          "predicted_direction": "positive",
+          "controlling": false
+        },
+        {
+          "reference_label": "fund_economics_constraint",
+          "reference_direction": "negative",
+          "source_turn_index": 113,
+          "quote": "a $4 million raise, which is, you know, quite high for me as a pre-seed",
+          "predicted_direction": null,
+          "controlling": false
+        },
+        {
+          "reference_label": "go_to_market_strategy_assessment",
+          "reference_direction": "negative",
+          "source_turn_index": 188,
+          "quote": "this is the best way to accumulate the data. And I think we all just don't believe that.",
+          "predicted_direction": "negative",
+          "controlling": true
+        },
+        {
+          "reference_label": "solution_feasibility_assessment",
+          "reference_direction": "negative",
+          "source_turn_index": 113,
+          "quote": "the FDA path, I think that's going to be just a complicated one for me to get my head around",
+          "predicted_direction": "neutral",
+          "controlling": false
+        }
+      ],
+      "phase1_findings": [
+        "PHASE1_PLAN_INVALID_ATTEMPT_1: 1 validation error for RetrievalPlanV4\nquestions.5\n  String should have at most 300 characters [type=string_too_long, input_value='What are the sensitivity...g the rationale record.', input_type=str]\n    For further information visit https://errors.pydantic.dev/2.13/v/string_too_long",
+        "PHASE1_PLAN_INVALID_ATTEMPT_2: 1 validation error for RetrievalPlanV4\nquestions.5\n  String should have at most 300 characters [type=string_too_long, input_value=\"What is the credible pat...hout investor evidence.\", input_type=str]\n    For further information visit https://errors.pydantic.dev/2.13/v/string_too_long",
+        "PHASE1_PLAN_FALLBACK_USED",
+        "NORMALIZED_DECISION_DIMENSION:founder_market_fit->other",
+        "SUFFICIENT_WITH_SEARCHABLE_QUESTIONS",
+        "SUFFICIENT_WITH_NEXT_SEARCH_OBJECTIVES",
+        "POLICY_COMPARISON_MISSING:traction_economics",
+        "PHASE1_PLAN_INVALID_ATTEMPT_1: 1 validation error for RetrievalPlanV4\nquestions.5\n  String should have at most 300 characters [type=string_too_long, input_value='What target-era portfoli... temporary DTC pivots? ', input_type=str]\n    For further information visit https://errors.pydantic.dev/2.13/v/string_too_long",
+        "POLICY_COMPARISON_MISSING:sector_geography",
+        "PHASE1_PLAN_INVALID_ATTEMPT_1: 1 validation error for RetrievalPlanV4\n  Input should be a valid dictionary or instance of RetrievalPlanV4 [type=model_type, input_value=None, input_type=NoneType]\n    For further information visit https://errors.pydantic.dev/2.13/v/model_type",
+        "PHASE2_ITERATION_LIMIT"
+      ],
+      "phase2_findings": [
+        "PHASE2_PLAN_INVALID_ATTEMPT_1: 1 validation error for RetrievalPlanV4\ncontinuation_focus\n  String should have at most 600 characters [type=string_too_long, input_value='First test the frozen co...nstraint applicability.', input_type=str]\n    For further information visit https://errors.pydantic.dev/2.13/v/string_too_long",
+        "PHASE2_ITERATION_LIMIT"
+      ]
+    },
+    {
+      "vc_slug": "jesse-middleton-flybridge",
+      "episode_slug": "187-paysquad-buy-now-pay-together",
+      "actual_decision": "Out",
+      "job_id": "f1ae816bb4c71ba80568a7ee7ce1eba9c5de910075beb8b635f256dc8f702e54",
+      "status": "completed",
+      "summary_path": "/home/dpasch01/vclogic-vc-agentic-assessment/outputs/pitchshow-evaluation/jesse-middleton-flybridge/187-paysquad-buy-now-pay-together/founders-only/f1ae816bb4c71ba80568a7ee7ce1eba9c5de910075beb8b635f256dc8f702e54/attempt-1/runs/187-paysquad-buy-now-pay-together/summary.json",
+      "predicted_decision": "In",
+      "phase1_status": "accepted",
+      "phase2_status": "provisional",
+      "stop_reason": "iteration_limit",
+      "cost_usd": 0.17252105000000004,
+      "correct": false,
+      "decision_path": "conventional_fit",
+      "check_tier": "exploratory_lt_100k",
+      "decision_justification": "I would make an exploratory In, subject to ordinary verification. The conventional thesis-fit case is strong enough for a small first check: PaySquad addresses a specific recurring group-payment problem, and Cam brings relevant payments and retail experience, prior exposure to billing infrastructure processing hundreds of millions, full-time commitment, rapid merchant integration, and experienced Afterpay and e-commerce hires (P-001, P-002, P-005, P-022, P-026; R1, R2, R3). The pitch also reports more than 90% completion, five-to-seven participants acquired per transaction, $4 million in PaySquads created, inbound merchant demand, large retailer onboarding, and payment-orchestrator distribution (P-007, P-010, P-011, P-015, P-025, P-027; R6, R7). Baby goods, ticketing, travel, utilities, and a broader multiplayer layer provide a plausible venture-scale outcome rather than merely a small-business ambition (P-015, P-016, P-037; R9, R11). The closest observed In evidence supports committing at an early stage when founder relevance, early traction, and a credible expansion path are present despite incomplete scale proof (H-185da3ab2fbd0f56196e). The exploratory commitment behavior in H-338a4120474baaf4a6be and H-af84a9499ad617a52296 also shows that a smaller initial commitment can coexist with ordinary follow-up diligence. The closest Out, H-c1eb630b6b616e63f288 and H-b9ca850bde212062680f, involved relevant founders or product evidence but insufficiently demonstrated acquisition. PaySquad presents more explicit merchant pull, transaction completion, participant acquisition, and integration evidence, so it is closer to the In side. Confidence remains moderate because the $4 million figure is GMV rather than clearly verified revenue, the $2 million-$3 million forecast lacks cohort and customer economics, future transaction fronting may create regulatory and balance-sheet exposure, and the financing ask and terms are unresolved (P-007, P-010, P-011; R6, R8, U1). The investor's reported broader mandate includes fintech, consumer, and community-driven companies, although later materials emphasize AI, so category fit is an ordinary preference uncertainty rather than a hard constraint (W-02151dea406e98ce1c86, W-4a6ba27ebb85f04b4e06; R12).",
+      "exception_comparison": "Controlling concern: The possible exception would need to overcome incomplete cohort evidence, uncertain economic durability, and uncertain stage/check fit without overriding the unresolved payment-fronting, regulatory, and financing-term risks. Precedent evidence: H-185da3ab2fbd0f56196e is an observed In involving an early company with approximately $50,000 of revenue to date, a new monetization push, and an ambitious future revenue plan. Similarity: That precedent shows Middleton could commit before complete scale proof when relevant founder motivation, early traction, and a plausible expansion path were present; PaySquad similarly offers a relevant founder, early merchant demand, and a broad platform thesis through P-002, P-005, P-015, and P-037. Difference: H-185da3ab2fbd0f56196e does not establish tolerance for PaySquad's specific transaction-fronting, regulatory, exclusivity, or financing-term risks, and it does not establish a current exact check amount. The analogy supports considering conviction but is not sufficient to make the exception controlling; the final decision remains conventional_fit.",
+      "historical_coverage": {
+        "In": 4,
+        "Out": 14,
+        "accessible": 25
+      },
+      "reference_path": "evaluation/pitchshow/investors/jesse-middleton-flybridge/rationale-references/187-paysquad-buy-now-pay-together.json",
+      "reference_human_validated": false,
+      "explicit_reason_comparison": [
+        {
+          "reference_label": "business_model_assessment",
+          "reference_direction": "negative",
+          "source_turn_index": 144,
+          "quote": "There's a race to the bottom on price",
+          "predicted_direction": null,
+          "controlling": false
+        },
+        {
+          "reference_label": "business_viability_concern",
+          "reference_direction": "negative",
+          "source_turn_index": 227,
+          "quote": "you're gonna measure in percentages of percentages.",
+          "predicted_direction": null,
+          "controlling": false
+        },
+        {
+          "reference_label": "product_differentiation_concern",
+          "reference_direction": "negative",
+          "source_turn_index": 148,
+          "quote": "I don't know how hard it would be for a firm or anybody else to say, you know, We're gonna offer it and cancel our MSA.",
+          "predicted_direction": "neutral",
+          "controlling": true
+        },
+        {
+          "reference_label": "traction_repeatability_concern",
+          "reference_direction": "negative",
+          "source_turn_index": 148,
+          "quote": "I think you're just early in this.",
+          "predicted_direction": null,
+          "controlling": false
+        }
+      ],
+      "phase1_findings": [
+        "PHASE1_PLAN_INVALID_ATTEMPT_1: 1 validation error for RetrievalPlanV4\nquestions.5\n  String should have at most 300 characters [type=string_too_long, input_value='Does exclusivity with a ...aligned with Jesse\u2019s?', input_type=str]\n    For further information visit https://errors.pydantic.dev/2.13/v/string_too_long",
+        "PHASE1_PLAN_INVALID_ATTEMPT_2: 1 validation error for RetrievalPlanV4\nquestions.5\n  String should have at most 300 characters [type=string_too_long, input_value='What are Cam\u2019s long-te...amples does Jesse have?', input_type=str]\n    For further information visit https://errors.pydantic.dev/2.13/v/string_too_long",
+        "PHASE1_PLAN_FALLBACK_USED",
+        "NORMALIZED_QUESTION_EVIDENCE:1:removed=4",
+        "NORMALIZED_QUESTION_EVIDENCE:2:removed=5",
+        "NORMALIZED_QUESTION_EVIDENCE:3:removed=7",
+        "NORMALIZED_QUESTION_EVIDENCE:4:removed=5",
+        "NORMALIZED_QUESTION_EVIDENCE:5:removed=8",
+        "NORMALIZED_QUESTION_EVIDENCE:6:removed=5",
+        "NORMALIZED_DECISION_DIMENSION:go_to_market->other",
+        "NORMALIZED_DROPPED_INACCESSIBLE_CONSTRAINT_EVIDENCE:C5:W-2089b11fa8e9aa29fc5d2",
+        "SUFFICIENT_WITH_SEARCHABLE_QUESTIONS",
+        "SUFFICIENT_WITH_NEXT_SEARCH_OBJECTIVES",
+        "UNKNOWN_TAXONOMY_LABEL:stage_or_check_fit",
+        "PHASE1_CANDIDATE_INVALID: UNKNOWN_TAXONOMY_LABEL:stage_or_check_fit",
+        "PHASE1_PLAN_INVALID_ATTEMPT_1: 1 validation error for RetrievalPlanV4\ncontinuation_focus\n  String should have at most 600 characters [type=string_too_long, input_value='Deliberately scan for de...g the rationale record.', input_type=str]\n    For further information visit https://errors.pydantic.dev/2.13/v/string_too_long",
+        "PHASE1_PLAN_INVALID_ATTEMPT_2: 1 validation error for RetrievalPlanV4\ncontinuation_focus\n  String should have at most 600 characters [type=string_too_long, input_value='Deliberately scan for de...in the supplied corpus.', input_type=str]\n    For further information visit https://errors.pydantic.dev/2.13/v/string_too_long",
+        "NORMALIZED_QUESTION_EVIDENCE:3:removed=1",
+        "NORMALIZED_QUESTION_EVIDENCE:4:removed=1",
+        "NORMALIZED_QUESTION_EVIDENCE:5:removed=1",
+        "NORMALIZED_FILTERED_MAPPED_IDS:material_statement:removed=1",
+        "NORMALIZED_DROPPED_INACCESSIBLE_QUESTION_EVIDENCE:3:W-852e55895e8eaa29fc5d",
+        "NORMALIZED_DROPPED_INACCESSIBLE_CONSTRAINT_EVIDENCE:C2:W-852e55895e8eaa29fc5d",
+        "NORMALIZED_DROPPED_INACCESSIBLE_CONSTRAINT_EVIDENCE:C3:W-852e55895e8eaa29fc5d",
+        "PHASE1_CANDIDATE_INVALID: 1 validation error for InvestigationV41\nconstraint_assessments.2\n  Value error, constraint requires wiki or historical investor evidence [type=value_error, input_value={'constraint_id': 'C3', '...it cannot be assessed.'}, input_type=dict]\n    For further information visit https://errors.pydantic.dev/2.13/v/value_error",
+        "NORMALIZED_QUESTION_EVIDENCE:1:removed=2",
+        "NORMALIZED_QUESTION_EVIDENCE:2:removed=4",
+        "NORMALIZED_QUESTION_EVIDENCE:3:removed=5",
+        "NORMALIZED_QUESTION_EVIDENCE:4:removed=3",
+        "NORMALIZED_QUESTION_EVIDENCE:5:removed=3",
+        "NORMALIZED_DROPPED_INACCESSIBLE_CONSTRAINT_EVIDENCE:C4:W-2089b11fa8e9aa29fc5d2",
+        "POLICY_COMPARISON_MISSING:traction_economics",
+        "PHASE1_PLAN_INVALID_ATTEMPT_1: 1 validation error for RetrievalPlanV4\nquestions.5\n  String should have at most 300 characters [type=string_too_long, input_value='What evidence shows the .../governance precedents]', input_type=str]\n    For further information visit https://errors.pydantic.dev/2.13/v/string_too_long",
+        "NORMALIZED_QUESTION_EVIDENCE:2:removed=3",
+        "NORMALIZED_QUESTION_EVIDENCE:3:removed=6",
+        "NORMALIZED_QUESTION_EVIDENCE:4:removed=4",
+        "NORMALIZED_QUESTION_EVIDENCE:6:removed=1"
+      ],
+      "phase2_findings": [
+        "PHASE2_PLAN_INVALID_ATTEMPT_1: 1 validation error for RetrievalPlanV4\ncontinuation_focus\n  String should have at most 600 characters [type=string_too_long, input_value='No founder-rehearsal cha..., or durable advantage.', input_type=str]\n    For further information visit https://errors.pydantic.dev/2.13/v/string_too_long",
+        "PHASE2_ITERATION_LIMIT"
+      ]
+    },
+    {
+      "vc_slug": "mac-conwell",
+      "episode_slug": "129-reddrop-pitching-the-big-vision",
+      "actual_decision": "In",
+      "job_id": "f4e41d19e3a1a68fbcb68dceea40132e1dad6c9657f8a8ef99ffd0da63d2b9b1",
+      "status": "completed",
+      "summary_path": "/home/dpasch01/vclogic-vc-agentic-assessment/outputs/pitchshow-evaluation/mac-conwell/129-reddrop-pitching-the-big-vision/founders-only/f4e41d19e3a1a68fbcb68dceea40132e1dad6c9657f8a8ef99ffd0da63d2b9b1/attempt-1/runs/129-reddrop-pitching-the-big-vision/summary.json",
+      "predicted_decision": "Out",
+      "phase1_status": "provisional",
+      "phase2_status": "provisional",
+      "stop_reason": "iteration_limit",
+      "cost_usd": 0.16411229999999996,
+      "correct": false,
+      "decision_path": "out",
+      "check_tier": "none",
+      "decision_justification": "The conventional thesis-fit case is attractive but does not clear my pitch-stage commitment bar. RedDrop has generated $5 million cumulatively and $3 million last year, reports approximately 65% gross margin, roughly $20 CAC, and approximately $40 AOV, while its $100 million five-year ambition is directionally consistent with my venture-scale screen (P-003, P-018, W-34f349386259a1a96b4e). The controlling concern is durability and scalability: subscriptions are only launching, normalized repeat purchasing is unknown, and the 40% repeat figure comes from sale-event sales rather than established cohort retention (P-022). The pitch also does not show the customer-count, reorder, school-account, and channel-margin bridge needed to connect current revenue to $100 million. D2C acquisition is led by Facebook and Instagram, while school distribution is conference-led and commission-bearing (P-015, P-017, P-018). The closest observed Out is the CPG case in which I admired the founder and operating execution but remained concerned that the business might plateau after its first few million dollars of revenue (H-0d8d414cc9cc8905be9c). The closest observed In is Kinometrix, where a concrete institutional channel, reseller access, and unusually strong pilot evidence reduced commercialization risk (H-eeb2f1227349c9846679, H-6108b505baa4710b98f7). RedDrop is presently closer to the Out precedent on the controlling question of repeatable venture-scale growth. I also considered a founder-conviction exception: Monica demonstrates authentic customer understanding, strong communication, meaningful operating progress, and candor about the retention gap (P-013, P-018, P-022). However, the analogous In precedent tolerated difficult institutional selling because it showed deployed product evidence and concrete commercial validation; it does not establish tolerance for RedDrop's unresolved CPG retention and distribution risk. I would therefore make no concrete capital commitment at the pitch stage.",
+      "exception_comparison": "Controlling concern: Whether RedDrop can convert current CPG revenue and attractive reported unit economics into durable repeat demand and scalable distribution, rather than whether Monica is an admirable founder or whether feminine hygiene is categorically excluded.\n\nPrecedent evidence: H-eeb2f1227349c9846679 and H-6108b505baa4710b98f7 show an observed In where Mac responded to a difficult institutional problem after seeing a strong founder network, a reseller relationship, and unusually large hospital pilots or customer access.\n\nSimilarity: RedDrop also addresses a concrete and emotionally important problem, has meaningful revenue, includes an institutional school channel, and has a founder with strong customer understanding and operating credibility (P-003, P-011, P-013, P-018).\n\nDifference: The In precedent tolerated difficult institutional commercialization because concrete distribution access and large pilots reduced the same kind of scale risk. RedDrop's subscription is only launching, normalized retention is unknown, its largest D2C drivers are Meta platforms, school distribution carries commissions, and the $100 million projection lacks an obtainable-customer bridge (P-015, P-017, P-022, P-023). The $500,000 round also exceeds the historical $100,000\u2013$250,000 check context, while RedDrop's valuation and rights terms are unknown (W-a69eee448da6ea1df24a, W-6e08a37a86b6aa752bfa). The precedent therefore does not establish tolerance for the same unresolved CPG retention and scaling risk, so the exception remains unactivated.",
+      "historical_coverage": {
+        "In": 4,
+        "Out": 14,
+        "accessible": 22
+      },
+      "reference_path": "evaluation/pitchshow/investors/mac-conwell/rationale-references/129-reddrop-pitching-the-big-vision.json",
+      "reference_human_validated": false,
+      "explicit_reason_comparison": [
+        {
+          "reference_label": "fund_economics_constraint",
+          "reference_direction": "positive",
+          "source_turn_index": 120,
+          "quote": "If I could, I would tell you I'd give you the whole 500, but I can't.",
+          "predicted_direction": null,
+          "controlling": false
+        },
+        {
+          "reference_label": "investor_experience_bias",
+          "reference_direction": "positive",
+          "source_turn_index": 138,
+          "quote": "being the first check, our first institutional check is kind of my thing",
+          "predicted_direction": null,
+          "controlling": false
+        },
+        {
+          "reference_label": "product_appeal_assessment",
+          "reference_direction": "positive",
+          "source_turn_index": 120,
+          "quote": "we think this is incredible and what you could do with it",
+          "predicted_direction": null,
+          "controlling": false
+        }
+      ],
+      "phase1_findings": [
+        "PHASE1_PLAN_INVALID_ATTEMPT_1: 1 validation error for RetrievalPlanV4\nquestions.5\n  String should have at most 300 characters [type=string_too_long, input_value='What check size, ownersh...minine-hygiene company?', input_type=str]\n    For further information visit https://errors.pydantic.dev/2.13/v/string_too_long",
+        "PHASE1_PLAN_INVALID_ATTEMPT_2: 1 validation error for RetrievalPlanV4\nquestions.5\n  String should have at most 300 characters [type=string_too_long, input_value='What is Monica\u2019s perso...dated by adoption data?', input_type=str]\n    For further information visit https://errors.pydantic.dev/2.13/v/string_too_long",
+        "PHASE1_PLAN_FALLBACK_USED",
+        "NORMALIZED_DECISION_DIMENSION:founder_motivation->other",
+        "SUFFICIENT_WITH_SEARCHABLE_QUESTIONS",
+        "SUFFICIENT_WITH_NEXT_SEARCH_OBJECTIVES",
+        "POLICY_COMPARISON_MISSING:stage_check_ownership",
+        "POLICY_COMPARISON_MISSING:sector_geography",
+        "POLICY_COMPARISON_MISSING:role_and_era",
+        "PHASE1_PLAN_INVALID_ATTEMPT_1: 1 validation error for RetrievalPlanV4\nquestions.5\n  String should have at most 300 characters [type=string_too_long, input_value='What portfolio companies...ilable policy evidence?', input_type=str]\n    For further information visit https://errors.pydantic.dev/2.13/v/string_too_long",
+        "PHASE1_PLAN_INVALID_ATTEMPT_2: 1 validation error for RetrievalPlanV4\nquestions.5\n  String should have at most 300 characters [type=string_too_long, input_value='What portfolio companies...erexamples clarify fit?', input_type=str]\n    For further information visit https://errors.pydantic.dev/2.13/v/string_too_long",
+        "PHASE1_CANDIDATE_INVALID: 7 validation errors for InvestigationV41\nconstraint_assessments.0.assessment\n  Field required [type=missing, input_value={'constraint_id': 'C1', '...pped_ids': ['R1', 'R9']}, input_type=dict]\n    For further information visit https://errors.pydantic.dev/2.13/v/missing\nconstraint_assessments.1.assessment\n  Field required [type=missing, input_value={'constraint_id': 'C2', '...pped_ids': ['R3', 'R7']}, input_type=dict]\n    For further information visit https://errors.pydantic.dev/2.13/v/missing\nconstraint_assessments.2.assessment\n  Field required [type=missing, input_value={'constraint_id': 'C3', '...], 'mapped_ids': ['R3']}, input_type=dict]\n    For further information visit https://errors.pydantic.dev/2.13/v/missing\nconstraint_assessments.3.assessment\n  Field required [type=missing, input_value={'constraint_id': 'C4', '...], 'mapped_ids': ['R3']}, input_type=dict]\n    For further information visit https://errors.pydantic.dev/2.13/v/missing\nconstraint_assessments.4.assessment\n  Field required [type=missing, input_value={'constraint_id': 'C5', '...], 'mapped_ids': ['R3']}, input_type=dict]\n    For further information visit https://errors.pydantic.dev/2.13/v/missing\nconstraint_assessments.5.assessment\n  Field required [type=missing, input_value={'constraint_id': 'C6', '...R4', 'R6', 'R7', 'R12']}, input_type=dict]\n    For further information visit https://errors.pydantic.dev/2.13/v/missing\nconstraint_assessments.6.assessment\n  Field required [type=missing, input_value={'constraint_id': 'C7', '...], 'mapped_ids': ['R5']}, input_type=dict]\n    For further information visit https://errors.pydantic.dev/2.13/v/missing",
+        "PHASE1_PLAN_INVALID_ATTEMPT_1: 1 validation error for RetrievalPlanV4\nquestions.5\n  String should have at most 300 characters [type=string_too_long, input_value='What historical examples... process relevant here?', input_type=str]\n    For further information visit https://errors.pydantic.dev/2.13/v/string_too_long",
+        "NORMALIZED_QUESTION_EVIDENCE:1:removed=1",
+        "NORMALIZED_QUESTION_EVIDENCE:2:removed=2",
+        "NORMALIZED_QUESTION_EVIDENCE:3:removed=2",
+        "NORMALIZED_QUESTION_EVIDENCE:4:removed=4",
+        "NORMALIZED_QUESTION_EVIDENCE:5:removed=1",
+        "NORMALIZED_QUESTION_EVIDENCE:6:removed=1",
+        "PHASE1_NO_NOVELTY_STOP"
+      ],
+      "phase2_findings": [
+        "PHASE2_ITERATION_LIMIT"
+      ]
+    },
+    {
+      "vc_slug": "mac-conwell",
+      "episode_slug": "128-churchspace-airbnb-for-churches",
+      "actual_decision": "Out",
+      "job_id": "89878372d50794cbd48a11ed0f235dd776e100dc2c89ae4b9728734c6c7f94ac",
+      "status": "completed",
+      "summary_path": "/home/dpasch01/vclogic-vc-agentic-assessment/outputs/pitchshow-evaluation/mac-conwell/128-churchspace-airbnb-for-churches/founders-only/89878372d50794cbd48a11ed0f235dd776e100dc2c89ae4b9728734c6c7f94ac/attempt-1/runs/128-churchspace-airbnb-for-churches/summary.json",
+      "predicted_decision": "In",
+      "phase1_status": "provisional",
+      "phase2_status": "provisional",
+      "stop_reason": "corpus_search_exhausted",
+      "cost_usd": 0.13682044999999998,
+      "correct": false,
+      "decision_path": "conventional_fit",
+      "check_tier": "exploratory_lt_100k",
+      "decision_justification": "I would make an exploratory small first-check commitment subject to ordinary verification. Church Space addresses a serious financial problem for churches, has narrowed toward a commercial-kitchen and church-space wedge, reports 350 churches, nearly 8,000 signups, $150,000 of 2023 gross revenue, and a denominational partnership intended to add 1,200 churches (P-001, P-002, P-007, P-008, P-036). The founders have direct founder-market fit, relational access to the customer base, prior operating experience, and prior transaction experience (P-016, P-038, P-039, P-040, P-068, P-072). The $8 million post-money valuation is below the historically cited sub-$10 million sweet spot, although the applicable target-era check, ownership, and participation rules are not independently established (P-002, P-004; W-a69eee448da6ea1df24a, W-4b3954a2fe5ec8bcb3fc). The main risks are active usage, retention, contribution margin, expansion costs, and whether acquisition is optional or the founders' primary horizon. These are important diligence questions, but no frozen constraint is hard-triggered. The conventional-fit route therefore supports an exploratory In. Church Space more closely resembles the FranShares In, where Conwell backed a multi-sided marketplace with institutional participants and a clear monetization loop, than the Dressd and TerraScope Outs, where liquidity, customer definition, differentiation, or problem validation remained materially weaker (H-f529fdc5706fa9793c9d, H-155acd32cb9fec7a5ccd, H-906b5ad1d3c5270aab4a, H-1c5312a514f69643a59f, H-0bb4f5ce99fc88ca19a5, H-774f1c2250cb92d40921).",
+      "exception_comparison": "Controlling concern: The unresolved concerns are venture economics, marketplace repeatability, and acquisition-versus-longevity ambiguity, not founder quality alone. Precedent evidence: In FranShares, Conwell committed to a multi-sided marketplace with institutional participants and a clear monetization loop at a valuation he described as still within range (H-f529fdc5706fa9793c9d, H-155acd32cb9fec7a5ccd). Similarity: Church Space also has multiple customer groups, a network-based institutional acquisition channel, identifiable monetization, early commercial evidence, and an $8 million post-money valuation below the historical sub-$10 million preference (P-007, P-008, P-029, P-036; W-a69eee448da6ea1df24a). Difference: The FranShares evidence does not demonstrate that Conwell tolerated Church Space's specific uncertainty around active utilization, contribution margins, or the founders' acquisition-versus-longevity orientation, and the target-era role and applicable check policy remain uncertain. Accordingly, the precedent supports the conventional-fit In but is not sufficiently analogous to activate a founder-conviction exception or justify an exact check amount.",
+      "historical_coverage": {
+        "In": 5,
+        "Out": 13,
+        "accessible": 22
+      },
+      "reference_path": "evaluation/pitchshow/investors/mac-conwell/rationale-references/128-churchspace-airbnb-for-churches.json",
+      "reference_human_validated": false,
+      "explicit_reason_comparison": [
+        {
+          "reference_label": "investment_thesis_constraint",
+          "reference_direction": "negative",
+          "source_turn_index": 213,
+          "quote": "It's a no from me, because like I tend to stay away from this space.",
+          "predicted_direction": null,
+          "controlling": false
+        }
+      ],
+      "phase1_findings": [
+        "SUFFICIENT_WITH_SEARCHABLE_QUESTIONS",
+        "POLICY_COMPARISON_MISSING:stage_check_ownership",
+        "NORMALIZED_QUESTION_EVIDENCE:1:removed=7",
+        "NORMALIZED_QUESTION_EVIDENCE:2:removed=3",
+        "NORMALIZED_QUESTION_EVIDENCE:3:removed=5",
+        "NORMALIZED_QUESTION_EVIDENCE:4:removed=3",
+        "NORMALIZED_QUESTION_EVIDENCE:5:removed=3",
+        "PHASE1_NO_NOVELTY_STOP"
+      ],
+      "phase2_findings": [
+        "PHASE2_PLAN_INVALID_ATTEMPT_1: 1 validation error for RetrievalPlanV4\ncontinuation_focus\n  String should have at most 600 characters [type=string_too_long, input_value='First test the frozen re...d activation questions.', input_type=str]\n    For further information visit https://errors.pydantic.dev/2.13/v/string_too_long",
+        "PHASE2_NO_NOVELTY_STOP",
+        "PHASE2_CORPUS_SEARCH_EXHAUSTED"
+      ]
+    },
+    {
+      "vc_slug": "mark-phillips-11-tribes-ventures",
+      "episode_slug": "117-lotus-hardware-hail-mary",
+      "actual_decision": "Out",
+      "job_id": "4c7fbe08df1f382d9d80d7ca664210668d6cb23c17232a23c67b7bf0428b08d4",
+      "status": "completed",
+      "summary_path": "/home/dpasch01/vclogic-vc-agentic-assessment/outputs/pitchshow-evaluation/mark-phillips-11-tribes-ventures/117-lotus-hardware-hail-mary/founders-only/4c7fbe08df1f382d9d80d7ca664210668d6cb23c17232a23c67b7bf0428b08d4/attempt-1/runs/117-lotus-hardware-hail-mary/summary.json",
+      "predicted_decision": "Out",
+      "phase1_status": "accepted",
+      "phase2_status": "provisional",
+      "stop_reason": "corpus_search_exhausted",
+      "cost_usd": 0.1052226,
+      "correct": true,
+      "decision_path": "out",
+      "check_tier": "none",
+      "decision_justification": "The conventional thesis-fit route is Out. Dhaval shows unusually strong founder-market fit and authentic motivation through lived mobility experience, Apple division leadership, 37 patents, extensive user research, and a clear product addressing autonomy and fall prevention (P-001, P-014, P-019). The sector is not excluded by the supplied generalist mandate (W-b1ae91d8fd55baf270cf, W-97d896a3b4515a90fd6c). However, the explicit operating facts are materially earlier than Phillips's recurring post-revenue orientation: Lotus has only ten devices, one $6,000 order with a $3,000 deposit, no completed pilots, and mostly verbal institutional demand (P-027, P-028, P-029, P-030, P-031, P-032). The company is seeking $2 million before pilot validation, including $1.2 million for salaries over 24 months and $500,000 for hardware builds (P-043). That compares unfavorably with the supplied $500,000-$2 million post-revenue revenue strike zone and usual $250,000-$300,000 seed checks, although later Fund II policy is not proven to govern the target-era role (W-d9fc56b2ce0a7b716415, W-27ffdf49b6faaa77bc65, W-e2e81c2badfcbb98890f). The $14 million post-money cap is below the cited $15 million-$20 million preferred range, but favorable headline pricing does not resolve the stage, validation, ownership, or return-path uncertainty (P-045, W-b3793bfbb8e2161440ff, W-7a3ef999c71db1633e88). The founder-conviction route was considered but does not overcome the combined pre-product execution risk, capital requirement, and unvalidated demand. Gemist received a concrete commitment with a tangible product, four large-brand contracts, approximately $50,000 monthly recurring revenue, and defined transaction monetization (H-e9f36ca5a73471b30f73, H-c8673c030f5fc385ec10). Material, by contrast, had an exceptionally credible technical founder and novel hardware but was declined because the business required substantially more capital and did not fit the fund (H-dd5e5e326851efbd7f94, H-fbe226f47f365fcade1c). Lotus is closer to Material on the controlling combination of capital needs and insufficient validation, so I would make no concrete pitch-stage capital commitment.",
+      "exception_comparison": "Controlling concern: Lotus's controlling concern is the combination of pre-product hardware execution, no pilots, largely verbal demand, and a $2 million financing plan before validation, rather than merely an unanswered diligence item (P-027, P-031, P-032, P-043). Precedent evidence: The observed Gemist In involved a tangible product, four contracted large brands, approximately $50,000 monthly recurring revenue, and a defined transaction-based monetization model before Phillips committed $100,000 (H-e9f36ca5a73471b30f73c1, H-c8673c030f5fc385ec10). The observed Material Out involved an exceptionally credible technical founder and novel hardware, but Phillips declined because the business required substantially more capital and was outside fund fit (H-dd5e5e326851efbd7f94, H-fbe226f47f365fcade1c). Similarity: Lotus resembles Gemist in presenting a concrete product, strong founder-product connection, and potentially attractive unit margins; this makes founder conviction a legitimate route to consider. Difference: Gemist tolerated product and scaling risk alongside demonstrated recurring monetization and contracted customers, whereas Lotus has only one $6,000 deposited order, ten devices, no pilots, mostly verbal demand, and a substantial pre-validation buildout. Material is closer on the controlling capital-intensity and validation profile. The observed In therefore does not demonstrate tolerance for Lotus's same constraint combination, so the founder exception is not activated.",
+      "historical_coverage": {
+        "In": 2,
+        "Out": 7,
+        "accessible": 10
+      },
+      "reference_path": "evaluation/pitchshow/investors/mark-phillips-11-tribes-ventures/rationale-references/117-lotus-hardware-hail-mary.json",
+      "reference_human_validated": false,
+      "explicit_reason_comparison": [
+        {
+          "reference_label": "execution_risk_assessment",
+          "reference_direction": "negative",
+          "source_turn_index": 117,
+          "quote": "It's gonna be too early for us. We want to see a little bit more progress on the product.",
+          "predicted_direction": null,
+          "controlling": false
+        },
+        {
+          "reference_label": "investment_upside_assessment",
+          "reference_direction": "positive",
+          "source_turn_index": 117,
+          "quote": "when you do go to market, this could catch on like wildfire, and when there's another round, that might be interesting for us",
+          "predicted_direction": null,
+          "controlling": false
+        }
+      ],
+      "phase1_findings": [
+        "PHASE1_PLAN_INVALID_ATTEMPT_1: 1 validation error for RetrievalPlanV4\ncontinuation_focus\n  String should have at most 600 characters [type=string_too_long, input_value='Deliberately scan invest...investor\u2019s value-add.', input_type=str]\n    For further information visit https://errors.pydantic.dev/2.13/v/string_too_long",
+        "PHASE1_PLAN_INVALID_ATTEMPT_2: 1 validation error for RetrievalPlanV4\n  Input should be a valid dictionary or instance of RetrievalPlanV4 [type=model_type, input_value=None, input_type=NoneType]\n    For further information visit https://errors.pydantic.dev/2.13/v/model_type",
+        "PHASE1_PLAN_FALLBACK_USED",
+        "NORMALIZED_QUESTION_EVIDENCE:1:removed=2",
+        "NORMALIZED_QUESTION_EVIDENCE:2:removed=8",
+        "NORMALIZED_QUESTION_EVIDENCE:3:removed=6",
+        "NORMALIZED_QUESTION_EVIDENCE:4:removed=5",
+        "NORMALIZED_QUESTION_EVIDENCE:5:removed=3",
+        "NORMALIZED_QUESTION_EVIDENCE:6:removed=4",
+        "NORMALIZED_QUESTION_EVIDENCE:7:removed=3",
+        "NORMALIZED_QUESTION_EVIDENCE:8:removed=3",
+        "NORMALIZED_DECISION_DIMENSION:founder_market_fit->other",
+        "NORMALIZED_FILTERED_MAPPED_IDS:material_statement:removed=1",
+        "SUFFICIENT_WITH_SEARCHABLE_QUESTIONS"
+      ],
+      "phase2_findings": [
+        "PHASE2_NO_NOVELTY_STOP",
+        "PHASE2_CORPUS_SEARCH_EXHAUSTED"
+      ]
+    },
+    {
+      "vc_slug": "michael-hyatt",
+      "episode_slug": "41-can-this-startup-help-retailers-take-on-amazon",
+      "actual_decision": "In",
+      "job_id": "ce5e9427d1e1fe74d58e53d8c188e2b54e560db95e5702d21403f8a11e60ca0c",
+      "status": "completed",
+      "summary_path": "/home/dpasch01/vclogic-vc-agentic-assessment/outputs/pitchshow-evaluation/michael-hyatt/41-can-this-startup-help-retailers-take-on-amazon/founders-only/ce5e9427d1e1fe74d58e53d8c188e2b54e560db95e5702d21403f8a11e60ca0c/attempt-1/runs/41-can-this-startup-help-retailers-take-on-amazon/summary.json",
+      "predicted_decision": "Out",
+      "phase1_status": "provisional",
+      "phase2_status": "provisional",
+      "stop_reason": "corpus_search_exhausted",
+      "cost_usd": 0.13183275,
+      "correct": false,
+      "decision_path": "out",
+      "check_tier": "none",
+      "decision_justification": "The conventional thesis-fit case is attractive but does not clear Hyatt's pitch-stage commitment bar. Shipsi addresses a concrete B2B retail problem by adding one-hour delivery at checkout, aggregating last-mile providers, and offering automated Shopify distribution (P-012, P-013, P-023). Its volume-linked pricing and claimed retailer freight savings are directionally consistent with Hyatt's preference for consequential B2B problems and customer value (P-015, P-025, P-028; W-d0184231bf5ec3bd4609; W-1751f5df58bd327bb611). However, R5, R6, and R8 control: the company has completed only a few hundred alpha/beta transactions, its 20 paying customers are still in implementation, collective revenue is only a couple thousand dollars monthly, and support remains founder-led (P-031, P-040, P-043, P-044, P-046). The pricing implies $1,200-$120,000 of annual revenue per customer before transaction fees, but customer mix, obtainable retailer count, retention, delivery costs, support costs, and contribution margins are not established, so a credible venture-scale revenue and margin calculation cannot be completed (P-023, P-025, P-026, P-043; W-30dee7085e360f9ecced; W-0662d2a9bc8abdf30350). The $1.5 million raise at a $4.5 million convertible-note cap, with $800,000 closed or committed, is material relative to the company's stated pre-revenue operating base; Hyatt's entry-price preference makes this an ordinary but significant concern rather than a hard veto (P-047, P-049; W-1612dea00f1fc5d65211). C1 category fit and C6 portfolio conflict are not blocking, while C2, C3, C4, and C5 remain possible or unresolved rather than hard constraints because the target vehicle, founder commitment, governance rights, and logistics-specific investor value add are not established. The closest Out precedents are H-04c84490e346cee9eecb, where Hyatt liked the company but withheld investment pending dependable revenue, and H-ffcb6256423f4aa49241, where an appealing founder and large market did not overcome weak business proof and stage-price concerns. The closest In is H-e3e9f7ad0359d2d0ccb3, an early B2B software opportunity where Hyatt understood the problem and expressed a concrete investment range; H-0fb5779bf2c8173cd604 is another In supported by stronger founder persuasion and customer usage. Shipsi shares the early B2B orientation but more closely resembles the Out cases because its revenue, implementation scalability, economics, and price remain unresolved. The founder-conviction exception was considered but does not overcome those risks.",
+      "exception_comparison": "Controlling concern: Shipsi's conventional risks are incomplete traction, unproven venture economics, founder-dependent implementation, and a $4.5 million cap at a near-pre-revenue stage (P-040, P-043, P-046, P-047, P-049). Precedent evidence: H-e3e9f7ad0359d2d0ccb3 is an observed In in which Hyatt committed to an early B2B software company because he understood the problem and expressed concrete check interest; H-0fb5779bf2c8173cd604 is an observed In in which founder intelligence, argument quality, hustle, and stronger customer usage supported commitment. Similarity: Shipsi is also early, B2B, software-enabled, and focused on an operational business problem. These precedents show that Hyatt can tolerate incomplete maturity when investor-specific understanding and founder conviction are unusually strong. Difference: Neither In demonstrates tolerance for Shipsi's exact combination of only a couple thousand dollars of collective monthly revenue, 20 not-yet-launched customers, founder-led support, unproven margins, and a $4.5 million cap. H-e3e9f7ad0359d2d0ccb3 supplies stronger investor-specific enterprise understanding and explicit check interest, while H-0fb5779bf2c8173cd604 supplies stronger customer usage and founder-persuasion evidence. The favorable precedents therefore do not overcome the current economics and price mismatch, so the exception is not activated.",
+      "historical_coverage": {
+        "In": 7,
+        "Out": 16,
+        "accessible": 27
+      },
+      "reference_path": "evaluation/pitchshow/investors/michael-hyatt/rationale-references/41-can-this-startup-help-retailers-take-on-amazon.json",
+      "reference_human_validated": false,
+      "explicit_reason_comparison": [
+        {
+          "reference_label": "founder_coachability_assessment",
+          "reference_direction": "positive",
+          "source_turn_index": 139,
+          "quote": "you have a certain amount of humility which will make a lot of sense in working with you. I feel like I can work with you.",
+          "predicted_direction": null,
+          "controlling": false
+        },
+        {
+          "reference_label": "founder_communication_quality",
+          "reference_direction": "positive",
+          "source_turn_index": 139,
+          "quote": "I like your answers.",
+          "predicted_direction": null,
+          "controlling": false
+        },
+        {
+          "reference_label": "market_problem_validation",
+          "reference_direction": "positive",
+          "source_turn_index": 139,
+          "quote": "There\u2019s a number that would love to do this if they have that proximity.",
+          "predicted_direction": "positive",
+          "controlling": true
+        },
+        {
+          "reference_label": "product_success_factor_assessment",
+          "reference_direction": "positive",
+          "source_turn_index": 139,
+          "quote": "your ability to bring quick shipping to everybody who is not Amazon is really important",
+          "predicted_direction": null,
+          "controlling": false
+        }
+      ],
+      "phase1_findings": [
+        "PHASE1_PLAN_INVALID_ATTEMPT_1: 1 validation error for RetrievalPlanV4\n  Input should be a valid dictionary or instance of RetrievalPlanV4 [type=model_type, input_value=None, input_type=NoneType]\n    For further information visit https://errors.pydantic.dev/2.13/v/model_type",
+        "NORMALIZED_QUESTION_EVIDENCE:1:removed=5",
+        "NORMALIZED_QUESTION_EVIDENCE:2:removed=3",
+        "NORMALIZED_QUESTION_EVIDENCE:3:removed=5",
+        "NORMALIZED_QUESTION_EVIDENCE:4:removed=4",
+        "NORMALIZED_DECISION_DIMENSION:execution->other",
+        "SUFFICIENT_WITH_SEARCHABLE_QUESTIONS",
+        "POLICY_COMPARISON_MISSING:sector_geography",
+        "NORMALIZED_QUESTION_EVIDENCE:1:removed=3",
+        "NORMALIZED_QUESTION_EVIDENCE:2:removed=4",
+        "NORMALIZED_QUESTION_EVIDENCE:4:removed=3",
+        "PHASE1_PLAN_INVALID_ATTEMPT_1: 1 validation error for RetrievalPlanV4\nquestions\n  List should have at most 6 items after validation, not 7 [type=too_long, input_value=['What evidence resolves ...new private diligence?'], input_type=list]\n    For further information visit https://errors.pydantic.dev/2.13/v/too_long",
+        "NORMALIZED_QUESTION_EVIDENCE:3:removed=4",
+        "NORMALIZED_QUESTION_EVIDENCE:4:removed=5",
+        "NORMALIZED_QUESTION_EVIDENCE:5:removed=4",
+        "NORMALIZED_QUESTION_EVIDENCE:6:removed=5",
+        "PHASE1_NO_NOVELTY_STOP"
+      ],
+      "phase2_findings": [
+        "PHASE2_PLAN_INVALID_ATTEMPT_1: 1 validation error for RetrievalPlanV4\ncontinuation_focus\n  String should have at most 600 characters [type=string_too_long, input_value='First test the frozen re...vate company diligence.', input_type=str]\n    For further information visit https://errors.pydantic.dev/2.13/v/string_too_long",
+        "PHASE2_PLAN_INVALID_ATTEMPT_1: 1 validation error for RetrievalPlanV4\ncontinuation_focus\n  String should have at most 600 characters [type=string_too_long, input_value='Test the frozen constrai... unchanged conclusions.', input_type=str]\n    For further information visit https://errors.pydantic.dev/2.13/v/string_too_long",
+        "PHASE2_NO_NOVELTY_STOP",
+        "PHASE2_CORPUS_SEARCH_EXHAUSTED"
+      ]
+    },
+    {
+      "vc_slug": "michael-hyatt",
+      "episode_slug": "43-get-this-party-startup-in-here",
+      "actual_decision": "Out",
+      "job_id": "5af4f418880fb312efabd6d28ec81acbebee8dba550db27718da77f1cf321c2b",
+      "status": "completed",
+      "summary_path": "/home/dpasch01/vclogic-vc-agentic-assessment/outputs/pitchshow-evaluation/michael-hyatt/43-get-this-party-startup-in-here/founders-only/5af4f418880fb312efabd6d28ec81acbebee8dba550db27718da77f1cf321c2b/attempt-1/runs/43-get-this-party-startup-in-here/summary.json",
+      "predicted_decision": "Out",
+      "phase1_status": "accepted",
+      "phase2_status": "accepted",
+      "stop_reason": "freeze_accepted",
+      "cost_usd": 0.045920249999999996,
+      "correct": true,
+      "decision_path": "out",
+      "check_tier": "none",
+      "decision_justification": "I would pass at the pitch stage. The conventional thesis-fit case has real positives: Julie has 20 years of event experience, PartySlate has 300,000 photos, 4,000 contributors, 150 paying customers, $340,000 sold in five months, $40,000 MRR, and early group sales to a 40-hotel chain and a catering group (P-001, P-004, P-010, P-011, P-012). That is materially stronger than an MVP-only story and fits Hyatt's preference for concrete customer adoption and a B2B wedge (W-f21ad67c1e056f09a582, W-d0184231bf5ec3bd4609). However, the pitch does not establish repeatable recurring economics, defensibility, or price support. The $2,000-$5,000 annual price is immediately followed by $275-$575 (P-005, P-006); gross margin, CAC, retention, renewal, and collected recurring revenue are unresolved. The company is raising $3 million at a $10 million valuation after already raising $3 million, while burning $100,000 monthly (P-019, P-020, P-023). That makes R13 and C7 controlling at the current terms, consistent with Hyatt's price discipline and his observed willingness to defer an otherwise appealing investment when price and proof are insufficient (W-1612dea00f1fc5d65211, H-08d8412055f26b4751e9). The closest Out precedents are stronger than the closest Ins: Hyatt passed where the founder and market were attractive but differentiation and business math were not sufficiently demonstrated (H-ffcb6256423f4aa49241, H-74bf25ea144f416eaf14). I considered the founder-conviction route, but founder-market fit and early sales do not overcome the combined price-stage mismatch, unclear revenue quality, and weakly established moat. The result is Out, not because routine diligence is incomplete, but because the disclosed valuation and economics are not yet sufficiently supported for a concrete pitch-stage commitment.",
+      "exception_comparison": "Controlling concern: The controlling concern is not simply incomplete traction; it is the combination of the $10 million valuation after $3 million raised, unclear recurring economics, and an unproven moat (P-005, P-006, P-019, P-020; R9, R11, R13, R14). Precedent evidence: H-e043f504e16cac2dfaea is an observed In where Hyatt accepted early-stage uncertainty because the founder was coachable and the product had concrete, understandable unit economics. H-9d6140ad6d39efa4196a is another In showing conditional openness to an early company when lead quality and valuation are made reasonable. Similarity: PartySlate has a relevant founder, a real customer problem, early paying customers, and a B2B sales path, so it shares the founder-conviction and early-traction elements present in those Ins. Difference: The cited Ins do not tolerate the same unresolved price-and-economics combination. H-e043f504e16cac2dfaea had clearer operating economics, while H-9d6140ad6d39efa4196a expressly depended on comfort with the lead and valuation. PartySlate supplies neither equivalent economic clarity nor term comfort, and its marketplace defensibility remains unproven. The analogy therefore does not justify activating a founder-conviction exception.",
+      "historical_coverage": {
+        "In": 8,
+        "Out": 15,
+        "accessible": 27
+      },
+      "reference_path": "evaluation/pitchshow/investors/michael-hyatt/rationale-references/43-get-this-party-startup-in-here.json",
+      "reference_human_validated": false,
+      "explicit_reason_comparison": [
+        {
+          "reference_label": "business_viability_concern",
+          "reference_direction": "negative",
+          "source_turn_index": 72,
+          "quote": "I have a hard time getting around the model.",
+          "predicted_direction": null,
+          "controlling": false
+        },
+        {
+          "reference_label": "capital_intensity_concern",
+          "reference_direction": "negative",
+          "source_turn_index": 72,
+          "quote": "you\u2019re going to need a lot more money than even what you\u2019re raising to get this thing to scale",
+          "predicted_direction": "negative",
+          "controlling": true
+        }
+      ],
+      "phase1_findings": [
+        "PHASE1_PLAN_INVALID_ATTEMPT_1: 1 validation error for RetrievalPlanV4\n  Input should be a valid dictionary or instance of RetrievalPlanV4 [type=model_type, input_value=None, input_type=NoneType]\n    For further information visit https://errors.pydantic.dev/2.13/v/model_type",
+        "NORMALIZED_QUESTION_EVIDENCE:1:removed=7",
+        "NORMALIZED_QUESTION_EVIDENCE:2:removed=3",
+        "NORMALIZED_QUESTION_EVIDENCE:3:removed=5",
+        "NORMALIZED_QUESTION_EVIDENCE:4:removed=3",
+        "NORMALIZED_QUESTION_EVIDENCE:5:removed=2",
+        "NORMALIZED_QUESTION_EVIDENCE:6:removed=2",
+        "NORMALIZED_DECISION_DIMENSION:founder_market_fit->other"
+      ],
+      "phase2_findings": []
+    },
+    {
+      "vc_slug": "mike-ma-sidecut-ventures",
+      "episode_slug": "191-haiven-ai-protection-for-young-gamers",
+      "actual_decision": "Out",
+      "job_id": "218e3e2b82f1c51cf369654651aa959d2ff960013eb042d5298e880bdc717e19",
+      "status": "completed",
+      "summary_path": "/home/dpasch01/vclogic-vc-agentic-assessment/outputs/pitchshow-evaluation/mike-ma-sidecut-ventures/191-haiven-ai-protection-for-young-gamers/founders-only/218e3e2b82f1c51cf369654651aa959d2ff960013eb042d5298e880bdc717e19/attempt-1/runs/191-haiven-ai-protection-for-young-gamers/summary.json",
+      "predicted_decision": "Out",
+      "phase1_status": "accepted",
+      "phase2_status": "accepted",
+      "stop_reason": "freeze_accepted",
+      "cost_usd": 0.049378649999999996,
+      "correct": true,
+      "decision_path": "out",
+      "check_tier": "none",
+      "decision_justification": "I would not make a concrete pitch-stage capital commitment. The conventional thesis-fit case is attractive on founder quality, mission, relevant gaming and AI experience, and a plausible indie-developer wedge: the founders report three exits and prior gaming work (P-001), a direct personal origin for the child-safety problem (P-002), a plugin/platform distribution model (P-008), and explicit openness to user feedback (P-029). Those facts fit Ma's impact-led flexibility and preference for good people, while his later policy also allows founder narrative and adaptability to matter before a fully developed moat (W-abe948a56001baa3310c; W-2c2775e8934feea5280b; W-2c20095ca56a222ddf2c). However, the controlling commercial evidence is not yet strong enough for an In: the product is only in developer alpha, live testing begins later, and the founders cannot yet provide player conversion, retention, margins, acquisition cost, or repeatable revenue evidence (P-013; P-017). The $8.5 million pre-money is below the reported $10 million cap but above the roughly $6 million median, while the product remains alpha-stage (P-003; W-40a18f8fdf62a5159330; W-68d801c33d48a7e1e998). The $3 million financing request does not itself establish that Ma would need to fund the whole round, but the combination of price, stage, and unvalidated economics is materially less attractive than his stated post-product, post-traction sweet spot. This is closer to the Out precedent in which Ma cited valuation, traction, time, and capital concerns despite liking the company (H-33deab133fc60dcb11dd) than to the In precedents, where the founders supplied measurable sales traction or tested pricing and payback (H-8bac5cc824703c2fa16a; H-c2324a0ea407e691206f).",
+      "exception_comparison": "Controlling concern: Haiven's controlling concern is not founder quality or mission; it is the combination of alpha-stage product, pending live validation, unmeasured subscription economics, and an $8.5 million pre-money relative to the cited roughly $6 million median. Precedent evidence: In Church AI, Ma made a concrete commitment despite an unfinished product and early financing, but the company had 18 clients and quantified cold-call, demo, show-rate, and close-rate metrics (H-fea3094b6b4106d75ea6; H-8bac5cc824703c2fa16a). In Ventrix, the founders had tested a $20,000 price and discussed payback before Ma said yes (H-396c68bb9b167e9f7ab0; H-c2324a0ea407e691206f). Difference: Haiven shares the In precedents' strong founder narrative, mission, and early-stage status, but it does not yet share their measurable customer funnel or tested pricing/payback. Its valuation is also above the cited median and its core live-user test is still future-dated. The Electric Out precedent is more comparable on the decisive price-and-traction issue: Ma declined while acknowledging founder effort and promise because valuation, traction, time, and capital did not fit (H-33deab133fc60dcb11dd). Similarity: the In precedents show that founder conviction can overcome incomplete product proof when there is concrete commercial validation; Haiven's strong founders could eventually support that route, but the current evidence does not demonstrate the same tolerance of the specific price-plus-no-usage risk. Therefore the exception remains considered but inactive.",
+      "historical_coverage": {
+        "In": 2,
+        "Out": 4,
+        "accessible": 10
+      },
+      "reference_path": "evaluation/pitchshow/investors/mike-ma-sidecut-ventures/rationale-references/191-haiven-ai-protection-for-young-gamers.json",
+      "reference_human_validated": false,
+      "explicit_reason_comparison": [
+        {
+          "reference_label": "execution_risk_assessment",
+          "reference_direction": "negative",
+          "source_turn_index": 269,
+          "quote": "if they're not the building the business the right way, I can't put money in.",
+          "predicted_direction": null,
+          "controlling": false
+        },
+        {
+          "reference_label": "founder_coachability_assessment",
+          "reference_direction": "negative",
+          "source_turn_index": 184,
+          "quote": "The thesis of my fund is coachability and actions",
+          "predicted_direction": "positive",
+          "controlling": false
+        },
+        {
+          "reference_label": "founder_execution",
+          "reference_direction": "negative",
+          "source_turn_index": 242,
+          "quote": "What they're doing is design something, building it, and gosh darn it, we've done it before, we hope we sell it.",
+          "predicted_direction": "positive",
+          "controlling": true
+        },
+        {
+          "reference_label": "investment_upside_assessment",
+          "reference_direction": "negative",
+          "source_turn_index": 271,
+          "quote": "giving them a little bit of money to hope to make a lot of money, and if I don't understand how that works, I can't do it",
+          "predicted_direction": null,
+          "controlling": false
+        },
+        {
+          "reference_label": "traction_repeatability_concern",
+          "reference_direction": "negative",
+          "source_turn_index": 244,
+          "quote": "actually getting money from you, and doing that over and over again.",
+          "predicted_direction": "negative",
+          "controlling": true
+        }
+      ],
+      "phase1_findings": [
+        "PHASE1_PLAN_INVALID_ATTEMPT_1: 1 validation error for RetrievalPlanV4\nquestions.5\n  String should have at most 300 characters [type=string_too_long, input_value='Does Mike prefer a missi...g the rationale record.', input_type=str]\n    For further information visit https://errors.pydantic.dev/2.13/v/string_too_long",
+        "PHASE1_PLAN_INVALID_ATTEMPT_2: 1 validation error for RetrievalPlanV4\nquestions.5\n  String should have at most 300 characters [type=string_too_long, input_value=\"What milestones will the...could constrain growth?\", input_type=str]\n    For further information visit https://errors.pydantic.dev/2.13/v/string_too_long",
+        "PHASE1_PLAN_FALLBACK_USED",
+        "NORMALIZED_QUESTION_EVIDENCE:1:removed=9",
+        "NORMALIZED_QUESTION_EVIDENCE:2:removed=3",
+        "NORMALIZED_QUESTION_EVIDENCE:3:removed=6",
+        "NORMALIZED_QUESTION_EVIDENCE:4:removed=5",
+        "NORMALIZED_QUESTION_EVIDENCE:5:removed=1",
+        "NORMALIZED_QUESTION_EVIDENCE:6:removed=1",
+        "SUFFICIENT_WITH_SEARCHABLE_QUESTIONS"
+      ],
+      "phase2_findings": [
+        "SUFFICIENT_WITH_SEARCHABLE_QUESTIONS"
+      ]
+    },
+    {
+      "vc_slug": "nicole-verkindt",
+      "episode_slug": "39-this-pitch-is-damn-near-perfect",
+      "actual_decision": "Out",
+      "job_id": "92247e3939b13146ee102d42ab2d0e7b6b193a90f030362cb12a77f8cb63ad12",
+      "status": "completed",
+      "summary_path": "/home/dpasch01/vclogic-vc-agentic-assessment/outputs/pitchshow-evaluation/nicole-verkindt/39-this-pitch-is-damn-near-perfect/founders-only/92247e3939b13146ee102d42ab2d0e7b6b193a90f030362cb12a77f8cb63ad12/attempt-1/runs/39-this-pitch-is-damn-near-perfect/summary.json",
+      "predicted_decision": "In",
+      "phase1_status": "accepted",
+      "phase2_status": "accepted",
+      "stop_reason": "freeze_accepted",
+      "cost_usd": 0.0430188,
+      "correct": false,
+      "decision_path": "founder_conviction_exception",
+      "check_tier": "exploratory_lt_100k",
+      "decision_justification": "I would make a concrete exploratory In, subject to ordinary verification, rather than merely continue the conversation. The conventional case is mixed: this is a consumer apparel company, while Nicole has expressed a strong dislike of clothing investments; the pitch also contains a pre-revenue/revenue contradiction, uncertain repeatability, and an ambitious path from $2.2 million of stated net revenue to $13 million in two years and $50 million thereafter. However, the founder personally experienced the travel-clothing problem, launched the product in 2012, sold more than 2,000 pairs through Kickstarter, built a relevant customer community, identified a branding mistake, and reported $2.2 million of net revenue from three products. Those are unusually strong founder-market-fit and execution signals. The founder-conviction route supports a small first check despite unresolved cohort, offshore supply-chain, and scale evidence. No hard constraint is triggered: Nicole's clothing aversion is a documented preference, not an established categorical veto for this role and era; no ownership, governance, or check-size rule is supplied. The current round is $600,000 at a $6 million valuation, but that does not justify an exact personal check amount. I would frame this as an exploratory small check, not a commitment to the entire round.",
+      "exception_comparison": "Controlling concern: The conventional concerns are Nicole's stated clothing-investment aversion, incomplete proof of repeatability and venture-scale distribution, and uncertain investor value-add. The exception is used only to tolerate the latter economic and proof gaps and to treat the category preference as non-categorical; it does not override a hard rule.\n\nPrecedent evidence: H-49374b9773742db19e6b is an observed In where Nicole emphasized that the founders embodied a business and had lived the problem, while acknowledging unresolved market size, behavioral change, and pricing-model concerns. H-36b06d3125d40ae26ba0 is an observed small In where strong founder/operator and thesis fit supported commitment even though the precise way Nicole would add value still had to be determined.\n\nSimilarity: Stefan personally used the product for the travel problem, launched from that experience, built a customer community, and shows concrete validation through more than 2,000 Kickstarter sales and reported $2.2 million net revenue (P-005, P-006, P-018, P-020, P-021). Like H-493, the current founder is an embodiment of the customer problem and presents an imperfect but credible scaling case. Like H-36, the company is sufficiently early for an exploratory angel check and possible operating value-add despite unresolved details.\n\nDifference: H-493 concerned a marketplace/hair business rather than apparel and therefore does not prove Nicole tolerates an explicit clothing aversion. H-36 was a technology/operator-fit investment and its $25,000 amount cannot set a current check size. The current company is more mature, reporting $2.2 million revenue and seeking $600,000 at a $6 million valuation, while its economics depend on offshore manufacturing and unshown repeat behavior. These differences keep the exception partial and the decision confidence moderate rather than high.",
+      "historical_coverage": {
+        "In": 1,
+        "Out": 1,
+        "accessible": 7
+      },
+      "reference_path": "evaluation/pitchshow/investors/nicole-verkindt/rationale-references/39-this-pitch-is-damn-near-perfect.json",
+      "reference_human_validated": false,
+      "explicit_reason_comparison": [
+        {
+          "reference_label": "competitive_intensity_concern",
+          "reference_direction": "negative",
+          "source_turn_index": 106,
+          "quote": "because it\u2019s so saturated",
+          "predicted_direction": null,
+          "controlling": false
+        },
+        {
+          "reference_label": "investor_domain_knowledge_constraint",
+          "reference_direction": "negative",
+          "source_turn_index": 106,
+          "quote": "because I don\u2019t understand it",
+          "predicted_direction": null,
+          "controlling": false
+        }
+      ],
+      "phase1_findings": [
+        "NORMALIZED_DECISION_DIMENSION:founder_market_fit->other",
+        "NORMALIZED_FILTERED_MAPPED_IDS:material_statement:removed=1",
+        "SUFFICIENT_WITH_SEARCHABLE_QUESTIONS"
+      ],
+      "phase2_findings": [
+        "SUFFICIENT_WITH_SEARCHABLE_QUESTIONS"
+      ]
+    },
+    {
+      "vc_slug": "paige-doherty-behind-genius-ventures",
+      "episode_slug": "126-handle-the-uncut-pitch",
+      "actual_decision": "Out",
+      "job_id": "41582a5b24601692a7969376d5f0462456227ad5462a1984326d7ee838774d0a",
+      "status": "completed",
+      "summary_path": "/home/dpasch01/vclogic-vc-agentic-assessment/outputs/pitchshow-evaluation/paige-doherty-behind-genius-ventures/126-handle-the-uncut-pitch/founders-only/41582a5b24601692a7969376d5f0462456227ad5462a1984326d7ee838774d0a/attempt-1/runs/126-handle-the-uncut-pitch/summary.json",
+      "predicted_decision": "In",
+      "phase1_status": "accepted",
+      "phase2_status": "provisional",
+      "stop_reason": "iteration_limit",
+      "cost_usd": 0.11352414999999999,
+      "correct": false,
+      "decision_path": "conventional_fit",
+      "check_tier": "standard",
+      "decision_justification": "I would make a concrete exploratory seed-stage commitment, subject to ordinary verification, without specifying an exact check amount. Handle has meaningful operating proof: four campus-adjacent locations, approximately $1.2 million in run-rate revenue, two cash-flow-positive locations, $10,000 per month of profit at USC, $4 contribution margin per order, sub-$1 customer-acquisition cost, more than eight orders per customer, and monthly burn below $10,000 (P-001, P-003, P-005, P-006, P-013, P-017). The founder invested personal capital, previously sold a software business, built the core operating technology, understands the campus customer, and has demonstrated learning in distributed hiring and store management (P-005, P-027, P-045, P-046, P-047, P-075). The conventional thesis-fit route therefore supports an In. The principal risks are replication across eleven additional markets, fully loaded margins after corporate and regulatory costs, and whether a $3 million seed at a $15 million pre-money valuation fits the target-era vehicle. Those are material diligence and policy questions, but no supplied rule makes them a hard veto. Handle more closely resembles the observed In Lotus precedent than the observed Out precedents because it has live operating traction and capital-efficient economics; it is stronger than Lotus on current proof, although its price and distributed operating model require more scrutiny (H-4caf590ba602868148fc, H-54bad53b2cf959ee9234, H-3fa2decb571e6f6a7a69, H-7cb0fb14d3b3f0203dfe).",
+      "exception_comparison": "Controlling concern: The relevant concern is not founder quality but whether a distributed, physical operating model can scale at the proposed valuation and financing stage. Precedent evidence: The observed Lotus In precedent involved an early physical company with incomplete next-stage product proof and limited financing progress, and the supplied record includes a concrete commitment marker (H-4caf590ba602868148fc, H-54bad53b2cf959ee9234). Similarity: Both companies require confidence in a founder's ability to convert operational complexity into the next stage before all proof is complete; Handle also has stronger live traction through four locations, positive unit economics, repeat usage, and low burn (P-001, P-003, P-005, P-006, P-017). Difference: Lotus does not establish tolerance for a $15 million pre-money valuation, a $3 million round, or the replication of labor-intensive campus operations. Because the conventional route already supports an In and the precedent does not resolve the price and scale concerns, the exception is considered but is not the controlling route.",
+      "historical_coverage": {
+        "In": 1,
+        "Out": 6,
+        "accessible": 9
+      },
+      "reference_path": "evaluation/pitchshow/investors/paige-doherty-behind-genius-ventures/rationale-references/126-handle-the-uncut-pitch.json",
+      "reference_human_validated": false,
+      "explicit_reason_comparison": [
+        {
+          "reference_label": "investor_experience_bias",
+          "reference_direction": "negative",
+          "source_turn_index": 301,
+          "quote": "the businesses that I've done at that valuation in the past",
+          "predicted_direction": null,
+          "controlling": false
+        },
+        {
+          "reference_label": "stage_valuation_mismatch",
+          "reference_direction": "negative",
+          "source_turn_index": 301,
+          "quote": "the businesses that I've done at that valuation in the past, and they've had much higher revenue",
+          "predicted_direction": "negative",
+          "controlling": true
+        }
+      ],
+      "phase1_findings": [
+        "PHASE1_PLAN_INVALID_ATTEMPT_1: 1 validation error for RetrievalPlanV4\n  Input should be a valid dictionary or instance of RetrievalPlanV4 [type=model_type, input_value=None, input_type=NoneType]\n    For further information visit https://errors.pydantic.dev/2.13/v/model_type",
+        "NORMALIZED_QUESTION_EVIDENCE:1:removed=6",
+        "NORMALIZED_QUESTION_EVIDENCE:2:removed=5",
+        "NORMALIZED_QUESTION_EVIDENCE:3:removed=8",
+        "NORMALIZED_QUESTION_EVIDENCE:4:removed=3",
+        "NORMALIZED_QUESTION_EVIDENCE:6:removed=6",
+        "NORMALIZED_DECISION_DIMENSION:founder_motivation->other",
+        "NORMALIZED_DROPPED_CONSTRAINT:C6:investor_evidence",
+        "NORMALIZED_DROPPED_INACCESSIBLE_CONSTRAINT_EVIDENCE:C2:W-683ea758a1b8a1",
+        "SUFFICIENT_WITH_SEARCHABLE_QUESTIONS",
+        "SUFFICIENT_WITH_NEXT_SEARCH_OBJECTIVES"
+      ],
+      "phase2_findings": [
+        "PHASE2_ITERATION_LIMIT"
+      ]
+    },
+    {
+      "vc_slug": "rohit-gupta-future-communities-capital",
+      "episode_slug": "186-supercool-earth-making-it-rain-literally",
+      "actual_decision": "In",
+      "job_id": "7f44747eef94cb4c517a41753e12aaaa8c8c547edbbb7fcefa0564dcb1d9255d",
+      "status": "completed",
+      "summary_path": "/home/dpasch01/vclogic-vc-agentic-assessment/outputs/pitchshow-evaluation/rohit-gupta-future-communities-capital/186-supercool-earth-making-it-rain-literally/founders-only/7f44747eef94cb4c517a41753e12aaaa8c8c547edbbb7fcefa0564dcb1d9255d/attempt-1/runs/186-supercool-earth-making-it-rain-literally/summary.json",
+      "predicted_decision": "In",
+      "phase1_status": "accepted",
+      "phase2_status": "accepted",
+      "stop_reason": "freeze_accepted",
+      "cost_usd": 0.07760310000000001,
+      "correct": true,
+      "decision_path": "founder_conviction_exception",
+      "check_tier": "exploratory_lt_100k",
+      "decision_justification": "I would make a small exploratory commitment, subject to ordinary verification, rather than commit to the full round. The conventional thesis-fit route is mixed: Dacia has unusually strong biological domain expertise, a technically capable team, a concrete ski-resort beachhead, direct customer outreach, and a credible long-term water thesis (R1, R3, R7, R8). Gupta's supplied investment context also favors difficult-to-innovate real-world industries, patient capital, and founders who execute directly (W-6b25cf59ac7c50d684ec, W-45d0d571683d523394ba, W-53fbc0a811e3ac28aa87). However, the core cloud-seeding product has not been tested, the only completed trial was a backyard snowmaking test, pilots are unpaid, and the LOIs contain no prices or volumes (P-003, P-004, P-038, P-039, P-044, P-045). The natural protein cannot be protected, leaving a material moat question (P-010, P-014, P-015). Those facts make the conventional route look closer to Out, particularly the observed Out precedent where Gupta said the founder was probably the right person but there were 'too many gaps' (H-43c6991d8d673d02801a). I nevertheless apply a founder-conviction exception for a limited exploratory commitment: the founder's relevant PhD and biotech experience, candid separation of demonstrated results from future claims, hands-on sales effort, and coherent staged market entry are unusually strong for this stage (P-005, P-007, P-009, P-026, P-031, P-032). The exception is supported by the observed environmental-infrastructure In precedent linked in Phase 1 (H-688d54dcf2e0312cc376) and by Gupta's observed willingness to back founder-led technical opportunities (H-f195ec16efac5940dfa8). This is an exploratory In, not a conclusion that the cloud-seeding thesis or venture-scale economics are proven.",
+      "exception_comparison": "Controlling concern: The conventional concern is incomplete product proof and traction: cloud seeding is untested, the sole completed trial was a backyard snowmaking test, pilots are unpaid, and the LOIs have no economic terms (P-003, P-038, P-039, P-044, P-045). Precedent evidence: H-688d54dcf2e0312cc376 is the closest supplied observed In analogue for an environmental or infrastructure opportunity with long-horizon adoption and early operating economics; H-f195ec16efac5940dfa8 is an additional observed In showing Gupta's willingness to commit to a founder-led novel technical model. Similarity: Supercool Earth, like the H-688 precedent, addresses difficult physical infrastructure and environmental outcomes with an early-stage adoption curve, while Dacia's technical founder fit and staged commercial plan provide a reason to underwrite uncertainty with a small first check. The analogy supports tolerance of incomplete traction and long validation cycles, not merely admiration for the founder. Difference: Supercool Earth's central cloud-seeding claim has not yet been tested, its pilots are unpaid, and its natural protein is unprotectable; the supplied In evidence does not prove that Gupta would tolerate all of those risks at a standard check size. Therefore the precedent supports only the founder-conviction exception and an exploratory commitment, with ordinary verification and explicit reversal conditions.",
+      "historical_coverage": {
+        "In": 2,
+        "Out": 3,
+        "accessible": 8
+      },
+      "reference_path": "evaluation/pitchshow/investors/rohit-gupta-future-communities-capital/rationale-references/186-supercool-earth-making-it-rain-literally.json",
+      "reference_human_validated": false,
+      "explicit_reason_comparison": [
+        {
+          "reference_label": "competitive_advantage_assessment",
+          "reference_direction": "positive",
+          "source_turn_index": 243,
+          "quote": "And who else is doing anything about it? Like silver iodide doesn't work.",
+          "predicted_direction": "positive",
+          "controlling": true
+        },
+        {
+          "reference_label": "founder_execution",
+          "reference_direction": "positive",
+          "source_turn_index": 245,
+          "quote": "And she's just so far ahead of other people,",
+          "predicted_direction": "positive",
+          "controlling": true
+        },
+        {
+          "reference_label": "investor_experience_bias",
+          "reference_direction": "positive",
+          "source_turn_index": 151,
+          "quote": "I missed your last round, so I'd like to do this one.",
+          "predicted_direction": null,
+          "controlling": false
+        },
+        {
+          "reference_label": "market_problem_validation",
+          "reference_direction": "positive",
+          "source_turn_index": 243,
+          "quote": "And in the US we feel like it's not a problem because we always turn the tap on. There's always water. I don't know if we get to that point, but it's not crazy to say that we could.",
+          "predicted_direction": "positive",
+          "controlling": true
+        }
+      ],
+      "phase1_findings": [
+        "PHASE1_PLAN_INVALID_ATTEMPT_1: 1 validation error for RetrievalPlanV4\n  Input should be a valid dictionary or instance of RetrievalPlanV4 [type=model_type, input_value=None, input_type=NoneType]\n    For further information visit https://errors.pydantic.dev/2.13/v/model_type",
+        "NORMALIZED_QUESTION_EVIDENCE:1:removed=7",
+        "NORMALIZED_QUESTION_EVIDENCE:2:removed=5",
+        "NORMALIZED_QUESTION_EVIDENCE:3:removed=4",
+        "NORMALIZED_FILTERED_MAPPED_IDS:material_statement:removed=1",
+        "NORMALIZED_DROPPED_CONSTRAINT:C2:investor_evidence",
+        "NORMALIZED_DROPPED_CONSTRAINT:C5:investor_evidence",
+        "PHASE1_CANDIDATE_INVALID: 1 validation error for InvestigationV41\nrationales.12\n  Value error, rationale requires wiki or historical investor evidence [type=value_error, input_value={'rationale_id': 'R13', '...osts are not included.'}, input_type=dict]\n    For further information visit https://errors.pydantic.dev/2.13/v/value_error",
+        "PHASE1_PLAN_INVALID_ATTEMPT_1: 1 validation error for RetrievalPlanV4\nquestions\n  List should have at most 6 items after validation, not 7 [type=too_long, input_value=['What investor-specific ...ortfolio conflict?', ''], input_type=list]\n    For further information visit https://errors.pydantic.dev/2.13/v/too_long",
+        "PHASE1_PLAN_INVALID_ATTEMPT_2: 1 validation error for RetrievalPlanV4\nquestions\n  List should have at most 6 items after validation, not 7 [type=too_long, input_value=['What evidence is needed...ion, and dilution?', ''], input_type=list]\n    For further information visit https://errors.pydantic.dev/2.13/v/too_long",
+        "PHASE1_PLAN_FALLBACK_USED",
+        "NORMALIZED_QUESTION_EVIDENCE:1:removed=3",
+        "NORMALIZED_QUESTION_EVIDENCE:2:removed=6",
+        "NORMALIZED_QUESTION_EVIDENCE:3:removed=6",
+        "NORMALIZED_QUESTION_EVIDENCE:4:removed=4",
+        "NORMALIZED_QUESTION_EVIDENCE:5:removed=7",
+        "NORMALIZED_QUESTION_EVIDENCE:6:removed=1",
+        "NORMALIZED_DECISION_DIMENSION:founder_market_fit->other",
+        "NORMALIZED_DROPPED_CONSTRAINT:C6:investor_evidence",
+        "PHASE1_CANDIDATE_INVALID: 5 validation errors for InvestigationV41\nrationales.2\n  Value error, rationale requires wiki or historical investor evidence [type=value_error, input_value={'rationale_id': 'R3', 't... not yet demonstrated.'}, input_type=dict]\n    For further information visit https://errors.pydantic.dev/2.13/v/value_error\nrationales.3\n  Value error, rationale requires wiki or historical investor evidence [type=value_error, input_value={'rationale_id': 'R4', 't...reating qualification.'}, input_type=dict]\n    For further information visit https://errors.pydantic.dev/2.13/v/value_error\nrationales.4\n  Value error, rationale requires wiki or historical investor evidence [type=value_error, input_value={'rationale_id': 'R5', 't...adth of defensibility.'}, input_type=dict]\n    For further information visit https://errors.pydantic.dev/2.13/v/value_error\nrationales.6\n  Value error, rationale requires wiki or historical investor evidence [type=value_error, input_value={'rationale_id': 'R7', 't...han operating results.'}, input_type=dict]\n    For further information visit https://errors.pydantic.dev/2.13/v/value_error\nrationales.13\n  Value error, rationale requires wiki or historical investor evidence [type=value_error, input_value={'rationale_id': 'R14', '...demonstrated at scale.'}, input_type=dict]\n    For further information visit https://errors.pydantic.dev/2.13/v/value_error",
+        "NORMALIZED_QUESTION_EVIDENCE:1:removed=4",
+        "NORMALIZED_QUESTION_EVIDENCE:2:removed=7",
+        "NORMALIZED_QUESTION_EVIDENCE:4:removed=1",
+        "NORMALIZED_QUESTION_EVIDENCE:5:removed=1",
+        "NORMALIZED_QUESTION_EVIDENCE:6:removed=3",
+        "SUFFICIENT_WITH_SEARCHABLE_QUESTIONS"
+      ],
+      "phase2_findings": [
+        "SUFFICIENT_WITH_SEARCHABLE_QUESTIONS"
+      ]
+    },
+    {
+      "vc_slug": "sarah-downey-accomplice",
+      "episode_slug": "87-uber-for-pets",
+      "actual_decision": "In",
+      "job_id": "3ff8b4cc9982e70c3c994a36614aed88f784a4af515fc9f774e37adbe7859b3f",
+      "status": "completed",
+      "summary_path": "/home/dpasch01/vclogic-vc-agentic-assessment/outputs/pitchshow-evaluation/sarah-downey-accomplice/87-uber-for-pets/founders-only/3ff8b4cc9982e70c3c994a36614aed88f784a4af515fc9f774e37adbe7859b3f/attempt-1/runs/87-uber-for-pets/summary.json",
+      "predicted_decision": "Out",
+      "phase1_status": "provisional",
+      "phase2_status": "provisional",
+      "stop_reason": "corpus_search_exhausted",
+      "cost_usd": 0.17741109999999996,
+      "correct": false,
+      "decision_path": "out",
+      "check_tier": "none",
+      "decision_justification": "Out. The conventional thesis-fit case has meaningful positives: Aparna personally experienced the problem, operated the first service herself, completed more than 500 pilot rides, conducted direct customer discovery, recruited a technical co-founder, and reports $112,000 in monthly gross ride volume, 45% repeat usage, sub-$1 CAC, and 65% partner-sourced rides (P-002, P-014, P-015, P-016, P-027, P-034, P-035, P-037; R2, R3, R6, R7). Those facts fit Sarah's preference for authentic founders and stage-relative validation (W-602ce3f06a12a103ac87, W-5d8b3a6ccecfa5a7b5f6, W-ef5d499218634c64d3a6). However, the reported 15% take rate on $112,000 of monthly gross rides implies approximately $16,800 of monthly platform revenue, or $201,600 annualized, before driver incentives, insurance, safety, support, payment processing, and geographic expansion costs (P-020, P-027, P-029; R9). The pitch presents service guarantees, driver incentives, and partnerships rather than a clearly difficult-to-copy technology, while Uber has repeatedly entered the category (P-021, P-022, P-025, P-026; R10, R11; W-2535c69f29da2c8eb846, W-d7ddd1bafb32e7f8b9ad). It also does not establish an obtainable customer count or venture-scale revenue path beyond New York City (P-039, P-040, P-041; R12). The closest observed Out precedents are Sarah's pass where the apparent ceiling did not support venture-style returns (H-29f5c775fe87fbf7a11e) and her pass on a labor marketplace without a sufficiently defined technology layer (H-9608ff99783b557085b2, H-d217fa3822af28e9f6eb). The closest Ins show that she can make a small personal commitment around exceptional founder conviction and a technology-enabled future-category thesis, but they do not show tolerance for this combination of local labor-mediated economics, incumbent exposure, and unclear scale (H-0dc7ecb41e31999f3c10, H-138c0a8db832c4dd4e76). I therefore would not make a concrete pitch-stage commitment. The decision remains sensitive to verified margins, defensibility, market scale, financing fit, and contemporaneous evidence about the target role and mandate.",
+      "exception_comparison": "Controlling concern: Spot On's controlling concerns are uncertain venture-scale economics, limited demonstrated defensibility against Uber, a labor-mediated local-service model, and unresolved financing-fit terms (P-019, P-020, P-025, P-027, P-039; W-42c5de467f1f13a6632f, W-2535c69f29da2c8eb846, W-3ed972359839bb5dd14d). Precedent evidence: H-0dc7ecb41e31999f3c10 records Sarah making a small personal commitment to a founder she found visionary and compelling; H-138c0a8db832c4dd4e76 records an In involving a marketplace with an explicit technology and future-category thesis. Similarity: Spot On also has authentic founder ownership, hands-on execution, direct customer work, early adoption, and a functioning marketplace product (P-002, P-014, P-015, P-016, P-037). The Ins show that Sarah can consider founder conviction and incomplete ordinary diligence at an early stage. Difference: neither In tolerated the same controlling risk profile. H-138c0a8db832c4dd4e76 had a clearer technology-enabled, future-category thesis, while H-0dc7ecb41e31999f3c10 centered on exceptional founder conviction in a strongly technology-oriented opportunity. Neither establishes tolerance for a local labor-mediated service with unclear contribution margins, incumbent replication risk, uncertain venture scale, or unresolved target-era ownership and check fit. The policy and price mismatch defeats the analogy, so the founder-conviction exception is not activated.",
+      "historical_coverage": {
+        "In": 1,
+        "Out": 8,
+        "accessible": 9
+      },
+      "reference_path": "evaluation/pitchshow/investors/sarah-downey-accomplice/rationale-references/87-uber-for-pets.json",
+      "reference_human_validated": false,
+      "explicit_reason_comparison": [
+        {
+          "reference_label": "founder_execution",
+          "reference_direction": "positive",
+          "source_turn_index": 219,
+          "quote": "who will jump in LA in a car",
+          "predicted_direction": "positive",
+          "controlling": false
+        },
+        {
+          "reference_label": "market_size_assessment",
+          "reference_direction": "positive",
+          "source_turn_index": 175,
+          "quote": "I think this could be really big.",
+          "predicted_direction": null,
+          "controlling": false
+        },
+        {
+          "reference_label": "mission_alignment_preference",
+          "reference_direction": "positive",
+          "source_turn_index": 175,
+          "quote": "I come from a family of crazy pet people.",
+          "predicted_direction": null,
+          "controlling": false
+        }
+      ],
+      "phase1_findings": [
+        "PHASE1_PLAN_INVALID_ATTEMPT_1: 1 validation error for RetrievalPlanV4\n  Input should be a valid dictionary or instance of RetrievalPlanV4 [type=model_type, input_value=None, input_type=NoneType]\n    For further information visit https://errors.pydantic.dev/2.13/v/model_type",
+        "NORMALIZED_QUESTION_EVIDENCE:1:removed=5",
+        "NORMALIZED_QUESTION_EVIDENCE:2:removed=6",
+        "NORMALIZED_QUESTION_EVIDENCE:3:removed=5",
+        "NORMALIZED_QUESTION_EVIDENCE:4:removed=2",
+        "PHASE1_CANDIDATE_INVALID: 1 validation error for InvestigationV41\nrationales.5.justification\n  Field required [type=missing, input_value={'rationale_id': 'R6', 't...rical_evidence_ids': []}, input_type=dict]\n    For further information visit https://errors.pydantic.dev/2.13/v/missing",
+        "PHASE1_PLAN_INVALID_ATTEMPT_1: 1 validation error for RetrievalPlanV4\nquestions\n  List should have at most 6 items after validation, not 7 [type=too_long, input_value=['What evidence verifies ...onale record complete.'], input_type=list]\n    For further information visit https://errors.pydantic.dev/2.13/v/too_long",
+        "PHASE1_PLAN_INVALID_ATTEMPT_2: 1 validation error for RetrievalPlanV4\nquestions\n  List should have at most 6 items after validation, not 7 [type=too_long, input_value=['What evidence verifies ...nvestor value-add?', ''], input_type=list]\n    For further information visit https://errors.pydantic.dev/2.13/v/too_long",
+        "PHASE1_PLAN_FALLBACK_USED",
+        "NORMALIZED_QUESTION_EVIDENCE:2:removed=4",
+        "NORMALIZED_QUESTION_EVIDENCE:3:removed=4",
+        "NORMALIZED_FILTERED_MAPPED_IDS:material_statement:removed=1",
+        "SUFFICIENT_WITH_SEARCHABLE_QUESTIONS",
+        "POLICY_COMPARISON_MISSING:traction_economics",
+        "POLICY_COMPARISON_MISSING:founder_exceptions",
+        "NORMALIZED_QUESTION_EVIDENCE:1:removed=4",
+        "NORMALIZED_QUESTION_EVIDENCE:4:removed=3",
+        "PHASE2_ITERATION_LIMIT"
+      ],
+      "phase2_findings": [
+        "PHASE2_NO_NOVELTY_STOP",
+        "PHASE2_CORPUS_SEARCH_EXHAUSTED"
+      ]
+    },
+    {
+      "vc_slug": "sarah-downey-accomplice",
+      "episode_slug": "71-raising-kids-is-hard-so-is-raising-a-startup",
+      "actual_decision": "Out",
+      "job_id": "0123699af5b8aa8d656b1b625759e95f06b14c8e73cc0387330ff00f0b34d570",
+      "status": "completed",
+      "summary_path": "/home/dpasch01/vclogic-vc-agentic-assessment/outputs/pitchshow-evaluation/sarah-downey-accomplice/71-raising-kids-is-hard-so-is-raising-a-startup/founders-only/0123699af5b8aa8d656b1b625759e95f06b14c8e73cc0387330ff00f0b34d570/attempt-1/runs/71-raising-kids-is-hard-so-is-raising-a-startup/summary.json",
+      "predicted_decision": "Out",
+      "phase1_status": "provisional",
+      "phase2_status": "provisional",
+      "stop_reason": "corpus_search_exhausted",
+      "cost_usd": 0.17811035,
+      "correct": true,
+      "decision_path": "out",
+      "check_tier": "none",
+      "decision_justification": "I would be Out at the pitch stage. The company has genuine positives: approximately $500,000 in prior sales, year-over-year growth, more than 50,000 customers, roughly 500 installers, retailer distribution, and deliberate provider screening (P-001, P-008, P-012, P-024, P-026). Jen also shows substantial category experience and persistence through lengthy retailer pilots and operating setbacks (P-013, P-018, P-019). Those factors make this a credible business and create a plausible founder-conviction case. The conventional thesis-fit case nevertheless fails on the controlling economics concern. An $80 transaction pays $16 to Amazon and $25 to the installer, leaving approximately $39 before customer service, insurance, facilities, quality control, and other overhead (P-007). The proposed expansion adds more provider-mediated categories and physical-service operations (P-014, P-015, P-017, P-024). Sarah's stated preference is for revenue to scale with low incremental cost and against high-touch services whose labor scales with output (W-bc99e85daf07b891c422, W-a7a0e1bec8617332b473, W-593c03a4bb8d8a61516c; R1, R2). The $126 million annual-sales scenario is based on an unverified 1% penetration assumption, while the Amazon channel was only weeks old, active in a few markets, and lacked conversion data (P-006, P-025; R3, R4, R7). The $1 million ask numerically overlaps the historical $1 million-$2.5 million Accomplice first-check range, but the applicable role and era are uncertain, and the $15 million bridge cap does not establish discount, ownership, pro rata, or governance fit (P-001, P-022, P-023; W-a716562afddf0b3a51e3, W-3ed972359839bb5dd14d). I considered the founder-conviction exception, but the available In precedent involved a technology-led marketplace and does not demonstrate tolerance for this installer, insurance, physical-operation, and multi-category labor burden. The current company is therefore closer to the Out precedents involving capped scale, valuation or traction concerns (H-6868764bc603508dd60b, H-29f5c775fe87fbf7a11e, H-8b990b8e0fb582c29906) than to the observed In precedent (H-138c0a8db832c4dd4e76).",
+      "exception_comparison": "Controlling concern: The exception would require Sarah to overlook a structurally high-touch venture model for a compelling founder and exploratory check. The pitch requires installers, customer service, provider vetting, insurance, physical service centers, retailer-dependent distribution, and additional provider categories (P-007, P-014, P-017, P-024, P-026). Precedent evidence: In H-138c0a8db832c4dd4e76 and H-0dc7ecb41e31999f3c10, Sarah personally committed to an early dynamic-pricing marketplace after hearing about meaningful activity across hundreds of restaurants and seeing a technology-led product. Similarity: Both ventures are early marketplaces with incomplete scale evidence, a founder capable of generating conviction, and a plausible case for an exploratory commitment. Difference: H-138c0a8db832c4dd4e76 presented technology-led marketplace activity and did not show the current company's installer fulfillment, insurance exposure, physical service centers, retailer checkout dependence, or multi-category labor burden. The precedent therefore does not demonstrate tolerance for the same controlling economics risk. It also cannot establish an exact current check amount, and the applicable target-era role and policy remain uncertain.",
+      "historical_coverage": {
+        "In": 1,
+        "Out": 7,
+        "accessible": 8
+      },
+      "reference_path": "evaluation/pitchshow/investors/sarah-downey-accomplice/rationale-references/71-raising-kids-is-hard-so-is-raising-a-startup.json",
+      "reference_human_validated": false,
+      "explicit_reason_comparison": [
+        {
+          "reference_label": "product_differentiation_concern",
+          "reference_direction": "negative",
+          "source_turn_index": 97,
+          "quote": "I would like more of a technological moat so it's a pass.",
+          "predicted_direction": null,
+          "controlling": false
+        }
+      ],
+      "phase1_findings": [
+        "PHASE1_PLAN_INVALID_ATTEMPT_1: 1 validation error for RetrievalPlanV4\ncontinuation_focus\n  String should have at most 600 characters [type=string_too_long, input_value='No prior investigation e... rationales without it.', input_type=str]\n    For further information visit https://errors.pydantic.dev/2.13/v/string_too_long",
+        "NORMALIZED_QUESTION_EVIDENCE:1:removed=5",
+        "NORMALIZED_QUESTION_EVIDENCE:2:removed=4",
+        "NORMALIZED_QUESTION_EVIDENCE:3:removed=4",
+        "NORMALIZED_QUESTION_EVIDENCE:4:removed=2",
+        "NORMALIZED_QUESTION_EVIDENCE:5:removed=4",
+        "NORMALIZED_QUESTION_EVIDENCE:6:removed=4",
+        "NORMALIZED_DECISION_DIMENSION:go_to_market->other",
+        "NORMALIZED_FILTERED_MAPPED_IDS:material_statement:removed=2",
+        "NORMALIZED_CONSTRAINT_KIND:investor_value_add_fit->other",
+        "SUFFICIENT_WITH_SEARCHABLE_QUESTIONS",
+        "SUFFICIENT_WITH_NEXT_SEARCH_OBJECTIVES",
+        "POLICY_COMPARISON_MISSING:traction_economics",
+        "POLICY_COMPARISON_MISSING:founder_exceptions",
+        "NORMALIZED_QUESTION_EVIDENCE:1:removed=4",
+        "NORMALIZED_QUESTION_EVIDENCE:4:removed=3",
+        "NORMALIZED_QUESTION_EVIDENCE:7:removed=2",
+        "NORMALIZED_QUESTION_EVIDENCE:8:removed=4",
+        "PHASE1_PLAN_INVALID_ATTEMPT_1: 1 validation error for RetrievalPlanV4\n  Input should be a valid dictionary or instance of RetrievalPlanV4 [type=model_type, input_value=None, input_type=NoneType]\n    For further information visit https://errors.pydantic.dev/2.13/v/model_type",
+        "PHASE1_NO_NOVELTY_STOP"
+      ],
+      "phase2_findings": [
+        "PHASE2_NO_NOVELTY_STOP",
+        "PHASE2_CORPUS_SEARCH_EXHAUSTED"
+      ]
+    },
+    {
+      "vc_slug": "sheel-mohnot-better-tomorrow-ventures",
+      "episode_slug": "9-tuckrbox",
+      "actual_decision": "Out",
+      "job_id": "dfa4fca5b4ec53b7e6405507e178818a090fbe717de607f8d4ffc2a5002aa000",
+      "status": "completed",
+      "summary_path": "/home/dpasch01/vclogic-vc-agentic-assessment/outputs/pitchshow-evaluation/sheel-mohnot-better-tomorrow-ventures/9-tuckrbox/founders-only/dfa4fca5b4ec53b7e6405507e178818a090fbe717de607f8d4ffc2a5002aa000/attempt-1/runs/9-tuckrbox/summary.json",
+      "predicted_decision": "Out",
+      "phase1_status": "provisional",
+      "phase2_status": "provisional",
+      "stop_reason": "iteration_limit",
+      "cost_usd": 0.13067335,
+      "correct": true,
+      "decision_path": "out",
+      "check_tier": "none",
+      "decision_justification": "Out at the pitch stage. The conventional thesis-fit case has meaningful positives: TuckrBox addresses a substantial family nutrition and preparation problem (R3), the founders have relevant advertising/design and food-systems backgrounds (R4, R5), and the familiar-food, child-choice product strategy is coherent (P-001, P-002, P-003, P-004, P-018, P-019). The $800,000 raise and pre-beta stage are numerically compatible with the supplied pre-seed/seed check ranges, although those policy sources are later/current and not proven to govern this target-era role (P-006, P-007; W-b822ce0d8094817d50cb, W-c4278b2529bb5a3a2986). The controlling issue is venture economics. At $13 per lunch and an indicated current cost of $11-$11.50, five lunches per week imply approximately $3,380 annual revenue per customer and only about $390-$520 of annual pre-shipping spread before labor, CAC, overhead, and the proposed impact program. Shipping is already identified as a major cost (P-020, P-023, P-024, P-028, P-029). That is an explicit economics concern, not merely a missing metric, and it matches Mohnot's observed concern about consumer businesses lacking a credible venture-return path (R1, R2; H-b36ccf121156d829399d, W-369bca55c383f89b0125). Execution risk compounds it: the company is still developing the app and menu, testing cold meals, and determining whether food remains appealing and nutritionally balanced through the delivery cycle (R6, R10; P-006, P-011, P-012, P-015). TuckrBox therefore more closely resembles the consumer Outs in which Mohnot liked the founder or product but passed because lifetime value, logistics, complexity, or scalable economics were unresolved (H-0667657e569dc35fd4ec, H-8a1524de8ccf7c444afe, H-f15ef87c7513d77149de, H-7bc4c478fba2da7875e2) than the Anti-Juul In. The founder-conviction route was considered, but the founders' authenticity does not overcome the controlling combination of narrow contribution economics and recurring cold-chain fulfillment. The later fintech-centered BTV descriptions create an additional material fit concern, but their target-era applicability is uncertain and they are not treated as a standalone veto (R8; P-001, P-005; W-c128349c9ba8e88ec5d3, W-aa4f066bf64237f81c77).",
+      "exception_comparison": "Controlling concern: TuckrBox's controlling concern is the combination of approximately $1.50-$2.00 pre-shipping spread per lunch, major shipping exposure, recurring cold-chain fulfillment, and unproven acquisition economics (P-011, P-020, P-023, P-024). Precedent evidence: The observed Anti-Juul In shows Mohnot committing despite unfamiliar category and substantial product and regulatory uncertainty (H-c04320df323b5dd09ea0, H-8ccc656f590498f23327). Similarity: Both companies required an early investor to underwrite unresolved product execution before the operating system was fully proven, so the In supports treating incomplete product validation alone as exception-eligible. Difference: Anti-Juul does not establish tolerance for TuckrBox's price and margin profile, recurring cold-food logistics, or customer acquisition and retention risk; it also does not resolve the target-era policy and ownership uncertainty. The observed consumer Outs more directly involve unresolved lifetime value, logistics, complexity, or category economics (H-0667657e569dc35fd4ec, H-8a1524de8ccf7c444afe, H-f15ef87c7513d77149de, H-7bc4c478fba2da7875e2). Because the In does not tolerate the same controlling risk, the exception is not activated.",
+      "historical_coverage": {
+        "In": 2,
+        "Out": 11,
+        "accessible": 16
+      },
+      "reference_path": "evaluation/pitchshow/investors/sheel-mohnot-better-tomorrow-ventures/rationale-references/9-tuckrbox.json",
+      "reference_human_validated": false,
+      "explicit_reason_comparison": [
+        {
+          "reference_label": "business_model_assessment",
+          "reference_direction": "negative",
+          "source_turn_index": 97,
+          "quote": "I think it's going to be hard to get a lower price point.",
+          "predicted_direction": null,
+          "controlling": false
+        },
+        {
+          "reference_label": "business_viability_concern",
+          "reference_direction": "negative",
+          "source_turn_index": 99,
+          "quote": "under $10 you're not going to make any money. And that's why, like, as much as I want the business to exist, I don't know if it can.",
+          "predicted_direction": "negative",
+          "controlling": true
+        },
+        {
+          "reference_label": "fundraising_demand_signal",
+          "reference_direction": "negative",
+          "source_turn_index": 97,
+          "quote": "it's going to be tough to raise money right now with a pre-revenue food delivery company",
+          "predicted_direction": null,
+          "controlling": false
+        },
+        {
+          "reference_label": "market_size_assessment",
+          "reference_direction": "negative",
+          "source_turn_index": 97,
+          "quote": "I think the price point is high, so there's a certain demographic.",
+          "predicted_direction": null,
+          "controlling": false
+        },
+        {
+          "reference_label": "traction_repeatability_concern",
+          "reference_direction": "negative",
+          "source_turn_index": 97,
+          "quote": "But, it's totally unproven.",
+          "predicted_direction": null,
+          "controlling": false
+        }
+      ],
+      "phase1_findings": [
+        "PHASE1_PLAN_INVALID_ATTEMPT_1: 1 validation error for RetrievalPlanV4\nquestions.5\n  String should have at most 300 characters [type=string_too_long, input_value='What founder commitment,...rket timing, or upside?', input_type=str]\n    For further information visit https://errors.pydantic.dev/2.13/v/string_too_long",
+        "NORMALIZED_QUESTION_EVIDENCE:1:removed=5",
+        "NORMALIZED_QUESTION_EVIDENCE:2:removed=5",
+        "NORMALIZED_QUESTION_EVIDENCE:3:removed=5",
+        "NORMALIZED_QUESTION_EVIDENCE:4:removed=5",
+        "NORMALIZED_QUESTION_EVIDENCE:5:removed=1",
+        "NORMALIZED_DECISION_DIMENSION:founder_market_fit->other",
+        "NORMALIZED_DROPPED_INACCESSIBLE_CONSTRAINT_EVIDENCE:C3:W-12940af3d6a6",
+        "PHASE1_CANDIDATE_INVALID: 1 validation error for InvestigationV41\nmaterial_statement_coverage\n  List should have at most 12 items after validation, not 13 [type=too_long, input_value=[{'pitch_evidence_id': 'P...e poorest households.'}], input_type=list]\n    For further information visit https://errors.pydantic.dev/2.13/v/too_long",
+        "PHASE1_PLAN_INVALID_ATTEMPT_1: 1 validation error for RetrievalPlanV4\nquestions.5\n  String should have at most 300 characters [type=string_too_long, input_value=\"What moat could persist ...on-context constraints.\", input_type=str]\n    For further information visit https://errors.pydantic.dev/2.13/v/string_too_long",
+        "PHASE1_PLAN_INVALID_ATTEMPT_2: 1 validation error for RetrievalPlanV4\nquestions.5\n  String should have at most 300 characters [type=string_too_long, input_value=\"How does Sheel evaluate ... low-margin operations?\", input_type=str]\n    For further information visit https://errors.pydantic.dev/2.13/v/string_too_long",
+        "PHASE1_PLAN_FALLBACK_USED",
+        "NORMALIZED_QUESTION_EVIDENCE:2:removed=4",
+        "NORMALIZED_QUESTION_EVIDENCE:4:removed=2",
+        "NORMALIZED_QUESTION_EVIDENCE:5:removed=3",
+        "NORMALIZED_QUESTION_EVIDENCE:6:removed=2",
+        "NORMALIZED_DROPPED_INACCESSIBLE_RATIONALE_EVIDENCE:R1:W-b36ccf121156d829399d",
+        "NORMALIZED_DROPPED_INACCESSIBLE_RATIONALE_EVIDENCE:R9:H-72d21af25aedc163686c",
+        "NORMALIZED_DROPPED_INACCESSIBLE_QUESTION_EVIDENCE:2:W-b36ccf121156d829399d",
+        "SUFFICIENT_WITH_SEARCHABLE_QUESTIONS",
+        "POLICY_COMPARISON_MISSING:price_valuation",
+        "NORMALIZED_QUESTION_EVIDENCE:1:removed=4",
+        "NORMALIZED_QUESTION_EVIDENCE:2:removed=3",
+        "NORMALIZED_QUESTION_EVIDENCE:7:removed=3",
+        "PHASE1_NO_NOVELTY_STOP"
+      ],
+      "phase2_findings": [
+        "PHASE2_ITERATION_LIMIT"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,1014 @@
+{
+  "schema": "phase1-rationale-reference-v1",
+  "extraction_version": "pitchshow-rationales-v1",
+  "fingerprint": "0f24e01da777c803d095a3ffcbd750ef0137239734bffba1a415caf369095595",
+  "episode_slug": "185-its-electric-beating-tesla-was-the-easy-part",
+  "vc_slug": "rohit-gupta-future-communities-capital",
+  "vc_name": "Rohit Gupta",
+  "actual_decision": "In",
+  "later_decision": "In",
+  "reference_kind": "automated_transcript_observed_candidate",
+  "human_validated": false,
+  "source_format": "transcript-observed-rationales-v1",
+  "source_path": "/home/dpasch01/vclogic-vc-agentic-assessment/evaluation/pitchshow/investors/rohit-gupta-future-communities-capital/source/episodes/185-its-electric-beating-tesla-was-the-easy-part.json",
+  "source_sha256": "0b7526eaa88f23e1713a0058e2ca832df30d60f3bc17ebd505b9e5b3a99846fd",
+  "transcript_sha256": "33ccab7d05c4cccd142cc870189cf3993fba2c91f80e6bd7e60c461171541b72",
+  "taxonomy_sha256": "eaa8734819a3ac34dd19ee5f0bf6de925a793a1d25a2d361090dafc9b751e1fc",
+  "model": "codex:gpt-5.6-luna+gpt-5.6-sol",
+  "generation_stages": [
+    {
+      "phase": "rationale_extract",
+      "backend": "codex",
+      "model": "gpt-5.6-luna"
+    },
+    {
+      "phase": "rationale_verify",
+      "backend": "codex",
+      "model": "gpt-5.6-sol"
+    }
+  ],
+  "source_tier": "newly_extracted_and_independently_model_reviewed",
+  "reviewed_target_turns": [
+    36,
+    38,
+    76,
+    78,
+    94,
+    96,
+    101,
+    103,
+    105,
+    129,
+    131,
+    133,
+    183,
+    185,
+    187,
+    191,
+    193,
+    196,
+    207,
+    211,
+    212,
+    216,
+    218,
+    220,
+    222,
+    224,
+    228,
+    230,
+    232,
+    234,
+    237,
+    314,
+    317,
+    319,
+    320,
+    322,
+    324,
+    326,
+    328,
+    330
+  ],
+  "notes": "All supplied target turns were reviewed; greetings, confirmations, bare commitments, check-size statements, and joking safety remarks were omitted as non-rationales.",
+  "receipt_path": "/home/dpasch01/vclogic-vc-agentic-assessment/evaluation/pitchshow/investors/rohit-gupta-future-communities-capital/rationale-references/receipts/185-its-electric-beating-tesla-was-the-easy-part.json",
+  "scoring_scope": "original_pitch_only",
+  "shared_across_input_modes": true,
+  "rationales": [
+    {
+      "rationale_label": "business_model_assessment",
+      "direction": "neutral",
+      "salience": "secondary",
+      "confidence": 0.97,
+      "utterance_type": "question",
+      "decision_link": "none",
+      "timing": "original_pitch",
+      "turn_index": 105,
+      "quote": "what are your rates for charging?",
+      "explanation": "Queries the company's customer-pricing and monetization model.",
+      "evidence": [
+        "what are your rates for charging?"
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 105,
+          "speaker": "Rohit",
+          "quote": "what are your rates for charging?"
+        }
+      ],
+      "activation": "queried",
+      "source_rationale_id": "R3",
+      "utterance_kind": "question",
+      "decision_support": "none",
+      "all_mention_ids": [
+        "R3"
+      ]
+    },
+    {
+      "rationale_label": "competitive_advantage_assessment",
+      "direction": "positive",
+      "salience": "primary",
+      "confidence": 0.98,
+      "utterance_type": "decision_reason",
+      "decision_link": "explicit",
+      "timing": "original_pitch",
+      "turn_index": 237,
+      "quote": "I don't see anybody catching up with her in the next couple years.",
+      "explanation": "Believes the company's execution lead will be difficult for competitors to close.",
+      "evidence": [
+        "I don't see anybody catching up with her in the next couple years."
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 237,
+          "speaker": "Rohit",
+          "quote": "I don't see anybody catching up with her in the next couple years."
+        }
+      ],
+      "activation": "evaluated",
+      "source_rationale_id": "R19",
+      "utterance_kind": "decision_explanation",
+      "decision_support": "supports_in",
+      "all_mention_ids": [
+        "R19"
+      ]
+    },
+    {
+      "rationale_label": "dilution_concern",
+      "direction": "negative",
+      "salience": "secondary",
+      "confidence": 0.9,
+      "utterance_type": "assessment",
+      "decision_link": "none",
+      "timing": "original_pitch",
+      "turn_index": 237,
+      "quote": "A lot of discomfort there",
+      "explanation": "Reiterates discomfort with the financing and dilution discussed immediately beforehand.",
+      "evidence": [
+        "Dilution is not great.",
+        "Current valuation I feel like could be higher.",
+        "for the amount of money that she's taking.",
+        "she should be raising at higher valuation.",
+        "the only way you counteract dilution is with a higher valuation.",
+        "this will put her what, like 10 something 12 total raised and another seven non dilutive.",
+        "A lot of discomfort there"
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 224,
+          "speaker": "Rohit",
+          "quote": "Dilution is not great."
+        },
+        {
+          "turn_index": 224,
+          "speaker": "Rohit",
+          "quote": "Current valuation I feel like could be higher."
+        },
+        {
+          "turn_index": 228,
+          "speaker": "Rohit",
+          "quote": "for the amount of money that she's taking."
+        },
+        {
+          "turn_index": 230,
+          "speaker": "Rohit",
+          "quote": "she should be raising at higher valuation."
+        },
+        {
+          "turn_index": 232,
+          "speaker": "Rohit",
+          "quote": "the only way you counteract dilution is with a higher valuation."
+        },
+        {
+          "turn_index": 234,
+          "speaker": "Rohit",
+          "quote": "this will put her what, like 10 something 12 total raised and another seven non dilutive."
+        },
+        {
+          "turn_index": 237,
+          "speaker": "Rohit",
+          "quote": "A lot of discomfort there"
+        }
+      ],
+      "activation": "evaluated",
+      "source_rationale_id": "R18",
+      "utterance_kind": "concern",
+      "decision_support": "none",
+      "all_mention_ids": [
+        "R12",
+        "R13",
+        "R14",
+        "R15",
+        "R16",
+        "R17",
+        "R18"
+      ]
+    },
+    {
+      "rationale_label": "founder_execution",
+      "direction": "positive",
+      "salience": "primary",
+      "confidence": 0.98,
+      "utterance_type": "decision_reason",
+      "decision_link": "explicit",
+      "timing": "original_pitch",
+      "turn_index": 218,
+      "quote": "the fact she's got some tier one cities on there that are doing this is pretty crazy.",
+      "explanation": "Treats deployments with major cities as unusually strong evidence of execution.",
+      "evidence": [
+        "but she's done it.",
+        "the fact she's got some tier one cities on there that are doing this is pretty crazy."
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 216,
+          "speaker": "Rohit",
+          "quote": "but she's done it."
+        },
+        {
+          "turn_index": 218,
+          "speaker": "Rohit",
+          "quote": "the fact she's got some tier one cities on there that are doing this is pretty crazy."
+        }
+      ],
+      "activation": "evaluated",
+      "source_rationale_id": "R9",
+      "utterance_kind": "decision_explanation",
+      "decision_support": "supports_in",
+      "all_mention_ids": [
+        "R8",
+        "R9"
+      ]
+    },
+    {
+      "rationale_label": "go_to_market_strategy_assessment",
+      "direction": "negative",
+      "salience": "secondary",
+      "confidence": 0.96,
+      "utterance_type": "assessment",
+      "decision_link": "none",
+      "timing": "original_pitch",
+      "turn_index": 216,
+      "quote": "get it approved and get cities to say you can do this",
+      "explanation": "Identifies certification, approval, and municipal selling as a difficult go-to-market path and a reason for hesitation.",
+      "evidence": [
+        "get it approved and get cities to say you can do this"
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 216,
+          "speaker": "Rohit",
+          "quote": "get it approved and get cities to say you can do this"
+        }
+      ],
+      "activation": "evaluated",
+      "source_rationale_id": "R7",
+      "utterance_kind": "concern",
+      "decision_support": "none",
+      "all_mention_ids": [
+        "R7"
+      ]
+    },
+    {
+      "rationale_label": "market_problem_validation",
+      "direction": "positive",
+      "salience": "primary",
+      "confidence": 0.99,
+      "utterance_type": "decision_reason",
+      "decision_link": "explicit",
+      "timing": "original_pitch",
+      "turn_index": 187,
+      "quote": "It's just too big of a problem. There are too many cars and there's nowhere to charge 'em.",
+      "explanation": "Explains his commitment through the severe mismatch between the number of cars and available charging.",
+      "evidence": [
+        "It's just too big of a problem. There are too many cars and there's nowhere to charge 'em."
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 187,
+          "speaker": "Rohit",
+          "quote": "It's just too big of a problem. There are too many cars and there's nowhere to charge 'em."
+        }
+      ],
+      "activation": "evaluated",
+      "source_rationale_id": "R6",
+      "utterance_kind": "decision_explanation",
+      "decision_support": "supports_in",
+      "all_mention_ids": [
+        "R6"
+      ]
+    },
+    {
+      "rationale_label": "market_size_assessment",
+      "direction": "positive",
+      "salience": "secondary",
+      "confidence": 0.9,
+      "utterance_type": "assessment",
+      "decision_link": "explicit",
+      "timing": "original_pitch",
+      "turn_index": 220,
+      "quote": "there's gonna be a lot of different models that win, a lot of different products that win.",
+      "explanation": "Believes the EV-charging market is broad enough to support multiple successful models and products.",
+      "evidence": [
+        "there's gonna be a lot of different models that win, a lot of different products that win."
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 220,
+          "speaker": "Rohit",
+          "quote": "there's gonna be a lot of different models that win, a lot of different products that win."
+        }
+      ],
+      "activation": "evaluated",
+      "source_rationale_id": "R10",
+      "utterance_kind": "supporting_argument",
+      "decision_support": "supports_in",
+      "all_mention_ids": [
+        "R10"
+      ]
+    },
+    {
+      "rationale_label": "market_timing",
+      "direction": "positive",
+      "salience": "secondary",
+      "confidence": 0.91,
+      "utterance_type": "assessment",
+      "decision_link": "none",
+      "timing": "original_pitch",
+      "turn_index": 237,
+      "quote": "I could see LA the Olympics in 2028. They're spending a ton on infrastructure.",
+      "explanation": "Identifies Olympic-related infrastructure spending as a potentially favorable near-term market window.",
+      "evidence": [
+        "I could see LA the Olympics in 2028. They're spending a ton on infrastructure."
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 237,
+          "speaker": "Rohit",
+          "quote": "I could see LA the Olympics in 2028. They're spending a ton on infrastructure."
+        }
+      ],
+      "activation": "evaluated",
+      "source_rationale_id": "R20",
+      "utterance_kind": "supporting_argument",
+      "decision_support": "none",
+      "all_mention_ids": [
+        "R20"
+      ]
+    },
+    {
+      "rationale_label": "product_differentiation_concern",
+      "direction": "positive",
+      "salience": "primary",
+      "confidence": 0.97,
+      "utterance_type": "decision_reason",
+      "decision_link": "explicit",
+      "timing": "original_pitch",
+      "turn_index": 222,
+      "quote": "I don't see anybody doing this.",
+      "explanation": "Views the company's curbside approach as meaningfully differentiated from other charging offerings.",
+      "evidence": [
+        "I don't see anybody doing this."
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 222,
+          "speaker": "Rohit",
+          "quote": "I don't see anybody doing this."
+        }
+      ],
+      "activation": "evaluated",
+      "source_rationale_id": "R11",
+      "utterance_kind": "decision_explanation",
+      "decision_support": "supports_in",
+      "all_mention_ids": [
+        "R11"
+      ]
+    },
+    {
+      "rationale_label": "product_success_factor_assessment",
+      "direction": "negative",
+      "salience": "secondary",
+      "confidence": 0.9,
+      "utterance_type": "assessment",
+      "decision_link": "none",
+      "timing": "original_pitch",
+      "turn_index": 76,
+      "quote": "Even though that's faster.",
+      "explanation": "Challenges the curbside focus by noting that the excluded private-charging alternative offers faster charging.",
+      "evidence": [
+        "Even though that's faster."
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 76,
+          "speaker": "Rohit",
+          "quote": "Even though that's faster."
+        }
+      ],
+      "activation": "evaluated",
+      "source_rationale_id": "R1",
+      "utterance_kind": "concern",
+      "decision_support": "none",
+      "all_mention_ids": [
+        "R1",
+        "R2"
+      ]
+    },
+    {
+      "rationale_label": "unit_economics_assessment",
+      "direction": "neutral",
+      "salience": "secondary",
+      "confidence": 0.96,
+      "utterance_type": "question",
+      "decision_link": "none",
+      "timing": "original_pitch",
+      "turn_index": 131,
+      "quote": "How much is a charger, like a, in a grocery store parking lot. How much do those cost?",
+      "explanation": "Requests a cost benchmark for an alternative charging installation.",
+      "evidence": [
+        "What does it cost per unit?",
+        "How much is a charger, like a, in a grocery store parking lot. How much do those cost?"
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 129,
+          "speaker": "Rohit",
+          "quote": "What does it cost per unit?"
+        },
+        {
+          "turn_index": 131,
+          "speaker": "Rohit",
+          "quote": "How much is a charger, like a, in a grocery store parking lot. How much do those cost?"
+        }
+      ],
+      "activation": "queried",
+      "source_rationale_id": "R5",
+      "utterance_kind": "question",
+      "decision_support": "none",
+      "all_mention_ids": [
+        "R4",
+        "R5"
+      ]
+    }
+  ],
+  "later_rationales": [
+    {
+      "rationale_label": "solution_feasibility_assessment",
+      "direction": "positive",
+      "salience": "primary",
+      "confidence": 0.99,
+      "utterance_type": "assessment",
+      "decision_link": "supports_in",
+      "timing": "later_commentary",
+      "turn_index": 326,
+      "quote": "it was flawless. It worked.",
+      "explanation": "Reports that his real-world charger test operated successfully and without friction.",
+      "evidence": [
+        "it was flawless. It worked."
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 326,
+          "speaker": "Rohit",
+          "quote": "it was flawless. It worked."
+        }
+      ],
+      "activation": "evaluated",
+      "source_rationale_id": "R21"
+    },
+    {
+      "rationale_label": "product_appeal_assessment",
+      "direction": "positive",
+      "salience": "primary",
+      "confidence": 0.98,
+      "utterance_type": "decision_explanation",
+      "decision_link": "supports_in",
+      "timing": "later_commentary",
+      "turn_index": 328,
+      "quote": "significantly cheaper than Tesla Supercharger",
+      "explanation": "Finds the tested charging price compelling relative to a prominent alternative.",
+      "evidence": [
+        "significantly cheaper than Tesla Supercharger"
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 328,
+          "speaker": "Rohit",
+          "quote": "significantly cheaper than Tesla Supercharger"
+        }
+      ],
+      "activation": "evaluated",
+      "source_rationale_id": "R22"
+    },
+    {
+      "rationale_label": "market_entry_path_assessment",
+      "direction": "positive",
+      "salience": "secondary",
+      "confidence": 0.88,
+      "utterance_type": "decision_explanation",
+      "decision_link": "supports_in",
+      "timing": "later_commentary",
+      "turn_index": 328,
+      "quote": "I see where you fit in the market.",
+      "explanation": "States that the field test clarified the company's reachable position within the charging market.",
+      "evidence": [
+        "I see where you fit in the market."
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 328,
+          "speaker": "Rohit",
+          "quote": "I see where you fit in the market."
+        }
+      ],
+      "activation": "evaluated",
+      "source_rationale_id": "R23"
+    }
+  ],
+  "excluded_rationales": [],
+  "rationale_mentions": [
+    {
+      "rationale_label": "product_success_factor_assessment",
+      "direction": "negative",
+      "salience": "secondary",
+      "confidence": 0.9,
+      "utterance_type": "concern",
+      "decision_link": "none",
+      "timing": "original_pitch",
+      "turn_index": 76,
+      "quote": "Even though that's faster.",
+      "explanation": "Challenges the curbside focus by noting that the excluded private-charging alternative offers faster charging.",
+      "evidence": [
+        "Even though that's faster."
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 76,
+          "speaker": "Rohit",
+          "quote": "Even though that's faster."
+        }
+      ],
+      "activation": "evaluated",
+      "source_rationale_id": "R1"
+    },
+    {
+      "rationale_label": "product_success_factor_assessment",
+      "direction": "neutral",
+      "salience": "secondary",
+      "confidence": 0.96,
+      "utterance_type": "question",
+      "decision_link": "none",
+      "timing": "original_pitch",
+      "turn_index": 94,
+      "quote": "Can you walk me through, what is the experience charging?",
+      "explanation": "Asks how the product handles the charging experience after describing payment friction with another provider.",
+      "evidence": [
+        "Can you walk me through, what is the experience charging?"
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 94,
+          "speaker": "Rohit",
+          "quote": "Can you walk me through, what is the experience charging?"
+        }
+      ],
+      "activation": "queried",
+      "source_rationale_id": "R2"
+    },
+    {
+      "rationale_label": "business_model_assessment",
+      "direction": "neutral",
+      "salience": "secondary",
+      "confidence": 0.97,
+      "utterance_type": "question",
+      "decision_link": "none",
+      "timing": "original_pitch",
+      "turn_index": 105,
+      "quote": "what are your rates for charging?",
+      "explanation": "Queries the company's customer-pricing and monetization model.",
+      "evidence": [
+        "what are your rates for charging?"
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 105,
+          "speaker": "Rohit",
+          "quote": "what are your rates for charging?"
+        }
+      ],
+      "activation": "queried",
+      "source_rationale_id": "R3"
+    },
+    {
+      "rationale_label": "unit_economics_assessment",
+      "direction": "neutral",
+      "salience": "secondary",
+      "confidence": 0.97,
+      "utterance_type": "question",
+      "decision_link": "none",
+      "timing": "original_pitch",
+      "turn_index": 129,
+      "quote": "What does it cost per unit?",
+      "explanation": "Seeks the per-charger cost needed to evaluate unit economics.",
+      "evidence": [
+        "What does it cost per unit?"
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 129,
+          "speaker": "Rohit",
+          "quote": "What does it cost per unit?"
+        }
+      ],
+      "activation": "queried",
+      "source_rationale_id": "R4"
+    },
+    {
+      "rationale_label": "unit_economics_assessment",
+      "direction": "neutral",
+      "salience": "secondary",
+      "confidence": 0.96,
+      "utterance_type": "question",
+      "decision_link": "none",
+      "timing": "original_pitch",
+      "turn_index": 131,
+      "quote": "How much is a charger, like a, in a grocery store parking lot. How much do those cost?",
+      "explanation": "Requests a cost benchmark for an alternative charging installation.",
+      "evidence": [
+        "How much is a charger, like a, in a grocery store parking lot. How much do those cost?"
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 131,
+          "speaker": "Rohit",
+          "quote": "How much is a charger, like a, in a grocery store parking lot. How much do those cost?"
+        }
+      ],
+      "activation": "queried",
+      "source_rationale_id": "R5"
+    },
+    {
+      "rationale_label": "market_problem_validation",
+      "direction": "positive",
+      "salience": "primary",
+      "confidence": 0.99,
+      "utterance_type": "decision_explanation",
+      "decision_link": "supports_in",
+      "timing": "original_pitch",
+      "turn_index": 187,
+      "quote": "It's just too big of a problem. There are too many cars and there's nowhere to charge 'em.",
+      "explanation": "Explains his commitment through the severe mismatch between the number of cars and available charging.",
+      "evidence": [
+        "It's just too big of a problem. There are too many cars and there's nowhere to charge 'em."
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 187,
+          "speaker": "Rohit",
+          "quote": "It's just too big of a problem. There are too many cars and there's nowhere to charge 'em."
+        }
+      ],
+      "activation": "evaluated",
+      "source_rationale_id": "R6"
+    },
+    {
+      "rationale_label": "go_to_market_strategy_assessment",
+      "direction": "negative",
+      "salience": "secondary",
+      "confidence": 0.96,
+      "utterance_type": "concern",
+      "decision_link": "none",
+      "timing": "original_pitch",
+      "turn_index": 216,
+      "quote": "get it approved and get cities to say you can do this",
+      "explanation": "Identifies certification, approval, and municipal selling as a difficult go-to-market path and a reason for hesitation.",
+      "evidence": [
+        "get it approved and get cities to say you can do this"
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 216,
+          "speaker": "Rohit",
+          "quote": "get it approved and get cities to say you can do this"
+        }
+      ],
+      "activation": "evaluated",
+      "source_rationale_id": "R7"
+    },
+    {
+      "rationale_label": "founder_execution",
+      "direction": "positive",
+      "salience": "primary",
+      "confidence": 0.99,
+      "utterance_type": "decision_explanation",
+      "decision_link": "supports_in",
+      "timing": "original_pitch",
+      "turn_index": 216,
+      "quote": "but she's done it.",
+      "explanation": "Credits the founder with successfully overcoming the difficult build, certification, approval, and city-sales process.",
+      "evidence": [
+        "but she's done it."
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 216,
+          "speaker": "Rohit",
+          "quote": "but she's done it."
+        }
+      ],
+      "activation": "evaluated",
+      "source_rationale_id": "R8"
+    },
+    {
+      "rationale_label": "founder_execution",
+      "direction": "positive",
+      "salience": "primary",
+      "confidence": 0.98,
+      "utterance_type": "decision_explanation",
+      "decision_link": "supports_in",
+      "timing": "original_pitch",
+      "turn_index": 218,
+      "quote": "the fact she's got some tier one cities on there that are doing this is pretty crazy.",
+      "explanation": "Treats deployments with major cities as unusually strong evidence of execution.",
+      "evidence": [
+        "the fact she's got some tier one cities on there that are doing this is pretty crazy."
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 218,
+          "speaker": "Rohit",
+          "quote": "the fact she's got some tier one cities on there that are doing this is pretty crazy."
+        }
+      ],
+      "activation": "evaluated",
+      "source_rationale_id": "R9"
+    },
+    {
+      "rationale_label": "market_size_assessment",
+      "direction": "positive",
+      "salience": "secondary",
+      "confidence": 0.9,
+      "utterance_type": "supporting_argument",
+      "decision_link": "supports_in",
+      "timing": "original_pitch",
+      "turn_index": 220,
+      "quote": "there's gonna be a lot of different models that win, a lot of different products that win.",
+      "explanation": "Believes the EV-charging market is broad enough to support multiple successful models and products.",
+      "evidence": [
+        "there's gonna be a lot of different models that win, a lot of different products that win."
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 220,
+          "speaker": "Rohit",
+          "quote": "there's gonna be a lot of different models that win, a lot of different products that win."
+        }
+      ],
+      "activation": "evaluated",
+      "source_rationale_id": "R10"
+    },
+    {
+      "rationale_label": "product_differentiation_concern",
+      "direction": "positive",
+      "salience": "primary",
+      "confidence": 0.97,
+      "utterance_type": "decision_explanation",
+      "decision_link": "supports_in",
+      "timing": "original_pitch",
+      "turn_index": 222,
+      "quote": "I don't see anybody doing this.",
+      "explanation": "Views the company's curbside approach as meaningfully differentiated from other charging offerings.",
+      "evidence": [
+        "I don't see anybody doing this."
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 222,
+          "speaker": "Rohit",
+          "quote": "I don't see anybody doing this."
+        }
+      ],
+      "activation": "evaluated",
+      "source_rationale_id": "R11"
+    },
+    {
+      "rationale_label": "dilution_concern",
+      "direction": "negative",
+      "salience": "secondary",
+      "confidence": 0.99,
+      "utterance_type": "concern",
+      "decision_link": "none",
+      "timing": "original_pitch",
+      "turn_index": 224,
+      "quote": "Dilution is not great.",
+      "explanation": "Acknowledges that the company's financing history has produced unattractive dilution.",
+      "evidence": [
+        "Dilution is not great."
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 224,
+          "speaker": "Rohit",
+          "quote": "Dilution is not great."
+        }
+      ],
+      "activation": "evaluated",
+      "source_rationale_id": "R12"
+    },
+    {
+      "rationale_label": "dilution_concern",
+      "direction": "negative",
+      "salience": "secondary",
+      "confidence": 0.95,
+      "utterance_type": "assessment",
+      "decision_link": "none",
+      "timing": "original_pitch",
+      "turn_index": 224,
+      "quote": "Current valuation I feel like could be higher.",
+      "explanation": "Believes a higher valuation would better protect founder ownership in the current financing.",
+      "evidence": [
+        "Current valuation I feel like could be higher."
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 224,
+          "speaker": "Rohit",
+          "quote": "Current valuation I feel like could be higher."
+        }
+      ],
+      "activation": "evaluated",
+      "source_rationale_id": "R13"
+    },
+    {
+      "rationale_label": "dilution_concern",
+      "direction": "negative",
+      "salience": "secondary",
+      "confidence": 0.91,
+      "utterance_type": "assessment",
+      "decision_link": "none",
+      "timing": "original_pitch",
+      "turn_index": 228,
+      "quote": "for the amount of money that she's taking.",
+      "explanation": "Clarifies that the amount being raised makes the current valuation and resulting dilution uncomfortable.",
+      "evidence": [
+        "for the amount of money that she's taking."
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 228,
+          "speaker": "Rohit",
+          "quote": "for the amount of money that she's taking."
+        }
+      ],
+      "activation": "evaluated",
+      "source_rationale_id": "R14"
+    },
+    {
+      "rationale_label": "dilution_concern",
+      "direction": "negative",
+      "salience": "secondary",
+      "confidence": 0.97,
+      "utterance_type": "assessment",
+      "decision_link": "none",
+      "timing": "original_pitch",
+      "turn_index": 230,
+      "quote": "she should be raising at higher valuation.",
+      "explanation": "Argues that a higher valuation is warranted to reduce the ownership impact of the raise.",
+      "evidence": [
+        "she should be raising at higher valuation."
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 230,
+          "speaker": "Rohit",
+          "quote": "she should be raising at higher valuation."
+        }
+      ],
+      "activation": "evaluated",
+      "source_rationale_id": "R15"
+    },
+    {
+      "rationale_label": "dilution_concern",
+      "direction": "negative",
+      "salience": "secondary",
+      "confidence": 0.98,
+      "utterance_type": "assessment",
+      "decision_link": "none",
+      "timing": "original_pitch",
+      "turn_index": 232,
+      "quote": "the only way you counteract dilution is with a higher valuation.",
+      "explanation": "Explicitly frames valuation as the mechanism for mitigating dilution.",
+      "evidence": [
+        "the only way you counteract dilution is with a higher valuation."
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 232,
+          "speaker": "Rohit",
+          "quote": "the only way you counteract dilution is with a higher valuation."
+        }
+      ],
+      "activation": "evaluated",
+      "source_rationale_id": "R16"
+    },
+    {
+      "rationale_label": "dilution_concern",
+      "direction": "negative",
+      "salience": "secondary",
+      "confidence": 0.94,
+      "utterance_type": "assessment",
+      "decision_link": "none",
+      "timing": "original_pitch",
+      "turn_index": 234,
+      "quote": "this will put her what, like 10 something 12 total raised and another seven non dilutive.",
+      "explanation": "Highlights the large cumulative financing amount underlying his dilution discomfort.",
+      "evidence": [
+        "this will put her what, like 10 something 12 total raised and another seven non dilutive."
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 234,
+          "speaker": "Rohit",
+          "quote": "this will put her what, like 10 something 12 total raised and another seven non dilutive."
+        }
+      ],
+      "activation": "evaluated",
+      "source_rationale_id": "R17"
+    },
+    {
+      "rationale_label": "dilution_concern",
+      "direction": "negative",
+      "salience": "secondary",
+      "confidence": 0.9,
+      "utterance_type": "concern",
+      "decision_link": "none",
+      "timing": "original_pitch",
+      "turn_index": 237,
+      "quote": "A lot of discomfort there",
+      "explanation": "Reiterates discomfort with the financing and dilution discussed immediately beforehand.",
+      "evidence": [
+        "A lot of discomfort there"
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 237,
+          "speaker": "Rohit",
+          "quote": "A lot of discomfort there"
+        }
+      ],
+      "activation": "evaluated",
+      "source_rationale_id": "R18"
+    },
+    {
+      "rationale_label": "competitive_advantage_assessment",
+      "direction": "positive",
+      "salience": "primary",
+      "confidence": 0.98,
+      "utterance_type": "decision_explanation",
+      "decision_link": "supports_in",
+      "timing": "original_pitch",
+      "turn_index": 237,
+      "quote": "I don't see anybody catching up with her in the next couple years.",
+      "explanation": "Believes the company's execution lead will be difficult for competitors to close.",
+      "evidence": [
+        "I don't see anybody catching up with her in the next couple years."
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 237,
+          "speaker": "Rohit",
+          "quote": "I don't see anybody catching up with her in the next couple years."
+        }
+      ],
+      "activation": "evaluated",
+      "source_rationale_id": "R19"
+    },
+    {
+      "rationale_label": "market_timing",
+      "direction": "positive",
+      "salience": "secondary",
+      "confidence": 0.91,
+      "utterance_type": "supporting_argument",
+      "decision_link": "none",
+      "timing": "original_pitch",
+      "turn_index": 237,
+      "quote": "I could see LA the Olympics in 2028. They're spending a ton on infrastructure.",
+      "explanation": "Identifies Olympic-related infrastructure spending as a potentially favorable near-term market window.",
+      "evidence": [
+        "I could see LA the Olympics in 2028. They're spending a ton on infrastructure."
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 237,
+          "speaker": "Rohit",
+          "quote": "I could see LA the Olympics in 2028. They're spending a ton on infrastructure."
+        }
+      ],
+      "activation": "evaluated",
+      "source_rationale_id": "R20"
+    }
+  ],
+  "expanded_quote_evidence": [],
+  "rejected_after_evidence_check": []
+}

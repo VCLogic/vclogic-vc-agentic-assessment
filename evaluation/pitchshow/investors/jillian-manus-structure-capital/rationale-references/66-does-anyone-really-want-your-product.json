@@ -1,0 +1,667 @@
+{
+  "schema": "phase1-rationale-reference-v1",
+  "extraction_version": "pitchshow-rationales-v1",
+  "fingerprint": "c0a7e2c85cba126f23b849096bff27fe1d5e16bc8831112d537db218261f5de3",
+  "episode_slug": "66-does-anyone-really-want-your-product",
+  "vc_slug": "jillian-manus-structure-capital",
+  "vc_name": "Jillian Manus",
+  "actual_decision": "In",
+  "later_decision": "Out",
+  "reference_kind": "automated_transcript_observed_candidate",
+  "human_validated": false,
+  "source_format": "transcript-observed-rationales-v1",
+  "source_path": "../source/episodes/66-does-anyone-really-want-your-product.json",
+  "source_sha256": "4da4ece11db362ffba7eee66bd619674690cc31ae47d7b0f8a46215c497b7828",
+  "transcript_sha256": "476cf4f237d82f8804500b4b6b827655ea2109d92a1070e39613ba40a42cc156",
+  "taxonomy_sha256": "eaa8734819a3ac34dd19ee5f0bf6de925a793a1d25a2d361090dafc9b751e1fc",
+  "model": "codex:gpt-5.6-luna+gpt-5.6-sol",
+  "generation_stages": [
+    {
+      "phase": "rationale_extract",
+      "backend": "codex",
+      "model": "gpt-5.6-luna"
+    },
+    {
+      "phase": "rationale_verify",
+      "backend": "codex",
+      "model": "gpt-5.6-sol"
+    }
+  ],
+  "source_tier": "newly_extracted_and_independently_model_reviewed",
+  "reviewed_target_turns": [
+    1,
+    3,
+    8,
+    10,
+    13,
+    15,
+    20,
+    22,
+    29,
+    34,
+    38,
+    42,
+    53,
+    55,
+    73,
+    79,
+    82,
+    109,
+    111,
+    114,
+    116,
+    121,
+    135,
+    137,
+    142,
+    148,
+    159
+  ],
+  "notes": "Excluded greetings, jokes, biography, bare acknowledgments, simple agreements, and the question about another investor's check because they do not independently express an investment rationale.",
+  "receipt_path": "receipts/66-does-anyone-really-want-your-product.json",
+  "scoring_scope": "original_pitch_only",
+  "shared_across_input_modes": true,
+  "rationales": [
+    {
+      "rationale_label": "business_model_assessment",
+      "direction": "neutral",
+      "salience": "secondary",
+      "confidence": 0.95,
+      "utterance_type": "question",
+      "decision_link": "none",
+      "timing": "original_pitch",
+      "turn_index": 38,
+      "quote": "How much.",
+      "explanation": "Asks for the subscription offering's price to clarify its monetization.",
+      "evidence": [
+        "And what's average of that?",
+        "How much."
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 34,
+          "speaker": "Jillian",
+          "quote": "And what's average of that?"
+        },
+        {
+          "turn_index": 38,
+          "speaker": "Jillian",
+          "quote": "How much."
+        }
+      ],
+      "activation": "queried",
+      "source_rationale_id": "R3",
+      "utterance_kind": "question",
+      "decision_support": "none",
+      "all_mention_ids": [
+        "R2",
+        "R3"
+      ]
+    },
+    {
+      "rationale_label": "competitive_advantage_assessment",
+      "direction": "positive",
+      "salience": "secondary",
+      "confidence": 0.9,
+      "utterance_type": "assessment",
+      "decision_link": "none",
+      "timing": "original_pitch",
+      "turn_index": 73,
+      "quote": "I don't think AI is going to replace the touch...",
+      "explanation": "Argues that the solution's human-interaction element will retain value despite AI-based alternatives.",
+      "evidence": [
+        "I don't think AI is going to replace the touch..."
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 73,
+          "speaker": "Jillian",
+          "quote": "I don't think AI is going to replace the touch..."
+        }
+      ],
+      "activation": "evaluated",
+      "source_rationale_id": "R7",
+      "utterance_kind": "supporting_argument",
+      "decision_support": "none",
+      "all_mention_ids": [
+        "R4",
+        "R7"
+      ]
+    },
+    {
+      "rationale_label": "founder_communication_quality",
+      "direction": "positive",
+      "salience": "secondary",
+      "confidence": 0.94,
+      "utterance_type": "assessment",
+      "decision_link": "none",
+      "timing": "original_pitch",
+      "turn_index": 82,
+      "quote": "No, that's really, really good.",
+      "explanation": "Affirms the founder's disciplined handling of questions and control of the pitch conversation.",
+      "evidence": [
+        "No, that's really, really good."
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 82,
+          "speaker": "Jillian",
+          "quote": "No, that's really, really good."
+        }
+      ],
+      "activation": "evaluated",
+      "source_rationale_id": "R8",
+      "utterance_kind": "assessment",
+      "decision_support": "none",
+      "all_mention_ids": [
+        "R8"
+      ]
+    },
+    {
+      "rationale_label": "founder_execution",
+      "direction": "positive",
+      "salience": "secondary",
+      "confidence": 0.94,
+      "utterance_type": "assessment",
+      "decision_link": "none",
+      "timing": "original_pitch",
+      "turn_index": 55,
+      "quote": "I think that's brilliant.",
+      "explanation": "Praises the founder's resourceful tactic of going to airports to speak directly with prospective users.",
+      "evidence": [
+        "I think that's brilliant."
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 55,
+          "speaker": "Jillian",
+          "quote": "I think that's brilliant."
+        }
+      ],
+      "activation": "evaluated",
+      "source_rationale_id": "R6",
+      "utterance_kind": "assessment",
+      "decision_support": "none",
+      "all_mention_ids": [
+        "R6"
+      ]
+    },
+    {
+      "rationale_label": "founder_market_fit",
+      "direction": "neutral",
+      "salience": "secondary",
+      "confidence": 0.82,
+      "utterance_type": "question",
+      "decision_link": "none",
+      "timing": "original_pitch",
+      "turn_index": 53,
+      "quote": "You didn't know where to find them?",
+      "explanation": "Probes whether the founder personally encountered the user-recruitment problem that the new company addresses.",
+      "evidence": [
+        "You didn't know where to find them?"
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 53,
+          "speaker": "Jillian",
+          "quote": "You didn't know where to find them?"
+        }
+      ],
+      "activation": "queried",
+      "source_rationale_id": "R5",
+      "utterance_kind": "question",
+      "decision_support": "none",
+      "all_mention_ids": [
+        "R5"
+      ]
+    },
+    {
+      "rationale_label": "market_problem_validation",
+      "direction": "positive",
+      "salience": "primary",
+      "confidence": 0.98,
+      "utterance_type": "decision_reason",
+      "decision_link": "explicit",
+      "timing": "original_pitch",
+      "turn_index": 148,
+      "quote": "this is a constant problem",
+      "explanation": "Identifies persistent demand for user feedback as a major reason for committing $100,000.",
+      "evidence": [
+        "this is a constant problem"
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 148,
+          "speaker": "Jillian",
+          "quote": "this is a constant problem"
+        }
+      ],
+      "activation": "evaluated",
+      "source_rationale_id": "R13",
+      "utterance_kind": "decision_explanation",
+      "decision_support": "supports_in",
+      "all_mention_ids": [
+        "R13"
+      ]
+    },
+    {
+      "rationale_label": "market_timing",
+      "direction": "positive",
+      "salience": "secondary",
+      "confidence": 0.87,
+      "utterance_type": "decision_reason",
+      "decision_link": "explicit",
+      "timing": "original_pitch",
+      "turn_index": 148,
+      "quote": "More so than they said that they have ever been.",
+      "explanation": "Cites product designers' unprecedented focus on users as a favorable current trend supporting her investment.",
+      "evidence": [
+        "More so than they said that they have ever been."
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 148,
+          "speaker": "Jillian",
+          "quote": "More so than they said that they have ever been."
+        }
+      ],
+      "activation": "evaluated",
+      "source_rationale_id": "R12",
+      "utterance_kind": "decision_explanation",
+      "decision_support": "supports_in",
+      "all_mention_ids": [
+        "R12"
+      ]
+    },
+    {
+      "rationale_label": "product_success_factor_assessment",
+      "direction": "neutral",
+      "salience": "secondary",
+      "confidence": 0.74,
+      "utterance_type": "question",
+      "decision_link": "none",
+      "timing": "original_pitch",
+      "turn_index": 29,
+      "quote": "You're providing them high quality...",
+      "explanation": "Probes whether the company provides high-quality participants, a potentially important attribute of the solution.",
+      "evidence": [
+        "You're providing them high quality..."
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 29,
+          "speaker": "Jillian",
+          "quote": "You're providing them high quality..."
+        }
+      ],
+      "activation": "queried",
+      "source_rationale_id": "R1",
+      "utterance_kind": "question",
+      "decision_support": "none",
+      "all_mention_ids": [
+        "R1"
+      ]
+    },
+    {
+      "rationale_label": "stage_valuation_mismatch",
+      "direction": "neutral",
+      "salience": "secondary",
+      "confidence": 0.94,
+      "utterance_type": "question",
+      "decision_link": "none",
+      "timing": "original_pitch",
+      "turn_index": 116,
+      "quote": "At what valuation?",
+      "explanation": "Asks for the proposed valuation to assess it against the company's present stage.",
+      "evidence": [
+        "Okay, what was it the last round? Or how much have you raised?",
+        "Okay, now you're doing 4 million?",
+        "At what valuation?"
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 109,
+          "speaker": "Jillian",
+          "quote": "Okay, what was it the last round? Or how much have you raised?"
+        },
+        {
+          "turn_index": 114,
+          "speaker": "Jillian",
+          "quote": "Okay, now you're doing 4 million?"
+        },
+        {
+          "turn_index": 116,
+          "speaker": "Jillian",
+          "quote": "At what valuation?"
+        }
+      ],
+      "activation": "queried",
+      "source_rationale_id": "R11",
+      "utterance_kind": "question",
+      "decision_support": "none",
+      "all_mention_ids": [
+        "R9",
+        "R10",
+        "R11"
+      ]
+    }
+  ],
+  "later_rationales": [],
+  "excluded_rationales": [],
+  "rationale_mentions": [
+    {
+      "rationale_label": "product_success_factor_assessment",
+      "direction": "neutral",
+      "salience": "secondary",
+      "confidence": 0.74,
+      "utterance_type": "question",
+      "decision_link": "none",
+      "timing": "original_pitch",
+      "turn_index": 29,
+      "quote": "You're providing them high quality...",
+      "explanation": "Probes whether the company provides high-quality participants, a potentially important attribute of the solution.",
+      "evidence": [
+        "You're providing them high quality..."
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 29,
+          "speaker": "Jillian",
+          "quote": "You're providing them high quality..."
+        }
+      ],
+      "activation": "queried",
+      "source_rationale_id": "R1"
+    },
+    {
+      "rationale_label": "business_model_assessment",
+      "direction": "neutral",
+      "salience": "secondary",
+      "confidence": 0.94,
+      "utterance_type": "question",
+      "decision_link": "none",
+      "timing": "original_pitch",
+      "turn_index": 34,
+      "quote": "And what's average of that?",
+      "explanation": "Asks about average per-participant pricing to clarify the monetization model.",
+      "evidence": [
+        "And what's average of that?"
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 34,
+          "speaker": "Jillian",
+          "quote": "And what's average of that?"
+        }
+      ],
+      "activation": "queried",
+      "source_rationale_id": "R2"
+    },
+    {
+      "rationale_label": "business_model_assessment",
+      "direction": "neutral",
+      "salience": "secondary",
+      "confidence": 0.95,
+      "utterance_type": "question",
+      "decision_link": "none",
+      "timing": "original_pitch",
+      "turn_index": 38,
+      "quote": "How much.",
+      "explanation": "Asks for the subscription offering's price to clarify its monetization.",
+      "evidence": [
+        "How much."
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 38,
+          "speaker": "Jillian",
+          "quote": "How much."
+        }
+      ],
+      "activation": "queried",
+      "source_rationale_id": "R3"
+    },
+    {
+      "rationale_label": "competitive_advantage_assessment",
+      "direction": "neutral",
+      "salience": "secondary",
+      "confidence": 0.96,
+      "utterance_type": "question",
+      "decision_link": "none",
+      "timing": "original_pitch",
+      "turn_index": 42,
+      "quote": "And how are you better, different, complementary?",
+      "explanation": "Asks how the company differs from or complements the alternatives under discussion.",
+      "evidence": [
+        "And how are you better, different, complementary?"
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 42,
+          "speaker": "Jillian",
+          "quote": "And how are you better, different, complementary?"
+        }
+      ],
+      "activation": "queried",
+      "source_rationale_id": "R4"
+    },
+    {
+      "rationale_label": "founder_market_fit",
+      "direction": "neutral",
+      "salience": "secondary",
+      "confidence": 0.82,
+      "utterance_type": "question",
+      "decision_link": "none",
+      "timing": "original_pitch",
+      "turn_index": 53,
+      "quote": "You didn't know where to find them?",
+      "explanation": "Probes whether the founder personally encountered the user-recruitment problem that the new company addresses.",
+      "evidence": [
+        "You didn't know where to find them?"
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 53,
+          "speaker": "Jillian",
+          "quote": "You didn't know where to find them?"
+        }
+      ],
+      "activation": "queried",
+      "source_rationale_id": "R5"
+    },
+    {
+      "rationale_label": "founder_execution",
+      "direction": "positive",
+      "salience": "secondary",
+      "confidence": 0.94,
+      "utterance_type": "assessment",
+      "decision_link": "none",
+      "timing": "original_pitch",
+      "turn_index": 55,
+      "quote": "I think that's brilliant.",
+      "explanation": "Praises the founder's resourceful tactic of going to airports to speak directly with prospective users.",
+      "evidence": [
+        "I think that's brilliant."
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 55,
+          "speaker": "Jillian",
+          "quote": "I think that's brilliant."
+        }
+      ],
+      "activation": "evaluated",
+      "source_rationale_id": "R6"
+    },
+    {
+      "rationale_label": "competitive_advantage_assessment",
+      "direction": "positive",
+      "salience": "secondary",
+      "confidence": 0.9,
+      "utterance_type": "supporting_argument",
+      "decision_link": "none",
+      "timing": "original_pitch",
+      "turn_index": 73,
+      "quote": "I don't think AI is going to replace the touch...",
+      "explanation": "Argues that the solution's human-interaction element will retain value despite AI-based alternatives.",
+      "evidence": [
+        "I don't think AI is going to replace the touch..."
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 73,
+          "speaker": "Jillian",
+          "quote": "I don't think AI is going to replace the touch..."
+        }
+      ],
+      "activation": "evaluated",
+      "source_rationale_id": "R7"
+    },
+    {
+      "rationale_label": "founder_communication_quality",
+      "direction": "positive",
+      "salience": "secondary",
+      "confidence": 0.94,
+      "utterance_type": "assessment",
+      "decision_link": "none",
+      "timing": "original_pitch",
+      "turn_index": 82,
+      "quote": "No, that's really, really good.",
+      "explanation": "Affirms the founder's disciplined handling of questions and control of the pitch conversation.",
+      "evidence": [
+        "No, that's really, really good."
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 82,
+          "speaker": "Jillian",
+          "quote": "No, that's really, really good."
+        }
+      ],
+      "activation": "evaluated",
+      "source_rationale_id": "R8"
+    },
+    {
+      "rationale_label": "stage_valuation_mismatch",
+      "direction": "neutral",
+      "salience": "secondary",
+      "confidence": 0.8,
+      "utterance_type": "question",
+      "decision_link": "none",
+      "timing": "original_pitch",
+      "turn_index": 109,
+      "quote": "Okay, what was it the last round? Or how much have you raised?",
+      "explanation": "Requests prior-round and financing context needed to compare the current valuation request with the company's stage.",
+      "evidence": [
+        "Okay, what was it the last round? Or how much have you raised?"
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 109,
+          "speaker": "Jillian",
+          "quote": "Okay, what was it the last round? Or how much have you raised?"
+        }
+      ],
+      "activation": "queried",
+      "source_rationale_id": "R9"
+    },
+    {
+      "rationale_label": "stage_valuation_mismatch",
+      "direction": "neutral",
+      "salience": "secondary",
+      "confidence": 0.78,
+      "utterance_type": "question",
+      "decision_link": "none",
+      "timing": "original_pitch",
+      "turn_index": 114,
+      "quote": "Okay, now you're doing 4 million?",
+      "explanation": "Clarifies the current round size while evaluating the financing request relative to prior funding.",
+      "evidence": [
+        "Okay, now you're doing 4 million?"
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 114,
+          "speaker": "Jillian",
+          "quote": "Okay, now you're doing 4 million?"
+        }
+      ],
+      "activation": "queried",
+      "source_rationale_id": "R10"
+    },
+    {
+      "rationale_label": "stage_valuation_mismatch",
+      "direction": "neutral",
+      "salience": "secondary",
+      "confidence": 0.94,
+      "utterance_type": "question",
+      "decision_link": "none",
+      "timing": "original_pitch",
+      "turn_index": 116,
+      "quote": "At what valuation?",
+      "explanation": "Asks for the proposed valuation to assess it against the company's present stage.",
+      "evidence": [
+        "At what valuation?"
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 116,
+          "speaker": "Jillian",
+          "quote": "At what valuation?"
+        }
+      ],
+      "activation": "queried",
+      "source_rationale_id": "R11"
+    },
+    {
+      "rationale_label": "market_timing",
+      "direction": "positive",
+      "salience": "secondary",
+      "confidence": 0.87,
+      "utterance_type": "decision_explanation",
+      "decision_link": "supports_in",
+      "timing": "original_pitch",
+      "turn_index": 148,
+      "quote": "More so than they said that they have ever been.",
+      "explanation": "Cites product designers' unprecedented focus on users as a favorable current trend supporting her investment.",
+      "evidence": [
+        "More so than they said that they have ever been."
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 148,
+          "speaker": "Jillian",
+          "quote": "More so than they said that they have ever been."
+        }
+      ],
+      "activation": "evaluated",
+      "source_rationale_id": "R12"
+    },
+    {
+      "rationale_label": "market_problem_validation",
+      "direction": "positive",
+      "salience": "primary",
+      "confidence": 0.98,
+      "utterance_type": "decision_explanation",
+      "decision_link": "supports_in",
+      "timing": "original_pitch",
+      "turn_index": 148,
+      "quote": "this is a constant problem",
+      "explanation": "Identifies persistent demand for user feedback as a major reason for committing $100,000.",
+      "evidence": [
+        "this is a constant problem"
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 148,
+          "speaker": "Jillian",
+          "quote": "this is a constant problem"
+        }
+      ],
+      "activation": "evaluated",
+      "source_rationale_id": "R13"
+    }
+  ],
+  "expanded_quote_evidence": [],
+  "rejected_after_evidence_check": []
+}

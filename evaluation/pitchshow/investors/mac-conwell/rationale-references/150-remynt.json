@@ -1,0 +1,1451 @@
+{
+  "schema": "phase1-rationale-reference-v1",
+  "extraction_version": "pitchshow-rationales-v1",
+  "fingerprint": "b781034da16b573d7690a2ee2831420edc193dfa71e87ecec73b545ab0c19fc8",
+  "episode_slug": "150-remynt",
+  "vc_slug": "mac-conwell",
+  "vc_name": "Mac Conwell",
+  "actual_decision": "Out",
+  "later_decision": "Unknown",
+  "reference_kind": "automated_transcript_observed_candidate",
+  "human_validated": false,
+  "source_format": "transcript-observed-rationales-v1",
+  "source_path": "../source/episodes/150-remynt.json",
+  "source_sha256": "439b7598171b5736d065c2256a41d5a20a079c5c9d322ecc49916606823361ec",
+  "transcript_sha256": "97227bcaf66631e24d2905e5e2bf39d63563ea45d0dc0abddb5aede92c857914",
+  "taxonomy_sha256": "eaa8734819a3ac34dd19ee5f0bf6de925a793a1d25a2d361090dafc9b751e1fc",
+  "model": "codex:gpt-5.6-luna+gpt-5.6-sol",
+  "generation_stages": [
+    {
+      "phase": "rationale_extract",
+      "backend": "openrouter",
+      "model": "openai/gpt-5.6-luna"
+    },
+    {
+      "phase": "rationale_verify",
+      "backend": "openrouter",
+      "model": "openai/gpt-5.6-luna"
+    },
+    {
+      "phase": "rationale_verify",
+      "backend": "codex",
+      "model": "gpt-5.6-sol"
+    }
+  ],
+  "source_tier": "newly_extracted_and_independently_model_reviewed",
+  "reviewed_target_turns": [
+    4,
+    15,
+    34,
+    38,
+    39,
+    41,
+    43,
+    69,
+    70,
+    72,
+    75,
+    79,
+    81,
+    85,
+    92,
+    97,
+    101,
+    105,
+    107,
+    110,
+    113,
+    115,
+    117,
+    124,
+    128,
+    131,
+    137,
+    144,
+    146,
+    153,
+    155,
+    157,
+    161
+  ],
+  "notes": "All supplied target turns were reviewed. The immediate post-founder debrief remains original_pitch; non-rationale greetings, jokes, confirmations, incomplete continuations, and logistical remarks were not extracted.",
+  "receipt_path": "receipts/150-remynt.json",
+  "scoring_scope": "original_pitch_only",
+  "shared_across_input_modes": true,
+  "rationales": [
+    {
+      "rationale_label": "business_model_assessment",
+      "direction": "neutral",
+      "salience": "secondary",
+      "confidence": 0.98,
+      "utterance_type": "question",
+      "decision_link": "none",
+      "timing": "original_pitch",
+      "turn_index": 15,
+      "quote": "Once you've paid this off to a certain percentage, we then will bring you into a program where we will help you start to build credit for all the good work that you've done so far. Is that correct?",
+      "explanation": "Mac clarifies how debt repayment leads into the credit-building offering.",
+      "evidence": [
+        "Once you've paid this off to a certain percentage, we then will bring you into a program where we will help you start to build credit for all the good work that you've done so far. Is that correct?"
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 15,
+          "speaker": "Mac",
+          "quote": "Once you've paid this off to a certain percentage, we then will bring you into a program where we will help you start to build credit for all the good work that you've done so far. Is that correct?"
+        }
+      ],
+      "activation": "queried",
+      "source_rationale_id": "R1",
+      "utterance_kind": "question",
+      "decision_support": "none",
+      "all_mention_ids": [
+        "R1"
+      ]
+    },
+    {
+      "rationale_label": "execution_risk_assessment",
+      "direction": "negative",
+      "salience": "secondary",
+      "confidence": 0.96,
+      "utterance_type": "assessment",
+      "decision_link": "explicit",
+      "timing": "original_pitch",
+      "turn_index": 137,
+      "quote": "it seemed like she wasn't readily able to say like, Oh, I don't know, or that could happen, but this is why we think it won't.",
+      "explanation": "Mac says the founder's failure to acknowledge uncertainty or contingency scenarios increased his investment hesitation.",
+      "evidence": [
+        "She's putting it on herself.",
+        "it seemed like she wasn't readily able to say like, Oh, I don't know, or that could happen, but this is why we think it won't."
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 124,
+          "speaker": "Mac",
+          "quote": "She's putting it on herself."
+        },
+        {
+          "turn_index": 137,
+          "speaker": "Mac",
+          "quote": "it seemed like she wasn't readily able to say like, Oh, I don't know, or that could happen, but this is why we think it won't."
+        }
+      ],
+      "activation": "evaluated",
+      "source_rationale_id": "R29",
+      "utterance_kind": "assessment",
+      "decision_support": "supports_out",
+      "all_mention_ids": [
+        "R28",
+        "R29"
+      ]
+    },
+    {
+      "rationale_label": "founder_coachability_assessment",
+      "direction": "negative",
+      "salience": "primary",
+      "confidence": 0.99,
+      "utterance_type": "assessment",
+      "decision_link": "explicit",
+      "timing": "original_pitch",
+      "turn_index": 137,
+      "quote": "You're coming off as not being coachable at this point, cause you're not listening to what I'm saying.",
+      "explanation": "Mac explicitly links the founder's resistance to feedback with the additional pause he felt about investing.",
+      "evidence": [
+        "You're coming off as not being coachable at this point, cause you're not listening to what I'm saying."
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 137,
+          "speaker": "Mac",
+          "quote": "You're coming off as not being coachable at this point, cause you're not listening to what I'm saying."
+        }
+      ],
+      "activation": "evaluated",
+      "source_rationale_id": "R30",
+      "utterance_kind": "assessment",
+      "decision_support": "supports_out",
+      "all_mention_ids": [
+        "R30"
+      ]
+    },
+    {
+      "rationale_label": "founder_communication_quality",
+      "direction": "negative",
+      "salience": "secondary",
+      "confidence": 0.97,
+      "utterance_type": "assessment",
+      "decision_link": "none",
+      "timing": "original_pitch",
+      "turn_index": 75,
+      "quote": "Put it in a frame of like, how every other SAAS founder talks about things.",
+      "explanation": "Mac advises the founder to present the business in a clearer, more conventional investor-facing frame.",
+      "evidence": [
+        "that's the wrong way to approach investors.",
+        "That's a better answer than just saying, this isn't a problem. You're focusing on the wrong thing.",
+        "Put it in a frame of like, how every other SAAS founder talks about things."
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 69,
+          "speaker": "Mac",
+          "quote": "that's the wrong way to approach investors."
+        },
+        {
+          "turn_index": 70,
+          "speaker": "Mac",
+          "quote": "that's the wrong way to approach investors."
+        },
+        {
+          "turn_index": 72,
+          "speaker": "Mac",
+          "quote": "That's a better answer than just saying, this isn't a problem. You're focusing on the wrong thing."
+        },
+        {
+          "turn_index": 75,
+          "speaker": "Mac",
+          "quote": "Put it in a frame of like, how every other SAAS founder talks about things."
+        }
+      ],
+      "activation": "evaluated",
+      "source_rationale_id": "R20",
+      "utterance_kind": "assessment",
+      "decision_support": "none",
+      "all_mention_ids": [
+        "R13",
+        "R14",
+        "R19",
+        "R20"
+      ]
+    },
+    {
+      "rationale_label": "founder_execution",
+      "direction": "positive",
+      "salience": "secondary",
+      "confidence": 0.97,
+      "utterance_type": "assessment",
+      "decision_link": "none",
+      "timing": "original_pitch",
+      "turn_index": 115,
+      "quote": "she is going to do everything she can and she will put every ounce of effort into that company.",
+      "explanation": "Mac expects the founder to apply exceptional effort and determination to executing the business.",
+      "evidence": [
+        "she is going to do everything she can and she will put every ounce of effort into that company."
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 115,
+          "speaker": "Mac",
+          "quote": "she is going to do everything she can and she will put every ounce of effort into that company."
+        }
+      ],
+      "activation": "evaluated",
+      "source_rationale_id": "R27",
+      "utterance_kind": "assessment",
+      "decision_support": "none",
+      "all_mention_ids": [
+        "R25",
+        "R27"
+      ]
+    },
+    {
+      "rationale_label": "founder_investor_vision_alignment",
+      "direction": "neutral",
+      "salience": "secondary",
+      "confidence": 0.93,
+      "utterance_type": "question",
+      "decision_link": "none",
+      "timing": "original_pitch",
+      "turn_index": 34,
+      "quote": "So what is your long term vision?",
+      "explanation": "Mac asks whether the founder's intended direction extends beyond debt recovery.",
+      "evidence": [
+        "So what is your long term vision?"
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 34,
+          "speaker": "Mac",
+          "quote": "So what is your long term vision?"
+        }
+      ],
+      "activation": "queried",
+      "source_rationale_id": "R2",
+      "utterance_kind": "question",
+      "decision_support": "none",
+      "all_mention_ids": [
+        "R2"
+      ]
+    },
+    {
+      "rationale_label": "founder_motivation_authenticity",
+      "direction": "positive",
+      "salience": "secondary",
+      "confidence": 0.98,
+      "utterance_type": "assessment",
+      "decision_link": "none",
+      "timing": "original_pitch",
+      "turn_index": 92,
+      "quote": "The passion is there. We all see it.",
+      "explanation": "Mac regards the founder's commitment to the mission as visibly genuine.",
+      "evidence": [
+        "The passion is there. We all see it."
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 92,
+          "speaker": "Mac",
+          "quote": "The passion is there. We all see it."
+        }
+      ],
+      "activation": "evaluated",
+      "source_rationale_id": "R21",
+      "utterance_kind": "assessment",
+      "decision_support": "none",
+      "all_mention_ids": [
+        "R21"
+      ]
+    },
+    {
+      "rationale_label": "founder_qualities",
+      "direction": "positive",
+      "salience": "secondary",
+      "confidence": 0.96,
+      "utterance_type": "assessment",
+      "decision_link": "none",
+      "timing": "original_pitch",
+      "turn_index": 115,
+      "quote": "she herself, incredible.",
+      "explanation": "Mac gives a strongly favorable assessment of the founder personally.",
+      "evidence": [
+        "I like you a lot",
+        "she herself, incredible."
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 38,
+          "speaker": "Mac",
+          "quote": "I like you a lot"
+        },
+        {
+          "turn_index": 39,
+          "speaker": "Mac",
+          "quote": "I like you a lot"
+        },
+        {
+          "turn_index": 115,
+          "speaker": "Mac",
+          "quote": "she herself, incredible."
+        }
+      ],
+      "activation": "evaluated",
+      "source_rationale_id": "R26",
+      "utterance_kind": "assessment",
+      "decision_support": "none",
+      "all_mention_ids": [
+        "R5",
+        "R7",
+        "R26"
+      ]
+    },
+    {
+      "rationale_label": "fund_economics_constraint",
+      "direction": "neutral",
+      "salience": "primary",
+      "confidence": 0.97,
+      "utterance_type": "assessment",
+      "decision_link": "none",
+      "timing": "original_pitch",
+      "turn_index": 70,
+      "quote": "Our goal is whatever companies we invest in, have to get to a billion dollar valuation",
+      "explanation": "Mac states the venture-return threshold that constrains his fund's investments.",
+      "evidence": [
+        "Our goal is whatever companies we invest in, have to get to a billion dollar valuation"
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 70,
+          "speaker": "Mac",
+          "quote": "Our goal is whatever companies we invest in, have to get to a billion dollar valuation"
+        }
+      ],
+      "activation": "evaluated",
+      "source_rationale_id": "R16",
+      "utterance_kind": "assessment",
+      "decision_support": "none",
+      "all_mention_ids": [
+        "R16"
+      ]
+    },
+    {
+      "rationale_label": "fundraising_demand_signal",
+      "direction": "positive",
+      "salience": "secondary",
+      "confidence": 0.96,
+      "utterance_type": "assessment",
+      "decision_link": "none",
+      "timing": "original_pitch",
+      "turn_index": 101,
+      "quote": "100k in a day.",
+      "explanation": "Mac highlights the rapid accumulation of investment commitments as a positive fundraising signal.",
+      "evidence": [
+        "100k in a day."
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 101,
+          "speaker": "Mac",
+          "quote": "100k in a day."
+        }
+      ],
+      "activation": "evaluated",
+      "source_rationale_id": "R22",
+      "utterance_kind": "assessment",
+      "decision_support": "none",
+      "all_mention_ids": [
+        "R22"
+      ]
+    },
+    {
+      "rationale_label": "go_to_market_strategy_assessment",
+      "direction": "negative",
+      "salience": "primary",
+      "confidence": 0.99,
+      "utterance_type": "decision_reason",
+      "decision_link": "explicit",
+      "timing": "original_pitch",
+      "turn_index": 43,
+      "quote": "I can't get over that hump just yet.",
+      "explanation": "Mac links his unresolved customer-engagement concern to his inability to invest at this stage.",
+      "evidence": [
+        "You still have to figure out how to engage them.",
+        "you got to figure out this customer acquisition thing really quick. And if you don't within that amount of money, that's it.",
+        "I can't get over that hump just yet.",
+        "Show up with a plan of like, this is how we get our customers.",
+        "I need to know that you know how you're going to get your customers."
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 39,
+          "speaker": "Mac",
+          "quote": "You still have to figure out how to engage them."
+        },
+        {
+          "turn_index": 41,
+          "speaker": "Mac",
+          "quote": "you got to figure out this customer acquisition thing really quick. And if you don't within that amount of money, that's it."
+        },
+        {
+          "turn_index": 43,
+          "speaker": "Mac",
+          "quote": "I can't get over that hump just yet."
+        },
+        {
+          "turn_index": 72,
+          "speaker": "Mac",
+          "quote": "Show up with a plan of like, this is how we get our customers."
+        },
+        {
+          "turn_index": 110,
+          "speaker": "Mac",
+          "quote": "I need to know that you know how you're going to get your customers."
+        }
+      ],
+      "activation": "evaluated",
+      "source_rationale_id": "R12",
+      "utterance_kind": "decision_explanation",
+      "decision_support": "supports_out",
+      "all_mention_ids": [
+        "R10",
+        "R11",
+        "R12",
+        "R18",
+        "R24"
+      ]
+    },
+    {
+      "rationale_label": "investor_experience_bias",
+      "direction": "positive",
+      "salience": "primary",
+      "confidence": 0.99,
+      "utterance_type": "assessment",
+      "decision_link": "none",
+      "timing": "original_pitch",
+      "turn_index": 38,
+      "quote": "I've also gone through these issues with credit card debt.",
+      "explanation": "Mac explicitly draws on his personal experience with credit-card debt when assessing the opportunity.",
+      "evidence": [
+        "I've also gone through these issues with credit card debt."
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 38,
+          "speaker": "Mac",
+          "quote": "I've also gone through these issues with credit card debt."
+        }
+      ],
+      "activation": "evaluated",
+      "source_rationale_id": "R3",
+      "utterance_kind": "supporting_argument",
+      "decision_support": "none",
+      "all_mention_ids": [
+        "R3"
+      ]
+    },
+    {
+      "rationale_label": "market_entry_path_assessment",
+      "direction": "positive",
+      "salience": "secondary",
+      "confidence": 0.91,
+      "utterance_type": "assessment",
+      "decision_link": "none",
+      "timing": "original_pitch",
+      "turn_index": 70,
+      "quote": "you inherently have something where people are already engaged.",
+      "explanation": "Mac acknowledges that existing debt obligations provide an initial path to reaching prospective customers.",
+      "evidence": [
+        "You have a wedge where, because of the product you're building, you get all these customers' information up front.",
+        "you inherently have something where people are already engaged."
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 39,
+          "speaker": "Mac",
+          "quote": "You have a wedge where, because of the product you're building, you get all these customers' information up front."
+        },
+        {
+          "turn_index": 70,
+          "speaker": "Mac",
+          "quote": "you inherently have something where people are already engaged."
+        }
+      ],
+      "activation": "evaluated",
+      "source_rationale_id": "R17",
+      "utterance_kind": "supporting_argument",
+      "decision_support": "none",
+      "all_mention_ids": [
+        "R9",
+        "R17"
+      ]
+    },
+    {
+      "rationale_label": "mission_alignment_preference",
+      "direction": "positive",
+      "salience": "secondary",
+      "confidence": 0.96,
+      "utterance_type": "assessment",
+      "decision_link": "none",
+      "timing": "original_pitch",
+      "turn_index": 39,
+      "quote": "I love what you're building because what you're building is important.",
+      "explanation": "Mac repeats that he is personally aligned with the importance of the company's mission.",
+      "evidence": [
+        "I love what you're building because what you're building is important."
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 38,
+          "speaker": "Mac",
+          "quote": "I love what you're building because what you're building is important."
+        },
+        {
+          "turn_index": 39,
+          "speaker": "Mac",
+          "quote": "I love what you're building because what you're building is important."
+        }
+      ],
+      "activation": "evaluated",
+      "source_rationale_id": "R8",
+      "utterance_kind": "assessment",
+      "decision_support": "none",
+      "all_mention_ids": [
+        "R6",
+        "R8"
+      ]
+    },
+    {
+      "rationale_label": "product_differentiation_concern",
+      "direction": "positive",
+      "salience": "secondary",
+      "confidence": 0.96,
+      "utterance_type": "assessment",
+      "decision_link": "none",
+      "timing": "original_pitch",
+      "turn_index": 107,
+      "quote": "she has a different spin on it. I really like it.",
+      "explanation": "Mac positively assesses Remynt's distinct approach within a familiar category.",
+      "evidence": [
+        "she has a different spin on it. I really like it."
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 107,
+          "speaker": "Mac",
+          "quote": "she has a different spin on it. I really like it."
+        }
+      ],
+      "activation": "evaluated",
+      "source_rationale_id": "R23",
+      "utterance_kind": "assessment",
+      "decision_support": "none",
+      "all_mention_ids": [
+        "R23"
+      ]
+    },
+    {
+      "rationale_label": "product_success_factor_assessment",
+      "direction": "positive",
+      "salience": "secondary",
+      "confidence": 0.96,
+      "utterance_type": "assessment",
+      "decision_link": "none",
+      "timing": "original_pitch",
+      "turn_index": 38,
+      "quote": "I can imagine if I'm working with a program that helps me build my credit, there is going to be some brand loyalty.",
+      "explanation": "Mac believes helping customers rebuild credit could generate valuable brand loyalty.",
+      "evidence": [
+        "I can imagine if I'm working with a program that helps me build my credit, there is going to be some brand loyalty."
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 38,
+          "speaker": "Mac",
+          "quote": "I can imagine if I'm working with a program that helps me build my credit, there is going to be some brand loyalty."
+        }
+      ],
+      "activation": "evaluated",
+      "source_rationale_id": "R4",
+      "utterance_kind": "supporting_argument",
+      "decision_support": "none",
+      "all_mention_ids": [
+        "R4"
+      ]
+    },
+    {
+      "rationale_label": "traction_repeatability_concern",
+      "direction": "negative",
+      "salience": "primary",
+      "confidence": 0.98,
+      "utterance_type": "assessment",
+      "decision_link": "none",
+      "timing": "original_pitch",
+      "turn_index": 70,
+      "quote": "what's the percentage of people and how many people can you get to do that over a long period of time?",
+      "explanation": "Mac questions whether repayment and engagement can occur at a sufficient, repeatable scale over time.",
+      "evidence": [
+        "what's the percentage of people and how many people can you get to do that over a long period of time?"
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 70,
+          "speaker": "Mac",
+          "quote": "what's the percentage of people and how many people can you get to do that over a long period of time?"
+        }
+      ],
+      "activation": "evaluated",
+      "source_rationale_id": "R15",
+      "utterance_kind": "concern",
+      "decision_support": "none",
+      "all_mention_ids": [
+        "R15"
+      ]
+    }
+  ],
+  "later_rationales": [],
+  "excluded_rationales": [
+    {
+      "rationale_label": "business_model_assessment",
+      "direction": "neutral",
+      "salience": "secondary",
+      "confidence": 0.99,
+      "utterance_type": "question",
+      "decision_link": "none",
+      "timing": "teaser",
+      "turn_index": 153,
+      "quote": "Can you talk to me a little bit about your business model?",
+      "explanation": "Mac requests information about the next company's revenue model.",
+      "evidence": [
+        "Can you talk to me a little bit about your business model?"
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 153,
+          "speaker": "Mac",
+          "quote": "Can you talk to me a little bit about your business model?"
+        }
+      ],
+      "activation": "queried",
+      "source_rationale_id": "R31"
+    },
+    {
+      "rationale_label": "founder_execution",
+      "direction": "neutral",
+      "salience": "secondary",
+      "confidence": 0.85,
+      "utterance_type": "question",
+      "decision_link": "none",
+      "timing": "teaser",
+      "turn_index": 155,
+      "quote": "Did you raise any money for the company you were doing before?",
+      "explanation": "Mac asks about the founder's prior fundraising execution and company history.",
+      "evidence": [
+        "Did you raise any money for the company you were doing before?"
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 155,
+          "speaker": "Mac",
+          "quote": "Did you raise any money for the company you were doing before?"
+        }
+      ],
+      "activation": "queried",
+      "source_rationale_id": "R32"
+    },
+    {
+      "rationale_label": "execution_risk_assessment",
+      "direction": "neutral",
+      "salience": "secondary",
+      "confidence": 0.82,
+      "utterance_type": "question",
+      "decision_link": "none",
+      "timing": "teaser",
+      "turn_index": 157,
+      "quote": "is this a completely new company or is this a pivot",
+      "explanation": "Mac asks whether the opportunity represents a new venture or a continuation of the founder's earlier execution history.",
+      "evidence": [
+        "is this a completely new company or is this a pivot"
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 157,
+          "speaker": "Mac",
+          "quote": "is this a completely new company or is this a pivot"
+        }
+      ],
+      "activation": "queried",
+      "source_rationale_id": "R33"
+    }
+  ],
+  "rationale_mentions": [
+    {
+      "rationale_label": "business_model_assessment",
+      "direction": "neutral",
+      "salience": "secondary",
+      "confidence": 0.98,
+      "utterance_type": "question",
+      "decision_link": "none",
+      "timing": "original_pitch",
+      "turn_index": 15,
+      "quote": "Once you've paid this off to a certain percentage, we then will bring you into a program where we will help you start to build credit for all the good work that you've done so far. Is that correct?",
+      "explanation": "Mac clarifies how debt repayment leads into the credit-building offering.",
+      "evidence": [
+        "Once you've paid this off to a certain percentage, we then will bring you into a program where we will help you start to build credit for all the good work that you've done so far. Is that correct?"
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 15,
+          "speaker": "Mac",
+          "quote": "Once you've paid this off to a certain percentage, we then will bring you into a program where we will help you start to build credit for all the good work that you've done so far. Is that correct?"
+        }
+      ],
+      "activation": "queried",
+      "source_rationale_id": "R1"
+    },
+    {
+      "rationale_label": "founder_investor_vision_alignment",
+      "direction": "neutral",
+      "salience": "secondary",
+      "confidence": 0.93,
+      "utterance_type": "question",
+      "decision_link": "none",
+      "timing": "original_pitch",
+      "turn_index": 34,
+      "quote": "So what is your long term vision?",
+      "explanation": "Mac asks whether the founder's intended direction extends beyond debt recovery.",
+      "evidence": [
+        "So what is your long term vision?"
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 34,
+          "speaker": "Mac",
+          "quote": "So what is your long term vision?"
+        }
+      ],
+      "activation": "queried",
+      "source_rationale_id": "R2"
+    },
+    {
+      "rationale_label": "investor_experience_bias",
+      "direction": "positive",
+      "salience": "primary",
+      "confidence": 0.99,
+      "utterance_type": "supporting_argument",
+      "decision_link": "none",
+      "timing": "original_pitch",
+      "turn_index": 38,
+      "quote": "I've also gone through these issues with credit card debt.",
+      "explanation": "Mac explicitly draws on his personal experience with credit-card debt when assessing the opportunity.",
+      "evidence": [
+        "I've also gone through these issues with credit card debt."
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 38,
+          "speaker": "Mac",
+          "quote": "I've also gone through these issues with credit card debt."
+        }
+      ],
+      "activation": "evaluated",
+      "source_rationale_id": "R3"
+    },
+    {
+      "rationale_label": "product_success_factor_assessment",
+      "direction": "positive",
+      "salience": "secondary",
+      "confidence": 0.96,
+      "utterance_type": "supporting_argument",
+      "decision_link": "none",
+      "timing": "original_pitch",
+      "turn_index": 38,
+      "quote": "I can imagine if I'm working with a program that helps me build my credit, there is going to be some brand loyalty.",
+      "explanation": "Mac believes helping customers rebuild credit could generate valuable brand loyalty.",
+      "evidence": [
+        "I can imagine if I'm working with a program that helps me build my credit, there is going to be some brand loyalty."
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 38,
+          "speaker": "Mac",
+          "quote": "I can imagine if I'm working with a program that helps me build my credit, there is going to be some brand loyalty."
+        }
+      ],
+      "activation": "evaluated",
+      "source_rationale_id": "R4"
+    },
+    {
+      "rationale_label": "founder_qualities",
+      "direction": "positive",
+      "salience": "secondary",
+      "confidence": 0.96,
+      "utterance_type": "assessment",
+      "decision_link": "none",
+      "timing": "original_pitch",
+      "turn_index": 38,
+      "quote": "I like you a lot",
+      "explanation": "Mac expresses a favorable personal assessment of the founder.",
+      "evidence": [
+        "I like you a lot"
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 38,
+          "speaker": "Mac",
+          "quote": "I like you a lot"
+        }
+      ],
+      "activation": "evaluated",
+      "source_rationale_id": "R5"
+    },
+    {
+      "rationale_label": "mission_alignment_preference",
+      "direction": "positive",
+      "salience": "secondary",
+      "confidence": 0.96,
+      "utterance_type": "assessment",
+      "decision_link": "none",
+      "timing": "original_pitch",
+      "turn_index": 38,
+      "quote": "I love what you're building because what you're building is important.",
+      "explanation": "Mac expresses personal alignment with the importance of Remynt's mission.",
+      "evidence": [
+        "I love what you're building because what you're building is important."
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 38,
+          "speaker": "Mac",
+          "quote": "I love what you're building because what you're building is important."
+        }
+      ],
+      "activation": "evaluated",
+      "source_rationale_id": "R6"
+    },
+    {
+      "rationale_label": "founder_qualities",
+      "direction": "positive",
+      "salience": "secondary",
+      "confidence": 0.96,
+      "utterance_type": "assessment",
+      "decision_link": "none",
+      "timing": "original_pitch",
+      "turn_index": 39,
+      "quote": "I like you a lot",
+      "explanation": "Mac repeats his favorable personal assessment of the founder.",
+      "evidence": [
+        "I like you a lot"
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 39,
+          "speaker": "Mac",
+          "quote": "I like you a lot"
+        }
+      ],
+      "activation": "evaluated",
+      "source_rationale_id": "R7"
+    },
+    {
+      "rationale_label": "mission_alignment_preference",
+      "direction": "positive",
+      "salience": "secondary",
+      "confidence": 0.96,
+      "utterance_type": "assessment",
+      "decision_link": "none",
+      "timing": "original_pitch",
+      "turn_index": 39,
+      "quote": "I love what you're building because what you're building is important.",
+      "explanation": "Mac repeats that he is personally aligned with the importance of the company's mission.",
+      "evidence": [
+        "I love what you're building because what you're building is important."
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 39,
+          "speaker": "Mac",
+          "quote": "I love what you're building because what you're building is important."
+        }
+      ],
+      "activation": "evaluated",
+      "source_rationale_id": "R8"
+    },
+    {
+      "rationale_label": "market_entry_path_assessment",
+      "direction": "positive",
+      "salience": "secondary",
+      "confidence": 0.91,
+      "utterance_type": "supporting_argument",
+      "decision_link": "none",
+      "timing": "original_pitch",
+      "turn_index": 39,
+      "quote": "You have a wedge where, because of the product you're building, you get all these customers' information up front.",
+      "explanation": "Mac recognizes the acquired customer information as a potentially useful initial access wedge.",
+      "evidence": [
+        "You have a wedge where, because of the product you're building, you get all these customers' information up front."
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 39,
+          "speaker": "Mac",
+          "quote": "You have a wedge where, because of the product you're building, you get all these customers' information up front."
+        }
+      ],
+      "activation": "evaluated",
+      "source_rationale_id": "R9"
+    },
+    {
+      "rationale_label": "go_to_market_strategy_assessment",
+      "direction": "negative",
+      "salience": "primary",
+      "confidence": 0.99,
+      "utterance_type": "concern",
+      "decision_link": "none",
+      "timing": "original_pitch",
+      "turn_index": 39,
+      "quote": "You still have to figure out how to engage them.",
+      "explanation": "Mac identifies the unproven customer-engagement approach as his central concern.",
+      "evidence": [
+        "You still have to figure out how to engage them."
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 39,
+          "speaker": "Mac",
+          "quote": "You still have to figure out how to engage them."
+        }
+      ],
+      "activation": "evaluated",
+      "source_rationale_id": "R10"
+    },
+    {
+      "rationale_label": "go_to_market_strategy_assessment",
+      "direction": "negative",
+      "salience": "primary",
+      "confidence": 0.99,
+      "utterance_type": "concern",
+      "decision_link": "none",
+      "timing": "original_pitch",
+      "turn_index": 41,
+      "quote": "you got to figure out this customer acquisition thing really quick. And if you don't within that amount of money, that's it.",
+      "explanation": "Mac worries the company must validate customer acquisition before its available runway is exhausted.",
+      "evidence": [
+        "you got to figure out this customer acquisition thing really quick. And if you don't within that amount of money, that's it."
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 41,
+          "speaker": "Mac",
+          "quote": "you got to figure out this customer acquisition thing really quick. And if you don't within that amount of money, that's it."
+        }
+      ],
+      "activation": "evaluated",
+      "source_rationale_id": "R11"
+    },
+    {
+      "rationale_label": "go_to_market_strategy_assessment",
+      "direction": "negative",
+      "salience": "primary",
+      "confidence": 0.99,
+      "utterance_type": "decision_explanation",
+      "decision_link": "supports_out",
+      "timing": "original_pitch",
+      "turn_index": 43,
+      "quote": "I can't get over that hump just yet.",
+      "explanation": "Mac links his unresolved customer-engagement concern to his inability to invest at this stage.",
+      "evidence": [
+        "I can't get over that hump just yet."
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 43,
+          "speaker": "Mac",
+          "quote": "I can't get over that hump just yet."
+        }
+      ],
+      "activation": "evaluated",
+      "source_rationale_id": "R12"
+    },
+    {
+      "rationale_label": "founder_communication_quality",
+      "direction": "negative",
+      "salience": "secondary",
+      "confidence": 0.98,
+      "utterance_type": "assessment",
+      "decision_link": "none",
+      "timing": "original_pitch",
+      "turn_index": 69,
+      "quote": "that's the wrong way to approach investors.",
+      "explanation": "Mac criticizes how the founder frames the customer-acquisition issue for investors.",
+      "evidence": [
+        "that's the wrong way to approach investors."
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 69,
+          "speaker": "Mac",
+          "quote": "that's the wrong way to approach investors."
+        }
+      ],
+      "activation": "evaluated",
+      "source_rationale_id": "R13"
+    },
+    {
+      "rationale_label": "founder_communication_quality",
+      "direction": "negative",
+      "salience": "secondary",
+      "confidence": 0.97,
+      "utterance_type": "assessment",
+      "decision_link": "none",
+      "timing": "original_pitch",
+      "turn_index": 70,
+      "quote": "that's the wrong way to approach investors.",
+      "explanation": "Mac repeats that the founder's investor-facing framing is ineffective.",
+      "evidence": [
+        "that's the wrong way to approach investors."
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 70,
+          "speaker": "Mac",
+          "quote": "that's the wrong way to approach investors."
+        }
+      ],
+      "activation": "evaluated",
+      "source_rationale_id": "R14"
+    },
+    {
+      "rationale_label": "traction_repeatability_concern",
+      "direction": "negative",
+      "salience": "primary",
+      "confidence": 0.98,
+      "utterance_type": "concern",
+      "decision_link": "none",
+      "timing": "original_pitch",
+      "turn_index": 70,
+      "quote": "what's the percentage of people and how many people can you get to do that over a long period of time?",
+      "explanation": "Mac questions whether repayment and engagement can occur at a sufficient, repeatable scale over time.",
+      "evidence": [
+        "what's the percentage of people and how many people can you get to do that over a long period of time?"
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 70,
+          "speaker": "Mac",
+          "quote": "what's the percentage of people and how many people can you get to do that over a long period of time?"
+        }
+      ],
+      "activation": "evaluated",
+      "source_rationale_id": "R15"
+    },
+    {
+      "rationale_label": "fund_economics_constraint",
+      "direction": "neutral",
+      "salience": "primary",
+      "confidence": 0.97,
+      "utterance_type": "assessment",
+      "decision_link": "none",
+      "timing": "original_pitch",
+      "turn_index": 70,
+      "quote": "Our goal is whatever companies we invest in, have to get to a billion dollar valuation",
+      "explanation": "Mac states the venture-return threshold that constrains his fund's investments.",
+      "evidence": [
+        "Our goal is whatever companies we invest in, have to get to a billion dollar valuation"
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 70,
+          "speaker": "Mac",
+          "quote": "Our goal is whatever companies we invest in, have to get to a billion dollar valuation"
+        }
+      ],
+      "activation": "evaluated",
+      "source_rationale_id": "R16"
+    },
+    {
+      "rationale_label": "market_entry_path_assessment",
+      "direction": "positive",
+      "salience": "secondary",
+      "confidence": 0.91,
+      "utterance_type": "supporting_argument",
+      "decision_link": "none",
+      "timing": "original_pitch",
+      "turn_index": 70,
+      "quote": "you inherently have something where people are already engaged.",
+      "explanation": "Mac acknowledges that existing debt obligations provide an initial path to reaching prospective customers.",
+      "evidence": [
+        "you inherently have something where people are already engaged."
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 70,
+          "speaker": "Mac",
+          "quote": "you inherently have something where people are already engaged."
+        }
+      ],
+      "activation": "evaluated",
+      "source_rationale_id": "R17"
+    },
+    {
+      "rationale_label": "go_to_market_strategy_assessment",
+      "direction": "negative",
+      "salience": "primary",
+      "confidence": 0.99,
+      "utterance_type": "assessment",
+      "decision_link": "none",
+      "timing": "original_pitch",
+      "turn_index": 72,
+      "quote": "Show up with a plan of like, this is how we get our customers.",
+      "explanation": "Mac says the company needs a quantified, evidence-based customer-acquisition plan.",
+      "evidence": [
+        "Show up with a plan of like, this is how we get our customers."
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 72,
+          "speaker": "Mac",
+          "quote": "Show up with a plan of like, this is how we get our customers."
+        }
+      ],
+      "activation": "evaluated",
+      "source_rationale_id": "R18"
+    },
+    {
+      "rationale_label": "founder_communication_quality",
+      "direction": "negative",
+      "salience": "secondary",
+      "confidence": 0.98,
+      "utterance_type": "assessment",
+      "decision_link": "none",
+      "timing": "original_pitch",
+      "turn_index": 72,
+      "quote": "That's a better answer than just saying, this isn't a problem. You're focusing on the wrong thing.",
+      "explanation": "Mac says dismissing the concern is a weaker investor response than explaining the supporting evidence and plan.",
+      "evidence": [
+        "That's a better answer than just saying, this isn't a problem. You're focusing on the wrong thing."
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 72,
+          "speaker": "Mac",
+          "quote": "That's a better answer than just saying, this isn't a problem. You're focusing on the wrong thing."
+        }
+      ],
+      "activation": "evaluated",
+      "source_rationale_id": "R19"
+    },
+    {
+      "rationale_label": "founder_communication_quality",
+      "direction": "negative",
+      "salience": "secondary",
+      "confidence": 0.97,
+      "utterance_type": "assessment",
+      "decision_link": "none",
+      "timing": "original_pitch",
+      "turn_index": 75,
+      "quote": "Put it in a frame of like, how every other SAAS founder talks about things.",
+      "explanation": "Mac advises the founder to present the business in a clearer, more conventional investor-facing frame.",
+      "evidence": [
+        "Put it in a frame of like, how every other SAAS founder talks about things."
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 75,
+          "speaker": "Mac",
+          "quote": "Put it in a frame of like, how every other SAAS founder talks about things."
+        }
+      ],
+      "activation": "evaluated",
+      "source_rationale_id": "R20"
+    },
+    {
+      "rationale_label": "founder_motivation_authenticity",
+      "direction": "positive",
+      "salience": "secondary",
+      "confidence": 0.98,
+      "utterance_type": "assessment",
+      "decision_link": "none",
+      "timing": "original_pitch",
+      "turn_index": 92,
+      "quote": "The passion is there. We all see it.",
+      "explanation": "Mac regards the founder's commitment to the mission as visibly genuine.",
+      "evidence": [
+        "The passion is there. We all see it."
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 92,
+          "speaker": "Mac",
+          "quote": "The passion is there. We all see it."
+        }
+      ],
+      "activation": "evaluated",
+      "source_rationale_id": "R21"
+    },
+    {
+      "rationale_label": "fundraising_demand_signal",
+      "direction": "positive",
+      "salience": "secondary",
+      "confidence": 0.96,
+      "utterance_type": "assessment",
+      "decision_link": "none",
+      "timing": "original_pitch",
+      "turn_index": 101,
+      "quote": "100k in a day.",
+      "explanation": "Mac highlights the rapid accumulation of investment commitments as a positive fundraising signal.",
+      "evidence": [
+        "100k in a day."
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 101,
+          "speaker": "Mac",
+          "quote": "100k in a day."
+        }
+      ],
+      "activation": "evaluated",
+      "source_rationale_id": "R22"
+    },
+    {
+      "rationale_label": "product_differentiation_concern",
+      "direction": "positive",
+      "salience": "secondary",
+      "confidence": 0.96,
+      "utterance_type": "assessment",
+      "decision_link": "none",
+      "timing": "original_pitch",
+      "turn_index": 107,
+      "quote": "she has a different spin on it. I really like it.",
+      "explanation": "Mac positively assesses Remynt's distinct approach within a familiar category.",
+      "evidence": [
+        "she has a different spin on it. I really like it."
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 107,
+          "speaker": "Mac",
+          "quote": "she has a different spin on it. I really like it."
+        }
+      ],
+      "activation": "evaluated",
+      "source_rationale_id": "R23"
+    },
+    {
+      "rationale_label": "go_to_market_strategy_assessment",
+      "direction": "negative",
+      "salience": "primary",
+      "confidence": 0.99,
+      "utterance_type": "concern",
+      "decision_link": "none",
+      "timing": "original_pitch",
+      "turn_index": 110,
+      "quote": "I need to know that you know how you're going to get your customers.",
+      "explanation": "Mac remains unconvinced that the founder has a sufficiently demonstrated customer-acquisition strategy.",
+      "evidence": [
+        "I need to know that you know how you're going to get your customers."
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 110,
+          "speaker": "Mac",
+          "quote": "I need to know that you know how you're going to get your customers."
+        }
+      ],
+      "activation": "evaluated",
+      "source_rationale_id": "R24"
+    },
+    {
+      "rationale_label": "founder_execution",
+      "direction": "negative",
+      "salience": "secondary",
+      "confidence": 0.93,
+      "utterance_type": "assessment",
+      "decision_link": "none",
+      "timing": "original_pitch",
+      "turn_index": 110,
+      "quote": "there are things she could have tried at this point to start building some of that.",
+      "explanation": "Mac believes the founder could already have run initial tests to establish customer-acquisition evidence.",
+      "evidence": [
+        "there are things she could have tried at this point to start building some of that."
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 110,
+          "speaker": "Mac",
+          "quote": "there are things she could have tried at this point to start building some of that."
+        }
+      ],
+      "activation": "evaluated",
+      "source_rationale_id": "R25"
+    },
+    {
+      "rationale_label": "founder_qualities",
+      "direction": "positive",
+      "salience": "secondary",
+      "confidence": 0.96,
+      "utterance_type": "assessment",
+      "decision_link": "none",
+      "timing": "original_pitch",
+      "turn_index": 115,
+      "quote": "she herself, incredible.",
+      "explanation": "Mac gives a strongly favorable assessment of the founder personally.",
+      "evidence": [
+        "she herself, incredible."
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 115,
+          "speaker": "Mac",
+          "quote": "she herself, incredible."
+        }
+      ],
+      "activation": "evaluated",
+      "source_rationale_id": "R26"
+    },
+    {
+      "rationale_label": "founder_execution",
+      "direction": "positive",
+      "salience": "secondary",
+      "confidence": 0.97,
+      "utterance_type": "assessment",
+      "decision_link": "none",
+      "timing": "original_pitch",
+      "turn_index": 115,
+      "quote": "she is going to do everything she can and she will put every ounce of effort into that company.",
+      "explanation": "Mac expects the founder to apply exceptional effort and determination to executing the business.",
+      "evidence": [
+        "she is going to do everything she can and she will put every ounce of effort into that company."
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 115,
+          "speaker": "Mac",
+          "quote": "she is going to do everything she can and she will put every ounce of effort into that company."
+        }
+      ],
+      "activation": "evaluated",
+      "source_rationale_id": "R27"
+    },
+    {
+      "rationale_label": "execution_risk_assessment",
+      "direction": "negative",
+      "salience": "secondary",
+      "confidence": 0.91,
+      "utterance_type": "assessment",
+      "decision_link": "none",
+      "timing": "original_pitch",
+      "turn_index": 124,
+      "quote": "She's putting it on herself.",
+      "explanation": "In the burnout discussion, Mac flags the founder's self-imposed burden as a risk to sustained execution.",
+      "evidence": [
+        "She's putting it on herself."
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 124,
+          "speaker": "Mac",
+          "quote": "She's putting it on herself."
+        }
+      ],
+      "activation": "evaluated",
+      "source_rationale_id": "R28"
+    },
+    {
+      "rationale_label": "execution_risk_assessment",
+      "direction": "negative",
+      "salience": "secondary",
+      "confidence": 0.96,
+      "utterance_type": "assessment",
+      "decision_link": "supports_out",
+      "timing": "original_pitch",
+      "turn_index": 137,
+      "quote": "it seemed like she wasn't readily able to say like, Oh, I don't know, or that could happen, but this is why we think it won't.",
+      "explanation": "Mac says the founder's failure to acknowledge uncertainty or contingency scenarios increased his investment hesitation.",
+      "evidence": [
+        "it seemed like she wasn't readily able to say like, Oh, I don't know, or that could happen, but this is why we think it won't."
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 137,
+          "speaker": "Mac",
+          "quote": "it seemed like she wasn't readily able to say like, Oh, I don't know, or that could happen, but this is why we think it won't."
+        }
+      ],
+      "activation": "evaluated",
+      "source_rationale_id": "R29"
+    },
+    {
+      "rationale_label": "founder_coachability_assessment",
+      "direction": "negative",
+      "salience": "primary",
+      "confidence": 0.99,
+      "utterance_type": "assessment",
+      "decision_link": "supports_out",
+      "timing": "original_pitch",
+      "turn_index": 137,
+      "quote": "You're coming off as not being coachable at this point, cause you're not listening to what I'm saying.",
+      "explanation": "Mac explicitly links the founder's resistance to feedback with the additional pause he felt about investing.",
+      "evidence": [
+        "You're coming off as not being coachable at this point, cause you're not listening to what I'm saying."
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 137,
+          "speaker": "Mac",
+          "quote": "You're coming off as not being coachable at this point, cause you're not listening to what I'm saying."
+        }
+      ],
+      "activation": "evaluated",
+      "source_rationale_id": "R30"
+    }
+  ],
+  "expanded_quote_evidence": [],
+  "rejected_after_evidence_check": []
+}

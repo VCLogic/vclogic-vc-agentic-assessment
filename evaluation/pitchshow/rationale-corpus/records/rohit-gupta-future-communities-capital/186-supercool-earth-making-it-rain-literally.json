@@ -1,0 +1,765 @@
+{
+  "schema": "phase1-rationale-reference-v1",
+  "extraction_version": "pitchshow-rationales-v1",
+  "fingerprint": "925b83a869100d9feb19fe99e00837ba1a44fc943020520ec516f600e5117c5e",
+  "episode_slug": "186-supercool-earth-making-it-rain-literally",
+  "vc_slug": "rohit-gupta-future-communities-capital",
+  "vc_name": "Rohit Gupta",
+  "actual_decision": "In",
+  "later_decision": "In",
+  "reference_kind": "automated_transcript_observed_candidate",
+  "human_validated": false,
+  "source_format": "transcript-observed-rationales-v1",
+  "source_path": "/home/dpasch01/vclogic-vc-agentic-assessment/evaluation/pitchshow/investors/rohit-gupta-future-communities-capital/source/episodes/186-supercool-earth-making-it-rain-literally.json",
+  "source_sha256": "1e2284c1696e47b665269b788d307af2a8296a8a3197501d361a5f176dc60de9",
+  "transcript_sha256": "871699b9027926ecdcab4a963abb25f939b250d78c35ac836b7c78f0ca7f2058",
+  "taxonomy_sha256": "eaa8734819a3ac34dd19ee5f0bf6de925a793a1d25a2d361090dafc9b751e1fc",
+  "model": "codex:gpt-5.6-luna+gpt-5.6-sol",
+  "generation_stages": [
+    {
+      "phase": "rationale_extract",
+      "backend": "codex",
+      "model": "gpt-5.6-luna"
+    },
+    {
+      "phase": "rationale_verify",
+      "backend": "codex",
+      "model": "gpt-5.6-sol"
+    }
+  ],
+  "source_tier": "newly_extracted_and_independently_model_reviewed",
+  "reviewed_target_turns": [
+    28,
+    38,
+    97,
+    151,
+    153,
+    155,
+    159,
+    161,
+    163,
+    167,
+    173,
+    176,
+    177,
+    179,
+    181,
+    185,
+    189,
+    202,
+    214,
+    224,
+    235,
+    237,
+    239,
+    241,
+    243,
+    245,
+    247,
+    249,
+    256,
+    365,
+    367,
+    369,
+    371,
+    373,
+    375,
+    377,
+    379
+  ],
+  "notes": "Removed the joking hurricane-creation question at turn 189 and other greetings, jokes, fragments, confirmations, check-size statements, and bare transactional commitments that did not express investment rationales.",
+  "receipt_path": "/home/dpasch01/vclogic-vc-agentic-assessment/evaluation/pitchshow/investors/rohit-gupta-future-communities-capital/rationale-references/receipts/186-supercool-earth-making-it-rain-literally.json",
+  "scoring_scope": "original_pitch_only",
+  "shared_across_input_modes": true,
+  "rationales": [
+    {
+      "rationale_label": "competitive_advantage_assessment",
+      "direction": "positive",
+      "salience": "primary",
+      "confidence": 0.95,
+      "utterance_type": "assessment",
+      "decision_link": "explicit",
+      "timing": "original_pitch",
+      "turn_index": 243,
+      "quote": "And who else is doing anything about it? Like silver iodide doesn't work.",
+      "explanation": "He views the lack of effective competing solutions as strengthening Supercool Earth's position.",
+      "evidence": [
+        "And who else is doing anything about it? Like silver iodide doesn't work."
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 243,
+          "speaker": "Rohit",
+          "quote": "And who else is doing anything about it? Like silver iodide doesn't work."
+        }
+      ],
+      "activation": "evaluated",
+      "source_rationale_id": "R13",
+      "utterance_kind": "supporting_argument",
+      "decision_support": "supports_in",
+      "all_mention_ids": [
+        "R13"
+      ]
+    },
+    {
+      "rationale_label": "founder_execution",
+      "direction": "positive",
+      "salience": "primary",
+      "confidence": 0.93,
+      "utterance_type": "assessment",
+      "decision_link": "explicit",
+      "timing": "original_pitch",
+      "turn_index": 245,
+      "quote": "And she's just so far ahead of other people,",
+      "explanation": "He cites Dacia's progress relative to others as evidence of strong execution supporting his commitment.",
+      "evidence": [
+        "And she's just so far ahead of other people,"
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 245,
+          "speaker": "Rohit",
+          "quote": "And she's just so far ahead of other people,"
+        }
+      ],
+      "activation": "evaluated",
+      "source_rationale_id": "R14",
+      "utterance_kind": "supporting_argument",
+      "decision_support": "supports_in",
+      "all_mention_ids": [
+        "R14"
+      ]
+    },
+    {
+      "rationale_label": "investor_experience_bias",
+      "direction": "positive",
+      "salience": "primary",
+      "confidence": 0.84,
+      "utterance_type": "decision_reason",
+      "decision_link": "explicit",
+      "timing": "original_pitch",
+      "turn_index": 151,
+      "quote": "I missed your last round, so I'd like to do this one.",
+      "explanation": "He explicitly cites having missed the prior financing as a reason to participate in this round.",
+      "evidence": [
+        "I missed your last round, so I'd like to do this one."
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 151,
+          "speaker": "Rohit",
+          "quote": "I missed your last round, so I'd like to do this one."
+        }
+      ],
+      "activation": "evaluated",
+      "source_rationale_id": "R2",
+      "utterance_kind": "decision_explanation",
+      "decision_support": "supports_in",
+      "all_mention_ids": [
+        "R2"
+      ]
+    },
+    {
+      "rationale_label": "market_entry_path_assessment",
+      "direction": "neutral",
+      "salience": "secondary",
+      "confidence": 0.72,
+      "utterance_type": "question",
+      "decision_link": "none",
+      "timing": "original_pitch",
+      "turn_index": 224,
+      "quote": "What if like, that's not the second one",
+      "explanation": "He questions whether agriculture must be the company's second market, implicitly considering another expansion path.",
+      "evidence": [
+        "What if like, that's not the second one"
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 224,
+          "speaker": "Rohit",
+          "quote": "What if like, that's not the second one"
+        }
+      ],
+      "activation": "queried",
+      "source_rationale_id": "R9",
+      "utterance_kind": "question",
+      "decision_support": "none",
+      "all_mention_ids": [
+        "R9"
+      ]
+    },
+    {
+      "rationale_label": "market_problem_validation",
+      "direction": "positive",
+      "salience": "primary",
+      "confidence": 0.96,
+      "utterance_type": "assessment",
+      "decision_link": "explicit",
+      "timing": "original_pitch",
+      "turn_index": 243,
+      "quote": "And in the US we feel like it's not a problem because we always turn the tap on. There's always water. I don't know if we get to that point, but it's not crazy to say that we could.",
+      "explanation": "He argues that water scarcity could become a serious domestic problem despite current perceptions of abundance.",
+      "evidence": [
+        "Water scarcity is a problem, right?",
+        "We're gonna start seeing cities run out of water. It's already happening globally.",
+        "And in the US we feel like it's not a problem because we always turn the tap on. There's always water. I don't know if we get to that point, but it's not crazy to say that we could."
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 239,
+          "speaker": "Rohit",
+          "quote": "Water scarcity is a problem, right?"
+        },
+        {
+          "turn_index": 241,
+          "speaker": "Rohit",
+          "quote": "We're gonna start seeing cities run out of water. It's already happening globally."
+        },
+        {
+          "turn_index": 243,
+          "speaker": "Rohit",
+          "quote": "And in the US we feel like it's not a problem because we always turn the tap on. There's always water. I don't know if we get to that point, but it's not crazy to say that we could."
+        }
+      ],
+      "activation": "evaluated",
+      "source_rationale_id": "R12",
+      "utterance_kind": "supporting_argument",
+      "decision_support": "supports_in",
+      "all_mention_ids": [
+        "R10",
+        "R11",
+        "R12"
+      ]
+    },
+    {
+      "rationale_label": "market_size_assessment",
+      "direction": "neutral",
+      "salience": "secondary",
+      "confidence": 0.87,
+      "utterance_type": "question",
+      "decision_link": "none",
+      "timing": "original_pitch",
+      "turn_index": 153,
+      "quote": "what are the weird use cases, right?",
+      "explanation": "He probes for additional applications that could broaden the technology's addressable market.",
+      "evidence": [
+        "what are the weird use cases, right?"
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 153,
+          "speaker": "Rohit",
+          "quote": "what are the weird use cases, right?"
+        }
+      ],
+      "activation": "queried",
+      "source_rationale_id": "R3",
+      "utterance_kind": "question",
+      "decision_support": "none",
+      "all_mention_ids": [
+        "R3"
+      ]
+    },
+    {
+      "rationale_label": "mission_alignment_preference",
+      "direction": "negative",
+      "salience": "secondary",
+      "confidence": 0.94,
+      "utterance_type": "assessment",
+      "decision_link": "none",
+      "timing": "original_pitch",
+      "turn_index": 167,
+      "quote": "I’m not into that. Just gonna put that out there. Not into like, causing drought",
+      "explanation": "He expresses opposition to using the technology to cause drought.",
+      "evidence": [
+        "I’m not into that. Just gonna put that out there. Not into like, causing drought"
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 167,
+          "speaker": "Rohit",
+          "quote": "I’m not into that. Just gonna put that out there. Not into like, causing drought"
+        }
+      ],
+      "activation": "evaluated",
+      "source_rationale_id": "R7",
+      "utterance_kind": "concern",
+      "decision_support": "none",
+      "all_mention_ids": [
+        "R7"
+      ]
+    },
+    {
+      "rationale_label": "solution_feasibility_assessment",
+      "direction": "neutral",
+      "salience": "secondary",
+      "confidence": 0.9,
+      "utterance_type": "assessment",
+      "decision_link": "none",
+      "timing": "original_pitch",
+      "turn_index": 161,
+      "quote": "So hailstorms are probably similar",
+      "explanation": "He tests whether the proposed mechanism could also apply to hailstorms.",
+      "evidence": [
+        "Like what range of temperature are we talking about?",
+        "Can you brunt a flood?",
+        "So hailstorms are probably similar",
+        "What if you wanted to not make it rain somewhere else?",
+        "What if you dropped it into a hurricane?"
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 38,
+          "speaker": "Rohit",
+          "quote": "Like what range of temperature are we talking about?"
+        },
+        {
+          "turn_index": 155,
+          "speaker": "Rohit",
+          "quote": "Can you brunt a flood?"
+        },
+        {
+          "turn_index": 161,
+          "speaker": "Rohit",
+          "quote": "So hailstorms are probably similar"
+        },
+        {
+          "turn_index": 163,
+          "speaker": "Rohit",
+          "quote": "What if you wanted to not make it rain somewhere else?"
+        },
+        {
+          "turn_index": 179,
+          "speaker": "Rohit",
+          "quote": "What if you dropped it into a hurricane?"
+        }
+      ],
+      "activation": "evaluated",
+      "source_rationale_id": "R5",
+      "utterance_kind": "assessment",
+      "decision_support": "none",
+      "all_mention_ids": [
+        "R1",
+        "R4",
+        "R5",
+        "R6",
+        "R8"
+      ]
+    }
+  ],
+  "later_rationales": [
+    {
+      "rationale_label": "mission_alignment_preference",
+      "direction": "neutral",
+      "salience": "secondary",
+      "confidence": 0.88,
+      "utterance_type": "question",
+      "decision_link": "none",
+      "timing": "later_commentary",
+      "turn_index": 369,
+      "quote": "how do you feel about prediction markets?",
+      "explanation": "During later diligence, he opens a line of inquiry about the company's stance on potentially exploitative technology use.",
+      "evidence": [
+        "how do you feel about prediction markets?"
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 369,
+          "speaker": "Rohit",
+          "quote": "how do you feel about prediction markets?"
+        }
+      ],
+      "activation": "queried",
+      "source_rationale_id": "R15"
+    },
+    {
+      "rationale_label": "mission_alignment_preference",
+      "direction": "neutral",
+      "salience": "secondary",
+      "confidence": 0.95,
+      "utterance_type": "concern",
+      "decision_link": "none",
+      "timing": "later_commentary",
+      "turn_index": 371,
+      "quote": "Is that a thing where you're like, you're not allowed to use prediction markets if you work here?",
+      "explanation": "He probes whether the company has ethical safeguards against employees exploiting privileged mission information.",
+      "evidence": [
+        "Is that a thing where you're like, you're not allowed to use prediction markets if you work here?"
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 371,
+          "speaker": "Rohit",
+          "quote": "Is that a thing where you're like, you're not allowed to use prediction markets if you work here?"
+        }
+      ],
+      "activation": "evaluated",
+      "source_rationale_id": "R16"
+    },
+    {
+      "rationale_label": "mission_alignment_preference",
+      "direction": "positive",
+      "salience": "primary",
+      "confidence": 0.99,
+      "utterance_type": "decision_explanation",
+      "decision_link": "supports_in",
+      "timing": "later_commentary",
+      "turn_index": 373,
+      "quote": "That's very aligned with how we think about things and how we want technology to be used. So yeah, look, I've done my homework. I'm in at the terms discussed on the show.",
+      "explanation": "He explicitly links alignment on responsible technology use to his confirmed investment commitment.",
+      "evidence": [
+        "That's very aligned with how we think about things and how we want technology to be used. So yeah, look, I've done my homework. I'm in at the terms discussed on the show."
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 373,
+          "speaker": "Rohit",
+          "quote": "That's very aligned with how we think about things and how we want technology to be used. So yeah, look, I've done my homework. I'm in at the terms discussed on the show."
+        }
+      ],
+      "activation": "evaluated",
+      "source_rationale_id": "R17"
+    }
+  ],
+  "excluded_rationales": [],
+  "rationale_mentions": [
+    {
+      "rationale_label": "solution_feasibility_assessment",
+      "direction": "neutral",
+      "salience": "secondary",
+      "confidence": 0.96,
+      "utterance_type": "question",
+      "decision_link": "none",
+      "timing": "original_pitch",
+      "turn_index": 38,
+      "quote": "Like what range of temperature are we talking about?",
+      "explanation": "Rohit asks about the operating temperature range in which the snowmaking solution works.",
+      "evidence": [
+        "Like what range of temperature are we talking about?"
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 38,
+          "speaker": "Rohit",
+          "quote": "Like what range of temperature are we talking about?"
+        }
+      ],
+      "activation": "queried",
+      "source_rationale_id": "R1"
+    },
+    {
+      "rationale_label": "investor_experience_bias",
+      "direction": "positive",
+      "salience": "primary",
+      "confidence": 0.84,
+      "utterance_type": "decision_explanation",
+      "decision_link": "supports_in",
+      "timing": "original_pitch",
+      "turn_index": 151,
+      "quote": "I missed your last round, so I'd like to do this one.",
+      "explanation": "He explicitly cites having missed the prior financing as a reason to participate in this round.",
+      "evidence": [
+        "I missed your last round, so I'd like to do this one."
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 151,
+          "speaker": "Rohit",
+          "quote": "I missed your last round, so I'd like to do this one."
+        }
+      ],
+      "activation": "evaluated",
+      "source_rationale_id": "R2"
+    },
+    {
+      "rationale_label": "market_size_assessment",
+      "direction": "neutral",
+      "salience": "secondary",
+      "confidence": 0.87,
+      "utterance_type": "question",
+      "decision_link": "none",
+      "timing": "original_pitch",
+      "turn_index": 153,
+      "quote": "what are the weird use cases, right?",
+      "explanation": "He probes for additional applications that could broaden the technology's addressable market.",
+      "evidence": [
+        "what are the weird use cases, right?"
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 153,
+          "speaker": "Rohit",
+          "quote": "what are the weird use cases, right?"
+        }
+      ],
+      "activation": "queried",
+      "source_rationale_id": "R3"
+    },
+    {
+      "rationale_label": "solution_feasibility_assessment",
+      "direction": "neutral",
+      "salience": "secondary",
+      "confidence": 0.96,
+      "utterance_type": "question",
+      "decision_link": "none",
+      "timing": "original_pitch",
+      "turn_index": 155,
+      "quote": "Can you brunt a flood?",
+      "explanation": "He asks whether the technology could operationally mitigate flooding.",
+      "evidence": [
+        "Can you brunt a flood?"
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 155,
+          "speaker": "Rohit",
+          "quote": "Can you brunt a flood?"
+        }
+      ],
+      "activation": "queried",
+      "source_rationale_id": "R4"
+    },
+    {
+      "rationale_label": "solution_feasibility_assessment",
+      "direction": "neutral",
+      "salience": "secondary",
+      "confidence": 0.9,
+      "utterance_type": "assessment",
+      "decision_link": "none",
+      "timing": "original_pitch",
+      "turn_index": 161,
+      "quote": "So hailstorms are probably similar",
+      "explanation": "He tests whether the proposed mechanism could also apply to hailstorms.",
+      "evidence": [
+        "So hailstorms are probably similar"
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 161,
+          "speaker": "Rohit",
+          "quote": "So hailstorms are probably similar"
+        }
+      ],
+      "activation": "evaluated",
+      "source_rationale_id": "R5"
+    },
+    {
+      "rationale_label": "solution_feasibility_assessment",
+      "direction": "neutral",
+      "salience": "secondary",
+      "confidence": 0.94,
+      "utterance_type": "question",
+      "decision_link": "none",
+      "timing": "original_pitch",
+      "turn_index": 163,
+      "quote": "What if you wanted to not make it rain somewhere else?",
+      "explanation": "He probes whether the technology could suppress precipitation as well as generate it.",
+      "evidence": [
+        "What if you wanted to not make it rain somewhere else?"
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 163,
+          "speaker": "Rohit",
+          "quote": "What if you wanted to not make it rain somewhere else?"
+        }
+      ],
+      "activation": "queried",
+      "source_rationale_id": "R6"
+    },
+    {
+      "rationale_label": "mission_alignment_preference",
+      "direction": "negative",
+      "salience": "secondary",
+      "confidence": 0.94,
+      "utterance_type": "concern",
+      "decision_link": "none",
+      "timing": "original_pitch",
+      "turn_index": 167,
+      "quote": "I’m not into that. Just gonna put that out there. Not into like, causing drought",
+      "explanation": "He expresses opposition to using the technology to cause drought.",
+      "evidence": [
+        "I’m not into that. Just gonna put that out there. Not into like, causing drought"
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 167,
+          "speaker": "Rohit",
+          "quote": "I’m not into that. Just gonna put that out there. Not into like, causing drought"
+        }
+      ],
+      "activation": "evaluated",
+      "source_rationale_id": "R7"
+    },
+    {
+      "rationale_label": "solution_feasibility_assessment",
+      "direction": "neutral",
+      "salience": "secondary",
+      "confidence": 0.96,
+      "utterance_type": "question",
+      "decision_link": "none",
+      "timing": "original_pitch",
+      "turn_index": 179,
+      "quote": "What if you dropped it into a hurricane?",
+      "explanation": "He asks whether the technology could feasibly affect a hurricane.",
+      "evidence": [
+        "What if you dropped it into a hurricane?"
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 179,
+          "speaker": "Rohit",
+          "quote": "What if you dropped it into a hurricane?"
+        }
+      ],
+      "activation": "queried",
+      "source_rationale_id": "R8"
+    },
+    {
+      "rationale_label": "market_entry_path_assessment",
+      "direction": "neutral",
+      "salience": "secondary",
+      "confidence": 0.72,
+      "utterance_type": "question",
+      "decision_link": "none",
+      "timing": "original_pitch",
+      "turn_index": 224,
+      "quote": "What if like, that's not the second one",
+      "explanation": "He questions whether agriculture must be the company's second market, implicitly considering another expansion path.",
+      "evidence": [
+        "What if like, that's not the second one"
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 224,
+          "speaker": "Rohit",
+          "quote": "What if like, that's not the second one"
+        }
+      ],
+      "activation": "queried",
+      "source_rationale_id": "R9"
+    },
+    {
+      "rationale_label": "market_problem_validation",
+      "direction": "positive",
+      "salience": "primary",
+      "confidence": 0.99,
+      "utterance_type": "supporting_argument",
+      "decision_link": "supports_in",
+      "timing": "original_pitch",
+      "turn_index": 239,
+      "quote": "Water scarcity is a problem, right?",
+      "explanation": "While explaining his commitment, he identifies water scarcity as a real problem supporting the investment case.",
+      "evidence": [
+        "Water scarcity is a problem, right?"
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 239,
+          "speaker": "Rohit",
+          "quote": "Water scarcity is a problem, right?"
+        }
+      ],
+      "activation": "evaluated",
+      "source_rationale_id": "R10"
+    },
+    {
+      "rationale_label": "market_problem_validation",
+      "direction": "positive",
+      "salience": "primary",
+      "confidence": 0.99,
+      "utterance_type": "supporting_argument",
+      "decision_link": "supports_in",
+      "timing": "original_pitch",
+      "turn_index": 241,
+      "quote": "We're gonna start seeing cities run out of water. It's already happening globally.",
+      "explanation": "He argues that cities already face an urgent and worsening shortage of water.",
+      "evidence": [
+        "We're gonna start seeing cities run out of water. It's already happening globally."
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 241,
+          "speaker": "Rohit",
+          "quote": "We're gonna start seeing cities run out of water. It's already happening globally."
+        }
+      ],
+      "activation": "evaluated",
+      "source_rationale_id": "R11"
+    },
+    {
+      "rationale_label": "market_problem_validation",
+      "direction": "positive",
+      "salience": "primary",
+      "confidence": 0.96,
+      "utterance_type": "supporting_argument",
+      "decision_link": "supports_in",
+      "timing": "original_pitch",
+      "turn_index": 243,
+      "quote": "And in the US we feel like it's not a problem because we always turn the tap on. There's always water. I don't know if we get to that point, but it's not crazy to say that we could.",
+      "explanation": "He argues that water scarcity could become a serious domestic problem despite current perceptions of abundance.",
+      "evidence": [
+        "And in the US we feel like it's not a problem because we always turn the tap on. There's always water. I don't know if we get to that point, but it's not crazy to say that we could."
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 243,
+          "speaker": "Rohit",
+          "quote": "And in the US we feel like it's not a problem because we always turn the tap on. There's always water. I don't know if we get to that point, but it's not crazy to say that we could."
+        }
+      ],
+      "activation": "evaluated",
+      "source_rationale_id": "R12"
+    },
+    {
+      "rationale_label": "competitive_advantage_assessment",
+      "direction": "positive",
+      "salience": "primary",
+      "confidence": 0.95,
+      "utterance_type": "supporting_argument",
+      "decision_link": "supports_in",
+      "timing": "original_pitch",
+      "turn_index": 243,
+      "quote": "And who else is doing anything about it? Like silver iodide doesn't work.",
+      "explanation": "He views the lack of effective competing solutions as strengthening Supercool Earth's position.",
+      "evidence": [
+        "And who else is doing anything about it? Like silver iodide doesn't work."
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 243,
+          "speaker": "Rohit",
+          "quote": "And who else is doing anything about it? Like silver iodide doesn't work."
+        }
+      ],
+      "activation": "evaluated",
+      "source_rationale_id": "R13"
+    },
+    {
+      "rationale_label": "founder_execution",
+      "direction": "positive",
+      "salience": "primary",
+      "confidence": 0.93,
+      "utterance_type": "supporting_argument",
+      "decision_link": "supports_in",
+      "timing": "original_pitch",
+      "turn_index": 245,
+      "quote": "And she's just so far ahead of other people,",
+      "explanation": "He cites Dacia's progress relative to others as evidence of strong execution supporting his commitment.",
+      "evidence": [
+        "And she's just so far ahead of other people,"
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 245,
+          "speaker": "Rohit",
+          "quote": "And she's just so far ahead of other people,"
+        }
+      ],
+      "activation": "evaluated",
+      "source_rationale_id": "R14"
+    }
+  ],
+  "expanded_quote_evidence": [],
+  "rejected_after_evidence_check": []
+}

@@ -1,0 +1,673 @@
+{
+  "schema": "phase1-rationale-reference-v1",
+  "extraction_version": "pitchshow-rationales-v1",
+  "fingerprint": "710d458910fb76890929fe5168f51cca3b1f953b3646f6f91df8d094b18ee7cf",
+  "episode_slug": "8-hykso",
+  "vc_slug": "howie-diamond-pure-ventures",
+  "vc_name": "Howie Diamond",
+  "actual_decision": "Out",
+  "later_decision": "Unknown",
+  "reference_kind": "automated_transcript_observed_candidate",
+  "human_validated": false,
+  "source_format": "transcript-observed-rationales-v1",
+  "source_path": "/home/dpasch01/vclogic-vc-agentic-assessment/evaluation/pitchshow/investors/howie-diamond-pure-ventures/source/episodes/8-hykso.json",
+  "source_sha256": "fb6e5751b7b22db165b3d722f042d49d9cf5671765e9fed3892a42f1765b158b",
+  "transcript_sha256": "a52334502bd183b3f349b732378c670cbb97ab007eab6e91961985501f908142",
+  "taxonomy_sha256": "eaa8734819a3ac34dd19ee5f0bf6de925a793a1d25a2d361090dafc9b751e1fc",
+  "model": "codex:gpt-5.6-luna+gpt-5.6-sol",
+  "generation_stages": [
+    {
+      "phase": "rationale_extract",
+      "backend": "codex",
+      "model": "gpt-5.6-luna"
+    },
+    {
+      "phase": "rationale_verify",
+      "backend": "codex",
+      "model": "gpt-5.6-sol"
+    }
+  ],
+  "source_tier": "newly_extracted_and_independently_model_reviewed",
+  "reviewed_target_turns": [
+    8,
+    13,
+    15,
+    21,
+    24,
+    65,
+    91,
+    93,
+    103,
+    105,
+    107,
+    111,
+    118,
+    130,
+    144,
+    169,
+    188,
+    213,
+    221,
+    225,
+    233,
+    237,
+    239
+  ],
+  "notes": "Reviewed every supplied target turn. Turn 8 is an opening-preview statement and is therefore classified as teaser; the investor-only debrief at turn 225 remains original_pitch.",
+  "receipt_path": "/home/dpasch01/vclogic-vc-agentic-assessment/evaluation/pitchshow/investors/howie-diamond-pure-ventures/rationale-references/receipts/8-hykso.json",
+  "scoring_scope": "original_pitch_only",
+  "shared_across_input_modes": true,
+  "rationales": [
+    {
+      "rationale_label": "business_model_assessment",
+      "direction": "neutral",
+      "salience": "secondary",
+      "confidence": 0.82,
+      "utterance_type": "question",
+      "decision_link": "none",
+      "timing": "original_pitch",
+      "turn_index": 111,
+      "quote": "And it's just the sensor?",
+      "explanation": "Howie probes what is included in the offering responsible for the reported preorders.",
+      "evidence": [
+        "And it's just the sensor?"
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 111,
+          "speaker": "Howie",
+          "quote": "And it's just the sensor?"
+        }
+      ],
+      "activation": "queried",
+      "source_rationale_id": "R6",
+      "utterance_kind": "question",
+      "decision_support": "none",
+      "all_mention_ids": [
+        "R6"
+      ]
+    },
+    {
+      "rationale_label": "capital_intensity_concern",
+      "direction": "neutral",
+      "salience": "secondary",
+      "confidence": 0.94,
+      "utterance_type": "question",
+      "decision_link": "none",
+      "timing": "original_pitch",
+      "turn_index": 118,
+      "quote": "So you didn't have to pay anything up front? They covered all the costs?",
+      "explanation": "Howie asks whether the company avoided funding the manufacturing run with its own upfront capital.",
+      "evidence": [
+        "So you didn't have to pay anything up front? They covered all the costs?"
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 118,
+          "speaker": "Howie",
+          "quote": "So you didn't have to pay anything up front? They covered all the costs?"
+        }
+      ],
+      "activation": "queried",
+      "source_rationale_id": "R7",
+      "utterance_kind": "question",
+      "decision_support": "none",
+      "all_mention_ids": [
+        "R7"
+      ]
+    },
+    {
+      "rationale_label": "founder_communication_quality",
+      "direction": "negative",
+      "salience": "secondary",
+      "confidence": 0.96,
+      "utterance_type": "assessment",
+      "decision_link": "none",
+      "timing": "original_pitch",
+      "turn_index": 13,
+      "quote": "I guess I'm having trouble.",
+      "explanation": "Howie indicates that the presentation has not clearly conveyed the company's history, current status, product progress, and future direction.",
+      "evidence": [
+        "I guess I'm having trouble."
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 13,
+          "speaker": "Howie",
+          "quote": "I guess I'm having trouble."
+        }
+      ],
+      "activation": "evaluated",
+      "source_rationale_id": "R2",
+      "utterance_kind": "concern",
+      "decision_support": "none",
+      "all_mention_ids": [
+        "R2"
+      ]
+    },
+    {
+      "rationale_label": "founder_execution",
+      "direction": "negative",
+      "salience": "primary",
+      "confidence": 0.99,
+      "utterance_type": "decision_reason",
+      "decision_link": "explicit",
+      "timing": "original_pitch",
+      "turn_index": 225,
+      "quote": "I didn't get a sense that they were closers.",
+      "explanation": "During the immediate in-room debrief, Howie explains that he lacked confidence in the founders' ability to convert customer interest into closed business.",
+      "evidence": [
+        "I didn't get a sense that they were closers."
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 225,
+          "speaker": "Howie",
+          "quote": "I didn't get a sense that they were closers."
+        }
+      ],
+      "activation": "evaluated",
+      "source_rationale_id": "R12",
+      "utterance_kind": "decision_explanation",
+      "decision_support": "supports_out",
+      "all_mention_ids": [
+        "R12"
+      ]
+    },
+    {
+      "rationale_label": "go_to_market_strategy_assessment",
+      "direction": "neutral",
+      "salience": "secondary",
+      "confidence": 0.96,
+      "utterance_type": "question",
+      "decision_link": "none",
+      "timing": "original_pitch",
+      "turn_index": 103,
+      "quote": "What did you do it through?",
+      "explanation": "Howie asks which sales channel generated the reported preorders.",
+      "evidence": [
+        "What did you do it through?"
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 103,
+          "speaker": "Howie",
+          "quote": "What did you do it through?"
+        }
+      ],
+      "activation": "queried",
+      "source_rationale_id": "R4",
+      "utterance_kind": "question",
+      "decision_support": "none",
+      "all_mention_ids": [
+        "R4"
+      ]
+    },
+    {
+      "rationale_label": "market_entry_path_assessment",
+      "direction": "neutral",
+      "salience": "secondary",
+      "confidence": 0.96,
+      "utterance_type": "question",
+      "decision_link": "none",
+      "timing": "original_pitch",
+      "turn_index": 15,
+      "quote": "Target demographic is boxers and boxing gyms today?",
+      "explanation": "Howie asks whether boxers and boxing gyms constitute the company's initial customer segment.",
+      "evidence": [
+        "Target demographic is boxers and boxing gyms today?"
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 15,
+          "speaker": "Howie",
+          "quote": "Target demographic is boxers and boxing gyms today?"
+        }
+      ],
+      "activation": "queried",
+      "source_rationale_id": "R3",
+      "utterance_kind": "question",
+      "decision_support": "none",
+      "all_mention_ids": [
+        "R3"
+      ]
+    },
+    {
+      "rationale_label": "market_problem_validation",
+      "direction": "positive",
+      "salience": "secondary",
+      "confidence": 0.98,
+      "utterance_type": "assessment",
+      "decision_link": "none",
+      "timing": "original_pitch",
+      "turn_index": 130,
+      "quote": "it feels like you guys are solving a problem.",
+      "explanation": "Howie believes the company is addressing a real problem in an underserved space.",
+      "evidence": [
+        "it feels like you guys are solving a problem."
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 130,
+          "speaker": "Howie",
+          "quote": "it feels like you guys are solving a problem."
+        }
+      ],
+      "activation": "evaluated",
+      "source_rationale_id": "R9",
+      "utterance_kind": "supporting_argument",
+      "decision_support": "none",
+      "all_mention_ids": [
+        "R9"
+      ]
+    },
+    {
+      "rationale_label": "market_size_assessment",
+      "direction": "negative",
+      "salience": "primary",
+      "confidence": 0.99,
+      "utterance_type": "decision_reason",
+      "decision_link": "explicit",
+      "timing": "original_pitch",
+      "turn_index": 130,
+      "quote": "I think for me it's a little too narrow, so I'm going to pass.",
+      "explanation": "Howie directly links his decision to pass to his view that the addressable market is too narrow.",
+      "evidence": [
+        "I think for me it's a little too narrow, so I'm going to pass."
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 130,
+          "speaker": "Howie",
+          "quote": "I think for me it's a little too narrow, so I'm going to pass."
+        }
+      ],
+      "activation": "evaluated",
+      "source_rationale_id": "R10",
+      "utterance_kind": "decision_explanation",
+      "decision_support": "supports_out",
+      "all_mention_ids": [
+        "R10"
+      ]
+    },
+    {
+      "rationale_label": "solution_feasibility_assessment",
+      "direction": "positive",
+      "salience": "secondary",
+      "confidence": 0.99,
+      "utterance_type": "assessment",
+      "decision_link": "none",
+      "timing": "original_pitch",
+      "turn_index": 130,
+      "quote": "You guys built something that seemingly just works, which is awesome.",
+      "explanation": "Howie positively assesses the demonstrated product's functionality.",
+      "evidence": [
+        "You guys built something that seemingly just works, which is awesome."
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 130,
+          "speaker": "Howie",
+          "quote": "You guys built something that seemingly just works, which is awesome."
+        }
+      ],
+      "activation": "evaluated",
+      "source_rationale_id": "R8",
+      "utterance_kind": "supporting_argument",
+      "decision_support": "none",
+      "all_mention_ids": [
+        "R8"
+      ]
+    },
+    {
+      "rationale_label": "traction_repeatability_concern",
+      "direction": "negative",
+      "salience": "primary",
+      "confidence": 0.99,
+      "utterance_type": "decision_reason",
+      "decision_link": "explicit",
+      "timing": "original_pitch",
+      "turn_index": 225,
+      "quote": "To me, LOIs, those are just bullshit.",
+      "explanation": "Howie explains that unsigned LOIs without contracts or customer money were inadequate evidence of dependable traction.",
+      "evidence": [
+        "To me, LOIs, those are just bullshit."
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 225,
+          "speaker": "Howie",
+          "quote": "To me, LOIs, those are just bullshit."
+        }
+      ],
+      "activation": "evaluated",
+      "source_rationale_id": "R13",
+      "utterance_kind": "decision_explanation",
+      "decision_support": "supports_out",
+      "all_mention_ids": [
+        "R5",
+        "R11",
+        "R13"
+      ]
+    }
+  ],
+  "later_rationales": [],
+  "excluded_rationales": [
+    {
+      "rationale_label": "solution_feasibility_assessment",
+      "direction": "neutral",
+      "salience": "secondary",
+      "confidence": 0.97,
+      "utterance_type": "assessment",
+      "decision_link": "none",
+      "timing": "teaser",
+      "turn_index": 8,
+      "quote": "I want to know that you can build something that's actually functional.",
+      "explanation": "Howie identifies demonstrated product functionality as an investment criterion.",
+      "evidence": [
+        "I want to know that you can build something that's actually functional."
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 8,
+          "speaker": "Howie",
+          "quote": "I want to know that you can build something that's actually functional."
+        }
+      ],
+      "activation": "evaluated",
+      "source_rationale_id": "R1"
+    }
+  ],
+  "rationale_mentions": [
+    {
+      "rationale_label": "founder_communication_quality",
+      "direction": "negative",
+      "salience": "secondary",
+      "confidence": 0.96,
+      "utterance_type": "concern",
+      "decision_link": "none",
+      "timing": "original_pitch",
+      "turn_index": 13,
+      "quote": "I guess I'm having trouble.",
+      "explanation": "Howie indicates that the presentation has not clearly conveyed the company's history, current status, product progress, and future direction.",
+      "evidence": [
+        "I guess I'm having trouble."
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 13,
+          "speaker": "Howie",
+          "quote": "I guess I'm having trouble."
+        }
+      ],
+      "activation": "evaluated",
+      "source_rationale_id": "R2"
+    },
+    {
+      "rationale_label": "market_entry_path_assessment",
+      "direction": "neutral",
+      "salience": "secondary",
+      "confidence": 0.96,
+      "utterance_type": "question",
+      "decision_link": "none",
+      "timing": "original_pitch",
+      "turn_index": 15,
+      "quote": "Target demographic is boxers and boxing gyms today?",
+      "explanation": "Howie asks whether boxers and boxing gyms constitute the company's initial customer segment.",
+      "evidence": [
+        "Target demographic is boxers and boxing gyms today?"
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 15,
+          "speaker": "Howie",
+          "quote": "Target demographic is boxers and boxing gyms today?"
+        }
+      ],
+      "activation": "queried",
+      "source_rationale_id": "R3"
+    },
+    {
+      "rationale_label": "go_to_market_strategy_assessment",
+      "direction": "neutral",
+      "salience": "secondary",
+      "confidence": 0.96,
+      "utterance_type": "question",
+      "decision_link": "none",
+      "timing": "original_pitch",
+      "turn_index": 103,
+      "quote": "What did you do it through?",
+      "explanation": "Howie asks which sales channel generated the reported preorders.",
+      "evidence": [
+        "What did you do it through?"
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 103,
+          "speaker": "Howie",
+          "quote": "What did you do it through?"
+        }
+      ],
+      "activation": "queried",
+      "source_rationale_id": "R4"
+    },
+    {
+      "rationale_label": "traction_repeatability_concern",
+      "direction": "neutral",
+      "salience": "secondary",
+      "confidence": 0.9,
+      "utterance_type": "question",
+      "decision_link": "none",
+      "timing": "original_pitch",
+      "turn_index": 107,
+      "quote": "So you pre-sold this next generation product?",
+      "explanation": "Howie clarifies whether the reported sales are preorders for a product that has not yet shipped.",
+      "evidence": [
+        "So you pre-sold this next generation product?"
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 107,
+          "speaker": "Howie",
+          "quote": "So you pre-sold this next generation product?"
+        }
+      ],
+      "activation": "queried",
+      "source_rationale_id": "R5"
+    },
+    {
+      "rationale_label": "business_model_assessment",
+      "direction": "neutral",
+      "salience": "secondary",
+      "confidence": 0.82,
+      "utterance_type": "question",
+      "decision_link": "none",
+      "timing": "original_pitch",
+      "turn_index": 111,
+      "quote": "And it's just the sensor?",
+      "explanation": "Howie probes what is included in the offering responsible for the reported preorders.",
+      "evidence": [
+        "And it's just the sensor?"
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 111,
+          "speaker": "Howie",
+          "quote": "And it's just the sensor?"
+        }
+      ],
+      "activation": "queried",
+      "source_rationale_id": "R6"
+    },
+    {
+      "rationale_label": "capital_intensity_concern",
+      "direction": "neutral",
+      "salience": "secondary",
+      "confidence": 0.94,
+      "utterance_type": "question",
+      "decision_link": "none",
+      "timing": "original_pitch",
+      "turn_index": 118,
+      "quote": "So you didn't have to pay anything up front? They covered all the costs?",
+      "explanation": "Howie asks whether the company avoided funding the manufacturing run with its own upfront capital.",
+      "evidence": [
+        "So you didn't have to pay anything up front? They covered all the costs?"
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 118,
+          "speaker": "Howie",
+          "quote": "So you didn't have to pay anything up front? They covered all the costs?"
+        }
+      ],
+      "activation": "queried",
+      "source_rationale_id": "R7"
+    },
+    {
+      "rationale_label": "solution_feasibility_assessment",
+      "direction": "positive",
+      "salience": "secondary",
+      "confidence": 0.99,
+      "utterance_type": "supporting_argument",
+      "decision_link": "none",
+      "timing": "original_pitch",
+      "turn_index": 130,
+      "quote": "You guys built something that seemingly just works, which is awesome.",
+      "explanation": "Howie positively assesses the demonstrated product's functionality.",
+      "evidence": [
+        "You guys built something that seemingly just works, which is awesome."
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 130,
+          "speaker": "Howie",
+          "quote": "You guys built something that seemingly just works, which is awesome."
+        }
+      ],
+      "activation": "evaluated",
+      "source_rationale_id": "R8"
+    },
+    {
+      "rationale_label": "market_problem_validation",
+      "direction": "positive",
+      "salience": "secondary",
+      "confidence": 0.98,
+      "utterance_type": "supporting_argument",
+      "decision_link": "none",
+      "timing": "original_pitch",
+      "turn_index": 130,
+      "quote": "it feels like you guys are solving a problem.",
+      "explanation": "Howie believes the company is addressing a real problem in an underserved space.",
+      "evidence": [
+        "it feels like you guys are solving a problem."
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 130,
+          "speaker": "Howie",
+          "quote": "it feels like you guys are solving a problem."
+        }
+      ],
+      "activation": "evaluated",
+      "source_rationale_id": "R9"
+    },
+    {
+      "rationale_label": "market_size_assessment",
+      "direction": "negative",
+      "salience": "primary",
+      "confidence": 0.99,
+      "utterance_type": "decision_explanation",
+      "decision_link": "supports_out",
+      "timing": "original_pitch",
+      "turn_index": 130,
+      "quote": "I think for me it's a little too narrow, so I'm going to pass.",
+      "explanation": "Howie directly links his decision to pass to his view that the addressable market is too narrow.",
+      "evidence": [
+        "I think for me it's a little too narrow, so I'm going to pass."
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 130,
+          "speaker": "Howie",
+          "quote": "I think for me it's a little too narrow, so I'm going to pass."
+        }
+      ],
+      "activation": "evaluated",
+      "source_rationale_id": "R10"
+    },
+    {
+      "rationale_label": "traction_repeatability_concern",
+      "direction": "neutral",
+      "salience": "secondary",
+      "confidence": 0.91,
+      "utterance_type": "question",
+      "decision_link": "none",
+      "timing": "original_pitch",
+      "turn_index": 144,
+      "quote": "But if it goes to contract, what are the terms?",
+      "explanation": "Howie probes the substance of the prospective contracts underlying the gym LOIs.",
+      "evidence": [
+        "But if it goes to contract, what are the terms?"
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 144,
+          "speaker": "Howie",
+          "quote": "But if it goes to contract, what are the terms?"
+        }
+      ],
+      "activation": "queried",
+      "source_rationale_id": "R11"
+    },
+    {
+      "rationale_label": "founder_execution",
+      "direction": "negative",
+      "salience": "primary",
+      "confidence": 0.99,
+      "utterance_type": "decision_explanation",
+      "decision_link": "supports_out",
+      "timing": "original_pitch",
+      "turn_index": 225,
+      "quote": "I didn't get a sense that they were closers.",
+      "explanation": "During the immediate in-room debrief, Howie explains that he lacked confidence in the founders' ability to convert customer interest into closed business.",
+      "evidence": [
+        "I didn't get a sense that they were closers."
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 225,
+          "speaker": "Howie",
+          "quote": "I didn't get a sense that they were closers."
+        }
+      ],
+      "activation": "evaluated",
+      "source_rationale_id": "R12"
+    },
+    {
+      "rationale_label": "traction_repeatability_concern",
+      "direction": "negative",
+      "salience": "primary",
+      "confidence": 0.99,
+      "utterance_type": "decision_explanation",
+      "decision_link": "supports_out",
+      "timing": "original_pitch",
+      "turn_index": 225,
+      "quote": "To me, LOIs, those are just bullshit.",
+      "explanation": "Howie explains that unsigned LOIs without contracts or customer money were inadequate evidence of dependable traction.",
+      "evidence": [
+        "To me, LOIs, those are just bullshit."
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 225,
+          "speaker": "Howie",
+          "quote": "To me, LOIs, those are just bullshit."
+        }
+      ],
+      "activation": "evaluated",
+      "source_rationale_id": "R13"
+    }
+  ],
+  "expanded_quote_evidence": [],
+  "rejected_after_evidence_check": []
+}

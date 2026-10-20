@@ -1,0 +1,640 @@
+{
+  "schema": "phase1-rationale-reference-v1",
+  "extraction_version": "pitchshow-rationales-v1",
+  "fingerprint": "c384abf3508c8a97004348651274343acb1ebdb371633132e67e469249f452d4",
+  "episode_slug": "39-this-pitch-is-damn-near-perfect",
+  "vc_slug": "charles-hudson-precursor-ventures",
+  "vc_name": "Charles Hudson",
+  "actual_decision": "In",
+  "later_decision": "Out",
+  "reference_kind": "automated_transcript_observed_candidate",
+  "human_validated": false,
+  "source_format": "transcript-observed-rationales-v1",
+  "source_path": "/home/dpasch01/vclogic-vc-agentic-assessment/evaluation/pitchshow/investors/charles-hudson-precursor-ventures/source/episodes/39-this-pitch-is-damn-near-perfect.json",
+  "source_sha256": "41e675dda7a39b30e9c125fcf77b88645bc3d1e58624263719d8a7b08974709a",
+  "transcript_sha256": "1482e661846c06e9e8edef9a89590d5a43fd11c4a3b9339c963be4c92fceeb2d",
+  "taxonomy_sha256": "eaa8734819a3ac34dd19ee5f0bf6de925a793a1d25a2d361090dafc9b751e1fc",
+  "model": "openai/gpt-5.6-luna",
+  "source_tier": "newly_extracted_and_independently_model_reviewed",
+  "reviewed_target_turns": [
+    43,
+    74,
+    76,
+    80,
+    95,
+    97,
+    104,
+    111,
+    115,
+    118,
+    120,
+    122
+  ],
+  "notes": "All supplied target turns were reviewed; turns 43, 95, 111, and 115 contained no distinct rationale-bearing statement.",
+  "receipt_path": "/home/dpasch01/vclogic-vc-agentic-assessment/evaluation/pitchshow/investors/charles-hudson-precursor-ventures/rationale-references/receipts/39-this-pitch-is-damn-near-perfect.json",
+  "scoring_scope": "original_pitch_only",
+  "shared_across_input_modes": true,
+  "rationales": [
+    {
+      "rationale_label": "competitive_advantage_assessment",
+      "direction": "positive",
+      "salience": "primary",
+      "confidence": 0.94,
+      "utterance_type": "assessment",
+      "decision_link": "explicit",
+      "timing": "original_pitch",
+      "turn_index": 104,
+      "quote": "your instincts are going to pull you in directions that other people won’t go",
+      "explanation": "He believes the founder’s instincts can produce differentiated offerings competitors may overlook.",
+      "evidence": [
+        "your instincts are going to pull you in directions that other people won’t go"
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 104,
+          "speaker": "Charles",
+          "quote": "your instincts are going to pull you in directions that other people won’t go"
+        }
+      ],
+      "activation": "evaluated",
+      "source_rationale_id": "R8",
+      "utterance_kind": "supporting_argument",
+      "decision_support": "supports_in",
+      "all_mention_ids": [
+        "R8"
+      ]
+    },
+    {
+      "rationale_label": "competitive_intensity_concern",
+      "direction": "negative",
+      "salience": "primary",
+      "confidence": 0.98,
+      "utterance_type": "assessment",
+      "decision_link": "none",
+      "timing": "original_pitch",
+      "turn_index": 97,
+      "quote": "in crowded categories you just drown",
+      "explanation": "Charles warns that consumer brands can disappear in crowded categories without sufficient differentiation.",
+      "evidence": [
+        "in crowded categories you just drown"
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 97,
+          "speaker": "Charles",
+          "quote": "in crowded categories you just drown"
+        }
+      ],
+      "activation": "evaluated",
+      "source_rationale_id": "R5",
+      "utterance_kind": "assessment",
+      "decision_support": "none",
+      "all_mention_ids": [
+        "R5"
+      ]
+    },
+    {
+      "rationale_label": "execution_risk_assessment",
+      "direction": "negative",
+      "salience": "secondary",
+      "confidence": 0.96,
+      "utterance_type": "assessment",
+      "decision_link": "explicit",
+      "timing": "original_pitch",
+      "turn_index": 104,
+      "quote": "Particularly around marketing and brand execution would really be the question where I would want to go deeper",
+      "explanation": "He makes a larger commitment conditional on gaining confidence in the team’s marketing and brand execution.",
+      "evidence": [
+        "Particularly around marketing and brand execution would really be the question where I would want to go deeper"
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 104,
+          "speaker": "Charles",
+          "quote": "Particularly around marketing and brand execution would really be the question where I would want to go deeper"
+        }
+      ],
+      "activation": "evaluated",
+      "source_rationale_id": "R10",
+      "utterance_kind": "assessment",
+      "decision_support": "supports_out",
+      "all_mention_ids": [
+        "R10"
+      ]
+    },
+    {
+      "rationale_label": "founder_qualities",
+      "direction": "positive",
+      "salience": "secondary",
+      "confidence": 0.88,
+      "utterance_type": "decision_reason",
+      "decision_link": "explicit",
+      "timing": "original_pitch",
+      "turn_index": 104,
+      "quote": "I have a good feeling about you",
+      "explanation": "Charles explicitly cites his positive impression of the founder before committing $50,000.",
+      "evidence": [
+        "I have a good feeling about you"
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 104,
+          "speaker": "Charles",
+          "quote": "I have a good feeling about you"
+        }
+      ],
+      "activation": "evaluated",
+      "source_rationale_id": "R9",
+      "utterance_kind": "decision_explanation",
+      "decision_support": "supports_in",
+      "all_mention_ids": [
+        "R9"
+      ]
+    },
+    {
+      "rationale_label": "founder_skillset",
+      "direction": "positive",
+      "salience": "primary",
+      "confidence": 0.97,
+      "utterance_type": "assessment",
+      "decision_link": "explicit",
+      "timing": "original_pitch",
+      "turn_index": 104,
+      "quote": "you have a unique eye for your customer on what he really needs out of travel",
+      "explanation": "Charles credits the founder with unusually strong customer insight as a reason for investing.",
+      "evidence": [
+        "product instincts",
+        "you have a unique eye for your customer on what he really needs out of travel"
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 80,
+          "speaker": "Charles",
+          "quote": "product instincts"
+        },
+        {
+          "turn_index": 104,
+          "speaker": "Charles",
+          "quote": "you have a unique eye for your customer on what he really needs out of travel"
+        }
+      ],
+      "activation": "evaluated",
+      "source_rationale_id": "R7",
+      "utterance_kind": "supporting_argument",
+      "decision_support": "supports_in",
+      "all_mention_ids": [
+        "R3",
+        "R4",
+        "R7"
+      ]
+    },
+    {
+      "rationale_label": "go_to_market_strategy_assessment",
+      "direction": "neutral",
+      "salience": "secondary",
+      "confidence": 0.94,
+      "utterance_type": "question",
+      "decision_link": "none",
+      "timing": "original_pitch",
+      "turn_index": 76,
+      "quote": "can you actually use some of the social media channels to grow?",
+      "explanation": "He asks how the company can use marketing channels to acquire and grow its customer base.",
+      "evidence": [
+        "can you actually use some of the social media channels to grow?"
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 76,
+          "speaker": "Charles",
+          "quote": "can you actually use some of the social media channels to grow?"
+        }
+      ],
+      "activation": "queried",
+      "source_rationale_id": "R2",
+      "utterance_kind": "question",
+      "decision_support": "none",
+      "all_mention_ids": [
+        "R2"
+      ]
+    },
+    {
+      "rationale_label": "market_entry_path_assessment",
+      "direction": "neutral",
+      "salience": "primary",
+      "confidence": 0.94,
+      "utterance_type": "question",
+      "decision_link": "none",
+      "timing": "original_pitch",
+      "turn_index": 74,
+      "quote": "is this a cult brand or an everyman brand?",
+      "explanation": "Charles questions whether the company has a coherent customer focus and positioning across its distinct traveler segments.",
+      "evidence": [
+        "is this a cult brand or an everyman brand?"
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 74,
+          "speaker": "Charles",
+          "quote": "is this a cult brand or an everyman brand?"
+        }
+      ],
+      "activation": "queried",
+      "source_rationale_id": "R1",
+      "utterance_kind": "question",
+      "decision_support": "none",
+      "all_mention_ids": [
+        "R1"
+      ]
+    },
+    {
+      "rationale_label": "market_problem_validation",
+      "direction": "positive",
+      "salience": "secondary",
+      "confidence": 0.96,
+      "utterance_type": "assessment",
+      "decision_link": "none",
+      "timing": "original_pitch",
+      "turn_index": 122,
+      "quote": "I've looked at every YouTube video about how to roll a jacket to minimize. It just... It's a fabric issue.",
+      "explanation": "Charles reports trying common mitigation methods and concludes that the underlying fabric problem remains.",
+      "evidence": [
+        "It's the one thing you can't fix",
+        "when you travel for business, as a guy, you get off the plane, you can have a wrinkle free shirt but the jacket?",
+        "I've looked at every YouTube video about how to roll a jacket to minimize. It just... It's a fabric issue."
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 118,
+          "speaker": "Charles",
+          "quote": "It's the one thing you can't fix"
+        },
+        {
+          "turn_index": 120,
+          "speaker": "Charles",
+          "quote": "when you travel for business, as a guy, you get off the plane, you can have a wrinkle free shirt but the jacket?"
+        },
+        {
+          "turn_index": 122,
+          "speaker": "Charles",
+          "quote": "I've looked at every YouTube video about how to roll a jacket to minimize. It just... It's a fabric issue."
+        }
+      ],
+      "activation": "evaluated",
+      "source_rationale_id": "R13",
+      "utterance_kind": "assessment",
+      "decision_support": "none",
+      "all_mention_ids": [
+        "R11",
+        "R12",
+        "R13"
+      ]
+    },
+    {
+      "rationale_label": "product_differentiation_concern",
+      "direction": "negative",
+      "salience": "primary",
+      "confidence": 0.97,
+      "utterance_type": "assessment",
+      "decision_link": "none",
+      "timing": "original_pitch",
+      "turn_index": 97,
+      "quote": "there’s got to be something that feels like fundamentally unique or compelling about the product",
+      "explanation": "He treats fundamental product or brand uniqueness as necessary to compete successfully.",
+      "evidence": [
+        "there’s got to be something that feels like fundamentally unique or compelling about the product"
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 97,
+          "speaker": "Charles",
+          "quote": "there’s got to be something that feels like fundamentally unique or compelling about the product"
+        }
+      ],
+      "activation": "evaluated",
+      "source_rationale_id": "R6",
+      "utterance_kind": "assessment",
+      "decision_support": "none",
+      "all_mention_ids": [
+        "R6"
+      ]
+    }
+  ],
+  "later_rationales": [],
+  "excluded_rationales": [],
+  "rationale_mentions": [
+    {
+      "rationale_label": "market_entry_path_assessment",
+      "direction": "neutral",
+      "salience": "primary",
+      "confidence": 0.94,
+      "utterance_type": "question",
+      "decision_link": "none",
+      "timing": "original_pitch",
+      "turn_index": 74,
+      "quote": "is this a cult brand or an everyman brand?",
+      "explanation": "Charles questions whether the company has a coherent customer focus and positioning across its distinct traveler segments.",
+      "evidence": [
+        "is this a cult brand or an everyman brand?"
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 74,
+          "speaker": "Charles",
+          "quote": "is this a cult brand or an everyman brand?"
+        }
+      ],
+      "activation": "queried",
+      "source_rationale_id": "R1"
+    },
+    {
+      "rationale_label": "go_to_market_strategy_assessment",
+      "direction": "neutral",
+      "salience": "secondary",
+      "confidence": 0.94,
+      "utterance_type": "question",
+      "decision_link": "none",
+      "timing": "original_pitch",
+      "turn_index": 76,
+      "quote": "can you actually use some of the social media channels to grow?",
+      "explanation": "He asks how the company can use marketing channels to acquire and grow its customer base.",
+      "evidence": [
+        "can you actually use some of the social media channels to grow?"
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 76,
+          "speaker": "Charles",
+          "quote": "can you actually use some of the social media channels to grow?"
+        }
+      ],
+      "activation": "queried",
+      "source_rationale_id": "R2"
+    },
+    {
+      "rationale_label": "founder_skillset",
+      "direction": "negative",
+      "salience": "secondary",
+      "confidence": 0.93,
+      "utterance_type": "assessment",
+      "decision_link": "none",
+      "timing": "original_pitch",
+      "turn_index": 80,
+      "quote": "marketing may be not your natural go to move",
+      "explanation": "Charles identifies marketing as a possible functional weakness for the founder.",
+      "evidence": [
+        "marketing may be not your natural go to move"
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 80,
+          "speaker": "Charles",
+          "quote": "marketing may be not your natural go to move"
+        }
+      ],
+      "activation": "evaluated",
+      "source_rationale_id": "R3"
+    },
+    {
+      "rationale_label": "founder_skillset",
+      "direction": "positive",
+      "salience": "primary",
+      "confidence": 0.97,
+      "utterance_type": "assessment",
+      "decision_link": "none",
+      "timing": "original_pitch",
+      "turn_index": 80,
+      "quote": "product instincts",
+      "explanation": "He identifies the founder’s product instincts as a core strength and apparent superpower.",
+      "evidence": [
+        "product instincts"
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 80,
+          "speaker": "Charles",
+          "quote": "product instincts"
+        }
+      ],
+      "activation": "evaluated",
+      "source_rationale_id": "R4"
+    },
+    {
+      "rationale_label": "competitive_intensity_concern",
+      "direction": "negative",
+      "salience": "primary",
+      "confidence": 0.98,
+      "utterance_type": "assessment",
+      "decision_link": "none",
+      "timing": "original_pitch",
+      "turn_index": 97,
+      "quote": "in crowded categories you just drown",
+      "explanation": "Charles warns that consumer brands can disappear in crowded categories without sufficient differentiation.",
+      "evidence": [
+        "in crowded categories you just drown"
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 97,
+          "speaker": "Charles",
+          "quote": "in crowded categories you just drown"
+        }
+      ],
+      "activation": "evaluated",
+      "source_rationale_id": "R5"
+    },
+    {
+      "rationale_label": "product_differentiation_concern",
+      "direction": "negative",
+      "salience": "primary",
+      "confidence": 0.97,
+      "utterance_type": "assessment",
+      "decision_link": "none",
+      "timing": "original_pitch",
+      "turn_index": 97,
+      "quote": "there’s got to be something that feels like fundamentally unique or compelling about the product",
+      "explanation": "He treats fundamental product or brand uniqueness as necessary to compete successfully.",
+      "evidence": [
+        "there’s got to be something that feels like fundamentally unique or compelling about the product"
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 97,
+          "speaker": "Charles",
+          "quote": "there’s got to be something that feels like fundamentally unique or compelling about the product"
+        }
+      ],
+      "activation": "evaluated",
+      "source_rationale_id": "R6"
+    },
+    {
+      "rationale_label": "founder_skillset",
+      "direction": "positive",
+      "salience": "primary",
+      "confidence": 0.97,
+      "utterance_type": "supporting_argument",
+      "decision_link": "supports_in",
+      "timing": "original_pitch",
+      "turn_index": 104,
+      "quote": "you have a unique eye for your customer on what he really needs out of travel",
+      "explanation": "Charles credits the founder with unusually strong customer insight as a reason for investing.",
+      "evidence": [
+        "you have a unique eye for your customer on what he really needs out of travel"
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 104,
+          "speaker": "Charles",
+          "quote": "you have a unique eye for your customer on what he really needs out of travel"
+        }
+      ],
+      "activation": "evaluated",
+      "source_rationale_id": "R7"
+    },
+    {
+      "rationale_label": "competitive_advantage_assessment",
+      "direction": "positive",
+      "salience": "primary",
+      "confidence": 0.94,
+      "utterance_type": "supporting_argument",
+      "decision_link": "supports_in",
+      "timing": "original_pitch",
+      "turn_index": 104,
+      "quote": "your instincts are going to pull you in directions that other people won’t go",
+      "explanation": "He believes the founder’s instincts can produce differentiated offerings competitors may overlook.",
+      "evidence": [
+        "your instincts are going to pull you in directions that other people won’t go"
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 104,
+          "speaker": "Charles",
+          "quote": "your instincts are going to pull you in directions that other people won’t go"
+        }
+      ],
+      "activation": "evaluated",
+      "source_rationale_id": "R8"
+    },
+    {
+      "rationale_label": "founder_qualities",
+      "direction": "positive",
+      "salience": "secondary",
+      "confidence": 0.88,
+      "utterance_type": "decision_explanation",
+      "decision_link": "supports_in",
+      "timing": "original_pitch",
+      "turn_index": 104,
+      "quote": "I have a good feeling about you",
+      "explanation": "Charles explicitly cites his positive impression of the founder before committing $50,000.",
+      "evidence": [
+        "I have a good feeling about you"
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 104,
+          "speaker": "Charles",
+          "quote": "I have a good feeling about you"
+        }
+      ],
+      "activation": "evaluated",
+      "source_rationale_id": "R9"
+    },
+    {
+      "rationale_label": "execution_risk_assessment",
+      "direction": "negative",
+      "salience": "secondary",
+      "confidence": 0.96,
+      "utterance_type": "assessment",
+      "decision_link": "supports_out",
+      "timing": "original_pitch",
+      "turn_index": 104,
+      "quote": "Particularly around marketing and brand execution would really be the question where I would want to go deeper",
+      "explanation": "He makes a larger commitment conditional on gaining confidence in the team’s marketing and brand execution.",
+      "evidence": [
+        "Particularly around marketing and brand execution would really be the question where I would want to go deeper"
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 104,
+          "speaker": "Charles",
+          "quote": "Particularly around marketing and brand execution would really be the question where I would want to go deeper"
+        }
+      ],
+      "activation": "evaluated",
+      "source_rationale_id": "R10"
+    },
+    {
+      "rationale_label": "market_problem_validation",
+      "direction": "positive",
+      "salience": "secondary",
+      "confidence": 0.9,
+      "utterance_type": "assessment",
+      "decision_link": "none",
+      "timing": "original_pitch",
+      "turn_index": 118,
+      "quote": "It's the one thing you can't fix",
+      "explanation": "Charles characterizes the travel-jacket wrinkle problem as a persistent need that ordinary workarounds do not solve.",
+      "evidence": [
+        "It's the one thing you can't fix"
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 118,
+          "speaker": "Charles",
+          "quote": "It's the one thing you can't fix"
+        }
+      ],
+      "activation": "evaluated",
+      "source_rationale_id": "R11"
+    },
+    {
+      "rationale_label": "market_problem_validation",
+      "direction": "positive",
+      "salience": "secondary",
+      "confidence": 0.96,
+      "utterance_type": "assessment",
+      "decision_link": "none",
+      "timing": "original_pitch",
+      "turn_index": 120,
+      "quote": "when you travel for business, as a guy, you get off the plane, you can have a wrinkle free shirt but the jacket?",
+      "explanation": "His travel experience illustrates that business travelers lack a practical way to keep a jacket wrinkle-free.",
+      "evidence": [
+        "when you travel for business, as a guy, you get off the plane, you can have a wrinkle free shirt but the jacket?"
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 120,
+          "speaker": "Charles",
+          "quote": "when you travel for business, as a guy, you get off the plane, you can have a wrinkle free shirt but the jacket?"
+        }
+      ],
+      "activation": "evaluated",
+      "source_rationale_id": "R12"
+    },
+    {
+      "rationale_label": "market_problem_validation",
+      "direction": "positive",
+      "salience": "secondary",
+      "confidence": 0.96,
+      "utterance_type": "assessment",
+      "decision_link": "none",
+      "timing": "original_pitch",
+      "turn_index": 122,
+      "quote": "I've looked at every YouTube video about how to roll a jacket to minimize. It just... It's a fabric issue.",
+      "explanation": "Charles reports trying common mitigation methods and concludes that the underlying fabric problem remains.",
+      "evidence": [
+        "I've looked at every YouTube video about how to roll a jacket to minimize. It just... It's a fabric issue."
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 122,
+          "speaker": "Charles",
+          "quote": "I've looked at every YouTube video about how to roll a jacket to minimize. It just... It's a fabric issue."
+        }
+      ],
+      "activation": "evaluated",
+      "source_rationale_id": "R13"
+    }
+  ],
+  "expanded_quote_evidence": [],
+  "rejected_after_evidence_check": []
+}

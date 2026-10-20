@@ -1,0 +1,2767 @@
+{
+  "schema": "pitchshow-evaluation-v3",
+  "episode_slug": "184-ventrix-the-gas-plant-of-the-future",
+  "review": {
+    "episode_kind": "pitch",
+    "founder_speakers": [
+      "Sonny"
+    ],
+    "pitch_start_turn": 54,
+    "pitch_end_turn": 244,
+    "excluded_turns": [],
+    "boundary_reason": "The substantive pitch begins at turn 54, after the teaser, promotion, investor introductions, and greetings. The original pitch window ends before the financing-terms discussion at turn 245 and Elizabeth's first commitment at turn 247.",
+    "decisions": [
+      {
+        "vc_slug": "elizabeth-yin-hustle-fund",
+        "pitch_window_decision": "In",
+        "initial_response": "In",
+        "decision_context": "initial_panel",
+        "pitch_evidence": [
+          {
+            "turn_index": 247,
+            "quote": "So I would be in for 150 at 10 post US. I know that that's not what you're looking for, but that's, what we would be open to doing"
+          }
+        ],
+        "later_decision": "In",
+        "later_evidence": [
+          {
+            "turn_index": 334,
+            "quote": "So Elizabeth invested $150k."
+          }
+        ],
+        "condition": "At 10 post US; no lead required.",
+        "reason": "Elizabeth explicitly committed to invest $150k during the panel, and the followup reports that she invested $150k."
+      },
+      {
+        "vc_slug": "jesse-middleton-flybridge",
+        "pitch_window_decision": "Out",
+        "initial_response": "Out",
+        "decision_context": "initial_panel",
+        "pitch_evidence": [
+          {
+            "turn_index": 264,
+            "quote": "And so I would say I'm not ready to commit to anything. I would like to connect and learn more, but not yet ready to say like, I'm in. So."
+          }
+        ],
+        "later_decision": "Out",
+        "later_evidence": [
+          {
+            "turn_index": 337,
+            "quote": "No. I think I need to follow up. Um-"
+          }
+        ],
+        "condition": null,
+        "reason": "Jesse explicitly said he was not ready to commit during the pitch. In the followup, Sonny answered that Jesse had not invested."
+      },
+      {
+        "vc_slug": "mike-ma-sidecut-ventures",
+        "pitch_window_decision": "In",
+        "initial_response": "In",
+        "decision_context": "initial_panel",
+        "pitch_evidence": [
+          {
+            "turn_index": 271,
+            "quote": "So we have a yes from me"
+          }
+        ],
+        "later_decision": "Out",
+        "later_evidence": [
+          {
+            "turn_index": 384,
+            "quote": "No. It was a no at the end. There was different optics in when it comes to the go-to-market strategy. I think Mike probably will prefer us to do more of a bottom-up approach when it comes to having another separate pipeline of customers. But we ended up not doing that."
+          }
+        ],
+        "condition": "Subject to a $200k–$300k check, approximately $250k, at a 10 cap and with a go-to-market focus.",
+        "reason": "Mike gave an explicit yes during the panel, but the later Foxhole process ended with no because the company did not adopt the preferred go-to-market approach."
+      },
+      {
+        "vc_slug": "rohit-gupta-future-communities-capital",
+        "pitch_window_decision": "Unobserved",
+        "initial_response": "Unobserved",
+        "decision_context": "later_diligence",
+        "pitch_evidence": [],
+        "later_decision": "Out",
+        "later_evidence": [
+          {
+            "turn_index": 334,
+            "quote": "So Rohit’s investment fizzled out from there."
+          }
+        ],
+        "condition": null,
+        "reason": "Rohit said he was still in the middle of his process and wanted to dig further, which is not a commitment or refusal. The later report says his investment fizzled out."
+      }
+    ]
+  },
+  "verification": {
+    "boundary_supported": true,
+    "remove_lines": [
+      123
+    ],
+    "safe_after_removal": true,
+    "reason": "The substantive pitch starts at turn 54, after the teaser, promotions, investor introductions, and greetings. The conservative factual pitch window ends before turn 245, when financing terms and the decision sequence begin. Candidate line 123 contains Sonny's founder reaction ('Thank you') to a congratulations exchange and should be removed; the other candidate lines are pre-decision factual material or neutral questions. Earlier fundraising information is legitimate factual context and is retained.",
+    "decisions": [
+      {
+        "vc_slug": "elizabeth-yin-hustle-fund",
+        "pitch_decision_supported": true,
+        "later_decision_supported": true,
+        "pitch_evidence": [
+          {
+            "turn_index": 247,
+            "quote": "So I would be in for 150 at 10 post US. I know that that's not what you're looking for, but that's, what we would be open to doing"
+          }
+        ],
+        "later_evidence": [
+          {
+            "turn_index": 334,
+            "quote": "So Elizabeth invested $150k."
+          }
+        ],
+        "condition": "A $150k check at 10 post US; no lead required.",
+        "reason": "Elizabeth explicitly committed during the same pitch session, and the followup explicitly reports that she invested $150k."
+      },
+      {
+        "vc_slug": "jesse-middleton-flybridge",
+        "pitch_decision_supported": true,
+        "later_decision_supported": true,
+        "pitch_evidence": [
+          {
+            "turn_index": 264,
+            "quote": "And so I would say I'm not ready to commit to anything. I would like to connect and learn more, but not yet ready to say like, I'm in. So."
+          }
+        ],
+        "later_evidence": [
+          {
+            "turn_index": 337,
+            "quote": "No. I think I need to follow up. Um-"
+          }
+        ],
+        "condition": null,
+        "reason": "Jesse expressly declined to commit during the pitch. Sonny later answered no when asked whether Jesse invested."
+      },
+      {
+        "vc_slug": "mike-ma-sidecut-ventures",
+        "pitch_decision_supported": true,
+        "later_decision_supported": true,
+        "pitch_evidence": [
+          {
+            "turn_index": 271,
+            "quote": "So we have a yes from me"
+          }
+        ],
+        "later_evidence": [
+          {
+            "turn_index": 384,
+            "quote": "No. It was a no at the end. There was different optics in when it comes to the go-to-market strategy. I think Mike probably will prefer us to do more of a bottom-up approach when it comes to having another separate pipeline of customers. But we ended up not doing that."
+          }
+        ],
+        "condition": "A $200k-$300k check, approximately $250k, at a 10 cap and with a go-to-market focus.",
+        "reason": "Mike gave an explicit yes subject to the stated check-size, valuation-cap, and go-to-market constraints. The later Foxhole process ended in a no after disagreement over the go-to-market strategy."
+      },
+      {
+        "vc_slug": "rohit-gupta-future-communities-capital",
+        "pitch_decision_supported": false,
+        "later_decision_supported": true,
+        "pitch_evidence": [],
+        "later_evidence": [
+          {
+            "turn_index": 334,
+            "quote": "So Rohit’s investment fizzled out from there."
+          }
+        ],
+        "condition": null,
+        "reason": "Rohit said he was still in the middle of his process and wanted additional diligence, which establishes neither a commitment nor a refusal during the pitch. The followup explicitly reports that his investment fizzled out."
+      }
+    ]
+  },
+  "annotations": [
+    {
+      "vc_slug": "elizabeth-yin-hustle-fund",
+      "pitch_window_decision": "In",
+      "initial_response": "In",
+      "decision_context": "initial_panel",
+      "pitch_evidence": [
+        {
+          "turn_index": 247,
+          "quote": "So I would be in for 150 at 10 post US. I know that that's not what you're looking for, but that's, what we would be open to doing"
+        }
+      ],
+      "later_decision": "In",
+      "later_evidence": [
+        {
+          "turn_index": 334,
+          "quote": "So Elizabeth invested $150k."
+        }
+      ],
+      "condition": "A $150k check at 10 post US; no lead required.",
+      "reason": "Elizabeth explicitly committed to invest $150k during the panel, and the followup reports that she invested $150k.",
+      "proposed_pitch_window_decision": "In",
+      "pitch_evidence_verified": true,
+      "later_evidence_verified": true,
+      "evaluation_eligible": true,
+      "review_status": "machine_reviewed_and_verified",
+      "verification_reason": "Elizabeth explicitly committed during the same pitch session, and the followup explicitly reports that she invested $150k."
+    },
+    {
+      "vc_slug": "jesse-middleton-flybridge",
+      "pitch_window_decision": "Out",
+      "initial_response": "Out",
+      "decision_context": "initial_panel",
+      "pitch_evidence": [
+        {
+          "turn_index": 264,
+          "quote": "And so I would say I'm not ready to commit to anything. I would like to connect and learn more, but not yet ready to say like, I'm in. So."
+        }
+      ],
+      "later_decision": "Out",
+      "later_evidence": [
+        {
+          "turn_index": 337,
+          "quote": "No. I think I need to follow up. Um-"
+        }
+      ],
+      "condition": null,
+      "reason": "Jesse explicitly said he was not ready to commit during the pitch. In the followup, Sonny answered that Jesse had not invested.",
+      "proposed_pitch_window_decision": "Out",
+      "pitch_evidence_verified": true,
+      "later_evidence_verified": true,
+      "evaluation_eligible": true,
+      "review_status": "machine_reviewed_and_verified",
+      "verification_reason": "Jesse expressly declined to commit during the pitch. Sonny later answered no when asked whether Jesse invested."
+    },
+    {
+      "vc_slug": "mike-ma-sidecut-ventures",
+      "pitch_window_decision": "In",
+      "initial_response": "In",
+      "decision_context": "initial_panel",
+      "pitch_evidence": [
+        {
+          "turn_index": 271,
+          "quote": "So we have a yes from me"
+        }
+      ],
+      "later_decision": "Out",
+      "later_evidence": [
+        {
+          "turn_index": 384,
+          "quote": "No. It was a no at the end. There was different optics in when it comes to the go-to-market strategy. I think Mike probably will prefer us to do more of a bottom-up approach when it comes to having another separate pipeline of customers. But we ended up not doing that."
+        }
+      ],
+      "condition": "A $200k-$300k check, approximately $250k, at a 10 cap and with a go-to-market focus.",
+      "reason": "Mike gave an explicit yes during the panel, but the later Foxhole process ended with no because the company did not adopt the preferred go-to-market approach.",
+      "proposed_pitch_window_decision": "In",
+      "pitch_evidence_verified": true,
+      "later_evidence_verified": true,
+      "evaluation_eligible": true,
+      "review_status": "machine_reviewed_and_verified",
+      "verification_reason": "Mike gave an explicit yes subject to the stated check-size, valuation-cap, and go-to-market constraints. The later Foxhole process ended in a no after disagreement over the go-to-market strategy."
+    },
+    {
+      "vc_slug": "rohit-gupta-future-communities-capital",
+      "pitch_window_decision": "Unobserved",
+      "initial_response": "Unobserved",
+      "decision_context": "later_diligence",
+      "pitch_evidence": [],
+      "later_decision": "Out",
+      "later_evidence": [
+        {
+          "turn_index": 334,
+          "quote": "So Rohit’s investment fizzled out from there."
+        }
+      ],
+      "condition": null,
+      "reason": "Rohit said he was still in the middle of his process and wanted to dig further, which is not a commitment or refusal. The later report says his investment fizzled out.",
+      "proposed_pitch_window_decision": "Unobserved",
+      "pitch_evidence_verified": false,
+      "later_evidence_verified": true,
+      "evaluation_eligible": false,
+      "review_status": "unobserved_or_disputed",
+      "verification_reason": "Rohit said he was still in the middle of his process and wanted additional diligence, which establishes neither a commitment nor a refusal during the pitch. The followup explicitly reports that his investment fizzled out."
+    }
+  ],
+  "candidate_pitch": "Sonny: Yeah I'm Sonny. I'm the co-founder and CEO of Ventrix Labs, and we're building modular industrial gas plants starting with CO2. Did you know that CO2 is actually in shortage in the UK since last week and we don't have enough CO2 to make dry ice for food preservation and now we have a food security problem? And every time something like this happens, last time was in 2023, the UK lost around 2 billion pounds. And this is not only a UK problem, this is a global problem because the plants that extract and purify industrial emissions into high grade CO2 takes around 2 to 7 years to build and hundreds of millions to $1 billion to deploy.\nInvestor question: So what are the use cases you're targeting or are you sort of agnostic?\nSonny: We basically bolt onto different industrial plants and anything that's above 5% concentration of CO2 we can extract and purify. Downstream use cases include food and beverage for carbonation and food preservation, as well as E-fuels making, you put CO2 and hydrogen together to make methane and you can put it into construction materials to sequester it permanently and also reduce the cost of concrete. So a lot of different use cases and you can also use to make mechanicals\nSonny: Yes. So, old method is you building a plant next to one of the industrial plants, you are doing that from scratch. so what we're doing differently is we built these modular ones that are around two cubic meters, single door, fridge sized. So you're stacking, as many as you want, to replace these plants. So You just plug into their existing exhaust and you get high grade CO2 out of it.\nInvestor question: What is your background?\nSonny: So my background is, math and AI. previous to this I was working at a Sequoia backed AI startup. I also have a family background in cement. matter of fact, our entire family team grew up in very traditional industries in cement, conservation, steel manufacturing, and train manufacturing. So we all understand how to actually scale technology in the speed that China can. So we're thinking of ways to actually commercialize.\nInvestor question: So how did you actually land on this problem?\nSonny: So we all met at a climate entrepreneur society at Imperial College of London. we started with this material that we wanted to commercialize. it can, only transform molecules the size of CO2 and it's very transferrable for other gases as well, we’re like, yeah, this one has a lot of potential. Started out as capturing CO2 from the air. But realized, the supply chain is actually a bigger issue. 'cause why is the UK currently trucking and shipping CO2 from other countries, spending more carbon to get more carbon? Doesn't make any sense. So we're like, this is a better problem to solve rather than, just looking at carbon credit as a market.\nInvestor question: And would that, out of curiosity is that a hope from these plants that the CO2 is then used more locally, so you're not transporting it?\nSonny: Yeah, exactly. Like using it on site has like both the carbon benefit where you have less transportation emissions. But when it comes to gas, like 87% of the cost is actually transportation. So if you use it on site or locally, it's a lot cheaper.\nInvestor question: Are you selling to the plants or are you just selling to like commercials that need to use CO2?\nSonny: Both. We're targeting onsite use cases first. Because like the economics are like the best. So specifically we're targeting food and beverage markets first. breweries, they're currently emitting CO2 into the air. They're also buying CO2 from gas majors. So you got two parts. What we're doing is closing that loop so they have it on site, so it's a lot cheaper. So for them we're cutting probably 50 to 60% of the cost while maintaining a huge amount of margin.\nInvestor question: Can I ask how you're charging for this, what's the revenue business model in comparison to what the cost that they're spending today?\nSonny: Yeah. our business model's leasing, our customers are paying anywhere between $200 per ton of CO2 to $2,500 per ton of CO2. And in times like this where there's a fluctuation, you are looking at $5,000 per ton of CO2 for merchants. what we're doing is leasing our equipment to them depending on their size and how many they're leasing at once, we're adjusting the price. But usually we help them to cut 50% of the cost.\nInvestor question: Are you varying your pricing based on market demand?\nSonny: No. No, we're not, so we're not kind of selling it as a commodity.\nSonny: Exactly.\nSonny: Yeah. So if they have excess CO2 that they capture, they can also sell that to a gas major.\nInvestor question: Can you talk about the volatility of the CO2 market? Like what are the drivers for that? How much does it vary?\nSonny: before we talk about the volatility, like right now, even just by physics, it's very difficult to build these plants. It take a long time and it takes a lot of money to build. So the supply is still scarce. And then in times like this where you have, let's say conflicts, and then you are short on fuel, so you can't really transport CO2. So that's what's mainly causing the fluctuations right now. I would say that's one of the main drivers. The other one's the cost of electricity, basically to produce CO2 you have to expend energy. So those are two big ones. I would look at it kind of like electricity, which is just like a commodity, but you're not really charging on, the commodity itself. You are charging the uptime. so you're charging the customers on how secure the supply is.\nInvestor question: How does the technology work? Like what is the feedstock that creates the fuel and then does the company that you're working with, they have to have some sort of output, like a waste output that goes in as a feed stock in order for there to be a loop?\nSonny: Yeah. So we deal with any fluid gas that has above 5% concentration of CO2. it goes through a pre-processing to get rid of all the impurities, and then it goes into an absorption chamber where we have this material that kind of works like a sponge, it only traps molecules the size of CO2. And once it's fully saturated, we push the CO2 out, and at this point it's pretty much pure CO2 and then we'll liquefy it.\nSonny: if they're, burning or fermenting that has carbon as an output, that we can do.\nSonny: So basically currently they're probably paying around $200 per ton of CO2. what we can do is actually cut that in half once they install us. And what's more interesting for them is that they're also subject to US 45q tax credits. for any ton of CO2, they get another $60 per ton reduction. if we were helping them to recycle CO2 into like e-fuels or construction materials. We can capture probably a hundred percent more than them and we can open that as a new revenue stream.\nInvestor question: Like Is it poor forecasting or?\nSonny: yeah, when you are talking about 1 million tons per year output, yes it works for them. But when it comes to, building for smaller, like small to medium sized emitters it's much, viable to use ours because our units are mass manufactured. when you mass manufacture, standardize the same unit, you can kind of reach like solar panel or EV level of learning rates. So they can reduce quite quickly. And for the past decades we've been building same huge plants. learning rates are around 3%, so your costs effectively have not gone down at all. So if you want to be able to deploy them fast and make them cheap, we're going modular\nSonny: Yeah.\nSonny: Well, it's been built in the same way, in a sense that it's bespoke for every single plant.\nSonny: Which is why it's difficult. But we've seen cases where modular things are a lot cheaper to deploy. Like solar panel at the beginning was very, very expensive. And then now we were able to deploy them kind of anywhere in a distributed way. And their cost has gone down really quickly.\nSonny: Yeah. I would say there's another thing that people have not thought about building modular, let's say stacking hundreds of thousands before the age of AI. 'cause this is pretty much impossible. Each unit has around, let's say 20 to 30 parameters. If you're stacking hundreds of them or thousands of them together, that's 20,000 parameters controlled at once. and now we have the compute to be able to do that, but before that, it's pretty much impossible. So this is kind of our software moat that we're building.\nSonny: Yeah, So we sign our first commercial offtake, with a brewery in Wales. And then we have seven LOIs within the pipeline. Some of them include energy plants and other breweries that are larger.\nInvestor question: Is that fair?\nSonny: Yeah.\nInvestor question: So can you walk us through, like how you made that sale?\nInvestor question: Like why’d they buy?\nSonny: Yeah. So they already understand the pain. We don't have to explain it to them. So, the supply shortage is a thing that actually affects their operation.\nSonny: Yeah.\nInvestor question: What is the pain?\nSonny: Yeah.\nSonny: Yeah.\nSonny: Yeah.\nInvestor question: Is that the pain?\nSonny: So there are cases where you can't get CO2 at all when there's shortage. They will prioritize distribution to hospitals\nSonny: For medical use cases. And if you don't have CO2, you can't brew beer.\nInvestor question: So can I parrot back something?\nSonny: Yeah.\nSonny: mm-hmm.\nSonny: I don't think this is a trend. I don't think it's something that's only geopolitics. I think it's-\nInvestor question: would they have this problem?\nSonny: Yes. 'cause the demand is growing. so we have sectors such as e-fuels and constructions are growing at 23 and 30% GCAGR. So the demand is actually outgrowing supply by a lot, And we simply cannot keep up.\nInvestor question: Can I return to the sale in Wales?\nInvestor question: Can I return to the sale in Wales?\nSonny: Yeah.\nSonny: Yeah. So essentially we approached them, we told them, we understand your problem. Is this true? They said it's true. And we're actually kind of tired of, our current supplier. We wanna switch to you. They're essentially our pilot customer. And before we finish, building this, they're like, yeah, um, we actually wanna switch you because, , sometimes the existing supplier does not deliver. And then we don't want to be subject to the security problem.\nInvestor question: And what are they paying you as part of this contract?\nSonny: they're paying, 10K per year. So it's exactly how much we have within our, model.\nInvestor question: And, how much does it cost you to build one of these?\nSonny: So right now we're the first of a kind. We're building this around 40k. so we're looking at, once we start manufacturing this, around 20K\nSonny: Per unit?\nSonny: No.\nInvestor question: Well, how, how many units are you leasing out?\nSonny: for this brewery, we're leasing one. we get 10K per year, so we get them back. And also,\nSonny: No, two.\nSonny: for first of a kind. So we have a grant that cover the CapEx of this, because this is the first plant that we ever built.\nInvestor question: Oh, you have a grant?\nSonny: Yeah So once we start manufacturing it’s around, 20k, we're charging the installation fee upfront as well.\nSonny: Exactly.\nSonny: Yeah.\nInvestor question: Have you tested the 20k upfront? where people would pay that?\nSonny: Yeah. So within the industry we have other competitors not selling CO2. Let's say farmers or anaerobic digestion plants or buying industrial equipment. They're selling the equipment first. On top of that they're charging a leasing amount.\nSonny: Payback period for them is usually between seven to 14 years. usually, what they do is they bundle a 20 year contract within.\nSonny: And then they do a special SPV essentially. And what we're doing is actually making it much more financeable for these customers.\nSonny: So it's a lot better than the market standard.\nInvestor question: So who do you go to to sell?\nSonny: So we go to actually enterprise customers. We actually now have inbound, last week we had a very large beverage company that you've probably heard of that I can't tell, came to us. We go specifically to two people, supply chain lead and decarbonization lead and from both sides. the incentives for both of 'em are huge. that's our way in normally.\nInvestor question: How much does the Welsh Brewery spend on CO2 annually?\nSonny: So currently they're paying around a thousand, dollars per ton per year.\nInvestor question: And how many tons?\nSonny: 20, they're looking to increase to 40.\nSonny: But our unit captures between 60 to 120, so it actually covers\nSonny: Yeah. They can make extra money from selling the Co2 as well\nSonny: the way that we structure the, the leasing amount kind of covers that. so if they do purely resell, their payback period is around three years. But if they're using it on site, it’s anywhere between three months to two years.\nSonny: Yes. But there are other people who are demanding, let's say like 3000 tons per year. Like that's like a small to medium sized, brewery. And then for like AB InBev for example, they're demanding probably like 10,000 tons per year.\nSonny: Yeah, we definitely will lock in a longer contract. So even with the pilot customer, right now we're doing three year, but normally we'll look at anywhere between 5 to 20 years. Especially for the larger size, let's say a wasteful energy plant, we're probably looking at a 20 year, that's just the market standard.\nInvestor question: What's the material that you use?\nSonny: It's a solid absorbent. I can’t disclose exactly what it is, I can tell you off camera\nSonny: Yeah.\nSonny: basically our IP is on the process engineering part. how we design the unit and then how the unit can communicate each other, is basically the mechanical design that allows this to happen.\nSonny: Yeah.\nSonny: Yeah.\nSonny: So that's more the, you’re not dumb. So it's like a trade secret, right? Like the software part is just the trade secret and then modularity is the IP and anything related to how they communicate with each other is like a family of the IP.\nInvestor question: Who holds the IP on the absorbent?\nSonny: We don't own it. We're working with a manufacturer offshore to produce it. But that category of absorbent, is pretty much like research. so it's-\nInvestor question: Is it owned by a university?\nSonny: No.\nInvestor question: So who owns it?\nInvestor question: But you have to pay like a licensing fee?\nSonny: We don't pay a licensing fee. I think the manufacturer pays the licensing fee to someone else.\nInvestor question: Do you have an exclusive?\nSonny: No, but it's not a material that's difficult to make. We're thinking about manufacturing ourselves with a little twist to the formula.\nSonny: Potentially\nSonny: Yeah.\nSonny: Yeah. We are technically absorbent agnostic so we can deal with any sort of solid absorbent. If we want to develop our own later, it wouldn't be a difficult switch.\nInvestor question: How long would it take you to create your own?\nSonny: Probably, let’s say like a year or two. I don't think it's difficult.\nInvestor question: When did you start this company?\nSonny: We started around a year and eight months ago while we were still doing our masters.\nInvestor question: And does Imperial have any economics in this?\nSonny: No. We build everything in our own garage. And then, talk to advisors for like technical validation and commercial validation.\nInvestor question: How much have you raised, and roughly like how much of the company have you sold and all that?\nSonny: uh it's pretty much founder owned. um, raised a roughly around 400K, 500K angel round before, with participation from, Alexis Ohanian, the co-founder Reddit, as well as like a few other, family offices and one small institutional from the US\nInvestor question: And what were the terms of that?\nSonny: that one was 5.75 mil pounds, so that's roughly around 7.6. $7.7 million dollars.\nSonny: $2 million dollars\nInvestor question: What are the use of proceeds?\nSonny: so we're specifically finished deploying our industrial demo, which stacks five units together. We're finishing on the AI control layer, and then during the process we'll also scale our sales. We're actually looking to mass manufacture at the end of 2027, so getting a lot of contracts piled up together so we can manufacture more. So that's the goal for the pre-seed.\nInvestor question: Can I ask a, this may be a silly question, I'm not sure, but, Is CO2 used much with regard to things like data centers in general cooling?\nSonny: Yeah. So you can use it as a refrigerant.\nSonny: Some data centers do use it. Actually, I just had this very interesting conversation last night where there's a lot of natural gas plants right next to data centers right now.\nSonny: And we can actually capture from there and then reuse it locally. So one of the use cases could be doing something with cooling in data centers.\nInvestor question: When do you plan on deploying to this Welsh brewery?\nSonny: So we're doing it right now.\nSonny: Yeah.\nSonny: Well, we we're finishing- Thank you. From start to end, it's gonna be in six months. I think we're really quick. Like normally you'll probably need one or two years to do so, but because my CTO has like mass manufacturing experience we're able to do this a lot quicker.\nSonny: Yeah. So every ton used by our unit, or recycled by our unit. You're saving essentially 1.1 tons of equivalent of CO2. For a brewery essentially, instead of emitting and getting another part, your recycling so you’re reducing one part of your direct emissions, and then you're also cutting the transportation emission related to that, which usually is around like. 0.1 ton, per ton of CO2 that you use.\nInvestor question: Why do you guys care about that?\n",
+  "pitch": "Sonny: Yeah I'm Sonny. I'm the co-founder and CEO of Ventrix Labs, and we're building modular industrial gas plants starting with CO2. Did you know that CO2 is actually in shortage in the UK since last week and we don't have enough CO2 to make dry ice for food preservation and now we have a food security problem? And every time something like this happens, last time was in 2023, the UK lost around 2 billion pounds. And this is not only a UK problem, this is a global problem because the plants that extract and purify industrial emissions into high grade CO2 takes around 2 to 7 years to build and hundreds of millions to $1 billion to deploy.\nInvestor question: So what are the use cases you're targeting or are you sort of agnostic?\nSonny: We basically bolt onto different industrial plants and anything that's above 5% concentration of CO2 we can extract and purify. Downstream use cases include food and beverage for carbonation and food preservation, as well as E-fuels making, you put CO2 and hydrogen together to make methane and you can put it into construction materials to sequester it permanently and also reduce the cost of concrete. So a lot of different use cases and you can also use to make mechanicals\nSonny: Yes. So, old method is you building a plant next to one of the industrial plants, you are doing that from scratch. so what we're doing differently is we built these modular ones that are around two cubic meters, single door, fridge sized. So you're stacking, as many as you want, to replace these plants. So You just plug into their existing exhaust and you get high grade CO2 out of it.\nInvestor question: What is your background?\nSonny: So my background is, math and AI. previous to this I was working at a Sequoia backed AI startup. I also have a family background in cement. matter of fact, our entire family team grew up in very traditional industries in cement, conservation, steel manufacturing, and train manufacturing. So we all understand how to actually scale technology in the speed that China can. So we're thinking of ways to actually commercialize.\nInvestor question: So how did you actually land on this problem?\nSonny: So we all met at a climate entrepreneur society at Imperial College of London. we started with this material that we wanted to commercialize. it can, only transform molecules the size of CO2 and it's very transferrable for other gases as well, we’re like, yeah, this one has a lot of potential. Started out as capturing CO2 from the air. But realized, the supply chain is actually a bigger issue. 'cause why is the UK currently trucking and shipping CO2 from other countries, spending more carbon to get more carbon? Doesn't make any sense. So we're like, this is a better problem to solve rather than, just looking at carbon credit as a market.\nInvestor question: And would that, out of curiosity is that a hope from these plants that the CO2 is then used more locally, so you're not transporting it?\nSonny: Yeah, exactly. Like using it on site has like both the carbon benefit where you have less transportation emissions. But when it comes to gas, like 87% of the cost is actually transportation. So if you use it on site or locally, it's a lot cheaper.\nInvestor question: Are you selling to the plants or are you just selling to like commercials that need to use CO2?\nSonny: Both. We're targeting onsite use cases first. Because like the economics are like the best. So specifically we're targeting food and beverage markets first. breweries, they're currently emitting CO2 into the air. They're also buying CO2 from gas majors. So you got two parts. What we're doing is closing that loop so they have it on site, so it's a lot cheaper. So for them we're cutting probably 50 to 60% of the cost while maintaining a huge amount of margin.\nInvestor question: Can I ask how you're charging for this, what's the revenue business model in comparison to what the cost that they're spending today?\nSonny: Yeah. our business model's leasing, our customers are paying anywhere between $200 per ton of CO2 to $2,500 per ton of CO2. And in times like this where there's a fluctuation, you are looking at $5,000 per ton of CO2 for merchants. what we're doing is leasing our equipment to them depending on their size and how many they're leasing at once, we're adjusting the price. But usually we help them to cut 50% of the cost.\nInvestor question: Are you varying your pricing based on market demand?\nSonny: No. No, we're not, so we're not kind of selling it as a commodity.\nSonny: Exactly.\nSonny: Yeah. So if they have excess CO2 that they capture, they can also sell that to a gas major.\nInvestor question: Can you talk about the volatility of the CO2 market? Like what are the drivers for that? How much does it vary?\nSonny: before we talk about the volatility, like right now, even just by physics, it's very difficult to build these plants. It take a long time and it takes a lot of money to build. So the supply is still scarce. And then in times like this where you have, let's say conflicts, and then you are short on fuel, so you can't really transport CO2. So that's what's mainly causing the fluctuations right now. I would say that's one of the main drivers. The other one's the cost of electricity, basically to produce CO2 you have to expend energy. So those are two big ones. I would look at it kind of like electricity, which is just like a commodity, but you're not really charging on, the commodity itself. You are charging the uptime. so you're charging the customers on how secure the supply is.\nInvestor question: How does the technology work? Like what is the feedstock that creates the fuel and then does the company that you're working with, they have to have some sort of output, like a waste output that goes in as a feed stock in order for there to be a loop?\nSonny: Yeah. So we deal with any fluid gas that has above 5% concentration of CO2. it goes through a pre-processing to get rid of all the impurities, and then it goes into an absorption chamber where we have this material that kind of works like a sponge, it only traps molecules the size of CO2. And once it's fully saturated, we push the CO2 out, and at this point it's pretty much pure CO2 and then we'll liquefy it.\nSonny: if they're, burning or fermenting that has carbon as an output, that we can do.\nSonny: So basically currently they're probably paying around $200 per ton of CO2. what we can do is actually cut that in half once they install us. And what's more interesting for them is that they're also subject to US 45q tax credits. for any ton of CO2, they get another $60 per ton reduction. if we were helping them to recycle CO2 into like e-fuels or construction materials. We can capture probably a hundred percent more than them and we can open that as a new revenue stream.\nInvestor question: Like Is it poor forecasting or?\nSonny: yeah, when you are talking about 1 million tons per year output, yes it works for them. But when it comes to, building for smaller, like small to medium sized emitters it's much, viable to use ours because our units are mass manufactured. when you mass manufacture, standardize the same unit, you can kind of reach like solar panel or EV level of learning rates. So they can reduce quite quickly. And for the past decades we've been building same huge plants. learning rates are around 3%, so your costs effectively have not gone down at all. So if you want to be able to deploy them fast and make them cheap, we're going modular\nSonny: Yeah.\nSonny: Well, it's been built in the same way, in a sense that it's bespoke for every single plant.\nSonny: Which is why it's difficult. But we've seen cases where modular things are a lot cheaper to deploy. Like solar panel at the beginning was very, very expensive. And then now we were able to deploy them kind of anywhere in a distributed way. And their cost has gone down really quickly.\nSonny: Yeah. I would say there's another thing that people have not thought about building modular, let's say stacking hundreds of thousands before the age of AI. 'cause this is pretty much impossible. Each unit has around, let's say 20 to 30 parameters. If you're stacking hundreds of them or thousands of them together, that's 20,000 parameters controlled at once. and now we have the compute to be able to do that, but before that, it's pretty much impossible. So this is kind of our software moat that we're building.\nSonny: Yeah, So we sign our first commercial offtake, with a brewery in Wales. And then we have seven LOIs within the pipeline. Some of them include energy plants and other breweries that are larger.\nInvestor question: Is that fair?\nSonny: Yeah.\nInvestor question: So can you walk us through, like how you made that sale?\nInvestor question: Like why’d they buy?\nSonny: Yeah. So they already understand the pain. We don't have to explain it to them. So, the supply shortage is a thing that actually affects their operation.\nSonny: Yeah.\nInvestor question: What is the pain?\nSonny: Yeah.\nSonny: Yeah.\nSonny: Yeah.\nInvestor question: Is that the pain?\nSonny: So there are cases where you can't get CO2 at all when there's shortage. They will prioritize distribution to hospitals\nSonny: For medical use cases. And if you don't have CO2, you can't brew beer.\nInvestor question: So can I parrot back something?\nSonny: Yeah.\nSonny: mm-hmm.\nSonny: I don't think this is a trend. I don't think it's something that's only geopolitics. I think it's-\nInvestor question: would they have this problem?\nSonny: Yes. 'cause the demand is growing. so we have sectors such as e-fuels and constructions are growing at 23 and 30% GCAGR. So the demand is actually outgrowing supply by a lot, And we simply cannot keep up.\nInvestor question: Can I return to the sale in Wales?\nInvestor question: Can I return to the sale in Wales?\nSonny: Yeah.\nSonny: Yeah. So essentially we approached them, we told them, we understand your problem. Is this true? They said it's true. And we're actually kind of tired of, our current supplier. We wanna switch to you. They're essentially our pilot customer. And before we finish, building this, they're like, yeah, um, we actually wanna switch you because, , sometimes the existing supplier does not deliver. And then we don't want to be subject to the security problem.\nInvestor question: And what are they paying you as part of this contract?\nSonny: they're paying, 10K per year. So it's exactly how much we have within our, model.\nInvestor question: And, how much does it cost you to build one of these?\nSonny: So right now we're the first of a kind. We're building this around 40k. so we're looking at, once we start manufacturing this, around 20K\nSonny: Per unit?\nSonny: No.\nInvestor question: Well, how, how many units are you leasing out?\nSonny: for this brewery, we're leasing one. we get 10K per year, so we get them back. And also,\nSonny: No, two.\nSonny: for first of a kind. So we have a grant that cover the CapEx of this, because this is the first plant that we ever built.\nInvestor question: Oh, you have a grant?\nSonny: Yeah So once we start manufacturing it’s around, 20k, we're charging the installation fee upfront as well.\nSonny: Exactly.\nSonny: Yeah.\nInvestor question: Have you tested the 20k upfront? where people would pay that?\nSonny: Yeah. So within the industry we have other competitors not selling CO2. Let's say farmers or anaerobic digestion plants or buying industrial equipment. They're selling the equipment first. On top of that they're charging a leasing amount.\nSonny: Payback period for them is usually between seven to 14 years. usually, what they do is they bundle a 20 year contract within.\nSonny: And then they do a special SPV essentially. And what we're doing is actually making it much more financeable for these customers.\nSonny: So it's a lot better than the market standard.\nInvestor question: So who do you go to to sell?\nSonny: So we go to actually enterprise customers. We actually now have inbound, last week we had a very large beverage company that you've probably heard of that I can't tell, came to us. We go specifically to two people, supply chain lead and decarbonization lead and from both sides. the incentives for both of 'em are huge. that's our way in normally.\nInvestor question: How much does the Welsh Brewery spend on CO2 annually?\nSonny: So currently they're paying around a thousand, dollars per ton per year.\nInvestor question: And how many tons?\nSonny: 20, they're looking to increase to 40.\nSonny: But our unit captures between 60 to 120, so it actually covers\nSonny: Yeah. They can make extra money from selling the Co2 as well\nSonny: the way that we structure the, the leasing amount kind of covers that. so if they do purely resell, their payback period is around three years. But if they're using it on site, it’s anywhere between three months to two years.\nSonny: Yes. But there are other people who are demanding, let's say like 3000 tons per year. Like that's like a small to medium sized, brewery. And then for like AB InBev for example, they're demanding probably like 10,000 tons per year.\nSonny: Yeah, we definitely will lock in a longer contract. So even with the pilot customer, right now we're doing three year, but normally we'll look at anywhere between 5 to 20 years. Especially for the larger size, let's say a wasteful energy plant, we're probably looking at a 20 year, that's just the market standard.\nInvestor question: What's the material that you use?\nSonny: It's a solid absorbent. I can’t disclose exactly what it is, I can tell you off camera\nSonny: Yeah.\nSonny: basically our IP is on the process engineering part. how we design the unit and then how the unit can communicate each other, is basically the mechanical design that allows this to happen.\nSonny: Yeah.\nSonny: Yeah.\nSonny: So that's more the, you’re not dumb. So it's like a trade secret, right? Like the software part is just the trade secret and then modularity is the IP and anything related to how they communicate with each other is like a family of the IP.\nInvestor question: Who holds the IP on the absorbent?\nSonny: We don't own it. We're working with a manufacturer offshore to produce it. But that category of absorbent, is pretty much like research. so it's-\nInvestor question: Is it owned by a university?\nSonny: No.\nInvestor question: So who owns it?\nInvestor question: But you have to pay like a licensing fee?\nSonny: We don't pay a licensing fee. I think the manufacturer pays the licensing fee to someone else.\nInvestor question: Do you have an exclusive?\nSonny: No, but it's not a material that's difficult to make. We're thinking about manufacturing ourselves with a little twist to the formula.\nSonny: Potentially\nSonny: Yeah.\nSonny: Yeah. We are technically absorbent agnostic so we can deal with any sort of solid absorbent. If we want to develop our own later, it wouldn't be a difficult switch.\nInvestor question: How long would it take you to create your own?\nSonny: Probably, let’s say like a year or two. I don't think it's difficult.\nInvestor question: When did you start this company?\nSonny: We started around a year and eight months ago while we were still doing our masters.\nInvestor question: And does Imperial have any economics in this?\nSonny: No. We build everything in our own garage. And then, talk to advisors for like technical validation and commercial validation.\nInvestor question: How much have you raised, and roughly like how much of the company have you sold and all that?\nSonny: uh it's pretty much founder owned. um, raised a roughly around 400K, 500K angel round before, with participation from, Alexis Ohanian, the co-founder Reddit, as well as like a few other, family offices and one small institutional from the US\nInvestor question: And what were the terms of that?\nSonny: that one was 5.75 mil pounds, so that's roughly around 7.6. $7.7 million dollars.\nSonny: $2 million dollars\nInvestor question: What are the use of proceeds?\nSonny: so we're specifically finished deploying our industrial demo, which stacks five units together. We're finishing on the AI control layer, and then during the process we'll also scale our sales. We're actually looking to mass manufacture at the end of 2027, so getting a lot of contracts piled up together so we can manufacture more. So that's the goal for the pre-seed.\nInvestor question: Can I ask a, this may be a silly question, I'm not sure, but, Is CO2 used much with regard to things like data centers in general cooling?\nSonny: Yeah. So you can use it as a refrigerant.\nSonny: Some data centers do use it. Actually, I just had this very interesting conversation last night where there's a lot of natural gas plants right next to data centers right now.\nSonny: And we can actually capture from there and then reuse it locally. So one of the use cases could be doing something with cooling in data centers.\nInvestor question: When do you plan on deploying to this Welsh brewery?\nSonny: So we're doing it right now.\nSonny: Yeah.\nSonny: Yeah. So every ton used by our unit, or recycled by our unit. You're saving essentially 1.1 tons of equivalent of CO2. For a brewery essentially, instead of emitting and getting another part, your recycling so you’re reducing one part of your direct emissions, and then you're also cutting the transportation emission related to that, which usually is around like. 0.1 ton, per ton of CO2 that you use.\nInvestor question: Why do you guys care about that?\n",
+  "pitch_safe": true,
+  "segments": [
+    {
+      "action": "retained",
+      "attributed_source_line_index": 0,
+      "attributed_source_line_sha256": "ba3d4a0ab85dc4557ef14860d300841f423e874756f60aaa019011b8cef28fa2",
+      "reason": "founder pitch or pre-decision factual answer; removed 1 unattributed continuation line(s); preserved factual names for semantic review",
+      "rendered_text": "Sonny: Yeah I'm Sonny. I'm the co-founder and CEO of Ventrix Labs, and we're building modular industrial gas plants starting with CO2. Did you know that CO2 is actually in shortage in the UK since last week and we don't have enough CO2 to make dry ice for food preservation and now we have a food security problem? And every time something like this happens, last time was in 2023, the UK lost around 2 billion pounds. And this is not only a UK problem, this is a global problem because the plants that extract and purify industrial emissions into high grade CO2 takes around 2 to 7 years to build and hundreds of millions to $1 billion to deploy.",
+      "retained_content_class": "explicit_founder",
+      "preceded_by_investor_decision": false,
+      "source_turn_index": 54,
+      "speaker": "Sonny",
+      "unattributed_continuation_count": 1
+    },
+    {
+      "action": "removed",
+      "attributed_source_line_index": 0,
+      "attributed_source_line_sha256": "1bd882b6a6343777c2fd7081acecea5a0e73468f97dec0dc8afe134d182f63ad",
+      "reason": "removed non-founder, evaluative, or unnecessary context",
+      "rendered_text": "",
+      "retained_content_class": null,
+      "preceded_by_investor_decision": false,
+      "source_turn_index": 55,
+      "speaker": "Rohit",
+      "unattributed_continuation_count": 0
+    },
+    {
+      "action": "removed",
+      "attributed_source_line_index": 0,
+      "attributed_source_line_sha256": "b4791ba04377a68f74584b96595ca1a904790bd2eb67e0337fadbec0d35a4f76",
+      "reason": "removed non-founder, evaluative, or unnecessary context",
+      "rendered_text": "",
+      "retained_content_class": null,
+      "preceded_by_investor_decision": false,
+      "source_turn_index": 56,
+      "speaker": "Elizabeth",
+      "unattributed_continuation_count": 0
+    },
+    {
+      "action": "removed",
+      "attributed_source_line_index": 0,
+      "attributed_source_line_sha256": "2b1ee291fa9a3ab036eee820b5d4a371923c064e8a91cdd72f52f1b0e8e49601",
+      "reason": "removed non-founder, evaluative, or unnecessary context",
+      "rendered_text": "",
+      "retained_content_class": null,
+      "preceded_by_investor_decision": false,
+      "source_turn_index": 57,
+      "speaker": "Mike",
+      "unattributed_continuation_count": 0
+    },
+    {
+      "action": "neutralized",
+      "attributed_source_line_index": 0,
+      "attributed_source_line_sha256": "6002a9f934a7ea899fb2d9ee610b42202bae06a27194937cdcc6cd6c016d30c0",
+      "reason": "neutralized investor question",
+      "rendered_text": "Investor question: So what are the use cases you're targeting or are you sort of agnostic?",
+      "retained_content_class": "explicit_investor_question",
+      "preceded_by_investor_decision": false,
+      "source_turn_index": 58,
+      "speaker": "Rohit",
+      "unattributed_continuation_count": 0
+    },
+    {
+      "action": "retained",
+      "attributed_source_line_index": 0,
+      "attributed_source_line_sha256": "96f0002389a3111ab1a127bf221b781777dbe22f0c4abbebc31f0e4ea0120b80",
+      "reason": "founder pitch or pre-decision factual answer; preserved factual names for semantic review",
+      "rendered_text": "Sonny: We basically bolt onto different industrial plants and anything that's above 5% concentration of CO2 we can extract and purify. Downstream use cases include food and beverage for carbonation and food preservation, as well as E-fuels making, you put CO2 and hydrogen together to make methane and you can put it into construction materials to sequester it permanently and also reduce the cost of concrete. So a lot of different use cases and you can also use to make mechanicals",
+      "retained_content_class": "explicit_founder",
+      "preceded_by_investor_decision": false,
+      "source_turn_index": 59,
+      "speaker": "Sonny",
+      "unattributed_continuation_count": 0
+    },
+    {
+      "action": "removed",
+      "attributed_source_line_index": 0,
+      "attributed_source_line_sha256": "8b6cca54a60b6b242b28981c876f6757785d807265e9476b8b2a4669d6b851b0",
+      "reason": "removed non-founder, evaluative, or unnecessary context",
+      "rendered_text": "",
+      "retained_content_class": null,
+      "preceded_by_investor_decision": false,
+      "source_turn_index": 60,
+      "speaker": "Jesse",
+      "unattributed_continuation_count": 0
+    },
+    {
+      "action": "retained",
+      "attributed_source_line_index": 0,
+      "attributed_source_line_sha256": "456bc863bbec6ea0b81cc4da907aed88f428257a926d2a9677fd1137d08ee28f",
+      "reason": "founder pitch or pre-decision factual answer; preserved factual names for semantic review",
+      "rendered_text": "Sonny: Yes. So, old method is you building a plant next to one of the industrial plants, you are doing that from scratch. so what we're doing differently is we built these modular ones that are around two cubic meters, single door, fridge sized. So you're stacking, as many as you want, to replace these plants. So You just plug into their existing exhaust and you get high grade CO2 out of it.",
+      "retained_content_class": "explicit_founder",
+      "preceded_by_investor_decision": false,
+      "source_turn_index": 61,
+      "speaker": "Sonny",
+      "unattributed_continuation_count": 0
+    },
+    {
+      "action": "removed",
+      "attributed_source_line_index": 0,
+      "attributed_source_line_sha256": "5179dad09edbbe176af499524ea56a17b9f173415ba495ec6b1d1086f04f0eb5",
+      "reason": "removed non-founder, evaluative, or unnecessary context",
+      "rendered_text": "",
+      "retained_content_class": null,
+      "preceded_by_investor_decision": false,
+      "source_turn_index": 62,
+      "speaker": "Jesse",
+      "unattributed_continuation_count": 0
+    },
+    {
+      "action": "neutralized",
+      "attributed_source_line_index": 0,
+      "attributed_source_line_sha256": "d353f9243625c9aaa54a1a5463e5db69cad4beb7873a8e41f0af195d5195cb5c",
+      "reason": "neutralized investor question",
+      "rendered_text": "Investor question: What is your background?",
+      "retained_content_class": "explicit_investor_question",
+      "preceded_by_investor_decision": false,
+      "source_turn_index": 63,
+      "speaker": "Elizabeth",
+      "unattributed_continuation_count": 0
+    },
+    {
+      "action": "retained",
+      "attributed_source_line_index": 0,
+      "attributed_source_line_sha256": "1204d8c124d5f7816a9f1b4b488803792a3f9784f7f291ff8e90e90582ccb816",
+      "reason": "founder pitch or pre-decision factual answer; preserved factual names for semantic review",
+      "rendered_text": "Sonny: So my background is, math and AI. previous to this I was working at a Sequoia backed AI startup. I also have a family background in cement. matter of fact, our entire family team grew up in very traditional industries in cement, conservation, steel manufacturing, and train manufacturing. So we all understand how to actually scale technology in the speed that China can. So we're thinking of ways to actually commercialize.",
+      "retained_content_class": "explicit_founder",
+      "preceded_by_investor_decision": false,
+      "source_turn_index": 64,
+      "speaker": "Sonny",
+      "unattributed_continuation_count": 0
+    },
+    {
+      "action": "neutralized",
+      "attributed_source_line_index": 0,
+      "attributed_source_line_sha256": "9b382a16ed703ab1fc5169c581caf7eee7921cf4b29a955feba13d95c32e18c9",
+      "reason": "neutralized investor question",
+      "rendered_text": "Investor question: So how did you actually land on this problem?",
+      "retained_content_class": "explicit_investor_question",
+      "preceded_by_investor_decision": false,
+      "source_turn_index": 65,
+      "speaker": "Elizabeth",
+      "unattributed_continuation_count": 0
+    },
+    {
+      "action": "retained",
+      "attributed_source_line_index": 0,
+      "attributed_source_line_sha256": "2d6734f18f565c49dfc8b956c9f562d2e4866c95c06f5b764b797c3929c50f42",
+      "reason": "founder pitch or pre-decision factual answer; preserved factual names for semantic review",
+      "rendered_text": "Sonny: So we all met at a climate entrepreneur society at Imperial College of London. we started with this material that we wanted to commercialize. it can, only transform molecules the size of CO2 and it's very transferrable for other gases as well, we’re like, yeah, this one has a lot of potential. Started out as capturing CO2 from the air. But realized, the supply chain is actually a bigger issue. 'cause why is the UK currently trucking and shipping CO2 from other countries, spending more carbon to get more carbon? Doesn't make any sense. So we're like, this is a better problem to solve rather than, just looking at carbon credit as a market.",
+      "retained_content_class": "explicit_founder",
+      "preceded_by_investor_decision": false,
+      "source_turn_index": 66,
+      "speaker": "Sonny",
+      "unattributed_continuation_count": 0
+    },
+    {
+      "action": "removed",
+      "attributed_source_line_index": 0,
+      "attributed_source_line_sha256": "c67e5331e6470c411e97d083a0c9d51908521bf39b5e395eb8de80c8f4a03a42",
+      "reason": "removed non-founder, evaluative, or unnecessary context",
+      "rendered_text": "",
+      "retained_content_class": null,
+      "preceded_by_investor_decision": false,
+      "source_turn_index": 67,
+      "speaker": "Elizabeth",
+      "unattributed_continuation_count": 0
+    },
+    {
+      "action": "neutralized",
+      "attributed_source_line_index": 0,
+      "attributed_source_line_sha256": "6b08c1e4452ab285c4829fcdd6b43ee1b62372d10d8ec647d4ca8eaaa8579c6b",
+      "reason": "neutralized investor question",
+      "rendered_text": "Investor question: And would that, out of curiosity is that a hope from these plants that the CO2 is then used more locally, so you're not transporting it?",
+      "retained_content_class": "explicit_investor_question",
+      "preceded_by_investor_decision": false,
+      "source_turn_index": 68,
+      "speaker": "Jesse",
+      "unattributed_continuation_count": 0
+    },
+    {
+      "action": "retained",
+      "attributed_source_line_index": 0,
+      "attributed_source_line_sha256": "fc7888d71b9cdfe968804a26c9d8534c9ec8b6b3bdc2b87fad1a5031188b14bf",
+      "reason": "founder pitch or pre-decision factual answer; preserved factual names for semantic review",
+      "rendered_text": "Sonny: Yeah, exactly. Like using it on site has like both the carbon benefit where you have less transportation emissions. But when it comes to gas, like 87% of the cost is actually transportation. So if you use it on site or locally, it's a lot cheaper.",
+      "retained_content_class": "explicit_founder",
+      "preceded_by_investor_decision": false,
+      "source_turn_index": 69,
+      "speaker": "Sonny",
+      "unattributed_continuation_count": 0
+    },
+    {
+      "action": "neutralized",
+      "attributed_source_line_index": 0,
+      "attributed_source_line_sha256": "1ae1b0d3f3986c200446b9336eabc84a72ff1af4d78d4137d67103daa2a85a2a",
+      "reason": "neutralized investor question",
+      "rendered_text": "Investor question: Are you selling to the plants or are you just selling to like commercials that need to use CO2?",
+      "retained_content_class": "explicit_investor_question",
+      "preceded_by_investor_decision": false,
+      "source_turn_index": 70,
+      "speaker": "Michelle",
+      "unattributed_continuation_count": 0
+    },
+    {
+      "action": "retained",
+      "attributed_source_line_index": 0,
+      "attributed_source_line_sha256": "0f760fc7050cd03793db1f769e3a19b965c4e4f537842a2658628afdb9f18854",
+      "reason": "founder pitch or pre-decision factual answer; preserved factual names for semantic review",
+      "rendered_text": "Sonny: Both. We're targeting onsite use cases first. Because like the economics are like the best. So specifically we're targeting food and beverage markets first. breweries, they're currently emitting CO2 into the air. They're also buying CO2 from gas majors. So you got two parts. What we're doing is closing that loop so they have it on site, so it's a lot cheaper. So for them we're cutting probably 50 to 60% of the cost while maintaining a huge amount of margin.",
+      "retained_content_class": "explicit_founder",
+      "preceded_by_investor_decision": false,
+      "source_turn_index": 71,
+      "speaker": "Sonny",
+      "unattributed_continuation_count": 0
+    },
+    {
+      "action": "neutralized",
+      "attributed_source_line_index": 0,
+      "attributed_source_line_sha256": "764281083fd0239680b51ca1a55c206714bebe6acb531d15b1c98eb4474b72e9",
+      "reason": "neutralized investor question",
+      "rendered_text": "Investor question: Can I ask how you're charging for this, what's the revenue business model in comparison to what the cost that they're spending today?",
+      "retained_content_class": "explicit_investor_question",
+      "preceded_by_investor_decision": false,
+      "source_turn_index": 72,
+      "speaker": "Mike",
+      "unattributed_continuation_count": 0
+    },
+    {
+      "action": "retained",
+      "attributed_source_line_index": 0,
+      "attributed_source_line_sha256": "290cb22d72c3079fbfd210d61ed4e74ba176feb06bdef91ac6f3f65dd2dcf83e",
+      "reason": "founder pitch or pre-decision factual answer; preserved factual names for semantic review",
+      "rendered_text": "Sonny: Yeah. our business model's leasing, our customers are paying anywhere between $200 per ton of CO2 to $2,500 per ton of CO2. And in times like this where there's a fluctuation, you are looking at $5,000 per ton of CO2 for merchants. what we're doing is leasing our equipment to them depending on their size and how many they're leasing at once, we're adjusting the price. But usually we help them to cut 50% of the cost.",
+      "retained_content_class": "explicit_founder",
+      "preceded_by_investor_decision": false,
+      "source_turn_index": 73,
+      "speaker": "Sonny",
+      "unattributed_continuation_count": 0
+    },
+    {
+      "action": "neutralized",
+      "attributed_source_line_index": 0,
+      "attributed_source_line_sha256": "04170150bf552aad496780c905cdc6a9f75d7523cad4e594253a6fa106d509f3",
+      "reason": "neutralized investor question",
+      "rendered_text": "Investor question: Are you varying your pricing based on market demand?",
+      "retained_content_class": "explicit_investor_question",
+      "preceded_by_investor_decision": false,
+      "source_turn_index": 74,
+      "speaker": "Mike",
+      "unattributed_continuation_count": 0
+    },
+    {
+      "action": "retained",
+      "attributed_source_line_index": 0,
+      "attributed_source_line_sha256": "feedf375e61b89339b9bd242ceb97c3194b48a6bc51c66d0faa31dbca25991c8",
+      "reason": "founder pitch or pre-decision factual answer; preserved factual names for semantic review",
+      "rendered_text": "Sonny: No. No, we're not, so we're not kind of selling it as a commodity.",
+      "retained_content_class": "explicit_founder",
+      "preceded_by_investor_decision": false,
+      "source_turn_index": 75,
+      "speaker": "Sonny",
+      "unattributed_continuation_count": 0
+    },
+    {
+      "action": "removed",
+      "attributed_source_line_index": 0,
+      "attributed_source_line_sha256": "cd5592e5e3140daa2f3fe0541c004877a65933bc07d69dbec8e3a441e7877c90",
+      "reason": "removed non-founder, evaluative, or unnecessary context",
+      "rendered_text": "",
+      "retained_content_class": null,
+      "preceded_by_investor_decision": false,
+      "source_turn_index": 76,
+      "speaker": "Mike",
+      "unattributed_continuation_count": 0
+    },
+    {
+      "action": "removed",
+      "attributed_source_line_index": 0,
+      "attributed_source_line_sha256": "293bec3d2fc447d231419b2d3f38025ab92cb8428d9791c9b5e5306e69809f7a",
+      "reason": "removed non-founder, evaluative, or unnecessary context",
+      "rendered_text": "",
+      "retained_content_class": null,
+      "preceded_by_investor_decision": false,
+      "source_turn_index": 77,
+      "speaker": "Sonn",
+      "unattributed_continuation_count": 0
+    },
+    {
+      "action": "removed",
+      "attributed_source_line_index": 0,
+      "attributed_source_line_sha256": "74a2ed049eb1bda312030c06e560806581b1d79f2e5d6cc6028aa17dbb5ce0f6",
+      "reason": "removed non-founder, evaluative, or unnecessary context",
+      "rendered_text": "",
+      "retained_content_class": null,
+      "preceded_by_investor_decision": false,
+      "source_turn_index": 78,
+      "speaker": "Jesse",
+      "unattributed_continuation_count": 0
+    },
+    {
+      "action": "retained",
+      "attributed_source_line_index": 0,
+      "attributed_source_line_sha256": "445ea76e0fecc22edfb57a2ca2be09cca64ca11a356ce23a5287505de22c9fc0",
+      "reason": "founder pitch or pre-decision factual answer; preserved factual names for semantic review",
+      "rendered_text": "Sonny: Exactly.",
+      "retained_content_class": "explicit_founder",
+      "preceded_by_investor_decision": false,
+      "source_turn_index": 79,
+      "speaker": "Sonny",
+      "unattributed_continuation_count": 0
+    },
+    {
+      "action": "removed",
+      "attributed_source_line_index": 0,
+      "attributed_source_line_sha256": "a595e513b8104421d882770be84e135b95076399b7cba967d1bf579319befed9",
+      "reason": "removed non-founder, evaluative, or unnecessary context",
+      "rendered_text": "",
+      "retained_content_class": null,
+      "preceded_by_investor_decision": false,
+      "source_turn_index": 80,
+      "speaker": "Jesse",
+      "unattributed_continuation_count": 0
+    },
+    {
+      "action": "retained",
+      "attributed_source_line_index": 0,
+      "attributed_source_line_sha256": "d895aecb275fc78c1ca838dd3a9896a375215e10d5d02a22d80941bb89d4facb",
+      "reason": "founder pitch or pre-decision factual answer; preserved factual names for semantic review",
+      "rendered_text": "Sonny: Yeah. So if they have excess CO2 that they capture, they can also sell that to a gas major.",
+      "retained_content_class": "explicit_founder",
+      "preceded_by_investor_decision": false,
+      "source_turn_index": 81,
+      "speaker": "Sonny",
+      "unattributed_continuation_count": 0
+    },
+    {
+      "action": "neutralized",
+      "attributed_source_line_index": 0,
+      "attributed_source_line_sha256": "07fd73d0e3d08fe0d633fad42f2c422a77a15cddf16dceece141e663182e9d08",
+      "reason": "neutralized investor question",
+      "rendered_text": "Investor question: Can you talk about the volatility of the CO2 market? Like what are the drivers for that? How much does it vary?",
+      "retained_content_class": "explicit_investor_question",
+      "preceded_by_investor_decision": false,
+      "source_turn_index": 82,
+      "speaker": "Elizabeth",
+      "unattributed_continuation_count": 0
+    },
+    {
+      "action": "retained",
+      "attributed_source_line_index": 0,
+      "attributed_source_line_sha256": "43da410f945bd99db844f7f9f6cacb797e4d9bffb20c0eca411d4ab60c482cb3",
+      "reason": "founder pitch or pre-decision factual answer; preserved factual names for semantic review",
+      "rendered_text": "Sonny: before we talk about the volatility, like right now, even just by physics, it's very difficult to build these plants. It take a long time and it takes a lot of money to build. So the supply is still scarce. And then in times like this where you have, let's say conflicts, and then you are short on fuel, so you can't really transport CO2. So that's what's mainly causing the fluctuations right now. I would say that's one of the main drivers. The other one's the cost of electricity, basically to produce CO2 you have to expend energy. So those are two big ones. I would look at it kind of like electricity, which is just like a commodity, but you're not really charging on, the commodity itself. You are charging the uptime. so you're charging the customers on how secure the supply is.",
+      "retained_content_class": "explicit_founder",
+      "preceded_by_investor_decision": false,
+      "source_turn_index": 83,
+      "speaker": "Sonny",
+      "unattributed_continuation_count": 0
+    },
+    {
+      "action": "removed",
+      "attributed_source_line_index": 0,
+      "attributed_source_line_sha256": "85fec70372b092bb42d021a6d1b373081dde8bcf90feb49e0725e285043fb0ad",
+      "reason": "removed non-founder, evaluative, or unnecessary context",
+      "rendered_text": "",
+      "retained_content_class": null,
+      "preceded_by_investor_decision": false,
+      "source_turn_index": 84,
+      "speaker": "Jesse",
+      "unattributed_continuation_count": 0
+    },
+    {
+      "action": "neutralized",
+      "attributed_source_line_index": 0,
+      "attributed_source_line_sha256": "f739c12f448773a0b20982698945e78096e501ce88fdccb4b787d014861fd89f",
+      "reason": "neutralized investor question",
+      "rendered_text": "Investor question: How does the technology work? Like what is the feedstock that creates the fuel and then does the company that you're working with, they have to have some sort of output, like a waste output that goes in as a feed stock in order for there to be a loop?",
+      "retained_content_class": "explicit_investor_question",
+      "preceded_by_investor_decision": false,
+      "source_turn_index": 85,
+      "speaker": "Michelle",
+      "unattributed_continuation_count": 0
+    },
+    {
+      "action": "retained",
+      "attributed_source_line_index": 0,
+      "attributed_source_line_sha256": "50103a09ecff4810a9fe56b44834b57b1350b60b4e15e2b82b1e932fc3f4acc4",
+      "reason": "founder pitch or pre-decision factual answer; preserved factual names for semantic review",
+      "rendered_text": "Sonny: Yeah. So we deal with any fluid gas that has above 5% concentration of CO2. it goes through a pre-processing to get rid of all the impurities, and then it goes into an absorption chamber where we have this material that kind of works like a sponge, it only traps molecules the size of CO2. And once it's fully saturated, we push the CO2 out, and at this point it's pretty much pure CO2 and then we'll liquefy it.",
+      "retained_content_class": "explicit_founder",
+      "preceded_by_investor_decision": false,
+      "source_turn_index": 86,
+      "speaker": "Sonny",
+      "unattributed_continuation_count": 0
+    },
+    {
+      "action": "removed",
+      "attributed_source_line_index": 0,
+      "attributed_source_line_sha256": "6ada04074332fbe67ab558adef1c5478979db03b2a013bdfb83f553a23f1ccb6",
+      "reason": "removed non-founder, evaluative, or unnecessary context",
+      "rendered_text": "",
+      "retained_content_class": null,
+      "preceded_by_investor_decision": false,
+      "source_turn_index": 87,
+      "speaker": "Michelle",
+      "unattributed_continuation_count": 0
+    },
+    {
+      "action": "retained",
+      "attributed_source_line_index": 0,
+      "attributed_source_line_sha256": "78739880a515ba55c5ba29aff7c0b4be065c1e6ee43e4fc78e2b18c69c9511a7",
+      "reason": "founder pitch or pre-decision factual answer; preserved factual names for semantic review",
+      "rendered_text": "Sonny: if they're, burning or fermenting that has carbon as an output, that we can do.",
+      "retained_content_class": "explicit_founder",
+      "preceded_by_investor_decision": false,
+      "source_turn_index": 88,
+      "speaker": "Sonny",
+      "unattributed_continuation_count": 0
+    },
+    {
+      "action": "removed",
+      "attributed_source_line_index": 0,
+      "attributed_source_line_sha256": "91f60604dc427aafa5271726049f2ecbfa14812536afa07004abbf317bd1776e",
+      "reason": "removed non-founder, evaluative, or unnecessary context",
+      "rendered_text": "",
+      "retained_content_class": null,
+      "preceded_by_investor_decision": false,
+      "source_turn_index": 89,
+      "speaker": "Mike",
+      "unattributed_continuation_count": 0
+    },
+    {
+      "action": "retained",
+      "attributed_source_line_index": 0,
+      "attributed_source_line_sha256": "6a47e4cc3f5b5f28eaa8a1d521cc4e6440f49628e826c0efc951c6e4faa830c9",
+      "reason": "founder pitch or pre-decision factual answer; preserved factual names for semantic review",
+      "rendered_text": "Sonny: So basically currently they're probably paying around $200 per ton of CO2. what we can do is actually cut that in half once they install us. And what's more interesting for them is that they're also subject to US 45q tax credits. for any ton of CO2, they get another $60 per ton reduction. if we were helping them to recycle CO2 into like e-fuels or construction materials. We can capture probably a hundred percent more than them and we can open that as a new revenue stream.",
+      "retained_content_class": "explicit_founder",
+      "preceded_by_investor_decision": false,
+      "source_turn_index": 90,
+      "speaker": "Sonny",
+      "unattributed_continuation_count": 0
+    },
+    {
+      "action": "removed",
+      "attributed_source_line_index": 0,
+      "attributed_source_line_sha256": "85fec70372b092bb42d021a6d1b373081dde8bcf90feb49e0725e285043fb0ad",
+      "reason": "removed non-founder, evaluative, or unnecessary context",
+      "rendered_text": "",
+      "retained_content_class": null,
+      "preceded_by_investor_decision": false,
+      "source_turn_index": 91,
+      "speaker": "Jesse",
+      "unattributed_continuation_count": 0
+    },
+    {
+      "action": "neutralized",
+      "attributed_source_line_index": 0,
+      "attributed_source_line_sha256": "ec0350f7e32decd19c7306f01d959c351cc8d89813a797977459fa40f152d974",
+      "reason": "neutralized investor question",
+      "rendered_text": "Investor question: Like Is it poor forecasting or?",
+      "retained_content_class": "explicit_investor_question",
+      "preceded_by_investor_decision": false,
+      "source_turn_index": 92,
+      "speaker": "Elizabeth",
+      "unattributed_continuation_count": 0
+    },
+    {
+      "action": "retained",
+      "attributed_source_line_index": 0,
+      "attributed_source_line_sha256": "8aef7c96a0a252dd628997a8c1046ddc2b28b2ff64f8e2ff0f68cc4877cd039c",
+      "reason": "founder pitch or pre-decision factual answer; preserved factual names for semantic review",
+      "rendered_text": "Sonny: yeah, when you are talking about 1 million tons per year output, yes it works for them. But when it comes to, building for smaller, like small to medium sized emitters it's much, viable to use ours because our units are mass manufactured. when you mass manufacture, standardize the same unit, you can kind of reach like solar panel or EV level of learning rates. So they can reduce quite quickly. And for the past decades we've been building same huge plants. learning rates are around 3%, so your costs effectively have not gone down at all. So if you want to be able to deploy them fast and make them cheap, we're going modular",
+      "retained_content_class": "explicit_founder",
+      "preceded_by_investor_decision": false,
+      "source_turn_index": 93,
+      "speaker": "Sonny",
+      "unattributed_continuation_count": 0
+    },
+    {
+      "action": "removed",
+      "attributed_source_line_index": 0,
+      "attributed_source_line_sha256": "400a705ac319540af63774defb0f50803e13e60b0136c90935d089d50994a392",
+      "reason": "removed non-founder, evaluative, or unnecessary context",
+      "rendered_text": "",
+      "retained_content_class": null,
+      "preceded_by_investor_decision": false,
+      "source_turn_index": 94,
+      "speaker": "Elizabeth",
+      "unattributed_continuation_count": 0
+    },
+    {
+      "action": "retained",
+      "attributed_source_line_index": 0,
+      "attributed_source_line_sha256": "85fec70372b092bb42d021a6d1b373081dde8bcf90feb49e0725e285043fb0ad",
+      "reason": "founder pitch or pre-decision factual answer; preserved factual names for semantic review",
+      "rendered_text": "Sonny: Yeah.",
+      "retained_content_class": "explicit_founder",
+      "preceded_by_investor_decision": false,
+      "source_turn_index": 95,
+      "speaker": "Sonny",
+      "unattributed_continuation_count": 0
+    },
+    {
+      "action": "removed",
+      "attributed_source_line_index": 0,
+      "attributed_source_line_sha256": "c876af8be8a1f36eb573554f9962c3ecf818f13c4911d2d69e66244cfa6f3da1",
+      "reason": "removed non-founder, evaluative, or unnecessary context",
+      "rendered_text": "",
+      "retained_content_class": null,
+      "preceded_by_investor_decision": false,
+      "source_turn_index": 96,
+      "speaker": "Elizabeth",
+      "unattributed_continuation_count": 0
+    },
+    {
+      "action": "retained",
+      "attributed_source_line_index": 0,
+      "attributed_source_line_sha256": "895348517dbc7df71184e991265353172bede08eeccc52b1162b34848d243104",
+      "reason": "founder pitch or pre-decision factual answer; preserved factual names for semantic review",
+      "rendered_text": "Sonny: Well, it's been built in the same way, in a sense that it's bespoke for every single plant.",
+      "retained_content_class": "explicit_founder",
+      "preceded_by_investor_decision": false,
+      "source_turn_index": 97,
+      "speaker": "Sonny",
+      "unattributed_continuation_count": 0
+    },
+    {
+      "action": "removed",
+      "attributed_source_line_index": 0,
+      "attributed_source_line_sha256": "85fec70372b092bb42d021a6d1b373081dde8bcf90feb49e0725e285043fb0ad",
+      "reason": "removed non-founder, evaluative, or unnecessary context",
+      "rendered_text": "",
+      "retained_content_class": null,
+      "preceded_by_investor_decision": false,
+      "source_turn_index": 98,
+      "speaker": "Elizabeth",
+      "unattributed_continuation_count": 0
+    },
+    {
+      "action": "retained",
+      "attributed_source_line_index": 0,
+      "attributed_source_line_sha256": "e72c859ee0c2e0ab1ea7a8b7a3a8287ccdf672c3f982105187c20623bde54252",
+      "reason": "founder pitch or pre-decision factual answer; preserved factual names for semantic review",
+      "rendered_text": "Sonny: Which is why it's difficult. But we've seen cases where modular things are a lot cheaper to deploy. Like solar panel at the beginning was very, very expensive. And then now we were able to deploy them kind of anywhere in a distributed way. And their cost has gone down really quickly.",
+      "retained_content_class": "explicit_founder",
+      "preceded_by_investor_decision": false,
+      "source_turn_index": 99,
+      "speaker": "Sonny",
+      "unattributed_continuation_count": 0
+    },
+    {
+      "action": "removed",
+      "attributed_source_line_index": 0,
+      "attributed_source_line_sha256": "9b6849b7202dca9b4c274dff717430f67c0293b4d3bab2381e54d7535e54048a",
+      "reason": "removed non-founder, evaluative, or unnecessary context",
+      "rendered_text": "",
+      "retained_content_class": null,
+      "preceded_by_investor_decision": false,
+      "source_turn_index": 100,
+      "speaker": "Elizabeth",
+      "unattributed_continuation_count": 0
+    },
+    {
+      "action": "retained",
+      "attributed_source_line_index": 0,
+      "attributed_source_line_sha256": "1b6993aa5ca31e1289b323b32d491152e77ba310665bf417b1b60f3de623804d",
+      "reason": "founder pitch or pre-decision factual answer; preserved factual names for semantic review",
+      "rendered_text": "Sonny: Yeah. I would say there's another thing that people have not thought about building modular, let's say stacking hundreds of thousands before the age of AI. 'cause this is pretty much impossible. Each unit has around, let's say 20 to 30 parameters. If you're stacking hundreds of them or thousands of them together, that's 20,000 parameters controlled at once. and now we have the compute to be able to do that, but before that, it's pretty much impossible. So this is kind of our software moat that we're building.",
+      "retained_content_class": "explicit_founder",
+      "preceded_by_investor_decision": false,
+      "source_turn_index": 101,
+      "speaker": "Sonny",
+      "unattributed_continuation_count": 0
+    },
+    {
+      "action": "removed",
+      "attributed_source_line_index": 0,
+      "attributed_source_line_sha256": "82477fb4e0ec117711118bbc3686796720e9cbe2b136cd9cfeff0be55c13b86f",
+      "reason": "removed non-founder, evaluative, or unnecessary context",
+      "rendered_text": "",
+      "retained_content_class": null,
+      "preceded_by_investor_decision": false,
+      "source_turn_index": 102,
+      "speaker": "Mike",
+      "unattributed_continuation_count": 0
+    },
+    {
+      "action": "retained",
+      "attributed_source_line_index": 0,
+      "attributed_source_line_sha256": "de1108d74e1908f9a4e2e337f37b971ae66a0a470bee48c84e7880332a781936",
+      "reason": "founder pitch or pre-decision factual answer; preserved factual names for semantic review",
+      "rendered_text": "Sonny: Yeah, So we sign our first commercial offtake, with a brewery in Wales. And then we have seven LOIs within the pipeline. Some of them include energy plants and other breweries that are larger.",
+      "retained_content_class": "explicit_founder",
+      "preceded_by_investor_decision": false,
+      "source_turn_index": 103,
+      "speaker": "Sonny",
+      "unattributed_continuation_count": 0
+    },
+    {
+      "action": "removed",
+      "attributed_source_line_index": 0,
+      "attributed_source_line_sha256": "74cd4f69d8086ef9262e560c8173e346bf057c959563f12e8c1f3beec73bd304",
+      "reason": "removed non-founder, evaluative, or unnecessary context",
+      "rendered_text": "",
+      "retained_content_class": null,
+      "preceded_by_investor_decision": false,
+      "source_turn_index": 104,
+      "speaker": "Mike",
+      "unattributed_continuation_count": 0
+    },
+    {
+      "action": "neutralized",
+      "attributed_source_line_index": 0,
+      "attributed_source_line_sha256": "91e8ef967ccadea915b9e394f86b8be934345951feeaf7bb06688532ea78a2fd",
+      "reason": "neutralized investor question",
+      "rendered_text": "Investor question: Is that fair?",
+      "retained_content_class": "explicit_investor_question",
+      "preceded_by_investor_decision": false,
+      "source_turn_index": 105,
+      "speaker": "Mike",
+      "unattributed_continuation_count": 0
+    },
+    {
+      "action": "retained",
+      "attributed_source_line_index": 0,
+      "attributed_source_line_sha256": "85fec70372b092bb42d021a6d1b373081dde8bcf90feb49e0725e285043fb0ad",
+      "reason": "founder pitch or pre-decision factual answer; preserved factual names for semantic review",
+      "rendered_text": "Sonny: Yeah.",
+      "retained_content_class": "explicit_founder",
+      "preceded_by_investor_decision": false,
+      "source_turn_index": 106,
+      "speaker": "Sonny",
+      "unattributed_continuation_count": 0
+    },
+    {
+      "action": "neutralized",
+      "attributed_source_line_index": 0,
+      "attributed_source_line_sha256": "a0b3720c4ad7bdfb86248dea8cc1ef7239d9ce92174370ecd334ba1648b64dc6",
+      "reason": "neutralized investor question",
+      "rendered_text": "Investor question: So can you walk us through, like how you made that sale?",
+      "retained_content_class": "explicit_investor_question",
+      "preceded_by_investor_decision": false,
+      "source_turn_index": 107,
+      "speaker": "Mike",
+      "unattributed_continuation_count": 0
+    },
+    {
+      "action": "neutralized",
+      "attributed_source_line_index": 0,
+      "attributed_source_line_sha256": "aa0cce4561b5d4fc9aa1d9b108ffa9bf08ec300c7d6720aa3ebcfbe46ef846f7",
+      "reason": "neutralized investor question",
+      "rendered_text": "Investor question: Like why’d they buy?",
+      "retained_content_class": "explicit_investor_question",
+      "preceded_by_investor_decision": false,
+      "source_turn_index": 108,
+      "speaker": "Elizabeth",
+      "unattributed_continuation_count": 0
+    },
+    {
+      "action": "removed",
+      "attributed_source_line_index": 0,
+      "attributed_source_line_sha256": "bf2fcdd46a71c70d4576130413cdfa93abe2d3db430511529b55dba7898f917a",
+      "reason": "removed non-founder, evaluative, or unnecessary context",
+      "rendered_text": "",
+      "retained_content_class": null,
+      "preceded_by_investor_decision": false,
+      "source_turn_index": 109,
+      "speaker": "Mike",
+      "unattributed_continuation_count": 0
+    },
+    {
+      "action": "retained",
+      "attributed_source_line_index": 0,
+      "attributed_source_line_sha256": "5088497bb03a0874078bc182fe70a346fc0607b50c302d44e157ad35a6f0d226",
+      "reason": "founder pitch or pre-decision factual answer; preserved factual names for semantic review",
+      "rendered_text": "Sonny: Yeah. So they already understand the pain. We don't have to explain it to them. So, the supply shortage is a thing that actually affects their operation.",
+      "retained_content_class": "explicit_founder",
+      "preceded_by_investor_decision": false,
+      "source_turn_index": 110,
+      "speaker": "Sonny",
+      "unattributed_continuation_count": 0
+    },
+    {
+      "action": "removed",
+      "attributed_source_line_index": 0,
+      "attributed_source_line_sha256": "6b79345957487997cef79840742040c91d4ef989e77d74375f9b109c2d673a23",
+      "reason": "removed non-founder, evaluative, or unnecessary context",
+      "rendered_text": "",
+      "retained_content_class": null,
+      "preceded_by_investor_decision": false,
+      "source_turn_index": 111,
+      "speaker": "Elizabeth",
+      "unattributed_continuation_count": 0
+    },
+    {
+      "action": "retained",
+      "attributed_source_line_index": 0,
+      "attributed_source_line_sha256": "85fec70372b092bb42d021a6d1b373081dde8bcf90feb49e0725e285043fb0ad",
+      "reason": "founder pitch or pre-decision factual answer; preserved factual names for semantic review",
+      "rendered_text": "Sonny: Yeah.",
+      "retained_content_class": "explicit_founder",
+      "preceded_by_investor_decision": false,
+      "source_turn_index": 112,
+      "speaker": "Sonny",
+      "unattributed_continuation_count": 0
+    },
+    {
+      "action": "neutralized",
+      "attributed_source_line_index": 0,
+      "attributed_source_line_sha256": "fc91be077697b6d1f0fcf451ca216111bd75d15a2a1f4f2a6ec51d1b9d8401f3",
+      "reason": "neutralized investor question",
+      "rendered_text": "Investor question: What is the pain?",
+      "retained_content_class": "explicit_investor_question",
+      "preceded_by_investor_decision": false,
+      "source_turn_index": 113,
+      "speaker": "Elizabeth",
+      "unattributed_continuation_count": 0
+    },
+    {
+      "action": "retained",
+      "attributed_source_line_index": 0,
+      "attributed_source_line_sha256": "85fec70372b092bb42d021a6d1b373081dde8bcf90feb49e0725e285043fb0ad",
+      "reason": "founder pitch or pre-decision factual answer; preserved factual names for semantic review",
+      "rendered_text": "Sonny: Yeah.",
+      "retained_content_class": "explicit_founder",
+      "preceded_by_investor_decision": false,
+      "source_turn_index": 114,
+      "speaker": "Sonny",
+      "unattributed_continuation_count": 0
+    },
+    {
+      "action": "removed",
+      "attributed_source_line_index": 0,
+      "attributed_source_line_sha256": "79f199324fbafebebede70876ced75974bc79409f841ad0d5645d7f185434bdc",
+      "reason": "removed non-founder, evaluative, or unnecessary context",
+      "rendered_text": "",
+      "retained_content_class": null,
+      "preceded_by_investor_decision": false,
+      "source_turn_index": 115,
+      "speaker": "Elizabeth",
+      "unattributed_continuation_count": 0
+    },
+    {
+      "action": "retained",
+      "attributed_source_line_index": 0,
+      "attributed_source_line_sha256": "85fec70372b092bb42d021a6d1b373081dde8bcf90feb49e0725e285043fb0ad",
+      "reason": "founder pitch or pre-decision factual answer; preserved factual names for semantic review",
+      "rendered_text": "Sonny: Yeah.",
+      "retained_content_class": "explicit_founder",
+      "preceded_by_investor_decision": false,
+      "source_turn_index": 116,
+      "speaker": "Sonny",
+      "unattributed_continuation_count": 0
+    },
+    {
+      "action": "removed",
+      "attributed_source_line_index": 0,
+      "attributed_source_line_sha256": "788fe38190d6e7a9d2a4a61854212fd853021ec11567b11baf41e007b1e8defc",
+      "reason": "removed non-founder, evaluative, or unnecessary context",
+      "rendered_text": "",
+      "retained_content_class": null,
+      "preceded_by_investor_decision": false,
+      "source_turn_index": 117,
+      "speaker": "Elizabeth",
+      "unattributed_continuation_count": 0
+    },
+    {
+      "action": "retained",
+      "attributed_source_line_index": 0,
+      "attributed_source_line_sha256": "85fec70372b092bb42d021a6d1b373081dde8bcf90feb49e0725e285043fb0ad",
+      "reason": "founder pitch or pre-decision factual answer; preserved factual names for semantic review",
+      "rendered_text": "Sonny: Yeah.",
+      "retained_content_class": "explicit_founder",
+      "preceded_by_investor_decision": false,
+      "source_turn_index": 118,
+      "speaker": "Sonny",
+      "unattributed_continuation_count": 0
+    },
+    {
+      "action": "neutralized",
+      "attributed_source_line_index": 0,
+      "attributed_source_line_sha256": "2b4297d1f329bd4398a16d0e58bbf8f534e869da8d07a4a02b46f87b4d7eaa2e",
+      "reason": "neutralized investor question",
+      "rendered_text": "Investor question: Is that the pain?",
+      "retained_content_class": "explicit_investor_question",
+      "preceded_by_investor_decision": false,
+      "source_turn_index": 119,
+      "speaker": "Elizabeth",
+      "unattributed_continuation_count": 0
+    },
+    {
+      "action": "retained",
+      "attributed_source_line_index": 0,
+      "attributed_source_line_sha256": "355002321fb392a9148c7ea6969e52b4e0c9c6947aa7053ef95c3fece0886d25",
+      "reason": "founder pitch or pre-decision factual answer; preserved factual names for semantic review",
+      "rendered_text": "Sonny: So there are cases where you can't get CO2 at all when there's shortage. They will prioritize distribution to hospitals",
+      "retained_content_class": "explicit_founder",
+      "preceded_by_investor_decision": false,
+      "source_turn_index": 120,
+      "speaker": "Sonny",
+      "unattributed_continuation_count": 0
+    },
+    {
+      "action": "removed",
+      "attributed_source_line_index": 0,
+      "attributed_source_line_sha256": "d45acbf0819e461c3d9feb6a7d609231ac0aec89cfe233cc78890843e1b4b3d8",
+      "reason": "removed non-founder, evaluative, or unnecessary context",
+      "rendered_text": "",
+      "retained_content_class": null,
+      "preceded_by_investor_decision": false,
+      "source_turn_index": 121,
+      "speaker": "Elizabeth",
+      "unattributed_continuation_count": 0
+    },
+    {
+      "action": "retained",
+      "attributed_source_line_index": 0,
+      "attributed_source_line_sha256": "386d9ddf036a4496ed589a0db1c116e560c7826ab7abacb497dfffe8e8c281c7",
+      "reason": "founder pitch or pre-decision factual answer; preserved factual names for semantic review",
+      "rendered_text": "Sonny: For medical use cases. And if you don't have CO2, you can't brew beer.",
+      "retained_content_class": "explicit_founder",
+      "preceded_by_investor_decision": false,
+      "source_turn_index": 122,
+      "speaker": "Sonny",
+      "unattributed_continuation_count": 0
+    },
+    {
+      "action": "neutralized",
+      "attributed_source_line_index": 0,
+      "attributed_source_line_sha256": "ae48c493efe26321dc77ad94c6808c27a32ac98af3ebc25027ac94121dc9e7d7",
+      "reason": "neutralized investor question",
+      "rendered_text": "Investor question: So can I parrot back something?",
+      "retained_content_class": "explicit_investor_question",
+      "preceded_by_investor_decision": false,
+      "source_turn_index": 123,
+      "speaker": "Elizabeth",
+      "unattributed_continuation_count": 0
+    },
+    {
+      "action": "retained",
+      "attributed_source_line_index": 0,
+      "attributed_source_line_sha256": "85fec70372b092bb42d021a6d1b373081dde8bcf90feb49e0725e285043fb0ad",
+      "reason": "founder pitch or pre-decision factual answer; preserved factual names for semantic review",
+      "rendered_text": "Sonny: Yeah.",
+      "retained_content_class": "explicit_founder",
+      "preceded_by_investor_decision": false,
+      "source_turn_index": 124,
+      "speaker": "Sonny",
+      "unattributed_continuation_count": 0
+    },
+    {
+      "action": "removed",
+      "attributed_source_line_index": 0,
+      "attributed_source_line_sha256": "dd02b7230c0af7dfd021019b6f5a66bd1fe5db07f170b67c42e17681e9a3f11a",
+      "reason": "removed non-founder, evaluative, or unnecessary context",
+      "rendered_text": "",
+      "retained_content_class": null,
+      "preceded_by_investor_decision": false,
+      "source_turn_index": 125,
+      "speaker": "Elizabeth",
+      "unattributed_continuation_count": 0
+    },
+    {
+      "action": "retained",
+      "attributed_source_line_index": 0,
+      "attributed_source_line_sha256": "372b00dd1cf16edbd9a3d1f29bdd8c1c4096d14673629c1b8fa8f2a03b27b666",
+      "reason": "founder pitch or pre-decision factual answer; preserved factual names for semantic review",
+      "rendered_text": "Sonny: mm-hmm.",
+      "retained_content_class": "explicit_founder",
+      "preceded_by_investor_decision": false,
+      "source_turn_index": 126,
+      "speaker": "Sonny",
+      "unattributed_continuation_count": 0
+    },
+    {
+      "action": "removed",
+      "attributed_source_line_index": 0,
+      "attributed_source_line_sha256": "517b6e3fdce4d2476807e54fb211df8a4e961a404cd5ab656030784913ffde42",
+      "reason": "removed non-founder, evaluative, or unnecessary context",
+      "rendered_text": "",
+      "retained_content_class": null,
+      "preceded_by_investor_decision": false,
+      "source_turn_index": 127,
+      "speaker": "Elizabeth",
+      "unattributed_continuation_count": 0
+    },
+    {
+      "action": "retained",
+      "attributed_source_line_index": 0,
+      "attributed_source_line_sha256": "eaaa2bd432e65617ef966604cf094808c77c0793db37be7f09acc5b79cc8754e",
+      "reason": "founder pitch or pre-decision factual answer; preserved factual names for semantic review",
+      "rendered_text": "Sonny: I don't think this is a trend. I don't think it's something that's only geopolitics. I think it's-",
+      "retained_content_class": "explicit_founder",
+      "preceded_by_investor_decision": false,
+      "source_turn_index": 128,
+      "speaker": "Sonny",
+      "unattributed_continuation_count": 0
+    },
+    {
+      "action": "neutralized",
+      "attributed_source_line_index": 0,
+      "attributed_source_line_sha256": "79848cba773cae45f666e0eeb21de91096192eaa939d34dacda1268cd8c8d3dc",
+      "reason": "neutralized investor question",
+      "rendered_text": "Investor question: would they have this problem?",
+      "retained_content_class": "explicit_investor_question",
+      "preceded_by_investor_decision": false,
+      "source_turn_index": 129,
+      "speaker": "Elizabeth",
+      "unattributed_continuation_count": 0
+    },
+    {
+      "action": "retained",
+      "attributed_source_line_index": 0,
+      "attributed_source_line_sha256": "8082bd807f34ae6bf6f1409e8d9a97c527599d3c39f08c94a4bb59fc73b0047c",
+      "reason": "founder pitch or pre-decision factual answer; preserved factual names for semantic review",
+      "rendered_text": "Sonny: Yes. 'cause the demand is growing. so we have sectors such as e-fuels and constructions are growing at 23 and 30% GCAGR. So the demand is actually outgrowing supply by a lot, And we simply cannot keep up.",
+      "retained_content_class": "explicit_founder",
+      "preceded_by_investor_decision": false,
+      "source_turn_index": 130,
+      "speaker": "Sonny",
+      "unattributed_continuation_count": 0
+    },
+    {
+      "action": "neutralized",
+      "attributed_source_line_index": 0,
+      "attributed_source_line_sha256": "3944874c9587fe502068bc3e11e412d2f8c5bf0509082156c0d9d607901d48ac",
+      "reason": "neutralized investor question",
+      "rendered_text": "Investor question: Can I return to the sale in Wales?",
+      "retained_content_class": "explicit_investor_question",
+      "preceded_by_investor_decision": false,
+      "source_turn_index": 131,
+      "speaker": "Mike",
+      "unattributed_continuation_count": 0
+    },
+    {
+      "action": "removed",
+      "attributed_source_line_index": 0,
+      "attributed_source_line_sha256": "89f52a0dc3d757c1ea09b2800c6894bed33fd9d582fb91573aa409aa6997e01a",
+      "reason": "removed non-founder, evaluative, or unnecessary context; removed 1 unattributed continuation line(s)",
+      "rendered_text": "",
+      "retained_content_class": null,
+      "preceded_by_investor_decision": false,
+      "source_turn_index": 132,
+      "speaker": "Elizabeth",
+      "unattributed_continuation_count": 1
+    },
+    {
+      "action": "neutralized",
+      "attributed_source_line_index": 0,
+      "attributed_source_line_sha256": "3944874c9587fe502068bc3e11e412d2f8c5bf0509082156c0d9d607901d48ac",
+      "reason": "neutralized investor question",
+      "rendered_text": "Investor question: Can I return to the sale in Wales?",
+      "retained_content_class": "explicit_investor_question",
+      "preceded_by_investor_decision": false,
+      "source_turn_index": 133,
+      "speaker": "Mike",
+      "unattributed_continuation_count": 0
+    },
+    {
+      "action": "removed",
+      "attributed_source_line_index": 0,
+      "attributed_source_line_sha256": "d0b1fd4bf6dacbd19eb6408a154aa45550662df87f99a7025202e1626848e68b",
+      "reason": "removed non-founder, evaluative, or unnecessary context",
+      "rendered_text": "",
+      "retained_content_class": null,
+      "preceded_by_investor_decision": false,
+      "source_turn_index": 134,
+      "speaker": "Elizabeth",
+      "unattributed_continuation_count": 0
+    },
+    {
+      "action": "removed",
+      "attributed_source_line_index": 0,
+      "attributed_source_line_sha256": "703434f1492cecfa594aef6d150025bb9457ac2f23834f8e74577808e0e7dd2e",
+      "reason": "removed non-founder, evaluative, or unnecessary context",
+      "rendered_text": "",
+      "retained_content_class": null,
+      "preceded_by_investor_decision": false,
+      "source_turn_index": 135,
+      "speaker": "Mike",
+      "unattributed_continuation_count": 0
+    },
+    {
+      "action": "retained",
+      "attributed_source_line_index": 0,
+      "attributed_source_line_sha256": "85fec70372b092bb42d021a6d1b373081dde8bcf90feb49e0725e285043fb0ad",
+      "reason": "founder pitch or pre-decision factual answer; preserved factual names for semantic review",
+      "rendered_text": "Sonny: Yeah.",
+      "retained_content_class": "explicit_founder",
+      "preceded_by_investor_decision": false,
+      "source_turn_index": 136,
+      "speaker": "Sonny",
+      "unattributed_continuation_count": 0
+    },
+    {
+      "action": "removed",
+      "attributed_source_line_index": 0,
+      "attributed_source_line_sha256": "79526f5ed3f150b9a9bd6c8e8c5d21e41ff546e3d0381777d3e8162e15b8ccb8",
+      "reason": "removed non-founder, evaluative, or unnecessary context",
+      "rendered_text": "",
+      "retained_content_class": null,
+      "preceded_by_investor_decision": false,
+      "source_turn_index": 137,
+      "speaker": "Mike",
+      "unattributed_continuation_count": 0
+    },
+    {
+      "action": "retained",
+      "attributed_source_line_index": 0,
+      "attributed_source_line_sha256": "7eaa660a8333a0f31ea06eca7f71251221d62e45df0a781bcbc2705dbe4208ae",
+      "reason": "founder pitch or pre-decision factual answer; preserved factual names for semantic review",
+      "rendered_text": "Sonny: Yeah. So essentially we approached them, we told them, we understand your problem. Is this true? They said it's true. And we're actually kind of tired of, our current supplier. We wanna switch to you. They're essentially our pilot customer. And before we finish, building this, they're like, yeah, um, we actually wanna switch you because, , sometimes the existing supplier does not deliver. And then we don't want to be subject to the security problem.",
+      "retained_content_class": "explicit_founder",
+      "preceded_by_investor_decision": false,
+      "source_turn_index": 138,
+      "speaker": "Sonny",
+      "unattributed_continuation_count": 0
+    },
+    {
+      "action": "neutralized",
+      "attributed_source_line_index": 0,
+      "attributed_source_line_sha256": "ac5661aed87ac3957a33c56d6a5046ee36182308c64d90841d31895f3d4f31b3",
+      "reason": "neutralized investor question",
+      "rendered_text": "Investor question: And what are they paying you as part of this contract?",
+      "retained_content_class": "explicit_investor_question",
+      "preceded_by_investor_decision": false,
+      "source_turn_index": 139,
+      "speaker": "Elizabeth",
+      "unattributed_continuation_count": 0
+    },
+    {
+      "action": "retained",
+      "attributed_source_line_index": 0,
+      "attributed_source_line_sha256": "19b9e0a2ac51027a4e64cb32b2340f93cd1db66f84484125b08d6bebe74565d2",
+      "reason": "founder pitch or pre-decision factual answer; preserved factual names for semantic review",
+      "rendered_text": "Sonny: they're paying, 10K per year. So it's exactly how much we have within our, model.",
+      "retained_content_class": "explicit_founder",
+      "preceded_by_investor_decision": false,
+      "source_turn_index": 140,
+      "speaker": "Sonny",
+      "unattributed_continuation_count": 0
+    },
+    {
+      "action": "neutralized",
+      "attributed_source_line_index": 0,
+      "attributed_source_line_sha256": "fe576148e3313dd3a3908cf1abe048899d694e2bb59f50f2cb4c9905b9f6de5f",
+      "reason": "neutralized investor question",
+      "rendered_text": "Investor question: And, how much does it cost you to build one of these?",
+      "retained_content_class": "explicit_investor_question",
+      "preceded_by_investor_decision": false,
+      "source_turn_index": 141,
+      "speaker": "Elizabeth",
+      "unattributed_continuation_count": 0
+    },
+    {
+      "action": "retained",
+      "attributed_source_line_index": 0,
+      "attributed_source_line_sha256": "89249a49a52c61089c80818c96af86da27110d78490e70eadb017ed817043fc1",
+      "reason": "founder pitch or pre-decision factual answer; preserved factual names for semantic review",
+      "rendered_text": "Sonny: So right now we're the first of a kind. We're building this around 40k. so we're looking at, once we start manufacturing this, around 20K",
+      "retained_content_class": "explicit_founder",
+      "preceded_by_investor_decision": false,
+      "source_turn_index": 142,
+      "speaker": "Sonny",
+      "unattributed_continuation_count": 0
+    },
+    {
+      "action": "removed",
+      "attributed_source_line_index": 0,
+      "attributed_source_line_sha256": "0436d7abbcb1d36503e76bed2afc13483e9ac2cb4639ef341f56bbef843ea868",
+      "reason": "removed non-founder, evaluative, or unnecessary context",
+      "rendered_text": "",
+      "retained_content_class": null,
+      "preceded_by_investor_decision": false,
+      "source_turn_index": 143,
+      "speaker": "Mike",
+      "unattributed_continuation_count": 0
+    },
+    {
+      "action": "retained",
+      "attributed_source_line_index": 0,
+      "attributed_source_line_sha256": "5f5859fd82aa85e6c1800a6137b6c82720597321cc8a79d315b4821244d261bf",
+      "reason": "founder pitch or pre-decision factual answer; preserved factual names for semantic review",
+      "rendered_text": "Sonny: Per unit?",
+      "retained_content_class": "explicit_founder",
+      "preceded_by_investor_decision": false,
+      "source_turn_index": 144,
+      "speaker": "Sonny",
+      "unattributed_continuation_count": 0
+    },
+    {
+      "action": "removed",
+      "attributed_source_line_index": 0,
+      "attributed_source_line_sha256": "c595e364a6bff50640c46dc169a441dcccb32294068ed5caf8319b881532b9e5",
+      "reason": "removed non-founder, evaluative, or unnecessary context",
+      "rendered_text": "",
+      "retained_content_class": null,
+      "preceded_by_investor_decision": false,
+      "source_turn_index": 145,
+      "speaker": "Mike",
+      "unattributed_continuation_count": 0
+    },
+    {
+      "action": "removed",
+      "attributed_source_line_index": 0,
+      "attributed_source_line_sha256": "c29386fa49e4e6b0661f8555f73b38bf7a64521158a43389b23aa3a631790b2f",
+      "reason": "removed non-founder, evaluative, or unnecessary context",
+      "rendered_text": "",
+      "retained_content_class": null,
+      "preceded_by_investor_decision": false,
+      "source_turn_index": 146,
+      "speaker": "Elizabeth",
+      "unattributed_continuation_count": 0
+    },
+    {
+      "action": "retained",
+      "attributed_source_line_index": 0,
+      "attributed_source_line_sha256": "38178a20b470cfd18299fb1593dd4ba706f1a83321dac051d01086efd8b7a96f",
+      "reason": "founder pitch or pre-decision factual answer; preserved factual names for semantic review",
+      "rendered_text": "Sonny: No.",
+      "retained_content_class": "explicit_founder",
+      "preceded_by_investor_decision": false,
+      "source_turn_index": 147,
+      "speaker": "Sonny",
+      "unattributed_continuation_count": 0
+    },
+    {
+      "action": "neutralized",
+      "attributed_source_line_index": 0,
+      "attributed_source_line_sha256": "925835071c40cd1bd1a032ba2194f44e42576541ee8529251e14e64e6188b551",
+      "reason": "neutralized investor question",
+      "rendered_text": "Investor question: Well, how, how many units are you leasing out?",
+      "retained_content_class": "explicit_investor_question",
+      "preceded_by_investor_decision": false,
+      "source_turn_index": 148,
+      "speaker": "Michelle",
+      "unattributed_continuation_count": 0
+    },
+    {
+      "action": "retained",
+      "attributed_source_line_index": 0,
+      "attributed_source_line_sha256": "cf5ceccd1c4affeb4e8ef8cf93c83214ad1c8e4f5162c8201beed444ff46e448",
+      "reason": "founder pitch or pre-decision factual answer; preserved factual names for semantic review",
+      "rendered_text": "Sonny: for this brewery, we're leasing one. we get 10K per year, so we get them back. And also,",
+      "retained_content_class": "explicit_founder",
+      "preceded_by_investor_decision": false,
+      "source_turn_index": 149,
+      "speaker": "Sonny",
+      "unattributed_continuation_count": 0
+    },
+    {
+      "action": "removed",
+      "attributed_source_line_index": 0,
+      "attributed_source_line_sha256": "9d9715573d50a57c668682ddb31f48ff4348a9edcb89be79191836ed31392b20",
+      "reason": "removed non-founder, evaluative, or unnecessary context",
+      "rendered_text": "",
+      "retained_content_class": null,
+      "preceded_by_investor_decision": false,
+      "source_turn_index": 150,
+      "speaker": "Mike",
+      "unattributed_continuation_count": 0
+    },
+    {
+      "action": "retained",
+      "attributed_source_line_index": 0,
+      "attributed_source_line_sha256": "b0da32d53d3fe64315cdcc58133046bb8efa2418aa678c2d23fa03451c84e402",
+      "reason": "founder pitch or pre-decision factual answer; preserved factual names for semantic review",
+      "rendered_text": "Sonny: No, two.",
+      "retained_content_class": "explicit_founder",
+      "preceded_by_investor_decision": false,
+      "source_turn_index": 151,
+      "speaker": "Sonny",
+      "unattributed_continuation_count": 0
+    },
+    {
+      "action": "removed",
+      "attributed_source_line_index": 0,
+      "attributed_source_line_sha256": "dee4abe26d0686069c5578b74bff4bf9e1c5f4b6baee5336d0b1dbbaa5db9b2d",
+      "reason": "removed non-founder, evaluative, or unnecessary context",
+      "rendered_text": "",
+      "retained_content_class": null,
+      "preceded_by_investor_decision": false,
+      "source_turn_index": 152,
+      "speaker": "Elizabeth",
+      "unattributed_continuation_count": 0
+    },
+    {
+      "action": "removed",
+      "attributed_source_line_index": 0,
+      "attributed_source_line_sha256": "9f67f62fe832fdacf090459e637f4f651b96f197c82da854352fbcc47687de0c",
+      "reason": "removed non-founder, evaluative, or unnecessary context",
+      "rendered_text": "",
+      "retained_content_class": null,
+      "preceded_by_investor_decision": false,
+      "source_turn_index": 153,
+      "speaker": "Michelle",
+      "unattributed_continuation_count": 0
+    },
+    {
+      "action": "retained",
+      "attributed_source_line_index": 0,
+      "attributed_source_line_sha256": "98e7aadc62a4cdb03e02e886174805c696369717767dbf1a9a5b86b263c731dd",
+      "reason": "founder pitch or pre-decision factual answer; preserved factual names for semantic review",
+      "rendered_text": "Sonny: for first of a kind. So we have a grant that cover the CapEx of this, because this is the first plant that we ever built.",
+      "retained_content_class": "explicit_founder",
+      "preceded_by_investor_decision": false,
+      "source_turn_index": 154,
+      "speaker": "Sonny",
+      "unattributed_continuation_count": 0
+    },
+    {
+      "action": "neutralized",
+      "attributed_source_line_index": 0,
+      "attributed_source_line_sha256": "b0dd0600560b0bd7457e1464973fb827fa1743e228bdad0dc2414ac3bd986160",
+      "reason": "neutralized investor question",
+      "rendered_text": "Investor question: Oh, you have a grant?",
+      "retained_content_class": "explicit_investor_question",
+      "preceded_by_investor_decision": false,
+      "source_turn_index": 155,
+      "speaker": "Elizabeth",
+      "unattributed_continuation_count": 0
+    },
+    {
+      "action": "retained",
+      "attributed_source_line_index": 0,
+      "attributed_source_line_sha256": "2c427361876550275849271849d5bbed7b4fb6865b091aef98054ab08f8ddea8",
+      "reason": "founder pitch or pre-decision factual answer; preserved factual names for semantic review",
+      "rendered_text": "Sonny: Yeah So once we start manufacturing it’s around, 20k, we're charging the installation fee upfront as well.",
+      "retained_content_class": "explicit_founder",
+      "preceded_by_investor_decision": false,
+      "source_turn_index": 156,
+      "speaker": "Sonny",
+      "unattributed_continuation_count": 0
+    },
+    {
+      "action": "removed",
+      "attributed_source_line_index": 0,
+      "attributed_source_line_sha256": "85fec70372b092bb42d021a6d1b373081dde8bcf90feb49e0725e285043fb0ad",
+      "reason": "removed non-founder, evaluative, or unnecessary context",
+      "rendered_text": "",
+      "retained_content_class": null,
+      "preceded_by_investor_decision": false,
+      "source_turn_index": 157,
+      "speaker": "Jesse",
+      "unattributed_continuation_count": 0
+    },
+    {
+      "action": "removed",
+      "attributed_source_line_index": 0,
+      "attributed_source_line_sha256": "25a4c71401c2311edc152dcd1ceeda917e76a33489596e661d333baf07a579d6",
+      "reason": "removed non-founder, evaluative, or unnecessary context",
+      "rendered_text": "",
+      "retained_content_class": null,
+      "preceded_by_investor_decision": false,
+      "source_turn_index": 158,
+      "speaker": "Mike",
+      "unattributed_continuation_count": 0
+    },
+    {
+      "action": "removed",
+      "attributed_source_line_index": 0,
+      "attributed_source_line_sha256": "2edc8c2634d6f07cfc172e1284b8b8cba2d26c93a9e6d50c54c26a21958481db",
+      "reason": "removed non-founder, evaluative, or unnecessary context",
+      "rendered_text": "",
+      "retained_content_class": null,
+      "preceded_by_investor_decision": false,
+      "source_turn_index": 159,
+      "speaker": "Elizabeth",
+      "unattributed_continuation_count": 0
+    },
+    {
+      "action": "retained",
+      "attributed_source_line_index": 0,
+      "attributed_source_line_sha256": "445ea76e0fecc22edfb57a2ca2be09cca64ca11a356ce23a5287505de22c9fc0",
+      "reason": "founder pitch or pre-decision factual answer; preserved factual names for semantic review",
+      "rendered_text": "Sonny: Exactly.",
+      "retained_content_class": "explicit_founder",
+      "preceded_by_investor_decision": false,
+      "source_turn_index": 160,
+      "speaker": "Sonny",
+      "unattributed_continuation_count": 0
+    },
+    {
+      "action": "removed",
+      "attributed_source_line_index": 0,
+      "attributed_source_line_sha256": "3655f5f07a2c57c9bde582f0d9b43cb070810d342d5acc59305993157d7115ae",
+      "reason": "removed non-founder, evaluative, or unnecessary context",
+      "rendered_text": "",
+      "retained_content_class": null,
+      "preceded_by_investor_decision": false,
+      "source_turn_index": 161,
+      "speaker": "Mike",
+      "unattributed_continuation_count": 0
+    },
+    {
+      "action": "retained",
+      "attributed_source_line_index": 0,
+      "attributed_source_line_sha256": "85fec70372b092bb42d021a6d1b373081dde8bcf90feb49e0725e285043fb0ad",
+      "reason": "founder pitch or pre-decision factual answer; preserved factual names for semantic review",
+      "rendered_text": "Sonny: Yeah.",
+      "retained_content_class": "explicit_founder",
+      "preceded_by_investor_decision": false,
+      "source_turn_index": 162,
+      "speaker": "Sonny",
+      "unattributed_continuation_count": 0
+    },
+    {
+      "action": "neutralized",
+      "attributed_source_line_index": 0,
+      "attributed_source_line_sha256": "10a42909db3f50c0a95c66f5ef7d644e57f8779466aff5aa233a6a335d9bf0ff",
+      "reason": "neutralized investor question",
+      "rendered_text": "Investor question: Have you tested the 20k upfront? where people would pay that?",
+      "retained_content_class": "explicit_investor_question",
+      "preceded_by_investor_decision": false,
+      "source_turn_index": 163,
+      "speaker": "Mike",
+      "unattributed_continuation_count": 0
+    },
+    {
+      "action": "retained",
+      "attributed_source_line_index": 0,
+      "attributed_source_line_sha256": "1c7d118baa6e6e83fcffb6220bd262d9a7a8a6e9c1b6577d09ac57af3889d87a",
+      "reason": "founder pitch or pre-decision factual answer; preserved factual names for semantic review",
+      "rendered_text": "Sonny: Yeah. So within the industry we have other competitors not selling CO2. Let's say farmers or anaerobic digestion plants or buying industrial equipment. They're selling the equipment first. On top of that they're charging a leasing amount.",
+      "retained_content_class": "explicit_founder",
+      "preceded_by_investor_decision": false,
+      "source_turn_index": 164,
+      "speaker": "Sonny",
+      "unattributed_continuation_count": 0
+    },
+    {
+      "action": "removed",
+      "attributed_source_line_index": 0,
+      "attributed_source_line_sha256": "85fec70372b092bb42d021a6d1b373081dde8bcf90feb49e0725e285043fb0ad",
+      "reason": "removed non-founder, evaluative, or unnecessary context",
+      "rendered_text": "",
+      "retained_content_class": null,
+      "preceded_by_investor_decision": false,
+      "source_turn_index": 165,
+      "speaker": "Jesse",
+      "unattributed_continuation_count": 0
+    },
+    {
+      "action": "retained",
+      "attributed_source_line_index": 0,
+      "attributed_source_line_sha256": "eecf665cb066a1f3e8a14fac0e56be96becd272e78222a7a6af09a0665eeeed2",
+      "reason": "founder pitch or pre-decision factual answer; preserved factual names for semantic review",
+      "rendered_text": "Sonny: Payback period for them is usually between seven to 14 years. usually, what they do is they bundle a 20 year contract within.",
+      "retained_content_class": "explicit_founder",
+      "preceded_by_investor_decision": false,
+      "source_turn_index": 166,
+      "speaker": "Sonny",
+      "unattributed_continuation_count": 0
+    },
+    {
+      "action": "removed",
+      "attributed_source_line_index": 0,
+      "attributed_source_line_sha256": "463b404b81778af93648f049ffa799c14c8c5987503790dfbc0547a4fffdc263",
+      "reason": "removed non-founder, evaluative, or unnecessary context",
+      "rendered_text": "",
+      "retained_content_class": null,
+      "preceded_by_investor_decision": false,
+      "source_turn_index": 167,
+      "speaker": "Jesse",
+      "unattributed_continuation_count": 0
+    },
+    {
+      "action": "retained",
+      "attributed_source_line_index": 0,
+      "attributed_source_line_sha256": "642c2e4e3b905d0491fc0743b1cd1ec41d9ae1c8082fa5af2e911bc0c2847940",
+      "reason": "founder pitch or pre-decision factual answer; preserved factual names for semantic review",
+      "rendered_text": "Sonny: And then they do a special SPV essentially. And what we're doing is actually making it much more financeable for these customers.",
+      "retained_content_class": "explicit_founder",
+      "preceded_by_investor_decision": false,
+      "source_turn_index": 168,
+      "speaker": "Sonny",
+      "unattributed_continuation_count": 0
+    },
+    {
+      "action": "removed",
+      "attributed_source_line_index": 0,
+      "attributed_source_line_sha256": "85fec70372b092bb42d021a6d1b373081dde8bcf90feb49e0725e285043fb0ad",
+      "reason": "removed non-founder, evaluative, or unnecessary context",
+      "rendered_text": "",
+      "retained_content_class": null,
+      "preceded_by_investor_decision": false,
+      "source_turn_index": 169,
+      "speaker": "Elizabeth",
+      "unattributed_continuation_count": 0
+    },
+    {
+      "action": "retained",
+      "attributed_source_line_index": 0,
+      "attributed_source_line_sha256": "2dbfe4d93a32cfeb383115f2a8f57d736e71297110379893d75e600099c24424",
+      "reason": "founder pitch or pre-decision factual answer; preserved factual names for semantic review",
+      "rendered_text": "Sonny: So it's a lot better than the market standard.",
+      "retained_content_class": "explicit_founder",
+      "preceded_by_investor_decision": false,
+      "source_turn_index": 170,
+      "speaker": "Sonny",
+      "unattributed_continuation_count": 0
+    },
+    {
+      "action": "removed",
+      "attributed_source_line_index": 0,
+      "attributed_source_line_sha256": "85fec70372b092bb42d021a6d1b373081dde8bcf90feb49e0725e285043fb0ad",
+      "reason": "removed non-founder, evaluative, or unnecessary context",
+      "rendered_text": "",
+      "retained_content_class": null,
+      "preceded_by_investor_decision": false,
+      "source_turn_index": 171,
+      "speaker": "Jesse",
+      "unattributed_continuation_count": 0
+    },
+    {
+      "action": "neutralized",
+      "attributed_source_line_index": 0,
+      "attributed_source_line_sha256": "272daa66a9c8e4a24006b7217ab789aeb5c7e539cd091ff068f26f9ac3d80e5b",
+      "reason": "neutralized investor question",
+      "rendered_text": "Investor question: So who do you go to to sell?",
+      "retained_content_class": "explicit_investor_question",
+      "preceded_by_investor_decision": false,
+      "source_turn_index": 172,
+      "speaker": "Elizabeth",
+      "unattributed_continuation_count": 0
+    },
+    {
+      "action": "retained",
+      "attributed_source_line_index": 0,
+      "attributed_source_line_sha256": "e01488f4fe540612342b5cd9fdf08910c4b0779988303b1fabd76095c7c3f0d6",
+      "reason": "founder pitch or pre-decision factual answer; preserved factual names for semantic review",
+      "rendered_text": "Sonny: So we go to actually enterprise customers. We actually now have inbound, last week we had a very large beverage company that you've probably heard of that I can't tell, came to us. We go specifically to two people, supply chain lead and decarbonization lead and from both sides. the incentives for both of 'em are huge. that's our way in normally.",
+      "retained_content_class": "explicit_founder",
+      "preceded_by_investor_decision": false,
+      "source_turn_index": 173,
+      "speaker": "Sonny",
+      "unattributed_continuation_count": 0
+    },
+    {
+      "action": "neutralized",
+      "attributed_source_line_index": 0,
+      "attributed_source_line_sha256": "7608c2f701d15df3e59dcfc1b4d76d7068eaf5d1231ae83ec3e97cc057c8ded7",
+      "reason": "neutralized investor question",
+      "rendered_text": "Investor question: How much does the Welsh Brewery spend on CO2 annually?",
+      "retained_content_class": "explicit_investor_question",
+      "preceded_by_investor_decision": false,
+      "source_turn_index": 174,
+      "speaker": "Rohit",
+      "unattributed_continuation_count": 0
+    },
+    {
+      "action": "retained",
+      "attributed_source_line_index": 0,
+      "attributed_source_line_sha256": "848ca94558ba80645da4ebe4e7a587817076524c031175837be6920c2ec190ce",
+      "reason": "founder pitch or pre-decision factual answer; preserved factual names for semantic review",
+      "rendered_text": "Sonny: So currently they're paying around a thousand, dollars per ton per year.",
+      "retained_content_class": "explicit_founder",
+      "preceded_by_investor_decision": false,
+      "source_turn_index": 175,
+      "speaker": "Sonny",
+      "unattributed_continuation_count": 0
+    },
+    {
+      "action": "neutralized",
+      "attributed_source_line_index": 0,
+      "attributed_source_line_sha256": "2e1ecfe40ed2188aec2655d03112b789e1bc4f049f2b1a0b1ea28d86e2251418",
+      "reason": "neutralized investor question",
+      "rendered_text": "Investor question: And how many tons?",
+      "retained_content_class": "explicit_investor_question",
+      "preceded_by_investor_decision": false,
+      "source_turn_index": 176,
+      "speaker": "Michelle",
+      "unattributed_continuation_count": 0
+    },
+    {
+      "action": "retained",
+      "attributed_source_line_index": 0,
+      "attributed_source_line_sha256": "2b979e951e6d3eb07d4d70e684d9f71a3b9632bbd6aa830d6f3ab1c4a6b566c8",
+      "reason": "founder pitch or pre-decision factual answer; preserved factual names for semantic review",
+      "rendered_text": "Sonny: 20, they're looking to increase to 40.",
+      "retained_content_class": "explicit_founder",
+      "preceded_by_investor_decision": false,
+      "source_turn_index": 177,
+      "speaker": "Sonny",
+      "unattributed_continuation_count": 0
+    },
+    {
+      "action": "removed",
+      "attributed_source_line_index": 0,
+      "attributed_source_line_sha256": "85fec70372b092bb42d021a6d1b373081dde8bcf90feb49e0725e285043fb0ad",
+      "reason": "removed non-founder, evaluative, or unnecessary context",
+      "rendered_text": "",
+      "retained_content_class": null,
+      "preceded_by_investor_decision": false,
+      "source_turn_index": 178,
+      "speaker": "Jesse",
+      "unattributed_continuation_count": 0
+    },
+    {
+      "action": "retained",
+      "attributed_source_line_index": 0,
+      "attributed_source_line_sha256": "45afd89196e00db94939d1681daba3f0dd4876e48571027a9e90e84dd8965515",
+      "reason": "founder pitch or pre-decision factual answer; preserved factual names for semantic review",
+      "rendered_text": "Sonny: But our unit captures between 60 to 120, so it actually covers",
+      "retained_content_class": "explicit_founder",
+      "preceded_by_investor_decision": false,
+      "source_turn_index": 179,
+      "speaker": "Sonny",
+      "unattributed_continuation_count": 0
+    },
+    {
+      "action": "removed",
+      "attributed_source_line_index": 0,
+      "attributed_source_line_sha256": "846af4cc4dff62a8cada8b445674ae2f91763ec60e8b2ef212245b0a9655aaf4",
+      "reason": "removed non-founder, evaluative, or unnecessary context",
+      "rendered_text": "",
+      "retained_content_class": null,
+      "preceded_by_investor_decision": false,
+      "source_turn_index": 180,
+      "speaker": "Jesse",
+      "unattributed_continuation_count": 0
+    },
+    {
+      "action": "retained",
+      "attributed_source_line_index": 0,
+      "attributed_source_line_sha256": "8d95881bcf10294f990c11fbee90d7f4ecab8dbf52b9c7b98212acfa238f1621",
+      "reason": "founder pitch or pre-decision factual answer; preserved factual names for semantic review",
+      "rendered_text": "Sonny: Yeah. They can make extra money from selling the Co2 as well",
+      "retained_content_class": "explicit_founder",
+      "preceded_by_investor_decision": false,
+      "source_turn_index": 181,
+      "speaker": "Sonny",
+      "unattributed_continuation_count": 0
+    },
+    {
+      "action": "removed",
+      "attributed_source_line_index": 0,
+      "attributed_source_line_sha256": "8732ba2c5579a9fc743efa4bedb434ae73a2ab1201eeeed13444efe0cece7388",
+      "reason": "removed non-founder, evaluative, or unnecessary context",
+      "rendered_text": "",
+      "retained_content_class": null,
+      "preceded_by_investor_decision": false,
+      "source_turn_index": 182,
+      "speaker": "Elizabeth",
+      "unattributed_continuation_count": 0
+    },
+    {
+      "action": "retained",
+      "attributed_source_line_index": 0,
+      "attributed_source_line_sha256": "b03cf52102ed5e85460c713d0d2d2d928c591bdf36a335c18a2c109d89eb2cbf",
+      "reason": "founder pitch or pre-decision factual answer; preserved factual names for semantic review",
+      "rendered_text": "Sonny: the way that we structure the, the leasing amount kind of covers that. so if they do purely resell, their payback period is around three years. But if they're using it on site, it’s anywhere between three months to two years.",
+      "retained_content_class": "explicit_founder",
+      "preceded_by_investor_decision": false,
+      "source_turn_index": 183,
+      "speaker": "Sonny",
+      "unattributed_continuation_count": 0
+    },
+    {
+      "action": "removed",
+      "attributed_source_line_index": 0,
+      "attributed_source_line_sha256": "2bd50ee1303e1f2acb7ea3bdd85969e1fa1f0e3fa294f6278047ed1cd240d973",
+      "reason": "removed non-founder, evaluative, or unnecessary context",
+      "rendered_text": "",
+      "retained_content_class": null,
+      "preceded_by_investor_decision": false,
+      "source_turn_index": 184,
+      "speaker": "Michelle",
+      "unattributed_continuation_count": 0
+    },
+    {
+      "action": "retained",
+      "attributed_source_line_index": 0,
+      "attributed_source_line_sha256": "b71a506e5469792aad44100e922aae2f1d9a0378e2dac33ebc8068ef77336c43",
+      "reason": "founder pitch or pre-decision factual answer; preserved factual names for semantic review",
+      "rendered_text": "Sonny: Yes. But there are other people who are demanding, let's say like 3000 tons per year. Like that's like a small to medium sized, brewery. And then for like AB InBev for example, they're demanding probably like 10,000 tons per year.",
+      "retained_content_class": "explicit_founder",
+      "preceded_by_investor_decision": false,
+      "source_turn_index": 185,
+      "speaker": "Sonny",
+      "unattributed_continuation_count": 0
+    },
+    {
+      "action": "removed",
+      "attributed_source_line_index": 0,
+      "attributed_source_line_sha256": "f8041c5e9051a5615e1afaea886e62c8f3ee3a39c53b939999a30b23fb9581a0",
+      "reason": "removed non-founder, evaluative, or unnecessary context",
+      "rendered_text": "",
+      "retained_content_class": null,
+      "preceded_by_investor_decision": false,
+      "source_turn_index": 186,
+      "speaker": "Michelle",
+      "unattributed_continuation_count": 0
+    },
+    {
+      "action": "retained",
+      "attributed_source_line_index": 0,
+      "attributed_source_line_sha256": "53b7288950ab95ef1cfae7c9cd0ddd8b47b399000c9025755c5262a6e8173f05",
+      "reason": "founder pitch or pre-decision factual answer; preserved factual names for semantic review",
+      "rendered_text": "Sonny: Yeah, we definitely will lock in a longer contract. So even with the pilot customer, right now we're doing three year, but normally we'll look at anywhere between 5 to 20 years. Especially for the larger size, let's say a wasteful energy plant, we're probably looking at a 20 year, that's just the market standard.",
+      "retained_content_class": "explicit_founder",
+      "preceded_by_investor_decision": false,
+      "source_turn_index": 187,
+      "speaker": "Sonny",
+      "unattributed_continuation_count": 0
+    },
+    {
+      "action": "neutralized",
+      "attributed_source_line_index": 0,
+      "attributed_source_line_sha256": "1e4abf443a1dee478ab8eb0872419f0b1a662bd9388eeee4edf403835f299e5a",
+      "reason": "neutralized investor question",
+      "rendered_text": "Investor question: What's the material that you use?",
+      "retained_content_class": "explicit_investor_question",
+      "preceded_by_investor_decision": false,
+      "source_turn_index": 188,
+      "speaker": "Rohit",
+      "unattributed_continuation_count": 0
+    },
+    {
+      "action": "retained",
+      "attributed_source_line_index": 0,
+      "attributed_source_line_sha256": "0148a6f3aec6df672bed463d3338a92aff2554d1878e530ea80b338f3c280d58",
+      "reason": "founder pitch or pre-decision factual answer; preserved factual names for semantic review",
+      "rendered_text": "Sonny: It's a solid absorbent. I can’t disclose exactly what it is, I can tell you off camera",
+      "retained_content_class": "explicit_founder",
+      "preceded_by_investor_decision": false,
+      "source_turn_index": 189,
+      "speaker": "Sonny",
+      "unattributed_continuation_count": 0
+    },
+    {
+      "action": "removed",
+      "attributed_source_line_index": 0,
+      "attributed_source_line_sha256": "ed8afc5951c179323fe2d867b3686c3e539acaade4402348913ebd152d489b3d",
+      "reason": "removed non-founder, evaluative, or unnecessary context",
+      "rendered_text": "",
+      "retained_content_class": null,
+      "preceded_by_investor_decision": false,
+      "source_turn_index": 190,
+      "speaker": "Mike",
+      "unattributed_continuation_count": 0
+    },
+    {
+      "action": "retained",
+      "attributed_source_line_index": 0,
+      "attributed_source_line_sha256": "85fec70372b092bb42d021a6d1b373081dde8bcf90feb49e0725e285043fb0ad",
+      "reason": "founder pitch or pre-decision factual answer; preserved factual names for semantic review",
+      "rendered_text": "Sonny: Yeah.",
+      "retained_content_class": "explicit_founder",
+      "preceded_by_investor_decision": false,
+      "source_turn_index": 191,
+      "speaker": "Sonny",
+      "unattributed_continuation_count": 0
+    },
+    {
+      "action": "removed",
+      "attributed_source_line_index": 0,
+      "attributed_source_line_sha256": "254b1a12dab659044d3e4021f78c1967b610b5c92b05f126e32017ebca4150a9",
+      "reason": "removed non-founder, evaluative, or unnecessary context",
+      "rendered_text": "",
+      "retained_content_class": null,
+      "preceded_by_investor_decision": false,
+      "source_turn_index": 192,
+      "speaker": "Mike",
+      "unattributed_continuation_count": 0
+    },
+    {
+      "action": "retained",
+      "attributed_source_line_index": 0,
+      "attributed_source_line_sha256": "08dce99f62fc45b7b1f974b43f470ba085b30e27137a8b29c6706b3b48759ee0",
+      "reason": "founder pitch or pre-decision factual answer; preserved factual names for semantic review",
+      "rendered_text": "Sonny: basically our IP is on the process engineering part. how we design the unit and then how the unit can communicate each other, is basically the mechanical design that allows this to happen.",
+      "retained_content_class": "explicit_founder",
+      "preceded_by_investor_decision": false,
+      "source_turn_index": 193,
+      "speaker": "Sonny",
+      "unattributed_continuation_count": 0
+    },
+    {
+      "action": "removed",
+      "attributed_source_line_index": 0,
+      "attributed_source_line_sha256": "00a35e516c8faa0b5482fa34ca7b8b84150b6d47c7db303e07bdfa23804551ac",
+      "reason": "removed non-founder, evaluative, or unnecessary context",
+      "rendered_text": "",
+      "retained_content_class": null,
+      "preceded_by_investor_decision": false,
+      "source_turn_index": 194,
+      "speaker": "Mike",
+      "unattributed_continuation_count": 0
+    },
+    {
+      "action": "retained",
+      "attributed_source_line_index": 0,
+      "attributed_source_line_sha256": "85fec70372b092bb42d021a6d1b373081dde8bcf90feb49e0725e285043fb0ad",
+      "reason": "founder pitch or pre-decision factual answer; preserved factual names for semantic review",
+      "rendered_text": "Sonny: Yeah.",
+      "retained_content_class": "explicit_founder",
+      "preceded_by_investor_decision": false,
+      "source_turn_index": 195,
+      "speaker": "Sonny",
+      "unattributed_continuation_count": 0
+    },
+    {
+      "action": "removed",
+      "attributed_source_line_index": 0,
+      "attributed_source_line_sha256": "967949557e8878a3b17e822c7a2595dadb50d0a78fcd0fda1a4c86fa14927140",
+      "reason": "removed non-founder, evaluative, or unnecessary context",
+      "rendered_text": "",
+      "retained_content_class": null,
+      "preceded_by_investor_decision": false,
+      "source_turn_index": 196,
+      "speaker": "Mike",
+      "unattributed_continuation_count": 0
+    },
+    {
+      "action": "retained",
+      "attributed_source_line_index": 0,
+      "attributed_source_line_sha256": "85fec70372b092bb42d021a6d1b373081dde8bcf90feb49e0725e285043fb0ad",
+      "reason": "founder pitch or pre-decision factual answer; preserved factual names for semantic review",
+      "rendered_text": "Sonny: Yeah.",
+      "retained_content_class": "explicit_founder",
+      "preceded_by_investor_decision": false,
+      "source_turn_index": 197,
+      "speaker": "Sonny",
+      "unattributed_continuation_count": 0
+    },
+    {
+      "action": "removed",
+      "attributed_source_line_index": 0,
+      "attributed_source_line_sha256": "68b66b718223025ce7ef14d26fc2c076b9c4db25a9f88c7beba6f6b21188677d",
+      "reason": "removed non-founder, evaluative, or unnecessary context",
+      "rendered_text": "",
+      "retained_content_class": null,
+      "preceded_by_investor_decision": false,
+      "source_turn_index": 198,
+      "speaker": "Mike",
+      "unattributed_continuation_count": 0
+    },
+    {
+      "action": "retained",
+      "attributed_source_line_index": 0,
+      "attributed_source_line_sha256": "9df71183f6f89ac7b6ccaf4c6d1cf1f3eb5e263daed595908d61f37eb14564c0",
+      "reason": "founder pitch or pre-decision factual answer; preserved factual names for semantic review",
+      "rendered_text": "Sonny: So that's more the, you’re not dumb. So it's like a trade secret, right? Like the software part is just the trade secret and then modularity is the IP and anything related to how they communicate with each other is like a family of the IP.",
+      "retained_content_class": "explicit_founder",
+      "preceded_by_investor_decision": false,
+      "source_turn_index": 199,
+      "speaker": "Sonny",
+      "unattributed_continuation_count": 0
+    },
+    {
+      "action": "neutralized",
+      "attributed_source_line_index": 0,
+      "attributed_source_line_sha256": "fa5dcdda2b23c285a5f8e7def73b6b527e7458539fd1ced28cdc25bb48194cfc",
+      "reason": "neutralized investor question",
+      "rendered_text": "Investor question: Who holds the IP on the absorbent?",
+      "retained_content_class": "explicit_investor_question",
+      "preceded_by_investor_decision": false,
+      "source_turn_index": 200,
+      "speaker": "Rohit",
+      "unattributed_continuation_count": 0
+    },
+    {
+      "action": "retained",
+      "attributed_source_line_index": 0,
+      "attributed_source_line_sha256": "d2b03f1a9871cb9f8ad2ad33d365e938bfb9f34c5134c98c9b971c092e3965ae",
+      "reason": "founder pitch or pre-decision factual answer; preserved factual names for semantic review",
+      "rendered_text": "Sonny: We don't own it. We're working with a manufacturer offshore to produce it. But that category of absorbent, is pretty much like research. so it's-",
+      "retained_content_class": "explicit_founder",
+      "preceded_by_investor_decision": false,
+      "source_turn_index": 201,
+      "speaker": "Sonny",
+      "unattributed_continuation_count": 0
+    },
+    {
+      "action": "neutralized",
+      "attributed_source_line_index": 0,
+      "attributed_source_line_sha256": "8fb1f798b6719eb6acb2bddb918ac568e5dc0d9167aa44dbe208ae1d57600426",
+      "reason": "neutralized investor question",
+      "rendered_text": "Investor question: Is it owned by a university?",
+      "retained_content_class": "explicit_investor_question",
+      "preceded_by_investor_decision": false,
+      "source_turn_index": 202,
+      "speaker": "Rohit",
+      "unattributed_continuation_count": 0
+    },
+    {
+      "action": "retained",
+      "attributed_source_line_index": 0,
+      "attributed_source_line_sha256": "38178a20b470cfd18299fb1593dd4ba706f1a83321dac051d01086efd8b7a96f",
+      "reason": "founder pitch or pre-decision factual answer; preserved factual names for semantic review",
+      "rendered_text": "Sonny: No.",
+      "retained_content_class": "explicit_founder",
+      "preceded_by_investor_decision": false,
+      "source_turn_index": 203,
+      "speaker": "Sonny",
+      "unattributed_continuation_count": 0
+    },
+    {
+      "action": "neutralized",
+      "attributed_source_line_index": 0,
+      "attributed_source_line_sha256": "7a49c86b0d23e078e3c69c306e5ae0c91f4f2dbbdeb3d1cc39d5e636cca510df",
+      "reason": "neutralized investor question",
+      "rendered_text": "Investor question: So who owns it?",
+      "retained_content_class": "explicit_investor_question",
+      "preceded_by_investor_decision": false,
+      "source_turn_index": 204,
+      "speaker": "Rohit",
+      "unattributed_continuation_count": 0
+    },
+    {
+      "action": "neutralized",
+      "attributed_source_line_index": 0,
+      "attributed_source_line_sha256": "4f39d00a20b32915f1e39ad1cb5cce92977d154049231bc9602cc184e97297ef",
+      "reason": "neutralized investor question",
+      "rendered_text": "Investor question: But you have to pay like a licensing fee?",
+      "retained_content_class": "explicit_investor_question",
+      "preceded_by_investor_decision": false,
+      "source_turn_index": 205,
+      "speaker": "Elizabeth",
+      "unattributed_continuation_count": 0
+    },
+    {
+      "action": "retained",
+      "attributed_source_line_index": 0,
+      "attributed_source_line_sha256": "42c5fc7acd6e832c5cdcc1a4c70becbd94bd68685d8eb54c7720aa80d929ff49",
+      "reason": "founder pitch or pre-decision factual answer; preserved factual names for semantic review",
+      "rendered_text": "Sonny: We don't pay a licensing fee. I think the manufacturer pays the licensing fee to someone else.",
+      "retained_content_class": "explicit_founder",
+      "preceded_by_investor_decision": false,
+      "source_turn_index": 206,
+      "speaker": "Sonny",
+      "unattributed_continuation_count": 0
+    },
+    {
+      "action": "neutralized",
+      "attributed_source_line_index": 0,
+      "attributed_source_line_sha256": "ae0d64a200be8f9f74b435d04e121487c43dff3239e607e2c745adbce26c5b34",
+      "reason": "neutralized investor question",
+      "rendered_text": "Investor question: Do you have an exclusive?",
+      "retained_content_class": "explicit_investor_question",
+      "preceded_by_investor_decision": false,
+      "source_turn_index": 207,
+      "speaker": "Rohit",
+      "unattributed_continuation_count": 0
+    },
+    {
+      "action": "retained",
+      "attributed_source_line_index": 0,
+      "attributed_source_line_sha256": "4c099bf7fb608d258dfcdf528a5f5f73eb636772bc350f6317904a22f2768826",
+      "reason": "founder pitch or pre-decision factual answer; preserved factual names for semantic review",
+      "rendered_text": "Sonny: No, but it's not a material that's difficult to make. We're thinking about manufacturing ourselves with a little twist to the formula.",
+      "retained_content_class": "explicit_founder",
+      "preceded_by_investor_decision": false,
+      "source_turn_index": 208,
+      "speaker": "Sonny",
+      "unattributed_continuation_count": 0
+    },
+    {
+      "action": "removed",
+      "attributed_source_line_index": 0,
+      "attributed_source_line_sha256": "5d5f1d52a991ce814c9b6aafef6289df7b488ec49b866b0ef5a263b91eedda1d",
+      "reason": "removed non-founder, evaluative, or unnecessary context",
+      "rendered_text": "",
+      "retained_content_class": null,
+      "preceded_by_investor_decision": false,
+      "source_turn_index": 209,
+      "speaker": "Rohit",
+      "unattributed_continuation_count": 0
+    },
+    {
+      "action": "retained",
+      "attributed_source_line_index": 0,
+      "attributed_source_line_sha256": "aa172716d9240d2bd60b5a4f563769cc12b5541c9862bcec09cd42f8aa0dbb0f",
+      "reason": "founder pitch or pre-decision factual answer; preserved factual names for semantic review",
+      "rendered_text": "Sonny: Potentially",
+      "retained_content_class": "explicit_founder",
+      "preceded_by_investor_decision": false,
+      "source_turn_index": 210,
+      "speaker": "Sonny",
+      "unattributed_continuation_count": 0
+    },
+    {
+      "action": "removed",
+      "attributed_source_line_index": 0,
+      "attributed_source_line_sha256": "b985447fd143dccb849873900e208a872f3cf12896299bc48032961c61a48f4e",
+      "reason": "removed non-founder, evaluative, or unnecessary context",
+      "rendered_text": "",
+      "retained_content_class": null,
+      "preceded_by_investor_decision": false,
+      "source_turn_index": 211,
+      "speaker": "Rohit",
+      "unattributed_continuation_count": 0
+    },
+    {
+      "action": "retained",
+      "attributed_source_line_index": 0,
+      "attributed_source_line_sha256": "85fec70372b092bb42d021a6d1b373081dde8bcf90feb49e0725e285043fb0ad",
+      "reason": "founder pitch or pre-decision factual answer; preserved factual names for semantic review",
+      "rendered_text": "Sonny: Yeah.",
+      "retained_content_class": "explicit_founder",
+      "preceded_by_investor_decision": false,
+      "source_turn_index": 212,
+      "speaker": "Sonny",
+      "unattributed_continuation_count": 0
+    },
+    {
+      "action": "removed",
+      "attributed_source_line_index": 0,
+      "attributed_source_line_sha256": "f537d8b132a352de41f517ecf72a76a88dc092002ad737fbeb7807855e4f7f15",
+      "reason": "removed non-founder, evaluative, or unnecessary context",
+      "rendered_text": "",
+      "retained_content_class": null,
+      "preceded_by_investor_decision": false,
+      "source_turn_index": 213,
+      "speaker": "Rohit",
+      "unattributed_continuation_count": 0
+    },
+    {
+      "action": "retained",
+      "attributed_source_line_index": 0,
+      "attributed_source_line_sha256": "e42d56575691f4843e6d357377d8e072a624da2ae174ee9691d98db0aec6a605",
+      "reason": "founder pitch or pre-decision factual answer; preserved factual names for semantic review",
+      "rendered_text": "Sonny: Yeah. We are technically absorbent agnostic so we can deal with any sort of solid absorbent. If we want to develop our own later, it wouldn't be a difficult switch.",
+      "retained_content_class": "explicit_founder",
+      "preceded_by_investor_decision": false,
+      "source_turn_index": 214,
+      "speaker": "Sonny",
+      "unattributed_continuation_count": 0
+    },
+    {
+      "action": "neutralized",
+      "attributed_source_line_index": 0,
+      "attributed_source_line_sha256": "3be1bbffcf01768455c4479bb23d2349b73681f1e7ccb3acdae36a787456d889",
+      "reason": "neutralized investor question",
+      "rendered_text": "Investor question: How long would it take you to create your own?",
+      "retained_content_class": "explicit_investor_question",
+      "preceded_by_investor_decision": false,
+      "source_turn_index": 215,
+      "speaker": "Rohit",
+      "unattributed_continuation_count": 0
+    },
+    {
+      "action": "retained",
+      "attributed_source_line_index": 0,
+      "attributed_source_line_sha256": "8f37315fb625f504cc755f460e5ae72e2400584dc25e8f353d0ae5b49a1ae2d4",
+      "reason": "founder pitch or pre-decision factual answer; preserved factual names for semantic review",
+      "rendered_text": "Sonny: Probably, let’s say like a year or two. I don't think it's difficult.",
+      "retained_content_class": "explicit_founder",
+      "preceded_by_investor_decision": false,
+      "source_turn_index": 216,
+      "speaker": "Sonny",
+      "unattributed_continuation_count": 0
+    },
+    {
+      "action": "neutralized",
+      "attributed_source_line_index": 0,
+      "attributed_source_line_sha256": "da4938d8b35a5defb174305adb3541cd9d357bcc688c19aaa5493f9771e92f32",
+      "reason": "neutralized investor question",
+      "rendered_text": "Investor question: When did you start this company?",
+      "retained_content_class": "explicit_investor_question",
+      "preceded_by_investor_decision": false,
+      "source_turn_index": 217,
+      "speaker": "Elizabeth",
+      "unattributed_continuation_count": 0
+    },
+    {
+      "action": "retained",
+      "attributed_source_line_index": 0,
+      "attributed_source_line_sha256": "8fec28288bcf7a16a665e9ee43738057436a875978ed055d4612836d0f4289c3",
+      "reason": "founder pitch or pre-decision factual answer; preserved factual names for semantic review",
+      "rendered_text": "Sonny: We started around a year and eight months ago while we were still doing our masters.",
+      "retained_content_class": "explicit_founder",
+      "preceded_by_investor_decision": false,
+      "source_turn_index": 218,
+      "speaker": "Sonny",
+      "unattributed_continuation_count": 0
+    },
+    {
+      "action": "neutralized",
+      "attributed_source_line_index": 0,
+      "attributed_source_line_sha256": "4094faaefd1e6d2aff78b0a7485c18e650e045079771c128d807ebcd7d005a2a",
+      "reason": "neutralized investor question",
+      "rendered_text": "Investor question: And does Imperial have any economics in this?",
+      "retained_content_class": "explicit_investor_question",
+      "preceded_by_investor_decision": false,
+      "source_turn_index": 219,
+      "speaker": "Elizabeth",
+      "unattributed_continuation_count": 0
+    },
+    {
+      "action": "retained",
+      "attributed_source_line_index": 0,
+      "attributed_source_line_sha256": "81d778e5b7dc9164e8d7c98d07e928f8e8350f564a5c466cf881473e63d738f2",
+      "reason": "founder pitch or pre-decision factual answer; preserved factual names for semantic review",
+      "rendered_text": "Sonny: No. We build everything in our own garage. And then, talk to advisors for like technical validation and commercial validation.",
+      "retained_content_class": "explicit_founder",
+      "preceded_by_investor_decision": false,
+      "source_turn_index": 220,
+      "speaker": "Sonny",
+      "unattributed_continuation_count": 0
+    },
+    {
+      "action": "neutralized",
+      "attributed_source_line_index": 0,
+      "attributed_source_line_sha256": "bb4901cef5fa5255c298f269d40ce402c8da33ac32c47ee562b7b1e5fc5f3529",
+      "reason": "neutralized investor question",
+      "rendered_text": "Investor question: How much have you raised, and roughly like how much of the company have you sold and all that?",
+      "retained_content_class": "explicit_investor_question",
+      "preceded_by_investor_decision": false,
+      "source_turn_index": 221,
+      "speaker": "Elizabeth",
+      "unattributed_continuation_count": 0
+    },
+    {
+      "action": "retained",
+      "attributed_source_line_index": 0,
+      "attributed_source_line_sha256": "4bf53a942ddc54b5596cc52c32e251849ad3c1d952783f88af2008f439e27562",
+      "reason": "founder pitch or pre-decision factual answer; preserved factual names for semantic review",
+      "rendered_text": "Sonny: uh it's pretty much founder owned. um, raised a roughly around 400K, 500K angel round before, with participation from, Alexis Ohanian, the co-founder Reddit, as well as like a few other, family offices and one small institutional from the US",
+      "retained_content_class": "explicit_founder",
+      "preceded_by_investor_decision": false,
+      "source_turn_index": 222,
+      "speaker": "Sonny",
+      "unattributed_continuation_count": 0
+    },
+    {
+      "action": "neutralized",
+      "attributed_source_line_index": 0,
+      "attributed_source_line_sha256": "2d1eb223e84825db2fa25f79f2fa948435346aa1406a4c87412daa8daee36a13",
+      "reason": "neutralized investor question",
+      "rendered_text": "Investor question: And what were the terms of that?",
+      "retained_content_class": "explicit_investor_question",
+      "preceded_by_investor_decision": false,
+      "source_turn_index": 223,
+      "speaker": "Elizabeth",
+      "unattributed_continuation_count": 0
+    },
+    {
+      "action": "retained",
+      "attributed_source_line_index": 0,
+      "attributed_source_line_sha256": "f03e86dc8c0bdcf526e56c0126ec4fadb3bad3b0f98c6ecb47ed46de98bc9a27",
+      "reason": "founder pitch or pre-decision factual answer; preserved factual names for semantic review",
+      "rendered_text": "Sonny: that one was 5.75 mil pounds, so that's roughly around 7.6. $7.7 million dollars.",
+      "retained_content_class": "explicit_founder",
+      "preceded_by_investor_decision": false,
+      "source_turn_index": 224,
+      "speaker": "Sonny",
+      "unattributed_continuation_count": 0
+    },
+    {
+      "action": "removed",
+      "attributed_source_line_index": 0,
+      "attributed_source_line_sha256": "4e531f03e2a2b5453669564549003797327a3ef5ffbca29015fa5eda3fc493aa",
+      "reason": "removed non-founder, evaluative, or unnecessary context",
+      "rendered_text": "",
+      "retained_content_class": null,
+      "preceded_by_investor_decision": false,
+      "source_turn_index": 225,
+      "speaker": "Elizabeth",
+      "unattributed_continuation_count": 0
+    },
+    {
+      "action": "retained",
+      "attributed_source_line_index": 0,
+      "attributed_source_line_sha256": "b3505f7d4b5be569406b6f796cc42c9ace55914a90a21db992b5e4a46a9a94cb",
+      "reason": "founder pitch or pre-decision factual answer; preserved factual names for semantic review",
+      "rendered_text": "Sonny: $2 million dollars",
+      "retained_content_class": "explicit_founder",
+      "preceded_by_investor_decision": false,
+      "source_turn_index": 226,
+      "speaker": "Sonny",
+      "unattributed_continuation_count": 0
+    },
+    {
+      "action": "neutralized",
+      "attributed_source_line_index": 0,
+      "attributed_source_line_sha256": "bdb702f12dd4a89e61d825f56d784cbb2dfd994a0fe0da26b3579fc5625eccf0",
+      "reason": "neutralized investor question",
+      "rendered_text": "Investor question: What are the use of proceeds?",
+      "retained_content_class": "explicit_investor_question",
+      "preceded_by_investor_decision": false,
+      "source_turn_index": 227,
+      "speaker": "Mike",
+      "unattributed_continuation_count": 0
+    },
+    {
+      "action": "retained",
+      "attributed_source_line_index": 0,
+      "attributed_source_line_sha256": "80f3eb8ddcc7731918d9d22e42c5569ebd211b6afceb20bf90b524d613755e58",
+      "reason": "founder pitch or pre-decision factual answer; preserved factual names for semantic review",
+      "rendered_text": "Sonny: so we're specifically finished deploying our industrial demo, which stacks five units together. We're finishing on the AI control layer, and then during the process we'll also scale our sales. We're actually looking to mass manufacture at the end of 2027, so getting a lot of contracts piled up together so we can manufacture more. So that's the goal for the pre-seed.",
+      "retained_content_class": "explicit_founder",
+      "preceded_by_investor_decision": false,
+      "source_turn_index": 228,
+      "speaker": "Sonny",
+      "unattributed_continuation_count": 0
+    },
+    {
+      "action": "neutralized",
+      "attributed_source_line_index": 0,
+      "attributed_source_line_sha256": "bf2f26731d18e8f61e88360303d318207234d89dce9432dcff74af3e569de717",
+      "reason": "neutralized investor question",
+      "rendered_text": "Investor question: Can I ask a, this may be a silly question, I'm not sure, but, Is CO2 used much with regard to things like data centers in general cooling?",
+      "retained_content_class": "explicit_investor_question",
+      "preceded_by_investor_decision": false,
+      "source_turn_index": 229,
+      "speaker": "Jesse",
+      "unattributed_continuation_count": 0
+    },
+    {
+      "action": "retained",
+      "attributed_source_line_index": 0,
+      "attributed_source_line_sha256": "cb2643cb444ef268f2ab1d73fd6a01939136f7994736a94cfc1e59792c36ba92",
+      "reason": "founder pitch or pre-decision factual answer; preserved factual names for semantic review",
+      "rendered_text": "Sonny: Yeah. So you can use it as a refrigerant.",
+      "retained_content_class": "explicit_founder",
+      "preceded_by_investor_decision": false,
+      "source_turn_index": 230,
+      "speaker": "Sonny",
+      "unattributed_continuation_count": 0
+    },
+    {
+      "action": "removed",
+      "attributed_source_line_index": 0,
+      "attributed_source_line_sha256": "85fec70372b092bb42d021a6d1b373081dde8bcf90feb49e0725e285043fb0ad",
+      "reason": "removed non-founder, evaluative, or unnecessary context",
+      "rendered_text": "",
+      "retained_content_class": null,
+      "preceded_by_investor_decision": false,
+      "source_turn_index": 231,
+      "speaker": "Jesse",
+      "unattributed_continuation_count": 0
+    },
+    {
+      "action": "retained",
+      "attributed_source_line_index": 0,
+      "attributed_source_line_sha256": "a797cb0e152f58ccb340596d9d188ff70070565a7ffa309af7d28673b8d4d713",
+      "reason": "founder pitch or pre-decision factual answer; preserved factual names for semantic review",
+      "rendered_text": "Sonny: Some data centers do use it. Actually, I just had this very interesting conversation last night where there's a lot of natural gas plants right next to data centers right now.",
+      "retained_content_class": "explicit_founder",
+      "preceded_by_investor_decision": false,
+      "source_turn_index": 232,
+      "speaker": "Sonny",
+      "unattributed_continuation_count": 0
+    },
+    {
+      "action": "removed",
+      "attributed_source_line_index": 0,
+      "attributed_source_line_sha256": "85fec70372b092bb42d021a6d1b373081dde8bcf90feb49e0725e285043fb0ad",
+      "reason": "removed non-founder, evaluative, or unnecessary context",
+      "rendered_text": "",
+      "retained_content_class": null,
+      "preceded_by_investor_decision": false,
+      "source_turn_index": 233,
+      "speaker": "Jesse",
+      "unattributed_continuation_count": 0
+    },
+    {
+      "action": "retained",
+      "attributed_source_line_index": 0,
+      "attributed_source_line_sha256": "efa275a7bde9cfa9561981bbe757ed4a66a40ad7cea76c9d2792b4ae73663720",
+      "reason": "founder pitch or pre-decision factual answer; preserved factual names for semantic review",
+      "rendered_text": "Sonny: And we can actually capture from there and then reuse it locally. So one of the use cases could be doing something with cooling in data centers.",
+      "retained_content_class": "explicit_founder",
+      "preceded_by_investor_decision": false,
+      "source_turn_index": 234,
+      "speaker": "Sonny",
+      "unattributed_continuation_count": 0
+    },
+    {
+      "action": "neutralized",
+      "attributed_source_line_index": 0,
+      "attributed_source_line_sha256": "92df6061dc8665f016823fec20f5e0e3e776dbd4bac4fe7695a532202b768838",
+      "reason": "neutralized investor question",
+      "rendered_text": "Investor question: When do you plan on deploying to this Welsh brewery?",
+      "retained_content_class": "explicit_investor_question",
+      "preceded_by_investor_decision": false,
+      "source_turn_index": 235,
+      "speaker": "Elizabeth",
+      "unattributed_continuation_count": 0
+    },
+    {
+      "action": "retained",
+      "attributed_source_line_index": 0,
+      "attributed_source_line_sha256": "da5e59de8c3e1076607b3a049c1a0da21d483ca19ad6f145dd41f59c7ed5c20e",
+      "reason": "founder pitch or pre-decision factual answer; preserved factual names for semantic review",
+      "rendered_text": "Sonny: So we're doing it right now.",
+      "retained_content_class": "explicit_founder",
+      "preceded_by_investor_decision": false,
+      "source_turn_index": 236,
+      "speaker": "Sonny",
+      "unattributed_continuation_count": 0
+    },
+    {
+      "action": "removed",
+      "attributed_source_line_index": 0,
+      "attributed_source_line_sha256": "ec5acd5e21ac22d556a4783140a064054939e9c8b9217b0fe94f3496024a84d3",
+      "reason": "removed non-founder, evaluative, or unnecessary context",
+      "rendered_text": "",
+      "retained_content_class": null,
+      "preceded_by_investor_decision": false,
+      "source_turn_index": 237,
+      "speaker": "Elizabeth",
+      "unattributed_continuation_count": 0
+    },
+    {
+      "action": "retained",
+      "attributed_source_line_index": 0,
+      "attributed_source_line_sha256": "85fec70372b092bb42d021a6d1b373081dde8bcf90feb49e0725e285043fb0ad",
+      "reason": "founder pitch or pre-decision factual answer; preserved factual names for semantic review",
+      "rendered_text": "Sonny: Yeah.",
+      "retained_content_class": "explicit_founder",
+      "preceded_by_investor_decision": false,
+      "source_turn_index": 238,
+      "speaker": "Sonny",
+      "unattributed_continuation_count": 0
+    },
+    {
+      "action": "removed",
+      "attributed_source_line_index": 0,
+      "attributed_source_line_sha256": "850588961bd9faf965a668376628b52f0cb45c384fc25ddb3d1894493e109b37",
+      "reason": "removed non-founder, evaluative, or unnecessary context",
+      "rendered_text": "",
+      "retained_content_class": null,
+      "preceded_by_investor_decision": false,
+      "source_turn_index": 239,
+      "speaker": "Elizabeth",
+      "unattributed_continuation_count": 0
+    },
+    {
+      "action": "retained",
+      "attributed_source_line_index": 0,
+      "attributed_source_line_sha256": "a79680b17eaab363fc246df022e5e8be628c39048f3df3541453e1587b85f346",
+      "reason": "founder pitch or pre-decision factual answer; preserved factual names for semantic review",
+      "rendered_text": "Sonny: Well, we we're finishing- Thank you. From start to end, it's gonna be in six months. I think we're really quick. Like normally you'll probably need one or two years to do so, but because my CTO has like mass manufacturing experience we're able to do this a lot quicker.",
+      "retained_content_class": "explicit_founder",
+      "preceded_by_investor_decision": false,
+      "source_turn_index": 240,
+      "speaker": "Sonny",
+      "unattributed_continuation_count": 0
+    },
+    {
+      "action": "removed",
+      "attributed_source_line_index": 0,
+      "attributed_source_line_sha256": "632724528cb59364674852c77138428d0ab5b6258bf5cdfa0c99cbc6801f73b5",
+      "reason": "removed non-founder, evaluative, or unnecessary context",
+      "rendered_text": "",
+      "retained_content_class": null,
+      "preceded_by_investor_decision": false,
+      "source_turn_index": 241,
+      "speaker": "Mike",
+      "unattributed_continuation_count": 0
+    },
+    {
+      "action": "retained",
+      "attributed_source_line_index": 0,
+      "attributed_source_line_sha256": "c6b9beb7a1c6358b87e56f8b298e847b13fe132eeedc7feb9d01ed7bc24d7881",
+      "reason": "founder pitch or pre-decision factual answer; preserved factual names for semantic review",
+      "rendered_text": "Sonny: Yeah. So every ton used by our unit, or recycled by our unit. You're saving essentially 1.1 tons of equivalent of CO2. For a brewery essentially, instead of emitting and getting another part, your recycling so you’re reducing one part of your direct emissions, and then you're also cutting the transportation emission related to that, which usually is around like. 0.1 ton, per ton of CO2 that you use.",
+      "retained_content_class": "explicit_founder",
+      "preceded_by_investor_decision": false,
+      "source_turn_index": 242,
+      "speaker": "Sonny",
+      "unattributed_continuation_count": 0
+    },
+    {
+      "action": "neutralized",
+      "attributed_source_line_index": 0,
+      "attributed_source_line_sha256": "124416185def024182602915a300083da7cfbbe66253c61c8565b88fbd3a35c9",
+      "reason": "neutralized investor question",
+      "rendered_text": "Investor question: Why do you guys care about that?",
+      "retained_content_class": "explicit_investor_question",
+      "preceded_by_investor_decision": false,
+      "source_turn_index": 243,
+      "speaker": "Mike",
+      "unattributed_continuation_count": 0
+    }
+  ],
+  "removed_candidate_lines": [
+    123
+  ],
+  "pitch_sha256": "a8bb042e2cedbab2a1901e822f912b291ed2a0f59cce9cb169e56efdd1bd0677",
+  "fingerprint": "859c5405a16507e287641c79fb5066d6a527d66a25c10e86e74cfff803cb2427",
+  "model": "openai/gpt-5.6-luna",
+  "calls": [
+    {
+      "phase": "evaluation_review",
+      "parsed": {
+        "episode_kind": "pitch",
+        "founder_speakers": [
+          "Sonny"
+        ],
+        "pitch_start_turn": 54,
+        "pitch_end_turn": 244,
+        "excluded_turns": [],
+        "boundary_reason": "The substantive pitch begins at turn 54, after the teaser, promotion, investor introductions, and greetings. The original pitch window ends before the financing-terms discussion at turn 245 and Elizabeth's first commitment at turn 247.",
+        "decisions": [
+          {
+            "vc_slug": "elizabeth-yin-hustle-fund",
+            "pitch_window_decision": "In",
+            "initial_response": "In",
+            "decision_context": "initial_panel",
+            "pitch_evidence": [
+              {
+                "turn_index": 247,
+                "quote": "So I would be in for 150 at 10 post US. I know that that's not what you're looking for, but that's, what we would be open to doing"
+              }
+            ],
+            "later_decision": "In",
+            "later_evidence": [
+              {
+                "turn_index": 334,
+                "quote": "So Elizabeth invested $150k."
+              }
+            ],
+            "condition": "At 10 post US; no lead required.",
+            "reason": "Elizabeth explicitly committed to invest $150k during the panel, and the followup reports that she invested $150k."
+          },
+          {
+            "vc_slug": "jesse-middleton-flybridge",
+            "pitch_window_decision": "Out",
+            "initial_response": "Out",
+            "decision_context": "initial_panel",
+            "pitch_evidence": [
+              {
+                "turn_index": 264,
+                "quote": "And so I would say I'm not ready to commit to anything. I would like to connect and learn more, but not yet ready to say like, I'm in. So."
+              }
+            ],
+            "later_decision": "Out",
+            "later_evidence": [
+              {
+                "turn_index": 337,
+                "quote": "No. I think I need to follow up. Um-"
+              }
+            ],
+            "condition": null,
+            "reason": "Jesse explicitly said he was not ready to commit during the pitch. In the followup, Sonny answered that Jesse had not invested."
+          },
+          {
+            "vc_slug": "mike-ma-sidecut-ventures",
+            "pitch_window_decision": "In",
+            "initial_response": "In",
+            "decision_context": "initial_panel",
+            "pitch_evidence": [
+              {
+                "turn_index": 271,
+                "quote": "So we have a yes from me"
+              }
+            ],
+            "later_decision": "Out",
+            "later_evidence": [
+              {
+                "turn_index": 384,
+                "quote": "No. It was a no at the end. There was different optics in when it comes to the go-to-market strategy. I think Mike probably will prefer us to do more of a bottom-up approach when it comes to having another separate pipeline of customers. But we ended up not doing that."
+              }
+            ],
+            "condition": "Subject to a $200k–$300k check, approximately $250k, at a 10 cap and with a go-to-market focus.",
+            "reason": "Mike gave an explicit yes during the panel, but the later Foxhole process ended with no because the company did not adopt the preferred go-to-market approach."
+          },
+          {
+            "vc_slug": "rohit-gupta-future-communities-capital",
+            "pitch_window_decision": "Unobserved",
+            "initial_response": "Unobserved",
+            "decision_context": "later_diligence",
+            "pitch_evidence": [],
+            "later_decision": "Out",
+            "later_evidence": [
+              {
+                "turn_index": 334,
+                "quote": "So Rohit’s investment fizzled out from there."
+              }
+            ],
+            "condition": null,
+            "reason": "Rohit said he was still in the middle of his process and wanted to dig further, which is not a commitment or refusal. The later report says his investment fizzled out."
+          }
+        ]
+      },
+      "usage": {
+        "input_tokens": 19463,
+        "cached_input_tokens": 0,
+        "output_tokens": 7112,
+        "cost_usd": 0.0134
+      },
+      "elapsed_seconds": 57.97701245639473
+    },
+    {
+      "phase": "evaluation_verify",
+      "parsed": {
+        "boundary_supported": true,
+        "remove_lines": [
+          123
+        ],
+        "safe_after_removal": true,
+        "reason": "The substantive pitch starts at turn 54, after the teaser, promotions, investor introductions, and greetings. The conservative factual pitch window ends before turn 245, when financing terms and the decision sequence begin. Candidate line 123 contains Sonny's founder reaction ('Thank you') to a congratulations exchange and should be removed; the other candidate lines are pre-decision factual material or neutral questions. Earlier fundraising information is legitimate factual context and is retained.",
+        "decisions": [
+          {
+            "vc_slug": "elizabeth-yin-hustle-fund",
+            "pitch_decision_supported": true,
+            "later_decision_supported": true,
+            "pitch_evidence": [
+              {
+                "turn_index": 247,
+                "quote": "So I would be in for 150 at 10 post US. I know that that's not what you're looking for, but that's, what we would be open to doing"
+              }
+            ],
+            "later_evidence": [
+              {
+                "turn_index": 334,
+                "quote": "So Elizabeth invested $150k."
+              }
+            ],
+            "condition": "A $150k check at 10 post US; no lead required.",
+            "reason": "Elizabeth explicitly committed during the same pitch session, and the followup explicitly reports that she invested $150k."
+          },
+          {
+            "vc_slug": "jesse-middleton-flybridge",
+            "pitch_decision_supported": true,
+            "later_decision_supported": true,
+            "pitch_evidence": [
+              {
+                "turn_index": 264,
+                "quote": "And so I would say I'm not ready to commit to anything. I would like to connect and learn more, but not yet ready to say like, I'm in. So."
+              }
+            ],
+            "later_evidence": [
+              {
+                "turn_index": 337,
+                "quote": "No. I think I need to follow up. Um-"
+              }
+            ],
+            "condition": null,
+            "reason": "Jesse expressly declined to commit during the pitch. Sonny later answered no when asked whether Jesse invested."
+          },
+          {
+            "vc_slug": "mike-ma-sidecut-ventures",
+            "pitch_decision_supported": true,
+            "later_decision_supported": true,
+            "pitch_evidence": [
+              {
+                "turn_index": 271,
+                "quote": "So we have a yes from me"
+              }
+            ],
+            "later_evidence": [
+              {
+                "turn_index": 384,
+                "quote": "No. It was a no at the end. There was different optics in when it comes to the go-to-market strategy. I think Mike probably will prefer us to do more of a bottom-up approach when it comes to having another separate pipeline of customers. But we ended up not doing that."
+              }
+            ],
+            "condition": "A $200k-$300k check, approximately $250k, at a 10 cap and with a go-to-market focus.",
+            "reason": "Mike gave an explicit yes subject to the stated check-size, valuation-cap, and go-to-market constraints. The later Foxhole process ended in a no after disagreement over the go-to-market strategy."
+          },
+          {
+            "vc_slug": "rohit-gupta-future-communities-capital",
+            "pitch_decision_supported": false,
+            "later_decision_supported": true,
+            "pitch_evidence": [],
+            "later_evidence": [
+              {
+                "turn_index": 334,
+                "quote": "So Rohit’s investment fizzled out from there."
+              }
+            ],
+            "condition": null,
+            "reason": "Rohit said he was still in the middle of his process and wanted additional diligence, which establishes neither a commitment nor a refusal during the pitch. The followup explicitly reports that his investment fizzled out."
+          }
+        ]
+      },
+      "usage": {
+        "input_tokens": 24938,
+        "cached_input_tokens": 0,
+        "output_tokens": 4743,
+        "cost_usd": 0.01192595
+      },
+      "elapsed_seconds": 43.61689001880586
+    }
+  ],
+  "reused_review": true
+}

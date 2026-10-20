@@ -1,0 +1,458 @@
+{
+  "schema": "phase1-rationale-reference-v1",
+  "extraction_version": "pitchshow-rationales-v1",
+  "fingerprint": "2c1e65a600dceafb72e8db3436beb402dc14885569b16475f79d0bf2cb6e101f",
+  "episode_slug": "77-sell-online-or-go-door-to-door",
+  "vc_slug": "sheel-mohnot-better-tomorrow-ventures",
+  "vc_name": "Sheel Mohnot",
+  "actual_decision": "Out",
+  "later_decision": "Unknown",
+  "reference_kind": "automated_transcript_observed_candidate",
+  "human_validated": false,
+  "source_format": "transcript-observed-rationales-v1",
+  "source_path": "/home/dpasch01/vclogic-vc-agentic-assessment/evaluation/pitchshow/investors/sheel-mohnot-better-tomorrow-ventures/source/episodes/77-sell-online-or-go-door-to-door.json",
+  "source_sha256": "15e5f8413cf76a8fa8a702b63dbd9115956af61a429cd93748208f9977b7660d",
+  "transcript_sha256": "0218ff79a88200ae145a788301df68548946186a9f06e8be824db96833f4673a",
+  "taxonomy_sha256": "eaa8734819a3ac34dd19ee5f0bf6de925a793a1d25a2d361090dafc9b751e1fc",
+  "model": "codex:gpt-5.6-luna+gpt-5.6-sol",
+  "generation_stages": [
+    {
+      "phase": "rationale_extract",
+      "backend": "codex",
+      "model": "gpt-5.6-luna"
+    },
+    {
+      "phase": "rationale_verify",
+      "backend": "codex",
+      "model": "gpt-5.6-sol"
+    }
+  ],
+  "source_tier": "newly_extracted_and_independently_model_reviewed",
+  "reviewed_target_turns": [
+    3,
+    9,
+    11,
+    14,
+    16,
+    18,
+    26,
+    38,
+    53,
+    66,
+    67,
+    69,
+    84,
+    87
+  ],
+  "notes": "",
+  "receipt_path": "/home/dpasch01/vclogic-vc-agentic-assessment/evaluation/pitchshow/investors/sheel-mohnot-better-tomorrow-ventures/rationale-references/receipts/77-sell-online-or-go-door-to-door.json",
+  "scoring_scope": "original_pitch_only",
+  "shared_across_input_modes": true,
+  "rationales": [
+    {
+      "rationale_label": "business_model_assessment",
+      "direction": "neutral",
+      "salience": "secondary",
+      "confidence": 0.97,
+      "utterance_type": "question",
+      "decision_link": "none",
+      "timing": "original_pitch",
+      "turn_index": 14,
+      "quote": "What do these retail for?",
+      "explanation": "Sheel asks about the product's retail pricing.",
+      "evidence": [
+        "What do these retail for?"
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 14,
+          "speaker": "Sheel",
+          "quote": "What do these retail for?"
+        }
+      ],
+      "activation": "queried",
+      "source_rationale_id": "R2",
+      "utterance_kind": "question",
+      "decision_support": "none",
+      "all_mention_ids": [
+        "R2"
+      ]
+    },
+    {
+      "rationale_label": "go_to_market_strategy_assessment",
+      "direction": "negative",
+      "salience": "secondary",
+      "confidence": 0.78,
+      "utterance_type": "assessment",
+      "decision_link": "none",
+      "timing": "original_pitch",
+      "turn_index": 87,
+      "quote": "No chance.",
+      "explanation": "In the immediate in-room debrief, Sheel dismisses the inexperienced Facebook-and-Instagram DTC approach under discussion as nonviable.",
+      "evidence": [
+        "I think direct to consumer is actually pretty hard in this category.",
+        "No chance."
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 66,
+          "speaker": "Sheel",
+          "quote": "I think direct to consumer is actually pretty hard in this category."
+        },
+        {
+          "turn_index": 87,
+          "speaker": "Sheel",
+          "quote": "No chance."
+        }
+      ],
+      "activation": "evaluated",
+      "source_rationale_id": "R9",
+      "utterance_kind": "assessment",
+      "decision_support": "none",
+      "all_mention_ids": [
+        "R5",
+        "R6",
+        "R9"
+      ]
+    },
+    {
+      "rationale_label": "growth_projection_risk",
+      "direction": "positive",
+      "salience": "secondary",
+      "confidence": 0.98,
+      "utterance_type": "assessment",
+      "decision_link": "none",
+      "timing": "original_pitch",
+      "turn_index": 66,
+      "quote": "I think that your projections are totally realistic.",
+      "explanation": "Sheel considers the company's projections credible rather than overstated.",
+      "evidence": [
+        "I think that your projections are totally realistic."
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 66,
+          "speaker": "Sheel",
+          "quote": "I think that your projections are totally realistic."
+        }
+      ],
+      "activation": "evaluated",
+      "source_rationale_id": "R7",
+      "utterance_kind": "assessment",
+      "decision_support": "none",
+      "all_mention_ids": [
+        "R4",
+        "R7"
+      ]
+    },
+    {
+      "rationale_label": "investment_upside_assessment",
+      "direction": "negative",
+      "salience": "primary",
+      "confidence": 0.99,
+      "utterance_type": "decision_reason",
+      "decision_link": "explicit",
+      "timing": "original_pitch",
+      "turn_index": 66,
+      "quote": "it’s not the return profile that I’m looking for for a venture investment.",
+      "explanation": "Sheel identifies an inadequate venture-return profile as his reason for declining to invest.",
+      "evidence": [
+        "it’s not the return profile that I’m looking for for a venture investment."
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 66,
+          "speaker": "Sheel",
+          "quote": "it’s not the return profile that I’m looking for for a venture investment."
+        }
+      ],
+      "activation": "evaluated",
+      "source_rationale_id": "R8",
+      "utterance_kind": "decision_explanation",
+      "decision_support": "supports_out",
+      "all_mention_ids": [
+        "R8"
+      ]
+    },
+    {
+      "rationale_label": "product_appeal_assessment",
+      "direction": "positive",
+      "salience": "secondary",
+      "confidence": 0.99,
+      "utterance_type": "assessment",
+      "decision_link": "none",
+      "timing": "original_pitch",
+      "turn_index": 11,
+      "quote": "Tasty. I like the cinnamon one.",
+      "explanation": "Sheel positively assesses the product's taste.",
+      "evidence": [
+        "Tasty. I like the cinnamon one."
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 11,
+          "speaker": "Sheel",
+          "quote": "Tasty. I like the cinnamon one."
+        }
+      ],
+      "activation": "evaluated",
+      "source_rationale_id": "R1",
+      "utterance_kind": "assessment",
+      "decision_support": "none",
+      "all_mention_ids": [
+        "R1"
+      ]
+    },
+    {
+      "rationale_label": "unit_economics_assessment",
+      "direction": "neutral",
+      "salience": "secondary",
+      "confidence": 0.99,
+      "utterance_type": "question",
+      "decision_link": "none",
+      "timing": "original_pitch",
+      "turn_index": 16,
+      "quote": "What are your margins like on this product?",
+      "explanation": "Sheel asks about the product's unit-level margins.",
+      "evidence": [
+        "What are your margins like on this product?"
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 16,
+          "speaker": "Sheel",
+          "quote": "What are your margins like on this product?"
+        }
+      ],
+      "activation": "queried",
+      "source_rationale_id": "R3",
+      "utterance_kind": "question",
+      "decision_support": "none",
+      "all_mention_ids": [
+        "R3"
+      ]
+    }
+  ],
+  "later_rationales": [],
+  "excluded_rationales": [],
+  "rationale_mentions": [
+    {
+      "rationale_label": "product_appeal_assessment",
+      "direction": "positive",
+      "salience": "secondary",
+      "confidence": 0.99,
+      "utterance_type": "assessment",
+      "decision_link": "none",
+      "timing": "original_pitch",
+      "turn_index": 11,
+      "quote": "Tasty. I like the cinnamon one.",
+      "explanation": "Sheel positively assesses the product's taste.",
+      "evidence": [
+        "Tasty. I like the cinnamon one."
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 11,
+          "speaker": "Sheel",
+          "quote": "Tasty. I like the cinnamon one."
+        }
+      ],
+      "activation": "evaluated",
+      "source_rationale_id": "R1"
+    },
+    {
+      "rationale_label": "business_model_assessment",
+      "direction": "neutral",
+      "salience": "secondary",
+      "confidence": 0.97,
+      "utterance_type": "question",
+      "decision_link": "none",
+      "timing": "original_pitch",
+      "turn_index": 14,
+      "quote": "What do these retail for?",
+      "explanation": "Sheel asks about the product's retail pricing.",
+      "evidence": [
+        "What do these retail for?"
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 14,
+          "speaker": "Sheel",
+          "quote": "What do these retail for?"
+        }
+      ],
+      "activation": "queried",
+      "source_rationale_id": "R2"
+    },
+    {
+      "rationale_label": "unit_economics_assessment",
+      "direction": "neutral",
+      "salience": "secondary",
+      "confidence": 0.99,
+      "utterance_type": "question",
+      "decision_link": "none",
+      "timing": "original_pitch",
+      "turn_index": 16,
+      "quote": "What are your margins like on this product?",
+      "explanation": "Sheel asks about the product's unit-level margins.",
+      "evidence": [
+        "What are your margins like on this product?"
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 16,
+          "speaker": "Sheel",
+          "quote": "What are your margins like on this product?"
+        }
+      ],
+      "activation": "queried",
+      "source_rationale_id": "R3"
+    },
+    {
+      "rationale_label": "growth_projection_risk",
+      "direction": "neutral",
+      "salience": "secondary",
+      "confidence": 0.91,
+      "utterance_type": "question",
+      "decision_link": "none",
+      "timing": "original_pitch",
+      "turn_index": 53,
+      "quote": "250k in revenue you're going to be in Q4.",
+      "explanation": "Sheel verifies the founder's projected fourth-quarter revenue.",
+      "evidence": [
+        "250k in revenue you're going to be in Q4."
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 53,
+          "speaker": "Sheel",
+          "quote": "250k in revenue you're going to be in Q4."
+        }
+      ],
+      "activation": "queried",
+      "source_rationale_id": "R4"
+    },
+    {
+      "rationale_label": "go_to_market_strategy_assessment",
+      "direction": "positive",
+      "salience": "secondary",
+      "confidence": 0.98,
+      "utterance_type": "assessment",
+      "decision_link": "none",
+      "timing": "original_pitch",
+      "turn_index": 66,
+      "quote": "I don’t mind the corporate channel actually for where you’re at today.",
+      "explanation": "Sheel considers the corporate channel suitable for the company's current stage.",
+      "evidence": [
+        "I don’t mind the corporate channel actually for where you’re at today."
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 66,
+          "speaker": "Sheel",
+          "quote": "I don’t mind the corporate channel actually for where you’re at today."
+        }
+      ],
+      "activation": "evaluated",
+      "source_rationale_id": "R5"
+    },
+    {
+      "rationale_label": "go_to_market_strategy_assessment",
+      "direction": "negative",
+      "salience": "secondary",
+      "confidence": 0.96,
+      "utterance_type": "assessment",
+      "decision_link": "none",
+      "timing": "original_pitch",
+      "turn_index": 66,
+      "quote": "I think direct to consumer is actually pretty hard in this category.",
+      "explanation": "Sheel assesses direct-to-consumer acquisition as difficult in this product category.",
+      "evidence": [
+        "I think direct to consumer is actually pretty hard in this category."
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 66,
+          "speaker": "Sheel",
+          "quote": "I think direct to consumer is actually pretty hard in this category."
+        }
+      ],
+      "activation": "evaluated",
+      "source_rationale_id": "R6"
+    },
+    {
+      "rationale_label": "growth_projection_risk",
+      "direction": "positive",
+      "salience": "secondary",
+      "confidence": 0.98,
+      "utterance_type": "assessment",
+      "decision_link": "none",
+      "timing": "original_pitch",
+      "turn_index": 66,
+      "quote": "I think that your projections are totally realistic.",
+      "explanation": "Sheel considers the company's projections credible rather than overstated.",
+      "evidence": [
+        "I think that your projections are totally realistic."
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 66,
+          "speaker": "Sheel",
+          "quote": "I think that your projections are totally realistic."
+        }
+      ],
+      "activation": "evaluated",
+      "source_rationale_id": "R7"
+    },
+    {
+      "rationale_label": "investment_upside_assessment",
+      "direction": "negative",
+      "salience": "primary",
+      "confidence": 0.99,
+      "utterance_type": "decision_explanation",
+      "decision_link": "supports_out",
+      "timing": "original_pitch",
+      "turn_index": 66,
+      "quote": "it’s not the return profile that I’m looking for for a venture investment.",
+      "explanation": "Sheel identifies an inadequate venture-return profile as his reason for declining to invest.",
+      "evidence": [
+        "it’s not the return profile that I’m looking for for a venture investment."
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 66,
+          "speaker": "Sheel",
+          "quote": "it’s not the return profile that I’m looking for for a venture investment."
+        }
+      ],
+      "activation": "evaluated",
+      "source_rationale_id": "R8"
+    },
+    {
+      "rationale_label": "go_to_market_strategy_assessment",
+      "direction": "negative",
+      "salience": "secondary",
+      "confidence": 0.78,
+      "utterance_type": "assessment",
+      "decision_link": "none",
+      "timing": "original_pitch",
+      "turn_index": 87,
+      "quote": "No chance.",
+      "explanation": "In the immediate in-room debrief, Sheel dismisses the inexperienced Facebook-and-Instagram DTC approach under discussion as nonviable.",
+      "evidence": [
+        "No chance."
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 87,
+          "speaker": "Sheel",
+          "quote": "No chance."
+        }
+      ],
+      "activation": "evaluated",
+      "source_rationale_id": "R9"
+    }
+  ],
+  "expanded_quote_evidence": [],
+  "rejected_after_evidence_check": []
+}

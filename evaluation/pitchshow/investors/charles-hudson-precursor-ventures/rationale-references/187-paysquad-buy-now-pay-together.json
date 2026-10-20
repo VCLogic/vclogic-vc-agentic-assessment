@@ -1,0 +1,653 @@
+{
+  "schema": "phase1-rationale-reference-v1",
+  "extraction_version": "pitchshow-rationales-v1",
+  "fingerprint": "bb01fef91207bea46f70f2dd085b081550c4fa545ab46e7256d24cfbb1f45693",
+  "episode_slug": "187-paysquad-buy-now-pay-together",
+  "vc_slug": "charles-hudson-precursor-ventures",
+  "vc_name": "Charles Hudson",
+  "actual_decision": "Out",
+  "later_decision": "Unknown",
+  "reference_kind": "automated_transcript_observed_candidate",
+  "human_validated": false,
+  "source_format": "transcript-observed-rationales-v1",
+  "source_path": "../source/episodes/187-paysquad-buy-now-pay-together.json",
+  "source_sha256": "6de37d59689731bb360a32d20bd93631a1fba45edfcfd8fd72a067adc6807f8c",
+  "transcript_sha256": "f95bf722a24dbc27e093b7cb0aa8372dae0f81ac225c7800c29a68a8588b0651",
+  "taxonomy_sha256": "eaa8734819a3ac34dd19ee5f0bf6de925a793a1d25a2d361090dafc9b751e1fc",
+  "model": "openai/gpt-5.6-luna",
+  "source_tier": "newly_extracted_and_independently_model_reviewed",
+  "reviewed_target_turns": [
+    32,
+    38,
+    40,
+    60,
+    62,
+    137,
+    154,
+    156,
+    242,
+    245,
+    248,
+    250,
+    252,
+    262,
+    264,
+    267,
+    269,
+    272,
+    274,
+    276,
+    278,
+    280,
+    282,
+    284,
+    287,
+    294,
+    296,
+    298,
+    301,
+    305
+  ],
+  "notes": "Reviewed every supplied target turn. Greetings, thanks, acknowledgments, incomplete fragments, and fraud-related remarks without a matching taxonomy rationale were omitted.",
+  "receipt_path": "receipts/187-paysquad-buy-now-pay-together.json",
+  "scoring_scope": "original_pitch_only",
+  "shared_across_input_modes": true,
+  "rationales": [
+    {
+      "rationale_label": "business_viability_concern",
+      "direction": "negative",
+      "salience": "primary",
+      "confidence": 0.98,
+      "utterance_type": "decision_reason",
+      "decision_link": "explicit",
+      "timing": "original_pitch",
+      "turn_index": 137,
+      "quote": "payments a, you need a very big top-line number flowing through the system such that when you get through all of the cuts and slices that everybody else takes, there's enough for you",
+      "explanation": "Charles says payment businesses need substantial throughput to retain enough economics after intermediaries take their share.",
+      "evidence": [
+        "payments a, you need a very big top-line number flowing through the system such that when you get through all of the cuts and slices that everybody else takes, there's enough for you"
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 137,
+          "speaker": "Charles",
+          "quote": "payments a, you need a very big top-line number flowing through the system such that when you get through all of the cuts and slices that everybody else takes, there's enough for you"
+        }
+      ],
+      "activation": "evaluated",
+      "source_rationale_id": "R4",
+      "utterance_kind": "decision_explanation",
+      "decision_support": "supports_out",
+      "all_mention_ids": [
+        "R4"
+      ]
+    },
+    {
+      "rationale_label": "investor_experience_bias",
+      "direction": "negative",
+      "salience": "secondary",
+      "confidence": 0.9,
+      "utterance_type": "decision_reason",
+      "decision_link": "explicit",
+      "timing": "original_pitch",
+      "turn_index": 137,
+      "quote": "We've done a handful of things in payments.",
+      "explanation": "Charles grounds his negative assessment in prior experience with payments businesses.",
+      "evidence": [
+        "We've done a handful of things in payments."
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 137,
+          "speaker": "Charles",
+          "quote": "We've done a handful of things in payments."
+        }
+      ],
+      "activation": "evaluated",
+      "source_rationale_id": "R3",
+      "utterance_kind": "decision_explanation",
+      "decision_support": "supports_out",
+      "all_mention_ids": [
+        "R3"
+      ]
+    },
+    {
+      "rationale_label": "market_entry_path_assessment",
+      "direction": "positive",
+      "salience": "secondary",
+      "confidence": 0.91,
+      "utterance_type": "assessment",
+      "decision_link": "none",
+      "timing": "original_pitch",
+      "turn_index": 137,
+      "quote": "Mike, I think travel is probably the place",
+      "explanation": "Charles identifies travel as a potentially effective initial wedge for the product.",
+      "evidence": [
+        "Mike, I think travel is probably the place"
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 137,
+          "speaker": "Charles",
+          "quote": "Mike, I think travel is probably the place"
+        }
+      ],
+      "activation": "evaluated",
+      "source_rationale_id": "R6",
+      "utterance_kind": "supporting_argument",
+      "decision_support": "none",
+      "all_mention_ids": [
+        "R6"
+      ]
+    },
+    {
+      "rationale_label": "market_problem_validation",
+      "direction": "positive",
+      "salience": "secondary",
+      "confidence": 0.9,
+      "utterance_type": "assessment",
+      "decision_link": "none",
+      "timing": "original_pitch",
+      "turn_index": 137,
+      "quote": "I think this is a useful use case.",
+      "explanation": "Charles acknowledges that group payments provide a useful customer use case despite his scale concerns.",
+      "evidence": [
+        "I think this is a useful use case."
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 137,
+          "speaker": "Charles",
+          "quote": "I think this is a useful use case."
+        }
+      ],
+      "activation": "evaluated",
+      "source_rationale_id": "R5",
+      "utterance_kind": "supporting_argument",
+      "decision_support": "none",
+      "all_mention_ids": [
+        "R5"
+      ]
+    },
+    {
+      "rationale_label": "market_size_assessment",
+      "direction": "negative",
+      "salience": "primary",
+      "confidence": 0.99,
+      "utterance_type": "decision_reason",
+      "decision_link": "explicit",
+      "timing": "original_pitch",
+      "turn_index": 137,
+      "quote": "there's not enough total addressable transaction processing volume for group payments to make a really big business",
+      "explanation": "Charles doubts that the addressable transaction volume is large enough to support a venture-scale outcome.",
+      "evidence": [
+        "there's not enough total addressable transaction processing volume for group payments to make a really big business"
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 137,
+          "speaker": "Charles",
+          "quote": "there's not enough total addressable transaction processing volume for group payments to make a really big business"
+        }
+      ],
+      "activation": "evaluated",
+      "source_rationale_id": "R7",
+      "utterance_kind": "decision_explanation",
+      "decision_support": "supports_out",
+      "all_mention_ids": [
+        "R7"
+      ]
+    },
+    {
+      "rationale_label": "solution_feasibility_assessment",
+      "direction": "neutral",
+      "salience": "secondary",
+      "confidence": 0.98,
+      "utterance_type": "question",
+      "decision_link": "none",
+      "timing": "original_pitch",
+      "turn_index": 62,
+      "quote": "what about things like perishable inventory, like airline tickets, concert tickets, fes- things where, like, there is some time sensitivity between when you put it in the basket and when you check out?",
+      "explanation": "Charles tests whether time-sensitive purchases create a feasibility constraint for the product.",
+      "evidence": [
+        "Are there any, product category types that this doesn't work for?",
+        "what about things like perishable inventory, like airline tickets, concert tickets, fes- things where, like, there is some time sensitivity between when you put it in the basket and when you check out?"
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 60,
+          "speaker": "Charles",
+          "quote": "Are there any, product category types that this doesn't work for?"
+        },
+        {
+          "turn_index": 62,
+          "speaker": "Charles",
+          "quote": "what about things like perishable inventory, like airline tickets, concert tickets, fes- things where, like, there is some time sensitivity between when you put it in the basket and when you check out?"
+        }
+      ],
+      "activation": "queried",
+      "source_rationale_id": "R2",
+      "utterance_kind": "question",
+      "decision_support": "none",
+      "all_mention_ids": [
+        "R1",
+        "R2"
+      ]
+    }
+  ],
+  "later_rationales": [
+    {
+      "rationale_label": "execution_risk_assessment",
+      "direction": "negative",
+      "salience": "secondary",
+      "confidence": 0.95,
+      "utterance_type": "assessment",
+      "decision_link": "none",
+      "timing": "later_commentary",
+      "turn_index": 242,
+      "quote": "I think payments is not a business for the naive.",
+      "explanation": "Charles characterizes naivety as a material maturity and execution risk in payments.",
+      "evidence": [
+        "I think payments is not a business for the naive."
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 242,
+          "speaker": "Charles",
+          "quote": "I think payments is not a business for the naive."
+        }
+      ],
+      "activation": "evaluated",
+      "source_rationale_id": "R8"
+    },
+    {
+      "rationale_label": "go_to_market_strategy_assessment",
+      "direction": "negative",
+      "salience": "secondary",
+      "confidence": 0.86,
+      "utterance_type": "supporting_argument",
+      "decision_link": "none",
+      "timing": "later_commentary",
+      "turn_index": 267,
+      "quote": "the HSA FSA company we have, they have like a very clear story around lift.",
+      "explanation": "Charles uses another payments company’s clear merchant-lift narrative as a benchmark, implying that a similarly compelling value case matters for PaySquad’s merchant sales.",
+      "evidence": [
+        "the HSA FSA company we have, they have like a very clear story around lift."
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 267,
+          "speaker": "Charles",
+          "quote": "the HSA FSA company we have, they have like a very clear story around lift."
+        }
+      ],
+      "activation": "evaluated",
+      "source_rationale_id": "R9"
+    },
+    {
+      "rationale_label": "go_to_market_strategy_assessment",
+      "direction": "negative",
+      "salience": "secondary",
+      "confidence": 0.9,
+      "utterance_type": "supporting_argument",
+      "decision_link": "none",
+      "timing": "later_commentary",
+      "turn_index": 269,
+      "quote": "what if this is just cannibalization?",
+      "explanation": "Charles highlights the merchant concern that PaySquad could shift existing transactions rather than create incremental value.",
+      "evidence": [
+        "what if this is just cannibalization?"
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 269,
+          "speaker": "Charles",
+          "quote": "what if this is just cannibalization?"
+        }
+      ],
+      "activation": "evaluated",
+      "source_rationale_id": "R10"
+    },
+    {
+      "rationale_label": "go_to_market_strategy_assessment",
+      "direction": "positive",
+      "salience": "secondary",
+      "confidence": 0.88,
+      "utterance_type": "supporting_argument",
+      "decision_link": "none",
+      "timing": "later_commentary",
+      "turn_index": 272,
+      "quote": "these are net new customers to us.",
+      "explanation": "Charles identifies net-new customer acquisition as the type of merchant benefit that can support adoption.",
+      "evidence": [
+        "these are net new customers to us."
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 272,
+          "speaker": "Charles",
+          "quote": "these are net new customers to us."
+        }
+      ],
+      "activation": "evaluated",
+      "source_rationale_id": "R11"
+    },
+    {
+      "rationale_label": "market_problem_validation",
+      "direction": "negative",
+      "salience": "primary",
+      "confidence": 0.99,
+      "utterance_type": "assessment",
+      "decision_link": "none",
+      "timing": "later_commentary",
+      "turn_index": 284,
+      "quote": "I don’t think this is a problem.",
+      "explanation": "Charles directly questions whether the company is addressing a sufficiently compelling underlying problem.",
+      "evidence": [
+        "I don’t think this is a problem."
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 284,
+          "speaker": "Charles",
+          "quote": "I don’t think this is a problem."
+        }
+      ],
+      "activation": "evaluated",
+      "source_rationale_id": "R12"
+    },
+    {
+      "rationale_label": "market_problem_validation",
+      "direction": "negative",
+      "salience": "secondary",
+      "confidence": 0.94,
+      "utterance_type": "assessment",
+      "decision_link": "none",
+      "timing": "later_commentary",
+      "turn_index": 287,
+      "quote": "I just don't think it's that clear cut",
+      "explanation": "Charles says the existence and importance of the problem, particularly in the baby category, is not clear-cut.",
+      "evidence": [
+        "I just don't think it's that clear cut"
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 287,
+          "speaker": "Charles",
+          "quote": "I just don't think it's that clear cut"
+        }
+      ],
+      "activation": "evaluated",
+      "source_rationale_id": "R13"
+    },
+    {
+      "rationale_label": "competitive_landscape_inertia",
+      "direction": "negative",
+      "salience": "secondary",
+      "confidence": 0.9,
+      "utterance_type": "supporting_argument",
+      "decision_link": "none",
+      "timing": "later_commentary",
+      "turn_index": 294,
+      "quote": "I think sometimes you have to be honest about like what the substitutes here are.",
+      "explanation": "Charles says the evaluation must account for existing alternatives to the proposed group-payment workflow.",
+      "evidence": [
+        "I think sometimes you have to be honest about like what the substitutes here are."
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 294,
+          "speaker": "Charles",
+          "quote": "I think sometimes you have to be honest about like what the substitutes here are."
+        }
+      ],
+      "activation": "evaluated",
+      "source_rationale_id": "R14"
+    },
+    {
+      "rationale_label": "market_problem_validation",
+      "direction": "positive",
+      "salience": "secondary",
+      "confidence": 0.95,
+      "utterance_type": "supporting_argument",
+      "decision_link": "none",
+      "timing": "later_commentary",
+      "turn_index": 296,
+      "quote": "The high friction costs of like one person does it all.",
+      "explanation": "Charles acknowledges meaningful friction in the current one-person-pays workflow.",
+      "evidence": [
+        "The high friction costs of like one person does it all."
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 296,
+          "speaker": "Charles",
+          "quote": "The high friction costs of like one person does it all."
+        }
+      ],
+      "activation": "evaluated",
+      "source_rationale_id": "R15"
+    },
+    {
+      "rationale_label": "market_problem_validation",
+      "direction": "positive",
+      "salience": "secondary",
+      "confidence": 0.9,
+      "utterance_type": "supporting_argument",
+      "decision_link": "none",
+      "timing": "later_commentary",
+      "turn_index": 298,
+      "quote": "Which still happens a lot.",
+      "explanation": "Charles adds that the high-friction existing behavior remains common.",
+      "evidence": [
+        "Which still happens a lot."
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 298,
+          "speaker": "Charles",
+          "quote": "Which still happens a lot."
+        }
+      ],
+      "activation": "evaluated",
+      "source_rationale_id": "R16"
+    },
+    {
+      "rationale_label": "competitive_landscape_inertia",
+      "direction": "negative",
+      "salience": "secondary",
+      "confidence": 0.93,
+      "utterance_type": "supporting_argument",
+      "decision_link": "none",
+      "timing": "later_commentary",
+      "turn_index": 301,
+      "quote": "Vendor, vendor solutions like Splitwise",
+      "explanation": "Charles points to established vendor alternatives that PaySquad would need to displace or differentiate from.",
+      "evidence": [
+        "Vendor, vendor solutions like Splitwise"
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 301,
+          "speaker": "Charles",
+          "quote": "Vendor, vendor solutions like Splitwise"
+        }
+      ],
+      "activation": "evaluated",
+      "source_rationale_id": "R17"
+    }
+  ],
+  "excluded_rationales": [],
+  "rationale_mentions": [
+    {
+      "rationale_label": "solution_feasibility_assessment",
+      "direction": "neutral",
+      "salience": "secondary",
+      "confidence": 0.98,
+      "utterance_type": "question",
+      "decision_link": "none",
+      "timing": "original_pitch",
+      "turn_index": 60,
+      "quote": "Are there any, product category types that this doesn't work for?",
+      "explanation": "Charles probes whether the payment solution has operational limitations across product categories.",
+      "evidence": [
+        "Are there any, product category types that this doesn't work for?"
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 60,
+          "speaker": "Charles",
+          "quote": "Are there any, product category types that this doesn't work for?"
+        }
+      ],
+      "activation": "queried",
+      "source_rationale_id": "R1"
+    },
+    {
+      "rationale_label": "solution_feasibility_assessment",
+      "direction": "neutral",
+      "salience": "secondary",
+      "confidence": 0.98,
+      "utterance_type": "question",
+      "decision_link": "none",
+      "timing": "original_pitch",
+      "turn_index": 62,
+      "quote": "what about things like perishable inventory, like airline tickets, concert tickets, fes- things where, like, there is some time sensitivity between when you put it in the basket and when you check out?",
+      "explanation": "Charles tests whether time-sensitive purchases create a feasibility constraint for the product.",
+      "evidence": [
+        "what about things like perishable inventory, like airline tickets, concert tickets, fes- things where, like, there is some time sensitivity between when you put it in the basket and when you check out?"
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 62,
+          "speaker": "Charles",
+          "quote": "what about things like perishable inventory, like airline tickets, concert tickets, fes- things where, like, there is some time sensitivity between when you put it in the basket and when you check out?"
+        }
+      ],
+      "activation": "queried",
+      "source_rationale_id": "R2"
+    },
+    {
+      "rationale_label": "investor_experience_bias",
+      "direction": "negative",
+      "salience": "secondary",
+      "confidence": 0.9,
+      "utterance_type": "decision_explanation",
+      "decision_link": "supports_out",
+      "timing": "original_pitch",
+      "turn_index": 137,
+      "quote": "We've done a handful of things in payments.",
+      "explanation": "Charles grounds his negative assessment in prior experience with payments businesses.",
+      "evidence": [
+        "We've done a handful of things in payments."
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 137,
+          "speaker": "Charles",
+          "quote": "We've done a handful of things in payments."
+        }
+      ],
+      "activation": "evaluated",
+      "source_rationale_id": "R3"
+    },
+    {
+      "rationale_label": "business_viability_concern",
+      "direction": "negative",
+      "salience": "primary",
+      "confidence": 0.98,
+      "utterance_type": "decision_explanation",
+      "decision_link": "supports_out",
+      "timing": "original_pitch",
+      "turn_index": 137,
+      "quote": "payments a, you need a very big top-line number flowing through the system such that when you get through all of the cuts and slices that everybody else takes, there's enough for you",
+      "explanation": "Charles says payment businesses need substantial throughput to retain enough economics after intermediaries take their share.",
+      "evidence": [
+        "payments a, you need a very big top-line number flowing through the system such that when you get through all of the cuts and slices that everybody else takes, there's enough for you"
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 137,
+          "speaker": "Charles",
+          "quote": "payments a, you need a very big top-line number flowing through the system such that when you get through all of the cuts and slices that everybody else takes, there's enough for you"
+        }
+      ],
+      "activation": "evaluated",
+      "source_rationale_id": "R4"
+    },
+    {
+      "rationale_label": "market_problem_validation",
+      "direction": "positive",
+      "salience": "secondary",
+      "confidence": 0.9,
+      "utterance_type": "supporting_argument",
+      "decision_link": "none",
+      "timing": "original_pitch",
+      "turn_index": 137,
+      "quote": "I think this is a useful use case.",
+      "explanation": "Charles acknowledges that group payments provide a useful customer use case despite his scale concerns.",
+      "evidence": [
+        "I think this is a useful use case."
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 137,
+          "speaker": "Charles",
+          "quote": "I think this is a useful use case."
+        }
+      ],
+      "activation": "evaluated",
+      "source_rationale_id": "R5"
+    },
+    {
+      "rationale_label": "market_entry_path_assessment",
+      "direction": "positive",
+      "salience": "secondary",
+      "confidence": 0.91,
+      "utterance_type": "supporting_argument",
+      "decision_link": "none",
+      "timing": "original_pitch",
+      "turn_index": 137,
+      "quote": "Mike, I think travel is probably the place",
+      "explanation": "Charles identifies travel as a potentially effective initial wedge for the product.",
+      "evidence": [
+        "Mike, I think travel is probably the place"
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 137,
+          "speaker": "Charles",
+          "quote": "Mike, I think travel is probably the place"
+        }
+      ],
+      "activation": "evaluated",
+      "source_rationale_id": "R6"
+    },
+    {
+      "rationale_label": "market_size_assessment",
+      "direction": "negative",
+      "salience": "primary",
+      "confidence": 0.99,
+      "utterance_type": "decision_explanation",
+      "decision_link": "supports_out",
+      "timing": "original_pitch",
+      "turn_index": 137,
+      "quote": "there's not enough total addressable transaction processing volume for group payments to make a really big business",
+      "explanation": "Charles doubts that the addressable transaction volume is large enough to support a venture-scale outcome.",
+      "evidence": [
+        "there's not enough total addressable transaction processing volume for group payments to make a really big business"
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 137,
+          "speaker": "Charles",
+          "quote": "there's not enough total addressable transaction processing volume for group payments to make a really big business"
+        }
+      ],
+      "activation": "evaluated",
+      "source_rationale_id": "R7"
+    }
+  ],
+  "expanded_quote_evidence": [],
+  "rejected_after_evidence_check": []
+}

@@ -1,0 +1,653 @@
+{
+  "schema": "phase1-rationale-reference-v1",
+  "extraction_version": "pitchshow-rationales-v1",
+  "fingerprint": "54c0a95a16d16e0a5159b5dae7cfa8a1891cde344a345555a2891c826e877981",
+  "episode_slug": "145-immersioned",
+  "vc_slug": "cyan-banister-long-journey-ventures",
+  "vc_name": "Cyan Banister",
+  "actual_decision": "Out",
+  "later_decision": "Unknown",
+  "reference_kind": "automated_transcript_observed_candidate",
+  "human_validated": false,
+  "source_format": "transcript-observed-rationales-v1",
+  "source_path": "../source/episodes/145-immersioned.json",
+  "source_sha256": "a2cad2cb7eff151a2d767bf05cac6c7c9799c3585787f29755ca0f080167309e",
+  "transcript_sha256": "2e69638722bf765923748c09ed69df171dc24c5231346c8cfc8bbf0735d99d4f",
+  "taxonomy_sha256": "eaa8734819a3ac34dd19ee5f0bf6de925a793a1d25a2d361090dafc9b751e1fc",
+  "model": "openai/gpt-5.6-luna",
+  "source_tier": "newly_extracted_and_independently_model_reviewed",
+  "reviewed_target_turns": [
+    2,
+    5,
+    7,
+    22,
+    24,
+    49,
+    79,
+    81,
+    83,
+    85,
+    86,
+    88,
+    90,
+    92,
+    94,
+    96,
+    98,
+    100,
+    116,
+    126,
+    129,
+    133
+  ],
+  "notes": "Turns 2, 5, 7, 22, 49, 96, 100, and 116 contain greetings, a demo request, a generic neutral question, a continuation, a bare confirmation, or thanks without an independent investment rationale.",
+  "receipt_path": "receipts/145-immersioned.json",
+  "scoring_scope": "original_pitch_only",
+  "shared_across_input_modes": true,
+  "rationales": [
+    {
+      "rationale_label": "founder_investor_vision_alignment",
+      "direction": "negative",
+      "salience": "primary",
+      "confidence": 0.98,
+      "utterance_type": "decision_reason",
+      "decision_link": "explicit",
+      "timing": "original_pitch",
+      "turn_index": 79,
+      "quote": "I would rather it be for homeschool or for the population of kids who want to augment their education outside of school",
+      "explanation": "Cyan passes because she would prefer the company to focus outside the conventional education system.",
+      "evidence": [
+        "I would rather it be for homeschool or for the population of kids who want to augment their education outside of school"
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 79,
+          "speaker": "Cyan",
+          "quote": "I would rather it be for homeschool or for the population of kids who want to augment their education outside of school"
+        }
+      ],
+      "activation": "evaluated",
+      "source_rationale_id": "R3",
+      "utterance_kind": "decision_explanation",
+      "decision_support": "supports_out",
+      "all_mention_ids": [
+        "R3"
+      ]
+    },
+    {
+      "rationale_label": "mission_alignment_preference",
+      "direction": "positive",
+      "salience": "secondary",
+      "confidence": 0.94,
+      "utterance_type": "assessment",
+      "decision_link": "none",
+      "timing": "original_pitch",
+      "turn_index": 86,
+      "quote": "I think you're doing important work. It's so important.",
+      "explanation": "Cyan again positively affirms the importance of the company's educational purpose.",
+      "evidence": [
+        "I admire your mission",
+        "I think you're doing important work. It's so important."
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 79,
+          "speaker": "Cyan",
+          "quote": "I admire your mission"
+        },
+        {
+          "turn_index": 85,
+          "speaker": "Cyan",
+          "quote": "I think you're doing important work. It's so important."
+        },
+        {
+          "turn_index": 86,
+          "speaker": "Cyan",
+          "quote": "I think you're doing important work. It's so important."
+        }
+      ],
+      "activation": "evaluated",
+      "source_rationale_id": "R8",
+      "utterance_kind": "supporting_argument",
+      "decision_support": "none",
+      "all_mention_ids": [
+        "R2",
+        "R6",
+        "R8"
+      ]
+    },
+    {
+      "rationale_label": "product_appeal_assessment",
+      "direction": "positive",
+      "salience": "secondary",
+      "confidence": 0.92,
+      "utterance_type": "assessment",
+      "decision_link": "none",
+      "timing": "original_pitch",
+      "turn_index": 90,
+      "quote": "I love that",
+      "explanation": "Cyan gives a positive personal reaction to the product's use of varied historical perspectives.",
+      "evidence": [
+        "you make me excited to learn about history",
+        "I love that"
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 24,
+          "speaker": "Cyan",
+          "quote": "you make me excited to learn about history"
+        },
+        {
+          "turn_index": 90,
+          "speaker": "Cyan",
+          "quote": "I love that"
+        }
+      ],
+      "activation": "evaluated",
+      "source_rationale_id": "R11",
+      "utterance_kind": "assessment",
+      "decision_support": "none",
+      "all_mention_ids": [
+        "R1",
+        "R11"
+      ]
+    },
+    {
+      "rationale_label": "product_success_factor_assessment",
+      "direction": "positive",
+      "salience": "secondary",
+      "confidence": 0.91,
+      "utterance_type": "assessment",
+      "decision_link": "none",
+      "timing": "original_pitch",
+      "turn_index": 98,
+      "quote": "every country has unfortunate history that everybody would like to forget",
+      "explanation": "She argues that the prevalence of uncomfortable historical events supports preserving and presenting them rather than allowing them to be erased.",
+      "evidence": [
+        "I would want kids to see that and see like, oh, well they came into it with this perspective",
+        "teaching kids that there isn't one side to any story is important",
+        "every country has unfortunate history that everybody would like to forget"
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 92,
+          "speaker": "Cyan",
+          "quote": "I would want kids to see that and see like, oh, well they came into it with this perspective"
+        },
+        {
+          "turn_index": 94,
+          "speaker": "Cyan",
+          "quote": "teaching kids that there isn't one side to any story is important"
+        },
+        {
+          "turn_index": 98,
+          "speaker": "Cyan",
+          "quote": "every country has unfortunate history that everybody would like to forget"
+        }
+      ],
+      "activation": "evaluated",
+      "source_rationale_id": "R14",
+      "utterance_kind": "supporting_argument",
+      "decision_support": "none",
+      "all_mention_ids": [
+        "R7",
+        "R9",
+        "R10",
+        "R12",
+        "R13",
+        "R14"
+      ]
+    },
+    {
+      "rationale_label": "solution_feasibility_assessment",
+      "direction": "negative",
+      "salience": "secondary",
+      "confidence": 0.94,
+      "utterance_type": "assessment",
+      "decision_link": "explicit",
+      "timing": "original_pitch",
+      "turn_index": 83,
+      "quote": "I'm just concerned about history being digital",
+      "explanation": "She worries that digital historical content is more vulnerable to revision or control than physical media.",
+      "evidence": [
+        "If for example, the United States government comes to you and they say, we want you to remove this from the curriculum, what do you do then?",
+        "I'm just concerned about history being digital"
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 81,
+          "speaker": "Cyan",
+          "quote": "If for example, the United States government comes to you and they say, we want you to remove this from the curriculum, what do you do then?"
+        },
+        {
+          "turn_index": 83,
+          "speaker": "Cyan",
+          "quote": "I'm just concerned about history being digital"
+        }
+      ],
+      "activation": "evaluated",
+      "source_rationale_id": "R5",
+      "utterance_kind": "concern",
+      "decision_support": "supports_out",
+      "all_mention_ids": [
+        "R4",
+        "R5"
+      ]
+    }
+  ],
+  "later_rationales": [
+    {
+      "rationale_label": "founder_communication_quality",
+      "direction": "positive",
+      "salience": "secondary",
+      "confidence": 0.9,
+      "utterance_type": "assessment",
+      "decision_link": "none",
+      "timing": "later_commentary",
+      "turn_index": 126,
+      "quote": "That was very engaging",
+      "explanation": "In post-pitch commentary, Cyan positively assesses the engagement of the presentation.",
+      "evidence": [
+        "That was very engaging"
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 126,
+          "speaker": "Cyan",
+          "quote": "That was very engaging"
+        }
+      ],
+      "activation": "evaluated",
+      "source_rationale_id": "R15"
+    },
+    {
+      "rationale_label": "founder_qualities",
+      "direction": "positive",
+      "salience": "secondary",
+      "confidence": 0.88,
+      "utterance_type": "assessment",
+      "decision_link": "none",
+      "timing": "later_commentary",
+      "turn_index": 129,
+      "quote": "He's phenomenal",
+      "explanation": "Cyan gives a broad positive assessment of the founder.",
+      "evidence": [
+        "He's phenomenal"
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 129,
+          "speaker": "Cyan",
+          "quote": "He's phenomenal"
+        }
+      ],
+      "activation": "evaluated",
+      "source_rationale_id": "R16"
+    },
+    {
+      "rationale_label": "founder_communication_quality",
+      "direction": "positive",
+      "salience": "secondary",
+      "confidence": 0.95,
+      "utterance_type": "assessment",
+      "decision_link": "none",
+      "timing": "later_commentary",
+      "turn_index": 133,
+      "quote": "he was super engaging",
+      "explanation": "Cyan specifically praises the founder's engaging presentation style.",
+      "evidence": [
+        "he was super engaging"
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 133,
+          "speaker": "Cyan",
+          "quote": "he was super engaging"
+        }
+      ],
+      "activation": "evaluated",
+      "source_rationale_id": "R17"
+    }
+  ],
+  "excluded_rationales": [],
+  "rationale_mentions": [
+    {
+      "rationale_label": "product_appeal_assessment",
+      "direction": "positive",
+      "salience": "secondary",
+      "confidence": 0.95,
+      "utterance_type": "assessment",
+      "decision_link": "none",
+      "timing": "original_pitch",
+      "turn_index": 24,
+      "quote": "you make me excited to learn about history",
+      "explanation": "Cyan expresses a positive personal reaction to the product and its educational appeal.",
+      "evidence": [
+        "you make me excited to learn about history"
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 24,
+          "speaker": "Cyan",
+          "quote": "you make me excited to learn about history"
+        }
+      ],
+      "activation": "evaluated",
+      "source_rationale_id": "R1"
+    },
+    {
+      "rationale_label": "mission_alignment_preference",
+      "direction": "positive",
+      "salience": "secondary",
+      "confidence": 0.96,
+      "utterance_type": "decision_explanation",
+      "decision_link": "none",
+      "timing": "original_pitch",
+      "turn_index": 79,
+      "quote": "I admire your mission",
+      "explanation": "She explicitly says she admires the company's educational mission, although she does not want to invest in its current school-system focus.",
+      "evidence": [
+        "I admire your mission"
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 79,
+          "speaker": "Cyan",
+          "quote": "I admire your mission"
+        }
+      ],
+      "activation": "evaluated",
+      "source_rationale_id": "R2"
+    },
+    {
+      "rationale_label": "founder_investor_vision_alignment",
+      "direction": "negative",
+      "salience": "primary",
+      "confidence": 0.98,
+      "utterance_type": "decision_explanation",
+      "decision_link": "supports_out",
+      "timing": "original_pitch",
+      "turn_index": 79,
+      "quote": "I would rather it be for homeschool or for the population of kids who want to augment their education outside of school",
+      "explanation": "Cyan passes because she would prefer the company to focus outside the conventional education system.",
+      "evidence": [
+        "I would rather it be for homeschool or for the population of kids who want to augment their education outside of school"
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 79,
+          "speaker": "Cyan",
+          "quote": "I would rather it be for homeschool or for the population of kids who want to augment their education outside of school"
+        }
+      ],
+      "activation": "evaluated",
+      "source_rationale_id": "R3"
+    },
+    {
+      "rationale_label": "solution_feasibility_assessment",
+      "direction": "negative",
+      "salience": "secondary",
+      "confidence": 0.93,
+      "utterance_type": "concern",
+      "decision_link": "supports_out",
+      "timing": "original_pitch",
+      "turn_index": 81,
+      "quote": "If for example, the United States government comes to you and they say, we want you to remove this from the curriculum, what do you do then?",
+      "explanation": "She questions whether the digital product can withstand government demands to remove or alter its content.",
+      "evidence": [
+        "If for example, the United States government comes to you and they say, we want you to remove this from the curriculum, what do you do then?"
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 81,
+          "speaker": "Cyan",
+          "quote": "If for example, the United States government comes to you and they say, we want you to remove this from the curriculum, what do you do then?"
+        }
+      ],
+      "activation": "evaluated",
+      "source_rationale_id": "R4"
+    },
+    {
+      "rationale_label": "solution_feasibility_assessment",
+      "direction": "negative",
+      "salience": "secondary",
+      "confidence": 0.94,
+      "utterance_type": "concern",
+      "decision_link": "supports_out",
+      "timing": "original_pitch",
+      "turn_index": 83,
+      "quote": "I'm just concerned about history being digital",
+      "explanation": "She worries that digital historical content is more vulnerable to revision or control than physical media.",
+      "evidence": [
+        "I'm just concerned about history being digital"
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 83,
+          "speaker": "Cyan",
+          "quote": "I'm just concerned about history being digital"
+        }
+      ],
+      "activation": "evaluated",
+      "source_rationale_id": "R5"
+    },
+    {
+      "rationale_label": "mission_alignment_preference",
+      "direction": "positive",
+      "salience": "secondary",
+      "confidence": 0.94,
+      "utterance_type": "supporting_argument",
+      "decision_link": "none",
+      "timing": "original_pitch",
+      "turn_index": 85,
+      "quote": "I think you're doing important work. It's so important.",
+      "explanation": "Cyan positively affirms the importance of the company's educational purpose.",
+      "evidence": [
+        "I think you're doing important work. It's so important."
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 85,
+          "speaker": "Cyan",
+          "quote": "I think you're doing important work. It's so important."
+        }
+      ],
+      "activation": "evaluated",
+      "source_rationale_id": "R6"
+    },
+    {
+      "rationale_label": "product_success_factor_assessment",
+      "direction": "negative",
+      "salience": "secondary",
+      "confidence": 0.95,
+      "utterance_type": "supporting_argument",
+      "decision_link": "none",
+      "timing": "original_pitch",
+      "turn_index": 85,
+      "quote": "Make it to where people in the future cannot rewrite history",
+      "explanation": "She identifies resistance to future alteration of historical content as an important product requirement that is not yet assured.",
+      "evidence": [
+        "Make it to where people in the future cannot rewrite history"
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 85,
+          "speaker": "Cyan",
+          "quote": "Make it to where people in the future cannot rewrite history"
+        }
+      ],
+      "activation": "evaluated",
+      "source_rationale_id": "R7"
+    },
+    {
+      "rationale_label": "mission_alignment_preference",
+      "direction": "positive",
+      "salience": "secondary",
+      "confidence": 0.94,
+      "utterance_type": "supporting_argument",
+      "decision_link": "none",
+      "timing": "original_pitch",
+      "turn_index": 86,
+      "quote": "I think you're doing important work. It's so important.",
+      "explanation": "Cyan again positively affirms the importance of the company's educational purpose.",
+      "evidence": [
+        "I think you're doing important work. It's so important."
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 86,
+          "speaker": "Cyan",
+          "quote": "I think you're doing important work. It's so important."
+        }
+      ],
+      "activation": "evaluated",
+      "source_rationale_id": "R8"
+    },
+    {
+      "rationale_label": "product_success_factor_assessment",
+      "direction": "negative",
+      "salience": "secondary",
+      "confidence": 0.95,
+      "utterance_type": "supporting_argument",
+      "decision_link": "none",
+      "timing": "original_pitch",
+      "turn_index": 86,
+      "quote": "Make it to where people in the future cannot rewrite history",
+      "explanation": "She again presents protection against historical revision as an important product requirement.",
+      "evidence": [
+        "Make it to where people in the future cannot rewrite history"
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 86,
+          "speaker": "Cyan",
+          "quote": "Make it to where people in the future cannot rewrite history"
+        }
+      ],
+      "activation": "evaluated",
+      "source_rationale_id": "R9"
+    },
+    {
+      "rationale_label": "product_success_factor_assessment",
+      "direction": "negative",
+      "salience": "secondary",
+      "confidence": 0.96,
+      "utterance_type": "supporting_argument",
+      "decision_link": "none",
+      "timing": "original_pitch",
+      "turn_index": 88,
+      "quote": "Just make it regime proof",
+      "explanation": "She recommends that the product be designed to withstand regime-driven changes to its historical content.",
+      "evidence": [
+        "Just make it regime proof"
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 88,
+          "speaker": "Cyan",
+          "quote": "Just make it regime proof"
+        }
+      ],
+      "activation": "evaluated",
+      "source_rationale_id": "R10"
+    },
+    {
+      "rationale_label": "product_appeal_assessment",
+      "direction": "positive",
+      "salience": "secondary",
+      "confidence": 0.92,
+      "utterance_type": "assessment",
+      "decision_link": "none",
+      "timing": "original_pitch",
+      "turn_index": 90,
+      "quote": "I love that",
+      "explanation": "Cyan gives a positive personal reaction to the product's use of varied historical perspectives.",
+      "evidence": [
+        "I love that"
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 90,
+          "speaker": "Cyan",
+          "quote": "I love that"
+        }
+      ],
+      "activation": "evaluated",
+      "source_rationale_id": "R11"
+    },
+    {
+      "rationale_label": "product_success_factor_assessment",
+      "direction": "positive",
+      "salience": "secondary",
+      "confidence": 0.95,
+      "utterance_type": "supporting_argument",
+      "decision_link": "none",
+      "timing": "original_pitch",
+      "turn_index": 92,
+      "quote": "I would want kids to see that and see like, oh, well they came into it with this perspective",
+      "explanation": "She supports exposing students to conflicting historical perspectives as a valuable product attribute.",
+      "evidence": [
+        "I would want kids to see that and see like, oh, well they came into it with this perspective"
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 92,
+          "speaker": "Cyan",
+          "quote": "I would want kids to see that and see like, oh, well they came into it with this perspective"
+        }
+      ],
+      "activation": "evaluated",
+      "source_rationale_id": "R12"
+    },
+    {
+      "rationale_label": "product_success_factor_assessment",
+      "direction": "positive",
+      "salience": "secondary",
+      "confidence": 0.95,
+      "utterance_type": "supporting_argument",
+      "decision_link": "none",
+      "timing": "original_pitch",
+      "turn_index": 94,
+      "quote": "teaching kids that there isn't one side to any story is important",
+      "explanation": "Cyan identifies multifaceted historical presentation as an important educational feature.",
+      "evidence": [
+        "teaching kids that there isn't one side to any story is important"
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 94,
+          "speaker": "Cyan",
+          "quote": "teaching kids that there isn't one side to any story is important"
+        }
+      ],
+      "activation": "evaluated",
+      "source_rationale_id": "R13"
+    },
+    {
+      "rationale_label": "product_success_factor_assessment",
+      "direction": "positive",
+      "salience": "secondary",
+      "confidence": 0.91,
+      "utterance_type": "supporting_argument",
+      "decision_link": "none",
+      "timing": "original_pitch",
+      "turn_index": 98,
+      "quote": "every country has unfortunate history that everybody would like to forget",
+      "explanation": "She argues that the prevalence of uncomfortable historical events supports preserving and presenting them rather than allowing them to be erased.",
+      "evidence": [
+        "every country has unfortunate history that everybody would like to forget"
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 98,
+          "speaker": "Cyan",
+          "quote": "every country has unfortunate history that everybody would like to forget"
+        }
+      ],
+      "activation": "evaluated",
+      "source_rationale_id": "R14"
+    }
+  ],
+  "expanded_quote_evidence": [],
+  "rejected_after_evidence_check": []
+}

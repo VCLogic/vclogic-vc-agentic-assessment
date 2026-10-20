@@ -1,0 +1,650 @@
+{
+  "schema": "phase1-rationale-reference-v1",
+  "extraction_version": "pitchshow-rationales-v1",
+  "fingerprint": "cf79232047dc9cf706da52a1acce36cbe598d661e1d0f5e4d4281374a058470e",
+  "episode_slug": "1-babyscripts",
+  "vc_slug": "phil-nadel-forefront-venture-partners",
+  "vc_name": "Phil Nadel",
+  "actual_decision": "In",
+  "later_decision": "Out",
+  "reference_kind": "automated_transcript_observed_candidate",
+  "human_validated": false,
+  "source_format": "transcript-observed-rationales-v1",
+  "source_path": "/home/dpasch01/vclogic-vc-agentic-assessment/evaluation/pitchshow/investors/phil-nadel-forefront-venture-partners/source/episodes/1-babyscripts.json",
+  "source_sha256": "0845eed7e66bcbefe9271b932b9a9ed56dae32b1ac766f202705fc3cfa195968",
+  "transcript_sha256": "b214b4e92090374bb2a194bef02e8c703b8c15ee7e76e2e7a582087876fd1c38",
+  "taxonomy_sha256": "eaa8734819a3ac34dd19ee5f0bf6de925a793a1d25a2d361090dafc9b751e1fc",
+  "model": "openai/gpt-5.6-luna",
+  "source_tier": "newly_extracted_and_independently_model_reviewed",
+  "reviewed_target_turns": [
+    6,
+    7,
+    15,
+    23,
+    26,
+    39,
+    43,
+    46,
+    52,
+    54,
+    71,
+    74,
+    76,
+    81,
+    83,
+    95,
+    97,
+    99,
+    107,
+    110,
+    113,
+    165
+  ],
+  "notes": "Reviewed every supplied target turn exactly once; non-rationale greetings, confirmations, bare investment statements, and commentary were not annotated.",
+  "receipt_path": "/home/dpasch01/vclogic-vc-agentic-assessment/evaluation/pitchshow/investors/phil-nadel-forefront-venture-partners/rationale-references/receipts/1-babyscripts.json",
+  "scoring_scope": "original_pitch_only",
+  "shared_across_input_modes": true,
+  "rationales": [
+    {
+      "rationale_label": "business_model_assessment",
+      "direction": "neutral",
+      "salience": "secondary",
+      "confidence": 0.9,
+      "utterance_type": "question",
+      "decision_link": "none",
+      "timing": "original_pitch",
+      "turn_index": 76,
+      "quote": "How do they make more money?",
+      "explanation": "Phil asks how the product creates the claimed economic benefit for doctor customers.",
+      "evidence": [
+        "So the doctors are your customers?",
+        "The doctor is paying you for access to the data about their patients?",
+        "How do they make more money?"
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 71,
+          "speaker": "Phil",
+          "quote": "So the doctors are your customers?"
+        },
+        {
+          "turn_index": 74,
+          "speaker": "Phil",
+          "quote": "The doctor is paying you for access to the data about their patients?"
+        },
+        {
+          "turn_index": 76,
+          "speaker": "Phil",
+          "quote": "How do they make more money?"
+        }
+      ],
+      "activation": "queried",
+      "source_rationale_id": "R9",
+      "utterance_kind": "question",
+      "decision_support": "none",
+      "all_mention_ids": [
+        "R7",
+        "R8",
+        "R9"
+      ]
+    },
+    {
+      "rationale_label": "business_viability_concern",
+      "direction": "negative",
+      "salience": "primary",
+      "confidence": 0.96,
+      "utterance_type": "assessment",
+      "decision_link": "none",
+      "timing": "original_pitch",
+      "turn_index": 81,
+      "quote": "the existential risk of the insurance companies changing their compensation plans and methods",
+      "explanation": "Phil identifies a potentially existential business-model risk if reimbursement shifts away from bundled pregnancy payments.",
+      "evidence": [
+        "the existential risk of the insurance companies changing their compensation plans and methods"
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 81,
+          "speaker": "Phil",
+          "quote": "the existential risk of the insurance companies changing their compensation plans and methods"
+        }
+      ],
+      "activation": "evaluated",
+      "source_rationale_id": "R10",
+      "utterance_kind": "concern",
+      "decision_support": "none",
+      "all_mention_ids": [
+        "R10"
+      ]
+    },
+    {
+      "rationale_label": "founder_execution",
+      "direction": "positive",
+      "salience": "primary",
+      "confidence": 0.96,
+      "utterance_type": "assessment",
+      "decision_link": "explicit",
+      "timing": "original_pitch",
+      "turn_index": 97,
+      "quote": "I feel like you've attacked this problem in a smart way by starting with the studies to prove the efficacy",
+      "explanation": "Phil praises the founders' evidence-first approach and explicitly connects it to his decision to participate.",
+      "evidence": [
+        "I feel like you've attacked this problem in a smart way by starting with the studies to prove the efficacy"
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 97,
+          "speaker": "Phil",
+          "quote": "I feel like you've attacked this problem in a smart way by starting with the studies to prove the efficacy"
+        }
+      ],
+      "activation": "evaluated",
+      "source_rationale_id": "R13",
+      "utterance_kind": "supporting_argument",
+      "decision_support": "supports_in",
+      "all_mention_ids": [
+        "R13"
+      ]
+    },
+    {
+      "rationale_label": "fundraising_demand_signal",
+      "direction": "neutral",
+      "salience": "secondary",
+      "confidence": 0.88,
+      "utterance_type": "question",
+      "decision_link": "none",
+      "timing": "original_pitch",
+      "turn_index": 95,
+      "quote": "How much of the $3.5 million do you have committed so far?",
+      "explanation": "Phil asks how much of the round is already committed to assess financing momentum.",
+      "evidence": [
+        "How much of the $3.5 million do you have committed so far?"
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 95,
+          "speaker": "Phil",
+          "quote": "How much of the $3.5 million do you have committed so far?"
+        }
+      ],
+      "activation": "queried",
+      "source_rationale_id": "R12",
+      "utterance_kind": "question",
+      "decision_support": "none",
+      "all_mention_ids": [
+        "R12"
+      ]
+    },
+    {
+      "rationale_label": "product_differentiation_concern",
+      "direction": "positive",
+      "salience": "secondary",
+      "confidence": 0.86,
+      "utterance_type": "assessment",
+      "decision_link": "none",
+      "timing": "original_pitch",
+      "turn_index": 54,
+      "quote": "they're harmonizing the data and looking for irrelevant data points before the doctor even sees it",
+      "explanation": "Phil identifies data harmonization and filtering as a differentiating feature beyond a basic patient-entered app.",
+      "evidence": [
+        "they're harmonizing the data and looking for irrelevant data points before the doctor even sees it"
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 54,
+          "speaker": "Phil",
+          "quote": "they're harmonizing the data and looking for irrelevant data points before the doctor even sees it"
+        }
+      ],
+      "activation": "evaluated",
+      "source_rationale_id": "R6",
+      "utterance_kind": "supporting_argument",
+      "decision_support": "none",
+      "all_mention_ids": [
+        "R6"
+      ]
+    },
+    {
+      "rationale_label": "product_success_factor_assessment",
+      "direction": "negative",
+      "salience": "secondary",
+      "confidence": 0.93,
+      "utterance_type": "assessment",
+      "decision_link": "none",
+      "timing": "original_pitch",
+      "turn_index": 39,
+      "quote": "they would want that kind of reassurance each time",
+      "explanation": "Phil questions whether remote measurements provide the repeated reassurance patients receive during office visits.",
+      "evidence": [
+        "That peace of mind when you go to the doctor.",
+        "they would want that kind of reassurance each time"
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 26,
+          "speaker": "Phil",
+          "quote": "That peace of mind when you go to the doctor."
+        },
+        {
+          "turn_index": 39,
+          "speaker": "Phil",
+          "quote": "they would want that kind of reassurance each time"
+        }
+      ],
+      "activation": "evaluated",
+      "source_rationale_id": "R4",
+      "utterance_kind": "concern",
+      "decision_support": "none",
+      "all_mention_ids": [
+        "R3",
+        "R4"
+      ]
+    },
+    {
+      "rationale_label": "solution_feasibility_assessment",
+      "direction": "neutral",
+      "salience": "secondary",
+      "confidence": 0.86,
+      "utterance_type": "question",
+      "decision_link": "none",
+      "timing": "original_pitch",
+      "turn_index": 43,
+      "quote": "are they communicating at all with the patient",
+      "explanation": "Phil asks how the monitoring workflow handles patient communication when measurements are received.",
+      "evidence": [
+        "what to expect when you're expecting put onto an app?",
+        "are they communicating at all with the patient"
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 23,
+          "speaker": "Phil",
+          "quote": "what to expect when you're expecting put onto an app?"
+        },
+        {
+          "turn_index": 43,
+          "speaker": "Phil",
+          "quote": "are they communicating at all with the patient"
+        }
+      ],
+      "activation": "queried",
+      "source_rationale_id": "R5",
+      "utterance_kind": "question",
+      "decision_support": "none",
+      "all_mention_ids": [
+        "R2",
+        "R5"
+      ]
+    },
+    {
+      "rationale_label": "traction_repeatability_concern",
+      "direction": "neutral",
+      "salience": "secondary",
+      "confidence": 0.87,
+      "utterance_type": "question",
+      "decision_link": "none",
+      "timing": "original_pitch",
+      "turn_index": 83,
+      "quote": "How much revenue have you generated to date?",
+      "explanation": "Phil asks for realized revenue as an indicator of the company's current traction.",
+      "evidence": [
+        "How much revenue have you generated to date?"
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 83,
+          "speaker": "Phil",
+          "quote": "How much revenue have you generated to date?"
+        }
+      ],
+      "activation": "queried",
+      "source_rationale_id": "R11",
+      "utterance_kind": "question",
+      "decision_support": "none",
+      "all_mention_ids": [
+        "R11"
+      ]
+    }
+  ],
+  "later_rationales": [],
+  "excluded_rationales": [
+    {
+      "rationale_label": "decision_context_constraint",
+      "direction": "neutral",
+      "salience": "secondary",
+      "confidence": 0.9,
+      "utterance_type": "concern",
+      "decision_link": "none",
+      "timing": "unclear",
+      "turn_index": 7,
+      "quote": "If for some reason, members don’t bite, then the thing falls apart.",
+      "explanation": "Phil describes a constraint of his syndicate structure: the investment depends on member participation.",
+      "evidence": [
+        "If for some reason, members don’t bite, then the thing falls apart."
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 7,
+          "speaker": "Phil",
+          "quote": "If for some reason, members don’t bite, then the thing falls apart."
+        }
+      ],
+      "activation": "evaluated",
+      "source_rationale_id": "R1"
+    },
+    {
+      "rationale_label": "solution_feasibility_assessment",
+      "direction": "neutral",
+      "salience": "secondary",
+      "confidence": 0.78,
+      "utterance_type": "question",
+      "decision_link": "none",
+      "timing": "teaser",
+      "turn_index": 165,
+      "quote": "You could do gambling in a hotel room in Vegas?",
+      "explanation": "In the teaser, Phil tests a possible hotel-room use case without stating approval or rejection.",
+      "evidence": [
+        "You could do gambling in a hotel room in Vegas?"
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 165,
+          "speaker": "Phil",
+          "quote": "You could do gambling in a hotel room in Vegas?"
+        }
+      ],
+      "activation": "queried",
+      "source_rationale_id": "R14"
+    }
+  ],
+  "rationale_mentions": [
+    {
+      "rationale_label": "solution_feasibility_assessment",
+      "direction": "neutral",
+      "salience": "secondary",
+      "confidence": 0.78,
+      "utterance_type": "question",
+      "decision_link": "none",
+      "timing": "original_pitch",
+      "turn_index": 23,
+      "quote": "what to expect when you're expecting put onto an app?",
+      "explanation": "Phil probes whether the proposed prenatal-care experience can be delivered through an app.",
+      "evidence": [
+        "what to expect when you're expecting put onto an app?"
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 23,
+          "speaker": "Phil",
+          "quote": "what to expect when you're expecting put onto an app?"
+        }
+      ],
+      "activation": "queried",
+      "source_rationale_id": "R2"
+    },
+    {
+      "rationale_label": "product_success_factor_assessment",
+      "direction": "negative",
+      "salience": "secondary",
+      "confidence": 0.91,
+      "utterance_type": "concern",
+      "decision_link": "none",
+      "timing": "original_pitch",
+      "turn_index": 26,
+      "quote": "That peace of mind when you go to the doctor.",
+      "explanation": "Phil points to in-person peace of mind as a patient benefit relevant to reducing doctor visits.",
+      "evidence": [
+        "That peace of mind when you go to the doctor."
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 26,
+          "speaker": "Phil",
+          "quote": "That peace of mind when you go to the doctor."
+        }
+      ],
+      "activation": "evaluated",
+      "source_rationale_id": "R3"
+    },
+    {
+      "rationale_label": "product_success_factor_assessment",
+      "direction": "negative",
+      "salience": "secondary",
+      "confidence": 0.93,
+      "utterance_type": "concern",
+      "decision_link": "none",
+      "timing": "original_pitch",
+      "turn_index": 39,
+      "quote": "they would want that kind of reassurance each time",
+      "explanation": "Phil questions whether remote measurements provide the repeated reassurance patients receive during office visits.",
+      "evidence": [
+        "they would want that kind of reassurance each time"
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 39,
+          "speaker": "Phil",
+          "quote": "they would want that kind of reassurance each time"
+        }
+      ],
+      "activation": "evaluated",
+      "source_rationale_id": "R4"
+    },
+    {
+      "rationale_label": "solution_feasibility_assessment",
+      "direction": "neutral",
+      "salience": "secondary",
+      "confidence": 0.86,
+      "utterance_type": "question",
+      "decision_link": "none",
+      "timing": "original_pitch",
+      "turn_index": 43,
+      "quote": "are they communicating at all with the patient",
+      "explanation": "Phil asks how the monitoring workflow handles patient communication when measurements are received.",
+      "evidence": [
+        "are they communicating at all with the patient"
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 43,
+          "speaker": "Phil",
+          "quote": "are they communicating at all with the patient"
+        }
+      ],
+      "activation": "queried",
+      "source_rationale_id": "R5"
+    },
+    {
+      "rationale_label": "product_differentiation_concern",
+      "direction": "positive",
+      "salience": "secondary",
+      "confidence": 0.86,
+      "utterance_type": "supporting_argument",
+      "decision_link": "none",
+      "timing": "original_pitch",
+      "turn_index": 54,
+      "quote": "they're harmonizing the data and looking for irrelevant data points before the doctor even sees it",
+      "explanation": "Phil identifies data harmonization and filtering as a differentiating feature beyond a basic patient-entered app.",
+      "evidence": [
+        "they're harmonizing the data and looking for irrelevant data points before the doctor even sees it"
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 54,
+          "speaker": "Phil",
+          "quote": "they're harmonizing the data and looking for irrelevant data points before the doctor even sees it"
+        }
+      ],
+      "activation": "evaluated",
+      "source_rationale_id": "R6"
+    },
+    {
+      "rationale_label": "business_model_assessment",
+      "direction": "neutral",
+      "salience": "secondary",
+      "confidence": 0.9,
+      "utterance_type": "question",
+      "decision_link": "none",
+      "timing": "original_pitch",
+      "turn_index": 71,
+      "quote": "So the doctors are your customers?",
+      "explanation": "Phil clarifies which party is the company's commercial customer.",
+      "evidence": [
+        "So the doctors are your customers?"
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 71,
+          "speaker": "Phil",
+          "quote": "So the doctors are your customers?"
+        }
+      ],
+      "activation": "queried",
+      "source_rationale_id": "R7"
+    },
+    {
+      "rationale_label": "business_model_assessment",
+      "direction": "neutral",
+      "salience": "secondary",
+      "confidence": 0.9,
+      "utterance_type": "question",
+      "decision_link": "none",
+      "timing": "original_pitch",
+      "turn_index": 74,
+      "quote": "The doctor is paying you for access to the data about their patients?",
+      "explanation": "Phil probes what the doctor is paying for in the proposed monetization model.",
+      "evidence": [
+        "The doctor is paying you for access to the data about their patients?"
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 74,
+          "speaker": "Phil",
+          "quote": "The doctor is paying you for access to the data about their patients?"
+        }
+      ],
+      "activation": "queried",
+      "source_rationale_id": "R8"
+    },
+    {
+      "rationale_label": "business_model_assessment",
+      "direction": "neutral",
+      "salience": "secondary",
+      "confidence": 0.9,
+      "utterance_type": "question",
+      "decision_link": "none",
+      "timing": "original_pitch",
+      "turn_index": 76,
+      "quote": "How do they make more money?",
+      "explanation": "Phil asks how the product creates the claimed economic benefit for doctor customers.",
+      "evidence": [
+        "How do they make more money?"
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 76,
+          "speaker": "Phil",
+          "quote": "How do they make more money?"
+        }
+      ],
+      "activation": "queried",
+      "source_rationale_id": "R9"
+    },
+    {
+      "rationale_label": "business_viability_concern",
+      "direction": "negative",
+      "salience": "primary",
+      "confidence": 0.96,
+      "utterance_type": "concern",
+      "decision_link": "none",
+      "timing": "original_pitch",
+      "turn_index": 81,
+      "quote": "the existential risk of the insurance companies changing their compensation plans and methods",
+      "explanation": "Phil identifies a potentially existential business-model risk if reimbursement shifts away from bundled pregnancy payments.",
+      "evidence": [
+        "the existential risk of the insurance companies changing their compensation plans and methods"
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 81,
+          "speaker": "Phil",
+          "quote": "the existential risk of the insurance companies changing their compensation plans and methods"
+        }
+      ],
+      "activation": "evaluated",
+      "source_rationale_id": "R10"
+    },
+    {
+      "rationale_label": "traction_repeatability_concern",
+      "direction": "neutral",
+      "salience": "secondary",
+      "confidence": 0.87,
+      "utterance_type": "question",
+      "decision_link": "none",
+      "timing": "original_pitch",
+      "turn_index": 83,
+      "quote": "How much revenue have you generated to date?",
+      "explanation": "Phil asks for realized revenue as an indicator of the company's current traction.",
+      "evidence": [
+        "How much revenue have you generated to date?"
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 83,
+          "speaker": "Phil",
+          "quote": "How much revenue have you generated to date?"
+        }
+      ],
+      "activation": "queried",
+      "source_rationale_id": "R11"
+    },
+    {
+      "rationale_label": "fundraising_demand_signal",
+      "direction": "neutral",
+      "salience": "secondary",
+      "confidence": 0.88,
+      "utterance_type": "question",
+      "decision_link": "none",
+      "timing": "original_pitch",
+      "turn_index": 95,
+      "quote": "How much of the $3.5 million do you have committed so far?",
+      "explanation": "Phil asks how much of the round is already committed to assess financing momentum.",
+      "evidence": [
+        "How much of the $3.5 million do you have committed so far?"
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 95,
+          "speaker": "Phil",
+          "quote": "How much of the $3.5 million do you have committed so far?"
+        }
+      ],
+      "activation": "queried",
+      "source_rationale_id": "R12"
+    },
+    {
+      "rationale_label": "founder_execution",
+      "direction": "positive",
+      "salience": "primary",
+      "confidence": 0.96,
+      "utterance_type": "supporting_argument",
+      "decision_link": "supports_in",
+      "timing": "original_pitch",
+      "turn_index": 97,
+      "quote": "I feel like you've attacked this problem in a smart way by starting with the studies to prove the efficacy",
+      "explanation": "Phil praises the founders' evidence-first approach and explicitly connects it to his decision to participate.",
+      "evidence": [
+        "I feel like you've attacked this problem in a smart way by starting with the studies to prove the efficacy"
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 97,
+          "speaker": "Phil",
+          "quote": "I feel like you've attacked this problem in a smart way by starting with the studies to prove the efficacy"
+        }
+      ],
+      "activation": "evaluated",
+      "source_rationale_id": "R13"
+    }
+  ]
+}

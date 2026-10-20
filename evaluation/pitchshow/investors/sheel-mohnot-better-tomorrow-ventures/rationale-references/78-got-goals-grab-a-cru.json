@@ -1,0 +1,603 @@
+{
+  "schema": "phase1-rationale-reference-v1",
+  "extraction_version": "pitchshow-rationales-v1",
+  "fingerprint": "0702e499e4b97dff5dbe9d99ed4aaf448c82e3691ccf777ee39681677ab439b7",
+  "episode_slug": "78-got-goals-grab-a-cru",
+  "vc_slug": "sheel-mohnot-better-tomorrow-ventures",
+  "vc_name": "Sheel Mohnot",
+  "actual_decision": "Out",
+  "later_decision": "Unknown",
+  "reference_kind": "automated_transcript_observed_candidate",
+  "human_validated": false,
+  "source_format": "transcript-observed-rationales-v1",
+  "source_path": "../source/episodes/78-got-goals-grab-a-cru.json",
+  "source_sha256": "f47caf64ca39273baea1420642e584b9d418629976aef67dc54527dba976cb28",
+  "transcript_sha256": "9a83a8eb8dfc6108b7b42acfb434c3c290dd257b724c193892ea04bb2175f808",
+  "taxonomy_sha256": "eaa8734819a3ac34dd19ee5f0bf6de925a793a1d25a2d361090dafc9b751e1fc",
+  "model": "codex:gpt-5.6-luna+gpt-5.6-sol",
+  "generation_stages": [
+    {
+      "phase": "rationale_extract",
+      "backend": "codex",
+      "model": "gpt-5.6-luna"
+    },
+    {
+      "phase": "rationale_verify",
+      "backend": "codex",
+      "model": "gpt-5.6-sol"
+    }
+  ],
+  "source_tier": "newly_extracted_and_independently_model_reviewed",
+  "reviewed_target_turns": [
+    4,
+    9,
+    10,
+    18,
+    28,
+    32,
+    34,
+    36,
+    39,
+    47,
+    53,
+    55,
+    58,
+    60,
+    64,
+    66,
+    68,
+    71,
+    77
+  ],
+  "notes": "",
+  "receipt_path": "receipts/78-got-goals-grab-a-cru.json",
+  "scoring_scope": "original_pitch_only",
+  "shared_across_input_modes": true,
+  "rationales": [
+    {
+      "rationale_label": "business_model_assessment",
+      "direction": "negative",
+      "salience": "primary",
+      "confidence": 0.98,
+      "utterance_type": "decision_reason",
+      "decision_link": "explicit",
+      "timing": "original_pitch",
+      "turn_index": 66,
+      "quote": "The renewal thing is part of what scared me.",
+      "explanation": "Sheel explicitly identifies uncertainty about membership renewals as one factor behind his investment hesitation.",
+      "evidence": [
+        "why would they pay again the next year?",
+        "The renewal thing is part of what scared me."
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 39,
+          "speaker": "Sheel",
+          "quote": "why would they pay again the next year?"
+        },
+        {
+          "turn_index": 66,
+          "speaker": "Sheel",
+          "quote": "The renewal thing is part of what scared me."
+        }
+      ],
+      "activation": "evaluated",
+      "source_rationale_id": "R9",
+      "utterance_kind": "decision_explanation",
+      "decision_support": "supports_out",
+      "all_mention_ids": [
+        "R5",
+        "R9"
+      ]
+    },
+    {
+      "rationale_label": "competitive_advantage_assessment",
+      "direction": "neutral",
+      "salience": "secondary",
+      "confidence": 0.8,
+      "utterance_type": "question",
+      "decision_link": "none",
+      "timing": "original_pitch",
+      "turn_index": 28,
+      "quote": "what else do you consider in your peer set of companies?",
+      "explanation": "Sheel asks about the relevant competitive set after noting his difficulty identifying comparable companies.",
+      "evidence": [
+        "what else do you consider in your peer set of companies?"
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 28,
+          "speaker": "Sheel",
+          "quote": "what else do you consider in your peer set of companies?"
+        }
+      ],
+      "activation": "queried",
+      "source_rationale_id": "R3",
+      "utterance_kind": "question",
+      "decision_support": "none",
+      "all_mention_ids": [
+        "R3"
+      ]
+    },
+    {
+      "rationale_label": "founder_qualities",
+      "direction": "positive",
+      "salience": "secondary",
+      "confidence": 0.98,
+      "utterance_type": "assessment",
+      "decision_link": "none",
+      "timing": "original_pitch",
+      "turn_index": 58,
+      "quote": "She’s such a force of nature. She’s like a really, such an impressive person.",
+      "explanation": "Sheel strongly praises Tiffany's personal presence and impressiveness.",
+      "evidence": [
+        "She’s such a force of nature. She’s like a really, such an impressive person."
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 58,
+          "speaker": "Sheel",
+          "quote": "She’s such a force of nature. She’s like a really, such an impressive person."
+        }
+      ],
+      "activation": "evaluated",
+      "source_rationale_id": "R7",
+      "utterance_kind": "assessment",
+      "decision_support": "none",
+      "all_mention_ids": [
+        "R7"
+      ]
+    },
+    {
+      "rationale_label": "fundraising_demand_signal",
+      "direction": "positive",
+      "salience": "secondary",
+      "confidence": 0.91,
+      "utterance_type": "assessment",
+      "decision_link": "none",
+      "timing": "original_pitch",
+      "turn_index": 64,
+      "quote": "She’ll have enough people in The Cru that could put money in.",
+      "explanation": "Sheel believes the member community could itself provide future investment capital.",
+      "evidence": [
+        "She’ll have enough people in The Cru that could put money in."
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 64,
+          "speaker": "Sheel",
+          "quote": "She’ll have enough people in The Cru that could put money in."
+        }
+      ],
+      "activation": "evaluated",
+      "source_rationale_id": "R8",
+      "utterance_kind": "supporting_argument",
+      "decision_support": "none",
+      "all_mention_ids": [
+        "R8"
+      ]
+    },
+    {
+      "rationale_label": "growth_projection_risk",
+      "direction": "neutral",
+      "salience": "secondary",
+      "confidence": 0.82,
+      "utterance_type": "question",
+      "decision_link": "none",
+      "timing": "original_pitch",
+      "turn_index": 32,
+      "quote": "So right now you have 100 cru members. But where do you see this going?",
+      "explanation": "Sheel asks how the company expects to progress from its current early scale.",
+      "evidence": [
+        "So right now you have 100 cru members. But where do you see this going?"
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 32,
+          "speaker": "Sheel",
+          "quote": "So right now you have 100 cru members. But where do you see this going?"
+        }
+      ],
+      "activation": "queried",
+      "source_rationale_id": "R4",
+      "utterance_kind": "question",
+      "decision_support": "none",
+      "all_mention_ids": [
+        "R4"
+      ]
+    },
+    {
+      "rationale_label": "investment_upside_assessment",
+      "direction": "negative",
+      "salience": "primary",
+      "confidence": 0.98,
+      "utterance_type": "assessment",
+      "decision_link": "none",
+      "timing": "original_pitch",
+      "turn_index": 77,
+      "quote": "the exit multiple on this business is probably not very high.",
+      "explanation": "Sheel worries that this type of business is unlikely to command a high exit multiple, limiting investment upside.",
+      "evidence": [
+        "the exit multiple on this business is probably not very high."
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 77,
+          "speaker": "Sheel",
+          "quote": "the exit multiple on this business is probably not very high."
+        }
+      ],
+      "activation": "evaluated",
+      "source_rationale_id": "R11",
+      "utterance_kind": "concern",
+      "decision_support": "none",
+      "all_mention_ids": [
+        "R11"
+      ]
+    },
+    {
+      "rationale_label": "investor_domain_knowledge_constraint",
+      "direction": "negative",
+      "salience": "primary",
+      "confidence": 0.96,
+      "utterance_type": "decision_reason",
+      "decision_link": "explicit",
+      "timing": "original_pitch",
+      "turn_index": 47,
+      "quote": "I think it's just so far off of from anything I've thought of So I wish you the best. It's just not a fit for me.",
+      "explanation": "Sheel declines because the unfamiliar space lies too far outside the areas he has considered and feels able to evaluate.",
+      "evidence": [
+        "I think it's just so far off of from anything I've thought of So I wish you the best. It's just not a fit for me."
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 47,
+          "speaker": "Sheel",
+          "quote": "I think it's just so far off of from anything I've thought of So I wish you the best. It's just not a fit for me."
+        }
+      ],
+      "activation": "evaluated",
+      "source_rationale_id": "R6",
+      "utterance_kind": "decision_explanation",
+      "decision_support": "supports_out",
+      "all_mention_ids": [
+        "R6"
+      ]
+    },
+    {
+      "rationale_label": "market_problem_validation",
+      "direction": "neutral",
+      "salience": "secondary",
+      "confidence": 0.84,
+      "utterance_type": "question",
+      "decision_link": "none",
+      "timing": "original_pitch",
+      "turn_index": 18,
+      "quote": "What are the goals that people are trying to reach?",
+      "explanation": "Sheel probes the customer needs and goals that the service addresses.",
+      "evidence": [
+        "What are the goals that people are trying to reach?"
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 18,
+          "speaker": "Sheel",
+          "quote": "What are the goals that people are trying to reach?"
+        }
+      ],
+      "activation": "queried",
+      "source_rationale_id": "R2",
+      "utterance_kind": "question",
+      "decision_support": "none",
+      "all_mention_ids": [
+        "R2"
+      ]
+    },
+    {
+      "rationale_label": "product_success_factor_assessment",
+      "direction": "neutral",
+      "salience": "secondary",
+      "confidence": 0.82,
+      "utterance_type": "assessment",
+      "decision_link": "none",
+      "timing": "original_pitch",
+      "turn_index": 71,
+      "quote": "I agree. I don’t know about product",
+      "explanation": "Sheel expresses uncertainty that deeper product development is central to the company's success.",
+      "evidence": [
+        "What do you get by being in The Cru?",
+        "I agree. I don’t know about product"
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 10,
+          "speaker": "Sheel",
+          "quote": "What do you get by being in The Cru?"
+        },
+        {
+          "turn_index": 71,
+          "speaker": "Sheel",
+          "quote": "I agree. I don’t know about product"
+        }
+      ],
+      "activation": "evaluated",
+      "source_rationale_id": "R10",
+      "utterance_kind": "assessment",
+      "decision_support": "none",
+      "all_mention_ids": [
+        "R1",
+        "R10"
+      ]
+    }
+  ],
+  "later_rationales": [],
+  "excluded_rationales": [],
+  "rationale_mentions": [
+    {
+      "rationale_label": "product_success_factor_assessment",
+      "direction": "neutral",
+      "salience": "secondary",
+      "confidence": 0.84,
+      "utterance_type": "question",
+      "decision_link": "none",
+      "timing": "original_pitch",
+      "turn_index": 10,
+      "quote": "What do you get by being in The Cru?",
+      "explanation": "Sheel asks what concrete value the product provides to members.",
+      "evidence": [
+        "What do you get by being in The Cru?"
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 10,
+          "speaker": "Sheel",
+          "quote": "What do you get by being in The Cru?"
+        }
+      ],
+      "activation": "queried",
+      "source_rationale_id": "R1"
+    },
+    {
+      "rationale_label": "market_problem_validation",
+      "direction": "neutral",
+      "salience": "secondary",
+      "confidence": 0.84,
+      "utterance_type": "question",
+      "decision_link": "none",
+      "timing": "original_pitch",
+      "turn_index": 18,
+      "quote": "What are the goals that people are trying to reach?",
+      "explanation": "Sheel probes the customer needs and goals that the service addresses.",
+      "evidence": [
+        "What are the goals that people are trying to reach?"
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 18,
+          "speaker": "Sheel",
+          "quote": "What are the goals that people are trying to reach?"
+        }
+      ],
+      "activation": "queried",
+      "source_rationale_id": "R2"
+    },
+    {
+      "rationale_label": "competitive_advantage_assessment",
+      "direction": "neutral",
+      "salience": "secondary",
+      "confidence": 0.8,
+      "utterance_type": "question",
+      "decision_link": "none",
+      "timing": "original_pitch",
+      "turn_index": 28,
+      "quote": "what else do you consider in your peer set of companies?",
+      "explanation": "Sheel asks about the relevant competitive set after noting his difficulty identifying comparable companies.",
+      "evidence": [
+        "what else do you consider in your peer set of companies?"
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 28,
+          "speaker": "Sheel",
+          "quote": "what else do you consider in your peer set of companies?"
+        }
+      ],
+      "activation": "queried",
+      "source_rationale_id": "R3"
+    },
+    {
+      "rationale_label": "growth_projection_risk",
+      "direction": "neutral",
+      "salience": "secondary",
+      "confidence": 0.82,
+      "utterance_type": "question",
+      "decision_link": "none",
+      "timing": "original_pitch",
+      "turn_index": 32,
+      "quote": "So right now you have 100 cru members. But where do you see this going?",
+      "explanation": "Sheel asks how the company expects to progress from its current early scale.",
+      "evidence": [
+        "So right now you have 100 cru members. But where do you see this going?"
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 32,
+          "speaker": "Sheel",
+          "quote": "So right now you have 100 cru members. But where do you see this going?"
+        }
+      ],
+      "activation": "queried",
+      "source_rationale_id": "R4"
+    },
+    {
+      "rationale_label": "business_model_assessment",
+      "direction": "negative",
+      "salience": "primary",
+      "confidence": 0.95,
+      "utterance_type": "question",
+      "decision_link": "none",
+      "timing": "original_pitch",
+      "turn_index": 39,
+      "quote": "why would they pay again the next year?",
+      "explanation": "Sheel challenges whether satisfied groups will continue paying the recurring membership fee.",
+      "evidence": [
+        "why would they pay again the next year?"
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 39,
+          "speaker": "Sheel",
+          "quote": "why would they pay again the next year?"
+        }
+      ],
+      "activation": "queried",
+      "source_rationale_id": "R5"
+    },
+    {
+      "rationale_label": "investor_domain_knowledge_constraint",
+      "direction": "negative",
+      "salience": "primary",
+      "confidence": 0.96,
+      "utterance_type": "decision_explanation",
+      "decision_link": "supports_out",
+      "timing": "original_pitch",
+      "turn_index": 47,
+      "quote": "I think it's just so far off of from anything I've thought of So I wish you the best. It's just not a fit for me.",
+      "explanation": "Sheel declines because the unfamiliar space lies too far outside the areas he has considered and feels able to evaluate.",
+      "evidence": [
+        "I think it's just so far off of from anything I've thought of So I wish you the best. It's just not a fit for me."
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 47,
+          "speaker": "Sheel",
+          "quote": "I think it's just so far off of from anything I've thought of So I wish you the best. It's just not a fit for me."
+        }
+      ],
+      "activation": "evaluated",
+      "source_rationale_id": "R6"
+    },
+    {
+      "rationale_label": "founder_qualities",
+      "direction": "positive",
+      "salience": "secondary",
+      "confidence": 0.98,
+      "utterance_type": "assessment",
+      "decision_link": "none",
+      "timing": "original_pitch",
+      "turn_index": 58,
+      "quote": "She’s such a force of nature. She’s like a really, such an impressive person.",
+      "explanation": "Sheel strongly praises Tiffany's personal presence and impressiveness.",
+      "evidence": [
+        "She’s such a force of nature. She’s like a really, such an impressive person."
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 58,
+          "speaker": "Sheel",
+          "quote": "She’s such a force of nature. She’s like a really, such an impressive person."
+        }
+      ],
+      "activation": "evaluated",
+      "source_rationale_id": "R7"
+    },
+    {
+      "rationale_label": "fundraising_demand_signal",
+      "direction": "positive",
+      "salience": "secondary",
+      "confidence": 0.91,
+      "utterance_type": "supporting_argument",
+      "decision_link": "none",
+      "timing": "original_pitch",
+      "turn_index": 64,
+      "quote": "She’ll have enough people in The Cru that could put money in.",
+      "explanation": "Sheel believes the member community could itself provide future investment capital.",
+      "evidence": [
+        "She’ll have enough people in The Cru that could put money in."
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 64,
+          "speaker": "Sheel",
+          "quote": "She’ll have enough people in The Cru that could put money in."
+        }
+      ],
+      "activation": "evaluated",
+      "source_rationale_id": "R8"
+    },
+    {
+      "rationale_label": "business_model_assessment",
+      "direction": "negative",
+      "salience": "primary",
+      "confidence": 0.98,
+      "utterance_type": "decision_explanation",
+      "decision_link": "supports_out",
+      "timing": "original_pitch",
+      "turn_index": 66,
+      "quote": "The renewal thing is part of what scared me.",
+      "explanation": "Sheel explicitly identifies uncertainty about membership renewals as one factor behind his investment hesitation.",
+      "evidence": [
+        "The renewal thing is part of what scared me."
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 66,
+          "speaker": "Sheel",
+          "quote": "The renewal thing is part of what scared me."
+        }
+      ],
+      "activation": "evaluated",
+      "source_rationale_id": "R9"
+    },
+    {
+      "rationale_label": "product_success_factor_assessment",
+      "direction": "neutral",
+      "salience": "secondary",
+      "confidence": 0.82,
+      "utterance_type": "assessment",
+      "decision_link": "none",
+      "timing": "original_pitch",
+      "turn_index": 71,
+      "quote": "I agree. I don’t know about product",
+      "explanation": "Sheel expresses uncertainty that deeper product development is central to the company's success.",
+      "evidence": [
+        "I agree. I don’t know about product"
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 71,
+          "speaker": "Sheel",
+          "quote": "I agree. I don’t know about product"
+        }
+      ],
+      "activation": "evaluated",
+      "source_rationale_id": "R10"
+    },
+    {
+      "rationale_label": "investment_upside_assessment",
+      "direction": "negative",
+      "salience": "primary",
+      "confidence": 0.98,
+      "utterance_type": "concern",
+      "decision_link": "none",
+      "timing": "original_pitch",
+      "turn_index": 77,
+      "quote": "the exit multiple on this business is probably not very high.",
+      "explanation": "Sheel worries that this type of business is unlikely to command a high exit multiple, limiting investment upside.",
+      "evidence": [
+        "the exit multiple on this business is probably not very high."
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 77,
+          "speaker": "Sheel",
+          "quote": "the exit multiple on this business is probably not very high."
+        }
+      ],
+      "activation": "evaluated",
+      "source_rationale_id": "R11"
+    }
+  ],
+  "expanded_quote_evidence": [],
+  "rejected_after_evidence_check": []
+}

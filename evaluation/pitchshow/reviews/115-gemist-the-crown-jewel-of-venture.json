@@ -1,0 +1,1077 @@
+{
+  "schema": "pitchshow-evaluation-v3",
+  "episode_slug": "115-gemist-the-crown-jewel-of-venture",
+  "review": {
+    "episode_kind": "pitch",
+    "founder_speakers": [
+      "Madeline"
+    ],
+    "pitch_start_turn": 11,
+    "pitch_end_turn": 67,
+    "excluded_turns": [
+      53,
+      63
+    ],
+    "boundary_reason": "The original pitch begins with Madeline's founder presentation at turn 11, after the teaser, investor introductions, and pre-pitch banter. Turns 53 and 63 contain embedded host commentary and outcome-oriented narration, so they are excluded. The pitch window ends at turn 67, immediately before the first investor decision at turn 68.",
+    "decisions": [
+      {
+        "vc_slug": "charles-hudson-precursor-ventures",
+        "pitch_window_decision": "Out",
+        "initial_response": "Out",
+        "decision_context": "initial_panel",
+        "pitch_evidence": [
+          {
+            "turn_index": 68,
+            "quote": "I got pretty close to this one, but I think I'm out."
+          }
+        ],
+        "later_decision": "Unknown",
+        "later_evidence": [],
+        "condition": null,
+        "reason": "Charles explicitly declined during the original pitch. No later investment or non-investment outcome for Charles/Precursor is established."
+      },
+      {
+        "vc_slug": "elizabeth-yin-hustle-fund",
+        "pitch_window_decision": "Out",
+        "initial_response": "Out",
+        "decision_context": "initial_panel",
+        "pitch_evidence": [
+          {
+            "turn_index": 70,
+            "quote": "And so for that reason, I'm out."
+          }
+        ],
+        "later_decision": "Unknown",
+        "later_evidence": [],
+        "condition": null,
+        "reason": "Elizabeth explicitly declined during the original pitch. No later investment or non-investment outcome for Elizabeth/Hustle Fund is established."
+      },
+      {
+        "vc_slug": "mark-phillips-11-tribes-ventures",
+        "pitch_window_decision": "In",
+        "initial_response": "In",
+        "decision_context": "initial_panel",
+        "pitch_evidence": [
+          {
+            "turn_index": 80,
+            "quote": "I really enjoyed this. and I like it so much that I want to invest 100,000. So I'm in."
+          }
+        ],
+        "later_decision": "In",
+        "later_evidence": [
+          {
+            "turn_index": 199,
+            "quote": "So we got 300, 000 from Neil. That's 250k from Mark, puts you at 550, 000."
+          }
+        ],
+        "condition": null,
+        "reason": "Mark explicitly committed $100,000 during the original pitch. Later diligence resulted in an increased actual allocation to $250,000."
+      },
+      {
+        "vc_slug": "paige-doherty-behind-genius-ventures",
+        "pitch_window_decision": "Out",
+        "initial_response": "Out",
+        "decision_context": "initial_panel",
+        "pitch_evidence": [
+          {
+            "turn_index": 73,
+            "quote": "So for that reason, I'm out."
+          }
+        ],
+        "later_decision": "Unknown",
+        "later_evidence": [],
+        "condition": null,
+        "reason": "Paige explicitly declined during the original pitch. No later investment or non-investment outcome for Paige/Behind Genius Ventures is established."
+      }
+    ]
+  },
+  "verification": {
+    "boundary_supported": true,
+    "remove_lines": [],
+    "safe_after_removal": true,
+    "reason": "The proposed pitch begins at turn 11 after the teaser, introductions, and pre-pitch banter. Its factual-content window through turn 67 ends before Charles's first refusal at turn 68, and turns 53 and 63 appropriately exclude embedded host commentary. All candidate lines are pre-decision founder facts or neutral questions; prior fundraising facts are legitimate and should not be removed.",
+    "decisions": [
+      {
+        "vc_slug": "charles-hudson-precursor-ventures",
+        "pitch_decision_supported": true,
+        "later_decision_supported": false,
+        "pitch_evidence": [
+          {
+            "turn_index": 68,
+            "quote": "I got pretty close to this one, but I think I'm out."
+          }
+        ],
+        "later_evidence": [],
+        "condition": null,
+        "reason": "Charles explicitly said he was out during the original pitch. No later target-specific investment or non-investment outcome is established; his later statement about investing under a hypothetical cleaner cap table is not an actual commitment."
+      },
+      {
+        "vc_slug": "elizabeth-yin-hustle-fund",
+        "pitch_decision_supported": true,
+        "later_decision_supported": false,
+        "pitch_evidence": [
+          {
+            "turn_index": 70,
+            "quote": "And so for that reason, I'm out."
+          }
+        ],
+        "later_evidence": [],
+        "condition": null,
+        "reason": "Elizabeth explicitly declined during the original pitch. The transcript does not establish a later investment or non-investment outcome for Elizabeth or Hustle Fund."
+      },
+      {
+        "vc_slug": "mark-phillips-11-tribes-ventures",
+        "pitch_decision_supported": true,
+        "later_decision_supported": true,
+        "pitch_evidence": [
+          {
+            "turn_index": 80,
+            "quote": "I really enjoyed this. and I like it so much that I want to invest 100,000. So I'm in."
+          }
+        ],
+        "later_evidence": [
+          {
+            "turn_index": 199,
+            "quote": "That's 250k from Mark, puts you at 550, 000."
+          }
+        ],
+        "condition": null,
+        "reason": "Mark made an unconditional $100,000 commitment during the original pitch. After diligence, the host explicitly reported $250,000 from Mark, establishing a later investment and increased allocation."
+      },
+      {
+        "vc_slug": "paige-doherty-behind-genius-ventures",
+        "pitch_decision_supported": true,
+        "later_decision_supported": false,
+        "pitch_evidence": [
+          {
+            "turn_index": 73,
+            "quote": "So for that reason, I'm out."
+          }
+        ],
+        "later_evidence": [],
+        "condition": null,
+        "reason": "Paige explicitly declined during the original pitch. No later target-specific investment or non-investment outcome is established for Paige or Behind Genius Ventures."
+      }
+    ]
+  },
+  "annotations": [
+    {
+      "vc_slug": "charles-hudson-precursor-ventures",
+      "pitch_window_decision": "Out",
+      "initial_response": "Out",
+      "decision_context": "initial_panel",
+      "pitch_evidence": [
+        {
+          "turn_index": 68,
+          "quote": "I got pretty close to this one, but I think I'm out."
+        }
+      ],
+      "later_decision": "Unknown",
+      "later_evidence": [],
+      "condition": null,
+      "reason": "Charles explicitly declined during the original pitch. No later investment or non-investment outcome for Charles/Precursor is established.",
+      "proposed_pitch_window_decision": "Out",
+      "evaluation_eligible": true,
+      "review_status": "machine_reviewed_and_verified",
+      "verification_reason": "Charles explicitly said he was out during the original pitch. No later target-specific investment or non-investment outcome is established; his later statement about investing under a hypothetical cleaner cap table is not an actual commitment."
+    },
+    {
+      "vc_slug": "elizabeth-yin-hustle-fund",
+      "pitch_window_decision": "Out",
+      "initial_response": "Out",
+      "decision_context": "initial_panel",
+      "pitch_evidence": [
+        {
+          "turn_index": 70,
+          "quote": "And so for that reason, I'm out."
+        }
+      ],
+      "later_decision": "Unknown",
+      "later_evidence": [],
+      "condition": null,
+      "reason": "Elizabeth explicitly declined during the original pitch. No later investment or non-investment outcome for Elizabeth/Hustle Fund is established.",
+      "proposed_pitch_window_decision": "Out",
+      "evaluation_eligible": true,
+      "review_status": "machine_reviewed_and_verified",
+      "verification_reason": "Elizabeth explicitly declined during the original pitch. The transcript does not establish a later investment or non-investment outcome for Elizabeth or Hustle Fund."
+    },
+    {
+      "vc_slug": "mark-phillips-11-tribes-ventures",
+      "pitch_window_decision": "In",
+      "initial_response": "In",
+      "decision_context": "initial_panel",
+      "pitch_evidence": [
+        {
+          "turn_index": 80,
+          "quote": "I really enjoyed this. and I like it so much that I want to invest 100,000. So I'm in."
+        }
+      ],
+      "later_decision": "In",
+      "later_evidence": [
+        {
+          "turn_index": 199,
+          "quote": "That's 250k from Mark, puts you at 550, 000."
+        }
+      ],
+      "condition": null,
+      "reason": "Mark explicitly committed $100,000 during the original pitch. Later diligence resulted in an increased actual allocation to $250,000.",
+      "proposed_pitch_window_decision": "In",
+      "evaluation_eligible": true,
+      "review_status": "machine_reviewed_and_verified",
+      "verification_reason": "Mark made an unconditional $100,000 commitment during the original pitch. After diligence, the host explicitly reported $250,000 from Mark, establishing a later investment and increased allocation."
+    },
+    {
+      "vc_slug": "paige-doherty-behind-genius-ventures",
+      "pitch_window_decision": "Out",
+      "initial_response": "Out",
+      "decision_context": "initial_panel",
+      "pitch_evidence": [
+        {
+          "turn_index": 73,
+          "quote": "So for that reason, I'm out."
+        }
+      ],
+      "later_decision": "Unknown",
+      "later_evidence": [],
+      "condition": null,
+      "reason": "Paige explicitly declined during the original pitch. No later investment or non-investment outcome for Paige/Behind Genius Ventures is established.",
+      "proposed_pitch_window_decision": "Out",
+      "evaluation_eligible": true,
+      "review_status": "machine_reviewed_and_verified",
+      "verification_reason": "Paige explicitly declined during the original pitch. No later target-specific investment or non-investment outcome is established for Paige or Behind Genius Ventures."
+    }
+  ],
+  "candidate_pitch": "Madeline: Hi guys. Nice to meet you. Can I say hi to all of you. All right guys. This is so much fun. I'm so excited to be here. I'm Madeline Fraser, the founder and CEO of Gemist. Gemist is a B2B vertical SAAS platform that's here to bring the jewelry industry into the digital era. The jewelry industry is one of the largest and most lucrative industries that virtually has no technology innovation. It's very, very traditional. In fact, 75% of the $300 billion global industry is not online. And there are virtually no technology solutions that are catered to the unique pain points of the jewelry industry. Until Gemist. These are tech pieces that we've been building over the last two years, primarily as a D2C brand. They're proven, they're user tested, they work. We officially started selling the tech to the jewelry industry this January. And so with zero dollars in marketing spend, and me as our sales team, we've been able to sign four large jewelry brands just in Q1 of this year, at an annual contract value of over 500k.\nMadeline: And we've built a 30 plus brand wait list that has contract value of over 3 million. So we're doing a $3 million round to really enable us to grow our engineering team, primarily, so that we can take that awesome wait list and actually execute this in a really meaningful way. So right now, it's being led by Entrada Ventures. We have 2 million committed and we're kind of looking to fill that last one million in the next few months here as we get this off the ground.\nMadeline: You wanna see it?\nMadeline: It's such a visual thing. Umm okay. So. The three core solutions are customize, stack and home try on. These are three solutions that essentially can get integrated into online brands' existing websites. So this is customize. It's a design experience that enables consumers to essentially build their own pieces. Stack is visualization on model of multiple pieces, mix, match, style, personalize, see things come to life. And then try on, you can build a try on box, any category of up to 3 products. It's replica pieces that are then sent to your home. You can wear them, feel them, make sure you love them and then check out with confidence.\nInvestor question: Does Gemist enable the replica production?\nMadeline: We do. We also do that.\nMadeline: So we have a manufacturing team in downtown LA, um we've been able to really execute a gorgeous replica. They're made of sterling silver, gold plating and Swarovski crystal, so when you look at them, apples to apples, they look identical and beautiful to the real thing.\nInvestor question: How did you get into this?\nMadeline: I'm actually a three-time founder, so I've been doing this for a very long time. I think like all of my companies, I find a problem and then I get really curious about it and I decide that I have to solve it. And it actually came to me when I was getting engaged in my personal life. I thought I could go online, design what I wanted, try it on. I thought it would take like a week or two, and boy was I wrong. I mean, I couldn't purchase a ring online. And that like literally blew my mind! And I went to downtown LA and met with a random guy in his office and gave him a cash deposit, had no idea what the hell this was gonna look like. And so not having visualization, not having beautiful experiences that support creativity around jewelry is a huge loss to the industry, and it was something that I felt really needed to change.\nInvestor question: Is that what I'm hearing? And then you moved into supporting other jewelers?\nMadeline: Exactly. Exactly. You know, we launched the direct to consumer site with this base technology like right around Covid. And it was interesting, because I saw that shift in the industry, where all these brands were shuffling to get online. and the problem is that the one size fits all models do not work for jewelry.\nMadeline: So the one thing to note also, about the jewelry industry, is if you think of like the top big brands in your brain that equal jewelry - De Beers, Tiffany, Cartier - that's only about 12% of the entire industry. And so the industry is actually primarily made up of the SMB market. So with the SMB side, they're not gonna spend cash up front really willingly. What they are super into and willing to do is revenue share. And with them, we do a monthly licensing fee that's around $1000 a month. And then we pair that with a transaction percentage on anything sold through the Gemist experiences. And that usually ranges between 3 and 10%, depending on how big the company is. uh For larger enterprise companies that are doing 20 million plus in annual revenue, it's the opposite. They're super down to throw down cash, right. [laughter] So we start with implementation fees, anywhere between 30 and 75k. And then we do a higher licensing fee based off of SKUs. And right now, we're looking at an average annual contract value around 100k.\nInvestor question: Does this integrate with their web experience? Does it replace it? How does it fit into their current tech stack?\nMadeline: So right now, we're targeting brands who are already online. They've made that shift, they've spent the time, the money, they all have horror stories of working with like you know Shopify and other, you know, dev teams in - in Prague and things like that. And, you know, they're looking for a way to enhance their current site. Right now it takes about one to two months to integrate and get them live, and we're gonna automate that as we grow and scale. And we are gonna be also offering that entire headless experience of a full website, and at that point we'll be building out payment processing.\nInvestor question: What do you need to do to become the Shopify? Like what level of effort is that to sort of remove the need to have any other platform?\nMadeline: Sure. So we're - we're actually already doing that right now with two of our brand partners. The only thing we're relying on is Shopify for like order processing.\nMadeline: However, my CTO and engineering team is already building that out. We're trying to aim to have that live by the end of the year. So it's not a crazy lift.\nInvestor question: What is involved in that?\nMadeline: Sure. So it takes that long only because we're just doing our first four partners right this second. Our first partner actually just went live this week. They're called Greenwich Street Jewelers. They're a big jewelry brand based in New York City. Once we have their Shopify app live, it's packaged. So then I can then just rinse and repeat that model for every other brand, right. So my CTO and my cofounder Anup Murarka who comes from 30+ years in engineering from Adobe and Apple, he really feels confident that we can get that down to about three weeks as we scale this.\nInvestor question: Can you talk about the sales process with Greenwich?\nMadeline: Ah, it took six weeks to close. I emailed them cold. That's all I'm doing. Literally not kidding. The sales cycles are anywhere between a four and eight weeks. Right now, I'm like, okay. I'm just gonna target the US. And right now there are about 55 to 60,000 retailers just in the United States. So if I take that percentage of ones that are already online. That's about 9000, give or take, brands. So if we can tap into 20% of that, we're already at about 200 million in terms of take home revenue, for Gemist. So it's one of those things where this is something that can really be amazing as a company and very scalable without having crazy market penetration.\nMadeline: I agree. I agree with you. - we'll get it faster and faster, of course. But to me, when I think about how much revenue each partner brings in, and how much revenue these brands are just pulling through their company in general. So I actually think it behooves us to really nurture each partner, make sure that it's a gorgeous experience that's perfect for that brand, and that they feel really like we're a partner. That's the biggest thing. I don't want this to feel transactional. I don't want this to feel too fast, actually. I want it to feel slightly bespoke, slightly hand held, because that's - that's what they want. Right. That's just how jewelry people are. They want trust. They want to talk to you. They wanna, you know, touch you and have a handshake, right. It's a different industry.\nMadeline: Yeah.\nMadeline: Yeah.\nMadeline: No, no. It has margins. It's like a wholesale. So it has at least 50 to 70% margins.\nMadeline: Yes. And that's like - we track anyone who goes in to the experience. And if they go in there and they check out, we get that percentage. If they go in there, they look around, and they go buy something else, we also get a percentage.\nMadeline: Yup. I was just talking with Carter Cast, who's the founding CMO of Blue Nile, and he was telling me that like conversion rates on diamond center stones are .4%.\nMadeline: Yeah. So I think the thing about the current online experiences that are available right now is that their tech isn't wonderful. It's clunky, it's slow, it's overwhelming. So for - great example, you go to Blue Nile, you go to select a diamond. You literally get presented an Excel spreadsheet on a website. [chuckle] Do you know what clarity is? Do you know what fluorescents are? Do you know what ratio means? I barely do and I've been doing this for a while, right. And who wants to see a thousand of anything? Like it just - it makes you like sweaty and nervous. Right. That's what happened to me when I tried to design my ring. I was like, what's happening? This is so bad!\nMadeline: Well, no, because they're - they already technically have a version, it hasn't changed in 10 years. I think they should hire Gemist [laughs] and I think, to me, what it comes down to, is jewelry people trying to build technology. I don't come from jewelry. That's my biggest asset, in my opinion. That's literally the best thing about me, is I can look at this industry - you know what I mean? Like big picture birds eye view and sort of say, hey, this is what's wrong. And not really have an ego about it but just say, let's look at what consumers are doing. Let's test this, let's see what they think.\nInvestor question: How much money have you raised before on this company?\nMadeline: Sure. We did a pre-seed and a seed round. So we did a million in our pre-seed, and 3 million on our seed.\nInvestor question: So you've already raised 4?\nMadeline: Mhm.\nInvestor question: What - so what were the valuations that you raised on for the pre-seed and the seed?\nInvestor question: Can you be specific about where are you at from a revenue perspective?\nMadeline: Yeah. So MRR is about 50k a month, just because we haven't - the brands are going live now, right. So I'm dealing with mainly implementation fees and some licensing. Transaction fees haven't hit yet. So that'll start scaling soon. So we'll at least get to a probably 1 million in ARR by the end of this year. That's a big goal. And then as we scale, before Series A, we'd like to be somewhere between a 5 and 7 million in ARR.\nInvestor question: You think that's a 2024 goal?\n",
+  "pitch": "Madeline: Hi guys. Nice to meet you. Can I say hi to all of you. All right guys. This is so much fun. I'm so excited to be here. I'm Madeline Fraser, the founder and CEO of Gemist. Gemist is a B2B vertical SAAS platform that's here to bring the jewelry industry into the digital era. The jewelry industry is one of the largest and most lucrative industries that virtually has no technology innovation. It's very, very traditional. In fact, 75% of the $300 billion global industry is not online. And there are virtually no technology solutions that are catered to the unique pain points of the jewelry industry. Until Gemist. These are tech pieces that we've been building over the last two years, primarily as a D2C brand. They're proven, they're user tested, they work. We officially started selling the tech to the jewelry industry this January. And so with zero dollars in marketing spend, and me as our sales team, we've been able to sign four large jewelry brands just in Q1 of this year, at an annual contract value of over 500k.\nMadeline: And we've built a 30 plus brand wait list that has contract value of over 3 million. So we're doing a $3 million round to really enable us to grow our engineering team, primarily, so that we can take that awesome wait list and actually execute this in a really meaningful way. So right now, it's being led by Entrada Ventures. We have 2 million committed and we're kind of looking to fill that last one million in the next few months here as we get this off the ground.\nMadeline: You wanna see it?\nMadeline: It's such a visual thing. Umm okay. So. The three core solutions are customize, stack and home try on. These are three solutions that essentially can get integrated into online brands' existing websites. So this is customize. It's a design experience that enables consumers to essentially build their own pieces. Stack is visualization on model of multiple pieces, mix, match, style, personalize, see things come to life. And then try on, you can build a try on box, any category of up to 3 products. It's replica pieces that are then sent to your home. You can wear them, feel them, make sure you love them and then check out with confidence.\nInvestor question: Does Gemist enable the replica production?\nMadeline: We do. We also do that.\nMadeline: So we have a manufacturing team in downtown LA, um we've been able to really execute a gorgeous replica. They're made of sterling silver, gold plating and Swarovski crystal, so when you look at them, apples to apples, they look identical and beautiful to the real thing.\nInvestor question: How did you get into this?\nMadeline: I'm actually a three-time founder, so I've been doing this for a very long time. I think like all of my companies, I find a problem and then I get really curious about it and I decide that I have to solve it. And it actually came to me when I was getting engaged in my personal life. I thought I could go online, design what I wanted, try it on. I thought it would take like a week or two, and boy was I wrong. I mean, I couldn't purchase a ring online. And that like literally blew my mind! And I went to downtown LA and met with a random guy in his office and gave him a cash deposit, had no idea what the hell this was gonna look like. And so not having visualization, not having beautiful experiences that support creativity around jewelry is a huge loss to the industry, and it was something that I felt really needed to change.\nInvestor question: Is that what I'm hearing? And then you moved into supporting other jewelers?\nMadeline: Exactly. Exactly. You know, we launched the direct to consumer site with this base technology like right around Covid. And it was interesting, because I saw that shift in the industry, where all these brands were shuffling to get online. and the problem is that the one size fits all models do not work for jewelry.\nMadeline: So the one thing to note also, about the jewelry industry, is if you think of like the top big brands in your brain that equal jewelry - De Beers, Tiffany, Cartier - that's only about 12% of the entire industry. And so the industry is actually primarily made up of the SMB market. So with the SMB side, they're not gonna spend cash up front really willingly. What they are super into and willing to do is revenue share. And with them, we do a monthly licensing fee that's around $1000 a month. And then we pair that with a transaction percentage on anything sold through the Gemist experiences. And that usually ranges between 3 and 10%, depending on how big the company is. uh For larger enterprise companies that are doing 20 million plus in annual revenue, it's the opposite. They're super down to throw down cash, right. [laughter] So we start with implementation fees, anywhere between 30 and 75k. And then we do a higher licensing fee based off of SKUs. And right now, we're looking at an average annual contract value around 100k.\nInvestor question: Does this integrate with their web experience? Does it replace it? How does it fit into their current tech stack?\nMadeline: So right now, we're targeting brands who are already online. They've made that shift, they've spent the time, the money, they all have horror stories of working with like you know Shopify and other, you know, dev teams in - in Prague and things like that. And, you know, they're looking for a way to enhance their current site. Right now it takes about one to two months to integrate and get them live, and we're gonna automate that as we grow and scale. And we are gonna be also offering that entire headless experience of a full website, and at that point we'll be building out payment processing.\nInvestor question: What do you need to do to become the Shopify? Like what level of effort is that to sort of remove the need to have any other platform?\nMadeline: Sure. So we're - we're actually already doing that right now with two of our brand partners. The only thing we're relying on is Shopify for like order processing.\nMadeline: However, my CTO and engineering team is already building that out. We're trying to aim to have that live by the end of the year. So it's not a crazy lift.\nInvestor question: What is involved in that?\nMadeline: Sure. So it takes that long only because we're just doing our first four partners right this second. Our first partner actually just went live this week. They're called Greenwich Street Jewelers. They're a big jewelry brand based in New York City. Once we have their Shopify app live, it's packaged. So then I can then just rinse and repeat that model for every other brand, right. So my CTO and my cofounder Anup Murarka who comes from 30+ years in engineering from Adobe and Apple, he really feels confident that we can get that down to about three weeks as we scale this.\nInvestor question: Can you talk about the sales process with Greenwich?\nMadeline: Ah, it took six weeks to close. I emailed them cold. That's all I'm doing. Literally not kidding. The sales cycles are anywhere between a four and eight weeks. Right now, I'm like, okay. I'm just gonna target the US. And right now there are about 55 to 60,000 retailers just in the United States. So if I take that percentage of ones that are already online. That's about 9000, give or take, brands. So if we can tap into 20% of that, we're already at about 200 million in terms of take home revenue, for Gemist. So it's one of those things where this is something that can really be amazing as a company and very scalable without having crazy market penetration.\nMadeline: I agree. I agree with you. - we'll get it faster and faster, of course. But to me, when I think about how much revenue each partner brings in, and how much revenue these brands are just pulling through their company in general. So I actually think it behooves us to really nurture each partner, make sure that it's a gorgeous experience that's perfect for that brand, and that they feel really like we're a partner. That's the biggest thing. I don't want this to feel transactional. I don't want this to feel too fast, actually. I want it to feel slightly bespoke, slightly hand held, because that's - that's what they want. Right. That's just how jewelry people are. They want trust. They want to talk to you. They wanna, you know, touch you and have a handshake, right. It's a different industry.\nMadeline: Yeah.\nMadeline: Yeah.\nMadeline: No, no. It has margins. It's like a wholesale. So it has at least 50 to 70% margins.\nMadeline: Yes. And that's like - we track anyone who goes in to the experience. And if they go in there and they check out, we get that percentage. If they go in there, they look around, and they go buy something else, we also get a percentage.\nMadeline: Yup. I was just talking with Carter Cast, who's the founding CMO of Blue Nile, and he was telling me that like conversion rates on diamond center stones are .4%.\nMadeline: Yeah. So I think the thing about the current online experiences that are available right now is that their tech isn't wonderful. It's clunky, it's slow, it's overwhelming. So for - great example, you go to Blue Nile, you go to select a diamond. You literally get presented an Excel spreadsheet on a website. [chuckle] Do you know what clarity is? Do you know what fluorescents are? Do you know what ratio means? I barely do and I've been doing this for a while, right. And who wants to see a thousand of anything? Like it just - it makes you like sweaty and nervous. Right. That's what happened to me when I tried to design my ring. I was like, what's happening? This is so bad!\nMadeline: Well, no, because they're - they already technically have a version, it hasn't changed in 10 years. I think they should hire Gemist [laughs] and I think, to me, what it comes down to, is jewelry people trying to build technology. I don't come from jewelry. That's my biggest asset, in my opinion. That's literally the best thing about me, is I can look at this industry - you know what I mean? Like big picture birds eye view and sort of say, hey, this is what's wrong. And not really have an ego about it but just say, let's look at what consumers are doing. Let's test this, let's see what they think.\nInvestor question: How much money have you raised before on this company?\nMadeline: Sure. We did a pre-seed and a seed round. So we did a million in our pre-seed, and 3 million on our seed.\nInvestor question: So you've already raised 4?\nMadeline: Mhm.\nInvestor question: What - so what were the valuations that you raised on for the pre-seed and the seed?\nInvestor question: Can you be specific about where are you at from a revenue perspective?\nMadeline: Yeah. So MRR is about 50k a month, just because we haven't - the brands are going live now, right. So I'm dealing with mainly implementation fees and some licensing. Transaction fees haven't hit yet. So that'll start scaling soon. So we'll at least get to a probably 1 million in ARR by the end of this year. That's a big goal. And then as we scale, before Series A, we'd like to be somewhere between a 5 and 7 million in ARR.\nInvestor question: You think that's a 2024 goal?\n",
+  "pitch_safe": true,
+  "segments": [
+    {
+      "action": "retained",
+      "attributed_source_line_index": 0,
+      "attributed_source_line_sha256": "96180687ac1c985a1eefad1ac94ac8de558e8182c4d068c3c34aa1d4fa7e923a",
+      "reason": "founder pitch or pre-decision factual answer; preserved factual names for semantic review",
+      "rendered_text": "Madeline: Hi guys. Nice to meet you. Can I say hi to all of you. All right guys. This is so much fun. I'm so excited to be here. I'm Madeline Fraser, the founder and CEO of Gemist. Gemist is a B2B vertical SAAS platform that's here to bring the jewelry industry into the digital era. The jewelry industry is one of the largest and most lucrative industries that virtually has no technology innovation. It's very, very traditional. In fact, 75% of the $300 billion global industry is not online. And there are virtually no technology solutions that are catered to the unique pain points of the jewelry industry. Until Gemist. These are tech pieces that we've been building over the last two years, primarily as a D2C brand. They're proven, they're user tested, they work. We officially started selling the tech to the jewelry industry this January. And so with zero dollars in marketing spend, and me as our sales team, we've been able to sign four large jewelry brands just in Q1 of this year, at an annual contract value of over 500k.",
+      "retained_content_class": "explicit_founder",
+      "preceded_by_investor_decision": false,
+      "source_turn_index": 11,
+      "speaker": "Madeline",
+      "unattributed_continuation_count": 0
+    },
+    {
+      "action": "removed",
+      "attributed_source_line_index": 0,
+      "attributed_source_line_sha256": "b39bad84a899b08e37fe414d2b88753f430f0a13d709e40604af3e4543825dde",
+      "reason": "removed non-founder, evaluative, or unnecessary context",
+      "rendered_text": "",
+      "retained_content_class": null,
+      "preceded_by_investor_decision": false,
+      "source_turn_index": 12,
+      "speaker": "Elizabeth",
+      "unattributed_continuation_count": 0
+    },
+    {
+      "action": "retained",
+      "attributed_source_line_index": 0,
+      "attributed_source_line_sha256": "8e76b4fd8cd6f279fb451af2f92f7e03d639d58aef2ee7f22965b834101dc01c",
+      "reason": "founder pitch or pre-decision factual answer; preserved factual names for semantic review",
+      "rendered_text": "Madeline: And we've built a 30 plus brand wait list that has contract value of over 3 million. So we're doing a $3 million round to really enable us to grow our engineering team, primarily, so that we can take that awesome wait list and actually execute this in a really meaningful way. So right now, it's being led by Entrada Ventures. We have 2 million committed and we're kind of looking to fill that last one million in the next few months here as we get this off the ground.",
+      "retained_content_class": "explicit_founder",
+      "preceded_by_investor_decision": false,
+      "source_turn_index": 13,
+      "speaker": "Madeline",
+      "unattributed_continuation_count": 0
+    },
+    {
+      "action": "removed",
+      "attributed_source_line_index": 0,
+      "attributed_source_line_sha256": "dd39b6f7c885dcbea58f062908da1490b2757fc601500f88cd3079196a4bd451",
+      "reason": "removed non-founder, evaluative, or unnecessary context",
+      "rendered_text": "",
+      "retained_content_class": null,
+      "preceded_by_investor_decision": false,
+      "source_turn_index": 14,
+      "speaker": "Paige",
+      "unattributed_continuation_count": 0
+    },
+    {
+      "action": "retained",
+      "attributed_source_line_index": 0,
+      "attributed_source_line_sha256": "b8efd2afb0a248567902f0d0d98e2feb532075d4abcd442d0a60d585e2d63cfd",
+      "reason": "founder pitch or pre-decision factual answer; removed 1 unattributed continuation line(s); preserved factual names for semantic review",
+      "rendered_text": "Madeline: You wanna see it?",
+      "retained_content_class": "explicit_founder",
+      "preceded_by_investor_decision": false,
+      "source_turn_index": 15,
+      "speaker": "Madeline",
+      "unattributed_continuation_count": 1
+    },
+    {
+      "action": "retained",
+      "attributed_source_line_index": 0,
+      "attributed_source_line_sha256": "8062e62eda2cf29293171ce6cd734738523f3847665f40bdef3eb85ea10bf890",
+      "reason": "founder pitch or pre-decision factual answer; preserved factual names for semantic review",
+      "rendered_text": "Madeline: It's such a visual thing. Umm okay. So. The three core solutions are customize, stack and home try on. These are three solutions that essentially can get integrated into online brands' existing websites. So this is customize. It's a design experience that enables consumers to essentially build their own pieces. Stack is visualization on model of multiple pieces, mix, match, style, personalize, see things come to life. And then try on, you can build a try on box, any category of up to 3 products. It's replica pieces that are then sent to your home. You can wear them, feel them, make sure you love them and then check out with confidence.",
+      "retained_content_class": "explicit_founder",
+      "preceded_by_investor_decision": false,
+      "source_turn_index": 16,
+      "speaker": "Madeline",
+      "unattributed_continuation_count": 0
+    },
+    {
+      "action": "neutralized",
+      "attributed_source_line_index": 0,
+      "attributed_source_line_sha256": "1082386f7f007ad43491276b764941e6d9af899ff6572e0f770c999e77921041",
+      "reason": "neutralized investor question",
+      "rendered_text": "Investor question: Does Gemist enable the replica production?",
+      "retained_content_class": "explicit_investor_question",
+      "preceded_by_investor_decision": false,
+      "source_turn_index": 17,
+      "speaker": "Mark",
+      "unattributed_continuation_count": 0
+    },
+    {
+      "action": "retained",
+      "attributed_source_line_index": 0,
+      "attributed_source_line_sha256": "ff6f8c12bd3b3755297cceb10c3ed731be8831e246a3331de2953ea70cd9063e",
+      "reason": "founder pitch or pre-decision factual answer; preserved factual names for semantic review",
+      "rendered_text": "Madeline: We do. We also do that.",
+      "retained_content_class": "explicit_founder",
+      "preceded_by_investor_decision": false,
+      "source_turn_index": 18,
+      "speaker": "Madeline",
+      "unattributed_continuation_count": 0
+    },
+    {
+      "action": "removed",
+      "attributed_source_line_index": 0,
+      "attributed_source_line_sha256": "b39bad84a899b08e37fe414d2b88753f430f0a13d709e40604af3e4543825dde",
+      "reason": "removed non-founder, evaluative, or unnecessary context",
+      "rendered_text": "",
+      "retained_content_class": null,
+      "preceded_by_investor_decision": false,
+      "source_turn_index": 19,
+      "speaker": "Neal",
+      "unattributed_continuation_count": 0
+    },
+    {
+      "action": "retained",
+      "attributed_source_line_index": 0,
+      "attributed_source_line_sha256": "418576f27eacef89829e5edb37565f302a26535d9be68e2136f2257c428872a5",
+      "reason": "founder pitch or pre-decision factual answer; preserved factual names for semantic review",
+      "rendered_text": "Madeline: So we have a manufacturing team in downtown LA, um we've been able to really execute a gorgeous replica. They're made of sterling silver, gold plating and Swarovski crystal, so when you look at them, apples to apples, they look identical and beautiful to the real thing.",
+      "retained_content_class": "explicit_founder",
+      "preceded_by_investor_decision": false,
+      "source_turn_index": 20,
+      "speaker": "Madeline",
+      "unattributed_continuation_count": 0
+    },
+    {
+      "action": "neutralized",
+      "attributed_source_line_index": 0,
+      "attributed_source_line_sha256": "57b38a12e25ae8ad06444c36c0cc3ffa18f963be0d03333dcdec7a1194915f27",
+      "reason": "neutralized investor question",
+      "rendered_text": "Investor question: How did you get into this?",
+      "retained_content_class": "explicit_investor_question",
+      "preceded_by_investor_decision": false,
+      "source_turn_index": 21,
+      "speaker": "Elizabeth",
+      "unattributed_continuation_count": 0
+    },
+    {
+      "action": "retained",
+      "attributed_source_line_index": 0,
+      "attributed_source_line_sha256": "0a742bb1231ce3fcacaac2ba7d81b8a1b59fbd7648de5c7917a3836fdcc411e9",
+      "reason": "founder pitch or pre-decision factual answer; preserved factual names for semantic review",
+      "rendered_text": "Madeline: I'm actually a three-time founder, so I've been doing this for a very long time. I think like all of my companies, I find a problem and then I get really curious about it and I decide that I have to solve it. And it actually came to me when I was getting engaged in my personal life. I thought I could go online, design what I wanted, try it on. I thought it would take like a week or two, and boy was I wrong. I mean, I couldn't purchase a ring online. And that like literally blew my mind! And I went to downtown LA and met with a random guy in his office and gave him a cash deposit, had no idea what the hell this was gonna look like. And so not having visualization, not having beautiful experiences that support creativity around jewelry is a huge loss to the industry, and it was something that I felt really needed to change.",
+      "retained_content_class": "explicit_founder",
+      "preceded_by_investor_decision": false,
+      "source_turn_index": 22,
+      "speaker": "Madeline",
+      "unattributed_continuation_count": 0
+    },
+    {
+      "action": "neutralized",
+      "attributed_source_line_index": 0,
+      "attributed_source_line_sha256": "f55c99fa16499276acbf3cc98065996650a4bf37510e87b680ec1aa0c002f4e9",
+      "reason": "neutralized investor question",
+      "rendered_text": "Investor question: Is that what I'm hearing? And then you moved into supporting other jewelers?",
+      "retained_content_class": "explicit_investor_question",
+      "preceded_by_investor_decision": false,
+      "source_turn_index": 23,
+      "speaker": "Elizabeth",
+      "unattributed_continuation_count": 0
+    },
+    {
+      "action": "retained",
+      "attributed_source_line_index": 0,
+      "attributed_source_line_sha256": "85f0e3deef5257719a8cd9667759819c39da5bba17336170466dbfc3e0b5a036",
+      "reason": "founder pitch or pre-decision factual answer; preserved factual names for semantic review",
+      "rendered_text": "Madeline: Exactly. Exactly. You know, we launched the direct to consumer site with this base technology like right around Covid. And it was interesting, because I saw that shift in the industry, where all these brands were shuffling to get online. and the problem is that the one size fits all models do not work for jewelry.",
+      "retained_content_class": "explicit_founder",
+      "preceded_by_investor_decision": false,
+      "source_turn_index": 24,
+      "speaker": "Madeline",
+      "unattributed_continuation_count": 0
+    },
+    {
+      "action": "removed",
+      "attributed_source_line_index": 0,
+      "attributed_source_line_sha256": "5f117be0d44a0aa81f7fd153f5503ffc5261e9409d775140d9e559f34e0dc3a1",
+      "reason": "removed non-founder, evaluative, or unnecessary context",
+      "rendered_text": "",
+      "retained_content_class": null,
+      "preceded_by_investor_decision": false,
+      "source_turn_index": 25,
+      "speaker": "Paige",
+      "unattributed_continuation_count": 0
+    },
+    {
+      "action": "retained",
+      "attributed_source_line_index": 0,
+      "attributed_source_line_sha256": "c8df2318ba7b92e29b7d813119732627ffa43c9bf44396517a8635b80b350c52",
+      "reason": "founder pitch or pre-decision factual answer; preserved factual names for semantic review",
+      "rendered_text": "Madeline: So the one thing to note also, about the jewelry industry, is if you think of like the top big brands in your brain that equal jewelry - De Beers, Tiffany, Cartier - that's only about 12% of the entire industry. And so the industry is actually primarily made up of the SMB market. So with the SMB side, they're not gonna spend cash up front really willingly. What they are super into and willing to do is revenue share. And with them, we do a monthly licensing fee that's around $1000 a month. And then we pair that with a transaction percentage on anything sold through the Gemist experiences. And that usually ranges between 3 and 10%, depending on how big the company is. uh For larger enterprise companies that are doing 20 million plus in annual revenue, it's the opposite. They're super down to throw down cash, right. [laughter] So we start with implementation fees, anywhere between 30 and 75k. And then we do a higher licensing fee based off of SKUs. And right now, we're looking at an average annual contract value around 100k.",
+      "retained_content_class": "explicit_founder",
+      "preceded_by_investor_decision": false,
+      "source_turn_index": 26,
+      "speaker": "Madeline",
+      "unattributed_continuation_count": 0
+    },
+    {
+      "action": "neutralized",
+      "attributed_source_line_index": 0,
+      "attributed_source_line_sha256": "71c0677ad533be2e9e38d9c837dbafb086a04437e2d1b6ba25a2ee147008a5eb",
+      "reason": "neutralized investor question",
+      "rendered_text": "Investor question: Does this integrate with their web experience? Does it replace it? How does it fit into their current tech stack?",
+      "retained_content_class": "explicit_investor_question",
+      "preceded_by_investor_decision": false,
+      "source_turn_index": 27,
+      "speaker": "Charles",
+      "unattributed_continuation_count": 0
+    },
+    {
+      "action": "retained",
+      "attributed_source_line_index": 0,
+      "attributed_source_line_sha256": "ec3251645f73606bc1c52071a40ad8c59768a0b00642ba2a8cd12f727f6fc9d2",
+      "reason": "founder pitch or pre-decision factual answer; preserved factual names for semantic review",
+      "rendered_text": "Madeline: So right now, we're targeting brands who are already online. They've made that shift, they've spent the time, the money, they all have horror stories of working with like you know Shopify and other, you know, dev teams in - in Prague and things like that. And, you know, they're looking for a way to enhance their current site. Right now it takes about one to two months to integrate and get them live, and we're gonna automate that as we grow and scale. And we are gonna be also offering that entire headless experience of a full website, and at that point we'll be building out payment processing.",
+      "retained_content_class": "explicit_founder",
+      "preceded_by_investor_decision": false,
+      "source_turn_index": 28,
+      "speaker": "Madeline",
+      "unattributed_continuation_count": 0
+    },
+    {
+      "action": "neutralized",
+      "attributed_source_line_index": 0,
+      "attributed_source_line_sha256": "4560561fe3745387eb95a50a918556dbcfadcee47c500cc940a130da9a6a014f",
+      "reason": "neutralized investor question",
+      "rendered_text": "Investor question: What do you need to do to become the Shopify? Like what level of effort is that to sort of remove the need to have any other platform?",
+      "retained_content_class": "explicit_investor_question",
+      "preceded_by_investor_decision": false,
+      "source_turn_index": 29,
+      "speaker": "Charles",
+      "unattributed_continuation_count": 0
+    },
+    {
+      "action": "retained",
+      "attributed_source_line_index": 0,
+      "attributed_source_line_sha256": "85bdc0b9d334a082076f404c67831a06fd33f80afec09271a300d3435a055d4f",
+      "reason": "founder pitch or pre-decision factual answer; preserved factual names for semantic review",
+      "rendered_text": "Madeline: Sure. So we're - we're actually already doing that right now with two of our brand partners. The only thing we're relying on is Shopify for like order processing.",
+      "retained_content_class": "explicit_founder",
+      "preceded_by_investor_decision": false,
+      "source_turn_index": 30,
+      "speaker": "Madeline",
+      "unattributed_continuation_count": 0
+    },
+    {
+      "action": "removed",
+      "attributed_source_line_index": 0,
+      "attributed_source_line_sha256": "6eaba6ac4f20e504cebb4b04cf388ee07bb17dbcab673b97ba3fc091835b93f5",
+      "reason": "removed non-founder, evaluative, or unnecessary context",
+      "rendered_text": "",
+      "retained_content_class": null,
+      "preceded_by_investor_decision": false,
+      "source_turn_index": 31,
+      "speaker": "Charles",
+      "unattributed_continuation_count": 0
+    },
+    {
+      "action": "retained",
+      "attributed_source_line_index": 0,
+      "attributed_source_line_sha256": "f7d54b9e64f9555bfbefb5b469ae7b60f549a3d323cf4dc4db52a52dcb095c56",
+      "reason": "founder pitch or pre-decision factual answer; preserved factual names for semantic review",
+      "rendered_text": "Madeline: However, my CTO and engineering team is already building that out. We're trying to aim to have that live by the end of the year. So it's not a crazy lift.",
+      "retained_content_class": "explicit_founder",
+      "preceded_by_investor_decision": false,
+      "source_turn_index": 32,
+      "speaker": "Madeline",
+      "unattributed_continuation_count": 0
+    },
+    {
+      "action": "neutralized",
+      "attributed_source_line_index": 0,
+      "attributed_source_line_sha256": "032346f3dc6255024ff1b99de45e29641ae1f16d4b98d54a78202c5be81c1e73",
+      "reason": "neutralized investor question",
+      "rendered_text": "Investor question: What is involved in that?",
+      "retained_content_class": "explicit_investor_question",
+      "preceded_by_investor_decision": false,
+      "source_turn_index": 33,
+      "speaker": "Elizabeth",
+      "unattributed_continuation_count": 0
+    },
+    {
+      "action": "retained",
+      "attributed_source_line_index": 0,
+      "attributed_source_line_sha256": "53c193b2c46d7d87b3dde352fd4e9a67f8a57ddee1c21b929d972ce3826887c5",
+      "reason": "founder pitch or pre-decision factual answer; preserved factual names for semantic review",
+      "rendered_text": "Madeline: Sure. So it takes that long only because we're just doing our first four partners right this second. Our first partner actually just went live this week. They're called Greenwich Street Jewelers. They're a big jewelry brand based in New York City. Once we have their Shopify app live, it's packaged. So then I can then just rinse and repeat that model for every other brand, right. So my CTO and my cofounder Anup Murarka who comes from 30+ years in engineering from Adobe and Apple, he really feels confident that we can get that down to about three weeks as we scale this.",
+      "retained_content_class": "explicit_founder",
+      "preceded_by_investor_decision": false,
+      "source_turn_index": 34,
+      "speaker": "Madeline",
+      "unattributed_continuation_count": 0
+    },
+    {
+      "action": "neutralized",
+      "attributed_source_line_index": 0,
+      "attributed_source_line_sha256": "b67ae1a17ed6cc8ecf20d074464a2384ac278fcaac7c7334ffd493c1ca8a8848",
+      "reason": "neutralized investor question",
+      "rendered_text": "Investor question: Can you talk about the sales process with Greenwich?",
+      "retained_content_class": "explicit_investor_question",
+      "preceded_by_investor_decision": false,
+      "source_turn_index": 35,
+      "speaker": "Mark",
+      "unattributed_continuation_count": 0
+    },
+    {
+      "action": "retained",
+      "attributed_source_line_index": 0,
+      "attributed_source_line_sha256": "27bf2bf8080edee23c1e3089f18516ce7fb51c87f6397ebbaf50a0dbe7a2e4bc",
+      "reason": "founder pitch or pre-decision factual answer; preserved factual names for semantic review",
+      "rendered_text": "Madeline: Ah, it took six weeks to close. I emailed them cold. That's all I'm doing. Literally not kidding. The sales cycles are anywhere between a four and eight weeks. Right now, I'm like, okay. I'm just gonna target the US. And right now there are about 55 to 60,000 retailers just in the United States. So if I take that percentage of ones that are already online. That's about 9000, give or take, brands. So if we can tap into 20% of that, we're already at about 200 million in terms of take home revenue, for Gemist. So it's one of those things where this is something that can really be amazing as a company and very scalable without having crazy market penetration.",
+      "retained_content_class": "explicit_founder",
+      "preceded_by_investor_decision": false,
+      "source_turn_index": 36,
+      "speaker": "Madeline",
+      "unattributed_continuation_count": 0
+    },
+    {
+      "action": "removed",
+      "attributed_source_line_index": 0,
+      "attributed_source_line_sha256": "b55f61c00c0b291aa00d7941fd790c212d1bd4dc6a919077e6642bbd2890ff54",
+      "reason": "removed non-founder, evaluative, or unnecessary context",
+      "rendered_text": "",
+      "retained_content_class": null,
+      "preceded_by_investor_decision": false,
+      "source_turn_index": 37,
+      "speaker": "Elizabeth",
+      "unattributed_continuation_count": 0
+    },
+    {
+      "action": "retained",
+      "attributed_source_line_index": 0,
+      "attributed_source_line_sha256": "52e217bb631b3c37540ad83bfd4684f875d29b4c629a89db08fef653201da87c",
+      "reason": "founder pitch or pre-decision factual answer; preserved factual names for semantic review",
+      "rendered_text": "Madeline: I agree. I agree with you. - we'll get it faster and faster, of course. But to me, when I think about how much revenue each partner brings in, and how much revenue these brands are just pulling through their company in general. So I actually think it behooves us to really nurture each partner, make sure that it's a gorgeous experience that's perfect for that brand, and that they feel really like we're a partner. That's the biggest thing. I don't want this to feel transactional. I don't want this to feel too fast, actually. I want it to feel slightly bespoke, slightly hand held, because that's - that's what they want. Right. That's just how jewelry people are. They want trust. They want to talk to you. They wanna, you know, touch you and have a handshake, right. It's a different industry.",
+      "retained_content_class": "explicit_founder",
+      "preceded_by_investor_decision": false,
+      "source_turn_index": 38,
+      "speaker": "Madeline",
+      "unattributed_continuation_count": 0
+    },
+    {
+      "action": "removed",
+      "attributed_source_line_index": 0,
+      "attributed_source_line_sha256": "ebdc401abbbac40417b99173ba23ee0cfd5230d0a975f01052fddcca4e3cb30c",
+      "reason": "removed non-founder, evaluative, or unnecessary context",
+      "rendered_text": "",
+      "retained_content_class": null,
+      "preceded_by_investor_decision": false,
+      "source_turn_index": 39,
+      "speaker": "Elizabeth",
+      "unattributed_continuation_count": 0
+    },
+    {
+      "action": "retained",
+      "attributed_source_line_index": 0,
+      "attributed_source_line_sha256": "85fec70372b092bb42d021a6d1b373081dde8bcf90feb49e0725e285043fb0ad",
+      "reason": "founder pitch or pre-decision factual answer; preserved factual names for semantic review",
+      "rendered_text": "Madeline: Yeah.",
+      "retained_content_class": "explicit_founder",
+      "preceded_by_investor_decision": false,
+      "source_turn_index": 40,
+      "speaker": "Madeline",
+      "unattributed_continuation_count": 0
+    },
+    {
+      "action": "removed",
+      "attributed_source_line_index": 0,
+      "attributed_source_line_sha256": "d6b5ad1700cf34268d0b288202a0823fbd1c4f6e9b9445b6aafa912e7f67ebb6",
+      "reason": "removed non-founder, evaluative, or unnecessary context",
+      "rendered_text": "",
+      "retained_content_class": null,
+      "preceded_by_investor_decision": false,
+      "source_turn_index": 41,
+      "speaker": "Elizabeth",
+      "unattributed_continuation_count": 0
+    },
+    {
+      "action": "retained",
+      "attributed_source_line_index": 0,
+      "attributed_source_line_sha256": "85fec70372b092bb42d021a6d1b373081dde8bcf90feb49e0725e285043fb0ad",
+      "reason": "founder pitch or pre-decision factual answer; preserved factual names for semantic review",
+      "rendered_text": "Madeline: Yeah.",
+      "retained_content_class": "explicit_founder",
+      "preceded_by_investor_decision": false,
+      "source_turn_index": 42,
+      "speaker": "Madeline",
+      "unattributed_continuation_count": 0
+    },
+    {
+      "action": "removed",
+      "attributed_source_line_index": 0,
+      "attributed_source_line_sha256": "1cbafb1f9c8dd64c3075aa2a0adde253a215574cf2aad29b0bd4cd2998c2f4d1",
+      "reason": "removed non-founder, evaluative, or unnecessary context",
+      "rendered_text": "",
+      "retained_content_class": null,
+      "preceded_by_investor_decision": false,
+      "source_turn_index": 43,
+      "speaker": "Elizabeth",
+      "unattributed_continuation_count": 0
+    },
+    {
+      "action": "retained",
+      "attributed_source_line_index": 0,
+      "attributed_source_line_sha256": "6110c2296043f589872280be257427fc7deaa177ea99a1d64c40ae61ac2f774e",
+      "reason": "founder pitch or pre-decision factual answer; preserved factual names for semantic review",
+      "rendered_text": "Madeline: No, no. It has margins. It's like a wholesale. So it has at least 50 to 70% margins.",
+      "retained_content_class": "explicit_founder",
+      "preceded_by_investor_decision": false,
+      "source_turn_index": 44,
+      "speaker": "Madeline",
+      "unattributed_continuation_count": 0
+    },
+    {
+      "action": "removed",
+      "attributed_source_line_index": 0,
+      "attributed_source_line_sha256": "b39bad84a899b08e37fe414d2b88753f430f0a13d709e40604af3e4543825dde",
+      "reason": "removed non-founder, evaluative, or unnecessary context",
+      "rendered_text": "",
+      "retained_content_class": null,
+      "preceded_by_investor_decision": false,
+      "source_turn_index": 45,
+      "speaker": "Mark",
+      "unattributed_continuation_count": 0
+    },
+    {
+      "action": "removed",
+      "attributed_source_line_index": 0,
+      "attributed_source_line_sha256": "b4bbc2df1e03e7e15bc9de9e1dfbc4698b721f5b5d463fc7baeecf8d1a5722df",
+      "reason": "removed non-founder, evaluative, or unnecessary context",
+      "rendered_text": "",
+      "retained_content_class": null,
+      "preceded_by_investor_decision": false,
+      "source_turn_index": 46,
+      "speaker": "Elizabeth",
+      "unattributed_continuation_count": 0
+    },
+    {
+      "action": "retained",
+      "attributed_source_line_index": 0,
+      "attributed_source_line_sha256": "d1ead8e8f3ccd97f3c67fcb077ed71632ff6aab2b5299fda278630f6f2f9d42a",
+      "reason": "founder pitch or pre-decision factual answer; preserved factual names for semantic review",
+      "rendered_text": "Madeline: Yes. And that's like - we track anyone who goes in to the experience. And if they go in there and they check out, we get that percentage. If they go in there, they look around, and they go buy something else, we also get a percentage.",
+      "retained_content_class": "explicit_founder",
+      "preceded_by_investor_decision": false,
+      "source_turn_index": 47,
+      "speaker": "Madeline",
+      "unattributed_continuation_count": 0
+    },
+    {
+      "action": "removed",
+      "attributed_source_line_index": 0,
+      "attributed_source_line_sha256": "2ef2ee1f1d5aa6dcbb5e53e2863ca6b77a5fb7da903a12d524afaabebc3f07b8",
+      "reason": "removed non-founder, evaluative, or unnecessary context; removed 1 unattributed continuation line(s)",
+      "rendered_text": "",
+      "retained_content_class": null,
+      "preceded_by_investor_decision": false,
+      "source_turn_index": 48,
+      "speaker": "Elizabeth",
+      "unattributed_continuation_count": 1
+    },
+    {
+      "action": "removed",
+      "attributed_source_line_index": 0,
+      "attributed_source_line_sha256": "9aba55a80b053534c8fd6b6d2bd9962b6ce505197b93d931260c83ec39726426",
+      "reason": "removed non-founder, evaluative, or unnecessary context",
+      "rendered_text": "",
+      "retained_content_class": null,
+      "preceded_by_investor_decision": false,
+      "source_turn_index": 49,
+      "speaker": "Mark",
+      "unattributed_continuation_count": 0
+    },
+    {
+      "action": "retained",
+      "attributed_source_line_index": 0,
+      "attributed_source_line_sha256": "1913ce7b03ff6e1aac4bb64cdb9107f02acbcf8f92ef88aed6d1880f12e89766",
+      "reason": "founder pitch or pre-decision factual answer; preserved factual names for semantic review",
+      "rendered_text": "Madeline: Yup. I was just talking with Carter Cast, who's the founding CMO of Blue Nile, and he was telling me that like conversion rates on diamond center stones are .4%.",
+      "retained_content_class": "explicit_founder",
+      "preceded_by_investor_decision": false,
+      "source_turn_index": 50,
+      "speaker": "Madeline",
+      "unattributed_continuation_count": 0
+    },
+    {
+      "action": "removed",
+      "attributed_source_line_index": 0,
+      "attributed_source_line_sha256": "b39bad84a899b08e37fe414d2b88753f430f0a13d709e40604af3e4543825dde",
+      "reason": "removed non-founder, evaluative, or unnecessary context",
+      "rendered_text": "",
+      "retained_content_class": null,
+      "preceded_by_investor_decision": false,
+      "source_turn_index": 51,
+      "speaker": "Neal",
+      "unattributed_continuation_count": 0
+    },
+    {
+      "action": "removed",
+      "attributed_source_line_index": 0,
+      "attributed_source_line_sha256": "b6d92b2357385bf3709addabdf01e4f2b3232ccab555a7b54a6d9cc2e9bbc2cf",
+      "reason": "removed non-founder, evaluative, or unnecessary context",
+      "rendered_text": "",
+      "retained_content_class": null,
+      "preceded_by_investor_decision": false,
+      "source_turn_index": 52,
+      "speaker": "Elizabeth",
+      "unattributed_continuation_count": 0
+    },
+    {
+      "action": "removed",
+      "attributed_source_line_index": 0,
+      "attributed_source_line_sha256": "2021273823502d31e19693862fe1dd537fc35cef5e43acfe78f4206f53675dfc",
+      "reason": "removed non-founder, evaluative, or unnecessary context",
+      "rendered_text": "",
+      "retained_content_class": null,
+      "preceded_by_investor_decision": false,
+      "source_turn_index": 54,
+      "speaker": "Paige",
+      "unattributed_continuation_count": 0
+    },
+    {
+      "action": "retained",
+      "attributed_source_line_index": 0,
+      "attributed_source_line_sha256": "bde395aae02ff7b2c8e914fd4dc7c652f0b9eea9d031ef754a1f1a30c314dab7",
+      "reason": "founder pitch or pre-decision factual answer; preserved factual names for semantic review",
+      "rendered_text": "Madeline: Yeah. So I think the thing about the current online experiences that are available right now is that their tech isn't wonderful. It's clunky, it's slow, it's overwhelming. So for - great example, you go to Blue Nile, you go to select a diamond. You literally get presented an Excel spreadsheet on a website. [chuckle] Do you know what clarity is? Do you know what fluorescents are? Do you know what ratio means? I barely do and I've been doing this for a while, right. And who wants to see a thousand of anything? Like it just - it makes you like sweaty and nervous. Right. That's what happened to me when I tried to design my ring. I was like, what's happening? This is so bad!",
+      "retained_content_class": "explicit_founder",
+      "preceded_by_investor_decision": false,
+      "source_turn_index": 55,
+      "speaker": "Madeline",
+      "unattributed_continuation_count": 0
+    },
+    {
+      "action": "removed",
+      "attributed_source_line_index": 0,
+      "attributed_source_line_sha256": "854b223099cc65a43f9baaab4c78e043777d6c243c6a3941b89676593ec5b705",
+      "reason": "removed non-founder, evaluative, or unnecessary context",
+      "rendered_text": "",
+      "retained_content_class": null,
+      "preceded_by_investor_decision": false,
+      "source_turn_index": 56,
+      "speaker": "Paige",
+      "unattributed_continuation_count": 0
+    },
+    {
+      "action": "retained",
+      "attributed_source_line_index": 0,
+      "attributed_source_line_sha256": "7b903264ab21e36c780e703b8f19349b04850588974258ff8961261c64e7f9a5",
+      "reason": "founder pitch or pre-decision factual answer; preserved factual names for semantic review",
+      "rendered_text": "Madeline: Well, no, because they're - they already technically have a version, it hasn't changed in 10 years. I think they should hire Gemist [laughs] and I think, to me, what it comes down to, is jewelry people trying to build technology. I don't come from jewelry. That's my biggest asset, in my opinion. That's literally the best thing about me, is I can look at this industry - you know what I mean? Like big picture birds eye view and sort of say, hey, this is what's wrong. And not really have an ego about it but just say, let's look at what consumers are doing. Let's test this, let's see what they think.",
+      "retained_content_class": "explicit_founder",
+      "preceded_by_investor_decision": false,
+      "source_turn_index": 57,
+      "speaker": "Madeline",
+      "unattributed_continuation_count": 0
+    },
+    {
+      "action": "neutralized",
+      "attributed_source_line_index": 0,
+      "attributed_source_line_sha256": "6c2f431cbfc0ad9a38658f762c941bf638908fb72b42433d6e16a41301183ed2",
+      "reason": "neutralized investor question",
+      "rendered_text": "Investor question: How much money have you raised before on this company?",
+      "retained_content_class": "explicit_investor_question",
+      "preceded_by_investor_decision": false,
+      "source_turn_index": 58,
+      "speaker": "Elizabeth",
+      "unattributed_continuation_count": 0
+    },
+    {
+      "action": "retained",
+      "attributed_source_line_index": 0,
+      "attributed_source_line_sha256": "17ff50e868627aa2b4390b63f8e54510bce12d946613fa15598f3a3fdefc3f21",
+      "reason": "founder pitch or pre-decision factual answer; preserved factual names for semantic review",
+      "rendered_text": "Madeline: Sure. We did a pre-seed and a seed round. So we did a million in our pre-seed, and 3 million on our seed.",
+      "retained_content_class": "explicit_founder",
+      "preceded_by_investor_decision": false,
+      "source_turn_index": 59,
+      "speaker": "Madeline",
+      "unattributed_continuation_count": 0
+    },
+    {
+      "action": "neutralized",
+      "attributed_source_line_index": 0,
+      "attributed_source_line_sha256": "53ff1cd20902edc619c62cc83d8429999d574566f8dd17915240b8ab7b7340d3",
+      "reason": "neutralized investor question",
+      "rendered_text": "Investor question: So you've already raised 4?",
+      "retained_content_class": "explicit_investor_question",
+      "preceded_by_investor_decision": false,
+      "source_turn_index": 60,
+      "speaker": "Elizabeth",
+      "unattributed_continuation_count": 0
+    },
+    {
+      "action": "retained",
+      "attributed_source_line_index": 0,
+      "attributed_source_line_sha256": "d7c7f27d89452830c26e9e8caab37a4dce6e9d31e21f4f6d5adc94ff60761e16",
+      "reason": "founder pitch or pre-decision factual answer; preserved factual names for semantic review",
+      "rendered_text": "Madeline: Mhm.",
+      "retained_content_class": "explicit_founder",
+      "preceded_by_investor_decision": false,
+      "source_turn_index": 61,
+      "speaker": "Madeline",
+      "unattributed_continuation_count": 0
+    },
+    {
+      "action": "neutralized",
+      "attributed_source_line_index": 0,
+      "attributed_source_line_sha256": "7fc762d710a2e1e33ba5287129d84603169a819884e00f63fd3d00036da3c596",
+      "reason": "neutralized investor question",
+      "rendered_text": "Investor question: What - so what were the valuations that you raised on for the pre-seed and the seed?",
+      "retained_content_class": "explicit_investor_question",
+      "preceded_by_investor_decision": false,
+      "source_turn_index": 62,
+      "speaker": "Paige",
+      "unattributed_continuation_count": 0
+    },
+    {
+      "action": "neutralized",
+      "attributed_source_line_index": 0,
+      "attributed_source_line_sha256": "57e8388964ba91c219a02dcbaac258cede02ed84504c21f96d7bbcaff7d1ce77",
+      "reason": "neutralized investor question",
+      "rendered_text": "Investor question: Can you be specific about where are you at from a revenue perspective?",
+      "retained_content_class": "explicit_investor_question",
+      "preceded_by_investor_decision": false,
+      "source_turn_index": 64,
+      "speaker": "Mark",
+      "unattributed_continuation_count": 0
+    },
+    {
+      "action": "retained",
+      "attributed_source_line_index": 0,
+      "attributed_source_line_sha256": "f25328981b8cede520db62b9cde135b6d282c70ffa3943d34375f565c06bc548",
+      "reason": "founder pitch or pre-decision factual answer; preserved factual names for semantic review",
+      "rendered_text": "Madeline: Yeah. So MRR is about 50k a month, just because we haven't - the brands are going live now, right. So I'm dealing with mainly implementation fees and some licensing. Transaction fees haven't hit yet. So that'll start scaling soon. So we'll at least get to a probably 1 million in ARR by the end of this year. That's a big goal. And then as we scale, before Series A, we'd like to be somewhere between a 5 and 7 million in ARR.",
+      "retained_content_class": "explicit_founder",
+      "preceded_by_investor_decision": false,
+      "source_turn_index": 65,
+      "speaker": "Madeline",
+      "unattributed_continuation_count": 0
+    },
+    {
+      "action": "neutralized",
+      "attributed_source_line_index": 0,
+      "attributed_source_line_sha256": "69d4e1044049ab595752b04d6fac428909b68d5ece07ac7bc65f6c3906d0565b",
+      "reason": "neutralized investor question",
+      "rendered_text": "Investor question: You think that's a 2024 goal?",
+      "retained_content_class": "explicit_investor_question",
+      "preceded_by_investor_decision": false,
+      "source_turn_index": 66,
+      "speaker": "Mark",
+      "unattributed_continuation_count": 0
+    }
+  ],
+  "removed_candidate_lines": [],
+  "pitch_sha256": "fdf7398db4bacada462f627551a212be870b03a6d0becea0135da1c7aaaedb9d",
+  "fingerprint": "0ae598775e545f31335907fff5ae1aa37db9b42354c59ef5a2c18f0383ded85b",
+  "model": "openai/gpt-5.6-luna",
+  "calls": [
+    {
+      "phase": "evaluation_review",
+      "parsed": {
+        "episode_kind": "pitch",
+        "founder_speakers": [
+          "Madeline"
+        ],
+        "pitch_start_turn": 11,
+        "pitch_end_turn": 67,
+        "excluded_turns": [
+          53,
+          63
+        ],
+        "boundary_reason": "The original pitch begins with Madeline's founder presentation at turn 11, after the teaser, investor introductions, and pre-pitch banter. Turns 53 and 63 contain embedded host commentary and outcome-oriented narration, so they are excluded. The pitch window ends at turn 67, immediately before the first investor decision at turn 68.",
+        "decisions": [
+          {
+            "vc_slug": "charles-hudson-precursor-ventures",
+            "pitch_window_decision": "Out",
+            "initial_response": "Out",
+            "decision_context": "initial_panel",
+            "pitch_evidence": [
+              {
+                "turn_index": 68,
+                "quote": "I got pretty close to this one, but I think I'm out."
+              }
+            ],
+            "later_decision": "Unknown",
+            "later_evidence": [],
+            "condition": null,
+            "reason": "Charles explicitly declined during the original pitch. No later investment or non-investment outcome for Charles/Precursor is established."
+          },
+          {
+            "vc_slug": "elizabeth-yin-hustle-fund",
+            "pitch_window_decision": "Out",
+            "initial_response": "Out",
+            "decision_context": "initial_panel",
+            "pitch_evidence": [
+              {
+                "turn_index": 70,
+                "quote": "And so for that reason, I'm out."
+              }
+            ],
+            "later_decision": "Unknown",
+            "later_evidence": [],
+            "condition": null,
+            "reason": "Elizabeth explicitly declined during the original pitch. No later investment or non-investment outcome for Elizabeth/Hustle Fund is established."
+          },
+          {
+            "vc_slug": "mark-phillips-11-tribes-ventures",
+            "pitch_window_decision": "In",
+            "initial_response": "In",
+            "decision_context": "initial_panel",
+            "pitch_evidence": [
+              {
+                "turn_index": 80,
+                "quote": "I really enjoyed this. and I like it so much that I want to invest 100,000. So I'm in."
+              }
+            ],
+            "later_decision": "In",
+            "later_evidence": [
+              {
+                "turn_index": 199,
+                "quote": "So we got 300, 000 from Neil. That's 250k from Mark, puts you at 550, 000."
+              }
+            ],
+            "condition": null,
+            "reason": "Mark explicitly committed $100,000 during the original pitch. Later diligence resulted in an increased actual allocation to $250,000."
+          },
+          {
+            "vc_slug": "paige-doherty-behind-genius-ventures",
+            "pitch_window_decision": "Out",
+            "initial_response": "Out",
+            "decision_context": "initial_panel",
+            "pitch_evidence": [
+              {
+                "turn_index": 73,
+                "quote": "So for that reason, I'm out."
+              }
+            ],
+            "later_decision": "Unknown",
+            "later_evidence": [],
+            "condition": null,
+            "reason": "Paige explicitly declined during the original pitch. No later investment or non-investment outcome for Paige/Behind Genius Ventures is established."
+          }
+        ]
+      },
+      "usage": {
+        "input_tokens": 12975,
+        "cached_input_tokens": 0,
+        "output_tokens": 2644,
+        "cost_usd": 0.0064164
+      },
+      "elapsed_seconds": 26.078166488558054
+    },
+    {
+      "phase": "evaluation_verify",
+      "parsed": {
+        "boundary_supported": true,
+        "remove_lines": [],
+        "safe_after_removal": true,
+        "reason": "The proposed pitch begins at turn 11 after the teaser, introductions, and pre-pitch banter. Its factual-content window through turn 67 ends before Charles's first refusal at turn 68, and turns 53 and 63 appropriately exclude embedded host commentary. All candidate lines are pre-decision founder facts or neutral questions; prior fundraising facts are legitimate and should not be removed.",
+        "decisions": [
+          {
+            "vc_slug": "charles-hudson-precursor-ventures",
+            "pitch_decision_supported": true,
+            "later_decision_supported": false,
+            "pitch_evidence": [
+              {
+                "turn_index": 68,
+                "quote": "I got pretty close to this one, but I think I'm out."
+              }
+            ],
+            "later_evidence": [],
+            "condition": null,
+            "reason": "Charles explicitly said he was out during the original pitch. No later target-specific investment or non-investment outcome is established; his later statement about investing under a hypothetical cleaner cap table is not an actual commitment."
+          },
+          {
+            "vc_slug": "elizabeth-yin-hustle-fund",
+            "pitch_decision_supported": true,
+            "later_decision_supported": false,
+            "pitch_evidence": [
+              {
+                "turn_index": 70,
+                "quote": "And so for that reason, I'm out."
+              }
+            ],
+            "later_evidence": [],
+            "condition": null,
+            "reason": "Elizabeth explicitly declined during the original pitch. The transcript does not establish a later investment or non-investment outcome for Elizabeth or Hustle Fund."
+          },
+          {
+            "vc_slug": "mark-phillips-11-tribes-ventures",
+            "pitch_decision_supported": true,
+            "later_decision_supported": true,
+            "pitch_evidence": [
+              {
+                "turn_index": 80,
+                "quote": "I really enjoyed this. and I like it so much that I want to invest 100,000. So I'm in."
+              }
+            ],
+            "later_evidence": [
+              {
+                "turn_index": 199,
+                "quote": "That's 250k from Mark, puts you at 550, 000."
+              }
+            ],
+            "condition": null,
+            "reason": "Mark made an unconditional $100,000 commitment during the original pitch. After diligence, the host explicitly reported $250,000 from Mark, establishing a later investment and increased allocation."
+          },
+          {
+            "vc_slug": "paige-doherty-behind-genius-ventures",
+            "pitch_decision_supported": true,
+            "later_decision_supported": false,
+            "pitch_evidence": [
+              {
+                "turn_index": 73,
+                "quote": "So for that reason, I'm out."
+              }
+            ],
+            "later_evidence": [],
+            "condition": null,
+            "reason": "Paige explicitly declined during the original pitch. No later target-specific investment or non-investment outcome is established for Paige or Behind Genius Ventures."
+          }
+        ]
+      },
+      "usage": {
+        "input_tokens": 16341,
+        "cached_input_tokens": 0,
+        "output_tokens": 5203,
+        "cost_usd": 0.0103287
+      },
+      "elapsed_seconds": 42.996869657188654
+    }
+  ],
+  "reused_review": true
+}

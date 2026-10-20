@@ -1,320 +1,598 @@
 # investor_fit_constraints
 
-[ev:charles-0005] label=fund_economics_constraint direction=neutral source=talk:dwbsWLyECNc
-> "So if you do the math, we need to deliver somewhere between three and a half and seven billion dollars in gross outcomes. In order for that math to work. So I need like two nests. or like four YouTubes."
+Verbatim transcript excerpts; whitespace normalized. Labels describe the cited statement.
 
-[ev:charles-0006] label=founder_investor_vision_alignment direction=positive source=talk:dwbsWLyECNc
-> "But I need to know that that founder has an idea that's bigger than one product. It's bigger than the thing that they're doing today. And they could eventually turn into a really big market."
+[ev:charles-hudson-precursor-ventures-0076] label=investment_thesis_constraint direction=positive source=full:486ad290504c497b5a8698c7
+> "I think the other thing, I didn’t appreciate at the time, but there was this sort of openness to the idea that good ideas could come from anywhere."
 
-[ev:charles-0009] label=investment_thesis_constraint direction=neutral source=talk:dwbsWLyECNc
-> "There's some things, like I don't invest in games anymore. I spend five years working in games. It's a brutally hard business. I don't want to invest in game studios... Ad tech is kind of the same way. I like ad tech. I have enough ad tech exposure in my portfolio. I don't really want any more advertising technology companies."
+Support: explicit. Interpretation: He values geographic openness and does not assume strong startup ideas originate only in established hubs.
 
-[ev:charles-0010] label=investor_domain_knowledge_constraint direction=negative source=talk:dwbsWLyECNc
-> "I'm not that smart about healthcare. I wouldn't even opine. Seriously, I'm not smart enough to opine about healthcare companies. It's a different beast."
+[ev:charles-hudson-precursor-ventures-0077] label=investment_thesis_constraint direction=neutral source=full:486ad290504c497b5a8698c7
+> "We are here to help them from zero to one, from the time that they have the idea to the time that we’re pretty sure that the idea is working and has merit."
 
-[ev:charles-0011] label=investment_thesis_constraint direction=neutral source=talk:dwbsWLyECNc
-> "I tend to be more founder driven. So the last two investments I've made. We're both in markets where I wasn't looking for a company. I just found an amazing founding team that I really liked and they got me excited about a market that I didn't really think was that awesome."
+Support: explicit. Interpretation: He defines Precursor's focus as the idea-stage through initial validation period.
 
-[ev:charles-0026] label=portfolio_conflict_constraint direction=negative source=talk:dwbsWLyECNc
-> "we try to do everything in our power to avoid portfolio conflict. It's so messy... At the end of the day, we believe the sort of tie goes to the runner. So if we're at all uncomfortable and our portfolio company has legitimate gripes, we will walk away."
+[ev:charles-hudson-precursor-ventures-0078] label=investor_value_add_fit direction=positive source=full:486ad290504c497b5a8698c7
+> "Some of that’s helping them with fundraising. Some of that is helping them plug into a founder community that can give them some hands-on founder-to-founder advice because I think that is a really important consideration. And the third one is to have a relationship with me such that I can hopefully earn their trust so that when they need valuable advice, they’ll know that it’s coming from someone who cares about them."
 
-[ev:charles-0029] label=decision_context_constraint direction=neutral source=talk:dwbsWLyECNc
-> "And our rule of thumb is every time you work on a company, you have to like it as much or more than you did the last time you touched it. Because if you lose momentum or you lose enthusiasm, even if you can't put your finger on why... you're probably not going to make it."
+Support: explicit. Interpretation: He defines Precursor's value-add as fundraising support, founder-community access, and trusted personal advice.
 
-[ev:charles-0030] label=investor_experience_bias direction=negative source=talk:dwbsWLyECNc
-> "I saw Stripes pitch at YC. And I was like, credit card processing on the internet? That's like a solved thing, right?... But I should've realized, like, I'm not a software developer. The Collison brothers are software developers. They were saying, this is actually a really big problem. I just, I didn't see it."
+[ev:charles-hudson-precursor-ventures-0079] label=investor_value_add_fit direction=neutral source=full:486ad290504c497b5a8698c7
+> "And so it turns out from pre-seed to Series A, we’re pretty helpful to people based on what they tell us. And once you get beyond that, there are other people."
 
-[ev:charles-0037] label=founder_investor_vision_alignment direction=positive source=talk:fRaBiOI4oc8
-> "So you have to able to articulate kind of a vision of the future that's super exciting and why your company's position at the center of it."
+Support: explicit. Interpretation: He believes the firm's strongest support fit runs from pre-seed through Series A rather than later stages.
 
-[ev:charles-0038] label=fund_economics_constraint direction=neutral source=talk:fRaBiOI4oc8
-> "I do five to six investments a year. If I spent my whole year come up with like a really deep thesis that only produces one company. I'm in trouble. I tend to be more family driven... I view myself as kind of an idea taker. I don't tell founders what they should build."
+[ev:charles-hudson-precursor-ventures-0081] label=fund_economics_constraint direction=neutral source=full:486ad290504c497b5a8698c7
+> "Just because we’re not giving people so much money that they could live forever. So you do have to pick a good idea. But it doesn’t have to be perfect."
 
-[ev:charles-0039] label=investment_thesis_constraint direction=negative source=talk:fRaBiOI4oc8
-> "There's some things, like I don't invest in games anymore. I spend five years working in games. It's a brutally hard business... Ad tech is kind of the same way. I like ad tech. I have enough ad tech exposure in my portfolio. I don't really want any more advertising technology companies."
+Support: explicit. Interpretation: Because the firm provides limited early-stage capital, he still requires a sufficiently good initial idea but not a perfected one.
 
-[ev:charles-0049] label=founder_investor_vision_alignment direction=positive source=talk:fRaBiOI4oc8
-> "Part of it to me is that you got to tell me the story about winning. And if you say the way to win is to do X, Y, and Z, and we think the path to winning is to build the highest quality product... you gotta tie it all together. Because I think most investors in the end want to know that you're going to build the winning company in the category."
+[ev:charles-hudson-precursor-ventures-0082] label=investor_domain_knowledge_constraint direction=negative source=full:486ad290504c497b5a8698c7
+> "the idea matters, but don’t put so much weight on your subjective view of the idea unless you really know what you’re talking about."
 
-[ev:charles-0051] label=portfolio_conflict_constraint direction=negative source=talk:fRaBiOI4oc8
-> "We try to do everything in our power to avoid portfolio conflict. It's so messy... At the end of the day, we believe the sort of tie goes to the runner. So if we're at all uncomfortable and our portfolio company has legitimate gripes, we will walk away."
+Support: explicit. Interpretation: He cautions investors against heavily weighting their subjective idea judgment when they lack genuine domain knowledge.
 
-[ev:charles-0053] label=investor_domain_knowledge_constraint direction=negative source=talk:fRaBiOI4oc8
-> "I'll tell you the big one that I regret, we didn't give him a term sheet, I saw Stripes pitch at YC. And I was like, credit card processing on the internet? That's like a solved thing, right?... But I should have realized that I'm not a software developer. The Collison brothers are software developers."
+[ev:charles-hudson-precursor-ventures-0091] label=fund_economics_constraint direction=positive source=full:d2217ce352954106e56f41ae
+> "Be in the top 5-10% of opportunities in that VC’s pipeline of companies"
 
-[ev:charles-0066] label=investment_thesis_constraint direction=neutral source=talk:Da4p5hOSGxc
-> "I don't have any deep conviction about one category where I'd wanna specialize... All of the firms that I really admire are generalist firms. As a pre-state investor, I'm mostly picking people."
+Support: explicit. Interpretation: A company generally must rank among the strongest opportunities competing for a VC's limited allocations.
 
-[ev:charles-0075] label=investment_thesis_constraint direction=neutral source=talk:r0JyEuZhcbo
-> "I'm a generalist by nature. I've spent about half my career working in consumer and about half my career working in B2B. So I'm a generalist and ... my goal is to broadly invest in sort of software on both the b2b and b2c side."
+[ev:charles-hudson-precursor-ventures-0105] label=decision_context_constraint direction=neutral source=full:8fde14eee76e05b770cf359d
+> "Some people who said “no” in one context said “yes” in another context."
 
-[ev:charles-0079] label=investment_thesis_constraint direction=positive source=talk:a6HbJIku9gs
-> "almost all of my success as a VC has been in that lower left bucket. It's been people I didn't know very well who were super early. ... I can actually tell LPs we're doing something different than other firms."
+Support: inferred. Interpretation: An investment rejection may reflect the decision-maker's institutional context rather than a permanent view of the opportunity.
 
-[ev:charles-0091] label=investment_thesis_constraint direction=negative source=talk:a6HbJIku9gs
-> "consumer fitness is really hard as a category. And we've had a tough time investing there. ... consumer travel is probably the other one that I find to be just really difficult."
+[ev:charles-hudson-precursor-ventures-0106] label=decision_context_constraint direction=neutral source=full:8fde14eee76e05b770cf359d
+> "That original “no” was the correct answer in that context, and the context had to change to change the decision."
 
-[ev:charles-0095] label=founder_investor_vision_alignment direction=neutral source=talk:a6HbJIku9gs
-> "Because most of the rounds we're doing are a million dollars or less. And I'd argue if you're raising that little money. you're probably going to work on the thing you told me about. Maybe you can do one small pivot, but not a wild pivot. If someone's raising $5 million, I actually care less about the idea, but more about the person."
+Support: inferred. Interpretation: Changes in role, firm, freedom, or flexibility can change an otherwise context-bound investment decision.
 
-[ev:charles-0096] label=fund_economics_constraint direction=neutral source=talk:a6HbJIku9gs
-> "I think every year I evaluate this balance between person and idea. And I would say lately I've been kind of 75% person, 25% the idea. And some of that is a construct of the way we invest."
+[ev:charles-hudson-precursor-ventures-0159] label=investment_thesis_constraint direction=positive source=full:0cc3938594d7788403e64498
+> "This blog post is very much a work in progress, but it's a topic I want to understand better as I'm interested in continuing to invest in marketplaces going forward."
 
-[ev:charles-0097] label=investor_value_add_fit direction=positive source=talk:a6HbJIku9gs
-> "what I always tell my limited partners is my job is to find the expert, not be the expert. ... I know enough to ask you good questions."
+Support: explicit. Interpretation: He expresses continued investment interest in marketplace companies while still refining his category framework.
 
-[ev:charles-0098] label=investment_thesis_constraint direction=positive source=talk:xr5hPLujCCA
-> "And we've oriented our whole fund towards working with people who are pre-product market fit and who maybe are doing it for the first time."
+[ev:charles-hudson-precursor-ventures-0190] label=portfolio_conflict_constraint direction=neutral source=full:d971a0a21800d1c3a4030e5e
+> "I also believed the “no conflicts” norm forced firms to ask hard questions about whether they were willing to invest in a given company, knowing that it would foreclose the opportunity to invest in the known and unknown set of present and future competitors."
 
-[ev:charles-0100] label=fund_economics_constraint direction=neutral source=talk:xr5hPLujCCA
-> "if we're going to write a 500K check and we want that check to be meaningful in the context of our funds returns. We probably can't get much bigger than $100 or $125 million for a single font."
+Support: explicit. Interpretation: A no-conflicts policy raises the conviction threshold because backing one company can eliminate future investments in its competitors.
 
-[ev:charles-0101] label=investor_experience_bias direction=neutral source=talk:xr5hPLujCCA
-> "Access to great companies is the only thing that matters. And if you have a strategy and a check size that means you can't access great companies, you should change your check size."
+[ev:charles-hudson-precursor-ventures-0191] label=portfolio_conflict_constraint direction=positive source=full:d971a0a21800d1c3a4030e5e
+> "It sends a signal to the entrepreneur that if you take a given firm’s money, they will not turn around and back your competitor."
 
-[ev:charles-0104] label=investment_thesis_constraint direction=negative source=talk:xr5hPLujCCA
-> "And that's part of why we've been kind of skeptical about AI as a pre-seed opportunity because most of the really good repeat people are not going to raise a small round. They're going to go raise a large amount of money from a multi-stage fund."
+Support: explicit. Interpretation: Avoiding competing investments provides founders with a trust signal and evidence of investor commitment.
 
-[ev:charles-0112] label=investment_thesis_constraint direction=positive source=talk:svcwncH4iJk
-> "we're going to look for the people. who, because they lack social capital and they lack traction, cannot get the meeting. pre-product market fit."
+[ev:charles-hudson-precursor-ventures-0192] label=investor_value_add_fit direction=positive source=full:d971a0a21800d1c3a4030e5e
+> "It gives the investor an incentive to devote all their energy and effort to making the company successful, rather than exploring other investments in the category."
 
-[ev:charles-0131] label=investment_thesis_constraint direction=positive source=talk:svcwncH4iJk
-> "And the reason we've decided to focus on FinTech is that money is everywhere. So I'm like, you can build big companies in country. In fintech. FinTech and e-com infrastructure are the two areas where I'm like. These are things that I think are fairly universal."
+Support: explicit. Interpretation: Category exclusivity aligns the investor’s effort and support behind the selected portfolio company.
 
-[ev:charles-0133] label=investor_domain_knowledge_constraint direction=negative source=talk:svcwncH4iJk
-> "I looked at an international healthcare company. where you sort of had to understand. the way that that country's health system worked. I don't know enough about your country's healthcare system to really understand if this is a big opportunity."
+[ev:charles-hudson-precursor-ventures-0193] label=fund_economics_constraint direction=neutral source=full:d971a0a21800d1c3a4030e5e
+> "The larger the fund, the more important it is to be an investor in the companies that are true outliers; there is no way to make the fund math work if you are not in those companies unless you are in other, similarly-situated companies."
 
-[ev:charles-0134] label=investment_thesis_constraint direction=neutral source=talk:UTQQWdGX2E0
-> "The majority of companies I meet are pre-attraction, pre-launch, as we say, pre-everything. They're just early. And it felt like as the other seed fronts got larger, there was this emerging gap for folks who needed 100, 250, 500K, a million dollars to go from prototype concept, early version of the product, to launch."
+Support: explicit. Interpretation: Large funds depend disproportionately on owning outlier companies, putting pressure on traditional investment constraints.
 
-[ev:charles-0138] label=founder_investor_vision_alignment direction=negative source=talk:UTQQWdGX2E0
-> "I met someone else who said, look, I think car ownership in urban areas is going to go up. I'm like, I think it's going to go down. And so if your business is predicated on car ownership going up in urban areas, I'm not the right investor for you because I don't believe your core."
+[ev:charles-hudson-precursor-ventures-0195] label=investment_thesis_constraint direction=positive source=full:d971a0a21800d1c3a4030e5e
+> "Use a seed fund or scout strategy to meet as many promising, early-stage companies as you can."
 
-[ev:charles-0142] label=investor_domain_knowledge_constraint direction=negative source=talk:UTQQWdGX2E0
-> "So I think media, entertainment, and consumer companies are very hard for most VCs to understand. Because it actually means you have to have a sense of taste. You have to have a sense of what will actually resonate with the consumer. And it's why most VCs don't do movies."
+Support: explicit. Interpretation: Seed funds and scouts can provide broad early-stage market coverage and access to promising companies.
 
-[ev:charles-0143] label=investment_thesis_constraint direction=neutral source=talk:brEH2b4W9s0
-> "I tell everyone our strategy is to invest pre-everything. And we'll talk a little bit about why in today's market this strategy of going before data, before product, before traction is something that's, to me, both personally interesting and I think much needed."
+[ev:charles-hudson-precursor-ventures-0197] label=portfolio_conflict_constraint direction=positive source=full:d971a0a21800d1c3a4030e5e
+> "Buying passive secondary stakes in companies that you missed but want to own could work."
 
-[ev:charles-0144] label=fund_economics_constraint direction=neutral source=talk:brEH2b4W9s0
-> "My associate, Sidney, and I will invest in 15 to 20 companies a year. We'll write a check of anywhere from 100 to 250K. into rounds that are a million dollars or less."
+Support: explicit. Interpretation: Passive secondary ownership may provide financial exposure to missed winners without the governance and information rights that create direct conflicts.
 
-[ev:charles-0152] label=investor_domain_knowledge_constraint direction=negative source=talk:brEH2b4W9s0
-> "There's a couple of things I don't do. I don't do like space and satellites. I don't do anything that requires a deep knowledge of chemistry, biology, or physics. Like I'm not a scientist so I sort of leave those things to others."
+[ev:charles-hudson-precursor-ventures-0198] label=founder_investor_vision_alignment direction=negative source=full:d971a0a21800d1c3a4030e5e
+> "I don’t think founders want the investors who back them investing in competitors."
 
-[ev:charles-0159] label=fund_economics_constraint direction=neutral source=talk:d4gb_hypxVQ
-> "We're only going to do 50 new companies a year-ish. So I'm also asking myself, this is a really great company. But is it one of the top 50 things that I think I'm going to see this year. And so we say no to people all the time where I'm like, I'm quite convinced that person's going to be successful. And I'm also quite convinced if I'm patient, I'm going to find something that I'm more excited about."
+Support: explicit. Interpretation: Investing in a founder’s competitors generally conflicts with what that founder expects from an existing backer.
 
-[ev:charles-0165] label=investor_experience_bias direction=neutral source=talk:_UGpp10kDdY
-> "I feel like I have really good instincts around markets. Whether a founder sitting across the table from me really understands the structure of his or her market and why they have an opportunity. And I feel like I really trust my instincts on founderability, independent of previous success."
+[ev:charles-hudson-precursor-ventures-0246] label=founder_investor_vision_alignment direction=negative source=full:80c3c1b7878dd6435fe9058b
+> "Being part of a larger company can often mean figuring out how what the small company wants to do in the context of the larger company's business model."
 
-[ev:charles-0170] label=decision_context_constraint direction=neutral source=talk:_UGpp10kDdY
-> "At Precursor, we're in the judgment business. We're dealing with people that are pre-traction, pre-revenue, pre-data. This is really our subjective judgment on their capacity as founders."
+Support: inferred. Interpretation: An acquirer's existing model can constrain the smaller company's preferred strategic direction.
 
-[ev:charles-0171] label=fund_economics_constraint direction=neutral source=talk:_UGpp10kDdY
-> "I've always believed that fund size is destiny. If you tell me how large your fund is. I can probably predict the size check that you like to write and where you like to get involved."
+[ev:charles-hudson-precursor-ventures-0307] label=fund_economics_constraint direction=negative source=full:dcd287069a64ac30c179ac18
+> "Many founders and founding teams with experience building AI-powered products at scaled companies can raise money from multi-stage venture capital funds with round sizes and valuations that are outside the remit of what most smaller venture funds can afford to pay given their portfolio constructions, fund sizes, and strategies."
 
-[ev:charles-0175] label=investment_thesis_constraint direction=positive source=talk:_UGpp10kDdY
-> "We don't lower the ambition bar at Precursor. I still want people who want to build really big businesses and who have a lot of ambition. But I do look for people who think really hard about how much money do I actually need to make this happen, who are unafraid to be the lower capitalized company in a battle if capital isn't sort of what decides the winner."
+Support: explicit. Interpretation: Experienced AI teams often raise initial rounds whose size and valuation are incompatible with small funds' portfolio construction.
 
-[ev:charles-0177] label=investor_value_add_fit direction=neutral source=talk:tklSH60tCYo
-> "One area where they go wrong. I've seen quite often is VCs over promising what they can actually do for founders. And I said, okay, so let's not over promise what we're going to deliver... These are the specific areas I think I can help you. Anything above that is probably a bonus."
+[ev:charles-hudson-precursor-ventures-0312] label=fund_economics_constraint direction=negative source=full:dcd287069a64ac30c179ac18
+> "If you see these rounds and have the opportunity to invest, the prices and associated ownership will likely break your portfolio construction, and these companies will look like exceptions to the model."
 
-[ev:charles-0183] label=founder_investor_vision_alignment direction=neutral source=talk:uuSBNAsYG6I
-> "That's the one thing that like, I won't do. And I think that's like. When CEO is asking me to do that, I get really concerned. Like, what should I do? And I'm like, I don't know. I can tell you what I would do if I were in your shoes, but that's different than what you should do."
+Support: explicit. Interpretation: High AI round prices and low attainable ownership can violate a small fund's portfolio model even when access is available.
 
-[ev:charles-0184] label=investor_value_add_fit direction=neutral source=talk:uuSBNAsYG6I
-> "What I tell people is like from the pre-product market fit, like kind of think post idea to like product market fit stage, I can do a lot to help you. When you're a series C company thinking about some crazy venture debt instrument or some like weird mezzanine, like I'm not the best person to help advise you on that."
+[ev:charles-hudson-precursor-ventures-0313] label=fund_economics_constraint direction=negative source=full:dcd287069a64ac30c179ac18
+> "Having a portfolio on the wrong side of that theme (either being long on AI when the market has decided it’s less interesting or being light on AI when it’s all the rage) has real implications for the ability to raise the next fund."
 
-[ev:charles-0185] label=investment_thesis_constraint direction=neutral source=talk:uuSBNAsYG6I
-> "We have no market or sector thesis. I don't think I'm smart enough to predict where things are going. There's a couple of things we believe."
+Support: explicit. Interpretation: A fund's AI exposure can materially affect its ability to raise a successor fund if market sentiment shifts or remains concentrated.
 
-[ev:charles-0189] label=decision_context_constraint direction=neutral source=talk:uuSBNAsYG6I
-> "I also just believe in meeting a lot of people. And I think my LP is like, how do you pick these teams? I'm like, well, if you meet a couple thousand teams a year, the 30 or 50 that really stand out, stand out."
+[ev:charles-hudson-precursor-ventures-0414] label=investment_thesis_constraint direction=neutral source=full:2bc27cc691d63ec9ec0f3aca
+> "I have been pretty open about my struggles to make sense of the pre-seed and seed-stage venture opportunity to invest in companies with AI at their core."
 
-[ev:charles-0195] label=investment_thesis_constraint direction=neutral source=talk:odh9bVokwWk
-> "I started Precursor really with one simple observation... who's still investing in all of those really raw entrepreneurs? First time people, pre-product market fit. Those are the people who really need help. And I don't really see anybody looking to serve their needs."
+Support: explicit. Interpretation: He reports uncertainty about how AI-native companies fit the pre-seed and seed investment opportunity.
 
-[ev:charles-0198] label=fund_economics_constraint direction=neutral source=talk:odh9bVokwWk
-> "our strategy is not infinitely elastic. And I've told LPs, the way we invest, it kind of scales to $100, $120 million per fund. I don't think I could deploy $250 the way we do here and have the same results. So I've accepted that as a constraint on our model."
+[ev:charles-hudson-precursor-ventures-0415] label=fund_economics_constraint direction=negative source=full:2bc27cc691d63ec9ec0f3aca
+> "In some cases, it has to do with the fact that I am a pre-seed investor and some of the most interesting AI-powered companies skip pre-seed as a stage and raise really large rounds on day one."
 
-[ev:charles-0200] label=investor_value_add_fit direction=positive source=talk:odh9bVokwWk
-> "If our firm didn't exist, fewer people would get the chance. to be entrepreneurs. Like I can say that confidently."
+Support: explicit. Interpretation: His pre-seed mandate can exclude attractive AI companies that begin with unusually large financings.
 
-[ev:charles-0201] label=decision_context_constraint direction=neutral source=talk:odh9bVokwWk
-> "There are fund sizes and check sizes that would change the work for us. I think if we were writing million-dollar checks and taking board seats, the work would feel different. So I'm like, let's just not do that. Like, let's keep the check sizes small enough."
+[ev:charles-hudson-precursor-ventures-0434] label=investment_thesis_constraint direction=neutral source=full:e1d8ddf725fae89a8c9cf10b
+> "Sometimes I find new investment themes proactively by trying to think about the world and where I see technology heading. In other cases, I realize that I've become interested in a theme by looking back at the companies I've met and find fascinating."
 
-[ev:charles-0207] label=investment_thesis_constraint direction=neutral source=talk:jREqgpxB8FU
-> "If I think about the things that haven't changed at Precursor, we still do precede. We still do mostly first time is about two thirds first time founders. It's majority pre product. That hasn't changed."
+Support: explicit. Interpretation: Hudson develops investment themes both prospectively from technology trends and retrospectively from companies that attract him.
 
-[ev:charles-0208] label=fund_economics_constraint direction=neutral source=talk:jREqgpxB8FU
-> "I don't think our model is that elastic at precursor... I know what we would do with a hundred million dollar fund. It's not any different than what we do today... and I don't think most of what we do would work if we raised more than $150 million. So we won't do that."
+[ev:charles-hudson-precursor-ventures-0435] label=investment_thesis_constraint direction=positive source=full:e1d8ddf725fae89a8c9cf10b
+> "It turns out that there is a large cluster in one theme - city living."
 
-[ev:charles-0209] label=investment_thesis_constraint direction=neutral source=talk:RYNXvqF1nmc
-> "what we look for as founders. that are at the earliest stage possible. So you've got an idea for what you want to build, but maybe you don't even have a prototype. You probably don't have a launched product. but you've got some other things in your favor. Normally a really big idea that's easy to communicate that even I can understand."
+Support: explicit. Interpretation: Hudson identifies technology that improves city living as an investment theme of interest.
 
-[ev:charles-0212] label=investor_experience_bias direction=neutral source=talk:RYNXvqF1nmc
-> "I just generally believe. The universe of people who can be successful entrepreneurs in technology is larger than we've historically believed in venture."
+[ev:charles-hudson-precursor-ventures-0495] label=investor_experience_bias direction=neutral source=full:2eb550cdd75ce1dedda16991
+> "While many venture capitalists bemoan the lemming mentality in the industry, few are actually willing to swim against the tide and fund ideas that are out of fashion or out of favor."
 
-[ev:charles-0219] label=investor_domain_knowledge_constraint direction=negative source=talk:RYNXvqF1nmc
-> "It tends not to be... I'm a scientist and I built this novel technology, or I built this novel, discovered this drug, or I'm not a scientist, so I tend not to do those."
+Support: inferred. Interpretation: Hudson observed that industry conformity can leave out-of-favor ideas underexplored.
 
-[ev:charles-0221] label=fund_economics_constraint direction=neutral source=talk:RYNXvqF1nmc
-> "That's the stage where I invest. You know, we're happy if... 60 to 75% of the companies we invest in make it to the next stage. That's pretty good for us... because of the limited amount of information we have about these companies, they won't all succeed."
+[ev:charles-hudson-precursor-ventures-0531] label=fund_economics_constraint direction=neutral source=full:7543f9b49c2c4de282f9787e
+> "There is a lot of pressure to find companies that will produce big enough outcomes to impact their fund returns."
 
-[ev:charles-0228] label=investment_thesis_constraint direction=neutral source=talk:agz-nx-0yhw
-> "because I'm willing to meet people before they have traction and before they have evidence. A lot of people send me deals because they're like, this thing is too early for me."
+Support: explicit. Interpretation: Large fund sizes force investors to prioritize companies capable of materially affecting fund returns.
 
-[ev:charles-0242] label=investor_value_add_fit direction=positive source=talk:ct9ZmyVim7w
-> "I find what they need from us is help with fundraising. Almost by definition, most of the founders that we meet have fairly underdeveloped networks of VCs or even fellow founders who can help them get the meetings they need."
+[ev:charles-hudson-precursor-ventures-0535] label=founder_investor_vision_alignment direction=positive source=full:7543f9b49c2c4de282f9787e
+> "This is really about making sure we find companies where we are aligned with the founders on the long-term capital needs of the business."
 
-[ev:charles-0259] label=decision_context_constraint direction=neutral source=talk:mqnH73THf70
-> "It's too hard to change a no into a yes. I can turn a no opinion into a yes. And hopefully, you know, I remain good at converting a yes to a yes. But like. Switching a note to yes is hard."
+Support: explicit. Interpretation: Investment requires alignment with founders about the company’s long-term financing path.
 
-[ev:charles-0265] label=decision_context_constraint direction=negative source=talk:MZMnONlLi_o
-> "I'm very hesitant to invest in pre-product market fit teams that haven't worked together that are not co-located. if you haven't worked with the person before and you're not in the same place there needs to be a really compelling reason why like cost of living or like sick family member."
+[ev:charles-hudson-precursor-ventures-0538] label=fund_economics_constraint direction=neutral source=full:7543f9b49c2c4de282f9787e
+> "We will make the majority of our financial returns from our first check investment decisions, so minimizing dilution will amplify the return on those investments."
 
-[ev:charles-0269] label=investment_thesis_constraint direction=neutral source=talk:MZMnONlLi_o
-> "We weren't going to chase the really expensive, you know, multi-hundred million dollar pre-product market fit, very talented AI researcher opportunity. But we decided that's not our business."
+Support: explicit. Interpretation: Because first checks drive most returns, ownership preservation materially affects fund outcomes.
 
-[ev:charles-0270] label=fund_economics_constraint direction=neutral source=talk:MZMnONlLi_o
-> "very early investing in people and ideas is not a scalable part of the venture ecosystem. it's really hard to deploy more than $75 or $100 million per fund against those strategies because your initial tickets are just so small. And if you do too many deals, you'll dilute your return."
+[ev:charles-hudson-precursor-ventures-0561] label=investment_thesis_constraint direction=negative source=full:c6e37719d81d8c87fd096c4f
+> "Being a fund that has a very narrow focus and specific definition of what constitutes pre-seed has probably outlived its utility for us."
 
-[ev:charles-0271] label=investment_thesis_constraint direction=neutral source=talk:MZMnONlLi_o
-> "We are making a directional bet on two things. One, the quality of the management of that company and their ability to scale and become the leaders the company needs. And their assessment of the market opportunity and the product that they plan."
+Support: explicit. Interpretation: A narrowly defined pre-seed mandate had become too restrictive for Precursor.
 
-[ev:charles-0272] label=portfolio_conflict_constraint direction=negative source=talk:MZMnONlLi_o
-> "a human looks at them and tries to make a determination as to do we have a portfolio conflict. Is it the right stage?"
+[ev:charles-hudson-precursor-ventures-0563] label=investment_thesis_constraint direction=positive source=full:c6e37719d81d8c87fd096c4f
+> "We need to see the full landscape of the best new companies being created, whether those rounds are called pre-seed or seed deals and whether they are first-time or repeat founders."
 
-[ev:charles-0273] label=investor_domain_knowledge_constraint direction=negative source=talk:Qx8E3KQRsR8
-> "we're not like a deep tech, hard tech. firm, I don't have a background for those investments. And I feel like I really am a fish out of water when those get presented to me."
+Support: explicit. Interpretation: Precursor wants to evaluate strong new companies across seed labels and founder experience levels.
 
-[ev:charles-0274] label=mission_alignment_preference direction=positive source=talk:VWqwGBw5908
-> "there's a bunch of categories we've just decided we're not going to invest in because i don't think they make the world a better place and there's enough things we can do that are neutral the world positive to invest in that we don't have to go into things that i think are Dangerous."
+[ev:charles-hudson-precursor-ventures-0564] label=fund_economics_constraint direction=neutral source=full:c6e37719d81d8c87fd096c4f
+> "Does entry ownership still matter, and is it worth holding the line on target ownership?"
 
-[ev:charles-0280] label=investor_value_add_fit direction=positive source=talk:VWqwGBw5908
-> "our specialty is helping people do that sort of zero to one product market fit finding. the thing you're trying to do is the only thing I do. I don't work with pre-IPO companies that are trying to get ready to go public. I basically only work with zero to one founders."
+Support: explicit. Interpretation: Target ownership remains a core strategic question for early-stage fund economics.
 
-[ev:charles-0291] label=founder_investor_vision_alignment direction=positive source=talk:t6jV9guhUdI
-> "A million dollars goes pretty quickly. For me, I have to be heavily aligned with the founder about what the most important problem to solve is with that money. I don't care as much that I have the answer for how to solve it."
+[ev:charles-hudson-precursor-ventures-0590] label=investor_experience_bias direction=neutral source=full:822ccbd820ae298c6162c2b4
+> "I have seen far more people damage their future career prospects in venture by trying to do too much too soon as opposed to being patient and going slower when they first get into the business"
 
-[ev:charles-0297] label=investment_thesis_constraint direction=neutral source=talk:t6jV9guhUdI
-> "We have a minimalist approach to AI, so we're doing some, but it's by no means the focus. I have some friends who went all YOLO AI with their funds and it appears the early results are it appears to be working. that's just like not who we are as people."
+Support: explicit. Interpretation: Hudson explicitly advises new investors to prioritize patience over prematurely high deal activity.
 
-[ev:charles-0298] label=fund_economics_constraint direction=neutral source=talk:Qx8E3KQRsR8
-> "one of the nice things about being, you know, call it some $50 million fund is You can write a 250, 300K check. And that check could return your whole fund. If we were to increase the fund size, I think we would probably also pull up. the check size, and I think we would just begin to look more like the firms that I feel like are already doing a good job at that stage."
+[ev:charles-hudson-precursor-ventures-0592] label=decision_context_constraint direction=neutral source=full:822ccbd820ae298c6162c2b4
+> "Do you have the ability to determine the set of companies where you should focus your time and attention? The better the pool of companies you see, the harder it is to tell the difference between merely good and great companies."
 
-[ev:charles-0301] label=founder_investor_vision_alignment direction=positive source=talk:Qx8E3KQRsR8
-> "really what we're looking for is people who can really make meaningful progress with the business. on a million bucks or so. And then I think a clear thesis on what they're building and why it matters. we don't need to see a prototype or a product."
+Support: explicit. Interpretation: Hudson treats selective judgment within a high-quality opportunity pool as a central investing skill.
 
-[ev:charles-0309] label=investment_thesis_constraint direction=neutral source=talk:rgq7GdrgrSw
-> "There always has to be a firm that's focused on those first checks of $250,000 to $500,000 to really raw ideas where you're going to help people go from zero to one. And that's the work I was passionate about."
+[ev:charles-hudson-precursor-ventures-0593] label=decision_context_constraint direction=positive source=full:822ccbd820ae298c6162c2b4
+> "This is the person in your partnership who doesn’t bring things for consideration often, but the things they do present are of high quality and always worthy of the group’s attention."
 
-[ev:charles-0310] label=fund_economics_constraint direction=neutral source=talk:rgq7GdrgrSw
-> "If you raise less than a million, you're actually only signing up for product market fit. For most people I deal with, I'm like a million bucks is probably the right amount for you to get started, especially if you're a first time founder and you really are starting from scratch."
+Support: explicit. Interpretation: Hudson favors a selective flow of high-quality opportunities over maximizing presentation volume.
 
-[ev:charles-0315] label=investor_value_add_fit direction=positive source=talk:rgq7GdrgrSw
-> "The promise I wanted to make for people was like, I want to be your most useful, helpful investor to the extent you take advantage of me and what I can offer you, kind of for the first two years of your life."
+[ev:charles-hudson-precursor-ventures-0594] label=decision_context_constraint direction=negative source=full:822ccbd820ae298c6162c2b4
+> "The spray bottle is the person who brings a lot of lower quality opportunities to the partnership and chews up time talking about companies that aren’t realistic investment opportunities."
 
-[ev:charles-0316] label=investor_value_add_fit direction=positive source=talk:rgq7GdrgrSw
-> "Fundraising tends to be a thing that we know better than they do because at any point in time, we have 50 or 60 companies that are in market fundraising. So we know who's active, what they care about, who actually has money, what good looks like in this market."
+Support: explicit. Interpretation: Hudson views repeatedly elevating low-quality opportunities as a damaging investing pattern.
 
-[ev:charles-0324] label=investment_thesis_constraint direction=neutral source=talk:WBFXpvZ1RtU
-> "We have a model to find mostly first-time founders, pre-product market fit. The big firms have a different business model than I do. I don't think we can make money playing their game."
+[ev:charles-hudson-precursor-ventures-0612] label=investor_experience_bias direction=negative source=full:ea8ac8ba18f538cd24e46954
+> "With a few exceptions, most of those companies, including mine, have not yet been successful."
 
-[ev:charles-0325] label=fund_economics_constraint direction=neutral source=talk:WBFXpvZ1RtU
-> "At the bottom of the pyramid, pre-product market fit, I personally think more shots on goal is better. And I think the later you get in company building, the more concentrated your portfolio should get."
+Support: inferred. Interpretation: Hudson's assessment of Android-first strategies was shaped by his own unsuccessful experience pursuing one.
 
-[ev:charles-0329] label=investor_experience_bias direction=neutral source=talk:WBFXpvZ1RtU
-> "A disproportionate chunk of our best companies, we found them in the first four years of the firm's life. There was a period in time there where I think I was thinking too much. I try to learn but I also try to keep a beginner's mind."
+[ev:charles-hudson-precursor-ventures-0644] label=investor_value_add_fit direction=positive source=full:f0b797fa9b73ed6ba36784cb
+> "This is not to say that running a video sharing site is the same as running an auction business, but the principles of community management are likely quite similar."
 
-[ev:charles-0333] label=founder_investor_vision_alignment direction=neutral source=talk:WBFXpvZ1RtU
-> "There's a class of founders who actually doesn't want much in the way of engagement, support, governance, or oversight from their investors. They actually want capital to be left alone. But I think we're also going to have a set of founders who want engagement."
+Support: inferred. Interpretation: He believed transferable community-management expertise could provide strategic value in an adjacent product category.
 
-[ev:charles-0334] label=investment_thesis_constraint direction=positive source=talk:4yuXMYedaDQ
-> "What I found, though, is that the founders I'm interested in, people who didn't just go to Harvard and Stanford and who weren't employee number one at OpenAI, like there's a lot of talent out there that has really good ideas. They just lack the social proximity that makes saying yes easy."
+[ev:charles-hudson-precursor-ventures-0666] label=investor_experience_bias direction=neutral source=full:d3a0314ddce8456c8b527cc8
+> "In the last ten years, I’ve learned there is much more nuance about why investors and founders choose to partner again on their next venture; it’s dangerous to assume that you know why two people have chosen not to work together again without knowing more about the outcome and the relationship."
 
-[ev:charles-0352] label=investment_thesis_constraint direction=positive source=talk:M0t8DIszJh0
-> "I just want to have a dedicated fund that focuses on a really specific founder profile. It's people who are generally outside of the networks that make it easy to raise capital and people who don't have traction."
+Support: explicit. Interpretation: He cautions against treating a prior investor’s absence from a repeat founder’s new round as a negative signal without investigating the earlier outcome and relationship.
 
-[ev:charles-0353] label=fund_economics_constraint direction=neutral source=talk:M0t8DIszJh0
-> "It works better when you're writing 250, maybe even 500K checks. It doesn't work well if you have a big fund and you're trying to deploy capital a million to a million and a half dollars at a time. It just simply doesn't work."
+[ev:charles-hudson-precursor-ventures-0668] label=investor_experience_bias direction=neutral source=full:d3a0314ddce8456c8b527cc8
+> "Each surprise signals that my implicit model and explicit reasoning have diverged."
 
-[ev:charles-0354] label=investment_thesis_constraint direction=negative source=talk:M0t8DIszJh0
-> "Mine is kind of deep tech, hard tech. biology. We don't really do those things. I'm really trying to pick the very best founders, regardless of what technology area they've decided to work on."
+Support: explicit. Interpretation: Unexpected model outputs prompt him to examine inconsistencies between intuitive judgments and articulated evaluation rules.
 
-[ev:charles-0356] label=decision_context_constraint direction=neutral source=talk:M0t8DIszJh0
-> "I meet thousands of companies a year. We keep a really high bar. And the ones that clear that bar where I think the people are special, we invest."
+[ev:charles-hudson-precursor-ventures-0672] label=investment_thesis_constraint direction=neutral source=full:6b26114b7119e55eb44c4712
+> "Sometimes, the assessment is driven by the individual decisions that firms make about specific companies, and sometimes, it’s driven by the desire to pivot away from a given market or sector completely."
 
-[ev:charles-0357] label=investment_thesis_constraint direction=positive source=talk:M0t8DIszJh0
-> "And if I look back, our very best investments, we're all kind of strange companies. At the moment we invest them, people kind of scratch their head and they turned out to be great."
+Support: inferred. Interpretation: A fund’s decision to leave a sector can place otherwise relevant investments and investors outside its mandate.
 
-[ev:charles-0358] label=decision_context_constraint direction=neutral source=talk:M0t8DIszJh0
-> "The check sizes are larger. For us, the governance is relatively light. And the problem statement is simple, which is go from no product to a product with product market fit. in 12 to 24 months on a million dollars or less. That's the assignment."
+[ev:charles-hudson-precursor-ventures-0673] label=investor_value_add_fit direction=positive source=full:6b26114b7119e55eb44c4712
+> "I used to advise founders that the safest path was to raise money from a fund where the person sponsoring your deal was either the firm's founder or the most senior person actively making new investments, as those folks were the most likely to be there for the long term."
 
-[ev:charles-0361] label=founder_investor_vision_alignment direction=positive source=talk:4yuXMYedaDQ
-> "Would you rather be in a position where you followed your own intuition and instincts. Or would you rather optimize for investors?... I think you will be a more confident. salesperson for the equity that you're going to sell in this company. if you go to market and pitch the thing that you really believe in. not the thing that people really want to hear."
+Support: inferred. Interpretation: He historically valued durable senior sponsorship when advising founders on investor selection.
 
-[ev:charles-0362] label=investment_thesis_constraint direction=neutral source=talk:0jBXnIo7K68
-> "I really want to be in the long-term business of writing first checks to entrepreneurs. I want to fill the void that all of my colleagues have left because I know that it's driving founders crazy trying to figure out, how do I get the capital I need to finish this prototype and hire the two engineers I need?"
+[ev:charles-hudson-precursor-ventures-0738] label=investor_domain_knowledge_constraint direction=neutral source=full:a339f36dc108fca7f433b83f
+> "Games have largely returned to being an investment area where specialist firms with lots of experience in the category and relationships dominate, so I am excluding them from this conversation."
 
-[ev:charles-0363] label=investor_experience_bias direction=neutral source=talk:0jBXnIo7K68
-> "I want to find companies where the odds of success are lower. but where the payoff for being successful is higher, and where I can be kind of the first VC, that first person who sponsors their dream. who writes them a 100 or 250K check. that enables them to get started."
+Support: explicit. Interpretation: He excludes games from this consumer-investing analysis because experienced specialist investors dominate that category.
 
-[ev:charles-0369] label=decision_context_constraint direction=neutral source=talk:0jBXnIo7K68
-> "I invest in four core geographic markets, San Francisco Bay Area, Waterloo, Ontario, slash Toronto, New York, and a little bit of Los Angeles. Those are the four because those are the places where I feel like I can build enough density in my portfolio that the companies can help each other locally and that there's enough good advisors in those areas to give them help."
+[ev:charles-hudson-precursor-ventures-0740] label=fund_economics_constraint direction=negative source=full:a339f36dc108fca7f433b83f
+> "Two other things I think are also likely contributing factors are the relatively small number of VCs primarily focused on consumer investing and the challenge of connecting the dots on how consumer investments can move the needle for larger funds."
 
-[ev:charles-0370] label=investor_value_add_fit direction=negative source=talk:0jBXnIo7K68
-> "My biggest fear when I invest outside of a major metro is- When you have a question on Friday afternoon and I can't be there, I'm always like, well, who's going to answer that question? And is that person going to give that founder the kind of advice that I think is appropriate for what they're trying to build?"
+Support: explicit. Interpretation: He sees limited specialist capital and weak relevance to large-fund returns as constraints on consumer investing.
 
-[ev:charles-0371] label=investment_thesis_constraint direction=neutral source=talk:0jBXnIo7K68
-> "I am a generalist. So I would say broadly there's two kinds of VC firms out there. There's ones that have deep expertise in one vertical, big data, e-commerce, consumer. And there's generalists. So of the first 15 investments I've made, two are hardware, 13 are software. And it's about an even split between B2B and B2C software."
+[ev:charles-hudson-precursor-ventures-0746] label=fund_economics_constraint direction=neutral source=full:1a3854407fc0f20443dd8215
+> "The largest venture capital funds need terminal exits of $5-10 billion at a minimum (with reasonable expectations of 15-20% terminal ownership) for those exits to impact their fund economics."
 
-[ev:charles-0375] label=founder_investor_vision_alignment direction=negative source=talk:0jBXnIo7K68
-> "a lot of my past emails end up being, I just don't share your same view on how the market's going to play out. I think your competitors are going to respond to you differently than you do. I think that this thing is not going to go your way."
+Support: explicit. Interpretation: He says very large funds require multibillion-dollar exits and substantial terminal ownership for an investment to matter economically.
 
-[ev:charles-0378] label=investor_experience_bias direction=neutral source=talk:EH4xKXltki4
-> "Almost anyone will write a check to their college roommate. Who has no data if you think the person's smart? I just find most people aren't willing to write checks to people they don't know very well or people who don't have a long operating check. And I was like, but I like those checks. And if I look at my best investments, most of them look like that. They're like people who I just believed in. And I was like, I don't need the data."
+[ev:charles-hudson-precursor-ventures-0747] label=fund_economics_constraint direction=positive source=full:1a3854407fc0f20443dd8215
+> "Smaller and medium-sized funds have returns equations that work reasonably well at $1-3 billion exits."
 
-[ev:charles-0383] label=investor_experience_bias direction=neutral source=talk:EH4xKXltki4
-> "We have a really successful company where the person really was not mature in their dealing with their previous set of investors. And they acknowledge, like, hey, he called me, he's like, I know for sure. that if you call my investors, they're not going to say nice things. I was not a great person owned it. Didn't stop me from investing."
+Support: explicit. Interpretation: He says smaller and medium funds can generate workable returns from lower exit values than the largest funds require.
 
-[ev:charles-0384] label=investor_experience_bias direction=neutral source=talk:EH4xKXltki4
-> "when I started working on Precursor, in late 14, early 15, there weren't a lot of people out there who were saying, I want to meet companies that are really early. If anything, the seed market was going the other way. People were looking for more traction, more data. So it's very easy for me to go to all of my seed and Series A VC friends and say, look, any company that you think is great. but it's too early for you. Just absolutely send him."
+[ev:charles-hudson-precursor-ventures-0809] label=investment_thesis_constraint direction=neutral source=full:da89734e2c1c787eb29d71ac
+> "Wearable technology is one area where I feel like you really need to literally wear and use the products to get an informed picture on where things stand."
 
-[ev:charles-0386] label=investment_thesis_constraint direction=neutral source=talk:KDGwYuarf9Q
-> "Charles Hudson, managing partner at Precursor Ventures. We focus primarily on pre-seed and seed investing. I think venture capital, it's really a specialty type of capital. It's really for companies that have the aspiration to grow really quickly, to build really large businesses."
+Support: explicit. Interpretation: He considers firsthand product use necessary for an informed assessment of wearable technology.
 
-[ev:charles-0393] label=fund_economics_constraint direction=neutral source=talk:KDGwYuarf9Q
-> "Annie, you can do, what, two or three investments a year as a Series A investor, like in a normal year? So by definition, there's going to be amazing businesses that won't be in that elite tier of two to three, and we can do 20 to 25 a year."
+[ev:charles-hudson-precursor-ventures-0819] label=investment_thesis_constraint direction=positive source=full:5f1c3114ba3ff45ed4a85ef2
+> "That being said, there are still opportunities in communications, enterprise software, open source software, and even the consumer internet where VC dollars are useful and probaly necessary."
 
-[ev:charles-0401] label=investment_thesis_constraint direction=neutral source=talk:J0pn_Wp7f5w
-> "But I'd argue there are very few funds besides us whose focal business model is let's give money to people that we don't know that well, who we think have great ideas but lack traction. Pairing those two things together makes us unique."
+Support: explicit. Interpretation: He directly identifies several sectors where venture capital can remain useful and necessary.
 
-[ev:charles-0402] label=investment_thesis_constraint direction=neutral source=talk:J0pn_Wp7f5w
-> "My general framework for pre-seed investing is the million dollar pre-seed round is not for company building as much as it is for product market fit finding. I tend to believe that like the real question is, is a million dollars going to help you discover whether you're on the right track with the product that you want to build."
+[ev:charles-hudson-precursor-ventures-0860] label=investor_experience_bias direction=negative source=full:cccbef6152146e1a24239703
+> "This is what got us in trouble last time -- companies spending millions of dollars to buy datacenter capacity and bandwidth before the 1st user even showed up."
 
-[ev:charles-0416] label=investor_value_add_fit direction=neutral source=talk:ILQ6WkufBs8
-> "At the end of every meeting I have at the fund, I was asking, what are you looking for in an investor beyond money? I generally want to know, what is this person looking for? Are they looking for partnership? Are they looking for mentorship? Are they looking for support? Are they looking for customer intros?"
+Support: inferred. Interpretation: He invokes prior market excess to caution against funding infrastructure before user demand exists.
 
-[ev:charles-0422] label=fund_economics_constraint direction=neutral source=talk:7JjJVdZxPdI
-> "There is a very hard dollar cap, I believe, on our pre-seed strategy. It's somewhere around $50 million. I have no plans to exceed $50 million whenever we raise our next fund."
+[ev:charles-hudson-precursor-ventures-0932] label=investment_thesis_constraint direction=neutral source=full:fadb099f23d91e6a33f463bc
+> "We define pre-seed rounds as rounds of $1 million or less for companies that do not yet have product-market fit and oftentimes don’t have a live product."
 
-[ev:charles-0431] label=investment_thesis_constraint direction=neutral source=talk:vqM2bzh0DhU
-> "We don't have that traction requirement. We fund a lot of pre-launch, pre-revenue companies. We're very founder driven. So what I'm looking for there's really two things. One is a founder who has a really good and strong insight on his or her problem space, and a market that I think is robust."
+Support: explicit. Interpretation: Precursor’s analysis uses a narrow pre-seed definition based on round size and the absence of product-market fit.
 
-[ev:charles-0433] label=investor_experience_bias direction=neutral source=talk:QcQA5i1N-g0
-> "We're team focused at Precursor. I really focus on being a people picker, and I think that served us well. So we just lean into our strength at choosing people."
+[ev:charles-hudson-precursor-ventures-0950] label=investor_experience_bias direction=negative source=full:b8148d2bc41123bf99567be3
+> "Somewhere along the line, we traded metrics for taste."
 
-[ev:charles-0437] label=investor_value_add_fit direction=neutral source=talk:1tsl8DfzOMw
-> "Founders do all of the hard work. I provide capital and some advice and some emotional support, but they do all the heavy lifting. I can't want it more than they do."
+Support: explicit. Interpretation: Hudson believes venture investing has overemphasized quantitative metrics at the expense of investor judgment.
 
-[ev:charles-0439] label=investor_experience_bias direction=neutral source=talk:898qfusrj9U
-> "One of the things we've tried to do at Precursor is expand the aperture of who we think can be a successful founder. As long as we're focused on what's perceived to be low-risk pedigree hiring, we're not going to change anything."
+[ev:charles-hudson-precursor-ventures-0952] label=founder_investor_vision_alignment direction=positive source=full:b8148d2bc41123bf99567be3
+> "Taste requires a point of view about an industry, a founder, and his or her vision for what to build."
 
-[ev:charles-0460] label=decision_context_constraint direction=neutral source=talk:LnmBNKt1zcs
-> "Basically to get funded someone in our group has to say I want to work with this team. And then if we have objections, we try to talk to other personalities. That could be as fast as four days. It could be as slow as four months."
+Support: explicit. Interpretation: Investment judgment should incorporate a specific view of the founder and the founder’s intended product vision.
 
-[ev:charles-0461] label=investor_value_add_fit direction=positive source=talk:rYrPO2wuMOM
-> "Part of my job as a fund manager is to keep everybody, the founders that we've backed, the limited partners that have supported us, believing in the outcome and believing that we're on the right trail for probably nine to 12 years before the financial returns really start to come back in a material way."
+[ev:charles-hudson-precursor-ventures-0953] label=investment_thesis_constraint direction=negative source=full:b8148d2bc41123bf99567be3
+> "Investment themes are not taste. Themes are the opposite of taste."
 
+Support: explicit. Interpretation: Hudson rejects thematic formulas as substitutes for opportunity-specific judgment.
+
+[ev:charles-hudson-precursor-ventures-0995] label=investor_experience_bias direction=negative source=full:cdc37d1cc3caa63b7d3fa9fc
+> "Things most often go wrong or sideways precisely when people stop worrying."
+
+Support: inferred. Interpretation: Consensus confidence and declining scrutiny are treated as warning signals.
+
+[ev:charles-hudson-precursor-ventures-1077] label=investor_experience_bias direction=neutral source=full:e2ad478f793f5554cec87541
+> "we, as investors, should reflect on our decisions and the things we chose to overlook when things were up and to the right."
+
+Support: explicit. Interpretation: Hudson believes investors should examine how boom-era experience and overlooked warning signs affected their decisions.
+
+[ev:charles-hudson-precursor-ventures-1081] label=decision_context_constraint direction=neutral source=full:e2ad478f793f5554cec87541
+> "They are probably unnecessary at the pre-seed and seed stage."
+
+Support: explicit. Interpretation: Hudson generally considers audited financial statements unnecessary at pre-seed and seed stages.
+
+[ev:charles-hudson-precursor-ventures-1083] label=investor_experience_bias direction=neutral source=full:e2ad478f793f5554cec87541
+> "I think investors who feel burned by trusting reported numbers will look for more comfort and assurance"
+
+Support: explicit. Interpretation: Prior losses from unreliable reporting will make investors seek stronger verification.
+
+[ev:charles-hudson-precursor-ventures-1084] label=investor_experience_bias direction=negative source=full:e2ad478f793f5554cec87541
+> "If you are a founder raising from a venture fund that has had to deal with a high-profile case of misrepresented data or malfeasance, you should expect extra scrutiny from the firm along these dimensions."
+
+Support: explicit. Interpretation: A fund's prior exposure to misrepresentation can produce extra scrutiny of subsequent investments.
+
+[ev:charles-hudson-precursor-ventures-1095] label=decision_context_constraint direction=negative source=full:41e68144f039ebbad61bf8c7
+> "I find that reading decks in advance creates more false negatives than it saves false positives."
+
+Support: explicit. Interpretation: Hudson avoids relying heavily on advance decks because he believes they cause worthwhile meetings to be rejected.
+
+[ev:charles-hudson-precursor-ventures-1096] label=decision_context_constraint direction=positive source=full:41e68144f039ebbad61bf8c7
+> "My default orientation is to meet with people, particularly at the seed stage."
+
+Support: explicit. Interpretation: Hudson has a default bias toward taking meetings with seed-stage founders.
+
+[ev:charles-hudson-precursor-ventures-1097] label=portfolio_conflict_constraint direction=neutral source=full:41e68144f039ebbad61bf8c7
+> "If, after learning a bit about the company, I have the sense that there's a conflict with an existing portfolio company I'll just ask."
+
+Support: explicit. Interpretation: Hudson addresses possible portfolio conflicts directly with the entrepreneur rather than assuming a conflict.
+
+[ev:charles-hudson-precursor-ventures-1104] label=decision_context_constraint direction=positive source=full:41e68144f039ebbad61bf8c7
+> "I've learned that I do a better job paying attention to pitches and giving people a fair shake when I come in unbiased."
+
+Support: explicit. Interpretation: Hudson prefers entering pitches without deck-induced preconceptions to improve evaluation fairness.
+
+[ev:charles-hudson-precursor-ventures-1137] label=investor_experience_bias direction=positive source=full:5f2862f7cc83f607b44933da
+> "When it comes to private equity, past performance is a pretty decent predictor of future performance (at the quartile resolution, that is)."
+
+Support: explicit. Interpretation: Hudson viewed prior fund performance as meaningfully predictive of successor-fund performance at the quartile level.
+
+[ev:charles-hudson-precursor-ventures-1149] label=investor_experience_bias direction=neutral source=full:e342b537d73db9b10429468c
+> "As someone who has worked in technology and invested in enterprise start-ups, I have only seen grassroots technology take hold in a corporation in one of two ways."
+
+Support: explicit. Interpretation: Hudson says his enterprise adoption framework is informed by his own operating and investment experience.
+
+[ev:charles-hudson-precursor-ventures-1168] label=investment_thesis_constraint direction=neutral source=full:be1a0cc652d0fade93697db1
+> "I've learned almost a decade into running my own firm that the founding GP's motivation and interest is the constant, and the investment strategy can and should respond to how the market develops over time."
+
+Support: explicit. Interpretation: Hudson believes a fund's strategy should adapt to market development while the founding GP's motivation remains its durable anchor.
+
+[ev:charles-hudson-precursor-ventures-1170] label=fund_economics_constraint direction=neutral source=full:be1a0cc652d0fade93697db1
+> "Institutional vibes are about creating an institutional firm with rules, processes, and infrastructure that will allow that firm to scale, raise more capital, and perhaps even persist beyond the original founder(s)."
+
+Support: inferred. Interpretation: Hudson associates institutional venture investing with scalable processes, infrastructure, and continuing capital formation.
+
+[ev:charles-hudson-precursor-ventures-1171] label=fund_economics_constraint direction=neutral source=full:be1a0cc652d0fade93697db1
+> "It means caring deeply about portfolio construction, reserves planning, and everything you must do to run a successful, professional venture capital firm."
+
+Support: inferred. Interpretation: Portfolio construction and reserve planning are central requirements of Hudson's institutional-firm model.
+
+[ev:charles-hudson-precursor-ventures-1186] label=investment_thesis_constraint direction=negative source=full:cff1316d78112d53e101d1ca
+> "I am not an infrastructure/deep tech investor. I don't invest in tech or tooling that makes it easier to create AI models, run AI or deep learning, or any of the core technology that will advance this field."
+
+Support: explicit. Interpretation: Hudson explicitly excludes AI infrastructure, deep technology, and core model tooling from his investment scope.
+
+[ev:charles-hudson-precursor-ventures-1187] label=investment_thesis_constraint direction=neutral source=full:cff1316d78112d53e101d1ca
+> "I'm looking at the application landscape and trying to figure out where I should spend my time and energy."
+
+Support: explicit. Interpretation: Within AI, Hudson directs his investment attention toward the application layer.
+
+[ev:charles-hudson-precursor-ventures-1248] label=investor_experience_bias direction=neutral source=full:c6f46f28d484766cdcc41fb6
+> "Some argue that capital allocation and investment should be a rational, dispassionate process, but that's not how the the world works; capital is allocated by people with feelings and I think if you ignore that fact, you do so at your own peril."
+
+Support: explicit. Interpretation: He explicitly believes investor emotions materially influence capital allocation.
+
+[ev:charles-hudson-precursor-ventures-1250] label=investor_experience_bias direction=neutral source=full:c6f46f28d484766cdcc41fb6
+> "And now that power is tilting back toward capital providers, those folks remember how they were treated and that influences the decisions they make about who to support and why."
+
+Support: explicit. Interpretation: He states that investors’ memories of past treatment affect whom they choose to support.
+
+[ev:charles-hudson-precursor-ventures-1253] label=investment_thesis_constraint direction=neutral source=full:8688487e57c5ce538ce38640
+> "When we talk about pre-seed investing, we are talking about rounds of $1 million or less for companies still searching for product-market fit."
+
+Support: explicit. Interpretation: Hudson and Precursor define pre-seed as rounds no larger than $1 million for companies still seeking product-market fit.
+
+[ev:charles-hudson-precursor-ventures-1254] label=investment_thesis_constraint direction=neutral source=full:8688487e57c5ce538ce38640
+> "I recognize that many others have different definitions for what constitutes pre-seed, but that is and always has been how we define it"
+
+Support: explicit. Interpretation: He presents this pre-seed definition as a durable firm-specific investment lens.
+
+[ev:charles-hudson-precursor-ventures-1256] label=investment_thesis_constraint direction=neutral source=full:8688487e57c5ce538ce38640
+> "We have not invested heavily in any of those categories, and many of the firms with whom we invested previously have ramped up their activities in those domains."
+
+Support: explicit. Interpretation: He states that the firm has not invested heavily in the named capital-intensive categories.
+
+[ev:charles-hudson-precursor-ventures-1257] label=fund_economics_constraint direction=neutral source=full:8688487e57c5ce538ce38640
+> "Pre-seed investing is largely the domain of small and emerging funds."
+
+Support: explicit. Interpretation: He associates pre-seed investing primarily with small and emerging fund economics.
+
+[ev:charles-hudson-precursor-ventures-1258] label=fund_economics_constraint direction=neutral source=full:8688487e57c5ce538ce38640
+> "With those larger funds, they can invest in larger and more expensive rounds and have the opportunity to do both pre-seed and seed rounds."
+
+Support: explicit. Interpretation: He believes increased fund size shifts firms toward larger and more expensive rounds.
+
+[ev:charles-hudson-precursor-ventures-1281] label=fund_economics_constraint direction=neutral source=full:c102e62d59224bbe408fe693
+> "There are two inter-related things that drive this -- companies are usually looking to raise more money than they did in Series A and the exit needs to be larger to justify the size of the investment."
+
+Support: explicit. Interpretation: Larger later-stage checks require correspondingly larger exits to produce acceptable investment outcomes.
+
+[ev:charles-hudson-precursor-ventures-1294] label=investor_domain_knowledge_constraint direction=negative source=full:1d4cccf4a1dacedcc83897a1
+> "There is a real dearth of exciting packaged application vertical opportunities (there are some out there, but it isn't my place to disclose those) at the moment and most investors that I know aren't as interested in software that plays in niches they don't understand."
+
+Support: explicit. Interpretation: Investor interest declines when software targets niches the investor does not understand, amid a shortage of attractive packaged-application opportunities.
+
+[ev:charles-hudson-precursor-ventures-1315] label=investment_thesis_constraint direction=positive source=full:bd9e8ada95649ce68de6c8ef
+> "As someone who invests primarily in companies that do not yet have product-market fit, the un-bundled software world has been a great place to invest."
+
+Support: explicit. Interpretation: His primary investment focus is companies that have not yet achieved product-market fit, historically favored by unbundled software markets.
+
+[ev:charles-hudson-precursor-ventures-1318] label=fund_economics_constraint direction=neutral source=full:e6bc2320f1192f166038da2e
+> "Your fund size, for the most part, dictates your check size, ownership targets, and portfolio construction."
+
+Support: explicit. Interpretation: Fund size structurally determines check size, ownership goals, and portfolio construction.
+
+[ev:charles-hudson-precursor-ventures-1319] label=fund_economics_constraint direction=neutral source=full:e6bc2320f1192f166038da2e
+> "The size of your fund also dictates the scale of outcomes that can actually move the needle for your fund, and that shapes the lens through which you evaluate the terminal scale of startups that come across your desk."
+
+Support: explicit. Interpretation: A fund's size changes the minimum startup outcome that matters to its investment decisions.
+
+[ev:charles-hudson-precursor-ventures-1320] label=fund_economics_constraint direction=negative source=full:e6bc2320f1192f166038da2e
+> "The larger your fund, the larger absolute scale of outcomes you need and the more of those outcomes you need to achieve to make your math work."
+
+Support: explicit. Interpretation: Large funds require both larger exits and more such exits.
+
+[ev:charles-hudson-precursor-ventures-1338] label=investment_thesis_constraint direction=neutral source=full:4d74664005cc479051c1f318
+> "For our purposes, a pre-seed round is a round of $1 million or less for a company that is likely pre-launch and pre-traction."
+
+Support: explicit. Interpretation: Precursor defines pre-seed as no more than $1 million and generally pre-launch and pre-traction.
+
+[ev:charles-hudson-precursor-ventures-1339] label=investment_thesis_constraint direction=neutral source=full:4d74664005cc479051c1f318
+> "Anything that does not meet that criteria is classified as a seed-stage investment for our internal purposes."
+
+Support: explicit. Interpretation: Opportunities outside Precursor's pre-seed definition are internally treated as seed-stage investments.
+
+[ev:charles-hudson-precursor-ventures-1343] label=fund_economics_constraint direction=neutral source=full:4d74664005cc479051c1f318
+> "all of this information informs how we at Precursor think about how to price rounds, how much money to set aside for follow-on financings, how we think about capital needs for the companies we back, and how we advise founders on their own fundraising journeys."
+
+Support: explicit. Interpretation: Precursor uses portfolio-progression data to set pricing, reserves, capital expectations, and founder advice.
+
+[ev:charles-hudson-precursor-ventures-1365] label=investor_domain_knowledge_constraint direction=negative source=full:865b2ce5b1e72994463ad24d
+> "I have struggled to figure out where the real opportunities are as a pre-seed investor, and I was having a hard time keeping up with all of the rapid developments in the space."
+
+Support: explicit. Interpretation: He reports difficulty assessing where investable AI opportunities exist amid rapid technical change.
+
+[ev:charles-hudson-precursor-ventures-1366] label=investment_thesis_constraint direction=neutral source=full:865b2ce5b1e72994463ad24d
+> "As a generalist investor, I tend to pay attention to where talent is flowing as a signal of where I should direct my energy and attention."
+
+Support: explicit. Interpretation: As a generalist, he uses concentrations of founder talent to guide where he investigates investment opportunities.
+
+[ev:charles-hudson-precursor-ventures-1369] label=investment_thesis_constraint direction=negative source=full:865b2ce5b1e72994463ad24d
+> "I continue to wrestle with the enormous opportunity I see for AI to impact so many parts of business and society and the challenges that I see finding investible themes and companies as someone who invests primarily in pre-launch, pre-product market fit companies."
+
+Support: explicit. Interpretation: His focus on pre-launch and pre-product-market-fit companies makes it difficult to convert AI’s broad potential into investable themes.
+
+[ev:charles-hudson-precursor-ventures-1373] label=fund_economics_constraint direction=negative source=full:c09bfe63d9dc702e78885798
+> "Based on the data from the folks at Open LP, only about 17% of emerging managers who raise a first fund will get to a fourth fund."
+
+Support: inferred. Interpretation: He highlights the low rate at which emerging managers progress from a first to a fourth fund as a structural fund-building constraint.
+
+[ev:charles-hudson-precursor-ventures-1405] label=fund_economics_constraint direction=negative source=full:2e6866a92a1b5e74ab71d8b7
+> "As the time to IPO extends, I don’t think it makes much sense to think of the venture business as just a buy-and-hold business at the early stage."
+
+Support: explicit. Interpretation: Longer IPO timelines make an exclusively buy-and-hold strategy increasingly unsuitable for early-stage funds.
+
+[ev:charles-hudson-precursor-ventures-1406] label=investor_domain_knowledge_constraint direction=neutral source=full:2e6866a92a1b5e74ab71d8b7
+> "My bias is to look through changes in venture capital for what it means for smaller, sub $250 million venture funds because that’s the world that I understand best."
+
+Support: explicit. Interpretation: He frames his strongest venture-market judgments around smaller funds, where he has the most direct expertise.
+
+[ev:charles-hudson-precursor-ventures-1407] label=fund_economics_constraint direction=negative source=full:2e6866a92a1b5e74ab71d8b7
+> "A world where fewer companies go public but do so much later in life and as substantially more mature companies puts a lot of pressure on the business model for people who get in early and are looking at a 12-15 year hold period to IPO."
+
+Support: explicit. Interpretation: Twelve-to-fifteen-year IPO horizons place material pressure on the economics of early-stage funds.
+
+[ev:charles-hudson-precursor-ventures-1408] label=fund_economics_constraint direction=neutral source=full:2e6866a92a1b5e74ab71d8b7
+> "Secondaries will likely become the primary way small funds deliver returns to their LPs if this world comes to pass."
+
+Support: explicit. Interpretation: He expects secondary sales to become the principal liquidity mechanism for small venture funds under longer exit timelines.
+
+[ev:charles-hudson-precursor-ventures-1486] label=founder_investor_vision_alignment direction=negative source=full:5ab71587a23ee8b9c97445da
+> "I couldn't agree more with the comment about dropping the Foleo, by the way - it strikes me as a total distraction."
+
+Support: inferred. Interpretation: He saw Palm’s Foleo initiative as a distracting strategic direction rather than a productive focus.
+
+[ev:charles-hudson-precursor-ventures-1487] label=investment_thesis_constraint direction=negative source=full:bb017cd93910c75a8942596c
+> "Being a pre-seed focused fund was a differentiator ten years ago in a way that it isn’t today. It would be hard to start Precursor today with the same thesis as the world is different."
+
+Support: explicit. Interpretation: He believes a formerly differentiated pre-seed thesis would no longer be sufficient to launch the same fund today.
+
+[ev:charles-hudson-precursor-ventures-1488] label=investor_experience_bias direction=neutral source=full:bb017cd93910c75a8942596c
+> "Whenever a new VC manager asks me for advice, I pause and ask myself if my experience is useful and still relevant."
+
+Support: explicit. Interpretation: He actively questions whether lessons from his own fund-building experience remain applicable to newer managers.
+
+[ev:charles-hudson-precursor-ventures-1489] label=fund_economics_constraint direction=neutral source=full:bb017cd93910c75a8942596c
+> "When I started Precursor, the seed funds that did most of our follow-on rounds were small, and the multi-stage funds that invested in the Series A rounds of our portfolio companies were also fairly modest."
+
+Support: explicit. Interpretation: He describes Precursor’s original financing environment as one with smaller follow-on seed and multistage funds.
+
+[ev:charles-hudson-precursor-ventures-1511] label=investment_thesis_constraint direction=positive source=full:a4dfb3697a1cd89804c4e1ce
+> "I find it very liberating to say that, like, my investment criteria do not require me personally identifying with the problem that this company is solving in order to say yes."
+
+Support: explicit. Interpretation: Hudson does not require personal identification with a customer’s problem as a condition for investing.
+
+[ev:charles-hudson-precursor-ventures-1512] label=investor_value_add_fit direction=positive source=full:a4dfb3697a1cd89804c4e1ce
+> "And I have to believe that that will also change the way they think about hiring and staffing in their own company if they have a positive experience with a Black GP who gives them good advice, who is supportive, who adds value to their company."
+
+Support: inferred. Interpretation: He believes an investor's advice, support, and company-level contribution can influence founders beyond the capital provided.
+
+[ev:charles-hudson-precursor-ventures-1513] label=mission_alignment_preference direction=positive source=full:a4dfb3697a1cd89804c4e1ce
+> "Yeah, I guess for me the goal is simple -- I just want to normalize Blackness in venture capital and startups."
+
+Support: explicit. Interpretation: He states a personal industry mission of making Black investors and startup participants normal rather than exceptional.
+
+[ev:charles-hudson-precursor-ventures-1576] label=fund_economics_constraint direction=neutral source=full:2ca6318624abcc7b50ca453f
+> "Every new investor has a price and ownership threshold that needs to be met in order to get the deal done."
+
+Support: explicit. Interpretation: Hudson says each additional financing participant introduces minimum price and ownership requirements.
+
+[ev:charles-hudson-precursor-ventures-1595] label=founder_investor_vision_alignment direction=neutral source=full:71ed5c36642125fb6b59fed6
+> "Venture capital is not a stock-picking exercise; it’s about having founders choose to take your capital over someone else’s."
+
+Support: explicit. Interpretation: Hudson views founder selection of an investor as a central part of venture investing, beyond identifying attractive companies.
+
+[ev:charles-hudson-precursor-ventures-1596] label=investment_thesis_constraint direction=negative source=full:71ed5c36642125fb6b59fed6
+> "I would never encourage those fund managers to be non-consensus for non-consensus sake, as that would be a waste of their time and talent."
+
+Support: explicit. Interpretation: Hudson rejects contrarian positioning as an end in itself when a manager can win strong consensus opportunities.
+
+[ev:charles-hudson-precursor-ventures-1602] label=founder_investor_vision_alignment direction=neutral source=full:ee210fe937fffbfca1f8f1d8
+> "If you are a founder and you are experiencing new or renewed tension in your conversations with your VC investors, it’s worth re-examining whether you all have a shared view of the likely outcome of your company and whether you’re both as excited about what that outcome means."
+
+Support: explicit. Interpretation: Hudson treats a shared view of likely company outcomes as important to founder-investor alignment.
+
+[ev:charles-hudson-precursor-ventures-1604] label=fund_economics_constraint direction=negative source=full:ee210fe937fffbfca1f8f1d8
+> "Many LPs are facing real challenges in making new VC commitments; they are getting less money back from their existing managers than they expected, and they still have existing capital call obligations that they have to meet."
+
+Support: explicit. Interpretation: Hudson sees weak distributions and continuing capital calls as constraints on LPs’ capacity for new venture commitments.
+
+[ev:charles-hudson-precursor-ventures-1605] label=fund_economics_constraint direction=negative source=full:ee210fe937fffbfca1f8f1d8
+> "And, at a minimum, I think it makes many VCs think hard about what portion of their current portfolio will generate returns for their LPs and makes many of us more circumspect about which companies to support financially and which to ask to figure things out with the resources they have available."
+
+Support: explicit. Interpretation: Hudson says LP liquidity pressure makes VCs more selective about providing follow-on financial support.
+
+[ev:charles-hudson-precursor-ventures-1656] label=investment_thesis_constraint direction=neutral source=full:99a219c472f0785d607928a3
+> "This would be a comforting return to the previous era as a firm investing primarily at the pre-seed stage."
+
+Support: explicit. Interpretation: His firm primarily invests at the pre-seed stage.
+
+[ev:charles-hudson-precursor-ventures-1657] label=fund_economics_constraint direction=neutral source=full:99a219c472f0785d607928a3
+> "With their larger fund sizes, multi-stage firms need massive $5-10B+ exits to generate meaningful returns. In contrast, seed-only firms can generate meaningful returns with more modest $1B+ exits."
+
+Support: explicit. Interpretation: He believes fund size determines the minimum exit scale needed to produce meaningful returns.
+
+[ev:charles-hudson-precursor-ventures-1741] label=decision_context_constraint direction=negative source=full:02cc383c00a50f05696a0fb0
+> "But we are in a moment where deeply investigating the quality of a revenue number might be at odds with winning an allocation in a hot deal."
+
+Support: explicit. Interpretation: He says allocation competition in hot deals can discourage thorough revenue-quality diligence.
+
+[ev:charles-hudson-precursor-ventures-1743] label=fund_economics_constraint direction=neutral source=full:02cc383c00a50f05696a0fb0
+> "It is far more costly not to be in the winners than it is to make a few false positive investments if you’re managing a large pool of capital."
+
+Support: explicit. Interpretation: He believes large-fund economics make missing a major winner more damaging than several losing investments.
+
+[ev:charles-hudson-precursor-ventures-1763] label=investment_thesis_constraint direction=positive source=full:adcdee0561d1cc0ec79f78fc
+> "This is an investment strategy that I can (actually) understand."
+
+Support: inferred. Interpretation: He found a focused strategy of investing in companies building on Salesforce coherent.
+
+[ev:charles-hudson-precursor-ventures-1764] label=fund_economics_constraint direction=neutral source=full:adcdee0561d1cc0ec79f78fc
+> "This is by no means a large investment vehicle - I have to believe that the primary driver here is to market the fact that these two firms are really interested in sourcing SaaS entrepreneurs."
+
+Support: inferred. Interpretation: He interpreted the vehicle’s modest size as signaling that sourcing SaaS founders mattered more than direct fund economics.
+
+[ev:charles-hudson-precursor-ventures-1765] label=investment_thesis_constraint direction=positive source=full:adcdee0561d1cc0ec79f78fc
+> "If the requirement is that you build on the Force.com platform while retaining the ability to build a standalone business, this is not a terribly onerous condition to fulfill."
+
+Support: inferred. Interpretation: He viewed platform participation as acceptable when a company retained the ability to build independently.
+
+[ev:charles-hudson-precursor-ventures-1787] label=fund_economics_constraint direction=neutral source=full:c7ea2a55fbecf2344a8a200b
+> "Assets under management drive management fees, and management fees govern the budgeting decisions about how large a team a venture capital firm can have."
+
+Support: explicit. Interpretation: Hudson says AUM and resulting management fees determine a venture firm's staffing capacity.
+
+[ev:charles-hudson-precursor-ventures-1788] label=fund_economics_constraint direction=neutral source=full:c7ea2a55fbecf2344a8a200b
+> "Increasing AUM tends to lead to larger teams and hence more management responsibility."
+
+Support: explicit. Interpretation: Hudson says growing AUM usually expands the team and the management burden on firm leaders.
+
+[ev:charles-hudson-precursor-ventures-1789] label=fund_economics_constraint direction=neutral source=full:c7ea2a55fbecf2344a8a200b
+> "Management demands increase with the number of non-Partner people on the team."
+
+Support: explicit. Interpretation: Hudson identifies non-partner headcount as a primary driver of venture-firm management load.
+
+[ev:charles-hudson-precursor-ventures-1790] label=fund_economics_constraint direction=neutral source=full:c7ea2a55fbecf2344a8a200b
+> "The more investment strategies (products) a firm has, the more time the leadership team will spend on management."
+
+Support: explicit. Interpretation: Hudson says operating multiple investment strategies reduces leadership time available for investing by increasing management work.
+
+[ev:charles-hudson-precursor-ventures-1799] label=founder_investor_vision_alignment direction=neutral source=full:8862919e9616f2240b20b133
+> "The most important question where I think founders and investors need to be on the same page is the rationale for the extension."
+
+Support: explicit. Interpretation: Hudson requires founders and investors to align on what an extension is intended to accomplish.
+
+[ev:charles-hudson-precursor-ventures-1808] label=fund_economics_constraint direction=neutral source=full:8862919e9616f2240b20b133
+> "Some firms have strict policies about when they will and will not participate in bridges or extensions."
+
+Support: explicit. Interpretation: Hudson notes that firm-level follow-on policies can independently constrain bridge participation.

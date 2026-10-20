@@ -1,0 +1,768 @@
+{
+  "schema": "phase1-rationale-reference-v1",
+  "extraction_version": "pitchshow-rationales-v1",
+  "fingerprint": "ba7870415c6eb5ac7e11031f8552ae700cfb27765b1dab3ea2ece3f2ff6e4925",
+  "episode_slug": "50-ticket-scalpers-beware-blockchain-is-coming-for-you",
+  "vc_slug": "howie-diamond-pure-ventures",
+  "vc_name": "Howie Diamond",
+  "actual_decision": "Out",
+  "later_decision": "Unknown",
+  "reference_kind": "automated_transcript_observed_candidate",
+  "human_validated": false,
+  "source_format": "transcript-observed-rationales-v1",
+  "source_path": "../source/episodes/50-ticket-scalpers-beware-blockchain-is-coming-for-you.json",
+  "source_sha256": "a4696126c4fb75a9fb756c04736f4b5abe36bff323d4336160fae277c662013b",
+  "transcript_sha256": "deed3598db58829f9fc4412ab1b3c7eff356470777cbb268a9eec8bccdc0dcc5",
+  "taxonomy_sha256": "eaa8734819a3ac34dd19ee5f0bf6de925a793a1d25a2d361090dafc9b751e1fc",
+  "model": "codex:gpt-5.6-luna+gpt-5.6-sol",
+  "generation_stages": [
+    {
+      "phase": "rationale_extract",
+      "backend": "codex",
+      "model": "gpt-5.6-luna"
+    },
+    {
+      "phase": "rationale_verify",
+      "backend": "codex",
+      "model": "gpt-5.6-sol"
+    }
+  ],
+  "source_tier": "newly_extracted_and_independently_model_reviewed",
+  "reviewed_target_turns": [
+    5,
+    45,
+    47,
+    49,
+    50,
+    55,
+    76,
+    78,
+    94,
+    97,
+    120,
+    123,
+    127
+  ],
+  "notes": "All supplied target turns were reviewed; turns 5, 47, 97, and 120 contained no material investment rationale.",
+  "receipt_path": "receipts/50-ticket-scalpers-beware-blockchain-is-coming-for-you.json",
+  "scoring_scope": "original_pitch_only",
+  "shared_across_input_modes": true,
+  "rationales": [
+    {
+      "rationale_label": "competitive_intensity_concern",
+      "direction": "negative",
+      "salience": "primary",
+      "confidence": 0.99,
+      "utterance_type": "decision_reason",
+      "decision_link": "explicit",
+      "timing": "original_pitch",
+      "turn_index": 78,
+      "quote": "if I were to get into it, I would invest in them. And so therefore I’m going to pass.",
+      "explanation": "Howie explicitly passes because he would choose the competing company if investing in the category.",
+      "evidence": [
+        "the three of them got together and are doing the exact same thing and just closed a $10 million round",
+        "they're very well-funded and I feel like they're a year or two ahead of you",
+        "if I were to get into it, I would invest in them. And so therefore I’m going to pass."
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 50,
+          "speaker": "Howie",
+          "quote": "the three of them got together and are doing the exact same thing and just closed a $10 million round"
+        },
+        {
+          "turn_index": 76,
+          "speaker": "Howie",
+          "quote": "they're very well-funded and I feel like they're a year or two ahead of you"
+        },
+        {
+          "turn_index": 78,
+          "speaker": "Howie",
+          "quote": "if I were to get into it, I would invest in them. And so therefore I’m going to pass."
+        }
+      ],
+      "activation": "evaluated",
+      "source_rationale_id": "R10",
+      "utterance_kind": "decision_explanation",
+      "decision_support": "supports_out",
+      "all_mention_ids": [
+        "R1",
+        "R3",
+        "R8",
+        "R10"
+      ]
+    },
+    {
+      "rationale_label": "founder_qualities",
+      "direction": "positive",
+      "salience": "secondary",
+      "confidence": 0.9,
+      "utterance_type": "assessment",
+      "decision_link": "none",
+      "timing": "original_pitch",
+      "turn_index": 123,
+      "quote": "He’s great.",
+      "explanation": "Howie gives a positive assessment of Harold's personal appeal during the immediate in-room debrief.",
+      "evidence": [
+        "you have a really good understanding of this market",
+        "He’s great."
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 76,
+          "speaker": "Howie",
+          "quote": "you have a really good understanding of this market"
+        },
+        {
+          "turn_index": 123,
+          "speaker": "Howie",
+          "quote": "He’s great."
+        }
+      ],
+      "activation": "evaluated",
+      "source_rationale_id": "R13",
+      "utterance_kind": "assessment",
+      "decision_support": "none",
+      "all_mention_ids": [
+        "R5",
+        "R13"
+      ]
+    },
+    {
+      "rationale_label": "fundraising_demand_signal",
+      "direction": "positive",
+      "salience": "secondary",
+      "confidence": 0.97,
+      "utterance_type": "assessment",
+      "decision_link": "none",
+      "timing": "original_pitch",
+      "turn_index": 123,
+      "quote": "I think he’ll raise this round, no problem.",
+      "explanation": "Howie expects Bandwagon to attract enough investor demand to complete the round.",
+      "evidence": [
+        "I think he’ll raise this round, no problem."
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 123,
+          "speaker": "Howie",
+          "quote": "I think he’ll raise this round, no problem."
+        }
+      ],
+      "activation": "evaluated",
+      "source_rationale_id": "R12",
+      "utterance_kind": "assessment",
+      "decision_support": "none",
+      "all_mention_ids": [
+        "R12"
+      ]
+    },
+    {
+      "rationale_label": "investment_thesis_constraint",
+      "direction": "negative",
+      "salience": "secondary",
+      "confidence": 0.91,
+      "utterance_type": "assessment",
+      "decision_link": "none",
+      "timing": "original_pitch",
+      "turn_index": 76,
+      "quote": "I didn't get into their last round because I was staying away from blockchain",
+      "explanation": "Howie describes his prior avoidance of blockchain investments as a category-level constraint.",
+      "evidence": [
+        "I didn't get into their last round because I was staying away from blockchain"
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 76,
+          "speaker": "Howie",
+          "quote": "I didn't get into their last round because I was staying away from blockchain"
+        }
+      ],
+      "activation": "evaluated",
+      "source_rationale_id": "R9",
+      "utterance_kind": "supporting_argument",
+      "decision_support": "none",
+      "all_mention_ids": [
+        "R9"
+      ]
+    },
+    {
+      "rationale_label": "investor_domain_knowledge_constraint",
+      "direction": "negative",
+      "salience": "secondary",
+      "confidence": 0.91,
+      "utterance_type": "assessment",
+      "decision_link": "none",
+      "timing": "original_pitch",
+      "turn_index": 123,
+      "quote": "I don’t know yet how to invest in it.",
+      "explanation": "Howie acknowledges that he lacks a settled framework for evaluating where to invest within blockchain.",
+      "evidence": [
+        "I don’t know yet how to invest in it."
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 123,
+          "speaker": "Howie",
+          "quote": "I don’t know yet how to invest in it."
+        }
+      ],
+      "activation": "evaluated",
+      "source_rationale_id": "R15",
+      "utterance_kind": "concern",
+      "decision_support": "none",
+      "all_mention_ids": [
+        "R15"
+      ]
+    },
+    {
+      "rationale_label": "market_problem_validation",
+      "direction": "positive",
+      "salience": "secondary",
+      "confidence": 0.99,
+      "utterance_type": "assessment",
+      "decision_link": "none",
+      "timing": "original_pitch",
+      "turn_index": 76,
+      "quote": "you've identified a problem that's really important",
+      "explanation": "Howie explicitly validates the importance of the underlying ticketing problem.",
+      "evidence": [
+        "you've identified a problem that's really important"
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 76,
+          "speaker": "Howie",
+          "quote": "you've identified a problem that's really important"
+        }
+      ],
+      "activation": "evaluated",
+      "source_rationale_id": "R6",
+      "utterance_kind": "supporting_argument",
+      "decision_support": "none",
+      "all_mention_ids": [
+        "R6"
+      ]
+    },
+    {
+      "rationale_label": "market_timing",
+      "direction": "neutral",
+      "salience": "secondary",
+      "confidence": 0.96,
+      "utterance_type": "assessment",
+      "decision_link": "none",
+      "timing": "original_pitch",
+      "turn_index": 123,
+      "quote": "I think the blockchain is a new paradigm shift, it’s just early.",
+      "explanation": "Howie sees blockchain as a major emerging opportunity while noting that the market remains early.",
+      "evidence": [
+        "I think the blockchain is a new paradigm shift, it’s just early."
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 123,
+          "speaker": "Howie",
+          "quote": "I think the blockchain is a new paradigm shift, it’s just early."
+        }
+      ],
+      "activation": "evaluated",
+      "source_rationale_id": "R14",
+      "utterance_kind": "assessment",
+      "decision_support": "none",
+      "all_mention_ids": [
+        "R14"
+      ]
+    },
+    {
+      "rationale_label": "product_appeal_assessment",
+      "direction": "positive",
+      "salience": "secondary",
+      "confidence": 0.92,
+      "utterance_type": "assessment",
+      "decision_link": "none",
+      "timing": "original_pitch",
+      "turn_index": 127,
+      "quote": "that’s what I think this was. Cool.",
+      "explanation": "Howie agrees that Bandwagon is an appealing business application enabled by blockchain.",
+      "evidence": [
+        "I think this is a really cool practical application of the blockchain. I believe in that. And I love the concept.",
+        "that’s what I think this was. Cool."
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 76,
+          "speaker": "Howie",
+          "quote": "I think this is a really cool practical application of the blockchain. I believe in that. And I love the concept."
+        },
+        {
+          "turn_index": 127,
+          "speaker": "Howie",
+          "quote": "that’s what I think this was. Cool."
+        }
+      ],
+      "activation": "evaluated",
+      "source_rationale_id": "R16",
+      "utterance_kind": "assessment",
+      "decision_support": "none",
+      "all_mention_ids": [
+        "R7",
+        "R16"
+      ]
+    },
+    {
+      "rationale_label": "product_differentiation_concern",
+      "direction": "negative",
+      "salience": "primary",
+      "confidence": 0.97,
+      "utterance_type": "assessment",
+      "decision_link": "none",
+      "timing": "original_pitch",
+      "turn_index": 49,
+      "quote": "he just started a company that is exactly like this",
+      "explanation": "Howie identifies a nearly identical company, directly challenging Bandwagon's uniqueness.",
+      "evidence": [
+        "he just started a company that is exactly like this",
+        "They're not either."
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 49,
+          "speaker": "Howie",
+          "quote": "he just started a company that is exactly like this"
+        },
+        {
+          "turn_index": 55,
+          "speaker": "Howie",
+          "quote": "They're not either."
+        }
+      ],
+      "activation": "evaluated",
+      "source_rationale_id": "R2",
+      "utterance_kind": "concern",
+      "decision_support": "none",
+      "all_mention_ids": [
+        "R2",
+        "R4"
+      ]
+    },
+    {
+      "rationale_label": "venture_scale_concern",
+      "direction": "neutral",
+      "salience": "secondary",
+      "confidence": 0.96,
+      "utterance_type": "question",
+      "decision_link": "none",
+      "timing": "original_pitch",
+      "turn_index": 94,
+      "quote": "You think there can be a couple of players in this space?",
+      "explanation": "Howie tests whether the market can support multiple venture-scale winners rather than only the leading competitor.",
+      "evidence": [
+        "You think there can be a couple of players in this space?"
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 94,
+          "speaker": "Howie",
+          "quote": "You think there can be a couple of players in this space?"
+        }
+      ],
+      "activation": "queried",
+      "source_rationale_id": "R11",
+      "utterance_kind": "question",
+      "decision_support": "none",
+      "all_mention_ids": [
+        "R11"
+      ]
+    }
+  ],
+  "later_rationales": [],
+  "excluded_rationales": [],
+  "rationale_mentions": [
+    {
+      "rationale_label": "competitive_intensity_concern",
+      "direction": "neutral",
+      "salience": "secondary",
+      "confidence": 0.94,
+      "utterance_type": "question",
+      "decision_link": "none",
+      "timing": "original_pitch",
+      "turn_index": 45,
+      "quote": "Do you know someone named Fluffy Pony?",
+      "explanation": "Howie probes the founder's awareness of a specific direct competitor.",
+      "evidence": [
+        "Do you know someone named Fluffy Pony?"
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 45,
+          "speaker": "Howie",
+          "quote": "Do you know someone named Fluffy Pony?"
+        }
+      ],
+      "activation": "queried",
+      "source_rationale_id": "R1"
+    },
+    {
+      "rationale_label": "product_differentiation_concern",
+      "direction": "negative",
+      "salience": "primary",
+      "confidence": 0.97,
+      "utterance_type": "concern",
+      "decision_link": "none",
+      "timing": "original_pitch",
+      "turn_index": 49,
+      "quote": "he just started a company that is exactly like this",
+      "explanation": "Howie identifies a nearly identical company, directly challenging Bandwagon's uniqueness.",
+      "evidence": [
+        "he just started a company that is exactly like this"
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 49,
+          "speaker": "Howie",
+          "quote": "he just started a company that is exactly like this"
+        }
+      ],
+      "activation": "evaluated",
+      "source_rationale_id": "R2"
+    },
+    {
+      "rationale_label": "competitive_intensity_concern",
+      "direction": "negative",
+      "salience": "primary",
+      "confidence": 0.99,
+      "utterance_type": "concern",
+      "decision_link": "none",
+      "timing": "original_pitch",
+      "turn_index": 50,
+      "quote": "the three of them got together and are doing the exact same thing and just closed a $10 million round",
+      "explanation": "Howie emphasizes that an experienced competing team has already secured substantial funding.",
+      "evidence": [
+        "the three of them got together and are doing the exact same thing and just closed a $10 million round"
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 50,
+          "speaker": "Howie",
+          "quote": "the three of them got together and are doing the exact same thing and just closed a $10 million round"
+        }
+      ],
+      "activation": "evaluated",
+      "source_rationale_id": "R3"
+    },
+    {
+      "rationale_label": "product_differentiation_concern",
+      "direction": "negative",
+      "salience": "secondary",
+      "confidence": 0.95,
+      "utterance_type": "supporting_argument",
+      "decision_link": "none",
+      "timing": "original_pitch",
+      "turn_index": 55,
+      "quote": "They're not either.",
+      "explanation": "Howie says the competitor also avoids cryptocurrency, rebutting that feature as a differentiator.",
+      "evidence": [
+        "They're not either."
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 55,
+          "speaker": "Howie",
+          "quote": "They're not either."
+        }
+      ],
+      "activation": "evaluated",
+      "source_rationale_id": "R4"
+    },
+    {
+      "rationale_label": "founder_qualities",
+      "direction": "positive",
+      "salience": "secondary",
+      "confidence": 0.93,
+      "utterance_type": "assessment",
+      "decision_link": "none",
+      "timing": "original_pitch",
+      "turn_index": 76,
+      "quote": "you have a really good understanding of this market",
+      "explanation": "Howie positively assesses Harold's command of the ticketing market.",
+      "evidence": [
+        "you have a really good understanding of this market"
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 76,
+          "speaker": "Howie",
+          "quote": "you have a really good understanding of this market"
+        }
+      ],
+      "activation": "evaluated",
+      "source_rationale_id": "R5"
+    },
+    {
+      "rationale_label": "market_problem_validation",
+      "direction": "positive",
+      "salience": "secondary",
+      "confidence": 0.99,
+      "utterance_type": "supporting_argument",
+      "decision_link": "none",
+      "timing": "original_pitch",
+      "turn_index": 76,
+      "quote": "you've identified a problem that's really important",
+      "explanation": "Howie explicitly validates the importance of the underlying ticketing problem.",
+      "evidence": [
+        "you've identified a problem that's really important"
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 76,
+          "speaker": "Howie",
+          "quote": "you've identified a problem that's really important"
+        }
+      ],
+      "activation": "evaluated",
+      "source_rationale_id": "R6"
+    },
+    {
+      "rationale_label": "product_appeal_assessment",
+      "direction": "positive",
+      "salience": "secondary",
+      "confidence": 0.98,
+      "utterance_type": "assessment",
+      "decision_link": "none",
+      "timing": "original_pitch",
+      "turn_index": 76,
+      "quote": "I think this is a really cool practical application of the blockchain. I believe in that. And I love the concept.",
+      "explanation": "Howie expresses strong personal appeal for the product concept and its practical use of blockchain.",
+      "evidence": [
+        "I think this is a really cool practical application of the blockchain. I believe in that. And I love the concept."
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 76,
+          "speaker": "Howie",
+          "quote": "I think this is a really cool practical application of the blockchain. I believe in that. And I love the concept."
+        }
+      ],
+      "activation": "evaluated",
+      "source_rationale_id": "R7"
+    },
+    {
+      "rationale_label": "competitive_intensity_concern",
+      "direction": "negative",
+      "salience": "primary",
+      "confidence": 0.99,
+      "utterance_type": "concern",
+      "decision_link": "none",
+      "timing": "original_pitch",
+      "turn_index": 76,
+      "quote": "they're very well-funded and I feel like they're a year or two ahead of you",
+      "explanation": "Howie views the well-funded direct competitor's lead as his principal concern.",
+      "evidence": [
+        "they're very well-funded and I feel like they're a year or two ahead of you"
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 76,
+          "speaker": "Howie",
+          "quote": "they're very well-funded and I feel like they're a year or two ahead of you"
+        }
+      ],
+      "activation": "evaluated",
+      "source_rationale_id": "R8"
+    },
+    {
+      "rationale_label": "investment_thesis_constraint",
+      "direction": "negative",
+      "salience": "secondary",
+      "confidence": 0.91,
+      "utterance_type": "supporting_argument",
+      "decision_link": "none",
+      "timing": "original_pitch",
+      "turn_index": 76,
+      "quote": "I didn't get into their last round because I was staying away from blockchain",
+      "explanation": "Howie describes his prior avoidance of blockchain investments as a category-level constraint.",
+      "evidence": [
+        "I didn't get into their last round because I was staying away from blockchain"
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 76,
+          "speaker": "Howie",
+          "quote": "I didn't get into their last round because I was staying away from blockchain"
+        }
+      ],
+      "activation": "evaluated",
+      "source_rationale_id": "R9"
+    },
+    {
+      "rationale_label": "competitive_intensity_concern",
+      "direction": "negative",
+      "salience": "primary",
+      "confidence": 0.99,
+      "utterance_type": "decision_explanation",
+      "decision_link": "supports_out",
+      "timing": "original_pitch",
+      "turn_index": 78,
+      "quote": "if I were to get into it, I would invest in them. And so therefore I’m going to pass.",
+      "explanation": "Howie explicitly passes because he would choose the competing company if investing in the category.",
+      "evidence": [
+        "if I were to get into it, I would invest in them. And so therefore I’m going to pass."
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 78,
+          "speaker": "Howie",
+          "quote": "if I were to get into it, I would invest in them. And so therefore I’m going to pass."
+        }
+      ],
+      "activation": "evaluated",
+      "source_rationale_id": "R10"
+    },
+    {
+      "rationale_label": "venture_scale_concern",
+      "direction": "neutral",
+      "salience": "secondary",
+      "confidence": 0.96,
+      "utterance_type": "question",
+      "decision_link": "none",
+      "timing": "original_pitch",
+      "turn_index": 94,
+      "quote": "You think there can be a couple of players in this space?",
+      "explanation": "Howie tests whether the market can support multiple venture-scale winners rather than only the leading competitor.",
+      "evidence": [
+        "You think there can be a couple of players in this space?"
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 94,
+          "speaker": "Howie",
+          "quote": "You think there can be a couple of players in this space?"
+        }
+      ],
+      "activation": "queried",
+      "source_rationale_id": "R11"
+    },
+    {
+      "rationale_label": "fundraising_demand_signal",
+      "direction": "positive",
+      "salience": "secondary",
+      "confidence": 0.97,
+      "utterance_type": "assessment",
+      "decision_link": "none",
+      "timing": "original_pitch",
+      "turn_index": 123,
+      "quote": "I think he’ll raise this round, no problem.",
+      "explanation": "Howie expects Bandwagon to attract enough investor demand to complete the round.",
+      "evidence": [
+        "I think he’ll raise this round, no problem."
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 123,
+          "speaker": "Howie",
+          "quote": "I think he’ll raise this round, no problem."
+        }
+      ],
+      "activation": "evaluated",
+      "source_rationale_id": "R12"
+    },
+    {
+      "rationale_label": "founder_qualities",
+      "direction": "positive",
+      "salience": "secondary",
+      "confidence": 0.9,
+      "utterance_type": "assessment",
+      "decision_link": "none",
+      "timing": "original_pitch",
+      "turn_index": 123,
+      "quote": "He’s great.",
+      "explanation": "Howie gives a positive assessment of Harold's personal appeal during the immediate in-room debrief.",
+      "evidence": [
+        "He’s great."
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 123,
+          "speaker": "Howie",
+          "quote": "He’s great."
+        }
+      ],
+      "activation": "evaluated",
+      "source_rationale_id": "R13"
+    },
+    {
+      "rationale_label": "market_timing",
+      "direction": "neutral",
+      "salience": "secondary",
+      "confidence": 0.96,
+      "utterance_type": "assessment",
+      "decision_link": "none",
+      "timing": "original_pitch",
+      "turn_index": 123,
+      "quote": "I think the blockchain is a new paradigm shift, it’s just early.",
+      "explanation": "Howie sees blockchain as a major emerging opportunity while noting that the market remains early.",
+      "evidence": [
+        "I think the blockchain is a new paradigm shift, it’s just early."
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 123,
+          "speaker": "Howie",
+          "quote": "I think the blockchain is a new paradigm shift, it’s just early."
+        }
+      ],
+      "activation": "evaluated",
+      "source_rationale_id": "R14"
+    },
+    {
+      "rationale_label": "investor_domain_knowledge_constraint",
+      "direction": "negative",
+      "salience": "secondary",
+      "confidence": 0.91,
+      "utterance_type": "concern",
+      "decision_link": "none",
+      "timing": "original_pitch",
+      "turn_index": 123,
+      "quote": "I don’t know yet how to invest in it.",
+      "explanation": "Howie acknowledges that he lacks a settled framework for evaluating where to invest within blockchain.",
+      "evidence": [
+        "I don’t know yet how to invest in it."
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 123,
+          "speaker": "Howie",
+          "quote": "I don’t know yet how to invest in it."
+        }
+      ],
+      "activation": "evaluated",
+      "source_rationale_id": "R15"
+    },
+    {
+      "rationale_label": "product_appeal_assessment",
+      "direction": "positive",
+      "salience": "secondary",
+      "confidence": 0.92,
+      "utterance_type": "assessment",
+      "decision_link": "none",
+      "timing": "original_pitch",
+      "turn_index": 127,
+      "quote": "that’s what I think this was. Cool.",
+      "explanation": "Howie agrees that Bandwagon is an appealing business application enabled by blockchain.",
+      "evidence": [
+        "that’s what I think this was. Cool."
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 127,
+          "speaker": "Howie",
+          "quote": "that’s what I think this was. Cool."
+        }
+      ],
+      "activation": "evaluated",
+      "source_rationale_id": "R16"
+    }
+  ],
+  "expanded_quote_evidence": [],
+  "rejected_after_evidence_check": []
+}

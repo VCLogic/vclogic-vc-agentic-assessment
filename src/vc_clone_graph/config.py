@@ -58,7 +58,7 @@ class RunSettings(BaseModel):
 
 class ProviderSettings(BaseModel):
     model_config = ConfigDict(extra="forbid", frozen=True)
-    kind: Literal["fake", "ollama", "openai", "openrouter"]
+    kind: Literal["fake", "ollama", "openai", "openrouter", "codex"]
     model: str = Field(min_length=1)
     base_url: str | None = None
     embedding_model: str | None = None
@@ -175,6 +175,13 @@ class EmbeddingSettings(BaseModel):
         return self
 
 
+class AssessmentSettings(BaseModel):
+    model_config = ConfigDict(extra="forbid", frozen=True)
+    policy_summary: bool = True
+    fact_policy_comparison: bool = True
+    exception_evidence: bool = True
+
+
 class RunConfig(BaseModel):
     model_config = ConfigDict(extra="forbid", frozen=True)
     _workspace: Path | None = PrivateAttr(default=None)
@@ -191,6 +198,7 @@ class RunConfig(BaseModel):
     phase1: PhaseSettings
     phase2: PhaseSettings
     retrieval: RetrievalSettings
+    assessment: AssessmentSettings = AssessmentSettings()
     precedents: PrecedentSettings = PrecedentSettings()
     portfolio_memory: PortfolioMemorySettings = PortfolioMemorySettings()
     phase1_v44: Phase1V44Settings | None = None
@@ -211,10 +219,10 @@ class RunConfig(BaseModel):
             if phase.reasoning_effort is not None
             or phase.planning_reasoning_effort is not None
         ]
-        if configured_phases and self.provider.kind != "openrouter":
+        if configured_phases and self.provider.kind not in {"openrouter", "codex"}:
             phases = ", ".join(configured_phases)
             raise ValueError(
-                f"reasoning_effort is only supported with provider.kind=openrouter "
+                f"reasoning_effort is only supported with provider.kind=openrouter or codex "
                 f"(configured in {phases})"
             )
         if (

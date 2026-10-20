@@ -75,7 +75,11 @@ def build_grounded_phase2_synthesizer(
     raw = json.loads((baseline.run_root / "run-config.json").read_text(encoding="utf-8"))
     phase2 = raw.get("phase2", {})
     precedents = raw.get("precedents", {})
+    assessment = raw.get("assessment", {})
     settings = WorkflowSettings(
+        policy_summary=assessment.get("policy_summary", True),
+        fact_policy_comparison=assessment.get("fact_policy_comparison", True),
+        exception_evidence=assessment.get("exception_evidence", True),
         episode_slug=baseline.episode_slug,
         investor_name=runtime.investor.display_name,
         pitch=pitch,

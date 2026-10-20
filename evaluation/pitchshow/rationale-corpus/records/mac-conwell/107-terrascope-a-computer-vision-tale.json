@@ -1,0 +1,941 @@
+{
+  "schema": "phase1-rationale-reference-v1",
+  "extraction_version": "pitchshow-rationales-v1",
+  "fingerprint": "5126e7d4143ed66b77091079e98251e133eab8722c4574e0fc3f64ae36cef0cf",
+  "episode_slug": "107-terrascope-a-computer-vision-tale",
+  "vc_slug": "mac-conwell",
+  "vc_name": "Mac Conwell",
+  "actual_decision": "Out",
+  "later_decision": "Unknown",
+  "reference_kind": "automated_transcript_observed_candidate",
+  "human_validated": false,
+  "source_format": "transcript-observed-rationales-v1",
+  "source_path": "/home/dpasch01/vclogic-vc-agentic-assessment/evaluation/pitchshow/investors/mac-conwell/source/episodes/107-terrascope-a-computer-vision-tale.json",
+  "source_sha256": "b5cea4259d4d8c30b0d4a1a214db08a629acba5b05a4b37312ae56d5a83f537a",
+  "transcript_sha256": "a2ed6216692d3ad2590935a98168d41db9c1ba23ae2ace581cc6c3218d457edc",
+  "taxonomy_sha256": "eaa8734819a3ac34dd19ee5f0bf6de925a793a1d25a2d361090dafc9b751e1fc",
+  "model": "openai/gpt-5.6-luna",
+  "source_tier": "newly_extracted_and_independently_model_reviewed",
+  "reviewed_target_turns": [
+    9,
+    17,
+    24,
+    44,
+    48,
+    60,
+    62,
+    66,
+    72,
+    83,
+    85,
+    87,
+    94,
+    98,
+    100,
+    102,
+    111,
+    116,
+    125,
+    128,
+    133,
+    136,
+    140,
+    143
+  ],
+  "notes": "All supplied target turns were reviewed. Non-rationale turns were omitted, including greetings, confirmations, setup remarks, the bare decision prompt, the bare decision explanation, and the brief post-decision exchanges.",
+  "receipt_path": "/home/dpasch01/vclogic-vc-agentic-assessment/evaluation/pitchshow/investors/mac-conwell/rationale-references/receipts/107-terrascope-a-computer-vision-tale.json",
+  "scoring_scope": "original_pitch_only",
+  "shared_across_input_modes": true,
+  "rationales": [
+    {
+      "rationale_label": "business_model_assessment",
+      "direction": "negative",
+      "salience": "secondary",
+      "confidence": 0.94,
+      "utterance_type": "question",
+      "decision_link": "none",
+      "timing": "original_pitch",
+      "turn_index": 72,
+      "quote": "can you just start charging for the leads?",
+      "explanation": "Mac questions the current close-based monetization and suggests charging for leads instead.",
+      "evidence": [
+        "can you just start charging for the leads?"
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 72,
+          "speaker": "Mac",
+          "quote": "can you just start charging for the leads?"
+        }
+      ],
+      "activation": "queried",
+      "source_rationale_id": "R8",
+      "utterance_kind": "question",
+      "decision_support": "none",
+      "all_mention_ids": [
+        "R8"
+      ]
+    },
+    {
+      "rationale_label": "capital_intensity_concern",
+      "direction": "neutral",
+      "salience": "secondary",
+      "confidence": 0.87,
+      "utterance_type": "question",
+      "decision_link": "none",
+      "timing": "original_pitch",
+      "turn_index": 83,
+      "quote": "You're doing 20k per month. How much have you raised so far to date?",
+      "explanation": "Mac compares the burn rate with capital raised to assess the company’s funding requirements.",
+      "evidence": [
+        "You're doing 20k per month. How much have you raised so far to date?"
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 83,
+          "speaker": "Mac",
+          "quote": "You're doing 20k per month. How much have you raised so far to date?"
+        }
+      ],
+      "activation": "queried",
+      "source_rationale_id": "R9",
+      "utterance_kind": "question",
+      "decision_support": "none",
+      "all_mention_ids": [
+        "R9"
+      ]
+    },
+    {
+      "rationale_label": "execution_risk_assessment",
+      "direction": "negative",
+      "salience": "primary",
+      "confidence": 0.97,
+      "utterance_type": "assessment",
+      "decision_link": "explicit",
+      "timing": "original_pitch",
+      "turn_index": 98,
+      "quote": "you're doubling down on your strengths and not focusing on the stuff that needs for the company to grow",
+      "explanation": "Mac sees the founder’s emphasis on technical strengths over growth-critical work as an execution problem contributing to his refusal.",
+      "evidence": [
+        "you're doubling down on your strengths and not focusing on the stuff that needs for the company to grow"
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 98,
+          "speaker": "Mac",
+          "quote": "you're doubling down on your strengths and not focusing on the stuff that needs for the company to grow"
+        }
+      ],
+      "activation": "evaluated",
+      "source_rationale_id": "R16",
+      "utterance_kind": "assessment",
+      "decision_support": "supports_out",
+      "all_mention_ids": [
+        "R16"
+      ]
+    },
+    {
+      "rationale_label": "go_to_market_strategy_assessment",
+      "direction": "negative",
+      "salience": "secondary",
+      "confidence": 0.96,
+      "utterance_type": "assessment",
+      "decision_link": "explicit",
+      "timing": "original_pitch",
+      "turn_index": 100,
+      "quote": "you still don't know who your customer is",
+      "explanation": "Mac views the unresolved target customer as a fundamental go-to-market weakness.",
+      "evidence": [
+        "So what are you going to be doing different? And what are you going to be doing new?",
+        "what can you do to increase",
+        "I'd be prioritizing things that would help agents close more than just data for customers.",
+        "you still don't know who your customer is"
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 66,
+          "speaker": "Mac",
+          "quote": "So what are you going to be doing different? And what are you going to be doing new?"
+        },
+        {
+          "turn_index": 72,
+          "speaker": "Mac",
+          "quote": "what can you do to increase"
+        },
+        {
+          "turn_index": 87,
+          "speaker": "Mac",
+          "quote": "I'd be prioritizing things that would help agents close more than just data for customers."
+        },
+        {
+          "turn_index": 100,
+          "speaker": "Mac",
+          "quote": "you still don't know who your customer is"
+        }
+      ],
+      "activation": "evaluated",
+      "source_rationale_id": "R18",
+      "utterance_kind": "assessment",
+      "decision_support": "supports_out",
+      "all_mention_ids": [
+        "R5",
+        "R7",
+        "R11",
+        "R18"
+      ]
+    },
+    {
+      "rationale_label": "market_problem_validation",
+      "direction": "negative",
+      "salience": "primary",
+      "confidence": 0.98,
+      "utterance_type": "assessment",
+      "decision_link": "explicit",
+      "timing": "original_pitch",
+      "turn_index": 100,
+      "quote": "this feels like a solution in search of a problem",
+      "explanation": "Mac believes the company has not established a sufficiently clear customer problem for its technology.",
+      "evidence": [
+        "this feels like a solution in search of a problem"
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 100,
+          "speaker": "Mac",
+          "quote": "this feels like a solution in search of a problem"
+        }
+      ],
+      "activation": "evaluated",
+      "source_rationale_id": "R17",
+      "utterance_kind": "assessment",
+      "decision_support": "supports_out",
+      "all_mention_ids": [
+        "R17"
+      ]
+    },
+    {
+      "rationale_label": "market_timing",
+      "direction": "positive",
+      "salience": "secondary",
+      "confidence": 0.88,
+      "utterance_type": "assessment",
+      "decision_link": "none",
+      "timing": "original_pitch",
+      "turn_index": 98,
+      "quote": "This is a space that we know is ripe for disruption",
+      "explanation": "Mac views the rural-property category as favorably positioned for disruption.",
+      "model_quote_before_typography_repair": "this is a space that we know is ripe for disruption",
+      "evidence": [
+        "This is a space that we know is ripe for disruption"
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 98,
+          "speaker": "Mac",
+          "quote": "This is a space that we know is ripe for disruption"
+        }
+      ],
+      "activation": "evaluated",
+      "source_rationale_id": "R14",
+      "utterance_kind": "supporting_argument",
+      "decision_support": "none",
+      "all_mention_ids": [
+        "R14"
+      ]
+    },
+    {
+      "rationale_label": "product_appeal_assessment",
+      "direction": "positive",
+      "salience": "secondary",
+      "confidence": 0.87,
+      "utterance_type": "assessment",
+      "decision_link": "none",
+      "timing": "original_pitch",
+      "turn_index": 98,
+      "quote": "there's some really cool stuff here",
+      "explanation": "Mac acknowledges that the company has appealing or interesting product elements.",
+      "evidence": [
+        "there's some really cool stuff here"
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 98,
+          "speaker": "Mac",
+          "quote": "there's some really cool stuff here"
+        }
+      ],
+      "activation": "evaluated",
+      "source_rationale_id": "R15",
+      "utterance_kind": "supporting_argument",
+      "decision_support": "none",
+      "all_mention_ids": [
+        "R15"
+      ]
+    },
+    {
+      "rationale_label": "product_differentiation_concern",
+      "direction": "neutral",
+      "salience": "secondary",
+      "confidence": 0.95,
+      "utterance_type": "question",
+      "decision_link": "none",
+      "timing": "original_pitch",
+      "turn_index": 48,
+      "quote": "what happens to your company if Zillow does do this?",
+      "explanation": "Mac probes how the company would fare if the incumbent replicated the offering, testing defensibility.",
+      "evidence": [
+        "what happens to your company if Zillow does do this?"
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 48,
+          "speaker": "Mac",
+          "quote": "what happens to your company if Zillow does do this?"
+        }
+      ],
+      "activation": "queried",
+      "source_rationale_id": "R1",
+      "utterance_kind": "question",
+      "decision_support": "none",
+      "all_mention_ids": [
+        "R1"
+      ]
+    },
+    {
+      "rationale_label": "product_success_factor_assessment",
+      "direction": "negative",
+      "salience": "secondary",
+      "confidence": 0.94,
+      "utterance_type": "assessment",
+      "decision_link": "none",
+      "timing": "original_pitch",
+      "turn_index": 87,
+      "quote": "your UI/UX is better than your competitors, but it's nowhere near as good as Zillow",
+      "explanation": "Mac identifies substantial remaining interface refinement as a product requirement.",
+      "evidence": [
+        "your UI/UX is better than your competitors, but it's nowhere near as good as Zillow"
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 87,
+          "speaker": "Mac",
+          "quote": "your UI/UX is better than your competitors, but it's nowhere near as good as Zillow"
+        }
+      ],
+      "activation": "evaluated",
+      "source_rationale_id": "R13",
+      "utterance_kind": "assessment",
+      "decision_support": "none",
+      "all_mention_ids": [
+        "R10",
+        "R13"
+      ]
+    },
+    {
+      "rationale_label": "traction_repeatability_concern",
+      "direction": "negative",
+      "salience": "primary",
+      "confidence": 0.97,
+      "utterance_type": "assessment",
+      "decision_link": "none",
+      "timing": "original_pitch",
+      "turn_index": 72,
+      "quote": "if you're generating 500 leads, you gotta get more than one across the fence",
+      "explanation": "Mac is concerned that substantial lead volume is not converting into completed transactions.",
+      "evidence": [
+        "it doesn't seem like any of that stuff is working. You've still only got one sale.",
+        "if you're generating 500 leads, you gotta get more than one across the fence",
+        "you got people coming, you got to show that you can get people to close"
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 66,
+          "speaker": "Mac",
+          "quote": "it doesn't seem like any of that stuff is working. You've still only got one sale."
+        },
+        {
+          "turn_index": 72,
+          "speaker": "Mac",
+          "quote": "if you're generating 500 leads, you gotta get more than one across the fence"
+        },
+        {
+          "turn_index": 87,
+          "speaker": "Mac",
+          "quote": "you got people coming, you got to show that you can get people to close"
+        }
+      ],
+      "activation": "evaluated",
+      "source_rationale_id": "R6",
+      "utterance_kind": "concern",
+      "decision_support": "none",
+      "all_mention_ids": [
+        "R2",
+        "R3",
+        "R4",
+        "R6",
+        "R12"
+      ]
+    }
+  ],
+  "later_rationales": [
+    {
+      "rationale_label": "product_appeal_assessment",
+      "direction": "positive",
+      "salience": "secondary",
+      "confidence": 0.88,
+      "utterance_type": "assessment",
+      "decision_link": "none",
+      "timing": "later_commentary",
+      "turn_index": 125,
+      "quote": "he's built the interesting product",
+      "explanation": "In later commentary, Mac positively characterizes the product as interesting.",
+      "evidence": [
+        "he's built the interesting product"
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 125,
+          "speaker": "Mac",
+          "quote": "he's built the interesting product"
+        }
+      ],
+      "activation": "evaluated",
+      "source_rationale_id": "R19"
+    },
+    {
+      "rationale_label": "go_to_market_strategy_assessment",
+      "direction": "negative",
+      "salience": "primary",
+      "confidence": 0.97,
+      "utterance_type": "assessment",
+      "decision_link": "none",
+      "timing": "later_commentary",
+      "turn_index": 125,
+      "quote": "he doesn't know how to sell it. He doesn't know who he's selling it to.",
+      "explanation": "Mac reiterates that the founder lacks both a clear customer and a clear sales approach.",
+      "evidence": [
+        "he doesn't know how to sell it. He doesn't know who he's selling it to."
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 125,
+          "speaker": "Mac",
+          "quote": "he doesn't know how to sell it. He doesn't know who he's selling it to."
+        }
+      ],
+      "activation": "evaluated",
+      "source_rationale_id": "R20"
+    },
+    {
+      "rationale_label": "execution_risk_assessment",
+      "direction": "negative",
+      "salience": "secondary",
+      "confidence": 0.94,
+      "utterance_type": "assessment",
+      "decision_link": "none",
+      "timing": "later_commentary",
+      "turn_index": 125,
+      "quote": "having been doing this for a year and a half, that's a problem",
+      "explanation": "Mac considers the continued lack of commercial progress after eighteen months an execution concern.",
+      "evidence": [
+        "having been doing this for a year and a half, that's a problem"
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 125,
+          "speaker": "Mac",
+          "quote": "having been doing this for a year and a half, that's a problem"
+        }
+      ],
+      "activation": "evaluated",
+      "source_rationale_id": "R21"
+    },
+    {
+      "rationale_label": "founder_communication_quality",
+      "direction": "positive",
+      "salience": "secondary",
+      "confidence": 0.9,
+      "utterance_type": "assessment",
+      "decision_link": "none",
+      "timing": "later_commentary",
+      "turn_index": 128,
+      "quote": "he was very confident. He put it out there.",
+      "explanation": "Mac positively assesses the founder’s direct and confident response to the traction-timing question.",
+      "evidence": [
+        "he was very confident. He put it out there."
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 128,
+          "speaker": "Mac",
+          "quote": "he was very confident. He put it out there."
+        }
+      ],
+      "activation": "evaluated",
+      "source_rationale_id": "R22"
+    },
+    {
+      "rationale_label": "go_to_market_strategy_assessment",
+      "direction": "negative",
+      "salience": "secondary",
+      "confidence": 0.95,
+      "utterance_type": "assessment",
+      "decision_link": "none",
+      "timing": "later_commentary",
+      "turn_index": 140,
+      "quote": "He's never talked to one of the leads.",
+      "explanation": "Mac identifies the founder’s lack of direct lead contact as a missing customer-feedback and conversion link.",
+      "evidence": [
+        "He's never talked to one of the leads."
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 140,
+          "speaker": "Mac",
+          "quote": "He's never talked to one of the leads."
+        }
+      ],
+      "activation": "evaluated",
+      "source_rationale_id": "R23"
+    }
+  ],
+  "excluded_rationales": [],
+  "rationale_mentions": [
+    {
+      "rationale_label": "product_differentiation_concern",
+      "direction": "neutral",
+      "salience": "secondary",
+      "confidence": 0.95,
+      "utterance_type": "question",
+      "decision_link": "none",
+      "timing": "original_pitch",
+      "turn_index": 48,
+      "quote": "what happens to your company if Zillow does do this?",
+      "explanation": "Mac probes how the company would fare if the incumbent replicated the offering, testing defensibility.",
+      "evidence": [
+        "what happens to your company if Zillow does do this?"
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 48,
+          "speaker": "Mac",
+          "quote": "what happens to your company if Zillow does do this?"
+        }
+      ],
+      "activation": "queried",
+      "source_rationale_id": "R1"
+    },
+    {
+      "rationale_label": "traction_repeatability_concern",
+      "direction": "neutral",
+      "salience": "secondary",
+      "confidence": 0.91,
+      "utterance_type": "question",
+      "decision_link": "none",
+      "timing": "original_pitch",
+      "turn_index": 60,
+      "quote": "How long ago was that first close?",
+      "explanation": "Mac asks about the timing of the only reported transaction to assess traction pace and repeatability.",
+      "evidence": [
+        "How long ago was that first close?"
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 60,
+          "speaker": "Mac",
+          "quote": "How long ago was that first close?"
+        }
+      ],
+      "activation": "queried",
+      "source_rationale_id": "R2"
+    },
+    {
+      "rationale_label": "traction_repeatability_concern",
+      "direction": "neutral",
+      "salience": "secondary",
+      "confidence": 0.89,
+      "utterance_type": "assessment",
+      "decision_link": "none",
+      "timing": "original_pitch",
+      "turn_index": 62,
+      "quote": "It's been eight months since then.",
+      "explanation": "Mac highlights the lengthy gap since the first close as a relevant traction fact.",
+      "evidence": [
+        "It's been eight months since then."
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 62,
+          "speaker": "Mac",
+          "quote": "It's been eight months since then."
+        }
+      ],
+      "activation": "evaluated",
+      "source_rationale_id": "R3"
+    },
+    {
+      "rationale_label": "traction_repeatability_concern",
+      "direction": "negative",
+      "salience": "primary",
+      "confidence": 0.98,
+      "utterance_type": "concern",
+      "decision_link": "none",
+      "timing": "original_pitch",
+      "turn_index": 66,
+      "quote": "it doesn't seem like any of that stuff is working. You've still only got one sale.",
+      "explanation": "Mac explicitly views the existing acquisition efforts as ineffective given the limited sales.",
+      "model_quote_before_typography_repair": "It doesn't seem like any of that stuff is working. You've still only got one sale.",
+      "evidence": [
+        "it doesn't seem like any of that stuff is working. You've still only got one sale."
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 66,
+          "speaker": "Mac",
+          "quote": "it doesn't seem like any of that stuff is working. You've still only got one sale."
+        }
+      ],
+      "activation": "evaluated",
+      "source_rationale_id": "R4"
+    },
+    {
+      "rationale_label": "go_to_market_strategy_assessment",
+      "direction": "negative",
+      "salience": "secondary",
+      "confidence": 0.95,
+      "utterance_type": "question",
+      "decision_link": "none",
+      "timing": "original_pitch",
+      "turn_index": 66,
+      "quote": "So what are you going to be doing different? And what are you going to be doing new?",
+      "explanation": "Mac asks for a different customer-acquisition approach because the current approach has not produced enough closes.",
+      "evidence": [
+        "So what are you going to be doing different? And what are you going to be doing new?"
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 66,
+          "speaker": "Mac",
+          "quote": "So what are you going to be doing different? And what are you going to be doing new?"
+        }
+      ],
+      "activation": "queried",
+      "source_rationale_id": "R5"
+    },
+    {
+      "rationale_label": "traction_repeatability_concern",
+      "direction": "negative",
+      "salience": "primary",
+      "confidence": 0.97,
+      "utterance_type": "concern",
+      "decision_link": "none",
+      "timing": "original_pitch",
+      "turn_index": 72,
+      "quote": "if you're generating 500 leads, you gotta get more than one across the fence",
+      "explanation": "Mac is concerned that substantial lead volume is not converting into completed transactions.",
+      "evidence": [
+        "if you're generating 500 leads, you gotta get more than one across the fence"
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 72,
+          "speaker": "Mac",
+          "quote": "if you're generating 500 leads, you gotta get more than one across the fence"
+        }
+      ],
+      "activation": "evaluated",
+      "source_rationale_id": "R6"
+    },
+    {
+      "rationale_label": "go_to_market_strategy_assessment",
+      "direction": "negative",
+      "salience": "secondary",
+      "confidence": 0.93,
+      "utterance_type": "question",
+      "decision_link": "none",
+      "timing": "original_pitch",
+      "turn_index": 72,
+      "quote": "what can you do to increase",
+      "explanation": "Mac asks how the company can support agents and improve conversion from generated leads.",
+      "evidence": [
+        "what can you do to increase"
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 72,
+          "speaker": "Mac",
+          "quote": "what can you do to increase"
+        }
+      ],
+      "activation": "queried",
+      "source_rationale_id": "R7"
+    },
+    {
+      "rationale_label": "business_model_assessment",
+      "direction": "negative",
+      "salience": "secondary",
+      "confidence": 0.94,
+      "utterance_type": "question",
+      "decision_link": "none",
+      "timing": "original_pitch",
+      "turn_index": 72,
+      "quote": "can you just start charging for the leads?",
+      "explanation": "Mac questions the current close-based monetization and suggests charging for leads instead.",
+      "evidence": [
+        "can you just start charging for the leads?"
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 72,
+          "speaker": "Mac",
+          "quote": "can you just start charging for the leads?"
+        }
+      ],
+      "activation": "queried",
+      "source_rationale_id": "R8"
+    },
+    {
+      "rationale_label": "capital_intensity_concern",
+      "direction": "neutral",
+      "salience": "secondary",
+      "confidence": 0.87,
+      "utterance_type": "question",
+      "decision_link": "none",
+      "timing": "original_pitch",
+      "turn_index": 83,
+      "quote": "You're doing 20k per month. How much have you raised so far to date?",
+      "explanation": "Mac compares the burn rate with capital raised to assess the company’s funding requirements.",
+      "evidence": [
+        "You're doing 20k per month. How much have you raised so far to date?"
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 83,
+          "speaker": "Mac",
+          "quote": "You're doing 20k per month. How much have you raised so far to date?"
+        }
+      ],
+      "activation": "queried",
+      "source_rationale_id": "R9"
+    },
+    {
+      "rationale_label": "product_success_factor_assessment",
+      "direction": "neutral",
+      "salience": "secondary",
+      "confidence": 0.89,
+      "utterance_type": "question",
+      "decision_link": "none",
+      "timing": "original_pitch",
+      "turn_index": 85,
+      "quote": "What's your priority list right now on your product roadmap?",
+      "explanation": "Mac asks which next product priorities the founder believes are most important.",
+      "evidence": [
+        "What's your priority list right now on your product roadmap?"
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 85,
+          "speaker": "Mac",
+          "quote": "What's your priority list right now on your product roadmap?"
+        }
+      ],
+      "activation": "queried",
+      "source_rationale_id": "R10"
+    },
+    {
+      "rationale_label": "go_to_market_strategy_assessment",
+      "direction": "negative",
+      "salience": "primary",
+      "confidence": 0.97,
+      "utterance_type": "assessment",
+      "decision_link": "none",
+      "timing": "original_pitch",
+      "turn_index": 87,
+      "quote": "I'd be prioritizing things that would help agents close more than just data for customers.",
+      "explanation": "Mac believes the roadmap should focus more on helping agents close transactions than on adding customer-facing data.",
+      "evidence": [
+        "I'd be prioritizing things that would help agents close more than just data for customers."
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 87,
+          "speaker": "Mac",
+          "quote": "I'd be prioritizing things that would help agents close more than just data for customers."
+        }
+      ],
+      "activation": "evaluated",
+      "source_rationale_id": "R11"
+    },
+    {
+      "rationale_label": "traction_repeatability_concern",
+      "direction": "negative",
+      "salience": "secondary",
+      "confidence": 0.95,
+      "utterance_type": "concern",
+      "decision_link": "none",
+      "timing": "original_pitch",
+      "turn_index": 87,
+      "quote": "you got people coming, you got to show that you can get people to close",
+      "explanation": "Mac says the company still lacks evidence that incoming users can reliably become closed transactions.",
+      "evidence": [
+        "you got people coming, you got to show that you can get people to close"
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 87,
+          "speaker": "Mac",
+          "quote": "you got people coming, you got to show that you can get people to close"
+        }
+      ],
+      "activation": "evaluated",
+      "source_rationale_id": "R12"
+    },
+    {
+      "rationale_label": "product_success_factor_assessment",
+      "direction": "negative",
+      "salience": "secondary",
+      "confidence": 0.94,
+      "utterance_type": "assessment",
+      "decision_link": "none",
+      "timing": "original_pitch",
+      "turn_index": 87,
+      "quote": "your UI/UX is better than your competitors, but it's nowhere near as good as Zillow",
+      "explanation": "Mac identifies substantial remaining interface refinement as a product requirement.",
+      "evidence": [
+        "your UI/UX is better than your competitors, but it's nowhere near as good as Zillow"
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 87,
+          "speaker": "Mac",
+          "quote": "your UI/UX is better than your competitors, but it's nowhere near as good as Zillow"
+        }
+      ],
+      "activation": "evaluated",
+      "source_rationale_id": "R13"
+    },
+    {
+      "rationale_label": "market_timing",
+      "direction": "positive",
+      "salience": "secondary",
+      "confidence": 0.88,
+      "utterance_type": "supporting_argument",
+      "decision_link": "none",
+      "timing": "original_pitch",
+      "turn_index": 98,
+      "quote": "This is a space that we know is ripe for disruption",
+      "explanation": "Mac views the rural-property category as favorably positioned for disruption.",
+      "model_quote_before_typography_repair": "this is a space that we know is ripe for disruption",
+      "evidence": [
+        "This is a space that we know is ripe for disruption"
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 98,
+          "speaker": "Mac",
+          "quote": "This is a space that we know is ripe for disruption"
+        }
+      ],
+      "activation": "evaluated",
+      "source_rationale_id": "R14"
+    },
+    {
+      "rationale_label": "product_appeal_assessment",
+      "direction": "positive",
+      "salience": "secondary",
+      "confidence": 0.87,
+      "utterance_type": "supporting_argument",
+      "decision_link": "none",
+      "timing": "original_pitch",
+      "turn_index": 98,
+      "quote": "there's some really cool stuff here",
+      "explanation": "Mac acknowledges that the company has appealing or interesting product elements.",
+      "evidence": [
+        "there's some really cool stuff here"
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 98,
+          "speaker": "Mac",
+          "quote": "there's some really cool stuff here"
+        }
+      ],
+      "activation": "evaluated",
+      "source_rationale_id": "R15"
+    },
+    {
+      "rationale_label": "execution_risk_assessment",
+      "direction": "negative",
+      "salience": "primary",
+      "confidence": 0.97,
+      "utterance_type": "assessment",
+      "decision_link": "supports_out",
+      "timing": "original_pitch",
+      "turn_index": 98,
+      "quote": "you're doubling down on your strengths and not focusing on the stuff that needs for the company to grow",
+      "explanation": "Mac sees the founder’s emphasis on technical strengths over growth-critical work as an execution problem contributing to his refusal.",
+      "evidence": [
+        "you're doubling down on your strengths and not focusing on the stuff that needs for the company to grow"
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 98,
+          "speaker": "Mac",
+          "quote": "you're doubling down on your strengths and not focusing on the stuff that needs for the company to grow"
+        }
+      ],
+      "activation": "evaluated",
+      "source_rationale_id": "R16"
+    },
+    {
+      "rationale_label": "market_problem_validation",
+      "direction": "negative",
+      "salience": "primary",
+      "confidence": 0.98,
+      "utterance_type": "assessment",
+      "decision_link": "supports_out",
+      "timing": "original_pitch",
+      "turn_index": 100,
+      "quote": "this feels like a solution in search of a problem",
+      "explanation": "Mac believes the company has not established a sufficiently clear customer problem for its technology.",
+      "evidence": [
+        "this feels like a solution in search of a problem"
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 100,
+          "speaker": "Mac",
+          "quote": "this feels like a solution in search of a problem"
+        }
+      ],
+      "activation": "evaluated",
+      "source_rationale_id": "R17"
+    },
+    {
+      "rationale_label": "go_to_market_strategy_assessment",
+      "direction": "negative",
+      "salience": "secondary",
+      "confidence": 0.96,
+      "utterance_type": "assessment",
+      "decision_link": "supports_out",
+      "timing": "original_pitch",
+      "turn_index": 100,
+      "quote": "you still don't know who your customer is",
+      "explanation": "Mac views the unresolved target customer as a fundamental go-to-market weakness.",
+      "evidence": [
+        "you still don't know who your customer is"
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 100,
+          "speaker": "Mac",
+          "quote": "you still don't know who your customer is"
+        }
+      ],
+      "activation": "evaluated",
+      "source_rationale_id": "R18"
+    }
+  ],
+  "expanded_quote_evidence": [],
+  "rejected_after_evidence_check": []
+}

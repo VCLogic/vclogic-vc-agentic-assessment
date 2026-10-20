@@ -1,0 +1,725 @@
+{
+  "schema": "phase1-rationale-reference-v1",
+  "extraction_version": "pitchshow-rationales-v1",
+  "fingerprint": "131c9a036b4f4c2e8496ccfe30a98a3a32476f071a15208b3dfb4ac6a7db3f11",
+  "episode_slug": "149-dopl",
+  "vc_slug": "jesse-middleton-flybridge",
+  "vc_name": "Jesse Middleton",
+  "actual_decision": "Out",
+  "later_decision": "Unknown",
+  "reference_kind": "automated_transcript_observed_candidate",
+  "human_validated": false,
+  "source_format": "transcript-observed-rationales-v1",
+  "source_path": "../source/episodes/149-dopl.json",
+  "source_sha256": "74b437580b66a7483eb75cae33822c68c26d82e4f020ebde21ebebfbb52020b4",
+  "transcript_sha256": "13b664a0af39ad371d7a9a7ed44567f7e2381ad30990fcba5d016ddde2ea13b9",
+  "taxonomy_sha256": "eaa8734819a3ac34dd19ee5f0bf6de925a793a1d25a2d361090dafc9b751e1fc",
+  "model": "codex:gpt-5.6-luna+gpt-5.6-sol",
+  "generation_stages": [
+    {
+      "phase": "rationale_extract",
+      "backend": "codex",
+      "model": "gpt-5.6-luna"
+    },
+    {
+      "phase": "rationale_verify",
+      "backend": "codex",
+      "model": "gpt-5.6-sol"
+    }
+  ],
+  "source_tier": "newly_extracted_and_independently_model_reviewed",
+  "reviewed_target_turns": [
+    11,
+    13,
+    15,
+    17,
+    19,
+    30,
+    32,
+    34,
+    36,
+    38,
+    46,
+    48,
+    56,
+    64,
+    67,
+    69,
+    89,
+    98,
+    100,
+    111,
+    125,
+    127,
+    129,
+    132,
+    134,
+    136,
+    138,
+    141,
+    143
+  ],
+  "notes": "All supplied target turns were reviewed exactly once. The immediate investor-only debrief remains classified as original_pitch; generic praise, acknowledgments, jokes, and remarks about another investor were not treated as rationales.",
+  "receipt_path": "receipts/149-dopl.json",
+  "scoring_scope": "original_pitch_only",
+  "shared_across_input_modes": true,
+  "rationales": [
+    {
+      "rationale_label": "business_model_assessment",
+      "direction": "positive",
+      "salience": "secondary",
+      "confidence": 0.93,
+      "utterance_type": "assessment",
+      "decision_link": "none",
+      "timing": "original_pitch",
+      "turn_index": 67,
+      "quote": "I'm a total fan of, like, keep it simple, do one business first, do the one that works for you.",
+      "explanation": "Because the possible operating models have different economics, he endorses Dopl’s focused initial model.",
+      "evidence": [
+        "I'm a total fan of, like, keep it simple, do one business first, do the one that works for you."
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 67,
+          "speaker": "Jesse",
+          "quote": "I'm a total fan of, like, keep it simple, do one business first, do the one that works for you."
+        }
+      ],
+      "activation": "evaluated",
+      "source_rationale_id": "R6",
+      "utterance_kind": "supporting_argument",
+      "decision_support": "none",
+      "all_mention_ids": [
+        "R6"
+      ]
+    },
+    {
+      "rationale_label": "founder_market_fit",
+      "direction": "positive",
+      "salience": "secondary",
+      "confidence": 0.88,
+      "utterance_type": "assessment",
+      "decision_link": "none",
+      "timing": "original_pitch",
+      "turn_index": 138,
+      "quote": "the right person to drive it forward",
+      "explanation": "He regards Ryan as well suited to advance this particular opportunity.",
+      "evidence": [
+        "You've obviously been embedded in this world for a long time",
+        "the right person to drive it forward"
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 46,
+          "speaker": "Jesse",
+          "quote": "You've obviously been embedded in this world for a long time"
+        },
+        {
+          "turn_index": 138,
+          "speaker": "Jesse",
+          "quote": "the right person to drive it forward"
+        }
+      ],
+      "activation": "evaluated",
+      "source_rationale_id": "R15",
+      "utterance_kind": "assessment",
+      "decision_support": "none",
+      "all_mention_ids": [
+        "R4",
+        "R15"
+      ]
+    },
+    {
+      "rationale_label": "fund_economics_constraint",
+      "direction": "negative",
+      "salience": "primary",
+      "confidence": 0.94,
+      "utterance_type": "decision_reason",
+      "decision_link": "explicit",
+      "timing": "original_pitch",
+      "turn_index": 129,
+      "quote": "I know I won't get there on the larger check at all.",
+      "explanation": "He says he will not provide the larger check that would materially contribute to the round.",
+      "evidence": [
+        "I know I won't get there on the larger check at all."
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 129,
+          "speaker": "Jesse",
+          "quote": "I know I won't get there on the larger check at all."
+        }
+      ],
+      "activation": "evaluated",
+      "source_rationale_id": "R10",
+      "utterance_kind": "decision_explanation",
+      "decision_support": "supports_out",
+      "all_mention_ids": [
+        "R10"
+      ]
+    },
+    {
+      "rationale_label": "investment_thesis_constraint",
+      "direction": "negative",
+      "salience": "primary",
+      "confidence": 0.98,
+      "utterance_type": "decision_reason",
+      "decision_link": "explicit",
+      "timing": "original_pitch",
+      "turn_index": 129,
+      "quote": "It's just not our space.",
+      "explanation": "He identifies the company as outside his firm’s investment focus.",
+      "evidence": [
+        "It's just not our space."
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 129,
+          "speaker": "Jesse",
+          "quote": "It's just not our space."
+        }
+      ],
+      "activation": "evaluated",
+      "source_rationale_id": "R11",
+      "utterance_kind": "decision_explanation",
+      "decision_support": "supports_out",
+      "all_mention_ids": [
+        "R11"
+      ]
+    },
+    {
+      "rationale_label": "investor_domain_knowledge_constraint",
+      "direction": "negative",
+      "salience": "primary",
+      "confidence": 0.99,
+      "utterance_type": "decision_reason",
+      "decision_link": "explicit",
+      "timing": "original_pitch",
+      "turn_index": 89,
+      "quote": "it's just not my area of focus or expertise.",
+      "explanation": "He explicitly ties his refusal to his lack of focus and expertise in healthcare, hardware, and hospital sales.",
+      "evidence": [
+        "it's just not my area of focus or expertise."
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 89,
+          "speaker": "Jesse",
+          "quote": "it's just not my area of focus or expertise."
+        }
+      ],
+      "activation": "evaluated",
+      "source_rationale_id": "R7",
+      "utterance_kind": "decision_explanation",
+      "decision_support": "supports_out",
+      "all_mention_ids": [
+        "R7"
+      ]
+    },
+    {
+      "rationale_label": "investor_experience_bias",
+      "direction": "neutral",
+      "salience": "secondary",
+      "confidence": 0.83,
+      "utterance_type": "assessment",
+      "decision_link": "none",
+      "timing": "original_pitch",
+      "turn_index": 64,
+      "quote": "We're invested in a robotic farming company in tractors and they offer sort of three modes.",
+      "explanation": "He draws on a portfolio robotics investment to frame his comparison of Dopl’s possible operating models.",
+      "evidence": [
+        "We're invested in a robotic farming company in tractors and they offer sort of three modes."
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 64,
+          "speaker": "Jesse",
+          "quote": "We're invested in a robotic farming company in tractors and they offer sort of three modes."
+        }
+      ],
+      "activation": "evaluated",
+      "source_rationale_id": "R5",
+      "utterance_kind": "supporting_argument",
+      "decision_support": "none",
+      "all_mention_ids": [
+        "R5"
+      ]
+    },
+    {
+      "rationale_label": "market_timing",
+      "direction": "positive",
+      "salience": "secondary",
+      "confidence": 0.79,
+      "utterance_type": "assessment",
+      "decision_link": "none",
+      "timing": "original_pitch",
+      "turn_index": 138,
+      "quote": "No, I think it's right.",
+      "explanation": "Responding to uncertainty about when the category will arrive, he expresses confidence that the opportunity’s timing is right.",
+      "evidence": [
+        "we don't have a robotic scanner.",
+        "No, I think it's right."
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 136,
+          "speaker": "Jesse",
+          "quote": "we don't have a robotic scanner."
+        },
+        {
+          "turn_index": 138,
+          "speaker": "Jesse",
+          "quote": "No, I think it's right."
+        }
+      ],
+      "activation": "evaluated",
+      "source_rationale_id": "R14",
+      "utterance_kind": "assessment",
+      "decision_support": "none",
+      "all_mention_ids": [
+        "R13",
+        "R14"
+      ]
+    },
+    {
+      "rationale_label": "mission_alignment_preference",
+      "direction": "positive",
+      "salience": "secondary",
+      "confidence": 0.92,
+      "utterance_type": "assessment",
+      "decision_link": "none",
+      "timing": "original_pitch",
+      "turn_index": 15,
+      "quote": "It's a fantastic mission.",
+      "explanation": "Jesse positively responds to the company’s healthcare-access mission.",
+      "evidence": [
+        "It's a fantastic mission."
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 15,
+          "speaker": "Jesse",
+          "quote": "It's a fantastic mission."
+        }
+      ],
+      "activation": "evaluated",
+      "source_rationale_id": "R1",
+      "utterance_kind": "assessment",
+      "decision_support": "none",
+      "all_mention_ids": [
+        "R1"
+      ]
+    },
+    {
+      "rationale_label": "solution_feasibility_assessment",
+      "direction": "positive",
+      "salience": "secondary",
+      "confidence": 0.86,
+      "utterance_type": "assessment",
+      "decision_link": "none",
+      "timing": "original_pitch",
+      "turn_index": 134,
+      "quote": "We have self driving cars on the road that can kill humans.",
+      "explanation": "He cites the deployment of a riskier autonomous technology as evidence that robotic scanning should be feasible.",
+      "evidence": [
+        "The sensor in your robot can react to too much pressure way faster than the human can.",
+        "Ultrasound feels a little safer.",
+        "We have self driving cars on the road that can kill humans."
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 100,
+          "speaker": "Jesse",
+          "quote": "The sensor in your robot can react to too much pressure way faster than the human can."
+        },
+        {
+          "turn_index": 111,
+          "speaker": "Jesse",
+          "quote": "Ultrasound feels a little safer."
+        },
+        {
+          "turn_index": 134,
+          "speaker": "Jesse",
+          "quote": "We have self driving cars on the road that can kill humans."
+        }
+      ],
+      "activation": "evaluated",
+      "source_rationale_id": "R12",
+      "utterance_kind": "supporting_argument",
+      "decision_support": "none",
+      "all_mention_ids": [
+        "R2",
+        "R3",
+        "R8",
+        "R9",
+        "R12"
+      ]
+    }
+  ],
+  "later_rationales": [],
+  "excluded_rationales": [],
+  "rationale_mentions": [
+    {
+      "rationale_label": "mission_alignment_preference",
+      "direction": "positive",
+      "salience": "secondary",
+      "confidence": 0.92,
+      "utterance_type": "assessment",
+      "decision_link": "none",
+      "timing": "original_pitch",
+      "turn_index": 15,
+      "quote": "It's a fantastic mission.",
+      "explanation": "Jesse positively responds to the company’s healthcare-access mission.",
+      "evidence": [
+        "It's a fantastic mission."
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 15,
+          "speaker": "Jesse",
+          "quote": "It's a fantastic mission."
+        }
+      ],
+      "activation": "evaluated",
+      "source_rationale_id": "R1"
+    },
+    {
+      "rationale_label": "solution_feasibility_assessment",
+      "direction": "neutral",
+      "salience": "secondary",
+      "confidence": 0.9,
+      "utterance_type": "question",
+      "decision_link": "none",
+      "timing": "original_pitch",
+      "turn_index": 36,
+      "quote": "Do they do it on like on a 3D printed like dummy body",
+      "explanation": "He asks whether remote specialists need a physical surface to reproduce the in-person scanning experience.",
+      "evidence": [
+        "Do they do it on like on a 3D printed like dummy body"
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 36,
+          "speaker": "Jesse",
+          "quote": "Do they do it on like on a 3D printed like dummy body"
+        }
+      ],
+      "activation": "queried",
+      "source_rationale_id": "R2"
+    },
+    {
+      "rationale_label": "solution_feasibility_assessment",
+      "direction": "negative",
+      "salience": "secondary",
+      "confidence": 0.93,
+      "utterance_type": "concern",
+      "decision_link": "none",
+      "timing": "original_pitch",
+      "turn_index": 46,
+      "quote": "Like, all it takes is one mistake.",
+      "explanation": "He raises the safety and certification risk posed by even a single operational failure.",
+      "evidence": [
+        "Like, all it takes is one mistake."
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 46,
+          "speaker": "Jesse",
+          "quote": "Like, all it takes is one mistake."
+        }
+      ],
+      "activation": "evaluated",
+      "source_rationale_id": "R3"
+    },
+    {
+      "rationale_label": "founder_market_fit",
+      "direction": "positive",
+      "salience": "secondary",
+      "confidence": 0.91,
+      "utterance_type": "assessment",
+      "decision_link": "none",
+      "timing": "original_pitch",
+      "turn_index": 46,
+      "quote": "You've obviously been embedded in this world for a long time",
+      "explanation": "He recognizes Ryan’s sustained experience in the relevant healthcare domain.",
+      "evidence": [
+        "You've obviously been embedded in this world for a long time"
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 46,
+          "speaker": "Jesse",
+          "quote": "You've obviously been embedded in this world for a long time"
+        }
+      ],
+      "activation": "evaluated",
+      "source_rationale_id": "R4"
+    },
+    {
+      "rationale_label": "investor_experience_bias",
+      "direction": "neutral",
+      "salience": "secondary",
+      "confidence": 0.83,
+      "utterance_type": "supporting_argument",
+      "decision_link": "none",
+      "timing": "original_pitch",
+      "turn_index": 64,
+      "quote": "We're invested in a robotic farming company in tractors and they offer sort of three modes.",
+      "explanation": "He draws on a portfolio robotics investment to frame his comparison of Dopl’s possible operating models.",
+      "evidence": [
+        "We're invested in a robotic farming company in tractors and they offer sort of three modes."
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 64,
+          "speaker": "Jesse",
+          "quote": "We're invested in a robotic farming company in tractors and they offer sort of three modes."
+        }
+      ],
+      "activation": "evaluated",
+      "source_rationale_id": "R5"
+    },
+    {
+      "rationale_label": "business_model_assessment",
+      "direction": "positive",
+      "salience": "secondary",
+      "confidence": 0.93,
+      "utterance_type": "supporting_argument",
+      "decision_link": "none",
+      "timing": "original_pitch",
+      "turn_index": 67,
+      "quote": "I'm a total fan of, like, keep it simple, do one business first, do the one that works for you.",
+      "explanation": "Because the possible operating models have different economics, he endorses Dopl’s focused initial model.",
+      "evidence": [
+        "I'm a total fan of, like, keep it simple, do one business first, do the one that works for you."
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 67,
+          "speaker": "Jesse",
+          "quote": "I'm a total fan of, like, keep it simple, do one business first, do the one that works for you."
+        }
+      ],
+      "activation": "evaluated",
+      "source_rationale_id": "R6"
+    },
+    {
+      "rationale_label": "investor_domain_knowledge_constraint",
+      "direction": "negative",
+      "salience": "primary",
+      "confidence": 0.99,
+      "utterance_type": "decision_explanation",
+      "decision_link": "supports_out",
+      "timing": "original_pitch",
+      "turn_index": 89,
+      "quote": "it's just not my area of focus or expertise.",
+      "explanation": "He explicitly ties his refusal to his lack of focus and expertise in healthcare, hardware, and hospital sales.",
+      "evidence": [
+        "it's just not my area of focus or expertise."
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 89,
+          "speaker": "Jesse",
+          "quote": "it's just not my area of focus or expertise."
+        }
+      ],
+      "activation": "evaluated",
+      "source_rationale_id": "R7"
+    },
+    {
+      "rationale_label": "solution_feasibility_assessment",
+      "direction": "positive",
+      "salience": "secondary",
+      "confidence": 0.95,
+      "utterance_type": "supporting_argument",
+      "decision_link": "none",
+      "timing": "original_pitch",
+      "turn_index": 100,
+      "quote": "The sensor in your robot can react to too much pressure way faster than the human can.",
+      "explanation": "He identifies faster pressure detection as a safety advantage of the robotic solution.",
+      "evidence": [
+        "The sensor in your robot can react to too much pressure way faster than the human can."
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 100,
+          "speaker": "Jesse",
+          "quote": "The sensor in your robot can react to too much pressure way faster than the human can."
+        }
+      ],
+      "activation": "evaluated",
+      "source_rationale_id": "R8"
+    },
+    {
+      "rationale_label": "solution_feasibility_assessment",
+      "direction": "positive",
+      "salience": "secondary",
+      "confidence": 0.91,
+      "utterance_type": "assessment",
+      "decision_link": "none",
+      "timing": "original_pitch",
+      "turn_index": 111,
+      "quote": "Ultrasound feels a little safer.",
+      "explanation": "He regards ultrasound as a safer initial application than the earlier heart-procedure concept.",
+      "evidence": [
+        "Ultrasound feels a little safer."
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 111,
+          "speaker": "Jesse",
+          "quote": "Ultrasound feels a little safer."
+        }
+      ],
+      "activation": "evaluated",
+      "source_rationale_id": "R9"
+    },
+    {
+      "rationale_label": "fund_economics_constraint",
+      "direction": "negative",
+      "salience": "primary",
+      "confidence": 0.94,
+      "utterance_type": "decision_explanation",
+      "decision_link": "supports_out",
+      "timing": "original_pitch",
+      "turn_index": 129,
+      "quote": "I know I won't get there on the larger check at all.",
+      "explanation": "He says he will not provide the larger check that would materially contribute to the round.",
+      "evidence": [
+        "I know I won't get there on the larger check at all."
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 129,
+          "speaker": "Jesse",
+          "quote": "I know I won't get there on the larger check at all."
+        }
+      ],
+      "activation": "evaluated",
+      "source_rationale_id": "R10"
+    },
+    {
+      "rationale_label": "investment_thesis_constraint",
+      "direction": "negative",
+      "salience": "primary",
+      "confidence": 0.98,
+      "utterance_type": "decision_explanation",
+      "decision_link": "supports_out",
+      "timing": "original_pitch",
+      "turn_index": 129,
+      "quote": "It's just not our space.",
+      "explanation": "He identifies the company as outside his firm’s investment focus.",
+      "evidence": [
+        "It's just not our space."
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 129,
+          "speaker": "Jesse",
+          "quote": "It's just not our space."
+        }
+      ],
+      "activation": "evaluated",
+      "source_rationale_id": "R11"
+    },
+    {
+      "rationale_label": "solution_feasibility_assessment",
+      "direction": "positive",
+      "salience": "secondary",
+      "confidence": 0.86,
+      "utterance_type": "supporting_argument",
+      "decision_link": "none",
+      "timing": "original_pitch",
+      "turn_index": 134,
+      "quote": "We have self driving cars on the road that can kill humans.",
+      "explanation": "He cites the deployment of a riskier autonomous technology as evidence that robotic scanning should be feasible.",
+      "evidence": [
+        "We have self driving cars on the road that can kill humans."
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 134,
+          "speaker": "Jesse",
+          "quote": "We have self driving cars on the road that can kill humans."
+        }
+      ],
+      "activation": "evaluated",
+      "source_rationale_id": "R12"
+    },
+    {
+      "rationale_label": "market_timing",
+      "direction": "positive",
+      "salience": "secondary",
+      "confidence": 0.81,
+      "utterance_type": "supporting_argument",
+      "decision_link": "none",
+      "timing": "original_pitch",
+      "turn_index": 136,
+      "quote": "we don't have a robotic scanner.",
+      "explanation": "In contrast with deployed self-driving cars, he characterizes robotic scanning as an overdue market opportunity.",
+      "evidence": [
+        "we don't have a robotic scanner."
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 136,
+          "speaker": "Jesse",
+          "quote": "we don't have a robotic scanner."
+        }
+      ],
+      "activation": "evaluated",
+      "source_rationale_id": "R13"
+    },
+    {
+      "rationale_label": "market_timing",
+      "direction": "positive",
+      "salience": "secondary",
+      "confidence": 0.79,
+      "utterance_type": "assessment",
+      "decision_link": "none",
+      "timing": "original_pitch",
+      "turn_index": 138,
+      "quote": "No, I think it's right.",
+      "explanation": "Responding to uncertainty about when the category will arrive, he expresses confidence that the opportunity’s timing is right.",
+      "evidence": [
+        "No, I think it's right."
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 138,
+          "speaker": "Jesse",
+          "quote": "No, I think it's right."
+        }
+      ],
+      "activation": "evaluated",
+      "source_rationale_id": "R14"
+    },
+    {
+      "rationale_label": "founder_market_fit",
+      "direction": "positive",
+      "salience": "secondary",
+      "confidence": 0.88,
+      "utterance_type": "assessment",
+      "decision_link": "none",
+      "timing": "original_pitch",
+      "turn_index": 138,
+      "quote": "the right person to drive it forward",
+      "explanation": "He regards Ryan as well suited to advance this particular opportunity.",
+      "evidence": [
+        "the right person to drive it forward"
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 138,
+          "speaker": "Jesse",
+          "quote": "the right person to drive it forward"
+        }
+      ],
+      "activation": "evaluated",
+      "source_rationale_id": "R15"
+    }
+  ],
+  "expanded_quote_evidence": [],
+  "rejected_after_evidence_check": []
+}

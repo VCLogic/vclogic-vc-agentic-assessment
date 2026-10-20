@@ -1,0 +1,892 @@
+{
+  "schema": "phase1-rationale-reference-v1",
+  "extraction_version": "pitchshow-rationales-v1",
+  "fingerprint": "dd5f3c40415da95d615fded7d29a50206c5a9d1d70f398438d6857cf026d6dde",
+  "episode_slug": "123-outlines-a-vc-backed-shower-curtain",
+  "vc_slug": "howie-diamond-pure-ventures",
+  "vc_name": "Howie Diamond",
+  "actual_decision": "Out",
+  "later_decision": "Unknown",
+  "reference_kind": "automated_transcript_observed_candidate",
+  "human_validated": false,
+  "source_format": "transcript-observed-rationales-v1",
+  "source_path": "/home/dpasch01/vclogic-vc-agentic-assessment/evaluation/pitchshow/investors/howie-diamond-pure-ventures/source/episodes/123-outlines-a-vc-backed-shower-curtain.json",
+  "source_sha256": "a7bfb860e16e505e224838e63a304948f18f79fafef642f9518ce9b09bbb7170",
+  "transcript_sha256": "87bbda1ee226e5e23452e8071b03c1dae3ba09d5855e7ef402f0961c1462db07",
+  "taxonomy_sha256": "eaa8734819a3ac34dd19ee5f0bf6de925a793a1d25a2d361090dafc9b751e1fc",
+  "model": "codex:gpt-5.6-luna+gpt-5.6-sol",
+  "generation_stages": [
+    {
+      "phase": "rationale_extract",
+      "backend": "codex",
+      "model": "gpt-5.6-luna"
+    },
+    {
+      "phase": "rationale_verify",
+      "backend": "codex",
+      "model": "gpt-5.6-sol"
+    }
+  ],
+  "source_tier": "newly_extracted_and_independently_model_reviewed",
+  "reviewed_target_turns": [
+    6,
+    14,
+    17,
+    43,
+    45,
+    56,
+    65,
+    70,
+    74,
+    76,
+    79,
+    82,
+    84,
+    97,
+    99,
+    103,
+    106,
+    112
+  ],
+  "notes": "Turns 70, 99, 103, and 112 contained no independently qualifying rationale; turn 103 was a humorous hypothetical without an explicit company assessment in its attributed text.",
+  "receipt_path": "/home/dpasch01/vclogic-vc-agentic-assessment/evaluation/pitchshow/investors/howie-diamond-pure-ventures/rationale-references/receipts/123-outlines-a-vc-backed-shower-curtain.json",
+  "scoring_scope": "original_pitch_only",
+  "shared_across_input_modes": true,
+  "rationales": [
+    {
+      "rationale_label": "business_model_assessment",
+      "direction": "negative",
+      "salience": "primary",
+      "confidence": 0.98,
+      "utterance_type": "decision_reason",
+      "decision_link": "explicit",
+      "timing": "original_pitch",
+      "turn_index": 45,
+      "quote": "the price is way too high and way too premium for me to - to get involved in this",
+      "explanation": "Howie explicitly links the premium pricing to his refusal to invest.",
+      "evidence": [
+        "That is a very high price point.",
+        "the price is way too high and way too premium for me to - to get involved in this"
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 17,
+          "speaker": "Howie",
+          "quote": "That is a very high price point."
+        },
+        {
+          "turn_index": 45,
+          "speaker": "Howie",
+          "quote": "the price is way too high and way too premium for me to - to get involved in this"
+        }
+      ],
+      "activation": "evaluated",
+      "source_rationale_id": "R9",
+      "utterance_kind": "decision_explanation",
+      "decision_support": "supports_out",
+      "all_mention_ids": [
+        "R3",
+        "R4",
+        "R9"
+      ]
+    },
+    {
+      "rationale_label": "competitive_landscape_inertia",
+      "direction": "negative",
+      "salience": "secondary",
+      "confidence": 0.94,
+      "utterance_type": "assessment",
+      "decision_link": "none",
+      "timing": "original_pitch",
+      "turn_index": 82,
+      "quote": "It's a big hill to climb.",
+      "explanation": "Howie reiterates that overcoming the required consumer-behavior shift will be difficult.",
+      "evidence": [
+        "You gotta change consumers",
+        "It's a big hill to climb."
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 76,
+          "speaker": "Howie",
+          "quote": "You gotta change consumers"
+        },
+        {
+          "turn_index": 82,
+          "speaker": "Howie",
+          "quote": "It's a big hill to climb."
+        }
+      ],
+      "activation": "evaluated",
+      "source_rationale_id": "R16",
+      "utterance_kind": "assessment",
+      "decision_support": "none",
+      "all_mention_ids": [
+        "R14",
+        "R16"
+      ]
+    },
+    {
+      "rationale_label": "deal_terms_complexity_concern",
+      "direction": "negative",
+      "salience": "secondary",
+      "confidence": 0.86,
+      "utterance_type": "assessment",
+      "decision_link": "none",
+      "timing": "original_pitch",
+      "turn_index": 65,
+      "quote": "You don't even know what his terms are.",
+      "explanation": "Howie flags that Beck committed before knowing the investment terms.",
+      "evidence": [
+        "You don't even know what his terms are."
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 65,
+          "speaker": "Howie",
+          "quote": "You don't even know what his terms are."
+        }
+      ],
+      "activation": "evaluated",
+      "source_rationale_id": "R12",
+      "utterance_kind": "concern",
+      "decision_support": "none",
+      "all_mention_ids": [
+        "R12"
+      ]
+    },
+    {
+      "rationale_label": "go_to_market_strategy_assessment",
+      "direction": "positive",
+      "salience": "secondary",
+      "confidence": 0.76,
+      "utterance_type": "assessment",
+      "decision_link": "none",
+      "timing": "original_pitch",
+      "turn_index": 79,
+      "quote": "there's a huge PR -",
+      "explanation": "Howie acknowledges a large PR opportunity for building awareness, although the thought is interrupted.",
+      "evidence": [
+        "there's a huge PR -"
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 79,
+          "speaker": "Howie",
+          "quote": "there's a huge PR -"
+        }
+      ],
+      "activation": "evaluated",
+      "source_rationale_id": "R15",
+      "utterance_kind": "supporting_argument",
+      "decision_support": "none",
+      "all_mention_ids": [
+        "R5",
+        "R13",
+        "R15"
+      ]
+    },
+    {
+      "rationale_label": "investor_value_add_fit",
+      "direction": "positive",
+      "salience": "secondary",
+      "confidence": 0.9,
+      "utterance_type": "assessment",
+      "decision_link": "none",
+      "timing": "original_pitch",
+      "turn_index": 84,
+      "quote": "Beck can climb it.",
+      "explanation": "Howie believes Beck can provide the help needed to address the company's difficult awareness and adoption challenge.",
+      "evidence": [
+        "Beck can climb it."
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 84,
+          "speaker": "Howie",
+          "quote": "Beck can climb it."
+        }
+      ],
+      "activation": "evaluated",
+      "source_rationale_id": "R17",
+      "utterance_kind": "supporting_argument",
+      "decision_support": "none",
+      "all_mention_ids": [
+        "R17"
+      ]
+    },
+    {
+      "rationale_label": "market_timing",
+      "direction": "positive",
+      "salience": "secondary",
+      "confidence": 0.9,
+      "utterance_type": "assessment",
+      "decision_link": "none",
+      "timing": "original_pitch",
+      "turn_index": 14,
+      "quote": "this is a big trend right now",
+      "explanation": "Howie recognizes current momentum around environmentally conscious products.",
+      "evidence": [
+        "this is a big trend right now"
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 14,
+          "speaker": "Howie",
+          "quote": "this is a big trend right now"
+        }
+      ],
+      "activation": "evaluated",
+      "source_rationale_id": "R2",
+      "utterance_kind": "supporting_argument",
+      "decision_support": "none",
+      "all_mention_ids": [
+        "R2"
+      ]
+    },
+    {
+      "rationale_label": "mission_alignment_preference",
+      "direction": "positive",
+      "salience": "secondary",
+      "confidence": 0.96,
+      "utterance_type": "assessment",
+      "decision_link": "none",
+      "timing": "original_pitch",
+      "turn_index": 45,
+      "quote": "I love your mission",
+      "explanation": "Howie expresses personal alignment with the company's mission.",
+      "evidence": [
+        "I love your mission"
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 45,
+          "speaker": "Howie",
+          "quote": "I love your mission"
+        }
+      ],
+      "activation": "evaluated",
+      "source_rationale_id": "R6",
+      "utterance_kind": "supporting_argument",
+      "decision_support": "none",
+      "all_mention_ids": [
+        "R6"
+      ]
+    },
+    {
+      "rationale_label": "product_adoption",
+      "direction": "positive",
+      "salience": "secondary",
+      "confidence": 0.9,
+      "utterance_type": "assessment",
+      "decision_link": "none",
+      "timing": "original_pitch",
+      "turn_index": 45,
+      "quote": "I think you have these initial early adopters",
+      "explanation": "Howie acknowledges that the product has attracted an initial group of adopters.",
+      "evidence": [
+        "I think you have these initial early adopters"
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 45,
+          "speaker": "Howie",
+          "quote": "I think you have these initial early adopters"
+        }
+      ],
+      "activation": "evaluated",
+      "source_rationale_id": "R8",
+      "utterance_kind": "supporting_argument",
+      "decision_support": "none",
+      "all_mention_ids": [
+        "R8"
+      ]
+    },
+    {
+      "rationale_label": "product_success_factor_assessment",
+      "direction": "neutral",
+      "salience": "secondary",
+      "confidence": 0.94,
+      "utterance_type": "question",
+      "decision_link": "none",
+      "timing": "original_pitch",
+      "turn_index": 6,
+      "quote": "why are you picking the products that you're picking specifically?",
+      "explanation": "Howie asks what criteria drive the company's product selection.",
+      "evidence": [
+        "why are you picking the products that you're picking specifically?"
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 6,
+          "speaker": "Howie",
+          "quote": "why are you picking the products that you're picking specifically?"
+        }
+      ],
+      "activation": "queried",
+      "source_rationale_id": "R1",
+      "utterance_kind": "question",
+      "decision_support": "none",
+      "all_mention_ids": [
+        "R1"
+      ]
+    },
+    {
+      "rationale_label": "solution_feasibility_assessment",
+      "direction": "positive",
+      "salience": "secondary",
+      "confidence": 0.96,
+      "utterance_type": "assessment",
+      "decision_link": "none",
+      "timing": "original_pitch",
+      "turn_index": 45,
+      "quote": "I actually think you have a viable solution when it comes to recycling these products",
+      "explanation": "Howie believes the proposed recycling solution is viable.",
+      "evidence": [
+        "I actually think you have a viable solution when it comes to recycling these products"
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 45,
+          "speaker": "Howie",
+          "quote": "I actually think you have a viable solution when it comes to recycling these products"
+        }
+      ],
+      "activation": "evaluated",
+      "source_rationale_id": "R7",
+      "utterance_kind": "supporting_argument",
+      "decision_support": "none",
+      "all_mention_ids": [
+        "R7",
+        "R11"
+      ]
+    },
+    {
+      "rationale_label": "traction_repeatability_concern",
+      "direction": "negative",
+      "salience": "secondary",
+      "confidence": 0.93,
+      "utterance_type": "assessment",
+      "decision_link": "none",
+      "timing": "original_pitch",
+      "turn_index": 106,
+      "quote": "We'll have 5000 users in a week.",
+      "explanation": "Howie reiterates that the reported user count could be reproduced quickly, weakening it as evidence of repeatable traction.",
+      "evidence": [
+        "I could go - I could launch something tomorrow and get 5000 users.",
+        "We'll have 5000 users in a week."
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 97,
+          "speaker": "Howie",
+          "quote": "I could go - I could launch something tomorrow and get 5000 users."
+        },
+        {
+          "turn_index": 106,
+          "speaker": "Howie",
+          "quote": "We'll have 5000 users in a week."
+        }
+      ],
+      "activation": "evaluated",
+      "source_rationale_id": "R19",
+      "utterance_kind": "supporting_argument",
+      "decision_support": "none",
+      "all_mention_ids": [
+        "R18",
+        "R19"
+      ]
+    },
+    {
+      "rationale_label": "venture_scale_concern",
+      "direction": "negative",
+      "salience": "primary",
+      "confidence": 0.97,
+      "utterance_type": "decision_reason",
+      "decision_link": "explicit",
+      "timing": "original_pitch",
+      "turn_index": 45,
+      "quote": "it's gonna be a very, very small select people who care about the environmental impacts",
+      "explanation": "Howie believes the price restricts demand to a narrow niche, undermining mainstream scale and supporting his decision not to invest.",
+      "evidence": [
+        "it's gonna be a very, very small select people who care about the environmental impacts"
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 45,
+          "speaker": "Howie",
+          "quote": "it's gonna be a very, very small select people who care about the environmental impacts"
+        }
+      ],
+      "activation": "evaluated",
+      "source_rationale_id": "R10",
+      "utterance_kind": "decision_explanation",
+      "decision_support": "supports_out",
+      "all_mention_ids": [
+        "R10"
+      ]
+    }
+  ],
+  "later_rationales": [],
+  "excluded_rationales": [],
+  "rationale_mentions": [
+    {
+      "rationale_label": "product_success_factor_assessment",
+      "direction": "neutral",
+      "salience": "secondary",
+      "confidence": 0.94,
+      "utterance_type": "question",
+      "decision_link": "none",
+      "timing": "original_pitch",
+      "turn_index": 6,
+      "quote": "why are you picking the products that you're picking specifically?",
+      "explanation": "Howie asks what criteria drive the company's product selection.",
+      "evidence": [
+        "why are you picking the products that you're picking specifically?"
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 6,
+          "speaker": "Howie",
+          "quote": "why are you picking the products that you're picking specifically?"
+        }
+      ],
+      "activation": "queried",
+      "source_rationale_id": "R1"
+    },
+    {
+      "rationale_label": "market_timing",
+      "direction": "positive",
+      "salience": "secondary",
+      "confidence": 0.9,
+      "utterance_type": "supporting_argument",
+      "decision_link": "none",
+      "timing": "original_pitch",
+      "turn_index": 14,
+      "quote": "this is a big trend right now",
+      "explanation": "Howie recognizes current momentum around environmentally conscious products.",
+      "evidence": [
+        "this is a big trend right now"
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 14,
+          "speaker": "Howie",
+          "quote": "this is a big trend right now"
+        }
+      ],
+      "activation": "evaluated",
+      "source_rationale_id": "R2"
+    },
+    {
+      "rationale_label": "business_model_assessment",
+      "direction": "neutral",
+      "salience": "secondary",
+      "confidence": 0.95,
+      "utterance_type": "question",
+      "decision_link": "none",
+      "timing": "original_pitch",
+      "turn_index": 14,
+      "quote": "will people pay a premium for these products because they're helping the environment",
+      "explanation": "Howie questions whether the sustainability benefit supports premium pricing.",
+      "evidence": [
+        "will people pay a premium for these products because they're helping the environment"
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 14,
+          "speaker": "Howie",
+          "quote": "will people pay a premium for these products because they're helping the environment"
+        }
+      ],
+      "activation": "queried",
+      "source_rationale_id": "R3"
+    },
+    {
+      "rationale_label": "business_model_assessment",
+      "direction": "negative",
+      "salience": "secondary",
+      "confidence": 0.96,
+      "utterance_type": "assessment",
+      "decision_link": "none",
+      "timing": "original_pitch",
+      "turn_index": 17,
+      "quote": "That is a very high price point.",
+      "explanation": "Howie flags the product's pricing as unusually high.",
+      "evidence": [
+        "That is a very high price point."
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 17,
+          "speaker": "Howie",
+          "quote": "That is a very high price point."
+        }
+      ],
+      "activation": "evaluated",
+      "source_rationale_id": "R4"
+    },
+    {
+      "rationale_label": "go_to_market_strategy_assessment",
+      "direction": "neutral",
+      "salience": "secondary",
+      "confidence": 0.98,
+      "utterance_type": "question",
+      "decision_link": "none",
+      "timing": "original_pitch",
+      "turn_index": 43,
+      "quote": "How are you acquiring customers?",
+      "explanation": "Howie asks about the company's customer-acquisition channels.",
+      "evidence": [
+        "How are you acquiring customers?"
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 43,
+          "speaker": "Howie",
+          "quote": "How are you acquiring customers?"
+        }
+      ],
+      "activation": "queried",
+      "source_rationale_id": "R5"
+    },
+    {
+      "rationale_label": "mission_alignment_preference",
+      "direction": "positive",
+      "salience": "secondary",
+      "confidence": 0.96,
+      "utterance_type": "supporting_argument",
+      "decision_link": "none",
+      "timing": "original_pitch",
+      "turn_index": 45,
+      "quote": "I love your mission",
+      "explanation": "Howie expresses personal alignment with the company's mission.",
+      "evidence": [
+        "I love your mission"
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 45,
+          "speaker": "Howie",
+          "quote": "I love your mission"
+        }
+      ],
+      "activation": "evaluated",
+      "source_rationale_id": "R6"
+    },
+    {
+      "rationale_label": "solution_feasibility_assessment",
+      "direction": "positive",
+      "salience": "secondary",
+      "confidence": 0.96,
+      "utterance_type": "supporting_argument",
+      "decision_link": "none",
+      "timing": "original_pitch",
+      "turn_index": 45,
+      "quote": "I actually think you have a viable solution when it comes to recycling these products",
+      "explanation": "Howie believes the proposed recycling solution is viable.",
+      "evidence": [
+        "I actually think you have a viable solution when it comes to recycling these products"
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 45,
+          "speaker": "Howie",
+          "quote": "I actually think you have a viable solution when it comes to recycling these products"
+        }
+      ],
+      "activation": "evaluated",
+      "source_rationale_id": "R7"
+    },
+    {
+      "rationale_label": "product_adoption",
+      "direction": "positive",
+      "salience": "secondary",
+      "confidence": 0.9,
+      "utterance_type": "supporting_argument",
+      "decision_link": "none",
+      "timing": "original_pitch",
+      "turn_index": 45,
+      "quote": "I think you have these initial early adopters",
+      "explanation": "Howie acknowledges that the product has attracted an initial group of adopters.",
+      "evidence": [
+        "I think you have these initial early adopters"
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 45,
+          "speaker": "Howie",
+          "quote": "I think you have these initial early adopters"
+        }
+      ],
+      "activation": "evaluated",
+      "source_rationale_id": "R8"
+    },
+    {
+      "rationale_label": "business_model_assessment",
+      "direction": "negative",
+      "salience": "primary",
+      "confidence": 0.98,
+      "utterance_type": "decision_explanation",
+      "decision_link": "supports_out",
+      "timing": "original_pitch",
+      "turn_index": 45,
+      "quote": "the price is way too high and way too premium for me to - to get involved in this",
+      "explanation": "Howie explicitly links the premium pricing to his refusal to invest.",
+      "evidence": [
+        "the price is way too high and way too premium for me to - to get involved in this"
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 45,
+          "speaker": "Howie",
+          "quote": "the price is way too high and way too premium for me to - to get involved in this"
+        }
+      ],
+      "activation": "evaluated",
+      "source_rationale_id": "R9"
+    },
+    {
+      "rationale_label": "venture_scale_concern",
+      "direction": "negative",
+      "salience": "primary",
+      "confidence": 0.97,
+      "utterance_type": "decision_explanation",
+      "decision_link": "supports_out",
+      "timing": "original_pitch",
+      "turn_index": 45,
+      "quote": "it's gonna be a very, very small select people who care about the environmental impacts",
+      "explanation": "Howie believes the price restricts demand to a narrow niche, undermining mainstream scale and supporting his decision not to invest.",
+      "evidence": [
+        "it's gonna be a very, very small select people who care about the environmental impacts"
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 45,
+          "speaker": "Howie",
+          "quote": "it's gonna be a very, very small select people who care about the environmental impacts"
+        }
+      ],
+      "activation": "evaluated",
+      "source_rationale_id": "R10"
+    },
+    {
+      "rationale_label": "solution_feasibility_assessment",
+      "direction": "neutral",
+      "salience": "secondary",
+      "confidence": 0.88,
+      "utterance_type": "question",
+      "decision_link": "none",
+      "timing": "original_pitch",
+      "turn_index": 56,
+      "quote": "have you looked into why Target, Walmart, you know, Best Buy, whatever, haven't had an offering",
+      "explanation": "Howie probes whether the absence of similar retailer programs reflects an obstacle to the proposed return-and-recycling solution.",
+      "evidence": [
+        "have you looked into why Target, Walmart, you know, Best Buy, whatever, haven't had an offering"
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 56,
+          "speaker": "Howie",
+          "quote": "have you looked into why Target, Walmart, you know, Best Buy, whatever, haven't had an offering"
+        }
+      ],
+      "activation": "queried",
+      "source_rationale_id": "R11"
+    },
+    {
+      "rationale_label": "deal_terms_complexity_concern",
+      "direction": "negative",
+      "salience": "secondary",
+      "confidence": 0.86,
+      "utterance_type": "concern",
+      "decision_link": "none",
+      "timing": "original_pitch",
+      "turn_index": 65,
+      "quote": "You don't even know what his terms are.",
+      "explanation": "Howie flags that Beck committed before knowing the investment terms.",
+      "evidence": [
+        "You don't even know what his terms are."
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 65,
+          "speaker": "Howie",
+          "quote": "You don't even know what his terms are."
+        }
+      ],
+      "activation": "evaluated",
+      "source_rationale_id": "R12"
+    },
+    {
+      "rationale_label": "go_to_market_strategy_assessment",
+      "direction": "negative",
+      "salience": "secondary",
+      "confidence": 0.84,
+      "utterance_type": "assessment",
+      "decision_link": "none",
+      "timing": "original_pitch",
+      "turn_index": 74,
+      "quote": "Beck, you have a big job on your hands.",
+      "explanation": "In the discussion of PR and consumer awareness, Howie characterizes the go-to-market task as substantial.",
+      "evidence": [
+        "Beck, you have a big job on your hands."
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 74,
+          "speaker": "Howie",
+          "quote": "Beck, you have a big job on your hands."
+        }
+      ],
+      "activation": "evaluated",
+      "source_rationale_id": "R13"
+    },
+    {
+      "rationale_label": "competitive_landscape_inertia",
+      "direction": "negative",
+      "salience": "secondary",
+      "confidence": 0.97,
+      "utterance_type": "concern",
+      "decision_link": "none",
+      "timing": "original_pitch",
+      "turn_index": 76,
+      "quote": "You gotta change consumers",
+      "explanation": "Howie identifies the need to change established consumer behavior as a major adoption obstacle.",
+      "evidence": [
+        "You gotta change consumers"
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 76,
+          "speaker": "Howie",
+          "quote": "You gotta change consumers"
+        }
+      ],
+      "activation": "evaluated",
+      "source_rationale_id": "R14"
+    },
+    {
+      "rationale_label": "go_to_market_strategy_assessment",
+      "direction": "positive",
+      "salience": "secondary",
+      "confidence": 0.76,
+      "utterance_type": "supporting_argument",
+      "decision_link": "none",
+      "timing": "original_pitch",
+      "turn_index": 79,
+      "quote": "there's a huge PR -",
+      "explanation": "Howie acknowledges a large PR opportunity for building awareness, although the thought is interrupted.",
+      "evidence": [
+        "there's a huge PR -"
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 79,
+          "speaker": "Howie",
+          "quote": "there's a huge PR -"
+        }
+      ],
+      "activation": "evaluated",
+      "source_rationale_id": "R15"
+    },
+    {
+      "rationale_label": "competitive_landscape_inertia",
+      "direction": "negative",
+      "salience": "secondary",
+      "confidence": 0.94,
+      "utterance_type": "assessment",
+      "decision_link": "none",
+      "timing": "original_pitch",
+      "turn_index": 82,
+      "quote": "It's a big hill to climb.",
+      "explanation": "Howie reiterates that overcoming the required consumer-behavior shift will be difficult.",
+      "evidence": [
+        "It's a big hill to climb."
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 82,
+          "speaker": "Howie",
+          "quote": "It's a big hill to climb."
+        }
+      ],
+      "activation": "evaluated",
+      "source_rationale_id": "R16"
+    },
+    {
+      "rationale_label": "investor_value_add_fit",
+      "direction": "positive",
+      "salience": "secondary",
+      "confidence": 0.9,
+      "utterance_type": "supporting_argument",
+      "decision_link": "none",
+      "timing": "original_pitch",
+      "turn_index": 84,
+      "quote": "Beck can climb it.",
+      "explanation": "Howie believes Beck can provide the help needed to address the company's difficult awareness and adoption challenge.",
+      "evidence": [
+        "Beck can climb it."
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 84,
+          "speaker": "Howie",
+          "quote": "Beck can climb it."
+        }
+      ],
+      "activation": "evaluated",
+      "source_rationale_id": "R17"
+    },
+    {
+      "rationale_label": "traction_repeatability_concern",
+      "direction": "negative",
+      "salience": "secondary",
+      "confidence": 0.96,
+      "utterance_type": "supporting_argument",
+      "decision_link": "none",
+      "timing": "original_pitch",
+      "turn_index": 97,
+      "quote": "I could go - I could launch something tomorrow and get 5000 users.",
+      "explanation": "Howie argues that obtaining 5,000 users is readily reproducible and therefore not compelling proof of scalable traction.",
+      "evidence": [
+        "I could go - I could launch something tomorrow and get 5000 users."
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 97,
+          "speaker": "Howie",
+          "quote": "I could go - I could launch something tomorrow and get 5000 users."
+        }
+      ],
+      "activation": "evaluated",
+      "source_rationale_id": "R18"
+    },
+    {
+      "rationale_label": "traction_repeatability_concern",
+      "direction": "negative",
+      "salience": "secondary",
+      "confidence": 0.93,
+      "utterance_type": "supporting_argument",
+      "decision_link": "none",
+      "timing": "original_pitch",
+      "turn_index": 106,
+      "quote": "We'll have 5000 users in a week.",
+      "explanation": "Howie reiterates that the reported user count could be reproduced quickly, weakening it as evidence of repeatable traction.",
+      "evidence": [
+        "We'll have 5000 users in a week."
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 106,
+          "speaker": "Howie",
+          "quote": "We'll have 5000 users in a week."
+        }
+      ],
+      "activation": "evaluated",
+      "source_rationale_id": "R19"
+    }
+  ],
+  "expanded_quote_evidence": [],
+  "rejected_after_evidence_check": []
+}

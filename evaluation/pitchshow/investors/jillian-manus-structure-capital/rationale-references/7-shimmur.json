@@ -1,0 +1,1221 @@
+{
+  "schema": "phase1-rationale-reference-v1",
+  "extraction_version": "pitchshow-rationales-v1",
+  "fingerprint": "3ba6b314fe3bef91abe64629d29cde645dfcaa03923861774d93d6180b71ebce",
+  "episode_slug": "7-shimmur",
+  "vc_slug": "jillian-manus-structure-capital",
+  "vc_name": "Jillian Manus",
+  "actual_decision": "Out",
+  "later_decision": "Unknown",
+  "reference_kind": "automated_transcript_observed_candidate",
+  "human_validated": false,
+  "source_format": "transcript-observed-rationales-v1",
+  "source_path": "../source/episodes/7-shimmur.json",
+  "source_sha256": "7f63a4c6d11e68dab66f10b9365f8187f50b849ef019f1bb79cfaa8dc40cd123",
+  "transcript_sha256": "d55663dd9828a2c75e54068dcf0558115c59f9880081a8afb21b58bae2825891",
+  "taxonomy_sha256": "eaa8734819a3ac34dd19ee5f0bf6de925a793a1d25a2d361090dafc9b751e1fc",
+  "model": "codex:gpt-5.6-luna+gpt-5.6-sol",
+  "generation_stages": [
+    {
+      "phase": "rationale_extract",
+      "backend": "codex",
+      "model": "gpt-5.6-luna"
+    },
+    {
+      "phase": "rationale_verify",
+      "backend": "codex",
+      "model": "gpt-5.6-sol"
+    }
+  ],
+  "source_tier": "newly_extracted_and_independently_model_reviewed",
+  "reviewed_target_turns": [
+    4,
+    6,
+    8,
+    16,
+    31,
+    33,
+    35,
+    39,
+    61,
+    64,
+    66,
+    68,
+    70,
+    72,
+    74,
+    76,
+    78,
+    80,
+    82,
+    85,
+    90,
+    92,
+    94,
+    96,
+    98,
+    105,
+    108,
+    110,
+    113,
+    115,
+    125,
+    127,
+    131,
+    133,
+    138,
+    142,
+    147,
+    148,
+    152,
+    162,
+    164,
+    167,
+    169
+  ],
+  "notes": "All supplied target turns were reviewed; non-rationale greetings, jokes, confirmations, and unsupported financing questions were omitted.",
+  "receipt_path": "receipts/7-shimmur.json",
+  "scoring_scope": "original_pitch_only",
+  "shared_across_input_modes": true,
+  "rationales": [
+    {
+      "rationale_label": "business_model_assessment",
+      "direction": "neutral",
+      "salience": "secondary",
+      "confidence": 0.96,
+      "utterance_type": "question",
+      "decision_link": "none",
+      "timing": "original_pitch",
+      "turn_index": 72,
+      "quote": "So it's $100,000?",
+      "explanation": "She continues testing the claimed revenue scale of the prospective deal.",
+      "evidence": [
+        "How do you track that then?",
+        "Did you take it?",
+        "What type of deal is this?",
+        "what does that look like in terms of the revenues from that? What's the contract look like?",
+        "Is it $25,000? Is it $10,000?",
+        "So it's $100,000?"
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 61,
+          "speaker": "Jillian",
+          "quote": "How do you track that then?"
+        },
+        {
+          "turn_index": 64,
+          "speaker": "Jillian",
+          "quote": "Did you take it?"
+        },
+        {
+          "turn_index": 66,
+          "speaker": "Jillian",
+          "quote": "What type of deal is this?"
+        },
+        {
+          "turn_index": 68,
+          "speaker": "Jillian",
+          "quote": "what does that look like in terms of the revenues from that? What's the contract look like?"
+        },
+        {
+          "turn_index": 70,
+          "speaker": "Jillian",
+          "quote": "Is it $25,000? Is it $10,000?"
+        },
+        {
+          "turn_index": 72,
+          "speaker": "Jillian",
+          "quote": "So it's $100,000?"
+        }
+      ],
+      "activation": "queried",
+      "source_rationale_id": "R10",
+      "utterance_kind": "question",
+      "decision_support": "none",
+      "all_mention_ids": [
+        "R5",
+        "R6",
+        "R7",
+        "R8",
+        "R9",
+        "R10"
+      ]
+    },
+    {
+      "rationale_label": "founder_execution",
+      "direction": "positive",
+      "salience": "primary",
+      "confidence": 0.99,
+      "utterance_type": "assessment",
+      "decision_link": "none",
+      "timing": "original_pitch",
+      "turn_index": 90,
+      "quote": "obviously you're a high executor",
+      "explanation": "She explicitly identifies strong execution ability as a major positive.",
+      "evidence": [
+        "obviously you're a high executor"
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 90,
+          "speaker": "Jillian",
+          "quote": "obviously you're a high executor"
+        }
+      ],
+      "activation": "evaluated",
+      "source_rationale_id": "R14",
+      "utterance_kind": "assessment",
+      "decision_support": "none",
+      "all_mention_ids": [
+        "R14"
+      ]
+    },
+    {
+      "rationale_label": "founder_qualities",
+      "direction": "positive",
+      "salience": "secondary",
+      "confidence": 0.95,
+      "utterance_type": "assessment",
+      "decision_link": "none",
+      "timing": "original_pitch",
+      "turn_index": 90,
+      "quote": "your background is very impressive",
+      "explanation": "She evaluates the founder's background favorably.",
+      "evidence": [
+        "your background is very impressive"
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 90,
+          "speaker": "Jillian",
+          "quote": "your background is very impressive"
+        }
+      ],
+      "activation": "evaluated",
+      "source_rationale_id": "R13",
+      "utterance_kind": "assessment",
+      "decision_support": "none",
+      "all_mention_ids": [
+        "R13"
+      ]
+    },
+    {
+      "rationale_label": "fundraising_demand_signal",
+      "direction": "positive",
+      "salience": "secondary",
+      "confidence": 0.97,
+      "utterance_type": "assessment",
+      "decision_link": "none",
+      "timing": "original_pitch",
+      "turn_index": 125,
+      "quote": "you're going to raise this money, anyway",
+      "explanation": "She reiterates her belief that the company will attract the remaining capital without difficulty.",
+      "evidence": [
+        "I don't think you're going to have any problems raising the rest of this. Like, zero.",
+        "you're going to raise this money, anyway"
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 98,
+          "speaker": "Jillian",
+          "quote": "I don't think you're going to have any problems raising the rest of this. Like, zero."
+        },
+        {
+          "turn_index": 125,
+          "speaker": "Jillian",
+          "quote": "you're going to raise this money, anyway"
+        }
+      ],
+      "activation": "evaluated",
+      "source_rationale_id": "R21",
+      "utterance_kind": "assessment",
+      "decision_support": "none",
+      "all_mention_ids": [
+        "R11",
+        "R12",
+        "R19",
+        "R21"
+      ]
+    },
+    {
+      "rationale_label": "investor_domain_knowledge_constraint",
+      "direction": "negative",
+      "salience": "primary",
+      "confidence": 0.98,
+      "utterance_type": "assessment",
+      "decision_link": "explicit",
+      "timing": "original_pitch",
+      "turn_index": 92,
+      "quote": "I've worked a little bit in this space, but not enough to feel like I’m an expert.",
+      "explanation": "Her limited expertise in the category underlies the value-add concern she uses to decline the investment.",
+      "evidence": [
+        "I've worked a little bit in this space, but not enough to feel like I’m an expert."
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 92,
+          "speaker": "Jillian",
+          "quote": "I've worked a little bit in this space, but not enough to feel like I’m an expert."
+        }
+      ],
+      "activation": "evaluated",
+      "source_rationale_id": "R16",
+      "utterance_kind": "assessment",
+      "decision_support": "supports_out",
+      "all_mention_ids": [
+        "R16"
+      ]
+    },
+    {
+      "rationale_label": "investor_experience_bias",
+      "direction": "negative",
+      "salience": "secondary",
+      "confidence": 0.9,
+      "utterance_type": "decision_reason",
+      "decision_link": "explicit",
+      "timing": "original_pitch",
+      "turn_index": 113,
+      "quote": "That's why! [laughter] Need I say more? Like, Myspace!?",
+      "explanation": "She invokes her Myspace investing experience to reinforce her belief that she would not add the right value to this social-media company.",
+      "evidence": [
+        "That's why! [laughter] Need I say more? Like, Myspace!?"
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 113,
+          "speaker": "Jillian",
+          "quote": "That's why! [laughter] Need I say more? Like, Myspace!?"
+        }
+      ],
+      "activation": "evaluated",
+      "source_rationale_id": "R20",
+      "utterance_kind": "decision_explanation",
+      "decision_support": "supports_out",
+      "all_mention_ids": [
+        "R20"
+      ]
+    },
+    {
+      "rationale_label": "investor_value_add_fit",
+      "direction": "negative",
+      "salience": "primary",
+      "confidence": 1.0,
+      "utterance_type": "decision_reason",
+      "decision_link": "explicit",
+      "timing": "original_pitch",
+      "turn_index": 98,
+      "quote": "I'm going to be out just because I don't know if I can add value.",
+      "explanation": "She explicitly declines because she doubts she can contribute meaningful value beyond capital.",
+      "evidence": [
+        "I'm going to be out just because I don't know if I can add value."
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 98,
+          "speaker": "Jillian",
+          "quote": "I'm going to be out just because I don't know if I can add value."
+        }
+      ],
+      "activation": "evaluated",
+      "source_rationale_id": "R17",
+      "utterance_kind": "decision_explanation",
+      "decision_support": "supports_out",
+      "all_mention_ids": [
+        "R17"
+      ]
+    },
+    {
+      "rationale_label": "market_size_assessment",
+      "direction": "neutral",
+      "salience": "secondary",
+      "confidence": 0.88,
+      "utterance_type": "question",
+      "decision_link": "none",
+      "timing": "original_pitch",
+      "turn_index": 31,
+      "quote": "How many is the average?",
+      "explanation": "She asks about the typical audience scale of the influencers the product targets.",
+      "evidence": [
+        "How many is the average?"
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 31,
+          "speaker": "Jillian",
+          "quote": "How many is the average?"
+        }
+      ],
+      "activation": "queried",
+      "source_rationale_id": "R3",
+      "utterance_kind": "question",
+      "decision_support": "none",
+      "all_mention_ids": [
+        "R3"
+      ]
+    },
+    {
+      "rationale_label": "product_adoption",
+      "direction": "positive",
+      "salience": "primary",
+      "confidence": 0.97,
+      "utterance_type": "assessment",
+      "decision_link": "none",
+      "timing": "original_pitch",
+      "turn_index": 90,
+      "quote": "in a very short amount of time you have already some good traction",
+      "explanation": "She views the company's rapid early traction as a positive adoption signal.",
+      "evidence": [
+        "in a very short amount of time you have already some good traction"
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 90,
+          "speaker": "Jillian",
+          "quote": "in a very short amount of time you have already some good traction"
+        }
+      ],
+      "activation": "evaluated",
+      "source_rationale_id": "R15",
+      "utterance_kind": "assessment",
+      "decision_support": "none",
+      "all_mention_ids": [
+        "R15"
+      ]
+    },
+    {
+      "rationale_label": "product_appeal_assessment",
+      "direction": "positive",
+      "salience": "secondary",
+      "confidence": 0.88,
+      "utterance_type": "assessment",
+      "decision_link": "none",
+      "timing": "original_pitch",
+      "turn_index": 98,
+      "quote": "not because I don't think this has huge merit. And I see the merit.",
+      "explanation": "Despite passing, she affirms that she sees substantial merit in the opportunity.",
+      "evidence": [
+        "not because I don't think this has huge merit. And I see the merit."
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 98,
+          "speaker": "Jillian",
+          "quote": "not because I don't think this has huge merit. And I see the merit."
+        }
+      ],
+      "activation": "evaluated",
+      "source_rationale_id": "R18",
+      "utterance_kind": "supporting_argument",
+      "decision_support": "none",
+      "all_mention_ids": [
+        "R18"
+      ]
+    },
+    {
+      "rationale_label": "solution_feasibility_assessment",
+      "direction": "negative",
+      "salience": "secondary",
+      "confidence": 0.96,
+      "utterance_type": "assessment",
+      "decision_link": "none",
+      "timing": "original_pitch",
+      "turn_index": 39,
+      "quote": "Most influencers don't do this themselves.",
+      "explanation": "She questions whether influencers will personally perform the engagement the product requires.",
+      "evidence": [
+        "Most influencers don't do this themselves."
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 39,
+          "speaker": "Jillian",
+          "quote": "Most influencers don't do this themselves."
+        }
+      ],
+      "activation": "evaluated",
+      "source_rationale_id": "R4",
+      "utterance_kind": "concern",
+      "decision_support": "none",
+      "all_mention_ids": [
+        "R4"
+      ]
+    }
+  ],
+  "later_rationales": [
+    {
+      "rationale_label": "founder_qualities",
+      "direction": "positive",
+      "salience": "secondary",
+      "confidence": 0.97,
+      "utterance_type": "assessment",
+      "decision_link": "none",
+      "timing": "later_commentary",
+      "turn_index": 133,
+      "quote": "here’s a pretty confident person to come out, pitch to a bunch of VCs with no shoes",
+      "explanation": "Her initial impression was that the founder's unconventional presentation reflected confidence.",
+      "evidence": [
+        "here’s a pretty confident person to come out, pitch to a bunch of VCs with no shoes"
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 133,
+          "speaker": "Jillian",
+          "quote": "here’s a pretty confident person to come out, pitch to a bunch of VCs with no shoes"
+        }
+      ],
+      "activation": "evaluated",
+      "source_rationale_id": "R22"
+    },
+    {
+      "rationale_label": "product_differentiation_concern",
+      "direction": "negative",
+      "salience": "primary",
+      "confidence": 1.0,
+      "utterance_type": "concern",
+      "decision_link": "unclear",
+      "timing": "later_commentary",
+      "turn_index": 138,
+      "quote": "they don’t have one definitive distinguishing quality. There’s nothing that’s really setting them apart.",
+      "explanation": "She believes the product lacks a clear differentiating attribute.",
+      "evidence": [
+        "they don’t have one definitive distinguishing quality. There’s nothing that’s really setting them apart."
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 138,
+          "speaker": "Jillian",
+          "quote": "they don’t have one definitive distinguishing quality. There’s nothing that’s really setting them apart."
+        }
+      ],
+      "activation": "evaluated",
+      "source_rationale_id": "R23"
+    },
+    {
+      "rationale_label": "investor_domain_knowledge_constraint",
+      "direction": "negative",
+      "salience": "secondary",
+      "confidence": 0.98,
+      "utterance_type": "assessment",
+      "decision_link": "none",
+      "timing": "later_commentary",
+      "turn_index": 142,
+      "quote": "this is not an area of expertise, of investment, for myself, I’m not fully grasping this",
+      "explanation": "She attributes some difficulty understanding the opportunity to her lack of category expertise.",
+      "evidence": [
+        "this is not an area of expertise, of investment, for myself, I’m not fully grasping this"
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 142,
+          "speaker": "Jillian",
+          "quote": "this is not an area of expertise, of investment, for myself, I’m not fully grasping this"
+        }
+      ],
+      "activation": "evaluated",
+      "source_rationale_id": "R24"
+    },
+    {
+      "rationale_label": "founder_communication_quality",
+      "direction": "negative",
+      "salience": "secondary",
+      "confidence": 0.9,
+      "utterance_type": "concern",
+      "decision_link": "none",
+      "timing": "later_commentary",
+      "turn_index": 142,
+      "quote": "Perhaps this is, he’s not presenting it coherently",
+      "explanation": "She considers whether an incoherent presentation is preventing her from understanding the company.",
+      "evidence": [
+        "Perhaps this is, he’s not presenting it coherently"
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 142,
+          "speaker": "Jillian",
+          "quote": "Perhaps this is, he’s not presenting it coherently"
+        }
+      ],
+      "activation": "evaluated",
+      "source_rationale_id": "R25"
+    },
+    {
+      "rationale_label": "founder_qualities",
+      "direction": "negative",
+      "salience": "secondary",
+      "confidence": 0.94,
+      "utterance_type": "assessment",
+      "decision_link": "unclear",
+      "timing": "later_commentary",
+      "turn_index": 147,
+      "quote": "I wasn’t feeling the vibe.",
+      "explanation": "She reports a negative personal reaction to the founder's presence.",
+      "evidence": [
+        "I wasn’t feeling the vibe."
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 147,
+          "speaker": "Jillian",
+          "quote": "I wasn’t feeling the vibe."
+        }
+      ],
+      "activation": "evaluated",
+      "source_rationale_id": "R26"
+    },
+    {
+      "rationale_label": "founder_qualities",
+      "direction": "positive",
+      "salience": "secondary",
+      "confidence": 0.96,
+      "utterance_type": "assessment",
+      "decision_link": "none",
+      "timing": "later_commentary",
+      "turn_index": 148,
+      "quote": "He looks very confident. I like that.",
+      "explanation": "She identifies the founder's apparent confidence as a positive quality.",
+      "evidence": [
+        "He looks very confident. I like that."
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 148,
+          "speaker": "Jillian",
+          "quote": "He looks very confident. I like that."
+        }
+      ],
+      "activation": "evaluated",
+      "source_rationale_id": "R27"
+    },
+    {
+      "rationale_label": "founder_qualities",
+      "direction": "negative",
+      "salience": "secondary",
+      "confidence": 0.98,
+      "utterance_type": "concern",
+      "decision_link": "supports_out",
+      "timing": "later_commentary",
+      "turn_index": 148,
+      "quote": "how is he going to motivate a team of people if he can’t motivate us to invest in this company",
+      "explanation": "She questions his ability to motivate a team because he failed to inspire the investors.",
+      "evidence": [
+        "how is he going to motivate a team of people if he can’t motivate us to invest in this company"
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 148,
+          "speaker": "Jillian",
+          "quote": "how is he going to motivate a team of people if he can’t motivate us to invest in this company"
+        }
+      ],
+      "activation": "evaluated",
+      "source_rationale_id": "R28"
+    },
+    {
+      "rationale_label": "founder_communication_quality",
+      "direction": "negative",
+      "salience": "primary",
+      "confidence": 0.99,
+      "utterance_type": "decision_explanation",
+      "decision_link": "supports_out",
+      "timing": "later_commentary",
+      "turn_index": 148,
+      "quote": "I wasn’t feeling his excitement. I did not feel his energy",
+      "explanation": "She explains that the founder did not communicate enough excitement or energy to motivate her to invest.",
+      "evidence": [
+        "I wasn’t feeling his excitement. I did not feel his energy"
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 148,
+          "speaker": "Jillian",
+          "quote": "I wasn’t feeling his excitement. I did not feel his energy"
+        }
+      ],
+      "activation": "evaluated",
+      "source_rationale_id": "R29"
+    }
+  ],
+  "excluded_rationales": [
+    {
+      "rationale_label": "investor_experience_bias",
+      "direction": "negative",
+      "salience": "secondary",
+      "confidence": 0.82,
+      "utterance_type": "assessment",
+      "decision_link": "unclear",
+      "timing": "teaser",
+      "turn_index": 6,
+      "quote": "Need I say more? Like, Myspace!",
+      "explanation": "She invokes her prior Myspace investment as a cautionary experience relevant to another social-media opportunity.",
+      "evidence": [
+        "Need I say more? Like, Myspace!"
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 6,
+          "speaker": "Jillian",
+          "quote": "Need I say more? Like, Myspace!"
+        }
+      ],
+      "activation": "evaluated",
+      "source_rationale_id": "R1"
+    },
+    {
+      "rationale_label": "founder_execution",
+      "direction": "positive",
+      "salience": "primary",
+      "confidence": 0.97,
+      "utterance_type": "assessment",
+      "decision_link": "none",
+      "timing": "teaser",
+      "turn_index": 8,
+      "quote": "There is no doubt in my mind that you're going to do this.",
+      "explanation": "She expresses strong confidence in the founder's ability to execute.",
+      "evidence": [
+        "There is no doubt in my mind that you're going to do this."
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 8,
+          "speaker": "Jillian",
+          "quote": "There is no doubt in my mind that you're going to do this."
+        }
+      ],
+      "activation": "evaluated",
+      "source_rationale_id": "R2"
+    },
+    {
+      "rationale_label": "market_timing",
+      "direction": "neutral",
+      "salience": "secondary",
+      "confidence": 0.97,
+      "utterance_type": "question",
+      "decision_link": "none",
+      "timing": "teaser",
+      "turn_index": 162,
+      "quote": "Do you think this is going to be a trend? Is this trend sensitive?",
+      "explanation": "She asks whether the opportunity depends on a potentially temporary market trend.",
+      "evidence": [
+        "Do you think this is going to be a trend? Is this trend sensitive?"
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 162,
+          "speaker": "Jillian",
+          "quote": "Do you think this is going to be a trend? Is this trend sensitive?"
+        }
+      ],
+      "activation": "queried",
+      "source_rationale_id": "R30"
+    },
+    {
+      "rationale_label": "market_timing",
+      "direction": "negative",
+      "salience": "secondary",
+      "confidence": 0.91,
+      "utterance_type": "assessment",
+      "decision_link": "none",
+      "timing": "teaser",
+      "turn_index": 164,
+      "quote": "Oh it’s a trend now. It wasn’t",
+      "explanation": "She challenges the founder's durability comparison by observing that the analogous category became trend-driven.",
+      "evidence": [
+        "Oh it’s a trend now. It wasn’t"
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 164,
+          "speaker": "Jillian",
+          "quote": "Oh it’s a trend now. It wasn’t"
+        }
+      ],
+      "activation": "evaluated",
+      "source_rationale_id": "R31"
+    },
+    {
+      "rationale_label": "market_timing",
+      "direction": "negative",
+      "salience": "primary",
+      "confidence": 0.99,
+      "utterance_type": "concern",
+      "decision_link": "none",
+      "timing": "teaser",
+      "turn_index": 167,
+      "quote": "I'm thinking more like a fad.",
+      "explanation": "She expresses concern that the opportunity may be short-lived rather than durable.",
+      "evidence": [
+        "I'm thinking more like a fad."
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 167,
+          "speaker": "Jillian",
+          "quote": "I'm thinking more like a fad."
+        }
+      ],
+      "activation": "evaluated",
+      "source_rationale_id": "R32"
+    }
+  ],
+  "rationale_mentions": [
+    {
+      "rationale_label": "market_size_assessment",
+      "direction": "neutral",
+      "salience": "secondary",
+      "confidence": 0.88,
+      "utterance_type": "question",
+      "decision_link": "none",
+      "timing": "original_pitch",
+      "turn_index": 31,
+      "quote": "How many is the average?",
+      "explanation": "She asks about the typical audience scale of the influencers the product targets.",
+      "evidence": [
+        "How many is the average?"
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 31,
+          "speaker": "Jillian",
+          "quote": "How many is the average?"
+        }
+      ],
+      "activation": "queried",
+      "source_rationale_id": "R3"
+    },
+    {
+      "rationale_label": "solution_feasibility_assessment",
+      "direction": "negative",
+      "salience": "secondary",
+      "confidence": 0.96,
+      "utterance_type": "concern",
+      "decision_link": "none",
+      "timing": "original_pitch",
+      "turn_index": 39,
+      "quote": "Most influencers don't do this themselves.",
+      "explanation": "She questions whether influencers will personally perform the engagement the product requires.",
+      "evidence": [
+        "Most influencers don't do this themselves."
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 39,
+          "speaker": "Jillian",
+          "quote": "Most influencers don't do this themselves."
+        }
+      ],
+      "activation": "evaluated",
+      "source_rationale_id": "R4"
+    },
+    {
+      "rationale_label": "business_model_assessment",
+      "direction": "neutral",
+      "salience": "secondary",
+      "confidence": 0.94,
+      "utterance_type": "question",
+      "decision_link": "none",
+      "timing": "original_pitch",
+      "turn_index": 61,
+      "quote": "How do you track that then?",
+      "explanation": "She asks how transactions and revenue attribution would be tracked.",
+      "evidence": [
+        "How do you track that then?"
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 61,
+          "speaker": "Jillian",
+          "quote": "How do you track that then?"
+        }
+      ],
+      "activation": "queried",
+      "source_rationale_id": "R5"
+    },
+    {
+      "rationale_label": "business_model_assessment",
+      "direction": "neutral",
+      "salience": "secondary",
+      "confidence": 0.91,
+      "utterance_type": "question",
+      "decision_link": "none",
+      "timing": "original_pitch",
+      "turn_index": 64,
+      "quote": "Did you take it?",
+      "explanation": "She asks whether the company converted the reported brand interest into an actual commercial deal.",
+      "evidence": [
+        "Did you take it?"
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 64,
+          "speaker": "Jillian",
+          "quote": "Did you take it?"
+        }
+      ],
+      "activation": "queried",
+      "source_rationale_id": "R6"
+    },
+    {
+      "rationale_label": "business_model_assessment",
+      "direction": "neutral",
+      "salience": "secondary",
+      "confidence": 0.94,
+      "utterance_type": "question",
+      "decision_link": "none",
+      "timing": "original_pitch",
+      "turn_index": 66,
+      "quote": "What type of deal is this?",
+      "explanation": "She seeks clarification about the proposed commercial arrangement.",
+      "evidence": [
+        "What type of deal is this?"
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 66,
+          "speaker": "Jillian",
+          "quote": "What type of deal is this?"
+        }
+      ],
+      "activation": "queried",
+      "source_rationale_id": "R7"
+    },
+    {
+      "rationale_label": "business_model_assessment",
+      "direction": "neutral",
+      "salience": "secondary",
+      "confidence": 0.98,
+      "utterance_type": "question",
+      "decision_link": "none",
+      "timing": "original_pitch",
+      "turn_index": 68,
+      "quote": "what does that look like in terms of the revenues from that? What's the contract look like?",
+      "explanation": "She probes the concrete revenue and contractual structure of the brand-integration model.",
+      "evidence": [
+        "what does that look like in terms of the revenues from that? What's the contract look like?"
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 68,
+          "speaker": "Jillian",
+          "quote": "what does that look like in terms of the revenues from that? What's the contract look like?"
+        }
+      ],
+      "activation": "queried",
+      "source_rationale_id": "R8"
+    },
+    {
+      "rationale_label": "business_model_assessment",
+      "direction": "neutral",
+      "salience": "secondary",
+      "confidence": 0.96,
+      "utterance_type": "question",
+      "decision_link": "none",
+      "timing": "original_pitch",
+      "turn_index": 70,
+      "quote": "Is it $25,000? Is it $10,000?",
+      "explanation": "She asks for the expected revenue amount from a brand integration.",
+      "evidence": [
+        "Is it $25,000? Is it $10,000?"
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 70,
+          "speaker": "Jillian",
+          "quote": "Is it $25,000? Is it $10,000?"
+        }
+      ],
+      "activation": "queried",
+      "source_rationale_id": "R9"
+    },
+    {
+      "rationale_label": "business_model_assessment",
+      "direction": "neutral",
+      "salience": "secondary",
+      "confidence": 0.96,
+      "utterance_type": "question",
+      "decision_link": "none",
+      "timing": "original_pitch",
+      "turn_index": 72,
+      "quote": "So it's $100,000?",
+      "explanation": "She continues testing the claimed revenue scale of the prospective deal.",
+      "evidence": [
+        "So it's $100,000?"
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 72,
+          "speaker": "Jillian",
+          "quote": "So it's $100,000?"
+        }
+      ],
+      "activation": "queried",
+      "source_rationale_id": "R10"
+    },
+    {
+      "rationale_label": "fundraising_demand_signal",
+      "direction": "neutral",
+      "salience": "secondary",
+      "confidence": 0.95,
+      "utterance_type": "question",
+      "decision_link": "none",
+      "timing": "original_pitch",
+      "turn_index": 80,
+      "quote": "So Greycroft is in?",
+      "explanation": "She checks whether a reputable institutional investor has committed to the round.",
+      "evidence": [
+        "So Greycroft is in?"
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 80,
+          "speaker": "Jillian",
+          "quote": "So Greycroft is in?"
+        }
+      ],
+      "activation": "queried",
+      "source_rationale_id": "R11"
+    },
+    {
+      "rationale_label": "fundraising_demand_signal",
+      "direction": "neutral",
+      "salience": "secondary",
+      "confidence": 0.96,
+      "utterance_type": "question",
+      "decision_link": "none",
+      "timing": "original_pitch",
+      "turn_index": 82,
+      "quote": "How much of that is done?",
+      "explanation": "She asks how much of the financing round is already committed.",
+      "evidence": [
+        "How much of that is done?"
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 82,
+          "speaker": "Jillian",
+          "quote": "How much of that is done?"
+        }
+      ],
+      "activation": "queried",
+      "source_rationale_id": "R12"
+    },
+    {
+      "rationale_label": "founder_qualities",
+      "direction": "positive",
+      "salience": "secondary",
+      "confidence": 0.95,
+      "utterance_type": "assessment",
+      "decision_link": "none",
+      "timing": "original_pitch",
+      "turn_index": 90,
+      "quote": "your background is very impressive",
+      "explanation": "She evaluates the founder's background favorably.",
+      "evidence": [
+        "your background is very impressive"
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 90,
+          "speaker": "Jillian",
+          "quote": "your background is very impressive"
+        }
+      ],
+      "activation": "evaluated",
+      "source_rationale_id": "R13"
+    },
+    {
+      "rationale_label": "founder_execution",
+      "direction": "positive",
+      "salience": "primary",
+      "confidence": 0.99,
+      "utterance_type": "assessment",
+      "decision_link": "none",
+      "timing": "original_pitch",
+      "turn_index": 90,
+      "quote": "obviously you're a high executor",
+      "explanation": "She explicitly identifies strong execution ability as a major positive.",
+      "evidence": [
+        "obviously you're a high executor"
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 90,
+          "speaker": "Jillian",
+          "quote": "obviously you're a high executor"
+        }
+      ],
+      "activation": "evaluated",
+      "source_rationale_id": "R14"
+    },
+    {
+      "rationale_label": "product_adoption",
+      "direction": "positive",
+      "salience": "primary",
+      "confidence": 0.97,
+      "utterance_type": "assessment",
+      "decision_link": "none",
+      "timing": "original_pitch",
+      "turn_index": 90,
+      "quote": "in a very short amount of time you have already some good traction",
+      "explanation": "She views the company's rapid early traction as a positive adoption signal.",
+      "evidence": [
+        "in a very short amount of time you have already some good traction"
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 90,
+          "speaker": "Jillian",
+          "quote": "in a very short amount of time you have already some good traction"
+        }
+      ],
+      "activation": "evaluated",
+      "source_rationale_id": "R15"
+    },
+    {
+      "rationale_label": "investor_domain_knowledge_constraint",
+      "direction": "negative",
+      "salience": "primary",
+      "confidence": 0.98,
+      "utterance_type": "assessment",
+      "decision_link": "supports_out",
+      "timing": "original_pitch",
+      "turn_index": 92,
+      "quote": "I've worked a little bit in this space, but not enough to feel like I’m an expert.",
+      "explanation": "Her limited expertise in the category underlies the value-add concern she uses to decline the investment.",
+      "evidence": [
+        "I've worked a little bit in this space, but not enough to feel like I’m an expert."
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 92,
+          "speaker": "Jillian",
+          "quote": "I've worked a little bit in this space, but not enough to feel like I’m an expert."
+        }
+      ],
+      "activation": "evaluated",
+      "source_rationale_id": "R16"
+    },
+    {
+      "rationale_label": "investor_value_add_fit",
+      "direction": "negative",
+      "salience": "primary",
+      "confidence": 1.0,
+      "utterance_type": "decision_explanation",
+      "decision_link": "supports_out",
+      "timing": "original_pitch",
+      "turn_index": 98,
+      "quote": "I'm going to be out just because I don't know if I can add value.",
+      "explanation": "She explicitly declines because she doubts she can contribute meaningful value beyond capital.",
+      "evidence": [
+        "I'm going to be out just because I don't know if I can add value."
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 98,
+          "speaker": "Jillian",
+          "quote": "I'm going to be out just because I don't know if I can add value."
+        }
+      ],
+      "activation": "evaluated",
+      "source_rationale_id": "R17"
+    },
+    {
+      "rationale_label": "product_appeal_assessment",
+      "direction": "positive",
+      "salience": "secondary",
+      "confidence": 0.88,
+      "utterance_type": "supporting_argument",
+      "decision_link": "none",
+      "timing": "original_pitch",
+      "turn_index": 98,
+      "quote": "not because I don't think this has huge merit. And I see the merit.",
+      "explanation": "Despite passing, she affirms that she sees substantial merit in the opportunity.",
+      "evidence": [
+        "not because I don't think this has huge merit. And I see the merit."
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 98,
+          "speaker": "Jillian",
+          "quote": "not because I don't think this has huge merit. And I see the merit."
+        }
+      ],
+      "activation": "evaluated",
+      "source_rationale_id": "R18"
+    },
+    {
+      "rationale_label": "fundraising_demand_signal",
+      "direction": "positive",
+      "salience": "secondary",
+      "confidence": 0.98,
+      "utterance_type": "assessment",
+      "decision_link": "none",
+      "timing": "original_pitch",
+      "turn_index": 98,
+      "quote": "I don't think you're going to have any problems raising the rest of this. Like, zero.",
+      "explanation": "She believes investor demand will allow the company to complete its round easily.",
+      "evidence": [
+        "I don't think you're going to have any problems raising the rest of this. Like, zero."
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 98,
+          "speaker": "Jillian",
+          "quote": "I don't think you're going to have any problems raising the rest of this. Like, zero."
+        }
+      ],
+      "activation": "evaluated",
+      "source_rationale_id": "R19"
+    },
+    {
+      "rationale_label": "investor_experience_bias",
+      "direction": "negative",
+      "salience": "secondary",
+      "confidence": 0.9,
+      "utterance_type": "decision_explanation",
+      "decision_link": "supports_out",
+      "timing": "original_pitch",
+      "turn_index": 113,
+      "quote": "That's why! [laughter] Need I say more? Like, Myspace!?",
+      "explanation": "She invokes her Myspace investing experience to reinforce her belief that she would not add the right value to this social-media company.",
+      "evidence": [
+        "That's why! [laughter] Need I say more? Like, Myspace!?"
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 113,
+          "speaker": "Jillian",
+          "quote": "That's why! [laughter] Need I say more? Like, Myspace!?"
+        }
+      ],
+      "activation": "evaluated",
+      "source_rationale_id": "R20"
+    },
+    {
+      "rationale_label": "fundraising_demand_signal",
+      "direction": "positive",
+      "salience": "secondary",
+      "confidence": 0.97,
+      "utterance_type": "assessment",
+      "decision_link": "none",
+      "timing": "original_pitch",
+      "turn_index": 125,
+      "quote": "you're going to raise this money, anyway",
+      "explanation": "She reiterates her belief that the company will attract the remaining capital without difficulty.",
+      "evidence": [
+        "you're going to raise this money, anyway"
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 125,
+          "speaker": "Jillian",
+          "quote": "you're going to raise this money, anyway"
+        }
+      ],
+      "activation": "evaluated",
+      "source_rationale_id": "R21"
+    }
+  ],
+  "expanded_quote_evidence": [],
+  "rejected_after_evidence_check": []
+}

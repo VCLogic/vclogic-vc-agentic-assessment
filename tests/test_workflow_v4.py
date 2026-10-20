@@ -283,6 +283,12 @@ def decision_v41(
         blocking_constraint_ids=[],
         constraint_assessment_summary="No supplied constraint blocks the small check.",
         founder_exception_precedent_match="No founder exception is required.",
+        commitment_support=dict(rationale_ids=['R1'],
+            investor_evidence_ids=[re.search(r'"evidence_id": "(W-[A-Za-z0-9_-]+)"', request.prompt).group(1)],
+            affirmative_case="Paid pilot validates founder execution.", strongest_soft_negative="Early traction.",
+            why_positive_outweighs_negative="Investor values early customer learning.",
+            same_risk_supported=False, material_difference_defeats_exception=False,
+            same_risk_explanation="Conventional fit, no exception."),
     )
     return payload
 
@@ -1252,3 +1258,53 @@ def test_v43_invalid_mapping_falls_back_to_usable_candidate(tmp_path: Path):
     assert result["investigation"]["rationales"][0]["taxonomy_label"] == "founder_execution"
     assert any("MAPPING_FALLBACK" in row for row in result["phase1_findings"])
     verify_phase1_artifacts(tmp_path / "run")
+
+
+def test_uncertain_policy_applicability_cannot_freeze_accepted(tmp_path):
+    graph, _ = workflow(tmp_path, [plan(),
+        lambda request: investigation_v41(request, triggered_hard_constraint=True),
+        plan(), decision_v41], p2_max=1, contract_version='v4.1')
+    result = graph.invoke('uncertain-policy-applicability')
+    assert result['phase2_status'] != 'accepted'
+    assert any(f.startswith('POLICY_APPLICABILITY_UNESTABLISHED:') for f in result['phase2_findings'])
+
+
+def test_retrieval_plan_rejects_runaway_strings():
+    import pytest
+    from pydantic import ValidationError
+    from vc_clone_graph.schemas_v4 import RetrievalPlanV4
+    payload = plan(); payload['questions'] = ['x' * 301]
+    with pytest.raises(ValidationError):
+        RetrievalPlanV4.model_validate(payload)
+
+
+def test_unsupported_commitment_is_retained_but_not_accepted(tmp_path):
+    def unsupported(request):
+        payload=decision_v41(request)
+        payload['commitment_support']['rationale_ids']=[]
+        return payload
+    graph,_=workflow(tmp_path,[plan(),investigation_v41,plan(),unsupported],
+                     contract_version='v4.1',p2_max=1)
+    result=graph.invoke('unsupported-commitment')
+    assert result['decision']['decision']=='In'
+    assert result['phase2_status']=='provisional'
+    assert 'COMMITMENT_MISSING_POSITIVE_PITCH_SUPPORT' in result['phase2_findings']
+
+
+def test_retained_prior_commitment_cannot_bypass_acceptance_checks(tmp_path):
+    def candidate(request, number):
+        payload=decision_v41(request,sufficient=number==3)
+        payload.update(searchable_questions=['new' if number==1 else 'repeat'],
+                       next_search_objectives=[])
+        if number<3:
+            payload['commitment_support']['rationale_ids']=[]
+        else:
+            payload.update(decision='Out',decision_path='out',investment_likelihood=.3,
+                           recommended_check_tier='none')
+        return payload
+    graph,_=workflow(tmp_path,[plan(),investigation_v41,
+        plan(),lambda r:candidate(r,1),plan(),lambda r:candidate(r,2),
+        plan(),lambda r:candidate(r,3)],contract_version='v4.1',p2_max=3)
+    result=graph.invoke('retained-commitment')
+    assert result['decision']['decision']=='In'
+    assert result['phase2_status']=='provisional'

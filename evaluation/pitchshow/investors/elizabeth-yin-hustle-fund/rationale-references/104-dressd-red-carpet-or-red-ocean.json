@@ -1,0 +1,715 @@
+{
+  "schema": "phase1-rationale-reference-v1",
+  "extraction_version": "pitchshow-rationales-v1",
+  "fingerprint": "690438ea30a6e3ea690bdf6e8d6899c090211a94c791517f4cf3026f773ea269",
+  "episode_slug": "104-dressd-red-carpet-or-red-ocean",
+  "vc_slug": "elizabeth-yin-hustle-fund",
+  "vc_name": "Elizabeth Yin",
+  "actual_decision": "Out",
+  "later_decision": "Unknown",
+  "reference_kind": "automated_transcript_observed_candidate",
+  "human_validated": false,
+  "source_format": "transcript-observed-rationales-v1",
+  "source_path": "../source/episodes/104-dressd-red-carpet-or-red-ocean.json",
+  "source_sha256": "02b8d1f8084eee0eb4a687c8641a9d54508fd59f19b5a722461576a8ac7d7112",
+  "transcript_sha256": "26c273cbd6081fb5785ed9a47e299ff5934f7b21c16d827932abc8f17113558d",
+  "taxonomy_sha256": "eaa8734819a3ac34dd19ee5f0bf6de925a793a1d25a2d361090dafc9b751e1fc",
+  "model": "openai/gpt-5.6-luna",
+  "source_tier": "newly_extracted_and_independently_model_reviewed",
+  "reviewed_target_turns": [
+    7,
+    15,
+    31,
+    57,
+    89,
+    96,
+    111,
+    130,
+    136,
+    149,
+    151,
+    154,
+    156,
+    158,
+    163,
+    170,
+    204
+  ],
+  "notes": "All supplied target turns were reviewed. Turns 7, 15, 89, 158, 163, and 204 contain no material rationale-bearing statement.",
+  "receipt_path": "receipts/104-dressd-red-carpet-or-red-ocean.json",
+  "scoring_scope": "original_pitch_only",
+  "shared_across_input_modes": true,
+  "rationales": [
+    {
+      "rationale_label": "business_model_assessment",
+      "direction": "neutral",
+      "salience": "secondary",
+      "confidence": 0.95,
+      "utterance_type": "question",
+      "decision_link": "none",
+      "timing": "original_pitch",
+      "turn_index": 31,
+      "quote": "What did those numbers typically look like? Like, how much would a rental be?",
+      "explanation": "Elizabeth asks about rental pricing to assess the transaction economics.",
+      "evidence": [
+        "What did those numbers typically look like? Like, how much would a rental be?"
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 31,
+          "speaker": "Elizabeth",
+          "quote": "What did those numbers typically look like? Like, how much would a rental be?"
+        }
+      ],
+      "activation": "queried",
+      "source_rationale_id": "R1",
+      "utterance_kind": "question",
+      "decision_support": "none",
+      "all_mention_ids": [
+        "R1"
+      ]
+    },
+    {
+      "rationale_label": "business_viability_concern",
+      "direction": "negative",
+      "salience": "secondary",
+      "confidence": 0.94,
+      "utterance_type": "assessment",
+      "decision_link": "none",
+      "timing": "original_pitch",
+      "turn_index": 57,
+      "quote": "people have moved away from the P2P model because it is really hard to get that liquidity and that supply side",
+      "explanation": "She identifies liquidity and supply formation as structural viability problems for the peer-to-peer model.",
+      "evidence": [
+        "people have moved away from the P2P model because it is really hard to get that liquidity and that supply side",
+        "shipping side, because that is a big chunk of the cost"
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 57,
+          "speaker": "Elizabeth",
+          "quote": "people have moved away from the P2P model because it is really hard to get that liquidity and that supply side"
+        },
+        {
+          "turn_index": 57,
+          "speaker": "Elizabeth",
+          "quote": "shipping side, because that is a big chunk of the cost"
+        }
+      ],
+      "activation": "evaluated",
+      "source_rationale_id": "R2",
+      "utterance_kind": "concern",
+      "decision_support": "none",
+      "all_mention_ids": [
+        "R2",
+        "R4"
+      ]
+    },
+    {
+      "rationale_label": "decision_context_constraint",
+      "direction": "negative",
+      "salience": "secondary",
+      "confidence": 0.86,
+      "utterance_type": "assessment",
+      "decision_link": "none",
+      "timing": "original_pitch",
+      "turn_index": 154,
+      "quote": "if he thinks that, everyone else thinks that",
+      "explanation": "She argues that this investor perception could generalize across fundraising evaluations and constrain the company's reception.",
+      "evidence": [
+        "if he thinks that, everyone else thinks that"
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 154,
+          "speaker": "Elizabeth",
+          "quote": "if he thinks that, everyone else thinks that"
+        }
+      ],
+      "activation": "evaluated",
+      "source_rationale_id": "R13",
+      "utterance_kind": "supporting_argument",
+      "decision_support": "none",
+      "all_mention_ids": [
+        "R13"
+      ]
+    },
+    {
+      "rationale_label": "founder_communication_quality",
+      "direction": "negative",
+      "salience": "secondary",
+      "confidence": 0.92,
+      "utterance_type": "assessment",
+      "decision_link": "none",
+      "timing": "original_pitch",
+      "turn_index": 136,
+      "quote": "Address the elephant in the room.",
+      "explanation": "She says the founder should directly address the obvious competitive concern in the pitch.",
+      "evidence": [
+        "Most YC founders would have said that the first thing.",
+        "Yes. This is my differentiation.",
+        "Address the elephant in the room."
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 111,
+          "speaker": "Elizabeth",
+          "quote": "Most YC founders would have said that the first thing."
+        },
+        {
+          "turn_index": 130,
+          "speaker": "Elizabeth",
+          "quote": "Yes. This is my differentiation."
+        },
+        {
+          "turn_index": 136,
+          "speaker": "Elizabeth",
+          "quote": "Address the elephant in the room."
+        }
+      ],
+      "activation": "evaluated",
+      "source_rationale_id": "R10",
+      "utterance_kind": "supporting_argument",
+      "decision_support": "none",
+      "all_mention_ids": [
+        "R8",
+        "R9",
+        "R10"
+      ]
+    },
+    {
+      "rationale_label": "founder_market_fit",
+      "direction": "positive",
+      "salience": "secondary",
+      "confidence": 0.96,
+      "utterance_type": "assessment",
+      "decision_link": "none",
+      "timing": "original_pitch",
+      "turn_index": 96,
+      "quote": "I think this is great founder market fit",
+      "explanation": "She explicitly views the founder as well matched to the target market.",
+      "evidence": [
+        "I think this is great founder market fit"
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 96,
+          "speaker": "Elizabeth",
+          "quote": "I think this is great founder market fit"
+        }
+      ],
+      "activation": "evaluated",
+      "source_rationale_id": "R6",
+      "utterance_kind": "assessment",
+      "decision_support": "none",
+      "all_mention_ids": [
+        "R6"
+      ]
+    },
+    {
+      "rationale_label": "founder_qualities",
+      "direction": "positive",
+      "salience": "secondary",
+      "confidence": 0.92,
+      "utterance_type": "assessment",
+      "decision_link": "none",
+      "timing": "original_pitch",
+      "turn_index": 170,
+      "quote": "She's sharp.",
+      "explanation": "Elizabeth gives a concise positive assessment of the founder's capability.",
+      "evidence": [
+        "I got really impressed with you. As well as your team.",
+        "She's sharp."
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 96,
+          "speaker": "Elizabeth",
+          "quote": "I got really impressed with you. As well as your team."
+        },
+        {
+          "turn_index": 170,
+          "speaker": "Elizabeth",
+          "quote": "She's sharp."
+        }
+      ],
+      "activation": "evaluated",
+      "source_rationale_id": "R15",
+      "utterance_kind": "assessment",
+      "decision_support": "none",
+      "all_mention_ids": [
+        "R5",
+        "R14",
+        "R15"
+      ]
+    },
+    {
+      "rationale_label": "investor_experience_bias",
+      "direction": "neutral",
+      "salience": "secondary",
+      "confidence": 0.91,
+      "utterance_type": "assessment",
+      "decision_link": "none",
+      "timing": "original_pitch",
+      "turn_index": 151,
+      "quote": "Years ago I was in a pitch meeting",
+      "explanation": "She uses a prior pitch-room experience to contextualize how investors may interpret a founder's presentation style.",
+      "evidence": [
+        "I've gotten that feedback before about me.",
+        "Years ago I was in a pitch meeting"
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 149,
+          "speaker": "Elizabeth",
+          "quote": "I've gotten that feedback before about me."
+        },
+        {
+          "turn_index": 151,
+          "speaker": "Elizabeth",
+          "quote": "Years ago I was in a pitch meeting"
+        }
+      ],
+      "activation": "evaluated",
+      "source_rationale_id": "R12",
+      "utterance_kind": "supporting_argument",
+      "decision_support": "none",
+      "all_mention_ids": [
+        "R11",
+        "R12"
+      ]
+    },
+    {
+      "rationale_label": "market_entry_path_assessment",
+      "direction": "positive",
+      "salience": "secondary",
+      "confidence": 0.94,
+      "utterance_type": "assessment",
+      "decision_link": "none",
+      "timing": "original_pitch",
+      "turn_index": 57,
+      "quote": "the college market in this case might be a good one",
+      "explanation": "She sees campuses and existing college communities as a potentially reachable initial market wedge.",
+      "evidence": [
+        "the college market in this case might be a good one"
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 57,
+          "speaker": "Elizabeth",
+          "quote": "the college market in this case might be a good one"
+        }
+      ],
+      "activation": "evaluated",
+      "source_rationale_id": "R3",
+      "utterance_kind": "supporting_argument",
+      "decision_support": "none",
+      "all_mention_ids": [
+        "R3"
+      ]
+    },
+    {
+      "rationale_label": "traction_repeatability_concern",
+      "direction": "negative",
+      "salience": "primary",
+      "confidence": 0.97,
+      "utterance_type": "assessment",
+      "decision_link": "explicit",
+      "timing": "original_pitch",
+      "turn_index": 96,
+      "quote": "can you get enough turns on these dresses? Can you get that supply?",
+      "explanation": "Elizabeth lacks conviction that the company can generate sufficient rental turnover and supply, and directly links that uncertainty to going out.",
+      "evidence": [
+        "can you get enough turns on these dresses? Can you get that supply?"
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 96,
+          "speaker": "Elizabeth",
+          "quote": "can you get enough turns on these dresses? Can you get that supply?"
+        }
+      ],
+      "activation": "evaluated",
+      "source_rationale_id": "R7",
+      "utterance_kind": "assessment",
+      "decision_support": "supports_out",
+      "all_mention_ids": [
+        "R7"
+      ]
+    }
+  ],
+  "later_rationales": [],
+  "excluded_rationales": [],
+  "rationale_mentions": [
+    {
+      "rationale_label": "business_model_assessment",
+      "direction": "neutral",
+      "salience": "secondary",
+      "confidence": 0.95,
+      "utterance_type": "question",
+      "decision_link": "none",
+      "timing": "original_pitch",
+      "turn_index": 31,
+      "quote": "What did those numbers typically look like? Like, how much would a rental be?",
+      "explanation": "Elizabeth asks about rental pricing to assess the transaction economics.",
+      "evidence": [
+        "What did those numbers typically look like? Like, how much would a rental be?"
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 31,
+          "speaker": "Elizabeth",
+          "quote": "What did those numbers typically look like? Like, how much would a rental be?"
+        }
+      ],
+      "activation": "queried",
+      "source_rationale_id": "R1"
+    },
+    {
+      "rationale_label": "business_viability_concern",
+      "direction": "negative",
+      "salience": "secondary",
+      "confidence": 0.94,
+      "utterance_type": "concern",
+      "decision_link": "none",
+      "timing": "original_pitch",
+      "turn_index": 57,
+      "quote": "people have moved away from the P2P model because it is really hard to get that liquidity and that supply side",
+      "explanation": "She identifies liquidity and supply formation as structural viability problems for the peer-to-peer model.",
+      "evidence": [
+        "people have moved away from the P2P model because it is really hard to get that liquidity and that supply side"
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 57,
+          "speaker": "Elizabeth",
+          "quote": "people have moved away from the P2P model because it is really hard to get that liquidity and that supply side"
+        }
+      ],
+      "activation": "evaluated",
+      "source_rationale_id": "R2"
+    },
+    {
+      "rationale_label": "market_entry_path_assessment",
+      "direction": "positive",
+      "salience": "secondary",
+      "confidence": 0.94,
+      "utterance_type": "supporting_argument",
+      "decision_link": "none",
+      "timing": "original_pitch",
+      "turn_index": 57,
+      "quote": "the college market in this case might be a good one",
+      "explanation": "She sees campuses and existing college communities as a potentially reachable initial market wedge.",
+      "evidence": [
+        "the college market in this case might be a good one"
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 57,
+          "speaker": "Elizabeth",
+          "quote": "the college market in this case might be a good one"
+        }
+      ],
+      "activation": "evaluated",
+      "source_rationale_id": "R3"
+    },
+    {
+      "rationale_label": "business_viability_concern",
+      "direction": "negative",
+      "salience": "secondary",
+      "confidence": 0.9,
+      "utterance_type": "concern",
+      "decision_link": "none",
+      "timing": "original_pitch",
+      "turn_index": 57,
+      "quote": "shipping side, because that is a big chunk of the cost",
+      "explanation": "She flags shipping expense as a material burden on the model, while considering localized campus activity as a possible mitigation.",
+      "evidence": [
+        "shipping side, because that is a big chunk of the cost"
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 57,
+          "speaker": "Elizabeth",
+          "quote": "shipping side, because that is a big chunk of the cost"
+        }
+      ],
+      "activation": "evaluated",
+      "source_rationale_id": "R4"
+    },
+    {
+      "rationale_label": "founder_qualities",
+      "direction": "positive",
+      "salience": "secondary",
+      "confidence": 0.92,
+      "utterance_type": "assessment",
+      "decision_link": "none",
+      "timing": "original_pitch",
+      "turn_index": 96,
+      "quote": "I got really impressed with you. As well as your team.",
+      "explanation": "Elizabeth gives a favorable assessment of the founder and team.",
+      "evidence": [
+        "I got really impressed with you. As well as your team."
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 96,
+          "speaker": "Elizabeth",
+          "quote": "I got really impressed with you. As well as your team."
+        }
+      ],
+      "activation": "evaluated",
+      "source_rationale_id": "R5"
+    },
+    {
+      "rationale_label": "founder_market_fit",
+      "direction": "positive",
+      "salience": "secondary",
+      "confidence": 0.96,
+      "utterance_type": "assessment",
+      "decision_link": "none",
+      "timing": "original_pitch",
+      "turn_index": 96,
+      "quote": "I think this is great founder market fit",
+      "explanation": "She explicitly views the founder as well matched to the target market.",
+      "evidence": [
+        "I think this is great founder market fit"
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 96,
+          "speaker": "Elizabeth",
+          "quote": "I think this is great founder market fit"
+        }
+      ],
+      "activation": "evaluated",
+      "source_rationale_id": "R6"
+    },
+    {
+      "rationale_label": "traction_repeatability_concern",
+      "direction": "negative",
+      "salience": "primary",
+      "confidence": 0.97,
+      "utterance_type": "assessment",
+      "decision_link": "supports_out",
+      "timing": "original_pitch",
+      "turn_index": 96,
+      "quote": "can you get enough turns on these dresses? Can you get that supply?",
+      "explanation": "Elizabeth lacks conviction that the company can generate sufficient rental turnover and supply, and directly links that uncertainty to going out.",
+      "evidence": [
+        "can you get enough turns on these dresses? Can you get that supply?"
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 96,
+          "speaker": "Elizabeth",
+          "quote": "can you get enough turns on these dresses? Can you get that supply?"
+        }
+      ],
+      "activation": "evaluated",
+      "source_rationale_id": "R7"
+    },
+    {
+      "rationale_label": "founder_communication_quality",
+      "direction": "negative",
+      "salience": "secondary",
+      "confidence": 0.91,
+      "utterance_type": "assessment",
+      "decision_link": "none",
+      "timing": "original_pitch",
+      "turn_index": 111,
+      "quote": "Most YC founders would have said that the first thing.",
+      "explanation": "She criticizes the founder for not foregrounding a major credential during the pitch.",
+      "evidence": [
+        "Most YC founders would have said that the first thing."
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 111,
+          "speaker": "Elizabeth",
+          "quote": "Most YC founders would have said that the first thing."
+        }
+      ],
+      "activation": "evaluated",
+      "source_rationale_id": "R8"
+    },
+    {
+      "rationale_label": "founder_communication_quality",
+      "direction": "negative",
+      "salience": "secondary",
+      "confidence": 0.84,
+      "utterance_type": "supporting_argument",
+      "decision_link": "none",
+      "timing": "original_pitch",
+      "turn_index": 130,
+      "quote": "Yes. This is my differentiation.",
+      "explanation": "She endorses explicitly presenting the company's differentiation as the response to the crowded competitive landscape.",
+      "evidence": [
+        "Yes. This is my differentiation."
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 130,
+          "speaker": "Elizabeth",
+          "quote": "Yes. This is my differentiation."
+        }
+      ],
+      "activation": "evaluated",
+      "source_rationale_id": "R9"
+    },
+    {
+      "rationale_label": "founder_communication_quality",
+      "direction": "negative",
+      "salience": "secondary",
+      "confidence": 0.92,
+      "utterance_type": "supporting_argument",
+      "decision_link": "none",
+      "timing": "original_pitch",
+      "turn_index": 136,
+      "quote": "Address the elephant in the room.",
+      "explanation": "She says the founder should directly address the obvious competitive concern in the pitch.",
+      "evidence": [
+        "Address the elephant in the room."
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 136,
+          "speaker": "Elizabeth",
+          "quote": "Address the elephant in the room."
+        }
+      ],
+      "activation": "evaluated",
+      "source_rationale_id": "R10"
+    },
+    {
+      "rationale_label": "investor_experience_bias",
+      "direction": "neutral",
+      "salience": "secondary",
+      "confidence": 0.89,
+      "utterance_type": "supporting_argument",
+      "decision_link": "none",
+      "timing": "original_pitch",
+      "turn_index": 149,
+      "quote": "I've gotten that feedback before about me.",
+      "explanation": "Elizabeth invokes her own prior experience receiving similar feedback to support the discussion of how a quiet presentation may be perceived.",
+      "evidence": [
+        "I've gotten that feedback before about me."
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 149,
+          "speaker": "Elizabeth",
+          "quote": "I've gotten that feedback before about me."
+        }
+      ],
+      "activation": "evaluated",
+      "source_rationale_id": "R11"
+    },
+    {
+      "rationale_label": "investor_experience_bias",
+      "direction": "neutral",
+      "salience": "secondary",
+      "confidence": 0.91,
+      "utterance_type": "supporting_argument",
+      "decision_link": "none",
+      "timing": "original_pitch",
+      "turn_index": 151,
+      "quote": "Years ago I was in a pitch meeting",
+      "explanation": "She uses a prior pitch-room experience to contextualize how investors may interpret a founder's presentation style.",
+      "evidence": [
+        "Years ago I was in a pitch meeting"
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 151,
+          "speaker": "Elizabeth",
+          "quote": "Years ago I was in a pitch meeting"
+        }
+      ],
+      "activation": "evaluated",
+      "source_rationale_id": "R12"
+    },
+    {
+      "rationale_label": "decision_context_constraint",
+      "direction": "negative",
+      "salience": "secondary",
+      "confidence": 0.86,
+      "utterance_type": "supporting_argument",
+      "decision_link": "none",
+      "timing": "original_pitch",
+      "turn_index": 154,
+      "quote": "if he thinks that, everyone else thinks that",
+      "explanation": "She argues that this investor perception could generalize across fundraising evaluations and constrain the company's reception.",
+      "evidence": [
+        "if he thinks that, everyone else thinks that"
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 154,
+          "speaker": "Elizabeth",
+          "quote": "if he thinks that, everyone else thinks that"
+        }
+      ],
+      "activation": "evaluated",
+      "source_rationale_id": "R13"
+    },
+    {
+      "rationale_label": "founder_qualities",
+      "direction": "negative",
+      "salience": "secondary",
+      "confidence": 0.78,
+      "utterance_type": "assessment",
+      "decision_link": "none",
+      "timing": "original_pitch",
+      "turn_index": 156,
+      "quote": "This is exactly this archetype.",
+      "explanation": "She identifies the founder with the understated founder archetype being discussed as a potential investor-perception risk.",
+      "evidence": [
+        "This is exactly this archetype."
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 156,
+          "speaker": "Elizabeth",
+          "quote": "This is exactly this archetype."
+        }
+      ],
+      "activation": "evaluated",
+      "source_rationale_id": "R14"
+    },
+    {
+      "rationale_label": "founder_qualities",
+      "direction": "positive",
+      "salience": "secondary",
+      "confidence": 0.92,
+      "utterance_type": "assessment",
+      "decision_link": "none",
+      "timing": "original_pitch",
+      "turn_index": 170,
+      "quote": "She's sharp.",
+      "explanation": "Elizabeth gives a concise positive assessment of the founder's capability.",
+      "evidence": [
+        "She's sharp."
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 170,
+          "speaker": "Elizabeth",
+          "quote": "She's sharp."
+        }
+      ],
+      "activation": "evaluated",
+      "source_rationale_id": "R15"
+    }
+  ],
+  "expanded_quote_evidence": [],
+  "rejected_after_evidence_check": [],
+  "timing_review_overrides": [
+    {
+      "start_turn": 110,
+      "end_turn": 171,
+      "timing": "original_pitch",
+      "reason": "Agent source review: founder exits at turns 107–109; turns 110–171 are the immediate in-room investor debrief. Turn 171 continuation introduces an interview months later; the separate interview begins at turn 172."
+    }
+  ]
+}

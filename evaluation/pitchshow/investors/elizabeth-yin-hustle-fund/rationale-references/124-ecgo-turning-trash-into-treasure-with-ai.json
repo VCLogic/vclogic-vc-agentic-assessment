@@ -1,0 +1,467 @@
+{
+  "schema": "phase1-rationale-reference-v1",
+  "extraction_version": "pitchshow-rationales-v1",
+  "fingerprint": "f3eab5d8f60c317264699a5195acde060a9ba9bf3f23490f062026bc029bf7f6",
+  "episode_slug": "124-ecgo-turning-trash-into-treasure-with-ai",
+  "vc_slug": "elizabeth-yin-hustle-fund",
+  "vc_name": "Elizabeth Yin",
+  "actual_decision": "Out",
+  "later_decision": "Unknown",
+  "reference_kind": "automated_transcript_observed_candidate",
+  "human_validated": false,
+  "source_format": "transcript-observed-rationales-v1",
+  "source_path": "../source/episodes/124-ecgo-turning-trash-into-treasure-with-ai.json",
+  "source_sha256": "889a78ed852a601dd1e2d6aac4e5f003aa9d6d36743cbcc391879f8222b98cdd",
+  "transcript_sha256": "f62ec8f0d20f6d002bb674588f9031d05bb9bdb69357a5c449072fa79dd9082c",
+  "taxonomy_sha256": "eaa8734819a3ac34dd19ee5f0bf6de925a793a1d25a2d361090dafc9b751e1fc",
+  "model": "openai/gpt-5.6-luna",
+  "source_tier": "newly_extracted_and_independently_model_reviewed",
+  "reviewed_target_turns": [
+    8,
+    13,
+    15,
+    17,
+    21,
+    34,
+    37,
+    40,
+    42,
+    62,
+    87,
+    95,
+    97,
+    104,
+    106,
+    116
+  ],
+  "notes": "Non-rationale turns were excluded: greetings, simple confirmation or reaction, a factual corporate-ownership correction, and the bare refusal.",
+  "receipt_path": "receipts/124-ecgo-turning-trash-into-treasure-with-ai.json",
+  "scoring_scope": "original_pitch_only",
+  "shared_across_input_modes": true,
+  "rationales": [
+    {
+      "rationale_label": "business_model_assessment",
+      "direction": "negative",
+      "salience": "primary",
+      "confidence": 0.99,
+      "utterance_type": "decision_reason",
+      "decision_link": "explicit",
+      "timing": "original_pitch",
+      "turn_index": 116,
+      "quote": "I do think there's something in here, but this is not the right model.",
+      "explanation": "She states that the opportunity has promise but rejects the current business model for investment.",
+      "evidence": [
+        "I do think there's something in here, but this is not the right model."
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 116,
+          "speaker": "Elizabeth",
+          "quote": "I do think there's something in here, but this is not the right model."
+        }
+      ],
+      "activation": "evaluated",
+      "source_rationale_id": "R10",
+      "utterance_kind": "decision_explanation",
+      "decision_support": "supports_out",
+      "all_mention_ids": [
+        "R4",
+        "R5",
+        "R8",
+        "R9",
+        "R10"
+      ]
+    },
+    {
+      "rationale_label": "founder_execution",
+      "direction": "positive",
+      "salience": "secondary",
+      "confidence": 0.96,
+      "utterance_type": "assessment",
+      "decision_link": "none",
+      "timing": "original_pitch",
+      "turn_index": 95,
+      "quote": "I'm very impressed by your sales to these two campuses and also this corporate",
+      "explanation": "She praises the founder's ability to secure campus and corporate customers.",
+      "evidence": [
+        "I'm very impressed by your sales to these two campuses and also this corporate"
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 95,
+          "speaker": "Elizabeth",
+          "quote": "I'm very impressed by your sales to these two campuses and also this corporate"
+        }
+      ],
+      "activation": "evaluated",
+      "source_rationale_id": "R6",
+      "utterance_kind": "assessment",
+      "decision_support": "none",
+      "all_mention_ids": [
+        "R6"
+      ]
+    },
+    {
+      "rationale_label": "go_to_market_strategy_assessment",
+      "direction": "negative",
+      "salience": "primary",
+      "confidence": 0.98,
+      "utterance_type": "decision_reason",
+      "decision_link": "explicit",
+      "timing": "original_pitch",
+      "turn_index": 95,
+      "quote": "I just think it's going to be too pricey to try to - like, how do you go from 1500 to a whole campus without increasing that spend?",
+      "explanation": "Elizabeth doubts that student acquisition can scale from the pilot base to a full campus without excessive spending.",
+      "evidence": [
+        "I just think it's going to be too pricey to try to - like, how do you go from 1500 to a whole campus without increasing that spend?"
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 95,
+          "speaker": "Elizabeth",
+          "quote": "I just think it's going to be too pricey to try to - like, how do you go from 1500 to a whole campus without increasing that spend?"
+        }
+      ],
+      "activation": "evaluated",
+      "source_rationale_id": "R7",
+      "utterance_kind": "decision_explanation",
+      "decision_support": "supports_out",
+      "all_mention_ids": [
+        "R7"
+      ]
+    },
+    {
+      "rationale_label": "market_problem_validation",
+      "direction": "positive",
+      "salience": "secondary",
+      "confidence": 0.9,
+      "utterance_type": "assessment",
+      "decision_link": "none",
+      "timing": "original_pitch",
+      "turn_index": 21,
+      "quote": "it's amazing to me just how little I know about recycling",
+      "explanation": "Her confusion about recycling guidance supports the existence of a meaningful consumer education problem.",
+      "evidence": [
+        "it's amazing to me just how little I know about recycling"
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 21,
+          "speaker": "Elizabeth",
+          "quote": "it's amazing to me just how little I know about recycling"
+        }
+      ],
+      "activation": "evaluated",
+      "source_rationale_id": "R2",
+      "utterance_kind": "supporting_argument",
+      "decision_support": "none",
+      "all_mention_ids": [
+        "R2"
+      ]
+    },
+    {
+      "rationale_label": "product_adoption",
+      "direction": "neutral",
+      "salience": "secondary",
+      "confidence": 0.96,
+      "utterance_type": "question",
+      "decision_link": "none",
+      "timing": "original_pitch",
+      "turn_index": 34,
+      "quote": "How - how many downloads have you gotten on these campuses?",
+      "explanation": "Elizabeth asks for evidence of user adoption on the pilot campuses.",
+      "evidence": [
+        "How - how many downloads have you gotten on these campuses?"
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 34,
+          "speaker": "Elizabeth",
+          "quote": "How - how many downloads have you gotten on these campuses?"
+        }
+      ],
+      "activation": "queried",
+      "source_rationale_id": "R3",
+      "utterance_kind": "question",
+      "decision_support": "none",
+      "all_mention_ids": [
+        "R3"
+      ]
+    },
+    {
+      "rationale_label": "solution_feasibility_assessment",
+      "direction": "neutral",
+      "salience": "secondary",
+      "confidence": 0.95,
+      "utterance_type": "question",
+      "decision_link": "none",
+      "timing": "original_pitch",
+      "turn_index": 13,
+      "quote": "Like what - would you app tell me this?",
+      "explanation": "Elizabeth tests whether the app can identify the recyclability of a real-world item.",
+      "evidence": [
+        "Like what - would you app tell me this?"
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 13,
+          "speaker": "Elizabeth",
+          "quote": "Like what - would you app tell me this?"
+        }
+      ],
+      "activation": "queried",
+      "source_rationale_id": "R1",
+      "utterance_kind": "question",
+      "decision_support": "none",
+      "all_mention_ids": [
+        "R1"
+      ]
+    }
+  ],
+  "later_rationales": [],
+  "excluded_rationales": [],
+  "rationale_mentions": [
+    {
+      "rationale_label": "solution_feasibility_assessment",
+      "direction": "neutral",
+      "salience": "secondary",
+      "confidence": 0.95,
+      "utterance_type": "question",
+      "decision_link": "none",
+      "timing": "original_pitch",
+      "turn_index": 13,
+      "quote": "Like what - would you app tell me this?",
+      "explanation": "Elizabeth tests whether the app can identify the recyclability of a real-world item.",
+      "evidence": [
+        "Like what - would you app tell me this?"
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 13,
+          "speaker": "Elizabeth",
+          "quote": "Like what - would you app tell me this?"
+        }
+      ],
+      "activation": "queried",
+      "source_rationale_id": "R1"
+    },
+    {
+      "rationale_label": "market_problem_validation",
+      "direction": "positive",
+      "salience": "secondary",
+      "confidence": 0.9,
+      "utterance_type": "supporting_argument",
+      "decision_link": "none",
+      "timing": "original_pitch",
+      "turn_index": 21,
+      "quote": "it's amazing to me just how little I know about recycling",
+      "explanation": "Her confusion about recycling guidance supports the existence of a meaningful consumer education problem.",
+      "evidence": [
+        "it's amazing to me just how little I know about recycling"
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 21,
+          "speaker": "Elizabeth",
+          "quote": "it's amazing to me just how little I know about recycling"
+        }
+      ],
+      "activation": "evaluated",
+      "source_rationale_id": "R2"
+    },
+    {
+      "rationale_label": "product_adoption",
+      "direction": "neutral",
+      "salience": "secondary",
+      "confidence": 0.96,
+      "utterance_type": "question",
+      "decision_link": "none",
+      "timing": "original_pitch",
+      "turn_index": 34,
+      "quote": "How - how many downloads have you gotten on these campuses?",
+      "explanation": "Elizabeth asks for evidence of user adoption on the pilot campuses.",
+      "evidence": [
+        "How - how many downloads have you gotten on these campuses?"
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 34,
+          "speaker": "Elizabeth",
+          "quote": "How - how many downloads have you gotten on these campuses?"
+        }
+      ],
+      "activation": "queried",
+      "source_rationale_id": "R3"
+    },
+    {
+      "rationale_label": "business_model_assessment",
+      "direction": "neutral",
+      "salience": "secondary",
+      "confidence": 0.95,
+      "utterance_type": "question",
+      "decision_link": "none",
+      "timing": "original_pitch",
+      "turn_index": 37,
+      "quote": "Does a university benefit in any monetary way by recycling more?",
+      "explanation": "She probes whether the university customer receives direct economic value from the solution.",
+      "evidence": [
+        "Does a university benefit in any monetary way by recycling more?"
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 37,
+          "speaker": "Elizabeth",
+          "quote": "Does a university benefit in any monetary way by recycling more?"
+        }
+      ],
+      "activation": "queried",
+      "source_rationale_id": "R4"
+    },
+    {
+      "rationale_label": "business_model_assessment",
+      "direction": "neutral",
+      "salience": "secondary",
+      "confidence": 0.94,
+      "utterance_type": "question",
+      "decision_link": "none",
+      "timing": "original_pitch",
+      "turn_index": 40,
+      "quote": "Is it just feel good? Or is - are there other things?",
+      "explanation": "Elizabeth asks whether the customer value proposition extends beyond a nonfinancial benefit.",
+      "evidence": [
+        "Is it just feel good? Or is - are there other things?"
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 40,
+          "speaker": "Elizabeth",
+          "quote": "Is it just feel good? Or is - are there other things?"
+        }
+      ],
+      "activation": "queried",
+      "source_rationale_id": "R5"
+    },
+    {
+      "rationale_label": "founder_execution",
+      "direction": "positive",
+      "salience": "secondary",
+      "confidence": 0.96,
+      "utterance_type": "assessment",
+      "decision_link": "none",
+      "timing": "original_pitch",
+      "turn_index": 95,
+      "quote": "I'm very impressed by your sales to these two campuses and also this corporate",
+      "explanation": "She praises the founder's ability to secure campus and corporate customers.",
+      "evidence": [
+        "I'm very impressed by your sales to these two campuses and also this corporate"
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 95,
+          "speaker": "Elizabeth",
+          "quote": "I'm very impressed by your sales to these two campuses and also this corporate"
+        }
+      ],
+      "activation": "evaluated",
+      "source_rationale_id": "R6"
+    },
+    {
+      "rationale_label": "go_to_market_strategy_assessment",
+      "direction": "negative",
+      "salience": "primary",
+      "confidence": 0.98,
+      "utterance_type": "decision_explanation",
+      "decision_link": "supports_out",
+      "timing": "original_pitch",
+      "turn_index": 95,
+      "quote": "I just think it's going to be too pricey to try to - like, how do you go from 1500 to a whole campus without increasing that spend?",
+      "explanation": "Elizabeth doubts that student acquisition can scale from the pilot base to a full campus without excessive spending.",
+      "evidence": [
+        "I just think it's going to be too pricey to try to - like, how do you go from 1500 to a whole campus without increasing that spend?"
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 95,
+          "speaker": "Elizabeth",
+          "quote": "I just think it's going to be too pricey to try to - like, how do you go from 1500 to a whole campus without increasing that spend?"
+        }
+      ],
+      "activation": "evaluated",
+      "source_rationale_id": "R7"
+    },
+    {
+      "rationale_label": "business_model_assessment",
+      "direction": "positive",
+      "salience": "secondary",
+      "confidence": 0.9,
+      "utterance_type": "supporting_argument",
+      "decision_link": "none",
+      "timing": "original_pitch",
+      "turn_index": 104,
+      "quote": "There is big money to unlock in there somewhere.",
+      "explanation": "She sees substantial potential customer spending, while indicating that the company has not yet aligned with it.",
+      "evidence": [
+        "There is big money to unlock in there somewhere."
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 104,
+          "speaker": "Elizabeth",
+          "quote": "There is big money to unlock in there somewhere."
+        }
+      ],
+      "activation": "evaluated",
+      "source_rationale_id": "R8"
+    },
+    {
+      "rationale_label": "business_model_assessment",
+      "direction": "positive",
+      "salience": "secondary",
+      "confidence": 0.87,
+      "utterance_type": "supporting_argument",
+      "decision_link": "none",
+      "timing": "original_pitch",
+      "turn_index": 106,
+      "quote": "Big money. Lot of donors.",
+      "explanation": "Elizabeth reinforces the possibility of accessing well-funded university customers.",
+      "evidence": [
+        "Big money. Lot of donors."
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 106,
+          "speaker": "Elizabeth",
+          "quote": "Big money. Lot of donors."
+        }
+      ],
+      "activation": "evaluated",
+      "source_rationale_id": "R9"
+    },
+    {
+      "rationale_label": "business_model_assessment",
+      "direction": "negative",
+      "salience": "primary",
+      "confidence": 0.99,
+      "utterance_type": "decision_explanation",
+      "decision_link": "supports_out",
+      "timing": "original_pitch",
+      "turn_index": 116,
+      "quote": "I do think there's something in here, but this is not the right model.",
+      "explanation": "She states that the opportunity has promise but rejects the current business model for investment.",
+      "evidence": [
+        "I do think there's something in here, but this is not the right model."
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 116,
+          "speaker": "Elizabeth",
+          "quote": "I do think there's something in here, but this is not the right model."
+        }
+      ],
+      "activation": "evaluated",
+      "source_rationale_id": "R10"
+    }
+  ],
+  "expanded_quote_evidence": [],
+  "rejected_after_evidence_check": []
+}

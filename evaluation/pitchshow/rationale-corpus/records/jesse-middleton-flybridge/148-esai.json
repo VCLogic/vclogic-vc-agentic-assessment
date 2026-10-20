@@ -1,0 +1,1019 @@
+{
+  "schema": "phase1-rationale-reference-v1",
+  "extraction_version": "pitchshow-rationales-v1",
+  "fingerprint": "40a38127342d5a017259c829baff23677f241e65f3c8d5548dd2a34f5f9f5158",
+  "episode_slug": "148-esai",
+  "vc_slug": "jesse-middleton-flybridge",
+  "vc_name": "Jesse Middleton",
+  "actual_decision": "In",
+  "later_decision": "Unknown",
+  "reference_kind": "automated_transcript_observed_candidate",
+  "human_validated": false,
+  "source_format": "transcript-observed-rationales-v1",
+  "source_path": "/home/dpasch01/vclogic-vc-agentic-assessment/evaluation/pitchshow/investors/jesse-middleton-flybridge/source/episodes/148-esai.json",
+  "source_sha256": "fb3872515e3343805843858fbc7842524f5f5cc00d4a6b5e99ac105f135444ca",
+  "transcript_sha256": "8a9f0ff78955306d45667a84b25eb9992e75bbec7da0ccc631114bab3eefcbb2",
+  "taxonomy_sha256": "eaa8734819a3ac34dd19ee5f0bf6de925a793a1d25a2d361090dafc9b751e1fc",
+  "model": "codex:gpt-5.6-luna+gpt-5.6-sol",
+  "generation_stages": [
+    {
+      "phase": "rationale_extract",
+      "backend": "codex",
+      "model": "gpt-5.6-luna"
+    },
+    {
+      "phase": "rationale_verify",
+      "backend": "codex",
+      "model": "gpt-5.6-sol"
+    }
+  ],
+  "source_tier": "newly_extracted_and_independently_model_reviewed",
+  "reviewed_target_turns": [
+    2,
+    10,
+    15,
+    17,
+    19,
+    21,
+    30,
+    38,
+    42,
+    44,
+    46,
+    84,
+    87,
+    89,
+    91,
+    94,
+    96,
+    98,
+    100,
+    101,
+    103,
+    105,
+    108,
+    119,
+    121,
+    127,
+    136,
+    140,
+    150,
+    152,
+    156,
+    158,
+    160,
+    162,
+    164,
+    167,
+    173,
+    175,
+    178
+  ],
+  "notes": "All supplied target turns were reviewed. The SAFE question was omitted because it is a neutral request for a financing fact without an expressed terms-complexity concern; greetings, biography, fragments, and simple confirmations were also omitted. The same-room investor debrief remains original_pitch, while turn 178 is a teaser for another company.",
+  "receipt_path": "/home/dpasch01/vclogic-vc-agentic-assessment/evaluation/pitchshow/investors/jesse-middleton-flybridge/rationale-references/receipts/148-esai.json",
+  "scoring_scope": "original_pitch_only",
+  "shared_across_input_modes": true,
+  "rationales": [
+    {
+      "rationale_label": "business_model_assessment",
+      "direction": "positive",
+      "salience": "secondary",
+      "confidence": 0.93,
+      "utterance_type": "assessment",
+      "decision_link": "none",
+      "timing": "original_pitch",
+      "turn_index": 84,
+      "quote": "That's a thousand dollars to the school.",
+      "explanation": "He highlights a potential school-funded revenue stream based on influencing student applications.",
+      "evidence": [
+        "That's a thousand dollars to the school."
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 84,
+          "speaker": "Jesse",
+          "quote": "That's a thousand dollars to the school."
+        }
+      ],
+      "activation": "evaluated",
+      "source_rationale_id": "R10",
+      "utterance_kind": "supporting_argument",
+      "decision_support": "none",
+      "all_mention_ids": [
+        "R10"
+      ]
+    },
+    {
+      "rationale_label": "go_to_market_strategy_assessment",
+      "direction": "neutral",
+      "salience": "secondary",
+      "confidence": 0.96,
+      "utterance_type": "question",
+      "decision_link": "none",
+      "timing": "original_pitch",
+      "turn_index": 30,
+      "quote": "How are you thinking about, scaling top of funnel growth?",
+      "explanation": "He asks how ESAI will scale customer acquisition at the top of its funnel.",
+      "evidence": [
+        "what it's cost you to get to 100,000 students and the millions of views on TikTok?",
+        "How are you thinking about, scaling top of funnel growth?"
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 17,
+          "speaker": "Jesse",
+          "quote": "what it's cost you to get to 100,000 students and the millions of views on TikTok?"
+        },
+        {
+          "turn_index": 30,
+          "speaker": "Jesse",
+          "quote": "How are you thinking about, scaling top of funnel growth?"
+        }
+      ],
+      "activation": "queried",
+      "source_rationale_id": "R4",
+      "utterance_kind": "question",
+      "decision_support": "none",
+      "all_mention_ids": [
+        "R2",
+        "R4"
+      ]
+    },
+    {
+      "rationale_label": "investor_experience_bias",
+      "direction": "positive",
+      "salience": "primary",
+      "confidence": 0.98,
+      "utterance_type": "decision_reason",
+      "decision_link": "explicit",
+      "timing": "original_pitch",
+      "turn_index": 150,
+      "quote": "I think in this one, it was total pattern recognition.",
+      "explanation": "He directly attributes his favorable investment judgment to pattern recognition from an analogous portfolio company.",
+      "evidence": [
+        "it's been an exceptional business to be invested in.",
+        "I think in this one, it was total pattern recognition."
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 30,
+          "speaker": "Jesse",
+          "quote": "it's been an exceptional business to be invested in."
+        },
+        {
+          "turn_index": 150,
+          "speaker": "Jesse",
+          "quote": "I think in this one, it was total pattern recognition."
+        }
+      ],
+      "activation": "evaluated",
+      "source_rationale_id": "R18",
+      "utterance_kind": "decision_explanation",
+      "decision_support": "supports_in",
+      "all_mention_ids": [
+        "R3",
+        "R18"
+      ]
+    },
+    {
+      "rationale_label": "investor_value_add_fit",
+      "direction": "positive",
+      "salience": "secondary",
+      "confidence": 0.76,
+      "utterance_type": "assessment",
+      "decision_link": "none",
+      "timing": "original_pitch",
+      "turn_index": 175,
+      "quote": "we have a couple of college endowments as investors",
+      "explanation": "He points to relevant relationships with college endowments that could potentially provide strategic value to ESAI.",
+      "evidence": [
+        "we have a couple of college endowments as investors"
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 175,
+          "speaker": "Jesse",
+          "quote": "we have a couple of college endowments as investors"
+        }
+      ],
+      "activation": "evaluated",
+      "source_rationale_id": "R22",
+      "utterance_kind": "supporting_argument",
+      "decision_support": "none",
+      "all_mention_ids": [
+        "R22"
+      ]
+    },
+    {
+      "rationale_label": "market_entry_path_assessment",
+      "direction": "positive",
+      "salience": "secondary",
+      "confidence": 0.93,
+      "utterance_type": "assessment",
+      "decision_link": "explicit",
+      "timing": "original_pitch",
+      "turn_index": 152,
+      "quote": "They're all applying to US.",
+      "explanation": "He explains that international applicants' common destination creates a focused and reachable market-entry path.",
+      "evidence": [
+        "international is so much easier with this than jobs",
+        "They're all applying to US."
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 150,
+          "speaker": "Jesse",
+          "quote": "international is so much easier with this than jobs"
+        },
+        {
+          "turn_index": 152,
+          "speaker": "Jesse",
+          "quote": "They're all applying to US."
+        }
+      ],
+      "activation": "evaluated",
+      "source_rationale_id": "R21",
+      "utterance_kind": "supporting_argument",
+      "decision_support": "supports_in",
+      "all_mention_ids": [
+        "R20",
+        "R21"
+      ]
+    },
+    {
+      "rationale_label": "market_problem_validation",
+      "direction": "positive",
+      "salience": "primary",
+      "confidence": 0.96,
+      "utterance_type": "decision_reason",
+      "decision_link": "explicit",
+      "timing": "original_pitch",
+      "turn_index": 44,
+      "quote": "As somebody whose guidance counselor was very busy and was not very helpful, I would have loved if this existed.",
+      "explanation": "His firsthand experience validates the inadequacy of existing guidance and supports his stated $50,000 commitment.",
+      "evidence": [
+        "As somebody whose guidance counselor was very busy and was not very helpful, I would have loved if this existed.",
+        "I think the system's broken."
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 44,
+          "speaker": "Jesse",
+          "quote": "As somebody whose guidance counselor was very busy and was not very helpful, I would have loved if this existed."
+        },
+        {
+          "turn_index": 98,
+          "speaker": "Jesse",
+          "quote": "I think the system's broken."
+        },
+        {
+          "turn_index": 101,
+          "speaker": "Jesse",
+          "quote": "I think the system's broken."
+        }
+      ],
+      "activation": "evaluated",
+      "source_rationale_id": "R7",
+      "utterance_kind": "decision_explanation",
+      "decision_support": "supports_in",
+      "all_mention_ids": [
+        "R7",
+        "R11",
+        "R14"
+      ]
+    },
+    {
+      "rationale_label": "market_size_assessment",
+      "direction": "negative",
+      "salience": "secondary",
+      "confidence": 0.95,
+      "utterance_type": "decision_reason",
+      "decision_link": "none",
+      "timing": "original_pitch",
+      "turn_index": 150,
+      "quote": "the market's slightly smaller in the US than Teal.",
+      "explanation": "He acknowledges that ESAI's domestic market is smaller than the analogous job-search market.",
+      "evidence": [
+        "the market's slightly smaller in the US than Teal."
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 150,
+          "speaker": "Jesse",
+          "quote": "the market's slightly smaller in the US than Teal."
+        }
+      ],
+      "activation": "evaluated",
+      "source_rationale_id": "R19",
+      "utterance_kind": "decision_explanation",
+      "decision_support": "none",
+      "all_mention_ids": [
+        "R5",
+        "R19"
+      ]
+    },
+    {
+      "rationale_label": "market_timing",
+      "direction": "positive",
+      "salience": "secondary",
+      "confidence": 0.91,
+      "utterance_type": "assessment",
+      "decision_link": "none",
+      "timing": "original_pitch",
+      "turn_index": 103,
+      "quote": "it's going to exist for a while",
+      "explanation": "He reiterates that the current system is likely to persist, preserving the opportunity for ESAI.",
+      "evidence": [
+        "it's going to exist for a while"
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 100,
+          "speaker": "Jesse",
+          "quote": "it's going to exist for a while"
+        },
+        {
+          "turn_index": 103,
+          "speaker": "Jesse",
+          "quote": "it's going to exist for a while"
+        }
+      ],
+      "activation": "evaluated",
+      "source_rationale_id": "R15",
+      "utterance_kind": "supporting_argument",
+      "decision_support": "none",
+      "all_mention_ids": [
+        "R8",
+        "R12",
+        "R15"
+      ]
+    },
+    {
+      "rationale_label": "mission_alignment_preference",
+      "direction": "positive",
+      "salience": "secondary",
+      "confidence": 0.94,
+      "utterance_type": "assessment",
+      "decision_link": "none",
+      "timing": "original_pitch",
+      "turn_index": 105,
+      "quote": "Like, let's give everyone access.",
+      "explanation": "He explicitly endorses the company's access-oriented mission.",
+      "evidence": [
+        "I think the leveling the playing field is the right move.",
+        "Like, let's give everyone access."
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 100,
+          "speaker": "Jesse",
+          "quote": "I think the leveling the playing field is the right move."
+        },
+        {
+          "turn_index": 103,
+          "speaker": "Jesse",
+          "quote": "I think the leveling the playing field is the right move."
+        },
+        {
+          "turn_index": 105,
+          "speaker": "Jesse",
+          "quote": "Like, let's give everyone access."
+        }
+      ],
+      "activation": "evaluated",
+      "source_rationale_id": "R17",
+      "utterance_kind": "supporting_argument",
+      "decision_support": "none",
+      "all_mention_ids": [
+        "R13",
+        "R16",
+        "R17"
+      ]
+    },
+    {
+      "rationale_label": "product_appeal_assessment",
+      "direction": "positive",
+      "salience": "primary",
+      "confidence": 0.84,
+      "utterance_type": "decision_reason",
+      "decision_link": "explicit",
+      "timing": "original_pitch",
+      "turn_index": 42,
+      "quote": "I really like what you're doing, so I'd like to invest in this.",
+      "explanation": "Jesse directly links his favorable reaction to ESAI's offering with his decision to invest.",
+      "evidence": [
+        "I really like what you're doing, so I'd like to invest in this.",
+        "if he does, this is something I would want him to have."
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 42,
+          "speaker": "Jesse",
+          "quote": "I really like what you're doing, so I'd like to invest in this."
+        },
+        {
+          "turn_index": 46,
+          "speaker": "Jesse",
+          "quote": "if he does, this is something I would want him to have."
+        }
+      ],
+      "activation": "evaluated",
+      "source_rationale_id": "R6",
+      "utterance_kind": "decision_explanation",
+      "decision_support": "supports_in",
+      "all_mention_ids": [
+        "R6",
+        "R9"
+      ]
+    },
+    {
+      "rationale_label": "product_success_factor_assessment",
+      "direction": "positive",
+      "salience": "secondary",
+      "confidence": 0.93,
+      "utterance_type": "assessment",
+      "decision_link": "none",
+      "timing": "original_pitch",
+      "turn_index": 15,
+      "quote": "It sort of like steps you through each of these. So you're doing it in a way that is simpler, bite sized",
+      "explanation": "Jesse identifies the guided, bite-sized experience as a product attribute well suited to Gen Z users.",
+      "evidence": [
+        "It sort of like steps you through each of these. So you're doing it in a way that is simpler, bite sized"
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 15,
+          "speaker": "Jesse",
+          "quote": "It sort of like steps you through each of these. So you're doing it in a way that is simpler, bite sized"
+        }
+      ],
+      "activation": "evaluated",
+      "source_rationale_id": "R1",
+      "utterance_kind": "assessment",
+      "decision_support": "none",
+      "all_mention_ids": [
+        "R1"
+      ]
+    }
+  ],
+  "later_rationales": [],
+  "excluded_rationales": [
+    {
+      "rationale_label": "mission_alignment_preference",
+      "direction": "positive",
+      "salience": "secondary",
+      "confidence": 0.9,
+      "utterance_type": "assessment",
+      "decision_link": "none",
+      "timing": "teaser",
+      "turn_index": 178,
+      "quote": "Fantastic mission",
+      "explanation": "In the preview of a different pitch, Jesse favorably assesses that company's stated mission.",
+      "evidence": [
+        "Fantastic mission"
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 178,
+          "speaker": "Jesse",
+          "quote": "Fantastic mission"
+        }
+      ],
+      "activation": "evaluated",
+      "source_rationale_id": "R23"
+    }
+  ],
+  "rationale_mentions": [
+    {
+      "rationale_label": "product_success_factor_assessment",
+      "direction": "positive",
+      "salience": "secondary",
+      "confidence": 0.93,
+      "utterance_type": "assessment",
+      "decision_link": "none",
+      "timing": "original_pitch",
+      "turn_index": 15,
+      "quote": "It sort of like steps you through each of these. So you're doing it in a way that is simpler, bite sized",
+      "explanation": "Jesse identifies the guided, bite-sized experience as a product attribute well suited to Gen Z users.",
+      "evidence": [
+        "It sort of like steps you through each of these. So you're doing it in a way that is simpler, bite sized"
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 15,
+          "speaker": "Jesse",
+          "quote": "It sort of like steps you through each of these. So you're doing it in a way that is simpler, bite sized"
+        }
+      ],
+      "activation": "evaluated",
+      "source_rationale_id": "R1"
+    },
+    {
+      "rationale_label": "go_to_market_strategy_assessment",
+      "direction": "neutral",
+      "salience": "secondary",
+      "confidence": 0.96,
+      "utterance_type": "question",
+      "decision_link": "none",
+      "timing": "original_pitch",
+      "turn_index": 17,
+      "quote": "what it's cost you to get to 100,000 students and the millions of views on TikTok?",
+      "explanation": "He asks about the acquisition cost behind the reported users and social reach.",
+      "evidence": [
+        "what it's cost you to get to 100,000 students and the millions of views on TikTok?"
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 17,
+          "speaker": "Jesse",
+          "quote": "what it's cost you to get to 100,000 students and the millions of views on TikTok?"
+        }
+      ],
+      "activation": "queried",
+      "source_rationale_id": "R2"
+    },
+    {
+      "rationale_label": "investor_experience_bias",
+      "direction": "positive",
+      "salience": "secondary",
+      "confidence": 0.95,
+      "utterance_type": "supporting_argument",
+      "decision_link": "none",
+      "timing": "original_pitch",
+      "turn_index": 30,
+      "quote": "it's been an exceptional business to be invested in.",
+      "explanation": "His successful investment in the adjacent company Teal provides a favorable reference point for evaluating ESAI.",
+      "model_quote_before_typography_repair": "It's been an exceptional business to be invested in.",
+      "evidence": [
+        "it's been an exceptional business to be invested in."
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 30,
+          "speaker": "Jesse",
+          "quote": "it's been an exceptional business to be invested in."
+        }
+      ],
+      "activation": "evaluated",
+      "source_rationale_id": "R3"
+    },
+    {
+      "rationale_label": "go_to_market_strategy_assessment",
+      "direction": "neutral",
+      "salience": "secondary",
+      "confidence": 0.96,
+      "utterance_type": "question",
+      "decision_link": "none",
+      "timing": "original_pitch",
+      "turn_index": 30,
+      "quote": "How are you thinking about, scaling top of funnel growth?",
+      "explanation": "He asks how ESAI will scale customer acquisition at the top of its funnel.",
+      "evidence": [
+        "How are you thinking about, scaling top of funnel growth?"
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 30,
+          "speaker": "Jesse",
+          "quote": "How are you thinking about, scaling top of funnel growth?"
+        }
+      ],
+      "activation": "queried",
+      "source_rationale_id": "R4"
+    },
+    {
+      "rationale_label": "market_size_assessment",
+      "direction": "neutral",
+      "salience": "secondary",
+      "confidence": 0.97,
+      "utterance_type": "question",
+      "decision_link": "none",
+      "timing": "original_pitch",
+      "turn_index": 38,
+      "quote": "How do you think about kind of the initial big market?",
+      "explanation": "He probes the addressable market across domestic, international, college, and trade-school applicants.",
+      "evidence": [
+        "How do you think about kind of the initial big market?"
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 38,
+          "speaker": "Jesse",
+          "quote": "How do you think about kind of the initial big market?"
+        }
+      ],
+      "activation": "queried",
+      "source_rationale_id": "R5"
+    },
+    {
+      "rationale_label": "product_appeal_assessment",
+      "direction": "positive",
+      "salience": "primary",
+      "confidence": 0.84,
+      "utterance_type": "decision_explanation",
+      "decision_link": "supports_in",
+      "timing": "original_pitch",
+      "turn_index": 42,
+      "quote": "I really like what you're doing, so I'd like to invest in this.",
+      "explanation": "Jesse directly links his favorable reaction to ESAI's offering with his decision to invest.",
+      "evidence": [
+        "I really like what you're doing, so I'd like to invest in this."
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 42,
+          "speaker": "Jesse",
+          "quote": "I really like what you're doing, so I'd like to invest in this."
+        }
+      ],
+      "activation": "evaluated",
+      "source_rationale_id": "R6"
+    },
+    {
+      "rationale_label": "market_problem_validation",
+      "direction": "positive",
+      "salience": "primary",
+      "confidence": 0.96,
+      "utterance_type": "decision_explanation",
+      "decision_link": "supports_in",
+      "timing": "original_pitch",
+      "turn_index": 44,
+      "quote": "As somebody whose guidance counselor was very busy and was not very helpful, I would have loved if this existed.",
+      "explanation": "His firsthand experience validates the inadequacy of existing guidance and supports his stated $50,000 commitment.",
+      "evidence": [
+        "As somebody whose guidance counselor was very busy and was not very helpful, I would have loved if this existed."
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 44,
+          "speaker": "Jesse",
+          "quote": "As somebody whose guidance counselor was very busy and was not very helpful, I would have loved if this existed."
+        }
+      ],
+      "activation": "evaluated",
+      "source_rationale_id": "R7"
+    },
+    {
+      "rationale_label": "market_timing",
+      "direction": "negative",
+      "salience": "secondary",
+      "confidence": 0.88,
+      "utterance_type": "assessment",
+      "decision_link": "none",
+      "timing": "original_pitch",
+      "turn_index": 46,
+      "quote": "I don't know what's going to happen with college by the time he's that old",
+      "explanation": "He identifies uncertainty about the long-term future of college as a category-level timing risk.",
+      "evidence": [
+        "I don't know what's going to happen with college by the time he's that old"
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 46,
+          "speaker": "Jesse",
+          "quote": "I don't know what's going to happen with college by the time he's that old"
+        }
+      ],
+      "activation": "evaluated",
+      "source_rationale_id": "R8"
+    },
+    {
+      "rationale_label": "product_appeal_assessment",
+      "direction": "positive",
+      "salience": "secondary",
+      "confidence": 0.94,
+      "utterance_type": "supporting_argument",
+      "decision_link": "none",
+      "timing": "original_pitch",
+      "turn_index": 46,
+      "quote": "if he does, this is something I would want him to have.",
+      "explanation": "He expresses personal desire for his child to use the product if the need arises.",
+      "evidence": [
+        "if he does, this is something I would want him to have."
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 46,
+          "speaker": "Jesse",
+          "quote": "if he does, this is something I would want him to have."
+        }
+      ],
+      "activation": "evaluated",
+      "source_rationale_id": "R9"
+    },
+    {
+      "rationale_label": "business_model_assessment",
+      "direction": "positive",
+      "salience": "secondary",
+      "confidence": 0.93,
+      "utterance_type": "supporting_argument",
+      "decision_link": "none",
+      "timing": "original_pitch",
+      "turn_index": 84,
+      "quote": "That's a thousand dollars to the school.",
+      "explanation": "He highlights a potential school-funded revenue stream based on influencing student applications.",
+      "evidence": [
+        "That's a thousand dollars to the school."
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 84,
+          "speaker": "Jesse",
+          "quote": "That's a thousand dollars to the school."
+        }
+      ],
+      "activation": "evaluated",
+      "source_rationale_id": "R10"
+    },
+    {
+      "rationale_label": "market_problem_validation",
+      "direction": "positive",
+      "salience": "secondary",
+      "confidence": 0.9,
+      "utterance_type": "assessment",
+      "decision_link": "none",
+      "timing": "original_pitch",
+      "turn_index": 98,
+      "quote": "I think the system's broken.",
+      "explanation": "Jesse identifies the existing college system as genuinely problematic, reinforcing the need for a more accessible solution.",
+      "evidence": [
+        "I think the system's broken."
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 98,
+          "speaker": "Jesse",
+          "quote": "I think the system's broken."
+        }
+      ],
+      "activation": "evaluated",
+      "source_rationale_id": "R11"
+    },
+    {
+      "rationale_label": "market_timing",
+      "direction": "positive",
+      "salience": "secondary",
+      "confidence": 0.91,
+      "utterance_type": "supporting_argument",
+      "decision_link": "none",
+      "timing": "original_pitch",
+      "turn_index": 100,
+      "quote": "it's going to exist for a while",
+      "explanation": "He believes the existing college system will persist long enough to sustain demand for ESAI's solution.",
+      "evidence": [
+        "it's going to exist for a while"
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 100,
+          "speaker": "Jesse",
+          "quote": "it's going to exist for a while"
+        }
+      ],
+      "activation": "evaluated",
+      "source_rationale_id": "R12"
+    },
+    {
+      "rationale_label": "mission_alignment_preference",
+      "direction": "positive",
+      "salience": "secondary",
+      "confidence": 0.96,
+      "utterance_type": "supporting_argument",
+      "decision_link": "none",
+      "timing": "original_pitch",
+      "turn_index": 100,
+      "quote": "I think the leveling the playing field is the right move.",
+      "explanation": "He expresses personal alignment with ESAI's mission of making admissions support more equitable.",
+      "evidence": [
+        "I think the leveling the playing field is the right move."
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 100,
+          "speaker": "Jesse",
+          "quote": "I think the leveling the playing field is the right move."
+        }
+      ],
+      "activation": "evaluated",
+      "source_rationale_id": "R13"
+    },
+    {
+      "rationale_label": "market_problem_validation",
+      "direction": "positive",
+      "salience": "secondary",
+      "confidence": 0.9,
+      "utterance_type": "assessment",
+      "decision_link": "none",
+      "timing": "original_pitch",
+      "turn_index": 101,
+      "quote": "I think the system's broken.",
+      "explanation": "In the repeated substantive discussion, he again characterizes the existing college system as a real problem.",
+      "evidence": [
+        "I think the system's broken."
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 101,
+          "speaker": "Jesse",
+          "quote": "I think the system's broken."
+        }
+      ],
+      "activation": "evaluated",
+      "source_rationale_id": "R14"
+    },
+    {
+      "rationale_label": "market_timing",
+      "direction": "positive",
+      "salience": "secondary",
+      "confidence": 0.91,
+      "utterance_type": "supporting_argument",
+      "decision_link": "none",
+      "timing": "original_pitch",
+      "turn_index": 103,
+      "quote": "it's going to exist for a while",
+      "explanation": "He reiterates that the current system is likely to persist, preserving the opportunity for ESAI.",
+      "evidence": [
+        "it's going to exist for a while"
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 103,
+          "speaker": "Jesse",
+          "quote": "it's going to exist for a while"
+        }
+      ],
+      "activation": "evaluated",
+      "source_rationale_id": "R15"
+    },
+    {
+      "rationale_label": "mission_alignment_preference",
+      "direction": "positive",
+      "salience": "secondary",
+      "confidence": 0.96,
+      "utterance_type": "supporting_argument",
+      "decision_link": "none",
+      "timing": "original_pitch",
+      "turn_index": 103,
+      "quote": "I think the leveling the playing field is the right move.",
+      "explanation": "He reiterates his support for improving access while the current educational system remains in place.",
+      "evidence": [
+        "I think the leveling the playing field is the right move."
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 103,
+          "speaker": "Jesse",
+          "quote": "I think the leveling the playing field is the right move."
+        }
+      ],
+      "activation": "evaluated",
+      "source_rationale_id": "R16"
+    },
+    {
+      "rationale_label": "mission_alignment_preference",
+      "direction": "positive",
+      "salience": "secondary",
+      "confidence": 0.94,
+      "utterance_type": "supporting_argument",
+      "decision_link": "none",
+      "timing": "original_pitch",
+      "turn_index": 105,
+      "quote": "Like, let's give everyone access.",
+      "explanation": "He explicitly endorses the company's access-oriented mission.",
+      "evidence": [
+        "Like, let's give everyone access."
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 105,
+          "speaker": "Jesse",
+          "quote": "Like, let's give everyone access."
+        }
+      ],
+      "activation": "evaluated",
+      "source_rationale_id": "R17"
+    },
+    {
+      "rationale_label": "investor_experience_bias",
+      "direction": "positive",
+      "salience": "primary",
+      "confidence": 0.98,
+      "utterance_type": "decision_explanation",
+      "decision_link": "supports_in",
+      "timing": "original_pitch",
+      "turn_index": 150,
+      "quote": "I think in this one, it was total pattern recognition.",
+      "explanation": "He directly attributes his favorable investment judgment to pattern recognition from an analogous portfolio company.",
+      "evidence": [
+        "I think in this one, it was total pattern recognition."
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 150,
+          "speaker": "Jesse",
+          "quote": "I think in this one, it was total pattern recognition."
+        }
+      ],
+      "activation": "evaluated",
+      "source_rationale_id": "R18"
+    },
+    {
+      "rationale_label": "market_size_assessment",
+      "direction": "negative",
+      "salience": "secondary",
+      "confidence": 0.95,
+      "utterance_type": "decision_explanation",
+      "decision_link": "none",
+      "timing": "original_pitch",
+      "turn_index": 150,
+      "quote": "the market's slightly smaller in the US than Teal.",
+      "explanation": "He acknowledges that ESAI's domestic market is smaller than the analogous job-search market.",
+      "evidence": [
+        "the market's slightly smaller in the US than Teal."
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 150,
+          "speaker": "Jesse",
+          "quote": "the market's slightly smaller in the US than Teal."
+        }
+      ],
+      "activation": "evaluated",
+      "source_rationale_id": "R19"
+    },
+    {
+      "rationale_label": "market_entry_path_assessment",
+      "direction": "positive",
+      "salience": "secondary",
+      "confidence": 0.91,
+      "utterance_type": "decision_explanation",
+      "decision_link": "supports_in",
+      "timing": "original_pitch",
+      "turn_index": 150,
+      "quote": "international is so much easier with this than jobs",
+      "explanation": "He views international applicants as a comparatively straightforward expansion segment supporting the opportunity.",
+      "evidence": [
+        "international is so much easier with this than jobs"
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 150,
+          "speaker": "Jesse",
+          "quote": "international is so much easier with this than jobs"
+        }
+      ],
+      "activation": "evaluated",
+      "source_rationale_id": "R20"
+    },
+    {
+      "rationale_label": "market_entry_path_assessment",
+      "direction": "positive",
+      "salience": "secondary",
+      "confidence": 0.93,
+      "utterance_type": "supporting_argument",
+      "decision_link": "supports_in",
+      "timing": "original_pitch",
+      "turn_index": 152,
+      "quote": "They're all applying to US.",
+      "explanation": "He explains that international applicants' common destination creates a focused and reachable market-entry path.",
+      "evidence": [
+        "They're all applying to US."
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 152,
+          "speaker": "Jesse",
+          "quote": "They're all applying to US."
+        }
+      ],
+      "activation": "evaluated",
+      "source_rationale_id": "R21"
+    },
+    {
+      "rationale_label": "investor_value_add_fit",
+      "direction": "positive",
+      "salience": "secondary",
+      "confidence": 0.76,
+      "utterance_type": "supporting_argument",
+      "decision_link": "none",
+      "timing": "original_pitch",
+      "turn_index": 175,
+      "quote": "we have a couple of college endowments as investors",
+      "explanation": "He points to relevant relationships with college endowments that could potentially provide strategic value to ESAI.",
+      "evidence": [
+        "we have a couple of college endowments as investors"
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 175,
+          "speaker": "Jesse",
+          "quote": "we have a couple of college endowments as investors"
+        }
+      ],
+      "activation": "evaluated",
+      "source_rationale_id": "R22"
+    }
+  ],
+  "expanded_quote_evidence": [],
+  "rejected_after_evidence_check": []
+}

@@ -1,19 +1,18 @@
 # market_opportunity
 
-[ev:jillian-0013] label=market_size_assessment direction=positive source=talk:1XWdaHzKAgk
-> "If, in fact, you are going to look at the global scale, which is one of our criteria for investment, you have to really understand the competitive market and the culture."
+Verbatim transcript excerpts; whitespace normalized. Labels describe the cited statement.
 
-[ev:jillian-0014] label=venture_scale_concern direction=negative source=talk:MITj7RtflgY
-> "There are a lot of companies and people, founders come and pitch to me and I said, this is a great idea, but this is not a billion dollar company."
+[ev:jillian-manus-structure-capital-0016] label=market_problem_validation direction=positive source=full:a2ce900468b67bbf952e010e
+> "You can only get your product-market fit right if you really understand the issue that you are trying to solve. You can’t just build a product, you need to immerse yourself in your customers’ world to get a real feel for what they need."
 
-[ev:jillian-0015] label=market_problem_validation direction=positive source=talk:c4Q7sfJEDHo
-> "Why is this product important to you? Why is this product important to a consumer, to a customer? The why is much more important than the what or the how."
+Support: inferred. Interpretation: She sees deep customer immersion and problem understanding as prerequisites for product-market fit.
 
-[ev:jillian-0016] label=market_entry_path_assessment direction=positive source=talk:YGC_i-MYvn0
-> "The local piece of it is really the understanding of the people, not just, right, it's the community."
+[ev:jillian-manus-structure-capital-0020] label=market_problem_validation direction=positive source=full:7c99120032a58b9c75900127
+> "Founders should first communicate the big problem they are solving. The qualified problem."
 
-[ev:jillian-0017] label=market_problem_validation direction=positive source=talk:MITj7RtflgY
-> "The key to a successful company is being able to understand who your customers are, be able to listen to them."
+Support: explicit. Interpretation: Manus expects founders to begin an investor narrative by defining a substantial, qualified customer problem.
 
-[ev:jillian-0018] label=market_size_assessment direction=positive source=talk:VzWas4IhAZ0
-> "We have seen that many portfolios, the key revenues are actually created by the women, female founders or co-founders."
+[ev:jillian-manus-structure-capital-0026] label=market_entry_path_assessment direction=positive source=full:7c99120032a58b9c75900127
+> "More US investors are looking to join the EU venture community to invest in Europe through this Defence entry point."
+
+Support: explicit. Interpretation: She sees defence as an entry point through which US investors can participate in European venture markets.

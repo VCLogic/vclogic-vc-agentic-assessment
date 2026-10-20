@@ -1,0 +1,1015 @@
+{
+  "schema": "phase1-rationale-reference-v1",
+  "extraction_version": "pitchshow-rationales-v1",
+  "fingerprint": "f50a9b23b0ef5d82026c9e464cf1c4130542cbe8cb11281524342eb2512fc926",
+  "episode_slug": "2-imirror",
+  "vc_slug": "jillian-manus-structure-capital",
+  "vc_name": "Jillian Manus",
+  "actual_decision": "Out",
+  "later_decision": "Unknown",
+  "reference_kind": "automated_transcript_observed_candidate",
+  "human_validated": false,
+  "source_format": "transcript-observed-rationales-v1",
+  "source_path": "../source/episodes/2-imirror.json",
+  "source_sha256": "0bc53595c7b8330ed2ebc0ab911037c4c91ae40557857faad45d302bb0a33408",
+  "transcript_sha256": "d6dc35ab74acef348c4b930e622d682fc9594ca53fb720024a6f2aea86d24d5c",
+  "taxonomy_sha256": "eaa8734819a3ac34dd19ee5f0bf6de925a793a1d25a2d361090dafc9b751e1fc",
+  "model": "codex:gpt-5.6-luna+gpt-5.6-sol",
+  "generation_stages": [
+    {
+      "phase": "rationale_extract",
+      "backend": "codex",
+      "model": "gpt-5.6-luna"
+    },
+    {
+      "phase": "rationale_verify",
+      "backend": "codex",
+      "model": "gpt-5.6-sol"
+    }
+  ],
+  "source_tier": "newly_extracted_and_independently_model_reviewed",
+  "reviewed_target_turns": [
+    3,
+    6,
+    7,
+    20,
+    22,
+    23,
+    25,
+    36,
+    45,
+    47,
+    49,
+    54,
+    56,
+    58,
+    59,
+    83,
+    85,
+    87,
+    92,
+    94,
+    96,
+    105,
+    107,
+    109,
+    111,
+    112,
+    114,
+    116,
+    118,
+    120,
+    123,
+    125,
+    127,
+    131,
+    132,
+    165
+  ],
+  "notes": "All supplied target turns were reviewed exactly once; non-rationale greetings, jokes, demonstrations, reactions, confirmations, and rebukes were omitted.",
+  "receipt_path": "receipts/2-imirror.json",
+  "scoring_scope": "original_pitch_only",
+  "shared_across_input_modes": true,
+  "rationales": [
+    {
+      "rationale_label": "business_model_assessment",
+      "direction": "positive",
+      "salience": "secondary",
+      "confidence": 0.96,
+      "utterance_type": "assessment",
+      "decision_link": "none",
+      "timing": "original_pitch",
+      "turn_index": 116,
+      "quote": "And then you're getting percentages of every sale.",
+      "explanation": "She identifies a transaction-based share of retail sales as an attractive monetization opportunity.",
+      "evidence": [
+        "And then you're getting percentages of every sale."
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 116,
+          "speaker": "Jillian",
+          "quote": "And then you're getting percentages of every sale."
+        }
+      ],
+      "activation": "evaluated",
+      "source_rationale_id": "R16",
+      "utterance_kind": "supporting_argument",
+      "decision_support": "none",
+      "all_mention_ids": [
+        "R16"
+      ]
+    },
+    {
+      "rationale_label": "founder_coachability_assessment",
+      "direction": "negative",
+      "salience": "secondary",
+      "confidence": 0.92,
+      "utterance_type": "assessment",
+      "decision_link": "none",
+      "timing": "original_pitch",
+      "turn_index": 127,
+      "quote": "If you hear an opinion three times, that's a consensus, and that's something. Then you do something about it.",
+      "explanation": "Following the founder's continued disagreement, she urges him to recognize repeated feedback and act on it.",
+      "evidence": [
+        "If you hear an opinion three times, that's a consensus, and that's something. Then you do something about it."
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 127,
+          "speaker": "Jillian",
+          "quote": "If you hear an opinion three times, that's a consensus, and that's something. Then you do something about it."
+        }
+      ],
+      "activation": "evaluated",
+      "source_rationale_id": "R19",
+      "utterance_kind": "concern",
+      "decision_support": "none",
+      "all_mention_ids": [
+        "R19"
+      ]
+    },
+    {
+      "rationale_label": "founder_investor_vision_alignment",
+      "direction": "negative",
+      "salience": "primary",
+      "confidence": 0.99,
+      "utterance_type": "decision_reason",
+      "decision_link": "explicit",
+      "timing": "original_pitch",
+      "turn_index": 114,
+      "quote": "rather than divert your attention and your dollars to hotel. And that's the reason why I won't — that I'm going to pass.",
+      "explanation": "She explicitly passes because the founder's hotel focus conflicts with the retail direction she would support.",
+      "evidence": [
+        "rather than divert your attention and your dollars to hotel. And that's the reason why I won't — that I'm going to pass.",
+        "I'm telling you, he's missing this. He is missing this."
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 114,
+          "speaker": "Jillian",
+          "quote": "rather than divert your attention and your dollars to hotel. And that's the reason why I won't — that I'm going to pass."
+        },
+        {
+          "turn_index": 132,
+          "speaker": "Jillian",
+          "quote": "I'm telling you, he's missing this. He is missing this."
+        }
+      ],
+      "activation": "evaluated",
+      "source_rationale_id": "R15",
+      "utterance_kind": "decision_explanation",
+      "decision_support": "supports_out",
+      "all_mention_ids": [
+        "R15",
+        "R20"
+      ]
+    },
+    {
+      "rationale_label": "go_to_market_strategy_assessment",
+      "direction": "negative",
+      "salience": "primary",
+      "confidence": 0.97,
+      "utterance_type": "assessment",
+      "decision_link": "none",
+      "timing": "original_pitch",
+      "turn_index": 123,
+      "quote": "Raise this around the retail, and then, if we can prove this and really really dominate this market, then we're going to go into hotels.",
+      "explanation": "She argues that the company should prove and dominate retail before expanding into hotels, rather than follow its current sequencing.",
+      "evidence": [
+        "Raise this around the retail, and then, if we can prove this and really really dominate this market, then we're going to go into hotels."
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 123,
+          "speaker": "Jillian",
+          "quote": "Raise this around the retail, and then, if we can prove this and really really dominate this market, then we're going to go into hotels."
+        }
+      ],
+      "activation": "evaluated",
+      "source_rationale_id": "R18",
+      "utterance_kind": "supporting_argument",
+      "decision_support": "none",
+      "all_mention_ids": [
+        "R18"
+      ]
+    },
+    {
+      "rationale_label": "investor_experience_bias",
+      "direction": "negative",
+      "salience": "secondary",
+      "confidence": 0.96,
+      "utterance_type": "assessment",
+      "decision_link": "none",
+      "timing": "original_pitch",
+      "turn_index": 112,
+      "quote": "I have invested into and I have investments into Las Vegas hotels",
+      "explanation": "She grounds her unfavorable hotel-market assessment in her own hotel investments and experience.",
+      "evidence": [
+        "I have invested into and I have investments into Las Vegas hotels"
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 112,
+          "speaker": "Jillian",
+          "quote": "I have invested into and I have investments into Las Vegas hotels"
+        }
+      ],
+      "activation": "evaluated",
+      "source_rationale_id": "R11",
+      "utterance_kind": "supporting_argument",
+      "decision_support": "none",
+      "all_mention_ids": [
+        "R11"
+      ]
+    },
+    {
+      "rationale_label": "market_entry_path_assessment",
+      "direction": "positive",
+      "salience": "primary",
+      "confidence": 0.98,
+      "utterance_type": "decision_reason",
+      "decision_link": "explicit",
+      "timing": "original_pitch",
+      "turn_index": 114,
+      "quote": "In the retail space, I think that's your market.",
+      "explanation": "She identifies retail as the company's strongest market, which underlies her objection to the hotel-focused pitch.",
+      "evidence": [
+        "You just need one hotel.",
+        "In the retail space, I think that's your market."
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 87,
+          "speaker": "Jillian",
+          "quote": "You just need one hotel."
+        },
+        {
+          "turn_index": 114,
+          "speaker": "Jillian",
+          "quote": "In the retail space, I think that's your market."
+        }
+      ],
+      "activation": "evaluated",
+      "source_rationale_id": "R13",
+      "utterance_kind": "decision_explanation",
+      "decision_support": "supports_out",
+      "all_mention_ids": [
+        "R8",
+        "R13"
+      ]
+    },
+    {
+      "rationale_label": "market_problem_validation",
+      "direction": "negative",
+      "salience": "primary",
+      "confidence": 0.98,
+      "utterance_type": "assessment",
+      "decision_link": "none",
+      "timing": "original_pitch",
+      "turn_index": 56,
+      "quote": "Because it's cool — it has to be more than that.",
+      "explanation": "She is concerned that novelty alone does not establish a compelling customer problem.",
+      "evidence": [
+        "Because it's cool — it has to be more than that."
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 56,
+          "speaker": "Jillian",
+          "quote": "Because it's cool — it has to be more than that."
+        }
+      ],
+      "activation": "evaluated",
+      "source_rationale_id": "R3",
+      "utterance_kind": "concern",
+      "decision_support": "none",
+      "all_mention_ids": [
+        "R2",
+        "R3"
+      ]
+    },
+    {
+      "rationale_label": "market_size_assessment",
+      "direction": "positive",
+      "salience": "primary",
+      "confidence": 0.92,
+      "utterance_type": "assessment",
+      "decision_link": "none",
+      "timing": "original_pitch",
+      "turn_index": 132,
+      "quote": "This is so huge.",
+      "explanation": "She characterizes the opportunity being missed as exceptionally large.",
+      "evidence": [
+        "There’s a lot of opportunity in retail.",
+        "This is so huge."
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 120,
+          "speaker": "Jillian",
+          "quote": "There’s a lot of opportunity in retail."
+        },
+        {
+          "turn_index": 132,
+          "speaker": "Jillian",
+          "quote": "This is so huge."
+        }
+      ],
+      "activation": "evaluated",
+      "source_rationale_id": "R21",
+      "utterance_kind": "assessment",
+      "decision_support": "none",
+      "all_mention_ids": [
+        "R17",
+        "R21"
+      ]
+    },
+    {
+      "rationale_label": "product_adoption",
+      "direction": "negative",
+      "salience": "primary",
+      "confidence": 0.99,
+      "utterance_type": "decision_reason",
+      "decision_link": "explicit",
+      "timing": "original_pitch",
+      "turn_index": 112,
+      "quote": "I worry that they don't spend that much time in the hotel room.",
+      "explanation": "She believes millennials spend too little time in their rooms to adopt the hotel product meaningfully, contributing to her refusal.",
+      "evidence": [
+        "I worry that they don't spend that much time in the hotel room."
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 112,
+          "speaker": "Jillian",
+          "quote": "I worry that they don't spend that much time in the hotel room."
+        }
+      ],
+      "activation": "evaluated",
+      "source_rationale_id": "R12",
+      "utterance_kind": "decision_explanation",
+      "decision_support": "supports_out",
+      "all_mention_ids": [
+        "R12"
+      ]
+    },
+    {
+      "rationale_label": "product_appeal_assessment",
+      "direction": "positive",
+      "salience": "secondary",
+      "confidence": 0.98,
+      "utterance_type": "assessment",
+      "decision_link": "none",
+      "timing": "original_pitch",
+      "turn_index": 92,
+      "quote": "Oh, I like this, and not have to wait for someone else.",
+      "explanation": "She reacts favorably to the convenience of completing a retail purchase from the dressing room.",
+      "evidence": [
+        "Oh, I like this, and not have to wait for someone else."
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 92,
+          "speaker": "Jillian",
+          "quote": "Oh, I like this, and not have to wait for someone else."
+        }
+      ],
+      "activation": "evaluated",
+      "source_rationale_id": "R9",
+      "utterance_kind": "assessment",
+      "decision_support": "none",
+      "all_mention_ids": [
+        "R9"
+      ]
+    },
+    {
+      "rationale_label": "product_success_factor_assessment",
+      "direction": "positive",
+      "salience": "primary",
+      "confidence": 0.97,
+      "utterance_type": "decision_reason",
+      "decision_link": "explicit",
+      "timing": "original_pitch",
+      "turn_index": 114,
+      "quote": "it is such a huge value to brands. It's the point of purchase.",
+      "explanation": "She sees point-of-purchase functionality as a major source of value for retail brands and part of why she favors retail over hotels.",
+      "evidence": [
+        "For Las Vegas, this adds gambling time.",
+        "So when I return, as a repeat customer, everything will already be there.",
+        "This is not only for your consumer, it's actually for the hotel efficiency. And that's a bigger play.",
+        "Because that would be a game-changer for retail.",
+        "it is such a huge value to brands. It's the point of purchase."
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 36,
+          "speaker": "Jillian",
+          "quote": "For Las Vegas, this adds gambling time."
+        },
+        {
+          "turn_index": 58,
+          "speaker": "Jillian",
+          "quote": "So when I return, as a repeat customer, everything will already be there."
+        },
+        {
+          "turn_index": 59,
+          "speaker": "Jillian",
+          "quote": "This is not only for your consumer, it's actually for the hotel efficiency. And that's a bigger play."
+        },
+        {
+          "turn_index": 94,
+          "speaker": "Jillian",
+          "quote": "Because that would be a game-changer for retail."
+        },
+        {
+          "turn_index": 114,
+          "speaker": "Jillian",
+          "quote": "it is such a huge value to brands. It's the point of purchase."
+        }
+      ],
+      "activation": "evaluated",
+      "source_rationale_id": "R14",
+      "utterance_kind": "decision_explanation",
+      "decision_support": "supports_out",
+      "all_mention_ids": [
+        "R1",
+        "R4",
+        "R5",
+        "R10",
+        "R14"
+      ]
+    },
+    {
+      "rationale_label": "traction_repeatability_concern",
+      "direction": "neutral",
+      "salience": "secondary",
+      "confidence": 0.95,
+      "utterance_type": "question",
+      "decision_link": "none",
+      "timing": "original_pitch",
+      "turn_index": 85,
+      "quote": "But you're only launching one store? Or it's one store and based on the success of that store then they will do another —",
+      "explanation": "She probes whether success in one store can produce a repeatable rollout.",
+      "evidence": [
+        "If that is successful, what does success look like?",
+        "But you're only launching one store? Or it's one store and based on the success of that store then they will do another —"
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 83,
+          "speaker": "Jillian",
+          "quote": "If that is successful, what does success look like?"
+        },
+        {
+          "turn_index": 85,
+          "speaker": "Jillian",
+          "quote": "But you're only launching one store? Or it's one store and based on the success of that store then they will do another —"
+        }
+      ],
+      "activation": "queried",
+      "source_rationale_id": "R7",
+      "utterance_kind": "question",
+      "decision_support": "none",
+      "all_mention_ids": [
+        "R6",
+        "R7"
+      ]
+    }
+  ],
+  "later_rationales": [],
+  "excluded_rationales": [
+    {
+      "rationale_label": "business_viability_concern",
+      "direction": "negative",
+      "salience": "primary",
+      "confidence": 0.95,
+      "utterance_type": "concern",
+      "decision_link": "none",
+      "timing": "teaser",
+      "turn_index": 165,
+      "quote": "Maybe I'm not getting the total value prop for a customer other than, you know, do well, right?",
+      "explanation": "She questions whether the customer receives a sufficiently compelling benefit beyond the do-good incentive.",
+      "evidence": [
+        "Maybe I'm not getting the total value prop for a customer other than, you know, do well, right?"
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 165,
+          "speaker": "Jillian",
+          "quote": "Maybe I'm not getting the total value prop for a customer other than, you know, do well, right?"
+        }
+      ],
+      "activation": "evaluated",
+      "source_rationale_id": "R22"
+    }
+  ],
+  "rationale_mentions": [
+    {
+      "rationale_label": "product_success_factor_assessment",
+      "direction": "positive",
+      "salience": "secondary",
+      "confidence": 0.92,
+      "utterance_type": "supporting_argument",
+      "decision_link": "none",
+      "timing": "original_pitch",
+      "turn_index": 36,
+      "quote": "For Las Vegas, this adds gambling time.",
+      "explanation": "She identifies increased gambling time as a meaningful benefit for casino hotels.",
+      "evidence": [
+        "For Las Vegas, this adds gambling time."
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 36,
+          "speaker": "Jillian",
+          "quote": "For Las Vegas, this adds gambling time."
+        }
+      ],
+      "activation": "evaluated",
+      "source_rationale_id": "R1"
+    },
+    {
+      "rationale_label": "market_problem_validation",
+      "direction": "neutral",
+      "salience": "secondary",
+      "confidence": 0.97,
+      "utterance_type": "question",
+      "decision_link": "none",
+      "timing": "original_pitch",
+      "turn_index": 49,
+      "quote": "Why do we need this? Why is it important to me?",
+      "explanation": "She asks the founder to establish the product's underlying customer need and importance.",
+      "evidence": [
+        "Why do we need this? Why is it important to me?"
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 49,
+          "speaker": "Jillian",
+          "quote": "Why do we need this? Why is it important to me?"
+        }
+      ],
+      "activation": "queried",
+      "source_rationale_id": "R2"
+    },
+    {
+      "rationale_label": "market_problem_validation",
+      "direction": "negative",
+      "salience": "primary",
+      "confidence": 0.98,
+      "utterance_type": "concern",
+      "decision_link": "none",
+      "timing": "original_pitch",
+      "turn_index": 56,
+      "quote": "Because it's cool — it has to be more than that.",
+      "explanation": "She is concerned that novelty alone does not establish a compelling customer problem.",
+      "evidence": [
+        "Because it's cool — it has to be more than that."
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 56,
+          "speaker": "Jillian",
+          "quote": "Because it's cool — it has to be more than that."
+        }
+      ],
+      "activation": "evaluated",
+      "source_rationale_id": "R3"
+    },
+    {
+      "rationale_label": "product_success_factor_assessment",
+      "direction": "positive",
+      "salience": "secondary",
+      "confidence": 0.88,
+      "utterance_type": "supporting_argument",
+      "decision_link": "none",
+      "timing": "original_pitch",
+      "turn_index": 58,
+      "quote": "So when I return, as a repeat customer, everything will already be there.",
+      "explanation": "She sees persistent guest preferences as a useful personalization feature for repeat visits.",
+      "evidence": [
+        "So when I return, as a repeat customer, everything will already be there."
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 58,
+          "speaker": "Jillian",
+          "quote": "So when I return, as a repeat customer, everything will already be there."
+        }
+      ],
+      "activation": "evaluated",
+      "source_rationale_id": "R4"
+    },
+    {
+      "rationale_label": "product_success_factor_assessment",
+      "direction": "positive",
+      "salience": "primary",
+      "confidence": 0.98,
+      "utterance_type": "supporting_argument",
+      "decision_link": "none",
+      "timing": "original_pitch",
+      "turn_index": 59,
+      "quote": "This is not only for your consumer, it's actually for the hotel efficiency. And that's a bigger play.",
+      "explanation": "She considers hotel data capture and operational efficiency a larger and more valuable product opportunity.",
+      "evidence": [
+        "This is not only for your consumer, it's actually for the hotel efficiency. And that's a bigger play."
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 59,
+          "speaker": "Jillian",
+          "quote": "This is not only for your consumer, it's actually for the hotel efficiency. And that's a bigger play."
+        }
+      ],
+      "activation": "evaluated",
+      "source_rationale_id": "R5"
+    },
+    {
+      "rationale_label": "traction_repeatability_concern",
+      "direction": "neutral",
+      "salience": "secondary",
+      "confidence": 0.82,
+      "utterance_type": "question",
+      "decision_link": "none",
+      "timing": "original_pitch",
+      "turn_index": 83,
+      "quote": "If that is successful, what does success look like?",
+      "explanation": "She asks what evidence would establish a successful initial retail deployment.",
+      "evidence": [
+        "If that is successful, what does success look like?"
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 83,
+          "speaker": "Jillian",
+          "quote": "If that is successful, what does success look like?"
+        }
+      ],
+      "activation": "queried",
+      "source_rationale_id": "R6"
+    },
+    {
+      "rationale_label": "traction_repeatability_concern",
+      "direction": "neutral",
+      "salience": "secondary",
+      "confidence": 0.95,
+      "utterance_type": "question",
+      "decision_link": "none",
+      "timing": "original_pitch",
+      "turn_index": 85,
+      "quote": "But you're only launching one store? Or it's one store and based on the success of that store then they will do another —",
+      "explanation": "She probes whether success in one store can produce a repeatable rollout.",
+      "evidence": [
+        "But you're only launching one store? Or it's one store and based on the success of that store then they will do another —"
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 85,
+          "speaker": "Jillian",
+          "quote": "But you're only launching one store? Or it's one store and based on the success of that store then they will do another —"
+        }
+      ],
+      "activation": "queried",
+      "source_rationale_id": "R7"
+    },
+    {
+      "rationale_label": "market_entry_path_assessment",
+      "direction": "positive",
+      "salience": "secondary",
+      "confidence": 0.91,
+      "utterance_type": "supporting_argument",
+      "decision_link": "none",
+      "timing": "original_pitch",
+      "turn_index": 87,
+      "quote": "You just need one hotel.",
+      "explanation": "She recognizes that landing one large hotel could provide a meaningful initial deployment.",
+      "evidence": [
+        "You just need one hotel."
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 87,
+          "speaker": "Jillian",
+          "quote": "You just need one hotel."
+        }
+      ],
+      "activation": "evaluated",
+      "source_rationale_id": "R8"
+    },
+    {
+      "rationale_label": "product_appeal_assessment",
+      "direction": "positive",
+      "salience": "secondary",
+      "confidence": 0.98,
+      "utterance_type": "assessment",
+      "decision_link": "none",
+      "timing": "original_pitch",
+      "turn_index": 92,
+      "quote": "Oh, I like this, and not have to wait for someone else.",
+      "explanation": "She reacts favorably to the convenience of completing a retail purchase from the dressing room.",
+      "evidence": [
+        "Oh, I like this, and not have to wait for someone else."
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 92,
+          "speaker": "Jillian",
+          "quote": "Oh, I like this, and not have to wait for someone else."
+        }
+      ],
+      "activation": "evaluated",
+      "source_rationale_id": "R9"
+    },
+    {
+      "rationale_label": "product_success_factor_assessment",
+      "direction": "positive",
+      "salience": "primary",
+      "confidence": 0.98,
+      "utterance_type": "assessment",
+      "decision_link": "none",
+      "timing": "original_pitch",
+      "turn_index": 94,
+      "quote": "Because that would be a game-changer for retail.",
+      "explanation": "She views in-dressing-room purchasing as a potentially transformative retail capability.",
+      "evidence": [
+        "Because that would be a game-changer for retail."
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 94,
+          "speaker": "Jillian",
+          "quote": "Because that would be a game-changer for retail."
+        }
+      ],
+      "activation": "evaluated",
+      "source_rationale_id": "R10"
+    },
+    {
+      "rationale_label": "investor_experience_bias",
+      "direction": "negative",
+      "salience": "secondary",
+      "confidence": 0.96,
+      "utterance_type": "supporting_argument",
+      "decision_link": "none",
+      "timing": "original_pitch",
+      "turn_index": 112,
+      "quote": "I have invested into and I have investments into Las Vegas hotels",
+      "explanation": "She grounds her unfavorable hotel-market assessment in her own hotel investments and experience.",
+      "evidence": [
+        "I have invested into and I have investments into Las Vegas hotels"
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 112,
+          "speaker": "Jillian",
+          "quote": "I have invested into and I have investments into Las Vegas hotels"
+        }
+      ],
+      "activation": "evaluated",
+      "source_rationale_id": "R11"
+    },
+    {
+      "rationale_label": "product_adoption",
+      "direction": "negative",
+      "salience": "primary",
+      "confidence": 0.99,
+      "utterance_type": "decision_explanation",
+      "decision_link": "supports_out",
+      "timing": "original_pitch",
+      "turn_index": 112,
+      "quote": "I worry that they don't spend that much time in the hotel room.",
+      "explanation": "She believes millennials spend too little time in their rooms to adopt the hotel product meaningfully, contributing to her refusal.",
+      "evidence": [
+        "I worry that they don't spend that much time in the hotel room."
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 112,
+          "speaker": "Jillian",
+          "quote": "I worry that they don't spend that much time in the hotel room."
+        }
+      ],
+      "activation": "evaluated",
+      "source_rationale_id": "R12"
+    },
+    {
+      "rationale_label": "market_entry_path_assessment",
+      "direction": "positive",
+      "salience": "primary",
+      "confidence": 0.98,
+      "utterance_type": "decision_explanation",
+      "decision_link": "supports_out",
+      "timing": "original_pitch",
+      "turn_index": 114,
+      "quote": "In the retail space, I think that's your market.",
+      "explanation": "She identifies retail as the company's strongest market, which underlies her objection to the hotel-focused pitch.",
+      "evidence": [
+        "In the retail space, I think that's your market."
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 114,
+          "speaker": "Jillian",
+          "quote": "In the retail space, I think that's your market."
+        }
+      ],
+      "activation": "evaluated",
+      "source_rationale_id": "R13"
+    },
+    {
+      "rationale_label": "product_success_factor_assessment",
+      "direction": "positive",
+      "salience": "primary",
+      "confidence": 0.97,
+      "utterance_type": "decision_explanation",
+      "decision_link": "supports_out",
+      "timing": "original_pitch",
+      "turn_index": 114,
+      "quote": "it is such a huge value to brands. It's the point of purchase.",
+      "explanation": "She sees point-of-purchase functionality as a major source of value for retail brands and part of why she favors retail over hotels.",
+      "evidence": [
+        "it is such a huge value to brands. It's the point of purchase."
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 114,
+          "speaker": "Jillian",
+          "quote": "it is such a huge value to brands. It's the point of purchase."
+        }
+      ],
+      "activation": "evaluated",
+      "source_rationale_id": "R14"
+    },
+    {
+      "rationale_label": "founder_investor_vision_alignment",
+      "direction": "negative",
+      "salience": "primary",
+      "confidence": 0.99,
+      "utterance_type": "decision_explanation",
+      "decision_link": "supports_out",
+      "timing": "original_pitch",
+      "turn_index": 114,
+      "quote": "rather than divert your attention and your dollars to hotel. And that's the reason why I won't — that I'm going to pass.",
+      "explanation": "She explicitly passes because the founder's hotel focus conflicts with the retail direction she would support.",
+      "evidence": [
+        "rather than divert your attention and your dollars to hotel. And that's the reason why I won't — that I'm going to pass."
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 114,
+          "speaker": "Jillian",
+          "quote": "rather than divert your attention and your dollars to hotel. And that's the reason why I won't — that I'm going to pass."
+        }
+      ],
+      "activation": "evaluated",
+      "source_rationale_id": "R15"
+    },
+    {
+      "rationale_label": "business_model_assessment",
+      "direction": "positive",
+      "salience": "secondary",
+      "confidence": 0.96,
+      "utterance_type": "supporting_argument",
+      "decision_link": "none",
+      "timing": "original_pitch",
+      "turn_index": 116,
+      "quote": "And then you're getting percentages of every sale.",
+      "explanation": "She identifies a transaction-based share of retail sales as an attractive monetization opportunity.",
+      "evidence": [
+        "And then you're getting percentages of every sale."
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 116,
+          "speaker": "Jillian",
+          "quote": "And then you're getting percentages of every sale."
+        }
+      ],
+      "activation": "evaluated",
+      "source_rationale_id": "R16"
+    },
+    {
+      "rationale_label": "market_size_assessment",
+      "direction": "positive",
+      "salience": "secondary",
+      "confidence": 0.9,
+      "utterance_type": "assessment",
+      "decision_link": "none",
+      "timing": "original_pitch",
+      "turn_index": 120,
+      "quote": "There’s a lot of opportunity in retail.",
+      "explanation": "She reiterates that retail presents a substantial opportunity.",
+      "evidence": [
+        "There’s a lot of opportunity in retail."
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 120,
+          "speaker": "Jillian",
+          "quote": "There’s a lot of opportunity in retail."
+        }
+      ],
+      "activation": "evaluated",
+      "source_rationale_id": "R17"
+    },
+    {
+      "rationale_label": "go_to_market_strategy_assessment",
+      "direction": "negative",
+      "salience": "primary",
+      "confidence": 0.97,
+      "utterance_type": "supporting_argument",
+      "decision_link": "none",
+      "timing": "original_pitch",
+      "turn_index": 123,
+      "quote": "Raise this around the retail, and then, if we can prove this and really really dominate this market, then we're going to go into hotels.",
+      "explanation": "She argues that the company should prove and dominate retail before expanding into hotels, rather than follow its current sequencing.",
+      "evidence": [
+        "Raise this around the retail, and then, if we can prove this and really really dominate this market, then we're going to go into hotels."
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 123,
+          "speaker": "Jillian",
+          "quote": "Raise this around the retail, and then, if we can prove this and really really dominate this market, then we're going to go into hotels."
+        }
+      ],
+      "activation": "evaluated",
+      "source_rationale_id": "R18"
+    },
+    {
+      "rationale_label": "founder_coachability_assessment",
+      "direction": "negative",
+      "salience": "secondary",
+      "confidence": 0.92,
+      "utterance_type": "concern",
+      "decision_link": "none",
+      "timing": "original_pitch",
+      "turn_index": 127,
+      "quote": "If you hear an opinion three times, that's a consensus, and that's something. Then you do something about it.",
+      "explanation": "Following the founder's continued disagreement, she urges him to recognize repeated feedback and act on it.",
+      "evidence": [
+        "If you hear an opinion three times, that's a consensus, and that's something. Then you do something about it."
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 127,
+          "speaker": "Jillian",
+          "quote": "If you hear an opinion three times, that's a consensus, and that's something. Then you do something about it."
+        }
+      ],
+      "activation": "evaluated",
+      "source_rationale_id": "R19"
+    },
+    {
+      "rationale_label": "founder_investor_vision_alignment",
+      "direction": "negative",
+      "salience": "primary",
+      "confidence": 0.91,
+      "utterance_type": "assessment",
+      "decision_link": "none",
+      "timing": "original_pitch",
+      "turn_index": 132,
+      "quote": "I'm telling you, he's missing this. He is missing this.",
+      "explanation": "In the immediate debrief, she reiterates that the founder is overlooking the retail opportunity she believes he should pursue.",
+      "evidence": [
+        "I'm telling you, he's missing this. He is missing this."
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 132,
+          "speaker": "Jillian",
+          "quote": "I'm telling you, he's missing this. He is missing this."
+        }
+      ],
+      "activation": "evaluated",
+      "source_rationale_id": "R20"
+    },
+    {
+      "rationale_label": "market_size_assessment",
+      "direction": "positive",
+      "salience": "primary",
+      "confidence": 0.92,
+      "utterance_type": "assessment",
+      "decision_link": "none",
+      "timing": "original_pitch",
+      "turn_index": 132,
+      "quote": "This is so huge.",
+      "explanation": "She characterizes the opportunity being missed as exceptionally large.",
+      "evidence": [
+        "This is so huge."
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 132,
+          "speaker": "Jillian",
+          "quote": "This is so huge."
+        }
+      ],
+      "activation": "evaluated",
+      "source_rationale_id": "R21"
+    }
+  ],
+  "expanded_quote_evidence": [],
+  "rejected_after_evidence_check": []
+}

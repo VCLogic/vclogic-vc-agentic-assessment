@@ -1,0 +1,115 @@
+{
+  "schema": "pitchshow-selected-experiment-v1",
+  "experiment": "untouched-commitment-validation-v1",
+  "created_at": "2026-10-19T19:07:24.514581+00:00",
+  "mode": "founders-only",
+  "backend": "configured",
+  "selection_rule": "Exclude every attempted VC/pitch in the current campaign and every cataloged legacy pair; choose lowest remaining original episode number for each actual decision. No predicted outcome used for selection.",
+  "previous_run": "all-vcs-one-in-one-out-repaired-v3",
+  "previous_run_policy": "Completed and retained in overall results, including its leakage audit classifications. Never rerun merely because inputs changed.",
+  "history_cleanup": "outputs/pitchshow-history-repaired/verification-report.json",
+  "wiki_status": "Known source-lineage/aggregate leakage gaps remain unresolved. This cohort is not certified leakage-clean.",
+  "cases": [
+    {
+      "vc_slug": "mac-conwell",
+      "episode_slug": "130-franshares-investing-in-franchises",
+      "actual_decision": "In",
+      "prior_legacy_case_results": false,
+      "decision_evidence": [
+        {
+          "turn_index": 139,
+          "quote": "I'm in for 100."
+        }
+      ],
+      "job": {
+        "vc_slug": "mac-conwell",
+        "episode_slug": "130-franshares-investing-in-franchises",
+        "mode": "founders-only",
+        "aliases": [
+          "FranShares"
+        ],
+        "pitch_sha256": "4069dcd2004c4df68cc43eca21d0b67da65bcf3bcfbeaac8eed891c4306ff536",
+        "review_sha256": "b9fdbc213dbe8df3cb860bb807847738551be923922615e1d86de4821682519c",
+        "asset_signature": "678268d1e9eb2cb05ce9966942fd346f147f0628bf4af30a69f482525b59daae",
+        "alias_record_sha256": "7039b814c9b4501f36b2a5375e1a31bbe96eee4cbe3636469348e32a3e3842ff",
+        "job_id": "a9e1db2c1d99e2dc85a37bf4a13a1d0791c1584f289516e4717915acea9e1761"
+      }
+    },
+    {
+      "vc_slug": "mac-conwell",
+      "episode_slug": "134-robecurls-from-tiktok-to-target",
+      "actual_decision": "Out",
+      "prior_legacy_case_results": false,
+      "decision_evidence": [
+        {
+          "turn_index": 132,
+          "quote": "Soft no is - let's just keep the expectations at the right level."
+        }
+      ],
+      "job": {
+        "vc_slug": "mac-conwell",
+        "episode_slug": "134-robecurls-from-tiktok-to-target",
+        "mode": "founders-only",
+        "aliases": [
+          "Robecurls"
+        ],
+        "pitch_sha256": "c209ed2846acc2754236eb2515c9c9f2b570b712ae1cd446762fce4a43b26d6f",
+        "review_sha256": "5d669950c1bc29b52c9738be2f798666e71cc6743fda1856b623086b8f74fe96",
+        "asset_signature": "678268d1e9eb2cb05ce9966942fd346f147f0628bf4af30a69f482525b59daae",
+        "alias_record_sha256": "a4aaed549e5350506ec6da237a9591869a5e466b3705796616c5c2b910d00aaa",
+        "job_id": "edb044bf23def7a476a8e2d3184a34d32dc4b4e7b4b613f11ae2a887cc0619d5"
+      }
+    },
+    {
+      "vc_slug": "michael-hyatt",
+      "episode_slug": "51-this-bot-can-fight-your-atm-fees",
+      "actual_decision": "In",
+      "prior_legacy_case_results": false,
+      "decision_evidence": [
+        {
+          "turn_index": 101,
+          "quote": "So I'm in if I can get comfortable with the lead and comfortable with the valuation."
+        }
+      ],
+      "job": {
+        "vc_slug": "michael-hyatt",
+        "episode_slug": "51-this-bot-can-fight-your-atm-fees",
+        "mode": "founders-only",
+        "aliases": [
+          "Cushion"
+        ],
+        "pitch_sha256": "adfbc297bcd5379cf8223eb300cd22ec416a3bb17bb3259b60e77b026a88e1b7",
+        "review_sha256": "3ba2589395ede1400e441a73a0152390c0799cbaee9e763a6a29e0ad2fcb79a4",
+        "asset_signature": "93652006ddd6be593a89d271b882fb45be14a0dcb8878d47e168b47c8ad8f280",
+        "alias_record_sha256": "3ec1242a9504fdd12b333369c1a6e906b6fb22f0cb3cc026a823c7ca42fa62b9",
+        "job_id": "011b7cf949796dd4e7aab11d358b432ec19c7575515c1926696a62d25d9d0dc5"
+      }
+    },
+    {
+      "vc_slug": "michael-hyatt",
+      "episode_slug": "45-whatever-happened-to-virtual-reality",
+      "actual_decision": "Out",
+      "prior_legacy_case_results": false,
+      "decision_evidence": [
+        {
+          "turn_index": 109,
+          "quote": "Umm I think for now I’m out."
+        }
+      ],
+      "job": {
+        "vc_slug": "michael-hyatt",
+        "episode_slug": "45-whatever-happened-to-virtual-reality",
+        "mode": "founders-only",
+        "aliases": [
+          "SVRF"
+        ],
+        "pitch_sha256": "8596fda24473b250a43409a2c178f1aab6cf2f278bfb015ce2db09201f9e7c44",
+        "review_sha256": "1ae32d538cbfff993a9934e9712e345c573e84aec57fbeba050d50b68e301d44",
+        "asset_signature": "93652006ddd6be593a89d271b882fb45be14a0dcb8878d47e168b47c8ad8f280",
+        "alias_record_sha256": "a75c74a463fdfc30a1a6117dc4250512bfe051082361e755b072acc73ec39f56",
+        "job_id": "1f00359e936eb8201b6de9d172459c133cb4b3d757c4ee6e01f61225f6ab8b50"
+      }
+    }
+  ],
+  "unavailable": []
+}

@@ -1,0 +1,631 @@
+{
+  "schema": "pitchshow-selected-experiment-v1",
+  "experiment": "all-vcs-one-in-one-out-repaired-v3",
+  "created_at": "2026-10-19T13:51:44.549857+00:00",
+  "mode": "founders-only",
+  "backend": "configured",
+  "selection_rule": "Exclude every attempted VC/pitch in the current campaign and every cataloged legacy pair; choose lowest remaining original episode number for each actual decision. No predicted outcome used for selection.",
+  "previous_run": "all-vcs-one-in-one-out-clean-history-v2",
+  "previous_run_policy": "Completed and retained in overall results, including its leakage audit classifications. Never rerun merely because inputs changed.",
+  "history_cleanup": "outputs/pitchshow-history-repaired/verification-report.json",
+  "wiki_status": "Known source-lineage/aggregate leakage gaps remain unresolved. This cohort is not certified leakage-clean.",
+  "cases": [
+    {
+      "vc_slug": "beck-bamberger-bad-ideas-group",
+      "episode_slug": "136-kredfeed-the-next-mexican-unicorn",
+      "actual_decision": "In",
+      "prior_legacy_case_results": false,
+      "decision_evidence": [
+        {
+          "turn_index": 126,
+          "quote": "I am in for 50k."
+        }
+      ],
+      "job": {
+        "vc_slug": "beck-bamberger-bad-ideas-group",
+        "episode_slug": "136-kredfeed-the-next-mexican-unicorn",
+        "mode": "founders-only",
+        "aliases": [
+          "Kredfeed"
+        ],
+        "pitch_sha256": "33bada97ad20bc870eac30ce4242646026e8024b7c414adc8cd985ce8dfbed72",
+        "review_sha256": "c0d220b0ec6fcfb1673b5aa94567ffd024c95a9ae039e73147a1da2d3dce4abe",
+        "asset_signature": "8a9294313ad20ed55c650ec6f23d95d55233a0ca4bdd29292945fd72eb2f2e96",
+        "alias_record_sha256": "829fe7e3d6d1f5037a9627700eced6f14ff0e234411f6d7fde4c47a64f32508a",
+        "job_id": "de758ef09c65c718cab1d7a6f9f832e8e37bff92bdbcb25b5884927ae6738af4"
+      }
+    },
+    {
+      "vc_slug": "beck-bamberger-bad-ideas-group",
+      "episode_slug": "129-reddrop-pitching-the-big-vision",
+      "actual_decision": "Out",
+      "prior_legacy_case_results": false,
+      "decision_evidence": [
+        {
+          "turn_index": 123,
+          "quote": "So I am out."
+        }
+      ],
+      "job": {
+        "vc_slug": "beck-bamberger-bad-ideas-group",
+        "episode_slug": "129-reddrop-pitching-the-big-vision",
+        "mode": "founders-only",
+        "aliases": [
+          "RedDrop"
+        ],
+        "pitch_sha256": "9c55d8d8dc4365ba1a2de7f491d7d7839079295fc181d4a23b4ba46eb28ffa27",
+        "review_sha256": "7655fc802566a6e13d37890b185cc551087d4b8477ab82f30ff9bf1dd4460006",
+        "asset_signature": "8a9294313ad20ed55c650ec6f23d95d55233a0ca4bdd29292945fd72eb2f2e96",
+        "alias_record_sha256": "e3d32ce845c5a077ed2f06b5bee23149ff107bb62fdaa2c68cf56269a10427e3",
+        "job_id": "f8c6014885e93f5a02bd3410c3685eb321b07ffa41c02e94285ac268b9419248"
+      }
+    },
+    {
+      "vc_slug": "charles-hudson-precursor-ventures",
+      "episode_slug": "189-wonderade-juice-protein-or-a-brand",
+      "actual_decision": "Out",
+      "prior_legacy_case_results": false,
+      "decision_evidence": [
+        {
+          "turn_index": 237,
+          "quote": "I'm out"
+        }
+      ],
+      "job": {
+        "vc_slug": "charles-hudson-precursor-ventures",
+        "episode_slug": "189-wonderade-juice-protein-or-a-brand",
+        "mode": "founders-only",
+        "aliases": [
+          "Wonderade"
+        ],
+        "pitch_sha256": "9a5e7f0c25374a07c6d8a95a39fe230a74e05594e31cf796aacb1a6e276cf2aa",
+        "review_sha256": "3d633355a0ce5382efc5971c84cddb31601de86c915a9f8e78af67c0cad43a66",
+        "asset_signature": "8da067773b2e274d6f2c4bfc04fadcc00cd2a6f3b13d45afbcfafca1b9438669",
+        "alias_record_sha256": "60d3632f621768ff90217fa73805205bea3ba486444d7ae92c8294173b50ec5e",
+        "job_id": "9984fb4d2c2b3651249ce779c1494f8081804cf4674aecaec56f32a3035c8a36"
+      }
+    },
+    {
+      "vc_slug": "elizabeth-yin-hustle-fund",
+      "episode_slug": "187-paysquad-buy-now-pay-together",
+      "actual_decision": "Out",
+      "prior_legacy_case_results": false,
+      "decision_evidence": [
+        {
+          "turn_index": 141,
+          "quote": "unfortunately for me, I, think I'm out."
+        }
+      ],
+      "job": {
+        "vc_slug": "elizabeth-yin-hustle-fund",
+        "episode_slug": "187-paysquad-buy-now-pay-together",
+        "mode": "founders-only",
+        "aliases": [
+          "PaySquad"
+        ],
+        "pitch_sha256": "cd67ce7dfc4de0d19558df39ece61d6023df2810a290bac59a88e821f727cc6c",
+        "review_sha256": "30379798d373c88ad2cec2b63c9f2a265468283bbff410abd4fb9a83c3e7534e",
+        "asset_signature": "c5cbd2fc56411e2eea88ee549093ce029e21dec59dd52cd6cac1547b0d4ba34a",
+        "alias_record_sha256": "f5dd227f9c337b5533cacd2052ffcce9850f582e4fc60efc365399e953ae4f13",
+        "job_id": "c1e9afbdeae490ce8f4b5defc2e651c4f7be0e9922bc5197864e9407b486761b"
+      }
+    },
+    {
+      "vc_slug": "howie-diamond-pure-ventures",
+      "episode_slug": "119-amateur-golf-society-venture-capital-vs-private-equity",
+      "actual_decision": "In",
+      "prior_legacy_case_results": false,
+      "decision_evidence": [
+        {
+          "turn_index": 128,
+          "quote": "I'd like to partner with you."
+        }
+      ],
+      "job": {
+        "vc_slug": "howie-diamond-pure-ventures",
+        "episode_slug": "119-amateur-golf-society-venture-capital-vs-private-equity",
+        "mode": "founders-only",
+        "aliases": [
+          "Amateur Golf Society"
+        ],
+        "pitch_sha256": "999ae9f8d26a9f82256b97d7c716776eb47750c799728e8592078e0243fb52bb",
+        "review_sha256": "7ca5d1e6627e196feb76bf1c4f87e038a849465df23cfef556298e26c9858da3",
+        "asset_signature": "7e6b98fe56336090e48ce4fa966a11b964bae31b3cb1fed10984590033780069",
+        "alias_record_sha256": "97af42e19b7ddec27e68f94410ef5ba353441205197c23dcce25a78d5693d64f",
+        "job_id": "40ed581973e9de5dc15d8995c747fa0ed5e3f1af9cac518ac0164f3d0a193c85"
+      }
+    },
+    {
+      "vc_slug": "howie-diamond-pure-ventures",
+      "episode_slug": "4-skylights",
+      "actual_decision": "Out",
+      "prior_legacy_case_results": false,
+      "decision_evidence": [
+        {
+          "turn_index": 107,
+          "quote": "I'm going to pass."
+        }
+      ],
+      "job": {
+        "vc_slug": "howie-diamond-pure-ventures",
+        "episode_slug": "4-skylights",
+        "mode": "founders-only",
+        "aliases": [
+          "Skylights"
+        ],
+        "pitch_sha256": "1a690f9200546fa2e6445ad6cb4a546d80d1e8e6941246e2df134d8228793964",
+        "review_sha256": "812579c595fa241ed09e925170a0b2c3327bf6a629ae4500bebe07bcb10b4294",
+        "asset_signature": "7e6b98fe56336090e48ce4fa966a11b964bae31b3cb1fed10984590033780069",
+        "alias_record_sha256": "f9c3f5d852ff578c45b5a757c3e2510ab0bbbbdf3d3425d4658591179d3f90d1",
+        "job_id": "5fa25a6e6856ac82160d85fbcc207b0eaf24bce0ed88c63dd362548a1f3ec265"
+      }
+    },
+    {
+      "vc_slug": "jake-chapman-marque-ventures",
+      "episode_slug": "5-fitguard",
+      "actual_decision": "Out",
+      "prior_legacy_case_results": false,
+      "decision_evidence": [
+        {
+          "turn_index": 137,
+          "quote": "But for now, for the product you've got, for where you're at, I think I'm going to pass."
+        }
+      ],
+      "job": {
+        "vc_slug": "jake-chapman-marque-ventures",
+        "episode_slug": "5-fitguard",
+        "mode": "founders-only",
+        "aliases": [
+          "Force Impact Technologies",
+          "FITGuard"
+        ],
+        "pitch_sha256": "4276a1105eb9d24037a4eb3f2ed49f1a7a9d8556e1e3de3e4dd45c92c5b862ea",
+        "review_sha256": "925e229aeb18da2c6f5753a8bfa74fefe0f04be7e1f780d62dccd36cb4a61f2b",
+        "asset_signature": "621e848df77a1831da39f26d76c06b1f858f43b3012fbda59bbd99d2e7ee4423",
+        "alias_record_sha256": "d89956fe215d3ab7c25184379230eca1390b1fd0e0d2a90bd98a519a189f9100",
+        "job_id": "783f8925258fbb3cb3c6194aab8e37c6f13d0e4a3206f277e28dde0adc20d849"
+      }
+    },
+    {
+      "vc_slug": "jenny-fielding-everywhere-ventures",
+      "episode_slug": "163-curiedx-ai-pocket-doctor",
+      "actual_decision": "Out",
+      "prior_legacy_case_results": false,
+      "decision_evidence": [
+        {
+          "turn_index": 113,
+          "quote": "So I think I'm out."
+        }
+      ],
+      "job": {
+        "vc_slug": "jenny-fielding-everywhere-ventures",
+        "episode_slug": "163-curiedx-ai-pocket-doctor",
+        "mode": "founders-only",
+        "aliases": [
+          "Curie DX",
+          "CurieDx"
+        ],
+        "pitch_sha256": "1323397680d39d27b85702e37454b1f7b4e6d3f67913fe50522827939d6e5856",
+        "review_sha256": "90ab802e1c15b1d13071ea757d1d3fcdef31a57db72118dcac2bbcc30780e99b",
+        "asset_signature": "71c743cac7dffe6d6214a529153330c828837bd035ac1230647a003de8242da9",
+        "alias_record_sha256": "715e95f0e4d35f6fbbe007d38fb0496c00e919f1eafbd0bfb58b9df134981402",
+        "job_id": "49dcb0221070bcdf71ae7977c7b2197a464fdb8d4346bfbe81d100186ca499d6"
+      }
+    },
+    {
+      "vc_slug": "jesse-middleton-flybridge",
+      "episode_slug": "187-paysquad-buy-now-pay-together",
+      "actual_decision": "Out",
+      "prior_legacy_case_results": false,
+      "decision_evidence": [
+        {
+          "turn_index": 150,
+          "quote": "So for that, I'm, I'm out."
+        }
+      ],
+      "job": {
+        "vc_slug": "jesse-middleton-flybridge",
+        "episode_slug": "187-paysquad-buy-now-pay-together",
+        "mode": "founders-only",
+        "aliases": [
+          "PaySquad"
+        ],
+        "pitch_sha256": "cd67ce7dfc4de0d19558df39ece61d6023df2810a290bac59a88e821f727cc6c",
+        "review_sha256": "30379798d373c88ad2cec2b63c9f2a265468283bbff410abd4fb9a83c3e7534e",
+        "asset_signature": "764d58ab1022f69f78ec153d6df851fadae1420f627d0e6557a2fc4b41fd981e",
+        "alias_record_sha256": "f5dd227f9c337b5533cacd2052ffcce9850f582e4fc60efc365399e953ae4f13",
+        "job_id": "f1ae816bb4c71ba80568a7ee7ce1eba9c5de910075beb8b635f256dc8f702e54"
+      }
+    },
+    {
+      "vc_slug": "mac-conwell",
+      "episode_slug": "129-reddrop-pitching-the-big-vision",
+      "actual_decision": "In",
+      "prior_legacy_case_results": false,
+      "decision_evidence": [
+        {
+          "turn_index": 120,
+          "quote": "I'm in. Um. I'm gonna say I'm in for 50k."
+        }
+      ],
+      "job": {
+        "vc_slug": "mac-conwell",
+        "episode_slug": "129-reddrop-pitching-the-big-vision",
+        "mode": "founders-only",
+        "aliases": [
+          "RedDrop"
+        ],
+        "pitch_sha256": "9c55d8d8dc4365ba1a2de7f491d7d7839079295fc181d4a23b4ba46eb28ffa27",
+        "review_sha256": "7655fc802566a6e13d37890b185cc551087d4b8477ab82f30ff9bf1dd4460006",
+        "asset_signature": "75c1e2ee7899439f4833fff845a7ad36c9f8b9502fa4978e185411774f038492",
+        "alias_record_sha256": "e3d32ce845c5a077ed2f06b5bee23149ff107bb62fdaa2c68cf56269a10427e3",
+        "job_id": "f4e41d19e3a1a68fbcb68dceea40132e1dad6c9657f8a8ef99ffd0da63d2b9b1"
+      }
+    },
+    {
+      "vc_slug": "mac-conwell",
+      "episode_slug": "128-churchspace-airbnb-for-churches",
+      "actual_decision": "Out",
+      "prior_legacy_case_results": false,
+      "decision_evidence": [
+        {
+          "turn_index": 213,
+          "quote": "It's a no from me, because like I tend to stay away from this space."
+        }
+      ],
+      "job": {
+        "vc_slug": "mac-conwell",
+        "episode_slug": "128-churchspace-airbnb-for-churches",
+        "mode": "founders-only",
+        "aliases": [
+          "Church Space",
+          "ChurchSpace"
+        ],
+        "pitch_sha256": "2d21abb50c6be3dc7f62fc16c943f7fcc250746cce7835d7c366802287075a62",
+        "review_sha256": "7808097cd49cf37f8877d3055ae5edeee344b1338fc7857cb9daed08bf9c8843",
+        "asset_signature": "75c1e2ee7899439f4833fff845a7ad36c9f8b9502fa4978e185411774f038492",
+        "alias_record_sha256": "f6abadb0f11a35c4295532cea117d1a2a329c96643c6cddfa4d61dc03b3b4254",
+        "job_id": "89878372d50794cbd48a11ed0f235dd776e100dc2c89ae4b9728734c6c7f94ac"
+      }
+    },
+    {
+      "vc_slug": "mark-phillips-11-tribes-ventures",
+      "episode_slug": "117-lotus-hardware-hail-mary",
+      "actual_decision": "Out",
+      "prior_legacy_case_results": false,
+      "decision_evidence": [
+        {
+          "turn_index": 117,
+          "quote": "So it's a no for us today."
+        }
+      ],
+      "job": {
+        "vc_slug": "mark-phillips-11-tribes-ventures",
+        "episode_slug": "117-lotus-hardware-hail-mary",
+        "mode": "founders-only",
+        "aliases": [
+          "Lotus"
+        ],
+        "pitch_sha256": "61547225834b9c2775c08936f193c533a68fc8ca2dafa181f8b3de3f9c290dbb",
+        "review_sha256": "bd08954f539b96b3ce03b7afeacb84f10a88b76ad87c90f709957b6beb287098",
+        "asset_signature": "a81928db058c10a08b5f702e39ab4d571c0a79e213458265fa431adc15c03cf2",
+        "alias_record_sha256": "54be6ca720d3c8465ed9f6301b5cf3adb7ad50b8ca10195fa7c84efaf55f3322",
+        "job_id": "4c7fbe08df1f382d9d80d7ca664210668d6cb23c17232a23c67b7bf0428b08d4"
+      }
+    },
+    {
+      "vc_slug": "michael-hyatt",
+      "episode_slug": "41-can-this-startup-help-retailers-take-on-amazon",
+      "actual_decision": "In",
+      "prior_legacy_case_results": false,
+      "decision_evidence": [
+        {
+          "turn_index": 139,
+          "quote": "So I’m in. And I’m not sure how much for. I want to spend time on your paperwork and take a little bit of time, do a little bit of diligence."
+        }
+      ],
+      "job": {
+        "vc_slug": "michael-hyatt",
+        "episode_slug": "41-can-this-startup-help-retailers-take-on-amazon",
+        "mode": "founders-only",
+        "aliases": [
+          "Shipsi"
+        ],
+        "pitch_sha256": "dafe1d8b16912f84bccef03a8f376e48329ac4d8d01eab97ecb18d711ddc04cd",
+        "review_sha256": "aeb3509567e36bb0a54409436d105617917198e9b1cd09aad0af6389ca62fcca",
+        "asset_signature": "b7378e93b2a1095365c669ab3bdfd969c72bcea823741388c88dcff5ad699a0f",
+        "alias_record_sha256": "3d002e9f1495a9ec058d39c0023b7bb9bcaf286183a67392fd698c746a83f102",
+        "job_id": "ce5e9427d1e1fe74d58e53d8c188e2b54e560db95e5702d21403f8a11e60ca0c"
+      }
+    },
+    {
+      "vc_slug": "michael-hyatt",
+      "episode_slug": "43-get-this-party-startup-in-here",
+      "actual_decision": "Out",
+      "prior_legacy_case_results": false,
+      "decision_evidence": [
+        {
+          "turn_index": 72,
+          "quote": "Yeah. I’m going to be out."
+        }
+      ],
+      "job": {
+        "vc_slug": "michael-hyatt",
+        "episode_slug": "43-get-this-party-startup-in-here",
+        "mode": "founders-only",
+        "aliases": [
+          "PartySlate"
+        ],
+        "pitch_sha256": "896e16d9acef5bf5979c8ea165e3789b87188528ba38afe4c4da759b10a56cb4",
+        "review_sha256": "034c3fd22518eddd8dae3f51e0b1ea7c92839a2e466a47a732ee55b010234d41",
+        "asset_signature": "b7378e93b2a1095365c669ab3bdfd969c72bcea823741388c88dcff5ad699a0f",
+        "alias_record_sha256": "baf8283c9eeffadfc2959af94d642d33c22b69f0d42fccc8ffe7269d9e685806",
+        "job_id": "5af4f418880fb312efabd6d28ec81acbebee8dba550db27718da77f1cf321c2b"
+      }
+    },
+    {
+      "vc_slug": "mike-ma-sidecut-ventures",
+      "episode_slug": "191-haiven-ai-protection-for-young-gamers",
+      "actual_decision": "Out",
+      "prior_legacy_case_results": false,
+      "decision_evidence": [
+        {
+          "turn_index": 184,
+          "quote": "it kills me to say I'm out, but I'm out"
+        }
+      ],
+      "job": {
+        "vc_slug": "mike-ma-sidecut-ventures",
+        "episode_slug": "191-haiven-ai-protection-for-young-gamers",
+        "mode": "founders-only",
+        "aliases": [
+          "Haiven"
+        ],
+        "pitch_sha256": "4ad29d457e3c7b3371c23b8f59125659b1bd01794178c8770fbc9204381f2183",
+        "review_sha256": "4240973d83579d595f99541c8cf049571160bdaf92621c4b1e506f8dea45554e",
+        "asset_signature": "463246068f856054f79fea26d1419615e20a7159d6ac797e1e419baa3bce3db2",
+        "alias_record_sha256": "4a3c947da9fe60c425bf4ae37f49f1a6a77ff167a4744bebb5612592f2d9e015",
+        "job_id": "218e3e2b82f1c51cf369654651aa959d2ff960013eb042d5298e880bdc717e19"
+      }
+    },
+    {
+      "vc_slug": "nicole-verkindt",
+      "episode_slug": "39-this-pitch-is-damn-near-perfect",
+      "actual_decision": "Out",
+      "prior_legacy_case_results": false,
+      "decision_evidence": [
+        {
+          "turn_index": 106,
+          "quote": "But I can’t say yes right now, because I have this immediate gut reaction to apparel because I don’t understand it and because it’s so saturated."
+        }
+      ],
+      "job": {
+        "vc_slug": "nicole-verkindt",
+        "episode_slug": "39-this-pitch-is-damn-near-perfect",
+        "mode": "founders-only",
+        "aliases": [
+          "Bluffworks"
+        ],
+        "pitch_sha256": "5ea223b17a0e31543b75c58eb3920c284d36670dec0e0046ad50ddc4b2abf6c6",
+        "review_sha256": "00ad9f6777e662c76ab76e847eedbe03205c5912c67ad8c2ffb0d6e0d875390b",
+        "asset_signature": "6023ec596fd379aac4df690ea316c86bde827f2ec058fcda1750037480aa0462",
+        "alias_record_sha256": "1c140a9185b013e65204b68e552c84feb47edc2a37975973f7744b4f4f3465b6",
+        "job_id": "92247e3939b13146ee102d42ab2d0e7b6b193a90f030362cb12a77f8cb63ad12"
+      }
+    },
+    {
+      "vc_slug": "paige-doherty-behind-genius-ventures",
+      "episode_slug": "126-handle-the-uncut-pitch",
+      "actual_decision": "Out",
+      "prior_legacy_case_results": false,
+      "decision_evidence": [
+        {
+          "turn_index": 276,
+          "quote": "I think similarly for me, the valuation is a bit too pricey. But like you said, you have interest at that, so it makes sense to stick with that valuation. But similarly, I'd be interested in putting in a very small personal check."
+        }
+      ],
+      "job": {
+        "vc_slug": "paige-doherty-behind-genius-ventures",
+        "episode_slug": "126-handle-the-uncut-pitch",
+        "mode": "founders-only",
+        "aliases": [
+          "Handle"
+        ],
+        "pitch_sha256": "55bc9109d06207db3082b418848b4486fb9b59cba9e5b114ca441ed66baa5e0b",
+        "review_sha256": "7617e8d4e64e429105e6e6a1a41bdb52689f8c3098b289ec1be1b3bd28f287b7",
+        "asset_signature": "067585941ab207dfc17718d553a0790c7de06e8edf8dfca5343bbd769b9e0221",
+        "alias_record_sha256": "8a60369be564974d4e4803e0be3360dca5cec699a9347451995844bc6a6607a9",
+        "job_id": "41582a5b24601692a7969376d5f0462456227ad5462a1984326d7ee838774d0a"
+      }
+    },
+    {
+      "vc_slug": "rohit-gupta-future-communities-capital",
+      "episode_slug": "186-supercool-earth-making-it-rain-literally",
+      "actual_decision": "In",
+      "prior_legacy_case_results": false,
+      "decision_evidence": [
+        {
+          "turn_index": 176,
+          "quote": "We're, $1 million dollars."
+        }
+      ],
+      "job": {
+        "vc_slug": "rohit-gupta-future-communities-capital",
+        "episode_slug": "186-supercool-earth-making-it-rain-literally",
+        "mode": "founders-only",
+        "aliases": [
+          "Supercool Earth"
+        ],
+        "pitch_sha256": "802231520e962dac9d9d879c850cb1dd887c754861beddd126d69f2bd2d79b02",
+        "review_sha256": "01878e3a23741bbe370b522ebca61da229aa6b5aa17709e8b484fb53476d77ac",
+        "asset_signature": "1ba0b53c192d59e8f88f8d93752f70af830cf1069285fcd180268a21b5004026",
+        "alias_record_sha256": "92cbd7dfd4e7e185b5b6f018ae83e03b93201e580f812cf55264f1db479d2f9c",
+        "job_id": "7f44747eef94cb4c517a41753e12aaaa8c8c547edbbb7fcefa0564dcb1d9255d"
+      }
+    },
+    {
+      "vc_slug": "sarah-downey-accomplice",
+      "episode_slug": "87-uber-for-pets",
+      "actual_decision": "In",
+      "prior_legacy_case_results": false,
+      "decision_evidence": [
+        {
+          "turn_index": 175,
+          "quote": "I also am in for 25k."
+        }
+      ],
+      "job": {
+        "vc_slug": "sarah-downey-accomplice",
+        "episode_slug": "87-uber-for-pets",
+        "mode": "founders-only",
+        "aliases": [
+          "Spot On",
+          "SpotOn"
+        ],
+        "pitch_sha256": "2877cbe3da365c8d6ea652836109686badafa5fc50f3aaaf84da1a716679e3b2",
+        "review_sha256": "bdc342619fee38120298ee7f62250a4b326619d86d3ca4853c2c3b483cb6da47",
+        "asset_signature": "be35e040db7c3392b60d7f76ff21a175c44aaf4e01f1d60be8b395b62f5e9784",
+        "alias_record_sha256": "2ea3d5f965f21defd9f4b76742ab67e94ed858d4e34e2e4aa2cd66585d3af279",
+        "job_id": "3ff8b4cc9982e70c3c994a36614aed88f784a4af515fc9f774e37adbe7859b3f"
+      }
+    },
+    {
+      "vc_slug": "sarah-downey-accomplice",
+      "episode_slug": "71-raising-kids-is-hard-so-is-raising-a-startup",
+      "actual_decision": "Out",
+      "prior_legacy_case_results": false,
+      "decision_evidence": [
+        {
+          "turn_index": 97,
+          "quote": "for me, it's a pass"
+        }
+      ],
+      "job": {
+        "vc_slug": "sarah-downey-accomplice",
+        "episode_slug": "71-raising-kids-is-hard-so-is-raising-a-startup",
+        "mode": "founders-only",
+        "aliases": [
+          "Tot Squad",
+          "TotSquad"
+        ],
+        "pitch_sha256": "9bcecfe8204315d6db41a13da5fddbc14970a21511257af5dc25622e1fe7631d",
+        "review_sha256": "468302109acbc696f7dd597e5a5e2593bebabbd7da89aa763defc11c874a75a0",
+        "asset_signature": "be35e040db7c3392b60d7f76ff21a175c44aaf4e01f1d60be8b395b62f5e9784",
+        "alias_record_sha256": "4bc15723f6af6c9d39e6b4ed538c9c9172562fcf6357d565354baa87ad19cf24",
+        "job_id": "0123699af5b8aa8d656b1b625759e95f06b14c8e73cc0387330ff00f0b34d570"
+      }
+    },
+    {
+      "vc_slug": "sheel-mohnot-better-tomorrow-ventures",
+      "episode_slug": "9-tuckrbox",
+      "actual_decision": "Out",
+      "prior_legacy_case_results": false,
+      "decision_evidence": [
+        {
+          "turn_index": 97,
+          "quote": "But, it's totally unproven. So I'm going to have to pass."
+        }
+      ],
+      "job": {
+        "vc_slug": "sheel-mohnot-better-tomorrow-ventures",
+        "episode_slug": "9-tuckrbox",
+        "mode": "founders-only",
+        "aliases": [
+          "TuckrBox"
+        ],
+        "pitch_sha256": "94ff0db63ef10e5d02d1b77b2a66d8d3b1b78cc54ceb4119fb45d67da0c0eed9",
+        "review_sha256": "ff734a9d8804b1356f219b8a9febb8e50fc6e6a771e59d2c191cd1fb3cf88917",
+        "asset_signature": "98e490abef8e9010b1a3e517ef2f0e4221c32217bee9b648cd497922442ae15e",
+        "alias_record_sha256": "f3dc8713799fd4384535aecffa3afa35c8feb644d3270b5015ed7dea01a3b91a",
+        "job_id": "dfa4fca5b4ec53b7e6405507e178818a090fbe717de607f8d4ffc2a5002aa000"
+      }
+    }
+  ],
+  "unavailable": [
+    {
+      "vc_slug": "charles-hudson-precursor-ventures",
+      "actual_decision": "In",
+      "reason": "No unused eligible original numbered episode remains across current and legacy assessments."
+    },
+    {
+      "vc_slug": "cyan-banister-long-journey-ventures",
+      "actual_decision": "In",
+      "reason": "No unused eligible original numbered episode remains across current and legacy assessments."
+    },
+    {
+      "vc_slug": "cyan-banister-long-journey-ventures",
+      "actual_decision": "Out",
+      "reason": "No unused eligible original numbered episode remains across current and legacy assessments."
+    },
+    {
+      "vc_slug": "elizabeth-yin-hustle-fund",
+      "actual_decision": "In",
+      "reason": "No unused eligible original numbered episode remains across current and legacy assessments."
+    },
+    {
+      "vc_slug": "jake-chapman-marque-ventures",
+      "actual_decision": "In",
+      "reason": "No unused eligible original numbered episode remains across current and legacy assessments."
+    },
+    {
+      "vc_slug": "jenny-fielding-everywhere-ventures",
+      "actual_decision": "In",
+      "reason": "No unused eligible original numbered episode remains across current and legacy assessments."
+    },
+    {
+      "vc_slug": "jesse-middleton-flybridge",
+      "actual_decision": "In",
+      "reason": "No unused eligible original numbered episode remains across current and legacy assessments."
+    },
+    {
+      "vc_slug": "jillian-manus-structure-capital",
+      "actual_decision": "In",
+      "reason": "No unused eligible original numbered episode remains across current and legacy assessments."
+    },
+    {
+      "vc_slug": "jillian-manus-structure-capital",
+      "actual_decision": "Out",
+      "reason": "No unused eligible original numbered episode remains across current and legacy assessments."
+    },
+    {
+      "vc_slug": "mark-phillips-11-tribes-ventures",
+      "actual_decision": "In",
+      "reason": "No unused eligible original numbered episode remains across current and legacy assessments."
+    },
+    {
+      "vc_slug": "mike-ma-sidecut-ventures",
+      "actual_decision": "In",
+      "reason": "No unused eligible original numbered episode remains across current and legacy assessments."
+    },
+    {
+      "vc_slug": "nicole-verkindt",
+      "actual_decision": "In",
+      "reason": "No unused eligible original numbered episode remains across current and legacy assessments."
+    },
+    {
+      "vc_slug": "paige-doherty-behind-genius-ventures",
+      "actual_decision": "In",
+      "reason": "No unused eligible original numbered episode remains across current and legacy assessments."
+    },
+    {
+      "vc_slug": "phil-nadel-forefront-venture-partners",
+      "actual_decision": "In",
+      "reason": "No unused eligible original numbered episode remains across current and legacy assessments."
+    },
+    {
+      "vc_slug": "phil-nadel-forefront-venture-partners",
+      "actual_decision": "Out",
+      "reason": "No unused eligible original numbered episode remains across current and legacy assessments."
+    },
+    {
+      "vc_slug": "rohit-gupta-future-communities-capital",
+      "actual_decision": "Out",
+      "reason": "No unused eligible original numbered episode remains across current and legacy assessments."
+    },
+    {
+      "vc_slug": "sheel-mohnot-better-tomorrow-ventures",
+      "actual_decision": "In",
+      "reason": "No unused eligible original numbered episode remains across current and legacy assessments."
+    }
+  ]
+}

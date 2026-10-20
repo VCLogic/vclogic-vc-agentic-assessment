@@ -1,0 +1,309 @@
+{
+  "schema": "phase1-rationale-reference-v1",
+  "extraction_version": "pitchshow-rationales-v1",
+  "fingerprint": "265933d5e49764b688f8ba3b3cd06c51ec2c92f57375a9455c56e0b57e84be32",
+  "episode_slug": "113-hilos-is-this-the-perfect-business",
+  "vc_slug": "jillian-manus-structure-capital",
+  "vc_name": "Jillian Manus",
+  "actual_decision": "Out",
+  "later_decision": "Unknown",
+  "reference_kind": "automated_transcript_observed_candidate",
+  "human_validated": false,
+  "source_format": "transcript-observed-rationales-v1",
+  "source_path": "../source/episodes/113-hilos-is-this-the-perfect-business.json",
+  "source_sha256": "9ca15089d20b8c4d1d8d7ea02755de2a2decd77770ce7aa42fef5640d0cb9392",
+  "transcript_sha256": "d012f678cd8c300dd40e0678431300d18ee9180456283c9575b2896b1a0bbe2e",
+  "taxonomy_sha256": "eaa8734819a3ac34dd19ee5f0bf6de925a793a1d25a2d361090dafc9b751e1fc",
+  "model": "codex:gpt-5.6-luna+gpt-5.6-sol",
+  "generation_stages": [
+    {
+      "phase": "rationale_extract",
+      "backend": "codex",
+      "model": "gpt-5.6-luna"
+    },
+    {
+      "phase": "rationale_verify",
+      "backend": "codex",
+      "model": "gpt-5.6-sol"
+    }
+  ],
+  "source_tier": "newly_extracted_and_independently_model_reviewed",
+  "reviewed_target_turns": [
+    3,
+    8,
+    12,
+    14,
+    16,
+    21,
+    23,
+    31,
+    85,
+    94,
+    97,
+    106,
+    110,
+    112,
+    121,
+    151,
+    154,
+    156
+  ],
+  "notes": "All supplied target turns were reviewed. Greetings, simple confirmations, factual restatements, jokes, and closing remarks were omitted; the standalone sustainability characterization did not establish Jillian's own product assessment or mission alignment.",
+  "receipt_path": "receipts/113-hilos-is-this-the-perfect-business.json",
+  "scoring_scope": "original_pitch_only",
+  "shared_across_input_modes": true,
+  "rationales": [
+    {
+      "rationale_label": "growth_projection_risk",
+      "direction": "neutral",
+      "salience": "secondary",
+      "confidence": 0.96,
+      "utterance_type": "question",
+      "decision_link": "none",
+      "timing": "original_pitch",
+      "turn_index": 85,
+      "quote": "Break down the 3 million.",
+      "explanation": "Requests the underlying components of the projected $3 million in revenue so its assumptions can be assessed.",
+      "evidence": [
+        "Break down the 3 million."
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 85,
+          "speaker": "Jillian",
+          "quote": "Break down the 3 million."
+        }
+      ],
+      "activation": "queried",
+      "source_rationale_id": "R2",
+      "utterance_kind": "question",
+      "decision_support": "none",
+      "all_mention_ids": [
+        "R2"
+      ]
+    },
+    {
+      "rationale_label": "product_appeal_assessment",
+      "direction": "positive",
+      "salience": "secondary",
+      "confidence": 0.97,
+      "utterance_type": "assessment",
+      "decision_link": "none",
+      "timing": "original_pitch",
+      "turn_index": 112,
+      "quote": "I'm gonna order some of those for my sons for Christmas.",
+      "explanation": "Her stated intention to buy the product demonstrates personal product appeal despite her investment refusal.",
+      "evidence": [
+        "I'm intrigued.",
+        "I'm gonna order some of those for my sons for Christmas."
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 16,
+          "speaker": "Jillian",
+          "quote": "I'm intrigued."
+        },
+        {
+          "turn_index": 112,
+          "speaker": "Jillian",
+          "quote": "I'm gonna order some of those for my sons for Christmas."
+        }
+      ],
+      "activation": "evaluated",
+      "source_rationale_id": "R5",
+      "utterance_kind": "supporting_argument",
+      "decision_support": "none",
+      "all_mention_ids": [
+        "R1",
+        "R5"
+      ]
+    },
+    {
+      "rationale_label": "stage_valuation_mismatch",
+      "direction": "negative",
+      "salience": "primary",
+      "confidence": 0.99,
+      "utterance_type": "decision_reason",
+      "decision_link": "explicit",
+      "timing": "original_pitch",
+      "turn_index": 110,
+      "quote": "The valuation is a little hard for me to swallow.",
+      "explanation": "Directly identifies the valuation as the reason for declining the investment.",
+      "evidence": [
+        "I'm actually thinking that too. So can you tell us how you landed on 16 pre",
+        "The valuation is a little hard for me to swallow."
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 94,
+          "speaker": "Jillian",
+          "quote": "I'm actually thinking that too. So can you tell us how you landed on 16 pre"
+        },
+        {
+          "turn_index": 110,
+          "speaker": "Jillian",
+          "quote": "The valuation is a little hard for me to swallow."
+        }
+      ],
+      "activation": "evaluated",
+      "source_rationale_id": "R4",
+      "utterance_kind": "decision_explanation",
+      "decision_support": "supports_out",
+      "all_mention_ids": [
+        "R3",
+        "R4"
+      ]
+    }
+  ],
+  "later_rationales": [],
+  "excluded_rationales": [
+    {
+      "rationale_label": "product_adoption",
+      "direction": "neutral",
+      "salience": "secondary",
+      "confidence": 0.92,
+      "utterance_type": "question",
+      "decision_link": "none",
+      "timing": "teaser",
+      "turn_index": 151,
+      "quote": "Did you use your own product to construct this pitch?",
+      "explanation": "Probes whether the founder used the product for the presented real-world task.",
+      "evidence": [
+        "Did you use your own product to construct this pitch?"
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 151,
+          "speaker": "Jillian",
+          "quote": "Did you use your own product to construct this pitch?"
+        }
+      ],
+      "activation": "queried",
+      "source_rationale_id": "R6"
+    }
+  ],
+  "rationale_mentions": [
+    {
+      "rationale_label": "product_appeal_assessment",
+      "direction": "positive",
+      "salience": "secondary",
+      "confidence": 0.85,
+      "utterance_type": "assessment",
+      "decision_link": "none",
+      "timing": "original_pitch",
+      "turn_index": 16,
+      "quote": "I'm intrigued.",
+      "explanation": "Expresses a favorable personal reaction to the product concept being introduced.",
+      "evidence": [
+        "I'm intrigued."
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 16,
+          "speaker": "Jillian",
+          "quote": "I'm intrigued."
+        }
+      ],
+      "activation": "evaluated",
+      "source_rationale_id": "R1"
+    },
+    {
+      "rationale_label": "growth_projection_risk",
+      "direction": "neutral",
+      "salience": "secondary",
+      "confidence": 0.96,
+      "utterance_type": "question",
+      "decision_link": "none",
+      "timing": "original_pitch",
+      "turn_index": 85,
+      "quote": "Break down the 3 million.",
+      "explanation": "Requests the underlying components of the projected $3 million in revenue so its assumptions can be assessed.",
+      "evidence": [
+        "Break down the 3 million."
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 85,
+          "speaker": "Jillian",
+          "quote": "Break down the 3 million."
+        }
+      ],
+      "activation": "queried",
+      "source_rationale_id": "R2"
+    },
+    {
+      "rationale_label": "stage_valuation_mismatch",
+      "direction": "negative",
+      "salience": "primary",
+      "confidence": 0.98,
+      "utterance_type": "concern",
+      "decision_link": "none",
+      "timing": "original_pitch",
+      "turn_index": 94,
+      "quote": "I'm actually thinking that too. So can you tell us how you landed on 16 pre",
+      "explanation": "Explicitly adopts the preceding concern that the $16 million pre-money valuation is high relative to the company's progress and asks for its basis.",
+      "evidence": [
+        "I'm actually thinking that too. So can you tell us how you landed on 16 pre"
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 94,
+          "speaker": "Jillian",
+          "quote": "I'm actually thinking that too. So can you tell us how you landed on 16 pre"
+        }
+      ],
+      "activation": "evaluated",
+      "source_rationale_id": "R3"
+    },
+    {
+      "rationale_label": "stage_valuation_mismatch",
+      "direction": "negative",
+      "salience": "primary",
+      "confidence": 0.99,
+      "utterance_type": "decision_explanation",
+      "decision_link": "supports_out",
+      "timing": "original_pitch",
+      "turn_index": 110,
+      "quote": "The valuation is a little hard for me to swallow.",
+      "explanation": "Directly identifies the valuation as the reason for declining the investment.",
+      "evidence": [
+        "The valuation is a little hard for me to swallow."
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 110,
+          "speaker": "Jillian",
+          "quote": "The valuation is a little hard for me to swallow."
+        }
+      ],
+      "activation": "evaluated",
+      "source_rationale_id": "R4"
+    },
+    {
+      "rationale_label": "product_appeal_assessment",
+      "direction": "positive",
+      "salience": "secondary",
+      "confidence": 0.97,
+      "utterance_type": "supporting_argument",
+      "decision_link": "none",
+      "timing": "original_pitch",
+      "turn_index": 112,
+      "quote": "I'm gonna order some of those for my sons for Christmas.",
+      "explanation": "Her stated intention to buy the product demonstrates personal product appeal despite her investment refusal.",
+      "evidence": [
+        "I'm gonna order some of those for my sons for Christmas."
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 112,
+          "speaker": "Jillian",
+          "quote": "I'm gonna order some of those for my sons for Christmas."
+        }
+      ],
+      "activation": "evaluated",
+      "source_rationale_id": "R5"
+    }
+  ],
+  "expanded_quote_evidence": [],
+  "rejected_after_evidence_check": []
+}

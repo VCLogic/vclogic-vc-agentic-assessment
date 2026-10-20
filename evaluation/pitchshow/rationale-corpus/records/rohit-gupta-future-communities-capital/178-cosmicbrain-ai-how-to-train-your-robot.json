@@ -1,0 +1,397 @@
+{
+  "schema": "phase1-rationale-reference-v1",
+  "extraction_version": "pitchshow-rationales-v1",
+  "fingerprint": "4d86f050863491a6c49b657ba25f81df8d58bfa16b5ed8ed60345ee2e4a64cca",
+  "episode_slug": "178-cosmicbrain-ai-how-to-train-your-robot",
+  "vc_slug": "rohit-gupta-future-communities-capital",
+  "vc_name": "Rohit Gupta",
+  "actual_decision": "Out",
+  "later_decision": "Unknown",
+  "reference_kind": "automated_transcript_observed_candidate",
+  "human_validated": false,
+  "source_format": "transcript-observed-rationales-v1",
+  "source_path": "/home/dpasch01/vclogic-vc-agentic-assessment/evaluation/pitchshow/investors/rohit-gupta-future-communities-capital/source/episodes/178-cosmicbrain-ai-how-to-train-your-robot.json",
+  "source_sha256": "f9f349b30b393dcd0ec55563fcc6ccd9873387a8c533a777047f539c6589fd18",
+  "transcript_sha256": "eaf6073881a1dc1e0a7b30f295bf000ce11aef5b3552757a03b8e73dd5b0b017",
+  "taxonomy_sha256": "eaa8734819a3ac34dd19ee5f0bf6de925a793a1d25a2d361090dafc9b751e1fc",
+  "model": "codex:gpt-5.6-luna+gpt-5.6-sol",
+  "generation_stages": [
+    {
+      "phase": "rationale_extract",
+      "backend": "codex",
+      "model": "gpt-5.6-luna"
+    },
+    {
+      "phase": "rationale_verify",
+      "backend": "codex",
+      "model": "gpt-5.6-sol"
+    }
+  ],
+  "source_tier": "newly_extracted_and_independently_model_reviewed",
+  "reviewed_target_turns": [
+    27,
+    45,
+    47,
+    49,
+    51,
+    53,
+    55,
+    57,
+    60,
+    89,
+    104,
+    106,
+    148,
+    158,
+    160
+  ],
+  "notes": "",
+  "receipt_path": "/home/dpasch01/vclogic-vc-agentic-assessment/evaluation/pitchshow/investors/rohit-gupta-future-communities-capital/rationale-references/receipts/178-cosmicbrain-ai-how-to-train-your-robot.json",
+  "scoring_scope": "original_pitch_only",
+  "shared_across_input_modes": true,
+  "rationales": [
+    {
+      "rationale_label": "founder_qualities",
+      "direction": "positive",
+      "salience": "secondary",
+      "confidence": 0.96,
+      "utterance_type": "assessment",
+      "decision_link": "none",
+      "timing": "original_pitch",
+      "turn_index": 158,
+      "quote": "I think I'd just be betting on you, which is kind of where I like to be.",
+      "explanation": "Rohit expresses positive conviction in the founder personally despite uncertainty about identifying the category winner.",
+      "evidence": [
+        "I think I'd just be betting on you, which is kind of where I like to be."
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 158,
+          "speaker": "Rohit",
+          "quote": "I think I'd just be betting on you, which is kind of where I like to be."
+        }
+      ],
+      "activation": "evaluated",
+      "source_rationale_id": "R8",
+      "utterance_kind": "assessment",
+      "decision_support": "none",
+      "all_mention_ids": [
+        "R8"
+      ]
+    },
+    {
+      "rationale_label": "investor_domain_knowledge_constraint",
+      "direction": "negative",
+      "salience": "primary",
+      "confidence": 0.99,
+      "utterance_type": "decision_reason",
+      "decision_link": "explicit",
+      "timing": "original_pitch",
+      "turn_index": 158,
+      "quote": "I'd have to understand the industry a lot better to say like, my one bet is this person.",
+      "explanation": "He links his insufficient understanding of the robotics industry to being unable to select this company as his investment bet.",
+      "evidence": [
+        "I'd have to understand the industry a lot better to say like, my one bet is this person."
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 158,
+          "speaker": "Rohit",
+          "quote": "I'd have to understand the industry a lot better to say like, my one bet is this person."
+        }
+      ],
+      "activation": "evaluated",
+      "source_rationale_id": "R9",
+      "utterance_kind": "decision_explanation",
+      "decision_support": "supports_out",
+      "all_mention_ids": [
+        "R9"
+      ]
+    },
+    {
+      "rationale_label": "product_differentiation_concern",
+      "direction": "negative",
+      "salience": "primary",
+      "confidence": 0.99,
+      "utterance_type": "assessment",
+      "decision_link": "none",
+      "timing": "original_pitch",
+      "turn_index": 53,
+      "quote": "I just don't see why they wouldn't do this themselves.",
+      "explanation": "He directly questions the offering's defensibility against manufacturers developing the same capability internally.",
+      "evidence": [
+        "I just don't see why they wouldn't do this themselves."
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 53,
+          "speaker": "Rohit",
+          "quote": "I just don't see why they wouldn't do this themselves."
+        }
+      ],
+      "activation": "evaluated",
+      "source_rationale_id": "R4",
+      "utterance_kind": "concern",
+      "decision_support": "none",
+      "all_mention_ids": [
+        "R1",
+        "R3",
+        "R4"
+      ]
+    },
+    {
+      "rationale_label": "solution_feasibility_assessment",
+      "direction": "positive",
+      "salience": "secondary",
+      "confidence": 0.99,
+      "utterance_type": "assessment",
+      "decision_link": "none",
+      "timing": "original_pitch",
+      "turn_index": 57,
+      "quote": "one to one is really fast. That's crazy impressive.",
+      "explanation": "He positively assesses the claimed one-example training performance as technically impressive.",
+      "evidence": [
+        "one to one is really fast. That's crazy impressive."
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 57,
+          "speaker": "Rohit",
+          "quote": "one to one is really fast. That's crazy impressive."
+        }
+      ],
+      "activation": "evaluated",
+      "source_rationale_id": "R6",
+      "utterance_kind": "assessment",
+      "decision_support": "none",
+      "all_mention_ids": [
+        "R2",
+        "R5",
+        "R6",
+        "R7"
+      ]
+    }
+  ],
+  "later_rationales": [],
+  "excluded_rationales": [],
+  "rationale_mentions": [
+    {
+      "rationale_label": "product_differentiation_concern",
+      "direction": "neutral",
+      "salience": "secondary",
+      "confidence": 0.97,
+      "utterance_type": "question",
+      "decision_link": "none",
+      "timing": "original_pitch",
+      "turn_index": 45,
+      "quote": "How come manufacturers aren't doing this themselves?",
+      "explanation": "Rohit probes whether robot manufacturers could develop the capability internally instead of relying on Cosmic Brain.",
+      "evidence": [
+        "How come manufacturers aren't doing this themselves?"
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 45,
+          "speaker": "Rohit",
+          "quote": "How come manufacturers aren't doing this themselves?"
+        }
+      ],
+      "activation": "queried",
+      "source_rationale_id": "R1"
+    },
+    {
+      "rationale_label": "solution_feasibility_assessment",
+      "direction": "negative",
+      "salience": "secondary",
+      "confidence": 0.93,
+      "utterance_type": "concern",
+      "decision_link": "none",
+      "timing": "original_pitch",
+      "turn_index": 49,
+      "quote": "'cause I'm sure you don't have thousands of GPUs",
+      "explanation": "He questions whether the startup possesses the computing resources that the founder has described as necessary.",
+      "evidence": [
+        "'cause I'm sure you don't have thousands of GPUs"
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 49,
+          "speaker": "Rohit",
+          "quote": "'cause I'm sure you don't have thousands of GPUs"
+        }
+      ],
+      "activation": "evaluated",
+      "source_rationale_id": "R2"
+    },
+    {
+      "rationale_label": "product_differentiation_concern",
+      "direction": "neutral",
+      "salience": "secondary",
+      "confidence": 0.97,
+      "utterance_type": "question",
+      "decision_link": "none",
+      "timing": "original_pitch",
+      "turn_index": 51,
+      "quote": "if I'm a robot manufacturer, it is in my best interest to shorten these training times, right?",
+      "explanation": "He tests whether manufacturers' incentive to improve training would lead them to build the solution themselves.",
+      "evidence": [
+        "if I'm a robot manufacturer, it is in my best interest to shorten these training times, right?"
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 51,
+          "speaker": "Rohit",
+          "quote": "if I'm a robot manufacturer, it is in my best interest to shorten these training times, right?"
+        }
+      ],
+      "activation": "queried",
+      "source_rationale_id": "R3"
+    },
+    {
+      "rationale_label": "product_differentiation_concern",
+      "direction": "negative",
+      "salience": "primary",
+      "confidence": 0.99,
+      "utterance_type": "concern",
+      "decision_link": "none",
+      "timing": "original_pitch",
+      "turn_index": 53,
+      "quote": "I just don't see why they wouldn't do this themselves.",
+      "explanation": "He directly questions the offering's defensibility against manufacturers developing the same capability internally.",
+      "evidence": [
+        "I just don't see why they wouldn't do this themselves."
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 53,
+          "speaker": "Rohit",
+          "quote": "I just don't see why they wouldn't do this themselves."
+        }
+      ],
+      "activation": "evaluated",
+      "source_rationale_id": "R4"
+    },
+    {
+      "rationale_label": "solution_feasibility_assessment",
+      "direction": "neutral",
+      "salience": "secondary",
+      "confidence": 0.97,
+      "utterance_type": "question",
+      "decision_link": "none",
+      "timing": "original_pitch",
+      "turn_index": 55,
+      "quote": "How much video does it take to train a new skill?",
+      "explanation": "He probes the amount of training data required for the proposed solution to produce a new robot skill.",
+      "evidence": [
+        "How much video does it take to train a new skill?"
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 55,
+          "speaker": "Rohit",
+          "quote": "How much video does it take to train a new skill?"
+        }
+      ],
+      "activation": "queried",
+      "source_rationale_id": "R5"
+    },
+    {
+      "rationale_label": "solution_feasibility_assessment",
+      "direction": "positive",
+      "salience": "secondary",
+      "confidence": 0.99,
+      "utterance_type": "assessment",
+      "decision_link": "none",
+      "timing": "original_pitch",
+      "turn_index": 57,
+      "quote": "one to one is really fast. That's crazy impressive.",
+      "explanation": "He positively assesses the claimed one-example training performance as technically impressive.",
+      "evidence": [
+        "one to one is really fast. That's crazy impressive."
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 57,
+          "speaker": "Rohit",
+          "quote": "one to one is really fast. That's crazy impressive."
+        }
+      ],
+      "activation": "evaluated",
+      "source_rationale_id": "R6"
+    },
+    {
+      "rationale_label": "solution_feasibility_assessment",
+      "direction": "neutral",
+      "salience": "secondary",
+      "confidence": 0.94,
+      "utterance_type": "question",
+      "decision_link": "none",
+      "timing": "original_pitch",
+      "turn_index": 89,
+      "quote": "Will you have product in a couple months?",
+      "explanation": "He probes whether a usable product will exist on the timeline when the founder expects the POCs to become customers.",
+      "evidence": [
+        "Will you have product in a couple months?"
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 89,
+          "speaker": "Rohit",
+          "quote": "Will you have product in a couple months?"
+        }
+      ],
+      "activation": "queried",
+      "source_rationale_id": "R7"
+    },
+    {
+      "rationale_label": "founder_qualities",
+      "direction": "positive",
+      "salience": "secondary",
+      "confidence": 0.96,
+      "utterance_type": "assessment",
+      "decision_link": "none",
+      "timing": "original_pitch",
+      "turn_index": 158,
+      "quote": "I think I'd just be betting on you, which is kind of where I like to be.",
+      "explanation": "Rohit expresses positive conviction in the founder personally despite uncertainty about identifying the category winner.",
+      "evidence": [
+        "I think I'd just be betting on you, which is kind of where I like to be."
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 158,
+          "speaker": "Rohit",
+          "quote": "I think I'd just be betting on you, which is kind of where I like to be."
+        }
+      ],
+      "activation": "evaluated",
+      "source_rationale_id": "R8"
+    },
+    {
+      "rationale_label": "investor_domain_knowledge_constraint",
+      "direction": "negative",
+      "salience": "primary",
+      "confidence": 0.99,
+      "utterance_type": "decision_explanation",
+      "decision_link": "supports_out",
+      "timing": "original_pitch",
+      "turn_index": 158,
+      "quote": "I'd have to understand the industry a lot better to say like, my one bet is this person.",
+      "explanation": "He links his insufficient understanding of the robotics industry to being unable to select this company as his investment bet.",
+      "evidence": [
+        "I'd have to understand the industry a lot better to say like, my one bet is this person."
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 158,
+          "speaker": "Rohit",
+          "quote": "I'd have to understand the industry a lot better to say like, my one bet is this person."
+        }
+      ],
+      "activation": "evaluated",
+      "source_rationale_id": "R9"
+    }
+  ],
+  "expanded_quote_evidence": [],
+  "rejected_after_evidence_check": []
+}

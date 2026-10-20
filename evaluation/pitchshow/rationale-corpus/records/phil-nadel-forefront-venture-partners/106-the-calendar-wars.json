@@ -1,0 +1,682 @@
+{
+  "schema": "phase1-rationale-reference-v1",
+  "extraction_version": "pitchshow-rationales-v1",
+  "fingerprint": "e8a83591c2ce5e8d98de3f1b27f900d8bdf8d7c86d39bff74dc648646f3e561e",
+  "episode_slug": "106-the-calendar-wars",
+  "vc_slug": "phil-nadel-forefront-venture-partners",
+  "vc_name": "Phil Nadel",
+  "actual_decision": "Out",
+  "later_decision": "Out",
+  "reference_kind": "automated_transcript_observed_candidate",
+  "human_validated": false,
+  "source_format": "transcript-observed-rationales-v1",
+  "source_path": "/home/dpasch01/vclogic-vc-agentic-assessment/evaluation/pitchshow/investors/phil-nadel-forefront-venture-partners/source/episodes/106-the-calendar-wars.json",
+  "source_sha256": "7aad92fe1c2d5b41661b0e0a9946c097786b085be2218850e28e24a614711af4",
+  "transcript_sha256": "143148e413932a543c09e751f781465a6764cb2598d9f852a57ee210817f48c1",
+  "taxonomy_sha256": "eaa8734819a3ac34dd19ee5f0bf6de925a793a1d25a2d361090dafc9b751e1fc",
+  "model": "codex:gpt-5.6-luna+gpt-5.6-sol",
+  "generation_stages": [
+    {
+      "phase": "rationale_extract",
+      "backend": "codex",
+      "model": "gpt-5.6-luna"
+    },
+    {
+      "phase": "rationale_verify",
+      "backend": "codex",
+      "model": "gpt-5.6-sol"
+    }
+  ],
+  "source_tier": "newly_extracted_and_independently_model_reviewed",
+  "reviewed_target_turns": [
+    3,
+    10,
+    23,
+    25,
+    27,
+    29,
+    37,
+    48,
+    56,
+    72,
+    88,
+    91,
+    93,
+    101,
+    121,
+    128,
+    133,
+    145,
+    147,
+    164,
+    166,
+    168,
+    175,
+    190,
+    200,
+    202,
+    210
+  ],
+  "notes": "All supplied target turns were reviewed exactly once; greetings, simple confirmations, incomplete remarks, and investment interest without a taxonomy-supported reason were omitted.",
+  "receipt_path": "/home/dpasch01/vclogic-vc-agentic-assessment/evaluation/pitchshow/investors/phil-nadel-forefront-venture-partners/rationale-references/receipts/106-the-calendar-wars.json",
+  "scoring_scope": "original_pitch_only",
+  "shared_across_input_modes": true,
+  "rationales": [
+    {
+      "rationale_label": "business_model_assessment",
+      "direction": "positive",
+      "salience": "secondary",
+      "confidence": 0.98,
+      "utterance_type": "assessment",
+      "decision_link": "none",
+      "timing": "original_pitch",
+      "turn_index": 91,
+      "quote": "your free trial to paid conversion rate is good. 11%'s not bad.",
+      "explanation": "Phil treats the free-to-paid conversion rate as a favorable monetization signal.",
+      "evidence": [
+        "your free trial to paid conversion rate is good. 11%'s not bad."
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 91,
+          "speaker": "Phil",
+          "quote": "your free trial to paid conversion rate is good. 11%'s not bad."
+        }
+      ],
+      "activation": "evaluated",
+      "source_rationale_id": "R11",
+      "utterance_kind": "supporting_argument",
+      "decision_support": "none",
+      "all_mention_ids": [
+        "R6",
+        "R11"
+      ]
+    },
+    {
+      "rationale_label": "fundraising_demand_signal",
+      "direction": "neutral",
+      "salience": "secondary",
+      "confidence": 0.96,
+      "utterance_type": "question",
+      "decision_link": "none",
+      "timing": "original_pitch",
+      "turn_index": 88,
+      "quote": "Who committed the 600,000? Is that an institutional investor? Or friends?",
+      "explanation": "Phil probes the source and quality of the company's existing financing commitments.",
+      "evidence": [
+        "Who committed the 600,000? Is that an institutional investor? Or friends?"
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 88,
+          "speaker": "Phil",
+          "quote": "Who committed the 600,000? Is that an institutional investor? Or friends?"
+        }
+      ],
+      "activation": "queried",
+      "source_rationale_id": "R8",
+      "utterance_kind": "question",
+      "decision_support": "none",
+      "all_mention_ids": [
+        "R8"
+      ]
+    },
+    {
+      "rationale_label": "go_to_market_strategy_assessment",
+      "direction": "neutral",
+      "salience": "secondary",
+      "confidence": 0.99,
+      "utterance_type": "question",
+      "decision_link": "none",
+      "timing": "original_pitch",
+      "turn_index": 56,
+      "quote": "How are you acquiring customers now?",
+      "explanation": "Phil asks about Dotcal's current customer-acquisition motion.",
+      "evidence": [
+        "How are you acquiring customers now?"
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 56,
+          "speaker": "Phil",
+          "quote": "How are you acquiring customers now?"
+        }
+      ],
+      "activation": "queried",
+      "source_rationale_id": "R7",
+      "utterance_kind": "question",
+      "decision_support": "none",
+      "all_mention_ids": [
+        "R7"
+      ]
+    },
+    {
+      "rationale_label": "market_problem_validation",
+      "direction": "neutral",
+      "salience": "secondary",
+      "confidence": 0.95,
+      "utterance_type": "question",
+      "decision_link": "none",
+      "timing": "original_pitch",
+      "turn_index": 29,
+      "quote": "so the 25% lift is in a marketing context?",
+      "explanation": "Phil clarifies the use-case context in which Dotcal's claimed conversion benefit exists.",
+      "evidence": [
+        "Do you have any statistics about what the conversion rates are, like on Calendly?",
+        "what are the numbers on that?",
+        "so the 25% lift is in a marketing context?"
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 25,
+          "speaker": "Phil",
+          "quote": "Do you have any statistics about what the conversion rates are, like on Calendly?"
+        },
+        {
+          "turn_index": 27,
+          "speaker": "Phil",
+          "quote": "what are the numbers on that?"
+        },
+        {
+          "turn_index": 29,
+          "speaker": "Phil",
+          "quote": "so the 25% lift is in a marketing context?"
+        }
+      ],
+      "activation": "queried",
+      "source_rationale_id": "R4",
+      "utterance_kind": "question",
+      "decision_support": "none",
+      "all_mention_ids": [
+        "R2",
+        "R3",
+        "R4"
+      ]
+    },
+    {
+      "rationale_label": "product_adoption",
+      "direction": "positive",
+      "salience": "secondary",
+      "confidence": 0.9,
+      "utterance_type": "assessment",
+      "decision_link": "none",
+      "timing": "original_pitch",
+      "turn_index": 145,
+      "quote": "That's a good endorsement.",
+      "explanation": "Phil treats a current user's favorable comparison and continued use of Dotcal as positive product validation.",
+      "evidence": [
+        "That's a good endorsement."
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 145,
+          "speaker": "Phil",
+          "quote": "That's a good endorsement."
+        }
+      ],
+      "activation": "evaluated",
+      "source_rationale_id": "R13",
+      "utterance_kind": "assessment",
+      "decision_support": "none",
+      "all_mention_ids": [
+        "R13"
+      ]
+    },
+    {
+      "rationale_label": "product_differentiation_concern",
+      "direction": "positive",
+      "salience": "secondary",
+      "confidence": 0.98,
+      "utterance_type": "assessment",
+      "decision_link": "none",
+      "timing": "original_pitch",
+      "turn_index": 91,
+      "quote": "some really interesting product innovations that would differentiate you from some of the other companies out there",
+      "explanation": "Phil positively assesses Dotcal's product innovations as differentiated from competing offerings.",
+      "evidence": [
+        "some really interesting product innovations that would differentiate you from some of the other companies out there"
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 91,
+          "speaker": "Phil",
+          "quote": "some really interesting product innovations that would differentiate you from some of the other companies out there"
+        }
+      ],
+      "activation": "evaluated",
+      "source_rationale_id": "R9",
+      "utterance_kind": "supporting_argument",
+      "decision_support": "none",
+      "all_mention_ids": [
+        "R1",
+        "R5",
+        "R9"
+      ]
+    },
+    {
+      "rationale_label": "traction_repeatability_concern",
+      "direction": "negative",
+      "salience": "primary",
+      "confidence": 0.99,
+      "utterance_type": "decision_reason",
+      "decision_link": "explicit",
+      "timing": "original_pitch",
+      "turn_index": 91,
+      "quote": "The struggle I have is just that it's very, very early. You know, at only a few hundred paid users at this point.",
+      "explanation": "Phil declines at the current stage because the company has only a few hundred paying users, while expressing interest in a later round.",
+      "evidence": [
+        "The struggle I have is just that it's very, very early. You know, at only a few hundred paid users at this point."
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 91,
+          "speaker": "Phil",
+          "quote": "The struggle I have is just that it's very, very early. You know, at only a few hundred paid users at this point."
+        }
+      ],
+      "activation": "evaluated",
+      "source_rationale_id": "R12",
+      "utterance_kind": "decision_explanation",
+      "decision_support": "supports_out",
+      "all_mention_ids": [
+        "R12"
+      ]
+    },
+    {
+      "rationale_label": "unit_economics_assessment",
+      "direction": "positive",
+      "salience": "secondary",
+      "confidence": 0.97,
+      "utterance_type": "assessment",
+      "decision_link": "none",
+      "timing": "original_pitch",
+      "turn_index": 91,
+      "quote": "businesses that can scale quickly with that kind of network effect",
+      "explanation": "Phil views Dotcal's network-driven, self-reinforcing acquisition dynamics as attractive for efficient scaling.",
+      "evidence": [
+        "businesses that can scale quickly with that kind of network effect"
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 91,
+          "speaker": "Phil",
+          "quote": "businesses that can scale quickly with that kind of network effect"
+        }
+      ],
+      "activation": "evaluated",
+      "source_rationale_id": "R10",
+      "utterance_kind": "supporting_argument",
+      "decision_support": "none",
+      "all_mention_ids": [
+        "R10"
+      ]
+    }
+  ],
+  "later_rationales": [
+    {
+      "rationale_label": "capital_intensity_concern",
+      "direction": "neutral",
+      "salience": "secondary",
+      "confidence": 0.93,
+      "utterance_type": "question",
+      "decision_link": "none",
+      "timing": "later_commentary",
+      "turn_index": 190,
+      "quote": "How much runway does it give you? the million?",
+      "explanation": "Phil asks how long the proposed financing will support the company, probing its ongoing capital requirements.",
+      "evidence": [
+        "How much runway does it give you? the million?"
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 190,
+          "speaker": "Phil",
+          "quote": "How much runway does it give you? the million?"
+        }
+      ],
+      "activation": "queried",
+      "source_rationale_id": "R14"
+    },
+    {
+      "rationale_label": "stage_valuation_mismatch",
+      "direction": "negative",
+      "salience": "primary",
+      "confidence": 0.99,
+      "utterance_type": "decision_explanation",
+      "decision_link": "supports_out",
+      "timing": "later_commentary",
+      "turn_index": 202,
+      "quote": "just out of beta, 5000 a month in revenue, 15 million dollar valuation - I just can't",
+      "explanation": "Phil refuses to invest because the $15 million valuation is too high relative to Dotcal's beta-stage product and limited revenue.",
+      "evidence": [
+        "just out of beta, 5000 a month in revenue, 15 million dollar valuation - I just can't"
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 202,
+          "speaker": "Phil",
+          "quote": "just out of beta, 5000 a month in revenue, 15 million dollar valuation - I just can't"
+        }
+      ],
+      "activation": "evaluated",
+      "source_rationale_id": "R15"
+    }
+  ],
+  "excluded_rationales": [],
+  "rationale_mentions": [
+    {
+      "rationale_label": "product_differentiation_concern",
+      "direction": "neutral",
+      "salience": "secondary",
+      "confidence": 0.98,
+      "utterance_type": "question",
+      "decision_link": "none",
+      "timing": "original_pitch",
+      "turn_index": 23,
+      "quote": "how you're differentiating from Calendly and some of the others that are out there?",
+      "explanation": "Phil asks how Dotcal differs from competing scheduling products.",
+      "evidence": [
+        "how you're differentiating from Calendly and some of the others that are out there?"
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 23,
+          "speaker": "Phil",
+          "quote": "how you're differentiating from Calendly and some of the others that are out there?"
+        }
+      ],
+      "activation": "queried",
+      "source_rationale_id": "R1"
+    },
+    {
+      "rationale_label": "market_problem_validation",
+      "direction": "neutral",
+      "salience": "secondary",
+      "confidence": 0.97,
+      "utterance_type": "question",
+      "decision_link": "none",
+      "timing": "original_pitch",
+      "turn_index": 25,
+      "quote": "Do you have any statistics about what the conversion rates are, like on Calendly?",
+      "explanation": "Phil probes whether existing scheduling conversion leaves a meaningful problem for Dotcal to solve.",
+      "evidence": [
+        "Do you have any statistics about what the conversion rates are, like on Calendly?"
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 25,
+          "speaker": "Phil",
+          "quote": "Do you have any statistics about what the conversion rates are, like on Calendly?"
+        }
+      ],
+      "activation": "queried",
+      "source_rationale_id": "R2"
+    },
+    {
+      "rationale_label": "market_problem_validation",
+      "direction": "neutral",
+      "salience": "secondary",
+      "confidence": 0.96,
+      "utterance_type": "question",
+      "decision_link": "none",
+      "timing": "original_pitch",
+      "turn_index": 27,
+      "quote": "what are the numbers on that?",
+      "explanation": "Phil requests quantitative evidence that the claimed conversion problem is material.",
+      "evidence": [
+        "what are the numbers on that?"
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 27,
+          "speaker": "Phil",
+          "quote": "what are the numbers on that?"
+        }
+      ],
+      "activation": "queried",
+      "source_rationale_id": "R3"
+    },
+    {
+      "rationale_label": "market_problem_validation",
+      "direction": "neutral",
+      "salience": "secondary",
+      "confidence": 0.95,
+      "utterance_type": "question",
+      "decision_link": "none",
+      "timing": "original_pitch",
+      "turn_index": 29,
+      "quote": "so the 25% lift is in a marketing context?",
+      "explanation": "Phil clarifies the use-case context in which Dotcal's claimed conversion benefit exists.",
+      "evidence": [
+        "so the 25% lift is in a marketing context?"
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 29,
+          "speaker": "Phil",
+          "quote": "so the 25% lift is in a marketing context?"
+        }
+      ],
+      "activation": "queried",
+      "source_rationale_id": "R4"
+    },
+    {
+      "rationale_label": "product_differentiation_concern",
+      "direction": "neutral",
+      "salience": "secondary",
+      "confidence": 0.97,
+      "utterance_type": "question",
+      "decision_link": "none",
+      "timing": "original_pitch",
+      "turn_index": 37,
+      "quote": "So is that a similar function?",
+      "explanation": "Phil checks whether Dotcal's shared-scheduling feature overlaps with a competing product.",
+      "evidence": [
+        "So is that a similar function?"
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 37,
+          "speaker": "Phil",
+          "quote": "So is that a similar function?"
+        }
+      ],
+      "activation": "queried",
+      "source_rationale_id": "R5"
+    },
+    {
+      "rationale_label": "business_model_assessment",
+      "direction": "neutral",
+      "salience": "secondary",
+      "confidence": 0.99,
+      "utterance_type": "question",
+      "decision_link": "none",
+      "timing": "original_pitch",
+      "turn_index": 48,
+      "quote": "So can you talk a little bit about your revenue model and how that works?",
+      "explanation": "Phil requests details about Dotcal's monetization model.",
+      "evidence": [
+        "So can you talk a little bit about your revenue model and how that works?"
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 48,
+          "speaker": "Phil",
+          "quote": "So can you talk a little bit about your revenue model and how that works?"
+        }
+      ],
+      "activation": "queried",
+      "source_rationale_id": "R6"
+    },
+    {
+      "rationale_label": "go_to_market_strategy_assessment",
+      "direction": "neutral",
+      "salience": "secondary",
+      "confidence": 0.99,
+      "utterance_type": "question",
+      "decision_link": "none",
+      "timing": "original_pitch",
+      "turn_index": 56,
+      "quote": "How are you acquiring customers now?",
+      "explanation": "Phil asks about Dotcal's current customer-acquisition motion.",
+      "evidence": [
+        "How are you acquiring customers now?"
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 56,
+          "speaker": "Phil",
+          "quote": "How are you acquiring customers now?"
+        }
+      ],
+      "activation": "queried",
+      "source_rationale_id": "R7"
+    },
+    {
+      "rationale_label": "fundraising_demand_signal",
+      "direction": "neutral",
+      "salience": "secondary",
+      "confidence": 0.96,
+      "utterance_type": "question",
+      "decision_link": "none",
+      "timing": "original_pitch",
+      "turn_index": 88,
+      "quote": "Who committed the 600,000? Is that an institutional investor? Or friends?",
+      "explanation": "Phil probes the source and quality of the company's existing financing commitments.",
+      "evidence": [
+        "Who committed the 600,000? Is that an institutional investor? Or friends?"
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 88,
+          "speaker": "Phil",
+          "quote": "Who committed the 600,000? Is that an institutional investor? Or friends?"
+        }
+      ],
+      "activation": "queried",
+      "source_rationale_id": "R8"
+    },
+    {
+      "rationale_label": "product_differentiation_concern",
+      "direction": "positive",
+      "salience": "secondary",
+      "confidence": 0.98,
+      "utterance_type": "supporting_argument",
+      "decision_link": "none",
+      "timing": "original_pitch",
+      "turn_index": 91,
+      "quote": "some really interesting product innovations that would differentiate you from some of the other companies out there",
+      "explanation": "Phil positively assesses Dotcal's product innovations as differentiated from competing offerings.",
+      "evidence": [
+        "some really interesting product innovations that would differentiate you from some of the other companies out there"
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 91,
+          "speaker": "Phil",
+          "quote": "some really interesting product innovations that would differentiate you from some of the other companies out there"
+        }
+      ],
+      "activation": "evaluated",
+      "source_rationale_id": "R9"
+    },
+    {
+      "rationale_label": "unit_economics_assessment",
+      "direction": "positive",
+      "salience": "secondary",
+      "confidence": 0.97,
+      "utterance_type": "supporting_argument",
+      "decision_link": "none",
+      "timing": "original_pitch",
+      "turn_index": 91,
+      "quote": "businesses that can scale quickly with that kind of network effect",
+      "explanation": "Phil views Dotcal's network-driven, self-reinforcing acquisition dynamics as attractive for efficient scaling.",
+      "evidence": [
+        "businesses that can scale quickly with that kind of network effect"
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 91,
+          "speaker": "Phil",
+          "quote": "businesses that can scale quickly with that kind of network effect"
+        }
+      ],
+      "activation": "evaluated",
+      "source_rationale_id": "R10"
+    },
+    {
+      "rationale_label": "business_model_assessment",
+      "direction": "positive",
+      "salience": "secondary",
+      "confidence": 0.98,
+      "utterance_type": "supporting_argument",
+      "decision_link": "none",
+      "timing": "original_pitch",
+      "turn_index": 91,
+      "quote": "your free trial to paid conversion rate is good. 11%'s not bad.",
+      "explanation": "Phil treats the free-to-paid conversion rate as a favorable monetization signal.",
+      "evidence": [
+        "your free trial to paid conversion rate is good. 11%'s not bad."
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 91,
+          "speaker": "Phil",
+          "quote": "your free trial to paid conversion rate is good. 11%'s not bad."
+        }
+      ],
+      "activation": "evaluated",
+      "source_rationale_id": "R11"
+    },
+    {
+      "rationale_label": "traction_repeatability_concern",
+      "direction": "negative",
+      "salience": "primary",
+      "confidence": 0.99,
+      "utterance_type": "decision_explanation",
+      "decision_link": "supports_out",
+      "timing": "original_pitch",
+      "turn_index": 91,
+      "quote": "The struggle I have is just that it's very, very early. You know, at only a few hundred paid users at this point.",
+      "explanation": "Phil declines at the current stage because the company has only a few hundred paying users, while expressing interest in a later round.",
+      "evidence": [
+        "The struggle I have is just that it's very, very early. You know, at only a few hundred paid users at this point."
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 91,
+          "speaker": "Phil",
+          "quote": "The struggle I have is just that it's very, very early. You know, at only a few hundred paid users at this point."
+        }
+      ],
+      "activation": "evaluated",
+      "source_rationale_id": "R12"
+    },
+    {
+      "rationale_label": "product_adoption",
+      "direction": "positive",
+      "salience": "secondary",
+      "confidence": 0.9,
+      "utterance_type": "assessment",
+      "decision_link": "none",
+      "timing": "original_pitch",
+      "turn_index": 145,
+      "quote": "That's a good endorsement.",
+      "explanation": "Phil treats a current user's favorable comparison and continued use of Dotcal as positive product validation.",
+      "evidence": [
+        "That's a good endorsement."
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 145,
+          "speaker": "Phil",
+          "quote": "That's a good endorsement."
+        }
+      ],
+      "activation": "evaluated",
+      "source_rationale_id": "R13"
+    }
+  ],
+  "expanded_quote_evidence": [],
+  "rejected_after_evidence_check": []
+}

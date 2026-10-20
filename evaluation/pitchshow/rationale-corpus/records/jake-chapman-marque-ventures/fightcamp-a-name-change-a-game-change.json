@@ -1,0 +1,354 @@
+{
+  "schema": "phase1-rationale-reference-v1",
+  "extraction_version": "pitchshow-rationales-v1",
+  "fingerprint": "7cc061e8eb6b4af66e09cedd59446bb2397a9899b823a6183be25e835aa31c03",
+  "episode_slug": "fightcamp-a-name-change-a-game-change",
+  "vc_slug": "jake-chapman-marque-ventures",
+  "vc_name": "Jake Chapman",
+  "actual_decision": "In",
+  "later_decision": "In",
+  "reference_kind": "automated_transcript_observed_candidate",
+  "human_validated": false,
+  "source_format": "transcript-observed-rationales-v1",
+  "source_path": "/home/dpasch01/vclogic-vc-agentic-assessment/evaluation/pitchshow/investors/jake-chapman-marque-ventures/source/episodes/fightcamp-a-name-change-a-game-change.json",
+  "source_sha256": "8d6ffc457997876bcb552c0dbb565244aba90ff18a4151a4ef7c68e61c2faaed",
+  "transcript_sha256": "c1f92253bd560efd6668eb1a05b92b110f7e3450d251047193fb18bc8d3db5b5",
+  "taxonomy_sha256": "eaa8734819a3ac34dd19ee5f0bf6de925a793a1d25a2d361090dafc9b751e1fc",
+  "model": "codex:gpt-5.6-luna+gpt-5.6-sol",
+  "generation_stages": [
+    {
+      "phase": "rationale_extract",
+      "backend": "codex",
+      "model": "gpt-5.6-luna"
+    },
+    {
+      "phase": "rationale_verify",
+      "backend": "codex",
+      "model": "gpt-5.6-sol"
+    }
+  ],
+  "source_tier": "newly_extracted_and_independently_model_reviewed",
+  "reviewed_target_turns": [
+    7,
+    30,
+    85,
+    151,
+    153,
+    155,
+    161,
+    177,
+    178,
+    181,
+    252,
+    254,
+    257,
+    259,
+    261,
+    263,
+    270,
+    273,
+    278
+  ],
+  "notes": "Turn 7 is an opening preview and therefore classified as teaser. Decision linkage was not assigned where the eligible attributed_text did not itself link the rationale to Jake's commitment; the remaining reviewed turns were jokes, confirmations, negotiation logistics, or otherwise lacked a distinct taxonomy-grounded rationale.",
+  "receipt_path": "/home/dpasch01/vclogic-vc-agentic-assessment/evaluation/pitchshow/investors/jake-chapman-marque-ventures/rationale-references/receipts/fightcamp-a-name-change-a-game-change.json",
+  "scoring_scope": "original_pitch_only",
+  "shared_across_input_modes": true,
+  "rationales": [
+    {
+      "rationale_label": "founder_execution",
+      "direction": "positive",
+      "salience": "secondary",
+      "confidence": 0.99,
+      "utterance_type": "assessment",
+      "decision_link": "none",
+      "timing": "original_pitch",
+      "turn_index": 161,
+      "quote": "I like you guys are being scrappy with the cash flow.",
+      "explanation": "Jake positively assesses the founders' resourcefulness in financing development and generating pre-sales.",
+      "evidence": [
+        "I like you guys are being scrappy with the cash flow."
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 161,
+          "speaker": "Jake",
+          "quote": "I like you guys are being scrappy with the cash flow."
+        }
+      ],
+      "activation": "evaluated",
+      "source_rationale_id": "R4",
+      "utterance_kind": "supporting_argument",
+      "decision_support": "none",
+      "all_mention_ids": [
+        "R4"
+      ]
+    },
+    {
+      "rationale_label": "investment_upside_assessment",
+      "direction": "positive",
+      "salience": "secondary",
+      "confidence": 0.9,
+      "utterance_type": "assessment",
+      "decision_link": "none",
+      "timing": "original_pitch",
+      "turn_index": 278,
+      "quote": "Howie’s gonna lose out on this one.",
+      "explanation": "Jake indicates that he expects the investment opportunity to perform well enough that the investor who passed will regret missing it.",
+      "evidence": [
+        "Howie’s gonna lose out on this one."
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 278,
+          "speaker": "Jake",
+          "quote": "Howie’s gonna lose out on this one."
+        }
+      ],
+      "activation": "evaluated",
+      "source_rationale_id": "R6",
+      "utterance_kind": "assessment",
+      "decision_support": "none",
+      "all_mention_ids": [
+        "R6"
+      ]
+    },
+    {
+      "rationale_label": "investor_experience_bias",
+      "direction": "positive",
+      "salience": "secondary",
+      "confidence": 0.95,
+      "utterance_type": "assessment",
+      "decision_link": "none",
+      "timing": "original_pitch",
+      "turn_index": 178,
+      "quote": "You know, I do box for fitness.",
+      "explanation": "Jake invokes his personal experience with fitness boxing as context for his favorable assessment of the opportunity.",
+      "evidence": [
+        "You know, I do box for fitness."
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 178,
+          "speaker": "Jake",
+          "quote": "You know, I do box for fitness."
+        }
+      ],
+      "activation": "evaluated",
+      "source_rationale_id": "R5",
+      "utterance_kind": "supporting_argument",
+      "decision_support": "none",
+      "all_mention_ids": [
+        "R5"
+      ]
+    },
+    {
+      "rationale_label": "solution_feasibility_assessment",
+      "direction": "neutral",
+      "salience": "secondary",
+      "confidence": 0.96,
+      "utterance_type": "question",
+      "decision_link": "none",
+      "timing": "original_pitch",
+      "turn_index": 155,
+      "quote": "I mean, in terms of hardware development, it's basically just, it's done, right?",
+      "explanation": "Jake seeks confirmation that hardware development is complete and the product is ready for manufacturing.",
+      "evidence": [
+        "I mean, in terms of hardware development, it's basically just, it's done, right?"
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 155,
+          "speaker": "Jake",
+          "quote": "I mean, in terms of hardware development, it's basically just, it's done, right?"
+        }
+      ],
+      "activation": "queried",
+      "source_rationale_id": "R3",
+      "utterance_kind": "question",
+      "decision_support": "none",
+      "all_mention_ids": [
+        "R3"
+      ]
+    },
+    {
+      "rationale_label": "unit_economics_assessment",
+      "direction": "neutral",
+      "salience": "secondary",
+      "confidence": 0.96,
+      "utterance_type": "question",
+      "decision_link": "none",
+      "timing": "original_pitch",
+      "turn_index": 151,
+      "quote": "And then what's your cost to make a pair of sensors?",
+      "explanation": "Jake asks about per-unit production cost to assess the hardware economics.",
+      "evidence": [
+        "And then what's your cost to make a pair of sensors?"
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 151,
+          "speaker": "Jake",
+          "quote": "And then what's your cost to make a pair of sensors?"
+        }
+      ],
+      "activation": "queried",
+      "source_rationale_id": "R2",
+      "utterance_kind": "question",
+      "decision_support": "none",
+      "all_mention_ids": [
+        "R2"
+      ]
+    }
+  ],
+  "later_rationales": [],
+  "excluded_rationales": [
+    {
+      "rationale_label": "execution_risk_assessment",
+      "direction": "negative",
+      "salience": "primary",
+      "confidence": 0.99,
+      "utterance_type": "concern",
+      "decision_link": "none",
+      "timing": "teaser",
+      "turn_index": 7,
+      "quote": "There are a ton, a ton of operational issues that you haven't had to address yet.",
+      "explanation": "Jake raises a major concern that the founders have not yet demonstrated their ability to handle significant operational challenges.",
+      "evidence": [
+        "There are a ton, a ton of operational issues that you haven't had to address yet."
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 7,
+          "speaker": "Jake",
+          "quote": "There are a ton, a ton of operational issues that you haven't had to address yet."
+        }
+      ],
+      "activation": "evaluated",
+      "source_rationale_id": "R1"
+    }
+  ],
+  "rationale_mentions": [
+    {
+      "rationale_label": "unit_economics_assessment",
+      "direction": "neutral",
+      "salience": "secondary",
+      "confidence": 0.96,
+      "utterance_type": "question",
+      "decision_link": "none",
+      "timing": "original_pitch",
+      "turn_index": 151,
+      "quote": "And then what's your cost to make a pair of sensors?",
+      "explanation": "Jake asks about per-unit production cost to assess the hardware economics.",
+      "evidence": [
+        "And then what's your cost to make a pair of sensors?"
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 151,
+          "speaker": "Jake",
+          "quote": "And then what's your cost to make a pair of sensors?"
+        }
+      ],
+      "activation": "queried",
+      "source_rationale_id": "R2"
+    },
+    {
+      "rationale_label": "solution_feasibility_assessment",
+      "direction": "neutral",
+      "salience": "secondary",
+      "confidence": 0.96,
+      "utterance_type": "question",
+      "decision_link": "none",
+      "timing": "original_pitch",
+      "turn_index": 155,
+      "quote": "I mean, in terms of hardware development, it's basically just, it's done, right?",
+      "explanation": "Jake seeks confirmation that hardware development is complete and the product is ready for manufacturing.",
+      "evidence": [
+        "I mean, in terms of hardware development, it's basically just, it's done, right?"
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 155,
+          "speaker": "Jake",
+          "quote": "I mean, in terms of hardware development, it's basically just, it's done, right?"
+        }
+      ],
+      "activation": "queried",
+      "source_rationale_id": "R3"
+    },
+    {
+      "rationale_label": "founder_execution",
+      "direction": "positive",
+      "salience": "secondary",
+      "confidence": 0.99,
+      "utterance_type": "supporting_argument",
+      "decision_link": "none",
+      "timing": "original_pitch",
+      "turn_index": 161,
+      "quote": "I like you guys are being scrappy with the cash flow.",
+      "explanation": "Jake positively assesses the founders' resourcefulness in financing development and generating pre-sales.",
+      "evidence": [
+        "I like you guys are being scrappy with the cash flow."
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 161,
+          "speaker": "Jake",
+          "quote": "I like you guys are being scrappy with the cash flow."
+        }
+      ],
+      "activation": "evaluated",
+      "source_rationale_id": "R4"
+    },
+    {
+      "rationale_label": "investor_experience_bias",
+      "direction": "positive",
+      "salience": "secondary",
+      "confidence": 0.95,
+      "utterance_type": "supporting_argument",
+      "decision_link": "none",
+      "timing": "original_pitch",
+      "turn_index": 178,
+      "quote": "You know, I do box for fitness.",
+      "explanation": "Jake invokes his personal experience with fitness boxing as context for his favorable assessment of the opportunity.",
+      "evidence": [
+        "You know, I do box for fitness."
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 178,
+          "speaker": "Jake",
+          "quote": "You know, I do box for fitness."
+        }
+      ],
+      "activation": "evaluated",
+      "source_rationale_id": "R5"
+    },
+    {
+      "rationale_label": "investment_upside_assessment",
+      "direction": "positive",
+      "salience": "secondary",
+      "confidence": 0.9,
+      "utterance_type": "assessment",
+      "decision_link": "none",
+      "timing": "original_pitch",
+      "turn_index": 278,
+      "quote": "Howie’s gonna lose out on this one.",
+      "explanation": "Jake indicates that he expects the investment opportunity to perform well enough that the investor who passed will regret missing it.",
+      "evidence": [
+        "Howie’s gonna lose out on this one."
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 278,
+          "speaker": "Jake",
+          "quote": "Howie’s gonna lose out on this one."
+        }
+      ],
+      "activation": "evaluated",
+      "source_rationale_id": "R6"
+    }
+  ],
+  "expanded_quote_evidence": [],
+  "rejected_after_evidence_check": []
+}

@@ -1,0 +1,1177 @@
+{
+  "schema": "phase1-rationale-reference-v1",
+  "extraction_version": "pitchshow-rationales-v1",
+  "fingerprint": "c180e8eebea09023059d8794ff5aec2083686fc1a5fb129291df707598fb3163",
+  "episode_slug": "81-jillian-to-the-rescue",
+  "vc_slug": "michael-hyatt",
+  "vc_name": "Michael Hyatt",
+  "actual_decision": "Out",
+  "later_decision": "Unknown",
+  "reference_kind": "automated_transcript_observed_candidate",
+  "human_validated": false,
+  "source_format": "transcript-observed-rationales-v1",
+  "source_path": "../source/episodes/81-jillian-to-the-rescue.json",
+  "source_sha256": "f46621a1181ae51dfb95527e6935a69a88587889a579d149001c6b3f5a9e377b",
+  "transcript_sha256": "f8d829d480f2c28e1233eb52c993396ec24ef976a864c01b376ee777a04ea964",
+  "taxonomy_sha256": "eaa8734819a3ac34dd19ee5f0bf6de925a793a1d25a2d361090dafc9b751e1fc",
+  "model": "openai/gpt-5.6-luna",
+  "source_tier": "newly_extracted_and_independently_model_reviewed",
+  "reviewed_target_turns": [
+    7,
+    11,
+    13,
+    15,
+    17,
+    19,
+    21,
+    23,
+    25,
+    27,
+    31,
+    40,
+    43,
+    61,
+    63,
+    64,
+    66,
+    69,
+    72,
+    75,
+    79,
+    82,
+    86,
+    88,
+    95,
+    103,
+    105,
+    108,
+    110,
+    112,
+    114,
+    116,
+    118,
+    120,
+    122,
+    124,
+    126,
+    128,
+    131,
+    155,
+    157
+  ],
+  "notes": "All supplied Michael Hyatt target turns were reviewed; turns without a distinct taxonomy-grounded rationale are omitted from the rationale list.",
+  "receipt_path": "receipts/81-jillian-to-the-rescue.json",
+  "scoring_scope": "original_pitch_only",
+  "shared_across_input_modes": true,
+  "rationales": [
+    {
+      "rationale_label": "business_model_assessment",
+      "direction": "negative",
+      "salience": "primary",
+      "confidence": 0.99,
+      "utterance_type": "decision_reason",
+      "decision_link": "explicit",
+      "timing": "original_pitch",
+      "turn_index": 157,
+      "quote": "using tech to rapidly scale your margins",
+      "explanation": "He says technology-driven automation and margin scaling would make the opportunity compelling, but their absence supports his current refusal.",
+      "evidence": [
+        "It's not scalable, right?",
+        "using tech to rapidly scale your margins"
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 103,
+          "speaker": "Michael",
+          "quote": "It's not scalable, right?"
+        },
+        {
+          "turn_index": 157,
+          "speaker": "Michael",
+          "quote": "using tech to rapidly scale your margins"
+        }
+      ],
+      "activation": "evaluated",
+      "source_rationale_id": "R31",
+      "utterance_kind": "decision_explanation",
+      "decision_support": "supports_out",
+      "all_mention_ids": [
+        "R2",
+        "R3",
+        "R4",
+        "R5",
+        "R7",
+        "R20",
+        "R31"
+      ]
+    },
+    {
+      "rationale_label": "competitive_advantage_assessment",
+      "direction": "negative",
+      "salience": "primary",
+      "confidence": 0.97,
+      "utterance_type": "assessment",
+      "decision_link": "none",
+      "timing": "original_pitch",
+      "turn_index": 116,
+      "quote": "data’s worth nothing unless you do something with it.",
+      "explanation": "He argues that accumulating data alone does not create value or defensibility without a demonstrated application.",
+      "evidence": [
+        "data’s worth nothing unless you do something with it.",
+        "Google has the flywheel effect",
+        "That's not it."
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 116,
+          "speaker": "Michael",
+          "quote": "data’s worth nothing unless you do something with it."
+        },
+        {
+          "turn_index": 122,
+          "speaker": "Michael",
+          "quote": "Google has the flywheel effect"
+        },
+        {
+          "turn_index": 128,
+          "speaker": "Michael",
+          "quote": "That's not it."
+        }
+      ],
+      "activation": "evaluated",
+      "source_rationale_id": "R24",
+      "utterance_kind": "supporting_argument",
+      "decision_support": "none",
+      "all_mention_ids": [
+        "R23",
+        "R24",
+        "R25",
+        "R27",
+        "R28",
+        "R29"
+      ]
+    },
+    {
+      "rationale_label": "go_to_market_strategy_assessment",
+      "direction": "neutral",
+      "salience": "secondary",
+      "confidence": 0.93,
+      "utterance_type": "question",
+      "decision_link": "none",
+      "timing": "original_pitch",
+      "turn_index": 88,
+      "quote": "You have to go, you have to go in person?",
+      "explanation": "He probes whether customer acquisition requires a high-touch, in-person sales motion.",
+      "evidence": [
+        "How?",
+        "how do you sign up the restaurants in Chicago?",
+        "how are you finding these restaurants to come on your platform?",
+        "Are you gonna call them?",
+        "how do you then add a client in Chicago?",
+        "You have to go, you have to go in person?"
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 69,
+          "speaker": "Michael",
+          "quote": "How?"
+        },
+        {
+          "turn_index": 72,
+          "speaker": "Michael",
+          "quote": "how do you sign up the restaurants in Chicago?"
+        },
+        {
+          "turn_index": 79,
+          "speaker": "Michael",
+          "quote": "how are you finding these restaurants to come on your platform?"
+        },
+        {
+          "turn_index": 82,
+          "speaker": "Michael",
+          "quote": "Are you gonna call them?"
+        },
+        {
+          "turn_index": 86,
+          "speaker": "Michael",
+          "quote": "how do you then add a client in Chicago?"
+        },
+        {
+          "turn_index": 88,
+          "speaker": "Michael",
+          "quote": "You have to go, you have to go in person?"
+        }
+      ],
+      "activation": "queried",
+      "source_rationale_id": "R19",
+      "utterance_kind": "question",
+      "decision_support": "none",
+      "all_mention_ids": [
+        "R14",
+        "R15",
+        "R16",
+        "R17",
+        "R18",
+        "R19"
+      ]
+    },
+    {
+      "rationale_label": "investment_upside_assessment",
+      "direction": "negative",
+      "salience": "secondary",
+      "confidence": 0.9,
+      "utterance_type": "assessment",
+      "decision_link": "none",
+      "timing": "original_pitch",
+      "turn_index": 118,
+      "quote": "I'm trying to get excited about how you're going to crush the thing",
+      "explanation": "He indicates that the company has not yet presented a compelling path to outsized success.",
+      "evidence": [
+        "I'm trying to get excited about how you're going to crush the thing"
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 118,
+          "speaker": "Michael",
+          "quote": "I'm trying to get excited about how you're going to crush the thing"
+        }
+      ],
+      "activation": "evaluated",
+      "source_rationale_id": "R26",
+      "utterance_kind": "assessment",
+      "decision_support": "none",
+      "all_mention_ids": [
+        "R26"
+      ]
+    },
+    {
+      "rationale_label": "market_entry_path_assessment",
+      "direction": "neutral",
+      "salience": "secondary",
+      "confidence": 0.96,
+      "utterance_type": "question",
+      "decision_link": "none",
+      "timing": "original_pitch",
+      "turn_index": 66,
+      "quote": "How are you going to open up Chicago?",
+      "explanation": "He asks how the company will establish its next city market.",
+      "evidence": [
+        "Are you really just all your revenue right now is Indianapolis?",
+        "Give us your roll out plan of cities you’re going to next.",
+        "What’s your next five cities?",
+        "How are you going to open up Chicago?"
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 61,
+          "speaker": "Michael",
+          "quote": "Are you really just all your revenue right now is Indianapolis?"
+        },
+        {
+          "turn_index": 63,
+          "speaker": "Michael",
+          "quote": "Give us your roll out plan of cities you’re going to next."
+        },
+        {
+          "turn_index": 64,
+          "speaker": "Michael",
+          "quote": "What’s your next five cities?"
+        },
+        {
+          "turn_index": 66,
+          "speaker": "Michael",
+          "quote": "How are you going to open up Chicago?"
+        }
+      ],
+      "activation": "queried",
+      "source_rationale_id": "R13",
+      "utterance_kind": "question",
+      "decision_support": "none",
+      "all_mention_ids": [
+        "R10",
+        "R11",
+        "R12",
+        "R13"
+      ]
+    },
+    {
+      "rationale_label": "product_adoption",
+      "direction": "neutral",
+      "salience": "secondary",
+      "confidence": 0.95,
+      "utterance_type": "question",
+      "decision_link": "none",
+      "timing": "original_pitch",
+      "turn_index": 27,
+      "quote": "How many take you up on it?",
+      "explanation": "He asks how many customers adopt the premium service.",
+      "evidence": [
+        "How many take you up on it?"
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 27,
+          "speaker": "Michael",
+          "quote": "How many take you up on it?"
+        }
+      ],
+      "activation": "queried",
+      "source_rationale_id": "R6",
+      "utterance_kind": "question",
+      "decision_support": "none",
+      "all_mention_ids": [
+        "R6"
+      ]
+    },
+    {
+      "rationale_label": "product_differentiation_concern",
+      "direction": "negative",
+      "salience": "primary",
+      "confidence": 0.99,
+      "utterance_type": "decision_reason",
+      "decision_link": "explicit",
+      "timing": "original_pitch",
+      "turn_index": 155,
+      "quote": "show me a real definable tech stack",
+      "explanation": "He passes for now because the company has not shown a sufficiently concrete technology layer that could differentiate it.",
+      "evidence": [
+        "what are you doing that's more than placing people in this kind of efficient way?",
+        "show me a real definable tech stack"
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 103,
+          "speaker": "Michael",
+          "quote": "what are you doing that's more than placing people in this kind of efficient way?"
+        },
+        {
+          "turn_index": 155,
+          "speaker": "Michael",
+          "quote": "show me a real definable tech stack"
+        }
+      ],
+      "activation": "evaluated",
+      "source_rationale_id": "R30",
+      "utterance_kind": "decision_explanation",
+      "decision_support": "supports_out",
+      "all_mention_ids": [
+        "R21",
+        "R30"
+      ]
+    },
+    {
+      "rationale_label": "product_success_factor_assessment",
+      "direction": "negative",
+      "salience": "primary",
+      "confidence": 0.94,
+      "utterance_type": "question",
+      "decision_link": "none",
+      "timing": "original_pitch",
+      "turn_index": 105,
+      "quote": "AI or prediction machines or something that starts knocking out a lot of things humans would do",
+      "explanation": "He presses for automation or predictive technology that could reduce reliance on human work.",
+      "evidence": [
+        "AI or prediction machines or something that starts knocking out a lot of things humans would do"
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 105,
+          "speaker": "Michael",
+          "quote": "AI or prediction machines or something that starts knocking out a lot of things humans would do"
+        }
+      ],
+      "activation": "queried",
+      "source_rationale_id": "R22",
+      "utterance_kind": "question",
+      "decision_support": "none",
+      "all_mention_ids": [
+        "R9",
+        "R22"
+      ]
+    },
+    {
+      "rationale_label": "solution_feasibility_assessment",
+      "direction": "neutral",
+      "salience": "secondary",
+      "confidence": 0.94,
+      "utterance_type": "question",
+      "decision_link": "none",
+      "timing": "original_pitch",
+      "turn_index": 40,
+      "quote": "How do you qualify a worker?",
+      "explanation": "He asks about the operational process used to ensure worker quality.",
+      "evidence": [
+        "How fast can I get somebody?",
+        "How do you qualify a worker?"
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 13,
+          "speaker": "Michael",
+          "quote": "How fast can I get somebody?"
+        },
+        {
+          "turn_index": 40,
+          "speaker": "Michael",
+          "quote": "How do you qualify a worker?"
+        }
+      ],
+      "activation": "queried",
+      "source_rationale_id": "R8",
+      "utterance_kind": "question",
+      "decision_support": "none",
+      "all_mention_ids": [
+        "R1",
+        "R8"
+      ]
+    }
+  ],
+  "later_rationales": [],
+  "excluded_rationales": [],
+  "rationale_mentions": [
+    {
+      "rationale_label": "solution_feasibility_assessment",
+      "direction": "neutral",
+      "salience": "secondary",
+      "confidence": 0.96,
+      "utterance_type": "question",
+      "decision_link": "none",
+      "timing": "original_pitch",
+      "turn_index": 13,
+      "quote": "How fast can I get somebody?",
+      "explanation": "He probes whether the service can fulfill an urgent staffing need quickly.",
+      "evidence": [
+        "How fast can I get somebody?"
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 13,
+          "speaker": "Michael",
+          "quote": "How fast can I get somebody?"
+        }
+      ],
+      "activation": "queried",
+      "source_rationale_id": "R1"
+    },
+    {
+      "rationale_label": "business_model_assessment",
+      "direction": "neutral",
+      "salience": "secondary",
+      "confidence": 0.92,
+      "utterance_type": "question",
+      "decision_link": "none",
+      "timing": "original_pitch",
+      "turn_index": 15,
+      "quote": "do you come back to me and say, up it to 17, you get your job?",
+      "explanation": "He tests how the marketplace handles pricing when a posted shift may be difficult to fill.",
+      "evidence": [
+        "do you come back to me and say, up it to 17, you get your job?"
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 15,
+          "speaker": "Michael",
+          "quote": "do you come back to me and say, up it to 17, you get your job?"
+        }
+      ],
+      "activation": "queried",
+      "source_rationale_id": "R2"
+    },
+    {
+      "rationale_label": "business_model_assessment",
+      "direction": "neutral",
+      "salience": "secondary",
+      "confidence": 0.94,
+      "utterance_type": "question",
+      "decision_link": "none",
+      "timing": "original_pitch",
+      "turn_index": 21,
+      "quote": "So it's the on demand, I pay a premium?",
+      "explanation": "He probes whether urgent staffing demand supports premium pricing.",
+      "evidence": [
+        "So it's the on demand, I pay a premium?"
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 21,
+          "speaker": "Michael",
+          "quote": "So it's the on demand, I pay a premium?"
+        }
+      ],
+      "activation": "queried",
+      "source_rationale_id": "R3"
+    },
+    {
+      "rationale_label": "business_model_assessment",
+      "direction": "neutral",
+      "salience": "secondary",
+      "confidence": 0.93,
+      "utterance_type": "question",
+      "decision_link": "none",
+      "timing": "original_pitch",
+      "turn_index": 23,
+      "quote": "What’s white glove service?",
+      "explanation": "He asks what the premium, potentially human-assisted service includes.",
+      "evidence": [
+        "What’s white glove service?"
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 23,
+          "speaker": "Michael",
+          "quote": "What’s white glove service?"
+        }
+      ],
+      "activation": "queried",
+      "source_rationale_id": "R4"
+    },
+    {
+      "rationale_label": "business_model_assessment",
+      "direction": "neutral",
+      "salience": "secondary",
+      "confidence": 0.91,
+      "utterance_type": "question",
+      "decision_link": "none",
+      "timing": "original_pitch",
+      "turn_index": 25,
+      "quote": "How many people do that?",
+      "explanation": "He probes how much staff is required to provide the white-glove service.",
+      "evidence": [
+        "How many people do that?"
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 25,
+          "speaker": "Michael",
+          "quote": "How many people do that?"
+        }
+      ],
+      "activation": "queried",
+      "source_rationale_id": "R5"
+    },
+    {
+      "rationale_label": "product_adoption",
+      "direction": "neutral",
+      "salience": "secondary",
+      "confidence": 0.95,
+      "utterance_type": "question",
+      "decision_link": "none",
+      "timing": "original_pitch",
+      "turn_index": 27,
+      "quote": "How many take you up on it?",
+      "explanation": "He asks how many customers adopt the premium service.",
+      "evidence": [
+        "How many take you up on it?"
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 27,
+          "speaker": "Michael",
+          "quote": "How many take you up on it?"
+        }
+      ],
+      "activation": "queried",
+      "source_rationale_id": "R6"
+    },
+    {
+      "rationale_label": "business_model_assessment",
+      "direction": "neutral",
+      "salience": "secondary",
+      "confidence": 0.94,
+      "utterance_type": "question",
+      "decision_link": "none",
+      "timing": "original_pitch",
+      "turn_index": 31,
+      "quote": "Why? Because someone will physically go and fill that job?",
+      "explanation": "He probes whether the premium offering depends on manual labor.",
+      "evidence": [
+        "Why? Because someone will physically go and fill that job?"
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 31,
+          "speaker": "Michael",
+          "quote": "Why? Because someone will physically go and fill that job?"
+        }
+      ],
+      "activation": "queried",
+      "source_rationale_id": "R7"
+    },
+    {
+      "rationale_label": "solution_feasibility_assessment",
+      "direction": "neutral",
+      "salience": "secondary",
+      "confidence": 0.94,
+      "utterance_type": "question",
+      "decision_link": "none",
+      "timing": "original_pitch",
+      "turn_index": 40,
+      "quote": "How do you qualify a worker?",
+      "explanation": "He asks about the operational process used to ensure worker quality.",
+      "evidence": [
+        "How do you qualify a worker?"
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 40,
+          "speaker": "Michael",
+          "quote": "How do you qualify a worker?"
+        }
+      ],
+      "activation": "queried",
+      "source_rationale_id": "R8"
+    },
+    {
+      "rationale_label": "product_success_factor_assessment",
+      "direction": "neutral",
+      "salience": "secondary",
+      "confidence": 0.91,
+      "utterance_type": "question",
+      "decision_link": "none",
+      "timing": "original_pitch",
+      "turn_index": 43,
+      "quote": "Do you get rated like an Uber kind of thing?",
+      "explanation": "He checks whether ratings serve as a marketplace quality-control mechanism.",
+      "evidence": [
+        "Do you get rated like an Uber kind of thing?"
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 43,
+          "speaker": "Michael",
+          "quote": "Do you get rated like an Uber kind of thing?"
+        }
+      ],
+      "activation": "queried",
+      "source_rationale_id": "R9"
+    },
+    {
+      "rationale_label": "market_entry_path_assessment",
+      "direction": "neutral",
+      "salience": "secondary",
+      "confidence": 0.88,
+      "utterance_type": "question",
+      "decision_link": "none",
+      "timing": "original_pitch",
+      "turn_index": 61,
+      "quote": "Are you really just all your revenue right now is Indianapolis?",
+      "explanation": "He probes the company’s geographic concentration and reach beyond its initial market.",
+      "evidence": [
+        "Are you really just all your revenue right now is Indianapolis?"
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 61,
+          "speaker": "Michael",
+          "quote": "Are you really just all your revenue right now is Indianapolis?"
+        }
+      ],
+      "activation": "queried",
+      "source_rationale_id": "R10"
+    },
+    {
+      "rationale_label": "market_entry_path_assessment",
+      "direction": "neutral",
+      "salience": "secondary",
+      "confidence": 0.95,
+      "utterance_type": "question",
+      "decision_link": "none",
+      "timing": "original_pitch",
+      "turn_index": 63,
+      "quote": "Give us your roll out plan of cities you’re going to next.",
+      "explanation": "He asks for the planned path of geographic expansion.",
+      "evidence": [
+        "Give us your roll out plan of cities you’re going to next."
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 63,
+          "speaker": "Michael",
+          "quote": "Give us your roll out plan of cities you’re going to next."
+        }
+      ],
+      "activation": "queried",
+      "source_rationale_id": "R11"
+    },
+    {
+      "rationale_label": "market_entry_path_assessment",
+      "direction": "neutral",
+      "salience": "secondary",
+      "confidence": 0.94,
+      "utterance_type": "question",
+      "decision_link": "none",
+      "timing": "original_pitch",
+      "turn_index": 64,
+      "quote": "What’s your next five cities?",
+      "explanation": "He requests a more specific expansion plan for the next markets.",
+      "evidence": [
+        "What’s your next five cities?"
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 64,
+          "speaker": "Michael",
+          "quote": "What’s your next five cities?"
+        }
+      ],
+      "activation": "queried",
+      "source_rationale_id": "R12"
+    },
+    {
+      "rationale_label": "market_entry_path_assessment",
+      "direction": "neutral",
+      "salience": "secondary",
+      "confidence": 0.96,
+      "utterance_type": "question",
+      "decision_link": "none",
+      "timing": "original_pitch",
+      "turn_index": 66,
+      "quote": "How are you going to open up Chicago?",
+      "explanation": "He asks how the company will establish its next city market.",
+      "evidence": [
+        "How are you going to open up Chicago?"
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 66,
+          "speaker": "Michael",
+          "quote": "How are you going to open up Chicago?"
+        }
+      ],
+      "activation": "queried",
+      "source_rationale_id": "R13"
+    },
+    {
+      "rationale_label": "go_to_market_strategy_assessment",
+      "direction": "neutral",
+      "salience": "secondary",
+      "confidence": 0.9,
+      "utterance_type": "question",
+      "decision_link": "none",
+      "timing": "original_pitch",
+      "turn_index": 69,
+      "quote": "How?",
+      "explanation": "In context, he asks how the existing Chicago worker supply was acquired.",
+      "evidence": [
+        "How?"
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 69,
+          "speaker": "Michael",
+          "quote": "How?"
+        }
+      ],
+      "activation": "queried",
+      "source_rationale_id": "R14"
+    },
+    {
+      "rationale_label": "go_to_market_strategy_assessment",
+      "direction": "neutral",
+      "salience": "secondary",
+      "confidence": 0.97,
+      "utterance_type": "question",
+      "decision_link": "none",
+      "timing": "original_pitch",
+      "turn_index": 72,
+      "quote": "how do you sign up the restaurants in Chicago?",
+      "explanation": "He asks how the company will acquire restaurant customers in a new city.",
+      "evidence": [
+        "how do you sign up the restaurants in Chicago?"
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 72,
+          "speaker": "Michael",
+          "quote": "how do you sign up the restaurants in Chicago?"
+        }
+      ],
+      "activation": "queried",
+      "source_rationale_id": "R15"
+    },
+    {
+      "rationale_label": "go_to_market_strategy_assessment",
+      "direction": "neutral",
+      "salience": "secondary",
+      "confidence": 0.97,
+      "utterance_type": "question",
+      "decision_link": "none",
+      "timing": "original_pitch",
+      "turn_index": 79,
+      "quote": "how are you finding these restaurants to come on your platform?",
+      "explanation": "He probes the customer-acquisition channel for bringing restaurants onto the platform.",
+      "evidence": [
+        "how are you finding these restaurants to come on your platform?"
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 79,
+          "speaker": "Michael",
+          "quote": "how are you finding these restaurants to come on your platform?"
+        }
+      ],
+      "activation": "queried",
+      "source_rationale_id": "R16"
+    },
+    {
+      "rationale_label": "go_to_market_strategy_assessment",
+      "direction": "neutral",
+      "salience": "secondary",
+      "confidence": 0.94,
+      "utterance_type": "question",
+      "decision_link": "none",
+      "timing": "original_pitch",
+      "turn_index": 82,
+      "quote": "Are you gonna call them?",
+      "explanation": "He tests whether restaurant acquisition depends on direct calling.",
+      "evidence": [
+        "Are you gonna call them?"
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 82,
+          "speaker": "Michael",
+          "quote": "Are you gonna call them?"
+        }
+      ],
+      "activation": "queried",
+      "source_rationale_id": "R17"
+    },
+    {
+      "rationale_label": "go_to_market_strategy_assessment",
+      "direction": "neutral",
+      "salience": "secondary",
+      "confidence": 0.96,
+      "utterance_type": "question",
+      "decision_link": "none",
+      "timing": "original_pitch",
+      "turn_index": 86,
+      "quote": "how do you then add a client in Chicago?",
+      "explanation": "He revisits the concrete process for adding customers in a new market.",
+      "evidence": [
+        "how do you then add a client in Chicago?"
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 86,
+          "speaker": "Michael",
+          "quote": "how do you then add a client in Chicago?"
+        }
+      ],
+      "activation": "queried",
+      "source_rationale_id": "R18"
+    },
+    {
+      "rationale_label": "go_to_market_strategy_assessment",
+      "direction": "neutral",
+      "salience": "secondary",
+      "confidence": 0.93,
+      "utterance_type": "question",
+      "decision_link": "none",
+      "timing": "original_pitch",
+      "turn_index": 88,
+      "quote": "You have to go, you have to go in person?",
+      "explanation": "He probes whether customer acquisition requires a high-touch, in-person sales motion.",
+      "evidence": [
+        "You have to go, you have to go in person?"
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 88,
+          "speaker": "Michael",
+          "quote": "You have to go, you have to go in person?"
+        }
+      ],
+      "activation": "queried",
+      "source_rationale_id": "R19"
+    },
+    {
+      "rationale_label": "business_model_assessment",
+      "direction": "negative",
+      "salience": "primary",
+      "confidence": 0.98,
+      "utterance_type": "assessment",
+      "decision_link": "none",
+      "timing": "original_pitch",
+      "turn_index": 103,
+      "quote": "It's not scalable, right?",
+      "explanation": "He identifies the human-intensive service model as a scalability concern.",
+      "evidence": [
+        "It's not scalable, right?"
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 103,
+          "speaker": "Michael",
+          "quote": "It's not scalable, right?"
+        }
+      ],
+      "activation": "evaluated",
+      "source_rationale_id": "R20"
+    },
+    {
+      "rationale_label": "product_differentiation_concern",
+      "direction": "negative",
+      "salience": "primary",
+      "confidence": 0.96,
+      "utterance_type": "question",
+      "decision_link": "none",
+      "timing": "original_pitch",
+      "turn_index": 103,
+      "quote": "what are you doing that's more than placing people in this kind of efficient way?",
+      "explanation": "He questions whether the company has a defensible product or technology advantage beyond placement efficiency.",
+      "evidence": [
+        "what are you doing that's more than placing people in this kind of efficient way?"
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 103,
+          "speaker": "Michael",
+          "quote": "what are you doing that's more than placing people in this kind of efficient way?"
+        }
+      ],
+      "activation": "queried",
+      "source_rationale_id": "R21"
+    },
+    {
+      "rationale_label": "product_success_factor_assessment",
+      "direction": "negative",
+      "salience": "primary",
+      "confidence": 0.94,
+      "utterance_type": "question",
+      "decision_link": "none",
+      "timing": "original_pitch",
+      "turn_index": 105,
+      "quote": "AI or prediction machines or something that starts knocking out a lot of things humans would do",
+      "explanation": "He presses for automation or predictive technology that could reduce reliance on human work.",
+      "evidence": [
+        "AI or prediction machines or something that starts knocking out a lot of things humans would do"
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 105,
+          "speaker": "Michael",
+          "quote": "AI or prediction machines or something that starts knocking out a lot of things humans would do"
+        }
+      ],
+      "activation": "queried",
+      "source_rationale_id": "R22"
+    },
+    {
+      "rationale_label": "competitive_advantage_assessment",
+      "direction": "neutral",
+      "salience": "primary",
+      "confidence": 0.98,
+      "utterance_type": "question",
+      "decision_link": "none",
+      "timing": "original_pitch",
+      "turn_index": 112,
+      "quote": "what's the thing that you're doing that makes us go, Wow, it's going to be very hard to catch up to you.",
+      "explanation": "He asks what mechanism could create a durable advantage that competitors cannot easily replicate.",
+      "evidence": [
+        "what's the thing that you're doing that makes us go, Wow, it's going to be very hard to catch up to you."
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 112,
+          "speaker": "Michael",
+          "quote": "what's the thing that you're doing that makes us go, Wow, it's going to be very hard to catch up to you."
+        }
+      ],
+      "activation": "queried",
+      "source_rationale_id": "R23"
+    },
+    {
+      "rationale_label": "competitive_advantage_assessment",
+      "direction": "negative",
+      "salience": "primary",
+      "confidence": 0.97,
+      "utterance_type": "supporting_argument",
+      "decision_link": "none",
+      "timing": "original_pitch",
+      "turn_index": 116,
+      "quote": "data’s worth nothing unless you do something with it.",
+      "explanation": "He argues that accumulating data alone does not create value or defensibility without a demonstrated application.",
+      "evidence": [
+        "data’s worth nothing unless you do something with it."
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 116,
+          "speaker": "Michael",
+          "quote": "data’s worth nothing unless you do something with it."
+        }
+      ],
+      "activation": "evaluated",
+      "source_rationale_id": "R24"
+    },
+    {
+      "rationale_label": "competitive_advantage_assessment",
+      "direction": "negative",
+      "salience": "secondary",
+      "confidence": 0.93,
+      "utterance_type": "supporting_argument",
+      "decision_link": "none",
+      "timing": "original_pitch",
+      "turn_index": 122,
+      "quote": "Google has the flywheel effect",
+      "explanation": "He uses Google’s compounding data flywheel as the kind of defensibility the company has not demonstrated.",
+      "evidence": [
+        "Google has the flywheel effect"
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 122,
+          "speaker": "Michael",
+          "quote": "Google has the flywheel effect"
+        }
+      ],
+      "activation": "evaluated",
+      "source_rationale_id": "R25"
+    },
+    {
+      "rationale_label": "investment_upside_assessment",
+      "direction": "negative",
+      "salience": "secondary",
+      "confidence": 0.9,
+      "utterance_type": "assessment",
+      "decision_link": "none",
+      "timing": "original_pitch",
+      "turn_index": 118,
+      "quote": "I'm trying to get excited about how you're going to crush the thing",
+      "explanation": "He indicates that the company has not yet presented a compelling path to outsized success.",
+      "evidence": [
+        "I'm trying to get excited about how you're going to crush the thing"
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 118,
+          "speaker": "Michael",
+          "quote": "I'm trying to get excited about how you're going to crush the thing"
+        }
+      ],
+      "activation": "evaluated",
+      "source_rationale_id": "R26"
+    },
+    {
+      "rationale_label": "competitive_advantage_assessment",
+      "direction": "negative",
+      "salience": "secondary",
+      "confidence": 0.92,
+      "utterance_type": "assessment",
+      "decision_link": "none",
+      "timing": "original_pitch",
+      "turn_index": 128,
+      "quote": "That's not it.",
+      "explanation": "He rejects fulfillment as the requested source of defensibility and indicates that a different competitive advantage is needed.",
+      "evidence": [
+        "That's not it."
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 128,
+          "speaker": "Michael",
+          "quote": "That's not it."
+        }
+      ],
+      "activation": "evaluated",
+      "source_rationale_id": "R27"
+    },
+    {
+      "rationale_label": "competitive_advantage_assessment",
+      "direction": "neutral",
+      "salience": "primary",
+      "confidence": 0.98,
+      "utterance_type": "question",
+      "decision_link": "none",
+      "timing": "original_pitch",
+      "turn_index": 124,
+      "quote": "What do you have that makes it so I won't be able to catch up to you in three to five years?",
+      "explanation": "He directly asks for evidence of a durable competitive moat.",
+      "evidence": [
+        "What do you have that makes it so I won't be able to catch up to you in three to five years?"
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 124,
+          "speaker": "Michael",
+          "quote": "What do you have that makes it so I won't be able to catch up to you in three to five years?"
+        }
+      ],
+      "activation": "queried",
+      "source_rationale_id": "R28"
+    },
+    {
+      "rationale_label": "competitive_advantage_assessment",
+      "direction": "neutral",
+      "salience": "secondary",
+      "confidence": 0.91,
+      "utterance_type": "question",
+      "decision_link": "none",
+      "timing": "original_pitch",
+      "turn_index": 131,
+      "quote": "do they have, are they really working on the tech stack?",
+      "explanation": "He investigates whether a comparable competitor is developing technology relevant to defensibility.",
+      "evidence": [
+        "do they have, are they really working on the tech stack?"
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 131,
+          "speaker": "Michael",
+          "quote": "do they have, are they really working on the tech stack?"
+        }
+      ],
+      "activation": "queried",
+      "source_rationale_id": "R29"
+    },
+    {
+      "rationale_label": "product_differentiation_concern",
+      "direction": "negative",
+      "salience": "primary",
+      "confidence": 0.99,
+      "utterance_type": "decision_explanation",
+      "decision_link": "supports_out",
+      "timing": "original_pitch",
+      "turn_index": 155,
+      "quote": "show me a real definable tech stack",
+      "explanation": "He passes for now because the company has not shown a sufficiently concrete technology layer that could differentiate it.",
+      "evidence": [
+        "show me a real definable tech stack"
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 155,
+          "speaker": "Michael",
+          "quote": "show me a real definable tech stack"
+        }
+      ],
+      "activation": "evaluated",
+      "source_rationale_id": "R30"
+    },
+    {
+      "rationale_label": "business_model_assessment",
+      "direction": "negative",
+      "salience": "primary",
+      "confidence": 0.99,
+      "utterance_type": "decision_explanation",
+      "decision_link": "supports_out",
+      "timing": "original_pitch",
+      "turn_index": 157,
+      "quote": "using tech to rapidly scale your margins",
+      "explanation": "He says technology-driven automation and margin scaling would make the opportunity compelling, but their absence supports his current refusal.",
+      "evidence": [
+        "using tech to rapidly scale your margins"
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 157,
+          "speaker": "Michael",
+          "quote": "using tech to rapidly scale your margins"
+        }
+      ],
+      "activation": "evaluated",
+      "source_rationale_id": "R31"
+    }
+  ]
+}

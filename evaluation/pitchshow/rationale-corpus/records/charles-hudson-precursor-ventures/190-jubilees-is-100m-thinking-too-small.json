@@ -1,0 +1,818 @@
+{
+  "schema": "phase1-rationale-reference-v1",
+  "extraction_version": "pitchshow-rationales-v1",
+  "fingerprint": "6d27d9e82ff680d71f2a936a724d723984da38f878e7197a4c67a0ca59572b13",
+  "episode_slug": "190-jubilees-is-100m-thinking-too-small",
+  "vc_slug": "charles-hudson-precursor-ventures",
+  "vc_name": "Charles Hudson",
+  "actual_decision": "Out",
+  "later_decision": "Unknown",
+  "reference_kind": "automated_transcript_observed_candidate",
+  "human_validated": false,
+  "source_format": "transcript-observed-rationales-v1",
+  "source_path": "/home/dpasch01/vclogic-vc-agentic-assessment/evaluation/pitchshow/investors/charles-hudson-precursor-ventures/source/episodes/190-jubilees-is-100m-thinking-too-small.json",
+  "source_sha256": "5556cd0d8406ed54bc72801451ea2f36d9ff712819fa4d841494b13d1b8b4fd3",
+  "transcript_sha256": "8deba79a0e240fed16a15ed75b47b47386d413b57943ad7a350318f63b715f50",
+  "taxonomy_sha256": "eaa8734819a3ac34dd19ee5f0bf6de925a793a1d25a2d361090dafc9b751e1fc",
+  "model": "openai/gpt-5.6-luna",
+  "source_tier": "newly_extracted_and_independently_model_reviewed",
+  "reviewed_target_turns": [
+    15,
+    35,
+    45,
+    50,
+    63,
+    98,
+    100,
+    130,
+    132,
+    144,
+    155,
+    184,
+    187,
+    211,
+    213,
+    215,
+    217,
+    221,
+    223,
+    255,
+    257,
+    259,
+    261,
+    263,
+    265,
+    267,
+    270,
+    272,
+    274,
+    277,
+    283,
+    285,
+    288,
+    290,
+    292,
+    296,
+    299,
+    302,
+    304,
+    309
+  ],
+  "notes": "Bare reactions, confirmations, greetings, continuations without a distinct additional rationale, and generic advice not tied to Charles's assessment were omitted.",
+  "receipt_path": "/home/dpasch01/vclogic-vc-agentic-assessment/evaluation/pitchshow/investors/charles-hudson-precursor-ventures/rationale-references/receipts/190-jubilees-is-100m-thinking-too-small.json",
+  "scoring_scope": "original_pitch_only",
+  "shared_across_input_modes": true,
+  "rationales": [
+    {
+      "rationale_label": "business_model_assessment",
+      "direction": "neutral",
+      "salience": "secondary",
+      "confidence": 0.96,
+      "utterance_type": "question",
+      "decision_link": "none",
+      "timing": "original_pitch",
+      "turn_index": 100,
+      "quote": "What's the retail price, too?",
+      "explanation": "He probes the product's retail pricing and monetization.",
+      "evidence": [
+        "Talk a little bit more about just, COGS, and pricing, and manufacturing and sort of the operations side of the business.",
+        "What's the retail price, too?"
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 98,
+          "speaker": "Charles",
+          "quote": "Talk a little bit more about just, COGS, and pricing, and manufacturing and sort of the operations side of the business."
+        },
+        {
+          "turn_index": 100,
+          "speaker": "Charles",
+          "quote": "What's the retail price, too?"
+        }
+      ],
+      "activation": "queried",
+      "source_rationale_id": "R5",
+      "utterance_kind": "question",
+      "decision_support": "none",
+      "all_mention_ids": [
+        "R4",
+        "R5"
+      ]
+    },
+    {
+      "rationale_label": "execution_risk_assessment",
+      "direction": "neutral",
+      "salience": "secondary",
+      "confidence": 0.93,
+      "utterance_type": "question",
+      "decision_link": "none",
+      "timing": "original_pitch",
+      "turn_index": 187,
+      "quote": "Who else is on your team?",
+      "explanation": "He asks about team depth relevant to executing the business.",
+      "evidence": [
+        "Who else is on your team?"
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 187,
+          "speaker": "Charles",
+          "quote": "Who else is on your team?"
+        }
+      ],
+      "activation": "queried",
+      "source_rationale_id": "R6",
+      "utterance_kind": "question",
+      "decision_support": "none",
+      "all_mention_ids": [
+        "R6"
+      ]
+    },
+    {
+      "rationale_label": "founder_investor_vision_alignment",
+      "direction": "negative",
+      "salience": "primary",
+      "confidence": 0.99,
+      "utterance_type": "decision_reason",
+      "decision_link": "explicit",
+      "timing": "original_pitch",
+      "turn_index": 257,
+      "quote": "I always worry that like if I have greater ambitions for the company than the founder that like at some point we're gonna be at odds.",
+      "explanation": "Charles identifies a potential long-term conflict if his ambitions exceed the founder's intended direction.",
+      "evidence": [
+        "I in my mind had just passed for that very reason.",
+        "if that's where she wants to get off the train",
+        "I always worry that like if I have greater ambitions for the company than the founder that like at some point we're gonna be at odds."
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 211,
+          "speaker": "Charles",
+          "quote": "I in my mind had just passed for that very reason."
+        },
+        {
+          "turn_index": 221,
+          "speaker": "Charles",
+          "quote": "if that's where she wants to get off the train"
+        },
+        {
+          "turn_index": 257,
+          "speaker": "Charles",
+          "quote": "I always worry that like if I have greater ambitions for the company than the founder that like at some point we're gonna be at odds."
+        }
+      ],
+      "activation": "evaluated",
+      "source_rationale_id": "R11",
+      "utterance_kind": "decision_explanation",
+      "decision_support": "supports_out",
+      "all_mention_ids": [
+        "R7",
+        "R10",
+        "R11",
+        "R15"
+      ]
+    },
+    {
+      "rationale_label": "founder_qualities",
+      "direction": "positive",
+      "salience": "secondary",
+      "confidence": 0.95,
+      "utterance_type": "assessment",
+      "decision_link": "none",
+      "timing": "original_pitch",
+      "turn_index": 288,
+      "quote": "I'm actually glad that she was honest",
+      "explanation": "He explicitly values the founder's honesty about her ambitions.",
+      "evidence": [
+        "if she'd come in and told a story she didn't believe",
+        "I'm actually glad that she was honest"
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 285,
+          "speaker": "Charles",
+          "quote": "if she'd come in and told a story she didn't believe"
+        },
+        {
+          "turn_index": 288,
+          "speaker": "Charles",
+          "quote": "I'm actually glad that she was honest"
+        }
+      ],
+      "activation": "evaluated",
+      "source_rationale_id": "R17",
+      "utterance_kind": "assessment",
+      "decision_support": "none",
+      "all_mention_ids": [
+        "R16",
+        "R17"
+      ]
+    },
+    {
+      "rationale_label": "fund_economics_constraint",
+      "direction": "negative",
+      "salience": "primary",
+      "confidence": 0.98,
+      "utterance_type": "decision_reason",
+      "decision_link": "explicit",
+      "timing": "original_pitch",
+      "turn_index": 257,
+      "quote": "at 60 or 100, this feels like it's not enough for what we need to see as a fund",
+      "explanation": "He explicitly says the founder's stated $60–$100 million outcome did not meet the fund's scale requirements.",
+      "evidence": [
+        "60 isn't enough-",
+        "at 60 or 100, this feels like it's not enough for what we need to see as a fund"
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 217,
+          "speaker": "Charles",
+          "quote": "60 isn't enough-"
+        },
+        {
+          "turn_index": 257,
+          "speaker": "Charles",
+          "quote": "at 60 or 100, this feels like it's not enough for what we need to see as a fund"
+        }
+      ],
+      "activation": "evaluated",
+      "source_rationale_id": "R12",
+      "utterance_kind": "decision_explanation",
+      "decision_support": "supports_out",
+      "all_mention_ids": [
+        "R9",
+        "R12"
+      ]
+    },
+    {
+      "rationale_label": "go_to_market_strategy_assessment",
+      "direction": "neutral",
+      "salience": "secondary",
+      "confidence": 0.96,
+      "utterance_type": "question",
+      "decision_link": "none",
+      "timing": "original_pitch",
+      "turn_index": 63,
+      "quote": "What's the channel mix?",
+      "explanation": "He materially probes how sales are distributed across the company's channels.",
+      "evidence": [
+        "What's the channel mix?"
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 63,
+          "speaker": "Charles",
+          "quote": "What's the channel mix?"
+        }
+      ],
+      "activation": "queried",
+      "source_rationale_id": "R3",
+      "utterance_kind": "question",
+      "decision_support": "none",
+      "all_mention_ids": [
+        "R3"
+      ]
+    },
+    {
+      "rationale_label": "investment_upside_assessment",
+      "direction": "positive",
+      "salience": "primary",
+      "confidence": 0.95,
+      "utterance_type": "assessment",
+      "decision_link": "none",
+      "timing": "original_pitch",
+      "turn_index": 213,
+      "quote": "I think it's both necessary and possible to have a venture scale-",
+      "explanation": "He argues that CPG categories like this can support venture-scale outcomes.",
+      "evidence": [
+        "I think it's both necessary and possible to have a venture scale-",
+        "what I think is capable in the category"
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 213,
+          "speaker": "Charles",
+          "quote": "I think it's both necessary and possible to have a venture scale-"
+        },
+        {
+          "turn_index": 257,
+          "speaker": "Charles",
+          "quote": "what I think is capable in the category"
+        }
+      ],
+      "activation": "evaluated",
+      "source_rationale_id": "R8",
+      "utterance_kind": "supporting_argument",
+      "decision_support": "none",
+      "all_mention_ids": [
+        "R8",
+        "R13"
+      ]
+    },
+    {
+      "rationale_label": "investor_experience_bias",
+      "direction": "negative",
+      "salience": "secondary",
+      "confidence": 0.93,
+      "utterance_type": "decision_reason",
+      "decision_link": "explicit",
+      "timing": "original_pitch",
+      "turn_index": 257,
+      "quote": "in every case that I've had that situation, the founder wins, as they should.",
+      "explanation": "He draws on prior founder-investor situations in explaining why an ambition mismatch could lead him not to invest.",
+      "evidence": [
+        "in every case that I've had that situation, the founder wins, as they should."
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 257,
+          "speaker": "Charles",
+          "quote": "in every case that I've had that situation, the founder wins, as they should."
+        }
+      ],
+      "activation": "evaluated",
+      "source_rationale_id": "R14",
+      "utterance_kind": "decision_explanation",
+      "decision_support": "supports_out",
+      "all_mention_ids": [
+        "R14",
+        "R18"
+      ]
+    },
+    {
+      "rationale_label": "product_appeal_assessment",
+      "direction": "positive",
+      "salience": "secondary",
+      "confidence": 0.92,
+      "utterance_type": "assessment",
+      "decision_link": "none",
+      "timing": "original_pitch",
+      "turn_index": 50,
+      "quote": "It's good, yeah.",
+      "explanation": "Charles gives a positive assessment of the product after tasting it.",
+      "evidence": [
+        "it does taste like a banana cream pie, yeah.",
+        "It's good, yeah."
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 45,
+          "speaker": "Charles",
+          "quote": "it does taste like a banana cream pie, yeah."
+        },
+        {
+          "turn_index": 50,
+          "speaker": "Charles",
+          "quote": "It's good, yeah."
+        }
+      ],
+      "activation": "evaluated",
+      "source_rationale_id": "R2",
+      "utterance_kind": "assessment",
+      "decision_support": "none",
+      "all_mention_ids": [
+        "R1",
+        "R2"
+      ]
+    }
+  ],
+  "later_rationales": [],
+  "excluded_rationales": [],
+  "rationale_mentions": [
+    {
+      "rationale_label": "product_appeal_assessment",
+      "direction": "positive",
+      "salience": "secondary",
+      "confidence": 0.98,
+      "utterance_type": "assessment",
+      "decision_link": "none",
+      "timing": "original_pitch",
+      "turn_index": 45,
+      "quote": "it does taste like a banana cream pie, yeah.",
+      "explanation": "Charles positively assesses the product's flavor after tasting it.",
+      "model_quote_before_typography_repair": "It does taste like a banana cream pie, yeah.",
+      "evidence": [
+        "it does taste like a banana cream pie, yeah."
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 45,
+          "speaker": "Charles",
+          "quote": "it does taste like a banana cream pie, yeah."
+        }
+      ],
+      "activation": "evaluated",
+      "source_rationale_id": "R1"
+    },
+    {
+      "rationale_label": "product_appeal_assessment",
+      "direction": "positive",
+      "salience": "secondary",
+      "confidence": 0.92,
+      "utterance_type": "assessment",
+      "decision_link": "none",
+      "timing": "original_pitch",
+      "turn_index": 50,
+      "quote": "It's good, yeah.",
+      "explanation": "Charles gives a positive assessment of the product after tasting it.",
+      "evidence": [
+        "It's good, yeah."
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 50,
+          "speaker": "Charles",
+          "quote": "It's good, yeah."
+        }
+      ],
+      "activation": "evaluated",
+      "source_rationale_id": "R2"
+    },
+    {
+      "rationale_label": "go_to_market_strategy_assessment",
+      "direction": "neutral",
+      "salience": "secondary",
+      "confidence": 0.96,
+      "utterance_type": "question",
+      "decision_link": "none",
+      "timing": "original_pitch",
+      "turn_index": 63,
+      "quote": "What's the channel mix?",
+      "explanation": "He materially probes how sales are distributed across the company's channels.",
+      "evidence": [
+        "What's the channel mix?"
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 63,
+          "speaker": "Charles",
+          "quote": "What's the channel mix?"
+        }
+      ],
+      "activation": "queried",
+      "source_rationale_id": "R3"
+    },
+    {
+      "rationale_label": "business_model_assessment",
+      "direction": "neutral",
+      "salience": "secondary",
+      "confidence": 0.96,
+      "utterance_type": "question",
+      "decision_link": "none",
+      "timing": "original_pitch",
+      "turn_index": 98,
+      "quote": "Talk a little bit more about just, COGS, and pricing, and manufacturing and sort of the operations side of the business.",
+      "explanation": "He asks for details on costs, pricing, manufacturing, and operations to assess the business model.",
+      "evidence": [
+        "Talk a little bit more about just, COGS, and pricing, and manufacturing and sort of the operations side of the business."
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 98,
+          "speaker": "Charles",
+          "quote": "Talk a little bit more about just, COGS, and pricing, and manufacturing and sort of the operations side of the business."
+        }
+      ],
+      "activation": "queried",
+      "source_rationale_id": "R4"
+    },
+    {
+      "rationale_label": "business_model_assessment",
+      "direction": "neutral",
+      "salience": "secondary",
+      "confidence": 0.96,
+      "utterance_type": "question",
+      "decision_link": "none",
+      "timing": "original_pitch",
+      "turn_index": 100,
+      "quote": "What's the retail price, too?",
+      "explanation": "He probes the product's retail pricing and monetization.",
+      "evidence": [
+        "What's the retail price, too?"
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 100,
+          "speaker": "Charles",
+          "quote": "What's the retail price, too?"
+        }
+      ],
+      "activation": "queried",
+      "source_rationale_id": "R5"
+    },
+    {
+      "rationale_label": "execution_risk_assessment",
+      "direction": "neutral",
+      "salience": "secondary",
+      "confidence": 0.93,
+      "utterance_type": "question",
+      "decision_link": "none",
+      "timing": "original_pitch",
+      "turn_index": 187,
+      "quote": "Who else is on your team?",
+      "explanation": "He asks about team depth relevant to executing the business.",
+      "evidence": [
+        "Who else is on your team?"
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 187,
+          "speaker": "Charles",
+          "quote": "Who else is on your team?"
+        }
+      ],
+      "activation": "queried",
+      "source_rationale_id": "R6"
+    },
+    {
+      "rationale_label": "founder_investor_vision_alignment",
+      "direction": "negative",
+      "salience": "primary",
+      "confidence": 0.98,
+      "utterance_type": "decision_explanation",
+      "decision_link": "supports_out",
+      "timing": "original_pitch",
+      "turn_index": 211,
+      "quote": "I in my mind had just passed for that very reason.",
+      "explanation": "Charles says the founder's initially stated ambition had caused him to mentally pass.",
+      "evidence": [
+        "I in my mind had just passed for that very reason."
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 211,
+          "speaker": "Charles",
+          "quote": "I in my mind had just passed for that very reason."
+        }
+      ],
+      "activation": "evaluated",
+      "source_rationale_id": "R7"
+    },
+    {
+      "rationale_label": "investment_upside_assessment",
+      "direction": "positive",
+      "salience": "primary",
+      "confidence": 0.95,
+      "utterance_type": "supporting_argument",
+      "decision_link": "none",
+      "timing": "original_pitch",
+      "turn_index": 213,
+      "quote": "I think it's both necessary and possible to have a venture scale-",
+      "explanation": "He argues that CPG categories like this can support venture-scale outcomes.",
+      "evidence": [
+        "I think it's both necessary and possible to have a venture scale-"
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 213,
+          "speaker": "Charles",
+          "quote": "I think it's both necessary and possible to have a venture scale-"
+        }
+      ],
+      "activation": "evaluated",
+      "source_rationale_id": "R8"
+    },
+    {
+      "rationale_label": "fund_economics_constraint",
+      "direction": "negative",
+      "salience": "primary",
+      "confidence": 0.97,
+      "utterance_type": "decision_explanation",
+      "decision_link": "supports_out",
+      "timing": "original_pitch",
+      "turn_index": 217,
+      "quote": "60 isn't enough-",
+      "explanation": "Charles indicates that the stated outcome was insufficient for his fund's requirements.",
+      "evidence": [
+        "60 isn't enough-"
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 217,
+          "speaker": "Charles",
+          "quote": "60 isn't enough-"
+        }
+      ],
+      "activation": "evaluated",
+      "source_rationale_id": "R9"
+    },
+    {
+      "rationale_label": "founder_investor_vision_alignment",
+      "direction": "negative",
+      "salience": "primary",
+      "confidence": 0.97,
+      "utterance_type": "decision_explanation",
+      "decision_link": "supports_out",
+      "timing": "original_pitch",
+      "turn_index": 221,
+      "quote": "if that's where she wants to get off the train",
+      "explanation": "He worries that the founder may stop pursuing the company before reaching the scale he would want to back.",
+      "evidence": [
+        "if that's where she wants to get off the train"
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 221,
+          "speaker": "Charles",
+          "quote": "if that's where she wants to get off the train"
+        }
+      ],
+      "activation": "evaluated",
+      "source_rationale_id": "R10"
+    },
+    {
+      "rationale_label": "founder_investor_vision_alignment",
+      "direction": "negative",
+      "salience": "primary",
+      "confidence": 0.99,
+      "utterance_type": "decision_explanation",
+      "decision_link": "supports_out",
+      "timing": "original_pitch",
+      "turn_index": 257,
+      "quote": "I always worry that like if I have greater ambitions for the company than the founder that like at some point we're gonna be at odds.",
+      "explanation": "Charles identifies a potential long-term conflict if his ambitions exceed the founder's intended direction.",
+      "evidence": [
+        "I always worry that like if I have greater ambitions for the company than the founder that like at some point we're gonna be at odds."
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 257,
+          "speaker": "Charles",
+          "quote": "I always worry that like if I have greater ambitions for the company than the founder that like at some point we're gonna be at odds."
+        }
+      ],
+      "activation": "evaluated",
+      "source_rationale_id": "R11"
+    },
+    {
+      "rationale_label": "fund_economics_constraint",
+      "direction": "negative",
+      "salience": "primary",
+      "confidence": 0.98,
+      "utterance_type": "decision_explanation",
+      "decision_link": "supports_out",
+      "timing": "original_pitch",
+      "turn_index": 257,
+      "quote": "at 60 or 100, this feels like it's not enough for what we need to see as a fund",
+      "explanation": "He explicitly says the founder's stated $60–$100 million outcome did not meet the fund's scale requirements.",
+      "evidence": [
+        "at 60 or 100, this feels like it's not enough for what we need to see as a fund"
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 257,
+          "speaker": "Charles",
+          "quote": "at 60 or 100, this feels like it's not enough for what we need to see as a fund"
+        }
+      ],
+      "activation": "evaluated",
+      "source_rationale_id": "R12"
+    },
+    {
+      "rationale_label": "investment_upside_assessment",
+      "direction": "positive",
+      "salience": "secondary",
+      "confidence": 0.94,
+      "utterance_type": "assessment",
+      "decision_link": "none",
+      "timing": "original_pitch",
+      "turn_index": 257,
+      "quote": "what I think is capable in the category",
+      "explanation": "Charles believes the category can support a substantially larger outcome than the founder initially presented.",
+      "evidence": [
+        "what I think is capable in the category"
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 257,
+          "speaker": "Charles",
+          "quote": "what I think is capable in the category"
+        }
+      ],
+      "activation": "evaluated",
+      "source_rationale_id": "R13"
+    },
+    {
+      "rationale_label": "investor_experience_bias",
+      "direction": "negative",
+      "salience": "secondary",
+      "confidence": 0.93,
+      "utterance_type": "decision_explanation",
+      "decision_link": "supports_out",
+      "timing": "original_pitch",
+      "turn_index": 257,
+      "quote": "in every case that I've had that situation, the founder wins, as they should.",
+      "explanation": "He draws on prior founder-investor situations in explaining why an ambition mismatch could lead him not to invest.",
+      "evidence": [
+        "in every case that I've had that situation, the founder wins, as they should."
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 257,
+          "speaker": "Charles",
+          "quote": "in every case that I've had that situation, the founder wins, as they should."
+        }
+      ],
+      "activation": "evaluated",
+      "source_rationale_id": "R14"
+    },
+    {
+      "rationale_label": "founder_investor_vision_alignment",
+      "direction": "positive",
+      "salience": "secondary",
+      "confidence": 0.91,
+      "utterance_type": "assessment",
+      "decision_link": "none",
+      "timing": "original_pitch",
+      "turn_index": 272,
+      "quote": "you deserve to have the opportunity to go big.",
+      "explanation": "After hearing the founder's larger ambition, Charles positively supports the possibility of a much bigger company.",
+      "evidence": [
+        "you deserve to have the opportunity to go big."
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 272,
+          "speaker": "Charles",
+          "quote": "you deserve to have the opportunity to go big."
+        }
+      ],
+      "activation": "evaluated",
+      "source_rationale_id": "R15"
+    },
+    {
+      "rationale_label": "founder_qualities",
+      "direction": "positive",
+      "salience": "secondary",
+      "confidence": 0.89,
+      "utterance_type": "assessment",
+      "decision_link": "none",
+      "timing": "original_pitch",
+      "turn_index": 285,
+      "quote": "if she'd come in and told a story she didn't believe",
+      "explanation": "Charles distinguishes authentic founder conviction from telling investors a story merely to satisfy them.",
+      "evidence": [
+        "if she'd come in and told a story she didn't believe"
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 285,
+          "speaker": "Charles",
+          "quote": "if she'd come in and told a story she didn't believe"
+        }
+      ],
+      "activation": "evaluated",
+      "source_rationale_id": "R16"
+    },
+    {
+      "rationale_label": "founder_qualities",
+      "direction": "positive",
+      "salience": "secondary",
+      "confidence": 0.95,
+      "utterance_type": "assessment",
+      "decision_link": "none",
+      "timing": "original_pitch",
+      "turn_index": 288,
+      "quote": "I'm actually glad that she was honest",
+      "explanation": "He explicitly values the founder's honesty about her ambitions.",
+      "evidence": [
+        "I'm actually glad that she was honest"
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 288,
+          "speaker": "Charles",
+          "quote": "I'm actually glad that she was honest"
+        }
+      ],
+      "activation": "evaluated",
+      "source_rationale_id": "R17"
+    },
+    {
+      "rationale_label": "investor_experience_bias",
+      "direction": "neutral",
+      "salience": "secondary",
+      "confidence": 0.91,
+      "utterance_type": "assessment",
+      "decision_link": "none",
+      "timing": "original_pitch",
+      "turn_index": 299,
+      "quote": "Sometimes I meet founders who just got advice from people who tell them to shrink their dreams.",
+      "explanation": "Charles references a recurring prior experience with founders whose ambitions were constrained by outside advice.",
+      "evidence": [
+        "Sometimes I meet founders who just got advice from people who tell them to shrink their dreams."
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 299,
+          "speaker": "Charles",
+          "quote": "Sometimes I meet founders who just got advice from people who tell them to shrink their dreams."
+        }
+      ],
+      "activation": "evaluated",
+      "source_rationale_id": "R18"
+    }
+  ],
+  "expanded_quote_evidence": [],
+  "rejected_after_evidence_check": []
+}

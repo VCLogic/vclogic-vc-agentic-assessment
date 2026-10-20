@@ -1,0 +1,988 @@
+{
+  "schema": "phase1-rationale-reference-v1",
+  "extraction_version": "pitchshow-rationales-v1",
+  "fingerprint": "52998a02edeb1600fcacef225cf0511154cb8cf7aed04c34d7eca6fa600618f0",
+  "episode_slug": "128-churchspace-airbnb-for-churches",
+  "vc_slug": "mac-conwell",
+  "vc_name": "Mac Conwell",
+  "actual_decision": "Out",
+  "later_decision": "Unknown",
+  "reference_kind": "automated_transcript_observed_candidate",
+  "human_validated": false,
+  "source_format": "transcript-observed-rationales-v1",
+  "source_path": "/home/dpasch01/vclogic-vc-agentic-assessment/evaluation/pitchshow/investors/mac-conwell/source/episodes/128-churchspace-airbnb-for-churches.json",
+  "source_sha256": "fc5a5121fd0cbfddae37cc96e30516b861504ca19c7d1e3f0a0767a0c8c47500",
+  "transcript_sha256": "641ee884ef68466c4e87d6720e59ad00bae3137d34ab38a3d8aa04cb75a91055",
+  "taxonomy_sha256": "eaa8734819a3ac34dd19ee5f0bf6de925a793a1d25a2d361090dafc9b751e1fc",
+  "model": "openai/gpt-5.6-luna",
+  "source_tier": "newly_extracted_and_independently_model_reviewed",
+  "reviewed_target_turns": [
+    2,
+    5,
+    18,
+    22,
+    27,
+    30,
+    43,
+    75,
+    77,
+    82,
+    84,
+    86,
+    91,
+    107,
+    109,
+    115,
+    120,
+    128,
+    165,
+    207,
+    209,
+    211,
+    213,
+    215,
+    230,
+    232,
+    234,
+    241,
+    243,
+    245,
+    248,
+    250,
+    344,
+    348,
+    352,
+    354,
+    356
+  ],
+  "notes": "Omitted greetings, generic confirmations, fragments, jokes, bare commentary, and Mac's explicitly hypothetical investor brainstorming at turn 250. The generic praise in turn 211 was not separately labeled as a business-model assessment because it did not specify a model or economic rationale.",
+  "receipt_path": "/home/dpasch01/vclogic-vc-agentic-assessment/evaluation/pitchshow/investors/mac-conwell/rationale-references/receipts/128-churchspace-airbnb-for-churches.json",
+  "scoring_scope": "original_pitch_only",
+  "shared_across_input_modes": true,
+  "rationales": [
+    {
+      "rationale_label": "business_model_assessment",
+      "direction": "positive",
+      "salience": "secondary",
+      "confidence": 0.95,
+      "utterance_type": "assessment",
+      "decision_link": "none",
+      "timing": "original_pitch",
+      "turn_index": 115,
+      "quote": "Interesting business model, really smart. Marketplace makes tons of sense.",
+      "explanation": "Mac explicitly expresses a favorable view of the marketplace model.",
+      "evidence": [
+        "Interesting business model, really smart. Marketplace makes tons of sense."
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 115,
+          "speaker": "Mac",
+          "quote": "Interesting business model, really smart. Marketplace makes tons of sense."
+        }
+      ],
+      "activation": "evaluated",
+      "source_rationale_id": "R9",
+      "utterance_kind": "assessment",
+      "decision_support": "none",
+      "all_mention_ids": [
+        "R5",
+        "R6",
+        "R7",
+        "R9"
+      ]
+    },
+    {
+      "rationale_label": "capital_intensity_concern",
+      "direction": "neutral",
+      "salience": "secondary",
+      "confidence": 0.9,
+      "utterance_type": "question",
+      "decision_link": "none",
+      "timing": "original_pitch",
+      "turn_index": 107,
+      "quote": "You mentioned you have 30k burn. What's your runway?",
+      "explanation": "Mac probes cash duration and the company's implied financing needs.",
+      "evidence": [
+        "You mentioned you have 30k burn. What's your runway?"
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 107,
+          "speaker": "Mac",
+          "quote": "You mentioned you have 30k burn. What's your runway?"
+        }
+      ],
+      "activation": "queried",
+      "source_rationale_id": "R8",
+      "utterance_kind": "question",
+      "decision_support": "none",
+      "all_mention_ids": [
+        "R8"
+      ]
+    },
+    {
+      "rationale_label": "founder_qualities",
+      "direction": "positive",
+      "salience": "secondary",
+      "confidence": 0.88,
+      "utterance_type": "assessment",
+      "decision_link": "none",
+      "timing": "original_pitch",
+      "turn_index": 209,
+      "quote": "And people I know and think very highly of think very highly of you.",
+      "explanation": "Mac cites positive opinions from people in his network about the founder.",
+      "evidence": [
+        "You seem like a dope person.",
+        "And people I know and think very highly of think very highly of you."
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 207,
+          "speaker": "Mac",
+          "quote": "You seem like a dope person."
+        },
+        {
+          "turn_index": 209,
+          "speaker": "Mac",
+          "quote": "And people I know and think very highly of think very highly of you."
+        }
+      ],
+      "activation": "evaluated",
+      "source_rationale_id": "R14",
+      "utterance_kind": "supporting_argument",
+      "decision_support": "none",
+      "all_mention_ids": [
+        "R13",
+        "R14"
+      ]
+    },
+    {
+      "rationale_label": "fundraising_demand_signal",
+      "direction": "neutral",
+      "salience": "secondary",
+      "confidence": 0.94,
+      "utterance_type": "question",
+      "decision_link": "none",
+      "timing": "original_pitch",
+      "turn_index": 22,
+      "quote": "How much of that do you have committed so far?",
+      "explanation": "Mac asks how much capital is already committed, probing demand for the round.",
+      "evidence": [
+        "How much of that do you have committed so far?"
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 22,
+          "speaker": "Mac",
+          "quote": "How much of that do you have committed so far?"
+        }
+      ],
+      "activation": "queried",
+      "source_rationale_id": "R1",
+      "utterance_kind": "question",
+      "decision_support": "none",
+      "all_mention_ids": [
+        "R1"
+      ]
+    },
+    {
+      "rationale_label": "go_to_market_strategy_assessment",
+      "direction": "positive",
+      "salience": "secondary",
+      "confidence": 0.88,
+      "utterance_type": "assessment",
+      "decision_link": "none",
+      "timing": "original_pitch",
+      "turn_index": 248,
+      "quote": "the building of our next building or whatever campaign, we're going to be using ChurchSpace, so if you see people here using it, if you would like to use it",
+      "explanation": "Mac describes church announcements as a potential customer-acquisition mechanism.",
+      "evidence": [
+        "if you work with these churches, that means you get a connection to the congregation",
+        "Every church congregation has local business leaders.",
+        "they do their updates. They talk about community events",
+        "It wouldn't be much for a church to be like, oh, and just to announce",
+        "the building of our next building or whatever campaign, we're going to be using ChurchSpace, so if you see people here using it, if you would like to use it"
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 232,
+          "speaker": "Mac",
+          "quote": "if you work with these churches, that means you get a connection to the congregation"
+        },
+        {
+          "turn_index": 234,
+          "speaker": "Mac",
+          "quote": "Every church congregation has local business leaders."
+        },
+        {
+          "turn_index": 243,
+          "speaker": "Mac",
+          "quote": "they do their updates. They talk about community events"
+        },
+        {
+          "turn_index": 245,
+          "speaker": "Mac",
+          "quote": "It wouldn't be much for a church to be like, oh, and just to announce"
+        },
+        {
+          "turn_index": 248,
+          "speaker": "Mac",
+          "quote": "the building of our next building or whatever campaign, we're going to be using ChurchSpace, so if you see people here using it, if you would like to use it"
+        }
+      ],
+      "activation": "evaluated",
+      "source_rationale_id": "R21",
+      "utterance_kind": "supporting_argument",
+      "decision_support": "none",
+      "all_mention_ids": [
+        "R17",
+        "R18",
+        "R19",
+        "R20",
+        "R21"
+      ]
+    },
+    {
+      "rationale_label": "investment_thesis_constraint",
+      "direction": "negative",
+      "salience": "primary",
+      "confidence": 0.99,
+      "utterance_type": "decision_reason",
+      "decision_link": "explicit",
+      "timing": "original_pitch",
+      "turn_index": 213,
+      "quote": "It's a no from me, because like I tend to stay away from this space.",
+      "explanation": "Mac explicitly links his refusal to a preference against investing in this space.",
+      "evidence": [
+        "due to my faith and the way I've looked at like faith-based investments, I've stayed away from it",
+        "It's a no from me, because like I tend to stay away from this space."
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 211,
+          "speaker": "Mac",
+          "quote": "due to my faith and the way I've looked at like faith-based investments, I've stayed away from it"
+        },
+        {
+          "turn_index": 213,
+          "speaker": "Mac",
+          "quote": "It's a no from me, because like I tend to stay away from this space."
+        }
+      ],
+      "activation": "evaluated",
+      "source_rationale_id": "R16",
+      "utterance_kind": "decision_explanation",
+      "decision_support": "supports_out",
+      "all_mention_ids": [
+        "R15",
+        "R16"
+      ]
+    },
+    {
+      "rationale_label": "market_entry_path_assessment",
+      "direction": "positive",
+      "salience": "secondary",
+      "confidence": 0.92,
+      "utterance_type": "assessment",
+      "decision_link": "none",
+      "timing": "original_pitch",
+      "turn_index": 43,
+      "quote": "You can partner with them and get to all of the churches.",
+      "explanation": "Mac identifies denominations as a potentially efficient channel for reaching many churches.",
+      "evidence": [
+        "You can partner with them and get to all of the churches."
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 43,
+          "speaker": "Mac",
+          "quote": "You can partner with them and get to all of the churches."
+        }
+      ],
+      "activation": "evaluated",
+      "source_rationale_id": "R4",
+      "utterance_kind": "supporting_argument",
+      "decision_support": "none",
+      "all_mention_ids": [
+        "R4",
+        "R11",
+        "R12"
+      ]
+    },
+    {
+      "rationale_label": "product_adoption",
+      "direction": "neutral",
+      "salience": "secondary",
+      "confidence": 0.9,
+      "utterance_type": "question",
+      "decision_link": "none",
+      "timing": "original_pitch",
+      "turn_index": 30,
+      "quote": "These are users?",
+      "explanation": "Mac clarifies whether the reported sign-ups represent actual users.",
+      "evidence": [
+        "So you mentioned that you had 8000 sign ups?",
+        "These are users?"
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 27,
+          "speaker": "Mac",
+          "quote": "So you mentioned that you had 8000 sign ups?"
+        },
+        {
+          "turn_index": 30,
+          "speaker": "Mac",
+          "quote": "These are users?"
+        }
+      ],
+      "activation": "queried",
+      "source_rationale_id": "R3",
+      "utterance_kind": "question",
+      "decision_support": "none",
+      "all_mention_ids": [
+        "R2",
+        "R3"
+      ]
+    },
+    {
+      "rationale_label": "venture_scale_concern",
+      "direction": "neutral",
+      "salience": "secondary",
+      "confidence": 0.91,
+      "utterance_type": "question",
+      "decision_link": "none",
+      "timing": "original_pitch",
+      "turn_index": 115,
+      "quote": "How you make this a billion dollar business?",
+      "explanation": "Mac asks how the company can achieve a venture-scale outcome.",
+      "evidence": [
+        "How you make this a billion dollar business?"
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 115,
+          "speaker": "Mac",
+          "quote": "How you make this a billion dollar business?"
+        }
+      ],
+      "activation": "queried",
+      "source_rationale_id": "R10",
+      "utterance_kind": "question",
+      "decision_support": "none",
+      "all_mention_ids": [
+        "R10"
+      ]
+    }
+  ],
+  "later_rationales": [],
+  "excluded_rationales": [
+    {
+      "rationale_label": "product_adoption",
+      "direction": "positive",
+      "salience": "secondary",
+      "confidence": 0.94,
+      "utterance_type": "assessment",
+      "decision_link": "none",
+      "timing": "teaser",
+      "turn_index": 344,
+      "quote": "You've done 5 million in sales; you did 3 million last year. Very impressive.",
+      "explanation": "Mac treats the company's sales volume and recent revenue as impressive traction.",
+      "evidence": [
+        "You've done 5 million in sales; you did 3 million last year. Very impressive."
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 344,
+          "speaker": "Mac",
+          "quote": "You've done 5 million in sales; you did 3 million last year. Very impressive."
+        }
+      ],
+      "activation": "evaluated",
+      "source_rationale_id": "R22"
+    },
+    {
+      "rationale_label": "investor_experience_bias",
+      "direction": "neutral",
+      "salience": "secondary",
+      "confidence": 0.86,
+      "utterance_type": "assessment",
+      "decision_link": "none",
+      "timing": "teaser",
+      "turn_index": 348,
+      "quote": "I have seen a lot of these companies. I've never made an investment in this space.",
+      "explanation": "Mac references his prior exposure and investment history in comparable companies.",
+      "evidence": [
+        "I have seen a lot of these companies. I've never made an investment in this space."
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 348,
+          "speaker": "Mac",
+          "quote": "I have seen a lot of these companies. I've never made an investment in this space."
+        }
+      ],
+      "activation": "evaluated",
+      "source_rationale_id": "R23"
+    },
+    {
+      "rationale_label": "venture_scale_concern",
+      "direction": "neutral",
+      "salience": "secondary",
+      "confidence": 0.86,
+      "utterance_type": "question",
+      "decision_link": "none",
+      "timing": "teaser",
+      "turn_index": 352,
+      "quote": "What makes it audacious?",
+      "explanation": "Mac asks the founder to substantiate the basis for her ambitious category-scale claim.",
+      "evidence": [
+        "What makes it audacious?"
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 352,
+          "speaker": "Mac",
+          "quote": "What makes it audacious?"
+        }
+      ],
+      "activation": "queried",
+      "source_rationale_id": "R24"
+    },
+    {
+      "rationale_label": "founder_communication_quality",
+      "direction": "positive",
+      "salience": "secondary",
+      "confidence": 0.91,
+      "utterance_type": "assessment",
+      "decision_link": "none",
+      "timing": "teaser",
+      "turn_index": 354,
+      "quote": "Just tell us what you want. That's what I wanted to hear.",
+      "explanation": "Mac positively responds to the founder clearly stating her ambition and request.",
+      "evidence": [
+        "Just tell us what you want. That's what I wanted to hear."
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 354,
+          "speaker": "Mac",
+          "quote": "Just tell us what you want. That's what I wanted to hear."
+        }
+      ],
+      "activation": "evaluated",
+      "source_rationale_id": "R25"
+    }
+  ],
+  "rationale_mentions": [
+    {
+      "rationale_label": "fundraising_demand_signal",
+      "direction": "neutral",
+      "salience": "secondary",
+      "confidence": 0.94,
+      "utterance_type": "question",
+      "decision_link": "none",
+      "timing": "original_pitch",
+      "turn_index": 22,
+      "quote": "How much of that do you have committed so far?",
+      "explanation": "Mac asks how much capital is already committed, probing demand for the round.",
+      "evidence": [
+        "How much of that do you have committed so far?"
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 22,
+          "speaker": "Mac",
+          "quote": "How much of that do you have committed so far?"
+        }
+      ],
+      "activation": "queried",
+      "source_rationale_id": "R1"
+    },
+    {
+      "rationale_label": "product_adoption",
+      "direction": "neutral",
+      "salience": "secondary",
+      "confidence": 0.93,
+      "utterance_type": "question",
+      "decision_link": "none",
+      "timing": "original_pitch",
+      "turn_index": 27,
+      "quote": "So you mentioned that you had 8000 sign ups?",
+      "explanation": "Mac probes the scale of the reported sign-ups as evidence of adoption.",
+      "evidence": [
+        "So you mentioned that you had 8000 sign ups?"
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 27,
+          "speaker": "Mac",
+          "quote": "So you mentioned that you had 8000 sign ups?"
+        }
+      ],
+      "activation": "queried",
+      "source_rationale_id": "R2"
+    },
+    {
+      "rationale_label": "product_adoption",
+      "direction": "neutral",
+      "salience": "secondary",
+      "confidence": 0.9,
+      "utterance_type": "question",
+      "decision_link": "none",
+      "timing": "original_pitch",
+      "turn_index": 30,
+      "quote": "These are users?",
+      "explanation": "Mac clarifies whether the reported sign-ups represent actual users.",
+      "evidence": [
+        "These are users?"
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 30,
+          "speaker": "Mac",
+          "quote": "These are users?"
+        }
+      ],
+      "activation": "queried",
+      "source_rationale_id": "R3"
+    },
+    {
+      "rationale_label": "market_entry_path_assessment",
+      "direction": "positive",
+      "salience": "secondary",
+      "confidence": 0.92,
+      "utterance_type": "supporting_argument",
+      "decision_link": "none",
+      "timing": "original_pitch",
+      "turn_index": 43,
+      "quote": "You can partner with them and get to all of the churches.",
+      "explanation": "Mac identifies denominations as a potentially efficient channel for reaching many churches.",
+      "evidence": [
+        "You can partner with them and get to all of the churches."
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 43,
+          "speaker": "Mac",
+          "quote": "You can partner with them and get to all of the churches."
+        }
+      ],
+      "activation": "evaluated",
+      "source_rationale_id": "R4"
+    },
+    {
+      "rationale_label": "business_model_assessment",
+      "direction": "neutral",
+      "salience": "secondary",
+      "confidence": 0.97,
+      "utterance_type": "question",
+      "decision_link": "none",
+      "timing": "original_pitch",
+      "turn_index": 75,
+      "quote": "Tell us a little bit about your business model.",
+      "explanation": "Mac requests details about how the company monetizes its marketplace.",
+      "evidence": [
+        "Tell us a little bit about your business model."
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 75,
+          "speaker": "Mac",
+          "quote": "Tell us a little bit about your business model."
+        }
+      ],
+      "activation": "queried",
+      "source_rationale_id": "R5"
+    },
+    {
+      "rationale_label": "business_model_assessment",
+      "direction": "neutral",
+      "salience": "secondary",
+      "confidence": 0.97,
+      "utterance_type": "question",
+      "decision_link": "none",
+      "timing": "original_pitch",
+      "turn_index": 77,
+      "quote": "How do you make money?",
+      "explanation": "Mac directly probes the company's revenue model.",
+      "evidence": [
+        "How do you make money?"
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 77,
+          "speaker": "Mac",
+          "quote": "How do you make money?"
+        }
+      ],
+      "activation": "queried",
+      "source_rationale_id": "R6"
+    },
+    {
+      "rationale_label": "business_model_assessment",
+      "direction": "neutral",
+      "salience": "secondary",
+      "confidence": 0.95,
+      "utterance_type": "question",
+      "decision_link": "none",
+      "timing": "original_pitch",
+      "turn_index": 86,
+      "quote": "What's the average value of one of these transactions?",
+      "explanation": "Mac asks about transaction size to assess marketplace monetization economics.",
+      "evidence": [
+        "What's the average value of one of these transactions?"
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 86,
+          "speaker": "Mac",
+          "quote": "What's the average value of one of these transactions?"
+        }
+      ],
+      "activation": "queried",
+      "source_rationale_id": "R7"
+    },
+    {
+      "rationale_label": "capital_intensity_concern",
+      "direction": "neutral",
+      "salience": "secondary",
+      "confidence": 0.9,
+      "utterance_type": "question",
+      "decision_link": "none",
+      "timing": "original_pitch",
+      "turn_index": 107,
+      "quote": "You mentioned you have 30k burn. What's your runway?",
+      "explanation": "Mac probes cash duration and the company's implied financing needs.",
+      "evidence": [
+        "You mentioned you have 30k burn. What's your runway?"
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 107,
+          "speaker": "Mac",
+          "quote": "You mentioned you have 30k burn. What's your runway?"
+        }
+      ],
+      "activation": "queried",
+      "source_rationale_id": "R8"
+    },
+    {
+      "rationale_label": "business_model_assessment",
+      "direction": "positive",
+      "salience": "secondary",
+      "confidence": 0.95,
+      "utterance_type": "assessment",
+      "decision_link": "none",
+      "timing": "original_pitch",
+      "turn_index": 115,
+      "quote": "Interesting business model, really smart. Marketplace makes tons of sense.",
+      "explanation": "Mac explicitly expresses a favorable view of the marketplace model.",
+      "evidence": [
+        "Interesting business model, really smart. Marketplace makes tons of sense."
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 115,
+          "speaker": "Mac",
+          "quote": "Interesting business model, really smart. Marketplace makes tons of sense."
+        }
+      ],
+      "activation": "evaluated",
+      "source_rationale_id": "R9"
+    },
+    {
+      "rationale_label": "venture_scale_concern",
+      "direction": "neutral",
+      "salience": "secondary",
+      "confidence": 0.91,
+      "utterance_type": "question",
+      "decision_link": "none",
+      "timing": "original_pitch",
+      "turn_index": 115,
+      "quote": "How you make this a billion dollar business?",
+      "explanation": "Mac asks how the company can achieve a venture-scale outcome.",
+      "evidence": [
+        "How you make this a billion dollar business?"
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 115,
+          "speaker": "Mac",
+          "quote": "How you make this a billion dollar business?"
+        }
+      ],
+      "activation": "queried",
+      "source_rationale_id": "R10"
+    },
+    {
+      "rationale_label": "market_entry_path_assessment",
+      "direction": "neutral",
+      "salience": "secondary",
+      "confidence": 0.9,
+      "utterance_type": "question",
+      "decision_link": "none",
+      "timing": "original_pitch",
+      "turn_index": 120,
+      "quote": "what are the other top two or three other users that you see that use your platform for these churches?",
+      "explanation": "Mac probes which customer segments can provide additional routes into the market.",
+      "model_quote_before_typography_repair": "What are the other top two or three other users that you see that use your platform for these churches?",
+      "evidence": [
+        "what are the other top two or three other users that you see that use your platform for these churches?"
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 120,
+          "speaker": "Mac",
+          "quote": "what are the other top two or three other users that you see that use your platform for these churches?"
+        }
+      ],
+      "activation": "queried",
+      "source_rationale_id": "R11"
+    },
+    {
+      "rationale_label": "market_entry_path_assessment",
+      "direction": "neutral",
+      "salience": "secondary",
+      "confidence": 0.9,
+      "utterance_type": "question",
+      "decision_link": "none",
+      "timing": "original_pitch",
+      "turn_index": 128,
+      "quote": "what percentage would be church-to-church, what percentage would be food, and what percentage would be the events?",
+      "explanation": "Mac asks how demand is distributed across the proposed customer segments.",
+      "model_quote_before_typography_repair": "What percentage would be church-to-church, what percentage would be food, and what percentage would be the events?",
+      "evidence": [
+        "what percentage would be church-to-church, what percentage would be food, and what percentage would be the events?"
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 128,
+          "speaker": "Mac",
+          "quote": "what percentage would be church-to-church, what percentage would be food, and what percentage would be the events?"
+        }
+      ],
+      "activation": "queried",
+      "source_rationale_id": "R12"
+    },
+    {
+      "rationale_label": "founder_qualities",
+      "direction": "positive",
+      "salience": "secondary",
+      "confidence": 0.9,
+      "utterance_type": "assessment",
+      "decision_link": "none",
+      "timing": "original_pitch",
+      "turn_index": 207,
+      "quote": "You seem like a dope person.",
+      "explanation": "Mac expresses a favorable personal impression of the founder.",
+      "evidence": [
+        "You seem like a dope person."
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 207,
+          "speaker": "Mac",
+          "quote": "You seem like a dope person."
+        }
+      ],
+      "activation": "evaluated",
+      "source_rationale_id": "R13"
+    },
+    {
+      "rationale_label": "founder_qualities",
+      "direction": "positive",
+      "salience": "secondary",
+      "confidence": 0.88,
+      "utterance_type": "supporting_argument",
+      "decision_link": "none",
+      "timing": "original_pitch",
+      "turn_index": 209,
+      "quote": "And people I know and think very highly of think very highly of you.",
+      "explanation": "Mac cites positive opinions from people in his network about the founder.",
+      "evidence": [
+        "And people I know and think very highly of think very highly of you."
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 209,
+          "speaker": "Mac",
+          "quote": "And people I know and think very highly of think very highly of you."
+        }
+      ],
+      "activation": "evaluated",
+      "source_rationale_id": "R14"
+    },
+    {
+      "rationale_label": "investment_thesis_constraint",
+      "direction": "negative",
+      "salience": "primary",
+      "confidence": 0.99,
+      "utterance_type": "decision_explanation",
+      "decision_link": "supports_out",
+      "timing": "original_pitch",
+      "turn_index": 211,
+      "quote": "due to my faith and the way I've looked at like faith-based investments, I've stayed away from it",
+      "explanation": "Mac says his approach to faith-based investments has led him to avoid the opportunity.",
+      "evidence": [
+        "due to my faith and the way I've looked at like faith-based investments, I've stayed away from it"
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 211,
+          "speaker": "Mac",
+          "quote": "due to my faith and the way I've looked at like faith-based investments, I've stayed away from it"
+        }
+      ],
+      "activation": "evaluated",
+      "source_rationale_id": "R15"
+    },
+    {
+      "rationale_label": "investment_thesis_constraint",
+      "direction": "negative",
+      "salience": "primary",
+      "confidence": 0.99,
+      "utterance_type": "decision_explanation",
+      "decision_link": "supports_out",
+      "timing": "original_pitch",
+      "turn_index": 213,
+      "quote": "It's a no from me, because like I tend to stay away from this space.",
+      "explanation": "Mac explicitly links his refusal to a preference against investing in this space.",
+      "evidence": [
+        "It's a no from me, because like I tend to stay away from this space."
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 213,
+          "speaker": "Mac",
+          "quote": "It's a no from me, because like I tend to stay away from this space."
+        }
+      ],
+      "activation": "evaluated",
+      "source_rationale_id": "R16"
+    },
+    {
+      "rationale_label": "go_to_market_strategy_assessment",
+      "direction": "positive",
+      "salience": "secondary",
+      "confidence": 0.89,
+      "utterance_type": "supporting_argument",
+      "decision_link": "none",
+      "timing": "original_pitch",
+      "turn_index": 232,
+      "quote": "if you work with these churches, that means you get a connection to the congregation",
+      "explanation": "Mac identifies church relationships as a channel for reaching congregations.",
+      "evidence": [
+        "if you work with these churches, that means you get a connection to the congregation"
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 232,
+          "speaker": "Mac",
+          "quote": "if you work with these churches, that means you get a connection to the congregation"
+        }
+      ],
+      "activation": "evaluated",
+      "source_rationale_id": "R17"
+    },
+    {
+      "rationale_label": "go_to_market_strategy_assessment",
+      "direction": "positive",
+      "salience": "secondary",
+      "confidence": 0.89,
+      "utterance_type": "supporting_argument",
+      "decision_link": "none",
+      "timing": "original_pitch",
+      "turn_index": 234,
+      "quote": "Every church congregation has local business leaders.",
+      "explanation": "Mac points to congregations as networks containing potential business contacts.",
+      "evidence": [
+        "Every church congregation has local business leaders."
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 234,
+          "speaker": "Mac",
+          "quote": "Every church congregation has local business leaders."
+        }
+      ],
+      "activation": "evaluated",
+      "source_rationale_id": "R18"
+    },
+    {
+      "rationale_label": "go_to_market_strategy_assessment",
+      "direction": "positive",
+      "salience": "secondary",
+      "confidence": 0.88,
+      "utterance_type": "supporting_argument",
+      "decision_link": "none",
+      "timing": "original_pitch",
+      "turn_index": 243,
+      "quote": "they do their updates. They talk about community events",
+      "explanation": "Mac notes that church communications provide an existing setting for promoting platform activity.",
+      "evidence": [
+        "they do their updates. They talk about community events"
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 243,
+          "speaker": "Mac",
+          "quote": "they do their updates. They talk about community events"
+        }
+      ],
+      "activation": "evaluated",
+      "source_rationale_id": "R19"
+    },
+    {
+      "rationale_label": "go_to_market_strategy_assessment",
+      "direction": "positive",
+      "salience": "secondary",
+      "confidence": 0.88,
+      "utterance_type": "supporting_argument",
+      "decision_link": "none",
+      "timing": "original_pitch",
+      "turn_index": 245,
+      "quote": "It wouldn't be much for a church to be like, oh, and just to announce",
+      "explanation": "Mac suggests that churches could readily announce and promote the platform to members.",
+      "evidence": [
+        "It wouldn't be much for a church to be like, oh, and just to announce"
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 245,
+          "speaker": "Mac",
+          "quote": "It wouldn't be much for a church to be like, oh, and just to announce"
+        }
+      ],
+      "activation": "evaluated",
+      "source_rationale_id": "R20"
+    },
+    {
+      "rationale_label": "go_to_market_strategy_assessment",
+      "direction": "positive",
+      "salience": "secondary",
+      "confidence": 0.88,
+      "utterance_type": "supporting_argument",
+      "decision_link": "none",
+      "timing": "original_pitch",
+      "turn_index": 248,
+      "quote": "the building of our next building or whatever campaign, we're going to be using ChurchSpace, so if you see people here using it, if you would like to use it",
+      "explanation": "Mac describes church announcements as a potential customer-acquisition mechanism.",
+      "evidence": [
+        "the building of our next building or whatever campaign, we're going to be using ChurchSpace, so if you see people here using it, if you would like to use it"
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 248,
+          "speaker": "Mac",
+          "quote": "the building of our next building or whatever campaign, we're going to be using ChurchSpace, so if you see people here using it, if you would like to use it"
+        }
+      ],
+      "activation": "evaluated",
+      "source_rationale_id": "R21"
+    }
+  ],
+  "expanded_quote_evidence": [],
+  "rejected_after_evidence_check": []
+}

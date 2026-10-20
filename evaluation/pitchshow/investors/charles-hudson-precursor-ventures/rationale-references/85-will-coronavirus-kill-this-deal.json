@@ -1,0 +1,439 @@
+{
+  "schema": "phase1-rationale-reference-v1",
+  "extraction_version": "pitchshow-rationales-v1",
+  "fingerprint": "85be4ed315a5a9fadc7b1c6c48801e108b412229cde31bc16086533a5d56503d",
+  "episode_slug": "85-will-coronavirus-kill-this-deal",
+  "vc_slug": "charles-hudson-precursor-ventures",
+  "vc_name": "Charles Hudson",
+  "actual_decision": "Out",
+  "later_decision": "Unknown",
+  "reference_kind": "automated_transcript_observed_candidate",
+  "human_validated": false,
+  "source_format": "transcript-observed-rationales-v1",
+  "source_path": "../source/episodes/85-will-coronavirus-kill-this-deal.json",
+  "source_sha256": "5a79f7072d7debbf46047fa7de71bfeeee4af5f1c8f4dd950ee5f95851d65629",
+  "transcript_sha256": "629d2411107a5df7c6ed0f6fafee83879b3c4c9dedf9eb9e723b3eb90fa97e2e",
+  "taxonomy_sha256": "eaa8734819a3ac34dd19ee5f0bf6de925a793a1d25a2d361090dafc9b751e1fc",
+  "model": "openai/gpt-5.6-luna",
+  "source_tier": "newly_extracted_and_independently_model_reviewed",
+  "reviewed_target_turns": [
+    4,
+    68,
+    70,
+    84,
+    86,
+    88,
+    90,
+    92
+  ],
+  "notes": "Turn 4 is a greeting and contains no rationale; every supplied target turn was reviewed.",
+  "receipt_path": "receipts/85-will-coronavirus-kill-this-deal.json",
+  "scoring_scope": "original_pitch_only",
+  "shared_across_input_modes": true,
+  "rationales": [
+    {
+      "rationale_label": "business_model_assessment",
+      "direction": "neutral",
+      "salience": "primary",
+      "confidence": 0.95,
+      "utterance_type": "assessment",
+      "decision_link": "none",
+      "timing": "original_pitch",
+      "turn_index": 84,
+      "quote": "there is a very strong relationship between the product you build and your business model",
+      "explanation": "He sees the product roadmap and monetization model as tightly linked, making the SaaS-versus-marketplace choice strategically consequential.",
+      "evidence": [
+        "there is a very strong relationship between the product you build and your business model"
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 84,
+          "speaker": "Charles",
+          "quote": "there is a very strong relationship between the product you build and your business model"
+        }
+      ],
+      "activation": "evaluated",
+      "source_rationale_id": "R4",
+      "utterance_kind": "assessment",
+      "decision_support": "none",
+      "all_mention_ids": [
+        "R1",
+        "R3",
+        "R4",
+        "R8",
+        "R10"
+      ]
+    },
+    {
+      "rationale_label": "founder_investor_vision_alignment",
+      "direction": "negative",
+      "salience": "primary",
+      "confidence": 0.99,
+      "utterance_type": "decision_reason",
+      "decision_link": "explicit",
+      "timing": "original_pitch",
+      "turn_index": 88,
+      "quote": "It's just hard for me to work with entrepreneurs when I feel like we're not totally aligned",
+      "explanation": "He explicitly passes because his preferred business direction differs from the direction he expects the founder to pursue.",
+      "model_quote_before_typography_repair": "it's just hard for me to work with entrepreneurs when I feel like we're not totally aligned",
+      "evidence": [
+        "It's just hard for me to work with entrepreneurs when I feel like we're not totally aligned"
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 88,
+          "speaker": "Charles",
+          "quote": "It's just hard for me to work with entrepreneurs when I feel like we're not totally aligned"
+        }
+      ],
+      "activation": "evaluated",
+      "source_rationale_id": "R6",
+      "utterance_kind": "decision_explanation",
+      "decision_support": "supports_out",
+      "all_mention_ids": [
+        "R6"
+      ]
+    },
+    {
+      "rationale_label": "founder_skillset",
+      "direction": "positive",
+      "salience": "secondary",
+      "confidence": 0.94,
+      "utterance_type": "assessment",
+      "decision_link": "none",
+      "timing": "original_pitch",
+      "turn_index": 88,
+      "quote": "you have so many insights about what works for both sides of this marketplace that no one else has",
+      "explanation": "Charles credits the founder with unusually valuable insight into both sides of the marketplace.",
+      "evidence": [
+        "you have so many insights about what works for both sides of this marketplace that no one else has"
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 88,
+          "speaker": "Charles",
+          "quote": "you have so many insights about what works for both sides of this marketplace that no one else has"
+        }
+      ],
+      "activation": "evaluated",
+      "source_rationale_id": "R7",
+      "utterance_kind": "supporting_argument",
+      "decision_support": "none",
+      "all_mention_ids": [
+        "R7"
+      ]
+    },
+    {
+      "rationale_label": "go_to_market_strategy_assessment",
+      "direction": "neutral",
+      "salience": "secondary",
+      "confidence": 0.87,
+      "utterance_type": "assessment",
+      "decision_link": "none",
+      "timing": "original_pitch",
+      "turn_index": 86,
+      "quote": "And you need scale. And you need to build relationships.",
+      "explanation": "Charles identifies scale and relationship-building as requirements for the marketplace-oriented approach.",
+      "evidence": [
+        "And you need scale. And you need to build relationships."
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 86,
+          "speaker": "Charles",
+          "quote": "And you need scale. And you need to build relationships."
+        }
+      ],
+      "activation": "evaluated",
+      "source_rationale_id": "R5",
+      "utterance_kind": "supporting_argument",
+      "decision_support": "none",
+      "all_mention_ids": [
+        "R5"
+      ]
+    },
+    {
+      "rationale_label": "investment_upside_assessment",
+      "direction": "positive",
+      "salience": "secondary",
+      "confidence": 0.9,
+      "utterance_type": "assessment",
+      "decision_link": "none",
+      "timing": "original_pitch",
+      "turn_index": 90,
+      "quote": "you are sitting on a goldmine of information",
+      "explanation": "Charles views the company’s information as a highly valuable asset with substantial potential.",
+      "evidence": [
+        "there's so much money, you, you, you're creating so much value for the landlords",
+        "you are sitting on a goldmine of information"
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 70,
+          "speaker": "Charles",
+          "quote": "there's so much money, you, you, you're creating so much value for the landlords"
+        },
+        {
+          "turn_index": 90,
+          "speaker": "Charles",
+          "quote": "you are sitting on a goldmine of information"
+        }
+      ],
+      "activation": "evaluated",
+      "source_rationale_id": "R9",
+      "utterance_kind": "assessment",
+      "decision_support": "none",
+      "all_mention_ids": [
+        "R2",
+        "R9"
+      ]
+    }
+  ],
+  "later_rationales": [],
+  "excluded_rationales": [],
+  "rationale_mentions": [
+    {
+      "rationale_label": "business_model_assessment",
+      "direction": "negative",
+      "salience": "primary",
+      "confidence": 0.97,
+      "utterance_type": "concern",
+      "decision_link": "none",
+      "timing": "original_pitch",
+      "turn_index": 68,
+      "quote": "a dollar per building is too little to be worth your trouble",
+      "explanation": "Charles views the current low-price model as inadequate and points toward lead-generation monetization instead.",
+      "evidence": [
+        "a dollar per building is too little to be worth your trouble"
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 68,
+          "speaker": "Charles",
+          "quote": "a dollar per building is too little to be worth your trouble"
+        }
+      ],
+      "activation": "evaluated",
+      "source_rationale_id": "R1"
+    },
+    {
+      "rationale_label": "investment_upside_assessment",
+      "direction": "positive",
+      "salience": "secondary",
+      "confidence": 0.87,
+      "utterance_type": "supporting_argument",
+      "decision_link": "none",
+      "timing": "original_pitch",
+      "turn_index": 70,
+      "quote": "there's so much money, you, you, you're creating so much value for the landlords",
+      "explanation": "He sees substantial value creation for landlords and corresponding monetization upside if the company captures it.",
+      "evidence": [
+        "there's so much money, you, you, you're creating so much value for the landlords"
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 70,
+          "speaker": "Charles",
+          "quote": "there's so much money, you, you, you're creating so much value for the landlords"
+        }
+      ],
+      "activation": "evaluated",
+      "source_rationale_id": "R2"
+    },
+    {
+      "rationale_label": "business_model_assessment",
+      "direction": "negative",
+      "salience": "primary",
+      "confidence": 0.96,
+      "utterance_type": "concern",
+      "decision_link": "none",
+      "timing": "original_pitch",
+      "turn_index": 70,
+      "quote": "I kind of would be happier if there were a model where you're like hey, it's $5 a unit, $1000 building minimum",
+      "explanation": "Charles prefers materially higher pricing or a free marketplace with lead-generation revenue over the current middle-ground model.",
+      "evidence": [
+        "I kind of would be happier if there were a model where you're like hey, it's $5 a unit, $1000 building minimum"
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 70,
+          "speaker": "Charles",
+          "quote": "I kind of would be happier if there were a model where you're like hey, it's $5 a unit, $1000 building minimum"
+        }
+      ],
+      "activation": "evaluated",
+      "source_rationale_id": "R3"
+    },
+    {
+      "rationale_label": "business_model_assessment",
+      "direction": "neutral",
+      "salience": "primary",
+      "confidence": 0.95,
+      "utterance_type": "assessment",
+      "decision_link": "none",
+      "timing": "original_pitch",
+      "turn_index": 84,
+      "quote": "there is a very strong relationship between the product you build and your business model",
+      "explanation": "He sees the product roadmap and monetization model as tightly linked, making the SaaS-versus-marketplace choice strategically consequential.",
+      "evidence": [
+        "there is a very strong relationship between the product you build and your business model"
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 84,
+          "speaker": "Charles",
+          "quote": "there is a very strong relationship between the product you build and your business model"
+        }
+      ],
+      "activation": "evaluated",
+      "source_rationale_id": "R4"
+    },
+    {
+      "rationale_label": "go_to_market_strategy_assessment",
+      "direction": "neutral",
+      "salience": "secondary",
+      "confidence": 0.87,
+      "utterance_type": "supporting_argument",
+      "decision_link": "none",
+      "timing": "original_pitch",
+      "turn_index": 86,
+      "quote": "And you need scale. And you need to build relationships.",
+      "explanation": "Charles identifies scale and relationship-building as requirements for the marketplace-oriented approach.",
+      "evidence": [
+        "And you need scale. And you need to build relationships."
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 86,
+          "speaker": "Charles",
+          "quote": "And you need scale. And you need to build relationships."
+        }
+      ],
+      "activation": "evaluated",
+      "source_rationale_id": "R5"
+    },
+    {
+      "rationale_label": "founder_investor_vision_alignment",
+      "direction": "negative",
+      "salience": "primary",
+      "confidence": 0.99,
+      "utterance_type": "decision_explanation",
+      "decision_link": "supports_out",
+      "timing": "original_pitch",
+      "turn_index": 88,
+      "quote": "It's just hard for me to work with entrepreneurs when I feel like we're not totally aligned",
+      "explanation": "He explicitly passes because his preferred business direction differs from the direction he expects the founder to pursue.",
+      "model_quote_before_typography_repair": "it's just hard for me to work with entrepreneurs when I feel like we're not totally aligned",
+      "evidence": [
+        "It's just hard for me to work with entrepreneurs when I feel like we're not totally aligned"
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 88,
+          "speaker": "Charles",
+          "quote": "It's just hard for me to work with entrepreneurs when I feel like we're not totally aligned"
+        }
+      ],
+      "activation": "evaluated",
+      "source_rationale_id": "R6"
+    },
+    {
+      "rationale_label": "founder_skillset",
+      "direction": "positive",
+      "salience": "secondary",
+      "confidence": 0.94,
+      "utterance_type": "supporting_argument",
+      "decision_link": "none",
+      "timing": "original_pitch",
+      "turn_index": 88,
+      "quote": "you have so many insights about what works for both sides of this marketplace that no one else has",
+      "explanation": "Charles credits the founder with unusually valuable insight into both sides of the marketplace.",
+      "evidence": [
+        "you have so many insights about what works for both sides of this marketplace that no one else has"
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 88,
+          "speaker": "Charles",
+          "quote": "you have so many insights about what works for both sides of this marketplace that no one else has"
+        }
+      ],
+      "activation": "evaluated",
+      "source_rationale_id": "R7"
+    },
+    {
+      "rationale_label": "business_model_assessment",
+      "direction": "negative",
+      "salience": "secondary",
+      "confidence": 0.94,
+      "utterance_type": "assessment",
+      "decision_link": "none",
+      "timing": "original_pitch",
+      "turn_index": 88,
+      "quote": "you're not getting properly compensated for what you've built",
+      "explanation": "He believes the current model does not capture enough economic value from the company’s assets and work.",
+      "evidence": [
+        "you're not getting properly compensated for what you've built"
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 88,
+          "speaker": "Charles",
+          "quote": "you're not getting properly compensated for what you've built"
+        }
+      ],
+      "activation": "evaluated",
+      "source_rationale_id": "R8"
+    },
+    {
+      "rationale_label": "investment_upside_assessment",
+      "direction": "positive",
+      "salience": "secondary",
+      "confidence": 0.9,
+      "utterance_type": "assessment",
+      "decision_link": "none",
+      "timing": "original_pitch",
+      "turn_index": 90,
+      "quote": "you are sitting on a goldmine of information",
+      "explanation": "Charles views the company’s information as a highly valuable asset with substantial potential.",
+      "evidence": [
+        "you are sitting on a goldmine of information"
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 90,
+          "speaker": "Charles",
+          "quote": "you are sitting on a goldmine of information"
+        }
+      ],
+      "activation": "evaluated",
+      "source_rationale_id": "R9"
+    },
+    {
+      "rationale_label": "business_model_assessment",
+      "direction": "negative",
+      "salience": "secondary",
+      "confidence": 0.94,
+      "utterance_type": "concern",
+      "decision_link": "none",
+      "timing": "original_pitch",
+      "turn_index": 92,
+      "quote": "it would be a tragedy for you to not extract an appropriate amount of value for what you've created",
+      "explanation": "He reiterates that the company risks failing to monetize the value it has created appropriately.",
+      "evidence": [
+        "it would be a tragedy for you to not extract an appropriate amount of value for what you've created"
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 92,
+          "speaker": "Charles",
+          "quote": "it would be a tragedy for you to not extract an appropriate amount of value for what you've created"
+        }
+      ],
+      "activation": "evaluated",
+      "source_rationale_id": "R10"
+    }
+  ],
+  "expanded_quote_evidence": [],
+  "rejected_after_evidence_check": []
+}

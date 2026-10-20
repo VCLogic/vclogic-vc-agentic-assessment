@@ -1,25 +1,18 @@
 # traction_growth
 
-[ev:yin-0035] label=traction_repeatability_concern direction=negative source=talk:OfAuvHS8GSQ
-> "You can come up with revenue, like anybody can sell consulting services or sell one package to one customer. and get revenue. That doesn't necessarily mean you can do that repeatedly. in a scaled way."
+Verbatim transcript excerpts; whitespace normalized. Labels describe the cited statement.
 
-[ev:yin-0036] label=traction_repeatability_concern direction=positive source=blog:the-challenges-of-growth-where-startups-struggle-and-how-to-fix-them
-> "You have found product market fit when you can repeatably acquire customers for a lower cost than what they are worth to you."
+[ev:elizabeth-yin-hustle-fund-0019] label=traction_repeatability_concern direction=positive source=full:c2b651e79d5aa367a3551447
+> "these companies, D2C e commerce companies, they tend not to be able to attract that much capital. So you actually can generally see a lot of traction before you write the check and you're still getting in at a low valuation."
 
-[ev:yin-0037] label=traction_repeatability_concern direction=positive source=blog:how-do-seed-investors-benchmark-startups
-> "These are all companies that need a TON of users, great retention and engagement, and continued-fast-growth of user adoption in order to make money off of ad revenue later."
+Support: explicit. Interpretation: She sees D2C investing as offering observable traction before investment while retaining a low entry valuation.
 
-[ev:yin-0038] label=traction_repeatability_concern direction=negative source=talk:40Wrak60R7I
-> "They had a contract that was signed for a lot of revenue. But like... You know... months and then even years went by where Nothing happened in the contract."
+[ev:elizabeth-yin-hustle-fund-0024] label=traction_repeatability_concern direction=neutral source=full:c2b651e79d5aa367a3551447
+> "we're looking for low valuations, no traction, But it's not just an idea. You've done something in the business, and we invest globally."
 
-[ev:yin-0039] label=growth_projection_risk direction=neutral source=blog:what-traction-do-i-need-to-raise-money
-> "Your ability to raise is NOT just about your traction. There are a LOT of other caveats and criteria."
+Support: explicit. Interpretation: She will invest before traction at low valuations, but expects founders to have done more than merely formulate an idea.
 
-[ev:yin-0040] label=traction_repeatability_concern direction=positive source=blog:how-i-invest-as-a-pre-seed-investor
-> "I am not looking for loads of traction but the ability to have a conversation with a team about what they’ve learned each new week based on something new they tried in their sales or product development the prior week."
+[ev:elizabeth-yin-hustle-fund-0082] label=traction_repeatability_concern direction=positive source=full:db560c7f86b895e1d7d7957b
+> "And many of the high valuations are justified. I’d never previously seen companies scale to millions in revenue run rate within weeks or months."
 
-[ev:yin-0041] label=traction_repeatability_concern direction=positive source=blog:how-i-invest-as-a-pre-seed-investor
-> "By just getting started and exchanging money, you can learn more about your customer persona, his/her daily life, and what makes him/her buy."
-
-[ev:yin-0042] label=growth_projection_risk direction=negative source=blog:3-things-i-learned-about-seed-investing-in-2015
-> "I’ve seen a ton of high growth companies with poor unit economics get stuck in the later stages of fundraising."
+Support: explicit. Interpretation: She considers some high valuations justified when companies demonstrate unusually rapid scaling to multimillion-dollar revenue run rates.

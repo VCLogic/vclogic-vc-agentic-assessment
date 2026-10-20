@@ -1,0 +1,1053 @@
+{
+  "schema": "phase1-rationale-reference-v1",
+  "extraction_version": "pitchshow-rationales-v1",
+  "fingerprint": "f24fa9a76d1cda7d1be6413f1346f8987191b183add57e22780e47b893a3a76e",
+  "episode_slug": "39-this-pitch-is-damn-near-perfect",
+  "vc_slug": "jillian-manus-structure-capital",
+  "vc_name": "Jillian Manus",
+  "actual_decision": "In",
+  "later_decision": "Out",
+  "reference_kind": "automated_transcript_observed_candidate",
+  "human_validated": false,
+  "source_format": "transcript-observed-rationales-v1",
+  "source_path": "/home/dpasch01/vclogic-vc-agentic-assessment/evaluation/pitchshow/investors/jillian-manus-structure-capital/source/episodes/39-this-pitch-is-damn-near-perfect.json",
+  "source_sha256": "16ef8bd5e14a7f09e7a57c418468b84430daa1a68fce6f5fa255f3059e818e2a",
+  "transcript_sha256": "1482e661846c06e9e8edef9a89590d5a43fd11c4a3b9339c963be4c92fceeb2d",
+  "taxonomy_sha256": "eaa8734819a3ac34dd19ee5f0bf6de925a793a1d25a2d361090dafc9b751e1fc",
+  "model": "codex:gpt-5.6-luna+gpt-5.6-sol",
+  "generation_stages": [
+    {
+      "phase": "rationale_extract",
+      "backend": "codex",
+      "model": "gpt-5.6-luna"
+    },
+    {
+      "phase": "rationale_verify",
+      "backend": "codex",
+      "model": "gpt-5.6-sol"
+    }
+  ],
+  "source_tier": "newly_extracted_and_independently_model_reviewed",
+  "reviewed_target_turns": [
+    1,
+    5,
+    9,
+    18,
+    24,
+    26,
+    28,
+    30,
+    33,
+    35,
+    40,
+    45,
+    54,
+    61,
+    63,
+    66,
+    72,
+    92,
+    94,
+    96,
+    98,
+    100,
+    112,
+    114,
+    117,
+    123
+  ],
+  "notes": "All supplied target turns were reviewed. Turns 112–123 remain original_pitch because they are part of the immediate same-room investor debrief. Brief jokes, confirmations, and factual questions without a supported taxonomy concept were omitted.",
+  "receipt_path": "/home/dpasch01/vclogic-vc-agentic-assessment/evaluation/pitchshow/investors/jillian-manus-structure-capital/rationale-references/receipts/39-this-pitch-is-damn-near-perfect.json",
+  "scoring_scope": "original_pitch_only",
+  "shared_across_input_modes": true,
+  "rationales": [
+    {
+      "rationale_label": "business_model_assessment",
+      "direction": "neutral",
+      "salience": "secondary",
+      "confidence": 0.85,
+      "utterance_type": "question",
+      "decision_link": "none",
+      "timing": "original_pitch",
+      "turn_index": 33,
+      "quote": "$295?",
+      "explanation": "She queries the product’s selling price, a material monetization detail.",
+      "evidence": [
+        "$295?"
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 33,
+          "speaker": "Jillian",
+          "quote": "$295?"
+        }
+      ],
+      "activation": "queried",
+      "source_rationale_id": "R4",
+      "utterance_kind": "question",
+      "decision_support": "none",
+      "all_mention_ids": [
+        "R4"
+      ]
+    },
+    {
+      "rationale_label": "founder_execution",
+      "direction": "positive",
+      "salience": "primary",
+      "confidence": 0.95,
+      "utterance_type": "decision_reason",
+      "decision_link": "explicit",
+      "timing": "original_pitch",
+      "turn_index": 100,
+      "quote": "Because I think you’re going to do this.",
+      "explanation": "She explicitly links her $50,000 commitment to confidence in Stefan’s ability to succeed.",
+      "evidence": [
+        "Because I think you’re going to do this."
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 100,
+          "speaker": "Jillian",
+          "quote": "Because I think you’re going to do this."
+        }
+      ],
+      "activation": "evaluated",
+      "source_rationale_id": "R20",
+      "utterance_kind": "decision_explanation",
+      "decision_support": "supports_in",
+      "all_mention_ids": [
+        "R20"
+      ]
+    },
+    {
+      "rationale_label": "founder_qualities",
+      "direction": "positive",
+      "salience": "secondary",
+      "confidence": 0.99,
+      "utterance_type": "assessment",
+      "decision_link": "none",
+      "timing": "original_pitch",
+      "turn_index": 92,
+      "quote": "You're smart. You're savvy. You're personable.",
+      "explanation": "Jillian positively assesses Stefan’s personal qualities.",
+      "evidence": [
+        "You're smart. You're savvy. You're personable."
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 92,
+          "speaker": "Jillian",
+          "quote": "You're smart. You're savvy. You're personable."
+        }
+      ],
+      "activation": "evaluated",
+      "source_rationale_id": "R12",
+      "utterance_kind": "assessment",
+      "decision_support": "none",
+      "all_mention_ids": [
+        "R12"
+      ]
+    },
+    {
+      "rationale_label": "founder_skillset",
+      "direction": "positive",
+      "salience": "primary",
+      "confidence": 0.98,
+      "utterance_type": "assessment",
+      "decision_link": "none",
+      "timing": "original_pitch",
+      "turn_index": 92,
+      "quote": "You are the product genius, for sure.",
+      "explanation": "She identifies product judgment as a core founder strength.",
+      "evidence": [
+        "You are the product genius, for sure."
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 92,
+          "speaker": "Jillian",
+          "quote": "You are the product genius, for sure."
+        }
+      ],
+      "activation": "evaluated",
+      "source_rationale_id": "R13",
+      "utterance_kind": "assessment",
+      "decision_support": "none",
+      "all_mention_ids": [
+        "R13"
+      ]
+    },
+    {
+      "rationale_label": "go_to_market_strategy_assessment",
+      "direction": "neutral",
+      "salience": "secondary",
+      "confidence": 0.99,
+      "utterance_type": "question",
+      "decision_link": "none",
+      "timing": "original_pitch",
+      "turn_index": 66,
+      "quote": "What’s the marketing strategy?",
+      "explanation": "She asks how the company plans to market its products and acquire customers.",
+      "evidence": [
+        "What was the brand misstep?",
+        "What’s the marketing strategy?"
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 45,
+          "speaker": "Jillian",
+          "quote": "What was the brand misstep?"
+        },
+        {
+          "turn_index": 66,
+          "speaker": "Jillian",
+          "quote": "What’s the marketing strategy?"
+        }
+      ],
+      "activation": "queried",
+      "source_rationale_id": "R10",
+      "utterance_kind": "question",
+      "decision_support": "none",
+      "all_mention_ids": [
+        "R6",
+        "R10"
+      ]
+    },
+    {
+      "rationale_label": "investor_domain_knowledge_constraint",
+      "direction": "negative",
+      "salience": "primary",
+      "confidence": 0.99,
+      "utterance_type": "decision_reason",
+      "decision_link": "none",
+      "timing": "original_pitch",
+      "turn_index": 100,
+      "quote": "I don’t know anything about apparel.",
+      "explanation": "She explicitly identifies insufficient apparel knowledge as the negative side of her investment decision.",
+      "model_quote_before_typography_repair": "I don't know anything about apparel.",
+      "evidence": [
+        "I have never invested in apparel.",
+        "I do tech",
+        "I don’t know anything about apparel."
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 92,
+          "speaker": "Jillian",
+          "quote": "I have never invested in apparel."
+        },
+        {
+          "turn_index": 98,
+          "speaker": "Jillian",
+          "quote": "I do tech"
+        },
+        {
+          "turn_index": 100,
+          "speaker": "Jillian",
+          "quote": "I don’t know anything about apparel."
+        }
+      ],
+      "activation": "evaluated",
+      "source_rationale_id": "R18",
+      "utterance_kind": "decision_explanation",
+      "decision_support": "unclear",
+      "all_mention_ids": [
+        "R14",
+        "R15",
+        "R16",
+        "R18"
+      ]
+    },
+    {
+      "rationale_label": "investor_experience_bias",
+      "direction": "negative",
+      "salience": "primary",
+      "confidence": 0.99,
+      "utterance_type": "decision_reason",
+      "decision_link": "none",
+      "timing": "original_pitch",
+      "turn_index": 100,
+      "quote": "it really left me scarred",
+      "explanation": "She says a prior failed investment outside her usual area still makes her cautious, although she ultimately offers a limited investment here.",
+      "evidence": [
+        "it really left me scarred"
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 100,
+          "speaker": "Jillian",
+          "quote": "it really left me scarred"
+        }
+      ],
+      "activation": "evaluated",
+      "source_rationale_id": "R17",
+      "utterance_kind": "decision_explanation",
+      "decision_support": "unclear",
+      "all_mention_ids": [
+        "R17"
+      ]
+    },
+    {
+      "rationale_label": "product_adoption",
+      "direction": "positive",
+      "salience": "secondary",
+      "confidence": 0.88,
+      "utterance_type": "assessment",
+      "decision_link": "none",
+      "timing": "original_pitch",
+      "turn_index": 117,
+      "quote": "Sticky, sticky, sticky.",
+      "explanation": "Reacting to an investor’s immediate plan to travel with the jacket, she characterizes the product as likely to sustain meaningful use.",
+      "evidence": [
+        "Sticky, sticky, sticky."
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 117,
+          "speaker": "Jillian",
+          "quote": "Sticky, sticky, sticky."
+        }
+      ],
+      "activation": "evaluated",
+      "source_rationale_id": "R23",
+      "utterance_kind": "assessment",
+      "decision_support": "none",
+      "all_mention_ids": [
+        "R23"
+      ]
+    },
+    {
+      "rationale_label": "product_appeal_assessment",
+      "direction": "positive",
+      "salience": "primary",
+      "confidence": 0.99,
+      "utterance_type": "decision_reason",
+      "decision_link": "explicit",
+      "timing": "original_pitch",
+      "turn_index": 100,
+      "quote": "I would buy this for every single man.",
+      "explanation": "Her strong personal demand for the product is presented as the positive counterweight leading into her investment offer.",
+      "evidence": [
+        "I think that's a smart looking jacket.",
+        "that doesn’t fit that badly",
+        "That's not bad.",
+        "Huge! Huge.",
+        "I so need this.",
+        "I would buy this for every single man.",
+        "I think daddy will go crazy over this.",
+        "It looks awesome.",
+        "This rocks."
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 24,
+          "speaker": "Jillian",
+          "quote": "I think that's a smart looking jacket."
+        },
+        {
+          "turn_index": 28,
+          "speaker": "Jillian",
+          "quote": "that doesn’t fit that badly"
+        },
+        {
+          "turn_index": 30,
+          "speaker": "Jillian",
+          "quote": "That's not bad."
+        },
+        {
+          "turn_index": 61,
+          "speaker": "Jillian",
+          "quote": "Huge! Huge."
+        },
+        {
+          "turn_index": 63,
+          "speaker": "Jillian",
+          "quote": "I so need this."
+        },
+        {
+          "turn_index": 100,
+          "speaker": "Jillian",
+          "quote": "I would buy this for every single man."
+        },
+        {
+          "turn_index": 112,
+          "speaker": "Jillian",
+          "quote": "I think daddy will go crazy over this."
+        },
+        {
+          "turn_index": 114,
+          "speaker": "Jillian",
+          "quote": "It looks awesome."
+        },
+        {
+          "turn_index": 123,
+          "speaker": "Jillian",
+          "quote": "This rocks."
+        }
+      ],
+      "activation": "evaluated",
+      "source_rationale_id": "R19",
+      "utterance_kind": "decision_explanation",
+      "decision_support": "supports_in",
+      "all_mention_ids": [
+        "R1",
+        "R2",
+        "R3",
+        "R8",
+        "R9",
+        "R19",
+        "R21",
+        "R22",
+        "R24"
+      ]
+    },
+    {
+      "rationale_label": "product_differentiation_concern",
+      "direction": "negative",
+      "salience": "secondary",
+      "confidence": 0.86,
+      "utterance_type": "assessment",
+      "decision_link": "none",
+      "timing": "original_pitch",
+      "turn_index": 72,
+      "quote": "This seems like it needs something...",
+      "explanation": "Comparing the company with memorable consumer brands, she indicates that Bluffworks still needs a distinctive, compelling hook.",
+      "evidence": [
+        "This seems like it needs something..."
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 72,
+          "speaker": "Jillian",
+          "quote": "This seems like it needs something..."
+        }
+      ],
+      "activation": "evaluated",
+      "source_rationale_id": "R11",
+      "utterance_kind": "concern",
+      "decision_support": "none",
+      "all_mention_ids": [
+        "R11"
+      ]
+    },
+    {
+      "rationale_label": "unit_economics_assessment",
+      "direction": "neutral",
+      "salience": "secondary",
+      "confidence": 0.8,
+      "utterance_type": "question",
+      "decision_link": "none",
+      "timing": "original_pitch",
+      "turn_index": 54,
+      "quote": "When you say offshore, how offshore?",
+      "explanation": "She probes the planned manufacturing shift that the founder presents as a way to improve production costs and margins.",
+      "evidence": [
+        "let's hear about the margins too",
+        "When you say offshore, how offshore?"
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 40,
+          "speaker": "Jillian",
+          "quote": "let's hear about the margins too"
+        },
+        {
+          "turn_index": 54,
+          "speaker": "Jillian",
+          "quote": "When you say offshore, how offshore?"
+        }
+      ],
+      "activation": "queried",
+      "source_rationale_id": "R7",
+      "utterance_kind": "question",
+      "decision_support": "none",
+      "all_mention_ids": [
+        "R5",
+        "R7"
+      ]
+    }
+  ],
+  "later_rationales": [],
+  "excluded_rationales": [],
+  "rationale_mentions": [
+    {
+      "rationale_label": "product_appeal_assessment",
+      "direction": "positive",
+      "salience": "secondary",
+      "confidence": 0.97,
+      "utterance_type": "assessment",
+      "decision_link": "none",
+      "timing": "original_pitch",
+      "turn_index": 24,
+      "quote": "I think that's a smart looking jacket.",
+      "explanation": "Jillian positively assesses the jacket’s appearance.",
+      "evidence": [
+        "I think that's a smart looking jacket."
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 24,
+          "speaker": "Jillian",
+          "quote": "I think that's a smart looking jacket."
+        }
+      ],
+      "activation": "evaluated",
+      "source_rationale_id": "R1"
+    },
+    {
+      "rationale_label": "product_appeal_assessment",
+      "direction": "positive",
+      "salience": "secondary",
+      "confidence": 0.94,
+      "utterance_type": "assessment",
+      "decision_link": "none",
+      "timing": "original_pitch",
+      "turn_index": 28,
+      "quote": "that doesn’t fit that badly",
+      "explanation": "She gives a qualified positive assessment of the jacket’s fit.",
+      "evidence": [
+        "that doesn’t fit that badly"
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 28,
+          "speaker": "Jillian",
+          "quote": "that doesn’t fit that badly"
+        }
+      ],
+      "activation": "evaluated",
+      "source_rationale_id": "R2"
+    },
+    {
+      "rationale_label": "product_appeal_assessment",
+      "direction": "positive",
+      "salience": "secondary",
+      "confidence": 0.91,
+      "utterance_type": "assessment",
+      "decision_link": "none",
+      "timing": "original_pitch",
+      "turn_index": 30,
+      "quote": "That's not bad.",
+      "explanation": "She reiterates that the jacket fits acceptably despite its oversized sleeves.",
+      "evidence": [
+        "That's not bad."
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 30,
+          "speaker": "Jillian",
+          "quote": "That's not bad."
+        }
+      ],
+      "activation": "evaluated",
+      "source_rationale_id": "R3"
+    },
+    {
+      "rationale_label": "business_model_assessment",
+      "direction": "neutral",
+      "salience": "secondary",
+      "confidence": 0.85,
+      "utterance_type": "question",
+      "decision_link": "none",
+      "timing": "original_pitch",
+      "turn_index": 33,
+      "quote": "$295?",
+      "explanation": "She queries the product’s selling price, a material monetization detail.",
+      "evidence": [
+        "$295?"
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 33,
+          "speaker": "Jillian",
+          "quote": "$295?"
+        }
+      ],
+      "activation": "queried",
+      "source_rationale_id": "R4"
+    },
+    {
+      "rationale_label": "unit_economics_assessment",
+      "direction": "neutral",
+      "salience": "secondary",
+      "confidence": 0.98,
+      "utterance_type": "question",
+      "decision_link": "none",
+      "timing": "original_pitch",
+      "turn_index": 40,
+      "quote": "let's hear about the margins too",
+      "explanation": "She requests information about the company’s margins.",
+      "evidence": [
+        "let's hear about the margins too"
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 40,
+          "speaker": "Jillian",
+          "quote": "let's hear about the margins too"
+        }
+      ],
+      "activation": "queried",
+      "source_rationale_id": "R5"
+    },
+    {
+      "rationale_label": "go_to_market_strategy_assessment",
+      "direction": "neutral",
+      "salience": "secondary",
+      "confidence": 0.89,
+      "utterance_type": "question",
+      "decision_link": "none",
+      "timing": "original_pitch",
+      "turn_index": 45,
+      "quote": "What was the brand misstep?",
+      "explanation": "She asks about the branding error associated with the company’s prior growth slowdown.",
+      "evidence": [
+        "What was the brand misstep?"
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 45,
+          "speaker": "Jillian",
+          "quote": "What was the brand misstep?"
+        }
+      ],
+      "activation": "queried",
+      "source_rationale_id": "R6"
+    },
+    {
+      "rationale_label": "unit_economics_assessment",
+      "direction": "neutral",
+      "salience": "secondary",
+      "confidence": 0.8,
+      "utterance_type": "question",
+      "decision_link": "none",
+      "timing": "original_pitch",
+      "turn_index": 54,
+      "quote": "When you say offshore, how offshore?",
+      "explanation": "She probes the planned manufacturing shift that the founder presents as a way to improve production costs and margins.",
+      "evidence": [
+        "When you say offshore, how offshore?"
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 54,
+          "speaker": "Jillian",
+          "quote": "When you say offshore, how offshore?"
+        }
+      ],
+      "activation": "queried",
+      "source_rationale_id": "R7"
+    },
+    {
+      "rationale_label": "product_appeal_assessment",
+      "direction": "positive",
+      "salience": "secondary",
+      "confidence": 0.96,
+      "utterance_type": "assessment",
+      "decision_link": "none",
+      "timing": "original_pitch",
+      "turn_index": 61,
+      "quote": "Huge! Huge.",
+      "explanation": "She reacts enthusiastically to the proposed waterproof-pocket feature.",
+      "evidence": [
+        "Huge! Huge."
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 61,
+          "speaker": "Jillian",
+          "quote": "Huge! Huge."
+        }
+      ],
+      "activation": "evaluated",
+      "source_rationale_id": "R8"
+    },
+    {
+      "rationale_label": "product_appeal_assessment",
+      "direction": "positive",
+      "salience": "secondary",
+      "confidence": 0.98,
+      "utterance_type": "assessment",
+      "decision_link": "none",
+      "timing": "original_pitch",
+      "turn_index": 63,
+      "quote": "I so need this.",
+      "explanation": "She expresses strong personal demand for the proposed washable sweater.",
+      "evidence": [
+        "I so need this."
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 63,
+          "speaker": "Jillian",
+          "quote": "I so need this."
+        }
+      ],
+      "activation": "evaluated",
+      "source_rationale_id": "R9"
+    },
+    {
+      "rationale_label": "go_to_market_strategy_assessment",
+      "direction": "neutral",
+      "salience": "secondary",
+      "confidence": 0.99,
+      "utterance_type": "question",
+      "decision_link": "none",
+      "timing": "original_pitch",
+      "turn_index": 66,
+      "quote": "What’s the marketing strategy?",
+      "explanation": "She asks how the company plans to market its products and acquire customers.",
+      "evidence": [
+        "What’s the marketing strategy?"
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 66,
+          "speaker": "Jillian",
+          "quote": "What’s the marketing strategy?"
+        }
+      ],
+      "activation": "queried",
+      "source_rationale_id": "R10"
+    },
+    {
+      "rationale_label": "product_differentiation_concern",
+      "direction": "negative",
+      "salience": "secondary",
+      "confidence": 0.86,
+      "utterance_type": "concern",
+      "decision_link": "none",
+      "timing": "original_pitch",
+      "turn_index": 72,
+      "quote": "This seems like it needs something...",
+      "explanation": "Comparing the company with memorable consumer brands, she indicates that Bluffworks still needs a distinctive, compelling hook.",
+      "evidence": [
+        "This seems like it needs something..."
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 72,
+          "speaker": "Jillian",
+          "quote": "This seems like it needs something..."
+        }
+      ],
+      "activation": "evaluated",
+      "source_rationale_id": "R11"
+    },
+    {
+      "rationale_label": "founder_qualities",
+      "direction": "positive",
+      "salience": "secondary",
+      "confidence": 0.99,
+      "utterance_type": "assessment",
+      "decision_link": "none",
+      "timing": "original_pitch",
+      "turn_index": 92,
+      "quote": "You're smart. You're savvy. You're personable.",
+      "explanation": "Jillian positively assesses Stefan’s personal qualities.",
+      "evidence": [
+        "You're smart. You're savvy. You're personable."
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 92,
+          "speaker": "Jillian",
+          "quote": "You're smart. You're savvy. You're personable."
+        }
+      ],
+      "activation": "evaluated",
+      "source_rationale_id": "R12"
+    },
+    {
+      "rationale_label": "founder_skillset",
+      "direction": "positive",
+      "salience": "primary",
+      "confidence": 0.98,
+      "utterance_type": "assessment",
+      "decision_link": "none",
+      "timing": "original_pitch",
+      "turn_index": 92,
+      "quote": "You are the product genius, for sure.",
+      "explanation": "She identifies product judgment as a core founder strength.",
+      "evidence": [
+        "You are the product genius, for sure."
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 92,
+          "speaker": "Jillian",
+          "quote": "You are the product genius, for sure."
+        }
+      ],
+      "activation": "evaluated",
+      "source_rationale_id": "R13"
+    },
+    {
+      "rationale_label": "investor_domain_knowledge_constraint",
+      "direction": "negative",
+      "salience": "primary",
+      "confidence": 0.99,
+      "utterance_type": "concern",
+      "decision_link": "none",
+      "timing": "original_pitch",
+      "turn_index": 92,
+      "quote": "I have never invested in apparel.",
+      "explanation": "She identifies her lack of apparel-investing experience as a constraint on evaluating the opportunity.",
+      "evidence": [
+        "I have never invested in apparel."
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 92,
+          "speaker": "Jillian",
+          "quote": "I have never invested in apparel."
+        }
+      ],
+      "activation": "evaluated",
+      "source_rationale_id": "R14"
+    },
+    {
+      "rationale_label": "investor_domain_knowledge_constraint",
+      "direction": "neutral",
+      "salience": "secondary",
+      "confidence": 0.94,
+      "utterance_type": "question",
+      "decision_link": "none",
+      "timing": "original_pitch",
+      "turn_index": 94,
+      "quote": "Charles, have you ever invested in apparel?",
+      "explanation": "She seeks relevant apparel-investing experience from another investor while evaluating a category unfamiliar to her.",
+      "evidence": [
+        "Charles, have you ever invested in apparel?"
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 94,
+          "speaker": "Jillian",
+          "quote": "Charles, have you ever invested in apparel?"
+        }
+      ],
+      "activation": "queried",
+      "source_rationale_id": "R15"
+    },
+    {
+      "rationale_label": "investor_domain_knowledge_constraint",
+      "direction": "negative",
+      "salience": "secondary",
+      "confidence": 0.91,
+      "utterance_type": "assessment",
+      "decision_link": "none",
+      "timing": "original_pitch",
+      "turn_index": 98,
+      "quote": "I do tech",
+      "explanation": "She contrasts her technology expertise with the unfamiliar apparel opportunity.",
+      "evidence": [
+        "I do tech"
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 98,
+          "speaker": "Jillian",
+          "quote": "I do tech"
+        }
+      ],
+      "activation": "evaluated",
+      "source_rationale_id": "R16"
+    },
+    {
+      "rationale_label": "investor_experience_bias",
+      "direction": "negative",
+      "salience": "primary",
+      "confidence": 0.99,
+      "utterance_type": "decision_explanation",
+      "decision_link": "unclear",
+      "timing": "original_pitch",
+      "turn_index": 100,
+      "quote": "it really left me scarred",
+      "explanation": "She says a prior failed investment outside her usual area still makes her cautious, although she ultimately offers a limited investment here.",
+      "evidence": [
+        "it really left me scarred"
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 100,
+          "speaker": "Jillian",
+          "quote": "it really left me scarred"
+        }
+      ],
+      "activation": "evaluated",
+      "source_rationale_id": "R17"
+    },
+    {
+      "rationale_label": "investor_domain_knowledge_constraint",
+      "direction": "negative",
+      "salience": "primary",
+      "confidence": 0.99,
+      "utterance_type": "decision_explanation",
+      "decision_link": "unclear",
+      "timing": "original_pitch",
+      "turn_index": 100,
+      "quote": "I don’t know anything about apparel.",
+      "explanation": "She explicitly identifies insufficient apparel knowledge as the negative side of her investment decision.",
+      "model_quote_before_typography_repair": "I don't know anything about apparel.",
+      "evidence": [
+        "I don’t know anything about apparel."
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 100,
+          "speaker": "Jillian",
+          "quote": "I don’t know anything about apparel."
+        }
+      ],
+      "activation": "evaluated",
+      "source_rationale_id": "R18"
+    },
+    {
+      "rationale_label": "product_appeal_assessment",
+      "direction": "positive",
+      "salience": "primary",
+      "confidence": 0.99,
+      "utterance_type": "decision_explanation",
+      "decision_link": "supports_in",
+      "timing": "original_pitch",
+      "turn_index": 100,
+      "quote": "I would buy this for every single man.",
+      "explanation": "Her strong personal demand for the product is presented as the positive counterweight leading into her investment offer.",
+      "evidence": [
+        "I would buy this for every single man."
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 100,
+          "speaker": "Jillian",
+          "quote": "I would buy this for every single man."
+        }
+      ],
+      "activation": "evaluated",
+      "source_rationale_id": "R19"
+    },
+    {
+      "rationale_label": "founder_execution",
+      "direction": "positive",
+      "salience": "primary",
+      "confidence": 0.95,
+      "utterance_type": "decision_explanation",
+      "decision_link": "supports_in",
+      "timing": "original_pitch",
+      "turn_index": 100,
+      "quote": "Because I think you’re going to do this.",
+      "explanation": "She explicitly links her $50,000 commitment to confidence in Stefan’s ability to succeed.",
+      "evidence": [
+        "Because I think you’re going to do this."
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 100,
+          "speaker": "Jillian",
+          "quote": "Because I think you’re going to do this."
+        }
+      ],
+      "activation": "evaluated",
+      "source_rationale_id": "R20"
+    },
+    {
+      "rationale_label": "product_appeal_assessment",
+      "direction": "positive",
+      "salience": "secondary",
+      "confidence": 0.97,
+      "utterance_type": "assessment",
+      "decision_link": "none",
+      "timing": "original_pitch",
+      "turn_index": 112,
+      "quote": "I think daddy will go crazy over this.",
+      "explanation": "In the immediate in-room debrief, she predicts strong product appeal to her father.",
+      "evidence": [
+        "I think daddy will go crazy over this."
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 112,
+          "speaker": "Jillian",
+          "quote": "I think daddy will go crazy over this."
+        }
+      ],
+      "activation": "evaluated",
+      "source_rationale_id": "R21"
+    },
+    {
+      "rationale_label": "product_appeal_assessment",
+      "direction": "positive",
+      "salience": "secondary",
+      "confidence": 0.98,
+      "utterance_type": "assessment",
+      "decision_link": "none",
+      "timing": "original_pitch",
+      "turn_index": 114,
+      "quote": "It looks awesome.",
+      "explanation": "She positively assesses how the jacket looks.",
+      "evidence": [
+        "It looks awesome."
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 114,
+          "speaker": "Jillian",
+          "quote": "It looks awesome."
+        }
+      ],
+      "activation": "evaluated",
+      "source_rationale_id": "R22"
+    },
+    {
+      "rationale_label": "product_adoption",
+      "direction": "positive",
+      "salience": "secondary",
+      "confidence": 0.88,
+      "utterance_type": "assessment",
+      "decision_link": "none",
+      "timing": "original_pitch",
+      "turn_index": 117,
+      "quote": "Sticky, sticky, sticky.",
+      "explanation": "Reacting to an investor’s immediate plan to travel with the jacket, she characterizes the product as likely to sustain meaningful use.",
+      "evidence": [
+        "Sticky, sticky, sticky."
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 117,
+          "speaker": "Jillian",
+          "quote": "Sticky, sticky, sticky."
+        }
+      ],
+      "activation": "evaluated",
+      "source_rationale_id": "R23"
+    },
+    {
+      "rationale_label": "product_appeal_assessment",
+      "direction": "positive",
+      "salience": "secondary",
+      "confidence": 0.98,
+      "utterance_type": "assessment",
+      "decision_link": "none",
+      "timing": "original_pitch",
+      "turn_index": 123,
+      "quote": "This rocks.",
+      "explanation": "She gives an emphatically positive assessment of the product.",
+      "evidence": [
+        "This rocks."
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 123,
+          "speaker": "Jillian",
+          "quote": "This rocks."
+        }
+      ],
+      "activation": "evaluated",
+      "source_rationale_id": "R24"
+    }
+  ],
+  "expanded_quote_evidence": [],
+  "rejected_after_evidence_check": []
+}

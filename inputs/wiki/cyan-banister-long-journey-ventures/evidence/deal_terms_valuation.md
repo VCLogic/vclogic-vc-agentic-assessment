@@ -1,16 +1,13 @@
 # deal_terms_valuation
 
-[ev:cyan-0044] label=investment_upside_assessment direction=positive source=talk:hpPhOa18tGI
-> "We're looking for basically power laws when in investing. You're looking for that Uber or that Thumbtack or that Postmeat, you know, to basically return the index of everything you've invested in then some."
+Verbatim transcript excerpts; whitespace normalized. Labels describe the cited statement.
 
-[ev:cyan-0045] label=investment_upside_assessment direction=negative source=talk:SgQinUSEYtI
-> "That investment was not a fund returner. And really, every investment you make should be a fund returner. And so the economics, he was right about the economics."
+[ev:cyan-banister-long-journey-ventures-0008] label=investment_upside_assessment direction=positive source=full:ba3463268b98df2b0bd020dc
+> "When we invested on April Fools Day in 2022, I told my husband Scott, "Let's put the whole fund in this and go on vacation.""
 
-[ev:cyan-0046] label=deal_terms_complexity_concern direction=negative source=talk:dXRyxPIJfjo
-> "The other thing was looking at like if they had any debt, looking at the cap table."
+Support: inferred. Interpretation: Her hyperbolic wish to concentrate the fund conveys exceptionally strong conviction in the investment’s prospective upside.
 
-[ev:cyan-0048] label=dilution_concern direction=negative source=talk:dXRyxPIJfjo
-> "Where was this mystery person that has 30% of your company? Where are they? Like... Why haven't we met them?"
+[ev:cyan-banister-long-journey-ventures-0021] label=investment_upside_assessment direction=positive source=full:8ee5ebf743de964542c588c3
+> "I just literally put all my chips on a color, and just let it ride for 20-some odd years now. And it ended up being the best investment I’ll probably ever make in my life."
 
-[ev:cyan-0049] label=stage_valuation_mismatch direction=neutral source=talk:dXRyxPIJfjo
-> "If I give you a dollar, do I get six? Is it going to work?"
+Support: inferred. Interpretation: Banister describes accepting extreme concentration and long duration in what became an exceptionally high-upside investment.

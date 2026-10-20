@@ -1,0 +1,2325 @@
+{
+  "schema": "phase1-rationale-reference-v1",
+  "extraction_version": "pitchshow-rationales-v1",
+  "fingerprint": "bd70730e587ac32e5755d36d0563baf722a6bff3cba35a8fb74317a1648c3f47",
+  "episode_slug": "get-lost-in-the-awsm-sauce",
+  "vc_slug": "phil-nadel-forefront-venture-partners",
+  "vc_name": "Phil Nadel",
+  "actual_decision": "Out",
+  "later_decision": "Unknown",
+  "reference_kind": "automated_transcript_observed_candidate",
+  "human_validated": false,
+  "source_format": "transcript-observed-rationales-v1",
+  "source_path": "/home/dpasch01/vclogic-vc-agentic-assessment/evaluation/pitchshow/investors/phil-nadel-forefront-venture-partners/source/episodes/get-lost-in-the-awsm-sauce.json",
+  "source_sha256": "a706a30fea93bc89a17a67198d5c2e56e6f1e78b9bc77b021c77b03440546515",
+  "transcript_sha256": "9d8ff46968075965922f68503db0fee611f00848b064d7631d0ee6a3384a6b52",
+  "taxonomy_sha256": "eaa8734819a3ac34dd19ee5f0bf6de925a793a1d25a2d361090dafc9b751e1fc",
+  "model": "codex:gpt-5.6-luna+gpt-5.6-sol",
+  "generation_stages": [
+    {
+      "phase": "rationale_extract",
+      "backend": "codex",
+      "model": "gpt-5.6-luna"
+    },
+    {
+      "phase": "rationale_verify",
+      "backend": "codex",
+      "model": "gpt-5.6-sol"
+    }
+  ],
+  "source_tier": "newly_extracted_and_independently_model_reviewed",
+  "reviewed_target_turns": [
+    5,
+    44,
+    47,
+    49,
+    51,
+    53,
+    55,
+    81,
+    82,
+    84,
+    86,
+    88,
+    90,
+    92,
+    94,
+    96,
+    98,
+    100,
+    108,
+    119,
+    142,
+    168,
+    170,
+    173,
+    176,
+    181,
+    194,
+    196,
+    198,
+    207,
+    209,
+    216,
+    218,
+    222,
+    224,
+    246,
+    250,
+    291,
+    330,
+    333,
+    335,
+    337,
+    339,
+    341,
+    367,
+    368,
+    370,
+    372,
+    374,
+    376,
+    378,
+    380,
+    382,
+    384,
+    386,
+    394,
+    405,
+    428,
+    454,
+    456,
+    459,
+    462,
+    467,
+    480,
+    482,
+    484,
+    493,
+    495,
+    502,
+    504,
+    508,
+    510,
+    532,
+    536,
+    577,
+    616,
+    619,
+    621,
+    623,
+    625,
+    627,
+    653,
+    654,
+    656,
+    658,
+    660,
+    662,
+    664,
+    666,
+    668,
+    670,
+    672,
+    680,
+    691,
+    714,
+    740,
+    742,
+    745,
+    748,
+    753,
+    766,
+    768,
+    770,
+    779,
+    781,
+    788,
+    790,
+    794,
+    796,
+    818,
+    822
+  ],
+  "notes": "All supplied target turns were reviewed. Repeated transcript instances are retained at their original indices; greetings, jokes, courtesy remarks, simple confirmations, and incomplete continuations without an independently expressed rationale were excluded.",
+  "receipt_path": "/home/dpasch01/vclogic-vc-agentic-assessment/evaluation/pitchshow/investors/phil-nadel-forefront-venture-partners/rationale-references/receipts/get-lost-in-the-awsm-sauce.json",
+  "scoring_scope": "original_pitch_only",
+  "shared_across_input_modes": true,
+  "rationales": [
+    {
+      "rationale_label": "business_model_assessment",
+      "direction": "neutral",
+      "salience": "secondary",
+      "confidence": 0.95,
+      "utterance_type": "question",
+      "decision_link": "none",
+      "timing": "original_pitch",
+      "turn_index": 672,
+      "quote": "Because of the ESG?",
+      "explanation": "Phil asks whether ESG value can justify customers paying a premium.",
+      "evidence": [
+        "Do you think there's appetite for them to pay more?",
+        "Because of the ESG?"
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 98,
+          "speaker": "Phil",
+          "quote": "Do you think there's appetite for them to pay more?"
+        },
+        {
+          "turn_index": 100,
+          "speaker": "Phil",
+          "quote": "Because of the ESG?"
+        },
+        {
+          "turn_index": 384,
+          "speaker": "Phil",
+          "quote": "Do you think there's appetite for them to pay more?"
+        },
+        {
+          "turn_index": 386,
+          "speaker": "Phil",
+          "quote": "Because of the ESG?"
+        },
+        {
+          "turn_index": 670,
+          "speaker": "Phil",
+          "quote": "Do you think there's appetite for them to pay more?"
+        },
+        {
+          "turn_index": 672,
+          "speaker": "Phil",
+          "quote": "Because of the ESG?"
+        }
+      ],
+      "activation": "queried",
+      "source_rationale_id": "R58",
+      "utterance_kind": "question",
+      "decision_support": "none",
+      "all_mention_ids": [
+        "R11",
+        "R12",
+        "R34",
+        "R35",
+        "R57",
+        "R58"
+      ]
+    },
+    {
+      "rationale_label": "competitive_landscape_inertia",
+      "direction": "positive",
+      "salience": "secondary",
+      "confidence": 0.9,
+      "utterance_type": "assessment",
+      "decision_link": "none",
+      "timing": "original_pitch",
+      "turn_index": 818,
+      "quote": "status quo. That's what they want to -",
+      "explanation": "Phil agrees that Heinz's preference for the status quo makes an adaptive competitive response less likely.",
+      "evidence": [
+        "status quo. That's what they want to -"
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 246,
+          "speaker": "Phil",
+          "quote": "status quo. That's what they want to -"
+        },
+        {
+          "turn_index": 532,
+          "speaker": "Phil",
+          "quote": "status quo. That's what they want to -"
+        },
+        {
+          "turn_index": 818,
+          "speaker": "Phil",
+          "quote": "status quo. That's what they want to -"
+        }
+      ],
+      "activation": "evaluated",
+      "source_rationale_id": "R69",
+      "utterance_kind": "assessment",
+      "decision_support": "none",
+      "all_mention_ids": [
+        "R14",
+        "R20",
+        "R23",
+        "R37",
+        "R43",
+        "R46",
+        "R60",
+        "R66",
+        "R69"
+      ]
+    },
+    {
+      "rationale_label": "founder_communication_quality",
+      "direction": "negative",
+      "salience": "secondary",
+      "confidence": 0.94,
+      "utterance_type": "assessment",
+      "decision_link": "none",
+      "timing": "original_pitch",
+      "turn_index": 790,
+      "quote": "they didn't seem 100 per cent sure about that",
+      "explanation": "Phil says the founders lacked command and certainty when explaining the contract issue.",
+      "evidence": [
+        "they didn't seem 100 per cent sure about that"
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 218,
+          "speaker": "Phil",
+          "quote": "they didn't seem 100 per cent sure about that"
+        },
+        {
+          "turn_index": 504,
+          "speaker": "Phil",
+          "quote": "they didn't seem 100 per cent sure about that"
+        },
+        {
+          "turn_index": 790,
+          "speaker": "Phil",
+          "quote": "they didn't seem 100 per cent sure about that"
+        }
+      ],
+      "activation": "evaluated",
+      "source_rationale_id": "R67",
+      "utterance_kind": "assessment",
+      "decision_support": "none",
+      "all_mention_ids": [
+        "R21",
+        "R44",
+        "R67"
+      ]
+    },
+    {
+      "rationale_label": "market_entry_path_assessment",
+      "direction": "positive",
+      "salience": "secondary",
+      "confidence": 0.93,
+      "utterance_type": "decision_reason",
+      "decision_link": "none",
+      "timing": "original_pitch",
+      "turn_index": 740,
+      "quote": "those who are focused on ESG are gonna really like what you're doing",
+      "explanation": "Phil sees ESG-focused organizations as a receptive initial customer segment.",
+      "evidence": [
+        "those who are focused on ESG are gonna really like what you're doing"
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 168,
+          "speaker": "Phil",
+          "quote": "those who are focused on ESG are gonna really like what you're doing"
+        },
+        {
+          "turn_index": 454,
+          "speaker": "Phil",
+          "quote": "those who are focused on ESG are gonna really like what you're doing"
+        },
+        {
+          "turn_index": 740,
+          "speaker": "Phil",
+          "quote": "those who are focused on ESG are gonna really like what you're doing"
+        }
+      ],
+      "activation": "evaluated",
+      "source_rationale_id": "R63",
+      "utterance_kind": "decision_explanation",
+      "decision_support": "none",
+      "all_mention_ids": [
+        "R17",
+        "R40",
+        "R63"
+      ]
+    },
+    {
+      "rationale_label": "product_appeal_assessment",
+      "direction": "positive",
+      "salience": "secondary",
+      "confidence": 0.94,
+      "utterance_type": "decision_reason",
+      "decision_link": "none",
+      "timing": "original_pitch",
+      "turn_index": 740,
+      "quote": "it seems like it'll make the work effort at the stadium level lower",
+      "explanation": "Phil identifies reduced stadium labor as an appealing operational benefit.",
+      "evidence": [
+        "it seems like it'll make the work effort at the stadium level lower"
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 168,
+          "speaker": "Phil",
+          "quote": "it seems like it'll make the work effort at the stadium level lower"
+        },
+        {
+          "turn_index": 454,
+          "speaker": "Phil",
+          "quote": "it seems like it'll make the work effort at the stadium level lower"
+        },
+        {
+          "turn_index": 740,
+          "speaker": "Phil",
+          "quote": "it seems like it'll make the work effort at the stadium level lower"
+        }
+      ],
+      "activation": "evaluated",
+      "source_rationale_id": "R62",
+      "utterance_kind": "decision_explanation",
+      "decision_support": "none",
+      "all_mention_ids": [
+        "R16",
+        "R39",
+        "R62"
+      ]
+    },
+    {
+      "rationale_label": "product_differentiation_concern",
+      "direction": "neutral",
+      "salience": "secondary",
+      "confidence": 0.98,
+      "utterance_type": "question",
+      "decision_link": "none",
+      "timing": "original_pitch",
+      "turn_index": 714,
+      "quote": "Are you the only ones?",
+      "explanation": "Phil asks whether the powder-based solution is unique.",
+      "evidence": [
+        "Is your differentiation then, is your real focus on the sustainability to food service or are you selling convenience or taste?",
+        "Are you the only ones?"
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 53,
+          "speaker": "Phil",
+          "quote": "Is your differentiation then, is your real focus on the sustainability to food service or are you selling convenience or taste?"
+        },
+        {
+          "turn_index": 142,
+          "speaker": "Phil",
+          "quote": "Are you the only ones?"
+        },
+        {
+          "turn_index": 339,
+          "speaker": "Phil",
+          "quote": "Is your differentiation then, is your real focus on the sustainability to food service or are you selling convenience or taste?"
+        },
+        {
+          "turn_index": 428,
+          "speaker": "Phil",
+          "quote": "Are you the only ones?"
+        },
+        {
+          "turn_index": 625,
+          "speaker": "Phil",
+          "quote": "Is your differentiation then, is your real focus on the sustainability to food service or are you selling convenience or taste?"
+        },
+        {
+          "turn_index": 714,
+          "speaker": "Phil",
+          "quote": "Are you the only ones?"
+        }
+      ],
+      "activation": "queried",
+      "source_rationale_id": "R61",
+      "utterance_kind": "question",
+      "decision_support": "none",
+      "all_mention_ids": [
+        "R4",
+        "R15",
+        "R27",
+        "R38",
+        "R50",
+        "R61"
+      ]
+    },
+    {
+      "rationale_label": "product_success_factor_assessment",
+      "direction": "negative",
+      "salience": "secondary",
+      "confidence": 0.95,
+      "utterance_type": "assessment",
+      "decision_link": "none",
+      "timing": "original_pitch",
+      "turn_index": 627,
+      "quote": "their priorities would be flipped, whereas cost would be number one",
+      "explanation": "Phil believes buyer priorities are misordered in the pitch because cost is likely the decisive attribute.",
+      "evidence": [
+        "their priorities would be flipped, whereas cost would be number one"
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 55,
+          "speaker": "Phil",
+          "quote": "their priorities would be flipped, whereas cost would be number one"
+        },
+        {
+          "turn_index": 341,
+          "speaker": "Phil",
+          "quote": "their priorities would be flipped, whereas cost would be number one"
+        },
+        {
+          "turn_index": 627,
+          "speaker": "Phil",
+          "quote": "their priorities would be flipped, whereas cost would be number one"
+        }
+      ],
+      "activation": "evaluated",
+      "source_rationale_id": "R51",
+      "utterance_kind": "assessment",
+      "decision_support": "none",
+      "all_mention_ids": [
+        "R5",
+        "R28",
+        "R51"
+      ]
+    },
+    {
+      "rationale_label": "solution_feasibility_assessment",
+      "direction": "negative",
+      "salience": "primary",
+      "confidence": 0.99,
+      "utterance_type": "decision_reason",
+      "decision_link": "explicit",
+      "timing": "original_pitch",
+      "turn_index": 740,
+      "quote": "What concerns me is where you are on the machine",
+      "explanation": "Phil links the machine's insufficient development to his decision to pass.",
+      "evidence": [
+        "That’s not going to work.",
+        "What concerns me is where you are on the machine"
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 108,
+          "speaker": "Phil",
+          "quote": "That’s not going to work."
+        },
+        {
+          "turn_index": 168,
+          "speaker": "Phil",
+          "quote": "What concerns me is where you are on the machine"
+        },
+        {
+          "turn_index": 394,
+          "speaker": "Phil",
+          "quote": "That’s not going to work."
+        },
+        {
+          "turn_index": 454,
+          "speaker": "Phil",
+          "quote": "What concerns me is where you are on the machine"
+        },
+        {
+          "turn_index": 680,
+          "speaker": "Phil",
+          "quote": "That’s not going to work."
+        },
+        {
+          "turn_index": 740,
+          "speaker": "Phil",
+          "quote": "What concerns me is where you are on the machine"
+        }
+      ],
+      "activation": "evaluated",
+      "source_rationale_id": "R64",
+      "utterance_kind": "decision_explanation",
+      "decision_support": "supports_out",
+      "all_mention_ids": [
+        "R1",
+        "R2",
+        "R3",
+        "R13",
+        "R18",
+        "R24",
+        "R25",
+        "R26",
+        "R36",
+        "R41",
+        "R47",
+        "R48",
+        "R49",
+        "R59",
+        "R64"
+      ]
+    },
+    {
+      "rationale_label": "traction_repeatability_concern",
+      "direction": "negative",
+      "salience": "secondary",
+      "confidence": 0.94,
+      "utterance_type": "assessment",
+      "decision_link": "none",
+      "timing": "original_pitch",
+      "turn_index": 794,
+      "quote": "Yeah, for a month.",
+      "explanation": "Phil emphasizes that the stadium evidence came from only a short pilot.",
+      "evidence": [
+        "Yeah, for a month."
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 222,
+          "speaker": "Phil",
+          "quote": "Yeah, for a month."
+        },
+        {
+          "turn_index": 508,
+          "speaker": "Phil",
+          "quote": "Yeah, for a month."
+        },
+        {
+          "turn_index": 794,
+          "speaker": "Phil",
+          "quote": "Yeah, for a month."
+        }
+      ],
+      "activation": "evaluated",
+      "source_rationale_id": "R68",
+      "utterance_kind": "assessment",
+      "decision_support": "none",
+      "all_mention_ids": [
+        "R22",
+        "R45",
+        "R68"
+      ]
+    },
+    {
+      "rationale_label": "unit_economics_assessment",
+      "direction": "negative",
+      "salience": "primary",
+      "confidence": 0.99,
+      "utterance_type": "decision_reason",
+      "decision_link": "explicit",
+      "timing": "original_pitch",
+      "turn_index": 740,
+      "quote": "what it's going to take to you get to the volume levels to support the pricing in a profitable way",
+      "explanation": "Phil links uncertainty about reaching profitable scale to his decision to pass.",
+      "evidence": [
+        "you're paying 12 cents and you're selling it for 8 cents?",
+        "what it's going to take to you get to the volume levels to support the pricing in a profitable way"
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 88,
+          "speaker": "Phil",
+          "quote": "you're paying 12 cents and you're selling it for 8 cents?"
+        },
+        {
+          "turn_index": 168,
+          "speaker": "Phil",
+          "quote": "what it's going to take to you get to the volume levels to support the pricing in a profitable way"
+        },
+        {
+          "turn_index": 374,
+          "speaker": "Phil",
+          "quote": "you're paying 12 cents and you're selling it for 8 cents?"
+        },
+        {
+          "turn_index": 454,
+          "speaker": "Phil",
+          "quote": "what it's going to take to you get to the volume levels to support the pricing in a profitable way"
+        },
+        {
+          "turn_index": 660,
+          "speaker": "Phil",
+          "quote": "you're paying 12 cents and you're selling it for 8 cents?"
+        },
+        {
+          "turn_index": 740,
+          "speaker": "Phil",
+          "quote": "what it's going to take to you get to the volume levels to support the pricing in a profitable way"
+        }
+      ],
+      "activation": "evaluated",
+      "source_rationale_id": "R65",
+      "utterance_kind": "decision_explanation",
+      "decision_support": "supports_out",
+      "all_mention_ids": [
+        "R6",
+        "R7",
+        "R8",
+        "R9",
+        "R10",
+        "R19",
+        "R29",
+        "R30",
+        "R31",
+        "R32",
+        "R33",
+        "R42",
+        "R52",
+        "R53",
+        "R54",
+        "R55",
+        "R56",
+        "R65"
+      ]
+    }
+  ],
+  "later_rationales": [],
+  "excluded_rationales": [],
+  "rationale_mentions": [
+    {
+      "rationale_label": "solution_feasibility_assessment",
+      "direction": "neutral",
+      "salience": "secondary",
+      "confidence": 0.97,
+      "utterance_type": "question",
+      "decision_link": "none",
+      "timing": "original_pitch",
+      "turn_index": 44,
+      "quote": "How do you reduce the pack - the plastic? Like how are you delivering the product?",
+      "explanation": "Phil asks how the delivery format operationally achieves the claimed plastic reduction.",
+      "evidence": [
+        "How do you reduce the pack - the plastic? Like how are you delivering the product?"
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 44,
+          "speaker": "Phil",
+          "quote": "How do you reduce the pack - the plastic? Like how are you delivering the product?"
+        }
+      ],
+      "activation": "queried",
+      "source_rationale_id": "R1"
+    },
+    {
+      "rationale_label": "solution_feasibility_assessment",
+      "direction": "neutral",
+      "salience": "secondary",
+      "confidence": 0.97,
+      "utterance_type": "question",
+      "decision_link": "none",
+      "timing": "original_pitch",
+      "turn_index": 47,
+      "quote": "your sauce requires a little more work for the food service employees, right?",
+      "explanation": "Phil probes whether preparing the product creates operational friction for food-service workers.",
+      "evidence": [
+        "your sauce requires a little more work for the food service employees, right?"
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 47,
+          "speaker": "Phil",
+          "quote": "your sauce requires a little more work for the food service employees, right?"
+        }
+      ],
+      "activation": "queried",
+      "source_rationale_id": "R2"
+    },
+    {
+      "rationale_label": "solution_feasibility_assessment",
+      "direction": "neutral",
+      "salience": "secondary",
+      "confidence": 0.9,
+      "utterance_type": "question",
+      "decision_link": "none",
+      "timing": "original_pitch",
+      "turn_index": 49,
+      "quote": "Then that wouldn't require anymore work from the employees -",
+      "explanation": "Phil checks whether the proposed machine would eliminate the additional employee work.",
+      "evidence": [
+        "Then that wouldn't require anymore work from the employees -"
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 49,
+          "speaker": "Phil",
+          "quote": "Then that wouldn't require anymore work from the employees -"
+        }
+      ],
+      "activation": "queried",
+      "source_rationale_id": "R3"
+    },
+    {
+      "rationale_label": "product_differentiation_concern",
+      "direction": "neutral",
+      "salience": "secondary",
+      "confidence": 0.97,
+      "utterance_type": "question",
+      "decision_link": "none",
+      "timing": "original_pitch",
+      "turn_index": 53,
+      "quote": "Is your differentiation then, is your real focus on the sustainability to food service or are you selling convenience or taste?",
+      "explanation": "Phil asks which attribute actually differentiates the offering to food-service buyers.",
+      "evidence": [
+        "Is your differentiation then, is your real focus on the sustainability to food service or are you selling convenience or taste?"
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 53,
+          "speaker": "Phil",
+          "quote": "Is your differentiation then, is your real focus on the sustainability to food service or are you selling convenience or taste?"
+        }
+      ],
+      "activation": "queried",
+      "source_rationale_id": "R4"
+    },
+    {
+      "rationale_label": "product_success_factor_assessment",
+      "direction": "negative",
+      "salience": "secondary",
+      "confidence": 0.95,
+      "utterance_type": "assessment",
+      "decision_link": "none",
+      "timing": "original_pitch",
+      "turn_index": 55,
+      "quote": "their priorities would be flipped, whereas cost would be number one",
+      "explanation": "Phil believes buyer priorities are misordered in the pitch because cost is likely the decisive attribute.",
+      "evidence": [
+        "their priorities would be flipped, whereas cost would be number one"
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 55,
+          "speaker": "Phil",
+          "quote": "their priorities would be flipped, whereas cost would be number one"
+        }
+      ],
+      "activation": "evaluated",
+      "source_rationale_id": "R5"
+    },
+    {
+      "rationale_label": "unit_economics_assessment",
+      "direction": "neutral",
+      "salience": "secondary",
+      "confidence": 0.99,
+      "utterance_type": "question",
+      "decision_link": "none",
+      "timing": "original_pitch",
+      "turn_index": 82,
+      "quote": "just on unit economics of what is your margin on this? Do you know?",
+      "explanation": "Phil asks for the product's margin.",
+      "evidence": [
+        "just on unit economics of what is your margin on this? Do you know?"
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 82,
+          "speaker": "Phil",
+          "quote": "just on unit economics of what is your margin on this? Do you know?"
+        }
+      ],
+      "activation": "queried",
+      "source_rationale_id": "R6"
+    },
+    {
+      "rationale_label": "unit_economics_assessment",
+      "direction": "neutral",
+      "salience": "secondary",
+      "confidence": 0.99,
+      "utterance_type": "question",
+      "decision_link": "none",
+      "timing": "original_pitch",
+      "turn_index": 86,
+      "quote": "You're selling it to food service, for how much?",
+      "explanation": "Phil asks for the food-service selling price.",
+      "evidence": [
+        "You're selling it to food service, for how much?"
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 86,
+          "speaker": "Phil",
+          "quote": "You're selling it to food service, for how much?"
+        }
+      ],
+      "activation": "queried",
+      "source_rationale_id": "R7"
+    },
+    {
+      "rationale_label": "unit_economics_assessment",
+      "direction": "negative",
+      "salience": "secondary",
+      "confidence": 0.99,
+      "utterance_type": "concern",
+      "decision_link": "none",
+      "timing": "original_pitch",
+      "turn_index": 88,
+      "quote": "you're paying 12 cents and you're selling it for 8 cents?",
+      "explanation": "Phil highlights that the current selling price is below production cost.",
+      "evidence": [
+        "you're paying 12 cents and you're selling it for 8 cents?"
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 88,
+          "speaker": "Phil",
+          "quote": "you're paying 12 cents and you're selling it for 8 cents?"
+        }
+      ],
+      "activation": "evaluated",
+      "source_rationale_id": "R8"
+    },
+    {
+      "rationale_label": "unit_economics_assessment",
+      "direction": "neutral",
+      "salience": "secondary",
+      "confidence": 0.99,
+      "utterance_type": "question",
+      "decision_link": "none",
+      "timing": "original_pitch",
+      "turn_index": 92,
+      "quote": "What kind of volume level do you need to be to get to 5 and a-half cents?",
+      "explanation": "Phil asks what scale is required to achieve the projected lower cost.",
+      "evidence": [
+        "What kind of volume level do you need to be to get to 5 and a-half cents?"
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 92,
+          "speaker": "Phil",
+          "quote": "What kind of volume level do you need to be to get to 5 and a-half cents?"
+        }
+      ],
+      "activation": "queried",
+      "source_rationale_id": "R9"
+    },
+    {
+      "rationale_label": "unit_economics_assessment",
+      "direction": "neutral",
+      "salience": "secondary",
+      "confidence": 0.98,
+      "utterance_type": "question",
+      "decision_link": "none",
+      "timing": "original_pitch",
+      "turn_index": 94,
+      "quote": "we get it down to 5 and a-half cents and you're still going to sell it for 8 cents?",
+      "explanation": "Phil tests the margin implied by the projected cost and selling price.",
+      "evidence": [
+        "we get it down to 5 and a-half cents and you're still going to sell it for 8 cents?"
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 94,
+          "speaker": "Phil",
+          "quote": "we get it down to 5 and a-half cents and you're still going to sell it for 8 cents?"
+        }
+      ],
+      "activation": "queried",
+      "source_rationale_id": "R10"
+    },
+    {
+      "rationale_label": "business_model_assessment",
+      "direction": "neutral",
+      "salience": "secondary",
+      "confidence": 0.96,
+      "utterance_type": "question",
+      "decision_link": "none",
+      "timing": "original_pitch",
+      "turn_index": 98,
+      "quote": "Do you think there's appetite for them to pay more?",
+      "explanation": "Phil asks whether customers will support a higher monetization level.",
+      "evidence": [
+        "Do you think there's appetite for them to pay more?"
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 98,
+          "speaker": "Phil",
+          "quote": "Do you think there's appetite for them to pay more?"
+        }
+      ],
+      "activation": "queried",
+      "source_rationale_id": "R11"
+    },
+    {
+      "rationale_label": "business_model_assessment",
+      "direction": "neutral",
+      "salience": "secondary",
+      "confidence": 0.95,
+      "utterance_type": "question",
+      "decision_link": "none",
+      "timing": "original_pitch",
+      "turn_index": 100,
+      "quote": "Because of the ESG?",
+      "explanation": "Phil asks whether ESG value can justify customers paying a premium.",
+      "evidence": [
+        "Because of the ESG?"
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 100,
+          "speaker": "Phil",
+          "quote": "Because of the ESG?"
+        }
+      ],
+      "activation": "queried",
+      "source_rationale_id": "R12"
+    },
+    {
+      "rationale_label": "solution_feasibility_assessment",
+      "direction": "negative",
+      "salience": "secondary",
+      "confidence": 0.98,
+      "utterance_type": "concern",
+      "decision_link": "none",
+      "timing": "original_pitch",
+      "turn_index": 108,
+      "quote": "That’s not going to work.",
+      "explanation": "Phil rejects the proposed manual-staffing approach as operationally unworkable.",
+      "evidence": [
+        "That’s not going to work."
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 108,
+          "speaker": "Phil",
+          "quote": "That’s not going to work."
+        }
+      ],
+      "activation": "evaluated",
+      "source_rationale_id": "R13"
+    },
+    {
+      "rationale_label": "competitive_landscape_inertia",
+      "direction": "neutral",
+      "salience": "secondary",
+      "confidence": 0.97,
+      "utterance_type": "question",
+      "decision_link": "none",
+      "timing": "original_pitch",
+      "turn_index": 119,
+      "quote": "How can they get around the contract with Heinz then?",
+      "explanation": "Phil probes whether incumbent contracts block entry into the proposed stadium channel.",
+      "evidence": [
+        "How can they get around the contract with Heinz then?"
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 119,
+          "speaker": "Phil",
+          "quote": "How can they get around the contract with Heinz then?"
+        }
+      ],
+      "activation": "queried",
+      "source_rationale_id": "R14"
+    },
+    {
+      "rationale_label": "product_differentiation_concern",
+      "direction": "neutral",
+      "salience": "secondary",
+      "confidence": 0.98,
+      "utterance_type": "question",
+      "decision_link": "none",
+      "timing": "original_pitch",
+      "turn_index": 142,
+      "quote": "Are you the only ones?",
+      "explanation": "Phil asks whether the powder-based solution is unique.",
+      "evidence": [
+        "Are you the only ones?"
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 142,
+          "speaker": "Phil",
+          "quote": "Are you the only ones?"
+        }
+      ],
+      "activation": "queried",
+      "source_rationale_id": "R15"
+    },
+    {
+      "rationale_label": "product_appeal_assessment",
+      "direction": "positive",
+      "salience": "secondary",
+      "confidence": 0.94,
+      "utterance_type": "decision_explanation",
+      "decision_link": "none",
+      "timing": "original_pitch",
+      "turn_index": 168,
+      "quote": "it seems like it'll make the work effort at the stadium level lower",
+      "explanation": "Phil identifies reduced stadium labor as an appealing operational benefit.",
+      "evidence": [
+        "it seems like it'll make the work effort at the stadium level lower"
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 168,
+          "speaker": "Phil",
+          "quote": "it seems like it'll make the work effort at the stadium level lower"
+        }
+      ],
+      "activation": "evaluated",
+      "source_rationale_id": "R16"
+    },
+    {
+      "rationale_label": "market_entry_path_assessment",
+      "direction": "positive",
+      "salience": "secondary",
+      "confidence": 0.93,
+      "utterance_type": "decision_explanation",
+      "decision_link": "none",
+      "timing": "original_pitch",
+      "turn_index": 168,
+      "quote": "those who are focused on ESG are gonna really like what you're doing",
+      "explanation": "Phil sees ESG-focused organizations as a receptive initial customer segment.",
+      "evidence": [
+        "those who are focused on ESG are gonna really like what you're doing"
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 168,
+          "speaker": "Phil",
+          "quote": "those who are focused on ESG are gonna really like what you're doing"
+        }
+      ],
+      "activation": "evaluated",
+      "source_rationale_id": "R17"
+    },
+    {
+      "rationale_label": "solution_feasibility_assessment",
+      "direction": "negative",
+      "salience": "primary",
+      "confidence": 0.99,
+      "utterance_type": "decision_explanation",
+      "decision_link": "supports_out",
+      "timing": "original_pitch",
+      "turn_index": 168,
+      "quote": "What concerns me is where you are on the machine",
+      "explanation": "Phil links the machine's insufficient development to his decision to pass.",
+      "evidence": [
+        "What concerns me is where you are on the machine"
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 168,
+          "speaker": "Phil",
+          "quote": "What concerns me is where you are on the machine"
+        }
+      ],
+      "activation": "evaluated",
+      "source_rationale_id": "R18"
+    },
+    {
+      "rationale_label": "unit_economics_assessment",
+      "direction": "negative",
+      "salience": "primary",
+      "confidence": 0.99,
+      "utterance_type": "decision_explanation",
+      "decision_link": "supports_out",
+      "timing": "original_pitch",
+      "turn_index": 168,
+      "quote": "what it's going to take to you get to the volume levels to support the pricing in a profitable way",
+      "explanation": "Phil links uncertainty about reaching profitable scale to his decision to pass.",
+      "evidence": [
+        "what it's going to take to you get to the volume levels to support the pricing in a profitable way"
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 168,
+          "speaker": "Phil",
+          "quote": "what it's going to take to you get to the volume levels to support the pricing in a profitable way"
+        }
+      ],
+      "activation": "evaluated",
+      "source_rationale_id": "R19"
+    },
+    {
+      "rationale_label": "competitive_landscape_inertia",
+      "direction": "negative",
+      "salience": "secondary",
+      "confidence": 0.97,
+      "utterance_type": "assessment",
+      "decision_link": "none",
+      "timing": "original_pitch",
+      "turn_index": 216,
+      "quote": "I wasn't really satisfied with the answer regarding the stadiums or the concessionaire's ability to go around their Heinz contracts.",
+      "explanation": "Phil remains concerned that incumbent contracts may obstruct stadium distribution.",
+      "evidence": [
+        "I wasn't really satisfied with the answer regarding the stadiums or the concessionaire's ability to go around their Heinz contracts."
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 216,
+          "speaker": "Phil",
+          "quote": "I wasn't really satisfied with the answer regarding the stadiums or the concessionaire's ability to go around their Heinz contracts."
+        }
+      ],
+      "activation": "evaluated",
+      "source_rationale_id": "R20"
+    },
+    {
+      "rationale_label": "founder_communication_quality",
+      "direction": "negative",
+      "salience": "secondary",
+      "confidence": 0.94,
+      "utterance_type": "assessment",
+      "decision_link": "none",
+      "timing": "original_pitch",
+      "turn_index": 218,
+      "quote": "they didn't seem 100 per cent sure about that",
+      "explanation": "Phil says the founders lacked command and certainty when explaining the contract issue.",
+      "evidence": [
+        "they didn't seem 100 per cent sure about that"
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 218,
+          "speaker": "Phil",
+          "quote": "they didn't seem 100 per cent sure about that"
+        }
+      ],
+      "activation": "evaluated",
+      "source_rationale_id": "R21"
+    },
+    {
+      "rationale_label": "traction_repeatability_concern",
+      "direction": "negative",
+      "salience": "secondary",
+      "confidence": 0.94,
+      "utterance_type": "assessment",
+      "decision_link": "none",
+      "timing": "original_pitch",
+      "turn_index": 222,
+      "quote": "Yeah, for a month.",
+      "explanation": "Phil emphasizes that the stadium evidence came from only a short pilot.",
+      "evidence": [
+        "Yeah, for a month."
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 222,
+          "speaker": "Phil",
+          "quote": "Yeah, for a month."
+        }
+      ],
+      "activation": "evaluated",
+      "source_rationale_id": "R22"
+    },
+    {
+      "rationale_label": "competitive_landscape_inertia",
+      "direction": "positive",
+      "salience": "secondary",
+      "confidence": 0.9,
+      "utterance_type": "assessment",
+      "decision_link": "none",
+      "timing": "original_pitch",
+      "turn_index": 246,
+      "quote": "status quo. That's what they want to -",
+      "explanation": "Phil agrees that Heinz's preference for the status quo makes an adaptive competitive response less likely.",
+      "evidence": [
+        "status quo. That's what they want to -"
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 246,
+          "speaker": "Phil",
+          "quote": "status quo. That's what they want to -"
+        }
+      ],
+      "activation": "evaluated",
+      "source_rationale_id": "R23"
+    },
+    {
+      "rationale_label": "solution_feasibility_assessment",
+      "direction": "neutral",
+      "salience": "secondary",
+      "confidence": 0.97,
+      "utterance_type": "question",
+      "decision_link": "none",
+      "timing": "original_pitch",
+      "turn_index": 330,
+      "quote": "How do you reduce the pack - the plastic? Like how are you delivering the product?",
+      "explanation": "Phil asks how the delivery format operationally achieves the claimed plastic reduction.",
+      "evidence": [
+        "How do you reduce the pack - the plastic? Like how are you delivering the product?"
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 330,
+          "speaker": "Phil",
+          "quote": "How do you reduce the pack - the plastic? Like how are you delivering the product?"
+        }
+      ],
+      "activation": "queried",
+      "source_rationale_id": "R24"
+    },
+    {
+      "rationale_label": "solution_feasibility_assessment",
+      "direction": "neutral",
+      "salience": "secondary",
+      "confidence": 0.97,
+      "utterance_type": "question",
+      "decision_link": "none",
+      "timing": "original_pitch",
+      "turn_index": 333,
+      "quote": "your sauce requires a little more work for the food service employees, right?",
+      "explanation": "Phil probes whether preparing the product creates operational friction for food-service workers.",
+      "evidence": [
+        "your sauce requires a little more work for the food service employees, right?"
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 333,
+          "speaker": "Phil",
+          "quote": "your sauce requires a little more work for the food service employees, right?"
+        }
+      ],
+      "activation": "queried",
+      "source_rationale_id": "R25"
+    },
+    {
+      "rationale_label": "solution_feasibility_assessment",
+      "direction": "neutral",
+      "salience": "secondary",
+      "confidence": 0.9,
+      "utterance_type": "question",
+      "decision_link": "none",
+      "timing": "original_pitch",
+      "turn_index": 335,
+      "quote": "Then that wouldn't require anymore work from the employees -",
+      "explanation": "Phil checks whether the proposed machine would eliminate the additional employee work.",
+      "evidence": [
+        "Then that wouldn't require anymore work from the employees -"
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 335,
+          "speaker": "Phil",
+          "quote": "Then that wouldn't require anymore work from the employees -"
+        }
+      ],
+      "activation": "queried",
+      "source_rationale_id": "R26"
+    },
+    {
+      "rationale_label": "product_differentiation_concern",
+      "direction": "neutral",
+      "salience": "secondary",
+      "confidence": 0.97,
+      "utterance_type": "question",
+      "decision_link": "none",
+      "timing": "original_pitch",
+      "turn_index": 339,
+      "quote": "Is your differentiation then, is your real focus on the sustainability to food service or are you selling convenience or taste?",
+      "explanation": "Phil asks which attribute actually differentiates the offering to food-service buyers.",
+      "evidence": [
+        "Is your differentiation then, is your real focus on the sustainability to food service or are you selling convenience or taste?"
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 339,
+          "speaker": "Phil",
+          "quote": "Is your differentiation then, is your real focus on the sustainability to food service or are you selling convenience or taste?"
+        }
+      ],
+      "activation": "queried",
+      "source_rationale_id": "R27"
+    },
+    {
+      "rationale_label": "product_success_factor_assessment",
+      "direction": "negative",
+      "salience": "secondary",
+      "confidence": 0.95,
+      "utterance_type": "assessment",
+      "decision_link": "none",
+      "timing": "original_pitch",
+      "turn_index": 341,
+      "quote": "their priorities would be flipped, whereas cost would be number one",
+      "explanation": "Phil believes buyer priorities are misordered in the pitch because cost is likely the decisive attribute.",
+      "evidence": [
+        "their priorities would be flipped, whereas cost would be number one"
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 341,
+          "speaker": "Phil",
+          "quote": "their priorities would be flipped, whereas cost would be number one"
+        }
+      ],
+      "activation": "evaluated",
+      "source_rationale_id": "R28"
+    },
+    {
+      "rationale_label": "unit_economics_assessment",
+      "direction": "neutral",
+      "salience": "secondary",
+      "confidence": 0.99,
+      "utterance_type": "question",
+      "decision_link": "none",
+      "timing": "original_pitch",
+      "turn_index": 368,
+      "quote": "just on unit economics of what is your margin on this? Do you know?",
+      "explanation": "Phil asks for the product's margin.",
+      "evidence": [
+        "just on unit economics of what is your margin on this? Do you know?"
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 368,
+          "speaker": "Phil",
+          "quote": "just on unit economics of what is your margin on this? Do you know?"
+        }
+      ],
+      "activation": "queried",
+      "source_rationale_id": "R29"
+    },
+    {
+      "rationale_label": "unit_economics_assessment",
+      "direction": "neutral",
+      "salience": "secondary",
+      "confidence": 0.99,
+      "utterance_type": "question",
+      "decision_link": "none",
+      "timing": "original_pitch",
+      "turn_index": 372,
+      "quote": "You're selling it to food service, for how much?",
+      "explanation": "Phil asks for the food-service selling price.",
+      "evidence": [
+        "You're selling it to food service, for how much?"
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 372,
+          "speaker": "Phil",
+          "quote": "You're selling it to food service, for how much?"
+        }
+      ],
+      "activation": "queried",
+      "source_rationale_id": "R30"
+    },
+    {
+      "rationale_label": "unit_economics_assessment",
+      "direction": "negative",
+      "salience": "secondary",
+      "confidence": 0.99,
+      "utterance_type": "concern",
+      "decision_link": "none",
+      "timing": "original_pitch",
+      "turn_index": 374,
+      "quote": "you're paying 12 cents and you're selling it for 8 cents?",
+      "explanation": "Phil highlights that the current selling price is below production cost.",
+      "evidence": [
+        "you're paying 12 cents and you're selling it for 8 cents?"
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 374,
+          "speaker": "Phil",
+          "quote": "you're paying 12 cents and you're selling it for 8 cents?"
+        }
+      ],
+      "activation": "evaluated",
+      "source_rationale_id": "R31"
+    },
+    {
+      "rationale_label": "unit_economics_assessment",
+      "direction": "neutral",
+      "salience": "secondary",
+      "confidence": 0.99,
+      "utterance_type": "question",
+      "decision_link": "none",
+      "timing": "original_pitch",
+      "turn_index": 378,
+      "quote": "What kind of volume level do you need to be to get to 5 and a-half cents?",
+      "explanation": "Phil asks what scale is required to achieve the projected lower cost.",
+      "evidence": [
+        "What kind of volume level do you need to be to get to 5 and a-half cents?"
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 378,
+          "speaker": "Phil",
+          "quote": "What kind of volume level do you need to be to get to 5 and a-half cents?"
+        }
+      ],
+      "activation": "queried",
+      "source_rationale_id": "R32"
+    },
+    {
+      "rationale_label": "unit_economics_assessment",
+      "direction": "neutral",
+      "salience": "secondary",
+      "confidence": 0.98,
+      "utterance_type": "question",
+      "decision_link": "none",
+      "timing": "original_pitch",
+      "turn_index": 380,
+      "quote": "we get it down to 5 and a-half cents and you're still going to sell it for 8 cents?",
+      "explanation": "Phil tests the margin implied by the projected cost and selling price.",
+      "evidence": [
+        "we get it down to 5 and a-half cents and you're still going to sell it for 8 cents?"
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 380,
+          "speaker": "Phil",
+          "quote": "we get it down to 5 and a-half cents and you're still going to sell it for 8 cents?"
+        }
+      ],
+      "activation": "queried",
+      "source_rationale_id": "R33"
+    },
+    {
+      "rationale_label": "business_model_assessment",
+      "direction": "neutral",
+      "salience": "secondary",
+      "confidence": 0.96,
+      "utterance_type": "question",
+      "decision_link": "none",
+      "timing": "original_pitch",
+      "turn_index": 384,
+      "quote": "Do you think there's appetite for them to pay more?",
+      "explanation": "Phil asks whether customers will support a higher monetization level.",
+      "evidence": [
+        "Do you think there's appetite for them to pay more?"
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 384,
+          "speaker": "Phil",
+          "quote": "Do you think there's appetite for them to pay more?"
+        }
+      ],
+      "activation": "queried",
+      "source_rationale_id": "R34"
+    },
+    {
+      "rationale_label": "business_model_assessment",
+      "direction": "neutral",
+      "salience": "secondary",
+      "confidence": 0.95,
+      "utterance_type": "question",
+      "decision_link": "none",
+      "timing": "original_pitch",
+      "turn_index": 386,
+      "quote": "Because of the ESG?",
+      "explanation": "Phil asks whether ESG value can justify customers paying a premium.",
+      "evidence": [
+        "Because of the ESG?"
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 386,
+          "speaker": "Phil",
+          "quote": "Because of the ESG?"
+        }
+      ],
+      "activation": "queried",
+      "source_rationale_id": "R35"
+    },
+    {
+      "rationale_label": "solution_feasibility_assessment",
+      "direction": "negative",
+      "salience": "secondary",
+      "confidence": 0.98,
+      "utterance_type": "concern",
+      "decision_link": "none",
+      "timing": "original_pitch",
+      "turn_index": 394,
+      "quote": "That’s not going to work.",
+      "explanation": "Phil rejects the proposed manual-staffing approach as operationally unworkable.",
+      "evidence": [
+        "That’s not going to work."
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 394,
+          "speaker": "Phil",
+          "quote": "That’s not going to work."
+        }
+      ],
+      "activation": "evaluated",
+      "source_rationale_id": "R36"
+    },
+    {
+      "rationale_label": "competitive_landscape_inertia",
+      "direction": "neutral",
+      "salience": "secondary",
+      "confidence": 0.97,
+      "utterance_type": "question",
+      "decision_link": "none",
+      "timing": "original_pitch",
+      "turn_index": 405,
+      "quote": "How can they get around the contract with Heinz then?",
+      "explanation": "Phil probes whether incumbent contracts block entry into the proposed stadium channel.",
+      "evidence": [
+        "How can they get around the contract with Heinz then?"
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 405,
+          "speaker": "Phil",
+          "quote": "How can they get around the contract with Heinz then?"
+        }
+      ],
+      "activation": "queried",
+      "source_rationale_id": "R37"
+    },
+    {
+      "rationale_label": "product_differentiation_concern",
+      "direction": "neutral",
+      "salience": "secondary",
+      "confidence": 0.98,
+      "utterance_type": "question",
+      "decision_link": "none",
+      "timing": "original_pitch",
+      "turn_index": 428,
+      "quote": "Are you the only ones?",
+      "explanation": "Phil asks whether the powder-based solution is unique.",
+      "evidence": [
+        "Are you the only ones?"
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 428,
+          "speaker": "Phil",
+          "quote": "Are you the only ones?"
+        }
+      ],
+      "activation": "queried",
+      "source_rationale_id": "R38"
+    },
+    {
+      "rationale_label": "product_appeal_assessment",
+      "direction": "positive",
+      "salience": "secondary",
+      "confidence": 0.94,
+      "utterance_type": "decision_explanation",
+      "decision_link": "none",
+      "timing": "original_pitch",
+      "turn_index": 454,
+      "quote": "it seems like it'll make the work effort at the stadium level lower",
+      "explanation": "Phil identifies reduced stadium labor as an appealing operational benefit.",
+      "evidence": [
+        "it seems like it'll make the work effort at the stadium level lower"
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 454,
+          "speaker": "Phil",
+          "quote": "it seems like it'll make the work effort at the stadium level lower"
+        }
+      ],
+      "activation": "evaluated",
+      "source_rationale_id": "R39"
+    },
+    {
+      "rationale_label": "market_entry_path_assessment",
+      "direction": "positive",
+      "salience": "secondary",
+      "confidence": 0.93,
+      "utterance_type": "decision_explanation",
+      "decision_link": "none",
+      "timing": "original_pitch",
+      "turn_index": 454,
+      "quote": "those who are focused on ESG are gonna really like what you're doing",
+      "explanation": "Phil sees ESG-focused organizations as a receptive initial customer segment.",
+      "evidence": [
+        "those who are focused on ESG are gonna really like what you're doing"
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 454,
+          "speaker": "Phil",
+          "quote": "those who are focused on ESG are gonna really like what you're doing"
+        }
+      ],
+      "activation": "evaluated",
+      "source_rationale_id": "R40"
+    },
+    {
+      "rationale_label": "solution_feasibility_assessment",
+      "direction": "negative",
+      "salience": "primary",
+      "confidence": 0.99,
+      "utterance_type": "decision_explanation",
+      "decision_link": "supports_out",
+      "timing": "original_pitch",
+      "turn_index": 454,
+      "quote": "What concerns me is where you are on the machine",
+      "explanation": "Phil links the machine's insufficient development to his decision to pass.",
+      "evidence": [
+        "What concerns me is where you are on the machine"
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 454,
+          "speaker": "Phil",
+          "quote": "What concerns me is where you are on the machine"
+        }
+      ],
+      "activation": "evaluated",
+      "source_rationale_id": "R41"
+    },
+    {
+      "rationale_label": "unit_economics_assessment",
+      "direction": "negative",
+      "salience": "primary",
+      "confidence": 0.99,
+      "utterance_type": "decision_explanation",
+      "decision_link": "supports_out",
+      "timing": "original_pitch",
+      "turn_index": 454,
+      "quote": "what it's going to take to you get to the volume levels to support the pricing in a profitable way",
+      "explanation": "Phil links uncertainty about reaching profitable scale to his decision to pass.",
+      "evidence": [
+        "what it's going to take to you get to the volume levels to support the pricing in a profitable way"
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 454,
+          "speaker": "Phil",
+          "quote": "what it's going to take to you get to the volume levels to support the pricing in a profitable way"
+        }
+      ],
+      "activation": "evaluated",
+      "source_rationale_id": "R42"
+    },
+    {
+      "rationale_label": "competitive_landscape_inertia",
+      "direction": "negative",
+      "salience": "secondary",
+      "confidence": 0.97,
+      "utterance_type": "assessment",
+      "decision_link": "none",
+      "timing": "original_pitch",
+      "turn_index": 502,
+      "quote": "I wasn't really satisfied with the answer regarding the stadiums or the concessionaire's ability to go around their Heinz contracts.",
+      "explanation": "Phil remains concerned that incumbent contracts may obstruct stadium distribution.",
+      "evidence": [
+        "I wasn't really satisfied with the answer regarding the stadiums or the concessionaire's ability to go around their Heinz contracts."
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 502,
+          "speaker": "Phil",
+          "quote": "I wasn't really satisfied with the answer regarding the stadiums or the concessionaire's ability to go around their Heinz contracts."
+        }
+      ],
+      "activation": "evaluated",
+      "source_rationale_id": "R43"
+    },
+    {
+      "rationale_label": "founder_communication_quality",
+      "direction": "negative",
+      "salience": "secondary",
+      "confidence": 0.94,
+      "utterance_type": "assessment",
+      "decision_link": "none",
+      "timing": "original_pitch",
+      "turn_index": 504,
+      "quote": "they didn't seem 100 per cent sure about that",
+      "explanation": "Phil says the founders lacked command and certainty when explaining the contract issue.",
+      "evidence": [
+        "they didn't seem 100 per cent sure about that"
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 504,
+          "speaker": "Phil",
+          "quote": "they didn't seem 100 per cent sure about that"
+        }
+      ],
+      "activation": "evaluated",
+      "source_rationale_id": "R44"
+    },
+    {
+      "rationale_label": "traction_repeatability_concern",
+      "direction": "negative",
+      "salience": "secondary",
+      "confidence": 0.94,
+      "utterance_type": "assessment",
+      "decision_link": "none",
+      "timing": "original_pitch",
+      "turn_index": 508,
+      "quote": "Yeah, for a month.",
+      "explanation": "Phil emphasizes that the stadium evidence came from only a short pilot.",
+      "evidence": [
+        "Yeah, for a month."
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 508,
+          "speaker": "Phil",
+          "quote": "Yeah, for a month."
+        }
+      ],
+      "activation": "evaluated",
+      "source_rationale_id": "R45"
+    },
+    {
+      "rationale_label": "competitive_landscape_inertia",
+      "direction": "positive",
+      "salience": "secondary",
+      "confidence": 0.9,
+      "utterance_type": "assessment",
+      "decision_link": "none",
+      "timing": "original_pitch",
+      "turn_index": 532,
+      "quote": "status quo. That's what they want to -",
+      "explanation": "Phil agrees that Heinz's preference for the status quo makes an adaptive competitive response less likely.",
+      "evidence": [
+        "status quo. That's what they want to -"
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 532,
+          "speaker": "Phil",
+          "quote": "status quo. That's what they want to -"
+        }
+      ],
+      "activation": "evaluated",
+      "source_rationale_id": "R46"
+    },
+    {
+      "rationale_label": "solution_feasibility_assessment",
+      "direction": "neutral",
+      "salience": "secondary",
+      "confidence": 0.97,
+      "utterance_type": "question",
+      "decision_link": "none",
+      "timing": "original_pitch",
+      "turn_index": 616,
+      "quote": "How do you reduce the pack - the plastic? Like how are you delivering the product?",
+      "explanation": "Phil asks how the delivery format operationally achieves the claimed plastic reduction.",
+      "evidence": [
+        "How do you reduce the pack - the plastic? Like how are you delivering the product?"
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 616,
+          "speaker": "Phil",
+          "quote": "How do you reduce the pack - the plastic? Like how are you delivering the product?"
+        }
+      ],
+      "activation": "queried",
+      "source_rationale_id": "R47"
+    },
+    {
+      "rationale_label": "solution_feasibility_assessment",
+      "direction": "neutral",
+      "salience": "secondary",
+      "confidence": 0.97,
+      "utterance_type": "question",
+      "decision_link": "none",
+      "timing": "original_pitch",
+      "turn_index": 619,
+      "quote": "your sauce requires a little more work for the food service employees, right?",
+      "explanation": "Phil probes whether preparing the product creates operational friction for food-service workers.",
+      "evidence": [
+        "your sauce requires a little more work for the food service employees, right?"
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 619,
+          "speaker": "Phil",
+          "quote": "your sauce requires a little more work for the food service employees, right?"
+        }
+      ],
+      "activation": "queried",
+      "source_rationale_id": "R48"
+    },
+    {
+      "rationale_label": "solution_feasibility_assessment",
+      "direction": "neutral",
+      "salience": "secondary",
+      "confidence": 0.9,
+      "utterance_type": "question",
+      "decision_link": "none",
+      "timing": "original_pitch",
+      "turn_index": 621,
+      "quote": "Then that wouldn't require anymore work from the employees -",
+      "explanation": "Phil checks whether the proposed machine would eliminate the additional employee work.",
+      "evidence": [
+        "Then that wouldn't require anymore work from the employees -"
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 621,
+          "speaker": "Phil",
+          "quote": "Then that wouldn't require anymore work from the employees -"
+        }
+      ],
+      "activation": "queried",
+      "source_rationale_id": "R49"
+    },
+    {
+      "rationale_label": "product_differentiation_concern",
+      "direction": "neutral",
+      "salience": "secondary",
+      "confidence": 0.97,
+      "utterance_type": "question",
+      "decision_link": "none",
+      "timing": "original_pitch",
+      "turn_index": 625,
+      "quote": "Is your differentiation then, is your real focus on the sustainability to food service or are you selling convenience or taste?",
+      "explanation": "Phil asks which attribute actually differentiates the offering to food-service buyers.",
+      "evidence": [
+        "Is your differentiation then, is your real focus on the sustainability to food service or are you selling convenience or taste?"
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 625,
+          "speaker": "Phil",
+          "quote": "Is your differentiation then, is your real focus on the sustainability to food service or are you selling convenience or taste?"
+        }
+      ],
+      "activation": "queried",
+      "source_rationale_id": "R50"
+    },
+    {
+      "rationale_label": "product_success_factor_assessment",
+      "direction": "negative",
+      "salience": "secondary",
+      "confidence": 0.95,
+      "utterance_type": "assessment",
+      "decision_link": "none",
+      "timing": "original_pitch",
+      "turn_index": 627,
+      "quote": "their priorities would be flipped, whereas cost would be number one",
+      "explanation": "Phil believes buyer priorities are misordered in the pitch because cost is likely the decisive attribute.",
+      "evidence": [
+        "their priorities would be flipped, whereas cost would be number one"
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 627,
+          "speaker": "Phil",
+          "quote": "their priorities would be flipped, whereas cost would be number one"
+        }
+      ],
+      "activation": "evaluated",
+      "source_rationale_id": "R51"
+    },
+    {
+      "rationale_label": "unit_economics_assessment",
+      "direction": "neutral",
+      "salience": "secondary",
+      "confidence": 0.99,
+      "utterance_type": "question",
+      "decision_link": "none",
+      "timing": "original_pitch",
+      "turn_index": 654,
+      "quote": "just on unit economics of what is your margin on this? Do you know?",
+      "explanation": "Phil asks for the product's margin.",
+      "evidence": [
+        "just on unit economics of what is your margin on this? Do you know?"
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 654,
+          "speaker": "Phil",
+          "quote": "just on unit economics of what is your margin on this? Do you know?"
+        }
+      ],
+      "activation": "queried",
+      "source_rationale_id": "R52"
+    },
+    {
+      "rationale_label": "unit_economics_assessment",
+      "direction": "neutral",
+      "salience": "secondary",
+      "confidence": 0.99,
+      "utterance_type": "question",
+      "decision_link": "none",
+      "timing": "original_pitch",
+      "turn_index": 658,
+      "quote": "You're selling it to food service, for how much?",
+      "explanation": "Phil asks for the food-service selling price.",
+      "evidence": [
+        "You're selling it to food service, for how much?"
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 658,
+          "speaker": "Phil",
+          "quote": "You're selling it to food service, for how much?"
+        }
+      ],
+      "activation": "queried",
+      "source_rationale_id": "R53"
+    },
+    {
+      "rationale_label": "unit_economics_assessment",
+      "direction": "negative",
+      "salience": "secondary",
+      "confidence": 0.99,
+      "utterance_type": "concern",
+      "decision_link": "none",
+      "timing": "original_pitch",
+      "turn_index": 660,
+      "quote": "you're paying 12 cents and you're selling it for 8 cents?",
+      "explanation": "Phil highlights that the current selling price is below production cost.",
+      "evidence": [
+        "you're paying 12 cents and you're selling it for 8 cents?"
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 660,
+          "speaker": "Phil",
+          "quote": "you're paying 12 cents and you're selling it for 8 cents?"
+        }
+      ],
+      "activation": "evaluated",
+      "source_rationale_id": "R54"
+    },
+    {
+      "rationale_label": "unit_economics_assessment",
+      "direction": "neutral",
+      "salience": "secondary",
+      "confidence": 0.99,
+      "utterance_type": "question",
+      "decision_link": "none",
+      "timing": "original_pitch",
+      "turn_index": 664,
+      "quote": "What kind of volume level do you need to be to get to 5 and a-half cents?",
+      "explanation": "Phil asks what scale is required to achieve the projected lower cost.",
+      "evidence": [
+        "What kind of volume level do you need to be to get to 5 and a-half cents?"
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 664,
+          "speaker": "Phil",
+          "quote": "What kind of volume level do you need to be to get to 5 and a-half cents?"
+        }
+      ],
+      "activation": "queried",
+      "source_rationale_id": "R55"
+    },
+    {
+      "rationale_label": "unit_economics_assessment",
+      "direction": "neutral",
+      "salience": "secondary",
+      "confidence": 0.98,
+      "utterance_type": "question",
+      "decision_link": "none",
+      "timing": "original_pitch",
+      "turn_index": 666,
+      "quote": "we get it down to 5 and a-half cents and you're still going to sell it for 8 cents?",
+      "explanation": "Phil tests the margin implied by the projected cost and selling price.",
+      "evidence": [
+        "we get it down to 5 and a-half cents and you're still going to sell it for 8 cents?"
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 666,
+          "speaker": "Phil",
+          "quote": "we get it down to 5 and a-half cents and you're still going to sell it for 8 cents?"
+        }
+      ],
+      "activation": "queried",
+      "source_rationale_id": "R56"
+    },
+    {
+      "rationale_label": "business_model_assessment",
+      "direction": "neutral",
+      "salience": "secondary",
+      "confidence": 0.96,
+      "utterance_type": "question",
+      "decision_link": "none",
+      "timing": "original_pitch",
+      "turn_index": 670,
+      "quote": "Do you think there's appetite for them to pay more?",
+      "explanation": "Phil asks whether customers will support a higher monetization level.",
+      "evidence": [
+        "Do you think there's appetite for them to pay more?"
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 670,
+          "speaker": "Phil",
+          "quote": "Do you think there's appetite for them to pay more?"
+        }
+      ],
+      "activation": "queried",
+      "source_rationale_id": "R57"
+    },
+    {
+      "rationale_label": "business_model_assessment",
+      "direction": "neutral",
+      "salience": "secondary",
+      "confidence": 0.95,
+      "utterance_type": "question",
+      "decision_link": "none",
+      "timing": "original_pitch",
+      "turn_index": 672,
+      "quote": "Because of the ESG?",
+      "explanation": "Phil asks whether ESG value can justify customers paying a premium.",
+      "evidence": [
+        "Because of the ESG?"
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 672,
+          "speaker": "Phil",
+          "quote": "Because of the ESG?"
+        }
+      ],
+      "activation": "queried",
+      "source_rationale_id": "R58"
+    },
+    {
+      "rationale_label": "solution_feasibility_assessment",
+      "direction": "negative",
+      "salience": "secondary",
+      "confidence": 0.98,
+      "utterance_type": "concern",
+      "decision_link": "none",
+      "timing": "original_pitch",
+      "turn_index": 680,
+      "quote": "That’s not going to work.",
+      "explanation": "Phil rejects the proposed manual-staffing approach as operationally unworkable.",
+      "evidence": [
+        "That’s not going to work."
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 680,
+          "speaker": "Phil",
+          "quote": "That’s not going to work."
+        }
+      ],
+      "activation": "evaluated",
+      "source_rationale_id": "R59"
+    },
+    {
+      "rationale_label": "competitive_landscape_inertia",
+      "direction": "neutral",
+      "salience": "secondary",
+      "confidence": 0.97,
+      "utterance_type": "question",
+      "decision_link": "none",
+      "timing": "original_pitch",
+      "turn_index": 691,
+      "quote": "How can they get around the contract with Heinz then?",
+      "explanation": "Phil probes whether incumbent contracts block entry into the proposed stadium channel.",
+      "evidence": [
+        "How can they get around the contract with Heinz then?"
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 691,
+          "speaker": "Phil",
+          "quote": "How can they get around the contract with Heinz then?"
+        }
+      ],
+      "activation": "queried",
+      "source_rationale_id": "R60"
+    },
+    {
+      "rationale_label": "product_differentiation_concern",
+      "direction": "neutral",
+      "salience": "secondary",
+      "confidence": 0.98,
+      "utterance_type": "question",
+      "decision_link": "none",
+      "timing": "original_pitch",
+      "turn_index": 714,
+      "quote": "Are you the only ones?",
+      "explanation": "Phil asks whether the powder-based solution is unique.",
+      "evidence": [
+        "Are you the only ones?"
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 714,
+          "speaker": "Phil",
+          "quote": "Are you the only ones?"
+        }
+      ],
+      "activation": "queried",
+      "source_rationale_id": "R61"
+    },
+    {
+      "rationale_label": "product_appeal_assessment",
+      "direction": "positive",
+      "salience": "secondary",
+      "confidence": 0.94,
+      "utterance_type": "decision_explanation",
+      "decision_link": "none",
+      "timing": "original_pitch",
+      "turn_index": 740,
+      "quote": "it seems like it'll make the work effort at the stadium level lower",
+      "explanation": "Phil identifies reduced stadium labor as an appealing operational benefit.",
+      "evidence": [
+        "it seems like it'll make the work effort at the stadium level lower"
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 740,
+          "speaker": "Phil",
+          "quote": "it seems like it'll make the work effort at the stadium level lower"
+        }
+      ],
+      "activation": "evaluated",
+      "source_rationale_id": "R62"
+    },
+    {
+      "rationale_label": "market_entry_path_assessment",
+      "direction": "positive",
+      "salience": "secondary",
+      "confidence": 0.93,
+      "utterance_type": "decision_explanation",
+      "decision_link": "none",
+      "timing": "original_pitch",
+      "turn_index": 740,
+      "quote": "those who are focused on ESG are gonna really like what you're doing",
+      "explanation": "Phil sees ESG-focused organizations as a receptive initial customer segment.",
+      "evidence": [
+        "those who are focused on ESG are gonna really like what you're doing"
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 740,
+          "speaker": "Phil",
+          "quote": "those who are focused on ESG are gonna really like what you're doing"
+        }
+      ],
+      "activation": "evaluated",
+      "source_rationale_id": "R63"
+    },
+    {
+      "rationale_label": "solution_feasibility_assessment",
+      "direction": "negative",
+      "salience": "primary",
+      "confidence": 0.99,
+      "utterance_type": "decision_explanation",
+      "decision_link": "supports_out",
+      "timing": "original_pitch",
+      "turn_index": 740,
+      "quote": "What concerns me is where you are on the machine",
+      "explanation": "Phil links the machine's insufficient development to his decision to pass.",
+      "evidence": [
+        "What concerns me is where you are on the machine"
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 740,
+          "speaker": "Phil",
+          "quote": "What concerns me is where you are on the machine"
+        }
+      ],
+      "activation": "evaluated",
+      "source_rationale_id": "R64"
+    },
+    {
+      "rationale_label": "unit_economics_assessment",
+      "direction": "negative",
+      "salience": "primary",
+      "confidence": 0.99,
+      "utterance_type": "decision_explanation",
+      "decision_link": "supports_out",
+      "timing": "original_pitch",
+      "turn_index": 740,
+      "quote": "what it's going to take to you get to the volume levels to support the pricing in a profitable way",
+      "explanation": "Phil links uncertainty about reaching profitable scale to his decision to pass.",
+      "evidence": [
+        "what it's going to take to you get to the volume levels to support the pricing in a profitable way"
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 740,
+          "speaker": "Phil",
+          "quote": "what it's going to take to you get to the volume levels to support the pricing in a profitable way"
+        }
+      ],
+      "activation": "evaluated",
+      "source_rationale_id": "R65"
+    },
+    {
+      "rationale_label": "competitive_landscape_inertia",
+      "direction": "negative",
+      "salience": "secondary",
+      "confidence": 0.97,
+      "utterance_type": "assessment",
+      "decision_link": "none",
+      "timing": "original_pitch",
+      "turn_index": 788,
+      "quote": "I wasn't really satisfied with the answer regarding the stadiums or the concessionaire's ability to go around their Heinz contracts.",
+      "explanation": "Phil remains concerned that incumbent contracts may obstruct stadium distribution.",
+      "evidence": [
+        "I wasn't really satisfied with the answer regarding the stadiums or the concessionaire's ability to go around their Heinz contracts."
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 788,
+          "speaker": "Phil",
+          "quote": "I wasn't really satisfied with the answer regarding the stadiums or the concessionaire's ability to go around their Heinz contracts."
+        }
+      ],
+      "activation": "evaluated",
+      "source_rationale_id": "R66"
+    },
+    {
+      "rationale_label": "founder_communication_quality",
+      "direction": "negative",
+      "salience": "secondary",
+      "confidence": 0.94,
+      "utterance_type": "assessment",
+      "decision_link": "none",
+      "timing": "original_pitch",
+      "turn_index": 790,
+      "quote": "they didn't seem 100 per cent sure about that",
+      "explanation": "Phil says the founders lacked command and certainty when explaining the contract issue.",
+      "evidence": [
+        "they didn't seem 100 per cent sure about that"
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 790,
+          "speaker": "Phil",
+          "quote": "they didn't seem 100 per cent sure about that"
+        }
+      ],
+      "activation": "evaluated",
+      "source_rationale_id": "R67"
+    },
+    {
+      "rationale_label": "traction_repeatability_concern",
+      "direction": "negative",
+      "salience": "secondary",
+      "confidence": 0.94,
+      "utterance_type": "assessment",
+      "decision_link": "none",
+      "timing": "original_pitch",
+      "turn_index": 794,
+      "quote": "Yeah, for a month.",
+      "explanation": "Phil emphasizes that the stadium evidence came from only a short pilot.",
+      "evidence": [
+        "Yeah, for a month."
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 794,
+          "speaker": "Phil",
+          "quote": "Yeah, for a month."
+        }
+      ],
+      "activation": "evaluated",
+      "source_rationale_id": "R68"
+    },
+    {
+      "rationale_label": "competitive_landscape_inertia",
+      "direction": "positive",
+      "salience": "secondary",
+      "confidence": 0.9,
+      "utterance_type": "assessment",
+      "decision_link": "none",
+      "timing": "original_pitch",
+      "turn_index": 818,
+      "quote": "status quo. That's what they want to -",
+      "explanation": "Phil agrees that Heinz's preference for the status quo makes an adaptive competitive response less likely.",
+      "evidence": [
+        "status quo. That's what they want to -"
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 818,
+          "speaker": "Phil",
+          "quote": "status quo. That's what they want to -"
+        }
+      ],
+      "activation": "evaluated",
+      "source_rationale_id": "R69"
+    }
+  ],
+  "expanded_quote_evidence": [],
+  "rejected_after_evidence_check": []
+}

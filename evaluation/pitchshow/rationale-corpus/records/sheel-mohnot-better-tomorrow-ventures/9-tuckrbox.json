@@ -1,0 +1,898 @@
+{
+  "schema": "phase1-rationale-reference-v1",
+  "extraction_version": "pitchshow-rationales-v1",
+  "fingerprint": "a09bbdda7cc3496c2283dad6ab2752fec32a2dddda3b25c34c1af77bba079315",
+  "episode_slug": "9-tuckrbox",
+  "vc_slug": "sheel-mohnot-better-tomorrow-ventures",
+  "vc_name": "Sheel Mohnot",
+  "actual_decision": "Out",
+  "later_decision": "Unknown",
+  "reference_kind": "automated_transcript_observed_candidate",
+  "human_validated": false,
+  "source_format": "transcript-observed-rationales-v1",
+  "source_path": "/home/dpasch01/vclogic-vc-agentic-assessment/evaluation/pitchshow/investors/sheel-mohnot-better-tomorrow-ventures/source/episodes/9-tuckrbox.json",
+  "source_sha256": "448b1d73d8b6017fa4ae7c84ea98a9af0a87e2d36e3ff0244c550ab99df28995",
+  "transcript_sha256": "63a103951169e2074b16a50c1c652daf19db30231f140e5b9da6c1bb656cc293",
+  "taxonomy_sha256": "eaa8734819a3ac34dd19ee5f0bf6de925a793a1d25a2d361090dafc9b751e1fc",
+  "model": "codex:gpt-5.6-luna+gpt-5.6-sol",
+  "generation_stages": [
+    {
+      "phase": "rationale_extract",
+      "backend": "codex",
+      "model": "gpt-5.6-luna"
+    },
+    {
+      "phase": "rationale_verify",
+      "backend": "codex",
+      "model": "gpt-5.6-sol"
+    }
+  ],
+  "source_tier": "newly_extracted_and_independently_model_reviewed",
+  "reviewed_target_turns": [
+    2,
+    7,
+    12,
+    26,
+    28,
+    39,
+    41,
+    48,
+    50,
+    52,
+    54,
+    56,
+    62,
+    65,
+    70,
+    97,
+    99,
+    101,
+    113,
+    115,
+    117,
+    122
+  ],
+  "notes": "All supplied target turns were reviewed. Turns without annotations contain jokes, apologies, bare acknowledgments, simple confirmations, or questions about another investor's commitment rather than Sheel's own investment rationale.",
+  "receipt_path": "/home/dpasch01/vclogic-vc-agentic-assessment/evaluation/pitchshow/investors/sheel-mohnot-better-tomorrow-ventures/rationale-references/receipts/9-tuckrbox.json",
+  "scoring_scope": "original_pitch_only",
+  "shared_across_input_modes": true,
+  "rationales": [
+    {
+      "rationale_label": "business_model_assessment",
+      "direction": "negative",
+      "salience": "primary",
+      "confidence": 0.97,
+      "utterance_type": "decision_reason",
+      "decision_link": "explicit",
+      "timing": "original_pitch",
+      "turn_index": 97,
+      "quote": "I think it's going to be hard to get a lower price point.",
+      "explanation": "Sheel identifies difficulty reducing the customer price as a reason for passing.",
+      "evidence": [
+        "let's say it was $10 a month, first of all that's a lot",
+        "half of Americans are packing lunches. A big part of that is a financial decision. So take me through your justification for 13 dollars.",
+        "I think it's going to be hard to get a lower price point.",
+        "the app seems like an entirely different business than delivering food. And I don't think you need to be doing both."
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 48,
+          "speaker": "Sheel",
+          "quote": "let's say it was $10 a month, first of all that's a lot"
+        },
+        {
+          "turn_index": 65,
+          "speaker": "Sheel",
+          "quote": "half of Americans are packing lunches. A big part of that is a financial decision. So take me through your justification for 13 dollars."
+        },
+        {
+          "turn_index": 97,
+          "speaker": "Sheel",
+          "quote": "I think it's going to be hard to get a lower price point."
+        },
+        {
+          "turn_index": 97,
+          "speaker": "Sheel",
+          "quote": "the app seems like an entirely different business than delivering food. And I don't think you need to be doing both."
+        }
+      ],
+      "activation": "evaluated",
+      "source_rationale_id": "R11",
+      "utterance_kind": "decision_explanation",
+      "decision_support": "supports_out",
+      "all_mention_ids": [
+        "R5",
+        "R7",
+        "R8",
+        "R11",
+        "R12"
+      ]
+    },
+    {
+      "rationale_label": "business_viability_concern",
+      "direction": "negative",
+      "salience": "primary",
+      "confidence": 0.99,
+      "utterance_type": "decision_reason",
+      "decision_link": "explicit",
+      "timing": "original_pitch",
+      "turn_index": 99,
+      "quote": "under $10 you're not going to make any money. And that's why, like, as much as I want the business to exist, I don't know if it can.",
+      "explanation": "Sheel believes the business cannot simultaneously charge an accessible price and make money, reinforcing his refusal.",
+      "evidence": [
+        "Is there a business to be had around that?",
+        "under $10 you're not going to make any money. And that's why, like, as much as I want the business to exist, I don't know if it can."
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 56,
+          "speaker": "Sheel",
+          "quote": "Is there a business to be had around that?"
+        },
+        {
+          "turn_index": 99,
+          "speaker": "Sheel",
+          "quote": "under $10 you're not going to make any money. And that's why, like, as much as I want the business to exist, I don't know if it can."
+        }
+      ],
+      "activation": "evaluated",
+      "source_rationale_id": "R17",
+      "utterance_kind": "decision_explanation",
+      "decision_support": "supports_out",
+      "all_mention_ids": [
+        "R6",
+        "R17"
+      ]
+    },
+    {
+      "rationale_label": "founder_communication_quality",
+      "direction": "positive",
+      "salience": "secondary",
+      "confidence": 0.97,
+      "utterance_type": "assessment",
+      "decision_link": "none",
+      "timing": "original_pitch",
+      "turn_index": 97,
+      "quote": "your initial pitch you came off very solid",
+      "explanation": "Sheel positively assesses how the founders delivered their opening pitch.",
+      "evidence": [
+        "your initial pitch you came off very solid"
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 97,
+          "speaker": "Sheel",
+          "quote": "your initial pitch you came off very solid"
+        }
+      ],
+      "activation": "evaluated",
+      "source_rationale_id": "R10",
+      "utterance_kind": "supporting_argument",
+      "decision_support": "none",
+      "all_mention_ids": [
+        "R10"
+      ]
+    },
+    {
+      "rationale_label": "founder_market_fit",
+      "direction": "neutral",
+      "salience": "secondary",
+      "confidence": 0.97,
+      "utterance_type": "question",
+      "decision_link": "none",
+      "timing": "original_pitch",
+      "turn_index": 12,
+      "quote": "What are your guys' backgrounds?",
+      "explanation": "Sheel asks about the founders' backgrounds to assess their relevant experience and fit.",
+      "evidence": [
+        "What are your guys' backgrounds?"
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 12,
+          "speaker": "Sheel",
+          "quote": "What are your guys' backgrounds?"
+        }
+      ],
+      "activation": "queried",
+      "source_rationale_id": "R3",
+      "utterance_kind": "question",
+      "decision_support": "none",
+      "all_mention_ids": [
+        "R3"
+      ]
+    },
+    {
+      "rationale_label": "founder_qualities",
+      "direction": "positive",
+      "salience": "secondary",
+      "confidence": 0.94,
+      "utterance_type": "assessment",
+      "decision_link": "none",
+      "timing": "original_pitch",
+      "turn_index": 97,
+      "quote": "For me, I like you guys.",
+      "explanation": "Sheel expresses a favorable personal impression of the founders.",
+      "evidence": [
+        "For me, I like you guys."
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 97,
+          "speaker": "Sheel",
+          "quote": "For me, I like you guys."
+        }
+      ],
+      "activation": "evaluated",
+      "source_rationale_id": "R9",
+      "utterance_kind": "supporting_argument",
+      "decision_support": "none",
+      "all_mention_ids": [
+        "R9"
+      ]
+    },
+    {
+      "rationale_label": "fundraising_demand_signal",
+      "direction": "negative",
+      "salience": "primary",
+      "confidence": 0.98,
+      "utterance_type": "decision_reason",
+      "decision_link": "explicit",
+      "timing": "original_pitch",
+      "turn_index": 97,
+      "quote": "it's going to be tough to raise money right now with a pre-revenue food delivery company",
+      "explanation": "Sheel expects weak fundraising demand for a pre-revenue food-delivery company in the current environment.",
+      "evidence": [
+        "it's going to be tough to raise money right now with a pre-revenue food delivery company"
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 97,
+          "speaker": "Sheel",
+          "quote": "it's going to be tough to raise money right now with a pre-revenue food delivery company"
+        }
+      ],
+      "activation": "evaluated",
+      "source_rationale_id": "R13",
+      "utterance_kind": "decision_explanation",
+      "decision_support": "supports_out",
+      "all_mention_ids": [
+        "R13"
+      ]
+    },
+    {
+      "rationale_label": "market_size_assessment",
+      "direction": "negative",
+      "salience": "secondary",
+      "confidence": 0.94,
+      "utterance_type": "decision_reason",
+      "decision_link": "explicit",
+      "timing": "original_pitch",
+      "turn_index": 97,
+      "quote": "I think the price point is high, so there's a certain demographic.",
+      "explanation": "Sheel believes the high price restricts the service to a narrower customer segment.",
+      "evidence": [
+        "I think the price point is high, so there's a certain demographic."
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 97,
+          "speaker": "Sheel",
+          "quote": "I think the price point is high, so there's a certain demographic."
+        }
+      ],
+      "activation": "evaluated",
+      "source_rationale_id": "R14",
+      "utterance_kind": "decision_explanation",
+      "decision_support": "supports_out",
+      "all_mention_ids": [
+        "R14"
+      ]
+    },
+    {
+      "rationale_label": "market_timing",
+      "direction": "negative",
+      "salience": "secondary",
+      "confidence": 0.97,
+      "utterance_type": "assessment",
+      "decision_link": "none",
+      "timing": "original_pitch",
+      "turn_index": 122,
+      "quote": "It was a hot space four years ago.",
+      "explanation": "Sheel indicates that investor enthusiasm for the category peaked years earlier.",
+      "evidence": [
+        "It was a hot space four years ago."
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 122,
+          "speaker": "Sheel",
+          "quote": "It was a hot space four years ago."
+        }
+      ],
+      "activation": "evaluated",
+      "source_rationale_id": "R20",
+      "utterance_kind": "assessment",
+      "decision_support": "none",
+      "all_mention_ids": [
+        "R20"
+      ]
+    },
+    {
+      "rationale_label": "solution_feasibility_assessment",
+      "direction": "negative",
+      "salience": "primary",
+      "confidence": 0.97,
+      "utterance_type": "assessment",
+      "decision_link": "none",
+      "timing": "original_pitch",
+      "turn_index": 117,
+      "quote": "It's an operationally challenging business. This is an operationally intensive business.",
+      "explanation": "Sheel emphasizes that the company's delivery model is unusually difficult and laborious to operate.",
+      "evidence": [
+        "It's an operationally challenging business. This is an operationally intensive business."
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 117,
+          "speaker": "Sheel",
+          "quote": "It's an operationally challenging business. This is an operationally intensive business."
+        }
+      ],
+      "activation": "evaluated",
+      "source_rationale_id": "R19",
+      "utterance_kind": "concern",
+      "decision_support": "none",
+      "all_mention_ids": [
+        "R4",
+        "R15",
+        "R19"
+      ]
+    },
+    {
+      "rationale_label": "traction_repeatability_concern",
+      "direction": "negative",
+      "salience": "primary",
+      "confidence": 0.94,
+      "utterance_type": "decision_reason",
+      "decision_link": "explicit",
+      "timing": "original_pitch",
+      "turn_index": 97,
+      "quote": "But, it's totally unproven.",
+      "explanation": "Sheel cites the lack of evidence validating the model as a reason for passing.",
+      "evidence": [
+        "But, it's totally unproven."
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 97,
+          "speaker": "Sheel",
+          "quote": "But, it's totally unproven."
+        }
+      ],
+      "activation": "evaluated",
+      "source_rationale_id": "R16",
+      "utterance_kind": "decision_explanation",
+      "decision_support": "supports_out",
+      "all_mention_ids": [
+        "R16"
+      ]
+    },
+    {
+      "rationale_label": "unit_economics_assessment",
+      "direction": "negative",
+      "salience": "primary",
+      "confidence": 0.97,
+      "utterance_type": "question",
+      "decision_link": "none",
+      "timing": "original_pitch",
+      "turn_index": 113,
+      "quote": "Lose money on every order! Make it up in volume?",
+      "explanation": "Sheel skeptically challenges a scaling strategy that preserves a loss on each order.",
+      "evidence": [
+        "Lose money on every order! Make it up in volume?"
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 113,
+          "speaker": "Sheel",
+          "quote": "Lose money on every order! Make it up in volume?"
+        }
+      ],
+      "activation": "queried",
+      "source_rationale_id": "R18",
+      "utterance_kind": "question",
+      "decision_support": "none",
+      "all_mention_ids": [
+        "R18"
+      ]
+    }
+  ],
+  "later_rationales": [],
+  "excluded_rationales": [
+    {
+      "rationale_label": "business_viability_concern",
+      "direction": "negative",
+      "salience": "primary",
+      "confidence": 0.99,
+      "utterance_type": "assessment",
+      "decision_link": "none",
+      "timing": "teaser",
+      "turn_index": 2,
+      "quote": "As much as I want the business to exist, I don't know if it can.",
+      "explanation": "Sheel explicitly doubts whether the business can be economically viable.",
+      "evidence": [
+        "As much as I want the business to exist, I don't know if it can."
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 2,
+          "speaker": "Sheel",
+          "quote": "As much as I want the business to exist, I don't know if it can."
+        }
+      ],
+      "activation": "evaluated",
+      "source_rationale_id": "R1"
+    },
+    {
+      "rationale_label": "solution_feasibility_assessment",
+      "direction": "negative",
+      "salience": "secondary",
+      "confidence": 0.86,
+      "utterance_type": "concern",
+      "decision_link": "none",
+      "timing": "teaser",
+      "turn_index": 7,
+      "quote": "Shere's going to be days where they don't show up. There's all these nightmares that you'll have to deal with.",
+      "explanation": "Sheel anticipates operational failures and difficulties in delivering the service.",
+      "evidence": [
+        "Shere's going to be days where they don't show up. There's all these nightmares that you'll have to deal with."
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 7,
+          "speaker": "Sheel",
+          "quote": "Shere's going to be days where they don't show up. There's all these nightmares that you'll have to deal with."
+        }
+      ],
+      "activation": "evaluated",
+      "source_rationale_id": "R2"
+    }
+  ],
+  "rationale_mentions": [
+    {
+      "rationale_label": "founder_market_fit",
+      "direction": "neutral",
+      "salience": "secondary",
+      "confidence": 0.97,
+      "utterance_type": "question",
+      "decision_link": "none",
+      "timing": "original_pitch",
+      "turn_index": 12,
+      "quote": "What are your guys' backgrounds?",
+      "explanation": "Sheel asks about the founders' backgrounds to assess their relevant experience and fit.",
+      "evidence": [
+        "What are your guys' backgrounds?"
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 12,
+          "speaker": "Sheel",
+          "quote": "What are your guys' backgrounds?"
+        }
+      ],
+      "activation": "queried",
+      "source_rationale_id": "R3"
+    },
+    {
+      "rationale_label": "solution_feasibility_assessment",
+      "direction": "neutral",
+      "salience": "secondary",
+      "confidence": 0.94,
+      "utterance_type": "question",
+      "decision_link": "none",
+      "timing": "original_pitch",
+      "turn_index": 26,
+      "quote": "How often will you do deliveries?",
+      "explanation": "Sheel seeks a material detail about the proposed delivery operation.",
+      "evidence": [
+        "How often will you do deliveries?"
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 26,
+          "speaker": "Sheel",
+          "quote": "How often will you do deliveries?"
+        }
+      ],
+      "activation": "queried",
+      "source_rationale_id": "R4"
+    },
+    {
+      "rationale_label": "business_model_assessment",
+      "direction": "negative",
+      "salience": "secondary",
+      "confidence": 0.91,
+      "utterance_type": "question",
+      "decision_link": "none",
+      "timing": "original_pitch",
+      "turn_index": 48,
+      "quote": "let's say it was $10 a month, first of all that's a lot",
+      "explanation": "While testing demand for a proposed recipe subscription, Sheel signals concern about its hypothetical price.",
+      "evidence": [
+        "let's say it was $10 a month, first of all that's a lot"
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 48,
+          "speaker": "Sheel",
+          "quote": "let's say it was $10 a month, first of all that's a lot"
+        }
+      ],
+      "activation": "queried",
+      "source_rationale_id": "R5"
+    },
+    {
+      "rationale_label": "business_viability_concern",
+      "direction": "negative",
+      "salience": "secondary",
+      "confidence": 0.95,
+      "utterance_type": "question",
+      "decision_link": "none",
+      "timing": "original_pitch",
+      "turn_index": 56,
+      "quote": "Is there a business to be had around that?",
+      "explanation": "Sheel questions whether the proposed recipe-focused alternative could support a viable business.",
+      "evidence": [
+        "Is there a business to be had around that?"
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 56,
+          "speaker": "Sheel",
+          "quote": "Is there a business to be had around that?"
+        }
+      ],
+      "activation": "queried",
+      "source_rationale_id": "R6"
+    },
+    {
+      "rationale_label": "business_model_assessment",
+      "direction": "neutral",
+      "salience": "secondary",
+      "confidence": 0.99,
+      "utterance_type": "question",
+      "decision_link": "none",
+      "timing": "original_pitch",
+      "turn_index": 62,
+      "quote": "What's the price point?",
+      "explanation": "Sheel asks how the service will be priced.",
+      "evidence": [
+        "What's the price point?"
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 62,
+          "speaker": "Sheel",
+          "quote": "What's the price point?"
+        }
+      ],
+      "activation": "queried",
+      "source_rationale_id": "R7"
+    },
+    {
+      "rationale_label": "business_model_assessment",
+      "direction": "negative",
+      "salience": "primary",
+      "confidence": 0.98,
+      "utterance_type": "question",
+      "decision_link": "none",
+      "timing": "original_pitch",
+      "turn_index": 65,
+      "quote": "half of Americans are packing lunches. A big part of that is a financial decision. So take me through your justification for 13 dollars.",
+      "explanation": "Sheel challenges the $13 price because many families pack lunches to save money.",
+      "evidence": [
+        "half of Americans are packing lunches. A big part of that is a financial decision. So take me through your justification for 13 dollars."
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 65,
+          "speaker": "Sheel",
+          "quote": "half of Americans are packing lunches. A big part of that is a financial decision. So take me through your justification for 13 dollars."
+        }
+      ],
+      "activation": "queried",
+      "source_rationale_id": "R8"
+    },
+    {
+      "rationale_label": "founder_qualities",
+      "direction": "positive",
+      "salience": "secondary",
+      "confidence": 0.94,
+      "utterance_type": "supporting_argument",
+      "decision_link": "none",
+      "timing": "original_pitch",
+      "turn_index": 97,
+      "quote": "For me, I like you guys.",
+      "explanation": "Sheel expresses a favorable personal impression of the founders.",
+      "evidence": [
+        "For me, I like you guys."
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 97,
+          "speaker": "Sheel",
+          "quote": "For me, I like you guys."
+        }
+      ],
+      "activation": "evaluated",
+      "source_rationale_id": "R9"
+    },
+    {
+      "rationale_label": "founder_communication_quality",
+      "direction": "positive",
+      "salience": "secondary",
+      "confidence": 0.97,
+      "utterance_type": "supporting_argument",
+      "decision_link": "none",
+      "timing": "original_pitch",
+      "turn_index": 97,
+      "quote": "your initial pitch you came off very solid",
+      "explanation": "Sheel positively assesses how the founders delivered their opening pitch.",
+      "evidence": [
+        "your initial pitch you came off very solid"
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 97,
+          "speaker": "Sheel",
+          "quote": "your initial pitch you came off very solid"
+        }
+      ],
+      "activation": "evaluated",
+      "source_rationale_id": "R10"
+    },
+    {
+      "rationale_label": "business_model_assessment",
+      "direction": "negative",
+      "salience": "primary",
+      "confidence": 0.97,
+      "utterance_type": "decision_explanation",
+      "decision_link": "supports_out",
+      "timing": "original_pitch",
+      "turn_index": 97,
+      "quote": "I think it's going to be hard to get a lower price point.",
+      "explanation": "Sheel identifies difficulty reducing the customer price as a reason for passing.",
+      "evidence": [
+        "I think it's going to be hard to get a lower price point."
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 97,
+          "speaker": "Sheel",
+          "quote": "I think it's going to be hard to get a lower price point."
+        }
+      ],
+      "activation": "evaluated",
+      "source_rationale_id": "R11"
+    },
+    {
+      "rationale_label": "business_model_assessment",
+      "direction": "negative",
+      "salience": "primary",
+      "confidence": 0.98,
+      "utterance_type": "decision_explanation",
+      "decision_link": "supports_out",
+      "timing": "original_pitch",
+      "turn_index": 97,
+      "quote": "the app seems like an entirely different business than delivering food. And I don't think you need to be doing both.",
+      "explanation": "Sheel believes combining an app business with food delivery creates an unfocused service mix.",
+      "evidence": [
+        "the app seems like an entirely different business than delivering food. And I don't think you need to be doing both."
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 97,
+          "speaker": "Sheel",
+          "quote": "the app seems like an entirely different business than delivering food. And I don't think you need to be doing both."
+        }
+      ],
+      "activation": "evaluated",
+      "source_rationale_id": "R12"
+    },
+    {
+      "rationale_label": "fundraising_demand_signal",
+      "direction": "negative",
+      "salience": "primary",
+      "confidence": 0.98,
+      "utterance_type": "decision_explanation",
+      "decision_link": "supports_out",
+      "timing": "original_pitch",
+      "turn_index": 97,
+      "quote": "it's going to be tough to raise money right now with a pre-revenue food delivery company",
+      "explanation": "Sheel expects weak fundraising demand for a pre-revenue food-delivery company in the current environment.",
+      "evidence": [
+        "it's going to be tough to raise money right now with a pre-revenue food delivery company"
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 97,
+          "speaker": "Sheel",
+          "quote": "it's going to be tough to raise money right now with a pre-revenue food delivery company"
+        }
+      ],
+      "activation": "evaluated",
+      "source_rationale_id": "R13"
+    },
+    {
+      "rationale_label": "market_size_assessment",
+      "direction": "negative",
+      "salience": "secondary",
+      "confidence": 0.94,
+      "utterance_type": "decision_explanation",
+      "decision_link": "supports_out",
+      "timing": "original_pitch",
+      "turn_index": 97,
+      "quote": "I think the price point is high, so there's a certain demographic.",
+      "explanation": "Sheel believes the high price restricts the service to a narrower customer segment.",
+      "evidence": [
+        "I think the price point is high, so there's a certain demographic."
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 97,
+          "speaker": "Sheel",
+          "quote": "I think the price point is high, so there's a certain demographic."
+        }
+      ],
+      "activation": "evaluated",
+      "source_rationale_id": "R14"
+    },
+    {
+      "rationale_label": "solution_feasibility_assessment",
+      "direction": "positive",
+      "salience": "secondary",
+      "confidence": 0.91,
+      "utterance_type": "supporting_argument",
+      "decision_link": "none",
+      "timing": "original_pitch",
+      "turn_index": 97,
+      "quote": "You don't need to set up your own infrastructure. Um, shipping is expensive, but not as expensive as you think. You can get your costs down.",
+      "explanation": "Sheel believes the founders can operate without proprietary infrastructure and reduce their shipping costs.",
+      "evidence": [
+        "You don't need to set up your own infrastructure. Um, shipping is expensive, but not as expensive as you think. You can get your costs down."
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 97,
+          "speaker": "Sheel",
+          "quote": "You don't need to set up your own infrastructure. Um, shipping is expensive, but not as expensive as you think. You can get your costs down."
+        }
+      ],
+      "activation": "evaluated",
+      "source_rationale_id": "R15"
+    },
+    {
+      "rationale_label": "traction_repeatability_concern",
+      "direction": "negative",
+      "salience": "primary",
+      "confidence": 0.94,
+      "utterance_type": "decision_explanation",
+      "decision_link": "supports_out",
+      "timing": "original_pitch",
+      "turn_index": 97,
+      "quote": "But, it's totally unproven.",
+      "explanation": "Sheel cites the lack of evidence validating the model as a reason for passing.",
+      "evidence": [
+        "But, it's totally unproven."
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 97,
+          "speaker": "Sheel",
+          "quote": "But, it's totally unproven."
+        }
+      ],
+      "activation": "evaluated",
+      "source_rationale_id": "R16"
+    },
+    {
+      "rationale_label": "business_viability_concern",
+      "direction": "negative",
+      "salience": "primary",
+      "confidence": 0.99,
+      "utterance_type": "decision_explanation",
+      "decision_link": "supports_out",
+      "timing": "original_pitch",
+      "turn_index": 99,
+      "quote": "under $10 you're not going to make any money. And that's why, like, as much as I want the business to exist, I don't know if it can.",
+      "explanation": "Sheel believes the business cannot simultaneously charge an accessible price and make money, reinforcing his refusal.",
+      "evidence": [
+        "under $10 you're not going to make any money. And that's why, like, as much as I want the business to exist, I don't know if it can."
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 99,
+          "speaker": "Sheel",
+          "quote": "under $10 you're not going to make any money. And that's why, like, as much as I want the business to exist, I don't know if it can."
+        }
+      ],
+      "activation": "evaluated",
+      "source_rationale_id": "R17"
+    },
+    {
+      "rationale_label": "unit_economics_assessment",
+      "direction": "negative",
+      "salience": "primary",
+      "confidence": 0.97,
+      "utterance_type": "question",
+      "decision_link": "none",
+      "timing": "original_pitch",
+      "turn_index": 113,
+      "quote": "Lose money on every order! Make it up in volume?",
+      "explanation": "Sheel skeptically challenges a scaling strategy that preserves a loss on each order.",
+      "evidence": [
+        "Lose money on every order! Make it up in volume?"
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 113,
+          "speaker": "Sheel",
+          "quote": "Lose money on every order! Make it up in volume?"
+        }
+      ],
+      "activation": "queried",
+      "source_rationale_id": "R18"
+    },
+    {
+      "rationale_label": "solution_feasibility_assessment",
+      "direction": "negative",
+      "salience": "primary",
+      "confidence": 0.97,
+      "utterance_type": "concern",
+      "decision_link": "none",
+      "timing": "original_pitch",
+      "turn_index": 117,
+      "quote": "It's an operationally challenging business. This is an operationally intensive business.",
+      "explanation": "Sheel emphasizes that the company's delivery model is unusually difficult and laborious to operate.",
+      "evidence": [
+        "It's an operationally challenging business. This is an operationally intensive business."
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 117,
+          "speaker": "Sheel",
+          "quote": "It's an operationally challenging business. This is an operationally intensive business."
+        }
+      ],
+      "activation": "evaluated",
+      "source_rationale_id": "R19"
+    },
+    {
+      "rationale_label": "market_timing",
+      "direction": "negative",
+      "salience": "secondary",
+      "confidence": 0.97,
+      "utterance_type": "assessment",
+      "decision_link": "none",
+      "timing": "original_pitch",
+      "turn_index": 122,
+      "quote": "It was a hot space four years ago.",
+      "explanation": "Sheel indicates that investor enthusiasm for the category peaked years earlier.",
+      "evidence": [
+        "It was a hot space four years ago."
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 122,
+          "speaker": "Sheel",
+          "quote": "It was a hot space four years ago."
+        }
+      ],
+      "activation": "evaluated",
+      "source_rationale_id": "R20"
+    }
+  ],
+  "expanded_quote_evidence": [],
+  "rejected_after_evidence_check": []
+}

@@ -1,0 +1,758 @@
+{
+  "schema": "phase1-rationale-reference-v1",
+  "extraction_version": "pitchshow-rationales-v1",
+  "fingerprint": "923d0adb9a0a25dce75c9d00546c5c5a131704a9297794ded9775beac7185649",
+  "episode_slug": "23-jiobit",
+  "vc_slug": "phil-nadel-forefront-venture-partners",
+  "vc_name": "Phil Nadel",
+  "actual_decision": "Out",
+  "later_decision": "Unknown",
+  "reference_kind": "automated_transcript_observed_candidate",
+  "human_validated": false,
+  "source_format": "transcript-observed-rationales-v1",
+  "source_path": "../source/episodes/23-jiobit.json",
+  "source_sha256": "a06d53db7f6c11a2285c9db84618bd1485fad91f01b2501fa7b4dc436c6c8e2f",
+  "transcript_sha256": "523b76b56645618260bfce3e2d9c9ca9165417f82140a89dafcaa632dcfcbed4",
+  "taxonomy_sha256": "eaa8734819a3ac34dd19ee5f0bf6de925a793a1d25a2d361090dafc9b751e1fc",
+  "model": "codex:gpt-5.6-luna+gpt-5.6-sol",
+  "generation_stages": [
+    {
+      "phase": "rationale_extract",
+      "backend": "codex",
+      "model": "gpt-5.6-luna"
+    },
+    {
+      "phase": "rationale_verify",
+      "backend": "codex",
+      "model": "gpt-5.6-sol"
+    }
+  ],
+  "source_tier": "newly_extracted_and_independently_model_reviewed",
+  "reviewed_target_turns": [
+    2,
+    27,
+    35,
+    45,
+    53,
+    54,
+    70,
+    72,
+    97,
+    102,
+    105,
+    107,
+    111,
+    113,
+    141
+  ],
+  "notes": "All supplied target turns were reviewed. Turns 2, 102, 107, 111, and 141 contained no independently classifiable rationale under the supplied taxonomy. The same-room investor debrief remains original_pitch.",
+  "receipt_path": "receipts/23-jiobit.json",
+  "scoring_scope": "original_pitch_only",
+  "shared_across_input_modes": true,
+  "rationales": [
+    {
+      "rationale_label": "business_viability_concern",
+      "direction": "negative",
+      "salience": "secondary",
+      "confidence": 0.85,
+      "utterance_type": "assessment",
+      "decision_link": "none",
+      "timing": "original_pitch",
+      "turn_index": 105,
+      "quote": "he only has until February right now runway.",
+      "explanation": "Phil highlights the company's short remaining cash runway as a near-term viability concern.",
+      "evidence": [
+        "he only has until February right now runway."
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 105,
+          "speaker": "Phil",
+          "quote": "he only has until February right now runway."
+        }
+      ],
+      "activation": "evaluated",
+      "source_rationale_id": "R13",
+      "utterance_kind": "assessment",
+      "decision_support": "none",
+      "all_mention_ids": [
+        "R13"
+      ]
+    },
+    {
+      "rationale_label": "competitive_landscape_inertia",
+      "direction": "negative",
+      "salience": "secondary",
+      "confidence": 0.91,
+      "utterance_type": "assessment",
+      "decision_link": "none",
+      "timing": "original_pitch",
+      "turn_index": 54,
+      "quote": "kids who are ten, eight, ten, I mean, I don't know, where I live they have phones.",
+      "explanation": "Phil points to children's established use of phones as an incumbent alternative Jiobit would need to displace.",
+      "evidence": [
+        "kids who are ten, eight, ten, I mean, I don't know, where I live they have phones."
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 54,
+          "speaker": "Phil",
+          "quote": "kids who are ten, eight, ten, I mean, I don't know, where I live they have phones."
+        }
+      ],
+      "activation": "evaluated",
+      "source_rationale_id": "R5",
+      "utterance_kind": "concern",
+      "decision_support": "none",
+      "all_mention_ids": [
+        "R5"
+      ]
+    },
+    {
+      "rationale_label": "founder_execution",
+      "direction": "positive",
+      "salience": "secondary",
+      "confidence": 0.9,
+      "utterance_type": "assessment",
+      "decision_link": "none",
+      "timing": "original_pitch",
+      "turn_index": 97,
+      "quote": "it looks like you've assembled a great team.",
+      "explanation": "He treats the founder's assembly of a strong team as favorable execution evidence.",
+      "evidence": [
+        "it looks like you've assembled a great team."
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 97,
+          "speaker": "Phil",
+          "quote": "it looks like you've assembled a great team."
+        }
+      ],
+      "activation": "evaluated",
+      "source_rationale_id": "R11",
+      "utterance_kind": "supporting_argument",
+      "decision_support": "none",
+      "all_mention_ids": [
+        "R11"
+      ]
+    },
+    {
+      "rationale_label": "founder_investor_vision_alignment",
+      "direction": "negative",
+      "salience": "secondary",
+      "confidence": 0.96,
+      "utterance_type": "assessment",
+      "decision_link": "none",
+      "timing": "original_pitch",
+      "turn_index": 72,
+      "quote": "you have to step back and look at the other use cases more analytically and not emotionally.",
+      "explanation": "Phil favors an analytically chosen broader use-case strategy over the founder's emotionally influenced focus.",
+      "evidence": [
+        "you have to step back and look at the other use cases more analytically and not emotionally."
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 72,
+          "speaker": "Phil",
+          "quote": "you have to step back and look at the other use cases more analytically and not emotionally."
+        }
+      ],
+      "activation": "evaluated",
+      "source_rationale_id": "R7",
+      "utterance_kind": "concern",
+      "decision_support": "none",
+      "all_mention_ids": [
+        "R7"
+      ]
+    },
+    {
+      "rationale_label": "founder_motivation_authenticity",
+      "direction": "neutral",
+      "salience": "secondary",
+      "confidence": 0.92,
+      "utterance_type": "assessment",
+      "decision_link": "none",
+      "timing": "original_pitch",
+      "turn_index": 70,
+      "quote": "it's born out of your traumatic experience, so you have an identity with that solution.",
+      "explanation": "He recognizes the genuine personal experience underlying the founder's attachment to the solution.",
+      "evidence": [
+        "it's born out of your traumatic experience, so you have an identity with that solution."
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 70,
+          "speaker": "Phil",
+          "quote": "it's born out of your traumatic experience, so you have an identity with that solution."
+        }
+      ],
+      "activation": "evaluated",
+      "source_rationale_id": "R6",
+      "utterance_kind": "assessment",
+      "decision_support": "none",
+      "all_mention_ids": [
+        "R6"
+      ]
+    },
+    {
+      "rationale_label": "founder_qualities",
+      "direction": "positive",
+      "salience": "secondary",
+      "confidence": 0.96,
+      "utterance_type": "assessment",
+      "decision_link": "none",
+      "timing": "original_pitch",
+      "turn_index": 97,
+      "quote": "You really seem to have your stuff together and know what you're talking about",
+      "explanation": "Phil regards the founder as capable, prepared, and knowledgeable.",
+      "evidence": [
+        "You really seem to have your stuff together and know what you're talking about"
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 97,
+          "speaker": "Phil",
+          "quote": "You really seem to have your stuff together and know what you're talking about"
+        }
+      ],
+      "activation": "evaluated",
+      "source_rationale_id": "R10",
+      "utterance_kind": "supporting_argument",
+      "decision_support": "none",
+      "all_mention_ids": [
+        "R10"
+      ]
+    },
+    {
+      "rationale_label": "fundraising_demand_signal",
+      "direction": "negative",
+      "salience": "primary",
+      "confidence": 0.96,
+      "utterance_type": "decision_reason",
+      "decision_link": "explicit",
+      "timing": "original_pitch",
+      "turn_index": 113,
+      "quote": "If they're not, then it raises a red flag. I wouldn't do it.",
+      "explanation": "Phil says a seed extension without insider participation would be a negative financing signal strong enough for him to refuse the investment.",
+      "evidence": [
+        "If they're not, then it raises a red flag. I wouldn't do it."
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 113,
+          "speaker": "Phil",
+          "quote": "If they're not, then it raises a red flag. I wouldn't do it."
+        }
+      ],
+      "activation": "evaluated",
+      "source_rationale_id": "R14",
+      "utterance_kind": "decision_explanation",
+      "decision_support": "supports_out",
+      "all_mention_ids": [
+        "R14"
+      ]
+    },
+    {
+      "rationale_label": "market_size_assessment",
+      "direction": "positive",
+      "salience": "secondary",
+      "confidence": 0.94,
+      "utterance_type": "assessment",
+      "decision_link": "none",
+      "timing": "original_pitch",
+      "turn_index": 97,
+      "quote": "There are a whole bunch of opportunities here.",
+      "explanation": "He sees numerous potential applications and market opportunities for the technology.",
+      "evidence": [
+        "There are a whole bunch of opportunities here."
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 97,
+          "speaker": "Phil",
+          "quote": "There are a whole bunch of opportunities here."
+        }
+      ],
+      "activation": "evaluated",
+      "source_rationale_id": "R9",
+      "utterance_kind": "supporting_argument",
+      "decision_support": "none",
+      "all_mention_ids": [
+        "R9"
+      ]
+    },
+    {
+      "rationale_label": "product_appeal_assessment",
+      "direction": "positive",
+      "salience": "secondary",
+      "confidence": 0.99,
+      "utterance_type": "assessment",
+      "decision_link": "none",
+      "timing": "original_pitch",
+      "turn_index": 97,
+      "quote": "I think the tech is really cool.",
+      "explanation": "Phil expresses a favorable personal assessment of the technology.",
+      "evidence": [
+        "I think the tech is really cool."
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 97,
+          "speaker": "Phil",
+          "quote": "I think the tech is really cool."
+        }
+      ],
+      "activation": "evaluated",
+      "source_rationale_id": "R8",
+      "utterance_kind": "supporting_argument",
+      "decision_support": "none",
+      "all_mention_ids": [
+        "R8"
+      ]
+    },
+    {
+      "rationale_label": "product_differentiation_concern",
+      "direction": "neutral",
+      "salience": "secondary",
+      "confidence": 0.99,
+      "utterance_type": "question",
+      "decision_link": "none",
+      "timing": "original_pitch",
+      "turn_index": 53,
+      "quote": "how does this differentiate if the child has a phone and you’re able to track them using the phone?",
+      "explanation": "He questions Jiobit's differentiation from a phone that already provides location tracking.",
+      "evidence": [
+        "How is this product unique and different? What's the technology that makes it special?",
+        "Do any of the other products out there do that?",
+        "how does this differentiate if the child has a phone and you’re able to track them using the phone?"
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 27,
+          "speaker": "Phil",
+          "quote": "How is this product unique and different? What's the technology that makes it special?"
+        },
+        {
+          "turn_index": 45,
+          "speaker": "Phil",
+          "quote": "Do any of the other products out there do that?"
+        },
+        {
+          "turn_index": 53,
+          "speaker": "Phil",
+          "quote": "how does this differentiate if the child has a phone and you’re able to track them using the phone?"
+        }
+      ],
+      "activation": "queried",
+      "source_rationale_id": "R4",
+      "utterance_kind": "question",
+      "decision_support": "none",
+      "all_mention_ids": [
+        "R1",
+        "R3",
+        "R4"
+      ]
+    },
+    {
+      "rationale_label": "product_success_factor_assessment",
+      "direction": "neutral",
+      "salience": "secondary",
+      "confidence": 0.95,
+      "utterance_type": "question",
+      "decision_link": "none",
+      "timing": "original_pitch",
+      "turn_index": 35,
+      "quote": "why not just charge it every night?",
+      "explanation": "He questions whether extended battery life is important enough to the product's success to change normal charging behavior.",
+      "evidence": [
+        "why not just charge it every night?"
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 35,
+          "speaker": "Phil",
+          "quote": "why not just charge it every night?"
+        }
+      ],
+      "activation": "queried",
+      "source_rationale_id": "R2",
+      "utterance_kind": "question",
+      "decision_support": "none",
+      "all_mention_ids": [
+        "R2"
+      ]
+    },
+    {
+      "rationale_label": "traction_repeatability_concern",
+      "direction": "negative",
+      "salience": "primary",
+      "confidence": 0.99,
+      "utterance_type": "decision_reason",
+      "decision_link": "explicit",
+      "timing": "original_pitch",
+      "turn_index": 97,
+      "quote": "For me, it's a little too early. I'd want to see it further developed into certain use cases where you're showing some traction, getting some actual orders, which sounds like it's very soon.So for me, I'm a pass.",
+      "explanation": "Phil explicitly passes because the company is too early and has not yet demonstrated sufficient use-case traction and actual orders.",
+      "evidence": [
+        "For me, it's a little too early. I'd want to see it further developed into certain use cases where you're showing some traction, getting some actual orders, which sounds like it's very soon.So for me, I'm a pass."
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 97,
+          "speaker": "Phil",
+          "quote": "For me, it's a little too early. I'd want to see it further developed into certain use cases where you're showing some traction, getting some actual orders, which sounds like it's very soon.So for me, I'm a pass."
+        }
+      ],
+      "activation": "evaluated",
+      "source_rationale_id": "R12",
+      "utterance_kind": "decision_explanation",
+      "decision_support": "supports_out",
+      "all_mention_ids": [
+        "R12"
+      ]
+    }
+  ],
+  "later_rationales": [],
+  "excluded_rationales": [],
+  "rationale_mentions": [
+    {
+      "rationale_label": "product_differentiation_concern",
+      "direction": "neutral",
+      "salience": "secondary",
+      "confidence": 0.99,
+      "utterance_type": "question",
+      "decision_link": "none",
+      "timing": "original_pitch",
+      "turn_index": 27,
+      "quote": "How is this product unique and different? What's the technology that makes it special?",
+      "explanation": "Phil asks what makes the product and its technology distinct from alternatives.",
+      "evidence": [
+        "How is this product unique and different? What's the technology that makes it special?"
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 27,
+          "speaker": "Phil",
+          "quote": "How is this product unique and different? What's the technology that makes it special?"
+        }
+      ],
+      "activation": "queried",
+      "source_rationale_id": "R1"
+    },
+    {
+      "rationale_label": "product_success_factor_assessment",
+      "direction": "neutral",
+      "salience": "secondary",
+      "confidence": 0.95,
+      "utterance_type": "question",
+      "decision_link": "none",
+      "timing": "original_pitch",
+      "turn_index": 35,
+      "quote": "why not just charge it every night?",
+      "explanation": "He questions whether extended battery life is important enough to the product's success to change normal charging behavior.",
+      "evidence": [
+        "why not just charge it every night?"
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 35,
+          "speaker": "Phil",
+          "quote": "why not just charge it every night?"
+        }
+      ],
+      "activation": "queried",
+      "source_rationale_id": "R2"
+    },
+    {
+      "rationale_label": "product_differentiation_concern",
+      "direction": "neutral",
+      "salience": "secondary",
+      "confidence": 0.98,
+      "utterance_type": "question",
+      "decision_link": "none",
+      "timing": "original_pitch",
+      "turn_index": 45,
+      "quote": "Do any of the other products out there do that?",
+      "explanation": "Phil probes whether route-deviation alerts distinguish Jiobit from competing products.",
+      "evidence": [
+        "Do any of the other products out there do that?"
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 45,
+          "speaker": "Phil",
+          "quote": "Do any of the other products out there do that?"
+        }
+      ],
+      "activation": "queried",
+      "source_rationale_id": "R3"
+    },
+    {
+      "rationale_label": "product_differentiation_concern",
+      "direction": "neutral",
+      "salience": "secondary",
+      "confidence": 0.99,
+      "utterance_type": "question",
+      "decision_link": "none",
+      "timing": "original_pitch",
+      "turn_index": 53,
+      "quote": "how does this differentiate if the child has a phone and you’re able to track them using the phone?",
+      "explanation": "He questions Jiobit's differentiation from a phone that already provides location tracking.",
+      "evidence": [
+        "how does this differentiate if the child has a phone and you’re able to track them using the phone?"
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 53,
+          "speaker": "Phil",
+          "quote": "how does this differentiate if the child has a phone and you’re able to track them using the phone?"
+        }
+      ],
+      "activation": "queried",
+      "source_rationale_id": "R4"
+    },
+    {
+      "rationale_label": "competitive_landscape_inertia",
+      "direction": "negative",
+      "salience": "secondary",
+      "confidence": 0.91,
+      "utterance_type": "concern",
+      "decision_link": "none",
+      "timing": "original_pitch",
+      "turn_index": 54,
+      "quote": "kids who are ten, eight, ten, I mean, I don't know, where I live they have phones.",
+      "explanation": "Phil points to children's established use of phones as an incumbent alternative Jiobit would need to displace.",
+      "evidence": [
+        "kids who are ten, eight, ten, I mean, I don't know, where I live they have phones."
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 54,
+          "speaker": "Phil",
+          "quote": "kids who are ten, eight, ten, I mean, I don't know, where I live they have phones."
+        }
+      ],
+      "activation": "evaluated",
+      "source_rationale_id": "R5"
+    },
+    {
+      "rationale_label": "founder_motivation_authenticity",
+      "direction": "neutral",
+      "salience": "secondary",
+      "confidence": 0.92,
+      "utterance_type": "assessment",
+      "decision_link": "none",
+      "timing": "original_pitch",
+      "turn_index": 70,
+      "quote": "it's born out of your traumatic experience, so you have an identity with that solution.",
+      "explanation": "He recognizes the genuine personal experience underlying the founder's attachment to the solution.",
+      "evidence": [
+        "it's born out of your traumatic experience, so you have an identity with that solution."
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 70,
+          "speaker": "Phil",
+          "quote": "it's born out of your traumatic experience, so you have an identity with that solution."
+        }
+      ],
+      "activation": "evaluated",
+      "source_rationale_id": "R6"
+    },
+    {
+      "rationale_label": "founder_investor_vision_alignment",
+      "direction": "negative",
+      "salience": "secondary",
+      "confidence": 0.96,
+      "utterance_type": "concern",
+      "decision_link": "none",
+      "timing": "original_pitch",
+      "turn_index": 72,
+      "quote": "you have to step back and look at the other use cases more analytically and not emotionally.",
+      "explanation": "Phil favors an analytically chosen broader use-case strategy over the founder's emotionally influenced focus.",
+      "evidence": [
+        "you have to step back and look at the other use cases more analytically and not emotionally."
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 72,
+          "speaker": "Phil",
+          "quote": "you have to step back and look at the other use cases more analytically and not emotionally."
+        }
+      ],
+      "activation": "evaluated",
+      "source_rationale_id": "R7"
+    },
+    {
+      "rationale_label": "product_appeal_assessment",
+      "direction": "positive",
+      "salience": "secondary",
+      "confidence": 0.99,
+      "utterance_type": "supporting_argument",
+      "decision_link": "none",
+      "timing": "original_pitch",
+      "turn_index": 97,
+      "quote": "I think the tech is really cool.",
+      "explanation": "Phil expresses a favorable personal assessment of the technology.",
+      "evidence": [
+        "I think the tech is really cool."
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 97,
+          "speaker": "Phil",
+          "quote": "I think the tech is really cool."
+        }
+      ],
+      "activation": "evaluated",
+      "source_rationale_id": "R8"
+    },
+    {
+      "rationale_label": "market_size_assessment",
+      "direction": "positive",
+      "salience": "secondary",
+      "confidence": 0.94,
+      "utterance_type": "supporting_argument",
+      "decision_link": "none",
+      "timing": "original_pitch",
+      "turn_index": 97,
+      "quote": "There are a whole bunch of opportunities here.",
+      "explanation": "He sees numerous potential applications and market opportunities for the technology.",
+      "evidence": [
+        "There are a whole bunch of opportunities here."
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 97,
+          "speaker": "Phil",
+          "quote": "There are a whole bunch of opportunities here."
+        }
+      ],
+      "activation": "evaluated",
+      "source_rationale_id": "R9"
+    },
+    {
+      "rationale_label": "founder_qualities",
+      "direction": "positive",
+      "salience": "secondary",
+      "confidence": 0.96,
+      "utterance_type": "supporting_argument",
+      "decision_link": "none",
+      "timing": "original_pitch",
+      "turn_index": 97,
+      "quote": "You really seem to have your stuff together and know what you're talking about",
+      "explanation": "Phil regards the founder as capable, prepared, and knowledgeable.",
+      "evidence": [
+        "You really seem to have your stuff together and know what you're talking about"
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 97,
+          "speaker": "Phil",
+          "quote": "You really seem to have your stuff together and know what you're talking about"
+        }
+      ],
+      "activation": "evaluated",
+      "source_rationale_id": "R10"
+    },
+    {
+      "rationale_label": "founder_execution",
+      "direction": "positive",
+      "salience": "secondary",
+      "confidence": 0.9,
+      "utterance_type": "supporting_argument",
+      "decision_link": "none",
+      "timing": "original_pitch",
+      "turn_index": 97,
+      "quote": "it looks like you've assembled a great team.",
+      "explanation": "He treats the founder's assembly of a strong team as favorable execution evidence.",
+      "evidence": [
+        "it looks like you've assembled a great team."
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 97,
+          "speaker": "Phil",
+          "quote": "it looks like you've assembled a great team."
+        }
+      ],
+      "activation": "evaluated",
+      "source_rationale_id": "R11"
+    },
+    {
+      "rationale_label": "traction_repeatability_concern",
+      "direction": "negative",
+      "salience": "primary",
+      "confidence": 0.99,
+      "utterance_type": "decision_explanation",
+      "decision_link": "supports_out",
+      "timing": "original_pitch",
+      "turn_index": 97,
+      "quote": "For me, it's a little too early. I'd want to see it further developed into certain use cases where you're showing some traction, getting some actual orders, which sounds like it's very soon.So for me, I'm a pass.",
+      "explanation": "Phil explicitly passes because the company is too early and has not yet demonstrated sufficient use-case traction and actual orders.",
+      "evidence": [
+        "For me, it's a little too early. I'd want to see it further developed into certain use cases where you're showing some traction, getting some actual orders, which sounds like it's very soon.So for me, I'm a pass."
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 97,
+          "speaker": "Phil",
+          "quote": "For me, it's a little too early. I'd want to see it further developed into certain use cases where you're showing some traction, getting some actual orders, which sounds like it's very soon.So for me, I'm a pass."
+        }
+      ],
+      "activation": "evaluated",
+      "source_rationale_id": "R12"
+    },
+    {
+      "rationale_label": "business_viability_concern",
+      "direction": "negative",
+      "salience": "secondary",
+      "confidence": 0.85,
+      "utterance_type": "assessment",
+      "decision_link": "none",
+      "timing": "original_pitch",
+      "turn_index": 105,
+      "quote": "he only has until February right now runway.",
+      "explanation": "Phil highlights the company's short remaining cash runway as a near-term viability concern.",
+      "evidence": [
+        "he only has until February right now runway."
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 105,
+          "speaker": "Phil",
+          "quote": "he only has until February right now runway."
+        }
+      ],
+      "activation": "evaluated",
+      "source_rationale_id": "R13"
+    },
+    {
+      "rationale_label": "fundraising_demand_signal",
+      "direction": "negative",
+      "salience": "primary",
+      "confidence": 0.96,
+      "utterance_type": "decision_explanation",
+      "decision_link": "supports_out",
+      "timing": "original_pitch",
+      "turn_index": 113,
+      "quote": "If they're not, then it raises a red flag. I wouldn't do it.",
+      "explanation": "Phil says a seed extension without insider participation would be a negative financing signal strong enough for him to refuse the investment.",
+      "evidence": [
+        "If they're not, then it raises a red flag. I wouldn't do it."
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 113,
+          "speaker": "Phil",
+          "quote": "If they're not, then it raises a red flag. I wouldn't do it."
+        }
+      ],
+      "activation": "evaluated",
+      "source_rationale_id": "R14"
+    }
+  ],
+  "expanded_quote_evidence": [],
+  "rejected_after_evidence_check": []
+}

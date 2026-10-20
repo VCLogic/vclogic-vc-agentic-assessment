@@ -1,46 +1,83 @@
 # founder_team
 
-[ev:cyan-0001] label=founder_market_fit direction=positive source=talk:GE6ZHzQZxjk
-> "Does that founder who's pitching me on the company have the unique capabilities to match the vision that they're trying to paint for me?"
+Verbatim transcript excerpts; whitespace normalized. Labels describe the cited statement.
 
-[ev:cyan-0002] label=founder_qualities direction=positive source=talk:GE6ZHzQZxjk
-> "Are they so compelling that I feel like I want to roll up my sleeves and quit my day job and work for them?"
+[ev:cyan-banister-long-journey-ventures-0001] label=founder_qualities direction=positive source=full:80058f8cd6c42da9452f67b3
+> "“magical weirdos.”"
 
-[ev:cyan-0003] label=founder_communication_quality direction=positive source=talk:GE6ZHzQZxjk
-> "I pretty much have a good gut feeling and I know how they address me, how they manage their time, how they pitch me on the company, how they sell themselves, their demeanor."
+Support: explicit. Interpretation: Banister favors founders whose unusual or unconventional qualities distinguish them as outliers.
 
-[ev:cyan-0004] label=founder_motivation_authenticity direction=positive source=talk:c1eoWu8QVIU
-> "The very first question I ask anyone in one of my interviews is, why are you here? You could do anything. Anything. Why did you choose this? What's your inception story?"
+[ev:cyan-banister-long-journey-ventures-0002] label=founder_qualities direction=positive source=full:f55da04a87cd90fa916fbeae
+> "“magical weirdos.”"
 
-[ev:cyan-0005] label=founder_qualities direction=positive source=talk:c1eoWu8QVIU
-> "What I'm looking for is some level of hardship or adversity that they have overcome. And ideally, it ties to the problem they're trying to solve."
+Support: explicit. Interpretation: Banister favors founders whose unconventional qualities distinguish them from conventional candidates.
 
-[ev:cyan-0006] label=founder_market_fit direction=positive source=talk:c1eoWu8QVIU
-> "You have a personal connection to the problem. You have knowledge of the problem. You're trying to do something that has never been done before."
+[ev:cyan-banister-long-journey-ventures-0003] label=founder_qualities direction=positive source=full:e041570b98300c10cff93fac
+> "“magical weirdos.”"
 
-[ev:cyan-0007] label=founder_qualities direction=positive source=talk:S_h6S6M9ums
-> "We're looking for misfits, free-thinking people, people who didn't fit in a company."
+Support: explicit. Interpretation: Banister favors founders whose unconventional qualities distinguish them from conventional candidates.
 
-[ev:cyan-0008] label=founder_qualities direction=positive source=talk:S_h6S6M9ums
-> "There's certain character traits to a founder, right? There. They don't fit in places for a reason. They think about the world differently."
+[ev:cyan-banister-long-journey-ventures-0006] label=founder_qualities direction=positive source=full:2cc0e9084e10a90ac2ccadcf
+> "magical weirdos"
 
-[ev:cyan-0009] label=founder_coachability_assessment direction=neutral source=talk:c1eoWu8QVIU
-> "You have to become a passive observer and you have to ask questions where they lead you to the answers and they tell you where they're going to go. Because at the end of the day, you're not running the company."
+Support: explicit. Interpretation: Banister favors unusually distinctive or unconventional founders.
 
-[ev:cyan-0010] label=founder_market_fit direction=positive source=talk:dXRyxPIJfjo
-> "Aggressive founders are only good for aggressive problems. And so I tend to see whether or not the founder is a match for the product they're making."
+[ev:cyan-banister-long-journey-ventures-0010] label=founder_execution direction=positive source=full:ba3463268b98df2b0bd020dc
+> "But here's what most people don't understand about failure at this scale: it teaches you things success never could."
 
-[ev:cyan-0011] label=execution_risk_assessment direction=negative source=talk:_SQ_myzmV_Q
-> "I normally never invest in a company where there's a 50-50 partnership or there's not a clear delineation of who's the CEO and who's not."
+Support: inferred. Interpretation: She treats substantial prior startup failure as potentially valuable preparation rather than an automatic founder disqualifier.
 
-[ev:cyan-0012] label=founder_execution direction=positive source=talk:GE6ZHzQZxjk
-> "One of the number one things that a founder has to do is market their company, sell to people, hire people, eventually fire people, raise money, and then navigate the business and the hardships around operating the company."
+[ev:cyan-banister-long-journey-ventures-0011] label=founder_market_fit direction=positive source=full:ba3463268b98df2b0bd020dc
+> "Every startup, every pivot, every late-night debugging hardware, it was all preparation for this moment."
 
-[ev:cyan-0013] label=founder_execution direction=positive source=talk:UTg-HXDas2A
-> "A really good founder sometimes doesn't find product market fit right away and what they'll do is they'll pivot and it becomes something entirely different."
+Support: inferred. Interpretation: Banister saw Proud’s accumulated startup and hardware experience as preparation aligned with Substrate’s challenge.
 
-[ev:cyan-0014] label=founder_qualities direction=positive source=talk:UTg-HXDas2A
-> "Why didn't I just back the founder? You know, and that should be the answer every time, you know, back the. The idea is important, but it's not as important as the person at the helm."
+[ev:cyan-banister-long-journey-ventures-0012] label=founder_qualities direction=positive source=full:ba3463268b98df2b0bd020dc
+> "Because James Proud has something ASML's executives don't have, something TSMC's board doesn't have: the bone-deep knowledge of what it's like to fail, to rebuild, and to come back with a chip on your shoulder the size of Texas."
 
-[ev:cyan-0047] label=founder_equity_incentive_alignment direction=negative source=talk:dXRyxPIJfjo
-> "A lot of the deals we... we shouldn't have done, we could have caught if we looked at like the ownership of the company."
+Support: inferred. Interpretation: She positively evaluates resilience and recovery from failure as distinctive founder qualities.
+
+[ev:cyan-banister-long-journey-ventures-0013] label=founder_execution direction=positive source=full:ba3463268b98df2b0bd020dc
+> "The chip on my spine isn't just about Substrate. It's about believing that American innovation can solve American vulnerabilities. It's about betting on founders who've failed before and learned from it."
+
+Support: explicit. Interpretation: Banister explicitly favors founders who have learned from previous failures and frames such learning as a reason to bet on them.
+
+[ev:cyan-banister-long-journey-ventures-0014] label=founder_skillset direction=positive source=full:11095a466d7554a812e5be9d
+> "AI is going to be the age of the polymath. If you have the ability to think about different systems and how they might work together, you’re going to be able to come up with outcomes that were previously impossible because those disciplines didn’t work well together."
+
+Support: inferred. Interpretation: Banister expects cross-disciplinary systems thinking to become especially valuable in the AI era.
+
+[ev:cyan-banister-long-journey-ventures-0016] label=founder_qualities direction=positive source=full:28ec17916b96834dec4a9d5a
+> "You didn’t need to be the smartest person in the room, but you did need to pay attention."
+
+Support: inferred. Interpretation: Banister’s personal lesson suggests that attentive observation is a quality she values more than displaying superior intelligence.
+
+[ev:cyan-banister-long-journey-ventures-0017] label=founder_qualities direction=positive source=full:28ec17916b96834dec4a9d5a
+> "I believe there are more intelligent people out there who didn’t go to college and didn’t follow a traditional path."
+
+Support: inferred. Interpretation: Banister appears open to recognizing capable people whose backgrounds lack conventional educational or career credentials.
+
+[ev:cyan-banister-long-journey-ventures-0018] label=founder_qualities direction=positive source=full:86bc6c01e6cc65ba302d22e9
+> "If you are an optimist, you develop muscles that help you navigate and recover from failure."
+
+Support: inferred. Interpretation: Banister views optimism as building resilience and recovery from failure, indirectly indicating that she values this quality in people facing uncertain ventures.
+
+[ev:cyan-banister-long-journey-ventures-0020] label=founder_qualities direction=positive source=full:a2f3d04c2b46e1d69192d69a
+> "We're looking for misfits, free thinking people."
+
+Support: explicit. Interpretation: Banister explicitly seeks unconventional, independently minded founders.
+
+[ev:cyan-banister-long-journey-ventures-0030] label=founder_qualities direction=positive source=full:8ee5ebf743de964542c588c3
+> "I’ve never met anybody in my life with more executive function, who has a complete understanding of the lay of the land of his company, his employees, his culture, his board, and the emerging technologies of the world, who is so down to earth."
+
+Support: inferred. Interpretation: Banister admires leaders who combine exceptional executive function, comprehensive organizational awareness, technological awareness, and humility.
+
+[ev:cyan-banister-long-journey-ventures-0031] label=founder_coachability_assessment direction=positive source=full:06b16880347b2ef46f707a1f
+> "I want hard feedback. It helps me grow and this person had the heart to give it to me in an honestly kind way."
+
+Support: inferred. Interpretation: Banister personally values candid feedback as an instrument for growth, indicating a favorable orientation toward coachability.
+
+[ev:cyan-banister-long-journey-ventures-0032] label=founder_qualities direction=positive source=full:06b16880347b2ef46f707a1f
+> "Stuff like this makes me stronger and more resilient and it’s an opportunity to share the process with everyone on how I handle these things, because I think other people might want some of these tools too."
+
+Support: inferred. Interpretation: Banister frames difficult feedback as an opportunity to develop resilience and share practical coping methods.

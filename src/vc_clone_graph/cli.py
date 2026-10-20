@@ -38,6 +38,7 @@ from .providers.base import (
     embed_queries,
     embedding_identity,
 )
+from .providers.codex import CodexProvider
 from .providers.fake import DemoFakeProvider
 from .providers.ollama import OllamaProvider
 from .providers.openai import OpenAIProvider
@@ -306,6 +307,8 @@ def _generation_provider(
             provider.embedding_model or "text-embedding-3-small",
             max_output_tokens=max_output_tokens,
         )
+    elif provider.kind == "codex":
+        result = CodexProvider(model.removeprefix("openai/"))
     else:
         result = OpenRouterProvider(
             model,
@@ -544,6 +547,9 @@ def _workflow(
     run_root = config.resolve_path(config.run.output_root) / config.run.episode_slug
     taxonomy_records = _taxonomy_records(package)
     settings = WorkflowSettings(
+        policy_summary=config.assessment.policy_summary,
+        fact_policy_comparison=config.assessment.fact_policy_comparison,
+        exception_evidence=config.assessment.exception_evidence,
         episode_slug=config.run.episode_slug,
         investor_name=investor_name,
         pitch=package.pitch.read_text(encoding="utf-8"),

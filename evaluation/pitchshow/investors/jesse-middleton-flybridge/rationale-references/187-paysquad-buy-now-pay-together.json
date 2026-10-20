@@ -1,0 +1,1248 @@
+{
+  "schema": "phase1-rationale-reference-v1",
+  "extraction_version": "pitchshow-rationales-v1",
+  "fingerprint": "f33633990e48f95681bb78ea2bd5c830e89581ed9493aae0d50df7c0c8003593",
+  "episode_slug": "187-paysquad-buy-now-pay-together",
+  "vc_slug": "jesse-middleton-flybridge",
+  "vc_name": "Jesse Middleton",
+  "actual_decision": "Out",
+  "later_decision": "Unknown",
+  "reference_kind": "automated_transcript_observed_candidate",
+  "human_validated": false,
+  "source_format": "transcript-observed-rationales-v1",
+  "source_path": "../source/episodes/187-paysquad-buy-now-pay-together.json",
+  "source_sha256": "36de888bf534acf90ca6baec119dc344992ee740bbfc3836a860f744763284b0",
+  "transcript_sha256": "f95bf722a24dbc27e093b7cb0aa8372dae0f81ac225c7800c29a68a8588b0651",
+  "taxonomy_sha256": "eaa8734819a3ac34dd19ee5f0bf6de925a793a1d25a2d361090dafc9b751e1fc",
+  "model": "codex:gpt-5.6-luna+gpt-5.6-sol",
+  "generation_stages": [
+    {
+      "phase": "rationale_extract",
+      "backend": "codex",
+      "model": "gpt-5.6-luna"
+    },
+    {
+      "phase": "rationale_verify",
+      "backend": "codex",
+      "model": "gpt-5.6-sol"
+    }
+  ],
+  "source_tier": "newly_extracted_and_independently_model_reviewed",
+  "reviewed_target_turns": [
+    36,
+    43,
+    45,
+    58,
+    96,
+    98,
+    100,
+    102,
+    114,
+    116,
+    144,
+    146,
+    148,
+    150,
+    157,
+    163,
+    172,
+    174,
+    176,
+    178,
+    180,
+    182,
+    187,
+    191,
+    193,
+    196,
+    199,
+    211,
+    213,
+    215,
+    217,
+    219,
+    221,
+    223,
+    225,
+    227,
+    236,
+    240,
+    266,
+    271,
+    290,
+    299,
+    307
+  ],
+  "notes": "All supplied target turns were reviewed; greetings, jokes, incomplete fragments, simple confirmations, and the bare refusal without a new reason were omitted.",
+  "receipt_path": "receipts/187-paysquad-buy-now-pay-together.json",
+  "scoring_scope": "original_pitch_only",
+  "shared_across_input_modes": true,
+  "rationales": [
+    {
+      "rationale_label": "business_model_assessment",
+      "direction": "negative",
+      "salience": "primary",
+      "confidence": 0.98,
+      "utterance_type": "decision_reason",
+      "decision_link": "explicit",
+      "timing": "original_pitch",
+      "turn_index": 144,
+      "quote": "There's a race to the bottom on price",
+      "explanation": "Jesse identifies price compression and the absence of BNPL-style margin expansion as a central economic weakness.",
+      "evidence": [
+        "There's a race to the bottom on price",
+        "you can offer it to less credit worthy, and you can charge a higher rate.",
+        "I think you're going to have to get into doing that.",
+        "I have to pay you more."
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 144,
+          "speaker": "Jesse",
+          "quote": "There's a race to the bottom on price"
+        },
+        {
+          "turn_index": 146,
+          "speaker": "Jesse",
+          "quote": "you can offer it to less credit worthy, and you can charge a higher rate."
+        },
+        {
+          "turn_index": 148,
+          "speaker": "Jesse",
+          "quote": "I think you're going to have to get into doing that."
+        },
+        {
+          "turn_index": 271,
+          "speaker": "Jesse",
+          "quote": "I have to pay you more."
+        }
+      ],
+      "activation": "evaluated",
+      "source_rationale_id": "R6",
+      "utterance_kind": "decision_explanation",
+      "decision_support": "supports_out",
+      "all_mention_ids": [
+        "R6",
+        "R7",
+        "R8",
+        "R29"
+      ]
+    },
+    {
+      "rationale_label": "business_viability_concern",
+      "direction": "negative",
+      "salience": "primary",
+      "confidence": 0.98,
+      "utterance_type": "decision_reason",
+      "decision_link": "explicit",
+      "timing": "original_pitch",
+      "turn_index": 227,
+      "quote": "you're gonna measure in percentages of percentages.",
+      "explanation": "Jesse says the company will capture only a very small fraction of transaction value.",
+      "evidence": [
+        "your net take is gonna be very small. So to Charles' point, even more volume necessary.",
+        "my math says it's basically 0% net take.",
+        "this business is a business that is measured in, in basis points",
+        "the margins are very tiny.",
+        "you're gonna measure in percentages of percentages."
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 148,
+          "speaker": "Jesse",
+          "quote": "your net take is gonna be very small. So to Charles' point, even more volume necessary."
+        },
+        {
+          "turn_index": 157,
+          "speaker": "Jesse",
+          "quote": "my math says it's basically 0% net take."
+        },
+        {
+          "turn_index": 180,
+          "speaker": "Jesse",
+          "quote": "this business is a business that is measured in, in basis points"
+        },
+        {
+          "turn_index": 182,
+          "speaker": "Jesse",
+          "quote": "the margins are very tiny."
+        },
+        {
+          "turn_index": 227,
+          "speaker": "Jesse",
+          "quote": "you're gonna measure in percentages of percentages."
+        }
+      ],
+      "activation": "evaluated",
+      "source_rationale_id": "R28",
+      "utterance_kind": "decision_explanation",
+      "decision_support": "supports_out",
+      "all_mention_ids": [
+        "R9",
+        "R13",
+        "R16",
+        "R17",
+        "R28"
+      ]
+    },
+    {
+      "rationale_label": "competitive_intensity_concern",
+      "direction": "negative",
+      "salience": "secondary",
+      "confidence": 0.97,
+      "utterance_type": "assessment",
+      "decision_link": "none",
+      "timing": "original_pitch",
+      "turn_index": 221,
+      "quote": "you're gonna be the eighth one",
+      "explanation": "Jesse argues that PaySquad would compete for attention as yet another checkout option.",
+      "evidence": [
+        "there were, like, seven different payment buttons",
+        "you're gonna be the eighth one"
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 219,
+          "speaker": "Jesse",
+          "quote": "there were, like, seven different payment buttons"
+        },
+        {
+          "turn_index": 221,
+          "speaker": "Jesse",
+          "quote": "you're gonna be the eighth one"
+        }
+      ],
+      "activation": "evaluated",
+      "source_rationale_id": "R24",
+      "utterance_kind": "assessment",
+      "decision_support": "none",
+      "all_mention_ids": [
+        "R23",
+        "R24"
+      ]
+    },
+    {
+      "rationale_label": "competitive_landscape_inertia",
+      "direction": "negative",
+      "salience": "secondary",
+      "confidence": 0.89,
+      "utterance_type": "assessment",
+      "decision_link": "none",
+      "timing": "original_pitch",
+      "turn_index": 299,
+      "quote": "Which is mostly what happens.",
+      "explanation": "Jesse observes that the entrenched workaround—one person paying for the group—remains the predominant behavior.",
+      "evidence": [
+        "Which is mostly what happens."
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 299,
+          "speaker": "Jesse",
+          "quote": "Which is mostly what happens."
+        }
+      ],
+      "activation": "evaluated",
+      "source_rationale_id": "R30",
+      "utterance_kind": "assessment",
+      "decision_support": "none",
+      "all_mention_ids": [
+        "R30"
+      ]
+    },
+    {
+      "rationale_label": "founder_communication_quality",
+      "direction": "negative",
+      "salience": "secondary",
+      "confidence": 0.97,
+      "utterance_type": "assessment",
+      "decision_link": "none",
+      "timing": "original_pitch",
+      "turn_index": 223,
+      "quote": "he described the business. I think it was o- way overly optimistic.",
+      "explanation": "Jesse judges the founder's presentation of the business as excessively optimistic.",
+      "evidence": [
+        "he described the business. I think it was o- way overly optimistic."
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 223,
+          "speaker": "Jesse",
+          "quote": "he described the business. I think it was o- way overly optimistic."
+        }
+      ],
+      "activation": "evaluated",
+      "source_rationale_id": "R26",
+      "utterance_kind": "assessment",
+      "decision_support": "none",
+      "all_mention_ids": [
+        "R14",
+        "R15",
+        "R26"
+      ]
+    },
+    {
+      "rationale_label": "founder_market_fit",
+      "direction": "neutral",
+      "salience": "secondary",
+      "confidence": 0.98,
+      "utterance_type": "question",
+      "decision_link": "none",
+      "timing": "original_pitch",
+      "turn_index": 58,
+      "quote": "what was your background before this or your founding team? Were you guys in the payment space, merchant, e-commerce?",
+      "explanation": "Jesse asks whether the founding team has experience aligned with payments and e-commerce.",
+      "evidence": [
+        "what was your background before this or your founding team? Were you guys in the payment space, merchant, e-commerce?"
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 58,
+          "speaker": "Jesse",
+          "quote": "what was your background before this or your founding team? Were you guys in the payment space, merchant, e-commerce?"
+        }
+      ],
+      "activation": "queried",
+      "source_rationale_id": "R1",
+      "utterance_kind": "question",
+      "decision_support": "none",
+      "all_mention_ids": [
+        "R1"
+      ]
+    },
+    {
+      "rationale_label": "founder_skillset",
+      "direction": "negative",
+      "salience": "secondary",
+      "confidence": 0.94,
+      "utterance_type": "assessment",
+      "decision_link": "none",
+      "timing": "original_pitch",
+      "turn_index": 225,
+      "quote": "If you knew the payments business, you would know that's not how this is gonna play out.",
+      "explanation": "Jesse questions whether the founder has sufficiently grounded payments-domain judgment.",
+      "evidence": [
+        "If you knew the payments business, you would know that's not how this is gonna play out."
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 225,
+          "speaker": "Jesse",
+          "quote": "If you knew the payments business, you would know that's not how this is gonna play out."
+        }
+      ],
+      "activation": "evaluated",
+      "source_rationale_id": "R27",
+      "utterance_kind": "assessment",
+      "decision_support": "none",
+      "all_mention_ids": [
+        "R27"
+      ]
+    },
+    {
+      "rationale_label": "market_entry_path_assessment",
+      "direction": "positive",
+      "salience": "secondary",
+      "confidence": 0.96,
+      "utterance_type": "assessment",
+      "decision_link": "none",
+      "timing": "original_pitch",
+      "turn_index": 148,
+      "quote": "I do find it to be a creative wedge.",
+      "explanation": "Jesse positively assesses the initial entry strategy despite his broader concerns.",
+      "evidence": [
+        "I do find it to be a creative wedge."
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 148,
+          "speaker": "Jesse",
+          "quote": "I do find it to be a creative wedge."
+        }
+      ],
+      "activation": "evaluated",
+      "source_rationale_id": "R11",
+      "utterance_kind": "assessment",
+      "decision_support": "none",
+      "all_mention_ids": [
+        "R11"
+      ]
+    },
+    {
+      "rationale_label": "product_differentiation_concern",
+      "direction": "negative",
+      "salience": "secondary",
+      "confidence": 0.96,
+      "utterance_type": "decision_reason",
+      "decision_link": "explicit",
+      "timing": "original_pitch",
+      "turn_index": 148,
+      "quote": "I don't know how hard it would be for a firm or anybody else to say, you know, We're gonna offer it and cancel our MSA.",
+      "explanation": "Jesse questions whether competitors could copy the offering and bypass the merchant exclusivity agreement.",
+      "evidence": [
+        "I don't know how hard it would be for a firm or anybody else to say, you know, We're gonna offer it and cancel our MSA."
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 148,
+          "speaker": "Jesse",
+          "quote": "I don't know how hard it would be for a firm or anybody else to say, you know, We're gonna offer it and cancel our MSA."
+        }
+      ],
+      "activation": "evaluated",
+      "source_rationale_id": "R12",
+      "utterance_kind": "decision_explanation",
+      "decision_support": "supports_out",
+      "all_mention_ids": [
+        "R12"
+      ]
+    },
+    {
+      "rationale_label": "solution_feasibility_assessment",
+      "direction": "neutral",
+      "salience": "secondary",
+      "confidence": 0.97,
+      "utterance_type": "question",
+      "decision_link": "none",
+      "timing": "original_pitch",
+      "turn_index": 98,
+      "quote": "your payment processor is still taking on The fraud risk, things like that, so you're not having to deal with any of that.",
+      "explanation": "Jesse verifies whether existing processors insulate the company from fraud risk.",
+      "evidence": [
+        "where is sort of the risk for you in integration?",
+        "your payment processor is still taking on The fraud risk, things like that, so you're not having to deal with any of that."
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 96,
+          "speaker": "Jesse",
+          "quote": "where is sort of the risk for you in integration?"
+        },
+        {
+          "turn_index": 98,
+          "speaker": "Jesse",
+          "quote": "your payment processor is still taking on The fraud risk, things like that, so you're not having to deal with any of that."
+        }
+      ],
+      "activation": "queried",
+      "source_rationale_id": "R3",
+      "utterance_kind": "question",
+      "decision_support": "none",
+      "all_mention_ids": [
+        "R2",
+        "R3"
+      ]
+    },
+    {
+      "rationale_label": "traction_repeatability_concern",
+      "direction": "negative",
+      "salience": "primary",
+      "confidence": 0.94,
+      "utterance_type": "decision_reason",
+      "decision_link": "explicit",
+      "timing": "original_pitch",
+      "turn_index": 148,
+      "quote": "I think you're just early in this.",
+      "explanation": "Jesse considers the business too early to have sufficiently demonstrated the model.",
+      "evidence": [
+        "Two and a half times.",
+        "And decreasing.",
+        "I think you're just early in this.",
+        "And staying there.",
+        "A lot of these merchants, even the larger ones, will try things out on 5% of their traf-",
+        "It’s so easy because you have a payment orchestrator.",
+        "turn it on right now. Try it.",
+        "Turn it off.",
+        "may be on there for 10%."
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 114,
+          "speaker": "Jesse",
+          "quote": "Two and a half times."
+        },
+        {
+          "turn_index": 116,
+          "speaker": "Jesse",
+          "quote": "And decreasing."
+        },
+        {
+          "turn_index": 148,
+          "speaker": "Jesse",
+          "quote": "I think you're just early in this."
+        },
+        {
+          "turn_index": 211,
+          "speaker": "Jesse",
+          "quote": "And staying there."
+        },
+        {
+          "turn_index": 213,
+          "speaker": "Jesse",
+          "quote": "A lot of these merchants, even the larger ones, will try things out on 5% of their traf-"
+        },
+        {
+          "turn_index": 215,
+          "speaker": "Jesse",
+          "quote": "It’s so easy because you have a payment orchestrator."
+        },
+        {
+          "turn_index": 217,
+          "speaker": "Jesse",
+          "quote": "turn it on right now. Try it."
+        },
+        {
+          "turn_index": 219,
+          "speaker": "Jesse",
+          "quote": "Turn it off."
+        },
+        {
+          "turn_index": 221,
+          "speaker": "Jesse",
+          "quote": "may be on there for 10%."
+        }
+      ],
+      "activation": "evaluated",
+      "source_rationale_id": "R10",
+      "utterance_kind": "decision_explanation",
+      "decision_support": "supports_out",
+      "all_mention_ids": [
+        "R4",
+        "R5",
+        "R10",
+        "R18",
+        "R19",
+        "R20",
+        "R21",
+        "R22",
+        "R25"
+      ]
+    }
+  ],
+  "later_rationales": [],
+  "excluded_rationales": [],
+  "rationale_mentions": [
+    {
+      "rationale_label": "founder_market_fit",
+      "direction": "neutral",
+      "salience": "secondary",
+      "confidence": 0.98,
+      "utterance_type": "question",
+      "decision_link": "none",
+      "timing": "original_pitch",
+      "turn_index": 58,
+      "quote": "what was your background before this or your founding team? Were you guys in the payment space, merchant, e-commerce?",
+      "explanation": "Jesse asks whether the founding team has experience aligned with payments and e-commerce.",
+      "evidence": [
+        "what was your background before this or your founding team? Were you guys in the payment space, merchant, e-commerce?"
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 58,
+          "speaker": "Jesse",
+          "quote": "what was your background before this or your founding team? Were you guys in the payment space, merchant, e-commerce?"
+        }
+      ],
+      "activation": "queried",
+      "source_rationale_id": "R1"
+    },
+    {
+      "rationale_label": "solution_feasibility_assessment",
+      "direction": "neutral",
+      "salience": "secondary",
+      "confidence": 0.96,
+      "utterance_type": "question",
+      "decision_link": "none",
+      "timing": "original_pitch",
+      "turn_index": 96,
+      "quote": "where is sort of the risk for you in integration?",
+      "explanation": "Jesse probes the operational and risk implications of integrating the payment product.",
+      "evidence": [
+        "where is sort of the risk for you in integration?"
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 96,
+          "speaker": "Jesse",
+          "quote": "where is sort of the risk for you in integration?"
+        }
+      ],
+      "activation": "queried",
+      "source_rationale_id": "R2"
+    },
+    {
+      "rationale_label": "solution_feasibility_assessment",
+      "direction": "neutral",
+      "salience": "secondary",
+      "confidence": 0.97,
+      "utterance_type": "question",
+      "decision_link": "none",
+      "timing": "original_pitch",
+      "turn_index": 98,
+      "quote": "your payment processor is still taking on The fraud risk, things like that, so you're not having to deal with any of that.",
+      "explanation": "Jesse verifies whether existing processors insulate the company from fraud risk.",
+      "evidence": [
+        "your payment processor is still taking on The fraud risk, things like that, so you're not having to deal with any of that."
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 98,
+          "speaker": "Jesse",
+          "quote": "your payment processor is still taking on The fraud risk, things like that, so you're not having to deal with any of that."
+        }
+      ],
+      "activation": "queried",
+      "source_rationale_id": "R3"
+    },
+    {
+      "rationale_label": "traction_repeatability_concern",
+      "direction": "negative",
+      "salience": "secondary",
+      "confidence": 0.83,
+      "utterance_type": "assessment",
+      "decision_link": "none",
+      "timing": "original_pitch",
+      "turn_index": 114,
+      "quote": "Two and a half times.",
+      "explanation": "In the discussion of baby products, Jesse points to the category's limited purchase frequency.",
+      "evidence": [
+        "Two and a half times."
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 114,
+          "speaker": "Jesse",
+          "quote": "Two and a half times."
+        }
+      ],
+      "activation": "evaluated",
+      "source_rationale_id": "R4"
+    },
+    {
+      "rationale_label": "traction_repeatability_concern",
+      "direction": "negative",
+      "salience": "secondary",
+      "confidence": 0.9,
+      "utterance_type": "assessment",
+      "decision_link": "none",
+      "timing": "original_pitch",
+      "turn_index": 116,
+      "quote": "And decreasing.",
+      "explanation": "Jesse adds that the already-limited repeat frequency in the baby category is declining.",
+      "evidence": [
+        "And decreasing."
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 116,
+          "speaker": "Jesse",
+          "quote": "And decreasing."
+        }
+      ],
+      "activation": "evaluated",
+      "source_rationale_id": "R5"
+    },
+    {
+      "rationale_label": "business_model_assessment",
+      "direction": "negative",
+      "salience": "primary",
+      "confidence": 0.98,
+      "utterance_type": "decision_explanation",
+      "decision_link": "supports_out",
+      "timing": "original_pitch",
+      "turn_index": 144,
+      "quote": "There's a race to the bottom on price",
+      "explanation": "Jesse identifies price compression and the absence of BNPL-style margin expansion as a central economic weakness.",
+      "evidence": [
+        "There's a race to the bottom on price"
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 144,
+          "speaker": "Jesse",
+          "quote": "There's a race to the bottom on price"
+        }
+      ],
+      "activation": "evaluated",
+      "source_rationale_id": "R6"
+    },
+    {
+      "rationale_label": "business_model_assessment",
+      "direction": "negative",
+      "salience": "secondary",
+      "confidence": 0.96,
+      "utterance_type": "decision_explanation",
+      "decision_link": "supports_out",
+      "timing": "original_pitch",
+      "turn_index": 146,
+      "quote": "you can offer it to less credit worthy, and you can charge a higher rate.",
+      "explanation": "Jesse explains that lending lets BNPL providers charge higher rates, an economic lever absent from PaySquad's current model.",
+      "evidence": [
+        "you can offer it to less credit worthy, and you can charge a higher rate."
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 146,
+          "speaker": "Jesse",
+          "quote": "you can offer it to less credit worthy, and you can charge a higher rate."
+        }
+      ],
+      "activation": "evaluated",
+      "source_rationale_id": "R7"
+    },
+    {
+      "rationale_label": "business_model_assessment",
+      "direction": "negative",
+      "salience": "secondary",
+      "confidence": 0.94,
+      "utterance_type": "decision_explanation",
+      "decision_link": "supports_out",
+      "timing": "original_pitch",
+      "turn_index": 148,
+      "quote": "I think you're going to have to get into doing that.",
+      "explanation": "Jesse believes the company will need to add underwriting or lending to make the model work.",
+      "evidence": [
+        "I think you're going to have to get into doing that."
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 148,
+          "speaker": "Jesse",
+          "quote": "I think you're going to have to get into doing that."
+        }
+      ],
+      "activation": "evaluated",
+      "source_rationale_id": "R8"
+    },
+    {
+      "rationale_label": "business_viability_concern",
+      "direction": "negative",
+      "salience": "primary",
+      "confidence": 0.99,
+      "utterance_type": "decision_explanation",
+      "decision_link": "supports_out",
+      "timing": "original_pitch",
+      "turn_index": 148,
+      "quote": "your net take is gonna be very small. So to Charles' point, even more volume necessary.",
+      "explanation": "Jesse argues that the small net take requires an exceptionally large transaction volume.",
+      "evidence": [
+        "your net take is gonna be very small. So to Charles' point, even more volume necessary."
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 148,
+          "speaker": "Jesse",
+          "quote": "your net take is gonna be very small. So to Charles' point, even more volume necessary."
+        }
+      ],
+      "activation": "evaluated",
+      "source_rationale_id": "R9"
+    },
+    {
+      "rationale_label": "traction_repeatability_concern",
+      "direction": "negative",
+      "salience": "primary",
+      "confidence": 0.94,
+      "utterance_type": "decision_explanation",
+      "decision_link": "supports_out",
+      "timing": "original_pitch",
+      "turn_index": 148,
+      "quote": "I think you're just early in this.",
+      "explanation": "Jesse considers the business too early to have sufficiently demonstrated the model.",
+      "evidence": [
+        "I think you're just early in this."
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 148,
+          "speaker": "Jesse",
+          "quote": "I think you're just early in this."
+        }
+      ],
+      "activation": "evaluated",
+      "source_rationale_id": "R10"
+    },
+    {
+      "rationale_label": "market_entry_path_assessment",
+      "direction": "positive",
+      "salience": "secondary",
+      "confidence": 0.96,
+      "utterance_type": "assessment",
+      "decision_link": "none",
+      "timing": "original_pitch",
+      "turn_index": 148,
+      "quote": "I do find it to be a creative wedge.",
+      "explanation": "Jesse positively assesses the initial entry strategy despite his broader concerns.",
+      "evidence": [
+        "I do find it to be a creative wedge."
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 148,
+          "speaker": "Jesse",
+          "quote": "I do find it to be a creative wedge."
+        }
+      ],
+      "activation": "evaluated",
+      "source_rationale_id": "R11"
+    },
+    {
+      "rationale_label": "product_differentiation_concern",
+      "direction": "negative",
+      "salience": "secondary",
+      "confidence": 0.96,
+      "utterance_type": "decision_explanation",
+      "decision_link": "supports_out",
+      "timing": "original_pitch",
+      "turn_index": 148,
+      "quote": "I don't know how hard it would be for a firm or anybody else to say, you know, We're gonna offer it and cancel our MSA.",
+      "explanation": "Jesse questions whether competitors could copy the offering and bypass the merchant exclusivity agreement.",
+      "evidence": [
+        "I don't know how hard it would be for a firm or anybody else to say, you know, We're gonna offer it and cancel our MSA."
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 148,
+          "speaker": "Jesse",
+          "quote": "I don't know how hard it would be for a firm or anybody else to say, you know, We're gonna offer it and cancel our MSA."
+        }
+      ],
+      "activation": "evaluated",
+      "source_rationale_id": "R12"
+    },
+    {
+      "rationale_label": "business_viability_concern",
+      "direction": "negative",
+      "salience": "primary",
+      "confidence": 0.99,
+      "utterance_type": "decision_explanation",
+      "decision_link": "supports_out",
+      "timing": "original_pitch",
+      "turn_index": 157,
+      "quote": "my math says it's basically 0% net take.",
+      "explanation": "Jesse calculates that the forthcoming negotiated deal may generate almost no net take.",
+      "evidence": [
+        "my math says it's basically 0% net take."
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 157,
+          "speaker": "Jesse",
+          "quote": "my math says it's basically 0% net take."
+        }
+      ],
+      "activation": "evaluated",
+      "source_rationale_id": "R13"
+    },
+    {
+      "rationale_label": "founder_communication_quality",
+      "direction": "neutral",
+      "salience": "secondary",
+      "confidence": 0.76,
+      "utterance_type": "assessment",
+      "decision_link": "none",
+      "timing": "original_pitch",
+      "turn_index": 174,
+      "quote": "he called it merchant transaction volume.",
+      "explanation": "Jesse identifies the terminology the founder used while assessing how the volume claim was communicated.",
+      "evidence": [
+        "he called it merchant transaction volume."
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 174,
+          "speaker": "Jesse",
+          "quote": "he called it merchant transaction volume."
+        }
+      ],
+      "activation": "evaluated",
+      "source_rationale_id": "R14"
+    },
+    {
+      "rationale_label": "founder_communication_quality",
+      "direction": "neutral",
+      "salience": "secondary",
+      "confidence": 0.8,
+      "utterance_type": "supporting_argument",
+      "decision_link": "none",
+      "timing": "original_pitch",
+      "turn_index": 176,
+      "quote": "I think it could be, it could be construed that.",
+      "explanation": "Jesse says the wording could reasonably produce the investors' interpretation without asserting intentional deception.",
+      "evidence": [
+        "I think it could be, it could be construed that."
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 176,
+          "speaker": "Jesse",
+          "quote": "I think it could be, it could be construed that."
+        }
+      ],
+      "activation": "evaluated",
+      "source_rationale_id": "R15"
+    },
+    {
+      "rationale_label": "business_viability_concern",
+      "direction": "negative",
+      "salience": "primary",
+      "confidence": 0.98,
+      "utterance_type": "decision_explanation",
+      "decision_link": "supports_out",
+      "timing": "original_pitch",
+      "turn_index": 180,
+      "quote": "this business is a business that is measured in, in basis points",
+      "explanation": "Jesse emphasizes that payment-company economics operate at very small take rates.",
+      "evidence": [
+        "this business is a business that is measured in, in basis points"
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 180,
+          "speaker": "Jesse",
+          "quote": "this business is a business that is measured in, in basis points"
+        }
+      ],
+      "activation": "evaluated",
+      "source_rationale_id": "R16"
+    },
+    {
+      "rationale_label": "business_viability_concern",
+      "direction": "negative",
+      "salience": "primary",
+      "confidence": 0.99,
+      "utterance_type": "decision_explanation",
+      "decision_link": "supports_out",
+      "timing": "original_pitch",
+      "turn_index": 182,
+      "quote": "the margins are very tiny.",
+      "explanation": "Jesse reiterates that structurally thin payment margins undermine the economics presented.",
+      "evidence": [
+        "the margins are very tiny."
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 182,
+          "speaker": "Jesse",
+          "quote": "the margins are very tiny."
+        }
+      ],
+      "activation": "evaluated",
+      "source_rationale_id": "R17"
+    },
+    {
+      "rationale_label": "traction_repeatability_concern",
+      "direction": "negative",
+      "salience": "secondary",
+      "confidence": 0.96,
+      "utterance_type": "concern",
+      "decision_link": "none",
+      "timing": "original_pitch",
+      "turn_index": 211,
+      "quote": "And staying there.",
+      "explanation": "Jesse identifies retaining placement at merchant checkout as a challenge beyond winning the initial integration.",
+      "evidence": [
+        "And staying there."
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 211,
+          "speaker": "Jesse",
+          "quote": "And staying there."
+        }
+      ],
+      "activation": "evaluated",
+      "source_rationale_id": "R18"
+    },
+    {
+      "rationale_label": "traction_repeatability_concern",
+      "direction": "negative",
+      "salience": "secondary",
+      "confidence": 0.97,
+      "utterance_type": "assessment",
+      "decision_link": "none",
+      "timing": "original_pitch",
+      "turn_index": 213,
+      "quote": "A lot of these merchants, even the larger ones, will try things out on 5% of their traf-",
+      "explanation": "Jesse says merchants may only run limited tests rather than establish broad, repeatable adoption.",
+      "evidence": [
+        "A lot of these merchants, even the larger ones, will try things out on 5% of their traf-"
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 213,
+          "speaker": "Jesse",
+          "quote": "A lot of these merchants, even the larger ones, will try things out on 5% of their traf-"
+        }
+      ],
+      "activation": "evaluated",
+      "source_rationale_id": "R19"
+    },
+    {
+      "rationale_label": "traction_repeatability_concern",
+      "direction": "negative",
+      "salience": "secondary",
+      "confidence": 0.87,
+      "utterance_type": "supporting_argument",
+      "decision_link": "none",
+      "timing": "original_pitch",
+      "turn_index": 215,
+      "quote": "It’s so easy because you have a payment orchestrator.",
+      "explanation": "In context, Jesse argues that orchestration makes the product easy to trial without making its deployment durable.",
+      "evidence": [
+        "It’s so easy because you have a payment orchestrator."
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 215,
+          "speaker": "Jesse",
+          "quote": "It’s so easy because you have a payment orchestrator."
+        }
+      ],
+      "activation": "evaluated",
+      "source_rationale_id": "R20"
+    },
+    {
+      "rationale_label": "traction_repeatability_concern",
+      "direction": "negative",
+      "salience": "secondary",
+      "confidence": 0.91,
+      "utterance_type": "supporting_argument",
+      "decision_link": "none",
+      "timing": "original_pitch",
+      "turn_index": 217,
+      "quote": "turn it on right now. Try it.",
+      "explanation": "Jesse describes how merchants can casually test the option, reinforcing uncertainty about lasting rollout.",
+      "evidence": [
+        "turn it on right now. Try it."
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 217,
+          "speaker": "Jesse",
+          "quote": "turn it on right now. Try it."
+        }
+      ],
+      "activation": "evaluated",
+      "source_rationale_id": "R21"
+    },
+    {
+      "rationale_label": "traction_repeatability_concern",
+      "direction": "negative",
+      "salience": "secondary",
+      "confidence": 0.95,
+      "utterance_type": "concern",
+      "decision_link": "none",
+      "timing": "original_pitch",
+      "turn_index": 219,
+      "quote": "Turn it off.",
+      "explanation": "Jesse highlights that merchants can remove the payment option as easily as they activate it.",
+      "evidence": [
+        "Turn it off."
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 219,
+          "speaker": "Jesse",
+          "quote": "Turn it off."
+        }
+      ],
+      "activation": "evaluated",
+      "source_rationale_id": "R22"
+    },
+    {
+      "rationale_label": "competitive_intensity_concern",
+      "direction": "negative",
+      "salience": "secondary",
+      "confidence": 0.97,
+      "utterance_type": "assessment",
+      "decision_link": "none",
+      "timing": "original_pitch",
+      "turn_index": 219,
+      "quote": "there were, like, seven different payment buttons",
+      "explanation": "Jesse describes checkout as crowded with competing payment options.",
+      "evidence": [
+        "there were, like, seven different payment buttons"
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 219,
+          "speaker": "Jesse",
+          "quote": "there were, like, seven different payment buttons"
+        }
+      ],
+      "activation": "evaluated",
+      "source_rationale_id": "R23"
+    },
+    {
+      "rationale_label": "competitive_intensity_concern",
+      "direction": "negative",
+      "salience": "secondary",
+      "confidence": 0.97,
+      "utterance_type": "assessment",
+      "decision_link": "none",
+      "timing": "original_pitch",
+      "turn_index": 221,
+      "quote": "you're gonna be the eighth one",
+      "explanation": "Jesse argues that PaySquad would compete for attention as yet another checkout option.",
+      "evidence": [
+        "you're gonna be the eighth one"
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 221,
+          "speaker": "Jesse",
+          "quote": "you're gonna be the eighth one"
+        }
+      ],
+      "activation": "evaluated",
+      "source_rationale_id": "R24"
+    },
+    {
+      "rationale_label": "traction_repeatability_concern",
+      "direction": "negative",
+      "salience": "secondary",
+      "confidence": 0.94,
+      "utterance_type": "assessment",
+      "decision_link": "none",
+      "timing": "original_pitch",
+      "turn_index": 221,
+      "quote": "may be on there for 10%.",
+      "explanation": "Jesse expects any merchant deployment may remain limited to a small share of traffic.",
+      "evidence": [
+        "may be on there for 10%."
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 221,
+          "speaker": "Jesse",
+          "quote": "may be on there for 10%."
+        }
+      ],
+      "activation": "evaluated",
+      "source_rationale_id": "R25"
+    },
+    {
+      "rationale_label": "founder_communication_quality",
+      "direction": "negative",
+      "salience": "secondary",
+      "confidence": 0.97,
+      "utterance_type": "assessment",
+      "decision_link": "none",
+      "timing": "original_pitch",
+      "turn_index": 223,
+      "quote": "he described the business. I think it was o- way overly optimistic.",
+      "explanation": "Jesse judges the founder's presentation of the business as excessively optimistic.",
+      "evidence": [
+        "he described the business. I think it was o- way overly optimistic."
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 223,
+          "speaker": "Jesse",
+          "quote": "he described the business. I think it was o- way overly optimistic."
+        }
+      ],
+      "activation": "evaluated",
+      "source_rationale_id": "R26"
+    },
+    {
+      "rationale_label": "founder_skillset",
+      "direction": "negative",
+      "salience": "secondary",
+      "confidence": 0.94,
+      "utterance_type": "assessment",
+      "decision_link": "none",
+      "timing": "original_pitch",
+      "turn_index": 225,
+      "quote": "If you knew the payments business, you would know that's not how this is gonna play out.",
+      "explanation": "Jesse questions whether the founder has sufficiently grounded payments-domain judgment.",
+      "evidence": [
+        "If you knew the payments business, you would know that's not how this is gonna play out."
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 225,
+          "speaker": "Jesse",
+          "quote": "If you knew the payments business, you would know that's not how this is gonna play out."
+        }
+      ],
+      "activation": "evaluated",
+      "source_rationale_id": "R27"
+    },
+    {
+      "rationale_label": "business_viability_concern",
+      "direction": "negative",
+      "salience": "primary",
+      "confidence": 0.98,
+      "utterance_type": "decision_explanation",
+      "decision_link": "supports_out",
+      "timing": "original_pitch",
+      "turn_index": 227,
+      "quote": "you're gonna measure in percentages of percentages.",
+      "explanation": "Jesse says the company will capture only a very small fraction of transaction value.",
+      "evidence": [
+        "you're gonna measure in percentages of percentages."
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 227,
+          "speaker": "Jesse",
+          "quote": "you're gonna measure in percentages of percentages."
+        }
+      ],
+      "activation": "evaluated",
+      "source_rationale_id": "R28"
+    },
+    {
+      "rationale_label": "business_model_assessment",
+      "direction": "negative",
+      "salience": "secondary",
+      "confidence": 0.91,
+      "utterance_type": "supporting_argument",
+      "decision_link": "none",
+      "timing": "original_pitch",
+      "turn_index": 271,
+      "quote": "I have to pay you more.",
+      "explanation": "Jesse voices the merchant objection that PaySquad adds fees to transactions that may have happened anyway.",
+      "evidence": [
+        "I have to pay you more."
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 271,
+          "speaker": "Jesse",
+          "quote": "I have to pay you more."
+        }
+      ],
+      "activation": "evaluated",
+      "source_rationale_id": "R29"
+    },
+    {
+      "rationale_label": "competitive_landscape_inertia",
+      "direction": "negative",
+      "salience": "secondary",
+      "confidence": 0.89,
+      "utterance_type": "assessment",
+      "decision_link": "none",
+      "timing": "original_pitch",
+      "turn_index": 299,
+      "quote": "Which is mostly what happens.",
+      "explanation": "Jesse observes that the entrenched workaround—one person paying for the group—remains the predominant behavior.",
+      "evidence": [
+        "Which is mostly what happens."
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 299,
+          "speaker": "Jesse",
+          "quote": "Which is mostly what happens."
+        }
+      ],
+      "activation": "evaluated",
+      "source_rationale_id": "R30"
+    }
+  ],
+  "expanded_quote_evidence": [],
+  "rejected_after_evidence_check": []
+}

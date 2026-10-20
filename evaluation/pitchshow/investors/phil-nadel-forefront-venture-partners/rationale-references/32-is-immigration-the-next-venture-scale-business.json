@@ -1,0 +1,659 @@
+{
+  "schema": "phase1-rationale-reference-v1",
+  "extraction_version": "pitchshow-rationales-v1",
+  "fingerprint": "00862351749ae46eddb3901718dfa6f2227670681056bf98e8f8dc1beeddbb37",
+  "episode_slug": "32-is-immigration-the-next-venture-scale-business",
+  "vc_slug": "phil-nadel-forefront-venture-partners",
+  "vc_name": "Phil Nadel",
+  "actual_decision": "In",
+  "later_decision": "In",
+  "reference_kind": "automated_transcript_observed_candidate",
+  "human_validated": false,
+  "source_format": "transcript-observed-rationales-v1",
+  "source_path": "../source/episodes/32-is-immigration-the-next-venture-scale-business.json",
+  "source_sha256": "a9fafd45ef685a46ff2bd324818f5747927840ccdb41b76d147fd9a4c1d0b869",
+  "transcript_sha256": "b70d4b962c6e6b5a3ac2d9032e8d3477f1b70987973591320a4887acd22fbea4",
+  "taxonomy_sha256": "eaa8734819a3ac34dd19ee5f0bf6de925a793a1d25a2d361090dafc9b751e1fc",
+  "model": "codex:gpt-5.6-luna+gpt-5.6-sol",
+  "generation_stages": [
+    {
+      "phase": "rationale_extract",
+      "backend": "codex",
+      "model": "gpt-5.6-luna"
+    },
+    {
+      "phase": "rationale_verify",
+      "backend": "codex",
+      "model": "gpt-5.6-sol"
+    }
+  ],
+  "source_tier": "newly_extracted_and_independently_model_reviewed",
+  "reviewed_target_turns": [
+    6,
+    13,
+    17,
+    26,
+    32,
+    35,
+    37,
+    53,
+    59,
+    62,
+    67,
+    80,
+    84,
+    98,
+    110,
+    111,
+    113,
+    115
+  ],
+  "notes": "Every supplied target turn was reviewed; turns containing only introductions, jokes, praise without a specific rationale, fragments, procedural remarks, or confirmations were omitted from the rationale list.",
+  "receipt_path": "receipts/32-is-immigration-the-next-venture-scale-business.json",
+  "scoring_scope": "original_pitch_only",
+  "shared_across_input_modes": true,
+  "rationales": [
+    {
+      "rationale_label": "business_model_assessment",
+      "direction": "positive",
+      "salience": "primary",
+      "confidence": 0.99,
+      "utterance_type": "decision_reason",
+      "decision_link": "explicit",
+      "timing": "original_pitch",
+      "turn_index": 53,
+      "quote": "I see huge opportunities for lifetime LTV in this, both through additional immigration services and wraparound services and other things that you can do with the data.",
+      "explanation": "Phil identifies substantial lifetime-value and monetization opportunities from additional services and data.",
+      "evidence": [
+        "I see huge opportunities for lifetime LTV in this, both through additional immigration services and wraparound services and other things that you can do with the data."
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 53,
+          "speaker": "Phil",
+          "quote": "I see huge opportunities for lifetime LTV in this, both through additional immigration services and wraparound services and other things that you can do with the data."
+        }
+      ],
+      "activation": "evaluated",
+      "source_rationale_id": "R6",
+      "utterance_kind": "decision_explanation",
+      "decision_support": "supports_in",
+      "all_mention_ids": [
+        "R4",
+        "R6"
+      ]
+    },
+    {
+      "rationale_label": "competitive_advantage_assessment",
+      "direction": "positive",
+      "salience": "secondary",
+      "confidence": 0.88,
+      "utterance_type": "assessment",
+      "decision_link": "explicit",
+      "timing": "original_pitch",
+      "turn_index": 53,
+      "quote": "It's a data play. And there's a lot of value there.",
+      "explanation": "Phil regards the company's data asset as a valuable strategic component of the investment case.",
+      "evidence": [
+        "It's a data play. And there's a lot of value there."
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 53,
+          "speaker": "Phil",
+          "quote": "It's a data play. And there's a lot of value there."
+        }
+      ],
+      "activation": "evaluated",
+      "source_rationale_id": "R7",
+      "utterance_kind": "supporting_argument",
+      "decision_support": "supports_in",
+      "all_mention_ids": [
+        "R7"
+      ]
+    },
+    {
+      "rationale_label": "founder_qualities",
+      "direction": "positive",
+      "salience": "primary",
+      "confidence": 0.99,
+      "utterance_type": "decision_reason",
+      "decision_link": "explicit",
+      "timing": "original_pitch",
+      "turn_index": 53,
+      "quote": "I really have a great feeling about you. And I just like your approach. And I'd like to invest.",
+      "explanation": "Phil directly links his favorable impression of Xiao and his approach to investing.",
+      "evidence": [
+        "I really have a great feeling about you. And I just like your approach. And I'd like to invest.",
+        "Wow. Impressive guy."
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 53,
+          "speaker": "Phil",
+          "quote": "I really have a great feeling about you. And I just like your approach. And I'd like to invest."
+        },
+        {
+          "turn_index": 62,
+          "speaker": "Phil",
+          "quote": "Wow. Impressive guy."
+        }
+      ],
+      "activation": "evaluated",
+      "source_rationale_id": "R5",
+      "utterance_kind": "decision_explanation",
+      "decision_support": "supports_in",
+      "all_mention_ids": [
+        "R5",
+        "R8"
+      ]
+    },
+    {
+      "rationale_label": "market_problem_validation",
+      "direction": "positive",
+      "salience": "secondary",
+      "confidence": 0.9,
+      "utterance_type": "assessment",
+      "decision_link": "none",
+      "timing": "original_pitch",
+      "turn_index": 67,
+      "quote": "Cumbersome and confusing.",
+      "explanation": "Phil characterizes the immigration process as difficult and confusing, validating the problem Boundless addresses.",
+      "evidence": [
+        "Cumbersome and confusing."
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 67,
+          "speaker": "Phil",
+          "quote": "Cumbersome and confusing."
+        }
+      ],
+      "activation": "evaluated",
+      "source_rationale_id": "R9",
+      "utterance_kind": "assessment",
+      "decision_support": "none",
+      "all_mention_ids": [
+        "R9"
+      ]
+    },
+    {
+      "rationale_label": "product_adoption",
+      "direction": "neutral",
+      "salience": "secondary",
+      "confidence": 0.99,
+      "utterance_type": "question",
+      "decision_link": "none",
+      "timing": "original_pitch",
+      "turn_index": 17,
+      "quote": "How many customers have you had on this product so far?",
+      "explanation": "Phil asks for the customer count as evidence of early adoption.",
+      "evidence": [
+        "How many customers have you had on this product so far?"
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 17,
+          "speaker": "Phil",
+          "quote": "How many customers have you had on this product so far?"
+        }
+      ],
+      "activation": "queried",
+      "source_rationale_id": "R2",
+      "utterance_kind": "question",
+      "decision_support": "none",
+      "all_mention_ids": [
+        "R2"
+      ]
+    },
+    {
+      "rationale_label": "product_success_factor_assessment",
+      "direction": "neutral",
+      "salience": "secondary",
+      "confidence": 0.91,
+      "utterance_type": "question",
+      "decision_link": "none",
+      "timing": "original_pitch",
+      "turn_index": 13,
+      "quote": "You said this is your first product? Is this the only product so far?",
+      "explanation": "Phil asks about the breadth of Boundless's existing product offering.",
+      "evidence": [
+        "You said this is your first product? Is this the only product so far?"
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 13,
+          "speaker": "Phil",
+          "quote": "You said this is your first product? Is this the only product so far?"
+        }
+      ],
+      "activation": "queried",
+      "source_rationale_id": "R1",
+      "utterance_kind": "question",
+      "decision_support": "none",
+      "all_mention_ids": [
+        "R1"
+      ]
+    },
+    {
+      "rationale_label": "unit_economics_assessment",
+      "direction": "neutral",
+      "salience": "secondary",
+      "confidence": 0.97,
+      "utterance_type": "question",
+      "decision_link": "none",
+      "timing": "original_pitch",
+      "turn_index": 26,
+      "quote": "And the numbers as of now, in other words. Not what you're aiming for.",
+      "explanation": "In the discussion of acquisition costs, Phil requests actual current economics rather than targets.",
+      "evidence": [
+        "And the numbers as of now, in other words. Not what you're aiming for."
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 26,
+          "speaker": "Phil",
+          "quote": "And the numbers as of now, in other words. Not what you're aiming for."
+        }
+      ],
+      "activation": "queried",
+      "source_rationale_id": "R3",
+      "utterance_kind": "question",
+      "decision_support": "none",
+      "all_mention_ids": [
+        "R3"
+      ]
+    }
+  ],
+  "later_rationales": [
+    {
+      "rationale_label": "go_to_market_strategy_assessment",
+      "direction": "positive",
+      "salience": "primary",
+      "confidence": 0.91,
+      "utterance_type": "decision_explanation",
+      "decision_link": "supports_in",
+      "timing": "later_commentary",
+      "turn_index": 110,
+      "quote": "I think they do have very good early metrics.",
+      "explanation": "Responding to concerns about customer-acquisition performance, Phil positively assesses the company's early metrics.",
+      "evidence": [
+        "I think they do have very good early metrics."
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 110,
+          "speaker": "Phil",
+          "quote": "I think they do have very good early metrics."
+        }
+      ],
+      "activation": "evaluated",
+      "source_rationale_id": "R10"
+    },
+    {
+      "rationale_label": "go_to_market_strategy_assessment",
+      "direction": "positive",
+      "salience": "primary",
+      "confidence": 0.99,
+      "utterance_type": "decision_explanation",
+      "decision_link": "supports_in",
+      "timing": "later_commentary",
+      "turn_index": 111,
+      "quote": "customer acquisition cost has come down, has declined, quite a bit since he pitched us",
+      "explanation": "Phil cites the substantial reduction in customer-acquisition cost as favorable post-pitch evidence.",
+      "evidence": [
+        "customer acquisition cost has come down, has declined, quite a bit since he pitched us"
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 111,
+          "speaker": "Phil",
+          "quote": "customer acquisition cost has come down, has declined, quite a bit since he pitched us"
+        }
+      ],
+      "activation": "evaluated",
+      "source_rationale_id": "R11"
+    },
+    {
+      "rationale_label": "go_to_market_strategy_assessment",
+      "direction": "positive",
+      "salience": "secondary",
+      "confidence": 0.98,
+      "utterance_type": "decision_explanation",
+      "decision_link": "supports_in",
+      "timing": "later_commentary",
+      "turn_index": 113,
+      "quote": "No, it’s lower. But that’s only sort of part of it.",
+      "explanation": "Phil confirms that customer-acquisition cost is now lower while explaining that it is only one part of his investment rationale.",
+      "evidence": [
+        "No, it’s lower. But that’s only sort of part of it."
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 113,
+          "speaker": "Phil",
+          "quote": "No, it’s lower. But that’s only sort of part of it."
+        }
+      ],
+      "activation": "evaluated",
+      "source_rationale_id": "R12"
+    },
+    {
+      "rationale_label": "founder_qualities",
+      "direction": "positive",
+      "salience": "primary",
+      "confidence": 0.99,
+      "utterance_type": "decision_explanation",
+      "decision_link": "supports_in",
+      "timing": "later_commentary",
+      "turn_index": 113,
+      "quote": "this is a smart guy",
+      "explanation": "Phil identifies Xiao's intelligence as a central reason to believe he can solve the company's early challenges.",
+      "evidence": [
+        "this is a smart guy"
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 113,
+          "speaker": "Phil",
+          "quote": "this is a smart guy"
+        }
+      ],
+      "activation": "evaluated",
+      "source_rationale_id": "R13"
+    },
+    {
+      "rationale_label": "market_size_assessment",
+      "direction": "positive",
+      "salience": "primary",
+      "confidence": 0.99,
+      "utterance_type": "decision_explanation",
+      "decision_link": "supports_in",
+      "timing": "later_commentary",
+      "turn_index": 113,
+      "quote": "going after a huge market",
+      "explanation": "Phil cites the large market as a central part of his investment rationale.",
+      "evidence": [
+        "going after a huge market"
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 113,
+          "speaker": "Phil",
+          "quote": "going after a huge market"
+        }
+      ],
+      "activation": "evaluated",
+      "source_rationale_id": "R14"
+    },
+    {
+      "rationale_label": "product_appeal_assessment",
+      "direction": "positive",
+      "salience": "secondary",
+      "confidence": 0.87,
+      "utterance_type": "decision_explanation",
+      "decision_link": "supports_in",
+      "timing": "later_commentary",
+      "turn_index": 113,
+      "quote": "a great market with a great product",
+      "explanation": "Phil includes the quality of the product among the attributes supporting his confidence in the company.",
+      "evidence": [
+        "a great market with a great product"
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 113,
+          "speaker": "Phil",
+          "quote": "a great market with a great product"
+        }
+      ],
+      "activation": "evaluated",
+      "source_rationale_id": "R15"
+    },
+    {
+      "rationale_label": "competitive_advantage_assessment",
+      "direction": "positive",
+      "salience": "primary",
+      "confidence": 0.94,
+      "utterance_type": "decision_explanation",
+      "decision_link": "supports_in",
+      "timing": "later_commentary",
+      "turn_index": 113,
+      "quote": "very, very little, or almost no, significant competition",
+      "explanation": "Phil views the scarcity of significant competitors as favorable positioning for Boundless.",
+      "evidence": [
+        "very, very little, or almost no, significant competition"
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 113,
+          "speaker": "Phil",
+          "quote": "very, very little, or almost no, significant competition"
+        }
+      ],
+      "activation": "evaluated",
+      "source_rationale_id": "R16"
+    }
+  ],
+  "excluded_rationales": [],
+  "rationale_mentions": [
+    {
+      "rationale_label": "product_success_factor_assessment",
+      "direction": "neutral",
+      "salience": "secondary",
+      "confidence": 0.91,
+      "utterance_type": "question",
+      "decision_link": "none",
+      "timing": "original_pitch",
+      "turn_index": 13,
+      "quote": "You said this is your first product? Is this the only product so far?",
+      "explanation": "Phil asks about the breadth of Boundless's existing product offering.",
+      "evidence": [
+        "You said this is your first product? Is this the only product so far?"
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 13,
+          "speaker": "Phil",
+          "quote": "You said this is your first product? Is this the only product so far?"
+        }
+      ],
+      "activation": "queried",
+      "source_rationale_id": "R1"
+    },
+    {
+      "rationale_label": "product_adoption",
+      "direction": "neutral",
+      "salience": "secondary",
+      "confidence": 0.99,
+      "utterance_type": "question",
+      "decision_link": "none",
+      "timing": "original_pitch",
+      "turn_index": 17,
+      "quote": "How many customers have you had on this product so far?",
+      "explanation": "Phil asks for the customer count as evidence of early adoption.",
+      "evidence": [
+        "How many customers have you had on this product so far?"
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 17,
+          "speaker": "Phil",
+          "quote": "How many customers have you had on this product so far?"
+        }
+      ],
+      "activation": "queried",
+      "source_rationale_id": "R2"
+    },
+    {
+      "rationale_label": "unit_economics_assessment",
+      "direction": "neutral",
+      "salience": "secondary",
+      "confidence": 0.97,
+      "utterance_type": "question",
+      "decision_link": "none",
+      "timing": "original_pitch",
+      "turn_index": 26,
+      "quote": "And the numbers as of now, in other words. Not what you're aiming for.",
+      "explanation": "In the discussion of acquisition costs, Phil requests actual current economics rather than targets.",
+      "evidence": [
+        "And the numbers as of now, in other words. Not what you're aiming for."
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 26,
+          "speaker": "Phil",
+          "quote": "And the numbers as of now, in other words. Not what you're aiming for."
+        }
+      ],
+      "activation": "queried",
+      "source_rationale_id": "R3"
+    },
+    {
+      "rationale_label": "business_model_assessment",
+      "direction": "neutral",
+      "salience": "secondary",
+      "confidence": 0.99,
+      "utterance_type": "question",
+      "decision_link": "none",
+      "timing": "original_pitch",
+      "turn_index": 32,
+      "quote": "How did you come up with the $500 price point?",
+      "explanation": "Phil asks how Boundless determined its service price.",
+      "evidence": [
+        "How did you come up with the $500 price point?"
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 32,
+          "speaker": "Phil",
+          "quote": "How did you come up with the $500 price point?"
+        }
+      ],
+      "activation": "queried",
+      "source_rationale_id": "R4"
+    },
+    {
+      "rationale_label": "founder_qualities",
+      "direction": "positive",
+      "salience": "primary",
+      "confidence": 0.99,
+      "utterance_type": "decision_explanation",
+      "decision_link": "supports_in",
+      "timing": "original_pitch",
+      "turn_index": 53,
+      "quote": "I really have a great feeling about you. And I just like your approach. And I'd like to invest.",
+      "explanation": "Phil directly links his favorable impression of Xiao and his approach to investing.",
+      "evidence": [
+        "I really have a great feeling about you. And I just like your approach. And I'd like to invest."
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 53,
+          "speaker": "Phil",
+          "quote": "I really have a great feeling about you. And I just like your approach. And I'd like to invest."
+        }
+      ],
+      "activation": "evaluated",
+      "source_rationale_id": "R5"
+    },
+    {
+      "rationale_label": "business_model_assessment",
+      "direction": "positive",
+      "salience": "primary",
+      "confidence": 0.99,
+      "utterance_type": "decision_explanation",
+      "decision_link": "supports_in",
+      "timing": "original_pitch",
+      "turn_index": 53,
+      "quote": "I see huge opportunities for lifetime LTV in this, both through additional immigration services and wraparound services and other things that you can do with the data.",
+      "explanation": "Phil identifies substantial lifetime-value and monetization opportunities from additional services and data.",
+      "evidence": [
+        "I see huge opportunities for lifetime LTV in this, both through additional immigration services and wraparound services and other things that you can do with the data."
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 53,
+          "speaker": "Phil",
+          "quote": "I see huge opportunities for lifetime LTV in this, both through additional immigration services and wraparound services and other things that you can do with the data."
+        }
+      ],
+      "activation": "evaluated",
+      "source_rationale_id": "R6"
+    },
+    {
+      "rationale_label": "competitive_advantage_assessment",
+      "direction": "positive",
+      "salience": "secondary",
+      "confidence": 0.88,
+      "utterance_type": "supporting_argument",
+      "decision_link": "supports_in",
+      "timing": "original_pitch",
+      "turn_index": 53,
+      "quote": "It's a data play. And there's a lot of value there.",
+      "explanation": "Phil regards the company's data asset as a valuable strategic component of the investment case.",
+      "evidence": [
+        "It's a data play. And there's a lot of value there."
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 53,
+          "speaker": "Phil",
+          "quote": "It's a data play. And there's a lot of value there."
+        }
+      ],
+      "activation": "evaluated",
+      "source_rationale_id": "R7"
+    },
+    {
+      "rationale_label": "founder_qualities",
+      "direction": "positive",
+      "salience": "secondary",
+      "confidence": 0.99,
+      "utterance_type": "assessment",
+      "decision_link": "none",
+      "timing": "original_pitch",
+      "turn_index": 62,
+      "quote": "Wow. Impressive guy.",
+      "explanation": "Phil gives a favorable post-pitch assessment of Xiao.",
+      "evidence": [
+        "Wow. Impressive guy."
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 62,
+          "speaker": "Phil",
+          "quote": "Wow. Impressive guy."
+        }
+      ],
+      "activation": "evaluated",
+      "source_rationale_id": "R8"
+    },
+    {
+      "rationale_label": "market_problem_validation",
+      "direction": "positive",
+      "salience": "secondary",
+      "confidence": 0.9,
+      "utterance_type": "assessment",
+      "decision_link": "none",
+      "timing": "original_pitch",
+      "turn_index": 67,
+      "quote": "Cumbersome and confusing.",
+      "explanation": "Phil characterizes the immigration process as difficult and confusing, validating the problem Boundless addresses.",
+      "evidence": [
+        "Cumbersome and confusing."
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 67,
+          "speaker": "Phil",
+          "quote": "Cumbersome and confusing."
+        }
+      ],
+      "activation": "evaluated",
+      "source_rationale_id": "R9"
+    }
+  ],
+  "expanded_quote_evidence": [],
+  "rejected_after_evidence_check": []
+}

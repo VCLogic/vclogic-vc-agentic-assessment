@@ -1,0 +1,877 @@
+{
+  "schema": "phase1-rationale-reference-v1",
+  "extraction_version": "pitchshow-rationales-v1",
+  "fingerprint": "6dab2be3225e90425a787df2423cf8b84d806f3c62cfb0bb9bfec8bafa1a4f12",
+  "episode_slug": "80-can-this-app-silence-the-trolls",
+  "vc_slug": "michael-hyatt",
+  "vc_name": "Michael Hyatt",
+  "actual_decision": "Out",
+  "later_decision": "Unknown",
+  "reference_kind": "automated_transcript_observed_candidate",
+  "human_validated": false,
+  "source_format": "transcript-observed-rationales-v1",
+  "source_path": "../source/episodes/80-can-this-app-silence-the-trolls.json",
+  "source_sha256": "0f884a72fe185921a99b15e55e13e430121ff4334a4c9603bf262bc9cdeb7b06",
+  "transcript_sha256": "a68e28b993e001f5868bd175f0112fbb0439839ba2a3fd03c2ae22a1bc8387c7",
+  "taxonomy_sha256": "eaa8734819a3ac34dd19ee5f0bf6de925a793a1d25a2d361090dafc9b751e1fc",
+  "model": "openai/gpt-5.6-luna",
+  "source_tier": "newly_extracted_and_independently_model_reviewed",
+  "reviewed_target_turns": [
+    8,
+    10,
+    12,
+    14,
+    16,
+    18,
+    20,
+    22,
+    24,
+    27,
+    29,
+    31,
+    35,
+    39,
+    43,
+    45,
+    47,
+    49,
+    51,
+    69,
+    73,
+    81,
+    84,
+    92,
+    93,
+    95,
+    98,
+    99,
+    101,
+    106
+  ],
+  "notes": "Questions and comments without a sufficiently specific taxonomy-grounded rationale were omitted.",
+  "receipt_path": "receipts/80-can-this-app-silence-the-trolls.json",
+  "scoring_scope": "original_pitch_only",
+  "shared_across_input_modes": true,
+  "rationales": [
+    {
+      "rationale_label": "business_model_assessment",
+      "direction": "neutral",
+      "salience": "secondary",
+      "confidence": 0.9,
+      "utterance_type": "assessment",
+      "decision_link": "none",
+      "timing": "original_pitch",
+      "turn_index": 69,
+      "quote": "I guess I’m not that concerned about your revenue",
+      "explanation": "Michael explicitly states that the absence of current revenue is not his main concern.",
+      "evidence": [
+        "what’s the incentive for the quarterback to get on that conversation? Do they get paid for being part of that conversation?",
+        "How do you monetize?",
+        "I guess I’m not that concerned about your revenue"
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 20,
+          "speaker": "Michael",
+          "quote": "what’s the incentive for the quarterback to get on that conversation? Do they get paid for being part of that conversation?"
+        },
+        {
+          "turn_index": 31,
+          "speaker": "Michael",
+          "quote": "How do you monetize?"
+        },
+        {
+          "turn_index": 69,
+          "speaker": "Michael",
+          "quote": "I guess I’m not that concerned about your revenue"
+        }
+      ],
+      "activation": "evaluated",
+      "source_rationale_id": "R11",
+      "utterance_kind": "assessment",
+      "decision_support": "none",
+      "all_mention_ids": [
+        "R2",
+        "R4",
+        "R11"
+      ]
+    },
+    {
+      "rationale_label": "capital_intensity_concern",
+      "direction": "negative",
+      "salience": "primary",
+      "confidence": 0.98,
+      "utterance_type": "decision_reason",
+      "decision_link": "explicit",
+      "timing": "original_pitch",
+      "turn_index": 69,
+      "quote": "The cost to scale this kind of company I think has gone up an order of magnitude than what it used to.",
+      "explanation": "Michael gives the sharply increased cost of scaling a social platform as a reason for passing.",
+      "evidence": [
+        "The cost to scale this kind of company I think has gone up an order of magnitude than what it used to.",
+        "to get one of these companies off the ground now is a very expensive proposition"
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 69,
+          "speaker": "Michael",
+          "quote": "The cost to scale this kind of company I think has gone up an order of magnitude than what it used to."
+        },
+        {
+          "turn_index": 81,
+          "speaker": "Michael",
+          "quote": "to get one of these companies off the ground now is a very expensive proposition"
+        }
+      ],
+      "activation": "evaluated",
+      "source_rationale_id": "R13",
+      "utterance_kind": "decision_explanation",
+      "decision_support": "supports_out",
+      "all_mention_ids": [
+        "R13",
+        "R15"
+      ]
+    },
+    {
+      "rationale_label": "founder_execution",
+      "direction": "neutral",
+      "salience": "secondary",
+      "confidence": 0.9,
+      "utterance_type": "question",
+      "decision_link": "none",
+      "timing": "original_pitch",
+      "turn_index": 45,
+      "quote": "And you sold the last two?",
+      "explanation": "The question checks whether the founder’s recent ventures achieved exits.",
+      "evidence": [
+        "Did you have previous exits?",
+        "is this your first time being a founder?",
+        "And you sold the last two?"
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 39,
+          "speaker": "Michael",
+          "quote": "Did you have previous exits?"
+        },
+        {
+          "turn_index": 43,
+          "speaker": "Michael",
+          "quote": "is this your first time being a founder?"
+        },
+        {
+          "turn_index": 45,
+          "speaker": "Michael",
+          "quote": "And you sold the last two?"
+        }
+      ],
+      "activation": "queried",
+      "source_rationale_id": "R7",
+      "utterance_kind": "question",
+      "decision_support": "none",
+      "all_mention_ids": [
+        "R5",
+        "R6",
+        "R7"
+      ]
+    },
+    {
+      "rationale_label": "go_to_market_strategy_assessment",
+      "direction": "negative",
+      "salience": "secondary",
+      "confidence": 0.87,
+      "utterance_type": "assessment",
+      "decision_link": "none",
+      "timing": "original_pitch",
+      "turn_index": 81,
+      "quote": "something has to happen that would not only happen, like, I don’t know, like the Kardashians all start using it by fluke tomorrow.",
+      "explanation": "He suggests that success may depend on an unlikely celebrity-driven adoption event rather than a reliable customer-acquisition path.",
+      "evidence": [
+        "something has to happen that would not only happen, like, I don’t know, like the Kardashians all start using it by fluke tomorrow."
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 81,
+          "speaker": "Michael",
+          "quote": "something has to happen that would not only happen, like, I don’t know, like the Kardashians all start using it by fluke tomorrow."
+        }
+      ],
+      "activation": "evaluated",
+      "source_rationale_id": "R16",
+      "utterance_kind": "assessment",
+      "decision_support": "unclear",
+      "all_mention_ids": [
+        "R16"
+      ]
+    },
+    {
+      "rationale_label": "investment_upside_assessment",
+      "direction": "positive",
+      "salience": "secondary",
+      "confidence": 0.88,
+      "utterance_type": "assessment",
+      "decision_link": "none",
+      "timing": "original_pitch",
+      "turn_index": 69,
+      "quote": "I think I’m probably sitting in either a tremendous hit or a zero here.",
+      "explanation": "He frames the opportunity as having potentially exceptional upside but a highly binary outcome.",
+      "evidence": [
+        "I could be listening to a multi-billion dollar pitch right now.",
+        "I think I’m probably sitting in either a tremendous hit or a zero here."
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 47,
+          "speaker": "Michael",
+          "quote": "I could be listening to a multi-billion dollar pitch right now."
+        },
+        {
+          "turn_index": 69,
+          "speaker": "Michael",
+          "quote": "I think I’m probably sitting in either a tremendous hit or a zero here."
+        }
+      ],
+      "activation": "evaluated",
+      "source_rationale_id": "R12",
+      "utterance_kind": "assessment",
+      "decision_support": "none",
+      "all_mention_ids": [
+        "R8",
+        "R12"
+      ]
+    },
+    {
+      "rationale_label": "market_size_assessment",
+      "direction": "positive",
+      "salience": "secondary",
+      "confidence": 0.86,
+      "utterance_type": "assessment",
+      "decision_link": "none",
+      "timing": "original_pitch",
+      "turn_index": 81,
+      "quote": "you can see the size of this thing",
+      "explanation": "He acknowledges that the opportunity has substantial potential scale.",
+      "evidence": [
+        "you can see the size of this thing"
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 81,
+          "speaker": "Michael",
+          "quote": "you can see the size of this thing"
+        }
+      ],
+      "activation": "evaluated",
+      "source_rationale_id": "R14",
+      "utterance_kind": "supporting_argument",
+      "decision_support": "none",
+      "all_mention_ids": [
+        "R14"
+      ]
+    },
+    {
+      "rationale_label": "market_timing",
+      "direction": "negative",
+      "salience": "secondary",
+      "confidence": 0.89,
+      "utterance_type": "assessment",
+      "decision_link": "none",
+      "timing": "original_pitch",
+      "turn_index": 84,
+      "quote": "Barrier to entry is so much higher now.",
+      "explanation": "Michael views the current environment as less favorable for launching and scaling this category than it was previously.",
+      "evidence": [
+        "Barrier to entry is so much higher now."
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 84,
+          "speaker": "Michael",
+          "quote": "Barrier to entry is so much higher now."
+        }
+      ],
+      "activation": "evaluated",
+      "source_rationale_id": "R17",
+      "utterance_kind": "assessment",
+      "decision_support": "unclear",
+      "all_mention_ids": [
+        "R17"
+      ]
+    },
+    {
+      "rationale_label": "product_adoption",
+      "direction": "neutral",
+      "salience": "secondary",
+      "confidence": 0.9,
+      "utterance_type": "question",
+      "decision_link": "none",
+      "timing": "original_pitch",
+      "turn_index": 29,
+      "quote": "How many active users do you have right now? And how fast is that growing?",
+      "explanation": "The question seeks evidence of current user adoption and growth.",
+      "evidence": [
+        "How many active users do you have right now? And how fast is that growing?"
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 29,
+          "speaker": "Michael",
+          "quote": "How many active users do you have right now? And how fast is that growing?"
+        }
+      ],
+      "activation": "queried",
+      "source_rationale_id": "R3",
+      "utterance_kind": "question",
+      "decision_support": "none",
+      "all_mention_ids": [
+        "R3"
+      ]
+    },
+    {
+      "rationale_label": "product_appeal_assessment",
+      "direction": "negative",
+      "salience": "secondary",
+      "confidence": 0.95,
+      "utterance_type": "assessment",
+      "decision_link": "none",
+      "timing": "original_pitch",
+      "turn_index": 93,
+      "quote": "I wouldn't be an active daily user",
+      "explanation": "Michael says the product may attract occasional interest but would not become a regular daily habit for him.",
+      "evidence": [
+        "I wouldn't be an active daily user"
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 93,
+          "speaker": "Michael",
+          "quote": "I wouldn't be an active daily user"
+        }
+      ],
+      "activation": "evaluated",
+      "source_rationale_id": "R19",
+      "utterance_kind": "assessment",
+      "decision_support": "unclear",
+      "all_mention_ids": [
+        "R1",
+        "R18",
+        "R19"
+      ]
+    },
+    {
+      "rationale_label": "product_differentiation_concern",
+      "direction": "negative",
+      "salience": "primary",
+      "confidence": 0.97,
+      "utterance_type": "assessment",
+      "decision_link": "none",
+      "timing": "original_pitch",
+      "turn_index": 47,
+      "quote": "aren’t you just a feature that these massive platforms can just turn on tomorrow?",
+      "explanation": "Michael questions whether the product is sufficiently unique or defensible against large incumbent platforms.",
+      "evidence": [
+        "aren’t you just a feature that these massive platforms can just turn on tomorrow?"
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 47,
+          "speaker": "Michael",
+          "quote": "aren’t you just a feature that these massive platforms can just turn on tomorrow?"
+        }
+      ],
+      "activation": "evaluated",
+      "source_rationale_id": "R9",
+      "utterance_kind": "concern",
+      "decision_support": "unclear",
+      "all_mention_ids": [
+        "R9",
+        "R10",
+        "R20"
+      ]
+    }
+  ],
+  "later_rationales": [],
+  "excluded_rationales": [],
+  "rationale_mentions": [
+    {
+      "rationale_label": "product_appeal_assessment",
+      "direction": "positive",
+      "salience": "secondary",
+      "confidence": 0.88,
+      "utterance_type": "question",
+      "decision_link": "none",
+      "timing": "original_pitch",
+      "turn_index": 20,
+      "quote": "that would be a really great conversation to watch, right?",
+      "explanation": "Michael recognizes that the celebrity conversation could be compelling for viewers.",
+      "evidence": [
+        "that would be a really great conversation to watch, right?"
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 20,
+          "speaker": "Michael",
+          "quote": "that would be a really great conversation to watch, right?"
+        }
+      ],
+      "activation": "queried",
+      "source_rationale_id": "R1"
+    },
+    {
+      "rationale_label": "business_model_assessment",
+      "direction": "neutral",
+      "salience": "secondary",
+      "confidence": 0.94,
+      "utterance_type": "question",
+      "decision_link": "none",
+      "timing": "original_pitch",
+      "turn_index": 20,
+      "quote": "what’s the incentive for the quarterback to get on that conversation? Do they get paid for being part of that conversation?",
+      "explanation": "The question probes how the platform motivates its supply-side participants and whether compensation is part of the model.",
+      "evidence": [
+        "what’s the incentive for the quarterback to get on that conversation? Do they get paid for being part of that conversation?"
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 20,
+          "speaker": "Michael",
+          "quote": "what’s the incentive for the quarterback to get on that conversation? Do they get paid for being part of that conversation?"
+        }
+      ],
+      "activation": "queried",
+      "source_rationale_id": "R2"
+    },
+    {
+      "rationale_label": "product_adoption",
+      "direction": "neutral",
+      "salience": "secondary",
+      "confidence": 0.9,
+      "utterance_type": "question",
+      "decision_link": "none",
+      "timing": "original_pitch",
+      "turn_index": 29,
+      "quote": "How many active users do you have right now? And how fast is that growing?",
+      "explanation": "The question seeks evidence of current user adoption and growth.",
+      "evidence": [
+        "How many active users do you have right now? And how fast is that growing?"
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 29,
+          "speaker": "Michael",
+          "quote": "How many active users do you have right now? And how fast is that growing?"
+        }
+      ],
+      "activation": "queried",
+      "source_rationale_id": "R3"
+    },
+    {
+      "rationale_label": "business_model_assessment",
+      "direction": "neutral",
+      "salience": "secondary",
+      "confidence": 0.93,
+      "utterance_type": "question",
+      "decision_link": "none",
+      "timing": "original_pitch",
+      "turn_index": 31,
+      "quote": "How do you monetize?",
+      "explanation": "The question directly probes the company’s revenue and monetization approach.",
+      "evidence": [
+        "How do you monetize?"
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 31,
+          "speaker": "Michael",
+          "quote": "How do you monetize?"
+        }
+      ],
+      "activation": "queried",
+      "source_rationale_id": "R4"
+    },
+    {
+      "rationale_label": "founder_execution",
+      "direction": "neutral",
+      "salience": "secondary",
+      "confidence": 0.88,
+      "utterance_type": "question",
+      "decision_link": "none",
+      "timing": "original_pitch",
+      "turn_index": 39,
+      "quote": "Did you have previous exits?",
+      "explanation": "The question seeks evidence of the founder’s prior company-building and execution track record.",
+      "evidence": [
+        "Did you have previous exits?"
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 39,
+          "speaker": "Michael",
+          "quote": "Did you have previous exits?"
+        }
+      ],
+      "activation": "queried",
+      "source_rationale_id": "R5"
+    },
+    {
+      "rationale_label": "founder_execution",
+      "direction": "neutral",
+      "salience": "secondary",
+      "confidence": 0.9,
+      "utterance_type": "question",
+      "decision_link": "none",
+      "timing": "original_pitch",
+      "turn_index": 43,
+      "quote": "is this your first time being a founder?",
+      "explanation": "The question probes the founder’s prior operating experience.",
+      "evidence": [
+        "is this your first time being a founder?"
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 43,
+          "speaker": "Michael",
+          "quote": "is this your first time being a founder?"
+        }
+      ],
+      "activation": "queried",
+      "source_rationale_id": "R6"
+    },
+    {
+      "rationale_label": "founder_execution",
+      "direction": "neutral",
+      "salience": "secondary",
+      "confidence": 0.9,
+      "utterance_type": "question",
+      "decision_link": "none",
+      "timing": "original_pitch",
+      "turn_index": 45,
+      "quote": "And you sold the last two?",
+      "explanation": "The question checks whether the founder’s recent ventures achieved exits.",
+      "evidence": [
+        "And you sold the last two?"
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 45,
+          "speaker": "Michael",
+          "quote": "And you sold the last two?"
+        }
+      ],
+      "activation": "queried",
+      "source_rationale_id": "R7"
+    },
+    {
+      "rationale_label": "investment_upside_assessment",
+      "direction": "positive",
+      "salience": "secondary",
+      "confidence": 0.91,
+      "utterance_type": "assessment",
+      "decision_link": "none",
+      "timing": "original_pitch",
+      "turn_index": 47,
+      "quote": "I could be listening to a multi-billion dollar pitch right now.",
+      "explanation": "Michael sees the possibility of an exceptionally large outcome.",
+      "evidence": [
+        "I could be listening to a multi-billion dollar pitch right now."
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 47,
+          "speaker": "Michael",
+          "quote": "I could be listening to a multi-billion dollar pitch right now."
+        }
+      ],
+      "activation": "evaluated",
+      "source_rationale_id": "R8"
+    },
+    {
+      "rationale_label": "product_differentiation_concern",
+      "direction": "negative",
+      "salience": "primary",
+      "confidence": 0.97,
+      "utterance_type": "concern",
+      "decision_link": "unclear",
+      "timing": "original_pitch",
+      "turn_index": 47,
+      "quote": "aren’t you just a feature that these massive platforms can just turn on tomorrow?",
+      "explanation": "Michael questions whether the product is sufficiently unique or defensible against large incumbent platforms.",
+      "evidence": [
+        "aren’t you just a feature that these massive platforms can just turn on tomorrow?"
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 47,
+          "speaker": "Michael",
+          "quote": "aren’t you just a feature that these massive platforms can just turn on tomorrow?"
+        }
+      ],
+      "activation": "evaluated",
+      "source_rationale_id": "R9"
+    },
+    {
+      "rationale_label": "product_differentiation_concern",
+      "direction": "neutral",
+      "salience": "secondary",
+      "confidence": 0.92,
+      "utterance_type": "question",
+      "decision_link": "none",
+      "timing": "original_pitch",
+      "turn_index": 49,
+      "quote": "But why do you think WhatsApp can’t do this?",
+      "explanation": "The question revisits whether an incumbent could readily replicate the product.",
+      "evidence": [
+        "But why do you think WhatsApp can’t do this?"
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 49,
+          "speaker": "Michael",
+          "quote": "But why do you think WhatsApp can’t do this?"
+        }
+      ],
+      "activation": "queried",
+      "source_rationale_id": "R10"
+    },
+    {
+      "rationale_label": "business_model_assessment",
+      "direction": "neutral",
+      "salience": "secondary",
+      "confidence": 0.9,
+      "utterance_type": "assessment",
+      "decision_link": "none",
+      "timing": "original_pitch",
+      "turn_index": 69,
+      "quote": "I guess I’m not that concerned about your revenue",
+      "explanation": "Michael explicitly states that the absence of current revenue is not his main concern.",
+      "evidence": [
+        "I guess I’m not that concerned about your revenue"
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 69,
+          "speaker": "Michael",
+          "quote": "I guess I’m not that concerned about your revenue"
+        }
+      ],
+      "activation": "evaluated",
+      "source_rationale_id": "R11"
+    },
+    {
+      "rationale_label": "investment_upside_assessment",
+      "direction": "positive",
+      "salience": "secondary",
+      "confidence": 0.88,
+      "utterance_type": "assessment",
+      "decision_link": "none",
+      "timing": "original_pitch",
+      "turn_index": 69,
+      "quote": "I think I’m probably sitting in either a tremendous hit or a zero here.",
+      "explanation": "He frames the opportunity as having potentially exceptional upside but a highly binary outcome.",
+      "evidence": [
+        "I think I’m probably sitting in either a tremendous hit or a zero here."
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 69,
+          "speaker": "Michael",
+          "quote": "I think I’m probably sitting in either a tremendous hit or a zero here."
+        }
+      ],
+      "activation": "evaluated",
+      "source_rationale_id": "R12"
+    },
+    {
+      "rationale_label": "capital_intensity_concern",
+      "direction": "negative",
+      "salience": "primary",
+      "confidence": 0.98,
+      "utterance_type": "decision_explanation",
+      "decision_link": "supports_out",
+      "timing": "original_pitch",
+      "turn_index": 69,
+      "quote": "The cost to scale this kind of company I think has gone up an order of magnitude than what it used to.",
+      "explanation": "Michael gives the sharply increased cost of scaling a social platform as a reason for passing.",
+      "evidence": [
+        "The cost to scale this kind of company I think has gone up an order of magnitude than what it used to."
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 69,
+          "speaker": "Michael",
+          "quote": "The cost to scale this kind of company I think has gone up an order of magnitude than what it used to."
+        }
+      ],
+      "activation": "evaluated",
+      "source_rationale_id": "R13"
+    },
+    {
+      "rationale_label": "market_size_assessment",
+      "direction": "positive",
+      "salience": "secondary",
+      "confidence": 0.86,
+      "utterance_type": "supporting_argument",
+      "decision_link": "none",
+      "timing": "original_pitch",
+      "turn_index": 81,
+      "quote": "you can see the size of this thing",
+      "explanation": "He acknowledges that the opportunity has substantial potential scale.",
+      "evidence": [
+        "you can see the size of this thing"
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 81,
+          "speaker": "Michael",
+          "quote": "you can see the size of this thing"
+        }
+      ],
+      "activation": "evaluated",
+      "source_rationale_id": "R14"
+    },
+    {
+      "rationale_label": "capital_intensity_concern",
+      "direction": "negative",
+      "salience": "primary",
+      "confidence": 0.96,
+      "utterance_type": "assessment",
+      "decision_link": "unclear",
+      "timing": "original_pitch",
+      "turn_index": 81,
+      "quote": "to get one of these companies off the ground now is a very expensive proposition",
+      "explanation": "Michael reiterates that launching and scaling this type of company now requires substantial resources.",
+      "evidence": [
+        "to get one of these companies off the ground now is a very expensive proposition"
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 81,
+          "speaker": "Michael",
+          "quote": "to get one of these companies off the ground now is a very expensive proposition"
+        }
+      ],
+      "activation": "evaluated",
+      "source_rationale_id": "R15"
+    },
+    {
+      "rationale_label": "go_to_market_strategy_assessment",
+      "direction": "negative",
+      "salience": "secondary",
+      "confidence": 0.87,
+      "utterance_type": "assessment",
+      "decision_link": "unclear",
+      "timing": "original_pitch",
+      "turn_index": 81,
+      "quote": "something has to happen that would not only happen, like, I don’t know, like the Kardashians all start using it by fluke tomorrow.",
+      "explanation": "He suggests that success may depend on an unlikely celebrity-driven adoption event rather than a reliable customer-acquisition path.",
+      "evidence": [
+        "something has to happen that would not only happen, like, I don’t know, like the Kardashians all start using it by fluke tomorrow."
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 81,
+          "speaker": "Michael",
+          "quote": "something has to happen that would not only happen, like, I don’t know, like the Kardashians all start using it by fluke tomorrow."
+        }
+      ],
+      "activation": "evaluated",
+      "source_rationale_id": "R16"
+    },
+    {
+      "rationale_label": "market_timing",
+      "direction": "negative",
+      "salience": "secondary",
+      "confidence": 0.89,
+      "utterance_type": "assessment",
+      "decision_link": "unclear",
+      "timing": "original_pitch",
+      "turn_index": 84,
+      "quote": "Barrier to entry is so much higher now.",
+      "explanation": "Michael views the current environment as less favorable for launching and scaling this category than it was previously.",
+      "evidence": [
+        "Barrier to entry is so much higher now."
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 84,
+          "speaker": "Michael",
+          "quote": "Barrier to entry is so much higher now."
+        }
+      ],
+      "activation": "evaluated",
+      "source_rationale_id": "R17"
+    },
+    {
+      "rationale_label": "product_appeal_assessment",
+      "direction": "neutral",
+      "salience": "secondary",
+      "confidence": 0.89,
+      "utterance_type": "question",
+      "decision_link": "none",
+      "timing": "original_pitch",
+      "turn_index": 92,
+      "quote": "Every single day?",
+      "explanation": "The question tests whether the product is compelling enough to drive habitual daily use.",
+      "evidence": [
+        "Every single day?"
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 92,
+          "speaker": "Michael",
+          "quote": "Every single day?"
+        }
+      ],
+      "activation": "queried",
+      "source_rationale_id": "R18"
+    },
+    {
+      "rationale_label": "product_appeal_assessment",
+      "direction": "negative",
+      "salience": "secondary",
+      "confidence": 0.95,
+      "utterance_type": "assessment",
+      "decision_link": "unclear",
+      "timing": "original_pitch",
+      "turn_index": 93,
+      "quote": "I wouldn't be an active daily user",
+      "explanation": "Michael says the product may attract occasional interest but would not become a regular daily habit for him.",
+      "evidence": [
+        "I wouldn't be an active daily user"
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 93,
+          "speaker": "Michael",
+          "quote": "I wouldn't be an active daily user"
+        }
+      ],
+      "activation": "evaluated",
+      "source_rationale_id": "R19"
+    },
+    {
+      "rationale_label": "product_differentiation_concern",
+      "direction": "neutral",
+      "salience": "secondary",
+      "confidence": 0.93,
+      "utterance_type": "question",
+      "decision_link": "none",
+      "timing": "original_pitch",
+      "turn_index": 95,
+      "quote": "But you don't see this copied easily by one of the big boys?",
+      "explanation": "The question probes whether large incumbents could easily copy the product.",
+      "evidence": [
+        "But you don't see this copied easily by one of the big boys?"
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 95,
+          "speaker": "Michael",
+          "quote": "But you don't see this copied easily by one of the big boys?"
+        }
+      ],
+      "activation": "queried",
+      "source_rationale_id": "R20"
+    }
+  ]
+}

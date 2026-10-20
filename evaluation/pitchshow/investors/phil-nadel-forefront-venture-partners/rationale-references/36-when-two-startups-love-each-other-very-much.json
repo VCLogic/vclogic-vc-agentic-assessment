@@ -1,0 +1,876 @@
+{
+  "schema": "phase1-rationale-reference-v1",
+  "extraction_version": "pitchshow-rationales-v1",
+  "fingerprint": "c76b6695b6b3d3ec36f0cfcc1590b5b9ff93f6923e9dc376190bdb821a6f7c55",
+  "episode_slug": "36-when-two-startups-love-each-other-very-much",
+  "vc_slug": "phil-nadel-forefront-venture-partners",
+  "vc_name": "Phil Nadel",
+  "actual_decision": "In",
+  "later_decision": "Unknown",
+  "reference_kind": "automated_transcript_observed_candidate",
+  "human_validated": false,
+  "source_format": "transcript-observed-rationales-v1",
+  "source_path": "../source/episodes/36-when-two-startups-love-each-other-very-much.json",
+  "source_sha256": "d226d2f68131b5b31246d78409a8cc708c6c347d5078c7079f91930906e57a8b",
+  "transcript_sha256": "a4c1671c670c0136e0a30344a93c7f5a9bd7bb60ab5a13ba5b37ac9b05a39e50",
+  "taxonomy_sha256": "eaa8734819a3ac34dd19ee5f0bf6de925a793a1d25a2d361090dafc9b751e1fc",
+  "model": "codex:gpt-5.6-luna+gpt-5.6-sol",
+  "generation_stages": [
+    {
+      "phase": "rationale_extract",
+      "backend": "codex",
+      "model": "gpt-5.6-luna"
+    },
+    {
+      "phase": "rationale_verify",
+      "backend": "codex",
+      "model": "gpt-5.6-sol"
+    }
+  ],
+  "source_tier": "newly_extracted_and_independently_model_reviewed",
+  "reviewed_target_turns": [
+    1,
+    6,
+    10,
+    19,
+    22,
+    28,
+    35,
+    53,
+    55,
+    57,
+    60,
+    62,
+    65,
+    68,
+    70,
+    76,
+    80,
+    91,
+    115,
+    119,
+    120,
+    122,
+    125,
+    128,
+    131
+  ],
+  "notes": "",
+  "receipt_path": "receipts/36-when-two-startups-love-each-other-very-much.json",
+  "scoring_scope": "original_pitch_only",
+  "shared_across_input_modes": true,
+  "rationales": [
+    {
+      "rationale_label": "founder_communication_quality",
+      "direction": "positive",
+      "salience": "secondary",
+      "confidence": 0.98,
+      "utterance_type": "assessment",
+      "decision_link": "none",
+      "timing": "original_pitch",
+      "turn_index": 125,
+      "quote": "She was just telling the story and it sounded very good.",
+      "explanation": "Phil praises the natural and effective storytelling in Margot's presentation.",
+      "evidence": [
+        "She was just talking.",
+        "She was just telling the story and it sounded very good."
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 122,
+          "speaker": "Phil",
+          "quote": "She was just talking."
+        },
+        {
+          "turn_index": 125,
+          "speaker": "Phil",
+          "quote": "She was just telling the story and it sounded very good."
+        }
+      ],
+      "activation": "evaluated",
+      "source_rationale_id": "R19",
+      "utterance_kind": "assessment",
+      "decision_support": "none",
+      "all_mention_ids": [
+        "R18",
+        "R19"
+      ]
+    },
+    {
+      "rationale_label": "founder_qualities",
+      "direction": "positive",
+      "salience": "primary",
+      "confidence": 0.98,
+      "utterance_type": "decision_reason",
+      "decision_link": "explicit",
+      "timing": "original_pitch",
+      "turn_index": 91,
+      "quote": "I have a really good feeling about you.",
+      "explanation": "Phil identifies his favorable personal assessment of Margot as part of his investment decision.",
+      "evidence": [
+        "I have a really good feeling about you.",
+        "she's really good.",
+        "She's sharp.",
+        "she's very self-aware, which I like too."
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 91,
+          "speaker": "Phil",
+          "quote": "I have a really good feeling about you."
+        },
+        {
+          "turn_index": 119,
+          "speaker": "Phil",
+          "quote": "she's really good."
+        },
+        {
+          "turn_index": 120,
+          "speaker": "Phil",
+          "quote": "She's sharp."
+        },
+        {
+          "turn_index": 128,
+          "speaker": "Phil",
+          "quote": "she's very self-aware, which I like too."
+        }
+      ],
+      "activation": "evaluated",
+      "source_rationale_id": "R11",
+      "utterance_kind": "decision_explanation",
+      "decision_support": "supports_in",
+      "all_mention_ids": [
+        "R11",
+        "R15",
+        "R17",
+        "R20"
+      ]
+    },
+    {
+      "rationale_label": "founder_skillset",
+      "direction": "positive",
+      "salience": "secondary",
+      "confidence": 0.91,
+      "utterance_type": "assessment",
+      "decision_link": "none",
+      "timing": "original_pitch",
+      "turn_index": 120,
+      "quote": "She has great experience.",
+      "explanation": "Phil positively assesses the experience Margot brings to building the company.",
+      "evidence": [
+        "She has great experience."
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 120,
+          "speaker": "Phil",
+          "quote": "She has great experience."
+        }
+      ],
+      "activation": "evaluated",
+      "source_rationale_id": "R16",
+      "utterance_kind": "assessment",
+      "decision_support": "none",
+      "all_mention_ids": [
+        "R16"
+      ]
+    },
+    {
+      "rationale_label": "go_to_market_strategy_assessment",
+      "direction": "neutral",
+      "salience": "secondary",
+      "confidence": 0.99,
+      "utterance_type": "question",
+      "decision_link": "none",
+      "timing": "original_pitch",
+      "turn_index": 22,
+      "quote": "How are you marketing?",
+      "explanation": "Phil asks how the company reaches and acquires customers.",
+      "evidence": [
+        "How are you marketing?"
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 22,
+          "speaker": "Phil",
+          "quote": "How are you marketing?"
+        }
+      ],
+      "activation": "queried",
+      "source_rationale_id": "R2",
+      "utterance_kind": "question",
+      "decision_support": "none",
+      "all_mention_ids": [
+        "R2"
+      ]
+    },
+    {
+      "rationale_label": "market_problem_validation",
+      "direction": "positive",
+      "salience": "primary",
+      "confidence": 0.99,
+      "utterance_type": "decision_reason",
+      "decision_link": "explicit",
+      "timing": "original_pitch",
+      "turn_index": 91,
+      "quote": "I always look for founders who are solving a real pain point, and I think that's what you're doing.",
+      "explanation": "Phil believes Hostfully addresses a genuine customer pain point, supporting his willingness to invest.",
+      "evidence": [
+        "I always look for founders who are solving a real pain point, and I think that's what you're doing."
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 91,
+          "speaker": "Phil",
+          "quote": "I always look for founders who are solving a real pain point, and I think that's what you're doing."
+        }
+      ],
+      "activation": "evaluated",
+      "source_rationale_id": "R12",
+      "utterance_kind": "decision_explanation",
+      "decision_support": "supports_in",
+      "all_mention_ids": [
+        "R12"
+      ]
+    },
+    {
+      "rationale_label": "market_size_assessment",
+      "direction": "positive",
+      "salience": "primary",
+      "confidence": 0.99,
+      "utterance_type": "decision_reason",
+      "decision_link": "explicit",
+      "timing": "original_pitch",
+      "turn_index": 91,
+      "quote": "it's a huge market and it can probably support a few companies doing the same thing.",
+      "explanation": "Phil believes the market is large enough to sustain Hostfully despite the presence of direct competitors.",
+      "evidence": [
+        "it's a huge market and it can probably support a few companies doing the same thing."
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 91,
+          "speaker": "Phil",
+          "quote": "it's a huge market and it can probably support a few companies doing the same thing."
+        }
+      ],
+      "activation": "evaluated",
+      "source_rationale_id": "R13",
+      "utterance_kind": "decision_explanation",
+      "decision_support": "supports_in",
+      "all_mention_ids": [
+        "R4",
+        "R13"
+      ]
+    },
+    {
+      "rationale_label": "solution_feasibility_assessment",
+      "direction": "neutral",
+      "salience": "secondary",
+      "confidence": 0.9,
+      "utterance_type": "question",
+      "decision_link": "none",
+      "timing": "original_pitch",
+      "turn_index": 19,
+      "quote": "What's the interface like though for the property manager?",
+      "explanation": "Phil probes how the product operates for its intended customer.",
+      "evidence": [
+        "What's the interface like though for the property manager?"
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 19,
+          "speaker": "Phil",
+          "quote": "What's the interface like though for the property manager?"
+        }
+      ],
+      "activation": "queried",
+      "source_rationale_id": "R1",
+      "utterance_kind": "question",
+      "decision_support": "none",
+      "all_mention_ids": [
+        "R1"
+      ]
+    },
+    {
+      "rationale_label": "stage_valuation_mismatch",
+      "direction": "negative",
+      "salience": "primary",
+      "confidence": 0.99,
+      "utterance_type": "decision_reason",
+      "decision_link": "explicit",
+      "timing": "original_pitch",
+      "turn_index": 91,
+      "quote": "Seven cap, which you said you would do, or seven price round, either way is certainly at the very high end of where I would go.",
+      "explanation": "Phil makes the seven-million valuation the upper boundary of his conditional investment commitment.",
+      "evidence": [
+        "How’d you come to a $10 million cap when you’re doing 25,000 a month in revenue?",
+        "a 10 million cap is just way high.",
+        "that’s what’s closer to market for sure. 5 million cap.",
+        "I still don’t think it’s the right thing for the company in terms of long term.",
+        "I don’t think I’d go beyond that.",
+        "Seven cap, which you said you would do, or seven price round, either way is certainly at the very high end of where I would go."
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 57,
+          "speaker": "Phil",
+          "quote": "How’d you come to a $10 million cap when you’re doing 25,000 a month in revenue?"
+        },
+        {
+          "turn_index": 60,
+          "speaker": "Phil",
+          "quote": "a 10 million cap is just way high."
+        },
+        {
+          "turn_index": 62,
+          "speaker": "Phil",
+          "quote": "that’s what’s closer to market for sure. 5 million cap."
+        },
+        {
+          "turn_index": 65,
+          "speaker": "Phil",
+          "quote": "I still don’t think it’s the right thing for the company in terms of long term."
+        },
+        {
+          "turn_index": 70,
+          "speaker": "Phil",
+          "quote": "I don’t think I’d go beyond that."
+        },
+        {
+          "turn_index": 91,
+          "speaker": "Phil",
+          "quote": "Seven cap, which you said you would do, or seven price round, either way is certainly at the very high end of where I would go."
+        }
+      ],
+      "activation": "evaluated",
+      "source_rationale_id": "R14",
+      "utterance_kind": "decision_explanation",
+      "decision_support": "supports_in",
+      "all_mention_ids": [
+        "R5",
+        "R6",
+        "R7",
+        "R8",
+        "R9",
+        "R10",
+        "R14"
+      ]
+    },
+    {
+      "rationale_label": "traction_repeatability_concern",
+      "direction": "neutral",
+      "salience": "secondary",
+      "confidence": 0.96,
+      "utterance_type": "question",
+      "decision_link": "none",
+      "timing": "original_pitch",
+      "turn_index": 28,
+      "quote": "Well, what is the churn on that business?",
+      "explanation": "Phil probes whether the inherited business retains customers consistently.",
+      "evidence": [
+        "Well, what is the churn on that business?"
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 28,
+          "speaker": "Phil",
+          "quote": "Well, what is the churn on that business?"
+        }
+      ],
+      "activation": "queried",
+      "source_rationale_id": "R3",
+      "utterance_kind": "question",
+      "decision_support": "none",
+      "all_mention_ids": [
+        "R3"
+      ]
+    }
+  ],
+  "later_rationales": [],
+  "excluded_rationales": [],
+  "rationale_mentions": [
+    {
+      "rationale_label": "solution_feasibility_assessment",
+      "direction": "neutral",
+      "salience": "secondary",
+      "confidence": 0.9,
+      "utterance_type": "question",
+      "decision_link": "none",
+      "timing": "original_pitch",
+      "turn_index": 19,
+      "quote": "What's the interface like though for the property manager?",
+      "explanation": "Phil probes how the product operates for its intended customer.",
+      "evidence": [
+        "What's the interface like though for the property manager?"
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 19,
+          "speaker": "Phil",
+          "quote": "What's the interface like though for the property manager?"
+        }
+      ],
+      "activation": "queried",
+      "source_rationale_id": "R1"
+    },
+    {
+      "rationale_label": "go_to_market_strategy_assessment",
+      "direction": "neutral",
+      "salience": "secondary",
+      "confidence": 0.99,
+      "utterance_type": "question",
+      "decision_link": "none",
+      "timing": "original_pitch",
+      "turn_index": 22,
+      "quote": "How are you marketing?",
+      "explanation": "Phil asks how the company reaches and acquires customers.",
+      "evidence": [
+        "How are you marketing?"
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 22,
+          "speaker": "Phil",
+          "quote": "How are you marketing?"
+        }
+      ],
+      "activation": "queried",
+      "source_rationale_id": "R2"
+    },
+    {
+      "rationale_label": "traction_repeatability_concern",
+      "direction": "neutral",
+      "salience": "secondary",
+      "confidence": 0.96,
+      "utterance_type": "question",
+      "decision_link": "none",
+      "timing": "original_pitch",
+      "turn_index": 28,
+      "quote": "Well, what is the churn on that business?",
+      "explanation": "Phil probes whether the inherited business retains customers consistently.",
+      "evidence": [
+        "Well, what is the churn on that business?"
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 28,
+          "speaker": "Phil",
+          "quote": "Well, what is the churn on that business?"
+        }
+      ],
+      "activation": "queried",
+      "source_rationale_id": "R3"
+    },
+    {
+      "rationale_label": "market_size_assessment",
+      "direction": "neutral",
+      "salience": "secondary",
+      "confidence": 0.99,
+      "utterance_type": "question",
+      "decision_link": "none",
+      "timing": "original_pitch",
+      "turn_index": 53,
+      "quote": "how large a market is that?",
+      "explanation": "Phil asks about the size of the company's target market.",
+      "evidence": [
+        "how large a market is that?"
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 53,
+          "speaker": "Phil",
+          "quote": "how large a market is that?"
+        }
+      ],
+      "activation": "queried",
+      "source_rationale_id": "R4"
+    },
+    {
+      "rationale_label": "stage_valuation_mismatch",
+      "direction": "negative",
+      "salience": "secondary",
+      "confidence": 0.99,
+      "utterance_type": "question",
+      "decision_link": "none",
+      "timing": "original_pitch",
+      "turn_index": 57,
+      "quote": "How’d you come to a $10 million cap when you’re doing 25,000 a month in revenue?",
+      "explanation": "Phil questions whether the requested cap is justified by the company's current revenue stage.",
+      "evidence": [
+        "How’d you come to a $10 million cap when you’re doing 25,000 a month in revenue?"
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 57,
+          "speaker": "Phil",
+          "quote": "How’d you come to a $10 million cap when you’re doing 25,000 a month in revenue?"
+        }
+      ],
+      "activation": "queried",
+      "source_rationale_id": "R5"
+    },
+    {
+      "rationale_label": "stage_valuation_mismatch",
+      "direction": "negative",
+      "salience": "primary",
+      "confidence": 0.99,
+      "utterance_type": "assessment",
+      "decision_link": "none",
+      "timing": "original_pitch",
+      "turn_index": 60,
+      "quote": "a 10 million cap is just way high.",
+      "explanation": "Phil assesses the proposed cap as materially above market for a company at this revenue level.",
+      "evidence": [
+        "a 10 million cap is just way high."
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 60,
+          "speaker": "Phil",
+          "quote": "a 10 million cap is just way high."
+        }
+      ],
+      "activation": "evaluated",
+      "source_rationale_id": "R6"
+    },
+    {
+      "rationale_label": "stage_valuation_mismatch",
+      "direction": "negative",
+      "salience": "primary",
+      "confidence": 0.98,
+      "utterance_type": "assessment",
+      "decision_link": "none",
+      "timing": "original_pitch",
+      "turn_index": 62,
+      "quote": "that’s what’s closer to market for sure. 5 million cap.",
+      "explanation": "Phil says a substantially lower cap would better match prevailing market terms.",
+      "evidence": [
+        "that’s what’s closer to market for sure. 5 million cap."
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 62,
+          "speaker": "Phil",
+          "quote": "that’s what’s closer to market for sure. 5 million cap."
+        }
+      ],
+      "activation": "evaluated",
+      "source_rationale_id": "R7"
+    },
+    {
+      "rationale_label": "stage_valuation_mismatch",
+      "direction": "negative",
+      "salience": "primary",
+      "confidence": 0.94,
+      "utterance_type": "assessment",
+      "decision_link": "none",
+      "timing": "original_pitch",
+      "turn_index": 65,
+      "quote": "I still don’t think it’s the right thing for the company in terms of long term.",
+      "explanation": "Phil believes raising at the proposed higher cap would be unfavorable for the company's long-term financing position.",
+      "evidence": [
+        "I still don’t think it’s the right thing for the company in terms of long term."
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 65,
+          "speaker": "Phil",
+          "quote": "I still don’t think it’s the right thing for the company in terms of long term."
+        }
+      ],
+      "activation": "evaluated",
+      "source_rationale_id": "R8"
+    },
+    {
+      "rationale_label": "stage_valuation_mismatch",
+      "direction": "positive",
+      "salience": "primary",
+      "confidence": 0.99,
+      "utterance_type": "decision_explanation",
+      "decision_link": "supports_in",
+      "timing": "original_pitch",
+      "turn_index": 68,
+      "quote": "I would invest at 5 or even 6.",
+      "explanation": "Phil explicitly makes a lower valuation cap sufficient for him to invest.",
+      "evidence": [
+        "I would invest at 5 or even 6."
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 68,
+          "speaker": "Phil",
+          "quote": "I would invest at 5 or even 6."
+        }
+      ],
+      "activation": "evaluated",
+      "source_rationale_id": "R9"
+    },
+    {
+      "rationale_label": "stage_valuation_mismatch",
+      "direction": "negative",
+      "salience": "primary",
+      "confidence": 0.99,
+      "utterance_type": "decision_explanation",
+      "decision_link": "supports_out",
+      "timing": "original_pitch",
+      "turn_index": 70,
+      "quote": "I don’t think I’d go beyond that.",
+      "explanation": "Phil states that he would decline to invest above his specified valuation ceiling.",
+      "evidence": [
+        "I don’t think I’d go beyond that."
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 70,
+          "speaker": "Phil",
+          "quote": "I don’t think I’d go beyond that."
+        }
+      ],
+      "activation": "evaluated",
+      "source_rationale_id": "R10"
+    },
+    {
+      "rationale_label": "founder_qualities",
+      "direction": "positive",
+      "salience": "primary",
+      "confidence": 0.98,
+      "utterance_type": "decision_explanation",
+      "decision_link": "supports_in",
+      "timing": "original_pitch",
+      "turn_index": 91,
+      "quote": "I have a really good feeling about you.",
+      "explanation": "Phil identifies his favorable personal assessment of Margot as part of his investment decision.",
+      "evidence": [
+        "I have a really good feeling about you."
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 91,
+          "speaker": "Phil",
+          "quote": "I have a really good feeling about you."
+        }
+      ],
+      "activation": "evaluated",
+      "source_rationale_id": "R11"
+    },
+    {
+      "rationale_label": "market_problem_validation",
+      "direction": "positive",
+      "salience": "primary",
+      "confidence": 0.99,
+      "utterance_type": "decision_explanation",
+      "decision_link": "supports_in",
+      "timing": "original_pitch",
+      "turn_index": 91,
+      "quote": "I always look for founders who are solving a real pain point, and I think that's what you're doing.",
+      "explanation": "Phil believes Hostfully addresses a genuine customer pain point, supporting his willingness to invest.",
+      "evidence": [
+        "I always look for founders who are solving a real pain point, and I think that's what you're doing."
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 91,
+          "speaker": "Phil",
+          "quote": "I always look for founders who are solving a real pain point, and I think that's what you're doing."
+        }
+      ],
+      "activation": "evaluated",
+      "source_rationale_id": "R12"
+    },
+    {
+      "rationale_label": "market_size_assessment",
+      "direction": "positive",
+      "salience": "primary",
+      "confidence": 0.99,
+      "utterance_type": "decision_explanation",
+      "decision_link": "supports_in",
+      "timing": "original_pitch",
+      "turn_index": 91,
+      "quote": "it's a huge market and it can probably support a few companies doing the same thing.",
+      "explanation": "Phil believes the market is large enough to sustain Hostfully despite the presence of direct competitors.",
+      "evidence": [
+        "it's a huge market and it can probably support a few companies doing the same thing."
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 91,
+          "speaker": "Phil",
+          "quote": "it's a huge market and it can probably support a few companies doing the same thing."
+        }
+      ],
+      "activation": "evaluated",
+      "source_rationale_id": "R13"
+    },
+    {
+      "rationale_label": "stage_valuation_mismatch",
+      "direction": "negative",
+      "salience": "primary",
+      "confidence": 0.99,
+      "utterance_type": "decision_explanation",
+      "decision_link": "supports_in",
+      "timing": "original_pitch",
+      "turn_index": 91,
+      "quote": "Seven cap, which you said you would do, or seven price round, either way is certainly at the very high end of where I would go.",
+      "explanation": "Phil makes the seven-million valuation the upper boundary of his conditional investment commitment.",
+      "evidence": [
+        "Seven cap, which you said you would do, or seven price round, either way is certainly at the very high end of where I would go."
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 91,
+          "speaker": "Phil",
+          "quote": "Seven cap, which you said you would do, or seven price round, either way is certainly at the very high end of where I would go."
+        }
+      ],
+      "activation": "evaluated",
+      "source_rationale_id": "R14"
+    },
+    {
+      "rationale_label": "founder_qualities",
+      "direction": "positive",
+      "salience": "secondary",
+      "confidence": 0.91,
+      "utterance_type": "assessment",
+      "decision_link": "none",
+      "timing": "original_pitch",
+      "turn_index": 119,
+      "quote": "she's really good.",
+      "explanation": "During the immediate investor debrief, Phil gives a positive overall assessment of Margot.",
+      "evidence": [
+        "she's really good."
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 119,
+          "speaker": "Phil",
+          "quote": "she's really good."
+        }
+      ],
+      "activation": "evaluated",
+      "source_rationale_id": "R15"
+    },
+    {
+      "rationale_label": "founder_skillset",
+      "direction": "positive",
+      "salience": "secondary",
+      "confidence": 0.91,
+      "utterance_type": "assessment",
+      "decision_link": "none",
+      "timing": "original_pitch",
+      "turn_index": 120,
+      "quote": "She has great experience.",
+      "explanation": "Phil positively assesses the experience Margot brings to building the company.",
+      "evidence": [
+        "She has great experience."
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 120,
+          "speaker": "Phil",
+          "quote": "She has great experience."
+        }
+      ],
+      "activation": "evaluated",
+      "source_rationale_id": "R16"
+    },
+    {
+      "rationale_label": "founder_qualities",
+      "direction": "positive",
+      "salience": "secondary",
+      "confidence": 0.97,
+      "utterance_type": "assessment",
+      "decision_link": "none",
+      "timing": "original_pitch",
+      "turn_index": 120,
+      "quote": "She's sharp.",
+      "explanation": "Phil identifies Margot's intellectual capability as a positive founder trait.",
+      "evidence": [
+        "She's sharp."
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 120,
+          "speaker": "Phil",
+          "quote": "She's sharp."
+        }
+      ],
+      "activation": "evaluated",
+      "source_rationale_id": "R17"
+    },
+    {
+      "rationale_label": "founder_communication_quality",
+      "direction": "positive",
+      "salience": "secondary",
+      "confidence": 0.86,
+      "utterance_type": "assessment",
+      "decision_link": "none",
+      "timing": "original_pitch",
+      "turn_index": 122,
+      "quote": "She was just talking.",
+      "explanation": "In context, Phil favorably characterizes Margot's pitch as natural and conversational.",
+      "evidence": [
+        "She was just talking."
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 122,
+          "speaker": "Phil",
+          "quote": "She was just talking."
+        }
+      ],
+      "activation": "evaluated",
+      "source_rationale_id": "R18"
+    },
+    {
+      "rationale_label": "founder_communication_quality",
+      "direction": "positive",
+      "salience": "secondary",
+      "confidence": 0.98,
+      "utterance_type": "assessment",
+      "decision_link": "none",
+      "timing": "original_pitch",
+      "turn_index": 125,
+      "quote": "She was just telling the story and it sounded very good.",
+      "explanation": "Phil praises the natural and effective storytelling in Margot's presentation.",
+      "evidence": [
+        "She was just telling the story and it sounded very good."
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 125,
+          "speaker": "Phil",
+          "quote": "She was just telling the story and it sounded very good."
+        }
+      ],
+      "activation": "evaluated",
+      "source_rationale_id": "R19"
+    },
+    {
+      "rationale_label": "founder_qualities",
+      "direction": "positive",
+      "salience": "secondary",
+      "confidence": 0.98,
+      "utterance_type": "assessment",
+      "decision_link": "none",
+      "timing": "original_pitch",
+      "turn_index": 128,
+      "quote": "she's very self-aware, which I like too.",
+      "explanation": "Phil values Margot's self-awareness as a positive founder trait.",
+      "evidence": [
+        "she's very self-aware, which I like too."
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 128,
+          "speaker": "Phil",
+          "quote": "she's very self-aware, which I like too."
+        }
+      ],
+      "activation": "evaluated",
+      "source_rationale_id": "R20"
+    }
+  ],
+  "expanded_quote_evidence": [],
+  "rejected_after_evidence_check": []
+}

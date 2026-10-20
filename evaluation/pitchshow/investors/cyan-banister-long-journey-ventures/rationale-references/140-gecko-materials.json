@@ -1,0 +1,1134 @@
+{
+  "schema": "phase1-rationale-reference-v1",
+  "extraction_version": "pitchshow-rationales-v1",
+  "fingerprint": "f78c1375833d1cee893d6ee100a7f25764e40f8f96e828347106761f4c622ea8",
+  "episode_slug": "140-gecko-materials",
+  "vc_slug": "cyan-banister-long-journey-ventures",
+  "vc_name": "Cyan Banister",
+  "actual_decision": "Out",
+  "later_decision": "Unknown",
+  "reference_kind": "automated_transcript_observed_candidate",
+  "human_validated": false,
+  "source_format": "transcript-observed-rationales-v1",
+  "source_path": "../source/episodes/140-gecko-materials.json",
+  "source_sha256": "6f93a820ac9ea7d7711259d0f165d4232f318e7ed3a0805e04b9aa0021ae8775",
+  "transcript_sha256": "7137c27df00175a7db486bd330450ce36b44845cb6ad1d329648bb8b13d65508",
+  "taxonomy_sha256": "eaa8734819a3ac34dd19ee5f0bf6de925a793a1d25a2d361090dafc9b751e1fc",
+  "model": "openai/gpt-5.6-luna",
+  "source_tier": "newly_extracted_and_independently_model_reviewed",
+  "reviewed_target_turns": [
+    10,
+    20,
+    22,
+    24,
+    26,
+    47,
+    49,
+    51,
+    53,
+    55,
+    57,
+    60,
+    64,
+    70,
+    72,
+    74,
+    89,
+    91,
+    93,
+    95,
+    96,
+    99,
+    101,
+    103,
+    105,
+    107,
+    110,
+    112,
+    114,
+    117,
+    121,
+    123,
+    125,
+    127,
+    130,
+    134,
+    136,
+    141,
+    146,
+    152,
+    154,
+    158,
+    160,
+    162,
+    165
+  ],
+  "notes": "Reviewed every supplied Cyan Banister target turn. All retained evidence quotes come from the target's attributed_text; turns containing only reactions, confirmations, logistics, or narration were omitted.",
+  "receipt_path": "receipts/140-gecko-materials.json",
+  "scoring_scope": "original_pitch_only",
+  "shared_across_input_modes": true,
+  "rationales": [
+    {
+      "rationale_label": "decision_context_constraint",
+      "direction": "negative",
+      "salience": "primary",
+      "confidence": 0.98,
+      "utterance_type": "decision_reason",
+      "decision_link": "explicit",
+      "timing": "original_pitch",
+      "turn_index": 125,
+      "quote": "I can't even remotely commit even as an angel with all of these unknowns.",
+      "explanation": "She explicitly withholds commitment because the pitch leaves too many issues requiring diligence unresolved.",
+      "evidence": [
+        "This is a very difficult one to get to on a podcast.",
+        "I can't even remotely commit even as an angel with all of these unknowns."
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 123,
+          "speaker": "Cyan",
+          "quote": "This is a very difficult one to get to on a podcast."
+        },
+        {
+          "turn_index": 125,
+          "speaker": "Cyan",
+          "quote": "I can't even remotely commit even as an angel with all of these unknowns."
+        }
+      ],
+      "activation": "evaluated",
+      "source_rationale_id": "R22",
+      "utterance_kind": "decision_explanation",
+      "decision_support": "supports_out",
+      "all_mention_ids": [
+        "R21",
+        "R22"
+      ]
+    },
+    {
+      "rationale_label": "fundraising_demand_signal",
+      "direction": "positive",
+      "salience": "secondary",
+      "confidence": 0.95,
+      "utterance_type": "assessment",
+      "decision_link": "none",
+      "timing": "original_pitch",
+      "turn_index": 127,
+      "quote": "a lot of my LPs, if all of it checked out, would take the whole thing",
+      "explanation": "Cyan believes relevant LPs could provide substantial financing if diligence confirms the opportunity.",
+      "evidence": [
+        "a lot of my LPs, if all of it checked out, would take the whole thing"
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 127,
+          "speaker": "Cyan",
+          "quote": "a lot of my LPs, if all of it checked out, would take the whole thing"
+        }
+      ],
+      "activation": "evaluated",
+      "source_rationale_id": "R23",
+      "utterance_kind": "supporting_argument",
+      "decision_support": "none",
+      "all_mention_ids": [
+        "R23"
+      ]
+    },
+    {
+      "rationale_label": "investment_thesis_constraint",
+      "direction": "negative",
+      "salience": "primary",
+      "confidence": 0.96,
+      "utterance_type": "decision_reason",
+      "decision_link": "explicit",
+      "timing": "original_pitch",
+      "turn_index": 91,
+      "quote": "we do software mostly",
+      "explanation": "Cyan identifies her firm's predominantly software-focused mandate as a constraint on investing in this hardware company.",
+      "evidence": [
+        "it's a lot later stage than what I invest in and what my firm invest in",
+        "we do software mostly",
+        "they're just a different category of investor and they invest in different things"
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 70,
+          "speaker": "Cyan",
+          "quote": "it's a lot later stage than what I invest in and what my firm invest in"
+        },
+        {
+          "turn_index": 91,
+          "speaker": "Cyan",
+          "quote": "we do software mostly"
+        },
+        {
+          "turn_index": 130,
+          "speaker": "Cyan",
+          "quote": "they're just a different category of investor and they invest in different things"
+        }
+      ],
+      "activation": "evaluated",
+      "source_rationale_id": "R15",
+      "utterance_kind": "decision_explanation",
+      "decision_support": "supports_out",
+      "all_mention_ids": [
+        "R9",
+        "R15",
+        "R24"
+      ]
+    },
+    {
+      "rationale_label": "investment_upside_assessment",
+      "direction": "positive",
+      "salience": "primary",
+      "confidence": 0.95,
+      "utterance_type": "assessment",
+      "decision_link": "none",
+      "timing": "original_pitch",
+      "turn_index": 93,
+      "quote": "you could be a SpaceX-like company",
+      "explanation": "Cyan compares the company's potential to an exceptionally large and valuable technology business.",
+      "evidence": [
+        "this could be a fund returner",
+        "you could be a SpaceX-like company"
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 91,
+          "speaker": "Cyan",
+          "quote": "this could be a fund returner"
+        },
+        {
+          "turn_index": 93,
+          "speaker": "Cyan",
+          "quote": "you could be a SpaceX-like company"
+        }
+      ],
+      "activation": "evaluated",
+      "source_rationale_id": "R16",
+      "utterance_kind": "assessment",
+      "decision_support": "none",
+      "all_mention_ids": [
+        "R14",
+        "R16"
+      ]
+    },
+    {
+      "rationale_label": "investor_value_add_fit",
+      "direction": "positive",
+      "salience": "secondary",
+      "confidence": 0.94,
+      "utterance_type": "decision_reason",
+      "decision_link": "none",
+      "timing": "original_pitch",
+      "turn_index": 93,
+      "quote": "we wanna get you to the right people",
+      "explanation": "She positions herself as able to direct the opportunity toward more suitable investors.",
+      "evidence": [
+        "I would like to send it to them as an opportunity",
+        "I would love to send it to all of our robotics companies",
+        "we wanna get you to the right people"
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 70,
+          "speaker": "Cyan",
+          "quote": "I would like to send it to them as an opportunity"
+        },
+        {
+          "turn_index": 72,
+          "speaker": "Cyan",
+          "quote": "I would love to send it to all of our robotics companies"
+        },
+        {
+          "turn_index": 93,
+          "speaker": "Cyan",
+          "quote": "we wanna get you to the right people"
+        }
+      ],
+      "activation": "evaluated",
+      "source_rationale_id": "R17",
+      "utterance_kind": "decision_explanation",
+      "decision_support": "none",
+      "all_mention_ids": [
+        "R10",
+        "R11",
+        "R17"
+      ]
+    },
+    {
+      "rationale_label": "market_entry_path_assessment",
+      "direction": "positive",
+      "salience": "secondary",
+      "confidence": 0.94,
+      "utterance_type": "assessment",
+      "decision_link": "none",
+      "timing": "original_pitch",
+      "turn_index": 154,
+      "quote": "this is the killer use case",
+      "explanation": "Cyan identifies window-climbing robots as a particularly compelling use case for the technology.",
+      "evidence": [
+        "The application I'm thinking of this is for magicians.",
+        "this would be really incredible for that industry",
+        "I want to put it in front of a magician",
+        "a good strip that I can show my magician friends",
+        "this is the killer use case"
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 51,
+          "speaker": "Cyan",
+          "quote": "The application I'm thinking of this is for magicians."
+        },
+        {
+          "turn_index": 53,
+          "speaker": "Cyan",
+          "quote": "The application I'm thinking of this is for magicians."
+        },
+        {
+          "turn_index": 55,
+          "speaker": "Cyan",
+          "quote": "this would be really incredible for that industry"
+        },
+        {
+          "turn_index": 57,
+          "speaker": "Cyan",
+          "quote": "I want to put it in front of a magician"
+        },
+        {
+          "turn_index": 101,
+          "speaker": "Cyan",
+          "quote": "a good strip that I can show my magician friends"
+        },
+        {
+          "turn_index": 154,
+          "speaker": "Cyan",
+          "quote": "this is the killer use case"
+        }
+      ],
+      "activation": "evaluated",
+      "source_rationale_id": "R25",
+      "utterance_kind": "assessment",
+      "decision_support": "none",
+      "all_mention_ids": [
+        "R3",
+        "R4",
+        "R5",
+        "R6",
+        "R19",
+        "R25"
+      ]
+    },
+    {
+      "rationale_label": "market_size_assessment",
+      "direction": "positive",
+      "salience": "secondary",
+      "confidence": 0.94,
+      "utterance_type": "assessment",
+      "decision_link": "none",
+      "timing": "original_pitch",
+      "turn_index": 160,
+      "quote": "there's just so many entrepreneurs are going to see this and come up with use cases that she can't even dream of",
+      "explanation": "She expects many additional use cases to emerge beyond those currently identified by the founder.",
+      "evidence": [
+        "there's just a lot of applications for this outside of",
+        "you're really onto something that is universally applicable",
+        "there's just so many entrepreneurs are going to see this and come up with use cases that she can't even dream of"
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 60,
+          "speaker": "Cyan",
+          "quote": "there's just a lot of applications for this outside of"
+        },
+        {
+          "turn_index": 72,
+          "speaker": "Cyan",
+          "quote": "you're really onto something that is universally applicable"
+        },
+        {
+          "turn_index": 160,
+          "speaker": "Cyan",
+          "quote": "there's just so many entrepreneurs are going to see this and come up with use cases that she can't even dream of"
+        }
+      ],
+      "activation": "evaluated",
+      "source_rationale_id": "R26",
+      "utterance_kind": "supporting_argument",
+      "decision_support": "none",
+      "all_mention_ids": [
+        "R7",
+        "R12",
+        "R26"
+      ]
+    },
+    {
+      "rationale_label": "product_appeal_assessment",
+      "direction": "positive",
+      "salience": "secondary",
+      "confidence": 0.97,
+      "utterance_type": "assessment",
+      "decision_link": "none",
+      "timing": "original_pitch",
+      "turn_index": 103,
+      "quote": "I'll buy a thousand dollars today.",
+      "explanation": "Cyan states a specific immediate purchase amount, indicating strong personal product appeal.",
+      "evidence": [
+        "I would like to buy one today.",
+        "I think this could be like a Gore-Tex.",
+        "I would Venmo you today if I could actually have a strip today",
+        "I'll buy a thousand dollars today."
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 47,
+          "speaker": "Cyan",
+          "quote": "I would like to buy one today."
+        },
+        {
+          "turn_index": 89,
+          "speaker": "Cyan",
+          "quote": "I think this could be like a Gore-Tex."
+        },
+        {
+          "turn_index": 99,
+          "speaker": "Cyan",
+          "quote": "I would Venmo you today if I could actually have a strip today"
+        },
+        {
+          "turn_index": 103,
+          "speaker": "Cyan",
+          "quote": "I'll buy a thousand dollars today."
+        }
+      ],
+      "activation": "evaluated",
+      "source_rationale_id": "R20",
+      "utterance_kind": "supporting_argument",
+      "decision_support": "none",
+      "all_mention_ids": [
+        "R2",
+        "R13",
+        "R18",
+        "R20"
+      ]
+    },
+    {
+      "rationale_label": "product_success_factor_assessment",
+      "direction": "positive",
+      "salience": "secondary",
+      "confidence": 0.88,
+      "utterance_type": "assessment",
+      "decision_link": "none",
+      "timing": "original_pitch",
+      "turn_index": 162,
+      "quote": "It's a platform.",
+      "explanation": "Cyan characterizes the technology as a platform capable of supporting multiple applications.",
+      "evidence": [
+        "It's a platform."
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 162,
+          "speaker": "Cyan",
+          "quote": "It's a platform."
+        }
+      ],
+      "activation": "evaluated",
+      "source_rationale_id": "R27",
+      "utterance_kind": "assessment",
+      "decision_support": "none",
+      "all_mention_ids": [
+        "R27"
+      ]
+    },
+    {
+      "rationale_label": "solution_feasibility_assessment",
+      "direction": "neutral",
+      "salience": "secondary",
+      "confidence": 0.98,
+      "utterance_type": "question",
+      "decision_link": "none",
+      "timing": "original_pitch",
+      "turn_index": 64,
+      "quote": "How does it deal with water?",
+      "explanation": "Cyan asks how the solution performs in a specific operating environment.",
+      "evidence": [
+        "Is it like porous on the surface?",
+        "How does it deal with water?"
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 20,
+          "speaker": "Cyan",
+          "quote": "Is it like porous on the surface?"
+        },
+        {
+          "turn_index": 64,
+          "speaker": "Cyan",
+          "quote": "How does it deal with water?"
+        }
+      ],
+      "activation": "queried",
+      "source_rationale_id": "R8",
+      "utterance_kind": "question",
+      "decision_support": "none",
+      "all_mention_ids": [
+        "R1",
+        "R8"
+      ]
+    }
+  ],
+  "later_rationales": [],
+  "excluded_rationales": [],
+  "rationale_mentions": [
+    {
+      "rationale_label": "solution_feasibility_assessment",
+      "direction": "neutral",
+      "salience": "secondary",
+      "confidence": 0.98,
+      "utterance_type": "question",
+      "decision_link": "none",
+      "timing": "original_pitch",
+      "turn_index": 20,
+      "quote": "Is it like porous on the surface?",
+      "explanation": "Cyan asks about the adhesive's surface construction, a technical aspect of solution feasibility.",
+      "evidence": [
+        "Is it like porous on the surface?"
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 20,
+          "speaker": "Cyan",
+          "quote": "Is it like porous on the surface?"
+        }
+      ],
+      "activation": "queried",
+      "source_rationale_id": "R1"
+    },
+    {
+      "rationale_label": "product_appeal_assessment",
+      "direction": "positive",
+      "salience": "secondary",
+      "confidence": 0.96,
+      "utterance_type": "supporting_argument",
+      "decision_link": "none",
+      "timing": "original_pitch",
+      "turn_index": 47,
+      "quote": "I would like to buy one today.",
+      "explanation": "Her immediate willingness to purchase indicates strong personal appeal of the product.",
+      "evidence": [
+        "I would like to buy one today."
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 47,
+          "speaker": "Cyan",
+          "quote": "I would like to buy one today."
+        }
+      ],
+      "activation": "evaluated",
+      "source_rationale_id": "R2"
+    },
+    {
+      "rationale_label": "market_entry_path_assessment",
+      "direction": "positive",
+      "salience": "secondary",
+      "confidence": 0.84,
+      "utterance_type": "supporting_argument",
+      "decision_link": "none",
+      "timing": "original_pitch",
+      "turn_index": 51,
+      "quote": "The application I'm thinking of this is for magicians.",
+      "explanation": "Cyan identifies magicians as a potential initial application and customer segment.",
+      "evidence": [
+        "The application I'm thinking of this is for magicians."
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 51,
+          "speaker": "Cyan",
+          "quote": "The application I'm thinking of this is for magicians."
+        }
+      ],
+      "activation": "evaluated",
+      "source_rationale_id": "R3"
+    },
+    {
+      "rationale_label": "market_entry_path_assessment",
+      "direction": "positive",
+      "salience": "secondary",
+      "confidence": 0.84,
+      "utterance_type": "supporting_argument",
+      "decision_link": "none",
+      "timing": "original_pitch",
+      "turn_index": 53,
+      "quote": "The application I'm thinking of this is for magicians.",
+      "explanation": "Cyan repeats her proposed magician use case, retaining the substantive repeated market-entry rationale.",
+      "evidence": [
+        "The application I'm thinking of this is for magicians."
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 53,
+          "speaker": "Cyan",
+          "quote": "The application I'm thinking of this is for magicians."
+        }
+      ],
+      "activation": "evaluated",
+      "source_rationale_id": "R4"
+    },
+    {
+      "rationale_label": "market_entry_path_assessment",
+      "direction": "positive",
+      "salience": "secondary",
+      "confidence": 0.9,
+      "utterance_type": "supporting_argument",
+      "decision_link": "none",
+      "timing": "original_pitch",
+      "turn_index": 55,
+      "quote": "this would be really incredible for that industry",
+      "explanation": "She views the magician industry as an especially compelling application segment.",
+      "evidence": [
+        "this would be really incredible for that industry"
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 55,
+          "speaker": "Cyan",
+          "quote": "this would be really incredible for that industry"
+        }
+      ],
+      "activation": "evaluated",
+      "source_rationale_id": "R5"
+    },
+    {
+      "rationale_label": "market_entry_path_assessment",
+      "direction": "positive",
+      "salience": "secondary",
+      "confidence": 0.86,
+      "utterance_type": "supporting_argument",
+      "decision_link": "none",
+      "timing": "original_pitch",
+      "turn_index": 57,
+      "quote": "I want to put it in front of a magician",
+      "explanation": "Cyan indicates that the proposed segment is reachable through a concrete potential user.",
+      "evidence": [
+        "I want to put it in front of a magician"
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 57,
+          "speaker": "Cyan",
+          "quote": "I want to put it in front of a magician"
+        }
+      ],
+      "activation": "evaluated",
+      "source_rationale_id": "R6"
+    },
+    {
+      "rationale_label": "market_size_assessment",
+      "direction": "positive",
+      "salience": "secondary",
+      "confidence": 0.9,
+      "utterance_type": "supporting_argument",
+      "decision_link": "none",
+      "timing": "original_pitch",
+      "turn_index": 60,
+      "quote": "there's just a lot of applications for this outside of",
+      "explanation": "She points to substantial applicability beyond the initially discussed stage use case.",
+      "evidence": [
+        "there's just a lot of applications for this outside of"
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 60,
+          "speaker": "Cyan",
+          "quote": "there's just a lot of applications for this outside of"
+        }
+      ],
+      "activation": "evaluated",
+      "source_rationale_id": "R7"
+    },
+    {
+      "rationale_label": "solution_feasibility_assessment",
+      "direction": "neutral",
+      "salience": "secondary",
+      "confidence": 0.98,
+      "utterance_type": "question",
+      "decision_link": "none",
+      "timing": "original_pitch",
+      "turn_index": 64,
+      "quote": "How does it deal with water?",
+      "explanation": "Cyan asks how the solution performs in a specific operating environment.",
+      "evidence": [
+        "How does it deal with water?"
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 64,
+          "speaker": "Cyan",
+          "quote": "How does it deal with water?"
+        }
+      ],
+      "activation": "queried",
+      "source_rationale_id": "R8"
+    },
+    {
+      "rationale_label": "investment_thesis_constraint",
+      "direction": "negative",
+      "salience": "primary",
+      "confidence": 0.99,
+      "utterance_type": "decision_explanation",
+      "decision_link": "supports_out",
+      "timing": "original_pitch",
+      "turn_index": 70,
+      "quote": "it's a lot later stage than what I invest in and what my firm invest in",
+      "explanation": "Cyan explicitly says the company's stage falls outside her and her firm's investment focus.",
+      "evidence": [
+        "it's a lot later stage than what I invest in and what my firm invest in"
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 70,
+          "speaker": "Cyan",
+          "quote": "it's a lot later stage than what I invest in and what my firm invest in"
+        }
+      ],
+      "activation": "evaluated",
+      "source_rationale_id": "R9"
+    },
+    {
+      "rationale_label": "investor_value_add_fit",
+      "direction": "positive",
+      "salience": "secondary",
+      "confidence": 0.97,
+      "utterance_type": "supporting_argument",
+      "decision_link": "none",
+      "timing": "original_pitch",
+      "turn_index": 70,
+      "quote": "I would like to send it to them as an opportunity",
+      "explanation": "She offers to refer the opportunity to family offices and LPs that may be better suited to invest.",
+      "evidence": [
+        "I would like to send it to them as an opportunity"
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 70,
+          "speaker": "Cyan",
+          "quote": "I would like to send it to them as an opportunity"
+        }
+      ],
+      "activation": "evaluated",
+      "source_rationale_id": "R10"
+    },
+    {
+      "rationale_label": "investor_value_add_fit",
+      "direction": "positive",
+      "salience": "secondary",
+      "confidence": 0.96,
+      "utterance_type": "supporting_argument",
+      "decision_link": "none",
+      "timing": "original_pitch",
+      "turn_index": 72,
+      "quote": "I would love to send it to all of our robotics companies",
+      "explanation": "Cyan offers access to portfolio companies that could become customers.",
+      "evidence": [
+        "I would love to send it to all of our robotics companies"
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 72,
+          "speaker": "Cyan",
+          "quote": "I would love to send it to all of our robotics companies"
+        }
+      ],
+      "activation": "evaluated",
+      "source_rationale_id": "R11"
+    },
+    {
+      "rationale_label": "market_size_assessment",
+      "direction": "positive",
+      "salience": "secondary",
+      "confidence": 0.95,
+      "utterance_type": "supporting_argument",
+      "decision_link": "none",
+      "timing": "original_pitch",
+      "turn_index": 72,
+      "quote": "you're really onto something that is universally applicable",
+      "explanation": "She assesses the product as applicable across many settings, implying broad market potential.",
+      "evidence": [
+        "you're really onto something that is universally applicable"
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 72,
+          "speaker": "Cyan",
+          "quote": "you're really onto something that is universally applicable"
+        }
+      ],
+      "activation": "evaluated",
+      "source_rationale_id": "R12"
+    },
+    {
+      "rationale_label": "product_appeal_assessment",
+      "direction": "positive",
+      "salience": "secondary",
+      "confidence": 0.88,
+      "utterance_type": "assessment",
+      "decision_link": "none",
+      "timing": "original_pitch",
+      "turn_index": 89,
+      "quote": "I think this could be like a Gore-Tex.",
+      "explanation": "Cyan favorably compares the opportunity with a widely recognized and successful materials brand.",
+      "evidence": [
+        "I think this could be like a Gore-Tex."
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 89,
+          "speaker": "Cyan",
+          "quote": "I think this could be like a Gore-Tex."
+        }
+      ],
+      "activation": "evaluated",
+      "source_rationale_id": "R13"
+    },
+    {
+      "rationale_label": "investment_upside_assessment",
+      "direction": "positive",
+      "salience": "primary",
+      "confidence": 0.97,
+      "utterance_type": "assessment",
+      "decision_link": "none",
+      "timing": "original_pitch",
+      "turn_index": 91,
+      "quote": "this could be a fund returner",
+      "explanation": "She sees potential for the company to generate a highly significant return for an investing fund.",
+      "evidence": [
+        "this could be a fund returner"
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 91,
+          "speaker": "Cyan",
+          "quote": "this could be a fund returner"
+        }
+      ],
+      "activation": "evaluated",
+      "source_rationale_id": "R14"
+    },
+    {
+      "rationale_label": "investment_thesis_constraint",
+      "direction": "negative",
+      "salience": "primary",
+      "confidence": 0.96,
+      "utterance_type": "decision_explanation",
+      "decision_link": "supports_out",
+      "timing": "original_pitch",
+      "turn_index": 91,
+      "quote": "we do software mostly",
+      "explanation": "Cyan identifies her firm's predominantly software-focused mandate as a constraint on investing in this hardware company.",
+      "evidence": [
+        "we do software mostly"
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 91,
+          "speaker": "Cyan",
+          "quote": "we do software mostly"
+        }
+      ],
+      "activation": "evaluated",
+      "source_rationale_id": "R15"
+    },
+    {
+      "rationale_label": "investment_upside_assessment",
+      "direction": "positive",
+      "salience": "primary",
+      "confidence": 0.95,
+      "utterance_type": "assessment",
+      "decision_link": "none",
+      "timing": "original_pitch",
+      "turn_index": 93,
+      "quote": "you could be a SpaceX-like company",
+      "explanation": "Cyan compares the company's potential to an exceptionally large and valuable technology business.",
+      "evidence": [
+        "you could be a SpaceX-like company"
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 93,
+          "speaker": "Cyan",
+          "quote": "you could be a SpaceX-like company"
+        }
+      ],
+      "activation": "evaluated",
+      "source_rationale_id": "R16"
+    },
+    {
+      "rationale_label": "investor_value_add_fit",
+      "direction": "positive",
+      "salience": "secondary",
+      "confidence": 0.94,
+      "utterance_type": "decision_explanation",
+      "decision_link": "none",
+      "timing": "original_pitch",
+      "turn_index": 93,
+      "quote": "we wanna get you to the right people",
+      "explanation": "She positions herself as able to direct the opportunity toward more suitable investors.",
+      "evidence": [
+        "we wanna get you to the right people"
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 93,
+          "speaker": "Cyan",
+          "quote": "we wanna get you to the right people"
+        }
+      ],
+      "activation": "evaluated",
+      "source_rationale_id": "R17"
+    },
+    {
+      "rationale_label": "product_appeal_assessment",
+      "direction": "positive",
+      "salience": "secondary",
+      "confidence": 0.96,
+      "utterance_type": "supporting_argument",
+      "decision_link": "none",
+      "timing": "original_pitch",
+      "turn_index": 99,
+      "quote": "I would Venmo you today if I could actually have a strip today",
+      "explanation": "Cyan reiterates a concrete willingness to pay for the product herself.",
+      "evidence": [
+        "I would Venmo you today if I could actually have a strip today"
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 99,
+          "speaker": "Cyan",
+          "quote": "I would Venmo you today if I could actually have a strip today"
+        }
+      ],
+      "activation": "evaluated",
+      "source_rationale_id": "R18"
+    },
+    {
+      "rationale_label": "market_entry_path_assessment",
+      "direction": "positive",
+      "salience": "secondary",
+      "confidence": 0.86,
+      "utterance_type": "supporting_argument",
+      "decision_link": "none",
+      "timing": "original_pitch",
+      "turn_index": 101,
+      "quote": "a good strip that I can show my magician friends",
+      "explanation": "She identifies accessible magician contacts as potential users for evaluating or demonstrating the product.",
+      "evidence": [
+        "a good strip that I can show my magician friends"
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 101,
+          "speaker": "Cyan",
+          "quote": "a good strip that I can show my magician friends"
+        }
+      ],
+      "activation": "evaluated",
+      "source_rationale_id": "R19"
+    },
+    {
+      "rationale_label": "product_appeal_assessment",
+      "direction": "positive",
+      "salience": "secondary",
+      "confidence": 0.97,
+      "utterance_type": "supporting_argument",
+      "decision_link": "none",
+      "timing": "original_pitch",
+      "turn_index": 103,
+      "quote": "I'll buy a thousand dollars today.",
+      "explanation": "Cyan states a specific immediate purchase amount, indicating strong personal product appeal.",
+      "evidence": [
+        "I'll buy a thousand dollars today."
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 103,
+          "speaker": "Cyan",
+          "quote": "I'll buy a thousand dollars today."
+        }
+      ],
+      "activation": "evaluated",
+      "source_rationale_id": "R20"
+    },
+    {
+      "rationale_label": "decision_context_constraint",
+      "direction": "negative",
+      "salience": "secondary",
+      "confidence": 0.93,
+      "utterance_type": "assessment",
+      "decision_link": "none",
+      "timing": "original_pitch",
+      "turn_index": 123,
+      "quote": "This is a very difficult one to get to on a podcast.",
+      "explanation": "Cyan says the podcast setting makes this opportunity unusually difficult to assess.",
+      "evidence": [
+        "This is a very difficult one to get to on a podcast."
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 123,
+          "speaker": "Cyan",
+          "quote": "This is a very difficult one to get to on a podcast."
+        }
+      ],
+      "activation": "evaluated",
+      "source_rationale_id": "R21"
+    },
+    {
+      "rationale_label": "decision_context_constraint",
+      "direction": "negative",
+      "salience": "primary",
+      "confidence": 0.98,
+      "utterance_type": "decision_explanation",
+      "decision_link": "supports_out",
+      "timing": "original_pitch",
+      "turn_index": 125,
+      "quote": "I can't even remotely commit even as an angel with all of these unknowns.",
+      "explanation": "She explicitly withholds commitment because the pitch leaves too many issues requiring diligence unresolved.",
+      "evidence": [
+        "I can't even remotely commit even as an angel with all of these unknowns."
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 125,
+          "speaker": "Cyan",
+          "quote": "I can't even remotely commit even as an angel with all of these unknowns."
+        }
+      ],
+      "activation": "evaluated",
+      "source_rationale_id": "R22"
+    },
+    {
+      "rationale_label": "fundraising_demand_signal",
+      "direction": "positive",
+      "salience": "secondary",
+      "confidence": 0.95,
+      "utterance_type": "supporting_argument",
+      "decision_link": "none",
+      "timing": "original_pitch",
+      "turn_index": 127,
+      "quote": "a lot of my LPs, if all of it checked out, would take the whole thing",
+      "explanation": "Cyan believes relevant LPs could provide substantial financing if diligence confirms the opportunity.",
+      "evidence": [
+        "a lot of my LPs, if all of it checked out, would take the whole thing"
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 127,
+          "speaker": "Cyan",
+          "quote": "a lot of my LPs, if all of it checked out, would take the whole thing"
+        }
+      ],
+      "activation": "evaluated",
+      "source_rationale_id": "R23"
+    },
+    {
+      "rationale_label": "investment_thesis_constraint",
+      "direction": "negative",
+      "salience": "secondary",
+      "confidence": 0.93,
+      "utterance_type": "decision_explanation",
+      "decision_link": "supports_out",
+      "timing": "original_pitch",
+      "turn_index": 130,
+      "quote": "they're just a different category of investor and they invest in different things",
+      "explanation": "She distinguishes the potential LP investors' mandate from the type of opportunity her own firm generally pursues.",
+      "evidence": [
+        "they're just a different category of investor and they invest in different things"
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 130,
+          "speaker": "Cyan",
+          "quote": "they're just a different category of investor and they invest in different things"
+        }
+      ],
+      "activation": "evaluated",
+      "source_rationale_id": "R24"
+    },
+    {
+      "rationale_label": "market_entry_path_assessment",
+      "direction": "positive",
+      "salience": "secondary",
+      "confidence": 0.94,
+      "utterance_type": "assessment",
+      "decision_link": "none",
+      "timing": "original_pitch",
+      "turn_index": 154,
+      "quote": "this is the killer use case",
+      "explanation": "Cyan identifies window-climbing robots as a particularly compelling use case for the technology.",
+      "evidence": [
+        "this is the killer use case"
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 154,
+          "speaker": "Cyan",
+          "quote": "this is the killer use case"
+        }
+      ],
+      "activation": "evaluated",
+      "source_rationale_id": "R25"
+    },
+    {
+      "rationale_label": "market_size_assessment",
+      "direction": "positive",
+      "salience": "secondary",
+      "confidence": 0.94,
+      "utterance_type": "supporting_argument",
+      "decision_link": "none",
+      "timing": "original_pitch",
+      "turn_index": 160,
+      "quote": "there's just so many entrepreneurs are going to see this and come up with use cases that she can't even dream of",
+      "explanation": "She expects many additional use cases to emerge beyond those currently identified by the founder.",
+      "evidence": [
+        "there's just so many entrepreneurs are going to see this and come up with use cases that she can't even dream of"
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 160,
+          "speaker": "Cyan",
+          "quote": "there's just so many entrepreneurs are going to see this and come up with use cases that she can't even dream of"
+        }
+      ],
+      "activation": "evaluated",
+      "source_rationale_id": "R26"
+    },
+    {
+      "rationale_label": "product_success_factor_assessment",
+      "direction": "positive",
+      "salience": "secondary",
+      "confidence": 0.88,
+      "utterance_type": "assessment",
+      "decision_link": "none",
+      "timing": "original_pitch",
+      "turn_index": 162,
+      "quote": "It's a platform.",
+      "explanation": "Cyan characterizes the technology as a platform capable of supporting multiple applications.",
+      "evidence": [
+        "It's a platform."
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 162,
+          "speaker": "Cyan",
+          "quote": "It's a platform."
+        }
+      ],
+      "activation": "evaluated",
+      "source_rationale_id": "R27"
+    }
+  ],
+  "expanded_quote_evidence": [],
+  "rejected_after_evidence_check": []
+}

@@ -1,0 +1,1419 @@
+{
+  "schema": "phase1-rationale-reference-v1",
+  "extraction_version": "pitchshow-rationales-v1",
+  "fingerprint": "fff568043fb0fe124535ffe799c6f519e62262a52b8882c7275c6b8470b5b6bb",
+  "episode_slug": "66-does-anyone-really-want-your-product",
+  "vc_slug": "michael-hyatt",
+  "vc_name": "Michael Hyatt",
+  "actual_decision": "In",
+  "later_decision": "Unknown",
+  "reference_kind": "automated_transcript_observed_candidate",
+  "human_validated": false,
+  "source_format": "transcript-observed-rationales-v1",
+  "source_path": "/home/dpasch01/vclogic-vc-agentic-assessment/evaluation/pitchshow/investors/michael-hyatt/source/episodes/66-does-anyone-really-want-your-product.json",
+  "source_sha256": "9109f0d425744464a1365311c2bae2f46a78c6befa8060c5f35c5e6541286546",
+  "transcript_sha256": "476cf4f237d82f8804500b4b6b827655ea2109d92a1070e39613ba40a42cc156",
+  "taxonomy_sha256": "eaa8734819a3ac34dd19ee5f0bf6de925a793a1d25a2d361090dafc9b751e1fc",
+  "model": "codex:gpt-5.6-luna+gpt-5.6-sol",
+  "generation_stages": [
+    {
+      "phase": "rationale_extract",
+      "backend": "codex",
+      "model": "gpt-5.6-luna"
+    },
+    {
+      "phase": "rationale_verify",
+      "backend": "codex",
+      "model": "gpt-5.6-sol"
+    }
+  ],
+  "source_tier": "newly_extracted_and_independently_model_reviewed",
+  "reviewed_target_turns": [
+    4,
+    14,
+    25,
+    32,
+    59,
+    60,
+    62,
+    64,
+    66,
+    68,
+    70,
+    72,
+    74,
+    76,
+    85,
+    87,
+    89,
+    91,
+    93,
+    95,
+    97,
+    99,
+    101,
+    103,
+    105,
+    107,
+    112,
+    118,
+    120,
+    123,
+    125,
+    127,
+    129,
+    131,
+    133,
+    140,
+    143,
+    150,
+    154,
+    156,
+    158,
+    181,
+    182,
+    184,
+    186,
+    188,
+    190,
+    192,
+    194,
+    196
+  ],
+  "notes": "Turn 59 is a teaser; the same-room post-pitch debrief at turns 154–158 remains original_pitch. Greetings, jokes, acknowledgments, bare amounts, unsupported valuation queries, and later self-blame without an additional rationale were reviewed and omitted.",
+  "receipt_path": "/home/dpasch01/vclogic-vc-agentic-assessment/evaluation/pitchshow/investors/michael-hyatt/rationale-references/receipts/66-does-anyone-really-want-your-product.json",
+  "scoring_scope": "original_pitch_only",
+  "shared_across_input_modes": true,
+  "rationales": [
+    {
+      "rationale_label": "business_model_assessment",
+      "direction": "positive",
+      "salience": "secondary",
+      "confidence": 0.93,
+      "utterance_type": "assessment",
+      "decision_link": "none",
+      "timing": "original_pitch",
+      "turn_index": 89,
+      "quote": "That sounds more right to me.",
+      "explanation": "Finds the revised enterprise pricing estimate more credible.",
+      "evidence": [
+        "That sounds more right to me."
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 89,
+          "speaker": "Michael",
+          "quote": "That sounds more right to me."
+        }
+      ],
+      "activation": "evaluated",
+      "source_rationale_id": "R15",
+      "utterance_kind": "assessment",
+      "decision_support": "none",
+      "all_mention_ids": [
+        "R2",
+        "R13",
+        "R14",
+        "R15",
+        "R19"
+      ]
+    },
+    {
+      "rationale_label": "business_viability_concern",
+      "direction": "negative",
+      "salience": "primary",
+      "confidence": 0.98,
+      "utterance_type": "assessment",
+      "decision_link": "none",
+      "timing": "original_pitch",
+      "turn_index": 62,
+      "quote": "I don't think you're going to be right for long",
+      "explanation": "States that the current business may earn money briefly but is unlikely to remain viable.",
+      "evidence": [
+        "there's a chance that you may be totally wrong",
+        "I don't think you're going to be right for long"
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 60,
+          "speaker": "Michael",
+          "quote": "there's a chance that you may be totally wrong"
+        },
+        {
+          "turn_index": 62,
+          "speaker": "Michael",
+          "quote": "I don't think you're going to be right for long"
+        }
+      ],
+      "activation": "evaluated",
+      "source_rationale_id": "R6",
+      "utterance_kind": "concern",
+      "decision_support": "none",
+      "all_mention_ids": [
+        "R4",
+        "R6"
+      ]
+    },
+    {
+      "rationale_label": "founder_communication_quality",
+      "direction": "positive",
+      "salience": "secondary",
+      "confidence": 0.98,
+      "utterance_type": "decision_reason",
+      "decision_link": "explicit",
+      "timing": "original_pitch",
+      "turn_index": 140,
+      "quote": "I enjoy the way you thoughtfully argue with us.",
+      "explanation": "Cites the founder's thoughtful handling of disagreement as a positive investment consideration.",
+      "evidence": [
+        "I enjoy the way you thoughtfully argue with us."
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 140,
+          "speaker": "Michael",
+          "quote": "I enjoy the way you thoughtfully argue with us."
+        }
+      ],
+      "activation": "evaluated",
+      "source_rationale_id": "R30",
+      "utterance_kind": "decision_explanation",
+      "decision_support": "supports_in",
+      "all_mention_ids": [
+        "R30"
+      ]
+    },
+    {
+      "rationale_label": "founder_execution",
+      "direction": "positive",
+      "salience": "secondary",
+      "confidence": 0.97,
+      "utterance_type": "decision_reason",
+      "decision_link": "explicit",
+      "timing": "original_pitch",
+      "turn_index": 140,
+      "quote": "I like your hustle",
+      "explanation": "Identifies the founder's hustle as a reason supporting Michael's investment interest.",
+      "evidence": [
+        "I like your hustle"
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 140,
+          "speaker": "Michael",
+          "quote": "I like your hustle"
+        }
+      ],
+      "activation": "evaluated",
+      "source_rationale_id": "R31",
+      "utterance_kind": "decision_explanation",
+      "decision_support": "supports_in",
+      "all_mention_ids": [
+        "R31"
+      ]
+    },
+    {
+      "rationale_label": "founder_qualities",
+      "direction": "positive",
+      "salience": "primary",
+      "confidence": 0.99,
+      "utterance_type": "decision_reason",
+      "decision_link": "explicit",
+      "timing": "original_pitch",
+      "turn_index": 140,
+      "quote": "I think you're super smart",
+      "explanation": "Cites the founder's intelligence as a reason for wanting to join the round.",
+      "evidence": [
+        "I think you're super smart",
+        "he's ardent in his position and that he believes in his business",
+        "I think this is one of the better founders that we've had ever in this room."
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 140,
+          "speaker": "Michael",
+          "quote": "I think you're super smart"
+        },
+        {
+          "turn_index": 154,
+          "speaker": "Michael",
+          "quote": "he's ardent in his position and that he believes in his business"
+        },
+        {
+          "turn_index": 156,
+          "speaker": "Michael",
+          "quote": "I think this is one of the better founders that we've had ever in this room."
+        }
+      ],
+      "activation": "evaluated",
+      "source_rationale_id": "R29",
+      "utterance_kind": "decision_explanation",
+      "decision_support": "supports_in",
+      "all_mention_ids": [
+        "R29",
+        "R32",
+        "R33"
+      ]
+    },
+    {
+      "rationale_label": "go_to_market_strategy_assessment",
+      "direction": "neutral",
+      "salience": "secondary",
+      "confidence": 0.93,
+      "utterance_type": "assessment",
+      "decision_link": "none",
+      "timing": "original_pitch",
+      "turn_index": 101,
+      "quote": "you're going to land and expand. Which is by the way typical.",
+      "explanation": "Characterizes the proposed enterprise expansion motion as a conventional strategy.",
+      "evidence": [
+        "you think there's a land and expand program?",
+        "you're going to land and expand. Which is by the way typical."
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 91,
+          "speaker": "Michael",
+          "quote": "you think there's a land and expand program?"
+        },
+        {
+          "turn_index": 101,
+          "speaker": "Michael",
+          "quote": "you're going to land and expand. Which is by the way typical."
+        }
+      ],
+      "activation": "evaluated",
+      "source_rationale_id": "R21",
+      "utterance_kind": "assessment",
+      "decision_support": "none",
+      "all_mention_ids": [
+        "R16",
+        "R21"
+      ]
+    },
+    {
+      "rationale_label": "growth_projection_risk",
+      "direction": "neutral",
+      "salience": "secondary",
+      "confidence": 0.95,
+      "utterance_type": "question",
+      "decision_link": "none",
+      "timing": "original_pitch",
+      "turn_index": 123,
+      "quote": "at the end of 2019, about $2 million will be enterprise revenue, right?",
+      "explanation": "Checks the enterprise revenue forecast being used in the valuation analysis.",
+      "evidence": [
+        "what are you telling your investors for by the end of 2019 your sales are going to be?",
+        "ARR run rate?",
+        "at the end of 2019, about $2 million will be enterprise revenue, right?"
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 93,
+          "speaker": "Michael",
+          "quote": "what are you telling your investors for by the end of 2019 your sales are going to be?"
+        },
+        {
+          "turn_index": 95,
+          "speaker": "Michael",
+          "quote": "ARR run rate?"
+        },
+        {
+          "turn_index": 123,
+          "speaker": "Michael",
+          "quote": "at the end of 2019, about $2 million will be enterprise revenue, right?"
+        }
+      ],
+      "activation": "queried",
+      "source_rationale_id": "R26",
+      "utterance_kind": "question",
+      "decision_support": "none",
+      "all_mention_ids": [
+        "R17",
+        "R18",
+        "R26"
+      ]
+    },
+    {
+      "rationale_label": "investment_upside_assessment",
+      "direction": "negative",
+      "salience": "primary",
+      "confidence": 0.98,
+      "utterance_type": "assessment",
+      "decision_link": "none",
+      "timing": "original_pitch",
+      "turn_index": 129,
+      "quote": "20, 25 million at best if you hit your numbers exactly",
+      "explanation": "Argues that even perfect achievement of the forecast would provide limited near-term valuation upside.",
+      "evidence": [
+        "where you're going to be in a year from now, it's worth about 20 million",
+        "20, 25 million at best if you hit your numbers exactly"
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 127,
+          "speaker": "Michael",
+          "quote": "where you're going to be in a year from now, it's worth about 20 million"
+        },
+        {
+          "turn_index": 129,
+          "speaker": "Michael",
+          "quote": "20, 25 million at best if you hit your numbers exactly"
+        }
+      ],
+      "activation": "evaluated",
+      "source_rationale_id": "R28",
+      "utterance_kind": "assessment",
+      "decision_support": "none",
+      "all_mention_ids": [
+        "R27",
+        "R28"
+      ]
+    },
+    {
+      "rationale_label": "market_timing",
+      "direction": "negative",
+      "salience": "primary",
+      "confidence": 0.98,
+      "utterance_type": "assessment",
+      "decision_link": "none",
+      "timing": "original_pitch",
+      "turn_index": 62,
+      "quote": "the trend is that the part of artificial intelligence which is getting really cheap and really, really good, is prediction",
+      "explanation": "Argues that rapidly improving and inexpensive AI prediction creates an unfavorable technological trend for the offering.",
+      "evidence": [
+        "the trend is that the part of artificial intelligence which is getting really cheap and really, really good, is prediction",
+        "So the trend on Amazon and Microsoft is more people in rooms and less AI?",
+        "So you believe in the future that rooms will get bigger, more people and prediction will just follow it?"
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 62,
+          "speaker": "Michael",
+          "quote": "the trend is that the part of artificial intelligence which is getting really cheap and really, really good, is prediction"
+        },
+        {
+          "turn_index": 70,
+          "speaker": "Michael",
+          "quote": "So the trend on Amazon and Microsoft is more people in rooms and less AI?"
+        },
+        {
+          "turn_index": 72,
+          "speaker": "Michael",
+          "quote": "So you believe in the future that rooms will get bigger, more people and prediction will just follow it?"
+        }
+      ],
+      "activation": "evaluated",
+      "source_rationale_id": "R5",
+      "utterance_kind": "supporting_argument",
+      "decision_support": "none",
+      "all_mention_ids": [
+        "R5",
+        "R11",
+        "R12"
+      ]
+    },
+    {
+      "rationale_label": "product_success_factor_assessment",
+      "direction": "negative",
+      "salience": "primary",
+      "confidence": 0.96,
+      "utterance_type": "assessment",
+      "decision_link": "none",
+      "timing": "original_pitch",
+      "turn_index": 62,
+      "quote": "you have to make a prediction engine that does way better than what you're doing",
+      "explanation": "Identifies a superior prediction engine as the product direction Michael believes would be necessary for long-term success.",
+      "evidence": [
+        "you have to make a prediction engine that does way better than what you're doing",
+        "So how come Amazon, the entire Amazon runs on prediction engines.",
+        "that software side needs to really, really grow?"
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 62,
+          "speaker": "Michael",
+          "quote": "you have to make a prediction engine that does way better than what you're doing"
+        },
+        {
+          "turn_index": 64,
+          "speaker": "Michael",
+          "quote": "So how come Amazon, the entire Amazon runs on prediction engines."
+        },
+        {
+          "turn_index": 103,
+          "speaker": "Michael",
+          "quote": "that software side needs to really, really grow?"
+        }
+      ],
+      "activation": "evaluated",
+      "source_rationale_id": "R7",
+      "utterance_kind": "assessment",
+      "decision_support": "none",
+      "all_mention_ids": [
+        "R7",
+        "R8",
+        "R23"
+      ]
+    },
+    {
+      "rationale_label": "solution_feasibility_assessment",
+      "direction": "negative",
+      "salience": "secondary",
+      "confidence": 0.96,
+      "utterance_type": "question",
+      "decision_link": "none",
+      "timing": "original_pitch",
+      "turn_index": 68,
+      "quote": "So that's how they're scaling Amazon? Through rooms of users?",
+      "explanation": "Questions whether the human-interview model is operationally plausible at large scale.",
+      "evidence": [
+        "And they're pulling people into rooms all the time at $30 a head?",
+        "So that's how they're scaling Amazon? Through rooms of users?"
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 66,
+          "speaker": "Michael",
+          "quote": "And they're pulling people into rooms all the time at $30 a head?"
+        },
+        {
+          "turn_index": 68,
+          "speaker": "Michael",
+          "quote": "So that's how they're scaling Amazon? Through rooms of users?"
+        }
+      ],
+      "activation": "queried",
+      "source_rationale_id": "R10",
+      "utterance_kind": "question",
+      "decision_support": "none",
+      "all_mention_ids": [
+        "R1",
+        "R9",
+        "R10"
+      ]
+    },
+    {
+      "rationale_label": "traction_repeatability_concern",
+      "direction": "negative",
+      "salience": "primary",
+      "confidence": 0.98,
+      "utterance_type": "assessment",
+      "decision_link": "none",
+      "timing": "original_pitch",
+      "turn_index": 107,
+      "quote": "there's a big difference between saying, I think people are going to spend 400 grand or 50 grand, or whether you've done it not",
+      "explanation": "Distinguishes hypothetical customer spending from demonstrated, repeatable enterprise traction.",
+      "evidence": [
+        "You have very nascent revenue on the enterprise.",
+        "you're still in a kind of a bit of a test track",
+        "the part that's worth more hasn't really started yet",
+        "there's a big difference between saying, I think people are going to spend 400 grand or 50 grand, or whether you've done it not"
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 99,
+          "speaker": "Michael",
+          "quote": "You have very nascent revenue on the enterprise."
+        },
+        {
+          "turn_index": 103,
+          "speaker": "Michael",
+          "quote": "you're still in a kind of a bit of a test track"
+        },
+        {
+          "turn_index": 105,
+          "speaker": "Michael",
+          "quote": "the part that's worth more hasn't really started yet"
+        },
+        {
+          "turn_index": 107,
+          "speaker": "Michael",
+          "quote": "there's a big difference between saying, I think people are going to spend 400 grand or 50 grand, or whether you've done it not"
+        }
+      ],
+      "activation": "evaluated",
+      "source_rationale_id": "R25",
+      "utterance_kind": "concern",
+      "decision_support": "none",
+      "all_mention_ids": [
+        "R20",
+        "R22",
+        "R24",
+        "R25"
+      ]
+    }
+  ],
+  "later_rationales": [
+    {
+      "rationale_label": "decision_context_constraint",
+      "direction": "neutral",
+      "salience": "primary",
+      "confidence": 0.96,
+      "utterance_type": "decision_explanation",
+      "decision_link": "supports_out",
+      "timing": "later_commentary",
+      "turn_index": 184,
+      "quote": "he was emailing and an email address that I don't use as often, and it also went into my spam folder.",
+      "explanation": "Explains that an email-channel failure, rather than a negative company assessment, prevented follow-up on the investment commitment.",
+      "evidence": [
+        "he was emailing and an email address that I don't use as often, and it also went into my spam folder."
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 184,
+          "speaker": "Michael",
+          "quote": "he was emailing and an email address that I don't use as often, and it also went into my spam folder."
+        }
+      ],
+      "activation": "evaluated",
+      "source_rationale_id": "R34"
+    },
+    {
+      "rationale_label": "decision_context_constraint",
+      "direction": "neutral",
+      "salience": "primary",
+      "confidence": 0.94,
+      "utterance_type": "decision_explanation",
+      "decision_link": "supports_out",
+      "timing": "later_commentary",
+      "turn_index": 188,
+      "quote": "I did find the emails. It was too late.",
+      "explanation": "Reiterates that delayed discovery of the founder's emails caused the investment opportunity to be missed.",
+      "evidence": [
+        "I did find the emails. It was too late."
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 188,
+          "speaker": "Michael",
+          "quote": "I did find the emails. It was too late."
+        }
+      ],
+      "activation": "evaluated",
+      "source_rationale_id": "R35"
+    },
+    {
+      "rationale_label": "investment_upside_assessment",
+      "direction": "positive",
+      "salience": "secondary",
+      "confidence": 0.91,
+      "utterance_type": "assessment",
+      "decision_link": "none",
+      "timing": "later_commentary",
+      "turn_index": 196,
+      "quote": "it probably turns into an Uber or something",
+      "explanation": "Acknowledges the possibility that the missed company could produce an exceptionally large outcome.",
+      "evidence": [
+        "it probably turns into an Uber or something"
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 196,
+          "speaker": "Michael",
+          "quote": "it probably turns into an Uber or something"
+        }
+      ],
+      "activation": "evaluated",
+      "source_rationale_id": "R36"
+    }
+  ],
+  "excluded_rationales": [
+    {
+      "rationale_label": "business_viability_concern",
+      "direction": "negative",
+      "salience": "primary",
+      "confidence": 0.94,
+      "utterance_type": "concern",
+      "decision_link": "none",
+      "timing": "teaser",
+      "turn_index": 59,
+      "quote": "there's a chance that you may be totally wrong",
+      "explanation": "Previews a fundamental challenge to the validity of the business premise.",
+      "evidence": [
+        "there's a chance that you may be totally wrong"
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 59,
+          "speaker": "Michael",
+          "quote": "there's a chance that you may be totally wrong"
+        }
+      ],
+      "activation": "evaluated",
+      "source_rationale_id": "R3"
+    }
+  ],
+  "rationale_mentions": [
+    {
+      "rationale_label": "solution_feasibility_assessment",
+      "direction": "neutral",
+      "salience": "secondary",
+      "confidence": 0.96,
+      "utterance_type": "question",
+      "decision_link": "none",
+      "timing": "original_pitch",
+      "turn_index": 25,
+      "quote": "Can you give us an example of how that works?",
+      "explanation": "Requests a concrete example to understand how the proposed solution operates.",
+      "evidence": [
+        "Can you give us an example of how that works?"
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 25,
+          "speaker": "Michael",
+          "quote": "Can you give us an example of how that works?"
+        }
+      ],
+      "activation": "queried",
+      "source_rationale_id": "R1"
+    },
+    {
+      "rationale_label": "business_model_assessment",
+      "direction": "neutral",
+      "salience": "secondary",
+      "confidence": 0.99,
+      "utterance_type": "question",
+      "decision_link": "none",
+      "timing": "original_pitch",
+      "turn_index": 32,
+      "quote": "So how do you charge Wayfair? Walk us through the revenue.",
+      "explanation": "Queries the company's monetization and revenue mechanics.",
+      "evidence": [
+        "So how do you charge Wayfair? Walk us through the revenue."
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 32,
+          "speaker": "Michael",
+          "quote": "So how do you charge Wayfair? Walk us through the revenue."
+        }
+      ],
+      "activation": "queried",
+      "source_rationale_id": "R2"
+    },
+    {
+      "rationale_label": "business_viability_concern",
+      "direction": "negative",
+      "salience": "primary",
+      "confidence": 0.96,
+      "utterance_type": "concern",
+      "decision_link": "none",
+      "timing": "original_pitch",
+      "turn_index": 60,
+      "quote": "there's a chance that you may be totally wrong",
+      "explanation": "Raises a fundamental concern that the company's underlying premise may be incorrect.",
+      "evidence": [
+        "there's a chance that you may be totally wrong"
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 60,
+          "speaker": "Michael",
+          "quote": "there's a chance that you may be totally wrong"
+        }
+      ],
+      "activation": "evaluated",
+      "source_rationale_id": "R4"
+    },
+    {
+      "rationale_label": "market_timing",
+      "direction": "negative",
+      "salience": "primary",
+      "confidence": 0.98,
+      "utterance_type": "supporting_argument",
+      "decision_link": "none",
+      "timing": "original_pitch",
+      "turn_index": 62,
+      "quote": "the trend is that the part of artificial intelligence which is getting really cheap and really, really good, is prediction",
+      "explanation": "Argues that rapidly improving and inexpensive AI prediction creates an unfavorable technological trend for the offering.",
+      "evidence": [
+        "the trend is that the part of artificial intelligence which is getting really cheap and really, really good, is prediction"
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 62,
+          "speaker": "Michael",
+          "quote": "the trend is that the part of artificial intelligence which is getting really cheap and really, really good, is prediction"
+        }
+      ],
+      "activation": "evaluated",
+      "source_rationale_id": "R5"
+    },
+    {
+      "rationale_label": "business_viability_concern",
+      "direction": "negative",
+      "salience": "primary",
+      "confidence": 0.98,
+      "utterance_type": "concern",
+      "decision_link": "none",
+      "timing": "original_pitch",
+      "turn_index": 62,
+      "quote": "I don't think you're going to be right for long",
+      "explanation": "States that the current business may earn money briefly but is unlikely to remain viable.",
+      "evidence": [
+        "I don't think you're going to be right for long"
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 62,
+          "speaker": "Michael",
+          "quote": "I don't think you're going to be right for long"
+        }
+      ],
+      "activation": "evaluated",
+      "source_rationale_id": "R6"
+    },
+    {
+      "rationale_label": "product_success_factor_assessment",
+      "direction": "negative",
+      "salience": "primary",
+      "confidence": 0.96,
+      "utterance_type": "assessment",
+      "decision_link": "none",
+      "timing": "original_pitch",
+      "turn_index": 62,
+      "quote": "you have to make a prediction engine that does way better than what you're doing",
+      "explanation": "Identifies a superior prediction engine as the product direction Michael believes would be necessary for long-term success.",
+      "evidence": [
+        "you have to make a prediction engine that does way better than what you're doing"
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 62,
+          "speaker": "Michael",
+          "quote": "you have to make a prediction engine that does way better than what you're doing"
+        }
+      ],
+      "activation": "evaluated",
+      "source_rationale_id": "R7"
+    },
+    {
+      "rationale_label": "product_success_factor_assessment",
+      "direction": "negative",
+      "salience": "secondary",
+      "confidence": 0.91,
+      "utterance_type": "question",
+      "decision_link": "none",
+      "timing": "original_pitch",
+      "turn_index": 64,
+      "quote": "So how come Amazon, the entire Amazon runs on prediction engines.",
+      "explanation": "Challenges the human-research premise by pointing to prediction engines as central to Amazon's operation.",
+      "evidence": [
+        "So how come Amazon, the entire Amazon runs on prediction engines."
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 64,
+          "speaker": "Michael",
+          "quote": "So how come Amazon, the entire Amazon runs on prediction engines."
+        }
+      ],
+      "activation": "queried",
+      "source_rationale_id": "R8"
+    },
+    {
+      "rationale_label": "solution_feasibility_assessment",
+      "direction": "negative",
+      "salience": "secondary",
+      "confidence": 0.9,
+      "utterance_type": "question",
+      "decision_link": "none",
+      "timing": "original_pitch",
+      "turn_index": 66,
+      "quote": "And they're pulling people into rooms all the time at $30 a head?",
+      "explanation": "Skeptically tests whether a large company actually relies on the proposed human-research approach.",
+      "evidence": [
+        "And they're pulling people into rooms all the time at $30 a head?"
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 66,
+          "speaker": "Michael",
+          "quote": "And they're pulling people into rooms all the time at $30 a head?"
+        }
+      ],
+      "activation": "queried",
+      "source_rationale_id": "R9"
+    },
+    {
+      "rationale_label": "solution_feasibility_assessment",
+      "direction": "negative",
+      "salience": "secondary",
+      "confidence": 0.96,
+      "utterance_type": "question",
+      "decision_link": "none",
+      "timing": "original_pitch",
+      "turn_index": 68,
+      "quote": "So that's how they're scaling Amazon? Through rooms of users?",
+      "explanation": "Questions whether the human-interview model is operationally plausible at large scale.",
+      "evidence": [
+        "So that's how they're scaling Amazon? Through rooms of users?"
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 68,
+          "speaker": "Michael",
+          "quote": "So that's how they're scaling Amazon? Through rooms of users?"
+        }
+      ],
+      "activation": "queried",
+      "source_rationale_id": "R10"
+    },
+    {
+      "rationale_label": "market_timing",
+      "direction": "negative",
+      "salience": "secondary",
+      "confidence": 0.96,
+      "utterance_type": "question",
+      "decision_link": "none",
+      "timing": "original_pitch",
+      "turn_index": 70,
+      "quote": "So the trend on Amazon and Microsoft is more people in rooms and less AI?",
+      "explanation": "Skeptically asks whether market development truly favors more human research rather than greater AI use.",
+      "evidence": [
+        "So the trend on Amazon and Microsoft is more people in rooms and less AI?"
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 70,
+          "speaker": "Michael",
+          "quote": "So the trend on Amazon and Microsoft is more people in rooms and less AI?"
+        }
+      ],
+      "activation": "queried",
+      "source_rationale_id": "R11"
+    },
+    {
+      "rationale_label": "market_timing",
+      "direction": "negative",
+      "salience": "secondary",
+      "confidence": 0.96,
+      "utterance_type": "question",
+      "decision_link": "none",
+      "timing": "original_pitch",
+      "turn_index": 72,
+      "quote": "So you believe in the future that rooms will get bigger, more people and prediction will just follow it?",
+      "explanation": "Challenges the founder's view of how human research and prediction technology will evolve.",
+      "evidence": [
+        "So you believe in the future that rooms will get bigger, more people and prediction will just follow it?"
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 72,
+          "speaker": "Michael",
+          "quote": "So you believe in the future that rooms will get bigger, more people and prediction will just follow it?"
+        }
+      ],
+      "activation": "queried",
+      "source_rationale_id": "R12"
+    },
+    {
+      "rationale_label": "business_model_assessment",
+      "direction": "neutral",
+      "salience": "secondary",
+      "confidence": 0.99,
+      "utterance_type": "question",
+      "decision_link": "none",
+      "timing": "original_pitch",
+      "turn_index": 85,
+      "quote": "How do you price your enterprise product?",
+      "explanation": "Queries the enterprise product's pricing model.",
+      "evidence": [
+        "How do you price your enterprise product?"
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 85,
+          "speaker": "Michael",
+          "quote": "How do you price your enterprise product?"
+        }
+      ],
+      "activation": "queried",
+      "source_rationale_id": "R13"
+    },
+    {
+      "rationale_label": "business_model_assessment",
+      "direction": "neutral",
+      "salience": "secondary",
+      "confidence": 0.99,
+      "utterance_type": "question",
+      "decision_link": "none",
+      "timing": "original_pitch",
+      "turn_index": 87,
+      "quote": "What do you think your average enterprise ticket price is?",
+      "explanation": "Clarifies the expected average enterprise contract value.",
+      "evidence": [
+        "What do you think your average enterprise ticket price is?"
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 87,
+          "speaker": "Michael",
+          "quote": "What do you think your average enterprise ticket price is?"
+        }
+      ],
+      "activation": "queried",
+      "source_rationale_id": "R14"
+    },
+    {
+      "rationale_label": "business_model_assessment",
+      "direction": "positive",
+      "salience": "secondary",
+      "confidence": 0.93,
+      "utterance_type": "assessment",
+      "decision_link": "none",
+      "timing": "original_pitch",
+      "turn_index": 89,
+      "quote": "That sounds more right to me.",
+      "explanation": "Finds the revised enterprise pricing estimate more credible.",
+      "evidence": [
+        "That sounds more right to me."
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 89,
+          "speaker": "Michael",
+          "quote": "That sounds more right to me."
+        }
+      ],
+      "activation": "evaluated",
+      "source_rationale_id": "R15"
+    },
+    {
+      "rationale_label": "go_to_market_strategy_assessment",
+      "direction": "neutral",
+      "salience": "secondary",
+      "confidence": 0.97,
+      "utterance_type": "question",
+      "decision_link": "none",
+      "timing": "original_pitch",
+      "turn_index": 91,
+      "quote": "you think there's a land and expand program?",
+      "explanation": "Queries whether customer acquisition will support a land-and-expand enterprise sales motion.",
+      "evidence": [
+        "you think there's a land and expand program?"
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 91,
+          "speaker": "Michael",
+          "quote": "you think there's a land and expand program?"
+        }
+      ],
+      "activation": "queried",
+      "source_rationale_id": "R16"
+    },
+    {
+      "rationale_label": "growth_projection_risk",
+      "direction": "neutral",
+      "salience": "secondary",
+      "confidence": 0.97,
+      "utterance_type": "question",
+      "decision_link": "none",
+      "timing": "original_pitch",
+      "turn_index": 93,
+      "quote": "what are you telling your investors for by the end of 2019 your sales are going to be?",
+      "explanation": "Requests the forward sales projection being presented to investors.",
+      "evidence": [
+        "what are you telling your investors for by the end of 2019 your sales are going to be?"
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 93,
+          "speaker": "Michael",
+          "quote": "what are you telling your investors for by the end of 2019 your sales are going to be?"
+        }
+      ],
+      "activation": "queried",
+      "source_rationale_id": "R17"
+    },
+    {
+      "rationale_label": "growth_projection_risk",
+      "direction": "neutral",
+      "salience": "secondary",
+      "confidence": 0.94,
+      "utterance_type": "question",
+      "decision_link": "none",
+      "timing": "original_pitch",
+      "turn_index": 95,
+      "quote": "ARR run rate?",
+      "explanation": "Clarifies the metric underlying the stated revenue projection.",
+      "evidence": [
+        "ARR run rate?"
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 95,
+          "speaker": "Michael",
+          "quote": "ARR run rate?"
+        }
+      ],
+      "activation": "queried",
+      "source_rationale_id": "R18"
+    },
+    {
+      "rationale_label": "business_model_assessment",
+      "direction": "neutral",
+      "salience": "secondary",
+      "confidence": 0.98,
+      "utterance_type": "question",
+      "decision_link": "none",
+      "timing": "original_pitch",
+      "turn_index": 97,
+      "quote": "how much of that is your front end vs your back end?",
+      "explanation": "Queries the projected revenue mix between recruiting services and software.",
+      "evidence": [
+        "how much of that is your front end vs your back end?"
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 97,
+          "speaker": "Michael",
+          "quote": "how much of that is your front end vs your back end?"
+        }
+      ],
+      "activation": "queried",
+      "source_rationale_id": "R19"
+    },
+    {
+      "rationale_label": "traction_repeatability_concern",
+      "direction": "negative",
+      "salience": "primary",
+      "confidence": 0.98,
+      "utterance_type": "assessment",
+      "decision_link": "none",
+      "timing": "original_pitch",
+      "turn_index": 99,
+      "quote": "You have very nascent revenue on the enterprise.",
+      "explanation": "Highlights that traction in the higher-value enterprise offering remains very early.",
+      "evidence": [
+        "You have very nascent revenue on the enterprise."
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 99,
+          "speaker": "Michael",
+          "quote": "You have very nascent revenue on the enterprise."
+        }
+      ],
+      "activation": "evaluated",
+      "source_rationale_id": "R20"
+    },
+    {
+      "rationale_label": "go_to_market_strategy_assessment",
+      "direction": "neutral",
+      "salience": "secondary",
+      "confidence": 0.93,
+      "utterance_type": "assessment",
+      "decision_link": "none",
+      "timing": "original_pitch",
+      "turn_index": 101,
+      "quote": "you're going to land and expand. Which is by the way typical.",
+      "explanation": "Characterizes the proposed enterprise expansion motion as a conventional strategy.",
+      "evidence": [
+        "you're going to land and expand. Which is by the way typical."
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 101,
+          "speaker": "Michael",
+          "quote": "you're going to land and expand. Which is by the way typical."
+        }
+      ],
+      "activation": "evaluated",
+      "source_rationale_id": "R21"
+    },
+    {
+      "rationale_label": "traction_repeatability_concern",
+      "direction": "negative",
+      "salience": "primary",
+      "confidence": 0.96,
+      "utterance_type": "concern",
+      "decision_link": "none",
+      "timing": "original_pitch",
+      "turn_index": 103,
+      "quote": "you're still in a kind of a bit of a test track",
+      "explanation": "Emphasizes that the enterprise model remains at an experimental and unproven stage.",
+      "evidence": [
+        "you're still in a kind of a bit of a test track"
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 103,
+          "speaker": "Michael",
+          "quote": "you're still in a kind of a bit of a test track"
+        }
+      ],
+      "activation": "evaluated",
+      "source_rationale_id": "R22"
+    },
+    {
+      "rationale_label": "product_success_factor_assessment",
+      "direction": "negative",
+      "salience": "primary",
+      "confidence": 0.97,
+      "utterance_type": "question",
+      "decision_link": "none",
+      "timing": "original_pitch",
+      "turn_index": 103,
+      "quote": "that software side needs to really, really grow?",
+      "explanation": "Identifies substantial software growth as essential for the company to become highly valuable.",
+      "evidence": [
+        "that software side needs to really, really grow?"
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 103,
+          "speaker": "Michael",
+          "quote": "that software side needs to really, really grow?"
+        }
+      ],
+      "activation": "queried",
+      "source_rationale_id": "R23"
+    },
+    {
+      "rationale_label": "traction_repeatability_concern",
+      "direction": "negative",
+      "salience": "primary",
+      "confidence": 0.98,
+      "utterance_type": "assessment",
+      "decision_link": "none",
+      "timing": "original_pitch",
+      "turn_index": 105,
+      "quote": "the part that's worth more hasn't really started yet",
+      "explanation": "Observes that the strategically valuable software segment has not yet demonstrated meaningful traction.",
+      "evidence": [
+        "the part that's worth more hasn't really started yet"
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 105,
+          "speaker": "Michael",
+          "quote": "the part that's worth more hasn't really started yet"
+        }
+      ],
+      "activation": "evaluated",
+      "source_rationale_id": "R24"
+    },
+    {
+      "rationale_label": "traction_repeatability_concern",
+      "direction": "negative",
+      "salience": "primary",
+      "confidence": 0.98,
+      "utterance_type": "concern",
+      "decision_link": "none",
+      "timing": "original_pitch",
+      "turn_index": 107,
+      "quote": "there's a big difference between saying, I think people are going to spend 400 grand or 50 grand, or whether you've done it not",
+      "explanation": "Distinguishes hypothetical customer spending from demonstrated, repeatable enterprise traction.",
+      "evidence": [
+        "there's a big difference between saying, I think people are going to spend 400 grand or 50 grand, or whether you've done it not"
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 107,
+          "speaker": "Michael",
+          "quote": "there's a big difference between saying, I think people are going to spend 400 grand or 50 grand, or whether you've done it not"
+        }
+      ],
+      "activation": "evaluated",
+      "source_rationale_id": "R25"
+    },
+    {
+      "rationale_label": "growth_projection_risk",
+      "direction": "neutral",
+      "salience": "secondary",
+      "confidence": 0.95,
+      "utterance_type": "question",
+      "decision_link": "none",
+      "timing": "original_pitch",
+      "turn_index": 123,
+      "quote": "at the end of 2019, about $2 million will be enterprise revenue, right?",
+      "explanation": "Checks the enterprise revenue forecast being used in the valuation analysis.",
+      "evidence": [
+        "at the end of 2019, about $2 million will be enterprise revenue, right?"
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 123,
+          "speaker": "Michael",
+          "quote": "at the end of 2019, about $2 million will be enterprise revenue, right?"
+        }
+      ],
+      "activation": "queried",
+      "source_rationale_id": "R26"
+    },
+    {
+      "rationale_label": "investment_upside_assessment",
+      "direction": "negative",
+      "salience": "primary",
+      "confidence": 0.97,
+      "utterance_type": "assessment",
+      "decision_link": "none",
+      "timing": "original_pitch",
+      "turn_index": 127,
+      "quote": "where you're going to be in a year from now, it's worth about 20 million",
+      "explanation": "Estimates a near-term company value only modestly above the founder's current valuation expectation.",
+      "evidence": [
+        "where you're going to be in a year from now, it's worth about 20 million"
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 127,
+          "speaker": "Michael",
+          "quote": "where you're going to be in a year from now, it's worth about 20 million"
+        }
+      ],
+      "activation": "evaluated",
+      "source_rationale_id": "R27"
+    },
+    {
+      "rationale_label": "investment_upside_assessment",
+      "direction": "negative",
+      "salience": "primary",
+      "confidence": 0.98,
+      "utterance_type": "assessment",
+      "decision_link": "none",
+      "timing": "original_pitch",
+      "turn_index": 129,
+      "quote": "20, 25 million at best if you hit your numbers exactly",
+      "explanation": "Argues that even perfect achievement of the forecast would provide limited near-term valuation upside.",
+      "evidence": [
+        "20, 25 million at best if you hit your numbers exactly"
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 129,
+          "speaker": "Michael",
+          "quote": "20, 25 million at best if you hit your numbers exactly"
+        }
+      ],
+      "activation": "evaluated",
+      "source_rationale_id": "R28"
+    },
+    {
+      "rationale_label": "founder_qualities",
+      "direction": "positive",
+      "salience": "primary",
+      "confidence": 0.99,
+      "utterance_type": "decision_explanation",
+      "decision_link": "supports_in",
+      "timing": "original_pitch",
+      "turn_index": 140,
+      "quote": "I think you're super smart",
+      "explanation": "Cites the founder's intelligence as a reason for wanting to join the round.",
+      "evidence": [
+        "I think you're super smart"
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 140,
+          "speaker": "Michael",
+          "quote": "I think you're super smart"
+        }
+      ],
+      "activation": "evaluated",
+      "source_rationale_id": "R29"
+    },
+    {
+      "rationale_label": "founder_communication_quality",
+      "direction": "positive",
+      "salience": "secondary",
+      "confidence": 0.98,
+      "utterance_type": "decision_explanation",
+      "decision_link": "supports_in",
+      "timing": "original_pitch",
+      "turn_index": 140,
+      "quote": "I enjoy the way you thoughtfully argue with us.",
+      "explanation": "Cites the founder's thoughtful handling of disagreement as a positive investment consideration.",
+      "evidence": [
+        "I enjoy the way you thoughtfully argue with us."
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 140,
+          "speaker": "Michael",
+          "quote": "I enjoy the way you thoughtfully argue with us."
+        }
+      ],
+      "activation": "evaluated",
+      "source_rationale_id": "R30"
+    },
+    {
+      "rationale_label": "founder_execution",
+      "direction": "positive",
+      "salience": "secondary",
+      "confidence": 0.97,
+      "utterance_type": "decision_explanation",
+      "decision_link": "supports_in",
+      "timing": "original_pitch",
+      "turn_index": 140,
+      "quote": "I like your hustle",
+      "explanation": "Identifies the founder's hustle as a reason supporting Michael's investment interest.",
+      "evidence": [
+        "I like your hustle"
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 140,
+          "speaker": "Michael",
+          "quote": "I like your hustle"
+        }
+      ],
+      "activation": "evaluated",
+      "source_rationale_id": "R31"
+    },
+    {
+      "rationale_label": "founder_qualities",
+      "direction": "positive",
+      "salience": "primary",
+      "confidence": 0.98,
+      "utterance_type": "assessment",
+      "decision_link": "none",
+      "timing": "original_pitch",
+      "turn_index": 154,
+      "quote": "he's ardent in his position and that he believes in his business",
+      "explanation": "Praises the founder's conviction when his core business premise was challenged.",
+      "evidence": [
+        "he's ardent in his position and that he believes in his business"
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 154,
+          "speaker": "Michael",
+          "quote": "he's ardent in his position and that he believes in his business"
+        }
+      ],
+      "activation": "evaluated",
+      "source_rationale_id": "R32"
+    },
+    {
+      "rationale_label": "founder_qualities",
+      "direction": "positive",
+      "salience": "primary",
+      "confidence": 0.99,
+      "utterance_type": "assessment",
+      "decision_link": "none",
+      "timing": "original_pitch",
+      "turn_index": 156,
+      "quote": "I think this is one of the better founders that we've had ever in this room.",
+      "explanation": "Provides a strongly positive overall assessment of the founder.",
+      "evidence": [
+        "I think this is one of the better founders that we've had ever in this room."
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 156,
+          "speaker": "Michael",
+          "quote": "I think this is one of the better founders that we've had ever in this room."
+        }
+      ],
+      "activation": "evaluated",
+      "source_rationale_id": "R33"
+    }
+  ],
+  "expanded_quote_evidence": [],
+  "rejected_after_evidence_check": []
+}

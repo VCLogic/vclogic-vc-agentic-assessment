@@ -1,0 +1,409 @@
+{
+  "schema": "phase1-rationale-reference-v1",
+  "extraction_version": "pitchshow-rationales-v1",
+  "fingerprint": "98dabf594cd1867c6d3ecbe34145aae9e61b604a217a9780983c38248a4347fa",
+  "episode_slug": "73-enough-sales-calls-already",
+  "vc_slug": "jillian-manus-structure-capital",
+  "vc_name": "Jillian Manus",
+  "actual_decision": "Out",
+  "later_decision": "Unknown",
+  "reference_kind": "automated_transcript_observed_candidate",
+  "human_validated": false,
+  "source_format": "transcript-observed-rationales-v1",
+  "source_path": "/home/dpasch01/vclogic-vc-agentic-assessment/evaluation/pitchshow/investors/jillian-manus-structure-capital/source/episodes/73-enough-sales-calls-already.json",
+  "source_sha256": "18f1f20bb2decfeb8cd45a584101089c10596430b243e124a3fe40144f75ba03",
+  "transcript_sha256": "a6a0fa6a9ab7e0363b3ebf434662aadae7db0a0d3bff0cf3f9ee5dec389a6945",
+  "taxonomy_sha256": "eaa8734819a3ac34dd19ee5f0bf6de925a793a1d25a2d361090dafc9b751e1fc",
+  "model": "codex:gpt-5.6-luna+gpt-5.6-sol",
+  "generation_stages": [
+    {
+      "phase": "rationale_extract",
+      "backend": "codex",
+      "model": "gpt-5.6-luna"
+    },
+    {
+      "phase": "rationale_verify",
+      "backend": "codex",
+      "model": "gpt-5.6-sol"
+    }
+  ],
+  "source_tier": "newly_extracted_and_independently_model_reviewed",
+  "reviewed_target_turns": [
+    51,
+    58,
+    60,
+    62,
+    73,
+    75,
+    78,
+    83,
+    99,
+    104,
+    106,
+    117
+  ],
+  "notes": "",
+  "receipt_path": "/home/dpasch01/vclogic-vc-agentic-assessment/evaluation/pitchshow/investors/jillian-manus-structure-capital/rationale-references/receipts/73-enough-sales-calls-already.json",
+  "scoring_scope": "original_pitch_only",
+  "shared_across_input_modes": true,
+  "rationales": [
+    {
+      "rationale_label": "decision_context_constraint",
+      "direction": "negative",
+      "salience": "primary",
+      "confidence": 0.97,
+      "utterance_type": "decision_reason",
+      "decision_link": "explicit",
+      "timing": "original_pitch",
+      "turn_index": 99,
+      "quote": "I just need to have a little bit more time to better understand this. So I’m out right now.",
+      "explanation": "Jillian explicitly links her present refusal to needing more time to understand the opportunity.",
+      "evidence": [
+        "I just need to have a little bit more time to better understand this. So I’m out right now."
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 99,
+          "speaker": "Jillian",
+          "quote": "I just need to have a little bit more time to better understand this. So I’m out right now."
+        }
+      ],
+      "activation": "evaluated",
+      "source_rationale_id": "R7",
+      "utterance_kind": "decision_explanation",
+      "decision_support": "supports_out",
+      "all_mention_ids": [
+        "R7"
+      ]
+    },
+    {
+      "rationale_label": "fundraising_demand_signal",
+      "direction": "neutral",
+      "salience": "secondary",
+      "confidence": 0.82,
+      "utterance_type": "question",
+      "decision_link": "none",
+      "timing": "original_pitch",
+      "turn_index": 51,
+      "quote": "Are you funding them too?",
+      "explanation": "Jillian asks whether another investor is also backing Vetd, querying current investor demand without expressing a conclusion.",
+      "evidence": [
+        "Are you funding them too?"
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 51,
+          "speaker": "Jillian",
+          "quote": "Are you funding them too?"
+        }
+      ],
+      "activation": "queried",
+      "source_rationale_id": "R1",
+      "utterance_kind": "question",
+      "decision_support": "none",
+      "all_mention_ids": [
+        "R1"
+      ]
+    },
+    {
+      "rationale_label": "market_problem_validation",
+      "direction": "positive",
+      "salience": "secondary",
+      "confidence": 0.9,
+      "utterance_type": "assessment",
+      "decision_link": "none",
+      "timing": "original_pitch",
+      "turn_index": 62,
+      "quote": "See. Unethical.",
+      "explanation": "After hearing that G2 Crowd offers incentives for reviews, Jillian reiterates that the incumbent practice is unethical.",
+      "evidence": [
+        "So unethical",
+        "See. Unethical."
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 58,
+          "speaker": "Jillian",
+          "quote": "So unethical"
+        },
+        {
+          "turn_index": 62,
+          "speaker": "Jillian",
+          "quote": "See. Unethical."
+        }
+      ],
+      "activation": "evaluated",
+      "source_rationale_id": "R3",
+      "utterance_kind": "assessment",
+      "decision_support": "none",
+      "all_mention_ids": [
+        "R2",
+        "R3"
+      ]
+    },
+    {
+      "rationale_label": "stage_valuation_mismatch",
+      "direction": "neutral",
+      "salience": "secondary",
+      "confidence": 0.84,
+      "utterance_type": "question",
+      "decision_link": "none",
+      "timing": "original_pitch",
+      "turn_index": 75,
+      "quote": "At what valuation?",
+      "explanation": "Jillian queries the prior-round valuation as part of assessing the current financing relative to the company's stage.",
+      "evidence": [
+        "What was it, tell us about the prior funding.",
+        "At what valuation?"
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 73,
+          "speaker": "Jillian",
+          "quote": "What was it, tell us about the prior funding."
+        },
+        {
+          "turn_index": 75,
+          "speaker": "Jillian",
+          "quote": "At what valuation?"
+        }
+      ],
+      "activation": "queried",
+      "source_rationale_id": "R5",
+      "utterance_kind": "question",
+      "decision_support": "none",
+      "all_mention_ids": [
+        "R4",
+        "R5"
+      ]
+    },
+    {
+      "rationale_label": "traction_repeatability_concern",
+      "direction": "negative",
+      "salience": "secondary",
+      "confidence": 0.91,
+      "utterance_type": "assessment",
+      "decision_link": "none",
+      "timing": "original_pitch",
+      "turn_index": 117,
+      "quote": "Well that's why we have to see the proof.",
+      "explanation": "In response to discussion that Vetd has prospective customers but has not yet proven it can deliver the solution, Jillian says evidence is still required.",
+      "evidence": [
+        "Well that's why we have to see the proof."
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 117,
+          "speaker": "Jillian",
+          "quote": "Well that's why we have to see the proof."
+        }
+      ],
+      "activation": "evaluated",
+      "source_rationale_id": "R8",
+      "utterance_kind": "concern",
+      "decision_support": "none",
+      "all_mention_ids": [
+        "R6",
+        "R8"
+      ]
+    }
+  ],
+  "later_rationales": [],
+  "excluded_rationales": [],
+  "rationale_mentions": [
+    {
+      "rationale_label": "fundraising_demand_signal",
+      "direction": "neutral",
+      "salience": "secondary",
+      "confidence": 0.82,
+      "utterance_type": "question",
+      "decision_link": "none",
+      "timing": "original_pitch",
+      "turn_index": 51,
+      "quote": "Are you funding them too?",
+      "explanation": "Jillian asks whether another investor is also backing Vetd, querying current investor demand without expressing a conclusion.",
+      "evidence": [
+        "Are you funding them too?"
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 51,
+          "speaker": "Jillian",
+          "quote": "Are you funding them too?"
+        }
+      ],
+      "activation": "queried",
+      "source_rationale_id": "R1"
+    },
+    {
+      "rationale_label": "market_problem_validation",
+      "direction": "positive",
+      "salience": "secondary",
+      "confidence": 0.84,
+      "utterance_type": "assessment",
+      "decision_link": "none",
+      "timing": "original_pitch",
+      "turn_index": 58,
+      "quote": "So unethical",
+      "explanation": "Jillian characterizes the incumbent review practice as unethical, supporting the existence of a problem with prevailing software-review solutions.",
+      "evidence": [
+        "So unethical"
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 58,
+          "speaker": "Jillian",
+          "quote": "So unethical"
+        }
+      ],
+      "activation": "evaluated",
+      "source_rationale_id": "R2"
+    },
+    {
+      "rationale_label": "market_problem_validation",
+      "direction": "positive",
+      "salience": "secondary",
+      "confidence": 0.9,
+      "utterance_type": "assessment",
+      "decision_link": "none",
+      "timing": "original_pitch",
+      "turn_index": 62,
+      "quote": "See. Unethical.",
+      "explanation": "After hearing that G2 Crowd offers incentives for reviews, Jillian reiterates that the incumbent practice is unethical.",
+      "evidence": [
+        "See. Unethical."
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 62,
+          "speaker": "Jillian",
+          "quote": "See. Unethical."
+        }
+      ],
+      "activation": "evaluated",
+      "source_rationale_id": "R3"
+    },
+    {
+      "rationale_label": "stage_valuation_mismatch",
+      "direction": "neutral",
+      "salience": "secondary",
+      "confidence": 0.76,
+      "utterance_type": "question",
+      "decision_link": "none",
+      "timing": "original_pitch",
+      "turn_index": 73,
+      "quote": "What was it, tell us about the prior funding.",
+      "explanation": "Jillian asks about the prior financing to establish the company's funding and valuation history without asserting a mismatch.",
+      "evidence": [
+        "What was it, tell us about the prior funding."
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 73,
+          "speaker": "Jillian",
+          "quote": "What was it, tell us about the prior funding."
+        }
+      ],
+      "activation": "queried",
+      "source_rationale_id": "R4"
+    },
+    {
+      "rationale_label": "stage_valuation_mismatch",
+      "direction": "neutral",
+      "salience": "secondary",
+      "confidence": 0.84,
+      "utterance_type": "question",
+      "decision_link": "none",
+      "timing": "original_pitch",
+      "turn_index": 75,
+      "quote": "At what valuation?",
+      "explanation": "Jillian queries the prior-round valuation as part of assessing the current financing relative to the company's stage.",
+      "evidence": [
+        "At what valuation?"
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 75,
+          "speaker": "Jillian",
+          "quote": "At what valuation?"
+        }
+      ],
+      "activation": "queried",
+      "source_rationale_id": "R5"
+    },
+    {
+      "rationale_label": "traction_repeatability_concern",
+      "direction": "neutral",
+      "salience": "secondary",
+      "confidence": 0.88,
+      "utterance_type": "question",
+      "decision_link": "none",
+      "timing": "original_pitch",
+      "turn_index": 83,
+      "quote": "What are the revenues?",
+      "explanation": "Jillian asks for current revenue evidence to assess the company's traction without yet expressing a negative judgment.",
+      "evidence": [
+        "What are the revenues?"
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 83,
+          "speaker": "Jillian",
+          "quote": "What are the revenues?"
+        }
+      ],
+      "activation": "queried",
+      "source_rationale_id": "R6"
+    },
+    {
+      "rationale_label": "decision_context_constraint",
+      "direction": "negative",
+      "salience": "primary",
+      "confidence": 0.97,
+      "utterance_type": "decision_explanation",
+      "decision_link": "supports_out",
+      "timing": "original_pitch",
+      "turn_index": 99,
+      "quote": "I just need to have a little bit more time to better understand this. So I’m out right now.",
+      "explanation": "Jillian explicitly links her present refusal to needing more time to understand the opportunity.",
+      "evidence": [
+        "I just need to have a little bit more time to better understand this. So I’m out right now."
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 99,
+          "speaker": "Jillian",
+          "quote": "I just need to have a little bit more time to better understand this. So I’m out right now."
+        }
+      ],
+      "activation": "evaluated",
+      "source_rationale_id": "R7"
+    },
+    {
+      "rationale_label": "traction_repeatability_concern",
+      "direction": "negative",
+      "salience": "secondary",
+      "confidence": 0.91,
+      "utterance_type": "concern",
+      "decision_link": "none",
+      "timing": "original_pitch",
+      "turn_index": 117,
+      "quote": "Well that's why we have to see the proof.",
+      "explanation": "In response to discussion that Vetd has prospective customers but has not yet proven it can deliver the solution, Jillian says evidence is still required.",
+      "evidence": [
+        "Well that's why we have to see the proof."
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 117,
+          "speaker": "Jillian",
+          "quote": "Well that's why we have to see the proof."
+        }
+      ],
+      "activation": "evaluated",
+      "source_rationale_id": "R8"
+    }
+  ],
+  "expanded_quote_evidence": [],
+  "rejected_after_evidence_check": []
+}

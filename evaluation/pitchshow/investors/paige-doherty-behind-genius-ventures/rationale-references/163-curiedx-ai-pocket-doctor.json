@@ -1,0 +1,558 @@
+{
+  "schema": "phase1-rationale-reference-v1",
+  "extraction_version": "pitchshow-rationales-v1",
+  "fingerprint": "0f677d6576dc2f406131979613da2558eae4f6a95b0b262b860bf2b1470e7c86",
+  "episode_slug": "163-curiedx-ai-pocket-doctor",
+  "vc_slug": "paige-doherty-behind-genius-ventures",
+  "vc_name": "Paige Doherty",
+  "actual_decision": "Out",
+  "later_decision": "Unknown",
+  "reference_kind": "automated_transcript_observed_candidate",
+  "human_validated": false,
+  "source_format": "transcript-observed-rationales-v1",
+  "source_path": "../source/episodes/163-curiedx-ai-pocket-doctor.json",
+  "source_sha256": "19c3e206eb797cc502fda2e030e7ac5b53a7d61c33b9c3968eb03c8dd9f48a8a",
+  "transcript_sha256": "b22319710adf38dd719ee7039a8ba1dd32a28040f7a24d48af2b25345ede5f61",
+  "taxonomy_sha256": "eaa8734819a3ac34dd19ee5f0bf6de925a793a1d25a2d361090dafc9b751e1fc",
+  "model": "codex:gpt-5.6-luna+gpt-5.6-sol",
+  "generation_stages": [
+    {
+      "phase": "rationale_extract",
+      "backend": "codex",
+      "model": "gpt-5.6-luna"
+    },
+    {
+      "phase": "rationale_verify",
+      "backend": "codex",
+      "model": "gpt-5.6-sol"
+    }
+  ],
+  "source_tier": "newly_extracted_and_independently_model_reviewed",
+  "reviewed_target_turns": [
+    6,
+    39,
+    41,
+    43,
+    45,
+    47,
+    93,
+    95,
+    109,
+    111,
+    123,
+    132,
+    164,
+    176
+  ],
+  "notes": "Turns 6, 41, 47, and 95 were reviewed but omitted because they contain only a greeting, a redundant conversational continuation, or simple acknowledgments without a distinct rationale.",
+  "receipt_path": "receipts/163-curiedx-ai-pocket-doctor.json",
+  "scoring_scope": "original_pitch_only",
+  "shared_across_input_modes": true,
+  "rationales": [
+    {
+      "rationale_label": "business_viability_concern",
+      "direction": "negative",
+      "salience": "primary",
+      "confidence": 0.82,
+      "utterance_type": "assessment",
+      "decision_link": "none",
+      "timing": "original_pitch",
+      "turn_index": 176,
+      "quote": "About the fundamentals.",
+      "explanation": "Paige characterizes the investors’ objections as concerns about the business fundamentals rather than merely the presentation.",
+      "evidence": [
+        "About the fundamentals."
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 176,
+          "speaker": "Paige",
+          "quote": "About the fundamentals."
+        }
+      ],
+      "activation": "evaluated",
+      "source_rationale_id": "R13",
+      "utterance_kind": "assessment",
+      "decision_support": "none",
+      "all_mention_ids": [
+        "R13"
+      ]
+    },
+    {
+      "rationale_label": "decision_context_constraint",
+      "direction": "neutral",
+      "salience": "secondary",
+      "confidence": 0.97,
+      "utterance_type": "assessment",
+      "decision_link": "none",
+      "timing": "original_pitch",
+      "turn_index": 132,
+      "quote": "don't change your mind at this table because you're being asked to.",
+      "explanation": "Paige cautions that pressure from the pitch-room setting should not determine the founder’s financing plan.",
+      "evidence": [
+        "don't change your mind at this table because you're being asked to."
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 132,
+          "speaker": "Paige",
+          "quote": "don't change your mind at this table because you're being asked to."
+        }
+      ],
+      "activation": "evaluated",
+      "source_rationale_id": "R11",
+      "utterance_kind": "concern",
+      "decision_support": "none",
+      "all_mention_ids": [
+        "R11"
+      ]
+    },
+    {
+      "rationale_label": "founder_investor_vision_alignment",
+      "direction": "negative",
+      "salience": "primary",
+      "confidence": 0.97,
+      "utterance_type": "decision_reason",
+      "decision_link": "explicit",
+      "timing": "original_pitch",
+      "turn_index": 123,
+      "quote": "it seems like you know so much about the space that you're adding like all these different variables.",
+      "explanation": "Paige views the founder’s broad, multi-variable plan as insufficiently focused relative to the direction she would back.",
+      "evidence": [
+        "it seems like you know so much about the space that you're adding like all these different variables."
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 123,
+          "speaker": "Paige",
+          "quote": "it seems like you know so much about the space that you're adding like all these different variables."
+        }
+      ],
+      "activation": "evaluated",
+      "source_rationale_id": "R7",
+      "utterance_kind": "decision_explanation",
+      "decision_support": "supports_out",
+      "all_mention_ids": [
+        "R7",
+        "R8"
+      ]
+    },
+    {
+      "rationale_label": "fund_economics_constraint",
+      "direction": "negative",
+      "salience": "primary",
+      "confidence": 0.98,
+      "utterance_type": "decision_reason",
+      "decision_link": "explicit",
+      "timing": "original_pitch",
+      "turn_index": 123,
+      "quote": "But the $4 million raise with many variables is less of a fit for us.",
+      "explanation": "Paige explicitly links the current $4 million round to poor fit with her fund.",
+      "evidence": [
+        "But the $4 million raise with many variables is less of a fit for us."
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 123,
+          "speaker": "Paige",
+          "quote": "But the $4 million raise with many variables is less of a fit for us."
+        }
+      ],
+      "activation": "evaluated",
+      "source_rationale_id": "R10",
+      "utterance_kind": "decision_explanation",
+      "decision_support": "supports_out",
+      "all_mention_ids": [
+        "R9",
+        "R10"
+      ]
+    },
+    {
+      "rationale_label": "go_to_market_strategy_assessment",
+      "direction": "negative",
+      "salience": "primary",
+      "confidence": 0.98,
+      "utterance_type": "assessment",
+      "decision_link": "none",
+      "timing": "original_pitch",
+      "turn_index": 109,
+      "quote": "it sounds like there's a bit of hesitation on committing to B2B or committing to direct to consumer.",
+      "explanation": "Paige is concerned that the company has not committed to a clear long-term customer-acquisition strategy.",
+      "evidence": [
+        "it sounds like there's a bit of hesitation on committing to B2B or committing to direct to consumer."
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 109,
+          "speaker": "Paige",
+          "quote": "it sounds like there's a bit of hesitation on committing to B2B or committing to direct to consumer."
+        }
+      ],
+      "activation": "evaluated",
+      "source_rationale_id": "R5",
+      "utterance_kind": "concern",
+      "decision_support": "none",
+      "all_mention_ids": [
+        "R1",
+        "R2",
+        "R3",
+        "R5",
+        "R6"
+      ]
+    },
+    {
+      "rationale_label": "growth_projection_risk",
+      "direction": "neutral",
+      "salience": "secondary",
+      "confidence": 0.82,
+      "utterance_type": "assessment",
+      "decision_link": "none",
+      "timing": "original_pitch",
+      "turn_index": 164,
+      "quote": "That was - that was with like 30 to 40 b2b customers.",
+      "explanation": "Paige clarifies that the revenue projection included an assumed contribution from 30 to 40 B2B customers.",
+      "evidence": [
+        "Where does the 10,000 patients get you revenue wise? Is there, like, a number tied to that?",
+        "That was - that was with like 30 to 40 b2b customers."
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 93,
+          "speaker": "Paige",
+          "quote": "Where does the 10,000 patients get you revenue wise? Is there, like, a number tied to that?"
+        },
+        {
+          "turn_index": 164,
+          "speaker": "Paige",
+          "quote": "That was - that was with like 30 to 40 b2b customers."
+        }
+      ],
+      "activation": "evaluated",
+      "source_rationale_id": "R12",
+      "utterance_kind": "assessment",
+      "decision_support": "none",
+      "all_mention_ids": [
+        "R4",
+        "R12"
+      ]
+    }
+  ],
+  "later_rationales": [],
+  "excluded_rationales": [],
+  "rationale_mentions": [
+    {
+      "rationale_label": "go_to_market_strategy_assessment",
+      "direction": "neutral",
+      "salience": "secondary",
+      "confidence": 0.93,
+      "utterance_type": "question",
+      "decision_link": "none",
+      "timing": "original_pitch",
+      "turn_index": 39,
+      "quote": "And then the reason that you're going through the FDA approval is?",
+      "explanation": "Paige asks why regulatory approval is necessary within the company’s commercialization plan.",
+      "evidence": [
+        "And then the reason that you're going through the FDA approval is?"
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 39,
+          "speaker": "Paige",
+          "quote": "And then the reason that you're going through the FDA approval is?"
+        }
+      ],
+      "activation": "queried",
+      "source_rationale_id": "R1"
+    },
+    {
+      "rationale_label": "go_to_market_strategy_assessment",
+      "direction": "neutral",
+      "salience": "secondary",
+      "confidence": 0.88,
+      "utterance_type": "supporting_argument",
+      "decision_link": "none",
+      "timing": "original_pitch",
+      "turn_index": 43,
+      "quote": "if you're not FDA approved, then you can like make those fast iterations.",
+      "explanation": "Paige identifies faster iteration as a strategic advantage of remaining outside the FDA-approved pathway.",
+      "evidence": [
+        "if you're not FDA approved, then you can like make those fast iterations."
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 43,
+          "speaker": "Paige",
+          "quote": "if you're not FDA approved, then you can like make those fast iterations."
+        }
+      ],
+      "activation": "evaluated",
+      "source_rationale_id": "R2"
+    },
+    {
+      "rationale_label": "go_to_market_strategy_assessment",
+      "direction": "neutral",
+      "salience": "secondary",
+      "confidence": 0.94,
+      "utterance_type": "question",
+      "decision_link": "none",
+      "timing": "original_pitch",
+      "turn_index": 45,
+      "quote": "So it's more like in preparing to sell to larger enterprises that's like a requirement for buying software.",
+      "explanation": "Paige confirms that FDA approval is intended to enable sales to larger enterprise customers.",
+      "evidence": [
+        "So it's more like in preparing to sell to larger enterprises that's like a requirement for buying software."
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 45,
+          "speaker": "Paige",
+          "quote": "So it's more like in preparing to sell to larger enterprises that's like a requirement for buying software."
+        }
+      ],
+      "activation": "queried",
+      "source_rationale_id": "R3"
+    },
+    {
+      "rationale_label": "growth_projection_risk",
+      "direction": "neutral",
+      "salience": "secondary",
+      "confidence": 0.96,
+      "utterance_type": "question",
+      "decision_link": "none",
+      "timing": "original_pitch",
+      "turn_index": 93,
+      "quote": "Where does the 10,000 patients get you revenue wise? Is there, like, a number tied to that?",
+      "explanation": "Paige asks for the revenue assumptions attached to the 10,000-patient growth milestone.",
+      "evidence": [
+        "Where does the 10,000 patients get you revenue wise? Is there, like, a number tied to that?"
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 93,
+          "speaker": "Paige",
+          "quote": "Where does the 10,000 patients get you revenue wise? Is there, like, a number tied to that?"
+        }
+      ],
+      "activation": "queried",
+      "source_rationale_id": "R4"
+    },
+    {
+      "rationale_label": "go_to_market_strategy_assessment",
+      "direction": "negative",
+      "salience": "primary",
+      "confidence": 0.98,
+      "utterance_type": "concern",
+      "decision_link": "none",
+      "timing": "original_pitch",
+      "turn_index": 109,
+      "quote": "it sounds like there's a bit of hesitation on committing to B2B or committing to direct to consumer.",
+      "explanation": "Paige is concerned that the company has not committed to a clear long-term customer-acquisition strategy.",
+      "evidence": [
+        "it sounds like there's a bit of hesitation on committing to B2B or committing to direct to consumer."
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 109,
+          "speaker": "Paige",
+          "quote": "it sounds like there's a bit of hesitation on committing to B2B or committing to direct to consumer."
+        }
+      ],
+      "activation": "evaluated",
+      "source_rationale_id": "R5"
+    },
+    {
+      "rationale_label": "go_to_market_strategy_assessment",
+      "direction": "neutral",
+      "salience": "secondary",
+      "confidence": 0.97,
+      "utterance_type": "question",
+      "decision_link": "none",
+      "timing": "original_pitch",
+      "turn_index": 111,
+      "quote": "how many would you say are, like, in your top of funnel that you've reached out to or talked to so far? And then how many are in discussion stage?",
+      "explanation": "Paige asks for concrete evidence of the urgent-care sales pipeline and its progression.",
+      "evidence": [
+        "how many would you say are, like, in your top of funnel that you've reached out to or talked to so far? And then how many are in discussion stage?"
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 111,
+          "speaker": "Paige",
+          "quote": "how many would you say are, like, in your top of funnel that you've reached out to or talked to so far? And then how many are in discussion stage?"
+        }
+      ],
+      "activation": "queried",
+      "source_rationale_id": "R6"
+    },
+    {
+      "rationale_label": "founder_investor_vision_alignment",
+      "direction": "negative",
+      "salience": "primary",
+      "confidence": 0.97,
+      "utterance_type": "decision_explanation",
+      "decision_link": "supports_out",
+      "timing": "original_pitch",
+      "turn_index": 123,
+      "quote": "it seems like you know so much about the space that you're adding like all these different variables.",
+      "explanation": "Paige views the founder’s broad, multi-variable plan as insufficiently focused relative to the direction she would back.",
+      "evidence": [
+        "it seems like you know so much about the space that you're adding like all these different variables."
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 123,
+          "speaker": "Paige",
+          "quote": "it seems like you know so much about the space that you're adding like all these different variables."
+        }
+      ],
+      "activation": "evaluated",
+      "source_rationale_id": "R7"
+    },
+    {
+      "rationale_label": "founder_investor_vision_alignment",
+      "direction": "positive",
+      "salience": "primary",
+      "confidence": 0.97,
+      "utterance_type": "supporting_argument",
+      "decision_link": "none",
+      "timing": "original_pitch",
+      "turn_index": 123,
+      "quote": "you're just looking to get the 10,000 direct to consumer folks and then like reevaluate another raise after that based on your learnings and whether you want to, like, which business model you want to pursue",
+      "explanation": "Paige says a focused D2C milestone followed by an evidence-based business-model decision would align better with her preferred path.",
+      "evidence": [
+        "you're just looking to get the 10,000 direct to consumer folks and then like reevaluate another raise after that based on your learnings and whether you want to, like, which business model you want to pursue"
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 123,
+          "speaker": "Paige",
+          "quote": "you're just looking to get the 10,000 direct to consumer folks and then like reevaluate another raise after that based on your learnings and whether you want to, like, which business model you want to pursue"
+        }
+      ],
+      "activation": "evaluated",
+      "source_rationale_id": "R8"
+    },
+    {
+      "rationale_label": "fund_economics_constraint",
+      "direction": "positive",
+      "salience": "primary",
+      "confidence": 0.97,
+      "utterance_type": "assessment",
+      "decision_link": "none",
+      "timing": "original_pitch",
+      "turn_index": 123,
+      "quote": "if the raise was like a small amount",
+      "explanation": "Paige indicates that a smaller financing round would better match her fund’s investment parameters.",
+      "evidence": [
+        "if the raise was like a small amount"
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 123,
+          "speaker": "Paige",
+          "quote": "if the raise was like a small amount"
+        }
+      ],
+      "activation": "evaluated",
+      "source_rationale_id": "R9"
+    },
+    {
+      "rationale_label": "fund_economics_constraint",
+      "direction": "negative",
+      "salience": "primary",
+      "confidence": 0.98,
+      "utterance_type": "decision_explanation",
+      "decision_link": "supports_out",
+      "timing": "original_pitch",
+      "turn_index": 123,
+      "quote": "But the $4 million raise with many variables is less of a fit for us.",
+      "explanation": "Paige explicitly links the current $4 million round to poor fit with her fund.",
+      "evidence": [
+        "But the $4 million raise with many variables is less of a fit for us."
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 123,
+          "speaker": "Paige",
+          "quote": "But the $4 million raise with many variables is less of a fit for us."
+        }
+      ],
+      "activation": "evaluated",
+      "source_rationale_id": "R10"
+    },
+    {
+      "rationale_label": "decision_context_constraint",
+      "direction": "neutral",
+      "salience": "secondary",
+      "confidence": 0.97,
+      "utterance_type": "concern",
+      "decision_link": "none",
+      "timing": "original_pitch",
+      "turn_index": 132,
+      "quote": "don't change your mind at this table because you're being asked to.",
+      "explanation": "Paige cautions that pressure from the pitch-room setting should not determine the founder’s financing plan.",
+      "evidence": [
+        "don't change your mind at this table because you're being asked to."
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 132,
+          "speaker": "Paige",
+          "quote": "don't change your mind at this table because you're being asked to."
+        }
+      ],
+      "activation": "evaluated",
+      "source_rationale_id": "R11"
+    },
+    {
+      "rationale_label": "growth_projection_risk",
+      "direction": "neutral",
+      "salience": "secondary",
+      "confidence": 0.82,
+      "utterance_type": "assessment",
+      "decision_link": "none",
+      "timing": "original_pitch",
+      "turn_index": 164,
+      "quote": "That was - that was with like 30 to 40 b2b customers.",
+      "explanation": "Paige clarifies that the revenue projection included an assumed contribution from 30 to 40 B2B customers.",
+      "evidence": [
+        "That was - that was with like 30 to 40 b2b customers."
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 164,
+          "speaker": "Paige",
+          "quote": "That was - that was with like 30 to 40 b2b customers."
+        }
+      ],
+      "activation": "evaluated",
+      "source_rationale_id": "R12"
+    },
+    {
+      "rationale_label": "business_viability_concern",
+      "direction": "negative",
+      "salience": "primary",
+      "confidence": 0.82,
+      "utterance_type": "assessment",
+      "decision_link": "none",
+      "timing": "original_pitch",
+      "turn_index": 176,
+      "quote": "About the fundamentals.",
+      "explanation": "Paige characterizes the investors’ objections as concerns about the business fundamentals rather than merely the presentation.",
+      "evidence": [
+        "About the fundamentals."
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 176,
+          "speaker": "Paige",
+          "quote": "About the fundamentals."
+        }
+      ],
+      "activation": "evaluated",
+      "source_rationale_id": "R13"
+    }
+  ],
+  "expanded_quote_evidence": [],
+  "rejected_after_evidence_check": []
+}

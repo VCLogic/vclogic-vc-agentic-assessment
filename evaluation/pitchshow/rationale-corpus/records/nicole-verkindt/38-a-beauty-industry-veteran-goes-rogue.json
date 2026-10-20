@@ -1,0 +1,1102 @@
+{
+  "schema": "phase1-rationale-reference-v1",
+  "extraction_version": "pitchshow-rationales-v1",
+  "fingerprint": "1f58170d87d259288fe28b6c0281910efeef45ac22d6af14a26fcc44ef2ea122",
+  "episode_slug": "38-a-beauty-industry-veteran-goes-rogue",
+  "vc_slug": "nicole-verkindt",
+  "vc_name": "Nicole Verkindt",
+  "actual_decision": "Out",
+  "later_decision": "Unknown",
+  "reference_kind": "automated_transcript_observed_candidate",
+  "human_validated": false,
+  "source_format": "transcript-observed-rationales-v1",
+  "source_path": "/home/dpasch01/vclogic-vc-agentic-assessment/evaluation/pitchshow/investors/nicole-verkindt/source/episodes/38-a-beauty-industry-veteran-goes-rogue.json",
+  "source_sha256": "d1dbe212a5c42aaa0db40f9e44c1870b0025d5bd4093c6db708bdebe2400c73f",
+  "transcript_sha256": "c605076472c373ca32e86f43f02059492174634fc75ef767a4b286810c2d5a15",
+  "taxonomy_sha256": "eaa8734819a3ac34dd19ee5f0bf6de925a793a1d25a2d361090dafc9b751e1fc",
+  "model": "codex:gpt-5.6-luna+gpt-5.6-sol",
+  "generation_stages": [
+    {
+      "phase": "rationale_extract",
+      "backend": "codex",
+      "model": "gpt-5.6-luna"
+    },
+    {
+      "phase": "rationale_verify",
+      "backend": "codex",
+      "model": "gpt-5.6-sol"
+    }
+  ],
+  "source_tier": "newly_extracted_and_independently_model_reviewed",
+  "reviewed_target_turns": [
+    3,
+    6,
+    12,
+    14,
+    19,
+    20,
+    22,
+    24,
+    30,
+    32,
+    38,
+    40,
+    42,
+    44,
+    48,
+    50,
+    63,
+    64,
+    66,
+    68,
+    70,
+    72,
+    74,
+    76,
+    78,
+    81,
+    89,
+    91,
+    94,
+    100,
+    106,
+    108,
+    110,
+    112,
+    114,
+    116
+  ],
+  "notes": "All supplied target turns were reviewed exactly once. The founder's later interview contains no target turns; Nicole's decision and immediate investor-only debrief remain classified as original_pitch.",
+  "receipt_path": "/home/dpasch01/vclogic-vc-agentic-assessment/evaluation/pitchshow/investors/nicole-verkindt/rationale-references/receipts/38-a-beauty-industry-veteran-goes-rogue.json",
+  "scoring_scope": "original_pitch_only",
+  "shared_across_input_modes": true,
+  "rationales": [
+    {
+      "rationale_label": "business_model_assessment",
+      "direction": "neutral",
+      "salience": "secondary",
+      "confidence": 0.91,
+      "utterance_type": "question",
+      "decision_link": "none",
+      "timing": "original_pitch",
+      "turn_index": 44,
+      "quote": "at the same price, you don’t have to buy that moisturizer anymore",
+      "explanation": "Nicole checks the proposed same-price substitution for an existing moisturizer.",
+      "evidence": [
+        "Where does this replace that? And how much more will it cost me?",
+        "Is it more or cheaper?",
+        "it's about the same price is what you're saying?",
+        "at the same price, you don’t have to buy that moisturizer anymore"
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 38,
+          "speaker": "Nicole",
+          "quote": "Where does this replace that? And how much more will it cost me?"
+        },
+        {
+          "turn_index": 40,
+          "speaker": "Nicole",
+          "quote": "Is it more or cheaper?"
+        },
+        {
+          "turn_index": 42,
+          "speaker": "Nicole",
+          "quote": "it's about the same price is what you're saying?"
+        },
+        {
+          "turn_index": 44,
+          "speaker": "Nicole",
+          "quote": "at the same price, you don’t have to buy that moisturizer anymore"
+        }
+      ],
+      "activation": "queried",
+      "source_rationale_id": "R4",
+      "utterance_kind": "question",
+      "decision_support": "none",
+      "all_mention_ids": [
+        "R1",
+        "R2",
+        "R3",
+        "R4"
+      ]
+    },
+    {
+      "rationale_label": "capital_intensity_concern",
+      "direction": "neutral",
+      "salience": "secondary",
+      "confidence": 0.93,
+      "utterance_type": "question",
+      "decision_link": "none",
+      "timing": "original_pitch",
+      "turn_index": 50,
+      "quote": "How much are you burning a month? And how much are you raising now?",
+      "explanation": "Nicole queries the company's ongoing cash consumption and current financing requirement.",
+      "evidence": [
+        "So how much have you raised to date?",
+        "How much are you burning a month? And how much are you raising now?"
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 48,
+          "speaker": "Nicole",
+          "quote": "So how much have you raised to date?"
+        },
+        {
+          "turn_index": 50,
+          "speaker": "Nicole",
+          "quote": "How much are you burning a month? And how much are you raising now?"
+        }
+      ],
+      "activation": "queried",
+      "source_rationale_id": "R6",
+      "utterance_kind": "question",
+      "decision_support": "none",
+      "all_mention_ids": [
+        "R5",
+        "R6"
+      ]
+    },
+    {
+      "rationale_label": "competitive_advantage_assessment",
+      "direction": "positive",
+      "salience": "secondary",
+      "confidence": 0.91,
+      "utterance_type": "assessment",
+      "decision_link": "none",
+      "timing": "original_pitch",
+      "turn_index": 89,
+      "quote": "That's the kind of thing that you can't find in a founder that doesn't have the same kind of experience.",
+      "explanation": "Nicole identifies the founder's difficult-to-replicate industry experience as a source of advantage.",
+      "evidence": [
+        "That's the kind of thing that you can't find in a founder that doesn't have the same kind of experience."
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 89,
+          "speaker": "Nicole",
+          "quote": "That's the kind of thing that you can't find in a founder that doesn't have the same kind of experience."
+        }
+      ],
+      "activation": "evaluated",
+      "source_rationale_id": "R15",
+      "utterance_kind": "supporting_argument",
+      "decision_support": "none",
+      "all_mention_ids": [
+        "R15"
+      ]
+    },
+    {
+      "rationale_label": "founder_market_fit",
+      "direction": "positive",
+      "salience": "secondary",
+      "confidence": 0.99,
+      "utterance_type": "decision_reason",
+      "decision_link": "none",
+      "timing": "original_pitch",
+      "turn_index": 91,
+      "quote": "I think you’re the right person to do it",
+      "explanation": "Nicole positively assesses Tina's fit to pursue the opportunity.",
+      "evidence": [
+        "you're using all your years in the beauty industry and all those learnings, right?",
+        "I think you’re the right person to do it"
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 89,
+          "speaker": "Nicole",
+          "quote": "you're using all your years in the beauty industry and all those learnings, right?"
+        },
+        {
+          "turn_index": 91,
+          "speaker": "Nicole",
+          "quote": "I think you’re the right person to do it"
+        }
+      ],
+      "activation": "evaluated",
+      "source_rationale_id": "R18",
+      "utterance_kind": "decision_explanation",
+      "decision_support": "none",
+      "all_mention_ids": [
+        "R14",
+        "R18"
+      ]
+    },
+    {
+      "rationale_label": "founder_qualities",
+      "direction": "positive",
+      "salience": "secondary",
+      "confidence": 0.93,
+      "utterance_type": "assessment",
+      "decision_link": "none",
+      "timing": "original_pitch",
+      "turn_index": 116,
+      "quote": "She's going to be good, I think.",
+      "explanation": "Nicole reiterates her positive assessment of the founder's likely performance.",
+      "evidence": [
+        "she’s a business person, right? Like she’s not... She’s going to be good.",
+        "She's going to be good, I think."
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 114,
+          "speaker": "Nicole",
+          "quote": "she’s a business person, right? Like she’s not... She’s going to be good."
+        },
+        {
+          "turn_index": 116,
+          "speaker": "Nicole",
+          "quote": "She's going to be good, I think."
+        }
+      ],
+      "activation": "evaluated",
+      "source_rationale_id": "R25",
+      "utterance_kind": "assessment",
+      "decision_support": "none",
+      "all_mention_ids": [
+        "R24",
+        "R25"
+      ]
+    },
+    {
+      "rationale_label": "investor_domain_knowledge_constraint",
+      "direction": "negative",
+      "salience": "secondary",
+      "confidence": 0.99,
+      "utterance_type": "decision_reason",
+      "decision_link": "none",
+      "timing": "original_pitch",
+      "turn_index": 91,
+      "quote": "I don't really know anything about beauty.",
+      "explanation": "Nicole acknowledges that she lacks expertise in the company's category.",
+      "evidence": [
+        "I don't really know anything about beauty."
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 91,
+          "speaker": "Nicole",
+          "quote": "I don't really know anything about beauty."
+        }
+      ],
+      "activation": "evaluated",
+      "source_rationale_id": "R16",
+      "utterance_kind": "decision_explanation",
+      "decision_support": "none",
+      "all_mention_ids": [
+        "R16"
+      ]
+    },
+    {
+      "rationale_label": "market_size_assessment",
+      "direction": "positive",
+      "salience": "secondary",
+      "confidence": 0.98,
+      "utterance_type": "assessment",
+      "decision_link": "none",
+      "timing": "original_pitch",
+      "turn_index": 94,
+      "quote": "that market's big enough. There's definitely room for a bunch of them.",
+      "explanation": "Nicole believes the market can support multiple successful companies.",
+      "evidence": [
+        "that market's big enough. There's definitely room for a bunch of them."
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 94,
+          "speaker": "Nicole",
+          "quote": "that market's big enough. There's definitely room for a bunch of them."
+        }
+      ],
+      "activation": "evaluated",
+      "source_rationale_id": "R21",
+      "utterance_kind": "supporting_argument",
+      "decision_support": "none",
+      "all_mention_ids": [
+        "R21"
+      ]
+    },
+    {
+      "rationale_label": "market_timing",
+      "direction": "positive",
+      "salience": "secondary",
+      "confidence": 0.94,
+      "utterance_type": "assessment",
+      "decision_link": "none",
+      "timing": "original_pitch",
+      "turn_index": 112,
+      "quote": "Or the Goop movement. These are big movements. She's right.",
+      "explanation": "Nicole recognizes large contemporary movements that support the company's category.",
+      "evidence": [
+        "I agree that this is a thing, and I think you’re going to piggyback off of it",
+        "Or the Goop movement. These are big movements. She's right."
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 91,
+          "speaker": "Nicole",
+          "quote": "I agree that this is a thing, and I think you’re going to piggyback off of it"
+        },
+        {
+          "turn_index": 112,
+          "speaker": "Nicole",
+          "quote": "Or the Goop movement. These are big movements. She's right."
+        }
+      ],
+      "activation": "evaluated",
+      "source_rationale_id": "R23",
+      "utterance_kind": "supporting_argument",
+      "decision_support": "none",
+      "all_mention_ids": [
+        "R17",
+        "R23"
+      ]
+    },
+    {
+      "rationale_label": "product_adoption",
+      "direction": "neutral",
+      "salience": "secondary",
+      "confidence": 0.96,
+      "utterance_type": "question",
+      "decision_link": "none",
+      "timing": "original_pitch",
+      "turn_index": 81,
+      "quote": "People say that. It's just how many are doing it?",
+      "explanation": "Nicole asks whether stated consumer preference is translating into actual purchasing behavior.",
+      "evidence": [
+        "People say that. It's just how many are doing it?"
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 81,
+          "speaker": "Nicole",
+          "quote": "People say that. It's just how many are doing it?"
+        }
+      ],
+      "activation": "queried",
+      "source_rationale_id": "R13",
+      "utterance_kind": "question",
+      "decision_support": "none",
+      "all_mention_ids": [
+        "R13"
+      ]
+    },
+    {
+      "rationale_label": "product_appeal_assessment",
+      "direction": "negative",
+      "salience": "primary",
+      "confidence": 0.99,
+      "utterance_type": "decision_reason",
+      "decision_link": "explicit",
+      "timing": "original_pitch",
+      "turn_index": 91,
+      "quote": "I just can’t see myself using it, and that’s why I have a hard time personally.",
+      "explanation": "Nicole directly links her inability to envision using the product with her difficulty investing.",
+      "evidence": [
+        "And I know people like the smell. But I don’t.",
+        "Just something a little bit more moderate.",
+        "I just can’t see myself using it, and that’s why I have a hard time personally."
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 66,
+          "speaker": "Nicole",
+          "quote": "And I know people like the smell. But I don’t."
+        },
+        {
+          "turn_index": 76,
+          "speaker": "Nicole",
+          "quote": "Just something a little bit more moderate."
+        },
+        {
+          "turn_index": 91,
+          "speaker": "Nicole",
+          "quote": "I just can’t see myself using it, and that’s why I have a hard time personally."
+        }
+      ],
+      "activation": "evaluated",
+      "source_rationale_id": "R19",
+      "utterance_kind": "decision_explanation",
+      "decision_support": "supports_out",
+      "all_mention_ids": [
+        "R9",
+        "R12",
+        "R19"
+      ]
+    },
+    {
+      "rationale_label": "product_success_factor_assessment",
+      "direction": "negative",
+      "salience": "primary",
+      "confidence": 0.99,
+      "utterance_type": "decision_reason",
+      "decision_link": "explicit",
+      "timing": "original_pitch",
+      "turn_index": 100,
+      "quote": "I just think it’s too complicated. There’s like five jars.",
+      "explanation": "In the immediate in-room debrief, Nicole reiterates product complexity as a major reason for her negative assessment.",
+      "evidence": [
+        "I need the product to, I think for me have almost no scent. And something that's so quick. Like, I don't want a dish. I don't want tools.",
+        "I just think it’s too complicated. There’s like five jars."
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 91,
+          "speaker": "Nicole",
+          "quote": "I need the product to, I think for me have almost no scent. And something that's so quick. Like, I don't want a dish. I don't want tools."
+        },
+        {
+          "turn_index": 100,
+          "speaker": "Nicole",
+          "quote": "I just think it’s too complicated. There’s like five jars."
+        }
+      ],
+      "activation": "evaluated",
+      "source_rationale_id": "R22",
+      "utterance_kind": "decision_explanation",
+      "decision_support": "supports_out",
+      "all_mention_ids": [
+        "R8",
+        "R10",
+        "R11",
+        "R20",
+        "R22"
+      ]
+    },
+    {
+      "rationale_label": "unit_economics_assessment",
+      "direction": "positive",
+      "salience": "secondary",
+      "confidence": 0.94,
+      "utterance_type": "assessment",
+      "decision_link": "none",
+      "timing": "original_pitch",
+      "turn_index": 63,
+      "quote": "Crazy low. Crazy low.",
+      "explanation": "Nicole positively reacts to the low production volume at which the company maintains its reported margins.",
+      "evidence": [
+        "Crazy low. Crazy low."
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 63,
+          "speaker": "Nicole",
+          "quote": "Crazy low. Crazy low."
+        }
+      ],
+      "activation": "evaluated",
+      "source_rationale_id": "R7",
+      "utterance_kind": "supporting_argument",
+      "decision_support": "none",
+      "all_mention_ids": [
+        "R7"
+      ]
+    }
+  ],
+  "later_rationales": [],
+  "excluded_rationales": [],
+  "rationale_mentions": [
+    {
+      "rationale_label": "business_model_assessment",
+      "direction": "neutral",
+      "salience": "secondary",
+      "confidence": 0.95,
+      "utterance_type": "question",
+      "decision_link": "none",
+      "timing": "original_pitch",
+      "turn_index": 38,
+      "quote": "Where does this replace that? And how much more will it cost me?",
+      "explanation": "Nicole asks about the product's replacement value and price relative to her current moisturizer.",
+      "evidence": [
+        "Where does this replace that? And how much more will it cost me?"
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 38,
+          "speaker": "Nicole",
+          "quote": "Where does this replace that? And how much more will it cost me?"
+        }
+      ],
+      "activation": "queried",
+      "source_rationale_id": "R1"
+    },
+    {
+      "rationale_label": "business_model_assessment",
+      "direction": "neutral",
+      "salience": "secondary",
+      "confidence": 0.96,
+      "utterance_type": "question",
+      "decision_link": "none",
+      "timing": "original_pitch",
+      "turn_index": 40,
+      "quote": "Is it more or cheaper?",
+      "explanation": "Nicole directly queries the product's comparative price.",
+      "evidence": [
+        "Is it more or cheaper?"
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 40,
+          "speaker": "Nicole",
+          "quote": "Is it more or cheaper?"
+        }
+      ],
+      "activation": "queried",
+      "source_rationale_id": "R2"
+    },
+    {
+      "rationale_label": "business_model_assessment",
+      "direction": "neutral",
+      "salience": "secondary",
+      "confidence": 0.94,
+      "utterance_type": "question",
+      "decision_link": "none",
+      "timing": "original_pitch",
+      "turn_index": 42,
+      "quote": "it's about the same price is what you're saying?",
+      "explanation": "Nicole seeks confirmation of the product's price positioning.",
+      "evidence": [
+        "it's about the same price is what you're saying?"
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 42,
+          "speaker": "Nicole",
+          "quote": "it's about the same price is what you're saying?"
+        }
+      ],
+      "activation": "queried",
+      "source_rationale_id": "R3"
+    },
+    {
+      "rationale_label": "business_model_assessment",
+      "direction": "neutral",
+      "salience": "secondary",
+      "confidence": 0.91,
+      "utterance_type": "question",
+      "decision_link": "none",
+      "timing": "original_pitch",
+      "turn_index": 44,
+      "quote": "at the same price, you don’t have to buy that moisturizer anymore",
+      "explanation": "Nicole checks the proposed same-price substitution for an existing moisturizer.",
+      "evidence": [
+        "at the same price, you don’t have to buy that moisturizer anymore"
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 44,
+          "speaker": "Nicole",
+          "quote": "at the same price, you don’t have to buy that moisturizer anymore"
+        }
+      ],
+      "activation": "queried",
+      "source_rationale_id": "R4"
+    },
+    {
+      "rationale_label": "capital_intensity_concern",
+      "direction": "neutral",
+      "salience": "secondary",
+      "confidence": 0.86,
+      "utterance_type": "question",
+      "decision_link": "none",
+      "timing": "original_pitch",
+      "turn_index": 48,
+      "quote": "So how much have you raised to date?",
+      "explanation": "Nicole asks how much capital the company has required so far.",
+      "evidence": [
+        "So how much have you raised to date?"
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 48,
+          "speaker": "Nicole",
+          "quote": "So how much have you raised to date?"
+        }
+      ],
+      "activation": "queried",
+      "source_rationale_id": "R5"
+    },
+    {
+      "rationale_label": "capital_intensity_concern",
+      "direction": "neutral",
+      "salience": "secondary",
+      "confidence": 0.93,
+      "utterance_type": "question",
+      "decision_link": "none",
+      "timing": "original_pitch",
+      "turn_index": 50,
+      "quote": "How much are you burning a month? And how much are you raising now?",
+      "explanation": "Nicole queries the company's ongoing cash consumption and current financing requirement.",
+      "evidence": [
+        "How much are you burning a month? And how much are you raising now?"
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 50,
+          "speaker": "Nicole",
+          "quote": "How much are you burning a month? And how much are you raising now?"
+        }
+      ],
+      "activation": "queried",
+      "source_rationale_id": "R6"
+    },
+    {
+      "rationale_label": "unit_economics_assessment",
+      "direction": "positive",
+      "salience": "secondary",
+      "confidence": 0.94,
+      "utterance_type": "supporting_argument",
+      "decision_link": "none",
+      "timing": "original_pitch",
+      "turn_index": 63,
+      "quote": "Crazy low. Crazy low.",
+      "explanation": "Nicole positively reacts to the low production volume at which the company maintains its reported margins.",
+      "evidence": [
+        "Crazy low. Crazy low."
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 63,
+          "speaker": "Nicole",
+          "quote": "Crazy low. Crazy low."
+        }
+      ],
+      "activation": "evaluated",
+      "source_rationale_id": "R7"
+    },
+    {
+      "rationale_label": "product_success_factor_assessment",
+      "direction": "neutral",
+      "salience": "secondary",
+      "confidence": 0.92,
+      "utterance_type": "question",
+      "decision_link": "none",
+      "timing": "original_pitch",
+      "turn_index": 64,
+      "quote": "What can you do about the smell?",
+      "explanation": "Nicole asks whether the product's scent can be modified.",
+      "evidence": [
+        "What can you do about the smell?"
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 64,
+          "speaker": "Nicole",
+          "quote": "What can you do about the smell?"
+        }
+      ],
+      "activation": "queried",
+      "source_rationale_id": "R8"
+    },
+    {
+      "rationale_label": "product_appeal_assessment",
+      "direction": "negative",
+      "salience": "secondary",
+      "confidence": 0.99,
+      "utterance_type": "concern",
+      "decision_link": "none",
+      "timing": "original_pitch",
+      "turn_index": 66,
+      "quote": "And I know people like the smell. But I don’t.",
+      "explanation": "Nicole explicitly says the product's smell does not appeal to her.",
+      "evidence": [
+        "And I know people like the smell. But I don’t."
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 66,
+          "speaker": "Nicole",
+          "quote": "And I know people like the smell. But I don’t."
+        }
+      ],
+      "activation": "evaluated",
+      "source_rationale_id": "R9"
+    },
+    {
+      "rationale_label": "product_success_factor_assessment",
+      "direction": "neutral",
+      "salience": "secondary",
+      "confidence": 0.94,
+      "utterance_type": "question",
+      "decision_link": "none",
+      "timing": "original_pitch",
+      "turn_index": 68,
+      "quote": "Can I buy one with no smell?",
+      "explanation": "Nicole asks whether the product is available in an unscented form.",
+      "evidence": [
+        "Can I buy one with no smell?"
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 68,
+          "speaker": "Nicole",
+          "quote": "Can I buy one with no smell?"
+        }
+      ],
+      "activation": "queried",
+      "source_rationale_id": "R10"
+    },
+    {
+      "rationale_label": "product_success_factor_assessment",
+      "direction": "neutral",
+      "salience": "secondary",
+      "confidence": 0.93,
+      "utterance_type": "question",
+      "decision_link": "none",
+      "timing": "original_pitch",
+      "turn_index": 70,
+      "quote": "Is there one that’s closer to less scent?",
+      "explanation": "Nicole asks whether a lower-scent option is available.",
+      "evidence": [
+        "Is there one that’s closer to less scent?"
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 70,
+          "speaker": "Nicole",
+          "quote": "Is there one that’s closer to less scent?"
+        }
+      ],
+      "activation": "queried",
+      "source_rationale_id": "R11"
+    },
+    {
+      "rationale_label": "product_appeal_assessment",
+      "direction": "negative",
+      "salience": "secondary",
+      "confidence": 0.94,
+      "utterance_type": "concern",
+      "decision_link": "none",
+      "timing": "original_pitch",
+      "turn_index": 76,
+      "quote": "Just something a little bit more moderate.",
+      "explanation": "Nicole expresses a preference for a less intense scent than the product she tried.",
+      "evidence": [
+        "Just something a little bit more moderate."
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 76,
+          "speaker": "Nicole",
+          "quote": "Just something a little bit more moderate."
+        }
+      ],
+      "activation": "evaluated",
+      "source_rationale_id": "R12"
+    },
+    {
+      "rationale_label": "product_adoption",
+      "direction": "neutral",
+      "salience": "secondary",
+      "confidence": 0.96,
+      "utterance_type": "question",
+      "decision_link": "none",
+      "timing": "original_pitch",
+      "turn_index": 81,
+      "quote": "People say that. It's just how many are doing it?",
+      "explanation": "Nicole asks whether stated consumer preference is translating into actual purchasing behavior.",
+      "evidence": [
+        "People say that. It's just how many are doing it?"
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 81,
+          "speaker": "Nicole",
+          "quote": "People say that. It's just how many are doing it?"
+        }
+      ],
+      "activation": "queried",
+      "source_rationale_id": "R13"
+    },
+    {
+      "rationale_label": "founder_market_fit",
+      "direction": "positive",
+      "salience": "secondary",
+      "confidence": 0.99,
+      "utterance_type": "supporting_argument",
+      "decision_link": "none",
+      "timing": "original_pitch",
+      "turn_index": 89,
+      "quote": "you're using all your years in the beauty industry and all those learnings, right?",
+      "explanation": "Nicole views Tina's extensive beauty-industry experience as directly relevant to the opportunity.",
+      "evidence": [
+        "you're using all your years in the beauty industry and all those learnings, right?"
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 89,
+          "speaker": "Nicole",
+          "quote": "you're using all your years in the beauty industry and all those learnings, right?"
+        }
+      ],
+      "activation": "evaluated",
+      "source_rationale_id": "R14"
+    },
+    {
+      "rationale_label": "competitive_advantage_assessment",
+      "direction": "positive",
+      "salience": "secondary",
+      "confidence": 0.91,
+      "utterance_type": "supporting_argument",
+      "decision_link": "none",
+      "timing": "original_pitch",
+      "turn_index": 89,
+      "quote": "That's the kind of thing that you can't find in a founder that doesn't have the same kind of experience.",
+      "explanation": "Nicole identifies the founder's difficult-to-replicate industry experience as a source of advantage.",
+      "evidence": [
+        "That's the kind of thing that you can't find in a founder that doesn't have the same kind of experience."
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 89,
+          "speaker": "Nicole",
+          "quote": "That's the kind of thing that you can't find in a founder that doesn't have the same kind of experience."
+        }
+      ],
+      "activation": "evaluated",
+      "source_rationale_id": "R15"
+    },
+    {
+      "rationale_label": "investor_domain_knowledge_constraint",
+      "direction": "negative",
+      "salience": "secondary",
+      "confidence": 0.99,
+      "utterance_type": "decision_explanation",
+      "decision_link": "none",
+      "timing": "original_pitch",
+      "turn_index": 91,
+      "quote": "I don't really know anything about beauty.",
+      "explanation": "Nicole acknowledges that she lacks expertise in the company's category.",
+      "evidence": [
+        "I don't really know anything about beauty."
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 91,
+          "speaker": "Nicole",
+          "quote": "I don't really know anything about beauty."
+        }
+      ],
+      "activation": "evaluated",
+      "source_rationale_id": "R16"
+    },
+    {
+      "rationale_label": "market_timing",
+      "direction": "positive",
+      "salience": "secondary",
+      "confidence": 0.96,
+      "utterance_type": "decision_explanation",
+      "decision_link": "none",
+      "timing": "original_pitch",
+      "turn_index": 91,
+      "quote": "I agree that this is a thing, and I think you’re going to piggyback off of it",
+      "explanation": "Nicole believes the company can benefit from an existing market movement.",
+      "evidence": [
+        "I agree that this is a thing, and I think you’re going to piggyback off of it"
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 91,
+          "speaker": "Nicole",
+          "quote": "I agree that this is a thing, and I think you’re going to piggyback off of it"
+        }
+      ],
+      "activation": "evaluated",
+      "source_rationale_id": "R17"
+    },
+    {
+      "rationale_label": "founder_market_fit",
+      "direction": "positive",
+      "salience": "secondary",
+      "confidence": 0.99,
+      "utterance_type": "decision_explanation",
+      "decision_link": "none",
+      "timing": "original_pitch",
+      "turn_index": 91,
+      "quote": "I think you’re the right person to do it",
+      "explanation": "Nicole positively assesses Tina's fit to pursue the opportunity.",
+      "evidence": [
+        "I think you’re the right person to do it"
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 91,
+          "speaker": "Nicole",
+          "quote": "I think you’re the right person to do it"
+        }
+      ],
+      "activation": "evaluated",
+      "source_rationale_id": "R18"
+    },
+    {
+      "rationale_label": "product_appeal_assessment",
+      "direction": "negative",
+      "salience": "primary",
+      "confidence": 0.99,
+      "utterance_type": "decision_explanation",
+      "decision_link": "supports_out",
+      "timing": "original_pitch",
+      "turn_index": 91,
+      "quote": "I just can’t see myself using it, and that’s why I have a hard time personally.",
+      "explanation": "Nicole directly links her inability to envision using the product with her difficulty investing.",
+      "evidence": [
+        "I just can’t see myself using it, and that’s why I have a hard time personally."
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 91,
+          "speaker": "Nicole",
+          "quote": "I just can’t see myself using it, and that’s why I have a hard time personally."
+        }
+      ],
+      "activation": "evaluated",
+      "source_rationale_id": "R19"
+    },
+    {
+      "rationale_label": "product_success_factor_assessment",
+      "direction": "negative",
+      "salience": "primary",
+      "confidence": 0.99,
+      "utterance_type": "decision_explanation",
+      "decision_link": "supports_out",
+      "timing": "original_pitch",
+      "turn_index": 91,
+      "quote": "I need the product to, I think for me have almost no scent. And something that's so quick. Like, I don't want a dish. I don't want tools.",
+      "explanation": "Nicole identifies the absent low-scent, fast, tool-free experience as a barrier to becoming a customer and therefore an investor.",
+      "evidence": [
+        "I need the product to, I think for me have almost no scent. And something that's so quick. Like, I don't want a dish. I don't want tools."
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 91,
+          "speaker": "Nicole",
+          "quote": "I need the product to, I think for me have almost no scent. And something that's so quick. Like, I don't want a dish. I don't want tools."
+        }
+      ],
+      "activation": "evaluated",
+      "source_rationale_id": "R20"
+    },
+    {
+      "rationale_label": "market_size_assessment",
+      "direction": "positive",
+      "salience": "secondary",
+      "confidence": 0.98,
+      "utterance_type": "supporting_argument",
+      "decision_link": "none",
+      "timing": "original_pitch",
+      "turn_index": 94,
+      "quote": "that market's big enough. There's definitely room for a bunch of them.",
+      "explanation": "Nicole believes the market can support multiple successful companies.",
+      "evidence": [
+        "that market's big enough. There's definitely room for a bunch of them."
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 94,
+          "speaker": "Nicole",
+          "quote": "that market's big enough. There's definitely room for a bunch of them."
+        }
+      ],
+      "activation": "evaluated",
+      "source_rationale_id": "R21"
+    },
+    {
+      "rationale_label": "product_success_factor_assessment",
+      "direction": "negative",
+      "salience": "primary",
+      "confidence": 0.99,
+      "utterance_type": "decision_explanation",
+      "decision_link": "supports_out",
+      "timing": "original_pitch",
+      "turn_index": 100,
+      "quote": "I just think it’s too complicated. There’s like five jars.",
+      "explanation": "In the immediate in-room debrief, Nicole reiterates product complexity as a major reason for her negative assessment.",
+      "evidence": [
+        "I just think it’s too complicated. There’s like five jars."
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 100,
+          "speaker": "Nicole",
+          "quote": "I just think it’s too complicated. There’s like five jars."
+        }
+      ],
+      "activation": "evaluated",
+      "source_rationale_id": "R22"
+    },
+    {
+      "rationale_label": "market_timing",
+      "direction": "positive",
+      "salience": "secondary",
+      "confidence": 0.94,
+      "utterance_type": "supporting_argument",
+      "decision_link": "none",
+      "timing": "original_pitch",
+      "turn_index": 112,
+      "quote": "Or the Goop movement. These are big movements. She's right.",
+      "explanation": "Nicole recognizes large contemporary movements that support the company's category.",
+      "evidence": [
+        "Or the Goop movement. These are big movements. She's right."
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 112,
+          "speaker": "Nicole",
+          "quote": "Or the Goop movement. These are big movements. She's right."
+        }
+      ],
+      "activation": "evaluated",
+      "source_rationale_id": "R23"
+    },
+    {
+      "rationale_label": "founder_qualities",
+      "direction": "positive",
+      "salience": "secondary",
+      "confidence": 0.94,
+      "utterance_type": "assessment",
+      "decision_link": "none",
+      "timing": "original_pitch",
+      "turn_index": 114,
+      "quote": "she’s a business person, right? Like she’s not... She’s going to be good.",
+      "explanation": "Nicole positively assesses Tina's general business capability and prospects.",
+      "evidence": [
+        "she’s a business person, right? Like she’s not... She’s going to be good."
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 114,
+          "speaker": "Nicole",
+          "quote": "she’s a business person, right? Like she’s not... She’s going to be good."
+        }
+      ],
+      "activation": "evaluated",
+      "source_rationale_id": "R24"
+    },
+    {
+      "rationale_label": "founder_qualities",
+      "direction": "positive",
+      "salience": "secondary",
+      "confidence": 0.93,
+      "utterance_type": "assessment",
+      "decision_link": "none",
+      "timing": "original_pitch",
+      "turn_index": 116,
+      "quote": "She's going to be good, I think.",
+      "explanation": "Nicole reiterates her positive assessment of the founder's likely performance.",
+      "evidence": [
+        "She's going to be good, I think."
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 116,
+          "speaker": "Nicole",
+          "quote": "She's going to be good, I think."
+        }
+      ],
+      "activation": "evaluated",
+      "source_rationale_id": "R25"
+    }
+  ],
+  "expanded_quote_evidence": [],
+  "rejected_after_evidence_check": []
+}

@@ -1,0 +1,901 @@
+{
+  "schema": "phase1-rationale-reference-v1",
+  "extraction_version": "pitchshow-rationales-v1",
+  "fingerprint": "99b49a9eefd51354ff3775d4c2812b992a1b2a2b7bbd0fd6f3eddf086faa2b76",
+  "episode_slug": "116-kimoyo-is-this-african-startup-venture-backable",
+  "vc_slug": "jillian-manus-structure-capital",
+  "vc_name": "Jillian Manus",
+  "actual_decision": "Out",
+  "later_decision": "Out",
+  "reference_kind": "automated_transcript_observed_candidate",
+  "human_validated": false,
+  "source_format": "transcript-observed-rationales-v1",
+  "source_path": "../source/episodes/116-kimoyo-is-this-african-startup-venture-backable.json",
+  "source_sha256": "643b029174cb973750997ebb2f137ed01984901ba8b4a545bcf650c06242a6aa",
+  "transcript_sha256": "b323c7e3fa75e66ec743d829e43d6bbe8b742849e28d8db2a36d98ecbb6b7d5d",
+  "taxonomy_sha256": "eaa8734819a3ac34dd19ee5f0bf6de925a793a1d25a2d361090dafc9b751e1fc",
+  "model": "codex:gpt-5.6-luna+gpt-5.6-sol",
+  "generation_stages": [
+    {
+      "phase": "rationale_extract",
+      "backend": "codex",
+      "model": "gpt-5.6-luna"
+    },
+    {
+      "phase": "rationale_verify",
+      "backend": "codex",
+      "model": "gpt-5.6-sol"
+    }
+  ],
+  "source_tier": "newly_extracted_and_independently_model_reviewed",
+  "reviewed_target_turns": [
+    2,
+    10,
+    12,
+    18,
+    34,
+    36,
+    42,
+    44,
+    48,
+    67,
+    69,
+    70,
+    80,
+    82,
+    84,
+    87,
+    89,
+    103,
+    105,
+    107,
+    109,
+    111,
+    114,
+    116,
+    118,
+    120,
+    124,
+    127,
+    130,
+    143,
+    145
+  ],
+  "notes": "All supplied target turns were reviewed; turns containing only introductions, reactions, fragments, confirmations, factual replies, or non-rationale closing remarks were omitted.",
+  "receipt_path": "receipts/116-kimoyo-is-this-african-startup-venture-backable.json",
+  "scoring_scope": "original_pitch_only",
+  "shared_across_input_modes": true,
+  "rationales": [
+    {
+      "rationale_label": "business_model_assessment",
+      "direction": "neutral",
+      "salience": "secondary",
+      "confidence": 0.94,
+      "utterance_type": "question",
+      "decision_link": "none",
+      "timing": "original_pitch",
+      "turn_index": 44,
+      "quote": "And the yearly contract is…",
+      "explanation": "Jillian asks for the annual contract value to understand the company's monetization.",
+      "evidence": [
+        "So have you looked at your payment model? Assessed it? Re-assessed it?",
+        "And the yearly contract is…"
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 42,
+          "speaker": "Jillian",
+          "quote": "So have you looked at your payment model? Assessed it? Re-assessed it?"
+        },
+        {
+          "turn_index": 44,
+          "speaker": "Jillian",
+          "quote": "And the yearly contract is…"
+        }
+      ],
+      "activation": "queried",
+      "source_rationale_id": "R5",
+      "utterance_kind": "question",
+      "decision_support": "none",
+      "all_mention_ids": [
+        "R4",
+        "R5"
+      ]
+    },
+    {
+      "rationale_label": "founder_communication_quality",
+      "direction": "positive",
+      "salience": "secondary",
+      "confidence": 0.84,
+      "utterance_type": "assessment",
+      "decision_link": "none",
+      "timing": "original_pitch",
+      "turn_index": 80,
+      "quote": "You're good.",
+      "explanation": "Jillian positively assesses Mariam's persuasive performance in the pitch discussion.",
+      "evidence": [
+        "You're good."
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 80,
+          "speaker": "Jillian",
+          "quote": "You're good."
+        }
+      ],
+      "activation": "evaluated",
+      "source_rationale_id": "R9",
+      "utterance_kind": "assessment",
+      "decision_support": "none",
+      "all_mention_ids": [
+        "R9"
+      ]
+    },
+    {
+      "rationale_label": "founder_qualities",
+      "direction": "positive",
+      "salience": "secondary",
+      "confidence": 0.93,
+      "utterance_type": "assessment",
+      "decision_link": "none",
+      "timing": "original_pitch",
+      "turn_index": 12,
+      "quote": "You seem to be like all that!",
+      "explanation": "Jillian expresses a favorable initial impression of Mariam's overall capabilities.",
+      "evidence": [
+        "You seem to be like all that!"
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 12,
+          "speaker": "Jillian",
+          "quote": "You seem to be like all that!"
+        }
+      ],
+      "activation": "evaluated",
+      "source_rationale_id": "R1",
+      "utterance_kind": "assessment",
+      "decision_support": "none",
+      "all_mention_ids": [
+        "R1"
+      ]
+    },
+    {
+      "rationale_label": "fundraising_demand_signal",
+      "direction": "neutral",
+      "salience": "secondary",
+      "confidence": 0.76,
+      "utterance_type": "question",
+      "decision_link": "none",
+      "timing": "original_pitch",
+      "turn_index": 124,
+      "quote": "Maybe she hasn't gone - has she pitched to -",
+      "explanation": "In the immediate debrief, Jillian asks whether the founder has approached local investors, probing the significance of their absence from the round.",
+      "evidence": [
+        "How much have you raised?",
+        "Maybe she hasn't gone - has she pitched to -"
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 48,
+          "speaker": "Jillian",
+          "quote": "How much have you raised?"
+        },
+        {
+          "turn_index": 124,
+          "speaker": "Jillian",
+          "quote": "Maybe she hasn't gone - has she pitched to -"
+        }
+      ],
+      "activation": "queried",
+      "source_rationale_id": "R18",
+      "utterance_kind": "question",
+      "decision_support": "none",
+      "all_mention_ids": [
+        "R6",
+        "R18"
+      ]
+    },
+    {
+      "rationale_label": "investor_domain_knowledge_constraint",
+      "direction": "negative",
+      "salience": "primary",
+      "confidence": 0.96,
+      "utterance_type": "assessment",
+      "decision_link": "none",
+      "timing": "original_pitch",
+      "turn_index": 84,
+      "quote": "just didn't know what the hell I was doing. Right. So I have no idea.",
+      "explanation": "Jillian acknowledges that she lacks the relevant knowledge to assess and navigate African investments confidently.",
+      "evidence": [
+        "just didn't know what the hell I was doing. Right. So I have no idea."
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 84,
+          "speaker": "Jillian",
+          "quote": "just didn't know what the hell I was doing. Right. So I have no idea."
+        }
+      ],
+      "activation": "evaluated",
+      "source_rationale_id": "R12",
+      "utterance_kind": "concern",
+      "decision_support": "none",
+      "all_mention_ids": [
+        "R12"
+      ]
+    },
+    {
+      "rationale_label": "investor_experience_bias",
+      "direction": "negative",
+      "salience": "primary",
+      "confidence": 0.99,
+      "utterance_type": "decision_reason",
+      "decision_link": "explicit",
+      "timing": "original_pitch",
+      "turn_index": 107,
+      "quote": "I'm out. Okay. But what I can do is I can introduce you to four funds that invest in Africa. And I wish I could. I think it’s my scar tissue.",
+      "explanation": "Jillian explicitly attributes her decision not to invest to scar tissue from her previous African investments.",
+      "evidence": [
+        "I've actually invested in six companies in Africa. Okay. Five went belly up.",
+        "I am worried because I have scars because I have invested in Africa",
+        "But I got burned.",
+        "Five times.",
+        "I'm out. Okay. But what I can do is I can introduce you to four funds that invest in Africa. And I wish I could. I think it’s my scar tissue."
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 82,
+          "speaker": "Jillian",
+          "quote": "I've actually invested in six companies in Africa. Okay. Five went belly up."
+        },
+        {
+          "turn_index": 84,
+          "speaker": "Jillian",
+          "quote": "I am worried because I have scars because I have invested in Africa"
+        },
+        {
+          "turn_index": 103,
+          "speaker": "Jillian",
+          "quote": "But I got burned."
+        },
+        {
+          "turn_index": 105,
+          "speaker": "Jillian",
+          "quote": "Five times."
+        },
+        {
+          "turn_index": 107,
+          "speaker": "Jillian",
+          "quote": "I'm out. Okay. But what I can do is I can introduce you to four funds that invest in Africa. And I wish I could. I think it’s my scar tissue."
+        }
+      ],
+      "activation": "evaluated",
+      "source_rationale_id": "R15",
+      "utterance_kind": "decision_explanation",
+      "decision_support": "supports_out",
+      "all_mention_ids": [
+        "R10",
+        "R11",
+        "R13",
+        "R14",
+        "R15"
+      ]
+    },
+    {
+      "rationale_label": "investor_value_add_fit",
+      "direction": "negative",
+      "salience": "primary",
+      "confidence": 0.99,
+      "utterance_type": "decision_reason",
+      "decision_link": "explicit",
+      "timing": "original_pitch",
+      "turn_index": 116,
+      "quote": "I also don't think I can add the value that some of these other funds we're going to make introductions to, who have boots on the ground.",
+      "explanation": "Jillian explains that locally embedded funds could provide more useful support than she could.",
+      "evidence": [
+        "I also don't think I can add the value that some of these other funds we're going to make introductions to, who have boots on the ground.",
+        "what can I add here?"
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 116,
+          "speaker": "Jillian",
+          "quote": "I also don't think I can add the value that some of these other funds we're going to make introductions to, who have boots on the ground."
+        },
+        {
+          "turn_index": 118,
+          "speaker": "Jillian",
+          "quote": "what can I add here?"
+        }
+      ],
+      "activation": "evaluated",
+      "source_rationale_id": "R16",
+      "utterance_kind": "decision_explanation",
+      "decision_support": "supports_out",
+      "all_mention_ids": [
+        "R16",
+        "R17"
+      ]
+    },
+    {
+      "rationale_label": "market_size_assessment",
+      "direction": "positive",
+      "salience": "secondary",
+      "confidence": 0.88,
+      "utterance_type": "assessment",
+      "decision_link": "none",
+      "timing": "original_pitch",
+      "turn_index": 69,
+      "quote": "This is when you drop the mic.",
+      "explanation": "Jillian enthusiastically endorses Mariam's preceding case for the size and growth of the African market.",
+      "evidence": [
+        "This is when you drop the mic."
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 69,
+          "speaker": "Jillian",
+          "quote": "This is when you drop the mic."
+        }
+      ],
+      "activation": "evaluated",
+      "source_rationale_id": "R8",
+      "utterance_kind": "assessment",
+      "decision_support": "none",
+      "all_mention_ids": [
+        "R7",
+        "R8"
+      ]
+    },
+    {
+      "rationale_label": "product_adoption",
+      "direction": "neutral",
+      "salience": "secondary",
+      "confidence": 0.9,
+      "utterance_type": "question",
+      "decision_link": "none",
+      "timing": "original_pitch",
+      "turn_index": 34,
+      "quote": "And who are your customers now?",
+      "explanation": "Jillian asks for evidence of current customer adoption.",
+      "evidence": [
+        "And who are your customers now?"
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 34,
+          "speaker": "Jillian",
+          "quote": "And who are your customers now?"
+        }
+      ],
+      "activation": "queried",
+      "source_rationale_id": "R3",
+      "utterance_kind": "question",
+      "decision_support": "none",
+      "all_mention_ids": [
+        "R3"
+      ]
+    },
+    {
+      "rationale_label": "product_differentiation_concern",
+      "direction": "negative",
+      "salience": "primary",
+      "confidence": 0.99,
+      "utterance_type": "assessment",
+      "decision_link": "none",
+      "timing": "original_pitch",
+      "turn_index": 143,
+      "quote": "It's not defensible.",
+      "explanation": "Jillian concludes that the product or technology lacks defensibility against competitors.",
+      "evidence": [
+        "It's not defensible."
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 143,
+          "speaker": "Jillian",
+          "quote": "It's not defensible."
+        }
+      ],
+      "activation": "evaluated",
+      "source_rationale_id": "R19",
+      "utterance_kind": "assessment",
+      "decision_support": "none",
+      "all_mention_ids": [
+        "R19"
+      ]
+    },
+    {
+      "rationale_label": "solution_feasibility_assessment",
+      "direction": "neutral",
+      "salience": "secondary",
+      "confidence": 0.91,
+      "utterance_type": "question",
+      "decision_link": "none",
+      "timing": "original_pitch",
+      "turn_index": 18,
+      "quote": "Talk about how do you qualify the participants, how do you onboard the participants.",
+      "explanation": "Jillian probes whether the participant qualification and onboarding process is operationally workable.",
+      "evidence": [
+        "Talk about how do you qualify the participants, how do you onboard the participants."
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 18,
+          "speaker": "Jillian",
+          "quote": "Talk about how do you qualify the participants, how do you onboard the participants."
+        }
+      ],
+      "activation": "queried",
+      "source_rationale_id": "R2",
+      "utterance_kind": "question",
+      "decision_support": "none",
+      "all_mention_ids": [
+        "R2"
+      ]
+    }
+  ],
+  "later_rationales": [],
+  "excluded_rationales": [],
+  "rationale_mentions": [
+    {
+      "rationale_label": "founder_qualities",
+      "direction": "positive",
+      "salience": "secondary",
+      "confidence": 0.93,
+      "utterance_type": "assessment",
+      "decision_link": "none",
+      "timing": "original_pitch",
+      "turn_index": 12,
+      "quote": "You seem to be like all that!",
+      "explanation": "Jillian expresses a favorable initial impression of Mariam's overall capabilities.",
+      "evidence": [
+        "You seem to be like all that!"
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 12,
+          "speaker": "Jillian",
+          "quote": "You seem to be like all that!"
+        }
+      ],
+      "activation": "evaluated",
+      "source_rationale_id": "R1"
+    },
+    {
+      "rationale_label": "solution_feasibility_assessment",
+      "direction": "neutral",
+      "salience": "secondary",
+      "confidence": 0.91,
+      "utterance_type": "question",
+      "decision_link": "none",
+      "timing": "original_pitch",
+      "turn_index": 18,
+      "quote": "Talk about how do you qualify the participants, how do you onboard the participants.",
+      "explanation": "Jillian probes whether the participant qualification and onboarding process is operationally workable.",
+      "evidence": [
+        "Talk about how do you qualify the participants, how do you onboard the participants."
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 18,
+          "speaker": "Jillian",
+          "quote": "Talk about how do you qualify the participants, how do you onboard the participants."
+        }
+      ],
+      "activation": "queried",
+      "source_rationale_id": "R2"
+    },
+    {
+      "rationale_label": "product_adoption",
+      "direction": "neutral",
+      "salience": "secondary",
+      "confidence": 0.9,
+      "utterance_type": "question",
+      "decision_link": "none",
+      "timing": "original_pitch",
+      "turn_index": 34,
+      "quote": "And who are your customers now?",
+      "explanation": "Jillian asks for evidence of current customer adoption.",
+      "evidence": [
+        "And who are your customers now?"
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 34,
+          "speaker": "Jillian",
+          "quote": "And who are your customers now?"
+        }
+      ],
+      "activation": "queried",
+      "source_rationale_id": "R3"
+    },
+    {
+      "rationale_label": "business_model_assessment",
+      "direction": "neutral",
+      "salience": "secondary",
+      "confidence": 0.97,
+      "utterance_type": "question",
+      "decision_link": "none",
+      "timing": "original_pitch",
+      "turn_index": 42,
+      "quote": "So have you looked at your payment model? Assessed it? Re-assessed it?",
+      "explanation": "Jillian directly examines whether the company's monetization model has been tested and refined.",
+      "evidence": [
+        "So have you looked at your payment model? Assessed it? Re-assessed it?"
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 42,
+          "speaker": "Jillian",
+          "quote": "So have you looked at your payment model? Assessed it? Re-assessed it?"
+        }
+      ],
+      "activation": "queried",
+      "source_rationale_id": "R4"
+    },
+    {
+      "rationale_label": "business_model_assessment",
+      "direction": "neutral",
+      "salience": "secondary",
+      "confidence": 0.94,
+      "utterance_type": "question",
+      "decision_link": "none",
+      "timing": "original_pitch",
+      "turn_index": 44,
+      "quote": "And the yearly contract is…",
+      "explanation": "Jillian asks for the annual contract value to understand the company's monetization.",
+      "evidence": [
+        "And the yearly contract is…"
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 44,
+          "speaker": "Jillian",
+          "quote": "And the yearly contract is…"
+        }
+      ],
+      "activation": "queried",
+      "source_rationale_id": "R5"
+    },
+    {
+      "rationale_label": "fundraising_demand_signal",
+      "direction": "neutral",
+      "salience": "secondary",
+      "confidence": 0.86,
+      "utterance_type": "question",
+      "decision_link": "none",
+      "timing": "original_pitch",
+      "turn_index": 48,
+      "quote": "How much have you raised?",
+      "explanation": "Jillian asks how much investor capital the company has already attracted.",
+      "evidence": [
+        "How much have you raised?"
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 48,
+          "speaker": "Jillian",
+          "quote": "How much have you raised?"
+        }
+      ],
+      "activation": "queried",
+      "source_rationale_id": "R6"
+    },
+    {
+      "rationale_label": "market_size_assessment",
+      "direction": "neutral",
+      "salience": "secondary",
+      "confidence": 0.94,
+      "utterance_type": "question",
+      "decision_link": "none",
+      "timing": "original_pitch",
+      "turn_index": 67,
+      "quote": "Are you looking at markets outside of Africa?",
+      "explanation": "Jillian probes whether the company's addressable geographic market extends beyond Africa.",
+      "evidence": [
+        "Are you looking at markets outside of Africa?"
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 67,
+          "speaker": "Jillian",
+          "quote": "Are you looking at markets outside of Africa?"
+        }
+      ],
+      "activation": "queried",
+      "source_rationale_id": "R7"
+    },
+    {
+      "rationale_label": "market_size_assessment",
+      "direction": "positive",
+      "salience": "secondary",
+      "confidence": 0.88,
+      "utterance_type": "assessment",
+      "decision_link": "none",
+      "timing": "original_pitch",
+      "turn_index": 69,
+      "quote": "This is when you drop the mic.",
+      "explanation": "Jillian enthusiastically endorses Mariam's preceding case for the size and growth of the African market.",
+      "evidence": [
+        "This is when you drop the mic."
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 69,
+          "speaker": "Jillian",
+          "quote": "This is when you drop the mic."
+        }
+      ],
+      "activation": "evaluated",
+      "source_rationale_id": "R8"
+    },
+    {
+      "rationale_label": "founder_communication_quality",
+      "direction": "positive",
+      "salience": "secondary",
+      "confidence": 0.84,
+      "utterance_type": "assessment",
+      "decision_link": "none",
+      "timing": "original_pitch",
+      "turn_index": 80,
+      "quote": "You're good.",
+      "explanation": "Jillian positively assesses Mariam's persuasive performance in the pitch discussion.",
+      "evidence": [
+        "You're good."
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 80,
+          "speaker": "Jillian",
+          "quote": "You're good."
+        }
+      ],
+      "activation": "evaluated",
+      "source_rationale_id": "R9"
+    },
+    {
+      "rationale_label": "investor_experience_bias",
+      "direction": "negative",
+      "salience": "primary",
+      "confidence": 0.99,
+      "utterance_type": "supporting_argument",
+      "decision_link": "none",
+      "timing": "original_pitch",
+      "turn_index": 82,
+      "quote": "I've actually invested in six companies in Africa. Okay. Five went belly up.",
+      "explanation": "Jillian cites the failure of five prior African investments as the reason she is torn about investing.",
+      "evidence": [
+        "I've actually invested in six companies in Africa. Okay. Five went belly up."
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 82,
+          "speaker": "Jillian",
+          "quote": "I've actually invested in six companies in Africa. Okay. Five went belly up."
+        }
+      ],
+      "activation": "evaluated",
+      "source_rationale_id": "R10"
+    },
+    {
+      "rationale_label": "investor_experience_bias",
+      "direction": "negative",
+      "salience": "primary",
+      "confidence": 0.99,
+      "utterance_type": "concern",
+      "decision_link": "none",
+      "timing": "original_pitch",
+      "turn_index": 84,
+      "quote": "I am worried because I have scars because I have invested in Africa",
+      "explanation": "Jillian explicitly says that scars from her prior African investments are causing concern.",
+      "evidence": [
+        "I am worried because I have scars because I have invested in Africa"
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 84,
+          "speaker": "Jillian",
+          "quote": "I am worried because I have scars because I have invested in Africa"
+        }
+      ],
+      "activation": "evaluated",
+      "source_rationale_id": "R11"
+    },
+    {
+      "rationale_label": "investor_domain_knowledge_constraint",
+      "direction": "negative",
+      "salience": "primary",
+      "confidence": 0.96,
+      "utterance_type": "concern",
+      "decision_link": "none",
+      "timing": "original_pitch",
+      "turn_index": 84,
+      "quote": "just didn't know what the hell I was doing. Right. So I have no idea.",
+      "explanation": "Jillian acknowledges that she lacks the relevant knowledge to assess and navigate African investments confidently.",
+      "evidence": [
+        "just didn't know what the hell I was doing. Right. So I have no idea."
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 84,
+          "speaker": "Jillian",
+          "quote": "just didn't know what the hell I was doing. Right. So I have no idea."
+        }
+      ],
+      "activation": "evaluated",
+      "source_rationale_id": "R12"
+    },
+    {
+      "rationale_label": "investor_experience_bias",
+      "direction": "negative",
+      "salience": "primary",
+      "confidence": 0.99,
+      "utterance_type": "supporting_argument",
+      "decision_link": "supports_out",
+      "timing": "original_pitch",
+      "turn_index": 103,
+      "quote": "But I got burned.",
+      "explanation": "In response to encouragement to invest, Jillian invokes her prior losses as an argument against doing so.",
+      "evidence": [
+        "But I got burned."
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 103,
+          "speaker": "Jillian",
+          "quote": "But I got burned."
+        }
+      ],
+      "activation": "evaluated",
+      "source_rationale_id": "R13"
+    },
+    {
+      "rationale_label": "investor_experience_bias",
+      "direction": "negative",
+      "salience": "secondary",
+      "confidence": 0.98,
+      "utterance_type": "supporting_argument",
+      "decision_link": "supports_out",
+      "timing": "original_pitch",
+      "turn_index": 105,
+      "quote": "Five times.",
+      "explanation": "Jillian emphasizes the number of prior losses to reinforce her experience-based refusal.",
+      "evidence": [
+        "Five times."
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 105,
+          "speaker": "Jillian",
+          "quote": "Five times."
+        }
+      ],
+      "activation": "evaluated",
+      "source_rationale_id": "R14"
+    },
+    {
+      "rationale_label": "investor_experience_bias",
+      "direction": "negative",
+      "salience": "primary",
+      "confidence": 0.99,
+      "utterance_type": "decision_explanation",
+      "decision_link": "supports_out",
+      "timing": "original_pitch",
+      "turn_index": 107,
+      "quote": "I'm out. Okay. But what I can do is I can introduce you to four funds that invest in Africa. And I wish I could. I think it’s my scar tissue.",
+      "explanation": "Jillian explicitly attributes her decision not to invest to scar tissue from her previous African investments.",
+      "evidence": [
+        "I'm out. Okay. But what I can do is I can introduce you to four funds that invest in Africa. And I wish I could. I think it’s my scar tissue."
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 107,
+          "speaker": "Jillian",
+          "quote": "I'm out. Okay. But what I can do is I can introduce you to four funds that invest in Africa. And I wish I could. I think it’s my scar tissue."
+        }
+      ],
+      "activation": "evaluated",
+      "source_rationale_id": "R15"
+    },
+    {
+      "rationale_label": "investor_value_add_fit",
+      "direction": "negative",
+      "salience": "primary",
+      "confidence": 0.99,
+      "utterance_type": "decision_explanation",
+      "decision_link": "supports_out",
+      "timing": "original_pitch",
+      "turn_index": 116,
+      "quote": "I also don't think I can add the value that some of these other funds we're going to make introductions to, who have boots on the ground.",
+      "explanation": "Jillian explains that locally embedded funds could provide more useful support than she could.",
+      "evidence": [
+        "I also don't think I can add the value that some of these other funds we're going to make introductions to, who have boots on the ground."
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 116,
+          "speaker": "Jillian",
+          "quote": "I also don't think I can add the value that some of these other funds we're going to make introductions to, who have boots on the ground."
+        }
+      ],
+      "activation": "evaluated",
+      "source_rationale_id": "R16"
+    },
+    {
+      "rationale_label": "investor_value_add_fit",
+      "direction": "negative",
+      "salience": "secondary",
+      "confidence": 0.97,
+      "utterance_type": "question",
+      "decision_link": "supports_out",
+      "timing": "original_pitch",
+      "turn_index": 118,
+      "quote": "what can I add here?",
+      "explanation": "Jillian rhetorically reiterates her concern that she cannot contribute sufficient value to the company.",
+      "evidence": [
+        "what can I add here?"
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 118,
+          "speaker": "Jillian",
+          "quote": "what can I add here?"
+        }
+      ],
+      "activation": "queried",
+      "source_rationale_id": "R17"
+    },
+    {
+      "rationale_label": "fundraising_demand_signal",
+      "direction": "neutral",
+      "salience": "secondary",
+      "confidence": 0.76,
+      "utterance_type": "question",
+      "decision_link": "none",
+      "timing": "original_pitch",
+      "turn_index": 124,
+      "quote": "Maybe she hasn't gone - has she pitched to -",
+      "explanation": "In the immediate debrief, Jillian asks whether the founder has approached local investors, probing the significance of their absence from the round.",
+      "evidence": [
+        "Maybe she hasn't gone - has she pitched to -"
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 124,
+          "speaker": "Jillian",
+          "quote": "Maybe she hasn't gone - has she pitched to -"
+        }
+      ],
+      "activation": "queried",
+      "source_rationale_id": "R18"
+    },
+    {
+      "rationale_label": "product_differentiation_concern",
+      "direction": "negative",
+      "salience": "primary",
+      "confidence": 0.99,
+      "utterance_type": "assessment",
+      "decision_link": "none",
+      "timing": "original_pitch",
+      "turn_index": 143,
+      "quote": "It's not defensible.",
+      "explanation": "Jillian concludes that the product or technology lacks defensibility against competitors.",
+      "evidence": [
+        "It's not defensible."
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 143,
+          "speaker": "Jillian",
+          "quote": "It's not defensible."
+        }
+      ],
+      "activation": "evaluated",
+      "source_rationale_id": "R19"
+    }
+  ],
+  "expanded_quote_evidence": [],
+  "rejected_after_evidence_check": []
+}

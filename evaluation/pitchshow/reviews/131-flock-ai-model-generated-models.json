@@ -1,0 +1,1107 @@
+{
+  "schema": "pitchshow-evaluation-v3",
+  "episode_slug": "131-flock-ai-model-generated-models",
+  "review": {
+    "episode_kind": "pitch",
+    "founder_speakers": [
+      "Vita"
+    ],
+    "pitch_start_turn": 10,
+    "pitch_end_turn": 64,
+    "excluded_turns": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      50
+    ],
+    "boundary_reason": "The substantive founder pitch begins at turn 10 after the teaser, investor introductions, and greetings. Turn 50 is a host promo and break and is excluded. The pitch end is exclusive at turn 64, before the investors begin valuation and investment-decision discussion.",
+    "decisions": [
+      {
+        "vc_slug": "beck-bamberger-bad-ideas-group",
+        "pitch_window_decision": "Out",
+        "initial_response": "Out",
+        "decision_context": "initial_panel",
+        "pitch_evidence": [
+          {
+            "turn_index": 70,
+            "quote": "I'm out. Retail tech - we've worked with. Not the space I love. But I'd like to see more in traction, so keep me posted."
+          }
+        ],
+        "later_decision": "Unknown",
+        "later_evidence": [],
+        "condition": null,
+        "reason": "Beck declined because retail technology was not a preferred area and wanted to see more traction."
+      },
+      {
+        "vc_slug": "charles-hudson-precursor-ventures",
+        "pitch_window_decision": "Out",
+        "initial_response": "Out",
+        "decision_context": "initial_panel",
+        "pitch_evidence": [
+          {
+            "turn_index": 86,
+            "quote": "But for today, I'm a pass."
+          }
+        ],
+        "later_decision": "Unknown",
+        "later_evidence": [],
+        "condition": null,
+        "reason": "Charles passed after expressing reservations about the deflationary impact and value capture in the category."
+      },
+      {
+        "vc_slug": "elizabeth-yin-hustle-fund",
+        "pitch_window_decision": "In",
+        "initial_response": "In",
+        "decision_context": "initial_panel",
+        "pitch_evidence": [
+          {
+            "turn_index": 66,
+            "quote": "I'd be open to investing 50k at 6 post on a safe, and we are fast. And that can be ahead of the round, as a small tranche"
+          }
+        ],
+        "later_decision": "In",
+        "later_evidence": [
+          {
+            "turn_index": 203,
+            "quote": "Elizabeth Yin was limited to investing only 50k"
+          }
+        ],
+        "condition": "At 6 post on a SAFE, ahead of the round as a small tranche.",
+        "reason": "Elizabeth offered a $50k investment on the stated SAFE terms, and the later report says her investment was limited to $50k because of the round dynamics."
+      },
+      {
+        "vc_slug": "mac-conwell",
+        "pitch_window_decision": "Out",
+        "initial_response": "Out",
+        "decision_context": "initial_panel",
+        "pitch_evidence": [
+          {
+            "turn_index": 74,
+            "quote": "today, I'm out. Mainly because I think you'll do well, but I don't know if your exit value gets to be as high as you would like."
+          }
+        ],
+        "later_decision": "Unknown",
+        "later_evidence": [],
+        "condition": null,
+        "reason": "Mac believed the company could be successful but was concerned that its exit value would not reach the desired level."
+      }
+    ]
+  },
+  "verification": {
+    "boundary_supported": false,
+    "remove_lines": [
+      28,
+      29,
+      30,
+      31,
+      32,
+      33,
+      34
+    ],
+    "safe_after_removal": true,
+    "reason": "The founder pitch begins at turn 10, but the proposed end at turn 64 is too late. Investor-specific lead-round negotiation begins at turn 55, so a conservative decision-free window is turns 10 through 54 (exclusive end 55). The remaining candidate lines are factual founder statements or neutral questions; the earlier fundraising facts are retained.",
+    "decisions": [
+      {
+        "vc_slug": "beck-bamberger-bad-ideas-group",
+        "pitch_decision_supported": true,
+        "later_decision_supported": false,
+        "pitch_evidence": [
+          {
+            "turn_index": 70,
+            "quote": "I'm out. Retail tech - we've worked with. Not the space I love. But I'd like to see more in traction, so keep me posted."
+          }
+        ],
+        "later_evidence": [],
+        "condition": null,
+        "reason": "Beck explicitly declined during the pitch. No later investor-specific investment or non-investment outcome is reported."
+      },
+      {
+        "vc_slug": "charles-hudson-precursor-ventures",
+        "pitch_decision_supported": true,
+        "later_decision_supported": false,
+        "pitch_evidence": [
+          {
+            "turn_index": 86,
+            "quote": "But for today, I'm a pass."
+          }
+        ],
+        "later_evidence": [],
+        "condition": null,
+        "reason": "Charles explicitly passed during the pitch. No later investor-specific investment or non-investment outcome is reported."
+      },
+      {
+        "vc_slug": "elizabeth-yin-hustle-fund",
+        "pitch_decision_supported": true,
+        "later_decision_supported": true,
+        "pitch_evidence": [
+          {
+            "turn_index": 66,
+            "quote": "I'd be open to investing 50k at 6 post on a safe, and we are fast. And that can be ahead of the round, as a small tranche, you know, before that."
+          }
+        ],
+        "later_evidence": [
+          {
+            "turn_index": 203,
+            "quote": "Elizabeth Yin was limited to investing only 50k"
+          }
+        ],
+        "condition": "$50,000 at 6 post-money on a SAFE, ahead of the round as a small tranche.",
+        "reason": "Elizabeth offered a specific $50,000 investment on specified SAFE and round-position terms during the pitch. The later outro explicitly reports that Elizabeth Yin invested only $50,000 because of the round dynamics."
+      },
+      {
+        "vc_slug": "mac-conwell",
+        "pitch_decision_supported": true,
+        "later_decision_supported": false,
+        "pitch_evidence": [
+          {
+            "turn_index": 74,
+            "quote": "today, I'm out. Mainly because I think you'll do well, but I don't know if your exit value gets to be as high as you would like."
+          }
+        ],
+        "later_evidence": [],
+        "condition": null,
+        "reason": "Mac explicitly declined during the pitch, citing concern about the company's eventual exit value. No later investor-specific investment or non-investment outcome is reported."
+      }
+    ]
+  },
+  "annotations": [
+    {
+      "vc_slug": "beck-bamberger-bad-ideas-group",
+      "pitch_window_decision": "Out",
+      "initial_response": "Out",
+      "decision_context": "initial_panel",
+      "pitch_evidence": [
+        {
+          "turn_index": 70,
+          "quote": "I'm out. Retail tech - we've worked with. Not the space I love. But I'd like to see more in traction, so keep me posted."
+        }
+      ],
+      "later_decision": "Unknown",
+      "later_evidence": [],
+      "condition": null,
+      "reason": "Beck declined because retail technology was not a preferred area and wanted to see more traction.",
+      "proposed_pitch_window_decision": "Out",
+      "evaluation_eligible": false,
+      "review_status": "machine_reviewed_and_verified",
+      "verification_reason": "Beck explicitly declined during the pitch. No later investor-specific investment or non-investment outcome is reported."
+    },
+    {
+      "vc_slug": "charles-hudson-precursor-ventures",
+      "pitch_window_decision": "Out",
+      "initial_response": "Out",
+      "decision_context": "initial_panel",
+      "pitch_evidence": [
+        {
+          "turn_index": 86,
+          "quote": "But for today, I'm a pass."
+        }
+      ],
+      "later_decision": "Unknown",
+      "later_evidence": [],
+      "condition": null,
+      "reason": "Charles passed after expressing reservations about the deflationary impact and value capture in the category.",
+      "proposed_pitch_window_decision": "Out",
+      "evaluation_eligible": false,
+      "review_status": "machine_reviewed_and_verified",
+      "verification_reason": "Charles explicitly passed during the pitch. No later investor-specific investment or non-investment outcome is reported."
+    },
+    {
+      "vc_slug": "elizabeth-yin-hustle-fund",
+      "pitch_window_decision": "In",
+      "initial_response": "In",
+      "decision_context": "initial_panel",
+      "pitch_evidence": [
+        {
+          "turn_index": 66,
+          "quote": "I'd be open to investing 50k at 6 post on a safe, and we are fast. And that can be ahead of the round, as a small tranche, you know, before that."
+        }
+      ],
+      "later_decision": "In",
+      "later_evidence": [
+        {
+          "turn_index": 203,
+          "quote": "Elizabeth Yin was limited to investing only 50k"
+        }
+      ],
+      "condition": "$50,000 at 6 post-money on a SAFE, ahead of the round as a small tranche.",
+      "reason": "Elizabeth offered a $50k investment on the stated SAFE terms, and the later report says her investment was limited to $50k because of the round dynamics.",
+      "proposed_pitch_window_decision": "In",
+      "evaluation_eligible": false,
+      "review_status": "machine_reviewed_and_verified",
+      "verification_reason": "Elizabeth offered a specific $50,000 investment on specified SAFE and round-position terms during the pitch. The later outro explicitly reports that Elizabeth Yin invested only $50,000 because of the round dynamics."
+    },
+    {
+      "vc_slug": "mac-conwell",
+      "pitch_window_decision": "Out",
+      "initial_response": "Out",
+      "decision_context": "initial_panel",
+      "pitch_evidence": [
+        {
+          "turn_index": 74,
+          "quote": "today, I'm out. Mainly because I think you'll do well, but I don't know if your exit value gets to be as high as you would like."
+        }
+      ],
+      "later_decision": "Unknown",
+      "later_evidence": [],
+      "condition": null,
+      "reason": "Mac believed the company could be successful but was concerned that its exit value would not reach the desired level.",
+      "proposed_pitch_window_decision": "Out",
+      "evaluation_eligible": false,
+      "review_status": "machine_reviewed_and_verified",
+      "verification_reason": "Mac explicitly declined during the pitch, citing concern about the company's eventual exit value. No later investor-specific investment or non-investment outcome is reported."
+    }
+  ],
+  "candidate_pitch": "Vita: So, hi everyone. I'm Vita. I am the cofounder and CEO of Flock AI. My cofounder and I have never been represented when shopping online. We've never been able to just go to the product page, look at the model imagery, and say, yeah, this is going to work for my skin tone or my height or my body shape. And this lack of representation in ecommerce drives down conversion rate, leads to a higher return rate, and is a problem for both consumers and brands. I've seen it first hand on the brand side too, having worked in years at Walmart, Bloomingdales, Jet.com. We spent millions and millions each year on photo shoots, but were never able to visually represent every single shopper, and always struggled with content. This is where Flock comes in. We're a B2B SAAS AI offering that completely takes over beauty and fashion brands' visual content needs. We finally make it possible for them to merchandise their products on diverse models at scale, hyper-personalize the imagery that each user sees, and optimize their conversion by tracking their visual insights and reacting in real time. In just six months, we've launched our MVP, which was built by my cofounder and CTO Malavika. We've also launched with three pilot partners, and they've seen up to 10x cost savings compared to a photo shoot, and they've also seen over a 30% increase in conversion rate with our diverse model imagery. In just the last few weeks alone, we've signed LOIs of over 50k and have built a pipeline of over a million with no paid marketing spend. We’ve both dropped out of Wharton Business School and we're building our startup full time, and we're now raising a million and a half to accelerate our technology and to grow our team. We're excited for you to join us in a future where online experiences are just as diverse as the human population.\nVita: Hello.\nVita: Yes. And I have a few samples, if you would like to see.\nVita: Yes.\nInvestor question: Is that AI-generated?\nVita: It's fully AI-generated.\nVita: We made it really simple for the brands to work with us. This is a big learning from my time in retail where we can't have them having to do complex things like 3D model their clothing or digitize the product on their own. So we entirely take them over for them, create all the model imagery, fully made with AI.\nVita: Yep. And there's another tab for Minori Beauty. She's a smaller brand. She didn't have any personalization tools. So we did a full beauty quiz for her. Based on your skin tone, your age, how you like to wear your make up, we change out the model imagery that you see first.\nInvestor question: Is that animated one, is that AI-generated too?\nVita: So, we don't do videos yet.\nVita: It's in the product timeline.\nInvestor question: Are all of your warmest leads like skin products?\nVita: Yeah, so I have deeper connections in the beauty space, which is why we started there. I'd say right now the mix is about 60% beauty, 40% fashion.\nVita: Yeah. So what's really cool about the tech is we are building in-house models. This is not just a wrapper off of like Midjourney or Stable Diffusion. There's three parts to the tech. One, is the actual model creation. The basis is Stable Diffusion, but we have our own algos on top of it for lighting aesthetics, demographics, posing. The second part is the actual digitization of the product information. This is not something that anybody has solved. And what's really cool is the visual analytics part of it, it's something really unique to us. So now you can finally understand and test what model demographics are doing well, what types of posing, what types of merchandising. Can I show a different model wearing a coat to somebody shopping from, you know, a cold state versus somebody with heels with that dress for a warm state. Finally possible to test all of this out and to change in a matter of just minutes and hours, rather than weeks and months.\nVita: Yeah. So the type of brands that we've spoken to for these LOIs, they're doing less than 5 million in sales, but they're willing to spend 10, 12k contract values with us. So when you look at these larger brands, brands that are spending, you know, 200 million in revenue, they're spending about 3, 4 million on photoshoots. And that's where these annual contract values come in of 300, 400k, where we're providing them significant um cost savings. Once one of your competitors uses it too. The only way to stay competitive is to utilize the tech.\nInvestor question: Can you talk more about your customers and these LOIs? Like, like what kind of pricing are you talking about with them?\nVita: They're average like 10 to 12k contract values for about a thousand to 1,500 images. This is our lowest tier that we're looking at starting with. And it would pretty much take over the smaller brands, you know, probably 80 to 90% of their photoshoot needs for the year.\nVita: Yes.\nVita: Yeah. So when I was at Walmart, we actually acquired a tool internally called Z Kit*. This was a couple years ago. You do not have to reveal that they are AI models. And I saw how much the company struggled with to actually onboard the tool, digitize the product, put the personalization out for each customer. And I was like, Walmart can do this because we have these millions of dollars, tech teams.\nVita: But other brands need this tech and they can't do it. But they've been using this tech for years. They started with about 50 models per SKU, they've now gone to over 200 models a SKU because more people are trying to find more models that look like them, see it on them before they purchase. And there's already proven case studies of how this has longevity and they're actually I think going into like male models and stuff now too.\nVita: Yes.\nInvestor question: What's the biggest kind of pushback or hesitation folks have to overcome when you talk to them for the first time?\nVita: Yeah. So I think in terms of AI models, brands will never be able to show a average customer working with modeling agencies. They have certain height and weight restrictions, so 5'9\", size 0, or like 5'9\" and taller in size 12. To be able to show your 5'2\" size 6, size 8 customer will never happen through a modeling agency. So that's like one key learning for brands. The other thing is, in terms of like utilizing AI models itself, Walmart has done it. And it's something that has worked really well for them. And I really believe that this is the only way that you can actually scale up to show all of these diverse model images. There's just no other way to be able to do it in a scalable solution without using AI.\nInvestor question: Because besides walking down a runway, what are you doing?\nInvestor question: Can you just give us how much has been raised, what are you looking to raise that at?\nVita: So really letting the lead set the round - terms. We have received funding from MBA Fund and Dorm Room Fund in the last actually four weeks. So and we have soft committed about 250k, but the lead opportunity is still open for the round.\nInvestor question: In an ideal world, what would you like the terms to be?\nVita: In this market, like, I think it just makes sense to really let the lead set the terms. But some of the things that we've seen is -\nInvestor question: What kind of terms do you want?\nVita: Oh. Okay. No, I'd be really excited about that.\nInvestor question: But what kind of terms do you want?\nVita: So we're not -\nVita: Yeah, yeah. So we're not - we're looking to keep it around 7 and a half, 8 million post money, basically.\nInvestor question: Why are you calling it Flock?\nVita: So a little bit of background. We originally started a B2C app that was still focused on the problem of how do you help customers understand if products will work for you, on your skin tone, or your body shape, or your body height. And you could go there, take a beauty quiz, I could match with another, you know, Indian American mid-20s with my skin tone, see the like product she used, how it looked on her and shop. And we called it Flock because it's like, you know, birds of a feather flock together. Find your flock on the flock app and be able to shop that way. So we kept that name, but open to changing it.\n",
+  "pitch": "",
+  "pitch_safe": false,
+  "segments": [
+    {
+      "action": "retained",
+      "attributed_source_line_index": 0,
+      "attributed_source_line_sha256": "b1dbbb01b3757dd33cc576008ddd67554d67c49dfc07ee2722915f4a75656e19",
+      "reason": "founder pitch or pre-decision factual answer; preserved factual names for semantic review",
+      "rendered_text": "Vita: So, hi everyone. I'm Vita. I am the cofounder and CEO of Flock AI. My cofounder and I have never been represented when shopping online. We've never been able to just go to the product page, look at the model imagery, and say, yeah, this is going to work for my skin tone or my height or my body shape. And this lack of representation in ecommerce drives down conversion rate, leads to a higher return rate, and is a problem for both consumers and brands. I've seen it first hand on the brand side too, having worked in years at Walmart, Bloomingdales, Jet.com. We spent millions and millions each year on photo shoots, but were never able to visually represent every single shopper, and always struggled with content. This is where Flock comes in. We're a B2B SAAS AI offering that completely takes over beauty and fashion brands' visual content needs. We finally make it possible for them to merchandise their products on diverse models at scale, hyper-personalize the imagery that each user sees, and optimize their conversion by tracking their visual insights and reacting in real time. In just six months, we've launched our MVP, which was built by my cofounder and CTO Malavika. We've also launched with three pilot partners, and they've seen up to 10x cost savings compared to a photo shoot, and they've also seen over a 30% increase in conversion rate with our diverse model imagery. In just the last few weeks alone, we've signed LOIs of over 50k and have built a pipeline of over a million with no paid marketing spend. We’ve both dropped out of Wharton Business School and we're building our startup full time, and we're now raising a million and a half to accelerate our technology and to grow our team. We're excited for you to join us in a future where online experiences are just as diverse as the human population.",
+      "retained_content_class": "explicit_founder",
+      "preceded_by_investor_decision": false,
+      "source_turn_index": 10,
+      "speaker": "Vita",
+      "unattributed_continuation_count": 0
+    },
+    {
+      "action": "removed",
+      "attributed_source_line_index": 0,
+      "attributed_source_line_sha256": "acc33d4748393a13bd4c18a98b2b88bdcad71d18df2a53d5a052a70de8e30d61",
+      "reason": "removed non-founder, evaluative, or unnecessary context",
+      "rendered_text": "",
+      "retained_content_class": null,
+      "preceded_by_investor_decision": false,
+      "source_turn_index": 11,
+      "speaker": "Mac",
+      "unattributed_continuation_count": 0
+    },
+    {
+      "action": "retained",
+      "attributed_source_line_index": 0,
+      "attributed_source_line_sha256": "2d8bd7d9bb5f85ba643f0110d50cb506a1fe439e769a22503193ea6046bb87f7",
+      "reason": "founder pitch or pre-decision factual answer; preserved factual names for semantic review",
+      "rendered_text": "Vita: Hello.",
+      "retained_content_class": "explicit_founder",
+      "preceded_by_investor_decision": false,
+      "source_turn_index": 12,
+      "speaker": "Vita",
+      "unattributed_continuation_count": 0
+    },
+    {
+      "action": "removed",
+      "attributed_source_line_index": 0,
+      "attributed_source_line_sha256": "91b74c1abbf1e2b2cd8a965e9f54105619e228d3a0b323b2bf03e073357d8d38",
+      "reason": "removed non-founder, evaluative, or unnecessary context",
+      "rendered_text": "",
+      "retained_content_class": null,
+      "preceded_by_investor_decision": false,
+      "source_turn_index": 13,
+      "speaker": "Mac",
+      "unattributed_continuation_count": 0
+    },
+    {
+      "action": "retained",
+      "attributed_source_line_index": 0,
+      "attributed_source_line_sha256": "5edd531d92ddc6fa0baf34e9896b77e95b5485f0bbffa29cf1149e4fb278e9f7",
+      "reason": "founder pitch or pre-decision factual answer; removed 1 unattributed continuation line(s); preserved factual names for semantic review",
+      "rendered_text": "Vita: Yes. And I have a few samples, if you would like to see.",
+      "retained_content_class": "explicit_founder",
+      "preceded_by_investor_decision": false,
+      "source_turn_index": 14,
+      "speaker": "Vita",
+      "unattributed_continuation_count": 1
+    },
+    {
+      "action": "removed",
+      "attributed_source_line_index": 0,
+      "attributed_source_line_sha256": "f7d07b87aa9a15b53e21c858f16be9294ce82cc1e5bbe77a63661bdfe0c9b194",
+      "reason": "removed non-founder, evaluative, or unnecessary context",
+      "rendered_text": "",
+      "retained_content_class": null,
+      "preceded_by_investor_decision": false,
+      "source_turn_index": 15,
+      "speaker": "Beck",
+      "unattributed_continuation_count": 0
+    },
+    {
+      "action": "retained",
+      "attributed_source_line_index": 0,
+      "attributed_source_line_sha256": "5f9a2b795615ba6a3d5455fd5624d773fbca5bcd16249c421fd37411dc9837da",
+      "reason": "founder pitch or pre-decision factual answer; preserved factual names for semantic review",
+      "rendered_text": "Vita: Yes.",
+      "retained_content_class": "explicit_founder",
+      "preceded_by_investor_decision": false,
+      "source_turn_index": 16,
+      "speaker": "Vita",
+      "unattributed_continuation_count": 0
+    },
+    {
+      "action": "neutralized",
+      "attributed_source_line_index": 0,
+      "attributed_source_line_sha256": "9a1e9e0103b03140f37f554ff789dfd8a147bb1657b48605b0dd266f4df71704",
+      "reason": "neutralized investor question",
+      "rendered_text": "Investor question: Is that AI-generated?",
+      "retained_content_class": "explicit_investor_question",
+      "preceded_by_investor_decision": false,
+      "source_turn_index": 17,
+      "speaker": "Beck",
+      "unattributed_continuation_count": 0
+    },
+    {
+      "action": "retained",
+      "attributed_source_line_index": 0,
+      "attributed_source_line_sha256": "ba75ed2ce30e8b0425bfbac02d56260ebfd2dc0111653ef7b001053288cf1300",
+      "reason": "founder pitch or pre-decision factual answer; preserved factual names for semantic review",
+      "rendered_text": "Vita: It's fully AI-generated.",
+      "retained_content_class": "explicit_founder",
+      "preceded_by_investor_decision": false,
+      "source_turn_index": 18,
+      "speaker": "Vita",
+      "unattributed_continuation_count": 0
+    },
+    {
+      "action": "removed",
+      "attributed_source_line_index": 0,
+      "attributed_source_line_sha256": "5179dad09edbbe176af499524ea56a17b9f173415ba495ec6b1d1086f04f0eb5",
+      "reason": "removed non-founder, evaluative, or unnecessary context",
+      "rendered_text": "",
+      "retained_content_class": null,
+      "preceded_by_investor_decision": false,
+      "source_turn_index": 19,
+      "speaker": "Beck",
+      "unattributed_continuation_count": 0
+    },
+    {
+      "action": "retained",
+      "attributed_source_line_index": 0,
+      "attributed_source_line_sha256": "ea21207c844b7810f23ea3097d7071974edc19e0b9a181b8795c8d6b05d18c4e",
+      "reason": "founder pitch or pre-decision factual answer; preserved factual names for semantic review",
+      "rendered_text": "Vita: We made it really simple for the brands to work with us. This is a big learning from my time in retail where we can't have them having to do complex things like 3D model their clothing or digitize the product on their own. So we entirely take them over for them, create all the model imagery, fully made with AI.",
+      "retained_content_class": "explicit_founder",
+      "preceded_by_investor_decision": false,
+      "source_turn_index": 20,
+      "speaker": "Vita",
+      "unattributed_continuation_count": 0
+    },
+    {
+      "action": "removed",
+      "attributed_source_line_index": 0,
+      "attributed_source_line_sha256": "5436f9db81a2f629fa3e8e32708ca93b0d7536966d32c70824fb16b9fa9d8788",
+      "reason": "removed non-founder, evaluative, or unnecessary context",
+      "rendered_text": "",
+      "retained_content_class": null,
+      "preceded_by_investor_decision": false,
+      "source_turn_index": 21,
+      "speaker": "Elizabeth",
+      "unattributed_continuation_count": 0
+    },
+    {
+      "action": "removed",
+      "attributed_source_line_index": 0,
+      "attributed_source_line_sha256": "7618485b32be6c435a1772c78e3d91dd07540e6e3b19ef84ae518e2b24d2f3d8",
+      "reason": "removed non-founder, evaluative, or unnecessary context",
+      "rendered_text": "",
+      "retained_content_class": null,
+      "preceded_by_investor_decision": false,
+      "source_turn_index": 22,
+      "speaker": "Josh",
+      "unattributed_continuation_count": 0
+    },
+    {
+      "action": "removed",
+      "attributed_source_line_index": 0,
+      "attributed_source_line_sha256": "1ba7259d24637d439b978f62d11ca5825b7f0e4f29513126d090b723a48f45a3",
+      "reason": "removed non-founder, evaluative, or unnecessary context",
+      "rendered_text": "",
+      "retained_content_class": null,
+      "preceded_by_investor_decision": false,
+      "source_turn_index": 23,
+      "speaker": "Charles",
+      "unattributed_continuation_count": 0
+    },
+    {
+      "action": "retained",
+      "attributed_source_line_index": 0,
+      "attributed_source_line_sha256": "b6962db326d2fc6ac384d0716a2e4f7878c0887b7c5af7da34ec026303a988e5",
+      "reason": "founder pitch or pre-decision factual answer; preserved factual names for semantic review",
+      "rendered_text": "Vita: Yep. And there's another tab for Minori Beauty. She's a smaller brand. She didn't have any personalization tools. So we did a full beauty quiz for her. Based on your skin tone, your age, how you like to wear your make up, we change out the model imagery that you see first.",
+      "retained_content_class": "explicit_founder",
+      "preceded_by_investor_decision": false,
+      "source_turn_index": 24,
+      "speaker": "Vita",
+      "unattributed_continuation_count": 0
+    },
+    {
+      "action": "neutralized",
+      "attributed_source_line_index": 0,
+      "attributed_source_line_sha256": "0a734cd8780edb30573206f8805440d8d3e6b7244115116ef508d6010b7fbc75",
+      "reason": "neutralized investor question",
+      "rendered_text": "Investor question: Is that animated one, is that AI-generated too?",
+      "retained_content_class": "explicit_investor_question",
+      "preceded_by_investor_decision": false,
+      "source_turn_index": 25,
+      "speaker": "Charles",
+      "unattributed_continuation_count": 0
+    },
+    {
+      "action": "retained",
+      "attributed_source_line_index": 0,
+      "attributed_source_line_sha256": "240b521ad6b3c53bb0109f9a73486360620f330ec6b0c9364c1739ec267b3535",
+      "reason": "founder pitch or pre-decision factual answer; preserved factual names for semantic review",
+      "rendered_text": "Vita: So, we don't do videos yet.",
+      "retained_content_class": "explicit_founder",
+      "preceded_by_investor_decision": false,
+      "source_turn_index": 26,
+      "speaker": "Vita",
+      "unattributed_continuation_count": 0
+    },
+    {
+      "action": "removed",
+      "attributed_source_line_index": 0,
+      "attributed_source_line_sha256": "f817ef12d9b550fef06a60f95d5e56f86a80a933442e9d2b9d5ef1ee2406d7dc",
+      "reason": "removed non-founder, evaluative, or unnecessary context",
+      "rendered_text": "",
+      "retained_content_class": null,
+      "preceded_by_investor_decision": false,
+      "source_turn_index": 27,
+      "speaker": "Charles",
+      "unattributed_continuation_count": 0
+    },
+    {
+      "action": "removed",
+      "attributed_source_line_index": 0,
+      "attributed_source_line_sha256": "c1af28811bc4e4451911d44f00b5bb52c3a1a34af651e1d4fe46dc04e1a4982f",
+      "reason": "removed non-founder, evaluative, or unnecessary context",
+      "rendered_text": "",
+      "retained_content_class": null,
+      "preceded_by_investor_decision": false,
+      "source_turn_index": 28,
+      "speaker": "Elizabeth",
+      "unattributed_continuation_count": 0
+    },
+    {
+      "action": "retained",
+      "attributed_source_line_index": 0,
+      "attributed_source_line_sha256": "f721b135fb4e41cf81b1463209d81fcff64c82828dd6112dd9a7d4447bda2179",
+      "reason": "founder pitch or pre-decision factual answer; preserved factual names for semantic review",
+      "rendered_text": "Vita: It's in the product timeline.",
+      "retained_content_class": "explicit_founder",
+      "preceded_by_investor_decision": false,
+      "source_turn_index": 29,
+      "speaker": "Vita",
+      "unattributed_continuation_count": 0
+    },
+    {
+      "action": "neutralized",
+      "attributed_source_line_index": 0,
+      "attributed_source_line_sha256": "a94bd1c3d48cfbf51bbbd05a1642baf05b389922e662eedec14dd2ec2299a3cb",
+      "reason": "neutralized investor question",
+      "rendered_text": "Investor question: Are all of your warmest leads like skin products?",
+      "retained_content_class": "explicit_investor_question",
+      "preceded_by_investor_decision": false,
+      "source_turn_index": 30,
+      "speaker": "Elizabeth",
+      "unattributed_continuation_count": 0
+    },
+    {
+      "action": "retained",
+      "attributed_source_line_index": 0,
+      "attributed_source_line_sha256": "947c59d6a76f5f0e997763885113917ab1085ba856f15060b9a1241aa7c6316a",
+      "reason": "founder pitch or pre-decision factual answer; preserved factual names for semantic review",
+      "rendered_text": "Vita: Yeah, so I have deeper connections in the beauty space, which is why we started there. I'd say right now the mix is about 60% beauty, 40% fashion.",
+      "retained_content_class": "explicit_founder",
+      "preceded_by_investor_decision": false,
+      "source_turn_index": 31,
+      "speaker": "Vita",
+      "unattributed_continuation_count": 0
+    },
+    {
+      "action": "removed",
+      "attributed_source_line_index": 0,
+      "attributed_source_line_sha256": "8e24389e6e652944fd1b41f42dacab2c354165aaa5a3300e8b7e040a55745553",
+      "reason": "removed non-founder, evaluative, or unnecessary context",
+      "rendered_text": "",
+      "retained_content_class": null,
+      "preceded_by_investor_decision": false,
+      "source_turn_index": 32,
+      "speaker": "Pascal",
+      "unattributed_continuation_count": 0
+    },
+    {
+      "action": "retained",
+      "attributed_source_line_index": 0,
+      "attributed_source_line_sha256": "7b628591dfb79a257730585e0651b625d05788d244729a1fe80a894a8b871162",
+      "reason": "founder pitch or pre-decision factual answer; preserved factual names for semantic review",
+      "rendered_text": "Vita: Yeah. So what's really cool about the tech is we are building in-house models. This is not just a wrapper off of like Midjourney or Stable Diffusion. There's three parts to the tech. One, is the actual model creation. The basis is Stable Diffusion, but we have our own algos on top of it for lighting aesthetics, demographics, posing. The second part is the actual digitization of the product information. This is not something that anybody has solved. And what's really cool is the visual analytics part of it, it's something really unique to us. So now you can finally understand and test what model demographics are doing well, what types of posing, what types of merchandising. Can I show a different model wearing a coat to somebody shopping from, you know, a cold state versus somebody with heels with that dress for a warm state. Finally possible to test all of this out and to change in a matter of just minutes and hours, rather than weeks and months.",
+      "retained_content_class": "explicit_founder",
+      "preceded_by_investor_decision": false,
+      "source_turn_index": 33,
+      "speaker": "Vita",
+      "unattributed_continuation_count": 0
+    },
+    {
+      "action": "removed",
+      "attributed_source_line_index": 0,
+      "attributed_source_line_sha256": "e3700f5cab23a07acffd331877c748011b49eee82b4b29bfd8fa33e8bab50619",
+      "reason": "removed non-founder, evaluative, or unnecessary context",
+      "rendered_text": "",
+      "retained_content_class": null,
+      "preceded_by_investor_decision": false,
+      "source_turn_index": 34,
+      "speaker": "Elizabeth",
+      "unattributed_continuation_count": 0
+    },
+    {
+      "action": "retained",
+      "attributed_source_line_index": 0,
+      "attributed_source_line_sha256": "2f68f8f999c9b4c5d4d529c3e6f6f0bb6b546b369d76986302174a516ebb3c6c",
+      "reason": "founder pitch or pre-decision factual answer; preserved factual names for semantic review",
+      "rendered_text": "Vita: Yeah. So the type of brands that we've spoken to for these LOIs, they're doing less than 5 million in sales, but they're willing to spend 10, 12k contract values with us. So when you look at these larger brands, brands that are spending, you know, 200 million in revenue, they're spending about 3, 4 million on photoshoots. And that's where these annual contract values come in of 300, 400k, where we're providing them significant um cost savings. Once one of your competitors uses it too. The only way to stay competitive is to utilize the tech.",
+      "retained_content_class": "explicit_founder",
+      "preceded_by_investor_decision": false,
+      "source_turn_index": 35,
+      "speaker": "Vita",
+      "unattributed_continuation_count": 0
+    },
+    {
+      "action": "neutralized",
+      "attributed_source_line_index": 0,
+      "attributed_source_line_sha256": "72fd01300fd7b04cbdb596d3c553b7d16ec7ec956fc6436b1c06abf1e8bbbed1",
+      "reason": "neutralized investor question",
+      "rendered_text": "Investor question: Can you talk more about your customers and these LOIs? Like, like what kind of pricing are you talking about with them?",
+      "retained_content_class": "explicit_investor_question",
+      "preceded_by_investor_decision": false,
+      "source_turn_index": 36,
+      "speaker": "Elizabeth",
+      "unattributed_continuation_count": 0
+    },
+    {
+      "action": "retained",
+      "attributed_source_line_index": 0,
+      "attributed_source_line_sha256": "53afd581b429ae3e29c7d075656e30123ed62749c433107a52f7d6a85a093667",
+      "reason": "founder pitch or pre-decision factual answer; preserved factual names for semantic review",
+      "rendered_text": "Vita: They're average like 10 to 12k contract values for about a thousand to 1,500 images. This is our lowest tier that we're looking at starting with. And it would pretty much take over the smaller brands, you know, probably 80 to 90% of their photoshoot needs for the year.",
+      "retained_content_class": "explicit_founder",
+      "preceded_by_investor_decision": false,
+      "source_turn_index": 37,
+      "speaker": "Vita",
+      "unattributed_continuation_count": 0
+    },
+    {
+      "action": "removed",
+      "attributed_source_line_index": 0,
+      "attributed_source_line_sha256": "5e094f5816afe55ab988fd8a9231f9d9593cde6a215c4f5521e5869072b0c52c",
+      "reason": "removed non-founder, evaluative, or unnecessary context",
+      "rendered_text": "",
+      "retained_content_class": null,
+      "preceded_by_investor_decision": false,
+      "source_turn_index": 38,
+      "speaker": "Beck",
+      "unattributed_continuation_count": 0
+    },
+    {
+      "action": "retained",
+      "attributed_source_line_index": 0,
+      "attributed_source_line_sha256": "5f9a2b795615ba6a3d5455fd5624d773fbca5bcd16249c421fd37411dc9837da",
+      "reason": "founder pitch or pre-decision factual answer; preserved factual names for semantic review",
+      "rendered_text": "Vita: Yes.",
+      "retained_content_class": "explicit_founder",
+      "preceded_by_investor_decision": false,
+      "source_turn_index": 39,
+      "speaker": "Vita",
+      "unattributed_continuation_count": 0
+    },
+    {
+      "action": "removed",
+      "attributed_source_line_index": 0,
+      "attributed_source_line_sha256": "f9dfd47ca4ef943210bf3ece8b46279a68a4f741538a03c2eeaa4c0d2eb0fbba",
+      "reason": "removed non-founder, evaluative, or unnecessary context",
+      "rendered_text": "",
+      "retained_content_class": null,
+      "preceded_by_investor_decision": false,
+      "source_turn_index": 40,
+      "speaker": "Beck",
+      "unattributed_continuation_count": 0
+    },
+    {
+      "action": "retained",
+      "attributed_source_line_index": 0,
+      "attributed_source_line_sha256": "2a2885a67f095406ad66b86c7895bab84ba9e991023bfbbb57f16113b4e57cf7",
+      "reason": "founder pitch or pre-decision factual answer; preserved factual names for semantic review",
+      "rendered_text": "Vita: Yeah. So when I was at Walmart, we actually acquired a tool internally called Z Kit*. This was a couple years ago. You do not have to reveal that they are AI models. And I saw how much the company struggled with to actually onboard the tool, digitize the product, put the personalization out for each customer. And I was like, Walmart can do this because we have these millions of dollars, tech teams.",
+      "retained_content_class": "explicit_founder",
+      "preceded_by_investor_decision": false,
+      "source_turn_index": 41,
+      "speaker": "Vita",
+      "unattributed_continuation_count": 0
+    },
+    {
+      "action": "removed",
+      "attributed_source_line_index": 0,
+      "attributed_source_line_sha256": "c10c037156053bfe962132f8eb70e273899bcbf44d3db5e8d88a465a07e84d9e",
+      "reason": "removed non-founder, evaluative, or unnecessary context",
+      "rendered_text": "",
+      "retained_content_class": null,
+      "preceded_by_investor_decision": false,
+      "source_turn_index": 42,
+      "speaker": "Beck",
+      "unattributed_continuation_count": 0
+    },
+    {
+      "action": "retained",
+      "attributed_source_line_index": 0,
+      "attributed_source_line_sha256": "5b28e4135f58a25dbce020e0b0749db22d44911feb7491e6a85910b731f113e7",
+      "reason": "founder pitch or pre-decision factual answer; preserved factual names for semantic review",
+      "rendered_text": "Vita: But other brands need this tech and they can't do it. But they've been using this tech for years. They started with about 50 models per SKU, they've now gone to over 200 models a SKU because more people are trying to find more models that look like them, see it on them before they purchase. And there's already proven case studies of how this has longevity and they're actually I think going into like male models and stuff now too.",
+      "retained_content_class": "explicit_founder",
+      "preceded_by_investor_decision": false,
+      "source_turn_index": 43,
+      "speaker": "Vita",
+      "unattributed_continuation_count": 0
+    },
+    {
+      "action": "removed",
+      "attributed_source_line_index": 0,
+      "attributed_source_line_sha256": "8fa3fb3801673c0dd7c08eda6c36a87f2846e38b1e535227098cab89405b31a8",
+      "reason": "removed non-founder, evaluative, or unnecessary context",
+      "rendered_text": "",
+      "retained_content_class": null,
+      "preceded_by_investor_decision": false,
+      "source_turn_index": 44,
+      "speaker": "Beck",
+      "unattributed_continuation_count": 0
+    },
+    {
+      "action": "removed",
+      "attributed_source_line_index": 0,
+      "attributed_source_line_sha256": "e02723b214754f5ae78cb017547dec0208545028505ad42abd1c0f243289fa3c",
+      "reason": "removed non-founder, evaluative, or unnecessary context",
+      "rendered_text": "",
+      "retained_content_class": null,
+      "preceded_by_investor_decision": false,
+      "source_turn_index": 45,
+      "speaker": "Pascal",
+      "unattributed_continuation_count": 0
+    },
+    {
+      "action": "retained",
+      "attributed_source_line_index": 0,
+      "attributed_source_line_sha256": "5f9a2b795615ba6a3d5455fd5624d773fbca5bcd16249c421fd37411dc9837da",
+      "reason": "founder pitch or pre-decision factual answer; preserved factual names for semantic review",
+      "rendered_text": "Vita: Yes.",
+      "retained_content_class": "explicit_founder",
+      "preceded_by_investor_decision": false,
+      "source_turn_index": 46,
+      "speaker": "Vita",
+      "unattributed_continuation_count": 0
+    },
+    {
+      "action": "neutralized",
+      "attributed_source_line_index": 0,
+      "attributed_source_line_sha256": "8c1c6d08db9d889ac275e944433226c2f7c90d01ef045e98b64b3c70b2ed5e67",
+      "reason": "neutralized investor question",
+      "rendered_text": "Investor question: What's the biggest kind of pushback or hesitation folks have to overcome when you talk to them for the first time?",
+      "retained_content_class": "explicit_investor_question",
+      "preceded_by_investor_decision": false,
+      "source_turn_index": 47,
+      "speaker": "Pascal",
+      "unattributed_continuation_count": 0
+    },
+    {
+      "action": "retained",
+      "attributed_source_line_index": 0,
+      "attributed_source_line_sha256": "f4d0d7bd507eacc8ad607ce14a017f159585802cbdea47d788a2f1d7ccdb5412",
+      "reason": "founder pitch or pre-decision factual answer; preserved factual names for semantic review",
+      "rendered_text": "Vita: Yeah. So I think in terms of AI models, brands will never be able to show a average customer working with modeling agencies. They have certain height and weight restrictions, so 5'9\", size 0, or like 5'9\" and taller in size 12. To be able to show your 5'2\" size 6, size 8 customer will never happen through a modeling agency. So that's like one key learning for brands. The other thing is, in terms of like utilizing AI models itself, Walmart has done it. And it's something that has worked really well for them. And I really believe that this is the only way that you can actually scale up to show all of these diverse model images. There's just no other way to be able to do it in a scalable solution without using AI.",
+      "retained_content_class": "explicit_founder",
+      "preceded_by_investor_decision": false,
+      "source_turn_index": 48,
+      "speaker": "Vita",
+      "unattributed_continuation_count": 0
+    },
+    {
+      "action": "neutralized",
+      "attributed_source_line_index": 0,
+      "attributed_source_line_sha256": "eb8d75cf6de2544f6b4e05dd4cb837819115b080ed9ef40531361ef4c6d32fcf",
+      "reason": "neutralized investor question",
+      "rendered_text": "Investor question: Because besides walking down a runway, what are you doing?",
+      "retained_content_class": "explicit_investor_question",
+      "preceded_by_investor_decision": false,
+      "source_turn_index": 49,
+      "speaker": "Beck",
+      "unattributed_continuation_count": 0
+    },
+    {
+      "action": "neutralized",
+      "attributed_source_line_index": 0,
+      "attributed_source_line_sha256": "e62cd41c68172a9707a13989b22a0cfc47a50ca653645ca22b5b4bd3f9854bef",
+      "reason": "neutralized investor question",
+      "rendered_text": "Investor question: Can you just give us how much has been raised, what are you looking to raise that at?",
+      "retained_content_class": "explicit_investor_question",
+      "preceded_by_investor_decision": false,
+      "source_turn_index": 51,
+      "speaker": "Pascal",
+      "unattributed_continuation_count": 0
+    },
+    {
+      "action": "retained",
+      "attributed_source_line_index": 0,
+      "attributed_source_line_sha256": "a7f7c5e9df5a941bb66680963ef77b54c6736c5c16b4512c1c9e763a8b5bfbe6",
+      "reason": "founder pitch or pre-decision factual answer; preserved factual names for semantic review",
+      "rendered_text": "Vita: So really letting the lead set the round - terms. We have received funding from MBA Fund and Dorm Room Fund in the last actually four weeks. So and we have soft committed about 250k, but the lead opportunity is still open for the round.",
+      "retained_content_class": "explicit_founder",
+      "preceded_by_investor_decision": false,
+      "source_turn_index": 52,
+      "speaker": "Vita",
+      "unattributed_continuation_count": 0
+    },
+    {
+      "action": "neutralized",
+      "attributed_source_line_index": 0,
+      "attributed_source_line_sha256": "2edda4c8e7ebfb96a222b4f871e156bf96da1d78e9c7e79087fa3255973eaf56",
+      "reason": "neutralized investor question",
+      "rendered_text": "Investor question: In an ideal world, what would you like the terms to be?",
+      "retained_content_class": "explicit_investor_question",
+      "preceded_by_investor_decision": false,
+      "source_turn_index": 53,
+      "speaker": "Mac",
+      "unattributed_continuation_count": 0
+    },
+    {
+      "action": "retained",
+      "attributed_source_line_index": 0,
+      "attributed_source_line_sha256": "5bef44abf6d03b33ae90d52c404a67c29fe8bb387bd52c4813808acda30983bf",
+      "reason": "founder pitch or pre-decision factual answer; preserved factual names for semantic review",
+      "rendered_text": "Vita: In this market, like, I think it just makes sense to really let the lead set the terms. But some of the things that we've seen is -",
+      "retained_content_class": "explicit_founder",
+      "preceded_by_investor_decision": false,
+      "source_turn_index": 54,
+      "speaker": "Vita",
+      "unattributed_continuation_count": 0
+    },
+    {
+      "action": "neutralized",
+      "attributed_source_line_index": 0,
+      "attributed_source_line_sha256": "478cb4585e1a7d114bd7bbd9677327b2ad8a04b05ce0d8bc30f9d76c6b273a13",
+      "reason": "neutralized investor question",
+      "rendered_text": "Investor question: What kind of terms do you want?",
+      "retained_content_class": "explicit_investor_question",
+      "preceded_by_investor_decision": false,
+      "source_turn_index": 55,
+      "speaker": "Mac",
+      "unattributed_continuation_count": 0
+    },
+    {
+      "action": "retained",
+      "attributed_source_line_index": 0,
+      "attributed_source_line_sha256": "29874e000ed69d1ed270385bca90238d1b10b7efb6610bbf37c9da4d942b1a5f",
+      "reason": "founder pitch or pre-decision factual answer; preserved factual names for semantic review",
+      "rendered_text": "Vita: Oh. Okay. No, I'd be really excited about that.",
+      "retained_content_class": "explicit_founder",
+      "preceded_by_investor_decision": false,
+      "source_turn_index": 56,
+      "speaker": "Vita",
+      "unattributed_continuation_count": 0
+    },
+    {
+      "action": "neutralized",
+      "attributed_source_line_index": 0,
+      "attributed_source_line_sha256": "9a1f29e9794f9c16cfd1c8105aceb35e94cbe413f8ee3d2b8dd8be3e26277c8e",
+      "reason": "neutralized investor question",
+      "rendered_text": "Investor question: But what kind of terms do you want?",
+      "retained_content_class": "explicit_investor_question",
+      "preceded_by_investor_decision": false,
+      "source_turn_index": 57,
+      "speaker": "Mac",
+      "unattributed_continuation_count": 0
+    },
+    {
+      "action": "retained",
+      "attributed_source_line_index": 0,
+      "attributed_source_line_sha256": "2fd6c1cb7c1ede70d8961fef2d7627cffbd87938293a583d7b919f0da5ecd630",
+      "reason": "founder pitch or pre-decision factual answer; removed 1 unattributed continuation line(s); preserved factual names for semantic review",
+      "rendered_text": "Vita: So we're not -",
+      "retained_content_class": "explicit_founder",
+      "preceded_by_investor_decision": false,
+      "source_turn_index": 58,
+      "speaker": "Vita",
+      "unattributed_continuation_count": 1
+    },
+    {
+      "action": "removed",
+      "attributed_source_line_index": 0,
+      "attributed_source_line_sha256": "28dcf4696b544eb424056d7391cfe333e81028d6dd9ab3900bc2487a967cebae",
+      "reason": "removed non-founder, evaluative, or unnecessary context",
+      "rendered_text": "",
+      "retained_content_class": null,
+      "preceded_by_investor_decision": false,
+      "source_turn_index": 59,
+      "speaker": "Mac",
+      "unattributed_continuation_count": 0
+    },
+    {
+      "action": "retained",
+      "attributed_source_line_index": 0,
+      "attributed_source_line_sha256": "279ece5fdc335af7d0dc11cf37086a0bc902853f4a7ce776460bb8e3db07a4ec",
+      "reason": "founder pitch or pre-decision factual answer; preserved factual names for semantic review",
+      "rendered_text": "Vita: Yeah, yeah. So we're not - we're looking to keep it around 7 and a half, 8 million post money, basically.",
+      "retained_content_class": "explicit_founder",
+      "preceded_by_investor_decision": false,
+      "source_turn_index": 60,
+      "speaker": "Vita",
+      "unattributed_continuation_count": 0
+    },
+    {
+      "action": "removed",
+      "attributed_source_line_index": 0,
+      "attributed_source_line_sha256": "148484239580c97f93a1919e1644a41981b098f790f0fbf0350e4ba189b0694f",
+      "reason": "removed non-founder, evaluative, or unnecessary context",
+      "rendered_text": "",
+      "retained_content_class": null,
+      "preceded_by_investor_decision": false,
+      "source_turn_index": 61,
+      "speaker": "Mac",
+      "unattributed_continuation_count": 0
+    },
+    {
+      "action": "neutralized",
+      "attributed_source_line_index": 0,
+      "attributed_source_line_sha256": "28c3a58003e39e06c80c04aef66d42655b6ba8ef8e098a4cb1a0b647841aff53",
+      "reason": "neutralized investor question",
+      "rendered_text": "Investor question: Why are you calling it Flock?",
+      "retained_content_class": "explicit_investor_question",
+      "preceded_by_investor_decision": false,
+      "source_turn_index": 62,
+      "speaker": "Beck",
+      "unattributed_continuation_count": 0
+    },
+    {
+      "action": "retained",
+      "attributed_source_line_index": 0,
+      "attributed_source_line_sha256": "53884a2696925c6c86dc7af6871f8239d87c0b6ccf50f70be0bb97d01c10b43b",
+      "reason": "founder pitch or pre-decision factual answer; preserved factual names for semantic review",
+      "rendered_text": "Vita: So a little bit of background. We originally started a B2C app that was still focused on the problem of how do you help customers understand if products will work for you, on your skin tone, or your body shape, or your body height. And you could go there, take a beauty quiz, I could match with another, you know, Indian American mid-20s with my skin tone, see the like product she used, how it looked on her and shop. And we called it Flock because it's like, you know, birds of a feather flock together. Find your flock on the flock app and be able to shop that way. So we kept that name, but open to changing it.",
+      "retained_content_class": "explicit_founder",
+      "preceded_by_investor_decision": false,
+      "source_turn_index": 63,
+      "speaker": "Vita",
+      "unattributed_continuation_count": 0
+    }
+  ],
+  "removed_candidate_lines": [
+    28,
+    29,
+    30,
+    31,
+    32,
+    33,
+    34
+  ],
+  "pitch_sha256": null,
+  "fingerprint": "013e5b7e2573a409f645dbc965794f82d08c4a67459adfe131de3367238db961",
+  "model": "openai/gpt-5.6-luna",
+  "calls": [
+    {
+      "phase": "evaluation_review",
+      "parsed": {
+        "episode_kind": "pitch",
+        "founder_speakers": [
+          "Vita"
+        ],
+        "pitch_start_turn": 10,
+        "pitch_end_turn": 64,
+        "excluded_turns": [
+          0,
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7,
+          8,
+          9,
+          50
+        ],
+        "boundary_reason": "The substantive founder pitch begins at turn 10 after the teaser, investor introductions, and greetings. Turn 50 is a host promo and break and is excluded. The pitch end is exclusive at turn 64, before the investors begin valuation and investment-decision discussion.",
+        "decisions": [
+          {
+            "vc_slug": "beck-bamberger-bad-ideas-group",
+            "pitch_window_decision": "Out",
+            "initial_response": "Out",
+            "decision_context": "initial_panel",
+            "pitch_evidence": [
+              {
+                "turn_index": 70,
+                "quote": "I'm out. Retail tech - we've worked with. Not the space I love. But I'd like to see more in traction, so keep me posted."
+              }
+            ],
+            "later_decision": "Unknown",
+            "later_evidence": [],
+            "condition": null,
+            "reason": "Beck declined because retail technology was not a preferred area and wanted to see more traction."
+          },
+          {
+            "vc_slug": "charles-hudson-precursor-ventures",
+            "pitch_window_decision": "Out",
+            "initial_response": "Out",
+            "decision_context": "initial_panel",
+            "pitch_evidence": [
+              {
+                "turn_index": 86,
+                "quote": "But for today, I'm a pass."
+              }
+            ],
+            "later_decision": "Unknown",
+            "later_evidence": [],
+            "condition": null,
+            "reason": "Charles passed after expressing reservations about the deflationary impact and value capture in the category."
+          },
+          {
+            "vc_slug": "elizabeth-yin-hustle-fund",
+            "pitch_window_decision": "In",
+            "initial_response": "In",
+            "decision_context": "initial_panel",
+            "pitch_evidence": [
+              {
+                "turn_index": 66,
+                "quote": "I'd be open to investing 50k at 6 post on a safe, and we are fast. And that can be ahead of the round, as a small tranche"
+              }
+            ],
+            "later_decision": "In",
+            "later_evidence": [
+              {
+                "turn_index": 203,
+                "quote": "Elizabeth Yin was limited to investing only 50k"
+              }
+            ],
+            "condition": "At 6 post on a SAFE, ahead of the round as a small tranche.",
+            "reason": "Elizabeth offered a $50k investment on the stated SAFE terms, and the later report says her investment was limited to $50k because of the round dynamics."
+          },
+          {
+            "vc_slug": "mac-conwell",
+            "pitch_window_decision": "Out",
+            "initial_response": "Out",
+            "decision_context": "initial_panel",
+            "pitch_evidence": [
+              {
+                "turn_index": 74,
+                "quote": "today, I'm out. Mainly because I think you'll do well, but I don't know if your exit value gets to be as high as you would like."
+              }
+            ],
+            "later_decision": "Unknown",
+            "later_evidence": [],
+            "condition": null,
+            "reason": "Mac believed the company could be successful but was concerned that its exit value would not reach the desired level."
+          }
+        ]
+      },
+      "usage": {
+        "input_tokens": 12051,
+        "cached_input_tokens": 0,
+        "output_tokens": 6813,
+        "cost_usd": 0.0111882
+      },
+      "elapsed_seconds": 77.02790973801166
+    },
+    {
+      "phase": "evaluation_verify",
+      "parsed": {
+        "boundary_supported": false,
+        "remove_lines": [
+          28,
+          29,
+          30,
+          31,
+          32,
+          33,
+          34
+        ],
+        "safe_after_removal": true,
+        "reason": "The founder pitch begins at turn 10, but the proposed end at turn 64 is too late. Investor-specific lead-round negotiation begins at turn 55, so a conservative decision-free window is turns 10 through 54 (exclusive end 55). The remaining candidate lines are factual founder statements or neutral questions; the earlier fundraising facts are retained.",
+        "decisions": [
+          {
+            "vc_slug": "beck-bamberger-bad-ideas-group",
+            "pitch_decision_supported": true,
+            "later_decision_supported": false,
+            "pitch_evidence": [
+              {
+                "turn_index": 70,
+                "quote": "I'm out. Retail tech - we've worked with. Not the space I love. But I'd like to see more in traction, so keep me posted."
+              }
+            ],
+            "later_evidence": [],
+            "condition": null,
+            "reason": "Beck explicitly declined during the pitch. No later investor-specific investment or non-investment outcome is reported."
+          },
+          {
+            "vc_slug": "charles-hudson-precursor-ventures",
+            "pitch_decision_supported": true,
+            "later_decision_supported": false,
+            "pitch_evidence": [
+              {
+                "turn_index": 86,
+                "quote": "But for today, I'm a pass."
+              }
+            ],
+            "later_evidence": [],
+            "condition": null,
+            "reason": "Charles explicitly passed during the pitch. No later investor-specific investment or non-investment outcome is reported."
+          },
+          {
+            "vc_slug": "elizabeth-yin-hustle-fund",
+            "pitch_decision_supported": true,
+            "later_decision_supported": true,
+            "pitch_evidence": [
+              {
+                "turn_index": 66,
+                "quote": "I'd be open to investing 50k at 6 post on a safe, and we are fast. And that can be ahead of the round, as a small tranche, you know, before that."
+              }
+            ],
+            "later_evidence": [
+              {
+                "turn_index": 203,
+                "quote": "Elizabeth Yin was limited to investing only 50k"
+              }
+            ],
+            "condition": "$50,000 at 6 post-money on a SAFE, ahead of the round as a small tranche.",
+            "reason": "Elizabeth offered a specific $50,000 investment on specified SAFE and round-position terms during the pitch. The later outro explicitly reports that Elizabeth Yin invested only $50,000 because of the round dynamics."
+          },
+          {
+            "vc_slug": "mac-conwell",
+            "pitch_decision_supported": true,
+            "later_decision_supported": false,
+            "pitch_evidence": [
+              {
+                "turn_index": 74,
+                "quote": "today, I'm out. Mainly because I think you'll do well, but I don't know if your exit value gets to be as high as you would like."
+              }
+            ],
+            "later_evidence": [],
+            "condition": null,
+            "reason": "Mac explicitly declined during the pitch, citing concern about the company's eventual exit value. No later investor-specific investment or non-investment outcome is reported."
+          }
+        ]
+      },
+      "usage": {
+        "input_tokens": 14825,
+        "cached_input_tokens": 0,
+        "output_tokens": 3172,
+        "cost_usd": 0.0075125
+      },
+      "elapsed_seconds": 42.63999925367534
+    }
+  ],
+  "reused_review": true
+}

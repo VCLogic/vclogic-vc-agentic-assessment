@@ -1,0 +1,763 @@
+{
+  "schema": "phase1-rationale-reference-v1",
+  "extraction_version": "pitchshow-rationales-v1",
+  "fingerprint": "584cdabb2fba995aadb3251fe339606f36dff986c3a191a2fe9f0e26109bcbaf",
+  "episode_slug": "130-franshares-investing-in-franchises",
+  "vc_slug": "mac-conwell",
+  "vc_name": "Mac Conwell",
+  "actual_decision": "In",
+  "later_decision": "Out",
+  "reference_kind": "automated_transcript_observed_candidate",
+  "human_validated": false,
+  "source_format": "transcript-observed-rationales-v1",
+  "source_path": "../source/episodes/130-franshares-investing-in-franchises.json",
+  "source_sha256": "5407d044836038425345055b0a6f2d945a2fa0cb7822002d26b7754ed7886730",
+  "transcript_sha256": "38929092ff72ca6f6b9dd32db88a9d35dfb154836f976c6641e657b79828a590",
+  "taxonomy_sha256": "eaa8734819a3ac34dd19ee5f0bf6de925a793a1d25a2d361090dafc9b751e1fc",
+  "model": "openai/gpt-5.6-luna",
+  "source_tier": "newly_extracted_and_independently_model_reviewed",
+  "reviewed_target_turns": [
+    2,
+    12,
+    16,
+    27,
+    29,
+    31,
+    33,
+    44,
+    45,
+    52,
+    54,
+    96,
+    132,
+    134,
+    137,
+    139,
+    141,
+    143,
+    147,
+    149,
+    151,
+    167,
+    169,
+    171,
+    173,
+    183,
+    185,
+    188,
+    192,
+    200,
+    202
+  ],
+  "notes": "All supplied target turns were reviewed in context. Non-rationale turns were not annotated, including the teaser, incomplete remarks, logistics, jokes, and bare confirmations.",
+  "receipt_path": "receipts/130-franshares-investing-in-franchises.json",
+  "scoring_scope": "original_pitch_only",
+  "shared_across_input_modes": true,
+  "rationales": [
+    {
+      "rationale_label": "business_model_assessment",
+      "direction": "neutral",
+      "salience": "secondary",
+      "confidence": 0.98,
+      "utterance_type": "question",
+      "decision_link": "none",
+      "timing": "original_pitch",
+      "turn_index": 52,
+      "quote": "What is your take rate?",
+      "explanation": "Mac directly probes the platform's monetization model.",
+      "evidence": [
+        "What is your take rate?"
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 52,
+          "speaker": "Mac",
+          "quote": "What is your take rate?"
+        }
+      ],
+      "activation": "queried",
+      "source_rationale_id": "R7",
+      "utterance_kind": "question",
+      "decision_support": "none",
+      "all_mention_ids": [
+        "R7"
+      ]
+    },
+    {
+      "rationale_label": "competitive_advantage_assessment",
+      "direction": "positive",
+      "salience": "secondary",
+      "confidence": 0.94,
+      "utterance_type": "assessment",
+      "decision_link": "none",
+      "timing": "original_pitch",
+      "turn_index": 171,
+      "quote": "tried to create this and couldn't, because he couldn't break into that -",
+      "explanation": "Mac identifies access to the franchise community as a barrier that may make the company difficult to replicate.",
+      "evidence": [
+        "tried to create this and couldn't, because he couldn't break into that -"
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 171,
+          "speaker": "Mac",
+          "quote": "tried to create this and couldn't, because he couldn't break into that -"
+        }
+      ],
+      "activation": "evaluated",
+      "source_rationale_id": "R13",
+      "utterance_kind": "supporting_argument",
+      "decision_support": "none",
+      "all_mention_ids": [
+        "R13"
+      ]
+    },
+    {
+      "rationale_label": "founder_skillset",
+      "direction": "positive",
+      "salience": "secondary",
+      "confidence": 0.96,
+      "utterance_type": "assessment",
+      "decision_link": "none",
+      "timing": "original_pitch",
+      "turn_index": 171,
+      "quote": "He knows his stuff.",
+      "explanation": "Mac positively assesses Kenny's relevant industry knowledge.",
+      "evidence": [
+        "He knows his stuff."
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 171,
+          "speaker": "Mac",
+          "quote": "He knows his stuff."
+        }
+      ],
+      "activation": "evaluated",
+      "source_rationale_id": "R12",
+      "utterance_kind": "supporting_argument",
+      "decision_support": "none",
+      "all_mention_ids": [
+        "R12"
+      ]
+    },
+    {
+      "rationale_label": "investment_thesis_constraint",
+      "direction": "positive",
+      "salience": "secondary",
+      "confidence": 0.94,
+      "utterance_type": "decision_reason",
+      "decision_link": "none",
+      "timing": "original_pitch",
+      "turn_index": 188,
+      "quote": "10% of the fund's for off-thesis investment",
+      "explanation": "Mac explains that a designated portion of his fund permits investments outside his normal thesis.",
+      "evidence": [
+        "My rule is diversification.",
+        "If it's a good company, diversify.",
+        "10% of the fund's for off-thesis investment"
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 183,
+          "speaker": "Mac",
+          "quote": "My rule is diversification."
+        },
+        {
+          "turn_index": 185,
+          "speaker": "Mac",
+          "quote": "If it's a good company, diversify."
+        },
+        {
+          "turn_index": 188,
+          "speaker": "Mac",
+          "quote": "10% of the fund's for off-thesis investment"
+        }
+      ],
+      "activation": "evaluated",
+      "source_rationale_id": "R16",
+      "utterance_kind": "decision_explanation",
+      "decision_support": "none",
+      "all_mention_ids": [
+        "R14",
+        "R15",
+        "R16"
+      ]
+    },
+    {
+      "rationale_label": "investment_upside_assessment",
+      "direction": "positive",
+      "salience": "secondary",
+      "confidence": 0.92,
+      "utterance_type": "assessment",
+      "decision_link": "none",
+      "timing": "original_pitch",
+      "turn_index": 137,
+      "quote": "if I had put 100k in at 600 million, I would've been a very happy man.",
+      "explanation": "Mac emphasizes that a seemingly high valuation can still produce an attractive outcome if the company becomes exceptionally successful.",
+      "model_quote_before_typography_repair": "If I had put 100k in at 600 million, I would've been a very happy man.",
+      "evidence": [
+        "That company happened to be Uber.",
+        "if I had put 100k in at 600 million, I would've been a very happy man."
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 134,
+          "speaker": "Mac",
+          "quote": "That company happened to be Uber."
+        },
+        {
+          "turn_index": 137,
+          "speaker": "Mac",
+          "quote": "if I had put 100k in at 600 million, I would've been a very happy man."
+        }
+      ],
+      "activation": "evaluated",
+      "source_rationale_id": "R9",
+      "utterance_kind": "supporting_argument",
+      "decision_support": "unclear",
+      "all_mention_ids": [
+        "R8",
+        "R9"
+      ]
+    },
+    {
+      "rationale_label": "investor_domain_knowledge_constraint",
+      "direction": "negative",
+      "salience": "secondary",
+      "confidence": 0.97,
+      "utterance_type": "assessment",
+      "decision_link": "none",
+      "timing": "original_pitch",
+      "turn_index": 29,
+      "quote": "I don't know if I completely understand the franchisee side of the house",
+      "explanation": "Mac explicitly identifies a gap in his understanding of an important part of the opportunity.",
+      "evidence": [
+        "I don't know if I completely understand the franchisee side of the house"
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 29,
+          "speaker": "Mac",
+          "quote": "I don't know if I completely understand the franchisee side of the house"
+        }
+      ],
+      "activation": "evaluated",
+      "source_rationale_id": "R3",
+      "utterance_kind": "concern",
+      "decision_support": "none",
+      "all_mention_ids": [
+        "R3"
+      ]
+    },
+    {
+      "rationale_label": "investor_experience_bias",
+      "direction": "positive",
+      "salience": "primary",
+      "confidence": 0.98,
+      "utterance_type": "decision_reason",
+      "decision_link": "explicit",
+      "timing": "original_pitch",
+      "turn_index": 141,
+      "quote": "Some of the best companies in our portfolio are in alternatives.",
+      "explanation": "Mac cites prior portfolio success in alternative assets as a reason to invest.",
+      "evidence": [
+        "Some of the best companies in our portfolio are in alternatives."
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 141,
+          "speaker": "Mac",
+          "quote": "Some of the best companies in our portfolio are in alternatives."
+        }
+      ],
+      "activation": "evaluated",
+      "source_rationale_id": "R11",
+      "utterance_kind": "decision_explanation",
+      "decision_support": "supports_in",
+      "all_mention_ids": [
+        "R11"
+      ]
+    },
+    {
+      "rationale_label": "solution_feasibility_assessment",
+      "direction": "neutral",
+      "salience": "secondary",
+      "confidence": 0.94,
+      "utterance_type": "question",
+      "decision_link": "none",
+      "timing": "original_pitch",
+      "turn_index": 33,
+      "quote": "what things do you show me on your platform to help me make that decision",
+      "explanation": "Mac asks whether the product supplies the information needed to evaluate an opportunity.",
+      "model_quote_before_typography_repair": "What things do you show me on your platform to help me make that decision",
+      "evidence": [
+        "Could you help me make that happen?",
+        "how do you manage, as a marketplace, those three things at once?",
+        "Do I see a list of franchises or franchisees that I want to invest with?",
+        "How does your platform help me vet them?",
+        "what things do you show me on your platform to help me make that decision"
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 12,
+          "speaker": "Mac",
+          "quote": "Could you help me make that happen?"
+        },
+        {
+          "turn_index": 16,
+          "speaker": "Mac",
+          "quote": "how do you manage, as a marketplace, those three things at once?"
+        },
+        {
+          "turn_index": 29,
+          "speaker": "Mac",
+          "quote": "Do I see a list of franchises or franchisees that I want to invest with?"
+        },
+        {
+          "turn_index": 31,
+          "speaker": "Mac",
+          "quote": "How does your platform help me vet them?"
+        },
+        {
+          "turn_index": 33,
+          "speaker": "Mac",
+          "quote": "what things do you show me on your platform to help me make that decision"
+        }
+      ],
+      "activation": "queried",
+      "source_rationale_id": "R6",
+      "utterance_kind": "question",
+      "decision_support": "none",
+      "all_mention_ids": [
+        "R1",
+        "R2",
+        "R4",
+        "R5",
+        "R6"
+      ]
+    },
+    {
+      "rationale_label": "stage_valuation_mismatch",
+      "direction": "positive",
+      "salience": "primary",
+      "confidence": 0.94,
+      "utterance_type": "decision_reason",
+      "decision_link": "explicit",
+      "timing": "original_pitch",
+      "turn_index": 139,
+      "quote": "It's below 25. Still in range.",
+      "explanation": "Mac treats the $19 million post-money valuation as within his acceptable range and then commits $100,000.",
+      "evidence": [
+        "It's below 25. Still in range."
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 139,
+          "speaker": "Mac",
+          "quote": "It's below 25. Still in range."
+        }
+      ],
+      "activation": "evaluated",
+      "source_rationale_id": "R10",
+      "utterance_kind": "decision_explanation",
+      "decision_support": "supports_in",
+      "all_mention_ids": [
+        "R10"
+      ]
+    }
+  ],
+  "later_rationales": [],
+  "excluded_rationales": [],
+  "rationale_mentions": [
+    {
+      "rationale_label": "solution_feasibility_assessment",
+      "direction": "neutral",
+      "salience": "secondary",
+      "confidence": 0.94,
+      "utterance_type": "question",
+      "decision_link": "none",
+      "timing": "original_pitch",
+      "turn_index": 12,
+      "quote": "Could you help me make that happen?",
+      "explanation": "Mac asks whether the platform can operationally help an employee without capital become a franchisee.",
+      "evidence": [
+        "Could you help me make that happen?"
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 12,
+          "speaker": "Mac",
+          "quote": "Could you help me make that happen?"
+        }
+      ],
+      "activation": "queried",
+      "source_rationale_id": "R1"
+    },
+    {
+      "rationale_label": "solution_feasibility_assessment",
+      "direction": "neutral",
+      "salience": "secondary",
+      "confidence": 0.95,
+      "utterance_type": "question",
+      "decision_link": "none",
+      "timing": "original_pitch",
+      "turn_index": 16,
+      "quote": "how do you manage, as a marketplace, those three things at once?",
+      "explanation": "Mac probes whether the company can operationally coordinate its franchise, operator, and investor sides.",
+      "model_quote_before_typography_repair": "How do you manage, as a marketplace, those three things at once?",
+      "evidence": [
+        "how do you manage, as a marketplace, those three things at once?"
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 16,
+          "speaker": "Mac",
+          "quote": "how do you manage, as a marketplace, those three things at once?"
+        }
+      ],
+      "activation": "queried",
+      "source_rationale_id": "R2"
+    },
+    {
+      "rationale_label": "investor_domain_knowledge_constraint",
+      "direction": "negative",
+      "salience": "secondary",
+      "confidence": 0.97,
+      "utterance_type": "concern",
+      "decision_link": "none",
+      "timing": "original_pitch",
+      "turn_index": 29,
+      "quote": "I don't know if I completely understand the franchisee side of the house",
+      "explanation": "Mac explicitly identifies a gap in his understanding of an important part of the opportunity.",
+      "evidence": [
+        "I don't know if I completely understand the franchisee side of the house"
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 29,
+          "speaker": "Mac",
+          "quote": "I don't know if I completely understand the franchisee side of the house"
+        }
+      ],
+      "activation": "evaluated",
+      "source_rationale_id": "R3"
+    },
+    {
+      "rationale_label": "solution_feasibility_assessment",
+      "direction": "neutral",
+      "salience": "secondary",
+      "confidence": 0.92,
+      "utterance_type": "question",
+      "decision_link": "none",
+      "timing": "original_pitch",
+      "turn_index": 29,
+      "quote": "Do I see a list of franchises or franchisees that I want to invest with?",
+      "explanation": "Mac asks how the platform presents the opportunities available for investment.",
+      "evidence": [
+        "Do I see a list of franchises or franchisees that I want to invest with?"
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 29,
+          "speaker": "Mac",
+          "quote": "Do I see a list of franchises or franchisees that I want to invest with?"
+        }
+      ],
+      "activation": "queried",
+      "source_rationale_id": "R4"
+    },
+    {
+      "rationale_label": "solution_feasibility_assessment",
+      "direction": "neutral",
+      "salience": "secondary",
+      "confidence": 0.95,
+      "utterance_type": "question",
+      "decision_link": "none",
+      "timing": "original_pitch",
+      "turn_index": 31,
+      "quote": "How does your platform help me vet them?",
+      "explanation": "Mac tests whether the platform provides a workable process for evaluating franchise operators.",
+      "evidence": [
+        "How does your platform help me vet them?"
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 31,
+          "speaker": "Mac",
+          "quote": "How does your platform help me vet them?"
+        }
+      ],
+      "activation": "queried",
+      "source_rationale_id": "R5"
+    },
+    {
+      "rationale_label": "solution_feasibility_assessment",
+      "direction": "neutral",
+      "salience": "secondary",
+      "confidence": 0.94,
+      "utterance_type": "question",
+      "decision_link": "none",
+      "timing": "original_pitch",
+      "turn_index": 33,
+      "quote": "what things do you show me on your platform to help me make that decision",
+      "explanation": "Mac asks whether the product supplies the information needed to evaluate an opportunity.",
+      "model_quote_before_typography_repair": "What things do you show me on your platform to help me make that decision",
+      "evidence": [
+        "what things do you show me on your platform to help me make that decision"
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 33,
+          "speaker": "Mac",
+          "quote": "what things do you show me on your platform to help me make that decision"
+        }
+      ],
+      "activation": "queried",
+      "source_rationale_id": "R6"
+    },
+    {
+      "rationale_label": "business_model_assessment",
+      "direction": "neutral",
+      "salience": "secondary",
+      "confidence": 0.98,
+      "utterance_type": "question",
+      "decision_link": "none",
+      "timing": "original_pitch",
+      "turn_index": 52,
+      "quote": "What is your take rate?",
+      "explanation": "Mac directly probes the platform's monetization model.",
+      "evidence": [
+        "What is your take rate?"
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 52,
+          "speaker": "Mac",
+          "quote": "What is your take rate?"
+        }
+      ],
+      "activation": "queried",
+      "source_rationale_id": "R7"
+    },
+    {
+      "rationale_label": "investment_upside_assessment",
+      "direction": "positive",
+      "salience": "secondary",
+      "confidence": 0.93,
+      "utterance_type": "supporting_argument",
+      "decision_link": "unclear",
+      "timing": "original_pitch",
+      "turn_index": 134,
+      "quote": "That company happened to be Uber.",
+      "explanation": "Mac uses the advisor's missed Uber investment to argue that rejecting a company because of valuation can forgo substantial upside.",
+      "evidence": [
+        "That company happened to be Uber."
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 134,
+          "speaker": "Mac",
+          "quote": "That company happened to be Uber."
+        }
+      ],
+      "activation": "evaluated",
+      "source_rationale_id": "R8"
+    },
+    {
+      "rationale_label": "investment_upside_assessment",
+      "direction": "positive",
+      "salience": "secondary",
+      "confidence": 0.92,
+      "utterance_type": "supporting_argument",
+      "decision_link": "unclear",
+      "timing": "original_pitch",
+      "turn_index": 137,
+      "quote": "if I had put 100k in at 600 million, I would've been a very happy man.",
+      "explanation": "Mac emphasizes that a seemingly high valuation can still produce an attractive outcome if the company becomes exceptionally successful.",
+      "model_quote_before_typography_repair": "If I had put 100k in at 600 million, I would've been a very happy man.",
+      "evidence": [
+        "if I had put 100k in at 600 million, I would've been a very happy man."
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 137,
+          "speaker": "Mac",
+          "quote": "if I had put 100k in at 600 million, I would've been a very happy man."
+        }
+      ],
+      "activation": "evaluated",
+      "source_rationale_id": "R9"
+    },
+    {
+      "rationale_label": "stage_valuation_mismatch",
+      "direction": "positive",
+      "salience": "primary",
+      "confidence": 0.94,
+      "utterance_type": "decision_explanation",
+      "decision_link": "supports_in",
+      "timing": "original_pitch",
+      "turn_index": 139,
+      "quote": "It's below 25. Still in range.",
+      "explanation": "Mac treats the $19 million post-money valuation as within his acceptable range and then commits $100,000.",
+      "evidence": [
+        "It's below 25. Still in range."
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 139,
+          "speaker": "Mac",
+          "quote": "It's below 25. Still in range."
+        }
+      ],
+      "activation": "evaluated",
+      "source_rationale_id": "R10"
+    },
+    {
+      "rationale_label": "investor_experience_bias",
+      "direction": "positive",
+      "salience": "primary",
+      "confidence": 0.98,
+      "utterance_type": "decision_explanation",
+      "decision_link": "supports_in",
+      "timing": "original_pitch",
+      "turn_index": 141,
+      "quote": "Some of the best companies in our portfolio are in alternatives.",
+      "explanation": "Mac cites prior portfolio success in alternative assets as a reason to invest.",
+      "evidence": [
+        "Some of the best companies in our portfolio are in alternatives."
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 141,
+          "speaker": "Mac",
+          "quote": "Some of the best companies in our portfolio are in alternatives."
+        }
+      ],
+      "activation": "evaluated",
+      "source_rationale_id": "R11"
+    },
+    {
+      "rationale_label": "founder_skillset",
+      "direction": "positive",
+      "salience": "secondary",
+      "confidence": 0.96,
+      "utterance_type": "supporting_argument",
+      "decision_link": "none",
+      "timing": "original_pitch",
+      "turn_index": 171,
+      "quote": "He knows his stuff.",
+      "explanation": "Mac positively assesses Kenny's relevant industry knowledge.",
+      "evidence": [
+        "He knows his stuff."
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 171,
+          "speaker": "Mac",
+          "quote": "He knows his stuff."
+        }
+      ],
+      "activation": "evaluated",
+      "source_rationale_id": "R12"
+    },
+    {
+      "rationale_label": "competitive_advantage_assessment",
+      "direction": "positive",
+      "salience": "secondary",
+      "confidence": 0.94,
+      "utterance_type": "supporting_argument",
+      "decision_link": "none",
+      "timing": "original_pitch",
+      "turn_index": 171,
+      "quote": "tried to create this and couldn't, because he couldn't break into that -",
+      "explanation": "Mac identifies access to the franchise community as a barrier that may make the company difficult to replicate.",
+      "evidence": [
+        "tried to create this and couldn't, because he couldn't break into that -"
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 171,
+          "speaker": "Mac",
+          "quote": "tried to create this and couldn't, because he couldn't break into that -"
+        }
+      ],
+      "activation": "evaluated",
+      "source_rationale_id": "R13"
+    },
+    {
+      "rationale_label": "investment_thesis_constraint",
+      "direction": "positive",
+      "salience": "secondary",
+      "confidence": 0.9,
+      "utterance_type": "decision_explanation",
+      "decision_link": "none",
+      "timing": "original_pitch",
+      "turn_index": 183,
+      "quote": "My rule is diversification.",
+      "explanation": "Mac states a portfolio-diversification rule that favors adding differentiated asset exposure.",
+      "evidence": [
+        "My rule is diversification."
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 183,
+          "speaker": "Mac",
+          "quote": "My rule is diversification."
+        }
+      ],
+      "activation": "evaluated",
+      "source_rationale_id": "R14"
+    },
+    {
+      "rationale_label": "investment_thesis_constraint",
+      "direction": "positive",
+      "salience": "secondary",
+      "confidence": 0.9,
+      "utterance_type": "supporting_argument",
+      "decision_link": "none",
+      "timing": "original_pitch",
+      "turn_index": 185,
+      "quote": "If it's a good company, diversify.",
+      "explanation": "Mac says that investing in a good company can be justified as portfolio diversification.",
+      "evidence": [
+        "If it's a good company, diversify."
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 185,
+          "speaker": "Mac",
+          "quote": "If it's a good company, diversify."
+        }
+      ],
+      "activation": "evaluated",
+      "source_rationale_id": "R15"
+    },
+    {
+      "rationale_label": "investment_thesis_constraint",
+      "direction": "positive",
+      "salience": "secondary",
+      "confidence": 0.94,
+      "utterance_type": "decision_explanation",
+      "decision_link": "none",
+      "timing": "original_pitch",
+      "turn_index": 188,
+      "quote": "10% of the fund's for off-thesis investment",
+      "explanation": "Mac explains that a designated portion of his fund permits investments outside his normal thesis.",
+      "evidence": [
+        "10% of the fund's for off-thesis investment"
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 188,
+          "speaker": "Mac",
+          "quote": "10% of the fund's for off-thesis investment"
+        }
+      ],
+      "activation": "evaluated",
+      "source_rationale_id": "R16"
+    }
+  ],
+  "expanded_quote_evidence": [],
+  "rejected_after_evidence_check": []
+}

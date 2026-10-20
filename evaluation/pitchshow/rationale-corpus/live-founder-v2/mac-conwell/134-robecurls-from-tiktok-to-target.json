@@ -1,0 +1,1011 @@
+{
+  "schema": "phase1-rationale-reference-v1",
+  "extraction_version": "pitchshow-rationales-v1",
+  "fingerprint": "2de09fcdd246a8eb4bb037e1cd80930df6a9512d5a567d7524de5cdead917817",
+  "episode_slug": "134-robecurls-from-tiktok-to-target",
+  "vc_slug": "mac-conwell",
+  "vc_name": "Mac Conwell",
+  "actual_decision": "Out",
+  "later_decision": "Unknown",
+  "reference_kind": "automated_transcript_observed_candidate",
+  "human_validated": false,
+  "source_format": "transcript-observed-rationales-v1",
+  "source_path": "../source/episodes/134-robecurls-from-tiktok-to-target.json",
+  "source_sha256": "f3eaea21b10b642e8f205943bdf575bca5403cf5680e8952693dbe963d133e65",
+  "transcript_sha256": "57d122e2c34877b9c1131ebe8d9458b72352278364e5e741aa2a85c200ad8df4",
+  "taxonomy_sha256": "eaa8734819a3ac34dd19ee5f0bf6de925a793a1d25a2d361090dafc9b751e1fc",
+  "model": "codex:gpt-5.6-luna+gpt-5.6-sol",
+  "generation_stages": [
+    {
+      "phase": "rationale_extract",
+      "backend": "openrouter",
+      "model": "openai/gpt-5.6-luna"
+    },
+    {
+      "phase": "rationale_verify",
+      "backend": "openrouter",
+      "model": "openai/gpt-5.6-luna"
+    },
+    {
+      "phase": "rationale_verify",
+      "backend": "codex",
+      "model": "gpt-5.6-sol"
+    }
+  ],
+  "source_tier": "newly_extracted_and_independently_model_reviewed",
+  "reviewed_target_turns": [
+    5,
+    30,
+    58,
+    60,
+    79,
+    83,
+    88,
+    94,
+    96,
+    114,
+    124,
+    128,
+    132,
+    135,
+    138,
+    160,
+    162,
+    164,
+    173,
+    175,
+    182,
+    206,
+    208,
+    211,
+    212,
+    215,
+    217,
+    227,
+    229,
+    232,
+    234
+  ],
+  "notes": "All supplied target turns were reviewed; non-rationale greetings, confirmations, jokes, bare status statements, generic term inquiries without an expressed taxonomy concern, and incomplete fragments were omitted.",
+  "receipt_path": "receipts/134-robecurls-from-tiktok-to-target.json",
+  "scoring_scope": "live_founder_present_v2",
+  "shared_across_input_modes": true,
+  "rationales": [
+    {
+      "rationale_label": "capital_intensity_concern",
+      "direction": "neutral",
+      "salience": "secondary",
+      "confidence": 0.89,
+      "utterance_type": "question",
+      "decision_link": "none",
+      "timing": "original_pitch",
+      "turn_index": 58,
+      "quote": "Tell me a little bit about your burn rate and what's your runway?",
+      "explanation": "Mac asks about cash consumption and the company's remaining operating runway.",
+      "evidence": [
+        "Tell me a little bit about your burn rate and what's your runway?"
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 58,
+          "speaker": "Mac",
+          "quote": "Tell me a little bit about your burn rate and what's your runway?"
+        }
+      ],
+      "activation": "queried",
+      "source_rationale_id": "R2",
+      "utterance_kind": "question",
+      "decision_support": "none",
+      "all_mention_ids": [
+        "R2"
+      ]
+    },
+    {
+      "rationale_label": "founder_communication_quality",
+      "direction": "negative",
+      "salience": "primary",
+      "confidence": 0.98,
+      "utterance_type": "assessment",
+      "decision_link": "none",
+      "timing": "original_pitch",
+      "turn_index": 173,
+      "quote": "You could use a little bit of work on the storytelling and the way you tell the story of what you're doing and the vision long term.",
+      "explanation": "Mac identifies storytelling and articulation of the long-term vision as weaknesses in the pitch.",
+      "evidence": [
+        "You could use a little bit of work on the storytelling and the way you tell the story of what you're doing and the vision long term."
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 173,
+          "speaker": "Mac",
+          "quote": "You could use a little bit of work on the storytelling and the way you tell the story of what you're doing and the vision long term."
+        }
+      ],
+      "activation": "evaluated",
+      "source_rationale_id": "R15",
+      "utterance_kind": "assessment",
+      "decision_support": "none",
+      "all_mention_ids": [
+        "R15"
+      ]
+    },
+    {
+      "rationale_label": "founder_execution",
+      "direction": "positive",
+      "salience": "secondary",
+      "confidence": 0.96,
+      "utterance_type": "assessment",
+      "decision_link": "none",
+      "timing": "original_pitch",
+      "turn_index": 124,
+      "quote": "You're the first founder I've ever met who figured out a way to make money off of the product being counterfeited, right. That's incredible.",
+      "explanation": "Mac praises Emily's resourcefulness in turning counterfeiting enforcement into revenue.",
+      "evidence": [
+        "You're the first founder I've ever met who figured out a way to make money off of the product being counterfeited, right. That's incredible."
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 124,
+          "speaker": "Mac",
+          "quote": "You're the first founder I've ever met who figured out a way to make money off of the product being counterfeited, right. That's incredible."
+        }
+      ],
+      "activation": "evaluated",
+      "source_rationale_id": "R11",
+      "utterance_kind": "assessment",
+      "decision_support": "none",
+      "all_mention_ids": [
+        "R11"
+      ]
+    },
+    {
+      "rationale_label": "founder_investor_vision_alignment",
+      "direction": "neutral",
+      "salience": "secondary",
+      "confidence": 0.91,
+      "utterance_type": "question",
+      "decision_link": "none",
+      "timing": "original_pitch",
+      "turn_index": 88,
+      "quote": "Do you want to protect women's hair from being heat damaged? Or do you want to build a billion dollar business?",
+      "explanation": "Mac tests whether Emily's intended company vision aligns with the billion-dollar path he would back.",
+      "evidence": [
+        "Do you want to protect women's hair from being heat damaged? Or do you want to build a billion dollar business?"
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 88,
+          "speaker": "Mac",
+          "quote": "Do you want to protect women's hair from being heat damaged? Or do you want to build a billion dollar business?"
+        }
+      ],
+      "activation": "queried",
+      "source_rationale_id": "R7",
+      "utterance_kind": "question",
+      "decision_support": "none",
+      "all_mention_ids": [
+        "R7"
+      ]
+    },
+    {
+      "rationale_label": "founder_skillset",
+      "direction": "positive",
+      "salience": "secondary",
+      "confidence": 0.92,
+      "utterance_type": "assessment",
+      "decision_link": "none",
+      "timing": "original_pitch",
+      "turn_index": 173,
+      "quote": "you know this business very well",
+      "explanation": "Mac credits Emily with strong command of her business.",
+      "evidence": [
+        "you know this business very well"
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 173,
+          "speaker": "Mac",
+          "quote": "you know this business very well"
+        }
+      ],
+      "activation": "evaluated",
+      "source_rationale_id": "R14",
+      "utterance_kind": "assessment",
+      "decision_support": "none",
+      "all_mention_ids": [
+        "R14"
+      ]
+    },
+    {
+      "rationale_label": "investment_thesis_constraint",
+      "direction": "positive",
+      "salience": "secondary",
+      "confidence": 0.84,
+      "utterance_type": "assessment",
+      "decision_link": "none",
+      "timing": "original_pitch",
+      "turn_index": 79,
+      "quote": "a whole thesis around tools in the haircare space",
+      "explanation": "Mac identifies haircare tools as an area covered by his existing investment thesis.",
+      "evidence": [
+        "a whole thesis around tools in the haircare space"
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 79,
+          "speaker": "Mac",
+          "quote": "a whole thesis around tools in the haircare space"
+        }
+      ],
+      "activation": "evaluated",
+      "source_rationale_id": "R3",
+      "utterance_kind": "assessment",
+      "decision_support": "none",
+      "all_mention_ids": [
+        "R3"
+      ]
+    },
+    {
+      "rationale_label": "portfolio_conflict_constraint",
+      "direction": "negative",
+      "salience": "primary",
+      "confidence": 0.99,
+      "utterance_type": "decision_reason",
+      "decision_link": "explicit",
+      "timing": "original_pitch",
+      "turn_index": 128,
+      "quote": "I have several companies in my portfolio\u2026 they're not competitors today but could be on their roadmap.",
+      "explanation": "Mac says possible future competition with portfolio companies prevents an immediate investment pending consultation with their founders.",
+      "evidence": [
+        "I have several companies in my portfolio\u2026 they're not competitors today but could be on their roadmap."
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 128,
+          "speaker": "Mac",
+          "quote": "I have several companies in my portfolio\u2026 they're not competitors today but could be on their roadmap."
+        }
+      ],
+      "activation": "evaluated",
+      "source_rationale_id": "R12",
+      "utterance_kind": "decision_explanation",
+      "decision_support": "supports_out",
+      "all_mention_ids": [
+        "R12"
+      ]
+    },
+    {
+      "rationale_label": "product_adoption",
+      "direction": "positive",
+      "salience": "secondary",
+      "confidence": 0.91,
+      "utterance_type": "assessment",
+      "decision_link": "none",
+      "timing": "original_pitch",
+      "turn_index": 88,
+      "quote": "You've already done 3 million in revenue in two years. That's super impressive.",
+      "explanation": "Mac again views the company's revenue traction as impressive evidence of adoption.",
+      "evidence": [
+        "You've done 3 million in revenue. That's impressive.",
+        "You've already done 3 million in revenue in two years. That's super impressive."
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 58,
+          "speaker": "Mac",
+          "quote": "You've done 3 million in revenue. That's impressive."
+        },
+        {
+          "turn_index": 88,
+          "speaker": "Mac",
+          "quote": "You've already done 3 million in revenue in two years. That's super impressive."
+        }
+      ],
+      "activation": "evaluated",
+      "source_rationale_id": "R5",
+      "utterance_kind": "assessment",
+      "decision_support": "none",
+      "all_mention_ids": [
+        "R1",
+        "R5"
+      ]
+    },
+    {
+      "rationale_label": "product_appeal_assessment",
+      "direction": "positive",
+      "salience": "secondary",
+      "confidence": 0.85,
+      "utterance_type": "assessment",
+      "decision_link": "none",
+      "timing": "original_pitch",
+      "turn_index": 88,
+      "quote": "Good innovation there. Smart.",
+      "explanation": "Mac positively assesses the product's innovation.",
+      "evidence": [
+        "Good innovation there. Smart."
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 88,
+          "speaker": "Mac",
+          "quote": "Good innovation there. Smart."
+        }
+      ],
+      "activation": "evaluated",
+      "source_rationale_id": "R4",
+      "utterance_kind": "assessment",
+      "decision_support": "none",
+      "all_mention_ids": [
+        "R4"
+      ]
+    },
+    {
+      "rationale_label": "product_success_factor_assessment",
+      "direction": "neutral",
+      "salience": "secondary",
+      "confidence": 0.9,
+      "utterance_type": "question",
+      "decision_link": "none",
+      "timing": "original_pitch",
+      "turn_index": 96,
+      "quote": "What are the next one or two you have in mind?",
+      "explanation": "Mac asks for specific forthcoming products to assess the breadth of the roadmap.",
+      "evidence": [
+        "Can you give us an idea of where the next innovations on your roadmap?",
+        "What are the next one or two you have in mind?"
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 94,
+          "speaker": "Mac",
+          "quote": "Can you give us an idea of where the next innovations on your roadmap?"
+        },
+        {
+          "turn_index": 96,
+          "speaker": "Mac",
+          "quote": "What are the next one or two you have in mind?"
+        }
+      ],
+      "activation": "queried",
+      "source_rationale_id": "R9",
+      "utterance_kind": "question",
+      "decision_support": "none",
+      "all_mention_ids": [
+        "R8",
+        "R9"
+      ]
+    },
+    {
+      "rationale_label": "stage_valuation_mismatch",
+      "direction": "neutral",
+      "salience": "secondary",
+      "confidence": 0.76,
+      "utterance_type": "question",
+      "decision_link": "none",
+      "timing": "original_pitch",
+      "turn_index": 164,
+      "quote": "Would you go for an eight?",
+      "explanation": "Mac tests whether Emily would accept a valuation below the ten-million figure she proposed.",
+      "evidence": [
+        "Would you go for an eight?"
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 164,
+          "speaker": "Mac",
+          "quote": "Would you go for an eight?"
+        }
+      ],
+      "activation": "queried",
+      "source_rationale_id": "R13",
+      "utterance_kind": "question",
+      "decision_support": "none",
+      "all_mention_ids": [
+        "R13"
+      ]
+    },
+    {
+      "rationale_label": "traction_repeatability_concern",
+      "direction": "neutral",
+      "salience": "secondary",
+      "confidence": 0.86,
+      "utterance_type": "question",
+      "decision_link": "none",
+      "timing": "original_pitch",
+      "turn_index": 114,
+      "quote": "Are you still in Walgreens?",
+      "explanation": "Mac checks whether the company's earlier retail traction continued.",
+      "evidence": [
+        "Are you still in Walgreens?"
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 114,
+          "speaker": "Mac",
+          "quote": "Are you still in Walgreens?"
+        }
+      ],
+      "activation": "queried",
+      "source_rationale_id": "R10",
+      "utterance_kind": "question",
+      "decision_support": "none",
+      "all_mention_ids": [
+        "R10"
+      ]
+    },
+    {
+      "rationale_label": "venture_scale_concern",
+      "direction": "negative",
+      "salience": "primary",
+      "confidence": 0.99,
+      "utterance_type": "assessment",
+      "decision_link": "none",
+      "timing": "original_pitch",
+      "turn_index": 88,
+      "quote": "This doesn't get you to a billion.",
+      "explanation": "Mac believes the current product may build a substantial business but has not shown a path to a venture-scale outcome.",
+      "evidence": [
+        "This doesn't get you to a billion."
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 88,
+          "speaker": "Mac",
+          "quote": "This doesn't get you to a billion."
+        }
+      ],
+      "activation": "evaluated",
+      "source_rationale_id": "R6",
+      "utterance_kind": "assessment",
+      "decision_support": "none",
+      "all_mention_ids": [
+        "R6"
+      ]
+    }
+  ],
+  "later_rationales": [
+    {
+      "rationale_label": "founder_qualities",
+      "direction": "positive",
+      "salience": "secondary",
+      "confidence": 0.82,
+      "utterance_type": "assessment",
+      "decision_link": "none",
+      "timing": "later_commentary",
+      "turn_index": 206,
+      "quote": "She is very impressive.",
+      "explanation": "Mac reiterates his favorable personal assessment of Emily during the in-room debrief.",
+      "evidence": [
+        "She is very impressive."
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 206,
+          "speaker": "Mac",
+          "quote": "She is very impressive."
+        }
+      ],
+      "activation": "evaluated",
+      "source_rationale_id": "R16"
+    },
+    {
+      "rationale_label": "go_to_market_strategy_assessment",
+      "direction": "neutral",
+      "salience": "secondary",
+      "confidence": 0.91,
+      "utterance_type": "assessment",
+      "decision_link": "none",
+      "timing": "later_commentary",
+      "turn_index": 208,
+      "quote": "If you pitch me, you better know your go to market.",
+      "explanation": "Mac identifies command of the go-to-market strategy as a key criterion in his investment evaluation.",
+      "evidence": [
+        "If you pitch me, you better know your go to market."
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 208,
+          "speaker": "Mac",
+          "quote": "If you pitch me, you better know your go to market."
+        }
+      ],
+      "activation": "evaluated",
+      "source_rationale_id": "R17"
+    },
+    {
+      "rationale_label": "founder_communication_quality",
+      "direction": "positive",
+      "salience": "secondary",
+      "confidence": 0.82,
+      "utterance_type": "assessment",
+      "decision_link": "none",
+      "timing": "later_commentary",
+      "turn_index": 212,
+      "quote": "She could come up with a story.",
+      "explanation": "Mac believes Emily is capable of developing the stronger company narrative the pitch currently lacks.",
+      "evidence": [
+        "She could come up with a story."
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 212,
+          "speaker": "Mac",
+          "quote": "She could come up with a story."
+        }
+      ],
+      "activation": "evaluated",
+      "source_rationale_id": "R18"
+    },
+    {
+      "rationale_label": "founder_qualities",
+      "direction": "positive",
+      "salience": "secondary",
+      "confidence": 0.93,
+      "utterance_type": "assessment",
+      "decision_link": "none",
+      "timing": "later_commentary",
+      "turn_index": 215,
+      "quote": "she's got the confidence part down.",
+      "explanation": "Mac positively assesses Emily's confidence despite her limited experience pitching investors.",
+      "evidence": [
+        "she's got the confidence part down."
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 215,
+          "speaker": "Mac",
+          "quote": "she's got the confidence part down."
+        }
+      ],
+      "activation": "evaluated",
+      "source_rationale_id": "R19"
+    },
+    {
+      "rationale_label": "founder_qualities",
+      "direction": "positive",
+      "salience": "secondary",
+      "confidence": 0.84,
+      "utterance_type": "assessment",
+      "decision_link": "none",
+      "timing": "later_commentary",
+      "turn_index": 217,
+      "quote": "That's not something you see every day.",
+      "explanation": "Mac emphasizes that Emily's level of confidence is unusual among inexperienced fundraisers.",
+      "evidence": [
+        "That's not something you see every day."
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 217,
+          "speaker": "Mac",
+          "quote": "That's not something you see every day."
+        }
+      ],
+      "activation": "evaluated",
+      "source_rationale_id": "R20"
+    },
+    {
+      "rationale_label": "founder_execution",
+      "direction": "positive",
+      "salience": "secondary",
+      "confidence": 0.94,
+      "utterance_type": "assessment",
+      "decision_link": "none",
+      "timing": "later_commentary",
+      "turn_index": 229,
+      "quote": "she did - she did the hardest part.",
+      "explanation": "Mac believes Emily has already completed the difficult work of building a functioning business.",
+      "evidence": [
+        "she did - she did the hardest part."
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 229,
+          "speaker": "Mac",
+          "quote": "she did - she did the hardest part."
+        }
+      ],
+      "activation": "evaluated",
+      "source_rationale_id": "R21"
+    },
+    {
+      "rationale_label": "product_adoption",
+      "direction": "positive",
+      "salience": "secondary",
+      "confidence": 0.82,
+      "utterance_type": "assessment",
+      "decision_link": "none",
+      "timing": "later_commentary",
+      "turn_index": 232,
+      "quote": "Like how you get $3 million -",
+      "explanation": "Mac clarifies that generating three million dollars from the product is the difficult accomplishment he finds impressive.",
+      "evidence": [
+        "Like how you get $3 million -"
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 232,
+          "speaker": "Mac",
+          "quote": "Like how you get $3 million -"
+        }
+      ],
+      "activation": "evaluated",
+      "source_rationale_id": "R22"
+    }
+  ],
+  "excluded_rationales": [],
+  "rationale_mentions": [
+    {
+      "rationale_label": "product_adoption",
+      "direction": "positive",
+      "salience": "secondary",
+      "confidence": 0.9,
+      "utterance_type": "assessment",
+      "decision_link": "none",
+      "timing": "original_pitch",
+      "turn_index": 58,
+      "quote": "You've done 3 million in revenue. That's impressive.",
+      "explanation": "Mac treats the achieved revenue as evidence of meaningful customer demand.",
+      "evidence": [
+        "You've done 3 million in revenue. That's impressive."
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 58,
+          "speaker": "Mac",
+          "quote": "You've done 3 million in revenue. That's impressive."
+        }
+      ],
+      "activation": "evaluated",
+      "source_rationale_id": "R1"
+    },
+    {
+      "rationale_label": "capital_intensity_concern",
+      "direction": "neutral",
+      "salience": "secondary",
+      "confidence": 0.89,
+      "utterance_type": "question",
+      "decision_link": "none",
+      "timing": "original_pitch",
+      "turn_index": 58,
+      "quote": "Tell me a little bit about your burn rate and what's your runway?",
+      "explanation": "Mac asks about cash consumption and the company's remaining operating runway.",
+      "evidence": [
+        "Tell me a little bit about your burn rate and what's your runway?"
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 58,
+          "speaker": "Mac",
+          "quote": "Tell me a little bit about your burn rate and what's your runway?"
+        }
+      ],
+      "activation": "queried",
+      "source_rationale_id": "R2"
+    },
+    {
+      "rationale_label": "investment_thesis_constraint",
+      "direction": "positive",
+      "salience": "secondary",
+      "confidence": 0.84,
+      "utterance_type": "assessment",
+      "decision_link": "none",
+      "timing": "original_pitch",
+      "turn_index": 79,
+      "quote": "a whole thesis around tools in the haircare space",
+      "explanation": "Mac identifies haircare tools as an area covered by his existing investment thesis.",
+      "evidence": [
+        "a whole thesis around tools in the haircare space"
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 79,
+          "speaker": "Mac",
+          "quote": "a whole thesis around tools in the haircare space"
+        }
+      ],
+      "activation": "evaluated",
+      "source_rationale_id": "R3"
+    },
+    {
+      "rationale_label": "product_appeal_assessment",
+      "direction": "positive",
+      "salience": "secondary",
+      "confidence": 0.85,
+      "utterance_type": "assessment",
+      "decision_link": "none",
+      "timing": "original_pitch",
+      "turn_index": 88,
+      "quote": "Good innovation there. Smart.",
+      "explanation": "Mac positively assesses the product's innovation.",
+      "evidence": [
+        "Good innovation there. Smart."
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 88,
+          "speaker": "Mac",
+          "quote": "Good innovation there. Smart."
+        }
+      ],
+      "activation": "evaluated",
+      "source_rationale_id": "R4"
+    },
+    {
+      "rationale_label": "product_adoption",
+      "direction": "positive",
+      "salience": "secondary",
+      "confidence": 0.91,
+      "utterance_type": "assessment",
+      "decision_link": "none",
+      "timing": "original_pitch",
+      "turn_index": 88,
+      "quote": "You've already done 3 million in revenue in two years. That's super impressive.",
+      "explanation": "Mac again views the company's revenue traction as impressive evidence of adoption.",
+      "evidence": [
+        "You've already done 3 million in revenue in two years. That's super impressive."
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 88,
+          "speaker": "Mac",
+          "quote": "You've already done 3 million in revenue in two years. That's super impressive."
+        }
+      ],
+      "activation": "evaluated",
+      "source_rationale_id": "R5"
+    },
+    {
+      "rationale_label": "venture_scale_concern",
+      "direction": "negative",
+      "salience": "primary",
+      "confidence": 0.99,
+      "utterance_type": "assessment",
+      "decision_link": "none",
+      "timing": "original_pitch",
+      "turn_index": 88,
+      "quote": "This doesn't get you to a billion.",
+      "explanation": "Mac believes the current product may build a substantial business but has not shown a path to a venture-scale outcome.",
+      "evidence": [
+        "This doesn't get you to a billion."
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 88,
+          "speaker": "Mac",
+          "quote": "This doesn't get you to a billion."
+        }
+      ],
+      "activation": "evaluated",
+      "source_rationale_id": "R6"
+    },
+    {
+      "rationale_label": "founder_investor_vision_alignment",
+      "direction": "neutral",
+      "salience": "secondary",
+      "confidence": 0.91,
+      "utterance_type": "question",
+      "decision_link": "none",
+      "timing": "original_pitch",
+      "turn_index": 88,
+      "quote": "Do you want to protect women's hair from being heat damaged? Or do you want to build a billion dollar business?",
+      "explanation": "Mac tests whether Emily's intended company vision aligns with the billion-dollar path he would back.",
+      "evidence": [
+        "Do you want to protect women's hair from being heat damaged? Or do you want to build a billion dollar business?"
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 88,
+          "speaker": "Mac",
+          "quote": "Do you want to protect women's hair from being heat damaged? Or do you want to build a billion dollar business?"
+        }
+      ],
+      "activation": "queried",
+      "source_rationale_id": "R7"
+    },
+    {
+      "rationale_label": "product_success_factor_assessment",
+      "direction": "neutral",
+      "salience": "secondary",
+      "confidence": 0.88,
+      "utterance_type": "question",
+      "decision_link": "none",
+      "timing": "original_pitch",
+      "turn_index": 94,
+      "quote": "Can you give us an idea of where the next innovations on your roadmap?",
+      "explanation": "Mac probes the product innovations planned beyond the flagship offering.",
+      "evidence": [
+        "Can you give us an idea of where the next innovations on your roadmap?"
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 94,
+          "speaker": "Mac",
+          "quote": "Can you give us an idea of where the next innovations on your roadmap?"
+        }
+      ],
+      "activation": "queried",
+      "source_rationale_id": "R8"
+    },
+    {
+      "rationale_label": "product_success_factor_assessment",
+      "direction": "neutral",
+      "salience": "secondary",
+      "confidence": 0.9,
+      "utterance_type": "question",
+      "decision_link": "none",
+      "timing": "original_pitch",
+      "turn_index": 96,
+      "quote": "What are the next one or two you have in mind?",
+      "explanation": "Mac asks for specific forthcoming products to assess the breadth of the roadmap.",
+      "evidence": [
+        "What are the next one or two you have in mind?"
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 96,
+          "speaker": "Mac",
+          "quote": "What are the next one or two you have in mind?"
+        }
+      ],
+      "activation": "queried",
+      "source_rationale_id": "R9"
+    },
+    {
+      "rationale_label": "traction_repeatability_concern",
+      "direction": "neutral",
+      "salience": "secondary",
+      "confidence": 0.86,
+      "utterance_type": "question",
+      "decision_link": "none",
+      "timing": "original_pitch",
+      "turn_index": 114,
+      "quote": "Are you still in Walgreens?",
+      "explanation": "Mac checks whether the company's earlier retail traction continued.",
+      "evidence": [
+        "Are you still in Walgreens?"
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 114,
+          "speaker": "Mac",
+          "quote": "Are you still in Walgreens?"
+        }
+      ],
+      "activation": "queried",
+      "source_rationale_id": "R10"
+    },
+    {
+      "rationale_label": "founder_execution",
+      "direction": "positive",
+      "salience": "secondary",
+      "confidence": 0.96,
+      "utterance_type": "assessment",
+      "decision_link": "none",
+      "timing": "original_pitch",
+      "turn_index": 124,
+      "quote": "You're the first founder I've ever met who figured out a way to make money off of the product being counterfeited, right. That's incredible.",
+      "explanation": "Mac praises Emily's resourcefulness in turning counterfeiting enforcement into revenue.",
+      "evidence": [
+        "You're the first founder I've ever met who figured out a way to make money off of the product being counterfeited, right. That's incredible."
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 124,
+          "speaker": "Mac",
+          "quote": "You're the first founder I've ever met who figured out a way to make money off of the product being counterfeited, right. That's incredible."
+        }
+      ],
+      "activation": "evaluated",
+      "source_rationale_id": "R11"
+    },
+    {
+      "rationale_label": "portfolio_conflict_constraint",
+      "direction": "negative",
+      "salience": "primary",
+      "confidence": 0.99,
+      "utterance_type": "decision_explanation",
+      "decision_link": "supports_out",
+      "timing": "original_pitch",
+      "turn_index": 128,
+      "quote": "I have several companies in my portfolio\u2026 they're not competitors today but could be on their roadmap.",
+      "explanation": "Mac says possible future competition with portfolio companies prevents an immediate investment pending consultation with their founders.",
+      "evidence": [
+        "I have several companies in my portfolio\u2026 they're not competitors today but could be on their roadmap."
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 128,
+          "speaker": "Mac",
+          "quote": "I have several companies in my portfolio\u2026 they're not competitors today but could be on their roadmap."
+        }
+      ],
+      "activation": "evaluated",
+      "source_rationale_id": "R12"
+    },
+    {
+      "rationale_label": "stage_valuation_mismatch",
+      "direction": "neutral",
+      "salience": "secondary",
+      "confidence": 0.76,
+      "utterance_type": "question",
+      "decision_link": "none",
+      "timing": "original_pitch",
+      "turn_index": 164,
+      "quote": "Would you go for an eight?",
+      "explanation": "Mac tests whether Emily would accept a valuation below the ten-million figure she proposed.",
+      "evidence": [
+        "Would you go for an eight?"
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 164,
+          "speaker": "Mac",
+          "quote": "Would you go for an eight?"
+        }
+      ],
+      "activation": "queried",
+      "source_rationale_id": "R13"
+    },
+    {
+      "rationale_label": "founder_skillset",
+      "direction": "positive",
+      "salience": "secondary",
+      "confidence": 0.92,
+      "utterance_type": "assessment",
+      "decision_link": "none",
+      "timing": "original_pitch",
+      "turn_index": 173,
+      "quote": "you know this business very well",
+      "explanation": "Mac credits Emily with strong command of her business.",
+      "evidence": [
+        "you know this business very well"
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 173,
+          "speaker": "Mac",
+          "quote": "you know this business very well"
+        }
+      ],
+      "activation": "evaluated",
+      "source_rationale_id": "R14"
+    },
+    {
+      "rationale_label": "founder_communication_quality",
+      "direction": "negative",
+      "salience": "primary",
+      "confidence": 0.98,
+      "utterance_type": "assessment",
+      "decision_link": "none",
+      "timing": "original_pitch",
+      "turn_index": 173,
+      "quote": "You could use a little bit of work on the storytelling and the way you tell the story of what you're doing and the vision long term.",
+      "explanation": "Mac identifies storytelling and articulation of the long-term vision as weaknesses in the pitch.",
+      "evidence": [
+        "You could use a little bit of work on the storytelling and the way you tell the story of what you're doing and the vision long term."
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 173,
+          "speaker": "Mac",
+          "quote": "You could use a little bit of work on the storytelling and the way you tell the story of what you're doing and the vision long term."
+        }
+      ],
+      "activation": "evaluated",
+      "source_rationale_id": "R15"
+    }
+  ],
+  "expanded_quote_evidence": [],
+  "rejected_after_evidence_check": [],
+  "timing_review": {
+    "reviewer": "codex_source_inspection",
+    "human_validated": false,
+    "first_post_founder_turn": 186,
+    "original_path": "evaluation/pitchshow/investors/mac-conwell/rationale-references/134-robecurls-from-tiktok-to-target.json",
+    "original_sha256": "c690f52c78b86c1654ebb227cacb7f468fe0a271e6117bcba2bda28ca553077a",
+    "source_path": "evaluation/pitchshow/investors/mac-conwell/source/episodes/134-robecurls-from-tiktok-to-target.json",
+    "source_sha256": "f3eaea21b10b642e8f205943bdf575bca5403cf5680e8952693dbe963d133e65",
+    "reason": "Reviewed farewell/exit and following panel or host transition. Includes live decision discussion and reversals; excludes investor-only debrief. Borderline farewell banter conservatively ends at reviewed boundary."
+  }
+}

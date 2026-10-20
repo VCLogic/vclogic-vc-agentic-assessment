@@ -1,0 +1,578 @@
+{
+  "schema": "phase1-rationale-reference-v1",
+  "extraction_version": "pitchshow-rationales-v1",
+  "fingerprint": "2c3317c77a9a69fdd1f1bf0d083614a092acb137adc81c19bf9237ca10eed834",
+  "episode_slug": "141-christies-chips",
+  "vc_slug": "cyan-banister-long-journey-ventures",
+  "vc_name": "Cyan Banister",
+  "actual_decision": "Out",
+  "later_decision": "Unknown",
+  "reference_kind": "automated_transcript_observed_candidate",
+  "human_validated": false,
+  "source_format": "transcript-observed-rationales-v1",
+  "source_path": "/home/dpasch01/vclogic-vc-agentic-assessment/evaluation/pitchshow/investors/cyan-banister-long-journey-ventures/source/episodes/141-christies-chips.json",
+  "source_sha256": "e8044fa26a8c9eb7957413340cf6b2a52a9e857b334acdc6d271ad00d544b7f8",
+  "transcript_sha256": "171ca8b559088548273f50af1304dff3a969923d4f1f79e124ec9478fc80bb72",
+  "taxonomy_sha256": "eaa8734819a3ac34dd19ee5f0bf6de925a793a1d25a2d361090dafc9b751e1fc",
+  "model": "openai/gpt-5.6-luna",
+  "source_tier": "newly_extracted_and_independently_model_reviewed",
+  "reviewed_target_turns": [
+    1,
+    10,
+    19,
+    24,
+    27,
+    34,
+    93,
+    97,
+    114,
+    136,
+    138,
+    140,
+    150,
+    153,
+    154,
+    156,
+    161,
+    179,
+    186,
+    193,
+    200,
+    204,
+    206,
+    217,
+    219,
+    221,
+    237,
+    239,
+    241,
+    243,
+    245,
+    247,
+    254,
+    257
+  ],
+  "notes": "Reviewed every supplied Cyan turn. Ambiguous pricing commentary, casual sample-related remarks, and bare recommendations or acknowledgments without a distinct rationale were omitted.",
+  "receipt_path": "/home/dpasch01/vclogic-vc-agentic-assessment/evaluation/pitchshow/investors/cyan-banister-long-journey-ventures/rationale-references/receipts/141-christies-chips.json",
+  "scoring_scope": "original_pitch_only",
+  "shared_across_input_modes": true,
+  "rationales": [
+    {
+      "rationale_label": "decision_context_constraint",
+      "direction": "negative",
+      "salience": "secondary",
+      "confidence": 0.91,
+      "utterance_type": "decision_reason",
+      "decision_link": "explicit",
+      "timing": "original_pitch",
+      "turn_index": 136,
+      "quote": "I would like to go back and talk to my husband",
+      "explanation": "Cyan says a personal-investment decision requires discussion with her husband, delaying commitment.",
+      "evidence": [
+        "I would like to go back and talk to my husband"
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 136,
+          "speaker": "Cyan",
+          "quote": "I would like to go back and talk to my husband"
+        }
+      ],
+      "activation": "evaluated",
+      "source_rationale_id": "R4",
+      "utterance_kind": "decision_explanation",
+      "decision_support": "supports_out",
+      "all_mention_ids": [
+        "R4"
+      ]
+    },
+    {
+      "rationale_label": "go_to_market_strategy_assessment",
+      "direction": "positive",
+      "salience": "secondary",
+      "confidence": 0.91,
+      "utterance_type": "assessment",
+      "decision_link": "none",
+      "timing": "original_pitch",
+      "turn_index": 156,
+      "quote": "Vegans figure it out and they, they spread the information amongst each other.",
+      "explanation": "Cyan identifies peer-to-peer sharing within the vegan community as a customer-acquisition channel.",
+      "evidence": [
+        "Vegans figure it out and they, they spread the information amongst each other."
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 156,
+          "speaker": "Cyan",
+          "quote": "Vegans figure it out and they, they spread the information amongst each other."
+        }
+      ],
+      "activation": "evaluated",
+      "source_rationale_id": "R6",
+      "utterance_kind": "supporting_argument",
+      "decision_support": "none",
+      "all_mention_ids": [
+        "R6"
+      ]
+    },
+    {
+      "rationale_label": "investment_thesis_constraint",
+      "direction": "negative",
+      "salience": "primary",
+      "confidence": 0.98,
+      "utterance_type": "decision_reason",
+      "decision_link": "explicit",
+      "timing": "original_pitch",
+      "turn_index": 136,
+      "quote": "I don't do CPG, really.",
+      "explanation": "Cyan identifies her lack of CPG investing as the reason she is taking a wait-and-see approach rather than committing.",
+      "evidence": [
+        "I don't do CPG, really."
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 136,
+          "speaker": "Cyan",
+          "quote": "I don't do CPG, really."
+        }
+      ],
+      "activation": "evaluated",
+      "source_rationale_id": "R3",
+      "utterance_kind": "decision_explanation",
+      "decision_support": "supports_out",
+      "all_mention_ids": [
+        "R3"
+      ]
+    },
+    {
+      "rationale_label": "market_entry_path_assessment",
+      "direction": "positive",
+      "salience": "secondary",
+      "confidence": 0.91,
+      "utterance_type": "assessment",
+      "decision_link": "none",
+      "timing": "original_pitch",
+      "turn_index": 154,
+      "quote": "make one chip that is vegan, by brand, and then vegans will notice that",
+      "explanation": "Cyan proposes a clearly labeled vegan product as a reachable wedge into the broader product line.",
+      "evidence": [
+        "make one chip that is vegan, by brand, and then vegans will notice that"
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 154,
+          "speaker": "Cyan",
+          "quote": "make one chip that is vegan, by brand, and then vegans will notice that"
+        }
+      ],
+      "activation": "evaluated",
+      "source_rationale_id": "R5",
+      "utterance_kind": "supporting_argument",
+      "decision_support": "none",
+      "all_mention_ids": [
+        "R5"
+      ]
+    },
+    {
+      "rationale_label": "product_appeal_assessment",
+      "direction": "positive",
+      "salience": "secondary",
+      "confidence": 0.96,
+      "utterance_type": "assessment",
+      "decision_link": "none",
+      "timing": "original_pitch",
+      "turn_index": 27,
+      "quote": "That is a quality Chip!",
+      "explanation": "Cyan explicitly assesses the sampled product as high quality.",
+      "evidence": [
+        "That’s really good.",
+        "That is a quality Chip!"
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 24,
+          "speaker": "Cyan",
+          "quote": "That’s really good."
+        },
+        {
+          "turn_index": 27,
+          "speaker": "Cyan",
+          "quote": "That is a quality Chip!"
+        }
+      ],
+      "activation": "evaluated",
+      "source_rationale_id": "R2",
+      "utterance_kind": "assessment",
+      "decision_support": "none",
+      "all_mention_ids": [
+        "R1",
+        "R2"
+      ]
+    }
+  ],
+  "later_rationales": [
+    {
+      "rationale_label": "market_size_assessment",
+      "direction": "positive",
+      "salience": "secondary",
+      "confidence": 0.87,
+      "utterance_type": "supporting_argument",
+      "decision_link": "none",
+      "timing": "later_commentary",
+      "turn_index": 200,
+      "quote": "Chips are like a go to thing too, like the party food.",
+      "explanation": "Cyan points to chips’ broad, habitual role in social occasions as evidence of category demand.",
+      "evidence": [
+        "Chips are like a go to thing too, like the party food."
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 200,
+          "speaker": "Cyan",
+          "quote": "Chips are like a go to thing too, like the party food."
+        }
+      ],
+      "activation": "evaluated",
+      "source_rationale_id": "R7"
+    },
+    {
+      "rationale_label": "founder_skillset",
+      "direction": "positive",
+      "salience": "primary",
+      "confidence": 0.97,
+      "utterance_type": "assessment",
+      "decision_link": "none",
+      "timing": "later_commentary",
+      "turn_index": 217,
+      "quote": "Her breadth of knowledge",
+      "explanation": "Cyan identifies the founder’s broad relevant knowledge as a major strength.",
+      "evidence": [
+        "Her breadth of knowledge"
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 217,
+          "speaker": "Cyan",
+          "quote": "Her breadth of knowledge"
+        }
+      ],
+      "activation": "evaluated",
+      "source_rationale_id": "R8"
+    },
+    {
+      "rationale_label": "founder_execution",
+      "direction": "positive",
+      "salience": "primary",
+      "confidence": 0.98,
+      "utterance_type": "assessment",
+      "decision_link": "none",
+      "timing": "later_commentary",
+      "turn_index": 217,
+      "quote": "the bootstrapping of the business, just her scrappiness",
+      "explanation": "Cyan praises the founder’s resourcefulness and execution in building a difficult physical-product business.",
+      "evidence": [
+        "the bootstrapping of the business, just her scrappiness"
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 217,
+          "speaker": "Cyan",
+          "quote": "the bootstrapping of the business, just her scrappiness"
+        }
+      ],
+      "activation": "evaluated",
+      "source_rationale_id": "R9"
+    },
+    {
+      "rationale_label": "investor_experience_bias",
+      "direction": "positive",
+      "salience": "secondary",
+      "confidence": 0.89,
+      "utterance_type": "supporting_argument",
+      "decision_link": "none",
+      "timing": "later_commentary",
+      "turn_index": 219,
+      "quote": "she reminds me a little bit of the founder of Smitten Ice Cream",
+      "explanation": "Cyan’s positive reaction is shaped by the founder’s resemblance to a prior founder example.",
+      "evidence": [
+        "she reminds me a little bit of the founder of Smitten Ice Cream"
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 219,
+          "speaker": "Cyan",
+          "quote": "she reminds me a little bit of the founder of Smitten Ice Cream"
+        }
+      ],
+      "activation": "evaluated",
+      "source_rationale_id": "R10"
+    },
+    {
+      "rationale_label": "product_appeal_assessment",
+      "direction": "positive",
+      "salience": "secondary",
+      "confidence": 0.95,
+      "utterance_type": "assessment",
+      "decision_link": "none",
+      "timing": "later_commentary",
+      "turn_index": 221,
+      "quote": "And it's good. And it’s good!",
+      "explanation": "Cyan reiterates a positive assessment of the product’s taste.",
+      "evidence": [
+        "And it's good. And it’s good!"
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 221,
+          "speaker": "Cyan",
+          "quote": "And it's good. And it’s good!"
+        }
+      ],
+      "activation": "evaluated",
+      "source_rationale_id": "R11"
+    },
+    {
+      "rationale_label": "decision_context_constraint",
+      "direction": "positive",
+      "salience": "primary",
+      "confidence": 0.94,
+      "utterance_type": "decision_explanation",
+      "decision_link": "supports_in",
+      "timing": "later_commentary",
+      "turn_index": 239,
+      "quote": "Oh, then yes.",
+      "explanation": "After learning that the fund’s LPs are listeners, Cyan supports the investment in that fund context.",
+      "evidence": [
+        "Oh, then yes."
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 239,
+          "speaker": "Cyan",
+          "quote": "Oh, then yes."
+        }
+      ],
+      "activation": "evaluated",
+      "source_rationale_id": "R12"
+    },
+    {
+      "rationale_label": "investment_upside_assessment",
+      "direction": "positive",
+      "salience": "primary",
+      "confidence": 0.92,
+      "utterance_type": "decision_explanation",
+      "decision_link": "supports_in",
+      "timing": "later_commentary",
+      "turn_index": 241,
+      "quote": "Absolutely. This is a - this is a safe bet for them.",
+      "explanation": "Cyan characterizes the opportunity as an attractive, relatively low-risk bet for the fund’s listener LPs.",
+      "evidence": [
+        "Absolutely. This is a - this is a safe bet for them."
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 241,
+          "speaker": "Cyan",
+          "quote": "Absolutely. This is a - this is a safe bet for them."
+        }
+      ],
+      "activation": "evaluated",
+      "source_rationale_id": "R13"
+    },
+    {
+      "rationale_label": "investment_upside_assessment",
+      "direction": "positive",
+      "salience": "secondary",
+      "confidence": 0.91,
+      "utterance_type": "supporting_argument",
+      "decision_link": "supports_in",
+      "timing": "later_commentary",
+      "turn_index": 243,
+      "quote": "Safer.",
+      "explanation": "Cyan reinforces her favorable risk assessment of the investment.",
+      "evidence": [
+        "Safer."
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 243,
+          "speaker": "Cyan",
+          "quote": "Safer."
+        }
+      ],
+      "activation": "evaluated",
+      "source_rationale_id": "R14"
+    },
+    {
+      "rationale_label": "investment_upside_assessment",
+      "direction": "positive",
+      "salience": "primary",
+      "confidence": 0.9,
+      "utterance_type": "supporting_argument",
+      "decision_link": "supports_in",
+      "timing": "later_commentary",
+      "turn_index": 245,
+      "quote": "Potential. Exactly.",
+      "explanation": "Cyan agrees that the company retains substantial upside potential.",
+      "evidence": [
+        "Potential. Exactly."
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 245,
+          "speaker": "Cyan",
+          "quote": "Potential. Exactly."
+        }
+      ],
+      "activation": "evaluated",
+      "source_rationale_id": "R15"
+    }
+  ],
+  "excluded_rationales": [],
+  "rationale_mentions": [
+    {
+      "rationale_label": "product_appeal_assessment",
+      "direction": "positive",
+      "salience": "secondary",
+      "confidence": 0.96,
+      "utterance_type": "assessment",
+      "decision_link": "none",
+      "timing": "original_pitch",
+      "turn_index": 24,
+      "quote": "That’s really good.",
+      "explanation": "Cyan positively evaluates the chip after tasting it.",
+      "evidence": [
+        "That’s really good."
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 24,
+          "speaker": "Cyan",
+          "quote": "That’s really good."
+        }
+      ],
+      "activation": "evaluated",
+      "source_rationale_id": "R1"
+    },
+    {
+      "rationale_label": "product_appeal_assessment",
+      "direction": "positive",
+      "salience": "secondary",
+      "confidence": 0.96,
+      "utterance_type": "assessment",
+      "decision_link": "none",
+      "timing": "original_pitch",
+      "turn_index": 27,
+      "quote": "That is a quality Chip!",
+      "explanation": "Cyan explicitly assesses the sampled product as high quality.",
+      "evidence": [
+        "That is a quality Chip!"
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 27,
+          "speaker": "Cyan",
+          "quote": "That is a quality Chip!"
+        }
+      ],
+      "activation": "evaluated",
+      "source_rationale_id": "R2"
+    },
+    {
+      "rationale_label": "investment_thesis_constraint",
+      "direction": "negative",
+      "salience": "primary",
+      "confidence": 0.98,
+      "utterance_type": "decision_explanation",
+      "decision_link": "supports_out",
+      "timing": "original_pitch",
+      "turn_index": 136,
+      "quote": "I don't do CPG, really.",
+      "explanation": "Cyan identifies her lack of CPG investing as the reason she is taking a wait-and-see approach rather than committing.",
+      "evidence": [
+        "I don't do CPG, really."
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 136,
+          "speaker": "Cyan",
+          "quote": "I don't do CPG, really."
+        }
+      ],
+      "activation": "evaluated",
+      "source_rationale_id": "R3"
+    },
+    {
+      "rationale_label": "decision_context_constraint",
+      "direction": "negative",
+      "salience": "secondary",
+      "confidence": 0.91,
+      "utterance_type": "decision_explanation",
+      "decision_link": "supports_out",
+      "timing": "original_pitch",
+      "turn_index": 136,
+      "quote": "I would like to go back and talk to my husband",
+      "explanation": "Cyan says a personal-investment decision requires discussion with her husband, delaying commitment.",
+      "evidence": [
+        "I would like to go back and talk to my husband"
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 136,
+          "speaker": "Cyan",
+          "quote": "I would like to go back and talk to my husband"
+        }
+      ],
+      "activation": "evaluated",
+      "source_rationale_id": "R4"
+    },
+    {
+      "rationale_label": "market_entry_path_assessment",
+      "direction": "positive",
+      "salience": "secondary",
+      "confidence": 0.91,
+      "utterance_type": "supporting_argument",
+      "decision_link": "none",
+      "timing": "original_pitch",
+      "turn_index": 154,
+      "quote": "make one chip that is vegan, by brand, and then vegans will notice that",
+      "explanation": "Cyan proposes a clearly labeled vegan product as a reachable wedge into the broader product line.",
+      "evidence": [
+        "make one chip that is vegan, by brand, and then vegans will notice that"
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 154,
+          "speaker": "Cyan",
+          "quote": "make one chip that is vegan, by brand, and then vegans will notice that"
+        }
+      ],
+      "activation": "evaluated",
+      "source_rationale_id": "R5"
+    },
+    {
+      "rationale_label": "go_to_market_strategy_assessment",
+      "direction": "positive",
+      "salience": "secondary",
+      "confidence": 0.91,
+      "utterance_type": "supporting_argument",
+      "decision_link": "none",
+      "timing": "original_pitch",
+      "turn_index": 156,
+      "quote": "Vegans figure it out and they, they spread the information amongst each other.",
+      "explanation": "Cyan identifies peer-to-peer sharing within the vegan community as a customer-acquisition channel.",
+      "evidence": [
+        "Vegans figure it out and they, they spread the information amongst each other."
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 156,
+          "speaker": "Cyan",
+          "quote": "Vegans figure it out and they, they spread the information amongst each other."
+        }
+      ],
+      "activation": "evaluated",
+      "source_rationale_id": "R6"
+    }
+  ]
+}

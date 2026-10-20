@@ -1,0 +1,1065 @@
+{
+  "schema": "phase1-rationale-reference-v1",
+  "extraction_version": "pitchshow-rationales-v1",
+  "fingerprint": "d765aea35cd2489b209d803c7f7110062421abba9a2cafc5cef73460606487f7",
+  "episode_slug": "43-get-this-party-startup-in-here",
+  "vc_slug": "phil-nadel-forefront-venture-partners",
+  "vc_name": "Phil Nadel",
+  "actual_decision": "Out",
+  "later_decision": "Unknown",
+  "reference_kind": "automated_transcript_observed_candidate",
+  "human_validated": false,
+  "source_format": "transcript-observed-rationales-v1",
+  "source_path": "../source/episodes/43-get-this-party-startup-in-here.json",
+  "source_sha256": "2b1fc018815cce825b9a51b19ab904c1547c60bd8bbe35838aa50aea0b166806",
+  "transcript_sha256": "1b6975c34d22d3acb9ae053fd7ae7cc08636dae31f0bbecfe4bbb43816e92b97",
+  "taxonomy_sha256": "eaa8734819a3ac34dd19ee5f0bf6de925a793a1d25a2d361090dafc9b751e1fc",
+  "model": "codex:gpt-5.6-luna+gpt-5.6-sol",
+  "generation_stages": [
+    {
+      "phase": "rationale_extract",
+      "backend": "codex",
+      "model": "gpt-5.6-luna"
+    },
+    {
+      "phase": "rationale_verify",
+      "backend": "codex",
+      "model": "gpt-5.6-sol"
+    }
+  ],
+  "source_tier": "newly_extracted_and_independently_model_reviewed",
+  "reviewed_target_turns": [
+    6,
+    20,
+    25,
+    34,
+    54,
+    62,
+    64,
+    66,
+    68,
+    74,
+    76,
+    78,
+    80,
+    82,
+    84,
+    86,
+    87,
+    89,
+    91,
+    93,
+    96,
+    98,
+    102,
+    105,
+    117,
+    119,
+    125,
+    128,
+    130
+  ],
+  "notes": "All supplied target turns were reviewed. Turn 62 is a teaser repeating the later turn 87 clip; the same-room investor debrief remains original_pitch. Bare confirmations at turns 102 and 105 were not treated as rationales.",
+  "receipt_path": "receipts/43-get-this-party-startup-in-here.json",
+  "scoring_scope": "live_founder_present_v2",
+  "shared_across_input_modes": true,
+  "rationales": [
+    {
+      "rationale_label": "business_model_assessment",
+      "direction": "neutral",
+      "salience": "secondary",
+      "confidence": 0.97,
+      "utterance_type": "question",
+      "decision_link": "none",
+      "timing": "original_pitch",
+      "turn_index": 20,
+      "quote": "You\u2019re doing lead generation, but you're not charging per lead, you're charging for listings and elevated\u2026",
+      "explanation": "Clarifies that monetization comes from paid listings and placement rather than per-lead fees.",
+      "evidence": [
+        "You\u2019re doing lead generation, but you're not charging per lead, you're charging for listings and elevated\u2026"
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 20,
+          "speaker": "Phil",
+          "quote": "You\u2019re doing lead generation, but you're not charging per lead, you're charging for listings and elevated\u2026"
+        }
+      ],
+      "activation": "queried",
+      "source_rationale_id": "R1",
+      "utterance_kind": "question",
+      "decision_support": "none",
+      "all_mention_ids": [
+        "R1"
+      ]
+    },
+    {
+      "rationale_label": "capital_intensity_concern",
+      "direction": "negative",
+      "salience": "primary",
+      "confidence": 0.99,
+      "utterance_type": "decision_reason",
+      "decision_link": "explicit",
+      "timing": "original_pitch",
+      "turn_index": 98,
+      "quote": "the burn is pretty high. And so you\u2019re going to go through that money pretty quickly",
+      "explanation": "Identifies high burn and rapid cash consumption as an additional reason supporting his refusal.",
+      "evidence": [
+        "That\u2019s a lot.",
+        "the burn is pretty high. And so you\u2019re going to go through that money pretty quickly"
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 54,
+          "speaker": "Phil",
+          "quote": "That\u2019s a lot."
+        },
+        {
+          "turn_index": 98,
+          "speaker": "Phil",
+          "quote": "the burn is pretty high. And so you\u2019re going to go through that money pretty quickly"
+        }
+      ],
+      "activation": "evaluated",
+      "source_rationale_id": "R24",
+      "utterance_kind": "decision_explanation",
+      "decision_support": "supports_out",
+      "all_mention_ids": [
+        "R4",
+        "R8",
+        "R24"
+      ]
+    },
+    {
+      "rationale_label": "competitive_advantage_assessment",
+      "direction": "neutral",
+      "salience": "secondary",
+      "confidence": 0.89,
+      "utterance_type": "question",
+      "decision_link": "none",
+      "timing": "original_pitch",
+      "turn_index": 34,
+      "quote": "Julie, who are your competitors?",
+      "explanation": "Queries the competitive landscape relevant to the company\u2019s differentiation.",
+      "evidence": [
+        "Julie, who are your competitors?"
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 34,
+          "speaker": "Phil",
+          "quote": "Julie, who are your competitors?"
+        }
+      ],
+      "activation": "queried",
+      "source_rationale_id": "R3",
+      "utterance_kind": "question",
+      "decision_support": "none",
+      "all_mention_ids": [
+        "R3"
+      ]
+    },
+    {
+      "rationale_label": "go_to_market_strategy_assessment",
+      "direction": "neutral",
+      "salience": "secondary",
+      "confidence": 0.99,
+      "utterance_type": "question",
+      "decision_link": "none",
+      "timing": "original_pitch",
+      "turn_index": 66,
+      "quote": "what's your customer acquisition cost?",
+      "explanation": "Queries the cost of the company\u2019s consumer-acquisition channel.",
+      "evidence": [
+        "And how are you acquiring consumers? Not the venues, but the consumers?",
+        "what's your customer acquisition cost?"
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 64,
+          "speaker": "Phil",
+          "quote": "And how are you acquiring consumers? Not the venues, but the consumers?"
+        },
+        {
+          "turn_index": 66,
+          "speaker": "Phil",
+          "quote": "what's your customer acquisition cost?"
+        }
+      ],
+      "activation": "queried",
+      "source_rationale_id": "R7",
+      "utterance_kind": "question",
+      "decision_support": "none",
+      "all_mention_ids": [
+        "R6",
+        "R7"
+      ]
+    },
+    {
+      "rationale_label": "product_appeal_assessment",
+      "direction": "positive",
+      "salience": "secondary",
+      "confidence": 0.85,
+      "utterance_type": "assessment",
+      "decision_link": "none",
+      "timing": "original_pitch",
+      "turn_index": 87,
+      "quote": "I really want to do this. I like this",
+      "explanation": "Expresses a favorable personal reaction before explaining his reservations.",
+      "evidence": [
+        "I really want to do this. I like this"
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 87,
+          "speaker": "Phil",
+          "quote": "I really want to do this. I like this"
+        }
+      ],
+      "activation": "evaluated",
+      "source_rationale_id": "R16",
+      "utterance_kind": "assessment",
+      "decision_support": "none",
+      "all_mention_ids": [
+        "R16"
+      ]
+    },
+    {
+      "rationale_label": "stage_valuation_mismatch",
+      "direction": "negative",
+      "salience": "primary",
+      "confidence": 0.94,
+      "utterance_type": "decision_reason",
+      "decision_link": "explicit",
+      "timing": "original_pitch",
+      "turn_index": 98,
+      "quote": "And so that\u2019s my concern. I\u2019m like 95% out now I\u2019m out.",
+      "explanation": "Links his immediately preceding concern about insufficient numbers for the valuation to his decision to pass.",
+      "evidence": [
+        "the numbers to me at a $10 million pre should be a little bit more impressive.",
+        "And so that\u2019s my concern. I\u2019m like 95% out now I\u2019m out."
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 96,
+          "speaker": "Phil",
+          "quote": "the numbers to me at a $10 million pre should be a little bit more impressive."
+        },
+        {
+          "turn_index": 98,
+          "speaker": "Phil",
+          "quote": "And so that\u2019s my concern. I\u2019m like 95% out now I\u2019m out."
+        }
+      ],
+      "activation": "evaluated",
+      "source_rationale_id": "R23",
+      "utterance_kind": "decision_explanation",
+      "decision_support": "supports_out",
+      "all_mention_ids": [
+        "R22",
+        "R23"
+      ]
+    },
+    {
+      "rationale_label": "traction_repeatability_concern",
+      "direction": "negative",
+      "salience": "primary",
+      "confidence": 0.99,
+      "utterance_type": "assessment",
+      "decision_link": "none",
+      "timing": "original_pitch",
+      "turn_index": 93,
+      "quote": "I\u2019m worried that in your first city, which is a major city, where you\u2019re based, six months in you\u2019re only at 20,000 MRR.",
+      "explanation": "Views weak recurring revenue in the mature home market as an adverse traction signal.",
+      "evidence": [
+        "you\u2019ve been monetizing in Chicago for six months now. That was your first city where you want to make it work. And your MRR from Chicago is only $20,000.",
+        "But still. December. That\u2019s six months.",
+        "And you\u2019re at 20,000 MRR.",
+        "I\u2019m worried that in your first city, which is a major city, where you\u2019re based, six months in you\u2019re only at 20,000 MRR."
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 87,
+          "speaker": "Phil",
+          "quote": "you\u2019ve been monetizing in Chicago for six months now. That was your first city where you want to make it work. And your MRR from Chicago is only $20,000."
+        },
+        {
+          "turn_index": 89,
+          "speaker": "Phil",
+          "quote": "But still. December. That\u2019s six months."
+        },
+        {
+          "turn_index": 91,
+          "speaker": "Phil",
+          "quote": "And you\u2019re at 20,000 MRR."
+        },
+        {
+          "turn_index": 93,
+          "speaker": "Phil",
+          "quote": "I\u2019m worried that in your first city, which is a major city, where you\u2019re based, six months in you\u2019re only at 20,000 MRR."
+        }
+      ],
+      "activation": "evaluated",
+      "source_rationale_id": "R21",
+      "utterance_kind": "concern",
+      "decision_support": "none",
+      "all_mention_ids": [
+        "R2",
+        "R9",
+        "R10",
+        "R11",
+        "R12",
+        "R13",
+        "R14",
+        "R15",
+        "R17",
+        "R18",
+        "R19",
+        "R21"
+      ]
+    },
+    {
+      "rationale_label": "venture_scale_concern",
+      "direction": "negative",
+      "salience": "primary",
+      "confidence": 0.94,
+      "utterance_type": "assessment",
+      "decision_link": "none",
+      "timing": "original_pitch",
+      "turn_index": 93,
+      "quote": "I\u2019m trying to understand what the big picture, the scope is. How big can this get.",
+      "explanation": "Questions whether the revenue potential can become large enough for a venture-scale outcome.",
+      "evidence": [
+        "I\u2019m trying to understand what the big picture, the scope is. How big can this get."
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 93,
+          "speaker": "Phil",
+          "quote": "I\u2019m trying to understand what the big picture, the scope is. How big can this get."
+        }
+      ],
+      "activation": "evaluated",
+      "source_rationale_id": "R20",
+      "utterance_kind": "concern",
+      "decision_support": "none",
+      "all_mention_ids": [
+        "R20"
+      ]
+    }
+  ],
+  "later_rationales": [
+    {
+      "rationale_label": "business_viability_concern",
+      "direction": "negative",
+      "salience": "secondary",
+      "confidence": 0.91,
+      "utterance_type": "assessment",
+      "decision_link": "none",
+      "timing": "later_commentary",
+      "turn_index": 117,
+      "quote": "more complicated. More difficult.",
+      "explanation": "Characterizes the company\u2019s many moving pieces as making the business harder to execute successfully.",
+      "evidence": [
+        "more complicated. More difficult."
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 117,
+          "speaker": "Phil",
+          "quote": "more complicated. More difficult."
+        }
+      ],
+      "activation": "evaluated",
+      "source_rationale_id": "R25"
+    },
+    {
+      "rationale_label": "traction_repeatability_concern",
+      "direction": "negative",
+      "salience": "primary",
+      "confidence": 0.99,
+      "utterance_type": "assessment",
+      "decision_link": "none",
+      "timing": "later_commentary",
+      "turn_index": 119,
+      "quote": "I think they just don\u2019t have enough sales traction.",
+      "explanation": "Identifies insufficient sales traction, rather than failure to understand the model, as the central deficiency.",
+      "evidence": [
+        "I think they just don\u2019t have enough sales traction."
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 119,
+          "speaker": "Phil",
+          "quote": "I think they just don\u2019t have enough sales traction."
+        }
+      ],
+      "activation": "evaluated",
+      "source_rationale_id": "R26"
+    },
+    {
+      "rationale_label": "business_model_assessment",
+      "direction": "negative",
+      "salience": "secondary",
+      "confidence": 0.93,
+      "utterance_type": "assessment",
+      "decision_link": "none",
+      "timing": "later_commentary",
+      "turn_index": 125,
+      "quote": "So it\u2019s hard to prove the value.",
+      "explanation": "Concludes that the non-transactional model makes the platform\u2019s commercial value difficult to demonstrate.",
+      "evidence": [
+        "So it\u2019s hard to prove the value."
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 125,
+          "speaker": "Phil",
+          "quote": "So it\u2019s hard to prove the value."
+        }
+      ],
+      "activation": "evaluated",
+      "source_rationale_id": "R27"
+    },
+    {
+      "rationale_label": "business_model_assessment",
+      "direction": "negative",
+      "salience": "secondary",
+      "confidence": 0.98,
+      "utterance_type": "assessment",
+      "decision_link": "none",
+      "timing": "later_commentary",
+      "turn_index": 128,
+      "quote": "It's just hard for them to prove the value to their pros on the platform.",
+      "explanation": "Concerns that the company cannot readily demonstrate value to the professionals expected to pay for the platform.",
+      "evidence": [
+        "It's just hard for them to prove the value to their pros on the platform."
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 128,
+          "speaker": "Phil",
+          "quote": "It's just hard for them to prove the value to their pros on the platform."
+        }
+      ],
+      "activation": "evaluated",
+      "source_rationale_id": "R28"
+    },
+    {
+      "rationale_label": "founder_qualities",
+      "direction": "positive",
+      "salience": "secondary",
+      "confidence": 0.98,
+      "utterance_type": "assessment",
+      "decision_link": "none",
+      "timing": "later_commentary",
+      "turn_index": 130,
+      "quote": "I'd love to invest in her. I really like Julie.",
+      "explanation": "Expresses strong personal regard for the founder, without reversing or committing against his earlier decision to pass.",
+      "evidence": [
+        "I'd love to invest in her. I really like Julie."
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 130,
+          "speaker": "Phil",
+          "quote": "I'd love to invest in her. I really like Julie."
+        }
+      ],
+      "activation": "evaluated",
+      "source_rationale_id": "R29"
+    }
+  ],
+  "excluded_rationales": [
+    {
+      "rationale_label": "product_appeal_assessment",
+      "direction": "positive",
+      "salience": "secondary",
+      "confidence": 0.83,
+      "utterance_type": "assessment",
+      "decision_link": "none",
+      "timing": "teaser",
+      "turn_index": 62,
+      "quote": "I really want to do this. I like this",
+      "explanation": "Expresses a favorable personal reaction to the opportunity in a preview of his later remarks.",
+      "evidence": [
+        "I really want to do this. I like this"
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 62,
+          "speaker": "Phil",
+          "quote": "I really want to do this. I like this"
+        }
+      ],
+      "activation": "evaluated",
+      "source_rationale_id": "R5"
+    }
+  ],
+  "rationale_mentions": [
+    {
+      "rationale_label": "business_model_assessment",
+      "direction": "neutral",
+      "salience": "secondary",
+      "confidence": 0.97,
+      "utterance_type": "question",
+      "decision_link": "none",
+      "timing": "original_pitch",
+      "turn_index": 20,
+      "quote": "You\u2019re doing lead generation, but you're not charging per lead, you're charging for listings and elevated\u2026",
+      "explanation": "Clarifies that monetization comes from paid listings and placement rather than per-lead fees.",
+      "evidence": [
+        "You\u2019re doing lead generation, but you're not charging per lead, you're charging for listings and elevated\u2026"
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 20,
+          "speaker": "Phil",
+          "quote": "You\u2019re doing lead generation, but you're not charging per lead, you're charging for listings and elevated\u2026"
+        }
+      ],
+      "activation": "queried",
+      "source_rationale_id": "R1"
+    },
+    {
+      "rationale_label": "traction_repeatability_concern",
+      "direction": "neutral",
+      "salience": "secondary",
+      "confidence": 0.9,
+      "utterance_type": "question",
+      "decision_link": "none",
+      "timing": "original_pitch",
+      "turn_index": 25,
+      "quote": "Let\u2019s walk through the numbers. If you said 340,000 sold.",
+      "explanation": "Requests clarification of the company\u2019s reported sales traction.",
+      "evidence": [
+        "Let\u2019s walk through the numbers. If you said 340,000 sold."
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 25,
+          "speaker": "Phil",
+          "quote": "Let\u2019s walk through the numbers. If you said 340,000 sold."
+        }
+      ],
+      "activation": "queried",
+      "source_rationale_id": "R2"
+    },
+    {
+      "rationale_label": "competitive_advantage_assessment",
+      "direction": "neutral",
+      "salience": "secondary",
+      "confidence": 0.89,
+      "utterance_type": "question",
+      "decision_link": "none",
+      "timing": "original_pitch",
+      "turn_index": 34,
+      "quote": "Julie, who are your competitors?",
+      "explanation": "Queries the competitive landscape relevant to the company\u2019s differentiation.",
+      "evidence": [
+        "Julie, who are your competitors?"
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 34,
+          "speaker": "Phil",
+          "quote": "Julie, who are your competitors?"
+        }
+      ],
+      "activation": "queried",
+      "source_rationale_id": "R3"
+    },
+    {
+      "rationale_label": "capital_intensity_concern",
+      "direction": "negative",
+      "salience": "secondary",
+      "confidence": 0.99,
+      "utterance_type": "concern",
+      "decision_link": "none",
+      "timing": "original_pitch",
+      "turn_index": 54,
+      "quote": "That\u2019s a lot.",
+      "explanation": "Reacting to the stated monthly burn and headcount, he considers the spending level high.",
+      "evidence": [
+        "That\u2019s a lot."
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 54,
+          "speaker": "Phil",
+          "quote": "That\u2019s a lot."
+        }
+      ],
+      "activation": "evaluated",
+      "source_rationale_id": "R4"
+    },
+    {
+      "rationale_label": "go_to_market_strategy_assessment",
+      "direction": "neutral",
+      "salience": "secondary",
+      "confidence": 0.99,
+      "utterance_type": "question",
+      "decision_link": "none",
+      "timing": "original_pitch",
+      "turn_index": 64,
+      "quote": "And how are you acquiring consumers? Not the venues, but the consumers?",
+      "explanation": "Queries how the company reaches the consumer side of its platform.",
+      "evidence": [
+        "And how are you acquiring consumers? Not the venues, but the consumers?"
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 64,
+          "speaker": "Phil",
+          "quote": "And how are you acquiring consumers? Not the venues, but the consumers?"
+        }
+      ],
+      "activation": "queried",
+      "source_rationale_id": "R6"
+    },
+    {
+      "rationale_label": "go_to_market_strategy_assessment",
+      "direction": "neutral",
+      "salience": "secondary",
+      "confidence": 0.99,
+      "utterance_type": "question",
+      "decision_link": "none",
+      "timing": "original_pitch",
+      "turn_index": 66,
+      "quote": "what's your customer acquisition cost?",
+      "explanation": "Queries the cost of the company\u2019s consumer-acquisition channel.",
+      "evidence": [
+        "what's your customer acquisition cost?"
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 66,
+          "speaker": "Phil",
+          "quote": "what's your customer acquisition cost?"
+        }
+      ],
+      "activation": "queried",
+      "source_rationale_id": "R7"
+    },
+    {
+      "rationale_label": "capital_intensity_concern",
+      "direction": "neutral",
+      "salience": "secondary",
+      "confidence": 0.94,
+      "utterance_type": "question",
+      "decision_link": "none",
+      "timing": "original_pitch",
+      "turn_index": 68,
+      "quote": "How much runway will this round give you?",
+      "explanation": "Queries how long the requested financing will sustain operations.",
+      "evidence": [
+        "How much runway will this round give you?"
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 68,
+          "speaker": "Phil",
+          "quote": "How much runway will this round give you?"
+        }
+      ],
+      "activation": "queried",
+      "source_rationale_id": "R8"
+    },
+    {
+      "rationale_label": "traction_repeatability_concern",
+      "direction": "neutral",
+      "salience": "secondary",
+      "confidence": 0.88,
+      "utterance_type": "question",
+      "decision_link": "none",
+      "timing": "original_pitch",
+      "turn_index": 74,
+      "quote": "Chicago was your first city?",
+      "explanation": "Establishes that Chicago is the company\u2019s earliest and therefore most mature market for evaluating traction.",
+      "evidence": [
+        "Chicago was your first city?"
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 74,
+          "speaker": "Phil",
+          "quote": "Chicago was your first city?"
+        }
+      ],
+      "activation": "queried",
+      "source_rationale_id": "R9"
+    },
+    {
+      "rationale_label": "traction_repeatability_concern",
+      "direction": "neutral",
+      "salience": "secondary",
+      "confidence": 0.92,
+      "utterance_type": "question",
+      "decision_link": "none",
+      "timing": "original_pitch",
+      "turn_index": 76,
+      "quote": "And when did you launch Chicago?",
+      "explanation": "Establishes how long the company has had to develop traction in its first market.",
+      "evidence": [
+        "And when did you launch Chicago?"
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 76,
+          "speaker": "Phil",
+          "quote": "And when did you launch Chicago?"
+        }
+      ],
+      "activation": "queried",
+      "source_rationale_id": "R10"
+    },
+    {
+      "rationale_label": "traction_repeatability_concern",
+      "direction": "neutral",
+      "salience": "secondary",
+      "confidence": 0.98,
+      "utterance_type": "question",
+      "decision_link": "none",
+      "timing": "original_pitch",
+      "turn_index": 78,
+      "quote": "And how much revenue are you generating from Chicago right now?",
+      "explanation": "Queries revenue traction in the company\u2019s first city.",
+      "evidence": [
+        "And how much revenue are you generating from Chicago right now?"
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 78,
+          "speaker": "Phil",
+          "quote": "And how much revenue are you generating from Chicago right now?"
+        }
+      ],
+      "activation": "queried",
+      "source_rationale_id": "R11"
+    },
+    {
+      "rationale_label": "traction_repeatability_concern",
+      "direction": "neutral",
+      "salience": "secondary",
+      "confidence": 0.97,
+      "utterance_type": "question",
+      "decision_link": "none",
+      "timing": "original_pitch",
+      "turn_index": 80,
+      "quote": "How much revenue is that?",
+      "explanation": "Requests a quantified measure of Chicago revenue.",
+      "evidence": [
+        "How much revenue is that?"
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 80,
+          "speaker": "Phil",
+          "quote": "How much revenue is that?"
+        }
+      ],
+      "activation": "queried",
+      "source_rationale_id": "R12"
+    },
+    {
+      "rationale_label": "traction_repeatability_concern",
+      "direction": "neutral",
+      "salience": "secondary",
+      "confidence": 0.97,
+      "utterance_type": "question",
+      "decision_link": "none",
+      "timing": "original_pitch",
+      "turn_index": 82,
+      "quote": "Tell me MRR.",
+      "explanation": "Requests the recurring-revenue metric for the initial market.",
+      "evidence": [
+        "Tell me MRR."
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 82,
+          "speaker": "Phil",
+          "quote": "Tell me MRR."
+        }
+      ],
+      "activation": "queried",
+      "source_rationale_id": "R13"
+    },
+    {
+      "rationale_label": "traction_repeatability_concern",
+      "direction": "neutral",
+      "salience": "secondary",
+      "confidence": 0.96,
+      "utterance_type": "question",
+      "decision_link": "none",
+      "timing": "original_pitch",
+      "turn_index": 84,
+      "quote": "From Chicago?",
+      "explanation": "Clarifies whether the reported recurring revenue is attributable to Chicago.",
+      "evidence": [
+        "From Chicago?"
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 84,
+          "speaker": "Phil",
+          "quote": "From Chicago?"
+        }
+      ],
+      "activation": "queried",
+      "source_rationale_id": "R14"
+    },
+    {
+      "rationale_label": "traction_repeatability_concern",
+      "direction": "neutral",
+      "salience": "secondary",
+      "confidence": 0.87,
+      "utterance_type": "assessment",
+      "decision_link": "none",
+      "timing": "original_pitch",
+      "turn_index": 86,
+      "quote": "So about half your revenue",
+      "explanation": "Observes that roughly half of total revenue comes from the company\u2019s first market.",
+      "evidence": [
+        "So about half your revenue"
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 86,
+          "speaker": "Phil",
+          "quote": "So about half your revenue"
+        }
+      ],
+      "activation": "evaluated",
+      "source_rationale_id": "R15"
+    },
+    {
+      "rationale_label": "product_appeal_assessment",
+      "direction": "positive",
+      "salience": "secondary",
+      "confidence": 0.85,
+      "utterance_type": "assessment",
+      "decision_link": "none",
+      "timing": "original_pitch",
+      "turn_index": 87,
+      "quote": "I really want to do this. I like this",
+      "explanation": "Expresses a favorable personal reaction before explaining his reservations.",
+      "evidence": [
+        "I really want to do this. I like this"
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 87,
+          "speaker": "Phil",
+          "quote": "I really want to do this. I like this"
+        }
+      ],
+      "activation": "evaluated",
+      "source_rationale_id": "R16"
+    },
+    {
+      "rationale_label": "traction_repeatability_concern",
+      "direction": "negative",
+      "salience": "primary",
+      "confidence": 0.99,
+      "utterance_type": "concern",
+      "decision_link": "none",
+      "timing": "original_pitch",
+      "turn_index": 87,
+      "quote": "you\u2019ve been monetizing in Chicago for six months now. That was your first city where you want to make it work. And your MRR from Chicago is only $20,000.",
+      "explanation": "Considers six months of recurring revenue in the company\u2019s first market insufficient.",
+      "evidence": [
+        "you\u2019ve been monetizing in Chicago for six months now. That was your first city where you want to make it work. And your MRR from Chicago is only $20,000."
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 87,
+          "speaker": "Phil",
+          "quote": "you\u2019ve been monetizing in Chicago for six months now. That was your first city where you want to make it work. And your MRR from Chicago is only $20,000."
+        }
+      ],
+      "activation": "evaluated",
+      "source_rationale_id": "R17"
+    },
+    {
+      "rationale_label": "traction_repeatability_concern",
+      "direction": "negative",
+      "salience": "secondary",
+      "confidence": 0.98,
+      "utterance_type": "concern",
+      "decision_link": "none",
+      "timing": "original_pitch",
+      "turn_index": 89,
+      "quote": "But still. December. That\u2019s six months.",
+      "explanation": "Rejects the founder\u2019s qualification and reiterates that the company has had six months to demonstrate sales traction.",
+      "evidence": [
+        "But still. December. That\u2019s six months."
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 89,
+          "speaker": "Phil",
+          "quote": "But still. December. That\u2019s six months."
+        }
+      ],
+      "activation": "evaluated",
+      "source_rationale_id": "R18"
+    },
+    {
+      "rationale_label": "traction_repeatability_concern",
+      "direction": "negative",
+      "salience": "secondary",
+      "confidence": 0.98,
+      "utterance_type": "assessment",
+      "decision_link": "none",
+      "timing": "original_pitch",
+      "turn_index": 91,
+      "quote": "And you\u2019re at 20,000 MRR.",
+      "explanation": "Reiterates that recurring revenue remains low after the stated period.",
+      "evidence": [
+        "And you\u2019re at 20,000 MRR."
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 91,
+          "speaker": "Phil",
+          "quote": "And you\u2019re at 20,000 MRR."
+        }
+      ],
+      "activation": "evaluated",
+      "source_rationale_id": "R19"
+    },
+    {
+      "rationale_label": "venture_scale_concern",
+      "direction": "negative",
+      "salience": "primary",
+      "confidence": 0.94,
+      "utterance_type": "concern",
+      "decision_link": "none",
+      "timing": "original_pitch",
+      "turn_index": 93,
+      "quote": "I\u2019m trying to understand what the big picture, the scope is. How big can this get.",
+      "explanation": "Questions whether the revenue potential can become large enough for a venture-scale outcome.",
+      "evidence": [
+        "I\u2019m trying to understand what the big picture, the scope is. How big can this get."
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 93,
+          "speaker": "Phil",
+          "quote": "I\u2019m trying to understand what the big picture, the scope is. How big can this get."
+        }
+      ],
+      "activation": "evaluated",
+      "source_rationale_id": "R20"
+    },
+    {
+      "rationale_label": "traction_repeatability_concern",
+      "direction": "negative",
+      "salience": "primary",
+      "confidence": 0.99,
+      "utterance_type": "concern",
+      "decision_link": "none",
+      "timing": "original_pitch",
+      "turn_index": 93,
+      "quote": "I\u2019m worried that in your first city, which is a major city, where you\u2019re based, six months in you\u2019re only at 20,000 MRR.",
+      "explanation": "Views weak recurring revenue in the mature home market as an adverse traction signal.",
+      "evidence": [
+        "I\u2019m worried that in your first city, which is a major city, where you\u2019re based, six months in you\u2019re only at 20,000 MRR."
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 93,
+          "speaker": "Phil",
+          "quote": "I\u2019m worried that in your first city, which is a major city, where you\u2019re based, six months in you\u2019re only at 20,000 MRR."
+        }
+      ],
+      "activation": "evaluated",
+      "source_rationale_id": "R21"
+    },
+    {
+      "rationale_label": "stage_valuation_mismatch",
+      "direction": "negative",
+      "salience": "primary",
+      "confidence": 0.99,
+      "utterance_type": "assessment",
+      "decision_link": "none",
+      "timing": "original_pitch",
+      "turn_index": 96,
+      "quote": "the numbers to me at a $10 million pre should be a little bit more impressive.",
+      "explanation": "Finds the company\u2019s current metrics insufficient to justify the requested pre-money valuation.",
+      "evidence": [
+        "the numbers to me at a $10 million pre should be a little bit more impressive."
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 96,
+          "speaker": "Phil",
+          "quote": "the numbers to me at a $10 million pre should be a little bit more impressive."
+        }
+      ],
+      "activation": "evaluated",
+      "source_rationale_id": "R22"
+    },
+    {
+      "rationale_label": "stage_valuation_mismatch",
+      "direction": "negative",
+      "salience": "primary",
+      "confidence": 0.94,
+      "utterance_type": "decision_explanation",
+      "decision_link": "supports_out",
+      "timing": "original_pitch",
+      "turn_index": 98,
+      "quote": "And so that\u2019s my concern. I\u2019m like 95% out now I\u2019m out.",
+      "explanation": "Links his immediately preceding concern about insufficient numbers for the valuation to his decision to pass.",
+      "evidence": [
+        "And so that\u2019s my concern. I\u2019m like 95% out now I\u2019m out."
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 98,
+          "speaker": "Phil",
+          "quote": "And so that\u2019s my concern. I\u2019m like 95% out now I\u2019m out."
+        }
+      ],
+      "activation": "evaluated",
+      "source_rationale_id": "R23"
+    },
+    {
+      "rationale_label": "capital_intensity_concern",
+      "direction": "negative",
+      "salience": "primary",
+      "confidence": 0.99,
+      "utterance_type": "decision_explanation",
+      "decision_link": "supports_out",
+      "timing": "original_pitch",
+      "turn_index": 98,
+      "quote": "the burn is pretty high. And so you\u2019re going to go through that money pretty quickly",
+      "explanation": "Identifies high burn and rapid cash consumption as an additional reason supporting his refusal.",
+      "evidence": [
+        "the burn is pretty high. And so you\u2019re going to go through that money pretty quickly"
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 98,
+          "speaker": "Phil",
+          "quote": "the burn is pretty high. And so you\u2019re going to go through that money pretty quickly"
+        }
+      ],
+      "activation": "evaluated",
+      "source_rationale_id": "R24"
+    }
+  ],
+  "expanded_quote_evidence": [],
+  "rejected_after_evidence_check": [],
+  "timing_review": {
+    "reviewer": "codex_source_inspection",
+    "human_validated": false,
+    "first_post_founder_turn": 113,
+    "original_path": "evaluation/pitchshow/investors/phil-nadel-forefront-venture-partners/rationale-references/43-get-this-party-startup-in-here.json",
+    "original_sha256": "23075a3e02eac1980107878d7d296b5cfb58b4aff7b59475de50532ef75eb31e",
+    "source_path": "evaluation/pitchshow/investors/phil-nadel-forefront-venture-partners/source/episodes/43-get-this-party-startup-in-here.json",
+    "source_sha256": "2b1fc018815cce825b9a51b19ab904c1547c60bd8bbe35838aa50aea0b166806",
+    "reason": "Reviewed farewell/exit and following panel or host transition. Includes live decision discussion and reversals; excludes investor-only debrief. Borderline farewell banter conservatively ends at reviewed boundary."
+  }
+}

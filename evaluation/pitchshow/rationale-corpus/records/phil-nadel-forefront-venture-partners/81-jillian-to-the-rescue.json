@@ -1,0 +1,371 @@
+{
+  "schema": "phase1-rationale-reference-v1",
+  "extraction_version": "pitchshow-rationales-v1",
+  "fingerprint": "a964c52db1661316845cbe5a6da0813e3775167c22f625020b7dd3b3ef934816",
+  "episode_slug": "81-jillian-to-the-rescue",
+  "vc_slug": "phil-nadel-forefront-venture-partners",
+  "vc_name": "Phil Nadel",
+  "actual_decision": "Out",
+  "later_decision": "Unknown",
+  "reference_kind": "automated_transcript_observed_candidate",
+  "human_validated": false,
+  "source_format": "transcript-observed-rationales-v1",
+  "source_path": "/home/dpasch01/vclogic-vc-agentic-assessment/evaluation/pitchshow/investors/phil-nadel-forefront-venture-partners/source/episodes/81-jillian-to-the-rescue.json",
+  "source_sha256": "66dff2d3f35f4b72e15ad9abe2be91deeb85bc90e9f53a300628c6e763ed80ce",
+  "transcript_sha256": "f8d829d480f2c28e1233eb52c993396ec24ef976a864c01b376ee777a04ea964",
+  "taxonomy_sha256": "eaa8734819a3ac34dd19ee5f0bf6de925a793a1d25a2d361090dafc9b751e1fc",
+  "model": "codex:gpt-5.6-luna+gpt-5.6-sol",
+  "generation_stages": [
+    {
+      "phase": "rationale_extract",
+      "backend": "codex",
+      "model": "gpt-5.6-luna"
+    },
+    {
+      "phase": "rationale_verify",
+      "backend": "codex",
+      "model": "gpt-5.6-sol"
+    }
+  ],
+  "source_tier": "newly_extracted_and_independently_model_reviewed",
+  "reviewed_target_turns": [
+    28,
+    81,
+    100,
+    153,
+    177,
+    179,
+    182,
+    184
+  ],
+  "notes": "All supplied target turns were reviewed. The post-founder investor debrief remains original_pitch because it occurs immediately in the same room.",
+  "receipt_path": "/home/dpasch01/vclogic-vc-agentic-assessment/evaluation/pitchshow/investors/phil-nadel-forefront-venture-partners/rationale-references/receipts/81-jillian-to-the-rescue.json",
+  "scoring_scope": "original_pitch_only",
+  "shared_across_input_modes": true,
+  "rationales": [
+    {
+      "rationale_label": "go_to_market_strategy_assessment",
+      "direction": "negative",
+      "salience": "secondary",
+      "confidence": 1.0,
+      "utterance_type": "assessment",
+      "decision_link": "none",
+      "timing": "original_pitch",
+      "turn_index": 184,
+      "quote": "And that means that the sales process isn’t in place yet.",
+      "explanation": "Phil explicitly concludes that the company has not yet established its sales process.",
+      "evidence": [
+        "He said he’s hiring, he’s going to hire three people, but that means it’s not.",
+        "And that means that the sales process isn’t in place yet."
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 182,
+          "speaker": "Phil",
+          "quote": "He said he’s hiring, he’s going to hire three people, but that means it’s not."
+        },
+        {
+          "turn_index": 184,
+          "speaker": "Phil",
+          "quote": "And that means that the sales process isn’t in place yet."
+        }
+      ],
+      "activation": "evaluated",
+      "source_rationale_id": "R8",
+      "utterance_kind": "assessment",
+      "decision_support": "none",
+      "all_mention_ids": [
+        "R2",
+        "R3",
+        "R7",
+        "R8"
+      ]
+    },
+    {
+      "rationale_label": "portfolio_conflict_constraint",
+      "direction": "negative",
+      "salience": "primary",
+      "confidence": 1.0,
+      "utterance_type": "decision_reason",
+      "decision_link": "explicit",
+      "timing": "original_pitch",
+      "turn_index": 153,
+      "quote": "they're placing um hourly workers in restaurants and um and similar venues. So it's, it's a little too close um for me. I'm going to pass.",
+      "explanation": "Phil explicitly passes because the opportunity is too close to existing portfolio company HireMe.",
+      "evidence": [
+        "they're placing um hourly workers in restaurants and um and similar venues. So it's, it's a little too close um for me. I'm going to pass."
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 153,
+          "speaker": "Phil",
+          "quote": "they're placing um hourly workers in restaurants and um and similar venues. So it's, it's a little too close um for me. I'm going to pass."
+        }
+      ],
+      "activation": "evaluated",
+      "source_rationale_id": "R4",
+      "utterance_kind": "decision_explanation",
+      "decision_support": "supports_out",
+      "all_mention_ids": [
+        "R4"
+      ]
+    },
+    {
+      "rationale_label": "product_adoption",
+      "direction": "positive",
+      "salience": "secondary",
+      "confidence": 0.96,
+      "utterance_type": "assessment",
+      "decision_link": "none",
+      "timing": "original_pitch",
+      "turn_index": 179,
+      "quote": "And restaurants will stick with him.",
+      "explanation": "Phil expects restaurant customers to remain with the service, indicating customer retention and continued use.",
+      "evidence": [
+        "And restaurants will stick with him."
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 179,
+          "speaker": "Phil",
+          "quote": "And restaurants will stick with him."
+        }
+      ],
+      "activation": "evaluated",
+      "source_rationale_id": "R6",
+      "utterance_kind": "supporting_argument",
+      "decision_support": "none",
+      "all_mention_ids": [
+        "R1",
+        "R6"
+      ]
+    },
+    {
+      "rationale_label": "solution_feasibility_assessment",
+      "direction": "positive",
+      "salience": "secondary",
+      "confidence": 0.93,
+      "utterance_type": "assessment",
+      "decision_link": "none",
+      "timing": "original_pitch",
+      "turn_index": 177,
+      "quote": "he has a 91% fulfilment rate. That's very impressive.",
+      "explanation": "Phil views the demonstrated fulfillment rate as strong evidence that the marketplace works operationally.",
+      "evidence": [
+        "he has a 91% fulfilment rate. That's very impressive."
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 177,
+          "speaker": "Phil",
+          "quote": "he has a 91% fulfilment rate. That's very impressive."
+        }
+      ],
+      "activation": "evaluated",
+      "source_rationale_id": "R5",
+      "utterance_kind": "assessment",
+      "decision_support": "none",
+      "all_mention_ids": [
+        "R5"
+      ]
+    }
+  ],
+  "later_rationales": [],
+  "excluded_rationales": [],
+  "rationale_mentions": [
+    {
+      "rationale_label": "product_adoption",
+      "direction": "neutral",
+      "salience": "secondary",
+      "confidence": 0.94,
+      "utterance_type": "question",
+      "decision_link": "none",
+      "timing": "original_pitch",
+      "turn_index": 28,
+      "quote": "How many customers?",
+      "explanation": "Phil clarifies the question about how many customers use the paid white-glove service, probing adoption of that offering.",
+      "evidence": [
+        "How many customers?"
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 28,
+          "speaker": "Phil",
+          "quote": "How many customers?"
+        }
+      ],
+      "activation": "queried",
+      "source_rationale_id": "R1"
+    },
+    {
+      "rationale_label": "go_to_market_strategy_assessment",
+      "direction": "neutral",
+      "salience": "secondary",
+      "confidence": 0.99,
+      "utterance_type": "question",
+      "decision_link": "none",
+      "timing": "original_pitch",
+      "turn_index": 81,
+      "quote": "So what are you going to do? You gonna cold call them? Or email them?",
+      "explanation": "Phil probes which acquisition channels the company will use to reach prospective Chicago customers.",
+      "evidence": [
+        "So what are you going to do? You gonna cold call them? Or email them?"
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 81,
+          "speaker": "Phil",
+          "quote": "So what are you going to do? You gonna cold call them? Or email them?"
+        }
+      ],
+      "activation": "queried",
+      "source_rationale_id": "R2"
+    },
+    {
+      "rationale_label": "go_to_market_strategy_assessment",
+      "direction": "neutral",
+      "salience": "secondary",
+      "confidence": 0.99,
+      "utterance_type": "question",
+      "decision_link": "none",
+      "timing": "original_pitch",
+      "turn_index": 100,
+      "quote": "But, but more generally how are you going to acquire the meat and potatoes?",
+      "explanation": "Phil asks how the company will acquire its broader core customer base beyond large individual accounts.",
+      "evidence": [
+        "But, but more generally how are you going to acquire the meat and potatoes?"
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 100,
+          "speaker": "Phil",
+          "quote": "But, but more generally how are you going to acquire the meat and potatoes?"
+        }
+      ],
+      "activation": "queried",
+      "source_rationale_id": "R3"
+    },
+    {
+      "rationale_label": "portfolio_conflict_constraint",
+      "direction": "negative",
+      "salience": "primary",
+      "confidence": 1.0,
+      "utterance_type": "decision_explanation",
+      "decision_link": "supports_out",
+      "timing": "original_pitch",
+      "turn_index": 153,
+      "quote": "they're placing um hourly workers in restaurants and um and similar venues. So it's, it's a little too close um for me. I'm going to pass.",
+      "explanation": "Phil explicitly passes because the opportunity is too close to existing portfolio company HireMe.",
+      "evidence": [
+        "they're placing um hourly workers in restaurants and um and similar venues. So it's, it's a little too close um for me. I'm going to pass."
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 153,
+          "speaker": "Phil",
+          "quote": "they're placing um hourly workers in restaurants and um and similar venues. So it's, it's a little too close um for me. I'm going to pass."
+        }
+      ],
+      "activation": "evaluated",
+      "source_rationale_id": "R4"
+    },
+    {
+      "rationale_label": "solution_feasibility_assessment",
+      "direction": "positive",
+      "salience": "secondary",
+      "confidence": 0.93,
+      "utterance_type": "assessment",
+      "decision_link": "none",
+      "timing": "original_pitch",
+      "turn_index": 177,
+      "quote": "he has a 91% fulfilment rate. That's very impressive.",
+      "explanation": "Phil views the demonstrated fulfillment rate as strong evidence that the marketplace works operationally.",
+      "evidence": [
+        "he has a 91% fulfilment rate. That's very impressive."
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 177,
+          "speaker": "Phil",
+          "quote": "he has a 91% fulfilment rate. That's very impressive."
+        }
+      ],
+      "activation": "evaluated",
+      "source_rationale_id": "R5"
+    },
+    {
+      "rationale_label": "product_adoption",
+      "direction": "positive",
+      "salience": "secondary",
+      "confidence": 0.96,
+      "utterance_type": "supporting_argument",
+      "decision_link": "none",
+      "timing": "original_pitch",
+      "turn_index": 179,
+      "quote": "And restaurants will stick with him.",
+      "explanation": "Phil expects restaurant customers to remain with the service, indicating customer retention and continued use.",
+      "evidence": [
+        "And restaurants will stick with him."
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 179,
+          "speaker": "Phil",
+          "quote": "And restaurants will stick with him."
+        }
+      ],
+      "activation": "evaluated",
+      "source_rationale_id": "R6"
+    },
+    {
+      "rationale_label": "go_to_market_strategy_assessment",
+      "direction": "negative",
+      "salience": "secondary",
+      "confidence": 0.85,
+      "utterance_type": "assessment",
+      "decision_link": "none",
+      "timing": "original_pitch",
+      "turn_index": 182,
+      "quote": "He said he’s hiring, he’s going to hire three people, but that means it’s not.",
+      "explanation": "Phil begins drawing the negative inference that needing to hire the sales team means the sales process is not yet established, which he completes explicitly in turn 184.",
+      "evidence": [
+        "He said he’s hiring, he’s going to hire three people, but that means it’s not."
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 182,
+          "speaker": "Phil",
+          "quote": "He said he’s hiring, he’s going to hire three people, but that means it’s not."
+        }
+      ],
+      "activation": "evaluated",
+      "source_rationale_id": "R7"
+    },
+    {
+      "rationale_label": "go_to_market_strategy_assessment",
+      "direction": "negative",
+      "salience": "secondary",
+      "confidence": 1.0,
+      "utterance_type": "assessment",
+      "decision_link": "none",
+      "timing": "original_pitch",
+      "turn_index": 184,
+      "quote": "And that means that the sales process isn’t in place yet.",
+      "explanation": "Phil explicitly concludes that the company has not yet established its sales process.",
+      "evidence": [
+        "And that means that the sales process isn’t in place yet."
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 184,
+          "speaker": "Phil",
+          "quote": "And that means that the sales process isn’t in place yet."
+        }
+      ],
+      "activation": "evaluated",
+      "source_rationale_id": "R8"
+    }
+  ],
+  "expanded_quote_evidence": [],
+  "rejected_after_evidence_check": []
+}

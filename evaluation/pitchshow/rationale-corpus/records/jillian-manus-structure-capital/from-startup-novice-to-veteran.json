@@ -1,0 +1,752 @@
+{
+  "schema": "phase1-rationale-reference-v1",
+  "extraction_version": "pitchshow-rationales-v1",
+  "fingerprint": "20b9804255aad17b4dc9cc9aeec6fabefa6c7b0698f440031d1311980f72c7df",
+  "episode_slug": "from-startup-novice-to-veteran",
+  "vc_slug": "jillian-manus-structure-capital",
+  "vc_name": "Jillian Manus",
+  "actual_decision": "In",
+  "later_decision": "In",
+  "reference_kind": "automated_transcript_observed_candidate",
+  "human_validated": false,
+  "source_format": "transcript-observed-rationales-v1",
+  "source_path": "/home/dpasch01/vclogic-vc-agentic-assessment/evaluation/pitchshow/investors/jillian-manus-structure-capital/source/episodes/from-startup-novice-to-veteran.json",
+  "source_sha256": "8da77c8de811a4909427ac88498a3896fdd4aef2090589035a3198599ef92de8",
+  "transcript_sha256": "1b916f942655c7087da32f4ca763125b5c33c70e5d7c45b8bf798b3aa814fa5d",
+  "taxonomy_sha256": "eaa8734819a3ac34dd19ee5f0bf6de925a793a1d25a2d361090dafc9b751e1fc",
+  "model": "codex:gpt-5.6-luna+gpt-5.6-sol",
+  "generation_stages": [
+    {
+      "phase": "rationale_extract",
+      "backend": "codex",
+      "model": "gpt-5.6-luna"
+    },
+    {
+      "phase": "rationale_verify",
+      "backend": "codex",
+      "model": "gpt-5.6-sol"
+    }
+  ],
+  "source_tier": "newly_extracted_and_independently_model_reviewed",
+  "reviewed_target_turns": [
+    2,
+    4,
+    6,
+    8,
+    11,
+    13,
+    16,
+    19,
+    23,
+    29,
+    31,
+    34,
+    36,
+    38,
+    40,
+    43,
+    45,
+    55,
+    74,
+    76,
+    87,
+    89,
+    91,
+    93,
+    95,
+    103,
+    105,
+    107,
+    110,
+    114,
+    128,
+    130,
+    132,
+    136,
+    138,
+    141,
+    143,
+    145,
+    147,
+    150,
+    152,
+    154,
+    156,
+    158,
+    165,
+    167
+  ],
+  "notes": "All supplied target turns were reviewed exactly once; greetings, factual confirmations, fragments, social remarks, and unsupported bare investment commitments were omitted.",
+  "receipt_path": "/home/dpasch01/vclogic-vc-agentic-assessment/evaluation/pitchshow/investors/jillian-manus-structure-capital/rationale-references/receipts/from-startup-novice-to-veteran.json",
+  "scoring_scope": "original_pitch_only",
+  "shared_across_input_modes": true,
+  "rationales": [
+    {
+      "rationale_label": "business_model_assessment",
+      "direction": "positive",
+      "salience": "secondary",
+      "confidence": 0.9,
+      "utterance_type": "assessment",
+      "decision_link": "none",
+      "timing": "original_pitch",
+      "turn_index": 132,
+      "quote": "in terms of the training piece of that. I see that as another piece.",
+      "explanation": "She identifies training as another potentially valuable business-model component.",
+      "evidence": [
+        "partnerships with educational institutions",
+        "in terms of the training piece of that. I see that as another piece."
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 130,
+          "speaker": "Jillian",
+          "quote": "partnerships with educational institutions"
+        },
+        {
+          "turn_index": 132,
+          "speaker": "Jillian",
+          "quote": "in terms of the training piece of that. I see that as another piece."
+        }
+      ],
+      "activation": "evaluated",
+      "source_rationale_id": "R13",
+      "utterance_kind": "supporting_argument",
+      "decision_support": "none",
+      "all_mention_ids": [
+        "R12",
+        "R13"
+      ]
+    },
+    {
+      "rationale_label": "decision_context_constraint",
+      "direction": "neutral",
+      "salience": "secondary",
+      "confidence": 0.97,
+      "utterance_type": "decision_reason",
+      "decision_link": "explicit",
+      "timing": "original_pitch",
+      "turn_index": 136,
+      "quote": "I always have to, per Structure Capital, I always have to run every company by them first.",
+      "explanation": "She explains that fund policy determines whether the investment comes from her personally or from Structure Capital.",
+      "evidence": [
+        "I always have to, per Structure Capital, I always have to run every company by them first."
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 136,
+          "speaker": "Jillian",
+          "quote": "I always have to, per Structure Capital, I always have to run every company by them first."
+        }
+      ],
+      "activation": "evaluated",
+      "source_rationale_id": "R14",
+      "utterance_kind": "decision_explanation",
+      "decision_support": "supports_in",
+      "all_mention_ids": [
+        "R14"
+      ]
+    },
+    {
+      "rationale_label": "market_problem_validation",
+      "direction": "positive",
+      "salience": "secondary",
+      "confidence": 0.98,
+      "utterance_type": "assessment",
+      "decision_link": "explicit",
+      "timing": "original_pitch",
+      "turn_index": 36,
+      "quote": "They want to reach out to vets, they want to employ vets, and they don't know how.",
+      "explanation": "She identifies a real employer-side difficulty that Shift can solve.",
+      "evidence": [
+        "They want to reach out to vets, they want to employ vets, and they don't know how.",
+        "And hard to translate."
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 36,
+          "speaker": "Jillian",
+          "quote": "They want to reach out to vets, they want to employ vets, and they don't know how."
+        },
+        {
+          "turn_index": 74,
+          "speaker": "Jillian",
+          "quote": "And hard to translate."
+        }
+      ],
+      "activation": "evaluated",
+      "source_rationale_id": "R4",
+      "utterance_kind": "supporting_argument",
+      "decision_support": "supports_in",
+      "all_mention_ids": [
+        "R4",
+        "R7"
+      ]
+    },
+    {
+      "rationale_label": "market_size_assessment",
+      "direction": "positive",
+      "salience": "secondary",
+      "confidence": 0.95,
+      "utterance_type": "assessment",
+      "decision_link": "none",
+      "timing": "original_pitch",
+      "turn_index": 128,
+      "quote": "I think it's bigger than we even -",
+      "explanation": "She assesses the market opportunity as potentially larger than the investors have articulated.",
+      "evidence": [
+        "I think it's bigger than we even -"
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 128,
+          "speaker": "Jillian",
+          "quote": "I think it's bigger than we even -"
+        }
+      ],
+      "activation": "evaluated",
+      "source_rationale_id": "R11",
+      "utterance_kind": "assessment",
+      "decision_support": "none",
+      "all_mention_ids": [
+        "R11"
+      ]
+    },
+    {
+      "rationale_label": "mission_alignment_preference",
+      "direction": "positive",
+      "salience": "primary",
+      "confidence": 0.88,
+      "utterance_type": "decision_reason",
+      "decision_link": "explicit",
+      "timing": "original_pitch",
+      "turn_index": 114,
+      "quote": "Emotional investment.",
+      "explanation": "She explicitly characterizes her commitment as emotionally driven, consistent with her stated alignment with the mission.",
+      "evidence": [
+        "What this country has done or not done for vets is so unacceptable.",
+        "Because what you're doing is something that we all need to be doing.",
+        "Emotional investment.",
+        "They're gonna fulfill their missions, their continued missions in life, from one mission to the next one."
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 36,
+          "speaker": "Jillian",
+          "quote": "What this country has done or not done for vets is so unacceptable."
+        },
+        {
+          "turn_index": 38,
+          "speaker": "Jillian",
+          "quote": "Because what you're doing is something that we all need to be doing."
+        },
+        {
+          "turn_index": 40,
+          "speaker": "Jillian",
+          "quote": "Because what you're doing is something that we all need to be doing."
+        },
+        {
+          "turn_index": 114,
+          "speaker": "Jillian",
+          "quote": "Emotional investment."
+        },
+        {
+          "turn_index": 150,
+          "speaker": "Jillian",
+          "quote": "They're gonna fulfill their missions, their continued missions in life, from one mission to the next one."
+        }
+      ],
+      "activation": "evaluated",
+      "source_rationale_id": "R10",
+      "utterance_kind": "decision_explanation",
+      "decision_support": "supports_in",
+      "all_mention_ids": [
+        "R3",
+        "R5",
+        "R6",
+        "R10",
+        "R15"
+      ]
+    },
+    {
+      "rationale_label": "product_success_factor_assessment",
+      "direction": "positive",
+      "salience": "secondary",
+      "confidence": 0.93,
+      "utterance_type": "assessment",
+      "decision_link": "none",
+      "timing": "original_pitch",
+      "turn_index": 103,
+      "quote": "I think you hit upon the data piece.",
+      "explanation": "She identifies the company's accumulated data as an important source of value.",
+      "evidence": [
+        "I think you hit upon the data piece."
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 103,
+          "speaker": "Jillian",
+          "quote": "I think you hit upon the data piece."
+        }
+      ],
+      "activation": "evaluated",
+      "source_rationale_id": "R9",
+      "utterance_kind": "assessment",
+      "decision_support": "none",
+      "all_mention_ids": [
+        "R9"
+      ]
+    },
+    {
+      "rationale_label": "solution_feasibility_assessment",
+      "direction": "neutral",
+      "salience": "secondary",
+      "confidence": 0.9,
+      "utterance_type": "question",
+      "decision_link": "none",
+      "timing": "original_pitch",
+      "turn_index": 76,
+      "quote": "how does this bomb deployment or how does this, you know, how would that -",
+      "explanation": "She probes how Shift would operationally translate a specific military experience for employers.",
+      "evidence": [
+        "Can you explain that more?",
+        "how does this bomb deployment or how does this, you know, how would that -"
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 19,
+          "speaker": "Jillian",
+          "quote": "Can you explain that more?"
+        },
+        {
+          "turn_index": 76,
+          "speaker": "Jillian",
+          "quote": "how does this bomb deployment or how does this, you know, how would that -"
+        }
+      ],
+      "activation": "queried",
+      "source_rationale_id": "R8",
+      "utterance_kind": "question",
+      "decision_support": "none",
+      "all_mention_ids": [
+        "R2",
+        "R8"
+      ]
+    }
+  ],
+  "later_rationales": [
+    {
+      "rationale_label": "investor_value_add_fit",
+      "direction": "positive",
+      "salience": "secondary",
+      "confidence": 0.92,
+      "utterance_type": "assessment",
+      "decision_link": "none",
+      "timing": "later_commentary",
+      "turn_index": 165,
+      "quote": "Mike and I are definitely in real time",
+      "explanation": "She describes an ongoing, highly responsive advisory relationship with the founder.",
+      "evidence": [
+        "Mike and I are definitely in real time"
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 165,
+          "speaker": "Jillian",
+          "quote": "Mike and I are definitely in real time"
+        }
+      ],
+      "activation": "evaluated",
+      "source_rationale_id": "R16"
+    },
+    {
+      "rationale_label": "investor_value_add_fit",
+      "direction": "positive",
+      "salience": "secondary",
+      "confidence": 0.97,
+      "utterance_type": "assessment",
+      "decision_link": "none",
+      "timing": "later_commentary",
+      "turn_index": 167,
+      "quote": "I'm super involved. Yeah, I'm hand in glove.",
+      "explanation": "She emphasizes the intensive involvement and accessibility she contributes beyond capital.",
+      "evidence": [
+        "I'm super involved. Yeah, I'm hand in glove."
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 167,
+          "speaker": "Jillian",
+          "quote": "I'm super involved. Yeah, I'm hand in glove."
+        }
+      ],
+      "activation": "evaluated",
+      "source_rationale_id": "R17"
+    }
+  ],
+  "excluded_rationales": [
+    {
+      "rationale_label": "founder_qualities",
+      "direction": "positive",
+      "salience": "secondary",
+      "confidence": 0.98,
+      "utterance_type": "assessment",
+      "decision_link": "none",
+      "timing": "teaser",
+      "turn_index": 2,
+      "quote": "Your passion shows through. Your commitment shows through.",
+      "explanation": "Jillian positively assesses the founder's visible passion and commitment.",
+      "evidence": [
+        "Your passion shows through. Your commitment shows through."
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 2,
+          "speaker": "Jillian",
+          "quote": "Your passion shows through. Your commitment shows through."
+        }
+      ],
+      "activation": "evaluated",
+      "source_rationale_id": "R1"
+    }
+  ],
+  "rationale_mentions": [
+    {
+      "rationale_label": "solution_feasibility_assessment",
+      "direction": "neutral",
+      "salience": "secondary",
+      "confidence": 0.94,
+      "utterance_type": "question",
+      "decision_link": "none",
+      "timing": "original_pitch",
+      "turn_index": 19,
+      "quote": "Can you explain that more?",
+      "explanation": "She asks for clarification about how the proposed skills-to-jobs matching solution operates.",
+      "evidence": [
+        "Can you explain that more?"
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 19,
+          "speaker": "Jillian",
+          "quote": "Can you explain that more?"
+        }
+      ],
+      "activation": "queried",
+      "source_rationale_id": "R2"
+    },
+    {
+      "rationale_label": "mission_alignment_preference",
+      "direction": "positive",
+      "salience": "primary",
+      "confidence": 0.99,
+      "utterance_type": "decision_explanation",
+      "decision_link": "supports_in",
+      "timing": "original_pitch",
+      "turn_index": 36,
+      "quote": "What this country has done or not done for vets is so unacceptable.",
+      "explanation": "Her strong personal alignment with improving outcomes for veterans is a central reason for her immediate commitment.",
+      "evidence": [
+        "What this country has done or not done for vets is so unacceptable."
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 36,
+          "speaker": "Jillian",
+          "quote": "What this country has done or not done for vets is so unacceptable."
+        }
+      ],
+      "activation": "evaluated",
+      "source_rationale_id": "R3"
+    },
+    {
+      "rationale_label": "market_problem_validation",
+      "direction": "positive",
+      "salience": "secondary",
+      "confidence": 0.98,
+      "utterance_type": "supporting_argument",
+      "decision_link": "supports_in",
+      "timing": "original_pitch",
+      "turn_index": 36,
+      "quote": "They want to reach out to vets, they want to employ vets, and they don't know how.",
+      "explanation": "She identifies a real employer-side difficulty that Shift can solve.",
+      "evidence": [
+        "They want to reach out to vets, they want to employ vets, and they don't know how."
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 36,
+          "speaker": "Jillian",
+          "quote": "They want to reach out to vets, they want to employ vets, and they don't know how."
+        }
+      ],
+      "activation": "evaluated",
+      "source_rationale_id": "R4"
+    },
+    {
+      "rationale_label": "mission_alignment_preference",
+      "direction": "positive",
+      "salience": "primary",
+      "confidence": 0.98,
+      "utterance_type": "decision_explanation",
+      "decision_link": "supports_in",
+      "timing": "original_pitch",
+      "turn_index": 38,
+      "quote": "Because what you're doing is something that we all need to be doing.",
+      "explanation": "She explicitly grounds her investment enthusiasm in the company's socially important mission.",
+      "evidence": [
+        "Because what you're doing is something that we all need to be doing."
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 38,
+          "speaker": "Jillian",
+          "quote": "Because what you're doing is something that we all need to be doing."
+        }
+      ],
+      "activation": "evaluated",
+      "source_rationale_id": "R5"
+    },
+    {
+      "rationale_label": "mission_alignment_preference",
+      "direction": "positive",
+      "salience": "primary",
+      "confidence": 0.97,
+      "utterance_type": "decision_explanation",
+      "decision_link": "supports_in",
+      "timing": "original_pitch",
+      "turn_index": 40,
+      "quote": "Because what you're doing is something that we all need to be doing.",
+      "explanation": "She reiterates the mission-based justification for supporting the company.",
+      "evidence": [
+        "Because what you're doing is something that we all need to be doing."
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 40,
+          "speaker": "Jillian",
+          "quote": "Because what you're doing is something that we all need to be doing."
+        }
+      ],
+      "activation": "evaluated",
+      "source_rationale_id": "R6"
+    },
+    {
+      "rationale_label": "market_problem_validation",
+      "direction": "positive",
+      "salience": "secondary",
+      "confidence": 0.94,
+      "utterance_type": "supporting_argument",
+      "decision_link": "none",
+      "timing": "original_pitch",
+      "turn_index": 74,
+      "quote": "And hard to translate.",
+      "explanation": "She agrees that employers have difficulty translating military experience into civilian skills.",
+      "evidence": [
+        "And hard to translate."
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 74,
+          "speaker": "Jillian",
+          "quote": "And hard to translate."
+        }
+      ],
+      "activation": "evaluated",
+      "source_rationale_id": "R7"
+    },
+    {
+      "rationale_label": "solution_feasibility_assessment",
+      "direction": "neutral",
+      "salience": "secondary",
+      "confidence": 0.9,
+      "utterance_type": "question",
+      "decision_link": "none",
+      "timing": "original_pitch",
+      "turn_index": 76,
+      "quote": "how does this bomb deployment or how does this, you know, how would that -",
+      "explanation": "She probes how Shift would operationally translate a specific military experience for employers.",
+      "evidence": [
+        "how does this bomb deployment or how does this, you know, how would that -"
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 76,
+          "speaker": "Jillian",
+          "quote": "how does this bomb deployment or how does this, you know, how would that -"
+        }
+      ],
+      "activation": "queried",
+      "source_rationale_id": "R8"
+    },
+    {
+      "rationale_label": "product_success_factor_assessment",
+      "direction": "positive",
+      "salience": "secondary",
+      "confidence": 0.93,
+      "utterance_type": "assessment",
+      "decision_link": "none",
+      "timing": "original_pitch",
+      "turn_index": 103,
+      "quote": "I think you hit upon the data piece.",
+      "explanation": "She identifies the company's accumulated data as an important source of value.",
+      "evidence": [
+        "I think you hit upon the data piece."
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 103,
+          "speaker": "Jillian",
+          "quote": "I think you hit upon the data piece."
+        }
+      ],
+      "activation": "evaluated",
+      "source_rationale_id": "R9"
+    },
+    {
+      "rationale_label": "mission_alignment_preference",
+      "direction": "positive",
+      "salience": "primary",
+      "confidence": 0.88,
+      "utterance_type": "decision_explanation",
+      "decision_link": "supports_in",
+      "timing": "original_pitch",
+      "turn_index": 114,
+      "quote": "Emotional investment.",
+      "explanation": "She explicitly characterizes her commitment as emotionally driven, consistent with her stated alignment with the mission.",
+      "evidence": [
+        "Emotional investment."
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 114,
+          "speaker": "Jillian",
+          "quote": "Emotional investment."
+        }
+      ],
+      "activation": "evaluated",
+      "source_rationale_id": "R10"
+    },
+    {
+      "rationale_label": "market_size_assessment",
+      "direction": "positive",
+      "salience": "secondary",
+      "confidence": 0.95,
+      "utterance_type": "assessment",
+      "decision_link": "none",
+      "timing": "original_pitch",
+      "turn_index": 128,
+      "quote": "I think it's bigger than we even -",
+      "explanation": "She assesses the market opportunity as potentially larger than the investors have articulated.",
+      "evidence": [
+        "I think it's bigger than we even -"
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 128,
+          "speaker": "Jillian",
+          "quote": "I think it's bigger than we even -"
+        }
+      ],
+      "activation": "evaluated",
+      "source_rationale_id": "R11"
+    },
+    {
+      "rationale_label": "business_model_assessment",
+      "direction": "positive",
+      "salience": "secondary",
+      "confidence": 0.89,
+      "utterance_type": "supporting_argument",
+      "decision_link": "none",
+      "timing": "original_pitch",
+      "turn_index": 130,
+      "quote": "partnerships with educational institutions",
+      "explanation": "She proposes educational partnerships as an additional component of the company's expansion and monetization model.",
+      "evidence": [
+        "partnerships with educational institutions"
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 130,
+          "speaker": "Jillian",
+          "quote": "partnerships with educational institutions"
+        }
+      ],
+      "activation": "evaluated",
+      "source_rationale_id": "R12"
+    },
+    {
+      "rationale_label": "business_model_assessment",
+      "direction": "positive",
+      "salience": "secondary",
+      "confidence": 0.9,
+      "utterance_type": "supporting_argument",
+      "decision_link": "none",
+      "timing": "original_pitch",
+      "turn_index": 132,
+      "quote": "in terms of the training piece of that. I see that as another piece.",
+      "explanation": "She identifies training as another potentially valuable business-model component.",
+      "evidence": [
+        "in terms of the training piece of that. I see that as another piece."
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 132,
+          "speaker": "Jillian",
+          "quote": "in terms of the training piece of that. I see that as another piece."
+        }
+      ],
+      "activation": "evaluated",
+      "source_rationale_id": "R13"
+    },
+    {
+      "rationale_label": "decision_context_constraint",
+      "direction": "neutral",
+      "salience": "secondary",
+      "confidence": 0.97,
+      "utterance_type": "decision_explanation",
+      "decision_link": "supports_in",
+      "timing": "original_pitch",
+      "turn_index": 136,
+      "quote": "I always have to, per Structure Capital, I always have to run every company by them first.",
+      "explanation": "She explains that fund policy determines whether the investment comes from her personally or from Structure Capital.",
+      "evidence": [
+        "I always have to, per Structure Capital, I always have to run every company by them first."
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 136,
+          "speaker": "Jillian",
+          "quote": "I always have to, per Structure Capital, I always have to run every company by them first."
+        }
+      ],
+      "activation": "evaluated",
+      "source_rationale_id": "R14"
+    },
+    {
+      "rationale_label": "mission_alignment_preference",
+      "direction": "positive",
+      "salience": "secondary",
+      "confidence": 0.9,
+      "utterance_type": "supporting_argument",
+      "decision_link": "none",
+      "timing": "original_pitch",
+      "turn_index": 150,
+      "quote": "They're gonna fulfill their missions, their continued missions in life, from one mission to the next one.",
+      "explanation": "She emphasizes the personally meaningful impact of helping veterans transition to new life missions.",
+      "evidence": [
+        "They're gonna fulfill their missions, their continued missions in life, from one mission to the next one."
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 150,
+          "speaker": "Jillian",
+          "quote": "They're gonna fulfill their missions, their continued missions in life, from one mission to the next one."
+        }
+      ],
+      "activation": "evaluated",
+      "source_rationale_id": "R15"
+    }
+  ],
+  "expanded_quote_evidence": [],
+  "rejected_after_evidence_check": []
+}

@@ -565,10 +565,10 @@ def decision_v41_json_schema(
 
 
 class RetrievalPlanV4(StrictModel):
-    questions: list[NonEmptyText] = Field(min_length=1, max_length=6)
-    wiki_queries: list[NonEmptyText] = Field(max_length=6)
-    precedent_queries: list[NonEmptyText] = Field(max_length=6)
-    continuation_focus: NonEmptyText
+    questions: list[Annotated[str, Field(min_length=1, max_length=300)]] = Field(min_length=1, max_length=6)
+    wiki_queries: list[Annotated[str, Field(min_length=1, max_length=300)]] = Field(max_length=6)
+    precedent_queries: list[Annotated[str, Field(min_length=1, max_length=300)]] = Field(max_length=6)
+    continuation_focus: Annotated[str, Field(min_length=1, max_length=600)]
 
 
 class QuestionAssessmentV4(StrictModel):
@@ -671,6 +671,8 @@ class ConstraintAssessmentV41(StrictModel):
         "other",
     ]
     policy_statement: NonEmptyText
+    policy_applicability: Literal["established", "uncertain", "not_applicable"] = "uncertain"
+    policy_applicability_basis: str = ""
     status: Literal["triggered", "possible", "not_triggered"]
     severity: Literal["hard", "material", "ordinary"]
     pitch_evidence_ids: list[PitchEvidenceId] = Field(min_length=1)
@@ -969,11 +971,27 @@ class DecisionV4(StrictModel):
         return self
 
 
+class CommitmentSupportV41(StrictModel):
+    rationale_ids: list[RationaleId]
+    investor_evidence_ids: list[EvidenceId]
+    affirmative_case: NonEmptyText
+    strongest_soft_negative: NonEmptyText
+    why_positive_outweighs_negative: NonEmptyText
+    same_risk_supported: bool
+    material_difference_defeats_exception: bool
+    same_risk_explanation: NonEmptyText
+
+
 class DecisionV41(DecisionV4):
     schema_version: Literal["decision-v4.1"]
     blocking_constraint_ids: list[ConstraintId]
     constraint_assessment_summary: NonEmptyText
     founder_exception_precedent_match: NonEmptyText
+    commitment_support: CommitmentSupportV41 = Field(default_factory=lambda: CommitmentSupportV41(
+        rationale_ids=[], investor_evidence_ids=[], affirmative_case="Not assessed in legacy output.",
+        strongest_soft_negative="Not assessed.", why_positive_outweighs_negative="Not assessed.",
+        same_risk_supported=False, material_difference_defeats_exception=False,
+        same_risk_explanation="Not assessed."))
 
     @model_validator(mode="after")
     def validate_v41_exception(self) -> "DecisionV41":

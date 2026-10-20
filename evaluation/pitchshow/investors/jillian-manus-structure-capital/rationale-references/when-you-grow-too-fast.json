@@ -1,0 +1,655 @@
+{
+  "schema": "phase1-rationale-reference-v1",
+  "extraction_version": "pitchshow-rationales-v1",
+  "fingerprint": "c025e35183e4f056c0d33b018fb8894efe4b5ce2b868612f4017f013cd896442",
+  "episode_slug": "when-you-grow-too-fast",
+  "vc_slug": "jillian-manus-structure-capital",
+  "vc_name": "Jillian Manus",
+  "actual_decision": "In",
+  "later_decision": "Out",
+  "reference_kind": "automated_transcript_observed_candidate",
+  "human_validated": false,
+  "source_format": "transcript-observed-rationales-v1",
+  "source_path": "../source/episodes/when-you-grow-too-fast.json",
+  "source_sha256": "2d75b7479460ee88a9999586cac743d91c5c4be7d5ba82b56d25fe14ae423389",
+  "transcript_sha256": "4e7ee5ea611649093be494b1bbd6c5ad2770aa3abde4d75e062fa9d66092f305",
+  "taxonomy_sha256": "eaa8734819a3ac34dd19ee5f0bf6de925a793a1d25a2d361090dafc9b751e1fc",
+  "model": "codex:gpt-5.6-luna+gpt-5.6-sol",
+  "generation_stages": [
+    {
+      "phase": "rationale_extract",
+      "backend": "codex",
+      "model": "gpt-5.6-luna"
+    },
+    {
+      "phase": "rationale_verify",
+      "backend": "codex",
+      "model": "gpt-5.6-sol"
+    }
+  ],
+  "source_tier": "newly_extracted_and_independently_model_reviewed",
+  "reviewed_target_turns": [
+    15,
+    19,
+    22,
+    25,
+    41,
+    43,
+    46,
+    48,
+    50,
+    54,
+    56,
+    58,
+    60,
+    62,
+    64,
+    67,
+    73,
+    84
+  ],
+  "notes": "All supplied target turns were reviewed. Simple acknowledgments, interruptions, jokes, bare disagreement, and the unsupported early-stage funding remark were not treated as rationales; all retained evidence is from Jillian's attributed_text and remains part of the original in-room pitch or debrief.",
+  "receipt_path": "receipts/when-you-grow-too-fast.json",
+  "scoring_scope": "original_pitch_only",
+  "shared_across_input_modes": true,
+  "rationales": [
+    {
+      "rationale_label": "business_model_assessment",
+      "direction": "neutral",
+      "salience": "secondary",
+      "confidence": 0.98,
+      "utterance_type": "question",
+      "decision_link": "none",
+      "timing": "original_pitch",
+      "turn_index": 15,
+      "quote": "At a $500 fee?",
+      "explanation": "Jillian verifies the price charged for the service.",
+      "evidence": [
+        "At a $500 fee?"
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 15,
+          "speaker": "Jillian",
+          "quote": "At a $500 fee?"
+        }
+      ],
+      "activation": "queried",
+      "source_rationale_id": "R1",
+      "utterance_kind": "question",
+      "decision_support": "none",
+      "all_mention_ids": [
+        "R1"
+      ]
+    },
+    {
+      "rationale_label": "business_viability_concern",
+      "direction": "negative",
+      "salience": "primary",
+      "confidence": 0.99,
+      "utterance_type": "assessment",
+      "decision_link": "none",
+      "timing": "original_pitch",
+      "turn_index": 25,
+      "quote": "Why 500 then? Why not at least cover your basic costs?",
+      "explanation": "Jillian challenges a price that does not cover the service's basic costs.",
+      "evidence": [
+        "Why 500 then? Why not at least cover your basic costs?"
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 25,
+          "speaker": "Jillian",
+          "quote": "Why 500 then? Why not at least cover your basic costs?"
+        }
+      ],
+      "activation": "evaluated",
+      "source_rationale_id": "R4",
+      "utterance_kind": "concern",
+      "decision_support": "none",
+      "all_mention_ids": [
+        "R4"
+      ]
+    },
+    {
+      "rationale_label": "decision_context_constraint",
+      "direction": "neutral",
+      "salience": "secondary",
+      "confidence": 0.96,
+      "utterance_type": "assessment",
+      "decision_link": "none",
+      "timing": "original_pitch",
+      "turn_index": 62,
+      "quote": "the follow up on this is that we drill down into the business, and the unit economics. We actually drill down into the projections",
+      "explanation": "Jillian explains that the pitch-room exchange is followed by deeper evaluation of the economics and projections.",
+      "evidence": [
+        "the follow up on this is that we drill down into the business, and the unit economics. We actually drill down into the projections"
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 62,
+          "speaker": "Jillian",
+          "quote": "the follow up on this is that we drill down into the business, and the unit economics. We actually drill down into the projections"
+        }
+      ],
+      "activation": "evaluated",
+      "source_rationale_id": "R11",
+      "utterance_kind": "supporting_argument",
+      "decision_support": "none",
+      "all_mention_ids": [
+        "R11"
+      ]
+    },
+    {
+      "rationale_label": "founder_communication_quality",
+      "direction": "positive",
+      "salience": "secondary",
+      "confidence": 0.92,
+      "utterance_type": "assessment",
+      "decision_link": "none",
+      "timing": "original_pitch",
+      "turn_index": 73,
+      "quote": "He did! But he did! That was the whole presentation.",
+      "explanation": "Jillian argues that the founder did communicate the business-growth path Michael said was missing.",
+      "evidence": [
+        "He did! But he did! That was the whole presentation."
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 73,
+          "speaker": "Jillian",
+          "quote": "He did! But he did! That was the whole presentation."
+        }
+      ],
+      "activation": "evaluated",
+      "source_rationale_id": "R12",
+      "utterance_kind": "supporting_argument",
+      "decision_support": "none",
+      "all_mention_ids": [
+        "R12"
+      ]
+    },
+    {
+      "rationale_label": "founder_market_fit",
+      "direction": "positive",
+      "salience": "primary",
+      "confidence": 0.95,
+      "utterance_type": "assessment",
+      "decision_link": "explicit",
+      "timing": "original_pitch",
+      "turn_index": 41,
+      "quote": "With your background, with your intent, with your self awareness, umm, I love this.",
+      "explanation": "Jillian cites the founder's background and purpose as positive reasons within her investment case.",
+      "evidence": [
+        "With your background, with your intent, with your self awareness, umm, I love this."
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 41,
+          "speaker": "Jillian",
+          "quote": "With your background, with your intent, with your self awareness, umm, I love this."
+        }
+      ],
+      "activation": "evaluated",
+      "source_rationale_id": "R7",
+      "utterance_kind": "assessment",
+      "decision_support": "supports_in",
+      "all_mention_ids": [
+        "R7"
+      ]
+    },
+    {
+      "rationale_label": "founder_qualities",
+      "direction": "positive",
+      "salience": "primary",
+      "confidence": 0.99,
+      "utterance_type": "assessment",
+      "decision_link": "explicit",
+      "timing": "original_pitch",
+      "turn_index": 41,
+      "quote": "you can't get a more crackerjack umm founder",
+      "explanation": "Jillian strongly endorses the founder's personal capability as part of her reason for investing.",
+      "evidence": [
+        "you can't get a more crackerjack umm founder",
+        "If you take apart a founder, and you take apart a product, at the very early stages, he checks every single box and then some."
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 41,
+          "speaker": "Jillian",
+          "quote": "you can't get a more crackerjack umm founder"
+        },
+        {
+          "turn_index": 48,
+          "speaker": "Jillian",
+          "quote": "If you take apart a founder, and you take apart a product, at the very early stages, he checks every single box and then some."
+        }
+      ],
+      "activation": "evaluated",
+      "source_rationale_id": "R8",
+      "utterance_kind": "assessment",
+      "decision_support": "supports_in",
+      "all_mention_ids": [
+        "R8",
+        "R9"
+      ]
+    },
+    {
+      "rationale_label": "go_to_market_strategy_assessment",
+      "direction": "neutral",
+      "salience": "secondary",
+      "confidence": 0.98,
+      "utterance_type": "question",
+      "decision_link": "none",
+      "timing": "original_pitch",
+      "turn_index": 22,
+      "quote": "$400 dollars?",
+      "explanation": "Jillian seeks confirmation of the reported customer-acquisition cost.",
+      "evidence": [
+        "What is your cost of acquisition right now?",
+        "$400 dollars?"
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 19,
+          "speaker": "Jillian",
+          "quote": "What is your cost of acquisition right now?"
+        },
+        {
+          "turn_index": 22,
+          "speaker": "Jillian",
+          "quote": "$400 dollars?"
+        }
+      ],
+      "activation": "queried",
+      "source_rationale_id": "R3",
+      "utterance_kind": "question",
+      "decision_support": "none",
+      "all_mention_ids": [
+        "R2",
+        "R3"
+      ]
+    },
+    {
+      "rationale_label": "market_problem_validation",
+      "direction": "positive",
+      "salience": "secondary",
+      "confidence": 0.95,
+      "utterance_type": "assessment",
+      "decision_link": "explicit",
+      "timing": "original_pitch",
+      "turn_index": 41,
+      "quote": "I put this in the category of one of this country's dumbest problems.",
+      "explanation": "Jillian regards the country's immigration process as a significant problem worth solving and includes that view in her investment explanation.",
+      "evidence": [
+        "I put this in the category of one of this country's dumbest problems."
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 41,
+          "speaker": "Jillian",
+          "quote": "I put this in the category of one of this country's dumbest problems."
+        }
+      ],
+      "activation": "evaluated",
+      "source_rationale_id": "R5",
+      "utterance_kind": "assessment",
+      "decision_support": "supports_in",
+      "all_mention_ids": [
+        "R5"
+      ]
+    },
+    {
+      "rationale_label": "mission_alignment_preference",
+      "direction": "positive",
+      "salience": "primary",
+      "confidence": 0.99,
+      "utterance_type": "decision_reason",
+      "decision_link": "explicit",
+      "timing": "original_pitch",
+      "turn_index": 41,
+      "quote": "I would be honored, actually, to invest in a company that would create an easier path to fortify the foundations of this country",
+      "explanation": "Jillian explicitly connects her decision to invest with personal alignment with the company's immigration mission.",
+      "evidence": [
+        "I would be honored, actually, to invest in a company that would create an easier path to fortify the foundations of this country"
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 41,
+          "speaker": "Jillian",
+          "quote": "I would be honored, actually, to invest in a company that would create an easier path to fortify the foundations of this country"
+        }
+      ],
+      "activation": "evaluated",
+      "source_rationale_id": "R6",
+      "utterance_kind": "decision_explanation",
+      "decision_support": "supports_in",
+      "all_mention_ids": [
+        "R6"
+      ]
+    },
+    {
+      "rationale_label": "product_appeal_assessment",
+      "direction": "positive",
+      "salience": "primary",
+      "confidence": 0.91,
+      "utterance_type": "assessment",
+      "decision_link": "none",
+      "timing": "original_pitch",
+      "turn_index": 48,
+      "quote": "If you take apart a founder, and you take apart a product, at the very early stages, he checks every single box and then some.",
+      "explanation": "The same assessment explicitly includes the early-stage product as satisfying Jillian's evaluation criteria.",
+      "evidence": [
+        "If you take apart a founder, and you take apart a product, at the very early stages, he checks every single box and then some."
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 48,
+          "speaker": "Jillian",
+          "quote": "If you take apart a founder, and you take apart a product, at the very early stages, he checks every single box and then some."
+        }
+      ],
+      "activation": "evaluated",
+      "source_rationale_id": "R10",
+      "utterance_kind": "assessment",
+      "decision_support": "none",
+      "all_mention_ids": [
+        "R10"
+      ]
+    }
+  ],
+  "later_rationales": [],
+  "excluded_rationales": [],
+  "rationale_mentions": [
+    {
+      "rationale_label": "business_model_assessment",
+      "direction": "neutral",
+      "salience": "secondary",
+      "confidence": 0.98,
+      "utterance_type": "question",
+      "decision_link": "none",
+      "timing": "original_pitch",
+      "turn_index": 15,
+      "quote": "At a $500 fee?",
+      "explanation": "Jillian verifies the price charged for the service.",
+      "evidence": [
+        "At a $500 fee?"
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 15,
+          "speaker": "Jillian",
+          "quote": "At a $500 fee?"
+        }
+      ],
+      "activation": "queried",
+      "source_rationale_id": "R1"
+    },
+    {
+      "rationale_label": "go_to_market_strategy_assessment",
+      "direction": "neutral",
+      "salience": "secondary",
+      "confidence": 0.99,
+      "utterance_type": "question",
+      "decision_link": "none",
+      "timing": "original_pitch",
+      "turn_index": 19,
+      "quote": "What is your cost of acquisition right now?",
+      "explanation": "Jillian asks for the company's current customer-acquisition cost rather than its target cost.",
+      "evidence": [
+        "What is your cost of acquisition right now?"
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 19,
+          "speaker": "Jillian",
+          "quote": "What is your cost of acquisition right now?"
+        }
+      ],
+      "activation": "queried",
+      "source_rationale_id": "R2"
+    },
+    {
+      "rationale_label": "go_to_market_strategy_assessment",
+      "direction": "neutral",
+      "salience": "secondary",
+      "confidence": 0.98,
+      "utterance_type": "question",
+      "decision_link": "none",
+      "timing": "original_pitch",
+      "turn_index": 22,
+      "quote": "$400 dollars?",
+      "explanation": "Jillian seeks confirmation of the reported customer-acquisition cost.",
+      "evidence": [
+        "$400 dollars?"
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 22,
+          "speaker": "Jillian",
+          "quote": "$400 dollars?"
+        }
+      ],
+      "activation": "queried",
+      "source_rationale_id": "R3"
+    },
+    {
+      "rationale_label": "business_viability_concern",
+      "direction": "negative",
+      "salience": "primary",
+      "confidence": 0.99,
+      "utterance_type": "concern",
+      "decision_link": "none",
+      "timing": "original_pitch",
+      "turn_index": 25,
+      "quote": "Why 500 then? Why not at least cover your basic costs?",
+      "explanation": "Jillian challenges a price that does not cover the service's basic costs.",
+      "evidence": [
+        "Why 500 then? Why not at least cover your basic costs?"
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 25,
+          "speaker": "Jillian",
+          "quote": "Why 500 then? Why not at least cover your basic costs?"
+        }
+      ],
+      "activation": "evaluated",
+      "source_rationale_id": "R4"
+    },
+    {
+      "rationale_label": "market_problem_validation",
+      "direction": "positive",
+      "salience": "secondary",
+      "confidence": 0.95,
+      "utterance_type": "assessment",
+      "decision_link": "supports_in",
+      "timing": "original_pitch",
+      "turn_index": 41,
+      "quote": "I put this in the category of one of this country's dumbest problems.",
+      "explanation": "Jillian regards the country's immigration process as a significant problem worth solving and includes that view in her investment explanation.",
+      "evidence": [
+        "I put this in the category of one of this country's dumbest problems."
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 41,
+          "speaker": "Jillian",
+          "quote": "I put this in the category of one of this country's dumbest problems."
+        }
+      ],
+      "activation": "evaluated",
+      "source_rationale_id": "R5"
+    },
+    {
+      "rationale_label": "mission_alignment_preference",
+      "direction": "positive",
+      "salience": "primary",
+      "confidence": 0.99,
+      "utterance_type": "decision_explanation",
+      "decision_link": "supports_in",
+      "timing": "original_pitch",
+      "turn_index": 41,
+      "quote": "I would be honored, actually, to invest in a company that would create an easier path to fortify the foundations of this country",
+      "explanation": "Jillian explicitly connects her decision to invest with personal alignment with the company's immigration mission.",
+      "evidence": [
+        "I would be honored, actually, to invest in a company that would create an easier path to fortify the foundations of this country"
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 41,
+          "speaker": "Jillian",
+          "quote": "I would be honored, actually, to invest in a company that would create an easier path to fortify the foundations of this country"
+        }
+      ],
+      "activation": "evaluated",
+      "source_rationale_id": "R6"
+    },
+    {
+      "rationale_label": "founder_market_fit",
+      "direction": "positive",
+      "salience": "primary",
+      "confidence": 0.95,
+      "utterance_type": "assessment",
+      "decision_link": "supports_in",
+      "timing": "original_pitch",
+      "turn_index": 41,
+      "quote": "With your background, with your intent, with your self awareness, umm, I love this.",
+      "explanation": "Jillian cites the founder's background and purpose as positive reasons within her investment case.",
+      "evidence": [
+        "With your background, with your intent, with your self awareness, umm, I love this."
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 41,
+          "speaker": "Jillian",
+          "quote": "With your background, with your intent, with your self awareness, umm, I love this."
+        }
+      ],
+      "activation": "evaluated",
+      "source_rationale_id": "R7"
+    },
+    {
+      "rationale_label": "founder_qualities",
+      "direction": "positive",
+      "salience": "primary",
+      "confidence": 0.99,
+      "utterance_type": "assessment",
+      "decision_link": "supports_in",
+      "timing": "original_pitch",
+      "turn_index": 41,
+      "quote": "you can't get a more crackerjack umm founder",
+      "explanation": "Jillian strongly endorses the founder's personal capability as part of her reason for investing.",
+      "evidence": [
+        "you can't get a more crackerjack umm founder"
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 41,
+          "speaker": "Jillian",
+          "quote": "you can't get a more crackerjack umm founder"
+        }
+      ],
+      "activation": "evaluated",
+      "source_rationale_id": "R8"
+    },
+    {
+      "rationale_label": "founder_qualities",
+      "direction": "positive",
+      "salience": "primary",
+      "confidence": 0.97,
+      "utterance_type": "assessment",
+      "decision_link": "none",
+      "timing": "original_pitch",
+      "turn_index": 48,
+      "quote": "If you take apart a founder, and you take apart a product, at the very early stages, he checks every single box and then some.",
+      "explanation": "In the immediate in-room debrief, Jillian says the founder exceeds her early-stage evaluation criteria.",
+      "evidence": [
+        "If you take apart a founder, and you take apart a product, at the very early stages, he checks every single box and then some."
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 48,
+          "speaker": "Jillian",
+          "quote": "If you take apart a founder, and you take apart a product, at the very early stages, he checks every single box and then some."
+        }
+      ],
+      "activation": "evaluated",
+      "source_rationale_id": "R9"
+    },
+    {
+      "rationale_label": "product_appeal_assessment",
+      "direction": "positive",
+      "salience": "primary",
+      "confidence": 0.91,
+      "utterance_type": "assessment",
+      "decision_link": "none",
+      "timing": "original_pitch",
+      "turn_index": 48,
+      "quote": "If you take apart a founder, and you take apart a product, at the very early stages, he checks every single box and then some.",
+      "explanation": "The same assessment explicitly includes the early-stage product as satisfying Jillian's evaluation criteria.",
+      "evidence": [
+        "If you take apart a founder, and you take apart a product, at the very early stages, he checks every single box and then some."
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 48,
+          "speaker": "Jillian",
+          "quote": "If you take apart a founder, and you take apart a product, at the very early stages, he checks every single box and then some."
+        }
+      ],
+      "activation": "evaluated",
+      "source_rationale_id": "R10"
+    },
+    {
+      "rationale_label": "decision_context_constraint",
+      "direction": "neutral",
+      "salience": "secondary",
+      "confidence": 0.96,
+      "utterance_type": "supporting_argument",
+      "decision_link": "none",
+      "timing": "original_pitch",
+      "turn_index": 62,
+      "quote": "the follow up on this is that we drill down into the business, and the unit economics. We actually drill down into the projections",
+      "explanation": "Jillian explains that the pitch-room exchange is followed by deeper evaluation of the economics and projections.",
+      "evidence": [
+        "the follow up on this is that we drill down into the business, and the unit economics. We actually drill down into the projections"
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 62,
+          "speaker": "Jillian",
+          "quote": "the follow up on this is that we drill down into the business, and the unit economics. We actually drill down into the projections"
+        }
+      ],
+      "activation": "evaluated",
+      "source_rationale_id": "R11"
+    },
+    {
+      "rationale_label": "founder_communication_quality",
+      "direction": "positive",
+      "salience": "secondary",
+      "confidence": 0.92,
+      "utterance_type": "supporting_argument",
+      "decision_link": "none",
+      "timing": "original_pitch",
+      "turn_index": 73,
+      "quote": "He did! But he did! That was the whole presentation.",
+      "explanation": "Jillian argues that the founder did communicate the business-growth path Michael said was missing.",
+      "evidence": [
+        "He did! But he did! That was the whole presentation."
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 73,
+          "speaker": "Jillian",
+          "quote": "He did! But he did! That was the whole presentation."
+        }
+      ],
+      "activation": "evaluated",
+      "source_rationale_id": "R12"
+    }
+  ],
+  "expanded_quote_evidence": [],
+  "rejected_after_evidence_check": []
+}

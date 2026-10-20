@@ -1,0 +1,806 @@
+{
+  "schema": "phase1-rationale-reference-v1",
+  "extraction_version": "pitchshow-rationales-v1",
+  "fingerprint": "d2ed46dc3e9011bf8a9017c236e97c7a8f57d8601f442cc576fc104540b62621",
+  "episode_slug": "85-will-coronavirus-kill-this-deal",
+  "vc_slug": "jillian-manus-structure-capital",
+  "vc_name": "Jillian Manus",
+  "actual_decision": "In",
+  "later_decision": "Out",
+  "reference_kind": "automated_transcript_observed_candidate",
+  "human_validated": false,
+  "source_format": "transcript-observed-rationales-v1",
+  "source_path": "/home/dpasch01/vclogic-vc-agentic-assessment/evaluation/pitchshow/investors/jillian-manus-structure-capital/source/episodes/85-will-coronavirus-kill-this-deal.json",
+  "source_sha256": "4b979560d57233d5ec880f7ccbbb828b4add0224ec719dcbe0e160916f28c58d",
+  "transcript_sha256": "629d2411107a5df7c6ed0f6fafee83879b3c4c9dedf9eb9e723b3eb90fa97e2e",
+  "taxonomy_sha256": "eaa8734819a3ac34dd19ee5f0bf6de925a793a1d25a2d361090dafc9b751e1fc",
+  "model": "codex:gpt-5.6-luna+gpt-5.6-sol",
+  "generation_stages": [
+    {
+      "phase": "rationale_extract",
+      "backend": "codex",
+      "model": "gpt-5.6-luna"
+    },
+    {
+      "phase": "rationale_verify",
+      "backend": "codex",
+      "model": "gpt-5.6-sol"
+    }
+  ],
+  "source_tier": "newly_extracted_and_independently_model_reviewed",
+  "reviewed_target_turns": [
+    5,
+    33,
+    37,
+    45,
+    59,
+    61,
+    63,
+    65,
+    67,
+    72,
+    79,
+    82,
+    98,
+    100,
+    106,
+    108,
+    110,
+    112,
+    127,
+    129,
+    131,
+    133,
+    135,
+    137,
+    139,
+    141
+  ],
+  "notes": "",
+  "receipt_path": "/home/dpasch01/vclogic-vc-agentic-assessment/evaluation/pitchshow/investors/jillian-manus-structure-capital/rationale-references/receipts/85-will-coronavirus-kill-this-deal.json",
+  "scoring_scope": "original_pitch_only",
+  "shared_across_input_modes": true,
+  "rationales": [
+    {
+      "rationale_label": "business_model_assessment",
+      "direction": "negative",
+      "salience": "primary",
+      "confidence": 0.97,
+      "utterance_type": "assessment",
+      "decision_link": "none",
+      "timing": "original_pitch",
+      "turn_index": 110,
+      "quote": "he, he’s not a SaaS company",
+      "explanation": "Concludes that the company's current business does not yet support its claimed SaaS identity.",
+      "evidence": [
+        "one dollar seems ridicu -- it’s just not right You either do free or you do something considerable.",
+        "he, he’s not a SaaS company"
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 79,
+          "speaker": "Jillian",
+          "quote": "one dollar seems ridicu -- it’s just not right You either do free or you do something considerable."
+        },
+        {
+          "turn_index": 110,
+          "speaker": "Jillian",
+          "quote": "he, he’s not a SaaS company"
+        }
+      ],
+      "activation": "evaluated",
+      "source_rationale_id": "R11",
+      "utterance_kind": "assessment",
+      "decision_support": "none",
+      "all_mention_ids": [
+        "R6",
+        "R11"
+      ]
+    },
+    {
+      "rationale_label": "founder_execution",
+      "direction": "positive",
+      "salience": "secondary",
+      "confidence": 0.92,
+      "utterance_type": "assessment",
+      "decision_link": "none",
+      "timing": "original_pitch",
+      "turn_index": 110,
+      "quote": "that is not a small feat gaining their partnership.",
+      "explanation": "Treats securing the Berkadia partnership as meaningful evidence of the founder's execution ability.",
+      "evidence": [
+        "that is not a small feat gaining their partnership."
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 110,
+          "speaker": "Jillian",
+          "quote": "that is not a small feat gaining their partnership."
+        }
+      ],
+      "activation": "evaluated",
+      "source_rationale_id": "R12",
+      "utterance_kind": "supporting_argument",
+      "decision_support": "none",
+      "all_mention_ids": [
+        "R12"
+      ]
+    },
+    {
+      "rationale_label": "founder_qualities",
+      "direction": "positive",
+      "salience": "secondary",
+      "confidence": 0.91,
+      "utterance_type": "decision_reason",
+      "decision_link": "explicit",
+      "timing": "original_pitch",
+      "turn_index": 98,
+      "quote": "I think you know what you're doing.",
+      "explanation": "Expresses confidence in the founder's judgment as part of her investment explanation.",
+      "evidence": [
+        "I think you know what you're doing."
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 98,
+          "speaker": "Jillian",
+          "quote": "I think you know what you're doing."
+        }
+      ],
+      "activation": "evaluated",
+      "source_rationale_id": "R8",
+      "utterance_kind": "decision_explanation",
+      "decision_support": "supports_in",
+      "all_mention_ids": [
+        "R8"
+      ]
+    },
+    {
+      "rationale_label": "go_to_market_strategy_assessment",
+      "direction": "neutral",
+      "salience": "secondary",
+      "confidence": 0.74,
+      "utterance_type": "assessment",
+      "decision_link": "none",
+      "timing": "original_pitch",
+      "turn_index": 72,
+      "quote": "Welcome everyone on.",
+      "explanation": "Advocates broadly onboarding participants as part of the proposed route to scale.",
+      "evidence": [
+        "Welcome everyone on."
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 72,
+          "speaker": "Jillian",
+          "quote": "Welcome everyone on."
+        }
+      ],
+      "activation": "evaluated",
+      "source_rationale_id": "R5",
+      "utterance_kind": "supporting_argument",
+      "decision_support": "none",
+      "all_mention_ids": [
+        "R5"
+      ]
+    },
+    {
+      "rationale_label": "investment_upside_assessment",
+      "direction": "neutral",
+      "salience": "secondary",
+      "confidence": 0.9,
+      "utterance_type": "question",
+      "decision_link": "none",
+      "timing": "original_pitch",
+      "turn_index": 59,
+      "quote": "What’s the endgame here?",
+      "explanation": "Asks what long-term outcome or destination could make the opportunity valuable.",
+      "evidence": [
+        "What’s the endgame here?"
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 59,
+          "speaker": "Jillian",
+          "quote": "What’s the endgame here?"
+        }
+      ],
+      "activation": "queried",
+      "source_rationale_id": "R1",
+      "utterance_kind": "question",
+      "decision_support": "none",
+      "all_mention_ids": [
+        "R1"
+      ]
+    },
+    {
+      "rationale_label": "investor_experience_bias",
+      "direction": "positive",
+      "salience": "primary",
+      "confidence": 0.94,
+      "utterance_type": "assessment",
+      "decision_link": "none",
+      "timing": "original_pitch",
+      "turn_index": 110,
+      "quote": "a lot of these companies, I have two right now, they have an anchor, they’re building it out, and that anchor’s going to buy them.",
+      "explanation": "Uses her experience with existing anchor-backed portfolio companies to support a credible partner-led acquisition path.",
+      "evidence": [
+        "a lot of these companies, I have two right now, they have an anchor, they’re building it out, and that anchor’s going to buy them."
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 110,
+          "speaker": "Jillian",
+          "quote": "a lot of these companies, I have two right now, they have an anchor, they’re building it out, and that anchor’s going to buy them."
+        }
+      ],
+      "activation": "evaluated",
+      "source_rationale_id": "R14",
+      "utterance_kind": "supporting_argument",
+      "decision_support": "none",
+      "all_mention_ids": [
+        "R14"
+      ]
+    },
+    {
+      "rationale_label": "investor_value_add_fit",
+      "direction": "positive",
+      "salience": "secondary",
+      "confidence": 0.9,
+      "utterance_type": "assessment",
+      "decision_link": "none",
+      "timing": "original_pitch",
+      "turn_index": 100,
+      "quote": "helping you to make some of those decisions.",
+      "explanation": "Indicates that she can contribute guidance on the company's unresolved strategic choices.",
+      "evidence": [
+        "helping you to make some of those decisions."
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 100,
+          "speaker": "Jillian",
+          "quote": "helping you to make some of those decisions."
+        }
+      ],
+      "activation": "evaluated",
+      "source_rationale_id": "R10",
+      "utterance_kind": "supporting_argument",
+      "decision_support": "none",
+      "all_mention_ids": [
+        "R10"
+      ]
+    },
+    {
+      "rationale_label": "mission_alignment_preference",
+      "direction": "positive",
+      "salience": "primary",
+      "confidence": 0.97,
+      "utterance_type": "decision_reason",
+      "decision_link": "explicit",
+      "timing": "original_pitch",
+      "turn_index": 98,
+      "quote": "this has both the values that I look for. Along with elevating communities, creating more transparency.",
+      "explanation": "Explicitly links the commitment to personal alignment with the company's community and transparency mission.",
+      "evidence": [
+        "this has both the values that I look for. Along with elevating communities, creating more transparency."
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 98,
+          "speaker": "Jillian",
+          "quote": "this has both the values that I look for. Along with elevating communities, creating more transparency."
+        }
+      ],
+      "activation": "evaluated",
+      "source_rationale_id": "R9",
+      "utterance_kind": "decision_explanation",
+      "decision_support": "supports_in",
+      "all_mention_ids": [
+        "R9"
+      ]
+    },
+    {
+      "rationale_label": "solution_feasibility_assessment",
+      "direction": "positive",
+      "salience": "primary",
+      "confidence": 0.93,
+      "utterance_type": "decision_reason",
+      "decision_link": "explicit",
+      "timing": "original_pitch",
+      "turn_index": 98,
+      "quote": "With their help, and their contacts, um, I think you're good.",
+      "explanation": "Links her investment to confidence that Berkadia's assistance and network can help resolve the company's open challenges.",
+      "evidence": [
+        "if you can have one sort of halo anchor partner, right, to help you build the product",
+        "With their help, and their contacts, um, I think you're good."
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 67,
+          "speaker": "Jillian",
+          "quote": "if you can have one sort of halo anchor partner, right, to help you build the product"
+        },
+        {
+          "turn_index": 98,
+          "speaker": "Jillian",
+          "quote": "With their help, and their contacts, um, I think you're good."
+        }
+      ],
+      "activation": "evaluated",
+      "source_rationale_id": "R7",
+      "utterance_kind": "decision_explanation",
+      "decision_support": "supports_in",
+      "all_mention_ids": [
+        "R2",
+        "R3",
+        "R4",
+        "R7",
+        "R13"
+      ]
+    }
+  ],
+  "later_rationales": [
+    {
+      "rationale_label": "business_viability_concern",
+      "direction": "negative",
+      "salience": "primary",
+      "confidence": 0.95,
+      "utterance_type": "decision_explanation",
+      "decision_link": "supports_out",
+      "timing": "later_commentary",
+      "turn_index": 127,
+      "quote": "I've just stopped on companies that I do not see the clarity and a clear opportunity, the clarity of the product.",
+      "explanation": "Explains that she is no longer investing where the product and business opportunity lack sufficient clarity.",
+      "evidence": [
+        "I've just stopped on companies that I do not see the clarity and a clear opportunity, the clarity of the product."
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 127,
+          "speaker": "Jillian",
+          "quote": "I've just stopped on companies that I do not see the clarity and a clear opportunity, the clarity of the product."
+        }
+      ],
+      "activation": "evaluated",
+      "source_rationale_id": "R15"
+    },
+    {
+      "rationale_label": "founder_qualities",
+      "direction": "positive",
+      "salience": "secondary",
+      "confidence": 0.9,
+      "utterance_type": "assessment",
+      "decision_link": "none",
+      "timing": "later_commentary",
+      "turn_index": 133,
+      "quote": "I really like him a lot.",
+      "explanation": "Expresses a favorable personal assessment of the founder despite withholding the investment.",
+      "evidence": [
+        "I really like him a lot."
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 133,
+          "speaker": "Jillian",
+          "quote": "I really like him a lot."
+        }
+      ],
+      "activation": "evaluated",
+      "source_rationale_id": "R16"
+    },
+    {
+      "rationale_label": "business_viability_concern",
+      "direction": "negative",
+      "salience": "primary",
+      "confidence": 0.97,
+      "utterance_type": "decision_explanation",
+      "decision_link": "supports_out",
+      "timing": "later_commentary",
+      "turn_index": 135,
+      "quote": "the business is yet to understand what it wants to be. I think that ofo is trying to serve both sides here and I don't feel that we understand the, the big product yet.",
+      "explanation": "Says the company's unresolved identity, two-sided focus, and unclear core product undermine confidence in its viability.",
+      "evidence": [
+        "the business is yet to understand what it wants to be. I think that ofo is trying to serve both sides here and I don't feel that we understand the, the big product yet."
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 135,
+          "speaker": "Jillian",
+          "quote": "the business is yet to understand what it wants to be. I think that ofo is trying to serve both sides here and I don't feel that we understand the, the big product yet."
+        }
+      ],
+      "activation": "evaluated",
+      "source_rationale_id": "R17"
+    },
+    {
+      "rationale_label": "business_viability_concern",
+      "direction": "negative",
+      "salience": "primary",
+      "confidence": 0.94,
+      "utterance_type": "decision_explanation",
+      "decision_link": "supports_out",
+      "timing": "later_commentary",
+      "turn_index": 137,
+      "quote": "with ofo I couldn't see how I could reverse engineer because I didn't really know what the finish line is looking like.",
+      "explanation": "Could not identify a sufficiently clear future business state from which to evaluate the company's path.",
+      "evidence": [
+        "with ofo I couldn't see how I could reverse engineer because I didn't really know what the finish line is looking like."
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 137,
+          "speaker": "Jillian",
+          "quote": "with ofo I couldn't see how I could reverse engineer because I didn't really know what the finish line is looking like."
+        }
+      ],
+      "activation": "evaluated",
+      "source_rationale_id": "R18"
+    },
+    {
+      "rationale_label": "decision_context_constraint",
+      "direction": "negative",
+      "salience": "primary",
+      "confidence": 0.96,
+      "utterance_type": "decision_explanation",
+      "decision_link": "supports_out",
+      "timing": "later_commentary",
+      "turn_index": 141,
+      "quote": "I, I think the coronavirus.",
+      "explanation": "Attributes the reversal of her investment commitment to the changed external context created by the coronavirus.",
+      "evidence": [
+        "I, I think the coronavirus."
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 141,
+          "speaker": "Jillian",
+          "quote": "I, I think the coronavirus."
+        }
+      ],
+      "activation": "evaluated",
+      "source_rationale_id": "R19"
+    }
+  ],
+  "excluded_rationales": [],
+  "rationale_mentions": [
+    {
+      "rationale_label": "investment_upside_assessment",
+      "direction": "neutral",
+      "salience": "secondary",
+      "confidence": 0.9,
+      "utterance_type": "question",
+      "decision_link": "none",
+      "timing": "original_pitch",
+      "turn_index": 59,
+      "quote": "What’s the endgame here?",
+      "explanation": "Asks what long-term outcome or destination could make the opportunity valuable.",
+      "evidence": [
+        "What’s the endgame here?"
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 59,
+          "speaker": "Jillian",
+          "quote": "What’s the endgame here?"
+        }
+      ],
+      "activation": "queried",
+      "source_rationale_id": "R1"
+    },
+    {
+      "rationale_label": "solution_feasibility_assessment",
+      "direction": "neutral",
+      "salience": "secondary",
+      "confidence": 0.86,
+      "utterance_type": "question",
+      "decision_link": "none",
+      "timing": "original_pitch",
+      "turn_index": 61,
+      "quote": "Can you expand a bit more if possible on your partnership with Berkadia.",
+      "explanation": "Seeks details about the strategic partner's role in making the proposed solution viable.",
+      "evidence": [
+        "Can you expand a bit more if possible on your partnership with Berkadia."
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 61,
+          "speaker": "Jillian",
+          "quote": "Can you expand a bit more if possible on your partnership with Berkadia."
+        }
+      ],
+      "activation": "queried",
+      "source_rationale_id": "R2"
+    },
+    {
+      "rationale_label": "solution_feasibility_assessment",
+      "direction": "neutral",
+      "salience": "secondary",
+      "confidence": 0.81,
+      "utterance_type": "question",
+      "decision_link": "none",
+      "timing": "original_pitch",
+      "turn_index": 65,
+      "quote": "So they're going to help you, they're helping you....",
+      "explanation": "Clarifies whether Berkadia is actively helping the company build its product.",
+      "evidence": [
+        "So they're going to help you, they're helping you...."
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 65,
+          "speaker": "Jillian",
+          "quote": "So they're going to help you, they're helping you...."
+        }
+      ],
+      "activation": "queried",
+      "source_rationale_id": "R3"
+    },
+    {
+      "rationale_label": "solution_feasibility_assessment",
+      "direction": "positive",
+      "salience": "primary",
+      "confidence": 0.95,
+      "utterance_type": "supporting_argument",
+      "decision_link": "none",
+      "timing": "original_pitch",
+      "turn_index": 67,
+      "quote": "if you can have one sort of halo anchor partner, right, to help you build the product",
+      "explanation": "Regards an anchor partner that helps build the product as a strong validation and execution mechanism.",
+      "evidence": [
+        "if you can have one sort of halo anchor partner, right, to help you build the product"
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 67,
+          "speaker": "Jillian",
+          "quote": "if you can have one sort of halo anchor partner, right, to help you build the product"
+        }
+      ],
+      "activation": "evaluated",
+      "source_rationale_id": "R4"
+    },
+    {
+      "rationale_label": "go_to_market_strategy_assessment",
+      "direction": "neutral",
+      "salience": "secondary",
+      "confidence": 0.74,
+      "utterance_type": "supporting_argument",
+      "decision_link": "none",
+      "timing": "original_pitch",
+      "turn_index": 72,
+      "quote": "Welcome everyone on.",
+      "explanation": "Advocates broadly onboarding participants as part of the proposed route to scale.",
+      "evidence": [
+        "Welcome everyone on."
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 72,
+          "speaker": "Jillian",
+          "quote": "Welcome everyone on."
+        }
+      ],
+      "activation": "evaluated",
+      "source_rationale_id": "R5"
+    },
+    {
+      "rationale_label": "business_model_assessment",
+      "direction": "negative",
+      "salience": "primary",
+      "confidence": 0.98,
+      "utterance_type": "assessment",
+      "decision_link": "none",
+      "timing": "original_pitch",
+      "turn_index": 79,
+      "quote": "one dollar seems ridicu -- it’s just not right You either do free or you do something considerable.",
+      "explanation": "Rejects the one-dollar price point as an ineffective middle ground between free distribution and substantial monetization.",
+      "evidence": [
+        "one dollar seems ridicu -- it’s just not right You either do free or you do something considerable."
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 79,
+          "speaker": "Jillian",
+          "quote": "one dollar seems ridicu -- it’s just not right You either do free or you do something considerable."
+        }
+      ],
+      "activation": "evaluated",
+      "source_rationale_id": "R6"
+    },
+    {
+      "rationale_label": "solution_feasibility_assessment",
+      "direction": "positive",
+      "salience": "primary",
+      "confidence": 0.93,
+      "utterance_type": "decision_explanation",
+      "decision_link": "supports_in",
+      "timing": "original_pitch",
+      "turn_index": 98,
+      "quote": "With their help, and their contacts, um, I think you're good.",
+      "explanation": "Links her investment to confidence that Berkadia's assistance and network can help resolve the company's open challenges.",
+      "evidence": [
+        "With their help, and their contacts, um, I think you're good."
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 98,
+          "speaker": "Jillian",
+          "quote": "With their help, and their contacts, um, I think you're good."
+        }
+      ],
+      "activation": "evaluated",
+      "source_rationale_id": "R7"
+    },
+    {
+      "rationale_label": "founder_qualities",
+      "direction": "positive",
+      "salience": "secondary",
+      "confidence": 0.91,
+      "utterance_type": "decision_explanation",
+      "decision_link": "supports_in",
+      "timing": "original_pitch",
+      "turn_index": 98,
+      "quote": "I think you know what you're doing.",
+      "explanation": "Expresses confidence in the founder's judgment as part of her investment explanation.",
+      "evidence": [
+        "I think you know what you're doing."
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 98,
+          "speaker": "Jillian",
+          "quote": "I think you know what you're doing."
+        }
+      ],
+      "activation": "evaluated",
+      "source_rationale_id": "R8"
+    },
+    {
+      "rationale_label": "mission_alignment_preference",
+      "direction": "positive",
+      "salience": "primary",
+      "confidence": 0.97,
+      "utterance_type": "decision_explanation",
+      "decision_link": "supports_in",
+      "timing": "original_pitch",
+      "turn_index": 98,
+      "quote": "this has both the values that I look for. Along with elevating communities, creating more transparency.",
+      "explanation": "Explicitly links the commitment to personal alignment with the company's community and transparency mission.",
+      "evidence": [
+        "this has both the values that I look for. Along with elevating communities, creating more transparency."
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 98,
+          "speaker": "Jillian",
+          "quote": "this has both the values that I look for. Along with elevating communities, creating more transparency."
+        }
+      ],
+      "activation": "evaluated",
+      "source_rationale_id": "R9"
+    },
+    {
+      "rationale_label": "investor_value_add_fit",
+      "direction": "positive",
+      "salience": "secondary",
+      "confidence": 0.9,
+      "utterance_type": "supporting_argument",
+      "decision_link": "none",
+      "timing": "original_pitch",
+      "turn_index": 100,
+      "quote": "helping you to make some of those decisions.",
+      "explanation": "Indicates that she can contribute guidance on the company's unresolved strategic choices.",
+      "evidence": [
+        "helping you to make some of those decisions."
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 100,
+          "speaker": "Jillian",
+          "quote": "helping you to make some of those decisions."
+        }
+      ],
+      "activation": "evaluated",
+      "source_rationale_id": "R10"
+    },
+    {
+      "rationale_label": "business_model_assessment",
+      "direction": "negative",
+      "salience": "primary",
+      "confidence": 0.97,
+      "utterance_type": "assessment",
+      "decision_link": "none",
+      "timing": "original_pitch",
+      "turn_index": 110,
+      "quote": "he, he’s not a SaaS company",
+      "explanation": "Concludes that the company's current business does not yet support its claimed SaaS identity.",
+      "evidence": [
+        "he, he’s not a SaaS company"
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 110,
+          "speaker": "Jillian",
+          "quote": "he, he’s not a SaaS company"
+        }
+      ],
+      "activation": "evaluated",
+      "source_rationale_id": "R11"
+    },
+    {
+      "rationale_label": "founder_execution",
+      "direction": "positive",
+      "salience": "secondary",
+      "confidence": 0.92,
+      "utterance_type": "supporting_argument",
+      "decision_link": "none",
+      "timing": "original_pitch",
+      "turn_index": 110,
+      "quote": "that is not a small feat gaining their partnership.",
+      "explanation": "Treats securing the Berkadia partnership as meaningful evidence of the founder's execution ability.",
+      "evidence": [
+        "that is not a small feat gaining their partnership."
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 110,
+          "speaker": "Jillian",
+          "quote": "that is not a small feat gaining their partnership."
+        }
+      ],
+      "activation": "evaluated",
+      "source_rationale_id": "R12"
+    },
+    {
+      "rationale_label": "solution_feasibility_assessment",
+      "direction": "neutral",
+      "salience": "secondary",
+      "confidence": 0.87,
+      "utterance_type": "concern",
+      "decision_link": "none",
+      "timing": "original_pitch",
+      "turn_index": 110,
+      "quote": "I need to understand that more and what they’re going to do.",
+      "explanation": "Identifies Berkadia's precise contribution to building the solution as an unresolved diligence question.",
+      "evidence": [
+        "I need to understand that more and what they’re going to do."
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 110,
+          "speaker": "Jillian",
+          "quote": "I need to understand that more and what they’re going to do."
+        }
+      ],
+      "activation": "evaluated",
+      "source_rationale_id": "R13"
+    },
+    {
+      "rationale_label": "investor_experience_bias",
+      "direction": "positive",
+      "salience": "primary",
+      "confidence": 0.94,
+      "utterance_type": "supporting_argument",
+      "decision_link": "none",
+      "timing": "original_pitch",
+      "turn_index": 110,
+      "quote": "a lot of these companies, I have two right now, they have an anchor, they’re building it out, and that anchor’s going to buy them.",
+      "explanation": "Uses her experience with existing anchor-backed portfolio companies to support a credible partner-led acquisition path.",
+      "evidence": [
+        "a lot of these companies, I have two right now, they have an anchor, they’re building it out, and that anchor’s going to buy them."
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 110,
+          "speaker": "Jillian",
+          "quote": "a lot of these companies, I have two right now, they have an anchor, they’re building it out, and that anchor’s going to buy them."
+        }
+      ],
+      "activation": "evaluated",
+      "source_rationale_id": "R14"
+    }
+  ],
+  "expanded_quote_evidence": [],
+  "rejected_after_evidence_check": []
+}

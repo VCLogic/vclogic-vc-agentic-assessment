@@ -2,7 +2,9 @@
 
 from __future__ import annotations
 
-from dataclasses import asdict
+import json
+
+from dataclasses import asdict, replace
 from typing import Any
 
 from langgraph.checkpoint.base import BaseCheckpointSaver
@@ -26,6 +28,7 @@ from .prompts_v4 import (
     taxonomy_reflection_v4_prompt,
     pitch_evidence_index,
 )
+from .policy import commitment_findings, policy_bundle, policy_instructions, comparison_findings, exception_findings, applicability_findings
 from .providers.base import GenerationProvider, GenerationRequest
 from .retrieval import HybridWikiIndex
 from .retrieval_v4 import V4RetrievalResult, retrieve_v4
@@ -293,6 +296,18 @@ class VCDecisionWorkflowV4:
         self.is_v5 = settings.contract_version == "v5"
         self.is_v41 = settings.contract_version in {"v4.1", "v4.2", "v4.3"}
         self.index = index
+        self.policy = policy_bundle(index) if settings.policy_summary else {"coverage": {}, "evidence": []}
+        self.policy['target_context'] = {
+            'episode_slug': settings.episode_slug,
+            'investor_name': settings.investor_name,
+            'role_and_era': 'Not independently established by the runtime; do not equate the current wiki firm with the target episode firm.',
+        }
+        summaries = precedent_corpus.list_episodes() if precedent_corpus else ()
+        self.policy['historical_coverage'] = {
+            'accessible': len(summaries),
+            'In': sum(row.decision_status == 'In' for row in summaries),
+            'Out': sum(row.decision_status == 'Out' for row in summaries),
+        }
         self.precedent_corpus = precedent_corpus
         self.portfolio_index = portfolio_index
         if settings.portfolio_memory_enabled:
@@ -303,6 +318,10 @@ class VCDecisionWorkflowV4:
         self.taxonomy = model_facing_taxonomy(settings.taxonomy_records)
         self.taxonomy_labels = {row["label"] for row in self.taxonomy}
         settings.run_root.mkdir(parents=True, exist_ok=True)
+        write_json(settings.run_root / "assessment-policy.json", {
+            "settings": {name: getattr(settings, name) for name in ("policy_summary", "fact_policy_comparison", "exception_evidence")},
+            **self.policy,
+        })
         self.graph = self._build().compile(checkpointer=checkpointer)
         self.phase2_graph = self._build_phase2().compile(checkpointer=checkpointer)
 
@@ -343,6 +362,7 @@ class VCDecisionWorkflowV4:
     ) -> tuple[RetrievalPlanV4 | None, list[Any], list[str]]:
         results: list[Any] = []
         findings: list[str] = []
+        prompt += "\nReturn compact complete JSON: each question/query at most 300 characters. No repeated padding or invisible control characters. Search only facts available in the supplied corpus; new private diligence cannot be retrieved."
         current_prompt = prompt
         prefix = artifact_phase.upper()
         for attempt in (1, 2):
@@ -477,6 +497,11 @@ or directional control characters. This is the only repair attempt.
             in_slots=self.settings.precedent_in_slots,
             out_slots=self.settings.precedent_out_slots,
         )
+        if self.settings.policy_summary:
+            by_id = {row["evidence_id"]: row for row in result.wiki_evidence}
+            for row in self.policy["evidence"]:
+                by_id.setdefault(row["evidence_id"], row)
+            result = replace(result, wiki_evidence=tuple(by_id.values()))
         directory = self.settings.run_root / phase / f"turn-{turn:02d}"
         historical_by_id = {
             row["evidence_id"]: row
@@ -601,6 +626,9 @@ or directional control characters. This is the only repair attempt.
         if len(rationale_ids) != len(set(rationale_ids)):
             findings.append("DUPLICATE_RATIONALE_IDS")
         if isinstance(candidate, InvestigationV41):
+            if self.settings.fact_policy_comparison:
+                findings.extend(comparison_findings(candidate, self.policy))
+                findings.extend(applicability_findings(candidate.constraint_assessments, registry))
             expected = pitch_ids
             reviewed = set(candidate.reviewed_pitch_evidence_ids)
             for evidence_id in sorted(expected - reviewed):
@@ -659,6 +687,11 @@ or directional control characters. This is the only repair attempt.
             retrieval.warnings,
             state.get("phase1_portfolio_candidates", []),
         )
+        prompt += "\n\n" + policy_instructions(self.settings, self.policy)
+        unresolved = [f for f in state.get("phase2_findings", []) if f.startswith(("COMMITMENT_", "EXCEPTION_MISSING_"))]
+        if unresolved:
+            prompt += "\nPrior commitment validation findings (resolve using evidence; do not merely assert support): " + json.dumps(unresolved)
+        prompt += "\nSEARCH SUFFICIENCY: Distinguish corpus-searchable facts from private diligence. After the same sources and question recur without new evidence, report that limitation; do not promise a different answer from repeating the same search. Missing diligence does not require information_sufficient=false when the available corpus has been exhausted."
         schema_builder = (
             investigation_v41_json_schema
             if self.is_v41
@@ -758,6 +791,7 @@ or directional control characters. This is the only repair attempt.
             item
             for item in (structural if candidate is not None else [])
             if item.startswith("PITCH_REVIEW_COVERAGE_")
+            or item.startswith("POLICY_COMPARISON_MISSING:")
             or item.startswith("PORTFOLIO_OVERLAP_MISSING:")
             or item.startswith("INACCESSIBLE_PORTFOLIO_")
         ]
@@ -771,6 +805,7 @@ or directional control characters. This is the only repair attempt.
             findings.append("PHASE1_NO_NOVELTY_STOP")
             action = "freeze_provisional"
         elif cap and selected is not None:
+            findings.append("PHASE2_ITERATION_LIMIT")
             action = "freeze_provisional"
         elif selected is not None:
             action = "revisit"
@@ -1240,6 +1275,12 @@ or directional control characters. This is the only repair attempt.
                 findings.append(
                     f"FOUNDER_EXCEPTION_PRECEDENT_NOT_IN:{evidence_id}"
                 )
+        if self.settings.fact_policy_comparison and isinstance(candidate, DecisionV41):
+            findings.extend(commitment_findings(candidate, state['investigation'], registry, check_exceptions=self.settings.exception_evidence))
+        if self.settings.fact_policy_comparison:
+            findings.extend(applicability_findings(state['investigation'].get('constraint_assessments', []), registry))
+        if self.settings.exception_evidence:
+            findings.extend(exception_findings(candidate, state["investigation"], registry))
         if isinstance(candidate, DecisionV41):
             investigation_payload = state["investigation"]
             if investigation_payload.get("schema_version") == "investigation-v5":
@@ -1315,6 +1356,11 @@ or directional control characters. This is the only repair attempt.
             state.get("rationale_association_annotations"),
             state.get("rehearsal_context"),
         )
+        prompt += "\n\n" + policy_instructions(self.settings, self.policy)
+        unresolved = [f for f in state.get("phase2_findings", []) if f.startswith(("COMMITMENT_", "EXCEPTION_MISSING_"))]
+        if unresolved:
+            prompt += "\nPrior commitment validation findings (resolve using evidence; do not merely assert support): " + json.dumps(unresolved)
+        prompt += "\nSEARCH SUFFICIENCY: Distinguish corpus-searchable facts from private diligence. After the same sources and question recur without new evidence, report that limitation; do not promise a different answer from repeating the same search. Missing diligence does not require information_sufficient=false when the available corpus has been exhausted."
         schema_builder = (
             decision_v41_json_schema if self.is_v41 else decision_v4_json_schema
         )
@@ -1372,6 +1418,7 @@ or directional control characters. This is the only repair attempt.
                 if item in {"EPISODE_SLUG_MISMATCH", "INVESTIGATION_SHA256_MISMATCH"}
                 or item.startswith("UNKNOWN_CONTROLLING_RATIONALE:")
                 or item.startswith("UNKNOWN_FOUNDER_EXCEPTION_RATIONALE:")
+                or item.startswith("EXCEPTION_MISSING_")
             ]
             if blockers:
                 raise ValueError("; ".join(blockers))
@@ -1446,19 +1493,25 @@ or directional control characters. This is the only repair attempt.
             if item.startswith("IN_CONFLICTS_WITH_TRIGGERED_HARD_CONSTRAINT:")
             or item.startswith("CONSTRAINT_BINDING_MISMATCH:")
             or item.startswith("FOUNDER_EXCEPTION_PRECEDENT_NOT_IN:")
+            or item.startswith("POLICY_APPLICABILITY_UNESTABLISHED:")
+            or item.startswith("COMMITMENT_")
+            or item.startswith("EXCEPTION_MISSING_")
         ]
         if can_reopen:
             action = "reopen_phase1"
         elif (
             candidate is not None
             and candidate.information_sufficient
+            and not no_novelty_reversal
             and not guardrail_blockers
         ):
             action = "freeze_accepted"
         elif repeated and selected is not None:
             findings.append("PHASE2_NO_NOVELTY_STOP")
+            findings.append("PHASE2_CORPUS_SEARCH_EXHAUSTED")
             action = "freeze_provisional"
         elif cap and selected is not None:
+            findings.append("PHASE2_ITERATION_LIMIT")
             action = "freeze_provisional"
         elif selected is not None:
             action = "revisit"
@@ -1725,6 +1778,11 @@ or directional control characters. This is the only repair attempt.
             "phase2_status": result.get("phase2_status"),
             "phase2_iterations": result.get("phase2_iteration"),
             "phase2_findings": result.get("phase2_findings", []),
+            "phase2_stop_reason": (
+                "corpus_search_exhausted" if "PHASE2_CORPUS_SEARCH_EXHAUSTED" in result.get("phase2_findings", [])
+                else "iteration_limit" if "PHASE2_ITERATION_LIMIT" in result.get("phase2_findings", [])
+                else result.get("phase2_action")
+            ),
             "usage": result.get("usage", {}),
             "usage_by_phase": result.get("usage_by_phase", {}),
             "decision": result.get("decision", {}),

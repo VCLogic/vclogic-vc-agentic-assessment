@@ -1,0 +1,14 @@
+[
+  {
+    "test": "source_id_link_without_company_alias_in_derived_claim",
+    "expected": "Remove target source and evidence/summary derived from it",
+    "source_hidden": true,
+    "decision_paraphrase_survives": true,
+    "derived_summary_survives": true,
+    "visible_text": {
+      "evidence.md": "# Investment policy\n\n[ev:test-1] label=stage_valuation_mismatch source=full:target-episode\nShe declined because the asking price was too high.",
+      "persona.md": "# Policy\nShe rejects expensive versions of this product. [ev:test-1]",
+      "sources.md": "[Source section excluded for held-out evaluation.]"
+    }
+  }
+]

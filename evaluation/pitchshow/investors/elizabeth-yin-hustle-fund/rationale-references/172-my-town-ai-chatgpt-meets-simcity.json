@@ -1,0 +1,1012 @@
+{
+  "schema": "phase1-rationale-reference-v1",
+  "extraction_version": "pitchshow-rationales-v1",
+  "fingerprint": "7a9e0d25980d71bebd03680f415a63ba3da78e2388e03aeee096fee09e1bed57",
+  "episode_slug": "172-my-town-ai-chatgpt-meets-simcity",
+  "vc_slug": "elizabeth-yin-hustle-fund",
+  "vc_name": "Elizabeth Yin",
+  "actual_decision": "Out",
+  "later_decision": "Unknown",
+  "reference_kind": "automated_transcript_observed_candidate",
+  "human_validated": false,
+  "source_format": "transcript-observed-rationales-v1",
+  "source_path": "../source/episodes/172-my-town-ai-chatgpt-meets-simcity.json",
+  "source_sha256": "32ad84014e0af4a230d88f7236da0d2ed1a877f642ce9f7474872ac4579c6341",
+  "transcript_sha256": "8870eaa87bb21878d1c17c654bea9fdfb162ce953c8d0ee0d8e97579557a6632",
+  "taxonomy_sha256": "eaa8734819a3ac34dd19ee5f0bf6de925a793a1d25a2d361090dafc9b751e1fc",
+  "model": "openai/gpt-5.6-luna",
+  "source_tier": "newly_extracted_and_independently_model_reviewed",
+  "reviewed_target_turns": [
+    23,
+    30,
+    40,
+    59,
+    64,
+    76,
+    90,
+    92,
+    94,
+    109,
+    116,
+    128,
+    140,
+    149,
+    151,
+    158,
+    160,
+    162,
+    168,
+    170,
+    174,
+    176,
+    178,
+    184,
+    187,
+    193,
+    202,
+    218,
+    224,
+    230,
+    235,
+    240,
+    249,
+    263,
+    265,
+    268
+  ],
+  "notes": "All supplied target turns were reviewed. Non-rationale turns were excluded, including greetings, jokes, simple confirmations, and closing remarks.",
+  "receipt_path": "receipts/172-my-town-ai-chatgpt-meets-simcity.json",
+  "scoring_scope": "original_pitch_only",
+  "shared_across_input_modes": true,
+  "rationales": [
+    {
+      "rationale_label": "business_model_assessment",
+      "direction": "negative",
+      "salience": "secondary",
+      "confidence": 0.95,
+      "utterance_type": "assessment",
+      "decision_link": "none",
+      "timing": "original_pitch",
+      "turn_index": 174,
+      "quote": "even if you're getting a lot of cities, you're not getting up to that level.",
+      "explanation": "She believes the low monetization per city may prevent broad customer acquisition from producing sufficient revenue.",
+      "evidence": [
+        "even if you're getting a lot of cities, you're not getting up to that level."
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 174,
+          "speaker": "Elizabeth",
+          "quote": "even if you're getting a lot of cities, you're not getting up to that level."
+        }
+      ],
+      "activation": "evaluated",
+      "source_rationale_id": "R14",
+      "utterance_kind": "assessment",
+      "decision_support": "none",
+      "all_mention_ids": [
+        "R14"
+      ]
+    },
+    {
+      "rationale_label": "business_viability_concern",
+      "direction": "negative",
+      "salience": "primary",
+      "confidence": 0.98,
+      "utterance_type": "decision_reason",
+      "decision_link": "explicit",
+      "timing": "original_pitch",
+      "turn_index": 235,
+      "quote": "The struggle is, you are awesome and I absolutely can see this vision and it's a real need. I think I'm still struggling with sort of, I call it the money puzzle of getting your revenue high enough",
+      "explanation": "Despite liking the founder and problem, she identifies unresolved revenue and next-round financing economics as her reason for opting out.",
+      "evidence": [
+        "this is where I feel like there's this puzzle that needs to kind of be solved around the fundraising, the revenue",
+        "The struggle is, you are awesome and I absolutely can see this vision and it's a real need. I think I'm still struggling with sort of, I call it the money puzzle of getting your revenue high enough"
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 174,
+          "speaker": "Elizabeth",
+          "quote": "this is where I feel like there's this puzzle that needs to kind of be solved around the fundraising, the revenue"
+        },
+        {
+          "turn_index": 235,
+          "speaker": "Elizabeth",
+          "quote": "The struggle is, you are awesome and I absolutely can see this vision and it's a real need. I think I'm still struggling with sort of, I call it the money puzzle of getting your revenue high enough"
+        }
+      ],
+      "activation": "evaluated",
+      "source_rationale_id": "R20",
+      "utterance_kind": "decision_explanation",
+      "decision_support": "supports_out",
+      "all_mention_ids": [
+        "R15",
+        "R20"
+      ]
+    },
+    {
+      "rationale_label": "capital_intensity_concern",
+      "direction": "neutral",
+      "salience": "secondary",
+      "confidence": 0.94,
+      "utterance_type": "question",
+      "decision_link": "none",
+      "timing": "original_pitch",
+      "turn_index": 168,
+      "quote": "What do you think your burn rate will go up to after this round?",
+      "explanation": "She probes expected post-financing capital consumption.",
+      "evidence": [
+        "What do you think your burn rate will go up to after this round?"
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 168,
+          "speaker": "Elizabeth",
+          "quote": "What do you think your burn rate will go up to after this round?"
+        }
+      ],
+      "activation": "queried",
+      "source_rationale_id": "R11",
+      "utterance_kind": "question",
+      "decision_support": "none",
+      "all_mention_ids": [
+        "R11"
+      ]
+    },
+    {
+      "rationale_label": "execution_risk_assessment",
+      "direction": "neutral",
+      "salience": "secondary",
+      "confidence": 0.84,
+      "utterance_type": "question",
+      "decision_link": "none",
+      "timing": "original_pitch",
+      "turn_index": 162,
+      "quote": "When did you start this company?",
+      "explanation": "She asks about company age as context for assessing execution maturity.",
+      "evidence": [
+        "When did you start this company?"
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 162,
+          "speaker": "Elizabeth",
+          "quote": "When did you start this company?"
+        }
+      ],
+      "activation": "queried",
+      "source_rationale_id": "R10",
+      "utterance_kind": "question",
+      "decision_support": "none",
+      "all_mention_ids": [
+        "R10"
+      ]
+    },
+    {
+      "rationale_label": "founder_market_fit",
+      "direction": "neutral",
+      "salience": "secondary",
+      "confidence": 0.9,
+      "utterance_type": "question",
+      "decision_link": "none",
+      "timing": "original_pitch",
+      "turn_index": 128,
+      "quote": "What were you doing prior to becoming a city council member?",
+      "explanation": "She seeks background relevant to the founder's fit for the local-government market.",
+      "evidence": [
+        "What were you doing prior to becoming a city council member?"
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 128,
+          "speaker": "Elizabeth",
+          "quote": "What were you doing prior to becoming a city council member?"
+        }
+      ],
+      "activation": "queried",
+      "source_rationale_id": "R5",
+      "utterance_kind": "question",
+      "decision_support": "none",
+      "all_mention_ids": [
+        "R5"
+      ]
+    },
+    {
+      "rationale_label": "founder_qualities",
+      "direction": "positive",
+      "salience": "secondary",
+      "confidence": 0.93,
+      "utterance_type": "assessment",
+      "decision_link": "none",
+      "timing": "original_pitch",
+      "turn_index": 235,
+      "quote": "you are awesome",
+      "explanation": "Elizabeth positively assesses the founder's personal qualities.",
+      "evidence": [
+        "you are awesome"
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 235,
+          "speaker": "Elizabeth",
+          "quote": "you are awesome"
+        }
+      ],
+      "activation": "evaluated",
+      "source_rationale_id": "R18",
+      "utterance_kind": "assessment",
+      "decision_support": "none",
+      "all_mention_ids": [
+        "R18"
+      ]
+    },
+    {
+      "rationale_label": "go_to_market_strategy_assessment",
+      "direction": "neutral",
+      "salience": "secondary",
+      "confidence": 0.94,
+      "utterance_type": "question",
+      "decision_link": "none",
+      "timing": "original_pitch",
+      "turn_index": 168,
+      "quote": "Are you gonna put any towards lead gen, customer acquisition, stuff like that?",
+      "explanation": "She asks whether the financing will fund customer acquisition as well as product development.",
+      "evidence": [
+        "Who ends up buying this within a city? Like what is that process?",
+        "What do you think your customer acquisition looks like in the future?",
+        "how do you think about getting more leads?",
+        "Are you gonna put any towards lead gen, customer acquisition, stuff like that?"
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 140,
+          "speaker": "Elizabeth",
+          "quote": "Who ends up buying this within a city? Like what is that process?"
+        },
+        {
+          "turn_index": 158,
+          "speaker": "Elizabeth",
+          "quote": "What do you think your customer acquisition looks like in the future?"
+        },
+        {
+          "turn_index": 160,
+          "speaker": "Elizabeth",
+          "quote": "how do you think about getting more leads?"
+        },
+        {
+          "turn_index": 168,
+          "speaker": "Elizabeth",
+          "quote": "Are you gonna put any towards lead gen, customer acquisition, stuff like that?"
+        }
+      ],
+      "activation": "queried",
+      "source_rationale_id": "R12",
+      "utterance_kind": "question",
+      "decision_support": "none",
+      "all_mention_ids": [
+        "R6",
+        "R8",
+        "R9",
+        "R12"
+      ]
+    },
+    {
+      "rationale_label": "growth_projection_risk",
+      "direction": "negative",
+      "salience": "secondary",
+      "confidence": 0.94,
+      "utterance_type": "assessment",
+      "decision_link": "none",
+      "timing": "original_pitch",
+      "turn_index": 178,
+      "quote": "at least half a million revenue run rate, if not more.",
+      "explanation": "She sets a materially higher revenue threshold for the next round and ties it to growth trajectory.",
+      "evidence": [
+        "at least half a million revenue run rate, if not more."
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 178,
+          "speaker": "Elizabeth",
+          "quote": "at least half a million revenue run rate, if not more."
+        }
+      ],
+      "activation": "evaluated",
+      "source_rationale_id": "R16",
+      "utterance_kind": "assessment",
+      "decision_support": "none",
+      "all_mention_ids": [
+        "R13",
+        "R16"
+      ]
+    },
+    {
+      "rationale_label": "market_problem_validation",
+      "direction": "positive",
+      "salience": "secondary",
+      "confidence": 0.95,
+      "utterance_type": "assessment",
+      "decision_link": "none",
+      "timing": "original_pitch",
+      "turn_index": 235,
+      "quote": "it's a real need",
+      "explanation": "She explicitly recognizes that the company addresses a genuine market need.",
+      "evidence": [
+        "it's a real need"
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 235,
+          "speaker": "Elizabeth",
+          "quote": "it's a real need"
+        }
+      ],
+      "activation": "evaluated",
+      "source_rationale_id": "R19",
+      "utterance_kind": "assessment",
+      "decision_support": "none",
+      "all_mention_ids": [
+        "R19"
+      ]
+    },
+    {
+      "rationale_label": "product_adoption",
+      "direction": "neutral",
+      "salience": "secondary",
+      "confidence": 0.94,
+      "utterance_type": "question",
+      "decision_link": "none",
+      "timing": "original_pitch",
+      "turn_index": 116,
+      "quote": "Right now, how many towns are you working with?",
+      "explanation": "She asks for the current number of towns using or piloting the product.",
+      "evidence": [
+        "Is that your town or is that somewhere else?",
+        "Right now, how many towns are you working with?"
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 40,
+          "speaker": "Elizabeth",
+          "quote": "Is that your town or is that somewhere else?"
+        },
+        {
+          "turn_index": 116,
+          "speaker": "Elizabeth",
+          "quote": "Right now, how many towns are you working with?"
+        }
+      ],
+      "activation": "queried",
+      "source_rationale_id": "R4",
+      "utterance_kind": "question",
+      "decision_support": "none",
+      "all_mention_ids": [
+        "R1",
+        "R4"
+      ]
+    },
+    {
+      "rationale_label": "product_differentiation_concern",
+      "direction": "negative",
+      "salience": "secondary",
+      "confidence": 0.88,
+      "utterance_type": "assessment",
+      "decision_link": "none",
+      "timing": "original_pitch",
+      "turn_index": 151,
+      "quote": "I have seen others",
+      "explanation": "She indicates that comparable offerings exist, challenging the claim that the product is uniquely positioned.",
+      "evidence": [
+        "I have seen others"
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 151,
+          "speaker": "Elizabeth",
+          "quote": "I have seen others"
+        }
+      ],
+      "activation": "evaluated",
+      "source_rationale_id": "R7",
+      "utterance_kind": "assessment",
+      "decision_support": "none",
+      "all_mention_ids": [
+        "R7"
+      ]
+    },
+    {
+      "rationale_label": "solution_feasibility_assessment",
+      "direction": "positive",
+      "salience": "secondary",
+      "confidence": 0.95,
+      "utterance_type": "assessment",
+      "decision_link": "none",
+      "timing": "original_pitch",
+      "turn_index": 94,
+      "quote": "That's, that's quite fast.",
+      "explanation": "She positively assesses the reported reduction in customer onboarding time.",
+      "evidence": [
+        "That's, that's quite fast."
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 94,
+          "speaker": "Elizabeth",
+          "quote": "That's, that's quite fast."
+        }
+      ],
+      "activation": "evaluated",
+      "source_rationale_id": "R3",
+      "utterance_kind": "assessment",
+      "decision_support": "none",
+      "all_mention_ids": [
+        "R2",
+        "R3"
+      ]
+    },
+    {
+      "rationale_label": "traction_repeatability_concern",
+      "direction": "neutral",
+      "salience": "secondary",
+      "confidence": 0.91,
+      "utterance_type": "question",
+      "decision_link": "none",
+      "timing": "original_pitch",
+      "turn_index": 184,
+      "quote": "Not all paying though, right.",
+      "explanation": "She checks how much of the reported town traction has converted from pilots into paying customers.",
+      "evidence": [
+        "Not all paying though, right."
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 184,
+          "speaker": "Elizabeth",
+          "quote": "Not all paying though, right."
+        }
+      ],
+      "activation": "queried",
+      "source_rationale_id": "R17",
+      "utterance_kind": "question",
+      "decision_support": "none",
+      "all_mention_ids": [
+        "R17"
+      ]
+    }
+  ],
+  "later_rationales": [
+    {
+      "rationale_label": "investment_thesis_constraint",
+      "direction": "negative",
+      "salience": "secondary",
+      "confidence": 0.96,
+      "utterance_type": "decision_explanation",
+      "decision_link": "supports_out",
+      "timing": "later_commentary",
+      "turn_index": 263,
+      "quote": "we at Hustle Fund. We very much love people who are extremely customer acquisition centric.",
+      "explanation": "In later commentary, she identifies Hustle Fund's customer-acquisition orientation as an investment preference relevant to her evaluation.",
+      "evidence": [
+        "we at Hustle Fund. We very much love people who are extremely customer acquisition centric."
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 263,
+          "speaker": "Elizabeth",
+          "quote": "we at Hustle Fund. We very much love people who are extremely customer acquisition centric."
+        }
+      ],
+      "activation": "evaluated",
+      "source_rationale_id": "R21"
+    },
+    {
+      "rationale_label": "go_to_market_strategy_assessment",
+      "direction": "negative",
+      "salience": "primary",
+      "confidence": 0.97,
+      "utterance_type": "decision_explanation",
+      "decision_link": "supports_out",
+      "timing": "later_commentary",
+      "turn_index": 263,
+      "quote": "I didn't really hear that many customer acquisition centric answers until I really pulled at that.",
+      "explanation": "She says the founder did not initially articulate a sufficiently customer-acquisition-focused plan, contributing to her refusal to invest.",
+      "evidence": [
+        "I didn't really hear that many customer acquisition centric answers until I really pulled at that."
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 263,
+          "speaker": "Elizabeth",
+          "quote": "I didn't really hear that many customer acquisition centric answers until I really pulled at that."
+        }
+      ],
+      "activation": "evaluated",
+      "source_rationale_id": "R22"
+    }
+  ],
+  "excluded_rationales": [],
+  "rationale_mentions": [
+    {
+      "rationale_label": "product_adoption",
+      "direction": "neutral",
+      "salience": "secondary",
+      "confidence": 0.86,
+      "utterance_type": "question",
+      "decision_link": "none",
+      "timing": "original_pitch",
+      "turn_index": 40,
+      "quote": "Is that your town or is that somewhere else?",
+      "explanation": "Elizabeth verifies whether the demonstrated use case comes from the founder's own town or an adopting customer.",
+      "evidence": [
+        "Is that your town or is that somewhere else?"
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 40,
+          "speaker": "Elizabeth",
+          "quote": "Is that your town or is that somewhere else?"
+        }
+      ],
+      "activation": "queried",
+      "source_rationale_id": "R1"
+    },
+    {
+      "rationale_label": "solution_feasibility_assessment",
+      "direction": "neutral",
+      "salience": "secondary",
+      "confidence": 0.93,
+      "utterance_type": "question",
+      "decision_link": "none",
+      "timing": "original_pitch",
+      "turn_index": 90,
+      "quote": "there has to be someone putting in an input.",
+      "explanation": "She probes how the product obtains and maintains the public and grants data it relies on.",
+      "evidence": [
+        "there has to be someone putting in an input."
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 90,
+          "speaker": "Elizabeth",
+          "quote": "there has to be someone putting in an input."
+        }
+      ],
+      "activation": "queried",
+      "source_rationale_id": "R2"
+    },
+    {
+      "rationale_label": "solution_feasibility_assessment",
+      "direction": "positive",
+      "salience": "secondary",
+      "confidence": 0.95,
+      "utterance_type": "assessment",
+      "decision_link": "none",
+      "timing": "original_pitch",
+      "turn_index": 94,
+      "quote": "That's, that's quite fast.",
+      "explanation": "She positively assesses the reported reduction in customer onboarding time.",
+      "evidence": [
+        "That's, that's quite fast."
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 94,
+          "speaker": "Elizabeth",
+          "quote": "That's, that's quite fast."
+        }
+      ],
+      "activation": "evaluated",
+      "source_rationale_id": "R3"
+    },
+    {
+      "rationale_label": "product_adoption",
+      "direction": "neutral",
+      "salience": "secondary",
+      "confidence": 0.94,
+      "utterance_type": "question",
+      "decision_link": "none",
+      "timing": "original_pitch",
+      "turn_index": 116,
+      "quote": "Right now, how many towns are you working with?",
+      "explanation": "She asks for the current number of towns using or piloting the product.",
+      "evidence": [
+        "Right now, how many towns are you working with?"
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 116,
+          "speaker": "Elizabeth",
+          "quote": "Right now, how many towns are you working with?"
+        }
+      ],
+      "activation": "queried",
+      "source_rationale_id": "R4"
+    },
+    {
+      "rationale_label": "founder_market_fit",
+      "direction": "neutral",
+      "salience": "secondary",
+      "confidence": 0.9,
+      "utterance_type": "question",
+      "decision_link": "none",
+      "timing": "original_pitch",
+      "turn_index": 128,
+      "quote": "What were you doing prior to becoming a city council member?",
+      "explanation": "She seeks background relevant to the founder's fit for the local-government market.",
+      "evidence": [
+        "What were you doing prior to becoming a city council member?"
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 128,
+          "speaker": "Elizabeth",
+          "quote": "What were you doing prior to becoming a city council member?"
+        }
+      ],
+      "activation": "queried",
+      "source_rationale_id": "R5"
+    },
+    {
+      "rationale_label": "go_to_market_strategy_assessment",
+      "direction": "neutral",
+      "salience": "secondary",
+      "confidence": 0.95,
+      "utterance_type": "question",
+      "decision_link": "none",
+      "timing": "original_pitch",
+      "turn_index": 140,
+      "quote": "Who ends up buying this within a city? Like what is that process?",
+      "explanation": "She asks who the buyer is and how the purchasing process works.",
+      "evidence": [
+        "Who ends up buying this within a city? Like what is that process?"
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 140,
+          "speaker": "Elizabeth",
+          "quote": "Who ends up buying this within a city? Like what is that process?"
+        }
+      ],
+      "activation": "queried",
+      "source_rationale_id": "R6"
+    },
+    {
+      "rationale_label": "product_differentiation_concern",
+      "direction": "negative",
+      "salience": "secondary",
+      "confidence": 0.88,
+      "utterance_type": "assessment",
+      "decision_link": "none",
+      "timing": "original_pitch",
+      "turn_index": 151,
+      "quote": "I have seen others",
+      "explanation": "She indicates that comparable offerings exist, challenging the claim that the product is uniquely positioned.",
+      "evidence": [
+        "I have seen others"
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 151,
+          "speaker": "Elizabeth",
+          "quote": "I have seen others"
+        }
+      ],
+      "activation": "evaluated",
+      "source_rationale_id": "R7"
+    },
+    {
+      "rationale_label": "go_to_market_strategy_assessment",
+      "direction": "neutral",
+      "salience": "secondary",
+      "confidence": 0.97,
+      "utterance_type": "question",
+      "decision_link": "none",
+      "timing": "original_pitch",
+      "turn_index": 158,
+      "quote": "What do you think your customer acquisition looks like in the future?",
+      "explanation": "She asks how the company expects to acquire customers at scale.",
+      "evidence": [
+        "What do you think your customer acquisition looks like in the future?"
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 158,
+          "speaker": "Elizabeth",
+          "quote": "What do you think your customer acquisition looks like in the future?"
+        }
+      ],
+      "activation": "queried",
+      "source_rationale_id": "R8"
+    },
+    {
+      "rationale_label": "go_to_market_strategy_assessment",
+      "direction": "neutral",
+      "salience": "secondary",
+      "confidence": 0.97,
+      "utterance_type": "question",
+      "decision_link": "none",
+      "timing": "original_pitch",
+      "turn_index": 160,
+      "quote": "how do you think about getting more leads?",
+      "explanation": "She asks about the future mechanism for generating city leads.",
+      "evidence": [
+        "how do you think about getting more leads?"
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 160,
+          "speaker": "Elizabeth",
+          "quote": "how do you think about getting more leads?"
+        }
+      ],
+      "activation": "queried",
+      "source_rationale_id": "R9"
+    },
+    {
+      "rationale_label": "execution_risk_assessment",
+      "direction": "neutral",
+      "salience": "secondary",
+      "confidence": 0.84,
+      "utterance_type": "question",
+      "decision_link": "none",
+      "timing": "original_pitch",
+      "turn_index": 162,
+      "quote": "When did you start this company?",
+      "explanation": "She asks about company age as context for assessing execution maturity.",
+      "evidence": [
+        "When did you start this company?"
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 162,
+          "speaker": "Elizabeth",
+          "quote": "When did you start this company?"
+        }
+      ],
+      "activation": "queried",
+      "source_rationale_id": "R10"
+    },
+    {
+      "rationale_label": "capital_intensity_concern",
+      "direction": "neutral",
+      "salience": "secondary",
+      "confidence": 0.94,
+      "utterance_type": "question",
+      "decision_link": "none",
+      "timing": "original_pitch",
+      "turn_index": 168,
+      "quote": "What do you think your burn rate will go up to after this round?",
+      "explanation": "She probes expected post-financing capital consumption.",
+      "evidence": [
+        "What do you think your burn rate will go up to after this round?"
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 168,
+          "speaker": "Elizabeth",
+          "quote": "What do you think your burn rate will go up to after this round?"
+        }
+      ],
+      "activation": "queried",
+      "source_rationale_id": "R11"
+    },
+    {
+      "rationale_label": "go_to_market_strategy_assessment",
+      "direction": "neutral",
+      "salience": "secondary",
+      "confidence": 0.94,
+      "utterance_type": "question",
+      "decision_link": "none",
+      "timing": "original_pitch",
+      "turn_index": 168,
+      "quote": "Are you gonna put any towards lead gen, customer acquisition, stuff like that?",
+      "explanation": "She asks whether the financing will fund customer acquisition as well as product development.",
+      "evidence": [
+        "Are you gonna put any towards lead gen, customer acquisition, stuff like that?"
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 168,
+          "speaker": "Elizabeth",
+          "quote": "Are you gonna put any towards lead gen, customer acquisition, stuff like that?"
+        }
+      ],
+      "activation": "queried",
+      "source_rationale_id": "R12"
+    },
+    {
+      "rationale_label": "growth_projection_risk",
+      "direction": "neutral",
+      "salience": "secondary",
+      "confidence": 0.95,
+      "utterance_type": "question",
+      "decision_link": "none",
+      "timing": "original_pitch",
+      "turn_index": 170,
+      "quote": "what are you hoping to achieve? Like just from a milestone perspective with this round?",
+      "explanation": "She asks for concrete milestones and expected outcomes from the financing round.",
+      "evidence": [
+        "what are you hoping to achieve? Like just from a milestone perspective with this round?"
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 170,
+          "speaker": "Elizabeth",
+          "quote": "what are you hoping to achieve? Like just from a milestone perspective with this round?"
+        }
+      ],
+      "activation": "queried",
+      "source_rationale_id": "R13"
+    },
+    {
+      "rationale_label": "business_model_assessment",
+      "direction": "negative",
+      "salience": "secondary",
+      "confidence": 0.95,
+      "utterance_type": "assessment",
+      "decision_link": "none",
+      "timing": "original_pitch",
+      "turn_index": 174,
+      "quote": "even if you're getting a lot of cities, you're not getting up to that level.",
+      "explanation": "She believes the low monetization per city may prevent broad customer acquisition from producing sufficient revenue.",
+      "evidence": [
+        "even if you're getting a lot of cities, you're not getting up to that level."
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 174,
+          "speaker": "Elizabeth",
+          "quote": "even if you're getting a lot of cities, you're not getting up to that level."
+        }
+      ],
+      "activation": "evaluated",
+      "source_rationale_id": "R14"
+    },
+    {
+      "rationale_label": "business_viability_concern",
+      "direction": "negative",
+      "salience": "primary",
+      "confidence": 0.96,
+      "utterance_type": "assessment",
+      "decision_link": "none",
+      "timing": "original_pitch",
+      "turn_index": 174,
+      "quote": "this is where I feel like there's this puzzle that needs to kind of be solved around the fundraising, the revenue",
+      "explanation": "She sees an unresolved relationship among revenue, fundraising needs, and future financing viability.",
+      "evidence": [
+        "this is where I feel like there's this puzzle that needs to kind of be solved around the fundraising, the revenue"
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 174,
+          "speaker": "Elizabeth",
+          "quote": "this is where I feel like there's this puzzle that needs to kind of be solved around the fundraising, the revenue"
+        }
+      ],
+      "activation": "evaluated",
+      "source_rationale_id": "R15"
+    },
+    {
+      "rationale_label": "growth_projection_risk",
+      "direction": "negative",
+      "salience": "secondary",
+      "confidence": 0.94,
+      "utterance_type": "assessment",
+      "decision_link": "none",
+      "timing": "original_pitch",
+      "turn_index": 178,
+      "quote": "at least half a million revenue run rate, if not more.",
+      "explanation": "She sets a materially higher revenue threshold for the next round and ties it to growth trajectory.",
+      "evidence": [
+        "at least half a million revenue run rate, if not more."
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 178,
+          "speaker": "Elizabeth",
+          "quote": "at least half a million revenue run rate, if not more."
+        }
+      ],
+      "activation": "evaluated",
+      "source_rationale_id": "R16"
+    },
+    {
+      "rationale_label": "traction_repeatability_concern",
+      "direction": "neutral",
+      "salience": "secondary",
+      "confidence": 0.91,
+      "utterance_type": "question",
+      "decision_link": "none",
+      "timing": "original_pitch",
+      "turn_index": 184,
+      "quote": "Not all paying though, right.",
+      "explanation": "She checks how much of the reported town traction has converted from pilots into paying customers.",
+      "evidence": [
+        "Not all paying though, right."
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 184,
+          "speaker": "Elizabeth",
+          "quote": "Not all paying though, right."
+        }
+      ],
+      "activation": "queried",
+      "source_rationale_id": "R17"
+    },
+    {
+      "rationale_label": "founder_qualities",
+      "direction": "positive",
+      "salience": "secondary",
+      "confidence": 0.93,
+      "utterance_type": "assessment",
+      "decision_link": "none",
+      "timing": "original_pitch",
+      "turn_index": 235,
+      "quote": "you are awesome",
+      "explanation": "Elizabeth positively assesses the founder's personal qualities.",
+      "evidence": [
+        "you are awesome"
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 235,
+          "speaker": "Elizabeth",
+          "quote": "you are awesome"
+        }
+      ],
+      "activation": "evaluated",
+      "source_rationale_id": "R18"
+    },
+    {
+      "rationale_label": "market_problem_validation",
+      "direction": "positive",
+      "salience": "secondary",
+      "confidence": 0.95,
+      "utterance_type": "assessment",
+      "decision_link": "none",
+      "timing": "original_pitch",
+      "turn_index": 235,
+      "quote": "it's a real need",
+      "explanation": "She explicitly recognizes that the company addresses a genuine market need.",
+      "evidence": [
+        "it's a real need"
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 235,
+          "speaker": "Elizabeth",
+          "quote": "it's a real need"
+        }
+      ],
+      "activation": "evaluated",
+      "source_rationale_id": "R19"
+    },
+    {
+      "rationale_label": "business_viability_concern",
+      "direction": "negative",
+      "salience": "primary",
+      "confidence": 0.98,
+      "utterance_type": "decision_explanation",
+      "decision_link": "supports_out",
+      "timing": "original_pitch",
+      "turn_index": 235,
+      "quote": "The struggle is, you are awesome and I absolutely can see this vision and it's a real need. I think I'm still struggling with sort of, I call it the money puzzle of getting your revenue high enough",
+      "explanation": "Despite liking the founder and problem, she identifies unresolved revenue and next-round financing economics as her reason for opting out.",
+      "evidence": [
+        "The struggle is, you are awesome and I absolutely can see this vision and it's a real need. I think I'm still struggling with sort of, I call it the money puzzle of getting your revenue high enough"
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 235,
+          "speaker": "Elizabeth",
+          "quote": "The struggle is, you are awesome and I absolutely can see this vision and it's a real need. I think I'm still struggling with sort of, I call it the money puzzle of getting your revenue high enough"
+        }
+      ],
+      "activation": "evaluated",
+      "source_rationale_id": "R20"
+    }
+  ],
+  "expanded_quote_evidence": [],
+  "rejected_after_evidence_check": []
+}

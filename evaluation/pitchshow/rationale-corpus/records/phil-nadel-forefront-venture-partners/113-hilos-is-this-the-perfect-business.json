@@ -1,0 +1,895 @@
+{
+  "schema": "phase1-rationale-reference-v1",
+  "extraction_version": "pitchshow-rationales-v1",
+  "fingerprint": "18b7eb87ff840a77c29e0bf90b21cfec5edeef184eeb95744eedb1d4ef06c25c",
+  "episode_slug": "113-hilos-is-this-the-perfect-business",
+  "vc_slug": "phil-nadel-forefront-venture-partners",
+  "vc_name": "Phil Nadel",
+  "actual_decision": "Out",
+  "later_decision": "Unknown",
+  "reference_kind": "automated_transcript_observed_candidate",
+  "human_validated": false,
+  "source_format": "transcript-observed-rationales-v1",
+  "source_path": "/home/dpasch01/vclogic-vc-agentic-assessment/evaluation/pitchshow/investors/phil-nadel-forefront-venture-partners/source/episodes/113-hilos-is-this-the-perfect-business.json",
+  "source_sha256": "33a7b4fd14e2ab6fa18683651c189a1d9a24f1e9ae2c73d226098f65a917d73c",
+  "transcript_sha256": "d012f678cd8c300dd40e0678431300d18ee9180456283c9575b2896b1a0bbe2e",
+  "taxonomy_sha256": "eaa8734819a3ac34dd19ee5f0bf6de925a793a1d25a2d361090dafc9b751e1fc",
+  "model": "codex:gpt-5.6-luna+gpt-5.6-sol",
+  "generation_stages": [
+    {
+      "phase": "rationale_extract",
+      "backend": "codex",
+      "model": "gpt-5.6-luna"
+    },
+    {
+      "phase": "rationale_verify",
+      "backend": "codex",
+      "model": "gpt-5.6-sol"
+    }
+  ],
+  "source_tier": "newly_extracted_and_independently_model_reviewed",
+  "reviewed_target_turns": [
+    2,
+    10,
+    25,
+    28,
+    30,
+    33,
+    36,
+    38,
+    40,
+    46,
+    50,
+    58,
+    64,
+    67,
+    69,
+    72,
+    77,
+    79,
+    81,
+    84,
+    86,
+    93,
+    115,
+    117,
+    122
+  ],
+  "notes": "All supplied target turns were reviewed; non-rationale turns are included only in reviewed_target_turns.",
+  "receipt_path": "/home/dpasch01/vclogic-vc-agentic-assessment/evaluation/pitchshow/investors/phil-nadel-forefront-venture-partners/rationale-references/receipts/113-hilos-is-this-the-perfect-business.json",
+  "scoring_scope": "original_pitch_only",
+  "shared_across_input_modes": true,
+  "rationales": [
+    {
+      "rationale_label": "business_model_assessment",
+      "direction": "negative",
+      "salience": "secondary",
+      "confidence": 0.98,
+      "utterance_type": "assessment",
+      "decision_link": "none",
+      "timing": "original_pitch",
+      "turn_index": 81,
+      "quote": "If it's 15% of 3 million, that's 450.",
+      "explanation": "Phil reiterates the numerical inconsistency in the company's projected monetization.",
+      "evidence": [
+        "wouldn't that equate to $450,000?",
+        "Why?",
+        "If it's 15% of 3 million, that's 450.",
+        "like an 8% margin next year? Because 8% on 3 million's 240."
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 77,
+          "speaker": "Phil",
+          "quote": "wouldn't that equate to $450,000?"
+        },
+        {
+          "turn_index": 79,
+          "speaker": "Phil",
+          "quote": "Why?"
+        },
+        {
+          "turn_index": 81,
+          "speaker": "Phil",
+          "quote": "If it's 15% of 3 million, that's 450."
+        },
+        {
+          "turn_index": 86,
+          "speaker": "Phil",
+          "quote": "like an 8% margin next year? Because 8% on 3 million's 240."
+        }
+      ],
+      "activation": "evaluated",
+      "source_rationale_id": "R12",
+      "utterance_kind": "concern",
+      "decision_support": "none",
+      "all_mention_ids": [
+        "R1",
+        "R2",
+        "R5",
+        "R9",
+        "R10",
+        "R11",
+        "R12",
+        "R13"
+      ]
+    },
+    {
+      "rationale_label": "growth_projection_risk",
+      "direction": "neutral",
+      "salience": "secondary",
+      "confidence": 0.91,
+      "utterance_type": "question",
+      "decision_link": "none",
+      "timing": "original_pitch",
+      "turn_index": 69,
+      "quote": "you said 3 million is your projection for revenue next year -",
+      "explanation": "Phil revisits the magnitude of the company's next-year revenue projection.",
+      "evidence": [
+        "you said 3 million is your projection for revenue next year -"
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 69,
+          "speaker": "Phil",
+          "quote": "you said 3 million is your projection for revenue next year -"
+        }
+      ],
+      "activation": "queried",
+      "source_rationale_id": "R8",
+      "utterance_kind": "question",
+      "decision_support": "none",
+      "all_mention_ids": [
+        "R8"
+      ]
+    },
+    {
+      "rationale_label": "investment_thesis_constraint",
+      "direction": "negative",
+      "salience": "secondary",
+      "confidence": 0.96,
+      "utterance_type": "decision_reason",
+      "decision_link": "explicit",
+      "timing": "original_pitch",
+      "turn_index": 115,
+      "quote": "If I were truly just an impact investor, You know, I'd say, okay, the impact, I'm willing to pay more in terms of valuation, but that's not our predominant focus.",
+      "explanation": "Phil explains that his firm's lack of an impact-first mandate prevents the environmental benefit from justifying the valuation.",
+      "evidence": [
+        "If I were truly just an impact investor, You know, I'd say, okay, the impact, I'm willing to pay more in terms of valuation, but that's not our predominant focus."
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 115,
+          "speaker": "Phil",
+          "quote": "If I were truly just an impact investor, You know, I'd say, okay, the impact, I'm willing to pay more in terms of valuation, but that's not our predominant focus."
+        }
+      ],
+      "activation": "evaluated",
+      "source_rationale_id": "R19",
+      "utterance_kind": "decision_explanation",
+      "decision_support": "supports_out",
+      "all_mention_ids": [
+        "R19"
+      ]
+    },
+    {
+      "rationale_label": "market_timing",
+      "direction": "positive",
+      "salience": "secondary",
+      "confidence": 0.9,
+      "utterance_type": "assessment",
+      "decision_link": "none",
+      "timing": "original_pitch",
+      "turn_index": 115,
+      "quote": "I agree with you that this is the future.",
+      "explanation": "Phil believes the company's approach represents the future direction of the category.",
+      "evidence": [
+        "I agree with you that this is the future."
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 115,
+          "speaker": "Phil",
+          "quote": "I agree with you that this is the future."
+        }
+      ],
+      "activation": "evaluated",
+      "source_rationale_id": "R17",
+      "utterance_kind": "assessment",
+      "decision_support": "none",
+      "all_mention_ids": [
+        "R17"
+      ]
+    },
+    {
+      "rationale_label": "mission_alignment_preference",
+      "direction": "positive",
+      "salience": "secondary",
+      "confidence": 0.94,
+      "utterance_type": "assessment",
+      "decision_link": "none",
+      "timing": "original_pitch",
+      "turn_index": 115,
+      "quote": "from an environmental impact perspective, it's tremendous what you're doing.",
+      "explanation": "Phil responds positively to HILOS's environmental purpose and impact.",
+      "evidence": [
+        "from an environmental impact perspective, it's tremendous what you're doing."
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 115,
+          "speaker": "Phil",
+          "quote": "from an environmental impact perspective, it's tremendous what you're doing."
+        }
+      ],
+      "activation": "evaluated",
+      "source_rationale_id": "R16",
+      "utterance_kind": "assessment",
+      "decision_support": "none",
+      "all_mention_ids": [
+        "R16"
+      ]
+    },
+    {
+      "rationale_label": "product_appeal_assessment",
+      "direction": "positive",
+      "salience": "secondary",
+      "confidence": 0.98,
+      "utterance_type": "assessment",
+      "decision_link": "none",
+      "timing": "original_pitch",
+      "turn_index": 122,
+      "quote": "Very cool concept.",
+      "explanation": "Phil gives a positive personal assessment of the concept.",
+      "evidence": [
+        "I see tremendous benefits for the shoe companies.",
+        "Very cool concept."
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 115,
+          "speaker": "Phil",
+          "quote": "I see tremendous benefits for the shoe companies."
+        },
+        {
+          "turn_index": 122,
+          "speaker": "Phil",
+          "quote": "Very cool concept."
+        }
+      ],
+      "activation": "evaluated",
+      "source_rationale_id": "R21",
+      "utterance_kind": "assessment",
+      "decision_support": "none",
+      "all_mention_ids": [
+        "R15",
+        "R21"
+      ]
+    },
+    {
+      "rationale_label": "solution_feasibility_assessment",
+      "direction": "neutral",
+      "salience": "secondary",
+      "confidence": 0.9,
+      "utterance_type": "question",
+      "decision_link": "none",
+      "timing": "original_pitch",
+      "turn_index": 58,
+      "quote": "So it's more comfortable and more durable than traditional shoes.",
+      "explanation": "Phil verifies whether the product delivers the claimed comfort and durability advantages.",
+      "evidence": [
+        "how do you achieve that 72 hour turnaround? It seems very fast.",
+        "And so then do you - do the partners dropship -",
+        "So it's more comfortable and more durable than traditional shoes."
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 36,
+          "speaker": "Phil",
+          "quote": "how do you achieve that 72 hour turnaround? It seems very fast."
+        },
+        {
+          "turn_index": 40,
+          "speaker": "Phil",
+          "quote": "And so then do you - do the partners dropship -"
+        },
+        {
+          "turn_index": 58,
+          "speaker": "Phil",
+          "quote": "So it's more comfortable and more durable than traditional shoes."
+        }
+      ],
+      "activation": "queried",
+      "source_rationale_id": "R6",
+      "utterance_kind": "question",
+      "decision_support": "none",
+      "all_mention_ids": [
+        "R3",
+        "R4",
+        "R6"
+      ]
+    },
+    {
+      "rationale_label": "stage_valuation_mismatch",
+      "direction": "negative",
+      "salience": "primary",
+      "confidence": 0.99,
+      "utterance_type": "decision_reason",
+      "decision_link": "explicit",
+      "timing": "original_pitch",
+      "turn_index": 115,
+      "quote": "I just can't - I can't get there on the valuation. I can't make that work.",
+      "explanation": "Phil explicitly makes the valuation, particularly at the company's relatively early stage, his principal reason for passing.",
+      "evidence": [
+        "I am thinking that. It concerns me.",
+        "I just can't - I can't get there on the valuation. I can't make that work.",
+        "not cheaper on overall valuation basis, but on relative to -"
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 93,
+          "speaker": "Phil",
+          "quote": "I am thinking that. It concerns me."
+        },
+        {
+          "turn_index": 115,
+          "speaker": "Phil",
+          "quote": "I just can't - I can't get there on the valuation. I can't make that work."
+        },
+        {
+          "turn_index": 117,
+          "speaker": "Phil",
+          "quote": "not cheaper on overall valuation basis, but on relative to -"
+        }
+      ],
+      "activation": "evaluated",
+      "source_rationale_id": "R18",
+      "utterance_kind": "decision_explanation",
+      "decision_support": "supports_out",
+      "all_mention_ids": [
+        "R14",
+        "R18",
+        "R20"
+      ]
+    },
+    {
+      "rationale_label": "traction_repeatability_concern",
+      "direction": "neutral",
+      "salience": "secondary",
+      "confidence": 0.94,
+      "utterance_type": "question",
+      "decision_link": "none",
+      "timing": "original_pitch",
+      "turn_index": 67,
+      "quote": "How much revenue will you do this year?",
+      "explanation": "Phil asks for current revenue to establish the company's present traction baseline.",
+      "evidence": [
+        "How much revenue will you do this year?"
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 67,
+          "speaker": "Phil",
+          "quote": "How much revenue will you do this year?"
+        }
+      ],
+      "activation": "queried",
+      "source_rationale_id": "R7",
+      "utterance_kind": "question",
+      "decision_support": "none",
+      "all_mention_ids": [
+        "R7"
+      ]
+    }
+  ],
+  "later_rationales": [],
+  "excluded_rationales": [],
+  "rationale_mentions": [
+    {
+      "rationale_label": "business_model_assessment",
+      "direction": "neutral",
+      "salience": "secondary",
+      "confidence": 0.98,
+      "utterance_type": "question",
+      "decision_link": "none",
+      "timing": "original_pitch",
+      "turn_index": 25,
+      "quote": "So they outsource the manufacturing to you -",
+      "explanation": "Phil asks whether HILOS directly provides the outsourced manufacturing service.",
+      "evidence": [
+        "So they outsource the manufacturing to you -"
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 25,
+          "speaker": "Phil",
+          "quote": "So they outsource the manufacturing to you -"
+        }
+      ],
+      "activation": "queried",
+      "source_rationale_id": "R1"
+    },
+    {
+      "rationale_label": "business_model_assessment",
+      "direction": "neutral",
+      "salience": "secondary",
+      "confidence": 0.98,
+      "utterance_type": "question",
+      "decision_link": "none",
+      "timing": "original_pitch",
+      "turn_index": 28,
+      "quote": "Okay, so you're not doing the 3D printing either?",
+      "explanation": "Phil clarifies which production functions HILOS performs versus delegates to partners.",
+      "evidence": [
+        "Okay, so you're not doing the 3D printing either?"
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 28,
+          "speaker": "Phil",
+          "quote": "Okay, so you're not doing the 3D printing either?"
+        }
+      ],
+      "activation": "queried",
+      "source_rationale_id": "R2"
+    },
+    {
+      "rationale_label": "solution_feasibility_assessment",
+      "direction": "neutral",
+      "salience": "secondary",
+      "confidence": 0.98,
+      "utterance_type": "question",
+      "decision_link": "none",
+      "timing": "original_pitch",
+      "turn_index": 36,
+      "quote": "how do you achieve that 72 hour turnaround? It seems very fast.",
+      "explanation": "Phil probes whether a partner-dependent supply chain can operationally deliver the claimed turnaround.",
+      "evidence": [
+        "how do you achieve that 72 hour turnaround? It seems very fast."
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 36,
+          "speaker": "Phil",
+          "quote": "how do you achieve that 72 hour turnaround? It seems very fast."
+        }
+      ],
+      "activation": "queried",
+      "source_rationale_id": "R3"
+    },
+    {
+      "rationale_label": "solution_feasibility_assessment",
+      "direction": "neutral",
+      "salience": "secondary",
+      "confidence": 0.94,
+      "utterance_type": "question",
+      "decision_link": "none",
+      "timing": "original_pitch",
+      "turn_index": 40,
+      "quote": "And so then do you - do the partners dropship -",
+      "explanation": "Phil asks how fulfillment and final delivery operate within the proposed solution.",
+      "evidence": [
+        "And so then do you - do the partners dropship -"
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 40,
+          "speaker": "Phil",
+          "quote": "And so then do you - do the partners dropship -"
+        }
+      ],
+      "activation": "queried",
+      "source_rationale_id": "R4"
+    },
+    {
+      "rationale_label": "business_model_assessment",
+      "direction": "neutral",
+      "salience": "secondary",
+      "confidence": 0.99,
+      "utterance_type": "question",
+      "decision_link": "none",
+      "timing": "original_pitch",
+      "turn_index": 50,
+      "quote": "Yeah, so how much do you make?",
+      "explanation": "Phil asks how much revenue HILOS captures from each transaction.",
+      "evidence": [
+        "Yeah, so how much do you make?"
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 50,
+          "speaker": "Phil",
+          "quote": "Yeah, so how much do you make?"
+        }
+      ],
+      "activation": "queried",
+      "source_rationale_id": "R5"
+    },
+    {
+      "rationale_label": "solution_feasibility_assessment",
+      "direction": "neutral",
+      "salience": "secondary",
+      "confidence": 0.9,
+      "utterance_type": "question",
+      "decision_link": "none",
+      "timing": "original_pitch",
+      "turn_index": 58,
+      "quote": "So it's more comfortable and more durable than traditional shoes.",
+      "explanation": "Phil verifies whether the product delivers the claimed comfort and durability advantages.",
+      "evidence": [
+        "So it's more comfortable and more durable than traditional shoes."
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 58,
+          "speaker": "Phil",
+          "quote": "So it's more comfortable and more durable than traditional shoes."
+        }
+      ],
+      "activation": "queried",
+      "source_rationale_id": "R6"
+    },
+    {
+      "rationale_label": "traction_repeatability_concern",
+      "direction": "neutral",
+      "salience": "secondary",
+      "confidence": 0.94,
+      "utterance_type": "question",
+      "decision_link": "none",
+      "timing": "original_pitch",
+      "turn_index": 67,
+      "quote": "How much revenue will you do this year?",
+      "explanation": "Phil asks for current revenue to establish the company's present traction baseline.",
+      "evidence": [
+        "How much revenue will you do this year?"
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 67,
+          "speaker": "Phil",
+          "quote": "How much revenue will you do this year?"
+        }
+      ],
+      "activation": "queried",
+      "source_rationale_id": "R7"
+    },
+    {
+      "rationale_label": "growth_projection_risk",
+      "direction": "neutral",
+      "salience": "secondary",
+      "confidence": 0.91,
+      "utterance_type": "question",
+      "decision_link": "none",
+      "timing": "original_pitch",
+      "turn_index": 69,
+      "quote": "you said 3 million is your projection for revenue next year -",
+      "explanation": "Phil revisits the magnitude of the company's next-year revenue projection.",
+      "evidence": [
+        "you said 3 million is your projection for revenue next year -"
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 69,
+          "speaker": "Phil",
+          "quote": "you said 3 million is your projection for revenue next year -"
+        }
+      ],
+      "activation": "queried",
+      "source_rationale_id": "R8"
+    },
+    {
+      "rationale_label": "business_model_assessment",
+      "direction": "neutral",
+      "salience": "secondary",
+      "confidence": 0.98,
+      "utterance_type": "question",
+      "decision_link": "none",
+      "timing": "original_pitch",
+      "turn_index": 72,
+      "quote": "You said 15% is your take?",
+      "explanation": "Phil verifies HILOS's stated transaction take rate.",
+      "evidence": [
+        "You said 15% is your take?"
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 72,
+          "speaker": "Phil",
+          "quote": "You said 15% is your take?"
+        }
+      ],
+      "activation": "queried",
+      "source_rationale_id": "R9"
+    },
+    {
+      "rationale_label": "business_model_assessment",
+      "direction": "negative",
+      "salience": "secondary",
+      "confidence": 0.98,
+      "utterance_type": "question",
+      "decision_link": "none",
+      "timing": "original_pitch",
+      "turn_index": 77,
+      "quote": "wouldn't that equate to $450,000?",
+      "explanation": "Phil identifies an apparent inconsistency between the stated take rate and projected earnings.",
+      "evidence": [
+        "wouldn't that equate to $450,000?"
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 77,
+          "speaker": "Phil",
+          "quote": "wouldn't that equate to $450,000?"
+        }
+      ],
+      "activation": "queried",
+      "source_rationale_id": "R10"
+    },
+    {
+      "rationale_label": "business_model_assessment",
+      "direction": "negative",
+      "salience": "secondary",
+      "confidence": 0.94,
+      "utterance_type": "question",
+      "decision_link": "none",
+      "timing": "original_pitch",
+      "turn_index": 79,
+      "quote": "Why?",
+      "explanation": "Phil challenges why projected earnings are below what the stated revenue and take rate imply.",
+      "evidence": [
+        "Why?"
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 79,
+          "speaker": "Phil",
+          "quote": "Why?"
+        }
+      ],
+      "activation": "queried",
+      "source_rationale_id": "R11"
+    },
+    {
+      "rationale_label": "business_model_assessment",
+      "direction": "negative",
+      "salience": "secondary",
+      "confidence": 0.98,
+      "utterance_type": "concern",
+      "decision_link": "none",
+      "timing": "original_pitch",
+      "turn_index": 81,
+      "quote": "If it's 15% of 3 million, that's 450.",
+      "explanation": "Phil reiterates the numerical inconsistency in the company's projected monetization.",
+      "evidence": [
+        "If it's 15% of 3 million, that's 450."
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 81,
+          "speaker": "Phil",
+          "quote": "If it's 15% of 3 million, that's 450."
+        }
+      ],
+      "activation": "evaluated",
+      "source_rationale_id": "R12"
+    },
+    {
+      "rationale_label": "business_model_assessment",
+      "direction": "negative",
+      "salience": "secondary",
+      "confidence": 0.98,
+      "utterance_type": "question",
+      "decision_link": "none",
+      "timing": "original_pitch",
+      "turn_index": 86,
+      "quote": "like an 8% margin next year? Because 8% on 3 million's 240.",
+      "explanation": "Phil points out that the earnings projection implies a materially lower effective take rate than stated.",
+      "evidence": [
+        "like an 8% margin next year? Because 8% on 3 million's 240."
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 86,
+          "speaker": "Phil",
+          "quote": "like an 8% margin next year? Because 8% on 3 million's 240."
+        }
+      ],
+      "activation": "queried",
+      "source_rationale_id": "R13"
+    },
+    {
+      "rationale_label": "stage_valuation_mismatch",
+      "direction": "negative",
+      "salience": "primary",
+      "confidence": 0.99,
+      "utterance_type": "concern",
+      "decision_link": "none",
+      "timing": "original_pitch",
+      "turn_index": 93,
+      "quote": "I am thinking that. It concerns me.",
+      "explanation": "Phil agrees that the $16 million pre-money valuation is high relative to the company's projected revenue.",
+      "evidence": [
+        "I am thinking that. It concerns me."
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 93,
+          "speaker": "Phil",
+          "quote": "I am thinking that. It concerns me."
+        }
+      ],
+      "activation": "evaluated",
+      "source_rationale_id": "R14"
+    },
+    {
+      "rationale_label": "product_appeal_assessment",
+      "direction": "positive",
+      "salience": "secondary",
+      "confidence": 0.96,
+      "utterance_type": "assessment",
+      "decision_link": "none",
+      "timing": "original_pitch",
+      "turn_index": 115,
+      "quote": "I see tremendous benefits for the shoe companies.",
+      "explanation": "Phil believes the solution offers substantial value to footwear companies.",
+      "evidence": [
+        "I see tremendous benefits for the shoe companies."
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 115,
+          "speaker": "Phil",
+          "quote": "I see tremendous benefits for the shoe companies."
+        }
+      ],
+      "activation": "evaluated",
+      "source_rationale_id": "R15"
+    },
+    {
+      "rationale_label": "mission_alignment_preference",
+      "direction": "positive",
+      "salience": "secondary",
+      "confidence": 0.94,
+      "utterance_type": "assessment",
+      "decision_link": "none",
+      "timing": "original_pitch",
+      "turn_index": 115,
+      "quote": "from an environmental impact perspective, it's tremendous what you're doing.",
+      "explanation": "Phil responds positively to HILOS's environmental purpose and impact.",
+      "evidence": [
+        "from an environmental impact perspective, it's tremendous what you're doing."
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 115,
+          "speaker": "Phil",
+          "quote": "from an environmental impact perspective, it's tremendous what you're doing."
+        }
+      ],
+      "activation": "evaluated",
+      "source_rationale_id": "R16"
+    },
+    {
+      "rationale_label": "market_timing",
+      "direction": "positive",
+      "salience": "secondary",
+      "confidence": 0.9,
+      "utterance_type": "assessment",
+      "decision_link": "none",
+      "timing": "original_pitch",
+      "turn_index": 115,
+      "quote": "I agree with you that this is the future.",
+      "explanation": "Phil believes the company's approach represents the future direction of the category.",
+      "evidence": [
+        "I agree with you that this is the future."
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 115,
+          "speaker": "Phil",
+          "quote": "I agree with you that this is the future."
+        }
+      ],
+      "activation": "evaluated",
+      "source_rationale_id": "R17"
+    },
+    {
+      "rationale_label": "stage_valuation_mismatch",
+      "direction": "negative",
+      "salience": "primary",
+      "confidence": 0.99,
+      "utterance_type": "decision_explanation",
+      "decision_link": "supports_out",
+      "timing": "original_pitch",
+      "turn_index": 115,
+      "quote": "I just can't - I can't get there on the valuation. I can't make that work.",
+      "explanation": "Phil explicitly makes the valuation, particularly at the company's relatively early stage, his principal reason for passing.",
+      "evidence": [
+        "I just can't - I can't get there on the valuation. I can't make that work."
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 115,
+          "speaker": "Phil",
+          "quote": "I just can't - I can't get there on the valuation. I can't make that work."
+        }
+      ],
+      "activation": "evaluated",
+      "source_rationale_id": "R18"
+    },
+    {
+      "rationale_label": "investment_thesis_constraint",
+      "direction": "negative",
+      "salience": "secondary",
+      "confidence": 0.96,
+      "utterance_type": "decision_explanation",
+      "decision_link": "supports_out",
+      "timing": "original_pitch",
+      "turn_index": 115,
+      "quote": "If I were truly just an impact investor, You know, I'd say, okay, the impact, I'm willing to pay more in terms of valuation, but that's not our predominant focus.",
+      "explanation": "Phil explains that his firm's lack of an impact-first mandate prevents the environmental benefit from justifying the valuation.",
+      "evidence": [
+        "If I were truly just an impact investor, You know, I'd say, okay, the impact, I'm willing to pay more in terms of valuation, but that's not our predominant focus."
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 115,
+          "speaker": "Phil",
+          "quote": "If I were truly just an impact investor, You know, I'd say, okay, the impact, I'm willing to pay more in terms of valuation, but that's not our predominant focus."
+        }
+      ],
+      "activation": "evaluated",
+      "source_rationale_id": "R19"
+    },
+    {
+      "rationale_label": "stage_valuation_mismatch",
+      "direction": "negative",
+      "salience": "secondary",
+      "confidence": 0.96,
+      "utterance_type": "decision_explanation",
+      "decision_link": "supports_out",
+      "timing": "original_pitch",
+      "turn_index": 117,
+      "quote": "not cheaper on overall valuation basis, but on relative to -",
+      "explanation": "Phil clarifies that a later round could be more investable if the valuation were better supported by company progress, even at a higher absolute price.",
+      "evidence": [
+        "not cheaper on overall valuation basis, but on relative to -"
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 117,
+          "speaker": "Phil",
+          "quote": "not cheaper on overall valuation basis, but on relative to -"
+        }
+      ],
+      "activation": "evaluated",
+      "source_rationale_id": "R20"
+    },
+    {
+      "rationale_label": "product_appeal_assessment",
+      "direction": "positive",
+      "salience": "secondary",
+      "confidence": 0.98,
+      "utterance_type": "assessment",
+      "decision_link": "none",
+      "timing": "original_pitch",
+      "turn_index": 122,
+      "quote": "Very cool concept.",
+      "explanation": "Phil gives a positive personal assessment of the concept.",
+      "evidence": [
+        "Very cool concept."
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 122,
+          "speaker": "Phil",
+          "quote": "Very cool concept."
+        }
+      ],
+      "activation": "evaluated",
+      "source_rationale_id": "R21"
+    }
+  ],
+  "expanded_quote_evidence": [],
+  "rejected_after_evidence_check": []
+}

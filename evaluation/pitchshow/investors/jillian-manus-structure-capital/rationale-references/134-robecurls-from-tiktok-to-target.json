@@ -1,0 +1,1178 @@
+{
+  "schema": "phase1-rationale-reference-v1",
+  "extraction_version": "pitchshow-rationales-v1",
+  "fingerprint": "3cd82b4ccf0e26aecf9456dd1358be90770d5daa1f9872c9d616507bc2d3e1b3",
+  "episode_slug": "134-robecurls-from-tiktok-to-target",
+  "vc_slug": "jillian-manus-structure-capital",
+  "vc_name": "Jillian Manus",
+  "actual_decision": "Out",
+  "later_decision": "Unknown",
+  "reference_kind": "automated_transcript_observed_candidate",
+  "human_validated": false,
+  "source_format": "transcript-observed-rationales-v1",
+  "source_path": "../source/episodes/134-robecurls-from-tiktok-to-target.json",
+  "source_sha256": "83a6f3ba444ad3523f3cde7270c980b4c6ead5f60088e56719cc6b584d39518c",
+  "transcript_sha256": "57d122e2c34877b9c1131ebe8d9458b72352278364e5e741aa2a85c200ad8df4",
+  "taxonomy_sha256": "eaa8734819a3ac34dd19ee5f0bf6de925a793a1d25a2d361090dafc9b751e1fc",
+  "model": "codex:gpt-5.6-luna+gpt-5.6-sol",
+  "generation_stages": [
+    {
+      "phase": "rationale_extract",
+      "backend": "codex",
+      "model": "gpt-5.6-luna"
+    },
+    {
+      "phase": "rationale_verify",
+      "backend": "codex",
+      "model": "gpt-5.6-sol"
+    }
+  ],
+  "source_tier": "newly_extracted_and_independently_model_reviewed",
+  "reviewed_target_turns": [
+    4,
+    7,
+    17,
+    23,
+    25,
+    27,
+    29,
+    31,
+    34,
+    36,
+    38,
+    40,
+    42,
+    44,
+    48,
+    50,
+    70,
+    73,
+    75,
+    80,
+    82,
+    84,
+    86,
+    98,
+    100,
+    102,
+    104,
+    107,
+    109,
+    125,
+    133,
+    140,
+    142,
+    156,
+    158,
+    166,
+    167,
+    169,
+    177,
+    184,
+    187,
+    189,
+    192,
+    196,
+    207,
+    209,
+    213,
+    216,
+    218,
+    222,
+    224,
+    226,
+    230,
+    233,
+    235
+  ],
+  "notes": "All supplied target turns were reviewed. Greetings, jokes, bare confirmations, incomplete fragments, and the teaser decision without a stated reason were excluded.",
+  "receipt_path": "receipts/134-robecurls-from-tiktok-to-target.json",
+  "scoring_scope": "original_pitch_only",
+  "shared_across_input_modes": true,
+  "rationales": [
+    {
+      "rationale_label": "business_model_assessment",
+      "direction": "neutral",
+      "salience": "secondary",
+      "confidence": 0.96,
+      "utterance_type": "question",
+      "decision_link": "none",
+      "timing": "original_pitch",
+      "turn_index": 98,
+      "quote": "What's your operations cost now?",
+      "explanation": "Requests current operating costs to evaluate the company's economics.",
+      "evidence": [
+        "What's your operations cost now?"
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 98,
+          "speaker": "Jillian",
+          "quote": "What's your operations cost now?"
+        }
+      ],
+      "activation": "queried",
+      "source_rationale_id": "R10",
+      "utterance_kind": "question",
+      "decision_support": "none",
+      "all_mention_ids": [
+        "R10"
+      ]
+    },
+    {
+      "rationale_label": "capital_intensity_concern",
+      "direction": "negative",
+      "salience": "secondary",
+      "confidence": 0.88,
+      "utterance_type": "question",
+      "decision_link": "none",
+      "timing": "original_pitch",
+      "turn_index": 75,
+      "quote": "Fighting lawsuits?",
+      "explanation": "Skeptically probes the potentially recurring expense of enforcing protection against copycats.",
+      "evidence": [
+        "Fighting lawsuits?"
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 75,
+          "speaker": "Jillian",
+          "quote": "Fighting lawsuits?"
+        }
+      ],
+      "activation": "queried",
+      "source_rationale_id": "R9",
+      "utterance_kind": "question",
+      "decision_support": "none",
+      "all_mention_ids": [
+        "R9"
+      ]
+    },
+    {
+      "rationale_label": "deal_terms_complexity_concern",
+      "direction": "neutral",
+      "salience": "secondary",
+      "confidence": 0.91,
+      "utterance_type": "question",
+      "decision_link": "none",
+      "timing": "original_pitch",
+      "turn_index": 158,
+      "quote": "And what terms would that be?",
+      "explanation": "Requests the proposed financing terms needed to evaluate the round.",
+      "evidence": [
+        "And what terms would that be?"
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 158,
+          "speaker": "Jillian",
+          "quote": "And what terms would that be?"
+        }
+      ],
+      "activation": "queried",
+      "source_rationale_id": "R15",
+      "utterance_kind": "question",
+      "decision_support": "none",
+      "all_mention_ids": [
+        "R15"
+      ]
+    },
+    {
+      "rationale_label": "founder_communication_quality",
+      "direction": "negative",
+      "salience": "secondary",
+      "confidence": 0.98,
+      "utterance_type": "assessment",
+      "decision_link": "none",
+      "timing": "original_pitch",
+      "turn_index": 213,
+      "quote": "there isn't a story.",
+      "explanation": "Assesses the pitch as lacking a developed company narrative.",
+      "evidence": [
+        "if you pitch me, you better know your numbers.",
+        "there isn't a story."
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 209,
+          "speaker": "Jillian",
+          "quote": "if you pitch me, you better know your numbers."
+        },
+        {
+          "turn_index": 213,
+          "speaker": "Jillian",
+          "quote": "there isn't a story."
+        }
+      ],
+      "activation": "evaluated",
+      "source_rationale_id": "R23",
+      "utterance_kind": "assessment",
+      "decision_support": "none",
+      "all_mention_ids": [
+        "R22",
+        "R23"
+      ]
+    },
+    {
+      "rationale_label": "founder_execution",
+      "direction": "positive",
+      "salience": "secondary",
+      "confidence": 0.96,
+      "utterance_type": "assessment",
+      "decision_link": "none",
+      "timing": "original_pitch",
+      "turn_index": 192,
+      "quote": "she's been doing so well without it, just think if she has it.",
+      "explanation": "Highlights how well the founder has executed despite lacking the polished story under discussion and sees further upside if she develops it.",
+      "evidence": [
+        "she's been doing so well without it, just think if she has it."
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 192,
+          "speaker": "Jillian",
+          "quote": "she's been doing so well without it, just think if she has it."
+        }
+      ],
+      "activation": "evaluated",
+      "source_rationale_id": "R21",
+      "utterance_kind": "supporting_argument",
+      "decision_support": "none",
+      "all_mention_ids": [
+        "R5",
+        "R6",
+        "R11",
+        "R12",
+        "R21"
+      ]
+    },
+    {
+      "rationale_label": "founder_qualities",
+      "direction": "positive",
+      "salience": "secondary",
+      "confidence": 0.91,
+      "utterance_type": "assessment",
+      "decision_link": "none",
+      "timing": "original_pitch",
+      "turn_index": 184,
+      "quote": "Emily, you're a pistol. We love you.",
+      "explanation": "Expresses a strongly positive personal assessment of the founder's spirited character.",
+      "evidence": [
+        "Emily, you're a pistol. We love you."
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 184,
+          "speaker": "Jillian",
+          "quote": "Emily, you're a pistol. We love you."
+        }
+      ],
+      "activation": "evaluated",
+      "source_rationale_id": "R20",
+      "utterance_kind": "assessment",
+      "decision_support": "none",
+      "all_mention_ids": [
+        "R20"
+      ]
+    },
+    {
+      "rationale_label": "fundraising_demand_signal",
+      "direction": "neutral",
+      "salience": "secondary",
+      "confidence": 0.93,
+      "utterance_type": "question",
+      "decision_link": "none",
+      "timing": "original_pitch",
+      "turn_index": 156,
+      "quote": "How much have you raised of the 500?",
+      "explanation": "Checks how much investor participation the current round has attracted.",
+      "evidence": [
+        "How much have you raised of the 500?"
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 156,
+          "speaker": "Jillian",
+          "quote": "How much have you raised of the 500?"
+        }
+      ],
+      "activation": "queried",
+      "source_rationale_id": "R14",
+      "utterance_kind": "question",
+      "decision_support": "none",
+      "all_mention_ids": [
+        "R14"
+      ]
+    },
+    {
+      "rationale_label": "go_to_market_strategy_assessment",
+      "direction": "positive",
+      "salience": "secondary",
+      "confidence": 0.94,
+      "utterance_type": "assessment",
+      "decision_link": "none",
+      "timing": "original_pitch",
+      "turn_index": 235,
+      "quote": "You crush Tik Tok -",
+      "explanation": "Credits the founder with strong performance on TikTok as a customer-reach channel.",
+      "evidence": [
+        "the fact that she's doing all this, and she's - she has not even really marketed -",
+        "She hasn't marketed.",
+        "You crush Tik Tok -"
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 222,
+          "speaker": "Jillian",
+          "quote": "the fact that she's doing all this, and she's - she has not even really marketed -"
+        },
+        {
+          "turn_index": 224,
+          "speaker": "Jillian",
+          "quote": "She hasn't marketed."
+        },
+        {
+          "turn_index": 235,
+          "speaker": "Jillian",
+          "quote": "You crush Tik Tok -"
+        }
+      ],
+      "activation": "evaluated",
+      "source_rationale_id": "R26",
+      "utterance_kind": "assessment",
+      "decision_support": "none",
+      "all_mention_ids": [
+        "R7",
+        "R13",
+        "R24",
+        "R25",
+        "R26"
+      ]
+    },
+    {
+      "rationale_label": "investor_domain_knowledge_constraint",
+      "direction": "negative",
+      "salience": "primary",
+      "confidence": 0.99,
+      "utterance_type": "decision_reason",
+      "decision_link": "explicit",
+      "timing": "original_pitch",
+      "turn_index": 169,
+      "quote": "That's just not my bailiwick.",
+      "explanation": "Links her lack of hair and consumer-products expertise to why she should not join the round.",
+      "evidence": [
+        "Because I didn't even know what fun fit and whatever was.",
+        "That's just not my bailiwick."
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 166,
+          "speaker": "Jillian",
+          "quote": "Because I didn't even know what fun fit and whatever was."
+        },
+        {
+          "turn_index": 169,
+          "speaker": "Jillian",
+          "quote": "That's just not my bailiwick."
+        }
+      ],
+      "activation": "evaluated",
+      "source_rationale_id": "R18",
+      "utterance_kind": "decision_explanation",
+      "decision_support": "supports_out",
+      "all_mention_ids": [
+        "R17",
+        "R18"
+      ]
+    },
+    {
+      "rationale_label": "investor_value_add_fit",
+      "direction": "negative",
+      "salience": "primary",
+      "confidence": 0.99,
+      "utterance_type": "decision_reason",
+      "decision_link": "explicit",
+      "timing": "original_pitch",
+      "turn_index": 169,
+      "quote": "I would probably do you a disservice by coming in.",
+      "explanation": "Explains that investing without the strategic value the company needs would be a disservice, supporting her refusal.",
+      "evidence": [
+        "I don't know what I could bring to the table, value, truthfully.",
+        "I would probably do you a disservice by coming in."
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 166,
+          "speaker": "Jillian",
+          "quote": "I don't know what I could bring to the table, value, truthfully."
+        },
+        {
+          "turn_index": 169,
+          "speaker": "Jillian",
+          "quote": "I would probably do you a disservice by coming in."
+        }
+      ],
+      "activation": "evaluated",
+      "source_rationale_id": "R19",
+      "utterance_kind": "decision_explanation",
+      "decision_support": "supports_out",
+      "all_mention_ids": [
+        "R16",
+        "R19"
+      ]
+    },
+    {
+      "rationale_label": "product_adoption",
+      "direction": "neutral",
+      "salience": "secondary",
+      "confidence": 0.96,
+      "utterance_type": "question",
+      "decision_link": "none",
+      "timing": "original_pitch",
+      "turn_index": 34,
+      "quote": "how many have you sold in order to generate the $3 million, over how long?",
+      "explanation": "Asks for unit sales and timeframe as evidence of customer adoption.",
+      "evidence": [
+        "how many have you sold in order to generate the $3 million, over how long?"
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 34,
+          "speaker": "Jillian",
+          "quote": "how many have you sold in order to generate the $3 million, over how long?"
+        }
+      ],
+      "activation": "queried",
+      "source_rationale_id": "R2",
+      "utterance_kind": "question",
+      "decision_support": "none",
+      "all_mention_ids": [
+        "R2"
+      ]
+    },
+    {
+      "rationale_label": "product_differentiation_concern",
+      "direction": "negative",
+      "salience": "primary",
+      "confidence": 0.99,
+      "utterance_type": "assessment",
+      "decision_link": "none",
+      "timing": "original_pitch",
+      "turn_index": 70,
+      "quote": "it'd be really easy to rip this off.",
+      "explanation": "Expresses concern that competitors can readily copy the product.",
+      "evidence": [
+        "it'd be really easy to rip this off."
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 70,
+          "speaker": "Jillian",
+          "quote": "it'd be really easy to rip this off."
+        }
+      ],
+      "activation": "evaluated",
+      "source_rationale_id": "R8",
+      "utterance_kind": "concern",
+      "decision_support": "none",
+      "all_mention_ids": [
+        "R8"
+      ]
+    },
+    {
+      "rationale_label": "solution_feasibility_assessment",
+      "direction": "neutral",
+      "salience": "secondary",
+      "confidence": 0.95,
+      "utterance_type": "question",
+      "decision_link": "none",
+      "timing": "original_pitch",
+      "turn_index": 40,
+      "quote": "Does that create any problems?",
+      "explanation": "Probes whether overseas manufacturing creates operational difficulties.",
+      "evidence": [
+        "Where are you manufacturing this?",
+        "Does that create any problems?"
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 38,
+          "speaker": "Jillian",
+          "quote": "Where are you manufacturing this?"
+        },
+        {
+          "turn_index": 40,
+          "speaker": "Jillian",
+          "quote": "Does that create any problems?"
+        }
+      ],
+      "activation": "queried",
+      "source_rationale_id": "R4",
+      "utterance_kind": "question",
+      "decision_support": "none",
+      "all_mention_ids": [
+        "R3",
+        "R4"
+      ]
+    },
+    {
+      "rationale_label": "unit_economics_assessment",
+      "direction": "neutral",
+      "salience": "secondary",
+      "confidence": 0.98,
+      "utterance_type": "question",
+      "decision_link": "none",
+      "timing": "original_pitch",
+      "turn_index": 34,
+      "quote": "What's the price? What's the hard cost",
+      "explanation": "Requests selling-price and unit-cost inputs needed to assess gross unit economics.",
+      "evidence": [
+        "What's the price? What's the hard cost"
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 34,
+          "speaker": "Jillian",
+          "quote": "What's the price? What's the hard cost"
+        }
+      ],
+      "activation": "queried",
+      "source_rationale_id": "R1",
+      "utterance_kind": "question",
+      "decision_support": "none",
+      "all_mention_ids": [
+        "R1"
+      ]
+    }
+  ],
+  "later_rationales": [],
+  "excluded_rationales": [],
+  "rationale_mentions": [
+    {
+      "rationale_label": "unit_economics_assessment",
+      "direction": "neutral",
+      "salience": "secondary",
+      "confidence": 0.98,
+      "utterance_type": "question",
+      "decision_link": "none",
+      "timing": "original_pitch",
+      "turn_index": 34,
+      "quote": "What's the price? What's the hard cost",
+      "explanation": "Requests selling-price and unit-cost inputs needed to assess gross unit economics.",
+      "evidence": [
+        "What's the price? What's the hard cost"
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 34,
+          "speaker": "Jillian",
+          "quote": "What's the price? What's the hard cost"
+        }
+      ],
+      "activation": "queried",
+      "source_rationale_id": "R1"
+    },
+    {
+      "rationale_label": "product_adoption",
+      "direction": "neutral",
+      "salience": "secondary",
+      "confidence": 0.96,
+      "utterance_type": "question",
+      "decision_link": "none",
+      "timing": "original_pitch",
+      "turn_index": 34,
+      "quote": "how many have you sold in order to generate the $3 million, over how long?",
+      "explanation": "Asks for unit sales and timeframe as evidence of customer adoption.",
+      "evidence": [
+        "how many have you sold in order to generate the $3 million, over how long?"
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 34,
+          "speaker": "Jillian",
+          "quote": "how many have you sold in order to generate the $3 million, over how long?"
+        }
+      ],
+      "activation": "queried",
+      "source_rationale_id": "R2"
+    },
+    {
+      "rationale_label": "solution_feasibility_assessment",
+      "direction": "neutral",
+      "salience": "secondary",
+      "confidence": 0.93,
+      "utterance_type": "question",
+      "decision_link": "none",
+      "timing": "original_pitch",
+      "turn_index": 38,
+      "quote": "Where are you manufacturing this?",
+      "explanation": "Checks the product's manufacturing arrangement and operational feasibility.",
+      "evidence": [
+        "Where are you manufacturing this?"
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 38,
+          "speaker": "Jillian",
+          "quote": "Where are you manufacturing this?"
+        }
+      ],
+      "activation": "queried",
+      "source_rationale_id": "R3"
+    },
+    {
+      "rationale_label": "solution_feasibility_assessment",
+      "direction": "neutral",
+      "salience": "secondary",
+      "confidence": 0.95,
+      "utterance_type": "question",
+      "decision_link": "none",
+      "timing": "original_pitch",
+      "turn_index": 40,
+      "quote": "Does that create any problems?",
+      "explanation": "Probes whether overseas manufacturing creates operational difficulties.",
+      "evidence": [
+        "Does that create any problems?"
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 40,
+          "speaker": "Jillian",
+          "quote": "Does that create any problems?"
+        }
+      ],
+      "activation": "queried",
+      "source_rationale_id": "R4"
+    },
+    {
+      "rationale_label": "founder_execution",
+      "direction": "neutral",
+      "salience": "secondary",
+      "confidence": 0.94,
+      "utterance_type": "question",
+      "decision_link": "none",
+      "timing": "original_pitch",
+      "turn_index": 42,
+      "quote": "what was the last product that you brought to market?",
+      "explanation": "Investigates the founder's prior experience executing a product launch.",
+      "evidence": [
+        "what was the last product that you brought to market?"
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 42,
+          "speaker": "Jillian",
+          "quote": "what was the last product that you brought to market?"
+        }
+      ],
+      "activation": "queried",
+      "source_rationale_id": "R5"
+    },
+    {
+      "rationale_label": "founder_execution",
+      "direction": "neutral",
+      "salience": "secondary",
+      "confidence": 0.94,
+      "utterance_type": "question",
+      "decision_link": "none",
+      "timing": "original_pitch",
+      "turn_index": 44,
+      "quote": "what happened to that company?",
+      "explanation": "Asks about the outcome of the founder's previous venture to assess her execution history.",
+      "evidence": [
+        "what happened to that company?"
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 44,
+          "speaker": "Jillian",
+          "quote": "what happened to that company?"
+        }
+      ],
+      "activation": "queried",
+      "source_rationale_id": "R6"
+    },
+    {
+      "rationale_label": "go_to_market_strategy_assessment",
+      "direction": "neutral",
+      "salience": "secondary",
+      "confidence": 0.97,
+      "utterance_type": "question",
+      "decision_link": "none",
+      "timing": "original_pitch",
+      "turn_index": 48,
+      "quote": "what does the volume look like? is there a guaranteed minimum order from them or time on the shelf or placement?",
+      "explanation": "Examines the expected volume, commitment, duration, and placement of the Target retail channel.",
+      "evidence": [
+        "what does the volume look like? is there a guaranteed minimum order from them or time on the shelf or placement?"
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 48,
+          "speaker": "Jillian",
+          "quote": "what does the volume look like? is there a guaranteed minimum order from them or time on the shelf or placement?"
+        }
+      ],
+      "activation": "queried",
+      "source_rationale_id": "R7"
+    },
+    {
+      "rationale_label": "product_differentiation_concern",
+      "direction": "negative",
+      "salience": "primary",
+      "confidence": 0.99,
+      "utterance_type": "concern",
+      "decision_link": "none",
+      "timing": "original_pitch",
+      "turn_index": 70,
+      "quote": "it'd be really easy to rip this off.",
+      "explanation": "Expresses concern that competitors can readily copy the product.",
+      "evidence": [
+        "it'd be really easy to rip this off."
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 70,
+          "speaker": "Jillian",
+          "quote": "it'd be really easy to rip this off."
+        }
+      ],
+      "activation": "evaluated",
+      "source_rationale_id": "R8"
+    },
+    {
+      "rationale_label": "capital_intensity_concern",
+      "direction": "negative",
+      "salience": "secondary",
+      "confidence": 0.88,
+      "utterance_type": "question",
+      "decision_link": "none",
+      "timing": "original_pitch",
+      "turn_index": 75,
+      "quote": "Fighting lawsuits?",
+      "explanation": "Skeptically probes the potentially recurring expense of enforcing protection against copycats.",
+      "evidence": [
+        "Fighting lawsuits?"
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 75,
+          "speaker": "Jillian",
+          "quote": "Fighting lawsuits?"
+        }
+      ],
+      "activation": "queried",
+      "source_rationale_id": "R9"
+    },
+    {
+      "rationale_label": "business_model_assessment",
+      "direction": "neutral",
+      "salience": "secondary",
+      "confidence": 0.96,
+      "utterance_type": "question",
+      "decision_link": "none",
+      "timing": "original_pitch",
+      "turn_index": 98,
+      "quote": "What's your operations cost now?",
+      "explanation": "Requests current operating costs to evaluate the company's economics.",
+      "evidence": [
+        "What's your operations cost now?"
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 98,
+          "speaker": "Jillian",
+          "quote": "What's your operations cost now?"
+        }
+      ],
+      "activation": "queried",
+      "source_rationale_id": "R10"
+    },
+    {
+      "rationale_label": "founder_execution",
+      "direction": "neutral",
+      "salience": "secondary",
+      "confidence": 0.93,
+      "utterance_type": "question",
+      "decision_link": "none",
+      "timing": "original_pitch",
+      "turn_index": 104,
+      "quote": "Tell us about your team. Well, now really tell us about your team since if you're 5000 a month -",
+      "explanation": "Probes the team's operating capacity in light of the unusually low reported monthly cost.",
+      "evidence": [
+        "Tell us about your team. Well, now really tell us about your team since if you're 5000 a month -"
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 104,
+          "speaker": "Jillian",
+          "quote": "Tell us about your team. Well, now really tell us about your team since if you're 5000 a month -"
+        }
+      ],
+      "activation": "queried",
+      "source_rationale_id": "R11"
+    },
+    {
+      "rationale_label": "founder_execution",
+      "direction": "neutral",
+      "salience": "secondary",
+      "confidence": 0.89,
+      "utterance_type": "question",
+      "decision_link": "none",
+      "timing": "original_pitch",
+      "turn_index": 107,
+      "quote": "Who is it?",
+      "explanation": "Continues the inquiry into who comprises the company's operating team.",
+      "evidence": [
+        "Who is it?"
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 107,
+          "speaker": "Jillian",
+          "quote": "Who is it?"
+        }
+      ],
+      "activation": "queried",
+      "source_rationale_id": "R12"
+    },
+    {
+      "rationale_label": "go_to_market_strategy_assessment",
+      "direction": "neutral",
+      "salience": "secondary",
+      "confidence": 0.94,
+      "utterance_type": "question",
+      "decision_link": "none",
+      "timing": "original_pitch",
+      "turn_index": 109,
+      "quote": "So you have no sales?",
+      "explanation": "Asks whether the small team lacks dedicated sales personnel, bearing on its sales motion.",
+      "evidence": [
+        "So you have no sales?"
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 109,
+          "speaker": "Jillian",
+          "quote": "So you have no sales?"
+        }
+      ],
+      "activation": "queried",
+      "source_rationale_id": "R13"
+    },
+    {
+      "rationale_label": "fundraising_demand_signal",
+      "direction": "neutral",
+      "salience": "secondary",
+      "confidence": 0.93,
+      "utterance_type": "question",
+      "decision_link": "none",
+      "timing": "original_pitch",
+      "turn_index": 156,
+      "quote": "How much have you raised of the 500?",
+      "explanation": "Checks how much investor participation the current round has attracted.",
+      "evidence": [
+        "How much have you raised of the 500?"
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 156,
+          "speaker": "Jillian",
+          "quote": "How much have you raised of the 500?"
+        }
+      ],
+      "activation": "queried",
+      "source_rationale_id": "R14"
+    },
+    {
+      "rationale_label": "deal_terms_complexity_concern",
+      "direction": "neutral",
+      "salience": "secondary",
+      "confidence": 0.91,
+      "utterance_type": "question",
+      "decision_link": "none",
+      "timing": "original_pitch",
+      "turn_index": 158,
+      "quote": "And what terms would that be?",
+      "explanation": "Requests the proposed financing terms needed to evaluate the round.",
+      "evidence": [
+        "And what terms would that be?"
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 158,
+          "speaker": "Jillian",
+          "quote": "And what terms would that be?"
+        }
+      ],
+      "activation": "queried",
+      "source_rationale_id": "R15"
+    },
+    {
+      "rationale_label": "investor_value_add_fit",
+      "direction": "negative",
+      "salience": "primary",
+      "confidence": 0.99,
+      "utterance_type": "decision_explanation",
+      "decision_link": "none",
+      "timing": "original_pitch",
+      "turn_index": 166,
+      "quote": "I don't know what I could bring to the table, value, truthfully.",
+      "explanation": "States that Jillian cannot identify meaningful value she could contribute beyond capital.",
+      "evidence": [
+        "I don't know what I could bring to the table, value, truthfully."
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 166,
+          "speaker": "Jillian",
+          "quote": "I don't know what I could bring to the table, value, truthfully."
+        }
+      ],
+      "activation": "evaluated",
+      "source_rationale_id": "R16"
+    },
+    {
+      "rationale_label": "investor_domain_knowledge_constraint",
+      "direction": "negative",
+      "salience": "secondary",
+      "confidence": 0.96,
+      "utterance_type": "decision_explanation",
+      "decision_link": "none",
+      "timing": "original_pitch",
+      "turn_index": 166,
+      "quote": "Because I didn't even know what fun fit and whatever was.",
+      "explanation": "Uses her unfamiliarity with a major consumer channel to illustrate her limited domain knowledge.",
+      "evidence": [
+        "Because I didn't even know what fun fit and whatever was."
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 166,
+          "speaker": "Jillian",
+          "quote": "Because I didn't even know what fun fit and whatever was."
+        }
+      ],
+      "activation": "evaluated",
+      "source_rationale_id": "R17"
+    },
+    {
+      "rationale_label": "investor_domain_knowledge_constraint",
+      "direction": "negative",
+      "salience": "primary",
+      "confidence": 0.99,
+      "utterance_type": "decision_explanation",
+      "decision_link": "supports_out",
+      "timing": "original_pitch",
+      "turn_index": 169,
+      "quote": "That's just not my bailiwick.",
+      "explanation": "Links her lack of hair and consumer-products expertise to why she should not join the round.",
+      "evidence": [
+        "That's just not my bailiwick."
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 169,
+          "speaker": "Jillian",
+          "quote": "That's just not my bailiwick."
+        }
+      ],
+      "activation": "evaluated",
+      "source_rationale_id": "R18"
+    },
+    {
+      "rationale_label": "investor_value_add_fit",
+      "direction": "negative",
+      "salience": "primary",
+      "confidence": 0.99,
+      "utterance_type": "decision_explanation",
+      "decision_link": "supports_out",
+      "timing": "original_pitch",
+      "turn_index": 169,
+      "quote": "I would probably do you a disservice by coming in.",
+      "explanation": "Explains that investing without the strategic value the company needs would be a disservice, supporting her refusal.",
+      "evidence": [
+        "I would probably do you a disservice by coming in."
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 169,
+          "speaker": "Jillian",
+          "quote": "I would probably do you a disservice by coming in."
+        }
+      ],
+      "activation": "evaluated",
+      "source_rationale_id": "R19"
+    },
+    {
+      "rationale_label": "founder_qualities",
+      "direction": "positive",
+      "salience": "secondary",
+      "confidence": 0.91,
+      "utterance_type": "assessment",
+      "decision_link": "none",
+      "timing": "original_pitch",
+      "turn_index": 184,
+      "quote": "Emily, you're a pistol. We love you.",
+      "explanation": "Expresses a strongly positive personal assessment of the founder's spirited character.",
+      "evidence": [
+        "Emily, you're a pistol. We love you."
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 184,
+          "speaker": "Jillian",
+          "quote": "Emily, you're a pistol. We love you."
+        }
+      ],
+      "activation": "evaluated",
+      "source_rationale_id": "R20"
+    },
+    {
+      "rationale_label": "founder_execution",
+      "direction": "positive",
+      "salience": "secondary",
+      "confidence": 0.96,
+      "utterance_type": "supporting_argument",
+      "decision_link": "none",
+      "timing": "original_pitch",
+      "turn_index": 192,
+      "quote": "she's been doing so well without it, just think if she has it.",
+      "explanation": "Highlights how well the founder has executed despite lacking the polished story under discussion and sees further upside if she develops it.",
+      "evidence": [
+        "she's been doing so well without it, just think if she has it."
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 192,
+          "speaker": "Jillian",
+          "quote": "she's been doing so well without it, just think if she has it."
+        }
+      ],
+      "activation": "evaluated",
+      "source_rationale_id": "R21"
+    },
+    {
+      "rationale_label": "founder_communication_quality",
+      "direction": "negative",
+      "salience": "secondary",
+      "confidence": 0.95,
+      "utterance_type": "assessment",
+      "decision_link": "none",
+      "timing": "original_pitch",
+      "turn_index": 209,
+      "quote": "if you pitch me, you better know your numbers.",
+      "explanation": "Critiques the founder's command of the business numbers as an important pitching requirement for Jillian.",
+      "evidence": [
+        "if you pitch me, you better know your numbers."
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 209,
+          "speaker": "Jillian",
+          "quote": "if you pitch me, you better know your numbers."
+        }
+      ],
+      "activation": "evaluated",
+      "source_rationale_id": "R22"
+    },
+    {
+      "rationale_label": "founder_communication_quality",
+      "direction": "negative",
+      "salience": "secondary",
+      "confidence": 0.98,
+      "utterance_type": "assessment",
+      "decision_link": "none",
+      "timing": "original_pitch",
+      "turn_index": 213,
+      "quote": "there isn't a story.",
+      "explanation": "Assesses the pitch as lacking a developed company narrative.",
+      "evidence": [
+        "there isn't a story."
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 213,
+          "speaker": "Jillian",
+          "quote": "there isn't a story."
+        }
+      ],
+      "activation": "evaluated",
+      "source_rationale_id": "R23"
+    },
+    {
+      "rationale_label": "go_to_market_strategy_assessment",
+      "direction": "positive",
+      "salience": "secondary",
+      "confidence": 0.96,
+      "utterance_type": "supporting_argument",
+      "decision_link": "none",
+      "timing": "original_pitch",
+      "turn_index": 222,
+      "quote": "the fact that she's doing all this, and she's - she has not even really marketed -",
+      "explanation": "Highlights that the company achieved substantial results without meaningful marketing, suggesting untapped acquisition upside.",
+      "evidence": [
+        "the fact that she's doing all this, and she's - she has not even really marketed -"
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 222,
+          "speaker": "Jillian",
+          "quote": "the fact that she's doing all this, and she's - she has not even really marketed -"
+        }
+      ],
+      "activation": "evaluated",
+      "source_rationale_id": "R24"
+    },
+    {
+      "rationale_label": "go_to_market_strategy_assessment",
+      "direction": "positive",
+      "salience": "secondary",
+      "confidence": 0.95,
+      "utterance_type": "supporting_argument",
+      "decision_link": "none",
+      "timing": "original_pitch",
+      "turn_index": 224,
+      "quote": "She hasn't marketed.",
+      "explanation": "Reiterates that the company's results were achieved before significant marketing investment.",
+      "evidence": [
+        "She hasn't marketed."
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 224,
+          "speaker": "Jillian",
+          "quote": "She hasn't marketed."
+        }
+      ],
+      "activation": "evaluated",
+      "source_rationale_id": "R25"
+    },
+    {
+      "rationale_label": "go_to_market_strategy_assessment",
+      "direction": "positive",
+      "salience": "secondary",
+      "confidence": 0.94,
+      "utterance_type": "assessment",
+      "decision_link": "none",
+      "timing": "original_pitch",
+      "turn_index": 235,
+      "quote": "You crush Tik Tok -",
+      "explanation": "Credits the founder with strong performance on TikTok as a customer-reach channel.",
+      "evidence": [
+        "You crush Tik Tok -"
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 235,
+          "speaker": "Jillian",
+          "quote": "You crush Tik Tok -"
+        }
+      ],
+      "activation": "evaluated",
+      "source_rationale_id": "R26"
+    }
+  ],
+  "expanded_quote_evidence": [],
+  "rejected_after_evidence_check": []
+}

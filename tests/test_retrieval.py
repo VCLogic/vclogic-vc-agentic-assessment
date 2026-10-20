@@ -134,7 +134,7 @@ def test_read_rejects_unknown_chunk(tmp_path: Path) -> None:
         raise AssertionError("unknown chunk was accepted")
 
 
-def test_pitch_view_redacts_target_but_preserves_other_holdings(tmp_path: Path) -> None:
+def test_pitch_view_excludes_target_section_and_preserves_unrelated_sections(tmp_path: Path) -> None:
     wiki = make_wiki(tmp_path)
     (wiki / "portfolio.md").write_text(
         "# Portfolio\n\nEdtech holdings: Campus, ClassDojo, Nectir.\n",
@@ -150,7 +150,8 @@ def test_pitch_view_redacts_target_but_preserves_other_holdings(tmp_path: Path) 
     changed = sanitized.read(report.changed_chunk_ids[0])
     assert "Nectir" not in changed.text
     assert "TARGET COMPANY" not in changed.text
-    assert "Campus" in changed.text
+    assert "Campus" not in changed.text
+    assert "excluded" in changed.text
     assert report.changed_chunk_count == 1
     assert report.recomputed_embedding_count == 1
     assert report.reused_embedding_count == len(base.chunks) - 1
@@ -187,12 +188,7 @@ def test_pitch_view_sanitizes_headings_and_unicode_casefold_variants(
     evidence = sanitized.read(report.changed_chunk_ids[0])
     assert "strasse" not in evidence.heading.casefold()
     assert "strasse" not in evidence.text.casefold()
-    hit = next(
-        hit
-        for hit in sanitized.search("education", 10)
-        if hit.chunk_id == evidence.chunk_id
-    )
-    assert "strasse" not in hit.heading.casefold()
+    assert "builds education software" not in evidence.text
 
 
 def test_pitch_view_sanitizes_aliases_from_exposed_source_paths(
@@ -205,18 +201,13 @@ def test_pitch_view_sanitizes_aliases_from_exposed_source_paths(
         encoding="utf-8",
     )
 
-    sanitized, _ = HybridWikiIndex.build(wiki, TinyEmbedder()).for_pitch(
+    sanitized, report = HybridWikiIndex.build(wiki, TinyEmbedder()).for_pitch(
         ["Nectir"]
     )
-    hit = next(
-        hit for hit in sanitized.search("education", 10)
-        if "education" in hit.excerpt.lower()
-    )
-    evidence = sanitized.read(hit.chunk_id)
+    evidence = sanitized.read(report.changed_chunk_ids[0])
 
-    assert "nectir" not in hit.source_path.casefold()
     assert "nectir" not in evidence.source_path.casefold()
-    assert evidence.text == "# Portfolio note\n\nAn education company is in the portfolio."
+    assert "in the portfolio" not in evidence.text
 
 
 def test_pitch_view_rejects_canonical_source_mutation(tmp_path: Path) -> None:
@@ -250,6 +241,24 @@ def test_pitch_view_embedding_failure_keeps_changed_chunk_lexical_only(
     assert report.lexical_only_chunk_ids == report.changed_chunk_ids
     assert report.quality_findings == ("SANITIZED_EMBEDDING_FALLBACK",)
     hit = next(
-        hit for hit in sanitized.search("Campus", 10) if hit.chunk_id in report.changed_chunk_ids
+        hit for hit in sanitized.search("excluded", 10) if hit.chunk_id in report.changed_chunk_ids
     )
     assert hit.retrieval_modes == ("lexical",)
+
+
+def test_target_decision_and_derived_policy_are_excluded(tmp_path: Path) -> None:
+    wiki = make_wiki(tmp_path)
+    (wiki / "context.md").write_text(
+        "## [ctx:vc-1]\nGemist received a $250,000 investment.\n"
+    )
+    (wiki / "derived.md").write_text(
+        "# Derived policy\nShe committed $250,000 at this valuation. [ctx:vc-1]\n"
+    )
+    base = HybridWikiIndex.build(wiki, TinyEmbedder())
+    sanitized, report = base.for_pitch(["Gemist"])
+    visible = "\n".join(c.text for c in sanitized.chunks)
+    assert "$250,000" not in visible
+    assert "committed" not in visible
+    assert "[ctx:vc-1]" not in visible
+    assert report.changed_chunk_count == 2
+    assert any("Gemist" in c.text for c in base.chunks)

@@ -1,0 +1,156 @@
+{
+  "scope": "Two selected founders-only OpenRouter examples; not overall benchmark performance",
+  "reference_quality": "Automated candidate annotations, not human validated; neutral questions and subjective direction labels affect strict direction matching.",
+  "scoring": "Exact unique taxonomy labels; strict direction scoring matches (label,direction) pairs. Includes original in-room discussion/debrief, excludes later commentary.",
+  "cases": [
+    {
+      "episode_slug": "159-aura-finance-chasing-the-ghost-of-mint",
+      "mode": "founders-only",
+      "provider": "openrouter",
+      "actual_decision": "Out",
+      "predicted_decision": "In",
+      "phase1_iterations": 3,
+      "phase2_iterations": 4,
+      "phase1_status": "provisional",
+      "phase2_status": "provisional",
+      "label_scores": {
+        "tp": 9,
+        "fp": 5,
+        "fn": 6,
+        "precision": 0.6428571428571429,
+        "recall": 0.6,
+        "f1": 0.6206896551724138,
+        "jaccard": 0.45
+      },
+      "label_direction_scores": {
+        "tp": 7,
+        "fp": 7,
+        "fn": 8,
+        "precision": 0.5,
+        "recall": 0.4666666666666667,
+        "f1": 0.4827586206896552,
+        "jaccard": 0.3181818181818182
+      },
+      "matched_labels": [
+        "business_model_assessment",
+        "competitive_advantage_assessment",
+        "founder_execution",
+        "founder_market_fit",
+        "founder_qualities",
+        "go_to_market_strategy_assessment",
+        "product_adoption",
+        "solution_feasibility_assessment",
+        "traction_repeatability_concern"
+      ],
+      "missed_labels": [
+        "competitive_intensity_concern",
+        "investment_thesis_constraint",
+        "investor_experience_bias",
+        "market_timing",
+        "mission_alignment_preference",
+        "product_success_factor_assessment"
+      ],
+      "additional_labels": [
+        "founder_communication_quality",
+        "founder_motivation_authenticity",
+        "market_entry_path_assessment",
+        "market_problem_validation",
+        "stage_valuation_mismatch"
+      ],
+      "direction_mismatches": [
+        {
+          "label": "business_model_assessment",
+          "predicted": "positive",
+          "reference": "negative"
+        },
+        {
+          "label": "go_to_market_strategy_assessment",
+          "predicted": "negative",
+          "reference": "positive"
+        }
+      ],
+      "prediction_path": "outputs/pitchshow-evaluation/jenny-fielding-everywhere-ventures/159-aura-finance-chasing-the-ghost-of-mint/founders-only/9dcdc38e66483da2422b46f3590d9ded1e4658c142a131224776ff5a5c1a341d/attempt-1/runs/159-aura-finance-chasing-the-ghost-of-mint/phase1/investigation.json",
+      "reference_path": "evaluation/pitchshow/investors/jenny-fielding-everywhere-ventures/rationale-references/159-aura-finance-chasing-the-ghost-of-mint.json",
+      "summary_path": "outputs/pitchshow-evaluation/jenny-fielding-everywhere-ventures/159-aura-finance-chasing-the-ghost-of-mint/founders-only/9dcdc38e66483da2422b46f3590d9ded1e4658c142a131224776ff5a5c1a341d/attempt-1/runs/159-aura-finance-chasing-the-ghost-of-mint/summary.json"
+    },
+    {
+      "episode_slug": "168-finnecto-where-deals-dont-die",
+      "mode": "founders-only",
+      "provider": "openrouter",
+      "actual_decision": "In",
+      "predicted_decision": "In",
+      "phase1_iterations": 4,
+      "phase2_iterations": 3,
+      "phase1_status": "provisional",
+      "phase2_status": "provisional",
+      "label_scores": {
+        "tp": 6,
+        "fp": 6,
+        "fn": 7,
+        "precision": 0.5,
+        "recall": 0.46153846153846156,
+        "f1": 0.48000000000000004,
+        "jaccard": 0.3157894736842105
+      },
+      "label_direction_scores": {
+        "tp": 2,
+        "fp": 10,
+        "fn": 11,
+        "precision": 0.16666666666666666,
+        "recall": 0.15384615384615385,
+        "f1": 0.16,
+        "jaccard": 0.08695652173913043
+      },
+      "matched_labels": [
+        "founder_execution",
+        "go_to_market_strategy_assessment",
+        "growth_projection_risk",
+        "investment_upside_assessment",
+        "market_entry_path_assessment",
+        "market_problem_validation"
+      ],
+      "missed_labels": [
+        "capital_intensity_concern",
+        "competitive_advantage_assessment",
+        "deal_terms_complexity_concern",
+        "founder_communication_quality",
+        "investment_thesis_constraint",
+        "market_timing",
+        "product_adoption"
+      ],
+      "additional_labels": [
+        "business_model_assessment",
+        "founder_market_fit",
+        "founder_motivation_authenticity",
+        "founder_qualities",
+        "solution_feasibility_assessment",
+        "unit_economics_assessment"
+      ],
+      "direction_mismatches": [
+        {
+          "label": "go_to_market_strategy_assessment",
+          "predicted": "positive",
+          "reference": "neutral"
+        },
+        {
+          "label": "growth_projection_risk",
+          "predicted": "negative",
+          "reference": "neutral"
+        },
+        {
+          "label": "investment_upside_assessment",
+          "predicted": "positive",
+          "reference": "negative"
+        },
+        {
+          "label": "market_entry_path_assessment",
+          "predicted": "positive",
+          "reference": "neutral"
+        }
+      ],
+      "prediction_path": "outputs/pitchshow-evaluation/jenny-fielding-everywhere-ventures/168-finnecto-where-deals-dont-die/founders-only/5457356bc6e513a0e809639b44acaa1f03fa3d828594074af5cc2abe9f623039/attempt-1/runs/168-finnecto-where-deals-dont-die/phase1/investigation.json",
+      "reference_path": "evaluation/pitchshow/investors/jenny-fielding-everywhere-ventures/rationale-references/168-finnecto-where-deals-dont-die.json",
+      "summary_path": "outputs/pitchshow-evaluation/jenny-fielding-everywhere-ventures/168-finnecto-where-deals-dont-die/founders-only/5457356bc6e513a0e809639b44acaa1f03fa3d828594074af5cc2abe9f623039/attempt-1/runs/168-finnecto-where-deals-dont-die/summary.json"
+    }
+  ]
+}

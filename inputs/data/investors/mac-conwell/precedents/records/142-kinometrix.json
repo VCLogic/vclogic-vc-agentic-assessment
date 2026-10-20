@@ -1,0 +1,518 @@
+{
+  "decision": {
+    "audit_notes": "Verified current-session dialogue; decision evidence remapped to cleaned source.",
+    "audit_source": "/home/dpasch01/vclogic-vc-agentic-assessment/evaluation/pitchshow/reviews/142-kinometrix.json",
+    "check_tier": null,
+    "conditions": [],
+    "context": "initial_panel",
+    "evidence": [
+      {
+        "text": "And and at Rare Breed, we invest in dope founders. So, uh I need to figure out how to be a part of this. I see a lot of different companies working with medical systems. Getting pilots is super hard. Getting pilots of this scale, not something you see every day. And sales cycles are really long, but for a problem like this. If you really do reduce the amount of head count and the amount of falls it's not going to be as hard of a sales cycle in the future. So I'd be excited for Rare Breed to participate at minimum 50, maybe more. You know, going over due diligence to timing, but we got this.",
+        "turn_end": 44,
+        "turn_start": 44
+      }
+    ],
+    "status": "In"
+  },
+  "episode_number": 142,
+  "episode_slug": "142-kinometrix",
+  "investor_aliases": [
+    "Mac Conwell",
+    "Mac"
+  ],
+  "investor_present": true,
+  "source_path": "sources/142-kinometrix.json",
+  "source_sha256": "ce866a8daf5dcb1b1c568c7c89c026e9a3202875f4ddabb1cd670483d4457e14",
+  "turns": [
+    {
+      "speaker": "Devina",
+      "text": "Hi, I'm Devina Desai. I'm the CEO of Kinometrix. We like to think hospitals are a safe place for patients, a place for them to heal. In reality, hospitals are extremely dangerous, with one in four patients experiencing some sort of adverse event. Preventable harm events such as falls, pressure injuries, hospital-acquired infections contribute to 17 percent of US deaths each year. Over 1 million patients fall in hospitals each year, and that costs US hospitals over $35 billion. That's where Kinometrix came in. We began with trying to solve the problem of hospital falls from a risk assessment standpoint. How they currently risk assess patients is manual, it's antiquated, and it's additional documentation for nurses, inaccurate and subjective. Our product is a clinical decision support system that leverages existing electronic health record data and machine learning. So far, we've developed our entire platform, and we've also developed our fault risk assessment product on the platform. We have all the APIs connecting it to any electronic health record in the US. We have three signed letters of intent, as well as two large contracts in process with health systems that have some international presence, as well. We are currently raising a $1.5 million round from which we've already closed a little over $1.2 million. Thank you.",
+      "turn_index": 0
+    },
+    {
+      "speaker": "Cyan",
+      "text": "Congrats.",
+      "turn_index": 1
+    },
+    {
+      "speaker": "Mac",
+      "text": "So, help me understand this fall risk assessment, right? So, what does that mean? Does that mean after I've had a surgery, it assess my, you know, levels of falling? Or does it assess like the infrastructure of the hospital? Like Explain to me what that means.",
+      "turn_index": 2
+    },
+    {
+      "speaker": "Devina",
+      "text": "So anytime you're hospitalized, the hospital is required to risk assess all adult patients for falls, because falls are considered to be preventable, never events. Hospitals also don't get reimbursed for any care resulting from a fall. That's why they proactively are required to assess patients for falls. How they currently do it is a checklist The nurse has to manually complete the checklist at least once per shift. It should be done more frequently, every time the patient record is updated, but we all know nurses are overburdened, hospitals are understaffed. So it's really not completed as frequently. It's also a manual checklist, so it's very subjective and inaccurate. It doesn't leverage the breadth of data that is captured in the electronic health record.",
+      "turn_index": 3
+    },
+    {
+      "speaker": "Ben",
+      "text": "So I understand the value of the product, very much so. Could you paint a bit more vivid of a picture in my head of the actual product experience? You mentioned there's an existing checklist system. Are you replacing that checklist system? Is this on an iPad? Like what is literally the UX for the nurse who uses this?",
+      "turn_index": 4
+    },
+    {
+      "speaker": "Devina",
+      "text": "So it is replacing their existing system. As soon as the patient is admitted, Kinometrix gets some data. We get demographics, we get some vitals, we get medications, diagnoses.",
+      "turn_index": 5
+    },
+    {
+      "speaker": "Ben",
+      "text": "Mmm.",
+      "turn_index": 6
+    },
+    {
+      "speaker": "Devina",
+      "text": "So we've already risk assessed the patient. As soon as they get to their fall risk assessment, they will have a risk assessment there. Your patient is moderate fall risk. This is what's driving the patient's risk. This is the intervention we recommend. Then as additional inputs come in, that keeps getting updated. So now it's dynamic. The physician writes a new medication, the patient has surgery, that gets risk assessed again, and it's updated, so now your patient's risk is high, we recommend more frequent rounding.",
+      "turn_index": 7
+    },
+    {
+      "speaker": "Cyan",
+      "text": "So if you increase fall risk You're not allowed to go to the bathroom or walk any place without a nurse coming and assisting you. So that increases staffing in a hospital. Are they prepared to increase their staffing potentially?",
+      "turn_index": 8
+    },
+    {
+      "speaker": "Devina",
+      "text": "So that's what we're trying to change. Not every patient's fall risk requires a nurse to come and take you to the bathroom.",
+      "turn_index": 9
+    },
+    {
+      "speaker": "Cyan",
+      "text": "Okay.",
+      "turn_index": 10
+    },
+    {
+      "speaker": "Devina",
+      "text": "Certain fall risks are driven by behavior, so those patients benefit more from remote video monitoring, or a sitter in the room, depending on what's driving your risk. Your risk could be driven by your blood pressure. That doesn't require additional staffing; that requires a medication to address your blood pressure. So we're truly trying to help them optimize their current resources and deploy them to the right patient.",
+      "turn_index": 11
+    },
+    {
+      "speaker": "Cyan",
+      "text": "Can you walk us through the sales cycle of selling this product as well as pricing and things of that nature?",
+      "turn_index": 12
+    },
+    {
+      "speaker": "Devina",
+      "text": "Sure. So it's usually an enterprise contract of some sort. We do allow for pilots with individual hospitals. And the sales usually starts at a nurse executive level. It goes through IT and security review, because we do integrate directly with their electronic health records. We charge hospitals a licensing fee. $480 per bed per year. That's for the first module. We've started with falls because it's the most prevalent. We're going to add pressure injuries next. We'll follow that with hospital-acquired infections. Truly make it a comprehensive patient safety platform.",
+      "turn_index": 13
+    },
+    {
+      "speaker": "Cyan",
+      "text": "Hm",
+      "turn_index": 14
+    },
+    {
+      "speaker": "Mac",
+      "text": "So, just to recapsulate. So the product's fully built?",
+      "turn_index": 15
+    },
+    {
+      "speaker": "Devina",
+      "text": "The product's fully built.",
+      "turn_index": 16
+    },
+    {
+      "speaker": "Mac",
+      "text": "Okay. And you have the three LOIs and you're working on additional contracts.",
+      "turn_index": 17
+    },
+    {
+      "speaker": "Devina",
+      "text": "So we have two contracts that will go live towards the end of Q3 of this year.",
+      "turn_index": 18
+    },
+    {
+      "speaker": "Mac",
+      "text": "What's the, the average value of those contracts?",
+      "turn_index": 19
+    },
+    {
+      "speaker": "Devina",
+      "text": "So they're starting as a pilot -",
+      "turn_index": 20
+    },
+    {
+      "speaker": "Mac",
+      "text": "That's fine.",
+      "turn_index": 21
+    },
+    {
+      "speaker": "Devina",
+      "text": "- in a region, but the average value for one of them is over 5 million each year. It's the second largest Catholic health system -",
+      "turn_index": 22
+    },
+    {
+      "speaker": "Mac",
+      "text": "That's at scale. That's at scale.",
+      "turn_index": 23
+    },
+    {
+      "speaker": "Devina",
+      "text": "Yeah.",
+      "turn_index": 24
+    },
+    {
+      "speaker": "Mac",
+      "text": "That's at scale of who's on the pilot.",
+      "turn_index": 25
+    },
+    {
+      "speaker": "Devina",
+      "text": "That's at scale.",
+      "turn_index": 26
+    },
+    {
+      "speaker": "Mac",
+      "text": "How much are they doing for the pilot?",
+      "turn_index": 27
+    },
+    {
+      "speaker": "Devina",
+      "text": "For the pilot, they're starting with an entire region. That's a little over a million.",
+      "turn_index": 28
+    },
+    {
+      "speaker": "Mac",
+      "text": "Okay.",
+      "turn_index": 29
+    },
+    {
+      "speaker": "Devina",
+      "text": "The other one is a regional health system. At scale, they will be close to 1.4 million. Currently, they're starting with two hospitals. And so that's a little over 300,000.",
+      "turn_index": 30
+    },
+    {
+      "speaker": "Mac",
+      "text": "And you're raising 1.5 and you've raised 1.2 so far.",
+      "turn_index": 31
+    },
+    {
+      "speaker": "Devina",
+      "text": "Yep.",
+      "turn_index": 32
+    },
+    {
+      "speaker": "Mac",
+      "text": "What valuation is that on?",
+      "turn_index": 33
+    },
+    {
+      "speaker": "Devina",
+      "text": "It's at a $5 million pre money valuation.",
+      "turn_index": 34
+    },
+    {
+      "speaker": "Mac",
+      "text": "5 million pre.",
+      "turn_index": 35
+    },
+    {
+      "speaker": "Devina",
+      "text": "So we do have a lead investor as well.",
+      "turn_index": 36
+    },
+    {
+      "speaker": "Mac",
+      "text": "Okay so 6.5 post.",
+      "turn_index": 37
+    },
+    {
+      "speaker": "Devina",
+      "text": "Yes.",
+      "turn_index": 38
+    },
+    {
+      "speaker": "Elizabeth",
+      "text": "One question I have is how you're thinking about customer acquisition. Like, how did you get these pilots? How'd you get these LOIs? Like, how are you going about doing that?",
+      "turn_index": 39
+    },
+    {
+      "speaker": "Devina",
+      "text": "So we have a very strong network. I came from health systems, our VP of growth and my co-founder, she led physician engagement at the Medical Society of Virginia for over 11 years. But then we also have a reseller agreement with AvaSure. They're a remote video monitoring company and they are actively selling Kinometrix to their 1100 hospital customers. The reason they're doing that is because they are the intervention that comes after a Kinometrix risk assessment.",
+      "turn_index": 40
+    },
+    {
+      "speaker": "Elizabeth",
+      "text": "Yeah, it's very complimentary.",
+      "turn_index": 41
+    },
+    {
+      "speaker": "Devina",
+      "text": "Yeah.",
+      "turn_index": 42
+    },
+    {
+      "speaker": "Mac",
+      "text": "Look, y'all, I know we, we just in here, it's only 11 minutes, but at this point in the proceedings, I want to tell you, this is dope.",
+      "turn_index": 43
+    },
+    {
+      "speaker": "Mac",
+      "text": "And and at Rare Breed, we invest in dope founders. So, uh I need to figure out how to be a part of this. I see a lot of different companies working with medical systems. Getting pilots is super hard. Getting pilots of this scale, not something you see every day. And sales cycles are really long, but for a problem like this. If you really do reduce the amount of head count and the amount of falls it's not going to be as hard of a sales cycle in the future. So I'd be excited for Rare Breed to participate at minimum 50, maybe more. You know, going over due diligence to timing, but we got this.",
+      "turn_index": 44
+    },
+    {
+      "speaker": "Devina",
+      "text": "Thank you. Appreciate it.",
+      "turn_index": 45
+    },
+    {
+      "speaker": "Elizabeth",
+      "text": "What does success look like in these pilots for the hospitals?",
+      "turn_index": 46
+    },
+    {
+      "speaker": "Devina",
+      "text": "Currently a 10 percent fall rate reduction. It's clean. It's simple. But we're going to try and get additional ROIs around reductions from lawsuits because when you reduce a single lawsuit -",
+      "turn_index": 47
+    },
+    {
+      "speaker": "Elizabeth",
+      "text": "Sure.",
+      "turn_index": 48
+    },
+    {
+      "speaker": "Devina",
+      "text": "- you're saving $500,000 right there. So preventing maybe just one lawsuit helps them recover the costs.",
+      "turn_index": 49
+    },
+    {
+      "speaker": "Ben",
+      "text": "I have a totally different line of questioning for you. Who are you? What's your story? Where are you from? Like, what's age zero to the point where you decided to start the company?",
+      "turn_index": 50
+    },
+    {
+      "speaker": "Devina",
+      "text": "Age zero. Okay. Wow. Age zero.",
+      "turn_index": 51
+    },
+    {
+      "speaker": "Ben",
+      "text": "Like from the start, who are you? I'd love to hear your story.",
+      "turn_index": 52
+    },
+    {
+      "speaker": "Devina",
+      "text": "I am -",
+      "turn_index": 53
+    },
+    {
+      "speaker": "Ben",
+      "text": "Who are you? What's your story? Where are you from? Like, what's age zero to the point where you decided to start the company?",
+      "turn_index": 54
+    },
+    {
+      "speaker": "Devina",
+      "text": "Age zero. Okay. Wow. Age zero.",
+      "turn_index": 55
+    },
+    {
+      "speaker": "Ben",
+      "text": "Like from the start, who are you? I'd love to hear your story.",
+      "turn_index": 56
+    },
+    {
+      "speaker": "Devina",
+      "text": "I am - I'm an immigrant founder. I moved here from Kenya. When I followed an older sibling to the US to go to university, then I got into dental school, chose not to go to dental school, It wasn't for me, I tried it, it just.",
+      "turn_index": 57
+    },
+    {
+      "speaker": "Elizabeth",
+      "text": "Teeth are not that interesting?",
+      "turn_index": 58
+    },
+    {
+      "speaker": "Devina",
+      "text": "Well, not - being in someone's mouth for eight hours a day is not that fun. and instead went and got my masters in epidemiology. I just enjoyed understanding health from a population standpoint. Worked at two different health systems and Kinometrix stemmed out of my last job.",
+      "turn_index": 59
+    },
+    {
+      "speaker": "Elizabeth",
+      "text": "Why make the jump?",
+      "turn_index": 60
+    },
+    {
+      "speaker": "Devina",
+      "text": "Because there was a need and I experienced an event, similar events. So it was just a desire to change something that I saw on a daily basis. I worked with nursing, significantly, on their workflows. And every time there's a fall, you then do root cause analysis and you go into it, only to realize, well, the risk assessment said high or said low. So everything that came, resulted from the risk assessment. Your intervention is probably phenomenal. But if your risk assessment is not great, then there's no point of having the best interventions. So that's how Kinometrix came about.",
+      "turn_index": 61
+    },
+    {
+      "speaker": "Ben",
+      "text": "And what's your ultimate ambition with the company? Ten years from now, five years from now, whenever in the future, this thing is fully realized, what does that look and feel like to you?",
+      "turn_index": 62
+    },
+    {
+      "speaker": "Devina",
+      "text": "Five years from now I think we are probably going to be bought out by some medical device, either remote video monitoring, someone that wants that software solution that plugs and plays for their product.",
+      "turn_index": 63
+    },
+    {
+      "speaker": "Ben",
+      "text": "Very nice.",
+      "turn_index": 64
+    },
+    {
+      "speaker": "Elizabeth",
+      "text": "When did you start this business?",
+      "turn_index": 65
+    },
+    {
+      "speaker": "Devina",
+      "text": "2021 is when I started developing it.",
+      "turn_index": 66
+    },
+    {
+      "speaker": "Elizabeth",
+      "text": "Okay.",
+      "turn_index": 67
+    },
+    {
+      "speaker": "Mac",
+      "text": "Cyan, you've been really quiet.",
+      "turn_index": 68
+    },
+    {
+      "speaker": "Cyan",
+      "text": "Yeah. Well, I really, really love what you're working on. The big thing for me actually was the answer that you gave about being acquired. I look for companies that are going to be around for 10, 15 years that are aiming for sort of a moonshot outcome. And that's the problem with venture. It doesn't mean that that's a wrong approach. It just means that I'm a venture capitalist and that's what I look for. And so for that reason, I'm out.",
+      "turn_index": 69
+    },
+    {
+      "speaker": "Devina",
+      "text": "I understand. um we're being realistic. We realize there are much larger players and then -",
+      "turn_index": 70
+    },
+    {
+      "speaker": "Mac",
+      "text": "Don't be realistic in front of investors. It doesn’t help you.",
+      "turn_index": 71
+    },
+    {
+      "speaker": "Elizabeth",
+      "text": "um you - so - is it okay if I can be an asshole for a moment?",
+      "turn_index": 72
+    },
+    {
+      "speaker": "Devina",
+      "text": "Sure, go for it.",
+      "turn_index": 73
+    },
+    {
+      "speaker": "Elizabeth",
+      "text": "You've been around for three years.",
+      "turn_index": 74
+    },
+    {
+      "speaker": "Devina",
+      "text": "Yes.",
+      "turn_index": 75
+    },
+    {
+      "speaker": "Elizabeth",
+      "text": "And you are just starting with your first pilot?",
+      "turn_index": 76
+    },
+    {
+      "speaker": "Devina",
+      "text": "Yes.",
+      "turn_index": 77
+    },
+    {
+      "speaker": "Elizabeth",
+      "text": "Tell me a little bit about that journey of getting to that first customer.",
+      "turn_index": 78
+    },
+    {
+      "speaker": "Devina",
+      "text": "It's the product development piece that takes long. A lot of solutions out there, especially in healthcare, use synthetic data. Synthetic data does not mimic a true patient. What we wanted was actual patient data to build a platform. We use - built our platform using 3 million inpatient records. Getting actual inpatient records is a painful process and that took a great amount of time, which is why we're just getting started with the pilots. Also the sales cycle. It's a hospital sales cycle.",
+      "turn_index": 79
+    },
+    {
+      "speaker": "Elizabeth",
+      "text": "Yes. I know.",
+      "turn_index": 80
+    },
+    {
+      "speaker": "Devina",
+      "text": "So we realize that we're selling into the hospital, but then we're sticky because we're integrating into their process.",
+      "turn_index": 81
+    },
+    {
+      "speaker": "Elizabeth",
+      "text": "Yes.",
+      "turn_index": 82
+    },
+    {
+      "speaker": "Devina",
+      "text": "So they're not going to come back five years down the road and say, Oh, we'll go back to doing this manually. It's just something that once it's integrated, it stays there for a while.",
+      "turn_index": 83
+    },
+    {
+      "speaker": "Elizabeth",
+      "text": "Mhmm. What does it take for you to onboard them? Like, just from a resourcing perspective?",
+      "turn_index": 84
+    },
+    {
+      "speaker": "Devina",
+      "text": "So 20 hours of their IT team or their informatics team. To get all the data models mapped appropriately. And then we just test it, run data, and we're able to go live.",
+      "turn_index": 85
+    },
+    {
+      "speaker": "Elizabeth",
+      "text": "Mm hmm.",
+      "turn_index": 86
+    },
+    {
+      "speaker": "Elizabeth",
+      "text": "Interesting.",
+      "turn_index": 87
+    },
+    {
+      "speaker": "Mac",
+      "text": "What do you - what's the holdup? You're stewing over something. What are you stewing over, Elizabeth?",
+      "turn_index": 88
+    },
+    {
+      "speaker": "Elizabeth",
+      "text": "Yeah, I'll just put all my cards on the table.",
+      "turn_index": 89
+    },
+    {
+      "speaker": "Mac",
+      "text": "What do you - what's the holdup? You're stewing over something. What are you stewing over, Elizabeth?",
+      "turn_index": 90
+    },
+    {
+      "speaker": "Elizabeth",
+      "text": "Yeah, I'll just put all my cards on the table. So I very much believe in this problem. I love your background. Normally a long sales cycle would bother me, but you're actually three years in. So that is in many ways to my benefit. Part of the bet would be around once you get these folks going, can your pipeline be primed at this point and you can just keep on just selling. Right. That's what I'm wrestling with a round sort of the sales cycle. Like, how long do I think it will take from this point forward? And then the other thing I'm trying to wrestle with is Cyan's point. I understand your honesty around highest probability of what could happen, a sale. It's just like something investors don't love hearing. And I also know that when things go well, plans change.",
+      "turn_index": 91
+    },
+    {
+      "speaker": "Devina",
+      "text": "Yes.",
+      "turn_index": 92
+    },
+    {
+      "speaker": "Elizabeth",
+      "text": "I've seen that happen a lot with my founders, like if things are going well, nobody wants to sell.",
+      "turn_index": 93
+    },
+    {
+      "speaker": "Devina",
+      "text": "That's fair.",
+      "turn_index": 94
+    },
+    {
+      "speaker": "Elizabeth",
+      "text": "It's actually when things are not going that well or there are issues is when people want to sell. So I think those are the things that I'm kind of wrestling with in my head. Those, those two things: the sales cycle thing and the exit thing.",
+      "turn_index": 95
+    },
+    {
+      "speaker": "Devina",
+      "text": "So, the exit was just being realistic. We have investors that have asked: I hope there's an exit plan. Because they would like to exit. From the sales standpoint, we have a very robust weighted sales pipeline that takes us all the way through 2026. We have over 15 health systems somewhere in that contracting process. So we've primed it. And the exit, like I said, being realistic. If Epic comes in. Would we fight with Epic?",
+      "turn_index": 96
+    },
+    {
+      "speaker": "Elizabeth",
+      "text": "Mhm. Um I'd be in for $50k on this round.",
+      "turn_index": 97
+    }
+  ]
+}

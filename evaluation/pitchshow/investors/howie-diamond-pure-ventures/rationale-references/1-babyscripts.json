@@ -1,0 +1,264 @@
+{
+  "schema": "phase1-rationale-reference-v1",
+  "extraction_version": "pitchshow-rationales-v1",
+  "fingerprint": "1f71c70b26812a6b5ec8ad9e663c65c82b848281d569cf7e5647867b1ff7ad02",
+  "episode_slug": "1-babyscripts",
+  "vc_slug": "howie-diamond-pure-ventures",
+  "vc_name": "Howie Diamond",
+  "actual_decision": "In",
+  "later_decision": "Out",
+  "reference_kind": "automated_transcript_observed_candidate",
+  "human_validated": false,
+  "source_format": "transcript-observed-rationales-v1",
+  "source_path": "../source/episodes/1-babyscripts.json",
+  "source_sha256": "45e510ff5411724194f5a2f168702f3d49820b0c4d6de06d9631aa5c0da78b94",
+  "transcript_sha256": "b214b4e92090374bb2a194bef02e8c703b8c15ee7e76e2e7a582087876fd1c38",
+  "taxonomy_sha256": "eaa8734819a3ac34dd19ee5f0bf6de925a793a1d25a2d361090dafc9b751e1fc",
+  "model": "codex:gpt-5.6-luna+gpt-5.6-sol",
+  "generation_stages": [
+    {
+      "phase": "rationale_extract",
+      "backend": "codex",
+      "model": "gpt-5.6-luna"
+    },
+    {
+      "phase": "rationale_verify",
+      "backend": "codex",
+      "model": "gpt-5.6-sol"
+    }
+  ],
+  "source_tier": "newly_extracted_and_independently_model_reviewed",
+  "reviewed_target_turns": [
+    12,
+    13,
+    63,
+    65,
+    111,
+    115,
+    166
+  ],
+  "notes": "Turn 13 states a general ethical principle without applying it to Babyscripts, so it is not a company-specific rationale. Turns 12 and 65 are non-rationales; turn 115 is generic praise without a material reason; turn 166 is a teaser assessment of another company without a stated taxonomy-grounded reason.",
+  "receipt_path": "receipts/1-babyscripts.json",
+  "scoring_scope": "original_pitch_only",
+  "shared_across_input_modes": true,
+  "rationales": [
+    {
+      "rationale_label": "fund_economics_constraint",
+      "direction": "neutral",
+      "salience": "secondary",
+      "confidence": 0.99,
+      "utterance_type": "decision_reason",
+      "decision_link": "explicit",
+      "timing": "original_pitch",
+      "turn_index": 111,
+      "quote": "I'm even smaller than Jake's, so I write $25 to $50 K checks.",
+      "explanation": "Howie links his fund's size to the constrained check range underlying his $30,000 commitment.",
+      "evidence": [
+        "I'm even smaller than Jake's, so I write $25 to $50 K checks."
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 111,
+          "speaker": "Howie",
+          "quote": "I'm even smaller than Jake's, so I write $25 to $50 K checks."
+        }
+      ],
+      "activation": "evaluated",
+      "source_rationale_id": "R3",
+      "utterance_kind": "decision_explanation",
+      "decision_support": "supports_in",
+      "all_mention_ids": [
+        "R3"
+      ]
+    },
+    {
+      "rationale_label": "investment_thesis_constraint",
+      "direction": "positive",
+      "salience": "primary",
+      "confidence": 0.99,
+      "utterance_type": "decision_reason",
+      "decision_link": "explicit",
+      "timing": "original_pitch",
+      "turn_index": 111,
+      "quote": "This exactly fits my thesis for my fund.",
+      "explanation": "Howie explicitly identifies fit with his fund thesis as a reason for investing.",
+      "evidence": [
+        "This exactly fits my thesis for my fund."
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 111,
+          "speaker": "Howie",
+          "quote": "This exactly fits my thesis for my fund."
+        }
+      ],
+      "activation": "evaluated",
+      "source_rationale_id": "R2",
+      "utterance_kind": "decision_explanation",
+      "decision_support": "supports_in",
+      "all_mention_ids": [
+        "R2"
+      ]
+    },
+    {
+      "rationale_label": "investor_value_add_fit",
+      "direction": "positive",
+      "salience": "secondary",
+      "confidence": 0.95,
+      "utterance_type": "decision_reason",
+      "decision_link": "explicit",
+      "timing": "original_pitch",
+      "turn_index": 111,
+      "quote": "Not only as an investor, but also as a partner, to sort of help",
+      "explanation": "Howie views the opportunity to help as an active partner beyond supplying capital as part of the deal's appeal.",
+      "evidence": [
+        "Not only as an investor, but also as a partner, to sort of help"
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 111,
+          "speaker": "Howie",
+          "quote": "Not only as an investor, but also as a partner, to sort of help"
+        }
+      ],
+      "activation": "evaluated",
+      "source_rationale_id": "R4",
+      "utterance_kind": "decision_explanation",
+      "decision_support": "supports_in",
+      "all_mention_ids": [
+        "R4"
+      ]
+    },
+    {
+      "rationale_label": "product_adoption",
+      "direction": "neutral",
+      "salience": "secondary",
+      "confidence": 0.97,
+      "utterance_type": "question",
+      "decision_link": "none",
+      "timing": "original_pitch",
+      "turn_index": 63,
+      "quote": "What was the compliancy from your study?",
+      "explanation": "Howie asks for evidence of participants' compliance and meaningful product use.",
+      "evidence": [
+        "What was the compliancy from your study?"
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 63,
+          "speaker": "Howie",
+          "quote": "What was the compliancy from your study?"
+        }
+      ],
+      "activation": "queried",
+      "source_rationale_id": "R1",
+      "utterance_kind": "question",
+      "decision_support": "none",
+      "all_mention_ids": [
+        "R1"
+      ]
+    }
+  ],
+  "later_rationales": [],
+  "excluded_rationales": [],
+  "rationale_mentions": [
+    {
+      "rationale_label": "product_adoption",
+      "direction": "neutral",
+      "salience": "secondary",
+      "confidence": 0.97,
+      "utterance_type": "question",
+      "decision_link": "none",
+      "timing": "original_pitch",
+      "turn_index": 63,
+      "quote": "What was the compliancy from your study?",
+      "explanation": "Howie asks for evidence of participants' compliance and meaningful product use.",
+      "evidence": [
+        "What was the compliancy from your study?"
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 63,
+          "speaker": "Howie",
+          "quote": "What was the compliancy from your study?"
+        }
+      ],
+      "activation": "queried",
+      "source_rationale_id": "R1"
+    },
+    {
+      "rationale_label": "investment_thesis_constraint",
+      "direction": "positive",
+      "salience": "primary",
+      "confidence": 0.99,
+      "utterance_type": "decision_explanation",
+      "decision_link": "supports_in",
+      "timing": "original_pitch",
+      "turn_index": 111,
+      "quote": "This exactly fits my thesis for my fund.",
+      "explanation": "Howie explicitly identifies fit with his fund thesis as a reason for investing.",
+      "evidence": [
+        "This exactly fits my thesis for my fund."
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 111,
+          "speaker": "Howie",
+          "quote": "This exactly fits my thesis for my fund."
+        }
+      ],
+      "activation": "evaluated",
+      "source_rationale_id": "R2"
+    },
+    {
+      "rationale_label": "fund_economics_constraint",
+      "direction": "neutral",
+      "salience": "secondary",
+      "confidence": 0.99,
+      "utterance_type": "decision_explanation",
+      "decision_link": "supports_in",
+      "timing": "original_pitch",
+      "turn_index": 111,
+      "quote": "I'm even smaller than Jake's, so I write $25 to $50 K checks.",
+      "explanation": "Howie links his fund's size to the constrained check range underlying his $30,000 commitment.",
+      "evidence": [
+        "I'm even smaller than Jake's, so I write $25 to $50 K checks."
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 111,
+          "speaker": "Howie",
+          "quote": "I'm even smaller than Jake's, so I write $25 to $50 K checks."
+        }
+      ],
+      "activation": "evaluated",
+      "source_rationale_id": "R3"
+    },
+    {
+      "rationale_label": "investor_value_add_fit",
+      "direction": "positive",
+      "salience": "secondary",
+      "confidence": 0.95,
+      "utterance_type": "decision_explanation",
+      "decision_link": "supports_in",
+      "timing": "original_pitch",
+      "turn_index": 111,
+      "quote": "Not only as an investor, but also as a partner, to sort of help",
+      "explanation": "Howie views the opportunity to help as an active partner beyond supplying capital as part of the deal's appeal.",
+      "evidence": [
+        "Not only as an investor, but also as a partner, to sort of help"
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 111,
+          "speaker": "Howie",
+          "quote": "Not only as an investor, but also as a partner, to sort of help"
+        }
+      ],
+      "activation": "evaluated",
+      "source_rationale_id": "R4"
+    }
+  ],
+  "expanded_quote_evidence": [],
+  "rejected_after_evidence_check": []
+}

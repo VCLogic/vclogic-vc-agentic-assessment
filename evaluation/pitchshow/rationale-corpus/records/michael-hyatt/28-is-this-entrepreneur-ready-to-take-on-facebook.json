@@ -1,0 +1,890 @@
+{
+  "schema": "phase1-rationale-reference-v1",
+  "extraction_version": "pitchshow-rationales-v1",
+  "fingerprint": "0036f2043965ffc70312fbe45d936aa4078bf678cda6decfc6fcf673eab1e9a8",
+  "episode_slug": "28-is-this-entrepreneur-ready-to-take-on-facebook",
+  "vc_slug": "michael-hyatt",
+  "vc_name": "Michael Hyatt",
+  "actual_decision": "In",
+  "later_decision": "Unknown",
+  "reference_kind": "automated_transcript_observed_candidate",
+  "human_validated": false,
+  "source_format": "transcript-observed-rationales-v1",
+  "source_path": "/home/dpasch01/vclogic-vc-agentic-assessment/evaluation/pitchshow/investors/michael-hyatt/source/episodes/28-is-this-entrepreneur-ready-to-take-on-facebook.json",
+  "source_sha256": "1ea5a139a29bd4907dee3a8261aa1db99e5bfeac974e1941c83ac63f434c74e5",
+  "transcript_sha256": "d3c9d97b945756e6f32a6d3bbb9a5958558e47b1a4ec8b2dca24bd0b090a539d",
+  "taxonomy_sha256": "eaa8734819a3ac34dd19ee5f0bf6de925a793a1d25a2d361090dafc9b751e1fc",
+  "model": "codex:gpt-5.6-luna+gpt-5.6-sol",
+  "generation_stages": [
+    {
+      "phase": "rationale_extract",
+      "backend": "openrouter",
+      "model": "openai/gpt-5.6-luna"
+    },
+    {
+      "phase": "rationale_verify",
+      "backend": "codex",
+      "model": "gpt-5.6-sol"
+    }
+  ],
+  "source_tier": "newly_extracted_and_independently_model_reviewed",
+  "reviewed_target_turns": [
+    8,
+    15,
+    17,
+    25,
+    34,
+    36,
+    38,
+    40,
+    42,
+    44,
+    46,
+    48,
+    59,
+    70,
+    84,
+    86,
+    89,
+    92,
+    96
+  ],
+  "notes": "The investor-only discussion after the founder exits remains original_pitch. No rationale was extracted from turns 8, 17, 44, 48, or 96 because they contain biography, acknowledgment, an unelaborated reaction, a funding-history question without a fitting taxonomy rationale, or advocacy without an expressed reason.",
+  "receipt_path": "/home/dpasch01/vclogic-vc-agentic-assessment/evaluation/pitchshow/investors/michael-hyatt/rationale-references/receipts/28-is-this-entrepreneur-ready-to-take-on-facebook.json",
+  "scoring_scope": "original_pitch_only",
+  "shared_across_input_modes": true,
+  "rationales": [
+    {
+      "rationale_label": "business_model_assessment",
+      "direction": "negative",
+      "salience": "primary",
+      "confidence": 0.99,
+      "utterance_type": "assessment",
+      "decision_link": "none",
+      "timing": "original_pitch",
+      "turn_index": 70,
+      "quote": "I don’t buy the dream that everybody’s going to pay $30 forever on this.",
+      "explanation": "Michael doubts the durability and breadth of demand for the proposed annual subscription price.",
+      "evidence": [
+        "Most apps would love to charge a subscription but they can’t and they won’t because people just don’t pay for them.",
+        "I don’t buy the dream that everybody’s going to pay $30 forever on this."
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 46,
+          "speaker": "Michael",
+          "quote": "Most apps would love to charge a subscription but they can’t and they won’t because people just don’t pay for them."
+        },
+        {
+          "turn_index": 70,
+          "speaker": "Michael",
+          "quote": "I don’t buy the dream that everybody’s going to pay $30 forever on this."
+        }
+      ],
+      "activation": "evaluated",
+      "source_rationale_id": "R15",
+      "utterance_kind": "concern",
+      "decision_support": "none",
+      "all_mention_ids": [
+        "R1",
+        "R3",
+        "R4",
+        "R5",
+        "R6",
+        "R7",
+        "R8",
+        "R15"
+      ]
+    },
+    {
+      "rationale_label": "capital_intensity_concern",
+      "direction": "negative",
+      "salience": "primary",
+      "confidence": 0.94,
+      "utterance_type": "assessment",
+      "decision_link": "explicit",
+      "timing": "original_pitch",
+      "turn_index": 86,
+      "quote": "For this kind of thing, I think he needs 5 to 10 million bucks and he needs to go hard or go home.",
+      "explanation": "Michael believes the opportunity requires a substantial financing commitment and aggressive execution, explaining why he would participate through a sidecar investment.",
+      "evidence": [
+        "For this kind of thing, I think he needs 5 to 10 million bucks and he needs to go hard or go home."
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 86,
+          "speaker": "Michael",
+          "quote": "For this kind of thing, I think he needs 5 to 10 million bucks and he needs to go hard or go home."
+        }
+      ],
+      "activation": "evaluated",
+      "source_rationale_id": "R18",
+      "utterance_kind": "supporting_argument",
+      "decision_support": "supports_in",
+      "all_mention_ids": [
+        "R18"
+      ]
+    },
+    {
+      "rationale_label": "competitive_advantage_assessment",
+      "direction": "positive",
+      "salience": "secondary",
+      "confidence": 0.97,
+      "utterance_type": "assessment",
+      "decision_link": "explicit",
+      "timing": "original_pitch",
+      "turn_index": 89,
+      "quote": "It’s going to protect him, he’s going to build a little more of a moat.",
+      "explanation": "Michael argues that additional funding could extend the company’s protection and strengthen its defensibility.",
+      "evidence": [
+        "I would take VC cash.And I would go very hard at it to really, really build tremendous value and build a moat",
+        "It’s going to protect him, he’s going to build a little more of a moat."
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 70,
+          "speaker": "Michael",
+          "quote": "I would take VC cash.And I would go very hard at it to really, really build tremendous value and build a moat"
+        },
+        {
+          "turn_index": 89,
+          "speaker": "Michael",
+          "quote": "It’s going to protect him, he’s going to build a little more of a moat."
+        }
+      ],
+      "activation": "evaluated",
+      "source_rationale_id": "R19",
+      "utterance_kind": "supporting_argument",
+      "decision_support": "supports_in",
+      "all_mention_ids": [
+        "R12",
+        "R19"
+      ]
+    },
+    {
+      "rationale_label": "founder_execution",
+      "direction": "positive",
+      "salience": "secondary",
+      "confidence": 0.96,
+      "utterance_type": "assessment",
+      "decision_link": "none",
+      "timing": "original_pitch",
+      "turn_index": 59,
+      "quote": "you’ve done this terrific job",
+      "explanation": "Michael positively assesses Cesar’s execution in building the company to its current position.",
+      "evidence": [
+        "you’ve done this terrific job"
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 59,
+          "speaker": "Michael",
+          "quote": "you’ve done this terrific job"
+        }
+      ],
+      "activation": "evaluated",
+      "source_rationale_id": "R9",
+      "utterance_kind": "assessment",
+      "decision_support": "none",
+      "all_mention_ids": [
+        "R9"
+      ]
+    },
+    {
+      "rationale_label": "founder_investor_vision_alignment",
+      "direction": "neutral",
+      "salience": "secondary",
+      "confidence": 0.96,
+      "utterance_type": "question",
+      "decision_link": "none",
+      "timing": "original_pitch",
+      "turn_index": 59,
+      "quote": "What do you want?",
+      "explanation": "Michael asks Cesar to clarify the company-building path he actually wants before considering venture backing.",
+      "evidence": [
+        "What do you want?"
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 59,
+          "speaker": "Michael",
+          "quote": "What do you want?"
+        }
+      ],
+      "activation": "queried",
+      "source_rationale_id": "R10",
+      "utterance_kind": "question",
+      "decision_support": "none",
+      "all_mention_ids": [
+        "R10"
+      ]
+    },
+    {
+      "rationale_label": "fundraising_demand_signal",
+      "direction": "positive",
+      "salience": "primary",
+      "confidence": 0.94,
+      "utterance_type": "decision_reason",
+      "decision_link": "explicit",
+      "timing": "original_pitch",
+      "turn_index": 70,
+      "quote": "And if Greylock is coming in, I’ll invest alongside them",
+      "explanation": "Michael makes his willingness to invest conditional on the participation of Greylock as a lead investor.",
+      "evidence": [
+        "And if Greylock is coming in, I’ll invest alongside them"
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 70,
+          "speaker": "Michael",
+          "quote": "And if Greylock is coming in, I’ll invest alongside them"
+        }
+      ],
+      "activation": "evaluated",
+      "source_rationale_id": "R16",
+      "utterance_kind": "decision_explanation",
+      "decision_support": "supports_in",
+      "all_mention_ids": [
+        "R16"
+      ]
+    },
+    {
+      "rationale_label": "investment_upside_assessment",
+      "direction": "positive",
+      "salience": "secondary",
+      "confidence": 0.84,
+      "utterance_type": "assessment",
+      "decision_link": "explicit",
+      "timing": "original_pitch",
+      "turn_index": 92,
+      "quote": "Or he gets to sell it.",
+      "explanation": "Michael identifies a potential strategic sale as an upside outcome despite the threat from larger platforms.",
+      "evidence": [
+        "Or he gets to sell it."
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 92,
+          "speaker": "Michael",
+          "quote": "Or he gets to sell it."
+        }
+      ],
+      "activation": "evaluated",
+      "source_rationale_id": "R20",
+      "utterance_kind": "supporting_argument",
+      "decision_support": "supports_in",
+      "all_mention_ids": [
+        "R20"
+      ]
+    },
+    {
+      "rationale_label": "investor_experience_bias",
+      "direction": "positive",
+      "salience": "primary",
+      "confidence": 0.98,
+      "utterance_type": "assessment",
+      "decision_link": "none",
+      "timing": "original_pitch",
+      "turn_index": 70,
+      "quote": "I bootstrapped my companies, I founded two software companies and we didn’t take VC for a long time, but we ended up doing it",
+      "explanation": "Michael draws on his own bootstrapping and fundraising experience to argue that outside capital can materially help a company scale.",
+      "evidence": [
+        "I bootstrapped my companies, I founded two software companies and we didn’t take VC for a long time, but we ended up doing it"
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 70,
+          "speaker": "Michael",
+          "quote": "I bootstrapped my companies, I founded two software companies and we didn’t take VC for a long time, but we ended up doing it"
+        }
+      ],
+      "activation": "evaluated",
+      "source_rationale_id": "R11",
+      "utterance_kind": "supporting_argument",
+      "decision_support": "none",
+      "all_mention_ids": [
+        "R11"
+      ]
+    },
+    {
+      "rationale_label": "market_entry_path_assessment",
+      "direction": "neutral",
+      "salience": "secondary",
+      "confidence": 0.84,
+      "utterance_type": "question",
+      "decision_link": "none",
+      "timing": "original_pitch",
+      "turn_index": 25,
+      "quote": "What’s your age group?",
+      "explanation": "Michael asks which customer demographic currently forms the app’s initial market segment.",
+      "evidence": [
+        "What’s your age group?"
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 25,
+          "speaker": "Michael",
+          "quote": "What’s your age group?"
+        }
+      ],
+      "activation": "queried",
+      "source_rationale_id": "R2",
+      "utterance_kind": "question",
+      "decision_support": "none",
+      "all_mention_ids": [
+        "R2"
+      ]
+    },
+    {
+      "rationale_label": "market_timing",
+      "direction": "negative",
+      "salience": "primary",
+      "confidence": 0.98,
+      "utterance_type": "assessment",
+      "decision_link": "none",
+      "timing": "original_pitch",
+      "turn_index": 84,
+      "quote": "I think he’s in a market that’ll go away.",
+      "explanation": "During the same-room debrief, Michael reiterates that the company faces a potentially short-lived market window.",
+      "evidence": [
+        "I don’t think you have forever in this business.",
+        "I think he’s in a market that’ll go away."
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 70,
+          "speaker": "Michael",
+          "quote": "I don’t think you have forever in this business."
+        },
+        {
+          "turn_index": 84,
+          "speaker": "Michael",
+          "quote": "I think he’s in a market that’ll go away."
+        }
+      ],
+      "activation": "evaluated",
+      "source_rationale_id": "R17",
+      "utterance_kind": "assessment",
+      "decision_support": "none",
+      "all_mention_ids": [
+        "R14",
+        "R17"
+      ]
+    },
+    {
+      "rationale_label": "product_differentiation_concern",
+      "direction": "negative",
+      "salience": "primary",
+      "confidence": 0.92,
+      "utterance_type": "assessment",
+      "decision_link": "none",
+      "timing": "original_pitch",
+      "turn_index": 70,
+      "quote": "And then they’re going to jump on it.",
+      "explanation": "Michael expects major social platforms to respond once the company becomes visible, indicating that its concept may be readily copied.",
+      "evidence": [
+        "And then they’re going to jump on it."
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 70,
+          "speaker": "Michael",
+          "quote": "And then they’re going to jump on it."
+        }
+      ],
+      "activation": "evaluated",
+      "source_rationale_id": "R13",
+      "utterance_kind": "concern",
+      "decision_support": "none",
+      "all_mention_ids": [
+        "R13"
+      ]
+    }
+  ],
+  "later_rationales": [],
+  "excluded_rationales": [],
+  "rationale_mentions": [
+    {
+      "rationale_label": "business_model_assessment",
+      "direction": "neutral",
+      "salience": "secondary",
+      "confidence": 0.97,
+      "utterance_type": "question",
+      "decision_link": "none",
+      "timing": "original_pitch",
+      "turn_index": 15,
+      "quote": "What was the revenue in 2017?",
+      "explanation": "Michael requests the company’s recent revenue as an input to assessing its business performance.",
+      "evidence": [
+        "What was the revenue in 2017?"
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 15,
+          "speaker": "Michael",
+          "quote": "What was the revenue in 2017?"
+        }
+      ],
+      "activation": "queried",
+      "source_rationale_id": "R1"
+    },
+    {
+      "rationale_label": "market_entry_path_assessment",
+      "direction": "neutral",
+      "salience": "secondary",
+      "confidence": 0.84,
+      "utterance_type": "question",
+      "decision_link": "none",
+      "timing": "original_pitch",
+      "turn_index": 25,
+      "quote": "What’s your age group?",
+      "explanation": "Michael asks which customer demographic currently forms the app’s initial market segment.",
+      "evidence": [
+        "What’s your age group?"
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 25,
+          "speaker": "Michael",
+          "quote": "What’s your age group?"
+        }
+      ],
+      "activation": "queried",
+      "source_rationale_id": "R2"
+    },
+    {
+      "rationale_label": "business_model_assessment",
+      "direction": "neutral",
+      "salience": "secondary",
+      "confidence": 0.94,
+      "utterance_type": "question",
+      "decision_link": "none",
+      "timing": "original_pitch",
+      "turn_index": 34,
+      "quote": "So you’re not going negative cash. You don’t have a burn?",
+      "explanation": "Michael clarifies whether the company is consuming cash or operating profitably.",
+      "evidence": [
+        "So you’re not going negative cash. You don’t have a burn?"
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 34,
+          "speaker": "Michael",
+          "quote": "So you’re not going negative cash. You don’t have a burn?"
+        }
+      ],
+      "activation": "queried",
+      "source_rationale_id": "R3"
+    },
+    {
+      "rationale_label": "business_model_assessment",
+      "direction": "neutral",
+      "salience": "secondary",
+      "confidence": 0.98,
+      "utterance_type": "question",
+      "decision_link": "none",
+      "timing": "original_pitch",
+      "turn_index": 36,
+      "quote": "How much is the app?",
+      "explanation": "Michael asks about the app’s current price as a monetization input.",
+      "evidence": [
+        "How much is the app?"
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 36,
+          "speaker": "Michael",
+          "quote": "How much is the app?"
+        }
+      ],
+      "activation": "queried",
+      "source_rationale_id": "R4"
+    },
+    {
+      "rationale_label": "business_model_assessment",
+      "direction": "neutral",
+      "salience": "secondary",
+      "confidence": 0.98,
+      "utterance_type": "question",
+      "decision_link": "none",
+      "timing": "original_pitch",
+      "turn_index": 38,
+      "quote": "One time?",
+      "explanation": "Michael clarifies whether the app generates one-time or recurring revenue.",
+      "evidence": [
+        "One time?"
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 38,
+          "speaker": "Michael",
+          "quote": "One time?"
+        }
+      ],
+      "activation": "queried",
+      "source_rationale_id": "R5"
+    },
+    {
+      "rationale_label": "business_model_assessment",
+      "direction": "neutral",
+      "salience": "secondary",
+      "confidence": 0.89,
+      "utterance_type": "question",
+      "decision_link": "none",
+      "timing": "original_pitch",
+      "turn_index": 40,
+      "quote": "Like what? Go into that?",
+      "explanation": "In context, Michael asks which proposed features are intended to support subscription monetization.",
+      "evidence": [
+        "Like what? Go into that?"
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 40,
+          "speaker": "Michael",
+          "quote": "Like what? Go into that?"
+        }
+      ],
+      "activation": "queried",
+      "source_rationale_id": "R6"
+    },
+    {
+      "rationale_label": "business_model_assessment",
+      "direction": "neutral",
+      "salience": "secondary",
+      "confidence": 0.98,
+      "utterance_type": "question",
+      "decision_link": "none",
+      "timing": "original_pitch",
+      "turn_index": 42,
+      "quote": "Why do you think people are going to pay a subscription? And how much and what are you thinking for?",
+      "explanation": "Michael probes both willingness to pay and pricing assumptions behind the proposed subscription model.",
+      "evidence": [
+        "Why do you think people are going to pay a subscription? And how much and what are you thinking for?"
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 42,
+          "speaker": "Michael",
+          "quote": "Why do you think people are going to pay a subscription? And how much and what are you thinking for?"
+        }
+      ],
+      "activation": "queried",
+      "source_rationale_id": "R7"
+    },
+    {
+      "rationale_label": "business_model_assessment",
+      "direction": "negative",
+      "salience": "primary",
+      "confidence": 0.99,
+      "utterance_type": "concern",
+      "decision_link": "none",
+      "timing": "original_pitch",
+      "turn_index": 46,
+      "quote": "Most apps would love to charge a subscription but they can’t and they won’t because people just don’t pay for them.",
+      "explanation": "Michael argues that consumer resistance to paid app subscriptions threatens the proposed monetization model.",
+      "evidence": [
+        "Most apps would love to charge a subscription but they can’t and they won’t because people just don’t pay for them."
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 46,
+          "speaker": "Michael",
+          "quote": "Most apps would love to charge a subscription but they can’t and they won’t because people just don’t pay for them."
+        }
+      ],
+      "activation": "evaluated",
+      "source_rationale_id": "R8"
+    },
+    {
+      "rationale_label": "founder_execution",
+      "direction": "positive",
+      "salience": "secondary",
+      "confidence": 0.96,
+      "utterance_type": "assessment",
+      "decision_link": "none",
+      "timing": "original_pitch",
+      "turn_index": 59,
+      "quote": "you’ve done this terrific job",
+      "explanation": "Michael positively assesses Cesar’s execution in building the company to its current position.",
+      "evidence": [
+        "you’ve done this terrific job"
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 59,
+          "speaker": "Michael",
+          "quote": "you’ve done this terrific job"
+        }
+      ],
+      "activation": "evaluated",
+      "source_rationale_id": "R9"
+    },
+    {
+      "rationale_label": "founder_investor_vision_alignment",
+      "direction": "neutral",
+      "salience": "secondary",
+      "confidence": 0.96,
+      "utterance_type": "question",
+      "decision_link": "none",
+      "timing": "original_pitch",
+      "turn_index": 59,
+      "quote": "What do you want?",
+      "explanation": "Michael asks Cesar to clarify the company-building path he actually wants before considering venture backing.",
+      "evidence": [
+        "What do you want?"
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 59,
+          "speaker": "Michael",
+          "quote": "What do you want?"
+        }
+      ],
+      "activation": "queried",
+      "source_rationale_id": "R10"
+    },
+    {
+      "rationale_label": "investor_experience_bias",
+      "direction": "positive",
+      "salience": "primary",
+      "confidence": 0.98,
+      "utterance_type": "supporting_argument",
+      "decision_link": "none",
+      "timing": "original_pitch",
+      "turn_index": 70,
+      "quote": "I bootstrapped my companies, I founded two software companies and we didn’t take VC for a long time, but we ended up doing it",
+      "explanation": "Michael draws on his own bootstrapping and fundraising experience to argue that outside capital can materially help a company scale.",
+      "evidence": [
+        "I bootstrapped my companies, I founded two software companies and we didn’t take VC for a long time, but we ended up doing it"
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 70,
+          "speaker": "Michael",
+          "quote": "I bootstrapped my companies, I founded two software companies and we didn’t take VC for a long time, but we ended up doing it"
+        }
+      ],
+      "activation": "evaluated",
+      "source_rationale_id": "R11"
+    },
+    {
+      "rationale_label": "competitive_advantage_assessment",
+      "direction": "positive",
+      "salience": "primary",
+      "confidence": 0.96,
+      "utterance_type": "supporting_argument",
+      "decision_link": "none",
+      "timing": "original_pitch",
+      "turn_index": 70,
+      "quote": "I would take VC cash.And I would go very hard at it to really, really build tremendous value and build a moat",
+      "explanation": "Michael believes capital and rapid execution could help the company establish greater defensibility.",
+      "evidence": [
+        "I would take VC cash.And I would go very hard at it to really, really build tremendous value and build a moat"
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 70,
+          "speaker": "Michael",
+          "quote": "I would take VC cash.And I would go very hard at it to really, really build tremendous value and build a moat"
+        }
+      ],
+      "activation": "evaluated",
+      "source_rationale_id": "R12"
+    },
+    {
+      "rationale_label": "product_differentiation_concern",
+      "direction": "negative",
+      "salience": "primary",
+      "confidence": 0.92,
+      "utterance_type": "concern",
+      "decision_link": "none",
+      "timing": "original_pitch",
+      "turn_index": 70,
+      "quote": "And then they’re going to jump on it.",
+      "explanation": "Michael expects major social platforms to respond once the company becomes visible, indicating that its concept may be readily copied.",
+      "evidence": [
+        "And then they’re going to jump on it."
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 70,
+          "speaker": "Michael",
+          "quote": "And then they’re going to jump on it."
+        }
+      ],
+      "activation": "evaluated",
+      "source_rationale_id": "R13"
+    },
+    {
+      "rationale_label": "market_timing",
+      "direction": "negative",
+      "salience": "primary",
+      "confidence": 0.98,
+      "utterance_type": "concern",
+      "decision_link": "none",
+      "timing": "original_pitch",
+      "turn_index": 70,
+      "quote": "I don’t think you have forever in this business.",
+      "explanation": "Michael sees a limited window in which the company can scale before competitive conditions change.",
+      "evidence": [
+        "I don’t think you have forever in this business."
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 70,
+          "speaker": "Michael",
+          "quote": "I don’t think you have forever in this business."
+        }
+      ],
+      "activation": "evaluated",
+      "source_rationale_id": "R14"
+    },
+    {
+      "rationale_label": "business_model_assessment",
+      "direction": "negative",
+      "salience": "primary",
+      "confidence": 0.99,
+      "utterance_type": "concern",
+      "decision_link": "none",
+      "timing": "original_pitch",
+      "turn_index": 70,
+      "quote": "I don’t buy the dream that everybody’s going to pay $30 forever on this.",
+      "explanation": "Michael doubts the durability and breadth of demand for the proposed annual subscription price.",
+      "evidence": [
+        "I don’t buy the dream that everybody’s going to pay $30 forever on this."
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 70,
+          "speaker": "Michael",
+          "quote": "I don’t buy the dream that everybody’s going to pay $30 forever on this."
+        }
+      ],
+      "activation": "evaluated",
+      "source_rationale_id": "R15"
+    },
+    {
+      "rationale_label": "fundraising_demand_signal",
+      "direction": "positive",
+      "salience": "primary",
+      "confidence": 0.94,
+      "utterance_type": "decision_explanation",
+      "decision_link": "supports_in",
+      "timing": "original_pitch",
+      "turn_index": 70,
+      "quote": "And if Greylock is coming in, I’ll invest alongside them",
+      "explanation": "Michael makes his willingness to invest conditional on the participation of Greylock as a lead investor.",
+      "evidence": [
+        "And if Greylock is coming in, I’ll invest alongside them"
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 70,
+          "speaker": "Michael",
+          "quote": "And if Greylock is coming in, I’ll invest alongside them"
+        }
+      ],
+      "activation": "evaluated",
+      "source_rationale_id": "R16"
+    },
+    {
+      "rationale_label": "market_timing",
+      "direction": "negative",
+      "salience": "primary",
+      "confidence": 0.98,
+      "utterance_type": "assessment",
+      "decision_link": "none",
+      "timing": "original_pitch",
+      "turn_index": 84,
+      "quote": "I think he’s in a market that’ll go away.",
+      "explanation": "During the same-room debrief, Michael reiterates that the company faces a potentially short-lived market window.",
+      "evidence": [
+        "I think he’s in a market that’ll go away."
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 84,
+          "speaker": "Michael",
+          "quote": "I think he’s in a market that’ll go away."
+        }
+      ],
+      "activation": "evaluated",
+      "source_rationale_id": "R17"
+    },
+    {
+      "rationale_label": "capital_intensity_concern",
+      "direction": "negative",
+      "salience": "primary",
+      "confidence": 0.94,
+      "utterance_type": "supporting_argument",
+      "decision_link": "supports_in",
+      "timing": "original_pitch",
+      "turn_index": 86,
+      "quote": "For this kind of thing, I think he needs 5 to 10 million bucks and he needs to go hard or go home.",
+      "explanation": "Michael believes the opportunity requires a substantial financing commitment and aggressive execution, explaining why he would participate through a sidecar investment.",
+      "evidence": [
+        "For this kind of thing, I think he needs 5 to 10 million bucks and he needs to go hard or go home."
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 86,
+          "speaker": "Michael",
+          "quote": "For this kind of thing, I think he needs 5 to 10 million bucks and he needs to go hard or go home."
+        }
+      ],
+      "activation": "evaluated",
+      "source_rationale_id": "R18"
+    },
+    {
+      "rationale_label": "competitive_advantage_assessment",
+      "direction": "positive",
+      "salience": "secondary",
+      "confidence": 0.97,
+      "utterance_type": "supporting_argument",
+      "decision_link": "supports_in",
+      "timing": "original_pitch",
+      "turn_index": 89,
+      "quote": "It’s going to protect him, he’s going to build a little more of a moat.",
+      "explanation": "Michael argues that additional funding could extend the company’s protection and strengthen its defensibility.",
+      "evidence": [
+        "It’s going to protect him, he’s going to build a little more of a moat."
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 89,
+          "speaker": "Michael",
+          "quote": "It’s going to protect him, he’s going to build a little more of a moat."
+        }
+      ],
+      "activation": "evaluated",
+      "source_rationale_id": "R19"
+    },
+    {
+      "rationale_label": "investment_upside_assessment",
+      "direction": "positive",
+      "salience": "secondary",
+      "confidence": 0.84,
+      "utterance_type": "supporting_argument",
+      "decision_link": "supports_in",
+      "timing": "original_pitch",
+      "turn_index": 92,
+      "quote": "Or he gets to sell it.",
+      "explanation": "Michael identifies a potential strategic sale as an upside outcome despite the threat from larger platforms.",
+      "evidence": [
+        "Or he gets to sell it."
+      ],
+      "evidence_turns": [
+        {
+          "turn_index": 92,
+          "speaker": "Michael",
+          "quote": "Or he gets to sell it."
+        }
+      ],
+      "activation": "evaluated",
+      "source_rationale_id": "R20"
+    }
+  ],
+  "expanded_quote_evidence": [],
+  "rejected_after_evidence_check": []
+}

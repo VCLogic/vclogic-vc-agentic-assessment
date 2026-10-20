@@ -1,0 +1,88 @@
+{
+  "episode_slug": "94-the-breaking-point",
+  "vc_slug": "phil-nadel-forefront-venture-partners",
+  "review_status": "unobserved_or_disputed",
+  "evaluation_eligible": false,
+  "source_sha256": "1d11e10a77e7b1701efe22d6430a5ee9ccbdbcd8618bfaa7bc6087f07613d5e2",
+  "pitch_sha256": null,
+  "review_receipt": "../../../reviews/94-the-breaking-point.json",
+  "boundary": {
+    "pitch_start_turn": 34,
+    "pitch_end_turn": 37,
+    "boundary_reason": "The original founder pitch begins at turn 34. Turns 35-36 contain panel reactions, while turn 37 first reveals the outcome that all investors passed, so the exclusive pitch boundary is 37."
+  },
+  "segments": [
+    {
+      "action": "retained",
+      "attributed_source_line_index": 0,
+      "attributed_source_line_sha256": "f7e9824cb72bc3fe377dc646793115e13a405282006867e7ce9cc78078429497",
+      "reason": "founder pitch or pre-decision factual answer; removed 1 unattributed continuation line(s); preserved factual names for semantic review",
+      "rendered_text": "Kevin: Uhh, my name is Kevin Allen, I’m the CEO of Row Vigor. And this is Moses, he is our Chief Technology Officer. So about three years ago, good friend of mine I’ve known since I was 13 years old, 20 year fitness professional, came to me and he said - I think there’s an opportunity for rowing based fitness in our space.",
+      "retained_content_class": "explicit_founder",
+      "preceded_by_investor_decision": false,
+      "source_turn_index": 34,
+      "speaker": "Kevin",
+      "unattributed_continuation_count": 1
+    },
+    {
+      "action": "removed",
+      "attributed_source_line_index": 0,
+      "attributed_source_line_sha256": "74591dd5d507880a047b4ed61245129eca62485abd0d7ef09f77fea4aadd851f",
+      "reason": "removed non-founder, evaluative, or unnecessary context",
+      "rendered_text": "",
+      "retained_content_class": null,
+      "preceded_by_investor_decision": false,
+      "source_turn_index": 35,
+      "speaker": "Jillian",
+      "unattributed_continuation_count": 0
+    },
+    {
+      "action": "removed",
+      "attributed_source_line_index": 0,
+      "attributed_source_line_sha256": "e73071262ebb0daa70ee800ae3ab5ef88b146640a2b2925b6ae6c862d468b668",
+      "reason": "removed non-founder, evaluative, or unnecessary context",
+      "rendered_text": "",
+      "retained_content_class": null,
+      "preceded_by_investor_decision": false,
+      "source_turn_index": 36,
+      "speaker": "Daniel",
+      "unattributed_continuation_count": 0
+    }
+  ],
+  "removed_candidate_lines": [],
+  "semantic_review": {
+    "boundary_supported": true,
+    "remove_lines": [],
+    "safe_after_removal": true,
+    "reason": "The founder pitch begins at turn 34, after the teaser and retrospective setup. The proposed exclusive end at turn 37 keeps the collective pass/outcome statement out of the pitch window. Candidate line 0 is a pre-decision factual founder statement and contains no commitment, refusal, negotiation, or outcome leakage.",
+    "decisions": [
+      {
+        "vc_slug": "charles-hudson-precursor-ventures",
+        "pitch_decision_supported": false,
+        "later_decision_supported": false,
+        "pitch_evidence": [],
+        "later_evidence": [],
+        "condition": null,
+        "reason": "Charles Hudson does not speak in the transcript. The collective statement that all investors passed does not identify Charles as the speaker or provide target-specific pitch evidence, and the later reference to a fund committing $100,000 does not identify that fund as Charles's. The proposed Unobserved/Unknown statuses therefore have no observed decision evidence."
+      },
+      {
+        "vc_slug": "jillian-manus-structure-capital",
+        "pitch_decision_supported": false,
+        "later_decision_supported": false,
+        "pitch_evidence": [],
+        "later_evidence": [],
+        "condition": null,
+        "reason": "Jillian says she liked Kevin and Moses, which is soft interest rather than a commitment or refusal. The later collective pass statement is host-style commentary and does not provide a target-specific commitment/refusal spoken by Jillian; the later $100,000 fund commitment also does not identify Jillian. No later investment or non-investment specific to Jillian is reported."
+      },
+      {
+        "vc_slug": "phil-nadel-forefront-venture-partners",
+        "pitch_decision_supported": false,
+        "later_decision_supported": false,
+        "pitch_evidence": [],
+        "later_evidence": [],
+        "condition": null,
+        "reason": "Phil Nadel does not speak in the transcript. Neither the collective statement that investors passed nor the later generic statement that a fund committed $100,000 identifies Phil's pitch decision or later investment outcome."
+      }
+    ]
+  }
+}

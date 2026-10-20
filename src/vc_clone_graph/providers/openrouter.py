@@ -5,6 +5,7 @@ from __future__ import annotations
 import json
 import math
 import os
+import unicodedata
 from pathlib import Path
 from random import random
 from time import perf_counter, sleep
@@ -65,6 +66,7 @@ class OpenRouterProvider:
         self.data_collection = data_collection
         self.sleeper = sleeper
         self.random_fn = random_fn
+        self._json_object_phases: set[str] = set()
 
     @staticmethod
     def _retryable(exc: Exception) -> bool:
@@ -116,7 +118,7 @@ class OpenRouterProvider:
         if request.reasoning_effort is not None:
             extra_body["reasoning"] = {"effort": request.reasoning_effort}
         physical_attempts = 0
-        schema_fallback = False
+        schema_fallback = request.phase in self._json_object_phases
         while True:
             physical_attempts += 1
             if schema_fallback:
@@ -192,6 +194,19 @@ class OpenRouterProvider:
         except json.JSONDecodeError:
             parsed = None
         native_usage = getattr(response, "usage", None)
+        finish_reason = getattr(choices[0], "finish_reason", None)
+        output_findings = []
+        if finish_reason == "length" or int(_attribute(native_usage, "completion_tokens")) >= limit:
+            output_findings.append("output_token_limit_reached")
+        # Keep the raw response and usage for audit; never repair meaning by deleting text.
+        if sum(unicodedata.category(char) == "Cf" for char in content) >= 64:
+            output_findings.append("repetitive_format_characters")
+            parsed = None
+        if parsed is None:
+            output_findings.append("invalid_structured_output")
+            # The workflow owns retries and their budgets. Change only the next
+            # scheduled call's transport format, preserving this failed artifact.
+            self._json_object_phases.add(request.phase)
         prompt_details = getattr(native_usage, "prompt_tokens_details", None)
         cost = float(_attribute(native_usage, "cost", 0.0))
         return GenerationResult(
@@ -212,6 +227,9 @@ class OpenRouterProvider:
                 "response_id": getattr(response, "id", None),
                 "cost_usd": cost,
                 "physical_attempts": physical_attempts,
+                "finish_reason": finish_reason,
+                "output_token_limit_reached": "output_token_limit_reached" in output_findings,
+                "output_quality_findings": output_findings,
                 "structured_output_mode": (
                     "json_object_fallback" if schema_fallback else "json_schema"
                 ),
