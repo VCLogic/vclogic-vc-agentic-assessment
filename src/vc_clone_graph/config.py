@@ -6,7 +6,7 @@ from pathlib import Path, PurePosixPath
 import tomllib
 from typing import Literal
 
-from pydantic import BaseModel, ConfigDict, Field, PrivateAttr, model_validator
+from pydantic import BaseModel, ConfigDict, Field, PrivateAttr, model_serializer, model_validator
 
 
 def _safe_relative(value: str) -> str:
@@ -109,6 +109,17 @@ class PrecedentSettings(BaseModel):
     candidate_pool_k: int = Field(default=30, ge=1, le=100)
     in_slots: int = Field(default=2, ge=0, le=50)
     out_slots: int = Field(default=2, ge=0, le=50)
+    # Show only the target investor's turns (and founders' direct replies) from past
+    # episodes, so other panelists' reasoning does not reach the twin.
+    target_turns_only: bool = False
+
+    @model_serializer(mode="wrap")
+    def _omit_default_target_turns_only(self, handler):
+        # Omitted when off so saved run-config.json files compare exactly as before.
+        data = handler(self)
+        if not self.target_turns_only:
+            data.pop("target_turns_only", None)
+        return data
 
     @model_validator(mode="after")
     def validate_path(self) -> "PrecedentSettings":

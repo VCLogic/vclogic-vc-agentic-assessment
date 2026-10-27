@@ -1,0 +1,9 @@
+# Investor-Consistency Review pilot
+
+User authorized implementation and exactly three fresh reviews: one false In, one false Out, one correct. Use current Luna to isolate the review step. No new retrieval or actual target outcomes in model inputs. Existing graph execution stays unchanged: a standalone post-processing command reads native phase1/phase2 artifacts and writes native phase3/attempt-1 artifacts beside them.
+
+Review checks constraints, comparable historical outcomes and evidence weighting. RETAIN_PHASE2 requires null replacement fields and resolves decision/likelihood/confidence to the original Phase 2 values, with a source-path/hash pointer. REVISE_PHASE2 requires all three replacement values and a concrete evidence-linked defect; at least one value must change. Scores are review-adjusted, not statistically calibrated. Report verdict changes separately from score-only revisions. Uncertainty can support retention with an explicit evidence gap.
+
+Steps: write validation tests; implement bounded evidence packet, schema/prompt, validation and atomic artifacts; run tests; freeze instructions before deterministic stratified selection; select distinct VCs when possible and shuffle execution order; execute three one-call reviews; report corrections, broken correct decisions, score changes, costs and artifact paths. Preserve raw output and failures; do not silently retry paid failures. Failure leaves Phase 2 as fallback, not a successful review. Save actual labels only in separate pilot manifest/scoring output.
+
+Execution notes: tests cover exact-echo normalization for unchanged retention. One output truncation at 4096 tokens required a single identical-prompt retry at 8192; original attempt preserved and counted in cost. The reviewer prompt remained fixed throughout; only deterministic validation normalization and output allowance changed.

@@ -210,6 +210,18 @@ class VCDecisionWorkflow:
         self.graph = self._build().compile(checkpointer=checkpointer)
         self.phase2_graph = self._build_phase2().compile(checkpointer=checkpointer)
 
+    def _precedent_reading_note(self) -> dict[str, str]:
+        if not getattr(self.precedent_corpus, "target_turns_only", False):
+            return {}
+        name = self.settings.investor_name
+        return {
+            "precedent_reading_note": (
+                f"Historical transcripts show only {name}'s own statements and the founders' "
+                f"direct replies to them; other panelists' remarks are omitted. Treat only "
+                f"{name}'s statements as evidence of how {name} reasons."
+            )
+        }
+
     def _record_call(
         self, phase: str, turn: int, step: str, request: GenerationRequest, result: Any
     ) -> None:
@@ -251,6 +263,7 @@ class VCDecisionWorkflow:
                     "precedent_searches": state.get("phase1_precedent_searches", []),
                     "precedent_reads": state.get("phase1_precedent_reads", []),
                     "retrieval_findings": state.get("phase1_retrieval_findings", []),
+                **self._precedent_reading_note(),
                 },
                 taxonomy_records=self.settings.taxonomy_records,
             )
@@ -799,6 +812,7 @@ class VCDecisionWorkflow:
                 "precedent_searches": state.get("phase1_precedent_searches", []),
                 "precedent_reads": state.get("phase1_precedent_reads", []),
                 "retrieval_findings": state.get("phase1_retrieval_findings", []),
+                **self._precedent_reading_note(),
             },
             taxonomy_records=self.settings.taxonomy_records,
         )
@@ -979,6 +993,7 @@ class VCDecisionWorkflow:
                     "precedent_searches": state.get("phase2_precedent_searches", []),
                     "precedent_reads": state.get("phase2_precedent_reads", []),
                     "retrieval_findings": state.get("phase2_retrieval_findings", []),
+                **self._precedent_reading_note(),
                 },
             ),
             Phase2RetrievalPlan.model_json_schema(),
@@ -1053,6 +1068,7 @@ class VCDecisionWorkflow:
                 "precedent_searches": state.get("phase2_precedent_searches", []),
                 "precedent_reads": state.get("phase2_precedent_reads", []),
                 "retrieval_findings": state.get("phase2_retrieval_findings", []),
+                **self._precedent_reading_note(),
             },
         )
         rationale_ids = {

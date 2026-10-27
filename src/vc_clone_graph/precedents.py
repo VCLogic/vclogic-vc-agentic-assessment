@@ -30,6 +30,14 @@ class Embedder(Protocol):
     def embed(self, texts: list[str]) -> list[list[float]]: ...
 
 
+_PANEL_MIN_EPISODES = 3
+_NO_TARGET_TURNS = "[No statements by the target investor in this part of the episode.]"
+
+
+def _speaker_key(name: str) -> str:
+    return " ".join(unicodedata.normalize("NFKC", name).casefold().split())
+
+
 class FrozenModel(BaseModel):
     model_config = ConfigDict(extra="forbid", frozen=True)
 
@@ -344,6 +352,41 @@ class PrecedentCorpus:
             raise ValueError("precedent index chunk IDs are not unique")
         self.embedding_index = _embedding_index or self._embedding_metadata()
         self._validate_embedding_index()
+        self.target_turns_only = False
+        self._panel_speakers: frozenset[str] = frozenset()
+
+    def restrict_to_target_turns(self) -> "PrecedentCorpus":
+        """Show only the target investor's turns and founders' direct replies to them.
+
+        Speakers who recur across several episodes are panelists or hosts; speakers
+        seen in fewer episodes are treated as founders. Retrieval is unchanged.
+        """
+        episodes_by_speaker: dict[str, set[str]] = {}
+        for row in self._episodes.values():
+            for turn in row.turns:
+                episodes_by_speaker.setdefault(_speaker_key(turn.speaker), set()).add(row.episode_slug)
+        self._panel_speakers = frozenset(
+            name for name, slugs in episodes_by_speaker.items() if len(slugs) >= _PANEL_MIN_EPISODES
+        )
+        self.target_turns_only = True
+        return self
+
+    def _visible_turns(self, row: "PrecedentEpisode", start: int, end: int) -> tuple["TranscriptTurn", ...]:
+        turns = row.turns[start : end + 1]
+        if not self.target_turns_only:
+            return turns
+        aliases = {_speaker_key(alias) for alias in row.investor_aliases}
+        kept = []
+        for turn in turns:
+            speaker = _speaker_key(turn.speaker)
+            previous = row.turns[turn.turn_index - 1] if turn.turn_index > 0 else None
+            if speaker in aliases or (
+                previous is not None
+                and _speaker_key(previous.speaker) in aliases
+                and speaker not in self._panel_speakers
+            ):
+                kept.append(turn)
+        return tuple(kept)
 
     @classmethod
     def from_episodes(
@@ -515,10 +558,10 @@ class PrecedentCorpus:
         stop = len(row.turns) - 1 if end is None else end
         if start < 0 or stop < start or stop >= len(row.turns):
             raise IndexError("invalid precedent transcript turn range")
-        turns = row.turns[start : stop + 1]
+        turns = self._visible_turns(row, start, stop)
         evidence = None
         if query_id is not None:
-            text = "\n".join(turn.text for turn in turns)
+            text = "\n".join(turn.text for turn in turns) or _NO_TARGET_TURNS
             evidence = self._evidence(row, start, stop, text, query_id)
         return PrecedentRead(
             episode_slug=slug,
@@ -1048,7 +1091,7 @@ class PrecedentCorpus:
                 chunk_id=chunk_id,
                 turn_start=self._chunks_by_id[chunk_id].turn_start,
                 turn_end=self._chunks_by_id[chunk_id].turn_end,
-                excerpt=self._chunks_by_id[chunk_id].text[:800],
+                excerpt=self._excerpt(self._chunks_by_id[chunk_id]),
                 score=fused.get(chunk_id, 0.0),
                 retrieval_modes=(
                     tuple(
@@ -1148,6 +1191,13 @@ class PrecedentCorpus:
             text=text,
             query_id=query_id,
         )
+
+    def _excerpt(self, chunk: _PrecedentChunk) -> str:
+        if not self.target_turns_only:
+            return chunk.text[:800]
+        row = self._episodes[chunk.episode_slug]
+        turns = self._visible_turns(row, chunk.turn_start, chunk.turn_end)
+        return ("\n".join(f"{turn.speaker}: {turn.text}" for turn in turns) or _NO_TARGET_TURNS)[:800]
 
     def _ordered_episodes(self) -> tuple[PrecedentEpisode, ...]:
         return tuple(

@@ -10,9 +10,10 @@ import fcntl
 from hashlib import sha256
 from io import StringIO
 import json
+import sys
 from pathlib import Path
 
-from vc_clone_graph.cli import command_preflight, command_run, command_verify
+from vc_clone_graph.cli import command_preflight, command_run, command_verify, run_default_components
 from vc_clone_graph.config import load_config
 from prepare_pitchshow_evaluation import gather, read, write
 from prepare_pitchshow_variants import MODES, SUPPORTED_MODES, package_case, render_variant
@@ -97,7 +98,7 @@ def completed_summary(config):
     return summary, path
 
 
-def run_job(job, status_path, prepare):
+def run_job(job, status_path, prepare, components=True):
     state = read(status_path) if status_path.exists() else dict(job, status='pending', attempts=[])
     if state['job_id'] != job['job_id']:
         raise ValueError('batch job identity mismatch')
@@ -122,6 +123,11 @@ def run_job(job, status_path, prepare):
         with log.open('w') as stream, redirect_stdout(stream), redirect_stderr(stream):
             command_run(config)
             summary,path=completed_summary(config)
+            if components:
+                try:  # a finished assessment never fails because of its components
+                    run_default_components(config)
+                except Exception as exc:
+                    print(f'warning: components failed: {exc}',file=sys.stderr)
         attempt.update(status='completed',summary_path=str(path),usage=summary.get('usage',{}))
         state.update(status='completed',selected_attempt=number,summary_path=str(path),summary_sha256=digest(path))
     except Exception as exc:
@@ -165,6 +171,7 @@ def main(argv=None):
     parser.add_argument('--episode',action='append',default=[])
     parser.add_argument('--limit',type=int)
     parser.add_argument('--backend',choices=['configured','codex'],default='configured',help='Use configured provider or Codex ChatGPT login with the same models')
+    parser.add_argument('--no-components',action='store_true',help='Skip coverage expansion and consolidation after each assessment')
     action=parser.add_mutually_exclusive_group()
     action.add_argument('--execute',action='store_true',help='Authorize paid assessments')
     action.add_argument('--preflight',action='store_true',help='Package and validate selected cases without generation calls')
@@ -199,7 +206,7 @@ def main(argv=None):
                     write(status.parent/'preflight-error.json',{'error':f'{type(exc).__name__}: {exc}'})
                     print(f'FAILED {job["vc_slug"]}/{job["episode_slug"]}: {exc}',flush=True)
             else:
-                result=run_job(job,status,lambda j,n: prepare_attempt(root,workspace,j,n))
+                result=run_job(job,status,lambda j,n: prepare_attempt(root,workspace,j,n),components=not args.no_components)
                 if result['status']=='completed':
                     from index_pitchshow_results import result_record
                     from evaluate_pitchshow_results import evaluate_record

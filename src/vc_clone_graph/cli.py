@@ -385,6 +385,7 @@ def _filtered_precedents_for_target(
     *,
     target_slug: str,
     target_company_aliases: tuple[str, ...],
+    target_turns_only: bool = False,
 ) -> PrecedentCorpus:
     if canonical.target_slug is not None:
         raise ValueError("canonical precedent index must be unfiltered")
@@ -394,7 +395,7 @@ def _filtered_precedents_for_target(
     )
     if any(row.episode_slug == target_slug for row in filtered.list_episodes()):
         raise ValueError("target episode remains accessible after precedent filtering")
-    return filtered
+    return filtered.restrict_to_target_turns() if target_turns_only else filtered
 
 
 def _filtered_portfolio_for_target(
@@ -766,6 +767,7 @@ def command_run(config: RunConfig, *, resume: bool = False) -> None:
             canonical_precedents,
             target_slug=config.run.episode_slug,
             target_company_aliases=package.target_company_aliases,
+            target_turns_only=config.precedents.target_turns_only,
         )
         filtered_manifest = precedent_corpus.filtered_manifest()
         filtered_payload = filtered_manifest.model_dump(mode="json")
@@ -1027,6 +1029,7 @@ def command_decide(config: RunConfig, phase1_from: Path) -> None:
             canonical,
             target_slug=config.run.episode_slug,
             target_company_aliases=package.target_company_aliases,
+            target_turns_only=config.precedents.target_turns_only,
         )
         filtered_manifest = precedent_corpus.filtered_manifest()
         precedent_manifest_sha256 = filtered_manifest.sha256
@@ -1306,6 +1309,7 @@ def command_preflight(config: RunConfig, config_path: Path) -> None:
             canonical,
             target_slug=config.run.episode_slug,
             target_company_aliases=package.target_company_aliases,
+            target_turns_only=config.precedents.target_turns_only,
         )
         episodes = filtered.list_episodes()
         target_accessible = any(
@@ -1348,6 +1352,34 @@ def command_preflight(config: RunConfig, config_path: Path) -> None:
     print(json.dumps(report, sort_keys=True))
 
 
+DEFAULT_COMPONENTS = Path("configs/components.toml")
+
+
+def components_apply_by_default(config: RunConfig) -> bool:
+    """Components run after every real run; fake-provider and v4.4 runs are left untouched."""
+    return config.provider.kind != "fake" and config.run.contract_version != "v4.4"
+
+
+def run_default_components(config: RunConfig) -> None:
+    if components_apply_by_default(config):
+        path = config.resolve_path(DEFAULT_COMPONENTS)
+        _run_components(config, path if path.is_file() else None)
+
+
+def _run_components(config: RunConfig, components_path: Path | None) -> None:
+    """Run components; failures never invalidate the finished assessment."""
+    from .components.cli import run_pipeline_components
+
+    run_root = config.resolve_path(config.run.output_root) / config.run.episode_slug
+    try:
+        summary = run_pipeline_components(run_root, components_path, config.resolve_path("."))
+    except Exception as exc:
+        write_json(run_root / "components" / "error.json", {"error": f"{type(exc).__name__}: {exc}"})
+        print(f"warning: components failed: {exc}", file=sys.stderr)
+        return
+    print(json.dumps({"components": summary}, sort_keys=True))
+
+
 def main(argv: list[str] | None = None) -> int:
     parser = argparse.ArgumentParser(prog="vc-clone-graph")
     parser.add_argument(
@@ -1356,17 +1388,32 @@ def main(argv: list[str] | None = None) -> int:
     )
     parser.add_argument("--config", type=Path, required=True)
     parser.add_argument("--phase1-from", type=Path)
+    components = parser.add_mutually_exclusive_group()
+    components.add_argument(
+        "--components",
+        type=Path,
+        help=f"Components TOML run after run/resume (default: {DEFAULT_COMPONENTS})",
+    )
+    components.add_argument(
+        "--no-components",
+        action="store_true",
+        help="Skip coverage expansion and consolidation after run/resume",
+    )
     args = parser.parse_args(argv)
     try:
         config = load_config(args.config)
+        if args.components is not None and config.run.contract_version == "v4.4":
+            raise ValueError("--components is not supported for v4.4 runs")
         if args.command == "index":
             command_index(config)
         elif args.command == "preflight":
             command_preflight(config, args.config)
-        elif args.command == "run":
-            command_run(config)
-        elif args.command == "resume":
-            command_run(config, resume=True)
+        elif args.command in {"run", "resume"}:
+            command_run(config, resume=args.command == "resume")
+            if args.components is not None:
+                _run_components(config, args.components)
+            elif not args.no_components:
+                run_default_components(config)
         elif args.command == "decide":
             if args.phase1_from is None:
                 raise ValueError("decide requires --phase1-from")

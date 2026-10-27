@@ -1,0 +1,41 @@
+# Optional post-assessment components.
+# Runs by default after every vc-clone-graph run/resume and scripts/run_pitchshow_batch.py
+# (skipped for provider.kind=fake and v4.4). Opt out with --no-components.
+# Or standalone: vc-clone-components coverage|consolidate|calibrate|evaluate ...
+
+[coverage]
+# Paid OpenRouter call per pitch (~6k input tokens, ~$0.004). Validated on 400 backfilled
+# cases: specific-reason recall 41.7% -> 57.3% (vc-clone-components evaluate).
+enabled = true
+model = "openai/gpt-5.6-luna"
+reasoning_effort = "medium"
+max_additions = 8
+
+[consolidate]
+# Deterministic; no model calls. Needs a calibration file:
+#   vc-clone-components calibrate --out evaluation/pitchshow/results/components-calibration.json
+enabled = true
+calibration_path = "evaluation/pitchshow/results/components-calibration.json"
+# tally: In if the tally is in the investor's top 30%. Default.
+# veto: In only if Phase 2 says In and the tally is in the investor's top 30%.
+# phase2: keep the Phase 2 decision; the tally and flags are still reported.
+# 400 cases, all runs averaged, coverage on every run, leave-one-out cutoffs
+# (balanced accuracy / accuracy / AUC):
+#   tally 0.573 / 0.650 / 0.613   veto 0.564 / 0.698 / -   phase2 0.554 / 0.608 / 0.582
+# On the 83 newest cases alone phase2 was ahead on balanced accuracy (0.585 vs 0.538)
+# and ranking was even (AUC 0.619 vs 0.615).
+rule = "tally"
+# Add coverage additions to the tally (AUC on 83 later cases: 0.478 -> 0.608).
+use_coverage = true
+# Per-investor share of In pitches (default: the calibration quota, 30%). Higher makes the
+# investor more positive, lower more negative; changes the decision only, not the ranking.
+# investor_quota = { "elizabeth-yin-hustle-fund" = 0.2, "jillian-manus-structure-capital" = 0.45 }
+
+[lens]
+# Investor lens: reviews Phase 1 + coverage rationales against the investor's Investment
+# Memory, own remarks in the 5 most similar past episodes and distinctive-rationale profile
+# (contrastive: plus panel-mates' profiles when run on a panel). Paid call, ~$0.010 per pitch.
+# 400 cases: decision-linked recall 51% -> 58%, investor-fit recall 13% -> 32%.
+# Reported rationales are the lens output; the In/Out decision stays with [consolidate].
+enabled = true
+variant = "contrastive"

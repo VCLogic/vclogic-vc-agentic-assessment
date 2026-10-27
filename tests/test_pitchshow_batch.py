@@ -95,3 +95,16 @@ def test_codex_override_changes_job_identity_before_execution(tmp_path,monkeypat
     plan=json.loads(next((tmp_path/'outputs/pitchshow-evaluation/batch').glob('plan-*.json')).read_text())
     job=plan['jobs'][0]
     assert job['backend']=='codex' and job['job_id']!='original'
+
+
+def test_components_failure_never_fails_a_completed_job(tmp_path, monkeypatch):
+    def run(c):
+        out = Path(c.run.output_root) / 'one';out.mkdir(parents=True)
+        (out/'summary.json').write_text(json.dumps({'decision': {'decision': 'Out'}}))
+    def broken(c): raise RuntimeError('no key')
+    monkeypatch.setattr(batch, 'command_run', run)
+    monkeypatch.setattr(batch, 'command_verify', lambda c: None)
+    monkeypatch.setattr(batch, 'run_default_components', broken)
+    job={'job_id':'abc', 'vc_slug':'vc', 'episode_slug':'one','mode':'founders-only'}
+    result=batch.run_job(job, tmp_path/'state.json', lambda j,n: config(tmp_path, tmp_path/'out'))
+    assert result['status']=='completed'
