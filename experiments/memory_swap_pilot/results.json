@@ -1,0 +1,2453 @@
+{
+  "status": "PILOT; exploratory",
+  "conditions_evaluated": [
+    "OWN",
+    "SWAP",
+    "NAME_ONLY",
+    "GENERIC"
+  ],
+  "missing": {
+    "SWAP": [
+      "paige-doherty-behind-genius-ventures/gnara-disrupting-your-pants"
+    ],
+    "NAME_ONLY": [
+      "mac-conwell/104-dressd-red-carpet-or-red-ocean",
+      "elizabeth-yin-hustle-fund/127-nectir-the-classroom-of-the-future",
+      "jenny-fielding-everywhere-ventures/168-finnecto-where-deals-dont-die",
+      "phil-nadel-forefront-venture-partners/28-is-this-entrepreneur-ready-to-take-on-facebook",
+      "charles-hudson-precursor-ventures/73-enough-sales-calls-already",
+      "jillian-manus-structure-capital/85-will-coronavirus-kill-this-deal",
+      "charles-hudson-precursor-ventures/89-a-big-bet-on-an-ex-trucker",
+      "sheel-mohnot-better-tomorrow-ventures/89-a-big-bet-on-an-ex-trucker",
+      "cyan-banister-long-journey-ventures/gnara-disrupting-your-pants"
+    ],
+    "GENERIC": [
+      "mac-conwell/111-stigma-whose-business-is-it-anyway",
+      "michael-hyatt/28-is-this-entrepreneur-ready-to-take-on-facebook",
+      "mac-conwell/gnara-disrupting-your-pants"
+    ]
+  },
+  "n_decisions": 53,
+  "n_episodes": 19,
+  "bootstrap": {
+    "samples": 2000,
+    "seed": 0,
+    "unit": "episode"
+  },
+  "threshold_note": "balanced accuracy uses each investor's 70th-percentile cutoff of the MAIN evaluation's weighted scores on their other pitches (all pitches if fewer than 8), identical in every condition",
+  "metrics": {
+    "dimension recall": {
+      "OWN": {
+        "value": 0.9596412556053812,
+        "ci": [
+          0.9414164410534088,
+          0.9785752279635258
+        ]
+      },
+      "SWAP": {
+        "value": 0.968609865470852,
+        "ci": [
+          0.9427293038384412,
+          0.9910313901345291
+        ],
+        "diff_vs_OWN": 0.008968609865470878,
+        "diff_ci": [
+          -0.012556965061428968,
+          0.02985074626865669
+        ]
+      },
+      "NAME_ONLY": {
+        "value": 0.7937219730941704,
+        "ci": [
+          0.7462541816778179,
+          0.8366672843509682
+        ],
+        "diff_vs_OWN": -0.1659192825112108,
+        "diff_ci": [
+          -0.21052631578947367,
+          -0.1277726337448561
+        ]
+      },
+      "GENERIC": {
+        "value": 0.820627802690583,
+        "ci": [
+          0.789949797633873,
+          0.8522208538587849
+        ],
+        "diff_vs_OWN": -0.13901345291479816,
+        "diff_ci": [
+          -0.16831809456455843,
+          -0.1074726464554365
+        ]
+      },
+      "MAIN": {
+        "value": 0.9506726457399103,
+        "ci": [
+          0.9265515952143569,
+          0.9729790057915058
+        ],
+        "diff_OWN_minus_MAIN": 0.008968609865470878,
+        "diff_ci": [
+          -0.009436208445642405,
+          0.03448774167829384
+        ]
+      }
+    },
+    "dimension precision": {
+      "OWN": {
+        "value": 0.5863013698630137,
+        "ci": [
+          0.5304831855136733,
+          0.6317159230842095
+        ]
+      },
+      "SWAP": {
+        "value": 0.5917808219178082,
+        "ci": [
+          0.5362297014143531,
+          0.6363636363636364
+        ],
+        "diff_vs_OWN": 0.005479452054794498,
+        "diff_ci": [
+          -0.00711191244301348,
+          0.020246382468283152
+        ]
+      },
+      "NAME_ONLY": {
+        "value": 0.554858934169279,
+        "ci": [
+          0.4949143865332331,
+          0.6018374626825286
+        ],
+        "diff_vs_OWN": -0.03144243569373473,
+        "diff_ci": [
+          -0.05065941047141834,
+          -0.013271403256253467
+        ]
+      },
+      "GENERIC": {
+        "value": 0.552870090634441,
+        "ci": [
+          0.4910941412943192,
+          0.6043422554569384
+        ],
+        "diff_vs_OWN": -0.0334312792285727,
+        "diff_ci": [
+          -0.048653269967212226,
+          -0.017351230015364656
+        ]
+      },
+      "MAIN": {
+        "value": 0.5760869565217391,
+        "ci": [
+          0.518105010571534,
+          0.6206975279483545
+        ],
+        "diff_OWN_minus_MAIN": 0.010214413341274597,
+        "diff_ci": [
+          -0.004790094935528652,
+          0.023204237279385743
+        ]
+      }
+    },
+    "dimension F1": {
+      "OWN": {
+        "value": 0.7278911564625851,
+        "ci": [
+          0.6842916265012212,
+          0.7614844444444445
+        ]
+      },
+      "SWAP": {
+        "value": 0.7346938775510204,
+        "ci": [
+          0.692468982630273,
+          0.7676448046091687
+        ],
+        "diff_vs_OWN": 0.006802721088435382,
+        "diff_ci": [
+          -0.005254514456091772,
+          0.022063981532578693
+        ]
+      },
+      "NAME_ONLY": {
+        "value": 0.6531365313653137,
+        "ci": [
+          0.6037673510098911,
+          0.6908146745205187
+        ],
+        "diff_vs_OWN": -0.07475462509727138,
+        "diff_ci": [
+          -0.09915869031422694,
+          -0.05080016582106413
+        ]
+      },
+      "GENERIC": {
+        "value": 0.6606498194945848,
+        "ci": [
+          0.6125677857349836,
+          0.6967136705004989
+        ],
+        "diff_vs_OWN": -0.06724133696800028,
+        "diff_ci": [
+          -0.08653375413968896,
+          -0.04734000077118556
+        ]
+      },
+      "MAIN": {
+        "value": 0.7174280879864636,
+        "ci": [
+          0.6694142313744061,
+          0.7521646881527113
+        ],
+        "diff_OWN_minus_MAIN": 0.01046306847612144,
+        "diff_ci": [
+          -0.002396836935590016,
+          0.022520219308614014
+        ]
+      }
+    },
+    "rationale recall": {
+      "OWN": {
+        "value": 0.5947521865889213,
+        "ci": [
+          0.5376221198156682,
+          0.6469077816965093
+        ]
+      },
+      "SWAP": {
+        "value": 0.5801749271137027,
+        "ci": [
+          0.513809316582154,
+          0.6317287631115536
+        ],
+        "diff_vs_OWN": -0.014577259475218596,
+        "diff_ci": [
+          -0.0638977635782747,
+          0.03824095022624429
+        ]
+      },
+      "NAME_ONLY": {
+        "value": 0.5247813411078717,
+        "ci": [
+          0.4564518891515089,
+          0.5795858884094178
+        ],
+        "diff_vs_OWN": -0.06997084548104959,
+        "diff_ci": [
+          -0.12501120071684588,
+          -0.022900139699645695
+        ]
+      },
+      "GENERIC": {
+        "value": 0.5422740524781341,
+        "ci": [
+          0.47413888945553945,
+          0.5963117832231771
+        ],
+        "diff_vs_OWN": -0.05247813411078717,
+        "diff_ci": [
+          -0.10051830059002796,
+          0.0
+        ]
+      },
+      "MAIN": {
+        "value": 0.6297376093294461,
+        "ci": [
+          0.5765983942323447,
+          0.678410875086585
+        ],
+        "diff_OWN_minus_MAIN": -0.03498542274052485,
+        "diff_ci": [
+          -0.06597222222222221,
+          -0.007997889182058066
+        ]
+      }
+    },
+    "rationale precision": {
+      "OWN": {
+        "value": 0.24170616113744076,
+        "ci": [
+          0.20293294284852922,
+          0.2701961842951067
+        ]
+      },
+      "SWAP": {
+        "value": 0.2266514806378132,
+        "ci": [
+          0.18703983888098435,
+          0.2570708524577929
+        ],
+        "diff_vs_OWN": -0.015054680499627549,
+        "diff_ci": [
+          -0.032235028698717395,
+          0.004527574869364941
+        ]
+      },
+      "NAME_ONLY": {
+        "value": 0.2564102564102564,
+        "ci": [
+          0.21308652759519361,
+          0.2921282452154646
+        ],
+        "diff_vs_OWN": 0.014704095272815632,
+        "diff_ci": [
+          -0.01144977118943801,
+          0.03702943372019786
+        ]
+      },
+      "GENERIC": {
+        "value": 0.2608695652173913,
+        "ci": [
+          0.21394484103620842,
+          0.29868463773069037
+        ],
+        "diff_vs_OWN": 0.01916340407995054,
+        "diff_ci": [
+          -0.004524009461444938,
+          0.044477494273577396
+        ]
+      },
+      "MAIN": {
+        "value": 0.24971098265895952,
+        "ci": [
+          0.21646298650524737,
+          0.2784829151974835
+        ],
+        "diff_OWN_minus_MAIN": -0.008004821521518768,
+        "diff_ci": [
+          -0.020081503289749555,
+          0.0023246810401214356
+        ]
+      }
+    },
+    "rationale F1": {
+      "OWN": {
+        "value": 0.34372367312552654,
+        "ci": [
+          0.29696068264904385,
+          0.3791335176507411
+        ]
+      },
+      "SWAP": {
+        "value": 0.32596232596232594,
+        "ci": [
+          0.2756676561539834,
+          0.36388829239322634
+        ],
+        "diff_vs_OWN": -0.017761347163200603,
+        "diff_ci": [
+          -0.042410087436287644,
+          0.009442133826463977
+        ]
+      },
+      "NAME_ONLY": {
+        "value": 0.3444976076555024,
+        "ci": [
+          0.29321428659533894,
+          0.3825823247007911
+        ],
+        "diff_vs_OWN": 0.0007739345299758726,
+        "diff_ci": [
+          -0.03320634420008529,
+          0.02801742892371338
+        ]
+      },
+      "GENERIC": {
+        "value": 0.3522727272727273,
+        "ci": [
+          0.2955630374395787,
+          0.39539047091267693
+        ],
+        "diff_vs_OWN": 0.008549054147200752,
+        "diff_ci": [
+          -0.020767719736567367,
+          0.03975214911635169
+        ]
+      },
+      "MAIN": {
+        "value": 0.3576158940397351,
+        "ci": [
+          0.3166476635899647,
+          0.39035002643789635
+        ],
+        "diff_OWN_minus_MAIN": -0.013892220914208553,
+        "diff_ci": [
+          -0.02826319267292314,
+          -0.00039046074790925517
+        ]
+      }
+    },
+    "rationale + direction recall": {
+      "OWN": {
+        "value": 0.3039443155452436,
+        "ci": [
+          0.25517065446868403,
+          0.35061808561808566
+        ]
+      },
+      "SWAP": {
+        "value": 0.2853828306264501,
+        "ci": [
+          0.23121130378933846,
+          0.33858371870182896
+        ],
+        "diff_vs_OWN": -0.018561484918793503,
+        "diff_ci": [
+          -0.0503522738260225,
+          0.022007593278986954
+        ]
+      },
+      "NAME_ONLY": {
+        "value": 0.26450116009280744,
+        "ci": [
+          0.22726937516760526,
+          0.29638760068342684
+        ],
+        "diff_vs_OWN": -0.03944315545243615,
+        "diff_ci": [
+          -0.07992111433224379,
+          -0.0036060624922196124
+        ]
+      },
+      "GENERIC": {
+        "value": 0.27610208816705334,
+        "ci": [
+          0.22873184642283398,
+          0.32447041806644267
+        ],
+        "diff_vs_OWN": -0.027842227378190254,
+        "diff_ci": [
+          -0.06471937975272317,
+          0.010335471944323613
+        ]
+      },
+      "MAIN": {
+        "value": 0.3109048723897912,
+        "ci": [
+          0.261705373644384,
+          0.3595407310081222
+        ],
+        "diff_OWN_minus_MAIN": -0.006960556844547605,
+        "diff_ci": [
+          -0.04178212154713464,
+          0.020122190542357296
+        ]
+      }
+    },
+    "rationale + direction precision": {
+      "OWN": {
+        "value": 0.1552132701421801,
+        "ci": [
+          0.1226252849023398,
+          0.18360645207852191
+        ]
+      },
+      "SWAP": {
+        "value": 0.14009111617312073,
+        "ci": [
+          0.1101146495318869,
+          0.16685358032966832
+        ],
+        "diff_vs_OWN": -0.01512215396905936,
+        "diff_ci": [
+          -0.03293483048684109,
+          0.0027634851050110086
+        ]
+      },
+      "NAME_ONLY": {
+        "value": 0.1623931623931624,
+        "ci": [
+          0.13049169739087796,
+          0.19231203007518796
+        ],
+        "diff_vs_OWN": 0.0071798922509823115,
+        "diff_ci": [
+          -0.01565205444082665,
+          0.027151971490441774
+        ]
+      },
+      "GENERIC": {
+        "value": 0.16690042075736325,
+        "ci": [
+          0.12984822934232715,
+          0.20395693860836117
+        ],
+        "diff_vs_OWN": 0.011687150615183162,
+        "diff_ci": [
+          -0.013867908484402424,
+          0.03535940019975012
+        ]
+      },
+      "MAIN": {
+        "value": 0.15491329479768787,
+        "ci": [
+          0.12836789618369487,
+          0.17804301104734466
+        ],
+        "diff_OWN_minus_MAIN": 0.0002999753444922204,
+        "diff_ci": [
+          -0.01686315605893242,
+          0.014859854601722216
+        ]
+      }
+    },
+    "rationale + direction F1": {
+      "OWN": {
+        "value": 0.2054901960784314,
+        "ci": [
+          0.16648479980723666,
+          0.239440115211454
+        ]
+      },
+      "SWAP": {
+        "value": 0.18792971734148206,
+        "ci": [
+          0.15058697027197976,
+          0.22173595915390226
+        ],
+        "diff_vs_OWN": -0.017560478736949325,
+        "diff_ci": [
+          -0.0390578503584863,
+          0.006241896909469064
+        ]
+      },
+      "NAME_ONLY": {
+        "value": 0.20123565754633715,
+        "ci": [
+          0.16739892989697874,
+          0.23009039326446828
+        ],
+        "diff_vs_OWN": -0.004254538532094232,
+        "diff_ci": [
+          -0.03246790456659527,
+          0.01982153367869853
+        ]
+      },
+      "GENERIC": {
+        "value": 0.20804195804195805,
+        "ci": [
+          0.16797746717923456,
+          0.24897139367903895
+        ],
+        "diff_vs_OWN": 0.002551761963526661,
+        "diff_ci": [
+          -0.027511243331650705,
+          0.029776537200813247
+        ]
+      },
+      "MAIN": {
+        "value": 0.20679012345679013,
+        "ci": [
+          0.17472336955191048,
+          0.2362108112828574
+        ],
+        "diff_OWN_minus_MAIN": -0.0012999273783587395,
+        "diff_ci": [
+          -0.022740127931229658,
+          0.01691632034681365
+        ]
+      }
+    },
+    "decision-linked recall": {
+      "OWN": {
+        "value": 0.6287878787878788,
+        "ci": [
+          0.5312446120689656,
+          0.7297404547404547
+        ]
+      },
+      "SWAP": {
+        "value": 0.5833333333333334,
+        "ci": [
+          0.482740014884644,
+          0.6646849593495933
+        ],
+        "diff_vs_OWN": -0.045454545454545414,
+        "diff_ci": [
+          -0.14406970529851887,
+          0.048387096774193616
+        ]
+      },
+      "NAME_ONLY": {
+        "value": 0.44696969696969696,
+        "ci": [
+          0.35483299016243425,
+          0.5306185437137818
+        ],
+        "diff_vs_OWN": -0.18181818181818182,
+        "diff_ci": [
+          -0.2708454457364341,
+          -0.09270827536312545
+        ]
+      },
+      "GENERIC": {
+        "value": 0.5151515151515151,
+        "ci": [
+          0.4271755860762491,
+          0.5942063166529942
+        ],
+        "diff_vs_OWN": -0.11363636363636365,
+        "diff_ci": [
+          -0.21052631578947367,
+          -0.01958934517203111
+        ]
+      },
+      "MAIN": {
+        "value": 0.6363636363636364,
+        "ci": [
+          0.5454342532467532,
+          0.7333333333333333
+        ],
+        "diff_OWN_minus_MAIN": -0.007575757575757569,
+        "diff_ci": [
+          -0.07758620689655171,
+          0.04402746947835736
+        ]
+      }
+    },
+    "investor-fit recall": {
+      "OWN": {
+        "value": 0.3148148148148148,
+        "ci": [
+          0.22725128644939965,
+          0.41509433962264153
+        ]
+      },
+      "SWAP": {
+        "value": 0.2222222222222222,
+        "ci": [
+          0.1111111111111111,
+          0.37100727387729265
+        ],
+        "diff_vs_OWN": -0.09259259259259262,
+        "diff_ci": [
+          -0.26415094339622647,
+          0.10004237288135573
+        ]
+      },
+      "NAME_ONLY": {
+        "value": 0.018518518518518517,
+        "ci": [
+          0.0,
+          0.06382978723404255
+        ],
+        "diff_vs_OWN": -0.2962962962962963,
+        "diff_ci": [
+          -0.40351720647773276,
+          -0.203695856873823
+        ]
+      },
+      "GENERIC": {
+        "value": 0.037037037037037035,
+        "ci": [
+          0.0,
+          0.1
+        ],
+        "diff_vs_OWN": -0.2777777777777778,
+        "diff_ci": [
+          -0.39999999999999997,
+          -0.16666666666666669
+        ]
+      },
+      "MAIN": {
+        "value": 0.35185185185185186,
+        "ci": [
+          0.23404255319148937,
+          0.4666666666666667
+        ],
+        "diff_OWN_minus_MAIN": -0.037037037037037035,
+        "diff_ci": [
+          -0.1111111111111111,
+          0.0500320512820511
+        ]
+      }
+    },
+    "target-investor identification": {
+      "OWN": {
+        "value": 0.4659090909090909,
+        "ci": [
+          0.3627389705882353,
+          0.5454545454545454
+        ]
+      },
+      "SWAP": {
+        "value": 0.45454545454545453,
+        "ci": [
+          0.35714285714285715,
+          0.5349044850498337
+        ],
+        "diff_vs_OWN": -0.011363636363636354,
+        "diff_ci": [
+          -0.14516129032258068,
+          0.1351351351351351
+        ]
+      },
+      "NAME_ONLY": {
+        "value": 0.4772727272727273,
+        "ci": [
+          0.3833088235294118,
+          0.562528409090909
+        ],
+        "diff_vs_OWN": 0.011363636363636409,
+        "diff_ci": [
+          -0.10295385395537528,
+          0.125
+        ]
+      },
+      "GENERIC": {
+        "value": 0.5681818181818182,
+        "ci": [
+          0.4673731884057971,
+          0.669495308716707
+        ],
+        "diff_vs_OWN": 0.10227272727272735,
+        "diff_ci": [
+          -0.04288865546218483,
+          0.2551198386331276
+        ]
+      },
+      "MAIN": {
+        "value": 0.5568181818181818,
+        "ci": [
+          0.46,
+          0.6481481481481481
+        ],
+        "diff_OWN_minus_MAIN": -0.09090909090909088,
+        "diff_ci": [
+          -0.18749999999999994,
+          0.0
+        ]
+      }
+    },
+    "overlap between twins": {
+      "OWN": {
+        "value": 0.6770841576192759,
+        "ci": [
+          0.6222687133915061,
+          0.7233356938989006
+        ]
+      },
+      "SWAP": {
+        "value": 0.7167109469099447,
+        "ci": [
+          0.6922621782139646,
+          0.7531472005763437
+        ],
+        "diff_vs_OWN": 0.03962678929066887,
+        "diff_ci": [
+          -0.0039432345968828915,
+          0.09057362742354352
+        ]
+      },
+      "NAME_ONLY": {
+        "value": 0.778385256551664,
+        "ci": [
+          0.7570265919352196,
+          0.8047865327669644
+        ],
+        "diff_vs_OWN": 0.10130109893238815,
+        "diff_ci": [
+          0.046666811136033104,
+          0.16483233416673007
+        ]
+      },
+      "GENERIC": {
+        "value": 0.7856671588679821,
+        "ci": [
+          0.7585098592481117,
+          0.8205512774865861
+        ],
+        "diff_vs_OWN": 0.10858300124870623,
+        "diff_ci": [
+          0.06544432958971774,
+          0.1601439581424035
+        ]
+      },
+      "MAIN": {
+        "value": 0.6999425433033729,
+        "ci": [
+          0.6656741111858483,
+          0.7382999532973412
+        ],
+        "diff_OWN_minus_MAIN": -0.022858385684097038,
+        "diff_ci": [
+          -0.06280317146957991,
+          0.014320092705202528
+        ]
+      }
+    },
+    "overlap between investors": {
+      "OWN": {
+        "value": 0.39810293458083446,
+        "ci": [
+          0.33385536126177784,
+          0.44581112514050725
+        ]
+      },
+      "SWAP": {
+        "value": 0.39810293458083446,
+        "ci": [
+          0.33385536126177784,
+          0.44581112514050725
+        ],
+        "diff_vs_OWN": 0.0,
+        "diff_ci": [
+          0.0,
+          0.0
+        ]
+      },
+      "NAME_ONLY": {
+        "value": 0.39810293458083446,
+        "ci": [
+          0.33385536126177784,
+          0.44581112514050725
+        ],
+        "diff_vs_OWN": 0.0,
+        "diff_ci": [
+          0.0,
+          0.0
+        ]
+      },
+      "GENERIC": {
+        "value": 0.39810293458083446,
+        "ci": [
+          0.33385536126177784,
+          0.44581112514050725
+        ],
+        "diff_vs_OWN": 0.0,
+        "diff_ci": [
+          0.0,
+          0.0
+        ]
+      },
+      "MAIN": {
+        "value": 0.39810293458083446,
+        "ci": [
+          0.33385536126177784,
+          0.44581112514050725
+        ],
+        "diff_OWN_minus_MAIN": 0.0,
+        "diff_ci": [
+          0.0,
+          0.0
+        ]
+      }
+    },
+    "within-panel AUC (weighted score)": {
+      "OWN": {
+        "value": 0.4642857142857143,
+        "ci": [
+          0.25,
+          0.7038194444444438
+        ]
+      },
+      "SWAP": {
+        "value": 0.6428571428571429,
+        "ci": [
+          0.4074074074074074,
+          0.8275862068965517
+        ],
+        "diff_vs_OWN": 0.1785714285714286,
+        "diff_ci": [
+          -0.11764705882352944,
+          0.4615384615384615
+        ]
+      },
+      "NAME_ONLY": {
+        "value": 0.6428571428571429,
+        "ci": [
+          0.3793103448275862,
+          0.9130434782608695
+        ],
+        "diff_vs_OWN": 0.1785714285714286,
+        "diff_ci": [
+          -0.037037037037037035,
+          0.4444444444444444
+        ]
+      },
+      "GENERIC": {
+        "value": 0.42857142857142855,
+        "ci": [
+          0.18914695945945947,
+          0.6957608695652168
+        ],
+        "diff_vs_OWN": -0.035714285714285754,
+        "diff_ci": [
+          -0.3928571428571428,
+          0.3214573732718893
+        ]
+      },
+      "MAIN": {
+        "value": 0.5714285714285714,
+        "ci": [
+          0.34348958333333335,
+          0.8181818181818182
+        ],
+        "diff_OWN_minus_MAIN": -0.1071428571428571,
+        "diff_ci": [
+          -0.3913043478260869,
+          0.16003225806451593
+        ]
+      }
+    },
+    "balanced accuracy (weighted score, main cutoffs)": {
+      "OWN": {
+        "value": 0.6011730205278593,
+        "ci": [
+          0.5372622850122851,
+          0.667423902894491
+        ]
+      },
+      "SWAP": {
+        "value": 0.565982404692082,
+        "ci": [
+          0.45095691737105403,
+          0.6818107000757859
+        ],
+        "diff_vs_OWN": -0.035190615835777206,
+        "diff_ci": [
+          -0.15386302294197032,
+          0.06775480157045845
+        ]
+      },
+      "NAME_ONLY": {
+        "value": 0.6730205278592376,
+        "ci": [
+          0.5657386363636364,
+          0.77725
+        ],
+        "diff_vs_OWN": 0.07184750733137835,
+        "diff_ci": [
+          -0.015441907386157116,
+          0.16363771645021638
+        ]
+      },
+      "GENERIC": {
+        "value": 0.565982404692082,
+        "ci": [
+          0.4481185919343814,
+          0.6708482142857143
+        ],
+        "diff_vs_OWN": -0.035190615835777206,
+        "diff_ci": [
+          -0.15974060885351218,
+          0.0714285714285714
+        ]
+      },
+      "MAIN": {
+        "value": 0.565982404692082,
+        "ci": [
+          0.42997984749455337,
+          0.7050006613756614
+        ],
+        "diff_OWN_minus_MAIN": 0.035190615835777206,
+        "diff_ci": [
+          -0.09352225672877848,
+          0.16733439041578563
+        ]
+      }
+    },
+    "rationales per pitch": {
+      "OWN": {
+        "value": 18.58490566037736,
+        "ci": [
+          17.75,
+          19.363636363636363
+        ]
+      },
+      "SWAP": {
+        "value": 18.77358490566038,
+        "ci": [
+          17.433889069616136,
+          20.100217391304348
+        ],
+        "diff_vs_OWN": 0.18867924528301927,
+        "diff_ci": [
+          -1.2545647969052254,
+          1.4893825615352523
+        ]
+      },
+      "NAME_ONLY": {
+        "value": 15.11320754716981,
+        "ci": [
+          14.18954342273308,
+          16.020844414893617
+        ],
+        "diff_vs_OWN": -3.471698113207548,
+        "diff_ci": [
+          -4.339303571428572,
+          -2.5453181818181805
+        ]
+      },
+      "GENERIC": {
+        "value": 15.358490566037736,
+        "ci": [
+          14.489604591836736,
+          16.288858695652173
+        ],
+        "diff_vs_OWN": -3.2264150943396235,
+        "diff_ci": [
+          -3.960821309655936,
+          -2.365212264150942
+        ]
+      },
+      "MAIN": {
+        "value": 18.962264150943398,
+        "ci": [
+          18.132075471698112,
+          19.74420884632923
+        ],
+        "diff_OWN_minus_MAIN": -0.37735849056603854,
+        "diff_ci": [
+          -1.080083333333335,
+          0.4262295081967197
+        ]
+      }
+    },
+    "share in favour": {
+      "OWN": {
+        "value": 0.5086294416243655,
+        "ci": [
+          0.46120418409216446,
+          0.558685267168812
+        ]
+      },
+      "SWAP": {
+        "value": 0.4743718592964824,
+        "ci": [
+          0.42785782072297474,
+          0.5203936220501073
+        ],
+        "diff_vs_OWN": -0.03425758232788312,
+        "diff_ci": [
+          -0.07386994579475455,
+          0.00369854548186935
+        ]
+      },
+      "NAME_ONLY": {
+        "value": 0.5880149812734082,
+        "ci": [
+          0.5424946357124419,
+          0.6311176936421087
+        ],
+        "diff_vs_OWN": 0.07938553964904271,
+        "diff_ci": [
+          0.043709680155848175,
+          0.11576401625806611
+        ]
+      },
+      "GENERIC": {
+        "value": 0.5786240786240786,
+        "ci": [
+          0.5357526618381538,
+          0.6195550449327404
+        ],
+        "diff_vs_OWN": 0.06999463699971309,
+        "diff_ci": [
+          0.030902653341866346,
+          0.11674250871121314
+        ]
+      },
+      "MAIN": {
+        "value": 0.5144278606965174,
+        "ci": [
+          0.4673102310231023,
+          0.5639973388743073
+        ],
+        "diff_OWN_minus_MAIN": -0.005798419072151839,
+        "diff_ci": [
+          -0.03712602333999015,
+          0.023963128439925565
+        ]
+      }
+    }
+  },
+  "primary_criteria_met": {
+    "target-investor identification": false,
+    "decision-linked recall": false
+  },
+  "secondary_criteria_met": {
+    "OWN > NAME_ONLY: target-investor identification": false,
+    "OWN > NAME_ONLY: decision-linked recall": true,
+    "OWN > GENERIC: target-investor identification": false,
+    "OWN > GENERIC: decision-linked recall": true
+  },
+  "primary_overall_met": false,
+  "sensitivity_OWN_vs_SWAP_pairwise": {
+    "n_decisions": 65,
+    "n_episodes": 20,
+    "OWN_minus_SWAP": {
+      "target-investor identification": {
+        "diff": 0.008928571428571452,
+        "ci": [
+          -0.09999999999999998,
+          0.11194351518270718
+        ]
+      },
+      "decision-linked recall": {
+        "diff": 0.036809815950920255,
+        "ci": [
+          -0.05076357222748004,
+          0.12025888363580906
+        ]
+      },
+      "rationale F1": {
+        "diff": 0.011942211748262488,
+        "ci": [
+          -0.010249806351697525,
+          0.03103232635571374
+        ]
+      }
+    }
+  },
+  "sample": {
+    "frame": "57 split panels of the main evaluation (outputs/components-lens/split-episodes.txt): panels where investors disagree, from the 400-decision main evaluation",
+    "draw": "numpy.random.default_rng(0).choice(split_panels, 20, replace=False), sorted",
+    "episodes": [
+      "104-dressd-red-carpet-or-red-ocean",
+      "111-stigma-whose-business-is-it-anyway",
+      "117-lotus-hardware-hail-mary",
+      "127-nectir-the-classroom-of-the-future",
+      "130-franshares-investing-in-franchises",
+      "133-podcast-ai-josh-gets-displaced",
+      "149-dopl",
+      "168-finnecto-where-deals-dont-die",
+      "169-mappa-can-voice-ai-find-you-a-job-or-a-date",
+      "178-cosmicbrain-ai-how-to-train-your-robot",
+      "184-ventrix-the-gas-plant-of-the-future",
+      "185-its-electric-beating-tesla-was-the-easy-part",
+      "186-supercool-earth-making-it-rain-literally",
+      "28-is-this-entrepreneur-ready-to-take-on-facebook",
+      "45-whatever-happened-to-virtual-reality",
+      "73-enough-sales-calls-already",
+      "8-hykso",
+      "85-will-coronavirus-kill-this-deal",
+      "89-a-big-bet-on-an-ex-trucker",
+      "gnara-disrupting-your-pants"
+    ],
+    "decisions": [
+      {
+        "decision_id": "charles-hudson-precursor-ventures/104-dressd-red-carpet-or-red-ocean",
+        "vc_slug": "charles-hudson-precursor-ventures",
+        "episode_slug": "104-dressd-red-carpet-or-red-ocean",
+        "actual": "In",
+        "has_reference_rationales": true
+      },
+      {
+        "decision_id": "elizabeth-yin-hustle-fund/104-dressd-red-carpet-or-red-ocean",
+        "vc_slug": "elizabeth-yin-hustle-fund",
+        "episode_slug": "104-dressd-red-carpet-or-red-ocean",
+        "actual": "Out",
+        "has_reference_rationales": true
+      },
+      {
+        "decision_id": "jillian-manus-structure-capital/104-dressd-red-carpet-or-red-ocean",
+        "vc_slug": "jillian-manus-structure-capital",
+        "episode_slug": "104-dressd-red-carpet-or-red-ocean",
+        "actual": "Out",
+        "has_reference_rationales": true
+      },
+      {
+        "decision_id": "mac-conwell/104-dressd-red-carpet-or-red-ocean",
+        "vc_slug": "mac-conwell",
+        "episode_slug": "104-dressd-red-carpet-or-red-ocean",
+        "actual": "Out",
+        "has_reference_rationales": true
+      },
+      {
+        "decision_id": "charles-hudson-precursor-ventures/111-stigma-whose-business-is-it-anyway",
+        "vc_slug": "charles-hudson-precursor-ventures",
+        "episode_slug": "111-stigma-whose-business-is-it-anyway",
+        "actual": "Out",
+        "has_reference_rationales": true
+      },
+      {
+        "decision_id": "elizabeth-yin-hustle-fund/111-stigma-whose-business-is-it-anyway",
+        "vc_slug": "elizabeth-yin-hustle-fund",
+        "episode_slug": "111-stigma-whose-business-is-it-anyway",
+        "actual": "Out",
+        "has_reference_rationales": true
+      },
+      {
+        "decision_id": "jillian-manus-structure-capital/111-stigma-whose-business-is-it-anyway",
+        "vc_slug": "jillian-manus-structure-capital",
+        "episode_slug": "111-stigma-whose-business-is-it-anyway",
+        "actual": "Out",
+        "has_reference_rationales": true
+      },
+      {
+        "decision_id": "mac-conwell/111-stigma-whose-business-is-it-anyway",
+        "vc_slug": "mac-conwell",
+        "episode_slug": "111-stigma-whose-business-is-it-anyway",
+        "actual": "In",
+        "has_reference_rationales": true
+      },
+      {
+        "decision_id": "charles-hudson-precursor-ventures/117-lotus-hardware-hail-mary",
+        "vc_slug": "charles-hudson-precursor-ventures",
+        "episode_slug": "117-lotus-hardware-hail-mary",
+        "actual": "Out",
+        "has_reference_rationales": true
+      },
+      {
+        "decision_id": "elizabeth-yin-hustle-fund/117-lotus-hardware-hail-mary",
+        "vc_slug": "elizabeth-yin-hustle-fund",
+        "episode_slug": "117-lotus-hardware-hail-mary",
+        "actual": "In",
+        "has_reference_rationales": true
+      },
+      {
+        "decision_id": "mark-phillips-11-tribes-ventures/117-lotus-hardware-hail-mary",
+        "vc_slug": "mark-phillips-11-tribes-ventures",
+        "episode_slug": "117-lotus-hardware-hail-mary",
+        "actual": "Out",
+        "has_reference_rationales": true
+      },
+      {
+        "decision_id": "paige-doherty-behind-genius-ventures/117-lotus-hardware-hail-mary",
+        "vc_slug": "paige-doherty-behind-genius-ventures",
+        "episode_slug": "117-lotus-hardware-hail-mary",
+        "actual": "In",
+        "has_reference_rationales": true
+      },
+      {
+        "decision_id": "charles-hudson-precursor-ventures/127-nectir-the-classroom-of-the-future",
+        "vc_slug": "charles-hudson-precursor-ventures",
+        "episode_slug": "127-nectir-the-classroom-of-the-future",
+        "actual": "In",
+        "has_reference_rationales": true
+      },
+      {
+        "decision_id": "cyan-banister-long-journey-ventures/127-nectir-the-classroom-of-the-future",
+        "vc_slug": "cyan-banister-long-journey-ventures",
+        "episode_slug": "127-nectir-the-classroom-of-the-future",
+        "actual": "In",
+        "has_reference_rationales": true
+      },
+      {
+        "decision_id": "elizabeth-yin-hustle-fund/127-nectir-the-classroom-of-the-future",
+        "vc_slug": "elizabeth-yin-hustle-fund",
+        "episode_slug": "127-nectir-the-classroom-of-the-future",
+        "actual": "Out",
+        "has_reference_rationales": true
+      },
+      {
+        "decision_id": "beck-bamberger-bad-ideas-group/130-franshares-investing-in-franchises",
+        "vc_slug": "beck-bamberger-bad-ideas-group",
+        "episode_slug": "130-franshares-investing-in-franchises",
+        "actual": "Out",
+        "has_reference_rationales": true
+      },
+      {
+        "decision_id": "jillian-manus-structure-capital/130-franshares-investing-in-franchises",
+        "vc_slug": "jillian-manus-structure-capital",
+        "episode_slug": "130-franshares-investing-in-franchises",
+        "actual": "In",
+        "has_reference_rationales": true
+      },
+      {
+        "decision_id": "mac-conwell/130-franshares-investing-in-franchises",
+        "vc_slug": "mac-conwell",
+        "episode_slug": "130-franshares-investing-in-franchises",
+        "actual": "In",
+        "has_reference_rationales": true
+      },
+      {
+        "decision_id": "beck-bamberger-bad-ideas-group/133-podcast-ai-josh-gets-displaced",
+        "vc_slug": "beck-bamberger-bad-ideas-group",
+        "episode_slug": "133-podcast-ai-josh-gets-displaced",
+        "actual": "Out",
+        "has_reference_rationales": true
+      },
+      {
+        "decision_id": "charles-hudson-precursor-ventures/133-podcast-ai-josh-gets-displaced",
+        "vc_slug": "charles-hudson-precursor-ventures",
+        "episode_slug": "133-podcast-ai-josh-gets-displaced",
+        "actual": "In",
+        "has_reference_rationales": true
+      },
+      {
+        "decision_id": "elizabeth-yin-hustle-fund/133-podcast-ai-josh-gets-displaced",
+        "vc_slug": "elizabeth-yin-hustle-fund",
+        "episode_slug": "133-podcast-ai-josh-gets-displaced",
+        "actual": "Out",
+        "has_reference_rationales": true
+      },
+      {
+        "decision_id": "mac-conwell/133-podcast-ai-josh-gets-displaced",
+        "vc_slug": "mac-conwell",
+        "episode_slug": "133-podcast-ai-josh-gets-displaced",
+        "actual": "Out",
+        "has_reference_rationales": true
+      },
+      {
+        "decision_id": "charles-hudson-precursor-ventures/149-dopl",
+        "vc_slug": "charles-hudson-precursor-ventures",
+        "episode_slug": "149-dopl",
+        "actual": "In",
+        "has_reference_rationales": true
+      },
+      {
+        "decision_id": "jesse-middleton-flybridge/149-dopl",
+        "vc_slug": "jesse-middleton-flybridge",
+        "episode_slug": "149-dopl",
+        "actual": "Out",
+        "has_reference_rationales": true
+      },
+      {
+        "decision_id": "charles-hudson-precursor-ventures/168-finnecto-where-deals-dont-die",
+        "vc_slug": "charles-hudson-precursor-ventures",
+        "episode_slug": "168-finnecto-where-deals-dont-die",
+        "actual": "Out",
+        "has_reference_rationales": false
+      },
+      {
+        "decision_id": "jenny-fielding-everywhere-ventures/168-finnecto-where-deals-dont-die",
+        "vc_slug": "jenny-fielding-everywhere-ventures",
+        "episode_slug": "168-finnecto-where-deals-dont-die",
+        "actual": "In",
+        "has_reference_rationales": true
+      },
+      {
+        "decision_id": "paige-doherty-behind-genius-ventures/168-finnecto-where-deals-dont-die",
+        "vc_slug": "paige-doherty-behind-genius-ventures",
+        "episode_slug": "168-finnecto-where-deals-dont-die",
+        "actual": "Out",
+        "has_reference_rationales": true
+      },
+      {
+        "decision_id": "charles-hudson-precursor-ventures/169-mappa-can-voice-ai-find-you-a-job-or-a-date",
+        "vc_slug": "charles-hudson-precursor-ventures",
+        "episode_slug": "169-mappa-can-voice-ai-find-you-a-job-or-a-date",
+        "actual": "Out",
+        "has_reference_rationales": false
+      },
+      {
+        "decision_id": "rohit-gupta-future-communities-capital/169-mappa-can-voice-ai-find-you-a-job-or-a-date",
+        "vc_slug": "rohit-gupta-future-communities-capital",
+        "episode_slug": "169-mappa-can-voice-ai-find-you-a-job-or-a-date",
+        "actual": "In",
+        "has_reference_rationales": true
+      },
+      {
+        "decision_id": "charles-hudson-precursor-ventures/178-cosmicbrain-ai-how-to-train-your-robot",
+        "vc_slug": "charles-hudson-precursor-ventures",
+        "episode_slug": "178-cosmicbrain-ai-how-to-train-your-robot",
+        "actual": "Out",
+        "has_reference_rationales": false
+      },
+      {
+        "decision_id": "cyan-banister-long-journey-ventures/178-cosmicbrain-ai-how-to-train-your-robot",
+        "vc_slug": "cyan-banister-long-journey-ventures",
+        "episode_slug": "178-cosmicbrain-ai-how-to-train-your-robot",
+        "actual": "In",
+        "has_reference_rationales": true
+      },
+      {
+        "decision_id": "rohit-gupta-future-communities-capital/178-cosmicbrain-ai-how-to-train-your-robot",
+        "vc_slug": "rohit-gupta-future-communities-capital",
+        "episode_slug": "178-cosmicbrain-ai-how-to-train-your-robot",
+        "actual": "Out",
+        "has_reference_rationales": true
+      },
+      {
+        "decision_id": "elizabeth-yin-hustle-fund/184-ventrix-the-gas-plant-of-the-future",
+        "vc_slug": "elizabeth-yin-hustle-fund",
+        "episode_slug": "184-ventrix-the-gas-plant-of-the-future",
+        "actual": "In",
+        "has_reference_rationales": true
+      },
+      {
+        "decision_id": "jesse-middleton-flybridge/184-ventrix-the-gas-plant-of-the-future",
+        "vc_slug": "jesse-middleton-flybridge",
+        "episode_slug": "184-ventrix-the-gas-plant-of-the-future",
+        "actual": "Out",
+        "has_reference_rationales": true
+      },
+      {
+        "decision_id": "mike-ma-sidecut-ventures/184-ventrix-the-gas-plant-of-the-future",
+        "vc_slug": "mike-ma-sidecut-ventures",
+        "episode_slug": "184-ventrix-the-gas-plant-of-the-future",
+        "actual": "In",
+        "has_reference_rationales": true
+      },
+      {
+        "decision_id": "elizabeth-yin-hustle-fund/185-its-electric-beating-tesla-was-the-easy-part",
+        "vc_slug": "elizabeth-yin-hustle-fund",
+        "episode_slug": "185-its-electric-beating-tesla-was-the-easy-part",
+        "actual": "Out",
+        "has_reference_rationales": true
+      },
+      {
+        "decision_id": "mike-ma-sidecut-ventures/185-its-electric-beating-tesla-was-the-easy-part",
+        "vc_slug": "mike-ma-sidecut-ventures",
+        "episode_slug": "185-its-electric-beating-tesla-was-the-easy-part",
+        "actual": "Out",
+        "has_reference_rationales": true
+      },
+      {
+        "decision_id": "rohit-gupta-future-communities-capital/185-its-electric-beating-tesla-was-the-easy-part",
+        "vc_slug": "rohit-gupta-future-communities-capital",
+        "episode_slug": "185-its-electric-beating-tesla-was-the-easy-part",
+        "actual": "In",
+        "has_reference_rationales": true
+      },
+      {
+        "decision_id": "elizabeth-yin-hustle-fund/186-supercool-earth-making-it-rain-literally",
+        "vc_slug": "elizabeth-yin-hustle-fund",
+        "episode_slug": "186-supercool-earth-making-it-rain-literally",
+        "actual": "Out",
+        "has_reference_rationales": true
+      },
+      {
+        "decision_id": "jesse-middleton-flybridge/186-supercool-earth-making-it-rain-literally",
+        "vc_slug": "jesse-middleton-flybridge",
+        "episode_slug": "186-supercool-earth-making-it-rain-literally",
+        "actual": "Out",
+        "has_reference_rationales": true
+      },
+      {
+        "decision_id": "rohit-gupta-future-communities-capital/186-supercool-earth-making-it-rain-literally",
+        "vc_slug": "rohit-gupta-future-communities-capital",
+        "episode_slug": "186-supercool-earth-making-it-rain-literally",
+        "actual": "In",
+        "has_reference_rationales": true
+      },
+      {
+        "decision_id": "michael-hyatt/28-is-this-entrepreneur-ready-to-take-on-facebook",
+        "vc_slug": "michael-hyatt",
+        "episode_slug": "28-is-this-entrepreneur-ready-to-take-on-facebook",
+        "actual": "In",
+        "has_reference_rationales": true
+      },
+      {
+        "decision_id": "phil-nadel-forefront-venture-partners/28-is-this-entrepreneur-ready-to-take-on-facebook",
+        "vc_slug": "phil-nadel-forefront-venture-partners",
+        "episode_slug": "28-is-this-entrepreneur-ready-to-take-on-facebook",
+        "actual": "Out",
+        "has_reference_rationales": true
+      },
+      {
+        "decision_id": "howie-diamond-pure-ventures/45-whatever-happened-to-virtual-reality",
+        "vc_slug": "howie-diamond-pure-ventures",
+        "episode_slug": "45-whatever-happened-to-virtual-reality",
+        "actual": "Out",
+        "has_reference_rationales": true
+      },
+      {
+        "decision_id": "jillian-manus-structure-capital/45-whatever-happened-to-virtual-reality",
+        "vc_slug": "jillian-manus-structure-capital",
+        "episode_slug": "45-whatever-happened-to-virtual-reality",
+        "actual": "In",
+        "has_reference_rationales": true
+      },
+      {
+        "decision_id": "michael-hyatt/45-whatever-happened-to-virtual-reality",
+        "vc_slug": "michael-hyatt",
+        "episode_slug": "45-whatever-happened-to-virtual-reality",
+        "actual": "Out",
+        "has_reference_rationales": true
+      },
+      {
+        "decision_id": "charles-hudson-precursor-ventures/73-enough-sales-calls-already",
+        "vc_slug": "charles-hudson-precursor-ventures",
+        "episode_slug": "73-enough-sales-calls-already",
+        "actual": "Out",
+        "has_reference_rationales": false
+      },
+      {
+        "decision_id": "jillian-manus-structure-capital/73-enough-sales-calls-already",
+        "vc_slug": "jillian-manus-structure-capital",
+        "episode_slug": "73-enough-sales-calls-already",
+        "actual": "Out",
+        "has_reference_rationales": false
+      },
+      {
+        "decision_id": "michael-hyatt/73-enough-sales-calls-already",
+        "vc_slug": "michael-hyatt",
+        "episode_slug": "73-enough-sales-calls-already",
+        "actual": "In",
+        "has_reference_rationales": true
+      },
+      {
+        "decision_id": "sarah-downey-accomplice/73-enough-sales-calls-already",
+        "vc_slug": "sarah-downey-accomplice",
+        "episode_slug": "73-enough-sales-calls-already",
+        "actual": "Out",
+        "has_reference_rationales": true
+      },
+      {
+        "decision_id": "howie-diamond-pure-ventures/8-hykso",
+        "vc_slug": "howie-diamond-pure-ventures",
+        "episode_slug": "8-hykso",
+        "actual": "Out",
+        "has_reference_rationales": true
+      },
+      {
+        "decision_id": "jake-chapman-marque-ventures/8-hykso",
+        "vc_slug": "jake-chapman-marque-ventures",
+        "episode_slug": "8-hykso",
+        "actual": "In",
+        "has_reference_rationales": true
+      },
+      {
+        "decision_id": "jillian-manus-structure-capital/8-hykso",
+        "vc_slug": "jillian-manus-structure-capital",
+        "episode_slug": "8-hykso",
+        "actual": "In",
+        "has_reference_rationales": true
+      },
+      {
+        "decision_id": "phil-nadel-forefront-venture-partners/8-hykso",
+        "vc_slug": "phil-nadel-forefront-venture-partners",
+        "episode_slug": "8-hykso",
+        "actual": "In",
+        "has_reference_rationales": true
+      },
+      {
+        "decision_id": "charles-hudson-precursor-ventures/85-will-coronavirus-kill-this-deal",
+        "vc_slug": "charles-hudson-precursor-ventures",
+        "episode_slug": "85-will-coronavirus-kill-this-deal",
+        "actual": "Out",
+        "has_reference_rationales": false
+      },
+      {
+        "decision_id": "jillian-manus-structure-capital/85-will-coronavirus-kill-this-deal",
+        "vc_slug": "jillian-manus-structure-capital",
+        "episode_slug": "85-will-coronavirus-kill-this-deal",
+        "actual": "In",
+        "has_reference_rationales": false
+      },
+      {
+        "decision_id": "michael-hyatt/85-will-coronavirus-kill-this-deal",
+        "vc_slug": "michael-hyatt",
+        "episode_slug": "85-will-coronavirus-kill-this-deal",
+        "actual": "Out",
+        "has_reference_rationales": true
+      },
+      {
+        "decision_id": "phil-nadel-forefront-venture-partners/85-will-coronavirus-kill-this-deal",
+        "vc_slug": "phil-nadel-forefront-venture-partners",
+        "episode_slug": "85-will-coronavirus-kill-this-deal",
+        "actual": "Out",
+        "has_reference_rationales": false
+      },
+      {
+        "decision_id": "sarah-downey-accomplice/85-will-coronavirus-kill-this-deal",
+        "vc_slug": "sarah-downey-accomplice",
+        "episode_slug": "85-will-coronavirus-kill-this-deal",
+        "actual": "Out",
+        "has_reference_rationales": true
+      },
+      {
+        "decision_id": "charles-hudson-precursor-ventures/89-a-big-bet-on-an-ex-trucker",
+        "vc_slug": "charles-hudson-precursor-ventures",
+        "episode_slug": "89-a-big-bet-on-an-ex-trucker",
+        "actual": "Out",
+        "has_reference_rationales": false
+      },
+      {
+        "decision_id": "elizabeth-yin-hustle-fund/89-a-big-bet-on-an-ex-trucker",
+        "vc_slug": "elizabeth-yin-hustle-fund",
+        "episode_slug": "89-a-big-bet-on-an-ex-trucker",
+        "actual": "In",
+        "has_reference_rationales": true
+      },
+      {
+        "decision_id": "sheel-mohnot-better-tomorrow-ventures/89-a-big-bet-on-an-ex-trucker",
+        "vc_slug": "sheel-mohnot-better-tomorrow-ventures",
+        "episode_slug": "89-a-big-bet-on-an-ex-trucker",
+        "actual": "Out",
+        "has_reference_rationales": true
+      },
+      {
+        "decision_id": "cyan-banister-long-journey-ventures/gnara-disrupting-your-pants",
+        "vc_slug": "cyan-banister-long-journey-ventures",
+        "episode_slug": "gnara-disrupting-your-pants",
+        "actual": "In",
+        "has_reference_rationales": true
+      },
+      {
+        "decision_id": "elizabeth-yin-hustle-fund/gnara-disrupting-your-pants",
+        "vc_slug": "elizabeth-yin-hustle-fund",
+        "episode_slug": "gnara-disrupting-your-pants",
+        "actual": "In",
+        "has_reference_rationales": false
+      },
+      {
+        "decision_id": "mac-conwell/gnara-disrupting-your-pants",
+        "vc_slug": "mac-conwell",
+        "episode_slug": "gnara-disrupting-your-pants",
+        "actual": "Out",
+        "has_reference_rationales": true
+      },
+      {
+        "decision_id": "paige-doherty-behind-genius-ventures/gnara-disrupting-your-pants",
+        "vc_slug": "paige-doherty-behind-genius-ventures",
+        "episode_slug": "gnara-disrupting-your-pants",
+        "actual": "Out",
+        "has_reference_rationales": true
+      }
+    ],
+    "n_decisions": 66,
+    "n_with_reference_rationales": 56
+  },
+  "donors": {
+    "charles-hudson-precursor-ventures/104-dressd-red-carpet-or-red-ocean": "mac-conwell",
+    "elizabeth-yin-hustle-fund/104-dressd-red-carpet-or-red-ocean": "jillian-manus-structure-capital",
+    "jillian-manus-structure-capital/104-dressd-red-carpet-or-red-ocean": "elizabeth-yin-hustle-fund",
+    "mac-conwell/104-dressd-red-carpet-or-red-ocean": "charles-hudson-precursor-ventures",
+    "charles-hudson-precursor-ventures/111-stigma-whose-business-is-it-anyway": "elizabeth-yin-hustle-fund",
+    "elizabeth-yin-hustle-fund/111-stigma-whose-business-is-it-anyway": "charles-hudson-precursor-ventures",
+    "jillian-manus-structure-capital/111-stigma-whose-business-is-it-anyway": "charles-hudson-precursor-ventures",
+    "mac-conwell/111-stigma-whose-business-is-it-anyway": "charles-hudson-precursor-ventures",
+    "charles-hudson-precursor-ventures/117-lotus-hardware-hail-mary": "elizabeth-yin-hustle-fund",
+    "elizabeth-yin-hustle-fund/117-lotus-hardware-hail-mary": "paige-doherty-behind-genius-ventures",
+    "mark-phillips-11-tribes-ventures/117-lotus-hardware-hail-mary": "elizabeth-yin-hustle-fund",
+    "paige-doherty-behind-genius-ventures/117-lotus-hardware-hail-mary": "mark-phillips-11-tribes-ventures",
+    "charles-hudson-precursor-ventures/127-nectir-the-classroom-of-the-future": "elizabeth-yin-hustle-fund",
+    "cyan-banister-long-journey-ventures/127-nectir-the-classroom-of-the-future": "elizabeth-yin-hustle-fund",
+    "elizabeth-yin-hustle-fund/127-nectir-the-classroom-of-the-future": "cyan-banister-long-journey-ventures",
+    "beck-bamberger-bad-ideas-group/130-franshares-investing-in-franchises": "mac-conwell",
+    "jillian-manus-structure-capital/130-franshares-investing-in-franchises": "mac-conwell",
+    "mac-conwell/130-franshares-investing-in-franchises": "jillian-manus-structure-capital",
+    "beck-bamberger-bad-ideas-group/133-podcast-ai-josh-gets-displaced": "elizabeth-yin-hustle-fund",
+    "charles-hudson-precursor-ventures/133-podcast-ai-josh-gets-displaced": "mac-conwell",
+    "elizabeth-yin-hustle-fund/133-podcast-ai-josh-gets-displaced": "beck-bamberger-bad-ideas-group",
+    "mac-conwell/133-podcast-ai-josh-gets-displaced": "elizabeth-yin-hustle-fund",
+    "charles-hudson-precursor-ventures/149-dopl": "jesse-middleton-flybridge",
+    "jesse-middleton-flybridge/149-dopl": "charles-hudson-precursor-ventures",
+    "charles-hudson-precursor-ventures/168-finnecto-where-deals-dont-die": "paige-doherty-behind-genius-ventures",
+    "jenny-fielding-everywhere-ventures/168-finnecto-where-deals-dont-die": "charles-hudson-precursor-ventures",
+    "paige-doherty-behind-genius-ventures/168-finnecto-where-deals-dont-die": "charles-hudson-precursor-ventures",
+    "charles-hudson-precursor-ventures/169-mappa-can-voice-ai-find-you-a-job-or-a-date": "rohit-gupta-future-communities-capital",
+    "rohit-gupta-future-communities-capital/169-mappa-can-voice-ai-find-you-a-job-or-a-date": "charles-hudson-precursor-ventures",
+    "charles-hudson-precursor-ventures/178-cosmicbrain-ai-how-to-train-your-robot": "rohit-gupta-future-communities-capital",
+    "cyan-banister-long-journey-ventures/178-cosmicbrain-ai-how-to-train-your-robot": "rohit-gupta-future-communities-capital",
+    "rohit-gupta-future-communities-capital/178-cosmicbrain-ai-how-to-train-your-robot": "charles-hudson-precursor-ventures",
+    "elizabeth-yin-hustle-fund/184-ventrix-the-gas-plant-of-the-future": "mike-ma-sidecut-ventures",
+    "jesse-middleton-flybridge/184-ventrix-the-gas-plant-of-the-future": "mike-ma-sidecut-ventures",
+    "mike-ma-sidecut-ventures/184-ventrix-the-gas-plant-of-the-future": "jesse-middleton-flybridge",
+    "elizabeth-yin-hustle-fund/185-its-electric-beating-tesla-was-the-easy-part": "mike-ma-sidecut-ventures",
+    "mike-ma-sidecut-ventures/185-its-electric-beating-tesla-was-the-easy-part": "elizabeth-yin-hustle-fund",
+    "rohit-gupta-future-communities-capital/185-its-electric-beating-tesla-was-the-easy-part": "mike-ma-sidecut-ventures",
+    "elizabeth-yin-hustle-fund/186-supercool-earth-making-it-rain-literally": "jesse-middleton-flybridge",
+    "jesse-middleton-flybridge/186-supercool-earth-making-it-rain-literally": "rohit-gupta-future-communities-capital",
+    "rohit-gupta-future-communities-capital/186-supercool-earth-making-it-rain-literally": "elizabeth-yin-hustle-fund",
+    "michael-hyatt/28-is-this-entrepreneur-ready-to-take-on-facebook": "phil-nadel-forefront-venture-partners",
+    "phil-nadel-forefront-venture-partners/28-is-this-entrepreneur-ready-to-take-on-facebook": "michael-hyatt",
+    "howie-diamond-pure-ventures/45-whatever-happened-to-virtual-reality": "jillian-manus-structure-capital",
+    "jillian-manus-structure-capital/45-whatever-happened-to-virtual-reality": "howie-diamond-pure-ventures",
+    "michael-hyatt/45-whatever-happened-to-virtual-reality": "howie-diamond-pure-ventures",
+    "charles-hudson-precursor-ventures/73-enough-sales-calls-already": "michael-hyatt",
+    "jillian-manus-structure-capital/73-enough-sales-calls-already": "charles-hudson-precursor-ventures",
+    "michael-hyatt/73-enough-sales-calls-already": "charles-hudson-precursor-ventures",
+    "sarah-downey-accomplice/73-enough-sales-calls-already": "charles-hudson-precursor-ventures",
+    "howie-diamond-pure-ventures/8-hykso": "jake-chapman-marque-ventures",
+    "jake-chapman-marque-ventures/8-hykso": "phil-nadel-forefront-venture-partners",
+    "jillian-manus-structure-capital/8-hykso": "jake-chapman-marque-ventures",
+    "phil-nadel-forefront-venture-partners/8-hykso": "jake-chapman-marque-ventures",
+    "charles-hudson-precursor-ventures/85-will-coronavirus-kill-this-deal": "michael-hyatt",
+    "jillian-manus-structure-capital/85-will-coronavirus-kill-this-deal": "phil-nadel-forefront-venture-partners",
+    "michael-hyatt/85-will-coronavirus-kill-this-deal": "sarah-downey-accomplice",
+    "phil-nadel-forefront-venture-partners/85-will-coronavirus-kill-this-deal": "jillian-manus-structure-capital",
+    "sarah-downey-accomplice/85-will-coronavirus-kill-this-deal": "jillian-manus-structure-capital",
+    "charles-hudson-precursor-ventures/89-a-big-bet-on-an-ex-trucker": "sheel-mohnot-better-tomorrow-ventures",
+    "elizabeth-yin-hustle-fund/89-a-big-bet-on-an-ex-trucker": "sheel-mohnot-better-tomorrow-ventures",
+    "sheel-mohnot-better-tomorrow-ventures/89-a-big-bet-on-an-ex-trucker": "elizabeth-yin-hustle-fund",
+    "cyan-banister-long-journey-ventures/gnara-disrupting-your-pants": "mac-conwell",
+    "elizabeth-yin-hustle-fund/gnara-disrupting-your-pants": "paige-doherty-behind-genius-ventures",
+    "mac-conwell/gnara-disrupting-your-pants": "paige-doherty-behind-genius-ventures",
+    "paige-doherty-behind-genius-ventures/gnara-disrupting-your-pants": "elizabeth-yin-hustle-fund"
+  },
+  "cost_usd": {
+    "OWN": {
+      "total": 8.74,
+      "per_decision": 0.1324,
+      "n": 66
+    },
+    "SWAP": {
+      "total": 9.1658,
+      "per_decision": 0.141,
+      "n": 65
+    },
+    "NAME_ONLY": {
+      "total": 4.361,
+      "per_decision": 0.0765,
+      "n": 57
+    },
+    "GENERIC": {
+      "total": 4.701,
+      "per_decision": 0.0746,
+      "n": 63
+    }
+  },
+  "cost_total_usd": 26.9679,
+  "empty_inputs": {
+    "investigator: Investment Memory (placeholder only)": 120,
+    "investigator: prior cases (disabled)": 120,
+    "decision agent: Investment Memory (placeholder only)": 120,
+    "decision agent: prior cases (disabled)": 120,
+    "coverage: Investment Memory excerpts (placeholder only)": 120,
+    "lens: prior cases": 120,
+    "lens: own profile": 120,
+    "lens: panel profiles": 120
+  },
+  "pitched_company_mentions_in_supplied_evidence": {
+    "OWN:charles-hudson-precursor-ventures/104-dressd-red-carpet-or-red-ocean": {
+      "data/investors/charles-hudson-precursor-ventures/precedents/chunks.jsonl": 16,
+      "data/investors/charles-hudson-precursor-ventures/precedents/corpus-manifest.json": 3,
+      "data/investors/charles-hudson-precursor-ventures/precedents/records/104-dressd-red-carpet-or-red-ocean.json": 9,
+      "data/investors/charles-hudson-precursor-ventures/precedents/sources/104-dressd-red-carpet-or-red-ocean.json": 7,
+      "overlay.json": 2
+    },
+    "OWN:elizabeth-yin-hustle-fund/104-dressd-red-carpet-or-red-ocean": {
+      "data/investors/elizabeth-yin-hustle-fund/precedents/chunks.jsonl": 16,
+      "data/investors/elizabeth-yin-hustle-fund/precedents/corpus-manifest.json": 3,
+      "data/investors/elizabeth-yin-hustle-fund/precedents/records/104-dressd-red-carpet-or-red-ocean.json": 9,
+      "data/investors/elizabeth-yin-hustle-fund/precedents/sources/104-dressd-red-carpet-or-red-ocean.json": 7,
+      "overlay.json": 2
+    },
+    "OWN:jillian-manus-structure-capital/104-dressd-red-carpet-or-red-ocean": {
+      "data/investors/jillian-manus-structure-capital/precedents/chunks.jsonl": 16,
+      "data/investors/jillian-manus-structure-capital/precedents/corpus-manifest.json": 3,
+      "data/investors/jillian-manus-structure-capital/precedents/records/104-dressd-red-carpet-or-red-ocean.json": 9,
+      "data/investors/jillian-manus-structure-capital/precedents/sources/104-dressd-red-carpet-or-red-ocean.json": 7,
+      "overlay.json": 2
+    },
+    "OWN:mac-conwell/104-dressd-red-carpet-or-red-ocean": {
+      "data/investors/mac-conwell/precedents/chunks.jsonl": 16,
+      "data/investors/mac-conwell/precedents/corpus-manifest.json": 3,
+      "data/investors/mac-conwell/precedents/records/104-dressd-red-carpet-or-red-ocean.json": 9,
+      "data/investors/mac-conwell/precedents/sources/104-dressd-red-carpet-or-red-ocean.json": 7,
+      "overlay.json": 2
+    },
+    "OWN:charles-hudson-precursor-ventures/111-stigma-whose-business-is-it-anyway": {
+      "data/investors/charles-hudson-precursor-ventures/precedents/chunks.jsonl": 17,
+      "data/investors/charles-hudson-precursor-ventures/precedents/corpus-manifest.json": 3,
+      "data/investors/charles-hudson-precursor-ventures/precedents/records/100-when-investors-take-the-hot-seat.json": 1,
+      "data/investors/charles-hudson-precursor-ventures/precedents/records/111-stigma-whose-business-is-it-anyway.json": 8,
+      "data/investors/charles-hudson-precursor-ventures/precedents/records/166-awear-whoop-for-your-brain.json": 1,
+      "data/investors/charles-hudson-precursor-ventures/precedents/sources/100-when-investors-take-the-hot-seat.json": 1,
+      "data/investors/charles-hudson-precursor-ventures/precedents/sources/111-stigma-whose-business-is-it-anyway.json": 6,
+      "data/investors/charles-hudson-precursor-ventures/precedents/sources/166-awear-whoop-for-your-brain.json": 1,
+      "overlay.json": 2,
+      "wiki/charles-hudson-precursor-ventures/evidence/timing.md": 2
+    },
+    "OWN:elizabeth-yin-hustle-fund/111-stigma-whose-business-is-it-anyway": {
+      "data/investors/elizabeth-yin-hustle-fund/precedents/chunks.jsonl": 16,
+      "data/investors/elizabeth-yin-hustle-fund/precedents/corpus-manifest.json": 3,
+      "data/investors/elizabeth-yin-hustle-fund/precedents/records/111-stigma-whose-business-is-it-anyway.json": 8,
+      "data/investors/elizabeth-yin-hustle-fund/precedents/records/166-awear-whoop-for-your-brain.json": 1,
+      "data/investors/elizabeth-yin-hustle-fund/precedents/sources/111-stigma-whose-business-is-it-anyway.json": 6,
+      "data/investors/elizabeth-yin-hustle-fund/precedents/sources/166-awear-whoop-for-your-brain.json": 1,
+      "overlay.json": 2
+    },
+    "OWN:jillian-manus-structure-capital/111-stigma-whose-business-is-it-anyway": {
+      "data/investors/jillian-manus-structure-capital/precedents/chunks.jsonl": 16,
+      "data/investors/jillian-manus-structure-capital/precedents/corpus-manifest.json": 3,
+      "data/investors/jillian-manus-structure-capital/precedents/records/100-when-investors-take-the-hot-seat.json": 1,
+      "data/investors/jillian-manus-structure-capital/precedents/records/111-stigma-whose-business-is-it-anyway.json": 8,
+      "data/investors/jillian-manus-structure-capital/precedents/sources/100-when-investors-take-the-hot-seat.json": 1,
+      "data/investors/jillian-manus-structure-capital/precedents/sources/111-stigma-whose-business-is-it-anyway.json": 6,
+      "overlay.json": 2
+    },
+    "OWN:mac-conwell/111-stigma-whose-business-is-it-anyway": {
+      "data/investors/mac-conwell/precedents/chunks.jsonl": 15,
+      "data/investors/mac-conwell/precedents/corpus-manifest.json": 3,
+      "data/investors/mac-conwell/precedents/records/111-stigma-whose-business-is-it-anyway.json": 8,
+      "data/investors/mac-conwell/precedents/sources/111-stigma-whose-business-is-it-anyway.json": 6,
+      "overlay.json": 2
+    },
+    "OWN:charles-hudson-precursor-ventures/117-lotus-hardware-hail-mary": {
+      "data/investors/charles-hudson-precursor-ventures/precedents/chunks.jsonl": 20,
+      "data/investors/charles-hudson-precursor-ventures/precedents/corpus-manifest.json": 3,
+      "data/investors/charles-hudson-precursor-ventures/precedents/records/117-lotus-hardware-hail-mary.json": 6,
+      "data/investors/charles-hudson-precursor-ventures/precedents/sources/117-lotus-hardware-hail-mary.json": 4,
+      "overlay.json": 2
+    },
+    "OWN:elizabeth-yin-hustle-fund/117-lotus-hardware-hail-mary": {
+      "data/investors/elizabeth-yin-hustle-fund/precedents/chunks.jsonl": 20,
+      "data/investors/elizabeth-yin-hustle-fund/precedents/corpus-manifest.json": 3,
+      "data/investors/elizabeth-yin-hustle-fund/precedents/records/117-lotus-hardware-hail-mary.json": 6,
+      "data/investors/elizabeth-yin-hustle-fund/precedents/sources/117-lotus-hardware-hail-mary.json": 4,
+      "overlay.json": 2
+    },
+    "OWN:mark-phillips-11-tribes-ventures/117-lotus-hardware-hail-mary": {
+      "data/investors/mark-phillips-11-tribes-ventures/precedents/chunks.jsonl": 20,
+      "data/investors/mark-phillips-11-tribes-ventures/precedents/corpus-manifest.json": 3,
+      "data/investors/mark-phillips-11-tribes-ventures/precedents/records/117-lotus-hardware-hail-mary.json": 6,
+      "data/investors/mark-phillips-11-tribes-ventures/precedents/sources/117-lotus-hardware-hail-mary.json": 4,
+      "overlay.json": 2
+    },
+    "OWN:paige-doherty-behind-genius-ventures/117-lotus-hardware-hail-mary": {
+      "data/investors/paige-doherty-behind-genius-ventures/precedents/chunks.jsonl": 20,
+      "data/investors/paige-doherty-behind-genius-ventures/precedents/corpus-manifest.json": 3,
+      "data/investors/paige-doherty-behind-genius-ventures/precedents/records/117-lotus-hardware-hail-mary.json": 6,
+      "data/investors/paige-doherty-behind-genius-ventures/precedents/sources/117-lotus-hardware-hail-mary.json": 4,
+      "overlay.json": 2,
+      "wiki/paige-doherty-behind-genius-ventures/context.md": 8,
+      "wiki/paige-doherty-behind-genius-ventures/portfolio_and_constraints.md": 4
+    },
+    "OWN:charles-hudson-precursor-ventures/127-nectir-the-classroom-of-the-future": {
+      "data/investors/charles-hudson-precursor-ventures/precedents/chunks.jsonl": 22,
+      "data/investors/charles-hudson-precursor-ventures/precedents/corpus-manifest.json": 3,
+      "data/investors/charles-hudson-precursor-ventures/precedents/records/127-nectir-the-classroom-of-the-future.json": 9,
+      "data/investors/charles-hudson-precursor-ventures/precedents/sources/127-nectir-the-classroom-of-the-future.json": 7,
+      "overlay.json": 2
+    },
+    "OWN:cyan-banister-long-journey-ventures/127-nectir-the-classroom-of-the-future": {
+      "data/investors/cyan-banister-long-journey-ventures/precedents/chunks.jsonl": 22,
+      "data/investors/cyan-banister-long-journey-ventures/precedents/corpus-manifest.json": 3,
+      "data/investors/cyan-banister-long-journey-ventures/precedents/records/127-nectir-the-classroom-of-the-future.json": 9,
+      "data/investors/cyan-banister-long-journey-ventures/precedents/sources/127-nectir-the-classroom-of-the-future.json": 7,
+      "overlay.json": 2
+    },
+    "OWN:elizabeth-yin-hustle-fund/127-nectir-the-classroom-of-the-future": {
+      "data/investors/elizabeth-yin-hustle-fund/precedents/chunks.jsonl": 22,
+      "data/investors/elizabeth-yin-hustle-fund/precedents/corpus-manifest.json": 3,
+      "data/investors/elizabeth-yin-hustle-fund/precedents/records/127-nectir-the-classroom-of-the-future.json": 9,
+      "data/investors/elizabeth-yin-hustle-fund/precedents/sources/127-nectir-the-classroom-of-the-future.json": 7,
+      "overlay.json": 2
+    },
+    "OWN:beck-bamberger-bad-ideas-group/130-franshares-investing-in-franchises": {
+      "data/investors/beck-bamberger-bad-ideas-group/precedents/chunks.jsonl": 26,
+      "data/investors/beck-bamberger-bad-ideas-group/precedents/corpus-manifest.json": 3,
+      "data/investors/beck-bamberger-bad-ideas-group/precedents/records/130-franshares-investing-in-franchises.json": 10,
+      "data/investors/beck-bamberger-bad-ideas-group/precedents/sources/130-franshares-investing-in-franchises.json": 8,
+      "overlay.json": 2
+    },
+    "OWN:jillian-manus-structure-capital/130-franshares-investing-in-franchises": {
+      "data/investors/jillian-manus-structure-capital/precedents/chunks.jsonl": 26,
+      "data/investors/jillian-manus-structure-capital/precedents/corpus-manifest.json": 3,
+      "data/investors/jillian-manus-structure-capital/precedents/records/130-franshares-investing-in-franchises.json": 10,
+      "data/investors/jillian-manus-structure-capital/precedents/sources/130-franshares-investing-in-franchises.json": 8,
+      "overlay.json": 2
+    },
+    "OWN:mac-conwell/130-franshares-investing-in-franchises": {
+      "data/investors/mac-conwell/precedents/chunks.jsonl": 26,
+      "data/investors/mac-conwell/precedents/corpus-manifest.json": 3,
+      "data/investors/mac-conwell/precedents/records/130-franshares-investing-in-franchises.json": 10,
+      "data/investors/mac-conwell/precedents/sources/130-franshares-investing-in-franchises.json": 8,
+      "overlay.json": 2
+    },
+    "OWN:charles-hudson-precursor-ventures/149-dopl": {
+      "wiki/charles-hudson-precursor-ventures/context.md": 2,
+      "wiki/charles-hudson-precursor-ventures/portfolio_and_constraints.md": 1
+    },
+    "OWN:jesse-middleton-flybridge/149-dopl": {
+      "data/investors/jesse-middleton-flybridge/precedents/chunks.jsonl": 13,
+      "data/investors/jesse-middleton-flybridge/precedents/corpus-manifest.json": 3,
+      "data/investors/jesse-middleton-flybridge/precedents/records/149-dopl.json": 5,
+      "data/investors/jesse-middleton-flybridge/precedents/sources/149-dopl.json": 3,
+      "overlay.json": 2
+    },
+    "OWN:charles-hudson-precursor-ventures/169-mappa-can-voice-ai-find-you-a-job-or-a-date": {
+      "data/investors/charles-hudson-precursor-ventures/precedents/chunks.jsonl": 25,
+      "data/investors/charles-hudson-precursor-ventures/precedents/corpus-manifest.json": 3,
+      "data/investors/charles-hudson-precursor-ventures/precedents/records/169-mappa-can-voice-ai-find-you-a-job-or-a-date.json": 7,
+      "data/investors/charles-hudson-precursor-ventures/precedents/sources/169-mappa-can-voice-ai-find-you-a-job-or-a-date.json": 5,
+      "overlay.json": 2
+    },
+    "OWN:rohit-gupta-future-communities-capital/169-mappa-can-voice-ai-find-you-a-job-or-a-date": {
+      "data/investors/rohit-gupta-future-communities-capital/precedents/chunks.jsonl": 25,
+      "data/investors/rohit-gupta-future-communities-capital/precedents/corpus-manifest.json": 3,
+      "data/investors/rohit-gupta-future-communities-capital/precedents/records/169-mappa-can-voice-ai-find-you-a-job-or-a-date.json": 7,
+      "data/investors/rohit-gupta-future-communities-capital/precedents/sources/169-mappa-can-voice-ai-find-you-a-job-or-a-date.json": 5,
+      "overlay.json": 2,
+      "wiki/rohit-gupta-future-communities-capital/context.md": 2,
+      "wiki/rohit-gupta-future-communities-capital/portfolio_and_constraints.md": 1
+    },
+    "OWN:charles-hudson-precursor-ventures/178-cosmicbrain-ai-how-to-train-your-robot": {
+      "data/investors/charles-hudson-precursor-ventures/precedents/chunks.jsonl": 1,
+      "data/investors/charles-hudson-precursor-ventures/precedents/records/178-cosmicbrain-ai-how-to-train-your-robot.json": 1,
+      "data/investors/charles-hudson-precursor-ventures/precedents/sources/178-cosmicbrain-ai-how-to-train-your-robot.json": 1
+    },
+    "OWN:cyan-banister-long-journey-ventures/178-cosmicbrain-ai-how-to-train-your-robot": {
+      "data/investors/cyan-banister-long-journey-ventures/precedents/chunks.jsonl": 1,
+      "data/investors/cyan-banister-long-journey-ventures/precedents/records/178-cosmicbrain-ai-how-to-train-your-robot.json": 1,
+      "data/investors/cyan-banister-long-journey-ventures/precedents/sources/178-cosmicbrain-ai-how-to-train-your-robot.json": 1
+    },
+    "OWN:rohit-gupta-future-communities-capital/178-cosmicbrain-ai-how-to-train-your-robot": {
+      "data/investors/rohit-gupta-future-communities-capital/precedents/chunks.jsonl": 1,
+      "data/investors/rohit-gupta-future-communities-capital/precedents/records/178-cosmicbrain-ai-how-to-train-your-robot.json": 1,
+      "data/investors/rohit-gupta-future-communities-capital/precedents/sources/178-cosmicbrain-ai-how-to-train-your-robot.json": 1
+    },
+    "OWN:elizabeth-yin-hustle-fund/184-ventrix-the-gas-plant-of-the-future": {
+      "data/investors/elizabeth-yin-hustle-fund/precedents/chunks.jsonl": 30,
+      "data/investors/elizabeth-yin-hustle-fund/precedents/corpus-manifest.json": 3,
+      "data/investors/elizabeth-yin-hustle-fund/precedents/records/184-ventrix-the-gas-plant-of-the-future.json": 5,
+      "data/investors/elizabeth-yin-hustle-fund/precedents/sources/184-ventrix-the-gas-plant-of-the-future.json": 3,
+      "overlay.json": 2
+    },
+    "OWN:jesse-middleton-flybridge/184-ventrix-the-gas-plant-of-the-future": {
+      "data/investors/jesse-middleton-flybridge/precedents/chunks.jsonl": 30,
+      "data/investors/jesse-middleton-flybridge/precedents/corpus-manifest.json": 3,
+      "data/investors/jesse-middleton-flybridge/precedents/records/184-ventrix-the-gas-plant-of-the-future.json": 5,
+      "data/investors/jesse-middleton-flybridge/precedents/sources/184-ventrix-the-gas-plant-of-the-future.json": 3,
+      "overlay.json": 2
+    },
+    "OWN:mike-ma-sidecut-ventures/184-ventrix-the-gas-plant-of-the-future": {
+      "data/investors/mike-ma-sidecut-ventures/precedents/chunks.jsonl": 30,
+      "data/investors/mike-ma-sidecut-ventures/precedents/corpus-manifest.json": 3,
+      "data/investors/mike-ma-sidecut-ventures/precedents/records/184-ventrix-the-gas-plant-of-the-future.json": 5,
+      "data/investors/mike-ma-sidecut-ventures/precedents/sources/184-ventrix-the-gas-plant-of-the-future.json": 3,
+      "overlay.json": 2
+    },
+    "OWN:elizabeth-yin-hustle-fund/185-its-electric-beating-tesla-was-the-easy-part": {
+      "data/investors/elizabeth-yin-hustle-fund/precedents/chunks.jsonl": 1,
+      "data/investors/elizabeth-yin-hustle-fund/precedents/records/185-its-electric-beating-tesla-was-the-easy-part.json": 1,
+      "data/investors/elizabeth-yin-hustle-fund/precedents/sources/185-its-electric-beating-tesla-was-the-easy-part.json": 1
+    },
+    "OWN:mike-ma-sidecut-ventures/185-its-electric-beating-tesla-was-the-easy-part": {
+      "data/investors/mike-ma-sidecut-ventures/precedents/chunks.jsonl": 1,
+      "data/investors/mike-ma-sidecut-ventures/precedents/records/185-its-electric-beating-tesla-was-the-easy-part.json": 1,
+      "data/investors/mike-ma-sidecut-ventures/precedents/sources/185-its-electric-beating-tesla-was-the-easy-part.json": 1
+    },
+    "OWN:rohit-gupta-future-communities-capital/185-its-electric-beating-tesla-was-the-easy-part": {
+      "data/investors/rohit-gupta-future-communities-capital/precedents/chunks.jsonl": 1,
+      "data/investors/rohit-gupta-future-communities-capital/precedents/records/185-its-electric-beating-tesla-was-the-easy-part.json": 1,
+      "data/investors/rohit-gupta-future-communities-capital/precedents/sources/185-its-electric-beating-tesla-was-the-easy-part.json": 1
+    },
+    "OWN:elizabeth-yin-hustle-fund/186-supercool-earth-making-it-rain-literally": {
+      "data/investors/elizabeth-yin-hustle-fund/precedents/chunks.jsonl": 3,
+      "data/investors/elizabeth-yin-hustle-fund/precedents/records/186-supercool-earth-making-it-rain-literally.json": 3,
+      "data/investors/elizabeth-yin-hustle-fund/precedents/sources/186-supercool-earth-making-it-rain-literally.json": 3
+    },
+    "OWN:jesse-middleton-flybridge/186-supercool-earth-making-it-rain-literally": {
+      "data/investors/jesse-middleton-flybridge/precedents/chunks.jsonl": 3,
+      "data/investors/jesse-middleton-flybridge/precedents/records/186-supercool-earth-making-it-rain-literally.json": 3,
+      "data/investors/jesse-middleton-flybridge/precedents/sources/186-supercool-earth-making-it-rain-literally.json": 3
+    },
+    "OWN:rohit-gupta-future-communities-capital/186-supercool-earth-making-it-rain-literally": {
+      "wiki/rohit-gupta-future-communities-capital/context.md": 3,
+      "wiki/rohit-gupta-future-communities-capital/portfolio_and_constraints.md": 3
+    },
+    "OWN:michael-hyatt/28-is-this-entrepreneur-ready-to-take-on-facebook": {
+      "data/investors/michael-hyatt/precedents/chunks.jsonl": 2,
+      "data/investors/michael-hyatt/precedents/records/28-is-this-entrepreneur-ready-to-take-on-facebook.json": 2,
+      "data/investors/michael-hyatt/precedents/sources/28-is-this-entrepreneur-ready-to-take-on-facebook.json": 2
+    },
+    "OWN:phil-nadel-forefront-venture-partners/28-is-this-entrepreneur-ready-to-take-on-facebook": {
+      "data/investors/phil-nadel-forefront-venture-partners/precedents/chunks.jsonl": 2,
+      "data/investors/phil-nadel-forefront-venture-partners/precedents/records/28-is-this-entrepreneur-ready-to-take-on-facebook.json": 2,
+      "data/investors/phil-nadel-forefront-venture-partners/precedents/sources/28-is-this-entrepreneur-ready-to-take-on-facebook.json": 2
+    },
+    "OWN:howie-diamond-pure-ventures/45-whatever-happened-to-virtual-reality": {
+      "data/investors/howie-diamond-pure-ventures/precedents/chunks.jsonl": 6,
+      "data/investors/howie-diamond-pure-ventures/precedents/records/45-whatever-happened-to-virtual-reality.json": 6,
+      "data/investors/howie-diamond-pure-ventures/precedents/sources/45-whatever-happened-to-virtual-reality.json": 6
+    },
+    "OWN:jillian-manus-structure-capital/45-whatever-happened-to-virtual-reality": {
+      "data/investors/jillian-manus-structure-capital/precedents/chunks.jsonl": 6,
+      "data/investors/jillian-manus-structure-capital/precedents/records/45-whatever-happened-to-virtual-reality.json": 6,
+      "data/investors/jillian-manus-structure-capital/precedents/sources/45-whatever-happened-to-virtual-reality.json": 6
+    },
+    "OWN:michael-hyatt/45-whatever-happened-to-virtual-reality": {
+      "data/investors/michael-hyatt/precedents/chunks.jsonl": 6,
+      "data/investors/michael-hyatt/precedents/records/45-whatever-happened-to-virtual-reality.json": 6,
+      "data/investors/michael-hyatt/precedents/sources/45-whatever-happened-to-virtual-reality.json": 6
+    },
+    "OWN:charles-hudson-precursor-ventures/73-enough-sales-calls-already": {
+      "data/investors/charles-hudson-precursor-ventures/precedents/chunks.jsonl": 4,
+      "data/investors/charles-hudson-precursor-ventures/precedents/records/73-enough-sales-calls-already.json": 4,
+      "data/investors/charles-hudson-precursor-ventures/precedents/sources/73-enough-sales-calls-already.json": 4
+    },
+    "OWN:jillian-manus-structure-capital/73-enough-sales-calls-already": {
+      "data/investors/jillian-manus-structure-capital/precedents/chunks.jsonl": 4,
+      "data/investors/jillian-manus-structure-capital/precedents/records/73-enough-sales-calls-already.json": 4,
+      "data/investors/jillian-manus-structure-capital/precedents/sources/73-enough-sales-calls-already.json": 4
+    },
+    "OWN:michael-hyatt/73-enough-sales-calls-already": {
+      "data/investors/michael-hyatt/precedents/chunks.jsonl": 4,
+      "data/investors/michael-hyatt/precedents/records/73-enough-sales-calls-already.json": 4,
+      "data/investors/michael-hyatt/precedents/sources/73-enough-sales-calls-already.json": 4
+    },
+    "OWN:sarah-downey-accomplice/73-enough-sales-calls-already": {
+      "data/investors/sarah-downey-accomplice/precedents/chunks.jsonl": 4,
+      "data/investors/sarah-downey-accomplice/precedents/records/73-enough-sales-calls-already.json": 4,
+      "data/investors/sarah-downey-accomplice/precedents/sources/73-enough-sales-calls-already.json": 4
+    },
+    "OWN:howie-diamond-pure-ventures/8-hykso": {
+      "data/investors/howie-diamond-pure-ventures/precedents/chunks.jsonl": 26,
+      "data/investors/howie-diamond-pure-ventures/precedents/corpus-manifest.json": 3,
+      "data/investors/howie-diamond-pure-ventures/precedents/records/8-hykso.json": 4,
+      "data/investors/howie-diamond-pure-ventures/precedents/sources/8-hykso.json": 2,
+      "overlay.json": 2
+    },
+    "OWN:jake-chapman-marque-ventures/8-hykso": {
+      "data/investors/jake-chapman-marque-ventures/precedents/chunks.jsonl": 26,
+      "data/investors/jake-chapman-marque-ventures/precedents/corpus-manifest.json": 3,
+      "data/investors/jake-chapman-marque-ventures/precedents/records/8-hykso.json": 4,
+      "data/investors/jake-chapman-marque-ventures/precedents/sources/8-hykso.json": 2,
+      "overlay.json": 2,
+      "wiki/jake-chapman-marque-ventures/context.md": 4,
+      "wiki/jake-chapman-marque-ventures/portfolio_and_constraints.md": 3
+    },
+    "OWN:jillian-manus-structure-capital/8-hykso": {
+      "data/investors/jillian-manus-structure-capital/precedents/chunks.jsonl": 26,
+      "data/investors/jillian-manus-structure-capital/precedents/corpus-manifest.json": 3,
+      "data/investors/jillian-manus-structure-capital/precedents/records/8-hykso.json": 4,
+      "data/investors/jillian-manus-structure-capital/precedents/sources/8-hykso.json": 2,
+      "overlay.json": 2
+    },
+    "OWN:phil-nadel-forefront-venture-partners/8-hykso": {
+      "data/investors/phil-nadel-forefront-venture-partners/precedents/chunks.jsonl": 26,
+      "data/investors/phil-nadel-forefront-venture-partners/precedents/corpus-manifest.json": 3,
+      "data/investors/phil-nadel-forefront-venture-partners/precedents/records/8-hykso.json": 4,
+      "data/investors/phil-nadel-forefront-venture-partners/precedents/sources/8-hykso.json": 2,
+      "overlay.json": 2
+    },
+    "OWN:charles-hudson-precursor-ventures/85-will-coronavirus-kill-this-deal": {
+      "data/investors/charles-hudson-precursor-ventures/precedents/chunks.jsonl": 4,
+      "data/investors/charles-hudson-precursor-ventures/precedents/records/85-will-coronavirus-kill-this-deal.json": 4,
+      "data/investors/charles-hudson-precursor-ventures/precedents/sources/85-will-coronavirus-kill-this-deal.json": 4
+    },
+    "OWN:jillian-manus-structure-capital/85-will-coronavirus-kill-this-deal": {
+      "data/investors/jillian-manus-structure-capital/precedents/chunks.jsonl": 4,
+      "data/investors/jillian-manus-structure-capital/precedents/records/85-will-coronavirus-kill-this-deal.json": 4,
+      "data/investors/jillian-manus-structure-capital/precedents/sources/85-will-coronavirus-kill-this-deal.json": 4
+    },
+    "OWN:michael-hyatt/85-will-coronavirus-kill-this-deal": {
+      "data/investors/michael-hyatt/precedents/chunks.jsonl": 4,
+      "data/investors/michael-hyatt/precedents/records/85-will-coronavirus-kill-this-deal.json": 4,
+      "data/investors/michael-hyatt/precedents/sources/85-will-coronavirus-kill-this-deal.json": 4
+    },
+    "OWN:phil-nadel-forefront-venture-partners/85-will-coronavirus-kill-this-deal": {
+      "data/investors/phil-nadel-forefront-venture-partners/precedents/chunks.jsonl": 4,
+      "data/investors/phil-nadel-forefront-venture-partners/precedents/records/85-will-coronavirus-kill-this-deal.json": 4,
+      "data/investors/phil-nadel-forefront-venture-partners/precedents/sources/85-will-coronavirus-kill-this-deal.json": 4
+    },
+    "OWN:sarah-downey-accomplice/85-will-coronavirus-kill-this-deal": {
+      "data/investors/sarah-downey-accomplice/precedents/chunks.jsonl": 4,
+      "data/investors/sarah-downey-accomplice/precedents/records/85-will-coronavirus-kill-this-deal.json": 4,
+      "data/investors/sarah-downey-accomplice/precedents/sources/85-will-coronavirus-kill-this-deal.json": 4
+    },
+    "OWN:charles-hudson-precursor-ventures/89-a-big-bet-on-an-ex-trucker": {
+      "data/investors/charles-hudson-precursor-ventures/precedents/chunks.jsonl": 4,
+      "data/investors/charles-hudson-precursor-ventures/precedents/records/89-a-big-bet-on-an-ex-trucker.json": 4,
+      "data/investors/charles-hudson-precursor-ventures/precedents/sources/89-a-big-bet-on-an-ex-trucker.json": 4
+    },
+    "OWN:elizabeth-yin-hustle-fund/89-a-big-bet-on-an-ex-trucker": {
+      "data/investors/elizabeth-yin-hustle-fund/precedents/chunks.jsonl": 4,
+      "data/investors/elizabeth-yin-hustle-fund/precedents/records/89-a-big-bet-on-an-ex-trucker.json": 4,
+      "data/investors/elizabeth-yin-hustle-fund/precedents/sources/89-a-big-bet-on-an-ex-trucker.json": 4
+    },
+    "OWN:sheel-mohnot-better-tomorrow-ventures/89-a-big-bet-on-an-ex-trucker": {
+      "data/investors/sheel-mohnot-better-tomorrow-ventures/precedents/chunks.jsonl": 4,
+      "data/investors/sheel-mohnot-better-tomorrow-ventures/precedents/records/89-a-big-bet-on-an-ex-trucker.json": 4,
+      "data/investors/sheel-mohnot-better-tomorrow-ventures/precedents/sources/89-a-big-bet-on-an-ex-trucker.json": 4
+    },
+    "OWN:cyan-banister-long-journey-ventures/gnara-disrupting-your-pants": {
+      "data/investors/cyan-banister-long-journey-ventures/precedents/chunks.jsonl": 15,
+      "data/investors/cyan-banister-long-journey-ventures/precedents/corpus-manifest.json": 3,
+      "data/investors/cyan-banister-long-journey-ventures/precedents/records/gnara-disrupting-your-pants.json": 6,
+      "data/investors/cyan-banister-long-journey-ventures/precedents/sources/gnara-disrupting-your-pants.json": 4,
+      "overlay.json": 2
+    },
+    "OWN:elizabeth-yin-hustle-fund/gnara-disrupting-your-pants": {
+      "data/investors/elizabeth-yin-hustle-fund/precedents/chunks.jsonl": 15,
+      "data/investors/elizabeth-yin-hustle-fund/precedents/corpus-manifest.json": 3,
+      "data/investors/elizabeth-yin-hustle-fund/precedents/records/gnara-disrupting-your-pants.json": 6,
+      "data/investors/elizabeth-yin-hustle-fund/precedents/sources/gnara-disrupting-your-pants.json": 4,
+      "overlay.json": 2
+    },
+    "OWN:mac-conwell/gnara-disrupting-your-pants": {
+      "data/investors/mac-conwell/precedents/chunks.jsonl": 15,
+      "data/investors/mac-conwell/precedents/corpus-manifest.json": 3,
+      "data/investors/mac-conwell/precedents/records/gnara-disrupting-your-pants.json": 6,
+      "data/investors/mac-conwell/precedents/sources/gnara-disrupting-your-pants.json": 4,
+      "overlay.json": 2
+    },
+    "OWN:paige-doherty-behind-genius-ventures/gnara-disrupting-your-pants": {
+      "data/investors/paige-doherty-behind-genius-ventures/precedents/chunks.jsonl": 15,
+      "data/investors/paige-doherty-behind-genius-ventures/precedents/corpus-manifest.json": 3,
+      "data/investors/paige-doherty-behind-genius-ventures/precedents/records/gnara-disrupting-your-pants.json": 6,
+      "data/investors/paige-doherty-behind-genius-ventures/precedents/sources/gnara-disrupting-your-pants.json": 4,
+      "overlay.json": 2
+    },
+    "SWAP:charles-hudson-precursor-ventures/104-dressd-red-carpet-or-red-ocean": {
+      "data/investors/charles-hudson-precursor-ventures/precedents/chunks.jsonl": 16,
+      "data/investors/charles-hudson-precursor-ventures/precedents/corpus-manifest.json": 3,
+      "data/investors/charles-hudson-precursor-ventures/precedents/records/104-dressd-red-carpet-or-red-ocean.json": 9,
+      "data/investors/charles-hudson-precursor-ventures/precedents/sources/104-dressd-red-carpet-or-red-ocean.json": 7,
+      "overlay.json": 2
+    },
+    "SWAP:elizabeth-yin-hustle-fund/104-dressd-red-carpet-or-red-ocean": {
+      "data/investors/elizabeth-yin-hustle-fund/precedents/chunks.jsonl": 16,
+      "data/investors/elizabeth-yin-hustle-fund/precedents/corpus-manifest.json": 3,
+      "data/investors/elizabeth-yin-hustle-fund/precedents/records/104-dressd-red-carpet-or-red-ocean.json": 9,
+      "data/investors/elizabeth-yin-hustle-fund/precedents/sources/104-dressd-red-carpet-or-red-ocean.json": 7,
+      "overlay.json": 2
+    },
+    "SWAP:jillian-manus-structure-capital/104-dressd-red-carpet-or-red-ocean": {
+      "data/investors/jillian-manus-structure-capital/precedents/chunks.jsonl": 16,
+      "data/investors/jillian-manus-structure-capital/precedents/corpus-manifest.json": 3,
+      "data/investors/jillian-manus-structure-capital/precedents/records/104-dressd-red-carpet-or-red-ocean.json": 9,
+      "data/investors/jillian-manus-structure-capital/precedents/sources/104-dressd-red-carpet-or-red-ocean.json": 7,
+      "overlay.json": 2
+    },
+    "SWAP:mac-conwell/104-dressd-red-carpet-or-red-ocean": {
+      "data/investors/mac-conwell/precedents/chunks.jsonl": 16,
+      "data/investors/mac-conwell/precedents/corpus-manifest.json": 3,
+      "data/investors/mac-conwell/precedents/records/104-dressd-red-carpet-or-red-ocean.json": 9,
+      "data/investors/mac-conwell/precedents/sources/104-dressd-red-carpet-or-red-ocean.json": 7,
+      "overlay.json": 2
+    },
+    "SWAP:charles-hudson-precursor-ventures/111-stigma-whose-business-is-it-anyway": {
+      "data/investors/charles-hudson-precursor-ventures/precedents/chunks.jsonl": 16,
+      "data/investors/charles-hudson-precursor-ventures/precedents/corpus-manifest.json": 3,
+      "data/investors/charles-hudson-precursor-ventures/precedents/records/111-stigma-whose-business-is-it-anyway.json": 8,
+      "data/investors/charles-hudson-precursor-ventures/precedents/records/166-awear-whoop-for-your-brain.json": 1,
+      "data/investors/charles-hudson-precursor-ventures/precedents/sources/111-stigma-whose-business-is-it-anyway.json": 6,
+      "data/investors/charles-hudson-precursor-ventures/precedents/sources/166-awear-whoop-for-your-brain.json": 1,
+      "overlay.json": 2
+    },
+    "SWAP:elizabeth-yin-hustle-fund/111-stigma-whose-business-is-it-anyway": {
+      "data/investors/elizabeth-yin-hustle-fund/precedents/chunks.jsonl": 17,
+      "data/investors/elizabeth-yin-hustle-fund/precedents/corpus-manifest.json": 3,
+      "data/investors/elizabeth-yin-hustle-fund/precedents/records/100-when-investors-take-the-hot-seat.json": 1,
+      "data/investors/elizabeth-yin-hustle-fund/precedents/records/111-stigma-whose-business-is-it-anyway.json": 8,
+      "data/investors/elizabeth-yin-hustle-fund/precedents/records/166-awear-whoop-for-your-brain.json": 1,
+      "data/investors/elizabeth-yin-hustle-fund/precedents/sources/100-when-investors-take-the-hot-seat.json": 1,
+      "data/investors/elizabeth-yin-hustle-fund/precedents/sources/111-stigma-whose-business-is-it-anyway.json": 6,
+      "data/investors/elizabeth-yin-hustle-fund/precedents/sources/166-awear-whoop-for-your-brain.json": 1,
+      "overlay.json": 2,
+      "wiki/elizabeth-yin-hustle-fund/evidence/timing.md": 2
+    },
+    "SWAP:jillian-manus-structure-capital/111-stigma-whose-business-is-it-anyway": {
+      "data/investors/jillian-manus-structure-capital/precedents/chunks.jsonl": 17,
+      "data/investors/jillian-manus-structure-capital/precedents/corpus-manifest.json": 3,
+      "data/investors/jillian-manus-structure-capital/precedents/records/100-when-investors-take-the-hot-seat.json": 1,
+      "data/investors/jillian-manus-structure-capital/precedents/records/111-stigma-whose-business-is-it-anyway.json": 8,
+      "data/investors/jillian-manus-structure-capital/precedents/records/166-awear-whoop-for-your-brain.json": 1,
+      "data/investors/jillian-manus-structure-capital/precedents/sources/100-when-investors-take-the-hot-seat.json": 1,
+      "data/investors/jillian-manus-structure-capital/precedents/sources/111-stigma-whose-business-is-it-anyway.json": 6,
+      "data/investors/jillian-manus-structure-capital/precedents/sources/166-awear-whoop-for-your-brain.json": 1,
+      "overlay.json": 2,
+      "wiki/jillian-manus-structure-capital/evidence/timing.md": 2
+    },
+    "SWAP:mac-conwell/111-stigma-whose-business-is-it-anyway": {
+      "data/investors/mac-conwell/precedents/chunks.jsonl": 17,
+      "data/investors/mac-conwell/precedents/corpus-manifest.json": 3,
+      "data/investors/mac-conwell/precedents/records/100-when-investors-take-the-hot-seat.json": 1,
+      "data/investors/mac-conwell/precedents/records/111-stigma-whose-business-is-it-anyway.json": 8,
+      "data/investors/mac-conwell/precedents/records/166-awear-whoop-for-your-brain.json": 1,
+      "data/investors/mac-conwell/precedents/sources/100-when-investors-take-the-hot-seat.json": 1,
+      "data/investors/mac-conwell/precedents/sources/111-stigma-whose-business-is-it-anyway.json": 6,
+      "data/investors/mac-conwell/precedents/sources/166-awear-whoop-for-your-brain.json": 1,
+      "overlay.json": 2,
+      "wiki/mac-conwell/evidence/timing.md": 2
+    },
+    "SWAP:charles-hudson-precursor-ventures/117-lotus-hardware-hail-mary": {
+      "data/investors/charles-hudson-precursor-ventures/precedents/chunks.jsonl": 20,
+      "data/investors/charles-hudson-precursor-ventures/precedents/corpus-manifest.json": 3,
+      "data/investors/charles-hudson-precursor-ventures/precedents/records/117-lotus-hardware-hail-mary.json": 6,
+      "data/investors/charles-hudson-precursor-ventures/precedents/sources/117-lotus-hardware-hail-mary.json": 4,
+      "overlay.json": 2
+    },
+    "SWAP:elizabeth-yin-hustle-fund/117-lotus-hardware-hail-mary": {
+      "data/investors/elizabeth-yin-hustle-fund/precedents/chunks.jsonl": 20,
+      "data/investors/elizabeth-yin-hustle-fund/precedents/corpus-manifest.json": 3,
+      "data/investors/elizabeth-yin-hustle-fund/precedents/records/117-lotus-hardware-hail-mary.json": 6,
+      "data/investors/elizabeth-yin-hustle-fund/precedents/sources/117-lotus-hardware-hail-mary.json": 4,
+      "overlay.json": 2,
+      "wiki/elizabeth-yin-hustle-fund/context.md": 8,
+      "wiki/elizabeth-yin-hustle-fund/portfolio_and_constraints.md": 4
+    },
+    "SWAP:mark-phillips-11-tribes-ventures/117-lotus-hardware-hail-mary": {
+      "data/investors/mark-phillips-11-tribes-ventures/precedents/chunks.jsonl": 20,
+      "data/investors/mark-phillips-11-tribes-ventures/precedents/corpus-manifest.json": 3,
+      "data/investors/mark-phillips-11-tribes-ventures/precedents/records/117-lotus-hardware-hail-mary.json": 6,
+      "data/investors/mark-phillips-11-tribes-ventures/precedents/sources/117-lotus-hardware-hail-mary.json": 4,
+      "overlay.json": 2
+    },
+    "SWAP:paige-doherty-behind-genius-ventures/117-lotus-hardware-hail-mary": {
+      "data/investors/paige-doherty-behind-genius-ventures/precedents/chunks.jsonl": 20,
+      "data/investors/paige-doherty-behind-genius-ventures/precedents/corpus-manifest.json": 3,
+      "data/investors/paige-doherty-behind-genius-ventures/precedents/records/117-lotus-hardware-hail-mary.json": 6,
+      "data/investors/paige-doherty-behind-genius-ventures/precedents/sources/117-lotus-hardware-hail-mary.json": 4,
+      "overlay.json": 2
+    },
+    "SWAP:charles-hudson-precursor-ventures/127-nectir-the-classroom-of-the-future": {
+      "data/investors/charles-hudson-precursor-ventures/precedents/chunks.jsonl": 22,
+      "data/investors/charles-hudson-precursor-ventures/precedents/corpus-manifest.json": 3,
+      "data/investors/charles-hudson-precursor-ventures/precedents/records/127-nectir-the-classroom-of-the-future.json": 9,
+      "data/investors/charles-hudson-precursor-ventures/precedents/sources/127-nectir-the-classroom-of-the-future.json": 7,
+      "overlay.json": 2
+    },
+    "SWAP:cyan-banister-long-journey-ventures/127-nectir-the-classroom-of-the-future": {
+      "data/investors/cyan-banister-long-journey-ventures/precedents/chunks.jsonl": 22,
+      "data/investors/cyan-banister-long-journey-ventures/precedents/corpus-manifest.json": 3,
+      "data/investors/cyan-banister-long-journey-ventures/precedents/records/127-nectir-the-classroom-of-the-future.json": 9,
+      "data/investors/cyan-banister-long-journey-ventures/precedents/sources/127-nectir-the-classroom-of-the-future.json": 7,
+      "overlay.json": 2
+    },
+    "SWAP:elizabeth-yin-hustle-fund/127-nectir-the-classroom-of-the-future": {
+      "data/investors/elizabeth-yin-hustle-fund/precedents/chunks.jsonl": 22,
+      "data/investors/elizabeth-yin-hustle-fund/precedents/corpus-manifest.json": 3,
+      "data/investors/elizabeth-yin-hustle-fund/precedents/records/127-nectir-the-classroom-of-the-future.json": 9,
+      "data/investors/elizabeth-yin-hustle-fund/precedents/sources/127-nectir-the-classroom-of-the-future.json": 7,
+      "overlay.json": 2
+    },
+    "SWAP:beck-bamberger-bad-ideas-group/130-franshares-investing-in-franchises": {
+      "data/investors/beck-bamberger-bad-ideas-group/precedents/chunks.jsonl": 26,
+      "data/investors/beck-bamberger-bad-ideas-group/precedents/corpus-manifest.json": 3,
+      "data/investors/beck-bamberger-bad-ideas-group/precedents/records/130-franshares-investing-in-franchises.json": 10,
+      "data/investors/beck-bamberger-bad-ideas-group/precedents/sources/130-franshares-investing-in-franchises.json": 8,
+      "overlay.json": 2
+    },
+    "SWAP:jillian-manus-structure-capital/130-franshares-investing-in-franchises": {
+      "data/investors/jillian-manus-structure-capital/precedents/chunks.jsonl": 26,
+      "data/investors/jillian-manus-structure-capital/precedents/corpus-manifest.json": 3,
+      "data/investors/jillian-manus-structure-capital/precedents/records/130-franshares-investing-in-franchises.json": 10,
+      "data/investors/jillian-manus-structure-capital/precedents/sources/130-franshares-investing-in-franchises.json": 8,
+      "overlay.json": 2
+    },
+    "SWAP:mac-conwell/130-franshares-investing-in-franchises": {
+      "data/investors/mac-conwell/precedents/chunks.jsonl": 26,
+      "data/investors/mac-conwell/precedents/corpus-manifest.json": 3,
+      "data/investors/mac-conwell/precedents/records/130-franshares-investing-in-franchises.json": 10,
+      "data/investors/mac-conwell/precedents/sources/130-franshares-investing-in-franchises.json": 8,
+      "overlay.json": 2
+    },
+    "SWAP:charles-hudson-precursor-ventures/149-dopl": {
+      "data/investors/charles-hudson-precursor-ventures/precedents/chunks.jsonl": 13,
+      "data/investors/charles-hudson-precursor-ventures/precedents/corpus-manifest.json": 3,
+      "data/investors/charles-hudson-precursor-ventures/precedents/records/149-dopl.json": 5,
+      "data/investors/charles-hudson-precursor-ventures/precedents/sources/149-dopl.json": 3,
+      "overlay.json": 2
+    },
+    "SWAP:jesse-middleton-flybridge/149-dopl": {
+      "wiki/jesse-middleton-flybridge/context.md": 2,
+      "wiki/jesse-middleton-flybridge/portfolio_and_constraints.md": 1
+    },
+    "SWAP:charles-hudson-precursor-ventures/169-mappa-can-voice-ai-find-you-a-job-or-a-date": {
+      "data/investors/charles-hudson-precursor-ventures/precedents/chunks.jsonl": 25,
+      "data/investors/charles-hudson-precursor-ventures/precedents/corpus-manifest.json": 3,
+      "data/investors/charles-hudson-precursor-ventures/precedents/records/169-mappa-can-voice-ai-find-you-a-job-or-a-date.json": 7,
+      "data/investors/charles-hudson-precursor-ventures/precedents/sources/169-mappa-can-voice-ai-find-you-a-job-or-a-date.json": 5,
+      "overlay.json": 2,
+      "wiki/charles-hudson-precursor-ventures/context.md": 2,
+      "wiki/charles-hudson-precursor-ventures/portfolio_and_constraints.md": 1
+    },
+    "SWAP:rohit-gupta-future-communities-capital/169-mappa-can-voice-ai-find-you-a-job-or-a-date": {
+      "data/investors/rohit-gupta-future-communities-capital/precedents/chunks.jsonl": 25,
+      "data/investors/rohit-gupta-future-communities-capital/precedents/corpus-manifest.json": 3,
+      "data/investors/rohit-gupta-future-communities-capital/precedents/records/169-mappa-can-voice-ai-find-you-a-job-or-a-date.json": 7,
+      "data/investors/rohit-gupta-future-communities-capital/precedents/sources/169-mappa-can-voice-ai-find-you-a-job-or-a-date.json": 5,
+      "overlay.json": 2
+    },
+    "SWAP:charles-hudson-precursor-ventures/178-cosmicbrain-ai-how-to-train-your-robot": {
+      "data/investors/charles-hudson-precursor-ventures/precedents/chunks.jsonl": 1,
+      "data/investors/charles-hudson-precursor-ventures/precedents/records/178-cosmicbrain-ai-how-to-train-your-robot.json": 1,
+      "data/investors/charles-hudson-precursor-ventures/precedents/sources/178-cosmicbrain-ai-how-to-train-your-robot.json": 1
+    },
+    "SWAP:cyan-banister-long-journey-ventures/178-cosmicbrain-ai-how-to-train-your-robot": {
+      "data/investors/cyan-banister-long-journey-ventures/precedents/chunks.jsonl": 1,
+      "data/investors/cyan-banister-long-journey-ventures/precedents/records/178-cosmicbrain-ai-how-to-train-your-robot.json": 1,
+      "data/investors/cyan-banister-long-journey-ventures/precedents/sources/178-cosmicbrain-ai-how-to-train-your-robot.json": 1
+    },
+    "SWAP:rohit-gupta-future-communities-capital/178-cosmicbrain-ai-how-to-train-your-robot": {
+      "data/investors/rohit-gupta-future-communities-capital/precedents/chunks.jsonl": 1,
+      "data/investors/rohit-gupta-future-communities-capital/precedents/records/178-cosmicbrain-ai-how-to-train-your-robot.json": 1,
+      "data/investors/rohit-gupta-future-communities-capital/precedents/sources/178-cosmicbrain-ai-how-to-train-your-robot.json": 1
+    },
+    "SWAP:elizabeth-yin-hustle-fund/184-ventrix-the-gas-plant-of-the-future": {
+      "data/investors/elizabeth-yin-hustle-fund/precedents/chunks.jsonl": 30,
+      "data/investors/elizabeth-yin-hustle-fund/precedents/corpus-manifest.json": 3,
+      "data/investors/elizabeth-yin-hustle-fund/precedents/records/184-ventrix-the-gas-plant-of-the-future.json": 5,
+      "data/investors/elizabeth-yin-hustle-fund/precedents/sources/184-ventrix-the-gas-plant-of-the-future.json": 3,
+      "overlay.json": 2
+    },
+    "SWAP:jesse-middleton-flybridge/184-ventrix-the-gas-plant-of-the-future": {
+      "data/investors/jesse-middleton-flybridge/precedents/chunks.jsonl": 30,
+      "data/investors/jesse-middleton-flybridge/precedents/corpus-manifest.json": 3,
+      "data/investors/jesse-middleton-flybridge/precedents/records/184-ventrix-the-gas-plant-of-the-future.json": 5,
+      "data/investors/jesse-middleton-flybridge/precedents/sources/184-ventrix-the-gas-plant-of-the-future.json": 3,
+      "overlay.json": 2
+    },
+    "SWAP:mike-ma-sidecut-ventures/184-ventrix-the-gas-plant-of-the-future": {
+      "data/investors/mike-ma-sidecut-ventures/precedents/chunks.jsonl": 30,
+      "data/investors/mike-ma-sidecut-ventures/precedents/corpus-manifest.json": 3,
+      "data/investors/mike-ma-sidecut-ventures/precedents/records/184-ventrix-the-gas-plant-of-the-future.json": 5,
+      "data/investors/mike-ma-sidecut-ventures/precedents/sources/184-ventrix-the-gas-plant-of-the-future.json": 3,
+      "overlay.json": 2
+    },
+    "SWAP:elizabeth-yin-hustle-fund/185-its-electric-beating-tesla-was-the-easy-part": {
+      "data/investors/elizabeth-yin-hustle-fund/precedents/chunks.jsonl": 1,
+      "data/investors/elizabeth-yin-hustle-fund/precedents/records/185-its-electric-beating-tesla-was-the-easy-part.json": 1,
+      "data/investors/elizabeth-yin-hustle-fund/precedents/sources/185-its-electric-beating-tesla-was-the-easy-part.json": 1
+    },
+    "SWAP:mike-ma-sidecut-ventures/185-its-electric-beating-tesla-was-the-easy-part": {
+      "data/investors/mike-ma-sidecut-ventures/precedents/chunks.jsonl": 1,
+      "data/investors/mike-ma-sidecut-ventures/precedents/records/185-its-electric-beating-tesla-was-the-easy-part.json": 1,
+      "data/investors/mike-ma-sidecut-ventures/precedents/sources/185-its-electric-beating-tesla-was-the-easy-part.json": 1
+    },
+    "SWAP:rohit-gupta-future-communities-capital/185-its-electric-beating-tesla-was-the-easy-part": {
+      "data/investors/rohit-gupta-future-communities-capital/precedents/chunks.jsonl": 1,
+      "data/investors/rohit-gupta-future-communities-capital/precedents/records/185-its-electric-beating-tesla-was-the-easy-part.json": 1,
+      "data/investors/rohit-gupta-future-communities-capital/precedents/sources/185-its-electric-beating-tesla-was-the-easy-part.json": 1
+    },
+    "SWAP:elizabeth-yin-hustle-fund/186-supercool-earth-making-it-rain-literally": {
+      "data/investors/elizabeth-yin-hustle-fund/precedents/chunks.jsonl": 3,
+      "data/investors/elizabeth-yin-hustle-fund/precedents/records/186-supercool-earth-making-it-rain-literally.json": 3,
+      "data/investors/elizabeth-yin-hustle-fund/precedents/sources/186-supercool-earth-making-it-rain-literally.json": 3
+    },
+    "SWAP:jesse-middleton-flybridge/186-supercool-earth-making-it-rain-literally": {
+      "wiki/jesse-middleton-flybridge/context.md": 3,
+      "wiki/jesse-middleton-flybridge/portfolio_and_constraints.md": 3
+    },
+    "SWAP:rohit-gupta-future-communities-capital/186-supercool-earth-making-it-rain-literally": {
+      "data/investors/rohit-gupta-future-communities-capital/precedents/chunks.jsonl": 3,
+      "data/investors/rohit-gupta-future-communities-capital/precedents/records/186-supercool-earth-making-it-rain-literally.json": 3,
+      "data/investors/rohit-gupta-future-communities-capital/precedents/sources/186-supercool-earth-making-it-rain-literally.json": 3
+    },
+    "SWAP:michael-hyatt/28-is-this-entrepreneur-ready-to-take-on-facebook": {
+      "data/investors/michael-hyatt/precedents/chunks.jsonl": 2,
+      "data/investors/michael-hyatt/precedents/records/28-is-this-entrepreneur-ready-to-take-on-facebook.json": 2,
+      "data/investors/michael-hyatt/precedents/sources/28-is-this-entrepreneur-ready-to-take-on-facebook.json": 2
+    },
+    "SWAP:phil-nadel-forefront-venture-partners/28-is-this-entrepreneur-ready-to-take-on-facebook": {
+      "data/investors/phil-nadel-forefront-venture-partners/precedents/chunks.jsonl": 2,
+      "data/investors/phil-nadel-forefront-venture-partners/precedents/records/28-is-this-entrepreneur-ready-to-take-on-facebook.json": 2,
+      "data/investors/phil-nadel-forefront-venture-partners/precedents/sources/28-is-this-entrepreneur-ready-to-take-on-facebook.json": 2
+    },
+    "SWAP:howie-diamond-pure-ventures/45-whatever-happened-to-virtual-reality": {
+      "data/investors/howie-diamond-pure-ventures/precedents/chunks.jsonl": 6,
+      "data/investors/howie-diamond-pure-ventures/precedents/records/45-whatever-happened-to-virtual-reality.json": 6,
+      "data/investors/howie-diamond-pure-ventures/precedents/sources/45-whatever-happened-to-virtual-reality.json": 6
+    },
+    "SWAP:jillian-manus-structure-capital/45-whatever-happened-to-virtual-reality": {
+      "data/investors/jillian-manus-structure-capital/precedents/chunks.jsonl": 6,
+      "data/investors/jillian-manus-structure-capital/precedents/records/45-whatever-happened-to-virtual-reality.json": 6,
+      "data/investors/jillian-manus-structure-capital/precedents/sources/45-whatever-happened-to-virtual-reality.json": 6
+    },
+    "SWAP:michael-hyatt/45-whatever-happened-to-virtual-reality": {
+      "data/investors/michael-hyatt/precedents/chunks.jsonl": 6,
+      "data/investors/michael-hyatt/precedents/records/45-whatever-happened-to-virtual-reality.json": 6,
+      "data/investors/michael-hyatt/precedents/sources/45-whatever-happened-to-virtual-reality.json": 6
+    },
+    "SWAP:charles-hudson-precursor-ventures/73-enough-sales-calls-already": {
+      "data/investors/charles-hudson-precursor-ventures/precedents/chunks.jsonl": 4,
+      "data/investors/charles-hudson-precursor-ventures/precedents/records/73-enough-sales-calls-already.json": 4,
+      "data/investors/charles-hudson-precursor-ventures/precedents/sources/73-enough-sales-calls-already.json": 4
+    },
+    "SWAP:jillian-manus-structure-capital/73-enough-sales-calls-already": {
+      "data/investors/jillian-manus-structure-capital/precedents/chunks.jsonl": 4,
+      "data/investors/jillian-manus-structure-capital/precedents/records/73-enough-sales-calls-already.json": 4,
+      "data/investors/jillian-manus-structure-capital/precedents/sources/73-enough-sales-calls-already.json": 4
+    },
+    "SWAP:michael-hyatt/73-enough-sales-calls-already": {
+      "data/investors/michael-hyatt/precedents/chunks.jsonl": 4,
+      "data/investors/michael-hyatt/precedents/records/73-enough-sales-calls-already.json": 4,
+      "data/investors/michael-hyatt/precedents/sources/73-enough-sales-calls-already.json": 4
+    },
+    "SWAP:sarah-downey-accomplice/73-enough-sales-calls-already": {
+      "data/investors/sarah-downey-accomplice/precedents/chunks.jsonl": 4,
+      "data/investors/sarah-downey-accomplice/precedents/records/73-enough-sales-calls-already.json": 4,
+      "data/investors/sarah-downey-accomplice/precedents/sources/73-enough-sales-calls-already.json": 4
+    },
+    "SWAP:howie-diamond-pure-ventures/8-hykso": {
+      "data/investors/howie-diamond-pure-ventures/precedents/chunks.jsonl": 26,
+      "data/investors/howie-diamond-pure-ventures/precedents/corpus-manifest.json": 3,
+      "data/investors/howie-diamond-pure-ventures/precedents/records/8-hykso.json": 4,
+      "data/investors/howie-diamond-pure-ventures/precedents/sources/8-hykso.json": 2,
+      "overlay.json": 2,
+      "wiki/howie-diamond-pure-ventures/context.md": 4,
+      "wiki/howie-diamond-pure-ventures/portfolio_and_constraints.md": 3
+    },
+    "SWAP:jake-chapman-marque-ventures/8-hykso": {
+      "data/investors/jake-chapman-marque-ventures/precedents/chunks.jsonl": 26,
+      "data/investors/jake-chapman-marque-ventures/precedents/corpus-manifest.json": 3,
+      "data/investors/jake-chapman-marque-ventures/precedents/records/8-hykso.json": 4,
+      "data/investors/jake-chapman-marque-ventures/precedents/sources/8-hykso.json": 2,
+      "overlay.json": 2
+    },
+    "SWAP:jillian-manus-structure-capital/8-hykso": {
+      "data/investors/jillian-manus-structure-capital/precedents/chunks.jsonl": 26,
+      "data/investors/jillian-manus-structure-capital/precedents/corpus-manifest.json": 3,
+      "data/investors/jillian-manus-structure-capital/precedents/records/8-hykso.json": 4,
+      "data/investors/jillian-manus-structure-capital/precedents/sources/8-hykso.json": 2,
+      "overlay.json": 2,
+      "wiki/jillian-manus-structure-capital/context.md": 4,
+      "wiki/jillian-manus-structure-capital/portfolio_and_constraints.md": 3
+    },
+    "SWAP:phil-nadel-forefront-venture-partners/8-hykso": {
+      "data/investors/phil-nadel-forefront-venture-partners/precedents/chunks.jsonl": 26,
+      "data/investors/phil-nadel-forefront-venture-partners/precedents/corpus-manifest.json": 3,
+      "data/investors/phil-nadel-forefront-venture-partners/precedents/records/8-hykso.json": 4,
+      "data/investors/phil-nadel-forefront-venture-partners/precedents/sources/8-hykso.json": 2,
+      "overlay.json": 2,
+      "wiki/phil-nadel-forefront-venture-partners/context.md": 4,
+      "wiki/phil-nadel-forefront-venture-partners/portfolio_and_constraints.md": 3
+    },
+    "SWAP:charles-hudson-precursor-ventures/85-will-coronavirus-kill-this-deal": {
+      "data/investors/charles-hudson-precursor-ventures/precedents/chunks.jsonl": 4,
+      "data/investors/charles-hudson-precursor-ventures/precedents/records/85-will-coronavirus-kill-this-deal.json": 4,
+      "data/investors/charles-hudson-precursor-ventures/precedents/sources/85-will-coronavirus-kill-this-deal.json": 4
+    },
+    "SWAP:jillian-manus-structure-capital/85-will-coronavirus-kill-this-deal": {
+      "data/investors/jillian-manus-structure-capital/precedents/chunks.jsonl": 4,
+      "data/investors/jillian-manus-structure-capital/precedents/records/85-will-coronavirus-kill-this-deal.json": 4,
+      "data/investors/jillian-manus-structure-capital/precedents/sources/85-will-coronavirus-kill-this-deal.json": 4
+    },
+    "SWAP:michael-hyatt/85-will-coronavirus-kill-this-deal": {
+      "data/investors/michael-hyatt/precedents/chunks.jsonl": 4,
+      "data/investors/michael-hyatt/precedents/records/85-will-coronavirus-kill-this-deal.json": 4,
+      "data/investors/michael-hyatt/precedents/sources/85-will-coronavirus-kill-this-deal.json": 4
+    },
+    "SWAP:phil-nadel-forefront-venture-partners/85-will-coronavirus-kill-this-deal": {
+      "data/investors/phil-nadel-forefront-venture-partners/precedents/chunks.jsonl": 4,
+      "data/investors/phil-nadel-forefront-venture-partners/precedents/records/85-will-coronavirus-kill-this-deal.json": 4,
+      "data/investors/phil-nadel-forefront-venture-partners/precedents/sources/85-will-coronavirus-kill-this-deal.json": 4
+    },
+    "SWAP:sarah-downey-accomplice/85-will-coronavirus-kill-this-deal": {
+      "data/investors/sarah-downey-accomplice/precedents/chunks.jsonl": 4,
+      "data/investors/sarah-downey-accomplice/precedents/records/85-will-coronavirus-kill-this-deal.json": 4,
+      "data/investors/sarah-downey-accomplice/precedents/sources/85-will-coronavirus-kill-this-deal.json": 4
+    },
+    "SWAP:charles-hudson-precursor-ventures/89-a-big-bet-on-an-ex-trucker": {
+      "data/investors/charles-hudson-precursor-ventures/precedents/chunks.jsonl": 4,
+      "data/investors/charles-hudson-precursor-ventures/precedents/records/89-a-big-bet-on-an-ex-trucker.json": 4,
+      "data/investors/charles-hudson-precursor-ventures/precedents/sources/89-a-big-bet-on-an-ex-trucker.json": 4
+    },
+    "SWAP:elizabeth-yin-hustle-fund/89-a-big-bet-on-an-ex-trucker": {
+      "data/investors/elizabeth-yin-hustle-fund/precedents/chunks.jsonl": 4,
+      "data/investors/elizabeth-yin-hustle-fund/precedents/records/89-a-big-bet-on-an-ex-trucker.json": 4,
+      "data/investors/elizabeth-yin-hustle-fund/precedents/sources/89-a-big-bet-on-an-ex-trucker.json": 4
+    },
+    "SWAP:sheel-mohnot-better-tomorrow-ventures/89-a-big-bet-on-an-ex-trucker": {
+      "data/investors/sheel-mohnot-better-tomorrow-ventures/precedents/chunks.jsonl": 4,
+      "data/investors/sheel-mohnot-better-tomorrow-ventures/precedents/records/89-a-big-bet-on-an-ex-trucker.json": 4,
+      "data/investors/sheel-mohnot-better-tomorrow-ventures/precedents/sources/89-a-big-bet-on-an-ex-trucker.json": 4
+    },
+    "SWAP:cyan-banister-long-journey-ventures/gnara-disrupting-your-pants": {
+      "data/investors/cyan-banister-long-journey-ventures/precedents/chunks.jsonl": 15,
+      "data/investors/cyan-banister-long-journey-ventures/precedents/corpus-manifest.json": 3,
+      "data/investors/cyan-banister-long-journey-ventures/precedents/records/gnara-disrupting-your-pants.json": 6,
+      "data/investors/cyan-banister-long-journey-ventures/precedents/sources/gnara-disrupting-your-pants.json": 4,
+      "overlay.json": 2
+    },
+    "SWAP:elizabeth-yin-hustle-fund/gnara-disrupting-your-pants": {
+      "data/investors/elizabeth-yin-hustle-fund/precedents/chunks.jsonl": 15,
+      "data/investors/elizabeth-yin-hustle-fund/precedents/corpus-manifest.json": 3,
+      "data/investors/elizabeth-yin-hustle-fund/precedents/records/gnara-disrupting-your-pants.json": 6,
+      "data/investors/elizabeth-yin-hustle-fund/precedents/sources/gnara-disrupting-your-pants.json": 4,
+      "overlay.json": 2
+    },
+    "SWAP:mac-conwell/gnara-disrupting-your-pants": {
+      "data/investors/mac-conwell/precedents/chunks.jsonl": 15,
+      "data/investors/mac-conwell/precedents/corpus-manifest.json": 3,
+      "data/investors/mac-conwell/precedents/records/gnara-disrupting-your-pants.json": 6,
+      "data/investors/mac-conwell/precedents/sources/gnara-disrupting-your-pants.json": 4,
+      "overlay.json": 2
+    }
+  },
+  "config": {
+    "model": "openai/gpt-5.6-luna via OpenRouter",
+    "run_config": "each decision's main-evaluation run-config.json",
+    "components": "configs/components.toml (coverage, contrastive lens)"
+  }
+}
