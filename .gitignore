@@ -16,3 +16,28 @@ dist/
 
 /handoff/
 /reports/*.docx
+
+# Investor-specific data stays local for privacy. These paths are used by the
+# pipeline on this machine but are never committed. See "Investor data and
+# privacy" in README.md.
+/inputs/wiki/
+/inputs/data/
+/inputs/investors/
+/evaluation/
+/configs/investors/
+/configs/v43/
+/configs/v44/
+/configs/batches/
+/configs/model-comparison-*/
+/configs/deepseek-*/
+/configs/openrouter-luna-*.toml
+/configs/*-elizabeth-thoras.toml
+/configs/portfolio-conflicts-*.toml
+/configs/rehearsal-charles-*.toml
+/baselines/context-rich-single-llm/config*.toml
+/docs/runs/
+/reports/
+/examples/rehearsal-likelihood-trajectories/
+/experiments/memory_swap_pilot/criteria.json
+/experiments/memory_swap_pilot/results.json
+/rationale_annotation/

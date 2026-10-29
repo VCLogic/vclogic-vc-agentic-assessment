@@ -55,6 +55,19 @@ For a **new investor**, collect sources, generate the wiki, then prepare, valida
 
 For an **already prepared investor**, use this repository's CLI directly. To use the browser interface, start the web application from its own checkout and point `--pipeline-workspace` at this assessment checkout. Investor data, generated indexes, outputs, model downloads, and credentials are separate from Python package installation.
 
+## Investor data and privacy
+
+This repository contains code, tests, generic configuration and the rationale codebook only. Investor-specific data is kept on the local machine and is never committed. Git ignores it (see `.gitignore`), and the pipeline reads it from the same paths as before, so a prepared local workspace works unchanged.
+
+| Local only | Contents |
+|---|---|
+| `inputs/wiki/`, `inputs/investors/`, `inputs/data/`, `inputs/indexes/` | Investment Memories, investor registrations, pitches, past episodes and retrieval indexes |
+| `configs/investors/` and investor- or episode-specific run configurations | Per-investor settings and named runs |
+| `evaluation/`, `reports/`, `docs/runs/`, `outputs/`, `checkpoints/` | Show transcripts, decisions, reference rationales, audits, run results and reports |
+| `experiments/memory_swap_pilot/criteria.json`, `results.json` | The pilot's investor sample and per-run results |
+
+To work from a fresh clone, install investors through the onboarding repository (see above), which writes these paths. Commands, tests and documentation that name a specific investor assume that investor's data is installed locally; tests that need missing data fail or skip.
+
 ## Setup and offline verification
 
 Requires Python 3.11–3.13 and uv. From this checkout:
@@ -67,7 +80,7 @@ uv run vc-clone-graph run --config configs/fake-elizabeth-thoras.toml
 uv run vc-clone-graph verify --config configs/fake-elizabeth-thoras.toml
 ```
 
-The fake-provider commands require no model service or API key. The thread limits keep numerical model tests efficient on shared machines. Historical assessment and rehearsal checks skip without the archived canonical run directory. PyTorch-dependent research checks require `uv sync --extra dev --extra personalized`; they skip when that optional dependency is absent.
+The fake-provider commands require no model service or API key; they use a local investor configuration and data, which are not part of the repository. The thread limits keep numerical model tests efficient on shared machines. Historical assessment and rehearsal checks skip without the archived canonical run directory. PyTorch-dependent research checks require `uv sync --extra dev --extra personalized`; they skip when that optional dependency is absent.
 
 ## Assess a new founder pitch
 
@@ -81,7 +94,7 @@ uv run vc-clone-rehearsal start \
   --build-canonical-baseline
 ```
 
-This builds the canonical assessment and starts rehearsal. The grounded configuration uses OpenRouter generation and local semantic retrieval. Set `OPENROUTER_API_KEY` in your environment and prepare the configured embedding indexes before running it. The baseline flag authorizes paid model calls. See [the framework reference](docs/FRAMEWORK_REFERENCE.md) and [rehearsal guide](docs/FOUNDER_REHEARSAL.md) for index preparation, alternate providers, frozen assessments, and session continuation. Historical examples in those references describe the original research workspace.
+This builds the canonical assessment and starts rehearsal. The grounded configuration uses OpenRouter generation and local semantic retrieval. Set `OPENROUTER_API_KEY` in your environment and prepare the configured embedding indexes before running it. The baseline flag authorizes paid model calls. The configuration named here is investor-specific and kept locally; use the one onboarding installs for your investor. See [the framework reference](docs/FRAMEWORK_REFERENCE.md) and [rehearsal guide](docs/FOUNDER_REHEARSAL.md) for index preparation, alternate providers, frozen assessments, and session continuation. Historical examples in those references describe the original research workspace.
 
 ## Investor Policy Settings
 
@@ -116,11 +129,11 @@ The example assumes Mac Conwell has been installed through the onboarding CLI an
 
 ## Historical Pitch Evaluation Dataset
 
-Historical retrieval now uses reviewed founder–VC dialogue, including historical in-room decisions. It removes show intros, host narration, recaps, follow-ups, and detected episode commentary. Records with unverifiable boundaries or decision evidence are excluded. Raw transcripts and previous runs are preserved. See [historical dialogue cleanup](evaluation/pitchshow/HISTORICAL-DIALOGUE.md) for coverage and limitations; this does not yet resolve the separate [wiki leakage findings](evaluation/pitchshow/results/LEAKAGE-AUDIT-36.md).
+Historical retrieval now uses reviewed founder–VC dialogue, including historical in-room decisions. It removes show intros, host narration, recaps, follow-ups, and detected episode commentary. Records with unverifiable boundaries or decision evidence are excluded. Raw transcripts and previous runs are preserved. The evaluation data and its reports are local only (see [Investor data and privacy](#investor-data-and-privacy)). Locally, `evaluation/pitchshow/HISTORICAL-DIALOGUE.md` describes coverage and limitations, and `evaluation/pitchshow/results/LEAKAGE-AUDIT-36.md` the separate wiki leakage findings.
 
 The [assessment repair](docs/ASSESSMENT_REPAIR.md) restores verified history from both review formats, checks policy applicability before accepting hard vetoes, strengthens exception comparisons, and reports output/search failures. Regression reruns are stored as a separate cohort rather than counted as new benchmark cases.
 
-See [Pitch Show evaluation data](evaluation/pitchshow/README.md) for per-investor original transcripts, source-linked in-episode and later investment annotations, redacted pitch inputs, and review audits. [Coverage](evaluation/pitchshow/SUMMARY.md) separates available transcripts, observed decisions, and eligible inputs. Labels are machine-reviewed and independently model-verified; they are not human-audited ground truth. Keep original transcripts and annotations outside inference inputs, and exclude each held-out episode from historical retrieval before scoring.
+Locally, `evaluation/pitchshow/README.md` describes the per-investor original transcripts, source-linked in-episode and later investment annotations, redacted pitch inputs, and review audits. `evaluation/pitchshow/SUMMARY.md` separates available transcripts, observed decisions, and eligible inputs. Labels are machine-reviewed and independently model-verified; they are not human-audited ground truth. Keep original transcripts and annotations outside inference inputs, and exclude each held-out episode from historical retrieval before scoring.
 
 ### Context Checks and Result Scoring
 
@@ -143,9 +156,9 @@ Find the report through `evaluation/pitchshow/results/automated-evaluation/lates
 ## Repository boundary
 
 - `src/vc_clone_graph`: assessment, retrieval, validation, providers, rehearsal, and CLI.
-- `configs`, `inputs`: runtime configurations, investor knowledge, audited pitches, and hash manifests.
-- `evaluation`, `scripts`, `tests`: evaluation references, tooling, and engine checks.
-- `outputs`, `checkpoints`, `inputs/indexes`: generated local artifacts, ignored by Git.
+- `configs`, `inputs/taxonomy`: generic runtime configurations and the rationale codebook.
+- `scripts`, `tests`: tooling and engine checks.
+- Investor data, evaluation data and generated artifacts: local only, ignored by Git (see [Investor data and privacy](#investor-data-and-privacy)).
 
 Run commands from this checkout so relative configuration paths resolve here. The web application installs this package and receives this checkout through `--pipeline-workspace`; it does not carry a second copy of the engine. Live output directories and historical experiment results are not migrated. Evaluation commands that consume historical runs need those artifacts supplied separately.
 
@@ -153,11 +166,11 @@ Run commands from this checkout so relative configuration paths resolve here. Th
 
 Extracted from the current working tree of `vc-digital-twins/langgraph-vc-clone-framework`, including uncommitted source changes. The original workspace is preserved. This is a new repository history.
 
-For target-specific historical inputs, use the two [speaker-filtered evaluation modes](evaluation/pitchshow/README.md#target-specific-input-modes), organized as `investors/<vc>/cases/<episode>/<mode>/pitch.txt`. The accompanying command prepares a verified package with episode/company exclusions and can execute it with `--run`.
+For target-specific historical inputs, use the two speaker-filtered evaluation modes described in the local `evaluation/pitchshow/README.md`, organized as `investors/<vc>/cases/<episode>/<mode>/pitch.txt`. The accompanying command prepares a verified package with episode/company exclusions and can execute it with `--run`.
 
-Run `uv run python scripts/run_pitchshow_batch.py --mode both` to validate the full historical selection without assessment calls. Add `--execute` to start or continue the paid batch; see [alias verification and batch execution](evaluation/pitchshow/README.md#company-aliases-and-resumable-batch-execution).
+Run `uv run python scripts/run_pitchshow_batch.py --mode both` to validate the full historical selection without assessment calls. Add `--execute` to start or continue the paid batch; alias verification and batch execution are described in the local `evaluation/pitchshow/README.md`.
 
-The [preserved legacy results and new test](evaluation/pitchshow/results/README.md) retain the six-VC historical cohorts and describe which input variants and output schemas can be compared.
+Locally, the preserved legacy results and new test (`evaluation/pitchshow/results/README.md`) retain the six-VC historical cohorts and describe which input variants and output schemas can be compared.
 
 ### Commitment Calibration
 
