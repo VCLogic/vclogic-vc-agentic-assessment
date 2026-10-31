@@ -42,7 +42,8 @@ def _source_root(tmp_path: Path) -> Path:
     return root
 
 
-def test_prepare_live_package_is_verified_and_manifest_bound(tmp_path: Path) -> None:
+@pytest.mark.parametrize("pitch", ["Founder pitch", "First line\nSecond line", "First\r\nSecond", "Founder \u201cpitch\u201d"])
+def test_prepare_live_package_is_verified_and_manifest_bound(tmp_path: Path, pitch: str) -> None:
     source = _source_root(tmp_path)
     destination = tmp_path / "session/canonical-bootstrap/inputs"
 
@@ -51,13 +52,13 @@ def test_prepare_live_package_is_verified_and_manifest_bound(tmp_path: Path) -> 
         destination_root=destination,
         vc_slug="test-investor",
         episode_slug="live-session-abc",
-        pitch="Founder pitch",
+        pitch=pitch,
         target_company_aliases=("TargetCo",),
     )
     package = verify_package(prepared, "test-investor", "live-session-abc")
     audit = json.loads(package.audit.read_text(encoding="utf-8"))
 
-    assert package.pitch.read_text(encoding="utf-8") == "Founder pitch\n"
+    assert package.pitch.read_bytes() == (pitch.strip() + "\n").encode("utf-8")
     assert audit["audit_source"] == "live-founder-submission"
     assert audit["status"] == "audited"
     assert all(value is False for value in audit["leakage_checklist"].values())

@@ -98,7 +98,7 @@ def prepare_live_package(
     )
 
     pitch_path.parent.mkdir(parents=True, exist_ok=True)
-    pitch_path.write_text(normalized_pitch, encoding="utf-8")
+    pitch_path.write_bytes(normalized_pitch.encode("utf-8"))
     audit_path = destination / f"data/investors/{vc}/audits/{episode}.json"
     audit_path.parent.mkdir(parents=True, exist_ok=True)
     audit_path.write_text(
