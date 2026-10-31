@@ -5,7 +5,6 @@ from __future__ import annotations
 from collections.abc import Iterator, Sequence
 from contextlib import contextmanager
 from dataclasses import asdict, is_dataclass
-import fcntl
 from hashlib import sha256
 import json
 import math
@@ -202,6 +201,8 @@ class _ArtifactStore:
 
     @classmethod
     def open(cls, root: Path) -> "_ArtifactStore":
+        if os.name == "nt":
+            raise ValueError("The v4.4 artifact store requires POSIX; run v4.4 under WSL or Linux")
         absolute = Path(os.path.abspath(os.fspath(root)))
         current_fd = os.open(
             absolute.anchor,
@@ -2391,6 +2392,8 @@ class VCDecisionWorkflowV44:
 
     @contextmanager
     def _run_lock(self) -> Iterator[None]:
+        import fcntl
+
         descriptor = os.dup(self._store.root_fd)
         locked = False
         try:
