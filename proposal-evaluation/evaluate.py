@@ -21,8 +21,6 @@ from pathlib import Path
 import numpy as np
 
 HERE = Path(__file__).resolve().parent
-DATA = HERE / "data"
-OUT = HERE / "results"
 SIGN = {"positive": 1.0, "negative": -1.0, "neutral": 0.0}
 WEIGHT = {"primary": 1.0, "secondary": 0.5}
 QUOTA = 0.3
@@ -30,18 +28,52 @@ MIN_OWN = 8
 
 ap = argparse.ArgumentParser()
 ap.add_argument("--quick", action="store_true", help="200 resamples instead of 2,000 (intervals approximate)")
+ap.add_argument("--data", type=Path, default=HERE / "data", help="Folder of the evaluation inputs (default: data/)")
+ap.add_argument("--annotations", type=Path, help="Investor rationales CSV (default: <data>/annotations.csv)")
+ap.add_argument("--predictions", type=Path, help="Twin rationales CSV (default: <data>/predictions.csv)")
+ap.add_argument("--out", type=Path, default=HERE / "results", help="Results folder (default: results/)")
 ARGS = ap.parse_args()
+DATA = ARGS.data
+OUT = ARGS.out
 NBOOT = 200 if ARGS.quick else 2000
 NBOOT_A7 = 100 if ARGS.quick else 1000
 
 
 # ---------------------------------------------------------------- data
 def jsonl(name):
-    return [json.loads(line) for line in open(DATA / name)]
+    return [json.loads(line) for line in open(DATA / name, encoding="utf-8")]
 
 
-rows = jsonl("decisions.jsonl")
-cat = json.load(open(DATA / "taxonomy.json"))
+def from_csv(annotations, predictions):
+    """The decisions.jsonl records, rebuilt from annotations.csv and predictions.csv."""
+    actual, mentions = {}, collections.defaultdict(list)
+    for m in csv.DictReader(open(annotations, encoding="utf-8")):
+        key = (m["vc_id"], m["episode_id"])
+        actual[key] = m["outcome"]
+        mentions[key].append({"label": m["rationale_label"], "dimension": m["rationale_dimension"],
+                              "direction": m["direction"], "decision_link": m["decision_link"]})
+    cases = {}
+    for p in csv.DictReader(open(predictions, encoding="utf-8")):
+        key = (p["vc_id"], p["episode_id"])
+        row = cases.setdefault(key, {"investor": key[0], "episode": key[1], "investigator_rationales": [],
+                                     "final_rationales": [], "agent_call": p["agent_call"],
+                                     "agent_likelihood": float(p["agent_likelihood"])})
+        item = {"taxonomy_label": p["rationale_label"], "direction": p["direction"], "salience": p["salience"],
+                "confidence": float(p["confidence"]) if p["confidence"] else None, "stage": p["stage"]}
+        row["final_rationales" if p["stage"] == "decision_agent" else "investigator_rationales"].append(item)
+    missing = sorted(key for key in cases if key not in actual)
+    if missing:
+        raise SystemExit(f"{len(missing)} predicted decisions have no on-air outcome in {annotations}, "
+                         f"e.g. {missing[0][0]} / {missing[0][1]}")
+    return [{**cases[key], "actual": actual[key], "reference_mentions": mentions[key] or None}
+            for key in sorted(cases)]
+
+
+if ARGS.annotations or ARGS.predictions or not (DATA / "decisions.jsonl").is_file():
+    rows = from_csv(ARGS.annotations or DATA / "annotations.csv", ARGS.predictions or DATA / "predictions.csv")
+else:
+    rows = jsonl("decisions.jsonl")
+cat = json.load(open(DATA / "taxonomy.json", encoding="utf-8"))
 N = len(rows)
 Y = np.array([r["actual"] == "In" for r in rows], bool)
 VC = [r["investor"] for r in rows]
@@ -224,7 +256,7 @@ def dci(key, auc_=False):
 
 
 # ---------------------------------------------------------------- report helpers
-OUT.mkdir(exist_ok=True)
+OUT.mkdir(parents=True, exist_ok=True)
 (OUT / "tables").mkdir(exist_ok=True)
 (OUT / "figures").mkdir(exist_ok=True)
 md = []
@@ -237,7 +269,7 @@ def table(name, caption, header, body):
     md.append("|" + "---|" * len(header))
     for b in body:
         md.append("| " + " | ".join(str(x) for x in b) + " |")
-    with open(OUT / "tables" / f"{name}.csv", "w", newline="") as f:
+    with open(OUT / "tables" / f"{name}.csv", "w", newline="", encoding="utf-8") as f:
         w = csv.writer(f)
         w.writerow(header)
         w.writerows(body)
@@ -303,7 +335,7 @@ check("Main text", "share of decisions that are rejections", "71.5%", pct(nO / N
 
 # ---------------------------------------------------------------- A2: memory sizes
 text("\n## Technical appendix")
-mem = json.load(open(DATA / "memory_sizes.json"))
+mem = json.load(open(DATA / "memory_sizes.json", encoding="utf-8"))
 ex = sorted(v["evidence_excerpts"] for v in mem.values())
 text(f"\n**A2.** Evidence excerpts per Investment Memory: {ex[0]:,} to {ex[-1]:,} (total {sum(ex):,}); "
      f"context entries total {sum(v['context_entries'] or 0 for v in mem.values()):,}.")
@@ -311,7 +343,7 @@ check("A2", "smallest / largest memory (excerpts)", "12 / 2,082", f"{ex[0]:,} / 
 
 # ---------------------------------------------------------------- Table A4: funnel
 fn = jsonl("funnel.jsonl")
-counts = json.load(open(DATA / "funnel_counts.json"))
+counts = json.load(open(DATA / "funnel_counts.json", encoding="utf-8"))
 fb = collections.defaultdict(list)
 for x in fn:
     fb[x["investor"]].append(x)
@@ -330,7 +362,7 @@ table("tableA4_funnel", "Table A4. From episode records to evaluated decisions, 
 for k, (name, d) in enumerate(zip(["episodes", "with transcript", "on panel", "on-air In or Out", "of which In", "passed leakage check", "assessed"],
                                   ["750", "675", "598", "482", "132", "413", "400"])):
     check("Table A4", name + " (total)", d, str(tot[k]))
-resp = list(csv.DictReader(open(DATA / "no_decision_responses.csv")))
+resp = list(csv.DictReader(open(DATA / "no_decision_responses.csv", encoding="utf-8")))
 rc = collections.Counter(r["category"] for r in resp)
 text(f"\nOn panel without an on-air In or Out: {tot[2] - tot[3]}; with a recorded response classification: {len(resp)}: "
      + "; ".join(f"{k} ({v})" for k, v in rc.most_common()) + ".")
@@ -641,7 +673,7 @@ check("A7", "investors with more than ten pitches", "13", str(len(big)))
 
 # ---------------------------------------------------------------- Table A10: single call
 scd = jsonl("single_call.jsonl")
-scrun = json.load(open(DATA / "single_call_run.json"))
+scrun = json.load(open(DATA / "single_call_run.json", encoding="utf-8"))
 key = {(VC[i], EP[i]): i for i in range(N)}
 M = [key[(x["investor"], x["episode"])] for x in scd]
 SCV = np.zeros(N, bool)
@@ -691,7 +723,7 @@ check("A8 text", "matched decisions / episodes / Ins", "200 / 107 / 56", f"{len(
 check("A8 text", "decision agent on the matched set: calls In", "39%", pct(V[M].mean(), 0))
 
 # ---------------------------------------------------------------- Table A11: GPT-6 Sol
-sol = json.load(open(DATA / "sol_pilots.json"))
+sol = json.load(open(DATA / "sol_pilots.json", encoding="utf-8"))
 cols = []
 for p in sol:
     cs = p["cases"]
@@ -810,5 +842,5 @@ for where, what, d, c in checks:
 text(f"\n{len(checks) - nd} of {len(checks)} numbers match; {nd} differ.")
 text("\nNot reproduced here: Table A3 (sources per investor) comes from the VC Trace Collector's collection records, "
      "which are not part of this repository.")
-(OUT / "results.md").write_text("\n".join(md) + "\n")
+(OUT / "results.md").write_text("\n".join(md) + "\n", encoding="utf-8")
 print(f"{len(checks) - nd}/{len(checks)} draft numbers match; see {OUT / 'results.md'}")
