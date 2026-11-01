@@ -459,6 +459,48 @@ def test_normalize_investigation_v41_drops_only_inaccessible_investor_citations(
     ]
 
 
+def test_normalize_investigation_v41_repairs_a_uniquely_miscopied_citation() -> None:
+    # A live model cited W-a1329cfbed8b78917ee5 with a stray trailing "d" on every retry.
+    accessible = {"W-a1329cfbed8b78917ee5", "W-2ea6c8e12f8c630e92c1"}
+    payload = investigation_v41()
+    payload["rationales"][0]["wiki_evidence_ids"] = [
+        "W-a1329cfbed8b78917ee5d",
+        "W-a1329cfbed8b78917ee5",
+        "W-2ea6c8e12f8c630e92",
+    ]
+
+    normalized, findings = normalize_investigation_v41_evidence_payload(
+        payload,
+        wiki_evidence_ids=accessible,
+        historical_evidence_ids=set(),
+    )
+
+    assert normalized["rationales"][0]["wiki_evidence_ids"] == [
+        "W-a1329cfbed8b78917ee5",
+        "W-2ea6c8e12f8c630e92c1",
+    ]
+    assert [row for row in findings if ":R1:" in row] == [
+        "NORMALIZED_REPAIRED_MISCOPIED_RATIONALE_EVIDENCE:R1:W-a1329cfbed8b78917ee5d->W-a1329cfbed8b78917ee5",
+        "NORMALIZED_REPAIRED_MISCOPIED_RATIONALE_EVIDENCE:R1:W-2ea6c8e12f8c630e92->W-2ea6c8e12f8c630e92c1",
+    ]
+
+
+def test_normalize_investigation_v41_drops_an_ambiguous_miscopied_citation() -> None:
+    payload = investigation_v41()
+    payload["rationales"][0]["wiki_evidence_ids"] = ["W-a1329cfbed8b78917e"]
+
+    normalized, findings = normalize_investigation_v41_evidence_payload(
+        payload,
+        wiki_evidence_ids={"W-a1329cfbed8b78917ee5", "W-a1329cfbed8b78917ef0"},
+        historical_evidence_ids=set(),
+    )
+
+    assert normalized["rationales"][0]["wiki_evidence_ids"] == []
+    assert [row for row in findings if ":R1:" in row] == [
+        "NORMALIZED_DROPPED_INACCESSIBLE_RATIONALE_EVIDENCE:R1:W-a1329cfbed8b78917e"
+    ]
+
+
 def test_normalize_investigation_v41_repairs_observation_aliases_and_filters_auxiliary_mappings() -> None:
     payload = investigation_v41()
     payload["unmapped_observations"] = [

@@ -299,11 +299,27 @@ def normalize_investigation_v41_evidence_payload(
     wiki_evidence_ids: set[str],
     historical_evidence_ids: set[str],
 ) -> tuple[object, list[str]]:
-    """Remove inaccessible citations without inventing replacement evidence."""
+    """Remove inaccessible citations without inventing replacement evidence.
+
+    A citation that differs from exactly one accessible ID only by a character
+    or two at the end is that ID miscopied, so it is repaired, not dropped.
+    """
     normalized = deepcopy(payload)
     findings: list[str] = []
     if type(normalized) is not dict:
         return normalized, findings
+
+    def miscopied(value: object, allowed: set[str]) -> str | None:
+        if type(value) is not str:
+            return None
+        matches = [
+            candidate
+            for candidate in allowed
+            if abs(len(candidate) - len(value)) <= 2
+            and min(len(candidate), len(value)) >= 12
+            and (value.startswith(candidate) or candidate.startswith(value))
+        ]
+        return matches[0] if len(matches) == 1 else None
 
     def filter_field(
         row: dict,
@@ -315,12 +331,19 @@ def normalize_investigation_v41_evidence_payload(
         values = row.get(field)
         if type(values) is not list:
             return
-        retained = [value for value in values if value in allowed]
+        retained = []
         for value in values:
+            if value not in allowed and (repaired := miscopied(value, allowed)):
+                findings.append(
+                    f"NORMALIZED_REPAIRED_MISCOPIED_{kind}_EVIDENCE:{identifier}:{value}->{repaired}"
+                )
+                value = repaired
             if value not in allowed:
                 findings.append(
                     f"NORMALIZED_DROPPED_INACCESSIBLE_{kind}_EVIDENCE:{identifier}:{value}"
                 )
+            elif value not in retained:
+                retained.append(value)
         row[field] = retained
 
     for row in normalized.get("rationales", []):
