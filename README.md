@@ -1,5 +1,7 @@
 # VCLogic Founder Pitch Assessment Pipeline
 
+> **Part of the [VCLogic suite](https://github.com/VCLogic/vclogic-suite).** To install and run all five components together (collection, memory generation, onboarding, assessment and the web interface), follow the [suite README](https://github.com/VCLogic/vclogic-suite#contents). This README covers using this repository on its own.
+
 Reusable Python engine for evidence-grounded founder pitch assessments. Phase 1 investigates investor rationales; Phase 2 synthesizes investment decisions. The package also supplies the grounded rehearsal runtime and command-line tools.
 
 The React application and FastAPI API live in [vclogic-web-application](https://github.com/VCLogic/vclogic-web-application). This repository has no HTTP server or frontend dependency. Python imports retain the existing `vc_clone_graph` namespace.
