@@ -63,10 +63,10 @@ def from_csv(annotations, predictions):
         row["final_rationales" if p["stage"] == "decision_agent" else "investigator_rationales"].append(item)
     missing = sorted(key for key in cases if key not in actual)
     if missing:
-        raise SystemExit(f"{len(missing)} predicted decisions have no on-air outcome in {annotations}, "
-                         f"e.g. {missing[0][0]} / {missing[0][1]}")
+        print(f"warning: left out {len(missing)} predicted decisions with no on-air outcome in {annotations}, "
+              f"e.g. {missing[0][0]} / {missing[0][1]}")
     return [{**cases[key], "actual": actual[key], "reference_mentions": mentions[key] or None}
-            for key in sorted(cases)]
+            for key in sorted(cases) if key in actual]
 
 
 if ARGS.annotations or ARGS.predictions or not (DATA / "decisions.jsonl").is_file():
